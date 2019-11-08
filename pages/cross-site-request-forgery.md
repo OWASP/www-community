@@ -27,7 +27,7 @@ administrative account, CSRF can compromise the entire web application.
 ### How to Review Code for CSRF Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
+Guide](/www-project-code-review-guide) article on how to
 [review code for CSRF
 vulnerabilities](Reviewing_code_for_Cross-Site_Request_Forgery_issues "wikilink").
 
