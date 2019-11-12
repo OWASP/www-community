@@ -5,7 +5,7 @@ title: XSS Filter Evasion Cheat Sheet
 author: Jim Manico
 contributors: Abdullah Hussam, Michael McCabe, Luke Plant, Randomm, David Shaw, ALange, Matt Tesauro, Adam Caudill, Anandu,
               DhirajMishra, Ono, Bill Sempf, Dan Wallis, Peter Mosmans, Dominique Righetto
-permalink: /password-special-characters
+tags: attacks, XSS, Cheat Sheets
 
 ---
 
