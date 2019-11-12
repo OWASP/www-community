@@ -11,7 +11,7 @@ permalink: /xss-filter-evasion-cheatsheet
 
 # Introduction
 
-`__TOC__``This article is focused on providing application security testing professionals with a guide to assist in Cross Site Scripting testing. The initial contents of this article were donated to OWASP by RSnake, from his seminal XSS Cheat Sheet, which was at: `<http://ha.ckers.org/xss.html>`. That site now redirects to its new home here, where we plan to maintain and enhance it. The very first OWASP Prevention Cheat Sheet, the `[`XSS`` 
+This article is focused on providing application security testing professionals with a guide to assist in Cross Site Scripting testing. The initial contents of this article were donated to OWASP by RSnake, from his seminal XSS Cheat Sheet, which was at: `<http://ha.ckers.org/xss.html>`. That site now redirects to its new home here, where we plan to maintain and enhance it. The very first OWASP Prevention Cheat Sheet, the `[`XSS`` 
  ``(Cross``   ``Site``   ``Scripting)``   ``Prevention``   ``Cheat`` 
  ``Sheet`](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink")`, was inspired by RSnake's XSS Cheat Sheet, so we can thank him for our inspiration. We wanted to create short, simple guidelines that developers could follow to prevent XSS, rather than simply telling developers to build apps that could protect against all the fancy tricks specified in rather complex attack cheat sheet, and so the `[` 
  ``OWASP``   ``Cheat``   ``Sheet`` 
