@@ -18,7 +18,7 @@ Include the following front matter in your file (for examples, see pages/passwor
     author: [author name]
     contributors: [contributors]
     permalink: [direct link to page, removes /pages]
-
+    tags: [Attacks, XSS, etc]
     ---
 
 ## Recently Submitted Files
