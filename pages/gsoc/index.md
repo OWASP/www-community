@@ -15,5 +15,5 @@ OWASP has taken part in Google Summer of Code many times over the history of bot
   - [GSoc 2019 Ideas](gsoc2019ideas)
 
 ...
-- GSoC 2011
-  - [GSoC 2011 Ideas](gsoc2011ideas)
+- GSoC 2012
+  - [GSoC 2012 Ideas](gsoc2012ideas)
