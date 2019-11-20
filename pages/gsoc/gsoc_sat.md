@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: full-width
 title: GSoC SAT
 tags: gsoc
 ---
