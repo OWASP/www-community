@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: full-width
 title: GSoC 2019 Ideas
 tags: gsoc
 ---
@@ -25,7 +25,7 @@ Some improvements or the suggestions which we can do to improve the functionalit
 3. Extend the bots capability to do the google search (using web scraping) for the things which are not available in the database. So, it will have a wider scope of knowledge.
 4. Add basic conversation flow which makes SKF Bot friendly and provides the better user experience. Example: Replies to the general queries like How are you? What is your Name etc?
 5. Extend the bot capability to reply to what security controls should be followed from the ASVS and MASVS or other custom checklists that are present in SKF.
-# Extend the bot to different platforms like Facebook, telegram, slack, Google Assistant etc.
+6. Extend the bot to different platforms like Facebook, telegram, slack, Google Assistant etc.
 Existing chatbot implementation is on Gitter. You can test the bot by typing @skfchatbot on Gitter Community.
 
 #### Getting started:
@@ -110,8 +110,8 @@ OWASP DefectDojo is a popular open source vulnerability management tool and is u
 
 ### Option 1: Unit Tests - Difficulty: Easy
 - If you're new to programming, unit tests are short scripts designed to test a specific function of an application.
-- The project needs additional unit tests to ensure that new code functions properly. 
-- Review the current [https://github.com/DefectDojo/django-DefectDojo/tree/dev/dojo/unittests unit tests]  
+- The project needs additional unit tests to ensure that new code functions properly.
+- Review the current [unit tests](https://github.com/DefectDojo/django-DefectDojo/tree/dev/dojo/unittests)
 - Complete Code Coverage Testing
   - Validate Tests exist for the following (create any that are missing):
     - Finding, Test, Engagement, Reports, Endpoints 
@@ -136,7 +136,7 @@ OWASP Honeypot is an open source software in Python language which designed for 
 
 ### Getting Start
 
-It's best to start from [https://github.com/zdresearch/OWASP-Honeypot/wiki GitHub wiki page], we are looking forward to adding more modules and optimize the core.
+It's best to start from the [GitHub wiki page](https://github.com/zdresearch/OWASP-Honeypot/wiki), we are looking forward to adding more modules and optimize the core.
 
 #### Technologies
 
@@ -246,7 +246,7 @@ Coming up with a sophisticated proposal (optimally even with a good initial samp
 
 #### Brief Explanation:
 
-Ideas for potential new hacking challenges are collected in [https://github.com/bkimminich/juice-shop/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge GitHub issues labeled "challenge"]. This project could implement a whole bunch of challenges one by one and release them over the course of several small releases. This would allow the student to work in a professional Continuous Delivery kind of way while bringing benefit to the Juice Shop over the duration of the project.
+Ideas for potential new hacking challenges are collected in [GitHub issues labeled "challenge"](https://github.com/bkimminich/juice-shop/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge). This project could implement a whole bunch of challenges one by one and release them over the course of several small releases. This would allow the student to work in a professional Continuous Delivery kind of way while bringing benefit to the Juice Shop over the duration of the project.
 
 Coming up with good additional ideas for challenges in the proposal could make the difference between being selected or declined as a student for this project!
 
@@ -293,7 +293,7 @@ You have an awesome idea to improve OWASP Juice Shop that is not on this list? G
 ## OWASP-Securetea Tools Project
 The OWASP SecureTea Project is an application designed to help secure a person's laptop or computer / server with IoT (Internet Of Things) and notify users (via various communication mechanisms), whenever someone accesses their computer / server. This application uses the touchpad/mouse/wireless mouse to determine activity and is developed in Python and tested on various machines (Linux, Mac & Windows).
 The software is still under development, and will eventually have it's own IDS(Intrusion Detection System) / IPS(Instrusion Prevention System), firewall, anti-virus, intelligent log monitoring capabilities with web defacement detection, and support for much more communication medium.
-- https://github.com/OWASP/SecureTea-Project/blob/master/README.md
+- [SecureTea-Project on GitHub](https://github.com/OWASP/SecureTea-Project/blob/master/README.md)
 
 #### Brief Explanation
 We are looking any awesome idea to improve Securetea Project that is not on this list? We are expecting make this project will be useful to everyone to secure their Small IoT. 
@@ -340,7 +340,7 @@ jumpstart, check out: [new arch](https://github.com/owtf/owtf/tree/new-arch).
 
 #### Brief Explanation
 
-OWTF allows many passive tests, such as those using third party websites like Google, Bing, etc. searches, as well as handy "Search for vulnerability" search boxes (i.e. Fingerprinting plugin). This feature involves the creation of a '''script''' that produces an interactive OWTF report with the intention of hosting it in the github.io site. The idea here is to have a passive, JavaScript-only interactive report available on the owtf.github.io site, so that people can try OWTF '''without installing anything''', simply visiting a URL.
+OWTF allows many passive tests, such as those using third party websites like Google, Bing, etc. searches, as well as handy "Search for vulnerability" search boxes (i.e. Fingerprinting plugin). This feature involves the creation of a "script" that produces an interactive OWTF report with the intention of hosting it in the github.io site. The idea here is to have a passive, JavaScript-only interactive report available on the owtf.github.io site, so that people can try OWTF "without installing anything", simply visiting a URL.
 
 This would be a normal OWTF interactive report where the user can:
 * Enter a target
@@ -388,7 +388,7 @@ Bonus:
 - Design and implement a proxy plugin (middleware) architecture so that the plugins can be defined separately and the user can choose what plugins to include dynamically (from the web interface).
 - Replace the current Requester (based on urllib, urllib2) with a more robust Requester based on the new urllib3 with support for a real headless browser factory. The typical flow when requested for an authenticated browser instance (using PhantomJS)
 
-- The "Requester" module checks if there is any login parameters provided (i.e form-based or script - look at https://github.com/owtf/login-sessions-plugin)
+- The "Requester" module checks if there is any login parameters provided (i.e form-based or script - look at the [login-sessions-plugin]( https://github.com/owtf/login-sessions-plugin) )
 - Create a browser instance and do the necessary login procedure
 - Handle the browser for the URI
 - When called to close the browser, do a clean logout and kill the browser instance.
@@ -418,9 +418,9 @@ OWASP OWTF Project Leaders
 
 ### Brief Explanation:
 
-The current web interface is a mixture of Tornado Jinja templates and ReactJS. A complete UI change to a stable ReactJS-based interface should be the deliverable for this project.  Most of the hard part for the change has already been done and added in a separate branch at (https://github.com/owtf/owtf/tree/develop)
+The current web interface is a mixture of Tornado Jinja templates and ReactJS. A complete UI change to a stable ReactJS-based interface should be the deliverable for this project.  Most of the hard part for the change has already been done and added in a separate branch at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop)
 
-For background on OWASP OWTF please see: (https://www.owasp.org/index.php/OWASP_OWTF)
+For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
 
 #### Expected results:
 - IMPORTANT:Clean, maintainable (ES6 compatible and using recommended design patterns) React (JavaScript) code. [This](https://github.com/getsentry/zeus/tree/master/webapp) is a good example!)
@@ -445,9 +445,9 @@ OWASP OWTF Project
 
 The current plugin system is not very useful and it is painful to browse many plugins. Most of the plugins do have much code and most of is repeated - much refactoring needed there.
 
-This issue is documented in detail at (https://github.com/owtf/owtf/issues/905).
+This issue is documented in detail at [905](https://github.com/owtf/owtf/issues/905).
 
-For background on OWASP OWTF please see: (https://www.owasp.org/index.php/OWASP_OWTF)
+For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
 
 #### Expected results:
 - IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
@@ -461,7 +461,7 @@ For background on OWASP OWTF please see: (https://www.owasp.org/index.php/OWASP_
 ## OWASP iGoat
 
 ### Idea 1:
-Completing OWASP iGoat documentation at https://docs.igoatapp.com/ and creating demo videos at for OWASP iGoat YouTube channel for learning purpose.
+Completing OWASP iGoat documentation at [docs.igoatapp.com](https://docs.igoatapp.com/) and creating demo videos at for OWASP iGoat YouTube channel for learning purpose.
 
 ### Idea 2:
 Adding new challenge pack / CTF for iGoat. It should be one point solution for learning iOS app security
@@ -516,7 +516,7 @@ Simon Bennetts and the rest of the ZAP Core Team
 
 ### Brief Explanation:
 
-Currently a user must manually configure ZAP to handle authentication, eg as per (https://github.com/zaproxy/zaproxy/wiki/FAQformauth)
+Currently a user must manually configure ZAP to handle authentication, eg as per [FAQformauth](https://github.com/zaproxy/zaproxy/wiki/FAQformauth)
 This is time consuming and error prone.
 Ideally ZAP would help detect login and registration pages and provide more assistance when configuring authentication, ideally being able to completely automate the task for as many sort of webapps as possible.
 This project will be a continuation of the work that was started as part of last year's GSoC.
@@ -549,9 +549,9 @@ A vulnerable web application, and backend API/web services deployed in OpenWrt c
 
 #### Getting Started:
 
-- Have a look at the getting started page to get familiar with virtualizing OpenWrt: (https://github.com/scriptingxss/IoTGoat/blob/master/BuildEnvironment.md)
+- Have a look at the getting started page to get familiar with [virtualizing OpenWrt](https://github.com/scriptingxss/IoTGoat/blob/master/BuildEnvironment.md)
 - Create a GitHub account to be a collaborator to the repository
-- Review the example vulnerabilities and challenges: (https://github.com/scriptingxss/IoTGoat/blob/master/Examples/Weak%2C%20Guessable%2C%20or%20Hardcoded%20Passwords.md)
+- Review the [example vulnerabilities and challenges](https://github.com/scriptingxss/IoTGoat/blob/master/Examples/Weak%2C%20Guessable%2C%20or%20Hardcoded%20Passwords.md)
 
 #### Expected results:
 
@@ -582,9 +582,9 @@ Deliberately insecure services configured within OpenWrt such as an miniupnp dae
 
 #### Getting Started:
 
-- Have a look at the getting started page to get familiar with virtualizing OpenWrt: (https://github.com/scriptingxss/IoTGoat#-getting-started-)
-- Create a GitHub account to be added as a collaborator to the repository
-- Review the example vulnerabilities and challenges: (https://github.com/scriptingxss/IoTGoat/blob/master/challenges/challenges.md)
+- Have a look at the getting started page to get familiar with [virtualizing OpenWrt](https://github.com/scriptingxss/IoTGoat/blob/master/BuildEnvironment.md)
+- Create a GitHub account to be a collaborator to the repository
+- Review the [example vulnerabilities and challenges](https://github.com/scriptingxss/IoTGoat/blob/master/Examples/Weak%2C%20Guessable%2C%20or%20Hardcoded%20Passwords.md)
 
 #### Expected results:
 
@@ -609,9 +609,9 @@ Develop custom firmware builds of the latest OpenWrt version (18.06) demonstrati
 #### Getting Started:
 
 - Review OpenWrt's developer guide to get familiar with creating custom firmware builds
-  - https://openwrt.org/docs/guide-developer/start
-  - https://openwrt.org/docs/guide-developer/build-system/install-buildsystem
-  - https://github.com/openwrt/openwrt
+  - [OpenWRT Developer start](https://openwrt.org/docs/guide-developer/start)
+  - [OpenWRT Build System](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem)
+  - [OpenWRT](https://github.com/openwrt/openwrt)
 
 #### Expected results:
 
@@ -636,9 +636,9 @@ You may suggest additional challenges or ideas that fit this project's objective
 
 The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks. Within this project, Anglia Ruskin University is leading the collection, storage and analysis of threat intelligence data. 
 
-(https://www.owasp.org/index.php/OWASP_Honeypot_Project)
+[OWASP_Honeypot_Project](https://www.owasp.org/index.php/OWASP_Honeypot_Project)
 
-(https://github.com/OWASP/Honeypot-Project/)
+[Honeypot-Project on GitHub](https://github.com/OWASP/Honeypot-Project/)
 
 ### Brief Explanation
 The purpose of this part of the project is to capture intelligence on attacker activity against web applications and utilise this intelligence as ways to protect software against attacks. Honeypots are an established industry technique to provide a realistic target to entice a criminal, whilst encouraging them to divulge the tools and techniques they use during an attack. Like bees to a honeypot. These honeypots are safely designed to contain no information of monetary use to an attacker, and hence provide no risk to the businesses implementing them.
@@ -695,7 +695,7 @@ You may suggest additional challenges or ideas that fit this project's objective
 
 Tool projects aim to assessment more than one or many web application using owasp risk rating mathodologies.
 
-(https://github.com/OWASP/RiskAssessmentFramework)
+[RiskAssessmentFramework on GitHub](https://github.com/OWASP/RiskAssessmentFramework)
 
 ### Idea 1:
 
