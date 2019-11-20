@@ -24,7 +24,7 @@ WebGoatPHP will be a deliberately insecure PHP web application which operates in
 
 You just need to know PHP. You are supposed to define flawed systems, which is not the hardest thing. Familiarity with web application security and SQL is recommended.
 
-**Mentor:** [[User:Abbas Naderi|Abbas Naderi]]
+**Mentor:** Abbas Naderi
 
 ### OWASP CSRF Guard
 
@@ -40,7 +40,7 @@ A transparent Apache 2 module properly mitigating all POST CSRF attacks, as well
 
 Knowing CSRF and at least one way to defend against it, PHP, C/C++, Linux.
 
-**Mentor:** [[User:Abbas Naderi|Abbas Naderi]]
+**Mentor:** Abbas Naderi
 
 ### OWASP PHP Security Project
 
@@ -56,7 +56,7 @@ Result of this project is much more security among PHP applications. Most PHP ap
 
 Anyone with adequate PHP programming language experience (possibly web application development in PHP).  There are hard and easy parts of this project. For tougher parts, familiarity with security concepts, advanced SQL, and advanced PHP and web server configuration is required. 
 
-**Mentor:** [[User:Abbas Naderi|Abbas Naderi]]
+**Mentor:** Abbas Naderi
 
 ### OWASP RBAC Project
 
@@ -68,7 +68,7 @@ RBAC stands for Role Based Access Control and is the de-facto access control and
 
 Unfortunately because of many performance and development problems, no suitable RBAC implementation was available until recently, so developers and admins mostly used ACLs and other forms of simple access control methods, which leads to broken and unmaintainable access control over the time. 
 
-OWASP provides the RBAC project, as a stand-alone library with very fast access control checks and standard mature code-base. Currently [[PHPRBAC]] which is the PHP version of the RBAC project is released.
+OWASP provides the RBAC project, as a stand-alone library with very fast access control checks and standard mature code-base. Currently "PHPRBAC"" which is the PHP version of the RBAC project is released.
 
 #### Expected Results:
 
@@ -78,7 +78,7 @@ Standard NIST level 2 hierarchical RBAC libraries for different programming lang
 
 Good SQL knowledge, library development schemes, familiarity with one of the programming languages.
 
-**Mentor:** [[User:Abbas Naderi|Abbas Naderi]]
+**Mentor:** Abbas Naderi
 
 **Skill Level:** Advanced
 
@@ -826,7 +826,7 @@ Java Web and Java Filter programming, JUnit unit testing. Filter programming is 
 
 #### Description
 
-Classic_ASP_Security_Project]is a port of the famous ESAPI for Java. In particular, Classic ASP version works with ASP.NET port by using Interop. However interop technology is not stable and has many issues like many requirements to  work properly, non understandable error messages, unexpected errors and dependencies to third party libraries. Also ASP.NET version of ESAPI is not release level.
+Classic_ASP_Security_Project is a port of the famous ESAPI for Java. In particular, Classic ASP version works with ASP.NET port by using Interop. However interop technology is not stable and has many issues like many requirements to  work properly, non understandable error messages, unexpected errors and dependencies to third party libraries. Also ASP.NET version of ESAPI is not release level.
 
 25 years later there are still millions of applications on the wild as proven by the massive automated Sql injections targeting Classic ASP pages in later years. An effective solution that does not require complete rewriting of applications is still required.
 

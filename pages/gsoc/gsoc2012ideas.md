@@ -435,7 +435,7 @@ The ESAPI-PHP Project has become outdated and needs to be brought up-to-date wit
 
 PHP-Library with ESAPI 2.x functionality.
 
-'''Knowledge Prerequisites:'''
+#### Knowledge Prerequisites:
 
 ESAPI 2.0.x is written in Java, so an understanding of the Java programming language is required as well as proficiency in PHP. Additionally, a basic understanding of application security would be desireable.
 
