@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: GSoC 2011 Ideas
+title: GSoC 2012 Ideas
 tags: gsoc
 ---
 # GSoC 2012 Ideas
