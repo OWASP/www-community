@@ -8,7 +8,7 @@ permalink: /password-special-characters
 
 ---
 
-## Password special characters is a selection of punctuation characters that are present on standard US keyboard and frequently used in passwords.
+Password special characters is a selection of punctuation characters that are present on standard US keyboard and frequently used in passwords.
 
 | Character | Name | Unicode
 | :---: | :---: | :---: |
