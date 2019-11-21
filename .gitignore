@@ -2,3 +2,8 @@
 /Gemfile.lock
 /favicon.ico
 _site/
+
+# Eclipse
+# -------
+*.project
+*.settings
