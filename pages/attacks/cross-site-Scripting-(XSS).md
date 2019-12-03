@@ -6,6 +6,7 @@ author: KirstenS
 contributors: Jim Manico, Jeff Williams, Dave Wichers, Adar Weidman, Roman, Alan Jex, Andrew Smith, Jeff Knutson, Imifos, Erez Yalon
 permalink: /xss
 tag: attack, XSS
+migrated: 1
 
 ---
 
