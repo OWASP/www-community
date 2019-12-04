@@ -19,6 +19,5 @@ Attacks are the techniques that attackers use to exploit the vulnerabilities in 
     {% if page.path contains 'pages/attacks/' and page.name != 'index.md' %}
     <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
     {% endif %}
-    Page name: {{ page.name }}
 {% endfor %}
 </ul>
