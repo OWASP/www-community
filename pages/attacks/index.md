@@ -5,6 +5,7 @@ title: Attacks
 author:
 contributors:
 tags: Attacks
+permalink: /attacks
 
 ---
 
