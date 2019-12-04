@@ -27,7 +27,6 @@ Include the following front matter in your file (for examples, see pages/passwor
 <ul>
 {% for page in pages %}
     {% if page.path contains 'pages/' and page.name != 'index.md' %}
-    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}{% endif %}
-    </li>
+    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>{% endif %}
     {% endfor %}
 </ul>
