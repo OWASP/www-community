@@ -2,7 +2,6 @@
 layout: col-sidebar
 title: GSoC
 tags: gsoc
-permalink: gsoc
 ---
 
 # OWASP GSoC Information
