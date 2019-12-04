@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: Binary planting
+title: Binary Planting
 author: 
 contributors:
 permalink: /attacks/Binary_planting
