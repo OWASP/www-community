@@ -2,6 +2,7 @@
 
 layout: col-sidebar
 title: OWASP Community Pages
+tags: community
 
 ---
 
