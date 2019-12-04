@@ -6,6 +6,8 @@ tags: community
 
 ---
 
+<!-- rebuild 1 -->
+
 OWASP Community Pages is a place where OWASP can accept community contributions for security-related content.
 To contribute, go to the [repository for this site.](https://github.com/OWASP/www-community)
 Go into the pages folder and create a new file.  Save and commit the file. 
