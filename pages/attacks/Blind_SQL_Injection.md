@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: Blind_SQL_Injection
+title: Blind SQL Injection
 author: 
 contributors:
 permalink: /attacks/Blind_SQL_Injection
