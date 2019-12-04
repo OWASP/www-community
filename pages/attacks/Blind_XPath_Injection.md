@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: Blind_XPath_Injection
+title: Blind XPath Injection
 author: 
 contributors:
 permalink: /attacks/Blind_XPath_Injection
