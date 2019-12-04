@@ -26,6 +26,8 @@ Include the following front matter in your file (for examples, see pages/passwor
 {% assign pages = site.pages | sort: 'date' | limit: 10 %}
 <ul>
 {% for page in pages %}
-    {% if page.path contains 'pages/' %}
-    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}{% endif %}{% endfor %}</li>
+    {% if page.path contains 'pages/' and page.name != 'index.md' %}
+    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}{% endif %}
+    </li>
+    {% endfor %}
 </ul>
