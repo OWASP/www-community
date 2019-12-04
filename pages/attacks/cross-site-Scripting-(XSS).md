@@ -4,7 +4,7 @@ layout: col-sidebar
 title: Cross Site Scripting (XSS)
 author: KirstenS
 contributors: Jim Manico, Jeff Williams, Dave Wichers, Adar Weidman, Roman, Alan Jex, Andrew Smith, Jeff Knutson, Imifos, Erez Yalon
-permalink: /xss
+permalink: /attacks/xss
 tag: attack, XSS
 auto-migrated: 1
 

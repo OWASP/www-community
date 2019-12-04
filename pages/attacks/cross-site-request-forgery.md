@@ -4,7 +4,7 @@ layout: col-sidebar
 title: Cross Site Request Forgery (CSRF)
 author: KirstenS
 contributors: Dave Wichers, Davisnw, Paul Petefish, Adar Weidman, Michael Brooks, Ahsan Mir, Dc, D0ubl3 h3lix, Jim Manico, Robert Gilbert, Tgondrom, Pawel Krawczyk, Brandt, A V Minhaz, Kevin Lorenzo, Andrew Smith, Christina Schelin, Ari Elias-Bachrach, Sarciszewski
-permalink: /csrf
+permalink: /attacks/csrf
 tag: attack, CSRF
 auto-migrated: 1
 
