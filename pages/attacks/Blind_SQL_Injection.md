@@ -1,5 +1,15 @@
-__NOTOC__
-Last revision (mm/dd/yy): **//**
+---
+
+layout: col-sidebar
+title: Blind_SQL_Injection
+author: 
+contributors:
+permalink: /attacks/Blind_SQL_Injection
+tag: attack, blind sql injection, sql injection
+auto-migrated: 1
+
+---
+
 
 ## Description
 
