@@ -4,7 +4,7 @@ layout: col-sidebar
 title: Attacks
 author:
 contributors:
-tags: Attacks
+tags: attack
 permalink: /attacks
 
 ---
