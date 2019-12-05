@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Null Dereference.md
+title: Null Dereference
 author: 
 contributors: 
 permalink: /vulnerabilities/Null_Dereference
-tag: vulnerability, Null Dereference.md
+tag: vulnerability, Null Dereference
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Use of Obsolete Methods.md
+title: Use of Obsolete Methods
 author: 
 contributors: 
 permalink: /vulnerabilities/Use_of_Obsolete_Methods
-tag: vulnerability, Use of Obsolete Methods.md
+tag: vulnerability, Use of Obsolete Methods
 auto-migrated: 1
 
 ---

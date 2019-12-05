@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Password Plaintext Storage.md
+title: Password Plaintext Storage
 author: 
 contributors: 
 permalink: /vulnerabilities/Password_Plaintext_Storage
-tag: vulnerability, Password Plaintext Storage.md
+tag: vulnerability, Password Plaintext Storage
 auto-migrated: 1
 
 ---

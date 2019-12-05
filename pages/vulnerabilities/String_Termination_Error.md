@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: String Termination Error.md
+title: String Termination Error
 author: 
 contributors: 
 permalink: /vulnerabilities/String_Termination_Error
-tag: vulnerability, String Termination Error.md
+tag: vulnerability, String Termination Error
 auto-migrated: 1
 
 ---

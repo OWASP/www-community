@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: XML External Entity (XXE) Processing.md
+title: XML External Entity (XXE) Processing
 author: 
 contributors: 
 permalink: /vulnerabilities/XML_External_Entity_(XXE)_Processing
-tag: vulnerability, XML External Entity (XXE) Processing.md
+tag: vulnerability, XML External Entity (XXE) Processing
 auto-migrated: 1
 
 ---

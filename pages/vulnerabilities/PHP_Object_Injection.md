@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: PHP Object Injection.md
+title: PHP Object Injection
 author: 
 contributors: 
 permalink: /vulnerabilities/PHP_Object_Injection
-tag: vulnerability, PHP Object Injection.md
+tag: vulnerability, PHP Object Injection
 auto-migrated: 1
 
 ---

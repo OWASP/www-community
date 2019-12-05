@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Multiple admin levels.md
+title: Multiple admin levels
 author: 
 contributors: 
 permalink: /vulnerabilities/Multiple_admin_levels
-tag: vulnerability, Multiple admin levels.md
+tag: vulnerability, Multiple admin levels
 auto-migrated: 1
 
 ---

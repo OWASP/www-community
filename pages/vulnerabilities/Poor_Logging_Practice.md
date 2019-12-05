@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Poor Logging Practice.md
+title: Poor Logging Practice
 author: 
 contributors: 
 permalink: /vulnerabilities/Poor_Logging_Practice
-tag: vulnerability, Poor Logging Practice.md
+tag: vulnerability, Poor Logging Practice
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Unsafe JNI.md
+title: Unsafe JNI
 author: 
 contributors: 
 permalink: /vulnerabilities/Unsafe_JNI
-tag: vulnerability, Unsafe JNI.md
+tag: vulnerability, Unsafe JNI
 auto-migrated: 1
 
 ---

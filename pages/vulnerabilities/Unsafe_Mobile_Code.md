@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Unsafe Mobile Code.md
+title: Unsafe Mobile Code
 author: 
 contributors: 
 permalink: /vulnerabilities/Unsafe_Mobile_Code
-tag: vulnerability, Unsafe Mobile Code.md
+tag: vulnerability, Unsafe Mobile Code
 auto-migrated: 1
 
 ---

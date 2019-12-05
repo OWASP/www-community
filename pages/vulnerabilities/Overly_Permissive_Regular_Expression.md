@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Overly Permissive Regular Expression.md
+title: Overly Permissive Regular Expression
 author: 
 contributors: 
 permalink: /vulnerabilities/Overly_Permissive_Regular_Expression
-tag: vulnerability, Overly Permissive Regular Expression.md
+tag: vulnerability, Overly Permissive Regular Expression
 auto-migrated: 1
 
 ---

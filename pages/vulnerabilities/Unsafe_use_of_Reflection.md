@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Unsafe use of Reflection.md
+title: Unsafe use of Reflection
 author: 
 contributors: 
 permalink: /vulnerabilities/Unsafe_use_of_Reflection
-tag: vulnerability, Unsafe use of Reflection.md
+tag: vulnerability, Unsafe use of Reflection
 auto-migrated: 1
 
 ---

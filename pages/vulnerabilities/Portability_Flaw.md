@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Portability Flaw.md
+title: Portability Flaw
 author: 
 contributors: 
 permalink: /vulnerabilities/Portability_Flaw
-tag: vulnerability, Portability Flaw.md
+tag: vulnerability, Portability Flaw
 auto-migrated: 1
 
 ---

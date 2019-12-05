@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Privacy Violation.md
+title: Privacy Violation
 author: 
 contributors: 
 permalink: /vulnerabilities/Privacy_Violation
-tag: vulnerability, Privacy Violation.md
+tag: vulnerability, Privacy Violation
 auto-migrated: 1
 
 ---

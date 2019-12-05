@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Use of hard-coded password.md
+title: Use of hard-coded password
 author: 
 contributors: 
 permalink: /vulnerabilities/Use_of_hard-coded_password
-tag: vulnerability, Use of hard-coded password.md
+tag: vulnerability, Use of hard-coded password
 auto-migrated: 1
 
 ---

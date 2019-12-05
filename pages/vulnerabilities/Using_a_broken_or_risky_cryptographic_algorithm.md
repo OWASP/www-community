@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Using a broken or risky cryptographic algorithm.md
+title: Using a broken or risky cryptographic algorithm
 author: 
 contributors: 
 permalink: /vulnerabilities/Using_a_broken_or_risky_cryptographic_algorithm
-tag: vulnerability, Using a broken or risky cryptographic algorithm.md
+tag: vulnerability, Using a broken or risky cryptographic algorithm
 auto-migrated: 1
 
 ---

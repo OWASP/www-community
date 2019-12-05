@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Undefined Behavior.md
+title: Undefined Behavior
 author: 
 contributors: 
 permalink: /vulnerabilities/Undefined_Behavior
-tag: vulnerability, Undefined Behavior.md
+tag: vulnerability, Undefined Behavior
 auto-migrated: 1
 
 ---

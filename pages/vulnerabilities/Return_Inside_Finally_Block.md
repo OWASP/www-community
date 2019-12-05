@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Return Inside Finally Block.md
+title: Return Inside Finally Block
 author: 
 contributors: 
 permalink: /vulnerabilities/Return_Inside_Finally_Block
-tag: vulnerability, Return Inside Finally Block.md
+tag: vulnerability, Return Inside Finally Block
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Process Control.md
+title: Process Control
 author: 
 contributors: 
 permalink: /vulnerabilities/Process_Control
-tag: vulnerability, Process Control.md
+tag: vulnerability, Process Control
 auto-migrated: 1
 
 ---

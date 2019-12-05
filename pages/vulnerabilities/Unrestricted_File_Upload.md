@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Unrestricted File Upload.md
+title: Unrestricted File Upload
 author: 
 contributors: 
 permalink: /vulnerabilities/Unrestricted_File_Upload
-tag: vulnerability, Unrestricted File Upload.md
+tag: vulnerability, Unrestricted File Upload
 auto-migrated: 1
 
 ---

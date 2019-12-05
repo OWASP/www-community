@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: PRNG Seed Error.md
+title: PRNG Seed Error
 author: 
 contributors: 
 permalink: /vulnerabilities/PRNG_Seed_Error
-tag: vulnerability, PRNG Seed Error.md
+tag: vulnerability, PRNG Seed Error
 auto-migrated: 1
 
 ---

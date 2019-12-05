@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Unreleased Resource.md
+title: Unreleased Resource
 author: 
 contributors: 
 permalink: /vulnerabilities/Unreleased_Resource
-tag: vulnerability, Unreleased Resource.md
+tag: vulnerability, Unreleased Resource
 auto-migrated: 1
 
 ---

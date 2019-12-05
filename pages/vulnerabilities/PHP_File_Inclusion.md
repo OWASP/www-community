@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: PHP File Inclusion.md
+title: PHP File Inclusion
 author: 
 contributors: 
 permalink: /vulnerabilities/PHP_File_Inclusion
-tag: vulnerability, PHP File Inclusion.md
+tag: vulnerability, PHP File Inclusion
 auto-migrated: 1
 
 ---

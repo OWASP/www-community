@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Session Variable Overloading.md
+title: Session Variable Overloading
 author: 
 contributors: 
 permalink: /vulnerabilities/Session_Variable_Overloading
-tag: vulnerability, Session Variable Overloading.md
+tag: vulnerability, Session Variable Overloading
 auto-migrated: 1
 
 ---
