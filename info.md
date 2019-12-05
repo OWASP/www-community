@@ -1,4 +1,4 @@
 ### Important Community Links
 
-* [Attacks](/attacks)
-* [Vulnerabilities](/vulnerabilities)
+* [Attacks](/www-community/attacks)
+* [Vulnerabilities](www-community/vulnerabilities)
