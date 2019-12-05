@@ -19,7 +19,7 @@ application owner, application users, and other entities that rely on
 the application. The term "vulnerability" is often used very loosely.
 However, here we need to distinguish
 [threats](:Category:Threat "wikilink"),
-[attacks](:Category:Attack "wikilink"), and
+[attacks](/attacks), and
 [countermeasures](:Category:Countermeasure "wikilink").
 
 Please **do not post any actual vulnerabilities** in products, services,
