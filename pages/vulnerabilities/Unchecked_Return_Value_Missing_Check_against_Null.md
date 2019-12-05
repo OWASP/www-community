@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Unchecked Return Value: Missing Check against Null.md
+title: Unchecked Return Value Missing Check against Null
 author: 
 contributors: 
-permalink: /vulnerabilities/Unchecked_Return_Value:_Missing_Check_against_Null
-tag: vulnerability, Unchecked Return Value: Missing Check against Null.md
+permalink: /vulnerabilities/Unchecked_Return_Value_Missing_Check_against_Null
+tag: vulnerability, Unchecked Return Value Missing Check against Null
 auto-migrated: 1
 
 ---
