@@ -45,3 +45,13 @@ a redirect if the topic is the same. Every vulnerability article has a
 defined structure. Please read the details of [How To Add a
 Vulnerability](How_To_Add_a_Vulnerability "wikilink") before creating a
 new article.
+
+## List of Vulnerabilities
+
+<ul>
+{% for page in site.pages %}
+    {% if page.path contains 'pages/vulnerabilities/' and page.name != 'index.md' %}
+    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+    {% endif %}
+{% endfor %}
+</ul>
