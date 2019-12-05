@@ -11,16 +11,11 @@ permalink: /vulnerabilities
 
 ## What is a vulnerability?
 
-<categorytree hideroot="on" style="float:right; clear:right; margin-left:1ex; border:1px solid gray; padding:0.7ex; background-color:white;">Vulnerability</categorytree>
 A vulnerability is a hole or a weakness in the application, which can be
 a design flaw or an implementation bug, that allows an attacker to cause
 harm to the stakeholders of an application. Stakeholders include the
 application owner, application users, and other entities that rely on
-the application. The term "vulnerability" is often used very loosely.
-However, here we need to distinguish
-[threats](:Category:Threat "wikilink"),
-[attacks](/attacks), and
-[countermeasures](:Category:Countermeasure "wikilink").
+the application. 
 
 Please **do not post any actual vulnerabilities** in products, services,
 or web applications. Those disclosure reports should be posted to
@@ -34,7 +29,7 @@ bugtraq or full-disclosure mailing lists.
   - Not closing the database connection properly
 
 For a great overview, check out the [OWASP Top Ten
-Project](OWASP_Top_Ten_Project "wikilink"). You can read about the top
+Project](https://www2.owasp.org/www-project-top-ten). You can read about the top
 vulnerabilities and download a paper that covers them in detail. Many
 organizations and agencies use the Top Ten as a way of creating
 awareness about application security.
