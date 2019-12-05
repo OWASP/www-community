@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Mobile code: object hijack.md
+title: Mobile code object hijack
 author: 
 contributors: 
-permalink: /attacks/Mobile_code:_object_hijack
-tag: attack, Mobile code: object hijack.md
+permalink: /attacks/Mobile_code_object_hijack
+tag: attack, Mobile code object hijack
 auto-migrated: 1
 
 ---
