@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Password Management: Hardcoded Password.md
+title: Password Management Hardcoded Password
 author: 
 contributors: 
-permalink: /vulnerabilities/Password_Management:_Hardcoded_Password
-tag: vulnerability, Password Management: Hardcoded Password.md
+permalink: /vulnerabilities/Password_Management_Hardcoded_Password
+tag: vulnerability, Password Management Hardcoded Password
 auto-migrated: 1
 
 ---
