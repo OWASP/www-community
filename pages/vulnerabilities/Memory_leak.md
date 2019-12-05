@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Memory leak.md
+title: Memory leak
 author: 
 contributors: 
 permalink: /vulnerabilities/Memory_leak
-tag: vulnerability, Memory leak.md
+tag: vulnerability, Memory leak
 auto-migrated: 1
 
 ---

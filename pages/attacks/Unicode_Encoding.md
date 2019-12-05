@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Unicode Encoding.md
+title: Unicode Encoding
 author: 
 contributors: 
 permalink: /attacks/Unicode_Encoding
-tag: attack, Unicode Encoding.md
+tag: attack, Unicode Encoding
 auto-migrated: 1
 
 ---

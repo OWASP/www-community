@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cache Poisoning.md
+title: Cache Poisoning
 author: 
 contributors: 
 permalink: /attacks/Cache_Poisoning
-tag: attack, Cache Poisoning.md
+tag: attack, Cache Poisoning
 auto-migrated: 1
 
 ---

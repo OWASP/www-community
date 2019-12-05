@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cross-User Defacement.md
+title: Cross-User Defacement
 author: 
 contributors: 
 permalink: /attacks/Cross-User_Defacement
-tag: attack, Cross-User Defacement.md
+tag: attack, Cross-User Defacement
 auto-migrated: 1
 
 ---

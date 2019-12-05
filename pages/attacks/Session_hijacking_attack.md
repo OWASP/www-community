@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Session hijacking attack.md
+title: Session hijacking attack
 author: 
 contributors: 
 permalink: /attacks/Session_hijacking_attack
-tag: attack, Session hijacking attack.md
+tag: attack, Session hijacking attack
 auto-migrated: 1
 
 ---

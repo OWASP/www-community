@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Code Injection.md
+title: Code Injection
 author: 
 contributors: 
 permalink: /attacks/Code_Injection
-tag: attack, Code Injection.md
+tag: attack, Code Injection
 auto-migrated: 1
 
 ---

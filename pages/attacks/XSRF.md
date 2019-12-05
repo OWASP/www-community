@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: XSRF.md
+title: XSRF
 author: 
 contributors: 
 permalink: /attacks/XSRF
-tag: attack, XSRF.md
+tag: attack, XSRF
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: XPATH Injection.md
+title: XPATH Injection
 author: 
 contributors: 
 permalink: /attacks/XPATH_Injection
-tag: attack, XPATH Injection.md
+tag: attack, XPATH Injection
 auto-migrated: 1
 
 ---

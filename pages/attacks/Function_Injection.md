@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Function Injection.md
+title: Function Injection
 author: 
 contributors: 
 permalink: /attacks/Function_Injection
-tag: attack, Function Injection.md
+tag: attack, Function Injection
 auto-migrated: 1
 
 ---

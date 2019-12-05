@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Insecure Third Party Domain Access.md
+title: Insecure Third Party Domain Access
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Third_Party_Domain_Access
-tag: vulnerability, Insecure Third Party Domain Access.md
+tag: vulnerability, Insecure Third Party Domain Access
 auto-migrated: 1
 
 ---

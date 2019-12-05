@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Directory Restriction Error.md
+title: Directory Restriction Error
 author: 
 contributors: 
 permalink: /vulnerabilities/Directory_Restriction_Error
-tag: vulnerability, Directory Restriction Error.md
+tag: vulnerability, Directory Restriction Error
 auto-migrated: 1
 
 ---

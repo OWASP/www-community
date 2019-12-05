@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Catch NullPointerException.md
+title: Catch NullPointerException
 author: 
 contributors: 
 permalink: /vulnerabilities/Catch_NullPointerException
-tag: vulnerability, Catch NullPointerException.md
+tag: vulnerability, Catch NullPointerException
 auto-migrated: 1
 
 ---

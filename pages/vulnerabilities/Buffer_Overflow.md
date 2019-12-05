@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Buffer Overflow.md
+title: Buffer Overflow
 author: 
 contributors: 
 permalink: /vulnerabilities/Buffer_Overflow
-tag: vulnerability, Buffer Overflow.md
+tag: vulnerability, Buffer Overflow
 auto-migrated: 1
 
 ---

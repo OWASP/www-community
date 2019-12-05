@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Spyware.md
+title: Spyware
 author: 
 contributors: 
 permalink: /attacks/Spyware
-tag: attack, Spyware.md
+tag: attack, Spyware
 auto-migrated: 1
 
 ---

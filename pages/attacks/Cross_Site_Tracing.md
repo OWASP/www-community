@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cross Site Tracing.md
+title: Cross Site Tracing
 author: 
 contributors: 
 permalink: /attacks/Cross_Site_Tracing
-tag: attack, Cross Site Tracing.md
+tag: attack, Cross Site Tracing
 auto-migrated: 1
 
 ---

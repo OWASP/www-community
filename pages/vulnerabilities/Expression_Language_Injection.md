@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Expression Language Injection.md
+title: Expression Language Injection
 author: 
 contributors: 
 permalink: /vulnerabilities/Expression_Language_Injection
-tag: vulnerability, Expression Language Injection.md
+tag: vulnerability, Expression Language Injection
 auto-migrated: 1
 
 ---

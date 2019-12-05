@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cross Frame Scripting.md
+title: Cross Frame Scripting
 author: 
 contributors: 
 permalink: /attacks/Cross_Frame_Scripting
-tag: attack, Cross Frame Scripting.md
+tag: attack, Cross Frame Scripting
 auto-migrated: 1
 
 ---

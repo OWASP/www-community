@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Allowing Domains or Accounts to Expire.md
+title: Allowing Domains or Accounts to Expire
 author: 
 contributors: 
 permalink: /vulnerabilities/Allowing_Domains_or_Accounts_to_Expire
-tag: vulnerability, Allowing Domains or Accounts to Expire.md
+tag: vulnerability, Allowing Domains or Accounts to Expire
 auto-migrated: 1
 
 ---

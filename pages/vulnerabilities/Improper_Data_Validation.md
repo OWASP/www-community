@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Improper Data Validation.md
+title: Improper Data Validation
 author: 
 contributors: 
 permalink: /vulnerabilities/Improper_Data_Validation
-tag: vulnerability, Improper Data Validation.md
+tag: vulnerability, Improper Data Validation
 auto-migrated: 1
 
 ---

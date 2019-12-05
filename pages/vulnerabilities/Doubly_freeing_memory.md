@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Doubly freeing memory.md
+title: Doubly freeing memory
 author: 
 contributors: 
 permalink: /vulnerabilities/Doubly_freeing_memory
-tag: vulnerability, Doubly freeing memory.md
+tag: vulnerability, Doubly freeing memory
 auto-migrated: 1
 
 ---

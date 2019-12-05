@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Xss in subtitle.md
+title: Xss in subtitle
 author: 
 contributors: 
 permalink: /attacks/Xss_in_subtitle
-tag: attack, Xss in subtitle.md
+tag: attack, Xss in subtitle
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Man-in-the-browser attack.md
+title: Man-in-the-browser attack
 author: 
 contributors: 
 permalink: /attacks/Man-in-the-browser_attack
-tag: attack, Man-in-the-browser attack.md
+tag: attack, Man-in-the-browser attack
 auto-migrated: 1
 
 ---

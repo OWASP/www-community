@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: SQL Injection.md
+title: SQL Injection
 author: 
 contributors: 
 permalink: /attacks/SQL_Injection
-tag: attack, SQL Injection.md
+tag: attack, SQL Injection
 auto-migrated: 1
 
 ---

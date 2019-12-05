@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Insecure Transport.md
+title: Insecure Transport
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Transport
-tag: vulnerability, Insecure Transport.md
+tag: vulnerability, Insecure Transport
 auto-migrated: 1
 
 ---

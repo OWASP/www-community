@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Empty Catch Block.md
+title: Empty Catch Block
 author: 
 contributors: 
 permalink: /vulnerabilities/Empty_Catch_Block
-tag: vulnerability, Empty Catch Block.md
+tag: vulnerability, Empty Catch Block
 auto-migrated: 1
 
 ---

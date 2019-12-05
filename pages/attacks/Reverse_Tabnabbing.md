@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Reverse Tabnabbing.md
+title: Reverse Tabnabbing
 author: 
 contributors: 
 permalink: /attacks/Reverse_Tabnabbing
-tag: attack, Reverse Tabnabbing.md
+tag: attack, Reverse Tabnabbing
 auto-migrated: 1
 
 ---

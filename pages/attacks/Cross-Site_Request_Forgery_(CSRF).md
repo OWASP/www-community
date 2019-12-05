@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cross-Site Request Forgery (CSRF).md
+title: Cross-Site Request Forgery (CSRF)
 author: 
 contributors: 
 permalink: /attacks/Cross-Site_Request_Forgery_(CSRF)
-tag: attack, Cross-Site Request Forgery (CSRF).md
+tag: attack, Cross-Site Request Forgery (CSRF)
 auto-migrated: 1
 
 ---

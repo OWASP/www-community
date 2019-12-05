@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Reflected DOM Injection.md
+title: Reflected DOM Injection
 author: 
 contributors: 
 permalink: /attacks/Reflected_DOM_Injection
-tag: attack, Reflected DOM Injection.md
+tag: attack, Reflected DOM Injection
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Execution After Redirect (EAR).md
+title: Execution After Redirect (EAR)
 author: 
 contributors: 
 permalink: /attacks/Execution_After_Redirect_(EAR)
-tag: attack, Execution After Redirect (EAR).md
+tag: attack, Execution After Redirect (EAR)
 auto-migrated: 1
 
 ---

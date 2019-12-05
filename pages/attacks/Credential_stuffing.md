@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Credential stuffing.md
+title: Credential stuffing
 author: 
 contributors: 
 permalink: /attacks/Credential_stuffing
-tag: attack, Credential stuffing.md
+tag: attack, Credential stuffing
 auto-migrated: 1
 
 ---

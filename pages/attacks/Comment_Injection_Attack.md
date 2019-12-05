@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Comment Injection Attack.md
+title: Comment Injection Attack
 author: 
 contributors: 
 permalink: /attacks/Comment_Injection_Attack
-tag: attack, Comment Injection Attack.md
+tag: attack, Comment Injection Attack
 auto-migrated: 1
 
 ---

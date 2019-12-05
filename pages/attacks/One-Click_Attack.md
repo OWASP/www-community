@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: One-Click Attack.md
+title: One-Click Attack
 author: 
 contributors: 
 permalink: /attacks/One-Click_Attack
-tag: attack, One-Click Attack.md
+tag: attack, One-Click Attack
 auto-migrated: 1
 
 ---

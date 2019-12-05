@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Man-in-the-middle attack.md
+title: Man-in-the-middle attack
 author: 
 contributors: 
 permalink: /attacks/Man-in-the-middle_attack
-tag: attack, Man-in-the-middle attack.md
+tag: attack, Man-in-the-middle attack
 auto-migrated: 1
 
 ---

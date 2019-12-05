@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Insecure Randomness.md
+title: Insecure Randomness
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Randomness
-tag: vulnerability, Insecure Randomness.md
+tag: vulnerability, Insecure Randomness
 auto-migrated: 1
 
 ---

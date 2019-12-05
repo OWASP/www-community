@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cross-site Scripting (XSS).md
+title: Cross-site Scripting (XSS)
 author: 
 contributors: 
 permalink: /attacks/Cross-site_Scripting_(XSS)
-tag: attack, Cross-site Scripting (XSS).md
+tag: attack, Cross-site Scripting (XSS)
 auto-migrated: 1
 
 ---

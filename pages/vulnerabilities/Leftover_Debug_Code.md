@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Leftover Debug Code.md
+title: Leftover Debug Code
 author: 
 contributors: 
 permalink: /vulnerabilities/Leftover_Debug_Code
-tag: vulnerability, Leftover Debug Code.md
+tag: vulnerability, Leftover Debug Code
 auto-migrated: 1
 
 ---

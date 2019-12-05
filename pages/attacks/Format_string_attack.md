@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Format string attack.md
+title: Format string attack
 author: 
 contributors: 
 permalink: /attacks/Format_string_attack
-tag: attack, Format string attack.md
+tag: attack, Format string attack
 auto-migrated: 1
 
 ---

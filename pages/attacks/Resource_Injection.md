@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Resource Injection.md
+title: Resource Injection
 author: 
 contributors: 
 permalink: /attacks/Resource_Injection
-tag: attack, Resource Injection.md
+tag: attack, Resource Injection
 auto-migrated: 1
 
 ---

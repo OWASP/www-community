@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Content Security Policy.md
+title: Content Security Policy
 author: 
 contributors: 
 permalink: /attacks/Content_Security_Policy
-tag: attack, Content Security Policy.md
+tag: attack, Content Security Policy
 auto-migrated: 1
 
 ---

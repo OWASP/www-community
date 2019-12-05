@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Least Privilege Violation.md
+title: Least Privilege Violation
 author: 
 contributors: 
 permalink: /vulnerabilities/Least_Privilege_Violation
-tag: vulnerability, Least Privilege Violation.md
+tag: vulnerability, Least Privilege Violation
 auto-migrated: 1
 
 ---

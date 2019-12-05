@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Special Element Injection.md
+title: Special Element Injection
 author: 
 contributors: 
 permalink: /attacks/Special_Element_Injection
-tag: attack, Special Element Injection.md
+tag: attack, Special Element Injection
 auto-migrated: 1
 
 ---

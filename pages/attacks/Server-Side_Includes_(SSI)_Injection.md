@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Server-Side Includes (SSI) Injection.md
+title: Server-Side Includes (SSI) Injection
 author: 
 contributors: 
 permalink: /attacks/Server-Side_Includes_(SSI)_Injection
-tag: attack, Server-Side Includes (SSI) Injection.md
+tag: attack, Server-Side Includes (SSI) Injection
 auto-migrated: 1
 
 ---

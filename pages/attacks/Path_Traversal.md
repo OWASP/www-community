@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Path Traversal.md
+title: Path Traversal
 author: 
 contributors: 
 permalink: /attacks/Path_Traversal
-tag: attack, Path Traversal.md
+tag: attack, Path Traversal
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Heartbleed Bug.md
+title: Heartbleed Bug
 author: 
 contributors: 
 permalink: /vulnerabilities/Heartbleed_Bug
-tag: vulnerability, Heartbleed Bug.md
+tag: vulnerability, Heartbleed Bug
 auto-migrated: 1
 
 ---

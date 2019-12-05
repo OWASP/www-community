@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Qrljacking.md
+title: Qrljacking
 author: 
 contributors: 
 permalink: /attacks/Qrljacking
-tag: attack, Qrljacking.md
+tag: attack, Qrljacking
 auto-migrated: 1
 
 ---

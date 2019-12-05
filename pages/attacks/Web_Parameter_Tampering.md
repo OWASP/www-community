@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Web Parameter Tampering.md
+title: Web Parameter Tampering
 author: 
 contributors: 
 permalink: /attacks/Web_Parameter_Tampering
-tag: attack, Web Parameter Tampering.md
+tag: attack, Web Parameter Tampering
 auto-migrated: 1
 
 ---

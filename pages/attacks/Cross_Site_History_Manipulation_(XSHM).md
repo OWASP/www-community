@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cross Site History Manipulation (XSHM).md
+title: Cross Site History Manipulation (XSHM)
 author: 
 contributors: 
 permalink: /attacks/Cross_Site_History_Manipulation_(XSHM)
-tag: attack, Cross Site History Manipulation (XSHM).md
+tag: attack, Cross Site History Manipulation (XSHM)
 auto-migrated: 1
 
 ---

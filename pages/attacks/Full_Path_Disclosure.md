@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Full Path Disclosure.md
+title: Full Path Disclosure
 author: 
 contributors: 
 permalink: /attacks/Full_Path_Disclosure
-tag: attack, Full Path Disclosure.md
+tag: attack, Full Path Disclosure
 auto-migrated: 1
 
 ---

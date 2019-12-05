@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Session fixation.md
+title: Session fixation
 author: 
 contributors: 
 permalink: /attacks/Session_fixation
-tag: attack, Session fixation.md
+tag: attack, Session fixation
 auto-migrated: 1
 
 ---

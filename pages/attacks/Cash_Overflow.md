@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cash Overflow.md
+title: Cash Overflow
 author: 
 contributors: 
 permalink: /attacks/Cash_Overflow
-tag: attack, Cash Overflow.md
+tag: attack, Cash Overflow
 auto-migrated: 1
 
 ---

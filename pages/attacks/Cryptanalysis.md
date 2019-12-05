@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cryptanalysis.md
+title: Cryptanalysiss
 author: 
 contributors: 
 permalink: /attacks/Cryptanalysis
-tag: attack, Cryptanalysis.md
+tag: attack, Cryptanalysis
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Setting Manipulation.md
+title: Setting Manipulation
 author: 
 contributors: 
 permalink: /attacks/Setting_Manipulation
-tag: attack, Setting Manipulation.md
+tag: attack, Setting Manipulation
 auto-migrated: 1
 
 ---

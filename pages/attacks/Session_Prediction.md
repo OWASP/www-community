@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Session Prediction.md
+title: Session Prediction
 author: 
 contributors: 
 permalink: /attacks/Session_Prediction
-tag: attack, Session Prediction.md
+tag: attack, Session Prediction
 auto-migrated: 1
 
 ---

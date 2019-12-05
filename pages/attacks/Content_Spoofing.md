@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Content Spoofing.md
+title: Content Spoofing
 author: 
 contributors: 
 permalink: /attacks/Content_Spoofing
-tag: attack, Content Spoofing.md
+tag: attack, Content Spoofing
 auto-migrated: 1
 
 ---

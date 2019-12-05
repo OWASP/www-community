@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Insecure Temporary File.md
+title: Insecure Temporary File
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Temporary_File
-tag: vulnerability, Insecure Temporary File.md
+tag: vulnerability, Insecure Temporary File
 auto-migrated: 1
 
 ---

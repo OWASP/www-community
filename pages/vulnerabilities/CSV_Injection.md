@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: CSV Injection.md
+title: CSV Injection
 author: 
 contributors: 
 permalink: /vulnerabilities/CSV_Injection
-tag: vulnerability, CSV Injection.md
+tag: vulnerability, CSV Injection
 auto-migrated: 1
 
 ---

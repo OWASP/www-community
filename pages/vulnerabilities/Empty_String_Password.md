@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Empty String Password.md
+title: Empty String Password
 author: 
 contributors: 
 permalink: /vulnerabilities/Empty_String_Password
-tag: vulnerability, Empty String Password.md
+tag: vulnerability, Empty String Password
 auto-migrated: 1
 
 ---

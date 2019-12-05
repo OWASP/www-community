@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Cross Site Scripting Flaw.md
+title: Cross Site Scripting Flaw
 author: 
 contributors: 
 permalink: /vulnerabilities/Cross_Site_Scripting_Flaw
-tag: vulnerability, Cross Site Scripting Flaw.md
+tag: vulnerability, Cross Site Scripting Flaw
 auto-migrated: 1
 
 ---

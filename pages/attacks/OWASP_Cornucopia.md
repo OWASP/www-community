@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: OWASP Cornucopia.md
+title: OWASP Cornucopia
 author: 
 contributors: 
 permalink: /attacks/OWASP_Cornucopia
-tag: attack, OWASP Cornucopia.md
+tag: attack, OWASP Cornucopia
 auto-migrated: 1
 
 ---

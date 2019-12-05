@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Missing XML Validation.md
+title: Missing XML Validation
 author: 
 contributors: 
 permalink: /vulnerabilities/Missing_XML_Validation
-tag: vulnerability, Missing XML Validation.md
+tag: vulnerability, Missing XML Validation
 auto-migrated: 1
 
 ---

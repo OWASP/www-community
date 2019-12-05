@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Insufficient Entropy.md
+title: Insufficient Entropy
 author: 
 contributors: 
 permalink: /vulnerabilities/Insufficient_Entropy
-tag: vulnerability, Insufficient Entropy.md
+tag: vulnerability, Insufficient Entropy
 auto-migrated: 1
 
 ---

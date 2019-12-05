@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: CRLF Injection.md
+title: CRLF Injection
 author: 
 contributors: 
 permalink: /vulnerabilities/CRLF_Injection
-tag: vulnerability, CRLF Injection.md
+tag: vulnerability, CRLF Injection
 auto-migrated: 1
 
 ---

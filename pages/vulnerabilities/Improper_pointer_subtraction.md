@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Improper pointer subtraction.md
+title: Improper pointer subtraction
 author: 
 contributors: 
 permalink: /vulnerabilities/Improper_pointer_subtraction
-tag: vulnerability, Improper pointer subtraction.md
+tag: vulnerability, Improper pointer subtraction
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Traffic flood.md
+title: Traffic flood
 author: 
 contributors: 
 permalink: /attacks/Traffic_flood
-tag: attack, Traffic flood.md
+tag: attack, Traffic flood
 auto-migrated: 1
 
 ---

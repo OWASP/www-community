@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Forced browsing.md
+title: Forced browsing
 author: 
 contributors: 
 permalink: /attacks/Forced_browsing
-tag: attack, Forced browsing.md
+tag: attack, Forced browsing
 auto-migrated: 1
 
 ---

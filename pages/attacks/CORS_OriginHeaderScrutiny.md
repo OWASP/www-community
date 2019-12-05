@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: CORS OriginHeaderScrutiny.md
+title: CORS OriginHeaderScrutiny
 author: 
 contributors: 
 permalink: /attacks/CORS_OriginHeaderScrutiny
-tag: attack, CORS OriginHeaderScrutiny.md
+tag: attack, CORS OriginHeaderScrutiny
 auto-migrated: 1
 
 ---

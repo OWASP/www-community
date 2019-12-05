@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Parameter Delimiter.md
+title: Parameter Delimiter
 author: 
 contributors: 
 permalink: /attacks/Parameter_Delimiter
-tag: attack, Parameter Delimiter.md
+tag: attack, Parameter Delimiter
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Repudiation Attack.md
+title: Repudiation Attack
 author: 
 contributors: 
 permalink: /attacks/Repudiation_Attack
-tag: attack, Repudiation Attack.md
+tag: attack, Repudiation Attack
 auto-migrated: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Regular expression Denial of Service - ReDoS.md
+title: Regular expression Denial of Service - ReDoS
 author: 
 contributors: 
 permalink: /attacks/Regular_expression_Denial_of_Service_-_ReDoS
-tag: attack, Regular expression Denial of Service - ReDoS.md
+tag: attack, Regular expression Denial of Service - ReDoS
 auto-migrated: 1
 
 ---

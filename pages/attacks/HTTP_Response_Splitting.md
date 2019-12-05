@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: HTTP Response Splitting.md
+title: HTTP Response Splitting
 author: 
 contributors: 
 permalink: /attacks/HTTP_Response_Splitting
-tag: attack, HTTP Response Splitting.md
+tag: attack, HTTP Response Splitting
 auto-migrated: 1
 
 ---
