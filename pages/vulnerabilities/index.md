@@ -5,7 +5,7 @@ title: Vulnerabilities
 author:
 contributors:
 tags: vulnerabilities
-permalink: /vulnerabilities
+permalink: vulnerabilities
 
 ---
 
