@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Mobile code: non-final public field.md
+title: Mobile code non-final public field
 author: 
 contributors: 
-permalink: /attacks/Mobile_code:_non-final_public_field
-tag: attack, Mobile code: non-final public field.md
+permalink: /attacks/Mobile_code_non-final_public_field
+tag: attack, Mobile code non-final public field
 auto-migrated: 1
 
 ---
