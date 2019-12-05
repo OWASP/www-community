@@ -1,5 +1,5 @@
 ### Important Community Links
 
 * [Community](/www-community)
-*  Attacks (You are here)
+* Attacks (You are here)
 * [Vulnerabilities](/www-community/vulnerabilities)
