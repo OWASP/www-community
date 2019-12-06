@@ -1,6 +1,6 @@
 ---
 
-layout: col-sidebar
+layout: col-generic
 title: XSS Filter Evasion Cheat Sheet
 author: Robert "RSnake" Hansen
 contributors: Adam Lange, Mishra Dhiraj
