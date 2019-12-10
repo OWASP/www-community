@@ -35,8 +35,6 @@ There are various ways this attack can occur:
 
 ## Risk Factors
 
-TBD
-
 ## Examples
 
 ### Insecure Access Permissions-based Attack
