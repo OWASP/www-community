@@ -35,7 +35,7 @@ Scripting](Types_of_Cross-Site_Scripting "wikilink").
 ### How to Avoid Cross-site scripting Vulnerabilities
 
 See the [XSS (Cross Site Scripting) Prevention Cheat
-Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink")
+Sheet](xss)
 
 See the [DOM based XSS Prevention Cheat
 Sheet](DOM_based_XSS_Prevention_Cheat_Sheet "wikilink")
