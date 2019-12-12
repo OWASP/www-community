@@ -5,7 +5,7 @@ title: Comment Injection Attack
 author: 
 contributors: 
 permalink: /attacks/Comment_Injection_Attack
-tag: attack, Comment Injection Attack
+tags: attack, Comment Injection Attack
 auto-migrated: 1
 
 ---
@@ -99,7 +99,7 @@ So the final form of the command is:
 **HTML (injection):**
 
 If there are no restrictions about who is able to insert comments, then
-using the start comment tag:
+using the start comment tags:
 
     <!--
 

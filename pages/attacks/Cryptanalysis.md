@@ -5,7 +5,7 @@ title: Cryptanalysiss
 author: 
 contributors: 
 permalink: /attacks/Cryptanalysis
-tag: attack, Cryptanalysis
+tags: attack, Cryptanalysis
 auto-migrated: 1
 
 ---

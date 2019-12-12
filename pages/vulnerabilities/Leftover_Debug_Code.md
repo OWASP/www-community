@@ -5,7 +5,7 @@ title: Leftover Debug Code
 author: 
 contributors: 
 permalink: /vulnerabilities/Leftover_Debug_Code
-tag: vulnerability, Leftover Debug Code
+tags: vulnerability, Leftover Debug Code
 auto-migrated: 1
 
 ---

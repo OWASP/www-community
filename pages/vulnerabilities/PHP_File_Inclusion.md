@@ -5,7 +5,7 @@ title: PHP File Inclusion
 author: 
 contributors: 
 permalink: /vulnerabilities/PHP_File_Inclusion
-tag: vulnerability, PHP File Inclusion
+tags: vulnerability, PHP File Inclusion
 auto-migrated: 1
 
 ---

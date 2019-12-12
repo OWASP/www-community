@@ -5,7 +5,7 @@ title: Web Parameter Tampering
 author: 
 contributors: 
 permalink: /attacks/Web_Parameter_Tampering
-tag: attack, Web Parameter Tampering
+tags: attack, Web Parameter Tampering
 auto-migrated: 1
 
 ---

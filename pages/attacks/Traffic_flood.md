@@ -5,7 +5,7 @@ title: Traffic flood
 author: 
 contributors: 
 permalink: /attacks/Traffic_flood
-tag: attack, Traffic flood
+tags: attack, Traffic flood
 auto-migrated: 1
 
 ---

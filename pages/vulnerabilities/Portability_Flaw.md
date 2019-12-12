@@ -5,7 +5,7 @@ title: Portability Flaw
 author: 
 contributors: 
 permalink: /vulnerabilities/Portability_Flaw
-tag: vulnerability, Portability Flaw
+tags: vulnerability, Portability Flaw
 auto-migrated: 1
 
 ---

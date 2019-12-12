@@ -5,7 +5,7 @@ title: Unsafe JNI
 author: 
 contributors: 
 permalink: /vulnerabilities/Unsafe_JNI
-tag: vulnerability, Unsafe JNI
+tags: vulnerability, Unsafe JNI
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: XSRF
 author: 
 contributors: 
 permalink: /attacks/XSRF
-tag: attack, XSRF
+tags: attack, XSRF
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Mobile code object hijack
 author: 
 contributors: 
 permalink: /attacks/Mobile_code_object_hijack
-tag: attack, Mobile code object hijack
+tags: attack, Mobile code object hijack
 auto-migrated: 1
 
 ---

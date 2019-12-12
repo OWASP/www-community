@@ -5,7 +5,7 @@ title: Blind XPath Injection
 author: 
 contributors:
 permalink: /attacks/Blind_XPath_Injection
-tag: attack, blind xpath injection, xpath injection
+tags: attack, blind xpath injection, xpath injection
 auto-migrated: 1
 
 ---

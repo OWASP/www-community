@@ -5,7 +5,7 @@ title: Use of Obsolete Methods
 author: 
 contributors: 
 permalink: /vulnerabilities/Use_of_Obsolete_Methods
-tag: vulnerability, Use of Obsolete Methods
+tags: vulnerability, Use of Obsolete Methods
 auto-migrated: 1
 
 ---

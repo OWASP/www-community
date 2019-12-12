@@ -5,7 +5,7 @@ title: Xss in subtitle
 author: 
 contributors: 
 permalink: /attacks/Xss_in_subtitle
-tag: attack, Xss in subtitle
+tags: attack, Xss in subtitle
 auto-migrated: 1
 
 ---

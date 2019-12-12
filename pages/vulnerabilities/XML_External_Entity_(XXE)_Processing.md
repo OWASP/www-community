@@ -5,7 +5,7 @@ title: XML External Entity (XXE) Processing
 author: 
 contributors: 
 permalink: /vulnerabilities/XML_External_Entity_(XXE)_Processing
-tag: vulnerability, XML External Entity (XXE) Processing
+tags: vulnerability, XML External Entity (XXE) Processing
 auto-migrated: 1
 
 ---

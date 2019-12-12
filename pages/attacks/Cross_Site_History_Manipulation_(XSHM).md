@@ -5,7 +5,7 @@ title: Cross Site History Manipulation (XSHM)
 author: 
 contributors: 
 permalink: /attacks/Cross_Site_History_Manipulation_(XSHM)
-tag: attack, Cross Site History Manipulation (XSHM)
+tags: attack, Cross Site History Manipulation (XSHM)
 auto-migrated: 1
 
 ---

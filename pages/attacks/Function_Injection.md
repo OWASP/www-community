@@ -5,7 +5,7 @@ title: Function Injection
 author: 
 contributors: 
 permalink: /attacks/Function_Injection
-tag: attack, Function Injection
+tags: attack, Function Injection
 auto-migrated: 1
 
 ---

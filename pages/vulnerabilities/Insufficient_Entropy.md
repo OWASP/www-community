@@ -5,7 +5,7 @@ title: Insufficient Entropy
 author: 
 contributors: 
 permalink: /vulnerabilities/Insufficient_Entropy
-tag: vulnerability, Insufficient Entropy
+tags: vulnerability, Insufficient Entropy
 auto-migrated: 1
 
 ---

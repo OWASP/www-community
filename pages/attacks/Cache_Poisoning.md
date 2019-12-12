@@ -5,7 +5,7 @@ title: Cache Poisoning
 author: 
 contributors: 
 permalink: /attacks/Cache_Poisoning
-tag: attack, Cache Poisoning
+tags: attack, Cache Poisoning
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Multiple admin levels
 author: 
 contributors: 
 permalink: /vulnerabilities/Multiple_admin_levels
-tag: vulnerability, Multiple admin levels
+tags: vulnerability, Multiple admin levels
 auto-migrated: 1
 
 ---

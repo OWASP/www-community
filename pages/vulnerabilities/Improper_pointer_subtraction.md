@@ -5,7 +5,7 @@ title: Improper pointer subtraction
 author: 
 contributors: 
 permalink: /vulnerabilities/Improper_pointer_subtraction
-tag: vulnerability, Improper pointer subtraction
+tags: vulnerability, Improper pointer subtraction
 auto-migrated: 1
 
 ---

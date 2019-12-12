@@ -5,7 +5,7 @@ title: PRNG Seed Error
 author: 
 contributors: 
 permalink: /vulnerabilities/PRNG_Seed_Error
-tag: vulnerability, PRNG Seed Error
+tags: vulnerability, PRNG Seed Error
 auto-migrated: 1
 
 ---

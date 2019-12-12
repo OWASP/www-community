@@ -5,7 +5,7 @@ title: Privacy Violation
 author: 
 contributors: 
 permalink: /vulnerabilities/Privacy_Violation
-tag: vulnerability, Privacy Violation
+tags: vulnerability, Privacy Violation
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Password Plaintext Storage
 author: 
 contributors: 
 permalink: /vulnerabilities/Password_Plaintext_Storage
-tag: vulnerability, Password Plaintext Storage
+tags: vulnerability, Password Plaintext Storage
 auto-migrated: 1
 
 ---

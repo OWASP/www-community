@@ -5,7 +5,7 @@ title: Cross-User Defacement
 author: 
 contributors: 
 permalink: /attacks/Cross-User_Defacement
-tag: attack, Cross-User Defacement
+tags: attack, Cross-User Defacement
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Spyware
 author: 
 contributors: 
 permalink: /attacks/Spyware
-tag: attack, Spyware
+tags: attack, Spyware
 auto-migrated: 1
 
 ---

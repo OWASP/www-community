@@ -5,7 +5,7 @@ title: Regular expression Denial of Service - ReDoS
 author: 
 contributors: 
 permalink: /attacks/Regular_expression_Denial_of_Service_-_ReDoS
-tag: attack, Regular expression Denial of Service - ReDoS
+tags: attack, Regular expression Denial of Service - ReDoS
 auto-migrated: 1
 
 ---

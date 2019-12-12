@@ -93,7 +93,7 @@ browsers), this XSS vector uses the relaxed rendering engine to create
 our XSS vector within an IMG tag that should be encapsulated within
 quotes. I assume this was originally meant to correct sloppy coding.
 This would make it significantly more difficult to correctly parse apart
-an HTML tag:
+an HTML tags:
 
     `<IMG """>`
 
@@ -313,7 +313,7 @@ depending on what HTML is beneath it. It gets around the following NIDS
 regex: /((\\%3D)|(=))\[^\\n\]\*((\\%3C)|\<)\[^\\n\]+((\\%3E)|\>)/
 because it doesn't require the end "\>". As a side note, this was also
 affective against a real world XSS filter I came across using an open
-ended \<IFRAME tag instead of an \<IMG tag:
+ended \<IFRAME tag instead of an \<IMG tags:
 
     `<IMG SRC="`<javascript:alert>`('XSS')"`
 

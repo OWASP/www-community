@@ -5,7 +5,7 @@ title: One-Click Attack
 author: 
 contributors: 
 permalink: /attacks/One-Click_Attack
-tag: attack, One-Click Attack
+tags: attack, One-Click Attack
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Resource Injection
 author: 
 contributors: 
 permalink: /attacks/Resource_Injection
-tag: attack, Resource Injection
+tags: attack, Resource Injection
 auto-migrated: 1
 
 ---

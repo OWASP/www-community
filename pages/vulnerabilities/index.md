@@ -43,10 +43,10 @@ new article.
 
 ## List of Vulnerabilities
 
+
 <ul>
-{% for page in site.pages %}
-    {% if page.path contains 'pages/vulnerabilities/' and page.name != 'index.md' %}
+{% assign vpages = site.pages | where_exp: "item", "item.tags contains 'vulnerability'" %}
+{% for page in vpages %}
     <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
-    {% endif %}
 {% endfor %}
 </ul>

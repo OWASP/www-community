@@ -5,7 +5,7 @@ title: Setting Manipulation
 author: 
 contributors: 
 permalink: /attacks/Setting_Manipulation
-tag: attack, Setting Manipulation
+tags: attack, Setting Manipulation
 auto-migrated: 1
 
 ---

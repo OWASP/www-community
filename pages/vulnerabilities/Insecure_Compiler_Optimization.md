@@ -5,7 +5,7 @@ title: Insecure Compiler Optimization
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Compiler_Optimization
-tag: vulnerability, Insecure Compiler Optimization
+tags: vulnerability, Insecure Compiler Optimization
 auto-migrated: 1
 
 ---

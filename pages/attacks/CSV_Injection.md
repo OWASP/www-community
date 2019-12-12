@@ -5,7 +5,7 @@ title: CSV Injection
 author: 
 contributors: 
 permalink: /attacks/CSV_Injection
-tag: attack, CSV Injection
+tags: attack, vulnerability, CSV Injection
 auto-migrated: 1
 
 ---

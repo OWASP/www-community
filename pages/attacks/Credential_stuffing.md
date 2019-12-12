@@ -5,7 +5,7 @@ title: Credential stuffing
 author: 
 contributors: 
 permalink: /attacks/Credential_stuffing
-tag: attack, Credential stuffing
+tags: attack, Credential stuffing
 auto-migrated: 1
 
 ---

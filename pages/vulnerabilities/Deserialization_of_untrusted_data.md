@@ -5,7 +5,7 @@ title: Deserialization of untrusted data
 author: 
 contributors: 
 permalink: /vulnerabilities/Deserialization_of_untrusted_data
-tag: vulnerability, Deserialization of untrusted data
+tags: vulnerability, Deserialization of untrusted data
 auto-migrated: 1
 
 ---

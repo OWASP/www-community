@@ -5,7 +5,7 @@ title: Denial of Service
 author: 
 contributors: 
 permalink: /attacks/Denial_of_Service
-tag: attack, Denial of Service
+tags: attack, Denial of Service
 auto-migrated: 1
 
 ---

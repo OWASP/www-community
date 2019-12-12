@@ -5,7 +5,7 @@ title: Insufficient Session-ID Length
 author: 
 contributors: 
 permalink: /vulnerabilities/Insufficient_Session-ID_Length
-tag: vulnerability, Insufficient Session-ID Length
+tags: vulnerability, Insufficient Session-ID Length
 auto-migrated: 1
 
 ---

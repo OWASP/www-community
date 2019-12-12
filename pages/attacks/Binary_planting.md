@@ -5,7 +5,7 @@ title: Binary Planting
 author: 
 contributors:
 permalink: /attacks/Binary_planting
-tag: attack, binary planting
+tags: attack, binary planting
 auto-migrated: 1
 
 ---

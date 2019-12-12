@@ -5,7 +5,7 @@ title: Reverse Tabnabbing
 author: 
 contributors: 
 permalink: /attacks/Reverse_Tabnabbing
-tag: attack, Reverse Tabnabbing
+tags: attack, Reverse Tabnabbing
 auto-migrated: 1
 
 ---

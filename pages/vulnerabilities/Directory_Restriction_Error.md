@@ -5,7 +5,7 @@ title: Directory Restriction Error
 author: 
 contributors: 
 permalink: /vulnerabilities/Directory_Restriction_Error
-tag: vulnerability, Directory Restriction Error
+tags: vulnerability, Directory Restriction Error
 auto-migrated: 1
 
 ---

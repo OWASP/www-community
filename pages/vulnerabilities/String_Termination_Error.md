@@ -5,7 +5,7 @@ title: String Termination Error
 author: 
 contributors: 
 permalink: /vulnerabilities/String_Termination_Error
-tag: vulnerability, String Termination Error
+tags: vulnerability, String Termination Error
 auto-migrated: 1
 
 ---

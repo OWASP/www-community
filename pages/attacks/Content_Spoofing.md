@@ -5,7 +5,7 @@ title: Content Spoofing
 author: 
 contributors: 
 permalink: /attacks/Content_Spoofing
-tag: attack, Content Spoofing
+tags: attack, Content Spoofing
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Cross Site Request Forgery (CSRF)
 author: KirstenS
 contributors: Dave Wichers, Davisnw, Paul Petefish, Adar Weidman, Michael Brooks, Ahsan Mir, Dc, D0ubl3 h3lix, Jim Manico, Robert Gilbert, Tgondrom, Pawel Krawczyk, Brandt, A V Minhaz, Kevin Lorenzo, Andrew Smith, Christina Schelin, Ari Elias-Bachrach, Sarciszewski
 permalink: /attacks/csrf
-tag: attack, CSRF
+tags: attack, CSRF
 auto-migrated: 1
 
 ---
@@ -224,7 +224,7 @@ the vulnerable request looks like this:
 `acct=BOB&amount=100`
 
 Such a request cannot be delivered using standard A or IMG tags, but can
-be delivered using a FORM tag:
+be delivered using a FORM tags:
 
 	<form action="<nowiki>http://bank.com/transfer.do</nowiki>" method="POST">
 

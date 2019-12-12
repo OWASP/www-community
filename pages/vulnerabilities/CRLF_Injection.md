@@ -5,7 +5,7 @@ title: CRLF Injection
 author: 
 contributors: 
 permalink: /vulnerabilities/CRLF_Injection
-tag: vulnerability, CRLF Injection
+tags: vulnerability, CRLF Injection
 auto-migrated: 1
 
 ---

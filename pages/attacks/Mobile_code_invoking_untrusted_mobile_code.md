@@ -5,7 +5,7 @@ title: Mobile code invoking untrusted mobile code
 author: 
 contributors: 
 permalink: /attacks/Mobile_code_invoking_untrusted_mobile_code
-tag: attack, Mobile code invoking untrusted mobile code
+tags: attack, Mobile code invoking untrusted mobile code
 auto-migrated: 1
 
 ---

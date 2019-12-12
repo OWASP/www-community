@@ -5,7 +5,7 @@ title: Full Path Disclosure
 author: 
 contributors: 
 permalink: /attacks/Full_Path_Disclosure
-tag: attack, Full Path Disclosure
+tags: attack, Full Path Disclosure
 auto-migrated: 1
 
 ---

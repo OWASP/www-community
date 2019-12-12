@@ -5,7 +5,7 @@ title: Insecure Temporary File
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Temporary_File
-tag: vulnerability, Insecure Temporary File
+tags: vulnerability, Insecure Temporary File
 auto-migrated: 1
 
 ---

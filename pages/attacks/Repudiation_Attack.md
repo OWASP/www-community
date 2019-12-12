@@ -5,7 +5,7 @@ title: Repudiation Attack
 author: 
 contributors: 
 permalink: /attacks/Repudiation_Attack
-tag: attack, Repudiation Attack
+tags: attack, Repudiation Attack
 auto-migrated: 1
 
 ---

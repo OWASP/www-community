@@ -5,7 +5,7 @@ title: Undefined Behavior
 author: 
 contributors: 
 permalink: /vulnerabilities/Undefined_Behavior
-tag: vulnerability, Undefined Behavior
+tags: vulnerability, Undefined Behavior
 auto-migrated: 1
 
 ---

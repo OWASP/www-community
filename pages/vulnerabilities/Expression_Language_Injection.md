@@ -5,7 +5,7 @@ title: Expression Language Injection
 author: 
 contributors: 
 permalink: /vulnerabilities/Expression_Language_Injection
-tag: vulnerability, Expression Language Injection
+tags: vulnerability, Expression Language Injection
 auto-migrated: 1
 
 ---

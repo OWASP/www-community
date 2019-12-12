@@ -5,7 +5,7 @@ title: Reflected DOM Injection
 author: 
 contributors: 
 permalink: /attacks/Reflected_DOM_Injection
-tag: attack, Reflected DOM Injection
+tags: attack, Reflected DOM Injection
 auto-migrated: 1
 
 ---

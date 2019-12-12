@@ -5,7 +5,7 @@ title: Form action hijacking
 author: 
 contributors: 
 permalink: /attacks/Form_action_hijacking
-tag: attack, Form action hijacking
+tags: attack, Form action hijacking
 auto-migrated: 1
 
 ---

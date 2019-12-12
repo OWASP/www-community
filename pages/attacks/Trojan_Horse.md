@@ -5,7 +5,7 @@ title: Trojan Horse
 author: 
 contributors: 
 permalink: /attacks/Trojan_Horse
-tag: attack, Trojan Horse
+tags: attack, Trojan Horse
 auto-migrated: 1
 
 ---

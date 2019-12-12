@@ -5,7 +5,7 @@ title: Parameter Delimiter
 author: 
 contributors: 
 permalink: /attacks/Parameter_Delimiter
-tag: attack, Parameter Delimiter
+tags: attack, Parameter Delimiter
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Format string attack
 author: 
 contributors: 
 permalink: /attacks/Format_string_attack
-tag: attack, Format string attack
+tags: attack, Format string attack
 auto-migrated: 1
 
 ---

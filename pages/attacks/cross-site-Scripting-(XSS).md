@@ -5,7 +5,7 @@ title: Cross Site Scripting (XSS)
 author: KirstenS
 contributors: Jim Manico, Jeff Williams, Dave Wichers, Adar Weidman, Roman, Alan Jex, Andrew Smith, Jeff Knutson, Imifos, Erez Yalon
 permalink: /attacks/xss
-tag: attack, XSS
+tags: attack, XSS
 auto-migrated: 1
 
 ---
@@ -208,7 +208,7 @@ onerror
 #### XSS using Script Via Encoded URI Schemes
 
 If we need to hide against web application filters we may try to encode
-string characters, e.g.: a=&\#X41 (UTF-8) and use it in IMG tag:
+string characters, e.g.: a=&\#X41 (UTF-8) and use it in IMG tags:
 
     <IMG SRC=j&#X41vascript:alert('test2')>
 

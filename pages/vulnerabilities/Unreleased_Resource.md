@@ -5,7 +5,7 @@ title: Unreleased Resource
 author: 
 contributors: 
 permalink: /vulnerabilities/Unreleased_Resource
-tag: vulnerability, Unreleased Resource
+tags: vulnerability, Unreleased Resource
 auto-migrated: 1
 
 ---

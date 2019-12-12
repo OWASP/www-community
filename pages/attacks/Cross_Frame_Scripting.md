@@ -5,7 +5,7 @@ title: Cross Frame Scripting
 author: 
 contributors: 
 permalink: /attacks/Cross_Frame_Scripting
-tag: attack, Cross Frame Scripting
+tags: attack, Cross Frame Scripting
 auto-migrated: 1
 
 ---

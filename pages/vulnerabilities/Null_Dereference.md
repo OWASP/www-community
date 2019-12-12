@@ -5,7 +5,7 @@ title: Null Dereference
 author: 
 contributors: 
 permalink: /vulnerabilities/Null_Dereference
-tag: vulnerability, Null Dereference
+tags: vulnerability, Null Dereference
 auto-migrated: 1
 
 ---

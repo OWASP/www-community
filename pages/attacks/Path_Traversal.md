@@ -5,7 +5,7 @@ title: Path Traversal
 author: 
 contributors: 
 permalink: /attacks/Path_Traversal
-tag: attack, Path Traversal
+tags: attack, Path Traversal
 auto-migrated: 1
 
 ---

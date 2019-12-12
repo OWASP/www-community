@@ -5,7 +5,7 @@ title: Log Injection
 author: 
 contributors: 
 permalink: /attacks/Log_Injection
-tag: attack, Log Injection
+tags: attack, Log Injection
 auto-migrated: 1
 
 ---

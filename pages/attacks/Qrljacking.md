@@ -5,7 +5,7 @@ title: Qrljacking
 author: 
 contributors: 
 permalink: /attacks/Qrljacking
-tag: attack, Qrljacking
+tags: attack, Qrljacking
 auto-migrated: 1
 
 ---

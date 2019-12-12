@@ -5,7 +5,7 @@ title: Unrestricted File Upload
 author: 
 contributors: 
 permalink: /vulnerabilities/Unrestricted_File_Upload
-tag: vulnerability, Unrestricted File Upload
+tags: vulnerability, Unrestricted File Upload
 auto-migrated: 1
 
 ---

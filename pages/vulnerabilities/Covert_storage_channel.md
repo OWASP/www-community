@@ -5,7 +5,7 @@ title: Covert storage channel
 author: 
 contributors: 
 permalink: /vulnerabilities/Covert_storage_channel
-tag: vulnerability, Covert storage channel
+tags: vulnerability, Covert storage channel
 auto-migrated: 1
 
 ---

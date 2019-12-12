@@ -5,7 +5,7 @@ title: Insecure Third Party Domain Access
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Third_Party_Domain_Access
-tag: vulnerability, Insecure Third Party Domain Access
+tags: vulnerability, Insecure Third Party Domain Access
 auto-migrated: 1
 
 ---

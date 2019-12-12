@@ -5,7 +5,7 @@ title: Missing XML Validation
 author: 
 contributors: 
 permalink: /vulnerabilities/Missing_XML_Validation
-tag: vulnerability, Missing XML Validation
+tags: vulnerability, Missing XML Validation
 auto-migrated: 1
 
 ---

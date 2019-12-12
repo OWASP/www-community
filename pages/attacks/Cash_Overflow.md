@@ -5,7 +5,7 @@ title: Cash Overflow
 author: 
 contributors: 
 permalink: /attacks/Cash_Overflow
-tag: attack, Cash Overflow
+tags: attack, Cash Overflow
 auto-migrated: 1
 
 ---

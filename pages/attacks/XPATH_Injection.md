@@ -5,7 +5,7 @@ title: XPATH Injection
 author: 
 contributors: 
 permalink: /attacks/XPATH_Injection
-tag: attack, XPATH Injection
+tags: attack, XPATH Injection
 auto-migrated: 1
 
 ---

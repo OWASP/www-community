@@ -5,7 +5,7 @@ title: Blind SQL Injection
 author: 
 contributors:
 permalink: /attacks/Blind_SQL_Injection
-tag: attack, blind sql injection, sql injection
+tags: attack, blind sql injection, sql injection
 auto-migrated: 1
 
 ---

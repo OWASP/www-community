@@ -5,7 +5,7 @@ title: Using freed memory
 author: 
 contributors: 
 permalink: /vulnerabilities/Using_freed_memory
-tag: vulnerability, Using freed memory
+tags: vulnerability, Using freed memory
 auto-migrated: 1
 
 ---

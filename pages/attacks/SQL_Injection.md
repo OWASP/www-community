@@ -5,7 +5,7 @@ title: SQL Injection
 author: 
 contributors: 
 permalink: /attacks/SQL_Injection
-tag: attack, SQL Injection
+tags: attack, SQL Injection
 auto-migrated: 1
 
 ---

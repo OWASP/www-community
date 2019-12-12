@@ -5,7 +5,7 @@ title: Direct Dynamic Code Evaluation - Eval Injection
 author: 
 contributors:
 permalink: /attacks/Direct_Dynamic_Code_Evaluation_Eval Injection
-tag: attack, direct dynamic code evaluation, eval injection
+tags: attack, direct dynamic code evaluation, eval injection
 auto-migrated: 1
 
 ---

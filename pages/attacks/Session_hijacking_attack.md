@@ -5,7 +5,7 @@ title: Session hijacking attack
 author: 
 contributors: 
 permalink: /attacks/Session_hijacking_attack
-tag: attack, Session hijacking attack
+tags: attack, Session hijacking attack
 auto-migrated: 1
 
 ---

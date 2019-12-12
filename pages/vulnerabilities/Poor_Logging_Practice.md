@@ -5,7 +5,7 @@ title: Poor Logging Practice
 author: 
 contributors: 
 permalink: /vulnerabilities/Poor_Logging_Practice
-tag: vulnerability, Poor Logging Practice
+tags: vulnerability, Poor Logging Practice
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: CORS RequestPreflighScrutiny
 author: 
 contributors: 
 permalink: /attacks/CORS_RequestPreflighScrutiny
-tag: attack, CORS RequestPreflighScrutiny
+tags: attack, CORS RequestPreflighScrutiny
 auto-migrated: 1
 
 ---

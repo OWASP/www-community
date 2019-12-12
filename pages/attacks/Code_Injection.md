@@ -5,7 +5,7 @@ title: Code Injection
 author: 
 contributors: 
 permalink: /attacks/Code_Injection
-tag: attack, Code Injection
+tags: attack, Code Injection
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Doubly freeing memory
 author: 
 contributors: 
 permalink: /vulnerabilities/Doubly_freeing_memory
-tag: vulnerability, Doubly freeing memory
+tags: vulnerability, Doubly freeing memory
 auto-migrated: 1
 
 ---

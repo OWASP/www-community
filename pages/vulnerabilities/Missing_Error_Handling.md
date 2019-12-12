@@ -5,7 +5,7 @@ title: Missing Error Handling
 author: 
 contributors: 
 permalink: /vulnerabilities/Missing_Error_Handling
-tag: vulnerability, Missing Error Handling
+tags: vulnerability, Missing Error Handling
 auto-migrated: 1
 
 ---

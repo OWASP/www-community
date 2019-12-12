@@ -5,7 +5,7 @@ title: Process Control
 author: 
 contributors: 
 permalink: /vulnerabilities/Process_Control
-tag: vulnerability, Process Control
+tags: vulnerability, Process Control
 auto-migrated: 1
 
 ---

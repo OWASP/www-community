@@ -5,7 +5,7 @@ title: Man-in-the-middle attack
 author: 
 contributors: 
 permalink: /attacks/Man-in-the-middle_attack
-tag: attack, Man-in-the-middle attack
+tags: attack, Man-in-the-middle attack
 auto-migrated: 1
 
 ---

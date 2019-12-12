@@ -5,7 +5,7 @@ title: Heartbleed Bug
 author: 
 contributors: 
 permalink: /vulnerabilities/Heartbleed_Bug
-tag: vulnerability, Heartbleed Bug
+tags: vulnerability, Heartbleed Bug
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Buffer Overflow Attack
 author: 
 contributors:
 permalink: /attacks/Buffer_overflow_attack
-tag: attack, buffer overflow
+tags: attack, buffer overflow
 auto-migrated: 1
 
 ---

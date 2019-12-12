@@ -4,7 +4,7 @@ layout: col-sidebar
 title: Attacks
 author:
 contributors:
-tags: attack
+tags: 
 permalink: /attacks
 
 ---
@@ -16,9 +16,8 @@ Attacks are the techniques that attackers use to exploit the vulnerabilities in 
 ## List of Attacks
 
 <ul>
-{% for page in site.pages %}
-    {% if page.path contains 'pages/attacks/' and page.name != 'index.md' %}
+{% assign attackpages = site.pages | where_exp: "item", "item.tags contains 'attack'" %}
+{% for page in attackpages %}
     <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
-    {% endif %}
 {% endfor %}
 </ul>

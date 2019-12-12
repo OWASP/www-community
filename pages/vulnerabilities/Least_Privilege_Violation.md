@@ -5,7 +5,7 @@ title: Least Privilege Violation
 author: 
 contributors: 
 permalink: /vulnerabilities/Least_Privilege_Violation
-tag: vulnerability, Least Privilege Violation
+tags: vulnerability, Least Privilege Violation
 auto-migrated: 1
 
 ---

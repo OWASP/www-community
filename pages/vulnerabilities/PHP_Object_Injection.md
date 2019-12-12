@@ -5,7 +5,7 @@ title: PHP Object Injection
 author: 
 contributors: 
 permalink: /vulnerabilities/PHP_Object_Injection
-tag: vulnerability, PHP Object Injection
+tags: vulnerability, PHP Object Injection
 auto-migrated: 1
 
 ---

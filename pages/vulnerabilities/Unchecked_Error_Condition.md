@@ -5,7 +5,7 @@ title: Unchecked Error Condition
 author: 
 contributors: 
 permalink: /vulnerabilities/Unchecked_Error_Condition
-tag: vulnerability, Unchecked Error Condition
+tags: vulnerability, Unchecked Error Condition
 auto-migrated: 1
 
 ---

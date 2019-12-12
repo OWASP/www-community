@@ -5,7 +5,7 @@ title: Command Injection
 author: 
 contributors: 
 permalink: /attacks/Command_Injection
-tag: attack, Command Injection
+tags: attack, Command Injection
 auto-migrated: 1
 
 ---

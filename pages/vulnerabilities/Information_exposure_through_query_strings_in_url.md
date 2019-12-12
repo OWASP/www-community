@@ -5,7 +5,7 @@ title: Information exposure through query strings in url
 author: 
 contributors: 
 permalink: /vulnerabilities/Information_exposure_through_query_strings_in_url
-tag: vulnerability, Information exposure through query strings in url
+tags: vulnerability, Information exposure through query strings in url
 auto-migrated: 1
 
 ---

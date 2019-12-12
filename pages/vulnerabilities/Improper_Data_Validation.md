@@ -5,7 +5,7 @@ title: Improper Data Validation
 author: 
 contributors: 
 permalink: /vulnerabilities/Improper_Data_Validation
-tag: vulnerability, Improper Data Validation
+tags: vulnerability, Improper Data Validation
 auto-migrated: 1
 
 ---

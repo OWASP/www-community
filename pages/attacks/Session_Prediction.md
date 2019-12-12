@@ -5,7 +5,7 @@ title: Session Prediction
 author: 
 contributors: 
 permalink: /attacks/Session_Prediction
-tag: attack, Session Prediction
+tags: attack, Session Prediction
 auto-migrated: 1
 
 ---

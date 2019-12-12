@@ -5,7 +5,7 @@ title: Using a broken or risky cryptographic algorithm
 author: 
 contributors: 
 permalink: /vulnerabilities/Using_a_broken_or_risky_cryptographic_algorithm
-tag: vulnerability, Using a broken or risky cryptographic algorithm
+tags: vulnerability, Using a broken or risky cryptographic algorithm
 auto-migrated: 1
 
 ---

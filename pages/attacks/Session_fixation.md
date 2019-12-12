@@ -5,7 +5,7 @@ title: Session fixation
 author: 
 contributors: 
 permalink: /attacks/Session_fixation
-tag: attack, Session fixation
+tags: attack, Session fixation
 auto-migrated: 1
 
 ---

@@ -5,7 +5,7 @@ title: Cross Site Tracing
 author: 
 contributors: 
 permalink: /attacks/Cross_Site_Tracing
-tag: attack, Cross Site Tracing
+tags: attack, Cross Site Tracing
 auto-migrated: 1
 
 ---

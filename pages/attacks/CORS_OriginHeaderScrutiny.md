@@ -5,7 +5,7 @@ title: CORS OriginHeaderScrutiny
 author: 
 contributors: 
 permalink: /attacks/CORS_OriginHeaderScrutiny
-tag: attack, CORS OriginHeaderScrutiny
+tags: attack, CORS OriginHeaderScrutiny
 auto-migrated: 1
 
 ---

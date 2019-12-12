@@ -5,7 +5,7 @@ title: Unicode Encoding
 author: 
 contributors: 
 permalink: /attacks/Unicode_Encoding
-tag: attack, Unicode Encoding
+tags: attack, Unicode Encoding
 auto-migrated: 1
 
 ---

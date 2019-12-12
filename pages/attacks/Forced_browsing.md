@@ -5,7 +5,7 @@ title: Forced browsing
 author: 
 contributors: 
 permalink: /attacks/Forced_browsing
-tag: attack, Forced browsing
+tags: attack, Forced browsing
 auto-migrated: 1
 
 ---

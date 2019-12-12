@@ -5,7 +5,7 @@ title: Insecure Transport
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Transport
-tag: vulnerability, Insecure Transport
+tags: vulnerability, Insecure Transport
 auto-migrated: 1
 
 ---

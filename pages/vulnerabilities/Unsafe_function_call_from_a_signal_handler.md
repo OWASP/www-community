@@ -5,7 +5,7 @@ title: Unsafe function call from a signal handler
 author: 
 contributors: 
 permalink: /vulnerabilities/Unsafe_function_call_from_a_signal_handler
-tag: vulnerability, Unsafe function call from a signal handler
+tags: vulnerability, Unsafe function call from a signal handler
 auto-migrated: 1
 
 ---

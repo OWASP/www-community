@@ -5,7 +5,7 @@ title: Buffer Overflow
 author: 
 contributors: 
 permalink: /vulnerabilities/Buffer_Overflow
-tag: vulnerability, Buffer Overflow
+tags: vulnerability, Buffer Overflow
 auto-migrated: 1
 
 ---

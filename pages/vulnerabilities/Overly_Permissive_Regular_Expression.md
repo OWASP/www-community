@@ -5,7 +5,7 @@ title: Overly Permissive Regular Expression
 author: 
 contributors: 
 permalink: /vulnerabilities/Overly_Permissive_Regular_Expression
-tag: vulnerability, Overly Permissive Regular Expression
+tags: vulnerability, Overly Permissive Regular Expression
 auto-migrated: 1
 
 ---

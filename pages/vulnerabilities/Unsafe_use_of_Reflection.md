@@ -5,7 +5,7 @@ title: Unsafe use of Reflection
 author: 
 contributors: 
 permalink: /vulnerabilities/Unsafe_use_of_Reflection
-tag: vulnerability, Unsafe use of Reflection
+tags: vulnerability, Unsafe use of Reflection
 auto-migrated: 1
 
 ---

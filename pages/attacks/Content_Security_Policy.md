@@ -5,7 +5,7 @@ title: Content Security Policy
 author: 
 contributors: 
 permalink: /attacks/Content_Security_Policy
-tag: attack, Content Security Policy
+tags: attack, Content Security Policy
 auto-migrated: 1
 
 ---

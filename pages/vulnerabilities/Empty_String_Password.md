@@ -5,7 +5,7 @@ title: Empty String Password
 author: 
 contributors: 
 permalink: /vulnerabilities/Empty_String_Password
-tag: vulnerability, Empty String Password
+tags: vulnerability, Empty String Password
 auto-migrated: 1
 
 ---

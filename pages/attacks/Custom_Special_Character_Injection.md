@@ -5,7 +5,7 @@ title: Custom Special Character Injection
 author: 
 contributors: 
 permalink: /attacks/Custom_Special_Character_Injection
-tag: attack, Custom Special Character Injection
+tags: attack, Custom Special Character Injection
 auto-migrated: 1
 
 ---

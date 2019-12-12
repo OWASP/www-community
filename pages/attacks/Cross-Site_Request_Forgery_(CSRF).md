@@ -5,7 +5,7 @@ title: Cross-Site Request Forgery (CSRF)
 author: 
 contributors: 
 permalink: /attacks/Cross-Site_Request_Forgery_(CSRF)
-tag: attack, Cross-Site Request Forgery (CSRF)
+tags: attack, Cross-Site Request Forgery (CSRF)
 auto-migrated: 1
 
 ---
@@ -226,7 +226,7 @@ the vulnerable request looks like this:
 `acct=BOB&amount=100`
 
 Such a request cannot be delivered using standard A or IMG tags, but can
-be delivered using a FORM tag:
+be delivered using a FORM tags:
 
 <form action="<nowiki>http://bank.com/transfer.do</nowiki>" method="POST">
 

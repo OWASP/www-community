@@ -5,7 +5,7 @@ title: Cornucopia - Ecommerce Website Edition - Wiki Deck
 author: 
 contributors: 
 permalink: /attacks/Cornucopia_-_Ecommerce_Website_Edition_-_Wiki_Deck
-tag: attack, Cornucopia - Ecommerce Website Edition - Wiki Deck
+tags: attack, Cornucopia - Ecommerce Website Edition - Wiki Deck
 auto-migrated: 1
 
 ---

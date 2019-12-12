@@ -5,7 +5,7 @@ title: Brute Force Attack
 author: 
 contributors:
 permalink: /attacks/Brute_force_attack
-tag: attack, brute force
+tags: attack, brute force
 auto-migrated: 1
 
 ---

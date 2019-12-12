@@ -5,7 +5,7 @@ title: Catch NullPointerException
 author: 
 contributors: 
 permalink: /vulnerabilities/Catch_NullPointerException
-tag: vulnerability, Catch NullPointerException
+tags: vulnerability, Catch NullPointerException
 auto-migrated: 1
 
 ---

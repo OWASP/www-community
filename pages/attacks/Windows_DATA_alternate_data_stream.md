@@ -5,7 +5,7 @@ title: Windows ::DATA alternate data stream
 author: 
 contributors: 
 permalink: /attacks/Windows_::DATA_alternate_data_stream
-tag: attack, Windows ::DATA alternate data stream
+tags: attack, Windows ::DATA alternate data stream
 auto-migrated: 1
 
 ---

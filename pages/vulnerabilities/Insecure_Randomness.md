@@ -5,7 +5,7 @@ title: Insecure Randomness
 author: 
 contributors: 
 permalink: /vulnerabilities/Insecure_Randomness
-tag: vulnerability, Insecure Randomness
+tags: vulnerability, Insecure Randomness
 auto-migrated: 1
 
 ---
