@@ -1,4 +1,14 @@
+---
 
+layout: col-sidebar
+title: Static Code Analysis
+author: 
+contributors: 
+tags: source code analysis, static code analysis
+permalink: /Static_Code_Analysis
+automigrated: 1
+
+---
 
 ## Description
 
