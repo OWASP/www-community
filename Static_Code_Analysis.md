@@ -1,8 +1,4 @@
-Every **[control](control "wikilink")** should follow this template.
 
-
-
-Last revision (mm/dd/yy): **//**
 
 ## Description
 
