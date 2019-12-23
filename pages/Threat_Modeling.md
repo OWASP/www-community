@@ -101,8 +101,7 @@ best to start with the factors that make a lot of difference.
 
 <!-- end list -->
 
-  - **Identify [Threat
-    Agents](http://www.owasp.org/index.php/Category:Threat_Agent) and
+  - **Identify [Threat Agents](http://www.owasp.org/index.php/Category:Threat_Agent) and
     possible [Attacks](/attacks)** - A key part of the threat
     model is a characterization of the different groups of people who
     might be able to attack your application. These groups should
@@ -112,7 +111,7 @@ best to start with the factors that make a lot of difference.
 <!-- end list -->
 
   - **Understand existing
-    [Countermeasures](Countermeasures "wikilink")** - The model must
+    Countermeasures - The model must
     include the existing countermeasures
 
 <!-- end list -->
@@ -134,8 +133,7 @@ best to start with the factors that make a lot of difference.
 
 <!-- end list -->
 
-  - **Identify [Countermeasures](Countermeasures "wikilink") to reduce
-    threat** - The last step is to identify countermeasures to reduce
+  - **Identify Countermeasures to reduce threat** - The last step is to identify countermeasures to reduce
     the risk to acceptable levels.
 
 ## Benefits
