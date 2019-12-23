@@ -6,6 +6,7 @@ author:
 contributors:
 tags: Threat Modeling
 auto-migrated: 1
+permalink: /Threat_Modeling
 
 ---
 
