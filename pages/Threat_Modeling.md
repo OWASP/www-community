@@ -5,6 +5,7 @@ title: OWASP Threat Modeling
 author:
 contributors:
 tags: Threat Modeling
+auto-migrated: 1
 
 ---
 
