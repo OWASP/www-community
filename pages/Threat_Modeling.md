@@ -103,7 +103,7 @@ best to start with the factors that make a lot of difference.
 
   - **Identify [Threat
     Agents](http://www.owasp.org/index.php/Category:Threat_Agent) and
-    possible [Attacks](/Attacks)** - A key part of the threat
+    possible [Attacks](/attacks)** - A key part of the threat
     model is a characterization of the different groups of people who
     might be able to attack your application. These groups should
     include insiders and outsiders, performing both inadvertent mistakes
@@ -118,7 +118,7 @@ best to start with the factors that make a lot of difference.
 <!-- end list -->
 
   - **Identify exploitable
-    [Vulnerabilities](Vulnerabilities "wikilink")** - Once you have an
+    [Vulnerabilities](/vulnerabilities)** - Once you have an
     understanding of the security in the application, you can then
     analyze for new vulnerabilities. The search is for vulnerabilities
     that connect the possible attacks you've identified to the negative
