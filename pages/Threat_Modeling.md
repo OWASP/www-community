@@ -10,9 +10,6 @@ permalink: /Threat_Modeling
 
 ---
 
-This category should be used to tag articles that are related to threat
-modeling.
-
 ## Overview
 
 The term "Threat Modeling" has become quite popular recently. Microsoft
@@ -106,7 +103,7 @@ best to start with the factors that make a lot of difference.
 
   - **Identify [Threat
     Agents](http://www.owasp.org/index.php/Category:Threat_Agent) and
-    possible [Attacks](Attacks "wikilink")** - A key part of the threat
+    possible [Attacks](/Attacks)** - A key part of the threat
     model is a characterization of the different groups of people who
     might be able to attack your application. These groups should
     include insiders and outsiders, performing both inadvertent mistakes
