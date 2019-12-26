@@ -5,6 +5,7 @@ title: Web Application Firewall
 author:
 contributors:
 tags: WAF, Web Application Firewall
+permalink: /Web_Application_Firewall
 auto-migrated: 1
 
 ---
