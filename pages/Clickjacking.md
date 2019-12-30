@@ -1,10 +1,12 @@
 ---
+
 title: Clickjacking
 layout: col-sidebar
 author:
 contributors:
 auto-migrated: 1
 permalink: /Clickjacking
+
 ---
 
 Clickjacking, also known as a "UI redress attack", is when an attacker
