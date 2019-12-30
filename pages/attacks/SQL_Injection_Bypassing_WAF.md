@@ -5,7 +5,7 @@ layout: col-sidebar
 author:
 contributors:
 auto-migrated: 1
-permalink: attacks/SQL_Injection_Bypassing_WAF
+permalink: /attacks/SQL_Injection_Bypassing_WAF
 
 ---
 
