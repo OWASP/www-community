@@ -46,11 +46,13 @@ Servlet 3.0 (Java EE 6) introduced a standard way to configure secure
 attribute for the session cookie, this can be done by applying the
 following configuration in web.xml
 
+```
 <session-config>
-` `<cookie-config>
-`  `<secure>`true`</secure>
-` `</cookie-config>
+  <cookie-config>
+  <secure>`true`</secure>
+  </cookie-config>
 </session-config>
+```
 
 ### Tomcat
 
@@ -114,14 +116,18 @@ through the parameter:
 or in and during a script via the function
 [5](http://pl.php.net/manual/en/function.session-set-cookie-params.php):
 
-`void session_set_cookie_params  ( int $lifetime  [, string $path  [, string $domain  `
-`                                  [, bool $secure= false  [, bool $httponly= false  ]]]] )`
+```
+void session_set_cookie_params ( int $lifetime  [, string $path  [, string $domain  
+                                  [, bool $secure= false  [, bool $httponly= false  ]]]] )
+```
 
 For application cookies a parameter in setcookie() sets Secure flag
 [6](http://pl.php.net/setcookie):
 
-`bool setcookie  ( string $name  [, string $value  [, int $expire= 0  [, string $path  `
-`                 [, string $domain  [, bool $secure= false  [, bool $httponly= false  ]]]]]] )`
+```
+bool setcookie ( string $name  [, string $value  [, int $expire= 0  [, string $path  
+                 [, string $domain  [, bool $secure= false  [, bool $httponly= false  ]]]]]] )
+```
 
 # Testing for the Secure Flag
 
