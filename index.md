@@ -34,6 +34,14 @@ Include the following front matter in your file (for examples, see pages/passwor
 {% endfor %}
 </ul>
 
+<div>
+    <h2>Tags</h2>
+{% assign page_tags =  site.pages | map: 'tags' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+{% for tag in page_tags %}
+{{ tag }}
+{% endfor %}
+</div>
+
 {% capture all_tags %}
 {% for page in site.pages %}
 {% for tag in page.tags %}
