@@ -33,3 +33,15 @@ Include the following front matter in your file (for examples, see pages/passwor
        <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
+
+{% capture all_tags %}
+{% for page in site.pages %}
+{% for tag in page.tags %}
+{{ tag }}{% if not forloop.last %},{% endif %}
+{% endfor %}
+{% endfor %}
+{% endcapture %}
+{% assign tag_list = all_tags | split: "," | uniq %}
+{% for t in tag_list %}
+{{ t }}
+{% endfor %}
