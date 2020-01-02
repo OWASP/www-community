@@ -25,11 +25,11 @@ Include the following front matter in your file (for examples, see pages/passwor
     
     ---
 
-## Recently Submitted Files
+## File Listing
 
-{% assign pages = (site.pages | sort: 'date') | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'"%}
+{% assign pages = site.pages | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'"%}
 <ul>
-{% for page in pages limit:10 %}
+{% for page in pages %}
        <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
