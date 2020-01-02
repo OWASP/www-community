@@ -5,7 +5,7 @@ layout: col-sidebar
 author:
 contributors:
 tags:
-auto-migration: 1
+auto-migrated: 1
 permalink: /Application_Threat_Modeling
 
 ---
