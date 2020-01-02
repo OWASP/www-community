@@ -37,7 +37,7 @@ Include the following front matter in your file (for examples, see pages/passwor
 {% capture all_tags %}
 {% for page in site.pages %}
 {% for tag in page.tags %}
-{{ tag }}{% if not forloop.last %},{% endif %}
+{{ tag }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% endfor %}
 {% endcapture %}
