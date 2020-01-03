@@ -6,7 +6,7 @@ author:
 contributors:
 tags: ASP.NET
 auto-migrated: 1
-permalink: /ASP.NET_Request_Validation
+permalink: /ASP-NET_Request_Validation
 
 ---
 
