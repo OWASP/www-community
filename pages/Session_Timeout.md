@@ -109,5 +109,3 @@ For this, it's best practices to :
   - Trace session creation/destroy in order to analyse creation trend
     and try to detect anormal session number creation (application
     profiling phase in a attack).
-
-[Category:Java](Category:Java "wikilink")
