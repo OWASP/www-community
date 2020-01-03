@@ -88,11 +88,11 @@ the first decoding process is performed by HTTP protocol and the
 resultant encoded URL will bypass the XSS filter, since it has no
 mechanisms to improve detection. A simple example XSS would be:
 
-<script>
+    <script>
 
-alert('XSS')
+    alert('XSS')
 
-</script>
+    </script>
 
 This malicious code could be inserted into a vulnerable application,
 resulting in an alert window with the message “XSS”. However, the web
