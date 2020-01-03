@@ -1,6 +1,6 @@
 ---
 
-title: Type of XSS
+title: Types of XSS
 layout: col-sidebar
 author:
 contributors:
