@@ -6,7 +6,7 @@ author:
 contributors:
 tags: controls
 auto-migrated: 1
-permalink: /Blocking_Brute_Force_Attacks
+permalink: /controls/Blocking_Brute_Force_Attacks
 
 ---
 
