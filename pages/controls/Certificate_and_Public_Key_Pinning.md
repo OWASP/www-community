@@ -6,7 +6,7 @@ author:
 contributors:
 auto-migrated: 1
 tags: controls
-permalink: /Certificate_and_Public_Key_Pinning
+permalink: /controls/Certificate_and_Public_Key_Pinning
 
 ---
 
