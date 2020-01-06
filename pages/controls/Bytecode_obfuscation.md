@@ -4,7 +4,7 @@ title: Bytecode Obfuscation
 layout: col-sidebar
 author:
 contributors:
-tags: java
+tags: controls, java
 auto-migrated: 1
 permalink: Bytecode_obfuscation
 
