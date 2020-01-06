@@ -5,7 +5,7 @@ layout: col-sidebar
 author:
 contributors:
 auto-migrated: 1
-permalink: /SecureFlag
+permalink: /controls/SecureFlag
 
 ---
 
