@@ -220,7 +220,3 @@ of the attacker.
 See this class
 [WindowsDataGrabber](https://code.google.com/p/righettod/source/browse/JEE/ClientIdentifyPOC/src/main/java/com/googlecode/righettod/cip/WindowsDataGrabber.java)
 for implementation details.
-
-[Category:Control](Category:Control "wikilink") [Category:Code
-Snippet](Category:Code_Snippet "wikilink")
-[Category:Java](Category:Java "wikilink")
