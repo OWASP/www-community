@@ -1,10 +1,13 @@
 ---
+
 title: Certificate and Public Key Pinning
 layout: col-sidebar
 author:
 contributors:
 auto-migrated: 1
+tags: controls
 permalink: /Certificate_and_Public_Key_Pinning
+
 ---
 
 [Certificate and Public Key
