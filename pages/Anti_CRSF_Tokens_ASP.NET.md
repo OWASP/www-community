@@ -6,7 +6,7 @@ author:
 contributors:
 tags:
 auto-migrated: 1
-permalink: /Anti_CRSF_Tokens_ASP.NET
+permalink: /Anti_CRSF_Tokens_ASP-NET
 
 ---
 
