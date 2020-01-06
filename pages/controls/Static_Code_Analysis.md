@@ -4,8 +4,8 @@ layout: col-sidebar
 title: Static Code Analysis
 author: 
 contributors: 
-tags: source code analysis, static code analysis
-permalink: /Static_Code_Analysis
+tags: controls, source code analysis, static code analysis
+permalink: /controls/Static_Code_Analysis
 auto-migrated: 1
 
 ---
