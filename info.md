@@ -2,3 +2,4 @@
 
 * [Attacks](attacks)
 * [Vulnerabilities](vulnerabilities)
+* [Controls](controls)
