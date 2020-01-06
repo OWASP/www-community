@@ -4,7 +4,7 @@ title: Blocking Brute Force Attacks
 layout: col-sidebar
 author:
 contributors:
-tags:
+tags: controls
 auto-migrated: 1
 permalink: /Blocking_Brute_Force_Attacks
 
