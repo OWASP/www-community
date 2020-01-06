@@ -128,13 +128,14 @@ application development effort. It should be combined with other risk
 assessment techniques that also take into account the larger
 organizational impacts of the application.
 
-## Examples of controls
+## List of Controls
 
-  - [Authentication](Authentication "wikilink")
-  - [Authorization](Authorization "wikilink")
-  - [Audit](Audit "wikilink")
-  - [Data_Security](Data_Security "wikilink")
-  - [Integrity](Integrity "wikilink")
+<ul>
+{% assign ctrlpages = site.pages | where_exp: "item", "item.tags contains 'controls'" %}
+{% for page in ctrlpages %}
+    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+{% endfor %}
+</ul>
 
 ## Further References
 
