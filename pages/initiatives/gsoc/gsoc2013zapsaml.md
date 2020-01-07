@@ -2,6 +2,7 @@
 layout: full-width
 title: GSoC 2013 - ZAP SAML Support Status Updates
 tags: gsoc
+permalink: /initiatives/gsoc/gsoc2013zapsaml
 ---
 # GSoC2013 - OWASP ZAP SAML Support
 
