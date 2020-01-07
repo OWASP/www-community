@@ -1,0 +1,370 @@
+---
+
+title: Component Analysis
+layout: col-sidebar
+author: 
+contributors:
+tags:
+auto-migrated: 1
+permalink: /Component_Analysis
+
+---
+
+Modern software is assembled using third-party and open source
+components, glued together in complex and unique ways, and integrated
+with original code to provide the desired functionality. Third-party
+(including commercially licensed, proprietary, and "source available"
+software) along with open source components provide the necessary
+building blocks that allow organizations to deliver value, improve
+quality, reduce risk and time-to-market. The benefits of open source are
+many. However, by using open source components, organizations ultimately
+take responsibility for code they did not write. Strategic alliances
+between organizations and open source projects can lead to healthy open
+source usage and overall risk reduction.
+
+Component Analysis is the process of identifying potential areas of risk
+from the use of third-party and open-source software and hardware
+components. Component Analysis is a function within an overall [Cyber
+Supply Chain Risk
+Management](https://csrc.nist.gov/projects/supply-chain-risk-management)
+(C-SCRM) framework. A software-only subset of Component Analysis with
+limited scope is commonly referred to as Software Composition Analysis
+(SCA).
+
+Any component that has the potential to adversely impact cyber
+supply-chain risk is a candidate for Component Analysis.
+
+## Common Risk Factors
+
+##### Component Inventory
+
+Having an accurate inventory of all third-party and open source
+components is pivotal for risk identification. Without such knowledge,
+other factors of Component Analysis become impractical to determine with
+high confidence. Use of dependency management solutions and/or [Software
+Bill-of-Materials
+(SBOM)](#Software_Bill-of-Materials_\(SBOM\) "wikilink") can aid in
+inventory creation.
+
+##### Component Age
+
+Components may have varying degrees of age acceptance criteria. Factors
+that impact acceptable age include the [type of
+component](#Component_Type "wikilink"), the ecosystem the component is a
+part of (Maven, NPM, etc), and the purpose of the component. The age of
+a component may signify use of outdated technology and may have a higher
+probability of being passed over by security researchers.
+
+##### Outdated Components
+
+Newer versions of components may improve quality or performance. These
+improvements can be inherited by the applications that have a dependency
+on them. Components that are end-of-life (EOL) or end-of-support (EOS)
+also impact risk. Two common approaches to community supported
+open-source is:
+
+  - Support the latest revision of the last (x) releases - (i.e. 4.3.6
+    and 4.2.9)
+  - Support only the latest published version (i.e. 4.3.6 today and
+    4.4.0 tomorrow)
+
+Depending on the risk appetite, it may be strategic to only use
+third-party and open source components that are supported.
+
+With reference to [Semantic Versioning](https://semver.org/)
+terminology, API changes can be expected between major versions of a
+component, but are rare between minor versions and patches. Changes in a
+components API may result in longer remediation times if the components
+have not been continuously updated. Keeping components up-to-date can
+reduce remediation time when a rapid response is warranted.
+
+Outdated version identification may leverage ecosystem-specific
+repositories and is achievable through the use of dependency managers or
+[Package URL](#Component_Identification "wikilink"). Component analysis
+can identify outdated components as well as provide information about
+newer versions.
+
+##### Known Vulnerabilities
+
+Historically, known vulnerabilities referred to entries (CVEs) in the
+[National Vulnerability Database](https://nvd.nist.gov/) (NVD). The NVD
+describes (via [CPE](https://nvd.nist.gov/products/cpe)) three types of
+components:
+
+  - Applications (includes libraries and frameworks)
+  - Operating Systems
+  - Hardware
+
+While the NVD may be the most recognizable source of vulnerability
+intelligence, it's not the only. There are multiple public and
+commercial sources of vulnerability intelligence. Having a *known*
+vulnerability doesn't require the vulnerability information be present
+in one of these sources. Simply being documented (i.e. social media
+post, defect tracker, commit log, release notes, etc) classifies the
+vulnerability as being *known*.
+
+Component analysis will commonly identify known vulnerabilities from
+multiple sources of vulnerability intelligence.
+
+##### Component Type
+
+Frameworks and libraries have unique upgrade challenges and associated
+risk. Abstractions, coupling, and architectural design patterns may
+affect the risk of using a given component type. For example, logging
+libraries may be embedded throughout a large application, but replacing
+implementations can likely be automated. Likewise, replacing a web
+application framework for an alternative framework would likely be a
+high-risk endeavor leading to architectural changes, regressions, and
+code rewrites. Evaluating the type should be part of every Component
+Analysis strategy.
+
+##### Component Function
+
+Identifying and analyzing the purpose of each component may reveal the
+existence of components with duplicate or similar functionality. For
+example, it's unlikely an application would need multiple XML parsers or
+cryptographic providers. Potential risk can be reduced by minimizing the
+number of components for each function and by choosing the highest
+quality components for each function. Evaluating component function
+should be part of every Component Analysis strategy.
+
+##### Component Quantity
+
+The number of third-party and open source components in a project should
+be evaluated. The operational and maintenance cost of using open source
+will increase with the adoption of every new component. The impact can
+be significantly higher with micro-module ecosystems when there are
+hundreds or thousands of applications in a given environment. In
+addition to increased operational and maintenance cost, a decrease in a
+development teams ability to maintain growing sets of components over
+time can be expected. This is especially true for teams with time-boxed
+constraints.
+
+##### Repository Trust
+
+Components in many software ecosystems are published and distributed to
+central repositories. Repositories have known threats. Some of the
+threats against public repositories include:
+
+  - Typosquatting - naming a component in such as way as to take
+    advantage of common misspelling
+  - Organization/Group abuse - pretending to be a public person or
+    entity and abusing the perceived trust
+  - Malware through transfer - leveraging weak or absent code-signing
+    requirements to spread malware through the transfer of an open
+    source project from one maintainer to another
+  - Cross Build Injection (XBI) - Abusing dependency resolution schemes
+    and weak infrastructure controls to inject malicious components in
+    place of safe ones
+
+Public repositories that have code-signing and verification requirements
+have some level of trust, whereas public repositories without basic
+countermeasures do not. For no-trust or low-trust repositories,
+utilizing private repositories may be advantageous. Private repositories
+refer to repositories where access is limited, usually software that
+organizations install and control, or a commercially available service.
+*Golden repositories* containing vetted or whitelisted components are a
+common use-case for private repositories. Private repository services
+focusing on security may additionally provide anti-malware analysis and
+static source code analysis requirements prior to acceptance in the
+repository. When leveraging private repositories, it is important to
+have traceability to the components' repository of origin.
+
+##### Pedigree
+
+A component's pedigree (sometimes referred to as 'provenance') refers to
+the traceability of all changes (i.e. commits), releases, modifications,
+packaging, and distribution across the entire supply chain. In physical
+supply chains this is referred to as the *chain of custody*. Obtaining a
+components pedigree may involve a mixture of automation across multiple
+systems and suppliers, along with legal and verifiable supporting
+documentation. Component pedigree includes all supporting documentation
+of lineage and the attributes which make a component unique.
+
+##### License
+
+Third-party and open-source software typically has one or more licenses
+assigned. The chosen license may or may not allow certain types of
+usage, contain distribution requirements or limitations, or require
+specific actions if the component is modified. Component Analysis can
+identify the license(s) for a given component and may optionally provide
+guidance as to the nature of the license (i.e. copyright, copyleft, OSI
+approved, etc). Utilizing components with licenses which conflict with
+an organizations objectives or ability can create serious risk to the
+business.
+
+##### Inherited Risk
+
+Third-party and open source components often have dependencies on other
+components. A *transitive dependency* is when an application has a
+direct dependency on a component and that component has a dependency on
+another component. Transitive dependencies are common and are expected
+in highly modular ecosystems which values reuse over re-invent. Like any
+component, transitive dependencies have their own risk which is
+inherited by every component and application that relies on them.
+Components may additionally have specific runtime or environmental
+dependencies with implementation details not known or prescribed by the
+component. Component Analysis can aggregate the risk of all direct,
+transitive, runtime, and environmental dependencies providing a holistic
+view of inherited risk.
+
+##### Project Health
+
+There are many datapoints to consider when evaluating the health of an
+open source project.
+
+  - Quality Controls and Metrics - The overall quality and controls for
+    achieving and maintaining high-quality components may be a factor in
+    risk evaluation. For software components, this refers to the use of
+    unit and integration tests, linters and static analysis tools, the
+    percentage of coverage, and results from various tools.
+  - Community Engagement - The current and historical trend for a
+    project and its maintainers to accept pull requests, answer defect
+    and enhancement requests, and engage in productive collaboration
+    with the community may be a factor in risk evaluation.
+  - Vulnerability Analysis - Analyzing current and historical security
+    vulnerabilities for timeline trends and for root-cause patterns may
+    signify a projects ability to protect the community from future (and
+    similar) issues. This activity may be a factor in risk evaluation.
+
+## Software Bill-of-Materials (SBOM)
+
+Multiple efforts between government and industry are attempting to
+define *Software Transparency*. Some of these efforts will lead to
+increased compliance or regulatory requirements. Software Transparency
+is often achieved through the publishing of bill-of-materials (BOM). A
+BOM is synonymous to the list of ingredients in a recipe. Both are an
+implementation of transparency.
+
+Some Software Transparency efforts are focusing on Software
+Bill-of-Materials (SBOM) while others are more inclusive of all supply
+chain components. The [U.S. Food and Drug
+Administration](https://www.fda.gov/) (FDA) defines Cyber
+Bill-of-Materials (CBOM) as:
+
+> *a list that includes but is not limited to commercial, open source,
+> and off-the-shelf software and hardware components that are or could
+> become susceptible to vulnerabilities.*
+
+There are multiple SBOM standards including
+[CycloneDX](https://cyclonedx.org/), [SPDX](https://spdx.org/), and
+[SWID](https://www.iso.org/standard/65666.html), each having their own
+strengths and use-cases they were designed to solve. Evaluating SBOM
+standards to determine which are applicable to an organizations
+requirements should be part of an overall C-SCRM strategy.
+
+## Component Identification
+
+Component ecosystems generally devise different terminology and formats
+for representing components. This self-imposed fragmentation makes
+uniquely identifying and representing components difficult when
+referring to them outside of their respective ecosystems. Centralized
+databases such as the [CPE Product
+Dictionary](https://nvd.nist.gov/products/cpe) maintained by
+[NIST](https://www.nist.gov/) adds additional fragmentation as the CPE
+vendor and product names often do not reflect reality.
+
+Generally, a component will have a name and version. Components may
+optionally have a higher-level grouping identifier, commonly referred to
+as a groupId, organization, or vendor. When referencing components in a
+C-SCRM framework it is important to have a standard and uniform way to
+represent them. The [Package URL](https://github.com/package-url)
+[specification](https://github.com/package-url/purl-spec) provides a
+decentralized and uniform way to represent components.
+
+    scheme:type/namespace/name@version?qualifiers#subpath
+
+For example:
+
+    pkg:deb/debian/curl@7.50.3-1?arch=i386&distro=jessie
+    pkg:docker/cassandra@sha256:244fd47e07d1004f0aed9c
+    pkg:gem/jruby-launcher@1.1.2?platform=java
+    pkg:maven/org.apache.xmlgraphics/batik-anim@1.9.1?packaging=sources
+    pkg:npm/%40angular/animation@12.3.1
+    pkg:nuget/EnterpriseLibrary.Common@6.0.1304
+    pkg:pypi/django@1.11.1
+    pkg:rpm/fedora/curl@7.50.3-1.fc25?arch=i386&distro=fedora-25
+
+## Open Source Policy
+
+Open source policies provide guidance and governance to organizations
+looking to reduce third-party and open source risk. Policies typically
+include:
+
+  - Restrictions on component age
+  - Restrictions on outdated and EOL/EOS components
+  - Prohibition of components with known vulnerabilities
+  - Restrictions on public repository usage
+  - Restrictions on acceptable licenses
+  - Component update requirements
+  - Blacklist of prohibited components and versions
+  - Acceptable community contribution guidelines
+
+While the open source policy is usually filled with restrictions, it
+provides an organizations security, development, and legal teams an
+opportunity to create solutions for healthy open source usage.
+
+## Recommendations
+
+  - Limit the age of acceptable components to three years or less with
+    exceptions being made for high-value, single purpose components that
+    are still relevant
+  - Prohibit the use of end-of-life (EOL) components
+  - Prohibit the use of components with known vulnerabilities. Update
+    components that are exploitable with high to moderate risk first.
+  - Reduce the attack surface by excluding unnecessary direct and
+    transitive dependencies
+  - Reduce the number of suppliers and use the highest quality
+    components from those suppliers
+  - Standardize on a single component for each component function
+  - Establish a maximum level of acceptable risk for public
+    repositories. Utilize private repositories in lieu of untrusted
+    ones.
+  - Automate component updates (from trusted repositories only)
+  - Provide time-boxed allowances every sprint to maintain component
+    hygiene
+  - Establish a whitelist of acceptable licenses, a blacklist of
+    prohibited licenses, and seek advice from counsel for all other
+    licenses
+  - Automate the creation of software bill-of-materials (SBOM) for all
+    deliverables
+  - Leverage Package URL for describing components within SBOMs
+  - Contractually require SBOMs from vendors and embed their acquisition
+    in the procurement process
+  - Automate the analysis of all third-party and open source components
+    during Continuous Integration (CI), either by analyzing the files
+    themselves, or by analyzing a SBOM
+  - Import SBOMs into systems capable of tracking, analyzing, and
+    proactively monitoring all components used by every asset in an
+    environment (i.e. enterprise wide, entire cloud infrastructure, etc)
+
+## Tools Listing
+
+|}
+
+## References
+
+  - <https://csrc.nist.gov/projects/supply-chain-risk-management> -
+    Cyber Supply Chain Risk Management (C-SCRM)
+  - <http://stwww-production.herokuapp.com/calculator/> - Impact of
+    software supply chain practices: Development Waste (Sonatype)
+  - <https://www.fda.gov/downloads/MedicalDevices/DeviceRegulationandGuidance/GuidanceDocuments/UCM623529.pdf>
+    - Content of Premarket Submissions for Management of Cybersecurity
+    in Medical Devices (FDA)
+  - <https://cyclonedx.org/> - CycloneDX specification
+  - <https://spdx.org/> - Software Package Data Exchange (SPDX)
+  - <https://www.iso.org/standard/65666.html> - SWID (ISO/IEC
+    19770-2:2015)
+  - <https://github.com/package-url> - Package URL specification and
+    reference implementations
+  - <https://medium.com/@steve_springett/using-software-bill-of-materials-to-drive-change-and-reduce-risk-5901b7a339e3>
+    - Using Software Bill-of-Materials to drive change and reduce risk
+  - <https://cdn2.hubspot.net/hub/203759/file-1100864196-pdf/docs/Contrast_-_Insecure_Libraries_2014.pdf>
+    - The Unfortunate Reality of Insecure Libraries (Contrast Security)
+  - <https://safecode.org/wp-content/uploads/2014/06/SAFECode_Supply_Chain0709.pdf>
+    - Framework for Software Supply Chain Integrity (SAFECode)
+  - <https://safecode.org/wp-content/uploads/2017/05/SAFECode_TPC_Whitepaper.pdf>
+    - Managing Security Risks Inherent in the Use of Third-party
+    Components (SAFECode)
+  - <https://www.mitre.org/sites/default/files/publications/pr-18-2417-deliver-uncompromised-MITRE-study-8AUG2018.pdf>
+    - Deliver Uncompromised (MITRE)
