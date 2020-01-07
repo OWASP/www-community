@@ -2,7 +2,6 @@
 layout: full-width
 title: GSoC SAT
 tags: gsoc
-permalink: /initiatives/gsoc/gsoc_sat
 ---
 
 # GSoC SAT
