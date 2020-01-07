@@ -2,7 +2,6 @@
 layout: full-width
 title: GSoC 2015 Ideas
 tags: gsoc
-permalink: /initiatives/gsoc/gsoc2015ideas
 ---
 # GSoC 2015 Ideas
 
