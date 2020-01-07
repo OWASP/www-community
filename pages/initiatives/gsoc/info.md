@@ -1,6 +1,6 @@
 ### Important Community Links
 
 * [Community](/www-community)
-  * [Initiatives](/initiatives)
-    * [Code Sprints](/initiatives/code_sprint)
+  * [Initiatives](/www-community/initiatives)
+    * [Code Sprints](/www-community/initiatives/code_sprint)
     * Google Summer of Code (You are here)
