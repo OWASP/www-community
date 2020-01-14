@@ -5,7 +5,7 @@ title: Initiatives
 author:
 contributors:
 tags: initiatives
-permalink: /initiatives
+permalink: /initiatives/
 
 ---
 
