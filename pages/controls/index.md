@@ -6,7 +6,7 @@ author:
 contributors:
 tags: controls
 auto-migrated: 1
-permalink: /controls
+permalink: /controls/
 
 ---
 
