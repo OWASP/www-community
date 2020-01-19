@@ -11,12 +11,12 @@ permalink: /initiatives/gsoc/
 
 OWASP has taken part in Google Summer of Code many times over the history of both organizations/projects.
 
-[GSoC Student Application Template (SAT)](gsoc/gsoc_sat)
+[GSoC Student Application Template (SAT)](initiatives/gsoc/gsoc_sat)
 
 ## History
 
-- [GSoC 2019](gsoc/gsoc2019)
-  - [GSoc 2019 Ideas](gsoc/gsoc2019ideas)
+- [GSoC 2019](initiatives/gsoc/gsoc2019)
+  - [GSoc 2019 Ideas](initiatives/gsoc/gsoc2019ideas)
 - GSoC 2018
   - [GSoc 2018 Ideas](gsoc/gsoc2018ideas)
 - [GSoC 2017](gsoc/gsoc2017)
