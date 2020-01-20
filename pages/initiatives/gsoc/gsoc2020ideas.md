@@ -3,7 +3,7 @@
 layout: full-width
 title: GSoC 2019 Ideas
 tags: gsoc
-permalink: /initiatives/gsoc/gsoc2019ideas
+permalink: /initiatives/gsoc/gsoc2020ideas
 
 ---
 # GSoC2020 Ideas
