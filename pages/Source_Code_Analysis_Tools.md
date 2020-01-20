@@ -244,9 +244,9 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     static analysis
   - [KlocWork](http://www.klocwork.com/capabilities/static-code-analysis)
     (KlocWork)
-  - [Kiuwan](https://www.kiuwan.com/code-analysis/) (an
-    [Optimyth](http://www.optimyth.com) company) - SaaS Software Quality
-    & Security Analysis
+  - [Kiuwan](https://www.kiuwan.com/) (a division of Idera, Inc.) provides an application security 
+    testing and analytics platform –    including SAST and SCA solutions – that reduces risk and 
+    improves change management and DevOps processes
   - [Parasoft
     Test](http://www.parasoft.com/jsp/capabilities/static_analysis.jsp?itemId=547)
     (Parasoft)
