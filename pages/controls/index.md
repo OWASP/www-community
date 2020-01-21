@@ -4,7 +4,7 @@ title: Controls
 layout: col-sidebar
 author:
 contributors:
-tags: controls
+tags:
 auto-migrated: 1
 permalink: /controls/
 
