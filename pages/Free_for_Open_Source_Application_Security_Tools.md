@@ -24,7 +24,7 @@ We would encourage open source projects to use the following types of
 tools to improve the security and quality of their code:
 
   - Static Application Security Testing ([SAST](Source_Code_Analysis_Tools)) Tools
-  - Dynamic Application Security Testing ([DAST](Static_Code_Analysis)) Tools
+  - Dynamic Application Security Testing ([DAST](Vulnerability_Scanning_Tools)) Tools
     - (Primarily for web apps)
   - Interactive Application Security Testing (IAST) Tools - (Primarily
     for web apps and web APIs)
@@ -82,7 +82,7 @@ are free for Open Source projects:
 If your project has a web application component, we recommend running
 automated scans against it to look for vulnerabilities. OWASP maintains
 a page of known DAST Tools: [Vulnerability Scanning
-Tools](:Category:Vulnerability_Scanning_Tools "wikilink"), and the
+Tools](Vulnerability_Scanning_Tools), and the
 **Licence** column on this page indicates which of those tools have free
 capabilities. Our primary recommendation is to use one of these:
 
