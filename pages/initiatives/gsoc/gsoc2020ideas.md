@@ -1,7 +1,7 @@
 ---
 
 layout: full-width
-title: GSoC 2019 Ideas
+title: GSoC 2020 Ideas
 tags: gsoc
 permalink: /initiatives/gsoc/gsoc2020ideas
 
