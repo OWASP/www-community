@@ -76,20 +76,20 @@ attack to show the cookie value of the current session; using the same
 technique it's possible to create a specific JavaScript code that will
 send the cookie to the attacker.
 
-<SCRIPT>
+    <SCRIPT>
 
-alert(document.cookie);
+    alert(document.cookie);
 
-</SCRIPT>
+    </SCRIPT>
 
-<center>
+    <center>
 
 ![Image:Code_Injection.JPG](Code_Injection.JPG
 "Image:Code_Injection.JPG")
 
 Figure 3. Code injection.
 
-</center>
+    </center>
 
 **Other Examples** The following attacks intercept the information
 exchange between the client and the server:
