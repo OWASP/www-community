@@ -82,14 +82,14 @@ send the cookie to the attacker.
 
     </SCRIPT>
 
-    <center>
+<center>
 
 ![Image:Code_Injection.JPG](Code_Injection.JPG
 "Image:Code_Injection.JPG")
 
 Figure 3. Code injection.
 
-    </center>
+</center>
 
 **Other Examples** The following attacks intercept the information
 exchange between the client and the server:
