@@ -71,7 +71,7 @@ permit the interception of communication between hosts.
 
 ### MITM Proxy only tools
 
-Proxy tools only permit interactiion with the parts of the HTTP
+Proxy tools only permit interaction with the parts of the HTTP
 protocol, like the header and the body of a transaction, but do not have
 the capability to intercept the TCP connection between client and
 server. To intercept the communication, it’s necessary to use other
