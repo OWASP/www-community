@@ -17,7 +17,7 @@ Tips to get you started in no particular order:
 
 ## List of Project Ideas
 
-* [OWASP Python Honeypot](https://github.com/zdresearch/OWASP-Honeypot)
+### [OWASP Python Honeypot](https://github.com/zdresearch/OWASP-Honeypot)
 
 #### [Explanation of Ideas]
 
@@ -50,4 +50,3 @@ It's best to start from GitHub [wiki page](https://github.com/zdresearch/OWASP-H
 #### [Mentors]
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
 
--->
