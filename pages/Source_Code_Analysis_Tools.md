@@ -171,7 +171,7 @@ every effort to correct this information.</b>
     SonarQube IDE plugins for Eclipse, Visual Studio, and IntelliJ
     provided by [SonarLint](http://www.sonarlint.org/).
   - [SourceGuard](https://portal.checkpoint.com/) - 
-    tool designed to leverage Check Point's different prevention technologies and services, in order to provide sourcec ode security and visibility into the risk analysis of projects through static analysis. cross-platform CLI tool (Docker available), users can customize exclusions and control ignore list (such as testdata and others) with an easy integration to any pipeline.
+    tool designed to leverage Check Point's different prevention technologies and services, provide source code security and visibility into the risk analysis of projects through static analysis. cross-platform CLI tool (Docker available), users can customize exclusions and control ignore list (such as testdata and others) with an easy integration to any pipeline.
     provided by [Chek Point](https://www.checkpoint.com/).
   - [SpotBugs](https://spotbugs.github.io/) - This is the active fork
     replacement for FindBugs, which is not maintained anymore.
