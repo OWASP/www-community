@@ -173,3 +173,46 @@ You have an awesome idea to improve OWASP Juice Shop that is not on this list? G
 ##### Mentors:
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice Shop Project Leader
 
+
+### [OWASP Security Knowledge Framework](https://github.com/zdresearch/OWASP-Honeypot)
+
+##### Explanation of Ideas
+
+OWASP-SKF is an open source security knowledgebase including manageble projects with checklists (ASVS / MASVS) and best practice code examples in multiple programming languages showing you how to prevent hackers gaining access and running exploits on your application. Develop your projects secure by design from the start using SKF.
+
+In a nutshell
+* Training your developers in writing secure code
+* Security by design, early feedback of possible security issues
+* Code examples for secure coding guidance
+* Knowledge base items for deeper understanding of the security controls
+* Security labs to improve your verification skills
+* Machine learning chatbot for easy support
+
+##### Expected Results
+
+* New Angular (7/8) GUI for the SKF project. We have this style and GUI for some years now and it could use a major revamp.
+* * Create a new style / design for the SKF project
+* * We want to keep the color schema that we currently have
+* * Create new styles for the different pages and functionality we have in SKF
+* * Make it also mobile friendly
+* Test cases for the new created Angular application.
+* * We believe strongly in automation and testing of the quality of our project, we want to have at least 90% coverage of automated testing for the new Angular frond-end application of SKF
+
+
+##### Getting Started
+
+Have a look at our GitHub [wiki page](https://github.com/blabla1337/skf-flask), run the SKF project and have a look at the Angular interface and the functionality. If you have questions or want to contact us please join us on Slack or Gitter:
+[![Join the chat at https://gitter.im/Security-Knowledge-Framework/Lobby](https://badges.gitter.im/Security-Knowledge-Framework/Lobby.svg)](https://gitter.im/Security-Knowledge-Framework/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://owasp.slack.com/messages/C0F7L9X6V](https://img.shields.io/badge/chat-on%20slack-blueviolet)](https://owasp.slack.com/messages/C0F7L9X6V)
+
+##### Students Requirements
+
+* Python 3.x
+* Angular 7/8
+* Web Development Skills
+* Docker
+
+##### Mentors
+* [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
+* [Riccardo ten Cate](mailto:riccardo.ten.cate@owasp.org)
+
