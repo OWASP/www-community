@@ -173,7 +173,7 @@ every effort to correct this information.</b>
   - [SourceGuard](https://portal.checkpoint.com/) - Scans source code for Vulnerable Dependencies,
     Sensitive Content Leaking, Malicious Files Injection, Malicious IPs/URLs.
     designed to leverage Check Point's different prevention technologies and services, provide source code security and visibility into the risk analysis of projects through static analysis. cross-platform CLI tool (Docker available) with an easy integration to any pipeline.
-    provided by [Chek Point](https://www.checkpoint.com/).
+    provided by [Check Point](https://www.checkpoint.com/).
   - [SpotBugs](https://spotbugs.github.io/) - This is the active fork
     replacement for FindBugs, which is not maintained anymore.
   - [VisualCodeGrepper
