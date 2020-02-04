@@ -61,6 +61,8 @@ It's best to start from GitHub [wiki page](https://github.com/zdresearch/OWASP-H
 ##### Mentors
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
 
+----
+
 ### [Zed Attack Proxy (ZAP)](https://www.zaproxy.org)
 
 #### Idea One: GraphQL Support
@@ -120,6 +122,8 @@ ZAP is a great framework for building new and innovative security testing soluti
 ##### Mentors
 * [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
 
+----
+
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!
@@ -173,6 +177,7 @@ You have an awesome idea to improve OWASP Juice Shop that is not on this list? G
 ##### Mentors:
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice Shop Project Leader
 
+----
 
 ### [OWASP Security Knowledge Framework](https://github.com/zdresearch/OWASP-Honeypot)
 
