@@ -50,6 +50,76 @@ It's best to start from GitHub [wiki page](https://github.com/zdresearch/OWASP-H
 #### [Mentors]
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
 
+### [Zed Attack Proxy (ZAP)](https://www.zaproxy.org)
+
+#### Idea One: GraphQL Support
+
+ZAP does not currently detect [GraphQL weaknesses](https://github.com/zaproxy/zaproxy/issues/5153) such as injection, auth problems, or information exposures.
+
+#### [Expected Results]
+
+* Implement functionality to allow ZAP to inspect and attack given GraphQL endpoints.
+* Code that conforms to our Development Rules and Guidelines
+
+#### [Getting Started]
+
+* Have a look at the ZAP [CONTRIBUTING](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md) guideline, especially the 'Coding' section.
+* We like to see students who have already contributed to ZAP, so try fixing one of the bugs flagged as [IdealFirstBug](https://github.com/zaproxy/zaproxy/labels/IdealFirstBug).
+
+#### [Mentors]
+* [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
+
+#### Idea Two: SSRF Detection/Handling
+
+ZAP is currently able to detect vulnerabilities with limited local network callback support (such as XXE).
+ZAP could benefit from enhanced callback support in the form of a configurable or deployable daemon/listener to facilitate 
+more external or public callbacks in order to improve [detection of SSRF](https://github.com/zaproxy/zaproxy/issues/3022) and other related vulnerabilities.
+
+https://ssrfdetector.com/ was an online service for detecting Server Side Request Forgery (SSRF) vulnerabilities.
+It was developed and maintained by Jake Reynolds and is open source https://github.com/jacobreynolds/ssrfdetector 
+It may be used for inspiration/ideas as well as other projects such as sleepy-puppy (Netflix), etc. 
+
+#### [Expected Results]
+
+* Create or suggest a suitable alternative to SSRFDetector, and integrate it with ZAP in order to be able to detect SSRF vulnerabilities
+* Code that conforms to our Development Rules and Guidelines
+
+#### [Getting Started]
+
+* Have a look at the ZAP [CONTRIBUTING](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md) guideline, especially the 'Coding' section.
+* We like to see students who have already contributed to ZAP, so try fixing one of the bugs flagged as [IdealFirstBug](https://github.com/zaproxy/zaproxy/labels/IdealFirstBug).
+
+#### [Mentors]
+* [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
+
+#### Idea Three: Your Idea
+
+ZAP is a great framework for building new and innovative security testing solutions. If you have an idea that is not on this list then don’t worry, you can still submit it, we have accepted original projects in previous years and have even paid a student to work on their idea when we did not get enough GSoC slots to accept all of the projects we wanted.
+
+#### [Expected Results]
+
+* A new feature that makes ZAP even better
+* Code that conforms to our Development Rules and Guidelines
+
+#### [Getting Started]
+
+* Have a look at the ZAP [CONTRIBUTING](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md) guideline, especially the 'Coding' section.
+* We like to see students who have already contributed to ZAP, so try fixing one of the bugs flagged as [IdealFirstBug](https://github.com/zaproxy/zaproxy/labels/IdealFirstBug).
+
+#### [Mentors]
+* [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
+
+<!-- Template: Use a format like below to add your project:
+### [Project Name]
+
+#### [Explanation of Ideas]
+
+#### [Expected Results]
+
+#### [Getting Started]
+
+#### [Mentors]
+
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!
@@ -102,3 +172,4 @@ You have an awesome idea to improve OWASP Juice Shop that is not on this list? G
 
 ##### Mentors:
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice Shop Project Leader
+
