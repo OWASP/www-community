@@ -7,6 +7,17 @@ permalink: /initiatives/gsoc/gsoc2020ideas
 
 ---
 # GSoC2020 Ideas
+<!-- Template: Use a format like below to add your project:
+### [Project Name]
+
+#### [Explanation of Ideas]
+
+#### [Expected Results]
+
+#### [Getting Started]
+
+#### [Mentors]
+-->
 
 ## OWASP Project Requests
 
@@ -108,17 +119,6 @@ ZAP is a great framework for building new and innovative security testing soluti
 
 #### [Mentors]
 * [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
-
-<!-- Template: Use a format like below to add your project:
-### [Project Name]
-
-#### [Explanation of Ideas]
-
-#### [Expected Results]
-
-#### [Getting Started]
-
-#### [Mentors]
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
