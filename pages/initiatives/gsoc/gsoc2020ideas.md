@@ -109,7 +109,6 @@ ZAP is a great framework for building new and innovative security testing soluti
 #### [Mentors]
 * [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
 
-
 <!-- Template: Use a format like below to add your project:
 ### [Project Name]
 
@@ -121,4 +120,56 @@ ZAP is a great framework for building new and innovative security testing soluti
 
 #### [Mentors]
 
--->
+### [OWASP Juice Shop](https://owasp-juice.shop)
+
+OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!
+
+To receive early feedback please:
+- put your proposal on Google Docs and submit it to the OWASP Organization on Google's GSoC page in "Draft Shared" mode. 
+- Please pick "juice shop" as Proposal Tag to make them easier to find for us. Thank you!
+
+#### Challenge Pack 2020
+
+##### Brief Explanation:
+
+Ideas for potential new hacking challenges are collected in [GitHub issues labeled "challenge"](https://github.com/bkimminich/juice-shop/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge). This project could implement a whole bunch of challenges one by one and release them over the course of several small releases. This would allow the student to work in a professional Continuous Delivery kind of way while bringing benefit to the Juice Shop over the duration of the project. Especially the added functionality from [GSoC Feature Pack 2019](https://agrawalarpit14.github.io/GSoC/) is still mostly void of challenges and offers a lot of interesting attack surface in the whole order and payment process.
+
+Coming up with good additional ideas for challenges in the proposal could make the difference between being selected or declined as a student for this project!
+
+##### Expected Results:
+* 10 or more new challenges for OWASP Juice Shop (including required functional enhancements to place the challenges)
+* Each challenge comes with full functional unit and integration tests
+* Each challenge is verified to be exploitable by corresponding end-to-end tests
+* Hint and solution sections for each new challenge are added to the "Pwning OWASP Juice Shop" ebook
+* Code follows existing styleguides and passes all existing quality gates regarding code smells, test coverage etc.
+
+##### Getting started:
+* Get familiar with the architecture and code base of the application's rich Javascript frontend and RESTful backend
+* Get a feeling for the high code & test quality bar by inspecting the existing test suites and static code analysis results
+* Get familiar with the CI/CD process based on Travis-CI and several associated 3rd party services
+
+##### Knowledge Prerequisites:
+* Javascript, Unit/Integration testing, experience with (or willingness to learn) Angular and NodeJS/Express, some security knowledge would be preferable.
+
+##### Potential Mentors:
+* [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice Shop Project Leader
+
+#### Your idea
+
+##### Brief Explanation:
+
+You have an awesome idea to improve OWASP Juice Shop that is not on this list? Great, please submit it!
+
+##### Getting started
+* Get in touch with [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) to discuss your idea
+
+##### Expected Results:
+* A new feature that makes OWASP Juice Shop even better
+* Code follows existing styleguides and passes all existing quality gates regarding code smells, test coverage etc.
+
+##### Knowledge Prerequisites:
+* Javascript, Unit/Integration testing, experience with (or willingness to learn) Angular and NodeJS/Express, some security knowledge would be preferable.
+
+##### Mentors:
+* [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice Shop Project Leader
+
