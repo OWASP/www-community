@@ -221,6 +221,8 @@ Have a look at our GitHub [wiki page](https://github.com/blabla1337/skf-flask), 
 * [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
 * [Riccardo ten Cate](mailto:riccardo.ten.cate@owasp.org)
 
+<hr>
+
 ### [OWASP SAMM](https://github.com/OWASP/SAMM)
 
 ##### Explanation of Ideas
