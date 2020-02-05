@@ -221,3 +221,38 @@ Have a look at our GitHub [wiki page](https://github.com/blabla1337/skf-flask), 
 * [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
 * [Riccardo ten Cate](mailto:riccardo.ten.cate@owasp.org)
 
+### [OWASP Risk Assessment Framework](https://github.com/OWASP/RiskAssessmentFramework)
+
+##### Explanation of Ideas
+
+The OWASP Risk Assessment Framework consist of Static application security testing and Risk Assessment tools, Eventhough there are many SAST tools available for testers, but the compatibility and the Environement setup process is complex. By using OWASP Risk Assessment Framework's Static Appilication Security Testing tool Testers will be able to analyse and review their code quality and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure code.
+
+##### Expected Results
+* A new features with awesome 
+* Make some improvement in scanner (Sast tool)
+* Add another tool other than sonarqube (Integrate other tools to Raf)
+* Make some generate report into pdf, excel, word etc
+* put the OWASP RAF into cloud so it's accessible
+* Make our tool support few other languages as well
+* work in docker so our tools can install by docker
+
+#### 1st Idea
+* add other tools features like IAST, RASP etc
+
+#### 2st Idea
+* submit you idea!
+
+##### Students Requirements
+* Python 3.x
+* Angular 7/8
+* Typescript
+* Web Development Skills
+* Docker
+* java
+
+##### Getting started:
+* good knowledge about secure coding and other tools https://owasp.org/www-community/Source_Code_Analysis_Tools
+* contact mentor for discuss your ideas ( ade.putra@owasp.org)
+
+##### Mentors:
+* [Ade Yoseman Putra](mailto:ade.putra@owasp.org) - OWASP Risk Assessment Framework Project Leader
