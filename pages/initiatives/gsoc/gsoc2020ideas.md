@@ -221,3 +221,34 @@ Have a look at our GitHub [wiki page](https://github.com/blabla1337/skf-flask), 
 * [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
 * [Riccardo ten Cate](mailto:riccardo.ten.cate@owasp.org)
 
+### [OWASP SAMM](https://github.com/OWASP/SAMM)
+
+##### Explanation of Ideas
+
+The mission of OWASP Software Assurance Maturity Model (SAMM) is to be the prime maturity model for software assurance that provides an effective and measurable way for all types of organizations to analyze and improve their software security posture. OWASP SAMM supports the complete software lifecycle, including development and acquisition, and is technology and process agnostic. It is intentionally built to be evolutive and risk-driven in nature.
+
+More details are available on https://owaspsamm.org/
+
+##### Expected Results
+
+* OWASP benchmark coding
+* An API to consume the data model 
+* An on-line evaluation tool for SAMM assessments
+* In the SAMM model, link all related OWASP projects
+* Add mappings to various standards (ASVS, NIST, PCSI, ...)
+
+
+##### Getting Started
+
+Have a look at our GitHub [wiki page](https://github.com/OWASP/SAMM), and OWASP SAMM on https://owaspsamm.org/
+
+##### Students Requirements
+
+* Web Development Skills
+* Docker
+* Interest in secure coding practices
+
+##### Mentors
+* [Seba Deleersnyder](mailto:seba@owasp.org)
+* [Bart De Win](mailto:bart.de.win@owasp.org)
+
