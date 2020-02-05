@@ -252,7 +252,9 @@ Have a look at our GitHub [wiki page](https://github.com/OWASP/SAMM), and OWASP 
 * [Seba Deleersnyder](mailto:seba@owasp.org)
 * [Bart De Win](mailto:bart.de.win@owasp.org)
 
-##### OWASP Honeypot Project
+<hr>
+
+#### OWASP Honeypot Project
 
 The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks. The main challenge of this project is to facilitate the deployment of a HoneyPot by embedding the generation of HoneyTokens into web applications, especially with the most used CMS (like Wordpress, Joomla and Drupal).
 
