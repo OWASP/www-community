@@ -240,7 +240,10 @@ The OWASP Risk Assessment Framework consist of Static application security testi
 * add other tools features like IAST, RASP etc
 
 #### 2st Idea
-* submit you idea!
+* please see my Expected Results 
+
+#### 3st Idea
+submit you idea!
 
 ##### Students Requirements
 * Python 3.x
@@ -248,7 +251,8 @@ The OWASP Risk Assessment Framework consist of Static application security testi
 * Typescript
 * Web Development Skills
 * Docker
-* java
+* Java
+* Mongodb
 
 ##### Getting started:
 * good knowledge about secure coding and other tools https://owasp.org/www-community/Source_Code_Analysis_Tools
