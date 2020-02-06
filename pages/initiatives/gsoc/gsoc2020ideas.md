@@ -237,7 +237,7 @@ More details are available on https://owaspsamm.org/
 * An API to consume the data model 
 * An on-line evaluation tool for SAMM assessments
 * In the SAMM model, link all related OWASP projects
-* Add mappings to various standards (ASVS, NIST, PCSI, ...)
+* Add mappings to various standards (ASVS, NIST, PCI, ...)
 
 
 ##### Getting Started
@@ -256,7 +256,7 @@ Have a look at our GitHub [wiki page](https://github.com/OWASP/SAMM), and OWASP 
 
 <hr>
 
-#### OWASP Honeypot Project
+### OWASP Honeypot Project
 
 The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks. The main challenge of this project is to facilitate the deployment of a HoneyPot by embedding the generation of HoneyTokens into web applications, especially with the most used CMS (like Wordpress, Joomla and Drupal).
 
@@ -280,10 +280,9 @@ The goal of the OWASP Honeypot Project is to identify emerging attacks against w
 ##### Mentor
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-
 <hr>
 
-#### [OWASP SecureTea](https://securetea.org/)
+### [OWASP SecureTea](https://securetea.org/)
 
 The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
 
@@ -304,3 +303,45 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 ##### Mentor
 * [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
+
+<hr>
+
+### [OWASP Risk Assessment Framework](https://github.com/OWASP/RiskAssessmentFramework)
+
+##### Explanation of Ideas
+
+The OWASP Risk Assessment Framework consist of Static application security testing and Risk Assessment tools. By using OWASP Risk Assessment Framework's Static Appilication Security Testing tool Testers will be able to analyse and review their code quality and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure code.
+
+##### Expected Results
+* A new features make this project will be better 
+* Make some improvement in scanner for Source Code Analysis
+* Add another tool other than sonarqube (Integrate other tools to Raf)
+* Make some generate report into pdf, excel, word etc
+* put the OWASP RAF into cloud so it's accessible
+* Make our tool support few other languages as well
+* work in docker so our tools can install by docker
+
+#### 1st Idea
+* add other tools features like IAST, RASP etc
+
+#### 2nd Idea
+* please see my Expected Results 
+
+#### 3rd Idea
+submit you idea!
+
+##### Students Requirements
+* Python 3.x
+* Angular 7/8
+* Typescript
+* Web Development Skills
+* Docker
+* Java
+* Mongodb
+
+##### Getting started:
+* good knowledge about secure coding and other tools https://owasp.org/www-community/Source_Code_Analysis_Tools
+* contact mentor for discuss your ideas with [Ade Yoseman Putra](mailto:ade.putra@owasp.org)
+
+##### Mentors:
+* [Ade Yoseman Putra](mailto:ade.putra@owasp.org) - OWASP Risk Assessment Framework Project Leader
