@@ -225,11 +225,11 @@ Have a look at our GitHub [wiki page](https://github.com/blabla1337/skf-flask), 
 
 ##### Explanation of Ideas
 
-The OWASP Risk Assessment Framework consist of Static application security testing and Risk Assessment tools, Eventhough there are many SAST tools available for testers, but the compatibility and the Environement setup process is complex. By using OWASP Risk Assessment Framework's Static Appilication Security Testing tool Testers will be able to analyse and review their code quality and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure code.
+The OWASP Risk Assessment Framework consist of Static application security testing and Risk Assessment tools. By using OWASP Risk Assessment Framework's Static Appilication Security Testing tool Testers will be able to analyse and review their code quality and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure code.
 
 ##### Expected Results
-* A new features with awesome 
-* Make some improvement in scanner (Sast tool)
+* A new features make this project will be better 
+* Make some improvement in scanner for Source Code Analysis
 * Add another tool other than sonarqube (Integrate other tools to Raf)
 * Make some generate report into pdf, excel, word etc
 * put the OWASP RAF into cloud so it's accessible
@@ -239,10 +239,10 @@ The OWASP Risk Assessment Framework consist of Static application security testi
 #### 1st Idea
 * add other tools features like IAST, RASP etc
 
-#### 2st Idea
+#### 2nd Idea
 * please see my Expected Results 
 
-#### 3st Idea
+#### 3rd Idea
 submit you idea!
 
 ##### Students Requirements
@@ -256,7 +256,7 @@ submit you idea!
 
 ##### Getting started:
 * good knowledge about secure coding and other tools https://owasp.org/www-community/Source_Code_Analysis_Tools
-* contact mentor for discuss your ideas ( ade.putra@owasp.org)
+* contact mentor for discuss your ideas (mailto:ade.putra@owasp.org)
 
 ##### Mentors:
 * [Ade Yoseman Putra](mailto:ade.putra@owasp.org) - OWASP Risk Assessment Framework Project Leader
