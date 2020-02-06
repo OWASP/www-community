@@ -279,3 +279,28 @@ The goal of the OWASP Honeypot Project is to identify emerging attacks against w
 
 ##### Mentor
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+
+<hr>
+
+#### [OWASP SecureTea](https://securetea.org/)
+
+The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
+
+##### Expected results
+- Add support for other linux variants
+- Improve features (IDS,Firewall)
+- Complete the web GUI and remote monitoring
+- Zero bugs - Fix the current identifed bugs
+
+##### Getting started
+- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Join OWASP Slack and contact us on channel #honeypot-project
+
+##### Student Requirements
+- Python
+- Angular
+
+##### Mentor
+* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
+* [Ade Yoseman](mailto:edikdoank@gmail.com)
