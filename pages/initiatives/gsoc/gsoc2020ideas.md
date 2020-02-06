@@ -279,6 +279,8 @@ The goal of the OWASP Honeypot Project is to identify emerging attacks against w
 
 ##### Mentor
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+<hr>
+
 ### [OWASP Risk Assessment Framework](https://github.com/OWASP/RiskAssessmentFramework)
 
 ##### Explanation of Ideas
