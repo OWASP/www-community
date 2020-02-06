@@ -221,6 +221,67 @@ Have a look at our GitHub [wiki page](https://github.com/blabla1337/skf-flask), 
 * [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
 * [Riccardo ten Cate](mailto:riccardo.ten.cate@owasp.org)
 
+<hr>
+
+### [OWASP SAMM](https://github.com/OWASP/SAMM)
+
+##### Explanation of Ideas
+
+The mission of OWASP Software Assurance Maturity Model (SAMM) is to be the prime maturity model for software assurance that provides an effective and measurable way for all types of organizations to analyze and improve their software security posture. OWASP SAMM supports the complete software lifecycle, including development and acquisition, and is technology and process agnostic. It is intentionally built to be evolutive and risk-driven in nature.
+
+More details are available on https://owaspsamm.org/
+
+##### Expected Results
+
+* OWASP benchmark coding
+* An API to consume the data model 
+* An on-line evaluation tool for SAMM assessments
+* In the SAMM model, link all related OWASP projects
+* Add mappings to various standards (ASVS, NIST, PCSI, ...)
+
+
+##### Getting Started
+
+Have a look at our GitHub [wiki page](https://github.com/OWASP/SAMM), and OWASP SAMM on https://owaspsamm.org/
+
+##### Students Requirements
+
+* Web Development Skills
+* Docker
+* Interest in secure coding practices
+
+##### Mentors
+* [Seba Deleersnyder](mailto:seba@owasp.org)
+* [Bart De Win](mailto:bart.de.win@owasp.org)
+
+<hr>
+
+#### OWASP Honeypot Project
+
+The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks. The main challenge of this project is to facilitate the deployment of a HoneyPot by embedding the generation of HoneyTokens into web applications, especially with the most used CMS (like Wordpress, Joomla and Drupal).
+
+##### Expected results
+- Design HoneyTokens for Web applications
+- Develop a mechanism to implant HoneyTokens in web application based on modsecurity and CRS3 (https://github.com/OWASP/Honeypot-Project/issues/3)
+- Generate threat intelligence data (based on attacker interactions and honey tokens modifications) and integrate this with MISP
+- Use case: integrate HoneyTokens using at least one of the most used CMS (Wordpress, Joomla or Drupal) (https://github.com/OWASP/Honeypot-Project/issues/9)
+
+##### Getting started
+- Have a look at the [GitHub project](https://github.com/OWASP/Honeypot-Project) and  [wiki page](https://github.com/OWASP/Honeypot-Project/wiki).
+- Join OWASP Slack and contact us on channel #honeypot-project
+
+##### Student Requirements
+- PHP
+- Python
+- Honeypots and HoneyTokens
+- ModSecurity and OWASP CRS v3
+- HTTP Protocol
+
+##### Mentor
+* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+<hr>
+
 ### [OWASP Risk Assessment Framework](https://github.com/OWASP/RiskAssessmentFramework)
 
 ##### Explanation of Ideas
@@ -256,7 +317,7 @@ submit you idea!
 
 ##### Getting started:
 * good knowledge about secure coding and other tools https://owasp.org/www-community/Source_Code_Analysis_Tools
-* contact mentor for discuss your ideas (mailto:ade.putra@owasp.org)
+* contact mentor for discuss your ideas with [Ade Yoseman Putra](mailto:ade.putra@owasp.org)
 
 ##### Mentors:
 * [Ade Yoseman Putra](mailto:ade.putra@owasp.org) - OWASP Risk Assessment Framework Project Leader
