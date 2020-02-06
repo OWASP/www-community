@@ -817,7 +817,7 @@ Firefox uses Google's "feeling lucky" function to redirect the user to any keywo
 
 ### Google "feeling lucky" part 2.
 
-This uses a very tiny trick that appears to work Firefox only, because if it's implementation of the "feeling lucky" function. Unlike the next one this does not work in Opera because Opera believes that this is the old HTTP Basic Auth phishing attack, which it is not. It's simply a malformed URL. If you click okay on the dialogue it will work, but as a result of the erroneous dialogue box I am saying that this is not supported in Opera, and it is no longer supported in Firefox as of 2.0:
+This uses a very tiny trick that appears to work Firefox only, because of it's implementation of the "feeling lucky" function. Unlike the next one this does not work in Opera because Opera believes that this is the old HTTP Basic Auth phishing attack, which it is not. It's simply a malformed URL. If you click okay on the dialogue it will work, but as a result of the erroneous dialogue box I am saying that this is not supported in Opera, and it is no longer supported in Firefox as of 2.0:
 
     <A HREF="http://ha.ckers.org@google">XSS</A>
 
