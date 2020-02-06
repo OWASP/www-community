@@ -237,7 +237,7 @@ More details are available on https://owaspsamm.org/
 * An API to consume the data model 
 * An on-line evaluation tool for SAMM assessments
 * In the SAMM model, link all related OWASP projects
-* Add mappings to various standards (ASVS, NIST, PCSI, ...)
+* Add mappings to various standards (ASVS, NIST, PCI, ...)
 
 
 ##### Getting Started
