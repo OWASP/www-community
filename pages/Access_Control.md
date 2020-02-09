@@ -229,5 +229,4 @@ to issue an authorization decision.
 
 ## Related resources:
 
-1.  OWASP [Access Control Cheat
-    Sheet](Access_Control_Cheat_Sheet "wikilink")
+1.  OWASP [Access Control Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)

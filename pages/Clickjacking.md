@@ -64,7 +64,7 @@ There are two main ways to prevent clickjacking:
 
 For more information on Clickjacking defense, please see the the
 [Clickjacking Defense Cheat
-Sheet](Clickjacking_Defense_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html).
 
 # References
 

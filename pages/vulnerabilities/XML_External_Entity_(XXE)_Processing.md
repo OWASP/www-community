@@ -158,12 +158,12 @@ included in the XML document.
 Detailed guidance on how to disable XXE processing, or otherwise defend
 against XXE attacks is presented in the [XML External Entity (XXE)
 Prevention Cheat
-Sheet](XML_External_Entity_\(XXE\)_Prevention_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html).
 
 ## References
 
   - OWASP [XML External Entity (XXE) Prevention Cheat
-    Sheet](XML_External_Entity_\(XXE\)_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
   - [Timothy Morgan's 2014 Paper: XML Schema, DTD, and Entity Attacks -
     A Compendium of Known
     Techniques](http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf)

@@ -539,7 +539,7 @@ Detailed definitions and more in-depth descriptions concerning WAS - Web
 Application Security - can be found at:
 
   - OWASP [Virtual Patching Cheat
-    Sheet](Virtual_Patching_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Virtual_Patching_Cheat_Sheet.html)
   - [OWASP Best Practices: Use of Web Application
     Firewalls](:Category:OWASP_Best_Practices:_Use_of_Web_Application_Firewalls "wikilink")
   - [OWASP Securing WebGoat using ModSecurity

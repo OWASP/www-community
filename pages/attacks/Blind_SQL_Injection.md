@@ -183,8 +183,7 @@ See the [OWASP Development
 Guide](:Category:OWASP_Guide_Project "wikilink") article on how to
 [Avoid SQL Injection](Guide_to_SQL_Injection "wikilink")
 Vulnerabilities.
-See the OWASP [SQL Injection Prevention Cheat
-Sheet](SQL_Injection_Prevention_Cheat_Sheet "wikilink").
+See the OWASP [SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html).
 
 See the [OWASP Code Review
 Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to

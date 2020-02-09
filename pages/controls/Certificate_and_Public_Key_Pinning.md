@@ -21,7 +21,7 @@ for securing the channel in a hostile environment where actors could be
 malicious and the conference of trust a liability.
 
 A cheat sheet is available at [Pinning Cheat
-Sheet](Pinning_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Pinning_Cheat_Sheet.html).
 
 ## Introduction
 
@@ -653,7 +653,7 @@ DER format using OpenSSL.
   - OWASP [Injection Theory](Injection_Theory "wikilink")
   - OWASP [Data Validation](Data_Validation "wikilink")
   - OWASP [Transport Layer Protection Cheat
-    Sheet](Transport_Layer_Protection_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
   - IETF [Public Key
     Pinning](http://www.ietf.org/id/draft-ietf-websec-key-pinning-09.txt)
   - IETF [RFC 5054 (SRP)](http://www.ietf.org/rfc/rfc5054.txt)
