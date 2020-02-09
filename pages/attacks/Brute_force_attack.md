@@ -44,7 +44,7 @@ discovering hidden content/pages within a web application. These attacks
 are usually sent via GET and POST requests to the server. In regards to
 authentication, brute force attacks are often mounted when an [account
 lockout
-policy](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Implement_Account_Lockout)
+policy](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#account-lockout)
 in not in place.
 
 ### Example 1

@@ -55,7 +55,7 @@ RDI](https://defcon.org/html/defcon-21/dc-21-speakers.html#Chechik)*
 presentation.
 
 The [DOM-based XSS Prevention Cheat
-Sheet](DOM_based_XSS_Prevention_Cheat_Sheet "wikilink") provides
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html) provides
 guidance on defense against this attack.
 
 [Category:Attack](Category:Attack "wikilink")

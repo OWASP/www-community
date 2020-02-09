@@ -35,10 +35,10 @@ Scripting](Types_of_Cross-Site_Scripting "wikilink").
 ### How to Avoid Cross-site scripting Vulnerabilities
 
 See the [XSS (Cross Site Scripting) Prevention Cheat
-Sheet](xss)
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 
 See the [DOM based XSS Prevention Cheat
-Sheet](DOM_based_XSS_Prevention_Cheat_Sheet "wikilink")
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
 
 See the [OWASP Development
 Guide](:Category:OWASP_Guide_Project "wikilink") article on
@@ -161,7 +161,7 @@ problems as well.
 
 The primary defenses against XSS are described in the [OWASP XSS
 Prevention Cheat
-Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html).
 
 Also, it's crucial that you turn off HTTP TRACE support on all web
 servers. An attacker can steal cookie data via Javascript even when
@@ -414,7 +414,7 @@ cookie.
 ## References
 
   - OWASP's [XSS (Cross Site Scripting) Prevention Cheat
-    Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
   - OWASP Guide to Building Secure Web Applications and Web Services,
     Chapter 8: [Data Validation](Data_Validation "wikilink")
   - OWASP Testing Guide,

@@ -103,7 +103,7 @@ these external calls. You still must always validate such input to make
 sure it meets the expectations of the application in question. For more
 details on how to specifically defend against SQL Injection, please
 refer to OWASP's [SQL Injection Prevention Cheat
-Sheet](SQL_Injection_Prevention_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html).
 
 Another strong protection against injection attacks is to ensure that
 the web application runs with only the privileges it absolutely needs to
@@ -128,7 +128,7 @@ languages to help prevent many forms of injection.
 ## References
 
   - OWASP [SQL Injection Prevention Cheat
-    Sheet](SQL_Injection_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
   - OWASP [Developers Guide, Chapter on Data
     Validation](Data_Validation "wikilink")
   - OWASP [Testing Guide: Chapter on SQL Injection
