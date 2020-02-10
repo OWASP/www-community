@@ -291,10 +291,11 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Improve features (IDS,Firewall)
 - Complete the web GUI and remote monitoring
 - Zero bugs - Fix the current identifed bugs
+- Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
 
 ##### Getting started
 - Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
-- Join OWASP Slack and contact us on channel #honeypot-project
+- Join OWASP Slack and contact us on channel #project-securetea
 
 ##### Student Requirements
 - Python
