@@ -23,8 +23,8 @@ permalink: /initiatives/gsoc/gsoc2020ideas
 
 Tips to get you started in no particular order:
 - Read the [Student Guidelines](gsoc2020).
-- Contact us through the mailing list or irc channel.
 - Check our [github organization](https://github.com/OWASP).
+- Contact one of the project mentors below.
 
 ## List of Project Ideas
 
