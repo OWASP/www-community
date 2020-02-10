@@ -37,7 +37,7 @@ OWASP Honeypot is an open source software in Python language which designed for 
 ##### Expected Results
 
 * Zero Bugs: Currently we may have several bugs in different conditions, and it's best to test the all functions and fix them
-* New modules: add some creative ICS/Network/Web modules andvulnerable web applications, services and stuff
+* New modules: add some creative ICS/Network/Web/Database modules andvulnerable web applications, services and stuff
 * API: update API sync to all features
 * WebUI: Demonstrate and add API on WebUI and Live version with all features
 * WebUI Special Reports: Track the attacks more creative and provide high risk IPs
@@ -346,3 +346,31 @@ submit you idea!
 
 ##### Mentors:
 * [Ade Yoseman Putra](mailto:ade.putra@owasp.org) - OWASP Risk Assessment Framework Project Leader
+
+### [OWASP Nettacker](https://github.com/zdresearch/OWASP-Nettacker)
+
+##### Explanation of Ideas
+
+OWASP Nettacker is an open source software in Python language which lets you automated penetration testing and automated Information Gathering. This software can be run on Windows/Linux/OSX under Python.
+
+##### Getting started
+
+* You may read the available documents in the [wiki page](https://github.com/zdresearch/OWASP-Nettacker/wiki). Developers and users documents are separated.
+
+#### Expected Results
+
+* The expected results are to contribute the OWASP Nettacker framework [issues](https://github.com/zdresearch/OWASP-Nettacker/issues) (mostly help wanted or enhancement). Please check the GitHub repo to learn more.
+* The framework does not have good code base, it needs to fix and clean up.
+
+#### Knowledge Prerequisites
+
+* The whole framework was written in Python language. You must be familiar with Python 2.x, 3.x.
+* Good knowledge of computer security (and penetration testing)
+* Knowledge of OS (Linux, Windows, Mac...) and Services
+* Familiar with IDS/IPS/Firewalls and ...
+* To develop the API you should be familiar with HTTP, Database...
+
+##### Mentors
+* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [SRI HARSHA Gajavalli](mailto:sriharsha.g@owasp.org)
+----
