@@ -237,7 +237,7 @@ More details are available on https://owaspsamm.org/
 * An API to consume the data model 
 * An on-line evaluation tool for SAMM assessments
 * In the SAMM model, link all related OWASP projects
-* Add mappings to various standards (ASVS, NIST, PCSI, ...)
+* Add mappings to various standards (ASVS, NIST, PCI, ...)
 
 
 ##### Getting Started
@@ -256,7 +256,7 @@ Have a look at our GitHub [wiki page](https://github.com/OWASP/SAMM), and OWASP 
 
 <hr>
 
-#### OWASP Honeypot Project
+### OWASP Honeypot Project
 
 The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks. The main challenge of this project is to facilitate the deployment of a HoneyPot by embedding the generation of HoneyTokens into web applications, especially with the most used CMS (like Wordpress, Joomla and Drupal).
 
@@ -279,6 +279,31 @@ The goal of the OWASP Honeypot Project is to identify emerging attacks against w
 
 ##### Mentor
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+<hr>
+
+### [OWASP SecureTea](https://securetea.org/)
+
+The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
+
+##### Expected results
+- Add support for other linux variants
+- Improve features (IDS,Firewall)
+- Complete the web GUI and remote monitoring
+- Zero bugs - Fix the current identifed bugs
+- Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
+
+##### Getting started
+- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Join OWASP Slack and contact us on channel #project-securetea
+
+##### Student Requirements
+- Python
+- Angular
+
+##### Mentor
+* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
+* [Ade Yoseman](mailto:edikdoank@gmail.com)
 
 <hr>
 
