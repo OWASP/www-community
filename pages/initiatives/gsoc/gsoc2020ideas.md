@@ -347,6 +347,8 @@ submit you idea!
 ##### Mentors:
 * [Ade Yoseman Putra](mailto:ade.putra@owasp.org) - OWASP Risk Assessment Framework Project Leader
 
+<hr>
+
 ### [OWASP Nettacker](https://github.com/zdresearch/OWASP-Nettacker)
 
 ##### Explanation of Ideas
