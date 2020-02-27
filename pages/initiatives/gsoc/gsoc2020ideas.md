@@ -23,8 +23,8 @@ permalink: /initiatives/gsoc/gsoc2020ideas
 
 Tips to get you started in no particular order:
 - Read the [Student Guidelines](gsoc2020).
-- Contact us through the mailing list or irc channel.
 - Check our [github organization](https://github.com/OWASP).
+- Contact one of the project mentors below.
 
 ## List of Project Ideas
 
@@ -106,7 +106,26 @@ It may be used for inspiration/ideas as well as other projects such as sleepy-pu
 ##### Mentors
 * [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
 
-#### Idea Three: Your Idea
+#### Idea Three: Re-test Functionality
+
+ZAP is currently able to detect vulnerabilities of various types, however it doesn't have a user friendly mechanism for re-testing or re-validating identified weaknesses.
+
+Refer to [Issue 375](https://github.com/zaproxy/zaproxy/issues/375) for further details, and to this [User Group thread](https://groups.google.com/forum/#!searchin/zaproxy-users/retest%7Csort:date/zaproxy-users/qNKz6cNhYDg/Jw6hWi-oAwAJ) for discussion and staged implementation ideas.
+
+##### Expected Results
+
+* Add core or extension functionality to facilitate re-test of various results/alerts.
+* Code that conforms to our Development Rules and Guidelines
+
+##### Getting Started
+
+* Have a look at the ZAP [CONTRIBUTING](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md) guideline, especially the 'Coding' section.
+* We like to see students who have already contributed to ZAP, so try fixing one of the bugs flagged as [IdealFirstBug](https://github.com/zaproxy/zaproxy/labels/IdealFirstBug).
+
+##### Mentors
+* [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
+
+#### Idea Four: Your Idea
 
 ZAP is a great framework for building new and innovative security testing solutions. If you have an idea that is not on this list then don’t worry, you can still submit it, we have accepted original projects in previous years and have even paid a student to work on their idea when we did not get enough GSoC slots to accept all of the projects we wanted.
 
@@ -292,10 +311,11 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Improve features (IDS,Firewall)
 - Complete the web GUI and remote monitoring
 - Zero bugs - Fix the current identifed bugs
+- Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
 
 ##### Getting started
 - Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
-- Join OWASP Slack and contact us on channel #honeypot-project
+- Join OWASP Slack and contact us on channel #project-securetea
 
 ##### Student Requirements
 - Python
@@ -347,6 +367,8 @@ submit you idea!
 ##### Mentors:
 * [Ade Yoseman Putra](mailto:ade.putra@owasp.org) - OWASP Risk Assessment Framework Project Leader
 
+<hr>
+
 ### [OWASP Nettacker](https://github.com/zdresearch/OWASP-Nettacker)
 
 ##### Explanation of Ideas
@@ -373,4 +395,210 @@ OWASP Nettacker is an open source software in Python language which lets you aut
 ##### Mentors
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
 * [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
-----
+
+
+<hr>
+
+### [OWASP Intelligent Intrusion Detection System]
+
+##### Explanation of Ideas
+
+OWASP IIDS is an open source software that leverages the benefits of Artificial Intelligence to detect the intrusion and alert the respective network administrator.
+
+##### Getting started
+
+* You may read the available documents in the [wiki page](https://owasp.org/www-project-intelligent-intrusion-detection-system/migrated_content).
+
+#### Expected Results
+
+* The expected results are to work for V1.0 release.
+
+
+#### Knowledge Prerequisites
+
+* The whole framework will be written in Python language. You must be familiar with Python 3.x and Django
+* Good knowledge of Network security (and Software Security)
+* Knowledge of OS (Linux, Windows, Mac).
+* Familiar with OSI model and security at each layer.
+* Familiar with Deep Learning mainly LSTMs and different types of RNNs.
+* You should also be familiar with RESTful framework and Databases
+
+##### Mentors
+* [Sri Harsha Gajavalli](mailto:sriharsha.g@owasp.org)
+
+<hr>
+
+### [OWASP OWTF](https://github.com/owtf/owtf)
+Offensive Web Testing Framework (OWTF) is a project focused on penetration testing efficiency and alignment of security tests to security standards like the OWASP Testing Guide (v3 and v4), the OWASP Top 10, PTES and NIST. Most of the ideas below focus on rewrite of some major 
+components of OWTF to make it more modular. OWTF is moving to a fresh codebase with a fully Docker testing and deployment environment.
+
+#### OWASP OWTF - Passive Online scanner improvements
+
+##### Brief Explanation
+
+OWTF allows many passive tests, such as those using third party websites like Google, Bing, etc. searches, as well as handy "Search for vulnerability" search boxes (i.e. Fingerprinting plugin). This feature involves the creation of a "script" that produces an interactive OWTF report with the intention of hosting it in the github.io site. The idea here is to have a passive, JavaScript-only interactive report available on the owtf.github.io site, so that people can try OWTF "without installing anything", simply visiting a URL.
+
+This would be a normal OWTF interactive report where the user can:
+* Enter a target
+* Try passive plugins (only the parts that use no tools)
+* Play with boilerplate templates from the OWTF interactive report
+An old version of the passive online scanner is hosted [here](https://owtf.github.io/online-passive-scanner).
+
+##### LEGAL CLARIFICATION (Just in case!): 
+The passive online scanner, simply makes OWTF passive testing through third party websites more accessible to anybody, however it is the user that must 
+1. click the link manually + 
+2. do something bad with that afterwards + 
+3. doing 1 + 2 WITHOUT permission :). 
+Therefore this passive online scanner does not do anything illegal 
+[More information about why this is not illegal here](http://www.slideshare.net/abrahamaranguren/legal-and-efficient-web-app-testing-without-permission) 
+(recommended reading!)
+
+For background on OWASP OWTF please see: [OWASP OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
+
+##### Expected results:
+* IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/)/ES6 JavaScript code in all modified code and surrounding areas.
+* High performance
+* Reliability
+* Ease of use
+* Test cases
+* Good documentation
+
+##### Knowledge Prerequisite:
+
+A good knowledge of JavaScript and writing ES6 compliant React/TypeScript is needed. Previous exposure to security concepts and penetration testing is not required but recommended and some lack of this can be compensated with pre-GSoC involvement and will to learn.
+
+##### OWASP OWTF Mentors:
+* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+* Viyat Bhalodia
+* [Mohit Sharma](mailto:ms892075@gmail.com)
+
+#### OWASP OWTF - MiTM proxy interception and replay capabilities
+##### Brief Explanation:
+
+The OWTF man-in-the-middle proxy is written completely in Python (based on the excellent Tornado framework) and was benchmarked to be the fastest MiTM python proxy. However it lacks the useful and much need interception and replay capabilities of [mitmproxy](https://github.com/mitmproxy/mitmproxy).
+
+The current implementation of the MiTM proxy serves its purpose very well. Its fast but its not extensible. There are a number of good use cases for being extensible
+- ability to intercept the transactions
+- modify or replay transaction on the fly
+- add additional capabilities to the proxy (such as session marking/changing) without polluting the main proxy code
+
+Bonus:
+- Design and implement a proxy plugin (middleware) architecture so that the plugins can be defined separately and the user can choose what plugins to include dynamically (from the web interface).
+- Replace the current Requester (based on urllib, urllib2) with a more robust Requester based on the new urllib3 with support for a real headless browser factory. The typical flow when requested for an authenticated browser instance (using PhantomJS)
+
+- The "Requester" module checks if there is any login parameters provided (i.e form-based or script - look at the [login-sessions-plugin]( https://github.com/owtf/login-sessions-plugin) )
+- Create a browser instance and do the necessary login procedure
+- Handle the browser for the URI
+- When called to close the browser, do a clean logout and kill the browser instance.
+
+##### Expected results:
+
+- IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- IMPORTANT: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- IMPORTANT: [Sphinx-friendly python comments](http://sphinx-doc.org/) [example Sphinx-friendly python comments here](http://owtf.github.io/ptp/_modules/ptp/tools/w3af/parser.html#W3AFXMLParser)
+- CRITICAL: Excellent reliability
+- Good performance
+- Unit tests / Functional tests
+- Good documentation
+
+#### Getting Started:
+- Have a look at the GitHub project and wiki page, get familiar with the codebase.
+- Join OWASP Slack and contact us on channel #project-owtf.
+- Submit PRs for the issues listed on our github page.
+
+##### Knowledge Prerequisite:
+
+- Python proficiency, some previous exposure to security concepts and penetration testing is welcome but not strictly necessary as long as there is will to learn.
+
+##### OWASP OWTF Mentors:
+* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+* Viyat Bhalodia
+* Bharadwaj Machiraju 
+OWASP OWTF Project Leaders
+
+#### OWASP OWTF - Web interface enhancements
+
+##### Brief Explanation:
+
+The current owtf web interface is implemented in ReactJs with Redux as the state manager. The project involves integration of Typescript in the code to ease the refactoring process. Complete implementation of the Login Page (APIs + frontend) with additional unit/functional tests will also be a deliverable for this project. Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
+
+For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
+
+##### Expected results:
+- IMPORTANT:Clean, maintainable (ES6 compatible and using recommended design patterns) React (TypeScript) code.
+- IMPORTANT: Thoroughly documented code along with API examples and example future components.
+- CRITICAL: Excellent reliability and performance.
+- Unit tests / Functional tests.
+
+##### Getting Started:
+- Have a look at the GitHub project and wiki page, get familiar with the codebase.
+- Join OWASP Slack and contact us on channel #project-owtf.
+- Submit PRs for the issues listed on our github page.
+
+##### Knowledge Prerequisite:
+
+- Python proficiency, React-Redux (high proficiency), TypeScript proficiency and general JavaScript proficiency.
+
+##### OWASP OWTF Mentors: 
+* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+* Viyat Bhalodia
+* Bharadwaj Machiraju
+* [Mohit Sharma](mailto:ms892075@gmail.com)
+
+#### OWASP OWTF - New plugin architecture
+
+##### Brief Explanation:
+
+The current plugin system is not very useful and it is painful to browse many plugins. Most of the plugins do have much code and most of is repeated - much refactoring needed there.
+
+This issue is documented in detail at [905](https://github.com/owtf/owtf/issues/905).
+
+For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
+
+##### Expected results:
+- IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- IMPORTANT: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- IMPORTANT: [Sphinx-friendly python comments](http://sphinx-doc.org/) [example Sphinx-friendly python comments here](http://owtf.github.io/ptp/_modules/ptp/tools/w3af/parser.html#W3AFXMLParser)
+- CRITICAL: Excellent reliability
+- Good performance
+- Unit tests / Functional tests
+- Good documentation
+
+##### Knowledge Prerequisite:
+
+- Python proficiency, some previous exposure to security concepts and penetration testing is welcome but not strictly necessary as long as there is will to learn.
+
+##### OWASP OWTF Mentors:
+* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+* Viyat Bhalodia
+* Bharadwaj Machiraju 
+OWASP OWTF Project Leaders
+
+#### OWASP OWTF - General Improvements
+
+##### Brief Explanation:
+
+There are many small but important enhancements in the issue tracker which are too small to make a single project, but they can be grouped together to make a suitable GSoC project.
+The aim of the project is to implement some of the enhancements suggested in the issue tracker to improve user experience (adding new useful features and making the owtf tool easier to use), security and performance.
+
+For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
+
+##### Expected results:
+- IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- IMPORTANT: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- IMPORTANT: [Sphinx-friendly python comments](http://sphinx-doc.org/) [example Sphinx-friendly python comments here](http://owtf.github.io/ptp/_modules/ptp/tools/w3af/parser.html#W3AFXMLParser)
+- CRITICAL: Excellent reliability
+- Good performance
+- Unit tests / Functional tests
+- Good documentation
+
+##### Knowledge Prerequisite:
+
+- Python proficiency, some previous exposure to security concepts and penetration testing is welcome but not strictly necessary as long as there is will to learn.
+
+##### OWASP OWTF Mentors:
+* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+* Viyat Bhalodia
+* Bharadwaj Machiraju 
+* [Mohit Sharma](mailto:ms892075@gmail.com)
+
