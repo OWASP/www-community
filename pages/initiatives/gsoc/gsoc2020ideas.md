@@ -60,6 +60,7 @@ It's best to start from GitHub [wiki page](https://github.com/zdresearch/OWASP-H
 
 ##### Mentors
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [SRI HARSHA Gajavalli](mailto:sriharsha.g@owasp.org)
 
 ----
 
@@ -371,5 +372,5 @@ OWASP Nettacker is an open source software in Python language which lets you aut
 
 ##### Mentors
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
-* [SRI HARSHA Gajavalli](mailto:sriharsha.g@owasp.org)
+* [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
 ----
