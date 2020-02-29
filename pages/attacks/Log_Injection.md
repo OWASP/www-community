@@ -21,7 +21,7 @@ files may be performed manually on an as-needed basis or automated with
 a tool that automatically culls logs for important events or trending
 information.
 
-Writing unvalidated user input to log files can allow an attacker to
+Writing invalidated user input to log files can allow an attacker to
 forge log entries or inject malicious content into the logs. This is
 called log injection.
 
