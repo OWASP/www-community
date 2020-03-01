@@ -43,7 +43,7 @@ vulnerabilities](Testing_for_CSRF_\(OTG-SESS-005\) "wikilink").
 ### How to Prevent CSRF Vulnerabilities
 
 See the [CSRF Prevention Cheat
-Sheet](CSRF_Prevention_Cheat_Sheet "wikilink") for prevention measures.
+Sheet](/www-project-cheat-sheets/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet) for prevention measures.
 
 Listen to the [OWASP Top Ten CSRF
 Podcast](http://www.owasp.org/download/jmanico/owasp_podcast_69.mp3).
