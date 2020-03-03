@@ -365,6 +365,8 @@ submit you idea!
 
 ##### Mentors:
 * [Ade Yoseman Putra](mailto:ade.putra@owasp.org) - OWASP Risk Assessment Framework Project Leader
+* [Azzeddine RAMRAMI](mailto:azzeddine.ramrami@owasp.org) - OWASP Risk Assessment Framework Project Leader
+
 
 <hr>
 
