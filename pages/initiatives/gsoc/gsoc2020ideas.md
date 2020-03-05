@@ -259,6 +259,7 @@ The goal of the OWASP Honeypot Project is to identify emerging attacks against w
 - Develop a mechanism to implant HoneyTokens in web application based on modsecurity and CRS3 (https://github.com/OWASP/Honeypot-Project/issues/3)
 - Generate threat intelligence data (based on attacker interactions and honey tokens modifications) and integrate this with MISP
 - Use case: integrate HoneyTokens using at least one of the most used CMS (Wordpress, Joomla or Drupal) (https://github.com/OWASP/Honeypot-Project/issues/9)
+- Automate the deployment of both VM and Docker based honeypots into AWS
 
 ##### Getting started
 - Have a look at the [GitHub project](https://github.com/OWASP/Honeypot-Project) and  [wiki page](https://github.com/OWASP/Honeypot-Project/wiki).
@@ -270,9 +271,11 @@ The goal of the OWASP Honeypot Project is to identify emerging attacks against w
 - Honeypots and HoneyTokens
 - ModSecurity and OWASP CRS v3
 - HTTP Protocol
+- AWS Account
 
 ##### Mentor
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+* [Adrian Winckles](mailto:Adrian.Winckles@owasp.org)
 
 <hr>
 
