@@ -10,8 +10,7 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **2016-06-29** <small>(please *view
-source*)</small>
+Last revision (mm/dd/yy): **2016-06-29**
 
 [Categorie:FIXME/merge](Categorie:FIXME/merge "wikilink")
 <https://www.owasp.org/index.php/Reflection_injection>

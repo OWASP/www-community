@@ -12,7 +12,7 @@ auto-migrated: 1
 
 ## Description
 
-[Binary planting](Binary_planting "wikilink") is a general term for an
+Binary planting is a general term for an
 attack where the attacker places (i.e., plants) a binary file containing
 malicious code to a local or remote file system in order for a
 vulnerable application to load and execute it.
@@ -69,39 +69,28 @@ There are various ways this attack can occur:
     the Windows system directories, it loads and executes it from the
     attacker's network share.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
+## Related Threat Agents
 
-  - [:Category:Internet_attacker](:Category:Internet_attacker "wikilink")
-  - [:Category:Intranet_attacker](:Category:Intranet_attacker "wikilink")
+- Intranet Attacker
+- Internet Attacker
 
-## Related [Attacks](Attacks "wikilink")
+## Related Attacks
 
-  - [:Category:Embedded Malicious
-    Code](:Category:Embedded_Malicious_Code "wikilink")
-  - [Code Injection](Code_Injection "wikilink")
+- Embedded_Malicious_Code
+- [Code Injection](Code_Injection)
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related Vulnerabilities
 
-  - [Portability Flaw](Portability_Flaw "wikilink")
-  - [Process Control](Process_Control "wikilink")
+- [Portability Flaw](../vulnerabilities/Portability_Flaw)
+- [Process Control](../vulnerabilities/Process_Control)
 
-## Related [Controls](Controls "wikilink")
+## Related Controls
 
-  - Access Controls
-  - File Integrity Checking
+- Access Controls
+- File Integrity Checking
 
 ## References
 
-  - [CWE-114: Process
-    Control](http://cwe.mitre.org/data/definitions/114.html)
-  - [Elevation of Privilege Vulnerability in iTunes for
-    Windows](http://www.securityfocus.com/archive/1/510426) - example of
-    Insecure Access Permissions-based Attack
-  - [Remote Binary Planting in Apple iTunes for
-    Windows](http://www.securityfocus.com/archive/1/513190) - example of
-    Current Working Directroy-based Attack
-  - <http://365.rsaconference.com/servlet/JiveServlet/previewBody/3034-102-1-4071/HTA-206%20-%20Remote%20Binary%20Planting%20%E2%80%93%20An%20Overlooked%20Vulnerability%20Affair.pdf>
-
-__NOTOC__
-
-[Category:Attack](Category:Attack "wikilink")
+- [CWE-114: Process Control](http://cwe.mitre.org/data/definitions/114.html)
+- [Elevation of Privilege Vulnerability in iTunes for Windows](http://www.securityfocus.com/archive/1/510426) - example of Insecure Access  Permissions-based Attack
+- [Remote Binary Planting in Apple iTunes for Windows](http://www.securityfocus.com/archive/1/513190) - example of Current Working Directroy-based Attack

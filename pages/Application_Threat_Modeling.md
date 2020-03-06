@@ -85,8 +85,7 @@ others.
 
 ### 3\. What are we going to do about that?
 
-In this phase you turn your findings into specific actions. See
-[Threat_Modeling_Outputs](Threat_Modeling_Outputs "wikilink")
+In this phase you turn your findings into specific actions.
 
 ### 4\. Did we do a good enough job?
 

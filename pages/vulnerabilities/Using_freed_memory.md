@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 # Description
 
 Referencing memory after it has been freed can cause a program to crash.

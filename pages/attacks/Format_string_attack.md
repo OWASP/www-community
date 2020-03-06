@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision: **//**
-
-
-
 ## Description
 
 The Format String exploit occurs when the submitted data of an input

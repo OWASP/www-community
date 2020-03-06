@@ -10,8 +10,7 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **05/27/2009** <small>(please *view
-source*)</small>
+Last revision (mm/dd/yy): **05/27/2009**
 
 [Vulnerabilities Table of Contents](ASDR_TOC_Vulnerabilities "wikilink")
 
