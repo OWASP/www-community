@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 Double free errors occur when free() is called more than once with the

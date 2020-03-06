@@ -53,35 +53,35 @@ constantly be unlocking customer accounts.
 
 The problems with account lockouts are:
 
-:\* An attacker can cause a denial of service (DoS) by locking out large
+- An attacker can cause a denial of service (DoS) by locking out large
 numbers of accounts.
 
-:\* Because you cannot lock out an account that does not exist, only
+- Because you cannot lock out an account that does not exist, only
 valid account names will lock. An attacker could use this fact to
 harvest usernames from the site, depending on the error responses.
 
-:\* An attacker can cause a diversion by locking out many accounts and
+- An attacker can cause a diversion by locking out many accounts and
 flooding the help desk with support calls.
 
-:\* An attacker can continuously lock out the same account, even seconds
+- An attacker can continuously lock out the same account, even seconds
 after an administrator unlocks it, effectively disabling the account.
 
-:\* Account lockout is ineffective against slow attacks that try only a
+- Account lockout is ineffective against slow attacks that try only a
 few passwords every hour.
 
-:\* Account lockout is ineffective against attacks that try one password
+- Account lockout is ineffective against attacks that try one password
 against a large list of usernames.
 
-:\* Account lockout is ineffective if the attacker is using a
+- Account lockout is ineffective if the attacker is using a
 username/password combo list and guesses correctly on the first couple
 of attempts.
 
-:\* Powerful accounts such as administrator accounts often bypass
+- Powerful accounts such as administrator accounts often bypass
 lockout policy, but these are the most desirable accounts to attack.
 Some systems lock out administrator accounts only on network-based
 logins.
 
-:\* Even once you lock out an account, the attack may continue,
+- Even once you lock out an account, the attack may continue,
 consuming valuable human and computer resources.
 
 Account lockout is sometimes effective, but only in controlled
@@ -100,7 +100,7 @@ financial transactions or e-mail communications.
 You may also consider locking out authentication attempts from known and
 unknown browsers or devices separately. The [Slow Down Online Guessing
 Attacks with Device
-Cookies](Slow_Down_Online_Guessing_Attacks_with_Device_Cookies "wikilink")
+Cookies](../Slow_Down_Online_Guessing_Attacks_with_Device_Cookies)
 article proposes protocol for lockout mechanism based on information
 about if specific browser have been already used for successful login.
 The protocol is less susceptible to DoS attacks than plain account
@@ -163,16 +163,16 @@ answer to their secret questions.
 
 Other techniques you might want to consider are:
 
-:\* For advanced users who want to protect their accounts from attack,
+- For advanced users who want to protect their accounts from attack,
 give them the option to allow login only from certain IP addresses.
 
-:\*Assign unique login URLs to blocks of users so that not all users can
+-Assign unique login URLs to blocks of users so that not all users can
 access the site from the same URL.
 
-:\*Use a CAPTCHA to prevent automated attacks (see the sidebar "Using
+-Use a CAPTCHA to prevent automated attacks (see the sidebar "Using
 CAPTCHAs").
 
-:\*Instead of completely locking out an account, place it in a lockdown
+-Instead of completely locking out an account, place it in a lockdown
 mode with limited capabilities.
 
 Attackers can often circumvent many of these techniques by themselves,
@@ -193,26 +193,25 @@ codes that mean the attacker found a valid password.
 Here are conditions that could indicate a brute-force attack or other
 account abuse:
 
-:\*Many failed logins from the same IP address
+-Many failed logins from the same IP address
 
-:\*Logins with multiple usernames from the same IP address
+-Logins with multiple usernames from the same IP address
 
-:\*Logins for a single account coming from many different IP addresses
+-Logins for a single account coming from many different IP addresses
 
-:\*Excessive usage and bandwidth consumption from a single use
+-Excessive usage and bandwidth consumption from a single use
 
-:\*Failed login attempts from alphabetically sequential usernames or
+-Failed login attempts from alphabetically sequential usernames or
 passwords
 
-:\*Logins with a referring URL of someone's mail or IRC client
+-Logins with a referring URL of someone's mail or IRC client
 
-:\*Referring URLs that contain the username and password in the format
-<http://user:password@www.example.com/login.htm>
+-Referring URLs that contain the username and password in the format`http://user:password@www.example.com/login.htm`
 
-:\*If protecting an adult Web site, referring URLs of known
+-If protecting an adult Web site, referring URLs of known
 password-sharing sites
 
-:\*Logins with suspicious passwords hackers commonly use, such as
+-Logins with suspicious passwords hackers commonly use, such as
 ownsyou (ownzyou), washere (wazhere), zealots, hacksyou, and the like
 
 Brute force attacks are surprisingly difficult to stop completely, but

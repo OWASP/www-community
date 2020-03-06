@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 Traffic Flood is a type of [DoS](Denial_of_Service "wikilink") attack

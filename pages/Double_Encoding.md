@@ -222,11 +222,10 @@ Finally, the malicious double encoding code is:
 
 `%253Cscript%253Ealert('XSS')%253C%252Fscript%253E`
 
-## Related [Attacks](Attacks "wikilink")
+## Related Attacks
 
   - [SQL Injection](/attacks/SQL_Injection)
-  - [Cross-site Scripting
-    (XSS)](/attacks/xss)
+  - [Cross-site Scripting (XSS)](/attacks/xss)
   - [Path Traversal](/attacks/Path_Traversal)
 
 ## References

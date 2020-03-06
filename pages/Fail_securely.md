@@ -68,11 +68,11 @@ easy to do.
 `}`
 
 This example is also an example of the [Least
-privilege](Least_privilege "wikilink") principle, which states you
+privilege](vulnerabilities/Least_Privilege_Violation) principle, which states you
 should never grant more access than required. If codeWhichmayFail()
 requires admin access, we should be verifying that admin access before
 we run that code.
 
 ## References
 
-  - <https://buildsecurityin.us-cert.gov/articles/knowledge/principles/failing-securely>
+  - [US Cert - Failing Securely](https://buildsecurityin.us-cert.gov/articles/knowledge/principles/failing-securely)

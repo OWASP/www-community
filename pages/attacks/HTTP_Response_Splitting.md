@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision: **//**
-
 ## Description
 
 HTTP response splitting occurs when:
