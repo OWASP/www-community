@@ -181,7 +181,7 @@ threat:
 <tr class="header">
 <th style="width:20%">Threat</th>
 <th style="width:40%">Threat Details</th>
-<thstyle="width:40%">Mitigation</th>
+<th style="width:40%">Mitigation</th>
 </tr>
 </thead>
 <tbody>
