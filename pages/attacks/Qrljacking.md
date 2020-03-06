@@ -10,12 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
-__NOTOC__
-
 ## Overview
 
 QRLJacking or Quick Response Code Login Jacking is a simple social
@@ -328,7 +322,7 @@ based on the (User ID) he still lacks the private key.
 
 # Related Vulnerabilities
 
-  - [Clickjacking](Clickjacking "wikilink")
+  - Clickjacking
 
 # More information
 
@@ -337,67 +331,21 @@ For more information on QRLJacking tools and extra, please visit the
 
 # References
 
-  - <https://www.seekurity.com/blog/tutorials/qrljacking-your-qr-based-session-belongs-to-us/>
-  - <https://en.wikipedia.org/wiki/QR_code>
-  - <https://en.wikipedia.org/wiki/Single_sign-on>
-  - <https://en.wikipedia.org/wiki/Authentication>
-  - <https://www.owasp.org/index.php/Clickjacking>
-  - <https://en.wikipedia.org/wiki/SQRL>
-  - <https://https.cio.gov/mixed-content/>
-
-<!-- end list -->
-
-  -
-    Mixed Content
-
-<!-- end list -->
-
-  - <https://www.google.com/patents/US20130167208>
-
-<!-- end list -->
-
-  -
-    Smart Phone Login Using QR Code
-
-<!-- end list -->
-
-  - <http://www.google.com/patents/US20130219479>
-
-<!-- end list -->
-
-  -
-    Login Using QR Code
-
-<!-- end list -->
-
-  - <https://en.wikipedia.org/wiki/SlickLogin>
-  - Sound-Proof Project
+- https://www.seekurity.com/blog/tutorials/qrljacking-your-qr-based-session-belongs-to-us/
+- https://en.wikipedia.org/wiki/QR_code
+- https://en.wikipedia.org/wiki/Single_sign-on
+- https://en.wikipedia.org/wiki/Authentication
+- https://www.owasp.org/index.php/Clickjacking
+- https://en.wikipedia.org/wiki/SQRL
+- [Mixed Content](https://https.cio.gov/mixed-content/)
+- [Smart Phone Login Using QR Code](https://www.google.com/patents/US20130167208)
+- [Login Using QR Code](http://www.google.com/patents/US20130219479)
+- [Sound-Proof Project](https://en.wikipedia.org/wiki/SlickLogin)
 
 **Proof of Concept examples (Videos)**
 
-  - [WhatsApp QRHijacking
-    Vulnerability](https://www.youtube.com/watch?v=4QwyBXiZhG0)
-
-<!-- end list -->
-
-  - [WhatsApp Accounts Hijacking and ARP
-    poisoning](https://www.youtube.com/watch?v=JCoPSdQvESc)
-
-<!-- end list -->
-
-  - [AirDroid vulnerable to QRLJacking
-    Vulnerability](https://www.youtube.com/watch?v=jenmicugWoo)
-
-<!-- end list -->
-
-  - [Vulnerable Web Applications and Services uses Login by QR Code
-    Feature part \#1](https://www.youtube.com/watch?v=lx-qnQ0ltpI)
-
-<!-- end list -->
-
-  - [Vulnerable Web Applications and Services uses Login by QR Code
-    Feature part \#2](https://www.youtube.com/watch?v=Nc_NyR06U5Q)
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Security Focus Area](Category:Security_Focus_Area "wikilink")
-[Category:Attack](Category:Attack "wikilink")
+  - [WhatsApp QRHijackingVulnerability](https://www.youtube.com/watch?v=4QwyBXiZhG0)
+  - [WhatsApp Accounts Hijacking and ARPpoisoning](https://www.youtube.com/watch?v=JCoPSdQvESc)
+  - [AirDroid vulnerable to QRLJackingVulnerability](https://www.youtube.com/watch?v=jenmicugWoo)
+  - [Vulnerable Web Applications and Services uses Login by QR CodeFeature part \#1](https://www.youtube.com/watch?v=lx-qnQ0ltpI)
+  - [Vulnerable Web Applications and Services uses Login by QR CodeFeature part \#2](https://www.youtube.com/watch?v=Nc_NyR06U5Q)

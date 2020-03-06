@@ -238,7 +238,7 @@ way trap doors, so why would you need it?
 
   - **Forget about it**
     See
-    [Authentication](How_to_write_insecure_code#Authentication "wikilink").
+    [Authentication](#authentication).
     Only ivory tower knuckleheads think there's a difference between
     authentication and authorization.
 
@@ -286,7 +286,7 @@ way trap doors, so why would you need it?
     authorization logic where you see fit. Sometimes you need to roll it
     into the UI. Sometimes it's in the data layer. Sometimes it's both.
     See
-    [Authentication](How_to_write_insecure_code#Authentication "wikilink").
+    [Authentication](#authentication).
     Only ivory tower knuckleheads think that security requirements can
     be known at design time and expressed in a
     runtime-readable/declarative format.
@@ -391,7 +391,7 @@ way trap doors, so why would you need it?
     ensure that your code will work perfectly for all of your legitimate
     users. And what do you care if it doesn't work for hackers,
     attackers, and criminals? Using a fancy security testing tool like
-    [WebScarab](WebScarab "wikilink") is a waste of your valuable time.
+    [Zed Attack Proxy](https://www.zaproxy.org) is a waste of your valuable time.
 
 **Test with only one browser**
 

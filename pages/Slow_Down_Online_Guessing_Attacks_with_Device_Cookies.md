@@ -34,7 +34,7 @@ user in a system. The device cookie can be used to:
 # Why?
 
 There are few well-known ways to [deal with online
-attacks](Blocking_Brute_Force_Attacks "wikilink"):
+attacks](controls/Blocking_Brute_Force_Attacks):
 
   - Temporary account lockout
   - Use CAPTCHA to slow down attacker
@@ -179,12 +179,9 @@ threat:
 <table>
 <thead>
 <tr class="header">
-<th><p>style="width:20%"</p></th>
-<th><p>Threat</p></th>
-<th><p>style="width:40%"</p></th>
-<th><p>Threat details</p></th>
-<th><p>style="width:40%"</p></th>
-<th><p>Mitigation</p></th>
+<th style="width:20%">Threat</th>
+<th style="width:40%">Threat Details</th>
+<thstyle="width:40%">Mitigation</th>
 </tr>
 </thead>
 <tbody>
@@ -194,9 +191,6 @@ threat:
 <td><p>As long as the lockout for untrusted clients blocks authN attempts for a specific user from all untrusted clients, the number of guesses is restricted with (<em>N/T</em>)*24h per day.</p>
 <p>E.g. for <em>N</em> = 10 and <em>T</em> = 1h, any attacker will be limited with 240 attempts per day per user or 87600 attempts per user/year regardless of how large the botnet in his possession is.</p>
 <p>If there is a <a href="http://password-policy-testing.wikidot.com/results#toc5">good password policy</a> in place that limits minimum number attempts to <a href="http://research.microsoft.com/pubs/227130/WhatsaSysadminToDo.pdf">10<sup>6</sup></a> then the targeted attack will last (on average) 5 years.</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td><p>Online attack using stolen device cookies</p></td>
@@ -209,9 +203,6 @@ threat:
 </ul>
 <p>In both cases if the attacker can steal device cookies on a regular basis he may have enough power to steal not only device cookies but also session cookies or even passwords. However in our security model this attack is irrelevant if device cookies are adequately protected (use <strong>Secure</strong> and <strong>HttpOnly</strong> flags).</p>
 <p><strong>Proposal</strong>: Accidental access to one device cookie contributes little to attack speed. Applications may implement persistent lockout for certain device cookies to address such cases. E.g. permanently lockout a device cookie after <em>N</em>*10 failed attempts.</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p>Online attack against multiple users</p></td>
@@ -220,42 +211,27 @@ threat:
 <td><p>There is no specific mitigation for this threat in the protocol.</p>
 <p>Good password policy may be a sufficient countermeasure for such attacks.</p>
 <p>Additionally an application may temporarily require CAPTCHA solving for authentication from <strong>untrusted</strong> clients in case there are too many authentication attempts for different accounts during a specified period of time.</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td><p>Spoof device cookie</p></td>
 <td><p>Attacker may try to forge a valid device cookie for any user in a system.</p></td>
 <td><p>Proper crypto implementation: HMAC and random secret key.</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p>Tamper with existing device cookie</p></td>
 <td><p>Attacker may try to tamper with a device cookie valid for one user to make it suitable for another.</p></td>
 <td><p>Proper crypto implementation: HMAC and random secret key.</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td><p>DoS for specific account</p></td>
 <td><p>Attackers may cause permanent lockout for all untrusted devices for a specific user. Thus the user may be blocked from loggging into the system as he would need to login from a <strong>new device</strong> or to login after <strong>cleaning up his browser cache</strong>.</p></td>
 <td><p>Issue a valid device cookie after visiting password reset link (an actual password reset is not necessary). Thus, if the user demonstrates his possession of a personal email account then the system may trust a client to try entering his credentials.</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p>DoS for specific account when client is used by different accounts</p></td>
 <td><p>There are situations when the same client is legitimately used to authenticate different users. For example, a family-shared PC or tablet. Thus, after successful authentication of one user another legitimate user will be treated as user of untrusted client and will be susceptible to a DoS attack.</p></td>
 <td><p>Cases where the same client is shared between legitimate users may be considered out of scope by default.</p>
 <p>If such cases are critical for application usability, it may deal with them by issuing device cookies with names that contain LOGIN and analyze them accordingly.</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
