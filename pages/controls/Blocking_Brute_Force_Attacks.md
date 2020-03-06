@@ -100,7 +100,7 @@ financial transactions or e-mail communications.
 You may also consider locking out authentication attempts from known and
 unknown browsers or devices separately. The [Slow Down Online Guessing
 Attacks with Device
-Cookies](../Slow_Down_Online_Guessing_Attacks_with_Device_Cookies)
+Cookies](../../Slow_Down_Online_Guessing_Attacks_with_Device_Cookies)
 article proposes protocol for lockout mechanism based on information
 about if specific browser have been already used for successful login.
 The protocol is less susceptible to DoS attacks than plain account
