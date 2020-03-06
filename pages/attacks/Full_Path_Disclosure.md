@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision: **//**
-
-
-
 ## Description
 
 Full Path Disclosure (FPD) vulnerabilities enable the attacker to see

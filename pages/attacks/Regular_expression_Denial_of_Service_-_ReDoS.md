@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
 ## Introduction
 
 The **Regular expression Denial of Service (ReDoS)** is a [Denial of

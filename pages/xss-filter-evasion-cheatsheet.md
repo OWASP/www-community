@@ -1016,7 +1016,3 @@ Robert "RSnake" Hansen
 
 Adam Lange  
 Mishra Dhiraj
-
-[Category:Attack](Category:Attack "wikilink")
-[Category:Popular](Category:Popular "wikilink")
-[Category:OWASP\_Breakers](Category:OWASP_Breakers "wikilink")

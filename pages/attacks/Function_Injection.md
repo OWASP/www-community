@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-__NOTOC__
-
-Last revision (mm/dd/yy): **//**
-
 ## Overview
 
 A [Function Injection](Function_Injection "wikilink") attack consists of

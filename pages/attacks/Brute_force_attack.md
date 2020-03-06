@@ -20,8 +20,6 @@ Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
 Force](Testing_for_Brute_Force_\(OWASP-AT-004\) "wikilink")
 Vulnerabilities.
 
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 A brute force attack can manifest itself in many different ways, but
