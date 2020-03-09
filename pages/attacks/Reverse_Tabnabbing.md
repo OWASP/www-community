@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 Reverse tabnabbing is an attack where a page linked from the target page
@@ -93,16 +91,13 @@ The malicious site can only access to the following properties from the
 **window** javascript class instance) in case of **cross origin** (cross
 domains) access:
 
-  - *opener.closed*: Returns a boolean value indicating whether a window
-    has been closed or not.
-  - *opener.frames*: Returns all iframe elements in the current window.
-  - *opener.length*: Returns the number of iframe elements in the
-    current window.
-  - *opener.opener*: Returns a reference to the window that created the
-    window.
-  - *opener.parent*: Returns the parent window of the current window.
-  - *opener.self*: Returns the current window.
-  - *opener.top*: Returns the topmost browser window.
+- `opener.closed`: Returns a boolean value indicating whether a window has been closed or not.
+- `opener.frames`: Returns all iframe elements in the current window.
+- `opener.length`: Returns the number of iframe elements in the current window.
+- `opener.opener`: Returns a reference to the window that created the window.
+- `opener.parent`: Returns the parent window of the current window.
+- `opener.self`: Returns the current window.
+- `opener.top`: Returns the topmost browser window.
 
 If the domains are the same then malicious site can access to all the
 properties exposed by the
@@ -112,22 +107,12 @@ object reference.
 ## Prevention
 
 Prevention information are documented into the [HTML5 Cheat
-Sheet](HTML5_Security_Cheat_Sheet#Tabnabbing "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html).
 
 ## References
 
-  - <https://dev.to/ben/the-targetblank-vulnerability-by-example> - The
-    `target="_blank"` vulnerability by example
-  - <https://mathiasbynens.github.io/rel-noopener/> - About
-    `rel=noopener` attribute values
-  - <https://medium.com/@jitbit/target-blank-the-most-underestimated-vulnerability-ever-96e328301f4c>
-    - Target="_blank" —  the most underestimated vulnerability ever
-  - Cure53's [Browser Security White
-    Paper](https://github.com/cure53/browser-sec-whitepaper/raw/master/browser-security-whitepaper.pdf)
-    - Page 247
-  - <https://danielstjules.github.io/blankshield/> - Reverse tabnabbing
-    and blackshield demo
-
-__NOTOC__
-
-[Category:Attack](Category:Attack "wikilink")
+- [The `target="_blank"` vulnerability by example](https://dev.to/ben/the-targetblank-vulnerability-by-example)
+- [About `rel=noopener` attribute value](https://mathiasbynens.github.io/rel-noopener/)s
+- [Target="_blank" —  the most underestimated vulnerability ever](https://medium.com/@jitbit/target-blank-the-most-underestimated-vulnerability-ever-96e328301f4c)
+- Cure53's [Browser Security WhitePaper](https://github.com/cure53/browser-sec-whitepaper/raw/master/browser-security-whitepaper.pdf)
+- [Reverse tabnabbing and blackshield demo](https://danielstjules.github.io/blankshield/)

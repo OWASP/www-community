@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 Similar to [SQL Injection](SQL_Injection "wikilink"), XPath Injection

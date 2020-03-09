@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 Special Element Injection is a type of injection attack that exploits a

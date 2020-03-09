@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 The use of a hard-coded password increases the possibility of password
