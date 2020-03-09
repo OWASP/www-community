@@ -31,14 +31,9 @@ The device cookie can be used to:
   * Establish universal temporary lockouts for all untrusted clients
   * Lockout trusted clients individually.attempts
 
-<<<<<<< HEAD
-There are few well-known ways to [deal with online
-attacks](controls/Blocking_Brute_Force_Attacks):
-=======
->>>>>>> Improve auto-migrated device cookie page
 
 ## Why?
-There are few well-known ways to [deal with online attacks](Blocking_Brute_Force_Attacks "wikilink"):
+There are few well-known ways to [deal with online attacks](controls/Blocking_Brute_Force_Attacks):
   * Temporary account lockout
   * Use CAPTCHA to slow down attacker
 
@@ -136,9 +131,9 @@ There are two possible ways to mitigate this threat:
 <table>
   <thead>
     <tr class="header">
-      <th><p>Threat</p></th>
-      <th><p>Threat details</p></th>
-      <th><p>Mitigation</p></th>
+      <th style="width:20%"><p>Threat</p></th>
+      <th style="width:40%"><p>Threat details</p></th>
+      <th style="width:40%"><p>Mitigation</p></th>
     </tr>
   </thead>
 
