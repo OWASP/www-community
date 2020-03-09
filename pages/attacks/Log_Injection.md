@@ -19,7 +19,7 @@ files may be performed manually on an as-needed basis or automated with
 a tool that automatically culls logs for important events or trending
 information.
 
-Writing unvalidated user input to log files can allow an attacker to
+Writing invalidated user input to log files can allow an attacker to
 forge log entries or inject malicious content into the logs. This is
 called log injection.
 
@@ -87,9 +87,10 @@ entries.
 
 PHP code can easily be added to a log file, for example:
 
-`https://www.somedomain.tld/index.php?file=`
-
-`<?php echo phpinfo(); ?>`
+```
+    https://www.somedomain.tld/index.php?file=`
+    <?php echo phpinfo(); ?>`
+```
 
 This stage it is called **log file poisoning**. If the log file is
 staged on a public directory and can be accessed via a HTTP GET request,
