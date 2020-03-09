@@ -43,7 +43,7 @@ vulnerabilities](Testing_for_CSRF_\(OTG-SESS-005\) "wikilink").
 ### How to Prevent CSRF Vulnerabilities
 
 See the [CSRF Prevention Cheat
-Sheet](CSRF_Prevention_Cheat_Sheet "wikilink") for prevention measures.
+Sheet](/www-project-cheat-sheets/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet) for prevention measures.
 
 Listen to the [OWASP Top Ten CSRF
 Podcast](http://www.owasp.org/download/jmanico/owasp_podcast_69.mp3).
@@ -226,7 +226,7 @@ the vulnerable request looks like this:
 Such a request cannot be delivered using standard A or IMG tags, but can
 be delivered using a FORM tags:
 
-	<form action="<nowiki>http://bank.com/transfer.do</nowiki>" method="POST">
+	<form action="http://bank.com/transfer.do" method="POST">
 
 	<input type="hidden" name="acct" value="MARIA"/>
 	<input type="hidden" name="amount" value="100000"/>
@@ -255,14 +255,12 @@ Such requests can be executed with JavaScript embedded into an exploit
 page:
 
 	<script>
-
-	`function put() {`
-	`   var x = new XMLHttpRequest();`
-	`   x.open("PUT","http://bank.com/transfer.do",true);`
-	`   x.setRequestHeader("Content-Type", "application/json"); `
-	`   x.send(JSON.stringify({"acct":"BOB", "amount":100})); `
-	`}`
-
+	function put() {
+	    var x = new XMLHttpRequest();
+	    x.open("PUT","http://bank.com/transfer.do",true);
+	    x.setRequestHeader("Content-Type", "application/json");
+	    x.send(JSON.stringify({"acct":"BOB", "amount":100})); 
+	}
 	</script>
 
 	<body onload="put()">
