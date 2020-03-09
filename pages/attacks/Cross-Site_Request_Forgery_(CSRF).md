@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 ## Overview
 
 Cross-Site Request Forgery (CSRF) is an attack that forces an end user

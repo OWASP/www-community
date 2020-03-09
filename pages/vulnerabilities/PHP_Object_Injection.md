@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: PHP Object Injection
-author: 
+author: Egidio Romano 
 contributors: 
 permalink: /vulnerabilities/PHP_Object_Injection
 tags: vulnerability, PHP Object Injection
@@ -11,10 +11,8 @@ auto-migrated: 1
 ---
 
 Author(s):
+- Egidio Romano
 
-  - [Egidio Romano](User:Egidio_Romano "wikilink")
-
-Last revision (mm/dd/yy): **//**
 
 [Vulnerabilities Table of Contents](ASDR_TOC_Vulnerabilities "wikilink")
 
