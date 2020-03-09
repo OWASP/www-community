@@ -59,6 +59,14 @@ You may also consider locking out authentication attempts from known and unknown
 The [Slow Down Online Guessing Attacks with Device Cookies](../Slow_Down_Online_Guessing_Attacks_with_Device_Cookies.md) article proposes protocol for lockout mechanism based on information about if specific browser have been already used for successful login.
 The protocol is less susceptible to DoS attacks than plain account locking out and yet effective and easy to implement.
 
+You may also consider locking out authentication attempts from known and
+unknown browsers or devices separately. The [Slow Down Online Guessing
+Attacks with Device
+Cookies](../../Slow_Down_Online_Guessing_Attacks_with_Device_Cookies)
+article proposes protocol for lockout mechanism based on information
+about if specific browser have been already used for successful login.
+The protocol is less susceptible to DoS attacks than plain account
+locking out and yet effective and easy to implement.
 
 ## Finding Other Countermeasures
 As described, account lockouts are usually not a practical solution, but there are other tricks to deal with brute force attacks. 
