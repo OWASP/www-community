@@ -29,7 +29,7 @@ user in a system.
 The device cookie can be used to:
   * Distinguish between known/trusted and unknown/untrusted clients
   * Establish universal temporary lockouts for all untrusted clients
-  * Lockout trusted clients individually.attempts
+  * Lockout trusted clients individually
 
 
 ## Why?
