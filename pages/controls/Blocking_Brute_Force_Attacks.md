@@ -151,6 +151,7 @@ Nevertheless, a simple CAPTCHA may still be effective against brute-force attack
 When you combine the chance of an attacker sending a correct username and password guess with the chance of guessing the CAPTCHA correctly, combined with other techniques described in this chapter, even a simple CAPTCHA could prove effective.
 
 ### Figure 1: Password Authentication Delay: C\#
+
 ```c#
     private void AuthenticateRequest(object obj, EventArgs ea)
     {
@@ -166,6 +167,7 @@ When you combine the chance of an attacker sending a correct username and passwo
 ```
 
 ### Figure 2: Password Authentication Delay: VB.NET
+
 ```vb
     Public Sub AuthenticateRequest(ByVal obj As Object, ByVal ea As System.EventArgs)
      Dim objApp As HttpApplication
