@@ -3,6 +3,7 @@
 title: Embedding Null Code
 layout: col-sidebar
 author: Nsrav
+contributors: ADubhlaoich
 tags: attacks
 auto-migrated: 1
 permalink: /attacks/Embedding_Null_Code
