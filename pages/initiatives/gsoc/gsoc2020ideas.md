@@ -378,7 +378,7 @@ OWASP Nettacker is an open source software in Python language which lets you aut
 
 <hr>
 
-### [OWASP Intelligent Intrusion Detection System]
+### [OWASP Intelligent Intrusion Detection System](https://github.com/OWASP/Intelligent-Intrusion-Detection-System)
 
 ##### Explanation of Ideas
 
@@ -386,7 +386,7 @@ OWASP IIDS is an open source software that leverages the benefits of Artificial 
 
 ##### Getting started
 
-* You may read the available documents in the [wiki page](https://owasp.org/www-project-intelligent-intrusion-detection-system/migrated_content).
+* You may read the available documents in the [wiki page](https://owasp.org/www-project-intelligent-intrusion-detection-system/).
 
 #### Expected Results
 
