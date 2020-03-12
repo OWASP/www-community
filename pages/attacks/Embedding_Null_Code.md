@@ -3,7 +3,7 @@
 title: Embedding Null Code
 layout: col-sidebar
 author: Nsrav
-contributors: Till Maas, ADubhlaoich
+contributors: 'Till Maas' ADubhlaoich
 tags: attacks
 auto-migrated: 1
 permalink: /attacks/Embedding_Null_Code
@@ -52,10 +52,10 @@ The attack occurs when a link is requested as follows:
 `GET /some_dir/file.pdf.pdf%00[long string] HTTP/1.1`  
 
 This exploit can be used against a web server that truncates the request at 
-the null byte (%00), such as Microsoft IIS and Netscape Enterprise web servers. 
+the null byte `%00`, such as Microsoft IIS and Netscape Enterprise web servers. 
 Though the requested URI is truncated when locating the file, the full string 
 is still passed to the Adobe ActiveX component. It then triggers a buffer 
-overflow within RTLHeapFree(), allowing an attacker to overwrite arbitrary
+overflow within `RTLHeapFree()`, allowing an attacker to overwrite arbitrary
 memory.
 
 It can be performed by adding malicious content to the end of any embedded link 
@@ -63,6 +63,7 @@ that references a Microsoft IIS or Netscape Enterprise web server.
 
 ## External References
 
-<http://capec.mitre.org/data/definitions/52.html>
+http://capec.mitre.org/data/definitions/52.html
 
-<http://nvd.nist.gov/nvd.cfm?cvename=CVE-2004-0629>
+http://nvd.nist.gov/nvd.cfm?cvename=CVE-2004-0629
+
