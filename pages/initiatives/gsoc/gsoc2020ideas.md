@@ -580,4 +580,28 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 * Viyat Bhalodia
 * Bharadwaj Machiraju 
 * [Mohit Sharma](mailto:ms892075@gmail.com)
+----
 
+### [OWASP Bug Logging Tool](https://github.com/OWASP/BLT)
+
+##### Brief Explanation:
+
+BLT lets anyone report issues they find on the internet. Found something out of place on Amazon.com ? Let them know. Companies are held accountable and shows their response time and history. Get points for reporting bugs and help keep the internet bug free.
+
+Check OWASP WIKI PAGE https://www.owasp.org/index.php/OWASP_Bug_Logging_Tool for some reference;
+
+##### Getting started
+* Get in touch with [Sourav Badami](mailto:sourav.badami@owasp.org) to discuss your idea.
+
+##### Expected Results:
+* A fully functional and out of the box toolkit for bug hunting and crowd sourcing hunters with bounty support on top of the existing platform.
+* Code follows existing styleguides and passes all existing quality gates regarding code smells, test coverage etc.
+
+##### Knowledge Prerequisites:
+* Javascript, Unit/Integration testing, experience with (or willingness to learn) ReactJS, Python, Django some security knowledge would be preferable.
+
+##### Mentors:
+* [Sourav Badami](mailto:sourav.badami@owasp.org) - OWASP Bug Logging Tool Project Leader
+* [Sean Auriti](mailto:sean.auritii@owasp.org) - OWASP Bug Logging Tool Project Leader
+
+----
