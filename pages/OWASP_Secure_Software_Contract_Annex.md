@@ -2,10 +2,9 @@
 
 layout: col-sidebar
 title: Secure Software Contract Annex
-author: 
+author: Jeff Williams
 contributors:
 permalink: /OWASP_Secure_Software_Contract_Annex
-auto-migrated: 1
 
 ---
 
@@ -45,21 +44,18 @@ This document was created by The Open Web Application Security Project
 to creating free and open tools and documentation related to secure
 software. To facilitate easy use in private contracting, this document
 is offered under the CC Share Alike 3.0 license. You may modify and use
-as you see fit. You can find additional details about this project at
-<http://www.owasp.org/index.php/OWASP_Legal_Project>. We welcome comment
-from both producers and consumers of software, as well as the legal
-community.
+as you see fit. We welcome comment from both producers and consumers of 
+software, as well as the legal community.
 
-OWASP gratefully acknowledges the special contribution from [Aspect
-Security](http://www.aspectsecurity.com) for their role in the research
-and preparation of this document.
+OWASP gratefully acknowledges the special contribution from Aspect
+Security for their role in the research and preparation of this document.
 
 ## OBJECTIONS
 
 The following few pages cover some frequently heard objections to using
 this language in software development contracts:
 
-### BUT NOT ALL THE TERMS ARE RIGHT FOR US…
+### BUT NOT ALL THE TERMS ARE RIGHT FOR US`...
 
 This document should be considered a starting point for your agreement.
 You may not like all the activities, or may want to propose more. You
@@ -70,7 +66,7 @@ topics that are important to ensuring that software ends up secure.
 After you have a security discussion and reach agreement, you should
 tailor this agreement to match.
 
-### BUT WHO SHOULD PAY FOR THESE ACTIVITIES…
+### BUT WHO SHOULD PAY FOR THESE ACTIVITIES`...
 
 This contract is NOT about putting more burden on the software
 developer. The question is not whether there are costs associated with
@@ -102,7 +98,7 @@ penetration testing, will also dramatically increase costs. We believe
 that the most cost-effective way to gain assurance is to put a constant
 level of effort into assurance throughout the lifecycle.
 
-### BUT THE LEVEL OF RIGOR IS WRONG….
+### BUT THE LEVEL OF RIGOR IS WRONG`...
 
 This agreement assumes that the software being developed is reasonably
 important to a large enterprise or government agency. We've selected a
@@ -118,7 +114,7 @@ processes for finding, diagnosing, and remediating vulnerabilities. For
 less sensitive applications, you may want to reduce or remove
 activities.
 
-### BUT WE CAN'T TAKE SO MUCH RISK…
+### BUT WE CAN'T TAKE SO MUCH RISK`...
 
 This agreement is intended to facilitate discussions about who will take
 the risk for security vulnerabilities in the software. At one end of the
@@ -143,7 +139,7 @@ the costs associated with recovering from any security incidents based
 on any exploits of these vulnerabilities. We are interested in best
 practices in this area.
 
-### BUT HOW CAN WE ASSURE THIRD PARTY CODE…
+### BUT HOW CAN WE ASSURE THIRD PARTY CODE`...
 
 Almost all software projects use a significant amount of third party
 code, such as libraries, frameworks, and products. This code is just as
@@ -159,7 +155,7 @@ through to the providers of third party software. Developer can also
 analyze the third party code themselves, or hire security experts to
 analyze it for them.
 
-### BUT WHY SHOULD I GO TO ALL THIS TROUBLE…
+### BUT WHY SHOULD I GO TO ALL THIS TROUBLE`...
 
 Ultimately, we believe that there is no alternative to making security a
 part of the software contracting process. Currently, we believe that
@@ -168,7 +164,7 @@ delivered under many software development contracts. This can only lead
 to expensive litigation and a decision made by individuals with little
 software experience or understanding. Read the [Secure software
 contracting hypothetical case
-study](Secure_software_contracting_hypothetical_case_study "wikilink")
+study](https://wiki.owasp.org/index.php/Secure_software_contracting_hypothetical_case_study)
 for a full discussion of this problem.
 
 There are many benefits to working through this agreement. The principal
@@ -178,7 +174,7 @@ security problems surface in the software. Also, these are the same
 activities that are required by many legal and regulatory compliance
 reasons.
 
-### BUT IT'S TOO HARD TO PRODUCE ALL THIS DOCUMENTATION…
+### BUT IT'S TOO HARD TO PRODUCE ALL THIS DOCUMENTATION`...
 
 OWASP does not encourage documentation for documentation's sake. This
 agreement is focused on encouraging quality, not quantity. We believe
@@ -207,19 +203,19 @@ This Annex is intended to clarify the security-related rights and
 obligations of all the parties to a software development relationship.
 At the highest level, the parties agree that:
 
-  - (a) Security Decisions Will Be Based on Risk : Decisions about
+  __(a) Security Decisions Will Be Based on Risk__ : Decisions about
     security will be made jointly by both Client and Developer based on
     a firm understanding of the risks involved.
 
 <!-- end list -->
 
-  - (b) Security Activities Will Be Balanced : Security effort will be
+  __(b) Security Activities Will Be Balanced__ : Security effort will be
     roughly evenly distributed across the entire software development
     lifecycle.
 
 <!-- end list -->
 
-  - (c) Security Activities Will Be Integrated : All the activities and
+  __(c) Security Activities Will Be Integrated__ : All the activities and
     documentation discussed herein can and should be integrated into
     Developer's software development lifecycle and not kept separate
     from the rest of the project. Nothing in this Annex implies any
@@ -227,26 +223,26 @@ At the highest level, the parties agree that:
 
 <!-- end list -->
 
-  - (d) Vulnerabilities Are Expected : All software has bugs, and some
+  __(d) Vulnerabilities Are Expected__ : All software has bugs, and some
     of those will create security issues. Both Client and Developer will
     strive to identify vulnerabilities as early as possible in the
     lifecycle.
 
 <!-- end list -->
 
-  - (e) Security Information Will Be Fully Disclosed : All
+  __(e) Security Information Will Be Fully Disclosed__ : All
     security-relevant information will be shared between Client and
     Developer immediately and completely.
 
 <!-- end list -->
 
-  - (f) Only Useful Security Documentation Is Required : Security
+  __(f) Only Useful Security Documentation Is Required__ : Security
     documentation does not need to be extensive in order to clearly
     describe security design, risk analysis, or issues.
 
 ### 3\. LIFECYCLE ACTIVITIES
 
-  - (a) Risk Understanding : Developer and Client agree to work together
+  - __(a) Risk Understanding__ : Developer and Client agree to work together
     to understand and document the risks facing the application. This
     effort should identify the key risks to the important assets and
     functions provided by the application. Each of the topics listed in
@@ -254,7 +250,7 @@ At the highest level, the parties agree that:
 
 <!-- end list -->
 
-  - (b) Requirements : Based on the risks, Developer and Client agree to
+  - __(b) Requirements__ : Based on the risks, Developer and Client agree to
     work together to create detailed security requirements as a part of
     the specification of the software to be developed. Each of the
     topics listed in the requirements section of this Annex should be
@@ -264,7 +260,7 @@ At the highest level, the parties agree that:
 
 <!-- end list -->
 
-  - (c) Design : Developer agrees to provide documentation that clearly
+  - __(c) Design__ : Developer agrees to provide documentation that clearly
     explains the design for achieving each of the security requirements.
     In most cases, this documentation will describe security mechanisms,
     where the mechanisms fit into the architecture, and all relevant
@@ -274,10 +270,10 @@ At the highest level, the parties agree that:
 
 <!-- end list -->
 
-  - (d) Implementation : Developer agrees to provide and follow a set of
+  - __(d) Implementation__ : Developer agrees to provide and follow a set of
     secure coding guidelines and to use a set of common security control
     programming interfaces (such as the [OWASP Enterprise Security API
-    (ESAPI)](http://www.owasp.org/index.php/Category:OWASP_Enterprise_Security_API)).
+    (ESAPI)](https://owasp.org/www-project-enterprise-security-api/)).
     Guidelines will indicate how code should be formatted, structured,
     and commented. Common security control programming interfaces will
     define how security controls must be called and how security
@@ -289,19 +285,19 @@ At the highest level, the parties agree that:
 
 <!-- end list -->
 
-  - (e) Security Analysis and Testing : Developer will perform
+  - __(e) Security Analysis and Testing__ : Developer will perform
     application security analysis and testing (also called
     "verification") according to the verification requirements of an
     agreed-upon standard (such as the [OWASP Application Security
     Verification Standard
-    (ASVS)](http://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project)).
+    (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)).
     The Developer shall document verification findings according to the
     reporting requirements of the standard. The Developer shall provide
     the verification findings to Client.
 
 <!-- end list -->
 
-  - (f) Secure Deployment : Developer agrees to provide secure
+  - __(f) Secure Deployment__ : Developer agrees to provide secure
     configuration guidelines that fully describe all security relevant
     configuration options and their implications for the overall
     security of the software. The guideline shall include a full
@@ -318,7 +314,7 @@ produce a set of specific, tailored, and testable requirements Both
 Developer and Client should be involved in this process and must agree
 on the final set of requirements.
 
-  - (a) Input Validation and Encoding : The requirements shall specify
+  - __(a) Input Validation and Encoding__ : The requirements shall specify
     the rules for canonicalizing, validating, and encoding each input to
     the application, whether from users, file systems, databases,
     directories, or external systems. The default rule shall be that all
@@ -330,7 +326,7 @@ on the final set of requirements.
 
 <!-- end list -->
 
-  - (b) Authentication and Session Management : The requirements shall
+  - __(b) Authentication and Session Management__ : The requirements shall
     specify how authentication credentials and session identifiers will
     be protected throughout their lifecycle. Requirements for all
     related functions, including forgotten passwords, changing
@@ -339,7 +335,7 @@ on the final set of requirements.
 
 <!-- end list -->
 
-  - (c) Access Control : The requirements shall include a detailed
+  - __(c) Access Control__ : The requirements shall include a detailed
     description of all roles (groups, privileges, authorizations) used
     in the application. The requirements shall also indicate all the
     assets and functions provided by the application. The requirements
@@ -349,14 +345,14 @@ on the final set of requirements.
 
 <!-- end list -->
 
-  - (d) Error Handling : The requirements shall detail how errors
+  - __(d) Error Handling__ : The requirements shall detail how errors
     occurring during processing will be handled. Some applications
     should provide best effort results in the event of an error, whereas
     others should terminate processing immediately.
 
 <!-- end list -->
 
-  - (e) Logging : The requirements shall specify what events are
+  - __(e) Logging__ : The requirements shall specify what events are
     security-relevant and need to be logged, such as detected attacks,
     failed login attempts, and attempts to exceed authorization. The
     requirements shall also specify what information to log with each
@@ -365,7 +361,7 @@ on the final set of requirements.
 
 <!-- end list -->
 
-  - (f) Connections to External Systems : The requirements shall specify
+  - __(f) Connections to External Systems__ : The requirements shall specify
     how authentication and encryption will be handled for all external
     systems, such as databases, directories, and web services. All
     credentials required for communication with external systems shall
@@ -374,7 +370,7 @@ on the final set of requirements.
 
 <!-- end list -->
 
-  - (g) Encryption : The requirements shall specify what data must be
+  - __(g) Encryption__ : The requirements shall specify what data must be
     encrypted, how it is to be encrypted, and how all certificates and
     other credentials must be handled. The application shall use a
     standard algorithm implemented in a widely used and tested
@@ -382,14 +378,14 @@ on the final set of requirements.
 
 <!-- end list -->
 
-  - (h) Availability : The requirements shall specify how it will
+  - __(h) Availability__ : The requirements shall specify how it will
     protect against denial of service attacks. All likely attacks on the
     application should be considered, including authentication lockout,
     connection exhaustion, and other resource exhaustion attacks.
 
 <!-- end list -->
 
-  - (i) Secure Configuration : The requirements shall specify that the
+  - __(i) Secure Configuration__ : The requirements shall specify that the
     default values for all security relevant configuration options shall
     be secure. For audit purposes, the software should be able to
     produce an easily readable report showing all the security relevant
