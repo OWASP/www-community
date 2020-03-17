@@ -1,10 +1,11 @@
---
+---
 
 layout: col-sidebar
 title: Risk Rating Methodology
 author: Jeff Williams
 contributors:
-permalink: /OWASP_Risk+Rating_Methodology
+permalink: /OWASP_Risk_Rating_Methodology
+tags: risk rating methodology
 
 ---
 
