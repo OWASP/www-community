@@ -393,7 +393,7 @@ on the final set of requirements.
 
 <!-- end list -->
 
-  (j) Specific Vulnerabilities : The requirements shall include a set
+  __(j) Specific Vulnerabilities : The requirements shall include a set
     of specific vulnerabilities that shall not be found in the software.
     If not otherwise specified, then the software shall not include any
     of the flaws described in the current "OWASP Top Ten Most Critical
@@ -452,7 +452,7 @@ on the final set of requirements.
 
 ### 8\. SECURITY REVIEWS
 
-  (a) Right to Review__ : Client has the right to have the software
+  __(a) Right to Review__ : Client has the right to have the software
     reviewed for security flaws at their expense at any time within 60
     days of delivery. Developer agrees to provide reasonable support to
     the review team by providing source code and access to test
