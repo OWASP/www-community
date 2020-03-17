@@ -11,7 +11,7 @@ tags: risk rating methodology
 
 Discovering vulnerabilities is important, but being able to estimate the associated risk to the business 
 is just as important. Early in the life cycle, one may identify security concerns in the architecture or 
-design by using [threat modeling](Threat_Modeling/).  Later, one may find 
+design by using [threat modeling](Threat_Modeling).  Later, one may find 
 security issues using [code review](https://wiki.owasp.org/index.php/Category:OWASP_Code_Review_Project) 
 or [penetration testing](https://owasp.org/www-project-web-security-testing-guide/). Or problems may not 
 be discovered until the application is in production and is actually compromised.
@@ -39,7 +39,7 @@ customized for application security.
 
 Let's start with the standard risk model:
 
-       **Risk = Likelihood * Impact**
+       <b>Risk = Likelihood * Impact</b>
 
 In the sections below, the factors that make up "likelihood" and "impact" for application security are 
 broken down. The tester is shown how to combine them to determine the overall severity for the risk.
@@ -366,7 +366,7 @@ tune the model by matching it against risk ratings the business agrees are accur
 * [Managing Information Security Risk: Organization, Mission, and Information System View](https://csrc.nist.gov/publications/detail/sp/800-39/final)
 * [Industry standard vulnerability severity and risk rankings (CVSS)](https://www.first.org/cvss/)
 * [Threat Modeling Web Applications](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff648006(v=pandp.10))
-* [Threat Modeling](Threat_Modeling/)
+* [Threat Modeling](Threat_Modeling)
 * [Practical Threat Analysis](http://www.ptatechnologies.com)
 * [A Platform for Risk Analysis of Security Critical Systems](https://sourceforge.net/projects/coras/)
 * [Model-driven Development and Analysis of Secure Information Systems](http://heim.ifi.uio.no/~ketils/securis/)
