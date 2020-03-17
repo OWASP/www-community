@@ -5,12 +5,11 @@ layout: col-sidebar
 author:
 contributors:
 tags: regex, validation
-auto-migrated: 1
 permalink: /OWASP_Validation_Regex_Repository
 
 ---
 
-  - Note: These Regexs are examples and not built for a particular Regex
+    Note: These Regexs are examples and not built for a particular Regex
     engine. However, the PCRE syntax is mainly used. In particular, this
     means that character classes do not contain meta characters which
     need to be escaped, except the `-` and `]` character, where it is
@@ -146,7 +145,7 @@ Please carefully test the regex in your regex engine.
            // VALID WINDOWS FILENAME  ^(?!^(PRN|AUX|CLOCK\$|NUL|CON|COM\d|LPT\d|\..*)(\..+)?$)[^\x00-\x1f\\?*:\";|/]+$
            //
            //
-           // Warning, per http://en.wikipedia.org/wiki/ReDoS the Java Classname RegEx below is vulnerable to RegExDos
+           // Warning, per https://en.wikipedia.org/wiki/ReDoS the Java Classname RegEx below is vulnerable to RegExDos
            // Java Classname  ^(([a-z])+.)+[A-Z]([a-z])+$
            // The correct RegEx for java classnames is the following one, and not vulnerable:
            // Java Classname  ^(([a-z])+\.)+[A-Z]([a-zA-Z])+$
@@ -158,12 +157,12 @@ Please carefully test the regex in your regex engine.
 
 **Regex Library Site**
 
-<http://regexlib.com/>: A site that has a HUGE library of regular
+<http://regexlib.com>: A site that has a HUGE library of regular
 expressions and other regex resources
 
 **Regex Tutorial Site**
 
-<http://www.regular-expressions.info/>: A site with lots of tutorials on
+<http://www.regular-expressions.info>: A site with lots of tutorials on
 writing Regexs and numerous examples
 
 **Regex Construction Tool**
@@ -172,5 +171,5 @@ writing Regexs and numerous examples
 
 **Regex Explanation Tool**
 
-<http://rick.measham.id.au/paste/explain.pl?regex=>.\*: Explains in
+<http://rick.measham.id.au/paste/explain.pl?regex=.*>: Explains in
 English what the supplied regex means
