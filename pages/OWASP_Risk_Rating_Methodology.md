@@ -39,7 +39,7 @@ customized for application security.
 
 Let's start with the standard risk model:
 
-       <b>Risk = Likelihood * Impact</b>
+   Risk = Likelihood * Impact
 
 In the sections below, the factors that make up "likelihood" and "impact" for application security are 
 broken down. The tester is shown how to combine them to determine the overall severity for the risk.
