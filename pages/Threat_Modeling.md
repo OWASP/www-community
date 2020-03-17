@@ -142,12 +142,12 @@ and justifies them with either subclaims or evidence.
 
 ## ThreatModel SDK
 
-The ThreatModel SDK <https://github.com/stevespringett/threatmodel-sdk>
+The ThreatModel SDK (<https://github.com/stevespringett/threatmodel-sdk>)
 is a minimalistic Java library that provides a basic
 vendor-neutral object model along with the ability to parse reports
 generated from common threat modeling tools. It currently supports:
 
-  - [Microsoft Threat Modeling Tool 2016](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)
+  - [Microsoft Threat Modeling Tool 2016](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) (See bottom of page)
 
 And plans to support:
 
