@@ -79,7 +79,7 @@ Controls. In most cases, NIST explicitly calls for the organization to
 define some of the elements of how these controls should be implemented.
 
 In contrast, the OWASP
-[Session_Management_Cheat_Sheet](/www-project-cheat-sheets/cheatsheets/Session_Management_Cheat_Sheet)
+[Session_Management_Cheat_Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)
 does a very good job at illustrating session management implementation
 techniques and suggests some standards. These kinds of standards and
 guidelines spell out specific implementation of controls.
