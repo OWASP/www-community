@@ -292,8 +292,8 @@ with the following header:
   - Add a hash (session id, function name, server-side secret) to all
     forms.
   - For .NET, add a session identifier to ViewState with MAC (described
-    in detail in [the CSRF Prevention Cheat
-    Sheet](Cross-Site_Request_Forgery_\(CSRF\)_Prevention_Cheat_Sheet#Viewstate_\(ASP.NET\) "wikilink")).
+    in detail in [the DotNet Security Cheat
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html#asp-net-web-forms-guidance)).
   - Checking the referrer header in the client's HTTP request can
     prevent CSRF attacks. Ensuring that the HTTP request has come from
     the original site means that attacks from other sites will not
@@ -315,7 +315,7 @@ with the following header:
 ## References
 
   - OWASP [Cross-Site Request Forgery (CSRF) Prevention Cheat
-    Sheet](Cross-Site_Request_Forgery_\(CSRF\)_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 
 <!-- end list -->
 

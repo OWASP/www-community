@@ -153,11 +153,11 @@ configured to use a local static DTD and disallow any declared DTD
 included in the XML document.
 
 Detailed guidance on how to disable XXE processing, or otherwise defend
-against XXE attacks is presented in the [XML External Entity (XXE) Prevention Cheat Sheet](XML_External_Entity_\(XXE\)_Prevention_Cheat_Sheet "wikilink").
+against XXE attacks is presented in the [XML External Entity (XXE) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html).
 
 ## References
 
-  - OWASP [XML External Entity (XXE) Prevention Cheat Sheet](XML_External_Entity_\(XXE\)_Prevention_Cheat_Sheet "wikilink")
+  - OWASP [XML External Entity (XXE) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
   - [Timothy Morgan's 2014 Paper: XML Schema, DTD, and Entity Attacks - A Compendium of Known Techniques](http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf)
   - [Precursor presentation of above paper - at OWASP AppSec USA 2013](http://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf)
   - [CWE-611: Information Exposure Through XML External Entity Reference](http://cwe.mitre.org/data/definitions/611.html)
