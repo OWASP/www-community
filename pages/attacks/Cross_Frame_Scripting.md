@@ -191,5 +191,3 @@ element as a vehicle to run some javascript code in the attacked page.
   - iDefense Labs advisory [Microsoft Internet Explorer Cross Frame
     Scripting Restriction
     Bypass](http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=77)
-
-[Category:Attack](Category:Attack "wikilink")
