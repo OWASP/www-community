@@ -152,8 +152,8 @@ the system identifier in the DTD. Therefore, the XML processor should be
 configured to use a local static DTD and disallow any declared DTD
 included in the XML document.
 
-Detailed guidance on how to disable XXE processing, or otherwise
-defend against XXE attacks is presented in the [XML External Entity (XXE) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html).
+Detailed guidance on how to disable XXE processing, or otherwise defend
+against XXE attacks is presented in the [XML External Entity (XXE) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html).
 
 ## References
 
