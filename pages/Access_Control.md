@@ -134,25 +134,25 @@ login to a system or access files or a database. Access can be
 controlled, however, at various levels and with respect to a wide range
 of subjects and objects. Some examples include:
 
-  - Network access - the ability to connect to a system or service;
-  - At the host - access to operating system functionality;
-  - Physical access - at locations housing information assets or
+- Network access - the ability to connect to a system or service;
+- At the host - access to operating system functionality;
+- Physical access - at locations housing information assets or
     physical access to the assets themselves;
-  - Restricted functions - operations evaluated as having an elevated
+- Restricted functions - operations evaluated as having an elevated
     risk, such as financial transactions, changes to system
     configuration, or security administration.
 
 Resource access may refer not only to files and database functionality,
 but to:
 
-  - applications or APIs;
-  - specific application screens or functions;
-  - specific data fields;
-  - memory;
-  - private or protected variables;
-  - storage media;
-  - transmission media;
-  - In short, any object used in processing, storage or transmission of
+- applications or APIs;
+- specific application screens or functions;
+- specific data fields;
+- memory;
+- private or protected variables;
+- storage media;
+- transmission media;
+- In short, any object used in processing, storage or transmission of
     information.
 
 ## Access Control Models:
@@ -200,32 +200,32 @@ attributes of the requesting entity, the resource requested, or the
 context of the exchange or the requested action. Some examples of
 contextual attributes are things such as:
 
-  - time of day;
-  - location;
-  - currently evaluated threat level;
-  - required hygiene measures implemented on the respective hosts.
+- time of day;
+- location;
+- currently evaluated threat level;
+- required hygiene measures implemented on the respective hosts.
 
 In general, in ABAC, a rules engine evaluates the identified attributes
 to issue an authorization decision.
 
 ## Examples of Access Controls in Software:
 
-  - Account management;
-  - Mapping of user rights to business and process requirements;
-  - Mechanisms that enforce policies over information flow;
-  - Limits on the number of concurrent sessions;
-  - Session lock after a period of inactivity;
-  - Session termination after a period of inactivity, total time of use
+- Account management;
+- Mapping of user rights to business and process requirements;
+- Mechanisms that enforce policies over information flow;
+- Limits on the number of concurrent sessions;
+- Session lock after a period of inactivity;
+- Session termination after a period of inactivity, total time of use
     or time of day;
-  - Limitations on the number of records returned from a query (data
+- Limitations on the number of records returned from a query (data
     mining);
-  - Features enforcing policies over segregation of duties;
-  - Segregation and management of privileged user accounts;
-  - Implementation of the principle of least privilege for granting
+- Features enforcing policies over segregation of duties;
+- Segregation and management of privileged user accounts;
+- Implementation of the principle of least privilege for granting
     access;
-  - Requiring VPN (virtual private network) for access;
-  - Dynamic reconfiguration of user interfaces based on authorization;
-  - Restriction of access after a certain time of day.
+- Requiring VPN (virtual private network) for access;
+- Dynamic reconfiguration of user interfaces based on authorization;
+- Restriction of access after a certain time of day.
 
 ## Related resources:
 

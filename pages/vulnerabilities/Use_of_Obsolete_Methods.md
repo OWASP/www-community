@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 # Description
 
 The use of deprecated or obsolete functions may indicate neglected code.
