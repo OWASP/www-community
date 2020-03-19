@@ -1,27 +1,23 @@
 ---
 
 layout: col-sidebar
-title: OWASP Threat Modeling
+title: Threat Modeling
 author:
 contributors:
 tags: Threat Modeling
-auto-migrated: 1
 permalink: /Threat_Modeling
 
 ---
 
 ## Overview
 
-The term "Threat Modeling" has become quite popular recently. Microsoft
-has published a book about their process and includes threat modeling as
-a key activity in their [Secure Development
-Lifecycle](http://msdn.microsoft.com/security/default.aspx?pull=/library/en-us/dnsecure/html/sdl.asp)
-(SDL).
+The term "Threat Modeling" has become quite popular. Microsoft has published their process 
+and includes threat modeling as a key activity in their [Secure Development
+Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)(SDL).
 
 A threat model is essentially a structured representation of all the
 information that affects the security of an application. In essence, it
-is a view of the application and its environment through security
-glasses.
+is a view of the application and its environment through security glasses.
 
 Threat modeling is a process for capturing, organizing, and analyzing
 all of this information. Threat modeling enables informed
@@ -30,7 +26,7 @@ producing a model, typical threat modeling efforts also produce a
 prioritized list of security improvements to the concept, requirements,
 design, or implementation.
 
-## **Objectives of Threat Modeling**
+## Objectives of Threat Modeling
 
 Threat modeling is a family of activities for improving security by
 identifying objectives and vulnerabilities, and then defining
@@ -101,8 +97,7 @@ best to start with the factors that make a lot of difference.
 
 <!-- end list -->
 
-  - **Identify [Threat Agents](http://www.owasp.org/index.php/Category:Threat_Agent) and
-    possible [Attacks](/attacks)** - A key part of the threat
+  - **Identify Threat Agents and Possible Attacks** - A key part of the threat
     model is a characterization of the different groups of people who
     might be able to attack your application. These groups should
     include insiders and outsiders, performing both inadvertent mistakes
@@ -110,14 +105,12 @@ best to start with the factors that make a lot of difference.
 
 <!-- end list -->
 
-  - **Understand existing
-    Countermeasures - The model must
-    include the existing countermeasures
+  - **Understand Existing Countermeasures** - The model must
+    include the existing countermeasures.
 
 <!-- end list -->
 
-  - **Identify exploitable
-    [Vulnerabilities](/vulnerabilities)** - Once you have an
+  - **Identify Exploitable Vulnerabilities** - Once you have an
     understanding of the security in the application, you can then
     analyze for new vulnerabilities. The search is for vulnerabilities
     that connect the possible attacks you've identified to the negative
@@ -125,7 +118,7 @@ best to start with the factors that make a lot of difference.
 
 <!-- end list -->
 
-  - **Prioritized identified risks** - Prioritization is everything in
+  - **Prioritized Identified Risks** - Prioritization is everything in
     threat modeling, as there are always lots of risks that simply don't
     rate any attention. For each threat, you estimate a number of
     likelihood and impact factors to determine an overall risk or
@@ -133,8 +126,8 @@ best to start with the factors that make a lot of difference.
 
 <!-- end list -->
 
-  - **Identify Countermeasures to reduce threat** - The last step is to identify countermeasures to reduce
-    the risk to acceptable levels.
+  - **Identify Countermeasures to Reduce Threat** - The last step is to 
+    identify countermeasures to reduce the risk to acceptable levels.
 
 ## Benefits
 
@@ -149,20 +142,18 @@ and justifies them with either subclaims or evidence.
 
 ## ThreatModel SDK
 
-The ThreatModel SDK is a minimalistic Java library that provides a basic
+The ThreatModel SDK (<https://github.com/stevespringett/threatmodel-sdk>)
+is a minimalistic Java library that provides a basic
 vendor-neutral object model along with the ability to parse reports
-generated from common threat modeling tools. Supported Threat Modeling
-Tools:
+generated from common threat modeling tools. It currently supports:
 
-  - Microsoft Threat Modeling Tool 2016
+  - [Microsoft Threat Modeling Tool 2016](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) (See bottom of page)
 
-Planned Threat Modeling Tools:
+And plans to support:
 
-  - Mozilla SeaSponge
-
-<https://github.com/stevespringett/threatmodel-sdk>
+  - [Mozilla SeaSponge](https://github.com/mozilla/seasponge)
 
 ## References
 
-  - [Microsoft's Security Development
-    Process](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnsecure/html/sdl.asp)
+  - [Microsoft's Security Development Process](https://www.microsoft.com/en-us/securityengineering/sdl)
+  - [Microsoft Threat Modeling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)

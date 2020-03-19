@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
-
-
 ## Overview
 
 A path traversal attack (also known as directory traversal) aims to

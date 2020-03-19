@@ -2,7 +2,7 @@
 
 title: Bytecode Obfuscation
 layout: col-sidebar
-author:
+author: Pierre Parrend
 contributors:
 tags: controls, java
 auto-migrated: 1
@@ -147,11 +147,5 @@ commands:
 
   - [Proguard](https://www.guardsquare.com/en/proguard)
   - [Javaguard](http://sourceforge.net/projects/javaguard/)
-  - [Elements of Java
-    Obfuscation](https://www.preemptive.com/obfuscation)
-  - [Software
-    Obfuscation](https://en.wikipedia.org/wiki/Obfuscation_\(software\))
-
-[Category:Java](Category:Java "wikilink") [Category:How
-To](Category:How_To "wikilink")
-[Category:Control](Category:Control "wikilink")
+  - [Elements of Java Obfuscation](https://www.preemptive.com/obfuscation)
+  - [Software Obfuscation](https://en.wikipedia.org/wiki/Obfuscation_\(software\))

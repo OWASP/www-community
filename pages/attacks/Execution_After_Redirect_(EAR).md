@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 ## Overview
 
 Execution After Redirect (EAR) is an attack where an attacker ignores
@@ -23,7 +21,7 @@ application.
 
 Using most proxies it is possible to ignore redirects and display what
 is returned. In this test we use Burp Proxy.
-\# Intercept request <https://vulnerablehost.com/managment_console>
+Intercept request `https://vulnerablehost.com/managment_console`
 
 1.  Send to repeater.
 2.  View response.
@@ -44,25 +42,17 @@ by disabling JavaScript in the browser, the same request is repeated
 without following the JavaScript redirect and the "Admin" section is
 accessible without authentication.
 
-    <?php
-    if (!$loggedin) {
-        print "<script>window.location = '/login';</script>\n\n";
-    }
-    ?>
-    <h1>Admin</h1>
-    <a href=/mu>Manage Users</a><br />
-    <a href=/ud>Update Database Settings</a>
+```php
+<?php if (!$loggedin) {
+     print "<script>window.location = '/login';</script>\n\n"; 
+} ?>
+<h1>Admin</h1>
+<a href=/mu>Manage Users</a><br />
+<a href=/ud>Update Database Settings</a>
+```
 
 ## References
 
-  - [CWE-698: Execution After Redirect
-    (EAR)](https://cwe.mitre.org/data/definitions/698.html)
-  - [Fear the EAR: Discovering and Mitigating Execution After Redirect
-    Vulnerabilities](http://cs.ucsb.edu/~bboe/public/pubs/fear-the-ear-ccs2011.pdf)
-  - [CVE-2013-1402: DigiLIBE Management Console | Execution After
-    Redirect (EAR)
-    Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2013-1402)
-
-[Category:Exploitation of
-Authentication](Category:Exploitation_of_Authentication "wikilink")
-[Category: Attack](Category:_Attack "wikilink")
+- [CWE-698: Execution After Redirect (EAR)](https://cwe.mitre.org/data/definitions/698.html)
+- [Fear the EAR: Discovering and Mitigating Execution After Redirect Vulnerabilities](http://cs.ucsb.edu/~bboe/public/pubs/fear-the-ear-ccs2011.pdf)
+- [CVE-2013-1402: DigiLIBE Management Console | Execution After Redirect (EAR) Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2013-1402)

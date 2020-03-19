@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 Applications typically use log files to store a history of events or
@@ -21,7 +19,7 @@ files may be performed manually on an as-needed basis or automated with
 a tool that automatically culls logs for important events or trending
 information.
 
-Writing unvalidated user input to log files can allow an attacker to
+Writing invalidated user input to log files can allow an attacker to
 forge log entries or inject malicious content into the logs. This is
 called log injection.
 
@@ -33,8 +31,7 @@ Log injection vulnerabilities occur when:
 Successful log injection attacks can cause:
 
 1.  Injection of new/bogus log events (log forging via log injection)
-2.  Injection of XSS attacks, hoping that the malicious log event is
-    viewed in a vulnerable web application
+2.  Injection of XSS attacks, hoping that the malicious log event isviewed in a vulnerable web application
 3.  Injection of commands that parsers (like PHP parsers) could execute
 
 ## Log Forging
@@ -46,7 +43,7 @@ attacker can render the file unusable by corrupting the format of the
 file or injecting unexpected characters. A more subtle attack might
 involve skewing the log file statistics. Forged or otherwise, corrupted
 log files can be used to cover an attacker's tracks or even to implicate
-another party in the commission of a malicious act \[1\].
+another party in the commission of a [malicious act](http://doc.novsu.ac.ru/oreilly/tcpip/puis/ch10_05.htm).
 
 ### Log Forging Example
 
@@ -90,28 +87,20 @@ entries.
 
 PHP code can easily be added to a log file, for example:
 
-<code>`https://www.somedomain.tld/index.php?file=`
-
-<?php echo phpinfo(); ?>
-
-</code>
+```
+    https://www.somedomain.tld/index.php?file=`
+    <?php echo phpinfo(); ?>`
+```
 
 This stage it is called **log file poisoning**. If the log file is
 staged on a public directory and can be accessed via a HTTP GET request,
 the embedded PHP command may execute in certain circumstances. This is a
-form of [Command Injection](Command_Injection "wikilink") via Log
+form of [Command Injection](Command_Injection) via Log
 Injection.
 
 ## References
 
-  - \[1\] A. Muffet. The night the log was forged.
-    <http://doc.novsu.ac.ru/oreilly/tcpip/puis/ch10_05.htm>.
-  - \[2\] G. Hoglund and G. McGraw. Exploiting Software: How to Break
-    Code. Addison-Wesley, February 2004.
-  - <https://medium.com/@shatabda/security-log-injection-what-how-a510cfc0f73b>
-  - <https://www.geeksforgeeks.org/log-injection/>
-  - <https://affinity-it-security.com/what-is-log-injection/>
-
-__NOTOC__
-
-[Category:Attack](Category:Attack "wikilink")
+- G. Hoglund and G. McGraw. Exploiting Software: How to BreakCode. Addison-Wesley, February 2004.
+- [https://medium.com/@shatabda/security-log-injection-what-how-a510cfc0f73b](https://medium.com/@shatabda/security-log-injection-what-how-a510cfc0f73b)
+- [https://www.geeksforgeeks.org/log-injection/](https://www.geeksforgeeks.org/log-injection/)
+- [https://affinity-it-security.com/what-is-log-injection/](https://affinity-it-security.com/what-is-log-injection/)

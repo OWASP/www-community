@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 # Description
 
 The program can potentially dereference a null pointer, thereby raising

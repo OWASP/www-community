@@ -14,9 +14,8 @@ permalink: /Using_the_Java_Cryptographic_Extensions
 
 The code included in this article has not been reviewed and should not
 be used without proper analysis. If you have reviewed the included code
-or portions of it, please post your findings back to the Java Project
-mailing list or contact the [OWASP Java and JVM
-Project](OWASP_Java_Project "wikilink") team.
+or portions of it, please post your findings back to the 
+[issue tracker](https://github.com/OWASP/www-community/issues) for this web content.
 
 ## Overview
 

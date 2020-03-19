@@ -222,6 +222,8 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     languages such as Python, Ruby, Scala, Java, JavaScript and more.
     Integrates with tools such as Brakeman, Bandit, FindBugs, and
     others. (free for open source projects)
+  - [CodeScan Cloud](https://www.codescan.io/) A Salesforce focused, SaaS code quality tool leveraging SonarQube's OWASP 
+    security hotspots to give security visibility on Apex, Visualforce, and Lightning proprietary languages.
   - [CodeSonar](https://www.grammatech.com/products/codesonar) tool that
     supports C, C++, Java and C\# and maps against the OWASP top 10
     vulnerabilities.

@@ -6,7 +6,7 @@ tags: community
 
 ---
 
-<!-- rebuild 2 -->
+<!-- rebuild 4 -->
 
 OWASP Community Pages is a place where OWASP can accept community contributions for security-related content.
 To contribute, go to the [repository for this site.](https://github.com/OWASP/www-community)
@@ -27,7 +27,7 @@ Include the following front matter in your file (for examples, see pages/passwor
 
 ## File Listing
 
-{% assign pages = site.pages | sort: 'name' | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page": "page.name != 'info.md'"%}
+{% assign pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page": "page.name != 'info.md'"%}
 <ul>
 {% for page in pages %}
        <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
