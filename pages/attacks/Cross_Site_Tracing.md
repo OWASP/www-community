@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 A **Cross-Site Tracing (XST)** attack involves the use of [Cross-site

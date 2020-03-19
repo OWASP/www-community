@@ -146,7 +146,7 @@ as libraries, the following may protect its security.
   - Use TLS to prevent sniffing or modifying sensitive data in transit.
   - Avoid weak hash algorithms in storing sensitive data by [making it
     harder to inverse the
-    hash](Password_Storage_Cheat_Sheet#Impose_infeasible_verification_on_attacker "wikilink").
+    hash](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html).
     The clear text password in the memory should be reset after
     computing the hash.
 

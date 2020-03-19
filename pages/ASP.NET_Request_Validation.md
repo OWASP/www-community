@@ -25,7 +25,7 @@ such as markup or code in the request.
 # Don't Rely on Request Validation for XSS Protection
 
 Request validation is generally desirable and should be left enabled for
-[defense in depth](defense_in_depth "wikilink"). It should **NOT** be
+defense in depth. It should **NOT** be
 used as your sole method of XSS protection, and does not guarantee to
 catch every type of invalid input. There are known, documented bypasses
 (such as JSON requests) that will not be addressed in future releases,
@@ -34,21 +34,19 @@ vNext.
 
 Fully protecting your application from malicious input requires
 validating each field of user supplied data. This should start with
-\[<http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100>).aspx
-ASP.NET Validation Controls\] and/or
-\[<http://msdn.microsoft.com/en-us/library/ee256141(VS.100>).aspx
-DataAnnotations attributes\] to check for:
+[ASP.NET Validation Controls](http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100).aspx) or
+[DataAnnotations attributes](http://msdn.microsoft.com/en-us/library/ee256141(VS.100).aspx) to check for:
 
-  - Required fields
-  - Correct data type and length
-  - Data falls within an acceptable range
-  - Whitelist of allowed characters
+- Required fields
+- Correct data type and length
+- Data falls within an acceptable range
+- Whitelist of allowed characters
 
 Any string input that is returned to the client should be encoded using
 an appropriate method, such as those provided via
-[AntiXssEncoder](ASP.NET_Output_Encoding#Enhanced_Encoding "wikilink").
+[AntiXssEncoder](http://msdn.microsoft.com/en-us/library/system.web.security.antixss.antixssencoder(v=vs.110).aspx).
 
-    var encodedInput = Server.HtmlEncode(userInput);
+`var encodedInput = Server.HtmlEncode(userInput);`
 
 # Enabling Request Validation
 
@@ -103,36 +101,40 @@ disable request validation at the page level. Be aware that when doing
 this all input values (cookies, query string, form elements) handled by
 this page will not be validated by ASP.NET.
 
-    <@ Page ValidateRequest="false" %>
+`<@ Page ValidateRequest="false" %>`
 
 Starting with ASP.NET 4.5 you can disable request validation at the
 individual server control level by setting `ValidateRequestMode` to
 "Disabled".
 
-    <asp:TextBox ID="txtASPNet" ValidateRequestMode="Disabled" runat="server" />
+`<asp:TextBox ID="txtASPNet" ValidateRequestMode="Disabled" runat="server" />`
 
 ## ASP.NET MVC
 
 To disable request validation for a specific MVC controller action, you
 can use the `[ValidateInput(false)]` attribute as shown below.
 
-    [ValidateInput(false)]
-    public ActionResult Update(int userId, string description)
+```
+[ValidateInput(false)]
+public ActionResult Update(int userId, string description)
+```
 
 Starting with ASP.NET MVC 3 you should use the `[AllowHtml]` attribute
 to decorate specific fields on your view model classes where request
 validation should not be applied:
 
-    public class User
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        [AllowHtml]
-        public string Description { get; set; }
-        [AllowHtml]
-        public string Bio { get; set; }
-    }
+```
+public class User
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+    [AllowHtml]
+    public string Description { get; set; }
+    [AllowHtml]
+    public string Bio { get; set; }
+}
+```
 
 # Extending Request Validation
 
@@ -142,60 +144,54 @@ that descends from `System.Web.Util.RequestValidator`. By implementing
 this class, you can determine when validation occurs and what type of
 request data to perform validation on.
 
-    public class CustomRequestValidation : RequestValidator
+```
+public class CustomRequestValidation : RequestValidator
+{
+    protected override bool IsValidRequestString(
+        HttpContext context,
+        string value,
+        RequestValidationSource requestValidationSource,
+        string collectionKey,
+        out int validationFailureIndex)
     {
-        protected override bool IsValidRequestString(
-            HttpContext context,
-            string value,
-            RequestValidationSource requestValidationSource,
-            string collectionKey,
-            out int validationFailureIndex)
-        {
-            validationFailureIndex = -1;
+        validationFailureIndex = -1;
 
-            // This is just an example and should not
-            // be used for production code.
-            if (value.Contains("<%"))
-            {
-                return false;
-            }
-            else // Leave any further checks to ASP.NET.
-            {
-                return base.IsValidRequestString(
-                    context,
-                    value,
-                    requestValidationSource,
-                    collectionKey,
-                    out validationFailureIndex);
-            }
+        // This is just an example and should not
+        // be used for production code.
+        if (value.Contains("<%"))
+        {
+            return false;
+        }
+        else // Leave any further checks to ASP.NET.
+        {
+            return base.IsValidRequestString(
+                context,
+                value,
+                requestValidationSource,
+                collectionKey,
+                out validationFailureIndex);
         }
     }
+}
+```
 
 This class is then registered in web.config using
 `requestValidationType`:
 
-    <system.web>
-        <httpRuntime requestValidationType="CustomRequestValidation"/>
-    </system.web>
+```xml
+<system.web>
+    <httpRuntime requestValidationType="CustomRequestValidation"/>
+</system.web>
+```
 
 # References
 
-  - \[<http://msdn.microsoft.com/en-us/library/hh882339(v=vs.110>).aspx
-    Request Validation in ASP.NET\]
-  - \[<http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100>).aspx
-    Validation ASP.NET Controls\]
-  - \[<http://msdn.microsoft.com/en-us/library/ee256141(VS.100>).aspx
-    How to: Validate Model Data Using DataAnnotations Attributes\]
-  - \[<http://msdn.microsoft.com/en-us/library/system.web.security.antixss.antixssencoder(v=vs.110>).aspx
-    AntiXssEncoder Class\]
-  - [New ASP.NET Request Validation
-    Features](http://www.asp.net/aspnet/overview/aspnet-and-visual-studio-2012/whats-new#_Toc318097379)
-  - \[<http://msdn.microsoft.com/en-us/library/system.web.ui.control.validaterequestmode(v=vs.110>).aspx
-    Control.ValidateRequestMode Property\]
-  - \[<http://msdn.microsoft.com/en-us/library/system.web.mvc.validateinputattribute(v=vs.118>).aspx
-    ValidateInputAttribute Class\]
-  - \[<http://msdn.microsoft.com/en-us/library/system.web.mvc.allowhtmlattribute(v=vs.118>).aspx
-    AllowHtmlAttribute Class\]
-  - \[<http://msdn.microsoft.com/en-us/library/system.web.util.requestvalidator(v=vs.110>).aspx
-    RequestValidator Class\]
-  - [ASP.NET Output Encoding](ASP.NET_Output_Encoding "wikilink")
+- [Request Validation in ASP.NET](http://msdn.microsoft.com/en-us/library/hh882339(v=vs.110).aspx)
+- [Validation ASP.NET Controls](http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100).aspx)
+- [How to: Validate Model Data Using DataAnnotations Attributes](http://msdn.microsoft.com/en-us/library/ee256141(VS.100).aspx)
+- [AntiXssEncoder Class](http://msdn.microsoft.com/en-us/library/system.web.security.antixss.antixssencoder(v=vs.110).aspx)
+- [New ASP.NET Request Validation Features](http://www.asp.net/aspnet/overview/aspnet-and-visual-studio-2012/whats-new#_Toc318097379)
+- [Control.ValidateRequestMode Property](http://msdn.microsoft.com/en-us/library/system.web.ui.control.validaterequestmode(v=vs.110).aspx)
+- [ValidateInputAttribute Class](http://msdn.microsoft.com/en-us/library/system.web.mvc.validateinputattribute(v=vs.118).aspx)
+- [AllowHtmlAttribute Class](http://msdn.microsoft.com/en-us/library/system.web.mvc.allowhtmlattribute(v=vs.118).aspx)
+- [RequestValidator Class](http://msdn.microsoft.com/en-us/library/system.web.util.requestvalidator(v=vs.110).aspx)

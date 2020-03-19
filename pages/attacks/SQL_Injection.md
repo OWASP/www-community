@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-__NOTOC__
-
-Last revision (mm/dd/yy): **//**
-
 ## Overview
 
 A [SQL injection](SQL_injection "wikilink") attack consists of insertion

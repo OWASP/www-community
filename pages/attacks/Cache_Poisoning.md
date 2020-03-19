@@ -10,9 +10,7 @@ auto-migrated: 1
 
 ---
 
-
-Last revision (mm/dd/yy): **04/23/2009** <small>(please *view
-source*)</small>
+Last revision (mm/dd/yy): **04/23/2009**
 
 ## Description
 

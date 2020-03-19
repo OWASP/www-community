@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision: **//**
-
 ## Description
 
 The NTFS file system includes support for alternate data streams. This

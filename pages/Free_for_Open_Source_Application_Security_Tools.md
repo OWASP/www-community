@@ -233,6 +233,10 @@ that we are aware of are:
         source projects. SonarQube supports numerous languages:
         <https://www.sonarqube.org/features/multi-languages/>
 
+  - DeepScan (https://deepscan.io/) - Supports JavaScript, TypeScript
+      - DeepScan is a static code analysis tool and hosted service for inspecting JavaScript code. It checks possible run-time errors and poor code quality using data-flow analysis and provides results for the project's code quality.
+      - DeepScan is free for GitHub open source projects, meaning that it can be used free of charge with open sources. It provides a grade which means the project has relatively inferior code quality to open source projects.
+
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
 them to this page). We are particularly interested in identifying and
