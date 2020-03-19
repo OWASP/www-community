@@ -46,9 +46,9 @@ predefined SQL commands.
 ### How to Avoid SQL Injection Vulnerabilities
 
 See the OWASP [SQL Injection Prevention Cheat
-Sheet](SQL_Injection_Prevention_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html).
 See the OWASP [Query Parameterization Cheat
-Sheet](Query_Parameterization_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html).
 See the [OWASP Guide](:Category:OWASP_Guide_Project "wikilink") article
 on how to [Avoid SQL Injection](Guide_to_SQL_Injection "wikilink")
 Vulnerabilities.
