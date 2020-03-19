@@ -59,9 +59,7 @@ There are two main ways to prevent clickjacking:
 1.  Sending the proper Content Security Policy (CSP) frame-ancestors directive response headers that instruct the browser to not allow framing from other domains. (This replaces the older X-Frame-Options HTTP headers.)
 2.  Employing defensive code in the UI to ensure that the current frame is the most top level window
 
-For more information on Clickjacking defense, please see the the
-[Clickjacking Defense Cheat
-Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html).
+For more information on Clickjacking defense, please see the the [Clickjacking Defense Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html).
 
 # References
 - [Why am I anxious about Clickjacking?](https://www.linkedin.com/pulse/20141202104842-120953718-why-am-i-anxious-about-clickjacking)
