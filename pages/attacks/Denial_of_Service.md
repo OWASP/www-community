@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 The Denial of Service (DoS) attack is focused on making a resource

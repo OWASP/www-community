@@ -53,13 +53,7 @@ other mischief.
 
 ## Examples and References
 
-  - [OWASP Guide](:Category:OWASP_Guide_Project "wikilink") to Building
-    Secure Web Applications and Web Services, Chapter on [Access
-    Control/Authorization](Guide_to_Authorization "wikilink")
-  - Access Control (aka Authorization) in Your J2EE Application [Access
-    Control In Your J2EE
-    Application](Access_Control_In_Your_J2EE_Application "wikilink")
-  - <http://www.infosecuritymag.com/2002/jun/insecurity.shtml>
+- [http://www.infosecuritymag.com/2002/jun/insecurity.shtml](http://www.infosecuritymag.com/2002/jun/insecurity.shtml)
 
 ## How to Determine If You Are Vulnerable
 
@@ -161,5 +155,3 @@ be accomplished without opening the front door of the site. The use of
 VPN technology could be used to provide an outside administrator access
 to the internal company (or site) network from which an administrator
 can then access the site through a protected backend connection.
-
-__NOEDITSECTION__

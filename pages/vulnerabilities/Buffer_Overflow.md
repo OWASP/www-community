@@ -10,9 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-Last revision (mm/dd/yy): **//**
-
 [Vulnerabilities Table of Contents](ASDR_TOC_Vulnerabilities "wikilink")
 
 ## Related Security Activities

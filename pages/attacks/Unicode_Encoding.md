@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 The attack aims to explore flaws in the decoding mechanism implemented

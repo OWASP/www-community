@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 There are several functions which - under certain circumstances, if used

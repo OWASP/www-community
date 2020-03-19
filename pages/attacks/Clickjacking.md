@@ -5,7 +5,8 @@ layout: col-sidebar
 author:
 contributors:
 auto-migrated: 1
-permalink: /Clickjacking
+permalink: /attacks/Clickjacking
+tags: attack, clickjacking
 
 ---
 
@@ -55,85 +56,24 @@ etc](http://threatpost.com/en_us/blogs/facebook-jacking-scams-expand-060310)
 
 There are two main ways to prevent clickjacking:
 
-1.  Sending the proper Content Security Policy (CSP) frame-ancestors
-    directive response headers that instruct the browser to not allow
-    framing from other domains. (This replaces the older X-Frame-Options
-    HTTP headers.)
-2.  Employing defensive code in the UI to ensure that the current frame
-    is the most top level window
+1.  Sending the proper Content Security Policy (CSP) frame-ancestors directive response headers that instruct the browser to not allow framing from other domains. (This replaces the older X-Frame-Options HTTP headers.)
+2.  Employing defensive code in the UI to ensure that the current frame is the most top level window
 
 For more information on Clickjacking defense, please see the the
 [Clickjacking Defense Cheat
 Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html).
 
 # References
-
-  - [Why am I anxious about
-    Clickjacking?](https://www.linkedin.com/pulse/20141202104842-120953718-why-am-i-anxious-about-clickjacking)
-
-<!-- end list -->
-
-  -
-    A Basic understanding of Clickjacking Attack
-
-<!-- end list -->
-
-  - <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors>
-
-<!-- end list -->
-
-  -
-    Mozilla developer resource on Content-Security-Policy
-    frame-ancestors response header.
-
-<!-- end list -->
-
-  - <https://developer.mozilla.org/en-US/docs/The_X-FRAME-OPTIONS_response_header>
-
-<!-- end list -->
-
-  -
-    Mozilla developer resource on the X-Frame-Options response header.
-
-<!-- end list -->
-
-  - [Busting Frame Busting: A study of clickjacking vulnerabilites on
-    top sites](http://w2spconf.com/2010/papers/p27.pdf)
-
-<!-- end list -->
-
-  -
-    A study by the Stanford Web Security Group outlining problems with
-    deployed frame busting code.
-
-<!-- end list -->
-
-  - [Clickjacking, Sec
-    Theory](http://www.sectheory.com/clickjacking.htm)
-
-<!-- end list -->
-
-  -
-    A paper by Robert Hansen defining the term, its implications against
-    Flash at the time of writing, and a disclosure timeline.
-
-<!-- end list -->
-
-  - <https://www.codemagi.com/blog/post/194>
-
-<!-- end list -->
-
-  -
-    Framebreaking defense for legacy browsers that do not support
-    X-Frame-Option headers.
-
-<!-- end list -->
-
-  - [Anti-clickjacking J2EE
-    filter](ClickjackFilter_for_Java_EE "wikilink")
-
-<!-- end list -->
-
-  -
-    A simple J2EE servlet filter that sends anti-framing headers to the
-    browser.
+- [Why am I anxious about Clickjacking?](https://www.linkedin.com/pulse/20141202104842-120953718-why-am-i-anxious-about-clickjacking)
+- A Basic understanding of Clickjacking Attack
+- <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors>
+- Mozilla developer resource on Content-Security-Policy frame-ancestors response header.
+- <https://developer.mozilla.org/en-US/docs/The_X-FRAME-OPTIONS_response_header>
+- Mozilla developer resource on the X-Frame-Options response header.
+- [Busting Frame Busting: A study of clickjacking vulnerabilites on top sites](http://w2spconf.com/2010/papers/p27.pdf)
+- A study by the Stanford Web Security Group outlining problems with deployed frame busting code.
+- [Clickjacking, Sec Theory](http://www.sectheory.com/clickjacking.htm)
+- A paper by Robert Hansen defining the term, its implications against Flash at the time of writing, and a disclosure timeline.
+- <https://www.codemagi.com/blog/post/194>
+- Framebreaking defense for legacy browsers that do not support X-Frame-Option headers.
+- A simple J2EE servlet filter that sends anti-framing headers to the browser.

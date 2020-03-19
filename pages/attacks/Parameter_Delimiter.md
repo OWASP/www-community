@@ -10,10 +10,6 @@ auto-migrated: 1
 
 ---
 
-
-
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 This attack is based on the manipulation of parameter delimiters used by

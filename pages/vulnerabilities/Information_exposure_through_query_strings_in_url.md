@@ -10,8 +10,6 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **//**
-
 ## Description
 
 Information exposure through query strings in URL is when sensitive data
