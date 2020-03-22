@@ -87,7 +87,7 @@ the Employee EJB's method named getSalary().
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Broken Access Control](Broken_Access_Control "wikilink")
   - [Failure to drop privileges when

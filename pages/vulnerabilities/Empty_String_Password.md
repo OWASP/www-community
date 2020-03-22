@@ -34,7 +34,7 @@ TBD
   - [Brute force attack](Brute_force_attack "wikilink") against
     application log in interface.
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Weak Passwords](Weak_Passwords "wikilink")
 

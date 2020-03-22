@@ -125,7 +125,7 @@ TBD
   - [Cross-Site Request Forgery
     (CSRF)](Cross-Site_Request_Forgery_\(CSRF\) "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Cross Site Scripting Flaw](Cross_Site_Scripting_Flaw "wikilink")
 

@@ -55,7 +55,7 @@ spyware
   - [:Category:Malicious Code
     Attack](:Category:Malicious_Code_Attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - TBD
 

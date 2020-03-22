@@ -63,7 +63,7 @@ state.
 
 ## Risk Factors
 
-  - Talk about the [factors](OWASP_Risk_Rating_Methodology "wikilink")
+  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
     that make this vulnerability likely or unlikely to actually happen
   - Discuss the technical impact of a successful exploit of this
     vulnerability

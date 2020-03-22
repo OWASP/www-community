@@ -63,7 +63,7 @@ by a known or unknown username.
 
   - [Web Parameter Tampering](Web_Parameter_Tampering "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input
     Validation](:Category:_Input_Validation "wikilink")

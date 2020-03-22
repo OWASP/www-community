@@ -76,7 +76,7 @@ malicious one.
   - [Mobile code: non-final public
     field](Mobile_code:_non-final_public_field "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Unsafe Mobile
     Code](:Category:_Unsafe_Mobile_Code "wikilink")

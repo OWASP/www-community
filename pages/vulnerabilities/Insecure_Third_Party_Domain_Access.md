@@ -44,7 +44,7 @@ malicious changes.
 
 [Cross-Site_Request_Forgery](Cross-Site_Request_Forgery "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 TBD
 

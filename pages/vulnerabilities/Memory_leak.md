@@ -42,7 +42,7 @@ resulting from a low memory condition \[1\].
 
 ## Risk Factors
 
-  - Talk about the [factors](OWASP_Risk_Rating_Methodology "wikilink")
+  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
     that make this vulnerability likely or unlikely to actually happen
   - Discuss the technical impact of a successful exploit of this
     vulnerability
@@ -106,7 +106,7 @@ to read() fails to return the expected number of bytes:
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Denial of Service](Denial_of_Service "wikilink")
 

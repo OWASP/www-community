@@ -442,7 +442,7 @@ And some special recommendations for the developers and webmasters:
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
   - [Windows_::DATA_alternate_data_stream](Windows_::DATA_alternate_data_stream "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")

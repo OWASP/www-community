@@ -36,7 +36,7 @@ The application of a seed state that is known to an attacker can lead to
 a permanent compromise attack
 [2](http://www.schneier.com/paper-prngs.html).
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")

@@ -102,7 +102,7 @@ following steps:
   - [:Category: Client-side
     attacks](:Category:_Client-side_attacks "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Session Management
     Vulnerability](:Category:_Session_Management_Vulnerability "wikilink")
