@@ -445,7 +445,7 @@ cookie.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Security Focus Area](Category:Security_Focus_Area "wikilink")
-[Category:Injection](Category:Injection "wikilink") [Category:OWASP Top
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws) [Category:OWASP Top
 Ten Project](Category:OWASP_Top_Ten_Project "wikilink") [Category:Code
 Snippet](Category:Code_Snippet "wikilink") [Category:Security Focus
 Area](Category:Security_Focus_Area "wikilink")

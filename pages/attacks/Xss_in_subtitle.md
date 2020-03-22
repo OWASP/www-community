@@ -156,6 +156,6 @@ Mohammad MortazaviZade - 2mzrp2@gmail.com
 
 ## Categories
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink") [Category:Code
 Snippet](Category:Code_Snippet "wikilink")

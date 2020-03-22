@@ -168,5 +168,5 @@ This will execute the "ls" command on the system.
   - [call_user_func_array](http://php.net/manual/en/function.call-user-func-array.php)
     - PHP documentation for call_user_func.
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

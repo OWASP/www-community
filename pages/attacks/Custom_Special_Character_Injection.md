@@ -66,6 +66,6 @@ TBD
 TBD
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection](Category:Injection "wikilink") [Category:Resource
-Manipulation](Category:Resource_Manipulation "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws) 
+[Category:Resource Manipulation](Category:Resource_Manipulation "wikilink")
 [Category:Attack](Category:Attack "wikilink")

@@ -138,5 +138,5 @@ administrator profile.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [not threat agents](Category:FIXME "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")
