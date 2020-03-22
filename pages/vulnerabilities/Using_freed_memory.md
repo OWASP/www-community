@@ -120,7 +120,7 @@ shellcode, execution of arbitrary code can be achieved.
     }
 ```
 
-# Related [Vulnerabilities](Vulnerabilities "wikilink")
+# Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Buffer Overflow](Buffer_Overflow "wikilink") (in particular, heap
     overflows): The method of exploitation is often the same, as both

@@ -56,7 +56,7 @@ arbitrary code execution, data modification, and denial of service.
   - [Path Traversal](Path_Traversal "wikilink")
   - [Embedding Null Code](Embedding_Null_Code "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")

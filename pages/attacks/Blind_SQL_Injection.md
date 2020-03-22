@@ -171,7 +171,7 @@ Same as for [SQL Injection](SQL_Injection "wikilink")
   - [LDAP_injection](LDAP_injection "wikilink")
   - [Server-Side_Includes_%28SSI%29_Injection](Server-Side_Includes_%28SSI%29_Injection "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Injection_problem](Injection_problem "wikilink")
 

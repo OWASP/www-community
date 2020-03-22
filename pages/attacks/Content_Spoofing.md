@@ -174,7 +174,7 @@ Other example:
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")

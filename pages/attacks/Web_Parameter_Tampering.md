@@ -94,7 +94,7 @@ Modifying the status variable to delete the page:
   - [XSS Attacks](XSS_Attacks "wikilink")
   - [Path Traversal](Path_Traversal "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")

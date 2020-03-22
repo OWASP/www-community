@@ -178,7 +178,7 @@ The above three checks can be done with the aid of
   - [SQL Injection](SQL_Injection "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - None
 

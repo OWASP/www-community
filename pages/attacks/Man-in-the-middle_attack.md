@@ -94,7 +94,7 @@ TBD
 
   - [Man-in-the-browser_attack](Man-in-the-browser_attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Session Management
     Vulnerability](:Category:Session_Management_Vulnerability "wikilink")

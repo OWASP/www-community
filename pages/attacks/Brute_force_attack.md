@@ -183,7 +183,7 @@ guys who's wanna dig possible security holes.
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
   - [Blind XPath Injection](Blind_XPath_Injection "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Insufficient Session-ID
     Length](Insufficient_Session-ID_Length "wikilink")

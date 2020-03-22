@@ -396,7 +396,7 @@ cookie.
   - [Cross Site History Manipulation
     (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
