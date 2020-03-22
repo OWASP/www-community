@@ -6,7 +6,6 @@ author:
 contributors: 
 permalink: /attacks/Path_Traversal
 tags: attack, Path Traversal
-auto-migrated: 1
 
 ---
 
