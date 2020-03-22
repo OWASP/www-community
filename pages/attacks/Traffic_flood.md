@@ -83,7 +83,7 @@ comes to a crawling halt.
 
   - [Denial of Service](Denial_of_Service "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:General Logic Error
     Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")

@@ -293,7 +293,7 @@ TBD
 
   - [Format string attack](Format_string_attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Heap overflow](Heap_overflow "wikilink")
   - [Stack overflow](Stack_overflow "wikilink")

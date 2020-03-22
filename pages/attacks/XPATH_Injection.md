@@ -135,7 +135,7 @@ have been escaped.
   - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
   - [Blind_XPath_Injection](Blind_XPath_Injection "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")

@@ -98,7 +98,7 @@ command injection, for example:
   - [Cross-site Scripting
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")

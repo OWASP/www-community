@@ -127,7 +127,7 @@ TBD
   - [Embedding_Null_Code](Embedding_Null_Code "wikilink")
   - [Unicode Encoding](Unicode_Encoding "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")

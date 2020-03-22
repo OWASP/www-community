@@ -103,7 +103,7 @@ exchange between the client and the server:
   - [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink")
   - [Session Prediction](Session_Prediction "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")

@@ -152,7 +152,7 @@ TBD
   - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
   - [XPATH_Injection](XPATH_Injection "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Injection_problem](Injection_problem "wikilink")
 

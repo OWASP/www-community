@@ -95,7 +95,7 @@ years.
 
   - [Brute force attack](Brute_force_attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 \[\[Category:FIXME|link doesn't exist
 

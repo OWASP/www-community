@@ -189,7 +189,7 @@ non-availability.
 
   - [Code Injection](Code_Injection "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Buffer Overflow](Buffer_Overflow "wikilink")
 

@@ -139,7 +139,7 @@ get RCE. Let’s modify the payload
   - [SQL Injection](SQL_Injection "wikilink")
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Missing XML Validation](Missing_XML_Validation "wikilink")
 

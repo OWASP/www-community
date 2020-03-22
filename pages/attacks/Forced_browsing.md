@@ -81,7 +81,7 @@ information.
 
   - [Path Traversal (Path Manipulation)](Path_Traversal "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Access Control
     Vulnerability](:Category:Access_Control_Vulnerability "wikilink")

@@ -97,7 +97,7 @@ A Javascript Trojan Horse example can be found on:
   - [Spyware](Spyware "wikilink")
   - [Phishing](Phishing "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - TBD
 
