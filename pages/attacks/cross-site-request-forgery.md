@@ -36,7 +36,7 @@ vulnerabilities](/www-project-code-review-guide/reviewing-code-for-csrf-issues).
 ### How to Test for CSRF Vulnerabilities
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [test for CSRF
 vulnerabilities](Testing_for_CSRF_\(OTG-SESS-005\) "wikilink").
 

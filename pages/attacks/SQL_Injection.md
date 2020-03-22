@@ -63,7 +63,7 @@ Injection](Reviewing_Code_for_SQL_Injection "wikilink") Vulnerabilities.
 ### How to Test for SQL Injection Vulnerabilities
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [Test for SQL
 Injection](Testing_for_SQL_Injection_\(OTG-INPVAL-005\) "wikilink")
 Vulnerabilities.

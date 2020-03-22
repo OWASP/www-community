@@ -191,7 +191,7 @@ Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
 Injection](Reviewing_Code_for_SQL_Injection "wikilink") Vulnerabilities.
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [Test for SQL
 Injection](Testing_for_SQL_Injection_\(OWASP-DV-005\) "wikilink")
 Vulnerabilities.

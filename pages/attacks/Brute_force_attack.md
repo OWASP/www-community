@@ -15,7 +15,7 @@ auto-migrated: 1
 ### How to Test for Brute Force Vulnerabilities
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [Test for Brute
 Force](Testing_for_Brute_Force_\(OWASP-AT-004\) "wikilink")
 Vulnerabilities.
