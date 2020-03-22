@@ -129,7 +129,7 @@ TBD
 
   - [Cross Site Scripting Flaw](Cross_Site_Scripting_Flaw "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input Validation](Input_Validation "wikilink")
   - [Output Validation](Output_Validation "wikilink")

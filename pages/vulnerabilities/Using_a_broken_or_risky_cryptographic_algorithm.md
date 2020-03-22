@@ -80,7 +80,7 @@ In Java:
 
   - [Failure to encrypt data](Failure_to_encrypt_data "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Design: Use a cryptographic algorithm that is currently considered
     to be strong by experts in the field.

@@ -182,7 +182,7 @@ The above three checks can be done with the aid of
 
   - None
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Error Handling](Error_Handling "wikilink")
   - [Bounds Checking](Bounds_Checking "wikilink")

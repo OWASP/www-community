@@ -320,7 +320,7 @@ application secure against SQL injection attacks.
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Query Parameterization](Query_Parameterization "wikilink")
   - [Input Validation](Input_Validation "wikilink")

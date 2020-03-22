@@ -47,7 +47,7 @@ opening for injection.
     ReDoS](Regular_expression_Denial_of_Service_-_ReDoS "wikilink")
   - [SQL Injection](SQL_Injection "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input Validation](Input_Validation "wikilink")
 

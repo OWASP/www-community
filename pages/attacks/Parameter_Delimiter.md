@@ -74,7 +74,7 @@ profiles, it allows privilege escalation for application users.
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Input
     Validation](:Category:_Input_Validation "wikilink")

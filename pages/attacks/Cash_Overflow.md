@@ -40,7 +40,7 @@ leading the cloud service provider to disable the application.
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
   - [:Category: API Abuse](:Category:_API_Abuse "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - DoS Prevention Techniques
 

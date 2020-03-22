@@ -56,7 +56,7 @@ TBD
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Control 1](Control_1 "wikilink")
   - [Control 2](Control_2 "wikilink")

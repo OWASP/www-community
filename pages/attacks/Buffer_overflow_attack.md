@@ -298,7 +298,7 @@ TBD
   - [Heap overflow](Heap_overflow "wikilink")
   - [Stack overflow](Stack_overflow "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Bounds Checking](Bounds_Checking "wikilink")
   - [Safe Libraries](Safe_Libraries "wikilink")

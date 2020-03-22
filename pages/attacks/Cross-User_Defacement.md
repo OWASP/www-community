@@ -103,7 +103,7 @@ More information can be found in one of the presentations under
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Validation of the input data (CR and LF).
   - Forbid HTTP headers nesting in one header's field.

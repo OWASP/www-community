@@ -65,7 +65,7 @@ particularly when exceptions are involved.
   - [Ignored function return
     value](Ignored_function_return_value "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 

@@ -38,7 +38,7 @@ TBD
 
   - [Weak Passwords](Weak_Passwords "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Authentication](:Category:Authentication "wikilink")
   - [Strong Password Policy](Strong_Password_Policy "wikilink")

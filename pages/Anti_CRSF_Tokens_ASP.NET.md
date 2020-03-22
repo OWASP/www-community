@@ -179,7 +179,7 @@ Access](https://www.owasp.org/index.php/Insecure_Third_Party_Domain_Access)
 [Non-Cryptographic Pseudo-Random Number
 Generator](https://www.owasp.org/index.php/Non-cryptographic_pseudo-random_number_generator)
 
-# Related [Controls](Controls "wikilink")
+# Related [Controls](https://owasp.org/www-community/controls/)
 
 [.NET CSRF Guard](https://www.owasp.org/index.php/.Net_CSRF_Guard)
 

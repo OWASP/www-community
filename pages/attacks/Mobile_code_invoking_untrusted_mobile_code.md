@@ -62,7 +62,7 @@ mechanism to assure that the mobile code has not been modified.
   - [:Category: Unsafe Mobile
     Code](:Category:_Unsafe_Mobile_Code "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Hashing](Hashing "wikilink")
   - [Bounds Checking](Bounds_Checking "wikilink")

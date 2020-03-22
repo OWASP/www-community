@@ -180,7 +180,7 @@ Other example:
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
   - [Improper Data Validation](Improper_Data_Validation "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 

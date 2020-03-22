@@ -55,7 +55,7 @@ effect forced vulnerable modems to disconnect.
 
 TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
   - [Output Validation](Output_Validation "wikilink")

@@ -108,7 +108,7 @@ than the previous example, most are spread out across hundreds of lines
 of code or even different files. Programmers seem particularly
 susceptible to freeing global variables more than once.
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Implementation: Ensure that each allocation is freed only once.
     After freeing a chunk, set the pointer to NULL to ensure the pointer

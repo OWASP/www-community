@@ -188,7 +188,7 @@ guys who's wanna dig possible security holes.
   - [Insufficient Session-ID
     Length](Insufficient_Session-ID_Length "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Authentication](Authentication "wikilink")
 

@@ -67,7 +67,7 @@ something like the following for the example above:
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
