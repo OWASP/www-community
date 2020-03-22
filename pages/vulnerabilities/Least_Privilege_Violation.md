@@ -82,7 +82,7 @@ the Employee EJB's method named getSalary().
     </ejb-jar>
 ```
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
@@ -93,7 +93,7 @@ the Employee EJB's method named getSalary().
   - [Failure to drop privileges when
     reasonable](Failure_to_drop_privileges_when_reasonable "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Access Control](:Category:Access_Control "wikilink")
 

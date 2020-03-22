@@ -304,7 +304,7 @@ application secure against SQL injection attacks.
     Execution](:Category:Command_Execution "wikilink")
   - [Injection problem](Injection_problem "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Injection Risk (OWASP Top Ten
     2013)](Top_10_2013-A1-Injection "wikilink")
@@ -320,7 +320,7 @@ application secure against SQL injection attacks.
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Query Parameterization](Query_Parameterization "wikilink")
   - [Input Validation](Input_Validation "wikilink")
@@ -341,6 +341,6 @@ application secure against SQL injection attacks.
   - [Pangolin](http://www.nosec.org/en/pangolin.html) - Closed source
     SQL Injection Scanner.
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")
 [Category:Popular](Category:Popular "wikilink")

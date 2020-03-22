@@ -96,7 +96,7 @@ following steps:
 
   - TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
   - [:Category: Client-side
@@ -107,7 +107,7 @@ following steps:
   - [:Category: Session Management
     Vulnerability](:Category:_Session_Management_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Authentication](:Category:_Authentication "wikilink")
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")

@@ -143,7 +143,7 @@ by Amit Klein, Director of Security and Research
 
   - TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [HTTP Response Splitting](HTTP_Response_Splitting "wikilink")
   - [Cross-User_Defacement](Cross-User_Defacement "wikilink")
@@ -153,7 +153,7 @@ by Amit Klein, Director of Security and Research
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input_Validation](Input_Validation "wikilink")
   - [Canonicalization](Canonicalization "wikilink")

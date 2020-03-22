@@ -59,7 +59,7 @@ by a known or unknown username.
   - [:Category: Authorization](:Category:_Authorization "wikilink")
   - [:Category: Logical Attacks](:Category:_Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Web Parameter Tampering](Web_Parameter_Tampering "wikilink")
 
@@ -72,7 +72,7 @@ by a known or unknown username.
   - [:Category: Logging and Auditing
     Vulnerability](:Category:_Logging_and_Auditing_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Logging](:Category:_Logging "wikilink")
   - [:Category: Access Control](:Category:_Access_Control "wikilink")

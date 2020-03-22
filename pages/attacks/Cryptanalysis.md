@@ -69,7 +69,7 @@ illustrate a rudimentary example of cryptanalysis.
 
   - [:Category:Authentication](:Category:Authentication "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Brute force attack](Brute_force_attack "wikilink")
 
@@ -77,7 +77,7 @@ illustrate a rudimentary example of cryptanalysis.
 
   - TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Encryption](Encryption "wikilink")
   - [Cryptography](Cryptography "wikilink")

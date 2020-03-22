@@ -40,7 +40,7 @@ malicious changes.
     <iframe src="http://site.com/share/Action.swf" width="720" height="420"
     marginwidth="0" marginheight="0" scrolling="Auto" frameborder="0"></iframe>
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
 [Cross-Site_Request_Forgery](Cross-Site_Request_Forgery "wikilink")
 
@@ -48,7 +48,7 @@ malicious changes.
 
 TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
 TBD
 

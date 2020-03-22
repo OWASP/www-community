@@ -160,7 +160,7 @@ Cookie](http://stackoverflow.com/questions/8253396/anti-csrf-cookie)
 [CSRF Protection With Custom
 Headers](http://security.stackexchange.com/questions/23371/csrf-protection-with-custom-headers-and-without-validating-token)
 
-# Related [Attacks](Attacks "wikilink")
+# Related [Attacks](https://owasp.org/www-community/attacks/)
 
 [CSRF
 (Attack)](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_\(CSRF\))
@@ -179,7 +179,7 @@ Access](https://www.owasp.org/index.php/Insecure_Third_Party_Domain_Access)
 [Non-Cryptographic Pseudo-Random Number
 Generator](https://www.owasp.org/index.php/Non-cryptographic_pseudo-random_number_generator)
 
-# Related [Controls](Controls "wikilink")
+# Related [Controls](https://owasp.org/www-community/controls/)
 
 [.NET CSRF Guard](https://www.owasp.org/index.php/.Net_CSRF_Guard)
 

@@ -79,7 +79,7 @@ comes to a crawling halt.
 
   - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Denial of Service](Denial_of_Service "wikilink")
 
@@ -88,7 +88,7 @@ comes to a crawling halt.
   - [:Category:General Logic Error
     Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - TBD
 

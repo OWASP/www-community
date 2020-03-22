@@ -97,7 +97,7 @@ administrator profile.
     Execution](:Category:_Command_Execution "wikilink")
   - [:Category: Authorization](:Category:_Authorization "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
 
@@ -106,7 +106,7 @@ administrator profile.
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
@@ -138,5 +138,5 @@ administrator profile.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [not threat agents](Category:FIXME "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

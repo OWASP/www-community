@@ -89,7 +89,7 @@ command injection, for example:
     Internet_attacker](:Category:_Internet_attacker "wikilink")
   - [Internal_software_developer](Internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Command Injection](Command_Injection "wikilink")
   - [SQL Injection](SQL_Injection "wikilink")
@@ -103,7 +103,7 @@ command injection, for example:
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input Validation](Input_Validation "wikilink")
   - [Output Validation](Output_Validation "wikilink")
@@ -119,6 +119,6 @@ command injection, for example:
     Injection](http://cwe.mitre.org/data/definitions/77.html)
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink") [Category:Injection
 Attack](Category:Injection_Attack "wikilink")

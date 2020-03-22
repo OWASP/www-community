@@ -139,7 +139,7 @@ application vulnerable to denial of service attacks if an attacker
 causes mkstemp() to fail by predicting and pre-creating the filenames to
 be used.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Denial of Service](Denial_of_Service "wikilink")
 
@@ -148,7 +148,7 @@ be used.
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Control 1](Control_1 "wikilink")
   - [Control 2](Control_2 "wikilink")

@@ -142,7 +142,7 @@ This will execute the "ls" command on the system.
     Internet_attacker](:Category:_Internet_attacker "wikilink")
   - [Internal_software_developer](Internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Command Injection](Command_Injection "wikilink")
   - [SQL Injection](SQL_Injection "wikilink")
@@ -156,7 +156,7 @@ This will execute the "ls" command on the system.
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input Validation](Input_Validation "wikilink")
   - [Canonicalization](Canonicalization "wikilink")
@@ -168,5 +168,5 @@ This will execute the "ls" command on the system.
   - [call_user_func_array](http://php.net/manual/en/function.call-user-func-array.php)
     - PHP documentation for call_user_func.
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

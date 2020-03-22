@@ -199,7 +199,7 @@ but not all of the details of those decisions are covered here.
 
   - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Resource Injection](Resource_Injection "wikilink")
   - [Setting Manipulation](Setting_Manipulation "wikilink")
@@ -213,7 +213,7 @@ but not all of the details of those decisions are covered here.
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
   - [:Category: API Abuse](:Category:_API_Abuse "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Blocking Brute Force
     Attacks](Blocking_Brute_Force_Attacks "wikilink")

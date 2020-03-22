@@ -178,7 +178,7 @@ guys who's wanna dig possible security holes.
 
   - [:Category:Authentication](:Category:Authentication "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
   - [Blind XPath Injection](Blind_XPath_Injection "wikilink")
@@ -188,7 +188,7 @@ guys who's wanna dig possible security holes.
   - [Insufficient Session-ID
     Length](Insufficient_Session-ID_Length "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Authentication](Authentication "wikilink")
 

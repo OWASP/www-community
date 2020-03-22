@@ -275,14 +275,14 @@ with the following header:
 
 `Access-Control-Allow-Origin: *`
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Cross-site Scripting
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
   - [Cross Site History Manipulation
     (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Add a per-request nonce to the URL and all forms in addition to the
     standard session. This is also referred to as "form keys". Many

@@ -163,7 +163,7 @@ MSSQL, and Oracle have different functions for that, respectively
 
 Same as for [SQL Injection](SQL_Injection "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind_XPath_Injection](Blind_XPath_Injection "wikilink")
   - [SQL_Injection](SQL_Injection "wikilink")
@@ -175,7 +175,7 @@ Same as for [SQL Injection](SQL_Injection "wikilink")
 
   - [Injection_problem](Injection_problem "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
@@ -238,5 +238,5 @@ Vulnerabilities.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Security Focus Area](Category:Security_Focus_Area "wikilink")
-[Category:Injection](Category:Injection "wikilink") [Category:
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws) [Category:
 Attack](Category:_Attack "wikilink")

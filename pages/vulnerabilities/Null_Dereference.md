@@ -92,7 +92,7 @@ if statement; and unlock when it has finished.
   - [State synchronization
     error](State_synchronization_error "wikilink")
 
-# Related [Controls](Controls "wikilink")
+# Related [Controls](https://owasp.org/www-community/controls/)
 
   - Requirements specification: The choice could be made to use a
     language that is not susceptible to these issues.
