@@ -341,6 +341,6 @@ application secure against SQL injection attacks.
   - [Pangolin](http://www.nosec.org/en/pangolin.html) - Closed source
     SQL Injection Scanner.
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")
 [Category:Popular](Category:Popular "wikilink")

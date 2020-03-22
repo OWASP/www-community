@@ -85,5 +85,5 @@ profiles, it allows privilege escalation for application users.
   - <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0307>
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

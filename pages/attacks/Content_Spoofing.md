@@ -200,5 +200,5 @@ Other example:
   - Case studies (Spotify, LinkedIn, ..etc):
     <https://twitter.com/ncweaver/status/974802236567007232?s=12>
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

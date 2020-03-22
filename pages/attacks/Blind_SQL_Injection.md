@@ -238,5 +238,5 @@ Vulnerabilities.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Security Focus Area](Category:Security_Focus_Area "wikilink")
-[Category:Injection](Category:Injection "wikilink") [Category:
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws) [Category:
 Attack](Category:_Attack "wikilink")

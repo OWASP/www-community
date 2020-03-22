@@ -119,6 +119,6 @@ command injection, for example:
     Injection](http://cwe.mitre.org/data/definitions/77.html)
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink") [Category:Injection
 Attack](Category:Injection_Attack "wikilink")

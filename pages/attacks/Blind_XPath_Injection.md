@@ -169,5 +169,5 @@ TBD
   - <http://projects.webappsec.org/w/page/13247005/XPath%20Injection>
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")
