@@ -73,7 +73,7 @@ illustrate a rudimentary example of cryptanalysis.
 
   - [Brute force attack](Brute_force_attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - TBD
 

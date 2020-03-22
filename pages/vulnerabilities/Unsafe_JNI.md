@@ -110,7 +110,7 @@ in the Java application that exposes its use of JNI \[2\].
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Buffer Overflow](Buffer_Overflow "wikilink")
 

@@ -59,7 +59,7 @@ server logs even when requested via an encrypted channel:
 
 TBD
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 TBD
 

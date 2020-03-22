@@ -108,7 +108,7 @@ A URL of the following form would provide system code access:
 
   - [Interpreter Injection](Interpreter_Injection "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Reflection injection](Reflection_injection "wikilink")
   - [Injection problem](Injection_problem "wikilink")

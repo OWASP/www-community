@@ -207,7 +207,7 @@ but not all of the details of those decisions are covered here.
     ReDoS](Regular_expression_Denial_of_Service_-_ReDoS "wikilink")
   - [Cash Overflow](Cash_Overflow "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")

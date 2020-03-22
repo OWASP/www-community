@@ -51,7 +51,7 @@ effect forced vulnerable modems to disconnect.
 
   - [Log forging](Log_forging "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 TBD
 

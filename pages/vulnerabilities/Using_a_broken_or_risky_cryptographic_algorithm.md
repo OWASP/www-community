@@ -76,7 +76,7 @@ In Java:
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Failure to encrypt data](Failure_to_encrypt_data "wikilink")
 

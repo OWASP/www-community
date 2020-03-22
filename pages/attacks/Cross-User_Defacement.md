@@ -98,7 +98,7 @@ More information can be found in one of the presentations under
   - [HTTP Response Splitting](HTTP_Response_Splitting "wikilink")
   - [Cache Poisoning](Cache_Poisoning "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")

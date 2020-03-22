@@ -65,7 +65,7 @@ TBD
     code](Mobile_code:_invoking_untrusted_mobile_code "wikilink")
   - [Mobile code: object hijack](Mobile_code:_object_hijack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Unsafe Mobile
     Code](:Category:_Unsafe_Mobile_Code "wikilink")

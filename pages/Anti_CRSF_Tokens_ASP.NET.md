@@ -169,7 +169,7 @@ Article)](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
 [XSS
 (Attack)](https://www.owasp.org/index.php/Cross-site_Scripting_\(XSS\))
 
-# Related [Vulnerabilities](Vulnerabilities "wikilink")
+# Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 [XSS](https://www.owasp.org/index.php/Cross_Site_Scripting_Flaw)
 [Insecure

@@ -64,7 +64,7 @@ simple.
 
 ## Risk Factors
 
-  - Talk about the [factors](OWASP_Risk_Rating_Methodology "wikilink")
+  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
     that make this vulnerability likely or unlikely to actually happen
   - Discuss the technical impact of a successful exploit of this
     vulnerability
@@ -74,34 +74,38 @@ simple.
 
 In C\\C++:
 
-    int VerifyAdmin(char *password) {
+```
+int VerifyAdmin(char *password) {
 
-      if (strcmp(password, "Mew!")) {
-        printf("Incorrect Password!\n");
-        return 0;
-      }
+  if (strcmp(password, "Mew!")) {
+    printf("Incorrect Password!\n");
+    return 0;
+  }
 
-      printf("Entering Diagnostic Mode\n");
-      return 1;
-    }
+  printf("Entering Diagnostic Mode\n");
+  return 1;
+}
+```
 
 In Java:
 
-    int VerifyAdmin(String password) {
+```java
+int verifyAdmin(String password) {
 
-      if (password.equals("Mew!")) {
-        return 0;
-      }
-    //Diagnostic Mode
-      return 1;
-    }
+  if (password.equals("Mew!")) {
+    return 0;
+  }
+  //Diagnostic Mode
+  return 1;
+}
+```
 
 Every instance of this program can be placed into diagnostic mode with
 the same password. Even worse is the fact that if this program is
 distributed as a binary-only distribution, it is very difficult to
 change that password or disable this "functionality."
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - Use of hard-coded cryptographic key
   - Storing passwords in a recoverable format

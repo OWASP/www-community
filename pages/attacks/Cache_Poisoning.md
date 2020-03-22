@@ -148,7 +148,7 @@ by Amit Klein, Director of Security and Research
   - [HTTP Response Splitting](HTTP_Response_Splitting "wikilink")
   - [Cross-User_Defacement](Cross-User_Defacement "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
