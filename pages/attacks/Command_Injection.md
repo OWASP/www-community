@@ -256,7 +256,7 @@ Example:
 –  ...
 ```
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Code Injection](Code_Injection "wikilink")
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
@@ -264,7 +264,7 @@ Example:
   - [LDAP injection](LDAP_injection "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
@@ -287,5 +287,5 @@ characters than the illegal characters.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Injection Attack](Category:Injection_Attack "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

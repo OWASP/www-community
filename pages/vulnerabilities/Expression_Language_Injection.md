@@ -104,7 +104,7 @@ A URL of the following form would provide system code access:
 
 `?vulnerable=T(java.lang.Runtime).getRuntime().exec(“cmd.exe”)`
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Interpreter Injection](Interpreter_Injection "wikilink")
 
@@ -113,7 +113,7 @@ A URL of the following form would provide system code access:
   - [Reflection injection](Reflection_injection "wikilink")
   - [Injection problem](Injection_problem "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
 Avoid putting user data into an expression interpreter if possible.
 Otherwise, validate and/or encode the data to ensure it is not evaluated

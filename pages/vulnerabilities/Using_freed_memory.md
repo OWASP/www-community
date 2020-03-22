@@ -128,7 +128,7 @@ shellcode, execution of arbitrary code can be achieved.
   - Write-what-where condition: The use of previously freed memory can
     result in a write-what-where in several ways.
 
-# Related [Controls](Controls "wikilink")
+# Related [Controls](https://owasp.org/www-community/controls/)
 
   - Implementation: Ensuring that all pointers are set to NULL once the
     memory they point to has been freed can be effective strategy. The

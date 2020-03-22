@@ -96,7 +96,7 @@ application to read beyond the bounds of a buffer, the attacker may be
 able use a resulting buffer overflow to inject and execute arbitrary
 code on the system.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
@@ -105,7 +105,7 @@ code on the system.
 
   - [Buffer Overflow](Buffer_Overflow "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 

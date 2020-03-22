@@ -147,7 +147,7 @@ fill it with data by itself.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
   - [XPATH_Injection](XPATH_Injection "wikilink")
@@ -156,7 +156,7 @@ TBD
 
   - [Injection_problem](Injection_problem "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
@@ -169,5 +169,5 @@ TBD
   - <http://projects.webappsec.org/w/page/13247005/XPath%20Injection>
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

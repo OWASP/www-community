@@ -147,7 +147,7 @@ and executes arbitrary code.
   - [:Category:Command
     Execution](:Category:Command_Execution "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Code Injection](Code_Injection "wikilink")
 
@@ -156,7 +156,7 @@ and executes arbitrary code.
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
@@ -174,5 +174,5 @@ and executes arbitrary code.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [need content here](Category:FIXME "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

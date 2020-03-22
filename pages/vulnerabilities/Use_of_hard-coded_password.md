@@ -110,7 +110,7 @@ change that password or disable this "functionality."
   - Use of hard-coded cryptographic key
   - Storing passwords in a recoverable format
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Design (for default accounts): Rather than hard code a default
     username and password for first time logins, utilize a "first login"

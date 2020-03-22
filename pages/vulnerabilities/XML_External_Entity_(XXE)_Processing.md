@@ -134,7 +134,7 @@ get RCE. Let’s modify the payload
 ```
 
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [SQL Injection](SQL_Injection "wikilink")
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
@@ -143,7 +143,7 @@ get RCE. Let’s modify the payload
 
   - [Missing XML Validation](Missing_XML_Validation "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
 Since the whole XML document is communicated from an untrusted client,
 it's not usually possible to selectively

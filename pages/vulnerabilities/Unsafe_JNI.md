@@ -105,7 +105,7 @@ ways, including identifying specific behaviors that are often
 implemented with native code or by exploiting a system information leak
 in the Java application that exposes its use of JNI \[2\].
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
@@ -114,7 +114,7 @@ in the Java application that exposes its use of JNI \[2\].
 
   - [Buffer Overflow](Buffer_Overflow "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 

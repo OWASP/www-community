@@ -130,7 +130,7 @@ have been escaped.
   - [LDAP injection](LDAP_injection "wikilink")
   - [Server-Side_Includes_%28SSI%29_Injection](Server-Side_Includes_%28SSI%29_Injection "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
   - [Blind_XPath_Injection](Blind_XPath_Injection "wikilink")
@@ -140,7 +140,7 @@ have been escaped.
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
   - [Input Validation](Input_Validation "wikilink")

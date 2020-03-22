@@ -173,7 +173,7 @@ The above three checks can be done with the aid of
   - [internal software
     developer](internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [SQL Injection](SQL_Injection "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
@@ -182,7 +182,7 @@ The above three checks can be done with the aid of
 
   - None
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Error Handling](Error_Handling "wikilink")
   - [Bounds Checking](Bounds_Checking "wikilink")
@@ -208,5 +208,5 @@ The above three checks can be done with the aid of
 __NOTOC__
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

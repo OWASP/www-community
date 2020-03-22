@@ -387,7 +387,7 @@ We have successfully injected the code, our XSS\! What does it mean? For
 example, that we may use this flaw to try to steal a user's session
 cookie.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [XSS Attacks](XSS_Attacks "wikilink")
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
@@ -404,7 +404,7 @@ cookie.
   - [Types of Cross-Site
     Scripting](Types_of_Cross-Site_Scripting "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
   - [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")
@@ -445,7 +445,7 @@ cookie.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Security Focus Area](Category:Security_Focus_Area "wikilink")
-[Category:Injection](Category:Injection "wikilink") [Category:OWASP Top
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws) [Category:OWASP Top
 Ten Project](Category:OWASP_Top_Ten_Project "wikilink") [Category:Code
 Snippet](Category:Code_Snippet "wikilink") [Category:Security Focus
 Area](Category:Security_Focus_Area "wikilink")

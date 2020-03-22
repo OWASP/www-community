@@ -90,7 +90,7 @@ TBD
   - [:Category:Client-side
     Attacks](:Category:Client-side_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Man-in-the-browser_attack](Man-in-the-browser_attack "wikilink")
 
@@ -99,7 +99,7 @@ TBD
   - [:Category:Session Management
     Vulnerability](:Category:Session_Management_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Session Management](Session_Management "wikilink")
 

@@ -101,7 +101,7 @@ to read() fails to return the expected number of bytes:
     }
 ```
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
@@ -110,7 +110,7 @@ to read() fails to return the expected number of bytes:
 
   - [Denial of Service](Denial_of_Service "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
 Avoiding memory leaks in applications is difficult for even the most
 skilled developers. Luckily, there are tools with aide in tracking down

@@ -80,7 +80,7 @@ access to the secret information, it is relatively straightforward to
 further exploit the system and possibly compromise other resources with
 which the application interacts.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
@@ -90,7 +90,7 @@ which the application interacts.
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Control 1](Control_1 "wikilink")
   - [Control 2](Control_2 "wikilink")

@@ -193,7 +193,7 @@ displayed).
   - [:Category: Information
     Disclosure](:Category:_Information_Disclosure "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Manipulation](Path_Manipulation "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
@@ -204,7 +204,7 @@ displayed).
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
