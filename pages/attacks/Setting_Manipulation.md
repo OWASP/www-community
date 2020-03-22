@@ -74,7 +74,7 @@ For more details about this attack, see:
 
   - [:Category: Logical Attacks](:Category:_Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Denial of Service](Denial_of_Service "wikilink")
 

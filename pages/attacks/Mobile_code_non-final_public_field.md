@@ -59,7 +59,7 @@ When a variable is declared as final its value cannot be modified.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Mobile code: invoking untrusted mobile
     code](Mobile_code:_invoking_untrusted_mobile_code "wikilink")

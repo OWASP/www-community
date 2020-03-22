@@ -92,7 +92,7 @@ Microsoft Windows SMB hashes from a remote server:
   - [:Category: Information
     Disclosure](:Category:_Information_Disclosure "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Traversal](Path_Traversal "wikilink")
   - [Path Manipulation](Path_Manipulation "wikilink")

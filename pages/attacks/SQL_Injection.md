@@ -304,7 +304,7 @@ application secure against SQL injection attacks.
     Execution](:Category:Command_Execution "wikilink")
   - [Injection problem](Injection_problem "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Injection Risk (OWASP Top Ten
     2013)](Top_10_2013-A1-Injection "wikilink")

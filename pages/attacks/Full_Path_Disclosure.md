@@ -173,7 +173,7 @@ The above three checks can be done with the aid of
   - [internal software
     developer](internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [SQL Injection](SQL_Injection "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")

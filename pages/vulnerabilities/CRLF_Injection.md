@@ -46,7 +46,7 @@ injected into an application and included in the response. The extra
 CRLFs are interpreted by proxies, caches, and maybe browsers as the end
 of a packet, causing mayhem.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [HTTP Response Splitting](HTTP_Response_Splitting "wikilink")
   - [Log Injection](Log_Injection "wikilink")

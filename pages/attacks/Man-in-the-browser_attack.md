@@ -96,7 +96,7 @@ following steps:
 
   - TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
   - [:Category: Client-side

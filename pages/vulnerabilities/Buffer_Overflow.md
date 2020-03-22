@@ -342,7 +342,7 @@ MultiByteToWideChar() will overflow the buffer unicodeUser.
     }
 ```
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Format string attack](Format_string_attack "wikilink")
 

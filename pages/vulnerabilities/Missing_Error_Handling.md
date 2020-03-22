@@ -46,7 +46,7 @@ An "HTTP 404 - File not found" error tells an attacker that the
 requested file doesn't exist rather than that he doesn't have access to
 the file. This can help the attacker to decide his next step.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")

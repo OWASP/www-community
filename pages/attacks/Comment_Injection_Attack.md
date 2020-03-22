@@ -122,7 +122,7 @@ There result will be:
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Embedding_Null_Code](Embedding_Null_Code "wikilink")
   - [Unicode Encoding](Unicode_Encoding "wikilink")

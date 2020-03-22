@@ -39,7 +39,7 @@ While it does allow for floating point numbers, the greedy \* token will
 allow for the pattern to start anywhere in the string, leaving an
 opening for injection.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Cross-site Scripting
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")

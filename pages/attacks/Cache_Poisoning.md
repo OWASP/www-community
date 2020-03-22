@@ -143,7 +143,7 @@ by Amit Klein, Director of Security and Research
 
   - TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [HTTP Response Splitting](HTTP_Response_Splitting "wikilink")
   - [Cross-User_Defacement](Cross-User_Defacement "wikilink")

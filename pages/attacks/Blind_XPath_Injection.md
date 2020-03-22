@@ -147,7 +147,7 @@ fill it with data by itself.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
   - [XPATH_Injection](XPATH_Injection "wikilink")

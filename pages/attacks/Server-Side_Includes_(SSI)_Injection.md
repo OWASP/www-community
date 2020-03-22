@@ -147,7 +147,7 @@ and executes arbitrary code.
   - [:Category:Command
     Execution](:Category:Command_Execution "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Code Injection](Code_Injection "wikilink")
 

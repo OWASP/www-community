@@ -256,7 +256,7 @@ Example:
 –  ...
 ```
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Code Injection](Code_Injection "wikilink")
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")

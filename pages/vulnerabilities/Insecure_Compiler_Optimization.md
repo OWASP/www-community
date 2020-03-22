@@ -80,7 +80,7 @@ access to the secret information, it is relatively straightforward to
 further exploit the system and possibly compromise other resources with
 which the application interacts.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")

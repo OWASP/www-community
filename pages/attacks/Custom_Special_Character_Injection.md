@@ -24,17 +24,17 @@ TBD
 
 ## Examples
 
-**Example1**
+**Example 1**
 
 A simple example is an application which executes almost everything
 which is passed to it from the current terminal by the user without
 sanitazing and blocking user input. If the application doesn't implement
 appropriate signals handling, we may interrupt or suspend program
-execution by sending respectively *Ctrl+C (^C)* or *Ctrl+Z (^Z)*
+execution by sending respectively `Ctrl+C (^C)` or `Ctrl+Z (^Z)`
 combinations. These combinations are sending signals to the application.
-In the first case it's *SIGINT* and in the second it's *SIGSTOP* signal.
+In the first case it's `SIGINT` and in the second it's `SIGSTOP` signal.
 
-**Example2**
+**Example 2**
 
 The classic example, often used by the IRC warriors/bandits, was
 disconnecting modem users by sending to them a special sequence of
@@ -45,11 +45,11 @@ effect forced vulnerable modems to disconnect.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [Logic/time bomb](Logic/time_bomb "wikilink")
+- [Logic/time bomb](Logic/time_bomb "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Log forging](Log_forging "wikilink")
+- [Log forging](https://owasp.org/www-community/attacks/Log_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 

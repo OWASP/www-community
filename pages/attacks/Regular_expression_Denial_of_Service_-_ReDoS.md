@@ -168,7 +168,7 @@ will hang.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Denial of Service](Denial_of_Service "wikilink")
 

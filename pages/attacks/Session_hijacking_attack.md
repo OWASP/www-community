@@ -97,7 +97,7 @@ exchange between the client and the server:
 
   - [:Category: Authorization](:Category:_Authorization "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
   - [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink")

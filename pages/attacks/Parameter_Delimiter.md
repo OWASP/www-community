@@ -65,7 +65,7 @@ profiles, it allows privilege escalation for application users.
   - [:Category: Command
     Execution](:Category:_Command_Execution "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
 

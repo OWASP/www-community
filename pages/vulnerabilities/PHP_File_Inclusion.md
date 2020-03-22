@@ -30,7 +30,7 @@ TBD
  require_once 'filename.inc.php';
  ?>
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - Remote file inclusion using variables from the request POST or GET
 
