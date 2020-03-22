@@ -199,7 +199,7 @@ but not all of the details of those decisions are covered here.
 
   - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Resource Injection](Resource_Injection "wikilink")
   - [Setting Manipulation](Setting_Manipulation "wikilink")

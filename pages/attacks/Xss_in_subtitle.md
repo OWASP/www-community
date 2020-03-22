@@ -130,7 +130,7 @@ and upload prepared srt file as a video's subtitles
 
 Mohammad MortazaviZade - 2mzrp2@gmail.com
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [XSS Attacks](XSS_Attacks "wikilink")
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")

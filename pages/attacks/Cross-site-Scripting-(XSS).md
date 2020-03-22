@@ -387,7 +387,7 @@ We have successfully injected the code, our XSS\! What does it mean? For
 example, that we may use this flaw to try to steal a user's session
 cookie.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [XSS Attacks](XSS_Attacks "wikilink")
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")

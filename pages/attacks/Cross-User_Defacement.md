@@ -93,7 +93,7 @@ More information can be found in one of the presentations under
 
   - TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [HTTP Response Splitting](HTTP_Response_Splitting "wikilink")
   - [Cache Poisoning](Cache_Poisoning "wikilink")

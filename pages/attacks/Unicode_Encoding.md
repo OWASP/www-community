@@ -51,7 +51,7 @@ arbitrary code execution, data modification, and denial of service.
   - [:Category:Information
     Disclosure](:Category:Information_Disclosure "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Traversal](Path_Traversal "wikilink")
   - [Embedding Null Code](Embedding_Null_Code "wikilink")

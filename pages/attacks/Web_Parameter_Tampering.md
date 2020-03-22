@@ -88,7 +88,7 @@ Modifying the status variable to delete the page:
     Attacks](:Category:Client-side_Attacks "wikilink")
   - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [SQL Injection](SQL_Injection "wikilink")
   - [XSS Attacks](XSS_Attacks "wikilink")

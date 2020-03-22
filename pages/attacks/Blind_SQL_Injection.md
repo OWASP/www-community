@@ -163,7 +163,7 @@ MSSQL, and Oracle have different functions for that, respectively
 
 Same as for [SQL Injection](SQL_Injection "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind_XPath_Injection](Blind_XPath_Injection "wikilink")
   - [SQL_Injection](SQL_Injection "wikilink")

@@ -77,7 +77,7 @@ information.
   - [Internal software
     developer](Internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Traversal (Path Manipulation)](Path_Traversal "wikilink")
 

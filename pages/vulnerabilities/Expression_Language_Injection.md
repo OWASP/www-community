@@ -104,7 +104,7 @@ A URL of the following form would provide system code access:
 
 `?vulnerable=T(java.lang.Runtime).getRuntime().exec(“cmd.exe”)`
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Interpreter Injection](Interpreter_Injection "wikilink")
 

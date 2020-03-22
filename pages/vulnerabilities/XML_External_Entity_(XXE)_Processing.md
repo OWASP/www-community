@@ -134,7 +134,7 @@ get RCE. Let’s modify the payload
 ```
 
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [SQL Injection](SQL_Injection "wikilink")
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")

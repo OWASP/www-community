@@ -89,7 +89,7 @@ command injection, for example:
     Internet_attacker](:Category:_Internet_attacker "wikilink")
   - [Internal_software_developer](Internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Command Injection](Command_Injection "wikilink")
   - [SQL Injection](SQL_Injection "wikilink")

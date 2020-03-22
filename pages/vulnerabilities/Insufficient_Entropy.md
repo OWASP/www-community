@@ -27,7 +27,7 @@ TBD
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - In many case,s a PRNG uses a combination of the system clock and
     entropy to create seed data. If insufficient entropy is available,

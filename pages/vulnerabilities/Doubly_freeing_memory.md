@@ -117,7 +117,7 @@ susceptible to freeing global variables more than once.
     language is object oriented, ensure that object destructors delete
     each chunk of memory only once.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Heap overflow](Buffer_Overflows#Heap_Overflow "wikilink")
   - [Buffer overflow attack](Buffer_overflow_attack "wikilink")

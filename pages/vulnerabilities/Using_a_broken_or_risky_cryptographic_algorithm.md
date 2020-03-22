@@ -71,7 +71,7 @@ In Java:
     Cipher des=Cipher.getInstance("DES...);
     des.initEncrypt(key2);
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")

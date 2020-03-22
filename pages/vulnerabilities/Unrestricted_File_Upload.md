@@ -435,7 +435,7 @@ And some special recommendations for the developers and webmasters:
     "Access-Control-Allow-Methods" or "Access-Control-Allow-Headers"
     should be reviewed and removed if they are not required.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Traversal](Path_Traversal "wikilink")
   - [Path Manipulation](Path_Manipulation "wikilink")

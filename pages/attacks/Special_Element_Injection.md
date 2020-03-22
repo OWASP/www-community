@@ -97,7 +97,7 @@ administrator profile.
     Execution](:Category:_Command_Execution "wikilink")
   - [:Category: Authorization](:Category:_Authorization "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
 

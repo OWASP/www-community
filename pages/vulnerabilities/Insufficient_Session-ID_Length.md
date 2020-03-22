@@ -91,7 +91,7 @@ years.
     A short example description, small picture, or sample code with
     [links](http://www.site.com)
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Brute force attack](Brute_force_attack "wikilink")
 

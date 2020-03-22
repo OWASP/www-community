@@ -30,7 +30,7 @@ leading the cloud service provider to disable the application.
   - Most likely an
     [:Category:Internet_attacker](:Category:Internet_attacker "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Denial of Service](Denial_of_Service "wikilink")
 

@@ -72,7 +72,7 @@ TBD
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Traversal Attacks](Path_Traversal_Attacks "wikilink")
   - Attackers try to access unauthorized files, such as password files

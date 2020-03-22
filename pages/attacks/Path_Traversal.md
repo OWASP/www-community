@@ -193,7 +193,7 @@ displayed).
   - [:Category: Information
     Disclosure](:Category:_Information_Disclosure "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Manipulation](Path_Manipulation "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
