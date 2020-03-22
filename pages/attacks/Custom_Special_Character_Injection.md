@@ -57,9 +57,9 @@ TBD
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-  - [Output Validation](Output_Validation "wikilink")
-  - [Canonicalization](Canonicalization "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [Output Validation](Output_Validation "wikilink")
+- [Canonicalization](Canonicalization "wikilink")
 
 ## References
 
