@@ -147,7 +147,7 @@ Mohammad MortazaviZade - 2mzrp2@gmail.com
   - [Types of Cross-Site
     Scripting](Types_of_Cross-Site_Scripting "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
   - [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")

@@ -101,7 +101,7 @@ A Javascript Trojan Horse example can be found on:
 
   - TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - TBD
 

@@ -175,7 +175,7 @@ Same as for [SQL Injection](SQL_Injection "wikilink")
 
   - [Injection_problem](Injection_problem "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 

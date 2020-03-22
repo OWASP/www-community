@@ -72,7 +72,7 @@ by a known or unknown username.
   - [:Category: Logging and Auditing
     Vulnerability](:Category:_Logging_and_Auditing_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Logging](:Category:_Logging "wikilink")
   - [:Category: Access Control](:Category:_Access_Control "wikilink")

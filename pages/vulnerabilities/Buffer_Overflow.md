@@ -350,7 +350,7 @@ MultiByteToWideChar() will overflow the buffer unicodeUser.
 
   - [Heap buffer overflow](Heap_overflow "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
   - Pre-design: Use a language or compiler that performs automatic

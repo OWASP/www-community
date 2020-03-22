@@ -101,7 +101,7 @@ years.
 
   - Insufficient cryptographic key length\]\]
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Session
     Management](:Category:Session_Management "wikilink")

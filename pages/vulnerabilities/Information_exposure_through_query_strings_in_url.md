@@ -63,7 +63,7 @@ TBD
 
 TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
 TBD
 

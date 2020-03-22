@@ -81,7 +81,7 @@ malicious one.
   - [:Category: Unsafe Mobile
     Code](:Category:_Unsafe_Mobile_Code "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Session
     Management](:Category:_Session_Management "wikilink")

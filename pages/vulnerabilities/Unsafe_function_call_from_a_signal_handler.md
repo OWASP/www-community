@@ -74,7 +74,7 @@ state.
 See *Race condition in signal handler*, for an example usage of free()
 in a signal handler which is exploitable.
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Requirements specification: A language might be chosen which is not
     subject to this flaw, through a guarantee of reentrant code.

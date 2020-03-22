@@ -108,7 +108,7 @@ exchange between the client and the server:
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Session
     Management](:Category:Session_Management "wikilink")

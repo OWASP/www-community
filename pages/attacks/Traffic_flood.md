@@ -88,7 +88,7 @@ comes to a crawling halt.
   - [:Category:General Logic Error
     Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - TBD
 

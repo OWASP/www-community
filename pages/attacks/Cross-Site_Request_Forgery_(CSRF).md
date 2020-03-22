@@ -284,7 +284,7 @@ with the following header:
   - [Cross Site History Manipulation
     (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Add a per-request nonce to the URL and all forms in addition to the
     standard session. This is also referred to as "form keys". Many

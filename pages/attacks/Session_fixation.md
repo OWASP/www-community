@@ -157,7 +157,7 @@ Figure 2. Set-Cookie in the HTTP header response
   - [:Category:Session Management
     Vulnerability](:Category:Session_Management_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Session Fixation
     Protection](Session_Fixation_Protection "wikilink")

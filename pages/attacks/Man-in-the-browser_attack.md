@@ -107,7 +107,7 @@ following steps:
   - [:Category: Session Management
     Vulnerability](:Category:_Session_Management_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Authentication](:Category:_Authentication "wikilink")
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")

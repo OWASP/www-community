@@ -83,7 +83,7 @@ For more details about this attack, see:
   - [:Category:General Logic Error
     Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Error Handling](:Category:_Error_Handling "wikilink")
 

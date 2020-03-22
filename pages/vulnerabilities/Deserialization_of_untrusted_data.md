@@ -198,7 +198,7 @@ addition, administrators will need to be able to reduce the classes
 available for deserialization to only those required to limit the attack
 surface, similar to white-listing or using Permissions.
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Requirements specification: A deserialization library could be used
     which provides a cryptographic framework to seal serialized data.

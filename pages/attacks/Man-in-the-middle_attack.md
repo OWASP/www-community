@@ -99,7 +99,7 @@ TBD
   - [:Category:Session Management
     Vulnerability](:Category:Session_Management_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Session Management](Session_Management "wikilink")
 

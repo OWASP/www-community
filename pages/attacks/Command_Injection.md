@@ -264,7 +264,7 @@ Example:
   - [LDAP injection](LDAP_injection "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
