@@ -45,7 +45,7 @@ opening for injection.
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
   - [Regular expression Denial of Service -
     ReDoS](Regular_expression_Denial_of_Service_-_ReDoS "wikilink")
-  - [SQL Injection](SQL_Injection "wikilink")
+  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 

@@ -12,7 +12,7 @@ auto-migrated: 1
 
 ## Description
 
-Similar to [SQL Injection](SQL_Injection "wikilink"), XPath Injection
+Similar to [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection), XPath Injection
 attacks occur when a web site uses user-supplied information to
 construct an XPath query for XML data. By sending intentionally
 malformed information into the web site, an attacker can find out how
@@ -126,14 +126,14 @@ have been escaped.
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
   - [Command Injection](Command_Injection "wikilink")
-  - [SQL Injection](SQL_Injection "wikilink")
+  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
   - [LDAP injection](LDAP_injection "wikilink")
-  - [Server-Side_Includes_%28SSI%29_Injection](Server-Side_Includes_%28SSI%29_Injection "wikilink")
+  - [Server-Side_Includes_%28SSI%29_Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
-  - [Blind_XPath_Injection](Blind_XPath_Injection "wikilink")
+  - [Blind_XPath_Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
