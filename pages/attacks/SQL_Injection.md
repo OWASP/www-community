@@ -12,7 +12,7 @@ auto-migrated: 1
 
 ## Overview
 
-A [SQL injection](SQL_injection "wikilink") attack consists of insertion
+A [SQL injection](https://owasp.org/www-community/attacks/SQL_Injection) attack consists of insertion
 or "injection" of a SQL query via the input data from the client to the
 application. A successful SQL injection exploit can read sensitive data
 from the database, modify database data (Insert/Update/Delete), execute
@@ -56,7 +56,7 @@ Vulnerabilities.
 ### How to Review Code for SQL Injection Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-code-review-guide/) article on how to
 [Review Code for SQL
 Injection](Reviewing_Code_for_SQL_Injection "wikilink") Vulnerabilities.
 
