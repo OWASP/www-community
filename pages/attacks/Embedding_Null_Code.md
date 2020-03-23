@@ -1,11 +1,10 @@
 ---
 
-title: Embedding Null Code
+title: 'Embedding Null Code'
 layout: col-sidebar
 author: Nsrav
 contributors: 'Till Maas', ADubhlaoich
-tags: attacks
-auto-migrated: 1
+tags: attack
 permalink: /attacks/Embedding_Null_Code
 
 ---
@@ -66,4 +65,3 @@ that references a Microsoft IIS or Netscape Enterprise web server.
 http://capec.mitre.org/data/definitions/52.html
 
 http://nvd.nist.gov/nvd.cfm?cvename=CVE-2004-0629
-
