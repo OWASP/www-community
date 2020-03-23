@@ -91,17 +91,17 @@ years.
     A short example description, small picture, or sample code with
     [links](http://www.site.com)
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Brute force attack](Brute_force_attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 \[\[Category:FIXME|link doesn't exist
 
   - Insufficient cryptographic key length\]\]
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Session
     Management](:Category:Session_Management "wikilink")

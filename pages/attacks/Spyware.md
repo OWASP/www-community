@@ -48,18 +48,18 @@ spyware
   - [:Category:Client-side
     Attacks](:Category:Client-side_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Trojan Horse](Trojan_Horse "wikilink")
   - [Phishing](Phishing "wikilink")
   - [:Category:Malicious Code
     Attack](:Category:Malicious_Code_Attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - TBD
 

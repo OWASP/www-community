@@ -130,7 +130,7 @@ and upload prepared srt file as a video's subtitles
 
 Mohammad MortazaviZade - 2mzrp2@gmail.com
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [XSS Attacks](XSS_Attacks "wikilink")
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
@@ -139,7 +139,7 @@ Mohammad MortazaviZade - 2mzrp2@gmail.com
   - [Cross Site History Manipulation
     (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
@@ -147,7 +147,7 @@ Mohammad MortazaviZade - 2mzrp2@gmail.com
   - [Types of Cross-Site
     Scripting](Types_of_Cross-Site_Scripting "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
   - [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")
@@ -156,6 +156,6 @@ Mohammad MortazaviZade - 2mzrp2@gmail.com
 
 ## Categories
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink") [Category:Code
 Snippet](Category:Code_Snippet "wikilink")

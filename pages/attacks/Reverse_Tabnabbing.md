@@ -106,8 +106,7 @@ object reference.
 
 ## Prevention
 
-Prevention information are documented into the [HTML5 Cheat
-Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html).
+Prevention information are documented into the [HTML5 Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#tabnabbing).
 
 ## References
 

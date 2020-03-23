@@ -6,7 +6,6 @@ author:
 contributors:
 permalink: /attacks/Blind_SQL_Injection
 tags: attack, blind sql injection, sql injection
-auto-migrated: 1
 
 ---
 
@@ -14,7 +13,7 @@ auto-migrated: 1
 ## Description
 
 Blind SQL (Structured Query Language) injection is a type of [SQL
-Injection](SQL_Injection "wikilink") attack that asks the database true
+Injection](https://owasp.org/www-community/attacks/SQL_Injection) attack that asks the database true
 or false questions and determines the answer based on the applications
 response. This attack is often used when the web application is
 configured to show generic error messages, but has not mitigated the
@@ -23,7 +22,7 @@ code that is vulnerable to SQL injection.
 When an attacker exploits SQL injection, sometimes the web application
 displays error messages from the database complaining that the SQL
 Query's syntax is incorrect. Blind SQL injection is nearly identical to
-normal [SQL Injection](SQL_Injection "wikilink"), the only difference
+normal [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection), the only difference
 being the way the data is retrieved from the database. When the database
 does not output data to the web page, an attacker is forced to steal
 data by asking the database a series of true or false questions. This
@@ -32,11 +31,11 @@ impossible. .
 
 ## Threat Modeling
 
-Same as for [SQL Injection](SQL_Injection "wikilink")
+Same as for [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
 
 ## Risk Factors
 
-Same as for [SQL Injection](SQL_Injection "wikilink")
+Same as for [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
 
 ## Examples
 
@@ -93,11 +92,11 @@ seconds.
 If the first letter of the first database's name is an 'B', wait for 10
 seconds. etc.
 
-**Microsoft SQL Server**
+#### Microsoft SQL Server
 
     http://www.site.com/vulnerable.php?id=1' waitfor delay '00:00:10'--
 
-**MySQL**
+#### MySQL
 
     SELECT IF(expression, true, false)
 
@@ -106,7 +105,7 @@ responses if the expression is True.
 
     BENCHMARK(5000000,ENCODE('MSG','by 5 seconds'))
 
-\- will execute the ENCODE function 5000000 times.
+will execute the ENCODE function 5000000 times.
 
 Depending on the database server's performance and load, it should take
 just a moment to finish this operation. The important thing is, from the
@@ -135,19 +134,19 @@ with a trial and error method.
 Databases other than MySQL also have time-based functions which allow
 them to be used for time-based attacks:
 
-  - MS SQL 'WAIT FOR DELAY '0:0:10''
-  - PostgreSQL - pg_sleep()
+- MS SQL: `'WAIT FOR DELAY '0:0:10''`
+- PostgreSQL: `pg_sleep()`
 
-Conducting Blind_SQL_Injection attacks manually is very time
+Conducting Blind SQL Injection attacks manually is very time
 consuming, but there are a lot of tools which automate this process. One
-of them is SQLMap (http://sqlmap.org/) partly developed within OWASP
+of them is [SQLMap](http://sqlmap.org/) partly developed within OWASP
 grant program. On the other hand, tools of this kind are very sensitive
 to even small deviations from the rule. This includes:
 
   - scanning other website clusters, where clocks are not ideally
     synchronized,
   - WWW services where argument acquiring method was changed, e.g. from
-    /index.php?ID=10 to /ID,10
+    `/index.php?ID=10` to `/ID,10`
 
 ### Remote Database Fingerprinting
 
@@ -157,87 +156,52 @@ attack much easier. If the time-based approach is used, this helps
 determine what type of database is in use. Another popular methods to do
 this is to call functions which will return the current date. MySQL,
 MSSQL, and Oracle have different functions for that, respectively
-*now()*, *getdate()*, and *sysdate()*.
+`now()`, `getdate()`, and `sysdate()`.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-Same as for [SQL Injection](SQL_Injection "wikilink")
+- [Blind_XPath_Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
+- [SQL_Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [XPATH_Injection](https://owasp.org/www-community/attacks/XPATH_Injection)
+- [LDAP_injection](https://owasp.org/www-community/attacks/LDAP_Injection)
+- [Server-Side_Includes_%28SSI%29_Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Blind_XPath_Injection](Blind_XPath_Injection "wikilink")
-  - [SQL_Injection](SQL_Injection "wikilink")
-  - [XPATH_Injection](XPATH_Injection "wikilink")
-  - [LDAP_injection](LDAP_injection "wikilink")
-  - [Server-Side_Includes_%28SSI%29_Injection](Server-Side_Includes_%28SSI%29_Injection "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+See the OWASP [SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html).
+See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/) guide on how to
+review code for SQL injection vulnerabilities.
 
-  - [Injection_problem](Injection_problem "wikilink")
-
-## Related [Controls](Controls "wikilink")
-
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-
-See the [OWASP Development
-Guide](:Category:OWASP_Guide_Project "wikilink") article on how to
-[Avoid SQL Injection](Guide_to_SQL_Injection "wikilink")
-Vulnerabilities.
-See the OWASP [SQL Injection Prevention Cheat
-Sheet](SQL_Injection_Prevention_Cheat_Sheet "wikilink").
-
-See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
-[Review Code for SQL
-Injection](Reviewing_Code_for_SQL_Injection "wikilink") Vulnerabilities.
-
-See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
-[Test for SQL
-Injection](Testing_for_SQL_Injection_\(OWASP-DV-005\) "wikilink")
-Vulnerabilities.
+See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
+[Test for SQL Injection](document/4_Web_Application_Security_Testing/4.8_Input_Validation_Testing/4.8.5_Testing_for_SQL_Injection_WSTG-INPVAL-005.md)
+vulnerabilities.
 
 ## References
 
-  - <http://www.cgisecurity.com/questions/blindsql.shtml>
-  - <http://www.imperva.com/application_defense_center/white_papers/blind_sql_server_injection.html>
-  - <http://www.securitydocs.com/library/2651>
-  - <http://seclists.org/bugtraq/2005/Feb/0288.html>
-  - <http://ferruh.mavituna.com/makale/sql-injection-cheatsheet/>
+- http://www.cgisecurity.com/questions/blindsql.shtml
+- http://www.imperva.com/application_defense_center/white_papers/blind_sql_server_injection.html
+- http://www.securitydocs.com/library/2651
+- http://seclists.org/bugtraq/2005/Feb/0288.html
+- http://ferruh.mavituna.com/makale/sql-injection-cheatsheet/
 
-**Online Resources**
+### Online Resources
 
-  - [more Advanced SQL
-    Injection](http://www.nccgroup.com/Libraries/Document_Downloads/more__Advanced_SQL_Injection.sflb.ashx)
-    - by NGS
-  - [Blind SQL Injection Automation
-    Techniques](http://www.blackhat.com/presentations/bh-usa-04/bh-us-04-hotchkies/bh-us-04-hotchkies.pdf)
-    - Black Hat Pdf
-  - [Blind Sql-Injection in MySQL
-    Databases](http://seclists.org/lists/bugtraq/2005/Feb/0288.html)
-  - [Cgisecurity.com: What is Blind SQL
-    Injection?](http://www.cgisecurity.com/questions/blindsql.shtml)
-  - Kevin Spett from SPI Dynamics:
-    <http://www.net-security.org/dl/articles/Blind_SQLInjection.pdf>
-  - <http://www.imperva.com/resources/whitepapers.asp?t=ADC>
-  - [Advanced SQL
-    Injection](https://www.owasp.org/images/7/74/Advanced_SQL_Injection.ppt)
+- [more Advanced SQL Injection](http://www.nccgroup.com/Libraries/Document_Downloads/more__Advanced_SQL_Injection.sflb.ashx) - by NGS
+- [Blind SQL Injection Automation Techniques](http://www.blackhat.com/presentations/bh-usa-04/bh-us-04-hotchkies/bh-us-04-hotchkies.pdf) - Black Hat Pdf
+- [Blind Sql-Injection in MySQL Databases](http://seclists.org/lists/bugtraq/2005/Feb/0288.html)
+- [Cgisecurity.com: What is Blind SQL Injection?](http://www.cgisecurity.com/questions/blindsql.shtml)
+- Kevin Spett from SPI Dynamics:
+  - http://www.net-security.org/dl/articles/Blind_SQLInjection.pdf
+  - http://www.imperva.com/resources/whitepapers.asp?t=ADC
+  - [Advanced SQL Injection](https://www.owasp.org/images/7/74/Advanced_SQL_Injection.ppt)
 
-**Tools**
+### Tools
 
-  - [SQL Power Injector](http://www.sqlpowerinjector.com/)
-  - [Absinthe :: Automated Blind SQL
-    Injection](http://www.0x90.org/releases/absinthe/) // ver1.3.1
-  - [SQLBrute - Multi Threaded Blind SQL Injection
-    Bruteforcer](http://www.securiteam.com/tools/5IP0L20I0E.html) in
-    Python
-  - [SQLiX - SQL Injection
-    Scanner](:Category:OWASP_SQLiX_Project "wikilink") in Perl
-  - [sqlmap, automatic SQL injection tool](http://sqlmap.org/) in Python
-  - [bsqlbf, a blind SQL injection
-    tool](https://code.google.com/p/bsqlbf-v2/) in Perl
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Security Focus Area](Category:Security_Focus_Area "wikilink")
-[Category:Injection](Category:Injection "wikilink") [Category:
-Attack](Category:_Attack "wikilink")
+- [SQL Power Injector](http://www.sqlpowerinjector.com/)
+- [Absinthe :: Automated Blind SQL Injection](http://www.0x90.org/releases/absinthe/) // ver1.3.1
+- [SQLBrute - Multi Threaded Blind SQL Injection Bruteforcer](http://www.securiteam.com/tools/5IP0L20I0E.html) in Python
+- [SQLiX - SQL Injection Scanner](:Category:OWASP_SQLiX_Project "wikilink") in Perl
+- [sqlmap, automatic SQL injection tool](http://sqlmap.org/) in Python
+- [bsqlbf, a blind SQL injection tool](https://code.google.com/p/bsqlbf-v2/) in Perl

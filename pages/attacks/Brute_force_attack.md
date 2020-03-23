@@ -15,7 +15,7 @@ auto-migrated: 1
 ### How to Test for Brute Force Vulnerabilities
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [Test for Brute
 Force](Testing_for_Brute_Force_\(OWASP-AT-004\) "wikilink")
 Vulnerabilities.
@@ -42,7 +42,7 @@ discovering hidden content/pages within a web application. These attacks
 are usually sent via GET and POST requests to the server. In regards to
 authentication, brute force attacks are often mounted when an [account
 lockout
-policy](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Implement_Account_Lockout)
+policy](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#account-lockout)
 in not in place.
 
 ### Example 1
@@ -178,17 +178,17 @@ guys who's wanna dig possible security holes.
 
   - [:Category:Authentication](:Category:Authentication "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
-  - [Blind XPath Injection](Blind_XPath_Injection "wikilink")
+  - [Blind XPath Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Insufficient Session-ID
     Length](Insufficient_Session-ID_Length "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Authentication](Authentication "wikilink")
 

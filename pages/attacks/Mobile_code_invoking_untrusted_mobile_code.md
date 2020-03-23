@@ -51,18 +51,18 @@ mechanism to assure that the mobile code has not been modified.
 
   - TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Mobile code: non-final public
     field](Mobile_code:_non-final_public_field "wikilink")
   - [Mobile code: object hijack](Mobile_code:_object_hijack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Unsafe Mobile
     Code](:Category:_Unsafe_Mobile_Code "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Hashing](Hashing "wikilink")
   - [Bounds Checking](Bounds_Checking "wikilink")

@@ -147,17 +147,17 @@ Figure 2. Set-Cookie in the HTTP header response
 
   - [:Category:Authorization](:Category:Authorization "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [XSS Attacks](XSS_Attacks "wikilink")
   - [Session hijacking attack](Session_hijacking_attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Session Management
     Vulnerability](:Category:Session_Management_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Session Fixation
     Protection](Session_Fixation_Protection "wikilink")

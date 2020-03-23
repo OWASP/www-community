@@ -12,7 +12,7 @@ auto-migrated: 1
 
 ## Overview
 
-A [SQL injection](SQL_injection "wikilink") attack consists of insertion
+A [SQL injection](https://owasp.org/www-community/attacks/SQL_Injection) attack consists of insertion
 or "injection" of a SQL query via the input data from the client to the
 application. A successful SQL injection exploit can read sensitive data
 from the database, modify database data (Insert/Update/Delete), execute
@@ -46,9 +46,9 @@ predefined SQL commands.
 ### How to Avoid SQL Injection Vulnerabilities
 
 See the OWASP [SQL Injection Prevention Cheat
-Sheet](SQL_Injection_Prevention_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html).
 See the OWASP [Query Parameterization Cheat
-Sheet](Query_Parameterization_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html).
 See the [OWASP Guide](:Category:OWASP_Guide_Project "wikilink") article
 on how to [Avoid SQL Injection](Guide_to_SQL_Injection "wikilink")
 Vulnerabilities.
@@ -56,14 +56,14 @@ Vulnerabilities.
 ### How to Review Code for SQL Injection Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-code-review-guide/) article on how to
 [Review Code for SQL
 Injection](Reviewing_Code_for_SQL_Injection "wikilink") Vulnerabilities.
 
 ### How to Test for SQL Injection Vulnerabilities
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [Test for SQL
 Injection](Testing_for_SQL_Injection_\(OTG-INPVAL-005\) "wikilink")
 Vulnerabilities.
@@ -304,7 +304,7 @@ application secure against SQL injection attacks.
     Execution](:Category:Command_Execution "wikilink")
   - [Injection problem](Injection_problem "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Injection Risk (OWASP Top Ten
     2013)](Top_10_2013-A1-Injection "wikilink")
@@ -320,7 +320,7 @@ application secure against SQL injection attacks.
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Query Parameterization](Query_Parameterization "wikilink")
   - [Input Validation](Input_Validation "wikilink")
@@ -341,6 +341,6 @@ application secure against SQL injection attacks.
   - [Pangolin](http://www.nosec.org/en/pangolin.html) - Closed source
     SQL Injection Scanner.
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")
 [Category:Popular](Category:Popular "wikilink")

@@ -92,16 +92,16 @@ A Javascript Trojan Horse example can be found on:
   - [:Category:Client-side
     Attacks](:Category:Client-side_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Spyware](Spyware "wikilink")
   - [Phishing](Phishing "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - TBD
 

@@ -127,7 +127,7 @@ third-party athletic race/run site for credentials to use against JPMC.
 ## Defense
 
   - [Credential Stuffing Prevention Cheat
-    Sheet](Credential_Stuffing_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html)
 
 ## References
 

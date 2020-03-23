@@ -435,19 +435,19 @@ And some special recommendations for the developers and webmasters:
     "Access-Control-Allow-Methods" or "Access-Control-Allow-Headers"
     should be reviewed and removed if they are not required.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Traversal](Path_Traversal "wikilink")
   - [Path Manipulation](Path_Manipulation "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
   - [Windows_::DATA_alternate_data_stream](Windows_::DATA_alternate_data_stream "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 

@@ -62,7 +62,7 @@ Session variables should only be used for a single consistent purpose.
 
 ## Examples
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
 ## References
 

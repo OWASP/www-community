@@ -27,7 +27,7 @@ TBD
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - In many case,s a PRNG uses a combination of the system clock and
     entropy to create seed data. If insufficient entropy is available,
@@ -35,12 +35,12 @@ TBD
     considerably. Furthermore, by guessing values of the system clock,
     they can create a manageable set of possible PRNG outputs.
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Many PRNG's (/dev/random and /dev/urandom for example) store their
     last value before shutdown. By using this value at intialization,

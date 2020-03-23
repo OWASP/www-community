@@ -28,7 +28,7 @@ Webscarab and Paros proxy are mostly used.
 The attack success depends on integrity and logic validation mechanism
 errors, and its exploitation can result in other consequences including
 [XSS](Cross-site_Scripting_\(XSS\) "wikilink"), [SQL
-Injection](SQL_Injection "wikilink"), file inclusion, and path
+Injection](https://owasp.org/www-community/attacks/SQL_Injection), file inclusion, and path
 disclosure attacks.
 
 For a short video clip describing the vulnerability, [click
@@ -88,18 +88,18 @@ Modifying the status variable to delete the page:
     Attacks](:Category:Client-side_Attacks "wikilink")
   - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [SQL Injection](SQL_Injection "wikilink")
+  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
   - [XSS Attacks](XSS_Attacks "wikilink")
   - [Path Traversal](Path_Traversal "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Input
     Validation](:Category:_Input_Validation "wikilink")

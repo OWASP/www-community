@@ -272,7 +272,7 @@ Guide](:Category:OWASP_Guide_Project "wikilink") article on how to
 ### How to Review Code for Buffer Overflow Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-code-review-guide/) article on how to
 [Review Code for Buffer Overruns and
 Overflows](Reviewing_Code_for_Buffer_Overruns_and_Overflows "wikilink")
 Vulnerabilities.
@@ -280,7 +280,7 @@ Vulnerabilities.
 ### How to Review Code for Buffer Overflow Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-code-review-guide/) article on how to
 [Review Code for Buffer Overruns and
 Overflows](Reviewing_Code_for_Buffer_Overruns_and_Overflows "wikilink")
 Vulnerabilities.
@@ -289,16 +289,16 @@ Vulnerabilities.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Format string attack](Format_string_attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Heap overflow](Heap_overflow "wikilink")
   - [Stack overflow](Stack_overflow "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Bounds Checking](Bounds_Checking "wikilink")
   - [Safe Libraries](Safe_Libraries "wikilink")

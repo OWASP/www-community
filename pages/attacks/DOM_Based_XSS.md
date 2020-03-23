@@ -171,7 +171,7 @@ See: <http://code.google.com/p/domsnitch/>
 ### Defense Techniques
 
 See:
-<https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet>
+<https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html>
 
 ### References
 

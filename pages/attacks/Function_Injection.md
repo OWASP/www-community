@@ -142,21 +142,21 @@ This will execute the "ls" command on the system.
     Internet_attacker](:Category:_Internet_attacker "wikilink")
   - [Internal_software_developer](Internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Command Injection](Command_Injection "wikilink")
-  - [SQL Injection](SQL_Injection "wikilink")
+  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
   - [LDAP injection](LDAP_injection "wikilink")
-  - [SSI injection](Server-Side_Includes_%28SSI%29_Injection "wikilink")
+  - [SSI injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
   - [Cross-site Scripting
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input Validation](Input_Validation "wikilink")
   - [Canonicalization](Canonicalization "wikilink")
@@ -168,5 +168,5 @@ This will execute the "ls" command on the system.
   - [call_user_func_array](http://php.net/manual/en/function.call-user-func-array.php)
     - PHP documentation for call_user_func.
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

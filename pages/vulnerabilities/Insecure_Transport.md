@@ -42,7 +42,7 @@ TBD
   - A publicly accessible page contains a relative link to a protected
     page which forgets to switch to SSL.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - Attackers that are trying to steal login credentials, session IDs or
     other sensitive information
@@ -51,12 +51,12 @@ TBD
     page) to trick the victim into accessing the privileged pages via
     HTTP
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Control 1](Control_1 "wikilink")
   - [Control 2](Control_2 "wikilink")

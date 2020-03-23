@@ -85,14 +85,14 @@ If you are working with a multi-threaded or otherwise asynchronous
 environment, ensure that proper locking APIs are used to lock before the
 if statement; and unlock when it has finished.
 
-# Related [Vulnerabilities](Vulnerabilities "wikilink")
+# Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Miscalculated null
     termination](Miscalculated_null_termination "wikilink")
   - [State synchronization
     error](State_synchronization_error "wikilink")
 
-# Related [Controls](Controls "wikilink")
+# Related [Controls](https://owasp.org/www-community/controls/)
 
   - Requirements specification: The choice could be made to use a
     language that is not susceptible to these issues.

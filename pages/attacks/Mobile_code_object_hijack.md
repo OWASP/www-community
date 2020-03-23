@@ -69,19 +69,19 @@ malicious one.
 
   - TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Mobile code: invoking untrusted mobile
     code](Mobile_code:_invoking_untrusted_mobile_code "wikilink")
   - [Mobile code: non-final public
     field](Mobile_code:_non-final_public_field "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Unsafe Mobile
     Code](:Category:_Unsafe_Mobile_Code "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Session
     Management](:Category:_Session_Management "wikilink")

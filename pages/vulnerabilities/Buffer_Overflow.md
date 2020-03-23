@@ -28,7 +28,7 @@ Guide](:Category:OWASP_Guide_Project "wikilink") article on how to
 ### How to Review Code for Buffer Overflow Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-code-review-guide/) article on how to
 [Review Code for Buffer Overruns and
 Overflows](Reviewing_Code_for_Buffer_Overruns_and_Overflows "wikilink")
 Vulnerabilities.
@@ -36,7 +36,7 @@ Vulnerabilities.
 ### How to Test for Buffer Overflow Vulnerabilities
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [Test for Buffer
 Overflow](Testing_for_Buffer_Overflow_\(OWASP-DV-014\) "wikilink")
 Vulnerabilities.
@@ -342,15 +342,15 @@ MultiByteToWideChar() will overflow the buffer unicodeUser.
     }
 ```
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Format string attack](Format_string_attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Heap buffer overflow](Heap_overflow "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
   - Pre-design: Use a language or compiler that performs automatic

@@ -71,16 +71,16 @@ In Java:
     Cipher des=Cipher.getInstance("DES...);
     des.initEncrypt(key2);
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Failure to encrypt data](Failure_to_encrypt_data "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Design: Use a cryptographic algorithm that is currently considered
     to be strong by experts in the field.

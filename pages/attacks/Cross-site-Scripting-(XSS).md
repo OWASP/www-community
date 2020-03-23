@@ -35,10 +35,10 @@ Scripting](Types_of_Cross-Site_Scripting "wikilink").
 ### How to Avoid Cross-site scripting Vulnerabilities
 
 See the [XSS (Cross Site Scripting) Prevention Cheat
-Sheet](xss)
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 
 See the [DOM based XSS Prevention Cheat
-Sheet](DOM_based_XSS_Prevention_Cheat_Sheet "wikilink")
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
 
 See the [OWASP Development
 Guide](:Category:OWASP_Guide_Project "wikilink") article on
@@ -51,7 +51,7 @@ Validation](Data_Validation "wikilink").
 ### How to Review Code for Cross-site scripting Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on
+Guide](https://owasp.org/www-project-code-review-guide/) article on
 [Reviewing Code for Cross-site
 scripting](Reviewing_Code_for_Cross-site_scripting "wikilink")
 Vulnerabilities.
@@ -59,7 +59,7 @@ Vulnerabilities.
 ### How to Test for Cross-site scripting Vulnerabilities
 
 See the latest [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 test for the various kinds of XSS vulnerabilities.
 
   - [Testing_for_Reflected_Cross_site_scripting_(OWASP-DV-001)](Testing_for_Reflected_Cross_site_scripting_\(OWASP-DV-001\) "wikilink")
@@ -161,7 +161,7 @@ problems as well.
 
 The primary defenses against XSS are described in the [OWASP XSS
 Prevention Cheat
-Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink").
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html).
 
 Also, it's crucial that you turn off HTTP TRACE support on all web
 servers. An attacker can steal cookie data via Javascript even when
@@ -387,7 +387,7 @@ We have successfully injected the code, our XSS\! What does it mean? For
 example, that we may use this flaw to try to steal a user's session
 cookie.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [XSS Attacks](XSS_Attacks "wikilink")
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
@@ -396,7 +396,7 @@ cookie.
   - [Cross Site History Manipulation
     (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
@@ -404,7 +404,7 @@ cookie.
   - [Types of Cross-Site
     Scripting](Types_of_Cross-Site_Scripting "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
   - [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")
@@ -414,7 +414,7 @@ cookie.
 ## References
 
   - OWASP's [XSS (Cross Site Scripting) Prevention Cheat
-    Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
   - OWASP Guide to Building Secure Web Applications and Web Services,
     Chapter 8: [Data Validation](Data_Validation "wikilink")
   - OWASP Testing Guide,
@@ -445,7 +445,7 @@ cookie.
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Security Focus Area](Category:Security_Focus_Area "wikilink")
-[Category:Injection](Category:Injection "wikilink") [Category:OWASP Top
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws) [Category:OWASP Top
 Ten Project](Category:OWASP_Top_Ten_Project "wikilink") [Category:Code
 Snippet](Category:Code_Snippet "wikilink") [Category:Security Focus
 Area](Category:Security_Focus_Area "wikilink")
