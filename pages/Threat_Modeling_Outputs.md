@@ -27,7 +27,6 @@ stage, "Spoofing" may appear while threat modeling - and thus considered a bug,
 if it appeared upon realising that changing their account password does not
 require the user to input the current password.
 
-
 ## Considerations
 
 * Changed whiteboard diagrams
