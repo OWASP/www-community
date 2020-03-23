@@ -1,6 +1,6 @@
 ---
 
-title: Embedding Null Code
+title: 'Embedding Null Code'
 layout: col-sidebar
 author: Nsrav
 contributors: Till Maas, ADubhlaoich
