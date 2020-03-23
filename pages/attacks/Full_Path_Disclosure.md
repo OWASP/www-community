@@ -15,7 +15,7 @@ auto-migrated: 1
 Full Path Disclosure (FPD) vulnerabilities enable the attacker to see
 the path to the webroot/file. e.g.: /home/omg/htdocs/file/. Certain
 vulnerabilities, such as using the load_file() (within a [SQL
-Injection](SQL_Injection "wikilink")) query to view the page source,
+Injection](https://owasp.org/www-community/attacks/SQL_Injection)) query to view the page source,
 require the attacker to have the full path to the file they wish to
 view.
 
@@ -175,7 +175,7 @@ The above three checks can be done with the aid of
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [SQL Injection](SQL_Injection "wikilink")
+  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)

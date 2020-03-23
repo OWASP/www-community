@@ -34,7 +34,7 @@ questions(booleanized queries), much like [Blind SQL
 Injection](Blind_SQL_Injection "wikilink").
 
 For more information, please see the article on regular [XPATH
-Injection](XPATH_Injection "wikilink").
+Injection](https://owasp.org/www-community/attacks/XPATH_Injection).
 
 ## Risk Factors
 
@@ -131,7 +131,7 @@ then the attacker should inject the following code:
     Username: ' or substring((//user[position()=1]/child::node()[position()=2]),1,1)="a" or ''='
 
 The XPath syntax may remind you of common [SQL
-Injection](SQL_Injection "wikilink") attacks but the attacker must
+Injection](https://owasp.org/www-community/attacks/SQL_Injection) attacks but the attacker must
 consider that this language disallows commenting out the rest of
 expresssion. To omit this limitation the attacker should use OR
 expressions to void all expressions, which may disrupt the attack.
@@ -150,7 +150,7 @@ TBD
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
-  - [XPATH_Injection](XPATH_Injection "wikilink")
+  - [XPATH_Injection](https://owasp.org/www-community/attacks/XPATH_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 

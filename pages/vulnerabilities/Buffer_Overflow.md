@@ -28,7 +28,7 @@ Guide](:Category:OWASP_Guide_Project "wikilink") article on how to
 ### How to Review Code for Buffer Overflow Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-code-review-guide/) article on how to
 [Review Code for Buffer Overruns and
 Overflows](Reviewing_Code_for_Buffer_Overruns_and_Overflows "wikilink")
 Vulnerabilities.
