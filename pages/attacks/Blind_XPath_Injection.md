@@ -29,7 +29,7 @@ is executed. This type of attack is used in situations where the
 attacker has no knowledge about the structure of the XML document, or
 perhaps error message are suppressed, and is only able to pull once
 piece of information at a time by asking true/false
-questions(booleanized queries), much like [Blind SQL Injection](Blind_SQL_Injection "wikilink").
+questions(booleanized queries), much like [Blind SQL Injection](Blind_SQL_Injection).
 
 For more information, please see the article on regular [XPATH Injection](XPATH_Injection).
 
