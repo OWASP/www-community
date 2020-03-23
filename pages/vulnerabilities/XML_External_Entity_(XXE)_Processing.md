@@ -136,7 +136,7 @@ get RCE. Let’s modify the payload
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [SQL Injection](SQL_Injection "wikilink")
+  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)

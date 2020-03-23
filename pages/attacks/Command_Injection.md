@@ -260,7 +260,7 @@ Example:
 
   - [Code Injection](Code_Injection "wikilink")
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
-  - [Blind XPath Injection](Blind_XPath_Injection "wikilink")
+  - [Blind XPath Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
   - [LDAP injection](LDAP_injection "wikilink")
   - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
 

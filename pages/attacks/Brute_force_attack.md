@@ -181,7 +181,7 @@ guys who's wanna dig possible security holes.
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
-  - [Blind XPath Injection](Blind_XPath_Injection "wikilink")
+  - [Blind XPath Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 

@@ -51,7 +51,7 @@ Validation](Data_Validation "wikilink").
 ### How to Review Code for Cross-site scripting Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on
+Guide](https://owasp.org/www-project-code-review-guide/) article on
 [Reviewing Code for Cross-site
 scripting](Reviewing_Code_for_Cross-site_scripting "wikilink")
 Vulnerabilities.
