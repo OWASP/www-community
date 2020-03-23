@@ -29,16 +29,16 @@ TBD
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Brute force attack](Brute_force_attack "wikilink") against
     application log in interface.
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Weak Passwords](Weak_Passwords "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Authentication](:Category:Authentication "wikilink")
   - [Strong Password Policy](Strong_Password_Policy "wikilink")

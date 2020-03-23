@@ -31,7 +31,7 @@ document that the content is well-formed.
 
 ## Risk Factors
 
-  - Talk about the [factors](OWASP_Risk_Rating_Methodology "wikilink")
+  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
     that make this vulnerability likely or unlikely to actually happen
   - Discuss the technical impact of a successful exploit of this
     vulnerability
@@ -51,17 +51,17 @@ document that the content is well-formed.
     A short example description, small picture, or sample code with
     [links](http://www.site.com)
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 

@@ -185,15 +185,15 @@ non-availability.
   - [internal software
     developer](internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Code Injection](Code_Injection "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Buffer Overflow](Buffer_Overflow "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
@@ -207,5 +207,5 @@ __NOTOC__
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [need content here](Category:FIXME "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

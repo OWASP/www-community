@@ -199,21 +199,21 @@ but not all of the details of those decisions are covered here.
 
   - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Resource Injection](Resource_Injection "wikilink")
+  - [Resource Injection](https://owasp.org/www-community/attacks/Resource_Injection)
   - [Setting Manipulation](Setting_Manipulation "wikilink")
   - [Regular expression Denial of Service -
     ReDoS](Regular_expression_Denial_of_Service_-_ReDoS "wikilink")
   - [Cash Overflow](Cash_Overflow "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
   - [:Category: API Abuse](:Category:_API_Abuse "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Blocking Brute Force
     Attacks](Blocking_Brute_Force_Attacks "wikilink")

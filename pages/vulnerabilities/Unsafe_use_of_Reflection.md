@@ -109,17 +109,17 @@ applications, in larger applications where complexity grows
 exponentially it is not unreasonable that an attacker could find a
 constructor to leverage as part of an attack.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category:Input Validation](:Category:Input_Validation "wikilink")
 

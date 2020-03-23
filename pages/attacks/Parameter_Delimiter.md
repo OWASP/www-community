@@ -65,16 +65,16 @@ profiles, it allows privilege escalation for application users.
   - [:Category: Command
     Execution](:Category:_Command_Execution "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Input
     Validation](:Category:_Input_Validation "wikilink")
@@ -85,5 +85,5 @@ profiles, it allows privilege escalation for application users.
   - <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0307>
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

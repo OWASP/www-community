@@ -29,21 +29,21 @@ administrative account, CSRF can compromise the entire web application.
 ### How to Review Code for CSRF Vulnerabilities
 
 See the [OWASP Code Review
-Guide](:Category:OWASP_Code_Review_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-code-review-guide/) article on how to
 [review code for CSRF
 vulnerabilities](Reviewing_code_for_Cross-Site_Request_Forgery_issues "wikilink").
 
 ### How to Test for CSRF Vulnerabilities
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [test for CSRF
 vulnerabilities](Testing_for_CSRF_\(OTG-SESS-005\) "wikilink").
 
 ### How to Prevent CSRF Vulnerabilities
 
 See the [CSRF Prevention Cheat
-Sheet](CSRF_Prevention_Cheat_Sheet "wikilink") for prevention measures.
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html) for prevention measures.
 
 Listen to the [OWASP Top Ten CSRF
 Podcast](http://www.owasp.org/download/jmanico/owasp_podcast_69.mp3).
@@ -272,19 +272,19 @@ browsers thanks to [same-origin policy](Same-Origin_Policy "wikilink")
 restrictions. This restriction is enabled by default unless the target
 web site explicitly opens up cross-origin requests from the attacker's
 (or everyone's) origin by using
-[CORS](HTML5_Security_Cheat_Sheet#Cross_Origin_Resource_Sharing "wikilink")
+[CORS](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#cross-origin-resource-sharing)
 with the following header:
 
     Access-Control-Allow-Origin: *
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Cross-site Scripting
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
   - [Cross Site History Manipulation
     (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Add a per-request nonce to the URL and all forms in addition to the
     standard session. This is also referred to as "form keys". Many
@@ -294,8 +294,8 @@ with the following header:
   - Add a hash (session id, function name, server-side secret) to all
     forms.
   - For .NET, add a session identifier to ViewState with MAC (described
-    in detail in [the CSRF Prevention Cheat
-    Sheet](Cross-Site_Request_Forgery_\(CSRF\)_Prevention_Cheat_Sheet#Viewstate_\(ASP.NET\) "wikilink")).
+    in detail in [the DotNet Security Cheat
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html#asp-net-web-forms-guidance)).
   - Checking the referrer header in the client's HTTP request can
     prevent CSRF attacks. Ensuring that the HTTP request has come from
     the original site means that attacks from other sites will not
@@ -317,7 +317,7 @@ with the following header:
 ## References
 
   - OWASP [Cross-Site Request Forgery (CSRF) Prevention Cheat
-    Sheet](Cross-Site_Request_Forgery_\(CSRF\)_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 
 <!-- end list -->
 

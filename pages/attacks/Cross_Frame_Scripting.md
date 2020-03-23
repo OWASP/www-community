@@ -162,7 +162,7 @@ element as a vehicle to run some javascript code in the attacked page.
 ## Related Attacks
 
   - An attacker might use a hidden frame to carry out a [Cross-site
-    Scripting (XSS)](Cross-site_Scripting_\(XSS\) "wikilink") attack.
+    Scripting (XSS)](xss) attack.
   - An attacker might use a hidden frame to carry out a [Cross-Site
     Request Forgery
     (CSRF)](Cross-Site_Request_Forgery_\(CSRF\) "wikilink") attack.
@@ -191,5 +191,3 @@ element as a vehicle to run some javascript code in the attacked page.
   - iDefense Labs advisory [Microsoft Internet Explorer Cross Frame
     Scripting Restriction
     Bypass](http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=77)
-
-[Category:Attack](Category:Attack "wikilink")

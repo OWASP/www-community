@@ -48,17 +48,17 @@ password to connect to a database.
     ...
 ```
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Attack 1](Attack_1 "wikilink")
   - [Attack 2](Attack_2 "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Password Management
     Countermeasure](Password_Management_Countermeasure "wikilink")

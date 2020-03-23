@@ -53,17 +53,17 @@ exploit this vulnerability as the request above is captured in the
 server logs even when requested via an encrypted channel:
 <https://vulnerablehost.com/information-exposure-log.png>
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Forced browsing](https://www.owasp.org/index.php/Forced_browsing)
 
 TBD
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
 TBD
 

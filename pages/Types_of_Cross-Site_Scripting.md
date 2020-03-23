@@ -141,7 +141,7 @@ can’t for some reason, then context sensitive output encoding can be
 done in the browser, before passing that data to the unsafe JavaScript
 method. OWASP’s guidance on how do this properly is presented in the
 [DOM based XSS Prevention Cheat
-Sheet](DOM_based_XSS_Prevention_Cheat_Sheet "wikilink"). Note that this
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html). Note that this
 guidance is applicable to all types of Client XSS, regardless of where
 the data actually comes from (DOM or Server).
 
@@ -164,9 +164,9 @@ writeup), Amit Klein, July 2005
     (AKA Non-Persistent or Type II XSS)
   - [DOM Based XSS](DOM_Based_XSS "wikilink")
   - [XSS (Cross Site Scripting) Prevention Cheat
-    Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
   - [DOM based XSS Prevention Cheat
-    Sheet](DOM_based_XSS_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
 
 ### Acknowledgements
 

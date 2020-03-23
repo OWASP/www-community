@@ -115,19 +115,19 @@ for further information.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Cross-site Scripting
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Vulnerability 1](Vulnerability_1 "wikilink")
   - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 TBD
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input Validation](Input_Validation "wikilink")
   - [Output Validation](Output_Validation "wikilink")

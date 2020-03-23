@@ -77,16 +77,16 @@ information.
   - [Internal software
     developer](Internal_software_developer "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Path Traversal (Path Manipulation)](Path_Traversal "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Access Control
     Vulnerability](:Category:Access_Control_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Access Control](:Category:_Access_Control "wikilink")
 

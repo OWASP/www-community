@@ -5,7 +5,9 @@ layout: col-sidebar
 author:
 contributors:
 auto-migrated: 1
-permalink: /Clickjacking
+permalink: /attacks/Clickjacking
+tags: attack, clickjacking
+
 ---
 
 Clickjacking, also known as a "UI redress attack", is when an attacker

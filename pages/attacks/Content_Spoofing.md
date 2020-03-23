@@ -168,22 +168,21 @@ Other example:
 
     http://vulnerablesite/suggestions.php?stockid=123&stockrecommendation=Our+site+has+experienced+major+hacking+incident.Please+use+our+competitor+site+http://www.competitor.com+until+we+further+announced+for+update.
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Cross-site Scripting
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
   - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
   - [Improper Data Validation](Improper_Data_Validation "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [XSS (Cross Site Scripting) Prevention Cheat
-    Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink")
+  - [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 
 ## References
 
@@ -193,7 +192,7 @@ Other example:
   - CERT Advisory on Malicious HTML Tags:
     <http://www.cert.org/advisories/CA-2000-02.html>
   - OWASP's [XSS (Cross Site Scripting) Prevention Cheat
-    Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink")
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
   - OWASP Guide to Building Secure Web Applications and Web Services,
     Chapter 8: [Data Validation](Data_Validation "wikilink")
   - HTML Code Injection and Cross-site Scripting:
@@ -201,5 +200,5 @@ Other example:
   - Case studies (Spotify, LinkedIn, ..etc):
     <https://twitter.com/ncweaver/status/974802236567007232?s=12>
 
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

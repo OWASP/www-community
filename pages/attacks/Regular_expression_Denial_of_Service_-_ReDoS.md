@@ -168,17 +168,17 @@ will hang.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Denial of Service](Denial_of_Service "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Input Validation
     Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
   - [:Category: API Abuse](:Category:_API_Abuse "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input Validation](Input_Validation "wikilink")
   - [Output Validation](Output_Validation "wikilink")
@@ -216,4 +216,4 @@ TBD
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Attack](Category:Attack "wikilink")
-[Category:Injection](Category:Injection "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)

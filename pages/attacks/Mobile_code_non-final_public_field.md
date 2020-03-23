@@ -59,18 +59,18 @@ When a variable is declared as final its value cannot be modified.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Mobile code: invoking untrusted mobile
     code](Mobile_code:_invoking_untrusted_mobile_code "wikilink")
   - [Mobile code: object hijack](Mobile_code:_object_hijack "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category: Unsafe Mobile
     Code](:Category:_Unsafe_Mobile_Code "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Access Control](:Category:_Access_Control "wikilink")
 

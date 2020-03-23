@@ -74,16 +74,16 @@ For more details about this attack, see:
 
   - [:Category: Logical Attacks](:Category:_Logical_Attacks "wikilink")
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Denial of Service](Denial_of_Service "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:General Logic Error
     Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Error Handling](:Category:_Error_Handling "wikilink")
 

@@ -118,18 +118,18 @@ a different site inside an IFRAME makes it vulnerable.
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Cross-site Scripting
     (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
   - [Cross-Site Request Forgery
     (CSRF)](Cross-Site_Request_Forgery_\(CSRF\) "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [Cross Site Scripting Flaw](Cross_Site_Scripting_Flaw "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [Input Validation](Input_Validation "wikilink")
   - [Output Validation](Output_Validation "wikilink")

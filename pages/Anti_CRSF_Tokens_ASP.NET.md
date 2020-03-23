@@ -5,7 +5,6 @@ layout: col-sidebar
 author:
 contributors:
 tags:
-auto-migrated: 1
 permalink: /Anti_CRSF_Tokens_ASP-NET
 
 ---
@@ -35,8 +34,7 @@ unique for every individual session. This guarantees that every
 form/request is tied to the authenticated user and, therefore, protected
 from CSRF.
 
-**Important**:
-non-[idempotent](https://www.wordnik.com/words/idempotent) GET requests
+**Important**: non-[idempotent](https://www.wordnik.com/words/idempotent) GET requests
 represent an anti-pattern where CSRF protection is concerned. Always use
 POST requests with anti-CSRF tokens for proper protection.
 
@@ -48,26 +46,26 @@ may call for adjustments and/or combinations of different strategies.
 
 ## Solutions NOT considered secure
 
-\- All of the solutions provided in this article are not designed to
+- All of the solutions provided in this article are not designed to
 work with GET requests that change the server state (e.g.,
 /example/delete.aspx?id=1). GET requests should be
 [idempotent](https://www.wordnik.com/words/idempotent) so that CSRF
 cannot take place.
 
-\- Assuming that SSL/TLS will thwart CSRF attacks just because the
+- Assuming that SSL/TLS will thwart CSRF attacks just because the
 cookie is marked "Secure" and/or "HTTPOnly". The problem lies in the
 trust between legitimate browser and server. Therefore, the browser will
 just send its current cookies when the forged request is triggered. The
 attacker never has to touch any cookies.
 
-\- Referer header verification as the only protection. This can be
+- Referer header verification as the only protection. This can be
 easily manipulated.
 
-\- Cookie double-submission when the cookie utilized is the session
+- Cookie double-submission when the cookie utilized is the session
 cookie. This exposes the session cookie to JavaScript. Always mark the
 session cookie "HTTPOnly" so that it cannot be accessed with JavaScript.
 
-\- Any CSRF protection is null and void given the presence of XSS, for
+- Any CSRF protection is null and void given the presence of XSS, for
 several reasons. The main and obvious reason is that, through XSS, the
 attacker can hijack the session and spoof the user, not even having to
 worry about performing CSRF.
@@ -77,16 +75,16 @@ worry about performing CSRF.
 ASP.NET has the capability to generate anti-CSRF security tokens for
 consumption by your application, as such:
 
-1\) Authenticated user (has session which is managed by the framework)
+1) Authenticated user (has session which is managed by the framework)
 requests a page which contains form(s) that changes the server state
 (e.g., user options, account transfer, file upload, admin functions,
 etc.)
 
-2\) Generate the security token (or grab it from the session state) and
+2) Generate the security token (or grab it from the session state) and
 send the token as a session cookie (again, managed in the session state,
 unique per session) **as well as within a hidden value in each form**.
 
-3\) Once the user submits the form, validate the token stored in the
+3) Once the user submits the form, validate the token stored in the
 session state against the token included in the submitted form value. On
 failure, disregard form.
 
@@ -96,17 +94,15 @@ framework session state) and within a hidden form value at the same
 time.
 
 For implementation details, see:
-[MVC CSRF Prevention (official ASP.NET
-blog)](http://www.asp.net/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages)
-[Web API CSRF Prevention (official ASP.NET
-blog)](http://www.asp.net/web-api/overview/security/preventing-cross-site-request-forgery-%28csrf%29-attacks)
+[MVC CSRF Prevention (official ASP.NET blog)](http://www.asp.net/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages)
+[Web API CSRF Prevention (official ASP.NET blog)](http://www.asp.net/web-api/overview/security/preventing-cross-site-request-forgery-%28csrf%29-attacks)
+
 The standard frequency of token generation is **per-session**, so make
 sure your sessions have a reasonable/configurable **time-out**. It is
 possible to issue new tokens on a per-request basis. However, the added
 protection may be insignificant, if this approach even fits your
 application. See the link below for a discussion on the matter:
-[Why refresh CSRF token per form
-request?](http://security.stackexchange.com/questions/22903/why-refresh-csrf-token-per-form-request)
+[Why refresh CSRF token per form request?](http://security.stackexchange.com/questions/22903/why-refresh-csrf-token-per-form-request)
 
 ## WebForms: ViewState
 
@@ -133,15 +129,12 @@ protection but also makes use of tokens (which you can generate as
 GUIDs) so that you can set the ViewStateUserKey to the token rather than
 the Session ID, and then validate it against the cookie.
 
-Here's a [blog post by Eric Johnson and James
-Jardine](http://software-security.sans.org/developer-how-to/developer-guide-csrf)
+Here's a [blog post by Eric Johnson and James Jardine](http://software-security.sans.org/developer-how-to/developer-guide-csrf)
 with an example of this implementation.
 
 For more implementation details, see:
-[MSDN - Securing
-ViewState](http://msdn.microsoft.com/en-us/library/ms178199%28v=vs.85%29.aspx)
-[MSDN -
-ViewStateUserKey](http://msdn.microsoft.com/en-us/library/ms972969.aspx#securitybarriers_topic2)
+[MSDN - Securing ViewState](http://msdn.microsoft.com/en-us/library/ms178199%28v=vs.85%29.aspx)
+[MSDN - ViewStateUserKey](http://msdn.microsoft.com/en-us/library/ms972969.aspx#securitybarriers_topic2)
 
 ## Considerations for AJAX
 
@@ -155,65 +148,32 @@ token with the rest of the POST data.
 
 For more guidance, see the **answers** given to the following
 questions:
-[Anti-CSRF
-Cookie](http://stackoverflow.com/questions/8253396/anti-csrf-cookie)
-[CSRF Protection With Custom
-Headers](http://security.stackexchange.com/questions/23371/csrf-protection-with-custom-headers-and-without-validating-token)
+[Anti-CSRF Cookie](http://stackoverflow.com/questions/8253396/anti-csrf-cookie)
+[CSRF Protection With Custom Headers](http://security.stackexchange.com/questions/23371/csrf-protection-with-custom-headers-and-without-validating-token)
 
-# Related [Attacks](Attacks "wikilink")
+# Related [Attacks](https://owasp.org/www-community/attacks/)
 
-[CSRF
-(Attack)](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_\(CSRF\))
-[CSRF (Full Wikipedia
-Article)](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
-[XSS
-(Attack)](https://www.owasp.org/index.php/Cross-site_Scripting_\(XSS\))
+[CSRF (Attack)](https://owasp.org/www-community/attacks/csrf/)
+[CSRF (Full Wikipedia Article)](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
+[XSS (Attack)](https://owasp.org/www-community/attacks/xss/)
 
-# Related [Vulnerabilities](Vulnerabilities "wikilink")
+# Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 [XSS](https://www.owasp.org/index.php/Cross_Site_Scripting_Flaw)
-[Insecure
-Randomness](https://www.owasp.org/index.php/Insecure_Randomness)
-[Insecure Third-Party Domain
-Access](https://www.owasp.org/index.php/Insecure_Third_Party_Domain_Access)
-[Non-Cryptographic Pseudo-Random Number
-Generator](https://www.owasp.org/index.php/Non-cryptographic_pseudo-random_number_generator)
-
-# Related [Controls](Controls "wikilink")
-
-[.NET CSRF Guard](https://www.owasp.org/index.php/.Net_CSRF_Guard)
-
-# Related [Technical Impacts](Technical_Impacts "wikilink")
-
-[Accountability](https://www.owasp.org/index.php/Loss_of_accountability)
-[Confidentiality](https://www.owasp.org/index.php/Loss_of_confidentiality)
+[Insecure Randomness](https://owasp.org/www-community/vulnerabilities/Insecure_Randomness)
+[Insecure Third-Party Domain Access](https://owasp.org/www-community/vulnerabilities/Insecure_Third_Party_Domain_Access)
 
 # References
 
-[Why refresh CSRF token per form
-request?](http://security.stackexchange.com/questions/22903/why-refresh-csrf-token-per-form-request)
-[CSRF Prevention (official ASP.NET
-blog)](http://www.asp.net/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages)
-[Preventing CSRF Attacks (official ASP.NET
-blog)](http://www.asp.net/web-api/overview/security/preventing-cross-site-request-forgery-%28csrf%29-attacks)
-[Anti-CSRF and
-Cookies](http://stackoverflow.com/questions/8253396/anti-csrf-cookie)
-[How to protect against CSRF by default in ASP.NET
-MVC 4?](http://stackoverflow.com/questions/9965342/how-to-protect-against-csrf-by-default-in-asp-net-mvc-4)
-[How does ViewState protect against
-CSRF?](http://security.stackexchange.com/questions/19152/how-does-viewstate-protect-against-csrf)
-[How To Fix CSRF using Microsoft .Net ViewStateUserKey and Double Submit
-Cookie, by Eric Johnson and James
-Jardine](http://software-security.sans.org/developer-how-to/developer-guide-csrf)
-[CSRF Protection With Custom Headers (focus on the answer, not the
-question)](http://security.stackexchange.com/questions/23371/csrf-protection-with-custom-headers-and-without-validating-token)
-[MSDN - Securing
-ViewState](http://msdn.microsoft.com/en-us/library/ms178199%28v=vs.85%29.aspx)
-[MSDN -
-ViewStateUserKey](http://msdn.microsoft.com/en-us/library/ms972969.aspx#securitybarriers_topic2)
-[MSDN -
-HtmlHelper.AntiForgeryToken](http://msdn.microsoft.com/en-us/library/dd470175%28v=vs.100%29.aspx)
-[MSDN -
-ValidateAntiForgeryTokenAttribute](http://msdn.microsoft.com/en-us/library/system.web.mvc.validateantiforgerytokenattribute%28v=vs.100%29.aspx)
-
-[Category:OWASP .NET Project](Category:OWASP_.NET_Project "wikilink")
+[Why refresh CSRF token per form request?](http://security.stackexchange.com/questions/22903/why-refresh-csrf-token-per-form-request)
+[CSRF Prevention (official ASP.NET blog)](http://www.asp.net/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages)
+[Preventing CSRF Attacks (official ASP.NET blog)](http://www.asp.net/web-api/overview/security/preventing-cross-site-request-forgery-%28csrf%29-attacks)
+[Anti-CSRF and Cookies](http://stackoverflow.com/questions/8253396/anti-csrf-cookie)
+[How to protect against CSRF by default in ASP.NET MVC 4?](http://stackoverflow.com/questions/9965342/how-to-protect-against-csrf-by-default-in-asp-net-mvc-4)
+[How does ViewState protect against CSRF?](http://security.stackexchange.com/questions/19152/how-does-viewstate-protect-against-csrf)
+[How To Fix CSRF using Microsoft .Net ViewStateUserKey and Double Submit Cookie, by Eric Johnson and James Jardine](http://software-security.sans.org/developer-how-to/developer-guide-csrf)
+[CSRF Protection With Custom Headers (focus on the answer, not the question)](http://security.stackexchange.com/questions/23371/csrf-protection-with-custom-headers-and-without-validating-token)
+[MSDN - Securing ViewState](http://msdn.microsoft.com/en-us/library/ms178199%28v=vs.85%29.aspx)
+[MSDN - ViewStateUserKey](http://msdn.microsoft.com/en-us/library/ms972969.aspx#securitybarriers_topic2)
+[MSDN - HtmlHelper.AntiForgeryToken](http://msdn.microsoft.com/en-us/library/dd470175%28v=vs.100%29.aspx)
+[MSDN - ValidateAntiForgeryTokenAttribute](http://msdn.microsoft.com/en-us/library/system.web.mvc.validateantiforgerytokenattribute%28v=vs.100%29.aspx)

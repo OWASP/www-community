@@ -122,17 +122,17 @@ There result will be:
 
 TBD
 
-## Related [Attacks](Attacks "wikilink")
+## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Embedding_Null_Code](Embedding_Null_Code "wikilink")
   - [Unicode Encoding](Unicode_Encoding "wikilink")
 
-## Related [Vulnerabilities](Vulnerabilities "wikilink")
+## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
   - [:Category:Input Validation
     Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - [:Category: Input
     Validation](:Category:_Input_Validation "wikilink")
@@ -146,6 +146,6 @@ TBD
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [please check the second link](Category:FIXME "wikilink")
-[Category:Injection](Category:Injection "wikilink") [Category:Resource
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws) [Category:Resource
 Manipulation](Category:Resource_Manipulation "wikilink")
 [Category:Attack](Category:Attack "wikilink")

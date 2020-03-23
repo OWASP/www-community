@@ -63,7 +63,7 @@ state.
 
 ## Risk Factors
 
-  - Talk about the [factors](OWASP_Risk_Rating_Methodology "wikilink")
+  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
     that make this vulnerability likely or unlikely to actually happen
   - Discuss the technical impact of a successful exploit of this
     vulnerability
@@ -74,7 +74,7 @@ state.
 See *Race condition in signal handler*, for an example usage of free()
 in a signal handler which is exploitable.
 
-## Related [Controls](Controls "wikilink")
+## Related [Controls](https://owasp.org/www-community/controls/)
 
   - Requirements specification: A language might be chosen which is not
     subject to this flaw, through a guarantee of reentrant code.
