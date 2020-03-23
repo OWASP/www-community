@@ -36,7 +36,7 @@ Vulnerabilities.
 ### How to Test for Buffer Overflow Vulnerabilities
 
 See the [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 [Test for Buffer
 Overflow](Testing_for_Buffer_Overflow_\(OWASP-DV-014\) "wikilink")
 Vulnerabilities.

@@ -59,7 +59,7 @@ Vulnerabilities.
 ### How to Test for Cross-site scripting Vulnerabilities
 
 See the latest [OWASP Testing
-Guide](:Category:OWASP_Testing_Project "wikilink") article on how to
+Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 test for the various kinds of XSS vulnerabilities.
 
   - [Testing_for_Reflected_Cross_site_scripting_(OWASP-DV-001)](Testing_for_Reflected_Cross_site_scripting_\(OWASP-DV-001\) "wikilink")
