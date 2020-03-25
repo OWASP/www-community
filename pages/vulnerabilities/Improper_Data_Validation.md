@@ -6,27 +6,16 @@ author:
 contributors: 
 permalink: /vulnerabilities/Improper_Data_Validation
 tags: vulnerability, Improper Data Validation
-auto-migrated: 1
 
 ---
-
-[Vulnerabilities Table of Contents](ASDR_TOC_Vulnerabilities "wikilink")
-
-__TOC__
 
 ## Description
 
 ### Struts: Duplicate Validation Forms
 
-Multiple validation forms with the same name indicate that validation
-logic is not up-to-date.
+Multiple validation forms with the same name indicate that validation logic is not up-to-date.
 
-If two validation forms have the same name, the Struts Validator
-arbitrarily chooses one of the forms to use for input validation and
-discards the other. This decision might not correspond to the
-programmer's expectations. Moreover, it indicates that the validation
-logic is not being maintained, and can indicate that other, more subtle,
-validation errors are present.
+If two validation forms have the same name, the Struts Validator arbitrarily chooses one of the forms to use for input validation and discards the other. This decision might not correspond to the programmer's expectations. Moreover, it indicates that the validation logic is not being maintained, and can indicate that other, more subtle, validation errors are present.
 
 **Example**
 
@@ -45,26 +34,13 @@ Two validation forms with the same name.
     </form-validation>
 ```
 
-It is critically important that validation logic be maintained and kept
-in sync with the rest of the application. Unchecked input is the root
-cause of some of today's worst and most common software security
-problems. Cross-site scripting, SQL injection, and process control
-vulnerabilities all stem from incomplete or absent input validation.
-Although J2EE applications are not generally susceptible to memory
-corruption attacks, if a J2EE application interfaces with native code
-that does not perform array bounds checking, an attacker may be able to
-use an input validation mistake in the J2EE application to launch a
-buffer overflow attack.
+It is critically important that validation logic be maintained and kept in sync with the rest of the application. Unchecked input is the root cause of some of today's worst and most common software security problems. Cross-site scripting, SQL injection, and process control vulnerabilities all stem from incomplete or absent input validation. Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
 ### Struts: Erroneous validate() Method
 
-The validator form defines a validate() method but fails to call
-super.validate().
+The validator form defines a `validate()` method but fails to call `super.validate()`.
 
-The Struts Validator uses a form's code\>validate() method to check the
-contents of the form properties against the constraints specified in the
-associated validation form. That means the following classes have a
-validate() method that is part of the validation framework:
+The Struts Validator uses a form's `validate()` method to check the contents of the form properties against the constraints specified in the associated validation form. That means the following classes have a `validate()` method that is part of the validation framework:
 
 ```
     ValidatorForm
@@ -73,21 +49,9 @@ validate() method that is part of the validation framework:
     DynaValidatorActionForm
 ```
 
-If you create a class that extends one of these classes and if your
-class implements custom validation logic by overriding the validate()
-method, you must call super.validate() in your validate()
-implementation. If you do not, the Validation Framework cannot check the
-contents of the form against a validation form. In other words, the
-validation framework will be disabled for the given form.
+If you create a class that extends one of these classes and if your class implements custom validation logic by overriding the `validate()` method, you must call `super.validate()` in your `validate()` implementation. If you do not, the Validation Framework cannot check the contents of the form against a validation form. In other words, the validation framework will be disabled for the given form.
 
-Disabling the validation framework for a form exposes the application to
-numerous types of attacks. Unchecked input is the root cause of
-vulnerabilities like cross-site scripting, process control, and SQL
-injection. Although J2EE applications are not generally susceptible to
-memory corruption attacks, if a J2EE application interfaces with native
-code that does not perform array bounds checking, an attacker may be
-able to use an input validation mistake in the J2EE application to
-launch a buffer overflow attack.
+Disabling the validation framework for a form exposes the application to numerous types of attacks. Unchecked input is the root cause of vulnerabilities like cross-site scripting, process control, and SQL injection. Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
 ### Struts: Form Does Not Extend Validation Class
 
@@ -103,118 +67,65 @@ following:
     DynaValidatorForm.
 ```
 
-You must extend one of these classes because the Struts Validator ties
-in to your application by implementing the validate() method in these
-classes.
+You must extend one of these classes because the Struts Validator ties in to your application by implementing the `validate()` method in these classes.
 
-Forms derived from the following classes cannot use the Struts
-Validator:
+Forms derived from the following classes cannot use the Struts Validator:
 
 ```
     ActionForm
     DynaActionForm
 ```
 
-Bypassing the validation framework for a form exposes the application to
-numerous types of attacks. Unchecked input is the root cause of
-vulnerabilities like cross-site scripting, process control, and SQL
-injection. Although J2EE applications are not generally susceptible to
-memory corruption attacks, if a J2EE application interfaces with native
-code that does not perform array bounds checking, an attacker may be
-able to use an input validation mistake in the J2EE application to
-launch a buffer overflow attack.
+Bypassing the validation framework for a form exposes the application to numerous types of attacks. Unchecked input is the root cause of vulnerabilities like cross-site scripting, process control, and SQL injection. Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
 ### Struts: Form Field Without Validator
 
-Every field in a form should be validated in the corresponding
-validation form.
+Every field in a form should be validated in the corresponding validation form.
 
-Omitting validation for even a single input field may allow attackers
-the leeway they need.
+Omitting validation for even a single input field may allow attackers the leeway they need.
 
-Unchecked input is the root cause of some of today's worst and most
-common software security problems. Cross-site scripting, SQL injection,
-and process control vulnerabilities all stem from incomplete or absent
-input validation. Although J2EE applications are not generally
-susceptible to memory corruption attacks, if a J2EE application
-interfaces with native code that does not perform array bounds checking,
-an attacker may be able to use an input validation mistake in the J2EE
-application to launch a buffer overflow attack.
+Unchecked input is the root cause of some of today's worst and most common software security problems. Cross-site scripting, SQL injection, and process control vulnerabilities all stem from incomplete or absent input validation. Although J2EE applications are not generally
+susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
-Some applications use the same ActionForm for more than one purpose. In
-situations like this, some fields may go unused under some action
-mappings. **It is critical that unused fields be validated too.**
-Preferably, unused fields should be constrained so that they can only be
-empty or undefined. If unused fields are not validated, shared business
-logic in an action may allow attackers to bypass the validation checks
-that are performed for other uses of the form.
+Some applications use the same ActionForm for more than one purpose. In situations like this, some fields may go unused under some action mappings. **It is critical that unused fields be validated too.** Preferably, unused fields should be constrained so that they can only be empty or undefined. If unused fields are not validated, shared business logic in an action may allow attackers to bypass the validation checks that are performed for other uses of the form.
 
 ### Struts: Plug-in Framework Not In Use
 
-Use the Struts Validator to prevent vulnerabilities that result from
-unchecked input.
+Use the Struts Validator to prevent vulnerabilities that result from unchecked input.
 
-Unchecked input is the leading cause of vulnerabilities in J2EE
-applications. Unchecked input leads to cross-site scripting, process
-control, and SQL injection vulnerabilities, among others. Although J2EE
-applications are not generally susceptible to memory corruption attacks,
-if a J2EE application interfaces with native code that does not perform
-array bounds checking, an attacker may be able to use an input
-validation mistake in the J2EE application to launch a buffer overflow
-attack.
+Unchecked input is the leading cause of vulnerabilities in J2EE applications. Unchecked input leads to cross-site scripting, process control, and SQL injection vulnerabilities, among others. Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
-To prevent such attacks, use the Struts Validator to check all program
-input before it is processed by the application.
+To prevent such attacks, use the Struts Validator to check all program input before it is processed by the application.
 
 Example uses of the validator include checking to ensure that:
 
-  - Phone number fields contain only valid characters in phone numbers
-  - Boolean values are only "T" or "F"
-  - Free-form strings are of a reasonable length and composition
+- Phone number fields contain only valid characters in phone numbers
+- Boolean values are only "T" or "F"
+- Free-form strings are of a reasonable length and composition
 
 ### Struts: Unused Validation Form
 
-An unused validation form indicates that validation logic is not
-up-to-date.
+An unused validation form indicates that validation logic is not up-to-date.
 
-It is easy for developers to forget to update validation logic when they
-remove or rename action form mappings. One indication that validation
-logic is not being properly maintained is the presence of an unused
-validation form.
+It is easy for developers to forget to update validation logic when they remove or rename action form mappings. One indication that validation logic is not being properly maintained is the presence of an unused validation form.
 
 ### Struts: Unvalidated Action Form
 
 Every Action Form must have a corresponding validation form.
 
-If a Struts Action Form Mapping specifies a form, it must have a
-validation form defined under the Struts Validator. If an action form
-mapping does not have a validation form defined, it may be vulnerable to
-a number of attacks that rely on unchecked input.
+If a Struts Action Form Mapping specifies a form, it must have a validation form defined under the Struts Validator. If an action form mapping does not have a validation form defined, it may be vulnerable to a number of attacks that rely on unchecked input.
 
-Unchecked input is the root cause of some of today's worst and most
-common software security problems. Cross-site scripting, SQL injection,
-and process control vulnerabilities all stem from incomplete or absent
-input validation. Although J2EE applications are not generally
-susceptible to memory corruption attacks, if a J2EE application
-interfaces with native code that does not perform array bounds checking,
-an attacker may be able to use an input validation mistake in the J2EE
-application to launch a buffer overflow attack.
+Unchecked input is the root cause of some of today's worst and most common software security problems. Cross-site scripting, SQL injection, and process control vulnerabilities all stem from incomplete or absent input validation. Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
-An action or a form may perform validation in other ways, but the Struts
-Validator provides an excellent way to verify that all input receives at
-least a basic level of checking. Without this approach, it is difficult,
-and often impossible, to establish with a high level of confidence that
-all input is validated.
+An action or a form may perform validation in other ways, but the Struts Validator provides an excellent way to verify that all input receives at least a basic level of checking. Without this approach, it is difficult, and often impossible, to establish with a high level of confidence that all input is validated.
 
 ### Struts: Validator Turned Off
 
-This action form mapping disables the form's validate() method.
+This action form mapping disables the form's `validate()` method.
 
-An action form mapping should never disable validation. Disabling
-validation disables the Struts Validator as well as any custom
-validation logic performed by the form.
+An action form mapping should never disable validation. Disabling validation disables the Struts Validator as well as any custom validation logic performed by the form.
 
-**Example**
+#### Example
 
 An action form mapping that disables validation.
 
@@ -228,28 +139,17 @@ An action form mapping that disables validation.
     </action>
 ```
 
-Disabling validation exposes this action to numerous types of attacks.
-Unchecked input is the root cause of vulnerabilities like cross-site
-scripting, process control, and SQL injection. Although J2EE
-applications are not generally susceptible to memory corruption attacks,
-if a J2EE application interfaces with native code that does not perform
-array bounds checking, an attacker may be able to use an input
-validation mistake in the J2EE application to launch a buffer overflow
-attack.
+Disabling validation exposes this action to numerous types of attacks. Unchecked input is the root cause of vulnerabilities like cross-site scripting, process control, and SQL injection. Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
 ### Struts: Validator Without Form Field
 
-Validation fields that do not appear in forms they are associated with
-indicate that the validation logic is out of date.
+Validation fields that do not appear in forms they are associated with indicate that the validation logic is out of date.
 
-It is easy for developers to forget to update validation logic when they
-make changes to an ActionForm class. One indication that validation
-logic is not being properly maintained is inconsistencies between the
-action form and the validation form.
+It is easy for developers to forget to update validation logic when they make changes to an ActionForm class. One indication that validation logic is not being properly maintained is inconsistencies between the action form and the validation form.
 
-**Examples**
+#### Examples
 
-Example 1
+#### Example 1
 
 An action form with two fields.
 
@@ -265,10 +165,9 @@ An action form with two fields.
     }
 ```
 
-Example 1 shows an action form that has two fields, startDate and
-endDate.
+Example 1 shows an action form that has two fields, startDate and endDate.
 
-Example 2
+##### Example 2
 
 A validation form with a third field.
 
@@ -286,21 +185,9 @@ A validation form with a third field.
     </form>
 ```
 
-Example 2 lists a validation form for the action form. The validation
-form lists a third field: scale. The presence of the third field
-suggests that DateRangeForm was modified without taking validation into
-account.
+Example 2 lists a validation form for the action form. The validation form lists a third field: scale. The presence of the third field suggests that `DateRangeForm` was modified without taking validation into account.
 
-It is critically important that validation logic be maintained and kept
-in sync with the rest of the application. Unchecked input is the root
-cause of some of today's worst and most common software security
-problems. Cross-site scripting, SQL injection, and process control
-vulnerabilities all stem from incomplete or absent input validation.
-Although J2EE applications are not generally susceptible to memory
-corruption attacks, if a J2EE application interfaces with native code
-that does not perform array bounds checking, an attacker may be able to
-use an input validation mistake in the J2EE application to launch a
-buffer overflow attack.
+It is critically important that validation logic be maintained and kept in sync with the rest of the application. Unchecked input is the root cause of some of today's worst and most common software security problems. Cross-site scripting, SQL injection, and process control vulnerabilities all stem from incomplete or absent input validation. Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
 ## Risk Factors
 
@@ -308,36 +195,14 @@ TBD
 
 ## Examples
 
-## Related [Attacks](https://owasp.org/www-community/attacks/)
+## Related [Attacks](../attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+## Related [Vulnerabilities](../vulnerabilities/)
 
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-
-## Related [Technical Impacts](Technical_Impacts "wikilink")
-
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+## Related [Controls](../controls/)
 
 ## References
 
 TBD
 
 __NOTOC__
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Input Validation
-Vulnerability](Category:Input_Validation_Vulnerability "wikilink")
-[Category:Struts](Category:Struts "wikilink")
-[Category:Java](Category:Java "wikilink") [Category:Code
-Snippet](Category:Code_Snippet "wikilink")
-[Category:Implementation](Category:Implementation "wikilink")
-[Category:Vulnerability](Category:Vulnerability "wikilink")
