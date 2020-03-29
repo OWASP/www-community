@@ -202,13 +202,12 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     to verify detected vulnerabilities during SAST analysis; Supported
     languages include: Java, C\#, PHP, JavaScript, Objective C, VB.Net,
     PL/SQL, T-SQL, and others.
-  - [Application Security on
-    Cloud](https://www.ibm.com/us-en/marketplace/application-security-on-cloud)
-    (IBM) - Provides SAST, DAST and mobile security testing as well as
-    OpenSource library known vulnerability detection as a cloud service.
+  - [AppScan on
+    Cloud](https://cloud.appscan.com/)
+    (HCL Software) - Cloud-based application security testing suite to perform SAST, DAST, IAST & SCA on web and mobile application.
   - [AppScan
-    Source](https://www.ibm.com/us-en/marketplace/ibm-appscan-source)
-    (IBM)
+    Source](https://www.hcltechsw.com/wps/portal/products/appscan/offerings/source)
+    (HCL Software) - Static application security testing solution that helps identify vulnerabilities early in the development lifecycle, understand their origin and potential impact and remediate the problem
   - [BlueClosure BC Detect](https://www.blueclosure.com) (BlueClosure) -
     Analyzes client-side JavaScript.
   - [bugScout](https://bugscout.io/en/) (Nalbatech, Formally Buguroo)
