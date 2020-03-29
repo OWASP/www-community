@@ -39,18 +39,7 @@ Now assume a 128 bit session identifier that provides 64 bits of entropy. With a
 
 - Attackers that are try to obtain a valid session ID for [Session hijacking](../attacks/Session_hijacking_attack).
 
-## Examples
-
 
 ## Related [Attacks](../attacks/)
 
 - [Brute force attack](../attacks/Brute_force_attack)
-
-## Related [Vulnerabilities](../vulnerabilities/)
-
-
-## Related [Controls](../controls/)
-
-## References
-
-TBD
