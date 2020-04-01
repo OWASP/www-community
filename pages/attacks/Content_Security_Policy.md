@@ -318,7 +318,7 @@ implement CSP policies.
     perform a regular automatic first level check (do not replace an manual audit and manual audit must be also conducted regularly).
 
 You can also use [CSP Tester (browser
-extension)](https://www.oxdef.info/csp-tester) to build and test the
+extension)](https://oxdef.info/csp-tester) to build and test the
 policy for your web application.
 
 ## Information links
@@ -331,6 +331,7 @@ policy for your web application.
     <http://caniuse.com/#feat=contentsecuritypolicy>
   - CSP readiness browser testing:
     <http://erlend.oftedal.no/blog/csp/readiness/>
+  - CSP Quick Reference <https://content-security-policy.com/>
 
 [Category:Java](Category:Java "wikilink") [Category:
 Injection](Category:_Injection "wikilink")
