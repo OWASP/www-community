@@ -28,7 +28,7 @@ cookies, session tokens, or other sensitive information retained by the
 browser and used with that site. These scripts can even rewrite the
 content of the HTML page. For more details on the different types of XSS
 flaws, see: [Types of Cross-Site
-Scripting](Types_of_Cross-Site_Scripting "wikilink").
+Scripting](../../Types_of_Cross-Site_Scripting).
 
 ## Related Security Activities
 
@@ -62,9 +62,9 @@ See the latest [OWASP Testing
 Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 test for the various kinds of XSS vulnerabilities.
 
-  - [Testing_for_Reflected_Cross_site_scripting_(OWASP-DV-001)](Testing_for_Reflected_Cross_site_scripting_\(OWASP-DV-001\) "wikilink")
-  - [Testing_for_Stored_Cross_site_scripting_(OWASP-DV-002)](Testing_for_Stored_Cross_site_scripting_\(OWASP-DV-002\) "wikilink")
-  - [Testing_for_DOM-based_Cross_site_scripting_(OWASP-DV-003)](Testing_for_DOM-based_Cross_site_scripting_\(OWASP-DV-003\) "wikilink")
+  - [Testing_for_Reflected_Cross_site_scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md)
+  - [Testing_for_Stored_Cross_site_scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md)
+  - [Testing_for_DOM-based_Cross_site_scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md)
 
 ## Description
 
@@ -88,8 +88,8 @@ under the guise of the vulnerable site.
 
 XSS attacks can generally be categorized into two categories: stored and
 reflected. There is a third, much less well-known type of XSS attack
-called [DOM Based XSS](DOM_Based_XSS "wikilink") that is discussed
-separately [here](DOM_Based_XSS "wikilink").
+called [DOM Based XSS](../DOM_Based_XSS) that is discussed
+separately [here](../DOM_Based_XSS).
 
 #### Stored XSS Attacks
 
@@ -116,11 +116,11 @@ referred to as Non-Persistent or Type-II XSS.
 ### Other Types of XSS Vulnerabilities
 
 In addition to Stored and Reflected XSS, another type of XSS, [DOM Based
-XSS](DOM_Based_XSS "wikilink") was identified by [Amit Klein
+XSS](../DOM_Based_XSS) was identified by [Amit Klein
 in 2005](http://www.webappsec.org/projects/articles/071105.shtml). OWASP
 recommends the XSS categorization as described in the OWASP Article:
 [Types of Cross-Site
-Scripting](Types_of_Cross-Site_Scripting "wikilink"), which covers all
+Scripting](../../Types_of_Cross-Site_Scripting), which covers all
 these XSS terms, organizing them into a matrix of Stored vs. Reflected
 XSS and Server vs. Client XSS, where DOM Based XSS is a subset of Client
 XSS.
@@ -128,7 +128,7 @@ XSS.
 #### XSS Attack Consequences
 
 The consequence of an XSS attack is the same regardless of whether it is
-stored or reflected ([or DOM Based](DOM_Based_XSS "wikilink")). The
+stored or reflected ([or DOM Based](../DOM_Based_XSS)). The
 difference is in how the payload arrives at the server. Do not be fooled
 into thinking that a “read-only” or “brochureware” site is not
 vulnerable to serious reflected XSS attacks. XSS can cause a variety of
@@ -143,7 +143,7 @@ modify a press release or news item could affect a company’s stock price
 or lessen consumer confidence. An XSS vulnerability on a pharmaceutical
 site could allow an attacker to modify dosage information resulting in
 an overdose. For more information on these types of attacks see
-[Content_Spoofing](Content_Spoofing "wikilink").
+[Content_Spoofing](../Content_Spoofing).
 
 ### How to Determine If You Are Vulnerable
 
@@ -174,11 +174,11 @@ cookie information so the attacker can mount a session hijack attack.
 This is easily mitigated by removing support for HTTP TRACE on all web
 servers.
 
-The [OWASP ESAPI project](ESAPI "wikilink") has produced a set of
+The [OWASP ESAPI project](https://www.owasp.org/www-project-enterprise-security-api) has produced a set of
 reusable security components in several languages, including validation
 and escaping routines to prevent parameter tampering and the injection
 of XSS attacks. In addition, the [OWASP WebGoat
-Project](:Category:OWASP_WebGoat_Project "wikilink") training
+Project](https://www.owasp.org/www-project-webgoat/) training
 application has lessons on Cross-Site Scripting and data encoding.
 
 ### Alternate XSS Syntax
@@ -225,7 +225,7 @@ found in RFC 2397
     CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgndGVzdDMnKTwvc2NyaXB0Pg">
 
 These and others examples can be found at the OWASP [XSS Filter Evasion
-Cheat Sheet](XSS_Filter_Evasion_Cheat_Sheet "wikilink") which is a true
+Cheat Sheet](../../xss-filter-evasion-cheatsheet) which is a true
 encyclopedia of the alternate XSS syntax attack.
 
 ## Examples
