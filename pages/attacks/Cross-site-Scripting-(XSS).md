@@ -62,9 +62,9 @@ See the latest [OWASP Testing
 Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 test for the various kinds of XSS vulnerabilities.
 
-  - [Testing_for_Reflected_Cross_site_scripting_(OWASP-DV-001)](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md)
-  - [Testing_for_Stored_Cross_site_scripting_(OWASP-DV-002)](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md)
-  - [Testing_for_DOM-based_Cross_site_scripting_(OWASP-DV-003)](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md)
+  - [Testing_for_Reflected_Cross_site_scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md)
+  - [Testing_for_Stored_Cross_site_scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md)
+  - [Testing_for_DOM-based_Cross_site_scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md)
 
 ## Description
 
