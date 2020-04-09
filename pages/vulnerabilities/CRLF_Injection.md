@@ -29,7 +29,7 @@ Another example is the "response splitting" attacks, where CRLFs are injected in
 
 ## Related [Attacks](../attacks/)
 
-- [HTTP Response Splitting](../attakcs/HTTP_Response_Splitting)
+- [HTTP Response Splitting](../attacks/HTTP_Response_Splitting)
 - [Log Injection](../attacks/Log_Injection)
 
 ## Related [Vulnerabilities](../vulnerabilities/)
