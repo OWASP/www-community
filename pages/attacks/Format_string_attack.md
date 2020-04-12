@@ -99,85 +99,72 @@ parses the format string parameters shown in table 2.
 
 TBD
 
-## Examples
+## Example
 
-### Example1
+```
+#include  <stdio.h> 
+void main(int argc, char **argv)
+{
+	// This line is safe
+	printf("%s\n", argv[1]);
 
-This example demonstrates how the application can behave when the format
-function does not receive the necessary treatments for validation in the
-input of format string.
+	// This line is vulnerable
+	printf(argv[1]);
+}
+```
+### Safe code
+The `printf("%s", argv[1]);` in the example is safe, if you compile the program and run it:
 
-First is the application operating with normal behavior and normal
-inputs, then, the application operating when the attacker inputs the
-format string and the resulting behavior.
+`./example "Hello World %s%s%s%s%s%s"`
 
-Below is the source-code used for the example.
+The line `printf` in the first line will not interpret the "%s%s%s%s%s%s" in the input string, 
+and the output will be: "Hello World %s%s%s%s%s%s"
 
-`#include  <stdio.h>`
-`#include  <string.h>`
-`#include  <stdlib.h>`
+### Vulnerable code
+The `printf(argv[1]);` in the example is vulnerable, if you compile the program and run it:
 
-`int main (int argc, char **argv)`
-`{`
-`   char buf [100];`
-`   int x = 1 ; `
-`   snprintf ( buf, sizeof buf, argv [1] ) ;`
-`   buf [ sizeof buf -1 ] = 0;`
-`   printf ( “Buffer size is: (%d) \nData input: %s \n” , strlen (buf) , buf ) ;`
-`   printf ( “X equals: %d/ in hex: %#x\nMemory address for x: (%p) \n” , x, x, &x) ;`
-`   return 0 ;`
-`}`
+`./example "Hello World %s%s%s%s%s%s"`
 
-Next is the output that the program supplies when running with expected
-inputs. In this case the program received the string “Bob” as input and
-returned it in the output.
+The `printf` in the second line will interpret the "%s%s%s%s%s%s" in the input string as a reference to string pointers, so it will try to interpret every %s as a pointer to a string, starting from the location of the buffer (probably on the Stack).
+At some point, it will get to an invalid address, and attempting to access it will cause the program to crash.
 
-`./formattest “Bob”`
+### Different payloads
+An attacker can also use this to get information, not just crash the software.
+For example, running:
 
-`Buffer size is (3)`
-`Data input : Bob`
-`X equals: 1/ in hex: 0x1`
-`Memory address for x (0xbffff73c)`
+`./example "Hello World %p %p %p %p %p %p"`
 
-Now the format string vulnerability will be explored. If the format
-string parameter “%x %x” is inserted in the input string, when the
-format function parses the argument, the output will display the name
-Bob, but instead of showing the %x string, the application will show the
-contents of a memory address.
+Will print the lines:
 
-`./formattest “Bob %x %x”`
+```
+Hello World %p %p %p %p %p %p
+Hello World 000E133E 000E133E 0057F000 CCCCCCCC CCCCCCCC CCCCCCCC
+```
 
-`Buffer size is (14)`
-`Data input : Bob bffff 8740`
-`X equals: 1/ in hex: 0x1`
-`Memory address for x (0xbffff73c)`
+The first line is printed from the non-vulnerable version of `printf`, and the second line from the vulnerable line.
+The values printed after the "Hello World" text, are the values on the stack of my computer at the moment of running this example.
 
-The inputs Bob and the format strings parameters will be attributed to
-the variable buf inside the code which should take the place of the %s
-in the Data input. So now the printf argument looks like:
+Also reading and writing to any memory location is possible in some conditions, and even code execution.
+For more information, please see the [Exploiting Format String Vulnerabilities](https://cs155.stanford.edu/papers/formatstring-1.2.pdf) article from 2001.
 
-`printf ( “Buffer size is: (%d) \n Data input: Bob %x %x \n” , strlen (buf) , buf ) ;`
+### Similar functions to printf
+The whole printf function family is vulnerable.
+Here is an example of snprintf:
 
-When the application prints the results, the format function will
-interpret the format string inputs, showing the content of a memory
-address.
+```
+#include  <stdio.h>
+void main(int argc, char **argv)
+{
+	char buf[100];
+	snprintf(buf, sizeof buf, argv[1]);
+}
+```
 
-### Example 2
+Running this program as the following will cause a crash.
 
-**Denial of Service**
+`./example "Hello World %s%s%s%s%s%s"`
 
-In this case, when an invalid memory address is requested, normally the
-program is terminated.
 
-`printf (userName);`
-
-The attacker could insert a sequence of format strings, making the
-program show the memory address where a lot of other data are stored,
-then, the attacker increases the possibility that the program will read
-an illegal address, crashing the program and causing its
-non-availability.
-
-`printf (%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s);`
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
@@ -202,6 +189,7 @@ non-availability.
   - <http://www.webappsec.org/projects/threat/classes/format_string_attack.shtml>
   - <http://en.wikipedia.org/wiki/Format_string_attack>
   - <http://seclists.org/bugtraq/2005/Dec/0030.html>
+  - <https://cs155.stanford.edu/papers/formatstring-1.2.pdf>
 
 __NOTOC__
 
