@@ -73,7 +73,7 @@ getenv(3) library function in GNU/Linux. If the return value of this
 function is different than NULL (NULL value means that variable is not
 set), then a message is created by calling sprintf(3). This function
 doesn't validate the length of the string, which is going to be written
-in the targer 64 char size buffer - h\[\].
+in the target 64 char size buffer - h\[\].
 
 Common program execution:
 
