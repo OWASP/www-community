@@ -3,10 +3,9 @@
 layout: col-sidebar
 title: Format string attack
 author: 
-contributors: 
+contributors: meir555
 permalink: /attacks/Format_string_attack
 tags: attack, Format string attack
-auto-migrated: 1
 
 ---
 
@@ -95,13 +94,9 @@ parses the format string parameters shown in table 2.
 | %s         | String                                         | Reference |
 | %n         | Writes the number of characters into a pointer | Reference |
 
-## Risk Factors
-
-TBD
-
 ## Example
 
-```
+```c
 #include  <stdio.h> 
 void main(int argc, char **argv)
 {
@@ -112,7 +107,7 @@ void main(int argc, char **argv)
 	printf(argv[1]);
 }
 ```
-### Safe code
+### Safe Code
 The `printf("%s", argv[1]);` in the example is safe, if you compile the program and run it:
 
 `./example "Hello World %s%s%s%s%s%s"`
@@ -120,15 +115,15 @@ The `printf("%s", argv[1]);` in the example is safe, if you compile the program 
 The line `printf` in the first line will not interpret the "%s%s%s%s%s%s" in the input string, 
 and the output will be: "Hello World %s%s%s%s%s%s"
 
-### Vulnerable code
+### Vulnerable Code
 The `printf(argv[1]);` in the example is vulnerable, if you compile the program and run it:
 
 `./example "Hello World %s%s%s%s%s%s"`
 
-The `printf` in the second line will interpret the "%s%s%s%s%s%s" in the input string as a reference to string pointers, so it will try to interpret every %s as a pointer to a string, starting from the location of the buffer (probably on the Stack).
+The `printf` in the second line will interpret the `%s%s%s%s%s%s` in the input string as a reference to string pointers, so it will try to interpret every %s as a pointer to a string, starting from the location of the buffer (probably on the Stack).
 At some point, it will get to an invalid address, and attempting to access it will cause the program to crash.
 
-### Different payloads
+### Different Payloads
 An attacker can also use this to get information, not just crash the software.
 For example, running:
 
@@ -145,13 +140,14 @@ The first line is printed from the non-vulnerable version of `printf`, and the s
 The values printed after the "Hello World" text, are the values on the stack of my computer at the moment of running this example.
 
 Also reading and writing to any memory location is possible in some conditions, and even code execution.
+
 For more information, please see the [Exploiting Format String Vulnerabilities](https://cs155.stanford.edu/papers/formatstring-1.2.pdf) article from 2001.
 
-### Similar functions to printf
+### Similar Functions to printf
 The whole printf function family is vulnerable.
 Here is an example of snprintf:
 
-```
+```c
 #include  <stdio.h>
 void main(int argc, char **argv)
 {
@@ -164,21 +160,18 @@ Running this program as the following will cause a crash.
 
 `./example "Hello World %s%s%s%s%s%s"`
 
+## Related Threat Agents
 
-
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - [contractors](contractors "wikilink")
-  - [internal software
-    developer](internal_software_developer "wikilink")
+  - contractors
+  - internal software developer
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Code Injection](Code_Injection "wikilink")
+  - [Code Injection](Code_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Buffer Overflow](Buffer_Overflow "wikilink")
+  - [Buffer Overflow](Buffer_Overflow)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
@@ -191,9 +184,4 @@ Running this program as the following will cause a crash.
   - <http://seclists.org/bugtraq/2005/Dec/0030.html>
   - <https://cs155.stanford.edu/papers/formatstring-1.2.pdf>
 
-__NOTOC__
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[need content here](Category:FIXME "wikilink")
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
-[Category:Attack](Category:Attack "wikilink")
