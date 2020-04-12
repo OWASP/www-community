@@ -68,7 +68,7 @@ For more information on Clickjacking defense, please see the the [Clickjacking D
 - Mozilla developer resource on Content-Security-Policy frame-ancestors response header.
 - <https://developer.mozilla.org/en-US/docs/The_X-FRAME-OPTIONS_response_header>
 - Mozilla developer resource on the X-Frame-Options response header.
-- [Busting Frame Busting: A study of clickjacking vulnerabilites on top sites](http://w2spconf.com/2010/papers/p27.pdf)
+- [Busting Frame Busting: A study of clickjacking vulnerabilities on top sites](http://w2spconf.com/2010/papers/p27.pdf)
 - A study by the Stanford Web Security Group outlining problems with deployed frame busting code.
 - [Clickjacking, Sec Theory](http://www.sectheory.com/clickjacking.htm)
 - A paper by Robert Hansen defining the term, its implications against Flash at the time of writing, and a disclosure timeline.

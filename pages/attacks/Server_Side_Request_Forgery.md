@@ -14,7 +14,7 @@ permalink: /attacks/Server_Side_Request_Forgery
 
 In a Server-Side Request Forgery (SSRF) attack, the attacker can abuse
 functionality on the server to read or update internal resources. The
-attacker can supply or a modify a URL which the code running on the
+attacker can supply or modify a URL which the code running on the
 server will read or submit data to, and by carefully selecting the URLs,
 the attacker may be able to read server configuration such as AWS
 metadata, connect to internal services like http enabled databases or

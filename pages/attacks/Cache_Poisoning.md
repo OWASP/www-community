@@ -43,7 +43,7 @@ A Cache Poisoning attack is possible because of [HTTP Response
 Splitting](HTTP_Response_Splitting "wikilink") and flaws in the web
 application. It is crucial from the attacker's point of view that the
 application allows for filling the header field with more than one
-header using CR (Carrige Return) and LF (Line Feed) characters.
+header using CR (Carriage Return) and LF (Line Feed) characters.
 
 ## Examples
 
@@ -121,9 +121,9 @@ The rest of the requests should be executed during one connection (if
 the cache server doesn't require a more sophisticated method to be
 used), possibly immediately one after another.
 
-It may appear problematic to use this attack as a universal techique for
+It may appear problematic to use this attack as a universal technique for
 cache poisoning. It's due to cache server's different connection model
-and request proccessing implementations. What does it mean? That for
+and request processing implementations. What does it mean? That for
 example effective method to poison Apache 2.x cache with mod_proxy and
 mod_cache modules won't work with Squid.
 
