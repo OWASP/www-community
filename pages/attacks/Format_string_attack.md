@@ -108,15 +108,15 @@ void main(int argc, char **argv)
 }
 ```
 ### Safe Code
-The `printf("%s", argv[1]);` in the example is safe, if you compile the program and run it:
+The line `printf("%s", argv[1]);` in the example is safe, if you compile the program and run it:
 
 `./example "Hello World %s%s%s%s%s%s"`
 
-The line `printf` in the first line will not interpret the "%s%s%s%s%s%s" in the input string, 
+The `printf` in the first line will not interpret the "%s%s%s%s%s%s" in the input string, 
 and the output will be: "Hello World %s%s%s%s%s%s"
 
 ### Vulnerable Code
-The `printf(argv[1]);` in the example is vulnerable, if you compile the program and run it:
+The line `printf(argv[1]);` in the example is vulnerable, if you compile the program and run it:
 
 `./example "Hello World %s%s%s%s%s%s"`
 
