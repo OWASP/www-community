@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: Form action hijacking
-author: 
+author: Robert Gilbert (amroot)
 contributors: 
 permalink: /attacks/Form_action_hijacking
 tags: attack, Form action hijacking

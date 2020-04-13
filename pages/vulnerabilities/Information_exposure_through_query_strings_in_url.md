@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: Information exposure through query strings in url
-author: 
+author: Robert Gilbert (amroot)
 contributors: 
 permalink: /vulnerabilities/Information_exposure_through_query_strings_in_url
 tags: vulnerability, Information exposure through query strings in url
@@ -33,7 +33,6 @@ The parameter values for `user`, `authz_token`, and `expire` will be exposed in 
 When not using an encrypted channel, all of the above and the following:
 
 - Man-in-the-Middle
-- TBD
 
 ### Exposure Proof-of-Concept
 
@@ -42,14 +41,6 @@ The following figure displays how an internal attacker can potentially exploit t
 ## Related [Attacks](../attacks/)
 
 - [Forced browsing](../attacks/Forced_browsing)
-
-## Related [Vulnerabilities](../vulnerabilities/)
-
-TBD
-
-## Related [Controls](../controls/)
-
-TBD
 
 ## References
 
