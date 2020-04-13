@@ -160,6 +160,11 @@ Running this program as the following will cause a crash.
 
 `./example "Hello World %s%s%s%s%s%s"`
 
+A safe use of snprintf will be:
+
+`snprintf(buf, sizeof buf, "%s", argv[1]);`
+
+
 ## Related Threat Agents
 
   - contractors
