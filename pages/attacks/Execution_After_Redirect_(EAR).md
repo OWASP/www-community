@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: Execution After Redirect (EAR)
-author: 
+author: Robert Gilbert (amroot)
 contributors: 
 permalink: /attacks/Execution_After_Redirect_(EAR)
 tags: attack, Execution After Redirect (EAR)
