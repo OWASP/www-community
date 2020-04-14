@@ -1,8 +1,8 @@
 ---
 
 layout: col-sidebar
-title: GSoC
-tags: gsoc
+title: Google Summer of Code
+tags: gsoc, Google Summer of Code
 permalink: /initiatives/gsoc/
 
 ---
