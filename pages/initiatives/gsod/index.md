@@ -11,8 +11,6 @@ permalink: /initiatives/gsod/
 
 OWASP was part of the initial Google Season of Docs last year
 
-[GSoC Student Application Template (SAT)](gsoc_sat)
-
 ### Current
 {% assign current = site.pages | where: 'url', '/initiatives/gsod/current/' | first %}
 * [{{current.title}}](/www-community{{current.url}})
