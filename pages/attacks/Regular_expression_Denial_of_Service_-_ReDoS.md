@@ -70,11 +70,11 @@ A Regex is called "evil" if it can stuck on crafted input.
 
 **Examples of Evil Patterns**:
 
-  - (a+)+
-  - (\[a-zA-Z\]+)\*
-  - (a|aa)+
-  - (a|a?)+
-  - (.\*a){x} | for x \> 10
+  - `(a+)+`
+  - `([a-zA-Z]+)*`
+  - `(a|aa)+`
+  - `(a|a?)+`
+  - `(.*a){x}` for x \> 10
 
 All the above are susceptible to the input
 ***aaaaaaaaaaaaaaaaaaaaaaaa\!*** (The minimum input length might change
