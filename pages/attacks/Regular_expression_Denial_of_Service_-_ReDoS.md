@@ -34,7 +34,7 @@ several possible next states, a deterministic algorithm is used. This
 algorithm tries one by one all the possible paths (if needed) until a
 match is found (or all the paths are tried and fail).
 
-For example, the Regex ***^(a+)+$*** is represented by the following
+For example, the Regex `^(a+)+$` is represented by the following
 NFA:
 
   -
@@ -42,9 +42,9 @@ NFA:
       -
         ![<File:NFA.png>](NFA.png "File:NFA.png")
 
-For the input ***aaaaX*** there are 16 possible paths in the above
-graph. But for ***aaaaaaaaaaaaaaaaX*** there are 65536 possible paths,
-and the number is double for each additional ***a***. This is an extreme
+For the input `aaaaX` there are 16 possible paths in the above
+graph. But for `aaaaaaaaaaaaaaaaX` there are 65536 possible paths,
+and the number is double for each additional `a`. This is an extreme
 case where the naïve algorithm is problematic, because it must pass on
 many many paths, and then fail.
 
@@ -74,10 +74,10 @@ A Regex is called "evil" if it can stuck on crafted input.
   - `([a-zA-Z]+)*`
   - `(a|aa)+`
   - `(a|a?)+`
-  - `(.*a){x}` for x \> 10
+  - `(.*a){x} for x \> 10`
 
 All the above are susceptible to the input
-***aaaaaaaaaaaaaaaaaaaaaaaa\!*** (The minimum input length might change
+`aaaaaaaaaaaaaaaaaaaaaaaa!` (The minimum input length might change
 slightly, when using faster or slower machines).
 
 ### Attacks
@@ -160,8 +160,8 @@ entered by the user.
 `    MessageBox.Show("Good password.");`
 `}`
 
-If an attacker enters *^((\[a-z\])+.)+\[A-Z\](\[a-z\])+$* as a username
-and *aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\!* as a password, the program
+If an attacker enters `^(([a-z])+.)+[A-Z]([a-z])+$` as a username
+and `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!` as a password, the program
 will hang.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
