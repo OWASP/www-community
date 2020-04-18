@@ -3,6 +3,7 @@
 * [Vulnerabilities](vulnerabilities/)
 * [Controls](controls/)
 * [Social](social/)
+* [Security] (security/)
 
 #### [Initiatives](initiatives/)
 * [Google Summer of Code](initiatives/gsoc/)
