@@ -46,7 +46,7 @@ XSS next).
 ### [DOM Based XSS](attacks/DOM_Based_XSS) (AKA Type-0)
 
 As defined by Amit Klein, who published the first article about this
-issue\[1\], DOM Based XSS is a form of XSS where the entire tainted data
+issue \[1\], DOM Based XSS is a form of XSS where the entire tainted data
 flow from source to sink takes place in the browser, i.e., the source of
 the data is in the DOM, the sink is also in the DOM, and the data flow
 never leaves the browser. For example, the source (where malicious data
@@ -97,9 +97,9 @@ of the data is somewhere in the DOM, rather than from the Server.
 Given that both Server XSS and Client XSS can be Stored or Reflected,
 this new terminology results in a simple, clean, 2 x 2 matrix with
 Client & Server XSS on one axis, and Stored and Reflected XSS on the
-other axis as depicted here:
+other axis as depicted in Dave Witchers’ DOM Based XSS talk \[2\]:
 
-![Chart Server XSS vs Client XSS](assets/images/Server-XSS_vs_Client-XSS_Chart.png)
+![](/assets/images/Server-XSS_vs_Client-XSS_Chart.png)
 
 ## Recommended Server XSS Defenses
 
@@ -130,9 +130,7 @@ However, developers frequently don’t know which JavaScript APIs are safe
 or not, never mind which methods in their favorite JavaScript library
 are safe. Some information on which JavaScript and jQuery methods are
 safe and unsafe is presented in Dave Wichers’ DOM Based XSS talk
-presented at OWASP AppSec USA in 2012: [Unraveling some of the Mysteries
-around DOM Based
-XSS](https://owasp.org/www-pdf-archive/Unraveling_some_Mysteries_around_DOM-based_XSS.pdf)
+presented at OWASP AppSec USA in 2012 XSS \[2\]
 
 If you know that a JavaScript method is unsafe, our primary
 recommendation is to find an alternative safe method to use. If you
@@ -150,6 +148,11 @@ the data actually comes from (DOM or Server).
 writeup), Amit Klein, July 2005
 
 <http://www.webappsec.org/projects/articles/071105.shtml>
+
+\[2\] “Unraveling some of the Mysteries around DOM Based XSS” (OWASP AppSec
+USA), Dave Wichers, 2012
+
+<https://owasp.org/www-pdf-archive/Unraveling_some_Mysteries_around_DOM-based_XSS.pdf>
 
 ### Related OWASP Articles
 
