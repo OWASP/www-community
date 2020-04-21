@@ -16,13 +16,13 @@ This article describes the many different types or categories of
 cross-site scripting (XSS) vulnerabilities and how they relate to each
 other.
 
-Early on, two primary types of [XSS](../attacks/Cross-site-Scripting-(XSS)) were identified,
+Early on, two primary types of [XSS](attacks/xss/) were identified,
 Stored XSS and Reflected XSS. In 2005, [Amit Klein defined a third type
 of XSS](http://www.webappsec.org/projects/articles/071105.shtml), which
 he coined [DOM Based XSS](../attacks/DOM_Based_XSS). These 3 types of
 XSS are defined as follows:
 
-### [Stored XSS](../attacks/Cross-site-Scripting-(XSS)#stored-xss-attacks) (AKA Persistent or Type I)
+### [Stored XSS](attacks/xss/#stored-xss-attacks) (AKA Persistent or Type I)
 
 Stored XSS generally occurs when user input is stored on the target
 server, such as in a database, in a message forum, visitor log, comment
@@ -33,7 +33,7 @@ can envision the attack payload being permanently stored in the victim’s
 browser, such as an HTML5 database, and never being sent to the server
 at all.
 
-### [Reflected XSS](../attacks/Cross-site-Scripting-(XSS)#reflected-xss-attacks) (AKA Non-Persistent or Type II)
+### [Reflected XSS](attacks/xss/#reflected-xss-attacks) (AKA Non-Persistent or Type II)
 
 Reflected XSS occurs when user input is immediately returned by a web
 application in an error message, search result, or any other response
@@ -43,7 +43,7 @@ and without permanently storing the user provided data. In some cases,
 the user provided data may never even leave the browser (see DOM Based
 XSS next).
 
-### [DOM Based XSS](../attacks/DOM_Based_XSS) (AKA Type-0)
+### [DOM Based XSS](attacks/DOM_Based_XSS) (AKA Type-0)
 
 As defined by Amit Klein, who published the first article about this
 issue\[1\], DOM Based XSS is a form of XSS where the entire tainted data
@@ -155,14 +155,14 @@ writeup), Amit Klein, July 2005
 ### Related OWASP Articles
 
   - [Cross-site Scripting
-    (XSS)](../attacks/Cross-site-Scripting-(XSS))
+    (XSS)](attacks/xss/)
   - [Stored
-    XSS](../attacks/Cross-site-Scripting-(XSS)#stored-xss-attacks)
+    XSS](attacks/xss/#stored-xss-attacks)
     (AKA Persistent or Type I XSS)
   - [Reflected
-    XSS](../attacks/Cross-site-Scripting-(XSS)#reflected-xss-attacks)
+    XSS](attacks/xss/#reflected-xss-attacks)
     (AKA Non-Persistent or Type II XSS)
-  - [DOM Based XSS](../attacks/DOM_Based_XSS)
+  - [DOM Based XSS](attacks/DOM_Based_XSS)
   - [XSS (Cross Site Scripting) Prevention Cheat
     Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
   - [DOM based XSS Prevention Cheat
