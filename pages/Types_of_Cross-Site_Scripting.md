@@ -16,13 +16,13 @@ This article describes the many different types or categories of
 cross-site scripting (XSS) vulnerabilities and how they relate to each
 other.
 
-Early on, two primary types of [XSS](XSS "wikilink") were identified,
+Early on, two primary types of [XSS](attacks/xss/) were identified,
 Stored XSS and Reflected XSS. In 2005, [Amit Klein defined a third type
 of XSS](http://www.webappsec.org/projects/articles/071105.shtml), which
-he coined [DOM Based XSS](DOM_Based_XSS "wikilink"). These 3 types of
+he coined [DOM Based XSS](attacks/DOM_Based_XSS). These 3 types of
 XSS are defined as follows:
 
-### [Stored XSS](Cross-site_Scripting_\(XSS\)#Stored_XSS_Attacks "wikilink") (AKA Persistent or Type I)
+### [Stored XSS](attacks/xss/#stored-xss-attacks) (AKA Persistent or Type I)
 
 Stored XSS generally occurs when user input is stored on the target
 server, such as in a database, in a message forum, visitor log, comment
@@ -33,7 +33,7 @@ can envision the attack payload being permanently stored in the victim’s
 browser, such as an HTML5 database, and never being sent to the server
 at all.
 
-### [Reflected XSS](Cross-site_Scripting_\(XSS\)#Reflected_XSS_Attacks "wikilink") (AKA Non-Persistent or Type II)
+### [Reflected XSS](attacks/xss/#reflected-xss-attacks) (AKA Non-Persistent or Type II)
 
 Reflected XSS occurs when user input is immediately returned by a web
 application in an error message, search result, or any other response
@@ -43,10 +43,10 @@ and without permanently storing the user provided data. In some cases,
 the user provided data may never even leave the browser (see DOM Based
 XSS next).
 
-### [DOM Based XSS](DOM_Based_XSS "wikilink") (AKA Type-0)
+### [DOM Based XSS](attacks/DOM_Based_XSS) (AKA Type-0)
 
 As defined by Amit Klein, who published the first article about this
-issue\[1\], DOM Based XSS is a form of XSS where the entire tainted data
+issue \[1\], DOM Based XSS is a form of XSS where the entire tainted data
 flow from source to sink takes place in the browser, i.e., the source of
 the data is in the DOM, the sink is also in the DOM, and the data flow
 never leaves the browser. For example, the source (where malicious data
@@ -97,10 +97,9 @@ of the data is somewhere in the DOM, rather than from the Server.
 Given that both Server XSS and Client XSS can be Stored or Reflected,
 this new terminology results in a simple, clean, 2 x 2 matrix with
 Client & Server XSS on one axis, and Stored and Reflected XSS on the
-other axis as depicted here:
+other axis as depicted in Dave Witchers’ DOM Based XSS talk \[2\]:
 
-![Image:Server-XSS_vs_Client-XSS_Chart.jpg](Server-XSS_vs_Client-XSS_Chart.jpg
-"Image:Server-XSS_vs_Client-XSS_Chart.jpg")
+![Chart Server XSS vs Client XSS](assets/images/Server-XSS_vs_Client-XSS_Chart.png)
 
 ## Recommended Server XSS Defenses
 
@@ -112,7 +111,7 @@ The easiest and strongest defense against Server XSS in most cases is:
 The details on how to implement Context-sensitive server side output
 encoding are presented in the OWASP [XSS (Cross Site Scripting)
 Prevention Cheat
-Sheet](XSS_\(Cross_Site_Scripting\)_Prevention_Cheat_Sheet "wikilink")
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 in great detail.
 
 Input validation or data sanitization can also be performed to help
@@ -131,9 +130,7 @@ However, developers frequently don’t know which JavaScript APIs are safe
 or not, never mind which methods in their favorite JavaScript library
 are safe. Some information on which JavaScript and jQuery methods are
 safe and unsafe is presented in Dave Wichers’ DOM Based XSS talk
-presented at OWASP AppSec USA in 2012: [Unraveling some of the Mysteries
-around DOM Based
-XSS](https://www.owasp.org/images/c/c5/Unraveling_some_Mysteries_around_DOM-based_XSS.pdf)
+presented at OWASP AppSec USA in 2012 XSS \[2\]
 
 If you know that a JavaScript method is unsafe, our primary
 recommendation is to find an alternative safe method to use. If you
@@ -152,17 +149,22 @@ writeup), Amit Klein, July 2005
 
 <http://www.webappsec.org/projects/articles/071105.shtml>
 
+\[2\] “Unraveling some of the Mysteries around DOM Based XSS” (OWASP AppSec
+USA), Dave Wichers, 2012
+
+<https://owasp.org/www-pdf-archive/Unraveling_some_Mysteries_around_DOM-based_XSS.pdf>
+
 ### Related OWASP Articles
 
   - [Cross-site Scripting
-    (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
+    (XSS)](attacks/xss/)
   - [Stored
-    XSS](Cross-site_Scripting_\(XSS\)#Stored_XSS_Attacks "wikilink")
+    XSS](attacks/xss/#stored-xss-attacks)
     (AKA Persistent or Type I XSS)
   - [Reflected
-    XSS](Cross-site_Scripting_\(XSS\)#Reflected_XSS_Attacks "wikilink")
+    XSS](attacks/xss/#reflected-xss-attacks)
     (AKA Non-Persistent or Type II XSS)
-  - [DOM Based XSS](DOM_Based_XSS "wikilink")
+  - [DOM Based XSS](attacks/DOM_Based_XSS)
   - [XSS (Cross Site Scripting) Prevention Cheat
     Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
   - [DOM based XSS Prevention Cheat
