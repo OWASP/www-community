@@ -99,7 +99,7 @@ this new terminology results in a simple, clean, 2 x 2 matrix with
 Client & Server XSS on one axis, and Stored and Reflected XSS on the
 other axis as depicted in Dave Witchers’ DOM Based XSS talk \[2\]:
 
-![](/assets/images/Server-XSS_vs_Client-XSS_Chart.png)
+![Chart Server XSS vs Client XSS](assets/images/Server-XSS_vs_Client-XSS_Chart.png)
 
 ## Recommended Server XSS Defenses
 
