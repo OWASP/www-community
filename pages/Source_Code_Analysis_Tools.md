@@ -164,6 +164,7 @@ every effort to correct this information.</b>
   - [RIPS](http://rips-scanner.sourceforge.net/) - RIPS Open Source is a
     static source code analyzer for vulnerabilities in PHP web
     applications. Please see notes on the sourceforge.net site.
+  - [ShiftLeft Scan](https://github.com/ShiftLeftSecurity/sast-scan) - Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
   - [Sink Tank](https://discotek.ca/sinktank.xhtml) - Byte code static
     code analyzer for performing source/sink (taint) analysis.
   - [SonarQube](http://www.sonarqube.org/) - Scans source code for more
