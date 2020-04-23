@@ -63,16 +63,12 @@ are free for Open Source projects:
 
   - [Coverity Scan Static Analysis](https://scan.coverity.com/) - Can be
     lashed into Travis-CI so it's done automatically with online
-    resources. Supports over a dozen programming languages as documented
-    here in the section [Comprehensive support for these programming
-    languages and
-    frameworks](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html).
+    resources. Supports over a dozen programming languages.
   - [reshift](https://www.softwaresecured.com/reshift) - A CI/CD tool
     that uses static code analysis to scan for vulnerabilities and uses
     machine learning to give a prediction on false positives. Supports
-    Java with future support for NodeJS and JavaScript planned for
-    sometime in 2019. If you go to the Pricing section on this page, it
-    says it is free for public repositories.
+    Java with future support for NodeJS and JavaScript planned. If you 
+    go to the Pricing section on this page, it says it is free for public repositories.
 
 ### DAST Tools
 
@@ -168,7 +164,8 @@ Commercial tools of this type that are free for open source:
     Known Vulnerable Component detection and Available Updates reporting
     for OSS. CE supports Java and .NET only.
   - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
-    Scala, Golang, .NET, PHP - Latest list here: <https://snyk.io/docs>
+    Scala, Golang, .NET, PHP - Latest list here: 
+    <https://support.snyk.io/hc/en-us/categories/360000456257-Language-support>
       - A Commercial tool that identifies vulnerable components and
         integrates with numerous CI/CD pipelines. It is free for open
         source: <https://snyk.io/plans>
@@ -189,13 +186,11 @@ Commercial tools of this type that are free for open source:
         known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
-  - WhiteSource Bolt - Supports 200+ programming languages.
-    <https://www.whitesourcesoftware.com/>
+  - [WhiteSource](https://www.whitesourcesoftware.com/) - Supports 200+ programming languages.
       - Azure version:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
       - GitHub version:
-        <https://github.com/apps/whitesource-bolt-for-github> Available
-        starting in Nov. 2018.
+        <https://github.com/apps/whitesource-bolt-for-github>
 
 ### Code Quality tools
 
@@ -203,7 +198,7 @@ Quality has a significant correlation to security. As such, we recommend
 open source projects also consider using good code quality tools. A few
 that we are aware of are:
 
-  - [SpotBugs](https://github.com/spotbugs/spotbugs) - Open source code
+  - [SpotBugs](https://spotbugs.github.io/) - Open source code
     quality tool for Java
       - This is the active fork for FindBugs, so if you use Findbugs,
         you should switch to this.
