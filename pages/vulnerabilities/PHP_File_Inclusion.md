@@ -55,7 +55,7 @@ Note: A reference to related [CWE](http://cwe.mitre.org/) or
 [CAPEC](http://capec.mitre.org/) article should be added when exists.
 Eg:
 
-  - [CWE 79](http://cwe.mitre.org/data/definitions/79.html).
+  - [CWE 98](http://cwe.mitre.org/data/definitions/98.html).
   - <http://www.link1.com>
   - [Title for the link2](http://www.link2.com)
 
