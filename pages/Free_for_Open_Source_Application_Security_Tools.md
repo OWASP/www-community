@@ -2,14 +2,12 @@
 
 layout: col-sidebar
 title: Free for Open Source Application Security Tools
-author: 
+author: Dave Wichers
 contributors: 
 tags: application security tools, tools
 permalink: /Free_for_Open_Source_Application_Security_Tools
-auto-migrated: 1
 
 ---
-
 
 ## Introduction
 
@@ -24,7 +22,7 @@ We would encourage open source projects to use the following types of
 tools to improve the security and quality of their code:
 
   - Static Application Security Testing ([SAST](Source_Code_Analysis_Tools)) Tools
-  - Dynamic Application Security Testing ([DAST](/www-community/controls/Static_Code_Analysis)) Tools
+  - Dynamic Application Security Testing ([DAST](Vulnerability_Scanning_Tools)) Tools
     - (Primarily for web apps)
   - Interactive Application Security Testing (IAST) Tools - (Primarily
     for web apps and web APIs)
@@ -32,7 +30,6 @@ tools to improve the security and quality of their code:
     with Known Vulnerabilities (OWASP Top 10-2017
     A9)](/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities))
   - Static Code Quality Tools
-
 
 **Disclaimer:** <b>OWASP does not endorse any of the Vendors or Scanning
 Tools by listing them below. They are simply listed if we believe they
@@ -81,12 +78,11 @@ are free for Open Source projects:
 
 If your project has a web application component, we recommend running
 automated scans against it to look for vulnerabilities. OWASP maintains
-a page of known DAST Tools: [Vulnerability Scanning
-Tools](:Category:Vulnerability_Scanning_Tools "wikilink"), and the
-**Licence** column on this page indicates which of those tools have free
+a page of known [DAST Tools](Vulnerability_Scanning_Tools), and the
+**License** column on this page indicates which of those tools have free
 capabilities. Our primary recommendation is to use one of these:
 
-  - [OWASP ZAP](OWASP_Zed_Attack_Proxy_Project "wikilink") - A full
+  - [OWASP ZAP](/www-project-zap) - A full
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web
     app pen testing.
@@ -113,7 +109,7 @@ this time:
   - [Contrast Community Edition
     (CE)](https://www.contrastsecurity.com/contrast-community-edition) -
     Fully featured version for 1 app and up to 5 users (some Enterprise
-    features disabled). Contrast CE supports Java only.
+    features disabled). Contrast CE supports Java and .NET only.
 
 ### Open Source Software (OSS) Security Tools
 
@@ -126,7 +122,7 @@ and SCA are the same thing.
 OWASP recommends that all software projects generally try to keep the
 libraries they use as up-to-date as possible to reduce the likelihood of
 [Using Components with Known Vulnerabilities (OWASP Top 10-2017
-A9)](Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities "wikilink").
+A9)](/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities).
 There are two recommended approaches for this:
 
 #### Keeping Your Libraries Updated
@@ -136,13 +132,12 @@ issues are frequently fixed 'silently' by the component maintainer. By
 silently, we mean without publishing a [CVE](https://cve.mitre.org/) for
 the security fix.
 
-  - [Maven Versions
-    plugin](https://www.mojohaus.org/versions-maven-plugin/)
+  - [Maven Versions plugin](https://www.mojohaus.org/versions-maven-plugin/)
       - For Maven projects, can be used to generate a report of all
         dependencies used and when upgrades are available for them.
         Either a direct report, or part of the overall project
         documentation using: mvn site.
-  - Dependabot - <https://dependabot.com/>
+  - [Dependabot](https://dependabot.com/)
       - A GitHub only service that creates pull requests to keep your
         dependencies up-to-date. It automatically generates a pull
         request for each dependency you can upgrade, which you can then
@@ -157,11 +152,11 @@ components they use have known vulnerable components.
 
 Free tools of this type:
 
-  - OWASP has its own free open source tool [OWASP Dependency
-    Check](OWASP_Dependency_Check "wikilink") that is free for anyone to
-    use.
-  - GitHub: Security alerts for vulnerable dependencies -
-    <https://help.github.com/articles/about-security-alerts-for-vulnerable-dependencies/>
+  - OWASP has its own free open source tools:
+    - [OWASP Dependency Check](/www-project-dependency-check/)
+    - [OWASP Dependency Track](/www-project-dependency-track/)
+  - GitHub: [Security alerts for vulnerable 
+    dependencies](https://help.github.com/articles/about-security-alerts-for-vulnerable-dependencies/)
       - A native GitHub feature that reports known vulnerable
         dependencies in your GitHub projects. Supports: Java, .NET,
         JavaScript, Ruby, and Python. Your GitHub projects are
@@ -171,8 +166,8 @@ Commercial tools of this type that are free for open source:
 
   - Contrast Community Edition (CE) (mentioned earlier) also has both
     Known Vulnerable Component detection and Available Updates reporting
-    for OSS. CE supports Java only.
-  - Snyk - <https://www.snyk.io> - Supports Node.js, Ruby, Java, Python,
+    for OSS. CE supports Java and .NET only.
+  - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
     Scala, Golang, .NET, PHP - Latest list here: <https://snyk.io/docs>
       - A Commercial tool that identifies vulnerable components and
         integrates with numerous CI/CD pipelines. It is free for open
@@ -188,15 +183,9 @@ Commercial tools of this type that are free for open source:
             more public than you might prefer)
       - They also provide detailed information and remediation guidance
         for known vulnerabilities here: <https://snyk.io/vuln>
-  - SourceClear - <https://www.sourceclear.com/> - Supports: Java, Ruby,
-    JavaScript, Python, Objective C, GO, PHP
-      - They have a free trial right from their [home
-        page](https://www.sourceclear.com/). When the 30 day trial
-        expires, it converts into a free "Personal Account" per:
-        "Upgrade at any time to get the features that matter most to
-        you, or choose the Personal plan when your trial ends." Personal
-        Account described here: <https://www.sourceclear.com/pricing/>
-      - They also make their component vulnerability data (for publicly
+  - [SourceClear](https://www.veracode.com/products/software-composition-analysis)
+    Now owned by Veracode. Supports: Java, Ruby, JavaScript, Python, Objective C, GO, PHP
+      - They make their component vulnerability data (for publicly
         known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
@@ -214,7 +203,7 @@ Quality has a significant correlation to security. As such, we recommend
 open source projects also consider using good code quality tools. A few
 that we are aware of are:
 
-  - SpotBugs (https://github.com/spotbugs/spotbugs) - Open source code
+  - [SpotBugs](https://github.com/spotbugs/spotbugs) - Open source code
     quality tool for Java
       - This is the active fork for FindBugs, so if you use Findbugs,
         you should switch to this.
@@ -223,9 +212,7 @@ that we are aware of are:
         significantly improves on the very basic security checking
         native to SpotBugs.
 
-<!-- end list -->
-
-  - SonarQube (https://www.sonarqube.org/)
+  - [SonarQube](https://www.sonarqube.org/)
       - This is a commercially supported, very popular, free (and
         commercial) code quality tool. It includes most if not all the
         FindSecBugs security rules plus lots more for quality, including
@@ -233,9 +220,28 @@ that we are aware of are:
         source projects. SonarQube supports numerous languages:
         <https://www.sonarqube.org/features/multi-languages/>
 
-  - DeepScan (https://deepscan.io/) - Supports JavaScript, TypeScript
-      - DeepScan is a static code analysis tool and hosted service for inspecting JavaScript code. It checks possible run-time errors and poor code quality using data-flow analysis and provides results for the project's code quality.
-      - DeepScan is free for GitHub open source projects, meaning that it can be used free of charge with open sources. It provides a grade which means the project has relatively inferior code quality to open source projects.
+  - [DeepScan](https://deepscan.io/) - Supports JavaScript, TypeScript
+      - DeepScan is a static code analysis tool and hosted service for 
+        inspecting JavaScript code. It checks possible run-time errors 
+        and poor code quality using data-flow analysis and provides 
+        results for the project's code quality.
+      - DeepScan is free for open source projects on GitHub.
+
+### Security Tools Built into DevOps/CI Environments
+  - GitLab - is building security into their platform and it is quickly
+    evolving as described here:
+    <https://about.gitlab.com/direction/secure/#security-paradigm>
+      - They are leveraging the best free open source tools they can find
+        and building them into the GitLab CI pipeline to make it easy to
+        enable them. [This includes many categories of security 
+        tools](https://about.gitlab.com/stages-devops-lifecycle/secure/):
+        - [SAST](https://docs.gitlab.com/ee/user/application_security/sast/)
+        - [DAST](https://docs.gitlab.com/ee/user/application_security/dast/)
+        - Code Quality
+        - [Dependency Analysis](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)
+        - [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
+      - The specific tools enabled are language specific.
+      - These security features are free for public open source projects on [GitLab.com](https://gitlab.com/)
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
