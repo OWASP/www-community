@@ -9,6 +9,8 @@ tags: vulnerability, Insufficient Session-ID Length
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Session identifiers should be at least 128 bits long to prevent brute-force session guessing attacks.

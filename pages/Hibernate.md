@@ -10,6 +10,8 @@ permalink: /Hibernate
 
 ---
 
+{% include writers.html %}
+
 ## Status
 
 **In progress**

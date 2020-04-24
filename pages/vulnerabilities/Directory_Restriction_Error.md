@@ -9,6 +9,8 @@ tags: vulnerability, Directory Restriction Error
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Improper use of the `chroot()` system call may allow attackers to escape a chroot jail.

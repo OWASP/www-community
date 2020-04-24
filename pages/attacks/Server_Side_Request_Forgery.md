@@ -10,6 +10,8 @@ permalink: /attacks/Server_Side_Request_Forgery
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 In a Server-Side Request Forgery (SSRF) attack, the attacker can abuse

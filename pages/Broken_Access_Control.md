@@ -9,6 +9,9 @@ auto-migrated: 1
 permalink: /Broken_Access_Control
 
 ---
+
+{% include writers.html %}
+
 ## Description
 
 Access control, sometimes called authorization, is how a web application

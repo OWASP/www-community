@@ -9,6 +9,8 @@ tags: vulnerability, Insecure Transport
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The application configuration should ensure that SSL is used for all access controlled pages.

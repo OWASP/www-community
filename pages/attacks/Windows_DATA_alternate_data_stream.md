@@ -1,4 +1,4 @@
----
+ ---
 
 layout: col-sidebar
 title: Windows ::DATA alternate data stream
@@ -9,6 +9,8 @@ tags: attack, Windows ::DATA alternate data stream
 auto-migrated: 1
 
 ---
+
+{% include writers.html %}
 
 ## Description
 

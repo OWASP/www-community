@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 A [SQL injection](https://owasp.org/www-community/attacks/SQL_Injection) attack consists of insertion

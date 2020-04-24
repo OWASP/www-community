@@ -9,6 +9,8 @@ tags: vulnerability, Catch NullPointerException
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 It is generally a bad practice to catch NullPointerException.

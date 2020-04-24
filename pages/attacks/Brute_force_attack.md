@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Related Security Activities
 
 ### How to Test for Brute Force Vulnerabilities

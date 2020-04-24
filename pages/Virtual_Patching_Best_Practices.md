@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 # Introduction
 
 This paper presents a virtual patching framework that organizations can

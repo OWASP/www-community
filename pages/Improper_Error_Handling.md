@@ -10,6 +10,7 @@ permalink: /Improper_Error_Handling
 
 ---
 
+{% include writers.html %}
 
 ## Description
 

@@ -9,6 +9,8 @@ permalink: /Anti_CRSF_Tokens_ASP-NET
 
 ---
 
+{% include writers.html %}
+
 # Description
 
 In short, CSRF abuses the **trust** relationship between **browser and

@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Similar to [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection), XPath Injection

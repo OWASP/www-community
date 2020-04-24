@@ -9,6 +9,8 @@ tags: vulnerability, Deserialization of untrusted data
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Data which is untrusted cannot be trusted to be well formed. Malformed data or unexpected data could be used to abuse application logic, deny service, or execute arbitrary code, when deserialized.

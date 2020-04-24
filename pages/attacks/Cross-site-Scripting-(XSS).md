@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 Cross-Site Scripting (XSS) attacks are a type of injection, in which

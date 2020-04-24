@@ -10,6 +10,8 @@ permalink: /attacks/Buffer_Overflow_via_Environment_Variables
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 This attack pattern involves causing a buffer overflow through

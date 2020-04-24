@@ -9,6 +9,8 @@ tags: vulnerability, Missing XML Validation
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Failure to enable validation when parsing XML gives an attacker the opportunity to supply malicious input.

@@ -8,6 +8,9 @@ auto-migrated: 1
 permalink: /attacks/DOM_Based_XSS
 
 ---
+
+{% include writers.html %}
+
 ## DOM Based XSS
 
 ### Definition

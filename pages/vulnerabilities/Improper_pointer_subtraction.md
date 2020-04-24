@@ -9,6 +9,8 @@ tags: vulnerability, Improper pointer subtraction
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 The subtraction of one pointer from another in order to determine size is dependant on the assumption that both pointers exist in the same memory chunk.

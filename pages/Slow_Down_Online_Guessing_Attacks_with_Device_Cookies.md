@@ -9,6 +9,7 @@ permalink: /Slow_Down_Online_Guessing_Attacks_with_Device_Cookies
 
 ---
 
+{% include writers.html %}
 
 ## Intro
 Device cookies as additional authenticator for users devices have been

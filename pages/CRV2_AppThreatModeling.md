@@ -10,6 +10,8 @@ permalink: /CRV2_AppThreatModeling
 
 ---
 
+{% include writers.html %}
+
 ### Introduction
 
 Threat modeling is an approach for analyzing the security of an

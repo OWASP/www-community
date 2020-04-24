@@ -9,6 +9,8 @@ tags: vulnerability, Insecure Compiler Optimization
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Improperly scrubbing sensitive data from memory can compromise security.

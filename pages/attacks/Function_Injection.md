@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 A [Function Injection](Function_Injection "wikilink") attack consists of

@@ -27,7 +27,7 @@ Include the following front matter in your file (for examples, see pages/passwor
 
 ## File Listing
 
-{% assign pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page": "page.name != 'info.md'"%}
+{% assign pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
 <ul>
 {% for page in pages %}
        <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>

@@ -10,6 +10,8 @@ permalink: /Fuzzing
 
 ---
 
+{% include writers.html %}
+
 *Fuzz testing* or *Fuzzing* is a Black Box software testing technique,
 which basically consists in finding implementation bugs using
 malformed/semi-malformed data injection in an automated fashion.

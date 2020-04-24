@@ -10,11 +10,7 @@ auto-migrated: 1
 
 ---
 
-Author(s):
-- Egidio Romano
-
-
-[Vulnerabilities Table of Contents](ASDR_TOC_Vulnerabilities "wikilink")
+{% include writers.html %}Author(s):
 
 ## Description
 

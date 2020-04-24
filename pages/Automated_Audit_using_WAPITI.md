@@ -10,6 +10,8 @@ permalink: /Automated_Audit_using_WAPITI
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 WAPITI is a simple command line to tool to automate the audit of a web

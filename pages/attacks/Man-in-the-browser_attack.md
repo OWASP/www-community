@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The Man-in-the-Browser attack is the same approach as [Man-in-the-middle

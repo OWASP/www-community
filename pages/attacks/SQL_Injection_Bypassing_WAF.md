@@ -9,6 +9,8 @@ permalink: /attacks/SQL_Injection_Bypassing_WAF
 
 ---
 
+{% include writers.html %}
+
 ## SQLi
 
 A [SQL injection](SQL_injection) attack consists of insertion

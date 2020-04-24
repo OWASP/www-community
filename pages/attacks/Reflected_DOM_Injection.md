@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 Reflected DOM Injection, or *RDI*, is a form of [Stored Cross-Site
 Scripting](Cross-site_scripting#Stored_and_Reflected_XSS_Attacks "wikilink").
 

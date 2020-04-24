@@ -3,11 +3,15 @@
 title: 'Embedding Null Code'
 layout: col-sidebar
 author: Nsrav
-contributors: 'Till Maas', ADubhlaoich
+contributors: 
+  - 'Till Maas'
+  - ADubhlaoich
 tags: attack
 permalink: /attacks/Embedding_Null_Code
 
 ---
+
+{% include writers.html %}
 
 ## Description
 

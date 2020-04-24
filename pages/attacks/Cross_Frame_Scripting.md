@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Cross-Frame Scripting (XFS) is an attack that combines malicious

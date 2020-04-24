@@ -9,6 +9,7 @@ tags: attack, blind sql injection, sql injection
 
 ---
 
+{% include writers.html %}
 
 ## Description
 

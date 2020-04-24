@@ -10,6 +10,8 @@ permalink: /Security_Headers
 
 ---
 
+{% include writers.html %}
+
 HTTP headers which should be included by default. Methods for modifying
 or removing the headers for specific instances should be provided, but
 by default there are secure settings which should be enabled unless

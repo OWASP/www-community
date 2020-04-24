@@ -10,6 +10,8 @@ permalink: /controls/Certificate_and_Public_Key_Pinning
 
 ---
 
+{% include writers.html %}
+
 [Certificate and Public Key
 Pinning](Certificate_and_Public_Key_Pinning "wikilink") is a technical
 guide to implementing certificate and public key pinning as discussed at

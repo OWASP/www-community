@@ -9,6 +9,8 @@ tags: vulnerability, Injection problem
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Injection problems span a wide range of instantiations. The basic form of this flaw involves the injection of control-plane data into the data-plane in order to alter the control flow of the process. 

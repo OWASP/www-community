@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: Cornucopia - Ecommerce Website Edition - Wiki Deck
-author: 
+author: Darío De Filippis
 contributors: 
 permalink: /attacks/Cornucopia_-_Ecommerce_Website_Edition_-_Wiki_Deck
 tags: attack, Cornucopia - Ecommerce Website Edition - Wiki Deck
@@ -10,7 +10,7 @@ auto-migrated: 1
 
 ---
 
-__NOTOC__ Wiki Card Deck conceived and created by Darío De Filippis.
+{% include writers.html %}
 
 # Versioning
 
