@@ -9,6 +9,8 @@ tags: vulnerability, Expression Language Injection
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Expression Language (EL) Injection happens when attacker controlled data enters an EL interpreter.

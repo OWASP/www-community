@@ -10,6 +10,8 @@ permalink: /Types_of_Cross-Site_Scripting
 
 ---
 
+{% include writers.html %}
+
 # Background
 
 This article describes the many different types or categories of

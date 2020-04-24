@@ -10,14 +10,12 @@ permalink: /controls/Bytecode_obfuscation
 
 ---
 
+{% include writers.html %}
+
 ## Status
 
 Completely Updated: 7 March 2018
 Released: 14/1/2008
-
-## Author
-
-Pierre Parrend
 
 ## Principles
 

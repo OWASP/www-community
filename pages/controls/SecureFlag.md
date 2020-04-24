@@ -9,6 +9,8 @@ permalink: /controls/SecureFlag
 
 ---
 
+{% include writers.html %}
+
 # Overview
 
 The secure flag is an option that can be set by the application server

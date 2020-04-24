@@ -9,6 +9,8 @@ tags: vulnerability, Insufficient Entropy
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 When an undesirably low amount of entropy is available. Psuedo Random Number Generators are susceptible to suffering from insufficient entropy when they are initialized, because entropy data may not be available to them yet.

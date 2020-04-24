@@ -9,6 +9,8 @@ tags: vulnerability, Covert storage channel
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 The existence of a covert storage channel in a communications channel may release information which can be of significant use to attackers.

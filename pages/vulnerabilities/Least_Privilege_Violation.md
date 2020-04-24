@@ -9,6 +9,8 @@ tags: vulnerability, Least Privilege Violation
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The elevated privilege level required to perform operations such as `chroot()` should be dropped immediately after the operation is performed.

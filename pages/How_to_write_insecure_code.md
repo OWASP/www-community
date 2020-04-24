@@ -10,6 +10,8 @@ permalink: /How_to_write_insecure_code
 
 ---
 
+{% include writers.html %}
+
 ## Introduction
 
 In the interest of ensuring that there will be a future for hackers,

@@ -9,6 +9,8 @@ tags: vulnerability, Improper Data Validation
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 ### Struts: Duplicate Validation Forms

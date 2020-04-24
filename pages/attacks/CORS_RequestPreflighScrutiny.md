@@ -10,7 +10,8 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **10/12/2012**
+{% include writers.html %}
+Last revision (mm/dd/yyyy): **10/12/2012**
 
 ## Introduction
 

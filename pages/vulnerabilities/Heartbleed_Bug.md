@@ -9,6 +9,8 @@ tags: vulnerability, Heartbleed Bug
 
 ---
 
+{% include writers.html %}
+
 # Introduction
 
 Heartbleed is a catastrophic bug in OpenSSL, announced in April 2014.

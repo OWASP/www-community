@@ -10,6 +10,8 @@ permalink: /Using_the_Java_Cryptographic_Extensions
 
 ---
 
+{% include writers.html %}
+
 ## Meta
 
 The code included in this article has not been reviewed and should not

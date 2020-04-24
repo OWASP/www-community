@@ -9,6 +9,8 @@ permalink: /Threat_Modeling
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 The term "Threat Modeling" has become quite popular. Microsoft has published their process 

@@ -10,6 +10,8 @@ permalink: /Injection_Flaws
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Injection flaws allow attackers to relay malicious code through an

@@ -9,6 +9,8 @@ tags: vulnerability, Missing Error Handling
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 A web application must define a default error page for 404 errors, 500 errors, and to catch java.lang. Throwable exceptions prevent attackers from mining information from the application container's built-in error response.

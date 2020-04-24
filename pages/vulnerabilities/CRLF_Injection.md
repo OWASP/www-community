@@ -9,6 +9,8 @@ tags: vulnerability, CRLF Injection
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The term CRLF refers to **C**arriage **R**eturn (ASCII 13, `\r`) **L**ine **F**eed (ASCII 10, `\n`). They're used to note the termination of a line, however, dealt with differently in today’s popular Operating Systems. For example: in Windows both a CR and LF are required to note the end of a line, whereas in Linux/UNIX a LF is only required. In the HTTP protocol, the CR-LF sequence is always used to terminate a line.

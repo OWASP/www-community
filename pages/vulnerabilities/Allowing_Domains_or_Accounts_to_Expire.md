@@ -9,6 +9,8 @@ tags: vulnerability, Allowing Domains or Accounts to Expire
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Through neglect an administrator may allow a domain name or e-mail account to expire. Domains have a significant grace period for expiration, and e-mail addresses using free services such as Yahoo may expire after several months of not logging in.

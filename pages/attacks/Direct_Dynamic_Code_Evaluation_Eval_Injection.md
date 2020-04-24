@@ -10,8 +10,9 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
 
-Description
+## Description
 This attack consists of a script that does not properly validate user inputs in the page parameter. A remote user can supply a specially crafted URL to pass arbitrary code to an eval() statement, which results in code execution.
 
 Note 1: This attack will execute the code with the same permission like the target web service, including operation system commands.

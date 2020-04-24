@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Introduction
 
 The **Regular expression Denial of Service (ReDoS)** is a [Denial of

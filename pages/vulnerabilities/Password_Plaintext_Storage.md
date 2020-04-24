@@ -9,6 +9,8 @@ tags: vulnerability, Password Plaintext Storage
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Storing a password in plaintext may result in a system compromise.

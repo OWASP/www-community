@@ -9,6 +9,8 @@ tags: attack, binary planting
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Binary planting is a general term for an attack where the attacker places (i.e., plants) a binary file containing

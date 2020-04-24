@@ -10,6 +10,8 @@ tags: 'Threat Modeling'
 
 ---
 
+{% include writers.html %}
+
 # Summary
 
 This page details the discussions and responses prompted by the question "Are

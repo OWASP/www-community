@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 A **Cross-Site Tracing (XST)** attack involves the use of [Cross-site

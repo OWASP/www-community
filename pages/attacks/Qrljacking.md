@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 QRLJacking or Quick Response Code Login Jacking is a simple social

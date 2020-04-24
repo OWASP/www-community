@@ -9,6 +9,8 @@ tags: vulnerability, Doubly freeing memory
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Double free errors occur when `free()` is called more than once with the same memory address as an argument.

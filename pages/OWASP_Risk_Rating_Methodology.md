@@ -9,6 +9,8 @@ tags: risk rating methodology
 
 ---
 
+{% include writers.html %}
+
 Discovering vulnerabilities is important, but being able to estimate the associated risk to the business 
 is just as important. Early in the life cycle, one may identify security concerns in the architecture or 
 design by using [threat modeling](Threat_Modeling).  Later, one may find 

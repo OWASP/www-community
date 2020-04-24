@@ -10,7 +10,9 @@ permalink: /controls/Detect_profiling_phase_into_web_application
 
 ---
 
-Last revision (mm/dd/yy): **01/06/2014**
+{% include writers.html %}
+
+Last revision (mm/dd/yyyy): **01/06/2014**
 
 ## Remark
 

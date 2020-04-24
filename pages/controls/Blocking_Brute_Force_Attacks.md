@@ -9,6 +9,7 @@ permalink: /controls/Blocking_Brute_Force_Attacks
 
 ---
 
+{% include writers.html %}
 
 ## Blocking Brute Force Attacks
 A common threat web developers face is a password-guessing attack known as a brute force attack. 

@@ -9,6 +9,8 @@ tags: vulnerability, Buffer Overflow
 
 ---
 
+{% include writers.html %}
+
 ### Description of Buffer Overflow
 
 See the OWASP article on [Buffer Overflow](../attacks/Buffer_overflow_attack) Attacks.

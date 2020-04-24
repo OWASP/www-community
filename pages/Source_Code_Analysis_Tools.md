@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 [Source code analysis](Static_Code_Analysis) tools, also
 referred to as Static Application Security Testing (SAST) Tools, are
 designed to analyze source code and/or compiled versions of code to help

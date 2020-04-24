@@ -10,9 +10,9 @@ auto-migrated: 1
 
 ---
 
-Last revision (mm/dd/yy): **05/27/2009**
+{% include writers.html %}
 
-[Vulnerabilities Table of Contents](ASDR_TOC_Vulnerabilities "wikilink")
+Last revision (mm/dd/yyyy): **05/27/2009**
 
 ## Description
 

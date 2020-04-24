@@ -11,6 +11,8 @@ permalink: /attacks/Embedding_Null_Code
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The Embedding NULL Bytes/characters technique exploits applications that
