@@ -258,64 +258,10 @@ and check if the memory is overwritten when and where it shouldn't be.
 
 ## Related Security Activities
 
-### Description of Buffer Overflow
-
-See the OWASP article on [Buffer Overflow](Buffer_Overflow "wikilink")
-Vulnerabilities.
-
-### How to Avoid Buffer Overflow Vulnerabilities
-
-See the [OWASP Development
-Guide](:Category:OWASP_Guide_Project "wikilink") article on how to
-[Avoid Buffer Overflow](Buffer_Overflows "wikilink") Vulnerabilities.
-
 ### How to Review Code for Buffer Overflow Vulnerabilities
 
-See the [OWASP Code Review
-Guide](https://owasp.org/www-project-code-review-guide/) article on how to
-[Review Code for Buffer Overruns and
-Overflows](Reviewing_Code_for_Buffer_Overruns_and_Overflows "wikilink")
-Vulnerabilities.
-
-### How to Review Code for Buffer Overflow Vulnerabilities
-
-See the [OWASP Code Review
-Guide](https://owasp.org/www-project-code-review-guide/) article on how to
-[Review Code for Buffer Overruns and
-Overflows](Reviewing_Code_for_Buffer_Overruns_and_Overflows "wikilink")
-Vulnerabilities.
-
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-TBD
-
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [Format string attack](Format_string_attack "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [Heap overflow](Heap_overflow "wikilink")
-  - [Stack overflow](Stack_overflow "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [Bounds Checking](Bounds_Checking "wikilink")
-  - [Safe Libraries](Safe_Libraries "wikilink")
-  - [Static Code Analysis](Static_Code_Analysis "wikilink")
-  - [Executable space
-    protection](Executable_space_protection "wikilink")
-  - [Address space layout randomization
-    (ASLR)](Address_space_layout_randomization_\(ASLR\) "wikilink")
-  - [Stack-smashing Protection
-    (SSP)](Stack-smashing_Protection_\(SSP\) "wikilink")
+See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/)
 
 ## References
 
-  - <http://insecure.org/stf/smashstack.html>
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[which separate document? we should link to
-it.](Category:FIXME "wikilink") [Category:Data Structure
-Attacks](Category:Data_Structure_Attacks "wikilink") [Category:
-Attack](Category:_Attack "wikilink")
+- [SmashStack](http://insecure.org/stf/smashstack.html>=)

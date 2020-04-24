@@ -6,7 +6,6 @@ author:
 contributors: 
 permalink: /attacks/csrf/
 tags: attack, Cross-Site Request Forgery (CSRF)
-auto-migrated: 1
 
 ---
 
@@ -29,16 +28,12 @@ administrative account, CSRF can compromise the entire web application.
 ### How to Review Code for CSRF Vulnerabilities
 
 See the [OWASP Code Review
-Guide](https://owasp.org/www-project-code-review-guide/) article on how to
-[review code for CSRF
-vulnerabilities](Reviewing_code_for_Cross-Site_Request_Forgery_issues "wikilink").
+Guide](https://owasp.org/www-project-code-review-guide/).
 
 ### How to Test for CSRF Vulnerabilities
 
 See the [OWASP Testing
-Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
-[test for CSRF
-vulnerabilities](Testing_for_CSRF_\(OTG-SESS-005\) "wikilink").
+Guide](https://owasp.org/www-project-web-security-testing-guide/).
 
 ### How to Prevent CSRF Vulnerabilities
 
@@ -56,13 +51,6 @@ Most frameworks have built-in CSRF support such as
 Rails](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf),
 [.NET](http://www.troyhunt.com/2010/11/owasp-top-10-for-net-developers-part-5.html)
 and others.
-
-Use [OWASP CSRF Guard](:Category:OWASP_CSRFGuard_Project "wikilink") to
-add CSRF protection to your Java applications. You can use
-[CSRFProtector Project](CSRFProtector_Project "wikilink") to protect
-your php applications or any project deployed using Apache Server. There
-is a [.Net CSRF Guard](.Net_CSRF_Guard "wikilink") at OWASP as well, but
-it's old and doesn't look complete.
 
 John Melton also has an [excellent blog
 post](http://www.jtmelton.com/2010/05/16/the-owasp-top-ten-and-esapi-part-6-cross-site-request-forgery-csrf/)
@@ -175,7 +163,7 @@ If the application was designed to primarily use GET requests to
 transfer parameters and execute actions, the money transfer operation
 might be reduced to a request like:
 
-    GET http://bank.com/transfer.do?acct=BOB&amount=100 HTTP/1.1
+`GET http://bank.com/transfer.do?acct=BOB&amount=100 HTTP/1.1`
 
 Maria now decides to exploit this web application vulnerability using
 Alice as her victim. Maria first constructs the following exploit URL
@@ -183,7 +171,7 @@ which will transfer $100,000 from Alice's account to her account. She
 takes the original command URL and replaces the beneficiary name with
 herself, raising the transfer amount significantly at the same time:
 
-    http://bank.com/transfer.do?acct=MARIA&amount=100000
+`http://bank.com/transfer.do?acct=MARIA&amount=100000`
 
 The [social engineering](Social_Engineering "wikilink") aspect of the
 attack tricks Alice into loading this URL when she's logged into the
@@ -197,11 +185,11 @@ techniques:
 The exploit URL can be disguised as an ordinary link, encouraging the
 victim to click it:
 
-    <a href="http://bank.com/transfer.do?acct=MARIA&amount=100000">View my Pictures!</a>
+`<a href="http://bank.com/transfer.do?acct=MARIA&amount=100000">View my Pictures!</a>`
 
 Or as a 0x0 fake image:
 
-    <img src="http://bank.com/transfer.do?acct=MARIA&amount=100000" width="0" height="0" border="0">
+`<img src="http://bank.com/transfer.do?acct=MARIA&amount=100000" width="0" height="0" border="0">`
 
 If this image tag were included in the email, Alice wouldn't see
 anything. However, the browser *will still* submit the request to
@@ -219,13 +207,16 @@ The only difference between GET and POST attacks is how the attack is
 being executed by the victim. Let's assume the bank now uses POST and
 the vulnerable request looks like this:
 
+```text
     POST http://bank.com/transfer.do HTTP/1.1
 
     acct=BOB&amount=100
+```
 
 Such a request cannot be delivered using standard A or IMG tags, but can
 be delivered using a FORM tags:
 
+```html
     <form action="<nowiki>http://bank.com/transfer.do</nowiki>" method="POST">
 
     <input type="hidden" name="acct" value="MARIA"/>
@@ -233,13 +224,16 @@ be delivered using a FORM tags:
     <input type="submit" value="View my pictures"/>
 
     </form>
+```
 
 This form will require the user to click on the submit button, but this
 can be also executed automatically using JavaScript:
 
+```html
     <body onload="document.forms[0].submit()">
 
     <form...
+```
 
 #### Other HTTP methods
 
@@ -247,13 +241,16 @@ Modern web application APIs frequently use other HTTP methods, such as
 PUT or DELETE. Let's assume the vulnerable bank uses PUT that takes a
 JSON block as an argument:
 
+```text
     PUT http://bank.com/transfer.do HTTP/1.1`
 
     { "acct":"BOB", "amount":100 }`
+```
 
 Such requests can be executed with JavaScript embedded into an exploit
 page:
 
+```html
     <script>
 
     function put() {
@@ -266,6 +263,7 @@ page:
     </script>
 
     <body onload="put()">
+```
 
 Fortunately, this request will **not** be executed by modern web
 browsers thanks to [same-origin policy](Same-Origin_Policy "wikilink")
@@ -275,14 +273,7 @@ web site explicitly opens up cross-origin requests from the attacker's
 [CORS](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#cross-origin-resource-sharing)
 with the following header:
 
-    Access-Control-Allow-Origin: *
-
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [Cross-site Scripting
-    (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
-  - [Cross Site History Manipulation
-    (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
+`Access-Control-Allow-Origin: *`
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
@@ -312,109 +303,44 @@ with the following header:
     clearing their browser's cookies at the end of each browser
     session."
     --http://en.wikipedia.org/wiki/Cross-site_request_forgery\#_note-1
-  - [Tokenizing](Tokenizing "wikilink")
 
 ## References
 
-  - OWASP [Cross-Site Request Forgery (CSRF) Prevention Cheat
+- OWASP [Cross-Site Request Forgery (CSRF) Prevention Cheat
     Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
-
-<!-- end list -->
-
-  - [The Cross-Site Request Forgery (CSRF/XSRF)
+- [The Cross-Site Request Forgery (CSRF/XSRF)
     FAQ](http://www.cgisecurity.com/articles/csrf-faq.shtml)
-
-<!-- end list -->
-
   -
     *quote: "This paper serves as a living document for Cross-Site
     Request Forgery issues. This document will serve as a repository of
     information from existing papers, talks, and mailing list postings
     and will be updated as new information is discovered."*
-
-<!-- end list -->
-
-  - [Testing for CSRF](Testing_for_CSRF_\(OWASP-SM-005\) "wikilink")
-
-<!-- end list -->
-
-  -
-    CSRF (aka Session riding) paper from the OWASP Testing Guide
-    project.
-
-<!-- end list -->
-
-  - [CSRF Vulnerability: A 'Sleeping
+- [CSRF Vulnerability: A 'Sleeping
     Giant'](http://www.darkreading.com/document.asp?doc_id=107651&WT.svl=news1_2)
-
-<!-- end list -->
-
-  -
-    Overview Paper
-
-<!-- end list -->
-
-  - [Client Side Protection against Session
+- [Client Side Protection against Session
     Riding](http://www.owasp.org/index.php/Image:RequestRodeo-MartinJohns.pdf)
-
-<!-- end list -->
-
   -
     Martin Johns and Justus Winter's interesting paper and presentation
     for the 4th OWASP AppSec Conference which described potential
     techniques that browsers could adopt to automatically provide CSRF
     protection - [PDF
     paper](http://www.owasp.org/index.php/Image:RequestRodeo-MartinJohns.pdf)
-
-<!-- end list -->
-
-  - [OWASP CSRF Guard](:Category:OWASP_CSRFGuard_Project "wikilink")
-
-<!-- end list -->
-
+- [OWASP CSRF Guard](:Category:OWASP_CSRFGuard_Project "wikilink")
   -
     J2EE, .NET, and PHP Filters which append a unique request token to
     each form and link in the HTML response in order to provide
     universal coverage against CSRF throughout your entire application.
-
-<!-- end list -->
-
-  - [OWASP CSRF Protector](CSRFProtector_Project "wikilink")
-
-<!-- end list -->
-
-  -
-    Anti CSRF method to mitigate CSRF in web applications. Currently
-    implemented as a PHP library & Apache 2.x.x module
-
-<!-- end list -->
-
-  - [A Most-Neglected Fact About Cross Site Request Forgery
+- [A Most-Neglected Fact About Cross Site Request Forgery
     (CSRF)](http://yehg.net/lab/pr0js/view.php/A_Most-Neglected_Fact_About_CSRF.pdf)
-
-<!-- end list -->
-
   -
     Aung Khant, <http://yehg.net>, explained the danger and impact of
     CSRF with imperiling scenarios.
-
-<!-- end list -->
-
-  - [OWASP CSRF Tester](:Category:OWASP_CSRFTester_Project "wikilink")
-
-<!-- end list -->
-
+- [OWASP CSRF Tester](:Category:OWASP_CSRFTester_Project "wikilink")
   -
     The OWASP CSRFTester gives developers the ability to test their
     applications for CSRF flaws.
-
-<!-- end list -->
-
-  - [Pinata-CSRF-Tool: CSRF POC
+- [Pinata-CSRF-Tool: CSRF POC
     tool](http://code.google.com/p/pinata-csrf-tool/)
-
-<!-- end list -->
-
   -
     Pinata makes it easy to create Proof of Concept CSRF pages. Assists
     in Application Vulnerability Assessment.
