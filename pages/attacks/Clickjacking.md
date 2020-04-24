@@ -10,6 +10,8 @@ tags: attack, clickjacking
 
 ---
 
+{% include writers.html %}
+
 Clickjacking, also known as a "UI redress attack", is when an attacker
 uses multiple transparent or opaque layers to trick a user into clicking
 on a button or link on another page when they were intending to click on

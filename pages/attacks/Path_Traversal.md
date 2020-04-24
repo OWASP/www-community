@@ -9,6 +9,8 @@ tags: attack, Path Traversal
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 A path traversal attack (also known as directory traversal) aims to

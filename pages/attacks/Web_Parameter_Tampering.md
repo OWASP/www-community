@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The Web Parameter Tampering attack is based on the manipulation of

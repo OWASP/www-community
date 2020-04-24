@@ -9,6 +9,8 @@ tags: attack, blind xpath injection, xpath injection
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 XPath is a type of query language that describes how to locate specific

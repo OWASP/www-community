@@ -9,6 +9,8 @@ tags: vulnerability, Information exposure through query strings in url
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Information exposure through query strings in URL is when sensitive data is passed to parameters in the URL. This allows attackers to obtain sensitive data such as usernames, passwords, tokens (authX), database details, and any other potentially sensitive data. Simply using HTTPS does not resolve this vulnerability.

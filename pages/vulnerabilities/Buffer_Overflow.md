@@ -9,6 +9,8 @@ tags: vulnerability, Buffer Overflow
 
 ---
 
+{% include writers.html %}
+
 ### Description of Buffer Overflow
 
 See the OWASP article on [Buffer Overflow](../attacks/Buffer_overflow_attack) Attacks.
@@ -24,7 +26,7 @@ See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guid
 ### How to Test for Buffer Overflow Vulnerabilities
 
 See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
-[Test for Buffer Overflow](document/4_Web_Application_Security_Testing/4.8_Input_Validation_Testing/4.8.14_Testing_for_Buffer_Overflow_WSTG-INPVAL-014.md)
+[Test for Buffer Overflow](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Buffer_Overflow.html)
 Vulnerabilities.
 
 ## Overview

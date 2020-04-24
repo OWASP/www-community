@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Forced browsing is an attack where the aim is to enumerate and access

@@ -7,6 +7,7 @@ tags: principles
 permalink: /Fail_securely
 ---
 
+{% include writers.html %}
 
 ## Description
 Handling errors securely is a key aspect of secure coding. 

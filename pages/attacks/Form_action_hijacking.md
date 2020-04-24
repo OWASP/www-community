@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 Form action hijacking allows an attacker to specify the action URL of a

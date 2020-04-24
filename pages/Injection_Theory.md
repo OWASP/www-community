@@ -10,6 +10,8 @@ permalink: /Injection_Theory
 
 ---
 
+{% include writers.html %}
+
 [Injection](Injection_Flaws "wikilink") is an attacker's attempt to send
 data to an application in a way that will change the meaning of commands
 being sent to an interpreter. For example, the most common example is

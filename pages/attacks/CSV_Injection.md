@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 CSV Injection, also known as Formula Injection, occurs when websites
 embed untrusted input inside CSV files.
 

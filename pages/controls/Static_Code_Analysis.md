@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Static Code Analysis (also known as Source Code Analysis) is usually

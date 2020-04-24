@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The software does not properly filter or quote special characters or

@@ -1,14 +1,16 @@
 ---
 
 layout: col-sidebar
-title: `Threat Modeling Outputs`
+title: 'Threat Modeling Outputs'
 author: Adamshostack
 contributors: Avid, irene221b, lojikil, mplatt, Spartucvs, swierckx, tash,
     tonyuv, zeroxten, ADubhlaoich
-permalink: /Threat_Modeling_Output
+permalink: /Threat_Modeling_Outputs
 tags: 'Threat Modeling'
 
 ---
+
+{% include writers.html %}
 
 # Summary
 

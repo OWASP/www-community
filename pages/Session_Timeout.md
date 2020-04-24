@@ -10,6 +10,8 @@ permalink: /Session_Timeout
 
 ---
 
+{% include writers.html %}
+
 ## Description of the session timeout
 
 Session timeout represents the event occuring when a user do not perform

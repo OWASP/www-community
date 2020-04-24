@@ -10,6 +10,8 @@ permalink: /ASP-NET_Request_Validation
 
 ---
 
+{% include writers.html %}
+
 # Description
 
 *Request validation* is a feature in ASP.NET that examines HTTP requests

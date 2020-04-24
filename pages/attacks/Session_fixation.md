@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Session Fixation is an attack that permits an attacker to hijack a valid

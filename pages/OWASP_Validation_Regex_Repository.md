@@ -9,6 +9,8 @@ permalink: /OWASP_Validation_Regex_Repository
 
 ---
 
+{% include writers.html %}
+
     Note: These Regexs are examples and not built for a particular Regex
     engine. However, the PCRE syntax is mainly used. In particular, this
     means that character classes do not contain meta characters which

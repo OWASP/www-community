@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 **Cross-Site History Manipulation (XSHM)** is a [SOP (Same Origin

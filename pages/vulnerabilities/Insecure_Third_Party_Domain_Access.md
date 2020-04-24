@@ -9,6 +9,8 @@ tags: vulnerability, Insecure Third Party Domain Access
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Occurs when an application contains content provided from a 3rd party resource that is delivered without any type of content scrub.

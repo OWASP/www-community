@@ -9,6 +9,8 @@ permalink: /Component_Analysis
 
 ---
 
+{% include writers.html %}
+
 Modern software is assembled using third-party and open source components, glued together in complex and unique ways, 
 and integrated with original code to provide the desired functionality. Third-party (including commercially licensed,
 proprietary, and "source available" software) along with open source components provide the necessary building blocks 

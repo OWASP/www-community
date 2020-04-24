@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 # Description
 
 The program can potentially fail to release a system resource.

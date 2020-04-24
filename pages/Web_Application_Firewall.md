@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 A '''web application firewall (WAF)''' is an [application firewall](https://en.wikipedia.org/wiki/Web_application_firewall) for HTTP applications. It applies a set of rules to an HTTP conversation. Generally, these rules cover common attacks such as [Cross-site Scripting (XSS)](attacks/xss) and [SQL Injection](attacks/SQL_Injection).
 

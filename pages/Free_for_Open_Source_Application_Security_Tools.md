@@ -4,10 +4,14 @@ layout: col-sidebar
 title: Free for Open Source Application Security Tools
 author: Dave Wichers
 contributors: 
+  - Sherif Koussa
+  - Dirk Wetter
 tags: application security tools, tools
 permalink: /Free_for_Open_Source_Application_Security_Tools
 
 ---
+
+{% include writers.html %}
 
 ## Introduction
 

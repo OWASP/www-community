@@ -10,6 +10,8 @@ permalink: /controls/Session_Fixation_Protection
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 Some platforms make it easy to protect against [Session

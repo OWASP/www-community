@@ -10,6 +10,8 @@ permalink: /controls/Intrusion_Detection
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The line between Intrusion Detection and Intrusion Prevention Systems

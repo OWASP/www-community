@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 Execution After Redirect (EAR) is an attack where an attacker ignores

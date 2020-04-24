@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Introduction
 
 **CORS** stands for **C**ross-**O**rigin **R**esource **S**haring.

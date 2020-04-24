@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Cryptanalysis is a process of finding weaknesses in cryptographic

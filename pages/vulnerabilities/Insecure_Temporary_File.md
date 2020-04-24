@@ -9,6 +9,8 @@ tags: vulnerability, Insecure Temporary File
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Creating and using insecure temporary files can leave application and system data vulnerable to attacks.

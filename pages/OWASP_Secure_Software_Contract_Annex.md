@@ -8,6 +8,8 @@ permalink: /OWASP_Secure_Software_Contract_Annex
 
 ---
 
+{% include writers.html %}
+
 **SECURE SOFTWARE DEVELOPMENT CONTRACT ANNEX**
 
 ` WARNING: THIS DOCUMENT SHOULD BE CONSIDERED GUIDANCE ONLY.`

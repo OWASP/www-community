@@ -10,6 +10,8 @@ permalink: /Double_Encoding
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 This attack technique consists of encoding user request parameters twice

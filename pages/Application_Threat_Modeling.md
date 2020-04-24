@@ -10,6 +10,8 @@ permalink: /Application_Threat_Modeling
 
 ---
 
+{% include writers.html %}
+
 Threat modelling works to identify, communicate, and understand threats
 and mitigations within the context of protecting something of value.
 
@@ -86,6 +88,7 @@ others.
 ### 3\. What are we going to do about that?
 
 In this phase you turn your findings into specific actions.
+See [Threat_Modeling_Outputs](Threat_Modeling_Outputs)
 
 ### 4\. Did we do a good enough job?
 

@@ -10,6 +10,8 @@ auto-migrated: 1
 
 ---
 
+{% include writers.html %}
+
 # Description
 
 Referencing memory after it has been freed can cause a program to crash.

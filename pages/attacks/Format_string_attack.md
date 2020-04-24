@@ -9,6 +9,8 @@ tags: attack, Format string attack
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 The Format String exploit occurs when the submitted data of an input

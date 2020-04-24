@@ -9,6 +9,8 @@ tags: vulnerability, Insecure Randomness
 
 ---
 
+{% include writers.html %}
+
 ## Description
 
 Standard pseudo-random number generators cannot withstand cryptographic attacks.

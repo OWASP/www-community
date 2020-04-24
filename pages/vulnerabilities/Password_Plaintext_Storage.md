@@ -6,11 +6,10 @@ author:
 contributors: 
 permalink: /vulnerabilities/Password_Plaintext_Storage
 tags: vulnerability, Password Plaintext Storage
-auto-migrated: 1
 
 ---
 
-[Vulnerabilities Table of Contents](ASDR_TOC_Vulnerabilities "wikilink")
+{% include writers.html %}
 
 ## Description
 
@@ -29,10 +28,6 @@ who has access to the configuration, but this attitude makes an
 attacker's job easier. Good password management guidelines require that
 a password never be stored in plaintext.
 
-## Risk Factors
-
-TBD
-
 ## Examples
 
 The following code reads a password from a properties file and uses the
@@ -47,66 +42,3 @@ password to connect to a database.
     DriverManager.getConnection(url, usr, password);
     ...
 ```
-
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [Password Management
-    Countermeasure](Password_Management_Countermeasure "wikilink")
-
-## Related [Technical Impacts](Technical_Impacts "wikilink")
-
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
-
-## References
-
-TBD
-
-\[\[Category:FIXME|add links
-
-In addition, one should classify vulnerability based on the following
-subcategories:
-Ex:\[\[Category:Error_Handling_Vulnerability|Category:Error Handling
-Vulnerability\]\]
-
-Availability Vulnerability
-
-Authorization Vulnerability
-
-Authentication Vulnerability
-
-Concurrency Vulnerability
-
-Configuration Vulnerability
-
-Cryptographic Vulnerability
-
-Encoding Vulnerability
-
-Error Handling Vulnerability
-
-Input Validation Vulnerability
-
-Logging and Auditing Vulnerability
-
-Session Management Vulnerability\]\]
-
-__NOTOC__
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Sensitive Data Protection
-Vulnerability](Category:Sensitive_Data_Protection_Vulnerability "wikilink")
-[Category:Java](Category:Java "wikilink") [Category:Code
-Snippet](Category:Code_Snippet "wikilink") [Category:Password Management
-Vulnerability](Category:Password_Management_Vulnerability "wikilink")
-[Category:Vulnerability](Category:Vulnerability "wikilink")

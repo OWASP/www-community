@@ -7,6 +7,8 @@ auto-migrated: 1
 permalink: /HttpOnly
 ---
 
+{% include writers.html %}
+
 ## Overview
 
 The goal of this section is to introduce, discuss, and provide language
