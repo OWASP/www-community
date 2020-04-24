@@ -9,7 +9,9 @@ tags: attack, Path Traversal
 
 ---
 
-{% include writers.html %}## Overview
+{% include writers.html %}
+
+## Overview
 
 A path traversal attack (also known as directory traversal) aims to
 access files and directories that are stored outside the web root
