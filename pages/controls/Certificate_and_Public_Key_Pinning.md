@@ -317,6 +317,8 @@ Java, iOS, .Net, and OpenSSL.
 
 [Expect-CT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT) header allows sites to opt in to the [Certificate Transparency](https://developer.mozilla.org/en-US/docs/Web/Security/Certificate_Transparency) framework, in report or enforcement mode, based on the readiness of the application.
 
+> [HPKP](https://tools.ietf.org/html/rfc7469) got deprecated in [2018](https://www.chromestatus.com/feature/5903385005916160) after intents of removing it started in [2017](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/he9tr7p3rZ8/eNMwKPmUBAAJ). Almost [all browsers no longer support it](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning#Browser_compatibility) as [attacks against HPKP surfaced](https://scotthelme.co.uk/using-security-features-to-do-bad-things/#usinghpkpforevil). HPKP is being replaced by the reactive Certificate Transparency framework coupled with the `Expect-CT` header.
+
 [Certificate transparency](https://www.certificate-transparency.org/) project help detect and protect users from mistakenly issued certificates or certificates that have been issued by rogue certificate authoroties (CA). One example of a rogue CA happening was the [Dutch CA DigiNotar](https://en.wikipedia.org/wiki/DigiNotar).
 
 > `Expect-CT` header is expected to be obsolete in June 2021, as all issued certificates will already be incorporating [signed certificate timestamps (SCTs)](https://www.certificate-transparency.org/faq#TOC-What-is-an-SCT-).
