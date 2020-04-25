@@ -321,7 +321,7 @@ Java, iOS, .Net, and OpenSSL.
 
 [Certificate Transparency](https://www.certificate-transparency.org/) project help detect and protect users from mistakenly issued certificates or certificates that have been issued by rogue certificate authoroties (CA). One example of a rogue CA happening was the [Dutch CA DigiNotar](https://en.wikipedia.org/wiki/DigiNotar).
 
-> `Expect-CT` header is expected to be obsolete in June 2021, as all issued certificates will already be incorporating [signed certificate timestamps (SCTs)](https://www.certificate-transparency.org/faq#TOC-What-is-an-SCT-).
+> `Expect-CT` header is expected to be obsolete in June 2021, as all issued certificates will already be incorporating [Signed Certificate Timestamps (SCTs)](https://www.certificate-transparency.org/faq#TOC-What-is-an-SCT-).
 
 ### Android
 
