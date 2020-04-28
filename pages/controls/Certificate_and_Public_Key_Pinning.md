@@ -317,25 +317,13 @@ Java, iOS, .Net, and OpenSSL.
 
 ### HTTP pinning
 
-[RFC 7469](http://www.rfc-editor.org/rfc/rfc7469.txt) introduced a new
-HTTP header that allows SSL servers to declare hashes of their
-certificates with time scope in which these certificates should not be
-changed. For example:
+[Expect-CT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT) header allows sites to opt in to the [Certificate Transparency](https://developer.mozilla.org/en-US/docs/Web/Security/Certificate_Transparency) framework, in report or enforcement mode, based on the readiness of the application.
 
-    Public-Key-Pins: max-age=2592000;
-    pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g=";
-    pin-sha256="LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ=";
-    report-uri="http://example.com/pkp-report"
+> [HPKP](https://tools.ietf.org/html/rfc7469) got deprecated in [2018](https://www.chromestatus.com/feature/5903385005916160) after intents of removing it started in [2017](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/he9tr7p3rZ8/eNMwKPmUBAAJ). Almost [all browsers no longer support it](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning#Browser_compatibility) as [attacks against HPKP surfaced](https://scotthelme.co.uk/using-security-features-to-do-bad-things/#usinghpkpforevil). HPKP is being replaced by the reactive Certificate Transparency framework coupled with the `Expect-CT` header.
 
-Please note that [RFC 7469](http://www.rfc-editor.org/rfc/rfc7469.txt)
-is controversial since it allows overrides for locally installed
-authorities. That is, it allows an adversary or other party who
-successfully phishes the user to override a known good pinset with
-non-authentic or fraudulent information. Second, the reporting mechanism
-is suppressed from broken pinsets, so a complying user agent will be
-complicit in the cover up after the fact. That is, the reporting of the
-broken pinset is called out as **MUST NOT** report
-[\[1](https://en.wikipedia.org/w/index.php?title=HTTP_Public_Key_Pinning)\].
+[Certificate Transparency](https://www.certificate-transparency.org/) project help detect and protect users from mistakenly issued certificates or certificates that have been issued by rogue certificate authoroties (CA). One example of a rogue CA happening was the [Dutch CA DigiNotar](https://en.wikipedia.org/wiki/DigiNotar).
+
+> `Expect-CT` header is expected to be obsolete in June 2021, as all issued certificates will already be incorporating [Signed Certificate Timestamps (SCTs)](https://www.certificate-transparency.org/faq#TOC-What-is-an-SCT-).
 
 ### Android
 
