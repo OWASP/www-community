@@ -309,7 +309,8 @@ Firefox (Mozilla CSP directives).*
 
 ## Tools
 
-[w3af](Automated_Audit_using_w3af "wikilink") audit tools
+There's a number of tools that can assist with the generating, evaluation and monitoring of content security policy:
+* [w3af](Automated_Audit_using_w3af "wikilink") audit tools
 (http://w3af.org) contain
 [plugin](https://github.com/andresriancho/w3af/blob/master/plugins/grep/csp.py)
 to automatically audit web application to check if they correctly
@@ -318,9 +319,12 @@ implement CSP policies.
     It's very useful to include this type of tools into a web application development process in order to
     perform a regular automatic first level check (do not replace an manual audit and manual audit must be also conducted regularly).
 
-You can also use [CSP Tester (browser
+* You can also use [CSP Tester (browser
 extension)](https://oxdef.info/csp-tester) to build and test the
 policy for your web application.
+* [CSP Generator](https://csper.io/generator) for automatically generating policies ([chrome](https://chrome.google.com/webstore/detail/content-security-policy-c/ahlnecfloencbkpfnpljbojmjkfgnmdc)/[firefox](https://addons.mozilla.org/en-US/firefox/addon/csp-generator/) extension).
+* [CSP Evaluator](https://csper.io/evaluator) for evaluating existing content security policies for security misconfigurations.
+* [Csper report collector](https://csper.io/report-uri) for monitoring a content security policy using report-uri.
 
 ## Information links
 
