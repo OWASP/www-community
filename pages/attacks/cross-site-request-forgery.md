@@ -280,9 +280,9 @@ with the following header:
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Cross-site Scripting
-    (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
+    (XSS)](https://owasp.org/www-community/attacks/xss/)
   - [Cross Site History Manipulation
-    (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
+    (XSHM)](https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM))
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
