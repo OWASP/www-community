@@ -1,8 +1,8 @@
 ### Important Community Links
 
-* [Community](/www-community/)
-  * [Initiatives](/www-community/initiatives/)
-    * [Code Sprints](/www-community/initiatives/code_sprint/)
+* [Community]({{ site.baseurl }}/)
+  * [Initiatives]({{ site.baseurl }}/initiatives/)
+    * [Code Sprints]({{ site.baseurl }}/initiatives/code_sprint/)
     * Google Summer of Code (You are here)
-    * [Google Season of Docs](/www-community/initiatives/gsod/)
-    * [OWASP Bug Bounty](/www-community/initiatives/bugbounty)
+    * [Google Season of Docs]({{ site.baseurl }}/initiatives/gsod/)
+    * [OWASP Bug Bounty]({{ site.baseurl }}/initiatives/bugbounty)
