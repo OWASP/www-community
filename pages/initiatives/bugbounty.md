@@ -66,4 +66,4 @@ If you have no experience deploying a war file as an application, you can decide
 
 # Questions
 
-If you have more questions regarding the program or how to join it please contact: [mailto:support@bugcrowd.com](support@bugcrowd.com).
+If you have more questions regarding the program or how to join it please contact: [support@bugcrowd.com](mailto:support@bugcrowd.com).
