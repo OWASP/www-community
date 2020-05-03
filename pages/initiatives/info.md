@@ -1,9 +1,10 @@
 ### Important Community Links
-* [Attacks](attacks/)
-* [Vulnerabilities](vulnerabilities/)
-* [Controls](controls/)
+* [Attacks]({{ site.baseurl }}/attacks/)
+* [Vulnerabilities]({{ site.baseurl }}/vulnerabilities/)
+* [Controls]({{ site.baseurl }}/controls/)
 
-#### [Initiatives](initiatives/)
-* [Google Summer of Code](initiatives/gsoc/)
-* [Google Season of Docs](initiatives/gsod/)
-* [Code Sprint](initiatives/code_sprint/)
+#### [Initiatives]({{ site.baseurl }}/initiatives/)
+* [Google Summer of Code]({{ site.baseurl }}/initiatives/gsoc/)
+* [Google Season of Docs]({{ site.baseurl }}/initiatives/gsod/)
+* [Code Sprint]({{ site.baseurl }}/initiatives/code_sprint/)
+* [OWASP Bug Bounty]({{ site.baseurl }}/initiatives/bugbounty)
