@@ -1,12 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Xss in subtitle
-author: 
+title: XSS in subtitle
+author: Mohammad MortazaviZade
 contributors: 
 permalink: /attacks/Xss_in_subtitle
 tags: attack, Xss in subtitle
-auto-migrated: 1
 
 ---
 
@@ -15,18 +14,17 @@ auto-migrated: 1
 ## Description
 
 It is possible for an attacker to execute JavaScript in a video's
-subtitle. This is also referred to as XSS (Cross-Site Scripting).if a
-website load subtitle separately in browser then a attacker can run any
-html or javascript in video subtitle. It has been tested on some video
+subtitle. This is also referred to as XSS (Cross-Site Scripting). If a
+website loads subtitle separately in the browser then an attacker can run any
+HTML or JavaScript in video subtitles. It has been tested on some video
 services.
 
 ## Examples
 
-the attacker can save the mentioned contents below by the format of srt
-and upload prepared srt file as a video's subtitles
+The attacker can save the mentioned contents below by the format of `srt`
+and upload prepared `srt` file as a video's subtitles.
 
-﻿
-
+```
 1
 ﻿ 00:00:37,618 --\> 00:00:42,557
 ﻿ \<font color="\#ffff00"\>: '';\!--"\<XSS\>=&{()}\</font\>
@@ -125,39 +123,4 @@ and upload prepared srt file as a video's subtitles
 22
 ﻿ 00:02:18,740 --\> 00:02:22,619
 ﻿ \\";alert('XSS');//
-
-
-
-# Authors and Primary Editors
-
-Mohammad MortazaviZade - 2mzrp2@gmail.com
-
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [XSS Attacks](XSS_Attacks "wikilink")
-  - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
-  - [Invoking untrusted mobile
-    code](Invoking_untrusted_mobile_code "wikilink")
-  - [Cross Site History Manipulation
-    (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [:Category:Input Validation
-    Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
-  - [Cross Site Scripting Flaw](Cross_Site_Scripting_Flaw "wikilink")
-  - [Types of Cross-Site
-    Scripting](Types_of_Cross-Site_Scripting "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-  - [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")
-  - [Output Validation](Output_Validation "wikilink")
-  - [Canonicalization](Canonicalization "wikilink")
-
-## Categories
-
-[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
-[Category:Attack](Category:Attack "wikilink") [Category:Code
-Snippet](Category:Code_Snippet "wikilink")
+```
