@@ -7,4 +7,4 @@
 * [Google Summer of Code](initiatives/gsoc/)
 * [Google Season of Docs](initiatives/gsod/)
 * [Code Sprint](initiatives/code_sprint/)
-* [OWASP Bug Bounty](initiatives/bugbounty]
+* [OWASP Bug Bounty](initiatives/bugbounty)
