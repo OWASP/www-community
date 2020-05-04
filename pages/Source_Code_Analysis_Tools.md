@@ -133,6 +133,12 @@ every effort to correct this information.</b>
     project in existence – simultaneously.*
   - [Graudit](https://github.com/wireghoul/graudit/) - Scans multiple
     languages for various security flaws.
+  - [HCL AppScan CodeSweep](https://hclsw.co/codesweep) - This is the 
+    first Community edition version of AppScan. It is delivered as a VS 
+    Code plugin and scans files upon saving them. The results show the 
+    location of a finding, type and remediation advice. The tool currently 
+    supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, 
+    COBOL, APEX & a few more. 
   - [LGTM](https://lgtm.com/help/lgtm/about-lgtm) - A free for open
     source static analysis service that automatically monitors commits
     to publicly accessible code in: Bitbucket Cloud, GitHub, or GitLab.
