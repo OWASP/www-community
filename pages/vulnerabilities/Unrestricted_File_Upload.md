@@ -420,7 +420,7 @@ And some special recommendations for the developers and webmasters:
     cross-domain policy files should be removed if they are not in use
     and there is no business requirement for Flash or Silverlight
     applications to communicate with the website.
-  - Browser caching should be disabled for the corssdomain.xml and
+  - Browser caching should be disabled for the crossdomain.xml and
     clientaccesspolicy.xml files. This enables the website to easily
     update the file or restrict access to the Web services if necessary.
     Once the client access policy file is checked, it remains in effect
