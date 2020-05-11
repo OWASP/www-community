@@ -47,7 +47,7 @@ For the purpose of this bounty , the library has been deployed within a Dummy Ja
 
 You can open the Maven project in [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2). If you are not familiar opening Maven projects in Eclipse IDE , check the following video:
 
-- [Import OWASP CRSFGuard Bounty File into Eclipse]](https://www.youtube.com/watch?v=xWXPJexUPHg)
+- [Import OWASP CRSFGuard Bounty File into Eclipse](https://www.youtube.com/watch?v=xWXPJexUPHg)
 
 # OWASP JAVA HTML Sanitizer Bug Bounty
 This bounty program is to be found [here](https://bugcrowd.com/owaspjavasanitizer)
