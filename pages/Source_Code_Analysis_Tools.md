@@ -78,7 +78,7 @@ vulnerabilities much later in the development cycle.
   - [OWASP SonarQube Project](https://github.com/OWASP/sonarqube)
   - [OWASP Orizon Project](http://www.owasp.org/index.php/Category:OWASP_Orizon_Project)
   - [OWASP LAPSE Project](https://github.com/OWASP/lapse-plus)
-  - [OWASP O2 Platform](http://owasp.org/www-project-o2-platform/)\
+  - [OWASP O2 Platform](http://owasp.org/www-project-o2-platform/)
 
 ## Disclaimer
 
