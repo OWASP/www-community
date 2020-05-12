@@ -59,10 +59,9 @@ vulnerabilities much later in the development cycle.
 
   - Requirement: Must support your programming language, but not usually
     a key factor once it does.
-  - Types of vulnerabilities it can detect (out of the [OWASP Top
-    Ten](OWASP_Top_Ten "wikilink")?) (plus more?)
+  - Types of vulnerabilities it can detect (out of the [OWASP Top Ten](http://owasp.org/www-project-top-ten/) (plus more?)
   - How accurate is it? False Positive/False Negative rates?
-      - Does the tool have an OWASP [Benchmark](Benchmark "wikilink")
+      - Does the tool have an OWASP [Benchmark](http://owasp.org/www-project-benchmark/)
         score?
   - Does it understand the libraries/frameworks you use?
   - Does it require a fully buildable set of source?
@@ -76,13 +75,10 @@ vulnerabilities much later in the development cycle.
 
 ## OWASP Tools Of This Type
 
-  - [OWASP SonarQube Project](OWASP_SonarQube_Project "wikilink")
-  - [OWASP Orizon
-    Project](http://www.owasp.org/index.php/Category:OWASP_Orizon_Project)
-  - [OWASP LAPSE Project](OWASP_LAPSE_Project "wikilink")
-  - [OWASP O2 Platform](OWASP_O2_Platform "wikilink")
-  - [OWASP WAP-Web Application
-    Protection](OWASP_WAP-Web_Application_Protection "wikilink")
+  - [OWASP SonarQube Project](https://github.com/OWASP/sonarqube)
+  - [OWASP Orizon Project](http://www.owasp.org/index.php/Category:OWASP_Orizon_Project)
+  - [OWASP LAPSE Project](https://github.com/OWASP/lapse-plus)
+  - [OWASP O2 Platform](http://owasp.org/www-project-o2-platform/)\
 
 ## Disclaimer
 
@@ -320,17 +316,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
 
 ## More info
 
-  - [Appendix A: Testing Tools](Appendix_A:_Testing_Tools "wikilink")
-  - [NIST's list of Source Code Security Analysis
-    Tools](http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)
-  - [DAST Tools](:Category:Vulnerability_Scanning_Tools "wikilink") -
-    Similar info on Dynamic Application Security Testing (DAST) Tools
-  - [Free for Open Source Application Security
-    Tools](Free_for_Open_Source_Application_Security_Tools "wikilink") -
-    This page lists the Commercial Source Code Analysis Tools (SAST) we
-    know of that are free for Open Source
+  - [NIST's list of Source Code Security Analysis Tools](http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)
+  - [DAST Tools](/www-community/Vulnerability_Scanning_Tools) - Similar info on Dynamic Application Security Testing (DAST) Tools
+  - [Free for Open Source Application Security Tools](/www-community/Free_for_Open_Source_Application_Security_Tools) - This page lists the Commercial Source Code Analysis Tools (SAST) we know of that are free for Open Source
 
-__NOTOC__
-
-[Category:OWASP .NET Project](Category:OWASP_.NET_Project "wikilink")
-[Category:SAMM-CR-2](Category:SAMM-CR-2 "wikilink")
