@@ -26,7 +26,7 @@ view.
 The risks regarding FPD may produce various outcomes. For example, if
 the webroot is getting leaked, attackers may abuse the knowledge and use
 it in combination with file inclusion vulnerabilites (see [PHP File
-Inclusion](https://www.owasp.org/index.php/PHP_File_Inclusion)) to steal
+Inclusion](https://owasp.org/www-community/vulnerabilities/PHP_File_Inclusion)) to steal
 configuration files regarding the web application or the rest of the
 operating system.
 
@@ -47,7 +47,7 @@ An attacker crafts a URL like so:
 \[<http://site.com/index.php?page=>../../../../../../../home/example/public_html/includes/config.php
 <http://site.com/index.php?page=>../../../../../../../home/example/public_html/includes/config.php\]
 with the knowledge of the FPD in combination with [Relative Path
-Traversal](https://www.owasp.org/index.php/Relative_Path_Traversal).
+Traversal](https://owasp.org/www-community/attacks/Path_Traversal).
 
 **The leaked sourcecode of config.php:**
 
@@ -178,7 +178,7 @@ The above three checks can be done with the aid of
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-  - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
+  - [Relative Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
