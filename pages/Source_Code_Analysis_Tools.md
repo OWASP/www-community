@@ -277,9 +277,9 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     extension, Azure DevOps extension, and Command Line (CLI)
     executable.
   - [PVS-Studio](http://www.viva64.com/en/) - PVS-Studio is a tool
-    for detecting bugs and security weaknesses in the source code of programs,
-    written in C, C++, C# and Java.
-    It is a commercial B2B solution, but provides [several options](https://www.viva64.com/en/b/0614/) of free licensing.
+    for detecting bugs and security weaknesses in the source code of programs
+    written in C, C++, C#, and Java.
+    It is a commercial B2B solution, but provides several free [licensing options](https://www.viva64.com/en/b/0614/).
   - [reshift](https://www.reshiftsecurity.com) - A CI/CD tool that uses
     static code analysis to scan for vulnerabilities and uses machine
     learning to give a prediction on false positives. Supports Java with
@@ -321,4 +321,3 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
   - [NIST's list of Source Code Security Analysis Tools](http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)
   - [DAST Tools](/www-community/Vulnerability_Scanning_Tools) - Similar info on Dynamic Application Security Testing (DAST) Tools
   - [Free for Open Source Application Security Tools](/www-community/Free_for_Open_Source_Application_Security_Tools) - This page lists the Commercial Source Code Analysis Tools (SAST) we know of that are free for Open Source
-
