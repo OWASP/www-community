@@ -276,8 +276,10 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     static source code analyzer that runs as a Visual Studio IDE
     extension, Azure DevOps extension, and Command Line (CLI)
     executable.
-  - [PVS-Studio](http://www.viva64.com/en/) (PVS-Studio) - For C/C++,
-    C\#
+  - [PVS-Studio](http://www.viva64.com/en/) - PVS-Studio is a tool
+    for detecting bugs and security weaknesses in the source code of programs,
+    written in C, C++, C# and Java.
+    It is a commercial B2B solution, but provides several options of free licensing.
   - [reshift](https://www.reshiftsecurity.com) - A CI/CD tool that uses
     static code analysis to scan for vulnerabilities and uses machine
     learning to give a prediction on false positives. Supports Java with
