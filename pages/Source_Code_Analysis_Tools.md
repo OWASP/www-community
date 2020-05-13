@@ -279,7 +279,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
   - [PVS-Studio](http://www.viva64.com/en/) - PVS-Studio is a tool
     for detecting bugs and security weaknesses in the source code of programs,
     written in C, C++, C# and Java.
-    It is a commercial B2B solution, but provides several options of free licensing.
+    It is a commercial B2B solution, but provides [several options](https://www.viva64.com/en/b/0614/) of free licensing.
   - [reshift](https://www.reshiftsecurity.com) - A CI/CD tool that uses
     static code analysis to scan for vulnerabilities and uses machine
     learning to give a prediction on false positives. Supports Java with
