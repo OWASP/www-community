@@ -1,52 +1,33 @@
 ---
-
 title: OWASP Application Security FAQ
 layout: col-sidebar
-author:
+author: Weilin Zhong
 contributors:
-tags:
+  Roshen, Bikram, Darrenb, Esheridan, Rahul s55, Jatkins, AkashS04, Danderson, Jmanico, Jason Li,
+  Didier Trarieux-Lumiere, Samantha Groves, Webappsecguy, Michael Brooks, Eelgheez, Gtorok, ADubhlaoich
+tags: "Application Security FAQ"
 auto-migrated: 1
 permalink: /OWASP_Application_Security_FAQ
-
 ---
 
 {% include writers.html %}
 
 # Login Issues
 
-## What are the best practices I should remember while designing the login pages?
+## What best practices I should remember while designing login pages?
 
-  - From the login page, the user should be sent to a page for
-    authentication. Once authenticated, the user should be sent to the
-    next page. This is explained in the answer to the next question.
-  - The password should never be sent in clear text (unencrypted)
-    because it can be stolen by sniffing; saving the password in clear
-    text in the database is dangerous too.
-  - The best way to manage sessions would be to use one session token
-    with two values during authentication. One value before
-    authentication and one after.
+- From login pages, users should be sent to a page for authentication. Once authenticated, the user should be sent to the next page.
+- Passwords should never be sent or saved in clear text (unencrypted) as both are security risks.
+- Sessions can be managed using a token with two values; one used before authentication and the other after.
 
-## Is it really required to redirect the user to a new page after login?
+## Is it required to redirect the user to a new page after login?
 
-Is it really required to redirect the user to a new page after login?
+Yes; typically an application with a login page sends the username and password as a POST request to a server. If a user clicks refresh on the second page (the page after login), the same request including the username and password in the POST will be sent again.
+If a valid user browses through the application and logs out, but does not close the window, an attacker could potentially click the back button of the browser to reach the second page. At that point, refreshing would re-submit the login information, allowing an attacker to log in as the user.
 
-Yes. Consider the application has a login page that sends the username
-and password as a POST request to the server. If a user clicks refresh
-on the second page (the page after login), the same request including
-the username and password in the POST will be sent again. Now suppose a
-valid user browses through our application and logs out, but does not
-close the window. The attackers come along and click the back button of
-the browser till they reach the second page. They only have to do a
-refresh and since the username and password are resubmitted and
-revalidated, the attackers can login as the user. Now let's assume the
-application has a login page which takes the user to an intermediate
-page for authentication. Once authenticated, the user is redirected to
-the second page with a session token. In this case, even if the
-attackers reach the second page and do a refresh, the username and
-password will not be resubmitted. This is so because the request that
-will be submitted is the one for the second page which does not contain
-the username and password. Therefore, it is always better to redirect
-the user.
+Alternatively, if the application has a login page which takes the user to an intermediate
+page for authentication, there they can be assigned a session token. Subsequently, even if the
+attackers reach the second page and refresh, the login information cannot be re-submitted. This is because the request that is submitted on the second page which does not contain any login details.
 
 ## How can my "Forgot Password" feature be exploited?
 
@@ -125,32 +106,32 @@ with the password, if we can authenticate the users without having them
 use the keyboard, or reveal the entire password, we solve the problem.
 The different ways of doing this are:
 
-  - Having a graphical keyboard where the users can enter the characters
-    they want by clicking the mouse on it. This is especially useful for
-    numeric PINs.
-  - Asking the users to type a part of their password each time and not
-    the whole password. For example you could say "Please enter the 1st,
-    3rd and 6th letters of your password" and this rule could be a
-    random one each time.
+- Having a graphical keyboard where the users can enter the characters
+  they want by clicking the mouse on it. This is especially useful for
+  numeric PINs.
+- Asking the users to type a part of their password each time and not
+  the whole password. For example you could say "Please enter the 1st,
+  3rd and 6th letters of your password" and this rule could be a
+  random one each time.
 
 ## My site will be used from publicly shared computers. What precautions must I take?
 
 If the application will be accessed from publicly shared computers such
 as libraries, the following may protect its security.
 
-  - Avoid caching the site's pages on the system by setting the correct
-    cache control directives.
-  - Exclude sensitive information from the site's URLs since the history
-    of the client browser will store these.
-  - Consider protecting user input against external recording via
-    keyboard loggers or video cameras. A graphical keyboard or prompts
-    for a varying part of the password may help.
-  - Use TLS to prevent sniffing or modifying sensitive data in transit.
-  - Avoid weak hash algorithms in storing sensitive data by [making it
-    harder to inverse the
-    hash](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html).
-    The clear text password in the memory should be reset after
-    computing the hash.
+- Avoid caching the site's pages on the system by setting the correct
+  cache control directives.
+- Exclude sensitive information from the site's URLs since the history
+  of the client browser will store these.
+- Consider protecting user input against external recording via
+  keyboard loggers or video cameras. A graphical keyboard or prompts
+  for a varying part of the password may help.
+- Use TLS to prevent sniffing or modifying sensitive data in transit.
+- Avoid weak hash algorithms in storing sensitive data by [making it
+  harder to inverse the
+  hash](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html).
+  The clear text password in the memory should be reset after
+  computing the hash.
 
 # SQL Injection
 
@@ -610,12 +591,11 @@ automated scanning are: SpikeProxy, open source and freely available at
 
 ## Where can I try out my testing skills? Is there a sample application I can practice with?
 
-OWASP provides a sample application that can be used for this purpose
-called . As the site says, the WebGoat project's goal is to teach web
-security in an interactive teaching environment. There are lessons on
-most of the common vulnerabilities. Another interesting site is
-Hackingzone which has a game on SQL Injection at
-<http://www.hackingzone.org/sql/index.php>
+OWASP maintains a handful of insecure web applications which can be used testing and improving your auditing skills that can be found [as part of its many projects](https://owasp.org/projects/), as well as tools to test them.
+
+Two examples are [Juice Shop](https://owasp.org/www-project-juice-shop/) and [Security Shepard](https://owasp.org/www-project-security-shepherd/), while others can be found as part of the [OWASP Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/) project.
+
+External projects of note include [VulnHub](https://www.vulnhub.com/), [Hack This Site](https://www.hackthissite.org/), [Hack the Box](https://www.hackthebox.eu/) and [Damn Vulnerable Web Application](http://www.dvwa.co.uk/).
 
 ## Are there source code scanning tools for .NET languages, Java, PHP etc that predict vulnerabilities in the source code?
 
@@ -721,12 +701,12 @@ There are several Certificate Authorities that you can buy a SSL
 certificate from. Whichever CA you choose, the basic procedure will be
 as follows -
 
-  - Create key pair for the server
-  - Create the Certificate Signing Request. This will require you to
-    provide certain details like location and fully qualified domain
-    name of the server.
-  - Submit the CSR to the CA along with documentary proof of identity.
-  - Install the certificate sent by the CA
+- Create key pair for the server
+- Create the Certificate Signing Request. This will require you to
+  provide certain details like location and fully qualified domain
+  name of the server.
+- Submit the CSR to the CA along with documentary proof of identity.
+- Install the certificate sent by the CA
 
 The first two steps are done from the web server. All servers have these
 features. While installing the certificate issued by the CA, you will
@@ -851,19 +831,19 @@ inadvisable to keep sensitive business information itself in these logs,
 as administrators have access to these logs for troubleshooting.
 Activities commonly kept track of are:
 
-  - Login and logout of users
-  - Critical transactions (eg. fund transfer across accounts)
-  - Failed login attempts
-  - Account lockouts
-  - Violation of policies
+- Login and logout of users
+- Critical transactions (eg. fund transfer across accounts)
+- Failed login attempts
+- Account lockouts
+- Violation of policies
 
 The data that is logged for each of these activities usually include:
 
-  - User ID
-  - Time stamp
-  - Source IP
-  - Error codes, if any
-  - Priority
+- User ID
+- Time stamp
+- Source IP
+- Error codes, if any
+- Priority
 
 ## Should I encrypt my logs? Isn't that a performance hit?
 
@@ -916,9 +896,9 @@ Netcontinuum's NC-1000 Kavado Inc.'s InterDo Teros Inc.'s Teros-100 APS
 The HTTP header contains a field known as Referrer. For visiting a web
 page we may either:
 
-  - Type its URL directly into the address bar of the browser
-  - Click a link on some other page that brings us there
-  - Be redirected there by some page.
+- Type its URL directly into the address bar of the browser
+- Click a link on some other page that brings us there
+- Be redirected there by some page.
 
 In the first case, the referrer field will be empty but in the other two
 cases it will contain the URL of the previous page. The URL of the first
