@@ -22,12 +22,15 @@ permalink: /OWASP_Application_Security_FAQ
 
 ## Is it required to redirect the user to a new page after login?
 
-Yes; typically an application with a login page sends the username and password as a POST request to a server. If a user clicks refresh on the second page (the page after login), the same request including the username and password in the POST will be sent again.
-If a valid user browses through the application and logs out, but does not close the window, an attacker could potentially click the back button of the browser to reach the second page. At that point, refreshing would re-submit the login information, allowing an attacker to log in as the user.
+Yes; typically an application with a login page sends the username and password as a POST request to a server.
+If a user clicks refresh on the second page (the page after login), the same request including the username and password in the POST will be sent again.
 
-Alternatively, if the application has a login page which takes the user to an intermediate
-page for authentication, there they can be assigned a session token. Subsequently, even if the
-attackers reach the second page and refresh, the login information cannot be re-submitted. This is because the request that is submitted on the second page which does not contain any login details.
+If a valid user browses through the application and logs out, but does not close the window, an attacker could potentially click the back button of the browser to reach the second page.
+At that point, refreshing would re-submit the login information, allowing an attacker to log in as the user.
+
+Alternatively, if the application has a login page which takes the user to an intermediate page for authentication, there they can be assigned a session token.
+Subsequently, even if the attackers reach the second page and refresh, the login information cannot be re-submitted.
+This is because the request that is submitted on the second page does not contain any login details.
 
 ## How can my "Forgot Password" feature be exploited?
 
@@ -591,7 +594,7 @@ automated scanning are: SpikeProxy, open source and freely available at
 
 ## Where can I try out my testing skills? Is there a sample application I can practice with?
 
-OWASP maintains a handful of insecure web applications which can be used testing and improving your auditing skills that can be found [as part of its many projects](https://owasp.org/projects/), as well as tools to test them.
+OWASP maintains a handful of insecure web applications which can be used for testing and improving your auditing skills that can be found [as part of its many projects](https://owasp.org/projects/), as well as tools you can use to do so.
 
 Two examples are [Juice Shop](https://owasp.org/www-project-juice-shop/) and [Security Shepard](https://owasp.org/www-project-security-shepherd/), while others can be found as part of the [OWASP Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/) project.
 
