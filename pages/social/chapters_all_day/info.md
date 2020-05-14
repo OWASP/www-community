@@ -1,7 +1,7 @@
 ## Host Chapters by Hour (UTC)
 ### Saturday
 * 12:00 - 13:00 - **Opening Session**
-* 13:00 - 14:00 - TBC
+* 13:00 - 14:00 - [Belgium](/www-chapter-belgium/)
 * 14:00 - 15:00 - [New York City](https://wiki.owasp.org/index.php/New_York_City) 
 * 15:00 - 16:00 - [Uruguay](/www-chapter-uruguay/)
 * 16:00 - 17:00 - [Chile](/www-chapter-chile/)
