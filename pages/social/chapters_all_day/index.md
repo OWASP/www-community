@@ -7,7 +7,7 @@ permalink: /social/chapters_all_day/
 
 ---
 
-<img src="assets/images/Logo-Chapters_All_Day-Transparent.jpg" style="width: 250px; height: 250px;" alt="Logo-OWASP Chapters All Day" />
+<img src="/www-community/pages/social/chapters_all_day/assets/images/Logo-Chapters_All_Day-Transparent.jpg" style="width: 250px; height: 250px;" alt="Logo-OWASP Chapters All Day" />
 
 {{ page.title }}
 {{ page.dates }} - 12:00 noon (UTC) Saturday - 12:00 noon (UTC) Sunday 
