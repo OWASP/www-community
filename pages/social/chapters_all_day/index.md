@@ -7,6 +7,8 @@ permalink: /social/chapters_all_day/
 
 ---
 
+![Conference Logo](assets/images/Logo-Chapters_All_Day-Transparent.jpg){:width=250px height=250px}
+
 {{ page.title }}
 {{ page.dates }} - 12:00 noon (UTC) Saturday - 12:00 noon (UTC) Sunday 
 
@@ -17,3 +19,14 @@ We'll kick off the festivities with Welcoming Remarks and a Keynote presentation
 At 12:00 noon (UTC) on Sunday, 7 June, we'll wrap things up with a brief recap and closing remarks.
 
 The entire event will be live-streamed on the **[OWASP Chapters All Day](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw)** YouTube Channel.
+
+## Organising Committee
+
+* Oscar Bravo
+* Oscar Carlo Orellana Artigas (Chile)
+* John DiLeo - Chapter Leader (New Zealand)
+* Takaharu Ogasa - Chapter Leader (Sendai, Japan)
+* Grant Ongers - Global Board of Directors (India)
+* Vandana Verma Sehgal - Global Board of Directors (United Kingdom)
+
+
