@@ -215,7 +215,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     (HCL Software) - Static application security testing solution that helps identify vulnerabilities early in the development lifecycle, understand their origin and potential impact and remediate the problem
   - [BlueClosure BC Detect](https://www.blueclosure.com) (BlueClosure) -
     Analyzes client-side JavaScript.
-  - [bugScout](https://bugscout.io/en/) (Nalbatech, Formally Buguroo)
+  - [bugScout](https://bugscout.io/en/) (Nalbatech, Formerly Buguroo)
   - [CAST
     AIP](https://www.castsoftware.com/products/application-intelligence-platform)
     (CAST) Performs static and architectural analysis to identify
@@ -243,7 +243,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
   - [CxSAST](https://www.checkmarx.com/technology/static-code-analysis-sca/)
     (Checkmarx)
   - [Fortify](https://www.microfocus.com/en-us/products/static-code-analysis-sast)
-    (Micro Focus, Formally HP)
+    (Micro Focus, Formerly HP)
   - [Hdiv
     Detection](https://hdivsecurity.com/interactive-application-security-testing-iast)
     (Hdiv Security) - Hdiv performs code security without actually doing
