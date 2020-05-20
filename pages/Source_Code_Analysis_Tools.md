@@ -135,6 +135,7 @@ every effort to correct this information.</b>
     location of a finding, type and remediation advice. The tool currently 
     supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, 
     COBOL, APEX & a few more. 
+  - [Insider CLI](https://github.com/insidersec/insider) - A open source Static Application Security Testing tool (SAST)     written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
   - [LGTM](https://lgtm.com/help/lgtm/about-lgtm) - A free for open
     source static analysis service that automatically monitors commits
     to publicly accessible code in: Bitbucket Cloud, GitHub, or GitLab.
