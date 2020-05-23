@@ -22,7 +22,7 @@ The entire event will be live-streamed on the **[OWASP Chapters All Day](https:/
 
 ## Organising Committee
 
-* Oscar Bravo
+* Oscar Bravo Lara (United Kingdom)
 * Oscar Carlo Orellana Artigas (Chile)
 * John DiLeo - Chapter Leader (New Zealand)
 * Takaharu Ogasa - Chapter Leader (Sendai, Japan)
