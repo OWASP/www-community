@@ -22,11 +22,11 @@ The entire event will be live-streamed on the **[OWASP Chapters All Day](https:/
 
 ## Organising Committee
 
-* Oscar Bravo
+* Oscar Bravo Lara (United Kingdom)
 * Oscar Carlo Orellana Artigas (Chile)
 * John DiLeo - Chapter Leader (New Zealand)
 * Takaharu Ogasa - Chapter Leader (Sendai, Japan)
-* Grant Ongers - Global Board of Directors (India)
-* Vandana Verma Sehgal - Global Board of Directors (United Kingdom)
+* Grant Ongers - Global Board of Directors (United Kingdom)
+* Vandana Verma Sehgal - Global Board of Directors (India)
 
 
