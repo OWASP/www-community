@@ -52,10 +52,10 @@ records will be received as a query response.
 
 Sequences that may be used to comment queries:
 
-  - MySQL:*\#*, *--*
-  - MS SQL: *--*
-  - MS Access: *%00* (**hack\!**)
-  - Oracle: *--*
+  - MySQL:`#`, `--`
+  - MS SQL: `--`
+  - MS Access: `%00` (**hack\!**)
+  - Oracle: `--`
 
 **Null byte:**
 
