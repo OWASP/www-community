@@ -164,8 +164,8 @@ happens because the HTML parser runs before the JavaScript parser.
   - Injecting DOWN:The less common way to perform XSS injection is to
     introduce a code subcontext without closing the current context. For
     example, if the attacker is able to change
-    <img src="...UNTRUSTED DATA HERE..." /> into \< img
-    src="<javascript:alert(document.cookie>)" /\> they do not have to
+    `<img src="...UNTRUSTED DATA HERE..." />` into `<img
+    src="<javascript:alert(document.cookie>)" />` they do not have to
     break out of the HTML attribute context. Instead, they introduce a
     subcontext that allows scripting within the src attribute (in this
     case a javascript url). Another example is the expression()
