@@ -135,6 +135,7 @@ every effort to correct this information.</b>
     location of a finding, type and remediation advice. The tool currently 
     supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, 
     COBOL, APEX & a few more. 
+  - [Insider CLI](https://github.com/insidersec/insider) - A open source Static Application Security Testing tool (SAST)     written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
   - [LGTM](https://lgtm.com/help/lgtm/about-lgtm) - A free for open
     source static analysis service that automatically monitors commits
     to publicly accessible code in: Bitbucket Cloud, GitHub, or GitLab.
@@ -215,7 +216,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     (HCL Software) - Static application security testing solution that helps identify vulnerabilities early in the development lifecycle, understand their origin and potential impact and remediate the problem
   - [BlueClosure BC Detect](https://www.blueclosure.com) (BlueClosure) -
     Analyzes client-side JavaScript.
-  - [bugScout](https://bugscout.io/en/) (Nalbatech, Formally Buguroo)
+  - [bugScout](https://bugscout.io/en/) (Nalbatech, Formerly Buguroo)
   - [CAST
     AIP](https://www.castsoftware.com/products/application-intelligence-platform)
     (CAST) Performs static and architectural analysis to identify
@@ -243,7 +244,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
   - [CxSAST](https://www.checkmarx.com/technology/static-code-analysis-sca/)
     (Checkmarx)
   - [Fortify](https://www.microfocus.com/en-us/products/static-code-analysis-sast)
-    (Micro Focus, Formally HP)
+    (Micro Focus, Formerly HP)
   - [Hdiv
     Detection](https://hdivsecurity.com/interactive-application-security-testing-iast)
     (Hdiv Security) - Hdiv performs code security without actually doing

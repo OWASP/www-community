@@ -61,6 +61,10 @@ promising is:
     to publicly accessible code in: Bitbucket Cloud, GitHub, or GitLab.
     Supports C/C++, C\#, COBOL (in beta), Java, JavaScript/TypeScript,
     Python
+    
+  - [Insider CLI](https://github.com/insidersec/insider) - A open source Static
+  Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android),
+  Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
 
 In addition, we are aware of the following commercial SAST tools that
 are free for Open Source projects:
