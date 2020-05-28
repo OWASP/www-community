@@ -16,14 +16,14 @@
 ### Sunday
 * 00:00 - 01:00 - [New Zealand](/www-chapter-new-zealand/)
 * 01:00 - 02:00 - [Victoria](/www-chapter-victoria/) (BC, Canada)
-* 02:00 - 03:00 - [Japan](https://owasp.org/www-chapter-japan/) (Japan)
+* 02:00 - 03:00 - [Japan](/www-chapter-japan/) (Japan)
 * 03:00 - 04:00 - TBC
 * 04:00 - 05:00 - [Bangalore](/www-chapter-bangalore/) (India)
 * 05:00 - 06:00 - [Jakarta](/www-chapter-jakarta/) (Indonesia)
 * 06:00 - 07:00 - [Nagpur](/www-chapter-nagpur/) (India)
 * 07:00 - 08:00 - [Meerut](/www-chapter-meerut/) (India)
 * 08:00 - 09:00 - [Israel](/www-chapter-israel/)
-* 09:00 - 10:00 - [Kyiv](https://wiki.owasp.org/index.php/Kyiv) (Ukraine)
+* 09:00 - 10:00 - [Kyiv](/www-chapter-kyiv/) (Ukraine)
 * 10:00 - 11:00 - [Cambridge](/www-chapter-cambridge/) (UK)
-* 11:00 - 11:30 - [London](/www-chapter-london/) (UK)
-* 11:30 - 12:00 - **Closing Remarks** 
+* 11:00 - 12:00 - [London](/www-chapter-london/) (UK)
+* 12:00 - 12:30 - **Closing Remarks** 
