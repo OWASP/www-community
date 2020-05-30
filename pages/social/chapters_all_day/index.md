@@ -27,6 +27,7 @@ The entire event will be live-streamed on the **[OWASP Chapters All Day](https:/
 * John DiLeo - Chapter Leader (New Zealand)
 * Takaharu Ogasa - Chapter Leader (Sendai, Japan)
 * Grant Ongers - Global Board of Directors (United Kingdom)
+* Azzeddine Ramrami - Chaptere Leader (Morocco)
 * Vandana Verma Sehgal - Global Board of Directors (India)
 
 
