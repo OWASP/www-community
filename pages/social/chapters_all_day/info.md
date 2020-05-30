@@ -5,7 +5,7 @@
 * 14:00 - 15:00 - [New York City](https://wiki.owasp.org/index.php/New_York_City) (NY, USA) 
 * 15:00 - 16:00 - [Uruguay](/www-chapter-uruguay/)
 * 16:00 - 17:00 - [Chile](/www-chapter-chile/)
-* 17:00 - 18:00 - TBC
+* 17:00 - 18:00 - [Egypt](/www-chapter-cairo/)
 * 18:00 - 19:00 - [Guatemala](/www-chapter-guatemala/)
 * 19:00 - 20:00 - [Atlanta](/www-chapter-atlanta/) (GA, USA)
 * 20:00 - 21:00 - [Orange County](/www-chapter-orange-county/) (CA, USA)
@@ -16,8 +16,8 @@
 ### Sunday
 * 00:00 - 01:00 - [New Zealand](/www-chapter-new-zealand/)
 * 01:00 - 02:00 - [Victoria](/www-chapter-victoria/) (BC, Canada)
-* 02:00 - 03:00 - [Japan](https://owasp.org/www-chapter-japan/) (Japan)
-* 03:00 - 04:00 - TBC
+* 02:00 - 03:00 - [Japan](/www-chapter-japan/) (Japan)
+* 03:00 - 04:00 - [Melbourne](/www-chapter-melbourne/) (Australia)
 * 04:00 - 05:00 - [Bangalore](/www-chapter-bangalore/) (India)
 * 05:00 - 06:00 - [Jakarta](/www-chapter-jakarta/) (Indonesia)
 * 06:00 - 07:00 - [Nagpur](/www-chapter-nagpur/) (India)
