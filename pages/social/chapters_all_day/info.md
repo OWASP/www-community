@@ -19,7 +19,7 @@
 * 02:00 - 03:00 - [Japan](/www-chapter-japan/) (Japan)
 * 03:00 - 04:00 - [Melbourne](/www-chapter-melbourne/) (Australia)
 * 04:00 - 05:00 - [Bangalore](/www-chapter-bangalore/) (India)
-* 05:00 - 06:00 - [Jakarta](/www-chapter-jakarta/) (Indonesia)
+* 05:00 - 06:00 - [Kerala](/www-chapter-kerala/) (India)
 * 06:00 - 07:00 - [Nagpur](/www-chapter-nagpur/) (India)
 * 07:00 - 08:00 - [Meerut](/www-chapter-meerut/) (India)
 * 08:00 - 09:00 - [Israel](/www-chapter-israel/)
