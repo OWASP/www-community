@@ -18,7 +18,7 @@
 * 01:00 - 02:00 - [Victoria](/www-chapter-victoria/) (BC, Canada)
 * 02:00 - 03:00 - [Japan](/www-chapter-japan/) (Japan)
 * 03:00 - 04:00 - [Melbourne](/www-chapter-melbourne/) (Australia)
-* 04:00 - 05:00 - [Bangalore](/www-chapter-bangalore/) (India)
+* 04:00 - 04:55 - [Bangalore](/www-chapter-bangalore/) (India)
 * 04:55 - 05:15 - [Jakarta](/www-chapter-jakarta/) (Indonesia)
 * 05:15 - 06:10 - [Kerala](/www-chapter-kerala/) (India)
 * 06:10 - 07:05 - [Nagpur](/www-chapter-nagpur/) (India)
