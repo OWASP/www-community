@@ -24,7 +24,7 @@
 * 06:10 - 07:05 - [Nagpur](/www-chapter-nagpur/) (India)
 * 07:05 - 08:00 - [Meerut](/www-chapter-meerut/) (India)
 * 08:00 - 09:00 - [Israel](/www-chapter-israel/)
-* 09:00 - 10:00 - [Kyiv](https://wiki.owasp.org/index.php/Kyiv) (Ukraine)
+* 09:00 - 10:00 - [Kyiv](/www-chapter-kyiv/) (Ukraine)
 * 10:00 - 11:00 - [Cambridge](/www-chapter-cambridge/) (UK)
 * 11:00 - 12:00 - [London](/www-chapter-london/) (UK)
 * 12:00 - 12:30 - **Closing Remarks** 
