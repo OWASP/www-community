@@ -5,7 +5,7 @@
 * 14:00 - 15:00 - [New York City](https://wiki.owasp.org/index.php/New_York_City) (NY, USA) 
 * 15:00 - 16:00 - [Uruguay](/www-chapter-uruguay/)
 * 16:00 - 17:00 - [Chile](/www-chapter-chile/)
-* 17:00 - 18:00 - [Egypt](/www-chapter-cairo/)
+* 17:00 - 18:00 - [Cairo](/www-chapter-cairo/) (Egypt)
 * 18:00 - 19:00 - [Guatemala](/www-chapter-guatemala/)
 * 19:00 - 20:00 - [Atlanta](/www-chapter-atlanta/) (GA, USA)
 * 20:00 - 21:00 - [Orange County](/www-chapter-orange-county/) (CA, USA)
