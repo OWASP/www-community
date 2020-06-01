@@ -16,6 +16,7 @@ tags: chaptersAllDay2020
 ## Important Links
 
 * [Presentation Schedule](/www-community/pages/social/chapters_all_day/schedule/)
+* [YouTube Channel](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw){:target="_blank"}
 
 Leaders from OWASP Chapters throughout the world invite you to join us for 24 hours of non-stop AppSec!
 
@@ -23,7 +24,7 @@ We'll kick off the festivities with Welcoming Remarks and a Keynote presentation
 
 At 12:00 noon (UTC) on Sunday, 7 June, we'll wrap things up with a brief recap and closing remarks.
 
-The entire event will be live-streamed on the **[OWASP Chapters All Day](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw)** YouTube Channel. Each presentation segment (usually one hour in length) is hosted by a different Chapter Leader and will be streamed separately. Live viewers will need to select a new stream to view each host change, while those viewing the recordings later will find 25 videos, listed by hour and host chapter (e.g., "**OWASP Chapters All Day - Hour 01 - Opening Session**" or "**OWASP Chapters All Day - Hour 13 - New Zealand**").
+The entire event will be live-streamed on the **[OWASP Chapters All Day](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw){:target="_blank"}** YouTube Channel. Each presentation segment (usually one hour in length) is hosted by a different Chapter Leader and will be streamed separately. Live viewers will need to select a new stream to view each host change, while those viewing the recordings later will find 25 videos, listed by hour and host chapter (e.g., "**OWASP Chapters All Day - Hour 01 - Opening Session**" or "**OWASP Chapters All Day - Hour 13 - New Zealand**").
 
 ## Organising Committee
 
