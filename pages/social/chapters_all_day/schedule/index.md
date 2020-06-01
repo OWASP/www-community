@@ -2,12 +2,13 @@
 layout: full-width
 title: Schedule
 displaytext: Presentation Schedule
+permalink: /social/chapters_all_day/schedule
 tags: chaptersAllDay2020
 ---
 
 <img src="/www-community/pages/social/chapters_all_day/assets/images/Logo-Chapters_All_Day-Transparent.jpg" style="width: 250px; height: 250px;" alt="Logo-OWASP Chapters All Day" />
 
-[Back to Conference Main Page](/www-community/pages/social/chapters_all_day/)
+[Back to Conference Main Page](/www-community/social/chapters_all_day/)
 {: style="text-align: right; font-size: small;" }
 
 # Presentation Schedule
