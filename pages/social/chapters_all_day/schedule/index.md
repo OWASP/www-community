@@ -148,12 +148,12 @@ tags: chaptersAllDay2020
     <td style="vertical-align: top; text-align: center;">10</td>
     <td style="vertical-align: top; text-align: center;">21:00 SAT</td>
     <td style="vertical-align: top; text-align: center;">
-      W. Martín Villalba<br />
+      W. Mart&iacute;n Villalba<br />
       <em>OWASP Santa Barbara (CA, USA)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
       <strong>HTTP Security Headers</strong><br />
-      <em>W. Martín Villalba, OWASP Santa Barbara</em>
+      <em>W. Mart&iacute;n Villalba, OWASP Santa Barbara</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
@@ -177,7 +177,7 @@ tags: chaptersAllDay2020
     <td style="vertical-align: top; text-align: center;">23:00 SAT</td>
     <td style="vertical-align: top; text-align: center;">
       Gustavo Nieves Arreaza<br />
-      <em>OWASP Viña del Mar (Chile)</em>
+      <em>OWASP Vi&ntilde;a del Mar (Chile)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
       <strong>Automated and Manual Threat Modeling</strong><br />
