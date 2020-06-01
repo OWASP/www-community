@@ -13,6 +13,10 @@ tags: chaptersAllDay2020
 {{ page.title }}
 {{ page.dates }} - 12:00 noon (UTC) Saturday - 12:00 noon (UTC) Sunday 
 
+## Important Links
+
+* [Presentation Schedule](schedule/)
+
 Leaders from OWASP Chapters throughout the world invite you to join us for 24 hours of non-stop AppSec!
 
 We'll kick off the festivities with Welcoming Remarks and a Keynote presentation at 12:00 noon (UTC) on Saturday, 6 June. Then, each hour, the (virtual) floor will be handed over to a leader from another OWASP Chapter, who will introduce speakers from their chapter/region.
