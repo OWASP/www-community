@@ -2,13 +2,12 @@
 layout: full-width
 title: Schedule
 displaytext: Presentation Schedule
-permalink: /social/chapters_all_day/schedule
 tags: chaptersAllDay2020
 ---
 
 <img src="/www-community/pages/social/chapters_all_day/assets/images/Logo-Chapters_All_Day-Transparent.jpg" style="width: 250px; height: 250px;" alt="Logo-OWASP Chapters All Day" />
 
-[Back to Conference Main Page](/www-community/social/chapters_all_day/)
+[Back to Conference Main Page](https://owasp.org/www-community/social/chapters_all_day/)
 {: style="text-align: right; font-size: small;" }
 
 # Presentation Schedule
@@ -18,7 +17,7 @@ tags: chaptersAllDay2020
 
 <table width="100%">
   <tr style="background-color: #8595C2; margin: 10px;">
-    <th style="width: 4%; vertical-align: bottom; text-align: center;">Hour</th>
+    <th style="width: 6%; vertical-align: bottom; text-align: center;">Hour</th>
     <th style="width: 8%;vertical-align: bottom; text-align: center;">Time (UTC)</th>
     <th style="width: 20%; vertical-align: bottom; text-align: center;">Host</th>
     <th style="vertical-align: bottom; text-align: center;" colspan="2">Presentation(s)</th>
@@ -102,11 +101,11 @@ tags: chaptersAllDay2020
       Mohamed Alfateh<br />
       <em>OWASP Cairo (Egypt)</em>
     </td>
-    <td style="vertical-align: top; text-align: center; width: 34%;">
+    <td style="vertical-align: top; text-align: center; width: 33%;">
       <strong>Building Your Web Offensive Shield</strong><br />
       <em>Mohamed Alfateh, OWASP Cairo</em>
     </td>
-    <td style="vertical-align: top; text-align: center; width: 34%;">
+    <td style="vertical-align: top; text-align: center; width: 33%;">
       <strong>Set Up a Continuous DevSecOps Toolchain with Open-Source Tools</strong><br />
       <em>Azzendine Ramrami, OWASP Morocco</em>
     </td>
