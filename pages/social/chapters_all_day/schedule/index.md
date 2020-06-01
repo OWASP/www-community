@@ -7,7 +7,7 @@ tags: chaptersAllDay2020
 
 <img src="/www-community/pages/social/chapters_all_day/assets/images/Logo-Chapters_All_Day-Transparent.jpg" style="width: 250px; height: 250px;" alt="Logo-OWASP Chapters All Day" />
 
-[Back to Conference Main Page](/www-community/social/chapters_all_day/)
+[Back to Conference Main Page](/www-community/pages/social/chapters_all_day/)
 {: style="text-align: right; font-size: small;" }
 
 # Presentation Schedule
@@ -43,7 +43,7 @@ tags: chaptersAllDay2020
         <li>John DiLeo - Chapter Leader (New Zealand)</li>
         <li>Takaharu Ogasa - Chapter Leader (Japan)</li>
         <li>Grant Ongers - Global Board of Directors (United Kingdom)</li>
-        <li>Azzeddine RAMRAMI - Chapter Leader (Morocco)</li>
+        <li>Azzeddine Ramrami - Chapter Leader (Morocco)</li>
         <li>Vandana Verma Sehgal - Global Board of Directors (India)</li>
       </ul>
       </span>
@@ -373,7 +373,7 @@ tags: chaptersAllDay2020
         <li>John DiLeo - Chapter Leader (New Zealand)</li>
         <li>Takaharu Ogasa - Chapter Leader (Japan)</li>
         <li>Grant Ongers - Global Board of Directors (United Kingdom)</li>
-        <li>Azzeddine RAMRAMI - Chapter Leader (Morocco)</li>
+        <li>Azzeddine Ramrami - Chapter Leader (Morocco)</li>
         <li>Vandana Verma Sehgal - Global Board of Directors (India)</li>
       </ul>
       </span>
