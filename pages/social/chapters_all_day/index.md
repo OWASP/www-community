@@ -15,7 +15,9 @@ tags: chaptersAllDay2020
 
 ## Important Links
 
+
 * [Presentation Schedule](/www-community/pages/social/chapters_all_day/schedule/)
+  * [Presentation Abstracts and Speaker Biographies](/www-community/pages/social/chapters_all_day/speakers/)
 * [YouTube Channel](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw){:target="_blank"}
 
 Leaders from OWASP Chapters throughout the world invite you to join us for 24 hours of non-stop AppSec!
