@@ -546,7 +546,7 @@ The OWASP Nettacker project was created to automate the information gathering, v
 
 **Sam Stepanyan** is an OWASP London Chapter Leader and an Independent Application Security Consultant with over 20 years of experience in IT industry with a background in software engineering and web application development. Sam has worked for various financial services institutions in the City of London specialising in Application Security consulting, Secure Software Development Lifecycle (SDLC), developer training, source code reviews and vulnerability management. He is also a Subject Matter Expert in Web Application Firewalls (WAF) and SIEM systems. Sam holds a Master's degree in Software Engineering and a CISSP certification.
 
-### (Agile) Threat Modelling
+### Gamification of Threat Modelling
 *Grant Ongers - OWASP Global Board of Directors*
 
 #### Abstract
