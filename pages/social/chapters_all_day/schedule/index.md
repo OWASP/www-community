@@ -340,9 +340,13 @@ tags: chaptersAllDay2020
       Adrian Winckles<br />
       <em>OWASP Cambridge (UK)</em>
     </td>
-    <td style="vertical-align: top; text-align: center;" colspan="2">
+    <td style="vertical-align: top; text-align: center;">
       <strong>OWASP Application Security Curriculum Project</strong><br />
       <em>Adrian Winckles, Project Leader</em>
+    </td>
+    <td style="vertical-align: top; text-align: center;">
+      <strong>OWASP SecureFlag Community Edition</strong><br />
+      <em>Andrea Scaduto, Project Leader</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
@@ -352,9 +356,13 @@ tags: chaptersAllDay2020
       Sam Stepanyan<br />
       <em>OWASP London (UK)</em>
     </td>
-    <td style="vertical-align: top; text-align: center;" colspan="2">
+    <td style="vertical-align: top; text-align: center;">
       <strong>Introducting the OWASP Nettacker Project</strong><br />
       <em>Sam Stepanyan, OWASP London</em>
+    </td>
+    <td style="vertical-align: top; text-align: center;">
+      <strong>(Agile) Threat Modelling</strong><br />
+      <em>Grant Ongers</em>
     </td>
   </tr>
   <tr style="background-color: #B9C2DC;">
