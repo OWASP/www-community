@@ -364,7 +364,7 @@ tags: chaptersAllDay2020
       <em>OWASP London (UK)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Introducting the OWASP Nettacker Project</strong><br />
+      <strong>Introducing the OWASP Nettacker Project</strong><br />
       <em>Sam Stepanyan, OWASP London</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
