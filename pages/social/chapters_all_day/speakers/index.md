@@ -124,6 +124,32 @@ All of the above is great, if it is under our control and we can privately isola
 ### Session Host: John DiLeo
 *Chapter Leader*
 
+### Small, But Fierce (But Still Small)
+*Erica Anderson*
+
+#### Abstract
+
+Most of us volunteer or work closely with small groups. These are the local community groups, the side gigs, the small family businesses, the weekend projects. These groups are small but mighty. They use data, technology, and systems to provide us a service to make our communities better places. We need them to exist; and we also need them to be secure. This talk is going to focus on the few, free steps that any small group can take to level up their security, the stories and reasoning behind them, and give you some manna for dispelling the security misconceptions that come with being small.
+
+#### Speaker Biography
+
+**Erica Anderson (*@sputina*):** Her twitter bio says "info sec, cat, and ketchup enthusiast" which summarizes her quite nicely. Erica is a space cadet (and Principal Security Consultant) for SafeStack and leads their Wellington presence. She also causes general mayhem with Kiwicon, Kawaiicon, and (previously) BSides Wellington. 
+
+### Let Me Secure That for You
+*Kirk Jackson, Chapter Leader, OWASP New Zealand*
+
+#### Abstract
+
+Is it possible to wrap security around an insecure website? Wouldn't it be great if security was something you could just add later?
+
+This talk will introduce virtual patching, what types of security issues can be fixed, and dive a bit deeper into Content Security Policy.
+
+#### Speaker Biography
+
+**Kirk Jackson** works at RedShield in Wellington, leads OWASP New Zealand's Wellington Meetup, and has previously helped organize the annual OWASP New Zealand Day conference in Auckland.
+
+Kirk worked as a web developer before switching to the defense team - setting up the security practice at Xero, working as a pen tester, and in defense roles at several companies. 
+
 ---------
 
 ## Hour 14 - Hosted by OWASP Victoria (BC, Canada)
