@@ -57,7 +57,7 @@ tags: chaptersAllDay2020
       Sebastien Deleersnyder<br />
       <em>OWASP Belgium</em>
     </td>
-    <td style="vertical-align: top;" colspan="2">
+    <td style="vertical-align: top; text-align: center;" colspan="2">
       <strong>OWASP SAMM v2: Your Dynamic Software Security Journey</strong><br />
       <em>Sebastien Deleersnyder, Project Leader</em>
     </td>
@@ -69,7 +69,7 @@ tags: chaptersAllDay2020
       Guy Osa<br />
       <em>OWASP New York City (NY, USA)</em>
     </td>
-    <td style="vertical-align: top;" colspan="2">
+    <td style="vertical-align: top; text-align: center;" colspan="2">
       &nbsp;
     </td>
   </tr>
@@ -80,7 +80,7 @@ tags: chaptersAllDay2020
       Mateo Martinez<br />
       <em>OWASP Uruguay</em>
     </td>
-    <td style="vertical-align: top;" colspan="2">
+    <td style="vertical-align: top; text-align: center;" colspan="2">
       &nbsp;
     </td>
   </tr>
