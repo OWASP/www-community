@@ -23,7 +23,7 @@ tags: nzday2020
 ### Session Host: Sebastien Deleersnyder, *Chapter Leader*
 
 ### OWASP SAMM v2: Your Dynamic Software Security Journey
-*Sebastien Deleersnyder - Project Leader*
+*Sepastien Deleersnyder - Project Leader*
 
 #### Abstract
 
@@ -494,7 +494,7 @@ This is a small recap of a Cybersecurity Economics 101 course I took on edEX. It
 ### Session Host: Adrian Winckles, *Chapter Leader*
 
 ### OWASP Application Security Curriculum Project
-*Adrian Winckles - Project Leader*
+*Adrian Winckles - Chapter Leader, Cambridge (UK)*
 
 #### Abstract
 
@@ -511,7 +511,19 @@ There is an opportunity for OWASP to pull together its wide-ranging expertise, p
 **Adrian Winckles** is Director for the Cyber Security, Networking & Big Data Research Group and Security Researcher at Anglia Ruskin University. He is OWASP Cambridge Chapter Leader, OWASP Europe Board Member and is involved in rebooting the Cambridge Cluster of the UK Cyber Security Forum. His security research programs include (in)security of software-defined networks/everything (SDN/Sdx), novel network botnet detection techniques within cloud and virtual environments, distributed honeypots for threat intelligence, advanced educational techniques for teaching cybercrime investigation, and virtual digital crimescene/incident simulation. He has successfully completed a contribution to the European FP7 English Centre of Excellence for Cybercrime training, research and education (ECENTRE). He is Chair of the BCS Cyber Forensics Special Interest Group.  Adrian is also CTO for Botprobe, an intelligent threat data capture start-up.
 
 ### OWASP SecureFlag Community Edition
-*Andrea Scaduto - Project Leader*
+*Andrea Scaduto - Project Leader, OWASP SecureFlag*
+
+#### Abstract
+
+The OWASP SecureFlag Community Edition is an open source training platform created for developers to learn and practice modern secure coding techniques through hands-on exercises. 
+Developers manually find, exploit and remediate the code of vulnerable applications running in disposable development environments accessed via a web browser. The platform offers 100% hands-on training, with no multiple-choice questions involved. The platform helps develop secure coding skills through real-world challenges to ensure knowledge acquired during the course can be confidently and continuously applied in the real world.
+This short talk will focus on showing how SecureFlag can be used to tailor internal security learning paths for devs/devops, including the basics about the SDK and the Exercise Hub.
+
+#### Speaker Biography
+
+**Andrea Scaduto** Andrea is a Senior IT Security Professional with an MSc in Computer Engineering, several IT Security certifications and a solid IT & cybersecurity background backed by 10 years of experience in the industry.
+He enjoys breaking, building and securing web, mobile and cloud applications, and he has an extensive knowledge of secure coding techniques with a focus on reducing the cost of fixing vulnerabilities at scale.
+He co-founded and built SecureFlag, an Application Security training platform for developers to learn and practice modern secure coding techniques through 100% hands-on exercises. SecureFlag offers an innovative concept for Application Security training to help our customers improve their development teams’ AppSec knowledge, keep their skills up-to-date, and help them to protect their most valuable products.
 
 ---------
 
@@ -520,18 +532,30 @@ There is an opportunity for OWASP to pull together its wide-ranging expertise, p
 ### Session Host: Sam Stepanyan, *Chapter Leader*
 
 ### Introducing the OWASP Nettacker Project
-*Sam Stepanyan - Chapter Leader, OWASP London*
+*Sam Stepanyan - Chapter Leader, London (UK)*
 
 #### Abstract
 
-The OWASP Nettacker project was created to automate the information gathering, vulnerability scanning and in general to aid the penetration testing engagements. Nettacker is able to run various scans using a variety of methods and generate scan reports for applications and networks, including services, bugs, vulnerabilities, misconfigurations, default credentials and many other cool features. This talk will showcase the OWASP Nettacker project, giving an overview of its features including the live demo of the tool.
+OWASP Nettacker project was created to automate the information gathering, vulnerability scanning and in general to aid the penetration testing engagements. Nettacker is able to run various scans using a variety of methods and generate scan reports for applications and networks, including services, bugs, vulnerabilities, misconfigurations, default credentials and many other cool features. This talk will showcase the OWASP Nettacker project giving an overview of its features including the live demo of the tool.
 
 #### Speaker Biography
 
-**Sam Stepanyan** is an OWASP London Chapter Leader and an Independent Application Security Consultant with over 20 years of experience in IT industry with a background in software engineering and web application development. Sam has worked for various financial services institutions in the City of London specialising in Application Security consulting, Secure Software Development Lifecycle (SDLC), developer training, source code reviews and vulnerability management. He is also a Subject Matter Expert in Web Application Firewalls (WAF) and SIEM systems. Sam holds a Master's degree in Software Engineering and a CISSP certification.
+**Speaker** Sam Stepanyan is an OWASP London Chapter Leader and an Independent Application Security Consultant with over 20 years of experience in IT industry with a background in software engineering and web application development. Sam has worked for various financial services institutions in the City of London specialising in Application Security consulting, Secure Software Development Lifecycle (SDLC), developer training, source code reviews and vulnerability management. He is also a Subject Matter Expert in Web Application Firewalls (WAF) and SIEM systems. Sam holds a Master's degree in Software Engineering and a CISSP certification.
 
-### (Agile) Threat Modelling
+### (agile) Threat Modelling
 *Grant Ongers - OWASP Global Board of Directors*
+
+#### Abstract
+
+Helping your teams perform all important threat modelling in a way that doesn’t require a huge security team, or prevent delivery from being at the speed that the business requires. We do this as part of a normal agile delivery through backlog scrubbing, using gamification and OWASP Cornucopia.
+
+#### Speaker Biography
+
+**Grant Ongers** ([@rewtd](https://twitter.com/rewtd)) is co-founder of the bearded trio called [Secure Delivery](https://securedelivery.io/). The philosophy and purpose of the organisation is in the name: optimal delivery and security in one dynamic package.
+
+Grant's versatile experience in information systems spans **Dev** - building management platforms for some of the world’s largest Telcos, MSPs and Financial groups for more than 10 years. Twenty-plus years in **Ops**, doing everything from running operational teams in global NOCs to managing mainframe and database systems. He also has over thirty years pushing the limits of (Info)**Sec** - mostly white-hat. He’s done time on both sides of the TPSA (security assessment) table working for and with regulated organisations ensuring compliance and matching appetite with acceptance of risk. 
+
+Grant’s community involvement is global: Staff at BSides (London, Las Vegas, and Cape Town), Goon at DEF CON (USA) for nearly ten years and DC2721 co-founder, staff at BlackHat (USA and EU), and OWASP Global Board member. 
 
 ---------
 
