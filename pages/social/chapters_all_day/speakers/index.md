@@ -23,7 +23,7 @@ tags: nzday2020
 ### Session Host: Sebastien Deleersnyder, *Chapter Leader*
 
 ### OWASP SAMM v2: Your Dynamic Software Security Journey
-*Sepastien Deleersnyder - Project Leader*
+*Sebastien Deleersnyder - Project Leader*
 
 #### Abstract
 
@@ -510,11 +510,28 @@ There is an opportunity for OWASP to pull together its wide-ranging expertise, p
 
 **Adrian Winckles** is Director for the Cyber Security, Networking & Big Data Research Group and Security Researcher at Anglia Ruskin University. He is OWASP Cambridge Chapter Leader, OWASP Europe Board Member and is involved in rebooting the Cambridge Cluster of the UK Cyber Security Forum. His security research programs include (in)security of software-defined networks/everything (SDN/Sdx), novel network botnet detection techniques within cloud and virtual environments, distributed honeypots for threat intelligence, advanced educational techniques for teaching cybercrime investigation, and virtual digital crimescene/incident simulation. He has successfully completed a contribution to the European FP7 English Centre of Excellence for Cybercrime training, research and education (ECENTRE). He is Chair of the BCS Cyber Forensics Special Interest Group.  Adrian is also CTO for Botprobe, an intelligent threat data capture start-up.
 
+### OWASP SecureFlag Community Edition
+*Andrea Scaduto - Project Leader*
+
 ---------
 
 ## Hour 24 - Hosted by OWASP London (UK)
 
 ### Session Host: Sam Stepanyan, *Chapter Leader*
+
+### Introducing the OWASP Nettacker Project
+*Sam Stepanyan - Chapter Leader, OWASP London*
+
+#### Abstract
+
+The OWASP Nettacker project was created to automate the information gathering, vulnerability scanning and in general to aid the penetration testing engagements. Nettacker is able to run various scans using a variety of methods and generate scan reports for applications and networks, including services, bugs, vulnerabilities, misconfigurations, default credentials and many other cool features. This talk will showcase the OWASP Nettacker project, giving an overview of its features including the live demo of the tool.
+
+#### Speaker Biography
+
+**Sam Stepanyan** is an OWASP London Chapter Leader and an Independent Application Security Consultant with over 20 years of experience in IT industry with a background in software engineering and web application development. Sam has worked for various financial services institutions in the City of London specialising in Application Security consulting, Secure Software Development Lifecycle (SDLC), developer training, source code reviews and vulnerability management. He is also a Subject Matter Expert in Web Application Firewalls (WAF) and SIEM systems. Sam holds a Master's degree in Software Engineering and a CISSP certification.
+
+### (Agile) Threat Modelling
+*Grant Ongers - OWASP Global Board of Directors*
 
 ---------
 
