@@ -265,7 +265,7 @@ Gone are the days when breaches were rare and security could safely be put low o
 
 #### Speaker Biography
 
-**Tanya Janca**, also known as 'SheHacksPurple,' is the founder, security trainer and coach of [SheHacksPurple.dev](https://www.shehackspurple.dev/), specializing in software and cloud security. Her obsession with securing software runs deep, from starting her company, to running her own OWASP chapter for four years in Ottawa, co-founding a new OWASP chapter in Victoria, and co-founding the OWASP DevSlop open-source and education project. With her countless blog articles, workshops and talks, her focus is clear. Tanya is also an advocate for diversity and inclusion, co-founding the international women’s organization WoSEC, starting the online #CyberMentoringMonday initiative, and personally mentoring, advocating for and enabling countless other women in her field. As a professional computer geek of 20+ years, she is a person who is truly fascinated by the ‘science’ of computer science. **Twitter:** [shehackspurple](https://twitter.com/shehackspurple)
+**Tanya Janca**, also known as 'SheHacksPurple,' is the founder, security trainer and coach of [SheHacksPurple.dev](https://www.shehackspurple.dev/), specializing in software and cloud security. Her obsession with securing software runs deep, from starting her company, to running her own OWASP chapter for four years in Ottawa, co-founding a new OWASP chapter in Victoria, and co-founding the OWASP DevSlop open-source and education project. With her countless blog articles, workshops and talks, her focus is clear. Tanya is also an advocate for diversity and inclusion, co-founding the international women's organization WoSEC, starting the online #CyberMentoringMonday initiative, and personally mentoring, advocating for and enabling countless other women in her field. As a professional computer geek of 20+ years, she is a person who is truly fascinated by the 'science' of computer science. **Twitter:** [shehackspurple](https://twitter.com/shehackspurple)
 
 ---------
 
@@ -426,7 +426,7 @@ Come learn about:
 * The supported settings
 * How to protect against CSRF attacks
 * Best practices
-* Google’s new Cookie policy
+* Google's new Cookie policy
 
 The presentation includes a live demo.
 
@@ -445,15 +445,15 @@ This talk is going to be different. Instead of focusing on tools, or rehashing t
 
 The real question is: How do we start remediating these vulnerabilities once we find them? How do we get developers and product managers to care about them and prioritize fixing them? Should we fix all of them? How can we automate this process?
 
-Join me to hear about some of the pains I had over the last few years while trying to answer some of these questions. I’ll share some of the things that worked for me, and hopefully may be applicable for you as well. This talk will be vendor-neutral as it will focus more on culture and processes - instead of specific tooling.
+Join me to hear about some of the pains I had over the last few years while trying to answer some of these questions. I'll share some of the things that worked for me, and hopefully may be applicable for you as well. This talk will be vendor-neutral as it will focus more on culture and processes - instead of specific tooling.
 
 #### Speaker Biography
 
-**Omer Levi Hevroni**: I have been coding since 4th grade, when my dad taught me BASIC and I got hooked. From that point, I learned to code in many programming languages (today my favorite is C#). Today I’m working at Snyk, and coding is a huge part of my day job.
+**Omer Levi Hevroni**: I have been coding since 4th grade, when my dad taught me BASIC and I got hooked. From that point, I learned to code in many programming languages (today my favorite is C#). Today I'm working at Snyk, and coding is a huge part of my day job.
 
 My passion for AppSec started by accident when I was offered the role of security champion. The AppSec journey was (and still is) fascinating, and taught me a lot. OWASP helped me a lot during this journey; This is why I decided to become a paying member and am also leading the OWASP Glue Project.
 
-My current job is DevSecOps – helping the entire team to produce more secure software. Besides my job, I’m also giving a lot of talks all over the world, and heavy OSS contributor – mainly to Kamus, a secret encryption solution for Kubernetes platform.
+My current job is DevSecOps - helping the entire team to produce more secure software. Besides my job, I'm also giving a lot of talks all over the world, and heavy OSS contributor - mainly to Kamus, a secret encryption solution for Kubernetes platform.
 
 When not working, I'm enjoying the company of my two beloved kids.
 
@@ -481,7 +481,7 @@ This talk was first presented at OWASP Kyiv Winter 2017. Still relevant.
 
 #### Abstract
 
-This is a small recap of a Cybersecurity Economics 101 course I took on edEX. It was a huge surprise to me, a "seasoned" professional with more than 15 years of experience, to discover the economic concepts behind the security market. Security spending and investment are literally sunk costs. We spend money and the best Return on Investment that we could get is...nothing happens. In these circumstances, it is crucial to know how to correctly plan and control the amount of effort we put into security. Because no matter if we overspend or underspend – we would hurt the business in both cases.
+This is a small recap of a Cybersecurity Economics 101 course I took on edEX. It was a huge surprise to me, a "seasoned" professional with more than 15 years of experience, to discover the economic concepts behind the security market. Security spending and investment are literally sunk costs. We spend money and the best Return on Investment that we could get is...nothing happens. In these circumstances, it is crucial to know how to correctly plan and control the amount of effort we put into security. Because whether we've overspent or underspend, we would hurt the business in either case.
 
 #### Speaker Biography
 
