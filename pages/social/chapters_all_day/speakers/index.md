@@ -376,7 +376,7 @@ Key points that will be covered:
 
 ## Hour 20 - Hosted by OWASP Meerut (India)
 
-### Session Host: Halut Arora, *Chapter Leader*
+### Session Host: Hanut Arora, *Chapter Leader*
 
 ### Real Privacy Protection in the COVID-19 Era
 *Rahul Tyagi*
