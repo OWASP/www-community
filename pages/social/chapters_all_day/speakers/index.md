@@ -61,7 +61,7 @@ All of the above is great, if it is under our control and we can privately isola
 **Silvia Arias Becker** has been a professor for more than 10 years at the University of Santiago in Chile. Her interests go from directing seminars in senior years in the English Teaching Training Program to the development and contribution of new knowledge in different areas related to technology. As a consequence, she is part of the organizing committee and project manager of the Cybersecurity Congress, CYBERSEC CHILE, organized by the University of Santiago, and Project Manager of the "Telemedicine, Telehealth and Digital Health International Congress," organized by the University of Concepci&oacute;n, Chile. 
 
 * Teacher of English- Graduated from University of Santiago, Chile
-* Master’s Degree in Linguistics, focusing in Language learning theories
+* Master's Degree in Linguistics, focusing in Language learning theories
 * Founder and Project Manager in Creativa Producciones
 * Project Manger of the Cybersecurity Congress, CYBERSEC Chile
 * Project Manager of the "Telemedicine, Telehealth and Digital Health International Conference"
