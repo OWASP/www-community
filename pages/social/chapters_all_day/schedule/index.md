@@ -14,6 +14,7 @@ tags: chaptersAllDay2020
 
 ## Saturday-Sunday, 6-7 June 2020
 
+**Presentation abstracts and speaker biographies can be found on [this page](/www-community/pages/social/chapters_all_day/speakers/){:target="_blank"}.
 
 <table width="100%">
   <tr style="background-color: #8595C2; margin: 10px;">
@@ -57,7 +58,8 @@ tags: chaptersAllDay2020
       <em>OWASP Belgium</em>
     </td>
     <td style="vertical-align: top;" colspan="2">
-      &nbsp;
+      <strong>OWASP SAMM v2: Your Dynamic Software Security Journey</strong><br />
+      <em>Sebastien Deleersnyder, Project Leader</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
@@ -281,8 +283,13 @@ tags: chaptersAllDay2020
       Tushar Kulkarni<br />
       <em>OWASP Nagpur (India)</em>
     </td>
-    <td style="vertical-align: top; text-align: center;" colspan="2">
-      &nbsp;
+    <td style="vertical-align: top; text-align: center;">
+      <strong>Cuffing Web APIs Offensively</strong><br />
+      <em>Chaitanya Deshpande</em>
+    </td>
+    <td style="vertical-align: top; text-align: center;">
+      <strong>Fortifying Ruby On Rails Web Application Framework Security</strong><br />
+      <em>Sahil Tembhare</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
