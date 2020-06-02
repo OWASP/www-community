@@ -468,7 +468,7 @@ When not working, I'm enjoying the company of my two beloved kids.
 
 #### Abstract
 
-We’ll talk about "boring crypto": why developers shouldn't spend time learning all the details of crypto-algorithms (or invent new ones). How to avoid typical crypto-mistakes when all you need is to protect data at rest or in motion. There are enough ready-to-use cryptographic libraries and tools for everyone.
+We'll talk about "boring crypto": why developers shouldn't spend time learning all the details of crypto-algorithms (or invent new ones). How to avoid typical crypto-mistakes when all you need is to protect data at rest or in motion. There are enough ready-to-use cryptographic libraries and tools for everyone.
 
 This talk was first presented at OWASP Kyiv Winter 2017. Still relevant.
 
