@@ -312,7 +312,7 @@ tags: chaptersAllDay2020
     <td style="vertical-align: top; text-align: center;">21</td>
     <td style="vertical-align: top; text-align: center;">08:00 SUN</td>
     <td style="vertical-align: top; text-align: center;">
-      Josh Grossman<br />
+      Shira Shamban/Ori Troyna<br />
       <em>OWASP Israel</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
