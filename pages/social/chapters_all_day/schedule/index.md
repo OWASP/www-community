@@ -249,8 +249,13 @@ tags: chaptersAllDay2020
       Vandana Verma Sehgal<br />
       <em>OWASP Bangalore (India)</em>
     </td>
-    <td style="vertical-align: top; text-align: center;" colspan="2">
-      &nbsp;
+    <td style="vertical-align: top; text-align: center;">
+      <strong>Continuous Auditing with Compliance as Code</strong><br />
+      <em>Mohammed A. Imran</em>
+    </td>
+    <td style="vertical-align: top; text-align: center;">
+      <strong>Security Hardening of Popular Public Cloud Managed Services</strong><br />
+      <em>Runcy Oommen</em>
     </td>
   </tr>
 
@@ -262,7 +267,8 @@ tags: chaptersAllDay2020
       <em>OWASP Jakarta (Indonesia)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      &nbsp;
+      <strong>OWASP Risk Assessment Framework</strong><br />
+      <em>Azhar Ahamed</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
@@ -273,7 +279,8 @@ tags: chaptersAllDay2020
       <em>OWASP Kerala (India)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      &nbsp;
+      <strong>OSINT Gathering and Analysis</strong><br />
+      <em>Manieendar Mohan and Anees Muhammed</em>
     </td>
   </tr>
   <tr style="background-color: #B9C2DC;">
@@ -312,7 +319,7 @@ tags: chaptersAllDay2020
     <td style="vertical-align: top; text-align: center;">21</td>
     <td style="vertical-align: top; text-align: center;">08:00 SUN</td>
     <td style="vertical-align: top; text-align: center;">
-      Shira Shamban/Ori Troyna<br />
+      Shira Shamban and Ori Troyna<br />
       <em>OWASP Israel</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
