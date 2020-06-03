@@ -357,7 +357,7 @@ Visit his profile on LinkedIn: [Runcy Oommen](https://www.linkedin.com/in/runcyo
 
 #### Abstract
 
-The OWASP Risk Assessment Framework consists of Static Application Security Testing and Risk Assessment tools. There are many SAST tools available for testers, but the compatibility and the environment setup process is complex. By using OWASP Risk Assessment Framework’s Static Application Security Testing tool, testers will be able to analyze and review their code quality and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated into the DevSecOps tool chain to help developers to write and produce secure code.
+The OWASP Risk Assessment Framework consists of Static Application Security Testing and Risk Assessment tools. There are many SAST tools available for testers, but the compatibility and the environment setup process is complex. By using OWASP Risk Assessment Framework's Static Application Security Testing tool, testers will be able to analyze and review their code quality and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated into the DevSecOps tool chain to help developers to write and produce secure code.
 
 ---------
 
