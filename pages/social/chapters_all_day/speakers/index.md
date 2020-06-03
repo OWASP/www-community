@@ -41,6 +41,7 @@ With a background in development and many years of experience in security, he ha
 
 ### Session Host: Guy Osa, *Chapter Leader*
 
+
 ----------
 
 ## Hour 04 - Hosted by OWASP Uruguay
@@ -117,6 +118,17 @@ We will focus on open-source tools, including OWASP Zed Attack Proxy (ZAP), OWAS
 ## Hour 08 - Hosted by OWASP Atlanta (GA, USA)
 
 ### Session Host: Tony UV, *Chapter Leader*
+
+### Cooking with PASTA - Risk Centric, Offensive Minded Threat Modeling Walk Through
+*Tony UV - Chapter Leader, OWASP Atlanta ("The ATL")*
+
+#### Abstract
+
+Pour yourself a nice vino and enjoy this walk through of the Process for Attack Simulation & Threat Analysis - the only risk centric threat modeling approach that was developed by two OWASP leaders and manifested in their literary work, *[Risk Centric Threat Modeling](https://www.wiley.com/en-us/Risk+Centric+Threat+Modeling%3A+Process+for+Attack+Simulation+and+Threat+Analysis-p-9780470500965)*, via Wiley Publishing. This presentation will walk those interested in an evidence based approach to decomposing their application/ software for the purposes of addressing attack patterns and software weaknesses that facilitate a library of threats.  Each of the seven stages of PASTA will be covered so that practioners, developers, architects, and security champions can become inspired to chef up their own PASTA within their respective S-SDLC cycles.
+
+#### Speaker Biography
+
+**Tony UV** is the OWASP Atlanta (ATL) chapter leader. He is the co-author of Risk Centric Threat Modeling (Wiley 2015) and is CEO of VerSprite.  Tony UV is an avid AppSec professional who's experience in security architecture, development, code analysis, exploit testing, threat analysis have funneled into his current passion around threat modeling. 
 
 ---------
 
