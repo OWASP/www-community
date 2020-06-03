@@ -324,11 +324,40 @@ In addition to finding vulnerabilities, he contributes to and maintains several 
 
 ### Session Host: Vandana Verma Sehgal, *OWASP Global Board of Directors*
 
+### Continuous Auditing with Compliance as Code
+*Mohammed A. Imran*
+
+#### Abstract
+
+Very useful in today's modern dev context where quick turnarounds for features means ensuring a separate security cycle may not be feasible. Ensuring compliance is a step that goes hand in hand with security testing especially for regulatory requirements. Audience will like this talk.
+
+#### Speaker Biography
+
+Visit his profile on LinkedIn: [Mohammed A. Imran](https://www.linkedin.com/in/secfigo/)
+
+### Security Hardening of Popular Public Cloud Managed Services
+*Runcy Oommen*
+
+#### Abstract
+
+Multi-cloud, trumps the other Azure DevOps submission from a content point of view. Modern and relatable. Will enable audiences to create checklists or further reading in context to their own setups. Newbies will learn a bunch of things about the cloud.
+
+#### Speaker Biography
+
+Visit his profile on LinkedIn: [Runcy Oommen](https://www.linkedin.com/in/runcyoommen/)
+
 ---------
 
 ## Hour 17/18 - Hosted by OWASP Jakarta (Indonesia)
 
 ### Session Host: TBC
+
+### OWASP Risk Assessment Framework
+*Azhar Ahamed*
+
+#### Abstract
+
+The OWASP Risk Assessment Framework consists of Static Application Security Testing and Risk Assessment tools. There are many SAST tools available for testers, but the compatibility and the environment setup process is complex. By using OWASP Risk Assessment Framework’s Static Application Security Testing tool, testers will be able to analyze and review their code quality and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated into the DevSecOps tool chain to help developers to write and produce secure code.
 
 ---------
 
@@ -336,6 +365,23 @@ In addition to finding vulnerabilities, he contributes to and maintains several 
 
 ### Session Host: Rejah Rahim
 
+### OSINT Gathering and Analysis
+*Manieendar Mohan and Anees Muhammed*
+
+#### Abstract
+
+This talk will begin with a beginner-level introduction to Open-Source Intelligence (OSINT), and will proceed to cover the following topics:
+* History of OSINT
+* Foundations of OSINT
+* Social Media Data Harvesting
+* Business and Network Data Harvesting
+* Tools and Frameworks
+
+#### Speaker Biographies
+
+**Manieendar Mohan** is a Cyber Security Engineer. Visit his profile on LinkedIn: [Manieendar Mohan](https://www.linkedin.com/in/manieendar-mohan-861a36186/).
+
+**Anees Muhammed** - No biography submitted
 
 ---------
 
@@ -408,7 +454,7 @@ Visit his profile on LinkedIn: [Sanjeev Multani](https://www.linkedin.com/in/san
 
 ## Hour 21 - Hosted by OWASP Israel
 
-### Session Host: Josh Grossman, *Chapter Leader*
+### Session Hosts: Shira Shamban and Ori Troyna
 
 ### How SameSite Cookies Are Making the World a Safer Place
 *Michael Furman*
