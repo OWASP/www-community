@@ -131,7 +131,8 @@ tags: chaptersAllDay2020
       <em>OWASP Atlanta (GA, USA)</em>
     </td>
     <td style="vertical-align: top;" colspan="2">
-      &nbsp;
+      <strong>Cooking with PASTA: Risk Centric, Offensive Minded Threat Modeling Walk Through</strong><br />
+      <em>Tony UV, OWASP Atlanta</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
