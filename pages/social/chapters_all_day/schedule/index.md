@@ -130,7 +130,7 @@ tags: chaptersAllDay2020
       Tony UV and Guled Abdilaha<br />
       <em>OWASP Atlanta (GA, USA)</em>
     </td>
-    <td style="vertical-align: top;" colspan="2">
+    <td style="vertical-align: top; text-align: center;" colspan="2">
       <strong>Cooking with PASTA: Risk Centric, Offensive Minded Threat Modeling Walk Through</strong><br />
       <em>Tony UV, OWASP Atlanta</em>
     </td>
