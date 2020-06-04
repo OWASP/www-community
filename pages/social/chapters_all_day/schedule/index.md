@@ -187,9 +187,13 @@ tags: chaptersAllDay2020
       Gustavo Nieves Arreaza<br />
       <em>OWASP Vi&ntilde;a del Mar (Chile)</em>
     </td>
-    <td style="vertical-align: top; text-align: center;" colspan="2">
+    <td style="vertical-align: top; text-align: center;">
       <strong>Automated and Manual Threat Modeling</strong><br />
       <em>Gustavo Jose Nieves Arreaza</em>
+    </td>
+    <td style="vertical-align: top; text-align: center;">
+      <strong>Why Phishing Is Here to Stay?</strong><br />
+      <em>Paola Perez and Patricia Valdivia Heredia</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
