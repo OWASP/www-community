@@ -1,8 +1,8 @@
 ---
 layout: full-width
-title: OWASP NZ Day - Speakers
+title: OWASP Chapters All Day - Speakers
 displaytext: Conference - Presentation Abstracts and Speaker Biographies
-tags: nzday2020
+tags: chaptersAllDay2020
 ---
 
 <img src="/www-community/pages/social/chapters_all_day/assets/images/Logo-Chapters_All_Day-Transparent.jpg" style="width: 250px; height: 250px;" alt="Logo-OWASP Chapters All Day" />
