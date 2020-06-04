@@ -127,9 +127,6 @@ tags: chaptersAllDay2020
       <strong>Task 0: Hardening as code. Protecting your systems before they born</strong><br />
       <em>Diego Porras, OWASP Guatemala</em>
     </td>
-    <td style="vertical-align: top;" colspan="2">
-      &nbsp;
-    </td>
   </tr>
   <tr style="background-color: #B9C2DC;">
     <td style="vertical-align: top; text-align: center;">08</td>
