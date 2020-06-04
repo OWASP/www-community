@@ -1,7 +1,7 @@
 ---
 layout: full-width
 title: Schedule
-displaytext: Presentation Schedule
+displaytext: OWASP Chapters All Day - Schedule
 tags: chaptersAllDay2020
 ---
 
