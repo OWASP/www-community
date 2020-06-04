@@ -119,8 +119,13 @@ tags: chaptersAllDay2020
       Pablo Barrera<br />
       <em>OWASP Guatemala</em>
     </td>
-    <td style="vertical-align: top;" colspan="2">
-      &nbsp;
+    <td style="vertical-align: top; text-align: center; width: 33%;">
+      <strong>Building Cyber-Resilience the right way </strong><br />
+      <em>Pablo Barrera, OWASP Guatemala</em>
+    </td>
+    <td style="vertical-align: top; text-align: center; width: 33%;">
+      <strong>Task 0: Hardening as code. Protecting your systems before they born</strong><br />
+      <em>Diego Porras, OWASP Guatemala</em>
     </td>
   </tr>
   <tr style="background-color: #B9C2DC;">
