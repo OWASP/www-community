@@ -57,9 +57,13 @@ tags: chaptersAllDay2020
       Sebastien Deleersnyder<br />
       <em>OWASP Belgium</em>
     </td>
-    <td style="vertical-align: top; text-align: center;" colspan="2">
+    <td style="vertical-align: top; text-align: center; width: 33%;">
       <strong>OWASP SAMM v2: Your Dynamic Software Security Journey</strong><br />
       <em>Sebastien Deleersnyder, Project Leader</em>
+    </td>
+    <td style="vertical-align: top; text-align: center; width: 33%;">
+      <strong>A Practical Approach for Taking Down Avalanche Botnets Under Real-World Constraints</strong><br />
+      <em>Victor Le Pochat, KU Leuven</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
