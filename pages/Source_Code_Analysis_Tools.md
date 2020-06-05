@@ -194,7 +194,7 @@ every effort to correct this information.</b>
     comments which may indicate defective code. The config files can be
     used to carry out additional checks for banned functions or
     functions which commonly cause security issues.
- - [VS Code OpenAPI (Swagger) Editor extension](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi) - Enables rich editing capabilities for REST API contracts and also includes linting and Security Audit (static security analysis).    
+ - [VS Code OpenAPI (Swagger) Editor extension](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi) - Plugin to Microsoft Visual Studio Code that enables rich editing capabilities for REST API contracts and also includes linting and Security Audit (static security analysis).    
 
 [GitLab has lashed a free SAST tool for a bunch of different languages
 natively into GitLab. So you might be able to use that, or at least
