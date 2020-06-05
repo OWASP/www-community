@@ -200,7 +200,7 @@ We hope that sharing our approach to these problems with Cartography will help y
 
 **Alex Chantavy** is a software engineer on Lyft's security team (and also happens to be from Makakilo, HI). As one of the developers on Cartography, his security interests are understanding cloud permissions relationships and finding opportunities for lateral movement. In previous roles, Alex has performed red teaming as well as security tool development. In short, he enjoys learning easy ways to make computers do what they're not supposed to do, making robots do his homework, and showing others how to do the same.
 
-### Content Security Policy: Drawing the Rest of the Owl
+### Content Security Policy: Going From Idea to Afterthought 
 *Neil Matatall*
 
 #### Abstract
