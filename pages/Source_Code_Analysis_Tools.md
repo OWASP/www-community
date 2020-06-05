@@ -92,6 +92,8 @@ every effort to correct this information.</b>
 
 ## Open Source or Free Tools Of This Type
 
+  - [APIsecurity.io Security Audit](https://apisecurity.io/tools/audit/) -
+    online tool for OpenAPI / Swagger file static security analysis
   - [Bandit](https://wiki.openstack.org/wiki/Security/Projects/Bandit) -
     bandit is a comprehensive source vulnerability scanner for Python
   - [Brakeman](http://brakemanscanner.org/) - Brakeman is an open source
@@ -192,6 +194,7 @@ every effort to correct this information.</b>
     comments which may indicate defective code. The config files can be
     used to carry out additional checks for banned functions or
     functions which commonly cause security issues.
+ - [VS Code OpenAPI (Swagger) Editor extension](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi) - Enables rich editing capabilities for REST API contracts and also includes linting and Security Audit (static security analysis).    
 
 [GitLab has lashed a free SAST tool for a bunch of different languages
 natively into GitLab. So you might be able to use that, or at least
@@ -204,6 +207,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
 
 ## Commercial Tools Of This Type
 
+  - [42Crunch](https://42crunch.com) - REST API security platform that includes Security Audit (SAST), dynamic conformance scan, runtime protection, and monitoring.
   - [Application
     Inspector](https://www.ptsecurity.com/ww-en/products/ai/) (Positive
     Technologies) - combines SAST, DAST, IAST, SCA, configuration
