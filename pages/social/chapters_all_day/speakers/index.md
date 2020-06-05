@@ -367,7 +367,7 @@ Visit his profile on LinkedIn: [Mohammed A. Imran](https://www.linkedin.com/in/s
 
 #### Abstract
 
-Multi-cloud, trumps the other Azure DevOps submission from a content point of view. Modern and relatable. Will enable audiences to create checklists or further reading in context to their own setups. Newbies will learn a bunch of things about the cloud.
+The default configurations of popular managed services in public cloud like AWS, Azure and GCP may not be fine tuned for best security. In this talk, I will walk through the essential steps required to make them robust yet retain their agility without jumping through multiple hoops.
 
 #### Speaker Biography
 
