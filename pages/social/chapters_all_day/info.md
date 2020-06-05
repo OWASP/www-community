@@ -53,7 +53,7 @@
         
         utc_dt = luxon.DateTime.utc(2020, 06, 06, parseInt(end_hour_str), parseInt(end_min_str), 0);
         end_dt = utc_dt.setZone(luxon.DateTime.local().zoneName);
-        popstr = start_dt.toLocaleString(luxon.DateTime.TIME_24_WITH_SECONDS) + ' to ' + end_dt.toLocaleString(luxon.DateTime.TIME_24_WITH_SHORT_OFFSET);
+        popstr = start_dt.toLocaleString(luxon.DateTime.TIME_24_SIMPLE) + ' to ' + end_dt.toLocaleString({ hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: 'short' });
         $(this).prop('title', popstr);
       }
     });
