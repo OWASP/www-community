@@ -22,7 +22,7 @@ tags: chaptersAllDay2020
 
 ### Session Host: Sebastien Deleersnyder, *Chapter Leader*
 
-### OWASP SAMM v2: Your Dynamic Software Security Journey
+### Talk 1 - OWASP SAMM v2: Your Dynamic Software Security Journey
 *Sebastien Deleersnyder - Project Leader*
 
 #### Abstract
@@ -34,6 +34,21 @@ Building security into the software development and management practices of a co
 **Sebastien (Seba) Deleersnyder** is co-founder and CEO of Toreon, and a proponent of application security as a holistic endeavor. He started the Belgian OWASP chapter, was a member of the OWASP Foundation Board and performed several public presentations on Application Security. Seba also co-organized the yearly security & hacker BruCON conference and trainings in Belgium. 
 
 With a background in development and many years of experience in security, he has trained countless developers to create software more securely. He has led OWASP projects such as OWASP SAMM, thereby truly making the world a little bit safer. Now he is adapting application security models to the evolving field of DevOps and is also focused on bringing Threat Modeling to a wider audience. **Twitter:** [@sebadele](https://twitter.com/sebadele)
+
+### Talk 2 - A Practical Approach for Taking Down Avalanche Botnets Under Real-World Constraints
+*Victor Le Pochat - PhD student web security at KU Leuven*
+
+#### Abstract
+
+In 2016, law enforcement conducted the largest takedown of a cybercrime operation so far, targeting the Avalanche botnet. 
+They faced a challenge when blocking future registration of the C&C domains: some of these domains already existed, and this was not necessarily for malicious purposes.<br>
+In our talk, we discuss our collaboration in developing an approach to improve detection of these false positives for the ongoing cleanup of Avalanche. We'll explain how we leveraged the synergy of a machine learning model and human analyst to reduce manual effort without compromising correctness.
+
+#### Speaker Biography
+
+**Victor Le Pochat** is a PhD student in the area of web security at the imec-DistriNet research group at KU Leuven in Belgium.  His interests lie in the exploration of web ecosystems through large-scale measurements, and in web security
+research methodology, both analyzing and improving current research practices.<br>
+[@VictorLePochat](https://twitter.com/VictorLePochat)
 
 ---------
 
@@ -185,7 +200,7 @@ We hope that sharing our approach to these problems with Cartography will help y
 
 **Alex Chantavy** is a software engineer on Lyft's security team (and also happens to be from Makakilo, HI). As one of the developers on Cartography, his security interests are understanding cloud permissions relationships and finding opportunities for lateral movement. In previous roles, Alex has performed red teaming as well as security tool development. In short, he enjoys learning easy ways to make computers do what they're not supposed to do, making robots do his homework, and showing others how to do the same.
 
-### Content Security Policy: Drawing the Rest of the Owl
+### Content Security Policy: Going From Idea to Afterthought 
 *Neil Matatall*
 
 #### Abstract
@@ -352,7 +367,7 @@ Visit his profile on LinkedIn: [Mohammed A. Imran](https://www.linkedin.com/in/s
 
 #### Abstract
 
-Multi-cloud, trumps the other Azure DevOps submission from a content point of view. Modern and relatable. Will enable audiences to create checklists or further reading in context to their own setups. Newbies will learn a bunch of things about the cloud.
+The default configurations of popular managed services in public cloud like AWS, Azure and GCP may not be fine tuned for best security. In this talk, I will walk through the essential steps required to make them robust yet retain their agility without jumping through multiple hoops.
 
 #### Speaker Biography
 

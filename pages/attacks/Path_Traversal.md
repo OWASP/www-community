@@ -51,7 +51,7 @@ All but the most simple web applications have to include local resources, such a
 ### How to Test for Path Traversal Vulnerabilities
 
 See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
-[test for path traversal vulnerabilities](https://github.com/OWASP/wstg/blob/master/document/4_Web_Application_Security_Testing/4.6_Authorization_Testing/4.6.1_Testing_Directory_Traversal_File_Include_WSTG-AUTHZ-001.md).
+[test for path traversal vulnerabilities](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.md).
 
 ## Description
 
