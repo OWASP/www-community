@@ -90,7 +90,7 @@ tags: chaptersAllDay2020
       <em>OWASP Uruguay</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      Session canceled - Presenter unavailable due to last-minute issues
+      Session canceled - Presenter unavailable
     </td>
   </tr>
   <tr style="background-color: #EEE;">
