@@ -73,8 +73,13 @@ tags: chaptersAllDay2020
       Guy Osa<br />
       <em>OWASP New York City (NY, USA)</em>
     </td>
-    <td style="vertical-align: top; text-align: center;" colspan="2">
-      &nbsp;
+    <td style="vertical-align: top; text-align: center;">
+      <strong>Flattening the Cyber Curve</strong><br />
+      <em>Christopher Frenz</em>
+    </td>
+    <td style="vertical-align: top; text-align: center;">
+      <strong>OWASP Vulnerability Management Guide (OVMG)</strong><br />
+      <em>Elizabeth Frenz</em>
     </td>
   </tr>
   <tr style="background-color: #B9C2DC;">
@@ -85,7 +90,7 @@ tags: chaptersAllDay2020
       <em>OWASP Uruguay</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      &nbsp;
+      Session canceled - Presenter unavailable due to last-minute issues
     </td>
   </tr>
   <tr style="background-color: #EEE;">
@@ -107,11 +112,11 @@ tags: chaptersAllDay2020
       Mohamed Alfateh<br />
       <em>OWASP Cairo (Egypt)</em>
     </td>
-    <td style="vertical-align: top; text-align: center; width: 33%;">
+    <td style="vertical-align: top; text-align: center;">
       <strong>Building Your Web Offensive Shield</strong><br />
       <em>Mohamed Alfateh, OWASP Cairo</em>
     </td>
-    <td style="vertical-align: top; text-align: center; width: 33%;">
+    <td style="vertical-align: top; text-align: center;">
       <strong>Set Up a Continuous DevSecOps Toolchain with Open-Source Tools</strong><br />
       <em>Azzendine Ramrami, OWASP Morocco</em>
     </td>
@@ -123,11 +128,11 @@ tags: chaptersAllDay2020
       Pablo Barrera<br />
       <em>OWASP Guatemala</em>
     </td>
-    <td style="vertical-align: top; text-align: center; width: 33%;">
+    <td style="vertical-align: top; text-align: center;">
       <strong>Building Cyber-Resilience the right way </strong><br />
       <em>Pablo Barrera, OWASP Guatemala</em>
     </td>
-    <td style="vertical-align: top; text-align: center; width: 33%;">
+    <td style="vertical-align: top; text-align: center;">
       <strong>Task 0: Hardening as code. Protecting your systems before they born</strong><br />
       <em>Diego Porras, OWASP Guatemala</em>
     </td>
