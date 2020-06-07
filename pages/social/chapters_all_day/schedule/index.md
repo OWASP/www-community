@@ -136,7 +136,7 @@ tags: chaptersAllDay2020
     <td style="vertical-align: top; text-align: center;">08</td>
     <td style="vertical-align: top; text-align: center;">19:00 SAT</td>
     <td style="vertical-align: top; text-align: center;">
-      Tony UV and Guled Abdilaha<br />
+      Tony UV<br />
       <em>OWASP Atlanta (GA, USA)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
