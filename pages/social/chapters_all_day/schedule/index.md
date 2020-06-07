@@ -180,7 +180,7 @@ tags: chaptersAllDay2020
       <em>Alex Chantavy</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Content Security Policy: Drawing the Rest of the Owl</strong><br />
+      <strong>Content Security Policy: Going From Idea to Afterthought</strong><br />
       <em>Neil Matatall</em>
     </td>
   </tr>
