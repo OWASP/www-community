@@ -14,7 +14,7 @@ tags: chaptersAllDay2020
 
 ## Saturday-Sunday, 6-7 June 2020
 
-**Presentation abstracts and speaker biographies can be found on [this page](/www-community/pages/social/chapters_all_day/speakers/){:target="_blank"}.
+**Presentation abstracts and speaker biographies can be found on [this page](/www-community/pages/social/chapters_all_day/speakers/){:target="_blank"}{:rel="noopener noreferrer"}.
 
 <table width="100%">
   <tr style="background-color: #8595C2; margin: 10px;">
