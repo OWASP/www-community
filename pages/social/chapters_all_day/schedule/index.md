@@ -32,6 +32,7 @@ tags: chaptersAllDay2020
     </td>
     <td style="vertical-align: top;" colspan="2">
       <strong>Opening Session</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=VjGbfuGWc2I" %}
       <ul>
         <li>Welcome and Introductory Remarks</li>
         <li>About OWASP</li>
@@ -58,11 +59,15 @@ tags: chaptersAllDay2020
       <em>OWASP Belgium</em>
     </td>
     <td style="vertical-align: top; text-align: center; width: 33%;">
-      <strong>OWASP SAMM v2: Your Dynamic Software Security Journey</strong><br />
+      <strong>OWASP SAMM v2: Your Dynamic Software Security Journey</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=H7xH3YIhMcM&t=190" %}
+      <br />
       <em>Sebastien Deleersnyder, Project Leader</em>
     </td>
     <td style="vertical-align: top; text-align: center; width: 33%;">
-      <strong>A Practical Approach for Taking Down Avalanche Botnets Under Real-World Constraints</strong><br />
+      <strong>A Practical Approach for Taking Down Avalanche Botnets Under Real-World Constraints</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=H7xH3YIhMcM&t=2100" %}
+      <br />
       <em>Victor Le Pochat, KU Leuven</em>
     </td>
   </tr>
@@ -74,11 +79,15 @@ tags: chaptersAllDay2020
       <em>OWASP New York City (NY, USA)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Flattening the Cyber Curve</strong><br />
+      <strong>Flattening the Cyber Curve</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=mGVXYaqmybo&t=273" %}
+      <br />
       <em>Christopher Frenz</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>OWASP Vulnerability Management Guide (OVMG)</strong><br />
+      <strong>OWASP Vulnerability Management Guide (OVMG)</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=mGVXYaqmybo&t=3807"%}
+<br />
       <em>Elizabeth Frenz</em>
     </td>
   </tr>
@@ -101,7 +110,9 @@ tags: chaptersAllDay2020
       <em>OWASP Chile</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      <strong>Is Your Phone Your Enemy or Your Friend?</strong><br />
+      <strong>Is Your Phone Your Enemy or Your Friend?</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=ICYxm3zBtNA&t=231" %}
+<br />
       <em>Silvia Arias Becker and Oscar Orellana Artigas, OWASP Chile</em>
     </td>
   </tr>
@@ -113,11 +124,15 @@ tags: chaptersAllDay2020
       <em>OWASP Cairo (Egypt)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Building Your Web Offensive Shield</strong><br />
+      <strong>Building Your Web Offensive Shield</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=3PnPsrOoVUc&t=30"%}
+<br />
       <em>Mohamed Alfateh, OWASP Cairo</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Set Up a Continuous DevSecOps Toolchain with Open-Source Tools</strong><br />
+      <strong>Set Up a Continuous DevSecOps Toolchain with Open-Source Tools</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=3PnPsrOoVUc&t=2123" %}
+<br />
       <em>Azzendine Ramrami, OWASP Morocco</em>
     </td>
   </tr>
@@ -129,11 +144,15 @@ tags: chaptersAllDay2020
       <em>OWASP Guatemala</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Building Cyber-Resilience the right way </strong><br />
+      <strong>Building Cyber-Resilience the right way </strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=z0CdVBT_IsY&t=46" %}
+<br />
       <em>Pablo Barrera, OWASP Guatemala</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Task 0: Hardening as code. Protecting your systems before they born</strong><br />
+      <strong>Task 0: Hardening as code. Protecting your systems before they born</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=z0CdVBT_IsY&t=1187" %}
+<br />
       <em>Diego Porras, OWASP Guatemala</em>
     </td>
   </tr>
@@ -145,7 +164,9 @@ tags: chaptersAllDay2020
       <em>OWASP Atlanta (GA, USA)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      <strong>Cooking with PASTA: Risk Centric, Offensive Minded Threat Modeling Walk Through</strong><br />
+      <strong>Cooking with PASTA: Risk Centric, Offensive Minded Threat Modeling Walk Through</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=YFxSjiwbv4U&t=42"%}
+<br />
       <em>Tony UV, OWASP Atlanta</em>
     </td>
   </tr>
@@ -157,7 +178,9 @@ tags: chaptersAllDay2020
       <em>OWASP Orange County (CA, USA)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      <strong>Your Taxes Are Being Leaked</strong><br />
+      <strong>Your Taxes Are Being Leaked</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=N969Xkjw7eA&t=188" %}
+<br />
       <em>Michael Wylie</em>
     </td>
   </tr>
@@ -169,7 +192,9 @@ tags: chaptersAllDay2020
       <em>OWASP Santa Barbara (CA, USA)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      <strong>HTTP Security Headers</strong><br />
+      <strong>HTTP Security Headers</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=QQsK9FD_K9g&t=85"%}
+<br />
       <em>W. Mart&iacute;n Villalba, OWASP Santa Barbara</em>
     </td>
   </tr>
@@ -181,11 +206,15 @@ tags: chaptersAllDay2020
       <em>OWASP Hawaii (USA)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Lyft Cartography: Using Graphs to Improve and Scale Security Decision-Making</strong><br />
+      <strong>Lyft Cartography: Using Graphs to Improve and Scale Security Decision-Making</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=3w5oDuEs0Zc&t=121" %}
+<br />
       <em>Alex Chantavy</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Content Security Policy: Going From Idea to Afterthought</strong><br />
+      <strong>Content Security Policy: Going From Idea to Afterthought</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=3w5oDuEs0Zc&t=1731" %}
+<br />
       <em>Neil Matatall</em>
     </td>
   </tr>
@@ -197,12 +226,16 @@ tags: chaptersAllDay2020
       <em>OWASP Vi&ntilde;a del Mar (Chile)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Automated and Manual Threat Modeling</strong><br />
-      <em>Gustavo Jose Nieves Arreaza</em>
+      <strong>Why Phishing Is Here to Stay?</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=grJPnuL_JhA&t=363" %}
+<br />
+      <em>Paola Perez and Patricia Valdivia Heredia</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Why Phishing Is Here to Stay?</strong><br />
-      <em>Paola Perez and Patricia Valdivia Heredia</em>
+      <strong>Automated and Manual Threat Modeling</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=grJPnuL_JhA&t=2034" %}
+<br />
+      <em>Gustavo Jose Nieves Arreaza</em>
     </td>
   </tr>
   <tr style="background-color: #EEE;">
@@ -213,11 +246,15 @@ tags: chaptersAllDay2020
       <em>OWASP New Zealand</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Small, but fierce (but still small)</strong><br />
+      <strong>Small, but fierce (but still small)</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=rcWSjqNHD8U&t=321" %}
+<br />
       <em>Erica Anderson (@sputina)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Let Me Secure That for You</strong><br />
+      <strong>Let Me Secure That for You</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=rcWSjqNHD8U&t=1493" %}
+<br />
       <em>Kirk Jackson, OWASP New Zealand</em>
     </td>
   </tr>
@@ -229,7 +266,9 @@ tags: chaptersAllDay2020
       <em>OWASP Victoria (BC, Canada)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      <strong>Purple Is the New Black: Modern Approaches to Application Security</strong><br />
+      <strong>Purple Is the New Black: Modern Approaches to Application Security</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=q3tKPb8RqC4&t=92" %}
+<br />
       <em>Tanya Janca</em>
     </td>
   </tr>
@@ -241,11 +280,15 @@ tags: chaptersAllDay2020
       <em>OWASP Japan</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Implementing CSIRT Based on Frameworks and Maturity Model</strong><br />
+      <strong>Implementing CSIRT Based on Frameworks and Maturity Model</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=yNqiibMN8nY&t=385" %}
+<br />
       <em>Akitsugu Ito</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>How Our PSIRT Evolved</strong><br />
+      <strong>How Our PSIRT Evolved</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=yNqiibMN8nY&t=1785" %}
+<br />
       <em>Yuriko Otsuka</em>
     </td>
   </tr>
@@ -257,7 +300,9 @@ tags: chaptersAllDay2020
       <em>OWASP Melbourne (Australia)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      <strong>Input Validation and Output Encoding Fallacies</strong><br />
+      <strong>Input Validation and Output Encoding Fallacies</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=t2tKkiQxfH0&t=206" %}
+<br />
       <em>Eldar Marcussen</em>
     </td>
   </tr>
@@ -269,15 +314,18 @@ tags: chaptersAllDay2020
       <em>OWASP Bangalore (India)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Continuous Auditing with Compliance as Code</strong><br />
+      <strong>Continuous Auditing with Compliance as Code</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=PMgmlZztpEQ&t=111" %}
+<br />
       <em>Mohammed A. Imran</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Security Hardening of Popular Public Cloud Managed Services</strong><br />
+      <strong>Security Hardening of Popular Public Cloud Managed Services</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=PMgmlZztpEQ&t=1450" %}
+<br />
       <em>Runcy Oommen</em>
     </td>
   </tr>
-
   <tr style="background-color: #B9C2DC;">
     <td style="vertical-align: top; text-align: center;">17-18</td>
     <td style="vertical-align: top; text-align: center;">04:55 SUN</td>
@@ -286,7 +334,9 @@ tags: chaptersAllDay2020
       <em>OWASP Jakarta (Indonesia)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      <strong>OWASP Risk Assessment Framework</strong><br />
+      <strong>OWASP Risk Assessment Framework</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=dEYkQRyr3cA&t=148"%}
+<br />
       <em>Azhar Ahamed</em>
     </td>
   </tr>
@@ -298,7 +348,9 @@ tags: chaptersAllDay2020
       <em>OWASP Kerala (India)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
-      <strong>OSINT Gathering and Analysis</strong><br />
+      <strong>OSINT Gathering and Analysis</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=fUQ7KAG8Gzs&t=67" %}
+<br />
       <em>Manieendar Mohan and Anees Muhammed</em>
     </td>
   </tr>
@@ -310,11 +362,15 @@ tags: chaptersAllDay2020
       <em>OWASP Nagpur (India)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Cuffing Web APIs Offensively</strong><br />
+      <strong>Cuffing Web APIs Offensively</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=WhK42yvjqvs&t=78" %}
+<br />
       <em>Chaitanya Deshpande</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Fortifying Ruby On Rails Web Application Framework Security</strong><br />
+      <strong>Fortifying Ruby On Rails Web Application Framework Security</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=WhK42yvjqvs&t=1675" %}
+<br />
       <em>Sahil Tembhare</em>
     </td>
   </tr>
@@ -326,11 +382,15 @@ tags: chaptersAllDay2020
       <em>OWASP Meerut (India)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Real Privacy Protection in the COVID-19 Era</strong><br />
+      <strong>Real Privacy Protection in the COVID-19 Era</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=BzSAeWs21dY&t=140" %}
+<br />
       <em>Rahul Tyagi</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Introduction to Exploit Development</strong><br />
+      <strong>Introduction to Exploit Development</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=BzSAeWs21dY&t=1798" %}
+<br />
       <em>Sanjeev Multani</em>
     </td>
   </tr>
@@ -342,11 +402,15 @@ tags: chaptersAllDay2020
       <em>OWASP Israel</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>How SameSite Cookies Are Making the World a Safer Place</strong><br />
+      <strong>How SameSite Cookies Are Making the World a Safer Place</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=jZs89NORky4&t=100" %} & {% include_relative yt.liquid video="https://www.youtube.com/watch?v=jZs89NORky4&t=2415" %}
+<br />
       <em>Michael Furman</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Vulnerable Dependencies: It's Not About Discovery</strong><br />
+      <strong>Vulnerable Dependencies: It's Not About Discovery</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=jZs89NORky4&t=1528" %}
+<br />
       <em>Omer Levi Hevroni</em>
     </td>
   </tr>
@@ -358,11 +422,15 @@ tags: chaptersAllDay2020
       <em>OWASP Kyiv (Ukraine)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Use Cryptography, Don't Learn It</strong><br />
+      <strong>Use Cryptography, Don't Learn It</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=3JWkHaxXbKo&t=225" %}
+<br />
       <em>Anastasiia Voitova</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Cybersecurity Economics</strong><br />
+      <strong>Cybersecurity Economics</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=3JWkHaxXbKo&t=1941" %}
+<br />
       <em>Vlad Styran, OWASP Kyiv</em>
     </td>
   </tr>
@@ -374,11 +442,15 @@ tags: chaptersAllDay2020
       <em>OWASP Cambridge (UK)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>OWASP Application Security Curriculum Project</strong><br />
+      <strong>OWASP Application Security Curriculum Project</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=V4KA8AAGcAk&t=249" %}
+<br />
       <em>Adrian Winckles, Project Leader</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>OWASP SecureFlag Community Edition</strong><br />
+      <strong>OWASP SecureFlag Community Edition</strong>
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=V4KA8AAGcAk&t=1238" %}
+<br />
       <em>Andrea Scaduto, Project Leader</em>
     </td>
   </tr>
@@ -390,11 +462,15 @@ tags: chaptersAllDay2020
       <em>OWASP London (UK)</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>Introducing the OWASP Nettacker Project</strong><br />
+      <strong>Introducing the OWASP Nettacker Project</strong>
+      {% include_relative yt.liquid %}
+<br />
       <em>Sam Stepanyan, OWASP London</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <strong>(Agile) Threat Modelling</strong><br />
+      <strong>(Agile) Threat Modelling</strong>
+      {% include_relative yt.liquid %}
+<br />
       <em>Grant Ongers</em>
     </td>
   </tr>
@@ -406,7 +482,11 @@ tags: chaptersAllDay2020
       <em>OWASP Sendai (Japan)</em>
     </td>
     <td style="vertical-align: top;" colspan="2">
-      <p style="font-weight: bold;">Closing Session</p>
+      <p style="font-weight: bold;">Closing Session
+        {% include_relative yt.liquid %}
+      </p>
+      
+      
       <span style="font-style: italic;">
       <strong>Organizing Committee:</strong>
       <ul>
