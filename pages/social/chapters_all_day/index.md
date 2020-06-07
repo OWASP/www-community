@@ -18,7 +18,7 @@ tags: chaptersAllDay2020
 
 * [Presentation Schedule](/www-community/pages/social/chapters_all_day/schedule/)
   * [Presentation Abstracts and Speaker Biographies](/www-community/pages/social/chapters_all_day/speakers/)
-* [YouTube Channel](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw/videos?view=2&flow=grid&live_view=502){:target="_blank"}
+* [YouTube Channel](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw/videos?view=2&flow=grid&live_view=502){:target="_blank"}{:rel="noopener noreferrer"}
 * [#owasp-chapters-all-day](https://owasp.slack.com/archives/C0119CL6AN4) Channel on OWASP Slack - For interactive discussion before, during, and after the event
 
 Leaders from OWASP Chapters throughout the world invite you to join us for 24 hours of non-stop AppSec!
@@ -27,7 +27,7 @@ We'll kick off the festivities with Welcoming Remarks and a Keynote presentation
 
 At 12:00 noon (UTC) on Sunday, 7 June, we'll wrap things up with a brief recap and closing remarks.
 
-The entire event will be live-streamed on the **[OWASP Chapters All Day](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw/videos?view=2&flow=grid&live_view=502){:target="_blank"}** YouTube Channel. Each presentation segment (usually one hour in length) is hosted by a different Chapter Leader and will be streamed separately. Live viewers will need to select a new stream to view each host change, while those viewing the recordings later will find 25 videos, listed by hour and host chapter (e.g., "**OWASP Chapters All Day - Hour 01 - Opening Session**" or "**OWASP Chapters All Day - Hour 13 - New Zealand**").
+The entire event will be live-streamed on the **[OWASP Chapters All Day](https://www.youtube.com/channel/UCJNkJT42qFOBdnD8pCpelrw/videos?view=2&flow=grid&live_view=502){:target="_blank"}{:rel="noopener noreferrer"}** YouTube Channel. Each presentation segment (usually one hour in length) is hosted by a different Chapter Leader and will be streamed separately. Live viewers will need to select a new stream to view each host change, while those viewing the recordings later will find 25 videos, listed by hour and host chapter (e.g., "**OWASP Chapters All Day - Hour 01 - Opening Session**" or "**OWASP Chapters All Day - Hour 13 - New Zealand**").
 
 ## Organising Committee
 
