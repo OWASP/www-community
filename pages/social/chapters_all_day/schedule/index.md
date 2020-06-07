@@ -282,7 +282,7 @@ tags: chaptersAllDay2020
     <td style="vertical-align: top; text-align: center;">17-18</td>
     <td style="vertical-align: top; text-align: center;">04:55 SUN</td>
     <td style="vertical-align: top; text-align: center;">
-      TBC<br />
+      Vina Panduwinata<br />
       <em>OWASP Jakarta (Indonesia)</em>
     </td>
     <td style="vertical-align: top; text-align: center;" colspan="2">
