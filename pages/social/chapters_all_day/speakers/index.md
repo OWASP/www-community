@@ -77,7 +77,7 @@ research methodology, both analyzing and improving current research practices.<b
 
 #### Abstract
 
-<ABSTRACT>
+This is an introductory presentation about OWASP Vulnerability Management Guide (OVMG) published in June 2020. The project leader, Elizabeth Frenz, makes a case for having a vulnerability management program as a part of information security and risk management for an organization of any size and maturity. The purpose of the OWASP Vulnerability Management Guide is to explain how continuous and complex processes can be broken down into three essential cycles - detection, reporting, remediation - and how the components of the cycles relate to each other.
 
 #### Speaker Biography
 
