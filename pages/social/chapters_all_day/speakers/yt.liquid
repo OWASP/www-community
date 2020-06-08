@@ -1,0 +1,12 @@
+{% if include.video %}
+  <p><a 
+    href="{{ include.video }}"
+    aria-label="youtube video" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <i class="fas fa-lg fa-video"></i>
+  </a></p>
+{% else %}
+  <p><i class="fas fa-lg fa-video"></i> [Video Pending]</p>
+{% endif %}
