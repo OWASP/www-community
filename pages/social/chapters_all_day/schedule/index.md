@@ -463,13 +463,13 @@ tags: chaptersAllDay2020
     </td>
     <td style="vertical-align: top; text-align: center;">
       <strong>Introducing the OWASP Nettacker Project</strong>
-      {% include_relative yt.liquid %}
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=-klGZ7AaMc4&t=308" %}
 <br />
       <em>Sam Stepanyan, OWASP London</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
       <strong>(Agile) Threat Modelling</strong>
-      {% include_relative yt.liquid %}
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=-klGZ7AaMc4&t=2062" %}
 <br />
       <em>Grant Ongers</em>
     </td>

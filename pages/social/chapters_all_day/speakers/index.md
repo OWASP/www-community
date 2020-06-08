@@ -660,7 +660,7 @@ He co-founded and built SecureFlag, an Application Security training platform fo
 
 ### Introducing the OWASP Nettacker Project
 *Sam Stepanyan - Chapter Leader, OWASP London*
-{% include_relative yt.liquid %}
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=-klGZ7AaMc4&t=308" %}
 
 #### Abstract
 
@@ -672,7 +672,7 @@ The OWASP Nettacker project was created to automate the information gathering, v
 
 ### Gamification of Threat Modelling
 *Grant Ongers - OWASP Global Board of Directors*
-{% include_relative yt.liquid %}
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=-klGZ7AaMc4&t=2062" %}
 
 #### Abstract
 
