@@ -691,7 +691,7 @@ Grant's community involvement is global: Staff at BSides (London, Las Vegas, and
 ## Hour 25 - Closing Session
 
 ### Session Host: Takaharu Ogasa, *Chapter Leader, OWASP Sendai (Japan)*
-{% include_relative yt.liquid %}
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=M4wzNTy4nK8" %}
 
 ---------
 
