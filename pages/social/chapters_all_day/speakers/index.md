@@ -16,6 +16,8 @@ tags: chaptersAllDay2020
 
 ### Session Host: Takaharu Ogasa, *Chapter Leader, OWASP Sendai (Japan)*
 
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=VjGbfuGWc2I" %}
+
 -------------
 
 ## Hour 02 - Hosted by OWASP Belgium
@@ -24,6 +26,7 @@ tags: chaptersAllDay2020
 
 ### Talk 1 - OWASP SAMM v2: Your Dynamic Software Security Journey
 *Sebastien Deleersnyder - Project Leader*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=H7xH3YIhMcM&t=190" %}
 
 #### Abstract
 
@@ -37,6 +40,7 @@ With a background in development and many years of experience in security, he ha
 
 ### Talk 2 - A Practical Approach for Taking Down Avalanche Botnets Under Real-World Constraints
 *Victor Le Pochat - PhD student web security at KU Leuven*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=H7xH3YIhMcM&t=2100" %}
 
 #### Abstract
 
@@ -56,19 +60,20 @@ research methodology, both analyzing and improving current research practices.<b
 
 ### Session Host: Guy Osa, *Chapter Leader*
 
-### Talk 1 - Flattening the Cyber Curve
+### Flattening the Cyber Curve
 *Christopher Frenz*
-
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=mGVXYaqmybo&t=273" %}
 #### Abstract
 
 <ABSTRACT>
 
 #### Speaker Biography
 
-**Christopher Frenz** is the AVP of Information Security for Interfaith Medical Center where he worked to develop the hospital’s information security program and infrastructure.  Under his leadership the hospital has been one of the first in the country to embrace a zero trust model for network security. Christopher has also played a role in pushing for the adoption of improved security standards within hospitals and is the author of the OWASP Secure Medical Device Deployment Standard as well as the OWASP Anti-Ransomware Guide. He also currently chairs the AEHIS Incident Response Committee which has released several deliverables designed to help hospitals test and improve their incident response capabilities.  Christopher has been recognized as a Rising Star amongst healthcare executives and also a top healthcare IT leader by Becker’s Hospital Review.  He has also been recognized as a top healthcare IT leader by Health Data Management.  Christopher’s security expertise has been highlighted in The Financial Times, CSO Magazine, SC Magazine and many other publications.  Christopher shares his expertise at conferences around the world including presentations at VMworld, ASIS GSX, Defcon, HIMSS, and many others.  He is also the author of the computer programming books _Pro Perl Parsing_ and _Visual Basic and Visual Basic .NET for Scientists and Engineers_.
+**Christopher Frenz** is the AVP of Information Security for Interfaith Medical Center where he worked to develop the hospital's information security program and infrastructure.  Under his leadership the hospital has been one of the first in the country to embrace a zero trust model for network security. Christopher has also played a role in pushing for the adoption of improved security standards within hospitals and is the author of the OWASP Secure Medical Device Deployment Standard as well as the OWASP Anti-Ransomware Guide. He also currently chairs the AEHIS Incident Response Committee which has released several deliverables designed to help hospitals test and improve their incident response capabilities.  Christopher has been recognized as a Rising Star amongst healthcare executives and also a top healthcare IT leader by Becker's Hospital Review.  He has also been recognized as a top healthcare IT leader by Health Data Management.  Christopher's security expertise has been highlighted in The Financial Times, CSO Magazine, SC Magazine and many other publications.  Christopher shares his expertise at conferences around the world including presentations at VMworld, ASIS GSX, Defcon, HIMSS, and many others.  He is also the author of the computer programming books _Pro Perl Parsing_ and _Visual Basic and Visual Basic .NET for Scientists and Engineers_.
 
-### Talk 2 - OWASP Vulnerability Management Guide (OVMG)
+### OWASP Vulnerability Management Guide (OVMG)
 *Elizabeth Frenz*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=mGVXYaqmybo&t=3807"%}
 
 #### Abstract
 
@@ -76,7 +81,7 @@ research methodology, both analyzing and improving current research practices.<b
 
 #### Speaker Biography
 
-**Elizabeth Frenz** is a highly experienced information security professional that has been a cybersecurity enthusiast for over twenty years and an OWASP member since 2015. She specializes in cyber security operations and taking risk based approaches to improving security.  She works as a Lead Information Security Analyst for the leading company in clinical trails software.  Previously in her career she led the vulnerability management effort at Office of IT Security & Data Management of the NYC Department of Education.  Elizabeth also has extensive experience in the identity and access management arena and was one of the contributors to an IEEE standard for using biometrics for identity and access management (IEEE 2410-2017).  She is an active member in the NY information security scene and serves as a volunteer at the NYC OWASP chapter.  Elizabeth holds an MS degree in Systems Management from New York University.
+**Elizabeth Frenz** is a highly experienced information security professional that has been a cybersecurity enthusiast for over twenty years and an OWASP member since 2015. She specializes in cyber security operations and taking risk based approaches to improving security.  She works as a Lead Information Security Analyst for the leading company in clinical trails software.  Previously in her career she led the vulnerability management effort at Office of IT Security and Data Management of the NYC Department of Education.  Elizabeth also has extensive experience in the identity and access management arena and was one of the contributors to an IEEE standard for using biometrics for identity and access management (IEEE 2410-2017).  She is an active member in the NY information security scene and serves as a volunteer at the NYC OWASP chapter.  Elizabeth holds an MS degree in Systems Management from New York University.
 
 ----------
 
@@ -92,6 +97,7 @@ research methodology, both analyzing and improving current research practices.<b
 
 ### Is Your Phone Your Enemy or Your Friend?
 *Silvia Arias Becker and Oscar Orellana Artigas*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=ICYxm3zBtNA&t=231" %}
 
 #### Abstract
 
@@ -121,6 +127,7 @@ All of the above is great, if it is under our control and we can privately isola
 
 ### Building Your Web Offensive Shield
 *Mohamed Alfateh - Chapter Leader, OWASP Cairo*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=3PnPsrOoVUc&t=30"%}
 
 #### Abstract
 
@@ -132,6 +139,7 @@ The presentation will talk about how to track any malicious user trying to perfo
 
 ### Set Up a Continuous DevSecOps Toolchain with Open-Source Tools
 *Azzendine Ramrami - Chapter Leader, OWASP Morocco*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=3PnPsrOoVUc&t=2123" %}
 
 #### Abstract
 
@@ -149,6 +157,14 @@ We will focus on open-source tools, including OWASP Zed Attack Proxy (ZAP), OWAS
 
 ### Session Host: Pablo Barrera, *Chapter Leader*
 
+### Building Cyber-Resilience the right way
+*Pablo Barrera, OWASP Guatemala*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=z0CdVBT_IsY&t=46" %}
+
+
+### Task 0: Hardening as code. Protecting your systems before they born
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=z0CdVBT_IsY&t=1187" %}
+
 ---------
 
 ## Hour 08 - Hosted by OWASP Atlanta (GA, USA)
@@ -157,6 +173,7 @@ We will focus on open-source tools, including OWASP Zed Attack Proxy (ZAP), OWAS
 
 ### Cooking with PASTA - Risk Centric, Offensive Minded Threat Modeling Walk Through
 *Tony UV - Chapter Leader, OWASP Atlanta ("The ATL")*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=YFxSjiwbv4U&t=42"%}
 
 #### Abstract
 
@@ -174,6 +191,7 @@ Pour yourself a nice vino and enjoy this walk through of the Process for Attack 
 
 ### Your Taxes Are Being Leaked
 *Michael Wylie*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=N969Xkjw7eA&t=188" %}
 
 #### Abstract
 
@@ -191,6 +209,7 @@ Pour yourself a nice vino and enjoy this walk through of the Process for Attack 
 
 ### HTTP Security Headers
 *Walter Mart&iacute;n Villalba - Chapter Leader, OWASP Santa Barbara*
+      {% include_relative yt.liquid video="https://www.youtube.com/watch?v=QQsK9FD_K9g&t=85"%}
 
 #### Abstract
 
@@ -208,6 +227,7 @@ HTTP headers let web clients and servers exchange additional information (usuall
 
 ### Lyft Cartography: Using Graphs to Improve and Scale Security Decision-Making
 *Alex Chantavy*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=3w5oDuEs0Zc&t=121" %}
 
 #### Abstract
 
@@ -223,6 +243,7 @@ We hope that sharing our approach to these problems with Cartography will help y
 
 ### Content Security Policy: Going From Idea to Afterthought 
 *Neil Matatall*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=3w5oDuEs0Zc&t=1731" %}
 
 #### Abstract
 
@@ -242,6 +263,7 @@ Any random article on CSP will talk about its features and behaviors. Some talk 
 
 ### Automated and Manual Threat Modeling
 *Gustavo Nieves Arreaza*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=grJPnuL_JhA&t=2034" %}
 
 #### Abstract
 
@@ -255,6 +277,7 @@ Visit his profile on LinkedIn: [Gustavo Nieves Arreaza](https://www.linkedin.com
 
 ### Why Phishing Is Here to Stay?
 *Paola Perez and Patricia Valdivia Heredia*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=grJPnuL_JhA&t=363" %}
 
 #### Abstract
 
@@ -274,6 +297,7 @@ Visit their profiles on LinkedIn:
 
 ### Small, But Fierce (But Still Small)
 *Erica Anderson*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=rcWSjqNHD8U&t=321" %}
 
 #### Abstract
 
@@ -285,6 +309,7 @@ Most of us volunteer or work closely with small groups. These are the local comm
 
 ### Let Me Secure That for You
 *Kirk Jackson - Chapter Leader, OWASP New Zealand*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=rcWSjqNHD8U&t=1493" %}
 
 #### Abstract
 
@@ -306,6 +331,7 @@ Kirk worked as a web developer before switching to the defense team - setting up
 
 ### Purple is the New Black: Modern Approaches to Application Security
 *Tanya Janca*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=q3tKPb8RqC4&t=92" %}
 
 #### Abstract
 
@@ -323,6 +349,7 @@ Gone are the days when breaches were rare and security could safely be put low o
 
 ### Implementing CSIRT Based on Frameworks and Maturity Model
 *Akitsugu Ito*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=yNqiibMN8nY&t=385" %}
 
 #### Abstract
 
@@ -334,6 +361,7 @@ We implemented CSIRT based on some frameworks and maturity model at this year in
 
 ### How Our PSIRT Evolved
 *Yuriko Otsuka*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=yNqiibMN8nY&t=1785" %}
 
 #### Abstract
 
@@ -355,6 +383,7 @@ In addition, I will also share our activities like Bug Bounty program and collab
 
 ### Input Validation and Output Encoding Fallacies
 *Eldar Marcussen*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=t2tKkiQxfH0&t=206" %}
 
 #### Abstract
 
@@ -374,6 +403,7 @@ In addition to finding vulnerabilities, he contributes to and maintains several 
 
 ### Continuous Auditing with Compliance as Code
 *Mohammed A. Imran*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=PMgmlZztpEQ&t=111" %}
 
 #### Abstract
 
@@ -385,6 +415,7 @@ Visit his profile on LinkedIn: [Mohammed A. Imran](https://www.linkedin.com/in/s
 
 ### Security Hardening of Popular Public Cloud Managed Services
 *Runcy Oommen*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=PMgmlZztpEQ&t=1450" %}
 
 #### Abstract
 
@@ -402,6 +433,7 @@ Visit his profile on LinkedIn: [Runcy Oommen](https://www.linkedin.com/in/runcyo
 
 ### OWASP Risk Assessment Framework
 *Azhar Ahamed*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=dEYkQRyr3cA&t=148"%}
 
 #### Abstract
 
@@ -415,6 +447,7 @@ The OWASP Risk Assessment Framework consists of Static Application Security Test
 
 ### OSINT Gathering and Analysis
 *Manieendar Mohan and Anees Muhammed*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=fUQ7KAG8Gzs&t=67" %}
 
 #### Abstract
 
@@ -439,6 +472,7 @@ This talk will begin with a beginner-level introduction to Open-Source Intellige
 
 ### Cuffing Web APIs Offensively
 *Chaitanya Deshpande*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=WhK42yvjqvs&t=78" %}
 
 #### Abstract
 
@@ -452,6 +486,7 @@ In this talk, we will be discussing how to achieve all this and more.
 
 ### Fortifying Ruby On Rails Web Application Framework Security
 *Sahil Tembhare*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=WhK42yvjqvs&t=1675" %}
 
 #### Abstract
 
@@ -474,6 +509,7 @@ Key points that will be covered:
 
 ### Real Privacy Protection in the COVID-19 Era
 *Rahul Tyagi*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=BzSAeWs21dY&t=140" %}
 
 #### Abstract
 
@@ -485,6 +521,7 @@ Visit his profile on LinkedIn: [Rahul Tyagi](https://www.linkedin.com/in/iamrahu
 
 ### Introduction to Exploit Development
 *Sanjeev Multani*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=BzSAeWs21dY&t=1798" %}
 
 #### Abstract
 
@@ -506,6 +543,7 @@ Visit his profile on LinkedIn: [Sanjeev Multani](https://www.linkedin.com/in/san
 
 ### How SameSite Cookies Are Making the World a Safer Place
 *Michael Furman*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=jZs89NORky4&t=100" %} & {% include_relative yt.liquid video="https://www.youtube.com/watch?v=jZs89NORky4&t=2415" %}
 
 #### Abstract
 
@@ -530,6 +568,7 @@ The presentation includes a live demo.
 
 ### Vulnerable Dependencies: It's Not About Discovery
 *Omer Levi Hevroni*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=jZs89NORky4&t=1528" %}
 
 #### Abstract
 
@@ -559,6 +598,7 @@ When not working, I'm enjoying the company of my two beloved kids.
 
 ### Use Cryptography; Don't Learn It
 *Anastasiia Voitova*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=3JWkHaxXbKo&t=225" %}
 
 #### Abstract
 
@@ -572,6 +612,7 @@ This talk was first presented at OWASP Kyiv Winter 2017. Still relevant.
 
 ### Cybersecurity Economics
 *Vlad Styran - Chapter Leader, OWASP Kyiv*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=3JWkHaxXbKo&t=1941" %}
 
 #### Abstract
 
@@ -589,6 +630,7 @@ This is a small recap of a Cybersecurity Economics 101 course I took on edEX. It
 
 ### OWASP Application Security Curriculum Project
 *Adrian Winckles - Project Leader*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=V4KA8AAGcAk&t=249" %}
 
 #### Abstract
 
@@ -606,6 +648,7 @@ There is an opportunity for OWASP to pull together its wide-ranging expertise, p
 
 ### OWASP SecureFlag Community Edition
 *Andrea Scaduto - Project Leader*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=V4KA8AAGcAk&t=1238" %}
 
 #### Abstract
 
@@ -631,6 +674,7 @@ He co-founded and built SecureFlag, an Application Security training platform fo
 
 ### Introducing the OWASP Nettacker Project
 *Sam Stepanyan - Chapter Leader, OWASP London*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=-klGZ7AaMc4&t=308" %}
 
 #### Abstract
 
@@ -642,6 +686,7 @@ The OWASP Nettacker project was created to automate the information gathering, v
 
 ### Gamification of Threat Modelling
 *Grant Ongers - OWASP Global Board of Directors*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=-klGZ7AaMc4&t=2062" %}
 
 #### Abstract
 
@@ -660,6 +705,7 @@ Grant's community involvement is global: Staff at BSides (London, Las Vegas, and
 ## Hour 25 - Closing Session
 
 ### Session Host: Takaharu Ogasa, *Chapter Leader, OWASP Sendai (Japan)*
+{% include_relative yt.liquid video="https://www.youtube.com/watch?v=M4wzNTy4nK8" %}
 
 ---------
 
