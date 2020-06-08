@@ -56,6 +56,27 @@ research methodology, both analyzing and improving current research practices.<b
 
 ### Session Host: Guy Osa, *Chapter Leader*
 
+### Talk 1 - Flattening the Cyber Curve
+*Christopher Frenz*
+
+#### Abstract
+
+<ABSTRACT>
+
+#### Speaker Biography
+
+**Christopher Frenz** is the AVP of Information Security for Interfaith Medical Center where he worked to develop the hospital’s information security program and infrastructure.  Under his leadership the hospital has been one of the first in the country to embrace a zero trust model for network security. Christopher has also played a role in pushing for the adoption of improved security standards within hospitals and is the author of the OWASP Secure Medical Device Deployment Standard as well as the OWASP Anti-Ransomware Guide. He also currently chairs the AEHIS Incident Response Committee which has released several deliverables designed to help hospitals test and improve their incident response capabilities.  Christopher has been recognized as a Rising Star amongst healthcare executives and also a top healthcare IT leader by Becker’s Hospital Review.  He has also been recognized as a top healthcare IT leader by Health Data Management.  Christopher’s security expertise has been highlighted in The Financial Times, CSO Magazine, SC Magazine and many other publications.  Christopher shares his expertise at conferences around the world including presentations at VMworld, ASIS GSX, Defcon, HIMSS, and many others.  He is also the author of the computer programming books _Pro Perl Parsing_ and _Visual Basic and Visual Basic .NET for Scientists and Engineers_.
+
+### Talk 2 - OWASP Vulnerability Management Guide (OVMG)
+*Elizabeth Frenz*
+
+#### Abstract
+
+<ABSTRACT>
+
+#### Speaker Biography
+
+**Elizabeth Frenz** is a highly experienced information security professional that has been a cybersecurity enthusiast for over twenty years and an OWASP member since 2015. She specializes in cyber security operations and taking risk based approaches to improving security.  She works as a Lead Information Security Analyst for the leading company in clinical trails software.  Previously in her career she led the vulnerability management effort at Office of IT Security & Data Management of the NYC Department of Education.  Elizabeth also has extensive experience in the identity and access management arena and was one of the contributors to an IEEE standard for using biometrics for identity and access management (IEEE 2410-2017).  She is an active member in the NY information security scene and serves as a volunteer at the NYC OWASP chapter.  Elizabeth holds an MS degree in Systems Management from New York University.
 
 ----------
 
