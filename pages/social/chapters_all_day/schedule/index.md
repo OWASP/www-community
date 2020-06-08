@@ -483,7 +483,7 @@ tags: chaptersAllDay2020
     </td>
     <td style="vertical-align: top;" colspan="2">
       <p style="font-weight: bold;">Closing Session
-        {% include_relative yt.liquid %}
+        {% include_relative yt.liquid video="https://www.youtube.com/watch?v=M4wzNTy4nK8" %}
       </p>
       
       
