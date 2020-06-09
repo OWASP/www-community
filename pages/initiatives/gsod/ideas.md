@@ -16,7 +16,7 @@ Want to help shape it? We’re looking for students to join us in making
 
 ## Overview
 
-[**Google Season of Docs Program Site**](https://developers.google.com/season-of-docs/){:target='_blank'}
+[**Google Season of Docs Program Site**](https://developers.google.com/season-of-docs/){:target='_blank'}{:rel="noopener noreferrer"}
 
 - OWASP is an open community dedicated to enabling organizations to
     conceive, develop, acquire, operate, and maintain applications that
@@ -27,8 +27,8 @@ Want to help shape it? We’re looking for students to join us in making
 - Below you could find all the instructions on how to participate.
 
 ## Get Started
-* Read the [Google Season of Docs Project Ideas](https://developers.google.com/season-of-docs/docs/project-ideas){:target='_blank'}
-* Read the [Google Season of Docs Program Rules](https://developers.google.com/season-of-docs/terms/program-rules){:target='_blank'}
+* Read the [Google Season of Docs Project Ideas](https://developers.google.com/season-of-docs/docs/project-ideas){:target='_blank'}{:rel="noopener noreferrer"}
+* Read the [Google Season of Docs Program Rules](https://developers.google.com/season-of-docs/terms/program-rules){:target='_blank'}{:rel="noopener noreferrer"}
 
 <!-- Please add your project idea to the section below. Use the following format:
 ---
