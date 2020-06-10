@@ -229,6 +229,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
   - [AppScan
     Source](https://www.hcltechsw.com/wps/portal/products/appscan/offerings/source)
     (HCL Software) - Static application security testing solution that helps identify vulnerabilities early in the development lifecycle, understand their origin and potential impact and remediate the problem
+  - [Beyond Security beSOURCE](https://beyondsecurity.com/solutions/besource.html) (Beyond Security) - Static application security testing (SAST) used to be divorced from Code quality reviews, resulting in limited impact and value. beSOURCE addresses the code security quality of applications and thus integrates SecOps into DevOps.
   - [BlueClosure BC Detect](https://www.blueclosure.com) (BlueClosure) -
     Analyzes client-side JavaScript.
   - [bugScout](https://bugscout.io/en/) (Nalbatech, Formerly Buguroo)
