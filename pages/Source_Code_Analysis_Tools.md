@@ -143,10 +143,17 @@ every effort to correct this information.</b>
     to publicly accessible code in: Bitbucket Cloud, GitHub, or GitLab.
     Supports C/C++, C\#, COBOL (in beta), Java, JavaScript/TypeScript,
     Python
+  - [MobSF](https://mobsf.github.io/Mobile-Security-Framework-MobSF/) -
+    Mobile Security Framework (MobSF) is an automated, all-in-one mobile 
+    application (Android/iOS/Windows) pen-testing, malware analysis and 
+    security assessment framework capable of performing static and 
+    dynamic analysis.
   - [.NET Security Guard](https://dotnet-security-guard.github.io/) -
     Roslyn analyzers that aim to help security audits on .NET
     applications. It will find SQL injections, LDAP injections, XXE,
     cryptography weakness, XSS and more.
+  - [nodejsscan](https://github.com/ajinabraham/nodejsscan) -
+    nodejsscan is a semantic aware static security code analyzer for Node.js applications.
   - [phpcs-security-audit](https://github.com/FloeDesignTechnologies/phpcs-security-audit)
     - phpcs-security-audit is a set of PHP_CodeSniffer rules that finds
     flaws or weaknesses related to security in PHP and its popular CMS
