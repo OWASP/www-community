@@ -262,23 +262,9 @@ Any random article on CSP will talk about its features and behaviors. Some talk 
 
 ### Session Host: Gustavo Nieves Arreaza, *Chapter Leader*
 
-### Automated and Manual Threat Modeling
-*Gustavo Nieves Arreaza*
-{% include video.html video="https://www.youtube.com/watch?v=grJPnuL_JhA&t=2034" %}
-
-#### Abstract
-
-Vulnerabilities, Compliance, Unified Modeling Language and calculate the risk of the vulnerabilities.
-
-How to use an automated threat modeling tool, the advantages of using it versus manual threat modeling, and why they complement each other.
-
-#### Speaker Biography
-
-Visit his profile on LinkedIn: [Gustavo Nieves Arreaza](https://www.linkedin.com/in/gustavo-nieves-arreaza/)
-
 ### Why Phishing Is Here to Stay?
 *Paola Perez and Patricia Valdivia Heredia*
-{% include video.html video="https://www.youtube.com/watch?v=grJPnuL_JhA&t=363" %}
+{% include video.html video="https://www.youtube.com/watch?v=yS6W1qcgvMA&t=260s" %}
 
 #### Abstract
 
@@ -290,6 +276,20 @@ Visit their profiles on LinkedIn:
 * [Paola Perez](https://www.linkedin.com/in/itwomanworld/)
 * [Patricia Valdivia Heredia](https://www.linkedin.com/in/patriciavaldivia/)
  
+### Automated and Manual Threat Modeling
+*Gustavo Nieves Arreaza*
+{% include video.html video="https://www.youtube.com/watch?v=yS6W1qcgvMA&t=1989s" %}
+
+#### Abstract
+
+Vulnerabilities, Compliance, Unified Modeling Language and calculate the risk of the vulnerabilities.
+
+How to use an automated threat modeling tool, the advantages of using it versus manual threat modeling, and why they complement each other.
+
+#### Speaker Biography
+
+Visit his profile on LinkedIn: [Gustavo Nieves Arreaza](https://www.linkedin.com/in/gustavo-nieves-arreaza/)
+
 ---------
 
 ## Hour 13 - Hosted by OWASP New Zealand
