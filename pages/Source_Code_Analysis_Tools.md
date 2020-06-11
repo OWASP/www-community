@@ -3,7 +3,8 @@
 layout: col-sidebar
 title: Source Code Analysis Tools
 author: 
-contributors: kingthorin 
+contributors: 
+  - Dave Wichers, itamarlavender, will-obrien, Eitan Worcel, Prabhu Subramanian, kingthorin, coadaflorin, hblankenship, GovorovViva64, pfhorman, GouveaHeitor, Clint Gibler, DSotnikov, Ajin Abraham, Noam Rathaus   
 tags: source code analysis, static code analysis, tools
 permalink: /Source_Code_Analysis_Tools
 
