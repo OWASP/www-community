@@ -227,13 +227,13 @@ tags: chaptersAllDay2020
     </td>
     <td style="vertical-align: top; text-align: center;">
       <strong>Why Phishing Is Here to Stay?</strong>
-      {% include video.html video="https://www.youtube.com/watch?v=grJPnuL_JhA&t=363" %}
+      {% include video.html video="https://www.youtube.com/watch?v=yS6W1qcgvMA&t=260s" %}
 <br />
       <em>Paola Perez and Patricia Valdivia Heredia</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
       <strong>Automated and Manual Threat Modeling</strong>
-      {% include video.html video="https://www.youtube.com/watch?v=grJPnuL_JhA&t=2034" %}
+      {% include video.html video="https://www.youtube.com/watch?v=yS6W1qcgvMA&t=1989s" %}
 <br />
       <em>Gustavo Jose Nieves Arreaza</em>
     </td>
