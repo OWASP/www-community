@@ -391,27 +391,16 @@ cookie.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [XSS Attacks](XSS_Attacks "wikilink")
-  - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
-  - [Invoking untrusted mobile
-    code](Invoking_untrusted_mobile_code "wikilink")
-  - [Cross Site History Manipulation
-    (XSHM)](Cross_Site_History_Manipulation_\(XSHM\) "wikilink")
+  - [XSS Attacks](https://owasp.org/www-community/attacks/xss/)
+  - [Invoking untrusted mobile code](https://owasp.org/www-community/attacks/Mobile_code_invoking_untrusted_mobile_code)
+  - [Cross Site History Manipulation (XSHM)](https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM))
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:Input Validation
-    Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
-  - [Cross Site Scripting Flaw](Cross_Site_Scripting_Flaw "wikilink")
-  - [Types of Cross-Site
-    Scripting](Types_of_Cross-Site_Scripting "wikilink")
+  - [Improper Data Validation](https://owasp.org/www-community/vulnerabilities/Improper_Data_Validation)
+  - [Types of Cross-Site Scripting](https://owasp.org/www-community/Types_of_Cross-Site_Scripting)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-  - [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")
-  - [Output Validation](Output_Validation "wikilink")
-  - [Canonicalization](Canonicalization "wikilink")
 
 ## References
 
@@ -445,11 +434,6 @@ cookie.
 
 
 
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Security Focus Area](Category:Security_Focus_Area "wikilink")
-[Category:Injection](https://owasp.org/www-community/Injection_Flaws) [Category:OWASP Top
-Ten Project](Category:OWASP_Top_Ten_Project "wikilink") [Category:Code
-Snippet](Category:Code_Snippet "wikilink") [Category:Security Focus
-Area](Category:Security_Focus_Area "wikilink")
-[Category:Attack](Category:Attack "wikilink")
-[Category:Popular](Category:Popular "wikilink")
+[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
+[Category:OWASP Top Ten Project](https://owasp.org/www-project-top-ten/)
+[Category:Attack](https://owasp.org/www-community/attacks/)
