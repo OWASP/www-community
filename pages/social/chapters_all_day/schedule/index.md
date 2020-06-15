@@ -403,13 +403,13 @@ tags: chaptersAllDay2020
     </td>
     <td style="vertical-align: top; text-align: center;">
       <strong>How SameSite Cookies Are Making the World a Safer Place</strong>
-      {% include video.html video="https://www.youtube.com/watch?v=jZs89NORky4&t=100" %} & {% include video.html video="https://www.youtube.com/watch?v=jZs89NORky4&t=2415" %}
+      {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %} & {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=2489s" %}
 <br />
       <em>Michael Furman</em>
     </td>
     <td style="vertical-align: top; text-align: center;">
       <strong>Vulnerable Dependencies: It's Not About Discovery</strong>
-      {% include video.html video="https://www.youtube.com/watch?v=jZs89NORky4&t=1528" %}
+      {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=1395s" %}
 <br />
       <em>Omer Levi Hevroni</em>
     </td>
