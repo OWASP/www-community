@@ -565,7 +565,9 @@ The presentation includes a live demo.
 
 #### Speaker Biography
 
-**Michael Furman** has over 13 years of experience with application security. Michael has been the Lead Security Architect at Tufin for over six years. He is responsible for the security of all Tufin software products and has spoken at various security and developer conferences. Tufin has over 2000 customers, including more than half of the Fortune 50 organizations.
+**Michael Furman** has over 13 years of experience with application security. Michael has been the Lead Security Architect at Tufin for over six years. He is responsible for the security of all Tufin software products and has spoken at various security and developer conferences. Tufin has over 2000 customers, including more than half of the Fortune 50 organizations.<br>
+**Blog:** [https://ultimatesecurity.pro/](https://ultimatesecurity.pro/) <br>
+**Twitter:** [@ultimatesecpro](https://twitter.com/ultimatesecpro)
 
 ### Vulnerable Dependencies: It's Not About Discovery
 *Omer Levi Hevroni*

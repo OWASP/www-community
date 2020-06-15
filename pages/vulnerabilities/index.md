@@ -29,7 +29,7 @@ bugtraq or full-disclosure mailing lists.
   - Not closing the database connection properly
 
 For a great overview, check out the [OWASP Top Ten
-Project](https://www2.owasp.org/www-project-top-ten). You can read about the top
+Project](/www-project-top-ten). You can read about the top
 vulnerabilities and download a paper that covers them in detail. Many
 organizations and agencies use the Top Ten as a way of creating
 awareness about application security.
@@ -37,9 +37,7 @@ awareness about application security.
 **NOTE:** Before you add a vulnerability, please search and make sure
 there isn't an equivalent one already. You may want to consider creating
 a redirect if the topic is the same. Every vulnerability article has a
-defined structure. Please read the details of [How To Add a
-Vulnerability](How_To_Add_a_Vulnerability "wikilink") before creating a
-new article.
+defined structure.
 
 ## List of Vulnerabilities
 
