@@ -544,7 +544,7 @@ Visit his profile on LinkedIn: [Sanjeev Multani](https://www.linkedin.com/in/san
 
 ### How SameSite Cookies Are Making the World a Safer Place
 *Michael Furman*
-{% include video.html video="https://www.youtube.com/watch?v=jZs89NORky4&t=100" %} & {% include video.html video="https://www.youtube.com/watch?v=jZs89NORky4&t=2415" %}
+{% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %} & {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=2489s" %}
 
 #### Abstract
 
@@ -571,7 +571,7 @@ The presentation includes a live demo.
 
 ### Vulnerable Dependencies: It's Not About Discovery
 *Omer Levi Hevroni*
-{% include video.html video="https://www.youtube.com/watch?v=jZs89NORky4&t=1528" %}
+{% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=1395s" %}
 
 #### Abstract
 
