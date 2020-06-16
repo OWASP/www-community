@@ -544,7 +544,7 @@ Visit his profile on LinkedIn: [Sanjeev Multani](https://www.linkedin.com/in/san
 
 ### How SameSite Cookies Are Making the World a Safer Place
 *Michael Furman*
-{% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %} & {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=2489s" %}
+{% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %}
 
 #### Abstract
 
