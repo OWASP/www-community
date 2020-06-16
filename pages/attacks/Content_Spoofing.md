@@ -56,8 +56,11 @@ media to assume news is correct and create headline stories.
 ## Audit Guideline
 
 Text injection can be easily found if:
+
 User input via parameter or directly in the URL is reflected in the page response.
+
 Content-Type: text/plain
+
 Application is giving default error pages
 
 ## Applicable Industries
