@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: Content Spoofing
 author: 
-contributors: [Rishu Ranjan](https://github.com/rishuranjanofficial/)
+contributors: Rishu Ranjan
 permalink: /attacks/Content_Spoofing
 tags: attack, Content Spoofing
 auto-migrated: 1
@@ -55,10 +55,10 @@ media to assume news is correct and create headline stories.
 
 ## Audit Guideline
 
-Text injection can be easily found where
-- User input via parameter or directly in the URL is reflected in the page response.
-- Content-Type: text/plain
-- Application is giving default error pages
+Text injection can be easily found if:
+User input via parameter or directly in the URL is reflected in the page response.
+Content-Type: text/plain
+Application is giving default error pages
 
 ## Applicable Industries
 
