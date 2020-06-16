@@ -403,7 +403,7 @@ tags: chaptersAllDay2020
     </td>
     <td style="vertical-align: top; text-align: center;">
       <strong>How SameSite Cookies Are Making the World a Safer Place</strong>
-      {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %} & {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=2489s" %}
+      {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %} 
 <br />
       <em>Michael Furman</em>
     </td>
