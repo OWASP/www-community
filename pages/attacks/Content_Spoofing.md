@@ -1,21 +1,19 @@
 ---
-
 layout: col-sidebar
 title: Content Spoofing
-author: 
-contributors: Rishu Ranjan
+author: Andrew Smith
+contributors: Jmanico, Wichers, D0ubl3 h3lix, Rishu Ranjan, ADubhlaoich
 permalink: /attacks/Content_Spoofing
 tags: attack, Content Spoofing
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
 
 ## Description
 
-Content spoofing, also referred to as *content injection*, "arbitrary
-text injection" or *virtual defacement*, is an attack targeting a user
+Content spoofing, also referred to as _content injection_, "arbitrary
+text injection" or _virtual defacement_, is an attack targeting a user
 made possible by an injection vulnerability in a web application. When
 an application does not properly handle user-supplied data, an attacker
 can supply content to a web application, typically via a parameter
@@ -26,7 +24,7 @@ engineering because the attack is exploiting a code-based vulnerability
 and a user's trust. As a side note, this attack is widely misunderstood
 as a kind of bug that brings no impact.
 
-> Attack Type: Client-Side 
+> Attack Type: Client-Side
 
 ## Risk Factors
 
@@ -56,33 +54,34 @@ media to assume news is correct and create headline stories.
 ## Audit Guideline
 
 Text injection can be easily found if:
+
 1. User input via parameter or directly in the URL is reflected in the page response
 2. Content-Type: text/plain
 3. Application is giving default error pages
 
 ## Applicable Industries
 
-  - A business entity selling one type of product as a major business
-    function
+- A business entity selling one type of product as a major business
+  function
 
 For example, Taxi hailing business, Online shopping business, Online
 service business
 
-  - A business entity relying on the brand name
+- A business entity relying on the brand name
 
 For example, Cosmetic brand, Airline brand
 
 ## [Threat Agents](Threat_Agents "wikilink")
 
-  - Malicious competitors
-  - Disgruntled employees
-  - Unsatisfied customers
-  - Scammers
+- Malicious competitors
+- Disgruntled employees
+- Unsatisfied customers
+- Scammers
 
 ## Content Spoofing vs. Cross-site Scripting
 
 Content spoofing is an attack that is closely related to [Cross-site
-Scripting (XSS)](Cross-site_Scripting_\(XSS\) "wikilink"). While XSS
+Scripting (XSS)](<Cross-site_Scripting_(XSS)> "wikilink"). While XSS
 uses \[<https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet>
 
 <script>
