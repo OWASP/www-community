@@ -284,7 +284,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Open Source Lifecycle Management] | WhiteSource Software | Commercial | Cross Platform / SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
 | [VulnDB] | Risk Based Security | Commercial	| SaaS |
-| [Patton] | OWASP | Open Source	| Cross Platform |
+| [Patton] | OWASP | Open Source | Cross Platform |
 
 [Black Duck Hub]: https://www.blackducksoftware.com/
 [CAST Highlight]: https://www.castsoftware.com/SCA/
