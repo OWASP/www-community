@@ -155,5 +155,5 @@ private final void readObject(ObjectInputStream in) throws java.io.IOException {
 - [rO0, a Java agent that protects applications from deserialization attacks](https://github.com/Contrast-Security-OSS/contrast-rO0)
 - [NotSoSerial, a Java agent that protects applications from deserialization attacks](https://github.com/kantega/notsoserial)
 - [Atomic Serialization using constructor with input validation, no circular references, Permission limited scope limited object cache and array length limits, with stream resets](https://github.com/pfirmstone/JGDMS/wiki)
-- [Java Deserialization Vulnerabilities - The Forgotten Bug Class (RuhrSec Edition)](http://www.slideshare.net/codewhitesec/java-deserialization-vulnerabilitesruhrseceditionv10) 
+- [Java Deserialization Vulnerabilities - The Forgotten Bug Class (RuhrSec Edition)](http://www.slideshare.net/codewhitesec/java-deserialization-vulnerabilitesruhrseceditionv10) ([video](https://youtu.be/9Bw1urhk8zw))
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/)
