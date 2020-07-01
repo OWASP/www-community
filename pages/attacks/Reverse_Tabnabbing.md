@@ -113,7 +113,7 @@ Prevention information are documented into the [HTML5 Cheat Sheet](https://cheat
 ## References
 
 - [The `target="_blank"` vulnerability by example](https://dev.to/ben/the-targetblank-vulnerability-by-example)
-- [About `rel=noopener` attribute value](https://mathiasbynens.github.io/rel-noopener/)s
+- [About `rel=noopener` attribute values](https://mathiasbynens.github.io/rel-noopener/)
 - [Target="_blank" —  the most underestimated vulnerability ever](https://medium.com/@jitbit/target-blank-the-most-underestimated-vulnerability-ever-96e328301f4c)
 - Cure53's [Browser Security WhitePaper](https://github.com/cure53/browser-sec-whitepaper/raw/master/browser-security-whitepaper.pdf)
 - [Reverse tabnabbing and blackshield demo](https://danielstjules.github.io/blankshield/)
