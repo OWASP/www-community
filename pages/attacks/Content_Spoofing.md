@@ -42,7 +42,7 @@ is properly done by the victim business. For public traded companies,
 its shares will be falling down, leading to uncontrolled loss of
 millions.
 
-![](assets/images/Fake-text.png "Fake-text.png")
+![](../assets/images/Fake-text.png "Fake-text.png")
 
 ## Attack Scenario
 
