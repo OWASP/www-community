@@ -45,13 +45,13 @@ javascript function.
 Link between parent and child pages when prevention attribute is not
 used:
 
-![](../../assets/images/TABNABBING_OVERVIEW_WITH_LINK.png "File:TABNABBING_OVERVIEW_WITH_LINK.png")
+![](assets/images/TABNABBING_OVERVIEW_WITH_LINK.png "File:TABNABBING_OVERVIEW_WITH_LINK.png")
 
 ### Without back link
 
 Link between parent and child pages when prevention attribute is used:
 
-![](../../assets/images/TABNABBING_OVERVIEW_WITHOUT_LINK.png "File:TABNABBING_OVERVIEW_WITHOUT_LINK.png")
+![](assets/images/TABNABBING_OVERVIEW_WITHOUT_LINK.png "File:TABNABBING_OVERVIEW_WITHOUT_LINK.png")
 
 ## Examples
 
