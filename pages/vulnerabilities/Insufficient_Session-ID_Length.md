@@ -19,7 +19,7 @@ The WebLogic deployment descriptor should specify a session identifier length of
 
 The expected number of seconds required to guess a valid session identifier is given by the equation:
 
-![](../../assets/images/session_id_guessing.gif)
+![](assets/images/session_id_guessing.gif)
 
 Where:
 
