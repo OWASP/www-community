@@ -35,7 +35,7 @@ introduced in Internet Explorer 6 sp1 to protect cookies from being
 accessed by JavaScript. As a matter of fact, one of the most recurring
 attack patterns in Cross Site Scripting is to access the document.cookie
 object and send it to a web server controlled by the attacker so that
-he/she can hijack the victim's session. Tagging a cookie as
+they can hijack the victim's session. Tagging a cookie as
 [HttpOnly](HttpOnly "wikilink") forbids JavaScript to access it,
 protecting it from being sent to a third party. However, the TRACE
 method can be used to bypass this protection and access the cookie even

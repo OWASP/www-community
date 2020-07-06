@@ -65,7 +65,7 @@ In this case the application uses a third party cryptographic random
 number generation library to generate user Session IDs. An attacker may
 block access to this library by renaming it. Then the application will
 use the weak pseudo random number generation library. The attacker can
-use this weakness to predict the Session ID user; he/she attempts to
+use this weakness to predict the Session ID user; they attempt to
 perform elevation of privilege escalation and gains access to the user's
 account.
 
