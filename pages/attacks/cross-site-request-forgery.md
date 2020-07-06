@@ -179,14 +179,14 @@ might be reduced to a request like:
 
 Maria now decides to exploit this web application vulnerability using
 Alice as the victim. Maria first constructs the following exploit URL
-which will transfer $100,000 from Alice's account to Maria's account. She
+which will transfer $100,000 from Alice's account to Maria's account. Maria
 takes the original command URL and replaces the beneficiary name with
 herself, raising the transfer amount significantly at the same time:
 
 `http://bank.com/transfer.do?acct=MARIA&amount=100000`
 
 The [social engineering](Social_Engineering "wikilink") aspect of the
-attack tricks Alice into loading this URL when she's logged into the
+attack tricks Alice into loading this URL when Alice is logged into the
 bank application. This is usually done with one of the following
 techniques:
 
