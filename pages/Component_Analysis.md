@@ -256,7 +256,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 
 | Name | Owner | Licence | Platforms |
 | ---- | ----- | ------- |---------- |
-| [GitHub SCA] | GitHub | Freemium | SaaS |
+| [GitHub SCA](https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on) | GitHub | Freemium | SaaS |
 | [Black Duck Hub] | Synopsys | Commercial | Cross Platform |
 | [CAST Highlight] | CAST Software | Commercial | SaaS |
 | [Clarity] | Insignary | Commercial | Cross Platform / SaaS |
