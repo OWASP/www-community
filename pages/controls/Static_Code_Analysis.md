@@ -256,6 +256,7 @@ environment and whether it is configured securely.
 | [Polyspace Static Analysis](https://www.mathworks.com/products/polyspace.html)                                                        | C, C++, Ada                                                                                                                                                                                                                                                       |                                              |
 | [CodeSec](http://www.seczone.cn/2018/06/27/codesec%E6%BA%90%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%E5%B9%B3%E5%8F%B0/) | C, C++, C\#, Java, JavaScript, PHP, Kotlin, Lua, Scala, TypeScript, Android                                                                                                                                                                                       |                                              |
 | [Xanitizer](http://www.xanitizer.net)                                                                                                 | Java, Scala                                                                                                                                                                                                                                                       |                                              |
+| [NextGen Static Analysis](https://www.shiftleft.io/nextgen-static-analysis/) | C\#, Go, Java, JavaScript, Python, Scala               | | |
 
 ### Other Tool Lists
 
