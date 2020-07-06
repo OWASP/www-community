@@ -471,7 +471,7 @@ Adding new challenge pack / CTF for iGoat. It should be one point solution for l
 
 ## OWASP Seraphimdroid
 
-OWASP Seraphimdroid is Android security and privacy app, with features to enhance user's knowledge about security and privacy on his/her mobile device. If you are interested in this project and working on it during Google Summer of Code, please contact Nikola Milosevic and express your interest.
+OWASP Seraphimdroid is Android security and privacy app, with features to enhance user's knowledge about security and privacy on their mobile device. If you are interested in this project and working on it during Google Summer of Code, please contact Nikola Milosevic and express your interest.
 
 ### Idea 1: Anomaly detection of device state
 

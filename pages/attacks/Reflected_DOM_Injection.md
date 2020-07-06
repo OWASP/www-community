@@ -42,7 +42,7 @@ summary, when the attack is successful, the attack succeeds due to
 improper [data validation](Data_Validation "wikilink").
 
 Arshan Dabirsiaghi surmised that vulnerability to this attack would
-eventually surface in popular search engines during his presentation at
+eventually surface in popular search engines during a presentation at
 [OWASP NYC AppSec 2008](OWASP_NYC_AppSec_2008_Conference "wikilink") and
 [AppSec Europe 2008](OWASP_AppSec_Europe_2008_-_Belgium "wikilink"),
 *Next Generation Cross Site Scripting Worms* (see also *[Building and

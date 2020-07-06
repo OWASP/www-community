@@ -198,7 +198,7 @@ for implementation details.
 ## We have detected a profiling phase then how application can defend itself?
 
 There several way to apply counter measures against an attacker in order
-to bother him in his task and we can classify them according to their
+to bother him in their task and we can classify them according to their
 level of invasion on the client.
 
     Invasive measures are not legal but it's very rare that an attacker file a claim against is target.

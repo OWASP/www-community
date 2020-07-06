@@ -19,7 +19,7 @@ attacks occur when a web site uses user-supplied information to
 construct an XPath query for XML data. By sending intentionally
 malformed information into the web site, an attacker can find out how
 the XML data is structured, or access data that he may not normally have
-access to. He may even be able to elevate his privileges on the web site
+access to. He may even be able to elevate their privileges on the web site
 if the XML data is being used for authentication (such as an XML based
 user file).
 

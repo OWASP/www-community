@@ -173,7 +173,7 @@ on their access.
 From the perspective of end-users of a system, access control should be
 mandatory whenever possible, as opposed to discretionary. Mandatory
 access control means that the system establishes and enforces a policy
-for user data, and the user does not get to make his own decisions of
+for user data, and the user does not get to make their own decisions of
 who else in the system can access data. In discretionary access control,
 the user can make such decisions. Enforcing a conservative mandatory
 access control policy can help prevent operational security errors,

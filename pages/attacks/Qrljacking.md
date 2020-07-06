@@ -30,7 +30,7 @@ taken dominance over any other alternatives. But not without many
 shortcomings, from risks like replay and phishing attacks to intrinsic
 problems like the "password fatigue” problem (in which a user is
 burdened with the need to remember an excessive number of passwords as
-part of his daily routine), we are left with non-trivial design flaws
+part of their daily routine), we are left with non-trivial design flaws
 that need to be addressed.
 
 Later on, new approaches have emerged to address these problems. One
@@ -154,7 +154,7 @@ resulting in accounts stealing and reputation affection.
 **2. Information Disclosure**
 
 When the victim scans the QR code he is giving the attacker much more
-information like for example (his accurate current GPS location, Device
+information like for example (their accurate current GPS location, Device
 type, IMEI, SIM Card Information and any other sensitive information
 that the client application presents at the login process)
 
@@ -193,14 +193,14 @@ trustworthy. Here are some examples:
 
 A skilled social engineer attacker will find this mission easy to
 convince the victim to scan the QR Code by cloning the whole web
-application login page with an exact one but with his own attacker side
+application login page with an exact one but with their own attacker side
 QR Code.
 
 **2. Hacked highly-trusted websites and services**
 
 Hacked websites are prone to be injected with a script that displays an
 Ad or a newly added section displays a cool offer if the user scanned
-this QR Code with a specific targeted mobile application his account
+this QR Code with a specific targeted mobile application their account
 will be hijacked.
 
 **3. SSL Stripping**
@@ -220,7 +220,7 @@ forcing HSTS, but unfortunately a lot of web applications and services
 uses a CDN based QR image generation process. These CDNs itself are
 sometimes stored on a servers vulnerable to HTTPS Downgrading attacks.
 Attackers will find a way to downgrade these secure connections,
-redirect the CDN URLs to his own QR Code, and since the QR Code is an
+redirect the CDN URLs to their own QR Code, and since the QR Code is an
 image this will result in a “passive mixed content” hence the browser
 will not find any problems by viewing it on the web application login
 page instead of the original one.
@@ -230,7 +230,7 @@ page instead of the original one.
 This is the most suitable attack vector for attacking users over Local
 Area Networks by exploiting the non secured websites and manipulate
 traffic, The attacker here is performing MITM (Man in the Middle Attack)
-against his local area network, poisoning the traffic on the fly by
+against their local area network, poisoning the traffic on the fly by
 injecting a JS file on every non secured web page.
 
 **6. Bad Implementation / Logic**
@@ -242,7 +242,7 @@ add them as friends, until here it's normal and there are no problems,
 but when it comes to the login process it’s a big problem.
 Unfortunately, the application implemented the “login by QR code”
 feature on the same screen that you’re using to add a friend, so imagine
-that someone cloned his login qr code and told you “Hey, This is my QR
+that someone cloned their login qr code and told you “Hey, This is my QR
 Code, scan it to be my friend, you scanned it, Boom” you lost your
 account.
 
@@ -250,7 +250,7 @@ account.
 
 As known, clickjacking is all about abusing the style of a sensitive web
 page hiding and covering and manipulating some elements to convince the
-victim “for example” to change his account’s main email address and
+victim “for example” to change their account’s main email address and
 password to the attacker’s one, but what if the attacker succeeded in
 that and after a while he wants to login to the victim’s account and
 found that this account has 2 Factor Authentication feature
@@ -295,7 +295,7 @@ technology in the process .
 The purposes of this added step is to make sure that scanned QR code is
 generated in the same physical location as the mobile device that is
 doing the scan and therefore eliminating the possibility of a remote
-attacker deceiving the user into scanning his qr code.
+attacker deceiving the user into scanning their qr code.
 
 ![<File:NormalLoginScenario.JPG>](NormalLoginScenario.JPG
 "File:NormalLoginScenario.JPG")

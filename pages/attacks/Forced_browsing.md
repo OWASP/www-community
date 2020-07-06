@@ -39,7 +39,7 @@ Enumeration, Directory Enumeration, and Resource Enumeration.
 
 This example presents a technique of Predictable Resource Location
 attack, which is based on a manual and oriented identification of
-resources by modifying URL parameters. The user1 wants to check his
+resources by modifying URL parameters. The user1 wants to check their
 on-line agenda through the following URL:
 
 ` www.site-example.com/users/calendar.php/user1/20070715 `

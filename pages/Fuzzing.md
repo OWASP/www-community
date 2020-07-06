@@ -32,7 +32,7 @@ software implementation faults, and identify them if possible.
 ## History
 
 Fuzz testing was developed at the University of Wisconsin Madison in
-1989 by Professor Barton Miller and his students. Their (continued) work
+1989 by Professor Barton Miller and students. Their (continued) work
 can be found at <http://www.cs.wisc.edu/~bart/fuzz/> ; it's mainly
 oriented towards command-line and UI fuzzing, and shows that modern
 operating systems are vulnerable to even simple fuzzing.

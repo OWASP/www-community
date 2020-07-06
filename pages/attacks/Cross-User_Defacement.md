@@ -83,7 +83,7 @@ request:
 
 /index.html
 
-the response \#2 will be send to him as an answer to his request.
+the response \#2 will be sent to him as an answer to their request.
 
 This way it was possible to replace the web page, which was served to
 the specified user.

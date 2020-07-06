@@ -52,7 +52,7 @@ manipulated by an attacker.
 ### Example 2
 
 When a web application uses hidden fields to store status information, a
-malicious user can tamper with the values stored on his browser and
+malicious user can tamper with the values stored on their browser and
 change the referred information. For example, an e-commerce shopping
 site uses hidden fields to refer to its items, as follows:
 
@@ -64,7 +64,7 @@ specific item, thus lowering its cost.
 ### Example 3
 
 An attacker can tamper with URL parameters directly. For example,
-consider a web application that permits a user to select his profile
+consider a web application that permits a user to select their profile
 from a combo box and debit the account:
 
 `http://www.attackbank.com/default.asp?profile=741&debit=1000`

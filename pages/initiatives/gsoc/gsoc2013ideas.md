@@ -334,7 +334,7 @@ in this project we are going to build a ZAP extension for CMS scanning (with enh
 
 #### Expected results:
 
-A ZAP add-on to help the user in the process of identifying vulnerabilities in his CMS with a :
+A ZAP add-on to help the user in the process of identifying vulnerabilities in their CMS with a :
 * version Fingerprinting
 * Detecting Protection Measures Deployed by the site and there Vulns. (Firewalls ...) 
 * Numeration of the version of the CMS
@@ -779,7 +779,7 @@ An easy way for users to code their own plugins which will modify the appearance
 
 * Ability to show different articles on the user's home screen
 
-Now each user is served the latest article in her/his home screen. We need the ability for either  the teacher/admin to be able to define what article each class is served.
+Now each user is served the latest article in their home screen. We need the ability for either the teacher/admin to be able to define what article each class is served.
 
 * Ability to define series of challenges
 

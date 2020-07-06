@@ -93,7 +93,7 @@ A possible attack scenario is demonstrated below. For this scenario,
 lets assumes no output encoding is being implemented:
 
 1. Attacker discovers injection vulnerability and decides to spoof a login form
-2. Attacker crafts malicious link, including his injected HTML content, and sends it to a user via email
+2. Attacker crafts malicious link, including their injected HTML content, and sends it to a user via email
 3. The user visits the page due to the page being located within a trusted domain
 4. The attacker's injected HTML is rendered and presented to the user asking for a username and password
 5. The user enters a username and password, which are both sent to the attackers server

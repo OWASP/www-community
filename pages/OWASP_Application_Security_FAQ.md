@@ -295,7 +295,7 @@ Although SSL provides a lot of security, SSL alone is not enough to
 prevent variable manipulation attacks. SSL was supposed to prevent
 against Man in the Middle attacks but it is vulnerable to it. To
 successfully carry out the MITM attack, first the attacker has to divert
-the victim's requests to his machine i.e. redirecting the packets meant
+the victim's requests to their machine i.e. redirecting the packets meant
 for the server to himself. He can do this by ARP poisoning / DNS Cache
 poisoning. Once he is able to redirect, he can see all the requests the
 victim is trying to make. Now when the victim tries to establish an SSL
@@ -308,9 +308,9 @@ that legitimate server, which the victim was trying to connect. Now all
 data flow between the victim and the server will be routed through the
 attacker and the attacker can see all data the victim (as well as the
 server) sends. This is because the victim will encrypt all data with the
-attacker's public key, which the attacker can decrypt with his private
+attacker's public key, which the attacker can decrypt with their private
 key. The attacker can then manipulate all data that is passing through
-his machine.
+their machine.
 
 ## Is there some way to prevent these proxy tools from editing the data?
 
@@ -860,7 +860,7 @@ not tampered.
 
 ## Can I trust the IP address of a user I see in my audit logs? Could a user be spoofing/impersonating their IP address?
 
-A bad guy who wants to hide his actual IP address might use a service
+A bad person who wants to hide theiractual IP address might use a service
 like anonymizer, or use open HTTP relays. \[HTTP open relays are
 improperly configured web servers on the web that are used as a HTTP
 proxy to connect to other sites.\] In such cases, the IP address you see

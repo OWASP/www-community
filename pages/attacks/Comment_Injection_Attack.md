@@ -61,7 +61,7 @@ Sequences that may be used to comment queries:
 
 To comment out some parts of the queries, the attacker may use the
 standard sequences, typical for a given language, or terminate the
-queries using his own methods being limited only by his imagination. An
+queries using their own methods being limited only by their imagination. An
 interesting example is a null byte method used to comment out everything
 after the current query in MS Access databases. More information about
 this can be found in [Embedding Null
