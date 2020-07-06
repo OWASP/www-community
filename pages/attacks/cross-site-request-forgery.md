@@ -162,7 +162,7 @@ order to execute an attack, we must first understand how to generate a
 valid malicious request for our victim to execute. Let us consider the
 following example: Alice wishes to transfer $100 to Bob using the
 *bank.com* web application that is vulnerable to CSRF. Maria, an
-attacker, wants to trick Alice into sending the money to her instead.
+attacker, wants to trick Alice into sending the money to Maria instead.
 The attack will comprise the following steps:
 
 1.  building an exploit URL or script
@@ -178,8 +178,8 @@ might be reduced to a request like:
 `GET http://bank.com/transfer.do?acct=BOB&amount=100 HTTP/1.1`
 
 Maria now decides to exploit this web application vulnerability using
-Alice as her victim. Maria first constructs the following exploit URL
-which will transfer $100,000 from Alice's account to her account. She
+Alice as the victim. Maria first constructs the following exploit URL
+which will transfer $100,000 from Alice's account to Maria's account. She
 takes the original command URL and replaces the beneficiary name with
 herself, raising the transfer amount significantly at the same time:
 
