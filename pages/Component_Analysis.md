@@ -287,6 +287,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [VulnDB] | Risk Based Security | Commercial	| SaaS |
 | [Patton] | OWASP | Open Source | Cross Platform |
 
+[GitHub SCA]: https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on/
 [Black Duck Hub]: https://www.blackducksoftware.com/
 [CAST Highlight]: https://www.castsoftware.com/SCA/
 [Clarity]: https://www.insignary.com/
