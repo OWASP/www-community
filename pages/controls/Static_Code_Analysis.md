@@ -3,10 +3,9 @@
 layout: col-sidebar
 title: Static Code Analysis
 author: 
-contributors: 
+contributors: kingthorin
 tags: controls, source code analysis, static code analysis
 permalink: /controls/Static_Code_Analysis
-auto-migrated: 1
 
 ---
 
@@ -63,17 +62,19 @@ the block cannot halt or branch out except at its end (Wögerer, 2005).
 
 Example PHP basic block:
 
-    1. $a = 0;
-    2. $b = 1;
-    3.
-    4. if ($a == $b)
-    5. { # start of block
-    6.   echo “a and b are the same”;
-    7. } # end of block
-    8. else
-    9. { # start of block
-    10. echo “a and b are different”;
-    11.} # end of block
+```php
+$a = 0;
+$b = 1;
+
+if ($a == $b)
+{ # start of block
+  echo “a and b are the same”;
+} # end of block
+else
+{ # start of block
+  echo “a and b are different”;
+} # end of block
+```
 
 ### Control Flow Graph (CFG)
 
@@ -109,7 +110,7 @@ to manipulate (Sotirov, 2005).
 
 Pre tokenised PHP source code:
 
-    <?php $name = "Ryan"; ?>
+`<?php $name = "Ryan"; ?>`
 
 Post tokenised PHP source code:
 
@@ -127,29 +128,16 @@ T_CLOSE_TAG
 
 ### Strengths
 
-  - Scales Well (Can be run on lots of software, and can be repeatedly
-    (like in nightly builds))
-  - For things that such tools can automatically find with high
-    confidence, such as buffer overflows, SQL Injection Flaws, etc. they
-    are great.
+- Scales Well (Can be run on lots of software, and can be repeatedly (like in nightly builds))
+- For things that such tools can automatically find with high confidence, such as buffer overflows, SQL Injection Flaws, etc. they are great.
 
 ### Weaknesses
 
-  - Many types of security vulnerabilities are very difficult to find
-    automatically, such as authentication problems, access control
-    issues, insecure use of cryptography, etc. The current state of the
-    art only allows such tools to automatically find a relatively small
-    percentage of application security flaws. Tools of this type are
-    getting better, however.
-  - High numbers of false positives.
-  - Frequently can't find configuration issues, since they are not
-    represented in the code.
-  - Difficult to 'prove' that an identified security issue is an actual
-    vulnerability.
-  - Many of these tools have difficulty analyzing code that can't be
-    compiled. Analysts frequently can't compile code because they don't
-    have the right libraries, all the compilation instructions, all the
-    code, etc.
+- Many types of security vulnerabilities are very difficult to find automatically, such as authentication problems, access control issues, insecure use of cryptography, etc. The current state of the art only allows such tools to automatically find a relatively small percentage of application security flaws. Tools of this type are getting better, however.
+- High numbers of false positives.
+- Frequently can't find configuration issues, since they are not represented in the code.
+- Difficult to 'prove' that an identified security issue is an actual vulnerability.
+- Many of these tools have difficulty analyzing code that can't be compiled. Analysts frequently can't compile code because they don't have the right libraries, all the compilation instructions, all the code, etc.
 
 ## Limitations
 
@@ -177,16 +165,13 @@ environment and whether it is configured securely.
 
 ## Important Selection Criteria
 
-  - Requirement: Must support your language, but not usually a key
-    factor once it does.
-  - Types of Vulnerabilities it can detect (The OWASP Top Ten?) (more?)
-  - Does it require a fully buildable set of source?
-  - Can it run against binaries instead of source?
-  - Can it be integrated into the developer's IDE?
-  - License cost for the tool. (Some are sold per user, per org, per
-    app, per line of code analyzed. Consulting licenses are frequently
-    different than end user licenses.)
-  - Does it support Object-oriented programming (OOP)?
+- Requirement: Must support your language, but not usually a key factor once it does.
+- Types of Vulnerabilities it can detect (The OWASP Top Ten?) (more?)
+- Does it require a fully buildable set of source?
+- Can it run against binaries instead of source?
+- Can it be integrated into the developer's IDE?
+- License cost for the tool. (Some are sold per user, per org, per app, per line of code analyzed. Consulting licenses are frequently different than end user licenses.)
+- Does it support Object-oriented programming (OOP)?
 
 ## Examples
 
@@ -223,14 +208,14 @@ environment and whether it is configured securely.
 | [SpotBugs](https://spotbugs.github.io/) (Successor of FindBugs)                                                    | Java                                                                                                                                                               |               |
 | [Find Security Bugs](https://find-sec-bugs.github.io/)                                                             | Java, Scala, Groovy                                                                                                                                                |               |
 | [FlawFinder](https://dwheeler.com/flawfinder/)                                                                     | C, C++                                                                                                                                                             |               |
-| \[<https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-3.0/bb429476(v=vs.80>) Microsoft FxCop\] | .NET                                                                                                                                                               |               |
+| [Microsoft FxCop](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-3.0/bb429476%28v=vs.80%29) | .NET                                                                                                                                                               |               |
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)                             | Android Java, Objective C, Swift                                                                                                                                                                | Windows, Unix |
 | [.NET Security Guard](https://security-code-scan.github.io/)                                                       | .NET, C\#, VB.net                                                                                                                                                  |               |
 | [nodejsscan](https://github.com/ajinabraham/nodejsscan)                             | Node.js                                                                                                                                                                | Unix |
 | [phpcs-security-audit](https://github.com/FloeDesignTechnologies/phpcs-security-audit)                             | PHP                                                                                                                                                                | Windows, Unix |
 | [PMD](https://pmd.github.io/)                                                                                      | Java, JavaScript, Salesforce.com Apex and Visualforce, PLSQL, Apache Velocity, XML, XSL                                                                            |               |
 | [Puma Scan](https://www.pumascan.com/)                                                                             | .NET, C\#                                                                                                                                                          |               |
-| \[<https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ms933794(v=msdn.10>) Microsoft PREFast\]    | C, C++                                                                                                                                                             |               |
+| [Microsoft PREFast](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ms933794%28v=msdn.10%29)   | C, C++                                                                                                                                                             |               |
 | [RIPS Open Source](http://rips-scanner.sourceforge.net/)                                                           | PHP                                                                                                                                                                | any           |
 | [SonarCloud](https://sonarcloud.io/about)                                                                          | ABAP, C, C++, Objective-C, COBOL, C\#, CSS, Flex, Go, HTML, Java, Javascript, Kotlin, PHP, PL/I, PL/SQL, Python, RPG, Ruby, Swift, T-SQL, TypeScript, VB6, VB, XML |               |
 | [Splint](https://www.splint.org/)                                                                                  | C                                                                                                                                                                  |               |
@@ -260,33 +245,10 @@ environment and whether it is configured securely.
 
 ### Other Tool Lists
 
-  - [NIST - Source Code Security
-    Analyzers](http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)
-  - [Wikipedia - List of tools for static code
-    analysis](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
-
-## References
-
-\[0\]
+- [NIST - Source Code Security Analyzers](http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)
+- [Wikipedia - List of tools for static code analysis](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
 
 ## Further Reading
 
-  - [OWASP Code Review Guide
-    v1.1](https://www.owasp.org/images/2/2e/OWASP_Code_Review_Guide-V1_1.pdf)
-  - <http://www.crosstalkonline.org/storage/issue-archives/2003/200311/200311-German.pdf>
-  - <http://www.ida.liu.se/~TDDC90/papers/industrial95.pdf>
-  - <http://www.php-security.org/downloads/rips.pdf>
-  - <http://www.seclab.tuwien.ac.at/papers/pixy.pdf>
-
-\[\[Category:FIXME| In addition, one should classify control based on
-the following subcategories:
-Ex:\[\[Category:Error_Handling_Control|Category:Error Handling
-Control\]\]
-
-Availability Control Authorization Control Authentication Control
-Concurrency Control Configuration Control Cryptographic Control Encoding
-Control Error Handling Control Input Validation Control Logging and
-Auditing Control Session Management Control \]\] __FORCETOC__
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Control](Category:Control "wikilink")
+- [RIPS](http://www.php-security.org/downloads/rips.pdf)
+- [pixy](http://www.seclab.tuwien.ac.at/papers/pixy.pdf)
