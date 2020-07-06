@@ -35,7 +35,7 @@ that need to be addressed.
 
 Later on, new approaches have emerged to address these problems. One
 approach is the single sign-on system (a.k.a SSO), where a user can
-simply have one single account that enables him to authenticate to
+simply have one single account that enables them to authenticate to
 multiple services. This somewhat resolves the aforementioned "password
 fatigue” problem as a user no longer needs to burden himself with too
 many passwords to remember and no longer is tempted to develop bad
@@ -166,7 +166,7 @@ communicate with the service servers to clarify some information about
 the user which can be used later in the user’s application.
 Unfortunately sometimes this data is exchanged over insecure network
 connection which makes it easy for this data to be controlled by the
-attacker giving him the ability to alter or even remove it.
+attacker giving them the ability to alter or even remove it.
 
 # QRLJacking Requirements
 

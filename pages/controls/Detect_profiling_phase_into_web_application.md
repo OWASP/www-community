@@ -20,7 +20,7 @@ The ideas proposed into this page can seems to be uncommon, aggressive
 or a little bit crazy in corporate environment (like a web banking) but
 the initial page author is personally convinced that if we can detect a
 profiling phase and send sign, to the originator, indicating clearly to
-him that "*we know what is currently doing*" we must be able to stop
+them that "*we know what is currently doing*" we must be able to stop
 attack before that it can cause damage.
 
 ## Introduction
@@ -129,7 +129,7 @@ functionalities. If it's the case then:
     because in the store we only keep a digest) to a monitoring system
     in order to generate an alert and launch a review of the sender
     information in order to decide if aggressive defensive measure
-    should be taken against him,
+    should be taken against them,
 2.  We clean the store with the information of this sender (in order to
     avoid duplicate alert). Optionally it's possible to move information
     to archive storage type in order to perform global statistic
@@ -198,7 +198,7 @@ for implementation details.
 ## We have detected a profiling phase then how application can defend itself?
 
 There several way to apply counter measures against an attacker in order
-to bother him in their task and we can classify them according to their
+to bother them in their task and we can classify them according to their
 level of invasion on the client.
 
     Invasive measures are not legal but it's very rare that an attacker file a claim against is target.

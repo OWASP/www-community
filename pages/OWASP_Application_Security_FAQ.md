@@ -301,7 +301,7 @@ poisoning. Once he is able to redirect, he can see all the requests the
 victim is trying to make. Now when the victim tries to establish an SSL
 connection with a legitimate server, he gets connected to the attacker.
 The attacker, during the SSL Handshaking, provides a fake certificate to
-the victim, which the victim accepts even though the browser warns him.
+the victim, which the victim accepts even though the browser warns them.
 Thus, the victim establishes an SSL connection with the attacker instead
 of the server. The attacker establishes a different SSL connection with
 that legitimate server, which the victim was trying to connect. Now all
