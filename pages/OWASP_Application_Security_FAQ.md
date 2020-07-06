@@ -296,10 +296,10 @@ prevent variable manipulation attacks. SSL was supposed to prevent
 against Man in the Middle attacks but it is vulnerable to it. To
 successfully carry out the MITM attack, first the attacker has to divert
 the victim's requests to their machine i.e. redirecting the packets meant
-for the server to himself. He can do this by ARP poisoning / DNS Cache
-poisoning. Once he is able to redirect, he can see all the requests the
+for the server to himself. They can do this by ARP poisoning / DNS Cache
+poisoning. Once they are able to redirect, they can see all the requests the
 victim is trying to make. Now when the victim tries to establish an SSL
-connection with a legitimate server, he gets connected to the attacker.
+connection with a legitimate server, they get connected to the attacker.
 The attacker, during the SSL Handshaking, provides a fake certificate to
 the victim, which the victim accepts even though the browser warns them.
 Thus, the victim establishes an SSL connection with the attacker instead
@@ -560,7 +560,7 @@ futile as any scanner targeting a web site, will normally not care what
 the web server is. The scanner will run ALL its tests no matter if they
 apply to the system or not. This is a typical shotgun approach. A bad
 guy targeting the site might be hampered by not knowing the exact
-version, but if he's determined he would still try out all related
+version, but if they're determined they would still try out all related
 exploits and try to break in.
 
 # Testing
@@ -770,11 +770,11 @@ An attacker can hijack another user's session by stealing the session
 token. Methods have been suggested to prevent the session from being
 hijacked even if the session token is stolen. For instance, using a
 session token that is a function of the user's IP address. In this
-approach, even if the attacker stole the token, he would need the same
+approach, even if the attacker stole the token, they would need the same
 IP address as the user to successfully hijack a session. However,
 session hijacking can still be possible. Suppose the attacker is on the
 same LAN as the user and uses the same Proxy IP as the user to access
-the web site. The attacker can still steal the session if he is able to
+the web site. The attacker can still steal the session if they are able to
 sniff the session token. It may also be not possible to implement this
 if the IP of the client changes during a session, making the session
 invalid if the token is tied to the initial IP address. This may happen
@@ -798,7 +798,7 @@ page. Only if the token submitted matches what the server is expecting
 is the next page served. An application can use this to ensure that a
 user accesses pages only in the sequence determined by the application.
 The user cannot paste a deep URL in the browser and skip pages just
-because he has a session token, as the page token would not be
+because they have a session token, as the page token would not be
 authorized to access the deeper URL directly. Good Read: [Secure your
 sessions with Page
 Tokens](http://palisade.plynt.com/issues/2005Aug/page-tokens/)

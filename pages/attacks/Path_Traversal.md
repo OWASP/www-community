@@ -129,7 +129,7 @@ http://some_site.com.br/get-files?file=/etc/passwd
 ```
 
 Note: In a Windows system an attacker can navigate only in a partition
-that locates web root while in the Linux he can navigate in the whole
+that locates web root while in the Linux they can navigate in the whole
 disk.
 
 ### Example 2

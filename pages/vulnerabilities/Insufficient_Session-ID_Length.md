@@ -15,7 +15,7 @@ tags: vulnerability, Insufficient Session-ID Length
 
 Session identifiers should be at least 128 bits long to prevent brute-force session guessing attacks.
 
-The WebLogic deployment descriptor should specify a session identifier length of at least 128 bits. A shorter session identifier leaves the application open to brute-force session guessing attacks. If an attacker can guess an authenticated user's session identifier, he can take over the user's session. The remainder of this explanation will detail a back-of-the-envelope justification for a 128 bit session identifier.
+The WebLogic deployment descriptor should specify a session identifier length of at least 128 bits. A shorter session identifier leaves the application open to brute-force session guessing attacks. If an attacker can guess an authenticated user's session identifier, they can take over the user's session. The remainder of this explanation will detail a back-of-the-envelope justification for a 128 bit session identifier.
 
 The expected number of seconds required to guess a valid session identifier is given by the equation:
 

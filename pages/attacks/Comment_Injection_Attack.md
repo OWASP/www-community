@@ -31,7 +31,7 @@ or scripting languages:
 **Database:**
 
 If the attacker has the ability to manipulate queries which are sent to
-the database, then he's able to inject a terminating character too. The
+the database, then they're able to inject a terminating character too. The
 aftermath is that the interpretation of the query will be stopped at the
 terminating character:
 

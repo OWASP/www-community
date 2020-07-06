@@ -21,7 +21,7 @@ other.
 Early on, two primary types of [XSS](attacks/xss/) were identified,
 Stored XSS and Reflected XSS. In 2005, [Amit Klein defined a third type
 of XSS](http://www.webappsec.org/projects/articles/071105.shtml), which
-he coined [DOM Based XSS](attacks/DOM_Based_XSS). These 3 types of
+Amit coined [DOM Based XSS](attacks/DOM_Based_XSS). These 3 types of
 XSS are defined as follows:
 
 ### [Stored XSS](attacks/xss/#stored-xss-attacks) (AKA Persistent or Type I)

@@ -41,7 +41,7 @@ and Alice user access:
 `Alice|87654321|alice@attack.com|normal|`
 `?>`
 
-When a user wants to edit their profile, he must use the "edit account”
+When a user wants to edit their profile, they must use the "edit account”
 option in the “index.php” page and enter their login information. However,
 using “|” as a parameter delimiter on email field followed by “admin”,
 the user could elevate their privileges to administrator. Example:

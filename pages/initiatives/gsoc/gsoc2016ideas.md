@@ -980,7 +980,7 @@ OWASP Seraphimdroid is well rounded security and privacy app, however, it lacks 
 
 #### Brief Explanation:
 
-OWASP Seraphimdroid is well rounded security and privacy app. The initial idea of the project was to provide educational platform for common users, where by using the application, users can learn about risks for their privacy and security. Some components already has some sort of explanation, which is educational. However, it lacks of uneatable knowledge source and some of the components that monitor user's behavior do not provide sufficient information. Idea of this project is to develop monitoring of user activity and an component that can warn user about risks if he does something risky. Also, mobile security knowledge base that can be updated remotely will be a huge new asset to the application.
+OWASP Seraphimdroid is well rounded security and privacy app. The initial idea of the project was to provide educational platform for common users, where by using the application, users can learn about risks for their privacy and security. Some components already has some sort of explanation, which is educational. However, it lacks of uneatable knowledge source and some of the components that monitor user's behavior do not provide sufficient information. Idea of this project is to develop monitoring of user activity and an component that can warn user about risks if they do something risky. Also, mobile security knowledge base that can be updated remotely will be a huge new asset to the application.
 
 #### Expected Results:
 

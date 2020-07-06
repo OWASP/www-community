@@ -787,7 +787,7 @@ The teacher/admin should be able to define a series of challenges (e.g. 2,5,3,1)
 
 * Tagging of articles, users, challenges
 
-A user should be able to put tags on articles and challenges if he is a student and on users, classes, articles and challenges if he is a teacher.
+A user should be able to put tags on articles and challenges if they are a student and on users, classes, articles and challenges if they are a teacher.
 Also the user should be able to search according to the tags.
 
 * Your idea here

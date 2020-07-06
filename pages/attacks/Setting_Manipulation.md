@@ -15,7 +15,7 @@ auto-migrated: 1
 ## Description
 
 This attack aims to modify application settings in order to cause
-misleading data or advantages on the attacker's behalf. He may
+misleading data or advantages on the attacker's behalf. They may
 manipulate values in the system and manage specific user resources of
 the application or affect its functionalities.
 

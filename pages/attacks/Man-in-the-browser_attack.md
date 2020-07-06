@@ -30,7 +30,7 @@ as they are formed on the browser, but still displaying back the user's
 intended transaction.
 
 Normally, the victim must be smart in order to notice a signal of such
-attack while he is accessing a web application like an internet banking
+attack while they are accessing a web application like an internet banking
 account, even in presence of SSL channels, because all expected controls
 and security mechanisms are displayed and work normally.
 
