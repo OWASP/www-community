@@ -129,7 +129,7 @@ Ivan Ristic did some research and proposed some server side defenses
 against this type of attack in the presentation "Protecting Web
 Applications from Universal PDF XSS: A discussion of how weird the web
 application security world has become" at the [2007 OWASP Europe AppSec
-Conference](OWASP_AppSec_Europe_2007_-_Italy "wikilink") in Milan, the
+Conference](OWASP_AppSec_Europe_2007_-_Italy "wikilink") in Milan. The
 presentation (\[5\]) can be downloaded
 [here](http://www.owasp.org/images/c/c2/OWASPAppSec2007Milan_ProtectingWebAppsfromUniversalPDFXSS.ppt).
 
