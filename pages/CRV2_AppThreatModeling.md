@@ -1953,7 +1953,7 @@ Data Validation / Parameter Validation
 2.  All data sent from the client is validated
 3.  No security decision is based upon parameters (e.g. URL parameters)
     that can be manipulated
-4.  Input filtering via white list validation is used
+4.  Input filtering via allow list validation is used
 5.  Output encoding is used
 
 </td>

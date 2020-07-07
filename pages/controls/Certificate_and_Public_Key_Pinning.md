@@ -157,19 +157,19 @@ and third was [Bit9's loss of its root signing
 key](http://krebsonsecurity.com/2013/02/security-firm-bit9-hacked-used-to-spread-malware/).
 The environment is not only hostile, it's toxic.
 
-### When Do You Whitelist?
+### When Do You Allow List?
 
 If you are working for an organization which practices "egress
 filtering" as part of a Data Loss Prevention (DLP) strategy, you will
 likely encounter *Interception Proxies*. I like to refer to these things
 as **"good" bad guys** (as opposed to **"bad" bad guys**) since both
 break end-to-end security and we can't tell them apart. In this case,
-**do not** offer to whitelist the interception proxy since it defeats
+**do not** offer to allow list the interception proxy since it defeats
 your security goals. Add the interception proxy's public key to your
 pinset after being **instructed** to do so by the folks in Risk
 Acceptance.
 
-Note: if you whitelist a certificate or public key for a different host
+Note: if you allow list a certificate or public key for a different host
 (for example, to accommodate an interception proxy), you are no longer
 pinning the expected certificates and keys for the host. Security and
 integrity on the channel could suffer, and it surely breaks end-to-end

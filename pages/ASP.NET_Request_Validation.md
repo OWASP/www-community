@@ -42,7 +42,7 @@ validating each field of user supplied data. This should start with
 - Required fields
 - Correct data type and length
 - Data falls within an acceptable range
-- Whitelist of allowed characters
+- Allow list of permitted characters
 
 Any string input that is returned to the client should be encoded using
 an appropriate method, such as those provided via
