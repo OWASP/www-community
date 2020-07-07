@@ -222,7 +222,7 @@ risk. Policies typically include:
   - Restrictions on public repository usage
   - Restrictions on acceptable licenses
   - Component update requirements
-  - Blacklist of prohibited components and versions
+  - Deny list of prohibited components and versions
   - Acceptable community contribution guidelines
 
 While the open source policy is usually filled with restrictions, it provides an organizations security, development,
@@ -242,7 +242,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
     untrusted ones.
   - Automate component updates (from trusted repositories only)
   - Provide time-boxed allowances every sprint to maintain component hygiene
-  - Establish a whitelist of acceptable licenses, a blacklist of prohibited licenses, and seek advice from counsel for 
+  - Establish a whitelist of acceptable licenses, a deny list of prohibited licenses, and seek advice from counsel for 
     all other licenses
   - Automate the creation of software bill-of-materials (SBOM) for all deliverables
   - Leverage Package URL for describing components within SBOMs

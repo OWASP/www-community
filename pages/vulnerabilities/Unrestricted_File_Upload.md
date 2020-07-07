@@ -110,7 +110,7 @@ and interpreters are involved.
 
 ## Weak Protections and Bypassing Methods
 
-### Blacklisting File Extensions
+### Deny Listing File Extensions
 
 This protection might be bypassed by:
 
@@ -238,7 +238,7 @@ also need to validate the full filename to prevent any bypass.
     contain malicious extensions as well. For instance, in case of
     having ".shtml" in the list, the application can be vulnerable to
     SSI attacks.
-  - Some of the bypass techniques for the blacklist methods such as
+  - Some of the bypass techniques for the deny list methods such as
     using double extensions are also applicable here and should be
     checked.
 

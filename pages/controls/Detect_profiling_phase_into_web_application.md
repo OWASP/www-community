@@ -207,7 +207,7 @@ level of invasion on the client.
 
 *Simply block connection to application*
 
-Close TCP/IP connection or blacklist IP address.
+Close TCP/IP connection or block list IP address.
 
 **Level 2: With invasion**
 
