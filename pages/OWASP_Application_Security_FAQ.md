@@ -860,7 +860,7 @@ not tampered.
 
 ## Can I trust the IP address of a user I see in my audit logs? Could a user be spoofing/impersonating their IP address?
 
-A bad person who wants to hide theiractual IP address might use a service
+A bad person who wants to hide their actual IP address might use a service
 like anonymizer, or use open HTTP relays. \[HTTP open relays are
 improperly configured web servers on the web that are used as a HTTP
 proxy to connect to other sites.\] In such cases, the IP address you see
