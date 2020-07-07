@@ -100,7 +100,7 @@ The grading can either be done automatically (for multiple choice) or be submitt
 
 * Ability to show different articles on the user's home screen 
 
-Now each user is served the latest article in her/his home screen. We need the ability for either  the teacher/admin to be able to define what article each class is served.
+Now each user is served the latest article in their home screen. We need the ability for either the teacher/admin to be able to define what article each class is served.
 
 * Gamification of the user's progress *
 
@@ -112,7 +112,7 @@ The teacher/admin should be able to define a series of challenges (e.g. 2,5,3,1)
 
 * Tagging of articles, users, challenges *
 
-A user should be able to put tags on articles and challenges if he is a student and on users, classes, articles and challenges if he is a teacher.
+A user should be able to put tags on articles and challenges if they are a student and on users, classes, articles and challenges if they are a teacher.
 Also the user should be able to search according to the tags.
 
 * Your idea here *
@@ -871,7 +871,7 @@ Since the ESAPI 2.x project is written in Java, a good knowledge of Java is esse
 
 #### Brief explanation:
 
-OWASP Seraphimdroid is relatively new OWASP project regarding Android security. Seraphimdroid Android application should become mobile device safeguard, while on the other hand it should also provide user information and knowledge about security risks on his phone (in personalized way). The idea of security guard is based solely on heuristics, that most of the risks costing money and damaging user's privacy can be stopped without huge online database with signatures, and huge malware analysis lab. As part of this GSoC project, focus will be on finding way to stop as many risks that can cost money (premium calls, sms, ussd...) or harm user privacy as possible and to enhance UX of mobile application.
+OWASP Seraphimdroid is relatively new OWASP project regarding Android security. Seraphimdroid Android application should become mobile device safeguard, while on the other hand it should also provide user information and knowledge about security risks on their phone (in personalized way). The idea of security guard is based solely on heuristics, that most of the risks costing money and damaging user's privacy can be stopped without huge online database with signatures, and huge malware analysis lab. As part of this GSoC project, focus will be on finding way to stop as many risks that can cost money (premium calls, sms, ussd...) or harm user privacy as possible and to enhance UX of mobile application.
 
 #### Expected results:
 

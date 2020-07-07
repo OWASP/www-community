@@ -30,7 +30,7 @@ TBD
 ## Examples
 
 A Java applet from a certain application is acquired and subverted by an
-attacker. Then, he makes the victim accept and run a Trojan or malicious
+attacker. Then, they make the victim accept and run a Trojan or malicious
 code that was prepared to manipulate non-final objects’ state and
 behavior. This code is instantiated and executed continuously using
 default JVM on the victim’s machine. When the victim invokes the Java

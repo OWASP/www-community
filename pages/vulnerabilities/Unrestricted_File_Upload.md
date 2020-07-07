@@ -110,7 +110,7 @@ and interpreters are involved.
 
 ## Weak Protections and Bypassing Methods
 
-### Blacklisting File Extensions
+### Deny Listing File Extensions
 
 This protection might be bypassed by:
 
@@ -229,16 +229,16 @@ The above command will create an file with the name "output.php.gif"
 which simply need to be upload durning the check of file upload
 vulnerability.
 
-### Whitelisting File Extensions
+### Allow Listing File Extensions
 
-Applications that check the file extensions using a whitelist method
+Applications that check the file extensions using an allow list method
 also need to validate the full filename to prevent any bypass.
 
   - The list of permitted extensions should be reviewed as it can
     contain malicious extensions as well. For instance, in case of
     having ".shtml" in the list, the application can be vulnerable to
     SSI attacks.
-  - Some of the bypass techniques for the blacklist methods such as
+  - Some of the bypass techniques for the deny list methods such as
     using double extensions are also applicable here and should be
     checked.
 
@@ -344,8 +344,8 @@ And some special recommendations for the developers and webmasters:
 
   - The file types allowed to be uploaded should be restricted to only
     those that are necessary for business functionality.
-  - Never accept a filename and its extension directly without having a
-    whitelist filter.
+  - Never accept a filename and its extension directly without having an
+    allow list filter.
   - The application should perform filtering and content checking on any
     files which are uploaded to the server. Files should be thoroughly
     scanned and validated before being made available to other users. If

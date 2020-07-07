@@ -399,9 +399,9 @@ attacks rather than allow only valid traffic. It is important to note
 that the differentiation between negative and positive security models
 is subjective and reflects how tight the security envelope around the
 application is. A good example would be limiting the characters allowed
-in an input field. Since the character set is a closed set, providing a
-white list of permitted characters is actually similar to providing a
-black list of forbidden characters including the characters
+in an input field. Since the character set is a closed set, providing an
+allow list of permitted characters is actually similar to providing a
+deny list of forbidden characters including the characters
 complementing the 1st group. Positive Security Virtual Patches Positive
 security model is a comprehensive security mechanism that provides an
 independent input validation envelope to an application. The model

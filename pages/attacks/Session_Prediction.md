@@ -21,7 +21,7 @@ process, an attacker can predict a valid session ID value and get access
 to the application.
 
 In the first step, the attacker needs to collect some valid session ID
-values that are used to identify authenticated users. Then, he must
+values that are used to identify authenticated users. Then, they must
 understand the structure of session ID, the information that is used to
 create it, and the encryption or hash algorithm used by application to
 protect it. Some bad implementations use sessions IDs composed by
@@ -30,8 +30,8 @@ address. In the worst case, this information is used in clear text or
 coded using some weak algorithm like base64 encoding.
 
 In addition, the attacker can implement a brute force technique to
-generate and test different values of session ID until he successfully
-gets access to the application.
+generate and test different values of session ID until they successfully
+get access to the application.
 
 ## Examples
 

@@ -58,12 +58,12 @@ parent BankAccount class, as follows:
 `}`
 
 A Java applet from a certain application is acquired and subverted by an
-attacker. Then, he makes the victim accept and run a
+attacker. Then, they make the victim accept and run a
 [Trojan](Trojan_Horse "wikilink") or malicious code that was prepared to
 manipulate objects’ state and behavior. This code is instantiated and
 executed continuously using default JVM on victim’s machine. When the
 victim invokes the Java applet from the original application using the
-same JVM, then the attacker clones the class, he manipulates the
+same JVM, then the attacker clones the class, they manipulate the
 attributes values, and then substitutes the original object for the
 malicious one.
 

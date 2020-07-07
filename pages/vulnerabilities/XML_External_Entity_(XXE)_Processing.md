@@ -57,7 +57,7 @@ released.
 Note that the application does not need to explicitly return the
 response to the attacker for it to be vulnerable to information
 disclosures. An attacker can leverage DNS information to exfiltrate data
-through subdomain names to a DNS server that he/she controls.
+through subdomain names to a DNS server that they controls.
 
 ## Risk Factors
 

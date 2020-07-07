@@ -41,10 +41,10 @@ and Alice user access:
 `Alice|87654321|alice@attack.com|normal|`
 `?>`
 
-When a user wants to edit his profile, he must use the "edit account”
-option in the “index.php” page and enter his login information. However,
+When a user wants to edit their profile, they must use the "edit account”
+option in the “index.php” page and enter their login information. However,
 using “|” as a parameter delimiter on email field followed by “admin”,
-the user could elevate his privileges to administrator. Example:
+the user could elevate their privileges to administrator. Example:
 
 `Username: Alice`
 `Password: 87654321`
@@ -55,7 +55,7 @@ This information will be recorded in “mem.php” file like this:
 `Alice|87654321|alice@attack.com|admin|normal|`
 
 In this case, the last parameter delimiter considered is “|admin|” and
-the user could elevate his privileges by assigning administrator
+the user could elevate their privileges by assigning administrator
 profile.
 
 Although this vulnerability doesn’t allow manipulation of other users'

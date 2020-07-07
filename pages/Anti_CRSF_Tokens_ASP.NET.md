@@ -20,7 +20,7 @@ Authentication) is exactly what allows CSRF to take place - but this
 only the first piece for a successful CSRF attack.
 
 The second piece is a web form or request which contains parameters
-**predictable** enough that an attacker could craft his own malicious
+**predictable** enough that an attacker could craft their own malicious
 form/request which, in turn, would be successfully accepted by the
 target service. Then, usually through social engineering or XSS, the
 victim would trigger that malicious form/request submission **while

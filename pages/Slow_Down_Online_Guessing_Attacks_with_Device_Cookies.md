@@ -18,11 +18,11 @@ For example, it was discussed by Marc Heuse at
 [PasswordsCon 14](http://passwords14.item.ntnu.no/). 
 
 Marc speculates on various techniques for blocking online attacks and comes
-to notion of "device cookie" as good protection alternative (see his
+to notion of "device cookie" as good protection alternative (see the 
 [talk](https://mediasite.ntnu.no/Mediasite/Play/2133729a627b44a491778e135f602a611d) on Hydra at
 PasswordsCon 14, specifically from 32:50). 
 As well as Alec Muffett at the same conference mentions "datr cookie" from Facebook (look from
-10:15 of his [talk](https://mediasite.ntnu.no/Mediasite/Play/db5258ede8f94e69ad763fbe30f105a71d)).
+10:15 of the [talk](https://mediasite.ntnu.no/Mediasite/Play/db5258ede8f94e69ad763fbe30f105a71d)).
 
 The main idea behind the protocol is to issue a special “device” cookie
 to every client (browser) when it is used to successfully authenticate a

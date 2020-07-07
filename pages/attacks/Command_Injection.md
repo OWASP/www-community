@@ -24,7 +24,7 @@ application. Command injection attacks are possible largely due to
 insufficient input validation.
 
 This attack differs from [Code Injection](Code_Injection "wikilink"), in
-that code injection allows the attacker to add his own code that is then
+that code injection allows the attacker to add their own code that is then
 executed by the application. In Command Injection, the attacker extends
 the default functionality of the application, which execute system
 commands, without the necessity of injecting code.

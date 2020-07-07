@@ -21,7 +21,7 @@ can be used to reference almost any part of an XML document without
 access control restrictions. In SQL, a "user" (which is a term undefined
 in the XPath/XML context) may be restricted to certain databases,
 tables, columns, or queries. Using an XPATH Injection attack, an
-attacker is able to modify the XPATH query to perform an action of his
+attacker is able to modify the XPATH query to perform an action of their
 choosing.
 
 Blind XPath Injection attacks can be used to extract data from an
@@ -53,7 +53,7 @@ XPath expression is True or False. Let's assume that the aim of the
 attacker is to log in to an account in a web application. A Successful
 log in would return "True" and failed log in attempt would return
 "False". Only a small portion of the information is targeted via the
-analyzed character or number. When the attacker focuses on a string he
+analyzed character or number. When the attacker focuses on a string they
 may reveal it in its entirety by checking every single character within
 the class/range of characters this string belongs to.
 

@@ -75,10 +75,10 @@ privileges and Alice has just user access:
 `Alice|87654321|alice@attack.com|normal|`
 `?>`
 
-When a user wants to edit his profile, he must use edit account” option
-in the “index.php” page and enter his login information. However, using
+When a user wants to edit their profile, they must use "edit account" option
+in the “index.php” page and enter their login information. However, using
 “|” as a parameter delimiter on email field followed by “admin”
-profile, the user could elevate her privileges to administrator.
+profile, the user could elevate their privileges to administrator.
 Example:
 
 `Username: Alice`
@@ -90,7 +90,7 @@ This information will be recorded in “mem.php” file like this:
 `Alice|87654321|alice@attack.com|admin|normal|`
 
 The next time user Alice logs in, the application will acquire the
-parameter “|admin|” as user profile, thus elevating her privileges to
+parameter “|admin|” as user profile, thus elevating Alice's privileges to
 administrator profile.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")

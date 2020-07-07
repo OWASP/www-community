@@ -82,7 +82,7 @@ For example, most Web sites return an "HTTP 401 error" code with a password fail
 This fools some automated systems, but it is also easy to circumvent. 
 
 A better solution might be to vary the behavior enough to eventually discourage all but the most dedicated hackers. 
-You could, for example, use different error messages each time or sometimes let a user through to a page and then prompt him again for a password.
+You could, for example, use different error messages each time or sometimes let a user through to a page and then prompt them again for a password.
 
 Some automated brute-force tools allow the attacker to set certain trigger strings to look for that indicate a failed password attempt. 
 For example, if the resulting page contains the phrase "Bad username or password," the tool would know the credentials failed and would try the next in the list. 

@@ -45,7 +45,7 @@ independent SSL sessions, one over each TCP connection. The browser sets
 a SSL connection with the attacker, and the attacker establishes another
 SSL connection with the web server. In general the browser warns the
 user that the digital certificate used is not valid, but the user may
-ignore the warning because he doesn’t understand the threat. In some
+ignore the warning because they don’t understand the threat. In some
 specific contexts it’s possible that the warning doesn’t appear, as for
 example, when the Server certificate is compromised by the attacker or
 when the attacker certificate is signed by a trusted CA and the CN is

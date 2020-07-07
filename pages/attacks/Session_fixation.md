@@ -89,10 +89,10 @@ the expected results.
 (1)The attacker has to establish a legitimate connection with the web
 server which (2) issues a session ID or, the attacker can create a new
 session with the proposed session ID, then, (3) the attacker has to send
-a link with the established session ID to the victim, she has to click
+a link with the established session ID to the victim, they have to click
 on the link sent from the attacker accessing the site, (4) the Web
 Server saw that session was already established and a new one need not
-to be created, (5) the victim provides his credentials to the Web
+to be created, (5) the victim provides their credentials to the Web
 Server, (6) knowing the session ID, the attacker can access the user's
 account.
 

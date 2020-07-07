@@ -27,7 +27,7 @@ Check parameter values passed to the form action. See example below.
 
 ## How to Prevent Form Action Hijacking Vulnerabilities
 
-Hard-code the form action URL or use a whitelist of allowed URLs.
+Hard-code the form action URL or use an allowed list of permitted URLs.
 
 ## Examples
 

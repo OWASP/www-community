@@ -19,7 +19,7 @@ execute malicious operations at the client side. By intercepting client
 traffic using the
 [man-in-the-middle](Man-in-the-middle_attack "wikilink") technique, a
 malicious user could modify the original mobile code with arbitrary
-operations that will be executed on the client’s machine under his
+operations that will be executed on the client’s machine under their
 credentials. In another scenario, the malicious mobile code could be
 hosted in an untrustworthy web site or it could be permanently injected
 on a vulnerable web site through an injection attack. This attack can be

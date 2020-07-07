@@ -47,7 +47,7 @@ common are:
 #### Session Sniffing
 
 In the example, as we can see, first the attacker uses a sniffer to
-capture a valid token session called “Session ID”, then he uses the
+capture a valid token session called “Session ID”, then they use the
 valid token session to gain unauthorized access to the Web Server.
 
 <center>

@@ -208,11 +208,11 @@ SELECT * FROM items WHERE 'a'='a';
 One traditional approach to preventing SQL injection attacks is to
 handle them as an input validation problem and either accept only
 characters from an allow list of safe values or identify and escape a
-blacklist of potentially malicious values. An allow list can be a very
+deny list of potentially malicious values. An allow list can be a very
 effective means of enforcing strict input validation rules, but
 parameterized SQL statements require less maintenance and can offer more
 guarantees with respect to security. As is almost always the case,
-blacklisting is riddled with loopholes that make it ineffective at
+deny listing is riddled with loopholes that make it ineffective at
 preventing SQL injection attacks. For example, attackers can:
 
 - Target fields that are not quoted

@@ -350,7 +350,7 @@ boards, private messages, user profiles):
 The above code will pass an escaped content of the cookie (according to
 RFC content must be escaped before sending it via HTTP protocol with GET
 method) to the evil.php script in "cakemonster" variable. The attacker
-then checks the results of his evil.php script (a cookie grabber script
+then checks the results of their evil.php script (a cookie grabber script
 will usually write the cookie to a file) and use it.
 
 ### Error Page Example

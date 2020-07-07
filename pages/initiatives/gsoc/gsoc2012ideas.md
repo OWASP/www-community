@@ -43,7 +43,7 @@ Something like Qt Demo but with KDE technologies.
 #### Knowledge Prerequisite:
 
 C++ is the main language of KDE, therefore the demo should be in C++. The more you know about C++, Qt, KDE and scripting (for Kross and KDE bindings demos), the better.
-This idea encompasses so much different stuff the student is not expected to know everything before he starts coding (but will certainly know a lot when he's done!).
+This idea encompasses so much different stuff the student is not expected to know everything before they start coding (but will certainly know a lot when they're done!).
 
 **Skill level:** medium
 

@@ -151,8 +151,8 @@ to even small deviations from the rule. This includes:
 
 ### Remote Database Fingerprinting
 
-If the attacker is able to determine when his query returns True or
-False, then he may fingerprint the RDBMS. This will make the whole
+If the attacker is able to determine when their query returns True or
+False, then they may fingerprint the RDBMS. This will make the whole
 attack much easier. If the time-based approach is used, this helps
 determine what type of database is in use. Another popular methods to do
 this is to call functions which will return the current date. MySQL,

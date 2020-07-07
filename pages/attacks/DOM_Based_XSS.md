@@ -36,7 +36,7 @@ more strictly as CLIENT SIDE XSS.
 ### Example
 
 Suppose the following code is used to create a form to let the user
-choose his/her preferred language. A default language is also provided
+choose their preferred language. A default language is also provided
 in the query string, as the parameter “default”.
 
     …
@@ -126,10 +126,10 @@ flaw, but if not all users have downloaded the patch then those users
 are still vulnerable to this type of attack.
 
 Ivan Ristic did some research and proposed some server side defenses
-against this type of attack in his presentation "Protecting Web
+against this type of attack in the presentation "Protecting Web
 Applications from Universal PDF XSS: A discussion of how weird the web
 application security world has become" at the [2007 OWASP Europe AppSec
-Conference](OWASP_AppSec_Europe_2007_-_Italy "wikilink") in Milan. His
+Conference](OWASP_AppSec_Europe_2007_-_Italy "wikilink") in Milan. The
 presentation (\[5\]) can be downloaded
 [here](http://www.owasp.org/images/c/c2/OWASPAppSec2007Milan_ProtectingWebAppsfromUniversalPDFXSS.ppt).
 

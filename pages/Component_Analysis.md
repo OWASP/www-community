@@ -118,7 +118,7 @@ Public repositories that have code-signing and verification requirements have so
 repositories without basic countermeasures do not. For no-trust or low-trust repositories, utilizing private 
 repositories may be advantageous. Private repositories refer to repositories where access is limited, usually software 
 that organizations install and control, or a commercially available service. *Golden repositories* containing vetted or 
-whitelisted components are a common use-case for private repositories. Private repository services focusing on security 
+permitted components are a common use-case for private repositories. Private repository services focusing on security 
 may additionally provide anti-malware analysis and static source code analysis requirements prior to acceptance in the
 repository. When leveraging private repositories, it is important to have traceability to the components' repository of 
 origin.
@@ -222,7 +222,7 @@ risk. Policies typically include:
   - Restrictions on public repository usage
   - Restrictions on acceptable licenses
   - Component update requirements
-  - Blacklist of prohibited components and versions
+  - Deny list of prohibited components and versions
   - Acceptable community contribution guidelines
 
 While the open source policy is usually filled with restrictions, it provides an organizations security, development,
@@ -242,7 +242,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
     untrusted ones.
   - Automate component updates (from trusted repositories only)
   - Provide time-boxed allowances every sprint to maintain component hygiene
-  - Establish a whitelist of acceptable licenses, a blacklist of prohibited licenses, and seek advice from counsel for 
+  - Establish a allowed list of acceptable licenses, a deny list of prohibited licenses, and seek advice from counsel for 
     all other licenses
   - Automate the creation of software bill-of-materials (SBOM) for all deliverables
   - Leverage Package URL for describing components within SBOMs
