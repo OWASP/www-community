@@ -123,7 +123,7 @@ An even broader list of free static analysis tools (not just for security) for l
 - [Seeker](https://www.synopsys.com/software-integrity/security-testing/interactive-application-security-testing.html) (Synopsys) Seeker performs code security without actually doing static analysis. Seeker does Interactive Application Security Testing (IAST), correlating runtime code & data analysis with simulated attacks. It provides code level results without actually relying on static analysis.
 - [Thunderscan SAST](https://www.defensecode.com/thunderscan-sast/) (DefenseCode) - Static security analysis for 27+ languages.
 - [Veracode Static Analysis](https://www.veracode.com/products/binary-static-analysis-sast) (Veracode)
-- [Xanitizer](https://www.xanitizer.com/xanitizer/) - Scans Java, Scala, and JavaScript/TypeScript for security vulnerabilities, mainly via taint analysis. Free for academic and open source projects (see [1](https://www.xanitizer.com/xanitizer-pricing/)).
+- [Xanitizer](https://www.xanitizer.com/xanitizer/) - Scans Java, Scala, and JavaScript/TypeScript for security vulnerabilities, mainly via taint analysis.
 
 ## More info
 
