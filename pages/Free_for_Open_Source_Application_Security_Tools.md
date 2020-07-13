@@ -77,6 +77,9 @@ are free for Open Source projects:
     machine learning to give a prediction on false positives. Supports
     Java with future support for NodeJS and JavaScript planned. If you 
     go to the Pricing section on this page, it says it is free for public repositories.
+  - [Xanitizer](https://www.xanitizer.com/xanitizer-pricing/) - A SAST tool
+    for Java, Scala, and JavaScript/TypeScript. Per this pricing page, it
+    is free for Open Source projects if you contact the vendor.
 
 ### DAST Tools
 
