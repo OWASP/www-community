@@ -343,7 +343,7 @@ with the following header:
 <!-- end list -->
 
   - [CSRF Vulnerability: A 'Sleeping
-    Giant'](http://www.darkreading.com/document.asp?doc_id=107651&WT.svl=news1_2)
+    Giant'](https://www.darkreading.com/risk/csrf-vulnerability-a-sleeping-giant/d/d-id/1128371)
 
 <!-- end list -->
 
