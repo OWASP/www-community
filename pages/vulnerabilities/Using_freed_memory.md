@@ -22,7 +22,7 @@ write-what-where condition.
 
 Use after free errors occur when a program continues to use a pointer
 after it has been freed. Like [double free errors](Doubly_freeing_memory) 
-and [memory leaks](memory_leak), use after free errors have two common
+and [memory leaks](Memory_leak), use after free errors have two common
 and sometimes overlapping causes:
 
 - Error conditions and other exceptional circumstances
