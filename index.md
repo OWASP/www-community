@@ -14,22 +14,78 @@ Go into the pages folder and create a new file.  Save and commit the file.
 
 Include the following front matter in your file (for examples, see pages/password-special-characters.md in this repository):
 
-    ---
+```md
+---
 
-    layout: col-sidebar
-    title: [title of page]
-    author: [author name]
-    contributors: [contributors]
-    permalink: [direct link to page, removes /pages] (this is optional and requires some care)
-    tags: [attack, XSS, etc]
-    
-    ---
+layout: col-sidebar
+title: [title of page]
+author: [author name]
+contributors: [contributors]
+permalink: [direct link to page, removes /pages] (this is optional and requires some care)
+tags: [attack, XSS, etc]
 
-## File Listing
+---
+```
 
-{% assign pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
+## Content Listing
+
+Client the triangle (or other control/character) to the left of the following headings to access an expanded list of community content pages.
+
+<details>
+<summary>Controls</summary>
+
+{% assign control_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/controls/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
 <ul>
-{% for page in pages %}
-       <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+{% for page in control_pages %}
+       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
+
+</details>
+
+<details>
+<summary>Attacks</summary>
+
+{% assign attack_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/attacks/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
+<ul>
+{% for page in attack_pages %}
+       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+</details>
+
+<details>
+<summary>Vulnerabilities</summary>
+
+{% assign vuln_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/vulnerabilities/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
+<ul>
+{% for page in vuln_pages %}
+       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+</details>
+
+<details>
+<summary>Other</summary>
+
+{% assign pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
+{% assign already_displayed = control_pages | concat: attack_pages | concat: vuln_pages %}
+<ul>
+{% for page in pages %}
+  {% assign display = true %}
+  {% for checkpage in already_displayed %}
+    {% if checkpage.url == page.url %}
+      {% assign display = false %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if display %}
+       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+</details>
