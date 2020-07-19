@@ -2,9 +2,8 @@
 
 title: Certificate and Public Key Pinning
 layout: col-sidebar
-author:
-contributors:
-auto-migrated: 1
+author: Jeffery Walton, JohnSteven, Jim Manico, Kevin Wall, Ricardo Iramar
+contributors: Jack Mannino, Karl Fogel, Jshowalter , Achim, Pawel Krawczyk, Peter Bachman, Bill Sempf, Izar, Echsecutor, Jmanico, Douglasheld, Anant Shrivastava, Riramar, Nabla.c0d3, Neil Smithline, Tfrdidi, kingthorin
 tags: controls
 permalink: /controls/Certificate_and_Public_Key_Pinning
 
@@ -12,18 +11,16 @@ permalink: /controls/Certificate_and_Public_Key_Pinning
 
 {% include writers.html %}
 
-[Certificate and Public Key
-Pinning](Certificate_and_Public_Key_Pinning "wikilink") is a technical
+Certificate and Public Key Pinning is a technical
 guide to implementing certificate and public key pinning as discussed at
-the *[Virginia chapter's](https://www.owasp.org/index.php/Virginia)*
+the *[Virginia chapter's](https://owasp.org/www-chapter-northern-virginia/)*
 presentation [Securing Wireless Channels in the Mobile
-Space](Media:Securing-Wireless-Channels-in-the-Mobile-Space.ppt "wikilink").
+Space](https://wiki.owasp.org/images/8/8f/Securing-Wireless-Channels-in-the-Mobile-Space.ppt).
 This guide is focused on providing clear, simple, actionable guidance
 for securing the channel in a hostile environment where actors could be
 malicious and the conference of trust a liability.
 
-A cheat sheet is available at [Pinning Cheat
-Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Pinning_Cheat_Sheet.html).
+A cheat sheet is available at [Pinning Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Pinning_Cheat_Sheet.html).
 
 ## Introduction
 
@@ -43,9 +40,8 @@ situation is somewhat of a paradox: entities such as DNS and CAs are
 trusted and supposed to supply trusted input; yet their input cannot be
 trusted. Relying on untrusted input for security related decisions is
 not only bad karma, it violates a number of secure coding principals
-(see, for example, OWASP's [Injection
-Theory](Injection_Theory "wikilink") and [Data
-Validation](Data_Validation "wikilink")).
+(see, for example, OWASP's [Injection Theory](../Injection_Theory) and Data
+Validation.
 
 Pinning effectively removes the "conference of trust". An application
 which pins a certificate or public key no longer needs to depend on
@@ -78,10 +74,8 @@ article. This cheat sheet does not attempt to catalogue the failures in
 the industry, investigate the design flaws in the scaffolding, justify
 the lack of accountability or liability with the providers, explain the
 race to the bottom in services, or demystify the collusion between, for
-example, Browsers and CAs. For additional reading, please visit *[PKI is
-Broken](http://www.cs.auckland.ac.nz/~pgut001/pubs/pkitutorial.pdf)* and
-*[The Internet is
-Broken](http://blog.cryptographyengineering.com/2012/02/how-to-fix-internet.html)*.
+example, Browsers and CAs. For additional reading, please visit *[PKI is Broken](http://www.cs.auckland.ac.nz/~pgut001/pubs/pkitutorial.pdf)* and
+*[The Internet is Broken](http://blog.cryptographyengineering.com/2012/02/how-to-fix-internet.html)*.
 
 ### Patient 0
 
@@ -134,7 +128,7 @@ service, you don't need to rely on generalized mechanisms meant to solve
 the *key distribution* problem. That is, you don't need to turn to DNS
 for name/address mappings or CAs for bindings and status. One exception
 is revocation and it is discussed below in [Pinning
-Gaps](#Pinning_Gaps "wikilink").
+Gaps](#Pinning_Gaps).
 
 It is also worth mention that Pinning is not Stapling. Stapling sends
 both the certificate and OCSP responder information in the same request
@@ -218,7 +212,7 @@ presentation format (PKCS\#1 defers to X509, both of which use ASN.1).
 If you have a PEM encoded object (for example, `-----BEGIN
 CERTIFICATE-----`, `-----END CERTIFICATE-----`), then convert the object
 to DER encoding. Conversion using OpenSSL is offered below in [Format
-Conversions](#Format_Conversions "wikilink").
+Conversions](#Format_Conversions).
 
 A certificate is an object which binds an entity (such as a person or
 organization) to a public key via a signature. The certificate is DER
@@ -370,35 +364,37 @@ severe vulnerabilities.
 .Net pinning can be achieved by using `ServicePointManager` as shown
 below.
 
-Download: [.Net sample program](Media:pubkey-pin-dotnet.zip "wikilink").
+Download: [.Net sample program](https://wiki.owasp.org/images/2/25/Pubkey-pin-dotnet.zip).
 
-    // Encoded RSAPublicKey
-    private static String PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
-        "C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
-        "D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
-        "9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
-        "2C3F4CBED9460129C72B0203010001";
+```
+// Encoded RSAPublicKey
+private static String PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
+    "C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
+    "D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
+    "9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
+    "2C3F4CBED9460129C72B0203010001";
 
-    public static void Main(string[] args)
-    {
-      ServicePointManager.ServerCertificateValidationCallback = PinPublicKey;
-      WebRequest wr = WebRequest.Create("https://encrypted.google.com/");
-      wr.GetResponse();
-    }
+public static void Main(string[] args)
+{
+  ServicePointManager.ServerCertificateValidationCallback = PinPublicKey;
+  WebRequest wr = WebRequest.Create("https://encrypted.google.com/");
+  wr.GetResponse();
+}
 
-    public static bool PinPublicKey(object sender, X509Certificate certificate, X509Chain chain,
-                                    SslPolicyErrors sslPolicyErrors)
-    {
-      if (null == certificate)
-        return false;
+public static bool PinPublicKey(object sender, X509Certificate certificate, X509Chain chain,
+                                SslPolicyErrors sslPolicyErrors)
+{
+  if (null == certificate)
+    return false;
 
-      String pk = certificate.GetPublicKeyString();
-      if (pk.Equals(PUB_KEY))
-        return true;
+  String pk = certificate.GetPublicKeyString();
+  if (pk.Equals(PUB_KEY))
+    return true;
 
-      // Bad dog
-      return false;
-    }
+  // Bad dog
+  return false;
+}
+```
 
 ### OpenSSL
 
@@ -415,130 +411,131 @@ must call `SSL_get_verify_result` and verify the return code is
 `X509_V_OK`; and (2) you must call `SSL_get_peer_certificate` and verify
 the certificate is **non-NULL**.
 
-Download: [OpenSSL sample
-program](Media:pubkey-pin-openssl.zip "wikilink").
+Download: [OpenSSL sample program](https://wiki.owasp.org/images/f/f7/Pubkey-pin-openssl.zip).
 
-    int pkp_pin_peer_pubkey(SSL* ssl)
+```
+int pkp_pin_peer_pubkey(SSL* ssl)
+{
+    if(NULL == ssl) return FALSE;
+
+    X509* cert = NULL;
+    FILE* fp = NULL;
+
+    /* Scratch */
+    int len1 = 0, len2 = 0;
+    unsigned char *buff1 = NULL, *buff2 = NULL;
+
+    /* Result is returned to caller */
+    int ret = 0, result = FALSE;
+
+    do
     {
-        if(NULL == ssl) return FALSE;
+        /* http://www.openssl.org/docs/ssl/SSL_get_peer_certificate.html */
+        cert = SSL_get_peer_certificate(ssl);
+        if(!(cert != NULL))
+            break; /* failed */
 
-        X509* cert = NULL;
-        FILE* fp = NULL;
+        /* Begin Gyrations to get the subjectPublicKeyInfo       */
+        /* Thanks to Viktor Dukhovni on the OpenSSL mailing list */
 
-        /* Scratch */
-        int len1 = 0, len2 = 0;
-        unsigned char *buff1 = NULL, *buff2 = NULL;
+        /* http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/d61858dae102c6c7 */
+        len1 = i2d_X509_PUBKEY(X509_get_X509_PUBKEY(cert), NULL);
+        if(!(len1 > 0))
+            break; /* failed */
 
-        /* Result is returned to caller */
-        int ret = 0, result = FALSE;
-
-        do
-        {
-            /* http://www.openssl.org/docs/ssl/SSL_get_peer_certificate.html */
-            cert = SSL_get_peer_certificate(ssl);
-            if(!(cert != NULL))
-                break; /* failed */
-
-            /* Begin Gyrations to get the subjectPublicKeyInfo       */
-            /* Thanks to Viktor Dukhovni on the OpenSSL mailing list */
-
-            /* http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/d61858dae102c6c7 */
-            len1 = i2d_X509_PUBKEY(X509_get_X509_PUBKEY(cert), NULL);
-            if(!(len1 > 0))
-                break; /* failed */
-
-            /* scratch */
-            unsigned char* temp = NULL;
-
-            /* http://www.openssl.org/docs/crypto/buffer.html */
-            buff1 = temp = OPENSSL_malloc(len1);
-            if(!(buff1 != NULL))
-                break; /* failed */
-
-            /* http://www.openssl.org/docs/crypto/d2i_X509.html */
-            len2 = i2d_X509_PUBKEY(X509_get_X509_PUBKEY(cert), &temp);
-
-            /* These checks are verifying we got back the same values as when we sized the buffer.      */
-            /* Its pretty weak since they should always be the same. But it gives us something to test. */
-            if(!((len1 == len2) && (temp != NULL) && ((temp - buff1) == len1)))
-                break; /* failed */
-
-            /* End Gyrations */
-
-            /* See the warning above!!!                                            */
-            /* http://pubs.opengroup.org/onlinepubs/009696699/functions/fopen.html */
-            fp = fopen("random-org.der", "rx");
-            if(NULL ==fp) {
-                fp = fopen("random-org.der", "r");
-
-            if(!(NULL != fp))
-                break; /* failed */
-
-            /* Seek to eof to determine the file's size                            */
-            /* http://pubs.opengroup.org/onlinepubs/009696699/functions/fseek.html */
-            ret = fseek(fp, 0, SEEK_END);
-            if(!(0 == ret))
-                break; /* failed */
-
-            /* Fetch the file's size                                               */
-            /* http://pubs.opengroup.org/onlinepubs/009696699/functions/ftell.html */
-            long size = ftell(fp);
-
-            /* Arbitrary size, but should be relatively small (less than 1K or 2K) */
-            if(!(size != -1 && size > 0 && size < 2048))
-                break; /* failed */
-
-            /* Rewind to beginning to perform the read                             */
-            /* http://pubs.opengroup.org/onlinepubs/009696699/functions/fseek.html */
-            ret = fseek(fp, 0, SEEK_SET);
-            if(!(0 == ret))
-                break; /* failed */
-
-            /* Re-use buff2 and len2 */
-            buff2 = NULL; len2 = (int)size;
-
-            /* http://www.openssl.org/docs/crypto/buffer.html */
-            buff2 = OPENSSL_malloc(len2);
-            if(!(buff2 != NULL))
-                break; /* failed */
-
-            /* http://pubs.opengroup.org/onlinepubs/009696699/functions/fread.html */
-            /* Returns number of elements read, which should be 1 */
-            ret = (int)fread(buff2, (size_t)len2, 1, fp);
-            if(!(ret == 1))
-                break; /* failed */
-
-            /* Re-use size. MIN and MAX macro below... */
-            size = len1 < len2 ? len1 : len2;
-
-            /*************************/
-            /*****    PAYDIRT    *****/
-            /*************************/
-            if(len1 != (int)size || len2 != (int)size || 0 != memcmp(buff1, buff2, (size_t)size))
-                break; /* failed */
-
-            /* The one good exit point */
-            result = TRUE;
-
-        } while(0);
-
-        if(fp != NULL)
-            fclose(fp);
+        /* scratch */
+        unsigned char* temp = NULL;
 
         /* http://www.openssl.org/docs/crypto/buffer.html */
-        if(NULL != buff2)
-            OPENSSL_free(buff2);
+        buff1 = temp = OPENSSL_malloc(len1);
+        if(!(buff1 != NULL))
+            break; /* failed */
+
+        /* http://www.openssl.org/docs/crypto/d2i_X509.html */
+        len2 = i2d_X509_PUBKEY(X509_get_X509_PUBKEY(cert), &temp);
+
+        /* These checks are verifying we got back the same values as when we sized the buffer.      */
+        /* Its pretty weak since they should always be the same. But it gives us something to test. */
+        if(!((len1 == len2) && (temp != NULL) && ((temp - buff1) == len1)))
+            break; /* failed */
+
+        /* End Gyrations */
+
+        /* See the warning above!!!                                            */
+        /* http://pubs.opengroup.org/onlinepubs/009696699/functions/fopen.html */
+        fp = fopen("random-org.der", "rx");
+        if(NULL ==fp) {
+            fp = fopen("random-org.der", "r");
+
+        if(!(NULL != fp))
+            break; /* failed */
+
+        /* Seek to eof to determine the file's size                            */
+        /* http://pubs.opengroup.org/onlinepubs/009696699/functions/fseek.html */
+        ret = fseek(fp, 0, SEEK_END);
+        if(!(0 == ret))
+            break; /* failed */
+
+        /* Fetch the file's size                                               */
+        /* http://pubs.opengroup.org/onlinepubs/009696699/functions/ftell.html */
+        long size = ftell(fp);
+
+        /* Arbitrary size, but should be relatively small (less than 1K or 2K) */
+        if(!(size != -1 && size > 0 && size < 2048))
+            break; /* failed */
+
+        /* Rewind to beginning to perform the read                             */
+        /* http://pubs.opengroup.org/onlinepubs/009696699/functions/fseek.html */
+        ret = fseek(fp, 0, SEEK_SET);
+        if(!(0 == ret))
+            break; /* failed */
+
+        /* Re-use buff2 and len2 */
+        buff2 = NULL; len2 = (int)size;
 
         /* http://www.openssl.org/docs/crypto/buffer.html */
-        if(NULL != buff1)
-            OPENSSL_free(buff1);
+        buff2 = OPENSSL_malloc(len2);
+        if(!(buff2 != NULL))
+            break; /* failed */
 
-        /* http://www.openssl.org/docs/crypto/X509_new.html */
-        if(NULL != cert)
-            X509_free(cert);
+        /* http://pubs.opengroup.org/onlinepubs/009696699/functions/fread.html */
+        /* Returns number of elements read, which should be 1 */
+        ret = (int)fread(buff2, (size_t)len2, 1, fp);
+        if(!(ret == 1))
+            break; /* failed */
 
-        return result;
-    }
+        /* Re-use size. MIN and MAX macro below... */
+        size = len1 < len2 ? len1 : len2;
+
+        /*************************/
+        /*****    PAYDIRT    *****/
+        /*************************/
+        if(len1 != (int)size || len2 != (int)size || 0 != memcmp(buff1, buff2, (size_t)size))
+            break; /* failed */
+
+        /* The one good exit point */
+        result = TRUE;
+
+    } while(0);
+
+    if(fp != NULL)
+        fclose(fp);
+
+    /* http://www.openssl.org/docs/crypto/buffer.html */
+    if(NULL != buff2)
+        OPENSSL_free(buff2);
+
+    /* http://www.openssl.org/docs/crypto/buffer.html */
+    if(NULL != buff1)
+        OPENSSL_free(buff1);
+
+    /* http://www.openssl.org/docs/crypto/X509_new.html */
+    if(NULL != cert)
+        X509_free(cert);
+
+    return result;
+}
+```
 
 ## Miscellaneous
 
@@ -578,7 +575,7 @@ the primary means being freshness. That is, an application should be
 updated and distributed immediately when a critical security parameter
 changes.
 
-### No Relationship ^@$\!
+### No Relationship `^@$\!`
 
 If you don't have a pre-existing relationship, all is not lost. First,
 you can pin a host or server's certificate or public key the first time
@@ -589,28 +586,15 @@ funny business.
 Second, bad certificates are being spotted quicker in the field due to
 projects like [Chromium](http://www.chromium.org) and [Certificate
 Patrol](https://addons.mozilla.org/en-us/firefox/addon/certificate-patrol/),
-and initiatives like the EFF's [SSL
-Observatory](https://www.eff.org/observatory).
+and initiatives like the EFF's [SSL Observatory](https://www.eff.org/observatory).
 
 Third, help is on its way, and there are a number of futures that will
 assist with the endeavors:
 
-  - Public Key Pinning
-    (http://www.ietf.org/id/draft-ietf-websec-key-pinning-09.txt) – an
-    extension to the HTTP protocol allowing web host operators to
-    instruct user agents (UAs) to remember ("pin") the hosts'
-    cryptographic identities for a given period of time.
-  - DNS-based Authentication of Named Entities (DANE)
-    (https://datatracker.ietf.org/doc/rfc6698/) - uses Secure DNS to
-    associate Certificates with Domain Names For S/MIME, SMTP with TLS,
-    DNSSEC and TLSA records.
-  - Sovereign Keys (http://www.eff.org/sovereign-keys) - operates by
-    providing an optional and secure way of associating domain names
-    with public keys via DNSSEC. PKI (hierarchical) is still used.
-    Semi-centralized with append only logging.
-  - Convergence (http://convergence.io) – different \[geographical\]
-    views of a site and its associated data (certificates and public
-    keys). Web of Trust is used. Semi-centralized.
+- Public Key Pinning (http://www.ietf.org/id/draft-ietf-websec-key-pinning-09.txt) – an extension to the HTTP protocol allowing web host operators to instruct user agents (UAs) to remember ("pin") the hosts' cryptographic identities for a given period of time.
+- DNS-based Authentication of Named Entities (DANE) (https://datatracker.ietf.org/doc/rfc6698/) - uses Secure DNS to associate Certificates with Domain Names For S/MIME, SMTP with TLS, DNSSEC and TLSA records.
+- Sovereign Keys (http://www.eff.org/sovereign-keys) - operates by providing an optional and secure way of associating domain names with public keys via DNSSEC. PKI (hierarchical) is still used. Semi-centralized with append only logging.
+- Convergence (http://convergence.io) – different \[geographical\] views of a site and its associated data (certificates and public keys). Web of Trust is used. Semi-centralized.
 
 While Sovereign Keys and Convergence still require us to confer trust to
 outside parties, the parties involved do not serve share holders or
@@ -630,71 +614,42 @@ Apps](https://developers.google.com/events/io/sessions/gooio2012/107/)*.
 As a convenience to readers, the following with convert between PEM and
 DER format using OpenSSL.
 
-    # Public key, X509
-    $ openssl genrsa -out rsa-openssl.pem 3072
-    $ openssl rsa -in rsa-openssl.pem -pubout -outform DER -out rsa-openssl.der
+```
+# Public key, X509
+$ openssl genrsa -out rsa-openssl.pem 3072
+$ openssl rsa -in rsa-openssl.pem -pubout -outform DER -out rsa-openssl.der
 
-    # Private key, PKCS#8
-    $ openssl genrsa -out rsa-openssl.pem 3072
-    $ openssl pkcs8 -nocrypt -in rsa-openssl.pem -inform PEM -topk8 -outform DER -out rsa-openssl.der
+# Private key, PKCS#8
+$ openssl genrsa -out rsa-openssl.pem 3072
+$ openssl pkcs8 -nocrypt -in rsa-openssl.pem -inform PEM -topk8 -outform DER -out rsa-openssl.der
+```
 
 ## References
 
-  - OWASP [Injection Theory](Injection_Theory "wikilink")
-  - OWASP [Data Validation](Data_Validation "wikilink")
-  - OWASP [Transport Layer Protection Cheat
-    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
-  - IETF [Public Key
-    Pinning](http://www.ietf.org/id/draft-ietf-websec-key-pinning-09.txt)
-  - IETF [RFC 5054 (SRP)](http://www.ietf.org/rfc/rfc5054.txt)
-  - IETF [RFC 4764 (EAP-PSK)](http://www.ietf.org/rfc/rfc4764.txt)
-  - IETF [RFC 1421 (PEM Encoding)](http://www.ietf.org/rfc/rfc1421.txt)
-  - IETF [RFC 5280 (Internet X.509,
-    PKIX)](http://www.ietf.org/rfc/rfc5280.txt)
-  - IETF [RFC 4648 (Base16, Base32, and Base64
-    Encodings)](http://www.ietf.org/rfc/rfc4648.txt)
-  - IETF [RFC 3279 (PKI, X509 Algorithms and CRL
-    Profiles)](http://www.ietf.org/rfc/rfc3279.txt)
-  - IETF [RFC 4055 (PKI, X509 Additional Algorithms and CRL
-    Profiles)](http://www.ietf.org/rfc/rfc4055.txt)
-  - IETF [RFC 2246 (TLS 1.0)](http://www.ietf.org/rfc/rfc2246.txt)
-  - IETF [RFC 4346 (TLS 1.1)](http://www.ietf.org/rfc/rfc4346.txt)
-  - IETF [RFC 5246 (TLS 1.2)](http://www.ietf.org/rfc/rfc5246.txt)
-  - IETF [RFC 6698, Draft (DANE)](http://www.ietf.org/rfc/rfc6698.txt)
-  - EFF [Sovereign Keys](http://www.eff.org/sovereign-keys)
-  - Thoughtcrime Labs [Convergence](http://convergence.io/)
-  - RSA Laboratories [PKCS\#1, RSA Encryption
-    Standard](http://www.rsa.com/rsalabs/node.asp?id=2125)
-  - RSA Laboratories [PKCS\#6, Extended-Certificate Syntax
-    Standard](http://www.rsa.com/rsalabs/node.asp?id=2128)
-  - ITU [Specification of Basic Encoding Rules (BER), Canonical Encoding
-    Rules (CER) and Distinguished Encoding Rules
-    (DER)](http://www.itu.int/rec/T-REC-X.690-200811-I/en)
-  - TOR Project [Detecting Certificate Authority Compromises and Web
-    Browser
-    Collusion](https://blog.torproject.org/blog/detecting-certificate-authority-compromises-and-web-browser-collusion)
-  - Code Project [Cryptographic Interoperability:
-    Keys](http://www.codeproject.com/Articles/25487/Cryptographic-Interoperability-Keys)
-  - Google I/O [Security and Privacy in Android
-    Apps](https://developers.google.com/events/io/sessions/gooio2012/107/)
-  - Trevor Perrin [Transparency, Trust Agility, Pinning (Recent
-    Developments in Server
-    Authentication)](https://crypto.stanford.edu/RealWorldCrypto/slides/perrin.pdf)
-  - Dr. Peter Gutmann's [PKI is
-    Broken](http://www.cs.auckland.ac.nz/~pgut001/pubs/pkitutorial.pdf)
-  - Dr. Matthew Green's [The Internet is
-    Broken](http://blog.cryptographyengineering.com/2012/02/how-to-fix-internet.html)
-  - Dr. Matthew Green's [How do Interception Proxies
-    fail?](http://blog.cryptographyengineering.com/2012/03/how-do-interception-proxies-fail.html)
-  - Presentation: [SSL Pinning implementation and bypasses for iOS and
-    Android](http://www.slideshare.net/anantshri/ssl-pinning-and-bypasses-android-and-ios)
-
-# Authors and Primary Editors
-
-  - Jeffrey Walton - jeffrey, owasp.org
-  - JohnSteven - john, owasp.org
-  - Jim Manico - jim, owasp.org
-  - Kevin Wall - kevin, owasp.org
-  - Ricardo Iramar - ricardo.iramar, owasp.org
-
-[Category:Control](Category:Control "wikilink")
+- OWASP [Injection Theory](../Injection_Theory "wikilink")
+- OWASP [Transport Layer Protection Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
+- IETF [Public Key Pinning](http://www.ietf.org/id/draft-ietf-websec-key-pinning-09.txt)
+- IETF [RFC 5054 (SRP)](http://www.ietf.org/rfc/rfc5054.txt)
+- IETF [RFC 4764 (EAP-PSK)](http://www.ietf.org/rfc/rfc4764.txt)
+- IETF [RFC 1421 (PEM Encoding)](http://www.ietf.org/rfc/rfc1421.txt)
+- IETF [RFC 5280 (Internet X.509, PKIX)](http://www.ietf.org/rfc/rfc5280.txt)
+- IETF [RFC 4648 (Base16, Base32, and Base64 Encodings)](http://www.ietf.org/rfc/rfc4648.txt)
+- IETF [RFC 3279 (PKI, X509 Algorithms and CRL Profiles)](http://www.ietf.org/rfc/rfc3279.txt)
+- IETF [RFC 4055 (PKI, X509 Additional Algorithms and CRL Profiles)](http://www.ietf.org/rfc/rfc4055.txt)
+- IETF [RFC 2246 (TLS 1.0)](http://www.ietf.org/rfc/rfc2246.txt)
+- IETF [RFC 4346 (TLS 1.1)](http://www.ietf.org/rfc/rfc4346.txt)
+- IETF [RFC 5246 (TLS 1.2)](http://www.ietf.org/rfc/rfc5246.txt)
+- IETF [RFC 6698, Draft (DANE)](http://www.ietf.org/rfc/rfc6698.txt)
+- EFF [Sovereign Keys](http://www.eff.org/sovereign-keys)
+- Thoughtcrime Labs [Convergence](http://convergence.io/)
+- RSA Laboratories [PKCS\#1, RSA Encryption Standard](http://www.rsa.com/rsalabs/node.asp?id=2125)
+- RSA Laboratories [PKCS\#6, Extended-Certificate Syntax Standard](http://www.rsa.com/rsalabs/node.asp?id=2128)
+- ITU [Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER)](http://www.itu.int/rec/T-REC-X.690-200811-I/en)
+- TOR Project [Detecting Certificate Authority Compromises and Web Browser Collusion](https://blog.torproject.org/blog/detecting-certificate-authority-compromises-and-web-browser-collusion)
+- Code Project [Cryptographic Interoperability: Keys](http://www.codeproject.com/Articles/25487/Cryptographic-Interoperability-Keys)
+- Google I/O [Security and Privacy in Android Apps](https://developers.google.com/events/io/sessions/gooio2012/107/)
+- Trevor Perrin [Transparency, Trust Agility, Pinning (Recent Developments in Server Authentication)](https://crypto.stanford.edu/RealWorldCrypto/slides/perrin.pdf)
+- Dr. Peter Gutmann's [PKI is Broken](http://www.cs.auckland.ac.nz/~pgut001/pubs/pkitutorial.pdf)
+- Dr. Matthew Green's [The Internet is Broken](http://blog.cryptographyengineering.com/2012/02/how-to-fix-internet.html)
+- Dr. Matthew Green's [How do Interception Proxies fail?](http://blog.cryptographyengineering.com/2012/03/how-do-interception-proxies-fail.html)
+- Presentation: [SSL Pinning implementation and bypasses for iOS and Android](http://www.slideshare.net/anantshri/ssl-pinning-and-bypasses-android-and-ios)

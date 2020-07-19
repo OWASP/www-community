@@ -3,9 +3,8 @@
 title: Intrusion Detection
 layout: col-sidebar
 author:
-contributors:
+contributors: KirstenS, Wichers, Jkurucar, kingthorin
 tags: controls
-auto-migrated: 1
 permalink: /controls/Intrusion_Detection
 
 ---
@@ -41,7 +40,7 @@ applications, especially client-server applications like web
 applications and web services. Many newer technologies are beginning to
 include integrated services such as a single device that incorporates a
 firewall, IDS, and limited IPS functionality.
-[Logging](Logging "wikilink") is an important aspect of intrusion
+Logging is an important aspect of intrusion
 detection, but is best viewed as a way to record intrusion-related
 activity, not to determine what is an intrusion in the first place. The
 vast majority of applications do not detect attacks, but instead try
@@ -61,9 +60,9 @@ root cause vulnerability.
 
 There are three types of requests that an application might receive:
 
-  - Almost certainly an attack
-  - Not sure whether it an attack or not
-  - Almost certainly legitimate input
+- Almost certainly an attack
+- Not sure whether it an attack or not
+- Almost certainly legitimate input
 
 The question for application developers is how to deal with these three
 categories. The safest rule is to assume that everything except

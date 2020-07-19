@@ -2,10 +2,9 @@
 
 title: Detect Profiling Phase
 layout: col-sidebar
-author:
-contributors:
+author: Dominique RIGHETTO
+contributors: Imifos, kingthorin
 tags: controls
-auto-migrated: 1
 permalink: /controls/Detect_profiling_phase_into_web_application
 
 ---
@@ -34,16 +33,10 @@ attack be launched.
 This page is provided with Java projects in which examples of
 implementation described into this page are showed:
 
-  - [Profiling detection
-    filters](https://code.google.com/p/righettod/source/browse/#git%2FJEE%2FProfilingDetectionPOC)
-  - [Attacker
-    identification](https://code.google.com/p/righettod/source/browse/#git%2FJEE%2FClientIdentifyPOC)
+- [Profiling detection filters](https://code.google.com/p/righettod/source/browse/#git%2FJEE%2FProfilingDetectionPOC)
+- [Attacker identification](https://code.google.com/p/righettod/source/browse/#git%2FJEE%2FClientIdentifyPOC)
 
-<!-- end list -->
-
-    Links to source code management system are provided instead of static archives because initial author
-    continue to work on profiling detection and attacker identification concepts using feedback coming from implementation
-    in real production application.
+> Links to source code management system are provided instead of static archives because initial authorcontinue to work on profiling detection and attacker identification concepts using feedback coming from implementationin real production application.
 
 ## Reminder about profiling phase of an attack
 
@@ -56,15 +49,12 @@ This phase is commonly called "**profiling**" and this one takes a big
 place into the attack time frame. The profiling can be performed in a
 "**passive**" or "**active**" way:
 
-  - The "**passive**" way is performed using public information and/or
-    navigating on the target
+- The "**passive**" way is performed using public information and/or navigating on the target
 
 application without doing any suspicious behaviour (browsing like a
 normal user), the objective here is to not be detected.
 
-  - The "**active**" way is performed by having behaviour on the target
-    application than can, perhaps, generate alerts depending on the
-    monitoring in place
+- The "**active**" way is performed by having behaviour on the target application than can, perhaps, generate alerts depending on the monitoring in place
 
 (example: sending HTTP request with an invalid parameter value in order
 to see how the application behave).
@@ -99,21 +89,19 @@ skill level required to play with the application.
 
 We will use the information below to identify sender:
 
-  - Sender IP address,
-  - HTTP request headers:
-      - Accept,
-      - Accept-Encoding,
-      - Accept-Language,
-      - Connection,
-      - User-Agent.
+- Sender IP address,
+- HTTP request headers:
+  - Accept,
+  - Accept-Encoding,
+  - Accept-Language,
+  - Connection,
+  - User-Agent.
 
 We will use storage to keep information below:
 
-  - Digest of the HTTP request sender information above (used as unique
-    ID),
-  - Identifier of the application functionality visited (URI for
-    example),
-  - Last visit date time.
+- Digest of the HTTP request sender information above (used as unique ID),
+- Identifier of the application functionality visited (URI for example),
+- Last visit date time.
 
 We also need to know the list of functionality exposed by the
 application in order to perform comparison. This one can be stored into
@@ -125,15 +113,8 @@ For each HTTP request, we will store the hit and next check if, for the
 last two weeks, the visitor has visited all the application
 functionalities. If it's the case then:
 
-1.  We send all current request information (we send information here
-    because in the store we only keep a digest) to a monitoring system
-    in order to generate an alert and launch a review of the sender
-    information in order to decide if aggressive defensive measure
-    should be taken against them,
-2.  We clean the store with the information of this sender (in order to
-    avoid duplicate alert). Optionally it's possible to move information
-    to archive storage type in order to perform global statistic
-    processing for the application but it's not the goal here.
+1. We send all current request information (we send information here because in the store we only keep a digest) to a monitoring system in order to generate an alert and launch a review of the sender information in order to decide if aggressive defensive measure should be taken against them,
+2. We clean the store with the information of this sender (in order to avoid duplicate alert). Optionally it's possible to move information to archive storage type in order to perform global statistic processing for the application but it's not the goal here.
 
 See this class
 [PassiveDetectionFilter](https://code.google.com/p/righettod/source/browse/JEE/ProfilingDetectionPOC/src/main/java/com/googlecode/righettod/pdec/PassiveDetectionFilter.java)
@@ -187,9 +168,9 @@ application performance.
 The table below lists the name and value of the fake cookie that will be
 issued at first visitor request:
 
-| align="center" | Name                                                                           | align="center" | Description | align="center" | Value | align="center" | Life time |
-| -------------- | ------------------------------------------------------------------------------ | -------------- | ----------- | -------------- | ----- | -------------- | --------- |
-| verbose_mode  | Simulate a flag that can enable development mode (verbose) of the application. | false          | 1 day       |                |       |                |           |
+| Name           | Description                                                                    | Value          | Life Time  |
+|----------------| -------------------------------------------------------------------------------|--------------- |------------|
+| `verbose_mode` | Simulate a flag that can enable development mode (verbose) of the application. | false          | 1 day      |
 
 See this class
 [ActiveDetectionFilter](https://code.google.com/p/righettod/source/browse/JEE/ProfilingDetectionPOC/src/main/java/com/googlecode/righettod/pdec/ActiveDetectionFilter.java)
@@ -201,7 +182,7 @@ There several way to apply counter measures against an attacker in order
 to bother them in their task and we can classify them according to their
 level of invasion on the client.
 
-    Invasive measures are not legal but it's very rare that an attacker file a claim against is target.
+> Invasive measures are not legal but it's very rare that an attacker file a claim against is target.
 
 **Level 1: Without invasion**
 
