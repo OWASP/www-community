@@ -2,9 +2,8 @@
 
 title: Secure Cookie Flag
 layout: col-sidebar
-author:
-contributors:
-auto-migrated: 1
+author: MichaelCoates
+contributors: Andrew Smith, Gladwin, Bell Sempf, Wichers, James Jardine, Zerosum0x0, Paco, Dan Wallis, Nawwar, kingthorin
 permalink: /controls/SecureFlag
 
 ---
@@ -48,7 +47,7 @@ Servlet 3.0 (Java EE 6) introduced a standard way to configure secure
 attribute for the session cookie, this can be done by applying the
 following configuration in web.xml
 
-```
+```xml
 <session-config>
   <cookie-config>
   <secure>`true`</secure>
@@ -63,9 +62,9 @@ it automatically sets secure attribute on session cookie.
 
 ### Setting it as a custom header
 
-For **older versions** the workaround is to rewrite JSESSIONID value
+For **older versions** the workaround is to rewrite `JSESSIONID` value
 using and setting it as a custom header. The drawback is that servers
-can be configured to use a different session identifier than JSESSIONID.
+can be configured to use a different session identifier than `JSESSIONID`.
 
 `String sessionid = request.getSession().getId();`
 `response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; secure");`
@@ -83,28 +82,33 @@ each environment and can be driven by application configuration.
 
 ## ASP.NET
 
-Set the following in Web.config: <httpCookies requireSSL="true" />
+Set the following in Web.config: `<httpCookies requireSSL="true" />`
 
 For some objects that have a requireSSL property, like the forms
-Authentication Cookie, set the requireSSL="true" flag in the web.config
+Authentication Cookie, set the `requireSSL="true"` flag in the web.config
 for that specific element. For example: 
 
-     <code><authentication mode="Forms"></code>
-       <code><forms loginUrl="member_login.aspx"</code>
-              <code>cookieless="UseCookies"</code>
-              <code>'''requireSSL="true"'''</code>
-              <code>path="/MyApplication" /></code>
-     <code></authentication></code>  
+```xml
+<code><authentication mode="Forms"></code>
+  <code><forms loginUrl="member_login.aspx"</code>
+         <code>cookieless="UseCookies"</code>
+         <code>'''requireSSL="true"'''</code>
+         <code>path="/MyApplication" /></code>
+<code></authentication></code>  
+```
 
 Which will enable the secure flag on the Forms Authentication cookie, as well as checking that the http request is coming to the server over SSL/TLS connection. Note that in case TLS is offloaded to a load balancer, the requireSSL solution wouldn't work.
  
-Alternatively, the cookies can be set to secure programmatically using the following code by adding a EndRequest event handler to the Global.asax.cs file:
-    protected void Application_EndRequest(Object sender, EventArgs e) {
-        // Iterate through any cookies found in the Response object.
-        foreach (string cookieName in Response.Cookies.AllKeys) {
-            Response.Cookies[cookieName]?.Secure = true;
-        }
-    } 
+Alternatively, the cookies can be set to secure programmatically using the following code by adding a EndRequest event handler to the `Global.asax.cs` file:
+
+```
+protected void Application_EndRequest(Object sender, EventArgs e) {
+    // Iterate through any cookies found in the Response object.
+    foreach (string cookieName in Response.Cookies.AllKeys) {
+        Response.Cookies[cookieName]?.Secure = true;
+    }
+} 
+```
 
 ## PHP
 
@@ -134,14 +138,10 @@ bool setcookie ( string $name  [, string $value  [, int $expire= 0�
 # Testing for the Secure Flag
 
 Verifying that a web site sets this flag on any particular cookie is
-easy. Using an intercepting proxy, like [ZAP](ZAP "wikilink"), you can
+easy. Using an intercepting proxy, like [ZAP](https://www.zaproxy.org), you can
 capture each response from the server and examine any Set-Cookie headers
 it includes to see if the secure flag is set on the cookie.
 
 # Related Articles
 
-  - [Testing for Cookie
-    Attributes](Testing_for_cookies_attributes_\(OTG-SESS-002\) "wikilink")
-  - <http://www.troyhunt.com/2011/11/owasp-top-10-for-net-developers-part-9.html>
-
-[Category:Control](Category:Control "wikilink")
+- [http://www.troyhunt.com/2011/11/owasp-top-10-for-net-developers-part-9.html](http://www.troyhunt.com/2011/11/owasp-top-10-for-net-developers-part-9.html)
