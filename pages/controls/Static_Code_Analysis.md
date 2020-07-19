@@ -189,7 +189,7 @@ environment and whether it is configured securely.
 
 | Software                                                                                | Language(s) |
 | --------------------------------------------------------------------------------------- | ----------- |
-| [OWASP Code Crawler](https://wiki.owasp.org/index.php/Category:OWASP_Code_Crawler       | .NET, Java  |
+| [OWASP Code Crawler](https://wiki.owasp.org/index.php/Category:OWASP_Code_Crawler)      | .NET, Java  |
 | [OWASP Orizon Project](https://wiki.owasp.org/index.php/Category:OWASP_Orizon_Project)  | Java        |
 | [OWASP LAPSE Project](https://wiki.owasp.org/index.php/OWASP_LAPSE_Project)             | Java        |
 | [OWASP O2 Platform](https://wiki.owasp.org/index.php/OWASP_O2_Platform)                 |             |
