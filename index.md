@@ -8,11 +8,11 @@ tags: community
 
 <!-- rebuild 5 -->
 
-OWASP Community Pages is a place where OWASP can accept community contributions for security-related content.
-To contribute, go to the [repository for this site.](https://github.com/OWASP/www-community)
-Go into the pages folder and create a new file.  Save and commit the file. 
+OWASP Community Pages are a place where OWASP can accept community contributions for security-related content.
+To contribute, go to the [repository for this site](https://github.com/OWASP/www-community).
+Go into the `pages` folder and create a new file. Save and commit the file.
 
-Include the following front matter in your file (for examples, see pages/password-special-characters.md in this repository):
+Include the following front matter and include in your file (for example, see: `pages/password-special-characters.md` in this repository):
 
 ```md
 ---
@@ -25,7 +25,13 @@ permalink: [direct link to page, removes /pages] (this is optional and requires 
 tags: [attack, XSS, etc]
 
 ---
+
+ {% include writers.html %}
+
 ```
+
+
+**Please** ensure your content contribution is based on original work/thought and not plagiarised. Also, please ensure that contributions are vendor/product neutral.
 
 ## Content Listing
 
