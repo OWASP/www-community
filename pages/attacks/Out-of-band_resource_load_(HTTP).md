@@ -4,11 +4,12 @@ layout: col-sidebar
 title: Out-of-band resource load (HTTP)
 author: Rishu Ranjan
 contributors: 
-permalink: /attacks/out-of-band-resource-load
+permalink: /attacks/Out-of-band_resource_load_(HTTP)
 tags: attack, Out-of-band resource load (HTTP), OBRL
 
 ---
 
+{% include writers.html %}
 
 # Description
 
