@@ -106,6 +106,7 @@ An even broader list of free static analysis tools (not just for security) for l
 - [Coverity Static Analysis](https://www.synopsys.com/content/dam/synopsys/sig-assets/datasheets/SAST-Coverity-datasheet.pdf) (Synopsys)
 - [CxSAST](https://www.checkmarx.com/technology/static-code-analysis-sca/) (Checkmarx)
 - [DerScanner](https://derscanner.com/) (DerScanner Ltd.) Capable of identifying vulnerabilities and backdoors (undocumented features) in over 30 programming languages by analyzing source code or executables, without requiring debug info.
+- [ECG](https://ecg.voidsec.com/) (VoidSec) - SaaS TCL Static Source Code Analysis Tool able to detect real and complex security vulnerabilities in TCL/ADP source-code. Discovered vulnerabilities will be mapped against the OWASP top 10 vulnerabilities.
 - [Fortify](https://www.microfocus.com/en-us/products/static-code-analysis-sast) (Micro Focus, Formerly HP)
 - [Hdiv Detection](https://hdivsecurity.com/interactive-application-security-testing-iast) (Hdiv Security) - Hdiv performs code security without actually doing static analysis. Hdiv does Interactive Application Security Testing (IAST), correlating runtime code & data analysis. It provides code-level results without actually relying on static analysis.
 - [Julia](https://juliasoft.com/solutions) (JuliaSoft) - SaaS Java static analysis
