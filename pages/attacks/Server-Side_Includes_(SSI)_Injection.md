@@ -2,11 +2,10 @@
 
 layout: col-sidebar
 title: Server-Side Includes (SSI) Injection
-author: 
-contributors: 
+author: Weilin Zhong, Nsrav
+contributors: KirstenS, Laurence Casey, Sam (Frenchie) Stewart, Glenn (devalias) Grant, kingthorin, Juliya Smith
 permalink: /attacks/Server-Side_Includes_(SSI)_Injection
 tags: attack, Server-Side Includes (SSI) Injection
-auto-migrated: 1
 
 ---
 
@@ -47,10 +46,6 @@ fields and they are sent to the web server. The web server parses and
 executes the directives before supplying the page. Then, the attack
 result will be viewable the next time that the page is loaded for the
 user's browser.
-
-## Risk Factors
-
-TBD
 
 ## Examples
 
@@ -120,9 +115,8 @@ process Server-Side Includes.
 [CVE 2001-0506](https://nvd.nist.gov/vuln/detail/CVE-2001-0506).
 
 By creating a malicious page containing the SSI code bellow and forcing
-the application to load this page ([Path
-Traversal](Path_Traversal "wikilink") attack), it’s possible to perform
-this attack:
+the application to load this page ([Path Traversal](Path_Traversal) attack), 
+it’s possible to perform this attack:
 
 ssi_over.shtml
 
@@ -146,21 +140,18 @@ and executes arbitrary code.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Code Injection](Code_Injection "wikilink")
+- [Code Injection](Code_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Input Validation Vulnerability](PHP_File_Inclusion "wikilink")
+- [Input Validation Vulnerability](PHP_File_Inclusion)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Input Validation Vulnerability](https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs)
+- [Input Validation Vulnerability](https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs)
 
 ## References
 
-  - <http://www.comptechdoc.org/independent/web/cgi/ssimanual/ssiexamples.html>
-    - SSI Examples
-
-  - <http://httpd.apache.org/docs/current/howto/ssi.html#basic> - CGI and SSI Syntax and Examples
-
-  - [Injection Flaws](https://owasp.org/www-community/Injection_Flaws)
+- [SSI Examples](http://www.comptechdoc.org/independent/web/cgi/ssimanual/ssiexamples.html)
+- [CGI and SSI Syntax and Examples](http://httpd.apache.org/docs/current/howto/ssi.html#basic)
+- [Injection Flaws](https://owasp.org/www-community/Injection_Flaws)
