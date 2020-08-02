@@ -2,11 +2,10 @@
 
 layout: col-sidebar
 title: Server-Side Includes (SSI) Injection
-author: 
-contributors: 
+author: Weilin Zhong, Nsrav
+contributors: KirstenS, Laurence Casey, Sam (Frenchie) Stewart, Glenn (devalias) Grant, kingthorin, Juliya Smith
 permalink: /attacks/Server-Side_Includes_(SSI)_Injection
 tags: attack, Server-Side Includes (SSI) Injection
-auto-migrated: 1
 
 ---
 
@@ -47,10 +46,6 @@ fields and they are sent to the web server. The web server parses and
 executes the directives before supplying the page. Then, the attack
 result will be viewable the next time that the page is loaded for the
 user's browser.
-
-## Risk Factors
-
-TBD
 
 ## Examples
 
@@ -117,12 +112,11 @@ An old vulnerability in the IIS versions 4.0 and 5.0 allows an attacker
 to obtain system privileges through a buffer overflow failure in a
 dynamic link library (ssinc.dll). The “ssinc.dll” is used to interpreter
 process Server-Side Includes.
-[CVE 2001-0506](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0506).
+[CVE 2001-0506](https://nvd.nist.gov/vuln/detail/CVE-2001-0506).
 
 By creating a malicious page containing the SSI code bellow and forcing
-the application to load this page ([Path
-Traversal](Path_Traversal "wikilink") attack), it’s possible to perform
-this attack:
+the application to load this page ([Path Traversal](Path_Traversal) attack), 
+it’s possible to perform this attack:
 
 ssi_over.shtml
 
@@ -144,37 +138,20 @@ If the IIS return a blank page it indicates that an overflow has
 occurred. In this case, the attacker might manipulate the procedure flow
 and executes arbitrary code.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - [:Category:Command
-    Execution](:Category:Command_Execution "wikilink")
-
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Code Injection](Code_Injection "wikilink")
+- [Code Injection](Code_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:Input Validation
-    Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
+- [Input Validation Vulnerability](PHP_File_Inclusion)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation
-    Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
+- [Input Validation Vulnerability](https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs)
 
 ## References
 
-  - <http://www.comptechdoc.org/independent/web/cgi/ssimanual/ssiexamples.html>
-    - SSI Examples
-
-\[\[Category:FIXME|link not working
-
-  - <http://www.students.mines.edu/examples/> - CGI and SSI Examples
-
-\]\]
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[need content here](Category:FIXME "wikilink")
-[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
-[Category:Attack](Category:Attack "wikilink")
+- [SSI Examples](http://www.comptechdoc.org/independent/web/cgi/ssimanual/ssiexamples.html)
+- [CGI and SSI Syntax and Examples](http://httpd.apache.org/docs/current/howto/ssi.html#basic)
+- [Injection Flaws](https://owasp.org/www-community/Injection_Flaws)
