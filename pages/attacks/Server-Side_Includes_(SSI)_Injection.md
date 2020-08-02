@@ -117,7 +117,7 @@ An old vulnerability in the IIS versions 4.0 and 5.0 allows an attacker
 to obtain system privileges through a buffer overflow failure in a
 dynamic link library (ssinc.dll). The “ssinc.dll” is used to interpreter
 process Server-Side Includes.
-[CVE 2001-0506](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0506).
+[CVE 2001-0506](https://nvd.nist.gov/vuln/detail/CVE-2001-0506).
 
 By creating a malicious page containing the SSI code bellow and forcing
 the application to load this page ([Path
@@ -144,37 +144,23 @@ If the IIS return a blank page it indicates that an overflow has
 occurred. In this case, the attacker might manipulate the procedure flow
 and executes arbitrary code.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - [:Category:Command
-    Execution](:Category:Command_Execution "wikilink")
-
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Code Injection](Code_Injection "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:Input Validation
-    Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
+  - [Input Validation Vulnerability](PHP_File_Inclusion "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation
-    Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
+  - [Input Validation Vulnerability](https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs)
 
 ## References
 
   - <http://www.comptechdoc.org/independent/web/cgi/ssimanual/ssiexamples.html>
     - SSI Examples
 
-\[\[Category:FIXME|link not working
+  - <http://httpd.apache.org/docs/current/howto/ssi.html#basic> - CGI and SSI Syntax and Examples
 
-  - <http://www.students.mines.edu/examples/> - CGI and SSI Examples
-
-\]\]
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[need content here](Category:FIXME "wikilink")
-[Category:Injection](https://owasp.org/www-community/Injection_Flaws)
-[Category:Attack](Category:Attack "wikilink")
+  - [Injection Flaws](https://owasp.org/www-community/Injection_Flaws)
