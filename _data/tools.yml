@@ -1,295 +1,361 @@
-- title: Abbey Scan
-  url: https://misterscanner.com/	
-  owner: MisterScanner	
-  license: Free	
+- title: AAAA Test
+  url: https://bleh.com
+  owner: BLEH
+  license: Free
   platforms: SaaS
+  type: SAST
+- title: Abbey Scan
+  url: https://misterscanner.com/
+  owner: MisterScanner
+  license: Free
+  platforms: SaaS
+  type: DAST
 - title: Acunetix
-  url: https://www.acunetix.com/	
-  owner: Acunetix	
-  license: Commercial / Free (Limited Capability)	
+  url: https://www.acunetix.com/
+  owner: Acunetix
+  license: Commercial / Free (Limited Capability)
   platforms: Windows, Linux, MacOS
+  type: DAST
+  type: DAST
 - title: AppScan on Cloud
   url: https://cloud.appscan.com/
-  owner: HCL Software	
-  license: Commercial	
+  owner: HCL Software
+  license: Commercial
   platforms: SaaS
+  type: DAST
+  type: DAST
 - title: AppScan
   url: https://www.hcltechsw.com/products/appscan
   owner: HCL Software
-  licence: Commercial	
+  licence: Commercial
   platforms: Windows
+  type: DAST
 - title: App Scanner
   url: https://www.trustwave.com/Products/Application-Security/App-Scanner-Family/App-Scanner-Enterprise/
-  owner: Trustwave	
-  license: Commercial	
+  owner: Trustwave
+  license: Commercial
   platforms: Windows
+  type: DAST
 - title: AppSpider
   url: http://www.rapid7.com/products/appspider/
-  owner: Rapid7	
-  license: Commercial	
+  owner: Rapid7
+  license: Commercial
   platforms: Windows
+  type: DAST
 - title: AppTrana Website Security Scan
   url: https://apptrana.indusface.com/basic/
-  owner: AppTrana	
-  license: Free	
+  owner: AppTrana
+  license: Free
   platforms: SaaS
+  type: DAST
 - title: Arachni
   url: http://www.arachni-scanner.com/
-  owner: Arachni	
-  license: Free for most use cases	
+  owner: Arachni
+  license: Free for most use cases
   platforms: Most platforms supported
+  type: DAST
 - title: beSECURE (formerly AVDS)
   url: https://www.beyondsecurity.com/
-  owner: Beyond Security	
+  owner: Beyond Security
   license: Commercial / Free (Limited Capability)
   platforms: SaaS
-- title: BlueClosure BC Detect	
+  type: DAST
+- title: BlueClosure BC Detect
   url: https://www.blueclosure.com/
-  owner: BlueClosure	
-  license: Commercial, 2 weeks trial	
+  owner: BlueClosure
+  license: Commercial, 2 weeks trial
   platforms: Most platforms supported
+  type: DAST
 - title: BREACHLOCK Dynamic Application Security Testing
   url: https://www.breachlock.com/dynamic-application-security-testing/
   owner: BREACHLOCK
-  license: Commercial	
+  license: Commercial
   platforms: SaaS
-- title: Burp Suite	
+  type: DAST
+- title: Burp Suite
   url: http://www.portswigger.net/
   owner: PortSwiger
-  license: Commercial / Free (Limited Capability)	
+  license: Commercial / Free (Limited Capability)
   platforms: Most platforms supported
-- title: Contrast	
+  type: DAST
+- title: Contrast
   url: https://contrastsecurity.com/
   owner: Contrast Security
   license: Commercial / Free (Full featured for 1 App)
   platforms: SaaS or On-Premises
+  type: DAST
 - title: Crashtest Security
   url: https://crashtest-security.com
   owner: Crashtest Security
   license: Commercial
   platforms: SaaS or On-Premises
+  type: DAST
 - title: Detectify
   url: https://detectify.com/
   owner: Detectify
-  license: Commercial	
+  license: Commercial
   platforms: SaaS
+  type: DAST
 - title: Digifort- Inspect
   url: http://www.digifort.se/en/scanner
-  owner: Digifort	
-  license: Commercial	
+  owner: Digifort
+  license: Commercial
   platforms: SaaS
-- title: edgescan	
+  type: DAST
+- title: edgescan
   url: https://www.edgescan.com/
-  owner: edgescan	
-  license: Commercial	
+  owner: edgescan
+  license: Commercial
   platforms: SaaS
-- title: GamaScan	
+  type: DAST
+- title: GamaScan
   url: http://www.gamasec.com/Gamascan.aspx
-  owner: GamaSec	
-  license: Commercial	
+  owner: GamaSec
+  license: Commercial
   platforms: Windows
+  type: DAST
 - title: Grabber
   url: http://rgaucher.info/beta/grabber/
-  owner: Romain Gaucher	
-  license: Open Source	
+  owner: Romain Gaucher
+  license: Open Source
   platforms: Python 2.4, BeautifulSoup and PyXML
-- title: Gravityscan	
+  type: DAST
+- title: Gravityscan
   url: https://gravityscan.com/
-  owner: Defiant, Inc.	
-  license: Commercial / Free (Limited Capability)	
+  owner: Defiant, Inc.
+  license: Commercial / Free (Limited Capability)
   platforms: SaaS
-- title: Grendel-Scan	
+  type: DAST
+- title: Grendel-Scan
   url: http://sourceforge.net/p/grendel/code/ci/c59780bfd41bdf34cc13b27bc3ce694fd3cb7456/tree/
-  owner: David Byrne	
-  license: Open Source	
+  owner: David Byrne
+  license: Open Source
   platforms: Windows, Linux and Macintosh
-- title: GoLismero	
+  type: DAST
+- title: GoLismero
   url: http://www.golismero.com/
-  owner: GoLismero Team	
-  license: GPLv2.0	
+  owner: GoLismero Team
+  license: GPLv2.0
   platforms: Windows, Linux and Macintosh
+  type: DAST
 - title: HostedScan.com
   url: https://hostedscan.com
   owner: HostedScan.com
   license: Commercial / Free Forever
   platforms: SaaS
-- title: IKare	
+  type: DAST
+- title: IKare
   url: http://www.ikare-monitoring.com/
-  owner: ITrust	
-  license: Commercial	
+  owner: ITrust
+  license: Commercial
   platforms: N/A
-- title: ImmuniWeb	
+  type: DAST
+- title: ImmuniWeb
   url: https://www.htbridge.com/immuniweb/
-  owner: High-Tech Bridge	
-  license: Commercial / Free (Limited Capability)	
+  owner: High-Tech Bridge
+  license: Commercial / Free (Limited Capability)
   platforms: SaaS
+  type: DAST
 - title: InsightVM
   url: https://www.rapid7.com/products/insightvm/
   owner: Rapid7
-  license: Commercial with Free Trial	
+  license: Commercial with Free Trial
   platforms: SaaS
-- title: Intruder	
+  type: DAST
+- title: Intruder
   url: https://www.intruder.io/
   owner: Intruder Ltd.
   license:
-  platforms:		
-- title: Indusface Web Application Scanning	
+  platforms:
+- title: Indusface Web Application Scanning
   url: https://www.indusface.com/index.php/products/web-application-scanning
-  owner: Indusface	
-  license: Commercial / Free Trial	
+  owner: Indusface
+  license: Commercial / Free Trial
   platforms: SaaS
+  type: DAST
 - title: K2 Security Platform
   url: https://www.k2io.com/
-  owner: K2 Cyber Security	
-  license: Commercial/Free-trial	
+  owner: K2 Cyber Security
+  license: Commercial/Free-trial
   platforms: SaaS/On-Premise
-- title: N-Stealth	
+  type: DAST
+- title: N-Stealth
   url: http://www.nstalker.com/
-  owner: N-Stalker	
-  license: Commercial	
+  owner: N-Stalker
+  license: Commercial
   platforms: Windows
-- title: Nessus	
+  type: DAST
+- title: Nessus
   url: https://www.tenable.com/products/tenable-io/web-application-scanning/
-  owner: Tenable	
-  license: Commercial	
+  owner: Tenable
+  license: Commercial
   platforms: Windows
-- title: Netsparker	
+  type: DAST
+- title: Netsparker
   url: https://www.netsparker.com/
-  owner: Netsparker	
-  license: Commercial	
+  owner: Netsparker
+  license: Commercial
   platforms: Windows
-- title: Nexpose	
+  type: DAST
+- title: Nexpose
   url: http://www.rapid7.com/products/nexpose-community-edition.jsp
-  owner: Rapid7	
-  license: Commercial / Free (Limited Capability)	
+  owner: Rapid7
+  license: Commercial / Free (Limited Capability)
   platforms: Windows/Linux
-- title: Nikto	
+  type: DAST
+- title: Nikto
   url: http://www.cirt.net/nikto2
-  owner: CIRT	
-  license: Open Source	
+  owner: CIRT
+  license: Open Source
   platforms: Unix/Linux
-- title: Probely	
+  type: DAST
+- title: Probely
   url: https://probely.com/
-  owner: Probely	
-  license: Commercial / Free (Limited Capability)	
+  owner: Probely
+  license: Commercial / Free (Limited Capability)
   platforms: SaaS
-- title: Proxy.app	
+  type: DAST
+- title: Proxy.app
   url: http://www.websecurify.com/desktop/proxy.html
-  owner: Websecurify	
-  license: Commercial	
+  owner: Websecurify
+  license: Commercial
   platforms: Macintosh
-- title: QualysGuard	
+  type: DAST
+- title: QualysGuard
   url: http://www.qualys.com/products/qg_suite/was/
-  owner: Qualys	
-  license: Commercial	
+  owner: Qualys
+  license: Commercial
   platforms: N/A
-- title: Retina	
+  type: DAST
+- title: Retina
   url: http://www.beyondtrust.com/Products/RetinaNetworkSecurityScanner/
-  owner: BeyondTrust	
-  license: Commercial	
+  owner: BeyondTrust
+  license: Commercial
   platforms: Windows
+  type: DAST
 - title: Ride (REST JSON Payload fuzzer)
   url: https://github.com/adobe/ride/blob/develop/Usage.md#the-fuzz
   owner: Adobe, Inc.
   license: Apache 2 / Free 
   platforms: Linux / Mac / Windows
-- title: Securus	
+  type: DAST
+- title: Securus
   url: http://www.orvant.com/
-  owner: Orvant, Inc	
-  license: Commercial	
+  owner: Orvant, Inc
+  license: Commercial
   platforms: N/A
-- title: Sentinel	
+  type: DAST
+- title: Sentinel
   url: http://www.whitehatsec.com/home/services/services.html
-  owner: WhiteHat Security	
-  license: Commercial	
+  owner: WhiteHat Security
+  license: Commercial
   platforms: N/A
-- title: SOATest	
+  type: DAST
+- title: SOATest
   url: http://www.parasoft.com/products/article.jsp?articleId=3169&redname=webtesting&referred=webtesting
-  owner: Parasoft	
-  license: Commercial	
+  owner: Parasoft
+  license: Commercial
   platforms: Windows / Linux / Solaris
+  type: DAST
 - title: StackHawk
   owner: StackHawk
   license: Commercial
   platforms: SaaS
+  type: DAST
   url: https://tracking.cirrusinsight.com/eb139e6b-559b-406a-ab36-45350ac53d0d/stackhawk-com
-- title: Tinfoil Security	
+- title: Tinfoil Security
   url: https://www.tinfoilsecurity.com/
-  owner: Tinfoil Security, Inc.	
-  license: Commercial / Free (Limited Capability)	
+  owner: Tinfoil Security, Inc.
+  license: Commercial / Free (Limited Capability)
   platforms: SaaS or On-Premises
+  type: DAST
 - title: Trustkeeper Scanner
   url: https://www.trustwave.com/external-vulnerability-scanning.php
-  owner: Trustwave SpiderLabs	
-  license: Commercial	
+  owner: Trustwave SpiderLabs
+  license: Commercial
   platforms: SaaS
-- title: Vega	
+  type: DAST
+- title: Vega
   url: https://subgraph.com/vega/
-  owner: Subgraph	
-  license: Open Source	
+  owner: Subgraph
+  license: Open Source
   platforms: Windows, Linux and Macintosh
-- title: Vex	
+  type: DAST
+- title: Vex
   url: https://www.ubsecure.jp/en/about_ubsecure
-  owner: UBsecure	
-  license: Commercial	
+  owner: UBsecure
+  license: Commercial
   platforms: Windows
-- title: Wapiti	 
+  type: DAST
+- title: Wapiti 
   url:
-  owner: Informática Gesfor	
-  license: Open Source	
+  owner: Informática Gesfor
+  license: Open Source
   platforms: Windows, Unix/Linux and Macintosh
-- title: Web Security Scanner	
+  type: DAST
+- title: Web Security Scanner
   url: https://www.defensecode.com/webscanner.php
-  owner: DefenseCode	
-  license: Commercial	
+  owner: DefenseCode
+  license: Commercial
   platforms: On-Premises
-- title: WebApp360	
+  type: DAST
+- title: WebApp360
   url: http://www.tripwire.com/it-security-software/enterprise-vulnerability-management/web-application-vulnerability-scanning/
-  owner: TripWire	
-  license: Commercial	
+  owner: TripWire
+  license: Commercial
   platforms: Windows
-- title: WebCookies	
+  type: DAST
+- title: WebCookies
   url: https://webcookies.org/
-  owner: WebCookies	
-  license: Free	
+  owner: WebCookies
+  license: Free
   platforms: SaaS
-- title: WebInspect	
+  type: DAST
+- title: WebInspect
   url: https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast
-  owner: Micro Focus	
-  license: Commercial	
+  owner: Micro Focus
+  license: Commercial
   platforms: Windows
-- title: WebReaver	
+  type: DAST
+- title: WebReaver
   url: http://www.websecurify.com/desktop/webreaver.html
-  owner: Websecurify	
-  license: Commercial	
+  owner: Websecurify
+  license: Commercial
   platforms: Macintosh
-- title: WebScanService	
+  type: DAST
+- title: WebScanService
   url: http://www.german-websecurity.com/en/products/webscanservice/product-details/overview/
-  owner: German Web Security	
-  license: Commercial	
+  owner: German Web Security
+  license: Commercial
   platforms: N/A
-- title: Websecurify Suite	
+  type: DAST
+- title: Websecurify Suite
   url: https://suite.websecurify.com/
-  owner: Websecurify	
-  license: Commercial / Free (Limited Capability)	
+  owner: Websecurify
+  license: Commercial / Free (Limited Capability)
   platforms: Windows, Linux, Macintosh
-- title: Wikto	
+  type: DAST
+- title: Wikto
   url: http://www.sensepost.com/research/wikto/
-  owner: Sensepost	
-  license: Open Source	
+  owner: Sensepost
+  license: Open Source
   platforms: Windows
-- title: w3af	
+  type: DAST
+- title: w3af
   url: http://www.w3af.org/
-  owner: w3af.org	
-  license: GPLv2.0	
+  owner: w3af.org
+  license: GPLv2.0
   platforms: Linux and Mac
-- title: WPScan	
+  type: DAST
+- title: WPScan
   url: https://wpscan.org/
   owner: WPScan Team
   license: Commercial / Free
   platforms: Linux and Mac
-- title: Zed Attack Proxy	
+  type: DAST
+- title: Zed Attack Proxy
   url: https://owasp.org/www-project-zap
-  owner: OWASP	
-  license: Apache-2.0	
+  owner: OWASP
+  license: Apache-2.0
   platforms: Windows, Unix/Linux, and Macintosh
+  type: DAST
