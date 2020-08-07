@@ -5,4 +5,5 @@
     - Owner: {{ tool.owner }}
     - License: {{ tool.license }}
     - Platforms: {{ tool.platforms }}
+    - Note: {{ tool.note }}
 {% endfor %}

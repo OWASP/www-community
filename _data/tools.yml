@@ -3,158 +3,182 @@
   owner: MisterScanner
   license: Free
   platforms: SaaS
+  note:
   type: DAST
 - title: Acunetix
   url: https://www.acunetix.com/
   owner: Acunetix
   license: Commercial / Free (Limited Capability)
   platforms: Windows, Linux, MacOS
-  type: DAST
+  note:
   type: DAST
 - title: AppScan on Cloud
   url: https://cloud.appscan.com/
   owner: HCL Software
   license: Commercial
   platforms: SaaS
-  type: DAST
+  note:
   type: DAST
 - title: AppScan
   url: https://www.hcltechsw.com/products/appscan
   owner: HCL Software
-  licence: Commercial
+  license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: App Scanner
   url: https://www.trustwave.com/Products/Application-Security/App-Scanner-Family/App-Scanner-Enterprise/
   owner: Trustwave
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: AppSpider
   url: http://www.rapid7.com/products/appspider/
   owner: Rapid7
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: AppTrana Website Security Scan
   url: https://apptrana.indusface.com/basic/
   owner: AppTrana
   license: Free
   platforms: SaaS
+  note:
   type: DAST
 - title: Arachni
   url: http://www.arachni-scanner.com/
   owner: Arachni
   license: Free for most use cases
   platforms: Most platforms supported
+  note:
   type: DAST
 - title: beSECURE (formerly AVDS)
   url: https://www.beyondsecurity.com/
   owner: Beyond Security
   license: Commercial / Free (Limited Capability)
   platforms: SaaS
+  note:
   type: DAST
 - title: BlueClosure BC Detect
   url: https://www.blueclosure.com/
   owner: BlueClosure
   license: Commercial, 2 weeks trial
   platforms: Most platforms supported
+  note:
   type: DAST
 - title: BREACHLOCK Dynamic Application Security Testing
   url: https://www.breachlock.com/dynamic-application-security-testing/
   owner: BREACHLOCK
   license: Commercial
   platforms: SaaS
+  note:
   type: DAST
 - title: Burp Suite
   url: http://www.portswigger.net/
   owner: PortSwiger
   license: Commercial / Free (Limited Capability)
   platforms: Most platforms supported
+  note:
   type: DAST
 - title: Contrast
   url: https://contrastsecurity.com/
   owner: Contrast Security
   license: Commercial / Free (Full featured for 1 App)
   platforms: SaaS or On-Premises
+  note:
   type: DAST
 - title: Crashtest Security
   url: https://crashtest-security.com
   owner: Crashtest Security
   license: Commercial
   platforms: SaaS or On-Premises
+  note:
   type: DAST
 - title: Detectify
   url: https://detectify.com/
   owner: Detectify
   license: Commercial
   platforms: SaaS
+  note:
   type: DAST
 - title: Digifort- Inspect
   url: http://www.digifort.se/en/scanner
   owner: Digifort
   license: Commercial
   platforms: SaaS
+  note:
   type: DAST
 - title: edgescan
   url: https://www.edgescan.com/
   owner: edgescan
   license: Commercial
   platforms: SaaS
+  note:
   type: DAST
 - title: GamaScan
   url: http://www.gamasec.com/Gamascan.aspx
   owner: GamaSec
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: Grabber
   url: http://rgaucher.info/beta/grabber/
   owner: Romain Gaucher
   license: Open Source
   platforms: Python 2.4, BeautifulSoup and PyXML
+  note:
   type: DAST
 - title: Gravityscan
   url: https://gravityscan.com/
   owner: Defiant, Inc.
   license: Commercial / Free (Limited Capability)
   platforms: SaaS
+  note:
   type: DAST
 - title: Grendel-Scan
   url: http://sourceforge.net/p/grendel/code/ci/c59780bfd41bdf34cc13b27bc3ce694fd3cb7456/tree/
   owner: David Byrne
   license: Open Source
   platforms: Windows, Linux and Macintosh
+  note:
   type: DAST
 - title: GoLismero
   url: http://www.golismero.com/
   owner: GoLismero Team
   license: GPLv2.0
   platforms: Windows, Linux and Macintosh
+  note:
   type: DAST
 - title: HostedScan.com
   url: https://hostedscan.com
   owner: HostedScan.com
   license: Commercial / Free Forever
   platforms: SaaS
+  note:
   type: DAST
 - title: IKare
   url: http://www.ikare-monitoring.com/
   owner: ITrust
   license: Commercial
   platforms: N/A
+  note:
   type: DAST
 - title: ImmuniWeb
   url: https://www.htbridge.com/immuniweb/
   owner: High-Tech Bridge
   license: Commercial / Free (Limited Capability)
   platforms: SaaS
+  note:
   type: DAST
 - title: InsightVM
   url: https://www.rapid7.com/products/insightvm/
   owner: Rapid7
   license: Commercial with Free Trial
   platforms: SaaS
+  note:
   type: DAST
 - title: Intruder
   url: https://www.intruder.io/
@@ -166,95 +190,111 @@
   owner: Indusface
   license: Commercial / Free Trial
   platforms: SaaS
+  note:
   type: DAST
 - title: K2 Security Platform
   url: https://www.k2io.com/
   owner: K2 Cyber Security
   license: Commercial/Free-trial
   platforms: SaaS/On-Premise
+  note:
   type: DAST
 - title: N-Stealth
   url: http://www.nstalker.com/
   owner: N-Stalker
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: Nessus
   url: https://www.tenable.com/products/tenable-io/web-application-scanning/
   owner: Tenable
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: Netsparker
   url: https://www.netsparker.com/
   owner: Netsparker
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: Nexpose
   url: http://www.rapid7.com/products/nexpose-community-edition.jsp
   owner: Rapid7
   license: Commercial / Free (Limited Capability)
   platforms: Windows/Linux
+  note:
   type: DAST
 - title: Nikto
   url: http://www.cirt.net/nikto2
   owner: CIRT
   license: Open Source
   platforms: Unix/Linux
+  note:
   type: DAST
 - title: Probely
   url: https://probely.com/
   owner: Probely
   license: Commercial / Free (Limited Capability)
   platforms: SaaS
+  note:
   type: DAST
 - title: Proxy.app
   url: http://www.websecurify.com/desktop/proxy.html
   owner: Websecurify
   license: Commercial
   platforms: Macintosh
+  note:
   type: DAST
 - title: QualysGuard
   url: http://www.qualys.com/products/qg_suite/was/
   owner: Qualys
   license: Commercial
   platforms: N/A
+  note:
   type: DAST
 - title: Retina
   url: http://www.beyondtrust.com/Products/RetinaNetworkSecurityScanner/
   owner: BeyondTrust
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: Ride (REST JSON Payload fuzzer)
   url: https://github.com/adobe/ride/blob/develop/Usage.md#the-fuzz
   owner: Adobe, Inc.
   license: Apache 2 / Free 
   platforms: Linux / Mac / Windows
+  note:
   type: DAST
 - title: Securus
   url: http://www.orvant.com/
   owner: Orvant, Inc
   license: Commercial
   platforms: N/A
+  note:
   type: DAST
 - title: Sentinel
   url: http://www.whitehatsec.com/home/services/services.html
   owner: WhiteHat Security
   license: Commercial
   platforms: N/A
+  note:
   type: DAST
 - title: SOATest
   url: http://www.parasoft.com/products/article.jsp?articleId=3169&redname=webtesting&referred=webtesting
   owner: Parasoft
   license: Commercial
   platforms: Windows / Linux / Solaris
+  note:
   type: DAST
 - title: StackHawk
   owner: StackHawk
   license: Commercial
   platforms: SaaS
+  note:
   type: DAST
   url: https://tracking.cirrusinsight.com/eb139e6b-559b-406a-ab36-45350ac53d0d/stackhawk-com
 - title: Tinfoil Security
@@ -262,90 +302,105 @@
   owner: Tinfoil Security, Inc.
   license: Commercial / Free (Limited Capability)
   platforms: SaaS or On-Premises
+  note:
   type: DAST
 - title: Trustkeeper Scanner
   url: https://www.trustwave.com/external-vulnerability-scanning.php
   owner: Trustwave SpiderLabs
   license: Commercial
   platforms: SaaS
+  note:
   type: DAST
 - title: Vega
   url: https://subgraph.com/vega/
   owner: Subgraph
   license: Open Source
   platforms: Windows, Linux and Macintosh
+  note:
   type: DAST
 - title: Vex
   url: https://www.ubsecure.jp/en/about_ubsecure
   owner: UBsecure
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: Wapiti 
   url:
   owner: Informática Gesfor
   license: Open Source
   platforms: Windows, Unix/Linux and Macintosh
+  note:
   type: DAST
 - title: Web Security Scanner
   url: https://www.defensecode.com/webscanner.php
   owner: DefenseCode
   license: Commercial
   platforms: On-Premises
+  note:
   type: DAST
 - title: WebApp360
   url: http://www.tripwire.com/it-security-software/enterprise-vulnerability-management/web-application-vulnerability-scanning/
   owner: TripWire
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: WebCookies
   url: https://webcookies.org/
   owner: WebCookies
   license: Free
   platforms: SaaS
+  note:
   type: DAST
 - title: WebInspect
   url: https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast
   owner: Micro Focus
   license: Commercial
   platforms: Windows
+  note:
   type: DAST
 - title: WebReaver
   url: http://www.websecurify.com/desktop/webreaver.html
   owner: Websecurify
   license: Commercial
   platforms: Macintosh
+  note:
   type: DAST
 - title: WebScanService
   url: http://www.german-websecurity.com/en/products/webscanservice/product-details/overview/
   owner: German Web Security
   license: Commercial
   platforms: N/A
+  note:
   type: DAST
 - title: Websecurify Suite
   url: https://suite.websecurify.com/
   owner: Websecurify
   license: Commercial / Free (Limited Capability)
   platforms: Windows, Linux, Macintosh
+  note:
   type: DAST
 - title: Wikto
   url: http://www.sensepost.com/research/wikto/
   owner: Sensepost
   license: Open Source
   platforms: Windows
+  note:
   type: DAST
 - title: w3af
   url: http://www.w3af.org/
   owner: w3af.org
   license: GPLv2.0
   platforms: Linux and Mac
+  note:
   type: DAST
 - title: WPScan
   url: https://wpscan.org/
   owner: WPScan Team
   license: Commercial / Free
   platforms: Linux and Mac
+  note:
   type: DAST
 - title: Zed Attack Proxy
   url: https://owasp.org/www-project-zap
@@ -353,3 +408,454 @@
   license: Apache-2.0
   platforms: Windows, Unix/Linux, and Macintosh
   type: DAST
+- title: APIsecurity.io Security Audit
+  url: https://apisecurity.io/tools/audit/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: online tool for OpenAPI / Swagger file static security analysis
+  type: SAST
+- title: Bandit
+  url: https://github.com/PyCQA/bandit
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Bandit is a comprehensive source vulnerability scanner for Python
+  type: SAST
+- title: Brakeman
+  url: https://brakemanscanner.org/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Brakeman is an open source vulnerability scanner specifically designed for Ruby on Rails applications
+  type: SAST
+- title: Dawnscanner
+  url: https://rubygems.org/gems/dawnscanner
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Dawnscanner is an open source security source code analyzer for Ruby, supporting major MVC frameworks like Ruby on Rails, Padrino, and Sinatra. It also works on non-web applications written in Ruby.
+  type: SAST
+- title: Deep Dive
+  url: https://discotek.ca/deepdive.xhtml
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Byte code analysis tool for discovering vulnerabilities in Java deployments (EAR, WAR, JAR).
+  type: SAST
+- title: FindBugs
+  url: https://github.com/findbugsproject/findbugs
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Find bugs (including a few security flaws) in Java programs [Legacy - NOT  Maintained - Use SpotBugs (see other entry) instead]
+  type: SAST
+- title: FindSecBugs
+  url: https://find-sec-bugs.github.io/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: A security specific plugin for SpotBugs that significantly improves SpotBugs's ability to find security vulnerabilities in Java programs. Works with the old FindBugs too.
+  type: SAST
+- title: Flawfinder
+  url: http://www.dwheeler.com/flawfinder/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Scans C and C++.
+  type: SAST
+- title: GolangCI-Lint
+  url: https://golangci-lint.run/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: A Go Linters aggregator - One of the Linters is [gosec (Go Security)](https://github.com/securego/gosec), which is off by default but can easily be enabled.
+  type: SAST
+- title: Google CodeSearchDiggity
+  url: https://www.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note:  Uses Google Code Search to identify vulnerabilities in open source code projects hosted by Google Code, MS CodePlex, SourceForge, Github, and more. The tool comes with over 130 default searches that identify SQL injection, cross-site scripting (XSS), insecure remote and local file includes, hard-coded passwords, and much more.  *Essentially, Google CodeSearchDiggity provides a source code security analysis of nearly every single open source code project in existence – simultaneously.*
+  type: SAST
+- title: Graudit
+  url: https://github.com/wireghoul/graudit/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Scans multiple languages for various security flaws. Basically security enhanced code Grep.
+  type: SAST
+- title: HCL AppScan CodeSweep
+  url: https://hclsw.co/codesweep
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: This is the first Community edition version of AppScan. It is delivered as a VS Code plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more.
+  type: SAST
+- title: HuskyCI
+  url: https://huskyci.opensource.globo.com/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: HuskyCI is an open-source tool that orchestrates security tests inside CI pipelines of multiple projects and centralizes all results into a database for further analysis and metrics. HuskyCI can perform static security analysis in Python (Bandit and Safety), Ruby (Brakeman), JavaScript (Npm Audit and Yarn Audit), Golang (Gosec), and Java(SpotBugs plus Find Sec Bugs)
+  type: SAST
+- title: Insider CLI
+  url: https://github.com/insidersec/insider
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: A open source Static Application Security Testing tool (SAST) written in GoLang for Java Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C#, and Javascript (Node.js).
+  type: SAST
+- title: LGTM
+  url: https://lgtm.com/help/lgtm/about-lgtm
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: A free for open source static analysis service that automatically monitors commits to publicly accessible code in Bitbucket Cloud, GitHub, or GitLab. Supports C/C++, C\#, Go, Java, JavaScript/TypeScript, Python.
+  type: SAST
+- title: MobSF
+  url: https://mobsf.github.io/Mobile-Security-Framework-MobSF/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
+  type: SAST
+- title: nodejsscan
+  url: https://github.com/ajinabraham/nodejsscan
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: nodejsscan is a semantic aware static security code analyzer for Node.js applications.
+  type: SAST
+- title: phpcs-security-audit
+  url: https://github.com/FloeDesignTechnologies/phpcs-security-audit
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: A set of PHP_CodeSniffer rules to finds flaws or weaknesses related to security in PHP and its popular CMS or frameworks. It currently has core PHP rules as well as Drupal 7 specific rules.
+  type: SAST
+- title: PMD
+  url: https://pmd.github.io/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: PMD scans Java source code and looks for potential code problems (this is a code quality tool that does not focus on security issues).
+  type: SAST
+- title: PreFast
+  url: https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ms933794(v=msdn.10)?redirectedfrom=MSDN
+  owner: Microsoft
+  license: Open Source or Free
+  platforms:
+  note: PREfast is a static analysis tool that identifies defects in C/C++ programs. Last update 2006.
+  type: SAST
+- title: Progpilot
+  url: https://github.com/designsecurity/progpilot
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Progpilot is a static analyzer tool for PHP that detects security vulnerabilities such as XSS and SQL Injection.
+  type: SAST
+- title: Pyre
+  url: https://pyre-check.org/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: A performant type-checker for Python 3, that also has [limited security/data flow analysis](https://pyre-check.org/docs/pysa-basics.html) capabilities.
+  type: SAST
+- title: RIPS
+  url: http://rips-scanner.sourceforge.net/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: A static source code analyzer for vulnerabilities in PHP web applications.
+  type: SAST
+- title: Security Code Scan
+  url: https://security-code-scan.github.io/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Static code analyzer for .NET. It will find SQL injections, LDAP injections, XXE, cryptography weakness, XSS and more.
+  type: SAST
+- title: Semgrep
+  url: https://github.com/returntocorp/semgrep
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Like Grep, for code. A lightweight static analysis tool with intuitive rule syntax for searching code. Scans source code. No compilation required. Supports Python, JavaScript, Go, Java, C.
+  type: SAST
+- title: ShiftLeft Scan
+  url: https://github.com/ShiftLeftSecurity/sast-scan
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: A free open-source DevSecOps platform for detecting security issues in source ode and dependencies. It supports a broad range of languages and CI/CD pipelines by bundling various open source scanners into the pipeline.
+  type: SAST
+- title: Sink Tank
+  url: https://discotek.ca/sinktank.xhtml
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Java byte code static code analyzer for performing source/sink (taint) analysis.
+  type: SAST
+- title: SonarQube
+  url: https://www.sonarqube.org/downloads/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Scans source code for 15 languages for Bugs, Vulnerabilities, and Code Smells. SonarQube IDE plugins for Eclipse, Visual Studio, and IntelliJ provided by [SonarLint](https://www.sonarlint.org/).
+  type: SAST
+- title: SpotBugs
+  url: https://spotbugs.github.io/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: This is the active fork replacement for FindBugs, which is not maintained anymore. Very little security. FindSecBugs plugin provides security rules.
+  type: SAST
+- title: VisualCodeGrepper (VCG)
+  url: https://sourceforge.net/projects/visualcodegrepp/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Scans C/C++, C\#, VB, PHP, Java, PL/SQL, and COBOL for security issues and for comments which may indicate defective code. The config files can be used to carry out additional checks for banned functions or functions which commonly cause security issues.
+  type: SAST
+- title: VS Code OpenAPI (Swagger) Editor extension
+  url: https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Plugin to Microsoft Visual Studio Code that enables rich editing capabilities   for REST API contracts and also includes linting and Security Audit (static security analysis).
+  type: SAST
+- title: 42Crunch
+  url: https://42crunch.com
+  owner:
+  license: Commercial
+  platforms:
+  note: REST API security platform that includes Security Audit (SAST), dynamic conformance scan, runtime protection, and monitoring.
+  type: SAST
+- title: Application Inspector
+  url: https://www.ptsecurity.com/ww-en/products/ai/
+  owner: Positive Technologies
+  license: Commercial
+  platforms:
+  note: 'combines SAST, DAST, IAST, SCA, configuration analysis and other technologies, incl. unique abstract interpretation; has capability to generate test queries (exploits) to verify detected vulnerabilities during SAST analysis; Supported languages include: Java, C\#, PHP, JavaScript, Objective C, VB.Net, PL/SQL, T-SQL, and others.'
+  type: SAST
+- title: AppScan on Cloud
+  url: https://cloud.appscan.com/
+  owner: HCL Software
+  license: Commercial
+  platforms:
+  note: Cloud-based application security testing suite to perform SAST, DAST, IAST & SCA on web and mobile application.
+  type: SAST
+- title: AppScan Source
+  url: https://www.hcltechsw.com/wps/portal/products/appscan/offerings/source
+  owner: HCL Software
+  license: Commercial
+  platforms:
+  note: Static application security testing solution that helps identify vulnerabilities early in the development lifecycle, understand their origin and potential impact and remediate the problem.
+  type: SAST
+- title: Beyond Security beSOURCE
+  url: https://beyondsecurity.com/solutions/besource.html
+  owner: Beyond Security
+  license: Commercial
+  platforms:
+  note: Static application security testing (SAST) used to be divorced from Code quality reviews, resulting in limited impact and value. beSOURCE addresses the code security quality of applications and thus integrates SecOps into DevOps.
+  type: SAST
+- title: BlueClosure BC Detect
+  url: https://www.blueclosure.com
+  owner: BlueClosure
+  license: Commercial
+  platforms:
+  note: Analyzes client-side JavaScript.
+  type: SAST
+- title: bugScout
+  url: https://bugscout.io/en/
+  owner: Nalbatech, Formerly Buguroo
+  license: Commercial
+  platforms:
+  note:
+- title: CAST AIP
+  url: https://www.castsoftware.com/products/application-intelligence-platform
+  owner:
+  license: Commercial
+  platforms:
+  note: Performs static and architectural analysis to identify numerous types of security issues. Supports over 30 languages. [AIP's security specific coverage is here](https://www.castsoftware.com/solutions/application-security/cwe#SupportedSecurityStandards).
+  type: SAST
+- title: Codacy
+  url: https://www.codacy.com/
+  owner:
+  license: Commercial
+  platforms:
+  note: Offers security patterns for languages such as Python, Ruby, Scala, Java, JavaScript and more. Integrates with tools such as Brakeman, Bandit, FindBugs, and others. (free for open source projects)
+  type: SAST
+- title: CodeScan Cloud
+  url: https://www.codescan.io/
+  owner:
+  license: Commercial
+  platforms:
+  note: A Salesforce focused, SaaS code quality tool leveraging SonarQube's OWASP  security hotspots to give security visibility on Apex, Visualforce, and Lightning proprietary languages.
+  type: SAST
+- title: CodeSonar
+  url: https://www.grammatech.com/products/codesonar
+  owner:
+  license: Commercial
+  platforms:
+  note: tool that supports C, C++, Java and C\# and maps against the OWASP top 10 vulnerabilities.
+  type: SAST
+- title: Contrast Assess
+  url: https://www.contrastsecurity.com/interactive-application-security-testing-iast
+  owner:
+  license: Commercial
+  platforms:
+  note: Contrast performs code security without actually doing static analysis. Contrast does Interactive Application Security Testing (IAST), correlating runtime code & data analysis. It provides code level results without actually relying on static analysis.
+  type: SAST
+- title: Coverity Static Analysis
+  url: https://www.synopsys.com/content/dam/synopsys/sig-assets/datasheets/SAST-Coverity-datasheet.pdf
+  owner: Synopsys
+  license: Commercial
+  platforms:
+  note:
+- title: CxSAST
+  url: https://www.checkmarx.com/technology/static-code-analysis-sca/
+  owner: Checkmarx
+  license: Commercial
+  platforms:
+  note:
+- title: DerScanner
+  url: https://derscanner.com/
+  owner: DerScanner Ltd.
+  license: Commercial
+  platforms:
+  note: Capable of identifying vulnerabilities and backdoors (undocumented features) in over 30 programming languages by analyzing source code or executables, without requiring debug info.
+  type: SAST
+- title: ECG
+  url: https://ecg.voidsec.com/
+  owner: VoidSec
+  license: Commercial
+  platforms:
+  note: SaaS TCL Static Source Code Analysis Tool able to detect real and complex security vulnerabilities in TCL/ADP source-code. Discovered vulnerabilities will be mapped against the OWASP top 10 vulnerabilities.
+  type: SAST
+- title: Fortify
+  url: https://www.microfocus.com/en-us/products/static-code-analysis-sast
+  owner: Micro Focus, Formerly HP
+  license: Commercial
+  platforms:
+  note:
+- title: Hdiv Detection
+  url: https://hdivsecurity.com/interactive-application-security-testing-iast
+  owner: Hdiv Security
+  license: Commercial
+  platforms:
+  note: Hdiv performs code security without actually doing static analysis. Hdiv does Interactive Application Security Testing (IAST), correlating runtime code & data analysis. It provides code-level results without actually relying on static analysis.
+  type: SAST
+- title: Julia
+  url: https://juliasoft.com/solutions
+  owner: JuliaSoft
+  license: Commercial
+  platforms:
+  note: SaaS Java static analysis
+  type: SAST
+- title: Klocwork
+  url: https://www.perforce.com/products/klocwork
+  owner: Perforce
+  license: Commercial
+  platforms:
+  note: Static Code Analysis for C, C++, C#, and Java
+  type: SAST
+- title: Kiuwan
+  url: https://www.kiuwan.com/
+  owner: a division of Idera, Inc.
+  license: Commercial
+  platforms:
+  note: provides an application security  testing and analytics platform –    including SAST and SCA solutions – that reduces risk and  improves change management and DevOps processes
+  type: SAST
+- title: Parasoft Test
+  url: https://www.parasoft.com/products
+  owner: Parasoft
+  license: Commercial
+  platforms:
+  note: Test tools for C/C++, .NET, Java
+  type: SAST
+- title: PITSS.CON
+  url: https://pitss.com/products/pitss-con/
+  owner: PITTS
+  license: Commercial
+  platforms:
+  note:  Scans Oracle Forms and Reports Applications
+  type: SAST
+- title: PT Application Inspector
+  url: https://www.ptsecurity.com/ww-en/products/ai/
+  owner: Positive Technologies
+  license: Commercial
+  platforms:
+  note: Combines SAST, DAST, IAST, SCA, configuration analysis and other technologies for high accuracy. Can generate special test queries (exploits) to verify detected vulnerabilities during SAST analysis. Supports Java, C\#, PHP,  JavaScript, Objective C, VB.Net, PL/SQL, T-SQL, and others.
+  type: SAST
+- title: Puma Scan
+  url: https://pumascanpro.com/
+  owner: Puma Security
+  license: Commercial
+  platforms:
+  note: A .NET C\# static source code analyzer that runs as a Visual Studio IDE extension, Azure DevOps extension, and Command Line (CLI) executable.
+  type: SAST
+- title: PVS-Studio Analyzer
+  url: https://www.viva64.com/en/pvs-studio/
+  owner: PVS-Studio
+  license: Commercial
+  platforms:
+  note: Static code security analysis for C, C++, C#, and Java. A commercial B2B solution,  but provides several free [licensing options](https://www.viva64.com/en/b/0614/).
+  type: SAST
+- title: reshift
+  url: https://www.reshiftsecurity.com
+  owner:
+  license: Commercial
+  platforms:
+  note: A CI/CD  static code security analysis tool for Java that uses machine learning to give a prediction on false positives.
+  type: SAST
+- title: RIPS Code Analysis
+  url: https://www.ripstech.com/
+  owner: RIPS Technologies - Acquired by SonarSource
+  license: Commercial
+  platforms:
+  note: Static security analyzer for Java and PHP.
+  type: SAST
+- title: SecureAssist
+  url: https://community.synopsys.com/s/article/SecureAssist-Overview
+  owner: Synopsys
+  license: Commercial
+  platforms:
+  note: Scans code for insecure coding and configurations automatically as an IDE plugin for Eclipse, IntelliJ, and Visual Studio, etc. Supports Java, .NET, PHP, and JavaScript.
+  type: SAST
+- title: Sentinel Source
+  url: https://www.whitehatsec.com/products/static-application-security-testing/
+  owner: Whitehat
+  license: Commercial
+  platforms:
+  note: Static security analysis for 10+ languages.
+  type: SAST
+- title: Seeker
+  url: https://www.synopsys.com/software-integrity/security-testing/interactive-application-security-testing.html
+  owner: Synopsys
+  license: Commercial
+  platforms:
+  note: Seeker performs code security without actually doing static analysis. Seeker does Interactive Application Security Testing (IAST), correlating runtime code & data analysis with simulated attacks. It provides code level results without actually relying on static analysis.
+  type: SAST
+- title: Thunderscan SAST
+  url: https://www.defensecode.com/thunderscan-sast/
+  owner: DefenseCode
+  license: Commercial
+  platforms:
+  note: Static security analysis for 27+ languages.
+  type: SAST
+- title: Veracode Static Analysis
+  url: https://www.veracode.com/products/binary-static-analysis-sast
+  owner: Veracode
+  license: Commercial
+  platforms:
+  note:
+- title: Xanitizer
+  url: https://www.xanitizer.com/xanitizer/
+  owner:
+  license: Commercial
+  platforms:
+  note: Scans Java, Scala, and JavaScript/TypeScript for security vulnerabilities, mainly via taint analysis.
+  type: SAST
+  
