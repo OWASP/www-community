@@ -520,13 +520,6 @@
   platforms:
   note: Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
   type: SAST
-- title: nodejsscan
-  url: https://github.com/ajinabraham/nodejsscan
-  owner:
-  license: Open Source or Free
-  platforms:
-  note: nodejsscan is a semantic aware static security code analyzer for Node.js applications.
-  type: SAST
 - title: phpcs-security-audit
   url: https://github.com/FloeDesignTechnologies/phpcs-security-audit
   owner:
@@ -603,13 +596,6 @@
   license: Open Source or Free
   platforms:
   note: Scans source code for 15 languages for Bugs, Vulnerabilities, and Code Smells. SonarQube IDE plugins for Eclipse, Visual Studio, and IntelliJ provided by [SonarLint](https://www.sonarlint.org/).
-  type: SAST
-- title: SpotBugs
-  url: https://spotbugs.github.io/
-  owner:
-  license: Open Source or Free
-  platforms:
-  note: This is the active fork replacement for FindBugs, which is not maintained anymore. Very little security. FindSecBugs plugin provides security rules.
   type: SAST
 - title: VisualCodeGrepper (VCG)
   url: https://sourceforge.net/projects/visualcodegrepp/
@@ -734,12 +720,6 @@
   platforms:
   note: SaaS TCL Static Source Code Analysis Tool able to detect real and complex security vulnerabilities in TCL/ADP source-code. Discovered vulnerabilities will be mapped against the OWASP top 10 vulnerabilities.
   type: SAST
-- title: Fortify
-  url: https://www.microfocus.com/en-us/products/static-code-analysis-sast
-  owner: Micro Focus, Formerly HP
-  license: Commercial
-  platforms:
-  note:
 - title: Hdiv Detection
   url: https://hdivsecurity.com/interactive-application-security-testing-iast
   owner: Hdiv Security
@@ -854,8 +834,224 @@
 - title: Xanitizer
   url: https://www.xanitizer.com/xanitizer/
   owner:
-  license: Commercial
+  license: Commercial, Open Source or Free
   platforms:
-  note: Scans Java, Scala, and JavaScript/TypeScript for security vulnerabilities, mainly via taint analysis.
+  note: 'Scans Java, Scala, and JavaScript/TypeScript for security vulnerabilities, mainly via taint analysis. (http://www.xanitizer.net)'
   type: SAST
-  
+- title: OWASP Code Crawler
+  url: https://wiki.owasp.org/index.php/Category:OWASP_Code_Crawler
+  owner: OWASP
+  license: Open Source
+  platforms:
+  note: .NET, Java
+  type: SAST
+- title: OWASP Orizon Project
+  url: https://wiki.owasp.org/index.php/Category:OWASP_Orizon_Project
+  owner: OWASP
+  license: Open Source
+  platforms:
+  note: Java
+  type: SAST
+- title: OWASP LAPSE Project
+  url: https://wiki.owasp.org/index.php/OWASP_LAPSE_Project
+  owner: OWASP
+  license: Open Source
+  platforms:
+  note: Java
+  type: SAST
+- title: 'OWASP WAP (Web Application Protection)'
+  url: https://wiki.owasp.org/index.php/OWASP_WAP-Web_Application_Protection
+  owner: OWASP
+  license: Open Source
+  platforms:
+  note: PHP
+  type: SAST
+- title: Agnitio
+  url: https://sourceforge.net/projects/agnitiotool/
+  owner:
+  license: Open Source or Free
+  platforms: Windows
+  note: ASP, ASP.NET, C\#, Java, Javascript, Perl, PHP, Python, Ruby, VB.NET, XML
+  type: SAST
+- title: DevBug
+  url: http://www.devbug.co.uk
+  owner:
+  license: Open Source or Free
+  platforms: Web Based
+  note: PHP
+  type: SAST
+- title: SpotBugs
+  url: https://spotbugs.github.io/
+  owner:
+  license: Open Source or Free
+  platforms: 
+  note: Java. This is the active fork replacement for FindBugs, which is not maintained anymore. Very little security. FindSecBugs plugin provides security rules.
+  type: SAST
+- title: Find Security Bugs
+  url: https://find-sec-bugs.github.io/
+  owner:
+  license: Open Source or Free
+  platforms: 
+  note: Java, Scala, Groovy
+  type: SAST
+- title: Microsoft FxCop
+  url: https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-3.0/bb429476%28v=vs.80%29
+  owner:
+  license: Open Source or Free
+  platforms: 
+  note: .NET
+  type: SAST
+- title: MobSF
+  url: https://github.com/MobSF/Mobile-Security-Framework-MobSF
+  owner:
+  license: Open Source or Free
+  platforms: Windows, Unix
+  note: Android Java, Objective C, Swift
+  type: SAST
+- title: .NET Security Guard
+  url: https://security-code-scan.github.io/
+  owner:
+  license: Open Source or Free
+  platforms: 
+  note: .NET, C\#, VB.net
+  type: SAST
+- title: nodejsscan
+  url: https://github.com/ajinabraham/nodejsscan
+  owner:
+  license: Open Source or Free
+  platforms: Unix
+  note: Node.js
+  type: SAST
+- title: Microsoft PREFast
+  url: https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ms933794%28v=msdn.10%29
+  owner:
+  license: Open Source or Free
+  platforms: 
+  note: C, C++
+  type: SAST
+- title: SonarCloud
+  url: https://sonarcloud.io/about
+  owner:
+  license: Open Source or Free
+  platforms: 
+  note: ABAP, C, C++, Objective-C, COBOL, C\#, CSS, Flex, Go, HTML, Java, Javascript, Kotlin, PHP, PL/I, PL/SQL, Python, RPG, Ruby, Swift, T-SQL, TypeScript, VB6, VB, XML
+  type: SAST
+- title: Splint
+  url: https://www.splint.org/
+  owner:
+  license: Open Source or Free
+  platforms: 
+  note: C
+  type: SAST
+- title: VisualCodeGrepper
+  url: https://www.splint.https://sourceforge.net/projects/visualcodegrepp/
+  owner:
+  license: Open Source or Free
+  platforms: Windows
+  note: C/C++, C\#, VB, PHP, Java, PL/SQL
+  type: SAST
+- title: RIPS
+  url: https://www.ripstech.com/product/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Java, PHP
+  type: SAST
+- title: Fortify
+  url: https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: ABAP/BSP, ActionScript/MXML (Flex), ASP.NET, VB.NET, C\# (.NET), C/C++, Classic ASP (w/VBScript), COBOL, ColdFusion CFML, HTML, Java (including Android), JavaScript/AJAX, JSP, Objective-C, PHP, PL/SQL, Python, T-SQL, Ruby, Swift, Visual Basic, VBScript, XML
+  type: SAST
+- title: Veracode
+  url: https://www.veracode.com/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Android, ASP.NET, C\#, C, C++, Classic ASP, COBOL, ColdFusion/Java, Go, Groovy, iOS, Java, JavaScript, Perl, PhoneGap/Cordova, PHP, Python, React Native, RPG, Ruby on Rails, Scala, Titanium, TypeScript, VB.NET, Visual Basic 6, Xamarin
+  type: SAST
+- title: CodeSonar
+  url: https://www.grammatech.com/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: C, C++, Java
+  type: SAST
+- title: ParaSoft
+  url: https://www.parasoft.com/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: C, C++, Java, .NET
+  type: SAST
+- title: Checkmarx Static Code Analysis
+  url: https://www.checkmarx.com/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Android, Apex, ASP.NET, C\#, C++, Go, Groovy, HTML5, Java, JavaScript, JSP, .NET, Objective-C, Perl, PHP, PL/SQL, Python, Ruby, Scala, Swift, TypeScript, VB.NET, Visual Basic 6, Windows Phone
+  type: SAST
+- title: HCL AppScan on Cloud
+  url: https://cloud.appscan.com/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Apex, ASP, C, C++, COBOL, ColdFusion, Go, Java, JavaScript(Client-side JavaScript, Kotlin, NodeJS, and AngularJS), .NET (C#, ASP.NET, VB.NET), .NET Core, Perl, PHP, PL/SQL, Python, Ruby, T-SQL, Swift, Visual Basic 6
+  type: SAST
+- title: HCL AppScan Source
+  url: https://www.hcltechsw.com/wps/portal/products/appscan/offerings/source
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Android, Apex, ASP, C, C++, COBOL, ColdFusion, Go, Java, JavaScript(Client-side JavaScript, NodeJS, and AngularJS), .NET (C#, ASP.NET, VB.NET), .NET Core, Perl, PHP, PL/SQL, Python, Ruby, T-SQL, Visual Basic 6
+  type: SAST
+- title: Coverity
+  url: https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: Android, C\#, C, C++, Java, JavaScript, Node.js, Objective-C, PHP, Python, Ruby, Scala, Swift, VB.NET
+  type: SAST
+- title: PVS-Studio
+  url: https://www.viva64.com/en/pvs-studio/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: C, C++, C\#
+  type: SAST
+- title: Puma Scan Professional
+  url: https://pumascan.com/pricing/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: .NET, C\#
+  type: SAST
+- title: Klocwork
+  url: https://www.roguewave.com/products-services/klocwork/static-code-analysis
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: C, C++, C\#, Java
+  type: SAST
+- title: Polyspace Static Analysis
+  url: https://www.mathworks.com/products/polyspace.html
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: C, C++, Ada
+  type: SAST
+- title: CodeSec
+  url: http://www.seczone.cn/2018/06/27/codesec%E6%BA%90%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%E5%B9%B3%E5%8F%B0/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: C, C++, C\#, Java, JavaScript, PHP, Kotlin, Lua, Scala, TypeScript, Android
+  type: SAST
+- title: NextGen Static Analysis
+  url: https://www.shiftleft.io/nextgen-static-analysis/
+  owner:
+  license: Open Source or Free
+  platforms:
+  note: C\#, Go, Java, JavaScript, Python, Scala
+  type: SAST
