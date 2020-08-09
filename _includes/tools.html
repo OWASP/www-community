@@ -1,0 +1,21 @@
+{% assign tools = site.data.tools | | where: "type", include.type | sort: "title" %}
+
+<table>
+  <tr>
+    <th nowrap="nowrap">Name/Link</th>
+    <th nowrap="nowrap">Owner</th>
+    <th nowrap="nowrap">License</th>
+    <th nowrap="nowrap">Platforms</th>
+    <th nowrap="nowrap">Note</th>
+  </tr>
+{% for tool in tools %}
+  <tr>
+    <td><a href="{{tool.url}}">{{ tool.title }}</a></td>
+    <td>{{ tool.owner }}</td>
+    <td>{{ tool.license }}</td>
+    <td>{{ tool.platforms }}</td>
+    <td>{{ tool.note }}</td>
+  </tr>
+{% endfor %}
+</table>
+

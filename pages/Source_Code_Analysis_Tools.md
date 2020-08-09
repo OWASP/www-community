@@ -50,7 +50,7 @@ vulnerabilities much later in the development cycle.
 
 **The tools listed in the tables below are presented in alphabetical order. *OWASP does not endorse any of the vendors or tools by listing them in the table below.* We have made every effort to provide this information as accurately as possible. If you are the vendor of a tool below and think that this information is incomplete or incorrect, please send an e-mail to our mailing list and we will make every effort to correct this information.**
 
-{% include tools.md type="SAST" %}
+{% include tools.html type="SAST" %}
 
 ## More info
 
