@@ -14,6 +14,7 @@ Go into the `pages` folder and create a new file. Save and commit the file.
 
 Include the following front matter and include in your file (for example, see: `pages/password-special-characters.md` in this repository):
 
+{% raw %}
 ```md
 ---
 
@@ -29,7 +30,7 @@ tags: [attack, XSS, etc]
  {% include writers.html %}
 
 ```
-
+{% endraw %}
 
 **Please** ensure your content contribution is based on original work/thought and not plagiarised. Also, please ensure that contributions are vendor/product neutral.
 
