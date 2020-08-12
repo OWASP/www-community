@@ -192,16 +192,6 @@ of Hibernate Guidelines.
 
 <!-- end list -->
 
-  - Persisting tainted objects is stored xss. Since stored XSS is
-    generally hard to find with static tools, it is best to sanitize all
-    data going in rather than waiting for it to show up on a jsp
-    somewhere. Details of these functions are discussed in the
-    [Persisting Tainted Data
-    section](http://www.owasp.org/index.php/Hibernate#Persisting_Tainted_Data)
-    of this page.
-
-<!-- end list -->
-
   - An application should rollback and discard Session instance on
     error. So if the Session throws an exception, the catch block should
     have rollback() and finally should call Session.close(). This
