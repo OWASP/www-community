@@ -87,7 +87,7 @@ steps. The process of exploring the search space is iterative and
 constantly refined based on what you have done so far. So, for example,
 starting with all possible vulnerabilities is usually pointless, as most
 of them are not attackable by the threat agents, protected by a
-safeguard, or do not lead to a conseequence. Therefore, it's generally
+safeguard, or do not lead to a consequence. Therefore, it's generally
 best to start with the factors that make a lot of difference.
 
   - **Assessment Scope** - The first step is always to understand what's
