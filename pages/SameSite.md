@@ -3,7 +3,6 @@ title: SameSite
 layout: col-sidebar
 author: Riramar, Pawel Krawczyk
 contributors: Neil Smithline, Dirk Wetter, Ayesh
-auto-migrated: 0
 permalink: /SameSite
 ---
 
