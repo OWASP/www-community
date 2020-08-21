@@ -67,7 +67,7 @@ Access-Control-Allow-Origin: *
 
 The web application informs the web client of the allowed domains using
 the HTTP response header **Access-Control-Allow-Origin**. The header can
-contains either a '\*' to indicate that all domains are allowed OR a
+contain either a '\*' to indicate that all domains are allowed OR a
 specified domain to indicate the specified allowed domain.
 
 - **Step 3 : Web client process web application response.**
