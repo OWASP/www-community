@@ -845,6 +845,13 @@
   platforms:
   note: 'Scans Java, Scala, and JavaScript/TypeScript for security vulnerabilities, mainly via taint analysis. (http://www.xanitizer.net)'
   type: SAST
+- title: Oversecured
+  url: https://oversecured.com/
+  owner: Oversecured Inc
+  license: Commercial
+  platforms: Android
+  note: A static SaaS-based vulnerability scanner for Android apps (APK files), supports apps written on Java and Kotlin. Also allows integrations into DevOps processes.
+  type: SAST
 - title: OWASP Code Crawler
   url: https://wiki.owasp.org/index.php/Category:OWASP_Code_Crawler
   owner: OWASP
