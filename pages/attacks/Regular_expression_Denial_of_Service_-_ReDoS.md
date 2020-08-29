@@ -2,11 +2,10 @@
 
 layout: col-sidebar
 title: Regular expression Denial of Service - ReDoS
-author: 
-contributors: 
+author: Adar Weidman 
+contributors: Ebing, Rsl81, Wichers, Bjoern Kimminich, kingthorin
 permalink: /attacks/Regular_expression_Denial_of_Service_-_ReDoS
-tags: attack, Regular expression Denial of Service - ReDoS
-auto-migrated: 1
+tags: attack, redos, Regular expression Denial of Service - ReDoS
 
 ---
 
@@ -15,7 +14,7 @@ auto-migrated: 1
 ## Introduction
 
 The **Regular expression Denial of Service (ReDoS)** is a [Denial of
-Service](Denial_of_Service "wikilink") attack, that exploits the fact
+Service](Denial_of_Service) attack, that exploits the fact
 that most Regular Expression implementations may reach extreme
 situations that cause them to work very slowly (exponentially related to
 input size). An attacker can then cause a program using a Regular
@@ -39,10 +38,7 @@ match is found (or all the paths are tried and fail).
 For example, the Regex `^(a+)+$` is represented by the following
 NFA:
 
-  -
-
-      -
-        ![<File:NFA.png>](NFA.png "File:NFA.png")
+![Nondeterministic Finite Automaton](../assets/images/attacks/NFA.png)
 
 For the input `aaaaX` there are 16 possible paths in the above
 graph. But for `aaaaaaaaaaaaaaaaX` there are 65536 possible paths,
@@ -65,18 +61,18 @@ A Regex is called "evil" if it can stuck on crafted input.
 
 **Evil Regex pattern contains**:
 
-  - Grouping with repetition
-  - Inside the repeated group:
-      - Repetition
-      - Alternation with overlapping
+- Grouping with repetition
+- Inside the repeated group:
+    - Repetition
+    - Alternation with overlapping
 
 **Examples of Evil Patterns**:
 
-  - `(a+)+`
-  - `([a-zA-Z]+)*`
-  - `(a|aa)+`
-  - `(a|a?)+`
-  - `(.*a){x} for x \> 10`
+- `(a+)+`
+- `([a-zA-Z]+)*`
+- `(a|aa)+`
+- `(a|a?)+`
+- `(.*a){x} for x \> 10`
 
 All the above are susceptible to the input
 `aaaaaaaaaaaaaaaaaaaaaaaa!` (The minimum input length might change
@@ -94,11 +90,7 @@ Regex**, and make the system vulnerable.
 
 The Web is Regex-Based:
 
-  -
-
-      -
-        ![<File:RegexBasedWeb.png>](RegexBasedWeb.png
-        "File:RegexBasedWeb.png")
+![](../assets/images/attacks/RegexBasedWeb.png)
 
 In every layer of the WEB there are Regular Expressions, that might
 contain an **Evil Regex**. An attacker can hang a WEB-browser (on a
@@ -115,8 +107,7 @@ well-crafted input, that stacks the WEB server.
 
 ### Vulnerable Regex in online repositories
 
-1\. [ReGexLib,id=1757 (email
-validation)](http://regexlib.com/REDetails.aspx?regexp_id=1757) - see
+1. [ReGexLib,id=1757 (email validation)](http://regexlib.com/REDetails.aspx?regexp_id=1757) - see
 bold part, which is an **Evil Regex**
 
 `^([a-zA-Z0-9])`**`(([\-.]|[_]+)?([a-zA-Z0-9]+))*`**`(@){1}[a-z0-9]+[.]{1}(([a-z]{2,3})|([a-z]{2,3}[.]{1}[a-z]{2,3}))$`
@@ -125,8 +116,7 @@ Input:
 
 `aaaaaaaaaaaaaaaaaaaaaaaa!`
 
-2\. [OWASP Validation Regex
-Repository](OWASP_Validation_Regex_Repository "wikilink"), Java
+2. [OWASP Validation Regex Repository](https://wiki.owasp.org/index.php/OWASP_Validation_Regex_Repository), Java
 Classname - see bold part, which is an **Evil Regex**
 
 `^`**`(([a-z])+.)+`**`[A-Z]([a-z])+$`
@@ -137,85 +127,49 @@ Input:
 
 ### Web application attack
 
-  - Open a JavaScript
-  - Find **Evil Regex**
-  - Craft a malicious input for the found Regex
-  - Submit a valid value via intercepting proxy
-  - Change the request to contain a malicious input
-  - You are done\!
+- Open a JavaScript
+- Find **Evil Regex**
+- Craft a malicious input for the found Regex
+- Submit a valid value via intercepting proxy
+- Change the request to contain a malicious input
+- You are done!
 
 ### ReDoS via Regex Injection
 
 The following example checks if the username is part of the password
 entered by the user.
 
-`String userName = textBox1.Text;`
-`String password = textBox2.Text;`
-`Regex testPassword = new Regex(userName);`
-`Match match = testPassword.Match(password);`
-`if (match.Success)`
-`{`
-`    MessageBox.Show("Do not include name in password.");`
-`}`
-`else`
-`{`
-`    MessageBox.Show("Good password.");`
-`}`
+```
+String userName = textBox1.Text;
+String password = textBox2.Text;
+Regex testPassword = new Regex(userName);
+Match match = testPassword.Match(password);
+if (match.Success)
+{
+    MessageBox.Show("Do not include name in password.");
+}
+else
+{
+    MessageBox.Show("Good password.");
+}
+```
 
 If an attacker enters `^(([a-z])+.)+[A-Z]([a-z])+$` as a username
 and `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!` as a password, the program
 will hang.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-TBD
-
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [Denial of Service](Denial_of_Service "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
-  - [:Category: API Abuse](:Category:_API_Abuse "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [Input Validation](Input_Validation "wikilink")
-  - [Output Validation](Output_Validation "wikilink")
-  - [Canonicalization](Canonicalization "wikilink")
-
 ## References
 
-  - [Regular Expression Denial Of Service / Crosby\&Wallach, Usenix
-    Security 2003](http://www.cs.rice.edu/~scrosby/hash/slides/USENIX-RegexpWIP.2.ppt)
-  - [Regular expression Denial of Service Revisited,
-    Sep-2009](http://www.checkmarx.com/NewsDetails.aspx?id=23&cat=3)
-  - [VAC Presentation - ReDoS, OWASP-NL Chapter meeting
-    Dec-2009](Media:20091210_VAC-REGEX_DOS-Adar_Weidman.pdf "wikilink")
-  - [OWASP podcast about ReDoS](Podcast_56 "wikilink")
-  - [OWASP Validation Regex
-    Repository](OWASP_Validation_Regex_Repository "wikilink")
-  - [RegExLib](http://regexlib.com/)
-  - [ReDOS Attacks: From the Exploitation to the Prevention (in
-    .NET)](https://dzone.com/articles/regular-expressions-denial)
-  - [Tool for detecting ReDoS
-    vulnerabilities.](http://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
-  - Examples of ReDoS in open source applications:
-      - [ReDoS in
-        DataVault](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3277)
-      - [ReDoS in
-        EntLib](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3275)
-      - [ReDoS in NASD CORE.NET
-        Terelik](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3276)
-      - [ReDoS in .NET
-        Framework](http://blog.malerisch.net/2015/09/net-mvc-redos-denial-of-service-vulnerability-cve-2015-2526.html)
-      - [ReDoS in Javascript
-        minimatch](https://nodesecurity.io/advisories/118)
+- [Regular Expression Denial Of Service / Crosby&Wallach, Usenix Security 2003](http://www.cs.rice.edu/~scrosby/hash/slides/USENIX-RegexpWIP.2.ppt)
+- [Regular expression Denial of Service Revisited, Sep-2009](http://www.checkmarx.com/NewsDetails.aspx?id=23&cat=3)
+- [RegExLib](http://regexlib.com/)
+- [ReDOS Attacks: From the Exploitation to the Prevention (in .NET)](https://dzone.com/articles/regular-expressions-denial)
+- [Tool for detecting ReDoS vulnerabilities.](http://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
+- Examples of ReDoS in open source applications:
+    - [ReDoS in DataVault](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3277)
+    - [ReDoS in EntLib](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3275)
+    - [ReDoS in NASD CORE.NET Terelik](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3276)
+    - [ReDoS in .NET Framework](http://blog.malerisch.net/2015/09/net-mvc-redos-denial-of-service-vulnerability-cve-2015-2526.html)
+    - [ReDoS in Javascript minimatch](https://nodesecurity.io/advisories/118)
 
-## Credit
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Attack](Category:Attack "wikilink")
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
