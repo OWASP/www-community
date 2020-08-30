@@ -1,0 +1,25 @@
+name: Validate Tools JSON
+
+on: 
+  pull_request_target:
+    paths:
+    - '_data/tools.json'
+
+jobs:
+  schema-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: ${{github.event.pull_request.head.ref}}
+        repository: ${{github.event.pull_request.head.repo.full_name}}
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 13.x
+    - name: Install dependencies
+      run: npm install -g ajv-cli
+    - name: Run schema check
+      run: |
+        ajv validate -s tools_schema.json -d _data/tools.json --all-errors --error-data-path=property --verbose=true
