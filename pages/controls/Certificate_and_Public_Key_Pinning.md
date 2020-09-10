@@ -327,14 +327,13 @@ Configuration](https://developer.android.com/training/articles/security-config.h
 feature, which lets apps customize their network security settings in a
 safe, declarative configuration file without modifying app code.
 
-To enable pinning, [the \`<pin-set>\` configuration
+To enable pinning, [the `<pin-set>` configuration
 setting](https://developer.android.com/training/articles/security-config.html#CertificatePinning)
 can be used.
 
 If devices running a version of Android that is earlier than N need to
 be supported, a backport of the Network Security Configuration pinning
-functionality is available via the TrustKit Android library at
-<https://github.com/datatheorem/TrustKit-Android>.
+functionality is available via [the TrustKit Android library](https://github.com/datatheorem/TrustKit-Android).
 
 Lastly, the Android documentation provides an example of how SSL
 validation can be customized within the app's code (in order to
@@ -352,9 +351,8 @@ easy-to-use API for implementing pinning, and has been deployed in many
 apps.
 
 Otherwise, more details regarding how SSL validation can be customized
-on iOS (in order to implement pinning) are available in the "HTTPS
-Server Trust Evaluation" technical note at
-<https://developer.apple.com/library/content/technotes/tn2232/_index.html>.
+on iOS (in order to implement pinning) are available in [the "HTTPS
+Server Trust Evaluation" technical note](https://developer.apple.com/library/content/technotes/tn2232/_index.html).
 However, implementing pinning validation from scratch should be avoided,
 as implementation mistakes are extremely likely and usually lead to
 severe vulnerabilities.
