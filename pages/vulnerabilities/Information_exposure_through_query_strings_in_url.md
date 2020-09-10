@@ -17,7 +17,12 @@ Information exposure through query strings in URL is when sensitive data is pass
 
 ## Risk Factors
 
-Threat Agents: App Specific Attack Vectors: Average Security Weakness (prevalence): Common Security Weakness (detectability): Difficult Technical Impacts: Moderate Business Impacts: App Specific
+- Threat Agents: App Specific
+- Attack Vectors: Average
+- Security Weakness (prevalence): Common
+- Security Weakness (detectability): Difficult
+- Technical Impacts: Moderate
+- Business Impacts: App Specific
 
 ## Examples
 
