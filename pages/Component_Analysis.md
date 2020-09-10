@@ -293,7 +293,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [CAST Highlight]: https://www.castsoftware.com/SCA/
 [Clarity]: https://www.insignary.com/
 [ClearlyDefined]: https://clearlydefined.io/
-[Debricked] : https://debricked.com/
+[Debricked]: https://debricked.com/
 [DejaCode]: https://www.nexb.com/
 [Dependency-Check]: https://owasp.org/www-project-dependency-check/
 [Dependency-Track]: https://owasp.org/www-project-dependency-track/
