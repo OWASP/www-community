@@ -4,6 +4,9 @@ on:
   pull_request_target:
     paths:
     - '_data/tools.json'
+  push:
+    paths:
+    - '_data/tools.json'
 
 jobs:
   schema-check:
