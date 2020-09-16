@@ -855,7 +855,7 @@ Assume a content sharing flow on a web site is implemented as below. There is a 
 
 ### Content page source code
 
-    <a href="/Share?content_type=1&title=<%=Encode.forHtmlAttribute(untrusted content title)%>">Share</a>
+`a href="/Share?content_type=1&title=<%=Encode.forHtmlAttribute(untrusted content title)%>">Share</a>`
 
 ### Share page source code
     
