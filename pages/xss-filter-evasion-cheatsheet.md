@@ -885,11 +885,6 @@ var title = "This is a regular title";
 </script>
 
 As a result, in this example the main flaw is trusting the content_type in the "Share" page without proper encoding or validation. HTTP Parameter Pollution could increase impact of the XSS flaw by promoting it from a reflected XSS to a stored XSS.
-
-
-
-
-
 ## Character escape sequences
 
 All the possible combinations of the character "\<" in HTML and JavaScript. Most of these won't render out of the box, but many of them can get rendered in certain circumstances as seen above.
