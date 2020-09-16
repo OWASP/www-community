@@ -857,7 +857,7 @@ Assume a content sharing flow on a web site is implemented as below. There is a 
 
     <a href="/Share?content_type=1&title=<%=Encode.forHtmlAttribute(untrusted content title)%>">Share</a>
 
-**Share page source code:**
+### Share page source code
     
     <script>
     var contentType = <%=Request.getParameter("content_type")%>;
