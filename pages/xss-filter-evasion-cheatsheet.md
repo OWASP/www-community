@@ -4,7 +4,7 @@ layout: col-sidebar
 title: XSS Filter Evasion Cheat Sheet
 author: Jim Manico
 contributors: Abdullah Hussam, Michael McCabe, Luke Plant, Randomm, David Shaw, ALange, Matt Tesauro, Adam Caudill, Anandu,
-              DhirajMishra, Ono, Bill Sempf, Dan Wallis, Peter Mosmans, Dominique Righetto
+              DhirajMishra, Ono, Bill Sempf, Dan Wallis, Peter Mosmans, Dominique Righetto, Agit Kaplan
 tags: XSS, Cheat Sheets
 permalink: /xss-filter-evasion-cheatsheet
 ---
@@ -848,6 +848,48 @@ Extra dot for absolute DNS:
 Assuming `http://www.google.com/` is programmatically replaced with nothing). I actually used a similar attack vector against a several separate real world XSS filters by using the conversion filter itself (here is an example) to help create the attack vector (IE: `java&\#x09;script:` was converted into `java	script:`, which renders in IE, Netscape 8.1+ in secure site mode and Opera):
 
     <A HREF="http://www.google.com/ogle.com/">XSS</A>
+
+## Assisting XSS with HTTP Parameter Pollution
+
+Assume a content sharing flow on a web site is implemented as below. There is a "Content" page which includes some content provided by users and this page also includes a link to "Share" page which enables a user choose their favorite social sharing platform to share it on. Developers HTML encoded the "title" parameter in the "Content" page to prevent against XSS but for some reasons they didn't URL encoded this parameter to prevent from HTTP Parameter Pollution. Finally they decide that since content_type's value is a constant and will always be integer, they didn't encode or validate the content_type in the "Share" page.
+
+### Content page source code
+
+`a href="/Share?content_type=1&title=<%=Encode.forHtmlAttribute(untrusted content title)%>">Share</a>`
+
+### Share page source code
+
+```js
+<script>
+var contentType = <%=Request.getParameter("content_type")%>;
+var title = "<%=Encode.forJavaScript(request.getParameter("title"))%>";
+...
+//some user agreement and sending to server logic might be here
+...
+</script>
+```
+
+### Content page output
+
+In this case if attacker set untrusted content title as “This is a regular title&content_type=1;alert(1)” the link in "Content" page would be this:
+    
+`<a href="/share?content_type=1&title=This is a regular title&amp;content_type=1;alert(1)">Share</a>`
+
+### Share page output
+
+And in share page output could be this:
+    
+```js
+<script>
+var contentType = 1; alert(1);
+var title = "This is a regular title";
+…
+//some user agreement and sending to server logic might be here
+…
+</script>
+```
+
+As a result, in this example the main flaw is trusting the content_type in the "Share" page without proper encoding or validation. HTTP Parameter Pollution could increase impact of the XSS flaw by promoting it from a reflected XSS to a stored XSS.
 
 ## Character escape sequences
 
