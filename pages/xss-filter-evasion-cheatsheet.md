@@ -884,7 +884,7 @@ var title = "This is a regular title";
 …
 </script>
 
-As a result, in this example main flaw is using content_type in "Share" page without proper encoding or validation, but HTTP Parameter Pollution could increase impact of the  XSS flaw by promoting it from a reflected XSS to a stored XSS. (Submitted by Agit Kaplan)
+As a result, in this example the main flaw is trusting the content_type in the "Share" page without proper encoding or validation. HTTP Parameter Pollution could increase impact of the XSS flaw by promoting it from a reflected XSS to a stored XSS.
 
 
 
