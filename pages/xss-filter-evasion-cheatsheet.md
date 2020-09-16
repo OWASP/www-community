@@ -853,7 +853,7 @@ Assuming `http://www.google.com/` is programmatically replaced with nothing). I 
 
 Assume a content sharing flow on a web site is implemented as below. There is a "Content" page which includes some content provided by users and this page also includes a link to "Share" page which enables a user choose their favorite social sharing platform to share it on. Developers HTML encoded the "title" parameter in the "Content" page to prevent against XSS but for some reasons they didn't URL encoded this parameter to prevent from HTTP Parameter Pollution. Finally they decide that since content_type's value is a constant and will always be integer, they didn't encode or validate the content_type in the "Share" page.
 
-**Content page source code:**
+### Content page source code
 
     <a href="/Share?content_type=1&title=<%=Encode.forHtmlAttribute(untrusted content title)%>">Share</a>
 
