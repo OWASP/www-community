@@ -858,7 +858,7 @@ Assume a content sharing flow on a web site is implemented as below. There is a 
 `a href="/Share?content_type=1&title=<%=Encode.forHtmlAttribute(untrusted content title)%>">Share</a>`
 
 ### Share page source code
-    
+
 ```js
 <script>
 var contentType = <%=Request.getParameter("content_type")%>;
@@ -867,13 +867,16 @@ var title = "<%=Encode.forJavaScript(request.getParameter("title"))%>";
 //some user agreement and sending to server logic might be here
 ...
 </script>
+```
 
 ### Content page output
+
 In this case if attacker set untrusted content title as “This is a regular title&content_type=1;alert(1)” the link in "Content" page would be this:
     
 `<a href="/share?content_type=1&title=This is a regular title&amp;content_type=1;alert(1)">Share</a>`
 
 ### Share page output
+
 And in share page output could be this:
     
 ```js
@@ -884,8 +887,10 @@ var title = "This is a regular title";
 //some user agreement and sending to server logic might be here
 …
 </script>
+```
 
 As a result, in this example the main flaw is trusting the content_type in the "Share" page without proper encoding or validation. HTTP Parameter Pollution could increase impact of the XSS flaw by promoting it from a reflected XSS to a stored XSS.
+
 ## Character escape sequences
 
 All the possible combinations of the character "\<" in HTML and JavaScript. Most of these won't render out of the box, but many of them can get rendered in certain circumstances as seen above.
