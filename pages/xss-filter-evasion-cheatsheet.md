@@ -870,7 +870,7 @@ Assume a content sharing flow on a web site is implemented as below. There is a 
 **Content page output:**  
 In this case if attacker set untrusted content title as “This is a regular title&content_type=1;alert(1)” the link in "Content" page would be this:
     
-    <a href="/share?content_type=1&title=This is a regular title&amp;content_type=1;alert(1)">Share</a>
+`<a href="/share?content_type=1&title=This is a regular title&amp;content_type=1;alert(1)">Share</a>`
 
 **Share page output:**  
 And in share page output could be this:
