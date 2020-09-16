@@ -859,13 +859,14 @@ Assume a content sharing flow on a web site is implemented as below. There is a 
 
 ### Share page source code
     
-    <script>
-    var contentType = <%=Request.getParameter("content_type")%>;
-    var title = "<%=Encode.forJavaScript(request.getParameter("title"))%>";
-    ...
-    //some user agreement and sending to server logic might be here
-    ...
-    </script>
+```js
+<script>
+var contentType = <%=Request.getParameter("content_type")%>;
+var title = "<%=Encode.forJavaScript(request.getParameter("title"))%>";
+...
+//some user agreement and sending to server logic might be here
+...
+</script>
 
 **Content page output:**  
 In this case if attacker set untrusted content title as “This is a regular title&content_type=1;alert(1)” the link in "Content" page would be this:
