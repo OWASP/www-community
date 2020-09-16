@@ -849,9 +849,6 @@ Assuming `http://www.google.com/` is programmatically replaced with nothing). I 
 
     <A HREF="http://www.google.com/ogle.com/">XSS</A>
 
-
-
-
 ## Assisting XSS with HTTP Parameter Pollution
 
 Assume a content sharing flow on a web site is implemented as below. There is a "Content" page which includes some content provided by users and this page also includes a link to "Share" page which enables a user choose his/her favourite social sharing platform to share on it. Developers HTML attribute encoded "title" parameter in "Content" page to prevent from XSS but for some reasons they didn't URL encoded this parameter to prevent from HTTP Parameter Pollution. And also they thought as content_type's value is a constant and it will always be integer as a result of this they didn't encode or validate content_type in "Share" page.
