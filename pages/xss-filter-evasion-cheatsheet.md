@@ -875,13 +875,14 @@ In this case if attacker set untrusted content title as “This is a regular tit
 ### Share page output
 And in share page output could be this:
     
-    <script>
-    var contentType = 1; alert(1);
-    var title = "This is a regular title";
-    …
-    //some user agreement and sending to server logic might be here
-    …
-    </script>
+```js
+<script>
+var contentType = 1; alert(1);
+var title = "This is a regular title";
+…
+//some user agreement and sending to server logic might be here
+…
+</script>
 
 As a result, in this example main flaw is using content_type in "Share" page without proper encoding or validation, but HTTP Parameter Pollution could increase impact of the  XSS flaw by promoting it from a reflected XSS to a stored XSS. (Submitted by Agit Kaplan)
 
