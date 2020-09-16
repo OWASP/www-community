@@ -872,7 +872,7 @@ In this case if attacker set untrusted content title as “This is a regular tit
     
 `<a href="/share?content_type=1&title=This is a regular title&amp;content_type=1;alert(1)">Share</a>`
 
-**Share page output:**  
+### Share page output
 And in share page output could be this:
     
     <script>
