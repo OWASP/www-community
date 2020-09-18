@@ -4,9 +4,6 @@ on:
   pull_request_target:
     paths:
     - '_data/tools.json'
-  push:
-    paths:
-    - '_data/tools.json'
 
 jobs:
   schema-check:
@@ -25,4 +22,32 @@ jobs:
       run: npm install -g ajv-cli
     - name: Run schema check
       run: |
-        ajv validate -s tools_schema.json -d _data/tools.json --all-errors --error-data-path=property --verbose=true
+        ajv validate -s tools_schema.json -d _data/tools.json --all-errors --error-data-path=property --verbose=true 1> log.txt 2>&1
+    - name: Show Validation Issues
+      id: validation
+      if: failure()
+      run: |
+        cat log.txt
+        ISSUES=$(cat log.txt)
+        ISSUES="${ISSUES//'%'/'%25'}"
+        ISSUES="${ISSUES//$'\n'/'%0A'}"
+        ISSUES="${ISSUES//$'\r'/'%0D'}"
+        echo ::set-output name=ISSUES::$ISSUES
+    - name: Attach Log
+      uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: JSONValidationLog
+        path: log.txt
+    - name: Comment Validation Issues
+      if: failure()
+      uses: actions/github-script@v2
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          github.issues.createComment({
+            issue_number: ${{ github.event.number }},
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `**The following issues were identified:**\n\n<details><summary>Summary</summary>\n\n\`\`\`\n${{ steps.validation.outputs.ISSUES }}\n\`\`\`\n\n</details>`
+          })
