@@ -278,6 +278,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Libraries.io] | Tidelift | Open Source | SaaS |
 | [MergeBase] | MergeBase | Commercial | SaaS |
 | [NPM Audit] | NPM | Open Source | SaaS |
+| [OSS Index] | Sonatype | Free / Open Source | SaaS |
 | [PHP Security Checker] | SensioLabs | Open Source | SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
@@ -310,6 +311,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Libraries.io]: https://libraries.io/
 [MergeBase]: http://mergebase.com/
 [NPM Audit]: https://www.npmjs.com/
+[OSS Index]: https://ossindex.sonatype.org/
 [PHP Security Checker]: https://github.com/sensiolabs/security-checker
 [Renovate]: https://renovatebot.com/
 [Snyk]: https://snyk.io/
