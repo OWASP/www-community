@@ -59,13 +59,13 @@ inside of the cookie that it will use to keep a session between the
 client and the Web Application.
 
 o
-
+```
 <META>
 
 tag
 
 <META>
-
+```
 tag also is considered a code injection attack, however, different from
 the XSS attack where undesirable scripts can be disabled, or the
 execution can be denied. The attack using this method becomes much more
@@ -118,11 +118,11 @@ executed in the victim's browser.
 ` http://website.kom/<script>document.cookie=”sessionid=abcd”;</script>`
 
 ### Example 3
-
+```
 <META>
 
 tag
-
+```
 As well as client-side scripting, the code injection must be made in the
 URL that will be sent to the victim.
 
