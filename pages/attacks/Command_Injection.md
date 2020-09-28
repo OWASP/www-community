@@ -179,49 +179,51 @@ error, or being thrown out as an invalid parameter.
 The following trivial code snippets are vulnerable to OS command
 injection on the Unix/Linux platform:
 
-:\* C:
+**C:**
 
-`#include <stdlib.h>`
-`#include <stdio.h>`
-`#include <string.h>`
+```
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
-`int main(int argc, char **argv)`
-`{`
-`     char command[256];`
+int main(int argc, char **argv)
+{
+     char command[256];
 
-`     if(argc != 2) {`
-`          printf("Error: Please enter a program to time!\n");`
-`          return -1;`
-`     }`
+     if(argc != 2) {
+          printf("Error: Please enter a program to time!\n");
+          return -1;
+     }
 
-`     memset(&command, 0, sizeof(command));`
+     memset(&command, 0, sizeof(command));
 
-`     strcat(command, "time ./");`
-`     strcat(command, argv[1]);`
+     strcat(command, "time ./");
+     strcat(command, argv[1]);
 
-`     system(command);`
-`     return 0;`
-`}`
+     system(command);
+     return 0;
+}
+```
 
-:\* If this were a suid binary, consider the case when an attacker
-enters the following: 'ls; cat /etc/shadow'. In the Unix environment,
+If this were a suid binary, consider the case when an attacker
+enters the following: `ls; cat /etc/shadow`. In the Unix environment,
 shell commands are separated by a semi-colon. We now can execute system
-commands at will\!
+commands at will!
 
-:\* Java:
+**Java:**
 
-**There are many sites that will tell you that Java's Runtime.exec is
+There are many sites that will tell you that Java's `Runtime.exec` is
 exactly the same as C's system function. This is not true. Both allow
 you to invoke a new program/process. However, C's system function passes
-its arguments to the shell (/bin/sh) to be parsed, whereas Runtime.exec
+its arguments to the shell (`/bin/sh`) to be parsed, whereas Runtime.exec
 tries to split the string into an array of words, then executes the
 first word in the array with the rest of the words as parameters.
 Runtime.exec does NOT try to invoke the shell at any point. The key
 difference is that much of the functionality provided by the shell that
-could be used for mischief (chaining commands using "&", "&&", "|",
-"||", etc, redirecting input and output) would simply end up as a
+could be used for mischief (chaining commands using `&`, `&&`, `|`,
+`||`, etc, redirecting input and output) would simply end up as a
 parameter being passed to the first command, and likely causing a syntax
-error, or being thrown out as an invalid parameter.**
+error, or being thrown out as an invalid parameter.
 
 ### Example 6
 
