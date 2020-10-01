@@ -44,8 +44,9 @@ configuration files.
     ?>
 
 An attacker crafts a URL like so:
-\[<http://site.com/index.php?page=>../../../../../../../home/example/public_html/includes/config.php
-<http://site.com/index.php?page=>../../../../../../../home/example/public_html/includes/config.php\]
+
+    http://site.com/index.php?page=../../../../../../../home/example/public_html/includes/config.php
+
 with the knowledge of the FPD in combination with [Relative Path
 Traversal](https://owasp.org/www-community/attacks/Path_Traversal).
 
