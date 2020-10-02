@@ -1402,5 +1402,14 @@
       "platforms": null,
       "note": "C\\#, Go, Java, JavaScript, Python, Scala",
       "type": "SAST"
-   }
+   },
+   {
+      "title": "Kroogal",
+      "url": "http://www.kroogal.com/",
+      "owner": null,
+      "license": "Commercial",
+      "platforms": null,
+      "note": "C, C++",
+      "type": "SAST"
+   }   
 ]
