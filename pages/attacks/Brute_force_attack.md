@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: Brute Force Attack
-author: 
+author:
 contributors:
 permalink: /attacks/Brute_force_attack
 tags: attack, brute force
@@ -45,7 +45,7 @@ are usually sent via GET and POST requests to the server. In regards to
 authentication, brute force attacks are often mounted when an [account
 lockout
 policy](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#account-lockout)
-in not in place.
+is not in place.
 
 ### Example 1
 
