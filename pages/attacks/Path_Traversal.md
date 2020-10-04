@@ -46,7 +46,7 @@ All but the most simple web applications have to include local resources, such a
 - Ensure the user cannot supply all parts of the path – surround it with your path code
 - Validate the user’s input by only accepting known good – do not sanitize the data
 - Use chrooted jails and code access policies to restrict where the files can be obtained or saved to
-- If forced to use user input for file operations, normalize the input before using in file io API's, such as http://docs.oracle.com/javase/7/docs/api/java/net/URI.html#normalize().
+- If forced to use user input for file operations, normalize the input before using in file io API's, such as [normalize()](http://docs.oracle.com/javase/7/docs/api/java/net/URI.html#normalize()).
 
 ### How to Test for Path Traversal Vulnerabilities
 
@@ -59,14 +59,14 @@ See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing
 
 Encoding and double encoding:
 
-`%2e%2e%2f` represents `../`  
-`%2e%2e/` represents `../`  
-`..%2f` represents `../ `  
-`%2e%2e%5c` represents `..\`  
-`%2e%2e\` represents `..\ `  
-`..%5c` represents `..\ `  
-`%252e%252e%255c` represents `..\ `  
-`..%255c` represents `..\`   
+`%2e%2e%2f` represents `../`
+`%2e%2e/` represents `../`
+`..%2f` represents `../ `
+`%2e%2e%5c` represents `..\`
+`%2e%2e\` represents `..\ `
+`..%5c` represents `..\ `
+`%252e%252e%255c` represents `..\ `
+`..%255c` represents `..\` 
 and so on.
 
 #### Percent encoding (aka URL encoding)
@@ -74,8 +74,8 @@ and so on.
 Note that web containers perform one level of decoding on percent
 encoded values from forms and URLs.
 
-`..%c0%af` represents `../ `  
-`..%c1%9c` represents `..\ `  
+`..%c0%af` represents `../ `
+`..%c1%9c` represents `..\ `
 
 #### OS specific
 
@@ -148,7 +148,7 @@ the CGI source code.
 
 ### Example 4
 
-This example was extracted from: Wikipedia - Directory Traversal
+This example was extracted from: [Wikipedia - Directory Traversal](https://en.wikipedia.org/wiki/Directory_traversal_attack#Example)
 
 A typical example of vulnerable application code is:
 
@@ -184,7 +184,7 @@ phpguru:f8fk3j1OIf31.:182:100:Developer:/home/users/phpguru/:/bin/csh
 The repeated `../` characters after `/home/users/phpguru/templates/` has
 caused [include()](http://www.php.net/manual/en/function.include.php) to
 traverse to the root directory, and then include the UNIX password file
-`/etc/passwd.
+`/etc/passwd`.
 
 UNIX `etc/passwd` is a common file used to demonstrate **directory
 traversal**, as it is often used by crackers to try cracking the
@@ -221,13 +221,13 @@ displayed).
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-- [:Category:Input Validation Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
+- [Improper Data Validation](https://owasp.org/www-community/vulnerabilities/Improper_Data_Validation)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-- [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
 
 ## References
 
-http://cwe.mitre.org/data/definitions/22.html
-http://www.webappsec.org/projects/threat/classes/path_traversal.shtml
+- [http://cwe.mitre.org/data/definitions/22.html](http://cwe.mitre.org/data/definitions/22.html)
+- [http://www.webappsec.org/projects/threat/classes/path_traversal.shtml](http://www.webappsec.org/projects/threat/classes/path_traversal.shtml)
