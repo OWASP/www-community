@@ -18,7 +18,7 @@ malformed/semi-malformed data injection in an automated fashion.
 
 ## A trivial example
 
-Lets's consider an integer in a program, which stores the result of a
+Let's consider an integer in a program, which stores the result of a
 user's choice between 3 questions. When the user picks one, the choice
 will be 0, 1 or 2. Which makes three practical cases. But what if we
 transmit 3, or 255 ? We can, because integers are stored a static size
