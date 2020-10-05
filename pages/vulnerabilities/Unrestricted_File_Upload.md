@@ -486,10 +486,6 @@ And some special recommendations for the developers and webmasters:
     [6](http://www.net-security.org/dl/articles/php-file-upload.pdf)
   - Potentially Dangerous File Types
     [7](http://www.windowsitpro.com/Files/18/27072/Webtable_01.pdf)
-  - Image Upload XSS
-    [8](http://ha.ckers.org/blog/20070603/image-upload-xss/)
-  - Code Execution Through Filenames in Uploads
-    [9](http://ha.ckers.org/blog/20070620/code-execution-through-filenames-in-uploads/)
   - Secure File Upload Check List With PHP
     [10](http://hungred.com/useful-information/secure-file-upload-check-list-php/)
   - NTFS in WikiPedia [11](http://en.wikipedia.org/wiki/NTFS)

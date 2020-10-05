@@ -266,4 +266,4 @@ See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guid
 
 ## References
 
-- [SmashStack](http://insecure.org/stf/smashstack.html>=)
+- [SmashStack](http://insecure.org/stf/smashstack.html)

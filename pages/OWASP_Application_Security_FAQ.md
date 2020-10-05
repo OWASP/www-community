@@ -75,7 +75,7 @@ We should first ask the user to supply some details like personal
 details or ask a hint question. Then we should send a mail to the users
 authorized mail id with a link which will take the user to a page for
 resetting the password. This link should be active for only a short
-time, and should be SSL- enabled. This way the actual password is never
+time, and should be SSL-enabled. This way the actual password is never
 seen. The security benefits of this method are: the password is not sent
 in the mail; since the link is active for a short time, there is no harm
 even if the mail remains in the mailbox for a long time.
@@ -95,9 +95,10 @@ intervention after a few failed attempts. A method used by a number of
 sites these days is to have the user read and enter a random word that
 appears in an image on the page. Since this cannot be done by a tool, we
 can thwart automated password guessing. The following are some tools
-that guess passwords of web applications: Brutus -
-<http://www.hoobie.net/brutus/> WebCracker
-<http://www.securityfocus.com/tools/706>
+that guess passwords of web applications:
+
+* Brutus
+* [http://www.securityfocus.com/tools/706](WebCracker)
 
 ## How can I protect against keystroke loggers on the client machine?
 
@@ -527,8 +528,8 @@ and compare the responses with the database. This is the technique used
 by tools like Fire & Water. This tool can be found at
 <http://www.ntobjectives.com/products/firewater/> There is a paper by
 Saumil Shah that discusses the tool httprint at
-<http://net-square.com/httprint/httprint_paper.html> httprint can be
-found at <http://net-square.com/httprint/>
+<http://net-square.com/httprint_paper.html> httprint can be
+found at <http://net-square.com/httprint.html>
 
 ## A friend told me it's safer to run my web server on a non-standard port. Is that right?
 
@@ -588,9 +589,10 @@ find](http://www.plynt.com/resources/learn/tools/what_cant_a_scanner_find_1/).
 
 In our tests using a slightly modified WebGoat the best Black-box
 scanning tool found less than 20% of the issues \! Some tools for
-automated scanning are: SpikeProxy, open source and freely available at
-<http://www.immunitysec.com/spikeproxy.html> WebInspect, can be found at
-<http://www.spidynamics.com/productline/WE_over.html>
+automated scanning are:
+
+* [http://manpages.ubuntu.com/manpages/trusty/man1/spikeproxy.1.html](SpikeProxy)
+* [https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview](WebInspect)
 
 ## Where can I try out my testing skills? Is there a sample application I can practice with?
 
@@ -956,10 +958,8 @@ Michael Howard, David LeBlanc and John Viega
 
 Microsoft offers training programs on Developing Security-Enhanced Web
 Applications and Developing and Deploying Secure Microsoft .NET
-Framework Application. More information can be found at
-<http://www.microsoft.com/traincert/syllabi/2300AFinal.asp> and
-<http://www.microsoft.com/traincert/syllabi/2350BFinal.asp> Foundstone
-offers secure coding training through Global Knowledge Aspect Security
-offers a similar course.
+Framework Application. 
+Foundstone offers secure coding training through Global Knowledge Aspect
+Security offers a similar course.
 
 OWASP_FAQ_Ver3.doc

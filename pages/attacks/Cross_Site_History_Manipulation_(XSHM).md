@@ -113,7 +113,7 @@ redirect, then this application is vulnerable to **XSHM** and
 essentially it is a similar to a direct exposure to [Universal
 XSS](media:OWASP_IL_The_Universal_XSS_PDF_Vulnerability.pdf "wikilink")
 – the application itself is
-[XSS](Cross-site_Scripting_\(XSS\) "wikilink")-safe, but running it from
+[XSS](https://owasp.org/www-community/attacks/xss)-safe, but running it from
 a different site inside an IFRAME makes it vulnerable.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
@@ -123,19 +123,9 @@ TBD
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Cross-site Scripting
-    (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
+    (XSS)](https://owasp.org/www-community/attacks/xss)
   - [Cross-Site Request Forgery
-    (CSRF)](Cross-Site_Request_Forgery_\(CSRF\) "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [Cross Site Scripting Flaw](Cross_Site_Scripting_Flaw "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [Input Validation](Input_Validation "wikilink")
-  - [Output Validation](Output_Validation "wikilink")
-  - [Canonicalization](Canonicalization "wikilink")
+    (CSRF)](https://owasp.org/www-community/attacks/csrf)
 
 ## References
 

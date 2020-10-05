@@ -44,7 +44,7 @@ configuration files.
     ?>
 
 An attacker crafts a URL like so:
-`http://site.com/index.php?page=../../../../../../../home/example/public_html/includes/config.php`
+`http://example.org/index.php?page=../../../../../../../home/example/public_html/includes/config.php`
 with the knowledge of the FPD in combination with [Relative Path
 Traversal](https://owasp.org/www-community/attacks/Path_Traversal).
 
@@ -88,12 +88,12 @@ launching exploits requiring working usernames.
 
 If we have a site that uses a method of requesting a page like this:
 
-    http://site.com/index.php?page=about
+    http://example.org/index.php?page=about
 
 We can use a method of opening and closing braces that causes the page
 to output an error. This method would look like this:
 
-    http://site.com/index.php?page[]=about
+    http://example.org/index.php?page[]=about
 
 This renders the page defunct thus spitting out an error:
 
@@ -158,7 +158,7 @@ directly requested. Sometimes, it's a clue to Local File Inclusion
 vulnerability.
 
 Concerning with Mambo CMS, if we access to a direct url,
-<http://site.com/mambo/mambots/editors/mostlyce/jscripts/tiny_mce/plugins/spellchecker/classes/PSpellShell.php>,
+<http://example.org/mambo/mambots/editors/mostlyce/jscripts/tiny_mce/plugins/spellchecker/classes/PSpellShell.php>,
 then we gets
 
     <br />

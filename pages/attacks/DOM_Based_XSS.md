@@ -131,7 +131,7 @@ Applications from Universal PDF XSS: A discussion of how weird the web
 application security world has become" at the [2007 OWASP Europe AppSec
 Conference](OWASP_AppSec_Europe_2007_-_Italy "wikilink") in Milan. The
 presentation (\[5\]) can be downloaded
-[here](http://www.owasp.org/images/c/c2/OWASPAppSec2007Milan_ProtectingWebAppsfromUniversalPDFXSS.ppt).
+[here](https://wiki.owasp.org/images/c/c2/OWASPAppSec2007Milan_ProtectingWebAppsfromUniversalPDFXSS.ppt).
 
 ### Extensions
 
@@ -202,7 +202,7 @@ Giorgio Fedon, December 2006
 \[5\] "Protecting Web Applications from Universal PDF XSS" (2007 OWASP
 Europe AppSec presentation) Ivan Ristic, May 2007
 
-<http://www.owasp.org/images/c/c2/OWASPAppSec2007Milan_ProtectingWebAppsfromUniversalPDFXSS.ppt>
+<https://wiki.owasp.org/images/c/c2/OWASPAppSec2007Milan_ProtectingWebAppsfromUniversalPDFXSS.ppt>
 
 \[6\] OWASP Testing Guide
 

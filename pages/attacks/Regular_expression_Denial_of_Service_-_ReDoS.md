@@ -166,9 +166,9 @@ will hang.
 - [ReDOS Attacks: From the Exploitation to the Prevention (in .NET)](https://dzone.com/articles/regular-expressions-denial)
 - [Tool for detecting ReDoS vulnerabilities.](http://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
 - Examples of ReDoS in open source applications:
-    - [ReDoS in DataVault](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3277)
-    - [ReDoS in EntLib](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3275)
-    - [ReDoS in NASD CORE.NET Terelik](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3276)
+    - [ReDoS in DataVault](https://nvd.nist.gov/vuln/detail/CVE-2009-3277)
+    - [ReDoS in EntLib](https://nvd.nist.gov/vuln/detail/CVE-2009-3275)
+    - [ReDoS in NASD CORE.NET Terelik](https://nvd.nist.gov/vuln/detail/CVE-2009-3276)
     - [ReDoS in .NET Framework](http://blog.malerisch.net/2015/09/net-mvc-redos-denial-of-service-vulnerability-cve-2015-2526.html)
     - [ReDoS in Javascript minimatch](https://nodesecurity.io/advisories/118)
 

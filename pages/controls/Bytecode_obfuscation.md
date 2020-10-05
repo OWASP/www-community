@@ -115,4 +115,4 @@ commands:
 - [Proguard](https://www.guardsquare.com/en/proguard)
 - [Javaguard](http://sourceforge.net/projects/javaguard/)
 - [Elements of Java Obfuscation](https://www.preemptive.com/obfuscation)
-- [Software Obfuscation](https://en.wikipedia.org/wiki/Obfuscation_\(software\))
+- [Software Obfuscation](https://en.wikipedia.org/wiki/Obfuscation_%28software%29)

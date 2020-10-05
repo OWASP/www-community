@@ -692,7 +692,7 @@ Abraham Aranguren - OWASP OWTF Project Leader - Contact: Abraham.Aranguren@owasp
 
 #### Brief Explanation:
 
-This project is to implement what was suggested in the following [github issue](https://github.com/owtf/owtf/issues/192 https://github.com/owtf/owtf/issues/192)
+This project is to implement what was suggested in the following [github issue](https://github.com/owtf/owtf/issues/192)
 
 Recently i tried to make a fresh installation of OWTF. The installation process takes too much time. Is there any way to make the installation faster?
 Having a private server with:

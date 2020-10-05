@@ -196,12 +196,12 @@ vulnerabilities.
 - Kevin Spett from SPI Dynamics:
   - http://www.net-security.org/dl/articles/Blind_SQLInjection.pdf
   - http://www.imperva.com/resources/whitepapers.asp?t=ADC
-  - [Advanced SQL Injection](https://www.owasp.org/images/7/74/Advanced_SQL_Injection.ppt)
+  - [Advanced SQL Injection](https://wiki.owasp.org/images/7/74/Advanced_SQL_Injection.ppt)
 
 ### Tools
 
 - [SQL Power Injector](http://www.sqlpowerinjector.com/)
-- [Absinthe :: Automated Blind SQL Injection](http://www.0x90.org/releases/absinthe/) // ver1.3.1
+- [Absinthe :: Automated Blind SQL Injection](https://github.com/cameronhotchkies/Absinthe)
 - [SQLBrute - Multi Threaded Blind SQL Injection Bruteforcer](http://www.securiteam.com/tools/5IP0L20I0E.html) in Python
 - [SQLiX - SQL Injection Scanner](:Category:OWASP_SQLiX_Project "wikilink") in Perl
 - [sqlmap, automatic SQL injection tool](http://sqlmap.org/) in Python
