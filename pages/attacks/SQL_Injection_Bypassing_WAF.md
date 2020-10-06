@@ -120,9 +120,8 @@ can be used (e.g., \#\#\#\#\#, %00).*
 ` /?id=1;select+1&id=2,3+from+users+where+id=1--`
 
 *Successful conduction of an HPP attack bypassing WAF depends on the
-environment of the application being attacked.*
-*\[<http://www>..org/images/b/ba/AppsecEU09_CarettoniDiPaola_v0.8.pdf
-EU09 Luca Carettoni, Stefano diPaola\].*
+environment of the application being attacked.
+*[http://wiki.owasp.org/images/b/ba/AppsecEU09_CarettoniDiPaola_v0.8.pdf](EU09 Luca Carettoni, Stefano diPaola)*
 
 ![<File:Sqli-HPP.png>](Sqli-HPP.png "File:Sqli-HPP.png")
 

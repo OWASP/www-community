@@ -155,7 +155,7 @@ questions:
 
 # Related [Attacks](https://owasp.org/www-community/attacks/)
 
-[CSRF (Attack)](https://owasp.org/www-community/attacks/csrf/)
+[CSRF (Attack)](https://owasp.org/www-community/attacks/csrf)
 [CSRF (Full Wikipedia Article)](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
 [XSS (Attack)](https://owasp.org/www-community/attacks/xss/)
 

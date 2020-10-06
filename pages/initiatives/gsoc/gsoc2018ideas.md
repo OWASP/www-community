@@ -157,7 +157,7 @@ Simon Benetts and the rest of the ZAP Core Team
 ###  Develop Bamboo Addon 
 #### Brief Explanation:
 
-It would be great to have an official ZAP add-on for [Bamboo](https://www.atlassian.com/software/bamboo), equivalent to the one we now have for [Jenkins](https://wiki.jenkins.io/display/JENKINS/zap+plugin)
+It would be great to have an official ZAP add-on for [Bamboo](https://www.atlassian.com/software/bamboo), equivalent to the one we now have for [Jenkins](https://plugins.jenkins.io/zap/)
 
 For more information about Bamboo plugins see the [Bamboo plugin guide](https://developer.atlassian.com/server/bamboo/bamboo-plugin-guide/).
 
@@ -398,7 +398,7 @@ Mentors are: Ali Razmjoo Qalaei, Abbas Naderi Afooshteh, SRI HARSHA Gajavalli
 
 [Offensive Web Testing Framework (OWTF)](https://github.com/owtf/owtf) is a project focused on penetration testing efficiency and alignment of security tests to security standards like the OWASP Testing Guide (v3 and v4), 
 the OWASP Top 10, PTES and NIST. Most of the ideas below focus on rewrite of some major components of OWTF to make it more modular. OWTF is moving to a fresh codebase with a fully Docker testing and deployment environment. 
-If you want to get a jumpstart, check out https://github.com/owtf/owtf/tree/new-arch.
+If you want to get a jumpstart, check out https://github.com/owtf/owtf/tree/new.
 
 ### OWASP OWTF - MiTM proxy interception and replay capabilities
 

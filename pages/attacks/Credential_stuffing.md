@@ -91,7 +91,7 @@ credential stuffing.
     Attackers then used these stolen credentials to try to log in to
     sites across the internet, including Dropbox”.
       - Source: Dropbox.
-        [4](https://blog.dropbox.com/2014/10/dropbox-wasnt-hacked/)
+        [4](https://blog.dropbox.com/topics/company/dropbox-wasnt-hacked/)
 
 <!-- end list -->
 

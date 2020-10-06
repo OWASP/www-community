@@ -507,7 +507,7 @@ The automated functionality of OWASP OWTF is currently limited to the non-authen
 2) Configuration files
 
 What we would like to do here is to leverage the [powerful mechanize python library](http://wwwsearch.sourceforge.net/mechanize/) and build at least support for the following authentication options:
-* Basic authentication - As requested here: [Issue 91](https://github.com/7a/owtf/issues/9 https://github.com/7a/owtf/issues/91).
+* Basic authentication - As requested here: [Issue 91](https://github.com/7a/owtf/issues/91).
 * Cookie based authentication
 * Form-based authentication
 
@@ -586,7 +586,7 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 #### Additional Information and Suggestions (based on student questions):
 
 * Play with the interactive reports to see where we are now (get the OWTF 0.15 one, <b>no need to install anything</b>): [demos](https://github.com/7a/owtf_demos)
-* Reports are created with [report framework](https://github.com/7a/owtf/tree/master/framework/report) and [includes](https://github.com/7a/owtf/tree/master/includes) producing interactive reports such as [demos](https://github.com/7a/owtf_demos https://github.com/7a/owtf_demos)
+* Reports are created with [report framework](https://github.com/7a/owtf/tree/master/framework/report) and [includes](https://github.com/7a/owtf/tree/master/includes) producing interactive reports such as [demos](https://github.com/7a/owtf_demos)
 * How it works at the moment: Each plugin creates its own small report which is loaded by the main report in an iframe, this will make more sense when you play with the interactive demos and look at the source.
 * How the report is meant to be used: I would suggest to watch the live demos in this talk to get the drift of this (Demos start after 1h approx.): [talk](http://www.rubcast.rub.de/index2.php?id=1009)
 * How the report is created now: Each plugin report is created right after each plugin finishes, then the master report is reassembled again: This approach is not very efficient so I am open to alternatives. Not all plugins run tools, some plugins run OWTF checks. But the report will be re-written each time a plugin finishes (using the current approach)

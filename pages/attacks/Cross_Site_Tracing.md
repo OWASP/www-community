@@ -141,8 +141,8 @@ TBD
     <http://www.cgisecurity.com/whitehat-mirror/WH-WhitePaper_XST_ebook.pdf>
   - [Testing for HTTP Methods and XST
     (OWASP-CM-008)](Testing_for_HTTP_Methods_and_XST_\(OWASP-CM-008\) "wikilink")
-  - [OSVDB 877](http://osvdb.org/show/osvdb/877)
-  - [CVE-2005-3398](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2005-3398)
+  - [OSVDB 877](https://vulners.com/osvdb/OSVDB:877)
+  - [CVE-2005-3398](https://nvd.nist.gov/vuln/detail/CVE-2005-3398)
   - [XSS: Gaining access to HttpOnly Cookie
     in 2012](http://seckb.yehg.net/2012/06/xss-gaining-access-to-httponly-cookie.html)
   - [Mozilla

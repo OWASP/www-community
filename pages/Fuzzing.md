@@ -184,7 +184,7 @@ appear these days; some examples:
 
 <!-- end list -->
 
-  - One may use tools like [Hachoir](http://hachoir.org/) as a generic
+  - One may use tools like [Hachoir](https://hachoir.readthedocs.io/) as a generic
     parser for file format fuzzer development.
 
 ## Fuzzers advantages
@@ -231,7 +231,7 @@ Recent fuzzing initiatives:
 <!-- end list -->
 
   - The [Month of Browser Bugs](http://browserfun.blogspot.com/)
-    ([review here](http://osvdb.org/blog/?p=127)); number of bugs found:
+    ; number of bugs found:
     MSIE: 25 Apple Safari: 2 Mozilla: 2 Opera: 1 Konqueror: 1; used
     DHTML, Css, DOM, ActiveX fuzzing tools
 
@@ -266,8 +266,7 @@ archive](https://web.archive.org/web/20090202043027/http://www.whitestar.linuxbo
 
 #### Mutational Fuzzers
 
-[american fuzzy
-lop](https://en.wikipedia.org/wiki/American_fuzzy_lop_\(fuzzer\))
+[american fuzzy lop](https://en.wikipedia.org/wiki/American_fuzzy_lop_%28fuzzer%29)
 
 [Radamsa - a flock of fuzzers](https://github.com/aoh/radamsa)
 

@@ -89,7 +89,7 @@ This way it was possible to replace the web page, which was served to
 the specified user.
 
 More information can be found in one of the presentations under
-<http://www.owasp.org/images/1/1a/OWASPAppSecEU2006_HTTPMessageSplittingSmugglingEtc.ppt>
+<http://wiki.owasp.org/images/1/1a/OWASPAppSecEU2006_HTTPMessageSplittingSmugglingEtc.ppt>
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
