@@ -1232,6 +1232,15 @@
       "note": "ABAP, C, C++, Objective-C, COBOL, C\\#, CSS, Flex, Go, HTML, Java, Javascript, Kotlin, PHP, PL/I, PL/SQL, Python, RPG, Ruby, Swift, T-SQL, TypeScript, VB6, VB, XML",
       "type": "SAST"
    },
+   {
+      "title": "Sec-helpers",
+      "url": "https://pypi.org/project/sec-helpers/",
+      "owner": "VWT Digital",
+      "license": "Open Source or Free",
+      "platforms": "N/A",
+      "note": null,
+      "type": "DAST"
+   },
   {
       "title": "SecPoint Penetrator",
       "url": "https://www.secpoint.com/",
