@@ -154,7 +154,7 @@ filled it with thirteen characters of char type, the buffer was
 overflowed.
 
 If our binary application is in ELF format, then we are able to use an
-objdump program to analise it and find necessary information to exploit
+objdump program to analyse it and find necessary information to exploit
 the buffer overflow error.
 
 Below is output produced by the objdump. From that output we are able to
