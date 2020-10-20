@@ -114,7 +114,7 @@ inject them or recombinations.
   - for binary: random ones
 
 Please refer to [OWASP's Fuzz Vector's
-resource](OWASP_Testing_Guide_Appendix_C:_Fuzz_Vectors "wikilink") for
+resource](https://owasp.org/www-project-web-security-testing-guide/stable/6-Appendix/C-Fuzz_Vectors) for
 real-life fuzzing vectors examples and methodology.
 
 Protocols and file formats imply norms, which are sometimes blurry, very
