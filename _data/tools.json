@@ -1411,5 +1411,14 @@
       "platforms": null,
       "note": "C, C++",
       "type": "SAST"
-   }   
+   },
+      {
+      "title": "Horusec",
+      "url": "https://github.com/ZupIT/horusec",
+      "owner": null,
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Python(3.x), Ruby, Javascript, GoLang, .NetCore(3.x), Java, Kotlin, Terraform",
+      "type": "SAST"
+   }
 ]
