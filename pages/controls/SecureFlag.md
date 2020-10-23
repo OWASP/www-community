@@ -15,7 +15,7 @@ permalink: /controls/SecureFlag
 The secure flag is an option that can be set by the application server
 when sending a new cookie to the user within an HTTP Response. The
 purpose of the secure flag is to prevent cookies from being observed by
-unauthorized parties due to the transmission of a the cookie in clear
+unauthorized parties due to the transmission of the cookie in clear
 text.
 To accomplish this goal, browsers which support the secure flag will
 only send cookies with the secure flag when the request is going to a
