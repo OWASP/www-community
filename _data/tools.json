@@ -189,6 +189,23 @@
       "type": "DAST"
    },
    {
+      "title": "GitLab",
+      "url": "https://docs.gitlab.com/ee/user/application_security/sast/index.html",
+      "owner": "GitLab",
+      "license": "Commerical",
+      "platforms": "SaaS, Linux, Windows",
+      "note": null,
+      "type": "SAST"
+   },
+   {
+      "title": "GitLab",
+      "url": "https://docs.gitlab.com/ee/user/application_security/dast/index.html",
+      "owner": "GitLab",
+      "license": "Commerical",
+      "platforms": "SaaS, Linux, Windows",
+      "note": null,
+      "type": "DAST"
+   }, {
       "title": "Gravityscan",
       "url": "https://gravityscan.com/",
       "owner": "Defiant, Inc.",
