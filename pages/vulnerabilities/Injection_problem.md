@@ -66,7 +66,6 @@ Injection problems describe a large subset of problems with varied instantiation
 - [Format String](../attacks/Format_string_attack)
 - [Command injection](../attacks/Command_Injection)
 - [Log injection](../attacks/Log_Injection)
-- [Command injection](../attacks/Command_Injection)
 
 ## Related Vulnerabilities
 
