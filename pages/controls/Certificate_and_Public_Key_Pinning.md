@@ -276,7 +276,7 @@ extract the public key from a certificate. As with a certificate, the
 program checks the extracted public key with its embedded copy of the
 public key.
 
-There are two downsides two public key pinning. First, its harder to
+There are two downsides to public key pinning. First, it's harder to
 work with keys (versus certificates) since you usually must extract the
 key from the certificate. Extraction is a minor inconvenience in Java
 and .Net, buts its uncomfortable in Cocoa/CocoaTouch and OpenSSL.
