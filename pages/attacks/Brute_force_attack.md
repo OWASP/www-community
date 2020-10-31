@@ -3,10 +3,9 @@
 layout: col-sidebar
 title: Brute Force Attack
 author:
-contributors:
+contributors: Gsami, Rezos, Thiagoalz, KristenS, D0ubl3 h3lix, Andrew Smith, Jenjava1762, Mtesauro, kingthorin
 permalink: /attacks/Brute_force_attack
 tags: attack, brute force
-auto-migrated: 1
 
 ---
 
@@ -16,11 +15,8 @@ auto-migrated: 1
 
 ### How to Test for Brute Force Vulnerabilities
 
-See the [OWASP Testing
-Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
-[Test for Brute
-Force](Testing_for_Brute_Force_\(OWASP-AT-004\) "wikilink")
-Vulnerabilities.
+See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
+Test for Brute Force Vulnerabilities.
 
 ## Description
 
@@ -29,7 +25,7 @@ primarily consists in an attacker configuring predetermined values,
 making requests to a server using those values, and then analyzing the
 response. For the sake of efficiency, an attacker may use a dictionary
 attack (with or without mutations) or a traditional brute-force attack
-(with given classes of characters e.g.: alphanumerical, special, case
+(with given classes of characters e.g.: alphanumeric, special, case
 (in)sensitive). Considering a given method, number of tries, efficiency
 of the system which conducts the attack, and estimated efficiency of the
 system which is attacked the attacker is able to calculate approximately
@@ -43,8 +39,7 @@ Brute-force attacks are often used for attacking authentication and
 discovering hidden content/pages within a web application. These attacks
 are usually sent via GET and POST requests to the server. In regards to
 authentication, brute force attacks are often mounted when an [account
-lockout
-policy](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#account-lockout)
+lockout policy](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#account-lockout)
 is not in place.
 
 ### Example 1
@@ -54,48 +49,50 @@ of known pages, for instance from a popular content management system,
 and simply requesting each known page then analyzing the HTTP response
 code to determine if the page exists on the target server.
 
-[DirBuster](https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)
+[DirBuster](https://wiki.owasp.org/index.php/Category:OWASP_DirBuster_Project)
 is a tool that does exactly this.
 
 Other tools for this type of attack are as follows:
 
-`- dirb (http://sourceforge.net/projects/dirb/)`
-`- WebRoot (http://www.cirt.dk/tools/webroot/WebRoot.txt)`
+- [dirb](http://sourceforge.net/projects/dirb/)
+- [WebRoot](http://www.cirt.dk/tools/webroot/WebRoot.txt)
 
-Dirb is capable of:
+dirb is capable of:
 
-`- set cookies`
-`- add any HTTP header`
-`- use PROXY`
-`- mutate objects which were found`
-`- test http(s) connections`
-`- seek catalogues and/or files using defined dictionaries and templates`
-`- and much much more`
+- setting cookies
+- adding any HTTP header
+- using PROXY
+- mutating objects which were found
+- testing http(s) connections
+- seeking catalogues or files using defined dictionaries and templates
+- and much much more
 
 The simplest test to perform is:
 
-    rezos@dojo ~/d/owasp_tools/dirb $ ./dirb http://testsite.test/
-    -----------------
-    DIRB v1.9
-    By The Dark Raver
-    -----------------
-    START_TIME: Mon Jul  9 23:13:16 2007
-    URL_BASE: http://testsite.test/
-    WORDLIST_FILES: wordlists/common.txt
-    SERVER_BANNER: lighttpd/1.4.15
-    NOT_EXISTANT_CODE: 404 [NOT FOUND]
-    (Location: '' - Size: 345)
+```console
+rezos@dojo ~/d/owasp_tools/dirb $ ./dirb http://testsite.test/
+-----------------
+DIRB v1.9
+By The Dark Raver
+-----------------
+START_TIME: Mon Jul  9 23:13:16 2007
+URL_BASE: http://testsite.test/
+WORDLIST_FILES: wordlists/common.txt
+SERVER_BANNER: lighttpd/1.4.15
+NOT_EXISTANT_CODE: 404 [NOT FOUND]
+(Location: '' - Size: 345)
 
-    -----------------
+-----------------
 
-    Generating Wordlist...
-    Generated Words: 839
+Generating Wordlist...
+Generated Words: 839
 
-    ---- Scanning URL: http://testsite.test/ ----
-    FOUND: http://testsite.test/phpmyadmin/
-           (***) DIRECTORY (*)
+---- Scanning URL: http://testsite.test/ ----
+FOUND: http://testsite.test/phpmyadmin/
+       (***) DIRECTORY (*)
+```
 
-In the output the attacker is informed that phpmyadmin/ directory was
+In the output the attacker is informed that `phpmyadmin/` directory was
 found. The attacker has now found a potential directory of interest
 within this application. In dirb's templates there are, among others, a
 dictionary containing information about invalid httpd configurations.
@@ -111,9 +108,8 @@ For example:
 
 Np.
 
-./WebRoot.pl -noupdate -host testsite.test -port 80 -verbose -match
-"test" -url "/private/<BRUTE>" -incremental lowercase -minimum 1
--maximum 1
+```console
+./WebRoot.pl -noupdate -host testsite.test -port 80 -verbose -match "test" -url "/private/<BRUTE>" -incremental lowercase -minimum 1 -maximum 1
 
 `oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00`
 `o          Webserver Bruteforcing 1.8          o`
@@ -137,10 +133,11 @@ Np.
 
 WebRoot.pl found one file "/private/b" on testsite.test, which contains
 phrase "test".
+```
 
 Another example is to examine ranges of the variable's values:
 
-    ./WebRoot.pl -noupdate -host testsite.test -port 80 -verbose -diff "Error" -url "/index.php?id=<BRUTE>" -incremental integer -minimum 1 -maximum 1
+`./WebRoot.pl -noupdate -host testsite.test -port 80 -verbose -diff "Error" -url "/index.php?id=<BRUTE>" -incremental integer -minimum 1 -maximum 1`
 
   - Road Blocks:
 
@@ -152,7 +149,6 @@ HTTP response code 200 but the page itself indicates "File not found".
 This can lead to false positives if the brute force tool is only relying
 on HTTP response codes.
 
-An advanced application assessment tool, such as [Burp
 Suite](http://portswigger.net/), can be used to parse specific parts of
 the page returned, looking for certain strings in an effort to reduce
 false positives.
@@ -161,45 +157,20 @@ false positives.
 
 In regards to authentication, when no password policy is in place an
 attacker can use lists of common username and passwords to brute force a
-username and/or password field until successful authentication.
+username or password field until successful authentication.
 
 ## Defensive Tools
 
-**Php-Brute-Force-Attack Detector**
-
-<http://yehg.net/lab/pr0js/files.php/php_brute_force_detect.zip>
+[Php-Brute-Force-Attack Detector](http://yehg.net/lab/pr0js/files.php/php_brute_force_detect.zip)
 
 Detect your web servers being scanned by brute force tools such as
 WFuzz, OWASP DirBuster and vulnerability scanners such as Nessus, Nikto,
 Acunetix ..etc. This helps you quickly identify probable probing by bad
 guys who's wanna dig possible security holes.
 
-<http://yehg.net/lab/pr0js/tools/php-brute-force-detector-readme.pdf>
+[Docs](http://yehg.net/lab/pr0js/tools/php-brute-force-detector-readme.pdf)
 
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - [:Category:Authentication](:Category:Authentication "wikilink")
-
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
-  - [Blind XPath Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [Insufficient Session-ID
-    Length](Insufficient_Session-ID_Length "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [Authentication](Authentication "wikilink")
 
 ## References
 
-<https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project>
-DirBuster <http://portswigger.net/>
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Probabilistic
-Techniques](Category:Probabilistic_Techniques "wikilink") [Category:
-Attack](Category:_Attack "wikilink")
+[DirBuster](https://wiki.owasp.org/index.php/Category:OWASP_DirBuster_Project)
