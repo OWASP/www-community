@@ -64,6 +64,7 @@ threat model. This must include the the following:
 
 Example:
 
+
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
 <th colspan="2" align="center">
@@ -117,6 +118,7 @@ Eoin Keary
 </tr>
 </table>
 
+
 ## External Dependencies
 
 External dependencies are items external to the code of the application that may pose a threat to the application. These items are typically
@@ -129,6 +131,7 @@ information should be documented in the external dependencies section. External 
 2. **Description** - A textual description of the external dependency.
 
 Example:
+
 
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
@@ -180,6 +183,7 @@ The Web Server is behind a firewall and the only communication available is TLS.
 </tr>
 </table>
 
+
 ## Entry Points
 
 Entry points define the interfaces through which potential attackers can interact with the application or supply it with data. In order for a potential attacker to attack an application, entry points must exist. Entry points in an application can be layered, for example each web page in a web application may contain multiple entry points. Entry points should be documented as follows:
@@ -192,6 +196,7 @@ vulnerabilities that are identified. In the case of layer entry points, a major.
 levels defined later in the document.
 
 Example:
+
 
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
@@ -254,12 +259,9 @@ The splash page for the college library website is the entry point for all users
 Login Page
 </td>
 <td>
-
 Students, faculty members and librarians must log in to the college
 library website before they can carry out any of the use cases.
-
 </td>
-
 <td>
 (1) Anonymous Web User
 (2) User with Login Credentials
@@ -300,6 +302,7 @@ The page used to enter a search query.
 </tr>
 </table>
 
+
 ## Assets
 
 The system must have something that the attacker is interested in; these items/areas of interest are defined as assets. Assets are essentially threat targets, i.e. they are the reason threats will exist. Assets can be both physical assets and abstract assets. For example, an asset of an application might be a list of clients and their personal information; this is a physical asset. An abstract asset might be the reputation of an organization. Assets are documented in the threat model as follows:
@@ -310,6 +313,7 @@ The system must have something that the attacker is interested in; these items/a
 4. **Trust Levels** - The level of access required to access the entry point is documented here. These will be cross referenced with the trust levels defined in the next step.
 
 Example:
+
 
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
@@ -551,6 +555,7 @@ The audit data shows all audit-able events that occurred within the College Libr
 </tr>
 </table>
 
+
 ## Trust Levels
 
 Trust levels represent the access rights that the application will grant to external entities. The trust levels are cross referenced with the entry points and assets. This allows us to define the access rights or privileges required at each entry point, and those required to interact with each asset. Trust levels are documented in the threat model as follows:
@@ -561,6 +566,7 @@ assets.
 3. **Description** - A textual description of the trust level detailing the external entity who has been granted the trust level.
 
 Example:
+
 
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
@@ -682,6 +688,7 @@ access.
 </tr>
 </table>
 
+
 ## Data Flow Diagrams
 
 All of the information collected allows us to accurately model the application through the use of Data Flow Diagrams (DFDs). The DFDs will
@@ -709,7 +716,6 @@ The data store shape is used to represent locations where data is stored. Data s
 
 ![Image:DFD_data_store.gif](/assets/DFD_data_store.gif "Image:DFD_data_store.gif")
 
-
 **Data Flow**
 The data flow shape represents data movement within the application. The direction of the data movement is represented by the arrow.
 
@@ -721,7 +727,6 @@ The privilege boundary shape is used to represent the change of privilege levels
 ![Image:DFD_privilge_boundary.gif](/assets/DFD_privilge_boundary.gif "Image:DFD_privilge_boundary.gif")
 
 ### Example
-
 
 **Data Flow Diagram for the College Library Website**
 
@@ -844,6 +849,7 @@ Threat aimed to gain privileged access to resources for gaining unauthorized acc
 Authorization
 </td>
 </table>
+
 
 ## Threat Analysis
 
@@ -969,6 +975,7 @@ measures) in place that can prevent each threat previously identified via threat
 Provided below is a brief and limited checklist which is by no means an exhaustive list for identifying countermeasures for specific threats.
 
 Example of countermeasures for ASF threat types are included in the following table:
+
 
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
@@ -1160,6 +1167,7 @@ Elevation of privilege
 </td>
 </tr>
 </table>
+
 
 Once threats and corresponding countermeasures are identified it is possible to derive a threat profile with the following criteria:
 
