@@ -5,7 +5,6 @@ layout: col-sidebar
 author:
 contributors:
 tags: ASP.NET
-auto-migrated: 1
 permalink: /ASP-NET_Request_Validation
 
 ---
@@ -14,28 +13,14 @@ permalink: /ASP-NET_Request_Validation
 
 # Description
 
-*Request validation* is a feature in ASP.NET that examines HTTP requests
-and determines whether they contain potentially dangerous content. This
-check adds protection from markup or code in the URL query string,
-cookies, or posted form values that might have been added for malicious
-purposes. This exploit is typically referred to as a *cross-site
-scripting* (XSS) attack. Request validation helps to prevent this kind
-of attack by throwing a "potentially dangerous value was detected" error
-and halting page processing if it detects input that may be malicious,
-such as markup or code in the request.
+*Request validation* is a feature in ASP.NET that examines HTTP requests and determines whether they contain potentially dangerous content. This check adds protection from mark-up or code in the URL query string, cookies, or posted form values that might have been added for malicious purposes. This exploit is typically referred to as a *cross-site scripting* (XSS) attack. Request validation helps to prevent this kind of attack by throwing a "potentially dangerous value was detected" error and halting page processing if it detects input that may be malicious, such as mark-up or code in the request.
 
-# Don't Rely on Request Validation for XSS Protection
+# Do Not Rely on Request Validation for XSS Protection
 
-Request validation is generally desirable and should be left enabled for
-defense in depth. It should **NOT** be
-used as your sole method of XSS protection, and does not guarantee to
-catch every type of invalid input. There are known, documented bypasses
-(such as JSON requests) that will not be addressed in future releases,
-and the request validation feature is no longer provided in ASP.NET
-vNext.
+Request validation is generally desirable and should be left enabled for defense in depth. It should **NOT** be
+used as your sole method of XSS protection, and does not guarantee to catch every type of invalid input. There are known, documented bypasses (such as JSON requests) that will not be addressed in future releases, and the request validation feature is no longer provided in ASP.NET vNext.
 
-Fully protecting your application from malicious input requires
-validating each field of user supplied data. This should start with
+Fully protecting your application from malicious input requires validating each field of user supplied data. This should start with
 [ASP.NET Validation Controls](http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100).aspx) or
 [DataAnnotations attributes](http://msdn.microsoft.com/en-us/library/ee256141(VS.100).aspx) to check for:
 
@@ -44,16 +29,14 @@ validating each field of user supplied data. This should start with
 - Data falls within an acceptable range
 - Allow list of permitted characters
 
-Any string input that is returned to the client should be encoded using
-an appropriate method, such as those provided via
+Any string input that is returned to the client should be encoded using an appropriate method, such as those provided via
 [AntiXssEncoder](http://msdn.microsoft.com/en-us/library/system.web.security.antixss.antixssencoder(v=vs.110).aspx).
 
 `var encodedInput = Server.HtmlEncode(userInput);`
 
 # Enabling Request Validation
 
-Request validation is enabled by default in ASP.NET. You can check to
-make sure it is enabled by reviewing the following areas:
+Request validation is enabled by default in ASP.NET. You can check to make sure it is enabled by reviewing the following areas:
 
 <table>
 <tbody>
@@ -91,39 +74,30 @@ make sure it is enabled by reviewing the following areas:
 
 # Selectively Disabling Request Validation
 
-In some cases you may need to accept input that will fail ASP.NET
-Request Validation, such as when receiving HTML markup from the end
-user. In these scenarios you should disable request validation for the
-smallest surface possible.
+In some cases you may need to accept input that will fail ASP.NET Request Validation, such as when receiving HTML mark-up from the end
+user. In these scenarios you should disable request validation for the smallest surface possible.
 
 ## ASP.NET Web Forms
 
-For ASP.NET Web Forms applications prior to v4.5, you will need to
-disable request validation at the page level. Be aware that when doing
-this all input values (cookies, query string, form elements) handled by
-this page will not be validated by ASP.NET.
+For ASP.NET Web Forms applications prior to v4.5, you will need to disable request validation at the page level. Be aware that when doing
+this all input values (cookies, query string, form elements) handled by this page will not be validated by ASP.NET.
 
 `<@ Page ValidateRequest="false" %>`
 
-Starting with ASP.NET 4.5 you can disable request validation at the
-individual server control level by setting `ValidateRequestMode` to
-"Disabled".
+Starting with ASP.NET 4.5 you can disable request validation at the individual server control level by setting `ValidateRequestMode` to `Disabled`.
 
 `<asp:TextBox ID="txtASPNet" ValidateRequestMode="Disabled" runat="server" />`
 
 ## ASP.NET MVC
 
-To disable request validation for a specific MVC controller action, you
-can use the `[ValidateInput(false)]` attribute as shown below.
+To disable request validation for a specific MVC controller action, you can use the `[ValidateInput(false)]` attribute as shown below.
 
 ```
 [ValidateInput(false)]
 public ActionResult Update(int userId, string description)
 ```
 
-Starting with ASP.NET MVC 3 you should use the `[AllowHtml]` attribute
-to decorate specific fields on your view model classes where request
-validation should not be applied:
+Starting with ASP.NET MVC 3 you should use the `[AllowHtml]` attribute to decorate specific fields on your view model classes where request validation should not be applied:
 
 ```
 public class User
@@ -140,11 +114,7 @@ public class User
 
 # Extending Request Validation
 
-If you are using ASP.NET 4.0 or higher, you have the option of extending
-or replacing the Request Validation logic by providing your own class
-that descends from `System.Web.Util.RequestValidator`. By implementing
-this class, you can determine when validation occurs and what type of
-request data to perform validation on.
+If you are using ASP.NET 4.0 or higher, you have the option of extending or replacing the Request Validation logic by providing your own class that descends from `System.Web.Util.RequestValidator`. By implementing this class, you can determine when validation occurs and what type of request data to perform validation on.
 
 ```
 public class CustomRequestValidation : RequestValidator
