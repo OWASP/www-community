@@ -65,6 +65,7 @@ threat model. This must include the the following:
 Example:
 
 
+
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
 <th colspan="2" align="center">
@@ -119,6 +120,7 @@ Eoin Keary
 </table>
 
 
+
 ## External Dependencies
 
 External dependencies are items external to the code of the application that may pose a threat to the application. These items are typically
@@ -131,6 +133,7 @@ information should be documented in the external dependencies section. External 
 2. **Description** - A textual description of the external dependency.
 
 Example:
+
 
 
 <table align="center" cellspacing="1" CELLPADDING="7">
@@ -184,6 +187,7 @@ The Web Server is behind a firewall and the only communication available is TLS.
 </table>
 
 
+
 ## Entry Points
 
 Entry points define the interfaces through which potential attackers can interact with the application or supply it with data. In order for a potential attacker to attack an application, entry points must exist. Entry points in an application can be layered, for example each web page in a web application may contain multiple entry points. Entry points should be documented as follows:
@@ -196,6 +200,7 @@ vulnerabilities that are identified. In the case of layer entry points, a major.
 levels defined later in the document.
 
 Example:
+
 
 
 <table align="center" cellspacing="1" CELLPADDING="7">
@@ -303,6 +308,7 @@ The page used to enter a search query.
 </table>
 
 
+
 ## Assets
 
 The system must have something that the attacker is interested in; these items/areas of interest are defined as assets. Assets are essentially threat targets, i.e. they are the reason threats will exist. Assets can be both physical assets and abstract assets. For example, an asset of an application might be a list of clients and their personal information; this is a physical asset. An abstract asset might be the reputation of an organization. Assets are documented in the threat model as follows:
@@ -313,6 +319,7 @@ The system must have something that the attacker is interested in; these items/a
 4. **Trust Levels** - The level of access required to access the entry point is documented here. These will be cross referenced with the trust levels defined in the next step.
 
 Example:
+
 
 
 <table align="center" cellspacing="1" CELLPADDING="7">
@@ -556,6 +563,7 @@ The audit data shows all audit-able events that occurred within the College Libr
 </table>
 
 
+
 ## Trust Levels
 
 Trust levels represent the access rights that the application will grant to external entities. The trust levels are cross referenced with the entry points and assets. This allows us to define the access rights or privileges required at each entry point, and those required to interact with each asset. Trust levels are documented in the threat model as follows:
@@ -566,6 +574,7 @@ assets.
 3. **Description** - A textual description of the trust level detailing the external entity who has been granted the trust level.
 
 Example:
+
 
 
 <table align="center" cellspacing="1" CELLPADDING="7">
@@ -689,6 +698,7 @@ access.
 </table>
 
 
+
 ## Data Flow Diagrams
 
 All of the information collected allows us to accurately model the application through the use of Data Flow Diagrams (DFDs). The DFDs will
@@ -758,6 +768,7 @@ A threat categorization such as STRIDE is useful in the identification of threat
 
 A threat list of generic threats organized in these categories with examples and the affected security controls is provided in the following
 table:
+
 
 
 <table align="center" cellspacing="1" CELLPADDING="7">
@@ -849,6 +860,7 @@ Threat aimed to gain privileged access to resources for gaining unauthorized acc
 Authorization
 </td>
 </table>
+
 
 
 ## Threat Analysis
@@ -977,6 +989,7 @@ Provided below is a brief and limited checklist which is by no means an exhausti
 Example of countermeasures for ASF threat types are included in the following table:
 
 
+
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
 <th colspan="4" align="center">
@@ -1087,7 +1100,13 @@ Auditing and Logging
 </td>
 </tr>
 </table>
+
+
+
 When using STRIDE, the following threat-mitigation table can be used to identify techniques that can be employed to mitigate the threats.
+
+
+
 <table align="center" cellspacing="1" CELLPADDING="7">
 <tr bgcolor="#cccccc">
 <th colspan="4" align="center">
@@ -1167,6 +1186,7 @@ Elevation of privilege
 </td>
 </tr>
 </table>
+
 
 
 Once threats and corresponding countermeasures are identified it is possible to derive a threat profile with the following criteria:
