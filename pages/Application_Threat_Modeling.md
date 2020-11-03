@@ -82,7 +82,7 @@ The effort, work, and timeframes spent on threat modeling relate to the process 
 delivered. The idea that threat modeling is waterfall or ‘heavyweight’ is based on threat modeling approaches from the early 2000s. Modern
 threat modeling building blocks fit well into agile and are in wide use.
 
-#### When to Rhreat Model
+#### When to Threat Model
 
 When the system changes, you need to consider the security impact of those changes. Sometimes those impacts are not obvious.
 
