@@ -187,7 +187,7 @@ To harden the channel, the program would take advantage of the
 `OnConnect` callback offered by a library, framework or platform. In the
 callback, the program would verify the remote host's identity by
 validating its certificate or public key. While pinning does not have to
-occur in an `OnConnect` callback, its often most convenient because the
+occur in an `OnConnect` callback, it's often most convenient because the
 underlying connection information is readily available.
 
 ## What Should Be Pinned?
@@ -279,12 +279,12 @@ public key.
 There are two downsides to public key pinning. First, it's harder to
 work with keys (versus certificates) since you usually must extract the
 key from the certificate. Extraction is a minor inconvenience in Java
-and .Net, buts its uncomfortable in Cocoa/CocoaTouch and OpenSSL.
+and .Net, buts it's uncomfortable in Cocoa/CocoaTouch and OpenSSL.
 Second, the key is static and may violate key rotation policies.
 
 ### Hashing
 
-While the three choices above used DER encoding, its also acceptable to
+While the three choices above used DER encoding, it's also acceptable to
 use a hash of the information (or other transforms). In fact, the
 original sample programs were written using digested certificates and
 public keys. The samples were changed to allow a programmer to inspect
@@ -296,7 +296,7 @@ you application is concerned about leaking information during
 decompilation and re-engineering.
 
 Second, a digested certificate fingerprint is often available as a
-native API for many libraries, so its convenient to use.
+native API for many libraries, so it's convenient to use.
 
 Finally, an organization might want to supply a reserve (or back-up)
 identity in case the primary identity is compromised. Hashing ensures
@@ -453,7 +453,7 @@ int pkp_pin_peer_pubkey(SSL* ssl)
         len2 = i2d_X509_PUBKEY(X509_get_X509_PUBKEY(cert), &temp);
 
         /* These checks are verifying we got back the same values as when we sized the buffer.      */
-        /* Its pretty weak since they should always be the same. But it gives us something to test. */
+        /* It's pretty weak since they should always be the same. But it gives us something to test. */
         if(!((len1 == len2) && (temp != NULL) && ((temp - buff1) == len1)))
             break; /* failed */
 
