@@ -707,44 +707,44 @@ allow us to gain a better understanding of the application by providing a visual
 **External Entity**
 The external entity shape is used to represent any entity outside the application that interacts with the application via an entry point.
 
-![Image:DFD_external_entity.gif](/assets/DFD_external_entity.gif "Image:DFD_external_entity.gif")
+![Image:DFD_external_entity.gif](../assets/images/DFD_external_entity.gif "Image:DFD_external_entity.gif")
 
 **Process**
 The process shape represents a task that handles data within the application. The task may process the data or perform an action based on
 the data.
 
-![Image:DFD_process.gif](/assets/DFD_process.gif "Image:DFD_process.gif")
+![Image:DFD_process.gif](../assets/images/DFD_process.gif "Image:DFD_process.gif")
 
 **Multiple Process**
 The multiple process shape is used to present a collection of subprocesses. The multiple process can be broken down into its
 subprocesses in another DFD.
 
-![Image:DFD_multiple_process.gif](/assets/DFD_multiple_process.gif "Image:DFD_multiple_process.gif")
+![Image:DFD_multiple_process.gif](../assets/images/DFD_multiple_process.gif "Image:DFD_multiple_process.gif")
 
 **Data Store**
 The data store shape is used to represent locations where data is stored. Data stores do not modify the data, they only store data.
 
-![Image:DFD_data_store.gif](/assets/DFD_data_store.gif "Image:DFD_data_store.gif")
+![Image:DFD_data_store.gif](../assets/images/DFD_data_store.gif "Image:DFD_data_store.gif")
 
 **Data Flow**
 The data flow shape represents data movement within the application. The direction of the data movement is represented by the arrow.
 
-![Image:DFD_data_flow.gif](/assets/DFD_data_flow.gif "Image:DFD_data_flow.gif")
+![Image:DFD_data_flow.gif](../assets/images/DFD_data_flow.gif "Image:DFD_data_flow.gif")
 
 **Privilege Boundary**
 The privilege boundary shape is used to represent the change of privilege levels as the data flows through the application.
 
-![Image:DFD_privilge_boundary.gif](/assets/DFD_privilge_boundary.gif "Image:DFD_privilge_boundary.gif")
+![Image:DFD_privilge_boundary.gif](../assets/images/DFD_privilge_boundary.gif "Image:DFD_privilge_boundary.gif")
 
 ### Example
 
 **Data Flow Diagram for the College Library Website**
 
-![Image:Data flow1.jpg](/assets/Data_flow1.jpg "Image:Data flow1.jpg")
+![Image:Data flow1.jpg](../assets/images/Data_flow1.jpg "Image:Data flow1.jpg")
 
 **User Login Data Flow Diagram for the College Library Website**
 
-![Image:Data flow2.jpg](/assets/Data_flow2.jpg "Image:Data flow2.jpg")
+![Image:Data flow2.jpg](../assets/images/Data_flow2.jpg "Image:Data flow2.jpg")
 
 
 ## Determine and Rank Threats
@@ -896,14 +896,14 @@ involves going through iterative cycles where initially all the possible threats
 At the next iteration, threats are further analyzed by exploring the attack paths, the root causes (e.g. vulnerabilities, depicted as orange
 blocks) for the threat to be exploited, and the necessary mitigation controls (e.g. countermeasures, depicted as green blocks). A threat tree as shown in figure 2 is useful to perform such threat analysis
 
-![Figure 2: Threat Graph](/assets/Threat_Graph.gif "Figure 2: Threat Graph")
+![Figure 2: Threat Graph](../assets/images/Threat_Graph.gif "Figure 2: Threat Graph")
 
 Once common threats, vulnerabilities, and attacks are assessed, a more focused threat analysis should take in consideration use and abuse
 cases. By thoroughly analyzing the use scenarios, weaknesses can be identified that could lead to the realization of a threat. Abuse cases
 should be identified as part of the security requirement engineering activity. These abuse cases can illustrate how existing protective
 measures could be bypassed, or where a lack of such protection exists. A use and misuse case graph for authentication is shown in figure below:
 
-![UseAndMisuseCase.jpg](/assets/UseAndMisuseCase.jpg "UseAndMisuseCase.jpg")
+![UseAndMisuseCase.jpg](../assets/images/UseAndMisuseCase.jpg "UseAndMisuseCase.jpg")
 
 Finally, it is possible to bring all of this together by determining the types of threat to each component of the decomposed system. This can be done by using a threat categorization such as STRIDE or ASF, the use of threat trees to determine how the threat can be exposed by a
 vulnerability, and use and misuse cases to further validate the lack of a countermeasure to mitigate the threat.
@@ -918,7 +918,7 @@ Threats can be ranked from the perspective of risk factors. By determining the r
 is possible to create a prioritized list of threats to support a risk mitigation strategy, such as deciding on which threats have to be
 mitigated first. Different risk factors can be used to determine which threats can be ranked as High, Medium, or Low risk. In general, threat risk models use different factors to model risks such as those shown in figure below:
 
-![Figure 3: Risk Model Factors](/assets/Riskfactors.JPG "Figure 3: Risk Model Factors")
+![Figure 3: Risk Model Factors](../assets/images/Riskfactors.JPG "Figure 3: Risk Model Factors")
 
 ## DREAD
 
