@@ -3,16 +3,15 @@
 title: Injection Theory
 layout: col-sidebar
 author: Jeff Williams
-contributors:
+contributors: Jmanico, kingthorin
 tags:
-auto-migrated: 1
 permalink: /Injection_Theory
 
 ---
 
 {% include writers.html %}
 
-[Injection](Injection_Flaws "wikilink") is an attacker's attempt to send
+[Injection](Injection_Flaws) is an attacker's attempt to send
 data to an application in a way that will change the meaning of commands
 being sent to an interpreter. For example, the most common example is
 SQL injection, where an attacker sends "101 OR 1=1" instead of just
@@ -52,7 +51,7 @@ the form of URL parameters, form fields, headers, or cookies. But data
 that comes from databases, web services, and other sources is frequently
 untrusted from a security perspective. That is, untrusted data is input
 that can be manipulated to contain a web attack payload. The [OWASP Code
-Review Guide](Searching_for_Code_in_J2EE/Java "wikilink") has a decent
+Review Guide](https://wiki.owasp.org/index.php/Category:OWASP_Code_Review_Project) has a decent
 list of methods that return untrusted data in various languages, but you
 should be careful about your own methods as well.
 
@@ -75,27 +74,27 @@ gauntlet and what cannot.
 When untrusted data is used by an application, it is often inserted into
 a command, document, or other structure. We will call this the
 **injection context**. For example, consider a SQL statement constructed
-with "SELECT \* FROM users WHERE name='" + request.getParameter( "name"
-) + "'"; In this example, the name is data from a potentially hostile
+with `SELECT * FROM users WHERE name='" + request.getParameter( "name"
+) + "'";` In this example, the name is data from a potentially hostile
 user, and so could contain an attack. But the attack is constrained by
-the injection context. In this case, inside single quotes ('). That's
+the injection context. In this case, inside single quotes `'`. That's
 why single quotes are so important for SQL injection.
 
 Consider a few of the types of commands and documents that might allow
 for injection...
 
-  - SQL queries
-  - LDAP queries
-  - Operating system command interpreters
-  - Any program invocation
-  - XML documents
-  - HTML documents
-  - JSON structures
-  - HTTP headers
-  - File paths
-  - URLs
-  - A variety of expresson languages
-  - etc...
+- SQL queries
+- LDAP queries
+- Operating system command interpreters
+- Any program invocation
+- XML documents
+- HTML documents
+- JSON structures
+- HTTP headers
+- File paths
+- URLs
+- A variety of expression languages
+- etc...
 
 In all of these cases, if the attacker can "break out" of the intended
 injection context and modify the meaning of the command or document,
@@ -113,7 +112,7 @@ If you are a student of application security, you should learn as much
 as you can about how real parsers work. Learn about grammars, and how to
 read BNF. Beware, though, that the grammar may not match the
 implementation. Real world parsers have many corner cases and flaws that
-may not match the spec. A scientific approach to testing the \*real\*
+may not match the spec. A scientific approach to testing the *real*
 behavior of a parser is the best course forward.
 
 TBD. Describe different types of parsers, tokens (particularly control
@@ -146,34 +145,30 @@ ways to inject code:
 
 ;Injecting UP:The most common way is to close the current context and
 start a new code context. For example, this is what you do when you
-close an HTML attribute with a "\> and start a new
-
-<script>
-
+close an HTML attribute with a `"\>` and start a new
+`<script>`
 tag. This attack closes the original context (going up in the hierarchy)
 and then starts a new tag that will allow script code to execute.
 Remember that you may be able to skip many layers up in the hierarchy
 when trying to break out of your current context. For example, a
-
-</script>
-
+`</script>`
 tag may be able to terminate a script block even if it is injected
 inside a quoted string inside a method call inside the script. This
 happens because the HTML parser runs before the JavaScript parser.
 
-  - Injecting DOWN:The less common way to perform XSS injection is to
-    introduce a code subcontext without closing the current context. For
-    example, if the attacker is able to change
-    `<img src="...UNTRUSTED DATA HERE..." />` into `<img
-    src="<javascript:alert(document.cookie>)" />` they do not have to
-    break out of the HTML attribute context. Instead, they introduce a
-    subcontext that allows scripting within the src attribute (in this
-    case a javascript url). Another example is the expression()
-    functionality in CSS properties. Even though you may not be able to
-    escape a quoted CSS property to inject up, you may be able to
-    introduce something like
-    xss:expression(document.write(document.cookie)) without ever leaving
-    the current context.
+- Injecting DOWN:The less common way to perform XSS injection is to
+introduce a code subcontext without closing the current context. For
+example, if the attacker is able to change
+`<img src="...UNTRUSTED DATA HERE..." />` into 
+`<img src="<javascript:alert(document.cookie>)" />` they do not have to
+break out of the HTML attribute context. Instead, they introduce a
+subcontext that allows scripting within the `src` attribute (in this
+case a javascript url). Another example is the `expression()`
+functionality in CSS properties. Even though you may not be able to
+escape a quoted CSS property to inject up, you may be able to
+introduce something like
+`xss:expression(document.write(document.cookie))` without ever leaving
+the current context.
 
 There's also the possibility of injecting directly in the current
 context. For example, if you take untrusted input and put it directly
@@ -203,11 +198,11 @@ different parsers (XML, HTML, JavaScript, VBScript, CSS, URL, etc...).
 
 TBD
 
-# DEFENSES
+# Defenses
 
 ## Validation
 
-Traditionally, [input validation](Data_Validation "wikilink") has been
+Traditionally, input validation has been
 the preferred approach for handling untrusted data. However, input
 validation is not a great solution for injection attacks. First, input
 validation is typically done when the data is received, before the
@@ -220,8 +215,8 @@ character?
 
 While input validation is important and should always be performed, it
 is not a complete solution for injection attacks. It's better to think
-of input validation as [defense in depth](Defense_in_depth "wikilink")
-and use **escaping** as described below as the primary defense.
+of input validation as defense in depth
+and use of **escaping** as described below as the primary defense.
 
 ## Using Safe Interfaces
 
@@ -253,8 +248,3 @@ used to convey an injection attack. There is **no harm** in escaping
 data properly - it will still render in the browser properly. Escaping
 simply lets the interpreter know that the data is not intended to be
 executed, and therefore prevents attacks from working.
-
-## Author
-
-[User:Jeff Williams](User:Jeff_Williams "wikilink") :
-jeff.williams\[at\]contrastsecurity.com

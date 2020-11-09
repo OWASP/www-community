@@ -3,9 +3,8 @@
 title: Improper Error Handling
 layout: col-sidebar
 author:
-contributors:
+contributors: Jeremy Ferragamo, Wichers, Jim Bird, kingthorin
 tags:
-auto-migrated: 1
 permalink: /Improper_Error_Handling
 
 ---
@@ -62,8 +61,7 @@ are susceptible to error handling problems.
 
 ## Examples and References
 
-  - [OWASP Testing Guide - generating error
-    codes]/www-project-web-security-testing-guide)
+- [OWASP Testing Guide]/www-project-web-security-testing-guide)
 
 ## How to Determine If You Are Vulnerable
 
