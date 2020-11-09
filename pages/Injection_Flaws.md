@@ -3,9 +3,8 @@
 title: Injection Flaws
 layout: col-sidebar
 author:
-contributors:
+contributors: Jeremy Ferragamo, Wichers, Eofedal, kingthorin
 tags:
-auto-migrated: 1
 permalink: /Injection_Flaws
 
 ---
@@ -61,16 +60,16 @@ properly coded.
 
 ## Examples
 
-1.  A malicious parameter could modify the actions taken by a system
-    call that normally retrieves the current user’s file to access
-    another user’s file (e.g., by including path traversal “../”
-    characters as part of a filename request). Additional commands could
-    be tacked on to the end of a parameter that is passed to a shell
-    script to execute an additional shell command (e.g., “; rm –r \*”)
-    along with the intended command.
-2.  SQL queries could be modified by adding additional ‘constraints’ to
-    a where clause (e.g., “OR 1=1”) to gain access to or modify
-    unauthorized data.
+1. A malicious parameter could modify the actions taken by a system
+call that normally retrieves the current user’s file to access
+another user’s file (e.g., by including path traversal `../`
+characters as part of a filename request). Additional commands could
+be tacked on to the end of a parameter that is passed to a shell
+script to execute an additional shell command (e.g., `; rm –r \*`)
+along with the intended command.
+2. SQL queries could be modified by adding additional ‘constraints’ to
+a where clause (e.g., `OR 1=1`) to gain access to or modify
+unauthorized data.
 
 ## How to Determine If You Are Vulnerable
 
@@ -129,19 +128,5 @@ languages to help prevent many forms of injection.
 
 ## References
 
-  - OWASP [SQL Injection Prevention Cheat
-    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
-  - OWASP [Developers Guide, Chapter on Data
-    Validation](Data_Validation "wikilink")
-  - OWASP [Testing Guide: Chapter on SQL Injection
-    Testing](Testing_for_SQL_Injection_\(OWASP-DV-005\) "wikilink")
-  - OWASP [Code Review Guide: Chapter on SQL
-    Injection](Reviewing_Code_for_SQL_Injection "wikilink")
-  - OWASP [Code Review Guide: Chapter on Command
-    Injection](Reviewing_Code_for_OS_Injection "wikilink")
-  - [How to Build an HTTP Request Validation
-    Engine](How_to_Build_an_HTTP_Request_Validation_Engine_for_Your_J2EE_Application "wikilink")
-    (J2EE validation with Stinger)
-  - [Have Your Cake and Eat It
-    Too](Have_Your_Cake_and_Eat_It_Too "wikilink") (.NET validation)
-  - [NOSQL-injection](http://erlend.oftedal.no/blog/?blogid=110)
+- OWASP [SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+- [NOSQL-injection](http://erlend.oftedal.no/blog/?blogid=110)
