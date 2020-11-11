@@ -70,8 +70,6 @@ A common approach to fuzzing is to define lists of "known-to-be-dangerous values
 - for chars: escaped, interpretable characters / instructions (ex: For
     SQL Requests, quotes / commands...)
 
-<!-- end list -->
-
 Please refer to [OWASP's Fuzz Vector's
 resource](https://owasp.org/www-project-web-security-testing-guide/v41/6-Appendix/C-Fuzz_Vectors) for real-life fuzzing vectors examples and methodology.
 
