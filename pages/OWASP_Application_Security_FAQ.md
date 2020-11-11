@@ -148,22 +148,24 @@ example of a login page in a web application where the database is SQL
 Server. The user needs to input Username and Password in the text boxes
 in Login.asp page. Suppose the user enters the following: Username :
 Obelix and Password : Dogmatix This input is then used to build a query
-dynamically which would be something like: SELECT \* FROM Users WHERE
-username= 'Obelix' and password='Dogmatix' This query would return to
+dynamically which would be something like: 
+`SELECT * FROM Users WHERE username= 'Obelix' and password='Dogmatix'`
+This query would return to
 the application a row from the database with the given values. The user
 is considered authenticated if the database returns one or more rows to
 the application. Now, suppose an attacker enters the following input in
-the login page: Username : ' or 1=1-- The query built will look like
-this: SELECT \* FROM Users WHERE username='' or 1=1-- and password='' --
+the login page: `Username : ' or 1=1--` The query built will look like
+this: 
+`SELECT * FROM Users WHERE username='' or 1=1-- and password='' --`
 in SQL Server is used to comment out the rest of the line. So, our query
-is now effectively: SELECT \* FROM Users WHERE username='' or 1=1 This
+is now effectively: 
+`SELECT \* FROM Users WHERE username='' or 1=1` This
 query will look in the database for a row where either username is blank
-or the condition 1=1 is met. Since the latter always evaluates to true,
+or the condition `1=1` is met. Since the latter always evaluates to true,
 the query will return all rows of the Users table and the user is
 authenticated. The attacker has been successful in logging into the
 application without a username and password. You can read more on this
-at the Securiteam site:
-<http://www.securiteam.com/securityreviews/5DP0N1P76E.html>
+at the [Securiteam site](http://www.securiteam.com/securityreviews/5DP0N1P76E.html)
 
 ## Is it just ASP and SQL Server or are all platforms vulnerable?
 
@@ -199,9 +201,8 @@ of prevention is not using dynamic SQL queries. This can be achieved by
 using stored procedures or bind variables in databases that support
 these features. For applications written in Java, CallableStatements and
 PreparedStatements can be used. For ASP applications, ADO Command
-Objects can be used. You can check the following article for more on SQL
-Injection in Oracle:
-<http://www.integrigy.com/info/IntegrigyIntrotoSQLInjectionAttacks.pdf>
+Objects can be used. You can check the following article for more on [SQL
+Injection in Oracle](http://www.integrigy.com/info/IntegrigyIntrotoSQLInjectionAttacks.pdf)
 
 ## I'm using stored procedures for authentication, am I vulnerable?
 
@@ -218,8 +219,7 @@ where the stored procedure takes a string as input and uses this string
 to build the query without validating it. While this is more difficult
 to exploit, this scenario still often leads to successful SQL Injection.
 This article explains how SQL Injection affects stored procedures in
-more detail:
-<http://palisade.plynt.com/issues/2006Jun/injection-stored-procedures/>
+[more detail](http://palisade.plynt.com/issues/2006Jun/injection-stored-procedures/)
 
 ## I'm using client side JavaScript code for checking user input. Isn't that enough?
 
@@ -229,7 +229,7 @@ to prevent SQL Injection. Client side scripts only check for input in
 the browser. But this does not guarantee that the information will
 remain the same till it reaches the server. To bypass client side
 JavaScript, the attacker can trap the request in a proxy (eg. WebScarab,
-[Paros](http://www.parosproxy.org)) after it leaves the browser and
+[ZAP](http://www.zaproxy.org)) after it leaves the browser and
 before it reaches the server and there he can alter input fields. The
 attacker can also inject commands into the querystring variables which
 are not checked by the client side scripts, or could disable JavaScript
@@ -275,7 +275,7 @@ manipulate it.
 
 Manipulating the variables in the URL is simple. But attackers can also
 manipulate almost all information going from the client to the server
-like form fields, hidden fields, content-length, session-id and http
+like form fields, hidden fields, content-length, session-id and HTTP
 methods.
 
 ## How do attackers manipulate the information? What tools do they use?
@@ -287,8 +287,8 @@ the HTTP/HTTPS proxy, the tool can see all information flowing between
 the client and the server; it even allows the attacker to modify any
 part of the request before sending it. Some such tools are: WebScarab
 can be downloaded from the OWASP site. Odysseus can be found at
-<http://www.bindshell.net/tools/odysseus> Paros can be downloaded from
-<http://www.parosproxy.org>
+[bindshell.net](http://www.bindshell.net/tools/odysseus) ZAP can be downloaded from
+[zaproxy.org](https://www.zaproxy.org)
 
 ## I'm using SSL. Can attackers still modify information?
 
@@ -350,16 +350,16 @@ password of the user to steal the information.
 The response header sent from the server has some cache control
 directives that can be set from your code. These directives control the
 caching of content on any cache. The directives to be set are
-Cache-Control : no-cache, no-store and Expires: 0. But since legacy HTTP
-1.0 servers do not support the Cache-Control headers, universally,
-Pragma: no-cache header should be used, too.
+`Cache-Control : no-cache, no-store` and `Expires: 0`. But since legacy HTTP
+1.0 servers do not support the `Cache-Control` headers, universally,
+`Pragma: no-cache` header should be used, too.
 
 ## What's the difference between the cache-control directives: no-cache, and no-store?
 
-The no-cache directive in a response indicates that the response must
+The `no-cache` directive in a response indicates that the response must
 not be used to serve a subsequent request i.e. the cache must not
 display a response that has this directive set in the header but must
-let the server serve the request. The no-cache directive can include
+let the server serve the request. The `no-cache` directive can include
 some field names; in which case the response can be shown from the cache
 except for the field names specified which should be served from the
 server. The no-store directive applies to the entire message and
@@ -368,27 +368,26 @@ request that asked for it.
 
 ## Am I totally safe with these directives?
 
-No. But generally, use both Cache-Control: no-cache, no-store and
-Pragma: no-cache, in addition to Expires: 0 (or a sufficiently backdated
+No. But generally, use both `Cache-Control: no-cache, no-store` and
+`Pragma: no-cache`, in addition to `Expires: 0` (or a sufficiently back-dated
 GMT date such as the UNIX epoch). Non-html content types like pdf, word
 documents, excel spreadsheets, etc often get cached even when the above
 cache control directives are set (although this varies by version and
-additional use of must-revalidate, pre-check=0, post-check=0, max-age=0,
-and s-maxage=0 in practice can sometimes result at least in file
+additional use of `must-revalidate`, `pre-check=0`, `post-check=0`, `max-age=0`,
+and `s-maxage=0` in practice can sometimes result at least in file
 deletion upon browser closure in some cases due to browser quirks and
-HTTP implementations). Also, 'Autocomplete' feature allows a browser to
+HTTP implementations). Also, `Autocomplete` feature allows a browser to
 cache whatever the user types in an input field of a form. To check
 this, the form tag or the individual input tags should include
-'Autocomplete="Off" ' attribute. However, it should be noted that this
+`Autocomplete="Off"` attribute. However, it should be noted that this
 attribute is non-standard (although it is supported by the major
 browsers) so it will break XHTML validation.
 
 ## Where can I learn more about caching?
 
-Some useful links that talk about caching are - Caching Tutorial for Web
-Authors and Webmasters by Mark Nottingham at
-<http://www.mnot.net/cache_docs/> and HTTP RFC (sec14.9.1) at
-<http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html>
+Some useful links that talk about caching are - 
+[Caching Tutorial for Web Authors and Webmasters by Mark Nottingham](http://www.mnot.net/cache_docs/)
+and [HTTP RFC (sec14.9.1)](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
 
 # Cross Site Scripting
 
@@ -400,8 +399,8 @@ This relies on the server reflecting back user input without checking
 for embedded javascript. This can be used to steal cookies and session
 IDs. Let's see how it works. We would all have come across the following
 situation sometime - we type a URL in the browser, say
-www.abcd.com/mypage.asp, and receive an error page that says "Sorry
-www.abcd.com/mypage.asp does not exist" or a page with a similar
+`www.abcd.com/mypage.asp`, and receive an error page that says 
+`Sorry www.abcd.com/mypage.asp does not exist` or a page with a similar
 message. In other words, pages that display the user input back on the
 browser. Pages like this could be exploited using XSS. Instead of a
 normal input, think what will happen if the input contains a script in
@@ -413,8 +412,7 @@ clicks it, the script gets executed on the user's browser. This script
 may have been written to collect important information about the user
 and send it to the attacker. Kevin Spett's paper Cross Site Scripting,
 Are your web applications vulnerable? is a good source of information on
-this topic and is available at
-<http://www.spidynamics.com/whitepapers/SPIcross-sitescripting.pdf> The
+this [topic](http://www.spidynamics.com/whitepapers/SPIcross-sitescripting.pdf) The
 Cross Site Scripting FAQ at CGI Security is another good place to learn
 more on XSS.
 
@@ -445,19 +443,19 @@ all special characters that may be used in a script. If the code
 replaces the special characters by the following before displaying the
 output, XSS can be prevented to some extent.
 
-| style="text-align:center;" | Special Character | Escape Sequence |
-| -------------------------- | ----------------- | --------------- |
-| \<                         |                   | \<              |
-| \>                         |                   | \>              |
-| (                          |                   | (               |
-| )                          |                   | )               |
-| \*                         |                   | \*              |
-| &                          |                   | &               |
+| Character | Escape Sequence |
+|:---------:|:---------------:|
+| `<`      |`&lt;`         |
+| `>`      |`&gt;`         |
+| `(`      |`&#40;`        |
+| `)`      |`&#41;`        |
+| `*`      |`&#42;`        |
+| `&`      |`&amp;`        |
 
 Gunter Ollmann has written an excellent paper on the use of special
 characters in XSS attacks. For instance, the above technique of escaping
 special characters cannot protect against a script injected like
-"<javascript:self.location.href> = 'www.evil.org' " as this script does
+`javascript:self.location.href = 'www.evil.org'` as this script does
 not use any of the special characters.
 
 ## Can XSS be prevented without modifying the source code?
@@ -467,8 +465,7 @@ input, output validation to prevent the stealing of cookies by XSS.
 Internet Explorer 6 has an attribute called HTTP Only that can be set
 for cookies. Using this attribute makes sure that the cookie can not be
 accessed by any scripts. More details are available at the MSDN site on
-httpcookies at
-<http://msdn.microsoft.com/library/default.asp?url=/workshop/author/dhtml/httponly_cookies.asp>
+[httpcookies](http://msdn.microsoft.com/library/default.asp?url=/workshop/author/dhtml/httponly_cookies.asp)
 Mozilla also has plans to implement a similar feature. Researchers have
 found a method to beat this. It is known as Cross Site Tracing.
 
@@ -493,8 +490,7 @@ were used. To summarize, HTTP Only cookies prevent the JavaScript from
 directly accessing the cookies but the attacker was able to retrieve it
 through an indirect method. XST can be prevented by disabling the TRACE
 method on the web server. This paper by Jeremiah Grossman discusses XST
-in greater detail
-<http://www.cgisecurity.com/whitehat-mirror/WhitePaper_screen.pdf>
+in greater [detail](http://www.cgisecurity.com/whitehat-mirror/WhitePaper_screen.pdf)
 
 # Web Server Fingerprinting
 
@@ -511,11 +507,9 @@ else.
 ## How can I fake the banners or rewrite the headers from my web server?
 
 There are a number of tools that help in faking the banners. URLScan is
-a tool that can change the banner of an IIS web server.
-<http://www.microsoft.com/technet/treeview/default.asp?url=/technet/security/tools/URLScan.asp>
-mod_security has a feature for changing the identity of the Apache web
-server. It can be found at <http://www.modsecurity.org/> Servermask for
-faking banners of IIS, can be found at <http://www.servermask.com/>
+a tool that can change the banner of an [IIS web server](http://www.microsoft.com/technet/treeview/default.asp?url=/technet/security/tools/URLScan.asp)
+[mod_security](http://www.modsecurity.org/) has a feature for changing the identity of the Apache web
+server. [Servermask for faking banners of IIS](http://www.servermask.com/)
 
 ## Once I fake the banners, can my web server still be fingerprinted?
 
@@ -525,11 +519,9 @@ features not specified in HTTP RFCs differently. Suppose we make a
 database of these special requests and the responses of each web server.
 We can now send these requests to the web server we want to fingerprint
 and compare the responses with the database. This is the technique used
-by tools like Fire & Water. This tool can be found at
-<http://www.ntobjectives.com/products/firewater/> There is a paper by
-Saumil Shah that discusses the tool httprint at
-<http://net-square.com/httprint_paper.html> httprint can be
-found at <http://net-square.com/httprint.html>
+by tools like [Fire & Water](http://www.ntobjectives.com/products/firewater/) There is a paper by
+Saumil Shah that discusses the [tool httprint](http://net-square.com/httprint_paper.html), 
+httprint can be found at [net-square.com](http://net-square.com/httprint.html)
 
 ## A friend told me it's safer to run my web server on a non-standard port. Is that right?
 
@@ -569,9 +561,7 @@ exploits and try to break in.
 ## I want to chain my proxy tool with a proxy server; are there tools that let me do that?
 
 Yes, there are several tools that allow proxy chaining. Some of these
-are: WebScarab - <http://www.owasp.org/development/webscarab> Exodus -
-<http://home.intekom.com/rdawes/exodus.html> Odysseus -
-<http://www.wastelands.gen.nz/odysseus/index.php>
+are: [Zaproxy](https://www.zaproxy.org), and [Burp Suite](https://portswigger.net/burp).
 
 ## Can't web application testing be automated? Are there any tools for that?
 
@@ -584,11 +574,10 @@ tool is incapable of doing. A presentation by Jeremiah Grossman of White
 Hat Security which talks about the [limitations of automated
 scanning](http://www.blackhat.com/presentations/bh-federal-03/bh-fed-03-grossman-up.pdf).
 
-This piece explains [what a scanner can't
-find](http://www.plynt.com/resources/learn/tools/what_cant_a_scanner_find_1/).
+This piece explains [what a scanner can't find](http://www.plynt.com/resources/learn/tools/what_cant_a_scanner_find_1/).
 
 In our tests using a slightly modified WebGoat the best Black-box
-scanning tool found less than 20% of the issues \! Some tools for
+scanning tool found less than 20% of the issues! Some tools for
 automated scanning are:
 
 * [http://manpages.ubuntu.com/manpages/trusty/man1/spikeproxy.1.html](SpikeProxy)
@@ -598,27 +587,28 @@ automated scanning are:
 
 OWASP maintains a handful of insecure web applications which can be used for testing and improving your auditing skills that can be found [as part of its many projects](https://owasp.org/projects/), as well as tools you can use to do so.
 
+Refer to the [Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/) for a curated list.
+
 Two examples are [Juice Shop](https://owasp.org/www-project-juice-shop/) and [Security Shepard](https://owasp.org/www-project-security-shepherd/), while others can be found as part of the [OWASP Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/) project.
 
 External projects of note include [VulnHub](https://www.vulnhub.com/), [Hack This Site](https://www.hackthissite.org/), [Hack the Box](https://www.hackthebox.eu/) and [Damn Vulnerable Web Application](http://www.dvwa.co.uk/).
 
 ## Are there source code scanning tools for .NET languages, Java, PHP etc that predict vulnerabilities in the source code?
 
-Rough Auditing Tool for Security (RATS) is a tool that scans the source
-code for security flaws in C, C++, Python, Perl and PHP programs. It can
-be found at
-<http://code.google.com/p/rough-auditing-tool-for-security/downloads/list>
+[Rough Auditing Tool for Security (RATS)](http://code.google.com/p/rough-auditing-tool-for-security/downloads/list) 
+is a tool that scans the source
+code for security flaws in C, C++, Python, Perl and PHP programs.
 FX Cop was created by the Microsoft Team at the GotDotNet community site
 to check for the .NET Frameowork guidelines which include security.
 Prexis is a commercial source code and run-time analyzer. Flawfinder is
 a static source code analyzer. Compaq ESC is a run-time analyzer for
 Java. Parasoft AEP is a commercial source code analyzer for Java.
 Fortify SCA from Fortify Software is another source code analyzer that
-supports mixed language analysis of C, C++, C\#, ASP.NET, Java, JSP,
+supports mixed language analysis of C, C++, C#, ASP.NET, Java, JSP,
 PL/SQL, VB.NET, XML, etc. Secure Coding plugins are also available.
 Similar source code analyzers are Klocwork K7 for C, C++ and Java;
 Coverity Prevent for detecting security violations and defects in code;
-Ounce Solutions for C, C++, C\#, ASP.NET, Java and JSP. We would like to
+Ounce Solutions for C, C++, C#, ASP.NET, Java and JSP. We would like to
 know about more tools for scanning source code. If you know about any,
 please inform us and we'll add to this FAQ
 
@@ -628,9 +618,8 @@ Yes, Interactive TCP Replay is a tool that acts as a proxy for non-HTTP
 applications and also allows modifying the traffic. It allows editing of
 the messages in a hex editor. ITR also logs all the messages passing
 between the client and the server. It can use different types of
-character encoding like ASCII or EBCDIC for editing and logging. More
-information on this can be found at
-<http://www.webcohort.com/web_application_security/research/tools.html>
+character encoding like ASCII or EBCDIC for 
+[editing and logging](http://www.webcohort.com/web_application_security/research/tools.html).
 
 # Cryptography/SSL
 
@@ -651,7 +640,7 @@ the public key of the server and sent across. The server decrypts the
 message with its private key. Now both sides have a session key known
 only to the two of them. All communication to and fro is encrypted and
 decrypted with the session key. An interesting link on SSL is
-<http://www.rsasecurity.com/standards/ssl/basics.html>
+[here](http://www.rsasecurity.com/standards/ssl/basics.html).
 
 ## Should I use 40-bit or 128-bit SSL?
 
@@ -678,10 +667,10 @@ the 40-bit RC4 key in a few hours. So depending on the data your
 application deals with, you can decide on the SSL strength. Using
 128-bit is definitely safer.
 
-With home computers gtting faster day by day, a dedicated, expensive and
+With home computers getting faster day by day, a dedicated, expensive and
 very fast computer can break 40-bit encryption in few minutes (ideally
 testing a million keys per second). On the other hand, 128-bit
-encryotion will have about
+encryption will have about
 339,000,000,000,000,000,000,000,000,000,000,000 (Couple of Trillions or
 2^128) possible key combinations and it will take around 1000 Years to
 break 128-bit encryptions with the help of a cluster of very fast
@@ -718,9 +707,8 @@ features. While installing the certificate issued by the CA, you will
 have to specify which web pages are to be on SSL.
 
 A good starting point for working on POC in a Windows development
-environment could be: "HOW TO: Secure XML Web Services with Secure
-Socket Layer in Windows 2000" -
-<http://support.microsoft.com/default.aspx?scid=kb;en-us;q307267&sd=tech>
+environment could be: 
+[HOW TO: Secure XML Web Services with Secure Socket Layer in Windows 2000"](http://support.microsoft.com/default.aspx?scid=kb;en-us;q307267&sd=tech)
 
 # Cookies and Session Management
 
@@ -756,15 +744,15 @@ or referrer logs, and most users anyway accept cookies.
 
 ## What are these secure cookies?
 
-A cookie can be marked as "secure" which ensures the cookie is used only
-over SSL sessions. If "secure" is not specified, the cookie will be sent
+A cookie can be marked as `secure` which ensures the cookie is used only
+over SSL sessions. If `secure` is not specified, the cookie will be sent
 unencrypted over non-SSL channels. Sensitive cookies like session tokens
 should be marked as secure if all pages in the web site requiring
 session tokens are SSL-enabled. One thing to keep in mind here is that
 images are generally not downloaded over SSL and they usually don't
 require a session token to be presented. By setting the session cookie
 to be secure, we ensure that the browser does not send the cookie while
-downloading the image over the non-SSL connection.\<\>
+downloading the image over the non-SSL connection.
 
 ## If I use a session ID that is a function of the client's IP address, will session hijacking be prevented?
 
@@ -801,9 +789,8 @@ is the next page served. An application can use this to ensure that a
 user accesses pages only in the sequence determined by the application.
 The user cannot paste a deep URL in the browser and skip pages just
 because they have a session token, as the page token would not be
-authorized to access the deeper URL directly. Good Read: [Secure your
-sessions with Page
-Tokens](http://palisade.plynt.com/issues/2005Aug/page-tokens/)
+authorized to access the deeper URL directly. Good Read: 
+[Secure your sessions with Page Tokens](http://palisade.plynt.com/issues/2005Aug/page-tokens/)
 
 # Logging and Audit Trails
 
@@ -881,8 +868,8 @@ the application is more than the buffer capacity and the buffers are
 left unchecked, buffer overflow occurs. The severity depends on the user
 input. If a malicious code executes as a result of the overflow, it can
 even compromise the whole system. To learn more, please read the OWASP
-article on [buffer
-overflows.](http://www.owasp.org/index.php/Buffer_Overflow)
+article on 
+[buffer overflows](attacks/Buffer_overflow_attack)
 
 ## What are application firewalls? How good are they really?
 
@@ -938,21 +925,18 @@ features if you decide to program in that language.
 
 ## What are the good books to learn secure programming practices?
 
-The OWASP Guide to Building Secure Web Application and Web Services is a
-good guide for web application developers. You can download it from
-<http://www.owasp.org/documentation/guide> Writing Secure Code by
-Michael Howard and David LeBlanc has a chapter on Securing Web-Based
-Services. More information on this book can be found at:
-<http://www.microsoft.com/mspress/books/toc/5612.asp> Secure Programming
-for Linux and Unix HOWTO by David Wheeler talks about writing secure
+The [OWASP Guide to Building Secure Web Application and Web Services](http://wiki.owasp.org/documentation/guide) is a
+good guide for web application developers. You can download it from.
+Writing Secure Code by Michael Howard and David LeBlanc has a chapter on 
+[Securing Web-Based Services](http://www.microsoft.com/mspress/books/toc/5612.asp)
+[Secure Programming for Linux and Unix HOWTO](http://www.dwheeler.com/secure-programs)
+by David Wheeler talks about writing secure
 applications including web applications; it also specifies guidance for
-a number of languages. The book can be found at:
-<http://www.dwheeler.com/secure-programs>
+a number of languages.
 
 Another good book on application security, which also covers some web
 service specific topics: 19 Deadly Sins of Software Security, by:
-Michael Howard, David LeBlanc and John Viega
-(http://books.mcgraw-hill.com/getbook.php?isbn=0072260858).
+[Michael Howard, David LeBlanc and John Viega](http://books.mcgraw-hill.com/getbook.php?isbn=0072260858).
 
 ## Are there any training programs on secure programming that I can attend?
 
@@ -961,5 +945,3 @@ Applications and Developing and Deploying Secure Microsoft .NET
 Framework Application. 
 Foundstone offers secure coding training through Global Knowledge Aspect
 Security offers a similar course.
-
-OWASP_FAQ_Ver3.doc

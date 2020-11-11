@@ -1,14 +1,5 @@
 [
    {
-      "title": "Abbey Scan",
-      "url": "https://misterscanner.com/",
-      "owner": "MisterScanner",
-      "license": "Free",
-      "platforms": "SaaS",
-      "note": null,
-      "type": "DAST"
-   },
-   {
       "title": "Acunetix",
       "url": "https://www.acunetix.com/",
       "owner": "Acunetix",
@@ -187,6 +178,15 @@
       "platforms": "Python 2.4, BeautifulSoup and PyXML",
       "note": null,
       "type": "DAST"
+   },
+   {
+      "title": "GitLab",
+      "url": "https://docs.gitlab.com/ee/user/application_security/sast/index.html",
+      "owner": "GitLab",
+      "license": "Commercial",
+      "platforms": "SaaS, Linux, Windows",
+      "note": null,
+      "type": "SAST"
    },
    {
       "title": "Gravityscan",
@@ -643,7 +643,7 @@
       "url": "https://github.com/wireghoul/graudit/",
       "owner": null,
       "license": "Open Source or Free",
-      "platforms": null,
+      "platforms": "Linux",
       "note": "Scans multiple languages for various security flaws. Basically security enhanced code Grep.",
       "type": "SAST"
    },
@@ -735,15 +735,6 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "A performant type-checker for Python 3, that also has [limited security/data flow analysis](https://pyre-check.org/docs/pysa-basics.html) capabilities.",
-      "type": "SAST"
-   },
-   {
-      "title": "RIPS",
-      "url": "http://rips-scanner.sourceforge.net/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "A static source code analyzer for vulnerabilities in PHP web applications.",
       "type": "SAST"
    },
    {
@@ -1269,15 +1260,6 @@
       "type": "SAST"
    },
    {
-      "title": "RIPS",
-      "url": "https://www.ripstech.com/product/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Java, PHP",
-      "type": "SAST"
-   },
-   {
       "title": "Fortify",
       "url": "https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview",
       "owner": null,
@@ -1411,5 +1393,23 @@
       "platforms": null,
       "note": "C, C++",
       "type": "SAST"
-   }   
+   },
+   {
+      "title": "Horusec",
+      "url": "https://github.com/ZupIT/horusec",
+      "owner": null,
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Python(3.x), Ruby, Javascript, GoLang, .NetCore(3.x), Java, Kotlin, Terraform",
+      "type": "SAST"
+   },
+   {
+      "title": "OWASP ASST (Automated Software Security Toolkit)",
+      "url": "https://github.com/OWASP/ASST",
+      "owner": "Tarik Seyceri & OWASP",
+      "license": "Open Source or Free",
+      "platforms": "Ubuntu, MacOSX and Windows",
+      "note": "An Open Source, Source Code Scanning Tool, developed with JavaScript (Node.js framework), Scans for PHP & MySQL Security Vulnerabilities According to OWASP Top 10 and Some other OWASP's famous vulnerabilities, and it teaches developers of how to secure their codes after scan.",
+      "type": "SAST"
+   }
 ]
