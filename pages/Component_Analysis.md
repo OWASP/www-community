@@ -289,6 +289,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [VulnDB] | Risk Based Security | Commercial	| SaaS |
 | [Patton] | OWASP | Open Source | Cross Platform |
 | [Vigiles] | Timesys | Commercial / Freemium | SaaS |
+| [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
 
 [GitHub SCA]: https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on/
 [Black Duck Hub]: https://www.blackducksoftware.com/
@@ -323,6 +324,8 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [VulnDB]: https://vulndb.cyberriskanalytics.com/
 [Patton]: https://owasp.org/www-project-patton/
 [Vigiles]: https://www.timesys.com/security/vigiles-vulnerability-management-patch-monitoring/
+[Vigilant Ops InSight]: https://vigilant-ops.com/
+
 
 
 ## References
