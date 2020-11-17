@@ -92,7 +92,7 @@ If one provided: `Firstname: evil'ex` and `Lastname: Newman`
 
 the query string becomes:
 
-`select id, firstname, lastname from authors where forename = 'evil'ex' and surname ='newman'`
+`select id, firstname, lastname from authors where firstname = 'evil'ex' and lastname ='newman'`
 
 which the database attempts to run as:
 
@@ -104,7 +104,7 @@ A safe version of the above SQL statement could be coded in Java as:
 String firstname = req.getParameter("firstname");
 String lastname = req.getParameter("lastname");
 // FIXME: do your own validation to detect attacks
-String query = "SELECT id, firstname, lastname FROM authors WHERE forename = ? and surname = ?";
+String query = "SELECT id, firstname, lastname FROM authors WHERE firstname = ? and lastname = ?";
 PreparedStatement pstmt = connection.prepareStatement( query );
 pstmt.setString( 1, firstname );
 pstmt.setString( 2, lastname );
