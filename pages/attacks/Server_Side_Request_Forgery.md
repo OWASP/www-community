@@ -37,7 +37,7 @@ URL. By selecting target URLs the attacker may be able to read data from
 services that are not directly exposed on the internet:
 
   - Cloud server meta-data - Cloud services such as AWS provide a REST
-    interface on <http://169.254.169.254/> where important configuration
+    interface on `http://169.254.169.254/` where important configuration
     and sometimes even authentication keys can be extracted
   - Database HTTP interfaces - NoSQL database such as MongoDB provide
     REST interfaces on HTTP ports. If the database is expected to only
