@@ -88,7 +88,7 @@ node only has a entry edge, this is know as an ‘exit’ block (Wögerer,
 Example Control Flow Graph; ‘node 1’ represents the entry block and
 ‘node 6’ represents the exit block.
 
-￼![Control_flow_graph.png](Control_flow_graph.png
+![Control_flow_graph.png](../../assets/images/Control_flow_graph.png
 "Control_flow_graph.png")
 
 ### Taint Analysis
