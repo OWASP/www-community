@@ -72,10 +72,6 @@ The supported directives are:
   - **plugin-types** : Define the set of plugins that can be invoked by
     the protected resource by limiting the types of resources that can
     be embedded,
-  - **reflected-xss** : Instructs a user agent to activate or deactivate
-    any heuristics used to filter or block reflected cross-site
-    scripting attacks, equivalent to the effects of the non-standard
-    X-XSS-Protection header,
   - **report-uri** : Specifies a URI to which the user agent sends
     reports about policy violation
 
