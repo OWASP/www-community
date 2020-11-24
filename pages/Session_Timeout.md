@@ -14,19 +14,19 @@ permalink: /Session_Timeout
 
 ## Description of the session timeout
 
-Session timeout represents the event occuring when a user do not perform
-any action on a web site during a interval (defined by web server). The
-event, on server side, change the status of the user session to
-'invalid' (ie. "not used anymore") and instruct the web server to
-destroy it (deleting all data contained into it).
+Session timeout represents the event occuring when a user does not perform
+any action on a web site during an interval (defined by a web server). The
+event, on the server side, changes the status of the user session to
+'invalid' (ie. "not used anymore") and instructs the web server to
+destroy it (deleting all data contained in it).
 
 ## Define the session timeout
 
-On JEE web application , there 2 ways to define session timeout,
+On JEE web applications , there 2 ways to define a session timeout,
 
   - Declaratively in web deployment descriptor (file "web.xml") : This
-    definition is applied to all session created for the application.
-  - Programmatically on session object : This definition apply only on
+    definition is applied to all sessions created for the application.
+  - Programmatically on the session object : This definition applies only to the
     current session.
 
 **Timeout defined declaratively**
@@ -97,9 +97,8 @@ On JEE web application , there 2 ways to define session timeout,
 
 ## Impact of the session timeout on security and best practices
 
-Session timeout define action window time for a user thus this window
-represents, in the same time, the delay in which an attacker can try to
-steal and use a existing user session...
+The Session timeout defines an action window time for a user, this window
+represents the time in which an attacker can try to steal and use a existing user session...
 
 For this, it's best practices to :
 
@@ -107,7 +106,7 @@ For this, it's best practices to :
     context of the application.
   - Avoid "infinite" session timeout.
   - Prefer declarative definition of the session timeout in order to
-    apply global timeout for all application sessions.
-  - Trace session creation/destroy in order to analyse creation trend
-    and try to detect anormal session number creation (application
+    apply a global timeout for all application sessions.
+  - Trace session creation/destruction in order to analyse the creation trend
+    and try to detect a normal number of session creations (application
     profiling phase in a attack).
