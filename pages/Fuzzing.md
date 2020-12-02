@@ -171,7 +171,7 @@ Recent fuzzing initiatives:
 - [Peach Fuzzing Platform](http://peachfuzzer.com)
 - [Spirent Avalanche NEXT](http://www.spirent.com/Products/AvalancheNEXT)
 - [Beyond Security's beSTORM product](http://www.beyondsecurity.com/bestorm_overview.html)
-- <a href="https://forallsecure.com/mayhem">ForAllSecure Mayhem product</a>
+- [ForAllSecure Mayhem product](https://forallsecure.com/mayhem)
 
 ### Deprecated Tools
 
