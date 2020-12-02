@@ -75,9 +75,11 @@ cookie.
 
 In fact `setHttpOnly` and `isHttpOnly` methods are available in the
 `Cookie` interface
-[1](http://java.sun.com/javaee/6/docs/api/javax/servlet/http/Cookie.html#setHttpOnly%28boolean%29),
+[JEE 6](http://java.sun.com/javaee/6/docs/api/javax/servlet/http/Cookie.html#setHttpOnly%28boolean%29),
+[JEE 7] (http://java.sun.com/javaee/7/docs/api/javax/servlet/http/Cookie.html#setHttpOnly%28boolean%29)
 and also for session cookies (JSESSIONID)
-[2](http://java.sun.com/javaee/6/docs/api/javax/servlet/SessionCookieConfig.html#setHttpOnly%28boolean%29):
+[JEE 6](http://java.sun.com/javaee/6/docs/api/javax/servlet/SessionCookieConfig.html#setHttpOnly%28boolean%29),
+[JEE 7](http://java.sun.com/javaee/7/docs/api/javax/servlet/SessionCookieConfig.html#setHttpOnly%28boolean%29)
 
 `Cookie cookie = getMyCookie("myCookieName");`
 `cookie.setHttpOnly(true);`
