@@ -310,7 +310,6 @@ with the following header:
     clearing their browser's cookies at the end of each browser
     session."
     --http://en.wikipedia.org/wiki/Cross-site_request_forgery\#_note-1
-  - [Tokenizing](Tokenizing "wikilink")
 
 ## References
 
