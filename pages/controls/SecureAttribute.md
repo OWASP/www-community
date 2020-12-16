@@ -3,7 +3,7 @@
 title: Secure Cookie Attribute
 layout: col-sidebar
 author: MichaelCoates
-contributors: Andrew Smith, Gladwin, Bell Sempf, Wichers, James Jardine, Zerosum0x0, Paco, Dan Wallis, Nawwar, kingthorin, Grant Ongers
+contributors: Andrew Smith, Gladwin, Bill Sempf, Wichers, James Jardine, Zerosum0x0, Paco, Dan Wallis, Nawwar, kingthorin, Grant Ongers
 permalink: /controls/SecureCookieAttribute
 
 ---
