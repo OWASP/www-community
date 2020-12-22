@@ -52,4 +52,4 @@ The same list as string (between double quotes): <code>" !"#$%&'()*+,-./:;&lt;=&
 
 Various operating systems and applications may apply limitations to this set:
 
-* [Oracle Identity Manager and Microsoft Active Directory](http://docs.oracle.com/cd/E11223_01/doc.904/e10429/app_special_char.htm)
+* [Oracle Identity Manager and Microsoft Active Directory](https://docs.oracle.com/cd/E11223_01/doc.910/e11197/app_special_char.htm)
