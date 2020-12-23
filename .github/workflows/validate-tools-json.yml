@@ -19,10 +19,12 @@ jobs:
       with:
         node-version: 13.x
     - name: Install dependencies
-      run: npm install -g ajv-cli
+      run: |
+        npm install -g ajv-formats
+        npm install -g ajv-cli
     - name: Run schema check
       run: |
-        ajv validate -s tools_schema.json -d _data/tools.json --all-errors --error-data-path=property --verbose=true 1> log.txt 2>&1
+        ajv validate -s tools_schema.json -d _data/tools.json --all-errors --errors=text --verbose=true -c=ajv-formats 1> log.txt 2>&1
     - name: Show Validation Issues
       id: validation
       if: failure()
