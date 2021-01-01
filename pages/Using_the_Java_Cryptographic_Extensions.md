@@ -3,7 +3,7 @@
 title: Using the Java Cryptographic Extensions
 layout: col-sidebar
 author:
-contributors:
+contributors: thodorisbais
 tags: java, cryptography
 auto-migrated: 1
 permalink: /Using_the_Java_Cryptographic_Extensions
@@ -81,8 +81,6 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
     import java.security.SecureRandom;
     import java.security.NoSuchAlgorithmException;
 
-    import sun.misc.BASE64Encoder;
-
     /**
      * @author Joe Prasanna Kumar
      * This program provides the functionality for Generating a Secure Random Number.
@@ -115,8 +113,6 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
                 int seedByteCount = 10;
                 byte[] seed = secureRandom.generateSeed(seedByteCount);
 
-                // TBR System.out.println(" Seed value is " + new BASE64Encoder().encode(seed));
-
                 secureRandom.setSeed(seed);
 
                 System.out.println(" Secure Random # generated using setSeed(byte[]) is  " + secureRandom.nextDouble());
@@ -145,8 +141,8 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
     import javax.crypto.NoSuchPaddingException;
     import javax.crypto.SecretKey;
     import javax.crypto.spec.IvParameterSpec;
-
-    import sun.misc.BASE64Encoder;
+    
+    import java.util.Base64;
 
     /**
      * @author Joe Prasanna Kumar
@@ -196,10 +192,10 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
                  * Step 3. Create a Cipher by specifying the following parameters
                  *      a. Algorithm name - here it is AES
                  *      b. Mode - here it is CBC mode
-                 *      c. Padding - e.g. PKCS7 or PKCS5
+                 *      c. Padding - PKCS5
                  */
 
-                Cipher aesCipherForEncryption = Cipher.getInstance("AES/CBC/PKCS7PADDING"); // Must specify the mode explicitly as most JCE providers default to ECB mode!!
+                Cipher aesCipherForEncryption = Cipher.getInstance("AES/CBC/PKCS5PADDING"); // Must specify the mode explicitly as most JCE providers default to ECB mode!!
 
                 /**
                  * Step 4. Initialize the Cipher for Encryption
@@ -218,8 +214,7 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
                 byte[] byteDataToEncrypt = strDataToEncrypt.getBytes();
                 byte[] byteCipherText = aesCipherForEncryption
                         .doFinal(byteDataToEncrypt);
-                // b64 is done differently on Android
-                strCipherText = new BASE64Encoder().encode(byteCipherText);
+                strCipherText = Base64.getEncoder().withoutPadding().encodeToString(byteCipherText);
                 System.out.println("Cipher Text generated using AES is "
                         + strCipherText);
 
@@ -230,7 +225,7 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
                  *      b. Decrypt the cipher bytes using doFinal method
                  */
 
-                Cipher aesCipherForDecryption = Cipher.getInstance("AES/CBC/PKCS7PADDING"); // Must specify the mode explicitly as most JCE providers default to ECB mode!!
+                Cipher aesCipherForDecryption = Cipher.getInstance("AES/CBC/PKCS5PADDING"); // Must specify the mode explicitly as most JCE providers default to ECB mode!!
 
                 aesCipherForDecryption.init(Cipher.DECRYPT_MODE, secretKey,
                         new IvParameterSpec(iv));
@@ -282,7 +277,7 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
     import javax.crypto.BadPaddingException;
     import javax.crypto.IllegalBlockSizeException;
 
-    import sun.misc.BASE64Encoder;
+   import java.util.Base64;
 
     /**
      * @author Joe Prasanna Kumar
@@ -349,7 +344,7 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
             strDataToEncrypt = "Hello World of Encryption using DES ";
             byte[] byteDataToEncrypt = strDataToEncrypt.getBytes();
             byte[] byteCipherText = desCipher.doFinal(byteDataToEncrypt);
-            strCipherText = new BASE64Encoder().encode(byteCipherText);
+            strCipherText = Base64.getEncoder().withoutPadding().encodeToString(byteCipherText);
             System.out.println("Cipher Text generated using DES with CBC mode and PKCS5 Padding is " +strCipherText);
 
             /**
