@@ -3,7 +3,7 @@
 title: Using the Java Cryptographic Extensions
 layout: col-sidebar
 author:
-contributors:
+contributors: thodorisbais
 tags: java, cryptography
 auto-migrated: 1
 permalink: /Using_the_Java_Cryptographic_Extensions
