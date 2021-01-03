@@ -17,7 +17,7 @@ When an undesirably low amount of entropy is available. Psuedo Random Number Gen
 
 ## Related [Attacks](../attacks/)
 
-- In many case,s a PRNG uses a combination of the system clock and entropy to create seed data. If insufficient entropy is available, an attacker can reduce the size magnitude of the seed value considerably. Furthermore, by guessing values of the system clock, they can create a manageable set of possible PRNG outputs.
+- In many cases, a PRNG uses a combination of the system clock and entropy to create seed data. If insufficient entropy is available, an attacker can reduce the size magnitude of the seed value considerably. Furthermore, by guessing values of the system clock, they can create a manageable set of possible PRNG outputs.
 
 ## Related [Vulnerabilities](../vulnerabilities/)
 
