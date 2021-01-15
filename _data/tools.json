@@ -621,6 +621,15 @@
       "type": "SAST"
    },
    {
+      "title": "Enlightn",
+      "url": "https://www.laravel-enlightn.com/",
+      "owner": "Enlightn Software",
+      "license": "Open Source",
+      "platforms": null,
+      "note": "Enlightn is a vulnerability scanner specifically designed for Laravel PHP applications that combines SAST, DAST, IAST and configuration analysis techniques to detect vulnerabilities.",
+      "type": "SAST"
+   },
+   {
       "title": "FindBugs",
       "url": "https://github.com/findbugsproject/findbugs",
       "owner": null,
