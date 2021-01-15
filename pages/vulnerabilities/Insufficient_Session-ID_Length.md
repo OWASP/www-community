@@ -27,7 +27,7 @@ Where:
 - A is the number of guesses an attacker can try each second
 - S is the number of valid session identifiers that are valid and available to be guessed at any given time
 
-The number of bits of entropy in the session identifier is always less than the total number of bits in the session identifier. For example, if session identifiers were provided in ascending order, there would be close to zero bits of entropy in the session identifier no matter the identifier's length. Assuming that the session identifiers are being generated using a good source of random numbers, we will estimate the number of bits of entropy in a session identifier to be half the total number of bits in the session identifier. For realistic identifier lengths this is possible, though perhaps optimistic.
+The number of bits of entropy in an ASCII-encoded session identifier is always less than the actual size of the identifier.  If we assume that session identifiers are being generated using a good source of random numbers, and that the common (but inefficient) hexadecimal encoding method is used, then we can fit 4 bits of entropy into each byte/character (hexadecimal is 50% efficient).  This leads us to estimate the number of bits of entropy in a session identifier to be half the size of the identifier's representation.  A 128bit/16byte identifier may contain just 64bits of actual entropy.
 
 If attackers use a botnet with hundreds or thousands of drone computers, it is reasonable to assume that they could attempt tens of thousands of guesses per second. If the web site in question is large and popular, a high volume of guessing might go unnoticed for some time.
 
