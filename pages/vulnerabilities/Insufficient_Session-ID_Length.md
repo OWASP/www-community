@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: Insufficient Session-ID Length
 author: 
-contributors: 
+contributors: Greg Heartsfield
 permalink: /vulnerabilities/Insufficient_Session-ID_Length
 tags: vulnerability, Insufficient Session-ID Length
 
