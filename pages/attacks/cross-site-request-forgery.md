@@ -46,7 +46,7 @@ See the [CSRF Prevention Cheat
 Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html) for prevention measures.
 
 Listen to the [OWASP Top Ten CSRF
-Podcast](http://www.owasp.org/download/jmanico/owasp_podcast_69.mp3).
+Podcast](http://wiki.owasp.org/download/jmanico/owasp_podcast_69.mp3).
 
 Most frameworks have built-in CSRF support such as
 [Joomla](http://docs.joomla.org/How_to_add_CSRF_anti-spoofing_to_forms),
