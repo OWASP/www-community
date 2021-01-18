@@ -963,6 +963,16 @@
       "type": "SAST"
    },
    {
+      "title": "DeepSource",
+      "url": "https://deepsource.io/",
+      "owner": null,
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": "DeepSource helps you automatically find and fix issues in your code during code reviews, such as bug risks, anti-patterns, performance issues, and security flaws. It takes less than 5 minutes to set up with your Bitbucket, GitHub, or GitLab account. It works for Python, Go, Ruby, and JavaScript.
+",
+      "type": "SAST"
+   },
+   {
       "title": "DerScanner",
       "url": "https://derscanner.com/",
       "owner": "DerScanner Ltd.",
