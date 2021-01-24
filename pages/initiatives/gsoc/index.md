@@ -1,24 +1,26 @@
 ---
-
 layout: col-sidebar
 title: Google Summer of Code
 tags: gsoc, Google Summer of Code
 permalink: /initiatives/gsoc/
-
 ---
 
 # OWASP GSoC Information
 
-OWASP has taken part in Google Summer of Code many times over the history of both organizations/projects.
+OWASP has taken part in Google Summer of Code many times over the
+history of both organizations/projects.
 
 [GSoC Student Application Template (SAT)](gsoc_sat)
 
 ## Current
-- [GSoC 2020](gsoc2020)
-  - [GSoC 2020 Ideas](gsoc2020ideas)
+
+- [GSoC 2021](gsoc2021)
+  - [GSoC 2021 Ideas](gsoc2021ideas)
 
 ## History
 
+- [GSoC 2020](gsoc2020)
+  - [GSoC 2020 Ideas](gsoc2020ideas)
 - [GSoC 2019](gsoc2019)
   - [GSoc 2019 Ideas](gsoc2019ideas)
 - GSoC 2018
@@ -36,3 +38,4 @@ OWASP has taken part in Google Summer of Code many times over the history of bot
     - [GSoC 2013 - Zap SAML Support Progress Updates](gsoc2013zapsaml)
 - GSoC 2012
   - [GSoC 2012 Ideas](gsoc2012ideas)
+

@@ -1,8 +1,8 @@
 ---
-
-layout: full-width title: GSoC 2021 Ideas tags: gsoc permalink:
-/initiatives/gsoc/gsoc2021ideas
-
+layout: full-width
+title: GSoC 2021 Ideas
+tags: gsoc
+permalink: /initiatives/gsoc/gsoc2021ideas
 ---
 
 # GSoC2021 Ideas
@@ -22,13 +22,15 @@ layout: full-width title: GSoC 2021 Ideas tags: gsoc permalink:
 ## OWASP Project Requests
 
 Tips to get you started in no particular order:
-- Read the [Student Guidelines](gsoc2021).
-- Check our [github organization](https://github.com/OWASP).
+- Read the
+  [Student Guidelines](gsoc2021).
+- Check our
+  [github organization](https://github.com/OWASP).
 - Contact one of the project mentors below.
 
 ## List of Project Ideas
 
-### [OWASP Juice Shop](https://owasp-juice.shop)
+###  [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
 web application! It can be used in security trainings, awareness demos,
