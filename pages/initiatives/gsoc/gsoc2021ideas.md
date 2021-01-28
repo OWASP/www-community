@@ -30,7 +30,7 @@ Tips to get you started in no particular order:
 
 ## List of Project Ideas
 
-###  [OWASP Juice Shop](https://owasp-juice.shop)
+### [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
 web application! It can be used in security trainings, awareness demos,
