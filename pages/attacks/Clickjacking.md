@@ -2,9 +2,8 @@
 
 title: Clickjacking
 layout: col-sidebar
-author:
-contributors:
-auto-migrated: 1
+author: Gustav Rydstedt 
+contributors: Wichers, Jmanico, MichaelCoates, Till Maas, Ajay, Michael Monsivais, Arun Kumar V, Abhinav, Neil Smithline, kingthorin
 permalink: /attacks/Clickjacking
 tags: attack, clickjacking
 
