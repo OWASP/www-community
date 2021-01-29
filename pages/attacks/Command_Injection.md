@@ -2,11 +2,10 @@
 
 layout: col-sidebar
 title: Command Injection
-author: 
-contributors: 
+author: Weilin Zhong
+contributors: Wichers, Amwestgate, Rezos, Clow808, KristenS, Jason Li, Andrew Smith, Jmanico, Tal Mel, kingthorin
 permalink: /attacks/Command_Injection
 tags: attack, Command Injection
-auto-migrated: 1
 
 ---
 
@@ -67,13 +66,15 @@ When last we left our heroes...
 However, if we add a semicolon and another command to the end of this
 line, the command is executed by catWrapper with no complaint:
 
-    $ ./catWrapper "Story.txt; ls"
-    When last we left our heroes...
-    Story.txt               doubFree.c              nullpointer.c
-    unstosig.c              www*                    a.out*
-    format.c                strlen.c                useFree*
-    catWrapper*             misnull.c               strlength.c             useFree.c
-    commandinjection.c      nodefault.c             trunc.c                 writeWhatWhere.c
+```console
+$ ./catWrapper "Story.txt; ls"
+When last we left our heroes...
+Story.txt               doubFree.c              nullpointer.c
+unstosig.c              www*                    a.out*
+format.c                strlen.c                useFree*
+catWrapper*             misnull.c               strlength.c             useFree.c
+commandinjection.c      nodefault.c             trunc.c                 writeWhatWhere.c
+```
 
 If catWrapper had been set to have a higher privilege level than the
 standard user, arbitrary commands could be executed with that higher
@@ -89,11 +90,11 @@ privileged system files without giving them the ability to modify them
 or damage the system.
 
 ```
-       int main(char* argc, char** argv) {
-               char cmd[CMD_MAX] = "/usr/bin/cat ";
-               strcat(cmd, argv[1]);
-               system(cmd);
-       }
+int main(char* argc, char** argv) {
+ char cmd[CMD_MAX] = "/usr/bin/cat ";
+ strcat(cmd, argv[1]);
+ system(cmd);
+}
 ```
 
 Because the program runs with root privileges, the call to system() also
@@ -110,15 +111,15 @@ variable $APPHOME to determine the application's installation directory,
 and then executes an initialization script in that directory.
 
 ```
-       ...
-       char* home=getenv("APPHOME");
-       char* cmd=(char*)malloc(strlen(home)+strlen(INITCMD));
-       if (cmd) {
-               strcpy(cmd,home);
-               strcat(cmd,INITCMD);
-               execl(cmd, NULL);
-       }
-       ...
+...
+char* home=getenv("APPHOME");
+char* cmd=(char*)malloc(strlen(home)+strlen(INITCMD));
+if (cmd) {
+ strcpy(cmd,home);
+ strcat(cmd,INITCMD);
+ execl(cmd, NULL);
+}
+...
 ```
 
 As in Example 2, the code in this example allows an attacker to execute
@@ -144,7 +145,7 @@ updates password records, it has been installed setuid root.
 The program invokes make as follows:
 
 ```
-       system("cd /var/yp && make &> /dev/null");
+system("cd /var/yp && make &> /dev/null");
 ```
 
 Unlike the previous examples, the command in this example is hardcoded,
@@ -181,7 +182,7 @@ injection on the Unix/Linux platform:
 
 **C:**
 
-```
+```C
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -230,24 +231,24 @@ error, or being thrown out as an invalid parameter.
 The following PHP code snippet is vulnerable to a command injection
 attack:
 
-    <?php
-    print("Please specify the name of the file to delete");
-    print("<p>");
-    $file=$_GET['filename'];
-    system("rm $file");
-    ?>
+<?php
+print("Please specify the name of the file to delete");
+print("<p>");
+$file=$_GET['filename'];
+system("rm $file");
+?>
 
 The following request and response is an example of a successful attack:
 
-Request
-
-    http://127.0.0.1/delete.php?filename=bob.txt;id
+Request `http://127.0.0.1/delete.php?filename=bob.txt;id`
 
 Response
 
-    Please specify the name of the file to delete
+```
+Please specify the name of the file to delete
 
-    uid=33(www-data) gid=33(www-data) groups=33(www-data)
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+```
 
 Sanitizing Input
 
@@ -260,21 +261,11 @@ Example:
 –  ...
 ```
 
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [Code Injection](Code_Injection "wikilink")
-  - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
-  - [Blind XPath Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
-  - [LDAP injection](LDAP_injection "wikilink")
-  - [Relative Path Traversal](Relative_Path_Traversal "wikilink")
-
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-
 Ideally, a developer should use existing API for their language. For
-example (Java): Rather than use Runtime.exec() to issue a 'mail'
-command, use the available Java API located at javax.mail.\*
+example (Java): Rather than use `Runtime.exec()` to issue a 'mail'
+command, use the available Java API located at `javax.mail.*`.
 
 If no such available API exists, the developer should scrub all input
 for malicious characters. Implementing a positive security model would
@@ -283,13 +274,7 @@ characters than the illegal characters.
 
 ## References
 
-  - [CWE-77: Command
-    Injection](http://cwe.mitre.org/data/definitions/77.html)
-  - [CWE-78: OS Command
-    Injection](http://cwe.mitre.org/data/definitions/78.html)
-  - <http://blog.php-security.org/archives/76-Holes-in-most-preg_match-filters.html>
+- [CWE-77: Command Injection](http://cwe.mitre.org/data/definitions/77.html)
+- [CWE-78: OS Command Injection](http://cwe.mitre.org/data/definitions/78.html)
 
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Injection Attack](Category:Injection_Attack "wikilink")
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
-[Category:Attack](Category:Attack "wikilink")
