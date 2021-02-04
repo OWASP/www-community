@@ -100,7 +100,7 @@ list? Great, please submit it!
 ### [OWASP Maryam](https://github.com/saeeddhqan/maryam)
 
 ##### Explanation of Ideas
-OWASP Maryam is a modular open-source OSINT based framework. Maryam is written in Python and It’s designed to provide a powerful environment to harvest data from open-sources and search-engines and collect data quickly and thoroughly.
+OWASP Maryam is a modular open-source OSINT based framework. Maryam is written in Python and it’s designed to provide a powerful environment to harvest data from open-sources and search-engines and collect data quickly and thoroughly.
 
 ##### Getting started
 
