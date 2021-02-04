@@ -96,3 +96,33 @@ list? Great, please submit it!
 
 ----
 
+
+### [OWASP Maryam](https://github.com/saeeddhqan/maryam)
+
+##### Explanation of Ideas
+OWASP Maryam is a modular open-source OSINT based framework. Maryam is written in Python and it’s designed to provide a powerful environment to harvest data from open-sources and search-engines and collect data quickly and thoroughly.
+
+##### Getting Started
+
+* You may read the available documents in the [wiki page](https://github.com/saeeddhqan/maryam/wiki). Especially the Development Guide section.
+* Any question, problem, and discussion? contact with [Saeed Dehqan](mailto:saeed.dehghan@owasp.org).
+
+##### Expected Results
+
+* You may want to add a new module, search-engine, or a util class.
+* The framework does not have a web user-interface.
+* Rewrite the core of framework.
+* A new feature or enhancement that makes OWASP Maryam better.
+
+###### Knowledge Prerequisites
+
+* Familiar with Python 3.x.
+* Knowledge of OS (Linux, Mac...) and Services
+* Object-Oriented Programming
+* Web programming is an advantage
+
+##### Mentors
+* [Saeed Dehqan](mailto:saeed.dehghan@owasp.org)
+
+
+----
