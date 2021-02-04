@@ -104,7 +104,7 @@ OWASP Maryam is a modular open-source OSINT based framework. Maryam is written i
 
 ##### Getting started
 
-* You may read the available documents in the [wiki page](https://github.com/saeeddhqan/maryam/wiki). Especially, Development Guide section.
+* You may read the available documents in the [wiki page](https://github.com/saeeddhqan/maryam/wiki). Especially the Development Guide section.
 * Any question, problem, and discussion? contact with [Saeed Dehqan](mailto:saeed.dehghan@owasp.org).
 
 ##### Expected Results
