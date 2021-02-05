@@ -5,7 +5,7 @@ author: Andrew Smith
 contributors: Jmanico, Wichers, D0ubl3 h3lix, Rishu Ranjan, ADubhlaoich
 permalink: /attacks/Content_Spoofing
 tags: attack, Content Spoofing
-auto-migrated: 1
+
 ---
 
 {% include writers.html %}
