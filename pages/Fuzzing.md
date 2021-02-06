@@ -152,6 +152,7 @@ Recent fuzzing initiatives:
 
 - [american fuzzy lop](https://en.wikipedia.org/wiki/American_fuzzy_lop_%28fuzzer%29)
 - [Radamsa - a flock of fuzzers](https://github.com/aoh/radamsa)
+- [APIFuzzer - fuzz test without coding](https://pypi.org/project/APIFuzzer/)
 
 #### Fuzzing Frameworks
 
