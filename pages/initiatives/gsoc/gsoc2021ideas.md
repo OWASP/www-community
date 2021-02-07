@@ -126,7 +126,7 @@ OWASP Maryam is a modular open-source OSINT based framework. Maryam is written i
 
 ----
 
-### [Zed Attack Proxy (ZAP)](https://www.zaproxy.org) :zap:
+### [Zed Attack Proxy (ZAP)](https://www.zaproxy.org)
 
 #### Idea One: APIBlueprint or RAML Support (or both)
 
