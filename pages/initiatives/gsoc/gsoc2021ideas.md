@@ -124,5 +124,61 @@ OWASP Maryam is a modular open-source OSINT based framework. Maryam is written i
 ##### Mentors
 * [Saeed Dehqan](mailto:saeed.dehghan@owasp.org)
 
+----
+
+### [Zed Attack Proxy (ZAP)](https://www.zaproxy.org) :zap:
+
+#### Idea One: APIBlueprint or RAML Support (or both)
+
+ZAP does not currently support parsing and subsequent testing of [APIBlueprint](https://apiblueprint.org/) or [RAML](https://raml.org/) definitions.
+
+##### Expected Results
+
+* Implement functionality to allow ZAP to inspect and attack given APIBlueprint/RAML endpoints.
+* Code that conforms to our Development Rules and Guidelines.
+
+##### Getting Started
+
+* Have a look at the ZAP [CONTRIBUTING](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md) guideline, especially the 'Coding' section.
+* We like to see students who have already contributed to ZAP, so try fixing one of the bugs flagged as [IdealFirstBug](https://github.com/zaproxy/zaproxy/labels/IdealFirstBug).
+
+##### Mentors
+* [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
+
+#### Idea Two: Re-test Functionality
+
+ZAP is currently able to detect vulnerabilities of various types, however it doesn't have a user friendly mechanism for re-testing or re-validating identified weaknesses.
+
+Refer to [Issue 375](https://github.com/zaproxy/zaproxy/issues/375) for further details, and to this [User Group thread](https://groups.google.com/forum/#!searchin/zaproxy-users/retest%7Csort:date/zaproxy-users/qNKz6cNhYDg/Jw6hWi-oAwAJ) for discussion and staged implementation ideas.
+
+##### Expected Results
+
+* Add core or extension functionality to facilitate re-test of various results/alerts.
+* Code that conforms to our Development Rules and Guidelines
+
+##### Getting Started
+
+* Have a look at the ZAP [CONTRIBUTING](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md) guideline, especially the 'Coding' section.
+* We like to see students who have already contributed to ZAP, so try fixing one of the bugs flagged as [IdealFirstBug](https://github.com/zaproxy/zaproxy/labels/IdealFirstBug).
+
+##### Mentors
+* [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
+
+#### Idea Three: Your Idea
+
+ZAP is a great framework for building new and innovative security testing solutions. If you have an idea that is not on this list then don’t worry, you can still submit it, we have accepted original projects in previous years and have even paid a student to work on their idea when we did not get enough GSoC slots to accept all of the projects we wanted.
+
+##### Expected Results
+
+* A new feature that makes ZAP even better
+* Code that conforms to our Development Rules and Guidelines
+
+##### Getting Started
+
+* Have a look at the ZAP [CONTRIBUTING](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md) guideline, especially the 'Coding' section.
+* We like to see students who have already contributed to ZAP, so try fixing one of the bugs flagged as [IdealFirstBug](https://github.com/zaproxy/zaproxy/labels/IdealFirstBug).
+
+##### Mentors
+* [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
 
 ----
