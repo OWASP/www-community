@@ -45,7 +45,7 @@ in the query string, as the parameter “default”.
 
     <select><script>
 
-    document.write("<OPTION value=1>"+document.location.href.substring(document.location.href.indexOf("default=")+8)+"</OPTION>");
+    document.write("<OPTION value=1>"+decodeURIComponent(document.location.href.substring(document.location.href.indexOf("default=")+8))+"</OPTION>");
 
     document.write("<OPTION value=2>English</OPTION>");
 
@@ -72,16 +72,18 @@ the document.location object contains the string:
     http://www.some.site/page.html?default=<script>alert(document.cookie)</script>
 
 The original Javascript code in the page does not expect the default
-parameter to contain HTML markup, and as such it simply echoes it into
-the page (DOM) at runtime. The browser then renders the resulting page
-and executes the attacker’s script:
+parameter to contain HTML markup, and as such it simply decodes and echoes
+it into the page (DOM) at runtime. The browser then renders the resulting
+page and executes the attacker’s script:
 
     alert(document.cookie)
 
 Note that the HTTP response sent from the server does not contain the
 attacker’s payload. This payload manifests itself at the client-side
 script at runtime, when a flawed script accesses the DOM variable
-document.location and assumes it is not malicious.
+document.location and assumes it is not malicious. In addition, most
+browsers URL encode document.location by default which reduces the
+impact or possibility of many DOM XSS attacks.
 
 ### Advanced Techniques and Derivatives
 
