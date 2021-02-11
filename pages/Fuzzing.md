@@ -153,6 +153,7 @@ Recent fuzzing initiatives:
 - [american fuzzy lop](https://en.wikipedia.org/wiki/American_fuzzy_lop_%28fuzzer%29)
 - [Radamsa - a flock of fuzzers](https://github.com/aoh/radamsa)
 - [APIFuzzer - fuzz test without coding](https://pypi.org/project/APIFuzzer/)
+- [Jazzer - fuzzing for the JVM](https://github.com/CodeIntelligenceTesting/jazzer)
 
 #### Fuzzing Frameworks
 
@@ -173,6 +174,7 @@ Recent fuzzing initiatives:
 - [Spirent Avalanche NEXT](http://www.spirent.com/Products/AvalancheNEXT)
 - [Beyond Security's beSTORM product](http://www.beyondsecurity.com/bestorm_overview.html)
 - [ForAllSecure Mayhem product](https://forallsecure.com/mayhem)
+- [CI Fuzz](https://code-intelligence.com)
 
 ### Deprecated Tools
 
