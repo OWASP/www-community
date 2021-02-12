@@ -182,3 +182,28 @@ ZAP is a great framework for building new and innovative security testing soluti
 * [Simon Bennetts](mailto:psiinon@gmail.com) and the ZAP core team.
 
 ----
+
+### [OWASP SecureTea](https://securetea.org/)
+
+The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
+
+##### Expected results
+- add Web Application Firewall Feature (expected)
+- Improve features (IDS,Firewall)
+- Complete the web GUI and remote monitoring
+- Zero bugs - Fix the current identifed bugs
+- Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
+
+##### Getting started
+- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Join OWASP Slack and contact us on channel #project-securetea
+
+##### Student Requirements
+- Python
+- Angular
+
+##### Mentor
+* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
+* [Ade Yoseman](mailto:edikdoank@gmail.com)
+
+<hr>
