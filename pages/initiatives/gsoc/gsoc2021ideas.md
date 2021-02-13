@@ -206,4 +206,4 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 * [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
-<hr>
+----
