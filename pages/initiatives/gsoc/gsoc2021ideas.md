@@ -196,7 +196,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 
 ##### Getting started
 - Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
-- Join OWASP Slack and contact us on channel #project-securetea
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-securetea
 
 ##### Student Requirements
 - Python
