@@ -188,7 +188,7 @@ ZAP is a great framework for building new and innovative security testing soluti
 The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
 
 ##### Expected results
-- add Web Application Firewall Feature (expected)
+- Add Web Application Firewall Feature (expected)
 - Improve features (IDS,Firewall)
 - Complete the web GUI and remote monitoring
 - Zero bugs - Fix the current identifed bugs
