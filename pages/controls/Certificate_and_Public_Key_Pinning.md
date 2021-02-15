@@ -279,7 +279,7 @@ public key.
 There are two downsides to public key pinning. First, it's harder to
 work with keys (versus certificates) since you usually must extract the
 key from the certificate. Extraction is a minor inconvenience in Java
-and .Net, buts it's uncomfortable in Cocoa/CocoaTouch and OpenSSL.
+and .NET, buts it's uncomfortable in Cocoa/CocoaTouch and OpenSSL.
 Second, the key is static and may violate key rotation policies.
 
 ### Hashing
@@ -307,7 +307,7 @@ uses the technique.
 ## Examples of Pinning
 
 This section demonstrates certificate and public key pinning in Android
-Java, iOS, .Net, and OpenSSL.
+Java, iOS, .NET, and OpenSSL.
 
 ### HTTP pinning
 
@@ -357,40 +357,142 @@ However, implementing pinning validation from scratch should be avoided,
 as implementation mistakes are extremely likely and usually lead to
 severe vulnerabilities.
 
-### .Net
+### .NET
 
-.Net pinning can be achieved by using `ServicePointManager` as shown
-below.
+.NET pinning can be achieved by using `ServicePointManager` for `HttpWebRequest`, or 
+`HttpClientHandler` when using `HttpClient`, as shown below.
+
+#### HttpWebRequest
 
 Download: [.Net sample program](https://wiki.owasp.org/images/2/25/Pubkey-pin-dotnet.zip).
 
 ```
 // Encoded RSAPublicKey
-private static String PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
-    "C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
-    "D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
-    "9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
-    "2C3F4CBED9460129C72B0203010001";
+private static string PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
+	"C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
+	"D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
+	"9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
+	"2C3F4CBED9460129C72B0203010001";
 
 public static void Main(string[] args)
 {
-  ServicePointManager.ServerCertificateValidationCallback = PinPublicKey;
-  WebRequest wr = WebRequest.Create("https://encrypted.google.com/");
-  wr.GetResponse();
+	ServicePointManager.ServerCertificateValidationCallback = PinPublicKey;
+	var wr = WebRequest.Create("https://encrypted.google.com/");
+	wr.GetResponse();
 }
 
 public static bool PinPublicKey(object sender, X509Certificate certificate, X509Chain chain,
-                                SslPolicyErrors sslPolicyErrors)
+								SslPolicyErrors sslPolicyErrors)
 {
-  if (null == certificate)
-    return false;
+	// No errors
+	if (sslPolicyErrors == SslPolicyErrors.None)
+		return true;
+		
+	if (certificate == null)
+		return false;
 
-  String pk = certificate.GetPublicKeyString();
-  if (pk.Equals(PUB_KEY))
-    return true;
+    var request = sender as HttpWebRequest;
+	if (request != null && string.Equals(request.Address.Authority, "encrypted.google.com"))
+	{
+		var pk = certificate.GetPublicKeyString();
+		if (pk.Equals(PUB_KEY))
+			return true;
+	}
 
-  // Bad dog
-  return false;
+	// There are SSL policy errors
+	return false;
+}
+```
+
+Note that using `ServicePointManager.ServerCertificateValidationCallback` affects
+server certificate validation for **all** requests requiring validation from 
+the AppDomain. It is therefore advisable to check that the `sender` represents a request
+to the authority to which to apply certificate pinning, as the example above demonstrates.
+
+In .NET Framework 4.5 onwards, a validation callback can be set per HTTP request
+
+```
+// Encoded RSAPublicKey
+private static string PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
+	"C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
+	"D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
+	"9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
+	"2C3F4CBED9460129C72B0203010001";
+
+public static void Main(string[] args)
+{
+	var wr = (HttpWebRequest)WebRequest.Create("https://encrypted.google.com/");
+    
+    // set server validation callback for this request only
+    wr.ServerCertificateValidationCallback = PinPublicKey;
+	wr.GetResponse();
+}
+
+public static bool PinPublicKey(object sender, X509Certificate certificate, X509Chain chain,
+								SslPolicyErrors sslPolicyErrors)
+{
+	// No errors
+	if (sslPolicyErrors == SslPolicyErrors.None)
+		return true;
+		
+	if (certificate == null)
+		return false;
+
+    var pk = certificate.GetPublicKeyString();
+	if (pk.Equals(PUB_KEY))
+		return true;
+
+	// There are SSL policy errors
+	return false;
+}
+```
+
+#### HttpClient
+
+When using `HttpClient`, a server validation callback can be set on
+`HttpClientHandler` that will affect **all** requests requiring
+validation made with the client instance.
+
+```
+// Encoded RSAPublicKey
+private static string PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
+	"C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
+	"D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
+	"9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
+	"2C3F4CBED9460129C72B0203010001";
+
+public static void Main(string[] args)
+{
+	MainAsync().Wait();
+}
+
+private static async Task MainAsync()
+{
+	var handler = new HttpClientHandler
+	{
+		ServerCertificateCustomValidationCallback = PinPublicKey
+	};
+
+	var client = new HttpClient(handler);
+	await client.GetAsync("https://encrypted.google.com/");
+}
+
+public static bool PinPublicKey(HttpRequestMessage requestMessage, X509Certificate2 certificate, X509Chain chain,
+								SslPolicyErrors sslPolicyErrors)
+{
+	// No errors
+	if (sslPolicyErrors == SslPolicyErrors.None)
+		return true;
+		
+	if (certificate == null)
+		return false;
+
+	var pk = certificate.GetPublicKeyString();
+	if (pk.Equals(PUB_KEY))
+		return true;
+
+	// There are SSL policy errors
+	return false;
 }
 ```
 
