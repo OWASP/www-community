@@ -214,7 +214,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 
 OWASP IIDS is an open source software that leverages the benefits of Artificial Intelligence to detect intrusions and alert the respective network administrator.
 
-##### Getting started
+##### Getting Started
 
 * You may read the available documents in the [wiki page](https://owasp.org/www-project-intelligent-intrusion-detection-system/).
 
