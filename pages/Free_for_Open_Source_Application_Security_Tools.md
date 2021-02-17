@@ -105,6 +105,17 @@ capabilities. Our primary recommendation is to use one of these:
     Collection of dynamic security related helpers.
     Sec-helpers is a bundle of useful tests and validators to ensure the security of
     a given domain.
+  - [OWASP purpleteam](/www-project-purpleteam) - A security regression testing SaaS and CLI,
+    perfect for inserting into your build pipelines. You don't need to write any tests yourself.
+    purpleteam is smart enough to know how to test,
+    you just need to provide a Job file which tells purpleteam what you want tested.
+    It has two main environments `local` and `cloud`.
+      - `local` is OWASP - set everything up yourself in your own environment.
+      - `cloud` is a proprietary offering with everything hosted for you in the cloud.
+        You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam)
+    purpleteam is pluggable, if it doesn't have a tester that you need you can add your own.
+    One of the testers (the web application tester) uses OWASP ZAP under the hood.
+
 
 We are not aware of any other commercial grade tools that offer their
 full featured DAST product free for open source projects.
