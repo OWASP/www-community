@@ -206,4 +206,36 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 * [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
+<hr>
+
+### [OWASP Intelligent Intrusion Detection System](https://github.com/OWASP/Intelligent-Intrusion-Detection-System)
+
+##### Explanation of Ideas
+
+OWASP IIDS is an open source software that leverages the benefits of Artificial Intelligence to detect the intrusion and alert the respective network administrator.
+
+##### Getting started
+
+* You may read the available documents in the [wiki page](https://owasp.org/www-project-intelligent-intrusion-detection-system/).
+
+#### Expected Results
+
+* The expected results are to work for V1.0 release.
+
+
+#### Knowledge Prerequisites
+
+* The whole framework will be written in Python language. You must be familiar with Python 3.x and Django
+* Good knowledge of Network security (and Software Security)
+* Knowledge of OS (Linux, Windows, Mac).
+* Familiar with OSI model and security at each layer.
+* Familiar with Deep Learning mainly LSTMs and different types of RNNs.
+* You should also be familiar with RESTful framework and Databases
+
+##### Mentors
+* [Sri Harsha Gajavalli](mailto:sriharsha.g@owasp.org)
+
+<hr>
+
+
 ----
