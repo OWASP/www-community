@@ -1456,5 +1456,14 @@
       "platforms": "Ubuntu, MacOSX and Windows",
       "note": "An Open Source, Source Code Scanning Tool, developed with JavaScript (Node.js framework), Scans for PHP & MySQL Security Vulnerabilities According to OWASP Top 10 and Some other OWASP's famous vulnerabilities, and it teaches developers of how to secure their codes after scan.",
       "type": "SAST"
+   },
+   {
+      "title": "purpleteam",
+      "url": "https://owasp.org/www-project-purpleteam/",
+      "owner": "OWASP",
+      "license": "Open Source",
+      "platforms": "CLI and SaaS",
+      "note": "GNU-AGPL v3",
+      "type": "DAST"
    }
 ]
