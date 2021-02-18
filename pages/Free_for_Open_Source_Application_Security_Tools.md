@@ -112,7 +112,8 @@ capabilities. Our primary recommendation is to use one of these:
     It has two main environments `local` and `cloud`.
       - `local` is OWASP - set everything up yourself in your own environment.
       - `cloud` is a proprietary offering with everything hosted for you in the cloud.
-        You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam)
+        You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam).  
+        
     purpleteam is pluggable, if it doesn't have a tester that you need you can add your own.
     One of the testers (the web application tester) uses OWASP ZAP under the hood.
 
