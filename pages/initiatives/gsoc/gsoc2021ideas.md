@@ -315,7 +315,7 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 
 ##### Brief Explanation:
 
-Some pages of the new OWTF interface has been under progess for a very long time.  Complete implementation of the Login/Signup Page (APIs + frontend) with proper unit/functional tests will also be deliverable for this project. Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
+Some pages of the new OWTF interface has been under progess for a very long time.  Complete implementation of the Login/Signup Page (APIs + frontend) with proper unit/functional tests will be deliverable for this project. Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
 
 For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
 
