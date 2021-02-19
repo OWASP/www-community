@@ -236,7 +236,6 @@ OWASP IIDS is an open source software that leverages the benefits of Artificial 
 
 ----
 
-
 ### [OWASP OWTF](https://github.com/owtf/owtf)
 Offensive Web Testing Framework (OWTF) is a project focused on penetration testing efficiency and alignment of security tests to security standards like the OWASP Testing Guide (v3 and v4), the OWASP Top 10, PTES and NIST. Most of the ideas below focus on rewrite of some major 
 components of OWTF to make it more modular. OWTF is moving to a fresh codebase with a fully Docker testing and deployment environment.
@@ -367,4 +366,66 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-proj
 * Viyat Bhalodia
 * [Mohit Sharma](mailto:ms892075@gmail.com)
 
+----
+
+### [OWASP Python Honeypot](https://github.com/OWASP/Python-Honeypot)
+
+##### Explanation of Ideas
+
+OWASP Honeypot is an open-source software in Python language which designed for creating honeypot and honeynet in an easy and secure way! This project is compatible with Python 3.x and tested on Mac OS X, and Linux.
+
+##### Getting Started
+
+* [Wiki](https://github.com/OWASP/Python-Honeypot/wiki)
+
+#### Expected Results
+
+* Zero Bugs
+* Extend functionalities
+* Enhance Performance
+* Re-Design WebUI Graphs
+
+#### Knowledge Prerequisites
+
+* Docker
+* Python
+* CyberSecurity
+* MongoDB
+* Web Design knowledge
+
+##### Mentors
+* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [Sam Stepanyan](sam.stepanyan@owasp.org)
+
 ---
+
+### [OWASP Nettacker](https://github.com/OWASP/Nettacker)
+
+##### Explanation of Ideas
+
+OWASP Nettacker project is created to automate information gathering, vulnerability scanning and eventually generating a report for networks, including services, bugs, vulnerabilities, misconfigurations, and other information. This software will utilize TCP SYN, ACK, ICMP, and many other protocols in order to detect and bypass Firewall/IDS/IPS devices. By leveraging a unique method in OWASP Nettacker for discovering protected services and devices such as SCADA. It would make a competitive edge compared to other scanner making it one of the bests.
+
+##### Getting Started
+
+* [Wiki](https://github.com/OWASP/Nettacker/wiki)
+
+#### Expected Results
+
+* Migrate fully to Python 3
+* Re-architect the framework and all existing funtionalities/modules
+* Zero Bugs
+* Re-Design WebUI
+
+#### Knowledge Prerequisites
+
+* Docker
+* Python
+* CyberSecurity
+* SQLite
+* Web Design knowledge
+
+##### Mentors
+* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [Sam Stepanyan](sam.stepanyan@owasp.org)
+
+----
