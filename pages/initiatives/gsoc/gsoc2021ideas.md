@@ -262,7 +262,7 @@ Therefore this passive online scanner does not do anything illegal
 [More information about why this is not illegal here](http://www.slideshare.net/abrahamaranguren/legal-and-efficient-web-app-testing-without-permission) 
 (recommended reading!)
 
-For background on OWASP OWTF please see: [OWASP OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
+For background on OWASP OWTF please see: [OWASP OWTF](https://owasp.org/www-project-owtf/)
 
 ##### Expected results:
 * IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/)/ES6 JavaScript code in all modified code and surrounding areas.
@@ -288,7 +288,7 @@ A good knowledge of JavaScript and writing ES6 compliant React/TypeScript is nee
 
 The current owtf web interface is implemented in ReactJs with Redux as the state manager. The project involves - (1) integration of Typescript in the code to ease the refactoring process, (2) upgrading the UI to remove additional dependencies and improve user experience . Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
 
-For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
+For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
 
 ##### Expected results:
 - IMPORTANT:Clean, maintainable (ES6 compatible and using recommended design patterns) React (TypeScript) code.
@@ -317,7 +317,7 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 
 Some pages of the new OWTF interface has been under progess for a very long time.  Complete implementation of the Login/Signup Page (APIs + frontend) with proper unit/functional tests will be deliverable for this project. Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
 
-For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
+For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
 
 ##### Expected results:
 - IMPORTANT:Clean, maintainable (ES6 compatible and using recommended design patterns) React (TypeScript) code.
@@ -347,7 +347,7 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 There are many small but important enhancements in the issue tracker which are too small to make a single project, but they can be grouped together to make a suitable GSoC project.
 The aim of the project is to implement some of the enhancements suggested in the issue tracker to improve user experience (adding new useful features and making the owtf tool easier to use), security and performance.
 
-For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
+For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
 
 ##### Expected results:
 - IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
