@@ -25,7 +25,7 @@ Fuzzing is the art of automatic bug finding, and it's role is to find software i
 
 ## History
 
-Fuzz testing was developed at the University of Wisconsin Madison in 1989 by Professor Barton Miller and students. Their (continued) work an be found at <http://www.cs.wisc.edu/~bart/fuzz/> ; it's mainly oriented towards command-line and UI fuzzing, and shows that modern ooperating systems are vulnerable to even simple fuzzing.
+Fuzz testing was developed at the University of Wisconsin Madison in 1989 by Professor Barton Miller and students. Their (continued) work can be found at <http://www.cs.wisc.edu/~bart/fuzz/> ; it's mainly oriented towards command-line and UI fuzzing, and shows that modern operating systems are vulnerable to even simple fuzzing.
 
 ## Fuzzer implementations
 
