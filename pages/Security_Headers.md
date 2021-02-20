@@ -18,9 +18,8 @@ by default there are secure settings which should be enabled unless
 there are other overriding concerns.
 
   - X-Frame-Options: SAMEORIGIN
-    [1](https://developer.mozilla.org/en-US/docs/HTTP/X-Frame-Options)
-  - X-XSS-Protection: 1; mode=block
-    [2](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection)
+    [(for more info)](https://developer.mozilla.org/en-US/docs/HTTP/X-Frame-Options)
+  - X-XSS-Protection: 0 [(for more info)](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html#x-xss-protection-header)
   - X-Content-Type-Options: nosniff
   - Content-Type: text/html; charset=utf-8
 
