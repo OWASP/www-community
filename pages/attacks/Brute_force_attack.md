@@ -149,7 +149,7 @@ HTTP response code 200 but the page itself indicates "File not found".
 This can lead to false positives if the brute force tool is only relying
 on HTTP response codes.
 
-Suite](http://portswigger.net/), can be used to parse specific parts of
+[Burp Suite](http://portswigger.net/), can be used to parse specific parts of
 the page returned, looking for certain strings in an effort to reduce
 false positives.
 
@@ -165,8 +165,8 @@ username or password field until successful authentication.
 
 Detect your web servers being scanned by brute force tools such as
 WFuzz, OWASP DirBuster and vulnerability scanners such as Nessus, Nikto,
-Acunetix ..etc. This helps you quickly identify probable probing by bad
-guys who's wanna dig possible security holes.
+Acunetix, etc. This helps you quickly identify probable probing by bad
+actors who want to dig possible security holes.
 
 [Docs](http://yehg.net/lab/pr0js/tools/php-brute-force-detector-readme.pdf)
 
