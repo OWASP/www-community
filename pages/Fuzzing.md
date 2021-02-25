@@ -101,11 +101,11 @@ One can attack:
 - the codec/application layer: lower-level attacks, aiming at the program's deeper internals
 
 One example of file format related vulnerabilities:
-[MS04-028](http://www.microsoft.com/technet/security/bulletin/ms04-028.mspx) (KB833987) Microsoft's JPEG GDI+ vulnerability was a zero sized comment field, without content.
+[MS04-028](https://docs.microsoft.com/en-us/security-updates/SecurityBulletins/2004/ms04-028) (KB833987) Microsoft's JPEG GDI+ vulnerability was a zero sized comment field, without content.
 
 Surprisingly, file format fuzzers are not that common, but tend to appear these days; some examples:
 
-- A generic file format fuzzer : [Ilja van Sprundel's mangle.c](http://www.digitaldwarf.be/products/mangle.c); "it's usage is very simple, it takes a filename and headersize as input. it will then change approximatly between 0 and 10% of the header with random bytes." (from the author)
+- A generic file format fuzzer : [Ilja van Sprundel's mangle.c](https://ext4.wiki.kernel.org/index.php/Filesystem_Testing_Tools/mangle.c); "it's usage is very simple, it takes a filename and headersize as input. it will then change approximatly between 0 and 10% of the header with random bytes." (from the author)
 - Zzuf can act as a fuzzed file generator, <http://sam.zoy.org/zzuf/> - One may use tools like [Hachoir](https://hachoir.readthedocs.io/) as a generic  parser for file format fuzzer development.
 
 ## Fuzzers advantages
@@ -132,9 +132,9 @@ systematic approach should find them sooner or later.
 Fuzzing can add another point of view to classical software testing techniques (hand code review, debugging) because of it's non-human
 approach. It doesn't replace them, but is a reasonable complement, thanks to the limited work needed to put the procedure in place.
 
-Recent fuzzing initiatives:
+Some fuzzing initiatives:
 
-- The [Month of Kernel Bugs](http://projects.info-pull.com/mokb/), which revealed an Apple Wireless flaw; see http://kernelfun.blogspot.com/](http://kernelfun.blogspot.com/); mainly used file system fuzzing tools
+- The [Month of Kernel Bugs, which revealed an Apple Wireless flaw](http://kernelfun.blogspot.com/) mainly used file system fuzzing tools
 - The [Month of Browser Bugs](http://browserfun.blogspot.com/); number of bugs found: MSIE: 25 Apple Safari: 2 Mozilla: 2 Opera: 1 Konqueror: 1; used  DHTML, Css, DOM, ActiveX fuzzing tools
 
 
@@ -163,19 +163,13 @@ Recent fuzzing initiatives:
 
 #### Domain-Specific Fuzzers
 
-- [Microsoft SDL MiniFuzz File Fuzzer](http://www.microsoft.com/download/en/details.aspx?id=21769)
-- [Microsoft SDL Regex Fuzzer](http://www.microsoft.com/download/en/details.aspx?id=20095)
 - [ABNF Fuzzer](https://github.com/nradov/abnffuzzer)
 
 ### Commercial products
 
 - [Codenomicon's product suite](http://www.codenomicon.com/products/all.shtml)
 - [Peach Fuzzing Platform](http://peachfuzzer.com)
-- [Spirent Avalanche NEXT](http://www.spirent.com/Products/AvalancheNEXT)
 - [Beyond Security's beSTORM product](http://www.beyondsecurity.com/bestorm_overview.html)
 - [ForAllSecure Mayhem product](https://forallsecure.com/mayhem)
 - [CI Fuzz](https://code-intelligence.com)
 
-### Deprecated Tools
-
-- [Untidy - XML Fuzzer](http://www.bonsai-sec.com/en/research/untidy-xml-fuzzer.php) (Now integrated into Peach)

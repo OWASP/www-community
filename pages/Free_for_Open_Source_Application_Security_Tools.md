@@ -62,10 +62,6 @@ promising is:
     Supports C/C++, C\#, COBOL (in beta), Java, JavaScript/TypeScript,
     Python
     
-  - [Insider CLI](https://github.com/insidersec/insider) - A open source Static
-  Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android),
-  Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
-
 In addition, we are aware of the following commercial SAST tools that
 are free for Open Source projects:
 
@@ -193,7 +189,7 @@ Commercial tools of this type that are free for open source:
     for OSS. CE supports Java and .NET only.
   - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
     Scala, Golang, .NET, PHP - Latest list here: 
-    <https://support.snyk.io/hc/en-us/categories/360000456257-Language-support>
+    <https://support.snyk.io/hc/en-us/sections/360001087857>
       - A Commercial tool that identifies vulnerable components and
         integrates with numerous CI/CD pipelines. It is free for open
         source: <https://snyk.io/plans>
@@ -202,7 +198,7 @@ Commercial tools of this type that are free for open source:
         Interface (CLI) instead. See: <https://snyk.io/docs/using-snyk>.
         If you do this and want it to be free, you have to configure
         Snyk so it know its open source:
-        <https://support.snyk.io/snyk-cli/how-can-i-set-a-snyk-cli-project-as-open-source>
+        <https://support.snyk.io/hc/en-us/articles/360000910597-How-can-I-set-a-Snyk-CLI-project-as-open-source>
           - Another benefit of using the Snyk CLI is that it won't auto
             create Pull requests for you (which makes these 'issues'
             more public than you might prefer)

@@ -327,7 +327,6 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Vigilant Ops InSight]: https://vigilant-ops.com/
 
 
-
 ## References
 
   - Cyber Supply Chain Risk Management (C-SCRM)
@@ -353,4 +352,5 @@ and legal teams an opportunity to create solutions for healthy open source usage
   - Managing Security Risks Inherent in the Use of Third-party Components (SAFECode)  
     - <https://safecode.org/wp-content/uploads/2017/05/SAFECode_TPC_Whitepaper.pdf>
   - Deliver Uncompromised (MITRE)  
-    - <https://www.mitre.org/sites/default/files/publications/pr-18-2417-deliver-uncompromised-MITRE-study-8AUG2018.pdf>
+    - <https://www.mitre.org/sites/default/files/publications/pr-18-2417-deliver-uncompromised-MITRE-study-26AUG2019.pdf>
+
