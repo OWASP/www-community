@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: Regular expression Denial of Service - ReDoS
 author: Adar Weidman 
-contributors: Ebing, Rsl81, Wichers, Bjoern Kimminich, kingthorin
+contributors: Ebing, Rsl81, Wichers, Bjoern Kimminich, kingthorin, pi3ch
 permalink: /attacks/Regular_expression_Denial_of_Service_-_ReDoS
 tags: attack, redos, Regular expression Denial of Service - ReDoS
 
@@ -18,14 +18,14 @@ Service](Denial_of_Service) attack, that exploits the fact
 that most Regular Expression implementations may reach extreme
 situations that cause them to work very slowly (exponentially related to
 input size). An attacker can then cause a program using a Regular
-Expression to enter these extreme situations and then hang for a very
+Expression (Regex) to enter these extreme situations and then hang for a very
 long time.
 
 ## Description
 
 ### The problematic Regex naïve algorithm
 
-The Regular Expression naïve algorithm builds a [Nondeterministic Finite
+The Regex naïve algorithm builds a [Nondeterministic Finite
 Automaton
 (NFA)](http://en.wikipedia.org/wiki/Nondeterministic_finite_state_machine),
 which is a finite state machine where for each pair of state and input
@@ -35,7 +35,7 @@ several possible next states, a deterministic algorithm is used. This
 algorithm tries one by one all the possible paths (if needed) until a
 match is found (or all the paths are tried and fail).
 
-For example, the Regex `^(a+)+$` is represented by the following
+For example, the Regex pattern or quantifier `^(a+)+$` is represented by the following
 NFA:
 
 ![Nondeterministic Finite Automaton](../assets/images/attacks/NFA.png)
@@ -44,7 +44,14 @@ For the input `aaaaX` there are 16 possible paths in the above
 graph. But for `aaaaaaaaaaaaaaaaX` there are 65536 possible paths,
 and the number is double for each additional `a`. This is an extreme
 case where the naïve algorithm is problematic, because it must pass on
-many many paths, and then fail.
+many paths to find a **non-matching input**.
+
+The root-cause of the above example is in a Regex engine feature called **backtracking**.
+Simply, if the input (token) fails to match, the engine goes back to
+previous positions where it could take a different path.
+The engine tries this many times until it explores all possible paths.
+In the above example, this feature create a long running loop 
+because there were many paths to explore due to inefficient Regex pattern.
 
 Notice, that not all algorithms are naïve, and actually Regex algorithms
 can be written in an efficient way. Unfortunately, most Regex engines
@@ -55,18 +62,18 @@ be solved efficiently (see **Patterns for non-regular languages** in
 more details). So even if the Regex is not "expanded", a naïve algorithm
 is used.
 
-### Evil Regexes
+### Evil Regex
 
-A Regex is called "evil" if it can stuck on crafted input.
+A Regex pattern is called **Evil Regex** if it can stuck on crafted input.
 
-**Evil Regex pattern contains**:
+**Evil Regex contains**:
 
 - Grouping with repetition
 - Inside the repeated group:
     - Repetition
     - Alternation with overlapping
 
-**Examples of Evil Patterns**:
+**Examples of Evil Regex**:
 
 - `(a+)+`
 - `([a-zA-Z]+)*`
