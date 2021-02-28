@@ -1307,10 +1307,10 @@
    {
       "title": "Fortify",
       "url": "https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "ABAP/BSP, ActionScript/MXML (Flex), ASP.NET, VB.NET, C\\# (.NET), C/C++, Classic ASP (w/VBScript), COBOL, ColdFusion CFML, HTML, Java (including Android), JavaScript/AJAX, JSP, Objective-C, PHP, PL/SQL, Python, T-SQL, Ruby, Swift, Visual Basic, VBScript, XML",
+      "owner": "Micro Focus",
+      "license": "Commercial",
+      "platforms": "Windows, Linux, and MacOSX",
+      "note": "Free trial scan available. Supported languages include: ABAP/BSP, ActionScript/MXML (Flex), APEX, ASP.NET, VB.NET, C\\# (.NET), C/C++, Classic ASP (w/VBScript), COBOL, ColdFusion CFML, Go, HTML, Java (including Android), JavaScript/AJAX, JSP, Kotlin, Objective-C, PHP, PL/SQL, Python, Typescript, T-SQL, Ruby, Scala, Swift, Visual Basic (VB.NET), Visual Basic 6, VBScript, XML",
       "type": "SAST"
    },
    {
