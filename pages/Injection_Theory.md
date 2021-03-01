@@ -143,7 +143,7 @@ insert data into an HTML document (that is, a place where a developer
 has allowed untrusted data to be included in the DOM), there are two
 ways to inject code:
 
-;Injecting UP:The most common way is to close the current context and
+- Injecting UP:The most common way is to close the current context and
 start a new code context. For example, this is what you do when you
 close an HTML attribute with a `"\>` and start a new
 `<script>`
