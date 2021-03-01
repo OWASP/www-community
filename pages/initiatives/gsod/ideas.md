@@ -1,6 +1,6 @@
 ---
 
-layout: full-width
+layout: col-sidebar
 title: Google Season of Docs 2021
 tags: gsod, Google Season of Docs 2021
 permalink: /initiatives/gsod/current/
