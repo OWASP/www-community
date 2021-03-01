@@ -3,7 +3,7 @@
 layout: full-width
 title: Google Season of Docs 2020
 tags: gsod, Google Season of Docs 2020
-permalink: /initiatives/gsod/current/
+permalink: /initiatives/gsod/historical/2020_ideas/
 
 ---
 
