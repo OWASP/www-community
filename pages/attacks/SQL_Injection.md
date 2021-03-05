@@ -21,7 +21,7 @@ administration operations on the database (such as shutdown the DBMS),
 recover the content of a given file present on the DBMS file system and
 in some cases issue commands to the operating system. SQL injection
 attacks are a type of injection attack, in which SQL commands
-are injected into data-plane input in order to effect the execution of
+are injected into data-plane input in order to affect the execution of
 predefined SQL commands.
 
 ## Threat Modeling
