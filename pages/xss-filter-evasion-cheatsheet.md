@@ -985,3 +985,4 @@ header('Refresh: 0; URL='.$_GET['param']);
 - `top[‘al\x65rt’](1)`
 - `top[8680439..toString(30)](1)`
 - `alert?.()`
+- `${alert``}`
