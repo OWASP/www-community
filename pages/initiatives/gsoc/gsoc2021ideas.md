@@ -439,20 +439,23 @@ Now the idea is to also create the capability to make code changes in all of the
 
 With this editor in the labs we can now also use it to train and get experience in applying the secure design patterns and mitigating the vulnerabilities in the labs.
 
-#### Idea Two: Your own idea
-
-Let us know if you have a strong other idea! :)
-
-##### Expected Results
+##### Idea One: Expected Results
 
 * Implement a HTML Editor functionality to allow all the files within the Docker image to be updated
 * Implement a application log window to see stacktraces or errors
 * The component that is running next to the Lab application needs to be build so it can be used for all type of Languages we use in the Labs, for example Python, Java, Ruby, Nodejs
 
+
+#### Idea Two: Your own idea
+
+Let us know if you have a strong other idea! :)
+
+
 #### Knowledge Prerequisites
 
 * Docker
 * HTML
+* Angular9
 * Javascript
 * Design / styling
 * Python
