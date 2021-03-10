@@ -439,7 +439,7 @@ Now the idea is to also create the capability to make code changes in all of the
 
 With this editor in the labs we can now also use it to train and get experience in applying the secure design patterns and mitigating the vulnerabilities in the labs.
 
-#### Idea One: Your own idea
+#### Idea Two: Your own idea
 
 Let us know if you have a strong other idea! :)
 
