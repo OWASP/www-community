@@ -429,3 +429,46 @@ OWASP Nettacker project is created to automate information gathering, vulnerabil
 * [Sam Stepanyan](sam.stepanyan@owasp.org)
 
 ----
+
+### [Security Knowledge Framework (SKF)](https://owasp.org/www-project-security-knowledge-framework/)
+
+#### Idea One: Extending the SKF Labs with code fixing functionality
+
+We have more then 70 SKF Labs for developers to practice the skills in security in terms of identifying and testing vulnerabilities.
+Now the idea is to also create the capability to make code changes in all of the Labs using a browser editor and displaying log output.
+
+With this editor in the labs we can now also use it to train and get experience in applying the secure design patterns and mitigating the vulnerabilities in the labs.
+
+##### Idea One: Expected Results
+
+* Implement a HTML Editor functionality to allow all the files within the Docker image to be updated
+* Implement a application log window to see stacktraces or errors
+* The component that is running next to the Lab application needs to be build so it can be used for all type of Languages we use in the Labs, for example Python, Java, Ruby, Nodejs
+
+
+#### Idea Two: Your own idea
+
+Let us know if you have a strong other idea! :)
+
+
+#### Knowledge Prerequisites
+
+* Docker
+* HTML
+* Angular9
+* Javascript
+* Design / styling
+* Python
+* Kubernetes
+
+##### Getting Started
+Have a look at the SKF Labs and inspect the Docker files, source code of the Labs and get an idea how we build them.
+These are then all used in the OWASP-SKF project where people can launch the Labs from there in a Kubernetes Cluster.
+
+* [SKF-Labs](https://github.com/blabla1337/skf-labs)
+
+##### Mentors
+* [Glenn ten Cate](glenn.ten.cate@owasp.org)
+* [Riccardo ten Cate](riccardo.ten.cate@owasp.org)
+
+----
