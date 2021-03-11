@@ -472,3 +472,32 @@ These are then all used in the OWASP-SKF project where people can launch the Lab
 * [Riccardo ten Cate](riccardo.ten.cate@owasp.org)
 
 ----
+
+### [OWASP DefectDojo](https://github.com/DefectDojo/django-DefectDojo)
+
+##### Explanation of Ideas
+OWASP DefectDojo is a security program and vulnerability management tool.
+Our UI is old and crancky. Many JS libraries used at the start of the project are old and not maintained since many years... 
+Our web interface need a brand new modern UI. We want a light modern UI based on JS technologies that will leverage our API (an SPA that use an OpenAPI).
+It's a blank page to write. 
+
+##### Getting Started
+
+* You may read the available documents in the [wiki page](https://defectdojo.github.io/django-DefectDojo/). Especially the Development Guide section.
+* Any question, problem, and discussion? contact with [Damien Carol](mailto:damien.carol@gmail.com).
+
+##### Expected Results
+
+* New SPA that cover 30% of the feature of the current UI
+
+###### Knowledge Prerequisites
+
+* Web programming in one of the modern JS framework (ReactJS?, Angular?)
+* Some knowledge of OpenAPI/Swagger 
+* Python programming is an advantage
+
+##### Mentors
+* [Damien Carol](mailto:damien.Carol@gmail.com)
+* [Fred Blaise](mailto:fred.blaise@gmail.com )
+
+----
