@@ -310,6 +310,26 @@
         "description": "<p>**** Meeting link will be added closer to the date and accessible to those who RSVP only ****</p> <p>Talk 1: Deep malware obfuscation<br/>Speaker: Saeid Rezaei - Machine learning researcher at University College Cork</p> <p>Deep learning has been widely utilized in many practical applications and achieved remarkable commercial success. It can be used in malware obfuscation engines which are used to secure digital rights management against hackers, and bypass anti-malware programs. In the real world scenarios, there are some constraints that should be considered during malware obfuscation. Using deep learning can help to select the best samples which are satisfying these constraints. In this presentation, we will show how can we use deep learning techniques to improve the performance of obfuscator engines against malware detection techniques.</p> <p>Talk 2: Adversarial machine learning (AML)<br/>Speakers: Dr. Sorcha Healy Principal Engineer, Lead Data Scientist at McAfee and Dr. Catherine Huang - Principal Engineer and Senior Staff Data Scientist at McAfee</p> <p>In this talk Sorcha and Catherine will review the general attack landscape against ML and ML security providers. Understanding the fundamentals behind what a machine learning model does and how it works in combination with the Mitre Adversarial Matrix can provide some sensible MLOps practices to protect the components of a ML system. We will review adversarial machine learning (AML) use cases and demonstrate McAfee\u2019s applied research in AML in protecting our customers against this hostile landscape.</p> "
     },
     {
+        "group": "Www Project Devslop",
+        "repo": "www-project-devslop",
+        "name": "Cloud Security and IAM for Developers",
+        "date": "2021-03-21",
+        "time": "13:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/276119941/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>Everyone talks to us about identity as a perimeter and shifting security left, but before we implement new security tools to help us master that, we should get back to basics and learn about the IAM mechanism, how should it be used in a cloud-native application, how to make sure our data and infrastructure are well secured, and then how to scale all of that easily. This talk is for junior and senior developers, who feel like they need a better understanding of the cloud security fundamentals.</p> <p>OUR GUEST: David Hendri</p> <p>David has over 15 years of experience in delivering enterprise software and leading development teams. Prior to co-founding Solvo, David was one of the first R&amp;D employees at Dome9 Security (acq. by CheckPoint in 2018), leading the development of key features and helping users uphold compliance in the cloud. David is a graduate of \"MAMRAM\", the elite military programming training, and served as an officer in the Intelligence Corps.</p> "
+    },
+    {
+        "group": "Www Project Devslop",
+        "repo": "www-project-devslop",
+        "name": "Secrets Management: A Developer\u2019s View",
+        "date": "2021-03-14",
+        "time": "13:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/276119934/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>In this session, we will look at some of the challenges that developers face when their code meets secrets. From Database connection strings and API tokens to encrypting sensitive data that your applications handle. With this context, we will also look at how we can implement simple API-driven workflows into applications to overcome these challenges.</p> <p>OUR GUEST: Rob Barnes<br/>Robert, also known as DevOps Rob, is a Senior Developer Advocate at HashiCorp. His focus is primarily on Cloud security. He comes from a Network engineering background and more recently in his career, he has been working as a Cloud Consultant, helping customers extract maximum value from the Cloud. His experience spans multiple sectors, from Banking and Fintech to Transport, Charities and Cyber Security. He is a strong advocate for open-source, security best practices and building diverse communities.</p> "
+    },
+    {
         "group": "Www Chapter Bonita Springs",
         "repo": "www-chapter-bonita-springs",
         "name": "OWASP Monthly Meeting",
