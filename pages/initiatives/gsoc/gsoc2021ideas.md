@@ -111,6 +111,8 @@ list? Great, please submit it!
 
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
+* Jannik Hollenbach - OWASP Juice Shop Core Team
+* Timo Pagel - OWASP Juice Shop Core Team
 
 ----
 
