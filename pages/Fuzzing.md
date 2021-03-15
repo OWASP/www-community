@@ -154,6 +154,7 @@ Some fuzzing initiatives:
 - [Radamsa - a flock of fuzzers](https://github.com/aoh/radamsa)
 - [APIFuzzer - fuzz test without coding](https://pypi.org/project/APIFuzzer/)
 - [Jazzer - fuzzing for the JVM](https://github.com/CodeIntelligenceTesting/jazzer)
+- [ForAllSecure Mayhem for API](https://forallsecure.com/mayhem-for-api)
 
 #### Fuzzing Frameworks
 
@@ -170,6 +171,6 @@ Some fuzzing initiatives:
 - [Codenomicon's product suite](http://www.codenomicon.com/products/all.shtml)
 - [Peach Fuzzing Platform](http://peachfuzzer.com)
 - [Beyond Security's beSTORM product](http://www.beyondsecurity.com/bestorm_overview.html)
-- [ForAllSecure Mayhem product](https://forallsecure.com/mayhem)
+- [ForAllSecure Mayhem for Code](https://forallsecure.com/mayhem-for-code)
 - [CI Fuzz](https://code-intelligence.com)
 
