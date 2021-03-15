@@ -60,6 +60,24 @@ it is the heart and soul of the Juice Shop, any redesign or usability
 improvements must be thoroughly tested and strive for the best possible
 user experience.
 
+###### Coding Challenges
+
+Juice Shop's upcoming [Vulnerable Code Snippets](http://bkimminich.github.io/juice-shop/#/5/7) serve as a foundation for an ambitious new
+training aspect: Coding challenges. In their current implementation the
+snippets come with a spoiler area for the actually vulnerable line(s) of code. Instead, they could
+offer a list of lines from which the user must select the actually vulnerable one, whereas the others simply
+act as ruses. This enhancement alone would obviously not fill the time available in a GSoC project.
+
+It could be extended by a code fixing aspect, where the user must select the right fix
+from a list of choices. Or even more ambitious, a code editor could be offered where the vulnerable line(s) must
+actually be fixed, and the code is then executed or statically checked in the background, to see if the vulnerability is gone.
+
+Both parts - finding and fixing - could yield points on the Score Board, where the "hacking" and "coding" challenges
+could be tracked separately. It should be configurable, if the user must first solve the hacking challenge to be offered
+the corresponding coding challenge or if they are available all the time. It is even thinkable to provide CTF flags for
+fixed code, so that hacking and fixing could be both offered as CTF challenges - effectively doubling the number of challenges
+in a Juice Shop-powered CTF event.
+
 ###### Your own idea
 
 You have an awesome idea to improve OWASP Juice Shop that is not on this
@@ -93,6 +111,8 @@ list? Great, please submit it!
 
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
+* Jannik Hollenbach - OWASP Juice Shop Core Team
+* Timo Pagel - OWASP Juice Shop Core Team
 
 ----
 
