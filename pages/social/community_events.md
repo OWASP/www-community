@@ -2,7 +2,7 @@
 
 title: OWASP Community Meetings
 layout: col-sidebar
-permalink: /meetings/
+permalink: meetings/
 
 ---
 
