@@ -524,20 +524,18 @@ It's a blank page to write.
 
 ### [OWASP Bug Logging Tool](https://github.com/OWASP/BLT)
 
-##### Brief Explanation:
+##### Brief Explanation
 
 BLT lets anyone report issues they find on the internet. Found something out of place on Amazon.com ? Let them know. Companies are held accountable and shows their response time and history. Get points for reporting bugs and help keep the internet bug free.
 
-Check OWASP WIKI PAGE https://www.owasp.org/index.php/OWASP_Bug_Logging_Tool for some reference;
-
-##### Getting started
+##### Getting Started
 * Get in touch with [Sourav Badami](mailto:sourav.badami@owasp.org) to discuss your idea.
 
-##### Expected Results:
+##### Expected Results
 * Flutter app for bug hunting and crowd sourcing hunters with bounty support on top of the existing platform.
 * Code follows existing styleguides and passes all existing quality gates regarding code smells, test coverage etc.
 
-##### Knowledge Prerequisites:
+##### Knowledge Prerequisites
 * Javascript, Unit/Integration testing, experience with (or willingness to learn) Flutter, Python, Django some security knowledge would be preferable.
 
 ##### Mentors:
