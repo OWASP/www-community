@@ -538,7 +538,7 @@ BLT lets anyone report issues they find on the internet. Found something out of 
 ##### Knowledge Prerequisites
 * Javascript, Unit/Integration testing, experience with (or willingness to learn) Flutter, Python, Django some security knowledge would be preferable.
 
-##### Mentors:
+##### Mentors
 * [Sourav Badami](mailto:sourav.badami@owasp.org) - OWASP Bug Logging Tool Project Leader
 * [Sean Auriti](mailto:sean.auritii@owasp.org) - OWASP Bug Logging Tool Project Leader
 
