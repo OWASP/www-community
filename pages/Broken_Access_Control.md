@@ -34,7 +34,10 @@ other mischief.
 
 ## Examples and References
 
-- [http://www.infosecuritymag.com/2002/jun/insecurity.shtml](http://www.infosecuritymag.com/2002/jun/insecurity.shtml)
+- [OWASP Proactive Controls: Enforce Access Controls](https://github.com/OWASP/www-project-top-ten/blob/master/www-project-proactive-controls/v3/en/c7-enforce-access-controls)
+- [OWASP Application Security Verification Standard: V4 Access Control](https://github.com/OWASP/www-project-top-ten/blob/master/www-project-application-security-verification-standard)
+- [OWASP Testing Guide: Authorization Testing](https://github.com/OWASP/www-project-top-ten/blob/master/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/README)
+- [OWASP Cheat Sheet: Access Control](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
 
 ## How to Determine If You Are Vulnerable
 
