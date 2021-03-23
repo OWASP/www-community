@@ -797,7 +797,7 @@
       "owner": null,
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "Like Grep, for code. A lightweight static analysis tool with intuitive rule syntax for searching code. Scans source code. No compilation required. Supports Python, JavaScript, Go, Java, C.",
+      "note": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. No compilation needed to scan source code. Supports Go, Java, JavaScript, JSON,Python, TypeScript, and more.",
       "type": "SAST"
    },
    {
