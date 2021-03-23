@@ -99,7 +99,7 @@ domains) access:
 - `opener.self`: Returns the current window.
 - `opener.top`: Returns the topmost browser window.
 
-If the domains are the same then malicious site can access all the
+If the domains are the same then the malicious site can access all the
 properties exposed by the
 **[window](https://www.w3schools.com/jsref/obj_window.asp)** javascript
 object reference.
