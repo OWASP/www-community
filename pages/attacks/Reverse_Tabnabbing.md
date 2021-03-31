@@ -101,7 +101,7 @@ domains) access:
 
 If the domains are the same then the malicious site can access all the
 properties exposed by the
-**[window](https://www.w3schools.com/jsref/obj_window.asp)** javascript
+**[window](https://developer.mozilla.org/en-US/docs/Web/API/Window)** javascript
 object reference.
 
 ## Prevention
