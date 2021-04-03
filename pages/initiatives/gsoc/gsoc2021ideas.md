@@ -497,28 +497,32 @@ These are then all used in the OWASP-SKF project where people can launch the Lab
 
 ##### Explanation of Ideas
 OWASP DefectDojo is a security program and vulnerability management tool.
-Our UI is old and crancky. Many JS libraries used at the start of the project are old and not maintained since many years... 
-Our web interface need a brand new modern UI. We want a light modern UI based on JS technologies that will leverage our API (an SPA that use an OpenAPI).
-It's a blank page to write. 
+
+Our UI is old and crancky. Many JS libraries used at the start of the project are old and not maintained for many years.
+
+Our web interface needs a brand new modern UI. 
+We want a light modern UI based on ReactJS that will leverage our API (a SPA that uses an OpenAPI).
+
+It's a blank page to write and would help us in propulsing DefectDojo in a new UI/UX era.
 
 ##### Getting Started
 
-* You may read the available documents in the [wiki page](https://defectdojo.github.io/django-DefectDojo/). Especially the Development Guide section.
-* Any question, problem, and discussion? contact with [Damien Carol](mailto:damien.carol@gmail.com).
+* You may read the available documents in the [wiki page](https://defectdojo.github.io/django-DefectDojo/), especially the Development Guide section.
+* Any questions, problems, and want an introduction? Contact both [Damien Carol](mailto:damien.carol@gmail.com) and [Fred Blaise](mailto:fred.blaise@owasp.org).
 
 ##### Expected Results
 
-* New SPA that cover 30% of the feature of the current UI
+* New SPA that covers at least 30% of the features of the current UI.
 
 ###### Knowledge Prerequisites
 
-* Web programming in one of the modern JS framework (ReactJS?, Angular?)
+* Web programming with ReactJS.
 * Some knowledge of OpenAPI/Swagger 
 * Python programming is an advantage
 
 ##### Mentors
 * [Damien Carol](mailto:damien.Carol@gmail.com)
-* [Fred Blaise](mailto:fred.blaise@gmail.com )
+* [Fred Blaise](mailto:fred.blaise@gmail.com)
 
 ----
 
