@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: Monster-in-the-middle attack
+title: Manipulator-in-the-middle attack
 author: 
 contributors: 
-permalink: /attacks/Monster-in-the-middle_attack
-tags: attack, Monster-in-the-middle attack, MITM
+permalink: /attacks/Manipulator-in-the-middle_attack
+tags: attack, Manipulator-in-the-middle attack, MITM
 auto-migrated: 1
 
 ---
@@ -14,7 +14,7 @@ auto-migrated: 1
 
 ## Description
 
-The monster-in-the middle attack (MITM) intercepts a communication between two
+The Manipulator-in-the middle attack (MITM) intercepts a communication between two
 systems. For example, in an http transaction the target is the TCP
 connection between client and server. Using different techniques, the
 attacker splits the original TCP connection into 2 new connections, one
