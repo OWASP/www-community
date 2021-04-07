@@ -32,6 +32,10 @@ begin with any of the following characters:
 - Plus ("+")
 - Minus ("-")
 - At ("@")
+- Tab (0x09)
+- Carriage return (0x0D)
+
+Alternatively, prepend each cell field with a single quote, so that their content will be read as text by the spreadsheet editor.
 
 For further information, please refer to the following articles:
 
