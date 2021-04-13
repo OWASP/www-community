@@ -40,7 +40,7 @@ permalink: meetings/
 {% assign prevdate = evdate %}
 {% endif %}
 ### Event: <a name="{{ i }}_item">{{ event.name }} </a>
-#### Chapter: [{{ event.group }}](/{{ event.repo }}/)
+#### Group: [{{ event.group }}](/{{ event.repo }}/)
 #### Time: {{ event.time }} ({{ event.timezone }})
 #### Link: [{{ event.link }}]({{ event.link }})
 <div>
