@@ -10,16 +10,6 @@
         "description": "<p>Welcome Notes from the Chapter Leaders to talk about OWASP udpates, current trends and education/certification tips with Q&amp;A Sessions open for anything under the sun.</p> <p>Everyone is welcome, looking forward to meeting you all.</p> "
     },
     {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASP Ottawa: JWT Security Issues with Adrien de Beaupre",
-        "date": "2021-04-14",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Ottawa/events/277307210/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>Special Notice:</p> <p>Due to the COVID-19 (Coronavirus) pandemic our events will continue online on our YouTube channel.</p> <p>Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!</p> <p>We will post information here and on all our other medias (email, twitter etc.) as we are closer to the date.</p> <p><a href=\"https://www.youtube.com/watch?v=Q4FTv7hcP2A\" class=\"embedded\">https://www.youtube.com/watch?v=Q4FTv7hcP2A</a></p> <p>7:00 PM EDT Technical Talks</p> <p>1. Announcements</p> <p>2. JWT Security Issues</p> <p>Abstract:<br/>This talk and live demo will discuss JSON Web Tokens (JWT) and some of their security issues. Several attacks against JWT implementations will be shown.</p> <p>Bio:<br/>Adrien de Beaupr\u00e9 realized from an early age that he was better at breaking things than fixing them. When he read The Cuckoo's Egg by Clifford Stoll about the hunt for a computer hacker who broke into a computer at the Lawrence Berkeley National Laboratory, Adrien realized that he could put his special talents to work in an information security career. Adrien has spent the better part of three decades in the I.T. industry, over 20 of those specializing in information security, making him an experienced penetration tester, team lead, and senior information security professional. During that time, Adrien had the opportunity to be the team of Vancouver 2010 Winter Olympic Games security assessment.</p> "
-    },
-    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Hacking Ruby Applications and Security Jobs",
@@ -200,6 +190,16 @@
         "description": "<p>Overview of bug bounty programs and how you can participate in this fun and rewarding activity.</p> "
     },
     {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "April 2021 Chapter Meeting",
+        "date": "2021-04-29",
+        "time": "12:00",
+        "link": "https://www.meetup.com/owasp-slc/events/277554172/",
+        "timezone": "US/Mountain",
+        "description": "<p>This month's meetup is VIRTUAL. Join Wasatch AppSec Slack (<a href=\"https://join.slack.com/t/wasatchappsec/shared_invite/zt-nw4d0iq9-bBMKHrFITzJMMsDye6FNYg\" class=\"linkified\">https://join.slack.com/t/wasatchappsec/shared_invite/zt-nw4d0iq9-bBMKHrFITzJMMsDye6FNYg</a>) to suggest any additional topics.</p> <p>Agenda:</p> <p>- Application security metrics<br/>- The new OWASP Top 10 update<br/>- Mis-use/abuse test cases and how they can help detect broken access controls</p> <p>Leaders Zoom Account Two is inviting you to a scheduled Zoom meeting.</p> <p>Topic: OWASP SLC April 2021 Chapter Meeting<br/>Time: Apr 29, 2021 12:00 PM Mountain Time (US and Canada)</p> <p>Join Zoom Meeting<br/><a href=\"https://zoom.us/j/97800663033?pwd=bnA4MTJmdE1BQnExb2o2Qmtrd2ROZz09\" class=\"linkified\">https://zoom.us/j/97800663033?pwd=bnA4MTJmdE1BQnExb2o2Qmtrd2ROZz09</a></p> <p>Meeting ID: 978 0066 3033<br/>Passcode: 693113<br/>One tap mobile<br/>+12532158782,,97800663033#,,,,*693113# US (Tacoma)<br/>+13462487799,,97800663033#,,,,*693113# US (Houston)</p> <p>Dial by your location<br/>+1 253 215 8782 US (Tacoma)<br/>+1 346 248 7799 US (Houston)<br/>+1 669 900 6833 US (San Jose)<br/>+1 301 715 8592 US (Washington DC)<br/>+1 312 626 6799 US (Chicago)<br/>+1 929 436 2866 US (New York)<br/>Meeting ID: 978 0066 3033<br/>Passcode: 693113<br/>Find your local number: <a href=\"https://zoom.us/u/aeiAxXrCOy\" class=\"linkified\">https://zoom.us/u/aeiAxXrCOy</a></p> "
+    },
+    {
         "group": "San Diego",
         "repo": "www-chapter-san-diego",
         "name": "The (Cyber) Security Paradox",
@@ -250,16 +250,6 @@
         "description": "<p>Welcome to another remote meetup!<br/>This time we will be joined by Lukasz Olejnik, who will walk us through an Ambient Light Sensor API privacy case study.<br/>We'll wrap things up with a short Q&amp;A afterward.</p> <p>For the majority of users, web browser is the most important computer application. Increasingly complex, exciting and rich, features are standardized by W3C and implemented in web browsers on a normal basis. New browser features introduce interesting privacy challenges for standardization, research and development. I will demonstrate a privacy case study based on the example of Ambient Light Sensor. A web privacy impact assessment of a planned web browser feature, the Ambient Light Sensor API, indicated risks arising from the exposure of overly precise information about the lighting conditions in the user environment. The analysis led to the demonstration of direct risks of leaks of user data, such as the list of visited websites or exfiltration of sensitive content across distinct browser contexts. Our work contributed to the creation of web standards leading to decisions by browser vendors (i.e. obsolescence, non-implementation or modification to the operation of browser features). We highlight the need to consider broad risks when making reviews of new features. I will suggest practically-driven high-level observations lying on the intersection of web security and privacy risk engineering and modeling, and standardization.</p> <p>Dr Lukasz Olejnik acts as an independent security and privacy researcher and advisor. His experience spans research, industry, standardization, and policy. His research interests include information and computer security and privacy, user data disclosure and dissemination problems as well as privacy-sensitive matters related to web browser functionalities, web security, privacy reviews, and privacy impact assessments. His research analysing user tracking and profiling on the web has impacted web standards and web browsers.</p> <p>Lukasz is a World Wide Web Consortium\u2019s (W3C) Invited Expert, where he focuses on privacy of web standards. In[masked] he was elected to the W3C\u2019s Technical Architecture Group. Lukasz is involved in technology policy, focusing on cyber security, privacy, and data protection. He held roles as technology policy advisor at the European Parliament (working on ePrivacy), scientific advisor on cyber warfare at the International Committee of the Red Cross, with a focus on assessing the humanitarian consequences of cyber operations, and science and technology advisor at the European Data Protection Supervisor.</p> <p>Read more about the case study on his website:<br/><a href=\"https://blog.lukaszolejnik.com/shedding-light-on-designing-web-features-with-privacy-risks-impact-assessments-case-study/\" class=\"linkified\">https://blog.lukaszolejnik.com/shedding-light-on-designing-web-features-with-privacy-risks-impact-assessments-case-study/</a></p> "
     },
     {
-        "group": "Switzerland",
-        "repo": "www-chapter-switzerland",
-        "name": "OWASP DefectDojo - the Heart of your AppSec Automation",
-        "date": "2021-04-14",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASPSwitzerland/events/276343964/",
-        "timezone": "Europe/Zurich",
-        "description": "<p>OWASP Switzerland brings you another high profile talk directly from the source.</p> <p>Defect Dojo project leads Aaron Weaver and Matt Tesauro as well as contributor/moderator Fred Blaise will initiate us into the magic of Defect Dojo.</p> <p>Abstract<br/>You\u2019re tasked with \u2018doing AppSec\u2019 for your company and you\u2019ve got more apps and issues than you know how to deal with. How do you make sense of the different tools outputs for all your different apps? DefectDojo can be your one source of truth and become the heart of your AppSec automation program.</p> <p>DefectDojo grew out of a Product Security program 8 years ago and was created by AppSec people for AppSec people. In this talk, you\u2019ll learn about DefectDojo and how to make the most of the many features it offers including its REST-based API. DefectDojo can be your one source of truth for discovered security vulnerabilities, report generation, aggregation of over 80 different security tools, inventory of applications, tracking testing efforts and metrics on the AppSec program. DefectDojo was the heart of an AppSec automation effort that saw an increase in assessments from 44 to 414 in two years. Don't you want 9.4 times more output from your AppSec program? It's time to ditch spreadsheets and get DefectDojo.</p> <p>You can find more about Defect Dojo on their website: <a href=\"https://www.defectdojo.org/\" class=\"linkified\">https://www.defectdojo.org/</a></p> <p>Our speakers for this talk are:<br/>- Matt Tesauro: Project Lead DefectDojo.<br/>- Fred Blaise: Moderator DefectDojo. As he lives in Switzerland, we can consider him the \u201clocal branch of DefectDojo\u201d ;-)</p> "
-    },
-    {
         "group": "Oakland County",
         "repo": "www-chapter-oakland-county",
         "name": "OWASP Oakland County Meeting",
@@ -298,6 +288,16 @@
         "link": "https://www.meetup.com/OWASP-Victoria-Chapter/events/276852869/",
         "timezone": "Canada/Pacific",
         "description": "<p>The OWASP Victoria chapter is pleased to present our Spring 2021 event where Amiran Alavidze will be delivering a talk on Kubernetes security.</p> <p>The event will be held online on April 20th from 6:00pm \u2013 7:00pm.</p> <p>It will feature Amiran\u2019s talk followed by a Q&amp;A and a draw for a prize (must be registered member and reside in Canada). Join us for an evening of application security learning and discussions.</p> <p>Visit our OWASP Chapter to learn more about us at <a href=\"https://owasp.org/www-chapter-victoria/\" class=\"linkified\">https://owasp.org/www-chapter-victoria/</a></p> <p>Speaker: Amiran Alavidze<br/>Presentation: Securing Managed Kubernetes (1hr)</p> <p>Abstract<br/>It\u2019s clear that Kubernetes has won the container orchestration wars and is here to stay. The complexity, flexibility and rapid development cycle of Kubernetes mean that Kubernetes security landscape varies significantly across deployments and is not well understood generally.</p> <p>This talk focuses on security of managed cloud Kubernetes clusters, which provide a decently secure baseline that addresses the majority of recommendations you\u2019ll find on the Internet. You\u2019ll come out equipped with understanding of the Kubernetes threat model and actionable recommendations for securely running workloads in Kubernetes.</p> <p>Speaker Bio<br/>Amiran is currently Director, Security and Risk Management at Tasktop, building a product security program. With over 15 years in information security in roles ranging from system engineering and security operations to governance, risk and compliance, Amiran is advocating a pragmatic, business-focused approach to security.<br/>Security is not just a job, it\u2019s a passion.</p> <p>Official Event Sponsor: KPMG Canada (<a href=\"https://home.kpmg/ca/en/home.html\" class=\"linkified\">https://home.kpmg/ca/en/home.html</a>)</p> "
+    },
+    {
+        "group": "Cuddalore",
+        "repo": "www-chapter-cuddalore",
+        "name": "Pentesting Playground in Tamil ",
+        "date": "2021-05-14",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbsb/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
     },
     {
         "group": "Cuddalore",
@@ -510,16 +510,6 @@
         "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
     },
     {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-04-14",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsyccgbsb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
         "group": "Brasov",
         "repo": "www-chapter-brasov",
         "name": "OWASP AppSec Brasov [1]",
@@ -528,15 +518,5 @@
         "link": "https://www.meetup.com/owasp-brasov/events/277346025/",
         "timezone": "Europe/Bucharest",
         "description": "<p>The next OWASP Brasov Chapter Meeting will be online. We will be live-streaming on Zoom.</p> "
-    },
-    {
-        "group": "Grand Rapids",
-        "repo": "www-chapter-grand-rapids",
-        "name": "First Chapter Meeting",
-        "date": "2021-04-14",
-        "time": "17:30",
-        "link": "https://www.meetup.com/grand-rapids-owasp-meetup-group/events/277472371/",
-        "timezone": "US/Eastern",
-        "description": "<p>Join us for our first chapter meeting.</p> "
     }
 ]
