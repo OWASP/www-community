@@ -387,6 +387,15 @@
       "type": "DAST"
    },
    {
+      "title": "Psalm",
+      "url": "https://psalm.dev/docs/security_analysis/",
+      "owner": "Vimeo, Inc.",
+      "license": "Open Source",
+      "platforms": null,
+      "note": "Static code analysis for PHP projects, written in PHP.",
+      "type": "SAST"
+   },
+   {
       "title": "QualysGuard",
       "url": "http://www.qualys.com/products/qg_suite/was/",
       "owner": "Qualys",
