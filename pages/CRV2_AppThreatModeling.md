@@ -2,7 +2,7 @@
 
 title: CRV2 App Threat Modeling
 layout: col-sidebar
-author:
+author: Larry Conklin
 contributors:
 tags: threat modeling
 permalink: /CRV2_AppThreatModeling
