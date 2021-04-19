@@ -1492,5 +1492,14 @@
       "platforms": "CLI and SaaS",
       "note": "GNU-AGPL v3",
       "type": "DAST"
+   },
+   {
+      "title": "Nucleaus Core",
+      "url": "https://nucleaus.com/products/",
+      "owner": "Nucleaus",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Scans Git repos daily and provides a web-based dashboard to track code and dependency vulnerabilities. Handles team-based access patterns, vulnerability exception lifecycle, and is built on API first principles.",
+      "type": "SAST"
    }
 ]
