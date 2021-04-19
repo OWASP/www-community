@@ -1,11 +1,11 @@
 ---
 
 layout: col-sidebar
-title: CORS RequestPreflighScrutiny
+title: CORS RequestPreflightScrutiny
 author: Dominique RIGHETTO
 contributors: Imifos, kingthorin
-permalink: /attacks/CORS_RequestPreflighScrutiny
-tags: attack, CORS RequestPreflighScrutiny
+permalink: /attacks/CORS_RequestPreflightScrutiny
+tags: attack, CORS RequestPreflightScrutiny
 
 ---
 
