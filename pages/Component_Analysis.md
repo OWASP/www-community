@@ -261,6 +261,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [CAST Highlight] | CAST Software | Commercial | SaaS |
 | [Clarity] | Insignary | Commercial | Cross Platform / SaaS |
 | [ClearlyDefined] | Open Source Initiative | Open Source | SaaS |
+| [CxSCA] | Checkmarx | Commercial | Saas |
 | [Debricked] | Debricked | Commercial/Freemium | SaaS |
 | [DejaCode] | nexB | Commercial | SaaS |
 | [Dependency-Check] | OWASP | Open Source | Cross Platform |
@@ -296,6 +297,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [CAST Highlight]: https://www.castsoftware.com/SCA/
 [Clarity]: https://www.insignary.com/
 [ClearlyDefined]: https://clearlydefined.io/
+[CxSCA]: https://www.checkmarx.com/products/software-composition-analysis/
 [Debricked]: https://debricked.com/
 [DejaCode]: https://www.nexb.com/
 [Dependency-Check]: https://owasp.org/www-project-dependency-check/
