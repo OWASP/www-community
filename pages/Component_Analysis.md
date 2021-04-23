@@ -261,7 +261,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [CAST Highlight] | CAST Software | Commercial | SaaS |
 | [Clarity] | Insignary | Commercial | Cross Platform / SaaS |
 | [ClearlyDefined] | Open Source Initiative | Open Source | SaaS |
-| [CxSCA] | Checkmarx | Commercial | Saas |
+| [CxSCA] | Checkmarx | Commercial | SaaS |
 | [Debricked] | Debricked | Commercial/Freemium | SaaS |
 | [DejaCode] | nexB | Commercial | SaaS |
 | [Dependency-Check] | OWASP | Open Source | Cross Platform |
@@ -355,4 +355,3 @@ and legal teams an opportunity to create solutions for healthy open source usage
     - <https://safecode.org/wp-content/uploads/2017/05/SAFECode_TPC_Whitepaper.pdf>
   - Deliver Uncompromised (MITRE)  
     - <https://www.mitre.org/sites/default/files/publications/pr-18-2417-deliver-uncompromised-MITRE-study-26AUG2019.pdf>
-
