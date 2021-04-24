@@ -31,7 +31,7 @@ This attack is rather difficult to carry out in the real environment.
 The list of conditions is long and hard to accomplish by the attacker.
 
 Cross-User Defacement attack is possible because of [HTTP Response
-Splitting](/attacks/HTTP_Response_Splitting) and flaws in the web
+Splitting]({{ site.baseurl }}/attacks/HTTP_Response_Splitting) and flaws in the web
 application. It is crucial from the attacker's point of view that the
 application allows for filling the header field with more than one
 header using CR (Carriage Return) and LF (Line Feed) characters.
@@ -95,12 +95,12 @@ the specified user.
 More information can be found in one of the presentations under
 <http://wiki.owasp.org/images/1/1a/OWASPAppSecEU2006_HTTPMessageSplittingSmugglingEtc.ppt>
 
-## Related [Attacks](https://owasp.org/www-community/attacks/)
+## Related [Attacks]({{ site.baseurl }}/attacks/)
 
-- [HTTP Response Splitting](/attacks/HTTP_Response_Splitting)
-- [Cache Poisoning](/attacks/Cache_Poisoning)
+- [HTTP Response Splitting]({{ site.baseurl }}/attacks/HTTP_Response_Splitting)
+- [Cache Poisoning]({{ site.baseurl }}/attacks/Cache_Poisoning)
 
-## Related [Controls](https://owasp.org/www-community/controls/)
+## Related [Controls]({{ site.baseurl }}/controls/)
 
 - Validation of the input data (CR and LF).
 - Forbid HTTP headers nesting in one header's field.
