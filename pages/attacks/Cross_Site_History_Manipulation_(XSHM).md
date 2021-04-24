@@ -21,7 +21,7 @@ communicate with each other. **Cross-Site History Manipulation** breach
 is based on the fact that client-side browser history object is not
 properly partitioned on a per-site basis. Manipulating browser history
 may lead to SOP compromising, allow bi-directional
-[CSRF](Cross-Site_Request_Forgery_\(CSRF\) "wikilink") and other
+[CSRF]({{ site.baseurl }}/attacks/csrf) and other
 exploitations such as: user privacy violation, login status detection,
 resources mapping, sensitive information inferring, users’ activity
 tracking and URL parameter stealing.
