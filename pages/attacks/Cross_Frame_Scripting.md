@@ -96,7 +96,7 @@ function newXHR() {
 
 ### XSS Attack Using Frames
 
-To exploit a [Cross Site Scripting](/attacks/xss/) on a third-party web page at
+To exploit a [Cross Site Scripting]({{ site.baseurl }}/attacks/xss/) on a third-party web page at
 example.com, the attacker could create a web page at evil.com, which the
 attacker controls, and include a hidden iframe in the evil.com page. The
 iframe loads the flawed example.com page, and injects some script into
@@ -136,7 +136,7 @@ example.com.
 
 ### Another XSS Attack Using Frames
 
-To exploit the same [Cross Site Scripting](/attacks/xss/) as above at example.com
+To exploit the same [Cross Site Scripting]({{ site.baseurl }}/attacks/xss/) as above at example.com
 (which prints the value of the "q" query parameter from the page's URL
 in the page's content without escaping the value) the attacker could
 create a web page at evil.com, which the attacker controls, that
@@ -166,7 +166,7 @@ software.
 ## Related Attacks
 
 - An attacker might use a hidden frame to carry out a [Cross-site Scripting (XSS)](xss) attack.
-- An attacker might use a hidden frame to carry out a [Cross-Site Request Forgery (CSRF)](/attacks/csrf) attack.
+- An attacker might use a hidden frame to carry out a [Cross-Site Request Forgery (CSRF)]({{ site.baseurl }}/attacks/csrf) attack.
 - An attacker might use a visible frame to carry out a [Clickjacking](Clickjacking) attack.
 - An XFS attack exploiting a browser bug which leaks events across frames is a form of a Phishing attack (the
 attacker lures the user into typing-in sensitive information into a frame containing a legitimate third-party page).

@@ -14,7 +14,7 @@ tags: attack, Cross Site Tracing
 ## Description
 
 A **Cross-Site Tracing (XST)** attack involves the use of [Cross-site
-Scripting (XSS)](/attacks/xss) and the TRACE
+Scripting (XSS)]({{ site.baseurl }}/attacks/xss) and the TRACE
 or TRACK HTTP methods. According to
 [RFC 2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html),
 "TRACE allows the client to see what is being received at the other end
@@ -22,14 +22,14 @@ of the request chain and use that data for testing or diagnostic
 information.", the TRACK method works in the same way but is specific to
 Microsoft's IIS web server. XST could be used as a method to steal
 user's cookies via [Cross-site Scripting
-(XSS)](/attack/xss) even if the cookie has
-the "[HttpOnly](/HttpOnly)" flag set or exposes the user's
+(XSS)]({{ site.baseurl }}/attack/xss) even if the cookie has
+the "[HttpOnly](HttpOnly)" flag set or exposes the user's
 Authorization header.
 
 The TRACE method, while apparently harmless, can be successfully
 leveraged in some scenarios to steal legitimate users' credentials. This
 attack technique was discovered by Jeremiah Grossman in 2003, in an
-attempt to bypass the [HttpOnly](/HttpOnly) tag that Microsoft
+attempt to bypass the [HttpOnly](HttpOnly) tag that Microsoft
 introduced in Internet Explorer 6 sp1 to protect cookies from being
 accessed by JavaScript. As a matter of fact, one of the most recurring
 attack patterns in Cross Site Scripting is to access the document.cookie
@@ -113,9 +113,9 @@ for further information.
 
 `TraceEnable off`
 
-## Related [Attacks](https://owasp.org/www-community/attacks/)
+## Related [Attacks]({{ site.baseurl }}/attacks/)
 
-  - [Cross-site Scripting(XSS)](/attacks/xss)
+  - [Cross-site Scripting(XSS)]({{ site.baseurl }}/attacks/xss)
 
 ## References
 

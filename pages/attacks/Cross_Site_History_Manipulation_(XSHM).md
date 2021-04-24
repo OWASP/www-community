@@ -29,7 +29,7 @@ tracking and URL parameter stealing.
 ## Risk Factors
 
 By manipulating the browser history it is possible to compromise SOP and
-violate user privacy. Using [CSRF](/attacks/csrf) in conjunction
+violate user privacy. Using [CSRF]({{ site.baseurl }}/attacks/csrf) in conjunction
 with history manipulation, not only integrity but also confidentiality
 can be targeted. Feedbacks from a different origin can be accessed and
 Cross-Site information leakage is achieved.
@@ -59,7 +59,7 @@ Page A: If (CONDITION)
     Redirect(Page B)
 ```
 
-an attacker can execute the [CSRF](/attacks/csrf) and get an
+an attacker can execute the [CSRF]({{ site.baseurl }}/attacks/csrf) and get an
 indication about the value of the condition as a feedback. This attack
 is executed from an attacker site. The site then submits a Cross-Site
 request to a victim site, and by manipulating the History object gets a
@@ -109,26 +109,24 @@ redirect, then this application is vulnerable to **XSHM** and
 essentially it is a similar to a direct exposure to [Universal
 XSS](https://owasp.org/www-pdf-archive//OWASP_IL_The_Universal_XSS_PDF_Vulnerability.pdf)
 – the application itself is
-[XSS](https://owasp.org/www-community/attacks/xss)-safe, but running it from
+[XSS]({{ site.baseurl }}/attacks/xss)-safe, but running it from
 a different site inside an IFRAME makes it vulnerable.
 
-## Related [Attacks](https://owasp.org/www-community/attacks/)
+## Related [Attacks]({{ site.baseurl }}/attacks/)
 
-  - [Cross-site Scripting
-    (XSS)](https://owasp.org/www-community/attacks/xss)
-  - [Cross-Site Request Forgery
-    (CSRF)](https://owasp.org/www-community/attacks/csrf)
+- [Cross-site Scripting (XSS)]({{ site.baseurl }}/attacks/xss)
+- [Cross-Site Request Forgery (CSRF)]({{ site.baseurl }}/attacks/csrf)
 
 ## References
 
-  - [Presentation in OWASP Israel Local Chapter Meeting
-    (Feb-2010)](OWASP_Israel_2010_02#19:10_-_19:40.C2.A0:_XSHM_-_Cross_Site_History_Manipulation "wikilink")
-  - [Cross site history manipulation (XSHM)
-    Guide](https://www.checkmarx.com/wp-content/uploads/2012/07/XSHM-Cross-site-history-manipulation.pdf)
-  - [Checkmarx identifies new web browser
-    vulnerability](http://www.infosecurity-magazine.com/view/6828/checkmarx-identifies-new-web-browser-vulnerability/),
-    *InfoSecurity Magazine*, January 27, 2010
-  - [Demo for Internet Explorer users - "Am I using
-    Facebook?"](http://www.checkmarx.com/Demo/XSHM.aspx)
-  - [Wikipedia: Same Origin Policy
-    (SOP)](http://en.wikipedia.org/wiki/Same_origin_policy)
+- [Presentation in OWASP Israel Local Chapter Meeting
+  (Feb-2010)](OWASP_Israel_2010_02#19:10_-_19:40.C2.A0:_XSHM_-_Cross_Site_History_Manipulation "wikilink")
+- [Cross site history manipulation (XSHM)
+  Guide](https://www.checkmarx.com/wp-content/uploads/2012/07/XSHM-Cross-site-history-manipulation.pdf)
+- [Checkmarx identifies new web browser
+  vulnerability](http://www.infosecurity-magazine.com/view/6828/checkmarx-identifies-new-web-browser-vulnerability/),
+  *InfoSecurity Magazine*, January 27, 2010
+- [Demo for Internet Explorer users - "Am I using
+  Facebook?"](http://www.checkmarx.com/Demo/XSHM.aspx)
+- [Wikipedia: Same Origin Policy
+  (SOP)](http://en.wikipedia.org/wiki/Same_origin_policy)
