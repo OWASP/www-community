@@ -3,10 +3,9 @@
 layout: col-sidebar
 title: Cross Site Tracing
 author: 
-contributors: 
+contributors: Kcghost, KristenS, Ryan Dewhurst, Andrew Smith
 permalink: /attacks/Cross_Site_Tracing
 tags: attack, Cross Site Tracing
-auto-migrated: 1
 
 ---
 
@@ -15,7 +14,7 @@ auto-migrated: 1
 ## Description
 
 A **Cross-Site Tracing (XST)** attack involves the use of [Cross-site
-Scripting (XSS)](Cross-site_Scripting_\(XSS\) "wikilink") and the TRACE
+Scripting (XSS)](/attacks/xss) and the TRACE
 or TRACK HTTP methods. According to
 [RFC 2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html),
 "TRACE allows the client to see what is being received at the other end
@@ -23,14 +22,14 @@ of the request chain and use that data for testing or diagnostic
 information.", the TRACK method works in the same way but is specific to
 Microsoft's IIS web server. XST could be used as a method to steal
 user's cookies via [Cross-site Scripting
-(XSS)](Cross-site_Scripting_\(XSS\) "wikilink") even if the cookie has
-the "[HttpOnly](HttpOnly "wikilink")" flag set and/or exposes the user's
+(XSS)](/attack/xss) even if the cookie has
+the "[HttpOnly](/HttpOnly)" flag set or exposes the user's
 Authorization header.
 
 The TRACE method, while apparently harmless, can be successfully
 leveraged in some scenarios to steal legitimate users' credentials. This
 attack technique was discovered by Jeremiah Grossman in 2003, in an
-attempt to bypass the [HttpOnly](HttpOnly "wikilink") tag that Microsoft
+attempt to bypass the [HttpOnly](/HttpOnly) tag that Microsoft
 introduced in Internet Explorer 6 sp1 to protect cookies from being
 accessed by JavaScript. As a matter of fact, one of the most recurring
 attack patterns in Cross Site Scripting is to access the document.cookie
@@ -45,43 +44,45 @@ Modern browsers now prevent TRACE requests being made via JavaScript,
 however, other ways of sending TRACE requests with browsers have been
 discovered, such as using Java.
 
-## Risk Factors
-
-TBD
-
 ## Examples
 
 An example using cURL from the command line to send a TRACE request to a
 web server on the localhost with TRACE enabled. Notice how the web
 server responds with the request that was sent to it.
 
-    $ curl -X TRACE 127.0.0.1
-    TRACE / HTTP/1.1
-    User-Agent: curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8r zlib/1.2.5
-    Host: 127.0.0.1
-    Accept: */*
+```console
+$ curl -X TRACE 127.0.0.1
+TRACE / HTTP/1.1
+User-Agent: curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8r zlib/1.2.5
+Host: 127.0.0.1
+Accept: */*
+```
 
 In this example notice how we send a Cookie header with the request and
 it is also in the web server's response.
 
-    $ curl -X TRACE -H "Cookie: name=value" 127.0.0.1
-    TRACE / HTTP/1.1
-    User-Agent: curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8r zlib/1.2.5
-    Host: 127.0.0.1
-    Accept: */*
-    Cookie: name=value
+```console
+$ curl -X TRACE -H "Cookie: name=value" 127.0.0.1
+TRACE / HTTP/1.1
+User-Agent: curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8r zlib/1.2.5
+Host: 127.0.0.1
+Accept: */*
+Cookie: name=value
+```
 
 In this example the TRACE method is disabled, notice how we get an error
 instead of the request we sent.
 
-    $ curl -X TRACE 127.0.0.1
-    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-    <html><head>
-    <title>405 Method Not Allowed</title>
-    </head><body>
-    <h1>Method Not Allowed</h1>
-    <p>The requested method TRACE is not allowed for the URL /.</p>
-    </body></html>
+```console
+$ curl -X TRACE 127.0.0.1
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>405 Method Not Allowed</title>
+</head><body>
+<h1>Method Not Allowed</h1>
+<p>The requested method TRACE is not allowed for the URL /.</p>
+</body></html>
+```
 
 Example JavaScript XMLHttpRequest TRACE request. In Firefox 19.0.2 it
 will not work and return a "Illegal Value" error. In Google Chrome
@@ -89,14 +90,16 @@ will not work and return a "Illegal Value" error. In Google Chrome
 SecurityError: DOM Exception 18" error. This is because modern browsers
 now block the TRACE method in XMLHttpRequest to help mitigate XST.
 
-    <script>
-      var xmlhttp = new XMLHttpRequest();
-      var url = 'http://127.0.0.1/';
+```html
+<script>
+  var xmlhttp = new XMLHttpRequest();
+  var url = 'http://127.0.0.1/';
 
-      xmlhttp.withCredentials = true; // send cookie header
-      xmlhttp.open('TRACE', url, false);
-      xmlhttp.send();
-    </script>
+  xmlhttp.withCredentials = true; // send cookie header
+  xmlhttp.open('TRACE', url, false);
+  xmlhttp.send();
+</script>
+```
 
 ## Remediation
 
@@ -108,32 +111,11 @@ Apache. See
 [TraceEnable](http://httpd.apache.org/docs/2.2/mod/core.html#traceenable)
 for further information.
 
-    TraceEnable off
-
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - [Threat Agent 1](Threat_Agent_1 "wikilink")
-  - [Threat Agent 2](Threat_Agent_2 "wikilink")
-
-TBD
+`TraceEnable off`
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Cross-site Scripting
-    (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
-
-TBD
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [Input Validation](Input_Validation "wikilink")
-  - [Output Validation](Output_Validation "wikilink")
-  - [Canonicalization](Canonicalization "wikilink")
+  - [Cross-site Scripting(XSS)](/attacks/xss)
 
 ## References
 
@@ -149,6 +131,3 @@ TBD
     Bug 302489](https://bugzilla.mozilla.org/show_bug.cgi?id=302489)
   - [Mozilla
     Bug 381264](https://bugzilla.mozilla.org/show_bug.cgi?id=381264)
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Attack](Category:Attack "wikilink")
