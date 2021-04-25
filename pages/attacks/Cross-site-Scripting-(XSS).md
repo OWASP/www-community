@@ -83,6 +83,9 @@ visitor log, comment field, etc. The victim then retrieves the malicious
 script from the server when it requests the stored information. Stored
 XSS is also sometimes referred to as Persistent or Type-I XSS.
 
+**Blind Cross-site Scripting** is a form of persistent XSS. It generally occurs when the attacker's payload saved on the server and reflected back to the victim from the backend application. For example in feedback forms, an attacker can submit the malicious payload using the form, and once the backend user/admin of the application will open the attacker's submitted form via the backend application, the attacker’s payload will get executed. 
+Blind Cross-site Scripting is hard to confirm in the real-world scenario but one of the best tools for this is XSS Hunter.
+
 #### Reflected XSS Attacks
 
 Reflected attacks are those where the injected script is reflected off
