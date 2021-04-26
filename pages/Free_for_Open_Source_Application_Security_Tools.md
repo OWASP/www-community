@@ -76,7 +76,9 @@ are free for Open Source projects:
   - [Xanitizer](https://www.xanitizer.com/xanitizer-pricing/) - A SAST tool
     for Java, Scala, and JavaScript/TypeScript. Per this pricing page, it
     is free for Open Source projects if you contact the vendor.
-  - [HCL AppScan CodeSweep](https://hclsw.co/codesweep) - This is a SAST community edition version of HCL AppScan. Free for everyone to use. It is delivered as a VS Code plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Python, Ruby, JS (Node, Angular, JQuery, React, etc) , PHP, Perl, Go, TypeScrit & a few more.
+  - [HCL AppScan CodeSweep](https://hclsw.co/codesweep) - This is a SAST community edition version of HCL AppScan. Free for everyone to use. The tool currently supports Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc), PHP, Perl, Go, TypeScrit & more, with new languages being added frequently.
+    - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type and remediation advice. 
+    - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account. 
 
 ### DAST Tools
 
