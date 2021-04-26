@@ -719,13 +719,22 @@
       "note": "Scans multiple languages for various security flaws. Basically security enhanced code Grep.",
       "type": "SAST"
    },
-   {
-      "title": "HCL AppScan CodeSweep",
+      {
+      "title": "HCL AppScan CodeSweep - GitHub Action",
       "url": "https://hclsw.co/codesweep",
-      "owner": null,
+      "owner": "HCL Sofware",
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "This is the first Community edition version of AppScan. It is delivered as a VS Code plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more.",
+      "note": "Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account. The tool currently supports Python, Ruby, JS (Vue, React, Node, Angular, JQuery, etc), PHP, Perl, COBOL, APEX & a few more.",
+      "type": "SAST"
+   },
+   {
+      "title": "HCL AppScan CodeSweep - VS Code Plugin",
+      "url": "https://hclsw.co/codesweep",
+      "owner": "HCL Software",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "This is the first Community edition version of AppScan. It is delivered as a VS Code plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Python, Ruby, JS (Vue, React, Node, Angular, JQuery, etc), PHP, Perl, COBOL, APEX & a few more.",
       "type": "SAST"
    },
    {
@@ -1388,7 +1397,7 @@
    {
       "title": "HCL AppScan on Cloud",
       "url": "https://cloud.appscan.com/",
-      "owner": null,
+      "owner": "HCL Software",
       "license": "Open Source or Free",
       "platforms": null,
       "note": "Apex, ASP, C, C++, COBOL, ColdFusion, Go, Java, JavaScript(Client-side JavaScript, Kotlin, NodeJS, and AngularJS), .NET (C#, ASP.NET, VB.NET), .NET Core, Perl, PHP, PL/SQL, Python, Ruby, T-SQL, Swift, Visual Basic 6",
@@ -1397,7 +1406,7 @@
    {
       "title": "HCL AppScan Source",
       "url": "https://www.hcltechsw.com/wps/portal/products/appscan/offerings/source",
-      "owner": null,
+      "owner": "HCL Software",
       "license": "Open Source or Free",
       "platforms": null,
       "note": "Android, Apex, ASP, C, C++, COBOL, ColdFusion, Go, Java, JavaScript(Client-side JavaScript, NodeJS, and AngularJS), .NET (C#, ASP.NET, VB.NET), .NET Core, Perl, PHP, PL/SQL, Python, Ruby, T-SQL, Visual Basic 6",
