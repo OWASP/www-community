@@ -19,7 +19,7 @@ This attack can be found commonly where the application or admin sets a default 
 
 ## Mitigations
 - Brute force preventation should be on both field, i.e., Username and Password.
-- Set account lockout policies after a certain number of failed login attempts to prevent credentials from being guessed. Go for catcha, if lockout is not option.
+- Set account lockout policies after a certain number of failed login attempts to prevent credentials from being guessed. Implement CAPTCHA, if lockout is not a viable option.
 - The admin managed application should force user to change password on first login with default password.
 - Use multi-factor authentication. Where possible, also enable multi-factor authentication on externally facing services.
 
