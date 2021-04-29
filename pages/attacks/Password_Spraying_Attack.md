@@ -15,7 +15,7 @@ For example, an attacker will use one password (say, Secure@123) against many di
 
 This attack can be found commonly where the application or admin sets a default password for the new users.
 
-![psa](https://user-images.githubusercontent.com/51092706/116527869-c24b4280-a8f8-11eb-9023-edc0601d4504.png)
+![password-spraying-attack](../../assets/images/passwd-spraying-attack.png)
 
 ## Mitigations
 - Brute force preventation should be on both field, i.e., Username and Password.
@@ -25,3 +25,4 @@ This attack can be found commonly where the application or admin sets a default 
 
 ## Reference
 - https://attack.mitre.org/techniques/T1110/003/
+- https://www.microsoft.com/security/blog/2020/04/23/protecting-organization-password-spray-attacks/
