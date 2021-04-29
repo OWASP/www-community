@@ -281,6 +281,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [NPM Audit] | NPM | Open Source | SaaS |
 | [OSS Index] | Sonatype | Free / Open Source | SaaS |
 | [PHP Security Checker] | SensioLabs | Open Source | SaaS |
+| [Prisma Cloud] | Palo Alto Networks | Commercial | Cross Platform / SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
 | [SourceClear] | Veracode | Commercial | Cross Platform / SaaS |
@@ -317,6 +318,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [NPM Audit]: https://www.npmjs.com/
 [OSS Index]: https://ossindex.sonatype.org/
 [PHP Security Checker]: https://github.com/sensiolabs/security-checker
+[Prisma Cloud]: https://www.paloaltonetworks.com/prisma/cloud
 [Renovate]: https://renovatebot.com/
 [Snyk]: https://snyk.io/
 [SourceClear]: https://www.sourceclear.com/
