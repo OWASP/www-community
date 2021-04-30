@@ -26,4 +26,4 @@ This attack can be found commonly where the application or admin sets a default 
 ## Reference
 - https://attack.mitre.org/techniques/T1110/003/
 - https://www.microsoft.com/security/blog/2020/04/23/protecting-organization-password-spray-attacks/
-- [Credential Stuffing](https://owasp.org/www-community/attacks/Credential_stuffing)
+- [Credential Stuffing](Credential_stuffing)
