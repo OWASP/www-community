@@ -1,5 +1,15 @@
 [
     {
+        "group": "Tunisia",
+        "repo": "www-chapter-tunisia",
+        "name": "Practical Workshop - Static Analysis Security Testing (SAST) in CI/CD",
+        "date": "2021-05-20",
+        "time": "20:00",
+        "link": "https://www.meetup.com/OWASP-Tunis-Meetup-Group/events/277851439/",
+        "timezone": "Africa/Tunis",
+        "description": "<p>Welcome to our OWASP Tunisia OPEN Live Event!</p> <p>A practical Workshop on SAST in CI/CD</p> <p>Is your Source Code secure ? How to automate security check in Devops pipeline</p> <p>We will use Jenkins and SonarQube on Docker to run a SAST scan against the source code of a web app.</p> <p>Meet our Guest and ask your questions!</p> <p>Raouf Mnif is Devops architect at Baaz. He spent 10 years developing the skills to increase velocity, reliability, and quality with a high focus on security.<br/>Good experience with AWS, Docker, Kubernetes, and ArgoCD, helping organizations instill Devops for the modern age</p> <p>Gest your ticket Now: <a href=\"https://www.eventbrite.co.uk/e/static-analysis-security-testing-sast-in-cicd-tickets-152685106263\" class=\"linkified\">https://www.eventbrite.co.uk/e/static-analysis-security-testing-sast-in-cicd-tickets-152685106263</a></p> "
+    },
+    {
         "group": "Las Vegas",
         "repo": "www-chapter-las-vegas",
         "name": "Let's Catch Up! Current Updates, Trends, Certifications and Open Discussions",
@@ -30,94 +40,84 @@
         "description": "<p>This is a double header edition of the OWASP Vancouver meet-up series, with intermission and opportunity to socialize and network!</p> <p>----------------------------------------------------------------------------------------</p> <p>How to Build Awesome Security Instrumentation to Automate AppSec Testing and Protection (6:00-7:00pm)<br/>By: Jeff Williams</p> <p>Modern software demands velocity, and traditional \u201coutside in\u201d scanning and firewalling are creating bottlenecks and slowing things down. In this talk, Jeff will approach application security from the \u201cinside out\u201d. We will show you how to create simple agents that get inside a running application (like a profiler or debugger) and give you access to everything you might want to know. We\u2019ll demonstrate real agents that identify vulnerabilities without changing any code, scanning, or extra steps. We\u2019ll identify vulnerabilities, analyze access control, and even prevent RCE attacks. Unlike scanning and firewalling, this approach establishes a safe and powerful way for development, security, and operations teams to collaborate. We\u2019ll discuss how software security instrumentation works, how it\u2019s being used in many organizations, and the implications for the practice of application security.</p> <p>Bio: Jeff brings more than 20 years of security leadership experience as co-founder and Chief Technology Officer of Contrast Security. He recently authored the DZone DevSecOps, IAST, and RASP refcards and speaks frequently at conferences including JavaOne (Java Rockstar), BlackHat, QCon, RSA, OWASP, Velocity, and PivotalOne. Jeff is also a founder and major contributor to OWASP, where he served as Global Chairman for 9 years, and created the OWASP Top 10, OWASPEnterprise Security API, OWASP Application Security Verification Standard, XSS Prevention Cheat Sheet, and many more popular open source projects. Jeff has a BA from Virginia, an MA from George Mason, and a JD from Georgetown. <a href=\"https://www.linkedin.com/in/planetlevel/\" class=\"linkified\">https://www.linkedin.com/in/planetlevel/</a></p> <p>----------------------------------------------------------------------------------------</p> <p>Microservices - Applying Security Pragmatically (7:00-8:00pm)<br/>By: Bipin Kalawade</p> <p>The Federal Trade Commission (FTC) estimates that as many as 9 million Americans have had their identities stolen each year.</p> <p>Modern world wide web applications are rushing to dismantle the monolithic architecture by adopting microservices. Most of the times these applications apply single security solution that they think can fit across the organizations.</p> <p>The aim of this presentation is to talk about different API security patterns that applications can think based on the data they are protecting and applying security solution pragmatically<br/>as one security solution cannot and should not fit for all the needs.<br/>The presentation will also cover different types of security tokens that applications can apply with the real-life scenarios and finally concluding that there is no single solution is better vs another.</p> <p>Learning Objectives:<br/>\u2022 Discuss monolithic applications vs microservices and its pros and cons.<br/>\u2022 Different types of tokens, SAML vs JWT vs OAuth2.<br/>\u2022 Role of Identity Provider and Service Provider.</p> "
     },
     {
-        "group": "Rio De Janeiro",
-        "repo": "www-chapter-rio-de-janeiro",
-        "name": "OWASP Chapter RJ - 1\u00ba Biweekly Meeting",
-        "date": "2021-04-28",
-        "time": "19:30",
-        "link": "https://www.meetup.com/owasp-rio-de-janeiro/events/277626321/",
-        "timezone": "America/Sao_Paulo",
-        "description": "<p>Esse \u00e9 o primeiro encontro do cap\u00edtulo no RJ da OWASP em 2021. Veja nossa agenda a seguir:</p> <p>1. Warm-up (10min)<br/>2. Introdu\u00e7\u00e3o sobre a OWASP e alguns projetos<br/>- O que \u00e9 o Chapter do Rio de Janeiro<br/>- Nosso planejamento para os pr\u00f3ximos encontros<br/>3. OWASP Latam@Home (30min)<br/>4. Agenda de eventos no BR (5 min)</p> <p>Confira mais sobre o cap\u00edtulo em <a href=\"https://owasp.org/www-chapter-rio-de-janeiro/\" class=\"linkified\">https://owasp.org/www-chapter-rio-de-janeiro/</a>.</p> "
+        "group": "Chile",
+        "repo": "www-chapter-chile",
+        "name": "OWASP CHILE & COMUNIDAD AUDITORES LIDERES EN TI",
+        "date": "2021-05-10",
+        "time": "20:30",
+        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/277879931/",
+        "timezone": "America/Santiago",
+        "description": "<p>LUNES 10 AL JUEVES 13 DE MAYO 2021<br/>Conversatorios de Tecnolog\u00edas y Ciberseguridad<br/>organizan OwaspChile &amp; Comunidad de Auditores Lideres en TI.</p> "
     },
     {
-        "group": "Singapore",
-        "repo": "www-chapter-singapore",
-        "name": "JavaScript SAST from Mayhem to Order",
-        "date": "2021-04-28",
-        "time": "19:30",
-        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/277604330/",
-        "timezone": "Asia/Singapore",
-        "description": "<p>Software developers were always left with two hard choices, either use security tools that are not built for them, or use free/open-source tools that generate too many false positives and have poor coverage. One of the prime reasons for this dilemma is that traditionally the security workload was managed by application security teams who would find vulnerabilities and filter through false positives. Now with agile development and DevOps workflows, now there is no option for developers to opt out of secure development.</p> <p>New technology called DataLog solves that problem in a fundamentally different way, giving developers new hope. During this presentation we will go over:<br/>- how static code analysis has changed over the years<br/>- how DataLog technology solves some of the inherent problems of static code analysis such as speed, accuracy and coverage<br/>- how concepts like treating code as data, and partial evaluations are changing the game completely<br/>- what developers can do today to get accuracy, speed, and coverage with SAST</p> <p>Speaker Bio<br/>Sherif Koussa is OWASP Ottawa Chapter Co-Leader, Software Developer, Hacker, and founder and CEO of Software Secured (<a href=\"https://www.softwaresecured.com\" class=\"linkified\">https://www.softwaresecured.com</a>) and Reshift (<a href=\"https://www.reshiftsecurity.com\" class=\"linkified\">https://www.reshiftsecurity.com</a>). In addition to contributing to OWASP Ottawa for over 14 years, Sherif contributed to WebGoat, and OWASP Cheat Sheets. Sherif also helped the SANS and GIAC organizations launch their GSSP-Java and GSSP-NET exams and contributed to a few of their courses. After switching from software development to the field of security, Sherif took on the mission of supporting developers shift security left, and ship more secure code organically. Whether through training, penetration testing as a service or coaching development teams through shifting security, Sherif believes that any AppSec without the developer wouldn\u2019t yield the best results. Sherif\u2019s current venture, Reshift Security, is a static code analysis tool that is built for developers with an experience from the IDE, over to the code review and CI phases.</p> "
+        "group": "Guatemala",
+        "repo": "www-chapter-guatemala",
+        "name": "Explotar SQLi",
+        "date": "2021-05-13",
+        "time": "19:00",
+        "link": "https://www.meetup.com/owasp-guatemala-meetup-group/events/277817208/",
+        "timezone": "America/Guatemala",
+        "description": "<p>Introducci\u00f3n a SQLi</p> "
     },
     {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "Workshop OWASP x BSSN \"Secure Coding Practice With OWASP\"",
-        "date": "2021-04-27",
-        "time": "12:00",
-        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/277659850/",
-        "timezone": "Asia/Jakarta",
-        "description": "<p>BIMBINGAN TEKNIS KEAMANAN INFORMASI BAGI PENGEMBANG START-UP DIGITAL Pemanfaatan teknologi informasi untuk mendukung proses bisnis telah menjadi tren insiatif strategi organisasi dalam rangka merebut pasar. Fakta tersebut menjadi katalis bertumbuhnya organisasi berbasis teknologi informasi dan meningkat pesatnya start-up lokal yang bersaing mengembangkan aplikasi. Persaingan Aplikasi yang kaya fitur tersebut terkadang meninggalkan celah besar pada sisi keamanan. Dimana pada kenyataannya seringkali dalam proses pengembangan aplikasi dinilai kurang memperhatikan faktor keamanan. Risiko serangan yang mengintai serta kemungkinan kerugian dari insiden siber menjadi ancaman yang nyata jika eksploitasi melalui kerentanan aplikasi tidak diatasi. Penerapan \u201cSecure Coding\u201d pada pengembangan aplikasi menjadi salah satu langkah solutif bagi startup developer dalam upaya meminimalisir risiko ancaman siber yang ditimbulkan oleh kerentanan aplikasi. Oleh karena itu pada kesempatan kali ini, BSSN berkerjasama dengan OWASP Indonesia menyelenggarakan, Bimbingan Teknis Keamanan Informasi bagi Pengembang Startup Digital: Secure Coding Practice with OWASP yang akan dilaksanakan pada:  Hari/tanggal : Selasa, 27 April 2021  Waktu : 12.00 - 17.00 WIB  Tempat : Aloft South Jakarta Hotel, Jl. TB Simatupang No.Kav 8, RT.2/RW.9, Cilandak Tim., Kec. Ps. Minggu, Kota Jakarta Selatan Untuk berpartisipasi dalam kegiatan ini, mohon berikan data anda dan jawab pertanyaan yang kami berikan dengan sebenar-benarnya pada Form Registrasi : <a href=\"https://s.id/RegSCjkt\" class=\"linkified\">https://s.id/RegSCjkt</a> more</p> "
+        "group": "Guatemala",
+        "repo": "www-chapter-guatemala",
+        "name": "OWASP GT Talks: \"OSINT disciplina de inteligencia\"",
+        "date": "2021-05-06",
+        "time": "19:00",
+        "link": "https://www.meetup.com/owasp-guatemala-meetup-group/events/277817251/",
+        "timezone": "America/Guatemala",
+        "description": "<p>OSINT: disciplina de inteligencia</p> "
     },
     {
-        "group": "Copenhagen",
-        "repo": "www-chapter-copenhagen",
-        "name": "NemID, Quantum Computers and the Threat to Security of Digital Signatures",
-        "date": "2021-04-29",
-        "time": "20:00",
-        "link": "https://www.meetup.com/OWASP-Copenhagen-Chapter/events/277670961/",
-        "timezone": "Europe/Copenhagen",
-        "description": "<p>THE TALKS AND YOUR SPEAKERS:</p> <p>POST-QUANTUM DIGITAL SIGNATURES<br/>Sahana Sridhar:<br/><a href=\"https://www.linkedin.com/in/sahsridh/\" class=\"linkified\">https://www.linkedin.com/in/sahsridh/</a><br/>Former IBM Test Specialist and Master of Science from Norwegian University of Science and Technology (NTNU). Sahana will enlighten you on the findings of her master thesis on post-quantum digital signatures based on identification schemes.</p> <p>THE FAILURES OF NEMID AND THE THREAT OF QUANTUM COMPUTERS<br/>Lars Emb\u00f8ll Nielsen:<br/><a href=\"https://www.linkedin.com/in/qkd/\" class=\"linkified\">https://www.linkedin.com/in/qkd/</a></p> <p>Lars will take you on a journey through the failures of NemID, the legal landscape of digital signatures in EU and why Quantum Computers can be a threat to the way we currently keep digital signatures secure.</p> <p>AS ALWAYS....<br/>... you will have the opportunity to ask questions for the participants</p> <p>Note: THIS IS AN ONLINE EVENT! Link to stream will be available prior to the start.</p> <p>Photo: Michael Dziedzic, unsplash.com</p> "
-    },
-    {
-        "group": "South Florida",
-        "repo": "www-chapter-south-florida",
-        "name": "OWASP South Florida Chapter Meeting April 2021",
-        "date": "2021-04-28",
-        "time": "18:00",
-        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/277079615/",
+        "group": "Northern Virginia",
+        "repo": "www-chapter-northern-virginia",
+        "name": "Scale Your Security by Embracing Secure Defaults & Eliminating Bug Classes, Redo",
+        "date": "2021-05-06",
+        "time": "18:30",
+        "link": "https://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/277833944/",
         "timezone": "US/Eastern",
-        "description": "<p>South Florida OWASP (SFOWASP) Monthly Meeting - April 28, 2021</p> <p>NOTE: This will be hosted virtually due to ongoing COVID-19 public health concerns.</p> <p>Agenda<br/>===========================<br/>+SFOWASP Chapter updates/announcements, etc.</p> <p>+Talk: Beyond SAMM - Raising the AppSec Bar (Kristen Bell, GuidePoint Security)</p> <p>+Virtual Networking<br/>===========================</p> <p>***Talk***<br/>Speaker: Kristen Bell, Application Security Engineering Senior Manager at GuidePoint Security</p> <p>Title: Beyond SAMM - Raising the AppSec Bar</p> <p>Abstract: This talk is geared towards the \"secret sauce\" and how to accomplish effectively and successfully all of the todos within the Software Assurance Maturity Model (SAMM). If you look at OWASP\u2019s SAMM as the ingredients, this talk dives into the actual recipe. The focus is to bridge the gap between AppSec and Development by creating a cultural shift where the role of AppSec is teacher/mentor versus auditor. There will also be a focus on how to maintain the momentum of AppSec Program maturity over time through some tried and true tips &amp; tricks.</p> <p>Speaker's Bio: Kristen is a Senior Manager, Application Security Engineering at GuidePoint Security, who has worked in Application Security for 16+ years. Prior to joining GuidePoint, Kristen consulted for numerous companies performing application security services. Kristen has a background in web applications security pen tests &amp; assessments, conducting database security reviews, building application security programs, providing guidance in secure application design, as well as working with clients to improve their enterprise vulnerability management. Kristen\u2019s ability to bridge the gap between technical and non-technical people, coupled with her strong interpersonal skills, has made her a strong champion for application security frameworks &amp; controls for her customers. For additional details or to connect, you can visit Kristen\u2019s LinkedIn page at www.linkedin.com/in/klsullivan.</p> <p>***Networking Session***<br/>Open to attendees to discuss any topical issue: jobs, remote work, etc.</p> "
+        "description": "<p>We apologize for rescheduling the original event, but have resolved the issues and hope you will join us again for the upcoming talk.</p> <p>Abstract:<br/>We\u2019re in the middle of a significant shift in how security teams operate and prioritize their limited budget and person-time. Historically, as an industry, we\u2019ve focused on building tools to identify vulnerabilities. While we\u2019ve built impressive tools, these approaches have failed to address the challenges of modern engineering teams. Specifically, these tools often are too slow, require a prohibitive amount of security engineer time and domain expertise to tune, overwhelm users with false positives, and most importantly, do not ultimately raise a company\u2019s security bar. But there\u2019s another way. Rather than investing in finding more bugs, some modern security teams are instead focusing on providing developers with frameworks and services with secure defaults (\u201cguard rails\u201d) so that developers can build features quickly and securely. When done correctly, combining secure defaults and lightweight checks that enforce invariants (properties that must always hold), organizations can solve *classes* of vulnerabilities by construction, preventing bug whack-a-mole. In this talk, we\u2019ll present a practical step-by-step methodology for:</p> <p>- Choosing what to focus your AppSec resources on<br/>- How to combine secure defaults + lightweight invariant enforcement to eradicate entire vulnerability classes<br/>- How to integrate continuous code scanning into your CI/CD processes in a way that\u2019s fast, high signal, and low friction for developers<br/>- How to use an open source, lightweight security linting tool to find bugs and anti-patterns specific to your company</p> <p>Bio:<br/>Grayson Hardaway is a security researcher at r2c, a startup working on static analysis tools purpose-built for the modern workflow. At r2c, Grayson authors static analysis tailored for finding security vulnerabilities in open source code. Previously, Grayson worked for the US Department of Defense fuzzing and exploiting obscure protocols. When not submitting patches, Grayson is hefting a heavy pack uphill, crafting guitar solos, or learning something new: currently woodworking</p> "
+    },
+    {
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP Top 10 2021 Progress Update",
+        "date": "2021-05-18",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Colorado-Springs-Meetup/events/277899154/",
+        "timezone": "US/Mountain",
+        "description": "<p>At the May Colorado Springs meeting, we will be meeting for the first time in a while. We are actively seeking additional leaders from our community. We want to discuss with you the direction of the chapter. Through the chapter re-activation program Terry Bradley and Andrew van der Stock have stepped up as leaders. As Andrew is the Executive Director, it makes sense that we add at least one more person from our local community to lead the chapter. If you have an interest in leading the chapter, please email Terry or Andrew (see the chapter home page) or discuss it at the meeting. We can have a maximum of five chapter leaders.</p> <p>Featured Speaker for May. Andrew van der Stock (and any of the other co-leaders he can rustle up), will go through the current progress of the OWASP Top 10 2021. We will go through our data collection process, analysis, challenges, and when the first drafts will be released. We'd love for you to get involved in OWASP's most famous project, so learn how you can contribute.</p> "
     },
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - April 2021",
-        "date": "2021-04-27",
+        "name": "OWASP Austin Chapter Monthly Meeting - May 2021",
+        "date": "2021-05-25",
         "time": "11:45",
-        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/277504710/",
+        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/277867382/",
         "timezone": "US/Central",
-        "description": "<p>Chapter information and a presentation --</p> <p>Biometrics and Privacy</p> <p>The business use of biometric identification technology is becoming more prevalent and with it's growing adoption, there is a growing number of state regulations concerning its use and related privacy and data handling issues. This talk will cover how biometric identification works in general and review the various state regulations and guidelines concerning how this unique form of personally identifiable information should be handled and stored.</p> <p>Speaker:<br/>Mary Haskett is the CEO and co-founder of Blink Identity, a venture-backed startup developing a unique privacy-preserving face recognition product that can identify people at a full walking speed and in any lighting conditions. She got her start running a skydiving school and went on to start multiple companies which she grew to profitability without outside funding. She is a beekeeper, Techstars alumni and privacy advocate.</p> "
+        "description": "<p>Chapter information and a presentation --</p> <p>Scale Your Security by Embracing Secure Defaults &amp; Eliminating Bug Classes</p> <p>\"We\u2019re in the middle of a significant shift in how security teams operate and prioritize their limited budget and person-time.</p> <p>Historically, as an industry, we\u2019ve focused on building tools to identify vulnerabilities. While we\u2019ve built impressive tools, these approaches have failed to address the challenges of modern engineering teams.</p> <p>Specifically, these tools often are too slow, require a prohibitive amount of security engineer time and domain expertise to tune, overwhelm users with false positives, and most importantly, do not ultimately raise a company\u2019s security bar.</p> <p>But there\u2019s another way.</p> <p>Rather than investing in finding more bugs, some modern security teams are instead focusing on providing developers with frameworks and services with secure defaults (\u201cguard rails\u201d) so that developers can build features quickly and securely. When done correctly, combining secure defaults and lightweight checks that enforce invariants (properties that must always hold), organizations can solve *classes* of vulnerabilities by construction, preventing bug whack-a-mole.</p> <p>In this talk, we\u2019ll present a practical step-by-step methodology for:<br/>Choosing what to focus your AppSec resources on<br/>How to combine secure defaults + lightweight invariant enforcement to eradicate entire vulnerability classes<br/>How to integrate continuous code scanning into your CI/CD processes in a way that\u2019s fast, high signal, and low friction for developers<br/>How to use an open source, lightweight security linting tool to find bugs and anti-patterns specific to your company\".</p> <p>Speaker:<br/>Emma Jin is a software engineer at r2c, the company that maintains Semgrep, an open-source syntax-aware code search tool. At r2c, she has added features to Semgrep, such as typed metavariables. Emma recently received her B.S. in Computer Science from Carnegie Mellon University, where she picked up her belief in code guarantees. In her free time, she likes to read, write, and relearn her abandoned childhood skills. She is perpetually working on a novel.</p> "
     },
     {
-        "group": "Cleveland",
-        "repo": "www-chapter-cleveland",
-        "name": "OWASP 2021 with Cleveland Chapter - April Meeting",
-        "date": "2021-04-30",
-        "time": "18:30",
-        "link": "https://www.meetup.com/owasp-cleveland-group/events/277616611/",
+        "group": "Boston",
+        "repo": "www-chapter-boston",
+        "name": "OWASP Boston May 2021 Meetup",
+        "date": "2021-05-12",
+        "time": "17:30",
+        "link": "https://www.meetup.com/owaspboston/events/277774099/",
         "timezone": "US/Eastern",
-        "description": "<p>The OWASP Cleveland Chapter is excited to announce that our next meeting will be held on Friday, April 30, 2021 at 6:30pm EST. Please join us as we review best practices and challenges faced by Cybersecurity professionals; the importance of mentorship, training, and certifications within the community; honeypot planning and considerations for architecture, threat modeling, analysis, and honeypot post-ir outcomes for SMB through enterprise, and much more.</p> <p>The link to attend will be added soon.</p> "
+        "description": "<p>OWASP Boston's May 2021 Meetup welcomes an exciting speaker to the lineup. This month along with our normal OWASP &amp; AppSec News updates, Jim Manico will join us to talk about Request Forgery on the Web - SSRF, CSRF and Clickjacking!</p> <p>This technical talk on various forms of request forgery is meant for the software developer who needs to build secure software. Cross-Site Request Forgery, or CSRF, will allow an attacker to trick a user into submitting a transaction they never intended to submit. This attack-type requires very specialized defense. We will discuss various historical CSRF attacks and investigate a wide range of defensive strategies such as nonce tokens, SameSite cookies, and the double-cookie submit pattern. SSFF is a direct attacker category meant to trick your servers into making additional requests than never intended to. Clickjacking is a way to trick users into taking actions and entering data into one site while another is collecting those events. We will be helping developers stop forgery on the web in this talk!</p> <p>Jim Manico is the founder of Manicode Security where he trains software developers on secure coding and security engineering. He is also an investor/advisor for Nucleus Security, BitDiscovery, Secure Circle and Inspectiv. Jim is a frequent speaker on secure software practices, is a member of the Java Champion community, and is the author of \"Iron-Clad Java: Building Secure Web Applications\" from Oracle Press. Jim also volunteers for the OWASP foundation as the project lead for the OWASP Application Security Verification Standard and the OWASP Cheatsheet Series. For more information, see <a href=\"https://www.linkedin.com/in/jmanico\" class=\"linkified\">https://www.linkedin.com/in/jmanico</a>.</p> <p>We look forward to seeing all of you!</p> "
     },
     {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP Dallas April Meeting",
-        "date": "2021-04-27",
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "Health: The Most Important Tech Tool",
+        "date": "2021-05-27",
         "time": "12:00",
-        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/276115384/",
-        "timezone": "US/Central",
-        "description": "<p>Title:</p> <p>OWASP API Security Top 10 - New List, New Threats</p> <p>Description:</p> <p>APIs are constantly changing and have access to an organization\u2019s most sensitive data, and APIs now represent &gt;80% of web traffic. This reality is attracting attackers that are finding new ways of getting what they\u2019re looking for in custom-made APIs. As a response, OWASP has created a new Top 10 specific to API risks and this presentation will explain and discuss each item.</p> <p>Bio:</p> <p>Ran Barth is a Principal Security Engineer at Salt Security. He has a passion for web application security, and he has spent his career deploying enterprise security solutions. Ran currently resides in Plano, TX and is originally from Israel. You can contact him at ranb@salt.security.</p> "
-    },
-    {
-        "group": "Delaware",
-        "repo": "www-chapter-delaware",
-        "name": "CMD+CTRL Bootcamp - 30-day training event with live cyber range event (CTF)",
-        "date": "2021-04-29",
-        "time": "12:00",
-        "link": "https://www.meetup.com/OWASP-Delaware-Chapter/events/277535142/",
+        "link": "https://www.meetup.com/Columbus-OWASP/events/277444023/",
         "timezone": "US/Eastern",
-        "description": "<p>Join OWASP Delaware for the April CMD+CTRL Bootcamp - a 30-day training experience (from April 29 to May 30, 2021) that combines over 25 online training courses coupled with an instructor-led live CMD+CTRL Cyber Range event (a.k.a. CTF - capture the flag).</p> <p>This is Security Innovation's (@SecInnovation) newest commercial offering (<a href=\"https://www.securityinnovation.com/training/cmdctrl-bootcamp-solution/\" class=\"linkified\">https://www.securityinnovation.com/training/cmdctrl-bootcamp-solution/</a>) and they are offering OWASP Delaware complimentary seats.</p> <p>(The only thing better than cyber is free cyber. #free #w00t)</p> <p>It promises to be an effective way to close your security training gaps within a month.</p> <p>By registering, you'll gain access to a handpicked group of courses aimed a boosting security postures quickly. They include:</p> <p>Fundamentals of Secure Cloud Development<br/>Fundamentals of Application Security<br/>Fundamentals of Database Security<br/>Creating Secure Code \u2013 Web API Foundations<br/>Software Operations and Maintenance<br/>Performing Vulnerability Scans<br/>...and more</p> <p>RSVP here at Meetup to receive the registration URL, then use that link to register directly with Security Innovation.</p> <p>The event starts on Thursday, April 29th, at noon (EDT), with a live event. The remaining event will be self-paced. As an OWASP chapter we will meet periodically over the 30-days to encourage &amp; help each other.</p> <p>PS: Although this event is free, it is not without cost. It will cost you time and effort. Be prepare to \"do the work\".</p> <p>Free bootcamp motivation video: <a href=\"https://youtu.be/ZXsQAXx_ao0\" class=\"embedded\">https://youtu.be/ZXsQAXx_ao0</a></p> "
+        "description": "<p>This needed to be rescheduled. See you next month!</p> <p>Hi everyone! We will start out with news and notes (virtually) and then talk about health and IT. Working in the tech industry often involves spending long hours sitting down, staring at a screen, consuming copious amounts of pizza and caffeine. The work is mentally demanding and can be stressful. In the rush to get everything done, it can be easy to neglect our health. But a healthy body and mind are necessary for effective performance. Based on HR training, research, and personal experience, this session provides realistic suggestions for managing your well-being at work. It covers the connection between physical and mental health, as well as how to discuss these topics with your employer. You\u2019ll leave with a better idea of how to take care of yourself and be a happier, healthier, and more productive person.</p> <p>Bio: Cassandra Faris is passionate about the human side of technology. She is the Tech Community Manager for the Rocket Technology division of Quicken Loans. Her career has focused on supporting tech professionals through training, community outreach, open source initiatives, marketing, hiring, mentoring, and employee engagement. She is an international speaker who specializes in teaching people how to communicate, be more effective team members, and advance their careers. She is President of the Stir Scholarship for women pursuing technology degrees and President Emeritus of the DogFoodCon tech conference. She has an MBA in Organizational Leadership. When she's not busy with the tech community, she is an avid tabletop gamer, corgi lover, and soccer fan who travels as much as possible.</p> "
     },
     {
         "group": "Kansas City",
@@ -126,16 +126,6 @@
         "date": "2021-05-24",
         "time": "18:00",
         "link": "https://www.meetup.com/OWASP-Kansas-City/events/mpsfjrycchbgc/",
-        "timezone": "US/Central",
-        "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
-    },
-    {
-        "group": "Kansas City",
-        "repo": "www-chapter-kansas-city",
-        "name": "Open Web App Security Project - Kansas City Chapter Monthly Meeting",
-        "date": "2021-04-26",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Kansas-City/events/mpsfjryccgbjc/",
         "timezone": "US/Central",
         "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
     },
@@ -160,34 +150,24 @@
         "description": "<p>Abstract:<br/>This talk is about the OWASP Nettacker Project (<a href=\"https://owasp.org/www-project-nettacker/\" class=\"linkified\">https://owasp.org/www-project-nettacker/</a>), one of OWASP's \"Unsung Hero\" projects. Nettacker is a little-known yet awesome and powerful 'swiss-army-knife' type tool for information gathering and vulnerability scanning fully written in Python. Featuring live demo and practical usage examples.</p> <p>Speaker Bio:<br/>Sam Stepanyan (@securestep9) is an OWASP London Chapter Leader and an Independent Application Security Consultant with over 20 years of experience in the IT industry with a background in software engineering and web application development. Sam has worked for various financial services institutions in the City of London specialising in Application Security consulting, Secure Software Development Lifecycle (SDLC), developer training, source code reviews and vulnerability management. He is also a Subject Matter Expert in Web Application Firewalls (WAF) and SIEM systems. Sam holds a Master\u2019s degree in Software Engineering and a CISSP certification.</p> "
     },
     {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Managing Open Source Associated Risk",
+        "date": "2021-05-27",
+        "time": "17:30",
+        "link": "https://www.meetup.com/OWASP-OC/events/277552711/",
+        "timezone": "US/Pacific",
+        "description": "<p>Speaker: Matthew H. Jacobs, Director, Legal Counsel at Synopsys, Inc.</p> <p>Topic: Managing Open Source Associated Risk</p> <p>Abstract:<br/>In the 1 hour session, Matt will begin with general observations about the current state of open source reuse in software development today, calling on data from recent Synopsys studies concerning how open source is used, where it is used, why, and in what amounts. Next, general observations about the most popular open source license and compliance challenges will be addressed. Specific focus will be made on the key permissive and \u201ccopyleft\u201d licenses such as the MIT/BSD and GPL/AGPL respectively and touch on the emergence of source available licenses (MongoDB). This will include license interpretation and compliance challenges and enforcement actions.</p> <p>The conversation will then shift to open source and security. The unique challenges posed by open source will be discussed along with some ideas on how to address these challenges. We\u2019ll also spend a few moments analyzing the security breach at Equifax and exploring how mismanaged open source components were the root cause of that breach.</p> <p>Speaker Bio:<br/>Matthew Jacobs was Vice President and General Counsel at Black Duck Software, Inc., recently acquired by Synopsys, Inc. He is now a director with the legal group at Synopsys. Organizations worldwide use Synopsys\u2019s industry-leading products to secure and manage open source software, eliminating the pain related to security vulnerabilities, compliance and operational risk. Matt\u2019s work at Synopsys includes managing licensing and contract negotiation and advising senior management on day-to-day legal affairs. In addition to being a frequent speaker on open source\u2013related topics, Matt routinely advises Synopsys\u2019s customers with respect to leading-edge open source adoption, use and compliance matters.</p> <p>Prior to joining Black Duck in 2009, Matt was with Bernstein Shur, where he counseled companies on a variety of intellectual property matters, including open source compliance. Before that, he held in-house positions with Cabletron Systems and Standex International.</p> <p>LinkedIn: <a href=\"https://www.linkedin.com/in/matthew-h-jacobs-jd-mba-671147/\" class=\"linkified\">https://www.linkedin.com/in/matthew-h-jacobs-jd-mba-671147/</a><br/>Blog: <a href=\"https://synopsys.com/blogs/software-security/author/matt-jacobs/\" class=\"linkified\">https://synopsys.com/blogs/software-security/author/matt-jacobs/</a></p> <p>Schedule:<br/>5:30pm: Presentation &amp; Q&amp;A<br/>6:30pm: Raffle (gift certificates sponsored by Synopsys)</p> <p>Our meeting sponsor, Synopsys, will provide 2 gift cards for $50 each to raffle at the end of the meeting, and $25 Grubhub gift certificates for meeting attendees.</p> <p>NOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice.</p> "
+    },
+    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
-        "name": "Automate API testing and push #AppSec left (with live demos)",
-        "date": "2021-04-29",
-        "time": "12:00",
-        "link": "https://www.meetup.com/owasptriangle/events/lckdnqyccgbmc/",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2021-05-27",
+        "time": "18:30",
+        "link": "https://www.meetup.com/owasptriangle/events/pqfzhsycchbkc/",
         "timezone": "US/Eastern",
-        "description": "<p>In our February meeting, Joe Schottman discussed the terminology of web APIs and how the OWASP top 10 web and API vulnerability lists apply to them. In this meeting, he'll show how to place an interception proxy such as OWASP ZAP in line with software defect testing tools, helping automate API testing and pushing application security left into the CI pipeline. This talk will be a demonstration of the concepts - a hands-on lab will be available through DC919 (targeting the May meeting).</p> "
-    },
-    {
-        "group": "Saint Louis",
-        "repo": "www-chapter-saint-louis",
-        "name": "Bug Bounty Night",
-        "date": "2021-04-29",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-STL/events/277429290/",
-        "timezone": "US/Central",
-        "description": "<p>Overview of bug bounty programs and how you can participate in this fun and rewarding activity.</p> "
-    },
-    {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "April 2021 Chapter Meeting",
-        "date": "2021-04-29",
-        "time": "12:00",
-        "link": "https://www.meetup.com/owasp-slc/events/277554172/",
-        "timezone": "US/Mountain",
-        "description": "<p>This month's meetup is VIRTUAL. Join Wasatch AppSec Slack (<a href=\"https://join.slack.com/t/wasatchappsec/shared_invite/zt-nw4d0iq9-bBMKHrFITzJMMsDye6FNYg\" class=\"linkified\">https://join.slack.com/t/wasatchappsec/shared_invite/zt-nw4d0iq9-bBMKHrFITzJMMsDye6FNYg</a>) to suggest any additional topics.</p> <p>Agenda:</p> <p>- Application security metrics<br/>- The new OWASP Top 10 update<br/>- Mis-use/abuse test cases and how they can help detect broken access controls</p> <p>Leaders Zoom Account Two is inviting you to a scheduled Zoom meeting.</p> <p>Topic: OWASP SLC April 2021 Chapter Meeting<br/>Time: Apr 29, 2021 12:00 PM Mountain Time (US and Canada)</p> <p>Join Zoom Meeting<br/><a href=\"https://zoom.us/j/97800663033?pwd=bnA4MTJmdE1BQnExb2o2Qmtrd2ROZz09\" class=\"linkified\">https://zoom.us/j/97800663033?pwd=bnA4MTJmdE1BQnExb2o2Qmtrd2ROZz09</a></p> <p>Meeting ID: 978 0066 3033<br/>Passcode: 693113<br/>One tap mobile<br/>+12532158782,,97800663033#,,,,*693113# US (Tacoma)<br/>+13462487799,,97800663033#,,,,*693113# US (Houston)</p> <p>Dial by your location<br/>+1 253 215 8782 US (Tacoma)<br/>+1 346 248 7799 US (Houston)<br/>+1 669 900 6833 US (San Jose)<br/>+1 301 715 8592 US (Washington DC)<br/>+1 312 626 6799 US (Chicago)<br/>+1 929 436 2866 US (New York)<br/>Meeting ID: 978 0066 3033<br/>Passcode: 693113<br/>Find your local number: <a href=\"https://zoom.us/u/aeiAxXrCOy\" class=\"linkified\">https://zoom.us/u/aeiAxXrCOy</a></p> "
+        "description": "<p>TBA</p> "
     },
     {
         "group": "San Diego",
@@ -198,16 +178,6 @@
         "link": "https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/bcnwbsycchbbc/",
         "timezone": "US/Pacific",
         "description": "<p>Monthly OWASP meeting</p> "
-    },
-    {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "[ONLINE]OWASP Suffolk Chapter - OWASP ZAP for beginners",
-        "date": "2021-04-27",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/277007739/",
-        "timezone": "Europe/London",
-        "description": "<p>AGENDA:<br/>* Introduction<br/>* Practical demo of OWASP ZAP<br/>* Networking<br/>* Open discussion<br/>* Virtual Beer</p> <p>This event will demo how to use OWASP ZAP to test the security of your own web site or application. The demonstration is aimed at the complete beginner and will also provide an overview of a web proxy and vulnerability scanning of web applications.</p> <p>TICKETS:<br/>This event is free to attend for both members and non-members of OWASP and is open to anyone interested in application security and cyber security. Please note that you MUST RSVP to book your place and get a ticket to be admitted to the event by building security - your name will be checked against the guest list.<br/>Register to attend this event at OWASP Suffolk Chapter - Meetup - RSVP to attend</p> "
     },
     {
         "group": "Bristol Uk",
@@ -230,34 +200,24 @@
         "description": "<p>Hosted by the Cyber Security &amp; Networking Research Group, Anglia Ruskin University, OWASP (Open Web Application Security Project) Cambridge Chapter, BCS Cybercrime Forensics SG &amp; BCS Dorset/Hampshire Branches.</p> <p>Background</p> <p>OWASP (Open Web Application Security Project is a 501(c)(3) not-for-profit worldwide charitable organization focused on improving the security of application software. Their mission is to make application security visible, so that people and organizations can make informed decisions about true application security risks.</p> <p>The Cyber Security and Networking (CSN) Research Group at Anglia Ruskin University has close working strategic relationships with industry, professional bodies, law enforcement, government agencies and academia in the delivery of operationally focused applied information and application security research. We have strong international links with professional organisations such as OWASP, BCS, ISC2, IISP &amp; the UK Cyber Security Forum amongst others. The primary aims of CSNRG are to help the UK and partner nations to tackle cybercrime, be more resilient to cyber attacks and educate its users for a more secure cyberspace and operational business environment. These will be achieved through the investigation of threats posed to information systems and understanding the impact of attacks and creation of cyber-based warning systems which gathering threat intelligence, automate threat detection, alert users and neutralising attacks. For network security we are researching securing the next generation of software defined infrastructures from the application API and control/data plane attacks.</p> <p>The BCS \u2013 Chartered Institute for IT - Cybercrime Forensics Special Interest Group (SG) promotes Cybercrime Forensics and the use of Cybercrime Forensics; of relevance to computing professionals, lawyers, law enforcement officers, academics and those interested in the use of Cybercrime Forensics and the need to address cybercrime for the benefit of those groups and of the wider public.</p> <p>Speaker Biographies &amp; Abstracts</p> <p>Christian Folini, Security Engineer, Netnea \u2013 \u201cOWASP Mod Security Core Rule Set CRS Project\u201d</p> <p>Bio: Christian Folini, Security Engineer, Netnea &amp; OWASP ModSecurity CRS Project Leader</p> <p>Christian Folini is a security engineer and open source enthusiast. He holds a Ph.D. in medieval history and enjoys defending castles across Europe. Unfortunately, defending medieval castles is not a big business anymore and he turned to defending web servers, which he finds equally challenging. He brings more than ten years of experience with ModSecurity configuration in high-security environments, DDoS defence, and threat modelling.</p> <p>Christian Folini is the author of the second edition of the ModSecurity Handbook and the best-known teacher on the subject. He co-leads the OWASP ModSecurity Core Rule Set project and serves as the program chair of the \"Swiss Cyber Storm\" conference, the prime security conference in Switzerland.</p> <p>Abstract : \u201cOWASP Mod Security Core Rule Set CRS Project\u201d</p> <p>The CRS is a set of generic attack detection rules for use with ModSecurity or compatible web application firewalls. CRS is the 1st line of defence against web application attacks like those summarized in the OWASP Top Ten and all with a minimum of false alerts. This talk demonstrates the installation of the rule set and introduces the most important groups of rules. It covers key concepts like anomaly scoring and thresholds, paranoia levels, stricter siblings and the sampling mode. The important handling of false positives is also covered as well as pre-defined lists of rule exclusions for popular web applications helping to avoid false positives.</p> <p>Provisional Agenda</p> <p>18:00 - Webinar waiting lobby opens<br/>18:15 - Presentation followed by Questions and Answers<br/>19:30 - Closing, with virtual networking</p> "
     },
     {
-        "group": "Italy",
-        "repo": "www-chapter-italy",
-        "name": "OWASP Italy Day 2021",
-        "date": "2021-04-28",
-        "time": "09:00",
-        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/277407026/",
-        "timezone": "Europe/Rome",
-        "description": "<p>The Open Web Application Security Project, or OWASP, is an international non-profit organization dedicated to web and application security. OWASP is organized as an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security. Many standards, books, tools, and organizations reference the Top OWASP 10 project, including MITRE, PCI DSS, the Defense Information Systems Agency (DISA-STIG), the United States Federal Trade Commission (FTC) and many more. The OWASP Testing Guide includes a \"best practice\" penetration testing framework that users can implement in their own organizations and a \"low level\" penetration testing guide that describes techniques for testing most common web application and web service security issues.</p> <p>OWASP Italy Day 2021 is a half-day conference focused on web application and software security, application security testing tools and technologies.</p> <p>This conference provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.</p> <p>More information here:<br/><a href=\"https://owasp.org/www-chapter-italy/events/owasp-day-210428\" class=\"linkified\">https://owasp.org/www-chapter-italy/events/owasp-day-210428</a></p> <p>The connection link will be communicated the day before the event to the registered attendees.</p> "
-    },
-    {
         "group": "Norway",
         "repo": "www-chapter-norway",
-        "name": "Morning meetup: The defender\u2019s new clothes - Eldar Marcussen",
-        "date": "2021-04-30",
-        "time": "09:00",
-        "link": "https://www.meetup.com/OWASP-Norway/events/277527268/",
+        "name": "Generalforsamling + valg av ledere",
+        "date": "2021-05-27",
+        "time": "20:00",
+        "link": "https://www.meetup.com/OWASP-Norway/events/277717277/",
         "timezone": "Europe/Oslo",
-        "description": "<p>We're doing a morning meeting this time, as our speaker is based in Australia.</p> <p>Description:<br/>Proving vulnerabilities in modern web applications is significantly harder than it used to be thanks to WAFs and other protection measures. This talk will discuss and showcase several approaches to bypasses ranging from simple to advanced.</p> <p>Bio:<br/>Eldar Marcussen <a href=\"https://twitter.com/wireghoul\" class=\"linkified\">https://twitter.com/wireghoul</a> is a lead security researcher and penetration tester. He is a long time bug hunter with a large number of published advisories, exploits and conference presentations at leading security conferences all over the world. He was a recipient of the first CVE 10K candidate numbers. In addition to finding vulnerabilities he contributes to and maintain several open source projects in his spare time aimed at web application security and penetration testing. These include graudit, doona, lbmap, dotdotpwn, nikto and more. His tools and research are featured in most security oriented linux distros as well as many industry leading books.</p> "
+        "description": "<p>Dette blir ingen vanlig meetup, men et todelt m\u00f8te hvor vi f\u00f8rst har generalforsamling i OWASP Norway Chapter (org nr. [masked]). Deretter foretar vi valg av ledere og eventuelt en programkomit\u00e9.</p> <p>--------------------------------------------------------------------------------------------<br/>Del 1: Generalforsamling OWASP Norway Chapter (org nr. [masked])</p> <p>Sak 1: Valg av ordstyrer<br/>Sak 2: Valg av referent<br/>Sak 3: Godkjenning av innkalling<br/>Sak 4: Sletting av OWASP Norway Chapter fra Br\u00f8nn\u00f8ysundregisteret<br/>Bakgrunn: OWASP Norway Chapter er i dag registrert i Br\u00f8nn\u00f8ysundregisteret med organisasjonsnummer[masked]. Lokale chapters skal i f\u00f8lge OWASP Chapter Policy [1] ikke v\u00e6re egne juridiske enheter. Vi \u00f8nsker derfor \u00e5 slette enheten fra Br\u00f8nn\u00f8ysundregisteret i henhold til gjeldene vedtekter[2], vedtatt 28. april 2008. Dette vil ikke ha noen p\u00e5virking p\u00e5 m\u00f8teaktivitet eller den daglige driften av OWASP Norway Chapter, da vi fortsetter \u00e5 eksistere som f\u00f8r under OWASP Foundation. I henhold til vedtektene krever en oppl\u00f8sning 2/3 flertall p\u00e5 ordin\u00e6r generalforsamling.<br/>Forslag til vedtak: OWASP Norway Chapter (org nr:[masked]) oppl\u00f8ses i henhold til vedtektene, og slettes fra Br\u00f8nn\u00f8ysundregisteret</p> <p>[1] <a href=\"https://owasp.org/www-policy/operational/chapters\" class=\"linkified\">https://owasp.org/www-policy/operational/chapters</a><br/>[2] <a href=\"https://owasp.org/www-chapter-norway/assets/files/20080428_Norway_chapter_vedtekter.pdf\" class=\"linkified\">https://owasp.org/www-chapter-norway/assets/files/20080428_Norway_chapter_vedtekter.pdf</a></p> <p>--------------------------------------------------------------------------------------------<br/>Del 2: Valg av ledere til OWASP Norway Chapter</p> <p>OWASP Norway Chapter skal ha 2-5 ledere og eventuelt en egen programkomit\u00e9. Dersom du \u00f8nsker \u00e5 engasjere deg i OWASP Norway Chapter, s\u00e5 ta kontakt med [masked] p\u00e5 forh\u00e5nd av m\u00f8tet, s\u00e5 vi har en oversikt over hvor mange som \u00f8nsker \u00e5 v\u00e6re med.<br/>Det er en forventning om at man har hovedansvaret for \u00e5 arrangere minst \u00e9n meetup per \u00e5r. I praksis betyr det \u00e5 skaffe dyktige foredragsholdere, finne egnet lokale og eventuelt skaffe en matsponsor til meetupen. Du vil f\u00e5 hjelp av mer erfarne ledere om det trengs.</p> <p>Om du \u00f8nsker \u00e5 bidra, anbefales det \u00e5 lese gjennom Chapter Handbook [1] og Chapters Policy [2].</p> <p>[1] <a href=\"https://owasp.org/www-policy/operational/chapter-handbook-existing.html\" class=\"linkified\">https://owasp.org/www-policy/operational/chapter-handbook-existing.html</a><br/>[2] <a href=\"https://owasp.org/www-policy/operational/chapters.html\" class=\"linkified\">https://owasp.org/www-policy/operational/chapters.html</a></p> "
     },
     {
-        "group": "Sofia",
-        "repo": "www-chapter-sofia",
-        "name": "XSS Attacks and Defenses",
-        "date": "2021-04-27",
+        "group": "Cork",
+        "repo": "www-chapter-cork",
+        "name": "Shift Left DevSecOps Paradigm [placeholder]",
+        "date": "2021-06-01",
         "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Sofia-Chapter/events/277708888/",
-        "timezone": "Europe/Sofia",
-        "description": "<p>OWASP Sofia chapter presents Dimitar Boyanov from Progress. In this session Dimitar will talk about XSS Attacks:</p> <p>Attackers have weapons but defenders have strong armor. XSS is one of the most popular and dangerous attacks for web applications. All XSS types will be explained and defenses in-depth will be presented.</p> <p>Dimitar Boyanov is a web developer with more than 15 years of experience. Leading developer and one of the founders of Sitefinity Security Team in Progress. Author of many defenses part of the leading CMS.</p> <p>Level: Mid/Advanced Web Programming</p> "
+        "link": "https://www.meetup.com/OWASP-Cork/events/277885990/",
+        "timezone": "Europe/Dublin",
+        "description": "<p>**** Meeting link will be added closer to the date and accessible to those who RSVP only ****</p> <p>This event will feature talks around the 'shift left' paradigm for security in project workflows.</p> "
     },
     {
         "group": "Oakland County",
@@ -270,223 +230,33 @@
         "description": "<p>Speaker and topic are TBA</p> <p>5:30PM EDT- social meetup (show up when ever)<br/>7PM EDT - Talk starts</p> "
     },
     {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-23",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbfc/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-22",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbdc/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-21",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbcc/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-20",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbbc/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-19",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbzb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-16",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbvb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-15",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbtb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-14",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbsb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-13",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbrb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-12",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbqb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-09",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbmb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-08",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchblb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-07",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbkb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-06",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbjb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-05",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbhb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-02",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbdb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-05-01",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsycchbcb/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-04-30",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsyccgbnc/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-04-29",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsyccgbmc/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-04-28",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsyccgblc/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "Pentesting Playground in Tamil ",
-        "date": "2021-04-25",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cuddalore-Chapter/events/vhpfhsyccgbhc/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>We are back again with a new training event \" PENTESTING PLAYGROUND \" in TAMIL which helps you to kick start your career in cybersecurity. This is a 5 days session from 14 th April to 18th April ( 6:00pm - 8:00 pm). Those who are interested, join us by registering for the event using the following link.</p> <p> <a href=\"https://bit.ly/3g2OH8R\" class=\"linkified\">https://bit.ly/3g2OH8R</a></p> <p>Participation certificate will be provided upon request.</p> <p>for doubts please contact us</p> <p><a href=\"https://www.instagram.com/owaspcuddalore\" class=\"linkified\">https://www.instagram.com/owaspcuddalore</a></p> "
-    },
-    {
         "group": "Canberra",
         "repo": "www-chapter-canberra",
-        "name": "Drop In Session - Canberra OWASP Revamp Online meet and greet",
-        "date": "2021-04-28",
+        "name": "Cyber Skill Building with Toby Amodio, CISO Australian Taxation Office",
+        "date": "2021-05-18",
         "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Canberra-Chapter/events/277676231/",
+        "link": "https://www.meetup.com/OWASP-Canberra-Chapter/events/277908236/",
         "timezone": "Australia/Canberra",
-        "description": "<p>Event: Drop In Session - Canberra OWASP Revamp Online meet and greet<br/>Date: 28th April 2021 6:00 pm - 7:00 pm<br/>Link: Join Zoom Meeting <a href=\"https://zoom.us/j/98065495818\" class=\"linkified\">https://zoom.us/j/98065495818</a><br/>No Registration required, however all enquiries are welcome. Please join and invite all your friends/colleagues who may benefit from our regular events.</p> <p>For more details and OWASP memberships please visit <a href=\"https://owasp.org/www-chapter-canberra/\" class=\"linkified\">https://owasp.org/www-chapter-canberra/</a></p> <p>Enquiries: Akshay.Gupta@owasp.org</p> "
+        "description": "<p>Event: Online Presentation - Cyber Skill Building with Toby Amodio CISO Australian Taxation Office<br/>Proposed Date: 18th May 2021 - 6:00 pm - 7:00 pm<br/>Link: Join Zoom Meeting <a href=\"https://zoom.us/j/97094568063\" class=\"linkified\">https://zoom.us/j/97094568063</a></p> "
+    },
+    {
+        "group": "University Of Washington",
+        "repo": "www-chapter-university-of-washington",
+        "name": "How to make 100K + in Cyber Security",
+        "date": "2021-05-25",
+        "time": "17:00",
+        "link": "https://www.meetup.com/owasp-university-of-washington-meetup-group/events/277779661/",
+        "timezone": "US/Pacific",
+        "description": "<p>Speaker: Otha Mabry, a Security professional<br/>Please register!</p> "
+    },
+    {
+        "group": "Saitama",
+        "repo": "www-chapter-saitama",
+        "name": "OWASP Saitama \u30df\u30fc\u30c6\u30a3\u30f3\u30b0 #1",
+        "date": "2021-05-25",
+        "time": "19:00",
+        "link": "https://www.meetup.com/owasp-saitama/events/277702625/",
+        "timezone": "Asia/Tokyo",
+        "description": "<p></p> <p>1: TBA / Gen Tobimatsu (@jetbeejp)<br/>2: \"Drive by Message #2\" () / Ken-ya Yoshimura (@ad3liae)</p> <p> ()</p> <p>19:00 <br/>19:10  1 TBA<br/>20:10  2 \"Drive by Message #2\" ()<br/>20:50 LT (\u203b; )<br/>21:00 </p> <p></p> <p><br/><br/></p> <p>OWASP Saitama</p> <p></p> <p>\u203b</p> <p>SNS</p> <p>OWASP Saitama : <a href=\"https://owasp.org/www-chapter-saitama/\" class=\"linkified\">https://owasp.org/www-chapter-saitama/</a><br/>OWASP Saitama Facebook: <a href=\"https://www.facebook.com/owaspsaitama/\" class=\"linkified\">https://www.facebook.com/owaspsaitama/</a><br/>OWASP Saitama Twitter: <a href=\"https://twitter.com/OWASP_Saitama\" class=\"linkified\">https://twitter.com/OWASP_Saitama</a></p> <p>(Top image by Purple Slog on flickr, CC-BY 2.0)</p> "
     }
 ]
