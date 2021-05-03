@@ -1501,5 +1501,14 @@
       "platforms": "SaaS",
       "note": "Scans Git repos daily and provides a web-based dashboard to track code and dependency vulnerabilities. Handles team-based access patterns, vulnerability exception lifecycle, and is built on API first principles.",
       "type": "SAST"
+   },
+   {
+      "title": "Xanitizer",
+      "url": "https://www.xanitizer.com/",
+      "owner": "Xanitizer",
+      "license": "Commercial",
+      "platforms": "CLI and plugin integration",
+      "note": "A SAST tool for Java, Scala, and JavaScript/TypeScript. Per this pricing page, it is free for Open Source projects if you contact the vendor.",
+      "type": "SAST"
    }
 ]
