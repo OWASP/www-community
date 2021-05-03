@@ -51,5 +51,5 @@ jobs:
             issue_number: ${{ github.event.number }},
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: `**The following issues were identified:**\n\n<details><summary>Summary</summary>\n\n\`\`\`\n${{ steps.validation.outputs.ISSUES }}\n\`\`\`\n\n</details>`
+            body: `**The following issues were identified, when validatoin against the [schema](https://github.com/OWASP/www-community/blob/master/tools_schema.json):**\n\n<details><summary>Summary (click the triangle/control to the left to expand)</summary>\n\n\`\`\`\n${{ steps.validation.outputs.ISSUES }}\n\`\`\`\n\n</details>`
           })
