@@ -990,6 +990,15 @@
       "type": "SAST"
    },
    {
+      "title": "Fluid Attack's Scanner",
+      "url": "https://docs.fluidattacks.com/machine/scanner",
+      "owner": "Fluid Attacks",
+      "license": "Open Source",
+      "platforms": null,
+      "note": "SAST, DAST and SCA vulnerability detection tool with perfect OWASP Benchmark score.",
+      "type": "SAST"
+   },
+   {
       "title": "DeepSource",
       "url": "https://deepsource.io/",
       "owner": "DeepSource Corp.",

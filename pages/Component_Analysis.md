@@ -270,6 +270,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [DepShield] | Sonatype | Open Source | Cross Platform / SaaS |
 | [DotNET Retire] | Retire.NET Project | Open Source | Cross Platform |
 | [FlexNet Code Insight] | Flexera Commercial	| Cross Platform |
+| [Fluid Attack's Scanner] | Fluid Attacks | MPL 2.0. | SaaS |
 | [FOSSA] | FOSSA | Commercial / Freemium | SaaS |
 | [FOSSology] | Linux Foundation | Open Source | Cross Platform |
 | [Grafeas] | Grafeas | Open Source | Cross Platform |
@@ -307,6 +308,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [DepShield]: https://depshield.github.io/
 [DotNET Retire]: https://github.com/RetireNet/dotnet-retire
 [FlexNet Code Insight]: https://www.flexera.com/products/software-composition-analysis/flexnet-code-insight.html
+[Fluid Attack's Scanner]: https://docs.fluidattacks.com/machine/scanner
 [FOSSA]: https://fossa.com/
 [FOSSology]: https://www.fossology.org/
 [Grafeas]: https://grafeas.io/
