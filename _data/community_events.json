@@ -70,6 +70,16 @@
         "description": "<p>OSINT: disciplina de inteligencia</p> "
     },
     {
+        "group": "Rio De Janeiro",
+        "repo": "www-chapter-rio-de-janeiro",
+        "name": "OWASP Chapter RJ - 2\u00ba Biweekly Meeting",
+        "date": "2021-05-12",
+        "time": "19:30",
+        "link": "https://www.meetup.com/owasp-rio-de-janeiro/events/277958595/",
+        "timezone": "America/Sao_Paulo",
+        "description": "<p>Esse \u00e9 o segundo encontro do cap\u00edtulo no RJ da OWASP em 2021. Veja nossa agenda a seguir:</p> <p>1. Warm-up (10min)<br/>2. Privacy Risks e o OWASP Top 10 Privacy Risks 2.0 (25min)<br/>3. Discuss\u00e3o, cases e exemplos (20min)<br/>4. Agenda de eventos no BR (5 min)</p> <p>Confira mais sobre o cap\u00edtulo em <a href=\"https://owasp.org/www-chapter-rio-de-janeiro/\" class=\"linkified\">https://owasp.org/www-chapter-rio-de-janeiro/</a>.</p> "
+    },
+    {
         "group": "Northern Virginia",
         "repo": "www-chapter-northern-virginia",
         "name": "Scale Your Security by Embracing Secure Defaults & Eliminating Bug Classes, Redo",
@@ -90,6 +100,16 @@
         "description": "<p>At the May Colorado Springs meeting, we will be meeting for the first time in a while. We are actively seeking additional leaders from our community. We want to discuss with you the direction of the chapter. Through the chapter re-activation program Terry Bradley and Andrew van der Stock have stepped up as leaders. As Andrew is the Executive Director, it makes sense that we add at least one more person from our local community to lead the chapter. If you have an interest in leading the chapter, please email Terry or Andrew (see the chapter home page) or discuss it at the meeting. We can have a maximum of five chapter leaders.</p> <p>Featured Speaker for May. Andrew van der Stock (and any of the other co-leaders he can rustle up), will go through the current progress of the OWASP Top 10 2021. We will go through our data collection process, analysis, challenges, and when the first drafts will be released. We'd love for you to get involved in OWASP's most famous project, so learn how you can contribute.</p> "
     },
     {
+        "group": "Sydney",
+        "repo": "www-chapter-sydney",
+        "name": "Sydney OWASP Night - Threat Modelling 101 presentation",
+        "date": "2021-05-18",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Sydney-Chapter/events/277817235/",
+        "timezone": "Australia/Sydney",
+        "description": "<p>Join us in the month of May for OWASP Chapter Sydney\u2019s Threat Modelling 101 presentation. Threat modelling is one of the biggest semi-understood concepts of Cyber Security. We all have different ways of interpretation in the way we identify threats. During this talk, the speaker will try to present the generic human vision of understanding threats and compare them against how Cyber Security folks should probably understand them.</p> <p>Special guest Abhijeth Dugginapeddi will demonstrate technical and non-technical approaches to understanding threat modelling so that everyone, even with varying levels of skill will be able to participate and deepen their knowledge.</p> <p>Abhijeth Dugginapeddi currently Heads a security team at BigCommerce, Lectures at UNSW and Mentors Strobes a Security orchestration startup. He also spoke at several international conferences like Defcon, Blackhat, OWASP AppSec USA and B-sides. Abhijeth is also an active researcher and has found vulns in major tech companies like Google, Facebook, Yahoo and eBay. He is also interested in Digital Marketing, Product Design and Growth Hacking.</p> "
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - May 2021",
@@ -98,6 +118,26 @@
         "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/277867382/",
         "timezone": "US/Central",
         "description": "<p>Chapter information and a presentation --</p> <p>Scale Your Security by Embracing Secure Defaults &amp; Eliminating Bug Classes</p> <p>\"We\u2019re in the middle of a significant shift in how security teams operate and prioritize their limited budget and person-time.</p> <p>Historically, as an industry, we\u2019ve focused on building tools to identify vulnerabilities. While we\u2019ve built impressive tools, these approaches have failed to address the challenges of modern engineering teams.</p> <p>Specifically, these tools often are too slow, require a prohibitive amount of security engineer time and domain expertise to tune, overwhelm users with false positives, and most importantly, do not ultimately raise a company\u2019s security bar.</p> <p>But there\u2019s another way.</p> <p>Rather than investing in finding more bugs, some modern security teams are instead focusing on providing developers with frameworks and services with secure defaults (\u201cguard rails\u201d) so that developers can build features quickly and securely. When done correctly, combining secure defaults and lightweight checks that enforce invariants (properties that must always hold), organizations can solve *classes* of vulnerabilities by construction, preventing bug whack-a-mole.</p> <p>In this talk, we\u2019ll present a practical step-by-step methodology for:<br/>Choosing what to focus your AppSec resources on<br/>How to combine secure defaults + lightweight invariant enforcement to eradicate entire vulnerability classes<br/>How to integrate continuous code scanning into your CI/CD processes in a way that\u2019s fast, high signal, and low friction for developers<br/>How to use an open source, lightweight security linting tool to find bugs and anti-patterns specific to your company\".</p> <p>Speaker:<br/>Emma Jin is a software engineer at r2c, the company that maintains Semgrep, an open-source syntax-aware code search tool. At r2c, she has added features to Semgrep, such as typed metavariables. Emma recently received her B.S. in Computer Science from Carnegie Mellon University, where she picked up her belief in code guarantees. In her free time, she likes to read, write, and relearn her abandoned childhood skills. She is perpetually working on a novel.</p> "
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "Bay Area May '21 Meetup",
+        "date": "2021-05-12",
+        "time": "10:00",
+        "link": "https://www.meetup.com/Bay-Area-OWASP/events/277964247/",
+        "timezone": "US/Pacific",
+        "description": "<p>Get ready for a set of 3 new exciting talks brought by experienced speakers in the security industry!</p> <p>We'd also love to connect with you on Slack:\u2028<br/>1. Please request an invite to OWASP Slack here: <a href=\"https://owasp-slack.herokuapp.com/\" class=\"linkified\">https://owasp-slack.herokuapp.com/</a>. You should do this ahead of time to give yourself time to join.\u2028\u2028<br/>2. Join us in #bayarea\u2028\u2028</p> <p>\u2022 10:00 - Welcome\u2028<br/>\u202210:05 - 10:40 - The Tangled Web and Its Same Origin Policy (Pankaj Mouriya)<br/>\u2028\u2022 10:40 - 11:15 - Understanding the new NIST Security and Privacy Framework additions around RASP and IAST (Timothy Chiu)\u2028<br/>\u2022 11:15 - 11:50 - What's a data vault? And why do you need it? (Manish Ahluwalia)</p> <p>Talk 1: The Tangled Web and Its Same Origin Policy</p> <p>Same Origin Policy is the Fundamental Security Model of the web, it's been very long that I have been struggling around Same Origin Policy and to overcome this struggle, I did some google and went through some books, watched some boring yet fruitful videos and ended up giving this talk. Having a deep understanding of the Same Origin Policy model is important especially if you are a Security Analyst or developer for secure web development.</p> <p>In this talk I will try to make it easy to understand and will keep your brains engaged so that it does not turn into a boring lecture. We will learn about Same Origin Policy with DOM, browser tabs, iframes, importance of SOP and how it is applied to web storage, images, CSS, JS, etc. I will also talk about Same Origin Policy exceptions and ways to get around Same Origin Policy with detailed explanation to postMessage API, URI fragment and CORS etc.</p> <p>Speaker Bio -<br/>Pankaj is Security Analyst at Appsecco. Pankaj is a Web Security and Cloud Security enthusiast with a strong passion for Information Security. Pankaj has extensive experience in Web Application, Network and Mobile Application security assessments. Pankaj is community manager at null \u2013The Open Security community and an active speaker and contributor at various security communities.</p> <p>Talk 2: Understanding the new NIST Security and Privacy Framework additions around RASP and IAST (Timothy Chiu)</p> <p>Join us for a discussion on the new NIST SP800-53 Application Security Framework Requirements for RASP and IAST. You'll learn about the final release of revision 5 to this version of SP800-53, which now includes RASP and IAST. The new framework was released by NIST on September 23, 2020.</p> <p>The presentation will cover: the state of application security, new additions, compliance timing requirements, overview of RASP, and overview of IAST.</p> <p>Speaker Bio:</p> <p>Timothy Chiu is the VP of Marketing for K2 Cyber Security, Inc. Prior to joining K2, Tim served as a product marketing executive for Symantec (through the acquisition of Blue Coat). At Symantec, Tim drove product launches, analyst relations and product evangelism for Symantec\u2019s web security products. Tim has an MBA from Santa Clara University, a BSEE from the University of Pennsylvania and BS from the Wharton School of Business.</p> <p>Talk 3: What's a data vault? And why do you need it? (Manish Ahluwalia)</p> <p>The complexity of hybrid data center infrastructures and the rise of<br/>compliance risk today has led to the creation of the data vault. These data vaults have been created by organizations of all sizes, from healthcare startups to digital-first financial services firms to solve the problem of governance for privacy data, such as your data of birth, your doctor\u2019s name and other PII. We will explore architectural patterns and best practices to create a privacy data vault that lets you store and easily govern sensitive data based on your needs.</p> <p>What you\u2019ll take away: what is data vault, how to adopt a data vault pattern, special considerations, and access controls.</p> <p>Speaker Bio:<br/>Manish has over 2 decades of experience in the software industry, with over 10 years in information-security. He currently works at Skyflow as Head of Customer Security and Privacy. Previously, he was running Security at NerdWallet.</p> "
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "Hacker Days: AndroGoat",
+        "date": "2021-05-07",
+        "time": "10:00",
+        "link": "https://www.meetup.com/Bay-Area-OWASP/events/277964291/",
+        "timezone": "US/Pacific",
+        "description": "<p>AndroGoat is a purposely developed open source vulnerable/insecure app using Kotlin. This app has a wide range of vulnerabilities related to certificate pinning, custom URL schemes, Android Network Security Configuration, WebViews, root detection and over 20 other vulnerabilities. Security Testers/Professionals/Enthusiasts, Developers...etc. can use this application to understand and defend the vulnerabilities in Android platform</p> <p>some of the vulnerabilities covered in the session:<br/>- Network security config.xml related vulnerabilities<br/>- Certificate pinning<br/>- Firebase related vulnerabilities<br/>- Unprotected android components</p> <p>About speaker:</p> <p>Satish is an Information Security Consultant, researcher and blogger with 9+ years of experience in various areas of information security. His areas of interest are Mobile and Cloud Security. He developed a vulnerable android application using Kotlin \u2013 AndroGoat. This is first ever vulnerable app developed using Kotlin. This will help Security Testers/Professionals/Enthusiasts, Developers...etc. to understand and defend the vulnerabilities in Android platform. He presented AndroGoat in Blackhat Europe 2020 event.</p> <p>For details about speaker - <a href=\"https://twitter.com/satish_patnayak\" class=\"linkified\">https://twitter.com/satish_patnayak</a></p> "
     },
     {
         "group": "Boston",
@@ -120,6 +160,16 @@
         "description": "<p>This needed to be rescheduled. See you next month!</p> <p>Hi everyone! We will start out with news and notes (virtually) and then talk about health and IT. Working in the tech industry often involves spending long hours sitting down, staring at a screen, consuming copious amounts of pizza and caffeine. The work is mentally demanding and can be stressful. In the rush to get everything done, it can be easy to neglect our health. But a healthy body and mind are necessary for effective performance. Based on HR training, research, and personal experience, this session provides realistic suggestions for managing your well-being at work. It covers the connection between physical and mental health, as well as how to discuss these topics with your employer. You\u2019ll leave with a better idea of how to take care of yourself and be a happier, healthier, and more productive person.</p> <p>Bio: Cassandra Faris is passionate about the human side of technology. She is the Tech Community Manager for the Rocket Technology division of Quicken Loans. Her career has focused on supporting tech professionals through training, community outreach, open source initiatives, marketing, hiring, mentoring, and employee engagement. She is an international speaker who specializes in teaching people how to communicate, be more effective team members, and advance their careers. She is President of the Stir Scholarship for women pursuing technology degrees and President Emeritus of the DogFoodCon tech conference. She has an MBA in Organizational Leadership. When she's not busy with the tech community, she is an avid tabletop gamer, corgi lover, and soccer fan who travels as much as possible.</p> "
     },
     {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly Online meeting ",
+        "date": "2021-05-10",
+        "time": "18:45",
+        "link": "https://www.meetup.com/OWASP-Jacksonville-Chapter/events/nnccjsycchbnb/",
+        "timezone": "US/Eastern",
+        "description": "<p>The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.</p> "
+    },
+    {
         "group": "Kansas City",
         "repo": "www-chapter-kansas-city",
         "name": "Open Web App Security Project - Kansas City Chapter Monthly Meeting",
@@ -128,16 +178,6 @@
         "link": "https://www.meetup.com/OWASP-Kansas-City/events/mpsfjrycchbgc/",
         "timezone": "US/Central",
         "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
-    },
-    {
-        "group": "Nashville",
-        "repo": "www-chapter-nashville",
-        "name": "Secure Coding Tournament with Secure Code Warrior",
-        "date": "2021-05-04",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/277409499/",
-        "timezone": "US/Central",
-        "description": "<p>Secure Code Warrior brings you a defensive security-based tournament from a developer's perspective. The tournament allows you to test your skill against the other participants in a series of vulnerable code challenges that ask you to identify a problem, locate insecure code, and fix a vulnerability. You don\u2019t need programming knowledge as this will be a great way to learn the foundations and intermediates of leveraging code that is not only functional but is also secure. With a variety of languages to play with: C# .NET MVC, C# .NET WebForms, C# .NET Core, GO Basic, Java EE (JSP) &amp; (JSF), Java Spring, JavaScript Node.JS (Express), Python Django, and last but not least, Pseudocode Basic for the non-coders.</p> <p>You can find tournament step-by-step guide here: <a href=\"https://www.youtube.com/watch?v=TwbySIg2z2Y\" class=\"embedded\">https://www.youtube.com/watch?v=TwbySIg2z2Y</a></p> <p>The tournament is run virtually so you can join through your laptop from the most convenient location and time. It should take only a few hours, drop-in as you see fit during the duration of the event to complete all the challenges and win prizes!</p> <p>Instructions for playing:</p> <p>1) Register for the Secure Code Warrior platform here: <a href=\"https://discover.securecodewarrior.com/OWASPNashville.html\" class=\"linkified\">https://discover.securecodewarrior.com/OWASPNashville.html</a><br/>2) Check your email for the confirmation and access the unique link to create your profile.<br/>3) Once logged in: click \"Tournaments\"<br/>4) Join the OWASP Nashville Secure Coding Tournament</p> <p>The Secure Code Warrior platform will be open before and after the tournament, so feel free to practice in the \"Training\" tab.</p> <p>Monitor the live leaderboard to see how you're performing!</p> <p>If you have any questions, please let us know!</p> "
     },
     {
         "group": "New York City",
@@ -162,12 +202,12 @@
     {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
+        "name": "Using the Threat Modeling Manifesto to Build an Enterprise Program",
         "date": "2021-05-27",
-        "time": "18:30",
+        "time": "12:00",
         "link": "https://www.meetup.com/owasptriangle/events/pqfzhsycchbkc/",
         "timezone": "US/Eastern",
-        "description": "<p>TBA</p> "
+        "description": "<p>The concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.</p> <p>Proactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them.</p> <p>A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education.</p> <p>During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.</p> "
     },
     {
         "group": "San Diego",
@@ -188,6 +228,16 @@
         "link": "https://www.meetup.com/OWASP-Bristol/events/277163169/",
         "timezone": "Europe/London",
         "description": "<p>tbc</p> "
+    },
+    {
+        "group": "Cambridge",
+        "repo": "www-chapter-cambridge",
+        "name": "ARU CSNRG, OWASP Camb & BCS Forensics \u201cThumbnail Images on Android/iOS Devices\"",
+        "date": "2021-05-13",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Cambridge-Meetup/events/277933066/",
+        "timezone": "Europe/London",
+        "description": "<p>Hosted by the Cyber Security &amp; Networking Research Group, Anglia Ruskin University, OWASP (Open Web Application Security Project) Cambridge Chapter, BCS Cybercrime Forensics SG &amp; BCS Dorset/Hampshire Branches.</p> <p>Background</p> <p>OWASP (Open Web Application Security Project is a 501(c)(3) not-for-profit worldwide charitable organization focused on improving the security of application software. Their mission is to make application security visible, so that people and organizations can make informed decisions about true application security risks.</p> <p>The Cyber Security and Networking (CSN) Research Group at Anglia Ruskin University has close working strategic relationships with industry, professional bodies, law enforcement, government agencies and academia in the delivery of operationally focused applied information and application security research. We have strong international links with professional organisations such as OWASP, BCS, ISC2, IISP &amp; the UK Cyber Security Forum amongst others. The primary aims of CSNRG are to help the UK and partner nations to tackle cybercrime, be more resilient to cyber attacks and educate its users for a more secure cyberspace and operational business environment. These will be achieved through the investigation of threats posed to information systems and understanding the impact of attacks and creation of cyber-based warning systems which gathering threat intelligence, automate threat detection, alert users and neutralising attacks. For network security we are researching securing the next generation of software defined infrastructures from the application API and control/data plane attacks. Other key work includes Computer forensic analysis, digital evidence crime scenes and evidence visualisation as well as Cyber educational approaches such as developing Capture the Flag (CTF) resources and application security programs.</p> <p>The BCS \u2013 Chartered Institute for IT - Cybercrime Forensics Special Interest Group (SG) promotes Cybercrime Forensics and the use of Cybercrime Forensics; of relevance to computing professionals, lawyers, law enforcement officers, academics and those interested in the use of Cybercrime Forensics and the need to address cybercrime for the benefit of those groups and of the wider public.</p> <p>Speaker Biographies &amp; Abstracts</p> <p>Kevin Mansell \u2013 Control F Ltd, Managing Director \u2013 \u201cThumbnail Images on Android and iOS Devices\u201d</p> <p>Bio: Kevin Mansell \u2013 Control F Ltd, Managing Director</p> <p>Kevin Mansell has been teaching mobile forensics since phones had buttons, initially as a course manager within the Centre for National High Tech Training at Wyboston and since 2007 when he founded Control-F. Control-F delivers vendor-neutral mobile forensics and computer forensics training to law enforcement agencies, private sector organisations and academic institutions in the UK and overseas.</p> <p>Prior to teaching digital forensics Kevin cut his teeth developing software within the telecoms industry unaware that the Unix commands, SQL queries and programming skills he was learning would ever be of interest to police officers.</p> <p>Abstract : \u201cThumbnail Images on Android and iOS Devices\u201d</p> <p>The recovery of thumbnail images from electronic devices is commonplace in digital forensics. We are often able to locate and recover thumbnail versions of images which existed, but have since been deleted, from a computer, mobile phone or tablet.</p> <p>In this session we will explore the possibilities of thumbnail recovery from Android devices and explain why the likelihood of such recovery has been diminished by recent versions of the operating system. We will also take time to introduce the monster which is the Photos.sqlite database on iOS and how it can shed light onto how a media file came to be present in the \"Camera Roll\" on an iOS device.</p> <p>Provisional Agenda</p> <p>18:00 - Webinar waiting lobby opens<br/>18:15 - Presentation followed by Questions and Answers<br/>19:30 - Closing, with virtual networking</p> "
     },
     {
         "group": "Cambridge",
@@ -238,16 +288,6 @@
         "link": "https://www.meetup.com/OWASP-Canberra-Chapter/events/277908236/",
         "timezone": "Australia/Canberra",
         "description": "<p>Event: Online Presentation - Cyber Skill Building with Toby Amodio CISO Australian Taxation Office<br/>Proposed Date: 18th May 2021 - 6:00 pm - 7:00 pm<br/>Link: Join Zoom Meeting <a href=\"https://zoom.us/j/97094568063\" class=\"linkified\">https://zoom.us/j/97094568063</a></p> "
-    },
-    {
-        "group": "University Of Washington",
-        "repo": "www-chapter-university-of-washington",
-        "name": "How to make 100K + in Cyber Security",
-        "date": "2021-05-25",
-        "time": "17:00",
-        "link": "https://www.meetup.com/owasp-university-of-washington-meetup-group/events/277779661/",
-        "timezone": "US/Pacific",
-        "description": "<p>Speaker: Otha Mabry, a Security professional<br/>Please register!</p> "
     },
     {
         "group": "Saitama",
