@@ -470,7 +470,7 @@
    {
       "title": "Tinfoil Security",
       "url": "https://www.tinfoilsecurity.com/",
-      "owner": "Tinfoil Security, Inc.",
+      "owner": "Synopsys",
       "license": "Commercial",
       "platforms": "SaaS or On-Premises",
       "note": "Free (Limited Capability)",
@@ -591,6 +591,24 @@
       "license": "Open Source",
       "platforms": "Linux and Mac",
       "note": "GPLv2.0",
+      "type": "DAST"
+   },
+   {
+      "title": "Beagle Security",
+      "url": "https://beaglesecurity.com/",
+      "owner": "Beagle Security",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Free (Limited Capability)",
+      "type": "DAST"
+   },
+   {
+      "title": "ScanRepeat",
+      "url": "https://scanrepeat.com/",
+      "owner": "Ventures CDX",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "",
       "type": "DAST"
    },
    {
