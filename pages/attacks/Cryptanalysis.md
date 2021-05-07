@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: Cryptanalysiss
+title: Cryptanalysis
 author: 
 contributors: 
 permalink: /attacks/Cryptanalysis
