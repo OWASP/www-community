@@ -1519,5 +1519,14 @@
       "platforms": "CLI and plugin integration",
       "note": "A SAST tool for Java, Scala, and JavaScript/TypeScript, mainly via taint analysis. Per this pricing page, it is free for Open Source projects if you contact the vendor.",
       "type": "SAST"
+   },
+   {
+      "title": "CoGuard",
+      "url": "https://www.coguard.io/",
+      "owner": "Heinle Solutions Inc.",
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": "A SAST tool for infrastructure configuration analysis. Support for common web servers, databases, streaming services, authentication services, container orchestration and Infrastructure-as-Code tools.",
+      "type": "SAST"
    }
 ]
