@@ -150,6 +150,16 @@
         "description": "<p>This needed to be rescheduled. See you next month!</p> <p>Hi everyone! We will start out with news and notes (virtually) and then talk about health and IT. Working in the tech industry often involves spending long hours sitting down, staring at a screen, consuming copious amounts of pizza and caffeine. The work is mentally demanding and can be stressful. In the rush to get everything done, it can be easy to neglect our health. But a healthy body and mind are necessary for effective performance. Based on HR training, research, and personal experience, this session provides realistic suggestions for managing your well-being at work. It covers the connection between physical and mental health, as well as how to discuss these topics with your employer. You\u2019ll leave with a better idea of how to take care of yourself and be a happier, healthier, and more productive person.</p> <p>Bio: Cassandra Faris is passionate about the human side of technology. She is the Tech Community Manager for the Rocket Technology division of Quicken Loans. Her career has focused on supporting tech professionals through training, community outreach, open source initiatives, marketing, hiring, mentoring, and employee engagement. She is an international speaker who specializes in teaching people how to communicate, be more effective team members, and advance their careers. She is President of the Stir Scholarship for women pursuing technology degrees and President Emeritus of the DogFoodCon tech conference. She has an MBA in Organizational Leadership. When she's not busy with the tech community, she is an avid tabletop gamer, corgi lover, and soccer fan who travels as much as possible.</p> "
     },
     {
+        "group": "Delaware",
+        "repo": "www-chapter-delaware",
+        "name": "CMD+CTRL Bootcamp - Half-Way-There Check-in",
+        "date": "2021-05-13",
+        "time": "18:30",
+        "link": "https://www.meetup.com/OWASP-Delaware-Chapter/events/277980539/",
+        "timezone": "US/Eastern",
+        "description": "<p>On April 29th, we kicked off a 30-day training experience with Security Innovations (<a href=\"https://www.securityinnovation.com/training/cmdctrl-bootcamp-solution/\" class=\"linkified\">https://www.securityinnovation.com/training/cmdctrl-bootcamp-solution/</a>) that was offered as complimentary to OWASP Delaware.</p> <p>May 13th marks the half-way point for the bootcamp and makes a great time to host a check-in with participants on what they've learned so far, talk about the CTF range (no spoilers, however!), and how the Bootcamp training provided by Security Innovations has been going.</p> <p>Even if you aren't a part of the bootcamp, feel free to register and stop by our Discord Server (<a href=\"https://discord.gg/HUEfbJDV7J\" class=\"linkified\">https://discord.gg/HUEfbJDV7J</a>) on the 13th to hear about what is happening on the cybersecurity scene in Delaware and socialize with the local web application security community.</p> <p>This online event is a great opportunity to network virtually, so Bring Your own Devices (BYOD) and Bring your own Beverages (BYOB).</p> "
+    },
+    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Join us (virtually) for Denver/Boulder OWASP's May Meeting!!!",
@@ -210,6 +220,16 @@
         "description": "<p>Monthly OWASP meeting</p> "
     },
     {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "OWASP Suffolk Chapter - Securing SDLC - SCA Tools",
+        "date": "2021-05-25",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/278042982/",
+        "timezone": "Europe/London",
+        "description": "<p>AGENDA:<br/>* Introduction<br/>* Securing SDLC - SCA Tools by Wojciech Cichon<br/>* Networking<br/>* Open discussion<br/>* Virtual Beer</p> <p>More details coming shortly..</p> <p>TICKETS:<br/>This event is free to attend for both members and non-members of OWASP and is open to anyone interested in application security and cyber security. Please note that you MUST RSVP to book your place and get a ticket to be admitted to the event by building security - your name will be checked against the guest list.<br/>Register to attend this event at OWASP Suffolk Chapter - Meetup - RSVP to attend</p> "
+    },
+    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "TBC",
@@ -252,12 +272,12 @@
     {
         "group": "Oakland County",
         "repo": "www-chapter-oakland-county",
-        "name": "OWASP Oakland County Meeting",
+        "name": "Building a sustainable AppSec program",
         "date": "2021-05-13",
         "time": "17:30",
         "link": "https://www.meetup.com/OWASP-Oakland-County-Chapter/events/277503002/",
         "timezone": "US/Eastern",
-        "description": "<p>Speaker and topic are TBA</p> <p>5:30PM EDT- social meetup (show up when ever)<br/>7PM EDT - Talk starts</p> "
+        "description": "<p>Speaker: Apoorva Phadke (Head of Product Security, Duo)<br/>Abstract: With the adoption of newer and faster development life cycles, traditional security programs are no longer effective. And thus, they need to evolve in order to scale and sustain. In order to be efficient, the security team needs to be enablers instead of blockers. But product security is not solely the security team's responsibility. Everyone is on the security team! This talk will introduce developer enabled application security techniques and processes to build and sustain an effective application security program.</p> <p>5:30PM EDT- social meetup (show up when ever)<br/>7PM EDT - Talk starts</p> "
     },
     {
         "group": "Harrisburg",
@@ -288,5 +308,15 @@
         "link": "https://www.meetup.com/OWASP-Aligarh-Meetup-Group/events/277499602/",
         "timezone": "Asia/Calcutta",
         "description": "<p>Security Issues in Financial World &amp; Handling First in OWASP Top 10 - Injection</p> <p>Speakers from Leading Banking Domain, Security researchers, Pen Test specialists</p> <p>Real Time demo</p> <p>OWASP Chapter Meeting</p> "
+    },
+    {
+        "group": "University Of Washington",
+        "repo": "www-chapter-university-of-washington",
+        "name": "How to make 100K + in Cyber Security",
+        "date": "2021-05-25",
+        "time": "17:00",
+        "link": "https://www.meetup.com/owasp-university-of-washington-meetup-group/events/277779661/",
+        "timezone": "US/Pacific",
+        "description": "<p>Speaker: Otha Mabry, a Security professional<br/>Please register!</p> "
     }
 ]
