@@ -2,11 +2,10 @@
 
 layout: col-sidebar
 title: Denial of Service
-author: 
-contributors: 
+author: Nsrav
+contributors: KristenS, Adar Weidman, psiinon, Adrew Smith, Jkurucar, kingthorin
 permalink: /attacks/Denial_of_Service
 tags: attack, Denial of Service
-auto-migrated: 1
 
 ---
 
@@ -69,9 +68,11 @@ performance.
 
 The following is a simple example of vulnerable code in Java:
 
-`String TotalObjects = request.getParameter(“numberofobjects”);`
-`int NumOfObjects = Integer.parseInt(TotalObjects);`
-`ComplexObject[] anArray = new ComplexObject[NumOfObjects];  // wrong!`
+```java
+String TotalObjects = request.getParameter(“numberofobjects”);
+int NumOfObjects = Integer.parseInt(TotalObjects);
+ComplexObject[] anArray = new ComplexObject[NumOfObjects];  // wrong!
+```
 
 ### DoS User Input as a Loop Counter
 
@@ -82,19 +83,21 @@ server.
 
 The following is an example of vulnerable code in Java:
 
-`public class MyServlet extends ActionServlet {`
-`   public void doPost(HttpServletRequest request, HttpServletResponse response)`
-`          throws ServletException, IOException {`
-`          . . . `
-`          String [] values = request.getParameterValues("CheckboxField");`
-`      // Process the data without length check for reasonable range – wrong!`
-`          for ( int i=0; i<values.length; i++) {`
-`                // lots of logic to process the request`
-`         }`
-`         . . . `
-`   }`
-`    . . . `
-`}`
+```java
+public class MyServlet extends ActionServlet {
+   public void doPost(HttpServletRequest request, HttpServletResponse response)
+          throws ServletException, IOException {
+          . . .
+          String [] values = request.getParameterValues("CheckboxField");
+      // Process the data without length check for reasonable range – wrong!
+          for ( int i=0; i<values.length; i++) {
+                // lots of logic to process the request
+         }
+         . . .
+   }
+    . . .
+}
+```
 
 As we can see in this simple example, the user has control over the loop
 counter. If the code inside the loop is very demanding in terms of
@@ -108,60 +111,56 @@ If an error occurs in the application that prevents the release of an
 in-use resource, it can become unavailable for further use. Possible
 examples include:
 
-  - An application locks a file for writing, and then an exception
-    occurs but does not explicitly close and unlock the file
-  - Memory leaking in languages where the developer is responsible for
-    memory management such as C & C++. In the case where an error causes
-    normal logic flow to be circumvented, the allocated memory may not
-    be removed and may be left in such a state that the garbage
-    collector does not know it should be reclaimed
-  - Use of DB connection objects where the objects are not being freed
-    if an exception is thrown. A number of such repeated requests can
-    cause the application to consume all the DB connections, as the code
-    will still hold the open DB object, never releasing the resource.
+  - An application locks a file for writing, and then an exception occurs but does not explicitly close and unlock the file
+  - Memory leaking in languages where the developer is responsible for memory management such as C & C++. In the case where an error causes normal logic flow to be circumvented, the allocated memory may not be removed and may be left in such a state that the garbage collector does not know it should be reclaimed
+  - Use of DB connection objects where the objects are not being freed if an exception is thrown. A number of such repeated requests can cause the application to consume all the DB connections, as the code will still hold the open DB object, never releasing the resource.
 
 The following is an example of vulnerable code in Java. In the example,
 both the Connection and the CallableStatement should be closed in a
 finally block.
 
-`public class AccountDAO {`
-`    … …`
-`    public void createAccount(AccountInfo acct)  `
-`                 throws AcctCreationException {`
-`       … …`
-`           try {`
-`            Connection conn = DAOFactory.getConnection();`
-`            CallableStatement  calStmt = conn.prepareCall(…);`
-`          …  … `
-`           calStmt.executeUpdate();`
-`           calStmt.close();`
-`          conn.close();`
-`       }  catch (java.sql.SQLException e) {`
-`            throw AcctCreationException (...);`
-`       }`
-`    }`
-`}`
+```
+public class AccountDAO {
+    … …
+    public void createAccount(AccountInfo acct)
+                 throws AcctCreationException {
+       … …
+           try {
+            Connection conn = DAOFactory.getConnection();
+            CallableStatement  calStmt = conn.prepareCall(…);
+          …  … 
+           calStmt.executeUpdate();
+           calStmt.close();
+          conn.close();
+       }  catch (java.sql.SQLException e) {
+            throw AcctCreationException (...);
+       }
+    }
+}
+```
 
 ### DoS Buffer Overflows
 
 Any language where the developer has direct responsibility for managing
 memory allocation, most notably C & C++, has the potential for a [Buffer
-Overflow](Buffer_Overflow "wikilink"). While the most serious risk
+Overflow](Buffer_Overflow_attack). While the most serious risk
 related to a buffer overflow is the ability to execute arbitrary code on
 the server, the first risk comes from the denial of service that can
 happen if the application crashes.
 
 The following is a simplified example of vulnerable code in C:
 
-`void overflow (char *str) {`
-`   char buffer[10];`
-`   strcpy(buffer, str); // Dangerous!`
-`}`
+```c
+void overflow (char *str) {
+   char buffer[10];
+   strcpy(buffer, str); // Dangerous!
+}
 
-`int main () {`
-`  char *str = "This is a string that is larger than the buffer of 10";`
-`  overflow(str);`
-`}`
+int main () {
+  char *str = "This is a string that is larger than the buffer of 10";
+  overflow(str);
+}
+```
 
 If this code example were executed, it would cause a segmentation fault
 and dump core. The reason is that strcpy would try to copy 53 characters
@@ -197,39 +196,10 @@ choose their own account names, to using systems such as CAPTCHA, and
 the like. Each enterprise will need to balance these risks and benefits,
 but not all of the details of those decisions are covered here.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
-
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Resource Injection](https://owasp.org/www-community/attacks/Resource_Injection)
-  - [Setting Manipulation](Setting_Manipulation "wikilink")
-  - [Regular expression Denial of Service -
-    ReDoS](Regular_expression_Denial_of_Service_-_ReDoS "wikilink")
-  - [Cash Overflow](Cash_Overflow "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
-  - [:Category: API Abuse](:Category:_API_Abuse "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [Blocking Brute Force
-    Attacks](Blocking_Brute_Force_Attacks "wikilink")
-  - [Memory Management](Memory_Management "wikilink")
+- [Resource Injection](https://owasp.org/www-community/attacks/Resource_Injection)
 
 ## References
 
-  - <http://capec.mitre.org/data/index.html> - Denial of Service through
-    Resource Depletion
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[need content](Category:FIXME "wikilink") [not a threat
-agent](Category:FIXME "wikilink") [Category:
-Spoofing](Category:_Spoofing "wikilink") [Category: Probabilistic
-Techniques](Category:_Probabilistic_Techniques "wikilink") [Category:
-Resource Depletion](Category:_Resource_Depletion "wikilink")
-[Category:Attack](Category:Attack "wikilink")
+- [Denial of Service through Resource Depletion](http://capec.mitre.org/data/index.html)
