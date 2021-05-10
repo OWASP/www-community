@@ -3,10 +3,9 @@
 layout: col-sidebar
 title: Cryptanalysis
 author: 
-contributors: 
+contributors: Rezos, KristenS, kingthorin
 permalink: /attacks/Cryptanalysis
 tags: attack, Cryptanalysis
-auto-migrated: 1
 
 ---
 
@@ -21,15 +20,10 @@ not in the cryptographic algorithm itself, but rather in how it is
 applied that makes cryptanalysis successful. An attacker may have other
 goals as well, such as:
 
-  - Total Break - Finding the secret key.
-  - Gobal Deduction - Finding a functionally equivalent algorithm for
-    encryption and decryption that does not require knowledge of the
-    secret key.
-  - Information Deduction - Gaining some information about plaintexts or
-    ciphertexts that was not previously known.
-  - Distinguishing Algorithm - The attacker has the ability to
-    distinguish the output of the encryption (ciphertext) from a random
-    permutation of bits.
+- Total Break - Finding the secret key.
+- Gobal Deduction - Finding a functionally equivalent algorithm for encryption and decryption that does not require knowledge of the secret key.
+- Information Deduction - Gaining some information about plaintexts or ciphertexts that was not previously known.
+- Distinguishing Algorithm - The attacker has the ability to distinguish the output of the encryption (ciphertext) from a random permutation of bits.
 
 The goal of the attacker performing cryptanalysis will depend on the
 specific needs of the attacker in a given attack context. In most cases,
@@ -37,10 +31,6 @@ if cryptanalysis is successful at all, an attacker will not be able to
 go past being able to deduce some information about the plaintext (goal
 3). However, that may be sufficient for an attacker, depending on the
 context.
-
-## Risk Factors
-
-TBD
 
 ## Examples
 
@@ -67,45 +57,18 @@ ciphers as they are all resilient to it (unless this is a very bad case
 of a homegrown encryption algorithm). This example is just here to
 illustrate a rudimentary example of cryptanalysis.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - [:Category:Authentication](:Category:Authentication "wikilink")
-
-## Related [Attacks](https://owasp.org/www-community/attacks/)
-
-  - [Brute force attack](Brute_force_attack "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - TBD
-
 ## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [Encryption](Encryption "wikilink")
-  - [Cryptography](Cryptography "wikilink")
-  - [Randomization](Randomization "wikilink")
 
 Use proven cryptographic algorithms with recommended key sizes.
 
 Ensure that the algorithms are used properly. That means:
 
-  - Not rolling out your own crypto; Use proven algorithms and
-    implementations.
-  - Choosing initialization vectors with sufficiently random numbers
-  - Generating key material using good sources of randomness and
-    avoiding known weak keys
-  - Using proven protocols and their implementations.
-  - Picking the most appropriate cryptographic algorithm for your usage
-    context and data\]\]
+- Not rolling out your own crypto; Use proven algorithms and implementations.
+- Choosing initialization vectors with sufficiently random numbers
+- Generating key material using good sources of randomness and avoiding known weak keys
+- Using proven protocols and their implementations.
+- Picking the most appropriate cryptographic algorithm for your usage context and data
 
 ## References
 
-  - <http://capec.mitre.org/data/definitions/97.html> - this same
-    information and much more
-  - <http://www.rsa.com/rsalabs/node.asp?id=2199> - more detailed and
-    modern description of cryptanalysis attack
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category:Probabilistic
-Techniques](Category:Probabilistic_Techniques "wikilink")
-[Category:Attack](Category:Attack "wikilink")
+- [CAPEC - Cryptanalysis](http://capec.mitre.org/data/definitions/97.html)
