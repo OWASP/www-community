@@ -1528,5 +1528,14 @@
       "platforms": "SaaS or On-Premises",
       "note": "A SAST tool for infrastructure configuration analysis. Support for common web servers, databases, streaming services, authentication services, container orchestration and Infrastructure-as-Code tools.",
       "type": "SAST"
+   },
+   {
+      "title": "IOTHREAT",
+      "url": "https://iothreat.com/",
+      "owner": "IOTHREAT",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Free (View Partial Results). Full report (PRO) - 50% discount for the OWASP community with 'OWASP50'.",
+      "type": "DAST"
    }
 ]
