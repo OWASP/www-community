@@ -140,7 +140,7 @@ expresssion. To omit this limitation the attacker should use OR
 expressions to void all expressions, which may disrupt the attack.
 
 Because of *Boolenization* the number of queries, even within a small
-XML document, may be very high (thousands, houndred of thousands and
+XML document, may be very high (thousands, hundreds of thousands and
 more). That is why this attack is not conducted manually. Knowing a few
 basic XPath functions, the attacker is able to write an application in a
 short time which will rebuild the structure of the document and will
