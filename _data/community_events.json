@@ -1,5 +1,15 @@
 [
     {
+        "group": "Morocco",
+        "repo": "www-chapter-morocco",
+        "name": "DevSecOps Detox",
+        "date": "2021-05-15",
+        "time": "20:00",
+        "link": "https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/277914913/",
+        "timezone": "Africa/Casablanca",
+        "description": "<p>DevSecOps detox</p> <p>Je suis invit\u00e9 par Waopron Thomas COULIBALY pour demistifier les concours mis en oeuvre dans une d\u00e9marche DevSecOps.</p> <p>Je vais pr\u00e9senter les axes n\u00e9cessaires pour mettre en oeuvre une d\u00e9marche de s\u00e9curit\u00e9 applicative bas\u00e9e sur DevSecOps durant deux heures le samedi 15 mai 2021 de 20h00 \u00e0 22h00.</p> <p>Plus de d\u00e9tail dans notre site www.owasp.org, Morocco Chapter.</p> <p>#devsecops #appsec #africa #morocco #owasp #cybersecurity</p> "
+    },
+    {
         "group": "Tunisia",
         "repo": "www-chapter-tunisia",
         "name": "Practical Workshop - Static Analysis Security Testing (SAST) in CI/CD",
@@ -8,16 +18,6 @@
         "link": "https://www.meetup.com/OWASP-Tunis-Meetup-Group/events/277851439/",
         "timezone": "Africa/Tunis",
         "description": "<p>Welcome to our OWASP Tunisia OPEN Live Event!</p> <p>A practical Workshop on SAST in CI/CD</p> <p>Is your Source Code secure ? How to automate security check in Devops pipeline</p> <p>We will use Jenkins and SonarQube on Docker to run a SAST scan against the source code of a web app.</p> <p>Meet our Guest and ask your questions!</p> <p>Raouf Mnif is Devops architect at Baaz. He spent 10 years developing the skills to increase velocity, reliability, and quality with a high focus on security.<br/>Good experience with AWS, Docker, Kubernetes, and ArgoCD, helping organizations instill Devops for the modern age</p> <p>Gest your ticket Now: <a href=\"https://www.eventbrite.co.uk/e/static-analysis-security-testing-sast-in-cicd-tickets-152685106263\" class=\"linkified\">https://www.eventbrite.co.uk/e/static-analysis-security-testing-sast-in-cicd-tickets-152685106263</a></p> "
-    },
-    {
-        "group": "Las Vegas",
-        "repo": "www-chapter-las-vegas",
-        "name": "Let's Catch Up! Current Updates, Trends, Certifications and Open Discussions",
-        "date": "2021-05-12",
-        "time": "17:30",
-        "link": "https://www.meetup.com/OWASP-Las-Vegas-Chapter/events/277473163/",
-        "timezone": "US/Pacific",
-        "description": "<p>Welcome Notes from the Chapter Leaders to talk about OWASP udpates, current trends and education/certification tips with Q&amp;A Sessions open for anything under the sun.</p> <p>Everyone is welcome, looking forward to meeting you all.</p> "
     },
     {
         "group": "Ottawa",
@@ -50,24 +50,14 @@
         "description": "<p>Introducci\u00f3n a SQLi</p> "
     },
     {
-        "group": "Rio De Janeiro",
-        "repo": "www-chapter-rio-de-janeiro",
-        "name": "OWASP Chapter RJ - 2\u00ba Biweekly Meeting",
-        "date": "2021-05-12",
-        "time": "19:30",
-        "link": "https://www.meetup.com/owasp-rio-de-janeiro/events/277958595/",
-        "timezone": "America/Sao_Paulo",
-        "description": "<p>Esse \u00e9 o segundo encontro do cap\u00edtulo no RJ da OWASP em 2021. Veja nossa agenda a seguir:</p> <p>1. Warm-up (10min)<br/>2. Privacy Risks e o OWASP Top 10 Privacy Risks 2.0 (25min)<br/>3. Discuss\u00e3o, cases e exemplos (20min)<br/>4. Agenda de eventos no BR (5 min)</p> <p>Confira mais sobre o cap\u00edtulo em <a href=\"https://owasp.org/www-chapter-rio-de-janeiro/\" class=\"linkified\">https://owasp.org/www-chapter-rio-de-janeiro/</a>.</p> "
-    },
-    {
         "group": "Copenhagen",
         "repo": "www-chapter-copenhagen",
-        "name": "How I hacked the largest bank in Norway using a 1-page paper form",
+        "name": "PREMIERE: How I hacked the largest bank in Norway using a 1-page paper form",
         "date": "2021-05-20",
         "time": "20:00",
         "link": "https://www.meetup.com/OWASP-Copenhagen-Chapter/events/277996588/",
         "timezone": "Europe/Copenhagen",
-        "description": "<p>TBA</p> "
+        "description": "<p>THE TALK<br/>Back in 2019-2020 banks were running a campaign saying you should never share your BankID with anyone. Never give your OTP or password to anyone. Use a \u201cpower of attorney\u201d (Danish: Fuldmagt) to give another person access to your bank account instead, to act on your behalf if needed. So Per Thorsheim got curious and started to investigate with a few friends.<br/>This is the story on how they found a way to gain access to probably any personal account at the largest bank in Norway, using a 1-page paper form from the bank itself.</p> <p>This is not a technical talk, but a talk about UX, design &amp; process flaws, and responsible disclosure.</p> <p>Could this be possible with your bank?</p> <p>BIO<br/>Per Thorsheim is the founder of PasswordsCon, the first &amp; only global conference dedicated to passwords and anything digital authentication. By day he works as a security &amp; governance manager for BankID at Vipps.no in Norway. He\u2019s been in infosec for more than 25 years, and claims to know your next password.<br/>Twitter: @thorsheim<br/>LI: <a href=\"http://linkedin.com/in/thorsheim\" class=\"linkified\">http://linkedin.com/in/thorsheim</a></p> <p>PRACTICAL AND SURPRISE<br/>The event will be a two part-event where Per Thorsheim will premier his new talk.<br/>Afterwards we've invited Stu (Twitter: @cybersecstu) from The Many Hats Club (<a href=\"https://themanyhats.club\" class=\"linkified\">https://themanyhats.club</a>) to come and talk about his podcast and the community he has built on the community\u2019s Discord server. This will be as much a discussion/AMA as a talk so you're very encouraged to pitch in.</p> <p>To make the event more interactive, we are having the event on Discord. So join the VikingSec Discord via\u00a0<a href=\"https://discord.gg/XCUja4Q\" class=\"linkified\">https://discord.gg/XCUja4Q</a>. Make sure to go to the #role-assignment and click the bee to get permissions to talk and write in the OWASP Copenhagen channels.</p> <p>If you don't want to be on Discord - no problem! Everything will be streamed to YouTube as usual! The link will be made public soon!</p> <p>We can't wait to see you!<br/>All the best<br/>The OWASP Copenhagen Team</p> "
     },
     {
         "group": "Colorado Springs",
@@ -98,26 +88,6 @@
         "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/277867382/",
         "timezone": "US/Central",
         "description": "<p>Chapter information and a presentation --</p> <p>Scale Your Security by Embracing Secure Defaults &amp; Eliminating Bug Classes</p> <p>\"We\u2019re in the middle of a significant shift in how security teams operate and prioritize their limited budget and person-time.</p> <p>Historically, as an industry, we\u2019ve focused on building tools to identify vulnerabilities. While we\u2019ve built impressive tools, these approaches have failed to address the challenges of modern engineering teams.</p> <p>Specifically, these tools often are too slow, require a prohibitive amount of security engineer time and domain expertise to tune, overwhelm users with false positives, and most importantly, do not ultimately raise a company\u2019s security bar.</p> <p>But there\u2019s another way.</p> <p>Rather than investing in finding more bugs, some modern security teams are instead focusing on providing developers with frameworks and services with secure defaults (\u201cguard rails\u201d) so that developers can build features quickly and securely. When done correctly, combining secure defaults and lightweight checks that enforce invariants (properties that must always hold), organizations can solve *classes* of vulnerabilities by construction, preventing bug whack-a-mole.</p> <p>In this talk, we\u2019ll present a practical step-by-step methodology for:<br/>Choosing what to focus your AppSec resources on<br/>How to combine secure defaults + lightweight invariant enforcement to eradicate entire vulnerability classes<br/>How to integrate continuous code scanning into your CI/CD processes in a way that\u2019s fast, high signal, and low friction for developers<br/>How to use an open source, lightweight security linting tool to find bugs and anti-patterns specific to your company\".</p> <p>Speaker:<br/>Emma Jin is a software engineer at r2c, the company that maintains Semgrep, an open-source syntax-aware code search tool. At r2c, she has added features to Semgrep, such as typed metavariables. Emma recently received her B.S. in Computer Science from Carnegie Mellon University, where she picked up her belief in code guarantees. In her free time, she likes to read, write, and relearn her abandoned childhood skills. She is perpetually working on a novel.</p> "
-    },
-    {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "Bay Area May '21 Meetup",
-        "date": "2021-05-12",
-        "time": "10:00",
-        "link": "https://www.meetup.com/Bay-Area-OWASP/events/277964247/",
-        "timezone": "US/Pacific",
-        "description": "<p>Get ready for a set of 3 new exciting talks brought by experienced speakers in the security industry!</p> <p>We'd also love to connect with you on Slack:\u2028<br/>1. Please request an invite to OWASP Slack here: <a href=\"https://owasp-slack.herokuapp.com/\" class=\"linkified\">https://owasp-slack.herokuapp.com/</a>. You should do this ahead of time to give yourself time to join.\u2028\u2028<br/>2. Join us in #bayarea\u2028\u2028</p> <p>\u2022 10:00 - Welcome\u2028<br/>\u202210:05 - 10:40 - The Tangled Web and Its Same Origin Policy (Pankaj Mouriya)<br/>\u2028\u2022 10:40 - 11:15 - Understanding the new NIST Security and Privacy Framework additions around RASP and IAST (Timothy Chiu)\u2028<br/>\u2022 11:15 - 11:50 - What's a data vault? And why do you need it? (Manish Ahluwalia)</p> <p>Talk 1: The Tangled Web and Its Same Origin Policy</p> <p>Same Origin Policy is the Fundamental Security Model of the web, it's been very long that I have been struggling around Same Origin Policy and to overcome this struggle, I did some google and went through some books, watched some boring yet fruitful videos and ended up giving this talk. Having a deep understanding of the Same Origin Policy model is important especially if you are a Security Analyst or developer for secure web development.</p> <p>In this talk I will try to make it easy to understand and will keep your brains engaged so that it does not turn into a boring lecture. We will learn about Same Origin Policy with DOM, browser tabs, iframes, importance of SOP and how it is applied to web storage, images, CSS, JS, etc. I will also talk about Same Origin Policy exceptions and ways to get around Same Origin Policy with detailed explanation to postMessage API, URI fragment and CORS etc.</p> <p>Speaker Bio -<br/>Pankaj is Security Analyst at Appsecco. Pankaj is a Web Security and Cloud Security enthusiast with a strong passion for Information Security. Pankaj has extensive experience in Web Application, Network and Mobile Application security assessments. Pankaj is community manager at null \u2013The Open Security community and an active speaker and contributor at various security communities.</p> <p>Talk 2: Understanding the new NIST Security and Privacy Framework additions around RASP and IAST (Timothy Chiu)</p> <p>Join us for a discussion on the new NIST SP800-53 Application Security Framework Requirements for RASP and IAST. You'll learn about the final release of revision 5 to this version of SP800-53, which now includes RASP and IAST. The new framework was released by NIST on September 23, 2020.</p> <p>The presentation will cover: the state of application security, new additions, compliance timing requirements, overview of RASP, and overview of IAST.</p> <p>Speaker Bio:</p> <p>Timothy Chiu is the VP of Marketing for K2 Cyber Security, Inc. Prior to joining K2, Tim served as a product marketing executive for Symantec (through the acquisition of Blue Coat). At Symantec, Tim drove product launches, analyst relations and product evangelism for Symantec\u2019s web security products. Tim has an MBA from Santa Clara University, a BSEE from the University of Pennsylvania and BS from the Wharton School of Business.</p> <p>Talk 3: What's a data vault? And why do you need it? (Manish Ahluwalia)</p> <p>The complexity of hybrid data center infrastructures and the rise of<br/>compliance risk today has led to the creation of the data vault. These data vaults have been created by organizations of all sizes, from healthcare startups to digital-first financial services firms to solve the problem of governance for privacy data, such as your data of birth, your doctor\u2019s name and other PII. We will explore architectural patterns and best practices to create a privacy data vault that lets you store and easily govern sensitive data based on your needs.</p> <p>What you\u2019ll take away: what is data vault, how to adopt a data vault pattern, special considerations, and access controls.</p> <p>Speaker Bio:<br/>Manish has over 2 decades of experience in the software industry, with over 10 years in information-security. He currently works at Skyflow as Head of Customer Security and Privacy. Previously, he was running Security at NerdWallet.</p> "
-    },
-    {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston May 2021 Meetup",
-        "date": "2021-05-12",
-        "time": "17:30",
-        "link": "https://www.meetup.com/owaspboston/events/277774099/",
-        "timezone": "US/Eastern",
-        "description": "<p>OWASP Boston's May 2021 Meetup welcomes an exciting speaker to the lineup. This month along with our normal OWASP &amp; AppSec News updates, Jim Manico will join us to talk about Request Forgery on the Web - SSRF, CSRF and Clickjacking!</p> <p>This technical talk on various forms of request forgery is meant for the software developer who needs to build secure software. Cross-Site Request Forgery, or CSRF, will allow an attacker to trick a user into submitting a transaction they never intended to submit. This attack-type requires very specialized defense. We will discuss various historical CSRF attacks and investigate a wide range of defensive strategies such as nonce tokens, SameSite cookies, and the double-cookie submit pattern. SSFF is a direct attacker category meant to trick your servers into making additional requests than never intended to. Clickjacking is a way to trick users into taking actions and entering data into one site while another is collecting those events. We will be helping developers stop forgery on the web in this talk!</p> <p>Jim Manico is the founder of Manicode Security where he trains software developers on secure coding and security engineering. He is also an investor/advisor for Nucleus Security, BitDiscovery, Secure Circle and Inspectiv. Jim is a frequent speaker on secure software practices, is a member of the Java Champion community, and is the author of \"Iron-Clad Java: Building Secure Web Applications\" from Oracle Press. Jim also volunteers for the OWASP foundation as the project lead for the OWASP Application Security Verification Standard and the OWASP Cheatsheet Series. For more information, see <a href=\"https://www.linkedin.com/in/jmanico\" class=\"linkified\">https://www.linkedin.com/in/jmanico</a>.</p> <p>We look forward to seeing all of you!</p> "
     },
     {
         "group": "Boulder",
@@ -248,16 +218,6 @@
         "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/278042982/",
         "timezone": "Europe/London",
         "description": "<p>AGENDA:<br/>* Introduction<br/>* Securing SDLC - SCA Tools by Wojciech Cichon<br/>* Networking<br/>* Open discussion<br/>* Virtual Beer</p> <p>More details coming shortly..</p> <p>TICKETS:<br/>This event is free to attend for both members and non-members of OWASP and is open to anyone interested in application security and cyber security. Please note that you MUST RSVP to book your place and get a ticket to be admitted to the event by building security - your name will be checked against the guest list.<br/>Register to attend this event at OWASP Suffolk Chapter - Meetup - RSVP to attend</p> "
-    },
-    {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "TBC",
-        "date": "2021-05-20",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Bristol/events/277163169/",
-        "timezone": "Europe/London",
-        "description": "<p>tbc</p> "
     },
     {
         "group": "Cambridge",
