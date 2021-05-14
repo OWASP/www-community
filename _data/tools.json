@@ -549,6 +549,15 @@
       "type": "DAST"
    },
    {
+      "title": "Nuclei",
+      "url": "http://nuclei.projectdiscovery.io",
+      "owner": "ProjectDiscovery",
+      "license": "Open Source",
+      "platforms": "Windows, Unix/Linux, and Macintosh",
+      "note": "Fast and customisable vulnerability scanner based on simple YAML based DSL.",
+      "type": "DAST"
+   },
+   {
       "title": "WebReaver",
       "url": "http://www.websecurify.com/desktop/webreaver.html",
       "owner": "Websecurify",
