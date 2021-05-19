@@ -190,7 +190,6 @@ Free tools of this type:
 
 Commercial tools of this type that are free for open source:
 
- 
   - Contrast Community Edition (CE) (mentioned earlier) also has both
     Known Vulnerable Component detection and Available Updates reporting
     for OSS. CE supports Java and .NET only.
