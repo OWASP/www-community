@@ -183,7 +183,7 @@ Free tools of this type:
         dependencies in your GitHub projects. Supports: Java, .NET,
         JavaScript, Ruby, and Python. Your GitHub projects are
         automatically signed up for this service.
-  - Debricked: free for open source projects and/or smaller teams.
+  - Debricked: free for open source projects or smaller teams.
      - Identifies, fixes and prevents known vulnerabilities. Read more at [https://debricked.com](https://debricked.com)
      - [Create a free account](https://app.debricked.com/en/register)
        
@@ -197,7 +197,7 @@ Commercial tools of this type that are free for open source:
      - Allows for vulnerability management and license compliance in the same tool
      - Features automated fix pull request to automatically fix vulnerabilities (currently only for javascript)
      - Features one of the most complete [vulnerability databases](https://app.debricked.com/en/vulnerability-database) 
-     - Github version: [https://github.com/apps/debricked/](https://github.com/apps/debricked/) 
+     - GitHub version: [https://github.com/apps/debricked/](https://github.com/apps/debricked/) 
   - Contrast Community Edition (CE) (mentioned earlier) also has both
     Known Vulnerable Component detection and Available Updates reporting
     for OSS. CE supports Java and .NET only.
@@ -229,8 +229,6 @@ Commercial tools of this type that are free for open source:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
       - GitHub version:
         <https://github.com/apps/whitesource-bolt-for-github>
-
-              
 
 ### Code Quality tools
 
