@@ -191,16 +191,16 @@ Free tools of this type:
 Commercial tools of this type that are free for open source:
 
  
-   - [Debricked](https://debricked.com) - over 90% true positive rate in supported languages
+  - Contrast Community Edition (CE) (mentioned earlier) also has both
+    Known Vulnerable Component detection and Available Updates reporting
+    for OSS. CE supports Java and .NET only.
+  - [Debricked](https://debricked.com) - over 90% true positive rate in supported languages
      - Identifies, fixes and prevents known vulnerabilities through automation without the need
        to give access to your source code. Read more at [https://debricked.com](https://debricked.com)
      - Allows for vulnerability management and license compliance in the same tool
      - Features automated fix pull request to automatically fix vulnerabilities (currently only for javascript)
      - Features one of the most complete [vulnerability databases](https://app.debricked.com/en/vulnerability-database) 
      - GitHub version: [https://github.com/apps/debricked/](https://github.com/apps/debricked/) 
-  - Contrast Community Edition (CE) (mentioned earlier) also has both
-    Known Vulnerable Component detection and Available Updates reporting
-    for OSS. CE supports Java and .NET only.
   - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
     Scala, Golang, .NET, PHP - Latest list here: 
     <https://support.snyk.io/hc/en-us/sections/360001087857>
