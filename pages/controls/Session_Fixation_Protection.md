@@ -14,7 +14,7 @@ permalink: /controls/Session_Fixation_Protection
 ## Overview
 
 Some platforms make it easy to protect against [Session
-Fixation](Session_fixation), while others make it a lot more
+Fixation](../attacks/Session_fixation), while others make it a lot more
 difficult. In most cases, simply discarding any existing session is
 sufficient to force the framework to issue a new sessionid cookie, with
 a new value. Unfortunately, some platforms, notably Microsoft ASP, do
