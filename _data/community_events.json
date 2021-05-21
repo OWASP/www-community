@@ -1,5 +1,15 @@
 [
     {
+        "group": "San Pedro Sula",
+        "repo": "www-chapter-san-pedro-sula",
+        "name": "Mobile App Security With MobSF",
+        "date": "2021-05-29",
+        "time": "17:00",
+        "link": "https://www.meetup.com/OWASP-San-Pedro-Sula-Chapter/events/278200396/",
+        "timezone": "America/Tegucigalpa",
+        "description": "<p>\u00a1Te invitamos a la charla totalmente gratuita donde aprender\u00e1s a como iniciar en este magn\u00edfico mundo del hacking en aplicaciones m\u00f3viles!</p> "
+    },
+    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "DevSecOps Detox - Second Session",
@@ -18,6 +28,36 @@
         "link": "https://www.meetup.com/OWASP-Bolivia-Meetup-Group/events/278176082/",
         "timezone": "America/La_Paz",
         "description": "<p>El cap\u00edtulo OWASP CHAPTER BOLIVIA, invita a todos los entusiastas, investigadores y analistas de ciberseguridad, a la segunda reuni\u00f3n para trata temas sobre lineamientos enfocados al OWASP TOP 10.</p> "
+    },
+    {
+        "group": "Panama City",
+        "repo": "www-chapter-panama-city",
+        "name": "Buffer Overflow 101",
+        "date": "2021-05-28",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Panama-City-Chapter/events/278222423/",
+        "timezone": "America/Panama",
+        "description": "<p>Evento en L\u00ednea promovido por OWASP Panama City</p> "
+    },
+    {
+        "group": "Rio De Janeiro",
+        "repo": "www-chapter-rio-de-janeiro",
+        "name": "OWASP Chapter RJ - 3\u00ba Biweekly Meeting",
+        "date": "2021-05-26",
+        "time": "19:30",
+        "link": "https://www.meetup.com/owasp-rio-de-janeiro/events/278310259/",
+        "timezone": "America/Sao_Paulo",
+        "description": "<p>Esse \u00e9 o terceiro encontro do cap\u00edtulo no RJ da OWASP em 2021. Veja nossa agenda a seguir:</p> <p>1. Warm-up (10min)<br/>2. Dados biom\u00e9tricos (25min)<br/>3. Discuss\u00e3o, cases e exemplos (20min)<br/>4. Agenda de eventos no BR (5 min)</p> <p>Confira mais sobre o cap\u00edtulo em <a href=\"https://owasp.org/www-chapter-rio-de-janeiro/\" class=\"linkified\">https://owasp.org/www-chapter-rio-de-janeiro/</a>.</p> "
+    },
+    {
+        "group": "Medellin",
+        "repo": "www-chapter-medellin",
+        "name": "Evento entre comunidades: OWASP y Security Grid",
+        "date": "2021-05-26",
+        "time": "17:30",
+        "link": "https://www.meetup.com/OWASP-Medellin-Chapter/events/278219987/",
+        "timezone": "America/Bogota",
+        "description": "<p>Este evento sera una cooperaci\u00f3n entre las dos comunidades OWASP Medellin y Security Grid Medellin.</p> <p>Registro del evento: <a href=\"https://try.fluidattacks.com/event/threat-hunting/\" class=\"linkified\">https://try.fluidattacks.com/event/threat-hunting/</a></p> "
     },
     {
         "group": "Jakarta",
@@ -52,9 +92,9 @@
     {
         "group": "Cleveland",
         "repo": "www-chapter-cleveland",
-        "name": "Zero Trust Cryptography for Healthcare and Industrial Control Systems",
+        "name": "Quantum Engineering and Zero Trust Cryptography In Healthcare & ICS",
         "date": "2021-05-28",
-        "time": "19:00",
+        "time": "18:30",
         "link": "https://www.meetup.com/owasp-cleveland-group/events/278031511/",
         "timezone": "US/Eastern",
         "description": "<p>In the first of a three part series, Princeton Brooke will review his research on Zero Trust Cryptography for Healthcare and Industrial Control Systems. Princeton will also lay foundations for taking a proactive approach to securing medical and patient data that can also be adapted to SCADA supervisory for increased security posture in ICS.</p> <p>An optional YouTube live-stream link will be provided at time of meeting for attendees who are unable to join via Zoom.</p> <p>OWASP 2021 with the Cleveland Chapter - May Meeting<br/>Please join our chapter member roster by becoming a member of OWASP today at <a href=\"https://owasp.org/membership/\" class=\"linkified\">https://owasp.org/membership/</a></p> "
@@ -110,6 +150,26 @@
         "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
     },
     {
+        "group": "Long Island",
+        "repo": "www-chapter-long-island",
+        "name": "OWASP Chapter Presentation / May - Avoiding SQL Injection",
+        "date": "2021-05-28",
+        "time": "19:00",
+        "link": "https://www.meetup.com/owaspli/events/277852783/",
+        "timezone": "US/Eastern",
+        "description": "<p>Join us for the presentation start time at 7:00 PM and after a round-table Q&amp;A on the topic.</p> <p>Topic: Learning the basics of what is SQL injection and different ways it can occur in your software. Programs from large to small leverage data storage of various types from SQL, NoSQL to in-memory or even text files. These storage areas provide for a unique challenge when it comes to security as user-entered data may be shared back across many users. Let's learn together how to identify common mistakes that allow malicious SQL injection and how to prevent it.</p> <p>Information: <a href=\"https://owasp.org/www-project-top-ten/2017/A1_2017-Injection\" class=\"linkified\">https://owasp.org/www-project-top-ten/2017/A1_2017-Injection</a></p> <p>Presenter: Richard Laine &amp; Chris Cimino</p> "
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly Virtual Meeting - MAY 26, 2021",
+        "date": "2021-05-26",
+        "time": "11:45",
+        "link": "https://www.meetup.com/OWASP-Los-Angeles/events/276807222/",
+        "timezone": "US/Pacific",
+        "description": "<p>Come join us as we hear the monthly presentation by Mark Curphey, Co-Founder and Chief Product Officer at Open Raven</p> <p>TOPIC: Finding Data and Analyzing Security in the AWS</p> <p>&gt;&gt; Note &lt;&lt; Presentation Link will be sent the day before and day of the event to all those who have RSVP'd)</p> <p>ABSTRACT: Analyzing the security of AWS to protect your valuable data turns out to be hard. With the emergence of data warehouses and data lakes and the friction-free ability to spin up near infinite compute power the scale and complexity is mind boggling. In this talk Mark will cover the lessons learned in building Open Raven and deploying tools to some of the worlds biggest cloud environments including how to navigate AWS orgs with thousands of AWS accounts, millions of assets and billions of files. He will then cover some of the gotchas of using native services like AWS lambdas that can take down entire companies and how to look for data leaks and backdoors in the infrastructure. He will then explain data-warehouses and data-lakes and why security will be the future of security and some of things to think about. Finally he will show off a free open-source tool to discover and map large scale AWS environments and how to use it along with modern data pipelines to analyze AWS against CIS benchmarks and other security controls.</p> <p>BIO: Mark Curphey is one of (the main) OWASP founders, Co-Founder and Chief Product Officer at Open Raven</p> <p>Meeting info will be emailed to you shortly prior to the event - BE SURE TO RSVP to receive the email containing the link</p> <p>Thanks to our Sponsor Hdiv Security <a href=\"https://hdivsecurity.com\" class=\"linkified\">https://hdivsecurity.com</a></p> <p>Hdiv Security delivers continuous security that natively integrates into all stages of the software lifecycle (SDLC), automating application security. Hdiv\u2019s Unified Application Security platform accurately finds security vulnerabilities and protects applications, microservices, and APIs from a broad range of attacks and exploits, including those that can be considered design flaws. Leveraging IAST, SCA and RASP technologies, Hdiv Security enables DevSecOps by incorporating application security automatically into DevOps pipelines.</p> "
+    },
+    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Threat Modeling: A Manifesto And Some Code",
@@ -160,6 +220,16 @@
         "description": "<p>Monthly OWASP meeting</p> "
     },
     {
+        "group": "Mumbai",
+        "repo": "www-chapter-mumbai",
+        "name": "OWASP Mumbai Virtual Meetup - 29th May 2021",
+        "date": "2021-05-29",
+        "time": "12:00",
+        "link": "https://www.meetup.com/OWASP-Mumbai-Chapter/events/278303331/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>Session Details:</p> <p>Introduction to OWASP Mumbai Chapter.</p> <p>Penetration Testing v/s Red Teaming by Dhiraj Datar</p> <p>Threat Hunting 101 by Arpan Raval</p> <p>General Discussion, QnA &amp; Feedback</p> "
+    },
+    {
         "group": "Suffolk",
         "repo": "www-chapter-suffolk",
         "name": "OWASP Suffolk Chapter - Securing SDLC - SCA Tools",
@@ -168,6 +238,16 @@
         "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/278042982/",
         "timezone": "Europe/London",
         "description": "<p>AGENDA:<br/>* Introduction<br/>* Securing SDLC - SCA Tools by Wojciech Cichon<br/>* Networking<br/>* Open discussion<br/>* Virtual Beer</p> <p>More details coming shortly..</p> <p>TICKETS:<br/>This event is free to attend for both members and non-members of OWASP and is open to anyone interested in application security and cyber security. Please note that you MUST RSVP to book your place and get a ticket to be admitted to the event by building security - your name will be checked against the guest list.<br/>Register to attend this event at OWASP Suffolk Chapter - Meetup - RSVP to attend</p> "
+    },
+    {
+        "group": "Newcastle Uk",
+        "repo": "www-chapter-newcastle-uk",
+        "name": "OWASP Newcastle May meetup",
+        "date": "2021-05-25",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Newcastle-Chapter/events/278074367/",
+        "timezone": "Europe/London",
+        "description": "<p>This is an online only event. The stream will start around 1900.</p> <p>Running order:</p> <p>1900 - OWASP Newcastle Welcome<br/>Talk one - B@ck 2 BaS!c5: OWASP Top 10<br/>Talk two - Adventures in Out-of-Band Exploitation</p> <p>Talk overviews:</p> <p>Our second event of 2021 (and hopefully our last only virtual one) and we\u2019re delighted to present to you two great talks.</p> <p>Talk 1</p> <p>Title: B@ck 2 BaS!c5: OWASP Top 10</p> <p>Speaker Bios:</p> <p>Sarah -<br/>Hey! I'm Sarah, a recent graduate from Bournemouth University. I studied Forensic Computing and Security and graduated last year. During my final year I was Vice President of the cyber security society, however also got stuck into the security community by attending conferences (my first one was with Sophia, and I got to watch her talk in 2018), where I ended up speaking on and winning the rookie track in 2019. From there I went on to run my first workshop at G3C, run the Bournemouth 2600 chapter and then become a content creator for Security Queens! I am now a junior security consultant at NCC.</p> <p>Sophia -<br/>Hello! I'm Sophia, also a recent graduate from Bournemouth University. I studied a BSc in Cyber Security Management and graduated at the same time as Sarah! I was President of the cyber security society, with Sarah as my trusty VP. Since my security journey started circum-2017, I've done a few bits and bobs... I've represented the UK three times at the European Cyber Security Challenge, and was appointed Team Captain in 2019. I was also on the Channel 4 TV show Hunted as a cyber hunter, and similar to Sarah have dabbled in the conference circuit delivering a few talks here and there! I've also (somehow) bagged a few awards, such as Cybersecurity Student of the Year and Highly Acclaimed Rising Star - but most importantly, I now run Security Queens with Sarah and have started my first industry job as a security consultant and penetration tester at NCC.</p> <p>Talk synopsis:</p> <p>Be it an OWASP meet, we wanted to go back to basics and run through the OWASP top 10 vulnerabilities. Since we are both new to the industry we wanted to talk about something we have currently been learning about! For this talk we have decided to explain each vulnerability and walkthrough a challenge for each one. (Please pray to the demo gods for us). Since we are still newbies we wanted to finish off our talk with some time to open up the floor to questions and or discussions, so feel free to pitch in with neat tricks, techniques or tools you might use when faced up against these vulns yourself. We hope you enjoy! The Queens.</p> <p>Talk 2</p> <p>Title: Adventures in Out-of-Band Exploitation</p> <p>Bio: Holly Grace has fourteen years of experience in leading information security teams. She holds a Master\u2019s degree in Information Security from Cardiff University. Her early career was spent in the military working in roles such as Site Security Officer, although she now works with a wide range of organisations delivering information security testing. She is the Founder and technical lead for Akimbo Core, leading both the development of the software platform as well as leading the security testing capability. She is also the Managing Director of Secarma, a cybersecurity consultancy focused on Penetration Testing.</p> <p>Synopsis: Out-of-Band exploitation is an often-overlooked method of exploiting vulnerabilities, speeding up exploitation of blind issues, and bypassing protection mechanisms. It\u2019s a useful technique for attackers to improve their exploitation capability, but there are also some key \u201cyour logs are lying to you\u201d lessons for defenders. In this talk we\u2019ll look at it as an exploitation method for web vulnerabilities, as well as give an example of where it can be used to exfiltrate data from hardened internal networks.</p> <p>You can also join our Google Group which is how we'll be sending out emails to events and is also going to be used as a forum for discussion.</p> <p><a href=\"https://groups.google.com/a/owasp.org/forum/#!forum/newcastle-chapter\" class=\"linkified\">https://groups.google.com/a/owasp.org/forum/#!forum/newcastle-chapter</a></p> "
     },
     {
         "group": "Norway",
@@ -192,22 +272,32 @@
     {
         "group": "Timisoara",
         "repo": "www-chapter-timisoara",
-        "name": "OWASP Timisoara #19 - Threat Modeling, Iterative Securit (Online)",
+        "name": "OWASP Timisoara #19 - Threat Modeling, Iterative Security (Online)",
         "date": "2021-06-17",
         "time": "18:30",
         "link": "https://www.meetup.com/OWASP-Timisoara-Chapter/events/278281346/",
         "timezone": "Europe/Bucharest",
-        "description": "<p>The next OWASP Timisoara Chapter Meeting will be online.</p> <p>&gt; Summer sessions - Theme: Threat Modeling &amp; Iterative Security</p> <p>&gt; Schedule:<br/>Introduction, OWASP News &amp; Updates - Catalin Curelaru</p> <p>Challenges and Experiences with Threat Modeling in Agile Development Projects - Monica Iovan (Visma) &amp; Daniela S. Cruzes (NTNU)</p> <p>Security through an iterative process - Dario Cavallaro (Cisco)</p> <p>Time: 18:00 to 20:00</p> <p>&gt;&gt;Abstract - Challenges and Experiences with Threat Modeling in Agile Development Projects:<br/>The goal of secure software engineering is to create software that keeps performing as intended even when exposed to attacks. Threat modeling is considered to be a key activity, but can be challenging to perform for developers, and even more so in agile software development. Hence, threat modeling has not seen widespread use in agile software projects. The goal of the presentation is to show some of these challenges and approaches that the teams are working on.</p> <p>Bio:<br/>Dr. Monica Iovan, Head of Security Development, Visma; In her free time, Monica enjoys peaceful moments in nature and the company of a good book. She is a passionate researcher having the goal of simplifying the use of security services within Agile development. She leads the security development team in Visma and conducts research on security in agile software development.<br/>Dr. Daniela S. Cruzes is a Professor at the Norwegian University of Science and Technology (NTNU). Previously, she worked as a senior research scientist at SINTEF in Norway. She has also been a researcher fellow at the University of Maryland and Fraunhofer Center for Experimental Software Engineering-Maryland. Dr. Daniela Cruzes received her PhD in experimental software engineering from the University of Campinas - UNICAMP in Brazil in 2007. Her research interests are empirical software engineering, research methods and theory development, synthesis of SE studies, software security, software testing and agile and DevOps.</p> <p>&gt;&gt;Abstract - Security through an iterative process<br/>Security through an iterative process is a collection of notes collected in 15+ years\u2019 experience. We will go through what has worked for most companies, some myths and some of the common things that are typically missing, but that everybody wants.</p> <p>Bio:</p> "
+        "description": "<p>The next OWASP Timisoara Chapter Meeting will be online.</p> <p>&gt; Summer sessions - Theme: Threat Modeling &amp; Iterative Security</p> <p>&gt; Schedule:<br/>Introduction, OWASP News &amp; Updates - Catalin Curelaru</p> <p>Challenges and Experiences with Threat Modeling in Agile Development Projects - Monica Iovan (Visma) &amp; Daniela S. Cruzes (NTNU)</p> <p>Security through an iterative process - Dario Cavallaro (Cisco)</p> <p>Time: 18:30 to 20:30</p> <p>&gt;&gt;Abstract - Challenges and Experiences with Threat Modeling in Agile Development Projects:<br/>The goal of secure software engineering is to create software that keeps performing as intended even when exposed to attacks. Threat modeling is considered to be a key activity, but can be challenging to perform for developers, and even more so in agile software development. Hence, threat modeling has not seen widespread use in agile software projects. The goal of the presentation is to show some of these challenges and approaches that the teams are working on.</p> <p>Bio:<br/>Dr. Monica Iovan, Head of Security Development, Visma; In her free time, Monica enjoys peaceful moments in nature and the company of a good book. She is a passionate researcher having the goal of simplifying the use of security services within Agile development. She leads the security development team in Visma and conducts research on security in agile software development.<br/>Dr. Daniela S. Cruzes is a Professor at the Norwegian University of Science and Technology (NTNU). Previously, she worked as a senior research scientist at SINTEF in Norway. She has also been a researcher fellow at the University of Maryland and Fraunhofer Center for Experimental Software Engineering-Maryland. Dr. Daniela Cruzes received her PhD in experimental software engineering from the University of Campinas - UNICAMP in Brazil in 2007. Her research interests are empirical software engineering, research methods and theory development, synthesis of SE studies, software security, software testing and agile and DevOps.</p> <p>&gt;&gt;Abstract - Security through an iterative process<br/>Security through an iterative process is a collection of notes collected in 15+ years\u2019 experience. We will go through what has worked for most companies, some myths and some of the common things that are typically missing, but that everybody wants.</p> <p>Bio:<br/>Dario Cavallaro has been working in IT Security for over 15 years. Passionate about Linux, Opensource and Security, he has been working in both defensive and offensive security industry. Dario has a Bachelor degree in Computer science, where he focused on Software development and Software engineering. Before that, he collaborated with several opensource projects, like Gentoo.</p> "
     },
     {
         "group": "Cork",
         "repo": "www-chapter-cork",
-        "name": "Shift Left DevSecOps Paradigm",
+        "name": "Shifting Security Left",
         "date": "2021-06-01",
         "time": "19:00",
         "link": "https://www.meetup.com/OWASP-Cork/events/277885990/",
         "timezone": "Europe/Dublin",
-        "description": "<p>**** Meeting link will be added closer to the date and accessible to those who RSVP only ****</p> <p>Talk 1: Shift Security Left<br/>Speaker: Andrew Byrne, Principal CyberSecurity Consultant, Dell Technologies.</p> <p>A modern approach to software development is to shift security left a developer first approach. This talk will focus the approach Dell Technologies have recently introduced. The talk will answer questions such as how security can be pushed left in the software development lifecycle.</p> "
+        "description": "<p>**** Meeting link will be added closer to the date and accessible to those who RSVP only ****</p> <p>Talk 1: Shift Security Left - the dev-sec-ops paradigm<br/>Speaker: Andrew Byrne, Principal CyberSecurity Consultant, Dell Technologies.</p> <p>A modern approach to software development is to shift security left a developer first approach. This talk will focus the approach Dell Technologies have recently introduced. The talk will answer questions such as how security can be pushed left in the software development lifecycle.</p> <p>Talk 2: Starting Left with Cloud Security<br/>Speaker: Stefania Chaplin<br/>Bio: Stefania Chaplin is EMEA's Solution Architect at Secure Code Warrior. Her experience within Cybersecurity, DevSecOps and OSS governance means she's helped countless organisations understand and implement security throughout their SDLC. As a python developer at heart, Stefania is always improving efficiency wherever she goes by scripting and automating processes and creating integrations. Stefania is passionate about DevSecOps and cybersecurity, having spoken at many conferences including; RSA, JavaZone in Norway, JFokus in Sweden and ESOC MENA, Women of Silicon Roundabout and Women in DevOps in London. Most recently, Stefania has been speaking at many virtual events such as ADDO, Mauritius Virtual Developers Conference, DZone, virtual meetups and on the Secure Code Warrior Brighttalk. She is also an active member of OWASP DevSlop and helps co-host their technical shows.</p> <p>Abstract:<br/>Cloud spend is projected to make up 14.2% of the total global enterprise IT spending market in 2024. With great power comes great responsibility!<br/>As the world moves to the cloud, the infrastructure we host our technologies on has become the newest low hanging fruit for hackers. Whether its misconfigured S3 buckets, IAM privileges or security groups left on 0.0.0.0/0 there are many potential pitfalls for the average cloud provisioner.<br/>The days of a hands-off security approach for cloud are over, and with the right training and tools, companies can take advantage of this process, upskill their security awareness and stand out among their peers.<br/>Delivered by Solutions Architect, Stefania Chaplin, she will demonstrate:<br/>* The growth of Cloud, with great power comes great responsibility!<br/>* Patterns, Trends &amp; Tooling in Cloud Security<br/>* (Cloud) Security is a shared responsibility<br/>* How to start left with Cloud Security, empower your users to be #cloudsecfirst!<br/>* Incorporating Cloud Security Training into the optimal security program</p> "
+    },
+    {
+        "group": "Belfast",
+        "repo": "www-chapter-belfast",
+        "name": "OWASP Belfast Top 10 Series: A1 Injections",
+        "date": "2021-05-24",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Belfast/events/278161807/",
+        "timezone": "Europe/Belfast",
+        "description": "<p>OWASP Belfast is kicking off a new series of events aimed at discussions around the OWASP Top 10. In this first meeting, we'll discuss AppSec Injections, what they are, where you can find them, and how they can be fixed.</p> <p>We're aiming for a discussion environment here, where we'll have some slides and advice to kick things off, but welcome questions and discussion from everyone around the topic. If you've got experiences, problems, or anything you want to share on AppSec Injections, you're more than welcome to join the discussion. Real-life events are always more interesting than slideware, and allow us to all learn more and share the knowledge.</p> <p>This will be a virtual event (zoom), so you'll be free to join in as much as you like. We do ask everyone to be respectful and collaborative. The organizers reserve the right to call out anyone acting the idiot - you will be kicked out.</p> "
     },
     {
         "group": "Manchester Nh",
@@ -220,6 +310,16 @@
         "description": "<p>Join the Manchester, New Hampshire OWASP Chapter for an introduction to Application Security Threat Modeling.</p> <p>A well-defined and active Threat Modeling practice is an essential element of a mature application security (AppSec) program, providing the means for understanding and documenting security requirements arising as a consequence of developing software. Despite the benefits threat modeling provides, most development teams don't know how to get started in this practice. This evening's presentation will provide high-level answers to your \"Five Ws\" questions about threat modeling, including: What is a Threat Model? Who should be involved in creating the model? What should the model contain? and, most importantly, How do I create the model?</p> <p>Speaker Bio:<br/>Dr. John DiLeo is the Auckland-area leader of the OWASP New Zealand Chapter. As a founding member of Datacom\u2019s AppSec Division, John heads up a consulting team that helps enterprises develop and mature their software assurance programs, with emphasis on governance, threat modelling and risk-based requirements, secure development practices, and security training.</p> <p>In his \u201cfree time,\u201d John does a few things in the global OWASP community - he\u2019s a co-author of the OWASP Software Assurance Maturity Model (SAMM) v2.0, Co-Leader of the OWASP Application Security Curriculum Project, and Vice-Chair of OWASP\u2019s Training and Education Committee.</p> "
     },
     {
+        "group": "Devslop",
+        "repo": "www-project-devslop",
+        "name": "Workshop: Exploring Policy as Code for Cloud Infrastructure",
+        "date": "2021-05-23",
+        "time": "10:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/277581178/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>How do you check for security requirements while you build your cloud<br/>infrastructure?</p> <p>In this workshop, we'll walk through how to use policy as code to<br/>deliver and release an immutable machine image with security in mind.</p> <p>Learn to use static analysis to check provisioning scripts for security requirements. Then, you'll construct a secure image with Packer. Finally, you'll create a test server with Terraform and dynamically analyze the server runtime for vulnerabilities.</p> <p>Bring your own machine and make sure you install the prerequisites listed at <a href=\"https://github.com/tracypholmes/policy-as-code-workshop\" class=\"linkified\">https://github.com/tracypholmes/policy-as-code-workshop</a></p> <p>OUR INSTRUCTORS: Tracy P Holmes &amp; Rosemary Wang</p> <p>Tracy P Holmes is a \"jackie of all trades\" (and mistress of being herself)! Tracy is an Open Source Engineer at VMware where she focuses on container build and distribution transparency. Prior to her time at VMware, she worked on HashiCorp\u2019s Terraform tool - as a Software Engineer and as a Developer Advocate. When she isn't speaking or levelling up her programming skills in Go or Python, she likes baking, volunteering, hanging with her pup, and reading mysteries. She is a strong believer that open source is like gardening - pay attention to your conditions, and water only when needed.</p> <p>Rosemary Wang is a developer advocate at HashiCorp. She has a fascination for solving intractable problems with code, whether it be helping an infrastructure engineer learn to code or an application developer troubleshoot infrastructure failures. Besides coding and writing, Rosemary has spoken and run workshops at Grace Hopper Celebration, O\u2019Reilly Software Architecture and Velocity, Women<br/>Who Code events, and more. For her technical and speaker portfolio, check out <a href=\"https://joatmon08.github.io/\" class=\"linkified\">https://joatmon08.github.io/</a>.</p> "
+    },
+    {
         "group": "Wia",
         "repo": "www-committee-wia",
         "name": "Kellina, Deveeshree and Veronica",
@@ -228,6 +328,16 @@
         "link": "https://www.meetup.com/womeninappsec/events/277188366/",
         "timezone": "US/Eastern",
         "description": "<p>Speaker #1)</p> <p>Kellina (@cutiekellina) will discuss how to be inclusive for the deaf community. Her presentation will cover the following topics:</p> <p>- How to communicate with the deaf community<br/>- How can we improve?<br/>- What are the resources?</p> <p>Kellina is a young entrepreneur who loves to help people with their personal growth and educate others about the deaf community.</p> <p>Speaker #2)</p> <p>Deveeshree Nayak ( <a href=\"https://www.linkedin.com/in/deveeshree\" class=\"linkified\">https://www.linkedin.com/in/deveeshree</a> ) will discuss getting started with penetration testing, introduction to open source intelligence (OSINT) and creating a diversity and inclusion cybersecurity team.</p> <p>Speaker #3)</p> <p>Veronica Schmitt (@Po1Zon_P1x13) will discuss the five philosophies to building better logs.</p> <p>This talk focusses on the five philosophies to building better logs. Logs are so much more than just for debugging, mapping system performance or error finding. They tell the tales of what has occurred in a system at any given time. When things never go right I believe one should push left. This means if we do not have logs in Application Development we can use for when a breach occurs we should build them. These philosophies focusses on five things that will help your application logs become more than just there for debugging and performance, they build in forensic readiness for future breaches, it also deals with sensitive data disclosure.</p> <p>Veronica started her forensic career in 2008. She is the Director of Incident Response within DFIRLABS. Veronica is also an Assistant Professor at Noroff University. Veronica holds a Master in Science at Rhodes University in Information Security with specialisation in the forensic analysis of malware. She prides herself in keeping patients safe as this is something which is near to her heart. She is also a cyborg sporting an embedded medical device herself. She also is a DEF CON Goon and she is the founder of DC2751.<br/>Her particular research interests include research into security vulnerabilities in medical devices forming part of the Internet of Things, and how these could be exploited by malicious attackers, as well as what types of forensic artefacts could be identified from any attacks. She is extremely passionate about protecting people whose lives depend on these medical devices, and her passion saw her becoming a researcher within an MDM. She is also developing a digital forensics and incident response approach dealing specifically with implanted medical devices and medical devices installed within a healthcare setting. At her core Veronica is a forensicator and hacker and in love with every bit, byte and nibble of knowledge she has obtained. She recently launched an OWASP project and infiltrated development teams to learn to be green. She is passionate about when things do not go right you push left.</p> "
+    },
+    {
+        "group": "Portland Me",
+        "repo": "www-chapter-portland-me",
+        "name": "OWASP Maine June 2021 Virtual Meeting",
+        "date": "2021-06-10",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Maine/events/277473594/",
+        "timezone": "US/Eastern",
+        "description": "<p>Thursday, June 10, 2021<br/>6:00 PM to 8:00 PM ET</p> <p>We're back for the first OWASP Maine meetup of 2021!</p> <p>Hacking Modern Websites with OWASP Juice Shop</p> <p>Have you ever thought about getting into web application security testing? Maybe you know a few things and you would like to sharpen your skills in testing modern single-page web applications? Well, this is the event for you.</p> <p>In this hands-on hacking workshop, Ben Allen (<a href=\"https://www.dc207.org\" class=\"linkified\">https://www.dc207.org</a>) will dig in to one of OWASP's flagship projects, Juice Shop (<a href=\"https://owasp.org/www-project-juice-shop/\" class=\"linkified\">https://owasp.org/www-project-juice-shop/</a>). Juice Shop emulates an e-commerce web application and is meant to show how modern JavaScript-based applications can be compromised.</p> <p>In this follow-along workshop we will cover:</p> <p>What OWASP Juice Shop is<br/>How to deploy your own Juice Shop on the internet for free<br/>How to set your computer up for testing<br/>How to hunt for bugs<br/>An interactive walk-through of a few challenges</p> <p>What you will need to follow along:</p> <p>A computer with Windows / MacOS / Linux installed<br/>A desire to learn about web application security testing<br/>Hope to see you there!</p> "
     },
     {
         "group": "Istanbul",
