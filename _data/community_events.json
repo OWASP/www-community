@@ -80,6 +80,16 @@
         "description": "<p>Title: Scale Your Security by Embracing Secure Defaults &amp; Eliminating Bug Classes</p> <p>Abstract:<br/>We\u2019re in the middle of a significant shift in how security teams operate and prioritize their limited budget and person-time. Historically, as an industry, we\u2019ve focused on building tools to identify vulnerabilities. While we\u2019ve built impressive tools, these approaches have failed to address the challenges of modern engineering teams. Specifically, these tools often are too slow, require a prohibitive amount of security engineer time and domain expertise to tune, overwhelm users with false positives, and most importantly, do not ultimately raise a company\u2019s security bar. But there\u2019s another way. Rather than investing in finding more bugs, some modern security teams are instead focusing on providing developers with frameworks and services with secure defaults (\u201cguard rails\u201d) so that developers can build features quickly and securely. When done correctly, combining secure defaults and lightweight checks that enforce invariants (properties that must always hold), organizations can solve *classes* of vulnerabilities by construction, preventing bug whack-a-mole. In this talk, we\u2019ll present a practical step-by-step methodology for:</p> <p>Choosing what to focus your AppSec resources on</p> <p>How to combine secure defaults + lightweight invariant enforcement to eradicate entire vulnerability classes</p> <p>How to integrate continuous code scanning into your CI/CD processes in a way that\u2019s fast, high signal, and low friction for developers</p> <p>How to use an open source, lightweight security linting tool to find bugs and anti-patterns specific to your company</p> <p>Speaker bio:</p> <p>Vasilii Ermilov is a security researcher at r2c (<a href=\"http://r2c.dev/\" class=\"linkified\">http://r2c.dev/</a>) and a bug hunter. Having a decade of experience in web application development for enterprises, governments and startups he now uses his knowledge for identifying weak and vulnerable parts in other people's code.</p> <p>Join Zoom Meeting<br/><a href=\"https://zoom.us/j/92675914315?pwd=ZVlIamMyVG9oMTNrOUFMQXhycU9Jdz09\" class=\"linkified\">https://zoom.us/j/92675914315?pwd=ZVlIamMyVG9oMTNrOUFMQXhycU9Jdz09</a></p> <p>Meeting ID: 926 7591 4315<br/>Passcode: owaspjkt21</p> "
     },
     {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "OWASP Top 10 - The one they chose will SHOCK you!",
+        "date": "2021-06-17",
+        "time": "18:00",
+        "link": "https://www.meetup.com/Brisbane-OWASP-Meetup-Group/events/278368088/",
+        "timezone": "Australia/Brisbane",
+        "description": "<p>Sean Titmarsh from CCX will speak in detail on one of the OWASP Top 10.</p> "
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - May 2021",
@@ -112,6 +122,16 @@
     {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
+        "name": "OWASP Dallas June Meeting",
+        "date": "2021-06-22",
+        "time": "12:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/277092174/",
+        "timezone": "US/Central",
+        "description": "<p>Title:</p> <p>Developing Secure Software with OWASP Tools and Guides</p> <p>Description:</p> <p>An OWASP project showcase -- showing which OWASP projects you can use in which stages / phases of your software development life cycle. The wiki is a good archive for the project information, but it is hard to find information if you don't know what you are looking for. Therefore, only a few have a broader understanding of OWASP projects (tools or guides) you can use in your software development lifecycle, even before, to create more secure software. This talk will highlight various OWASP projects taking you from CISO policies and security requirements to building and securing software and verifying the security level.</p> <p>Bio:</p> <p>Martin Knobloch, Global AppSec Strategist at Micro Focus, is a long-time information security leader with more than 15 years of experience in the field. With a background in software development and architecture, his focus is on software security. Martin is actively involved in OWASP where he is a frequent contributor to various projects and initiatives, as well as a member of the Board of Directors. During his career, Martin has been a recognized teacher, guest lecturer at various universities and invited speaker and trainer at local and international software development, testing and security conferences throughout the world.</p> "
+    },
+    {
+        "group": "Dallas",
+        "repo": "www-chapter-dallas",
         "name": "OWASP Dallas May Meeting",
         "date": "2021-05-25",
         "time": "12:00",
@@ -138,16 +158,6 @@
         "link": "https://www.meetup.com/OWASP-Jacksonville-Chapter/events/nnccjsyccjbsb/",
         "timezone": "US/Eastern",
         "description": "<p>The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.</p> "
-    },
-    {
-        "group": "Kansas City",
-        "repo": "www-chapter-kansas-city",
-        "name": "Open Web App Security Project - Kansas City Chapter Monthly Meeting",
-        "date": "2021-05-24",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Kansas-City/events/mpsfjrycchbgc/",
-        "timezone": "US/Central",
-        "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
     },
     {
         "group": "Long Island",
@@ -270,6 +280,16 @@
         "description": "<p>Welcome to another online OWASP Norway Chapter meetup. Today we will have two talks, presented by Espen Johansen from Visma and St\u00e5le Pettersen from Schibsted.</p> <p>I hope we soon will be able to meet again at Teknologihuset to enjoy a slice of pizza. But for now we will continue to host online meetups.</p> <p>See you!</p> <p>------------------------<br/>Security+Ambidexterity+Devops = FUN - Espen Johansen (Visma)</p> <p>I dette foredraget vil Espen snakke dypere om de tekniske valgene som er gjort hos Visma fra starten av DevOps transformasjonen fram til i dag. Han vil ogs\u00e5 demonstrere hvordan noen av systemene virker i praksis og gi salen mulighet til \u00e5 styre han :-) Interaktivt foredrag med store muligheter til \u00e5 f\u00e5 innsyn.</p> <p>Experience sharing and storytelling from Visma`s work with integrating security into DevOps by means of Ambidexterity as method. Practical examples on choice of leaders, board composition, spices with technical choices made along the way.</p> <p>Espen is a passionate Security DevOps-er with a flair for midlifecrisemanagement and enjoying life to it\u2019s fullest. He serves as the Director of Security in Visma but is secretly passionate about gamification, UX, Democracy and Security. He loves difficult words and like to apply their meaning in agile teams.</p> <p>------------------------<br/>Dependency Confusion - St\u00e5le Pettersen (Schibsted)</p> <p>Are you confused about the Dependency Confusion attack? We will explain the bug class that compromised Apple, Microsoft and Tesla, and how you can defend yourself against it in the different package manager systems (npm, python, Java, Ruby and more). We will go through how the Product &amp; Application Security team in Schibsted worked to mitigate this bug class in JFrog Artifactory. One part of our solution was the tool Artishock (<a href=\"https://github.com/schibsted/artishock\" class=\"linkified\">https://github.com/schibsted/artishock</a>).</p> <p>St\u00e5le Pettersen (@kozmic) is leading the Product &amp; Application Security team within Schibsted. He has 10+ years experience as a developer and a security enthusiast and is a big fan of OWASP and doesn\u2019t like to brag about himself :)</p> "
     },
     {
+        "group": "Switzerland",
+        "repo": "www-chapter-switzerland",
+        "name": "OWASP Dependency-Track (working title)",
+        "date": "2021-06-21",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASPSwitzerland/events/277624843/",
+        "timezone": "Europe/Zurich",
+        "description": "<p>OWASP Switzerland brings you another high profile talk directly from the source.</p> <p>Dependency-Track project lead Steve Springett will initiate us into the magic of Dependency-Track.</p> <p>Abstract<br/>Details will follow later.</p> <p>You can find more about Dependency-Track on their website: <a href=\"https://dependencytrack.org/\" class=\"linkified\">https://dependencytrack.org/</a></p> <p>Our speaker for this talk:<br/>- Steve Springett: Project Lead Dependency-Track.</p> "
+    },
+    {
         "group": "Timisoara",
         "repo": "www-chapter-timisoara",
         "name": "OWASP Timisoara #19 - Threat Modeling, Iterative Security (Online)",
@@ -290,34 +310,14 @@
         "description": "<p>**** Meeting link will be added closer to the date and accessible to those who RSVP only ****</p> <p>Talk 1: Shift Security Left - the dev-sec-ops paradigm<br/>Speaker: Andrew Byrne, Principal CyberSecurity Consultant, Dell Technologies.</p> <p>A modern approach to software development is to shift security left a developer first approach. This talk will focus the approach Dell Technologies have recently introduced. The talk will answer questions such as how security can be pushed left in the software development lifecycle.</p> <p>Talk 2: Starting Left with Cloud Security<br/>Speaker: Stefania Chaplin<br/>Bio: Stefania Chaplin is EMEA's Solution Architect at Secure Code Warrior. Her experience within Cybersecurity, DevSecOps and OSS governance means she's helped countless organisations understand and implement security throughout their SDLC. As a python developer at heart, Stefania is always improving efficiency wherever she goes by scripting and automating processes and creating integrations. Stefania is passionate about DevSecOps and cybersecurity, having spoken at many conferences including; RSA, JavaZone in Norway, JFokus in Sweden and ESOC MENA, Women of Silicon Roundabout and Women in DevOps in London. Most recently, Stefania has been speaking at many virtual events such as ADDO, Mauritius Virtual Developers Conference, DZone, virtual meetups and on the Secure Code Warrior Brighttalk. She is also an active member of OWASP DevSlop and helps co-host their technical shows.</p> <p>Abstract:<br/>Cloud spend is projected to make up 14.2% of the total global enterprise IT spending market in 2024. With great power comes great responsibility!<br/>As the world moves to the cloud, the infrastructure we host our technologies on has become the newest low hanging fruit for hackers. Whether its misconfigured S3 buckets, IAM privileges or security groups left on 0.0.0.0/0 there are many potential pitfalls for the average cloud provisioner.<br/>The days of a hands-off security approach for cloud are over, and with the right training and tools, companies can take advantage of this process, upskill their security awareness and stand out among their peers.<br/>Delivered by Solutions Architect, Stefania Chaplin, she will demonstrate:<br/>* The growth of Cloud, with great power comes great responsibility!<br/>* Patterns, Trends &amp; Tooling in Cloud Security<br/>* (Cloud) Security is a shared responsibility<br/>* How to start left with Cloud Security, empower your users to be #cloudsecfirst!<br/>* Incorporating Cloud Security Training into the optimal security program</p> "
     },
     {
-        "group": "Belfast",
-        "repo": "www-chapter-belfast",
-        "name": "OWASP Belfast Top 10 Series: A1 Injections",
-        "date": "2021-05-24",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Belfast/events/278161807/",
-        "timezone": "Europe/Belfast",
-        "description": "<p>OWASP Belfast is kicking off a new series of events aimed at discussions around the OWASP Top 10. In this first meeting, we'll discuss AppSec Injections, what they are, where you can find them, and how they can be fixed.</p> <p>We're aiming for a discussion environment here, where we'll have some slides and advice to kick things off, but welcome questions and discussion from everyone around the topic. If you've got experiences, problems, or anything you want to share on AppSec Injections, you're more than welcome to join the discussion. Real-life events are always more interesting than slideware, and allow us to all learn more and share the knowledge.</p> <p>This will be a virtual event (zoom), so you'll be free to join in as much as you like. We do ask everyone to be respectful and collaborative. The organizers reserve the right to call out anyone acting the idiot - you will be kicked out.</p> "
-    },
-    {
         "group": "Manchester Nh",
         "repo": "www-chapter-manchester-nh",
         "name": "The Five Ws of Threat Modeling",
-        "date": "2021-05-26",
+        "date": "2021-06-03",
         "time": "18:00",
         "link": "https://www.meetup.com/OWASP-Manchester-NH/events/278286939/",
         "timezone": "US/Eastern",
         "description": "<p>Join the Manchester, New Hampshire OWASP Chapter for an introduction to Application Security Threat Modeling.</p> <p>A well-defined and active Threat Modeling practice is an essential element of a mature application security (AppSec) program, providing the means for understanding and documenting security requirements arising as a consequence of developing software. Despite the benefits threat modeling provides, most development teams don't know how to get started in this practice. This evening's presentation will provide high-level answers to your \"Five Ws\" questions about threat modeling, including: What is a Threat Model? Who should be involved in creating the model? What should the model contain? and, most importantly, How do I create the model?</p> <p>Speaker Bio:<br/>Dr. John DiLeo is the Auckland-area leader of the OWASP New Zealand Chapter. As a founding member of Datacom\u2019s AppSec Division, John heads up a consulting team that helps enterprises develop and mature their software assurance programs, with emphasis on governance, threat modelling and risk-based requirements, secure development practices, and security training.</p> <p>In his \u201cfree time,\u201d John does a few things in the global OWASP community - he\u2019s a co-author of the OWASP Software Assurance Maturity Model (SAMM) v2.0, Co-Leader of the OWASP Application Security Curriculum Project, and Vice-Chair of OWASP\u2019s Training and Education Committee.</p> "
-    },
-    {
-        "group": "Devslop",
-        "repo": "www-project-devslop",
-        "name": "Workshop: Exploring Policy as Code for Cloud Infrastructure",
-        "date": "2021-05-23",
-        "time": "10:00",
-        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/277581178/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>How do you check for security requirements while you build your cloud<br/>infrastructure?</p> <p>In this workshop, we'll walk through how to use policy as code to<br/>deliver and release an immutable machine image with security in mind.</p> <p>Learn to use static analysis to check provisioning scripts for security requirements. Then, you'll construct a secure image with Packer. Finally, you'll create a test server with Terraform and dynamically analyze the server runtime for vulnerabilities.</p> <p>Bring your own machine and make sure you install the prerequisites listed at <a href=\"https://github.com/tracypholmes/policy-as-code-workshop\" class=\"linkified\">https://github.com/tracypholmes/policy-as-code-workshop</a></p> <p>OUR INSTRUCTORS: Tracy P Holmes &amp; Rosemary Wang</p> <p>Tracy P Holmes is a \"jackie of all trades\" (and mistress of being herself)! Tracy is an Open Source Engineer at VMware where she focuses on container build and distribution transparency. Prior to her time at VMware, she worked on HashiCorp\u2019s Terraform tool - as a Software Engineer and as a Developer Advocate. When she isn't speaking or levelling up her programming skills in Go or Python, she likes baking, volunteering, hanging with her pup, and reading mysteries. She is a strong believer that open source is like gardening - pay attention to your conditions, and water only when needed.</p> <p>Rosemary Wang is a developer advocate at HashiCorp. She has a fascination for solving intractable problems with code, whether it be helping an infrastructure engineer learn to code or an application developer troubleshoot infrastructure failures. Besides coding and writing, Rosemary has spoken and run workshops at Grace Hopper Celebration, O\u2019Reilly Software Architecture and Velocity, Women<br/>Who Code events, and more. For her technical and speaker portfolio, check out <a href=\"https://joatmon08.github.io/\" class=\"linkified\">https://joatmon08.github.io/</a>.</p> "
     },
     {
         "group": "Wia",
