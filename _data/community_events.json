@@ -10,6 +10,16 @@
         "description": "<p>\u00a1Te invitamos a la charla totalmente gratuita donde aprender\u00e1s a como iniciar en este magn\u00edfico mundo del hacking en aplicaciones m\u00f3viles!</p> "
     },
     {
+        "group": "Syracuse",
+        "repo": "www-chapter-syracuse",
+        "name": "Starting a career in Information Security",
+        "date": "2021-06-25",
+        "time": "13:00",
+        "link": "https://www.meetup.com/Syracuse-OWASP-Chapter/events/277692098/",
+        "timezone": "US/Eastern",
+        "description": "<p>Keyes Security will be hosting a panel discussion with senior members of the IT community who will share their expertise , experiences, and background. There will also be a live Q/A session following the discussion.</p> "
+    },
+    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "DevSecOps Detox - Second Session",
@@ -30,6 +40,16 @@
         "description": "<p>El cap\u00edtulo OWASP CHAPTER BOLIVIA, invita a todos los entusiastas, investigadores y analistas de ciberseguridad, a la segunda reuni\u00f3n para trata temas sobre lineamientos enfocados al OWASP TOP 10.</p> "
     },
     {
+        "group": "Brasilia",
+        "repo": "www-chapter-brasilia",
+        "name": "2\u00ba Meetup OWASP Bras\u00edlia - Palestra \"The Art of Bypass\", com Victor de Queiroz",
+        "date": "2021-05-29",
+        "time": "16:00",
+        "link": "https://www.meetup.com/OWASPBSB/events/278403966/",
+        "timezone": "America/Sao_Paulo",
+        "description": "<p>Neste grande dia, nosso convidado ministrar\u00e1 a palestra \"The Art of Bypass\". Essa palestra abordar\u00e1 as principais t\u00e9cnicas furtivas utilizadas por grandes hackers na atualidade e dar\u00e1 tamb\u00e9m diversas dicas sobre como alcan\u00e7ar grandes n\u00edveis de conhecimentos na \u00e1rea.</p> <p>A palestra acontecer\u00e1 em portugu\u00eas e, ao final, ser\u00e1 disponibilizado um um momento onde o palestrante poder\u00e1 responder perguntas sobre o incr\u00edvel tema.</p> <p>Para aqueles que se inscreverem pela plataforma do Sympla ser\u00e1 poss\u00edvel deixar uma pergunta para o convidado e tamb\u00e9m obter um certificado de participa\u00e7\u00e3o. Todas as perguntas que recebermos ser\u00e3o passadas para o palestrante antecipadamente, ent\u00e3o, caprichem no que quiserem saber.</p> <p>Link para inscris\u00e7\u00e3o: <a href=\"https://www.sympla.com.br/segundo-meetup-owasp-brasilia---palestra-the-art-of-bypass-com-victor-de-queiroz__1227877\" class=\"linkified\">https://www.sympla.com.br/segundo-meetup-owasp-brasilia---palestra-the-art-of-bypass-com-victor-de-queiroz__1227877</a></p> "
+    },
+    {
         "group": "Panama City",
         "repo": "www-chapter-panama-city",
         "name": "Buffer Overflow 101",
@@ -38,26 +58,6 @@
         "link": "https://www.meetup.com/OWASP-Panama-City-Chapter/events/278222423/",
         "timezone": "America/Panama",
         "description": "<p>Evento en L\u00ednea promovido por OWASP Panama City</p> "
-    },
-    {
-        "group": "Rio De Janeiro",
-        "repo": "www-chapter-rio-de-janeiro",
-        "name": "OWASP Chapter RJ - 3\u00ba Biweekly Meeting",
-        "date": "2021-05-26",
-        "time": "19:30",
-        "link": "https://www.meetup.com/owasp-rio-de-janeiro/events/278310259/",
-        "timezone": "America/Sao_Paulo",
-        "description": "<p>Esse \u00e9 o terceiro encontro do cap\u00edtulo no RJ da OWASP em 2021. Veja nossa agenda a seguir:</p> <p>1. Warm-up (10min)<br/>2. Dados biom\u00e9tricos (25min)<br/>3. Discuss\u00e3o, cases e exemplos (20min)<br/>4. Agenda de eventos no BR (5 min)</p> <p>Confira mais sobre o cap\u00edtulo em <a href=\"https://owasp.org/www-chapter-rio-de-janeiro/\" class=\"linkified\">https://owasp.org/www-chapter-rio-de-janeiro/</a>.</p> "
-    },
-    {
-        "group": "Medellin",
-        "repo": "www-chapter-medellin",
-        "name": "Evento entre comunidades: OWASP y Security Grid",
-        "date": "2021-05-26",
-        "time": "17:30",
-        "link": "https://www.meetup.com/OWASP-Medellin-Chapter/events/278219987/",
-        "timezone": "America/Bogota",
-        "description": "<p>Este evento sera una cooperaci\u00f3n entre las dos comunidades OWASP Medellin y Security Grid Medellin.</p> <p>Registro del evento: <a href=\"https://try.fluidattacks.com/event/threat-hunting/\" class=\"linkified\">https://try.fluidattacks.com/event/threat-hunting/</a></p> "
     },
     {
         "group": "Jakarta",
@@ -70,16 +70,6 @@
         "description": "<p>Topic : EXPLIoT - Internet of Things Security Testing and Exploitation framework</p> <p>Abtract ;<br/>A Framework for security testing and exploiting IoT products and IoT infrastructure. It provides a set of plugins (test cases) which are used to perform the assessment and can be extended easily with new ones.</p> <p>The name EXPLIoT (pronounced expl-aa-yo-tee) is a pun on the word exploit and explains the purpose of the framework i.e. IoT exploitation.</p> <p>Short Bio :<br/>Aseem Jakhar</p> <p>Aseem Jakhar is the Director, research at Payatu Software Labs <a href=\"http://payatu.com\" class=\"linkified\">http://payatu.com</a> a boutique security testing company specializing in IoT, Embedded, cloud, mobile security testing. He is the founder of null-The open security community, registered not-for-profit organization <a href=\"http://null.co.in\" class=\"linkified\">http://null.co.in</a> and also the founder of nullcon security conference <a href=\"http://nullcon.net\" class=\"linkified\">http://nullcon.net</a> and hardwear.io security conference. He has worked on various security software including UTM appliances, messaging/security appliances, anti-spam engine, anti-virus software, bayesian engine to name a few. He currently spends his time researching on IoT security and hacking things. He is an active speaker and trainer at security conferences like AusCERT, Black Hat, Brucon, Defcon, Hack.lu, Hack in Paris, Hack In The Box, PHDays and many more. He has authored various open source security software including - ExplIoT - IoT Exploitation Framework - DIVA (Damn Insecure and Vulnerable App) for Android - Jugaad/Indroid - Linux Thread injection kit for x86 and ARM - Dexfuzzer - Dex file format fuzzer</p> <p>Linkedin :<br/><a href=\"https://www.linkedin.com/in/aseemjakhar\" class=\"linkified\">https://www.linkedin.com/in/aseemjakhar</a></p> <p>Join Zoom Meeting<br/><a href=\"https://zoom.us/j/96763684021?pwd=YVN1TkcwMm50RndZOVZHV1NPYjVDZz09\" class=\"linkified\">https://zoom.us/j/96763684021?pwd=YVN1TkcwMm50RndZOVZHV1NPYjVDZz09</a></p> <p>Meeting ID: 967 6368 4021<br/>Passcode: OWASPJkt21</p> "
     },
     {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "Scale Your Security by Embracing Secure Defaults & Eliminating Bug Classes\n",
-        "date": "2021-05-29",
-        "time": "13:00",
-        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/278172874/",
-        "timezone": "Asia/Jakarta",
-        "description": "<p>Title: Scale Your Security by Embracing Secure Defaults &amp; Eliminating Bug Classes</p> <p>Abstract:<br/>We\u2019re in the middle of a significant shift in how security teams operate and prioritize their limited budget and person-time. Historically, as an industry, we\u2019ve focused on building tools to identify vulnerabilities. While we\u2019ve built impressive tools, these approaches have failed to address the challenges of modern engineering teams. Specifically, these tools often are too slow, require a prohibitive amount of security engineer time and domain expertise to tune, overwhelm users with false positives, and most importantly, do not ultimately raise a company\u2019s security bar. But there\u2019s another way. Rather than investing in finding more bugs, some modern security teams are instead focusing on providing developers with frameworks and services with secure defaults (\u201cguard rails\u201d) so that developers can build features quickly and securely. When done correctly, combining secure defaults and lightweight checks that enforce invariants (properties that must always hold), organizations can solve *classes* of vulnerabilities by construction, preventing bug whack-a-mole. In this talk, we\u2019ll present a practical step-by-step methodology for:</p> <p>Choosing what to focus your AppSec resources on</p> <p>How to combine secure defaults + lightweight invariant enforcement to eradicate entire vulnerability classes</p> <p>How to integrate continuous code scanning into your CI/CD processes in a way that\u2019s fast, high signal, and low friction for developers</p> <p>How to use an open source, lightweight security linting tool to find bugs and anti-patterns specific to your company</p> <p>Speaker bio:</p> <p>Vasilii Ermilov is a security researcher at r2c (<a href=\"http://r2c.dev/\" class=\"linkified\">http://r2c.dev/</a>) and a bug hunter. Having a decade of experience in web application development for enterprises, governments and startups he now uses his knowledge for identifying weak and vulnerable parts in other people's code.</p> <p>Join Zoom Meeting<br/><a href=\"https://zoom.us/j/92675914315?pwd=ZVlIamMyVG9oMTNrOUFMQXhycU9Jdz09\" class=\"linkified\">https://zoom.us/j/92675914315?pwd=ZVlIamMyVG9oMTNrOUFMQXhycU9Jdz09</a></p> <p>Meeting ID: 926 7591 4315<br/>Passcode: owaspjkt21</p> "
-    },
-    {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
         "name": "OWASP Top 10 - The one they chose will SHOCK you!",
@@ -88,6 +78,16 @@
         "link": "https://www.meetup.com/Brisbane-OWASP-Meetup-Group/events/278368088/",
         "timezone": "Australia/Brisbane",
         "description": "<p>Sean Titmarsh from CCX will speak in detail on one of the OWASP Top 10.</p> "
+    },
+    {
+        "group": "Cleveland",
+        "repo": "www-chapter-cleveland",
+        "name": "OWASP 2021 with Cleveland Chapter - June Meeting",
+        "date": "2021-06-25",
+        "time": "18:30",
+        "link": "https://www.meetup.com/owasp-cleveland-group/events/277983962/",
+        "timezone": "US/Eastern",
+        "description": "<p>Mike Mallory will deliver a presentation on WPA3: Evolving Wireless Protected Access. An optional YouTube live-stream will be provided at the time of this meeting for attendees who are unable to join via Zoom.</p> "
     },
     {
         "group": "Cleveland",
@@ -148,16 +148,6 @@
         "link": "https://www.meetup.com/owaspli/events/277852783/",
         "timezone": "US/Eastern",
         "description": "<p>Join us for the presentation start time at 7:00 PM and after a round-table Q&amp;A on the topic.</p> <p>Topic: Learning the basics of what is SQL injection and different ways it can occur in your software. Programs from large to small leverage data storage of various types from SQL, NoSQL to in-memory or even text files. These storage areas provide for a unique challenge when it comes to security as user-entered data may be shared back across many users. Let's learn together how to identify common mistakes that allow malicious SQL injection and how to prevent it.</p> <p>Information: <a href=\"https://owasp.org/www-project-top-ten/2017/A1_2017-Injection\" class=\"linkified\">https://owasp.org/www-project-top-ten/2017/A1_2017-Injection</a></p> <p>Presenter: Richard Laine &amp; Chris Cimino</p> "
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly Virtual Meeting - MAY 26, 2021",
-        "date": "2021-05-26",
-        "time": "11:45",
-        "link": "https://www.meetup.com/OWASP-Los-Angeles/events/276807222/",
-        "timezone": "US/Pacific",
-        "description": "<p>Come join us as we hear the monthly presentation by Mark Curphey, Co-Founder and Chief Product Officer at Open Raven</p> <p>TOPIC: Finding Data and Analyzing Security in the AWS</p> <p>&gt;&gt; Note &lt;&lt; Presentation Link will be sent the day before and day of the event to all those who have RSVP'd)</p> <p>ABSTRACT: Analyzing the security of AWS to protect your valuable data turns out to be hard. With the emergence of data warehouses and data lakes and the friction-free ability to spin up near infinite compute power the scale and complexity is mind boggling. In this talk Mark will cover the lessons learned in building Open Raven and deploying tools to some of the worlds biggest cloud environments including how to navigate AWS orgs with thousands of AWS accounts, millions of assets and billions of files. He will then cover some of the gotchas of using native services like AWS lambdas that can take down entire companies and how to look for data leaks and backdoors in the infrastructure. He will then explain data-warehouses and data-lakes and why security will be the future of security and some of things to think about. Finally he will show off a free open-source tool to discover and map large scale AWS environments and how to use it along with modern data pipelines to analyze AWS against CIS benchmarks and other security controls.</p> <p>BIO: Mark Curphey is one of (the main) OWASP founders, Co-Founder and Chief Product Officer at Open Raven</p> <p>Meeting info will be emailed to you shortly prior to the event - BE SURE TO RSVP to receive the email containing the link</p> <p>Thanks to our Sponsor Hdiv Security <a href=\"https://hdivsecurity.com\" class=\"linkified\">https://hdivsecurity.com</a></p> <p>Hdiv Security delivers continuous security that natively integrates into all stages of the software lifecycle (SDLC), automating application security. Hdiv\u2019s Unified Application Security platform accurately finds security vulnerabilities and protects applications, microservices, and APIs from a broad range of attacks and exploits, including those that can be considered design flaws. Leveraging IAST, SCA and RASP technologies, Hdiv Security enables DevSecOps by incorporating application security automatically into DevOps pipelines.</p> "
     },
     {
         "group": "Orange County",
@@ -297,7 +287,7 @@
         "time": "18:30",
         "link": "https://www.meetup.com/OWASP-Timisoara-Chapter/events/278281346/",
         "timezone": "Europe/Bucharest",
-        "description": "<p>The next OWASP Timisoara Chapter Meeting will be online.</p> <p>&gt; Summer sessions - Theme: Threat Modeling &amp; Iterative Security</p> <p>&gt; Schedule:<br/>Introduction, OWASP News &amp; Updates - Catalin Curelaru</p> <p>Challenges and Experiences with Threat Modeling in Agile Development Projects - Monica Iovan (Visma) &amp; Daniela S. Cruzes (NTNU)</p> <p>Security through an iterative process - Dario Cavallaro (Cisco)</p> <p>Time: 18:30 to 20:30</p> <p>&gt;&gt;Abstract - Challenges and Experiences with Threat Modeling in Agile Development Projects:<br/>The goal of secure software engineering is to create software that keeps performing as intended even when exposed to attacks. Threat modeling is considered to be a key activity, but can be challenging to perform for developers, and even more so in agile software development. Hence, threat modeling has not seen widespread use in agile software projects. The goal of the presentation is to show some of these challenges and approaches that the teams are working on.</p> <p>Bio:<br/>Dr. Monica Iovan, Head of Security Development, Visma; In her free time, Monica enjoys peaceful moments in nature and the company of a good book. She is a passionate researcher having the goal of simplifying the use of security services within Agile development. She leads the security development team in Visma and conducts research on security in agile software development.<br/>Dr. Daniela S. Cruzes is a Professor at the Norwegian University of Science and Technology (NTNU). Previously, she worked as a senior research scientist at SINTEF in Norway. She has also been a researcher fellow at the University of Maryland and Fraunhofer Center for Experimental Software Engineering-Maryland. Dr. Daniela Cruzes received her PhD in experimental software engineering from the University of Campinas - UNICAMP in Brazil in 2007. Her research interests are empirical software engineering, research methods and theory development, synthesis of SE studies, software security, software testing and agile and DevOps.</p> <p>&gt;&gt;Abstract - Security through an iterative process<br/>Security through an iterative process is a collection of notes collected in 15+ years\u2019 experience. We will go through what has worked for most companies, some myths and some of the common things that are typically missing, but that everybody wants.</p> <p>Bio:<br/>Dario Cavallaro has been working in IT Security for over 15 years. Passionate about Linux, Opensource and Security, he has been working in both defensive and offensive security industry. Dario has a Bachelor degree in Computer science, where he focused on Software development and Software engineering. Before that, he collaborated with several opensource projects, like Gentoo.</p> "
+        "description": "<p>The next OWASP Timisoara Chapter Meeting will be online.</p> <p>&gt; Summer sessions - Theme: Threat Modeling &amp; Iterative Security</p> <p>&gt; Schedule:<br/>Introduction, OWASP News &amp; Updates - Catalin Curelaru</p> <p>Challenges and Experiences with Threat Modeling in Agile Development Projects - Monica Iovan (Visma) &amp; Daniela S. Cruzes (NTNU)</p> <p>Security through an iterative process - Dario Cavallaro (Cisco)</p> <p>Time: 18:30 to 20:30</p> <p>&gt;&gt;Abstract - Challenges and Experiences with Threat Modeling in Agile Development Projects:<br/>The goal of secure software engineering is to create software that keeps performing as intended even when exposed to attacks. Threat modeling is considered to be a key activity, but can be challenging to perform for developers, and even more so in agile software development. Hence, threat modeling has not seen widespread use in agile software projects. The goal of the presentation is to show some of these challenges and approaches that the teams are working on.</p> <p>Bio:<br/>Dr. Monica Iovan, Head of Security Development, Visma; In her free time, Monica enjoys peaceful moments in nature and the company of a good book. She is a passionate researcher having the goal of simplifying the use of security services within Agile development. She leads the security development team in Visma and conducts research on security in agile software development.</p> <p>Dr. Daniela S. Cruzes is a Professor at the Norwegian University of Science and Technology (NTNU). Previously, she worked as a senior research scientist at SINTEF in Norway. She has also been a researcher fellow at the University of Maryland and Fraunhofer Center for Experimental Software Engineering-Maryland. Dr. Daniela Cruzes received her PhD in experimental software engineering from the University of Campinas - UNICAMP in Brazil in 2007. Her research interests are empirical software engineering, research methods and theory development, synthesis of SE studies, software security, software testing and agile and DevOps.</p> <p>&gt;&gt;Abstract - Security through an iterative process<br/>Security through an iterative process is a collection of notes collected in 15+ years\u2019 experience. We will go through what has worked for most companies, some myths and some of the common things that are typically missing, but that everybody wants.</p> <p>Bio:<br/>Dario Cavallaro has been working in IT Security for over 15 years. Passionate about Linux, Opensource and Security, he has been working in both defensive and offensive security industry. Dario has a Bachelor degree in Computer science, where he focused on Software development and Software engineering. Before that, he collaborated with several opensource projects, like Gentoo.</p> "
     },
     {
         "group": "Cork",
@@ -307,7 +297,7 @@
         "time": "19:00",
         "link": "https://www.meetup.com/OWASP-Cork/events/277885990/",
         "timezone": "Europe/Dublin",
-        "description": "<p>**** Meeting link will be added closer to the date and accessible to those who RSVP only ****</p> <p>Talk 1: Shift Security Left - the dev-sec-ops paradigm<br/>Speaker: Andrew Byrne, Principal CyberSecurity Consultant, Dell Technologies.</p> <p>A modern approach to software development is to shift security left a developer first approach. This talk will focus the approach Dell Technologies have recently introduced. The talk will answer questions such as how security can be pushed left in the software development lifecycle.</p> <p>Talk 2: Starting Left with Cloud Security<br/>Speaker: Stefania Chaplin<br/>Bio: Stefania Chaplin is EMEA's Solution Architect at Secure Code Warrior. Her experience within Cybersecurity, DevSecOps and OSS governance means she's helped countless organisations understand and implement security throughout their SDLC. As a python developer at heart, Stefania is always improving efficiency wherever she goes by scripting and automating processes and creating integrations. Stefania is passionate about DevSecOps and cybersecurity, having spoken at many conferences including; RSA, JavaZone in Norway, JFokus in Sweden and ESOC MENA, Women of Silicon Roundabout and Women in DevOps in London. Most recently, Stefania has been speaking at many virtual events such as ADDO, Mauritius Virtual Developers Conference, DZone, virtual meetups and on the Secure Code Warrior Brighttalk. She is also an active member of OWASP DevSlop and helps co-host their technical shows.</p> <p>Abstract:<br/>Cloud spend is projected to make up 14.2% of the total global enterprise IT spending market in 2024. With great power comes great responsibility!<br/>As the world moves to the cloud, the infrastructure we host our technologies on has become the newest low hanging fruit for hackers. Whether its misconfigured S3 buckets, IAM privileges or security groups left on 0.0.0.0/0 there are many potential pitfalls for the average cloud provisioner.<br/>The days of a hands-off security approach for cloud are over, and with the right training and tools, companies can take advantage of this process, upskill their security awareness and stand out among their peers.<br/>Delivered by Solutions Architect, Stefania Chaplin, she will demonstrate:<br/>* The growth of Cloud, with great power comes great responsibility!<br/>* Patterns, Trends &amp; Tooling in Cloud Security<br/>* (Cloud) Security is a shared responsibility<br/>* How to start left with Cloud Security, empower your users to be #cloudsecfirst!<br/>* Incorporating Cloud Security Training into the optimal security program</p> "
+        "description": "<p>(1) Putting the Dev in DevSecOps &amp;&amp; (2) Starting Left with Cloud Security</p> <p>**** Meeting link will be added closer to the date and accessible to those who RSVP only ****</p> <p>Talk 1: Putting the Dev in DevSecOps<br/>Speaker: Andrew Byrne, Principal CyberSecurity Consultant, Dell Technologies.</p> <p>Talk Summary:<br/>Shift Security Left and DevSecOps are two of the prominent buzz terms of recent years in the cybersecurity industry. Both have featured heavily in Dell, but what does it really mean? What is the reality of following through on the latest security hype in a large multinational? This talk will break down the journey, and address the key questions and challenges that crop up along the way, not least of all, how do they get the dev in DecSecOps?</p> <p>Speaker Bio:<br/>Andrew is a Cybersecurity Advisor for Dell Technologies, with a background in cryptography, application development and data privacy. He is a UCC graduate with a PhD in Cryptography and previously worked on McAfee\u2019s drive encryption products. In 2015, Andrew moved to EMC, working on EU funded projects in a diverse range of topics such as Post-Quantum Cryptography, privacy preserving data markets, big data platforms, and secure Cloud services. Most recently he moved to the DTST organization in Dell where he helps drive the adoption and maturity of security practices and controls, and foster a culture of security throughout its development teams.</p> <p>Talk 2: Starting Left with Cloud Security<br/>Speaker: Stefania Chaplin, EMEA Solutions Architect at Secure Code Warrior</p> <p>Talk Summary:<br/>Cloud spend is projected to make up 14.2% of the total global enterprise IT spending market in 2024. With great power comes great responsibility!<br/>As the world moves to the cloud, the infrastructure we host our technologies on has become the newest low hanging fruit for hackers. Whether its misconfigured S3 buckets, IAM privileges or security groups left on 0.0.0.0/0 there are many potential pitfalls for the average cloud provisioner.<br/>The days of a hands-off security approach for cloud are over, and with the right training and tools, companies can take advantage of this process, upskill their security awareness and stand out among their peers.<br/>Delivered by Solutions Architect, Stefania Chaplin, she will demonstrate:<br/>* The growth of Cloud, with great power comes great responsibility!<br/>* Patterns, Trends &amp; Tooling in Cloud Security<br/>* (Cloud) Security is a shared responsibility<br/>* How to start left with Cloud Security, empower your users to be #cloudsecfirst!<br/>* Incorporating Cloud Security Training into the optimal security program</p> <p>Speaker Bio:<br/>Stefania Chaplin is EMEA's Solution Architect at Secure Code Warrior. Her experience within Cybersecurity, DevSecOps and OSS governance means she's helped countless organisations understand and implement security throughout their SDLC. As a python developer at heart, Stefania is always improving efficiency wherever she goes by scripting and automating processes and creating integrations. Stefania is passionate about DevSecOps and cybersecurity, having spoken at many conferences including; RSA, JavaZone in Norway, JFokus in Sweden and ESOC MENA, Women of Silicon Roundabout and Women in DevOps in London. Most recently, Stefania has been speaking at many virtual events such as ADDO, Mauritius Virtual Developers Conference, DZone, virtual meetups and on the Secure Code Warrior Brighttalk. She is also an active member of OWASP DevSlop and helps co-host their technical shows.</p> "
     },
     {
         "group": "Manchester Nh",
@@ -338,16 +328,6 @@
         "link": "https://www.meetup.com/OWASP-Maine/events/277473594/",
         "timezone": "US/Eastern",
         "description": "<p>Thursday, June 10, 2021<br/>6:00 PM to 8:00 PM ET</p> <p>We're back for the first OWASP Maine meetup of 2021!</p> <p>Hacking Modern Websites with OWASP Juice Shop</p> <p>Have you ever thought about getting into web application security testing? Maybe you know a few things and you would like to sharpen your skills in testing modern single-page web applications? Well, this is the event for you.</p> <p>In this hands-on hacking workshop, Ben Allen (<a href=\"https://www.dc207.org\" class=\"linkified\">https://www.dc207.org</a>) will dig in to one of OWASP's flagship projects, Juice Shop (<a href=\"https://owasp.org/www-project-juice-shop/\" class=\"linkified\">https://owasp.org/www-project-juice-shop/</a>). Juice Shop emulates an e-commerce web application and is meant to show how modern JavaScript-based applications can be compromised.</p> <p>In this follow-along workshop we will cover:</p> <p>What OWASP Juice Shop is<br/>How to deploy your own Juice Shop on the internet for free<br/>How to set your computer up for testing<br/>How to hunt for bugs<br/>An interactive walk-through of a few challenges</p> <p>What you will need to follow along:</p> <p>A computer with Windows / MacOS / Linux installed<br/>A desire to learn about web application security testing<br/>Hope to see you there!</p> "
-    },
-    {
-        "group": "Istanbul",
-        "repo": "www-chapter-istanbul",
-        "name": "OWASP - Burp Suite \u0130le Brute Force Attack",
-        "date": "2021-05-26",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASPistanbul/events/278208217/",
-        "timezone": "Europe/Istanbul",
-        "description": "<p>OWASP \u0130stanbul olarak, Rumeysa Bozdemir liderli\u011finde, d\u00f6rd\u00fcnc\u00fc etkinlik tarihimizi 26.05.2021 olarak planlam\u0131\u015f bulunmaktay\u0131z.</p> <p>Etkinlikte Rumeysa Bozdemir taraf\u0131ndan, Burp Suite kullan\u0131larak Brute Force Attack ger\u00e7ekle\u015ftirme konusu anlat\u0131lacakt\u0131r.</p> <p>Etkinlik OWASP \u0130stanbul grubuna dahil olan herkesin kat\u0131l\u0131m\u0131na a\u00e7\u0131k ve \u00fccretsizdir.</p> "
     },
     {
         "group": "Aligarh",
