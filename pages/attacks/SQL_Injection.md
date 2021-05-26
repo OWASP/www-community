@@ -51,10 +51,10 @@ See the OWASP Article on [using SQL Injection to bypass a WAF](SQL_Injection_Byp
 
 ## Description
 
-SQL injection errors occur when:
+SQL injection attack occurs when:
 
-1. Data enters a program from an untrusted source.
-2. The data used to dynamically construct a SQL query
+1. An unintended data enters a program from an untrusted source.
+2. The data is used to dynamically construct a SQL query
 
 The main consequences are:
 
