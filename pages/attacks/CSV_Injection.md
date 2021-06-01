@@ -34,7 +34,10 @@ begin with any of the following characters:
 - Tab (`0x09`)
 - Carriage return (`0x0D`)
 
+Keep in mind that it is not sufficient to make sure that the untrusted user input does not start with these characters. You also need to take care of the field separator (e.g., '`,`', or '`;`'), as attackers could use this to start a new cell and then have the dangerous character in the middle of the user input, but at the beginning of a cell.
+
 Alternatively, prepend each cell field with a single quote, so that their content will be read as text by the spreadsheet editor.
+
 
 For further information, please refer to the following articles:
 
