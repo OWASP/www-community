@@ -20,16 +20,6 @@
         "description": "<p>Keyes Security will be hosting a panel discussion with senior members of the IT community who will share their expertise , experiences, and background. There will also be a live Q/A session following the discussion.</p> "
     },
     {
-        "group": "Ghana",
-        "repo": "www-chapter-ghana",
-        "name": "EXPLIoT - Internet of Things Security Testing and Exploitation framework",
-        "date": "2021-06-04",
-        "time": "12:00",
-        "link": "https://www.meetup.com/OWASP-Ghana-Chapter/events/278421553/",
-        "timezone": "Africa/Accra",
-        "description": "<p>Topic : EXPLIoT - Internet of Things Security Testing and Exploitation framework</p> <p>Abstract ;<br/>A Framework for security testing and exploiting IoT products and IoT infrastructure. It provides a set of plugins (test cases) which are used to perform the assessment and can be extended easily with new ones.</p> <p>The name EXPLIoT (pronounced expl-aa-yo-tee) is a pun on the word exploit and explains the purpose of the framework i.e. IoT exploitation.</p> <p>Short Bio :<br/>Aseem Jakhar</p> <p>Aseem Jakhar is the Director, research at Payatu Software Labs <a href=\"http://payatu.com\" class=\"linkified\">http://payatu.com</a> a boutique security testing company specialising in IoT, Embedded, cloud, mobile security testing. He is the founder of null-The open security community, registered not-for-profit organisation <a href=\"http://null.co.in\" class=\"linkified\">http://null.co.in</a> and also the founder of nullcon security conference <a href=\"http://nullcon.net\" class=\"linkified\">http://nullcon.net</a> and hardwear.io security conference. He has worked on various security software including UTM appliances, messaging/security appliances, anti-spam engine, anti-virus software, bayesian engine to name a few. He currently spends his time researching on IoT security and hacking things. He is an active speaker and trainer at security conferences like AusCERT, Black Hat, Brucon, Defcon, Hack.lu, Hack in Paris, Hack In The Box, PHDays and many more. He has authored various open source security software including - ExplIoT - IoT Exploitation Framework - DIVA (Damn Insecure and Vulnerable App) for Android - Jugaad/Indroid - Linux Thread injection kit for x86 and ARM - Dexfuzzer - Dex file format fuzzer</p> <p>Linkedin :<br/><a href=\"https://www.linkedin.com/in/aseemjakhar\" class=\"linkified\">https://www.linkedin.com/in/aseemjakhar</a></p> <p>Meeting ID: 967 6368 4021<br/>Passcode: OWASPJkt21</p> <p>Please register through MeetUp, and then click the link below on Zoom to receive the login details.</p> <p>Original event page:<br/><a href=\"https://www.meetup.com/OWASP-Jakarta-Chapter/events/278148208/\" class=\"linkified\">https://www.meetup.com/OWASP-Jakarta-Chapter/events/278148208/</a></p> "
-    },
-    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "DevSecOps Detox - Second Session",
@@ -40,6 +30,26 @@
         "description": "<p>DevSecOps detox - Second Session</p> <p>C'est la suite de la session du 15 mai 2021.</p> <p>Je vais terminer la pr\u00e9sentation des axes n\u00e9cessaires pour mettre en \u0153uvre une d\u00e9marche de s\u00e9curit\u00e9 applicative, en mettant en \u0153uvre une pipe-line DevSecOps, et vous montrer une d\u00e9mo DevSecOps.</p> <p>La conf\u00e9rence durera deux heures le samedi 19 juin 2021 de 18h00 \u00e0 20h00 heure GMT.</p> <p>Le lien est :</p> <p><a href=\"https://meet.google.com/qcy-pewf-tzq\" class=\"linkified\">https://meet.google.com/qcy-pewf-tzq</a></p> <p>Plus de d\u00e9tail dans notre site www.owasp.org, Morocco Chapter : <a href=\"https://owasp.org/www-chapter-morocco/\" class=\"linkified\">https://owasp.org/www-chapter-morocco/</a></p> <p>#devsecops #appsec #africa #morocco #owasp #cybersecurity</p> "
     },
     {
+        "group": "Toronto",
+        "repo": "www-chapter-toronto",
+        "name": "OWASP Toronto - June Event - Bringing Order to Static Analysis Security Testing",
+        "date": "2021-06-09",
+        "time": "18:30",
+        "link": "https://www.meetup.com/OWASP-Toronto/events/278590328/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>Bringing Order to Static Analysis Security Testing</p> <p>Summary:</p> <p>Software developers were always left with two hard choices, either use security tools that are not built for them, or use free/open-source tools that generate too many false positives and have poor coverage. One of the prime reasons for this dilemma is that traditionally the security workload was managed by application security teams who would find vulnerabilities and filter through false positives. Now with agile development and DevOps workflows, now there is no option for developers to opt out of secure development.</p> <p>New technology called DataLog solves that problem in a fundamentally different way, giving developers new hope. During this presentation we will go over:<br/>* how static code analysis has changed over the years<br/>* how DataLog technology solves some of the inherent problems of static code analysis such as speed, accuracy and coverage<br/>* how concepts like treating code as data, and partial evaluations are changing the game completely.</p> <p>We will also introduce a new static code analysis tool called Reshift which is built on top of open source tools and leverages DataLog technology. Reshift is changing the bad reputation that static code analysis amassed over the years and now developers can finally have it all - accuracy, speed and coverage.</p> <p>Presenter:</p> <p>Sherif Koussa</p> <p>Sherif Koussa is OWASP Ottawa Chapter Co-Leader, Software Developer, Hacker, and founder and CEO of Software Secured (<a href=\"https://www.softwaresecured.com\" class=\"linkified\">https://www.softwaresecured.com</a>) and Reshift (<a href=\"https://www.reshiftsecurity.com\" class=\"linkified\">https://www.reshiftsecurity.com</a>). In addition to contributing to OWASP Ottawa for over 14 years, Sherif contributed to WebGoat, and OWASP Cheat Sheets. Sherif also helped the SANS and GIAC organizations launch their GSSP-Java and GSSP-NET exams and contributed a few of their courses. After switching from the software development field to the security field, Sherif took on the mission of supporting developers shifting security left, and ship more secure code organically. Whether through training, penetration testing as a service or coaching development teams through shifting security, Sherif believes that any AppSec without the developer wouldn\u2019t yield the best results. Sherif\u2019s current venture, Reshift Security, is a static code analysis tool that is built for developers from the IDE, over to the code review and CI phases.</p> "
+    },
+    {
+        "group": "Natal",
+        "repo": "www-chapter-natal",
+        "name": "3\u00ba Virtual Meeting OWASP - Natal Chapter",
+        "date": "2021-06-07",
+        "time": "21:30",
+        "link": "https://www.meetup.com/OWASP-Natal-Chapter/events/278587372/",
+        "timezone": "America/Fortaleza",
+        "description": "<p>Vamos aprender com o Ulisses uma forma de entregar um verdadeiro valor no pentest por meio de um bom relat\u00f3rio!</p> "
+    },
+    {
         "group": "Singapore",
         "repo": "www-chapter-singapore",
         "name": "June 2021 Online Meetup: A hacker's mindset",
@@ -48,16 +58,6 @@
         "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/278541565/",
         "timezone": "Asia/Singapore",
         "description": "<p>A security awareness presentation, helping you to learn looking at your applications functionality from the abuse perspective.</p> <p>We write software to enable information sharing and business functionality with the best intentions. Considering usability, initiative design, availability, continuity, time-to-market and all those business driven aspects of modern software development. Unfortunately, security (secure architecture, design and secure development) are hardly considered. This is no wonder, as it is not always clear for developers or business what is meant by security. How to test for security if the context is not clear?</p> <p>To help you design and build (more) security software in the future, this talk will guide you towards understanding how a hacker works, what is a hacker's gain? This presentation will help you to look differently at your applications functionality. To see it from a hacker's perspective!</p> <p>Speaker: Martin Knobloch<br/>Martin Knobloch, Global AppSec Strategist at Micro Focus, is a long-time information security leader with more than 15 years of experience in the field. With a background in software development and architecture, his focus is on software security. Martin is actively involved in OWASP where he is a frequent contributor to various projects and initiatives, as well as a member of the Board of Directors. During his career, Martin has been a recognized teacher, guest lecturer at various universities and invited speaker and trainer at local and international software development, testing and security conferences throughout the world.</p> "
-    },
-    {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "EXPLIoT - Internet of Things Security Testing and Exploitation framework",
-        "date": "2021-06-04",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/278148208/",
-        "timezone": "Asia/Jakarta",
-        "description": "<p>Topic : EXPLIoT - Internet of Things Security Testing and Exploitation framework</p> <p>Abtract ;<br/>A Framework for security testing and exploiting IoT products and IoT infrastructure. It provides a set of plugins (test cases) which are used to perform the assessment and can be extended easily with new ones.</p> <p>The name EXPLIoT (pronounced expl-aa-yo-tee) is a pun on the word exploit and explains the purpose of the framework i.e. IoT exploitation.</p> <p>Short Bio :<br/>Aseem Jakhar</p> <p>Aseem Jakhar is the Director, research at Payatu Software Labs <a href=\"http://payatu.com\" class=\"linkified\">http://payatu.com</a> a boutique security testing company specializing in IoT, Embedded, cloud, mobile security testing. He is the founder of null-The open security community, registered not-for-profit organization <a href=\"http://null.co.in\" class=\"linkified\">http://null.co.in</a> and also the founder of nullcon security conference <a href=\"http://nullcon.net\" class=\"linkified\">http://nullcon.net</a> and hardwear.io security conference. He has worked on various security software including UTM appliances, messaging/security appliances, anti-spam engine, anti-virus software, bayesian engine to name a few. He currently spends his time researching on IoT security and hacking things. He is an active speaker and trainer at security conferences like AusCERT, Black Hat, Brucon, Defcon, Hack.lu, Hack in Paris, Hack In The Box, PHDays and many more. He has authored various open source security software including - ExplIoT - IoT Exploitation Framework - DIVA (Damn Insecure and Vulnerable App) for Android - Jugaad/Indroid - Linux Thread injection kit for x86 and ARM - Dexfuzzer - Dex file format fuzzer</p> <p>Linkedin :<br/><a href=\"https://www.linkedin.com/in/aseemjakhar\" class=\"linkified\">https://www.linkedin.com/in/aseemjakhar</a></p> <p>Join Zoom Meeting<br/><a href=\"https://zoom.us/j/96763684021?pwd=YVN1TkcwMm50RndZOVZHV1NPYjVDZz09\" class=\"linkified\">https://zoom.us/j/96763684021?pwd=YVN1TkcwMm50RndZOVZHV1NPYjVDZz09</a></p> <p>Meeting ID: 967 6368 4021<br/>Passcode: OWASPJkt21</p> "
     },
     {
         "group": "South Florida",
@@ -150,6 +150,16 @@
         "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
     },
     {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly Virtual Meeting - JUN 23, 2021",
+        "date": "2021-06-23",
+        "time": "11:45",
+        "link": "https://www.meetup.com/OWASP-Los-Angeles/events/277894230/",
+        "timezone": "US/Pacific",
+        "description": "<p>Come join us as we hear the monthly presentation by Daniel Blazquez from Hdiv Security</p> <p>TOPIC: Practical DevSecOps - An easy recipe</p> <p>&gt;&gt; NOTE &lt;&lt; Presentation Link will be sent the day before and day of the event to all those who have RSVP'd)</p> <p>ABSTRACT: Despite broad industry adoption and its potential significant benefits, security practitioners are becoming increasingly cynical about DevSecOps, mostly due to its abstract nature and lack of specificity. This talk aims to provide actionable advice on how to add Sec to DevOps, as a combination of developer education, free OWASP resources, and security automation.</p> <p>BIO: Daniel Blazquez leads the technical marketing and developer advocacy practice at Hdiv Security, a VC-funded application security company focused on detection and protection from security bugs in apps, APIs, and microservices. As an ex-Java programmer and recovering corporate strategy professional, Daniel brings a holistic view to the software development industry: from code development thinking to product management, all the way to organic and inorganic growth strategy experience. His education includes Computer Science master's and undergrad, and an MBA at UCLA Anderson.</p> <p>Meeting info will be emailed to you shortly prior to the event - BE SURE TO RSVP to receive the email containing the link</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
+    },
+    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Hacking Modern Web apps with RCE and Prototype Pollution",
@@ -190,6 +200,16 @@
         "description": "<p>TBA</p> "
     },
     {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "June 2021 Chapter Meeting (in person)",
+        "date": "2021-06-23",
+        "time": "11:30",
+        "link": "https://www.meetup.com/owasp-slc/events/278601176/",
+        "timezone": "US/Mountain",
+        "description": "<p>This month's meetup is IN PERSON!!</p> <p>Pizza at the Park (LOCATION: Murray Park - Pavilion #4: <a href=\"https://goo.gl/maps/8yA81MPmybRnGsMi6\" class=\"linkified\">https://goo.gl/maps/8yA81MPmybRnGsMi6</a>)</p> <p>We will still attempt to support VIRTUAL attendance (zoom link below)</p> <p>Join Wasatch AppSec Slack: (<a href=\"https://join.slack.com/t/wasatchappsec/shared_invite/zt-nw4d0iq9-bBMKHrFITzJMMsDye6FNYg\" class=\"linkified\">https://join.slack.com/t/wasatchappsec/shared_invite/zt-nw4d0iq9-bBMKHrFITzJMMsDye6FNYg</a>) to suggest any additional topics.</p> <p>AGENDA:<br/>- Round Table:<br/>* Test Cases<br/>* Career Paths<br/>* Presenter for August meetup; no meetup in July</p> <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br/>Leaders Zoom Account Two is inviting you to a scheduled Zoom meeting.</p> <p>Topic: OWASP SLC May 2021 Chapter Meeting<br/>Time: May 27, 2021 12:00 PM Mountain Time (US and Canada)</p> <p>Join Zoom Meeting<br/><a href=\"https://zoom.us/j/92529129834?pwd=RVNETnpnMkpkMGxReWZzdExQUTRtUT09\" class=\"linkified\">https://zoom.us/j/92529129834?pwd=RVNETnpnMkpkMGxReWZzdExQUTRtUT09</a></p> <p>Meeting ID: 925 2912 9834<br/>Passcode: 422075<br/>One tap mobile<br/>+12532158782,,92529129834#,,,,*422075# US (Tacoma)<br/>+13462487799,,92529129834#,,,,*422075# US (Houston)</p> <p>Dial by your location<br/>+1 253 215 8782 US (Tacoma)<br/>+1 346 248 7799 US (Houston)<br/>+1 669 900 6833 US (San Jose)<br/>+1 301 715 8592 US (Washington DC)<br/>+1 312 626 6799 US (Chicago)<br/>+1 929 436 2866 US (New York)<br/>Meeting ID: 925 2912 9834<br/>Passcode: 422075<br/>Find your local number: <a href=\"https://zoom.us/u/adjXbBDTCP\" class=\"linkified\">https://zoom.us/u/adjXbBDTCP</a></p> "
+    },
+    {
         "group": "San Diego",
         "repo": "www-chapter-san-diego",
         "name": "Hacking a Treat Tossing Dog Camera",
@@ -218,16 +238,6 @@
         "link": "https://www.meetup.com/Chennai-OWASP-Meetup-Group/events/278426555/",
         "timezone": "Asia/Calcutta",
         "description": "<p>Securing containerized application and orchestration platforms from external threats increases the complexity and quicker deployments. In this talk we will look into Docker ad Kubernetes, key components of the cloud-native infrastructure stack, providing in-depth analysis of the attack surface, misconfigurations, attack patterns, and hardening steps.</p> <p>Form Link: <a href=\"https://forms.gle/bC53DokmPRTFWbnw9\" class=\"linkified\">https://forms.gle/bC53DokmPRTFWbnw9</a></p> "
-    },
-    {
-        "group": "Riyadh",
-        "repo": "www-chapter-riyadh",
-        "name": "OWASP Riyadh - 5th June 2021 - Challenges and Opportunities in TLS1.3 Monitoring",
-        "date": "2021-06-05",
-        "time": "19:00",
-        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/278341572/",
-        "timezone": "Asia/Riyadh",
-        "description": "<p>Talk Title:<br/>The Challenges and Opportunities in TLS1.3 Monitoring</p> <p>Talk Details:<br/>Ensuring users' privacy while protecting your network is becoming a hard tasks with the adoption of new features in TLS1.3 such as the encrypted TLS server name indication (ESNI) in addition to other protocols such as the encrypted DNS such as DNS over HTTPS (DoH). TLS 1.3 is a great development in the secure transmission of data. But there\u2019s a few security challenges that we need to be ready for. In this talk, I will present the current threat landscape and possible mitigation to some of the known malicious usages of the new privacy features implemented in TLS1.3. We will discuss the impact of TLS 1.3 on Network-based security solutions used by enterprises and public sector given that the several changes introduced in TLS 1.3 have a good goal to improve the overall security and privacy provided. However, some of these changes have a negative impact on network-based security solutions</p> <p>Speaker:<br/>Khalid Alsuwaiyel is a Senior Incident Response Consultant in IBM X-Force IR team. He is responsible for the successful execution of incident response and proactive services to the X-Force IR customers in EMEA and globally. He has more than 6 years of professional experience, most of which are on the Digital Forensics team of the Saudi National Cyber Security Center. Khalid worked as a DFIR team leader for key critical National Infrastructures for more than 3 years. He holds the SANS GIAC Defending Advanced Threats (GDAT), GIAC Certified Incident Handler (GCIH) and Certified Threat Hunting Professional certifications along with others. He is a fierce forensicator who understands how the adversary thinks and what they might do. He is a known speaker on the topic of DFIR /Security, spoke in conferences such as RSA Abu Dhabi and the International Cyber Security Conference in Riyadh.</p> "
     },
     {
         "group": "Suffolk",
@@ -300,16 +310,6 @@
         "description": "<p>The next OWASP Timisoara Chapter Meeting will be online.</p> <p>&gt; Summer sessions - Theme: Threat Modeling &amp; Iterative Security</p> <p>&gt; Schedule:<br/>Introduction, OWASP News &amp; Updates - Catalin Curelaru</p> <p>Challenges and Experiences with Threat Modeling in Agile Development Projects - Monica Iovan (Visma) &amp; Daniela S. Cruzes (NTNU)</p> <p>Security through an iterative process - Dario Cavallaro (Cisco)</p> <p>Time: 18:30 to 20:30</p> <p>&gt;&gt;Abstract - Challenges and Experiences with Threat Modeling in Agile Development Projects:<br/>The goal of secure software engineering is to create software that keeps performing as intended even when exposed to attacks. Threat modeling is considered to be a key activity, but can be challenging to perform for developers, and even more so in agile software development. Hence, threat modeling has not seen widespread use in agile software projects. The goal of the presentation is to show some of these challenges and approaches that the teams are working on.</p> <p>Bio:<br/>Dr. Monica Iovan, Head of Security Development, Visma; In her free time, Monica enjoys peaceful moments in nature and the company of a good book. She is a passionate researcher having the goal of simplifying the use of security services within Agile development. She leads the security development team in Visma and conducts research on security in agile software development.</p> <p>Dr. Daniela S. Cruzes is a Professor at the Norwegian University of Science and Technology (NTNU). Previously, she worked as a senior research scientist at SINTEF in Norway. She has also been a researcher fellow at the University of Maryland and Fraunhofer Center for Experimental Software Engineering-Maryland. Dr. Daniela Cruzes received her PhD in experimental software engineering from the University of Campinas - UNICAMP in Brazil in 2007. Her research interests are empirical software engineering, research methods and theory development, synthesis of SE studies, software security, software testing and agile and DevOps.</p> <p>&gt;&gt;Abstract - Security through an iterative process<br/>Security through an iterative process is a collection of notes collected in 15+ years\u2019 experience. We will go through what has worked for most companies, some myths and some of the common things that are typically missing, but that everybody wants.</p> <p>Bio:<br/>Dario Cavallaro has been working in IT Security for over 15 years. Passionate about Linux, Opensource and Security, he has been working in both defensive and offensive security industry. Dario has a Bachelor degree in Computer science, where he focused on Software development and Software engineering. Before that, he collaborated with several opensource projects, like Gentoo.</p> "
     },
     {
-        "group": "Manchester Nh",
-        "repo": "www-chapter-manchester-nh",
-        "name": "The Five Ws of Threat Modeling",
-        "date": "2021-06-03",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Manchester-NH/events/278286939/",
-        "timezone": "US/Eastern",
-        "description": "<p>Join the Manchester, New Hampshire OWASP Chapter for an introduction to Application Security Threat Modeling.</p> <p>A well-defined and active Threat Modeling practice is an essential element of a mature application security (AppSec) program, providing the means for understanding and documenting security requirements arising as a consequence of developing software. Despite the benefits threat modeling provides, most development teams don't know how to get started in this practice. This evening's presentation will provide high-level answers to your \"Five Ws\" questions about threat modeling, including: What is a Threat Model? Who should be involved in creating the model? What should the model contain? and, most importantly, How do I create the model?</p> <p>Speaker Bio:<br/>Dr. John DiLeo is the Auckland-area leader of the OWASP New Zealand Chapter. As a founding member of Datacom\u2019s AppSec Division, John heads up a consulting team that helps enterprises develop and mature their software assurance programs, with emphasis on governance, threat modelling and risk-based requirements, secure development practices, and security training.</p> <p>In his \u201cfree time,\u201d John does a few things in the global OWASP community - he\u2019s a co-author of the OWASP Software Assurance Maturity Model (SAMM) v2.0, Co-Leader of the OWASP Application Security Curriculum Project, and Vice-Chair of OWASP\u2019s Training and Education Committee.</p> "
-    },
-    {
         "group": "Devslop",
         "repo": "www-project-devslop",
         "name": "How to Analyze Code for Vulnerabilities with Vickie Li",
@@ -317,7 +317,7 @@
         "time": "10:00",
         "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/278403880/",
         "timezone": "Canada/Eastern",
-        "description": "<p>Writing code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes.</p> <p>As developers, we can safeguard our applications by catching these mistakes in our own code. Performing a source code review is one of the best ways to find security issues in code.</p> <p>But how do you do it?</p> <p>In this talk, Vickie will go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.</p> <p>VICKIE LI<br/>Vickie Li is the resident developer evangelist at ShiftLeft. She is an experienced web developer with an avid interest in security research. She can be found on <a href=\"https://vickieli.dev\" class=\"linkified\">https://vickieli.dev</a>, where she blogs about security news, techniques, and her latest bug bounty findings. She also hosts \u201cSecurity Simplified\u201d, a developer education series focusing on web security: <a href=\"https://www.youtube.com/c/vickielidev\" class=\"embedded\">https://www.youtube.com/c/vickielidev</a>. You can also find her on Twitter @vickieli7.</p> "
+        "description": "<p>Writing code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes.</p> <p>As developers, we can safeguard our applications by catching these mistakes in our own code. Performing a source code review is one of the best ways to find security issues in code.</p> <p>But how do you do it?</p> <p>On this show, Vickie will go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.</p> <p>VICKIE LI<br/>Vickie Li is the resident developer evangelist at ShiftLeft. She is an experienced web developer with an avid interest in security research. She can be found on <a href=\"https://vickieli.dev\" class=\"linkified\">https://vickieli.dev</a>, where she blogs about security news, techniques, and her latest bug bounty findings. She also hosts \u201cSecurity Simplified\u201d, a developer education series focusing on web security: <a href=\"https://www.youtube.com/c/vickielidev\" class=\"embedded\">https://www.youtube.com/c/vickielidev</a>. You can also find her on Twitter @vickieli7.</p> "
     },
     {
         "group": "Devslop",
@@ -390,13 +390,13 @@
         "description": "<p>The foundations of networking: switches, routers, and wireless access points. Switches, routers, and wireless access points are the essential networking basics. Through them, devices connected to your network can communicate with one another and with other networks, like the Internet.</p> "
     },
     {
-        "group": "Moncton",
-        "repo": "www-chapter-moncton",
-        "name": "Social Evening - OWASP Moncton",
-        "date": "2021-06-03",
-        "time": "19:00",
-        "link": "https://www.meetup.com/moncton-owasp-meetup-group/events/278468381/",
-        "timezone": "Canada/Atlantic",
-        "description": "<p>This is the first of our Monthly informal, social gatherings. No agenda, no topics, just a meetup of cybersecurity minded individuals.</p> "
+        "group": "University Of Washington",
+        "repo": "www-chapter-university-of-washington",
+        "name": "Intro to OSINT Resources and Best Practices ",
+        "date": "2021-06-29",
+        "time": "17:00",
+        "link": "https://www.meetup.com/owasp-university-of-washington-meetup-group/events/278626054/",
+        "timezone": "US/Pacific",
+        "description": "<p>Deep Dive into Open-source intelligence!</p> "
     }
 ]
