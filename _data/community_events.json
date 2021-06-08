@@ -10,6 +10,16 @@
         "description": "<p>19             .        .</p> <p>: OWASP Seoul Chapter  <br/>: 2021 6 17 07:00  </p> <p>Zoom  <br/><a href=\"https://zoom.us/j/91457235212?pwd=YlFHTkhjY0lpTE1sRkxzRXdrQWtWUT09\" class=\"linkified\">https://zoom.us/j/91457235212?pwd=YlFHTkhjY0lpTE1sRkxzRXdrQWtWUT09</a></p> <p> ID: 914 5723 5212<br/>: owasp@2021</p> "
     },
     {
+        "group": "San Pedro Sula",
+        "repo": "www-chapter-san-pedro-sula",
+        "name": "Buenas pr\u00e1cticas de seguridad en AWS",
+        "date": "2021-06-19",
+        "time": "17:00",
+        "link": "https://www.meetup.com/OWASP-San-Pedro-Sula-Chapter/events/278654145/",
+        "timezone": "America/Tegucigalpa",
+        "description": "<p>\u00bfQuieres conocer sobre las buenas pr\u00e1cticas de seguridad en AWS?<br/>En esta ocasi\u00f3n el Ing. Ivan C\u00e1rcamo nos hablar\u00e1 sobre las buenas pr\u00e1cticas de seguridad en Amazon Web Services.</p> "
+    },
+    {
         "group": "Syracuse",
         "repo": "www-chapter-syracuse",
         "name": "Starting a career in Information Security",
@@ -40,14 +50,24 @@
         "description": "<p>Bringing Order to Static Analysis Security Testing</p> <p>Summary:</p> <p>Software developers were always left with two hard choices, either use security tools that are not built for them, or use free/open-source tools that generate too many false positives and have poor coverage. One of the prime reasons for this dilemma is that traditionally the security workload was managed by application security teams who would find vulnerabilities and filter through false positives. Now with agile development and DevOps workflows, now there is no option for developers to opt out of secure development.</p> <p>New technology called DataLog solves that problem in a fundamentally different way, giving developers new hope. During this presentation we will go over:<br/>* how static code analysis has changed over the years<br/>* how DataLog technology solves some of the inherent problems of static code analysis such as speed, accuracy and coverage<br/>* how concepts like treating code as data, and partial evaluations are changing the game completely.</p> <p>We will also introduce a new static code analysis tool called Reshift which is built on top of open source tools and leverages DataLog technology. Reshift is changing the bad reputation that static code analysis amassed over the years and now developers can finally have it all - accuracy, speed and coverage.</p> <p>Presenter:</p> <p>Sherif Koussa</p> <p>Sherif Koussa is OWASP Ottawa Chapter Co-Leader, Software Developer, Hacker, and founder and CEO of Software Secured (<a href=\"https://www.softwaresecured.com\" class=\"linkified\">https://www.softwaresecured.com</a>) and Reshift (<a href=\"https://www.reshiftsecurity.com\" class=\"linkified\">https://www.reshiftsecurity.com</a>). In addition to contributing to OWASP Ottawa for over 14 years, Sherif contributed to WebGoat, and OWASP Cheat Sheets. Sherif also helped the SANS and GIAC organizations launch their GSSP-Java and GSSP-NET exams and contributed a few of their courses. After switching from the software development field to the security field, Sherif took on the mission of supporting developers shifting security left, and ship more secure code organically. Whether through training, penetration testing as a service or coaching development teams through shifting security, Sherif believes that any AppSec without the developer wouldn\u2019t yield the best results. Sherif\u2019s current venture, Reshift Security, is a static code analysis tool that is built for developers from the IDE, over to the code review and CI phases.</p> "
     },
     {
-        "group": "Natal",
-        "repo": "www-chapter-natal",
-        "name": "3\u00ba Virtual Meeting OWASP - Natal Chapter",
-        "date": "2021-06-07",
-        "time": "21:30",
-        "link": "https://www.meetup.com/OWASP-Natal-Chapter/events/278587372/",
-        "timezone": "America/Fortaleza",
-        "description": "<p>Vamos aprender com o Ulisses uma forma de entregar um verdadeiro valor no pentest por meio de um bom relat\u00f3rio!</p> "
+        "group": "Rio De Janeiro",
+        "repo": "www-chapter-rio-de-janeiro",
+        "name": "OWASP Chapter RJ - 4\u00ba Biweekly Meeting",
+        "date": "2021-06-09",
+        "time": "19:30",
+        "link": "https://www.meetup.com/owasp-rio-de-janeiro/events/278641492/",
+        "timezone": "America/Sao_Paulo",
+        "description": "<p>Esse \u00e9 o quarto encontro do cap\u00edtulo no RJ da OWASP em 2021. Veja nossa agenda a seguir:</p> <p>1. Warm-up (10min)<br/>2. OWASP DSOMM (25min)<br/>3. Discuss\u00e3o, cases e exemplos (20min)<br/>4. Agenda de eventos no BR (5 min)</p> <p>Confira mais sobre o cap\u00edtulo em <a href=\"https://owasp.org/www-chapter-rio-de-janeiro/\" class=\"linkified\">https://owasp.org/www-chapter-rio-de-janeiro/</a>.</p> "
+    },
+    {
+        "group": "Singapore",
+        "repo": "www-chapter-singapore",
+        "name": "July 2021 Online Meetup: API Security and the OWASP API Security Top 10",
+        "date": "2021-07-07",
+        "time": "19:30",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/278590609/",
+        "timezone": "Asia/Singapore",
+        "description": "<p>Today\u2019s software-driven world is built on APIs, which are increasingly becoming the heartbeat of every modern mobile, B2B, IoT, and web application. APIs enable developers to write data-driven and flexible applications that all end-users and organizations require and desire. However, while APIs have clear and obvious benefits, they also create a rapidly-growing attack surface that isn\u2019t widely understood and sometimes completely overlooked by developers. Recent reports suggest that by 2022, API abuses will be the most responsible vector for data breaches within enterprise web applications. Therefore, securing them is a top challenge and must be a top priority. In this talk, we will highlight the security risks presented by the naive use of APIs and why an increased level of awareness is required to mitigate the risks. Next, we will dive into the top 10 API security risks presented in the OWASP API Top 10 list. From API-specific issues like broken object-level authorization and excessive data exposure to more familiar issues like injection risks. The list rounds up the most critical API threats while also providing explanations and example attack scenarios</p> <p>Speaker: Erez Yalon<br/>Erez Yalon, Head of Security Research, oversees Checkmarx\u2019s research team comprising analysts, pen-testers, secure developers, and bug bounty hunters. He brings vast experience to his position, and his efforts empower today\u2019s developers and organizations to deliver more secure software, applications, and devices. Erez is the co-founder of the DEF CON AppSec Village and co-led the development of the OWASP API Security Top 10 list. Over the years, Erez has been invited to speak at prominent events, including RSA Conference, Infosecurity Europe, Black Hat, and DEF CON, while also being featured in news outlets such as Fortune, Forbes, WIRED, TechCrunch, and Dark Reading.</p> <p>Twitter: @ErezYalon<br/>LinkedIn: <a href=\"https://www.linkedin.com/in/erezyalon/\" class=\"linkified\">https://www.linkedin.com/in/erezyalon/</a></p> "
     },
     {
         "group": "Singapore",
@@ -88,6 +108,16 @@
         "link": "https://www.meetup.com/OWASP-New-Zealand-Chapter-Christchurch/events/277289990/",
         "timezone": "Pacific/Auckland",
         "description": "<p>Agenda:</p> <p>* Chat &amp; drink with mates<br/>* Community Topics<br/>Recent &amp; Upcoming events<br/>* Talk by Chris and Kim on Incident Response and Application Intrusion Detection</p> "
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - June 2021",
+        "date": "2021-06-29",
+        "time": "11:45",
+        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/278667094/",
+        "timezone": "US/Central",
+        "description": "<p>Chapter information and a presentation --</p> <p>\"An alternative approach to security that will make you reassess everything you think you know about security, users, and you life.\"</p> <p>Your security ideas are stupid - so I got some weird ideas and forced them to fit a narrative that shows that if we just do a Steve Jobs and \"think differently\" then maybe, just maybe, we can make a small dent in the security universe.</p> <p>As Abba once said, \"Take a chance on me\" because let's be honest, what's the worst that could happen? We could keep trying to do the same things and over the next 5 years the OWASP top 10 will look EXACTLY the same as it always has.</p> <p>Or we could try some of my radical ideas and the OWASP top 10 will look exactly the same.</p> <p>Or - bear with me - my radical ideas will change the world as we know it and future developers will laugh as to why the OWASP top 10 was even a thing back in the year 2021.</p> <p>In this talk, I shall convince you that<br/>- Psychology IS technology, and we need to understand people better<br/>- Logical thinking is a bad idea<br/>- Why maths makes us appear clever, but act dumber</p> <p>Speaker:<br/>Javvad Malik is a security awareness advocate for EMEA at KnowBe4. A security professional of 20 years, Malik has began his career as an IT security administrator. He\u2019s since worked as a consultant, an industry analyst, and a security advocate. Malik is well-known within the information security industry, having spoken at many events and conferences around the world in addition to being a YouTuber, podcaster, blogger, and researcher. With a distinctive style, he takes a fresh and often innovative look at even mundane topics and presents them in an entertaining and informative light. Tackling the most complex issues with ease in this witty style is Malik\u2019s forte.</p> "
     },
     {
         "group": "Boston",
@@ -158,6 +188,16 @@
         "link": "https://www.meetup.com/OWASP-Los-Angeles/events/277894230/",
         "timezone": "US/Pacific",
         "description": "<p>Come join us as we hear the monthly presentation by Daniel Blazquez from Hdiv Security</p> <p>TOPIC: Practical DevSecOps - An easy recipe</p> <p>&gt;&gt; NOTE &lt;&lt; Presentation Link will be sent the day before and day of the event to all those who have RSVP'd)</p> <p>ABSTRACT: Despite broad industry adoption and its potential significant benefits, security practitioners are becoming increasingly cynical about DevSecOps, mostly due to its abstract nature and lack of specificity. This talk aims to provide actionable advice on how to add Sec to DevOps, as a combination of developer education, free OWASP resources, and security automation.</p> <p>BIO: Daniel Blazquez leads the technical marketing and developer advocacy practice at Hdiv Security, a VC-funded application security company focused on detection and protection from security bugs in apps, APIs, and microservices. As an ex-Java programmer and recovering corporate strategy professional, Daniel brings a holistic view to the software development industry: from code development thinking to product management, all the way to organic and inorganic growth strategy experience. His education includes Computer Science master's and undergrad, and an MBA at UCLA Anderson.</p> <p>Meeting info will be emailed to you shortly prior to the event - BE SURE TO RSVP to receive the email containing the link</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
+    },
+    {
+        "group": "Madison",
+        "repo": "www-chapter-madison",
+        "name": "Primer: Containers and Orchestration",
+        "date": "2021-06-15",
+        "time": "15:30",
+        "link": "https://www.meetup.com/owasp-madison/events/278126390/",
+        "timezone": "US/Central",
+        "description": "<p>At our next event, Dave will focus on containers and orchestration. With orchestration being a choice of Docker Compose, Docker Swarm, Ansible, Kubernetes. Examples of CI/CD usage can be incorporated along the way.</p> <p>Rough Outline:<br/>- Briefly, What are containers?<br/>-- What is Docker, specifically.<br/>-- What are the benefits/pitfalls?<br/>-- How can you get started using Docker?<br/>-- Install and general usage demo<br/>- What are orchestrators?<br/>-- Similarities between Compose, Swarm, Ansible, Kubernetes (even shell scripting or Python.)<br/>-- Differences between orchestrators.<br/>-- Install and demo Ansible orchestration<br/>-- Review process for installing other orchestrators (links to docs)<br/>-RasPi project for home lab set-up <a href=\"https://github.com/DavesCodeMusings/CloudPi\" class=\"linkified\">https://github.com/DavesCodeMusings/CloudPi</a></p> "
     },
     {
         "group": "Orange County",
@@ -250,16 +290,6 @@
         "description": "<p>AGENDA:<br/>* Introduction<br/>* IoT Security by Ilya Kudryavtsev<br/>* Networking<br/>* Open discussion<br/>* Virtual Beer</p> <p>This talk will cover IoT security including:</p> <p>- Why IoT security is a hot topic today, but is still difficult to implement.<br/>- IoT provisioning challenge.<br/>- How developers deal with security.<br/>- Examples of IoT security breaches and attacks.<br/>- IoT security laws and standards.<br/>- IoXT alliance.</p> <p>TICKETS:<br/>This event is free to attend for both members and non-members of OWASP and is open to anyone interested in application security and cyber security. Please note that you MUST RSVP to book your place and get a ticket to be admitted to the event by building security - your name will be checked against the guest list.<br/>Register to attend this event at OWASP Suffolk Chapter - Meetup - RSVP to attend</p> "
     },
     {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "OWASP Suffolk Chapter - Social evening",
-        "date": "2021-06-08",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/278545312/",
-        "timezone": "Europe/London",
-        "description": "<p>AGENDA:</p> <p>Get together to discuss OWASP, hot topics, to share learning resources, discuss tools and techniques.</p> <p>This is a social event where you can have your say on the direction of the group, suggest topics for future meetings, discuss where you are in your security journey and how we can help. There will be no slides or speakers, just a social chit-chat.</p> <p>TICKETS:<br/>This event is free to attend for both members and non-members of OWASP and is open to anyone interested in application security and cyber security. Please note that you MUST RSVP to book your place and get a ticket to be admitted to the event by building security - your name will be checked against the guest list.<br/>Register to attend this event at OWASP Suffolk Chapter - Meetup - RSVP to attend</p> "
-    },
-    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "Enforcing Code & Security Standards with Semgrep",
@@ -268,6 +298,16 @@
         "link": "https://www.meetup.com/OWASP-Bristol/events/277163169/",
         "timezone": "Europe/London",
         "description": "<p>Joint event with OWASP Dorset (<a href=\"https://www.meetup.com/OWASP-Dorset-Chapter/\" class=\"linkified\">https://www.meetup.com/OWASP-Dorset-Chapter/</a>)</p> <p>Agenda:<br/>* OWASP Updates<br/>* Talk: Enforcing Code &amp; Security Standards with Semgrep, with Clint Gibler Head of Security Research for r2c<br/>* Open discussion</p> <p>Talk: Enforcing Code &amp; Security Standards with Semgrep</p> <p>Abstract: In this talk, we\u2019ll present Semgrep (<a href=\"https://semgrep.dev\" class=\"linkified\">https://semgrep.dev</a>), an open source, lightweight static analysis tool. It's like a code-aware grep, enabling you to easily search for complicated code patterns without writing painful abstract syntax tree (AST) visitors or using heavyweight, expensive, proprietary traditional SAST tools.</p> <p>Key Semgrep features:<br/>- Fast - scans code in minutes, not hours or days.<br/>- Does not require the source code you\u2019re scanning to be buildable.<br/>- Comes out of the box with over 1,000 open source rules covering the OWASP Top 10 and more.<br/>- Supports languages including Python, Java, Golang, JavaScript, TypeScript, Ruby, and more on the way.<br/>- Autofix - Don't just point out bugs, help developers fix them!<br/>- Most importantly, Semgrep makes it easy to write custom rules, no fancy DSL required. This empowers AppSec engineers and developers to detect and block company-specific security bugs and anti-patterns as well as enforce best practices.</p> <p>We\u2019ll demo how to easily write custom Semgrep rules tailored to your specific code base, and how to get continuous security coverage in CI in a just a few minutes.</p> <p>Bio: Clint Gibler (@clintgibler) is the Head of Security Research for r2c, a startup working on giving security tools directly to developers. Previously, Clint was a Research Director at NCC Group, a global security consulting firm, where he helped companies implement security automation and DevSecOps best practices as well as performed penetration tests for companies ranging from large enterprises to new startups. Clint has previously spoken at conferences including BlackHat USA, AppSec USA/EU/Cali, BSidesSF, and many DevSecCons. Clint holds a Ph.D. in Computer Science from the University of California, Davis. Want to keep up with security research? Check out *tl;dr sec*, Clint\u2019s newsletter that contains summaries of artisanally curated, top talks and useful security links and resources from around the web. <a href=\"https://tldrsec.com/\" class=\"linkified\">https://tldrsec.com/</a></p> "
+    },
+    {
+        "group": "Leeds Uk",
+        "repo": "www-chapter-leeds-uk",
+        "name": "Leeds OWASP Reboot 2021",
+        "date": "2021-07-07",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/278619725/",
+        "timezone": "Europe/London",
+        "description": "<p>Hello!</p> <p>We're re-booting the Leeds OWASP Chapter with a view of growing a thriving community within Leeds and the surrounding areas.</p> <p>This is a community event and everybody is welcome!</p> <p>To kick off, we have two speakers:</p> <p>1) Arjun Pednekar, Technical Director @ Cognisys</p> <p>The Joys of Bug Bounties</p> <p>Advocating how it benefits penetration testing companies in finding the right candidates and making the reliance on certifications less of a requirement. It highlights the creativity in someone\u2019s ability. Candidates who have a known rankings on bug bounty and going to be sought after.</p> <p>2) Neil Peacock, Founder of Blok Cyber Security</p> <p>Venue is 1st Floor, Spaces Leeds, 7 Park Row, LS1 5HD</p> <p>Your hosts are Simon Woods &amp; Andrew Gilhooley of One Compliance</p> <p>Follow us on Twitter <a href=\"https://twitter.com/OWASPLeeds\" class=\"linkified\">https://twitter.com/OWASPLeeds</a></p> <p>Contact Simon.Woods@onecompliance.co.uk for further information.</p> "
     },
     {
         "group": "Luxembourg",
@@ -310,6 +350,16 @@
         "description": "<p>The next OWASP Timisoara Chapter Meeting will be online.</p> <p>&gt; Summer sessions - Theme: Threat Modeling &amp; Iterative Security</p> <p>&gt; Schedule:<br/>Introduction, OWASP News &amp; Updates - Catalin Curelaru</p> <p>Challenges and Experiences with Threat Modeling in Agile Development Projects - Monica Iovan (Visma) &amp; Daniela S. Cruzes (NTNU)</p> <p>Security through an iterative process - Dario Cavallaro (Cisco)</p> <p>Time: 18:30 to 20:30</p> <p>&gt;&gt;Abstract - Challenges and Experiences with Threat Modeling in Agile Development Projects:<br/>The goal of secure software engineering is to create software that keeps performing as intended even when exposed to attacks. Threat modeling is considered to be a key activity, but can be challenging to perform for developers, and even more so in agile software development. Hence, threat modeling has not seen widespread use in agile software projects. The goal of the presentation is to show some of these challenges and approaches that the teams are working on.</p> <p>Bio:<br/>Dr. Monica Iovan, Head of Security Development, Visma; In her free time, Monica enjoys peaceful moments in nature and the company of a good book. She is a passionate researcher having the goal of simplifying the use of security services within Agile development. She leads the security development team in Visma and conducts research on security in agile software development.</p> <p>Dr. Daniela S. Cruzes is a Professor at the Norwegian University of Science and Technology (NTNU). Previously, she worked as a senior research scientist at SINTEF in Norway. She has also been a researcher fellow at the University of Maryland and Fraunhofer Center for Experimental Software Engineering-Maryland. Dr. Daniela Cruzes received her PhD in experimental software engineering from the University of Campinas - UNICAMP in Brazil in 2007. Her research interests are empirical software engineering, research methods and theory development, synthesis of SE studies, software security, software testing and agile and DevOps.</p> <p>&gt;&gt;Abstract - Security through an iterative process<br/>Security through an iterative process is a collection of notes collected in 15+ years\u2019 experience. We will go through what has worked for most companies, some myths and some of the common things that are typically missing, but that everybody wants.</p> <p>Bio:<br/>Dario Cavallaro has been working in IT Security for over 15 years. Passionate about Linux, Opensource and Security, he has been working in both defensive and offensive security industry. Dario has a Bachelor degree in Computer science, where he focused on Software development and Software engineering. Before that, he collaborated with several opensource projects, like Gentoo.</p> "
     },
     {
+        "group": "Vina Del Mar",
+        "repo": "www-chapter-vina-del-mar",
+        "name": "Owasp LATAM HOME 2021",
+        "date": "2021-06-29",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Vina-del-Mar-Chapter/events/278637174/",
+        "timezone": "America/Santiago",
+        "description": "<p>Vuelve la edicion Owasp LATAM hOME 2021</p> <p>a)Link del evento:<br/><a href=\"https://owasp.org/www-event-2021-lata\" class=\"linkified\">https://owasp.org/www-event-2021-lata</a>...<br/>b)Link para enviar sus papers:<br/><a href=\"https://owasp.submittable.com/submit/\" class=\"linkified\">https://owasp.submittable.com/submit/</a>...</p> "
+    },
+    {
         "group": "Devslop",
         "repo": "www-project-devslop",
         "name": "How to Analyze Code for Vulnerabilities with Vickie Li",
@@ -318,16 +368,6 @@
         "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/278403880/",
         "timezone": "Canada/Eastern",
         "description": "<p>Writing code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes.</p> <p>As developers, we can safeguard our applications by catching these mistakes in our own code. Performing a source code review is one of the best ways to find security issues in code.</p> <p>But how do you do it?</p> <p>On this show, Vickie will go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.</p> <p>VICKIE LI<br/>Vickie Li is the resident developer evangelist at ShiftLeft. She is an experienced web developer with an avid interest in security research. She can be found on <a href=\"https://vickieli.dev\" class=\"linkified\">https://vickieli.dev</a>, where she blogs about security news, techniques, and her latest bug bounty findings. She also hosts \u201cSecurity Simplified\u201d, a developer education series focusing on web security: <a href=\"https://www.youtube.com/c/vickielidev\" class=\"embedded\">https://www.youtube.com/c/vickielidev</a>. You can also find her on Twitter @vickieli7.</p> "
-    },
-    {
-        "group": "Devslop",
-        "repo": "www-project-devslop",
-        "name": "Codify Workflows for Security and Speed",
-        "date": "2021-06-06",
-        "time": "13:00",
-        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/278399013/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>In this talk, the founding team at Sym will discuss the trend of workflow automation via declarative code.</p> <p>We will compare and contrast the practice of workflow automation in the context of CI/CD, low-code business applications, and security workflows.</p> <p>The founders will draw on their prior experiences in heavily regulated industries to discuss the challenges that engineering teams often face when trying to move fast while staying secure and compliant at the same time.</p> <p>In the backdrop of these prevailing issues, we will explain some key concepts of Sym and how it addresses some common security use-cases, such as SSH access management and break-glass workflows.</p> <p>OUR PRESENTERS:</p> <p>Yasyf Mohamedali (CEO)<br/>Yasyf is obsessed with fixing broken systems. He started with healthcare \u2014 building a communication platform to serve the nation\u2019s most vulnerable \u2014 and has now turned to security. He\u2019s a proud engineer (though he doesn\u2019t write much code these days), and a prouder Canadian</p> <p>Jonathan Bass (CTO)<br/>Jon is Sym\u2019s resident DevOps guru, and Chief Dad Joker. His background in healthcare and deep expertise in infrastructure and information security keep us at the cutting edge of both fields. Catch him at your local cafe with an espresso in hand!</p> "
     },
     {
         "group": "Wia",
@@ -350,6 +390,16 @@
         "description": "<p>Thursday, June 10, 2021<br/>6:00 PM to 8:00 PM ET</p> <p>We're back for the first OWASP Maine meetup of 2021!</p> <p>Hacking Modern Websites with OWASP Juice Shop</p> <p>Have you ever thought about getting into web application security testing? Maybe you know a few things and you would like to sharpen your skills in testing modern single-page web applications? Well, this is the event for you.</p> <p>In this hands-on hacking workshop, Ben Allen (<a href=\"https://www.dc207.org\" class=\"linkified\">https://www.dc207.org</a>) will dig in to one of OWASP's flagship projects, Juice Shop (<a href=\"https://owasp.org/www-project-juice-shop/\" class=\"linkified\">https://owasp.org/www-project-juice-shop/</a>). Juice Shop emulates an e-commerce web application and is meant to show how modern JavaScript-based applications can be compromised.</p> <p>In this follow-along workshop we will cover:</p> <p>What OWASP Juice Shop is<br/>How to deploy your own Juice Shop on the internet for free<br/>How to set your computer up for testing<br/>How to hunt for bugs<br/>An interactive walk-through of a few challenges</p> <p>What you will need to follow along:</p> <p>A computer with Windows / MacOS / Linux installed<br/>A desire to learn about web application security testing<br/>Hope to see you there!</p> "
     },
     {
+        "group": "Moscow",
+        "repo": "www-chapter-moscow",
+        "name": "OWASP Moscow Virtual Meetup 2021.1",
+        "date": "2021-06-11",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Moscow/events/278660867/",
+        "timezone": "Europe/Moscow",
+        "description": "<p>\u041d\u0435 \u0442\u0430\u043a \u0434\u0430\u0432\u043d\u043e \u043f\u0440\u043e\u0448\u0451\u043b \u043e\u0447\u0435\u0440\u0435\u0434\u043d\u043e\u0439 \"OWASP SAMM User Day\"<br/>(<a href=\"https://owaspsamm.org/user-day\" class=\"linkified\">https://owaspsamm.org/user-day</a>). \u042d\u0442\u043e\u0442 \u043f\u0440\u043e\u0435\u043a\u0442 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043d\u0435 \u0442\u0430\u043a \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0435\u043d \u043a\u0430\u043a \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u044b OWASP, \u043d\u043e \u043e\u043d \u0442\u043e\u0447\u043d\u043e \u043e\u0434\u0438\u043d \u0438\u0437 \u0441\u0430\u043c\u044b\u0445 \u0432\u0430\u0436\u043d\u044b\u0445. \u0412\u0435\u0434\u044c \u043e\u043d \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0443 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0438 \u0437\u0430\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0435\u0451 \u0432\u043d\u0435\u0434\u0440\u0435\u043d\u0438\u0435. \u0415\u0441\u043b\u0438 \u0432\u044b \u0435\u0449\u0451 \u043d\u0435 \u0443\u0441\u043f\u0435\u043b\u0438 \u043f\u043e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u044c\u0441\u044f \u0441 \u044d\u0442\u0438\u043c \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u043c, \u0442\u043e \u0443 \u0432\u0430\u0441 \u0431\u0443\u0434\u0435\u0442 \u0445\u043e\u0440\u043e\u0448\u0430\u044f \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e. \u041d\u0430 \u043e\u0447\u0435\u0440\u0435\u0434\u043d\u043e\u043c \u043c\u0438\u0442\u0430\u043f\u0435 (\u0432 \u044d\u0442\u043e\u0442 \u0440\u0430\u0437 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u043c) \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u044f OWASP \u0432\u044b\u0441\u0442\u0443\u043f\u0438\u0442 \u042f\u043d \u041a\u0440\u0430\u0432\u0447\u0435\u043d\u043a\u043e \u0441 \u0434\u043e\u043a\u043b\u0430\u0434\u043e\u043c \"Evolution of Application Security Programs through OWASP SAMM 2.0\". \u0412\u0441\u0442\u0440\u0435\u0447\u0430 \u043f\u0440\u043e\u0439\u0434\u0451\u0442 \u0432 \u0432\u0438\u0434\u0435 \u0441\u0442\u0440\u0438\u043c\u0430, \u0441\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u043e\u044f\u0432\u0438\u0442\u0441\u044f \u0431\u043b\u0438\u0436\u0435 \u043a \u043d\u0430\u0447\u0430\u043b\u0443.</p> <p>\u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435! \u0414\u043e\u043a\u043b\u0430\u0434 \u0431\u0443\u0434\u0435\u0442 \u043d\u0430 \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u043e\u043c \u044f\u0437\u044b\u043a\u0435. \u041f\u0440\u0438 \u044d\u0442\u043e\u043c \u0432\u043e\u043f\u0440\u043e\u0441\u044b \u043c\u043e\u0436\u043d\u043e \u0437\u0430\u0434\u0430\u0432\u0430\u0442\u044c \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c. \u041e\u0441\u0442\u0430\u0432\u043b\u044f\u0439\u0442\u0435 \u0438\u0445 \u043f\u0440\u044f\u043c\u043e \u0437\u0434\u0435\u0441\u044c \u0432 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u044f\u0445 \u043a \u0441\u043e\u0431\u044b\u0442\u0438\u044e. \u041c\u044b \u0441\u0434\u0435\u043b\u0430\u0435\u043c \u0438\u0437 \u043d\u0438\u0445 \u0432\u044b\u0431\u043e\u0440\u043a\u0443 \u043f\u0435\u0440\u0435\u0434 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u0435\u043c \u0438 \u042f\u043d \u043e\u0442\u0432\u0435\u0442\u0438\u0442 \u043d\u0430 \u043d\u0438\u0445 \u043f\u043e\u0441\u043b\u0435 \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f.</p> <p>\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435</p> <p>18:00 - 18:45 \"Evolution of Application Security Programs through OWASP SAMM 2.0\", Yan Kravchenko<br/>18:45 - 19:00 \u0421\u0435\u0441\u0441\u0438\u044f \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432-\u043e\u0442\u0432\u0435\u0442\u043e\u0432</p> <p>\u041a\u0440\u0430\u0442\u043a\u043e\u0435 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435</p> <p>Application security has become one of the most important frontiers for protecting digital assets and has effectively changed focus from protecting network perimeters to ensuring security around dozens, hundreds, or even thousands of applications. The rapid growth of applications developed in each organization is fueled by the availability of data and rapid development of programming languages and platforms, which make it feasible to create robust applications in a fraction of the time compared to even a few years ago. Combined with a wide range of development methodologies, challenges for Application Security Programs have never been higher.</p> <p>This session will cover some of the latest trends in increasing the effectiveness of Application Security Programs through the lessons learned from the evolution of the OWASP\u2019s Software Assurance Maturity Model. The presentation will include practical suggestions aimed at increasing the ability to measure, manage, and improve Information Security Programs while forming stronger relationships with product owners and developers. The presentation will cover what everyone can expect out of OWASP SAMM 2.0 and what we can all do to help make SAMM 2.0 more helpful and relevant in the future.</p> "
+    },
+    {
         "group": "Porto Alegre",
         "repo": "www-chapter-porto-alegre",
         "name": "OWASP Chapter POA - Encontro 006 [ONLINE]",
@@ -360,14 +410,24 @@
         "description": "<p>Buenas pessoal!</p> <p>Chegamos ao nosso sexto encontro! N\u00e3o deixem de participar!</p> <p>10 de Junho, quinta-feira, a partir das 19h30 - Link: [em breve]</p> <p>Confira a agenda:</p> <p>19h30-20h30<br/>\"Como e Porque Fazemos Desenvolvimento Seguro com OpenSource\"<br/>Filipi Pires (Security Advocate e Pesquisador de Seguran\u00e7a na Zup Innovation)</p> <p>20:30-21:30<br/>\"Cyber Kill Chain: Entendendo Ataques Cibern\u00e9ticos e Estrat\u00e9gias de Defesa\"<br/>L\u00edgia Soares (Analista de Seguran\u00e7a | Blue Team - Tivit)</p> <p>Contamos com voc\u00eas!</p> "
     },
     {
-        "group": "Aligarh",
-        "repo": "www-chapter-aligarh",
-        "name": "Security Issues in Financial World & Handling First in OWASP Top 10 - Injection",
-        "date": "2021-06-06",
-        "time": "14:00",
-        "link": "https://www.meetup.com/OWASP-Aligarh-Meetup-Group/events/277499602/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Security Issues in Financial World &amp; Handling First in OWASP Top 10 - Injection</p> <p>Speakers from Leading Banking Domain, Security researchers, Pen Test specialists</p> <p>Real Time demo</p> <p>OWASP Chapter Meeting</p> "
+        "group": "Bonita Springs",
+        "repo": "www-chapter-bonita-springs",
+        "name": "OWASP Monthly Meeting",
+        "date": "2021-07-06",
+        "time": "18:30",
+        "link": "https://www.meetup.com/OWASP-Bonita-Springs-Chapter/events/278587687/",
+        "timezone": "US/Eastern",
+        "description": "<p>We generally review security related happenings, share tips and tricks for configuring software and hardware, and chat about various topics such as security, privacy, exploitation, vulnerabilities, pen testing, web app security, CTFs, IoT security, mobile security and anything else members wish to discuss.</p> "
+    },
+    {
+        "group": "Canberra",
+        "repo": "www-chapter-canberra",
+        "name": "Online - Meet and Greet",
+        "date": "2021-06-16",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Canberra-Chapter/events/278656451/",
+        "timezone": "Australia/Canberra",
+        "description": "<p>Event: Drop In Session - Canberra OWASP Online Meet and Greet<br/>Date: 16th Jun 2021 6:00 pm - 7:00 pm<br/>Link: Join Zoom Meeting <a href=\"https://zoom.us/j/97094568063\" class=\"linkified\">https://zoom.us/j/97094568063</a></p> "
     },
     {
         "group": "Iasi",
@@ -378,16 +438,6 @@
         "link": "https://www.meetup.com/OWASP-Iasi-Meetup-Group/events/278395486/",
         "timezone": "Europe/Bucharest",
         "description": "<p> For our June meetup, our guest, Dan Cimpean will join us for a fireside chat on cyber security, CERT-RO, cyber security policies and strategies.</p> <p>Dan Cimpean is the General Director of Romanian National Computer Security Incident Response - CERT-RO, a #cybersecurity authority with the necessary capacity to identify, analyze, prevent and respond to cyber security incidents.</p> <p>Don't forget to book you seat and learn more.</p> "
-    },
-    {
-        "group": "The Northcap Universtiy",
-        "repo": "www-chapter-the-northcap-universtiy",
-        "name": "JUNE MEETUP | BASICS OF NETWORKING",
-        "date": "2021-06-06",
-        "time": "15:00",
-        "link": "https://www.meetup.com/OWASP-The-NorthCap-University-Meetup-Group/events/278530005/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>The foundations of networking: switches, routers, and wireless access points. Switches, routers, and wireless access points are the essential networking basics. Through them, devices connected to your network can communicate with one another and with other networks, like the Internet.</p> "
     },
     {
         "group": "University Of Washington",
