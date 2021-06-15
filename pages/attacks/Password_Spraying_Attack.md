@@ -11,7 +11,7 @@ tags: attack, password spraying
 
 ## Description
 **Password spraying** is a type of brute force attack. In this attack, an attacker will brute force logins based on list of usernames with default passwords on the application. 
-For example, an attacker will use one password (say, Secure@123) against many different accounts on a application to avoid account lockouts that would normally occur when brute forcing a single account with many passwords.
+For example, an attacker will use one password (say, Secure@123) against many different accounts on the application to avoid account lockouts that would normally occur when brute forcing a single account with many passwords.
 
 This attack can be found commonly where the application or admin sets a default password for the new users.
 
