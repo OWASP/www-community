@@ -1564,5 +1564,14 @@
       "platforms": "SaaS",
       "note": "Free (View Partial Results). Full report (PRO) - 50% discount for the OWASP community with 'OWASP50'.",
       "type": "DAST"
+   },
+   {
+      "title": "Offensive360",
+      "url": "https://offensive360.com/",
+      "owner": null,
+      "license": "Commercial",
+      "platforms": null,
+      "note": "SAST technology that attacks the source code from all corners it has all in one. Malware, SCA, License, and deep source code analysis.",
+      "type": "SAST"
    }
 ]
