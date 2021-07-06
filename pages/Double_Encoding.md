@@ -44,7 +44,7 @@ Original URL:
 `http://victim/cgi/../../winnt/system32/cmd.exe?/c+dir+c:\`
 
 However, the application uses a security check filter that refuses requests containing characters like “../”. By double encoding the URL,
-it’s possible to bypass security the filter:
+it’s possible to bypass the security filter:
 
 Double encoded URL:
 
