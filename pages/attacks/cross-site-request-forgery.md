@@ -109,9 +109,12 @@ Linking. Microsoft refers to this type of attack as a One-Click attack
 in their threat modeling process and many places in their online
 documentation.
 
-### Prevention measures that do **NOT** work
+## Prevention measures that do **NOT** work
 
-## Using a secret cookie
+A number of flawed ideas for defending against CSRF attacks have been
+developed over time. Here are a few that we recommend you avoid.
+
+### Using a secret cookie
 
 Remember that all cookies, even the *secret* ones, will be submitted
 with every request. All authentication tokens will be submitted
@@ -121,7 +124,7 @@ application container to associate the request with a specific session
 object. The session identifier does not verify that the end-user
 intended to submit the request.
 
-## Only accepting POST requests
+### Only accepting POST requests
 
 Applications can be developed to only accept POST requests for the
 execution of business logic. The misconception is that since the
@@ -133,23 +136,20 @@ hidden values. This form can be triggered automatically by JavaScript or
 can be triggered by the victim who thinks the form will do something
 else.
 
-A number of flawed ideas for defending against CSRF attacks have been
-developed over time. Here are a few that we recommend you avoid.
-
-## Multi-Step Transactions
+### Multi-Step Transactions
 
 Multi-Step transactions are not an adequate prevention of CSRF. As long
 as an attacker can predict or deduce each step of the completed
 transaction, then CSRF is possible.
 
-## URL Rewriting
+### URL Rewriting
 
 This might be seen as a useful CSRF prevention technique as the attacker
 cannot guess the victim's session ID. However, the user’s session ID is
 exposed in the URL. We don't recommend fixing one security flaw by
 introducing another.
 
-## HTTPS
+### HTTPS
 
 HTTPS by itself does nothing to defend against CSRF.
 
