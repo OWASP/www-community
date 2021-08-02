@@ -64,7 +64,7 @@ is used.
 
 ### Evil Regex
 
-A Regex pattern is called **Evil Regex** if it can stuck on crafted input.
+A Regex pattern is called **Evil Regex** if it can get stuck on crafted input.
 
 **Evil Regex contains**:
 
