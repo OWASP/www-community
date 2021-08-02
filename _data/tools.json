@@ -1505,10 +1505,10 @@
    {
       "title": "NextGen Static Analysis",
       "url": "https://www.shiftleft.io/nextgen-static-analysis/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "C\\#, Go, Java, JavaScript, Python, Scala",
+      "owner": "ShiftLeft",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Free version available. Currently supports Java, JavaScript, C\\#, TypeScript, Python, and Terraform. Create your free account at https://shiftleft.io/register.",
       "type": "SAST"
    },
    {
