@@ -753,7 +753,7 @@ This uses a very tiny trick that appears to work Firefox only, because of it's i
 
 ### Google "feeling lucky" part 3.
 
-This uses a malformed URL that appears to work in Firefox and Opera only, because if their implementation of the "feeling lucky" function. Like all of the above it requires that you are \#1 in Google for the keyword in question (in this case "google"):
+This uses a malformed URL that appears to work in Firefox and Opera only, because of their implementation of the "feeling lucky" function. Like all of the above it requires that you are \#1 in Google for the keyword in question (in this case "google"):
 
 `<A HREF="http://google:ha.ckers.org">XSS</A>`
 
@@ -773,13 +773,13 @@ Extra dot for absolute DNS:
 
 ### Content Replace as Attack Vector
 
-Assuming `http://www.google.com/` is programmatically replaced with nothing). I actually used a similar attack vector against a several separate real world XSS filters by using the conversion filter itself (here is an example) to help create the attack vector (IE: `java&\#x09;script:` was converted into `java	script:`, which renders in IE, Netscape 8.1+ in secure site mode and Opera):
+Assuming `http://www.google.com/` is programmatically replaced with nothing). I actually used a similar attack vector against several separate real world XSS filters by using the conversion filter itself (here is an example) to help create the attack vector (IE: `java&\#x09;script:` was converted into `java	script:`, which renders in IE, Netscape 8.1+ in secure site mode and Opera):
 
 `<A HREF="http://www.google.com/ogle.com/">XSS</A>`
 
 ## Assisting XSS with HTTP Parameter Pollution
 
-Assume a content sharing flow on a web site is implemented as below. There is a "Content" page which includes some content provided by users and this page also includes a link to "Share" page which enables a user choose their favorite social sharing platform to share it on. Developers HTML encoded the "title" parameter in the "Content" page to prevent against XSS but for some reasons they didn't URL encoded this parameter to prevent from HTTP Parameter Pollution. Finally they decide that since content_type's value is a constant and will always be integer, they didn't encode or validate the content_type in the "Share" page.
+Assume a content sharing flow on a web site is implemented as shown below. There is a "Content" page which includes some content provided by users and this page also includes a link to "Share" page which enables a user choose their favorite social sharing platform to share it on. Developers HTML encoded the "title" parameter in the "Content" page to prevent against XSS but for some reasons they didn't URL encoded this parameter to prevent from HTTP Parameter Pollution. Finally they decide that since content_type's value is a constant and will always be integer, they didn't encode or validate the content_type in the "Share" page.
 
 ### Content Page Source Code
 
