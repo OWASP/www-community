@@ -104,14 +104,14 @@ argument that can be used to explain and defend the security of an
 application. An assurance argument starts with a few high level claims,
 and justifies them with either subclaims or evidence.
 
-## ThreatModel Tooling
+## Threat Modeling Tooling
 
-There is a wide variety of tooling for threat modeling, including OWASP Threat Dragon and "The ThreatModel SDK" (<https://github.com/stevespringett/threatmodel-sdk>)
+There is a wide variety of tooling for threat modeling including [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/).
+ 
+Steve Springet has a "[ThreatModel SDK](<https://github.com/stevespringett/threatmodel-sdk>)"
 which is a minimalistic Java library that provides a basic
 vendor-neutral object model along with the ability to parse reports
-generated from common threat modeling tools. It currently supports:
-
-  - [Microsoft Threat Modeling Tool 2016](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) (See bottom of page)
+generated from common threat modeling tools. It currently supports [Microsoft Threat Modeling Tool 2016](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) (Not free software, see bottom of page)
 
 
 
