@@ -13,7 +13,7 @@ permalink: /Threat_Modeling
 
 ## Overview
 
-The term "Threat Modeling" has become quite popular. Microsoft has published their process 
+The term "Threat Modeling" has become quite popular. Microsoft has published their process
 and includes threat modeling as a key activity in their [Secure Development
 Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)(SDL).
 
@@ -28,6 +28,7 @@ producing a model, typical threat modeling efforts also produce a
 prioritized list of security improvements to the concept, requirements,
 design, or implementation.
 
+In 2020 a group of threat modeling practitioners, researchers and authors got together to write the [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) in order to "...share a distilled version of our collective threat modeling knowledge in a way that should inform, educate, and inspire other practitioners to adopt threat modeling as well as improve security and privacy during development". The Manifesto contains values and principles connected to the practice and adoption of Threat Modeling, as well as identified patterns and anti-patterns to facilitate it.
 ## Objectives of Threat Modeling
 
 Threat modeling is a family of activities for improving security by
@@ -128,7 +129,7 @@ best to start with the factors that make a lot of difference.
 
 <!-- end list -->
 
-  - **Identify Countermeasures to Reduce Threat** - The last step is to 
+  - **Identify Countermeasures to Reduce Threat** - The last step is to
     identify countermeasures to reduce the risk to acceptable levels.
 
 ## Benefits
@@ -140,12 +141,12 @@ the table. The alternative is to make knee-jerk security decisions with
 no support. The threat modeling process naturally produces an assurance
 argument that can be used to explain and defend the security of an
 application. An assurance argument starts with a few high level claims,
-and justifies them with either subclaims or evidence.
+and justifies them with either sub-claims or evidence.
 
-## ThreatModel SDK
+## ThreatModel Tools
 
-The ThreatModel SDK (<https://github.com/stevespringett/threatmodel-sdk>)
-is a minimalistic Java library that provides a basic
+There is a wide variety of tooling for threat modeling, including [OWASP Threat Dragon](https://docs.threatdragon.org/), [OWASP pytm](https://owasp.org/www-project-pytm/) and "The ThreatModel SDK" (<https://github.com/stevespringett/threatmodel-sdk>)
+which is a minimalistic Java library that provides a basic
 vendor-neutral object model along with the ability to parse reports
 generated from common threat modeling tools. It currently supports:
 
@@ -155,7 +156,13 @@ And plans to support:
 
   - [Mozilla SeaSponge](https://github.com/mozilla/seasponge)
 
+There is a variety of other tools available, both Open Source and commercial.
+
 ## References
 
+  - [Adam Shostack - "Threat Modeling: Designing for Security"](https://shostack.org/books/threat-modeling-book)
+  - [Tony Uceda-Velez - "Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis"](https://versprite.com/author/tony-ucedavelez/)
+  - [Brook Schoenfield - "Securing Systems: Applied Security Architecture and Threat Modeling"](http://brookschoenfield.com/?page_id=245)
   - [Microsoft's Security Development Process](https://www.microsoft.com/en-us/securityengineering/sdl)
-  - [Microsoft Threat Modeling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)
+  - [Microsoft Threat Modeling & Tool](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)
+  - [SAFECode - "Tactical Threat Modeling"](https://safecode.org/tactical-threat-modeling/)
