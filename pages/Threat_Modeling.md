@@ -31,7 +31,7 @@ design, or implementation.
 ## Objectives of Threat Modeling
 
 Threat modeling is a family of activities for improving security by
-identifying objectives and vulnerabilities, and then defining
+identifying threats, and then defining
 countermeasures to prevent, or mitigate the effects of, threats to the
 system. A threat is a potential or actual undesirable event that may be
 malicious (such as DoS attack) or incidental (failure of a Storage
@@ -56,80 +56,42 @@ new threats that are created by that choice. Even implementation choices
 such as using regular expressions for validation introduce potential new
 threats to deal with.
 
-## Threat Modeling - Generic Steps
+## Threat Modeling - Four Question Framework
 
 For a threat to an application to exist, there must be a combination of
 the following where the combined likelihood and impact are important
-enough to do something about. Following is a four question framework
-that helps understand threat modeling:
+enough to do something about. Following is the four question framework
+that helps organize threat modeling:
 
   - What are we working on?
   - What can go wrong?
   - What are we going to do about it?
   - Did we do a good job?
 
-There are many ways to answer each of these questions.
-
-To understand whether an application is secure enough or not, you have
-to search out combinations of these ingredients that lead to realistic
-threats.
+There are many methods or techniques which can be used to answer each of these questions.
 
 There is no "right" way to evaluate the search space of possible
 threats. But there are better or worse ways. Attempting to evaluate all
 the possible combinations of threat agent, attack, vulnerability, and
-impact is often a waste of time and effort. Note that many of the
-automated tools take this approach - gathering lots of data and
-producing thousands of possible threats. Generally it is more productive
-to focus on finding high likelihood and high impact threats.
+impact is often a waste of time and effort. 
 
-The basic threat modeling process consists of the following generic
-steps. The process of exploring the search space is iterative and
-constantly refined based on what you have done so far. So, for example,
-starting with all possible vulnerabilities is usually pointless, as most
-of them are not attackable by the threat agents, protected by a
-safeguard, or do not lead to a consequence. Therefore, it's generally
-best to start with the factors that make a lot of difference.
+The basic threat modeling process consists of the following 
+steps. The process of exploring the search space can be iterative and refined. It is common to mistakenly think you should filter for "the most important threats" early, but how can you do that before you've found them?
 
-  - **Assessment Scope** - The first step is always to understand what's
-    on the line. Identifying tangible assets, like databases of
-    information or sensitive files is usually easy. Understanding the
-    capabilities provided by the application and valuing them is more
-    difficult. Less concrete things, such as reputation and goodwill are
-    the most difficult to measure, but are often the most critical.
+  - **Assessment Scope** - The first step is to ask what are we working on? This might be as small as a sprint, or as large as a whole system.
+<!-- end list -->
+
+  - **Identify what can go wrong** - This can be as simple as a brainstorm, or as structured as using STRIDE, Kill Chains, or Attack Trees.
 
 <!-- end list -->
 
-  - **Identify Threat Agents and Possible Attacks** - A key part of the threat
-    model is a characterization of the different groups of people who
-    might be able to attack your application. These groups should
-    include insiders and outsiders, performing both inadvertent mistakes
-    and malicious attacks.
+  - **Identify countermeasures or manage risk** - Decide what you're going to do about each threat. That might be to implement a mitigation, or to apply the accept/transfer/eliminate approaches of risk management.
 
 <!-- end list -->
 
-  - **Understand Existing Countermeasures** - The model must
-    include the existing countermeasures.
+  - **Assess your work** - Did you do a good enough job for the system at hand?
 
 <!-- end list -->
-
-  - **Identify Exploitable Vulnerabilities** - Once you have an
-    understanding of the security in the application, you can then
-    analyze for new vulnerabilities. The search is for vulnerabilities
-    that connect the possible attacks you've identified to the negative
-    consequences you've identified.
-
-<!-- end list -->
-
-  - **Prioritized Identified Risks** - Prioritization is everything in
-    threat modeling, as there are always lots of risks that simply don't
-    rate any attention. For each threat, you estimate a number of
-    likelihood and impact factors to determine an overall risk or
-    severity level.
-
-<!-- end list -->
-
-  - **Identify Countermeasures to Reduce Threat** - The last step is to 
-    identify countermeasures to reduce the risk to acceptable levels.
 
 ## Benefits
 
@@ -142,18 +104,16 @@ argument that can be used to explain and defend the security of an
 application. An assurance argument starts with a few high level claims,
 and justifies them with either subclaims or evidence.
 
-## ThreatModel SDK
+## ThreatModel Tooling
 
-The ThreatModel SDK (<https://github.com/stevespringett/threatmodel-sdk>)
-is a minimalistic Java library that provides a basic
+There is a wide variety of tooling for threat modeling, including OWASP Threat Dragon and "The ThreatModel SDK" (<https://github.com/stevespringett/threatmodel-sdk>)
+which is a minimalistic Java library that provides a basic
 vendor-neutral object model along with the ability to parse reports
 generated from common threat modeling tools. It currently supports:
 
   - [Microsoft Threat Modeling Tool 2016](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling) (See bottom of page)
 
-And plans to support:
 
-  - [Mozilla SeaSponge](https://github.com/mozilla/seasponge)
 
 ## References
 
