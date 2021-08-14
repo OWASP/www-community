@@ -367,8 +367,11 @@ severe vulnerabilities.
 Download: [.Net sample program](https://wiki.owasp.org/images/2/25/Pubkey-pin-dotnet.zip).
 
 ```
-// Encoded RSAPublicKey
-private static string PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
+// Domain name for which to perform certificate pinning
+private const string DomainName = "encrypted.google.com";
+
+// Encoded RSAPublicKey for Domain name
+private const string DomainPublicKey = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
 	"C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
 	"D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
 	"9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
@@ -377,30 +380,32 @@ private static string PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
 public static void Main(string[] args)
 {
 	ServicePointManager.ServerCertificateValidationCallback = PinPublicKey;
-	var wr = WebRequest.Create("https://encrypted.google.com/");
+	var wr = WebRequest.Create(string.Format("https://{0}/", DomainName));
 	wr.GetResponse();
 }
 
-public static bool PinPublicKey(object sender, X509Certificate certificate, X509Chain chain,
-								SslPolicyErrors sslPolicyErrors)
+private static bool PinPublicKey(
+	object sender,
+	X509Certificate certificate,
+	X509Chain chain,
+	SslPolicyErrors sslPolicyErrors)
 {
-	// No errors
-	if (sslPolicyErrors == SslPolicyErrors.None)
-		return true;
-		
 	if (certificate == null)
 		return false;
 
-    var request = sender as HttpWebRequest;
-	if (request != null && string.Equals(request.Address.Authority, "encrypted.google.com"))
+	var request = sender as HttpWebRequest;
+	if (request == null) 
+		return false;
+		
+	// if the request is for the target domain, perform certificate pinning
+	if (string.Equals(request.Address.Authority, DomainName, StringComparison.OrdinalIgnoreCase))
 	{
 		var pk = certificate.GetPublicKeyString();
-		if (pk.Equals(PUB_KEY))
-			return true;
+		return pk.Equals(DomainPublicKey);
 	}
 
-	// There are SSL policy errors
-	return false;
+	// Check whether there were any policy errors for any other domain
+	return sslPolicyErrors == SslPolicyErrors.None;
 }
 ```
 
@@ -412,8 +417,11 @@ to the authority to which to apply certificate pinning, as the example above dem
 In .NET Framework 4.5 onwards, a validation callback can be set per HTTP request
 
 ```
-// Encoded RSAPublicKey
-private static string PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
+// Domain name for which to perform certificate pinning
+private const string DomainName = "encrypted.google.com";
+
+// Encoded RSAPublicKey for Domain name
+private const string DomainPublicKey = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
 	"C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
 	"D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
 	"9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
@@ -421,29 +429,35 @@ private static string PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
 
 public static void Main(string[] args)
 {
-	var wr = (HttpWebRequest)WebRequest.Create("https://encrypted.google.com/");
-    
-    // set server validation callback for this request only
-    wr.ServerCertificateValidationCallback = PinPublicKey;
+	var wr = (HttpWebRequest)WebRequest.Create(string.Format("https://{0}/", DomainName));
+	
+	// set server validation callback for this request only
+	wr.ServerCertificateValidationCallback = PinPublicKey;
 	wr.GetResponse();
 }
 
-public static bool PinPublicKey(object sender, X509Certificate certificate, X509Chain chain,
-								SslPolicyErrors sslPolicyErrors)
+private static bool PinPublicKey(
+	object sender,
+	X509Certificate certificate,
+	X509Chain chain,
+	SslPolicyErrors sslPolicyErrors)
 {
-	// No errors
-	if (sslPolicyErrors == SslPolicyErrors.None)
-		return true;
-		
 	if (certificate == null)
 		return false;
 
-    var pk = certificate.GetPublicKeyString();
-	if (pk.Equals(PUB_KEY))
-		return true;
+	var request = sender as HttpWebRequest;
+	if (request == null) 
+		return false;
+		
+	// if the request is for the target domain, perform certificate pinning
+	if (string.Equals(request.Address.Authority, DomainName, StringComparison.OrdinalIgnoreCase))
+	{
+		var pk = certificate.GetPublicKeyString();
+		return pk.Equals(DomainPublicKey);
+	}
 
-	// There are SSL policy errors
-	return false;
+	// Check whether there were any policy errors for any other domain
+	return sslPolicyErrors == SslPolicyErrors.None;
 }
 ```
 
@@ -451,11 +465,14 @@ public static bool PinPublicKey(object sender, X509Certificate certificate, X509
 
 When using `HttpClient`, a server validation callback can be set on
 `HttpClientHandler` that will affect **all** requests requiring
-validation made with the client instance.
+validation made with `HttpClient` instances using the `HttpClientHandler`.
 
 ```
-// Encoded RSAPublicKey
-private static string PUB_KEY = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
+// Domain name for which to perform certificate pinning
+private const string DomainName = "encrypted.google.com";
+
+// Encoded RSAPublicKey for Domain name
+private const string DomainPublicKey = "30818902818100C4A06B7B52F8D17DC1CCB47362" +
 	"C64AB799AAE19E245A7559E9CEEC7D8AA4DF07CB0B21FDFD763C63A313A668FE9D764E" +
 	"D913C51A676788DB62AF624F422C2F112C1316922AA5D37823CD9F43D1FC54513D14B2" +
 	"9E36991F08A042C42EAAEEE5FE8E2CB10167174A359CEBF6FACC2C9CA933AD403137EE" +
@@ -474,25 +491,27 @@ private static async Task MainAsync()
 	};
 
 	var client = new HttpClient(handler);
-	await client.GetAsync("https://encrypted.google.com/");
+	await client.GetAsync(string.Format("https://{0}/", DomainName));
 }
 
-public static bool PinPublicKey(HttpRequestMessage requestMessage, X509Certificate2 certificate, X509Chain chain,
-								SslPolicyErrors sslPolicyErrors)
-{
-	// No errors
-	if (sslPolicyErrors == SslPolicyErrors.None)
-		return true;
-		
+private static bool PinPublicKey(
+	HttpRequestMessage requestMessage,
+	X509Certificate2 certificate,
+	X509Chain chain,
+	SslPolicyErrors sslPolicyErrors)
+{~~~~
 	if (certificate == null)
 		return false;
 
-	var pk = certificate.GetPublicKeyString();
-	if (pk.Equals(PUB_KEY))
-		return true;
+	// if the request is for the target domain, perform certificate pinning
+	if (string.Equals(requestMessage.RequestUri.Authority, DomainName, StringComparison.OrdinalIgnoreCase))
+	{
+		var pk = certificate.GetPublicKeyString();
+		return pk.Equals(DomainPublicKey);
+	}
 
-	// There are SSL policy errors
-	return false;
+	// Check whether there were any policy errors for any other domain
+	return sslPolicyErrors == SslPolicyErrors.None;
 }
 ```
 
