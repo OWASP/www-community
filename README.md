@@ -1,35 +1,50 @@
-# 2020-July-02: Please Re-fork and Re-clone
+# OWASP Community Pages
 
-In order to greatly reduce the repository's size (from >5GB to ~211MB) we have had to re-write the repo's history. Please [delete your fork](https://docs.github.com/en/github/administering-a-repository/deleting-a-repository) and local clones. [Re-fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) and [re-clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+![GitHub repo size](https://img.shields.io/github/repo-size/OWASP/www-community)
 
-This was done to make the repository more manageable for those not on high speed connections:
+OWASP Community Pages is a repository for community contributions for security-related content. The documents here create the website at https://owasp.org/www-community/.
 
-Before:
-`Receiving objects: 100% (8604/8604), 5.27 GiB | 16.23 MiB/s, done.`
+## Contributing
 
-After:
-`Receiving objects: 100% (4672/4672), 211.77 MiB | 17.10 MiB/s, done.`
+We welcome contributions for new content and updates to current pages. This repository uses a [fork and pull model](https://docs.github.com/en/github/collaborating-with-pull-requests/getting-started/about-collaborative-development-models#fork-and-pull-model). Here are the steps for becoming a contributor:
 
-# General
+1. [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) this repository and [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) your fork.
+2. In the `pages/` directory, make your changes or additions. For creating new content, please see below.
+3. Push your changes to your fork, then open a pull request against this repository.
 
-[OWASP Community Pages](https://owasp.org/www-community/) are a place where OWASP can accept community contributions for security-related content. To contribute, go to the repository for this site. Go into the `pages` folder and create a new file. Save and commit the file.
+If you are making changes that address an [existing issue](https://github.com/OWASP/www-community/issues), please make a comment in the issue so we can assign it to you. This helps to prevent accidentally doubling up on work.
 
-Include the following front matter and include in your file (for example, see: `pages/password-special-characters.md` in this repository):
+### Creating New Content
+
+Go into the `pages` folder and create a new file.
+
+Place the following front matter and `include` tag at the beginning of your file. Feel free to copy and edit this example:
 
 ```md
 ---
 
 layout: col-sidebar
-title: [title of page]
-author: [author name]
-contributors: [contributors]
-permalink: [direct link to page, removes /pages] (this is optional and requires some care)
-tags: [attack, XSS, etc]
+title: "My Page"
+author: "My Name"
+contributors: ["Additional Contributor Names", "If Any"]
+permalink: /MyPageTitle
+tags: ["attack", "XSS"]
 
 ---
 
- {% include writers.html %}
+{% include writers.html %}
+
+Write your content here!
 
 ```
 
-**Please** ensure your content contribution is based on original work/thought and not plagiarised. Also, please ensure that contributions are vendor/product neutral.
+The fields `contributors`, `permalink`, and `tags` are optional. When in doubt, it's okay to leave them blank.
+
+### Rules for Contributors
+
+1. Your contribution must be your own original work. You may not submit copyrighted content you do not own. Please do not plagiarize.
+2. Please ensure that contributions are vendor and product neutral.
+
+### Note for Returning Contributors
+
+In July of 2020, the repository's git history was rewritten to reduce its size (over 5GB!). If you forked before this date, please [delete your fork](https://docs.github.com/en/github/administering-a-repository/deleting-a-repository) and local clones, then [re-fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) or [re-clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository.
