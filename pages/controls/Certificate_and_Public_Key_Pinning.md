@@ -499,7 +499,7 @@ private static bool PinPublicKey(
 	X509Certificate2 certificate,
 	X509Chain chain,
 	SslPolicyErrors sslPolicyErrors)
-{~~~~
+{
 	if (certificate == null)
 		return false;
 
