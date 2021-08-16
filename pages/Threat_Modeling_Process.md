@@ -5,8 +5,7 @@ layout: col-sidebar
 author: Larry Conklin
 contributors: ["Victoria Drake"]
 tags: ["threat modeling"]
-permalink: 
-  - /Threat_Modeling_Process
+permalink: /Threat_Modeling_Process
 
 ---
 
