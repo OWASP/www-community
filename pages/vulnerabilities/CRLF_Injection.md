@@ -17,15 +17,11 @@ The term CRLF refers to **C**arriage **R**eturn (ASCII 13, `\r`) **L**ine **F**e
 
 A CRLF Injection attack occurs when a user manages to submit a CRLF into an application. This is most commonly done by modifying an HTTP parameter or URL.
 
-## Risk Factors
-
-TBD
-
 ## Examples
 
 Depending on how the application is developed, this can be a minor problem or a fairly serious security flaw. Let's look at the latter because this is after all a security related post.
 
-Let's assume a file is used at some point to read/write data to a log of some sort. If an attacker managed to place a CRLF then can then inject some sort of read programmatic method to the file. This could result in the contents being written to screen on the next attempt to use this file.
+Let's assume a file is used at some point to read/write data to a log of some sort. If an attacker managed to place a CRLF, then can inject some sort of programmatic read method to the file. This could result in the contents being written to screen on the next attempt to use this file.
 
 Another example is the "response splitting" attacks, where CRLFs are injected into an application and included in the response. The extra CRLFs are interpreted by proxies, caches, and maybe browsers as the end of a packet, causing mayhem.
 
@@ -33,11 +29,3 @@ Another example is the "response splitting" attacks, where CRLFs are injected in
 
 - [HTTP Response Splitting](../attacks/HTTP_Response_Splitting)
 - [Log Injection](../attacks/Log_Injection)
-
-## Related [Vulnerabilities](../vulnerabilities/)
-
-## Related [Controls](../controls/)
-
-## References
-
-TBD
