@@ -1582,5 +1582,14 @@
       "platforms": null,
       "note": "SAST technology that attacks the source code from all corners it has all in one. Malware, SCA, License, and deep source code analysis.",
       "type": "SAST"
+   },
+   {
+      "title": "GitGuardian — Automated Secrets Detection",
+      "url": "https://www.gitguardian.com",
+      "owner": null,
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": "Secure your software development with automated secrets detection & remediation for private or public source code.",
+      "type": "SAST"
    }
 ]
