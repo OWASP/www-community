@@ -66,6 +66,7 @@ You can find popular tools for Java bytecode obfuscation below, or simply enter 
 - [DashO Android & Java Obfuscator](https://www.preemptive.com/products/dasho/overview) a Java, Kotlin and Android application hardening and obfuscation tool that provides passive and active protection.
 - [KlassMaster Heavy Duty Protection](http://www.zelix.com/klassmaster/), shrinks and obfuscates both code and string constants. It can also translate stack traces back to readable form if you save the obfuscation log.
 - [Javaguard](http://sourceforge.net/projects/javaguard/), a simple obfuscator without a lot of documentation.
+- [JObfuscator](https://www.pelock.com/jobfuscator/), Java source code obfuscator
 
 ## Using Proguard
 
