@@ -387,6 +387,15 @@
       "type": "DAST"
    },
    {
+      "title": "Nuclei",
+      "url": "http://nuclei.projectdiscovery.io",
+      "owner": "ProjectDiscovery",
+      "license": "Open Source",
+      "platforms": "Windows, Unix/Linux, and Macintosh",
+      "note": "Fast and customisable vulnerability scanner based on simple YAML based DSL.",
+      "type": "DAST"
+   },
+   {
       "title": "Probely",
       "url": "https://probely.com/",
       "owner": "Probely",
@@ -531,15 +540,6 @@
       "type": "DAST"
    },
    {
-      "title": "Web Security Scanner",
-      "url": "https://www.defensecode.com/webscanner.php",
-      "owner": "DefenseCode",
-      "license": "Commercial",
-      "platforms": "On-Premises",
-      "note": null,
-      "type": "DAST"
-   },
-   {
       "title": "WebApp360",
       "url": "http://www.tripwire.com/it-security-software/enterprise-vulnerability-management/web-application-vulnerability-scanning/",
       "owner": "TripWire",
@@ -567,15 +567,6 @@
       "type": "DAST"
    },
    {
-      "title": "Nuclei",
-      "url": "http://nuclei.projectdiscovery.io",
-      "owner": "ProjectDiscovery",
-      "license": "Open Source",
-      "platforms": "Windows, Unix/Linux, and Macintosh",
-      "note": "Fast and customisable vulnerability scanner based on simple YAML based DSL.",
-      "type": "DAST"
-   },
-   {
       "title": "WebReaver",
       "url": "http://www.websecurify.com/desktop/webreaver.html",
       "owner": "Websecurify",
@@ -594,12 +585,30 @@
       "type": "DAST"
    },
    {
+      "title": "Web Security Scanner",
+      "url": "https://www.defensecode.com/webscanner.php",
+      "owner": "DefenseCode",
+      "license": "Commercial",
+      "platforms": "On-Premises",
+      "note": null,
+      "type": "DAST"
+   },
+   {
       "title": "Websecurify Suite",
       "url": "https://suite.websecurify.com/",
       "owner": "Websecurify",
       "license": "Commercial",
       "platforms": "Windows, Linux, Macintosh",
       "note": "Free (Limited Capability)",
+      "type": "DAST"
+   },
+   {
+      "title": "Website Security Check",
+      "url": "https://cyberant.com/en/website-security-check/",
+      "owner": "CyberAnt",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "20% off with OWASP20",
       "type": "DAST"
    },
    {
