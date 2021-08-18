@@ -25,8 +25,8 @@ ID, and then hijacking the user-validated session by the knowledge of
 the used session ID. The attacker has to provide a legitimate Web
 application session ID and try to make the victim's browser use it.
 
-The session fixation attack is a class of [Session
-Hijacking](Session_hijacking_attack "wikilink"), which steals the
+The session fixation attack is not a class of [Session
+Hijacking](Session_hijacking_attack), which steals the
 established session between the client and the Web Server after the user
 logs in. Instead, the Session Fixation attack fixes an established
 session on the victim's browser, so the attack starts before the user
