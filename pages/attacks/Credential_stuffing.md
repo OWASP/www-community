@@ -35,7 +35,7 @@ Credential stuffing is dangerous to both consumers and enterprises because of th
 
 Now the attacker knows they have access to an account. Potential next steps include:
 
-1.  Draining stolen accounts of stored value or making purchases
+1.  Draining stolen accounts of stored value or making purchases.
 2.  Accessing sensitive information such as credit card numbers, private messages or pictures, or documents
 3.  Using the account to send phishing messages or spam
 4.  Selling known-valid credentials to one or more of the compromised sites for other attackers to use
