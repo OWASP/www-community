@@ -1027,11 +1027,11 @@
    },
    {
       "title": "CxSAST",
-      "url": "https://www.checkmarx.com/technology/static-code-analysis-sca/",
+      "url": "https://checkmarx.com/product/cxsast-source-code-scanning/",
       "owner": "Checkmarx",
       "license": "Commercial",
-      "platforms": null,
-      "note": null,
+      "platforms": "Saas, or on-premises. Windows and Linux with CI/CD and IDE plugin integration",
+      "note": "Run full or incremental source code security scans. Supported languages include Javascript, Java, Apex, PHP, Python, Swift, Scala, Perl, Groovy, Ruby, C++, C#.NET, PL/SQL, VB.NET, ASP.NET, HTML 5, Windows Mobile, Go, and Kotlin.",
       "type": "SAST"
    },
    {
@@ -1419,15 +1419,6 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "C, C++, Java, .NET",
-      "type": "SAST"
-   },
-   {
-      "title": "Checkmarx Static Code Analysis",
-      "url": "https://www.checkmarx.com/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Android, Apex, ASP.NET, C\\#, C++, Go, Groovy, HTML5, Java, JavaScript, JSP, .NET, Objective-C, Perl, PHP, PL/SQL, Python, Ruby, Scala, Swift, TypeScript, VB.NET, Visual Basic 6, Windows Phone",
       "type": "SAST"
    },
    {
