@@ -85,14 +85,18 @@ calls to be sure that the protection steps outlined below are followed.
 
 ## How to Protect Yourself
 
-The simplest way to protect against injection is to avoid accessing
+1. Avoid Accessing External Interpreters
+   
+   The simplest way to protect against injection is to avoid accessing
 external interpreters wherever possible. For many shell commands and
 some system calls, there are language specific libraries that perform
 the same functions. Using such libraries does not involve the operating
 system shell interpreter, and therefore avoids a large number of
 problems with shell commands.
 
-For those calls that you must still employ, such as calls to backend
+2. Validate Input
+  
+   For those calls that you must still employ, such as calls to backend
 databases, you must carefully validate the data provided to ensure that
 it does not contain any malicious content. You can also structure many
 requests in a manner that ensures that all supplied parameters are
@@ -106,7 +110,9 @@ details on how to specifically defend against SQL Injection, please
 refer to OWASP's [SQL Injection Prevention Cheat
 Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html).
 
-Another strong protection against injection attacks is to ensure that
+3. Apply Least Privilege
+   
+   Another strong protection against injection attacks is to ensure that
 the web application runs with only the privileges it absolutely needs to
 perform its function. So you should not run the webserver as root or
 access a database as DBADMIN, otherwise an attacker can abuse these
@@ -114,7 +120,9 @@ administrative privileges granted to the web application. Some of the
 J2EE environments allow the use of the Java sandbox, which can prevent
 the execution of system commands.
 
-If an external command must be used, any user information that is being
+4. Handle Exceptions and Returned Status Codes
+   
+   If an external command must be used, any user information that is being
 inserted into the command should be rigorously checked. Mechanisms
 should be put in place to handle any possible errors, timeouts, or
 blockages during the call. All output, return codes and error codes from
@@ -123,7 +131,9 @@ actually occurred. At a minimum, this will allow you to determine that
 something has gone wrong. Otherwise, the attack may occur and never be
 detected.
 
-The OWASP Filters project is producing reusable components in several
+5. Leverage the OWASP's Filters Project
+   
+   The OWASP Filters project is producing reusable components in several
 languages to help prevent many forms of injection.
 
 ## References
