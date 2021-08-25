@@ -58,6 +58,15 @@ tampering. Some typical examples of obfuscation techniques include:
 - **Unused Code and Metadata Removal** prunes out debug, non-essential metadata and used code from applications to reduce the information available to an attacker.
 - **Class file encryption** requires the JVM to decrypt the java executable before running confusing decompilers. Unlike some of the other transforms, this one is easy to circumvent by modifing the local JVM to simply write the executable to disk in its unencrypted form. See: [Javaworld article](http://www.javaworld.com/javaworld/javaqa/2003-05/01-qa-0509-jcrypt.html?page=2)).
 
+### How to automatically clean up obfuscated bytecode?
+
+While there are tools that would allow a person with enough patience and skill to 
+manually deobfuscate these techniques themselves, these processes can also be automated
+with some open source tools. 
+
+- [Java-Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) - A command line tool providing automated reversal of commerical obfuscation patterns.
+- [Threadtear](https://github.com/GraxCode/threadtear/) - A UI tool including automated reversal of commercial obfuscation patterns, plus preview decompilation of the results and more useful tooling.
+
 ### What obfuscation tools are available?
 
 You can find popular tools for Java bytecode obfuscation below, or simply enter `java obfuscator` in your favorite search engine.
