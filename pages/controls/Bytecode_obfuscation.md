@@ -3,7 +3,7 @@
 title: Bytecode Obfuscation
 layout: col-sidebar
 author: Pierre Parrend
-contributors: Stephendv, jmanico, AdamButton, KristenS, Robert Larsen, Shady, Milan Singh Thakur, Imifos, Gtorok, Robk, kingthorin
+contributors: Stephendv, jmanico, AdamButton, KristenS, Robert Larsen, Shady, Milan Singh Thakur, Imifos, Gtorok, Robk, kingthorin, Matt Coley
 tags: controls, java
 permalink: /controls/Bytecode_obfuscation
 
@@ -40,6 +40,7 @@ recreate source code from Java bytecode (executables or libraries).
 Popular decompilers include:
 
 - [Bytecode Viewer](https://bytecodeviewer.com) - A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
+- [Recaf](https://github.com/Col-E/Recaf) - A modern Java bytecode editor with support for multiple decompiler front-ends
 - [CFR](http://www.benf.org/other/cfr/) - Another Java decompiler
 - [JDGui](http://jd.benow.ca/) - Yet another fast Java decompiler
 - [Fernflower](https://github.com/fesh0r/fernflower) - An analytical decompiler for Java
