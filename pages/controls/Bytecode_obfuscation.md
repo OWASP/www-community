@@ -28,10 +28,10 @@ code can be reverse-engineered with enough skill, time and effort.
 However, for some platforms such as Java, Android, or.NET, free
 decompilers can easily reverse-engineer source code from an executable
 or library with no real time or effort. Automated bytecode obfuscation
-makes reverse-engineering a program difficult and economically
-unfeasible. Other advantages could include helping to protect licensing
-mechanisms and unauthorized access, hiding vulnerabilities and shrinking
-the size of the executable.
+can make reverse-engineering a program difficult but certainly not impossible.
+In simpler cases it can be done with enough patience and the correct tools. 
+Other advantages could include helping to protect licensing mechanisms and
+unauthorized access, hiding vulnerabilities and shrinking the size of the executable.
 
 ### How to recover Source Code from Bytecode?
 
@@ -59,6 +59,15 @@ tampering. Some typical examples of obfuscation techniques include:
 - **Unused Code and Metadata Removal** prunes out debug, non-essential metadata and used code from applications to reduce the information available to an attacker.
 - **Class file encryption** requires the JVM to decrypt the java executable before running confusing decompilers. Unlike some of the other transforms, this one is easy to circumvent by modifing the local JVM to simply write the executable to disk in its unencrypted form. See: [Javaworld article](http://www.javaworld.com/javaworld/javaqa/2003-05/01-qa-0509-jcrypt.html?page=2)).
 - **Targeting Decompiler Flaws** in order to cause reverse enginnering tools or analysis of the bytecode to fail. See: [Stop Decompiling My Java](https://github.com/ItzSomebody/stopdecompilingmyjava)
+
+### How to automatically clean up obfuscated bytecode?
+
+While there are tools that would allow a person with enough patience and skill to 
+manually deobfuscate these techniques themselves, these processes can also be automated
+with some open source tools. 
+
+- [Java-Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) - A command line tool providing automated reversal of common obfuscation patterns.
+- [Threadtear](https://github.com/GraxCode/threadtear/) - A UI tool including automated reversal of common obfuscation patterns, plus preview decompilation of the results and more useful tooling.
 
 ### What obfuscation tools are available?
 
