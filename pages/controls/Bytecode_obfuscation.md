@@ -64,8 +64,8 @@ While there are tools that would allow a person with enough patience and skill t
 manually deobfuscate these techniques themselves, these processes can also be automated
 with some open source tools. 
 
-- [Java-Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) - A command line tool providing automated reversal of commerical obfuscation patterns.
-- [Threadtear](https://github.com/GraxCode/threadtear/) - A UI tool including automated reversal of commercial obfuscation patterns, plus preview decompilation of the results and more useful tooling.
+- [Java-Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) - A command line tool providing automated reversal of common obfuscation patterns.
+- [Threadtear](https://github.com/GraxCode/threadtear/) - A UI tool including automated reversal of common obfuscation patterns, plus preview decompilation of the results and more useful tooling.
 
 ### What obfuscation tools are available?
 
