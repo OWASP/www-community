@@ -28,10 +28,10 @@ code can be reverse-engineered with enough skill, time and effort.
 However, for some platforms such as Java, Android, or.NET, free
 decompilers can easily reverse-engineer source code from an executable
 or library with no real time or effort. Automated bytecode obfuscation
-makes reverse-engineering a program difficult and economically
-unfeasible. Other advantages could include helping to protect licensing
-mechanisms and unauthorized access, hiding vulnerabilities and shrinking
-the size of the executable.
+can make reverse-engineering a program difficult but certainly not impossible.
+In simpler cases it can be done with enough patience and the correct tools. 
+Other advantages could include helping to protect licensing mechanisms and
+unauthorized access, hiding vulnerabilities and shrinking the size of the executable.
 
 ### How to recover Source Code from Bytecode?
 
