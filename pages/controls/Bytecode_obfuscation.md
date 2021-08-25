@@ -57,6 +57,7 @@ tampering. Some typical examples of obfuscation techniques include:
 - **Dummy Code Insertion** inserts code that does not affect the program’s logic, but breaks decompilers or makes reverse-engineered code harder to analyze.
 - **Unused Code and Metadata Removal** prunes out debug, non-essential metadata and used code from applications to reduce the information available to an attacker.
 - **Class file encryption** requires the JVM to decrypt the java executable before running confusing decompilers. Unlike some of the other transforms, this one is easy to circumvent by modifing the local JVM to simply write the executable to disk in its unencrypted form. See: [Javaworld article](http://www.javaworld.com/javaworld/javaqa/2003-05/01-qa-0509-jcrypt.html?page=2)).
+- **Targeting Decompiler Flaws** in order to cause reverse enginnering tools or analysis of the bytecode to fail. See: [Stop Decompiling My Java](https://github.com/ItzSomebody/stopdecompilingmyjava)
 
 ### What obfuscation tools are available?
 
