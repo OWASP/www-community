@@ -45,7 +45,7 @@ Alternatively, apply the following sanitization to each field of the CSV, so tha
 
 | Input                    | Escaped Output      |
 |--------------------------|---------------------|
-| `=1+2";=1+2`             | `"'=1+2"";,=1+2"`   |
+| `=1+2";=1+2`             | `"'=1+2"";=1+2"`   |
 | `=1+2'" ;,=1+2`          | `"'=1+2'"" ;,=1+2"` |
 
 For further information, please refer to the following articles:
