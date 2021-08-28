@@ -13,14 +13,14 @@ permalink: /Anti_CRSF_Tokens_ASP-NET
 
 # Description
 
-In short, CSRF abuses the **trust** relationship between **browser and
+CSRF abuses the **trust** relationship between **browser and
 server**. This means that anything that a server uses in order to
 establish trust with a browser (e.g., cookies, but also HTTP/Windows
-Authentication) is exactly what allows CSRF to take place - but this
-only the first piece for a successful CSRF attack.
+Authentication) is exactly what allows CSRF to take place. This is
+only the first piece for a successful CSRF attack, however.
 
-The second piece is a web form or request which contains parameters
-**predictable** enough that an attacker could craft their own malicious
+The second piece is a web form or request containing parameters that are:
+**predictable** enough an attacker could craft their own malicious
 form/request which, in turn, would be successfully accepted by the
 target service. Then, usually through social engineering or XSS, the
 victim would trigger that malicious form/request submission **while
@@ -30,9 +30,9 @@ browser/server trust is exploited.
 In order to prevent CSRF in ASP.NET, anti-forgery tokens (also known as
 request verification tokens) must be utilized.
 
-These tokens are simply randomly-generated values included in any
+These tokens are randomly-generated values included in any
 form/request that warrants protection. Note that this value should be
-unique for every individual session. This guarantees that every
+unique for every session. This guarantees that every
 form/request is tied to the authenticated user and, therefore, protected
 from CSRF.
 
