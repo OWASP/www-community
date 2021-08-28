@@ -19,7 +19,7 @@ establish trust with a browser (e.g., cookies, but also HTTP/Windows
 Authentication) is exactly what allows CSRF to take place. This is
 only the first piece for a successful CSRF attack, however.
 
-The second piece is a web form or request containing parameters that are
+The second piece is a web form or request containing parameters that are:
 **predictable** enough an attacker could craft their own malicious
 form/request which, in turn, would be successfully accepted by the
 target service. Then, usually through social engineering or XSS, the
