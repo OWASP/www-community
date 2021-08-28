@@ -60,6 +60,16 @@
         "description": "<p>TALLER B\u00c1SICO DE CRIPTOGRAF\u00cdA</p> "
     },
     {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #1",
+        "date": "2021-09-12",
+        "time": "19:00",
+        "link": "https://www.meetup.com/owasp-kolkata/events/280382063/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>Code review is a manual or automated process that examines an application\u2019s source code. The goal of this examination is to identify any existing security flaws or vulnerabilities. Code review specifically looks for logic errors, examines spec implementation, and checks style guidelines, among other activities.</p> <p>Join Us to learn from MR Samiran Santra on OWASP KOLKATA MEETUP #1.</p> "
+    },
+    {
         "group": "Singapore",
         "repo": "www-chapter-singapore",
         "name": "Developing secure software with OWASP tools and guides",
@@ -110,6 +120,16 @@
         "description": "<p>Please join us to play/train in Hack The Box (HTB), what you need is a Hack the Box account, free is cool, join us in discord (link <a href=\"https://discord.com/invite/uAWze2B\" class=\"linkified\">https://discord.com/invite/uAWze2B</a>) - FC-Announcements-Voice Channel, please ensure, after registration in Discord you go to the Bot and accept the Code of Conduct, otherwise, you won't be able to access the channels.</p> <p>There is no format to this night, we just want to get together to have some fun playing some battlegrounds, doing some of the machines or challenges; having fun overall!</p> <p>Please make sure you know the basics about HTB, eg. how to connect to the HTB VPN and that you have a valid account.</p> "
     },
     {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Introduction and Hands-On Hacking with OWASP JuiceShop ",
+        "date": "2021-09-09",
+        "time": "18:30",
+        "link": "https://www.meetup.com/OWASP-Atlanta/events/280374504/",
+        "timezone": "US/Eastern",
+        "description": "<p>Dan Gora will give an introduction to the OWASP JuiceShop, the German OWASP flagship project and one of the most likely sophisticated insecure web applications. Dan demonstrates how to get started with hands-on application security learning by walking through OWASP Top 10 vulnerabilities in the JuiceShop. This includes vulnerabilities such as cross-site scripting and code injection. Furthermore, it will be shown how the OWASP Juice Shop can be used for security training, awareness demos, CTFs and as a guinea pig for testing your security tooling.</p> "
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - August 2021",
@@ -118,16 +138,6 @@
         "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/280117239/",
         "timezone": "US/Central",
         "description": "<p>Chapter meeting and presentation:</p> <p>Securing Terraform State in an Azure DevOps Pipeline</p> <p>Terraform is a popular Infrastructure as Code ecosystem whose declarative and idempotent model relies on maintaining a state file which can contain sensitive information. The continuity and security of this file is important and this presentation discusses the investigation, lessons learned, thrills and chills of discovering how to secure and maintain this file in the context of corporate security requirements for a Fortune 75, Azure Cloud, and Azure DevOps.</p> <p>Presenter: Garth Boyd</p> <p>Garth Boyd is a Senior Application Security Architect/Cloud Security Architect specializing in Secure Software Architecture and Ethical Hacking. He supports organizations wishing a designer, creator, and breaker to help them on their security path. A lifelong learner who enjoys crafting solutions to interesting and tough problems through architecture, threat modelling, mitigation design, and penetration testing. Researching new ideas, troubleshooting, communication, and thinking of six impossible things before breakfast are part of the journey. Currently, Garth is the OWASP Ottawa Chapter Leader and an independent consultant working though his own company called Devious Plan.</p> "
-    },
-    {
-        "group": "Cleveland",
-        "repo": "www-chapter-cleveland",
-        "name": "OWASP Cleveland Chapter with Black Hills Information Security",
-        "date": "2021-08-27",
-        "time": "18:30",
-        "link": "https://www.meetup.com/owasp-cleveland-group/events/280078391/",
-        "timezone": "US/Eastern",
-        "description": "<p>The OWASP Cleveland Chapter will be joined by Black Hills Information Security for an introduction to the Backdoors &amp; Breaches Incident Response Card Game.</p> "
     },
     {
         "group": "Columbus",
@@ -250,14 +260,34 @@
         "description": "<p>\"Introduction to SSL/TLS &amp; Their Attacks\"</p> <p>The presentation will talk about the history of the SSL/TLS protocols, and the old and new vulnerabilities in the protocols as well as the ciphersuites. Moreover, it will briefly talk about the encryption issues and the applications of the TLS that went bad in the recent years. Finally, the discovery of the issues and the exploitation of some of them will be explained.</p> <p>Speaker - Rian Saaty</p> <p>Rian Saaty is a senior cybersecurity consultant focused on penetration testing, vulnerability assessment, and Red Teaming. Rian has a M.S. degree in Cybersecurity from Johns Hopkins University Whiting School of Engineering. He was previously a lecturer at KAU and an advisor for multiple entities. Furthermore, he holds a number of top-notch industry certificates such as OSEP, OSCE, OSCP, GPEN, CRTE, CRTO, etc.</p> <p>Date - 30th August 2021<br/>Time - 7:30 PM</p> "
     },
     {
+        "group": "Chandigarh",
+        "repo": "www-chapter-chandigarh",
+        "name": "Demystifying SCADA Pentesting",
+        "date": "2021-08-29",
+        "time": "16:00",
+        "link": "https://www.meetup.com/chandigarh-owasp-meetup-group/events/280385316/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>Supervisor Control and Data Acquisition (SCADA) is a network of systems that aims to monitor and control field devices at remote sites. For example an industrial infrastructure works on this principle, having workstations, PLC/RTU, Valve, Pump which are controlled by a system.<br/>Used in manufacturing industries, oil and gas, electric power plant systems. And one of the important topics risk advisors must be aware of!</p> <p>So, OWASP Chandigarh brings to you all about SCADA Networks and Its Pentesting by Rajarshi Barui.</p> <p>Registration Link: <a href=\"https://forms.gle/Ymk6cXgeejju6xH58\" class=\"linkified\">https://forms.gle/Ymk6cXgeejju6xH58</a></p> "
+    },
+    {
+        "group": "Chandigarh",
+        "repo": "www-chapter-chandigarh",
+        "name": "reNgine-Automated Reconnaissance Framework",
+        "date": "2021-08-29",
+        "time": "16:00",
+        "link": "https://www.meetup.com/chandigarh-owasp-meetup-group/events/280385451/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>ReNgine is an automated reconnaissance framework for web applications with focus on highly configurable streamlined recon process via engines, recon data correlation and organization, continuous monitoring, backed by database and simple yet intuitive user interface.</p> <p>OWASP Chandigarh brings its second speaker Mr Yogesh Ojha, who is the creator/maintainer of this all in one recon tool giving a live demo of its uses.</p> <p>Registration Link: <a href=\"https://forms.gle/Ymk6cXgeejju6xH58\" class=\"linkified\">https://forms.gle/Ymk6cXgeejju6xH58</a></p> "
+    },
+    {
         "group": "Nagpur",
         "repo": "www-chapter-nagpur",
         "name": "OWASP Nagpur Meetup #12 (Virtual)",
-        "date": "2021-08-28",
+        "date": "2021-09-04",
         "time": "17:00",
         "link": "https://www.meetup.com/OWASP-Nagpur-Chapter/events/279858014/",
         "timezone": "Asia/Calcutta",
-        "description": "<p>28th August 5:00 PM IST</p> <p>Agenda</p> <p>Breaking Down Common Bug Bounty Mistakes, and Getting Started by<br/><a href=\"https://twitter.com/codingo_\"> @codingo_ ( Michael Skelton - Senior Director of Operations , Bugcrowd) </a></p> "
+        "description": "<p>4th September 5:00 PM IST</p> <p>Agenda</p> <p>Breaking Down Common Bug Bounty Mistakes, and Getting Started by<br/>@codingo_ ( Michael Skelton - Senior Director of Operations , Bugcrowd) (<a href=\"https://twitter.com/codingo_\" class=\"linkified\">https://twitter.com/codingo_</a>)</p> "
     },
     {
         "group": "Belgium",
@@ -307,7 +337,7 @@
         "time": "16:00",
         "link": "https://www.meetup.com/OWASP-Vina-del-Mar-Chapter/events/280327073/",
         "timezone": "America/Santiago",
-        "description": "<p>Evento en conjunto con OWASP Chapter Panama</p> <p>Cuatro Speakers</p> <p>Speakers Confirmados:</p> <p>-Rudy Pinochett (Que es SAST/DAST/IAST/RASP)<br/>-Philippe Delteil (vulnerabilidades reales de OWASP)</p> "
+        "description": "<p>Evento en conjunto con OWASP Chapter Panama</p> <p>Cuatro Speakers</p> <p>Speakers Confirmados:</p> <p>-Rudy Pinochett (Que es SAST/DAST/IAST/RASP)<br/>-Philippe Delteil (vulnerabilidades reales de OWASP)</p> <p>Host: Brandon Aldana(Vi\u00f1a del mar) y Onam Diaz(Panama)</p> "
     },
     {
         "group": "Porto Alegre",
