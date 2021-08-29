@@ -10,16 +10,6 @@
         "description": "<p>Charla \"Como Evitar Ser Victima de Ingenieria Social\" impartida por la Phd (C) Gizeth Aleli Castro.<br/>-Phd (C) en la Gestion de la Administracion Gerencial<br/>-Master en Administracion de Empresas<br/>-Ingeniero en Sistemas<br/>-Licenciatura en Informatica Educativa<br/>-Certificacion en Ethical Hacker<br/>-Diplomado en Seguridad de Redes<br/>-Docente Universitario<br/>-Tutora Certificada</p> "
     },
     {
-        "group": "Tegucigalpa",
-        "repo": "www-chapter-tegucigalpa",
-        "name": "Programando con ReactJS: Creando Componentes Reutilizables",
-        "date": "2021-08-28",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Tegucigalpa-Chapter/events/279837235/",
-        "timezone": "America/Tegucigalpa",
-        "description": "<p>Charla Programando con ReactJS impartida por la Ing. Kensy Ayala:<br/>-Ingeniera Inform\u00e1tica<br/>-Miembro de DevTeam504<br/>-Experiencia en Soporte t\u00e9cnico y helpdesk<br/>-Frontend &amp; Backend Developer<br/>-Angular and React lover</p> "
-    },
-    {
         "group": "San Pedro Sula",
         "repo": "www-chapter-san-pedro-sula",
         "name": "Escalaci\u00f3n de privilegios en Linux",
@@ -58,6 +48,16 @@
         "link": "https://www.meetup.com/OWASP-Lima-Meetup-Group/events/280201153/",
         "timezone": "America/Lima",
         "description": "<p>TALLER B\u00c1SICO DE CRIPTOGRAF\u00cdA</p> "
+    },
+    {
+        "group": "Rio De Janeiro",
+        "repo": "www-chapter-rio-de-janeiro",
+        "name": "OWASP Chapter RJ - 8\u00ba Meeting",
+        "date": "2021-09-29",
+        "time": "19:30",
+        "link": "https://www.meetup.com/owasp-rio-de-janeiro/events/280255455/",
+        "timezone": "America/Sao_Paulo",
+        "description": "<p>Esse \u00e9 o oitavo encontro do cap\u00edtulo no RJ da OWASP em 2021. Veja nossa agenda a seguir:</p> <p>1. Warm-up (10min)<br/>1.1 Eventos de agosto: melhores apresenta\u00e7\u00f5es<br/>2. Em breve (45min)<br/>3. Discuss\u00e3o, cases e exemplos (20min)</p> <p>Confira mais sobre o cap\u00edtulo em <a href=\"https://owasp.org/www-chapter-rio-de-janeiro/\" class=\"linkified\">https://owasp.org/www-chapter-rio-de-janeiro/</a>.</p> "
     },
     {
         "group": "Kolkata",
@@ -210,6 +210,16 @@
         "description": "<p>Placeholder for our relaunch event for OWASP Orlando. We have not met in a couple years, in between life and pandemic, but its time to get back to making software security visible!</p> <p>We were planning an in-person event, but recent CDC guidance has us rethinking that idea, so in order to keep everyone safe we will be doing an online event.</p> <p>Agenda:<br/>Introductions<br/>OWASP Overview<br/>Presentation 1 - Software Supply Chain Security<br/>Presentation 2 - OWASP Flagship Projects<br/>Call to Action - Get Involved!</p> "
     },
     {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "September 2021 Chapter Meeting (virtual)",
+        "date": "2021-09-29",
+        "time": "12:00",
+        "link": "https://www.meetup.com/owasp-slc/events/280319857/",
+        "timezone": "US/Mountain",
+        "description": "<p>The next meetup is in September and will be VIRTUAL. Join Wasatch AppSec Slack (<a href=\"https://join.slack.com/t/wasatchappsec/shared_invite/zt-nw4d0iq9-bBMKHrFITzJMMsDye6FNYg\" class=\"linkified\">https://join.slack.com/t/wasatchappsec/shared_invite/zt-nw4d0iq9-bBMKHrFITzJMMsDye6FNYg</a>) to suggest any additional topics.</p> <p>Agenda:<br/>- We'll discuss Professional Development and share some thoughts on how to evaluate the options at different stages in your AppSec career:<br/>---- 1---- Getting Started in AppSec<br/>---- 2 ---- Mid-Level<br/>---- 3 ---- Senior Level (Technical)<br/>---- 4 ---- Management/Consultant</p> <p>Topic: OWASP SLC September 2021 Chapter Meeting<br/>Time: Sep 29, 2021 12:00 PM Mountain Time (US and Canada)</p> <p>Join Zoom Meeting<br/><a href=\"https://us06web.zoom.us/j/84230742778?pwd=cGJkNysyNm9Ud2FLRTZac2xFYW5qdz09\" class=\"linkified\">https://us06web.zoom.us/j/84230742778?pwd=cGJkNysyNm9Ud2FLRTZac2xFYW5qdz09</a></p> <p>Meeting ID: 842 3074 2778<br/>Passcode: 940093<br/>One tap mobile<br/>+16699006833,,84230742778#,,,,*940093# US (San Jose)<br/>+12532158782,,84230742778#,,,,*940093# US (Tacoma)</p> <p>Dial by your location<br/>+1 669 900 6833 US (San Jose)<br/>+1 253 215 8782 US (Tacoma)<br/>+1 346 248 7799 US (Houston)<br/>+1 929 436 2866 US (New York)<br/>+1 301 715 8592 US (Washington DC)<br/>+1 312 626 6799 US (Chicago)<br/>Meeting ID: 842 3074 2778<br/>Passcode: 940093<br/>Find your local number: <a href=\"https://us06web.zoom.us/u/kb0Bx0Y4qt\" class=\"linkified\">https://us06web.zoom.us/u/kb0Bx0Y4qt</a></p> "
+    },
+    {
         "group": "San Diego",
         "repo": "www-chapter-san-diego",
         "name": "Monthly Meeting",
@@ -228,26 +238,6 @@
         "link": "https://www.meetup.com/OWASP-Dhaka-Chapter/events/279953296/",
         "timezone": "Asia/Dhaka",
         "description": "<p>OWASP Dhaka Chapter Monthly Meetup Program.</p> <p>Details of the program would announce shortly.</p> "
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "Cyber Security and Data Privacy Careers are Timeless",
-        "date": "2021-08-28",
-        "time": "18:30",
-        "link": "https://www.meetup.com/Chennai-OWASP-Meetup-Group/events/280082902/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Sailaja Vadlamudi is a Mentor, Author, Researcher, Security Strategist, and Global Advisory member with more than 18 years of exp she is SAP Labs India \u2018s first Application Security Lead &amp; she is also Senior Director of Security &amp; Data Privacy. She is a noted speaker at national and international forums. She founded Non-profit Women in cybersecurity and privacy aiming to sensitize girls and women on Cyber Security awareness among women.</p> <p>Registration Link: <a href=\"https://forms.gle/jrvLCM4PWzM2urFNA\" class=\"linkified\">https://forms.gle/jrvLCM4PWzM2urFNA</a></p> "
-    },
-    {
-        "group": "Hyderabad",
-        "repo": "www-chapter-hyderabad",
-        "name": "OWASP Hyderabad Chapter Meet - August",
-        "date": "2021-08-28",
-        "time": "10:00",
-        "link": "https://www.meetup.com/hyderabad-owasp-meetup-group/events/280276508/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Hello OWASPIANS ,</p> <p>It's a great pleasure to announce the OWASP Hyderabad Chapter August month meetup</p> <p>The following talks are lined up for the day :</p> <p>1. Overview of DLT and DeFi Vulnerabities - Dr David Utzke</p> <p>This session will cover various attack vectors on distributed ledgers and DeFi DApps such as node network, smart contract, and oracle vulnerabilities.</p> <p>About Dr.David: A consultative thought leader in distributed ledger technology, digital assets, DeFi, Smart City Technology Integration Design, alternative payment systems, and crime prevention.Dr.David Utzke has spent the past 30 years in the digital asset and distributed ledger ecosystem as a researcher, academic, and user.</p> <p>2. DevSecOps build Failure enablement with Powershell- Mr.Krishna Reddy Padala</p> <p>About Mr.Krishna Reddy Padala: 12 + years\u2019 of experience with Application Security , Source Code Reviews and Network Vulnerability Assessments and DevSecOps.He is an OSCP, CISM, AWS Security Specialty Certified, Masters in Technology (CSE), Helping companies to secure their data, code and applications with Fortify on Demand. He is currently working as a Technical Solutions Consultant at Micro Focus.</p> <p>Join Zoom Meeting<br/><a href=\"https://us06web.zoom.us/j/84300542444?pwd=a2VNYlBJWDFmNlNYWUV4K0h1ZHNHQT09\" class=\"linkified\">https://us06web.zoom.us/j/84300542444?pwd=a2VNYlBJWDFmNlNYWUV4K0h1ZHNHQT09</a></p> <p>Meeting ID: 843 0054 2444<br/>Passcode: 892080<br/>One tap mobile<br/>+16699006833,,84300542444# US (San Jose)<br/>+19294362866,,84300542444# US (New York)</p> <p>Dial by your location<br/>+1 669 900 6833 US (San Jose)<br/>+1 929 436 2866 US (New York)<br/>+1 253 215 8782 US (Tacoma)<br/>+1 301 715 8592 US (Washington DC)<br/>+1 312 626 6799 US (Chicago)<br/>+1 346 248 7799 US (Houston)<br/>Meeting ID: 843 0054 2444<br/>Find your local number: <a href=\"https://us06web.zoom.us/u/kgY49CIDH\" class=\"linkified\">https://us06web.zoom.us/u/kgY49CIDH</a></p> "
     },
     {
         "group": "Riyadh",
@@ -290,6 +280,16 @@
         "description": "<p>4th September 5:00 PM IST</p> <p>Agenda</p> <p>Breaking Down Common Bug Bounty Mistakes, and Getting Started by<br/>@codingo_ ( Michael Skelton - Senior Director of Operations , Bugcrowd) (<a href=\"https://twitter.com/codingo_\" class=\"linkified\">https://twitter.com/codingo_</a>)</p> "
     },
     {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "The Eastern Cyber Resilience Centre - helping SMEs be cyber resilient",
+        "date": "2021-09-29",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/279020534/",
+        "timezone": "Europe/London",
+        "description": "<p>Details</p> <p>We are really excited to have Detective Inspector Fiona Bail with us to give a talk about Cybercrime and The Eastern Cyber Resilience Centre.</p> <p>The Talk:</p> <p>Cybercrime is a growing threat to businesses of all sizes, but small and medium enterprises may not have the resources or confidence to implement cyber resilience strategies. The ECRC has been set up to help those companies recognise the risk and mitigate it, through free membership, guidance and affordable services.</p> <p>Join us for a review of the current cybercrime landscape, why the ECRC has been set up and some practical tips that companies can implement to help improve their cyber resilience.</p> <p> What is the Eastern Cyber Resilience Centre (ECRC)<br/> Why the ECRC is required<br/> A review of the current cyber resilience landscape<br/> Some practical guidance for companies to implement</p> <p>About Detective Inspector Fiona Bail:</p> <p>I am Detective Inspector Fiona Bail, previously within Cambridgeshire Constabulary\u2019s Serious and Complex Fraud and Cyber team and now seconded as the Head of Cyber and Innovation for the Eastern Cyber Resilience Centre (ECRC). The ECRC is a police-led not-for-profit company, set up as part of a national network of Cyber Resilience Centres to give SMEs guidance and access to affordable cyber services. We are a collaboration between policing, industry experts and academia to increase cyber resilience in our Region. We cover Cambridgeshire, Norfolk, Suffolk, Bedfordshire, Hertfordshire, Essex and Kent.</p> <p>Note that this event is being administered and hosted by the ISTN ( <a href=\"https://www.istn.org.uk/\" class=\"linkified\">https://www.istn.org.uk/</a> ).</p> "
+    },
+    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BE - OWASP Top 10 2021 (by Andrew van der Stock)",
@@ -298,6 +298,16 @@
         "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/280072891/",
         "timezone": "Europe/Brussels",
         "description": "<p>On September 16th, we have scheduled Andrew van der Stock with The OWASP Top 10 2021.</p> <p>This chapter meeting is part of a series of virtual chapter meetings (every 3rd Thursday of the month).</p> <p>Our chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed. Registered attendees can join via Zoom, and ask questions to the speakers.</p> <p>More info on this series of chapter meetings or on the Belgium OWASP chapter can be found at <a href=\"https://owasp.org/www-chapter-belgium/\" class=\"linkified\">https://owasp.org/www-chapter-belgium/</a> .</p> "
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "The Eastern Cyber Resilience Centre - helping SMEs be cyber resilient",
+        "date": "2021-09-29",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Bristol/events/279154312/",
+        "timezone": "Europe/London",
+        "description": "<p>Event organized by OWASP Suffolk Chapter .<br/>Places are limited - please RSPV at:<br/><a href=\"https://www.meetup.com/OWASP-Suffolk-Chapter/events/279020534/\" class=\"linkified\">https://www.meetup.com/OWASP-Suffolk-Chapter/events/279020534/</a></p> "
     },
     {
         "group": "Germany",
@@ -348,16 +358,6 @@
         "link": "https://www.meetup.com/OWASP-Porto-Alegre-Chapter/events/280320082/",
         "timezone": "America/Sao_Paulo",
         "description": "<p>Buenas pessoal!</p> <p>E l\u00e1 vem o nosso s\u00e9timo encontro! N\u00e3o deixem de participar!</p> <p>02 de Setembro, quinta-feira, a partir das 19h30 no nosso canal do YouTube [link em breve]</p> <p>Confira a agenda:</p> <p>19h30-20h30<br/>\"Design Patterns e Seguran\u00e7a\"<br/>Alessandra Martins (DPO, CSO e GPSC Consultant na CSTI Morestar)</p> <p>20:30-21:30<br/>\"A Primeira Muralha: Seguran\u00e7a no Front End!\"<br/>Alvaro Neto (Especialista na F1rst, empresa de tecnologia do grupo Santander)</p> <p>Contamos com voc\u00eas!</p> "
-    },
-    {
-        "group": "Ahmedabad",
-        "repo": "www-chapter-ahmedabad",
-        "name": "OWASP Ahm Monthly Meet-up",
-        "date": "2021-08-28",
-        "time": "11:00",
-        "link": "https://www.meetup.com/OWASP-Ahmedabad-Chapter/events/280296660/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>11:00 am - 11:15 am - News Bytes by Udit Chavda<br/>11:15 am - 11:45 am - Common Vulnerabilities in Forget password Functionality by Harsh Bothra<br/>11:45 am - 12:15 pm - Need for Data Privacy by Kavani</p> <p>Meet Link : meet.google.com/jvm-nfwk-sbb</p> "
     },
     {
         "group": "Canberra",
