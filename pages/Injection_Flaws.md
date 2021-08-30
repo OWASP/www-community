@@ -33,7 +33,7 @@ The web application blindly passes these on to the external system for
 execution.
 
 SQL injection is a particularly widespread and dangerous form of
-injection. To exploit an SQL injection flaw, an attacker needs to find
+injection. To exploit a SQL injection flaw, an attacker needs to find
 a parameter that the web application passes through to a database. An
 attacker can then embed malicious SQL commands into the content of the
 parameter, to trick the web application to forward a malicious query to
