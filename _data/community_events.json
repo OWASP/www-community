@@ -210,6 +210,16 @@
         "description": "<p>Placeholder for our relaunch event for OWASP Orlando. We have not met in a couple years, in between life and pandemic, but its time to get back to making software security visible!</p> <p>We were planning an in-person event, but recent CDC guidance has us rethinking that idea, so in order to keep everyone safe we will be doing an online event.</p> <p>Agenda:<br/>Introductions<br/>OWASP Overview<br/>Presentation 1 - Software Supply Chain Security<br/>Presentation 2 - OWASP Flagship Projects<br/>Call to Action - Get Involved!</p> "
     },
     {
+        "group": "Triangle Nc",
+        "repo": "www-chapter-triangle-nc",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2021-09-30",
+        "time": "18:30",
+        "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccmbnc/",
+        "timezone": "US/Eastern",
+        "description": "<p>TBA</p> "
+    },
+    {
         "group": "Salt Lake City",
         "repo": "www-chapter-salt-lake-city",
         "name": "September 2021 Chapter Meeting (virtual)",
@@ -248,26 +258,6 @@
         "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/279776113/",
         "timezone": "Asia/Riyadh",
         "description": "<p>\"Introduction to SSL/TLS &amp; Their Attacks\"</p> <p>The presentation will talk about the history of the SSL/TLS protocols, and the old and new vulnerabilities in the protocols as well as the ciphersuites. Moreover, it will briefly talk about the encryption issues and the applications of the TLS that went bad in the recent years. Finally, the discovery of the issues and the exploitation of some of them will be explained.</p> <p>Speaker - Rian Saaty</p> <p>Rian Saaty is a senior cybersecurity consultant focused on penetration testing, vulnerability assessment, and Red Teaming. Rian has a M.S. degree in Cybersecurity from Johns Hopkins University Whiting School of Engineering. He was previously a lecturer at KAU and an advisor for multiple entities. Furthermore, he holds a number of top-notch industry certificates such as OSEP, OSCE, OSCP, GPEN, CRTE, CRTO, etc.</p> <p>Date - 30th August 2021<br/>Time - 7:30 PM</p> "
-    },
-    {
-        "group": "Chandigarh",
-        "repo": "www-chapter-chandigarh",
-        "name": "Demystifying SCADA Pentesting",
-        "date": "2021-08-29",
-        "time": "16:00",
-        "link": "https://www.meetup.com/chandigarh-owasp-meetup-group/events/280385316/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Supervisor Control and Data Acquisition (SCADA) is a network of systems that aims to monitor and control field devices at remote sites. For example an industrial infrastructure works on this principle, having workstations, PLC/RTU, Valve, Pump which are controlled by a system.<br/>Used in manufacturing industries, oil and gas, electric power plant systems. And one of the important topics risk advisors must be aware of!</p> <p>So, OWASP Chandigarh brings to you all about SCADA Networks and Its Pentesting by Rajarshi Barui.</p> <p>Registration Link: <a href=\"https://forms.gle/Ymk6cXgeejju6xH58\" class=\"linkified\">https://forms.gle/Ymk6cXgeejju6xH58</a></p> "
-    },
-    {
-        "group": "Chandigarh",
-        "repo": "www-chapter-chandigarh",
-        "name": "reNgine-Automated Reconnaissance Framework",
-        "date": "2021-08-29",
-        "time": "16:00",
-        "link": "https://www.meetup.com/chandigarh-owasp-meetup-group/events/280385451/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>ReNgine is an automated reconnaissance framework for web applications with focus on highly configurable streamlined recon process via engines, recon data correlation and organization, continuous monitoring, backed by database and simple yet intuitive user interface.</p> <p>OWASP Chandigarh brings its second speaker Mr Yogesh Ojha, who is the creator/maintainer of this all in one recon tool giving a live demo of its uses.</p> <p>Registration Link: <a href=\"https://forms.gle/Ymk6cXgeejju6xH58\" class=\"linkified\">https://forms.gle/Ymk6cXgeejju6xH58</a></p> "
     },
     {
         "group": "Nagpur",
@@ -348,6 +338,16 @@
         "link": "https://www.meetup.com/OWASP-Vina-del-Mar-Chapter/events/280327073/",
         "timezone": "America/Santiago",
         "description": "<p>Evento en conjunto con OWASP Chapter Panama</p> <p>Cuatro Speakers</p> <p>Speakers Confirmados:</p> <p>-Rudy Pinochett (Que es SAST/DAST/IAST/RASP)<br/>-Philippe Delteil (vulnerabilidades reales de OWASP)</p> <p>Host: Brandon Aldana(Vi\u00f1a del mar) y Onam Diaz(Panama)</p> "
+    },
+    {
+        "group": "Devslop",
+        "repo": "www-project-devslop",
+        "name": "Hands-on Guide to Security Response Automation",
+        "date": "2021-09-12",
+        "time": "13:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280184487/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>The repetitive nature of response tasks is one of the biggest causes of fatigue and burnout among Incident Responders. Anyone who\u2019s been on-call on a Security team can remember how many hours they\u2019ve spent opening the same tabs, clicking the same buttons, copy+pasting the same indicator data and performing other similar tasks repeatedly. Imagine if that time was spent building stronger detection capabilities instead, or even better, on taking a break from the screen and going out for a walk!</p> <p>While this issue can be solved by outsourcing the frontline response capabilities, it is costly in terms of time and money to identify a proficient vendor, obtain approvals, finalize the contract, and pay for the service...</p> <p>What if I told you that at Segment, we built this capability with an open-source tool in the same amount of time it would take a team to do all of the above, with the time and resources of a single full-time security engineer? Welcome to the story of our Response Automation journey!</p> <p>OUR SPEAKER</p> <p>Prima Virani</p> <p>Prima is a seasoned Security professional who has worked in a variety of industries such as Consumer Tech, Oil &amp; Gas, Media, and Fin-tech. She is a Senior Engineer on SIRT at Segment where she enjoys creating tooling for Incident Detection &amp; Response and occasionally dabbles in Security DevOps. She loves sharing her experiences with the industry and has spoken at many meetups and conferences globally including, but not limited to, Agile India 2020, MacDevOpsCon Vancouver 2019, Grace Hopper Conference 2017.</p> "
     },
     {
         "group": "Porto Alegre",
