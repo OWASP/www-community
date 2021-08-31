@@ -20,8 +20,8 @@ with injection flaws. These attacks include:
 - Use of external programs with shell commands.
 - Calls to backend databases through SQL (such as for an SQL injection).
 
-With these methods, an attacker can inject and execute scripts written in languages
-such as Perl and Python into poorly designed applications. Whenever an application
+With these methods, an attacker can inject and execute scripts via poorly designed applications.
+Whenever an application
 uses an interpreter, there's a danger of introducing an injection vulnerability.
 
 Many web applications depend on operating system features and external
