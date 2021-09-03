@@ -4,7 +4,7 @@ layout: col-sidebar
 title: Source Code Analysis Tools
 author: 
 contributors: 
-  - Dave Wichers, itamarlavender, will-obrien, Eitan Worcel, Prabhu Subramanian, kingthorin, coadaflorin, hblankenship, GovorovViva64, pfhorman, GouveaHeitor, Clint Gibler, DSotnikov, Ajin Abraham, Noam Rathaus   
+  - Dave Wichers, itamarlavender, will-obrien, Eitan Worcel, Prabhu Subramanian, kingthorin, coadaflorin, hblankenship, GovorovViva64, pfhorman, GouveaHeitor, Clint Gibler, DSotnikov, Ajin Abraham, Noam Rathaus, Mike Jang
 tags: source code analysis, static code analysis, tools
 permalink: /Source_Code_Analysis_Tools
 
@@ -12,39 +12,55 @@ permalink: /Source_Code_Analysis_Tools
 
 {% include writers.html %}
 
-[Source code analysis](Static_Code_Analysis) tools, also referred to as Static Application Security Testing (SAST) Tools, are designed to analyze source code or compiled versions of code to help find security flaws.
+[Source code analysis](Static_Code_Analysis) tools, also known as Static Application Security Testing (SAST) Tools, can help you analyze source code or compiled versions of code to help find security flaws.
 
-Some tools are starting to move into the IDE. For the types of problems that can be detected during the software development phase itself, this is a powerful phase within the development life cycle to employ such tools, as it provides immediate feedback to the developer on issues they might be introducing into the code during code development itself. This immediate feedback is very useful, especially when compared to finding
-vulnerabilities much later in the development cycle.
+You can add some SAST tools into your IDE. Such tools can help you detect issues during software development.
+SAST tool feedback can save time and effort, especially when compared to finding vulnerabilities later in the development cycle.
 
 ## Strengths and Weaknesses
 
 ### Strengths
 
 - Scales well -- can be run on lots of software, and can be run repeatedly (as with nightly builds or continuous integration).
-- Useful for things that such tools can automatically find with high confidence, such as buffer overflows, SQL Injection Flaws, and so forth.
-- Output is good for developers -- highlights the precise source files, line numbers, and even subsections of lines that are affected.
+- Identifies certain well-known vulnerabilities, such as:
+  - Buffer overflows
+  - SQL Injection Flaws
+- Output helps developers, as SAST tools highlight the problematic code, by filename,
+  location, line number, and even the affected code snippet.
 
 ### Weaknesses
 
-- Many types of security vulnerabilities are difficult to find automatically, such as authentication problems, access control issues, insecure use of cryptography, etc. The current state of the art only allows such tools to automatically find a relatively small percentage of application security flaws. However, tools of this type are getting better.
+- Difficult to automate searches for many types of security vulnerabilities, including:
+  - Authentication problems
+  - Access control issues
+  - Insecure use of cryptography
+  Current SAST tools are limited. They can automatically identify only a relatively
+  small percentage of application security flaws.
 - High numbers of false positives.
 - Frequently can't find configuration issues, since they are not represented in the code.
 - Difficult to 'prove' that an identified security issue is an actual vulnerability.
-- Many of these tools have difficulty analyzing code that can't be compiled. Analysts frequently can't compile code because they don't have the right libraries, all the compilation instructions, all the code, etc.
+- Many SAST tools have difficulty analyzing code that can't be compiled.
+  - Analysts frequently cannot compile code unless they have:
+    - Correct libraries
+    - Compilation instructions
+    - All required code
 
 ## Important Selection Criteria
 
-- Requirement: Must support your programming language, but not usually a key factor once it does.
-- Types of vulnerabilities it can detect (out of the [OWASP Top Ten](/www-project-top-ten/) (plus more?))
-- How accurate is it? False Positive/False Negative rates? - Does the tool have an OWASP [Benchmark](/www-project-benchmark/) score?
-- Does it understand the libraries/frameworks you use?
-- Does it require a fully buildable set of source?
-- Can it run against binaries instead of source?
-- Can it be integrated into the developer's IDE?
-- How hard is it to setup/use?
-- Can it be run continuously and automatically?
-- License cost for the tool. (Some are sold per user, per organization, per application, per line of code analyzed. Consulting licenses are frequently different than end user licenses.)
+- Prerequisite: Support your programming language.
+- Ability to detect vulnerabilities, based on:
+  - The [OWASP Top Ten](/www-project-top-ten/)
+  - Other criteria
+- Accuracy:
+  - False Positive/False Negative rates
+  - OWASP [Benchmark](/www-project-benchmark/) score
+- Ability to understand the libraries/frameworks you need
+- Requirement for buildable source code
+- Ability to run against binaries (instead of source)
+- Availability as a plugin into preferred developer IDEs
+- Ease of setup/use
+- Ability to include in Continuous Integration/Deployment tools
+- License cost (May vary by user, organization, app, or lines of code)
 
 ## Disclaimer
 
