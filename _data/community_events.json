@@ -40,10 +40,20 @@
         "description": "<p>On September 16th, we have scheduled Andrew van der Stock with The OWASP Top 10 2021.</p> <p>This chapter meeting is part of a series of virtual chapter meetings (every 3rd Thursday of the month).</p> <p>Our chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed. Registered attendees can join via Zoom, and ask questions to the speakers.</p> <p>More info on this series of chapter meetings or on the Belgium OWASP chapter can be found at <a href=\"https://owasp.org/www-chapter-belgium/\" class=\"linkified\">https://owasp.org/www-chapter-belgium/</a> .</p> "
     },
     {
+        "group": "Bonita Springs",
+        "repo": "www-chapter-bonita-springs",
+        "name": "OWASP Monthly Meeting",
+        "date": "2021-10-05",
+        "time": "18:30",
+        "link": "https://www.meetup.com/OWASP-Bonita-Springs-Chapter/events/280349243/",
+        "timezone": "US/Eastern",
+        "description": "<p>We generally review security related happenings, share tips and tricks for configuring software and hardware, and chat about various topics such as security, privacy, exploitation, vulnerabilities, pen testing, web app security, CTFs, IoT security, mobile security and anything else members wish to discuss.</p> "
+    },
+    {
         "group": "Boulder",
         "repo": "www-chapter-boulder",
         "name": "Join us LIVE and IN-PERSON for Boulder/Denver OWASP's September Meeting!!!",
-        "date": "2021-09-15",
+        "date": "2021-09-21",
         "time": "17:00",
         "link": "https://www.meetup.com/OWASP-Boulder/events/280479208/",
         "timezone": "US/Mountain",
@@ -93,7 +103,7 @@
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's September Meeting!!!",
-        "date": "2021-09-15",
+        "date": "2021-09-21",
         "time": "17:00",
         "link": "https://www.meetup.com/Denver-OWASP/events/280479184/",
         "timezone": "US/Mountain",
@@ -170,6 +180,16 @@
         "description": "<p>Code review is a manual or automated process that examines an application\u2019s source code. The goal of this examination is to identify any existing security flaws or vulnerabilities. Code review specifically looks for logic errors, examines spec implementation, and checks style guidelines, among other activities.</p> <p>Join Us to learn from MR Samiran Santra on OWASP KOLKATA MEETUP #1.</p> "
     },
     {
+        "group": "Leeds Uk",
+        "repo": "www-chapter-leeds-uk",
+        "name": "Leeds OWASP Reboot 2021",
+        "date": "2021-09-08",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/278619725/",
+        "timezone": "Europe/London",
+        "description": "<p>NOTE: Due to COVID restrictions being extended we're going to have to postpone this event, so our new date is Wednesday 8th September. We hope you can still make it!</p> <p>Hello!</p> <p>We're re-booting the Leeds OWASP Chapter with a view of growing a thriving community within Leeds and the surrounding areas.</p> <p>This is a community event and everybody is welcome!</p> <p>To kick off, we have two speakers:</p> <p>1) Arjun Pednekar, Technical Director @ Cognisys</p> <p>The Joys of Bug Bounties</p> <p>Advocating how it benefits penetration testing companies in finding the right candidates and making the reliance on certifications less of a requirement. It highlights the creativity in someone\u2019s ability. Candidates who have a known rankings on bug bounty and going to be sought after.</p> <p>2) Neil Peacock, Founder of Blok Cyber Security</p> <p>Venue is 1st Floor, Spaces Leeds, 7 Park Row, LS1 5HD</p> <p>Your hosts are Simon Woods &amp; Andrew Gilhooley of One Compliance</p> <p>Follow us on Twitter <a href=\"https://twitter.com/OWASPLeeds\" class=\"linkified\">https://twitter.com/OWASPLeeds</a></p> <p>Contact Simon.Woods@onecompliance.co.uk for further information.</p> "
+    },
+    {
         "group": "Lima",
         "repo": "www-chapter-lima",
         "name": "TALLER DE CRIPTOGRAF\u00cdA",
@@ -210,24 +230,24 @@
         "description": "<p>Joe is going to discuss PenTesting an Android app. It would demonstrate a few common scenarios (app pinning, firmware validation, use of JNI/NDK dlls, etc) and then walk through how those controls can be defeated and shouldn\u2019t be relied upon/trusted.</p> "
     },
     {
-        "group": "Morocco",
-        "repo": "www-chapter-morocco",
-        "name": "DevSecOps Detox - Second Session",
-        "date": "2021-09-04",
-        "time": "18:00",
-        "link": "https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/278232659/",
-        "timezone": "Africa/Casablanca",
-        "description": "<p>DevSecOps detox - Second Session</p> <p>C'est la suite de la session du 15 mai 2021.</p> <p>Je vais terminer la pr\u00e9sentation des axes n\u00e9cessaires pour mettre en \u0153uvre une d\u00e9marche de s\u00e9curit\u00e9 applicative, en mettant en \u0153uvre une pipe-line DevSecOps, et vous montrer une d\u00e9mo DevSecOps.</p> <p>La conf\u00e9rence durera deux heures le samedi 4 septembre 2021 de 18h00 \u00e0 20h00 heure GMT.</p> <p>Le lien est :</p> <p><a href=\"https://meet.google.com/qcy-pewf-tzq\" class=\"linkified\">https://meet.google.com/qcy-pewf-tzq</a></p> <p>Plus de d\u00e9tail dans notre site www.owasp.org, Morocco Chapter : <a href=\"https://owasp.org/www-chapter-morocco/\" class=\"linkified\">https://owasp.org/www-chapter-morocco/</a></p> <p>#devsecops #appsec #africa #morocco #owasp #cybersecurity</p> "
+        "group": "Mayiladuthurai",
+        "repo": "www-chapter-mayiladuthurai",
+        "name": "Analysing and Targeting a web application",
+        "date": "2021-09-05",
+        "time": "10:30",
+        "link": "https://www.meetup.com/owasp-mayiladuthurai-meetup-group/events/280552082/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>Free for all.</p> <p>Registration Link and meet-up link available in chapter page and chapter's social media Accounts.</p> "
     },
     {
         "group": "Nagpur",
         "repo": "www-chapter-nagpur",
         "name": "OWASP Nagpur Meetup #12 (Virtual)",
-        "date": "2021-09-04",
+        "date": "2021-09-11",
         "time": "17:00",
         "link": "https://www.meetup.com/OWASP-Nagpur-Chapter/events/279858014/",
         "timezone": "Asia/Calcutta",
-        "description": "<p>4th September 5:00 PM IST</p> <p>Agenda</p> <p>Breaking Down Common Bug Bounty Mistakes, and Getting Started by<br/>@codingo_ ( Michael Skelton - Senior Director of Operations , Bugcrowd) (<a href=\"https://twitter.com/codingo_\" class=\"linkified\">https://twitter.com/codingo_</a>)</p> "
+        "description": "<p>11th September 5:00 PM IST</p> <p>Agenda</p> <p>Breaking Down Common Bug Bounty Mistakes, and Getting Started by<br/>@codingo_ ( Michael Skelton - Senior Director of Operations , Bugcrowd) (<a href=\"https://twitter.com/codingo_\" class=\"linkified\">https://twitter.com/codingo_</a>)</p> "
     },
     {
         "group": "Northern Virginia",
@@ -418,6 +438,16 @@
         "link": "https://www.meetup.com/womeninappsec/events/279258252/",
         "timezone": "US/Eastern",
         "description": "<p>Deveeshree Nayak will present on \"Getting Started With PenTesting, Intro to OSINT, Creating a D &amp; I Cyber Security Team\".</p> "
+    },
+    {
+        "group": "Devslop",
+        "repo": "www-project-devslop",
+        "name": "Software Security at Rocketship Pace",
+        "date": "2021-09-17",
+        "time": "20:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280017306/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>In the age of DevOps, the software delivery lifecycle is moving more rapidly than ever before. This change has broken a number of traditional models of security assurance for software. This presentation will do a deep dive into an automation-driven methodology for software security assurance covering everything from high-level design goals to low-level code examples.</p> <p>OUR GUEST: ALEX ROSENZWEIG<br/>Alex is a Security Engineer at Afterpay. Alex has held a number of roles across information technology ranging from helpdesk to solutions architect before finding his passion of working to secure the products people use in their daily lives.</p> "
     },
     {
         "group": "Devslop",
