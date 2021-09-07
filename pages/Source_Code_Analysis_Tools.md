@@ -24,7 +24,7 @@ SAST tool feedback can save time and effort, especially when compared to finding
 - Scales well -- can be run on lots of software, and can be run repeatedly (as with nightly builds or continuous integration).
 - Identifies certain well-known vulnerabilities, such as:
   - Buffer overflows
-  - SQL Injection Flaws
+  - SQL injection flaws
 - Output helps developers, as SAST tools highlight the problematic code, by filename,
   location, line number, and even the affected code snippet.
 
