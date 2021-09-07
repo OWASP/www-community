@@ -37,7 +37,7 @@ SAST tool feedback can save time and effort, especially when compared to finding
   Current SAST tools are limited. They can automatically identify only a relatively
   small percentage of application security flaws.
 - High numbers of false positives.
-- Frequently can't find configuration issues, since they are not represented in the code.
+- Frequently unable to find configuration issues, since they are not represented in the code.
 - Difficult to 'prove' that an identified security issue is an actual vulnerability.
 - Many SAST tools have difficulty analyzing code that can't be compiled.
   - Analysts frequently cannot compile code unless they have:
