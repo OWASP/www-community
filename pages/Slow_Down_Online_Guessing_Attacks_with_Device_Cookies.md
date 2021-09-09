@@ -2,7 +2,7 @@
 
 title: Slow Down Online Guessing Attacks with Device Cookies
 layout: col-sidebar
-author:
+author: Anton Dedov
 contributors: Daniel Waller
 tags:
 permalink: /Slow_Down_Online_Guessing_Attacks_with_Device_Cookies
