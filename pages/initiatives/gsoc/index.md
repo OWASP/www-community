@@ -25,7 +25,7 @@ history of both organizations/projects.
   - [GSoc 2019 Ideas](gsoc2019ideas)
 - GSoC 2018
   - [GSoc 2018 Ideas](gsoc2018ideas)
-- [GSoC 2017](gsoc/gsoc2017)
+- [GSoC 2017](gsoc2017)
   - [GSoc 2017 Ideas](gsoc2017ideas)
 - GSoC 2016
   - [GSoC 2016 Ideas](gsoc2016ideas)
