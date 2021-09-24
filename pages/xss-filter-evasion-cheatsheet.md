@@ -3,7 +3,7 @@
 title: XSS Filter Evasion Cheat Sheet - Redirect
 tags: XSS, Cheat Sheets
 permalink: /xss-filter-evasion-cheatsheet
-redirect_to: https://cheatsheetseries.owasp.org/cheatsheets/XSSFilterEvasionCheatSheet.html
+redirect_to: https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
 
 ---
 
