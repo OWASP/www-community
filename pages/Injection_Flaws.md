@@ -130,11 +130,6 @@ actually occurred. At a minimum, this will allow you to determine that
 something has gone wrong. Otherwise, the attack may occur and never be
 detected.
 
-5. Leverage the OWASP's Filters Project
-   
-   The OWASP Filters project is producing reusable components in several
-languages to help prevent many forms of injection.
-
 ## References
 
 - OWASP [SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
