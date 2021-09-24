@@ -13,7 +13,7 @@ tags: attack, Credential stuffing
 
 ## Description
 
-Credential stuffing is the automated injection of stolen username and password pairs ("credentials") in to website login forms, in order to fraudulently gain access to user accounts. 
+Credential stuffing is the automated injection of stolen username and password pairs ("credentials") into website login forms, in order to fraudulently gain access to user accounts. 
 
 Since many users will re-use the same password and username/email, when those credentials are exposed (by a database breach or phishing attack, for example) submitting those sets of stolen credentials into dozens or hundreds of other sites can allow an attacker to compromise those accounts too.
 
