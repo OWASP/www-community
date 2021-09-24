@@ -1,4 +1,4 @@
-{% assign tools = site.data.tools | where: "type", include.type | sort: "title" %}
+{% assign tools = site.data.tools | where: "type", include.type | sort_natural: "title" %}
 
 <table>
   <tr>
