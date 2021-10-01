@@ -30,16 +30,6 @@
         "description": "<p>Hi Everyone</p> <p>#security stay safe</p> <p>OWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.</p> <p>Sessions:<br/>Date: Saturday 09th October 2021</p> <p>Talk title:<br/>TBD</p> <p>Speaker Details:-<br/>TBD</p> "
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "Bay Area Sep '21 Meetup",
-        "date": "2021-09-30",
-        "time": "16:00",
-        "link": "https://www.meetup.com/Bay-Area-OWASP/events/280752222/",
-        "timezone": "US/Pacific",
-        "description": "<p>Get ready for a set of 2 new exciting talks brought by experienced speakers in the security industry!</p> <p>Talk#1: A New Class of DNS Vulnerabilities Affecting Many DNS-as-Service Platforms</p> <p>Abstract:<br/>We present a novel class of DNS vulnerabilities that affect multiple DNS-as-a-Service (DNSaaS) providers. The vulnerabilities have been proven and successfully exploited on three major cloud providers including AWS Route 53 and may affect many others. Successful exploitation of the vulnerabilities may allow exfiltration of sensitive information from service customers' corporate networks. The leaked information contains internal and external IP addresses, computer names, and sometimes NTLM / Kerberos tickets. The root cause of the problem is the non-standard implementation of DNS resolvers that, when coupled with specific unintended edge cases on the DNS service provider's side, cause major information leakage from internal corporate networks.</p> <p>In this research, we detail a specific vulnerability that is common across many major DNS service providers that leads to information leakage in connected corporate networks. Specifically, we show how Microsoft Windows endpoints reveal sensitive customer information when performing DNS update queries. The security risk is high. If an organization's DNS Updates are leaked to a malicious 3rd party, they reveal sensitive network information that can be used to map the organization and make operational goals. Internal IP addresses reveal the network segments of the organization; computer names hint at the potential content they may hold; external IP addresses expose geographical locations and the organization's sites throughout the world; and internal IPv6 addresses are sometimes accessible from the outside and allow an entry point into the organization. The impact is huge. Out of six major DNSaaS providers we examined, three were vulnerable to nameserver registration.</p> <p>Speaker: Shir Tamari, Head of Research at Wiz<br/>Shir Tamari is an experienced security and technology researcher specializing in vulnerability research and practical hacking. Shir is currently Head of Research of the cloud security company Wiz. In the past, he served as a consultant to a variety of security companies in the fields of research, development and product. Shir is also a member of the 5BC CTF team.</p> <p>Talk #2: Redefining Threat Modeling: Security team goes on vacation</p> <p>Abstract:<br/>Threat Modeling is an important part of every company's Security Development Lifecycle, but as development teams grow bigger Security will either have to choose which features they want to Threat Model or they will become a bottleneck for the development organization.</p> <p>What if I told you, you can have your cake and eat it too. It is possible to scale your threat modeling program to *every* feature and you don't have to be a bottleneck to the development organization. What if I also told you that the Threat Models in this utopia are also of higher quality as well.<br/>In this utopian world, Threat Modeling is no longer the Application Security team's responsibility. The responsibility now lies with the development teams. Self-serve Threat Modeling is the way of the future.</p> <p>Speaker:- Jeevan Singh, Engineering Manager, Application security at Segment</p> "
-    },
-    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BE - Component Analysis vs SCA (by Steven Springett)",
@@ -48,6 +38,16 @@
         "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/280073211/",
         "timezone": "Europe/Brussels",
         "description": "<p>On October 21st, we have scheduled Steven Springett with Component Analysis vs SCA - How SBOMs are the driving force for change.</p> <p>This chapter meeting is part of a series of virtual chapter meetings (every 3rd Thursday of the month).</p> <p>Our chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed. Registered attendees can join via Zoom, and ask questions to the speakers.</p> <p>More info on this series of chapter meetings or on the Belgium OWASP chapter can be found at <a href=\"https://owasp.org/www-chapter-belgium/\" class=\"linkified\">https://owasp.org/www-chapter-belgium/</a> .</p> "
+    },
+    {
+        "group": "Bolivia",
+        "repo": "www-chapter-bolivia",
+        "name": "GRUPOS DE ESTUDIO OWASP - Burp Suite Training 2da Parte",
+        "date": "2021-10-02",
+        "time": "14:00",
+        "link": "https://www.meetup.com/OWASP-Bolivia-Meetup-Group/events/281057691/",
+        "timezone": "America/La_Paz",
+        "description": "<p>Training paso a paso de BurpSuite, la herramienta m\u00e1s popular de pentesting web. Segunda Parte pr\u00e1ctica con laboratorio.</p> "
     },
     {
         "group": "Bonita Springs",
@@ -120,16 +120,6 @@
         "description": "<p>Title:</p> <p>Financial-grade API (FAPI)</p> <p>Description:</p> <p>Financial-grade API (FAPI) is a security framework devised by the OpenID foundation for securely using APIs specifically in the finance industry. The framework introduces more stringent security controls and strengthens the existing OAuth2 and OpenID Connect specifications. In this session Vinod will discuss various aspects of the framework and how they will address specific weaknesses in the traditional OAuth flows.</p> <p>Bio:</p> <p>Vinod Kannan is a seasoned cybersecurity professional with over 19 years of experience in cybersecurity with special interest in DevSecOps, Identity and Access Management, and Application Security. He has currently taken up the role as a Principal Consultant with Synopsys in its Software Integrity Group (SIG) and is focusing on managed security services offerings. Prior to this he has worked with Ernst &amp; Young and HPE and various financial services firms such as JPMC and Bank of America. He is passionate in learning about new developments in the cybersecurity space that enables him in presenting the right solutions to clients.</p> "
     },
     {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP September Meeting",
-        "date": "2021-09-30",
-        "time": "12:00",
-        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280753202/",
-        "timezone": "US/Central",
-        "description": "<p>Title:</p> <p>Secure by Defaults Using Semgrep</p> <p>Description:</p> <p>Semgrep is open-source static analysis tool with customizable rules that work based off patterns (regular expressions).<br/>These custom rules create the possibility to shift left in the CI/CD pipeline and target most categories of vulnerability .<br/>In this session we will discuss about the implementation details and the challenges associated with it.</p> <p>Bio:</p> <p>Shreyas Shashidhar is a Cyber Security professional with over 3 years of experience in cybersecurity with special interest in DevSecOps and Application Security. He is currently working as an Application Security Engineer with Copart. Prior to this he has worked as an Application Security Analyst 3 with Paycom. He is passionate about learning new developments in the cybersecurity space and adopting those towards engineering solutions.</p> "
-    },
-    {
         "group": "Indianapolis",
         "repo": "www-chapter-indianapolis",
         "name": "Q4 Meetup (Placeholder)",
@@ -138,16 +128,6 @@
         "link": "https://www.meetup.com/indyowasp/events/280097107/",
         "timezone": "US/Eastern",
         "description": "<p>We'll share more details closer to the event, but I'll say I'm _very_ excited about the topic!</p> "
-    },
-    {
-        "group": "Italy",
-        "repo": "www-chapter-italy",
-        "name": "OWASP Italy September Meetup 2021",
-        "date": "2021-09-30",
-        "time": "17:00",
-        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/280482391/",
-        "timezone": "Europe/Rome",
-        "description": "<p>OWASP Italy September Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.</p> <p>This Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.</p> <p>More information and the Agenda at the following URL:<br/><a href=\"https://owasp.org/www-chapter-italy/events/owasp-meetup-210930\" class=\"linkified\">https://owasp.org/www-chapter-italy/events/owasp-meetup-210930</a></p> "
     },
     {
         "group": "Jacksonville",
@@ -210,26 +190,6 @@
         "description": "<p>Come join us as we hear the monthly presentation by Aaron Guzman, Head of Product &amp; Application Security with Cisco Meraki</p> <p>TOPIC: OWASP &amp; CSA IoT: Impacting Medical Security</p> <p>ABSTRACT: The Open Web Application Security Project (OWASP) IoT Project is designed to help manufacturers, developers, and consumers better understand the security issues associated with the Internet of Things as well as enable users in any context to make better security decisions when building, deploying, or assessing IoT technologies. Similarly, CSA's IoT Working group is dedicated to understanding IoT deployments and defining actionable guidance to secure ecosystems. Their efforts are often used to develop medical security guidelines for developers and manufacturers alike but also to influence IoT security assessment methodologies for later use on commercial IoT certification schemes. This session will provide insights into current project initiatives, including those that directly impact medical devices and how you can save lives by getting involved.</p> <p>BIO: Aaron Guzman is a published author and a technical reviewer for several security books. He is the Head of Product &amp; Application Security with Cisco Meraki where he focuses on building security into enterprise IoT products and crafting designs that keep users safe from compromise. Aaron spearheads many open-source initiatives, raising awareness about IoT hacking and proactive defensive strategies under OWASP\u2019s IoT and Embedded Application Security projects. A co-chair of Cloud Security Alliance\u2019s IoT Working Group, he has extensive public speaking experience delivering conference presentations, training, and workshops globally. Follow Aaron on Twitter @scriptingxss.</p> <p>Meeting info will be available on meetup - BE SURE TO RSVP to access the link</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
     },
     {
-        "group": "Manama",
-        "repo": "www-chapter-manama",
-        "name": "Introduction to OWASP Top10:2021",
-        "date": "2021-09-30",
-        "time": "15:00",
-        "link": "https://www.meetup.com/owasp-manama/events/280961718/",
-        "timezone": "Asia/Bahrain",
-        "description": "<p>Just to make you aware that OWASP going to publish its new OWASP Top10: 2021 vulnerabilities. OWASP Manama Bahrain will be discussing the newer top10 and its details.</p> "
-    },
-    {
-        "group": "Netherlands",
-        "repo": "www-chapter-netherlands",
-        "name": "Pub Quiz",
-        "date": "2021-09-30",
-        "time": "20:00",
-        "link": "https://www.meetup.com/OWASP-Chapter-Netherlands-Meetup/events/280753395/",
-        "timezone": "Europe/Amsterdam",
-        "description": "<p>On the 30th of September OWASP Netherlands will organize a pub quiz.<br/>The pub quiz will start at 20:00. To join the pub quiz, you need to join a Zoom meeting. The link for the meeting will be shared on this page. Stay tuned for more information.<br/>Kahoot is used for the questions. We recommend to use two screens/devices (one for the Zoom meeting one for Kahoot).</p> "
-    },
-    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "(Alert Level 1 permitting) The new OWASP Top 10 Web Application Security Risks",
@@ -267,7 +227,7 @@
         "time": "18:00",
         "link": "https://www.meetup.com/OWASP-OC/events/281070205/",
         "timezone": "US/Pacific",
-        "description": "<p>Speaker: Daniel Blazquez, Technical Product Marketing Lead, Hdiv Security</p> <p>Topic: The beauty of runtime AppSec done right</p> <p>Live stream: <a href=\"https://www.twitch.tv/owaspoc\" class=\"linkified\">https://www.twitch.tv/owaspoc</a></p> <p>Abstract:<br/>Traditionally, application security practices oscillate between static activities (code scans, code reviews, threat modeling, etc.) and runtime activities (penetration testing, scanners, and WAFs). Static activities have context and depth, but lack visibility on the true behavior of the software. On the other hand, runtime activities have no direct access to the internals of the application because they follow an external approach.</p> <p>DevOps teams are demanding a more complete picture of the security of the applications, combining static and dynamic activities. In this practical talk, I want to propose a new approach based on runtime observability, that provides not only vulnerabilities and attacks, but also app deployment intelligence, sensitive data visibility, and API discovery capabilities.</p> <p>Speaker Bio:<br/>Daniel Blazquez leads the technical marketing and developer advocacy practice at Hdiv Security, a VC-funded application security company focused on application security automation. As an ex-Java programmer and recovering corporate strategy professional, Daniel brings a holistic view to the S-SDLC practice: from coding to product management, all the way to growth strategy. His education includes a Computer Science master's and undergrad, and an MBA at UCLA Anderson.</p> <p>--------------------------------------------------------------------------------------<br/>NOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice.</p> "
+        "description": "<p>Speaker: Daniel Blazquez, Technical Product Marketing Lead, Hdiv Security</p> <p>Topic: The beauty of runtime AppSec done right</p> <p>Live stream: <a href=\"https://www.twitch.tv/owaspoc\" class=\"linkified\">https://www.twitch.tv/owaspoc</a></p> <p>Abstract:<br/>Traditionally, application security practices oscillate between static activities (code scans, code reviews, threat modeling, etc.) and runtime activities (penetration testing, scanners, and WAFs). Static activities have context and depth, but lack visibility on the true behavior of the software. On the other hand, runtime activities have no direct access to the internals of the application because they follow an external approach.</p> <p>DevOps teams are demanding a more complete picture of the security of the applications, combining static and dynamic activities. In this practical talk, I want to propose a new approach based on runtime observability, that provides not only vulnerabilities and attacks, but also app deployment intelligence, sensitive data visibility, and API discovery capabilities.</p> <p>Speaker Bio:<br/>Daniel Blazquez leads the technical marketing and developer advocacy practice at Hdiv Security, a VC-funded application security company focused on application security automation. As an ex-Java programmer and recovering corporate strategy professional, Daniel brings a holistic view to the S-SDLC practice: from coding to product management, all the way to growth strategy. His education includes a Computer Science master's and undergrad, and an MBA at UCLA Anderson.</p> <p>Our meeting sponsor, Shiftleft, will provide a $40 Amazon gift card to all attendees who fill out our survey during the meeting. The URL for the survey will be given out during the meeting.</p> <p>--------------------------------------------------------------------------------------<br/>NOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice.</p> "
     },
     {
         "group": "Pittsburgh",
@@ -308,6 +268,16 @@
         "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/280786436/",
         "timezone": "US/Pacific",
         "description": "<p>Hello All,</p> <p>Come and join your fellow security practitioners at an informal virtual networking event on Friday October 8th, 2021 at noon. We will discuss upcoming plans for the Seattle Chapter, OWASP news &amp; topics, and have an open forum discussion on what you, the members, would like to focus on in the coming months.</p> <p>Thanks,</p> <p>OWASP Seattle Leadership</p> "
+    },
+    {
+        "group": "Seoul",
+        "repo": "www-chapter-seoul",
+        "name": "OWASP Seoul Chapter Online(Zoom) Meeting",
+        "date": "2021-10-01",
+        "time": "20:00",
+        "link": "https://www.meetup.com/OWASP-Seoul/events/281132616/",
+        "timezone": "Asia/Seoul",
+        "description": "<p>OWASP Seoul Conference 2021           .    .</p> <p> : OWASP Seoul Chapter Online(Zoom) Meeting<br/> : 2021.10.01(Fri) 20:00 ~ 21:00, KST<br/> : Online(Zoom) <a href=\"https://zoom.us/j/97765597424?pwd=VXYxYmxrOUhNbktCMkp2U0FVYWd1QT09\" class=\"linkified\">https://zoom.us/j/97765597424?pwd=VXYxYmxrOUhNbktCMkp2U0FVYWd1QT09</a></p> <p> ID: 977 6559 7424<br/>: owasp@2021</p> "
     },
     {
         "group": "Singapore",
@@ -390,16 +360,6 @@
         "description": "<p>TBA</p> "
     },
     {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "Security Observability 101: Thinking Inside the Box! with Jeff Williams",
-        "date": "2021-09-30",
-        "time": "12:00",
-        "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccmbnc/",
-        "timezone": "US/Eastern",
-        "description": "<p>Software is incredibly hard to secure because it's a black box. We've spent decades struggling to verify properties of software from the outside by analyzing the source code, scanning, fuzzing, pentesting, etc... The goal of \"security observability\" is to expose exactly what's going on inside the box while it's running. Analyzing a running application has speed, accuracy, coverage, and scalability advantages that change the way Dev, Sec, and Ops communicate and work together. In this talk, you'll learn how to use the free and open source Java Observability Toolkit (JOT) project to easily create your own powerful runtime instrumentation without coding. You can use JOT to analyze security defenses, identify complex vulnerabilities, create custom sandboxes, and enforce policy at runtime. Ultimately, security observability enables DevSecOps to work together in harmony, so you can focus on delivering value at high velocity.</p> <p>Bio: Jeff brings more than 20 years of security leadership experience as co-founder and Chief Technology Officer of Contrast Security. Previously, Jeff was co-founder and CEO of Aspect Security, a successful and innovative application security consulting company acquired by EY. Jeff is also a founder and major contributor to OWASP, where he served as Global Chairman for 10 years, and created the OWASP Top 10, OWASP Enterprise Security API, OWASP Application Security Verification Standard, XSS Prevention Cheat Sheet, and many more popular open source projects. Jeff has a BA from Virginia, an MA from George Mason, and a JD from Georgetown. Please connect on LinkedIn: <a href=\"https://www.linkedin.com/in/planetlevel/\" class=\"linkified\">https://www.linkedin.com/in/planetlevel/</a></p> "
-    },
-    {
         "group": "Yerevan",
         "repo": "www-chapter-yerevan",
         "name": "OWASP monthly meetup (October)",
@@ -418,6 +378,16 @@
         "link": "https://www.meetup.com/womeninappsec/events/279258252/",
         "timezone": "US/Eastern",
         "description": "<p>Deveeshree Nayak will present on \"Getting Started With PenTesting, Intro to OSINT, Creating a D &amp; I Cyber Security Team\".</p> "
+    },
+    {
+        "group": "Devslop",
+        "repo": "www-project-devslop",
+        "name": "How to Analyze Code for Vulnerabilities using Joern",
+        "date": "2021-10-15",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280834756/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>Code analysis is the process of analyzing the code of a program to find security vulnerabilities. It is the most effective way to identify many types of security issues, from injection vulnerabilities to issues like leaked secrets and vulnerable dependencies. But the process of manually analyzing code for vulnerabilities can be very time-consuming. Is there a better way to do this?</p> <p>In this talk, Vickie and Suchakra will demonstrate how to use open-sourced code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions? This is the second edition of How to analyze code for vulnerabilities (<a href=\"https://www.youtube.com/watch?v=A8CNysN-lOM\" class=\"embedded\">https://www.youtube.com/watch?v=A8CNysN-lOM</a>), this time, we\u2019ll talk about how to do it efficiently using Joern.</p> <p>VICKIE LI<br/>Vickie Li is the resident developer evangelist at ShiftLeft. She is an experienced web developer with an avid interest in security research. She can be found on <a href=\"https://vickieli.dev\" class=\"linkified\">https://vickieli.dev</a>, where she blogs about security news, techniques, and her latest bug bounty findings. She also hosts \u201cSecurity Simplified\u201d, a developer education series focusing on web security: <a href=\"https://www.youtube.com/c/vickielidev\" class=\"embedded\">https://www.youtube.com/c/vickielidev</a>.</p> <p>SUCHAKRA SHARMA<br/>Suchakra Sharma is Staff Scientist at ShiftLeft Inc. where he builds code analysis tools and hunts security bugs. He completed his Ph.D. in Computer Engineering from Polytechnique Montr\u00e9al where he worked on eBPF technology and hardware-assisted tracing techniques for OS analysis. As part of his research, he also developed one of the first hardware-trace based virtual machine analysis techniques. He has delivered talks and trainings at venues such as RSA, USENIX LISA, SCALE, Papers We Love, Tracing Summit, etc. When not playing with computers, he hikes and writes poems.</p> "
     },
     {
         "group": "Devslop",
