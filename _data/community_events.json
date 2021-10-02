@@ -7,7 +7,7 @@
         "time": "09:30",
         "link": "https://www.meetup.com/owasp-abu-dhabi/events/280509539/",
         "timezone": "Asia/Dubai",
-        "description": "<p>Our inaugural meetup!</p> <p>We're very excited to introduce ourselves and share the vision of the chapter.</p> <p>We're also on route to have 2 highly respected industry leaders (DefCon veterans) take us though some of their latest AppSec research.</p> <p>Full schedule will be announced soon.</p> <p>Hope to see you there.</p> <p>Happy hacking!</p> <p>Ps. We're starting early to accommodate some of our awesome speakers in located all over the world.</p> "
+        "description": "<p>Our inaugural meetup!</p> <p>We're very excited to introduce ourselves and share the vision of the chapter.</p> <p>Event Schedule</p> <p>09:30 - Welcome</p> <p>09:35 - Enforcing Code &amp; Security Standards with Semgrep - Vasilii Ermilov</p> <p>10:05 - Hello Abu Dhabi (vision mission, community involvement etc) \u2013 Chapter Leaders</p> <p>10:30 - Scaling your AppSec program through education - Grant Ongers</p> <p>11:00 - Blockchain and Smart Contract Security Design &amp; Code Audit \u2013 Mukhtar Serikbayev</p> <p>11:30 - Q&amp;A &amp; intros by community</p> <p>Hope to see you there.</p> <p>Happy hacking!</p> <p>Ps. We're starting early to accommodate some of our awesome speakers located all over the world.</p> "
     },
     {
         "group": "Atlanta",
@@ -97,7 +97,7 @@
         "time": "17:00",
         "link": "https://www.meetup.com/OWASP-Copenhagen-Chapter/events/280774265/",
         "timezone": "Europe/Copenhagen",
-        "description": "<p>After almost two years we are excited to announce our first physical/hybrid event! For this evening we plan to have a workshop and a talk, and plenty of time for socializing/networking. Please reserve your seats as the space is limited and only RSVP if you are physically showing up, so we know how much pizza we should buy :)<br/>The virtual streaming will be anyways accessible to YouTube without the need to RSVP.</p> <p>17:00 - 17:10: Intro<br/>17:10 - 17:50: Talk: \"Did you just assume your product is secure?\" by Dmitry<br/>17:50 - 18:10: Talk: \"Protect your Domain Admins with tiering\" by Jonas<br/>18:10 - 18:30: Pizza and drinks will be served at ITU/ScrollBar<br/>18:30 - 20:30: ImproHound workshop, bring your own device with VMWare or VirtualBox to try the tool as described down below.</p> <p>1. Talk: Did you just assume your product is secure?<br/>People tend to assume things. I know I do. It's perfectly normal, it's how our brains evolved to work. Join me in exploring the role of assumptions in our everyday life and how that impacts the security of products we build. Or did I just assume that they do?.. Hmm.</p> <p>Dmitry started as a software engineer building a promising AAA title at an unknown game studio, and continued to be a firmware QA automation engineer and then a firmware developer. Despite that, he spent a lot of free time doing reverse engineering. All that equipped him well with knowledge and skills to start his infosec career almost 10 years ago. Now a senior consultant with the product security team at F-Secure Consulting, he provides advice on security topics to tier-1 automotive, aerospace, maritime, and industrial customers worldwide.</p> <p>2. ImproHound Workshop: Protect your Domain Admins with tiering<br/>It is not viable for system administrators and defenders in a large Active Directory (AD) environment to ensure all AD objects have only the exact permissions they need. It is too big of a task, why many organizations are vulnerable to AD attacks due to too loose or wrong permissions. At the same time, credential theft may lead to privileges AD users having their password stolen when they login to compromised computers. These vulnerabilities are chainable, why you in many AD environments can escalate your rights to Domain Admin no matter what computer or user you have.</p> <p>Microsoft realised this issue, and recommended organizations to implement the AD tier model: Split the AD into three tiers and focus on preventing attack paths leading from one tier to a more business critical tier. The concept is great, but it turns out to be rather difficult to implement the tiering concept in AD, why most organizations fail it and end up leaving security gaps..</p> <p>After this workshop, you will be able to help those organizations! And probably p0wn them..<br/>The workshop is part talk and part workshop and you will need to bring a computer with VMWare/VirtualBox to try out ImproHound. Experience with Active Directory is an advantage, but not a requirement.</p> <p>Jonas B\u00fclow Knudsen is an Active Directory (AD) security advisor. Jonas has spent the past two years helping organizations implement technical countermeasures and remediate vulnerabilities in and around AD, including implementation of the AD tier model. Working closely together with penetration testers and having a strong interest in offensive security enables Jonas to focus on security measures that matter and not just best practice.</p> "
+        "description": "<p>After almost two years we are excited to announce our first physical/hybrid event! For this evening we plan to have a workshop and a talk, and plenty of time for socializing/networking. Please reserve your seats as the space is limited and only RSVP if you are physically showing up, so we know how much pizza we should buy :)<br/>The virtual streaming will be anyways accessible to YouTube without the need to RSVP.</p> <p>17:00 - 17:10: Intro<br/>17:10 - 17:50: Talk: \"Did you just assume your product is secure?\" by Dmitry<br/>17:50 - 18:10: Talk: \"Protect your Domain Admins with tiering\" by Jonas<br/>18:10 - 18:30: Pizza and drinks will be served at ITU/ScrollBar<br/>18:30 - 20:30: ImproHound workshop, bring your own device with VMWare or VirtualBox to try the tool as described down below.</p> <p>1. Talk: Did you just assume your product is secure?<br/>People tend to assume things. I know I do. It's perfectly normal, it's how our brains evolved to work. Join me in exploring the role of assumptions in our everyday life and how that impacts the security of products we build. Or did I just assume that they do?.. Hmm.</p> <p>Dmitry started as a software engineer building a promising AAA title at an unknown game studio, and continued to be a firmware QA automation engineer and then a firmware developer. Despite that, he spent a lot of free time doing reverse engineering. All that equipped him well with knowledge and skills to start his infosec career almost 10 years ago. Now a senior consultant with the product security team at F-Secure Consulting, he provides advice on security topics to tier-1 automotive, aerospace, maritime, and industrial customers worldwide.</p> <p>2. ImproHound Workshop: Protect your Domain Admins with tiering<br/>It is not viable for system administrators and defenders in a large Active Directory (AD) environment to ensure all AD objects have only the exact permissions they need. It is too big of a task, why many organizations are vulnerable to AD attacks due to too loose or wrong permissions. At the same time, credential theft may lead to privileges AD users having their password stolen when they login to compromised computers. These vulnerabilities are chainable, why you in many AD environments can escalate your rights to Domain Admin no matter what computer or user you have.</p> <p>Microsoft realised this issue, and recommended organizations to implement the AD tier model: Split the AD into three tiers and focus on preventing attack paths leading from one tier to a more business critical tier. The concept is great, but it turns out to be rather difficult to implement the tiering concept in AD, why most organizations fail it and end up leaving security gaps..</p> <p>After this workshop, you will be able to help those organizations! And probably p0wn them..<br/>The workshop is part talk and part workshop and you will need to bring a computer with VMware (Player will do) to try out ImproHound. Experience with Active Directory is an advantage, but not a requirement.</p> <p>Jonas B\u00fclow Knudsen is an Active Directory (AD) security advisor. Jonas has spent the past two years helping organizations implement technical countermeasures and remediate vulnerabilities in and around AD, including implementation of the AD tier model. Working closely together with penetration testers and having a strong interest in offensive security enables Jonas to focus on security measures that matter and not just best practice.</p> "
     },
     {
         "group": "Croatia",
@@ -170,6 +170,16 @@
         "description": "<p>The fourth OWASP Kyiv chapter meetup in 2021 will be held on October 30 in the online format. The attendance is free of charge.<br/>If you want to be a speaker or present your workshop, please feel free to fill the form here: <a href=\"https://cfp.owaspukraine.org/okfall2021/cfp\" class=\"linkified\">https://cfp.owaspukraine.org/okfall2021/cfp</a></p> "
     },
     {
+        "group": "Las Vegas",
+        "repo": "www-chapter-las-vegas",
+        "name": "Hybrid Event! 2021 OWASP Top 10: What's New?",
+        "date": "2021-10-16",
+        "time": "14:00",
+        "link": "https://www.meetup.com/OWASP-Las-Vegas-Chapter/events/281156996/",
+        "timezone": "US/Pacific",
+        "description": "<p>Join the OWASP LV at the Tech Alley in person or virtual! (Link post registration)</p> <p>Tech Alley Meetup Link: <a href=\"https://www.meetup.com/tech-alley/events/278983744/\" class=\"linkified\">https://www.meetup.com/tech-alley/events/278983744/</a></p> <p>Join OWASP Vegas for a look at the latest changes to the infamous OWASP Top 10. there are three new categories, four categories with naming and scoping changes, and some consolidation in the Top 10 for 2021. We will be holding an open discussion forum as we walk through each, and share how it may affect us. Whether you are a seasoned AppSec ninja or just interested, it will be informative and fun for everyone!</p> "
+    },
+    {
         "group": "London",
         "repo": "www-chapter-london",
         "name": "OWASP London [ONLINE] Chapter Meeting",
@@ -188,6 +198,16 @@
         "link": "https://www.meetup.com/OWASP-Los-Angeles/events/278725579/",
         "timezone": "US/Pacific",
         "description": "<p>Come join us as we hear the monthly presentation by Aaron Guzman, Head of Product &amp; Application Security with Cisco Meraki</p> <p>TOPIC: OWASP &amp; CSA IoT: Impacting Medical Security</p> <p>ABSTRACT: The Open Web Application Security Project (OWASP) IoT Project is designed to help manufacturers, developers, and consumers better understand the security issues associated with the Internet of Things as well as enable users in any context to make better security decisions when building, deploying, or assessing IoT technologies. Similarly, CSA's IoT Working group is dedicated to understanding IoT deployments and defining actionable guidance to secure ecosystems. Their efforts are often used to develop medical security guidelines for developers and manufacturers alike but also to influence IoT security assessment methodologies for later use on commercial IoT certification schemes. This session will provide insights into current project initiatives, including those that directly impact medical devices and how you can save lives by getting involved.</p> <p>BIO: Aaron Guzman is a published author and a technical reviewer for several security books. He is the Head of Product &amp; Application Security with Cisco Meraki where he focuses on building security into enterprise IoT products and crafting designs that keep users safe from compromise. Aaron spearheads many open-source initiatives, raising awareness about IoT hacking and proactive defensive strategies under OWASP\u2019s IoT and Embedded Application Security projects. A co-chair of Cloud Security Alliance\u2019s IoT Working Group, he has extensive public speaking experience delivering conference presentations, training, and workshops globally. Follow Aaron on Twitter @scriptingxss.</p> <p>Meeting info will be available on meetup - BE SURE TO RSVP to access the link</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
+    },
+    {
+        "group": "Luxembourg",
+        "repo": "www-chapter-luxembourg",
+        "name": "OWASP Luxembourg Chapter - Meeting#2 - OWASP Top 10:2021 Overview",
+        "date": "2021-10-27",
+        "time": "17:30",
+        "link": "https://www.meetup.com/owasp-luxembourg-group/events/281144615/",
+        "timezone": "Europe/Luxembourg",
+        "description": "<p>Description of the talk:<br/>Learn about the new OWASP Top 10:2021 that was released in September, 2021. This talk will walk through the process we used to build the new Top 10 and provide a brief overview of each of the risk categories in this updated list. Hear how the OWASP Top 10:2021 can fit into your organization and provide a baseline for secure development.</p> <p>About the speaker:<br/>Brian Glas, OWASP Top Ten Leader | Assistant Professor Of Computer Science, Union University Brian has over 20 years of experience in various roles in IT and over a decade and a half of that in application development and security. His day job is serving as an Assistant Professor teaching a full load of Computer Science and Cybersecurity classes at Union University. He helped build FedEx's AppSec team, worked on the Trustworthy Computing team at Microsoft, consulted on software security for years, and served as a project lead and active contributor for SAMM v1.1-2.0+ and OWASP Top 10 2017 and 2021. Brian is a contributor to the RABET-V Pilot Program. He holds several Cybersecurity and IT certifications and is currently working on his Doctor of Computer Science in Cybersecurity and Information Assurance.</p> <p>Who should attend?<br/>Both existing OWASP members and people unfamiliar with OWASP. Information security practitioners of all levels, IT professionals, and business leaders. Developers, development managers, product owners, QA professionals, program managers, and anyone involved in building software, etc.</p> "
     },
     {
         "group": "New Zealand",
@@ -270,16 +290,6 @@
         "description": "<p>Hello All,</p> <p>Come and join your fellow security practitioners at an informal virtual networking event on Friday October 8th, 2021 at noon. We will discuss upcoming plans for the Seattle Chapter, OWASP news &amp; topics, and have an open forum discussion on what you, the members, would like to focus on in the coming months.</p> <p>Thanks,</p> <p>OWASP Seattle Leadership</p> "
     },
     {
-        "group": "Seoul",
-        "repo": "www-chapter-seoul",
-        "name": "OWASP Seoul Chapter Online(Zoom) Meeting",
-        "date": "2021-10-01",
-        "time": "20:00",
-        "link": "https://www.meetup.com/OWASP-Seoul/events/281132616/",
-        "timezone": "Asia/Seoul",
-        "description": "<p>OWASP Seoul Conference 2021           .    .</p> <p> : OWASP Seoul Chapter Online(Zoom) Meeting<br/> : 2021.10.01(Fri) 20:00 ~ 21:00, KST<br/> : Online(Zoom) <a href=\"https://zoom.us/j/97765597424?pwd=VXYxYmxrOUhNbktCMkp2U0FVYWd1QT09\" class=\"linkified\">https://zoom.us/j/97765597424?pwd=VXYxYmxrOUhNbktCMkp2U0FVYWd1QT09</a></p> <p> ID: 977 6559 7424<br/>: owasp@2021</p> "
-    },
-    {
         "group": "Singapore",
         "repo": "www-chapter-singapore",
         "name": "Securing Cloud-Native Supply Chain - Notary based on The Update Framework (TUI)",
@@ -358,16 +368,6 @@
         "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccnblc/",
         "timezone": "US/Eastern",
         "description": "<p>TBA</p> "
-    },
-    {
-        "group": "Yerevan",
-        "repo": "www-chapter-yerevan",
-        "name": "OWASP monthly meetup (October)",
-        "date": "2021-10-01",
-        "time": "20:00",
-        "link": "https://www.meetup.com/owasp-yerevan/events/281053655/",
-        "timezone": "Asia/Yerevan",
-        "description": "<p>AGENDA:<br/>- BinSide: Static Analysis Framework for Defects Detection in Binary Code - Hayk Aslanyan<br/>- OWASP Top 10 2021 draft breakdown - Hrant Haroyan<br/>- Deserialization Attacks on Java Applications - Hayk Andriasyan</p> "
     },
     {
         "group": "Wia",
