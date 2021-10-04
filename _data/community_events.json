@@ -1,15 +1,5 @@
 [
     {
-        "group": "Abu Dhabi",
-        "repo": "www-chapter-abu-dhabi",
-        "name": "hello world!",
-        "date": "2021-10-02",
-        "time": "09:30",
-        "link": "https://www.meetup.com/owasp-abu-dhabi/events/280509539/",
-        "timezone": "Asia/Dubai",
-        "description": "<p>Our inaugural meetup!</p> <p>We're very excited to introduce ourselves and share the vision of the chapter.</p> <p>Event Schedule</p> <p>09:30 - Welcome</p> <p>09:35 - Enforcing Code &amp; Security Standards with Semgrep - Vasilii Ermilov</p> <p>10:05 - Hello Abu Dhabi (vision mission, community involvement etc) \u2013 Chapter Leaders</p> <p>10:30 - Scaling your AppSec program through education - Grant Ongers</p> <p>11:00 - Blockchain and Smart Contract Security Design &amp; Code Audit \u2013 Mukhtar Serikbayev</p> <p>11:30 - Q&amp;A &amp; intros by community</p> <p>Hope to see you there.</p> <p>Happy hacking!</p> <p>Ps. We're starting early to accommodate some of our awesome speakers located all over the world.</p> "
-    },
-    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "Variant Analysis & The Adventures of Root Cause Analysis",
@@ -40,16 +30,6 @@
         "description": "<p>On October 21st, we have scheduled Steven Springett with Component Analysis vs SCA - How SBOMs are the driving force for change.</p> <p>This chapter meeting is part of a series of virtual chapter meetings (every 3rd Thursday of the month).</p> <p>Our chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed. Registered attendees can join via Zoom, and ask questions to the speakers.</p> <p>More info on this series of chapter meetings or on the Belgium OWASP chapter can be found at <a href=\"https://owasp.org/www-chapter-belgium/\" class=\"linkified\">https://owasp.org/www-chapter-belgium/</a> .</p> "
     },
     {
-        "group": "Bolivia",
-        "repo": "www-chapter-bolivia",
-        "name": "GRUPOS DE ESTUDIO OWASP - Burp Suite Training 2da Parte",
-        "date": "2021-10-02",
-        "time": "14:00",
-        "link": "https://www.meetup.com/OWASP-Bolivia-Meetup-Group/events/281057691/",
-        "timezone": "America/La_Paz",
-        "description": "<p>Training paso a paso de BurpSuite, la herramienta m\u00e1s popular de pentesting web. Segunda Parte pr\u00e1ctica con laboratorio.</p> "
-    },
-    {
         "group": "Bonita Springs",
         "repo": "www-chapter-bonita-springs",
         "name": "OWASP Monthly Meeting",
@@ -78,16 +58,6 @@
         "link": "https://www.meetup.com/owaspCLT/events/274988455/",
         "timezone": "US/Eastern",
         "description": "<p>Topic is TBA.</p> "
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "Web Socket Penetration Testing",
-        "date": "2021-10-02",
-        "time": "18:30",
-        "link": "https://www.meetup.com/Chennai-OWASP-Meetup-Group/events/281025770/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Seasoned Security professional with 8+ years of experience in and around Managed security services, with a lot to offer. I have a passion and a knack for security mindset and constantly improving my skills on APT trends and Security Incidents. Along with an expertise in Ethical hacking, I would like to invest my time in learning International business acumen and consulting if an opportunity arises, well I believe in a constant cycle of learning and evolving</p> <p>Registration Link: <a href=\"https://forms.gle/Y9Wkf77NA3Urej7X6\" class=\"linkified\">https://forms.gle/Y9Wkf77NA3Urej7X6</a></p> "
     },
     {
         "group": "Copenhagen",
@@ -147,7 +117,7 @@
         "time": "19:00",
         "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/280589400/",
         "timezone": "Asia/Jakarta",
-        "description": "<p>Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026<br/>\u2022 Tool dan standar keamanan aplikasi<br/>\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan<br/>\u2022 Kendali keamanan dan pustaka standar<br/>\u2022 Cabang lokal di seluruh dunia<br/>\u2022 Riset terkini<br/>\u2022 Konferensi lengkap di seluruh dunia<br/>\u2022 Mailing list<br/>\u2022 Dan banyak lagi \u2026 di www.owasp.org</p> <p>Kali ini Pak Semi Yulianto akan membahas :</p> <p>Writing an Effective Penetration Testing Report: An Executive View</p> <p>Abstract:<br/>Penetration test or pentest is a typical security assessment which is the process to gain access to specific information assets (eq. computer systems, network infrastructure, or application). Penetration test simulates the attack performed internally or externally by the attackers which have the intention to find security weaknesses or vulnerabilities and validate the potential impacts and risks should those vulnerabilities being exploited.</p> <p>Security issues found through penetration test are presented to the system\u2019s owner, data owner or risk owner. An effective penetration test will support this information with an accurate assessment of the potential impacts to the organization and range of technical and procedural safeguards should be planned and executed to mitigate risks.</p> <p>Many penetration testers are in fact very good in technical since they have skills needed to perform all of the tests, but they are lack of report writing methodology and approach which create a very big gap in penetration testing cycle. A penetration test is useless without something tangible to give to a client or senior management. Report writing is a crucial part of any service providers (eq. IT service/advisory). A report should detail the outcome of the test and, if you are making recommendations, document the recommendations to secure any high-risk systems.</p> <p>The target audience of a penetration testing report will vary, the technical report will be read by IT or any responsible information security people while executive summary will definitely be read by the senior management.<br/>Writing an effective penetration testing report is an art that needs to be learned and to make sure that the report will deliver the right information to the targeted audience.<br/>After reading the book, you will be able to: understand on how to create a good and effective penetration testing report; understand the mechanism to provide effective deliverables; apply risk management knowledge &amp; skills and blend them in your deliverables.<br/>---<br/>Short bio :</p> <p>Semi Yulianto<br/>BSc. (Accounting), M.IT (IT Security &amp; Governance)<br/>MCT, MCDBA, MCTS, MCITP, MCSA, MCSE, MCT, CCNP, CWNA, CEH, ECSA, CHFI, ECSP, EDRP, CND, CEI, SSCP, CISSP, CSSLP, CISA, CISM, Security+, CySA+, Pentest+, CASP+, OSSA, CASE Java<br/>Co-Founder &amp; CEO, Chief Hacking Officer (CHO) of PT. Systech Global Informasi (SGI Asia).<br/>Information Security Consultant / Subject Matter Expert (SME) /Advisor at PT. Trinusa Travelindo<br/>(Traveloka.com) - until April 2019 and PT. Tiga Inti Utama (Triv.co.id) \u2013 Present.<br/>Approved InfoSec/Cybersecurity Instructor (Saudi Aramco &amp; US Military in South Korea).<br/>Information Security/Cyber Security Practitioner, Consultant &amp; Senior Technical Trainer.<br/>Email: semi.yulianto2009 [at] gmail.com<br/>linkedin : <a href=\"https://www.linkedin.com/in/semiyulianto\" class=\"linkified\">https://www.linkedin.com/in/semiyulianto</a></p> <p>Venue :<br/>Online by zoom</p> <p>Catatan :<br/>Acara Ini Free for Everyone<br/>Profil Trainer bisa di liat lebih detail di Linkedin<br/>Acara ini Di deliver dengan Bahasa Indonesia</p> "
+        "description": "<p>Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026<br/>\u2022 Tool dan standar keamanan aplikasi<br/>\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan<br/>\u2022 Kendali keamanan dan pustaka standar<br/>\u2022 Cabang lokal di seluruh dunia<br/>\u2022 Riset terkini<br/>\u2022 Konferensi lengkap di seluruh dunia<br/>\u2022 Mailing list<br/>\u2022 Dan banyak lagi \u2026 di www.owasp.org</p> <p>Kali ini Pak Semi Yulianto akan membahas :</p> <p>Writing an Effective Penetration Testing Report: An Executive View</p> <p>Abstract:<br/>Penetration test or pentest is a typical security assessment which is the process to gain access to specific information assets (eq. computer systems, network infrastructure, or application). Penetration test simulates the attack performed internally or externally by the attackers which have the intention to find security weaknesses or vulnerabilities and validate the potential impacts and risks should those vulnerabilities being exploited.</p> <p>Security issues found through penetration test are presented to the system\u2019s owner, data owner or risk owner. An effective penetration test will support this information with an accurate assessment of the potential impacts to the organization and range of technical and procedural safeguards should be planned and executed to mitigate risks.</p> <p>Many penetration testers are in fact very good in technical since they have skills needed to perform all of the tests, but they are lack of report writing methodology and approach which create a very big gap in penetration testing cycle. A penetration test is useless without something tangible to give to a client or senior management. Report writing is a crucial part of any service providers (eq. IT service/advisory). A report should detail the outcome of the test and, if you are making recommendations, document the recommendations to secure any high-risk systems.</p> <p>The target audience of a penetration testing report will vary, the technical report will be read by IT or any responsible information security people while executive summary will definitely be read by the senior management.<br/>Writing an effective penetration testing report is an art that needs to be learned and to make sure that the report will deliver the right information to the targeted audience.<br/>After reading the book, you will be able to: understand on how to create a good and effective penetration testing report; understand the mechanism to provide effective deliverables; apply risk management knowledge &amp; skills and blend them in your deliverables.<br/>---<br/>Short bio :</p> <p>Semi Yulianto<br/>BSc. (Accounting), M.IT (IT Security &amp; Governance)<br/>MCT, MCDBA, MCTS, MCITP, MCSA, MCSE, MCT, CCNP, CWNA, CEH, ECSA, CHFI, ECSP, EDRP, CND, CEI, SSCP, CISSP, CSSLP, CISA, CISM, Security+, CySA+, Pentest+, CASP+, OSSA, CASE Java<br/>Co-Founder &amp; CEO, Chief Hacking Officer (CHO) of PT. Systech Global Informasi (SGI Asia).<br/>Information Security Consultant / Subject Matter Expert (SME) /Advisor at PT. Trinusa Travelindo<br/>(Traveloka.com) - until April 2019 and PT. Tiga Inti Utama (Triv.co.id) \u2013 Present.<br/>Approved InfoSec/Cybersecurity Instructor (Saudi Aramco &amp; US Military in South Korea).<br/>Information Security/Cyber Security Practitioner, Consultant &amp; Senior Technical Trainer.<br/>Email: semi.yulianto2009 [at] gmail.com<br/>linkedin : <a href=\"https://www.linkedin.com/in/semiyulianto\" class=\"linkified\">https://www.linkedin.com/in/semiyulianto</a></p> <p>Venue :<br/>Online by zoom</p> <p>Topic: Writing an Effective Penetration Testing Report: An Executive View - OWASP Jakarta</p> <p>Time: Oct 4, 2021 07:00 PM Jakarta</p> <p>Join Zoom Meeting<br/><a href=\"https://us06web.zoom.us/j/88185525258?pwd=VW5LWXRVbkNkZHhQeXNRVHVPc0ZqZz09\" class=\"linkified\">https://us06web.zoom.us/j/88185525258?pwd=VW5LWXRVbkNkZHhQeXNRVHVPc0ZqZz09</a></p> <p>Meeting ID: 881 8552 5258<br/>Passcode: owaspjkt21</p> <p>Catatan :<br/>Acara Ini Free for Everyone<br/>Profil Trainer bisa di liat lebih detail di Linkedin<br/>Acara ini Di deliver dengan Bahasa Indonesia</p> "
     },
     {
         "group": "Kansas City",
@@ -210,6 +180,16 @@
         "description": "<p>Description of the talk:<br/>Learn about the new OWASP Top 10:2021 that was released in September, 2021. This talk will walk through the process we used to build the new Top 10 and provide a brief overview of each of the risk categories in this updated list. Hear how the OWASP Top 10:2021 can fit into your organization and provide a baseline for secure development.</p> <p>About the speaker:<br/>Brian Glas, OWASP Top Ten Leader | Assistant Professor Of Computer Science, Union University Brian has over 20 years of experience in various roles in IT and over a decade and a half of that in application development and security. His day job is serving as an Assistant Professor teaching a full load of Computer Science and Cybersecurity classes at Union University. He helped build FedEx's AppSec team, worked on the Trustworthy Computing team at Microsoft, consulted on software security for years, and served as a project lead and active contributor for SAMM v1.1-2.0+ and OWASP Top 10 2017 and 2021. Brian is a contributor to the RABET-V Pilot Program. He holds several Cybersecurity and IT certifications and is currently working on his Doctor of Computer Science in Cybersecurity and Information Assurance.</p> <p>Who should attend?<br/>Both existing OWASP members and people unfamiliar with OWASP. Information security practitioners of all levels, IT professionals, and business leaders. Developers, development managers, product owners, QA professionals, program managers, and anyone involved in building software, etc.</p> "
     },
     {
+        "group": "Maribor",
+        "repo": "www-chapter-maribor",
+        "name": "CyberNight",
+        "date": "2021-10-08",
+        "time": "17:00",
+        "link": "https://www.meetup.com/maribor-owasp-meetup-group/events/281188177/",
+        "timezone": "Europe/Ljubljana",
+        "description": "<p>V okviru tekmovanja se bodo udele\u017eenci soo\u010dili z re\u0161evanjem razli\u010dnih varnostnih izzivov in si prislu\u017eili nova znanja, kot so kriptografija, obratno in\u017eenirstvo ... Izzivi bodo zapleteni, vendar primerni za igralce vseh ravni \u2013 od veteranov do tistih, za katere je ta CTF prvi, saj \u0161tevilni izzivi ne zahtevajo programskega znanja in so preprosto stvar kreativnega razmi\u0161ljanja ter sposobnosti re\u0161evanja problemov.</p> <p>Zmagovalec dogodka bo tekmovalec, ki si bo z re\u0161enimi izzivi priboril najve\u010dje \u0161tevilo to\u010dk.</p> <p>Upamo, da se nam pridru\u017eite. Za udele\u017ebo na dogodku je obvezna prijava na Eventbrite.</p> <p>Sre\u010den lov!</p> "
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "(Alert Level 1 permitting) The new OWASP Top 10 Web Application Security Risks",
@@ -248,6 +228,16 @@
         "link": "https://www.meetup.com/OWASP-OC/events/281070205/",
         "timezone": "US/Pacific",
         "description": "<p>Speaker: Daniel Blazquez, Technical Product Marketing Lead, Hdiv Security</p> <p>Topic: The beauty of runtime AppSec done right</p> <p>Live stream: <a href=\"https://www.twitch.tv/owaspoc\" class=\"linkified\">https://www.twitch.tv/owaspoc</a></p> <p>Abstract:<br/>Traditionally, application security practices oscillate between static activities (code scans, code reviews, threat modeling, etc.) and runtime activities (penetration testing, scanners, and WAFs). Static activities have context and depth, but lack visibility on the true behavior of the software. On the other hand, runtime activities have no direct access to the internals of the application because they follow an external approach.</p> <p>DevOps teams are demanding a more complete picture of the security of the applications, combining static and dynamic activities. In this practical talk, I want to propose a new approach based on runtime observability, that provides not only vulnerabilities and attacks, but also app deployment intelligence, sensitive data visibility, and API discovery capabilities.</p> <p>Speaker Bio:<br/>Daniel Blazquez leads the technical marketing and developer advocacy practice at Hdiv Security, a VC-funded application security company focused on application security automation. As an ex-Java programmer and recovering corporate strategy professional, Daniel brings a holistic view to the S-SDLC practice: from coding to product management, all the way to growth strategy. His education includes a Computer Science master's and undergrad, and an MBA at UCLA Anderson.</p> <p>Our meeting sponsor, Shiftleft, will provide a $40 Amazon gift card to all attendees who fill out our survey during the meeting. The URL for the survey will be given out during the meeting.</p> <p>--------------------------------------------------------------------------------------<br/>NOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice.</p> "
+    },
+    {
+        "group": "Ottawa",
+        "repo": "www-chapter-ottawa",
+        "name": "OWASPOttawa October 2021: CISSP: Not just for squares",
+        "date": "2021-10-20",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Ottawa/events/281189833/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>Special Notice:</p> <p>Due to the COVID-19 (Coronavirus) pandemic our events will continue online on our YouTube channel.</p> <p>Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!</p> <p>We will post information here and on all our other medias (email, twitter etc.) as we are closer to the date.</p> <p><a href=\"https://www.youtube.com/watch?v=tBdfEITSQNQ\" class=\"embedded\">https://www.youtube.com/watch?v=tBdfEITSQNQ</a></p> <p>7:00 PM EDT Technical Talks</p> <p>1. Announcements</p> <p>2. CISSP: Not just for squares</p> <p>Abstract:<br/>\"On what type of fire would you use a Class C extinguisher?\" \"What is the difference between SLE and ARO?\" ...Are you still awake?</p> <p>These may be fine questions to ponder if you are a CISO putting together the DRP, agonizing over MTD and RTO. But what if you are a pentester or a security researcher, and you only care about kill chains and exfil channels?</p> <p>I embarked on a CISSP journey with hesitation, but can now confidently say that it was time well spent. In this talk I outline my reasons for why I think CISSP is a worthwhile pursuit even for the hardcore red-teamer.</p> <p>Bio:<br/>Dmitriy Beryoza - Senior Security Researcher, Vectra AI<br/>Dmitriy is a Senior Security Researcher at Vectra AI. He spent over 25 years of his life building software before realizing that breaking it is much more fun. Dmitriy is passionate about all things security, with particular interest in reverse engineering, binary exploitation, secure software development, and CTF competitions.</p> "
     },
     {
         "group": "Pittsburgh",
@@ -343,9 +333,9 @@
         "group": "Tegucigalpa",
         "repo": "www-chapter-tegucigalpa",
         "name": "Taller: #TechTalk: API con NestJS y las Maravillas de TS",
-        "date": "2021-10-02",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Tegucigalpa-Chapter/events/280834015/",
+        "date": "2021-10-11",
+        "time": "17:00",
+        "link": "https://www.meetup.com/OWASP-Tegucigalpa-Chapter/events/281173631/",
         "timezone": "America/Tegucigalpa",
         "description": "<p>Taller: API con NestJS y las Maravillas de TS</p> "
     },
@@ -370,16 +360,6 @@
         "description": "<p>TBA</p> "
     },
     {
-        "group": "Wia",
-        "repo": "www-committee-wia",
-        "name": "Deveeshree Nayak",
-        "date": "2021-10-02",
-        "time": "13:00",
-        "link": "https://www.meetup.com/womeninappsec/events/279258252/",
-        "timezone": "US/Eastern",
-        "description": "<p>Deveeshree Nayak will present on \"Getting Started With PenTesting, Intro to OSINT, Creating a D &amp; I Cyber Security Team\".</p> "
-    },
-    {
         "group": "Devslop",
         "repo": "www-project-devslop",
         "name": "How to Analyze Code for Vulnerabilities using Joern",
@@ -388,15 +368,5 @@
         "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280834756/",
         "timezone": "Canada/Eastern",
         "description": "<p>Code analysis is the process of analyzing the code of a program to find security vulnerabilities. It is the most effective way to identify many types of security issues, from injection vulnerabilities to issues like leaked secrets and vulnerable dependencies. But the process of manually analyzing code for vulnerabilities can be very time-consuming. Is there a better way to do this?</p> <p>In this talk, Vickie and Suchakra will demonstrate how to use open-sourced code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions? This is the second edition of How to analyze code for vulnerabilities (<a href=\"https://www.youtube.com/watch?v=A8CNysN-lOM\" class=\"embedded\">https://www.youtube.com/watch?v=A8CNysN-lOM</a>), this time, we\u2019ll talk about how to do it efficiently using Joern.</p> <p>VICKIE LI<br/>Vickie Li is the resident developer evangelist at ShiftLeft. She is an experienced web developer with an avid interest in security research. She can be found on <a href=\"https://vickieli.dev\" class=\"linkified\">https://vickieli.dev</a>, where she blogs about security news, techniques, and her latest bug bounty findings. She also hosts \u201cSecurity Simplified\u201d, a developer education series focusing on web security: <a href=\"https://www.youtube.com/c/vickielidev\" class=\"embedded\">https://www.youtube.com/c/vickielidev</a>.</p> <p>SUCHAKRA SHARMA<br/>Suchakra Sharma is Staff Scientist at ShiftLeft Inc. where he builds code analysis tools and hunts security bugs. He completed his Ph.D. in Computer Engineering from Polytechnique Montr\u00e9al where he worked on eBPF technology and hardware-assisted tracing techniques for OS analysis. As part of his research, he also developed one of the first hardware-trace based virtual machine analysis techniques. He has delivered talks and trainings at venues such as RSA, USENIX LISA, SCALE, Papers We Love, Tracing Summit, etc. When not playing with computers, he hikes and writes poems.</p> "
-    },
-    {
-        "group": "Devslop",
-        "repo": "www-project-devslop",
-        "name": "Vulnerability Writeups: The Magical 5 Minute Formula",
-        "date": "2021-10-03",
-        "time": "10:00",
-        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280786174/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>Whether you're an elite security researcher or just starting out in security, odds are that you're terrible at effectively explaining vulnerabilities. Sorry, that's just a fact.</p> <p>It's hard to find security vulnerabilities, but it's really difficult to establish trust, clearly and concisely explain the risk, and compel action all while being great to work with and not bruising any egos.</p> <p>You have to be a great team player and absolutely resist the urge to blame. Otherwise you'll undermine your entire security program and culture -- which is really the whole point of finding vulnerabilities in the first place.</p> <p>So, in this talk, I'm going to share the approach I developed over 15 years of consulting with the world\u2019s largest companies. With some practice, you should be able to create a fantastic, compelling vulnerability writeup in less than five minutes.</p> <p>Of course, you have to really understand the vulnerability first, but that's not what this paper is about. This is about what you do after you find something awesome.</p> <p>JEFF WILLIAMS<br/>Jeff brings more than 20 years of security leadership experience as co-founder and Chief Technology Officer of Contrast Security. Previously, Jeff was co-founder and CEO of Aspect Security, a successful and innovative application security consulting company acquired by EY. Jeff is also a founder and major contributor to OWASP, where he served as Global Chairman for 10 years, and created the OWASP Top 10, OWASP Enterprise Security API, OWASP Application Security Verification Standard, XSS Prevention Cheat Sheet, and many more popular open source projects. Jeff has a BA from Virginia, an MA from George Mason, and a JD from Georgetown. Please connect on LinkedIn: <a href=\"https://www.linkedin.com/in/planetlevel/\" class=\"linkified\">https://www.linkedin.com/in/planetlevel/</a></p> "
     }
 ]
