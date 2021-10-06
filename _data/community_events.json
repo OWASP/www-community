@@ -30,16 +30,6 @@
         "description": "<p>On October 21st, we have scheduled Steven Springett with Component Analysis vs SCA - How SBOMs are the driving force for change.</p> <p>This chapter meeting is part of a series of virtual chapter meetings (every 3rd Thursday of the month).</p> <p>Our chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed. Registered attendees can join via Zoom, and ask questions to the speakers.</p> <p>More info on this series of chapter meetings or on the Belgium OWASP chapter can be found at <a href=\"https://owasp.org/www-chapter-belgium/\" class=\"linkified\">https://owasp.org/www-chapter-belgium/</a> .</p> "
     },
     {
-        "group": "Bonita Springs",
-        "repo": "www-chapter-bonita-springs",
-        "name": "OWASP Monthly Meeting",
-        "date": "2021-10-05",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-Bonita-Springs-Chapter/events/280349243/",
-        "timezone": "US/Eastern",
-        "description": "<p>We generally review security related happenings, share tips and tricks for configuring software and hardware, and chat about various topics such as security, privacy, exploitation, vulnerabilities, pen testing, web app security, CTFs, IoT security, mobile security and anything else members wish to discuss.</p> "
-    },
-    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "TBC",
@@ -58,16 +48,6 @@
         "link": "https://www.meetup.com/owaspCLT/events/274988455/",
         "timezone": "US/Eastern",
         "description": "<p>Topic is TBA.</p> "
-    },
-    {
-        "group": "Copenhagen",
-        "repo": "www-chapter-copenhagen",
-        "name": "Improhound Workshop + Talk",
-        "date": "2021-10-05",
-        "time": "17:00",
-        "link": "https://www.meetup.com/OWASP-Copenhagen-Chapter/events/280774265/",
-        "timezone": "Europe/Copenhagen",
-        "description": "<p>After almost two years we are excited to announce our first physical/hybrid event! For this evening we plan to have a workshop and a talk, and plenty of time for socializing/networking. Please reserve your seats as the space is limited and only RSVP if you are physically showing up, so we know how much pizza we should buy :)<br/>The virtual streaming will be anyways accessible to YouTube without the need to RSVP.</p> <p>17:00 - 17:10: Intro<br/>17:10 - 17:50: Talk: \"Did you just assume your product is secure?\" by Dmitry<br/>17:50 - 18:10: Talk: \"Protect your Domain Admins with tiering\" by Jonas<br/>18:10 - 18:30: Pizza and drinks will be served at ITU/ScrollBar<br/>18:30 - 20:30: ImproHound workshop, bring your own device with VMWare to try the tool as described down below.</p> <p>1. Talk: Did you just assume your product is secure?<br/>People tend to assume things. I know I do. It's perfectly normal, it's how our brains evolved to work. Join me in exploring the role of assumptions in our everyday life and how that impacts the security of products we build. Or did I just assume that they do?.. Hmm.</p> <p>Dmitry started as a software engineer building a promising AAA title at an unknown game studio, and continued to be a firmware QA automation engineer and then a firmware developer. Despite that, he spent a lot of free time doing reverse engineering. All that equipped him well with knowledge and skills to start his infosec career almost 10 years ago. Now a senior consultant with the product security team at F-Secure Consulting, he provides advice on security topics to tier-1 automotive, aerospace, maritime, and industrial customers worldwide.</p> <p>2. ImproHound Workshop: Protect your Domain Admins with tiering<br/>It is not viable for system administrators and defenders in a large Active Directory (AD) environment to ensure all AD objects have only the exact permissions they need. It is too big of a task, why many organizations are vulnerable to AD attacks due to too loose or wrong permissions. At the same time, credential theft may lead to privileges AD users having their password stolen when they login to compromised computers. These vulnerabilities are chainable, why you in many AD environments can escalate your rights to Domain Admin no matter what computer or user you have.</p> <p>Microsoft realised this issue, and recommended organizations to implement the AD tier model: Split the AD into three tiers and focus on preventing attack paths leading from one tier to a more business critical tier. The concept is great, but it turns out to be rather difficult to implement the tiering concept in AD, why most organizations fail it and end up leaving security gaps..</p> <p>After this workshop, you will be able to help those organizations! And probably p0wn them..<br/>The workshop is part talk and part workshop and you will need to bring a computer with VMware (Player will do) to try out ImproHound. Experience with Active Directory is an advantage, but not a requirement.</p> <p>Jonas B\u00fclow Knudsen is an Active Directory (AD) security advisor. Jonas has spent the past two years helping organizations implement technical countermeasures and remediate vulnerabilities in and around AD, including implementation of the AD tier model. Working closely together with penetration testers and having a strong interest in offensive security enables Jonas to focus on security measures that matter and not just best practice.</p> "
     },
     {
         "group": "Croatia",
@@ -178,6 +158,16 @@
         "link": "https://www.meetup.com/maribor-owasp-meetup-group/events/281188177/",
         "timezone": "Europe/Ljubljana",
         "description": "<p>V okviru tekmovanja se bodo udele\u017eenci soo\u010dili z re\u0161evanjem razli\u010dnih varnostnih izzivov in si prislu\u017eili nova znanja, kot so kriptografija, obratno in\u017eenirstvo ... Izzivi bodo zapleteni, vendar primerni za igralce vseh ravni \u2013 od veteranov do tistih, za katere je ta CTF prvi, saj \u0161tevilni izzivi ne zahtevajo programskega znanja in so preprosto stvar kreativnega razmi\u0161ljanja ter sposobnosti re\u0161evanja problemov.</p> <p>Zmagovalec dogodka bo tekmovalec, ki si bo z re\u0161enimi izzivi priboril najve\u010dje \u0161tevilo to\u010dk.</p> <p>Upamo, da se nam pridru\u017eite. Za udele\u017ebo na dogodku je obvezna prijava na Eventbrite.</p> <p>Sre\u010den lov!</p> "
+    },
+    {
+        "group": "Netherlands",
+        "repo": "www-chapter-netherlands",
+        "name": "October 2021 OWASP Chapter Netherlands Meetup",
+        "date": "2021-10-28",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Chapter-Netherlands-Meetup/events/281228990/",
+        "timezone": "Europe/Amsterdam",
+        "description": "<p>19:00 - 19:15 Welcome<br/>19:15 - 20:00 Our Secrets Management Journey: From Code to Vault by Jeroen Willemsen<br/>20:00 - 20:15 Break<br/>20:15 - 21:00 Doing Security in DevOps, the right way! by Irfaan Santoe</p> <p>Our Secrets Management Journey: From Code to Vault</p> <p>So you have an access key that you need to store somewhere. Maybe it is better not to put it in your code, nor in your container. But what about Kubernetes? What about a custom secrets storage solution? Of course, we tried many, sometimes funny, things to get our secrets secured. And luckily we ended up with a combination of safe methods, with Vault at its core. Want to know more? Join us, as we will go through various examples and their challenges!</p> <p>Jeroen Willemsen is a Principal Security Architect at Xebia and a jack of all trades in security. He loves to develop new software, set up DevSecOps support tooling, and help companies with security programs. He enjoys sharing knowledge, which is why he published articles, blogs and gave trainings and talks about various subjects.</p> <p>Doing Security in DevOps, the right way!</p> <p>Automation is not DevSecOps, but without automation there is no DevSecOps! Secret management, SAST, DAST, Pen Testing, Container Security, Secure Config Management etc. are about automating security. But let me ask you, can one reach nirvana in securing DevOps with solely automation? This talk will address ALL dimensions required for doing security in DevOps, so we get it right!</p> <p>Irfaan Santoe is a Global Security Director at Wolters Kluwer advising the Business &amp; IT on the information security ambition &amp; implementation. Prior to Wolters Kluwer, Irfaan was the Global Head of Security Engineering at ABN AMRO bank and lead the security implementation of ABN AMRO\u2019s IT transformation towards DevOps. This transformation program is set to uplift more than 500+ Dev-teams to become DevOps and increasing security without breaking DevOps! Irfaan is a Master in Computer Science (a programmer by heart) and is fascinated by the Inner Science of Yoga &amp; Meditation.</p> <p>The YouTube link will be added to this page.</p> "
     },
     {
         "group": "New Zealand",
