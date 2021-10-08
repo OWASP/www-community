@@ -1,15 +1,5 @@
 [
     {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "Variant Analysis & The Adventures of Root Cause Analysis",
-        "date": "2021-10-07",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-Atlanta/events/280861805/",
-        "timezone": "US/Eastern",
-        "description": "<p>In this talk, we'll cover the importance of Variant analysis and its impact when applied alongside Root Cause Analysis. We'll understand how improper Root Cause Analysis and Remediation, can lead to rediscovery of vulnerable code paths to supposedly remediated code. We'll also investigate the positive impact that Variant Analysis can play in an attempt to eliminate as many vulnerabilities as possible of the same class, within a given product.</p> <p>Speaker Name &amp; Title: Robert Hawes, Director of Research VS-Labs - VerSprite Security Research Team Focused on Exploit Dev.</p> <p>Speaker email: goblin@versprite.com</p> "
-    },
-    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "OWASP Bangalore Monthly Meet 09th October 2021",
@@ -40,6 +30,16 @@
         "description": "<p>We are looking to publish on @YouTube the recordings of our meetups. If you would like to be notified when we a new video is published, please feel free to subscribe on our channel at:<br/><a href=\"https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ\" class=\"embedded\">https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ</a></p> "
     },
     {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "OWASP Projects and Cyber Security Research Ideas - October 2021",
+        "date": "2021-10-16",
+        "time": "10:00",
+        "link": "https://www.meetup.com/OWASP-Cairo-Chapter/events/281242844/",
+        "timezone": "Africa/Cairo",
+        "description": "<p>OWASP Cairo Chapter Event</p> <p>Location:Online Event</p> <p>Date: Saturday, October 16, 2021</p> <p>Event Agenda:</p> <p>1- How to open an OWASP project [By: Mohamed Alfateh]. 10:00 to 10:15<br/>2- OWASP Incubator projects, ideas for Research (1) [By: Ahmed Yousif]. 10:15 to 11:00<br/>3- OWASP Incubator projects, ideas for Research (2)[By: Joey Joseph]. 11:00 to 11:45<br/>4- OWASP Lab projects [By: Mahmoud Elhindy]. 11:45 to 12:30<br/>5- OWASP Flagship projects. 12:30 to 13:00<br/>6- Online Live Competition - Winners will get OWASP T-Shirt. 13:00 to 13:30</p> "
+    },
+    {
         "group": "Charlotte",
         "repo": "www-chapter-charlotte",
         "name": "October 2021 Meetup - Topic TBA",
@@ -50,14 +50,24 @@
         "description": "<p>Topic is TBA.</p> "
     },
     {
-        "group": "Croatia",
-        "repo": "www-chapter-croatia",
-        "name": "Chapter Croatia Virtual Meetup - Typosquatting & ECSC",
-        "date": "2021-10-07",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Croatia-Meetup-Group/events/281065020/",
-        "timezone": "Europe/Zagreb",
-        "description": "<p>Hello Everyone,</p> <p>For this quarter's OWASP Croatia meetup, we have 2 topics that will be delivered virtually (Over Google Meet):</p> <p>* Matej Lazarevi\u0107: What is Typosquatting and what can we do about it?<br/>* Miroslav \u0160tampar: ECSC (European Cyber Security Challenge)<br/>* Chill and Chat - Stay a while and chat with others from OWASP Croatia</p> <p>See you!<br/>Talk abstracts and bios follow:</p> <p>------------------<br/>Matej Lazarevi\u0107: What is Typosquatting and what can we do about it?</p> <p># Summary<br/>Typosquatting is an simple and effective attack vector that relies on intentional misspelling the URL or misusing the top-level domain, often with the goal of phishing the visitor. Those URLs can be found in spam emails and forums, received via messaging apps or manually misspelled in the address bar. Although being a simple idea, typosquatting goes hand-in-hand with (spear)phishing attacks that evolved and became more efficient and harder to detect. We will analyze some tools for discovering typo squatted websites and potential malicious domains that can target our organisation or product.</p> <p># Bio<br/>Matej works as a Frontend Developer in Barrage. Besides the passion for frontend, he is interested in AppSec, often can be found poking around TryHackMe or in his room making lazy bash scripts that sometimes save 15 seconds of his life.</p> <p>------------------<br/>Miroslav \u0160tampar: ECSC (European Cyber Security Challenge)</p> <p># Summary<br/>As a member of the organization, the speaker would like to talk about the European Cyber Security Challenge, an annual event for young cyber security talents across Europe, powered by the EU Agency for Cybersecurity. This year is taking place in Prague, Czech Republic, from 28 September to 1st October, therefore first-hand impressions will be presented, gathered at the venue. Joint national goal should be the gathering, training and sending of the young Croatian cyber security team to a competition in the not so distant future.</p> <p># Bio<br/>Miroslav Stampar is an information security expert who lives and works in Zagreb. His scientific and professional interests include research and development of systems from the vast domain of information security. He has given talks at numerous domestic and international expert conventions on information security and programming. He is author of several world-renowned free and open source applications (sqlmap, Maltrail, etc.) In free time, an active CTF player, member of an international top-tier team Super Guesser.</p> "
+        "group": "Cluj",
+        "repo": "www-chapter-cluj",
+        "name": " \u201cPut your White Hat on!\u201d and join us",
+        "date": "2021-10-14",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Cluj/events/281244746/",
+        "timezone": "Europe/Bucharest",
+        "description": "<p>Put your White Hat on!\u201d and join us.</p> <p>OWASP (The Open We Application Security Project) chapter in Cluj presents an open online event for the specialists in Information Security in Cluj, as well as anyone interested or aspiring to a career in this domain.</p> <p>We\u2019re building up a Cybersecurity Community and there\u2019s no better way than gathering all experts and future experts to a first event that marks this beginning.</p> <p>Register today to find out hands-on information about how can you prevent and manage Information Security breaches and incidents, learn best practices and more.</p> <p>Find below the speakers and topics of the meetup:</p> <p>Romeo Andreica, Information Security Engineer arobs<br/>The Impact of Day 0 in Informations Security:<br/>\u2022 The information attacks in the contexts of Day-Zero vulnerabilities<br/>\u2022 The incidence of these type of attacks in the prezent context and remote work<br/>\u2022 Identification, evaluation and classification mechanisms<br/>\u2022 Remedies, backup-restrore and patching in case of security incidents</p> <p>Cristian \u0218erban, Cyber Architect arobs<br/>Rust Language Security \u2013 Best practices<br/>\u2022 Features review<br/>\u2022 How does Rust prevent buffer overflow, integer overflow, memory corruption and others<br/>\u2022 It guarantees complete memory safety</p> <p>Securing Data Demo<br/>Alin Oprea, Junior Security Engineer arobs<br/>Andrei Gherasim, Junior Security Engineer arobs<br/>Ioana Oltean, Junior Security Engineer arobs<br/>Adelina Dumitra\u0219, Junior Security Engineer arobs</p> <p>Please join the zoom meeting with the<br/>ID 884 3632 7774<br/>or use the link bellow<br/><a href=\"https://us06web.zoom.us/j/88436327774\" class=\"linkified\">https://us06web.zoom.us/j/88436327774</a></p> "
+    },
+    {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "Secure Code Warrior CTF",
+        "date": "2021-10-28",
+        "time": "12:00",
+        "link": "https://www.meetup.com/Columbus-OWASP/events/281270826/",
+        "timezone": "US/Eastern",
+        "description": "<p> Secure Code Warrior Tournament + OWASP Columbus</p> <p> When: October 28th, 12:00PM ET<br/>October 30th, 5:00PM ET</p> <p>Secure Code Warrior brings you a defensive security-based tournament from a developer's perspective. The tournament allows you to test your skill against the other participants in a series of vulnerable code challenges that ask you to identify a problem, locate insecure code, and fix a vulnerability. You don\u2019t need extensive programming knowledge as this will be a great way to learn the foundations and intermediates of leveraging code that is not only functional but is also secure.</p> <p> You can find the tournament step-by-step guide here: <a href=\"https://youtu.be/o8XhKK_eOOs\" class=\"embedded\">https://youtu.be/o8XhKK_eOOs</a></p> <p>The tournament is run virtually so you can join through your laptop from the most convenient location and time. It should take only a few hours, drop-in as you see fit during the duration of the event to complete all the challenges and win prizes!</p> <p>Instructions for playing:<br/> 1) Register for the Secure Code Warrior platform here: <a href=\"https://discover.securecodewarrior.com/OWASPColumbus.html\" class=\"linkified\">https://discover.securecodewarrior.com/OWASPColumbus.html</a><br/> 2) Check your email for the confirmation and access the unique link to create your profile.<br/> 3) Once logged in: click \u201cTournaments\u201d<br/> 4) Join the OWASP Columbus Secure Coding Tournament</p> <p>The Secure Code Warrior platform will be open before and after the tournament, so feel free to practice in the \u201cTraining\u201d tab.</p> <p> Monitor the live leaderboard to see how you're performing!</p> "
     },
     {
         "group": "Dallas",
@@ -78,6 +88,16 @@
         "link": "https://www.meetup.com/indyowasp/events/280097107/",
         "timezone": "US/Eastern",
         "description": "<p>We'll share more details closer to the event, but I'll say I'm _very_ excited about the topic!</p> "
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly Online meeting ",
+        "date": "2021-11-08",
+        "time": "18:45",
+        "link": "https://www.meetup.com/OWASP-Jacksonville-Chapter/events/nnccjsyccpblb/",
+        "timezone": "US/Eastern",
+        "description": "<p>The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.</p> "
     },
     {
         "group": "Jacksonville",
@@ -120,16 +140,6 @@
         "description": "<p>Join the OWASP LV at the Tech Alley in person or virtual! (Link post registration)</p> <p>Tech Alley Meetup Link: <a href=\"https://www.meetup.com/tech-alley/events/278983744/\" class=\"linkified\">https://www.meetup.com/tech-alley/events/278983744/</a></p> <p>Join OWASP Vegas for a look at the latest changes to the infamous OWASP Top 10. there are three new categories, four categories with naming and scoping changes, and some consolidation in the Top 10 for 2021. We will be holding an open discussion forum as we walk through each, and share how it may affect us. Whether you are a seasoned AppSec ninja or just interested, it will be informative and fun for everyone!</p> "
     },
     {
-        "group": "London",
-        "repo": "www-chapter-london",
-        "name": "OWASP London [ONLINE] Chapter Meeting",
-        "date": "2021-10-07",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-London/events/280827238/",
-        "timezone": "Europe/London",
-        "description": "<p>The next OWASP London Chapter Meeting will be online. We will be Live-Streaming the event on the OWASP London YouTube Channel: <a href=\"https://www.youtube.com/OWASPLondon\" class=\"embedded\">https://www.youtube.com/OWASPLondon</a></p> <p>- please [SUBSCRIBE] to our YouTube Channel to be notified when we are Live/new videos are published.</p> <p>You can ask questions using YouTube Q&amp;A tool and <a href=\"https://sli.do/OWASP\" class=\"linkified\">https://sli.do/OWASP</a></p> <p>AGENDA:</p> <p>- Introduction, OWASP News &amp; Updates - Sam Stepanyan</p> <p>- Talk 1 : \"\"What the Log?! So Many Events, So Little Time!\" - Miriam Wiesner (@MiriamXyra)<br/>- - Talk 1 Q &amp; A</p> <p>- Talk 2 : \"OWASP Top Ten 2021\" - Andrew van der Stock (@OWASPED)<br/>- - Talk 2 Q &amp; A</p> <p>TALK ABSTRACTS:</p> <p>\"What the Log?! So Many Events, So Little Time!\" - Miriam Wiesner</p> <p>Detecting adversaries is not always easy - especially when it comes to correlating Windows Event Logs to real-world attack patterns and techniques. This talk is about EventList - a free and open-source tool which helps to match Windows Event Log IDs with the MITRE ATT&amp;CK framework (and vice-versa) and offers methods to simplify the detection in corporate environments worldwide.</p> <p>\"Introducing OWASP Top Ten 2021\" - Andrew van der Stock</p> <p>Welcome to the latest instalment of the OWASP Top 10. In this talk you will learn about the brand new OWASP Top Ten 2021, the methodology behind it, the categories, the data collection and analysis process and of course how to start an AppSec Program with the OWASP Top 10.</p> <p>SPEAKERS:</p> <p>MIRIAM WIESNER (@miriamxyra)</p> <p>Miriam Wiesner is a Senior Security Program Manager for Microsoft Defender ATP. Besides MDATP, she has a focus on Secure Infrastructure, Windows Event Logs, Active Directory Security, Just Enough Administration, and PowerShell, and many more. In her spare time, she enjoys writing articles for her private blog (miriamxyra.com), also she enjoys developing open-source tools to help the community and speaks on international conferences and events. She's a life-long learner, always excited about new technologies, and empowering others.</p> <p>ANDREW VAN DER STOCK (@OWASPED / @VANDERAJ)</p> <p>Andrew van der Stock is an acknowledged leader of the application security field, with nearly 20 years application security experience in Australia and the USA, and over 25 years' experience in the IT and System Administration fields. Andrew joined OWASP in 2002 (!) and served as OWASP Sydney Chapter Leader and OWASP Melbourne Chapter co-leader. Over the years Andrew was involved in leading and working on many OWASP Projects such as OWASP Developer Guide 2.0, OWASP Top 10, ESAPI for PHP, OWASP Application Security Verification Standard(ASVS) as well as starting the OWASP Proactive Controls project. Andrew's corporate world experience includes directorship role at KPMG Australia and Senior Principal Consultant role at Synopsys Inc. Currently Andrew is the Executive Director at OWASP, taking the Foundation through organisational change and taking our mission to the next level</p> "
-    },
-    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly Virtual Meeting - OCT 27, 2021",
@@ -148,6 +158,16 @@
         "link": "https://www.meetup.com/owasp-luxembourg-group/events/281144615/",
         "timezone": "Europe/Luxembourg",
         "description": "<p>Description of the talk:<br/>Learn about the new OWASP Top 10:2021 that was released in September, 2021. This talk will walk through the process we used to build the new Top 10 and provide a brief overview of each of the risk categories in this updated list. Hear how the OWASP Top 10:2021 can fit into your organization and provide a baseline for secure development.</p> <p>About the speaker:<br/>Brian Glas, OWASP Top Ten Leader | Assistant Professor Of Computer Science, Union University Brian has over 20 years of experience in various roles in IT and over a decade and a half of that in application development and security. His day job is serving as an Assistant Professor teaching a full load of Computer Science and Cybersecurity classes at Union University. He helped build FedEx's AppSec team, worked on the Trustworthy Computing team at Microsoft, consulted on software security for years, and served as a project lead and active contributor for SAMM v1.1-2.0+ and OWASP Top 10 2017 and 2021. Brian is a contributor to the RABET-V Pilot Program. He holds several Cybersecurity and IT certifications and is currently working on his Doctor of Computer Science in Cybersecurity and Information Assurance.</p> <p>Who should attend?<br/>Both existing OWASP members and people unfamiliar with OWASP. Information security practitioners of all levels, IT professionals, and business leaders. Developers, development managers, product owners, QA professionals, program managers, and anyone involved in building software, etc.</p> "
+    },
+    {
+        "group": "Manchester Nh",
+        "repo": "www-chapter-manchester-nh",
+        "name": "OWASP Manchester, New Hampshire Chapter Meeting - October 2021",
+        "date": "2021-10-20",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Manchester-NH/events/281248223/",
+        "timezone": "US/Eastern",
+        "description": "<p>Join us for an informal discussion around operational Vulnerability Management, and OpenVAS, an open source VM scanner</p> <p>Video call link: <a href=\"https://meet.google.com/fev-ouxk-nnd\" class=\"linkified\">https://meet.google.com/fev-ouxk-nnd</a><br/>Or dial: \u202a(US) +1 319-382-9461\u202c PIN: \u202a621 952 993\u202c#</p> "
     },
     {
         "group": "Maribor",
@@ -180,26 +200,6 @@
         "description": "<p>Important! Traction on Demand (formerly Trineo) is not hosting events under Alert Level 2, so this is a tentative placeholder for the next meetup. Details to be added soon\u2026</p> "
     },
     {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "Insiders Guide to Mobile AppSec with OWASP MASVS",
-        "date": "2021-10-07",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/280695585/",
-        "timezone": "US/Eastern",
-        "description": "<p>Abstract:<br/>From the birth of MASVS and MSTG in January 2018 to the most recent updates, the OWASP Mobile Security Project has advanced the state of mobile app security testing dramatically. As supporters and contributors to the Mobile Security Project at OWASP, we have pen tested thousands of mobile apps and scanned millions of commercial apps in the app stores over the years\u2026 and have identified the most common security issues that plague developers and security teams. Whether you are new to mobile pen testing or a veteran looking for the latest tools and tactics, join this session to learn 10 keys to mobile appsec leveraging OWASP MASVS and practical real-world experience.</p> <p>Brian Reed Bio:<br/>As Chief Mobility Officer, Brian Reed leads the mobile standards and mobile DevSecOps charge at NowSecure helping orgs deliver secure mobile apps faster. He brings decades of experience in mobile, apps, security, dev, and testing helping Fortune 2000 global customers, federal agencies and mobile innovators. Brian is a compelling storyteller, speaker and writer including OWASP, AllDayDevOps, DevOpsWorld, DevOps Days, RSA, Droidcon, Mobile World Congress, FS-ISAC, and more. Brian is a graduate of Duke University.</p> "
-    },
-    {
-        "group": "Oklahoma City",
-        "repo": "www-chapter-oklahoma-city",
-        "name": "Information Warfare Summit",
-        "date": "2021-10-06",
-        "time": "08:30",
-        "link": "https://www.meetup.com/Oklahoma-City-Chapter-Meetup/events/281104557/",
-        "timezone": "US/Central",
-        "description": "<p>The Oklahoma City OWASP chapter will have a table at Information Warfare Summit! Come check out the conference and grab some of the free merchandise we will have on hand.</p> <p>Register at: <a href=\"https://www.eventbrite.com/e/information-warfare-summit-iws-14-registration-165425007651?aff=iwsokc\" class=\"linkified\">https://www.eventbrite.com/e/information-warfare-summit-iws-14-registration-165425007651?aff=iwsokc</a></p> "
-    },
-    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "The beauty of runtime AppSec done right",
@@ -218,16 +218,6 @@
         "link": "https://www.meetup.com/OWASP-Ottawa/events/281189833/",
         "timezone": "Canada/Eastern",
         "description": "<p>Special Notice:</p> <p>Due to the COVID-19 (Coronavirus) pandemic our events will continue online on our YouTube channel.</p> <p>Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!</p> <p>We will post information here and on all our other medias (email, twitter etc.) as we are closer to the date.</p> <p><a href=\"https://www.youtube.com/watch?v=tBdfEITSQNQ\" class=\"embedded\">https://www.youtube.com/watch?v=tBdfEITSQNQ</a></p> <p>7:00 PM EDT Technical Talks</p> <p>1. Announcements</p> <p>2. CISSP: Not just for squares</p> <p>Abstract:<br/>\"On what type of fire would you use a Class C extinguisher?\" \"What is the difference between SLE and ARO?\" ...Are you still awake?</p> <p>These may be fine questions to ponder if you are a CISO putting together the DRP, agonizing over MTD and RTO. But what if you are a pentester or a security researcher, and you only care about kill chains and exfil channels?</p> <p>I embarked on a CISSP journey with hesitation, but can now confidently say that it was time well spent. In this talk I outline my reasons for why I think CISSP is a worthwhile pursuit even for the hardcore red-teamer.</p> <p>Bio:<br/>Dmitriy Beryoza - Senior Security Researcher, Vectra AI<br/>Dmitriy is a Senior Security Researcher at Vectra AI. He spent over 25 years of his life building software before realizing that breaking it is much more fun. Dmitriy is passionate about all things security, with particular interest in reverse engineering, binary exploitation, secure software development, and CTF competitions.</p> "
-    },
-    {
-        "group": "Pittsburgh",
-        "repo": "www-chapter-pittsburgh",
-        "name": "2021 - Q4 OWASP Chapter Meetup",
-        "date": "2021-10-07",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Pittsburgh-Chapter/events/280916384/",
-        "timezone": "US/Eastern",
-        "description": "<p>Title: Using SIEM &amp; Log Analysis to Hack Web Applications</p> <p>Abstract: By using a SIEM and log analysis, you can map a website, find vulnerabilities, and assist with purple teaming. We\u2019ll discuss using SIEM and Log Analysis to improve Site Mapping and Identifying specific vulnerabilities. We will also talk about the value it is to Purple Teaming exercises. We\u2019ll show a few examples of Splunk log searches with sample output.</p> <p>Speaker: James Jones</p> <p>Bio: My (new) current role at PNC is the Dynamic Application Security Testing Manager and I absolutely love the opportunity. Working at PNC is challenging, fast paced, and extremely rewarding. I\u2019ve worked in IT for over 20 years with a focus on Information Security. I\u2019ve had roles in Active Directory design and implementation, Patch Management, Computer Forensics, Incident Response, Vulnerability Scanning/Remediation, Defense in Depth implementation and management, SOC Management and Application Security Testing.</p> "
     },
     {
         "group": "Saint Louis",
@@ -320,16 +310,6 @@
         "description": "<p>Taller: API con NestJS y las Maravillas de TS</p> "
     },
     {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "OWASP Toronto - October Event - OpenShift Container Platform | Damn GraphQL",
-        "date": "2021-10-06",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Toronto/events/280934584/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>** APOLOGIES - Event starts at 6:00 PM instead of the usual 6:30 PM!! **</p> <p>TALK #1<br/>----------</p> <p>Damn GraphQL - Defending and Attacking APIs</p> <p>Summary:</p> <p>With the uprising of GraphQL as a technology, a query language made by Facebook, security professionals must be ready for the day GraphQL hits their company\u2019s networks.<br/>In this talk, we will walk through GraphQL basics, followed by a deep dive into the various GraphQL attack vectors, from Information Gathering to Denial of Service and Injections.<br/>Additionally, we will discuss a recent security platform release - Damn Vulnerable GraphQL Application (DVGA), a platform made for security practitioners to learn GraphQL and its various weaknesses in a safe testing environment.</p> <p>Presenter:</p> <p>Dolev Farhi</p> <p>Dolev Farhi is the Principal Security Engineer at Wealthsimple. Previously, he was the security engineering lead at Paytm, the world\u2019s fastest-growing mobile payment and commerce ecosystem.<br/>Dolev has worked for several security firms, such as CyberArk and F5 Networks, and provided training for official Linux certification tracks. He specializes in Linux/UNIX security, web application security, and offensive security automation. He is the founder of DEFCON Toronto, a popular Toronto-based hacker group and enjoys researching weird IoT devices.</p> <p>TALK #2<br/>----------</p> <p>OpenShift Container Platform \u2013 Security Features</p> <p>Summary:</p> <p>This talk will introduce the OpenShift Container Platform and it's architecture. As well as a variety of security features including:<br/>* RHCOS Hardening, Signature - Machine Config Operator &amp; FIPS<br/>* Immutable Containers, Image Types \u2013 S2I, UBI<br/>* Security context constraints, Etcd Encryption Operator \u2013 Compliance<br/>* File Integrity &amp; Container Security Operator, ServiceMesh - Jaeger</p> <p>Presenter:</p> <p>Arvin Monie</p> <p>Arvin Monie is a professional with 15 years of security experience with a focus on Container Security, DevSecOps, Cloud Security and Application Security. Arvin has also worked in security architecture, as well as cybersecurity plans and strategies.</p> "
-    },
-    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Speaker TBA - Contact us if interested",
@@ -338,6 +318,16 @@
         "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccnblc/",
         "timezone": "US/Eastern",
         "description": "<p>TBA</p> "
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "Life, the Universe and everything Application Security",
+        "date": "2021-10-21",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/281285275/",
+        "timezone": "Canada/Pacific",
+        "description": "<p>It is OWASP Vancouver's annual panel conversation and this time it will be an Ask Me Anything... about Application Security. We want YOU to pick what we should talk about, what is on YOUR mind?</p> <p>We can talk about:<br/>- Supply chain attacks in the AppSec space<br/>- Web application safety of vaccine passports<br/>- Application Security tooling<br/>- Security career questions</p> <p>The topics are endless and the panelists are ready!</p> "
     },
     {
         "group": "Devslop",
