@@ -1,5 +1,15 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - October",
+        "date": "2021-10-26",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Aarhus-Chapter/events/281291184/",
+        "timezone": "Europe/Copenhagen",
+        "description": "<p>Notice, that this is a physical event and that Cryptomathic will be hosting it. By signing up, you accept that OWASP Aarhus will hand over a list of participants to Cryptomathic for the sole purpose of hosting this event.</p> <p>19:00 - 19:30<br/>\"Welcome, Food and Drinks\"<br/>Thomas Ljungberg Kristensen - Co-Chapter Leader OWASP Aarhus<br/>Dennis Perto - Co-Chapter Leader OWASP Aarhus</p> <p>19:30 - 20:15<br/>Waiting for final confirmation - Stay tuned!</p> <p>20:30 - 21:15<br/>\"Cryptography and it\u2019s flaws in practice\"<br/>Marcus Sellebjerg, Student at Aarhus university with a passion for cybersecurity and cryptography</p> <p>About the presentation:<br/>It\u2019s widely acceptable that security on the internet is very important. Still many developers doesn\u2019t know how to implement security mechanisms and particularly cryptography is a very error prone area. For many cryptography is a black box of math-magic and while that is fine, it\u2019s important to use this black box in a correct manner which is sadly not easy. In this talk I\u2019ll give you an introduction on how to use the cryptography black box and how it can be exploited if not used correct.</p> <p>About Marcus:<br/>My name is Marcus, I\u2019m currently a masters student at Aarhus University with a huge interest in cryptography and the math behind it. Beside university I compete in capture the flag tournaments together with my team (Kalmarunionen), where we look at different security solutions and tries to circumvent the implemented security mechanisms, both crypto and other areas. I also work in the cryptography department of Danske bank and have been programming since I was around the age of 12, where the concept of hiding information in plain sight also found my interest.</p> <p>21:15 - 21:30<br/>Goodbyes and plans going forward<br/>Thomas Ljungberg Kristensen - Co-Chapter Leader OWASP Aarhus<br/>Dennis Perto - Co-Chapter Leader OWASP Aarhus</p> "
+    },
+    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "OWASP Bangalore Monthly Meet 09th October 2021",
@@ -20,6 +30,16 @@
         "description": "<p>On October 21st, we have scheduled Steven Springett with Component Analysis vs SCA - How SBOMs are the driving force for change.</p> <p>This chapter meeting is part of a series of virtual chapter meetings (every 3rd Thursday of the month).</p> <p>Our chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed. Registered attendees can join via Zoom, and ask questions to the speakers.</p> <p>More info on this series of chapter meetings or on the Belgium OWASP chapter can be found at <a href=\"https://owasp.org/www-chapter-belgium/\" class=\"linkified\">https://owasp.org/www-chapter-belgium/</a> .</p> "
     },
     {
+        "group": "Bolivia",
+        "repo": "www-chapter-bolivia",
+        "name": "GRUPOS DE ESTUDIO OWASP - Burp Suite Training 3ra Parte",
+        "date": "2021-10-09",
+        "time": "14:00",
+        "link": "https://www.meetup.com/OWASP-Bolivia-Meetup-Group/events/281288348/",
+        "timezone": "America/La_Paz",
+        "description": "<p>Realizaremos un ejercicio practico de burp suite para detectar errores en Owasp juice Show<br/>y una demostracion de Owasp Zap para ver la parte de Intruder</p> "
+    },
+    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "TBC",
@@ -37,7 +57,7 @@
         "time": "10:00",
         "link": "https://www.meetup.com/OWASP-Cairo-Chapter/events/281242844/",
         "timezone": "Africa/Cairo",
-        "description": "<p>OWASP Cairo Chapter Event</p> <p>Location:Online Event</p> <p>Date: Saturday, October 16, 2021</p> <p>Event Agenda:</p> <p>1- How to open an OWASP project [By: Mohamed Alfateh]. 10:00 to 10:15<br/>2- OWASP Incubator projects, ideas for Research (1) [By: Ahmed Yousif]. 10:15 to 11:00<br/>3- OWASP Incubator projects, ideas for Research (2)[By: Joey Joseph]. 11:00 to 11:45<br/>4- OWASP Lab projects [By: Mahmoud Elhindy]. 11:45 to 12:30<br/>5- OWASP Flagship projects. 12:30 to 13:00<br/>6- Online Live Competition - Winners will get OWASP T-Shirt. 13:00 to 13:30</p> "
+        "description": "<p>OWASP Cairo Chapter Event</p> <p>Location:Online Event</p> <p>Date: Saturday, October 16, 2021</p> <p>Event Agenda:</p> <p>1- How to open an OWASP project [By: Mohamed Alfateh]. 10:00 to 10:15<br/>2- OWASP Incubator projects, ideas for Research (1) [By: Ahmed Yousif]. 10:15 to 11:00<br/>3- OWASP Incubator projects, ideas for Research (2)[By: Joey Joseph]. 11:00 to 11:45<br/>4- OWASP Lab projects [By: Mahmoud Elhindy]. 11:45 to 12:30<br/>5- OWASP Flagship projects [By: Mohamed Ahmed]. 12:30 to 13:00<br/>6- Online Live Competition - Winners will get OWASP T-Shirt. 13:00 to 13:30</p> "
     },
     {
         "group": "Charlotte",
@@ -68,6 +88,16 @@
         "link": "https://www.meetup.com/Columbus-OWASP/events/281270826/",
         "timezone": "US/Eastern",
         "description": "<p> Secure Code Warrior Tournament + OWASP Columbus</p> <p> When: October 28th, 12:00PM ET<br/>October 30th, 5:00PM ET</p> <p>Secure Code Warrior brings you a defensive security-based tournament from a developer's perspective. The tournament allows you to test your skill against the other participants in a series of vulnerable code challenges that ask you to identify a problem, locate insecure code, and fix a vulnerability. You don\u2019t need extensive programming knowledge as this will be a great way to learn the foundations and intermediates of leveraging code that is not only functional but is also secure.</p> <p> You can find the tournament step-by-step guide here: <a href=\"https://youtu.be/o8XhKK_eOOs\" class=\"embedded\">https://youtu.be/o8XhKK_eOOs</a></p> <p>The tournament is run virtually so you can join through your laptop from the most convenient location and time. It should take only a few hours, drop-in as you see fit during the duration of the event to complete all the challenges and win prizes!</p> <p>Instructions for playing:<br/> 1) Register for the Secure Code Warrior platform here: <a href=\"https://discover.securecodewarrior.com/OWASPColumbus.html\" class=\"linkified\">https://discover.securecodewarrior.com/OWASPColumbus.html</a><br/> 2) Check your email for the confirmation and access the unique link to create your profile.<br/> 3) Once logged in: click \u201cTournaments\u201d<br/> 4) Join the OWASP Columbus Secure Coding Tournament</p> <p>The Secure Code Warrior platform will be open before and after the tournament, so feel free to practice in the \u201cTraining\u201d tab.</p> <p> Monitor the live leaderboard to see how you're performing!</p> "
+    },
+    {
+        "group": "Dallas",
+        "repo": "www-chapter-dallas",
+        "name": "OWASP November Meeting",
+        "date": "2021-11-09",
+        "time": "12:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280769873/",
+        "timezone": "US/Central",
+        "description": "<p>Title:</p> <p>What is an SBOM, why do I care, and how does my organization get started?</p> <p>Description:</p> <p>It\u2019s nice to know what\u2019s in the food on the shelf at the store so you can make an informed decision whether you should buy it. And when there are recalls of certain ingredients it\u2019s nice to quickly know whether those ingredients are already in your cupboard. Software Bills of Materials enable you to know what\u2019s in the software you consider procuring, and let you quickly know what\u2019s already inside your organization. Of course, you can even use them to understand the risk in the portfolio of software your organization baked itself! Since the May Executive Order on Improving the Nation\u2019s Cybersecurity SBOMs have gotten a lot more attention, but what does it really mean for an organization to make the most of this capability? This talk will help you prepare your organization for the near future when generating, evaluating, and leveraging SBOMs will be expected.</p> <p>Bio:</p> <p>Greg Mohler is a Manager within KPMG's Cyber Defense practice, and has spent the past four years helping over 20 clients solve difficult problems related to DevSecOps, Application Security, and Vulnerability Management. He is passionate about minimizing the distraction of security incidents so that businesses can focus on innovation, growth, and speed to market. Greg has led the delivery of services that not only uplift clients' technical capabilities, but also bolster security education &amp; culture.</p> <p>Caleb Queern is a Director in KPMG's Cyber practice and is based in Austin. He has more than 15 years of technology and information security experience. His focus is reducing risk and improving performance so organizations can meet business goals and enable growth. Caleb has lead engagements in technology companies, pharmaceutical companies, higher education, financial services, manufacturing, and others. His specialties include secure DevOps and application security, security operations, and operational excellence.</p> "
     },
     {
         "group": "Dallas",
@@ -170,16 +200,6 @@
         "description": "<p>Join us for an informal discussion around operational Vulnerability Management, and OpenVAS, an open source VM scanner</p> <p>Video call link: <a href=\"https://meet.google.com/fev-ouxk-nnd\" class=\"linkified\">https://meet.google.com/fev-ouxk-nnd</a><br/>Or dial: \u202a(US) +1 319-382-9461\u202c PIN: \u202a621 952 993\u202c#</p> "
     },
     {
-        "group": "Maribor",
-        "repo": "www-chapter-maribor",
-        "name": "CyberNight",
-        "date": "2021-10-08",
-        "time": "17:00",
-        "link": "https://www.meetup.com/maribor-owasp-meetup-group/events/281188177/",
-        "timezone": "Europe/Ljubljana",
-        "description": "<p>V okviru tekmovanja se bodo udele\u017eenci soo\u010dili z re\u0161evanjem razli\u010dnih varnostnih izzivov in si prislu\u017eili nova znanja, kot so kriptografija, obratno in\u017eenirstvo ... Izzivi bodo zapleteni, vendar primerni za igralce vseh ravni \u2013 od veteranov do tistih, za katere je ta CTF prvi, saj \u0161tevilni izzivi ne zahtevajo programskega znanja in so preprosto stvar kreativnega razmi\u0161ljanja ter sposobnosti re\u0161evanja problemov.</p> <p>Zmagovalec dogodka bo tekmovalec, ki si bo z re\u0161enimi izzivi priboril najve\u010dje \u0161tevilo to\u010dk.</p> <p>Upamo, da se nam pridru\u017eite. Za udele\u017ebo na dogodku je obvezna prijava na Eventbrite.</p> <p>Sre\u010den lov!</p> "
-    },
-    {
         "group": "Netherlands",
         "repo": "www-chapter-netherlands",
         "name": "October 2021 OWASP Chapter Netherlands Meetup",
@@ -238,16 +258,6 @@
         "link": "https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/bcnwbsyccnbcc/",
         "timezone": "US/Pacific",
         "description": "<p>Monthly OWASP meeting</p> "
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Virtual Seattle OWASP Networking and Social Hour",
-        "date": "2021-10-08",
-        "time": "12:00",
-        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/280786436/",
-        "timezone": "US/Pacific",
-        "description": "<p>Hello All,</p> <p>Come and join your fellow security practitioners at an informal virtual networking event on Friday October 8th, 2021 at noon. We will discuss upcoming plans for the Seattle Chapter, OWASP news &amp; topics, and have an open forum discussion on what you, the members, would like to focus on in the coming months.</p> <p>Thanks,</p> <p>OWASP Seattle Leadership</p> "
     },
     {
         "group": "Singapore",
@@ -328,6 +338,16 @@
         "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/281285275/",
         "timezone": "Canada/Pacific",
         "description": "<p>It is OWASP Vancouver's annual panel conversation and this time it will be an Ask Me Anything... about Application Security. We want YOU to pick what we should talk about, what is on YOUR mind?</p> <p>We can talk about:<br/>- Supply chain attacks in the AppSec space<br/>- Web application safety of vaccine passports<br/>- Application Security tooling<br/>- Security career questions</p> <p>The topics are endless and the panelists are ready!</p> "
+    },
+    {
+        "group": "Vilnius",
+        "repo": "www-chapter-vilnius",
+        "name": "OWASP Vilnius Meetup #2 (Online)",
+        "date": "2021-10-21",
+        "time": "18:00",
+        "link": "https://www.meetup.com/owasp-vilnius/events/281220797/",
+        "timezone": "Europe/Vilnius",
+        "description": "<p>Let's meet on a dark October evening online and hear two interesting presentations:<br/>- \"CodeQL for security researchers\". Jaroslav Loba\u010devski, Security researcher @ GitHub Security Lab.<br/>- \u201cDetecting threat activity\u201d. Arturs Ermanis, Senior SecOps Engineer @ Accenture</p> <p>More information - next week!</p> "
     },
     {
         "group": "Devslop",
