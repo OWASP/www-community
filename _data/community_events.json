@@ -10,16 +10,6 @@
         "description": "<p>Notice, that this is a physical event and that Cryptomathic will be hosting it. By signing up, you accept that OWASP Aarhus will hand over a list of participants to Cryptomathic for the sole purpose of hosting this event.</p> <p>19:00 - 19:30<br/>\"Welcome, Food and Drinks\"<br/>Thomas Ljungberg Kristensen - Co-Chapter Leader OWASP Aarhus<br/>Dennis Perto - Co-Chapter Leader OWASP Aarhus</p> <p>19:30 - 20:15<br/>Waiting for final confirmation - Stay tuned!</p> <p>20:30 - 21:15<br/>\"Cryptography and it\u2019s flaws in practice\"<br/>Marcus Sellebjerg, Student at Aarhus university with a passion for cybersecurity and cryptography</p> <p>About the presentation:<br/>It\u2019s widely acceptable that security on the internet is very important. Still many developers doesn\u2019t know how to implement security mechanisms and particularly cryptography is a very error prone area. For many cryptography is a black box of math-magic and while that is fine, it\u2019s important to use this black box in a correct manner which is sadly not easy. In this talk I\u2019ll give you an introduction on how to use the cryptography black box and how it can be exploited if not used correct.</p> <p>About Marcus:<br/>My name is Marcus, I\u2019m currently a masters student at Aarhus University with a huge interest in cryptography and the math behind it. Beside university I compete in capture the flag tournaments together with my team (Kalmarunionen), where we look at different security solutions and tries to circumvent the implemented security mechanisms, both crypto and other areas. I also work in the cryptography department of Danske bank and have been programming since I was around the age of 12, where the concept of hiding information in plain sight also found my interest.</p> <p>21:15 - 21:30<br/>Goodbyes and plans going forward<br/>Thomas Ljungberg Kristensen - Co-Chapter Leader OWASP Aarhus<br/>Dennis Perto - Co-Chapter Leader OWASP Aarhus</p> "
     },
     {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "OWASP Bangalore Monthly Meet 09th October 2021",
-        "date": "2021-10-09",
-        "time": "19:00",
-        "link": "https://www.meetup.com/bangalore-owasp-meetup-group/events/280751618/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Hi Everyone</p> <p>#security stay safe</p> <p>OWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.</p> <p>Sessions:<br/>Date: Saturday 09th October 2021</p> <p>Talk title:<br/>TBD</p> <p>Speaker Details:-<br/>TBD</p> "
-    },
-    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BE - Component Analysis vs SCA (by Steven Springett)",
@@ -28,16 +18,6 @@
         "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/280073211/",
         "timezone": "Europe/Brussels",
         "description": "<p>On October 21st, we have scheduled Steven Springett with Component Analysis vs SCA - How SBOMs are the driving force for change.</p> <p>This chapter meeting is part of a series of virtual chapter meetings (every 3rd Thursday of the month).</p> <p>Our chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed. Registered attendees can join via Zoom, and ask questions to the speakers.</p> <p>More info on this series of chapter meetings or on the Belgium OWASP chapter can be found at <a href=\"https://owasp.org/www-chapter-belgium/\" class=\"linkified\">https://owasp.org/www-chapter-belgium/</a> .</p> "
-    },
-    {
-        "group": "Bolivia",
-        "repo": "www-chapter-bolivia",
-        "name": "GRUPOS DE ESTUDIO OWASP - Burp Suite Training 3ra Parte",
-        "date": "2021-10-09",
-        "time": "14:00",
-        "link": "https://www.meetup.com/OWASP-Bolivia-Meetup-Group/events/281288348/",
-        "timezone": "America/La_Paz",
-        "description": "<p>Realizaremos un ejercicio practico de burp suite para detectar errores en Owasp juice Show<br/>y una demostracion de Owasp Zap para ver la parte de Intruder</p> "
     },
     {
         "group": "Bristol Uk",
@@ -110,6 +90,16 @@
         "description": "<p>Title:</p> <p>Financial-grade API (FAPI)</p> <p>Description:</p> <p>Financial-grade API (FAPI) is a security framework devised by the OpenID foundation for securely using APIs specifically in the finance industry. The framework introduces more stringent security controls and strengthens the existing OAuth2 and OpenID Connect specifications. In this session Vinod will discuss various aspects of the framework and how they will address specific weaknesses in the traditional OAuth flows.</p> <p>Bio:</p> <p>Vinod Kannan is a seasoned cybersecurity professional with over 19 years of experience in cybersecurity with special interest in DevSecOps, Identity and Access Management, and Application Security. He has currently taken up the role as a Principal Consultant with Synopsys in its Software Integrity Group (SIG) and is focusing on managed security services offerings. Prior to this he has worked with Ernst &amp; Young and HPE and various financial services firms such as JPMC and Bank of America. He is passionate in learning about new developments in the cybersecurity space that enables him in presenting the right solutions to clients.</p> "
     },
     {
+        "group": "Doha",
+        "repo": "www-chapter-doha",
+        "name": "Cyber Security Virtual Meetup Doha - \"OT Security Monitoring Approach\"",
+        "date": "2021-10-20",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Doha-Chapter/events/281317694/",
+        "timezone": "Asia/Qatar",
+        "description": "<p>Announcing online information security meetup supported by the local information security community Doha, Qatar.</p> <p>Agenda &amp; Schedule for this meetup Dated 20/10/2021</p> <p>6:00 PM to 6:30 PM: OT Security Monitoring Approach<br/>6:30 PM to 6:40 PM : Questions &amp; answer session</p> <p>Topic : OT Security Monitoring Approach<br/>Speaker : Bilal Hansrod</p> <p>This event is free to attend for both members and non-members of ISC2/OWASP/Null and is open to anyone interested in information security and cybersecurity awareness. Please note that you MUST RSVP it will help us in organizing.</p> <p>As this will be a recurring event, we welcome as many paper submissions as possible, and reserve keeps interesting talk proposals for future editions.</p> <p>The talk proposal should abide by the isc2/OWASP/Null principles: to promote and disseminate knowledge and tools in cybersecurity that respect its core values, openness, support for innovation, global reach, and integrity. The talks should be vendor-neutral, which is not publicity talks for a specific company or a proprietary tool, but about interesting experiences insecurity that can engage and foster discussion in the local community.</p> "
+    },
+    {
         "group": "Indianapolis",
         "repo": "www-chapter-indianapolis",
         "name": "Q4 Meetup (Placeholder)",
@@ -170,6 +160,16 @@
         "description": "<p>Join the OWASP LV at the Tech Alley in person or virtual! (Link post registration)</p> <p>Tech Alley Meetup Link: <a href=\"https://www.meetup.com/tech-alley/events/278983744/\" class=\"linkified\">https://www.meetup.com/tech-alley/events/278983744/</a></p> <p>Join OWASP Vegas for a look at the latest changes to the infamous OWASP Top 10. there are three new categories, four categories with naming and scoping changes, and some consolidation in the Top 10 for 2021. We will be holding an open discussion forum as we walk through each, and share how it may affect us. Whether you are a seasoned AppSec ninja or just interested, it will be informative and fun for everyone!</p> "
     },
     {
+        "group": "Leeds Uk",
+        "repo": "www-chapter-leeds-uk",
+        "name": "November OWASP meet ",
+        "date": "2021-11-10",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/281093548/",
+        "timezone": "Europe/London",
+        "description": "<p>After the recent success of the re-booted Leeds Chapter, we've decided to do another!</p> <p>Speakers TBA and if you'd like to speak - please get in touch.</p> <p>See you there, drinks and nibbles will be provided</p> "
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly Virtual Meeting - OCT 27, 2021",
@@ -218,6 +218,16 @@
         "link": "https://www.meetup.com/OWASP-New-Zealand-Chapter-Christchurch/events/281034378/",
         "timezone": "Pacific/Auckland",
         "description": "<p>Important! Traction on Demand (formerly Trineo) is not hosting events under Alert Level 2, so this is a tentative placeholder for the next meetup. Details to be added soon\u2026</p> "
+    },
+    {
+        "group": "Omaha",
+        "repo": "www-chapter-omaha",
+        "name": "Q4 Meeting: Securing your Applications with the OWASP ASVS",
+        "date": "2021-11-10",
+        "time": "18:30",
+        "link": "https://www.meetup.com/owaspomaha-meetup-group/events/280673562/",
+        "timezone": "US/Central",
+        "description": "<p>Michael Born, Director of Security Consulting at SecureSky, Inc. will walk the audience through how to employ the OWASP Application Security Verification Standard to harden modern applications. This presentation will also provide guidance for deploying applications in Microsoft Azure that comply with the OWASP ASVS.</p> "
     },
     {
         "group": "Orange County",
