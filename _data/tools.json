@@ -1591,5 +1591,14 @@
       "platforms": "SaaS or On-Premises",
       "note": "Secure your software development with automated secrets detection & remediation for private or public source code.",
       "type": "SAST"
+   },
+   {
+      "title": "Cloud Defense",
+      "url": "https://clouddefense.ai",
+      "owner": "Cloud Defense",
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": "CloudDefense provides holistic threat intelligence across all attack surfaces - Containers, Kubernetes, Code, Open Source Libraries, APIs and more...",
+      "type": "SAST"
    }
 ]
