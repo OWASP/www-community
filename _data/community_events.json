@@ -110,16 +110,6 @@
         "description": "<p>The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.</p> "
     },
     {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly Online meeting ",
-        "date": "2021-10-11",
-        "time": "18:45",
-        "link": "https://www.meetup.com/OWASP-Jacksonville-Chapter/events/nnccjsyccnbpb/",
-        "timezone": "US/Eastern",
-        "description": "<p>The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.</p> "
-    },
-    {
         "group": "Kansas City",
         "repo": "www-chapter-kansas-city",
         "name": "Open Web App Security Project - Kansas City Chapter Monthly Meeting",
@@ -320,16 +310,6 @@
         "description": "<p>Please join us to play/train in Hack The Box (HTB), what you need is a Hack the Box account, free is cool, join us in discord (link <a href=\"https://discord.com/invite/uAWze2B\" class=\"linkified\">https://discord.com/invite/uAWze2B</a>) - FC-Announcements-Voice Channel, please ensure, after registration in Discord you go to the Bot and accept the Code of Conduct, otherwise, you won't be able to access the channels.</p> <p>There is no format to this night, we just want to get together to have some fun playing some battlegrounds, doing some of the machines or challenges; having fun overall!</p> <p>Please make sure you know the basics about HTB, eg. how to connect to the HTB VPN and that you have a valid account.</p> "
     },
     {
-        "group": "Tegucigalpa",
-        "repo": "www-chapter-tegucigalpa",
-        "name": "Taller: #TechTalk: API con NestJS y las Maravillas de TS",
-        "date": "2021-10-11",
-        "time": "17:00",
-        "link": "https://www.meetup.com/OWASP-Tegucigalpa-Chapter/events/281173631/",
-        "timezone": "America/Tegucigalpa",
-        "description": "<p>Taller: API con NestJS y las Maravillas de TS</p> "
-    },
-    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Speaker TBA - Contact us if interested",
@@ -338,6 +318,16 @@
         "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccnblc/",
         "timezone": "US/Eastern",
         "description": "<p>TBA</p> "
+    },
+    {
+        "group": "University Of Washington",
+        "repo": "www-chapter-university-of-washington",
+        "name": "Cybersecurity Career in pandemic and post-pandemic environment",
+        "date": "2021-10-19",
+        "time": "16:00",
+        "link": "https://www.meetup.com/owasp-university-of-washington-meetup-group/events/281365340/",
+        "timezone": "US/Pacific",
+        "description": "<p>We will discuss Cybersecurity career opportunities in the pandemic and post-pandemic environment.</p> "
     },
     {
         "group": "Vancouver",
@@ -358,6 +348,16 @@
         "link": "https://www.meetup.com/owasp-vilnius/events/281220797/",
         "timezone": "Europe/Vilnius",
         "description": "<p>Let's meet on a dark October evening online and hear two interesting presentations:<br/>- \"CodeQL for security researchers\". Jaroslav Loba\u010devski, Security researcher @ GitHub Security Lab.<br/>- \u201cDetecting threat activity\u201d. Arturs Ermanis, Senior SecOps Engineer @ Accenture</p> <p>More information - next week!</p> "
+    },
+    {
+        "group": "Devslop",
+        "repo": "www-project-devslop",
+        "name": "Cloud Security Tooling for the Sole Practitioner",
+        "date": "2021-10-24",
+        "time": "10:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/276120026/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>You're the sole practitioner of cloud security at your organization. You're happy to get your hands dirty in your cloud environment use some tools to lock things down, but it seems like there are new cloud security tools coming out every week. Where do you start? How do you prioritize which ones will have the most impact upfront?</p> <p>In this show, Kinnaird McQuade, Lead Security Engineer at Salesforce will go over what sole practitioners need to build out their own \"lean but mean\" cloud security toolkit.</p> <p>KINNAIRD McQUADE</p> <p>Kinnaird McQuade is a Lead Security Engineer at Salesforce, where he specializes in building, breaking, and automating security controls in cloud infrastructure and CI/CD. Kinnaird is the author of several cloud security tools - Cloudsplaining and Policy Sentry among them - and is passionate about making security easy via automation. You can find him on kmcquade.com (<a href=\"http://kmcquade.com/\" class=\"linkified\">http://kmcquade.com/</a>) and on Twitter @kmcquade3.</p> "
     },
     {
         "group": "Devslop",
