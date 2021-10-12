@@ -657,6 +657,15 @@
       "type": "DAST"
    },
    {
+      "title": "CloudDefense",
+      "url": "https://clouddefense.ai",
+      "owner": "CloudDefense",
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": "CloudDefense DAST is a type of black-box application testing that can test applications while they are running. When testing an application with DAST you don’t need to have access to the source code to find vulnerabilities.",
+      "type": "DAST"
+   },      
+   {
       "title": "APIsecurity.io Security Audit",
       "url": "https://apisecurity.io/tools/audit/",
       "owner": null,
@@ -1593,9 +1602,9 @@
       "type": "SAST"
    },
    {
-      "title": "Cloud Defense",
+      "title": "CloudDefense",
       "url": "https://clouddefense.ai",
-      "owner": "Cloud Defense",
+      "owner": "CloudDefense",
       "license": "Commercial",
       "platforms": "SaaS or On-Premises",
       "note": "CloudDefense provides holistic threat intelligence across all attack surfaces - Containers, Kubernetes, Code, Open Source Libraries, APIs and more...",
