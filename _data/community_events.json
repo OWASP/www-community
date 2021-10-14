@@ -60,6 +60,16 @@
         "description": "<p> Secure Code Warrior Tournament + OWASP Columbus</p> <p> When: October 28th, 12:00PM ET<br/>October 30th, 5:00PM ET</p> <p>Secure Code Warrior brings you a defensive security-based tournament from a developer's perspective. The tournament allows you to test your skill against the other participants in a series of vulnerable code challenges that ask you to identify a problem, locate insecure code, and fix a vulnerability. You don\u2019t need extensive programming knowledge as this will be a great way to learn the foundations and intermediates of leveraging code that is not only functional but is also secure.</p> <p> You can find the tournament step-by-step guide here: <a href=\"https://youtu.be/o8XhKK_eOOs\" class=\"embedded\">https://youtu.be/o8XhKK_eOOs</a></p> <p>The tournament is run virtually so you can join through your laptop from the most convenient location and time. It should take only a few hours, drop-in as you see fit during the duration of the event to complete all the challenges and win prizes!</p> <p>Instructions for playing:<br/> 1) Register for the Secure Code Warrior platform here: <a href=\"https://discover.securecodewarrior.com/OWASPColumbus.html\" class=\"linkified\">https://discover.securecodewarrior.com/OWASPColumbus.html</a><br/> 2) Check your email for the confirmation and access the unique link to create your profile.<br/> 3) Once logged in: click \u201cTournaments\u201d<br/> 4) Join the OWASP Columbus Secure Coding Tournament</p> <p>The Secure Code Warrior platform will be open before and after the tournament, so feel free to practice in the \u201cTraining\u201d tab.</p> <p> Monitor the live leaderboard to see how you're performing!</p> "
     },
     {
+        "group": "Cork",
+        "repo": "www-chapter-cork",
+        "name": "Neurodiversity in Cyber Security",
+        "date": "2021-11-03",
+        "time": "12:00",
+        "link": "https://www.meetup.com/OWASP-Cork/events/281395587/",
+        "timezone": "Europe/Dublin",
+        "description": "<p>Our next meetup is supporting HAYS and Genius Within's discussions around neurodiveristy as it applies to cybersecurity. An interesting and important topic which we are excited to hear more about.</p> <p>Expert speakers Daniel CM Browne (<a href=\"https://www.linkedin.com/in/dcmbrowne/\" class=\"linkified\">https://www.linkedin.com/in/dcmbrowne/</a>) and Jacqui Wallis (<a href=\"https://www.linkedin.com/in/jacquiwallis/\" class=\"linkified\">https://www.linkedin.com/in/jacquiwallis/</a>) talk openly about how businesses, business leaders, and all of us in the Cyber/Tech world can do more to attract, support, and retain Neurodiverse talent. We intend to have a thought-provoking conversation, that will hopefully drive some habitual changes and do more to support the neurodiverse community.</p> "
+    },
+    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP November Meeting",
@@ -230,6 +240,16 @@
         "description": "<p>Special Notice:</p> <p>Due to the COVID-19 (Coronavirus) pandemic our events will continue online on our YouTube channel.</p> <p>Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!</p> <p>We will post information here and on all our other medias (email, twitter etc.) as we are closer to the date.</p> <p><a href=\"https://www.youtube.com/watch?v=tBdfEITSQNQ\" class=\"embedded\">https://www.youtube.com/watch?v=tBdfEITSQNQ</a></p> <p>7:00 PM EDT Technical Talks</p> <p>1. Announcements</p> <p>2. CISSP: Not just for squares</p> <p>Abstract:<br/>\"On what type of fire would you use a Class C extinguisher?\" \"What is the difference between SLE and ARO?\" ...Are you still awake?</p> <p>These may be fine questions to ponder if you are a CISO putting together the DRP, agonizing over MTD and RTO. But what if you are a pentester or a security researcher, and you only care about kill chains and exfil channels?</p> <p>I embarked on a CISSP journey with hesitation, but can now confidently say that it was time well spent. In this talk I outline my reasons for why I think CISSP is a worthwhile pursuit even for the hardcore red-teamer.</p> <p>Bio:<br/>Dmitriy Beryoza - Senior Security Researcher, Vectra AI<br/>Dmitriy is a Senior Security Researcher at Vectra AI. He spent over 25 years of his life building software before realizing that breaking it is much more fun. Dmitriy is passionate about all things security, with particular interest in reverse engineering, binary exploitation, secure software development, and CTF competitions.</p> "
     },
     {
+        "group": "Sacramento",
+        "repo": "www-chapter-sacramento",
+        "name": "Virtual Happy Hour - OWASP Sacramento October Meetup",
+        "date": "2021-10-28",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Sacramento-Chapter/events/281403542/",
+        "timezone": "US/Pacific",
+        "description": "<p>Agenda:<br/>- Community Topics<br/>- Main Topic: Virtual happy hour, open format. Grab yourself your favorite drink, maybe an appetizer and let's chat about security, the chapter, and whatever else comes up.</p> <p>For more information about OWASP, please visit our Wiki at <a href=\"https://owasp.org/www-chapter-sacramento/\" class=\"linkified\">https://owasp.org/www-chapter-sacramento/</a></p> "
+    },
+    {
         "group": "Saint Louis",
         "repo": "www-chapter-saint-louis",
         "name": "OWASP Meetup - CTF",
@@ -240,14 +260,24 @@
         "description": "<p>Capture the Flag (CTF) is a computer security competition. CTF contests are usually designed to serve as an educational exercise to give participants experience in securing a machine, as well as conducting and reacting to the sort of attacks found in the real world. Reverse-engineering, network sniffing, protocol analysis, system administration, programming, and cryptanalysis.</p> <p>* This will be an open CTF which means this is open book. You may use any tool or internet accessible resource: Burpsuite, IDE, Metasploit, etc.</p> <p>* Work in single or 2 person teams</p> <p>* Be the person/team with the most challenges completed to win (time will determine a tie)</p> <p>This CTF will run from October 18th-21st.<br/>* October 18th Kickoff @ 7PM<br/>* October 21st Finish &amp; Demo @ 7PM</p> "
     },
     {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "October 2021 Chapter Meeting (in person! - during SaintCon)",
+        "date": "2021-10-21",
+        "time": "17:00",
+        "link": "https://www.meetup.com/owasp-slc/events/281371383/",
+        "timezone": "US/Mountain",
+        "description": "<p>Our October meetup will be at SaintCon. Meet the local AppSec group and grab a bite to eat Thursday evening (5pm) in downtown Provo.</p> <p>Please RSVP, and we'll sponsor enough seats/food ;)</p> <p>Join Wasatch AppSec Slack (<a href=\"https://join.slack.com/t/wasatchappsec/shared_invite/zt-wuvxjhp2-~oHXAUB5KeHn9MUOTWccYw\" class=\"linkified\">https://join.slack.com/t/wasatchappsec/shared_invite/zt-wuvxjhp2-~oHXAUB5KeHn9MUOTWccYw</a>) to suggest any additional topics.</p> <p>AGENDA:<br/>- Meetup in person &amp; Eat food<br/>--Round Table--<br/>- Updates with coming with OWASP Top 10 (DRAFT)<br/>- AppSec training for Devs<br/>- And other topics...</p> "
+    },
+    {
         "group": "San Diego",
         "repo": "www-chapter-san-diego",
-        "name": "Monthly Meeting",
+        "name": "OWASP Top Ten Updates: A Costume Party!!",
         "date": "2021-10-21",
         "time": "18:00",
         "link": "https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/bcnwbsyccnbcc/",
         "timezone": "US/Pacific",
-        "description": "<p>Monthly OWASP meeting</p> "
+        "description": "<p>Put on your favorite costume, turn on your webcam, and watch chapter leader Christian DeHoyos walk through the OWASP Top Ten updates for 2021!</p> <p>Learn why OWASP updates its \"top ten\" every four years. Learn which risks got promoted, which got dropped, and WHY some things got consolidated. Come with your hottest takes, frankest concerns, and exciting anecdotes. Christian will attempt to keep this discussion exciting, factual, relevant, and from derailing into a trainwreck!</p> <p>He will likely fail but the attempt should be entertaining, so come on through!</p> <p>As always, be respectful or get bounced. Best costume will receive an award!</p> <p>---------------<br/>Christian DeHoyos is a Sr Cloud Security Architect @ Lenovo. Christian is an OWASP San Diego Chapter leader and local Oside resident. Chrisian dislikes long bios.</p> "
     },
     {
         "group": "Singapore",
@@ -267,17 +297,7 @@
         "time": "17:00",
         "link": "https://www.meetup.com/owasp-stockholm/events/281022013/",
         "timezone": "Europe/Stockholm",
-        "description": "<p>Welcome to a OWASP Stockholm event!</p> <p>Finally we can meet IRL again and we will fire off with a Secure Development event hosted by Omegapoint at their new office site.</p> <p>Location: Jakobsbergsgatan 24, Auditorium.<br/>Time: October 21, 17.00 \u2013 20.00<br/>Lighter food &amp; drinks will be served. The talks will begin at 17.30.</p> <p>Session 1. DevOps and security<br/>A presentation of a development lifecycle inspired by the DevOps loop with activities related to modern development and security with a discussion at the end.</p> <p>Bio<br/>Mats Persson, Consultant @ Omegapoint, passionate about Secure Development, Modern Ways of Working and Security in the Cloud</p> <p>Session 2. Benefits of Cloud Thinking<br/>Are Advanced Persistent Threats (APT) becoming the new normal? Should we get used to businesses getting pawned and having sensitive data leaked? Absolutely not! In this talk, we will present how designs often used in the cloud not only reduces risk of APTs, but also improve overall quality of your application \u2013 regardless if you\u2019re running in the cloud or not.</p> <p>Bio<br/>Daniel Deogun &amp; Dan Bergh Johnsson are authors of the book Secure by Design and have collectively been working with security and development for several decades. They are developers at heart and understand that security is often a side-concern. They\u2019ve also evolved work habits that enable them to develop systems in a way that promotes security while focusing on high-quality design habits \u2013 something that\u2019s easier for developers to keep in mind during their daily work. Both are established international speakers and often present at conferences on topics regarding high-quality development and security.</p> "
-    },
-    {
-        "group": "Switzerland",
-        "repo": "www-chapter-switzerland",
-        "name": "Application Security best practices",
-        "date": "2021-10-13",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASPSwitzerland/events/280935287/",
-        "timezone": "Europe/Zurich",
-        "description": "<p>Trends, such as \"Everything as Code\", moving to the Cloud and zero-trust do confirm that application security is already enormously important today. The fact that new data breaches, security vulnerabilities, ransomware and physical impacts of cyber-attacks are published daily in the news underlines the fact even more.</p> <p>This talk explains why it is crucial to have security skills in every IT engineering team and why you cannot solely rely on a centralized security department - especially not in the agile world. Next to personal skills, this talk focuses on security best practices in software development. The speaker will highlight topics such as automated security testing methods and give recommendations on invaluable manual periodic security assessments.</p> <p>This presentation is based on the speaker's personal experience and includes many learning's and tips from throughout his career. For example, how-to decide where it is absolutely necessary to invest 100% security effort and where the 80/20 principle is more than enough. Or also, why it is crucial to have a security baseline established, before thinking about a Bug-Bounty program.</p> <p>About Manuel Cianci<br/>Manuel has been a security enthusiast forever. Manuel started his technical security journey when he was 16 years old. His professional security career started some years later as a Security Software Engineer. In order to learn as many technical basics as possible, Manuel worked within different Security Software Engineering positions for more than eight years. Afterwards, he moved to a role as Security Engineer and Security Consultant.</p> <p>For the last three years, Manuel was managing and leading the Security Delivery team of Swisscom. Manuel and his team were responsible for security engineering, consulting, and coaching services for the entire company. During his time at Swisscom, Manuel has been working on many subject areas in the security field. Introducing DevSecOps at Swisscom was one of his main achievements.</p> <p>Just recently, Manuel decided to join cy//ective (cyllective AG) as Managing Partner. cy//ective is a Swiss IT security company, specialized in holistic security services.</p> "
+        "description": "<p>Welcome to a OWASP Stockholm event!</p> <p>Finally we can meet IRL again and we will fire off with a Secure Development event hosted by Omegapoint at their new office site.</p> <p>Location: Jakobsbergsgatan 24, Auditorium.<br/>Time: October 21, 17.00 \u2013 20.00<br/>Lighter food &amp; drinks will be served. The talks will begin at 17.30.</p> <p>The meeting will also be made available online for those who cannot make it in person. To join the meeting you need a zoom account.</p> <p>Join Zoom meeting:<br/><a href=\"https://us06web.zoom.us/j/84859502930\" class=\"linkified\">https://us06web.zoom.us/j/84859502930</a></p> <p>Session 1. DevOps and security<br/>A presentation of a development lifecycle inspired by the DevOps loop with activities related to modern development and security with a discussion at the end.</p> <p>Bio<br/>Mats Persson, Consultant @ Omegapoint, passionate about Secure Development, Modern Ways of Working and Security in the Cloud</p> <p>Session 2. Benefits of Cloud Thinking<br/>Are Advanced Persistent Threats (APT) becoming the new normal? Should we get used to businesses getting pawned and having sensitive data leaked? Absolutely not! In this talk, we will present how designs often used in the cloud not only reduces risk of APTs, but also improve overall quality of your application \u2013 regardless if you\u2019re running in the cloud or not.</p> <p>Bio<br/>Daniel Deogun &amp; Dan Bergh Johnsson are authors of the book Secure by Design and have collectively been working with security and development for several decades. They are developers at heart and understand that security is often a side-concern. They\u2019ve also evolved work habits that enable them to develop systems in a way that promotes security while focusing on high-quality design habits \u2013 something that\u2019s easier for developers to keep in mind during their daily work. Both are established international speakers and often present at conferences on topics regarding high-quality development and security.</p> "
     },
     {
         "group": "Sydney",
@@ -323,11 +343,11 @@
         "group": "University Of Washington",
         "repo": "www-chapter-university-of-washington",
         "name": "Cybersecurity Career in pandemic and post-pandemic environment",
-        "date": "2021-10-19",
-        "time": "16:00",
+        "date": "2021-10-28",
+        "time": "14:30",
         "link": "https://www.meetup.com/owasp-university-of-washington-meetup-group/events/281365340/",
         "timezone": "US/Pacific",
-        "description": "<p>We will discuss Cybersecurity career opportunities in the pandemic and post-pandemic environment.</p> "
+        "description": "<p>We will discuss Cybersecurity career opportunities in the pandemic and post-pandemic environment.<br/>Speaker: TBD</p> "
     },
     {
         "group": "Vancouver",
@@ -347,7 +367,7 @@
         "time": "18:00",
         "link": "https://www.meetup.com/owasp-vilnius/events/281220797/",
         "timezone": "Europe/Vilnius",
-        "description": "<p>Let's meet on a dark October evening online and hear two interesting presentations:<br/>- \"CodeQL for security researchers\". Jaroslav Loba\u010devski, Security researcher @ GitHub Security Lab.<br/>- \u201cDetecting threat activity\u201d. Arturs Ermanis, Senior SecOps Engineer @ Accenture</p> <p>More information - next week!</p> "
+        "description": "<p>Let's meet on a dark October evening online and hear two interesting presentations:</p> <p>- \"CodeQL for security researchers\". Jaroslav Loba\u010devski, Security researcher @ GitHub Security Lab.<br/>An introduction into CodeQL - semantic code analysis engine, its capabilities and usage scenarios. The audience will learn how to query code as data and apply variant analysis to find security vulnerabilities at scale.</p> <p>- \u201cDetecting threat activity\u201d. Arturs Ermanis, Senior SecOps Engineer @ Accenture<br/>It's not a matter of \"if\" but \"when\". Malicious actors can disrupt our daily routine and cause anxiety. Thanks to the right tools, a plan and staff training, we build our strengths against challenging activities to detect, mitigate and remediate.</p> "
     },
     {
         "group": "Devslop",
