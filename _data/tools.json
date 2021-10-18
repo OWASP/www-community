@@ -662,7 +662,7 @@
       "owner": "CloudDefense",
       "license": "Commercial",
       "platforms": "SaaS or On-Premises",
-      "note": "CloudDefense DAST is a type of black-box application testing that can run against applications while they are running. When testing an application with DAST you don’t need to have access to the source code to find vulnerabilities.",
+      "note": "CloudDefense DAST integrates with any CI/CD with just 1 line of code. It supports multiple authentication types. Perform deep DAST scans with ease.",
       "type": "DAST"
    },      
    {
