@@ -30,14 +30,24 @@
         "description": "<p>On October 21st, we have scheduled Steven Springett with Component Analysis vs SCA - How SBOMs are the driving force for change.</p> <p>This chapter meeting is part of a series of virtual chapter meetings (every 3rd Thursday of the month).</p> <p>Our chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed. Registered attendees can join via Zoom, and ask questions to the speakers.</p> <p>More info on this series of chapter meetings or on the Belgium OWASP chapter can be found at <a href=\"https://owasp.org/www-chapter-belgium/\" class=\"linkified\">https://owasp.org/www-chapter-belgium/</a> .</p> "
     },
     {
+        "group": "Bellingham",
+        "repo": "www-chapter-bellingham",
+        "name": "Virtaul OWASP Bellingham first meeting",
+        "date": "2021-11-18",
+        "time": "18:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/281383573/",
+        "timezone": "US/Pacific",
+        "description": "<p>Hello folks,</p> <p>Please join us on November 18th at 6 PM for the inaugural meetup of Bellingham's brand new OWASP chapter. We'll talk about our plans for the Bellingham chapter as well as go over some upcoming events in the region and if you're working on something cool and would like to share we'd love to hear about it!</p> <p>Thank you and we'll see you soon.</p> "
+    },
+    {
         "group": "Charlotte",
         "repo": "www-chapter-charlotte",
-        "name": "October 2021 Meetup - Topic TBA",
+        "name": "Security Observability 101: Thinking Inside the Box! with Jeff Williams",
         "date": "2021-10-21",
         "time": "19:00",
         "link": "https://www.meetup.com/owaspCLT/events/274988455/",
         "timezone": "US/Eastern",
-        "description": "<p>Topic is TBA.</p> "
+        "description": "<p>Software is incredibly hard to secure because it's a black box. We've spent decades struggling to verify properties of software from the outside by analyzing the source code, scanning, fuzzing, pentesting, etc... The goal of \"security observability\" is to expose exactly what's going on inside the box while it's running. Analyzing a running application has speed, accuracy, coverage, and scalability advantages that change the way Dev, Sec, and Ops communicate and work together. In this talk, you'll learn how to use the free and open source Java Observability Toolkit (JOT) to easily create your own powerful runtime instrumentation without coding. You can use JOT to analyze security defenses, identify complex vulnerabilities, create custom sandboxes, and even block attacks. Ultimately, security observability enables Dev, Sec, and Ops to work together in harmony, so you can focus on delivering value at high velocity.</p> "
     },
     {
         "group": "Columbus",
@@ -210,6 +220,16 @@
         "description": "<p>19:00 - 19:15 Welcome<br/>19:15 - 20:00 Our Secrets Management Journey: From Code to Vault by Jeroen Willemsen<br/>20:00 - 20:15 Break<br/>20:15 - 21:00 Doing Security in DevOps, the right way! by Irfaan Santoe</p> <p>Our Secrets Management Journey: From Code to Vault</p> <p>So you have an access key that you need to store somewhere. Maybe it is better not to put it in your code, nor in your container. But what about Kubernetes? What about a custom secrets storage solution? Of course, we tried many, sometimes funny, things to get our secrets secured. And luckily we ended up with a combination of safe methods, with Vault at its core. Want to know more? Join us, as we will go through various examples and their challenges!</p> <p>Jeroen Willemsen is a Principal Security Architect at Xebia and a jack of all trades in security. He loves to develop new software, set up DevSecOps support tooling, and help companies with security programs. He enjoys sharing knowledge, which is why he published articles, blogs and gave trainings and talks about various subjects.</p> <p>Doing Security in DevOps, the right way!</p> <p>Automation is not DevSecOps, but without automation there is no DevSecOps! Secret management, SAST, DAST, Pen Testing, Container Security, Secure Config Management etc. are about automating security. But let me ask you, can one reach nirvana in securing DevOps with solely automation? This talk will address ALL dimensions required for doing security in DevOps, so we get it right!</p> <p>Irfaan Santoe is a Global Security Director at Wolters Kluwer advising the Business &amp; IT on the information security ambition &amp; implementation. Prior to Wolters Kluwer, Irfaan was the Global Head of Security Engineering at ABN AMRO bank and lead the security implementation of ABN AMRO\u2019s IT transformation towards DevOps. This transformation program is set to uplift more than 500+ Dev-teams to become DevOps and increasing security without breaking DevOps! Irfaan is a Master in Computer Science (a programmer by heart) and is fascinated by the Inner Science of Yoga &amp; Meditation.</p> <p>The YouTube link will be added to this page.</p> "
     },
     {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "Filipi Pires",
+        "date": "2021-11-18",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-New-York-City-Chapter/events/281288393/",
+        "timezone": "US/Eastern",
+        "description": "<p>Filipi Pires (@FilipiPires) will present on \"Keep your code safe during the development path using Opensource tools.\"</p> <p>Abstract:</p> <p>Practical demonstration of how a Developer can use a SAST tool for static analysis in code vulnerability, executing it in source code, byte code and/or binary and identifying security holes during the development process, analyzing many languages and codes.<br/>The ecosystem will have the opportunity to know about an open source tool that orchestrates other security tools and identifies security flaws or vulnerabilities in projects and put all results in a database for analysis and generation of metrics, working this analysis with select the languages \u200b\u200band/or tools to be used on the project based on the available stack.<br/>These languages and tools are: Python, Ruby, Javascript/Typescript, GoLang, C#, Java, Kotlin, Kubernetes, Terraform, some Leaks, Leaks(optional search in git history), PHP, C, HTML, JSON, Shell Script and Elixir, it being done in source code, byte code or binary, finding \u201cLeaks\" checks the source code for possible leaks of credentials, private keys or hard coded passwords and analyze the project\u2019s dependencies to check for vulnerabilities in third-party libraries. in third-party libraries.</p> <p><a href=\"https://horusec.io\" class=\"linkified\">https://horusec.io</a><br/><a href=\"https://docs.horusec.io\" class=\"linkified\">https://docs.horusec.io</a></p> <p>Similar presentations:<br/><a href=\"https://www.youtube.com/watch?v=ZIY0Wf6QUdY\" class=\"embedded\">https://www.youtube.com/watch?v=ZIY0Wf6QUdY</a> - (D.C. Cybersecurity Professionals \u2013 2021)<br/><a href=\"https://www.youtube.com/watch?v=no5iUdRd64g\" class=\"embedded\">https://www.youtube.com/watch?v=no5iUdRd64g</a> - (RTV 2021 - Learning Thrusday)</p> "
+    },
+    {
         "group": "Omaha",
         "repo": "www-chapter-omaha",
         "name": "Q4 Meeting: Securing your Applications with the OWASP ASVS",
@@ -218,6 +238,16 @@
         "link": "https://www.meetup.com/owaspomaha-meetup-group/events/280673562/",
         "timezone": "US/Central",
         "description": "<p>Michael Born, Director of Security Consulting at SecureSky, Inc. will walk the audience through how to employ the OWASP Application Security Verification Standard to harden modern applications. This presentation will also provide guidance for deploying applications in Microsoft Azure that comply with the OWASP ASVS.</p> "
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Analyzing source code for vulnerabilities: A how-to workshop",
+        "date": "2021-11-18",
+        "time": "17:30",
+        "link": "https://www.meetup.com/OWASP-OC/events/281234132/",
+        "timezone": "US/Pacific",
+        "description": "<p>Speaker: Vickie Li, Developer Evangelist, ShiftLeft</p> <p>Topic: Analyzing source code for vulnerabilities: A how-to workshop</p> <p>Live stream: <a href=\"https://www.twitch.tv/owaspoc\" class=\"linkified\">https://www.twitch.tv/owaspoc</a></p> <p>Abstract:<br/>Writing code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code. Performing a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.</p> <p>Speaker Bio:<br/>Vickie Li is the resident developer evangelist at ShiftLeft. She is an experienced web developer with an avid interest in security research. She can be found on <a href=\"https://vickieli.dev\" class=\"linkified\">https://vickieli.dev</a>, where she blogs about security news, techniques, and her latest bug bounty findings. She also hosts \u201cSecurity Simplified\u201d, a developer education series focusing on web security: <a href=\"https://www.youtube.com/c/vickielidev\" class=\"embedded\">https://www.youtube.com/c/vickielidev</a>.</p> <p>Twitter: @vickieli7<br/>LinkedIn: <a href=\"https://www.linkedin.com/in/vickie-li-103a35b8\" class=\"linkified\">https://www.linkedin.com/in/vickie-li-103a35b8</a></p> <p>--------------------------------------------------------------------------------------<br/>NOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice.</p> "
     },
     {
         "group": "Orange County",
@@ -272,12 +302,32 @@
     {
         "group": "San Diego",
         "repo": "www-chapter-san-diego",
+        "name": "Monthly Meeting",
+        "date": "2021-11-18",
+        "time": "18:00",
+        "link": "https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/bcnwbsyccpbxb/",
+        "timezone": "US/Pacific",
+        "description": "<p>Monthly OWASP meeting</p> "
+    },
+    {
+        "group": "San Diego",
+        "repo": "www-chapter-san-diego",
         "name": "OWASP Top Ten Updates: A Costume Party!!",
         "date": "2021-10-21",
         "time": "18:00",
         "link": "https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/bcnwbsyccnbcc/",
         "timezone": "US/Pacific",
         "description": "<p>Put on your favorite costume, turn on your webcam, and watch chapter leader Christian DeHoyos walk through the OWASP Top Ten updates for 2021!</p> <p>Learn why OWASP updates its \"top ten\" every four years. Learn which risks got promoted, which got dropped, and WHY some things got consolidated. Come with your hottest takes, frankest concerns, and exciting anecdotes. Christian will attempt to keep this discussion exciting, factual, relevant, and from derailing into a trainwreck!</p> <p>He will likely fail but the attempt should be entertaining, so come on through!</p> <p>As always, be respectful or get bounced. Best costume will receive an award!</p> <p>---------------<br/>Christian DeHoyos is a Sr Cloud Security Architect @ Lenovo. Christian is an OWASP San Diego Chapter leader and local Oside resident. Chrisian dislikes long bios.</p> "
+    },
+    {
+        "group": "San Jacinto College",
+        "repo": "www-chapter-san-jacinto-college",
+        "name": "OWASP San Jacinto College Student Chapter October Meeting",
+        "date": "2021-10-22",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-San-Jacinto-College-Student-Chapter/events/281494436/",
+        "timezone": "US/Central",
+        "description": "<p>Joseph Konieczka will give a preview of his LASCON talk about using building bricks to better engage end users with security training.</p> <p>We will also brainstorm on ways we can use a similar approach to help our parents and grandparents avoid scammers now that it is open enrollment for Medicare and many health care plans. Since medical PII is so important, we need to make sure that our friends and family don't fall victim to these very dangerous scams.</p> "
     },
     {
         "group": "Sao Paulo",
@@ -408,15 +458,5 @@
         "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/276120026/",
         "timezone": "Canada/Eastern",
         "description": "<p>You're the sole practitioner of cloud security at your organization. You're happy to get your hands dirty in your cloud environment use some tools to lock things down, but it seems like there are new cloud security tools coming out every week. Where do you start? How do you prioritize which ones will have the most impact upfront?</p> <p>In this show, Kinnaird McQuade, Lead Security Engineer at Salesforce will go over what sole practitioners need to build out their own \"lean but mean\" cloud security toolkit.</p> <p>KINNAIRD McQUADE</p> <p>Kinnaird McQuade is a Lead Security Engineer at Salesforce, where he specializes in building, breaking, and automating security controls in cloud infrastructure and CI/CD. Kinnaird is the author of several cloud security tools - Cloudsplaining and Policy Sentry among them - and is passionate about making security easy via automation. You can find him on kmcquade.com (<a href=\"http://kmcquade.com/\" class=\"linkified\">http://kmcquade.com/</a>) and on Twitter @kmcquade3.</p> "
-    },
-    {
-        "group": "Devslop",
-        "repo": "www-project-devslop",
-        "name": "Demystifying Mobile Security With a COVID App",
-        "date": "2021-10-17",
-        "time": "10:00",
-        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280920802/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>In this episode, we will unveil the mystery of mobile security. The presentation will be in parts. We will discuss the OWASP Mobile Top 10, and then delve into components of an Android application, sample tools for mobile security. Next, we'll look at core files in an Android app followed by the results of reverse engineering a COVID app. Finally, we will end the presentation with the next steps to continue learning mobile security.</p> <p>JASMINE JACKSON<br/>Jasmine shares her passion for Information Security by presenting and teaching workshops with over ten years of Information Security experience. She is currently the Jeopardy-style Capture The Flag (CTF) Coach for the inaugural US Cyber Games. She is also an Adjunct Professor at Drexel University and City University of Seattle with additional courses with Cybrary. Finally, Jasmine has certifications in Secure Programming, Web Application Pentesting, and Cloud Security. Jasmine has a master\u2019s degree in Computer Science and a Graduate Certificate in Information Security and Privacy from the University of North Carolina, Charlotte. Currently, she works as a Senior Application Security Engineer for a Fortune 500 company. She has presented her work domestically and internationally for such conferences - The Diana Initiative, Bugcrowd, Blacks in Cybersecurity, and NotPinkCon in topics of Mobile Security, and Web Application Security.</p> <p>In her spare time, she likes to stay up to date on security vulnerabilities by completing capture the flag write-ups on her blog, vulnerability disclosures, and YouTube channel. Besides Jasmine\u2019s passion for teaching, she also has a passion for educating the next generation of Information Security professionals by volunteering with organizations - Biohacking Village, BlackGirlsHack, Open Web Application Security Project (OWASP), and Women\u2019s Society of Cyberjutsu.</p> <p>Reach out to her on all social media platforms - @thefluffy007.</p> "
     }
 ]
