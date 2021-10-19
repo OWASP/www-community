@@ -189,6 +189,24 @@
       "type": "DAST"
    },
    {
+      "title": "Deepfence ThreatMapper",
+      "url": "https://github.com/deepfence/ThreatMapper",
+      "owner": "Deepfence",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Apache v2",
+      "type": "DAST"
+   },
+   {
+      "title": "Deepfence ThreatStryker",
+      "url": "https://deepfence.io",
+      "owner": "Deepfence",
+      "license": "Commercial",
+      "platforms": "Linux, Windows",
+      "note": null,
+      "type": "DAST"
+   },
+   {
       "title": "Detectify",
       "url": "https://detectify.com/",
       "owner": "Detectify",
