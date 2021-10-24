@@ -22,7 +22,7 @@
     {
         "group": "Bellingham",
         "repo": "www-chapter-bellingham",
-        "name": "Virtaul OWASP Bellingham first meeting",
+        "name": "Virtual OWASP Bellingham first meeting",
         "date": "2021-11-18",
         "time": "18:00",
         "link": "https://www.meetup.com/owasp-bellingham-chapter/events/281383573/",
@@ -48,6 +48,16 @@
         "link": "https://www.meetup.com/owaspboston/events/281596072/",
         "timezone": "US/Eastern",
         "description": "<p>More details to come, including a potential in-person option!</p> "
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "TBC",
+        "date": "2021-11-24",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Bristol/events/279155585/",
+        "timezone": "Europe/London",
+        "description": "<p>We are looking to publish on @YouTube the recordings of our meetups. If you would like to be notified when we a new video is published, please feel free to subscribe on our channel at:<br/><a href=\"https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ\" class=\"embedded\">https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ</a></p> "
     },
     {
         "group": "Columbus",
@@ -112,12 +122,12 @@
     {
         "group": "Indianapolis",
         "repo": "www-chapter-indianapolis",
-        "name": "Q4 Meetup (Placeholder)",
+        "name": "Q4 Meetup - Vuln Chaining",
         "date": "2021-10-28",
         "time": "19:00",
         "link": "https://www.meetup.com/indyowasp/events/280097107/",
         "timezone": "US/Eastern",
-        "description": "<p>We'll share more details closer to the event, but I'll say I'm _very_ excited about the topic!</p> "
+        "description": "<p>In AppSec, most people understand that context is everything when it comes to assigning risk. Certain factors and other vulnerabilities, when combined together, can increase the severity of a vulnerability. Defenders and bug hunters alike help organizations understand a more accurate threat landscape from experience, but it's not something that is well documented. Join Curtis as he discuses this gap and introduces some tools and new resources for vuln chaining.</p> <p>---</p> <p>Curtis is a Cybersecurity enthusiast with years of defensive and offensive experience. He's currently a Managing Security Consultant at GuidePoint Security where he helps lead tactical services on the Application Security team.</p> "
     },
     {
         "group": "Jacksonville",
@@ -136,16 +146,6 @@
         "date": "2021-11-22",
         "time": "18:00",
         "link": "https://www.meetup.com/OWASP-Kansas-City/events/mpsfjryccpbdc/",
-        "timezone": "US/Central",
-        "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
-    },
-    {
-        "group": "Kansas City",
-        "repo": "www-chapter-kansas-city",
-        "name": "Open Web App Security Project - Kansas City Chapter Monthly Meeting",
-        "date": "2021-10-25",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Kansas-City/events/mpsfjryccnbhc/",
         "timezone": "US/Central",
         "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
     },
@@ -218,6 +218,16 @@
         "link": "https://www.meetup.com/OWASP-New-York-City-Chapter/events/281288393/",
         "timezone": "US/Eastern",
         "description": "<p>Filipi Pires (@FilipiPires) will present on \"Keep your code safe during the development path using Opensource tools.\"</p> <p>Abstract:</p> <p>Practical demonstration of how a Developer can use a SAST tool for static analysis in code vulnerability, executing it in source code, byte code and/or binary and identifying security holes during the development process, analyzing many languages and codes.<br/>The ecosystem will have the opportunity to know about an open source tool that orchestrates other security tools and identifies security flaws or vulnerabilities in projects and put all results in a database for analysis and generation of metrics, working this analysis with select the languages \u200b\u200band/or tools to be used on the project based on the available stack.<br/>These languages and tools are: Python, Ruby, Javascript/Typescript, GoLang, C#, Java, Kotlin, Kubernetes, Terraform, some Leaks, Leaks(optional search in git history), PHP, C, HTML, JSON, Shell Script and Elixir, it being done in source code, byte code or binary, finding \u201cLeaks\" checks the source code for possible leaks of credentials, private keys or hard coded passwords and analyze the project\u2019s dependencies to check for vulnerabilities in third-party libraries. in third-party libraries.</p> <p><a href=\"https://horusec.io\" class=\"linkified\">https://horusec.io</a><br/><a href=\"https://docs.horusec.io\" class=\"linkified\">https://docs.horusec.io</a></p> <p>Similar presentations:<br/><a href=\"https://www.youtube.com/watch?v=ZIY0Wf6QUdY\" class=\"embedded\">https://www.youtube.com/watch?v=ZIY0Wf6QUdY</a> - (D.C. Cybersecurity Professionals \u2013 2021)<br/><a href=\"https://www.youtube.com/watch?v=no5iUdRd64g\" class=\"embedded\">https://www.youtube.com/watch?v=no5iUdRd64g</a> - (RTV 2021 - Learning Thrusday)</p> "
+    },
+    {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "(Alert Level 1 permitting) The new OWASP Top 10 Web Application Security Risks",
+        "date": "2021-11-24",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-New-Zealand-Chapter-Christchurch/events/281034378/",
+        "timezone": "Pacific/Auckland",
+        "description": "<p>Important! Traction on Demand (formerly Trineo) is not hosting events under Alert Level 2, so this is a tentative placeholder for the next meetup. Details to be added soon\u2026</p> "
     },
     {
         "group": "Northern Virginia",
@@ -318,16 +328,6 @@
         "link": "https://www.meetup.com/OWASP-Toronto/events/281510935/",
         "timezone": "Canada/Eastern",
         "description": "<p>LIGHTNING TALK<br/>------------------------</p> <p>OWASP Threat Dragon, A modern threat modeling tool, done right.</p> <p>Summary:</p> <p>OWASP Threat Dragon is a threat modeling tool used to create threat model diagrams as part of a secure development lifecycle. Come to this talk for a brief overview of the project, how it works, and how you can contribute!</p> <p>Presenter:</p> <p>I am Matthew McCarty, an application security engineer currently working for Coinsquare in Toronto. I am passionate about security and ensuring users of all kinds can safely and securely use the applications they want without worry! (a little cheesy I know)</p> <p>TALK<br/>-------</p> <p>Why won't you just take likelihood seriously?</p> <p>Summary:</p> <p>Andrew has worked in infosec long enough to have seen and written many good and bad reports, and there's a few trends that are slowly driving him insane. Andrew hopes that his screaming in his talk, \"Failure to Report: A Semi-Structured Rant on What's Wrong with Vulnerability Assessment Reporting\" will help banish some bad practices to the land of wind and ghosts, never to be seen again. Or at least it will make him feel better.</p> <p>Presenter:</p> <p>Andrew Turnsek is a Senior Security Consultant at Security Compass and has been primarily working in penetration testing and vulnerability assessment since 2013, with brief stops in threat intelligence, security architecture review, and as a \"BS Detector\" for auditing teams. He can be found at security conferences and hockey games, usually wearing a Marlies hat.</p> "
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2021-10-28",
-        "time": "18:30",
-        "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccnblc/",
-        "timezone": "US/Eastern",
-        "description": "<p>TBA</p> "
     },
     {
         "group": "University Of Washington",
