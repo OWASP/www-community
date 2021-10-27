@@ -1,25 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - October",
-        "date": "2021-10-26",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Aarhus-Chapter/events/281291184/",
-        "timezone": "Europe/Copenhagen",
-        "description": "<p>Notice, that this is a physical event and that Cryptomathic will be hosting it. By signing up, you accept that OWASP Aarhus will hand over a list of participants to Cryptomathic for the sole purpose of hosting this event.</p> <p>19:00 - 19:30<br/>\"Welcome, Food and Drinks\"<br/>Thomas Ljungberg Kristensen - Co-Chapter Leader OWASP Aarhus<br/>Dennis Perto - Co-Chapter Leader OWASP Aarhus</p> <p>19:30 - 20:15<br/>\"Mobile Security: App Attestation and keeping secrets on the phone\"<br/>Peter \u00d8rb\u00e6k, Software Engineer at Cryptomathic</p> <p>About the presentation:<br/>\"Mobile app security is about two things: protecting secrets (password, tokens, keys) on the phone, and ensuring the backend that it is talking the genuine app and user. This talk is about how Cryptomathic solved this and the path which lead to App Attestation and the Cryptomathic Mobile App Security Core.\"</p> <p>About Peter:<br/>My name is Peter \u00d8rb\u00e6k. I have a Ph.D in computer science from the University of Aarhus. Since 2010 I have worked as a Senior Software Engineer at Cryptomathic on key management, authentication, document signing, and not least, mobile security in the banking world.</p> <p>20:30 - 21:15<br/>\"Cryptography and it\u2019s flaws in practice\"<br/>Marcus Sellebjerg, Student at Aarhus university with a passion for cybersecurity and cryptography</p> <p>About the presentation:<br/>It\u2019s widely acceptable that security on the internet is very important. Still many developers doesn\u2019t know how to implement security mechanisms and particularly cryptography is a very error prone area. For many cryptography is a black box of math-magic and while that is fine, it\u2019s important to use this black box in a correct manner which is sadly not easy. In this talk I\u2019ll give you an introduction on how to use the cryptography black box and how it can be exploited if not used correct.</p> <p>About Marcus:<br/>My name is Marcus, I\u2019m currently a masters student at Aarhus University with a huge interest in cryptography and the math behind it. Beside university I compete in capture the flag tournaments together with my team (Kalmarunionen), where we look at different security solutions and tries to circumvent the implemented security mechanisms, both crypto and other areas. I also work in the cryptography department of Danske bank and have been programming since I was around the age of 12, where the concept of hiding information in plain sight also found my interest.</p> <p>21:15 - 21:30<br/>Goodbyes and plans going forward<br/>Thomas Ljungberg Kristensen - Co-Chapter Leader OWASP Aarhus<br/>Dennis Perto - Co-Chapter Leader OWASP Aarhus</p> "
-    },
-    {
-        "group": "Aguascalientes",
-        "repo": "www-chapter-aguascalientes",
-        "name": "OWASP Aguascalientes",
-        "date": "2021-10-26",
-        "time": "20:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/281586397/",
-        "timezone": "America/Mexico_City",
-        "description": "<p>En esta reunion platicaremos de los siguientes temas:</p> <p>David Alejandro Garcia Guevara<br/>* Introducci\u00f3n a Software Composition Analysis (SCA)</p> <p>Christian Fernando Agredano Herrera<br/>* SSH Port Forwarding &amp; SSH Tunneling</p> <p>Tambien nos pueden encontrar en:<br/>OWASP: <a href=\"https://owasp.org/www-chapter-aguascalientes/\" class=\"linkified\">https://owasp.org/www-chapter-aguascalientes/</a><br/>FB: <a href=\"https://www.facebook.com/OWASPAguascalientes/\" class=\"linkified\">https://www.facebook.com/OWASPAguascalientes/</a><br/>YT: <a href=\"https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw\" class=\"embedded\">https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw</a></p> "
-    },
-    {
         "group": "Bellingham",
         "repo": "www-chapter-bellingham",
         "name": "Virtual OWASP Bellingham first meeting",
@@ -46,6 +26,16 @@
         "date": "2021-11-11",
         "time": "18:30",
         "link": "https://www.meetup.com/owaspboston/events/281596072/",
+        "timezone": "US/Eastern",
+        "description": "<p>More details to come, including a potential in-person option!</p> "
+    },
+    {
+        "group": "Boston",
+        "repo": "www-chapter-boston",
+        "name": "OWASP Boston November 2021 Meetup - In Person",
+        "date": "2021-11-11",
+        "time": "18:30",
+        "link": "https://www.meetup.com/owaspboston/events/281675417/",
         "timezone": "US/Eastern",
         "description": "<p>More details to come, including a potential in-person option!</p> "
     },
@@ -138,6 +128,16 @@
         "link": "https://www.meetup.com/OWASP-Kansas-City/events/mpsfjryccpbdc/",
         "timezone": "US/Central",
         "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
+    },
+    {
+        "group": "Karachi",
+        "repo": "www-chapter-karachi",
+        "name": "Exploiting Cloud Storage - By Saad Ahmed",
+        "date": "2021-11-02",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Karachi-Chapter/events/281667583/",
+        "timezone": "Asia/Karachi",
+        "description": "<p>Cloud storage is based on a virtualized storage model that stores any type data in the cloud. This talk would be focusing on Exploiting Cloud Storage.</p> <p>About the Speaker<br/>Saad Ahmed who is a CXO in Security Foster (<a href=\"https://www.linkedin.com/in/XSaadAhmedX/\" class=\"linkified\">https://www.linkedin.com/in/XSaadAhmedX/</a>)</p> <p>He is having 7 years of experience in bypassing Firewall and Exploiting security vulnerabilities and he is an author of \"itsOver\" tool (<a href=\"https://github.com/SaadAhmedx/Subdomain-Takeover\" class=\"linkified\">https://github.com/SaadAhmedx/Subdomain-Takeover</a>) for checking subdomain takeover vulnerability.</p> "
     },
     {
         "group": "Kyiv",
@@ -312,12 +312,12 @@
     {
         "group": "Toronto",
         "repo": "www-chapter-toronto",
-        "name": "November Event - OWASP Threat Dragon | Why won't you take likelihood seriously?",
+        "name": "November Event - OWASP Threat Dragon | Failure to Report",
         "date": "2021-11-10",
         "time": "18:30",
         "link": "https://www.meetup.com/OWASP-Toronto/events/281510935/",
         "timezone": "Canada/Eastern",
-        "description": "<p>LIGHTNING TALK<br/>------------------------</p> <p>OWASP Threat Dragon, A modern threat modeling tool, done right.</p> <p>Summary:</p> <p>OWASP Threat Dragon is a threat modeling tool used to create threat model diagrams as part of a secure development lifecycle. Come to this talk for a brief overview of the project, how it works, and how you can contribute!</p> <p>Presenter:</p> <p>I am Matthew McCarty, an application security engineer currently working for Coinsquare in Toronto. I am passionate about security and ensuring users of all kinds can safely and securely use the applications they want without worry! (a little cheesy I know)</p> <p>TALK<br/>-------</p> <p>Why won't you just take likelihood seriously?</p> <p>Summary:</p> <p>Andrew has worked in infosec long enough to have seen and written many good and bad reports, and there's a few trends that are slowly driving him insane. Andrew hopes that his screaming in his talk, \"Failure to Report: A Semi-Structured Rant on What's Wrong with Vulnerability Assessment Reporting\" will help banish some bad practices to the land of wind and ghosts, never to be seen again. Or at least it will make him feel better.</p> <p>Presenter:</p> <p>Andrew Turnsek is a Senior Security Consultant at Security Compass and has been primarily working in penetration testing and vulnerability assessment since 2013, with brief stops in threat intelligence, security architecture review, and as a \"BS Detector\" for auditing teams. He can be found at security conferences and hockey games, usually wearing a Marlies hat.</p> "
+        "description": "<p>LIGHTNING TALK<br/>------------------------</p> <p>OWASP Threat Dragon, A modern threat modeling tool, done right.</p> <p>Summary:</p> <p>OWASP Threat Dragon is a threat modeling tool used to create threat model diagrams as part of a secure development lifecycle. Come to this talk for a brief overview of the project, how it works, and how you can contribute!</p> <p>Presenter:</p> <p>I am Matthew McCarty, an application security engineer currently working for Coinsquare in Toronto. I am passionate about security and ensuring users of all kinds can safely and securely use the applications they want without worry! (a little cheesy I know)</p> <p>TALK<br/>-------</p> <p>Failure to Report</p> <p>Summary:</p> <p>Andrew has worked in infosec long enough to have seen and written many good and bad reports, and there's a few trends that are slowly driving him insane. Andrew hopes that his screaming in his talk, \"Failure to Report: A Semi-Structured Rant on What's Wrong with Vulnerability Assessment Reporting\" will help banish some bad practices to the land of wind and ghosts, never to be seen again. Or at least it will make him feel better.</p> <p>Presenter:</p> <p>Andrew Turnsek is a Senior Security Consultant at Security Compass and has been primarily working in penetration testing and vulnerability assessment since 2013, with brief stops in threat intelligence, security architecture review, and as a \"BS Detector\" for auditing teams. He can be found at security conferences and hockey games, usually wearing a Marlies hat.</p> "
     },
     {
         "group": "Toronto",
@@ -347,7 +347,7 @@
         "time": "14:30",
         "link": "https://www.meetup.com/owasp-university-of-washington-meetup-group/events/281365340/",
         "timezone": "US/Pacific",
-        "description": "<p>We will discuss Cybersecurity career opportunities in the pandemic and post-pandemic environment.<br/>Speaker: Keri Kusznir, Security Engineer Manager</p> "
+        "description": "<p>We will discuss Cybersecurity career opportunities in the pandemic and post-pandemic environment.<br/>Speaker: Keri Kusznir, Security Engineer Manager</p> <p>About Keri: Keri is a builder, breaker, and problem solver passionate about security automation, offensive security, security education &amp; awareness, and Open Source Intelligence (OSINT).<br/>Currently working as a security engineering manager, she has held various roles in support, software development &amp; security engineering.<br/>Outside of work, Keri engages with the security community by volunteering with organizations such as OWASP, Day of Security, Security BSides, and the Diana Initiative.</p> "
     },
     {
         "group": "Victoria",
@@ -358,6 +358,16 @@
         "link": "https://www.meetup.com/OWASP-Victoria-Chapter/events/281402288/",
         "timezone": "Canada/Pacific",
         "description": "<p>The OWASP Victoria chapter is proud to present our next quarterly event. Jeevan Singh will be delivering a talk with an accompanying workshop on Threat Modelling 101.</p> <p>The event will be held on November 23 from 5:30 pm to 8:00 pm PT.</p> <p>This event will feature Jeevan\u2019s talk followed by a Q&amp;A, workshop, and a draw for a prize (must be a registered member and reside in Canada). Join us for an evening of threat modelling!</p> <p>Visit our OWASP Chapter to learn more about us at:<br/><a href=\"https://owasp.org/www-chapter-victoria/\" class=\"linkified\">https://owasp.org/www-chapter-victoria/</a></p> <p>Speaker: Jeevan Singh<br/>Presentation: Talk, Q&amp;A, and accompanying workshop</p> <p>Event Details:</p> <p>Threat Modelling is a great way to discover and remediate threats in your system before they are even created. Security professionals commonly perform it, but anyone can do threat modelling. This hands-on workshop will cover the threat modelling workflow, common classes of vulnerabilities, and hands-on examples that will have *you* discover threats in different systems. Threat Modelling is an integral part of every company\u2019s Security Development Lifecycle. Still, as development teams grow more prominent, security will have to choose which features they want to Threat Model, or they will become a bottleneck for the development organization.</p> <p>Speaker Biography:</p> <p>Jeevan Singh is an Application Security Engineering Manager for Twilio Segment (<a href=\"https://segment.com\" class=\"linkified\">https://segment.com</a>), where he is embedding security into all aspects of the software development process. Jeevan enjoys building a security culture within organizations and educating staff on security best practices. Jeevan is responsible for a wide variety of tasks, including architecting security solutions, working with development teams to resolve security vulnerabilities, and building out security features. Before life in the security space, Jeevan had a wide variety of development and leadership roles over the past 15 years.</p> "
+    },
+    {
+        "group": "Wia",
+        "repo": "www-committee-wia",
+        "name": "Cloud Security by Dr. Abhilasha Vyas",
+        "date": "2021-11-27",
+        "time": "13:00",
+        "link": "https://www.meetup.com/womeninappsec/events/281539760/",
+        "timezone": "US/Eastern",
+        "description": "<p>This talk will discuss about Cloud Security. What are the security services provided by CSPs. How we can manage our resources on Cloud.</p> <p>Dr. Abhilasha Vyasr's LinkedIn profile: <a href=\"https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199\" class=\"linkified\">https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199</a></p> "
     },
     {
         "group": "Devslop",
