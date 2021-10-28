@@ -63,62 +63,11 @@ alert('XSS')
 This malicious code could be inserted into a vulnerable application, resulting in an alert window with the message “XSS”. However, the web
 application can have a character filter which prohibits characters such as `<`, `>` and `/`, since they are used to perform web application attacks. The attacker could use a double encoding technique to bypass the filter and exploit the client’s session. The encoding process for this JavaScript is:
 
-<table >
-<tr>
-<td colspan=30>
-<b> Char </b>
-</td>
-<td colspan=40>
-<b> Hex encode </b>
-</td>
-<td colspan=50%>
-<b> Then encoding `%`</b>
-</td>
-<td colspan=50%>
-<b> Double encode </b>
-</td>
-</tr>
-<tr>
-<td colspan=30>
-`<`
-</td>
-<td colspan=40>
-`%3C`
-</td>
-<td colspan=50%>
-`%25`
-</td>
-<td colspan=50%>
-`%253C`
-</td>
-</tr>
-<tr>
-<td colspan=30>
-`/`
-</td>
-<td colspan=40>
-`%2F`
-</td>
-<td colspan=50%>
-“%25”
-</td>
-<td colspan=50%>
-`%252F`
-</td>
-</tr>b<tr>b<td colspan=30>
-`>`
-</td>
-<td colspan=40>
-`%3E`
-</td>
-<td colspan=50%>
-`%25`
-</td>
-<td colspan=50%>
-`%253E`
-</td>
-</tr>
-</table>
+|Char|Hex encode|Then encoding '%'|Double encode|
+|----|----------|-----------------|-------------|
+|`<`|`%3C`|`%25`|`%253C`|
+|`/`|`%2F`|`%25`|`%252F`|
+|`>`|`%3E`|`%25`|`%253E`|
 
 Finally, the malicious double encoding code is:
 
