@@ -10,16 +10,6 @@
         "description": "<p>Hello folks,</p> <p>Please join us on November 18th at 6 PM for the inaugural meetup of Bellingham's brand new OWASP chapter. We'll talk about our plans for the Bellingham chapter as well as go over some upcoming events in the region and if you're working on something cool and would like to share we'd love to hear about it!</p> <p>Thank you and we'll see you soon.</p> "
     },
     {
-        "group": "Boise",
-        "repo": "www-chapter-boise",
-        "name": "OWASP Boise - Security Incident Response - (Fall 2021 Meeting)",
-        "date": "2021-10-27",
-        "time": "12:00",
-        "link": "https://www.meetup.com/owasp-boise/events/281570214/",
-        "timezone": "US/Mountain",
-        "description": "<p>The main focus of this meeting will be a presentation on security incident response and how to be prepared when the inevitable happens. The presentation will focus primarily on lessons learned from responding to real incidents and some of the things that can often only be learned from the \"heat of the moment\".</p> <p>Presentation put on by OWASP Boise chapter leaders.</p> "
-    },
-    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston November 2021 Meetup - Virtual Attendance",
@@ -78,16 +68,6 @@
         "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280769873/",
         "timezone": "US/Central",
         "description": "<p>Title:</p> <p>What is an SBOM, why do I care, and how does my organization get started?</p> <p>Description:</p> <p>It\u2019s nice to know what\u2019s in the food on the shelf at the store so you can make an informed decision whether you should buy it. And when there are recalls of certain ingredients it\u2019s nice to quickly know whether those ingredients are already in your cupboard. Software Bills of Materials enable you to know what\u2019s in the software you consider procuring, and let you quickly know what\u2019s already inside your organization. Of course, you can even use them to understand the risk in the portfolio of software your organization baked itself! Since the May Executive Order on Improving the Nation\u2019s Cybersecurity SBOMs have gotten a lot more attention, but what does it really mean for an organization to make the most of this capability? This talk will help you prepare your organization for the near future when generating, evaluating, and leveraging SBOMs will be expected.</p> <p>Bio:</p> <p>Greg Mohler is a Manager within KPMG's Cyber Defense practice, and has spent the past four years helping over 20 clients solve difficult problems related to DevSecOps, Application Security, and Vulnerability Management. He is passionate about minimizing the distraction of security incidents so that businesses can focus on innovation, growth, and speed to market. Greg has led the delivery of services that not only uplift clients' technical capabilities, but also bolster security education &amp; culture.</p> <p>Caleb Queern is a Director in KPMG's Cyber practice and is based in Austin. He has more than 15 years of technology and information security experience. His focus is reducing risk and improving performance so organizations can meet business goals and enable growth. Caleb has lead engagements in technology companies, pharmaceutical companies, higher education, financial services, manufacturing, and others. His specialties include secure DevOps and application security, security operations, and operational excellence.</p> "
-    },
-    {
-        "group": "Doha",
-        "repo": "www-chapter-doha",
-        "name": "Cyber Security Virtual Meetup Doha - \"Ransomware Survival\" by Mr. Ashraf ",
-        "date": "2021-10-27",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Doha-Chapter/events/281563016/",
-        "timezone": "Asia/Qatar",
-        "description": "<p>Announcing online information security meetup supported by the local information security community Doha, Qatar.</p> <p>Agenda &amp; Schedule for this meetup Dated 27/10/2021</p> <p>6:00 PM to 6:30 PM: \"Ransomware\" by Mr. Ashraf Aboukass<br/>6:30 PM to 6:45 PM: Questions &amp; answer session</p> <p>Topic: Ransomware<br/>Speaker: Mr. Ashraf Aboukass</p> <p>This event is free to attend for both members and non-members of (ISC)\u00b2/OWASP/Null and is open to anyone interested in information security and cybersecurity awareness. Please note that you MUST RSVP it will help us in organizing.</p> <p>As this will be a recurring event, we welcome as many paper submissions as possible, and reserve keeps interesting talk proposals for future editions.</p> <p>The talk proposal should abide by the (ISC)\u00b2/OWASP/Null principles: to promote and disseminate knowledge and tools in cybersecurity that respect its core values, openness, support for innovation, global reach, and integrity. The talks should be vendor-neutral, which is not publicity talks for a specific company or a proprietary tool, but about interesting experiences insecurity that can engage and foster discussion in the local community.</p> "
     },
     {
         "group": "France",
@@ -162,32 +142,12 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly Virtual Meeting - OCT 27, 2021",
-        "date": "2021-10-27",
-        "time": "11:45",
-        "link": "https://www.meetup.com/OWASP-Los-Angeles/events/278725579/",
+        "name": "OWASP LA Monthly Virtual Meeting - NOV 24, 2021",
+        "date": "2021-11-24",
+        "time": "23:45",
+        "link": "https://www.meetup.com/OWASP-Los-Angeles/events/278725708/",
         "timezone": "US/Pacific",
-        "description": "<p>Come join us as we hear the monthly presentation by Aaron Guzman, Head of Product &amp; Application Security with Cisco Meraki</p> <p>TOPIC: OWASP &amp; CSA IoT: Impacting Medical Security</p> <p>ABSTRACT: The Open Web Application Security Project (OWASP) IoT Project is designed to help manufacturers, developers, and consumers better understand the security issues associated with the Internet of Things as well as enable users in any context to make better security decisions when building, deploying, or assessing IoT technologies. Similarly, CSA's IoT Working group is dedicated to understanding IoT deployments and defining actionable guidance to secure ecosystems. Their efforts are often used to develop medical security guidelines for developers and manufacturers alike but also to influence IoT security assessment methodologies for later use on commercial IoT certification schemes. This session will provide insights into current project initiatives, including those that directly impact medical devices and how you can save lives by getting involved.</p> <p>BIO: Aaron Guzman is a published author and a technical reviewer for several security books. He is the Head of Product &amp; Application Security with Cisco Meraki where he focuses on building security into enterprise IoT products and crafting designs that keep users safe from compromise. Aaron spearheads many open-source initiatives, raising awareness about IoT hacking and proactive defensive strategies under OWASP\u2019s IoT and Embedded Application Security projects. A co-chair of Cloud Security Alliance\u2019s IoT Working Group, he has extensive public speaking experience delivering conference presentations, training, and workshops globally. Follow Aaron on Twitter @scriptingxss.</p> <p>Meeting info will be available on meetup - BE SURE TO RSVP to access the link</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
-    },
-    {
-        "group": "Luxembourg",
-        "repo": "www-chapter-luxembourg",
-        "name": "OWASP Luxembourg Chapter - Meeting#2 - OWASP Top 10:2021 Overview",
-        "date": "2021-10-27",
-        "time": "17:30",
-        "link": "https://www.meetup.com/owasp-luxembourg-group/events/281144615/",
-        "timezone": "Europe/Luxembourg",
-        "description": "<p>Description of the talk:<br/>Learn about the new OWASP Top 10:2021 that was released in September, 2021. This talk will walk through the process we used to build the new Top 10 and provide a brief overview of each of the risk categories in this updated list. Hear how the OWASP Top 10:2021 can fit into your organization and provide a baseline for secure development.</p> <p>About the speaker:<br/>Brian Glas, OWASP Top Ten Leader | Assistant Professor Of Computer Science, Union University Brian has over 20 years of experience in various roles in IT and over a decade and a half of that in application development and security. His day job is serving as an Assistant Professor teaching a full load of Computer Science and Cybersecurity classes at Union University. He helped build FedEx's AppSec team, worked on the Trustworthy Computing team at Microsoft, consulted on software security for years, and served as a project lead and active contributor for SAMM v1.1-2.0+ and OWASP Top 10 2017 and 2021. Brian is a contributor to the RABET-V Pilot Program. He holds several Cybersecurity and IT certifications and is currently working on his Doctor of Computer Science in Cybersecurity and Information Assurance.</p> <p>Who should attend?<br/>Both existing OWASP members and people unfamiliar with OWASP. Information security practitioners of all levels, IT professionals, and business leaders. Developers, development managers, product owners, QA professionals, program managers, and anyone involved in building software, etc.</p> "
-    },
-    {
-        "group": "Manchester Nh",
-        "repo": "www-chapter-manchester-nh",
-        "name": "OWASP Manchester, New Hampshire Chapter Meeting - October 2021",
-        "date": "2021-10-27",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Manchester-NH/events/281248223/",
-        "timezone": "US/Eastern",
-        "description": "<p>Join us for an informal discussion around operational Vulnerability Management, and OpenVAS, an open source VM scanner. Moving this to October 27th around the Red Sox Game 5.</p> <p>Video call link: <a href=\"https://meet.google.com/fev-ouxk-nnd\" class=\"linkified\">https://meet.google.com/fev-ouxk-nnd</a><br/>Or dial: \u202a(US) +1 319-382-9461\u202c PIN: \u202a621 952 993\u202c#</p> "
+        "description": "<p>Come join us as we hear the monthly presentation by Sean Wright Lead Application Security SME at Immersive Labs</p> <p>TOPIC: Open Source Software Supply Chains</p> <p>ABSTRACT: As modern software development evolves; we no longer build things from the ground up. Extensive use is made of open source software such as libraries and frameworks. While this is fantastic from a development point of view (allowing for faster development of applications and features), it does present a potential drawback if not done correctly, an increased risk. Often, we see libraries being used and seldom updated, also we see several libraries being blindly with little to not inspections and reviews. This is gold mine for attackers, there are many ways that they have will continue to use this to their advantage. The purpose of this talk is to cover some of the techniques which attackers could use to exploit open source supply chains. This will include a live demonstration of one such technique which an attacker could used. The talk will then focus on the excellent OWASP Dependency Track tool, showing how this can help reduce the risk to organizations when it comes to dealing with open source packages in software.</p> <p>BIO: Sean Wright is the Lead Application Security SME at Immersive Labs with an origin as a software developer. Primarily focused on web-based application security with a special interest in TLS related subjects. Experienced in providing technical leadership in relation to application security, as well as engaging with teams to improve the security of systems that they develop. Passionate to be a part of the community and giving back to the community. Additionally, enjoy spending personal time performing personal security-related research.</p> <p>Meeting info will be visible to you only if you RSVP for the meeting.</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
     },
     {
         "group": "Netherlands",
