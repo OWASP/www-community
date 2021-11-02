@@ -122,7 +122,7 @@ characters), BNF.
 
 A "reference" could be a database key, a URL, a filename, or some other
 kind of lookup index. While injecting into these references doesn't
-typically allow for command execution, it's an interesting because the
+typically allow for command execution, it's interesting because the
 parsers for these references aren't typically too complicated. However,
 URLs and filenames can become quite complex. See the "jar:" scheme for
 examples of non-intuitive syntax begging for injection.
