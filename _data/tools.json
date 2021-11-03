@@ -486,12 +486,12 @@
       "type": "DAST"
    },
    {
-      "title": "Snyk Code",
-      "url": "https://snyk.io/product/snyk-code/",
+      "title": "Snyk",
+      "url": "https://snyk.io",
       "owner": "Snyk Limited",
-      "license": "Commercial",
-      "platforms": "SaaS",
-      "note": null,
+      "license": "Free or Commercial",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "Find, learn and fix vulnerabilities in open source dependencies, in your application code, in container images or insecure configurations in Terraform and Kubernetes.",
       "type": "SAST"
    },
    {
