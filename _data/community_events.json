@@ -130,16 +130,6 @@
         "description": "<p>Meetings of the Kansas City chapter of the Open Web Application Security Project are held at 6:00pm on the fourth MONDAY of each month, usually at the Kauffman Foundation Conference Center at 4801 Rockhill Rd, Kansas City, MO. Attendance is open to everyone - membership is not required (though we invite you to join the global OWASP organization and list our chapter as your home chapter)! RSVPs are not required - we don't track membership - but it's definitely helpful for planning!</p> <p>Watch this space for more specific meeting details closer to the meeting date!</p> "
     },
     {
-        "group": "Karachi",
-        "repo": "www-chapter-karachi",
-        "name": "Exploiting Cloud Storage - By Saad Ahmed",
-        "date": "2021-11-02",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Karachi-Chapter/events/281667583/",
-        "timezone": "Asia/Karachi",
-        "description": "<p>Cloud storage is based on a virtualized storage model that stores any type data in the cloud. This talk would be focusing on Exploiting Cloud Storage.</p> <p>About the Speaker<br/>Saad Ahmed who is a CXO in Security Foster (<a href=\"https://www.linkedin.com/in/XSaadAhmedX/\" class=\"linkified\">https://www.linkedin.com/in/XSaadAhmedX/</a>)</p> <p>He is having 7 years of experience in bypassing Firewall and Exploiting security vulnerabilities and he is an author of \"itsOver\" tool (<a href=\"https://github.com/SaadAhmedx/Subdomain-Takeover\" class=\"linkified\">https://github.com/SaadAhmedx/Subdomain-Takeover</a>) for checking subdomain takeover vulnerability.</p> "
-    },
-    {
         "group": "Leeds Uk",
         "repo": "www-chapter-leeds-uk",
         "name": "November OWASP meet ",
@@ -230,6 +220,16 @@
         "description": "<p>Monthly OWASP meeting</p> "
     },
     {
+        "group": "Santa Barbara",
+        "repo": "www-chapter-santa-barbara",
+        "name": "Architecting for Security in the Cloud",
+        "date": "2021-11-11",
+        "time": "18:00",
+        "link": "https://www.meetup.com/Santa-Barbara-OWASP-Chapter/events/281822274/",
+        "timezone": "US/Pacific",
+        "description": "<p>NOTE: You need to RSVP in order to get the link the day of the event.</p> <p>### Event Agenda (PST timezone) ###<br/>06:00 pm -- Event Kickoff &amp; Announcements, by Walter Mart\u00edn Villalba, OWASP SB Leader -- <a href=\"https://twitter.com/act1vand0\" class=\"linkified\">https://twitter.com/act1vand0</a><br/>06:10 pm -- Presentation: Architecting for Security in the Cloud, by Josh Sokol, CEO of SimpleRisk -- <a href=\"https://twitter.com/joshsokol\" class=\"linkified\">https://twitter.com/joshsokol</a><br/>06:50 pm -- Networking / Closing Remarks</p> <p>### Abstract ###<br/>The best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.</p> <p>### Speaker Bio ###<br/>Josh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors.</p> "
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -290,16 +290,6 @@
         "description": "<p>LIGHTNING TALK<br/>------------------------</p> <p>OWASP Threat Dragon, A modern threat modeling tool, done right.</p> <p>Summary:</p> <p>OWASP Threat Dragon is a threat modeling tool used to create threat model diagrams as part of a secure development lifecycle. Come to this talk for a brief overview of the project, how it works, and how you can contribute!</p> <p>Presenter:</p> <p>I am Matthew McCarty, an application security engineer currently working for Coinsquare in Toronto. I am passionate about security and ensuring users of all kinds can safely and securely use the applications they want without worry! (a little cheesy I know)</p> <p>TALK<br/>-------</p> <p>Failure to Report</p> <p>Summary:</p> <p>Andrew has worked in infosec long enough to have seen and written many good and bad reports, and there's a few trends that are slowly driving him insane. Andrew hopes that his screaming in his talk, \"Failure to Report: A Semi-Structured Rant on What's Wrong with Vulnerability Assessment Reporting\" will help banish some bad practices to the land of wind and ghosts, never to be seen again. Or at least it will make him feel better.</p> <p>Presenter:</p> <p>Andrew Turnsek is a Senior Security Consultant at Security Compass and has been primarily working in penetration testing and vulnerability assessment since 2013, with brief stops in threat intelligence, security architecture review, and as a \"BS Detector\" for auditing teams. He can be found at security conferences and hockey games, usually wearing a Marlies hat.</p> "
     },
     {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "Detectify x OWASP Toronto - Pre-SecTor virtual meetup",
-        "date": "2021-11-02",
-        "time": "17:00",
-        "link": "https://www.meetup.com/OWASP-Toronto/events/281660781/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>** YOU NEED TO REGISTER VIA EVENTBRITE HERE - <a href=\"https://www.eventbrite.com/e/pre-sector-meetup-tickets-196349385297\" class=\"linkified\">https://www.eventbrite.com/e/pre-sector-meetup-tickets-196349385297</a> **</p> <p>Welcome to a Pre-SecTor Meetup on the Gather Town platform by Detectify and the OWASP Toronto Chapter!</p> <p>Join us for an evening of lightening talks and mingling. We will have 3 amazing speakers talking about how the security landscape is changing and how as a researcher you can stay ahead.</p> <p>AGENDA:</p> <p>5 PM - login to the platform</p> <p>5:30 PM - Introduction</p> <p>5:35 PM - Talk by Adam Greenhill - Discussing latest OWASP Top 10 updates</p> <p>5:50 PM - Talk by Alissa Knight (@alissaknight) - TBA</p> <p>6:05 PM - Talk by Jasmin Landry (@JR0ch17) - EASM and external attack surface from hackers perspective</p> <p>6:20 PM - Q&amp;A and virtual mingle</p> <p>SPEAKERS AND TALKS:</p> <p>ADAM GREENHILL is a chapter co-lead at OWASP Toronto. He will be discussing the recent updates to the new OWASP Top 10 2021.</p> <p>ALISSA KNIGHT (@alissaknight) - A recovering hacker of over 20-years, Alissa Knight is one of the hottest hacker influencers on the scene today that specializes in hacking connected devices. Her recent research includes hacking law enforcement cars, healthcare apps and banking apps. She's a frequent keynote speaker and you can catch more from her on Youtube with her channel KnightInk.</p> <p>JASMIN LANDRY (@JR0ch17) is currently in charge of IT &amp; Security at Metrio and does bug bounty as a hobby in his free time. He is currently ranked 23rd all-time on Detectify's Leaderboard.</p> <p>YUK FAI CHAN is a chapter co-lead at OWASP Toronto and will be a moderator for this event.</p> <p>Make sure to invite your friends and fellow security professionals!</p> <p>PRACTICAL INFORMATION:</p> <p>The event is FREE for anyone to attend.</p> <p>You must register on Eventbrite with an email address to be added to our Gather Town guest list. You can register using any email address.</p> <p>Our Gather Town link will be sent to you upon completing the registration.</p> <p>Space is limited! Once you are registered, make sure you arrive early to claim your spot.</p> <p>Time: Talks start at 5:30 PM, Q&amp;A from 6:20 PM.</p> <p>** YOU NEED TO REGISTER VIA EVENTBRITE HERE - <a href=\"https://www.eventbrite.com/e/pre-sector-meetup-tickets-196349385297\" class=\"linkified\">https://www.eventbrite.com/e/pre-sector-meetup-tickets-196349385297</a> **</p> "
-    },
-    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Speaker TBA - Contact us if interested",
@@ -318,6 +308,16 @@
         "link": "https://www.meetup.com/OWASP-Victoria-Chapter/events/281402288/",
         "timezone": "Canada/Pacific",
         "description": "<p>The OWASP Victoria chapter is proud to present our next quarterly event. Jeevan Singh will be delivering a talk with an accompanying workshop on Threat Modelling 101.</p> <p>The event will be held on November 23 from 5:30 pm to 8:00 pm PT.</p> <p>This event will feature Jeevan\u2019s talk followed by a Q&amp;A, workshop, and a draw for a prize (must be a registered member and reside in Canada). Join us for an evening of threat modelling!</p> <p>Visit our OWASP Chapter to learn more about us at:<br/><a href=\"https://owasp.org/www-chapter-victoria/\" class=\"linkified\">https://owasp.org/www-chapter-victoria/</a></p> <p>Speaker: Jeevan Singh<br/>Presentation: Talk, Q&amp;A, and accompanying workshop</p> <p>Event Details:</p> <p>Threat Modelling is a great way to discover and remediate threats in your system before they are even created. Security professionals commonly perform it, but anyone can do threat modelling. This hands-on workshop will cover the threat modelling workflow, common classes of vulnerabilities, and hands-on examples that will have *you* discover threats in different systems. Threat Modelling is an integral part of every company\u2019s Security Development Lifecycle. Still, as development teams grow more prominent, security will have to choose which features they want to Threat Model, or they will become a bottleneck for the development organization.</p> <p>Speaker Biography:</p> <p>Jeevan Singh is an Application Security Engineering Manager for Twilio Segment (<a href=\"https://segment.com\" class=\"linkified\">https://segment.com</a>), where he is embedding security into all aspects of the software development process. Jeevan enjoys building a security culture within organizations and educating staff on security best practices. Jeevan is responsible for a wide variety of tasks, including architecting security solutions, working with development teams to resolve security vulnerabilities, and building out security features. Before life in the security space, Jeevan had a wide variety of development and leadership roles over the past 15 years.</p> "
+    },
+    {
+        "group": "Vina Del Mar",
+        "repo": "www-chapter-vina-del-mar",
+        "name": "Owasp Vi\u00f1a del mar-tercer Evento 2021",
+        "date": "2021-11-13",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Vina-del-Mar-Chapter/events/281817631/",
+        "timezone": "America/Santiago",
+        "description": "<p>Owasp vi\u00f1a del mar tiene el agrado de anunciar un nuevo evento gratuito el d\u00eda s\u00e1bado 13</p> "
     },
     {
         "group": "Zhytomyr",
