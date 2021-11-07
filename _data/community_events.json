@@ -32,6 +32,16 @@
     {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
+        "name": "TBC",
+        "date": "2021-12-08",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Bristol/events/281869377/",
+        "timezone": "Europe/London",
+        "description": "<p>We are looking to publish on @YouTube the recordings of our meetups. If you would like to be notified when we a new video is published, please feel free to subscribe on our channel at:<br/><a href=\"https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ\" class=\"embedded\">https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ</a></p> "
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
         "name": "OWASP CTF 2021 (Virtual event)",
         "date": "2021-11-18",
         "time": "18:00",
@@ -313,6 +323,16 @@
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
+        "date": "2021-12-08",
+        "time": "12:00",
+        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/pfhhqsyccqblb/",
+        "timezone": "US/Pacific",
+        "description": "<p>At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.</p> <p>Suggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.</p> <p>Slack @ #chapter-seattle (<a href=\"https://bit.ly/owasp-seattle-slack\" class=\"linkified\">https://bit.ly/owasp-seattle-slack</a>)</p> <p>seattle-chapter@owasp.org (<a href=\"https://groups.google.com/a/owasp.org/g/seattle-chapter\" class=\"linkified\">https://groups.google.com/a/owasp.org/g/seattle-chapter</a>)</p> "
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
         "date": "2021-11-10",
         "time": "12:00",
         "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/pfhhqsyccpbnb/",
@@ -437,7 +457,7 @@
         "time": "19:00",
         "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/281752553/",
         "timezone": "Canada/Eastern",
-        "description": "<p>In this question and answer/panel-style session, \u201cAlex\u201d -- Australia\u2019s only hacker will answer your questions and muse about how everyone's out here being like \"yes this is secure\" or \"oh no, no it isn't\", but how do we actually know? We don't, really.</p> <p>Alex will also share their thoughts about the one thing they do know: The scientific method is the only good thing we have. So, using cutting-edge 1500s techniques, we can do what 1400s scientists only dreamed of: test out what would actually happen if someone were to try and hack us.</p> <p>Make sure you join us LIVE to get a chance to win a Burp Suite Professional subscription</p> <p>\"ALEX\"</p> <p>Alex works on the Red Team at Atlassian, in which they do crimes, and then write very, very detailed confession letters. You can follow Alex on Twitter (<a href=\"https://twitter.com/mangopdf\" class=\"linkified\">https://twitter.com/mangopdf</a>).</p> "
+        "description": "<p>In this question and answer/panel-style session, \u201cAlex\u201d -- Australia\u2019s only hacker will answer your questions and muse about how everyone's out here being like \"yes this is secure\" or \"oh no, no it isn't\", but how do we actually know? We don't, really.</p> <p>Alex will also share their thoughts about the one thing they do know: The scientific method is the only good thing we have. So, using cutting-edge 1500s techniques, we can do what 1400s scientists only dreamed of: test out what would actually happen if someone were to try and hack us.</p> <p>Make sure you join us LIVE to get a chance to win a Burp Suite Professional subscription</p> <p>\"ALEX\"</p> <p>Alex works on the Red Team at Atlassian, in which they do crimes, and then write very, very detailed confession letters. You can follow Alex on Twitter (<a href=\"https://twitter.com/mangopdf\" class=\"linkified\">https://twitter.com/mangopdf</a>).</p> <p> Connect with Us  <br/>YOUTUBE  <a href=\"https://www.youtube.com/c/OWASPDevSlop/\" class=\"embedded\">https://www.youtube.com/c/OWASPDevSlop/</a>\u200b<br/>INSTAGRAM  <a href=\"https://www.instagram.com/owaspdevslop/\" class=\"linkified\">https://www.instagram.com/owaspdevslop/</a>\u200b<br/>TWITTER  <a href=\"https://twitter.com/Owasp_DevSlop\" class=\"linkified\">https://twitter.com/Owasp_DevSlop</a>\u200b<br/>LINKEDIN  <a href=\"https://www.linkedin.com/company/owasp-devslop/\" class=\"linkified\">https://www.linkedin.com/company/owasp-devslop/</a></p> "
     },
     {
         "group": "Devslop",
@@ -447,7 +467,7 @@
         "time": "13:00",
         "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280156356/",
         "timezone": "Canada/Eastern",
-        "description": "<p>If you're like us, you've heard about OAuth 2.0 and OpenID Connect, but have a lot of unanswered questions. What's the big deal, anyway? Why do we need yet another set of standards for authentication on the web?</p> <p>In this episode, Nate Barbettini breaks down the rationale behind OAuth and OpenID Connect in plain language and explains when and how you should use them.</p> <p>If you've ever felt confused about these terms and standards, join us!</p> <p>NATE BARBETTINI</p> <p>Nate Barbettini (@nbarbettini) is the CTO and co-founder of Cobbler, where he leads a team building financial analysis software for enterprise businesses. Previously, he was a Product Manager at Okta focused on making security and authentication easier for developers. He is a former Microsoft MVP and the author of the free Little ASP.NET Core Book (<a href=\"http://littleasp.net/book\" class=\"linkified\">http://littleasp.net/book</a>).</p> "
+        "description": "<p>If you're like us, you've heard about OAuth 2.0 and OpenID Connect, but have a lot of unanswered questions. What's the big deal, anyway? Why do we need yet another set of standards for authentication on the web?</p> <p>In this episode, Nate Barbettini breaks down the rationale behind OAuth and OpenID Connect in plain language and explains when and how you should use them.</p> <p>If you've ever felt confused about these terms and standards, join us!</p> <p>NATE BARBETTINI</p> <p>Nate Barbettini (@nbarbettini) is the CTO and co-founder of Cobbler, where he leads a team building financial analysis software for enterprise businesses. Previously, he was a Product Manager at Okta focused on making security and authentication easier for developers. He is a former Microsoft MVP and the author of the free Little ASP.NET Core Book (<a href=\"http://littleasp.net/book\" class=\"linkified\">http://littleasp.net/book</a>).</p> <p> Connect with Us  <br/>YOUTUBE  <a href=\"https://www.youtube.com/c/OWASPDevSlop/\" class=\"embedded\">https://www.youtube.com/c/OWASPDevSlop/</a>\u200b<br/>INSTAGRAM  <a href=\"https://www.instagram.com/owaspdevslop/\" class=\"linkified\">https://www.instagram.com/owaspdevslop/</a>\u200b<br/>TWITTER  <a href=\"https://twitter.com/Owasp_DevSlop\" class=\"linkified\">https://twitter.com/Owasp_DevSlop</a>\u200b<br/>LINKEDIN  <a href=\"https://www.linkedin.com/company/owasp-devslop/\" class=\"linkified\">https://www.linkedin.com/company/owasp-devslop/</a></p> "
     },
     {
         "group": "Devslop",
@@ -457,6 +477,6 @@
         "time": "10:00",
         "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280310972/",
         "timezone": "Canada/Eastern",
-        "description": "<p>Make sure you join us LIVE to get a chance to win a <a href=\"https://kodekloud.com/\" class=\"linkified\">https://kodekloud.com/</a> subscription</p> <p>Through the past few years, Docker has been synonymous with containerized software. Containers help us to automate our development lifecycle, and businesses across industries are increasingly moving towards this modern way of deploying and managing software.</p> <p>If you are using CI/CD pipelines, you have likely come across containers as part of these pipelines. While there are several different tools that help us build containers, Docker has remained the most popular.</p> <p>But what happens when we have to deal with thousands of containers at a time? This is where container orchestration tools such as Kubernetes come in.</p> <p>In this session, Ana\u00efs will provide an overview of Kubernetes, how it changes our processes around deploying software, its benefits, and how you can get started.</p> <p>ANAIS URLICHS</p> <p>Ana\u00efs is a Site Reliability Engineer at Civo, a cloud computing company based on Kubernetes. When she is not advocating DevOps best practices, she runs her own YouTube Channel centered around cloud-native technologies. Before transitioning to the cloud-native ecosystem, Ana\u00efs helped blockchain projects scale and find adoption. As a CNCF ambassador, her passion lies in making tools and platforms more accessible to developers and community members.</p> <p>Make sure you join us LIVE to get a chance to win a <a href=\"https://kodekloud.com/\" class=\"linkified\">https://kodekloud.com/</a> subscription</p> "
+        "description": "<p>Make sure you join us LIVE to get a chance to win a <a href=\"https://kodekloud.com/\" class=\"linkified\">https://kodekloud.com/</a> subscription</p> <p>Through the past few years, Docker has been synonymous with containerized software. Containers help us to automate our development lifecycle, and businesses across industries are increasingly moving towards this modern way of deploying and managing software.</p> <p>If you are using CI/CD pipelines, you have likely come across containers as part of these pipelines. While there are several different tools that help us build containers, Docker has remained the most popular.</p> <p>But what happens when we have to deal with thousands of containers at a time? This is where container orchestration tools such as Kubernetes come in.</p> <p>In this session, Ana\u00efs will provide an overview of Kubernetes, how it changes our processes around deploying software, its benefits, and how you can get started.</p> <p>ANAIS URLICHS</p> <p>Ana\u00efs is a Site Reliability Engineer at Civo, a cloud computing company based on Kubernetes. When she is not advocating DevOps best practices, she runs her own YouTube Channel centered around cloud-native technologies. Before transitioning to the cloud-native ecosystem, Ana\u00efs helped blockchain projects scale and find adoption. As a CNCF ambassador, her passion lies in making tools and platforms more accessible to developers and community members.</p> <p>Make sure you join us LIVE to get a chance to win a <a href=\"https://kodekloud.com/\" class=\"linkified\">https://kodekloud.com/</a> subscription</p> <p> Connect with Us  <br/>YOUTUBE  <a href=\"https://www.youtube.com/c/OWASPDevSlop/\" class=\"embedded\">https://www.youtube.com/c/OWASPDevSlop/</a>\u200b<br/>INSTAGRAM  <a href=\"https://www.instagram.com/owaspdevslop/\" class=\"linkified\">https://www.instagram.com/owaspdevslop/</a>\u200b<br/>TWITTER  <a href=\"https://twitter.com/Owasp_DevSlop\" class=\"linkified\">https://twitter.com/Owasp_DevSlop</a>\u200b<br/>LINKEDIN  <a href=\"https://www.linkedin.com/company/owasp-devslop/\" class=\"linkified\">https://www.linkedin.com/company/owasp-devslop/</a></p> "
     }
 ]
