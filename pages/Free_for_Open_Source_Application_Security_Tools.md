@@ -56,11 +56,12 @@ list of those that are "Open Source or Free Tools Of This Type". Any
 such tools could certainly be used. One such cloud service that looks
 promising is:
 
-  - [LGTM.com](https://lgtm.com/help/lgtm/about-lgtm) - A free for open
-    source static analysis service that automatically monitors commits
-    to publicly accessible code in: Bitbucket Cloud, GitHub, or GitLab.
-    Supports C/C++, C\#, COBOL (in beta), Java, JavaScript/TypeScript,
-    Python
+  - [GitHub code scanning](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning) - A free for open
+    source static analysis service that uses [GitHub Actions](https://docs.github.com/en/actions) and [CodeQL](https://codeql.github.com/)
+    to scan public repositories on GitHub.
+    Supports C/C++, C\#, Ruby (beta), Java, JavaScript/TypeScript,
+    Python, and Go (see [here](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/) for more information)
+    - If you do not want to use GitHub Actions, you may use the [CodeQL CLI](https://github.com/github/codeql-cli-binaries); however, be sure to read the license terms in full
     
 In addition, we are aware of the following commercial SAST tools that
 are free for Open Source projects:
