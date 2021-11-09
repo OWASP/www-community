@@ -61,7 +61,7 @@ promising is:
     to scan public repositories on GitHub.
     Supports C/C++, C\#, Ruby (beta), Java, JavaScript/TypeScript,
     Python, and Go (see [here](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/) for more information)
-    - If you do not want to use GitHub Actions, you may use the [CodeQL CLI](https://github.com/github/codeql-cli-binaries); however, be sure to read the license terms in full
+    - If you do not want to use GitHub Actions, you may use the [CodeQL CLI](https://github.com/github/codeql-cli-binaries); however, be sure to read the license terms in full.
     
 In addition, we are aware of the following commercial SAST tools that
 are free for Open Source projects:
