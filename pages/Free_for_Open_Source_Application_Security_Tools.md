@@ -62,6 +62,8 @@ promising is:
     Supports C/C++, C\#, Ruby (beta), Java, JavaScript/TypeScript,
     Python, and Go (see [here](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/) for more information)
     - If you do not want to use GitHub Actions, you may use the [CodeQL CLI](https://github.com/github/codeql-cli-binaries); however, be sure to read the license terms in full.
+    - By default, CodeQL only looks for high fidelity security related results (well known true positives), so your results may look different from LGTM.
+    - To achieve the same or similar results provided by LGTM, try enabling the `security-and-quality` query suite within the [CodeQL query pack](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs).
     
 In addition, we are aware of the following commercial SAST tools that
 are free for Open Source projects:
