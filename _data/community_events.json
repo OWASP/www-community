@@ -1,5 +1,15 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - November",
+        "date": "2021-11-23",
+        "time": "19:00",
+        "link": "https://www.meetup.com/OWASP-Aarhus-Chapter/events/281947916/",
+        "timezone": "Europe/Copenhagen",
+        "description": "<p>OWASP Aarhus, Denmark is always greatly honored to welcome both experienced presenters as well as new ones! But they do not get more experienced than these two!</p> <p>In my career path in IT security a handful of people stands out as having had the biggest influence and impact. Two of these are Richard Campbell (<a href=\"https://www.linkedin.com/in/richjcampbell/\" class=\"linkified\">https://www.linkedin.com/in/richjcampbell/</a>) and Paula Januszkiewicz (<a href=\"https://www.linkedin.com/in/paulajanuszkiewicz/\" class=\"linkified\">https://www.linkedin.com/in/paulajanuszkiewicz/</a>) and it is therefore a bit of a dream come true that we got them to speak at our meetup \u2013 And at the same meetup!</p> <p>Richard is probably best known from RunAsRadio (<a href=\"https://runasradio.com\" class=\"linkified\">https://runasradio.com</a>) and DotNetRocks (<a href=\"https://www.dotnetrocks.com/\" class=\"linkified\">https://www.dotnetrocks.com/</a>) and there have been days in my career where I have found myself talking more back at his podcast then I have talked with my wife that day!</p> <p>Paula is the founder and CEO of CQURE and has been giving presentations on security longer than I can remember. I try to listen/watch as many of them as possible because I always learn something and I am always entertained when she talks! And as she writes on her CV \u201cShe has access to the source code of Windows\u201d</p> <p>Mark this time and come join us!</p> <p>This event is purely virtual but feel free to meetup in groups and it will be updated with more information about the presentations later. It will be held in English</p> <p>The meetup will not be recorded.</p> <p>I will update this page with more information very shortly!</p> "
+    },
+    {
         "group": "Bellingham",
         "repo": "www-chapter-bellingham",
         "name": "Virtual OWASP Bellingham first meeting",
@@ -60,6 +70,16 @@
         "description": "<p>OWASP Dorset Chapter is proud to present our CTF event for 2021 in collaboration with OWASP Diversity and Inclusion Committee and many OWASP UK Chapters (including; Bristol, Cambridge, London, Newcastle, Reading, Suffolk).</p> <p>The CTF will be hosted by Security Innovation and be instructor lead. It combines with Security Innovation's CMD+Ctrl Bootcamp and they are extending an offer to all participants for 4-weeks FREE access to the self-paced training courses.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>Event registration link will be shared nearer to the time</p> "
     },
     {
+        "group": "Canberra",
+        "repo": "www-chapter-canberra",
+        "name": "Avoid IaC misconfigurations across the different platforms",
+        "date": "2021-11-17",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Canberra-Chapter/events/281946376/",
+        "timezone": "Australia/Canberra",
+        "description": "<p>Infrastructure as Code (IaC)\u202fmakes deploying cloud or container configurations scalable and faster. If you are launching a microservice into a Kubernetes cluster, or even building an entire AWS virtual infrastructure, IaC can automate the deployment. By building repeatable templates you can also ensure that deployments happen exactly as you design, every time. However, errors in infrastructure configuration are now regarded as the second biggest cause of data breaches. There are many ways to give adversaries an advantage through security misconfigurations. Overly permissive storage volumes, unauthenticated database access, or ports left open to the internet have all been a cause of compromise. The solution? Treat your infrastructure code the same as your application code. During your build process, use tools to scan for infrastructure misconfigurations. When you find them raise alerts or even break the build.\u202f</p> <p>In this session, we will discuss common types of IaC misconfigurations, and demonstrate a free, open-source security tool that developers can build into their pipelines to help protect infrastructure from compromise.</p> <p>About Speaker - Ori Bendet<br/>An experienced product leader combining strong technical and marketing skills, Ori has been leading Checkmarx's flagship product, CxSAST (Static Application Security Testing), a Gartner and Forrester market-leading solution, serving thousands of customers worldwide for the last 2 years. Prior to Checkmarx, he was in Time To Know, HPE, PicApp and Bezeq in various product and engineering positions.</p> <p>Please join us for this great session with Ori Bendet,<br/>Regards<br/>Akshay Gupta, OWASP Leader , Canberra Chapter<br/>Toby Amodio, OWASP Leader, Canberra Chapter</p> "
+    },
+    {
         "group": "Czech Republic",
         "repo": "www-chapter-czech-republic",
         "name": "OWASP Czech Chapter Meeting",
@@ -90,14 +110,14 @@
         "description": "<p>OWASP Dorset Chapter is proud to present our CTF event for 2021 in collaboration with OWASP Diversity and Inclusion Committee and many OWASP UK Chapters (including; Bristol, Cambridge, London, Newcastle, Reading, Suffolk).</p> <p>The CTF will be hosted by Security Innovation and be instructor lead. It combines with Security Innovation's CMD+Ctrl Bootcamp and they are extending an offer to all participants for 4-weeks FREE access to the self-paced training courses.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>Event registration link will be shared nearer to the time</p> "
     },
     {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Novembre 2021",
-        "date": "2021-11-08",
+        "group": "Erode",
+        "repo": "www-chapter-erode",
+        "name": "JVM Reverse Engineering Introduction ",
+        "date": "2021-11-27",
         "time": "19:00",
-        "link": "https://www.meetup.com/owasp-france/events/281564797/",
-        "timezone": "Europe/Paris",
-        "description": "<p>Vous l'attendiez? Et bien voici le meetup de la rentr\u00e9e 2021 de l'OWASP France \u00e0 Paris!<br/>Un peu en retard... Mais avec une surprise!<br/>Le prochain meetup aura lieu en physique.<br/>Nous serons accueilli par notre sponsor Total Energies que nous remer\u00e7ions de leur soutien.</p> <p>Face \u00e0 la situation sanitaire et aux conditions d'acc\u00e8s aux locaux, plusieurs conditions sont pr\u00e9sentes:<br/>- Le meetup est limit\u00e9 \u00e0 20 personnes. Si vous avez un empechement, nous vous remer\u00e7ions de bien vouloir lib\u00e9rer votre place au plus t\u00f4t pour qu'une autre personne en profite<br/>- Un passe sanitaire valable et une pi\u00e8ce d'identit\u00e9 vous seront demand\u00e9s pour acc\u00e9der \u00e0 ce meetup<br/>- Un wifi est pr\u00e9sent. Vous pourrez vous y connecter gr\u00e2ce \u00e0 l'adresse email utilis\u00e9e pour Meetup. Les comptes seront cr\u00e9\u00e9s en avance. L'inscription se terminera donc le mercredi 3 novembre en fin de journee.</p> <p>OWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.<br/>Ce meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!</p> <p>Lightning Talks:<br/>La soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.</p> <p>Workshop:<br/>La soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles</p> <p>Pour rappel, le meetup se veut non commercial.</p> <p>Le format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.</p> <p>L'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: <a href=\"https://owasp.org/www-chapter-france/\" class=\"linkified\">https://owasp.org/www-chapter-france/</a></p> "
+        "link": "https://www.meetup.com/owasp-erode/events/281962663/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>OWASP Erode's November Session on JVM Reverse Engineering. The Session will be conducted online (google meet) Maximum Duration 1 hour. The Entire Session will be on Tamil and the Google Meet link will provided day before the session.</p> "
     },
     {
         "group": "Gothenburg",
@@ -112,12 +132,12 @@
     {
         "group": "Guayaquil",
         "repo": "www-chapter-guayaquil",
-        "name": "Convenio OWASP con Universidad Casa Grande",
-        "date": "2021-11-19",
+        "name": "Convenio OWASP con Universidad Casa Grande (Actualizaci\u00f3n)",
+        "date": "2021-11-26",
         "time": "17:30",
         "link": "https://www.meetup.com/OWASP-Guayaquil-Chapter/events/281873272/",
         "timezone": "America/Guayaquil",
-        "description": "<p>Convenio entre OWASP cap\u00edtulo Guayaquil y la Universidad Casa Grande<br/>Beneficios sobre convenio<br/>Breve charla sobre la maestr\u00eda en Cibersegurdad de la Universidad Casa Grande<br/>Charlas de seguridad web</p> "
+        "description": "<p>Actualizaci\u00f3n Viernes 26 de Noviembre 2021<br/>Convenio entre OWASP cap\u00edtulo Guayaquil y la Universidad Casa Grande<br/>Beneficios sobre convenio<br/>Breve charla sobre la maestr\u00eda en Cibersegurdad de la Universidad Casa Grande<br/>Charlas de seguridad web</p> "
     },
     {
         "group": "Hyderabad",
@@ -128,16 +148,6 @@
         "link": "https://www.meetup.com/hyderabad-owasp-meetup-group/events/281853147/",
         "timezone": "Asia/Calcutta",
         "description": "<p>Hello OWASPIANS ,</p> <p>It's a great pleasure to announce the OWASP Hyderabad Chapter November month meetup</p> <p>The following talks are lined up for the day :</p> <p>1. Threat Modelling - Manish Sharma</p> <p>This session will cover how to perform Threat Modelling and how and what all process or say methodology is present for this process. Will be covering about advantage as well as disadvantages</p> <p>About Manish Sharma: working as Associate Information Security Engineer @ Gainsight who has demonstrated history of working in the Information Security industry. Skilled in Network Vulnerability Assessment and Penetration Testing, Python (Programming Language), Application Security (Web, API, Mobile as well as Thick Client), Secure Code Review, Threat Modelling, Linux and Shell Scripting. Strong consulting professional with a BTech focused in Electronics and Communication</p> <p>2. All you ever wanted to know about Deserialization - Mr.Aqeel aka Ciph3r00t</p> <p>About Mr.Aqeel: Passionate Information Security Engineer with 10 + years of professional experience and currently leading security team @ Servicenow</p> <p>He holds OSCP, CISM, CISA to name few with masters degree in computer science and Engineering.</p> <p>He got accolades from Apple, Microsoft, Google, Linkedin, Amazon, SAP, Intel, NASA, SANS Institute and others for reporting Critical Security Vulnerabilities</p> <p>Join Zoom Meeting<br/><a href=\"https://us06web.zoom.us/j/85053811753?pwd=T0FzazF5ajJPUkJSc1d3UXJDYTkxQT09\" class=\"linkified\">https://us06web.zoom.us/j/85053811753?pwd=T0FzazF5ajJPUkJSc1d3UXJDYTkxQT09</a></p> <p>Meeting ID: 850 5381 1753<br/>One tap mobile<br/>+19294362866,,85053811753# US (New York)<br/>+12532158782,,85053811753# US (Tacoma)</p> <p>Dial by your location<br/>+1 929 436 2866 US (New York)<br/>+1 253 215 8782 US (Tacoma)<br/>+1 301 715 8592 US (Washington DC)<br/>+1 312 626 6799 US (Chicago)<br/>+1 346 248 7799 US (Houston)<br/>+1 669 900 6833 US (San Jose)<br/>Meeting ID: 850 5381 1753<br/>Find your local number: <a href=\"https://us06web.zoom.us/u/kkmGepHVh\" class=\"linkified\">https://us06web.zoom.us/u/kkmGepHVh</a></p> "
-    },
-    {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly Online meeting ",
-        "date": "2021-11-08",
-        "time": "18:45",
-        "link": "https://www.meetup.com/OWASP-Jacksonville-Chapter/events/nnccjsyccpblb/",
-        "timezone": "US/Eastern",
-        "description": "<p>The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.</p> "
     },
     {
         "group": "Jakarta",
@@ -190,14 +200,14 @@
         "description": "<p>Come join us as we hear the monthly presentation by Sean Wright Lead Application Security SME at Immersive Labs</p> <p>TOPIC: Open Source Software Supply Chains</p> <p>ABSTRACT: As modern software development evolves; we no longer build things from the ground up. Extensive use is made of open source software such as libraries and frameworks. While this is fantastic from a development point of view (allowing for faster development of applications and features), it does present a potential drawback if not done correctly, an increased risk. Often, we see libraries being used and seldom updated, also we see several libraries being blindly with little to not inspections and reviews. This is gold mine for attackers, there are many ways that they have will continue to use this to their advantage. The purpose of this talk is to cover some of the techniques which attackers could use to exploit open source supply chains. This will include a live demonstration of one such technique which an attacker could used. The talk will then focus on the excellent OWASP Dependency Track tool, showing how this can help reduce the risk to organizations when it comes to dealing with open source packages in software.</p> <p>BIO: Sean Wright is the Lead Application Security SME at Immersive Labs with an origin as a software developer. Primarily focused on web-based application security with a special interest in TLS related subjects. Experienced in providing technical leadership in relation to application security, as well as engaging with teams to improve the security of systems that they develop. Passionate to be a part of the community and giving back to the community. Additionally, enjoy spending personal time performing personal security-related research.</p> <p>Meeting info will be visible to you only if you RSVP for the meeting.</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
     },
     {
-        "group": "Mugla University",
-        "repo": "www-chapter-mugla-university",
-        "name": "OWASP Mugla University Tan\u0131t\u0131m\u0131 & Linux 101 ",
-        "date": "2021-11-08",
-        "time": "17:00",
-        "link": "https://www.meetup.com/owasp-mugla-university-student-chapter/events/281867151/",
-        "timezone": "Europe/Istanbul",
-        "description": "<p>Bu etkinlikte \"OWASP Nedir? OWASP Mugla University Nedir?\" sorular\u0131na yan\u0131t verilecektir. Akabinde Bilgisayar ve Bili\u015fim Toplulu\u011fu &amp; OWASP Mugla University i\u015fbirli\u011finde Linux101 at\u00f6lye \u00e7al\u0131\u015fmas\u0131 yap\u0131lacakt\u0131r.</p> "
+        "group": "Nashville",
+        "repo": "www-chapter-nashville",
+        "name": "AWS ID Prefixes: What AWS Doesn't Cover is What You Need to Know",
+        "date": "2021-11-10",
+        "time": "19:30",
+        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/281949599/",
+        "timezone": "US/Central",
+        "description": "<p>In this talk, we will showcase AWS Prefixes and go over those prefixes what they mean, how you can get them. Some resource types like S3 for example allow for the use of a unique ID rather than the full principal ARN that many know and understand. We can cover why use of the unique ID is fundamentally a bad idea, and how to handle them should you run into an environment that has them.</p> "
     },
     {
         "group": "New York City",
@@ -268,6 +278,16 @@
         "link": "https://www.meetup.com/owasp-poland/events/281894735/",
         "timezone": "Europe/Warsaw",
         "description": "<p>Serdecznie zapraszam na kolejne spotkanie OWASP, kt\u00f3re odb\u0119dzie si\u0119 18 listopada 2021. Tym razem dzia\u0142amy hybrydowo. Dzi\u0119ki zaproszeniu Goldman Sachs, spotkanie odb\u0119dzie si\u0119 fizycznie w Warszawie w budunku Warsaw Spire. Z uwagi na pandemi\u0119 w spotkaniu b\u0119dzie mog\u0142o wzi\u0105\u0107 udzia\u0142 jedynie 30 os\u00f3b (dodatkowo aby wej\u015b\u0107 na spotkanie b\u0119dzie r\u00f3wnie\u017c wymagane okazanie certyfikatu potwierdzaj\u0105cego przyj\u0119cie dw\u00f3ch dawek szczepienia oraz okazanie dokumentu potwierdzaj\u0105cego to\u017csamo\u015b\u0107). Dlatego r\u00f3wnolegle b\u0119dzie realizowana transmisja on-line bez limit\u00f3w miejsc (link do spotkania Zoom zostanie opublikowany przed spotkaniem).</p> <p>Z uwagi na ograniczon\u0105 liczb\u0119 miejsc ogromna pro\u015bba o rejestrowanie si\u0119 przy 100% pewno\u015bci mo\u017cliwo\u015bci wzi\u0119cia udzia\u0142u w spotkaniu, tak by nie blokowa\u0107 miejsc. R\u00f3wnie\u017c je\u015bli po rejestracji oka\u017ce si\u0119, \u017ce przybycie nie b\u0119dzie mo\u017cliwe, bardzo prosz\u0119 o wyrejestrowanie si\u0119, by mog\u0142y skorzysta\u0107 osoby z listy rezerwowej.</p> <p>Agenda spotkania:</p> <p>18:00 \u2013 18:05 \u2013 Powitanie i otwarcie spotkania, Daniel Krasnokucki</p> <p>18:05 \u2013 18:50 \u2013 \"Discovery and exploitation of CSRF to RCE in CloverDX Server - CVE-2021-29995\", Patryk Bogusz</p> <p>Prezentacja opisywa\u0107 b\u0119dzie proces znalezienia i wykorzystania podatno\u015bci CSRF w CloverDX Serverze, kt\u00f3ra ostatecznie prowadzi do zdalnego wykonania kodu na serwerze. W trakcie prezentacji przejd\u0119 od podstaw, czyli opisu czym jest CSRF, poprzez crackowanie generatora liczb pseudolosowych, a\u017c do samej exploitacji CSRF prowadz\u0105cej do zdalnego wykonania kodu.</p> <p>Patryk Bogusz - Pentester w Goldman Sachs, na codzie\u0144 zajmuje sie testowaniem bezpieczenstwa aplikacji i infrastruktury chmurowej. W wolnym czasie amatorsko trenuje boks tajski w Sparta Gym Warszawa.</p> <p>18:50 \u2013 19:35 \u2013 \"Feedback loop in DevSecOps - mature security process and dev cooperation\", Daniel Krasnokucki</p> <p>Having Security testing in the pipeline is getting more and more popular, I would say it is becoming a standard! But what we are doing with findings? What are we automating and how are using the automation?</p> <p>The presentation will cover security-as-a-code practices to integrate security testing into the CI and CD pipelines, but in addition - I will discuss the part of the testing that cannot be automated, which is penetration testing. How do you connect it with your automation testing and what is the role of penetration testing in monitoring? I will show how it affects next round of the process and what the process should look like.</p> <p>During the presentation I will discuss real use cases from different pipelines and security tools, showing pros and cons, advantages and challenges. Demo will include GitHub Actions and open-source tools like OWASP ZAP and examples will be provided with pipeline-as-a-code and security-as-a-code. Real life use cases and examples with step-by-step instruction how the development process in mature state of DevSecOps should look like.</p> <p>Daniel Krasnokucki - Security freak, pentester, programmer, and day-to-day also a manager of Product Security team @ Equinix. Leader of OWASP Poland with a strong focus on building security controls and improving different areas in a very techy company. Privately likes board games, football (soccer) and loves skiing!</p> <p>19:35 \u2013 20:00 \u2013 Discussions</p> "
+    },
+    {
+        "group": "Rio De Janeiro",
+        "repo": "www-chapter-rio-de-janeiro",
+        "name": "OWASP RJ - 9\u00ba - Seguran\u00e7a no e-mail",
+        "date": "2021-11-10",
+        "time": "18:30",
+        "link": "https://www.meetup.com/owasp-rio-de-janeiro/events/281947370/",
+        "timezone": "America/Sao_Paulo",
+        "description": "<p>Vamos abordar nesse encontro alguns protocolos de seguran\u00e7a utilizados no transporte de e-mails.<br/>Veja nossa agenda a seguir:</p> <p>1. Warm-up (10min)<br/>2. Seguran\u00e7a no e-mail (25min)<br/>3. Discuss\u00e3o, cases e exemplos (20min)</p> <p>Confira mais sobre o cap\u00edtulo em <a href=\"https://owasp.org/www-chapter-rio-de-janeiro/\" class=\"linkified\">https://owasp.org/www-chapter-rio-de-janeiro/</a>.</p> "
     },
     {
         "group": "Saint Louis",
@@ -357,7 +377,7 @@
         "time": "19:30",
         "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/281710523/",
         "timezone": "Asia/Singapore",
-        "description": "<p>In this meetup, we will explore some tools and understand guidelines that can secure popular software packages and dependencies such as NPM, PyPI, Maven, NuGet, Crates and RubyGems.</p> <p>We will also learn how Gitops play a critical role in \"shifting left\" and learn how to set up guardrails, not roadblocks, to help developers. We will also look at how fuzzing can be incorporated into DevSecOps.</p> <p>Finally we will learn the importance of having Cloud Infrastructure Entitlements Management (CIEM) to enforce permissions and security identities across workloads and clouds. Demo will be included in this meetup.</p> <p>Speaker: Nathan Aw<br/>With over 9 years of experience as a software developer and application (security) architect, Nathan Aw is a firm believer-practitioner of zero trust and advocate of secure coding practices. His passion is in designing, building and rolling out asynchronous, polyglot-based microservices that are both zero-trust, performant which can securely run anywhere (multi-cloud and/or on-premise) that scale without limits.</p> <p>Through hands-on setup of a Secure Software Factory (SSF), he understand the importance of setting up a first-class secure software factory that is able to industralise \u201cshift left\u201d practises that translates to quicker delivery of trusted and secure digital services to its customers.</p> <p>Other interests include emerging technology frameworks such as WebAssembly and frontier technologies like quantum computing.</p> <p>More on Nathan Aw at <a href=\"https://nathanawmk.github.io/\" class=\"linkified\">https://nathanawmk.github.io/</a> and <a href=\"https://sg.linkedin.com/in/awnathan\" class=\"linkified\">https://sg.linkedin.com/in/awnathan</a></p> "
+        "description": "<p>In this meetup, we will explore some tools and understand guidelines that can secure popular software packages and dependencies such as NPM, PyPI, Maven, NuGet, Crates and RubyGems.</p> <p>We will also learn how Gitops play a critical role in \"shifting left\" and learn how to set up guardrails, not roadblocks, to help developers. We will also look at how fuzzing can be incorporated into DevSecOps.</p> <p>Finally we will learn the importance of having Cloud Infrastructure Entitlements Management (CIEM) to enforce permissions and security identities across workloads and clouds. Demo will be included in this meetup.</p> <p>Speaker: Nathan Aw<br/>With over 9 years of experience as a software developer and application (security) architect, Nathan Aw is a firm believer-practitioner of zero trust and advocate of secure coding practices. His passion is in designing, building and rolling out asynchronous, polyglot-based microservices that are both zero-trust, performant which can securely run anywhere (multi-cloud and/or on-premise) that scale without limits.</p> <p>Through hands-on setup of a Secure Software Factory (SSF), he understands the importance of setting up a first-class secure software factory that is able to industralise \u201cshift left\u201d practises that translates to quicker delivery of trusted and secure digital services to its customers.</p> <p>Other Nathan's interests include emerging technology frameworks and frontier technologies such as WebAssembly, metaverse, quantum computing, cybersecurity for 5G Cloud Infrastructure and ICS/OT.</p> <p>More on Nathan can be found at <a href=\"https://nathanawmk.github.io/\" class=\"linkified\">https://nathanawmk.github.io/</a> and <a href=\"https://sg.linkedin.com/in/awnathan\" class=\"linkified\">https://sg.linkedin.com/in/awnathan</a></p> "
     },
     {
         "group": "Suffolk",
@@ -378,6 +398,16 @@
         "link": "https://www.meetup.com/OWASPSwitzerland/events/281403322/",
         "timezone": "Europe/Zurich",
         "description": "<p>Hear from a security officer working in the games domain what's different and the same regarding security considerations and security measures.<br/>(Details to follow)</p> "
+    },
+    {
+        "group": "Sydney",
+        "repo": "www-chapter-sydney",
+        "name": "OWASP Sydney - Fun with Hack the Box",
+        "date": "2021-12-09",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-Sydney-Chapter/events/281563593/",
+        "timezone": "Australia/Sydney",
+        "description": "<p>Please join us to play/train in Hack The Box (HTB), what you need is a Hack the Box account, free is cool, join us in discord (link <a href=\"https://discord.com/invite/uAWze2B\" class=\"linkified\">https://discord.com/invite/uAWze2B</a>) - FC-Announcements-Voice Channel, please ensure, after registration in Discord you go to the Bot and accept the Code of Conduct, otherwise, you won't be able to access the channels.</p> <p>There is no format to this night, we just want to get together to have some fun playing some battlegrounds, doing some of the machines or challenges; having fun overall!</p> <p>Please make sure you know the basics about HTB, eg. how to connect to the HTB VPN and that you have a valid account.</p> "
     },
     {
         "group": "Sydney",
@@ -427,7 +457,7 @@
         "time": "18:00",
         "link": "https://www.meetup.com/OWASP-Vina-del-Mar-Chapter/events/281817631/",
         "timezone": "America/Santiago",
-        "description": "<p>Owasp vi\u00f1a del mar tiene el agrado de anunciar un nuevo evento gratuito el d\u00eda s\u00e1bado 13</p> <p>Charlas Corfirmadas:<br/>*Marcelo Burgos<br/>CAPTCHA Defeat y Bypass en Bug Hunting<br/><a href=\"https://www.linkedin.com/in/marceloburgosc/\" class=\"linkified\">https://www.linkedin.com/in/marceloburgosc/</a></p> "
+        "description": "<p>Owasp vi\u00f1a del mar tiene el agrado de anunciar un nuevo evento gratuito el d\u00eda s\u00e1bado 13</p> <p>Charlas Corfirmadas:</p> <p>*Marcelo Burgos<br/>CAPTCHA Defeat y Bypass en Bug Hunting<br/><a href=\"https://www.linkedin.com/in/marceloburgosc/\" class=\"linkified\">https://www.linkedin.com/in/marceloburgosc/</a></p> <p>*Gustavo Nieves<br/>Controles y desarrollo seguro en Smart Contrat para Block Chains(transacciones electronicas) (Investigaci\u00f3n que lidera en la CSA, de como hacer desarrollo seguro en Smart Contract)</p> "
     },
     {
         "group": "Zhytomyr",
@@ -450,6 +480,16 @@
         "description": "<p>This talk will discuss about Cloud Security. What are the security services provided by CSPs. How we can manage our resources on Cloud.</p> <p>Dr. Abhilasha Vyasr's LinkedIn profile: <a href=\"https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199\" class=\"linkified\">https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199</a></p> "
     },
     {
+        "group": "Wia",
+        "repo": "www-committee-wia",
+        "name": "CTF 2021 - online",
+        "date": "2021-11-18",
+        "time": "13:00",
+        "link": "https://www.meetup.com/womeninappsec/events/281922373/",
+        "timezone": "US/Eastern",
+        "description": "<p>The OWASP Diversity and Inclusion Committee is proud to present our CTF event for 2021 in collaboration with many OWASP UK Chapters (including; Dorset, Bristol, Cambridge, London, Newcastle, Reading, Suffolk).</p> <p>The CTF will be hosted by Security Innovation and be instructor lead. It combines with Security Innovation's CMD+Ctrl Bootcamp and they are extending an offer to all participants for 4-weeks FREE access to the self-paced training courses.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>Event registration link will be shared nearer to the time</p> "
+    },
+    {
         "group": "Devslop",
         "repo": "www-project-devslop",
         "name": "Testing your Assumptions with Red Teaming",
@@ -468,15 +508,5 @@
         "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280156356/",
         "timezone": "Canada/Eastern",
         "description": "<p>If you're like us, you've heard about OAuth 2.0 and OpenID Connect, but have a lot of unanswered questions. What's the big deal, anyway? Why do we need yet another set of standards for authentication on the web?</p> <p>In this episode, Nate Barbettini breaks down the rationale behind OAuth and OpenID Connect in plain language and explains when and how you should use them.</p> <p>If you've ever felt confused about these terms and standards, join us!</p> <p>NATE BARBETTINI</p> <p>Nate Barbettini (@nbarbettini) is the CTO and co-founder of Cobbler, where he leads a team building financial analysis software for enterprise businesses. Previously, he was a Product Manager at Okta focused on making security and authentication easier for developers. He is a former Microsoft MVP and the author of the free Little ASP.NET Core Book (<a href=\"http://littleasp.net/book\" class=\"linkified\">http://littleasp.net/book</a>).</p> <p> Connect with Us  <br/>YOUTUBE  <a href=\"https://www.youtube.com/c/OWASPDevSlop/\" class=\"embedded\">https://www.youtube.com/c/OWASPDevSlop/</a>\u200b<br/>INSTAGRAM  <a href=\"https://www.instagram.com/owaspdevslop/\" class=\"linkified\">https://www.instagram.com/owaspdevslop/</a>\u200b<br/>TWITTER  <a href=\"https://twitter.com/Owasp_DevSlop\" class=\"linkified\">https://twitter.com/Owasp_DevSlop</a>\u200b<br/>LINKEDIN  <a href=\"https://www.linkedin.com/company/owasp-devslop/\" class=\"linkified\">https://www.linkedin.com/company/owasp-devslop/</a></p> "
-    },
-    {
-        "group": "Devslop",
-        "repo": "www-project-devslop",
-        "name": "Containers in a nutshell \u2014 \u00e4hm pod! Containers in a pod",
-        "date": "2021-11-07",
-        "time": "10:00",
-        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/280310972/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>Make sure you join us LIVE to get a chance to win a <a href=\"https://kodekloud.com/\" class=\"linkified\">https://kodekloud.com/</a> subscription</p> <p>Through the past few years, Docker has been synonymous with containerized software. Containers help us to automate our development lifecycle, and businesses across industries are increasingly moving towards this modern way of deploying and managing software.</p> <p>If you are using CI/CD pipelines, you have likely come across containers as part of these pipelines. While there are several different tools that help us build containers, Docker has remained the most popular.</p> <p>But what happens when we have to deal with thousands of containers at a time? This is where container orchestration tools such as Kubernetes come in.</p> <p>In this session, Ana\u00efs will provide an overview of Kubernetes, how it changes our processes around deploying software, its benefits, and how you can get started.</p> <p>ANAIS URLICHS</p> <p>Ana\u00efs is a Site Reliability Engineer at Civo, a cloud computing company based on Kubernetes. When she is not advocating DevOps best practices, she runs her own YouTube Channel centered around cloud-native technologies. Before transitioning to the cloud-native ecosystem, Ana\u00efs helped blockchain projects scale and find adoption. As a CNCF ambassador, her passion lies in making tools and platforms more accessible to developers and community members.</p> <p>Make sure you join us LIVE to get a chance to win a <a href=\"https://kodekloud.com/\" class=\"linkified\">https://kodekloud.com/</a> subscription</p> <p> Connect with Us  <br/>YOUTUBE  <a href=\"https://www.youtube.com/c/OWASPDevSlop/\" class=\"embedded\">https://www.youtube.com/c/OWASPDevSlop/</a>\u200b<br/>INSTAGRAM  <a href=\"https://www.instagram.com/owaspdevslop/\" class=\"linkified\">https://www.instagram.com/owaspdevslop/</a>\u200b<br/>TWITTER  <a href=\"https://twitter.com/Owasp_DevSlop\" class=\"linkified\">https://twitter.com/Owasp_DevSlop</a>\u200b<br/>LINKEDIN  <a href=\"https://www.linkedin.com/company/owasp-devslop/\" class=\"linkified\">https://www.linkedin.com/company/owasp-devslop/</a></p> "
     }
 ]
