@@ -284,6 +284,8 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | ---- | ----- | ------- |---------- |
 | [GitHub SCA] | GitHub | Freemium | SaaS |
 | [Black Duck Hub] | Synopsys | Commercial | Cross Platform |
+| [Bytesafe] | Bytesafe | Freemium | SaaS |
+| [Bytesafe Dependency Checker] | Bytesafe | Free | SaaS |
 | [CAST Highlight] | CAST Software | Commercial | SaaS |
 | [Clarity] | Insignary | Commercial | Cross Platform / SaaS |
 | [ClearlyDefined] | Open Source Initiative | Open Source | SaaS |
@@ -320,6 +322,8 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Vigiles] | Timesys | Commercial / Freemium | SaaS |
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
 
+[Bytesafe]: https://bytesafe.dev/
+[Bytesafe Dependency Checker]: https://bytesafe.dev/dependency-checker/javascript/
 [GitHub SCA]: https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on/
 [Black Duck Hub]: https://www.blackducksoftware.com/
 [CAST Highlight]: https://www.castsoftware.com/SCA/
