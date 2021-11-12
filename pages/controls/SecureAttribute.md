@@ -89,12 +89,12 @@ Authentication Cookie, set the `requireSSL="true"` attribute in the web.config
 for that specific element. For example: 
 
 ```xml
-<code><authentication mode="Forms"></code>
-  <code><forms loginUrl="member_login.aspx"</code>
-         <code>cookieless="UseCookies"</code>
-         <code>'''requireSSL="true"'''</code>
-         <code>path="/MyApplication" /></code>
-<code></authentication></code>  
+<authentication mode="Forms">
+  <forms loginUrl="member_login.aspx"
+         cookieless="UseCookies"
+         `requireSSL="true"`
+         path="/MyApplication" />
+</authentication>
 ```
 
 Which will enable the secure attribute on the Forms Authentication cookie, as well as checking that the http request is coming to the server over SSL/TLS connection. Note that in case TLS is offloaded to a load balancer, the requireSSL solution wouldn't work.
