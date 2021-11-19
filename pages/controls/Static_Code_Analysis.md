@@ -190,5 +190,5 @@ environment and whether it is configured securely.
 
 ## Further Reading
 
-- [RIPS](http://www.php-security.org/downloads/rips.pdf)
-- [pixy](http://www.seclab.tuwien.ac.at/papers/pixy.pdf)
+- [RIPS](https://sourceforge.net/projects/rips-scanner/)
+- [pixy](http://seclab.nu/static/publications/ssp2006pixy.pdf)
