@@ -1,185 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - November",
-        "date": "2021-11-23",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Aarhus-Chapter/events/281947916/",
-        "timezone": "Europe/Copenhagen",
-        "description": "<p>OWASP Aarhus, Denmark is always greatly honored to welcome both experienced presenters as well as new ones! But they do not get more experienced than these two!</p> <p>In my career path in IT security a handful of people stands out as having had the biggest influence and impact. Two of these are Richard Campbell (<a href=\"https://www.linkedin.com/in/richjcampbell/\" class=\"linkified\">https://www.linkedin.com/in/richjcampbell/</a>) and Paula Januszkiewicz (<a href=\"https://www.linkedin.com/in/paulajanuszkiewicz/\" class=\"linkified\">https://www.linkedin.com/in/paulajanuszkiewicz/</a>) and it is therefore a bit of a dream come true that we got them to speak at our meetup \u2013 And at the same meetup!</p> <p>Richard is probably best known from RunAsRadio (<a href=\"https://runasradio.com\" class=\"linkified\">https://runasradio.com</a>) and DotNetRocks (<a href=\"https://www.dotnetrocks.com/\" class=\"linkified\">https://www.dotnetrocks.com/</a>) and there have been days in my career where I have found myself talking more back at his podcast then I have talked with my wife that day!</p> <p>Paula is the founder and CEO of CQURE and has been giving presentations on security longer than I can remember. I try to listen/watch as many of them as possible because I always learn something and I am always entertained when she talks! And as she writes on her CV \u201cShe has access to the source code of Windows\u201d</p> <p>Mark this time and come join us!</p> <p>This event is purely virtual but feel free to meetup in groups and it will be updated with more information about the presentations later. It will be held in English</p> <p>The meetup will not be recorded.</p> <p>I will update this page with more information very shortly!</p> "
-    },
-    {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "November Meetup",
-        "date": "2021-11-18",
-        "time": "16:00",
-        "link": "https://www.meetup.com/Bay-Area-OWASP/events/281973192/",
-        "timezone": "US/Pacific",
-        "description": "<p>Get ready for a set of 2 new exciting talks brought by experienced speakers in the security industry!</p> <p>Talk#1 From Gates to Guidance: The new face of Application Security.</p> <p>In this talk, I will cover the challenges associated with traditional appsec practices and how they create friction from the modern software development practices. Then I will cover how guidance based approaches can strengthen the secure life cycle development and promote innovation at faster speed.</p> <p>Speaker:- Trupti Shiralkar , Engineering manager at Datadog, A result oriented, data-driven, hands-on security professional with 13 years of leadership experience. Successfully led \u201cShift-to-left\u201d transformations of security programs to solve challenges in open source software security, application security, cloud security and applied cryptography domains. Strengths include strategic planning, building high performance teams, analyzing security trends, reviewing secure architecture-design, performing code reviews and penetration testing.</p> <p>Talk#2 Threatmodeling web application on premise and on-cloud(AWS)\"</p> <p>I will be covering how to perform threatmodeling on 2 use cases.<br/>1) web application on intranet<br/>2) web application on AWS</p> <p>This would be kind of a live session, we shall draw data flow diagrams for both the use cases during the session.<br/>Once the diagrams are ready, we will find the security issues from the attacker point of view.<br/>There are several methodologies that you can use for threat modeling.<br/>The most popular one is STRIDE. We will be using this methodology on various components in the data flow diagram to derive security issues.<br/>Finally, we will generate a threat report.</p> <p>Speaker:- Satish Govindappa, 15 years of significant expertise in Application Development, \u200bThreat Modeling\u200b, \u200bSecure Design Analysis, Secure Code Review,\u200b Static Code Analysis (SAST), Dynamic Security Analysis (DAST), Penetration testing(PenTest) and Security Automation(DevSecOps).</p> "
-    },
-    {
-        "group": "Bellingham",
-        "repo": "www-chapter-bellingham",
-        "name": "Virtual OWASP Bellingham first meeting",
-        "date": "2021-11-18",
-        "time": "18:00",
-        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/281383573/",
-        "timezone": "US/Pacific",
-        "description": "<p>Hello folks,</p> <p>Please join us on November 18th at 6 PM for the inaugural meetup of Bellingham's brand new OWASP chapter. We'll talk about our plans for the Bellingham chapter as well as go over some upcoming events in the region and if you're working on something cool and would like to share we'd love to hear about it!</p> <p>Thank you and we'll see you soon.</p> "
-    },
-    {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "End of Year Celebration at Miss Demeanour",
-        "date": "2021-12-09",
-        "time": "17:30",
-        "link": "https://www.meetup.com/Brisbane-OWASP-Meetup-Group/events/282008447/",
-        "timezone": "Australia/Brisbane",
-        "description": "<p>Hello fellow security enthusiasts,<br/>Join us for an end of year OWASP meetup, one that is more low key then usual.<br/>Yes, that\u2019s right no presentations this time round. Instead, we would like to catch up with you in person, grab something to eat and drink.<br/>See you there,</p> "
-    },
-    {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "Infrastructure as Code (IaC) Misconfigurations",
-        "date": "2021-12-02",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Bristol/events/281869377/",
-        "timezone": "Europe/London",
-        "description": "<p>Agenda:<br/>* OWASP Updates<br/>* Talk: Easily avoid IaC misconfigurations across the different platforms, with Ori Bendet<br/>* Open discussion</p> <p>Talk Title: Easily avoid IaC misconfigurations across the different platforms</p> <p>Abstract:<br/>Infrastructure as Code (IaC)\u202fmakes deploying cloud or container configurations scalable and faster. If you are launching a microservice into a Kubernetes cluster, or even building an entire AWS virtual infrastructure, IaC can automate the deployment. By building repeatable templates you can also ensure that deployments happen exactly as you design, every time. However, errors in infrastructure configuration are now regarded as the second biggest cause of data breaches. There are many ways to give adversaries an advantage through security misconfigurations. Overly permissive storage volumes, unauthenticated database access, or ports left open to the internet have all been a cause of compromise. The solution? Treat your infrastructure code the same as your application code. During your build process, use tools to scan for infrastructure misconfigurations. When you find them raise alerts or even break the build.\u202f</p> <p>In this session, we will discuss common types of IaC misconfigurations, and demonstrate a free, open-source security tool that developers can build into their pipelines to help protect infrastructure from compromise.</p> <p>About Ori Bendet<br/>An experienced product leader combining strong technical and marketing skills, Ori has been leading Checkmarx's flagship product, CxSAST (Static Application Security Testing), a Gartner and Forrester market-leading solution, serving thousands of customers worldwide for the last 2 years. Prior to Checkmarx, he was in Time To Know, HPE, PicApp and Bezeq in various product and engineering positions.</p> <p>The talk will be streamed on @YouTube - will publish the link closer to event .<br/>If you would like to be notified when we a new video is published, please feel free to subscribe on our channel at:<br/><a href=\"https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ\" class=\"embedded\">https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ</a></p> "
-    },
-    {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP CTF 2021 (Virtual event)",
-        "date": "2021-11-18",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Bristol/events/279155585/",
-        "timezone": "Europe/London",
-        "description": "<p>New virtual event - OWASP CTF 2021, led by OWASP Dorset Chapter and in collaboration with OWASP Diversity and Inclusion Committee and UK Chapters: Bristol, Cambridge, London, Newcastle, Reading, Suffolk.</p> <p>The CTF will be hosted by Security Innovation and be instructor lead. It combines with Security Innovation's CMD+Ctrl Bootcamp and they are extending an offer to all participants for 4-weeks FREE access to the self-paced training courses.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>Event registration link :<br/><a href=\"https://web.securityinnovation.com/bootcamp/2021nov?bc\" class=\"linkified\">https://web.securityinnovation.com/bootcamp/2021nov?bc</a><br/>Form Fields are optional so feel free to put \"N/A\" anywhere you do not wish to provide information, although you will need a working email address and the name fields will be used to identify you for the CTF. The blurb concentrates on the Bootcamp and we are working to switch it around but we have confirmed this is the correct link for CTF registration and you are invited to continue the Bootcamp training with for free! Happy hacking! :-D</p> "
-    },
-    {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Top 10 V2021 Awareness - A1 A2",
-        "date": "2021-11-27",
-        "time": "10:30",
-        "link": "https://www.meetup.com/OWASP-Cairo-Chapter/events/282140385/",
-        "timezone": "Africa/Cairo",
-        "description": "<p>OWASP Top 10 Awareness Program</p> <p>The OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.</p> <p>The first day of the awareness\u00a0program includes four sessions covering the first two of OWASP top 10 risks and Mitigations,</p> <p>Location: Online Event, the event link will be shared after registration.</p> <p>Date: 27 November 2021</p> <p>1- Introduction to OWASP Top 10 Project\u00a0[By:\u00a0Ahmed Abdallah] 10:30 to 11:00<br/>2- A01:2021-Broken Access Control Break\u00a0[By:\u00a0Mahmoud Hendy] 11:00 to 12:00<br/>3- A02:2021-Cryptographic Failures [By:\u00a0Muhammad Ahmad] 12:00 to 13:00<br/>4- Online Competition &amp; Event Closing\u00a0[By: Ahmed Abdallah] 13:00 to 14:00</p> "
-    },
-    {
-        "group": "Cambridge",
-        "repo": "www-chapter-cambridge",
-        "name": "OWASP (UK Chapters) CTF Competition 2021 ",
-        "date": "2021-11-18",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Cambridge-Meetup/events/281899521/",
-        "timezone": "Europe/London",
-        "description": "<p>OWASP Dorset Chapter is proud to present our CTF event for 2021 in collaboration with OWASP Diversity and Inclusion Committee and many OWASP UK Chapters (including; Bristol, Cambridge, London, Newcastle, Reading, Suffolk).</p> <p>The CTF will be hosted by Security Innovation and be instructor lead. It combines with Security Innovation's CMD+Ctrl Bootcamp and they are extending an offer to all participants for 4-weeks FREE access to the self-paced training courses.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>Registration Link is</p> <p><a href=\"https://web.securityinnovation.com/bootcamp/2021nov?bc\" class=\"linkified\">https://web.securityinnovation.com/bootcamp/2021nov?bc</a></p> "
-    },
-    {
-        "group": "Czech Republic",
-        "repo": "www-chapter-czech-republic",
-        "name": "OWASP Czech Chapter Meeting",
-        "date": "2021-11-25",
-        "time": "09:00",
-        "link": "https://www.meetup.com/owasp-czech-republic-meetup-group/events/281716573/",
-        "timezone": "Europe/Prague",
-        "description": "<p>Dear OWASP fellows,<br/>It\u2019s our pleasure to inform you that the next local chapter meeting will be held on November 25th 2021 at NN IT HUB, Karla Engli\u0161e 6/3201, Praha 5-Sm\u00edchov.</p> <p>This time we prepared for you \u00a0a full day event. You can enjoy workshop during the morning and interesting talks during the afternoon together with the CTF. The admission is as usual free of charge.</p> <p>Schedule<br/>Morning workshop<br/>9:00 - 12:00 Jan Kopeck\u00fd:\u00a0Fuzzing workshop<br/>9:00 - 12:00 CTF led by TunaSec.cz</p> <p>Talks<br/>12:00 - 12:15 Opening ceremony with OWASP chapter leaders and announcing winners of the CTF<br/>12:15 - 13:00\u00a0LUNCH TIME!<br/>13:00 - 13:45 V\u00e1clav Chlad:\u00a0I'm you: Caller ID spoofing<br/>14:00 - 14:45 Filip Holec:\u00a0Hacking 101<br/>15:00 - 15:45\u00a0Ond\u0159ej Bou\u010dek:\u00a0Should I Trust? Exploring New Approaches to Detecting Computational Propaganda<br/>16:00 - 16:45 Kamil V\u00e1vra:\u00a0WordPress Supply Chain Attack<br/>17:00 - 17:45 Marek J\u00edlek:\u00a0Hey Google, give me tons of public calendars! (how I become #1 on H1 in CZ)<br/>17:45 - .......... Closing ceremony and networking</p> <p>Information about the trainer, workshop and CTF</p> <p>The registration for the talks or workshop is possible ONLY by Eventbrite - <a href=\"https://www.eventbrite.com/e/199371514567/\" class=\"linkified\">https://www.eventbrite.com/e/199371514567/</a></p> <p>Additional information</p> <p>If using public transportation you can go to the metro station And\u011bl and walk 5 minutes.\u00a0For cars there are paid parking lots in the street Kov\u00e1k\u016f or you can park in the OC Nov\u00fd Sm\u00edchov.</p> <p>NN IT HUB is in the And\u011bl Park office building, there will be someone to guide you at the main entry. There will be signs showing you way to the conference hall and the lecture room for workshop.</p> <p>For the workshop, please come at least 10 minutes ahead of time, otherwise it can happen that your seat is taken by somebody on the waiting list.</p> <p>We have to follow current COVID rules - please check your email a few days before the event, we will inform you about current conditions.</p> <p>There will be some snacks and soft drinks prepared for you during the event and of course the lunch! :)</p> <p>Unless stated otherwise, talks will be in English and\u00a0the\u00a0recordings\u00a0will be available online ( with speakers' permission) after the convention</p> "
-    },
-    {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP December Meeting",
-        "date": "2021-12-16",
-        "time": "12:00",
-        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280921296/",
-        "timezone": "US/Central",
-        "description": "<p>Title:</p> <p>Insider's Guide to Mobile AppSec with OWASP MASVS</p> <p>Description:</p> <p>From the birth of MASVS and MSTG in January 2018 to the most recent updates, the OWASP Mobile Security Project has advanced the state of mobile app security testing dramatically. As supporters and contributors to the Mobile Security Project at OWASP, we have pen tested thousands of mobile apps and scanned millions of commercial apps in the app stores over the years\u2026 and have identified the most common security issues that plague developers and security teams. Whether you are new to mobile pen testing or a veteran looking for the latest tools and tactics, join this session to learn 10 keys to mobile appsec leveraging OWASP MASVS and practical real-world experience.</p> <p>Bio:</p> <p>As Chief Mobility Officer, Brian Reed leads the mobile standards and mobile DevSecOps charge at NowSecure helping orgs deliver secure mobile apps faster. He brings decades of experience in mobile, apps, security, dev, and testing helping Fortune 2000 global customers, federal agencies and mobile innovators. Brian is a compelling storyteller, speaker and writer including OWASP, AllDayDevOps, DevOpsWorld, DevOps Days, RSA, Droidcon, Mobile World Congress, FS-ISAC, and more. Brian is a graduate of Duke University.</p> "
-    },
-    {
-        "group": "Dorset",
-        "repo": "www-chapter-dorset",
-        "name": "Infrastructure as Code (IaC) Misconfigurations - OWASP Bristol",
-        "date": "2021-12-02",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Dorset-Chapter/events/282081555/",
-        "timezone": "Europe/London",
-        "description": "<p>OWASP Bristol will be hosting this oline event:</p> <p>Agenda:<br/>* OWASP Updates<br/>* Talk: Easily avoid IaC misconfigurations across the different platforms, with Ori Bendet<br/>* Open discussion</p> <p>Talk Title: Easily avoid IaC misconfigurations across the different platforms</p> <p>Abstract:<br/>Infrastructure as Code (IaC)\u202fmakes deploying cloud or container configurations scalable and faster. If you are launching a microservice into a Kubernetes cluster, or even building an entire AWS virtual infrastructure, IaC can automate the deployment. By building repeatable templates you can also ensure that deployments happen exactly as you design, every time. However, errors in infrastructure configuration are now regarded as the second biggest cause of data breaches. There are many ways to give adversaries an advantage through security misconfigurations. Overly permissive storage volumes, unauthenticated database access, or ports left open to the internet have all been a cause of compromise. The solution? Treat your infrastructure code the same as your application code. During your build process, use tools to scan for infrastructure misconfigurations. When you find them raise alerts or even break the build.</p> <p>In this session, we will discuss common types of IaC misconfigurations, and demonstrate a free, open-source security tool that developers can build into their pipelines to help protect infrastructure from compromise.</p> <p>About Ori Bendet<br/>An experienced product leader combining strong technical and marketing skills, Ori has been leading Checkmarx's flagship product, CxSAST (Static Application Security Testing), a Gartner and Forrester market-leading solution, serving thousands of customers worldwide for the last 2 years. Prior to Checkmarx, he was in Time To Know, HPE, PicApp and Bezeq in various product and engineering positions.</p> <p>The talk will be streamed on @YouTube - will publish the link closer to event .<br/>If you would like to be notified when a new video is published, please feel free to subscribe to OWASP Bristol's channel at:<br/><a href=\"https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ\" class=\"embedded\">https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ</a></p> "
-    },
-    {
-        "group": "Dorset",
-        "repo": "www-chapter-dorset",
-        "name": "OWASP Dorset CTF 2021 - online",
-        "date": "2021-11-18",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Dorset-Chapter/events/281718178/",
-        "timezone": "Europe/London",
-        "description": "<p>OWASP Dorset Chapter is proud to present our CTF event for 2021 in collaboration with OWASP Diversity and Inclusion Committee and many OWASP UK Chapters (including; Bristol, Cambridge, London, Newcastle, Reading).</p> <p>The CTF will be hosted by Security Innovation and be instructor lead. It combines with Security Innovation's CMD+Ctrl Bootcamp and they are extending an offer to all participants for 4-weeks FREE access to the self-paced training courses.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>Event registration link is now live!<br/><a href=\"https://web.securityinnovation.com/bootcamp/2021nov?bc\" class=\"linkified\">https://web.securityinnovation.com/bootcamp/2021nov?bc</a> (registration closes 10pm 18th November)<br/>Form Fields are optional so feel free to put \"N/A\" anywhere you do not wish to provide information, although you will need a working email address and the name fields will be used to identify you for the CTF. The blurb concentrates on the Bootcamp and we are working to switch it around but we have confirmed this is the correct link for CTF registration and you are invited to continue the Bootcamp training with for free! Happy hacking! :-D</p> "
-    },
-    {
-        "group": "Erode",
-        "repo": "www-chapter-erode",
-        "name": "JVM Reverse Engineering Introduction ",
-        "date": "2021-11-27",
-        "time": "19:00",
-        "link": "https://www.meetup.com/owasp-erode/events/281962663/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>OWASP Erode's November Session on JVM Reverse Engineering. The Session will be conducted online (google meet) Maximum Duration 1 hour. The Entire Session will be on Tamil and the Google Meet link will provided day before the session.</p> "
-    },
-    {
-        "group": "Greece",
-        "repo": "www-chapter-greece",
-        "name": "OWASP Greece - The return",
-        "date": "2021-11-30",
-        "time": "19:00",
-        "link": "https://www.meetup.com/owasp-greece-meetup-group/events/282142922/",
-        "timezone": "Europe/Athens",
-        "description": "<p>Rebooting the OWASP Greece chapter is finally happening!</p> <p>Come join us for a quick recap on OWASP, a few talks on current affairs, and some low key community unconference right after to get to know each other and discuss.</p> "
-    },
-    {
-        "group": "Guayaquil",
-        "repo": "www-chapter-guayaquil",
-        "name": "Charlas OWASP y Convenio con Universidad Casa Grande (update)",
-        "date": "2021-12-09",
-        "time": "17:30",
-        "link": "https://www.meetup.com/OWASP-Guayaquil-Chapter/events/281873272/",
-        "timezone": "America/Guayaquil",
-        "description": "<p>Actualizaci\u00f3n Jueves 09 de Diciembre 2021<br/>1. Convenio entre OWASP cap\u00edtulo Guayaquil y la Universidad Casa Grande<br/>2. Nuevo marco OWASP 2021<br/>3. Pentester Web usando contenedores<br/>4. Breve charla sobre la maestr\u00eda en Ciberseguridad de la Universidad Casa Grande</p> "
-    },
-    {
-        "group": "Helsinki",
-        "repo": "www-chapter-helsinki",
-        "name": "OWASP Helsinki chapter meeting #42",
-        "date": "2021-11-30",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-Helsinki-Chapter/events/281945668/",
-        "timezone": "Europe/Helsinki",
-        "description": "<p>Agenda:<br/>18:30 Welcome coffee<br/>18:50 Opening words and news from OWASP - Pekka Sillanp\u00e4\u00e4, Chapter leader, OWASP Helsinki chapter<br/>19:10 Words from the sponsor, Juho Ranta, CTO, Second Nature Security (2NS) Oy<br/>19:20 Threat Modeling in 2021 - Adam Shostack, President, Shostack + Associates<br/>20:20 -&gt; Snacks/BBQ, Refreshments, Sauna &amp; Jacuzzi @ 2NS top floor</p> <p>Note!! This event (for the presentations part) is provided in Hybrid form. If you are going to participate online, the please provide answer for the question \"The event is Hybrid. Let us know if you are you participating only Online?\". The online link will be shared later to the \"Online\" attendees.</p> <p>\u201cThreat Modeling in 2021\u201d - Abstract:<br/>Attacks always get better, so your threat modeling needs to evolve. Learn what's new and important in threat modeling in 2021. Computers that are things are subject to different threats, and systems face new threats from voice cloning and computational propaganda and the growing importance of threats \u201cat the human layer.\u201d Take home actionable ways to ensure your security engineering is up to date.</p> <p>Adam Shostack bio (<a href=\"https://shostack.org\" class=\"linkified\">https://shostack.org</a>):<br/>Adam is a leading expert on threat modeling, and a consultant, entrepreneur, technologist, author and game designer. He's a member of the BlackHat Review Board, and helped create the CVE and many other things. He currently helps many organizations improve their security via Shostack &amp; Associates, and helps startups become great businesses as an advisor and mentor. While at Microsoft, he drove the Autorun fix into Windows Update, was the lead designer of the SDL Threat Modeling Tool v3 and created the \"Elevation of Privilege\" game. Adam is the author of Threat Modeling: Designing for Security, and the co-author of The New School of Information Security.</p> <p>The OWASP Helsinki Chapter event is sponsored by Second Nature Security (2NS) Oy and take place in Keilaranta 1, Espoo. There will be also the opportunity to join 2NS open doors event organised in cooperation with FISA (Tietoturva Ry) that will take place in the same venue before the OWASP Helsinki Chapter event starts. The 2NS open doors event will start at 17:00 and is held in Finnish. Full agenda and to register to the open doors event please follow this FISA event registration link: <a href=\"https://www.lyyti.fi/reg/30112021_Yritysvierailu_Second_Nature_Security_Oylle__OWASP_Helsinki_Chapter_meeting_42_Adam_Shostack__Threat_Modeling_in_2021_3980\" class=\"linkified\">https://www.lyyti.fi/reg/30112021_Yritysvierailu_Second_Nature_Security_Oylle__OWASP_Helsinki_Chapter_meeting_42_Adam_Shostack__Threat_Modeling_in_2021_3980</a></p> <p>In the mean time you might want to enjoy \u201dThreat Modeling, Lessons learned from Star Wars\u201d Adam Shostack. This will be (a bit less technical) free webinar for FISA, OWASP Helsinki Chapter and ISACA Finland members organised for the 15th of Nov. More info and registering for that event: <a href=\"https://tietoturva.fi/2021/10/15/uhkamallinus-webinaari-adam-shostack/\" class=\"linkified\">https://tietoturva.fi/2021/10/15/uhkamallinus-webinaari-adam-shostack/</a></p> "
-    },
-    {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly Online meeting ",
-        "date": "2021-12-13",
-        "time": "18:45",
-        "link": "https://www.meetup.com/OWASP-Jacksonville-Chapter/events/nnccjsyccqbrb/",
-        "timezone": "US/Eastern",
-        "description": "<p>The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org.</p> "
-    },
-    {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "OWASP x Digital Katalis",
-        "date": "2021-11-26",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/281863881/",
-        "timezone": "Asia/Jakarta",
-        "description": "<p>Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026<br/>\u2022 Tool dan standar keamanan aplikasi<br/>\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan<br/>\u2022 Kendali keamanan dan pustaka standar<br/>\u2022 Cabang lokal di seluruh dunia<br/>\u2022 Riset terkini<br/>\u2022 Konferensi lengkap di seluruh dunia<br/>\u2022 Mailing list<br/>\u2022 Dan banyak lagi \u2026 di www.owasp.org</p> <p>Kali ini Kolaborasi OWASP x Dkatalis akan membahas :</p> <p>1. \"The Implementation of DevSecOps Process by DKatalis in their products, the Jago app\" by Yohanes Syailendra</p> <p>Short description of topic:</p> <p>A conversation on how DevSecOps implementation in DKatalis helps them integrate and automate security into the entire testing, development, and delivery process; enabling their product, such as Jago App to deliver a secure and seamless experience at speed.</p> <p>Short bio of speaker:</p> <p>Having 10 years of working experience in IT, Yohanes Syailendra has significant experience and deep knowledge in Technology Assessment and Cyber Security Services, especially in DevSecOps implementation.</p> <p>Outside of his work as Application Security Lead at DKatalis, Yohanes is also active as a lecturer and trainer at various events in Government and Cyber Communities, as well as leading nationwide research in Cyber Security Community (Indonesia Honeynet Project).</p> <p>2. \"Cyber Intelligence Practice\" By Fajrin Nur Hidayat</p> <p>Abtract;</p> <p>Cyber Intelligence is mainly categorized as strategic, tactical, technical, and operational.</p> <p>Short bio of speaker:</p> <p>Fajrin Nur Hidayat is Board Member of OWASP Jakarta, Juga merangkap Head of Cyber Intelligence of AppSec.asia (PT.Aplikasi Siber Teknologi)</p> <p>Venue :</p> <p>Online by zoom</p> <p>Time: Nov 26, 2021 07:00 PM Jakarta</p> <p>This event supported by DKatalis (dkatalis.co) &amp; Appsec.asia <a href=\"https://appsec.asia\" class=\"linkified\">https://appsec.asia</a></p> <p>Catatan :<br/>Acara Ini Free for Everyone<br/>Acara ini Di deliver dengan Bahasa Indonesia</p> "
-    },
-    {
         "group": "Kansas City",
         "repo": "www-chapter-kansas-city",
         "name": "Open Web App Security Project - Kansas City Chapter Monthly Meeting",
@@ -200,16 +20,6 @@
         "description": "<p>* SOCaaS/Cybersecurity Operational Resiliency</p> <p>SOC offers a unified risk-based cybersecurity operational resiliency to businesses, and offering SOC-as-Services provides 5 key steps to achieving and maintaining statutory and regulatory compliance via<br/>1. Running a unified platform<br/>2. Knowing your Environment<br/>3. Managing your risk<br/>4. Monitoring &amp; reporting risk<br/>5. Building a strong team</p> <p>* How to Implement and use Secure Code Libraries</p> <p>-Automated Threat Modeling of a website.<br/>-Identify vulnerabilities in code<br/>-Fix the with code libraries vulnerabilities<br/>-How to create your own SAST</p> <p>* SAST, SCA, DAST, IAST, application security testing demystified</p> <p>When starting with security, you hear about all kinds of AST abilities, tools that do the one on the other, and the claims of the various tools vendors', that are as real as the fuel consumption prediction of a car manufacturer's brochure.<br/>During the presentation, you will learn about the justification of each AST, the pros and cons, and how they fit into a modern software development pipeline.</p> <p>* Enterprise DevSecOps - E2E process &amp; tooling</p> <p>Enterprise DevSecOps automatically bakes in security at every phase of the software development lifecycle, enabling the development of secure software at the speed of Agile and DevOps.</p> <p>DevSecOps integrates application and infrastructure security seamlessly into Agile and DevOps processes and tools.<br/>This session provides a holistic approach to integrating security controls across the CICD pipeline exploring enterprise use-case that shows best-in-class Security tools from Threat Modelling to operations monitoring for continuous improvement.</p> <p>* Defending Web Application Beyond Secure Coding</p> <p>Defending a web application beyond secure coding Security enables us to offer our customers complete security &amp; prevent web applications from other Dangerous Vulnerabilities that could give threat actors ways to compromise a web application.</p> "
     },
     {
-        "group": "London",
-        "repo": "www-chapter-london",
-        "name": "OWASP London CTF 2021 - ONLINE",
-        "date": "2021-11-18",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-London/events/281856079/",
-        "timezone": "Europe/London",
-        "description": "<p>OWASP London Chapter is proud to present our Capture the FLAG (CTF) event for 2021 in collaboration with OWASP Diversity and Inclusion Committee and many OWASP UK Chapters (including; Bristol, Cambridge, Dorset , Newcastle, Reading, Suffolk).</p> <p>The event will be hosted by Security Innovation using their platform and will be instructor lead. It combines with Security Innovation's CMD+Ctrl CTF with a Bootcamp self-paced training course to which all CTF players will have 4-weeks FREE access.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>Want to test your skills in identifying web app vulnerabilities? Join Several OWASP UK Chapters and Security Innovation as members compete in CMD+CTRL, a web application cyber range where players exploit their way through hundreds of vulnerabilities that lurk in business applications today. Success means learning quickly that attack and defence is all about thinking on your feet.</p> <p>For each vulnerability you uncover, you are awarded points. Climb the interactive leaderboard for a chance to win fantastic prizes! CMD+CTRL is ideal for development teams to train and develop skills.</p> <p>ATTENTION: Additional registration required in order to gain access to the CTF platform and play:</p> <p>CTF Event registration link is now live! Form Fields are optional so feel free to put N/A anywhere you do not wish to provide information, although you will need a working email address and the name fields will be used to identify you for the CTF.</p> <p>The blurb concentrates on the bootcamp and we are working to switch it around, but this is for the CTF although you are welcome to continue the self-paced bootcamp application security training with Security Innovation for free for 4 weeks:</p> <p>Here is the registration link:</p> <p><a href=\"https://web.securityinnovation.com/bootcamp/2021nov?bc\" class=\"linkified\">https://web.securityinnovation.com/bootcamp/2021nov?bc</a></p> <p>Happy hacking! :-D</p> "
-    },
-    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly Virtual Meeting - NOV 24, 2021",
@@ -220,14 +30,24 @@
         "description": "<p>Come join us as we hear the monthly presentation by Sean Wright Lead Application Security SME at Immersive Labs</p> <p>TOPIC: Open Source Software Supply Chains</p> <p>ABSTRACT: As modern software development evolves; we no longer build things from the ground up. Extensive use is made of open source software such as libraries and frameworks. While this is fantastic from a development point of view (allowing for faster development of applications and features), it does present a potential drawback if not done correctly, an increased risk. Often, we see libraries being used and seldom updated, also we see several libraries being blindly with little to not inspections and reviews. This is gold mine for attackers, there are many ways that they have will continue to use this to their advantage. The purpose of this talk is to cover some of the techniques which attackers could use to exploit open source supply chains. This will include a live demonstration of one such technique which an attacker could used. The talk will then focus on the excellent OWASP Dependency Track tool, showing how this can help reduce the risk to organizations when it comes to dealing with open source packages in software.</p> <p>BIO: Sean Wright is the Lead Application Security SME at Immersive Labs with an origin as a software developer. Primarily focused on web-based application security with a special interest in TLS related subjects. Experienced in providing technical leadership in relation to application security, as well as engaging with teams to improve the security of systems that they develop. Passionate to be a part of the community and giving back to the community. Additionally, enjoy spending personal time performing personal security-related research.</p> <p>Meeting info will be visible to you only if you RSVP for the meeting.</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
     },
     {
-        "group": "New York City",
-        "repo": "www-chapter-new-york-city",
-        "name": "Filipi Pires",
-        "date": "2021-11-18",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-New-York-City-Chapter/events/281288393/",
-        "timezone": "US/Eastern",
-        "description": "<p>Filipi Pires (@FilipiPires) will present on \"Keep your code safe during the development path using Opensource tools.\"</p> <p>Abstract:</p> <p>Practical demonstration of how a Developer can use a SAST tool for static analysis in code vulnerability, executing it in source code, byte code and/or binary and identifying security holes during the development process, analyzing many languages and codes.<br/>The ecosystem will have the opportunity to know about an open source tool that orchestrates other security tools and identifies security flaws or vulnerabilities in projects and put all results in a database for analysis and generation of metrics, working this analysis with select the languages \u200b\u200band/or tools to be used on the project based on the available stack.<br/>These languages and tools are: Python, Ruby, Javascript/Typescript, GoLang, C#, Java, Kotlin, Kubernetes, Terraform, some Leaks, Leaks(optional search in git history), PHP, C, HTML, JSON, Shell Script and Elixir, it being done in source code, byte code or binary, finding \u201cLeaks\" checks the source code for possible leaks of credentials, private keys or hard coded passwords and analyze the project\u2019s dependencies to check for vulnerabilities in third-party libraries. in third-party libraries.</p> <p><a href=\"https://horusec.io\" class=\"linkified\">https://horusec.io</a><br/><a href=\"https://docs.horusec.io\" class=\"linkified\">https://docs.horusec.io</a></p> <p>Similar presentations:<br/><a href=\"https://www.youtube.com/watch?v=ZIY0Wf6QUdY\" class=\"embedded\">https://www.youtube.com/watch?v=ZIY0Wf6QUdY</a> - (D.C. Cybersecurity Professionals \u2013 2021)<br/><a href=\"https://www.youtube.com/watch?v=no5iUdRd64g\" class=\"embedded\">https://www.youtube.com/watch?v=no5iUdRd64g</a> - (RTV 2021 - Learning Thrusday)</p> "
+        "group": "Melbourne",
+        "repo": "www-chapter-melbourne",
+        "name": "The Mobile Security Special - Melbourne Chapter (Virtual) Meetup - 23rd Nov 2021",
+        "date": "2021-11-23",
+        "time": "18:00",
+        "link": "https://www.meetup.com/Application-Security-OWASP-Melbourne/events/282160343/",
+        "timezone": "Australia/Melbourne",
+        "description": "<p>If you are into mobile apps security, don't miss this.<br/>We've got 2 solid presentations, 3 amazing speakers.</p> <p>Presentations:<br/>Refactoring the OWASP MSTG and MASVS<br/>---------------------------------------------<br/>In this talk we will share the ongoing and planned changes that are happening to the OWASP MSTG and MASVS projects in order to reach version 2.0. We will be focusing on:</p> <p>- Refactoring of the requirements in the MASVS<br/>- Refactoring of the test cases in the MSTG<br/>- Automation opportunities<br/>- New document structure for the MSTG<br/>- Plans for long-term maintainability of the MSTG<br/>- Revisiting the mobile attack surface<br/>- Sharing ideas about rule-based dynamic analysis</p> <p>and many other things.</p> <p>Bio - Authors of the MSTG and MASVS<br/>[[ Carlos ]]<br/>Carlos is a mobile security research engineer with NowSecure who has gained many years of hands-on experience in the field of security testing for mobile apps and embedded systems such as automotive control units and IoT devices. He is passionate about reverse engineering and dynamic instrumentation of mobile apps and is continuously learning and sharing his knowledge.</p> <p>[[ Sven ]]<br/>Sven is the Technical Director of F-Secure Singapore and has hands-on experience in attacking and defending web and mobile apps for the last 10+ years. He is giving talks and workshops about Mobile Security worldwide to different audiences, ranging from developers to students and penetration testers.</p> <p>Cracking Android PINs<br/>---------------------------------------------<br/>What if I told you that in 2021 you could still brute-force the PIN on an Android phone?</p> <p>I will show you how to turn your Kali Nethunter phone into a brute-force PIN cracking machine. Unlike other methods this works on phones out of the box, so you won't need ADB access to your locked phone, or to have previously rooted the Operating System. While not every phone is vulnerable, many are, and the version of Android doesn't matter. Although Android itself is reasonable secure, each handset manufacturer has made their own lock-screen with custom brute-force protection and some of them are easily cracked.</p> <p>Bio<br/>[[ Andrew Horton ]]<br/>Andrew Horton aka urbanadventurer has been in the information security space for over 10 years. During that time he has been fortunate to have been providing services to some of the world\u2019s biggest companies and working alongside some of the most elite ethical hackers in the world. Andrew is best known for his open-source software contributions to the security community, forming part of the standard arsenal of penetration testers and blackhat hackers alike, along with mentions in university textbooks and professional methodologies. You can find some of his contributions in Kali Linux, the most popular Linux security distribution used daily by security professionals. Beyond penetration testing, Andrew is on the advisory boards of start ups, mentors up and coming security professionals, occasionally gives conference presentations, and also hosts the popular information security news aggregator at <a href=\"https://www.morningstarsecurity.com/news\" class=\"linkified\">https://www.morningstarsecurity.com/news</a>.</p> <p>The Schedule ( Melbourne Time )<br/>-------------------------------------------<br/>17:45 hrs - Virtual doors open;<br/>come hang out in our Discord (#chapter-au-melb).<br/>18:00 hrs - Welcome, and introductions.<br/>18:05 hrs - Refactoring the OWASP MSTG and MASVS by Carlos &amp; Sven<br/>18:35 hrs - Q&amp;A with Carlos &amp; Sven<br/>18:40 hrs - Cracking Android PINs by Andrew Horton<br/>19:10 hrs - Q&amp;A with Andrew Horton<br/>19:15 hrs - End formal presentations, social time. See Discord for details</p> <p>Other Information<br/>------------------------<br/>OWASP Melbourne Chapter\u2019s Discord<br/><a href=\"https://discord.gg/uAWze2B\" class=\"linkified\">https://discord.gg/uAWze2B</a></p> <p>YouTube Channel<br/><a href=\"https://www.youtube.com/channel/UCDwRks28thuvwICPM5VgmSQ\" class=\"embedded\">https://www.youtube.com/channel/UCDwRks28thuvwICPM5VgmSQ</a></p> <p>Find out more?<br/>More about the Chapter: <a href=\"https://owasp.org/www-chapter-melbourne/\" class=\"linkified\">https://owasp.org/www-chapter-melbourne/</a></p> <p>Other Information:<br/>Just a reminder, to abide by our Code of Conduct <a href=\"https://owasp.org/www-policy/operational/code-of-conduct\" class=\"linkified\">https://owasp.org/www-policy/operational/code-of-conduct</a>.</p> "
+    },
+    {
+        "group": "Minneapolis St Paul",
+        "repo": "www-chapter-minneapolis-st-paul",
+        "name": "The OWASP Top 10:2021",
+        "date": "2021-12-16",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-MSP-Meetup/events/282157443/",
+        "timezone": "US/Central",
+        "description": "<p>OWASP updated its venerable Top 10 list this year, including changes and additions worthy of discussion. We'll also discuss how the Top 10 is chosen, a brief history of the changes over the years, and ask how it stacks up to your experience in the industry.</p> "
     },
     {
         "group": "New Zealand",
@@ -240,16 +60,6 @@
         "description": "<p>Important! Traction on Demand (formerly Trineo) is not hosting events under Alert Level 2, so this is a tentative placeholder for the next meetup. Details to be added soon\u2026</p> "
     },
     {
-        "group": "Newcastle Uk",
-        "repo": "www-chapter-newcastle-uk",
-        "name": "OWASP Newcastle CTF 2021 - Online",
-        "date": "2021-11-18",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Newcastle-Chapter/events/281889035/",
-        "timezone": "Europe/London",
-        "description": "<p>OWASP Newcastle Chapter is proud to present our CTF event for 2021 in collaboration with OWASP Diversity and Inclusion Committee and many OWASP UK Chapters (including Bristol, Cambridge, Dorset, London, Reading and Suffolk).</p> <p>The CTF will be hosted by Security Innovation and will be instructor lead. It combines with Security Innovation's CMD+CTRL Bootcamp and they are extending an offer to all participants for 4 weeks' FREE access to the self-paced training courses.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>**UPDATE**</p> <p>Registration for the CTF needs to be done on the Security Innovation site <a href=\"https://web.securityinnovation.com/bootcamp/2021nov?bc\" class=\"linkified\">https://web.securityinnovation.com/bootcamp/2021nov?bc</a></p> <p>We suggest for Phone number, Company name and Job Title, you enter \"n/a\" into these fields.</p> "
-    },
-    {
         "group": "North Sweden",
         "repo": "www-chapter-north-sweden",
         "name": "Understanding Java Deserialization Vulnerabilities",
@@ -258,26 +68,6 @@
         "link": "https://www.meetup.com/OWASP-Umea-Chapter/events/282048440/",
         "timezone": "Europe/Stockholm",
         "description": "<p>Welcome to a physical, real-world, in-the-meatspace lunch seminar with real friends and industry colleagues at OWASP!</p> <p>Speaking this time is Alexandre Bartel, Ph.D. in computer security and working with Ume\u00e5 University since this summer. If you google his previous research you'll quickly understand that he is _very_ interested in breaking into your Android devices.</p> <p>In this talk we first explain how Java deserialization<br/>attacks chain code snippets called gadgets to e.g. execute arbitrary<br/>code. We then analyze real-worlds attacks and vulnerabilities to<br/>understand how vulnerabilities are patched and gadgets removed.</p> <p>Venue: <a href=\"https://link.mazemap.com/E5y5qO6Y\" class=\"linkified\">https://link.mazemap.com/E5y5qO6Y</a></p> "
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Analyzing source code for vulnerabilities: A how-to workshop",
-        "date": "2021-11-18",
-        "time": "17:30",
-        "link": "https://www.meetup.com/OWASP-OC/events/281234132/",
-        "timezone": "US/Pacific",
-        "description": "<p>Speaker: Vickie Li, Developer Evangelist, ShiftLeft</p> <p>Topic: Analyzing source code for vulnerabilities: A how-to workshop</p> <p>Live stream: <a href=\"https://www.twitch.tv/owaspoc\" class=\"linkified\">https://www.twitch.tv/owaspoc</a></p> <p>Abstract and workshop preparation guide:<br/>Writing code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.</p> <p>Performing a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.</p> <p>But the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions? If you\u2019d like to follow along, here is what you need to get ready.</p> <p>Joern is open-sourced, download Joern and install:<br/>$ wget <a href=\"https://github.com/joernio/joern/releases/latest/download/joern-install.sh\" class=\"linkified\">https://github.com/joernio/joern/releases/latest/download/joern-install.sh</a><br/>$ chmod +x ./joern-install.sh<br/>$ sudo ./joern-install.sh</p> <p>If you need help here are some important links:<br/>Joern Community: <a href=\"https://discord.gg/ff3ahcFrJq\" class=\"linkified\">https://discord.gg/ff3ahcFrJq</a><br/>Joern Documentation: <a href=\"https://docs.joern.io\" class=\"linkified\">https://docs.joern.io</a><br/>Joern query database: <a href=\"https://queries.joern.io\" class=\"linkified\">https://queries.joern.io</a></p> <p>Speaker Bio:<br/>Vickie Li is the resident developer evangelist at ShiftLeft. She is an experienced web developer with an avid interest in security research. She can be found on <a href=\"https://vickieli.dev\" class=\"linkified\">https://vickieli.dev</a>, where she blogs about security news, techniques, and her latest bug bounty findings. She also hosts \u201cSecurity Simplified\u201d, a developer education series focusing on web security: <a href=\"https://www.youtube.com/c/vickielidev\" class=\"embedded\">https://www.youtube.com/c/vickielidev</a>.</p> <p>Twitter: @vickieli7<br/>LinkedIn: <a href=\"https://www.linkedin.com/in/vickie-li-103a35b8\" class=\"linkified\">https://www.linkedin.com/in/vickie-li-103a35b8</a></p> <p>--------------------------------------------------------------------------------------<br/>NOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice.</p> "
-    },
-    {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "10. OWASP Poland Meetup (Warsaw + Online)",
-        "date": "2021-11-18",
-        "time": "18:00",
-        "link": "https://www.meetup.com/owasp-poland/events/281894735/",
-        "timezone": "Europe/Warsaw",
-        "description": "<p><a href=\"https://www.youtube.com/channel/UCna7lZrm1ZZ1NmSkZML-JWw\" class=\"embedded\">https://www.youtube.com/channel/UCna7lZrm1ZZ1NmSkZML-JWw</a><br/>(link do spotkania on-line)</p> <p>Serdecznie zapraszam na kolejne spotkanie OWASP, kt\u00f3re odb\u0119dzie si\u0119 18 listopada 2021. Tym razem dzia\u0142amy hybrydowo. Dzi\u0119ki zaproszeniu Goldman Sachs, spotkanie odb\u0119dzie si\u0119 fizycznie w Warszawie w budunku Warsaw Spire. Z uwagi na pandemi\u0119 w spotkaniu b\u0119dzie mog\u0142o wzi\u0105\u0107 udzia\u0142 jedynie 30 os\u00f3b (dodatkowo aby wej\u015b\u0107 na spotkanie b\u0119dzie r\u00f3wnie\u017c wymagane okazanie certyfikatu potwierdzaj\u0105cego przyj\u0119cie dw\u00f3ch dawek szczepienia oraz okazanie dokumentu potwierdzaj\u0105cego to\u017csamo\u015b\u0107). Dlatego r\u00f3wnolegle b\u0119dzie realizowana transmisja on-line bez limit\u00f3w miejsc (link do spotkania Zoom zostanie opublikowany przed spotkaniem).</p> <p>Z uwagi na ograniczon\u0105 liczb\u0119 miejsc ogromna pro\u015bba o rejestrowanie si\u0119 przy 100% pewno\u015bci mo\u017cliwo\u015bci wzi\u0119cia udzia\u0142u w spotkaniu, tak by nie blokowa\u0107 miejsc. R\u00f3wnie\u017c je\u015bli po rejestracji oka\u017ce si\u0119, \u017ce przybycie nie b\u0119dzie mo\u017cliwe, bardzo prosz\u0119 o wyrejestrowanie si\u0119, by mog\u0142y skorzysta\u0107 osoby z listy rezerwowej.</p> <p>Agenda spotkania:</p> <p>18:00 \u2013 18:05 \u2013 Powitanie i otwarcie spotkania, Daniel Krasnokucki</p> <p>18:05 \u2013 18:50 \u2013 \"Discovery and exploitation of CSRF to RCE in CloverDX Server - CVE-2021-29995\", Patryk Bogusz</p> <p>Prezentacja opisywa\u0107 b\u0119dzie proces znalezienia i wykorzystania podatno\u015bci CSRF w CloverDX Serverze, kt\u00f3ra ostatecznie prowadzi do zdalnego wykonania kodu na serwerze. W trakcie prezentacji przejd\u0119 od podstaw, czyli opisu czym jest CSRF, poprzez crackowanie generatora liczb pseudolosowych, a\u017c do samej exploitacji CSRF prowadz\u0105cej do zdalnego wykonania kodu.</p> <p>Patryk Bogusz - Pentester w Goldman Sachs, na codzie\u0144 zajmuje sie testowaniem bezpieczenstwa aplikacji i infrastruktury chmurowej. W wolnym czasie amatorsko trenuje boks tajski w Sparta Gym Warszawa.</p> <p>18:50 \u2013 19:35 \u2013 \"Feedback loop in DevSecOps - mature security process and dev cooperation\", Daniel Krasnokucki</p> <p>Having Security testing in the pipeline is getting more and more popular, I would say it is becoming a standard! But what we are doing with findings? What are we automating and how are using the automation?</p> <p>The presentation will cover security-as-a-code practices to integrate security testing into the CI and CD pipelines, but in addition - I will discuss the part of the testing that cannot be automated, which is penetration testing. How do you connect it with your automation testing and what is the role of penetration testing in monitoring? I will show how it affects next round of the process and what the process should look like.</p> <p>During the presentation I will discuss real use cases from different pipelines and security tools, showing pros and cons, advantages and challenges. Demo will include GitHub Actions and open-source tools like OWASP ZAP and examples will be provided with pipeline-as-a-code and security-as-a-code. Real life use cases and examples with step-by-step instruction how the development process in mature state of DevSecOps should look like.</p> <p>Daniel Krasnokucki - Security freak, pentester, programmer, and day-to-day also a manager of Product Security team @ Equinix. Leader of OWASP Poland with a strong focus on building security controls and improving different areas in a very techy company. Privately likes board games, football (soccer) and loves skiing!</p> <p>19:35 \u2013 20:00 \u2013 Discussions</p> "
     },
     {
         "group": "Saint Louis",
@@ -306,16 +96,6 @@
         "date": "2021-12-16",
         "time": "18:00",
         "link": "https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/bcnwbsyccqbvb/",
-        "timezone": "US/Pacific",
-        "description": "<p>Monthly OWASP meeting</p> "
-    },
-    {
-        "group": "San Diego",
-        "repo": "www-chapter-san-diego",
-        "name": "Monthly Meeting",
-        "date": "2021-11-18",
-        "time": "18:00",
-        "link": "https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/bcnwbsyccpbxb/",
         "timezone": "US/Pacific",
         "description": "<p>Monthly OWASP meeting</p> "
     },
@@ -428,16 +208,6 @@
         "link": "https://www.meetup.com/womeninappsec/events/281539760/",
         "timezone": "US/Eastern",
         "description": "<p>This talk will discuss about Cloud Security. What are the security services provided by CSPs. How we can manage our resources on Cloud.</p> <p>Dr. Abhilasha Vyasr's LinkedIn profile: <a href=\"https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199\" class=\"linkified\">https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199</a></p> "
-    },
-    {
-        "group": "Wia",
-        "repo": "www-committee-wia",
-        "name": "CTF 2021 - online",
-        "date": "2021-11-18",
-        "time": "13:00",
-        "link": "https://www.meetup.com/womeninappsec/events/281922373/",
-        "timezone": "US/Eastern",
-        "description": "<p>The OWASP Diversity and Inclusion Committee is proud to present our CTF event for 2021 in collaboration with many OWASP UK Chapters (including; Dorset, Bristol, Cambridge, London, Newcastle, Reading, Suffolk).</p> <p>The CTF will be hosted by Security Innovation and be instructor lead. It combines with Security Innovation's CMD+Ctrl Bootcamp and they are extending an offer to all participants for 4-weeks FREE access to the self-paced training courses.</p> <p>Although the event is online, as this is a live participatory event it will not be recorded.</p> <p>Event registration link will be shared nearer to the time</p> "
     },
     {
         "group": "Devslop",
