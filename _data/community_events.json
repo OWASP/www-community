@@ -360,6 +360,16 @@
         "description": "<p>The OWASP Victoria chapter is proud to present our next quarterly event. Jeevan Singh will be delivering a talk with an accompanying workshop on Threat Modelling 101.</p> <p>The event will be held on November 23 from 5:30 pm to 8:00 pm PT.</p> <p>This event will feature Jeevan\u2019s talk followed by a Q&amp;A, workshop, and a draw for a prize (must be a registered member and reside in Canada). Join us for an evening of threat modelling!</p> <p>Visit our OWASP Chapter to learn more about us at:<br/><a href=\"https://owasp.org/www-chapter-victoria/\" class=\"linkified\">https://owasp.org/www-chapter-victoria/</a></p> <p>Speaker: Jeevan Singh<br/>Presentation: Talk, Q&amp;A, and accompanying workshop</p> <p>Event Details:</p> <p>Threat Modelling is a great way to discover and remediate threats in your system before they are even created. Security professionals commonly perform it, but anyone can do threat modelling. This hands-on workshop will cover the threat modelling workflow, common classes of vulnerabilities, and hands-on examples that will have *you* discover threats in different systems. Threat Modelling is an integral part of every company\u2019s Security Development Lifecycle. Still, as development teams grow more prominent, security will have to choose which features they want to Threat Model, or they will become a bottleneck for the development organization.</p> <p>Speaker Biography:</p> <p>Jeevan Singh is an Application Security Engineering Manager for Twilio Segment (<a href=\"https://segment.com\" class=\"linkified\">https://segment.com</a>), where he is embedding security into all aspects of the software development process. Jeevan enjoys building a security culture within organizations and educating staff on security best practices. Jeevan is responsible for a wide variety of tasks, including architecting security solutions, working with development teams to resolve security vulnerabilities, and building out security features. Before life in the security space, Jeevan had a wide variety of development and leadership roles over the past 15 years.</p> "
     },
     {
+        "group": "Waterloo",
+        "repo": "www-chapter-waterloo",
+        "name": "Security Champions establishment and lessons learned (Part 2)",
+        "date": "2021-12-02",
+        "time": "19:30",
+        "link": "https://www.meetup.com/owasp-waterloo-meetup-group/events/282221032/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>We are trilled to have a guest speaker and recent member join us in a look back at lessons learned running a security champions program.</p> <p>Almost a year ago Connor delivered a talk on what it took to create a security champions program from scratch. Now he is here to share what he has learned over the last year and answer outstanding questions. If you haven\u2019t yet seen the original talk you should give it a once over, you can find it here <a href=\"https://www.youtube.com/watch?v=0fnEy1q0TZ0\" class=\"embedded\">https://www.youtube.com/watch?v=0fnEy1q0TZ0</a></p> <p>In this presentation we are going to quickly recap how to establish a program before diving right into how to improve your training, boost retention, and measure success. At the end of this discussion everyone should have a better understanding of how to better lead and measure a security champions program.</p> <p>More information and speaker bio:<br/><a href=\"https://owasp.org/www-chapter-waterloo/\" class=\"linkified\">https://owasp.org/www-chapter-waterloo/</a></p> "
+    },
+    {
         "group": "Zhytomyr",
         "repo": "www-chapter-zhytomyr",
         "name": "OWASP Zhytomyr 2021 Meetup #3",
@@ -378,5 +388,15 @@
         "link": "https://www.meetup.com/womeninappsec/events/281539760/",
         "timezone": "US/Eastern",
         "description": "<p>This talk will discuss about Cloud Security. What are the security services provided by CSPs. How we can manage our resources on Cloud.</p> <p>Dr. Abhilasha Vyasr's LinkedIn profile: <a href=\"https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199\" class=\"linkified\">https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199</a></p> "
+    },
+    {
+        "group": "Devslop",
+        "repo": "www-project-devslop",
+        "name": "Security in Kubernetes - How to do it right! with Nana",
+        "date": "2021-12-05",
+        "time": "10:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/281944088/",
+        "timezone": "Canada/Eastern",
+        "description": "<p>Kubernetes is becoming the standard in the DevOps world. Teams are adopting it very fast, but rarely with enough time to really understand how it works and what are all the right ways to configure and work with K8s. And lacking the knowledge in k8s can of course lead to various misconfigurations and security issues in k8s clusters. So in this episode, we will see some of the easy and practical ways to make sure we configure and run secure clusters.</p> <p>NANA JANASHIA<br/>Nana is a DevOps engineer and trainer. She started the Techworld with Nana channel to share her expertise about various DevOps topics and to help DevOps enthusiasts get into the field easier and with more motivation. Through her channel and different courses, she has reached millions of people. Her passion is to explain complex topics easily so that everyone understands them. She consults teams of developers to help them improve their existing processes for CI/CD, containerization and orchestration.</p> "
     }
 ]
