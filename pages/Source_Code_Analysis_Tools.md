@@ -64,7 +64,7 @@ SAST tool feedback can save time and effort, especially when compared to finding
 - Ability to include in Continuous Integration/Deployment tools
 - License cost (May vary by user, organization, app, or lines of code)
 - Interoperability of output:
-  - See OASIS [SARIF (Static Analysis Results Interchange Format)](Static Analysis Results Interchange Format) standard
+  - See OASIS [SARIF (Static Analysis Results Interchange Format)](https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/sarif-v2.1.0-os.html) standard
 
 ## Disclaimer
 
