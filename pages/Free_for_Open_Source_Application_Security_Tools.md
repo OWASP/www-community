@@ -101,7 +101,7 @@ capabilities. Our primary recommendation is to use one of these:
         Jenkins](https://www.we45.com/blog/how-to-integrate-zap-into-jenkins-ci-pipeline-we45-blog)).
   - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
     tool built on OWASP ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
-    development and in CI/CD. The StackHawk platform allows you to manage finding over time in 
+    development and in CI/CD. The StackHawk platform allows you to manage findings over time in 
     different environements. StackHawk is free for OpenSource projects and free to use on a single application.
   - [Arachni](http://www.arachni-scanner.com/) - Arachni is a
     commercially supported scanner, but its free for most use cases,
