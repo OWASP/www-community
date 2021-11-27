@@ -70,16 +70,6 @@
         "description": "<p>OWASP Bristol will be hosting this oline event:</p> <p>Agenda:<br/>* OWASP Updates<br/>* Talk: Easily avoid IaC misconfigurations across the different platforms, with Ori Bendet<br/>* Open discussion</p> <p>Talk Title: Easily avoid IaC misconfigurations across the different platforms</p> <p>Abstract:<br/>Infrastructure as Code (IaC)\u202fmakes deploying cloud or container configurations scalable and faster. If you are launching a microservice into a Kubernetes cluster, or even building an entire AWS virtual infrastructure, IaC can automate the deployment. By building repeatable templates you can also ensure that deployments happen exactly as you design, every time. However, errors in infrastructure configuration are now regarded as the second biggest cause of data breaches. There are many ways to give adversaries an advantage through security misconfigurations. Overly permissive storage volumes, unauthenticated database access, or ports left open to the internet have all been a cause of compromise. The solution? Treat your infrastructure code the same as your application code. During your build process, use tools to scan for infrastructure misconfigurations. When you find them raise alerts or even break the build.</p> <p>In this session, we will discuss common types of IaC misconfigurations, and demonstrate a free, open-source security tool that developers can build into their pipelines to help protect infrastructure from compromise.</p> <p>About Ori Bendet<br/>An experienced product leader combining strong technical and marketing skills, Ori has been leading Checkmarx's flagship product, CxSAST (Static Application Security Testing), a Gartner and Forrester market-leading solution, serving thousands of customers worldwide for the last 2 years. Prior to Checkmarx, he was in Time To Know, HPE, PicApp and Bezeq in various product and engineering positions.</p> <p>The talk will be streamed on @YouTube - will publish the link closer to event .<br/>If you would like to be notified when a new video is published, please feel free to subscribe to OWASP Bristol's channel at:<br/><a href=\"https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ\" class=\"embedded\">https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ</a></p> "
     },
     {
-        "group": "Erode",
-        "repo": "www-chapter-erode",
-        "name": "JVM Reverse Engineering Introduction ",
-        "date": "2021-11-27",
-        "time": "19:00",
-        "link": "https://www.meetup.com/owasp-erode/events/281962663/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>OWASP Erode's November Session on JVM Reverse Engineering. The Session will be conducted online (google meet) Maximum Duration 1 hour. The Entire Session will be on Tamil and the Google Meet link will provided day before the session.</p> "
-    },
-    {
         "group": "Gothenburg",
         "repo": "www-chapter-gothenburg",
         "name": "OWASP S\u00e4kPub",
@@ -120,6 +110,16 @@
         "description": "<p>Agenda:<br/>18:00-18:20 Opening words and news from OWASP - Pekka Sillanp\u00e4\u00e4, Chapter leader, OWASP Helsinki chapter<br/>18:20-19:20 Threat Modeling in 2021 - Adam Shostack, President, Shostack + Associates</p> <p>- !!!! Note!! Due to the Covid-19 situation this event has been changed to Online event only !!!!<br/>- Updated the time in agenda!</p> <p>\u201cThreat Modeling in 2021\u201d - Abstract:<br/>Attacks always get better, so your threat modeling needs to evolve. Learn what's new and important in threat modeling in 2021. Computers that are things are subject to different threats, and systems face new threats from voice cloning and computational propaganda and the growing importance of threats \u201cat the human layer.\u201d Take home actionable ways to ensure your security engineering is up to date.</p> <p>Adam Shostack bio (<a href=\"https://shostack.org\" class=\"linkified\">https://shostack.org</a>):<br/>Adam is a leading expert on threat modeling, and a consultant, entrepreneur, technologist, author and game designer. He's a member of the BlackHat Review Board, and helped create the CVE and many other things. He currently helps many organizations improve their security via Shostack &amp; Associates, and helps startups become great businesses as an advisor and mentor. While at Microsoft, he drove the Autorun fix into Windows Update, was the lead designer of the SDL Threat Modeling Tool v3 and created the \"Elevation of Privilege\" game. Adam is the author of Threat Modeling: Designing for Security, and the co-author of The New School of Information Security.</p> "
     },
     {
+        "group": "Hungary",
+        "repo": "www-chapter-hungary",
+        "name": "\u00daj az OWASP TOP 10! Mi \u00fajs\u00e1g? + Hardverkulcsokr\u00f3l fejleszt\u0151knek [HU] [Szeged]",
+        "date": "2021-12-02",
+        "time": "17:00",
+        "link": "https://www.meetup.com/OWASP-HU/events/282319112/",
+        "timezone": "Europe/Budapest",
+        "description": "<p>Ez egy r\u00e9g\u00f3ta v\u00e1rt *szegedi* \u00f6sszej\u00f6vetel (online k\u00f6zvet\u00edt\u00e9s n\u00e9lk\u00fcl).<br/>Az este folyam\u00e1n k\u00e9t el\u0151ad\u00e1sra ker\u00fcl sor. A v\u00e9g\u00e9n n\u00e9mi vend\u00e9gl\u00e1t\u00e1s \u00e9s besz\u00e9lget\u00e9s is lesz.</p> <p>Dr. N\u00e9meth L. Zolt\u00e1n: \u00daj az OWASP TOP 10! Mi \u00fajs\u00e1g?</p> <p>Az OWASP Top 10 egy figyelemfelkelt\u0151 lista a webalkalmaz\u00e1sok legkritikusabb biztons\u00e1gi kock\u00e1zatair\u00f3l. Az\u00e9rt, hogy a fejleszt\u0151knek aktu\u00e1lis inform\u00e1ci\u00f3kkal szolg\u00e1ljon 3-4 \u00e9vente meg\u00faj\u00edtj\u00e1k, ez\u00e9rt l\u00e1tott nemr\u00e9g napvil\u00e1got az \u00faj 2021-es kiad\u00e1s. A tal\u00e1lkoz\u00f3n r\u00f6viden bemutatjuk, hogyan k\u00e9sz\u00fclt az OWASP TOP10-2021, miben v\u00e1ltozott az el\u0151z\u0151ekhez k\u00e9pest, \u00e9s term\u00e9szetesen r\u00f6viden a lista elemein is v\u00e9gigmegy\u00fcnk. Ez egy\u00fattal alkalmat teremt arra is, hogy IT biztons\u00e1gi tud\u00e1sszintt\u0151l f\u00fcggetlen\u00fcl \u2013 hiszen a TOP10 kifejezetten az els\u0151 l\u00e9p\u00e9sek megt\u00e9tel\u00e9r\u0151l sz\u00f3l \u2013 besz\u00e9lgess\u00fcnk a biztons\u00e1gos webfejleszt\u00e9sr\u0151l, \u00e9s hogy l\u00e1ssuk merre halad az alkalmaz\u00e1sbiztons\u00e1g napjainkban.</p> <p>Csatai B\u00e1lint \u2013 Petrovszki G\u00e1bor: Hardverkulcsokr\u00f3l fejleszt\u0151knek \u00e9s \u00fczemeltet\u0151knek</p> <p>Az el\u0151ad\u00e1son megismerhetj\u00fck a FIDO2, OTP, GPG el\u0151nyeit. Yubikey smartcard haszn\u00e1lat\u00e1val bemutatjuk a k\u00e9tfaktoros Windows, SSH \u00e9s git hiteles\u00edt\u00e9st, a git commitok al\u00e1\u00edr\u00e1s\u00e1t (code signing), tov\u00e1bb\u00e1 a GPG/PGP haszn\u00e1lat\u00e1t v\u00e1llalati levelez\u00e9shez.</p> <p>FB esem\u00e9ny:<br/><a href=\"https://www.facebook.com/events/622481339196186\" class=\"linkified\">https://www.facebook.com/events/622481339196186</a></p> <p>Host: Gammaorg Zrt.<br/><a href=\"https://gammaorg.hu/\" class=\"linkified\">https://gammaorg.hu/</a></p> "
+    },
+    {
         "group": "Istanbul",
         "repo": "www-chapter-istanbul",
         "name": "Siber G\u00fcvenlik Sekt\u00f6r\u00fcnde Kariyer Yapmak",
@@ -128,16 +128,6 @@
         "link": "https://www.meetup.com/OWASPistanbul/events/282161960/",
         "timezone": "Europe/Istanbul",
         "description": "<p>Merhaba etkinlik OWASP Mugla University ve GDG&amp;WTM Mu\u011fla i\u015fbirli\u011finde ger\u00e7ekle\u015fecektir. Sunumda kariyer yolculu\u011fundan bahsedilecektir.</p> "
-    },
-    {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "OWASP x Digital Katalis",
-        "date": "2021-11-26",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/281863881/",
-        "timezone": "Asia/Jakarta",
-        "description": "<p>Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026<br/>\u2022 Tool dan standar keamanan aplikasi<br/>\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan<br/>\u2022 Kendali keamanan dan pustaka standar<br/>\u2022 Cabang lokal di seluruh dunia<br/>\u2022 Riset terkini<br/>\u2022 Konferensi lengkap di seluruh dunia<br/>\u2022 Mailing list<br/>\u2022 Dan banyak lagi \u2026 di www.owasp.org</p> <p>Kali ini Kolaborasi OWASP x Dkatalis akan membahas :</p> <p>1. \"The Implementation of DevSecOps Process by DKatalis in their products, the Jago app\" by Yohanes Syailendra</p> <p>Short description of topic:</p> <p>A conversation on how DevSecOps implementation in DKatalis helps them integrate and automate security into the entire testing, development, and delivery process; enabling their product, such as Jago App to deliver a secure and seamless experience at speed.</p> <p>Short bio of speaker:</p> <p>Having 10 years of working experience in IT, Yohanes Syailendra has significant experience and deep knowledge in Technology Assessment and Cyber Security Services, especially in DevSecOps implementation.</p> <p>Outside of his work as Application Security Lead at DKatalis, Yohanes is also active as a lecturer and trainer at various events in Government and Cyber Communities, as well as leading nationwide research in Cyber Security Community (Indonesia Honeynet Project).</p> <p>2. \"Cyber Intelligence Practice\" By Fajrin Nur Hidayat</p> <p>Abtract;</p> <p>Cyber Intelligence is mainly categorized as strategic, tactical, technical, and operational.</p> <p>Short bio of speaker:</p> <p>Fajrin Nur Hidayat is Board Member of OWASP Jakarta, Juga merangkap Head of Cyber Intelligence of AppSec.asia (PT.Aplikasi Siber Teknologi)</p> <p>Venue :</p> <p>Online by zoom</p> <p>Topic: DevSecOps Process : OWASP x DKatalis<br/>Time: Nov 26, 2021 06:45 PM Jakarta<br/>Join Zoom Meeting<br/><a href=\"https://us06web.zoom.us/j/5013718447?pwd=T1B2UE1NQmx3N1RDRHNqVGxjL3Jqdz09\" class=\"linkified\">https://us06web.zoom.us/j/5013718447?pwd=T1B2UE1NQmx3N1RDRHNqVGxjL3Jqdz09</a><br/>Meeting ID: 501 371 8447<br/>Passcode: OWASPDK</p> <p>Time: Nov 26, 2021 07:00 PM Jakarta</p> <p>This event supported by DKatalis (dkatalis.co) &amp; Appsec.asia <a href=\"https://appsec.asia\" class=\"linkified\">https://appsec.asia</a></p> <p>Catatan :<br/>Acara Ini Free for Everyone<br/>Acara ini Di deliver dengan Bahasa Indonesia</p> "
     },
     {
         "group": "Lagos",
@@ -158,6 +148,16 @@
         "link": "https://www.meetup.com/OWASP-MSP-Meetup/events/282157443/",
         "timezone": "US/Central",
         "description": "<p>OWASP updated its venerable Top 10 list this year, including changes and additions worthy of discussion. We'll also discuss how the Top 10 is chosen, a brief history of the changes over the years, and ask how it stacks up to your experience in the industry.</p> "
+    },
+    {
+        "group": "Mugla University",
+        "repo": "www-chapter-mugla-university",
+        "name": "Siber G\u00fcvenlik Sekt\u00f6r\u00fcnde Kariyer Yapmak - R\u00fcmeysa Bozdemir",
+        "date": "2021-11-29",
+        "time": "17:30",
+        "link": "https://www.meetup.com/owasp-mugla-university-student-chapter/events/282325474/",
+        "timezone": "Europe/Istanbul",
+        "description": "<p>OWASP Mugla University &amp; WTM Mugla ile haz\u0131rlanan \u201cTan\u0131nan Hacker\u201d serimizin ilkine haz\u0131r m\u0131s\u0131n\u0131z</p> <p>Youtube\u2019da \u201dBili\u015fimci K\u0131z\u201d ad\u0131yla tan\u0131nan R\u00fcmeysa Bozdemir ile Siber G\u00fcvenlik Bran\u015flar\u0131 ve Sekt\u00f6rde Kad\u0131nlar\u0131n Yeri hakk\u0131nda konu\u015faca\u011f\u0131z.</p> <p>29 Kas\u0131m Pazartesi g\u00fcn\u00fc 17.30\u2019da M\u00fchendislik Fak\u00fcltesi, A Konferans Salonu\u2019nda yap\u0131lacak olan etkinli\u011fimiz i\u00e7in Covid \u00f6nlemleri dolay\u0131s\u0131yla kontenjan s\u0131n\u0131rlamas\u0131 bulunmaktad\u0131r. Ge\u00e7 kalmadan kay\u0131t formunu doldurunuz.</p> <p>Kay\u0131t Formu: <a href=\"https://forms.gle/12cumbnuSAW6YsER8\" class=\"linkified\">https://forms.gle/12cumbnuSAW6YsER8</a></p> "
     },
     {
         "group": "New Zealand",
