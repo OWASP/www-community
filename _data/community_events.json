@@ -30,16 +30,6 @@
         "description": "<p>Joint event with OWASP Dorset (<a href=\"https://www.meetup.com/OWASP-Dorset-Chapter/\" class=\"linkified\">https://www.meetup.com/OWASP-Dorset-Chapter/</a>) + Suffolk (<a href=\"https://www.meetup.com/OWASP-Suffolk-Chapter/\" class=\"linkified\">https://www.meetup.com/OWASP-Suffolk-Chapter/</a>)</p> <p>Agenda:<br/>* OWASP Updates<br/>* Talk: Easily avoid IaC misconfigurations across the different platforms, with Ori Bendet<br/>* Open discussion</p> <p>Talk Title: Easily avoid IaC misconfigurations across the different platforms</p> <p>Abstract:<br/>Infrastructure as Code (IaC)\u202fmakes deploying cloud or container configurations scalable and faster. If you are launching a microservice into a Kubernetes cluster, or even building an entire AWS virtual infrastructure, IaC can automate the deployment. By building repeatable templates you can also ensure that deployments happen exactly as you design, every time. However, errors in infrastructure configuration are now regarded as the second biggest cause of data breaches. There are many ways to give adversaries an advantage through security misconfigurations. Overly permissive storage volumes, unauthenticated database access, or ports left open to the internet have all been a cause of compromise. The solution? Treat your infrastructure code the same as your application code. During your build process, use tools to scan for infrastructure misconfigurations. When you find them raise alerts or even break the build.</p> <p>In this session, we will discuss common types of IaC misconfigurations, and demonstrate a free, open-source security tool that developers can build into their pipelines to help protect infrastructure from compromise.</p> <p>About Ori Bendet<br/>An experienced product leader combining strong technical and marketing skills, Ori has been leading Checkmarx's flagship product, CxSAST (Static Application Security Testing), a Gartner and Forrester market-leading solution, serving thousands of customers worldwide for the last 2 years. Prior to Checkmarx, he was in Time To Know, HPE, PicApp and Bezeq in various product and engineering positions.</p> <p>The talk will be streamed on @YouTube - will publish the link closer to event .<br/>If you would like to be notified when we a new video is published, please feel free to subscribe on our channel at:<br/><a href=\"https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ\" class=\"embedded\">https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ</a></p> "
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Top 10 V2021 Awareness - A1 A2",
-        "date": "2021-11-27",
-        "time": "10:30",
-        "link": "https://www.meetup.com/OWASP-Cairo-Chapter/events/282140385/",
-        "timezone": "Africa/Cairo",
-        "description": "<p>OWASP Top 10 Awareness Program</p> <p>The OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.</p> <p>The first day of the awareness\u00a0program includes four sessions covering the first two of OWASP top 10 risks and Mitigations,</p> <p>Location: Online Event, the event link will be shared after registration.</p> <p>Date: 27 November 2021</p> <p>1- Introduction to OWASP Top 10 Project\u00a0[By:\u00a0Ahmed Abdallah] 10:30 to 11:00<br/>2- A01:2021-Broken Access Control Break\u00a0[By:\u00a0Mahmoud Hendy] 11:00 to 12:00<br/>3- A02:2021-Cryptographic Failures [By:\u00a0Muhammad Ahmad] 12:00 to 13:00<br/>4- Online Competition &amp; Event Closing\u00a0[By: Ahmed Abdallah] 13:00 to 14:00</p> "
-    },
-    {
         "group": "Cambridge",
         "repo": "www-chapter-cambridge",
         "name": "ARU CSNRG, OWASP Cambs & BCS Cybercrime SG \u201cZero Trust and API Risk Management\u201d ",
@@ -127,17 +117,7 @@
         "time": "17:30",
         "link": "https://www.meetup.com/OWASPistanbul/events/282161960/",
         "timezone": "Europe/Istanbul",
-        "description": "<p>Merhaba etkinlik OWASP Mugla University ve GDG&amp;WTM Mu\u011fla i\u015fbirli\u011finde ger\u00e7ekle\u015fecektir. Sunumda kariyer yolculu\u011fundan bahsedilecektir.</p> "
-    },
-    {
-        "group": "Lagos",
-        "repo": "www-chapter-lagos",
-        "name": "OWASP TALKS",
-        "date": "2021-11-27",
-        "time": "12:00",
-        "link": "https://www.meetup.com/OWASP-Lagos-Meetup-Group/events/282109431/",
-        "timezone": "Africa/Lagos",
-        "description": "<p>* SOCaaS/Cybersecurity Operational Resiliency</p> <p>SOC offers a unified risk-based cybersecurity operational resiliency to businesses, and offering SOC-as-Services provides 5 key steps to achieving and maintaining statutory and regulatory compliance via<br/>1. Running a unified platform<br/>2. Knowing your Environment<br/>3. Managing your risk<br/>4. Monitoring &amp; reporting risk<br/>5. Building a strong team</p> <p>* How to Implement and use Secure Code Libraries</p> <p>-Automated Threat Modeling of a website.<br/>-Identify vulnerabilities in code<br/>-Fix the with code libraries vulnerabilities<br/>-How to create your own SAST</p> <p>* SAST, SCA, DAST, IAST, application security testing demystified</p> <p>When starting with security, you hear about all kinds of AST abilities, tools that do the one on the other, and the claims of the various tools vendors', that are as real as the fuel consumption prediction of a car manufacturer's brochure.<br/>During the presentation, you will learn about the justification of each AST, the pros and cons, and how they fit into a modern software development pipeline.</p> <p>* Enterprise DevSecOps - E2E process &amp; tooling</p> <p>Enterprise DevSecOps automatically bakes in security at every phase of the software development lifecycle, enabling the development of secure software at the speed of Agile and DevOps.</p> <p>DevSecOps integrates application and infrastructure security seamlessly into Agile and DevOps processes and tools.<br/>This session provides a holistic approach to integrating security controls across the CICD pipeline exploring enterprise use-case that shows best-in-class Security tools from Threat Modelling to operations monitoring for continuous improvement.</p> <p>* Defending Web Application Beyond Secure Coding</p> <p>Defending a web application beyond secure coding Security enables us to offer our customers complete security &amp; prevent web applications from other Dangerous Vulnerabilities that could give threat actors ways to compromise a web application.</p> "
+        "description": "<p>Merhaba etkinlik OWASP Mugla University ve GDG&amp;WTM Mu\u011fla i\u015fbirli\u011finde ger\u00e7ekle\u015fecektir. Sunumda kariyer yolculu\u011fundan bahsedilecektir.<br/>Linkteki formdan kay\u0131t olunmas\u0131 gerekmektedir.<br/><a href=\"https://forms.gle/12cumbnuSAW6YsER8\" class=\"linkified\">https://forms.gle/12cumbnuSAW6YsER8</a></p> "
     },
     {
         "group": "Minneapolis St Paul",
@@ -308,16 +288,6 @@
         "link": "https://www.meetup.com/owasp-waterloo-meetup-group/events/282221032/",
         "timezone": "Canada/Eastern",
         "description": "<p>We are trilled to have a guest speaker and recent member join us in a look back at lessons learned running a security champions program.</p> <p>Almost a year ago Connor delivered a talk on what it took to create a security champions program from scratch. Now he is here to share what he has learned over the last year and answer outstanding questions. If you haven\u2019t yet seen the original talk you should give it a once over, you can find it here <a href=\"https://www.youtube.com/watch?v=0fnEy1q0TZ0\" class=\"embedded\">https://www.youtube.com/watch?v=0fnEy1q0TZ0</a></p> <p>In this presentation we are going to quickly recap how to establish a program before diving right into how to improve your training, boost retention, and measure success. At the end of this discussion everyone should have a better understanding of how to better lead and measure a security champions program.</p> <p>More information and speaker bio:<br/><a href=\"https://owasp.org/www-chapter-waterloo/\" class=\"linkified\">https://owasp.org/www-chapter-waterloo/</a></p> "
-    },
-    {
-        "group": "Wia",
-        "repo": "www-committee-wia",
-        "name": "Cloud Security by Dr. Abhilasha Vyas",
-        "date": "2021-11-27",
-        "time": "13:00",
-        "link": "https://www.meetup.com/womeninappsec/events/281539760/",
-        "timezone": "US/Eastern",
-        "description": "<p>This talk will discuss about Cloud Security. What are the security services provided by CSPs. How we can manage our resources on Cloud.</p> <p>Dr. Abhilasha Vyasr's LinkedIn profile: <a href=\"https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199\" class=\"linkified\">https://www.linkedin.com/in/dr-abhilasha-rakesh-vyas-96a15b199</a></p> "
     },
     {
         "group": "Devslop",
