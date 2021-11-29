@@ -62,6 +62,26 @@
     {
         "group": "Gothenburg",
         "repo": "www-chapter-gothenburg",
+        "name": "OWASP GBG & CloudNativeGBG  \"The sequel\"",
+        "date": "2021-12-16",
+        "time": "17:00",
+        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/282364562/",
+        "timezone": "Europe/Stockholm",
+        "description": "<p>Yes you've read that correctly, once again CloudNativeGBG joins us for some cool talks.<br/>This time we turn things around. Instead of how one could hack the Cloud, that the talks was about at the last event. We now take on how do we Secure the Cloud?</p> <p>---&gt; As this is will be a physical event, we expect all participants to be fully vaccinated!!</p> "
+    },
+    {
+        "group": "Gothenburg",
+        "repo": "www-chapter-gothenburg",
+        "name": "OWASP GBG & Secure Code Warrior Teams up",
+        "date": "2021-12-09",
+        "time": "17:00",
+        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/282364274/",
+        "timezone": "Europe/Stockholm",
+        "description": "<p>Just when the cold winter is upon us, we at OWASP GBG heat things up with Secur Code Warriors! Secure Code Warrior pioneer a human-led approach that uncovers the secure developer inside every coder.</p> <p>---&gt; As this is will be a physical event, we expect all participants to be fully vaccinated!!</p> <p>*When we know how many people the venue can take, we will increese the attendee number.</p> "
+    },
+    {
+        "group": "Gothenburg",
+        "repo": "www-chapter-gothenburg",
         "name": "OWASP S\u00e4kPub",
         "date": "2021-12-02",
         "time": "17:30",
@@ -240,16 +260,6 @@
         "description": "<p>Please join us to play/train in Hack The Box (HTB), what you need is a Hack the Box account, free is cool, join us in discord (link <a href=\"https://discord.com/invite/uAWze2B\" class=\"linkified\">https://discord.com/invite/uAWze2B</a>) - FC-Announcements-Voice Channel, please ensure, after registration in Discord you go to the Bot and accept the Code of Conduct, otherwise, you won't be able to access the channels.</p> <p>There is no format to this night, we just want to get together to have some fun playing some battlegrounds, doing some of the machines or challenges; having fun overall!</p> <p>Please make sure you know the basics about HTB, eg. how to connect to the HTB VPN and that you have a valid account.</p> "
     },
     {
-        "group": "Thoothukudi",
-        "repo": "www-chapter-thoothukudi",
-        "name": "Software Security - Vandana Verma",
-        "date": "2021-11-28",
-        "time": "16:00",
-        "link": "https://www.meetup.com/owasp-thoothukudi-meetup-group/events/282185677/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Hello guys, Hope you all are well. We are back again.</p> <p>There have been 17695 security vulnerabilities (CVEs) published so far in 2021. The average severity is 7.1 out of 10 according to the reports. At this time, we have to know about how to secure software.</p> <p>We are glad to have Vandana Verma - Security relations leader at SNYK, Global director of OWASP as our speaker to have a talk about Software Security.</p> <p>This time, We have collaborated with Digisafenations, a cybersecurity community that has organized one of the largest-free cybersecurity events in Chennai, and we\u2019re planning to collaborate with them for our Meetup.</p> <p>Date: 28/11/2021<br/>Time: 4 PM<br/>Topic: Software Security</p> "
-    },
-    {
         "group": "Timisoara",
         "repo": "www-chapter-timisoara",
         "name": "OWASP Timisoara #20 - AI, Bug Bounty & Web Fuzzing (Online)",
@@ -268,6 +278,16 @@
         "link": "https://www.meetup.com/OWASP-Toronto/events/282136603/",
         "timezone": "Canada/Eastern",
         "description": "<p>LIGHTNING TALK<br/>------------------------</p> <p>G0rking \u2013 Google dorking made easy</p> <p>Summary:</p> <p>The presentation will cover briefly what google dorking is, then I will proceed with what is an OWASP project, how one can contribute, how to find various OWASP project, and one or two examples of G0rking usage</p> <p>Presenter:</p> <p>Ignatius Asikin</p> <p>Ignatius is a Senior consultant who specializes in offensive security. Aside from offensive security practices, Ignatius has also led numerous cyber maturity assessment engagements, architecture review, and is currently an instructor at Seneca College.</p> <p>TALK<br/>-------</p> <p>Software Composition Analysis 101: Knowing what\u2019s inside your apps</p> <p>Summary:</p> <p>The term Software Composition Analysis (SCA) is relatively new to the security world. However, similar approaches have been used since the early 2000s to indicate security verifications on open source components. SCA has become an evolution of that. It is the process of identifying and listing all the components and versions present in the code and checking each specific service and looking for outdated or vulnerable libraries that may impose security risks to the application. These tools can also check for legal issues regarding the use of open-source software with different licensing terms and conditions. Nevertheless, how those SCA tools work, and how can they help identify and remediate issues on open source libraries used in a codebase? This talk aims to focus on and explain to the audience by showing how these tools work and the main pieces of information that these tools rely on, such as the application manifest, vulnerability data sources, and dependency metadata.</p> <p>Audience Takeaways<br/>SCA tools and techniques are here to stay, and their usage is increasing in many organizations where security is a priority. Unfortunately, AppSec teams cannot keep up with all the new vulnerabilities published daily. Make sure to look for solutions that can adequately adapt to your own way of building software. They need to cover the programming languages used in your organization and identify issues on indirect dependencies, not just relying on public CVEs to find those issues.</p> <p>Presenter:</p> <p>Magno Logan works as an Information Security Specialist for Trend Micro. He specializes in Cloud, Container and Application Security Research, Threat Modelling and Red Teaming. He has been tapped as a resource speaker for numerous security conferences around the globe. He is also a member of the CNCF SIG-Security team</p> "
+    },
+    {
+        "group": "Triangle Nc",
+        "repo": "www-chapter-triangle-nc",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2021-12-30",
+        "time": "18:30",
+        "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccqbnc/",
+        "timezone": "US/Eastern",
+        "description": "<p>TBA</p> "
     },
     {
         "group": "Vancouver",
