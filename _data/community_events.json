@@ -27,7 +27,7 @@
         "time": "18:00",
         "link": "https://www.meetup.com/OWASP-Bristol/events/281869377/",
         "timezone": "Europe/London",
-        "description": "<p>Joint event with OWASP Dorset (<a href=\"https://www.meetup.com/OWASP-Dorset-Chapter/\" class=\"linkified\">https://www.meetup.com/OWASP-Dorset-Chapter/</a>) + Suffolk (<a href=\"https://www.meetup.com/OWASP-Suffolk-Chapter/\" class=\"linkified\">https://www.meetup.com/OWASP-Suffolk-Chapter/</a>)</p> <p>Agenda:<br/>* OWASP Updates<br/>* Talk: Easily avoid IaC misconfigurations across the different platforms, with Ori Bendet<br/>* Open discussion</p> <p>Talk Title: Easily avoid IaC misconfigurations across the different platforms</p> <p>Abstract:<br/>Infrastructure as Code (IaC)\u202fmakes deploying cloud or container configurations scalable and faster. If you are launching a microservice into a Kubernetes cluster, or even building an entire AWS virtual infrastructure, IaC can automate the deployment. By building repeatable templates you can also ensure that deployments happen exactly as you design, every time. However, errors in infrastructure configuration are now regarded as the second biggest cause of data breaches. There are many ways to give adversaries an advantage through security misconfigurations. Overly permissive storage volumes, unauthenticated database access, or ports left open to the internet have all been a cause of compromise. The solution? Treat your infrastructure code the same as your application code. During your build process, use tools to scan for infrastructure misconfigurations. When you find them raise alerts or even break the build.</p> <p>In this session, we will discuss common types of IaC misconfigurations, and demonstrate a free, open-source security tool that developers can build into their pipelines to help protect infrastructure from compromise.</p> <p>About Ori Bendet<br/>An experienced product leader combining strong technical and marketing skills, Ori has been leading Checkmarx's flagship product, CxSAST (Static Application Security Testing), a Gartner and Forrester market-leading solution, serving thousands of customers worldwide for the last 2 years. Prior to Checkmarx, he was in Time To Know, HPE, PicApp and Bezeq in various product and engineering positions.</p> <p>The talk will be streamed on @YouTube - will publish the link closer to event .<br/>If you would like to be notified when we a new video is published, please feel free to subscribe on our channel at:<br/><a href=\"https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ\" class=\"embedded\">https://www.youtube.com/channel/UC1lUjD1zM1gD2JkSa1rxMYQ</a></p> "
+        "description": "<p>Joint event with OWASP Dorset (<a href=\"https://www.meetup.com/OWASP-Dorset-Chapter/\" class=\"linkified\">https://www.meetup.com/OWASP-Dorset-Chapter/</a>) + Suffolk (<a href=\"https://www.meetup.com/OWASP-Suffolk-Chapter/\" class=\"linkified\">https://www.meetup.com/OWASP-Suffolk-Chapter/</a>)</p> <p>Agenda:<br/>* OWASP Updates<br/>* Talk: Easily avoid IaC misconfigurations across the different platforms, with Ori Bendet<br/>* Open discussion</p> <p>Talk Title: Easily avoid IaC misconfigurations across the different platforms</p> <p>Abstract:<br/>Infrastructure as Code (IaC)\u202fmakes deploying cloud or container configurations scalable and faster. If you are launching a microservice into a Kubernetes cluster, or even building an entire AWS virtual infrastructure, IaC can automate the deployment. By building repeatable templates you can also ensure that deployments happen exactly as you design, every time. However, errors in infrastructure configuration are now regarded as the second biggest cause of data breaches. There are many ways to give adversaries an advantage through security misconfigurations. Overly permissive storage volumes, unauthenticated database access, or ports left open to the internet have all been a cause of compromise. The solution? Treat your infrastructure code the same as your application code. During your build process, use tools to scan for infrastructure misconfigurations. When you find them raise alerts or even break the build.</p> <p>In this session, we will discuss common types of IaC misconfigurations, and demonstrate a free, open-source security tool that developers can build into their pipelines to help protect infrastructure from compromise.</p> <p>About Ori Bendet<br/>An experienced product leader combining strong technical and marketing skills, Ori has been leading Checkmarx's flagship product, CxSAST (Static Application Security Testing), a Gartner and Forrester market-leading solution, serving thousands of customers worldwide for the last 2 years. Prior to Checkmarx, he was in Time To Know, HPE, PicApp and Bezeq in various product and engineering positions.</p> <p>The talk will be streamed on @YouTube at:<br/><a href=\"https://youtu.be/KKZJEJF6I0M\" class=\"embedded\">https://youtu.be/KKZJEJF6I0M</a></p> "
     },
     {
         "group": "Cambridge",
@@ -48,6 +48,16 @@
         "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280921296/",
         "timezone": "US/Central",
         "description": "<p>Title:</p> <p>Insider's Guide to Mobile AppSec with OWASP MASVS</p> <p>Description:</p> <p>From the birth of MASVS and MSTG in January 2018 to the most recent updates, the OWASP Mobile Security Project has advanced the state of mobile app security testing dramatically. As supporters and contributors to the Mobile Security Project at OWASP, we have pen tested thousands of mobile apps and scanned millions of commercial apps in the app stores over the years\u2026 and have identified the most common security issues that plague developers and security teams. Whether you are new to mobile pen testing or a veteran looking for the latest tools and tactics, join this session to learn 10 keys to mobile appsec leveraging OWASP MASVS and practical real-world experience.</p> <p>Bio:</p> <p>As Chief Mobility Officer, Brian Reed leads the mobile standards and mobile DevSecOps charge at NowSecure helping orgs deliver secure mobile apps faster. He brings decades of experience in mobile, apps, security, dev, and testing helping Fortune 2000 global customers, federal agencies and mobile innovators. Brian is a compelling storyteller, speaker and writer including OWASP, AllDayDevOps, DevOpsWorld, DevOps Days, RSA, Droidcon, Mobile World Congress, FS-ISAC, and more. Brian is a graduate of Duke University.</p> "
+    },
+    {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's December Meeting!!!",
+        "date": "2021-12-15",
+        "time": "19:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282411718/",
+        "timezone": "US/Mountain",
+        "description": "<p>Food and Drinks are provided; this month's event is social, with some fun entertainment, great content and excellent networking as always.</p> <p>Note:<br/>The CDC says that masks are recommended indoors but not required. The State of Colorado says a mask mandate is NOT in effect.</p> "
     },
     {
         "group": "Dorset",
@@ -72,12 +82,12 @@
     {
         "group": "Gothenburg",
         "repo": "www-chapter-gothenburg",
-        "name": "OWASP GBG & Secure Code Warrior Teams up",
+        "name": "OWASP GBG Secure Coding Tournament",
         "date": "2021-12-09",
-        "time": "17:00",
+        "time": "17:30",
         "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/282364274/",
         "timezone": "Europe/Stockholm",
-        "description": "<p>Just when the cold winter is upon us, we at OWASP GBG heat things up with Secur Code Warriors! Secure Code Warrior pioneer a human-led approach that uncovers the secure developer inside every coder.</p> <p>---&gt; As this is will be a physical event, we expect all participants to be fully vaccinated!!</p> <p>*When we know how many people the venue can take, we will increese the attendee number.</p> "
+        "description": "<p>Just when the cold winter is upon us, we at OWASP GBG heat things up with a security tournament!</p> <p>Try your skills in a set of tasks designed to help developers build secure coding skills. The tournament is aimed at developers interested in security with challenges of varying difficulty for beginner and professional alike. The tournament is arranged in collaboration with Secure Code Warrior (<a href=\"https://www.securecodewarrior.com/products/tournaments\" class=\"linkified\">https://www.securecodewarrior.com/products/tournaments</a>).</p> <p>Food and refreshments will be available provided by our sponsor of the evening, Assured.</p> <p>Bring you laptop and join the fun!</p> <p>---&gt; As this is will be a physical event, we expect all participants to be fully vaccinated!!</p> "
     },
     {
         "group": "Gothenburg",
@@ -90,16 +100,6 @@
         "description": "<p>Winter is coming, dark times are upon us. The next Meltdown is lurking like a Spectre in the shadows.</p> <p>In other words: A perfect time to meet up and discuss our defences!</p> <p>There is no specific theme for this pub-meet but as always there is security on the agenda! So bring a happy mood and yourself and we will see you there!</p> <p>Where: The Golden Days, S\u00f6dra Hamngatan 31, 411 14 G\u00f6teborg<br/>When: December 2, 2021 - 17:30</p> <p>NOTICE: Attendance is registered on Eventbrite: <a href=\"https://www.eventbrite.se/e/owasp-sakpub-tickets-215900533307\" class=\"linkified\">https://www.eventbrite.se/e/owasp-sakpub-tickets-215900533307</a></p> "
     },
     {
-        "group": "Greece",
-        "repo": "www-chapter-greece",
-        "name": "OWASP Greece - The return",
-        "date": "2021-11-30",
-        "time": "19:00",
-        "link": "https://www.meetup.com/owasp-greece-meetup-group/events/282142922/",
-        "timezone": "Europe/Athens",
-        "description": "<p>Rebooting the OWASP Greece chapter is finally happening!</p> <p>Come join us for a quick recap on OWASP, a few talks on current affairs, and some low key community unconference right after to get to know each other and discuss.</p> "
-    },
-    {
         "group": "Guayaquil",
         "repo": "www-chapter-guayaquil",
         "name": "Charlas OWASP y Convenio con Universidad Casa Grande (update)",
@@ -108,16 +108,6 @@
         "link": "https://www.meetup.com/OWASP-Guayaquil-Chapter/events/281873272/",
         "timezone": "America/Guayaquil",
         "description": "<p>Actualizaci\u00f3n Jueves 09 de Diciembre 2021<br/>1. Convenio entre OWASP cap\u00edtulo Guayaquil y la Universidad Casa Grande<br/>2. Nuevo marco OWASP 2021<br/>3. Pentester Web usando contenedores<br/>4. Breve charla sobre la maestr\u00eda en Ciberseguridad de la Universidad Casa Grande</p> "
-    },
-    {
-        "group": "Helsinki",
-        "repo": "www-chapter-helsinki",
-        "name": "OWASP Helsinki chapter meeting #42",
-        "date": "2021-11-30",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Helsinki-Chapter/events/281945668/",
-        "timezone": "Europe/Helsinki",
-        "description": "<p>Agenda:<br/>18:00-18:20 Opening words and news from OWASP - Pekka Sillanp\u00e4\u00e4, Chapter leader, OWASP Helsinki chapter<br/>18:20-19:20 Threat Modeling in 2021 - Adam Shostack, President, Shostack + Associates</p> <p>- !!!! Note!! Due to the Covid-19 situation this event has been changed to Online event only !!!!<br/>- Updated the time in agenda!</p> <p>\u201cThreat Modeling in 2021\u201d - Abstract:<br/>Attacks always get better, so your threat modeling needs to evolve. Learn what's new and important in threat modeling in 2021. Computers that are things are subject to different threats, and systems face new threats from voice cloning and computational propaganda and the growing importance of threats \u201cat the human layer.\u201d Take home actionable ways to ensure your security engineering is up to date.</p> <p>Adam Shostack bio (<a href=\"https://shostack.org\" class=\"linkified\">https://shostack.org</a>):<br/>Adam is a leading expert on threat modeling, and a consultant, entrepreneur, technologist, author and game designer. He's a member of the BlackHat Review Board, and helped create the CVE and many other things. He currently helps many organizations improve their security via Shostack &amp; Associates, and helps startups become great businesses as an advisor and mentor. While at Microsoft, he drove the Autorun fix into Windows Update, was the lead designer of the SDL Threat Modeling Tool v3 and created the \"Elevation of Privilege\" game. Adam is the author of Threat Modeling: Designing for Security, and the co-author of The New School of Information Security.</p> "
     },
     {
         "group": "Hungary",
@@ -140,6 +130,16 @@
         "description": "<p>OWASP updated its venerable Top 10 list this year, including changes and additions worthy of discussion. We'll also discuss how the Top 10 is chosen, a brief history of the changes over the years, and ask how it stacks up to your experience in the industry.</p> "
     },
     {
+        "group": "Nairobi",
+        "repo": "www-chapter-nairobi",
+        "name": "OWASP Top 10 2021",
+        "date": "2021-12-16",
+        "time": "18:00",
+        "link": "https://www.meetup.com/owasp-nairobi-meetup-group/events/282400416/",
+        "timezone": "Africa/Nairobi",
+        "description": "<p>The OWASP Top 10 2021 is out. What's new?What has changed? How is the future of web security look like?</p> "
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "End-of-Year Social (ISIG/OWASP) at 12 Bar",
@@ -150,14 +150,14 @@
         "description": "<p>OWASP and ISIG are teaming up for end-of-year drinks at 12 Bar. See ISIG's event at <a href=\"https://www.meetup.com/ISIG-Christchurch-NZ/events/282202171\" class=\"linkified\">https://www.meetup.com/ISIG-Christchurch-NZ/events/282202171</a> for more details.</p> "
     },
     {
-        "group": "Oklahoma City",
-        "repo": "www-chapter-oklahoma-city",
-        "name": "OWASP Oklahoma City Social ",
-        "date": "2021-11-30",
-        "time": "15:00",
-        "link": "https://www.meetup.com/Oklahoma-City-Chapter-Meetup/events/282192332/",
-        "timezone": "US/Central",
-        "description": "<p>This is an online meeting to socialize and discuss web application security.</p> "
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Virtual Holiday Social",
+        "date": "2021-12-14",
+        "time": "18:00",
+        "link": "https://www.meetup.com/OWASP-OC/events/282409448/",
+        "timezone": "US/Pacific",
+        "description": "<p>To celebrate this holiday season we are holding a (virtual) holiday social event on the Spatial.Chat platform, where you can see and talk to people in small or large groups, just as you would in person.</p> <p>It's been almost two years since our last in-person meeting, so this gives us all an opportunity to see old friends and catch up.</p> <p>The password to the event space will be sent by email the day before the event.</p> <p>We can't raffle off any OWASP swag in this virtual event but we'll raffle some gift cards provided from our sponsors to get your holiday started.</p> <p>--------------------------------------------------------------------------------------<br/>NOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice.</p> "
     },
     {
         "group": "Porto Alegre",
