@@ -1627,5 +1627,14 @@
       "platforms": "SaaS or On-Premises",
       "note": "CloudDefense provides holistic threat intelligence across all attack surfaces - Containers, Kubernetes, Code, Open Source Libraries, APIs and more...",
       "type": "SAST"
+   },
+      {
+      "title": "clj-holmes",
+      "url": "https://github.com/clj-holmes/clj-holmes",
+      "owner": "clj-holmes",
+      "license": "Open Source",
+      "platforms": "Linux and MacOs",
+      "note": "A CLI SAST (Static application security testing) tool which was built with the intent of finding vulnerable Clojure code via rules that use a simple pattern language.",
+      "type": "SAST"
    }
 ]
