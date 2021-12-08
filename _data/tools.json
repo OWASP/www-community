@@ -1637,4 +1637,13 @@
       "note": "A CLI SAST (Static application security testing) tool which was built with the intent of finding vulnerable Clojure code via rules that use a simple pattern language.",
       "type": "SAST"
    }
+     {
+      "title": "OpenVAS by Greenbone",
+      "url": "https://github.com/greenbone/openvas-scanner",
+      "owner": "greenbone",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Open source full-featured vulnerability scanner, developed and maintained by Greenbone Networks GmbH.",
+      "type": "DAST"
+   }
 ]
