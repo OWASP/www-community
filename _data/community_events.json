@@ -80,6 +80,26 @@
         "description": "<p>Para asistir deben registrarse en el enlace <a href=\"https://bit.ly/jsegweb\" class=\"linkified\">https://bit.ly/jsegweb</a></p> <p>Temas:<br/>OWASP 2021<br/>Pentesting Web en contenedores<br/>Convenio Universidad Casa Grande<br/>Maestr\u00eda de Ciberseguridad</p> <p>Jueves 9 de Diciembre del 2021<br/>Hora: 17h30</p> "
     },
     {
+        "group": "Hartford",
+        "repo": "www-chapter-hartford",
+        "name": "(Virtual) \"Breaker\" Pen Test security lunch and learn",
+        "date": "2021-12-29",
+        "time": "12:00",
+        "link": "https://www.meetup.com/CT-Cyber-Security-Meetup-OWASP-Hartford/events/282572004/",
+        "timezone": "US/Eastern",
+        "description": "<p>Agenda:<br/>* OWASP project spotlight focusing on \"Breaker\" (Pen-testing) topics including Nightengale: <a href=\"https://owasp.org/www-project-nightingale/\" class=\"linkified\">https://owasp.org/www-project-nightingale/</a><br/>* Call for volunteers<br/>* 2022 planning</p> "
+    },
+    {
+        "group": "Hartford",
+        "repo": "www-chapter-hartford",
+        "name": "(Virtual) \"Builder\" Developer security lunch and learn",
+        "date": "2021-12-15",
+        "time": "12:00",
+        "link": "https://www.meetup.com/CT-Cyber-Security-Meetup-OWASP-Hartford/events/282571833/",
+        "timezone": "US/Eastern",
+        "description": "<p>Agenda:<br/>* OWASP project spotlight focusing on \"Builder\" (Developer/Engineer) topics including Secure coding checklists<br/>* Call for volunteers<br/>* 2022 planning</p> "
+    },
+    {
         "group": "Israel",
         "repo": "www-chapter-israel",
         "name": "OWASP IL Meetup Dec 2021",
@@ -90,14 +110,14 @@
         "description": "<p>We are eager to see you all, and we are sure you are too, with COVID-19 still around, we are required to comply with the green pass guidelines meaning we will need to see proof of vaccination, recovery or a negative test from the past 72 hours for all attendees and please make sure to wear a mask during the event (except while eating ;) )</p> <p>If attending in person, I acknowledge that I do so at my own risk. OWASP recommends all participants be fully vaccinated before attending in-person events to reduce the risk of severe illness or death.</p> <p>------------------------------------------------------------------------------------------</p> <p>About our host Apiiro<br/>By analyzing signals from Design to Code to Cloud, Apiiro provides asset discovery &amp; risk assessment across application, open source &amp; Infra-as-Code - remediating critical risks to your business.<br/>We are helping every company in the world build &amp; scale their AppSec Program - Automatically!<br/> RSA Innovation Sandbox 2021 Winner<br/> Gartner 2021 Cool Vendor in DevSecOps</p> <p>------------------------------------------------------------------------------------------</p> <p>Agenda:<br/>17:45 - 18:15 - gathering, food &amp; networking</p> <p>18:15 - 18:45 session 1 TBD</p> <p>18:45 - 19:15 session 2 TBD</p> <p>19:15 - 19:30<br/>Break</p> <p>19:15 - 20:00 session 3 TBD</p> "
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly Virtual Meeting - DEC 08, 2021",
-        "date": "2021-12-08",
-        "time": "11:45",
-        "link": "https://www.meetup.com/OWASP-Los-Angeles/events/278725656/",
-        "timezone": "US/Pacific",
-        "description": "<p>Come join us as we hear the monthly presentation by David Hendri, CTO and Co-founder @ Solvo</p> <p>TOPIC: Cloud Security and IAM for Developers and DevOps - How can IAM be exploited and how can you minimize the risks?</p> <p>ABSTRACT: How often do you define permissions for new cloud-native applications? How often do you use the pre-defined vendor suggestion for them or use wildcards? IAM (Identity and Access Management) is an important factor in determining how secured your product will be. Doing it right requires an understanding of how it works and why it is important, which is the purpose of this session.</p> <p>We will talk about what is IAM, how do you use it, what are the risks of an overly permissive configuration - and show a demo of ways to exploit it and how you can minimize the exposure.</p> <p>BIO: David Hendri, CTO and Co-founder @ Solvo</p> <p>Meeting info will be available on meetup - BE SURE TO RSVP to access the link</p> <p>ATTENTION SPONSORS: YOUR NAME COULD BE HERE<br/>Check out sponsorship opportunities here<br/><a href=\"https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471\" class=\"linkified\">https://www.eventbrite.com/e/owasp-los-angeles-chapter-meeting-sponsorship-tickets-30572600471</a></p> "
+        "group": "Maulana Abul Kalam Azad University Of Technology",
+        "repo": "www-chapter-maulana-abul-kalam-azad-university-of-technology",
+        "name": "OWASP MAKAUT Chapter Introductory Session",
+        "date": "2021-12-11",
+        "time": "12:00",
+        "link": "https://www.meetup.com/owasp-makaut/events/282565829/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>OWASP MAKAUT Chapter is organizing an Introductory Session on the 11th of December 2021. Our chapter presents opportunities for the communities in contributing to designing and developing secure cyberspace.<br/>In this session, we are going to discuss:<br/>* Who we are and what can be achieved with OWASP.<br/>* What work can be performed in the current time.<br/>* What impact can be made in the entire dev and sec community.<br/>* What will be future plan on security deliverables.<br/>* What opportunity or support can be expected from this community, to grow in our careers.</p> <p>There is so much to do at the OWASP MAKAUT Chapter it's a perfect blend of training, experiences, and networking. This is an online event Participants will receive a joining link through the mail.<br/>Join us, register now!</p> "
     },
     {
         "group": "Minneapolis St Paul",
@@ -110,16 +130,6 @@
         "description": "<p>OWASP updated its venerable Top 10 list this year, including changes and additions worthy of discussion. We'll also discuss how the Top 10 is chosen, a brief history of the changes over the years, and ask how it stacks up to your experience in the industry.</p> "
     },
     {
-        "group": "Mugla University",
-        "repo": "www-chapter-mugla-university",
-        "name": "GDSC MSKU & OWASP Mugla University - Github 101",
-        "date": "2021-12-08",
-        "time": "18:30",
-        "link": "https://www.meetup.com/owasp-mugla-university-student-chapter/events/282528273/",
-        "timezone": "Europe/Istanbul",
-        "description": "<p>E\u011fitim etkinliklerimize h\u0131z kesmeden devam ediyoruz!</p> <p>GDSC MSKU &amp; OWASP Mugla University i\u015f birli\u011fi ile d\u00fczenleyece\u011fimiz sertifikal\u0131 Github e\u011fitim etkinli\u011fimizde sizleri de aram\u0131zda g\u00f6rmek isteriz.</p> <p>Y\u00fcz milyondan fazla a\u00e7\u0131k kaynak kodlu projeye ev sahipli\u011fi yapan ve sekt\u00f6rdeki \u00e7o\u011fu geli\u015ftiricinin kulland\u0131\u011f\u0131 GitHub'\u0131n ne oldu\u011funu beraber \u00f6\u011frenece\u011fiz.</p> <p>Pandemiden \u00f6t\u00fcr\u00fc etkinli\u011fimizde kat\u0131l\u0131mc\u0131 say\u0131s\u0131n\u0131 s\u0131n\u0131rland\u0131rma durumunday\u0131z. Etkinlik ba\u015fvuru formuna a\u015fa\u011f\u0131daki ba\u011flant\u0131dan ula\u015fabilirsiniz.</p> <p>08.12.2021 - 18.00<br/>Teknoloji Fak\u00fcltesi<br/> Ba\u015fvuru formu: <a href=\"https://forms.gle/f6rExSPYLScZcAjs5\" class=\"linkified\">https://forms.gle/f6rExSPYLScZcAjs5</a></p> <p>NOT:<br/>Kendi bilgisayar\u0131n\u0131 getirecek kat\u0131l\u0131mc\u0131lar\u0131m\u0131za Git kurulumu yapmas\u0131n\u0131 \u00f6neririz.<br/> <a href=\"https://git-scm.com/downloads\" class=\"linkified\">https://git-scm.com/downloads</a></p> <p>E\u011fitim sonunda verilecek olan sertifikadan yararlanabilmek i\u00e7in ba\u015fvuru formuna ge\u00e7erli bir e-posta adresi belirtmeniz gerekmektedir!</p> "
-    },
-    {
         "group": "Nairobi",
         "repo": "www-chapter-nairobi",
         "name": "OWASP Top 10 2021",
@@ -128,16 +138,6 @@
         "link": "https://www.meetup.com/owasp-nairobi-meetup-group/events/282400416/",
         "timezone": "Africa/Nairobi",
         "description": "<p>The OWASP Top 10 2021 is out. What's new?What has changed? How is the future of web security look like?</p> "
-    },
-    {
-        "group": "Natal",
-        "repo": "www-chapter-natal",
-        "name": "4\u00ba Virtual Meeting - OWASP Natal Chapter ",
-        "date": "2021-12-08",
-        "time": "21:00",
-        "link": "https://www.meetup.com/OWASP-Natal-Chapter/events/282483458/",
-        "timezone": "America/Fortaleza",
-        "description": "<p>Nesse encontro conversaremos com a Clara Nobre sobre carreira. Clara que vinha de um carreira bem consolidada na \u00e1rea de suporte, infraestrutura, cultura DevOps e DevSecOps, agora migra para a \u00e1rea de Seguran\u00e7a focada em ambiente nuvem. Ela vai contar um pouco pra gente dessa hist\u00f3ria fant\u00e1stica que mescla cursos, universidade, profissional, comunidade e muita dedica\u00e7\u00e3o que com certeza far\u00e1 voc\u00ea sair da reuni\u00e3o com v\u00e1rios insights para sua carreira tamb\u00e9m.<br/>Tamo junto na miss\u00e3o!</p> "
     },
     {
         "group": "New Zealand",
@@ -190,26 +190,6 @@
         "description": "<p>Monthly OWASP meeting</p> "
     },
     {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2021-12-08",
-        "time": "12:00",
-        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/pfhhqsyccqblb/",
-        "timezone": "US/Pacific",
-        "description": "<p>At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.</p> <p>Suggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.</p> <p>Slack @ #chapter-seattle (<a href=\"https://bit.ly/owasp-seattle-slack\" class=\"linkified\">https://bit.ly/owasp-seattle-slack</a>)</p> <p>seattle-chapter@owasp.org (<a href=\"https://groups.google.com/a/owasp.org/g/seattle-chapter\" class=\"linkified\">https://groups.google.com/a/owasp.org/g/seattle-chapter</a>)</p> "
-    },
-    {
-        "group": "South Florida",
-        "repo": "www-chapter-south-florida",
-        "name": "OWASP South Florida Chapter Meeting December 2021",
-        "date": "2021-12-08",
-        "time": "18:00",
-        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/282466312/",
-        "timezone": "US/Eastern",
-        "description": "<p>IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.</p> <p>Please join us virtually for our December 2021 Meeting.</p> <p>BYOB - Bring Your Own Beverage</p> <p>Agenda<br/>=======<br/>+Chapter updates/announcements, etc.<br/>+Open to all --- 2021 AppSec review<br/>+Open to all --- forward-looking 2022 AppSec trend...</p> <p>+Other topics, holidays preparations, etc</p> "
-    },
-    {
         "group": "Sydney",
         "repo": "www-chapter-sydney",
         "name": "Sydney OWASP Night - Application Security Scaling & Security Champion",
@@ -240,14 +220,14 @@
         "description": "<p>The next OWASP Timisoara Chapter Meeting will be online.</p> <p>&gt; Winter sessions - Theme: AI, Bug Bounty &amp; Web Fuzzing</p> <p>Time: 18:30 to 20:30</p> <p>Schedule:</p> <p>1. Introduction, OWASP News &amp; Updates - Catalin Curelaru<br/>2. AI in Security - Robbe Van Roey (Intigriti)<br/>3. FFUF - Fuzz Faster, U're ****ed ... The good, the bad and the ugly of web fuzzing - Joona Hoikkala (Visma)</p> <p>&gt;&gt;Robe Van Roey - Hacker Manager @ Intigriti</p> <p>Robbe Van Roey or better known as PinkDraconian finished his studies in AI &amp; robotics, but because of his passion for cybersecurity, he became the Hacker Manager for the popular bug bounty platform Intigriti. Besides his work life, he runs a YouTube channel where he details challenges, CVEs, and all kinds of cybersecurity related topics in videos. Check him out on twitter (@PinkDraconian)</p> <p>~AI in Security~<br/>Asbtract: Artificial intelligence has been the driving development factor in many industries over the past decade, but what about the cybersecurity industry? In this presentation, I would like to introduce all of you into what AI could mean for you in the cybersecurity field. We're going on a journey on what is possible and what will be possible when combining AI with cybersecurity.</p> <p>&gt;&gt;Joona Hoikkala - Red Team Manager @Visma</p> <p>Working as red team manager at Visma, Joona is a hacker that has experience from multiple vantage points and aspects of information security, software development and brewing. He's an open so(u)rcerer and has built or contributed to a wide variety of security tools, both offensive and defensive. This talk is discussing both positive and negative phenomenom around a web fuzzing tool he built and maintains: ffuf, or: \"fuzz faster u fool\".</p> <p>~*FFUF - Fuzz Faster, U're ***ed ... The good, the bad and the ugly of web fuzzing~<br/>Abstract: Web fuzzing is a powerful method for automating the boring tasks in both black box, and gray box testing of web applications. There's only so much one can do when approaching this kind of target manually but with proper tooling the server resources are the only limit. Wait? Server resources being the limit?</p> <p>Penetration testers, bug bounty hunters, security researchers and criminals are using the same techniques for different purposes. What happens when you are able to send tens of thousands of requests from your laptop, over the internet to a target. What if you scale it up horizontally, doing the same thing from hundreds of sources? What if the responding endpoint is intentionally slow - a login for example?</p> <p>At the cloud-native age, rate limiting might seem as an ancient thing from a distant past but for the very same reasons it's more relevant than ever...</p> "
     },
     {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "December Event - G0rking | Software Composition Analysis 101",
-        "date": "2021-12-08",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-Toronto/events/282136603/",
-        "timezone": "Canada/Eastern",
-        "description": "<p>LIGHTNING TALK<br/>------------------------</p> <p>G0rking \u2013 Google dorking made easy</p> <p>Summary:</p> <p>The presentation will cover briefly what google dorking is, then I will proceed with what is an OWASP project, how one can contribute, how to find various OWASP project, and one or two examples of G0rking usage</p> <p>Presenter:</p> <p>Ignatius Asikin</p> <p>Ignatius is a Senior consultant who specializes in offensive security. Aside from offensive security practices, Ignatius has also led numerous cyber maturity assessment engagements, architecture review, and is currently an instructor at Seneca College.</p> <p>TALK<br/>-------</p> <p>Software Composition Analysis 101: Knowing what\u2019s inside your apps</p> <p>Summary:</p> <p>The term Software Composition Analysis (SCA) is relatively new to the security world. However, similar approaches have been used since the early 2000s to indicate security verifications on open source components. SCA has become an evolution of that. It is the process of identifying and listing all the components and versions present in the code and checking each specific service and looking for outdated or vulnerable libraries that may impose security risks to the application. These tools can also check for legal issues regarding the use of open-source software with different licensing terms and conditions. Nevertheless, how those SCA tools work, and how can they help identify and remediate issues on open source libraries used in a codebase? This talk aims to focus on and explain to the audience by showing how these tools work and the main pieces of information that these tools rely on, such as the application manifest, vulnerability data sources, and dependency metadata.</p> <p>Audience Takeaways<br/>SCA tools and techniques are here to stay, and their usage is increasing in many organizations where security is a priority. Unfortunately, AppSec teams cannot keep up with all the new vulnerabilities published daily. Make sure to look for solutions that can adequately adapt to your own way of building software. They need to cover the programming languages used in your organization and identify issues on indirect dependencies, not just relying on public CVEs to find those issues.</p> <p>Presenter:</p> <p>Magno Logan works as an Information Security Specialist for Trend Micro. He specializes in Cloud, Container and Application Security Research, Threat Modelling and Red Teaming. He has been tapped as a resource speaker for numerous security conferences around the globe. He is also a member of the CNCF SIG-Security team</p> "
+        "group": "Tiruvallur",
+        "repo": "www-chapter-tiruvallur",
+        "name": "Landing In your first Information security Job ",
+        "date": "2021-12-12",
+        "time": "16:00",
+        "link": "https://www.meetup.com/Tiruvallur-OWASP-Meetup-Group/events/282561192/",
+        "timezone": "Asia/Calcutta",
+        "description": "<p>in this Meet Mr.Vengatesh Nagarajan who is working as a Lead Pentester At CSW - Cyber Security works Chennai will get us though how to land in our 1st information security jobs</p> "
     },
     {
         "group": "Triangle Nc",
