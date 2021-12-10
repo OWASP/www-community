@@ -10,26 +10,6 @@
         "description": "<p>Agenda:<br/>--&gt; GeneralOWASP Chapter discussion</p> <p>--&gt; OWASP Chapter Talk Series - Crypto currencies and the Secure coding practices</p> <p>--&gt; Any real OWASP Top 10 example and its mitigation by W3LC</p> <p>--&gt; Future plans</p> "
     },
     {
-        "group": "Boulder",
-        "repo": "www-chapter-boulder",
-        "name": "Boulder OWASP happy hour / End of year social",
-        "date": "2021-12-09",
-        "time": "17:00",
-        "link": "https://www.meetup.com/OWASP-Boulder/events/282452196/",
-        "timezone": "US/Mountain",
-        "description": "<p>OWASP Boulder has been doing events with the Denver Chapter through much of the Covid period. We do want to start doing some more on our own and wanted to try to get some of us together for an end of year celebration. Sponsored by Global Recruiter of the Rockies (<a href=\"https://www.grnrockies.com/\" class=\"linkified\">https://www.grnrockies.com/</a>), just meet us there for a free beer and enjoy finishing a rough year!</p> "
-    },
-    {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "End of Year Celebration at Miss Demeanour",
-        "date": "2021-12-09",
-        "time": "17:30",
-        "link": "https://www.meetup.com/Brisbane-OWASP-Meetup-Group/events/282008447/",
-        "timezone": "Australia/Brisbane",
-        "description": "<p>Hello fellow security enthusiasts,<br/>Join us for an end of year OWASP meetup, one that is more low key then usual.<br/>Yes, that\u2019s right no presentations this time round. Instead, we would like to catch up with you in person, grab something to eat and drink.<br/>See you there,</p> "
-    },
-    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP December Meeting",
@@ -60,26 +40,6 @@
         "description": "<p>Yes you've read that correctly, once again CloudNativeGBG joins us for some cool talks.<br/>This time we turn things around. Instead of how one could hack the Cloud, that the talks was about at the last event. We now take on how do we Secure the Cloud?</p> <p>---&gt; As this is will be a physical event, we expect all participants to be fully vaccinated!!</p> "
     },
     {
-        "group": "Gothenburg",
-        "repo": "www-chapter-gothenburg",
-        "name": "OWASP GBG Secure Coding Tournament",
-        "date": "2021-12-09",
-        "time": "17:30",
-        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/282364274/",
-        "timezone": "Europe/Stockholm",
-        "description": "<p>Just when the cold winter is upon us, we at OWASP GBG heat things up with a security tournament!</p> <p>Try your skills in a set of tasks designed to help developers build secure coding skills. The tournament is aimed at developers interested in security with challenges of varying difficulty for beginner and professional alike. The tournament is arranged in collaboration with Secure Code Warrior (<a href=\"https://www.securecodewarrior.com/products/tournaments\" class=\"linkified\">https://www.securecodewarrior.com/products/tournaments</a>).</p> <p>Food and refreshments will be available provided by our sponsor of the evening, Assured.</p> <p>Bring you laptop and join the fun!</p> <p>IMPORTANT: Attendance for this event is registered on Eventbrite: <a href=\"https://www.eventbrite.se/e/owasp-secure-coding-tournament-tickets-220263974477\" class=\"linkified\">https://www.eventbrite.se/e/owasp-secure-coding-tournament-tickets-220263974477</a></p> <p>---&gt; As this is will be a physical event, we expect all participants to be fully vaccinated!!</p> "
-    },
-    {
-        "group": "Guayaquil",
-        "repo": "www-chapter-guayaquil",
-        "name": "Jornada de Seguridad Web (oficial)",
-        "date": "2021-12-09",
-        "time": "17:30",
-        "link": "https://www.meetup.com/OWASP-Guayaquil-Chapter/events/282446831/",
-        "timezone": "America/Guayaquil",
-        "description": "<p>Para asistir deben registrarse en el enlace <a href=\"https://bit.ly/jsegweb\" class=\"linkified\">https://bit.ly/jsegweb</a></p> <p>Temas:<br/>OWASP 2021<br/>Pentesting Web en contenedores<br/>Convenio Universidad Casa Grande<br/>Maestr\u00eda de Ciberseguridad</p> <p>Jueves 9 de Diciembre del 2021<br/>Hora: 17h30</p> "
-    },
-    {
         "group": "Hartford",
         "repo": "www-chapter-hartford",
         "name": "(Virtual) \"Breaker\" Pen Test security lunch and learn",
@@ -108,6 +68,16 @@
         "link": "https://www.meetup.com/OWASP-Israel/events/282521101/",
         "timezone": "Asia/Jerusalem",
         "description": "<p>We are eager to see you all, and we are sure you are too, with COVID-19 still around, we are required to comply with the green pass guidelines meaning we will need to see proof of vaccination, recovery or a negative test from the past 72 hours for all attendees and please make sure to wear a mask during the event (except while eating ;) )</p> <p>If attending in person, I acknowledge that I do so at my own risk. OWASP recommends all participants be fully vaccinated before attending in-person events to reduce the risk of severe illness or death.</p> <p>------------------------------------------------------------------------------------------</p> <p>About our host Apiiro<br/>By analyzing signals from Design to Code to Cloud, Apiiro provides asset discovery &amp; risk assessment across application, open source &amp; Infra-as-Code - remediating critical risks to your business.<br/>We are helping every company in the world build &amp; scale their AppSec Program - Automatically!<br/> RSA Innovation Sandbox 2021 Winner<br/> Gartner 2021 Cool Vendor in DevSecOps</p> <p>------------------------------------------------------------------------------------------</p> <p>Agenda:<br/>17:45 - 18:15 - gathering, food &amp; networking</p> <p>18:15 - 18:45 session 1 TBD</p> <p>18:45 - 19:15 session 2 TBD</p> <p>19:15 - 19:30<br/>Break</p> <p>19:15 - 20:00 session 3 TBD</p> "
+    },
+    {
+        "group": "Italy",
+        "repo": "www-chapter-italy",
+        "name": "OWASP Italy December Meetup 2021",
+        "date": "2021-12-17",
+        "time": "14:30",
+        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/282582588/",
+        "timezone": "Europe/Rome",
+        "description": "<p>OWASP Italy December Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.</p> <p>This Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.</p> <p>More information and the Agenda at the following URL:<br/><a href=\"https://owasp.org/www-chapter-italy/events/owasp-meetup-171221\" class=\"linkified\">https://owasp.org/www-chapter-italy/events/owasp-meetup-171221</a></p> "
     },
     {
         "group": "Maulana Abul Kalam Azad University Of Technology",
@@ -200,26 +170,6 @@
         "description": "<p>In our final presentation of the year, we look into a major problem currently being faced by agile - the scaling of application security teams to meet the requirements of engineering teams. Tooling and training can solve the most common issues, but what about the human scaling side of things?</p> <p>This is one question that most of us don't have a great answer to, A security champion program could be the answer you are looking for; to scale the right way and build a security culture.</p> <p>Special guest Abhijeth Dugginapeddi will share his experiences in running the Security Champion program in two large companies and the lessons he has learnt from them.</p> <p>Abhijeth Dugginapeddi is the Head of AppSec, Adjunct Professor, and Mentor. He is a security enthusiast in the fields of Penetration Testing and Application/Mobile/Infrastructure Security. He believes in the need for more security awareness and free responsible disclosures. He has found a few vulnerabilities with Google, Yahoo, Facebook, Microsoft, eBay, Dropbox, etc. He has previously presented at Defcon, Blackhat, OWASP AppSec USA, c0c0n, Secure-2018 Poland, CISO Summit, and several other events.</p> "
     },
     {
-        "group": "Sydney",
-        "repo": "www-chapter-sydney",
-        "name": "OWASP Sydney - Fun with Hack the Box",
-        "date": "2021-12-09",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Sydney-Chapter/events/281563593/",
-        "timezone": "Australia/Sydney",
-        "description": "<p>Please join us to play/train in Hack The Box (HTB), what you need is a Hack the Box account, free is cool, join us in discord (link <a href=\"https://discord.com/invite/uAWze2B\" class=\"linkified\">https://discord.com/invite/uAWze2B</a>) - FC-Announcements-Voice Channel, please ensure, after registration in Discord you go to the Bot and accept the Code of Conduct, otherwise, you won't be able to access the channels.</p> <p>There is no format to this night, we just want to get together to have some fun playing some battlegrounds, doing some of the machines or challenges; having fun overall!</p> <p>Please make sure you know the basics about HTB, eg. how to connect to the HTB VPN and that you have a valid account.</p> "
-    },
-    {
-        "group": "Timisoara",
-        "repo": "www-chapter-timisoara",
-        "name": "OWASP Timisoara #20 - AI, Bug Bounty & Web Fuzzing (Online)",
-        "date": "2021-12-09",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-Timisoara-Chapter/events/282144298/",
-        "timezone": "Europe/Bucharest",
-        "description": "<p>The next OWASP Timisoara Chapter Meeting will be online.</p> <p>&gt; Winter sessions - Theme: AI, Bug Bounty &amp; Web Fuzzing</p> <p>Time: 18:30 to 20:30</p> <p>Schedule:</p> <p>1. Introduction, OWASP News &amp; Updates - Catalin Curelaru<br/>2. AI in Security - Robbe Van Roey (Intigriti)<br/>3. FFUF - Fuzz Faster, U're ****ed ... The good, the bad and the ugly of web fuzzing - Joona Hoikkala (Visma)</p> <p>&gt;&gt;Robe Van Roey - Hacker Manager @ Intigriti</p> <p>Robbe Van Roey or better known as PinkDraconian finished his studies in AI &amp; robotics, but because of his passion for cybersecurity, he became the Hacker Manager for the popular bug bounty platform Intigriti. Besides his work life, he runs a YouTube channel where he details challenges, CVEs, and all kinds of cybersecurity related topics in videos. Check him out on twitter (@PinkDraconian)</p> <p>~AI in Security~<br/>Asbtract: Artificial intelligence has been the driving development factor in many industries over the past decade, but what about the cybersecurity industry? In this presentation, I would like to introduce all of you into what AI could mean for you in the cybersecurity field. We're going on a journey on what is possible and what will be possible when combining AI with cybersecurity.</p> <p>&gt;&gt;Joona Hoikkala - Red Team Manager @Visma</p> <p>Working as red team manager at Visma, Joona is a hacker that has experience from multiple vantage points and aspects of information security, software development and brewing. He's an open so(u)rcerer and has built or contributed to a wide variety of security tools, both offensive and defensive. This talk is discussing both positive and negative phenomenom around a web fuzzing tool he built and maintains: ffuf, or: \"fuzz faster u fool\".</p> <p>~*FFUF - Fuzz Faster, U're ***ed ... The good, the bad and the ugly of web fuzzing~<br/>Abstract: Web fuzzing is a powerful method for automating the boring tasks in both black box, and gray box testing of web applications. There's only so much one can do when approaching this kind of target manually but with proper tooling the server resources are the only limit. Wait? Server resources being the limit?</p> <p>Penetration testers, bug bounty hunters, security researchers and criminals are using the same techniques for different purposes. What happens when you are able to send tens of thousands of requests from your laptop, over the internet to a target. What if you scale it up horizontally, doing the same thing from hundreds of sources? What if the responding endpoint is intentionally slow - a login for example?</p> <p>At the cloud-native age, rate limiting might seem as an ancient thing from a distant past but for the very same reasons it's more relevant than ever...</p> "
-    },
-    {
         "group": "Tiruvallur",
         "repo": "www-chapter-tiruvallur",
         "name": "Landing In your first Information security Job ",
@@ -227,7 +177,7 @@
         "time": "16:00",
         "link": "https://www.meetup.com/Tiruvallur-OWASP-Meetup-Group/events/282561192/",
         "timezone": "Asia/Calcutta",
-        "description": "<p>in this Meet Mr.Vengatesh Nagarajan who is working as a Lead Pentester At CSW - Cyber Security works Chennai will get us though how to land in our 1st information security jobs</p> "
+        "description": "<p>In this Meet Mr.Vengatesh Nagarajan who is working as a Lead Pentester at CSW - Cyber Security works Chennai will get us through how to land in our 1st information security jobs</p> "
     },
     {
         "group": "Triangle Nc",
