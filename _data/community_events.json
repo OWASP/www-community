@@ -1,15 +1,5 @@
 [
     {
-        "group": "Aguascalientes",
-        "repo": "www-chapter-aguascalientes",
-        "name": "OWASP Aguascalientes",
-        "date": "2021-12-16",
-        "time": "19:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282682498/",
-        "timezone": "America/Mexico_City",
-        "description": "<p>En esta reunion platicaremos de:</p> <p>\u00bfPasswordless: Un futuro sin contrase\u00f1as?</p> <p>Hablaremos acerca del modelo passwordless para autenticaci\u00f3n y las implicaciones relacionadas a la seguridad tanto para usuarios como para las aplicaciones. En dicho modelo, como su nombre lo indica, ya no se necesitan contrase\u00f1as.</p> <p>Aldo Salas</p> <p>Tambien nos pueden encontrar en:</p> <p>OWASP: <a href=\"https://owasp.org/www-chapter-aguascalientes/\" class=\"linkified\">https://owasp.org/www-chapter-aguascalientes/</a><br/>FB: <a href=\"https://www.facebook.com/OWASPAguascalientes/\" class=\"linkified\">https://www.facebook.com/OWASPAguascalientes/</a><br/>YT: <a href=\"https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw\" class=\"embedded\">https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw</a></p> "
-    },
-    {
         "group": "Aligarh",
         "repo": "www-chapter-aligarh",
         "name": "OWASP Chapter Talk Series - Crypto currencies and the Secure coding practices",
@@ -50,26 +40,6 @@
         "description": "<p>Hello everyone, it\u2019s time for our Q4 OWASP Croatia meetup. The topics will be delivered virtually, over Google Meet.</p> <p>We have two topics this week:<br/>- Slaven Smojver - IT Risk Management: What a (Competent) Corporation Wants?<br/>- Round table discussion - Log4J / Log4Shell</p> <p>See you!<br/>Talk abstracts and bios follow:</p> <p>Talk 1:<br/>----------------<br/>Slaven Smojver: IT Risk Management: What a (Competent) Corporation Wants?</p> <p>Short description:<br/>Risk management is the backbone of prudent business decision-making. So what do corporations expect from IT risk management? This presentation gives a very brief historical overview of the topic, presents what ISACA considers to be the best practice and focuses on the role of the \u201c2nd line of defence\u201d in IT risk management and on the process of risk scenario development.</p> <p>Bio:<br/>Slaven Smojver is director of the Information Systems Supervision Department in the Croatian National Bank (HNB). The department\u2019s primary responsibility is supervision and assessment of IT risk in credit institutions, e-money institutions, payment institutions, payment systems and FinTech companies. Slaven obtained his Ph.D., M.Sc. and M.Eng.EE degrees from the University of Zagreb, Croatia. He authored several scientific papers and has presented extensively on various topics related to financial services supervision, control and management of information systems and information security in financial institutions. He is CRISC, CISA and CISM in good standing.</p> <p>Talk 2:<br/>----------------<br/>Round table discussion - Log4J</p> <p>Let\u2019s talk and share information about the latest Log4J vulnerability. Bojan \u017ddrnja will give an intro of what we know so far, Vlatko Ko\u0161turjak will show his NSE scanning script, and we will talk about experiences and issues regarding the latest firefighting efforts. Of course, you are invited to share your experiences, findings or concerns.</p> "
     },
     {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP December Meeting",
-        "date": "2021-12-16",
-        "time": "12:00",
-        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280921296/",
-        "timezone": "US/Central",
-        "description": "<p>Title:</p> <p>Insider's Guide to Mobile AppSec with OWASP MASVS</p> <p>Description:</p> <p>From the birth of MASVS and MSTG in January 2018 to the most recent updates, the OWASP Mobile Security Project has advanced the state of mobile app security testing dramatically. As supporters and contributors to the Mobile Security Project at OWASP, we have pen tested thousands of mobile apps and scanned millions of commercial apps in the app stores over the years\u2026 and have identified the most common security issues that plague developers and security teams. Whether you are new to mobile pen testing or a veteran looking for the latest tools and tactics, join this session to learn 10 keys to mobile appsec leveraging OWASP MASVS and practical real-world experience.</p> <p>Bio:</p> <p>As Chief Mobility Officer, Brian Reed leads the mobile standards and mobile DevSecOps charge at NowSecure helping orgs deliver secure mobile apps faster. He brings decades of experience in mobile, apps, security, dev, and testing helping Fortune 2000 global customers, federal agencies and mobile innovators. Brian is a compelling storyteller, speaker and writer including OWASP, AllDayDevOps, DevOpsWorld, DevOps Days, RSA, Droidcon, Mobile World Congress, FS-ISAC, and more. Brian is a graduate of Duke University.</p> "
-    },
-    {
-        "group": "Denver",
-        "repo": "www-chapter-denver",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's December Meeting!!!",
-        "date": "2021-12-15",
-        "time": "19:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282411718/",
-        "timezone": "US/Mountain",
-        "description": "<p>Food and Drinks are provided; this month's event is social, with some fun entertainment, great content and excellent networking as always.</p> <p>Note:<br/>The State of Colorado says a mask mandate is in effect at the time of writing this.</p> "
-    },
-    {
         "group": "Dkte Soc Textile And Engineering Institute",
         "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
         "name": "OWASP DKTE Meetup #2 (Virtual)",
@@ -80,14 +50,14 @@
         "description": "<p>Details<br/>26th December 5:00 PM IST</p> <p>Agenda</p> <p>Offensive Analysis of Android Application by Raja Nagori (IT Security Analyst II at FIS Global)<br/>(<a href=\"https://www.linkedin.com/in/raja-nagori/\" class=\"linkified\">https://www.linkedin.com/in/raja-nagori/</a>)</p> "
     },
     {
-        "group": "Gothenburg",
-        "repo": "www-chapter-gothenburg",
-        "name": "OWASP GBG Log4Shell special",
-        "date": "2021-12-16",
-        "time": "14:00",
-        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/282364562/",
-        "timezone": "Europe/Stockholm",
-        "description": "<p>The past weekend the Log4Shell vulnerability made an impact on the security community. The vulnerability allows an attacker to execute code on a victim machine if a vulnerable application logs a string supplied by the attacker. The vulnerability exists in the widely used log4j Java library and affects a very large variety of applications. The prevalent use of the library, the high impact, and the ease of exploitation makes it one of the worst vulnerabilities in recent years.</p> <p>OWASP Gothenburg has gathered some of Sweden's foremost experts for a panel discussion on the Log4Shell vulnerability. Join in and learn about the details of the vulnerability, who is affected, and how to mitigate it.</p> <p>The panel consists of:<br/>- Jonas Lejon (Triop)<br/>- Fredrik Alexandersson (TrueSec, St\u00f6k)<br/>- Peter Magnusson (Assured, S\u00e4kerhetspodcasten)</p> <p>This is an online event on the Zoom platform. A link to the meeting will be shared to registered attendees one hour prior to the start.</p> <p>Date: Thu, Dec 16, 14:00</p> <p>Register at Eventbrite:<br/><a href=\"https://www.eventbrite.se/e/owasp-gbg-log4shell-special-tickets-227818821227\" class=\"linkified\">https://www.eventbrite.se/e/owasp-gbg-log4shell-special-tickets-227818821227</a></p> "
+        "group": "Germany",
+        "repo": "www-chapter-germany",
+        "name": "Series of lightning talks",
+        "date": "2022-01-13",
+        "time": "18:30",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845/",
+        "timezone": "Europe/Berlin",
+        "description": "<p>Hi everyone,</p> <p>this is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.</p> <p>On this day we present a series of lightning talks, online.</p> <p>1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"<br/>2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update<br/>Behavior of Websites and Its Impact on Security\"<br/>3) TBA...</p> <p>1) Abstract<br/>---------------<br/>OWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:</p> <p>- Coding Challenges<br/>- Cheat Detection<br/>- Challenge Feedback<br/>- Daily Project Stats</p> <p>Warning: This talk will skip any basic intro part in favor more new content!</p> <p>2) Abstract:<br/>----------------<br/>Software updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.</p> <p>Until then: have a great holiday season and all the best for 2022!</p> <p>Cheers, Dirk</p> "
     },
     {
         "group": "Hartford",
@@ -98,16 +68,6 @@
         "link": "https://www.meetup.com/CT-Cyber-Security-Meetup-OWASP-Hartford/events/282572004/",
         "timezone": "US/Eastern",
         "description": "<p>Agenda:<br/>* OWASP project spotlight focusing on \"Breaker\" (Pen-testing) topics including Nightengale: <a href=\"https://owasp.org/www-project-nightingale/\" class=\"linkified\">https://owasp.org/www-project-nightingale/</a><br/>* Call for volunteers<br/>* 2022 planning</p> "
-    },
-    {
-        "group": "Hartford",
-        "repo": "www-chapter-hartford",
-        "name": "(Virtual) \"Builder\" security, cheatsheets, log4j, lunch and learn",
-        "date": "2021-12-15",
-        "time": "12:00",
-        "link": "https://www.meetup.com/CT-Cyber-Security-Meetup-OWASP-Hartford/events/282571833/",
-        "timezone": "US/Eastern",
-        "description": "<p>Agenda:<br/>* OWASP project spotlight focusing on \"Builder\" (Developer/Engineer) topics including cheatsheets: <a href=\"https://cheatsheetseries.owasp.org\" class=\"linkified\">https://cheatsheetseries.owasp.org</a><br/>* Log4j 0day: beyond incident response<br/>* Call for volunteers<br/>* 2022 planning</p> "
     },
     {
         "group": "Hyderabad",
@@ -140,34 +100,14 @@
         "description": "<p>OWASP Italy December Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.</p> <p>This Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.</p> <p>More information and the Agenda at the following URL:<br/><a href=\"https://owasp.org/www-chapter-italy/events/owasp-meetup-171221\" class=\"linkified\">https://owasp.org/www-chapter-italy/events/owasp-meetup-171221</a></p> "
     },
     {
-        "group": "Minneapolis St Paul",
-        "repo": "www-chapter-minneapolis-st-paul",
-        "name": "The OWASP Top 10:2021",
-        "date": "2021-12-16",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-MSP-Meetup/events/282157443/",
-        "timezone": "US/Central",
-        "description": "<p>OWASP updated its venerable Top 10 list this year, including changes and additions worthy of discussion. We'll also discuss how the Top 10 is chosen, a brief history of the changes over the years, and ask how it stacks up to your experience in the industry.</p> "
-    },
-    {
-        "group": "Nairobi",
-        "repo": "www-chapter-nairobi",
-        "name": "OWASP Top 10 2021",
-        "date": "2021-12-16",
-        "time": "18:00",
-        "link": "https://www.meetup.com/owasp-nairobi-meetup-group/events/282400416/",
-        "timezone": "Africa/Nairobi",
-        "description": "<p>The OWASP Top 10 2021 is out. What's new?What has changed? How is the future of web security look like?</p> "
-    },
-    {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "End-of-Year Social (ISIG/OWASP) at 12 Bar",
-        "date": "2021-12-15",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-New-Zealand-Chapter-Christchurch/events/282271968/",
-        "timezone": "Pacific/Auckland",
-        "description": "<p>OWASP and ISIG are teaming up for end-of-year drinks at 12 Bar. See ISIG's event at <a href=\"https://www.meetup.com/ISIG-Christchurch-NZ/events/282202171\" class=\"linkified\">https://www.meetup.com/ISIG-Christchurch-NZ/events/282202171</a> for more details.</p> "
+        "group": "Natal",
+        "repo": "www-chapter-natal",
+        "name": "5 virtual meeting OWASP Natal Chapter",
+        "date": "2021-12-17",
+        "time": "20:00",
+        "link": "https://www.meetup.com/OWASP-Natal-Chapter/events/282706028/",
+        "timezone": "America/Fortaleza",
+        "description": "<p>/</p> "
     },
     {
         "group": "Oklahoma City",
@@ -178,26 +118,6 @@
         "link": "https://www.meetup.com/Oklahoma-City-Chapter-Meetup/events/282192276/",
         "timezone": "US/Central",
         "description": "<p>Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs.</p> <p>You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues.</p> <p>Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks.</p> <p>This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management .</p> "
-    },
-    {
-        "group": "Oklahoma City",
-        "repo": "www-chapter-oklahoma-city",
-        "name": "10 Keys to Mobile Appsec Leveraging OWASP MASVS with Brian Reed",
-        "date": "2021-12-15",
-        "time": "17:00",
-        "link": "https://www.meetup.com/Oklahoma-City-Chapter-Meetup/events/282473592/",
-        "timezone": "US/Central",
-        "description": "<p>From the birth of MASVS and MSTG in January 2018 to the most recent updates, the OWASP Mobile Security Project has advanced the state of mobile app security testing dramatically. As supporters and contributors to the Mobile Security Project at OWASP, we have pen tested thousands of mobile apps and scanned millions of commercial apps in the app stores over the years\u2026 and have identified the most common security issues that plague developers and security teams. Whether you are new to mobile pen testing or a veteran looking for the latest tools and tactics, join this session to learn 10 keys to mobile appsec leveraging OWASP MASVS and practical real-world experience.</p> <p>Brian Reed Bio:<br/>As Chief Mobility Officer, Brian Reed leads the mobile standards and mobile DevSecOps charge at NowSecure helping orgs deliver secure mobile apps faster. He brings decades of experience in mobile, apps, security, dev, and testing helping Fortune 2000 global customers, federal agencies and mobile innovators. Brian is a compelling storyteller, speaker and writer including OWASP, AllDayDevOps, DevOpsWorld, DevOps Days, RSA, Droidcon, Mobile World Congress, FS-ISAC, and more. Brian is a graduate of Duke University</p> "
-    },
-    {
-        "group": "San Diego",
-        "repo": "www-chapter-san-diego",
-        "name": "Log4j: A case study",
-        "date": "2021-12-16",
-        "time": "18:00",
-        "link": "https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/bcnwbsyccqbvb/",
-        "timezone": "US/Pacific",
-        "description": "<p>Hello OWASP San Diego,</p> <p>Happy December, have you heard Log4j 100x yet? Did you even have a weekend? Either way, our chapter leaders will be hosting a presentation/discussion on Log4j this Thursday. This includes:</p> <p>- A timeline of significant events since disclosure.<br/>- What are the impacts? Short term and long.<br/>- Working proof of concepts we have found in the wild<br/>- Mitigation strategies / resources for defenders.<br/>- Airing of the grievances.</p> <p>Lastly, 2022 will mark a return to in-person meetups. We will be hosting the January meet-up at a bar w a projector, TBD. Come with location suggestions!</p> <p>- Christian &amp; the leaders</p> "
     },
     {
         "group": "Seattle",
@@ -228,16 +148,6 @@
         "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccqbnc/",
         "timezone": "US/Eastern",
         "description": "<p>TBA</p> "
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "OWASP Top 10 2021 Release discussion featuring Jim Manico!",
-        "date": "2021-12-16",
-        "time": "18:00",
-        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/282210425/",
-        "timezone": "Canada/Pacific",
-        "description": "<p>For the last meetup of the year, we are bringing in one of the OWASP titans to talk about OWASP's latest update on their Top 10 and afterwards we will have a casual conversation on the OWASP Top 10 2021 Release.<br/>_____________________________________________________________________________________</p> <p>OWASP Top 10 2021 Release (6:00-7:00pm)<br/>By: Jim Manico</p> <p>Jim Manico is one of the co-authors of the OWASP Top 10 2021, the Application Security Verification Standard (ASVS) and the OWASP Cheatsheets. Many of you already know of him, he is a legend in the Application Security industry.</p> <p>The OWASP Top 10 is a standard awareness document for web developers and web application security professionals. It represents a broad consensus about the most critical security risks to web applications. Companies should adopt this document and start the process of ensuring that their web applications minimize these risks. Using the OWASP Top 10 is perhaps the most effective first step towards changing the software development culture within your organization into one that produces more secure code.</p> <p>The OWASP Top Ten 2021 includes:<br/>- A01:2021-Broken Access Control<br/>- A02:2021-Cryptographic Failures<br/>- A03:2021-Injection<br/>- A04:2021-Insecure Design<br/>- A05:2021-Security Misconfiguration<br/>- A06:2021-Vulnerable and Outdated Components<br/>- A07:2021-Identification and Authentication Failures<br/>- A08:2021-Software and Data Integrity Failures<br/>- A09:2021-Security Logging and Monitoring Failure<br/>- A10:2021-Server-Side Request Forgery</p> <p>Speaker Bio:<br/>Jim Manico is the founder of Manicode Security where he trains software developers on secure coding and security engineering. He is also an investor/advisor for Nucleus Security, BitDiscovery, Secure Circle, KSOC and Inspectiv. Jim is a frequent speaker on secure software practices, is a member of the Java Champion community, and is the author of \"Iron-Clad Java: Building Secure Web Applications\" from Oracle Press. Jim also volunteers for the OWASP foundation as the project lead for the OWASP Application Security Verification Standard and the OWASP Cheatsheet Series. For more information, see <a href=\"https://www.linkedin.com/in/jmanico\" class=\"linkified\">https://www.linkedin.com/in/jmanico</a></p> <p>We should also note that Jim graciously was one of the keynotes for our very own Application Security Pacific Northwest conference this year. We want to thank him for all of his contributions to the application security space and to our OWASP Vancouver community.</p> <p>_____________________________________________________________________________________<br/>Open discussion on OWASP Top 10 2021 Release (7:00-8:00pm)</p> <p>For the second hour, we will have an open conversation on the OWASP Top 10 for 2021.</p> <p>--&gt; What surprised you about the new Top 10?<br/>--&gt; What are you happy about?<br/>--&gt; How will this impact your Application Security program?<br/>--&gt; Is there something you thing can be done better?</p> <p>Make sure to stick around for the social hour, you do not want to miss this epic event!</p> "
     },
     {
         "group": "Wia",
