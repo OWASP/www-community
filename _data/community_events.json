@@ -10,16 +10,6 @@
         "description": "<p>Agenda:<br/>--&gt; GeneralOWASP Chapter discussion</p> <p>--&gt; OWASP Chapter Talk Series - Crypto currencies and the Secure coding practices</p> <p>--&gt; Any real OWASP Top 10 example and its mitigation by W3LC</p> <p>--&gt; Future plans</p> "
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "Architecting API Security for Adopting Zero Trust Model",
-        "date": "2021-12-17",
-        "time": "11:00",
-        "link": "https://www.meetup.com/Bay-Area-OWASP/events/282671622/",
-        "timezone": "US/Pacific",
-        "description": "<p>An enterprise API ecosystem is usually complex consisting of internal APIs (built and used by enterprise teams, partners and customers) and external APIs (built by third-parties, but used internally for free or commercially). While enterprises adopt the Zero Trust model, architecting API Security could be cumbersome. Even worse, APIs that crisscross across internal and external networks to access various digital resources, Zero Trust model could simply fall apart very quickly. In this session, we\u2019ll go through various steps of architecting an API Security program that meets the basic tenants of Zero Trust. We\u2019ll highlight various pitfalls that enterprises can avoid while adopting Zero Trust model.</p> <p>Presenter: Dr Baljeet Malhotra (baljeet.malhotra@teejlab.com)</p> <p>Baljeet is an award-winning researcher known for his work in Open Source and API data management. He conceptualized world's first \"API Composition Analysis\" based on source code static analysis. He founded TeejLab in 2017 and steered the team to build API Discovery\u2122, world's first comprehensive end-to-end API Management platform. Prior to Teej, he established the R&amp;D unit of Black Duck Software in 2016 (acquired by Synopsys), he has also served as Research Director at SAP.<br/>He received a PhD in Computing Science from the University of Alberta and winner of several awards including NSERC (Canada) scholar in 2005 and Global Young Scientist (Singapore).<br/>He concurrently holds Adjunct Professor positions at the University of British Columbia, University of Victoria and University of Northern BC.</p> "
-    },
-    {
         "group": "Cairo",
         "repo": "www-chapter-cairo",
         "name": "OWASP Top 10 V2021 Awareness - A3 A4",
@@ -30,14 +20,14 @@
         "description": "<p>OWASP Top 10 Awareness Program</p> <p>The OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.</p> <p>The second day of the awareness\u00a0program includes four sessions covering 3rd and 4th items of OWASP top 10 risks and Mitigations.</p> <p>Location: Online Event,<br/>Please follow chapter's Youtube channel to join the Event.<br/><a href=\"https://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\" class=\"embedded\">https://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA</a></p> <p>Date: 18 December 2021</p> <p>Event Agenda:</p> <p>1- Using HTTP Proxies for Web Apps Pentesting\u00a0[By:\u00a0Ahmed Abdallah] 10:30 to 11:00<br/>2- A03:2021-Injection\u00a0[By:\u00a0Mohamed Galal] 11:00 to 12:00<br/>3- A04:2021- Insecure Design [By:\u00a0Mohamed Alfateh] 12:00 to 12:45<br/>4- Online Competition &amp; Event Closing\u00a012:45 to 13:30</p> "
     },
     {
-        "group": "Croatia",
-        "repo": "www-chapter-croatia",
-        "name": "Chapter Croatia Virtual Meetup - Risk Management and Log4j / Log4Shell",
-        "date": "2021-12-17",
-        "time": "19:00",
-        "link": "https://www.meetup.com/OWASP-Croatia-Meetup-Group/events/282683152/",
-        "timezone": "Europe/Zagreb",
-        "description": "<p>Hello everyone, it\u2019s time for our Q4 OWASP Croatia meetup. The topics will be delivered virtually, over Google Meet.</p> <p>We have two topics this week:<br/>- Slaven Smojver - IT Risk Management: What a (Competent) Corporation Wants?<br/>- Round table discussion - Log4J / Log4Shell</p> <p>See you!<br/>Talk abstracts and bios follow:</p> <p>Talk 1:<br/>----------------<br/>Slaven Smojver: IT Risk Management: What a (Competent) Corporation Wants?</p> <p>Short description:<br/>Risk management is the backbone of prudent business decision-making. So what do corporations expect from IT risk management? This presentation gives a very brief historical overview of the topic, presents what ISACA considers to be the best practice and focuses on the role of the \u201c2nd line of defence\u201d in IT risk management and on the process of risk scenario development.</p> <p>Bio:<br/>Slaven Smojver is director of the Information Systems Supervision Department in the Croatian National Bank (HNB). The department\u2019s primary responsibility is supervision and assessment of IT risk in credit institutions, e-money institutions, payment institutions, payment systems and FinTech companies. Slaven obtained his Ph.D., M.Sc. and M.Eng.EE degrees from the University of Zagreb, Croatia. He authored several scientific papers and has presented extensively on various topics related to financial services supervision, control and management of information systems and information security in financial institutions. He is CRISC, CISA and CISM in good standing.</p> <p>Talk 2:<br/>----------------<br/>Round table discussion - Log4J</p> <p>Let\u2019s talk and share information about the latest Log4J vulnerability. Bojan \u017ddrnja will give an intro of what we know so far, Vlatko Ko\u0161turjak will show his NSE scanning script, and we will talk about experiences and issues regarding the latest firefighting efforts. Of course, you are invited to share your experiences, findings or concerns.</p> "
+        "group": "Dallas",
+        "repo": "www-chapter-dallas",
+        "name": "OWASP January Meeting",
+        "date": "2022-01-18",
+        "time": "12:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991/",
+        "timezone": "US/Central",
+        "description": "<p>Title:</p> <p>Using the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program</p> <p>Description:</p> <p>The concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.<br/>Proactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.</p> <p>Bio:</p> <p>Chris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see <a href=\"https://www.linkedin.com/in/securityjourney/\" class=\"linkified\">https://www.linkedin.com/in/securityjourney/</a><br/>To book Chris for you event, please contact speaking@securityjourney.com.</p> "
     },
     {
         "group": "Dkte Soc Textile And Engineering Institute",
@@ -90,24 +80,14 @@
         "description": "<p>We are eager to see you all, and we are sure you are too, with COVID-19 still around, we are required to comply with the green pass guidelines meaning we will need to see proof of vaccination, recovery or a negative test from the past 72 hours for all attendees and please make sure to wear a mask during the event (except while eating ;) )</p> <p>If attending in person, I acknowledge that I do so at my own risk. OWASP recommends all participants be fully vaccinated before attending in-person events to reduce the risk of severe illness or death.</p> <p>------------------------------------------------------------------------------------------</p> <p>About our host Apiiro<br/>By analyzing signals from Design to Code to Cloud, Apiiro provides asset discovery &amp; risk assessment across application, open source &amp; Infra-as-Code - remediating critical risks to your business.<br/>We are helping every company in the world build &amp; scale their AppSec Program - Automatically!<br/> RSA Innovation Sandbox 2021 Winner<br/> Gartner 2021 Cool Vendor in DevSecOps</p> <p>------------------------------------------------------------------------------------------</p> <p>Agenda:<br/>17:45 - 18:15 - gathering, food &amp; networking</p> <p>18:15 - 18:45 Session #1 - HTTP Smuggling from inception to nowadays</p> <p>Join Milan Charniak, Red Teamer and Penetration Tester at Cilynx. Milan is an experienced Red Teamer that has experience in the detection / operations domains as well.</p> <p>The lecture is discussing HTTP Smuggling attacks from inception to this day while sharing some real exploitation successes.<br/>We will cover how HTTP Smuggling attacks are performed, from the classic HTTP Smuggling attack to the more recent HTTP 2.0<br/>Async Smuggling attacks. A variety of examples will be technically described and presented.</p> <p>18:45 - 19:15 Session #2 - APIs Posture Management and the Extinction of Rogue APIs</p> <p>Aner Morag, VP of Technology at Noname Security. Leading the Detection, Research and Innovation of the company.</p> <p>What is a good/secured API? How do you even measure the risks of your APIs when most part of your environment is unknown - even if an API-GW is in place, risks like data exposure and broken authentication mechanism are a common misconfiguration.<br/>Maintaining an up-to-date posture of your APIs is starting with their detection, cloud/infrastructure routing, while also including exposure / usage of sensitive data, IAAA functionality, or public access.</p> <p>19:15 - 19:30<br/>Break</p> <p>19:15 - 20:00 session 3 TBD</p> "
     },
     {
-        "group": "Italy",
-        "repo": "www-chapter-italy",
-        "name": "OWASP Italy December Meetup 2021",
-        "date": "2021-12-17",
-        "time": "14:30",
-        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/282582588/",
-        "timezone": "Europe/Rome",
-        "description": "<p>OWASP Italy December Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.</p> <p>This Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.</p> <p>More information and the Agenda at the following URL:<br/><a href=\"https://owasp.org/www-chapter-italy/events/owasp-meetup-171221\" class=\"linkified\">https://owasp.org/www-chapter-italy/events/owasp-meetup-171221</a></p> "
-    },
-    {
         "group": "Natal",
         "repo": "www-chapter-natal",
-        "name": "5 virtual meeting OWASP Natal Chapter",
-        "date": "2021-12-17",
+        "name": "5\u00ba virtual meeting OWASP Natal Chapter",
+        "date": "2021-12-21",
         "time": "20:00",
         "link": "https://www.meetup.com/OWASP-Natal-Chapter/events/282706028/",
         "timezone": "America/Fortaleza",
-        "description": "<p>/</p> "
+        "description": "<p>Nessa talk vamos conversar com a Helena, que come\u00e7ou a carreira de TI como desenvolvedora e agora atua como analista de seguran\u00e7a de aplica\u00e7\u00f5es em uma grande Fintech.<br/>Outra talk imperd\u00edvel!</p> "
     },
     {
         "group": "Oklahoma City",
