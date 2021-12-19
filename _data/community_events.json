@@ -10,16 +10,6 @@
         "description": "<p>Agenda:<br/>--&gt; GeneralOWASP Chapter discussion</p> <p>--&gt; OWASP Chapter Talk Series - Crypto currencies and the Secure coding practices</p> <p>--&gt; Any real OWASP Top 10 example and its mitigation by W3LC</p> <p>--&gt; Future plans</p> "
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Top 10 V2021 Awareness - A3 A4",
-        "date": "2021-12-18",
-        "time": "10:30",
-        "link": "https://www.meetup.com/OWASP-Cairo-Chapter/events/282636105/",
-        "timezone": "Africa/Cairo",
-        "description": "<p>OWASP Top 10 Awareness Program</p> <p>The OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.</p> <p>The second day of the awareness\u00a0program includes four sessions covering 3rd and 4th items of OWASP top 10 risks and Mitigations.</p> <p>Location: Online Event,<br/>Please follow chapter's Youtube channel to join the Event.<br/><a href=\"https://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\" class=\"embedded\">https://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA</a></p> <p>Date: 18 December 2021</p> <p>Event Agenda:</p> <p>1- Using HTTP Proxies for Web Apps Pentesting\u00a0[By:\u00a0Ahmed Abdallah] 10:30 to 11:00<br/>2- A03:2021-Injection\u00a0[By:\u00a0Mohamed Galal] 11:00 to 12:00<br/>3- A04:2021- Insecure Design [By:\u00a0Mohamed Alfateh] 12:00 to 12:45<br/>4- Online Competition &amp; Event Closing\u00a012:45 to 13:30</p> "
-    },
-    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP January Meeting",
@@ -40,6 +30,16 @@
         "description": "<p>Details<br/>26th December 5:00 PM IST</p> <p>Agenda</p> <p>Offensive Analysis of Android Application by Raja Nagori (IT Security Analyst II at FIS Global)<br/>(<a href=\"https://www.linkedin.com/in/raja-nagori/\" class=\"linkified\">https://www.linkedin.com/in/raja-nagori/</a>)</p> "
     },
     {
+        "group": "Doha",
+        "repo": "www-chapter-doha",
+        "name": "Cyber Security Meetup Doha -in-person ",
+        "date": "2021-12-22",
+        "time": "17:00",
+        "link": "https://www.meetup.com/OWASP-Doha-Chapter/events/282750455/",
+        "timezone": "Asia/Qatar",
+        "description": "<p>Announcing first in-person information security meetup for the year supported by the local information security community Doha, Qatar.</p> <p>This event is organized with assistance from innovation cafe, and sponsored by Microsoft Qatar</p> <p>Agenda &amp; Schedule for this meetup Dated 22/12/2021</p> <p>5:00 PM to 5:30 PM Introduction<br/>5:30 PM to 6:00 PM: \"Cyberwarfare\" by Mr. Abdul Kader Shaik, Chief Information Security Officer<br/>6:00 PM to 6:30 PM: \"Log4j\" by Mr. Yuri Kramarz, Senior Incident Response Consultant @ Talos Intelligence.<br/>6:30 to 7:00 PM: \"Automation 101\" by Mr. Predrag Petrovic, Principal professional services consultant<br/>7:00 to 7:30 PM: \"IoT Hardware Security: Physical unclonable functions (PUF) using memristors\" by Aref Al-Tamimi, QCRI-HBKU NCSRL Sr. Manager + Sr. Software Engineer Ph.D. Candidate @ HBKU</p> <p>This event is free to attend for both members and non-members of (ISC)\u00b2/OWASP/Null and is open to anyone interested in information security and cybersecurity awareness. Please note that you MUST RSVP it will help us in organizing.</p> <p>As this will be a recurring event, we welcome as many paper submissions as possible, and reserve keeps interesting talk proposals for future editions.</p> <p>The talk proposal should abide by the (ISC)\u00b2/OWASP/Null principles: to promote and disseminate knowledge and tools in cybersecurity that respect its core values, openness, support for innovation, global reach, and integrity. The talks should be vendor-neutral, which is not publicity talks for a specific company or a proprietary tool, but about interesting experiences insecurity that can engage and foster discussion in the local community.</p> "
+    },
+    {
         "group": "Germany",
         "repo": "www-chapter-germany",
         "name": "Series of lightning talks",
@@ -58,16 +58,6 @@
         "link": "https://www.meetup.com/CT-Cyber-Security-Meetup-OWASP-Hartford/events/282572004/",
         "timezone": "US/Eastern",
         "description": "<p>Agenda:<br/>* OWASP project spotlight focusing on \"Breaker\" (Pen-testing) topics including Nightengale: <a href=\"https://owasp.org/www-project-nightingale/\" class=\"linkified\">https://owasp.org/www-project-nightingale/</a><br/>* Call for volunteers<br/>* 2022 planning</p> "
-    },
-    {
-        "group": "Hyderabad",
-        "repo": "www-chapter-hyderabad",
-        "name": "OWASP Hyderabad Chapter Meet - December 2021",
-        "date": "2021-12-18",
-        "time": "10:30",
-        "link": "https://www.meetup.com/hyderabad-owasp-meetup-group/events/282604831/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Hello OWASPIANS ,</p> <p>It's a great pleasure to announce the OWASP Hyderabad Chapter December month meetup</p> <p>The following talks are lined up for the day :</p> <p>1. Exotic Magic Hashes: Type Juggling - Mr. Aqeel aka Ciph3r00t</p> <p>Description: In this session, Discuss the=implicit type casting,source code analysis, different avenues of exploitation and exploit development for a type Juggling vulnerability. Discussing OWASP Top A02 in 10 2021.</p> <p>About Mr.Aqeel: Passionate Information Security Engineer with 10 + years of professional experience and currently leading security team @ Servicenow</p> <p>He holds OSCP, CISM, CISA to name few with masters degree in computer science and Engineering.</p> <p>He got accolades from Apple, Microsoft, Google, LinkedIn, Amazon, SAP, Intel, NASA, SANS Institute and others for reporting Critical Security Vulnerabilities</p> <p>Join Zoom Meeting<br/><a href=\"https://us06web.zoom.us/j/83999896072?pwd=NEhtMUVKdHpjdXZva1Z0N2JtSDdsQT09\" class=\"linkified\">https://us06web.zoom.us/j/83999896072?pwd=NEhtMUVKdHpjdXZva1Z0N2JtSDdsQT09</a></p> <p>Meeting ID: 839 9989 6072<br/>One tap mobile<br/>+19294362866,,85053811753# US (New York)<br/>+12532158782,,85053811753# US (Tacoma)</p> <p>Dial by your location<br/>+1 929 436 2866 US (New York)<br/>+1 253 215 8782 US (Tacoma)<br/>+1 301 715 8592 US (Washington DC)<br/>+1 312 626 6799 US (Chicago)<br/>+1 346 248 7799 US (Houston)<br/>+1 669 900 6833 US (San Jose)<br/>Meeting ID: 839 9989 6072<br/>Find your local number: <a href=\"https://us06web.zoom.us/u/kb5HByKDCL\" class=\"linkified\">https://us06web.zoom.us/u/kb5HByKDCL</a></p> "
     },
     {
         "group": "Israel",
