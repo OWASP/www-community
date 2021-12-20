@@ -43,14 +43,9 @@ corresponds to the username. By trying new values for it, like “user02”,
 it could be possible to get inside the application without prior
 authentication.
 
-<center>
+![Predictable cookie](../assets/images/attacks/predictable-cookie.jpg)
 
-![Image:Predictable_cookie.JPG](Predictable_cookie.JPG
-"Image:Predictable_cookie.JPG")
-
-Figure 1. Predictable cookie
-
-</center>
+*Figure 1. Predictable cookie*
 
 ## External References
 

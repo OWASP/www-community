@@ -29,15 +29,11 @@ possible to view and interview within the http protocol and also in the
 data transferred. So, for example, it’s possible to capture a session
 cookie reading the http header, but it’s also possible to change an
 amount of money transaction inside the application context, as shown in
-figure 2.
+figure 1.
 
-<center>
+![HTTP packet intercepted with Paros Proxy](../assets/images/attacks/mitm-paros.jpg
 
-![Image:request.JPG](request.JPG "Image:request.JPG")
-
-Figure 2. Illustration of a HTTP Packet intercepted with Paros Proxy.
-
-</center>
+*Figure 1. Illustration of a HTTP Packet intercepted with Paros Proxy.*
 
 The MITM attack could also be done over an https connection by using the
 same technique; the only difference consists in the establishment of two

@@ -50,15 +50,10 @@ In the example, as we can see, first the attacker uses a sniffer to
 capture a valid token session called “Session ID”, then they use the
 valid token session to gain unauthorized access to the Web Server.
 
-<center>
+![Session sniffing](../assets/images/attacks/session-hijacking.jpg)
 
-![Image:Session_Hijacking_3.JPG](Session_Hijacking_3.JPG
-"Image:Session_Hijacking_3.JPG")
-
-Figure 2. Manipulating the token session executing the session hijacking
-attack.
-
-</center>
+*Figure 1. Manipulating the token session executing the session hijacking
+attack.*
 
 ### Example 2
 
@@ -80,14 +75,9 @@ send the cookie to the attacker.
 
     </SCRIPT>
 
-<center>
+![Code Injection](../assets/images/attacks/code-injection.jpg)
 
-![Image:Code_Injection.JPG](Code_Injection.JPG
-"Image:Code_Injection.JPG")
-
-Figure 3. Code injection.
-
-</center>
+*Figure 2. Code injection.*
 
 **Other Examples** The following attacks intercept the information
 exchange between the client and the server:
