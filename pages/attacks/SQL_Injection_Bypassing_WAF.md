@@ -120,12 +120,12 @@ can be used (e.g., \#\#\#\#\#, %00).*
 ` /?id=1;select+1&id=2,3+from+users+where+id=1--`
 
 *Successful conduction of an HPP attack bypassing WAF depends on the
-environment of the application being attacked.
-*[http://wiki.owasp.org/images/b/ba/AppsecEU09_CarettoniDiPaola_v0.8.pdf](EU09 Luca Carettoni, Stefano diPaola)*
+environment of the application being attacked.* [EU09 Luca Carettoni, Stefano diPaola](http://wiki.owasp.org/images/b/ba/AppsecEU09_CarettoniDiPaola_v0.8.pdf)
 
-![<File:Sqli-HPP.png>](Sqli-HPP.png "File:Sqli-HPP.png")
+![SQL Injection using HTTP Parameter Pollution](../assets/images/attacks/sql-injection-HPP.png)
 
 **Using HTTP Parameter Pollution (HPP)**
+
 • Vulnerable code
 
 ` SQL=" select key from table where id= "+Request.QueryString("id")`

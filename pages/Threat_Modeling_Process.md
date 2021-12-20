@@ -240,20 +240,20 @@ There are a number of symbols that are used in DFDs for threat modeling. These a
 
 | Symbol | Name | Description |
 |---|---|---|
-| ![Image:DFD_external_entity.gif](../assets/images/DFD_external_entity.gif "Image:DFD_external_entity.gif") | External Entity | The external entity shape is used to represent any entity outside the application that interacts with the application via an entry point. |
-| ![Image:DFD_process.gif](../assets/images/DFD_process.gif "Image:DFD_process.gif") | Process | The process shape represents a task that handles data within the application. The task may process the data or perform an action based on the data. |
-| ![Image:DFD_multiple_process.gif](../assets/images/DFD_multiple_process.gif "Image:DFD_multiple_process.gif") | Multiple Process | The multiple process shape is used to present a collection of subprocesses. The multiple process can be broken down into its subprocesses in another DFD. |
-| ![Image:DFD_data_store.gif](../assets/images/DFD_data_store.gif "Image:DFD_data_store.gif") | Data Store | The data store shape is used to represent locations where data is stored. Data stores do not modify the data, they only store data. |
-| ![Image:DFD_data_flow.gif](../assets/images/DFD_data_flow.gif "Image:DFD_data_flow.gif") | Data Flow | The data flow shape represents data movement within the application. The direction of the data movement is represented by the arrow. |
-| ![Image:DFD_privilge_boundary.gif](../assets/images/DFD_privilge_boundary.gif "Image:DFD_privilge_boundary.gif") | Privilege Boundary | The privilege boundary (or trust boundary) shape is used to represent the change of trust levels as the data flows through the application. Boundaries show any location where the level of trust changes. |
+| ![Data Flow Diagram: External Entity](../assets/images/DFD_external_entity.gif) | External Entity | The external entity shape is used to represent any entity outside the application that interacts with the application via an entry point. |
+| ![Data Flow Diagram: Process](../assets/images/DFD_process.gif) | Process | The process shape represents a task that handles data within the application. The task may process the data or perform an action based on the data. |
+| ![Data Flow Diagram: Multiple Process](../assets/images/DFD_multiple_process.gif) | Multiple Process | The multiple process shape is used to present a collection of subprocesses. The multiple process can be broken down into its subprocesses in another DFD. |
+| ![Data Flow Diagram: Data Store](../assets/images/DFD_data_store.gif) | Data Store | The data store shape is used to represent locations where data is stored. Data stores do not modify the data, they only store data. |
+| ![Data Flow Diagram: Data Flow](../assets/images/DFD_data_flow.gif) | Data Flow | The data flow shape represents data movement within the application. The direction of the data movement is represented by the arrow. |
+| ![Data Flow Diagram: Privilege Boundary](../assets/images/DFD_privilege_boundary.gif) | Privilege Boundary | The privilege boundary (or trust boundary) shape is used to represent the change of trust levels as the data flows through the application. Boundaries show any location where the level of trust changes. |
 
 ### Example Diagrams
 
-![Image:Data flow1.jpg](../assets/images/Data_flow1.jpg "Image:Data flow1.jpg")
+![Image:Data flow1.jpg](../assets/images/Data_flow1.jpg)
 
 *Figure 1: Data Flow Diagram for the College Library Website.*
 
-![Image:Data flow2.jpg](../assets/images/Data_flow2.jpg "Image:Data flow2.jpg")
+![Image:Data flow2.jpg](../assets/images/Data_flow2.jpg)
 
 *Figure 2: User Login Data Flow Diagram for the College Library Website.*
 
@@ -303,7 +303,7 @@ From the defensive perspective, the identification of threats driven by security
 
 At the next iteration, threats are further analyzed by exploring the attack paths, the root causes for the threat to be exploited (e.g. vulnerabilities, depicted as orange blocks below), and the necessary mitigation controls (e.g. countermeasures, depicted as green blocks below). A threat tree as shown below is useful to perform such threat analysis.
 
-![Threat Graph](../assets/images/Threat_Graph.gif "Threat Graph")
+![Threat Graph](../assets/images/Threat_Graph.gif)
 
 *Figure 3: Threat Tree Diagram.*
 
@@ -311,7 +311,7 @@ Once common threats, vulnerabilities, and attacks are assessed, a more focused t
 
 A use and misuse case graph for authentication is shown below:
 
-![UseAndMisuseCase.jpg](../assets/images/UseAndMisuseCase.jpg "UseAndMisuseCase.jpg")
+![Use And MisuseCase](../assets/images/UseAndMisuseCase.jpg)
 
 *Figure 4: Use and Misuse Cases*
 
@@ -321,7 +321,7 @@ The outcome of threat analysis is a determination of the types of threats posed 
 
 Threats can be ranked from the perspective of risk factors. By determining the risk factor posed by the various identified threats, it is possible to create a prioritized list of threats to support a risk mitigation strategy, such as prioritizing the threats to be mitigated first. Different risk factors can be used to rank threats as High, Medium, or Low risk. In general, threat risk models use different factors to model risks such as those shown below:
 
-![Risk Model Factors](../assets/images/Riskfactors.JPG "Figure 3: Risk Model Factors")
+![Risk Model Factors](../assets/images/Riskfactors.JPG)
 
 *Figure 5: Ranking Risk Factors.*
 

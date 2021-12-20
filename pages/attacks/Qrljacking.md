@@ -126,22 +126,22 @@ code.
 
 Here’s how the QRLJacking attack works behind the scenes:
 
-1\. The attacker initial a client side QR session and clone the Login QR
-Code into a phishing website. “Now a well-crafted phishing page with a
-valid and regularly updated QR Code is ready to be sent to a Victim.”
+1. The attacker initial a client side QR session and clone the Login QR
+   Code into a phishing website. “Now a well-crafted phishing page with a
+   valid and regularly updated QR Code is ready to be sent to a Victim.”
 
-2\. The Attacker Sends the phishing page to the victim. (refer to
-[QRLJacking real life attack
-vectors](https://github.com/OWASP/QRLJacking/wiki/QRLJacking-and-Advanced-Real-Life-Attack-Vectors))
+2. The Attacker Sends the phishing page to the victim. (refer to
+   [QRLJacking real life attack
+   vectors](https://github.com/OWASP/QRLJacking/wiki/QRLJacking-and-Advanced-Real-Life-Attack-Vectors))
 
-3\. The Victim Scans the QR Code with a Specific Targeted Mobile App.
+3. The Victim Scans the QR Code with a Specific Targeted Mobile App.
 
-4\. The Attacker gains controls over the victim’s Account.
+4. The Attacker gains controls over the victim’s Account.
 
-5\. The service is exchanging all the victim’s data with the attacker’s
-session.
+5. The service is exchanging all the victim’s data with the attacker’s
+   session.
 
-![<File:Attack_flow.JPG>](Attack_flow.JPG "File:Attack_flow.JPG")
+![QRLJacking Attack Flow](../assets/images/attacks/qrljacking-attack-flow.jpg)
 
 # QRLJacking Implications
 
@@ -273,54 +273,51 @@ Our top recommendation is to just stop using Login with QR code except
 when it is necessary also there is a lot of ways to mitigate such issue
 and here is some ways to be used together or standalone:
 
-1\. Session Confirmation, We recommend implementing a confirmation
-message/notification displaying characteristic information about the
-session made by the client/server.
+1. Session Confirmation, We recommend implementing a confirmation
+   message/notification displaying characteristic information about the
+   session made by the client/server.
 
-2\. IP Restrictions, Restricting any authentication process on different
-networks (WANs) will minimize the attack window.
+2. IP Restrictions, Restricting any authentication process on different
+   networks (WANs) will minimize the attack window.
 
-3\. Location-based Restrictions, Restricting any authentication process
-based on different locations will minimize the attack window.
+3. Location-based Restrictions, Restricting any authentication process based on
+   different locations will minimize the attack window.
 
-4\. Sound-based Authentication, One of the techniques to mitigate this
-kind of attack \[And maintain the same usability level as to not require
-any additional interaction from the user other than scanning the QR \]
-is to add sound-based authentication step to the process , we have seen
-this kind of technology where it is possible to generate unique data and
-convert it to audio that can be recognized back into its original form
-\[SlickLogin and Sound-Proof\] so it is possible to include this
-technology in the process .
+4. Sound-based Authentication, One of the techniques to mitigate this kind of
+   attack \[And maintain the same usability level as to not require any
+   additional interaction from the user other than scanning the QR \] is to add
+   sound-based authentication step to the process , we have seen this kind of
+   technology where it is possible to generate unique data and convert it to
+   audio that can be recognized back into its original form \[SlickLogin and
+   Sound-Proof\] so it is possible to include this technology in the process.
 
 The purposes of this added step is to make sure that scanned QR code is
 generated in the same physical location as the mobile device that is
 doing the scan and therefore eliminating the possibility of a remote
 attacker deceiving the user into scanning their qr code.
 
-![<File:NormalLoginScenario.JPG>](NormalLoginScenario.JPG
-"File:NormalLoginScenario.JPG")
+![Nomal Login Scenario](../assets/images/attacks/qrl-normal-login-scenario.jpg)
 
 **The Attack Scenario (with the mitigation):** Attacker visits the
 website and opens a session.
 
-1\. The Website Generates QR Code which holds a session key.
+1. The Website Generates QR Code which holds a session key.
 
 2\. Attacker crafts a phishing website with the received QR Code and
 sends it to the user.
 
-3\. User scans the attacker's QR Code in the phishing website.
+3. User scans the attacker's QR Code in the phishing website.
 
-4\. The mobile App generates the authentication sound and play it to the
+4. The mobile App generates the authentication sound and play it to the
 phishing website.
 
-5\. The phishing website fails to process and capture the authentication
+5. The phishing website fails to process and capture the authentication
 audio as it requires additional browser permissions.
 
-6\. Even if the attacker tries to generate the authentication sound
+6. Even if the attacker tries to generate the authentication sound
 based on the (User ID) they still lack the private key.
 
-![<File:Mitigation_scenario.JPG>](Mitigation_scenario.JPG
-"File:Mitigation_scenario.JPG")
+![Mitigation Scenario](../assets/images/attacks/qrljacking-mitigation-scenario.jpg)
 
 # Related Vulnerabilities
 
