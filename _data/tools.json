@@ -126,6 +126,15 @@
       "type": "DAST"
    },
    {
+      "title": "Bearer",
+      "url": "https://www.bearer.com",
+      "owner": "Bearer",
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": "Map sensitive data flows and identify security risks such as unauthorized data flow, missing encryption, unauthorized access, and more.",
+      "type": "SAST"
+   },
+   {
       "title": "beSECURE (formerly AVDS)",
       "url": "https://www.beyondsecurity.com/",
       "owner": "Beyond Security",
