@@ -4,129 +4,319 @@
         "repo": "www-chapter-aligarh",
         "name": "OWASP Chapter Talk Series - Crypto currencies and the Secure coding practices",
         "date": "2021-12-26",
-        "time": "14:00",
-        "link": "https://www.meetup.com/OWASP-Aligarh-Meetup-Group/events/278656640/",
+        "time": "4:00+05:30",
+        "link": "https://www.meetup.com/OWASP-Aligarh-Meetup-Group/events/278656640",
         "timezone": "Asia/Calcutta",
-        "description": "<p>Agenda:<br/>--&gt; GeneralOWASP Chapter discussion</p> <p>--&gt; OWASP Chapter Talk Series - Crypto currencies and the Secure coding practices</p> <p>--&gt; Any real OWASP Top 10 example and its mitigation by W3LC</p> <p>--&gt; Future plans</p> "
+        "description": "Agenda:\n--> GeneralOWASP Chapter discussion\n\n--> OWASP Chapter Talk Series - Crypto currencies and the Secure coding practices\n\n--> Any real OWASP Top 10 example and its mitigation by W3LC\n\n--> Future plans"
+    },
+    {
+        "group": "Ankara",
+        "repo": "www-chapter-ankara",
+        "name": "OWASP January Meeting",
+        "date": "2022-01-18",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
+        "timezone": "US/Central",
+        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
+    },
+    {
+        "group": "Ankara",
+        "repo": "www-chapter-ankara",
+        "name": "Effective Approaches for Shift Left Security",
+        "date": "2022-01-13",
+        "time": "9:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092",
+        "timezone": "Asia/Singapore",
+        "description": "The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.\n\nSpeaker: Siddharth Deshpande\nWith over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u2019 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.\n\nIn this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.\n\nHe joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.\nSiddharth holds a Bachelor in Electronics Engineering from Mumbai University in India"
+    },
+    {
+        "group": "Ankara",
+        "repo": "www-chapter-ankara",
+        "name": "Series of lightning talks",
+        "date": "2022-01-13",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
+        "timezone": "Europe/Berlin",
+        "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
+    },
+    {
+        "group": "Arunai Engineering College",
+        "repo": "www-chapter-arunai-engineering-college",
+        "name": "OWASP January Meeting",
+        "date": "2022-01-18",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
+        "timezone": "US/Central",
+        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
+    },
+    {
+        "group": "Arunai Engineering College",
+        "repo": "www-chapter-arunai-engineering-college",
+        "name": "Effective Approaches for Shift Left Security",
+        "date": "2022-01-13",
+        "time": "9:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092",
+        "timezone": "Asia/Singapore",
+        "description": "The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.\n\nSpeaker: Siddharth Deshpande\nWith over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u2019 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.\n\nIn this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.\n\nHe joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.\nSiddharth holds a Bachelor in Electronics Engineering from Mumbai University in India"
+    },
+    {
+        "group": "Arunai Engineering College",
+        "repo": "www-chapter-arunai-engineering-college",
+        "name": "Series of lightning talks",
+        "date": "2022-01-13",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
+        "timezone": "Europe/Berlin",
+        "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
+    },
+    {
+        "group": "Bonita Springs",
+        "repo": "www-chapter-bonita-springs",
+        "name": "OWASP Monthly Meeting",
+        "date": "2022-01-04",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/OWASP-Bonita-Springs-Chapter/events/282810396",
+        "timezone": "US/Eastern",
+        "description": "We generally review security related happenings, share tips and tricks for configuring software and hardware, and chat about various topics such as security, privacy, exploitation, vulnerabilities, pen testing, web app security, CTFs, IoT security, mobile security and anything else members wish to discuss."
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
+        "name": "OWASP January Meeting",
+        "date": "2022-01-18",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
+        "timezone": "US/Central",
+        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
+        "name": "Effective Approaches for Shift Left Security",
+        "date": "2022-01-13",
+        "time": "9:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092",
+        "timezone": "Asia/Singapore",
+        "description": "The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.\n\nSpeaker: Siddharth Deshpande\nWith over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u2019 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.\n\nIn this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.\n\nHe joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.\nSiddharth holds a Bachelor in Electronics Engineering from Mumbai University in India"
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
+        "name": "Series of lightning talks",
+        "date": "2022-01-13",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
+        "timezone": "Europe/Berlin",
+        "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
     },
     {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP January Meeting",
         "date": "2022-01-18",
-        "time": "12:00",
-        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991/",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
         "timezone": "US/Central",
-        "description": "<p>Title:</p> <p>Using the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program</p> <p>Description:</p> <p>The concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.<br/>Proactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.</p> <p>Bio:</p> <p>Chris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see <a href=\"https://www.linkedin.com/in/securityjourney/\" class=\"linkified\">https://www.linkedin.com/in/securityjourney/</a><br/>To book Chris for you event, please contact speaking@securityjourney.com.</p> "
+        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u00e2\u20ac\u2122s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
     },
     {
         "group": "Dkte Soc Textile And Engineering Institute",
         "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
-        "name": "OWASP DKTE Meetup #2 (Virtual)",
-        "date": "2021-12-26",
-        "time": "17:00",
-        "link": "https://www.meetup.com/owasp-dkte/events/282663700/",
-        "timezone": "Asia/Calcutta",
-        "description": "<p>Details<br/>26th December 5:00 PM IST</p> <p>Agenda</p> <p>Offensive Analysis of Android Application by Raja Nagori (IT Security Analyst II at FIS Global)<br/>(<a href=\"https://www.linkedin.com/in/raja-nagori/\" class=\"linkified\">https://www.linkedin.com/in/raja-nagori/</a>)</p> "
+        "name": "OWASP January Meeting",
+        "date": "2022-01-18",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
+        "timezone": "US/Central",
+        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "Effective Approaches for Shift Left Security",
+        "date": "2022-01-13",
+        "time": "9:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092",
+        "timezone": "Asia/Singapore",
+        "description": "The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.\n\nSpeaker: Siddharth Deshpande\nWith over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u2019 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.\n\nIn this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.\n\nHe joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.\nSiddharth holds a Bachelor in Electronics Engineering from Mumbai University in India"
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "Series of lightning talks",
+        "date": "2022-01-13",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
+        "timezone": "Europe/Berlin",
+        "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
     },
     {
         "group": "Doha",
         "repo": "www-chapter-doha",
         "name": "Cyber Security Meetup Doha -in-person ",
         "date": "2021-12-22",
-        "time": "17:00",
-        "link": "https://www.meetup.com/OWASP-Doha-Chapter/events/282750455/",
+        "time": "7:00+03:00",
+        "link": "https://www.meetup.com/OWASP-Doha-Chapter/events/282750455",
         "timezone": "Asia/Qatar",
-        "description": "<p>Announcing first in-person information security meetup for the year supported by the local information security community Doha, Qatar.</p> <p>This event is organized with assistance from innovation cafe, and sponsored by Microsoft Qatar</p> <p>Agenda &amp; Schedule for this meetup Dated 22/12/2021</p> <p>5:00 PM to 5:30 PM Introduction<br/>5:30 PM to 6:00 PM: \"Cyberwarfare\" by Mr. Abdul Kader Shaik, Chief Information Security Officer<br/>6:00 PM to 6:30 PM: \"Log4j\" by Mr. Yuri Kramarz, Senior Incident Response Consultant @ Talos Intelligence.<br/>6:30 to 7:00 PM: \"Automation 101\" by Mr. Predrag Petrovic, Principal professional services consultant<br/>7:00 to 7:30 PM: \"IoT Hardware Security: Physical unclonable functions (PUF) using memristors\" by Aref Al-Tamimi, QCRI-HBKU NCSRL Sr. Manager + Sr. Software Engineer Ph.D. Candidate @ HBKU</p> <p>This event is free to attend for both members and non-members of (ISC)\u00b2/OWASP/Null and is open to anyone interested in information security and cybersecurity awareness. Please note that you MUST RSVP it will help us in organizing.</p> <p>As this will be a recurring event, we welcome as many paper submissions as possible, and reserve keeps interesting talk proposals for future editions.</p> <p>The talk proposal should abide by the (ISC)\u00b2/OWASP/Null principles: to promote and disseminate knowledge and tools in cybersecurity that respect its core values, openness, support for innovation, global reach, and integrity. The talks should be vendor-neutral, which is not publicity talks for a specific company or a proprietary tool, but about interesting experiences insecurity that can engage and foster discussion in the local community.</p> "
+        "description": "Announcing first in-person information security meetup for the year supported by the local information security community Doha, Qatar.\n\nThis event is organized with assistance from innovation cafe, and sponsored by Microsoft Qatar\n\nAgenda & Schedule for this meetup Dated 22/12/2021\n\n5:00 PM to 5:30 PM Introduction\n5:30 PM to 6:00 PM: \"Cyberwarfare\" by Mr. Abdul Kader Shaik, Chief Information Security Officer\n6:00 PM to 6:30 PM: \"Log4j\" by Mr. Yuri Kramarz, Senior Incident Response Consultant @ Talos Intelligence.\n6:30 to 7:00 PM: \"Automation 101\" by Mr. Predrag Petrovic, Principal professional services consultant\n7:00 to 7:30 PM: \"IoT Hardware Security: Physical unclonable functions (PUF) using memristors\" by Aref Al-Tamimi, QCRI-HBKU NCSRL Sr. Manager + Sr. Software Engineer Ph.D. Candidate @ HBKU\n\nThis event is free to attend for both members and non-members of (ISC)\u00b2/OWASP/Null and is open to anyone interested in information security and cybersecurity awareness. Please note that you MUST RSVP it will help us in organizing.\n\nAs this will be a recurring event, we welcome as many paper submissions as possible, and reserve keeps interesting talk proposals for future editions.\n\nThe talk proposal should abide by the (ISC)\u00b2/OWASP/Null principles: to promote and disseminate knowledge and tools in cybersecurity that respect its core values, openness, support for innovation, global reach, and integrity. The talks should be vendor-neutral, which is not publicity talks for a specific company or a proprietary tool, but about interesting experiences insecurity that can engage and foster discussion in the local community."
     },
     {
         "group": "Germany",
         "repo": "www-chapter-germany",
         "name": "Series of lightning talks",
         "date": "2022-01-13",
-        "time": "18:30",
-        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845/",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
         "timezone": "Europe/Berlin",
-        "description": "<p>Hi everyone,</p> <p>this is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.</p> <p>On this day we present a series of lightning talks, online.</p> <p>1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"<br/>2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update<br/>Behavior of Websites and Its Impact on Security\"<br/>3) TBA...</p> <p>1) Abstract<br/>---------------<br/>OWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:</p> <p>- Coding Challenges<br/>- Cheat Detection<br/>- Challenge Feedback<br/>- Daily Project Stats</p> <p>Warning: This talk will skip any basic intro part in favor more new content!</p> <p>2) Abstract:<br/>----------------<br/>Software updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.</p> <p>Until then: have a great holiday season and all the best for 2022!</p> <p>Cheers, Dirk</p> "
+        "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00c3\u00b6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
     },
     {
         "group": "Hartford",
         "repo": "www-chapter-hartford",
         "name": "(Virtual) \"Breaker\" Pen Test security lunch and learn",
         "date": "2021-12-29",
-        "time": "12:00",
-        "link": "https://www.meetup.com/CT-Cyber-Security-Meetup-OWASP-Hartford/events/282572004/",
+        "time": "2:00-05:00",
+        "link": "https://www.meetup.com/CT-Cyber-Security-Meetup-OWASP-Hartford/events/282572004",
         "timezone": "US/Eastern",
-        "description": "<p>Agenda:<br/>* OWASP project spotlight focusing on \"Breaker\" (Pen-testing) topics including Nightengale: <a href=\"https://owasp.org/www-project-nightingale/\" class=\"linkified\">https://owasp.org/www-project-nightingale/</a><br/>* Call for volunteers<br/>* 2022 planning</p> "
+        "description": "Agenda:\n* OWASP project spotlight focusing on \"Breaker\" (Pen-testing) topics including Nightengale: https://owasp.org/www-project-nightingale/\n* Call for volunteers\n* 2022 planning"
     },
     {
         "group": "Israel",
         "repo": "www-chapter-israel",
         "name": "OWASP IL Meetup Dec 2021",
         "date": "2021-12-27",
-        "time": "17:45",
-        "link": "https://www.meetup.com/OWASP-Israel/events/282521101/",
+        "time": "7:45+02:00",
+        "link": "https://www.meetup.com/OWASP-Israel/events/282521101",
         "timezone": "Asia/Jerusalem",
-        "description": "<p>We are eager to see you all, and we are sure you are too, with COVID-19 still around, we are required to comply with the green pass guidelines meaning we will need to see proof of vaccination, recovery or a negative test from the past 72 hours for all attendees and please make sure to wear a mask during the event (except while eating ;) )</p> <p>If attending in person, I acknowledge that I do so at my own risk. OWASP recommends all participants be fully vaccinated before attending in-person events to reduce the risk of severe illness or death.</p> <p>------------------------------------------------------------------------------------------</p> <p>About our host Apiiro<br/>By analyzing signals from Design to Code to Cloud, Apiiro provides asset discovery &amp; risk assessment across application, open source &amp; Infra-as-Code - remediating critical risks to your business.<br/>We are helping every company in the world build &amp; scale their AppSec Program - Automatically!<br/> RSA Innovation Sandbox 2021 Winner<br/> Gartner 2021 Cool Vendor in DevSecOps</p> <p>------------------------------------------------------------------------------------------</p> <p>Agenda:<br/>17:45 - 18:15 - gathering, food &amp; networking</p> <p>18:15 - 18:45 Session #1 - HTTP Smuggling from inception to nowadays</p> <p>Join Milan Charniak, Red Teamer and Penetration Tester at Cilynx. Milan is an experienced Red Teamer that has experience in the detection / operations domains as well.</p> <p>The lecture is discussing HTTP Smuggling attacks from inception to this day while sharing some real exploitation successes.<br/>We will cover how HTTP Smuggling attacks are performed, from the classic HTTP Smuggling attack to the more recent HTTP 2.0<br/>Async Smuggling attacks. A variety of examples will be technically described and presented.</p> <p>18:45 - 19:15 Session #2 - APIs Posture Management and the Extinction of Rogue APIs</p> <p>Aner Morag, VP of Technology at Noname Security. Leading the Detection, Research and Innovation of the company.</p> <p>What is a good/secured API? How do you even measure the risks of your APIs when most part of your environment is unknown - even if an API-GW is in place, risks like data exposure and broken authentication mechanism are a common misconfiguration.<br/>Maintaining an up-to-date posture of your APIs is starting with their detection, cloud/infrastructure routing, while also including exposure / usage of sensitive data, IAAA functionality, or public access.</p> <p>19:15 - 19:30<br/>Break</p> <p>19:15 - 20:00 session 3 TBD</p> "
+        "description": "Agenda:\n\n17:45 - 18:15 - Gathering, Food, Networking, Log4j Warstories & Meme Sharing\n\n18:15 to 18:45 - Session #1 - Kubernetes API Server - What went wrong and how can we still win?\n\nThe session will be presented by Moshe Zioni and Liri Sokol. Moshe Zioni is the VP of Security Research at Apiiro, He is listed as 27 influential penetration testers in 2020 by Peerlyst and have been researching cybersecurity for over 20 years in multiple domains and industries. Lior Sokol is the first employee and technical leader at Apiiro, Lior has a strong background in design and implementation of complex systems from backend to frontend.\n\nKubernetes poses quite a few security challenges, one of the more interesting and central components of it is the API Server. We are going to walk through its past vulnerabilities and security pain points, and finally, how can one remediate those and similar gaps in the future.\n\n18:45 to 19:15 Session #2 - APIs Posture Management and the Extinction of Rogue APIs\n\nAner Morag, VP of Technology at Noname Security. Leading the Detection, Research and Innovation of the company.\n\nWhat is a good/secured API? How do you even measure the risks of your APIs when most part of your environment is unknown - even if an API-GW is in place, risks like data exposure and broken authentication mechanism are a common misconfiguration.\nMaintaining an up-to-date posture of your APIs is starting with their detection, cloud/infrastructure routing, while also including exposure / usage of sensitive data, IAAA functionality, or public access.\n\n19:15 - 19:30\nBreak\n\n19:30 to 20:00 - Session #3 - HTTP Smuggling from inception to nowadays\n\nJoin Milan Charniak, Red Teamer and Penetration Tester at Cilynx. Milan is an experienced Red Teamer that has experience in the detection / operations domains as well.\n\nThe lecture is discussing HTTP Smuggling attacks from inception to this day while sharing some real exploitation successes.\nWe will cover how HTTP Smuggling attacks are performed, from the classic HTTP Smuggling attack to the more recent HTTP 2.0\nAsync Smuggling attacks. A variety of examples will be technically described and presented."
     },
     {
-        "group": "Natal",
-        "repo": "www-chapter-natal",
-        "name": "5\u00ba virtual meeting OWASP Natal Chapter",
-        "date": "2021-12-21",
-        "time": "20:00",
-        "link": "https://www.meetup.com/OWASP-Natal-Chapter/events/282706028/",
-        "timezone": "America/Fortaleza",
-        "description": "<p>Nessa talk vamos conversar com a Helena, que come\u00e7ou a carreira de TI como desenvolvedora e agora atua como analista de seguran\u00e7a de aplica\u00e7\u00f5es em uma grande Fintech.<br/>Outra talk imperd\u00edvel!</p> "
+        "group": "Jakarta",
+        "repo": "www-chapter-jakarta",
+        "name": "OWASP x University Brawijaya Malang, East Java",
+        "date": "2021-12-30",
+        "time": "9:00+07:00",
+        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/282783192",
+        "timezone": "Asia/Jakarta",
+        "description": "OWASP Goes To Campus Series (University Brawijaya Malang, East Java).\n\nSoftware yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\u2022 Tool dan standar keamanan aplikasi\n\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n\u2022 Kendali keamanan dan pustaka standar\n\u2022 Cabang lokal di seluruh dunia\n\u2022 Riset terkini\n\u2022 Konferensi lengkap di seluruh dunia\n\u2022 Mailing list\n\u2022 Dan banyak lagi \u2026 di www.owasp.org\n\nKali ini OWASP Goes To Campus Series akan membahas :\n1. Start Your Career As Pentester Mohammad Isfa Hany (Pentester)\n2. Virtual Lab berbasis Container untuk pembelajaran keamanan informasi - Adhitya Bhawiyuga, S.Kom., M.Sc. (Kaprodi Filkom UB)\n\nVenue :\nOnline by zoom\nTime: Dec 30, 2021 07:00 PM Jakarta\n\nCatatan :\nAcara Ini Free for Everyone\nAcara ini Di deliver dengan Bahasa Indonesia"
+    },
+    {
+        "group": "Kuala Lumpur",
+        "repo": "www-chapter-kuala-lumpur",
+        "name": "OWASP January Meeting",
+        "date": "2022-01-18",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
+        "timezone": "US/Central",
+        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
+    },
+    {
+        "group": "Kuala Lumpur",
+        "repo": "www-chapter-kuala-lumpur",
+        "name": "Effective Approaches for Shift Left Security",
+        "date": "2022-01-13",
+        "time": "9:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092",
+        "timezone": "Asia/Singapore",
+        "description": "The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.\n\nSpeaker: Siddharth Deshpande\nWith over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u2019 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.\n\nIn this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.\n\nHe joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.\nSiddharth holds a Bachelor in Electronics Engineering from Mumbai University in India"
+    },
+    {
+        "group": "Kuala Lumpur",
+        "repo": "www-chapter-kuala-lumpur",
+        "name": "Series of lightning talks",
+        "date": "2022-01-13",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
+        "timezone": "Europe/Berlin",
+        "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
+    },
+    {
+        "group": "M.kumaraswamy College Of Engineering",
+        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
+        "name": "OWASP January Meeting",
+        "date": "2022-01-18",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
+        "timezone": "US/Central",
+        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
+    },
+    {
+        "group": "M.kumaraswamy College Of Engineering",
+        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
+        "name": "Effective Approaches for Shift Left Security",
+        "date": "2022-01-13",
+        "time": "9:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092",
+        "timezone": "Asia/Singapore",
+        "description": "The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.\n\nSpeaker: Siddharth Deshpande\nWith over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u2019 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.\n\nIn this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.\n\nHe joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.\nSiddharth holds a Bachelor in Electronics Engineering from Mumbai University in India"
+    },
+    {
+        "group": "M.kumaraswamy College Of Engineering",
+        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
+        "name": "Series of lightning talks",
+        "date": "2022-01-13",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
+        "timezone": "Europe/Berlin",
+        "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
     },
     {
         "group": "Oklahoma City",
         "repo": "www-chapter-oklahoma-city",
         "name": "Zero Trust Model - A Swiss Knife for API Risk Reduction",
         "date": "2022-01-13",
-        "time": "15:00",
-        "link": "https://www.meetup.com/Oklahoma-City-Chapter-Meetup/events/282192276/",
+        "time": "5:00-06:00",
+        "link": "https://www.meetup.com/Oklahoma-City-Chapter-Meetup/events/282192276",
         "timezone": "US/Central",
-        "description": "<p>Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs.</p> <p>You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues.</p> <p>Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks.</p> <p>This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management .</p> "
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2022-01-12",
-        "time": "12:00",
-        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/pfhhqsydccbqb/",
-        "timezone": "US/Pacific",
-        "description": "<p>At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.</p> <p>Suggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.</p> <p>Slack @ #chapter-seattle (<a href=\"https://bit.ly/owasp-seattle-slack\" class=\"linkified\">https://bit.ly/owasp-seattle-slack</a>)</p> <p>seattle-chapter@owasp.org (<a href=\"https://groups.google.com/a/owasp.org/g/seattle-chapter\" class=\"linkified\">https://groups.google.com/a/owasp.org/g/seattle-chapter</a>)</p> "
+        "description": "Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs.\n\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues.\n\nGartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks.\n\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management ."
     },
     {
         "group": "Singapore",
         "repo": "www-chapter-singapore",
         "name": "Effective Approaches for Shift Left Security",
         "date": "2022-01-13",
-        "time": "19:30",
-        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092/",
+        "time": "9:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092",
         "timezone": "Asia/Singapore",
-        "description": "<p>The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.</p> <p>Speaker: Siddharth Deshpande<br/>With over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u2019 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.</p> <p>In this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.</p> <p>He joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.<br/>Siddharth holds a Bachelor in Electronics Engineering from Mumbai University in India</p> "
+        "description": "The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.\n\nSpeaker: Siddharth Deshpande\nWith over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u00e2\u20ac\u2122 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.\n\nIn this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.\n\nHe joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.\nSiddharth holds a Bachelor in Electronics Engineering from Mumbai University in India"
     },
     {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2021-12-30",
-        "time": "18:30",
-        "link": "https://www.meetup.com/owasptriangle/events/pqfzhsyccqbnc/",
-        "timezone": "US/Eastern",
-        "description": "<p>TBA</p> "
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "OWASP January Meeting",
+        "date": "2022-01-18",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
+        "timezone": "US/Central",
+        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
     },
     {
-        "group": "Wia",
-        "repo": "www-committee-wia",
-        "name": "Diversity Panel",
-        "date": "2022-01-15",
-        "time": "11:00",
-        "link": "https://www.meetup.com/womeninappsec/events/281488440/",
-        "timezone": "US/Eastern",
-        "description": "<p>*** Overview Goes here ***</p> "
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "Effective Approaches for Shift Left Security",
+        "date": "2022-01-13",
+        "time": "9:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/282543092",
+        "timezone": "Asia/Singapore",
+        "description": "The concept of shift left is not new, but it is more possible today thanks to how cloud native applications are designed and deployed. This session will look at some key threats associated with cloud native applications and examples of how shifting security left can greatly help an organization's security posture.\n\nSpeaker: Siddharth Deshpande\nWith over 15 years of experience in the technology and cybersecurity domains, Siddharth Deshpande is Palo Alto Networks\u2019 CTO for the APAC region, focussed on the emerging areas of cloud native application security and security for the hybrid workforce.\n\nIn this role, he leads both business and technical focussed advisory engagements around cloud security to the largest corporations and government agencies in the region.\n\nHe joined Palo Alto Networks from Akamai where he was a key technology leader focussed on emerging cybersecurity domains across Asia-Pacific and Japan. Prior to Akamai, Siddharth spent almost a decade at Gartner where he was a strategic advisor to organizations across the Asia-Pacific and Japan region as well as globally around a variety of emerging and established cybersecurity domains.\nSiddharth holds a Bachelor in Electronics Engineering from Mumbai University in India"
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "Series of lightning talks",
+        "date": "2022-01-13",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
+        "timezone": "Europe/Berlin",
+        "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
+    },
+    {
+        "group": "Yerevan",
+        "repo": "www-chapter-yerevan",
+        "name": "OWASP Yerevan December meetup",
+        "date": "2021-12-24",
+        "time": "9:30+04:00",
+        "link": "https://www.meetup.com/owasp-yerevan/events/282801034",
+        "timezone": "Asia/Yerevan",
+        "description": "Good day !\nWe are going to have another OWASP monthly meetup at ISTC and the topics are:\n- \"Deep Dive into Log4Shell\" by Hayk Andriasyan\n- \"Exploring JS Prototype Pollution\" by Varik Matevosyan\nAs the event is going to in-person, there will be in-place symptom checks and please have your masks on."
     }
 ]
