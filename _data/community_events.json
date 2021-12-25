@@ -70,16 +70,6 @@
         "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
     },
     {
-        "group": "Bonita Springs",
-        "repo": "www-chapter-bonita-springs",
-        "name": "OWASP Monthly Meeting",
-        "date": "2022-01-04",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/OWASP-Bonita-Springs-Chapter/events/282810396",
-        "timezone": "US/Eastern",
-        "description": "We generally review security related happenings, share tips and tricks for configuring software and hardware, and chat about various topics such as security, privacy, exploitation, vulnerabilities, pen testing, web app security, CTFs, IoT security, mobile security and anything else members wish to discuss."
-    },
-    {
         "group": "China Mainland",
         "repo": "www-chapter-china-mainland",
         "name": "OWASP January Meeting",
@@ -260,6 +250,16 @@
         "description": "Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs.\n\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues.\n\nGartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks.\n\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management ."
     },
     {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2022-01-12",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/282854265",
+        "timezone": "US/Pacific",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
         "group": "Singapore",
         "repo": "www-chapter-singapore",
         "name": "Effective Approaches for Shift Left Security",
@@ -300,13 +300,13 @@
         "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
     },
     {
-        "group": "Yerevan",
-        "repo": "www-chapter-yerevan",
-        "name": "OWASP Yerevan December meetup",
-        "date": "2021-12-24",
-        "time": "9:30+04:00",
-        "link": "https://www.meetup.com/owasp-yerevan/events/282801034",
-        "timezone": "Asia/Yerevan",
-        "description": "Good day !\nWe are going to have another OWASP monthly meetup at ISTC and the topics are:\n- \"Deep Dive into Log4Shell\" by Hayk Andriasyan\n- \"Exploring JS Prototype Pollution\" by Varik Matevosyan\nAs the event is going to in-person, there will be in-place symptom checks and please have your masks on."
+        "group": "Triangle Nc",
+        "repo": "www-chapter-triangle-nc",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2021-12-30",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasptriangle/events/282863596",
+        "timezone": "US/Eastern",
+        "description": "TBA"
     }
 ]
