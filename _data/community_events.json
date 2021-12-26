@@ -298,15 +298,5 @@
         "link": "https://www.meetup.com/OWASP-Hamburg-Stammtisch/events/282692845",
         "timezone": "Europe/Berlin",
         "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2021-12-30",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/282863596",
-        "timezone": "US/Eastern",
-        "description": "TBA"
     }
 ]
