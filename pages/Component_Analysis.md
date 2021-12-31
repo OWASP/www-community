@@ -302,6 +302,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [FOSSA] | FOSSA | Commercial / Freemium | SaaS |
 | [FOSSology] | Linux Foundation | Open Source | Cross Platform |
 | [Grafeas] | Grafeas | Open Source | Cross Platform |
+| [GrammaTech CodeSentry] | GrammaTech | Commercial | Cross Platform / SaaS |
 | [Greenkeeper] | Greenkeeper | Open Source | SaaS |
 | [OSS Review Toolkit] | HERE | Open Source | Cross Platform |
 | [Ion Channel SA] | Ion Channel | Commercial | SaaS |
@@ -342,6 +343,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [FOSSA]: https://fossa.com/
 [FOSSology]: https://www.fossology.org/
 [Grafeas]: https://grafeas.io/
+[GrammaTech CodeSentry]: https://www.grammatech.com/codesentry-sca
 [Greenkeeper]: https://greenkeeper.io/
 [OSS Review Toolkit]: https://github.com/heremaps/oss-review-toolkit
 [Ion Channel SA]: https://ionchannel.io/
