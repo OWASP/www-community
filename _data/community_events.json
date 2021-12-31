@@ -150,16 +150,6 @@
         "description": "Hi everyone,\n\nthis is mostly a \"save the date\" with little content yet. It'll be updated when all data is available.\n\nOn this day we present a series of lightning talks, online.\n\n1) Bj\u00f6rn Kimminich: Juice Shop 13: Now with Coding Challenges!\"\n2) Nurullah Demir: \" Our (in)Secure Web: Understanding Update\nBehavior of Websites and Its Impact on Security\"\n3) Thomas Patzke: title+abstract TBA (will be presenting his log4shell honeypot: https://github.com/thomaspatzke/Log4Pot)\n\n1) Abstract\n---------------\nOWASP Juice Shop 13.x has some juicy new features which will be tough to squeeze into a mini-talk, but let's do it anyway! Learn about the latest additions since the last session at OWASP Hamburg Stammtisch, such as:\n\n- Coding Challenges\n- Cheat Detection\n- Challenge Feedback\n- Daily Project Stats\n\nWarning: This talk will skip any basic intro part in favor more new content!\n\n2) Abstract:\n----------------\nSoftware updates take an essential role in keeping IT environments secure. If service providers delay or do not install updates, it can cause unwanted security implications for their environments. This paper conducts a large-scale measurement study of the update behavior of websites and their utilized software stacks. Across 18 months, we analyze over 5.6M websites and 246 distinct client-and server-side software distributions. We found that almost all analyzed sites use outdated software. To understand the possible security implications of outdated software, we analyze the potential vulnerabilities that affect the utilized software. We show that software components are getting older and more vulnerable because they are not updated. We find that 95 % of the analyzed websites use at least one product for which a vulnerability existed.\n\nUntil then: have a great holiday season and all the best for 2022!\n\nCheers, Dirk"
     },
     {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "OWASP x University Brawijaya Malang, East Java",
-        "date": "2021-12-30",
-        "time": "9:00+07:00",
-        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/282783192",
-        "timezone": "Asia/Jakarta",
-        "description": "OWASP Goes To Campus Series (University Brawijaya Malang, East Java).\n\nSoftware yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\u2022 Tool dan standar keamanan aplikasi\n\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n\u2022 Kendali keamanan dan pustaka standar\n\u2022 Cabang lokal di seluruh dunia\n\u2022 Riset terkini\n\u2022 Konferensi lengkap di seluruh dunia\n\u2022 Mailing list\n\u2022 Dan banyak lagi \u2026 di www.owasp.org\n\nKali ini OWASP Goes To Campus Series akan membahas :\n1. Start Your Career As Pentester Mohammad Isfa Hany (Pentester)\n2. Virtual Lab berbasis Container untuk pembelajaran keamanan informasi - Adhitya Bhawiyuga, S.Kom., M.Sc. (Kaprodi Filkom UB)\n\nVenue :\nOnline by zoom\nTopic: OWASP x Brawijaya University\nTime: Dec 30, 2021 07:00 PM Jakarta\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/83282428081?pwd=U002d000bnAwVnZnaDlxUU41cThidz09\n\nMeeting ID: 832 8242 8081\nPasscode: OWASPjkt21\n\nTime: Dec 30, 2021 07:00 PM Jakarta\n\nCatatan :\nAcara Ini Free for Everyone\nAcara ini Di deliver dengan Bahasa Indonesia"
-    },
-    {
         "group": "Kuala Lumpur",
         "repo": "www-chapter-kuala-lumpur",
         "name": "Hacking Demystified - How hackers locate, identify and target your business",
@@ -240,14 +230,14 @@
         "description": "Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs.\n\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues.\n\nGartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks.\n\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management ."
     },
     {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2022-01-12",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/282854265",
-        "timezone": "US/Pacific",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+        "group": "Riyadh",
+        "repo": "www-chapter-riyadh",
+        "name": "OWASP Riyadh - 30th Dec 2021 - What are we missing in web applications?",
+        "date": "2021-12-31",
+        "time": "0:00+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/282952687",
+        "timezone": "Asia/Riyadh",
+        "description": "December 2021 Event Details\nDate - 30 Dec 2021\nTime - 8:00 PM\n\nWhat are we missing in Web Applications?\n\nBriefing Outline:\n~ What are current/critical Web Application Flaws?\n~ What are Business Logic Flaws (BLF)?\n~ Common Vulnerabilities in with BLF.\n~ Security Design Flaws.\n~ Me against the Odds \u2013 Scavenging the application.\n~ Bottlenecks, Solution.\n~ Pwning the financial application.\n~ 2FA bypass with BLF.\n~ Test Cases for your application.\n~ Closing Remarks / Q&As\n\nTakeaways:\n~ Test Business Logic in Web Application.\n~ Different methodologies to test against this issue.\n~ What to look for in source code to mitigate it.\n\nSpeaker - Mirza Burhan Baig\nMirza Burhan Baig is an Information Security Threat Analyst at Riyadh Bank \u2013 KSA. Mr. Baig is OSCP Certified professional with over 8 years of experience in Penetration Testing, Threat Hunting & Vulnerability assessments which include Core banking solutions, Banking applications, Network assessment, Mobile penetration testing. Mostly served financial industry.\n\nMr. Baig is also a certified professional and holds an OSCP, eWPTX, eCPPTv2, eNDP, etc. He is involved in bug bounty programs as well, where he helped many companies to fix vulnerabilities at a different level. Companies include Google, Microsoft, Facebook, Amazon, PayPal, Apple, IBM, CISCO, etc. Mr. Baig is also involved in many physical security projects to bypass networks and systems.\n\nMr. Baig has conducted many seminars and workshops at different levels of corporate, NGOs, Universities, specifically for students to create awareness & guide them to a career path in information security. Some of them include Dubai Electric Water Authority (DEWA), etc."
     },
     {
         "group": "Singapore",
@@ -298,15 +288,5 @@
         "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
         "timezone": "US/Central",
         "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
-    },
-    {
-        "group": "Vijayawada",
-        "repo": "www-chapter-vijayawada",
-        "name": "Introduction to Cybersecurity",
-        "date": "2021-12-30",
-        "time": "8:30+05:30",
-        "link": "https://www.meetup.com/owasp-vijayawada-chapter/events/282922340",
-        "timezone": "Asia/Calcutta",
-        "description": "New to Cybersecurity? Want to learn how things work in Cybersecurity from experts? Join our session on Introduction to Cybersecurity."
     }
 ]
