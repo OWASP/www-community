@@ -289,6 +289,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [CAST Highlight] | CAST Software | Commercial | SaaS |
 | [Clarity] | Insignary | Commercial | Cross Platform / SaaS |
 | [ClearlyDefined] | Open Source Initiative | Open Source | SaaS |
+| [CodeSentry] | GrammaTech | Commercial | Cross Platform / SaaS |
 | [CxSCA] | Checkmarx | Commercial | SaaS |
 | [Debricked] | Debricked | Commercial/Freemium | SaaS |
 | [DejaCode] | nexB | Commercial | SaaS |
@@ -302,7 +303,6 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [FOSSA] | FOSSA | Commercial / Freemium | SaaS |
 | [FOSSology] | Linux Foundation | Open Source | Cross Platform |
 | [Grafeas] | Grafeas | Open Source | Cross Platform |
-| [GrammaTech CodeSentry] | GrammaTech | Commercial | Cross Platform / SaaS |
 | [Greenkeeper] | Greenkeeper | Open Source | SaaS |
 | [OSS Review Toolkit] | HERE | Open Source | Cross Platform |
 | [Ion Channel SA] | Ion Channel | Commercial | SaaS |
@@ -330,6 +330,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [CAST Highlight]: https://www.castsoftware.com/SCA/
 [Clarity]: https://www.insignary.com/
 [ClearlyDefined]: https://clearlydefined.io/
+[CodeSentry]: https://www.grammatech.com/codesentry-sca
 [CxSCA]: https://www.checkmarx.com/products/software-composition-analysis/
 [Debricked]: https://debricked.com/
 [DejaCode]: https://www.nexb.com/
@@ -343,7 +344,6 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [FOSSA]: https://fossa.com/
 [FOSSology]: https://www.fossology.org/
 [Grafeas]: https://grafeas.io/
-[GrammaTech CodeSentry]: https://www.grammatech.com/codesentry-sca
 [Greenkeeper]: https://greenkeeper.io/
 [OSS Review Toolkit]: https://github.com/heremaps/oss-review-toolkit
 [Ion Channel SA]: https://ionchannel.io/
