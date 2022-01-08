@@ -1654,5 +1654,14 @@
       "platforms": "Linux",
       "note": "Open source full-featured vulnerability scanner, developed and maintained by Greenbone Networks GmbH.",
       "type": "DAST"
-   }
+   },
+   {
+      "title": "SmartScanner",
+      "url": "https://www.TheSmartScanner.com",
+      "owner": "SmartScanner",
+      "license": "Commercial",
+      "platforms": "Windows",
+      "note": "Free (Limited Capability)",
+      "type": "DAST"
+   },   
 ]
