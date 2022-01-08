@@ -70,6 +70,16 @@
         "description": "Chapter Meeting and presentation:\nCrypto-Party 2022!\n\nIn 1996, John Perry Barlow, co-founder of the Electronic Frontier Foundation (EFF) wrote 'A Declaration of the Independence of Cyberspace' where he stated \"We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth. We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.\" The Internet of today is an amazing place of knowledge and opportunity, but it unfortunately falls short of Mr. Barlow's original vision.\n\nIn the 21st century we face problems of climate change, energy crisis, state censorship, mass surveillance, and on-going wars. We must be free to communicate and associate without fear. To realize our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online. Topics include technologies like TOR, full-disk encryption, GPG, and many more. CryptoParties are free to attend, public, and not commercially aligned.\n\nPresenter:\nJosh Sokol\n\nAnd others. Please email josh.sokol@owasp.org if you have a 10 minute max presentation on a crypto-oriented subject."
     },
     {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Study Group",
+        "date": "2022-01-13",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/283126276",
+        "timezone": "US/Central",
+        "description": "The OWASP Austin Study Group is intended to provide an organized gathering of like-minded IT professionals who want to learn more about application security. This is done through mini-discussions, demos, presentations, and series of meetings to cover more involved topics (i.e. book topics). Generally the topics will be participant-led, meaning that attendees will volunteer their time to present or lead a discussion, whether a one-time presentation of a topic they wish to review or need help with, or walk through topics of a particular chapter of a book being covered. There will still be OWASP leadership involved with scheduling and such, but the idea is to get a better \u201chands-on\u201d approach to create a more productive learning environment. We learn more when we are involved.\n\nMore information: https://owasp.org/www-chapter-austin/studygroups.html"
+    },
+    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "OWASP Bangalore Monthly Meet 29th January 2021",
@@ -78,6 +88,16 @@
         "link": "https://www.meetup.com/owasp-bangalore-chapter/events/283072124",
         "timezone": "Asia/Calcutta",
         "description": "Hi Everyone\n\n#security stay safe\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\nSessions:\nDate: Saturday 29th January 2021\n\nTalk title:\nTBD\n\nSpeaker Details:-\nTBD"
+    },
+    {
+        "group": "Belem",
+        "repo": "www-chapter-belem",
+        "name": "Owasp Bel\u00e9m - Security Cloud",
+        "date": "2022-01-11",
+        "time": "9:00-04:00",
+        "link": "https://www.meetup.com/owasp-belem/events/283127217",
+        "timezone": "America/Boa_Vista",
+        "description": "II Meetup Owasp Bel\u00e9m Virtual\nO cap\u00edtulo OWASP Bel\u00e9m convida profissionais de seguran\u00e7a da informa\u00e7\u00e3o, desenvolvedores de software, estudantes das \u00e1reas de tecnologia da informa\u00e7\u00e3o e demais interessados no assunto, para participarem do segundo meetup virtual.\n 11/01/2022 \u23f0 19h\nInstagram: @owasp_belem\nLink da transmiss\u00e3o: https://www.youtube.com/watch?v=CwCMA96TSqI"
     },
     {
         "group": "China Mainland",
@@ -240,6 +260,16 @@
         "description": "TBA"
     },
     {
+        "group": "Madison",
+        "repo": "www-chapter-madison",
+        "name": "Log4J and SANS Holiday Hack",
+        "date": "2022-01-18",
+        "time": "5:30-06:00",
+        "link": "https://www.meetup.com/owasp-madison/events/283036630",
+        "timezone": "US/Central",
+        "description": "We'll demonstrate and discuss the the recent log4j unpleasantness, deserialization gadgets and dive into the most recent SANS holiday hack."
+    },
+    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "Embedded System Secure by design for IoT",
@@ -350,36 +380,6 @@
         "description": "Getting started in Ethical Hacking can seem daunting. There is so much information out there, so many websites, tools, YouTube videos, courses, etc etc. Where do you start? Do you have to do a course or be certified? Do I need to set up my own testing lab, and if so, what operating system and tools do I use? Is there a way to learn for free? So many questions. It can feel so overwhelming at times, enough to put you off.\n\nThe aim of this event is to offer an open discussion where we can all share tips, tricks, resources and suggestions around how to go about getting started in Ethical Hacking. Everything from how to make learning fun, recommended resources such as websites, podcasts, gamification sites (CTFs), tools, bug bounty platforms and tips and tricks on how to learn and remain focused.\n\nThis event will be open to members of OWASP Suffolk and other OWASP groups. This event will not be recorded.\n\nAgenda:\n\n* Welcome back & overview of what we have in store for 2022\n* OWASP updates\n* Open discussion on how to get started in Ethical Hacking"
     },
     {
-        "group": "Tehran",
-        "repo": "www-chapter-tehran",
-        "name": "Embedded System Secure by design for IoT",
-        "date": "2022-02-04",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/282872090",
-        "timezone": "Africa/Casablanca",
-        "description": "During this session we will learn how to design secure embedded System for IoT devices using Threat Modeling for hardware and software."
-    },
-    {
-        "group": "Tehran",
-        "repo": "www-chapter-tehran",
-        "name": "OWASP Bangalore Monthly Meet 29th January 2021",
-        "date": "2022-01-29",
-        "time": "9:00+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/283072124",
-        "timezone": "Asia/Calcutta",
-        "description": "Hi Everyone\n\n#security stay safe\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\nSessions:\nDate: Saturday 29th January 2021\n\nTalk title:\nTBD\n\nSpeaker Details:-\nTBD"
-    },
-    {
-        "group": "Tehran",
-        "repo": "www-chapter-tehran",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2022-01-27",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/283033050",
-        "timezone": "US/Eastern",
-        "description": "TBA"
-    },
-    {
         "group": "Toronto",
         "repo": "www-chapter-toronto",
         "name": "OWASP Toronto & Ottawa Joint Meetup - Jan 2022!",
@@ -398,15 +398,5 @@
         "link": "https://www.meetup.com/owasptriangle/events/283033050",
         "timezone": "US/Eastern",
         "description": "TBA"
-    },
-    {
-        "group": "Vina Del Mar",
-        "repo": "www-chapter-vina-del-mar",
-        "name": "CIBERSEGURIDAD EVOLUCIONANDO CON AGILIDAD PARA DESARROLLAR VALOR ORGANIZACIONAL.",
-        "date": "2022-01-07",
-        "time": "3:00-03:00",
-        "link": "https://www.meetup.com/OWASP-Vina-del-Mar-Chapter/events/282997605",
-        "timezone": "America/Santiago",
-        "description": "CIBERSEGURIDAD EVOLUCIONANDO CON AGILIDAD PARA DESARROLLAR VALOR ORGANIZACIONAL.\nLas organizaciones evolucionan constantemente y la ciberseguridad debe trabajar de la mano con los equipos aportando buenas pr\u00e1cticas de desarrollo seguro, y de esta manera lograr mayor Time to Market, incrementar la productividad, mejorar la calidad del producto/servicio y generar valor exponencial hacia sus clientes.\n\nEvento regional sudamericano que tiene como prop\u00f3sito compartir experiencias, pr\u00e1cticas, m\u00e9todos y herramientas de Agile Cybersecurity democratizando el conocimiento y de libre acceso para tod@s.\n\nhttps://www.agilecybersecurityfest.com/"
     }
 ]
