@@ -270,6 +270,16 @@
         "description": "We'll demonstrate and discuss the the recent log4j unpleasantness, deserialization gadgets and dive into the most recent SANS holiday hack."
     },
     {
+        "group": "Manama",
+        "repo": "www-chapter-manama",
+        "name": "OWASP Application Security Verification Standard",
+        "date": "2022-01-23",
+        "time": "4:00+03:00",
+        "link": "https://www.meetup.com/owasp-manama/events/283153724",
+        "timezone": "Asia/Bahrain",
+        "description": "An introduction to OWASP Application Security Verification Standard (ASVS) Project. The primary aim of the OWASP Application Security Verification Standard (ASVS) Project is to provide an open application security standard for web apps and web services of all types.\n\nThe standard provides a basis for designing, building, and testing technical application security controls, including architectural concerns, secure development lifecycle, threat modelling, agile security including continuous integration / deployment, serverless, and configuration concerns."
+    },
+    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "Embedded System Secure by design for IoT",
@@ -408,15 +418,5 @@
         "link": "https://www.meetup.com/OWASP-Toronto/events/283088193",
         "timezone": "Canada/Eastern",
         "description": "INTRODUCTION TALK\n------------------------------\n\nOWASP Foundation 2022 Update\n\nSummary:\n\nMembers of the OWASP Toronto and Ottawa chapters will give a quick update on what's new with the OWASP Foundation - new flagship projects, membership benefits, initiatives that could use your help!\n\nPresenters:\n\nGarth Boyd is a Senior Application Security Architect/Cloud Security Architect specializing in Secure Software Architecture and Ethical Hacking. He supports organizations wishing a designer, creator, and breaker to help them on their security path. A lifelong learner who enjoys crafting solutions to interesting and tough problems through architecture, threat modelling, mitigation design, and penetration testing. Researching new ideas, troubleshooting, communication, and thinking of six impossible things before breakfast are part of the journey. Currently, Garth is the OWASP Ottawa Chapter Leader and an independent consultant working though his own company called Devious Plan.\n\nOpheliar Chan spends most of her time trying to make software security more accessible, pragmatic, and FUD-free, both as the lead of Accenture\u2019s Application Security Advisory Services in Canada, and while moonlighting as co-lead of the OWASP Toronto Chapter. For over a decade, she has focused on application security, SDLC process consulting and implementations, program building, penetration testing/vulnerability assessments, and related. You can usually find her in-person at OWASP Toronto Meetups, or at opheliar.chan@owasp.org.\n\nTALK #1\n-----------\n\nHow to reverse engineer binaries with this one stupid trick\n\nSummary:\n\nSoftware vendors often provide only binaries, but security professionals may want to analyze them to look for security flaws. Reverse engineering can help us understand how an executable works. Decompiling can generate call trees and even generate source code. Symbol browsers can be used to find sensitive information. In this presentation, we\u2019ll analyze a binary to understand its authentication procedure, and then modify it. We\u2019ll use Ghidra, an open source tool from the NSA.\n\nPresenter:\n\nAlex DeVries has a background in security in operating systems, IoT and cloud. The roles he\u2019s played are red team, blue team, incident response and security management. He\u2019s been going to OWASP meetups long enough to remember the free pizza. His day job is a Security Architect at Ericsson, and he just got his CISSP.\n\nTALK #2\n-----------\n\nAnalyzing source code for vulnerabilities: A how-to workshop\n\nSummary:\n\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?\n\nPresenter:\n\nSuchakra Sharma is Staff Scientist at ShiftLeft Inc. where he plays around with large graphs and hunts bugs. He completed his PhD in Computer Engineering from \u00c9cole Polytechnique de Montr\u00e9al where he worked on eBPF and hardware-assisted tracing techniques for OS analysis. He developed one of the first hardware-trace based VM analysis techniques. He has delivered talks and training at venues such as USENIX LISA, SCALE 18x, Papers We Love, Tracing Summit etc."
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2022-01-27",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/283033050",
-        "timezone": "US/Eastern",
-        "description": "TBA"
     }
 ]
