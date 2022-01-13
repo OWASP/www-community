@@ -48,7 +48,7 @@ reveal the cookie to a third party.
 If a browser does not support HttpOnly and a website attempts to set an
 HttpOnly cookie, the HttpOnly flag will be ignored by the browser, thus
 creating a traditional, script accessible cookie. As a result, the
-cookie (typically your session cookie) becomes vulnerable to theft of
+cookie (typically your session cookie) becomes vulnerable to theft or
 modification by malicious script.
 [Mitigating](http://msdn2.microsoft.com/en-us/library/ms533046.aspx).
 
