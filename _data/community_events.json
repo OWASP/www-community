@@ -280,6 +280,16 @@
         "description": "During this session we will learn how to design secure embedded System for IoT devices using Threat Modeling for hardware and software."
     },
     {
+        "group": "Madison",
+        "repo": "www-chapter-madison",
+        "name": "Log4J and SANS Holiday Hack",
+        "date": "2022-01-18",
+        "time": "5:30-06:00",
+        "link": "https://www.meetup.com/owasp-madison/events/283036630",
+        "timezone": "US/Central",
+        "description": "We'll demonstrate and discuss the the recent log4j unpleasantness, deserialization gadgets and dive into the most recent SANS holiday hack."
+    },
+    {
         "group": "Manama",
         "repo": "www-chapter-manama",
         "name": "OWASP Application Security Verification Standard",
@@ -350,14 +360,24 @@
         "description": "Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs.\n\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues.\n\nGartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks.\n\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management ."
     },
     {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "January 2022 OWASPOttawa/OWASPToronto Joint Event",
-        "date": "2022-01-12",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/OWASP-Ottawa/events/283082024",
-        "timezone": "Canada/Eastern",
-        "description": "Special Notice:\n\nDue to the COVID-19 (Coronavirus) pandemic our events will continue online on our YouTube channel.\n\nSubscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nWe will post information here and on all our other medias (email, twitter etc.) as we are closer to the date.\n\nYouTube Live Stream Link: https://www.youtube.com/watch?v=KHeDNerj80c\n\n6:30 PM EDT Technical Talks\n\n1. OWASP Foundation 2022 Update\nAbstract:\nMembers of the OWASP Toronto and Ottawa chapters will give a quick update on what's new with the OWASP Foundation - new flagship projects, membership benefits, initiatives that could use your help!\n\nBios:\nOpheliar Chan spends most of her time trying to make software security more accessible, pragmatic, and FUD-free, both as the lead of Accenture\u2019s Application Security Advisory Services in Canada, and while moonlighting as co-lead of the OWASP Toronto Chapter. For over a decade, she has focused on application security, SDLC process consulting and implementations, program building, penetration testing/vulnerability assessments, and related. You can usually find her in-person at OWASP Toronto Meetups, or at opheliar.chan@owasp.org.\n\nGarth Boyd is a Senior Application Security Architect/Cloud Security Architect specializing in Secure Software Architecture and Ethical Hacking. He supports organizations wishing a designer, creator, and breaker to help them on their security path. A lifelong learner who enjoys crafting solutions to interesting and tough problems through architecture, threat modelling, mitigation design, and penetration testing. Researching new ideas, troubleshooting, communication, and thinking of six impossible things before breakfast are part of the journey. Currently, Garth is the OWASP Ottawa Chapter Leader and an independent consultant working though his own company called Devious Plan. You can reach him at garth.boyd@owasp.org.\n\n2. How to reverse engineer binaries with this one stupid trick\n\nAbstract:\nSoftware vendors often provide only binaries, but security professionals may want to analyze them to look for security flaws. Reverse engineering can help us understand how an executable works. Decompiling can generate call trees and even generate source code. Symbol browsers can be used to find sensitive information. In this presentation, we\u2019ll analyze a binary to understand its authentication procedure, and then modify it. We\u2019ll use Ghidra, an open source tool from the NSA.\n\nBio: Alex deVries\nAlex deVries has a background in security in operating systems, IoT and cloud. The roles he\u2019s played are red team, blue team, incident response and security management. He\u2019s been going to OWASP meetups long enough to remember the free pizza. His day job is a Security Architect at Ericsson, and he just got his CISSP.\n\n3. Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?\n\nBio: Suchakra\nSuchakra is Staff Scientist at ShiftLeft Inc. where he plays around with large graphs and hunts bugs. He completed his PhD in Computer Engineering from \u00c9cole Polytechnique de Montr\u00e9al where he worked on eBPF and hardware-assisted tracing techniques for OS analysis. He developed one of the first hardware-trace based VM analysis techniques. He has delivered talks and training at venues such as USENIX LISA, SCALE 18x, Papers We Love, Tracing Summit etc."
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Master the Nine Cybersecurity Habits to Protect Your Future",
+        "date": "2022-01-27",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/OWASP-OC/events/283226604",
+        "timezone": "US/Pacific",
+        "description": "Speaker: George Finney, CISO | Award-Winning Author of Well Aware | Keynote Speaker\n\nTopic: Master the Nine Cybersecurity Habits to Protect Your Future\n\nLive stream: https://www.twitch.tv/owaspoc\n\nAbstract:\nThe first step in your journey towards becoming secure is believing that you can be successful. Many of us are conditioned to believe we need to be cynical in order to be secure. In George's award-winning book, Well Aware, he demonstrates that the opposite is true...we can hack our own brain's \"habit loop\" to make being more secure easy. George will provide a roadmap on how to use the science behind habits that can help make security possible for anyone.\nAttendees will be able to:\n\u2022 Identify their own top internal and external cybersecurity strengths\n\u2022 Understand how habits play a role in helping us become more secure\n\nSpeaker Bio:\nGeorge Finney is a Chief Information Security Officer that believes that people are the key to solving our cybersecurity challenges. George is the bestselling author of several cybersecurity books, including the award-winning book, Well Aware: Master the Nine Cybersecurity Habits to Protect Your Future. George was recognized in 2021 as one of the top 100 CISOs in the world by CISOs Connect and has worked in Cybersecurity for over 20 years and has helped startups, global telecommunications firms, and nonprofits improve their security posture.\n\nNOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice."
+    },
+    {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "January 2022 Chapter Meeting (virtual)",
+        "date": "2022-01-27",
+        "time": "2:00-07:00",
+        "link": "https://www.meetup.com/owasp-slc/events/283228453",
+        "timezone": "US/Mountain",
+        "description": "We'll meetup virtually this month, and host a round table discussion on Topics of Interest.\n\n-----AGENDA-----\n\nTopic: AppSec Training for Developers (Deep Dive)\n------a) what has worked\n------b) what were some misses\n\nWe'll have a few mini presentations on what others have found helpful and maintain a format of round table discussion after each presentation.\n\n------------------------------------\nLeaders Zoom Account Two is inviting you to a scheduled Zoom meeting.\n\nTopic: OWASP SLC January 2022 Chapter Meeting\nTime: Jan 27, 2022 12:00 PM Mountain Time (US and Canada)\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/83896566985?pwd=RFJhUWZxUEEvUGRaejc1ano5VmNaUT09\n\nMeeting ID: 838 9656 6985\nPasscode: 107008\nOne tap mobile\n+16699006833,,83896566985#,,,,*107008# US (San Jose)\n+12532158782,,83896566985#,,,,*107008# US (Tacoma)\n\nDial by your location\n+1 669 900 6833 US (San Jose)\n+1 253 215 8782 US (Tacoma)\n+1 346 248 7799 US (Houston)\n+1 929 436 2866 US (New York)\n+1 301 715 8592 US (Washington DC)\n+1 312 626 6799 US (Chicago)\nMeeting ID: 838 9656 6985\nPasscode: 107008\nFind your local number: https://us06web.zoom.us/u/kbOk2u7bXP"
     },
     {
         "group": "Seattle",
@@ -366,16 +386,6 @@
         "date": "2022-02-09",
         "time": "2:00-08:00",
         "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/282956558",
-        "timezone": "US/Pacific",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2022-01-12",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/282854265",
         "timezone": "US/Pacific",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
@@ -410,14 +420,34 @@
         "description": "Getting started in Ethical Hacking can seem daunting. There is so much information out there, so many websites, tools, YouTube videos, courses, etc etc. Where do you start? Do you have to do a course or be certified? Do I need to set up my own testing lab, and if so, what operating system and tools do I use? Is there a way to learn for free? So many questions. It can feel so overwhelming at times, enough to put you off.\n\nThe aim of this event is to offer an open discussion where we can all share tips, tricks, resources and suggestions around how to go about getting started in Ethical Hacking. Everything from how to make learning fun, recommended resources such as websites, podcasts, gamification sites (CTFs), tools, bug bounty platforms and tips and tricks on how to learn and remain focused.\n\nThis event will be open to members of OWASP Suffolk and other OWASP groups. This event will not be recorded.\n\nAgenda:\n\n* Welcome back & overview of what we have in store for 2022\n* OWASP updates\n* Open discussion on how to get started in Ethical Hacking"
     },
     {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "OWASP Toronto & Ottawa Joint Meetup - Jan 2022!",
-        "date": "2022-01-12",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/OWASP-Toronto/events/283088193",
-        "timezone": "Canada/Eastern",
-        "description": "INTRODUCTION TALK\n------------------------------\n\nOWASP Foundation 2022 Update\n\nSummary:\n\nMembers of the OWASP Toronto and Ottawa chapters will give a quick update on what's new with the OWASP Foundation - new flagship projects, membership benefits, initiatives that could use your help!\n\nPresenters:\n\nGarth Boyd is a Senior Application Security Architect/Cloud Security Architect specializing in Secure Software Architecture and Ethical Hacking. He supports organizations wishing a designer, creator, and breaker to help them on their security path. A lifelong learner who enjoys crafting solutions to interesting and tough problems through architecture, threat modelling, mitigation design, and penetration testing. Researching new ideas, troubleshooting, communication, and thinking of six impossible things before breakfast are part of the journey. Currently, Garth is the OWASP Ottawa Chapter Leader and an independent consultant working though his own company called Devious Plan.\n\nOpheliar Chan spends most of her time trying to make software security more accessible, pragmatic, and FUD-free, both as the lead of Accenture\u2019s Application Security Advisory Services in Canada, and while moonlighting as co-lead of the OWASP Toronto Chapter. For over a decade, she has focused on application security, SDLC process consulting and implementations, program building, penetration testing/vulnerability assessments, and related. You can usually find her in-person at OWASP Toronto Meetups, or at opheliar.chan@owasp.org.\n\nTALK #1\n-----------\n\nHow to reverse engineer binaries with this one stupid trick\n\nSummary:\n\nSoftware vendors often provide only binaries, but security professionals may want to analyze them to look for security flaws. Reverse engineering can help us understand how an executable works. Decompiling can generate call trees and even generate source code. Symbol browsers can be used to find sensitive information. In this presentation, we\u2019ll analyze a binary to understand its authentication procedure, and then modify it. We\u2019ll use Ghidra, an open source tool from the NSA.\n\nPresenter:\n\nAlex DeVries has a background in security in operating systems, IoT and cloud. The roles he\u2019s played are red team, blue team, incident response and security management. He\u2019s been going to OWASP meetups long enough to remember the free pizza. His day job is a Security Architect at Ericsson, and he just got his CISSP.\n\nTALK #2\n-----------\n\nAnalyzing source code for vulnerabilities: A how-to workshop\n\nSummary:\n\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?\n\nPresenter:\n\nSuchakra Sharma is Staff Scientist at ShiftLeft Inc. where he plays around with large graphs and hunts bugs. He completed his PhD in Computer Engineering from \u00c9cole Polytechnique de Montr\u00e9al where he worked on eBPF and hardware-assisted tracing techniques for OS analysis. He developed one of the first hardware-trace based VM analysis techniques. He has delivered talks and training at venues such as USENIX LISA, SCALE 18x, Papers We Love, Tracing Summit etc."
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "Zero Trust for API Risk Management",
+        "date": "2022-02-10",
+        "time": "6:00Z",
+        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
+        "timezone": "Europe/Belfast",
+        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "Security Social Lunch Hours",
+        "date": "2022-02-09",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/282956558",
+        "timezone": "US/Pacific",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "Embedded System Secure by design for IoT",
+        "date": "2022-02-04",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/282872090",
+        "timezone": "Africa/Casablanca",
+        "description": "During this session we will learn how to design secure embedded System for IoT devices using Threat Modeling for hardware and software."
     },
     {
         "group": "Triangle Nc",
