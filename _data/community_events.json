@@ -12,6 +12,16 @@
     {
         "group": "Ankara",
         "repo": "www-chapter-ankara",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+    },
+    {
+        "group": "Ankara",
+        "repo": "www-chapter-ankara",
         "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
         "date": "2022-02-15",
         "time": "9:00Z",
@@ -30,14 +40,14 @@
         "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
     },
     {
-        "group": "Ankara",
-        "repo": "www-chapter-ankara",
-        "name": "Zero Trust for API Risk Management",
-        "date": "2022-02-10",
-        "time": "6:00Z",
-        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
-        "timezone": "Europe/Belfast",
-        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
+        "group": "Arunai Engineering College",
+        "repo": "www-chapter-arunai-engineering-college",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
         "group": "Arunai Engineering College",
@@ -58,16 +68,6 @@
         "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
         "timezone": "America/Mexico_City",
         "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
-    },
-    {
-        "group": "Arunai Engineering College",
-        "repo": "www-chapter-arunai-engineering-college",
-        "name": "Zero Trust for API Risk Management",
-        "date": "2022-02-10",
-        "time": "6:00Z",
-        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
-        "timezone": "Europe/Belfast",
-        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
     },
     {
         "group": "Austin",
@@ -142,6 +142,16 @@
     {
         "group": "China Mainland",
         "repo": "www-chapter-china-mainland",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
         "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
         "date": "2022-02-15",
         "time": "9:00Z",
@@ -158,16 +168,6 @@
         "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
         "timezone": "America/Mexico_City",
         "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
-    },
-    {
-        "group": "China Mainland",
-        "repo": "www-chapter-china-mainland",
-        "name": "Zero Trust for API Risk Management",
-        "date": "2022-02-10",
-        "time": "6:00Z",
-        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
-        "timezone": "Europe/Belfast",
-        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
     },
     {
         "group": "Dallas",
@@ -180,6 +180,26 @@
         "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
     },
     {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+    },
+    {
         "group": "Dkte Soc Textile And Engineering Institute",
         "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
         "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
@@ -198,16 +218,6 @@
         "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
         "timezone": "America/Mexico_City",
         "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
-    },
-    {
-        "group": "Dkte Soc Textile And Engineering Institute",
-        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
-        "name": "Zero Trust for API Risk Management",
-        "date": "2022-02-10",
-        "time": "6:00Z",
-        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
-        "timezone": "Europe/Belfast",
-        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
     },
     {
         "group": "Harrisburg",
@@ -222,6 +232,16 @@
     {
         "group": "Kuala Lumpur",
         "repo": "www-chapter-kuala-lumpur",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+    },
+    {
+        "group": "Kuala Lumpur",
+        "repo": "www-chapter-kuala-lumpur",
         "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
         "date": "2022-02-15",
         "time": "9:00Z",
@@ -238,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
         "timezone": "America/Mexico_City",
         "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
-    },
-    {
-        "group": "Kuala Lumpur",
-        "repo": "www-chapter-kuala-lumpur",
-        "name": "Zero Trust for API Risk Management",
-        "date": "2022-02-10",
-        "time": "6:00Z",
-        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
-        "timezone": "Europe/Belfast",
-        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
     },
     {
         "group": "Los Angeles",
@@ -262,6 +272,16 @@
     {
         "group": "M.kumaraswamy College Of Engineering",
         "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+    },
+    {
+        "group": "M.kumaraswamy College Of Engineering",
+        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
         "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
         "date": "2022-02-15",
         "time": "9:00Z",
@@ -280,34 +300,14 @@
         "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
     },
     {
-        "group": "M.kumaraswamy College Of Engineering",
-        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
-        "name": "Zero Trust for API Risk Management",
-        "date": "2022-02-10",
-        "time": "6:00Z",
-        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
-        "timezone": "Europe/Belfast",
-        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
-    },
-    {
         "group": "Madison",
         "repo": "www-chapter-madison",
-        "name": "Log4J and SANS Holiday Hack",
-        "date": "2022-01-18",
+        "name": "Log4J and SANS Holiday Hack (Postponed 1 week)",
+        "date": "2022-01-25",
         "time": "5:30-06:00",
         "link": "https://www.meetup.com/owasp-madison/events/283036630",
         "timezone": "US/Central",
         "description": "We'll demonstrate and discuss the the recent log4j unpleasantness, deserialization gadgets and dive into the most recent SANS holiday hack."
-    },
-    {
-        "group": "Manama",
-        "repo": "www-chapter-manama",
-        "name": "OWASP Application Security Verification Standard",
-        "date": "2022-01-23",
-        "time": "4:00+03:00",
-        "link": "https://www.meetup.com/owasp-manama/events/283153724",
-        "timezone": "Asia/Bahrain",
-        "description": "An introduction to OWASP Application Security Verification Standard (ASVS) Project. The primary aim of the OWASP Application Security Verification Standard (ASVS) Project is to provide an open application security standard for web apps and web services of all types.\n\nThe standard provides a basis for designing, building, and testing technical application security controls, including architectural concerns, secure development lifecycle, threat modelling, agile security including continuous integration / deployment, serverless, and configuration concerns."
     },
     {
         "group": "Morocco",
@@ -342,12 +342,12 @@
     {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
-        "name": "(TBC) The new OWASP Top 10 Web Application Security Risks",
+        "name": "(Venue TBC) The new OWASP Top 10 Web Application Security Risks",
         "date": "2022-01-26",
         "time": "9:00+13:00",
         "link": "https://www.meetup.com/OWASP-New-Zealand-Chapter-Christchurch/events/281034378",
         "timezone": "Pacific/Auckland",
-        "description": "Important! This is a tentative placeholder for the next meetup. Details to be added soon\u2026"
+        "description": "Note: We're confirming the change of venue, but expect this to go ahead as listed here.\n\nOWASP is updating its venerable Top 10 Web Application Security Risks. Kevin will run us through what's changed and why."
     },
     {
         "group": "Northern Virginia",
@@ -418,6 +418,36 @@
         "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283069487",
         "timezone": "Europe/London",
         "description": "Getting started in Ethical Hacking can seem daunting. There is so much information out there, so many websites, tools, YouTube videos, courses, etc etc. Where do you start? Do you have to do a course or be certified? Do I need to set up my own testing lab, and if so, what operating system and tools do I use? Is there a way to learn for free? So many questions. It can feel so overwhelming at times, enough to put you off.\n\nThe aim of this event is to offer an open discussion where we can all share tips, tricks, resources and suggestions around how to go about getting started in Ethical Hacking. Everything from how to make learning fun, recommended resources such as websites, podcasts, gamification sites (CTFs), tools, bug bounty platforms and tips and tricks on how to learn and remain focused.\n\nThis event will be open to members of OWASP Suffolk and other OWASP groups. This event will not be recorded.\n\nAgenda:\n\n* Welcome back & overview of what we have in store for 2022\n* OWASP updates\n* Open discussion on how to get started in Ethical Hacking"
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
+        "date": "2022-02-15",
+        "time": "9:00Z",
+        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283194340",
+        "timezone": "Europe/London",
+        "description": "The Talk:\n\nThere is far more to cyber security than technology.\n\nEvery successful attack starts with human fallibility and failure.\n\nThe Dark Side is an integrated business venture on a global scale.\n\nOperating as individually isolated organisations means we can only lose.\n\nIntegrating the information and resources across sectors and countries is essential.\n\nThe projected \u2018business earnings of The Dark Side will be >5x the GDP of the UK by 2030.\n\nAbout Peter Cochrane OBE:\n\nPeter is an academic, advisor and consultant with multiple awards and accreditations. Around Ipswich, he is known for leading the Research at BT Labs at Adastral Park for many years, and more recently for working in the Department of Science and Technology at the University of Suffolk. He has been an advisor to Facebook, written over 1,000 scientific and engineering papers, patents, press articles, edited books and chapters. He has appeared on over 400 national and international appearances on radio and TV. He is a regular contributor to the Times, Telegraph, Guardian, and The Australian newspapers plus Wired Magazine, T3, Intelligence and Weekly Diamond Magazines."
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "Aguascalientes Chapter Feb 2022 Meeting",
+        "date": "2022-02-15",
+        "time": "3:00-06:00",
+        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
+        "timezone": "America/Mexico_City",
+        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
     },
     {
         "group": "Triangle Nc",
