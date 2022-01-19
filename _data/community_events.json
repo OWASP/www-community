@@ -1,5 +1,15 @@
 [
     {
+        "group": "Abu Dhabi",
+        "repo": "www-chapter-abu-dhabi",
+        "name": "Guest Session: Zero Trust Model for API Security and Legal Risk Management ",
+        "date": "2022-02-05",
+        "time": "0:00+04:00",
+        "link": "https://www.meetup.com/owasp-abu-dhabi/events/283335580",
+        "timezone": "Asia/Dubai",
+        "description": "We're excited to host Dr. Baljeet Malhotra (Founder/CEO of TeejLab) for a 1 hour session on API Security.\n\nPlease join us for this guest session.\n\nBelow is a talk abstract:\n\nIt is known that 96% of applications are built using some Open Source [Black Duck]. Furthermore, 99% of those Open Source applications contain some Web APIs [TeejLab]. It\u2019s not surprising that Akamai estimated that 83% of the internet traffic today is via Web APIs that connect digital applications at a global scale. The growing API usage impacts organizations both positively (through innovations, newer business models, competitive differentiation, etc.) and negatively (due to security vulnerabilities, business disruptions, legal and compliance issues etc.). Gartner has predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at enterprises, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs by managing API risks proactively. This session will provide an overview of an API Governance framework to manage API security and legal risks. This framework is inspired by the Zero Trust model that enterprises can adopt for effective API Risk Management. We\u2019ll highlight best practices, both manual and automated, with relevant tool recommendations.\n\nTopic: OWASP Abu Dhabi Chapter: Zero Trust Model for API Security and Legal Risk Management\nTime: Feb 5, 2022 10:00 AM Dubai\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/81688122875?pwd=blFZZXNlbXJja0xlb2NFYkJCcDRBZz09\n\nMeeting ID: 816 8812 2875\nPasscode: 206859\nOne tap mobile\n+13462487799,,81688122875# US (Houston)\n+16699006833,,81688122875# US (San Jose)\n\nDial by your location\n+1 346 248 7799 US (Houston)\n+1 669 900 6833 US (San Jose)\n+1 253 215 8782 US (Tacoma)\n+1 312 626 6799 US (Chicago)\n+1 929 436 2866 US (New York)\n+1 301 715 8592 US (Washington DC)\nMeeting ID: 816 8812 2875\nFind your local number: https://us06web.zoom.us/u/kTeDgNFt4"
+    },
+    {
         "group": "Aguascalientes",
         "repo": "www-chapter-aguascalientes",
         "name": "Aguascalientes Chapter Feb 2022 Meeting",
@@ -12,36 +22,26 @@
     {
         "group": "Ankara",
         "repo": "www-chapter-ankara",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+        "name": "OWASP Vancouver - February 2022",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
+        "timezone": "Canada/Pacific",
+        "description": "OWASP Vancouver's monthly event"
     },
     {
         "group": "Ankara",
         "repo": "www-chapter-ankara",
-        "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
-        "date": "2022-02-15",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283194340",
-        "timezone": "Europe/London",
-        "description": "The Talk:\n\nThere is far more to cyber security than technology.\n\nEvery successful attack starts with human fallibility and failure.\n\nThe Dark Side is an integrated business venture on a global scale.\n\nOperating as individually isolated organisations means we can only lose.\n\nIntegrating the information and resources across sectors and countries is essential.\n\nThe projected \u2018business earnings of The Dark Side will be >5x the GDP of the UK by 2030.\n\nAbout Peter Cochrane OBE:\n\nPeter is an academic, advisor and consultant with multiple awards and accreditations. Around Ipswich, he is known for leading the Research at BT Labs at Adastral Park for many years, and more recently for working in the Department of Science and Technology at the University of Suffolk. He has been an advisor to Facebook, written over 1,000 scientific and engineering papers, patents, press articles, edited books and chapters. He has appeared on over 400 national and international appearances on radio and TV. He is a regular contributor to the Times, Telegraph, Guardian, and The Australian newspapers plus Wired Magazine, T3, Intelligence and Weekly Diamond Magazines."
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
     },
     {
         "group": "Ankara",
         "repo": "www-chapter-ankara",
-        "name": "Aguascalientes Chapter Feb 2022 Meeting",
-        "date": "2022-02-15",
-        "time": "3:00-06:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
-        "timezone": "America/Mexico_City",
-        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
-    },
-    {
-        "group": "Arunai Engineering College",
-        "repo": "www-chapter-arunai-engineering-college",
         "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
         "date": "2022-02-16",
         "time": "7:30-07:00",
@@ -52,22 +52,32 @@
     {
         "group": "Arunai Engineering College",
         "repo": "www-chapter-arunai-engineering-college",
-        "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
-        "date": "2022-02-15",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283194340",
-        "timezone": "Europe/London",
-        "description": "The Talk:\n\nThere is far more to cyber security than technology.\n\nEvery successful attack starts with human fallibility and failure.\n\nThe Dark Side is an integrated business venture on a global scale.\n\nOperating as individually isolated organisations means we can only lose.\n\nIntegrating the information and resources across sectors and countries is essential.\n\nThe projected \u2018business earnings of The Dark Side will be >5x the GDP of the UK by 2030.\n\nAbout Peter Cochrane OBE:\n\nPeter is an academic, advisor and consultant with multiple awards and accreditations. Around Ipswich, he is known for leading the Research at BT Labs at Adastral Park for many years, and more recently for working in the Department of Science and Technology at the University of Suffolk. He has been an advisor to Facebook, written over 1,000 scientific and engineering papers, patents, press articles, edited books and chapters. He has appeared on over 400 national and international appearances on radio and TV. He is a regular contributor to the Times, Telegraph, Guardian, and The Australian newspapers plus Wired Magazine, T3, Intelligence and Weekly Diamond Magazines."
+        "name": "OWASP Vancouver - February 2022",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
+        "timezone": "Canada/Pacific",
+        "description": "OWASP Vancouver's monthly event"
     },
     {
         "group": "Arunai Engineering College",
         "repo": "www-chapter-arunai-engineering-college",
-        "name": "Aguascalientes Chapter Feb 2022 Meeting",
-        "date": "2022-02-15",
-        "time": "3:00-06:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
-        "timezone": "America/Mexico_City",
-        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
+    },
+    {
+        "group": "Arunai Engineering College",
+        "repo": "www-chapter-arunai-engineering-college",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
         "group": "Austin",
@@ -110,6 +120,16 @@
         "description": "Hi Everyone\n\n#security stay safe\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\nSessions:\nDate: Saturday 29th January 2021\n\nTalk title:\nTBD\n\nSpeaker Details:-\nTBD"
     },
     {
+        "group": "Belem",
+        "repo": "www-chapter-belem",
+        "name": "Owasp Bel\u00e9m - Bug Bounty",
+        "date": "2022-01-21",
+        "time": "9:00-04:00",
+        "link": "https://www.meetup.com/owasp-belem/events/283341990",
+        "timezone": "America/Boa_Vista",
+        "description": "III Meetup Owasp Bel\u00e9m Virtual\nO cap\u00edtulo OWASP Bel\u00e9m convida profissionais de seguran\u00e7a da informa\u00e7\u00e3o, desenvolvedores de software, estudantes das \u00e1reas de tecnologia da informa\u00e7\u00e3o e demais interessados no assunto, para participarem do segundo meetup virtual.\n 21/01/2022 \u23f0 19h\nInstagram: @owasp_belem"
+    },
+    {
         "group": "Belfast",
         "repo": "www-chapter-belfast",
         "name": "Zero Trust for API Risk Management",
@@ -118,6 +138,16 @@
         "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
         "timezone": "Europe/Belfast",
         "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
+    },
+    {
+        "group": "Bellingham",
+        "repo": "www-chapter-bellingham",
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
     },
     {
         "group": "Boston",
@@ -130,14 +160,24 @@
         "description": "This month OWASP Boston will be welcoming Vickie Li (https://www.linkedin.com/in/vickie-li-103a35b8/). Vickie is a Developer Evangelist at ShiftLeft and will be providing a workshop style take on source code analysis.\n\n--Analyzing source code for vulnerabilities: A how-to workshop--\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "Discussion: Getting started in Ethical Hacking",
-        "date": "2022-01-18",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Bristol/events/283185108",
-        "timezone": "Europe/London",
-        "description": "Event in Collaboration with OWASP Suffolk .\n\nGetting started in Ethical Hacking can seem daunting. There is so much information out there, so many websites, tools, YouTube videos, courses, etc etc. Where do you start? Do you have to do a course or be certified? Do I need to set up my own testing lab, and if so, what operating system and tools do I use? Is there a way to learn for free? So many questions. It can feel so overwhelming at times, enough to put you off.\n\nThe aim of this event is to offer an open discussion where we can all share tips, tricks, resources and suggestions around how to go about getting started in Ethical Hacking. Everything from how to make learning fun, recommended resources such as websites, podcasts, gamification sites (CTFs), tools, bug bounty platforms and tips and tricks on how to learn and remain focused.\n\nAgenda:\n* Welcome back & overview of what we have in store for 2022\n* OWASP updates\n* Open discussion on how to get started in Ethical Hacking"
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
+        "name": "OWASP Vancouver - February 2022",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
+        "timezone": "Canada/Pacific",
+        "description": "OWASP Vancouver's monthly event"
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
     },
     {
         "group": "China Mainland",
@@ -148,36 +188,6 @@
         "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
         "timezone": "US/Mountain",
         "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
-    },
-    {
-        "group": "China Mainland",
-        "repo": "www-chapter-china-mainland",
-        "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
-        "date": "2022-02-15",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283194340",
-        "timezone": "Europe/London",
-        "description": "The Talk:\n\nThere is far more to cyber security than technology.\n\nEvery successful attack starts with human fallibility and failure.\n\nThe Dark Side is an integrated business venture on a global scale.\n\nOperating as individually isolated organisations means we can only lose.\n\nIntegrating the information and resources across sectors and countries is essential.\n\nThe projected \u2018business earnings of The Dark Side will be >5x the GDP of the UK by 2030.\n\nAbout Peter Cochrane OBE:\n\nPeter is an academic, advisor and consultant with multiple awards and accreditations. Around Ipswich, he is known for leading the Research at BT Labs at Adastral Park for many years, and more recently for working in the Department of Science and Technology at the University of Suffolk. He has been an advisor to Facebook, written over 1,000 scientific and engineering papers, patents, press articles, edited books and chapters. He has appeared on over 400 national and international appearances on radio and TV. He is a regular contributor to the Times, Telegraph, Guardian, and The Australian newspapers plus Wired Magazine, T3, Intelligence and Weekly Diamond Magazines."
-    },
-    {
-        "group": "China Mainland",
-        "repo": "www-chapter-china-mainland",
-        "name": "Aguascalientes Chapter Feb 2022 Meeting",
-        "date": "2022-02-15",
-        "time": "3:00-06:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
-        "timezone": "America/Mexico_City",
-        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
-    },
-    {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP January Meeting",
-        "date": "2022-01-18",
-        "time": "2:00-06:00",
-        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/280898991",
-        "timezone": "US/Central",
-        "description": "Title:\n\nUsing the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program\n\nDescription:\n\nThe concept of threat modeling, while not new, is more imperative today than ever before. It's a foundational part of building a security culture and uncovers potential security issues before they slip into production.\nProactively protecting data from the app to the API requires modeling potential attacks to mitigate weak points before bad actors find them. A team of 15 security veterans and experts, including Chris Romeo, CEO of Security journey, created the Threat Modeling Manifesto. Chris is a veteran security expert focused on developing a security culture through training and education. During this session, he will discuss why a manifesto, how you can use it as a foundational piece of your threat modeling program, and practical application tips for building an Enterprise-class threat modeling program.\n\nBio:\n\nChris Romeo is CEO and co-founder of Security Journey and is a builder of security culture influencing education. His passion is to bring security culture change to all organizations, large and small, by providing gamified security programs. Chris is a highly rated industry speaker and trainer, featured at RSA Conference, OWASP Global AppSec, and ISC2 Security Congress. Chris was the Chief Security Advocate at Cisco for five years, empowering engineers to shift security left in all products and led Cisco\u2019s security belt program (Cisco Security Ninja). Chris has twenty-three years of security experience, holding positions across the gamut, including application security, security engineering, and incident response. Chris holds the CISSP and CSSLP certifications. For more information, see https://www.linkedin.com/in/securityjourney/\nTo book Chris for you event, please contact speaking@securityjourney.com."
     },
     {
         "group": "Denver",
@@ -192,32 +202,32 @@
     {
         "group": "Dkte Soc Textile And Engineering Institute",
         "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "OWASP Vancouver - February 2022",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
+        "timezone": "Canada/Pacific",
+        "description": "OWASP Vancouver's monthly event"
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
         "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
         "date": "2022-02-16",
         "time": "7:30-07:00",
         "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
         "timezone": "US/Mountain",
         "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
-    },
-    {
-        "group": "Dkte Soc Textile And Engineering Institute",
-        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
-        "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
-        "date": "2022-02-15",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283194340",
-        "timezone": "Europe/London",
-        "description": "The Talk:\n\nThere is far more to cyber security than technology.\n\nEvery successful attack starts with human fallibility and failure.\n\nThe Dark Side is an integrated business venture on a global scale.\n\nOperating as individually isolated organisations means we can only lose.\n\nIntegrating the information and resources across sectors and countries is essential.\n\nThe projected \u2018business earnings of The Dark Side will be >5x the GDP of the UK by 2030.\n\nAbout Peter Cochrane OBE:\n\nPeter is an academic, advisor and consultant with multiple awards and accreditations. Around Ipswich, he is known for leading the Research at BT Labs at Adastral Park for many years, and more recently for working in the Department of Science and Technology at the University of Suffolk. He has been an advisor to Facebook, written over 1,000 scientific and engineering papers, patents, press articles, edited books and chapters. He has appeared on over 400 national and international appearances on radio and TV. He is a regular contributor to the Times, Telegraph, Guardian, and The Australian newspapers plus Wired Magazine, T3, Intelligence and Weekly Diamond Magazines."
-    },
-    {
-        "group": "Dkte Soc Textile And Engineering Institute",
-        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
-        "name": "Aguascalientes Chapter Feb 2022 Meeting",
-        "date": "2022-02-15",
-        "time": "3:00-06:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
-        "timezone": "America/Mexico_City",
-        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
     },
     {
         "group": "Harrisburg",
@@ -232,32 +242,32 @@
     {
         "group": "Kuala Lumpur",
         "repo": "www-chapter-kuala-lumpur",
+        "name": "OWASP Vancouver - February 2022",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
+        "timezone": "Canada/Pacific",
+        "description": "OWASP Vancouver's monthly event"
+    },
+    {
+        "group": "Kuala Lumpur",
+        "repo": "www-chapter-kuala-lumpur",
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
+    },
+    {
+        "group": "Kuala Lumpur",
+        "repo": "www-chapter-kuala-lumpur",
         "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
         "date": "2022-02-16",
         "time": "7:30-07:00",
         "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
         "timezone": "US/Mountain",
         "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
-    },
-    {
-        "group": "Kuala Lumpur",
-        "repo": "www-chapter-kuala-lumpur",
-        "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
-        "date": "2022-02-15",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283194340",
-        "timezone": "Europe/London",
-        "description": "The Talk:\n\nThere is far more to cyber security than technology.\n\nEvery successful attack starts with human fallibility and failure.\n\nThe Dark Side is an integrated business venture on a global scale.\n\nOperating as individually isolated organisations means we can only lose.\n\nIntegrating the information and resources across sectors and countries is essential.\n\nThe projected \u2018business earnings of The Dark Side will be >5x the GDP of the UK by 2030.\n\nAbout Peter Cochrane OBE:\n\nPeter is an academic, advisor and consultant with multiple awards and accreditations. Around Ipswich, he is known for leading the Research at BT Labs at Adastral Park for many years, and more recently for working in the Department of Science and Technology at the University of Suffolk. He has been an advisor to Facebook, written over 1,000 scientific and engineering papers, patents, press articles, edited books and chapters. He has appeared on over 400 national and international appearances on radio and TV. He is a regular contributor to the Times, Telegraph, Guardian, and The Australian newspapers plus Wired Magazine, T3, Intelligence and Weekly Diamond Magazines."
-    },
-    {
-        "group": "Kuala Lumpur",
-        "repo": "www-chapter-kuala-lumpur",
-        "name": "Aguascalientes Chapter Feb 2022 Meeting",
-        "date": "2022-02-15",
-        "time": "3:00-06:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
-        "timezone": "America/Mexico_City",
-        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
     },
     {
         "group": "Los Angeles",
@@ -272,32 +282,32 @@
     {
         "group": "M.kumaraswamy College Of Engineering",
         "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
+        "name": "OWASP Vancouver - February 2022",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
+        "timezone": "Canada/Pacific",
+        "description": "OWASP Vancouver's monthly event"
+    },
+    {
+        "group": "M.kumaraswamy College Of Engineering",
+        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
+    },
+    {
+        "group": "M.kumaraswamy College Of Engineering",
+        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
         "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
         "date": "2022-02-16",
         "time": "7:30-07:00",
         "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
         "timezone": "US/Mountain",
         "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
-    },
-    {
-        "group": "M.kumaraswamy College Of Engineering",
-        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
-        "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
-        "date": "2022-02-15",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283194340",
-        "timezone": "Europe/London",
-        "description": "The Talk:\n\nThere is far more to cyber security than technology.\n\nEvery successful attack starts with human fallibility and failure.\n\nThe Dark Side is an integrated business venture on a global scale.\n\nOperating as individually isolated organisations means we can only lose.\n\nIntegrating the information and resources across sectors and countries is essential.\n\nThe projected \u2018business earnings of The Dark Side will be >5x the GDP of the UK by 2030.\n\nAbout Peter Cochrane OBE:\n\nPeter is an academic, advisor and consultant with multiple awards and accreditations. Around Ipswich, he is known for leading the Research at BT Labs at Adastral Park for many years, and more recently for working in the Department of Science and Technology at the University of Suffolk. He has been an advisor to Facebook, written over 1,000 scientific and engineering papers, patents, press articles, edited books and chapters. He has appeared on over 400 national and international appearances on radio and TV. He is a regular contributor to the Times, Telegraph, Guardian, and The Australian newspapers plus Wired Magazine, T3, Intelligence and Weekly Diamond Magazines."
-    },
-    {
-        "group": "M.kumaraswamy College Of Engineering",
-        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
-        "name": "Aguascalientes Chapter Feb 2022 Meeting",
-        "date": "2022-02-15",
-        "time": "3:00-06:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
-        "timezone": "America/Mexico_City",
-        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
     },
     {
         "group": "Madison",
@@ -308,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-madison/events/283036630",
         "timezone": "US/Central",
         "description": "We'll demonstrate and discuss the the recent log4j unpleasantness, deserialization gadgets and dive into the most recent SANS holiday hack."
+    },
+    {
+        "group": "Manama",
+        "repo": "www-chapter-manama",
+        "name": "OWASP Application Security Verification Standard",
+        "date": "2022-01-23",
+        "time": "4:00+03:00",
+        "link": "https://www.meetup.com/owasp-manama/events/283153724",
+        "timezone": "Asia/Bahrain",
+        "description": "An introduction to OWASP Application Security Verification Standard (ASVS) Project. The primary aim of the OWASP Application Security Verification Standard (ASVS) Project is to provide an open application security standard for web apps and web services of all types.\n\nThe standard provides a basis for designing, building, and testing technical application security controls, including architectural concerns, secure development lifecycle, threat modelling, agile security including continuous integration / deployment, serverless, and configuration concerns."
     },
     {
         "group": "Morocco",
@@ -390,6 +410,16 @@
         "description": "We'll meetup virtually this month, and host a round table discussion on Topics of Interest.\n\n-----AGENDA-----\n\nTopic: AppSec Training for Developers (Deep Dive)\n------a) what has worked\n------b) what were some misses\n\nWe'll have a few mini presentations on what others have found helpful and maintain a format of round table discussion after each presentation.\n\n------------------------------------\nLeaders Zoom Account Two is inviting you to a scheduled Zoom meeting.\n\nTopic: OWASP SLC January 2022 Chapter Meeting\nTime: Jan 27, 2022 12:00 PM Mountain Time (US and Canada)\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/83896566985?pwd=RFJhUWZxUEEvUGRaejc1ano5VmNaUT09\n\nMeeting ID: 838 9656 6985\nPasscode: 107008\nOne tap mobile\n+16699006833,,83896566985#,,,,*107008# US (San Jose)\n+12532158782,,83896566985#,,,,*107008# US (Tacoma)\n\nDial by your location\n+1 669 900 6833 US (San Jose)\n+1 253 215 8782 US (Tacoma)\n+1 346 248 7799 US (Houston)\n+1 929 436 2866 US (New York)\n+1 301 715 8592 US (Washington DC)\n+1 312 626 6799 US (Chicago)\nMeeting ID: 838 9656 6985\nPasscode: 107008\nFind your local number: https://us06web.zoom.us/u/kbOk2u7bXP"
     },
     {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2022-02-09",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/282956558",
+        "timezone": "US/Pacific",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
         "group": "Suffolk",
         "repo": "www-chapter-suffolk",
         "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
@@ -407,17 +437,27 @@
         "time": "9:00Z",
         "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/281865512",
         "timezone": "Europe/London",
-        "description": "The Talk:\n\nA high-level overview around some of the tactics and attack paths \u2018hackers\u2019 utilise when profiling and ultimately attacking organisations.\n\nWhat we will cover:\n\n Common cyber security misconceptions\n Types of hackers\n Examples of how hackers profile organisations\n Office365 attack scenarios\n Defence\n\nAbout Matthew Hunn:\n\nMatthew Hunn is a penetration tester who supports organisation's in identifying their security weaknesses and their impact on the integrity of critical business assets. Leveraging his past experience in digital forensics and incident response, Matthew replicates the 'attack vectors' a malicious actor would seek and exploit to compromise a victim; allowing them to ensure resilient, fit for purpose, defences are in place.\n\nGreen Duck\u2019s Labsec cyber security division delivers continuous security monitoring, consultancy and strategy planning, penetration testing and Cyber Essentials certification services.\n\nYour Hosts:\n\nDelivered to you in collaboration with Suffolk Developers group, Ipswich & Suffolk Tech Network and OWASP Suffolk\n\nAs this is a shared talk places are limited so please RSVP against this meeting if you wish to atend."
+        "description": "The Talk:\n\nA high-level overview around some of the tactics and attack paths \u2018hackers\u2019 utilise when profiling and ultimately attacking organisations.\n\nWhat we will cover:\n\n Common cyber security misconceptions\n Types of hackers\n Examples of how hackers profile organisations\n Office365 attack scenarios\n Defence\n\nAbout Matthew Hunn:\n\nMatthew Hunn is a penetration tester who supports organisation's in identifying their security weaknesses and their impact on the integrity of critical business assets. Leveraging his past experience in digital forensics and incident response, Matthew replicates the 'attack vectors' a malicious actor would seek and exploit to compromise a victim; allowing them to ensure resilient, fit for purpose, defences are in place.\n\nXperience\u2019s Labsec cyber security division delivers continuous security monitoring, consultancy and strategy planning, penetration testing and Cyber Essentials certification services.\n\nYour Hosts:\n\nDelivered to you in collaboration with Suffolk Developers group, Ipswich & Suffolk Tech Network and OWASP Suffolk\n\nAs this is a shared talk places are limited so please RSVP against this meeting if you wish to atend."
     },
     {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "Discussion: Getting started in Ethical Hacking",
-        "date": "2022-01-18",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283069487",
-        "timezone": "Europe/London",
-        "description": "Getting started in Ethical Hacking can seem daunting. There is so much information out there, so many websites, tools, YouTube videos, courses, etc etc. Where do you start? Do you have to do a course or be certified? Do I need to set up my own testing lab, and if so, what operating system and tools do I use? Is there a way to learn for free? So many questions. It can feel so overwhelming at times, enough to put you off.\n\nThe aim of this event is to offer an open discussion where we can all share tips, tricks, resources and suggestions around how to go about getting started in Ethical Hacking. Everything from how to make learning fun, recommended resources such as websites, podcasts, gamification sites (CTFs), tools, bug bounty platforms and tips and tricks on how to learn and remain focused.\n\nThis event will be open to members of OWASP Suffolk and other OWASP groups. This event will not be recorded.\n\nAgenda:\n\n* Welcome back & overview of what we have in store for 2022\n* OWASP updates\n* Open discussion on how to get started in Ethical Hacking"
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "OWASP Vancouver - February 2022",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
+        "timezone": "Canada/Pacific",
+        "description": "OWASP Vancouver's monthly event"
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
     },
     {
         "group": "Tehran",
@@ -430,26 +470,6 @@
         "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
-        "group": "Tehran",
-        "repo": "www-chapter-tehran",
-        "name": "Cyber Security - Thinking Like The Enemy - Peter Cochrane OBE",
-        "date": "2022-02-15",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/283194340",
-        "timezone": "Europe/London",
-        "description": "The Talk:\n\nThere is far more to cyber security than technology.\n\nEvery successful attack starts with human fallibility and failure.\n\nThe Dark Side is an integrated business venture on a global scale.\n\nOperating as individually isolated organisations means we can only lose.\n\nIntegrating the information and resources across sectors and countries is essential.\n\nThe projected \u2018business earnings of The Dark Side will be >5x the GDP of the UK by 2030.\n\nAbout Peter Cochrane OBE:\n\nPeter is an academic, advisor and consultant with multiple awards and accreditations. Around Ipswich, he is known for leading the Research at BT Labs at Adastral Park for many years, and more recently for working in the Department of Science and Technology at the University of Suffolk. He has been an advisor to Facebook, written over 1,000 scientific and engineering papers, patents, press articles, edited books and chapters. He has appeared on over 400 national and international appearances on radio and TV. He is a regular contributor to the Times, Telegraph, Guardian, and The Australian newspapers plus Wired Magazine, T3, Intelligence and Weekly Diamond Magazines."
-    },
-    {
-        "group": "Tehran",
-        "repo": "www-chapter-tehran",
-        "name": "Aguascalientes Chapter Feb 2022 Meeting",
-        "date": "2022-02-15",
-        "time": "3:00-06:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
-        "timezone": "America/Mexico_City",
-        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
-    },
-    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Speaker TBA - Contact us if interested",
@@ -458,6 +478,16 @@
         "link": "https://www.meetup.com/owasptriangle/events/283033050",
         "timezone": "US/Eastern",
         "description": "TBA"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "OWASP Vancouver - February 2022",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
+        "timezone": "Canada/Pacific",
+        "description": "OWASP Vancouver's monthly event"
     },
     {
         "group": "Vancouver",
