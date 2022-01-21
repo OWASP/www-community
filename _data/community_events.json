@@ -220,16 +220,6 @@
         "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
-        "group": "Harrisburg",
-        "repo": "www-chapter-harrisburg",
-        "name": "New Year New OWASP Harrisburg Meetup (Virtual)",
-        "date": "2022-01-20",
-        "time": "9:30-05:00",
-        "link": "https://www.meetup.com/OWASP-Harrisburg-Chapter/events/283183916",
-        "timezone": "US/Eastern",
-        "description": "2022's first OWASP Harrisburg Meetup, will be a coverage of this years SANs holiday hack challenge. - sorry for the meetup time/date mix up. the event will be Jan 20th at 730 pm"
-    },
-    {
         "group": "Helsinki",
         "repo": "www-chapter-helsinki",
         "name": "OWASP Helsinki chapter meeting #43",
@@ -340,26 +330,6 @@
         "description": "During this session we will learn how to design secure embedded System for IoT devices using Threat Modeling for hardware and software."
     },
     {
-        "group": "Nashville",
-        "repo": "www-chapter-nashville",
-        "name": "Container Security - It's all About the Supply Chain with Michele Chubirka",
-        "date": "2022-01-20",
-        "time": "9:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/283203708",
-        "timezone": "US/Central",
-        "description": "Are you interesting in learning about container security or supply chains? Please attend the OWASP Nashville Chapter talk on Container Security - It's all About the Supply Chain with Michele Chubirka"
-    },
-    {
-        "group": "Netherlands",
-        "repo": "www-chapter-netherlands",
-        "name": "January 2022 OWASP Chapter Netherlands Meetup",
-        "date": "2022-01-20",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/OWASP-Chapter-Netherlands-Meetup/events/283101873",
-        "timezone": "Europe/Amsterdam",
-        "description": "19:00 - 19:15 Welcome\n19:15 - 20:00 A story on scaling threat modeling across 500+ DevOps teams by Abhishek k. Goel\n20:00 - 20:15 Break\n20:15 - 21:00 Gamification of Threat Modelling by Grant Ongers\n\nA story on scaling threat modeling across 500+ DevOps teams.\n\nThis talk is not about \u201cwhat is threat modelling, and what are the different methodologies?\u201d. This is well known and understood by now. With every organization moving towards DevSecOps, the difficult question is \u201chow to do Threat Modeling at scale?\u201d. I want to take this opportunity to share with you the ABN AMRO story about how we did this!\n\nAbhishek k. Goel is a Security Consultant at ABN Amro and the IT lead for Threat Modelling capability at the bank. He is a senior security engineer responsible for enabling security in DevOps across the bank.\nBefore ABN, he was a Lead Security Consultant with Deloitte USI and enabled security in CICD pipelines for clients across the globe.\n\nGamification of Threat Modelling\n\nThe talk is all about doing security architecture and threat modelling work as part of development planning.\nThe presentation starts by introducing OWASP Cornucopia and the simplified OWASP \u201cTop 5\u201d for developers and then moves into looking at how one can practically include a form of threat modelling (using Cornucopia) into one\u2019s agile development practises in an effective manner.\nThere is a brief discussion on gamification, covering the usual FAQs on that and then it moves onto implementation at scale and some of the experiences we\u2019ve had there.\n\nCo-founder of Secure Delivery and current OWASP Global Foundation board member, Grant Ongers (@rewtd), is a firm believer in security enabling delivery not blocking it. The philosophy and purpose of Secure Delivery is in the name: optimal delivery and security in one nimble and adaptive offering.\nGrant\u2019s experience spans Dev - building platforms for Telcos, MSPs and Financial institutions for more than 10 years. 20+ years in Ops, running operational teams in global NOCs to managing mainframe and database systems. He also has over 30 years pushing the limits of (Info)Sec - mostly white-hat. He\u2019s worked on both sides of the TPSA table, for and with regulated orgs ensuring compliance and matching \u201cappetite for\u201d with \u201cacceptance of\u201d risk.\nGrant\u2019s community involvement is global: Staff at BSides (London, Las Vegas, and Cape Town), Goon at DEF CON (USA) for over a decade and DC2721 co-founder, staff at BlackHat (USA and EU).\nAlongside his role as CTO within Secure Delivery, Grant provides C-suite advice and guidance on security to FTSE100 enterprises and strategic risk analysis within M&A diligence teams.\n\nThis is an online meeting and will be streamed on YouTube."
-    },
-    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP's *New* Top 10 Web Application Security Risks",
@@ -368,16 +338,6 @@
         "link": "https://www.meetup.com/OWASP-New-Zealand-Chapter-Christchurch/events/281034378",
         "timezone": "Pacific/Auckland",
         "description": "The OWASP Top 10 project (probably the most well know thing about OWASP) updated the list for 2021. Kevin will present the new list and provide his colourful comments about the changes. SPOILER ALERT: There is a new number 1!"
-    },
-    {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "Demystifying the SBOM\u2019s impact on Secure Software Deployment",
-        "date": "2022-01-20",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/283028833",
-        "timezone": "US/Eastern",
-        "description": "When the White House\u2019s cybersecurity executive order from May 2021 was issued, the Software Bill of Materials (aka SBOMs), graduated from being a \u201cnice to have\u201d to a \u201cmust-have\u201d when developing and deploying secure software from the cloud.\n\nIn a nutshell, SBOMs provides visibility into which components make up a piece of software and detail how it was put together, so it's easy to determine if it contains security and compliance issues.\n\nIn this talk, we\u2019ll discuss\n\n\u2022 What exactly is an SBOM?\n\n\u2022 Securing your Software Supply Chain\n\n\u2022 Why SBOM must be a key element of your software development life cycle's (SDLC) security and compliance approach\n\n\u2022 The misconceptions that exist around SBOMs\n\n\u2022 Insights and best practices on SBOM creation and usage.\n\nWILLIAM MANNING\n\nSolution Architect - JFrog\n\nBill is a Solutions Architect with JFrog. He is also a mentor with TechStars,Matter, and NestGSV. He has successfully exited 3 companies and took one public in Australia. He is also currently helping various startups as an advisor. In his spare time, he likes to travel with his wife and two boys. He also plays guitar, loves the ocean, and is an avid cyclist."
     },
     {
         "group": "Orange County",
@@ -430,6 +390,16 @@
         "description": "The Talk:\n\nA high-level overview around some of the tactics and attack paths \u2018hackers\u2019 utilise when profiling and ultimately attacking organisations.\n\nWhat we will cover:\n\n Common cyber security misconceptions\n Types of hackers\n Examples of how hackers profile organisations\n Office365 attack scenarios\n Defence\n\nAbout Matthew Hunn:\n\nMatthew Hunn is a penetration tester who supports organisation's in identifying their security weaknesses and their impact on the integrity of critical business assets. Leveraging his past experience in digital forensics and incident response, Matthew replicates the 'attack vectors' a malicious actor would seek and exploit to compromise a victim; allowing them to ensure resilient, fit for purpose, defences are in place.\n\nXperience\u2019s Labsec cyber security division delivers continuous security monitoring, consultancy and strategy planning, penetration testing and Cyber Essentials certification services.\n\nYour Hosts:\n\nDelivered to you in collaboration with Suffolk Developers group, Ipswich & Suffolk Tech Network and OWASP Suffolk\n\nAs this is a shared talk places are limited so please RSVP against this meeting if you wish to atend."
     },
     {
+        "group": "Sydney",
+        "repo": "www-chapter-sydney",
+        "name": "OWASP Sydney Fight Club - Feb meet ",
+        "date": "2022-02-10",
+        "time": "8:00+11:00",
+        "link": "https://www.meetup.com/OWASP-Sydney-Chapter/events/283375809",
+        "timezone": "Australia/Sydney",
+        "description": "Welcome back to OWASP Sydney\u2019s Fight Club!\n\nJoin us once a month in our fc-announcements Discord channel (https://discord.com/invite/uAWze2B) where we come together to break into machines, go head to head in Hack The Box\u2019s (HTB) battlegrounds, and dive down rabbit holes!\n\nTo participate in the event, please ensure you know the basics of HTB, e.g. how to connect to the VPN, and have a valid account set up and ready to go.\n\nThere is no set agenda for the night, we might form teams and compete, or we might all go on a solo mission - the aim is to train up your skills alongside other members of the community and have a good time!"
+    },
+    {
         "group": "Tehran",
         "repo": "www-chapter-tehran",
         "name": "OWASP Vancouver - February 2022",
@@ -460,6 +430,16 @@
         "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
+        "group": "Toronto",
+        "repo": "www-chapter-toronto",
+        "name": "OWASP February 2022 Event - Insider's Guide to Mobile AppSec with OWASP MASVS ",
+        "date": "2022-02-09",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/OWASP-Toronto/events/283383269",
+        "timezone": "Canada/Eastern",
+        "description": "TALK\n-------\n\nInsider's Guide to Mobile AppSec with OWASP MASVS\n\nSummary:\n\nFrom the birth of MASVS and MSTG in January 2018 to the most recent updates, the OWASP Mobile Security Project has advanced the state of mobile app security testing dramatically. As supporters and contributors to the Mobile Security Project at OWASP, we have pen tested thousands of mobile apps and scanned millions of commercial apps in the app stores over the years\u2026 and have identified the most common security issues that plague developers and security teams. Whether you are new to mobile pen testing or a veteran looking for the latest tools and tactics, join this session to learn 10 keys to mobile appsec leveraging OWASP MASVS and practical real-world experience.\n\nPresenter:\n\nAs Chief Mobility Officer, Brian Reed leads the mobile standards and mobile DevSecOps charge at NowSecure helping orgs deliver secure mobile apps faster. He brings decades of experience in mobile, apps, security, dev, and testing helping Fortune 2000 global customers, federal agencies and mobile innovators. Brian is a compelling storyteller, speaker and writer including OWASP, AllDayDevOps, DevOpsWorld, DevOps Days, RSA, Droidcon, Mobile World Congress, FS-ISAC, and more. Brian is a graduate of Duke University"
+    },
+    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Speaker TBA - Contact us if interested",
@@ -478,15 +458,5 @@
         "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
         "timezone": "Canada/Pacific",
         "description": "OWASP Vancouver's monthly event"
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "Dbl Hdr: OWASP Snow AND Many hiding places and camouflages of Log4J",
-        "date": "2022-01-20",
-        "time": "8:00-08:00",
-        "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283301257",
-        "timezone": "Canada/Pacific",
-        "description": "This is a double header edition of the OWASP Vancouver meet-up series, with intermission and opportunity to socialize and network!\n\nOWASP Snow (6:10-6:30pm)\nBy: Abhi Balakrishnan\n\nAbhi Balakrishnan is the creator of the OWASP Snow project. He is currently working as a senior security consultant in the DevSecOps division of SecurityCompass, Toronto. You probably would have heard Abhi's name from some of his other projects like OWASP Mantra, OWASP Bricks, OWASP TimeGap Theory, TinyBirdCTF, AppSecGames, Attackers and Friends, XSS Train, Exploit-Me REST, Bricktown, and 'Web app security testing with browsers.'\u2028\n\nAbhi is here to launch his latest project, OWASP Snow. It's an open-source tool for defending against shoulder surfing. Think of Snow as 'a software version of the privacy screen protector.' Spoiler alert - If you are curious and want to give Snow a try before the session, here is the link - https://privacysnow.com/\u2028\n\nNo technical knowledge is required to attend this session. It will be a defensive security session; please do not expect 0-days.\n\n_____________________________________________________________________________________\n\nOn The Many Habitats, Hiding Places, and Known Camouflages of Apache Log4J (6:45-7:45pm)\nBy: Julius Musseau\n\nVulnerable Log4J versions should be easy to identify, right? There are only 30 published versions of Log4J that are actually vulnerable to the incredible CVE-2021-44228 vulnerability. How hard can it be to identify (and exterminate!) versions of this mischievous Java library on our file systems? In this talk Julius will show how things are not quite as simple as one would hope, and how Log4J can come in many different shapes and forms, defeating scan and identification attempts. He will also show the vulnerability in action, and show how he determined that Bitbucket was not vulnerable despite the presence of the bad Jar file.\n\nSpeaker Bio: Julius Musseau has long been obsessed with Java Jar files. He was the primary author on a 40 page academic journal article all about identifying Jar files (\u201cSoftware Bertillonage\u201d)! In the last 4 years Julius has worked as co-founder and CTO at MergeBase, a Vancouver based application-security company devoted to Jar files, NPM files, DLL files, Ruby Gem Files, Elixir Mix files, etc. As you can see, Julius has really branched out lately ! Julius is the author of a leading Log4J detector: https://github.com/mergebase/log4j-detector"
     }
 ]
