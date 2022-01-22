@@ -1,15 +1,5 @@
 [
     {
-        "group": "Abu Dhabi",
-        "repo": "www-chapter-abu-dhabi",
-        "name": "Guest Session: Zero Trust Model for API Security and Legal Risk Management ",
-        "date": "2022-02-05",
-        "time": "0:00+04:00",
-        "link": "https://www.meetup.com/owasp-abu-dhabi/events/283335580",
-        "timezone": "Asia/Dubai",
-        "description": "We're excited to host Dr. Baljeet Malhotra (Founder/CEO of TeejLab) for a 1 hour session on API Security.\n\nPlease join us for this guest session.\n\nBelow is a talk abstract:\n\nIt is known that 96% of applications are built using some Open Source [Black Duck]. Furthermore, 99% of those Open Source applications contain some Web APIs [TeejLab]. It\u2019s not surprising that Akamai estimated that 83% of the internet traffic today is via Web APIs that connect digital applications at a global scale. The growing API usage impacts organizations both positively (through innovations, newer business models, competitive differentiation, etc.) and negatively (due to security vulnerabilities, business disruptions, legal and compliance issues etc.). Gartner has predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at enterprises, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs by managing API risks proactively. This session will provide an overview of an API Governance framework to manage API security and legal risks. This framework is inspired by the Zero Trust model that enterprises can adopt for effective API Risk Management. We\u2019ll highlight best practices, both manual and automated, with relevant tool recommendations.\n\nTopic: OWASP Abu Dhabi Chapter: Zero Trust Model for API Security and Legal Risk Management\nTime: Feb 5, 2022 10:00 AM Dubai"
-    },
-    {
         "group": "Aguascalientes",
         "repo": "www-chapter-aguascalientes",
         "name": "Aguascalientes Chapter Feb 2022 Meeting",
@@ -118,16 +108,6 @@
         "link": "https://www.meetup.com/owasp-bangalore-chapter/events/283072124",
         "timezone": "Asia/Calcutta",
         "description": "Hi Everyone\n\n#security stay safe\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\nSessions:\nDate: Saturday 29th January 2021\n\nTalk title:\nTBD\n\nSpeaker Details:-\nTBD"
-    },
-    {
-        "group": "Belem",
-        "repo": "www-chapter-belem",
-        "name": "Owasp Bel\u00e9m - Bug Bounty",
-        "date": "2022-01-21",
-        "time": "9:00-04:00",
-        "link": "https://www.meetup.com/owasp-belem/events/283341990",
-        "timezone": "America/Boa_Vista",
-        "description": "III Meetup Owasp Bel\u00e9m Virtual\nO cap\u00edtulo OWASP Bel\u00e9m convida profissionais de seguran\u00e7a da informa\u00e7\u00e3o, desenvolvedores de software, estudantes das \u00e1reas de tecnologia da informa\u00e7\u00e3o e demais interessados no assunto, para participarem do segundo meetup virtual.\n 21/01/2022 \u23f0 19h\nInstagram: @owasp_belem"
     },
     {
         "group": "Belfast",
@@ -442,12 +422,12 @@
     {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
+        "name": "DevSecOps Culture:\u000bLaughing through the failures",
         "date": "2022-01-27",
-        "time": "8:30-05:00",
+        "time": "2:00-05:00",
         "link": "https://www.meetup.com/owasptriangle/events/283033050",
         "timezone": "US/Eastern",
-        "description": "TBA"
+        "description": "Rolling out DevOps + Security has its series of pitfalls. In this talk, we\u2019ll explore real-world challenges, sprinkling in a bit of humor on behalf of the Internet, and work out the solutions to how to avoid these pain points using security culture. You\u2019ll experience what can go wrong to expose how to do things right.\n\nSpeaker: Chris Romeo, Security Journey"
     },
     {
         "group": "Vancouver",
