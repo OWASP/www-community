@@ -24,10 +24,10 @@ The goal is to provide as comprehensive a list of API tools as possible using th
 
 ## Tools Listing
 
-| Name                                  | Licence                                                                  | Platforms      | Posture                                                             | Runtime                                                             | Testing                                                             |
-| ----                                  | ----                                                                     | ----           | ----                                                                | ----                                                                | ----                                                                |
-| [Noname API Security Platform] Noname | Commercial                                                               | SaaS, OnPrem   | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg)] | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg)] | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg)] |
-| [OWASP Zap]                           | [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)] | Cross Platform | ![No](https://img.shields.io/badge/Supported-No-red.svg)]           | ![No](https://img.shields.io/badge/Supported-No-red.svg)]           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg)] |
+| Name                                    | Licence                                                                | Platforms      | Posture                                                            | Runtime                                                            | Testing                                                                |
+| ----                                    | ----                                                                   | ----           | ----                                                               | ----                                                               | ----                                                                   |
+| [Noname API Security Platform] (Noname) | Commercial                                                             | SaaS, OnPrem   | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg)     |
+| [OWASP Zap]                             | ![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg) | Cross Platform | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) [1] |
 
 [Noname API Security Platform]: https://nonamesecurity.com/platform
 [OWASP Zap]: https://www.zaproxy.org/
