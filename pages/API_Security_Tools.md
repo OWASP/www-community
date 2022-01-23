@@ -24,17 +24,36 @@ The goal is to provide as comprehensive a list of API tools as possible using th
 
 ## Tools Listing
 
-| Name                                                | Licence                                                                | Platforms      | Posture                                                            | Runtime                                                            | Testing                                                                |
-| ----                                                | ----                                                                   | ----           | ----                                                               | ----                                                               | ----                                                                   |
-| [Noname API Security Platform]</br>Noname Security  | ![License](https://img.shields.io/badge/License-commercial-9cf.svg)    | SaaS, OnPrem   | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg)     |
-| [Zed Attack Proxy (Zap)] [1]</br>OWASP              | ![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg) | Cross Platform | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg)     |
+| Name                                               | Licence                                                                               | Platforms      | Posture                                                            | Runtime                                                            | Testing                                                            |
+| ----                                               | ----                                                                                  | ----           | ----                                                               | ----                                                               | ----                                                               |
+| [APIsec]</br>APIsec                                | ![License](https://img.shields.io/badge/License-Commercial-9cf.svg)                   | SaaS           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
+| [Astra]</br>flipkart-incubator                     | ![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)                | Linux/Mac OS   | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
+| [Automatic API Attack Tool]</br>Imperva            | ![License](https://img.shields.io/badge/license-MIT-4EB1BA.svg)                       | Cross Platform | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
+| [ffuf] [1]</br>ffuf                                | ![License](https://img.shields.io/badge/license-MIT-4EB1BA.svg)                       | Cross Platform | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
+| [http-tanker] [2]</br>PierreKieffer                | ![License](https://img.shields.io/badge/license-BSD--2--Clause-4EB1BA.svg)            | Linux/Mac OS   | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
+| [Noname API Security Platform]</br>Noname Security | ![License](https://img.shields.io/badge/License-Commercial-9cf.svg)                   | SaaS, OnPrem   | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
+| [Nuclei] [3]</br>ProjectDiscovery                  | ![License](https://img.shields.io/badge/license-MIT-4EB1BA.svg)                       | Cross Platform | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
+| [Wfuzz] [4]</br>xmendez                            | ![License](https://img.shields.io/badge/license-GPL--2.0-4EB1BA.svg)                  | Cross Platform | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
+| [Zed Attack Proxy (Zap)] [5]</br>OWASP             | ![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)                | Cross Platform | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![No](https://img.shields.io/badge/Supported-No-red.svg)           | ![Yes](https://img.shields.io/badge/Supported-Yes-brightgreen.svg) |
 
 
+[APIsec]: https://www.apisec.ai/
+[Astra]: https://github.com/flipkart-incubator/Astra
+[Automatic API Attack Tool]: https://github.com/imperva/automatic-api-attack-tool
+[ffuf]: https://github.com/ffuf/ffuf
+[http-tanker]: https://github.com/PierreKieffer/http-tanker
 [Noname API Security Platform]: https://nonamesecurity.com/platform
+[Nuclei]: https://github.com/projectdiscovery/nuclei
+[Wfuzz]: https://github.com/xmendez/wfuzz
 [Zed Attack Proxy (ZAP)]: https://www.zaproxy.org/
+
 ### Footnotes
 
-[1] See https://www.zaproxy.org/faq/how-can-you-use-zap-to-scan-apis/
+[1] General http/web fuzzer which can also fuzz http-based APIs
+[2] Very manual terminal program e.g. Postman in your terminal
+[3] General scanning of TCP, DNS, HTTP, etc so can be used to test APIs
+[4] General http/web fuzzer which can also fuzz http-based APIs
+[5] See https://www.zaproxy.org/faq/how-can-you-use-zap-to-scan-apis/
 
 ### Table Columns
 
