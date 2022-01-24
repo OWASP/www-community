@@ -20,6 +20,26 @@
         "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
     },
     {
+        "group": "Ahmedabad",
+        "repo": "www-chapter-ahmedabad",
+        "name": "OWASP MONTHLY MEET-UP Jan 2022",
+        "date": "2022-01-29",
+        "time": "1:00+05:30",
+        "link": "https://www.meetup.com/OWASP-Ahmedabad-Chapter/events/283437427",
+        "timezone": "Asia/Calcutta",
+        "description": "11:00 am - 11:15 am - News Bytes by Udit Chavda\n11:15 am - 11:45 am - TBA by Harsh Bothra\n11:45 am - 12:15 pm - Azure security fundamentals by Nisarg Trivedi\n12:15 pm - 12:45 pm - Recon Like Druk by Vismit Rakhecha\n\nPlease register.\n\nLink : https://docs.google.com/forms/d/e/1FAIpQLSemokxawE1wqYjYtqxZOsHBpu7FU0Ycq0smEm20z6LETsENYA/viewform?vc=0&c=0&w=1&flr=0"
+    },
+    {
+        "group": "Ankara",
+        "repo": "www-chapter-ankara",
+        "name": "OWASP February Meeting",
+        "date": "2022-02-22",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
+        "timezone": "US/Central",
+        "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
+    },
+    {
         "group": "Ankara",
         "repo": "www-chapter-ankara",
         "name": "OWASP Vancouver - February 2022",
@@ -40,14 +60,14 @@
         "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
     },
     {
-        "group": "Ankara",
-        "repo": "www-chapter-ankara",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+        "group": "Arunai Engineering College",
+        "repo": "www-chapter-arunai-engineering-college",
+        "name": "OWASP February Meeting",
+        "date": "2022-02-22",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
+        "timezone": "US/Central",
+        "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
     },
     {
         "group": "Arunai Engineering College",
@@ -68,16 +88,6 @@
         "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
         "timezone": "US/Pacific",
         "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
-    },
-    {
-        "group": "Arunai Engineering College",
-        "repo": "www-chapter-arunai-engineering-college",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
         "group": "Austin",
@@ -142,6 +152,16 @@
     {
         "group": "China Mainland",
         "repo": "www-chapter-china-mainland",
+        "name": "OWASP February Meeting",
+        "date": "2022-02-22",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
+        "timezone": "US/Central",
+        "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
         "name": "OWASP Vancouver - February 2022",
         "date": "2022-02-17",
         "time": "8:00-08:00",
@@ -160,14 +180,14 @@
         "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
     },
     {
-        "group": "China Mainland",
-        "repo": "www-chapter-china-mainland",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+        "group": "Dallas",
+        "repo": "www-chapter-dallas",
+        "name": "OWASP February Meeting",
+        "date": "2022-02-22",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
+        "timezone": "US/Central",
+        "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
     },
     {
         "group": "Denver",
@@ -182,6 +202,16 @@
     {
         "group": "Dkte Soc Textile And Engineering Institute",
         "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "OWASP February Meeting",
+        "date": "2022-02-22",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
+        "timezone": "US/Central",
+        "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
         "name": "OWASP Vancouver - February 2022",
         "date": "2022-02-17",
         "time": "8:00-08:00",
@@ -198,16 +228,6 @@
         "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
         "timezone": "US/Pacific",
         "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
-    },
-    {
-        "group": "Dkte Soc Textile And Engineering Institute",
-        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
         "group": "Helsinki",
@@ -222,6 +242,16 @@
     {
         "group": "Kuala Lumpur",
         "repo": "www-chapter-kuala-lumpur",
+        "name": "OWASP February Meeting",
+        "date": "2022-02-22",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
+        "timezone": "US/Central",
+        "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
+    },
+    {
+        "group": "Kuala Lumpur",
+        "repo": "www-chapter-kuala-lumpur",
         "name": "OWASP Vancouver - February 2022",
         "date": "2022-02-17",
         "time": "8:00-08:00",
@@ -238,16 +268,6 @@
         "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
         "timezone": "US/Pacific",
         "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
-    },
-    {
-        "group": "Kuala Lumpur",
-        "repo": "www-chapter-kuala-lumpur",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
         "group": "Los Angeles",
@@ -262,6 +282,16 @@
     {
         "group": "M.kumaraswamy College Of Engineering",
         "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
+        "name": "OWASP February Meeting",
+        "date": "2022-02-22",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
+        "timezone": "US/Central",
+        "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
+    },
+    {
+        "group": "M.kumaraswamy College Of Engineering",
+        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
         "name": "OWASP Vancouver - February 2022",
         "date": "2022-02-17",
         "time": "8:00-08:00",
@@ -280,36 +310,6 @@
         "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
     },
     {
-        "group": "M.kumaraswamy College Of Engineering",
-        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
-    },
-    {
-        "group": "Madison",
-        "repo": "www-chapter-madison",
-        "name": "Log4J and SANS Holiday Hack (Postponed 1 week)",
-        "date": "2022-01-25",
-        "time": "5:30-06:00",
-        "link": "https://www.meetup.com/owasp-madison/events/283036630",
-        "timezone": "US/Central",
-        "description": "We'll demonstrate and discuss the the recent log4j unpleasantness, deserialization gadgets and dive into the most recent SANS holiday hack."
-    },
-    {
-        "group": "Manama",
-        "repo": "www-chapter-manama",
-        "name": "OWASP Application Security Verification Standard",
-        "date": "2022-01-23",
-        "time": "4:00+03:00",
-        "link": "https://www.meetup.com/owasp-manama/events/283153724",
-        "timezone": "Asia/Bahrain",
-        "description": "An introduction to OWASP Application Security Verification Standard (ASVS) Project. The primary aim of the OWASP Application Security Verification Standard (ASVS) Project is to provide an open application security standard for web apps and web services of all types.\n\nThe standard provides a basis for designing, building, and testing technical application security controls, including architectural concerns, secure development lifecycle, threat modelling, agile security including continuous integration / deployment, serverless, and configuration concerns."
-    },
-    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "Embedded System Secure by design for IoT",
@@ -320,14 +320,14 @@
         "description": "During this session we will learn how to design secure embedded System for IoT devices using Threat Modeling for hardware and software."
     },
     {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP's *New* Top 10 Web Application Security Risks",
-        "date": "2022-01-26",
-        "time": "9:00+13:00",
-        "link": "https://www.meetup.com/OWASP-New-Zealand-Chapter-Christchurch/events/281034378",
-        "timezone": "Pacific/Auckland",
-        "description": "The OWASP Top 10 project (probably the most well know thing about OWASP) updated the list for 2021. Kevin will present the new list and provide his colourful comments about the changes. SPOILER ALERT: There is a new number 1!"
+        "group": "Mumbai",
+        "repo": "www-chapter-mumbai",
+        "name": "OWASP Mumbai Online Meetup - 29th January 2022",
+        "date": "2022-01-29",
+        "time": "2:00+05:30",
+        "link": "https://www.meetup.com/OWASP-Mumbai-Chapter/events/283441581",
+        "timezone": "Asia/Calcutta",
+        "description": "Venue: Online\n\nSession\nAutomation in Bug Bounty by Rohit Gautam\n\nGeneral Discussion, QnA & Feedback"
     },
     {
         "group": "Orange County",
@@ -382,12 +382,32 @@
     {
         "group": "Sydney",
         "repo": "www-chapter-sydney",
+        "name": "Sydney OWASP Night - Zero Trust Model - A Swiss Knife for API Risk Management",
+        "date": "2022-02-15",
+        "time": "3:00+11:00",
+        "link": "https://www.meetup.com/OWASP-Sydney-Chapter/events/283439396",
+        "timezone": "Australia/Sydney",
+        "description": "96% of these web applications contain open source material and 99% of open source contains web APIs. In fact, web APIs contribute 83% of the traffic over the internet.This growing API usage also means growing cybersecurity risks.\n\nIn this session, Dr Baljeet Malhotra will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. He\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nAPIs benefit organizations immensely through accelerated innovations, newer business models, and competitive differentiation, but their weak security posture leads to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications.\n\nGiven the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks.\n\nDr Baljeet Malhotra, is an award-winning researcher known for his work in Open Source and API Data Management. He conceptualized the world's first \"API Composition Analysis\" based on source code static analysis. He currently holds Adjunct Professor positions at the University of British Columbia, University of Victoria and University of Northern BC."
+    },
+    {
+        "group": "Sydney",
+        "repo": "www-chapter-sydney",
         "name": "OWASP Sydney Fight Club - Feb meet ",
         "date": "2022-02-10",
         "time": "8:00+11:00",
         "link": "https://www.meetup.com/OWASP-Sydney-Chapter/events/283375809",
         "timezone": "Australia/Sydney",
         "description": "Welcome back to OWASP Sydney\u2019s Fight Club!\n\nJoin us once a month in our fc-announcements Discord channel (https://discord.com/invite/uAWze2B) where we come together to break into machines, go head to head in Hack The Box\u2019s (HTB) battlegrounds, and dive down rabbit holes!\n\nTo participate in the event, please ensure you know the basics of HTB, e.g. how to connect to the VPN, and have a valid account set up and ready to go.\n\nThere is no set agenda for the night, we might form teams and compete, or we might all go on a solo mission - the aim is to train up your skills alongside other members of the community and have a good time!"
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
+        "name": "OWASP February Meeting",
+        "date": "2022-02-22",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
+        "timezone": "US/Central",
+        "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
     },
     {
         "group": "Tehran",
@@ -408,16 +428,6 @@
         "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
         "timezone": "US/Pacific",
         "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
-    },
-    {
-        "group": "Tehran",
-        "repo": "www-chapter-tehran",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
     },
     {
         "group": "Toronto",
@@ -448,5 +458,15 @@
         "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
         "timezone": "Canada/Pacific",
         "description": "OWASP Vancouver's monthly event"
+    },
+    {
+        "group": "Devslop",
+        "repo": "www-project-devslop",
+        "name": "Fixing OSS Security Vulnerabilities at Scale!",
+        "date": "2022-01-30",
+        "time": "0:00-05:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/283427827",
+        "timezone": "Canada/Eastern",
+        "description": "You know what\u2019s cooler than finding one vulnerability? Finding thousands of vulnerabilities all at once! You know what\u2019s even cooler than that, fixing them all at once!\n\nThrough the power of your good code, you can find other people's bad code and make the world a safer place. Be the darling of bug bounty managers and the envy of security researchers.\n\nWe'll introduce the 3 solutions that powered this massive fix: CodeQL, GitHub's code query language that finds security vulnerability patterns at scale, and OpenRewrite, a style-preserving refactoring tool used at Netflix that makes the changes to these problems you found, and a custom-built bot for generating these thousands of pull requests.\n\nThis episode will take you on a journey through what it means to be an \u201cOpen Source Security Researcher\u201d and how CodeQL + Rewrite are serious game-changers from the solutions that existed before.\n\nJONATHAN LEITSCHUH\nJonathan Leitschuh is a Software Engineer and Security Researcher. His research focuses on Open Source Software (OSS), build infrastructure, and software supply chain security. He's best known for his July 2019 bombshell Zoom 0-day vulnerability disclosure. He also championed an industry-wide initiative to get all major artifact servers in the JVM ecosystem to formally decommission the support of HTTP in favor of HTTPS only. In his free time, he contributes to OSS by finding and reporting security vulnerabilities to popular OSS projects. He's also written a bot that automated the generation of thousands of pull requests to fix common security vulnerabilities in OSS. To date, he has the most GitHub Security Advisory credits to his name of any OSS contributor on GitHub.\n\nTwitter Handle: @JLLeitschuh"
     }
 ]
