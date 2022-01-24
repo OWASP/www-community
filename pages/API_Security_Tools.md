@@ -49,11 +49,11 @@ The goal is to provide as comprehensive a list of API tools as possible using th
 
 ### Footnotes
 
-[1] General http/web fuzzer which can also fuzz http-based APIs
-[2] Very manual terminal program e.g. Postman in your terminal
-[3] General scanning of TCP, DNS, HTTP, etc so can be used to test APIs
-[4] General http/web fuzzer which can also fuzz http-based APIs
-[5] See https://www.zaproxy.org/faq/how-can-you-use-zap-to-scan-apis/
+1. General http/web fuzzer which can also fuzz http-based APIs
+2. Very manual terminal program e.g. Postman in your terminal
+3. General scanning of TCP, DNS, HTTP, etc so can be used to test APIs
+4. General http/web fuzzer which can also fuzz http-based APIs
+5. See https://www.zaproxy.org/faq/how-can-you-use-zap-to-scan-apis/
 
 ### Table Columns
 
