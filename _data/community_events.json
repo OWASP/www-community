@@ -10,16 +10,6 @@
         "description": "We're excited to host Dr. Baljeet Malhotra (Founder/CEO of TeejLab) for a 1 hour session on API Security.\n\nPlease join us for this guest session.\n\nBelow is a talk abstract:\n\nIt is known that 96% of applications are built using some Open Source [Black Duck]. Furthermore, 99% of those Open Source applications contain some Web APIs [TeejLab]. It\u2019s not surprising that Akamai estimated that 83% of the internet traffic today is via Web APIs that connect digital applications at a global scale. The growing API usage impacts organizations both positively (through innovations, newer business models, competitive differentiation, etc.) and negatively (due to security vulnerabilities, business disruptions, legal and compliance issues etc.). Gartner has predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at enterprises, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs by managing API risks proactively. This session will provide an overview of an API Governance framework to manage API security and legal risks. This framework is inspired by the Zero Trust model that enterprises can adopt for effective API Risk Management. We\u2019ll highlight best practices, both manual and automated, with relevant tool recommendations.\n\nTopic: OWASP Abu Dhabi Chapter: Zero Trust Model for API Security and Legal Risk Management\nTime: Feb 5, 2022 10:00 AM Dubai"
     },
     {
-        "group": "Aguascalientes",
-        "repo": "www-chapter-aguascalientes",
-        "name": "Aguascalientes Chapter Feb 2022 Meeting",
-        "date": "2022-02-15",
-        "time": "3:00-06:00",
-        "link": "https://www.meetup.com/owasp-aguascalientes-meetup-group/events/282823962",
-        "timezone": "America/Mexico_City",
-        "description": "En esta reunion platicaremos de:\n\nZero Trust for API Risk Management\nSpeaker: Dr. Baljeet Malhotra\n\nAbstract: Web applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nTambi\u00e9n nos pueden encontrar en:\n\nOWASP: https://owasp.org/www-chapter-aguascalientes/\nFB: https://www.facebook.com/OWASPAguascalientes/\nYT: https://www.youtube.com/channel/UC4EL3F0TTjFcdua3j74kzTw"
-    },
-    {
         "group": "Ahmedabad",
         "repo": "www-chapter-ahmedabad",
         "name": "OWASP MONTHLY MEET-UP Jan 2022",
@@ -250,6 +240,16 @@
         "description": "Agenda:\n18:00-18:15 Opening words and news from OWASP - Pekka Sillanp\u00e4\u00e4, Chapter leader, OWASP Helsinki chapter\n18:15-19:00 The OWASP Top Ten 2021 Release - Jim Manico, CEO and Application Security Educator at Manicode Security\n\nAbstract:\nThe OWASP Top 10 is a standard awareness document for web developers and web application security professionals. It represents a broad consensus about the most critical security risks to web applications. As software developers author code that makes up a web application, they need to embrace and practice various secure coding techniques. This training provides defensive instruction in relation to the OWASP Top Ten to aid developers in authoring secure software.\n\nA01:2021-Broken Access Control\nA02:2021-Cryptographic Failure\nA03:2021-Injection\nA04:2021-Insecure Design\nA05:2021-Security Misconfiguration\nA06:2021-Vulnerable and Outdated Components\nA07:2021-Identification and Authentication Failures\nA08:2021-Software and Data Integrity Failures\nA09:2021-Security Logging and Monitoring Failure\nA10:2021-Server-Side Request Forgery\n\nJim Manico bio:\nJim Manico is the founder of Manicode Security where he trains software developers on secure coding and security engineering. He is also the co-founder of the LocoMoco Security Conference and is an investor/advisor for Nucleus Security, BitDiscovery, Secure Circle and Inspectiv. Jim is a frequent speaker on secure software practices and is a member of the JavaOne rockstar speaker community. He is the author of \"Iron-Clad Java: Building Secure Web Applications\u201d from McGraw-Hill.\n\nJim is a OWASP Volunteer and Former Global Board Member of the Open Web Application Security Project (OWASP). He is currently working as one of the OWASP ASVS (Application Security Verification Standard) project leaders.\n\nFor more information, visit https://www.linkedin.com/in/jmanico"
     },
     {
+        "group": "Jakarta",
+        "repo": "www-chapter-jakarta",
+        "name": "OWASP  x Pondok Siber Bandung",
+        "date": "2022-01-31",
+        "time": "9:00+07:00",
+        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/283476573",
+        "timezone": "Asia/Jakarta",
+        "description": "Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\u2022 Tool dan standar keamanan aplikasi\n\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n\u2022 Kendali keamanan dan pustaka standar\n\u2022 Cabang lokal di seluruh dunia\n\u2022 Riset terkini\n\u2022 Konferensi lengkap di seluruh dunia\n\u2022 Mailing list\n\u2022 Dan banyak lagi \u2026 di www.owasp.org\n\nKali ini OWASP x Pondok Siber Bandung akan membahas :\n1. Domain and Web Assets Assessment with INDOnese Framework by Aiman (Pondok Siber Bandung)\n\nAbstract :\nINDOnese Framework adalah solusi security assessment yang mudah digunakan dan etis. dapat digunakan untuk kegiatan asesmen resmi pihak internal maupun penilaian postur keamanan suatu aset web dari pihak eksternal\n\nShort Bio :\nAiman Alauddin F Al-Fatih adalah IT Security Mentor yang sejak 2021 diamanahkan memimpin Pondok Pesantren Siber Bandung, sehari harinya bekerja sebagai Pentester di Protergo Cybersecurity\n\nVenue :\nOnline by zoom"
+    },
+    {
         "group": "Kuala Lumpur",
         "repo": "www-chapter-kuala-lumpur",
         "name": "OWASP Leeds - Subject tba... ",
@@ -350,16 +350,6 @@
         "description": "Come join us to hear OWASP LA's monthly presentation by Robert Hansen (aka RSnake), CTO at Bit Discovery\n\nTOPIC: It\u2019s a NaN-Issue\n\nABSTRACT: Whelp, RSnake is at it again. He found a class of issues in Python. It\u2019s hard to tell how bad it is: one person said \u201cI hope you\u2019re wrong\u201d and one said, \u201cWow. What. A. Mess.\u201d But when it comes down to it, he found a very difficult to diagnose class of logic-flaws, the existence of which is even harder to test for safely. Thankfully, Python is only mainly used for scientific, academic, back-end and monetary systems\u2026 right? Right.\n\nBIO: Robert Hansen is a 27-year veteran in computer security, known to many in the industry by handle \"RSnake\". Robert started his career at eBay, where he was responsible for authentication as well as most anti-fraud systems and anti-phishing technologies. His work at eBay was later built into every modern web browser and is now protecting every Internet user as a result. His site, ha.ckers.org, was at one point responsible for a third of all the top-ranked web vulnerabilities when it was live.\n\nAt SecTheory he hacked into the back ends of over 2,100 banks, credit card processors, flight control systems, SCADA (water and power) control systems, and other security companies. During this time, Robert also built the most secure web application security hosting platform in the world at Falling Rock Networks, surviving over 15 million attacks in 8 years.\n\nMost recently, Robert's corporate intelligence platform, OutsideIntel, was acquired by Bit Discovery after which he became the CTO. Robert has worked as a floating CISO for multiple companies and sits on advisory boards of multiple technology and security companies such as Arkose Labs.\n\nMeeting info will be available on meetup - BE SURE TO RSVP to access the link\n\nATTENTION SPONSORS: YOUR NAME COULD BE HERE\nContact sponsorship.la@owasp.org"
     },
     {
-        "group": "Madison",
-        "repo": "www-chapter-madison",
-        "name": "Log4J and SANS Holiday Hack (Postponed 1 week)",
-        "date": "2022-01-25",
-        "time": "5:30-06:00",
-        "link": "https://www.meetup.com/owasp-madison/events/283036630",
-        "timezone": "US/Central",
-        "description": "We'll demonstrate and discuss the the recent log4j unpleasantness, deserialization gadgets and dive into the most recent SANS holiday hack."
-    },
-    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "Embedded System Secure by design for IoT",
@@ -438,6 +428,16 @@
         "link": "https://www.meetup.com/OWASP-Suffolk-Chapter/events/281865512",
         "timezone": "Europe/London",
         "description": "The Talk:\n\nA high-level overview around some of the tactics and attack paths \u2018hackers\u2019 utilise when profiling and ultimately attacking organisations.\n\nWhat we will cover:\n\n Common cyber security misconceptions\n Types of hackers\n Examples of how hackers profile organisations\n Office365 attack scenarios\n Defence\n\nAbout Matthew Hunn:\n\nMatthew Hunn is a penetration tester who supports organisation's in identifying their security weaknesses and their impact on the integrity of critical business assets. Leveraging his past experience in digital forensics and incident response, Matthew replicates the 'attack vectors' a malicious actor would seek and exploit to compromise a victim; allowing them to ensure resilient, fit for purpose, defences are in place.\n\nXperience\u2019s Labsec cyber security division delivers continuous security monitoring, consultancy and strategy planning, penetration testing and Cyber Essentials certification services.\n\nYour Hosts:\n\nDelivered to you in collaboration with Suffolk Developers group, Ipswich & Suffolk Tech Network and OWASP Suffolk\n\nAs this is a shared talk places are limited so please RSVP against this meeting if you wish to atend."
+    },
+    {
+        "group": "Switzerland",
+        "repo": "www-chapter-switzerland",
+        "name": "The NEW OWASP Top 10",
+        "date": "2022-02-08",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/OWASPSwitzerland/events/283486501",
+        "timezone": "Europe/Zurich",
+        "description": "The newest OWASP Top 10 (https://owasp.org/www-project-top-ten/) list came out in September 2021. We will start the session by briefly explaining the methodology used to create the list. After that, we will describe each item and compare the new list with the previous one. Finally we will show few demos to better illustrate some of the security risks in the new OWASP Top 10.\n\nSpeaker-Bio:\nPeter is a penetration tester at Compass Security. Previously, he worked as a software engineer developing web applications in Java. He is interested in application security and security in the cloud."
     },
     {
         "group": "Sydney",
