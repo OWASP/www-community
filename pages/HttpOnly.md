@@ -2,7 +2,7 @@
 title: HttpOnly
 layout: col-sidebar
 author:
-contributors: Rknell, Wichers, Jmanico, Pawel Krawczyk , Alan Hogan, Eyal Lupu, D0ubl3 h3lix, Roberto Martelloni, Tarin Gamberini, Ali Khalfan, Markgordon, kingthorin, mkost
+contributors: Rknell, Wichers, Jmanico, Pawel Krawczyk , Alan Hogan, Eyal Lupu, D0ubl3 h3lix, Roberto Martelloni, Tarin Gamberini, Ali Khalfan, Markgordon, kingthorin, mkost, Grant Ongers
 permalink: /HttpOnly
 
 ---
@@ -409,4 +409,4 @@ shown below in **figure 9**.
 5. MSDN. [Setting the HttpOnly property in .NET](http://msdn.microsoft.com/en-us/library/system.web.httpcookie.httponly.aspx)
 6. [XSS: Gaining access to HttpOnly Cookie in 2012](http://seckb.yehg.net/2012/06/xss-gaining-access-to-httponly-cookie.html)
 7. [Setting HttpOnly in Java](http://stackoverflow.com/questions/13147113/setting-an-httponly-cookie-with-javax-servlet-2-5)
-8. [Misunderstandings on HttpOnly Cookie](http://blog.fortify.com/blog/2011/11/02/Misunderstandings-on-HttpOnly-Cookie)
+8. [Misunderstandings on HttpOnly Cookie](https://web.archive.org/web/20130701055119/http://blog.fortify.com:80/blog/2011/11/02/Misunderstandings-on-HttpOnly-Cookie)
