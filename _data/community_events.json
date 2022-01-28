@@ -1,15 +1,5 @@
 [
     {
-        "group": "Abu Dhabi",
-        "repo": "www-chapter-abu-dhabi",
-        "name": "Guest Session: Zero Trust Model for API Security and Legal Risk Management ",
-        "date": "2022-02-05",
-        "time": "0:00+04:00",
-        "link": "https://www.meetup.com/owasp-abu-dhabi/events/283335580",
-        "timezone": "Asia/Dubai",
-        "description": "We're excited to host Dr. Baljeet Malhotra (Founder/CEO of TeejLab) for a 1 hour session on API Security.\n\nPlease join us for this guest session.\n\nBelow is a talk abstract:\n\nIt is known that 96% of applications are built using some Open Source [Black Duck]. Furthermore, 99% of those Open Source applications contain some Web APIs [TeejLab]. It\u2019s not surprising that Akamai estimated that 83% of the internet traffic today is via Web APIs that connect digital applications at a global scale. The growing API usage impacts organizations both positively (through innovations, newer business models, competitive differentiation, etc.) and negatively (due to security vulnerabilities, business disruptions, legal and compliance issues etc.). Gartner has predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at enterprises, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs by managing API risks proactively. This session will provide an overview of an API Governance framework to manage API security and legal risks. This framework is inspired by the Zero Trust model that enterprises can adopt for effective API Risk Management. We\u2019ll highlight best practices, both manual and automated, with relevant tool recommendations.\n\nTopic: OWASP Abu Dhabi Chapter: Zero Trust Model for API Security and Legal Risk Management\nTime: Feb 5, 2022 10:00 AM Dubai"
-    },
-    {
         "group": "Aguascalientes",
         "repo": "www-chapter-aguascalientes",
         "name": "Aguascalientes Chapter Feb 2022 Meeting",
@@ -30,34 +20,14 @@
         "description": "11:00 am - 11:15 am - News Bytes by Udit Chavda\n11:15 am - 11:45 am - TBA by Harsh Bothra\n11:45 am - 12:15 pm - Azure security fundamentals by Nisarg Trivedi\n12:15 pm - 12:45 pm - Recon Like Druk by Vismit Rakhecha\n\nPlease register.\n\nLink : https://docs.google.com/forms/d/e/1FAIpQLSemokxawE1wqYjYtqxZOsHBpu7FU0Ycq0smEm20z6LETsENYA/viewform?vc=0&c=0&w=1&flr=0"
     },
     {
-        "group": "Ankara",
-        "repo": "www-chapter-ankara",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2022-02-24",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/283514870",
-        "timezone": "US/Eastern",
-        "description": "TBA"
-    },
-    {
-        "group": "Ankara",
-        "repo": "www-chapter-ankara",
-        "name": "OWASP Leeds - Subject tba... ",
-        "date": "2022-02-23",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
-        "timezone": "Europe/London",
-        "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
-    },
-    {
-        "group": "Ankara",
-        "repo": "www-chapter-ankara",
-        "name": "OWASP Meetup: WAF technology with Christian Folini",
-        "date": "2022-02-23",
-        "time": "5:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/283185467",
-        "timezone": "US/Central",
-        "description": "This meeting will feature Christian Folini. Christian is the Author of the ModSecurity Handbook and the Co-Lead of OWASP Core Rule Set project. He will talk about WAFs technologies and other cool things in information security"
+        "group": "Arunai Engineering College",
+        "repo": "www-chapter-arunai-engineering-college",
+        "name": "1\u00ba Meetup - OWASP JP 2022 - Save the Date! ",
+        "date": "2022-02-25",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/283389379",
+        "timezone": "America/Fortaleza",
+        "description": "Primeiro Meetup para reabertura oficial do cap\u00edtulo Jo\u00e3o Pessoa da OWASP.\n\nNeste primeiro encontro iremos abordar temas relevantes voltados para a seguran\u00e7a de aplica\u00e7\u00f5es segundo as diretrizes da OWASP com apresenta\u00e7\u00e3o dos valores e principais projetos da Funda\u00e7\u00e3o.\n\nPrograma\u00e7\u00e3o:\n\n20h00: Apresenta\u00e7\u00e3o e Reabertura do Jo\u00e3o Pessoa\n20h30: Convidado (EM BREVE ATUALIZA\u00c7\u00c3O).\n\nSobre o OWASP: O Open Web Application Security Project, ou Projeto Aberto de Seguran\u00e7a em Aplica\u00e7\u00f5es Web, \u00e9 uma comunidade online que cria e disponibiliza de forma gratuita artigos, metodologias, documenta\u00e7\u00e3o, ferramentas e tecnologias no campo da seguran\u00e7a de aplica\u00e7\u00f5es web desde 2001."
     },
     {
         "group": "Arunai Engineering College",
@@ -78,56 +48,6 @@
         "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
         "timezone": "Europe/London",
         "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
-    },
-    {
-        "group": "Arunai Engineering College",
-        "repo": "www-chapter-arunai-engineering-college",
-        "name": "OWASP Meetup: WAF technology with Christian Folini",
-        "date": "2022-02-23",
-        "time": "5:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/283185467",
-        "timezone": "US/Central",
-        "description": "This meeting will feature Christian Folini. Christian is the Author of the ModSecurity Handbook and the Co-Lead of OWASP Core Rule Set project. He will talk about WAFs technologies and other cool things in information security"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2022-02-10",
-        "time": "2:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/283364277",
-        "timezone": "US/Central",
-        "description": "The OWASP Austin Study Group is intended to provide an organized gathering of like-minded IT professionals who want to learn more about application security. This is done through mini-discussions, demos, presentations, and series of meetings to cover more involved topics (i.e. book topics). Generally the topics will be participant-led, meaning that attendees will volunteer their time to present or lead a discussion, whether a one-time presentation of a topic they wish to review or need help with, or walk through topics of a particular chapter of a book being covered. There will still be OWASP leadership involved with scheduling and such, but the idea is to get a better \u201chands-on\u201d approach to create a more productive learning environment. We learn more when we are involved.\n\nMore information: https://owasp.org/www-chapter-austin/studygroups.html"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2022-02-03",
-        "time": "2:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/283270490",
-        "timezone": "US/Central",
-        "description": "The OWASP Austin Study Group is intended to provide an organized gathering of like-minded IT professionals who want to learn more about application security. This is done through mini-discussions, demos, presentations, and series of meetings to cover more involved topics (i.e. book topics). Generally the topics will be participant-led, meaning that attendees will volunteer their time to present or lead a discussion, whether a one-time presentation of a topic they wish to review or need help with, or walk through topics of a particular chapter of a book being covered. There will still be OWASP leadership involved with scheduling and such, but the idea is to get a better \u201chands-on\u201d approach to create a more productive learning environment. We learn more when we are involved.\n\nMore information: https://owasp.org/www-chapter-austin/studygroups.html"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2022-01-27",
-        "time": "2:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/283270495",
-        "timezone": "US/Central",
-        "description": "The OWASP Austin Study Group is intended to provide an organized gathering of like-minded IT professionals who want to learn more about application security. This is done through mini-discussions, demos, presentations, and series of meetings to cover more involved topics (i.e. book topics). Generally the topics will be participant-led, meaning that attendees will volunteer their time to present or lead a discussion, whether a one-time presentation of a topic they wish to review or need help with, or walk through topics of a particular chapter of a book being covered. There will still be OWASP leadership involved with scheduling and such, but the idea is to get a better \u201chands-on\u201d approach to create a more productive learning environment. We learn more when we are involved.\n\nMore information: https://owasp.org/www-chapter-austin/studygroups.html"
-    },
-    {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "OWASP Bangalore Monthly Meet 29th January 2021",
-        "date": "2022-01-29",
-        "time": "9:00+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/283072124",
-        "timezone": "Asia/Calcutta",
-        "description": "Hi Everyone\n\n#security stay safe\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\nSessions:\nDate: Saturday 29th January 2021\n\nTalk title:\nTBD\n\nSpeaker Details:-\nTBD"
     },
     {
         "group": "Belagavi",
@@ -140,56 +60,6 @@
         "description": "We are happy to announce the one week International Winter School on Cyber Security. You can submit your talk proposals on the any topic related to Cyber Security. The winter school shall consist of Talks, Posters and Capture The Flag (CTF). The winter school has talks on trending topics of cyber security such as Zero Trust, Cloud Security, Malware Analysis, Blockchain, Digital Forensics and so on by the eminent speakers from the industry. The sessions will be scheduled in such way that people from all time zones should able to attend the sessions.\n\nOrganizers: KLS Gogte Institute of Technology, India in association with OWASP Belagavi Chapter and Eyesec Cyber Security Solutions Pvt. Ltd.\n\nThe list of confirmed speakers\n1. Neerav Jain, Security Engineer, LinkedIn, USA\n2. Viraj Nagarmunoli, Security Architect Lead, Cisco\n3. Samruddhi Patil, Cyber Security Consultant, Deloitte, Ireland\n4. Kevin Gandhi, Cyber Security Operations Engineer, Digitalware Inc. USA\n5. Aashish Abraham, Senior Security Specialist, Palo Alto Networks\n6. Puneet Kulkarni, Technical Lead, McAfee\n7. Vidhi Chugh, Staff Data Scientist, Walmart Global Tech\n8. Setu Kulkarni, Vice President Product Management, Venafi, USA\n9. Vibhu Anand, Founder and Head - Operations, Cyint Technologies\n10. Sai Santosh Vernekar, Senior Information Security Engineer, Kohl's, USA\n11. Anand Atre, Deputy Chief Security Officer, Crux Informatics, USA\n12. Ritesh Agrawal, Engineering Manager, Cyware\n13. Kumar Anirudha, Co Founder, Acyclic Labs\n14. Aijaz Ladiwala, IAM Functional Consultant, Tata Consultancy Services\n15. Karan Mali, Software Engineer, IBM\n16. Vaishnavi Harikanth, Associate System Engineer,Tata Consultancy Services"
     },
     {
-        "group": "Belfast",
-        "repo": "www-chapter-belfast",
-        "name": "Zero Trust for API Risk Management",
-        "date": "2022-02-10",
-        "time": "6:00Z",
-        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
-        "timezone": "Europe/Belfast",
-        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
-    },
-    {
-        "group": "Bellingham",
-        "repo": "www-chapter-bellingham",
-        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
-        "date": "2022-02-17",
-        "time": "8:00-08:00",
-        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
-        "timezone": "US/Pacific",
-        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
-    },
-    {
-        "group": "China Mainland",
-        "repo": "www-chapter-china-mainland",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2022-02-24",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/283514870",
-        "timezone": "US/Eastern",
-        "description": "TBA"
-    },
-    {
-        "group": "China Mainland",
-        "repo": "www-chapter-china-mainland",
-        "name": "OWASP Leeds - Subject tba... ",
-        "date": "2022-02-23",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
-        "timezone": "Europe/London",
-        "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
-    },
-    {
-        "group": "China Mainland",
-        "repo": "www-chapter-china-mainland",
-        "name": "OWASP Meetup: WAF technology with Christian Folini",
-        "date": "2022-02-23",
-        "time": "5:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/283185467",
-        "timezone": "US/Central",
-        "description": "This meeting will feature Christian Folini. Christian is the Author of the ModSecurity Handbook and the Co-Lead of OWASP Core Rule Set project. He will talk about WAFs technologies and other cool things in information security"
-    },
-    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP February Meeting",
@@ -198,46 +68,6 @@
         "link": "https://www.meetup.com/Dallas-The-Open-Web-Application-Security-Project-Meetup/events/282042672",
         "timezone": "US/Central",
         "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
-    },
-    {
-        "group": "Denver",
-        "repo": "www-chapter-denver",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
-        "date": "2022-02-16",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
-        "timezone": "US/Mountain",
-        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
-    },
-    {
-        "group": "Dkte Soc Textile And Engineering Institute",
-        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2022-02-24",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/283514870",
-        "timezone": "US/Eastern",
-        "description": "TBA"
-    },
-    {
-        "group": "Dkte Soc Textile And Engineering Institute",
-        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
-        "name": "OWASP Leeds - Subject tba... ",
-        "date": "2022-02-23",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
-        "timezone": "Europe/London",
-        "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
-    },
-    {
-        "group": "Dkte Soc Textile And Engineering Institute",
-        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
-        "name": "OWASP Meetup: WAF technology with Christian Folini",
-        "date": "2022-02-23",
-        "time": "5:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/283185467",
-        "timezone": "US/Central",
-        "description": "This meeting will feature Christian Folini. Christian is the Author of the ModSecurity Handbook and the Co-Lead of OWASP Core Rule Set project. He will talk about WAFs technologies and other cool things in information security"
     },
     {
         "group": "Helsinki",
@@ -250,14 +80,24 @@
         "description": "Agenda:\n18:00-18:15 Opening words and news from OWASP - Pekka Sillanp\u00e4\u00e4, Chapter leader, OWASP Helsinki chapter\n18:15-19:00 The OWASP Top Ten 2021 Release - Jim Manico, CEO and Application Security Educator at Manicode Security\n\nAbstract:\nThe OWASP Top 10 is a standard awareness document for web developers and web application security professionals. It represents a broad consensus about the most critical security risks to web applications. As software developers author code that makes up a web application, they need to embrace and practice various secure coding techniques. This training provides defensive instruction in relation to the OWASP Top Ten to aid developers in authoring secure software.\n\nA01:2021-Broken Access Control\nA02:2021-Cryptographic Failure\nA03:2021-Injection\nA04:2021-Insecure Design\nA05:2021-Security Misconfiguration\nA06:2021-Vulnerable and Outdated Components\nA07:2021-Identification and Authentication Failures\nA08:2021-Software and Data Integrity Failures\nA09:2021-Security Logging and Monitoring Failure\nA10:2021-Server-Side Request Forgery\n\nJim Manico bio:\nJim Manico is the founder of Manicode Security where he trains software developers on secure coding and security engineering. He is also the co-founder of the LocoMoco Security Conference and is an investor/advisor for Nucleus Security, BitDiscovery, Secure Circle and Inspectiv. Jim is a frequent speaker on secure software practices and is a member of the JavaOne rockstar speaker community. He is the author of \"Iron-Clad Java: Building Secure Web Applications\u201d from McGraw-Hill.\n\nJim is a OWASP Volunteer and Former Global Board Member of the Open Web Application Security Project (OWASP). He is currently working as one of the OWASP ASVS (Application Security Verification Standard) project leaders.\n\nFor more information, visit https://www.linkedin.com/in/jmanico"
     },
     {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "OWASP  x Pondok Siber Bandung",
-        "date": "2022-01-31",
-        "time": "9:00+07:00",
-        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/283476573",
-        "timezone": "Asia/Jakarta",
-        "description": "Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\u2022 Tool dan standar keamanan aplikasi\n\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n\u2022 Kendali keamanan dan pustaka standar\n\u2022 Cabang lokal di seluruh dunia\n\u2022 Riset terkini\n\u2022 Konferensi lengkap di seluruh dunia\n\u2022 Mailing list\n\u2022 Dan banyak lagi \u2026 di www.owasp.org\n\nKali ini OWASP x Pondok Siber Bandung akan membahas :\n1. Domain and Web Assets Assessment with INDOnese Framework by Aiman (Pondok Siber Bandung)\n\nAbstract :\nINDOnese Framework adalah solusi security assessment yang mudah digunakan dan etis. dapat digunakan untuk kegiatan asesmen resmi pihak internal maupun penilaian postur keamanan suatu aset web dari pihak eksternal\n\nShort Bio :\nAiman Alauddin F Al-Fatih adalah IT Security Mentor yang sejak 2021 diamanahkan memimpin Pondok Pesantren Siber Bandung, sehari harinya bekerja sebagai Pentester di Protergo Cybersecurity\n\nVenue :\nOnline by zoom"
+        "group": "Joao Pessoa",
+        "repo": "www-chapter-joao-pessoa",
+        "name": "1\u00ba Meetup - OWASP JP 2022 - Save the Date! ",
+        "date": "2022-02-25",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/283389379",
+        "timezone": "America/Fortaleza",
+        "description": "Primeiro Meetup para reabertura oficial do cap\u00edtulo Jo\u00e3o Pessoa da OWASP.\n\nNeste primeiro encontro iremos abordar temas relevantes voltados para a seguran\u00e7a de aplica\u00e7\u00f5es segundo as diretrizes da OWASP com apresenta\u00e7\u00e3o dos valores e principais projetos da Funda\u00e7\u00e3o.\n\nPrograma\u00e7\u00e3o:\n\n20h00: Apresenta\u00e7\u00e3o e Reabertura do Jo\u00e3o Pessoa\n20h30: Convidado (EM BREVE ATUALIZA\u00c7\u00c3O).\n\nSobre o OWASP: O Open Web Application Security Project, ou Projeto Aberto de Seguran\u00e7a em Aplica\u00e7\u00f5es Web, \u00e9 uma comunidade online que cria e disponibiliza de forma gratuita artigos, metodologias, documenta\u00e7\u00e3o, ferramentas e tecnologias no campo da seguran\u00e7a de aplica\u00e7\u00f5es web desde 2001."
+    },
+    {
+        "group": "Kuala Lumpur",
+        "repo": "www-chapter-kuala-lumpur",
+        "name": "1\u00ba Meetup - OWASP JP 2022 - Save the Date! ",
+        "date": "2022-02-25",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/283389379",
+        "timezone": "America/Fortaleza",
+        "description": "Primeiro Meetup para reabertura oficial do cap\u00edtulo Jo\u00e3o Pessoa da OWASP.\n\nNeste primeiro encontro iremos abordar temas relevantes voltados para a seguran\u00e7a de aplica\u00e7\u00f5es segundo as diretrizes da OWASP com apresenta\u00e7\u00e3o dos valores e principais projetos da Funda\u00e7\u00e3o.\n\nPrograma\u00e7\u00e3o:\n\n20h00: Apresenta\u00e7\u00e3o e Reabertura do Jo\u00e3o Pessoa\n20h30: Convidado (EM BREVE ATUALIZA\u00c7\u00c3O).\n\nSobre o OWASP: O Open Web Application Security Project, ou Projeto Aberto de Seguran\u00e7a em Aplica\u00e7\u00f5es Web, \u00e9 uma comunidade online que cria e disponibiliza de forma gratuita artigos, metodologias, documenta\u00e7\u00e3o, ferramentas e tecnologias no campo da seguran\u00e7a de aplica\u00e7\u00f5es web desde 2001."
     },
     {
         "group": "Kuala Lumpur",
@@ -278,16 +118,6 @@
         "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
         "timezone": "Europe/London",
         "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
-    },
-    {
-        "group": "Kuala Lumpur",
-        "repo": "www-chapter-kuala-lumpur",
-        "name": "OWASP Meetup: WAF technology with Christian Folini",
-        "date": "2022-02-23",
-        "time": "5:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/283185467",
-        "timezone": "US/Central",
-        "description": "This meeting will feature Christian Folini. Christian is the Author of the ModSecurity Handbook and the Co-Lead of OWASP Core Rule Set project. He will talk about WAFs technologies and other cool things in information security"
     },
     {
         "group": "Leeds Uk",
@@ -322,6 +152,16 @@
     {
         "group": "M.kumaraswamy College Of Engineering",
         "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
+        "name": "1\u00ba Meetup - OWASP JP 2022 - Save the Date! ",
+        "date": "2022-02-25",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/283389379",
+        "timezone": "America/Fortaleza",
+        "description": "Primeiro Meetup para reabertura oficial do cap\u00edtulo Jo\u00e3o Pessoa da OWASP.\n\nNeste primeiro encontro iremos abordar temas relevantes voltados para a seguran\u00e7a de aplica\u00e7\u00f5es segundo as diretrizes da OWASP com apresenta\u00e7\u00e3o dos valores e principais projetos da Funda\u00e7\u00e3o.\n\nPrograma\u00e7\u00e3o:\n\n20h00: Apresenta\u00e7\u00e3o e Reabertura do Jo\u00e3o Pessoa\n20h30: Convidado (EM BREVE ATUALIZA\u00c7\u00c3O).\n\nSobre o OWASP: O Open Web Application Security Project, ou Projeto Aberto de Seguran\u00e7a em Aplica\u00e7\u00f5es Web, \u00e9 uma comunidade online que cria e disponibiliza de forma gratuita artigos, metodologias, documenta\u00e7\u00e3o, ferramentas e tecnologias no campo da seguran\u00e7a de aplica\u00e7\u00f5es web desde 2001."
+    },
+    {
+        "group": "M.kumaraswamy College Of Engineering",
+        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
         "name": "Speaker TBA - Contact us if interested",
         "date": "2022-02-24",
         "time": "8:30-05:00",
@@ -338,16 +178,6 @@
         "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
         "timezone": "Europe/London",
         "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
-    },
-    {
-        "group": "M.kumaraswamy College Of Engineering",
-        "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
-        "name": "OWASP Meetup: WAF technology with Christian Folini",
-        "date": "2022-02-23",
-        "time": "5:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/283185467",
-        "timezone": "US/Central",
-        "description": "This meeting will feature Christian Folini. Christian is the Author of the ModSecurity Handbook and the Co-Lead of OWASP Core Rule Set project. He will talk about WAFs technologies and other cool things in information security"
     },
     {
         "group": "Morocco",
@@ -380,24 +210,14 @@
         "description": "This meeting will feature Christian Folini. Christian is the Author of the ModSecurity Handbook and the Co-Lead of OWASP Core Rule Set project. He will talk about WAFs technologies and other cool things in information security"
     },
     {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Master the Nine Cybersecurity Habits to Protect Your Future",
-        "date": "2022-01-27",
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Hacking Together:  OWASP Seattle Working Sessions",
+        "date": "2022-02-16",
         "time": "2:00-08:00",
-        "link": "https://www.meetup.com/OWASP-OC/events/283226604",
+        "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/283536050",
         "timezone": "US/Pacific",
-        "description": "Speaker: George Finney, CISO | Award-Winning Author of Well Aware | Keynote Speaker\n\nTopic: Master the Nine Cybersecurity Habits to Protect Your Future\n\nLive stream: https://www.twitch.tv/owaspoc\n\nAbstract:\nThe first step in your journey towards becoming secure is believing that you can be successful. Many of us are conditioned to believe we need to be cynical in order to be secure. In George's award-winning book, Well Aware, he demonstrates that the opposite is true...we can hack our own brain's \"habit loop\" to make being more secure easy. George will provide a roadmap on how to use the science behind habits that can help make security possible for anyone.\nAttendees will be able to:\n\u2022 Identify their own top internal and external cybersecurity strengths\n\u2022 Understand how habits play a role in helping us become more secure\n\nSpeaker Bio:\nGeorge Finney is a Chief Information Security Officer that believes that people are the key to solving our cybersecurity challenges. George is the bestselling author of several cybersecurity books, including the award-winning book, Well Aware: Master the Nine Cybersecurity Habits to Protect Your Future. George was recognized in 2021 as one of the top 100 CISOs in the world by CISOs Connect and has worked in Cybersecurity for over 20 years and has helped startups, global telecommunications firms, and nonprofits improve their security posture.\n\nNOTE: Due to the continuing health concerns relating to the spread of the coronavirus disease (COVID-19), we will be meeting virtually until further notice."
-    },
-    {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "January 2022 Chapter Meeting (virtual)",
-        "date": "2022-01-27",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-slc/events/283228453",
-        "timezone": "US/Mountain",
-        "description": "We'll meetup virtually this month, and host a round table discussion on Topics of Interest.\n\n-----AGENDA-----\n\nTopic: AppSec Training for Developers (Deep Dive)\n------a) what has worked\n------b) what were some misses\n\nWe'll have a few mini presentations on what others have found helpful and maintain a format of round table discussion after each presentation.\n\n------------------------------------\nLeaders Zoom Account Two is inviting you to a scheduled Zoom meeting.\n\nTopic: OWASP SLC January 2022 Chapter Meeting\nTime: Jan 27, 2022 12:00 PM Mountain Time (US and Canada)\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/83896566985?pwd=RFJhUWZxUEEvUGRaejc1ano5VmNaUT09\n\nMeeting ID: 838 9656 6985\nPasscode: 107008\nOne tap mobile\n+16699006833,,83896566985#,,,,*107008# US (San Jose)\n+12532158782,,83896566985#,,,,*107008# US (Tacoma)\n\nDial by your location\n+1 669 900 6833 US (San Jose)\n+1 253 215 8782 US (Tacoma)\n+1 346 248 7799 US (Houston)\n+1 929 436 2866 US (New York)\n+1 301 715 8592 US (Washington DC)\n+1 312 626 6799 US (Chicago)\nMeeting ID: 838 9656 6985\nPasscode: 107008\nFind your local number: https://us06web.zoom.us/u/kbOk2u7bXP"
+        "description": "As an extension to some of our talks, we thought it would be fun to host some drop-in working sessions.\nThe frequency, topic, and tools will change based on attendee interest.\nWe'll start with a cadence of once a month, but we'd be happy to add more if there's enough engagement!\n\nWe'll continue our exploration of Juice Shop with some hands-on time to kick things off.\nJoin us and practice solving some challenges, experiment with different tools, share what you know & learn from others.\n\nFuture sessions might explore various CTFs, open-source projects, tools, or other activities surfaced by you."
     },
     {
         "group": "Seattle",
@@ -407,7 +227,7 @@
         "time": "2:00-08:00",
         "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/282956558",
         "timezone": "US/Pacific",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nTopics & Speakers for 2/9:\n----------------------------------------\n\nSession #1: Plug and Play DevSecOps Implementation\nAndy Zhulenev, one of our regular members and Board Member of Maverix, will provide an overview of key DevSecOps processes and tools required to implement DevSecOps.\n\nSession #2: TBD - This one is still up for grabs!\nAre you interested in delivering a short talk, demo, or hosting a discussion? Reach out and claim this spot or a future session.\n\n-----\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Suffolk",
@@ -452,6 +272,16 @@
     {
         "group": "Tehran",
         "repo": "www-chapter-tehran",
+        "name": "1\u00ba Meetup - OWASP JP 2022 - Save the Date! ",
+        "date": "2022-02-25",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/283389379",
+        "timezone": "America/Fortaleza",
+        "description": "Primeiro Meetup para reabertura oficial do cap\u00edtulo Jo\u00e3o Pessoa da OWASP.\n\nNeste primeiro encontro iremos abordar temas relevantes voltados para a seguran\u00e7a de aplica\u00e7\u00f5es segundo as diretrizes da OWASP com apresenta\u00e7\u00e3o dos valores e principais projetos da Funda\u00e7\u00e3o.\n\nPrograma\u00e7\u00e3o:\n\n20h00: Apresenta\u00e7\u00e3o e Reabertura do Jo\u00e3o Pessoa\n20h30: Convidado (EM BREVE ATUALIZA\u00c7\u00c3O).\n\nSobre o OWASP: O Open Web Application Security Project, ou Projeto Aberto de Seguran\u00e7a em Aplica\u00e7\u00f5es Web, \u00e9 uma comunidade online que cria e disponibiliza de forma gratuita artigos, metodologias, documenta\u00e7\u00e3o, ferramentas e tecnologias no campo da seguran\u00e7a de aplica\u00e7\u00f5es web desde 2001."
+    },
+    {
+        "group": "Tehran",
+        "repo": "www-chapter-tehran",
         "name": "Speaker TBA - Contact us if interested",
         "date": "2022-02-24",
         "time": "8:30-05:00",
@@ -468,16 +298,6 @@
         "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
         "timezone": "Europe/London",
         "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
-    },
-    {
-        "group": "Tehran",
-        "repo": "www-chapter-tehran",
-        "name": "OWASP Meetup: WAF technology with Christian Folini",
-        "date": "2022-02-23",
-        "time": "5:00-06:00",
-        "link": "https://www.meetup.com/OWASP-Nashville-Chapter/events/283185467",
-        "timezone": "US/Central",
-        "description": "This meeting will feature Christian Folini. Christian is the Author of the ModSecurity Handbook and the Co-Lead of OWASP Core Rule Set project. He will talk about WAFs technologies and other cool things in information security"
     },
     {
         "group": "Toronto",
@@ -498,16 +318,6 @@
         "link": "https://www.meetup.com/owasptriangle/events/283514870",
         "timezone": "US/Eastern",
         "description": "TBA"
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "DevSecOps Culture:\u000bLaughing through the failures",
-        "date": "2022-01-27",
-        "time": "2:00-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/283033050",
-        "timezone": "US/Eastern",
-        "description": "Rolling out DevOps + Security has its series of pitfalls. In this talk, we\u2019ll explore real-world challenges, sprinkling in a bit of humor on behalf of the Internet, and work out the solutions to how to avoid these pain points using security culture. You\u2019ll experience what can go wrong to expose how to do things right.\n\nSpeaker: Chris Romeo, Security Journey"
     },
     {
         "group": "Vancouver",
