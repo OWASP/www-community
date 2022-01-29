@@ -18,8 +18,8 @@ history of both organizations/projects.
   - [GSoC 2022 Ideas](gsoc2022ideas)
 
 ## History
-- [GSoC 2022](gsoc2022)
-  - [GSoC 2022 Ideas](gsoc2021ideas)
+- [GSoC 2021](gsoc2021)
+  - [GSoC 2021 Ideas](gsoc2021ideas)
 - [GSoC 2020](gsoc2020)
   - [GSoC 2020 Ideas](gsoc2020ideas)
 - [GSoC 2019](gsoc2019)
