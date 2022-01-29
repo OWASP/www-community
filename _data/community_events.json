@@ -1,5 +1,15 @@
 [
     {
+        "group": "Abu Dhabi",
+        "repo": "www-chapter-abu-dhabi",
+        "name": "Guest Session: Zero Trust Model for API Security and Legal Risk Management ",
+        "date": "2022-02-05",
+        "time": "0:00+04:00",
+        "link": "https://www.meetup.com/owasp-abu-dhabi/events/283335580",
+        "timezone": "Asia/Dubai",
+        "description": "We're excited to host Dr. Baljeet Malhotra (Founder/CEO of TeejLab) for a 1 hour session on API Security.\n\nPlease join us for this guest session.\n\nBelow is a talk abstract:\n\nIt is known that 96% of applications are built using some Open Source [Black Duck]. Furthermore, 99% of those Open Source applications contain some Web APIs [TeejLab]. It\u2019s not surprising that Akamai estimated that 83% of the internet traffic today is via Web APIs that connect digital applications at a global scale. The growing API usage impacts organizations both positively (through innovations, newer business models, competitive differentiation, etc.) and negatively (due to security vulnerabilities, business disruptions, legal and compliance issues etc.). Gartner has predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at enterprises, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs by managing API risks proactively. This session will provide an overview of an API Governance framework to manage API security and legal risks. This framework is inspired by the Zero Trust model that enterprises can adopt for effective API Risk Management. We\u2019ll highlight best practices, both manual and automated, with relevant tool recommendations.\n\nTopic: OWASP Abu Dhabi Chapter: Zero Trust Model for API Security and Legal Risk Management\nTime: Feb 5, 2022 10:00 AM Dubai"
+    },
+    {
         "group": "Aguascalientes",
         "repo": "www-chapter-aguascalientes",
         "name": "Aguascalientes Chapter Feb 2022 Meeting",
@@ -18,6 +28,36 @@
         "link": "https://www.meetup.com/OWASP-Ahmedabad-Chapter/events/283437427",
         "timezone": "Asia/Calcutta",
         "description": "11:00 am - 11:15 am - News Bytes by Udit Chavda\n11:15 am - 11:45 am - TBA by Harsh Bothra\n11:45 am - 12:15 pm - Azure security fundamentals by Nisarg Trivedi\n12:15 pm - 12:45 pm - Recon Like Druk by Vismit Rakhecha\n\nPlease register.\n\nLink : https://docs.google.com/forms/d/e/1FAIpQLSemokxawE1wqYjYtqxZOsHBpu7FU0Ycq0smEm20z6LETsENYA/viewform?vc=0&c=0&w=1&flr=0"
+    },
+    {
+        "group": "Ankara",
+        "repo": "www-chapter-ankara",
+        "name": "1\u00ba Meetup - OWASP JP 2022 - Save the Date! ",
+        "date": "2022-02-25",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/283389379",
+        "timezone": "America/Fortaleza",
+        "description": "Primeiro Meetup para reabertura oficial do cap\u00edtulo Jo\u00e3o Pessoa da OWASP.\n\nNeste primeiro encontro iremos abordar temas relevantes voltados para a seguran\u00e7a de aplica\u00e7\u00f5es segundo as diretrizes da OWASP com apresenta\u00e7\u00e3o dos valores e principais projetos da Funda\u00e7\u00e3o.\n\nPrograma\u00e7\u00e3o:\n\n20h00: Apresenta\u00e7\u00e3o e Reabertura do Jo\u00e3o Pessoa\n20h30: Convidado (EM BREVE ATUALIZA\u00c7\u00c3O).\n\nSobre o OWASP: O Open Web Application Security Project, ou Projeto Aberto de Seguran\u00e7a em Aplica\u00e7\u00f5es Web, \u00e9 uma comunidade online que cria e disponibiliza de forma gratuita artigos, metodologias, documenta\u00e7\u00e3o, ferramentas e tecnologias no campo da seguran\u00e7a de aplica\u00e7\u00f5es web desde 2001."
+    },
+    {
+        "group": "Ankara",
+        "repo": "www-chapter-ankara",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2022-02-24",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasptriangle/events/283514870",
+        "timezone": "US/Eastern",
+        "description": "TBA"
+    },
+    {
+        "group": "Ankara",
+        "repo": "www-chapter-ankara",
+        "name": "OWASP South Florida Chapter Meeting February 2022",
+        "date": "2022-02-23",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/283557760",
+        "timezone": "US/Eastern",
+        "description": "IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our February 2022 Meeting.\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n=======\n+Chapter updates/announcements, etc.\n\n+ The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 risks and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
     },
     {
         "group": "Arunai Engineering College",
@@ -42,12 +82,42 @@
     {
         "group": "Arunai Engineering College",
         "repo": "www-chapter-arunai-engineering-college",
-        "name": "OWASP Leeds - Subject tba... ",
+        "name": "OWASP South Florida Chapter Meeting February 2022",
         "date": "2022-02-23",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
-        "timezone": "Europe/London",
-        "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/283557760",
+        "timezone": "US/Eastern",
+        "description": "IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our February 2022 Meeting.\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n=======\n+Chapter updates/announcements, etc.\n\n+ The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 risks and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Study Group",
+        "date": "2022-02-10",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/283364277",
+        "timezone": "US/Central",
+        "description": "The OWASP Austin Study Group is intended to provide an organized gathering of like-minded IT professionals who want to learn more about application security. This is done through mini-discussions, demos, presentations, and series of meetings to cover more involved topics (i.e. book topics). Generally the topics will be participant-led, meaning that attendees will volunteer their time to present or lead a discussion, whether a one-time presentation of a topic they wish to review or need help with, or walk through topics of a particular chapter of a book being covered. There will still be OWASP leadership involved with scheduling and such, but the idea is to get a better \u201chands-on\u201d approach to create a more productive learning environment. We learn more when we are involved.\n\nMore information: https://owasp.org/www-chapter-austin/studygroups.html"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Study Group",
+        "date": "2022-02-03",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/OWASP-Austin-Chapter/events/283270490",
+        "timezone": "US/Central",
+        "description": "The OWASP Austin Study Group is intended to provide an organized gathering of like-minded IT professionals who want to learn more about application security. This is done through mini-discussions, demos, presentations, and series of meetings to cover more involved topics (i.e. book topics). Generally the topics will be participant-led, meaning that attendees will volunteer their time to present or lead a discussion, whether a one-time presentation of a topic they wish to review or need help with, or walk through topics of a particular chapter of a book being covered. There will still be OWASP leadership involved with scheduling and such, but the idea is to get a better \u201chands-on\u201d approach to create a more productive learning environment. We learn more when we are involved.\n\nMore information: https://owasp.org/www-chapter-austin/studygroups.html"
+    },
+    {
+        "group": "Bangalore",
+        "repo": "www-chapter-bangalore",
+        "name": "OWASP Bangalore Monthly Meet 29th January 2021",
+        "date": "2022-01-29",
+        "time": "9:00+05:30",
+        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/283072124",
+        "timezone": "Asia/Calcutta",
+        "description": "Hi Everyone\n\n#security stay safe\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\nSessions:\nDate: Saturday 29th January 2021\n\nTalk title:\nTBD\n\nSpeaker Details:-\nTBD"
     },
     {
         "group": "Belagavi",
@@ -60,6 +130,56 @@
         "description": "We are happy to announce the one week International Winter School on Cyber Security. You can submit your talk proposals on the any topic related to Cyber Security. The winter school shall consist of Talks, Posters and Capture The Flag (CTF). The winter school has talks on trending topics of cyber security such as Zero Trust, Cloud Security, Malware Analysis, Blockchain, Digital Forensics and so on by the eminent speakers from the industry. The sessions will be scheduled in such way that people from all time zones should able to attend the sessions.\n\nOrganizers: KLS Gogte Institute of Technology, India in association with OWASP Belagavi Chapter and Eyesec Cyber Security Solutions Pvt. Ltd.\n\nThe list of confirmed speakers\n1. Neerav Jain, Security Engineer, LinkedIn, USA\n2. Viraj Nagarmunoli, Security Architect Lead, Cisco\n3. Samruddhi Patil, Cyber Security Consultant, Deloitte, Ireland\n4. Kevin Gandhi, Cyber Security Operations Engineer, Digitalware Inc. USA\n5. Aashish Abraham, Senior Security Specialist, Palo Alto Networks\n6. Puneet Kulkarni, Technical Lead, McAfee\n7. Vidhi Chugh, Staff Data Scientist, Walmart Global Tech\n8. Setu Kulkarni, Vice President Product Management, Venafi, USA\n9. Vibhu Anand, Founder and Head - Operations, Cyint Technologies\n10. Sai Santosh Vernekar, Senior Information Security Engineer, Kohl's, USA\n11. Anand Atre, Deputy Chief Security Officer, Crux Informatics, USA\n12. Ritesh Agrawal, Engineering Manager, Cyware\n13. Kumar Anirudha, Co Founder, Acyclic Labs\n14. Aijaz Ladiwala, IAM Functional Consultant, Tata Consultancy Services\n15. Karan Mali, Software Engineer, IBM\n16. Vaishnavi Harikanth, Associate System Engineer,Tata Consultancy Services"
     },
     {
+        "group": "Belfast",
+        "repo": "www-chapter-belfast",
+        "name": "Zero Trust for API Risk Management",
+        "date": "2022-02-10",
+        "time": "6:00Z",
+        "link": "https://www.meetup.com/OWASP-Belfast/events/283122192",
+        "timezone": "Europe/Belfast",
+        "description": "Happy New 2022! We are resuming our OWASP Belfast events series and the first one is about API security!\n\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs?\nYou may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance, and Audit professionals to get a handle on APIs to manage various API related risks.\nThis session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use for managing their API risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\nBy TeejLab.com - https://apidiscovery.teejlab.com/"
+    },
+    {
+        "group": "Bellingham",
+        "repo": "www-chapter-bellingham",
+        "name": "OWASP Bellingham: ZAProxy with Brian Parks ",
+        "date": "2022-02-17",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-bellingham-chapter/events/283277614",
+        "timezone": "US/Pacific",
+        "description": "Join Brian Parks on a tour of ZAProxy -- the free, open source web security scanner maintained by OWASP. You'll learn how to run it against your own web applications, how to get the most out of the tool, and some pen-testing etiquette (when to scan your app, how to let people know you'll be scanning your app, things not to do, etc.)\n\nBio: Brian Parks is a career software engineer, tinkerer, founder, and YouTuber with experience in many different stacks across multiple platforms. He is currently a Software Engineering Manager at Quantum Metric, a Unicorn web analytics company pioneering Continuous Product Design. Outside of work, Brian can be found creating videos for his YouTube channel \"Dev Parkour\", building his photobooth software startup ShutterPilot, or spending time in the outdoors. Brian lives in Lynden with his wife, Sara, and cat, Tux.\n\nFollow Brian on YouTube: http://youtube.com/devparkour\nMore about ZAP: https://www.zaproxy.org/"
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
+        "name": "1\u00ba Meetup - OWASP JP 2022 - Save the Date! ",
+        "date": "2022-02-25",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/283389379",
+        "timezone": "America/Fortaleza",
+        "description": "Primeiro Meetup para reabertura oficial do cap\u00edtulo Jo\u00e3o Pessoa da OWASP.\n\nNeste primeiro encontro iremos abordar temas relevantes voltados para a seguran\u00e7a de aplica\u00e7\u00f5es segundo as diretrizes da OWASP com apresenta\u00e7\u00e3o dos valores e principais projetos da Funda\u00e7\u00e3o.\n\nPrograma\u00e7\u00e3o:\n\n20h00: Apresenta\u00e7\u00e3o e Reabertura do Jo\u00e3o Pessoa\n20h30: Convidado (EM BREVE ATUALIZA\u00c7\u00c3O).\n\nSobre o OWASP: O Open Web Application Security Project, ou Projeto Aberto de Seguran\u00e7a em Aplica\u00e7\u00f5es Web, \u00e9 uma comunidade online que cria e disponibiliza de forma gratuita artigos, metodologias, documenta\u00e7\u00e3o, ferramentas e tecnologias no campo da seguran\u00e7a de aplica\u00e7\u00f5es web desde 2001."
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2022-02-24",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasptriangle/events/283514870",
+        "timezone": "US/Eastern",
+        "description": "TBA"
+    },
+    {
+        "group": "China Mainland",
+        "repo": "www-chapter-china-mainland",
+        "name": "OWASP South Florida Chapter Meeting February 2022",
+        "date": "2022-02-23",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/283557760",
+        "timezone": "US/Eastern",
+        "description": "IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our February 2022 Meeting.\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n=======\n+Chapter updates/announcements, etc.\n\n+ The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 risks and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
+    },
+    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP February Meeting",
@@ -70,6 +190,46 @@
         "description": "Title: Architecting for Security in the Cloud\n\nAbstract:\n\nThe best part about creating new products and services in the cloud is the agility that it provides. Your company literally can scale at the click of a button. But if you take the simplicity of the cloud for granted, you wind up with brittle security that even a novice adversary can overcome. This talk will focus on identifying the holes in your cloud application before the attackers do, closing those gaps, and building architectures that can withstand the barrage of attacks that the Internet will throw at it.\n\nBio:\n\nJosh Sokol, CISSP, graduated from the University of Texas at Austin with a BS in Computer Science in 2002. Since that time, he has worked for several large companies, including AMD and BearingPoint, spent some time as a military contractor, and recently left a ten year career as the Information Security Program Owner at National Instruments in order to pursue a full-time role as the Creator, CEO, and CISO of the free and open source risk management tool named SimpleRisk. Josh has spoken on dozens of security topics, including the much-hyped \u201cHTTPSCan Byte Me\u201d talk at Black Hat 2010, and served for four years on the OWASP Global Board of Directors."
     },
     {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meeting!!!",
+        "date": "2022-02-16",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/Denver-OWASP/events/282942112",
+        "timezone": "US/Mountain",
+        "description": "For our February meetup we have a hands-on workshop with ShiftLeft's Vickie Li! Bring your laptop.\n\nSpeaker: Vickie Li, Developer Evangelist at ShiftLeft\n\nTitle: Analyzing source code for vulnerabilities: A how-to workshop\n\nAbstract:\nWriting code is hard. Writing secure code is even harder. Serious security vulnerabilities often stem from small programming mistakes. As developers, we can safeguard our applications by catching these mistakes in our own code.\n\nPerforming a source code review is one of the best ways to find security issues in code. But how do you do it? In this workshop, we will first go through the basics of how to review your code for vulnerabilities and some tactics for performing an effective security code review on your application.\n\nBut the process of manually analyzing code for vulnerabilities can be very time-consuming. In the second part of this talk, we will also talk about how to use the interactive code analysis tool Joern to make code analysis more efficient. How do you effectively trace user input in code? How can you efficiently link bug sources to sensitive sink functions?"
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "1\u00ba Meetup - OWASP JP 2022 - Save the Date! ",
+        "date": "2022-02-25",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/283389379",
+        "timezone": "America/Fortaleza",
+        "description": "Primeiro Meetup para reabertura oficial do cap\u00edtulo Jo\u00e3o Pessoa da OWASP.\n\nNeste primeiro encontro iremos abordar temas relevantes voltados para a seguran\u00e7a de aplica\u00e7\u00f5es segundo as diretrizes da OWASP com apresenta\u00e7\u00e3o dos valores e principais projetos da Funda\u00e7\u00e3o.\n\nPrograma\u00e7\u00e3o:\n\n20h00: Apresenta\u00e7\u00e3o e Reabertura do Jo\u00e3o Pessoa\n20h30: Convidado (EM BREVE ATUALIZA\u00c7\u00c3O).\n\nSobre o OWASP: O Open Web Application Security Project, ou Projeto Aberto de Seguran\u00e7a em Aplica\u00e7\u00f5es Web, \u00e9 uma comunidade online que cria e disponibiliza de forma gratuita artigos, metodologias, documenta\u00e7\u00e3o, ferramentas e tecnologias no campo da seguran\u00e7a de aplica\u00e7\u00f5es web desde 2001."
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2022-02-24",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasptriangle/events/283514870",
+        "timezone": "US/Eastern",
+        "description": "TBA"
+    },
+    {
+        "group": "Dkte Soc Textile And Engineering Institute",
+        "repo": "www-chapter-dkte-soc-textile-and-engineering-institute",
+        "name": "OWASP South Florida Chapter Meeting February 2022",
+        "date": "2022-02-23",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/283557760",
+        "timezone": "US/Eastern",
+        "description": "IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our February 2022 Meeting.\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n=======\n+Chapter updates/announcements, etc.\n\n+ The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 risks and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
+    },
+    {
         "group": "Helsinki",
         "repo": "www-chapter-helsinki",
         "name": "OWASP Helsinki chapter meeting #43",
@@ -78,6 +238,26 @@
         "link": "https://www.meetup.com/OWASP-Helsinki-Chapter/events/283269308",
         "timezone": "Europe/Helsinki",
         "description": "Agenda:\n18:00-18:15 Opening words and news from OWASP - Pekka Sillanp\u00e4\u00e4, Chapter leader, OWASP Helsinki chapter\n18:15-19:00 The OWASP Top Ten 2021 Release - Jim Manico, CEO and Application Security Educator at Manicode Security\n\nAbstract:\nThe OWASP Top 10 is a standard awareness document for web developers and web application security professionals. It represents a broad consensus about the most critical security risks to web applications. As software developers author code that makes up a web application, they need to embrace and practice various secure coding techniques. This training provides defensive instruction in relation to the OWASP Top Ten to aid developers in authoring secure software.\n\nA01:2021-Broken Access Control\nA02:2021-Cryptographic Failure\nA03:2021-Injection\nA04:2021-Insecure Design\nA05:2021-Security Misconfiguration\nA06:2021-Vulnerable and Outdated Components\nA07:2021-Identification and Authentication Failures\nA08:2021-Software and Data Integrity Failures\nA09:2021-Security Logging and Monitoring Failure\nA10:2021-Server-Side Request Forgery\n\nJim Manico bio:\nJim Manico is the founder of Manicode Security where he trains software developers on secure coding and security engineering. He is also the co-founder of the LocoMoco Security Conference and is an investor/advisor for Nucleus Security, BitDiscovery, Secure Circle and Inspectiv. Jim is a frequent speaker on secure software practices and is a member of the JavaOne rockstar speaker community. He is the author of \"Iron-Clad Java: Building Secure Web Applications\u201d from McGraw-Hill.\n\nJim is a OWASP Volunteer and Former Global Board Member of the Open Web Application Security Project (OWASP). He is currently working as one of the OWASP ASVS (Application Security Verification Standard) project leaders.\n\nFor more information, visit https://www.linkedin.com/in/jmanico"
+    },
+    {
+        "group": "Istanbul",
+        "repo": "www-chapter-istanbul",
+        "name": "OWASP - Burp Suite File Upload Attack",
+        "date": "2022-01-30",
+        "time": "9:00+03:00",
+        "link": "https://www.meetup.com/OWASPistanbul/events/283545355",
+        "timezone": "Europe/Istanbul",
+        "description": "Merhabalar,\n\nOWASP \u0130stanbul olarak, Rumeysa Bozdemir liderli\u011finde, alt\u0131nc\u0131 etkinlik tarihimizi 30.01.2022 olarak planlam\u0131\u015f bulunmaktay\u0131z.\n\nEtkinlikte Rumeysa Bozdemir taraf\u0131ndan, Burp Suite kullan\u0131larak File Upload Attack ger\u00e7ekle\u015ftirme konusu anlat\u0131lacakt\u0131r.\n\nEtkinlik OWASP \u0130stanbul grubuna dahil olan herkesin kat\u0131l\u0131m\u0131na a\u00e7\u0131k ve \u00fccretsizdir.\n\nBurp Suite Community, k\u00fc\u00e7\u00fck bir script olu\u015fturmak i\u00e7in herhangi bir Linux da\u011f\u0131t\u0131m\u0131 (Kali, Ubuntu vb.) ve internet ba\u011flant\u0131s\u0131 d\u0131\u015f\u0131nda hi\u00e7bir \u015feye ihityac\u0131m\u0131z olmayacakt\u0131r.\n\nE\u011fitim Microsoft Teams \u00fczerinden ger\u00e7ekle\u015ftirilecektir."
+    },
+    {
+        "group": "Jakarta",
+        "repo": "www-chapter-jakarta",
+        "name": "OWASP  x Pondok Siber Bandung",
+        "date": "2022-01-31",
+        "time": "9:00+07:00",
+        "link": "https://www.meetup.com/OWASP-Jakarta-Chapter/events/283476573",
+        "timezone": "Asia/Jakarta",
+        "description": "Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\u2022 Tool dan standar keamanan aplikasi\n\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n\u2022 Kendali keamanan dan pustaka standar\n\u2022 Cabang lokal di seluruh dunia\n\u2022 Riset terkini\n\u2022 Konferensi lengkap di seluruh dunia\n\u2022 Mailing list\n\u2022 Dan banyak lagi \u2026 di www.owasp.org\n\nKali ini OWASP x Pondok Siber Bandung akan membahas :\n1. Domain and Web Assets Assessment with INDOnese Framework by Aiman (Pondok Siber Bandung)\n\nAbstract :\nINDOnese Framework adalah solusi security assessment yang mudah digunakan dan etis. dapat digunakan untuk kegiatan asesmen resmi pihak internal maupun penilaian postur keamanan suatu aset web dari pihak eksternal\n\nShort Bio :\nAiman Alauddin F Al-Fatih adalah IT Security Mentor yang sejak 2021 diamanahkan memimpin Pondok Pesantren Siber Bandung, sehari harinya bekerja sebagai Pentester di Protergo Cybersecurity\n\nVenue :\nOnline by zoom"
     },
     {
         "group": "Joao Pessoa",
@@ -112,12 +292,12 @@
     {
         "group": "Kuala Lumpur",
         "repo": "www-chapter-kuala-lumpur",
-        "name": "OWASP Leeds - Subject tba... ",
+        "name": "OWASP South Florida Chapter Meeting February 2022",
         "date": "2022-02-23",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
-        "timezone": "Europe/London",
-        "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/283557760",
+        "timezone": "US/Eastern",
+        "description": "IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our February 2022 Meeting.\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n=======\n+Chapter updates/announcements, etc.\n\n+ The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 risks and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
     },
     {
         "group": "Leeds Uk",
@@ -172,12 +352,12 @@
     {
         "group": "M.kumaraswamy College Of Engineering",
         "repo": "www-chapter-m.kumaraswamy-college-of-engineering",
-        "name": "OWASP Leeds - Subject tba... ",
+        "name": "OWASP South Florida Chapter Meeting February 2022",
         "date": "2022-02-23",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
-        "timezone": "Europe/London",
-        "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/283557760",
+        "timezone": "US/Eastern",
+        "description": "IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our February 2022 Meeting.\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n=======\n+Chapter updates/announcements, etc.\n\n+ The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 risks and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
     },
     {
         "group": "Morocco",
@@ -228,6 +408,16 @@
         "link": "https://www.meetup.com/OWASP-Seattle-Chapter/events/282956558",
         "timezone": "US/Pacific",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nTopics & Speakers for 2/9:\n----------------------------------------\n\nSession #1: Plug and Play DevSecOps Implementation\nAndy Zhulenev, one of our regular members and Board Member of Maverix, will provide an overview of key DevSecOps processes and tools required to implement DevSecOps.\n\nSession #2: TBD - This one is still up for grabs!\nAre you interested in delivering a short talk, demo, or hosting a discussion? Reach out and claim this spot or a future session.\n\n-----\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "South Florida",
+        "repo": "www-chapter-south-florida",
+        "name": "OWASP South Florida Chapter Meeting February 2022",
+        "date": "2022-02-23",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/283557760",
+        "timezone": "US/Eastern",
+        "description": "IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our February 2022 Meeting.\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n=======\n+Chapter updates/announcements, etc.\n\n+ The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 risks and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
     },
     {
         "group": "Suffolk",
@@ -292,12 +482,12 @@
     {
         "group": "Tehran",
         "repo": "www-chapter-tehran",
-        "name": "OWASP Leeds - Subject tba... ",
+        "name": "OWASP South Florida Chapter Meeting February 2022",
         "date": "2022-02-23",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/OWASP-Leeds-Chapter/events/282785825",
-        "timezone": "Europe/London",
-        "description": "Everybody with an interest in cyber security is welcome regardless of experience levels."
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/South-Florida-OWASP-Chapter/events/283557760",
+        "timezone": "US/Eastern",
+        "description": "IMPORTANT NOTE: Due to ongoing COVID-19 public health concerns, we will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our February 2022 Meeting.\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n=======\n+Chapter updates/announcements, etc.\n\n+ The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 risks and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
     },
     {
         "group": "Toronto",
@@ -328,6 +518,26 @@
         "link": "https://www.meetup.com/OWASP-Vancouver-Chapter/events/283302427",
         "timezone": "Canada/Pacific",
         "description": "OWASP Vancouver's monthly event"
+    },
+    {
+        "group": "Vellore",
+        "repo": "www-chapter-vellore",
+        "name": "Why So Serial? Demystifying Insecure Deserialisation",
+        "date": "2022-01-30",
+        "time": "7:00+05:30",
+        "link": "https://www.meetup.com/OWASP-Vellore-Chapter/events/283554807",
+        "timezone": "Asia/Calcutta",
+        "description": "Mr. Jeya Seelan from \" SECURITY ENGINEER @ ZOHO\" will be delivering a speech on Why So Serial? Demystifying Insecure Deserialisation.\n\nScan QR for Meet Link.\n\nMeet Link: http://meet.google.com/mfq-mgcw-shm\n\nOwasp webinars are free for all, feel free to contact us for further details\n\n#owasp #owaspvellore #bugbounty #cybersecurity #hacking #security #hacker #technology #infosec #ethicalhacking #cybercrime #linux #hackers #tech #informationsecurity #cyber #programming #kalilinux #cyberattack #malware #privacy #coding #ethicalhacker #pentesting #cybersecurityawareness #hack #dataprotection #datasecurity #information technology"
+    },
+    {
+        "group": "Devslop",
+        "repo": "www-project-devslop",
+        "name": "OAuth 2.0 Hacking for Beginners with Farah Hawa",
+        "date": "2022-02-06",
+        "time": "0:00-05:00",
+        "link": "https://www.meetup.com/OWASP-DevSlop-Project/events/283455835",
+        "timezone": "Canada/Eastern",
+        "description": "An introduction to some authentication flows in OAuth 2.0 followed by a demo of some common bug types that can be found in them.\n\nFARAH HAWA\nFarah Hawa is a security operations team lead at Bugcrowd. She\u2019s a part-time bug bounty hunter and also creates technical content for bug bounty hunters & web application pentesters for her YouTube channel.\n\nTwitter: https://twitter.com/farah_hawaa?lang=en\nYoutube: https://YouTube.com/c/farahhawa\nLinkedin: https://www.linkedin.com/in/farah-hawa-a012b8162/\nInstagram: https://www.instagram.com/farah_hawaa/?hl=en\n\n EPISODE SPONSOR \nFrom Cloud security to DevSecOps. From Kubernetes to Threat Modeling. It's all your AppSec learning in one place.\nSTART A FREE TRIAL.\nAppSec Engineer Training Platform: https://bit.ly/ae_devslop"
     },
     {
         "group": "Devslop",
