@@ -11,7 +11,7 @@ permalink: /api_security_tools
 
 APIs are becoming an increasingly large portion of the software that powers the Internet including mobile applications, single-page applications (SPAs) and cloud infrastructure. While APIs share much of the same security controls and software security issues with traditional web applications, they are different enough to make a distinction between 'normal' AppSec tools and ones that were built with APIs in mind.  This page was created to list tools known to support APIs natively and by design.
 
-### Types of API tools
+### Types of API Tools
 
 Tools for API Security can be broken down into 3 broad categories.
 
@@ -28,14 +28,14 @@ The goal is to provide as comprehensive a list of API tools as possible using th
 
 ## API Tools List
 
-<section id="staff" class="corporate">
+<section id="tool-list">
 <div>
  {% for tool in site.data.api-tools %}
     <div>
-        <div class="member-caption" style="background: #f2f2f2;width: 80%">
+        <div style="background: #f2f2f2;width: 80%">
           <h4><a href="{{tool.link}}">{{ tool.name }}</a> from {{tool.from}}</h4>
         </div>
-        <div class="member-location" style="background: #cccccc;width: 80%">
+        <div style="background: #cccccc;width: 80%">
             <img src="{{tool.license}}" alt="License"> |
             <img src="{{tool.platforms}}" alt="Platform"> |
             <img src="{{tool.posture}}" alt="API Posture"> |
@@ -50,7 +50,7 @@ The goal is to provide as comprehensive a list of API tools as possible using th
 <br/><br/>
 </section>
 
-#### Adding tools
+#### Adding Tools
 
 To add items, please add a stanza to the yaml file [here](https://github.com/OWASP/www-community/blob/master/_data/api-tools.yml) or email me at matt.tesauro AT owasp.org
-<br/><br/>
+<div style="height:18px;"></div>
