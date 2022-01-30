@@ -21,7 +21,7 @@ permalink: /initiatives/gsoc/gsoc2022ideas
 
 Tips to get you started in no particular order:
 - Read the
-  [Student Guidelines](gsoc2021).
+  [Student Guidelines](gsoc2022).
 - Check our
   [github organization](https://github.com/OWASP).
 - Contact one of the project mentors below.
