@@ -105,4 +105,48 @@ list? Great, please submit it!
 * Jannik Hollenbach - OWASP Juice Shop Core Team
 * Timo Pagel - OWASP Juice Shop Core Team
 
+### [OWASP ZAP](https://zaproxy.org/)
+
+ZAP is the world’s most widely used web scanner. Previous GSoC contributors have added key features and are all listed in the [ZAP Student Hall of Fame](https://www.zaproxy.org/student-hall-of-fame/).
+
+To get started with ZAP contributions see the [ZAP Contributing Guide](https://www.zaproxy.org/docs/contribute/). We expect GSoC contributors who apply to work on ZAP to have had at least one PR merged into one of the ZAP repos.
+
+##### Import Postman API Definitions
+
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+Import Postman API definitions into ZAP as per [#6960](https://github.com/zaproxy/zaproxy/issues/6960)
+
+##### Import PCAP/PCAPNG Files
+
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+Import PCAP/PCAPNG Files into ZAP as per [#4812](https://github.com/zaproxy/zaproxy/issues/4812)
+
+##### Modern Web App Framework Handling: Angular / ViewJS / React
+
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+Enhance ZAP to handle one modern framework better - either Angular, ViewJS or React. This project should allow ZAP to extract more information from one of the top JavaScript frameworks and potentisally tune attacks to target known issues with that framework.
+
+##### Your Own Idea
+
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+We are always delighted to hear from contributors who have their own ideas for projects. You are encouraged to discuss these with the ZAP project leaders.
+
+##### Mentors
+
+All ZAP projects will be mentored by the ZAP Project Leaders:
+
+* [Simon Bennetts](mailto:psiinon@gmail.com)
+* Rick Mitchell
+* thc202
+
+----
+
 ----
