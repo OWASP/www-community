@@ -146,6 +146,30 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 * Rick Mitchell
 * thc202
 
+### [OWASP Maryam](https://github.com/saeeddhqan/Maryam
+
+OWASP Maryam is a modular open-source framework based on OSINT and data gathering. It is designed to provide a robust environment to harvest data from open sources and search engines quickly and thoroughly.
+
+##### [Explanation of Ideas]
+
+###### Iris
+
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+Iris currently has been added to Maryam as some basic Natural Language Processing Operations. We want to improve it.
+It has a simple document clustering module, a simple meta search engine, and sentiment analysis. What we want to do add
+new clustering methods that use neural networks(CNN, RNN, LSTM, ...) in order to create clusters, a topic modeling module to extract
+topics from documents, and a model that recognizes the most relevant documents by the given query.
+
+##### [Getting Started]
+
+* Besides Python, make sure to be familiar with word vectors, neural networks, document retrieval, and NLP models.
+* Please read our [wiki page](https://github.com/saeeddhqan/Maryam/wiki), especially the Development Guide. previous PRs would be very helpful.
+
+##### [Mentors]
+
+* [Saeed Dehqan](mailto:saeed.dehghan@owasp.org) - OWASP Maryam Project Leader
 ----
 
 ----
