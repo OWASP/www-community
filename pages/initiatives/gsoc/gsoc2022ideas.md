@@ -170,6 +170,34 @@ topics from documents, and a model that recognizes the most relevant documents b
 ##### Mentors
 
 * [Saeed Dehqan](mailto:saeed.dehghan@owasp.org) - OWASP Maryam Project Leader
+
+### [OWASP DSOMM](https://github.com/wurstbrot/DevSecOps-MaturityModel)
+
+##### New Application
+The OWASP DevSecOps Maturity Model is used to assess and present the devsecops maturity of an organization. It consits of an application and devsecops maturity model information. The application is used to present and assess the model itself. As it is aged, a new modern application with a frontend in angular is to be developed. 
+Please also add your own ideas for enhancements in the propsal.
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+* The application should work in the browser only and is created with angular.
+* The application should be able to assess multiple teams and present some statistics so that it is easy to get an overview of the maturity of all teams within an organization.
+* The application has the current abilities and more 
+
+##### Your Own Idea
+You have an awesome idea to improve OWASP DSOMM? Great, please submit it!
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+##### Getting Started
+* [Model](https://dsomm.timo-pagel.de/)
+It is recommended to add links to existing PRs (also in other open source projects) in your propsal.
+
+##### [Mentors]
+
+* Timo Pagel
+
+
 ----
 
 ----
