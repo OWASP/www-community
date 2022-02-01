@@ -69,6 +69,21 @@ it is the heart and soul of the Juice Shop, any redesign or usability
 improvements must be thoroughly tested and strive for the best possible
 user experience.
 
+###### Replacement for Protractor end-to-end test suite
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+> The Angular team plans to end development of Protractor at the end of 2022 (in conjunction with Angular v15).
+> 
+> _(Source: https://github.com/angular/protractor/issues/5502)_
+
+With the Angular 15 release end of 2022, development support for Protractor will be terminated by the Angular team.
+In order to not get stuck on a <15 version of Angular or running into a probably increasing number of issues with Protractor,
+it is time for Juice Shop to look into end-to-end testing alternatives. This project would migrate all existing
+Protractor tests to a new test framework. The framework choice should follow recommendations of the Angular team in order
+to avoid incompatibility issues in the future.
+
 ###### Your own idea
 
 You have an awesome idea to improve OWASP Juice Shop that is not on this
