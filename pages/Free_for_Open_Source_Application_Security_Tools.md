@@ -102,7 +102,7 @@ capabilities. Our primary recommendation is to use one of these:
   - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
     tool built on OWASP ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
     development and in CI/CD. The StackHawk platform allows you to manage findings over time in 
-    different environements. StackHawk is free for OpenSource projects and free to use on a single application.
+    different environments. StackHawk is free for Open Source projects and free to use on a single application.
   - [Arachni](http://www.arachni-scanner.com/) - Arachni is a
     commercially supported scanner, but its free for most use cases,
     including scanning open source projects.
@@ -209,7 +209,7 @@ Commercial tools of this type that are free for open source:
      - GitHub version: [https://github.com/apps/debricked/](https://github.com/apps/debricked/) 
   - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
     Scala, Golang, .NET, PHP - Latest list here: 
-    <https://support.snyk.io/hc/en-us/sections/360001087857>
+    <https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support>
       - A Commercial tool that identifies vulnerable components and
         integrates with numerous CI/CD pipelines. It is free for open
         source: <https://snyk.io/plans>
@@ -217,7 +217,7 @@ Commercial tools of this type that are free for open source:
         it can auto-create pull requests) you can use the Command Line
         Interface (CLI) instead. See: <https://snyk.io/docs/using-snyk>.
         If you do this and want it to be free, you have to configure
-        Snyk so it know its open source:
+        Snyk so it knows it's open source:
         <https://support.snyk.io/hc/en-us/articles/360000910597-How-can-I-set-a-Snyk-CLI-project-as-open-source>
           - Another benefit of using the Snyk CLI is that it won't auto
             create Pull requests for you (which makes these 'issues'
@@ -230,6 +230,9 @@ Commercial tools of this type that are free for open source:
         known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
+  - [Vulert](https://vulert.com) - Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP
+      - A Commercial tool that identifies vulnerable components. It is free for open
+        source.
   - [WhiteSource](https://www.whitesourcesoftware.com/) - Supports 200+ programming languages.
       - Azure version:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
