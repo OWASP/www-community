@@ -31,7 +31,7 @@ cookie reading the http header, but it’s also possible to change an
 amount of money transaction inside the application context, as shown in
 figure 1.
 
-![HTTP packet intercepted with Paros Proxy](../assets/images/attacks/mitm-paros.jpg
+![HTTP packet intercepted with Paros Proxy](../assets/images/attacks/mitm-paros.jpg)
 
 *Figure 1. Illustration of a HTTP Packet intercepted with Paros Proxy.*
 
@@ -77,40 +77,28 @@ network attack tools or configure the browser.
   - ProxyFuzz
   - Odysseus Proxy
   - Fiddler (by Microsoft)
+  - [mitmproxy](https://mitmproxy.org/)
 
-## Examples
+## Related Threat Agents
 
-TBD
-
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - [:Category:Authentication](:Category:Authentication "wikilink")
-  - [:Category:Client-side
-    Attacks](:Category:Client-side_Attacks "wikilink")
+  - Intranet Attacker
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Man-in-the-browser_attack](Man-in-the-browser_attack "wikilink")
+  - [Man-in-the-browser_attack](https://owasp.org/www-community/attacks/Man-in-the-browser_attack)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:Session Management
-    Vulnerability](:Category:Session_Management_Vulnerability "wikilink")
+  - Session Management Vulnerability
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Session Management](Session_Management "wikilink")
+  - Session Management
 
 ## References
 
-  - <http://www.sans.org/reading_room/whitepapers/threats/480.php>
-  - <http://cwe.mitre.org/data/definitions/300.html>
-  - <http://resources.infosecinstitute.com/video-man-in-the-middle-howto/>
-  - <http://en.wikipedia.org/wiki/Man-in-the-middle_attack>
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[could these all be links?](Category:FIXME "wikilink") [could these all
-be links?](Category:FIXME "wikilink") [these aren't threat
-agents](Category:FIXME "wikilink")
-[Category:Spoofing](Category:Spoofing "wikilink")
-[Category:Attack](Category:Attack "wikilink")
+  - http://www.sans.org/reading_room/whitepapers/threats/480.php
+  - http://cwe.mitre.org/data/definitions/300.html
+  - http://resources.infosecinstitute.com/video-man-in-the-middle-howto/
+  - http://en.wikipedia.org/wiki/Man-in-the-middle_attack
+  - [OWASP ASDR Project](https://owasp.org/www-pdf-archive/Developing_Secure_Applications_with_OWASP.pdf)
