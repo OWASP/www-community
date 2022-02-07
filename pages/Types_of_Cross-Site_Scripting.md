@@ -32,7 +32,7 @@ that includes some or all of the input provided by the user as part of
 the request, without that data being made safe to render in the browser,
 and without permanently storing the user provided data. In some cases,
 the user provided data may never even leave the browser (see DOM Based
-XSS next).
+XSS below).
 
 ### [Stored XSS](attacks/xss/#stored-xss-attacks) (AKA Persistent or Type II)
 
