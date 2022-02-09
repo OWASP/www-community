@@ -237,7 +237,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 
 ----
 
-### [OWASP PyGoat]
+### OWASP PyGoat
 
 Intentionally vuln web Application Security in django.
 
