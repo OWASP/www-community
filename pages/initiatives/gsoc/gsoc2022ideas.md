@@ -212,7 +212,48 @@ It is recommended to add links to existing PRs (also in other open source projec
 
 * Timo Pagel
 
+### [OWASP SecureTea](https://securetea.org/)
+
+The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
+
+##### Expected results
+- Improve Web Application Firewall GUI based on AI 
+- Improve features (IDS,Firewall)
+- Complete the web GUI and remote monitoring
+- Zero bugs - Fix the current identifed bugs
+- Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
+
+##### Getting started
+- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-securetea
+
+##### Student Requirements
+- Python
+- Angular
+
+##### Mentor
+* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
+* [Ade Yoseman](mailto:edikdoank@gmail.com)
 
 ----
 
+### [OWASP PyGoat]
+
+Intentionally vuln web Application Security in django.
+
+##### Expected results
+- Improve Vulnerabilities based on OWASP Top 10 - 2021
+
+
+##### Getting started
+- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
+
+##### Student Requirements
+- Python
+- Django
+
+##### Mentor
+* [Ade Yoseman](mailto:edikdoank@gmail.com)
+ 
 ----
