@@ -235,8 +235,6 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 * [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
-----
-
 ### OWASP PyGoat
 
 Intentionally vuln web Application Security in django.
@@ -256,4 +254,43 @@ Intentionally vuln web Application Security in django.
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
  
-----
+### [OWASP PurpleTeam](https://purpleteam-labs.com/)
+
+PurpleTeam is a Developer focussed security regression testing CLI and SaaS targeting Web applications and APIs.
+The [CLI](https://github.com/purpleteam-labs/purpleteam) is specifically targeted at sitting within your build pipelines but can also be run manually.
+The SaaS that does the security testing of your applications and APIs can be deployed anywhere.
+
+The core components are detailed [here](https://purpleteam-labs.com/product/#composition).
+
+##### Getting Started
+
+* To get started contributing review the [Contributing Guide](https://github.com/purpleteam-labs/purpleteam/blob/main/CONTRIBUTING.md)
+* Review the high level architecture [here](https://purpleteam-labs.com/doc/local/set-up/#purpleteam-local-architecture)
+* Review the [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2)
+* Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-purpleteam
+* View other [community](https://purpleteam-labs.com/community/) options
+* Dive into the [documentation](https://purpleteam-labs.com/doc/)
+
+##### Implement Server Scanner
+
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+Implement the Server Scanner as the third PurpleTeam _Tester_ as per [#61](https://github.com/purpleteam-labs/purpleteam/issues/61)
+
+##### Add Authentication Techniques
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+Add additional authentication techniques to the [existing strategies](https://github.com/purpleteam-labs/purpleteam-app-scanner/tree/main/src/sUtAndEmissaryStrategies). Most of this work would be added to [`EmissaryAuthentication`](https://purpleteam-labs.com/doc/next-steps/#3-emissaryauthentication), as per [#44](https://github.com/purpleteam-labs/purpleteam/issues/44)
+
+##### Pick idea from [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2)
+
+Pick an idea that we already have listed or supply one of your own. Please talk with us about what you're thinking of
+
+
+##### Mentor
+
+* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+
