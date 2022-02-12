@@ -294,3 +294,41 @@ Pick an idea that we already have listed or supply one of your own. Please talk 
 
 * [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
 
+### [OWASP Threat Dragon](https://github.com/OWASP/threat-dragon)
+
+Threat Dragon is a threat modeling tool that is widely used by many organisations and companies to create threat model diagrams.
+It is an OWASP Lab project and is in the process of developing a new version 2.0 using Vue and Node.
+
+##### Explanation of Ideas
+
+Of the various features that are waiting to be implemented for Threat Dragon,
+the one chosen for GSoC is self contained and directly visible to users of the project.
+
+###### Enable Threat Dragon as a part of CI/CD Pipelines
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+It is not easy to use Threat Dragon in a CI/CD pipeline, and it would be great if CI/CD pipeline integration was provided by Threat Dragon.
+This is a feature that is at the beginning of development, which allows the developer to design it from scratch and see it all the way through
+to acceptance by the Threat Dragon community.
+
+##### Expected Results
+
+* Decide on what functionality is suitable for a CI/CD pipeline
+* Architect and Document the API
+* Incrementally implement the feature as a GitHub action
+* Respond to feedback from the Threat Dragon community
+* If a Jenkins Plugin can be provided then that is an added brownie
+
+##### Getting started
+
+* The project is written in Javascript, so some experience in this language is beneficial
+* There is a [feature request](https://github.com/OWASP/threat-dragon/issues/88) for this work, and this will give some idea of the scope
+* There are some [developer notes](https://github.com/OWASP/threat-dragon/blob/main/README.md) that give a flavour of our development process
+
+##### Mentors
+
+* [Arnold Kokoroko](mailto:awkokoroko@gmail.com) - OWASP Threat Dragon main contributor
+* [Leo Reading](mailto:leo.reading@owasp.org) - OWASP Threat Dragon Project Leader
+
