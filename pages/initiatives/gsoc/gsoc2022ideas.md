@@ -278,21 +278,21 @@ The core components are detailed [here](https://purpleteam-labs.com/product/#com
 
 PurpleTeam `local` relies on [docker-compose-ui](https://github.com/francescou/docker-compose-ui) to start [stage two containers](https://github.com/purpleteam-labs/purpleteam-s2-containers).
 docker-compose-ui is now no longer maintained.
-In order to use the latest versions of docker-compose docker-compose-ui needs to be forked and made to support the latest docker-compose version
+In order to use the latest versions of docker-compose docker-compose-ui needs to be forked and made to support the latest docker-compose version.
 
 ##### Implement Server Scanner
 
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-Implement the Server Scanner as the third PurpleTeam _Tester_ as per [#61](https://github.com/purpleteam-labs/purpleteam/issues/61)
+Implement the Server Scanner as the third PurpleTeam _Tester_ as per [#61](https://github.com/purpleteam-labs/purpleteam/issues/61).
 
 ##### Add Authentication Techniques
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
-Add additional authentication techniques to the [existing strategies](https://github.com/purpleteam-labs/purpleteam-app-scanner/tree/main/src/sUtAndEmissaryStrategies). Most of this work would be added to [`EmissaryAuthentication`](https://purpleteam-labs.com/doc/next-steps/#3-emissaryauthentication), as per [#44](https://github.com/purpleteam-labs/purpleteam/issues/44)
+Add additional authentication techniques to the [existing strategies](https://github.com/purpleteam-labs/purpleteam-app-scanner/tree/main/src/sUtAndEmissaryStrategies). Most of this work would be added to [`EmissaryAuthentication`](https://purpleteam-labs.com/doc/next-steps/#3-emissaryauthentication), as per [#44](https://github.com/purpleteam-labs/purpleteam/issues/44).
 
 ##### Pick idea from [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2)
 
