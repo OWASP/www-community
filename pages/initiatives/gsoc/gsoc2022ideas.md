@@ -271,6 +271,15 @@ The core components are detailed [here](https://purpleteam-labs.com/product/#com
 * View other [community](https://purpleteam-labs.com/community/) options
 * Dive into the [documentation](https://purpleteam-labs.com/doc/)
 
+##### Fork docker-compose-ui
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+PurpleTeam `local` relies on [docker-compose-ui](https://github.com/francescou/docker-compose-ui) to start [stage two containers](https://github.com/purpleteam-labs/purpleteam-s2-containers).
+docker-compose-ui is now no longer maintained.
+In order to use the latest versions of docker-compose docker-compose-ui needs to be forked and made to support the latest docker-compose version
+
 ##### Implement Server Scanner
 
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
