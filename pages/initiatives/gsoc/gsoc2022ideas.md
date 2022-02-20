@@ -340,7 +340,7 @@ OWASP Coraza is a golang enterprise-grade Web Application Firewall framework tha
 - To get started contributing review the [Contributing Guide](https://github.com/corazawaf/coraza/blob/v2/master/CONTRIBUTING.md)
 - Review the [high level architecture](https://coraza.io/docs/reference/internals/)
 - Review the [Product Backlog](https://github.com/orgs/corazawaf/projects/1)
-- Join OWASP Slack and contact us on channel #coraza
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #coraza
 
 ##### Explanation of Ideas
 
