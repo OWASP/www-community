@@ -341,3 +341,117 @@ to acceptance by the Threat Dragon community.
 * [Arnold Kokoroko](mailto:awkokoroko@gmail.com) - OWASP Threat Dragon main contributor
 * [Leo Reading](mailto:leo.reading@owasp.org) - OWASP Threat Dragon Project Leader
 
+### [OWASP Coraza Web Application Firewall](https://github.com/corazawaf/coraza)
+
+OWASP Coraza is a golang enterprise-grade Web Application Firewall framework that supports Modsecurity's seclang language and is 100% compatible with OWASP Core Ruleset. OWASP Coraza is super extensible; each feature from seclang can be easily extended and integrated with other technologies.
+
+##### Getting Started
+- To get started contributing review the [Contributing Guide](https://github.com/corazawaf/coraza/blob/v2/master/CONTRIBUTING.md)
+- Review the [high level architecture](https://coraza.io/docs/reference/internals/)
+- Review the [Product Backlog](https://github.com/orgs/corazawaf/projects/1)
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #coraza
+
+##### Explanation of Ideas
+
+###### Implement new directive for rate limiting
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+Rate limiting is a feature that needs to be concocted using a combination of SecRules that adds complexity and it is mandatory for the today Web. While you have the scaffolding to create it, is should be easy to create and maintain.
+
+**Basic example**
+
+The proposal is to add a new directive, maybe SecRuleRateLimit, where you define:
+
+- the url to protect
+- the rate limit per second/minute/etc.
+- the action when the limit is reached:
+  - return http code 429
+  - send it to a tarpit
+- also, when to clear the rate limit
+
+**Advanced example**
+
+The advanced setting should be able to synchronize this limit using a persistent storage or other communication method. Depending on the load, it will be very common to run a cluster of Coraza protected servers. Hence the need for syncing between all deployed servers.
+
+There are many examples on how to do this using, for example, in memory or Redis. We should discuss if this requires additional go modules, which one is the best for this case.
+
+**Student Requirements**
+
+- Golang
+- Key-value engines, like redis
+
+**Mentors**
+* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+###### Apache module
+
+Most OWASP Core Ruleset users are currently running their ruleset using apache 2 and mod_security2. In order to bring OWASP Coraza features to these users, we should provide a production-ready Apache module.
+
+![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+**Expected Results**
+
+This project has two parts, making [libcoraza](https://github.com/corazawaf/libcoraza) stable enough to support the Apache implementation, and implementing an Apache module PoC that can evaluate seclang rules using Coraza and process the 5 Coraza phases efficiently.
+
+**Some considerations:**
+- libcoraza is a draft project, but the C bindings are already working
+- The module name is mod_coraza
+- The module must be able to evaluate the 5 phases of seclang
+- The module must not support nesting rules across directories
+
+The following project can be used as a baseline, but there is no stable release yet: https://github.com/SpiderLabs/ModSecurity-apache
+
+**Student Requirements**
+- C
+- Apache internals
+
+**Mentors**
+* [Juan Pablo Tosso](mailto:jptosso@gmail.com)
+* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+###### coraza-server
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+coraza-server was originally created as an experiment, but it has been the most successful sub-project. It allows to run OWASP Coraza as an HPOA server for HAProxy, but it was originally designed to support multiple protocols, like GRPC and Rest. Currently, it only supports SPOA.
+
+**Expected Results**
+
+- Design proto files and rest API for GRPC and REST modules
+- Implement the concurrent-safe modules for grpc and rest
+
+**Student Requirements**
+- Golang
+- GRPC (Protobuf)
+
+**Mentors**
+* [Juan Pablo Tosso](mailto:jptosso@gmail.com)
+
+###### GraphQL body processor
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Not recommended for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
+
+OWASP Coraza supports multiple body processors, they are used to read the request body and transform the content into a processable format, for example, it can transform multipart data into a list of temporary files and arguments, or it can transform a JSON payload into arguments.
+
+**Expected Results**
+
+The GraphQL Body Processor must provide a safe way to read the GraphQL from JSON and create a simple introspection that could feed the ARGS_POST variable.
+
+- We must consider if there is a safe library to parse graphql, or we must design a parser
+- The ARGS structure should be similar to JSON (```json.somearg.0.id```)
+- The body processor must be enforced, like:
+```
+SecRule REQUEST_METHOD "POST" "id:100, chain, nolog, msg:'Enforcing graphql', phase:1" 
+SecRule REQUEST_URI "^/api/graphql$" "ctl:requestBodyProcessor=GRAPHQL"
+```
+
+**Student Requirements**
+- Golang
+- GraphQL
+
+**Mentors**
+* [Juan Pablo Tosso](mailto:jptosso@gmail.com)
