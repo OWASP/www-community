@@ -456,18 +456,16 @@ SecRule REQUEST_URI "^/api/graphql$" "ctl:requestBodyProcessor=GRAPHQL"
 **Mentors**
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 
-
 ### [OWASP ModSecurity Core Rule Set](https://coreruleset.org)
 
 The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with ModSecurity or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts.
 
 #### Getting Started
 
-* Familiarize yourself with the project and it's [basics](https://coreruleset.org/docs). Make sure you understand core concepts such as anomaly scoring, paranoia levels and false positives.
+* Familiarize yourself with the project and its [basics](https://coreruleset.org/docs). Make sure you understand core concepts such as anomaly scoring, paranoia levels and false positives.
 * Check out the [CRS Sandbox](https://coreruleset.org/docs/development/sandbox/)
 * Check out the separate CRS GSoC [wiki page](https://github.com/coreruleset/coreruleset/wiki/Google-Summer-of-Code-2022)
 * Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #coreruleset
-
 
 #### CRS Idea 1: Enhance / finish / develop / integrate the machine learning plugin, including the documentation and showcase project for people to reproduce
 
@@ -485,7 +483,6 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-
 #### CRS Idea 2: Systematic review of transformations, develop a guideline how to transform which parameters and in which order, implement the necessary changes
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
@@ -502,7 +499,6 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-
 #### CRS Idea 3: Systematic performance analysis on various SecLanguage platforms: Costs of operators, transformations and variables (depending on size of payload / varname+value and number of variables)
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
@@ -512,7 +508,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 
 This is a research project aiming to do a written report about the performance of the essential part of the SecRule language on various implementations, namely ModSecurity 2, libModSecurity 3, Coraza. The ModSecurity Handbook does not really go into enough detail of the performance impact of those constructs that CRS uses as its work horses. So we kind of depend on a gut feeling and a proper base and guideline would be very beneficial.
 
-Without exaggerating too much, you need to keep in mind that CRS is running on millions of servers, some of them with hundreds of millions of requests per day (or more). And if you now imagine that we could save some CPU cycles when we optimize the rules, then there is a big, big potential to good. Also to the planet in resource consumption.
+Without exaggerating too much, you need to keep in mind that CRS is running on millions of servers, some of them with hundreds of millions of requests per day (or more). If you now imagine that we could save some CPU cycles when we optimize the rules, then there is a big, big potential to good. Also to the planet in resource consumption.
 
 ##### Mentors
 
@@ -521,8 +517,6 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-
-
 #### CRS Idea 4: Create a performance testing framework i. e. something like regression tests but for performance, so we can see impact on performance of every pull request.
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
@@ -530,7 +524,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 
 ##### Description
 
-A frequent problem when developing new rules is their performance impact. Experience shows you do not really know how the performance of a rule until you have tried it out. If you want to test it against a variety of payloads it's quite a lot of manual work and since we do not have a documented test procedure, it's all a bit random.
+A frequent problem when developing new rules is their performance impact. Experience shows you do not really know the performance of a rule until you have tried it out. If you want to test it against a variety of payloads it's quite a lot of manual work and since we do not have a documented test procedure, it's all a bit random.
 
 So the idea is to design a facility (typically a docker container) that is being configured with a rule and then used to test this rule with a variety of payloads and returns a standard report about the performance of the rule. Bonus points if multiple engines are covered (ModSecurity 2, libModSecurity 3, Coraza, ...)
 
@@ -541,7 +535,6 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-
 #### CRS Idea 5: New plugin for &lt;enter-your-cool-idea&gt;
 
 ![Preferred for "Small" GSoC 2022 project](https://img.shields.io/badge/small%20size%20(~100h)-preferred-green)
@@ -549,7 +542,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 
 ##### Description
 
-We have recently added plugin functionality to CRS. The [Plugin Registry](https://github.com/coreruleset/plugin-registry) has a decent overview over existing plugins and this [blog post](https://coreruleset.org/20220209/introducing-the-fake-bot-plugin/) does a good job describing a very cool plugin for inspiration.
+We have recently added plugin functionality to CRS. The [Plugin Registry](https://github.com/coreruleset/plugin-registry) has a decent overview of existing plugins and this [blog post](https://coreruleset.org/20220209/introducing-the-fake-bot-plugin/) does a good job describing a very cool plugin for inspiration.
 
 Think about writing another cool plugin to complement the repository.
 
@@ -559,7 +552,6 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
-
 
 #### CRS Idea 6: Setup automatic workflow to scan existing CVE PoC repository and run PoCs against sandbox
 
