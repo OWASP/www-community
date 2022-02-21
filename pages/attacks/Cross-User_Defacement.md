@@ -14,9 +14,9 @@ tags: attack, Cross-User Defacement
 ## Description
 
 An attacker can make a single request to a vulnerable server that will
-cause the sever to create two responses, the second of which may be
+cause the server to create two responses, the second of which may be
 misinterpreted as a response to a different request, possibly one made
-by another user sharing the same TCP connection with the sever. This can
+by another user sharing the same TCP connection with the server. This can
 be accomplished by convincing the user to submit the malicious request
 themselves, or remotely in situations where the attacker and the user
 share a common TCP connection to the server, such as a shared proxy
