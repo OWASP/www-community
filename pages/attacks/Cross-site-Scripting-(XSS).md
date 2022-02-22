@@ -190,7 +190,7 @@ string characters, e.g.: `a=&\#X41` (UTF-8) and use it in `IMG` tags:
 
 `<IMG SRC=j&#X41vascript:alert('test2')>`
 
-There are many different UTF-8 encoding notations what give us even more
+There are many different UTF-8 encoding notations that give us even more
 possibilities.
 
 #### XSS Using Code Encoding
