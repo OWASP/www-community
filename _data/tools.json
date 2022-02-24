@@ -1681,5 +1681,23 @@
       "platforms": "Windows",
       "note": "Free (Limited Capability)",
       "type": "DAST"
+   },
+   {
+      "title": "ThreatMapper",
+      "url": "https://github.com/deepfence/ThreatMapper",
+      "owner": "Deepfence",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Open source vulnerability discovery and prioritization for Kubernetes, Docker, Serverless and host-based workloads",
+      "type": "DAST"
+   },
+      {
+      "title": "SecretScanner",
+      "url": "https://github.com/deepfence/SecretScanner",
+      "owner": "Deepfence",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Find secrets (tokens, keys, passwords, etc) in containers and filesystems, supporting approx 140 different secret types",
+      "type": "DAST"
    }
 ]
