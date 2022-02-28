@@ -564,3 +564,62 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
+----
+
+### [OWASP Python Honeypot](https://github.com/OWASP/Python-Honeypot)
+
+##### Explanation of Ideas
+
+OWASP Honeypot is an open-source software in Python language which designed for creating honeypot and honeynet in an easy and secure way! This project is compatible with Python 3.x and tested on Mac OS X, and Linux.
+
+##### Getting Started
+
+* [Wiki](https://github.com/OWASP/Python-Honeypot/wiki)
+
+#### Expected Results
+
+* Zero Bugs
+* Extend functionalities
+* Enhance Performance
+
+#### Knowledge Prerequisites
+
+* Docker
+* Python
+* CyberSecurity
+* MongoDB
+* Web Design knowledge
+
+##### Mentors
+* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [Dhiren Serai](mailto:dhirensr@gmail.com)
+
+### [OWASP Nettacker](https://github.com/OWASP/Nettacker)
+
+##### Explanation of Ideas
+
+OWASP Nettacker project is created to automate information gathering, vulnerability scanning and eventually generating a report for networks, including services, bugs, vulnerabilities, misconfigurations, and other information. This software will utilize TCP SYN, ACK, ICMP, and many other protocols in order to detect and bypass Firewall/IDS/IPS devices. By leveraging a unique method in OWASP Nettacker for discovering protected services and devices such as SCADA. It would make a competitive edge compared to other scanner making it one of the bests.
+
+##### Getting Started
+
+* [Wiki](https://github.com/OWASP/Nettacker/wiki)
+
+#### Expected Results
+
+* Migrate fully to Python 3
+* Re-architect the framework and all existing funtionalities/modules
+* Zero Bugs
+* Re-Design WebUI
+
+#### Knowledge Prerequisites
+
+* Docker
+* Python
+* CyberSecurity
+* SQLite
+* Web Design knowledge
+
+##### Mentors
+* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [Dhiren Serai](mailto:dhirensr@gmail.com)
+
