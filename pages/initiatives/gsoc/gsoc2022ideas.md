@@ -255,7 +255,7 @@ The SaaS that does the security testing of your applications and APIs can be dep
 
 The core components are detailed [here](https://purpleteam-labs.com/product/#composition).
 
-##### Getting Started
+#### Getting Started
 
 * To get started contributing review the [Contributing Guide](https://github.com/purpleteam-labs/purpleteam/blob/main/CONTRIBUTING.md)
 * Review the high level architecture [here](https://purpleteam-labs.com/doc/local/set-up/#purpleteam-local-architecture)
@@ -264,37 +264,234 @@ The core components are detailed [here](https://purpleteam-labs.com/product/#com
 * View other [community](https://purpleteam-labs.com/community/) options
 * Dive into the [documentation](https://purpleteam-labs.com/doc/)
 
-##### Fork docker-compose-ui
+#### Idea 1: Fork docker-compose-ui
+
+##### Description
+
+PurpleTeam `local` relies on [docker-compose-ui](https://github.com/francescou/docker-compose-ui) to start [stage two containers](https://github.com/purpleteam-labs/purpleteam-s2-containers).
+docker-compose-ui is now no longer maintained.
+In order to use the latest versions of docker-compose docker-compose-ui needs to be forked and made to support the latest docker-compose version. Additional getting started resources [here](https://github.com/purpleteam-labs/purpleteam/issues/107/#85af9354087).
+
+##### Expected Outcomes
+
+* Consumers of PurpleTeam `local` and Developers will be able to use the latest version of docker-compose to start the stage two containers
+* The [workflow](https://purpleteam-labs.com/doc/local/workflow/) should remain largely the same
+* All related documentation should be up-to-date
+* The forked docker-compose-ui and the rest of the PurpleTeam components will need to be Thoroughly tested
+
+##### Skills Required/Preferred
+
+* A reasonable level of JavaScript (NodeJS) experience
+* A reasonable understanding of docker-compopse, Docker and containers
+* A reasonable level of Python experience or understanding
+* You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
+
+##### Mentors
+
+* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+
+##### Expected Size of Project
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
-PurpleTeam `local` relies on [docker-compose-ui](https://github.com/francescou/docker-compose-ui) to start [stage two containers](https://github.com/purpleteam-labs/purpleteam-s2-containers).
-docker-compose-ui is now no longer maintained.
-In order to use the latest versions of docker-compose docker-compose-ui needs to be forked and made to support the latest docker-compose version.
+##### Level of Difficulty
 
-##### Implement Server Scanner
+| easy | medium | hard |
+|------|--------|------|
+|      | ✅     |      |
+
+#### Idea 2: Add Authentication Techniques
+
+##### Description
+
+Most of this work would be added to [`EmissaryAuthentication`](https://purpleteam-labs.com/doc/next-steps/#3-emissaryauthentication), as per [#44](https://github.com/purpleteam-labs/purpleteam/issues/44).
+We will point you in the right direction for the Zaproxy authentication documentation.
+This functionality will require modifications to the [_Job_](https://purpleteam-labs.com/doc/jobfile/) file, schema which resides in the CLI and _orchestrator_ and a separate schema in the _App Tester_.
+Changes will need to be made for both [Browser App and API _Job_ file schemas](https://purpleteam-labs.com/doc/jobfile/) and documentation.
+
+##### Expected Outcomes
+
+* One or more of the authentication techniques could be implemented
+* Add additional authentication techniques to the [existing strategies](https://github.com/purpleteam-labs/purpleteam-app-scanner/tree/main/src/sUtAndEmissaryStrategies)
+* Add documentation around the new authentication techniques, we'll help point you in the right direction
+* Thoroughly tested
+
+##### Skills Required/Preferred
+
+* Potentially work with a customer to make sure that their authentication need is meet and at the same time not break any other existing authentication techniques
+* A reasonable level of JavaScript (NodeJS) experience
+* A reasonable level of experience working with docker-compose, Docker and debugging containerised micro-services. Don't worry, we have good documentation around [debugging](https://purpleteam-labs.com/doc/local/workflow/)
+* Some experience with Zaproxy scripting would be highly advantageous
+* We will work with you to help you understand what Zaproxy (The _App Tester_ _Emissary_) supports and how to leverage the support within the _App Tester_
+* You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
+
+##### Mentors
+
+* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+
+##### Expected Size of Project
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|      | ✅     |      |
+
+#### Idea 3: Create Better Dockerfiles
+
+##### Description
+
+Take the working stage one PurpleTeam `local` Dockerfiles and make them as small and fast as possible to build and run.
+The Dockerfiles are core to how PurpleTeam is developed and debugged.
+The smaller and faster these are, the faster PurpleTeam can be developed and deployed to both `local` and `cloud` environments.
+As per issue [#92](https://github.com/purpleteam-labs/purpleteam/issues/91)
+
+##### Expected Outcomes
+
+* Stage one docker images are as small as possible
+* Stage one docker images build and deploy as fast as possible
+* The overall experience of developing and debugging PurpleTeam is significantly improved due to smaller wait times
+* Deployments to both `local` and `cloud` environments are faster
+
+##### Skills Required/Preferred
+
+* Basic knowledge of building lean and fast Dockerfiles, don't worry, it's actually pretty easy
+* Some knowledge of docker-compose, although not essential
+* Ideally have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine, although we could do the testing for you
+
+##### Mentors
+
+* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+
+##### Expected Size of Project
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+| ✅   |        |      |
+
+#### Idea 4: Create API System Under Test (SUT)
+
+##### Description
+
+Find a purposely vulnerable API ideally that offers multiple authentication types and multiple types of API (openApi, SOAP, graphQl, generic).
+Containerise it if it isn't already.
+Add it to the [purpleteam-iac-sut](https://github.com/purpleteam-labs/purpleteam-iac-sut) project so that it can be deployed (with `terragrunt apply`) and destroyed (with `terragrunt destroy`).
+This is so that the PurpleTeam core team can test against a vulnerable set of APIs to confirm that PurpleTeam (via Zaproxy) is producing the correct results.
+
+##### Expected Outcomes
+
+* As per the [Deployment Steps](https://github.com/purpleteam-labs/purpleteam-iac-sut#deployment-steps-regular-tf-workflow), it will be trivial to spin up and bring down again a purposely vulnerable API System Under Test (SUT) that sits within a container on AWS ECS
+
+##### Skills Required/Preferred
+
+* Ideally some knowledge of Terraform and Terragrunt
+* You will need to have an understanding of how the [purpleteam-iac-sut](https://github.com/purpleteam-labs/purpleteam-iac-sut) works. Don't worry, we can help with this
+* A reasonable level of experience working with microservices in Docker containers, as you will be adding a System Under Test that runs in a Docker container to the [purpleteam-iac-sut](https://github.com/purpleteam-labs/purpleteam-iac-sut) project
+
+##### Mentors
+
+* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+
+##### Expected Size of Project
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|      | ✅     |      |
+
+#### Idea 5: Provide the ability to remove alerts from reports by marking as false positive
+
+##### Description
+
+This is another way for PurpleTeam users to manage false positives. 
+There's an option in the Zap API to `updateAlertsConfidence` for specific alerts.
+We can change the confidence level to 0 - False Positive. This doesn't change the number of alerts raised, but the specific alert won't be included in the reports.
+We've tested (PoC) this HTML and JSON reports.
+Full details on the backlog item [#100](https://github.com/purpleteam-labs/purpleteam/issues/100).
+
+##### Expected Outcomes
+
+* [Documentation](https://purpleteam-labs.com/doc/jobfile/api/#updatealertsconfidence) will be updated. This will be mostly on the [_Job_](https://purpleteam-labs.com/doc/jobfile/) file, but may touch some other areas as well
+* [_Build Users_](https://purpleteam-labs.com/doc/definitions/) will be able to remove alerts that they consider to be false positives by modifying the _Job_ file
+* Thoroughly tested
+
+##### Skills Required/Preferred
+
+* You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
+* A reasonable level of JavaScript (NodeJS) experience
+* A reasonable level of experience working with microservices in Docker containers and debugging containerised micro-services. Don't worry, we have good documentation around [debugging](https://purpleteam-labs.com/doc/local/workflow/)
+* Some experience with Zaproxy on the desktop along with it's API would be highly advantageous
+
+##### Mentors
+
+* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+
+##### Expected Size of Project
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+| ✅   |        |      |
+
+#### Idea 6: Implement Server Scanner
+
+##### Description
+
+Implement the Server Scanner as the third PurpleTeam _Tester_ as per [#61](https://github.com/purpleteam-labs/purpleteam/issues/61).
+We're going to be using Nikto. The majority of the code will be in https://github.com/purpleteam-labs/purpleteam-server-scanner.
+This is mostly green fields work. We have the [app-scanner](https://github.com/purpleteam-labs/purpleteam-app-scanner) and [tls-scanner](https://github.com/purpleteam-labs/purpleteam-tls-scanner) fully implemented to use as a reference for what [_Testers_](https://purpleteam-labs.com/doc/definitions/) look like.
+The diagram [here](https://purpleteam-labs.com/product/#composition) shows where _Testers_ fit into the architecture.
+
+##### Expected Outcomes
+
+* The Server Scanner will be implemented and users will be able to start getting results of the defects in the various server platforms they use
+* Unit tests will be written where required, we will work though this with you
+* The [CLI](https://github.com/purpleteam-labs/purpleteam) will now have a screen and log file showing the scanning of users servers in real-time as per the other _Testers_
+* The [_orchestrator_](https://github.com/purpleteam-labs/purpleteam-orchestrator) will need to be modified to support the new _Tester_
+* All related documentation should be up-to-date, this includes the project README and the [documentation](https://purpleteam-labs.com/doc/). The best way to find the places where additions and modifications need to be made is to search for the other testers (app-scanner, tls-scanner). We will work through this with you anyway
+
+##### Skills Required/Preferred
+
+* A reasonable level of JavaScript (NodeJS) experience
+* A reasonable level of experience with docker-compose, Docker and containerising micro-services
+* You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
+* Thoroughly tested
+
+##### Mentors
+
+* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+
+##### Expected Size of Project
 
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-Implement the Server Scanner as the third PurpleTeam _Tester_ as per [#61](https://github.com/purpleteam-labs/purpleteam/issues/61).
+##### Level of Difficulty
 
-##### Add Authentication Techniques
+| easy | medium | hard |
+|------|--------|------|
+|      |        | ✅   |
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+#### Pick idea from [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2)
 
-Add additional authentication techniques to the [existing strategies](https://github.com/purpleteam-labs/purpleteam-app-scanner/tree/main/src/sUtAndEmissaryStrategies). Most of this work would be added to [`EmissaryAuthentication`](https://purpleteam-labs.com/doc/next-steps/#3-emissaryauthentication), as per [#44](https://github.com/purpleteam-labs/purpleteam/issues/44).
-
-##### Pick idea from [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2)
-
-Pick an idea that we already have listed or supply one of your own. Please talk with us about what you're thinking of
-
-
-##### Mentor
-
-* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+Pick an idea that we already have listed or supply one of your own. Please talk with us about what you're thinking of.
 
 ### [OWASP Threat Dragon](https://github.com/OWASP/threat-dragon)
 
