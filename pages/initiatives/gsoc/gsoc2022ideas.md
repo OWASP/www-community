@@ -657,15 +657,34 @@ The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection r
 * Check out the separate CRS GSoC [wiki page](https://github.com/coreruleset/coreruleset/wiki/Google-Summer-of-Code-2022)
 * Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #coreruleset
 
-#### CRS Idea 1: Enhance / finish / develop / integrate the machine learning plugin, including the documentation and showcase project for people to reproduce
+#### CRS 💡 #1
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### Machine Learning plugin integration
+
+#####  Summary
+
+Enhance / finish / develop / integrate the machine learning plugin, including the documentation and showcase project for people to reproduce
 
 ##### Description
 
 There have been a few diploma or master thesis working with ModSecurity / CRS and machine learning. Most of the students really struggled to understand ModSecurity and were hardly able to concentrate on the more interesting ML research. The idea of this project is to finish / polish the existing proposal for a ML framework for CRS, so that future students have an easier time getting started with ML and ModSecurity / CRS.
 
+##### Expected Outcomes
+
+- Move the approach to the new [plugin framework](https://github.com/coreruleset/dummy-plugin)
+- Review the current approach and see if the information sent works for all cases.
+- Define the configuration vars needed for the plugin to work
+- Write tests to test that the plugin works with a mocked ML server/service that will receive the parameters
+- Document all changes and usage
+
+##### Skills required/preferred
+
+- Good writing skills
+- Basic knowledge of programming languages
+
 ##### Mentors
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
@@ -673,15 +692,39 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-#### CRS Idea 2: Systematic review of transformations, develop a guideline how to transform which parameters and in which order, implement the necessary changes
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|      |  ✅     |   |
+
+#### CRS 💡 #2 
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+#### CRS Transformations review
+
+##### Summary
+
+Systematic review of transformations, develop a guideline how to transform which parameters and in which order, implement the necessary changes
 
 ##### Description
 
 This is one for the nerds, or for somebody who is not afraid to dig into the hairy details of language encodings and their implementation. The ModSecurity SecLang rule language that CRS uses comes with a few dozen of transformation that can help to simplify payloads that make it easier to detect attacks. Think of removing white space or perform base64 decoding. CRS uses this, but we have to admit in an not overly systematic way. So what we would need is somebody who looks at the various options, looks at frequent attacks and tells us which transformations / decodings should be used and in which situation, so we can follow this guideline in a systematic way.
 
+##### Expected Outcomes
+
+- A written guideline on how to transform which parameters
+    - include the corresponding attacks if needed
+    - and the precise order for all combinations based on the attack
+- After discussion and approval, implement the necessary changes in the CRS
+
+##### Skills required/preferred
+
+- Good writing skills
+- Basic knowledge about text conversion functions and Web encodings
+
 ##### Mentors
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
@@ -689,10 +732,23 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-#### CRS Idea 3: Systematic performance analysis on various SecLanguage platforms: Costs of operators, transformations and variables (depending on size of payload / varname+value and number of variables)
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|  ✅     |      |   |
+
+
+#### CRS 💡 #3
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### SecLanguage platforms performance analysis
+
+##### Summary
+
+Systematic performance analysis on various SecLanguage platforms: Costs of operators, transformations and variables (depending on size of payload / varname+value and number of variables)
 
 ##### Description
 
@@ -700,6 +756,18 @@ This is a research project aiming to do a written report about the performance o
 
 Without exaggerating too much, you need to keep in mind that CRS is running on millions of servers, some of them with hundreds of millions of requests per day (or more). If you now imagine that we could save some CPU cycles when we optimize the rules, then there is a big, big potential to good. Also to the planet in resource consumption.
 
+##### Expected Outcomes
+
+- Define a framework for testing performance for SecLanguage platforms
+- Implement the framework so it can be used for testing 
+- Write documentation on usage and techniques used to measure performance for the various constructs
+
+##### Skills required/preferred
+
+- Good writing skills
+- Performance testing knowledge
+- Basic programming language skills to implement the proposed framework
+
 ##### Mentors
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
@@ -707,10 +775,22 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-#### CRS Idea 4: Create a performance testing framework i. e. something like regression tests but for performance, so we can see impact on performance of every pull request.
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|      |     | ✅    |
+
+#### CRS 💡 #4
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+#### WAF Performance Testing Framework
+
+##### Summary
+
+Create a performance testing framework i. e. something like regression tests but for performance, so we can see impact on performance of every pull request.
 
 ##### Description
 
@@ -718,6 +798,18 @@ A frequent problem when developing new rules is their performance impact. Experi
 
 So the idea is to design a facility (typically a docker container) that is being configured with a rule and then used to test this rule with a variety of payloads and returns a standard report about the performance of the rule. Bonus points if multiple engines are covered (ModSecurity 2, libModSecurity 3, Coraza, ...)
 
+##### Expected Outcomes
+
+- Define a framework for testing performance for a generic WAF
+- Implement the framework in a way that can be run in a pipeline for testing changes on configuratios/rules
+- Write documentation on usage and techniques used to measure performance
+
+##### Skills required/preferred
+
+- Good writing skills
+- Some performance testing knowledge would be useful
+- Basic programming language skills to implement the proposed framework
+
 ##### Mentors
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
@@ -725,10 +817,22 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-#### CRS Idea 5: New plugin for &lt;enter-your-cool-idea&gt;
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|      |  ✅     |   |
+
+#### CRS 💡 #5
 
 ![Preferred for "Small" GSoC 2022 project](https://img.shields.io/badge/small%20size%20(~100h)-preferred-green)
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+
+##### New plugin for &lt;enter-your-cool-idea&gt;
+
+##### Summary
+
+Write new plugins to prevent attacks.
 
 ##### Description
 
@@ -736,6 +840,16 @@ We have recently added plugin functionality to CRS. The [Plugin Registry](https:
 
 Think about writing another cool plugin to complement the repository.
 
+##### Expected Outcomes
+
+- Expose your need for a new plugin that complements existing work in the CRS
+- Create the plugin and document it
+
+##### Skills required/preferred
+
+- Good writing skills
+- Knowledge about the problem your are trying to solve with this plugin ;)
+
 ##### Mentors
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
@@ -743,10 +857,22 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-#### CRS Idea 6: Setup automatic workflow to scan existing CVE PoC repository and run PoCs against sandbox
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|   ✅     |     |   |
+
+#### CRS 💡 #6
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### Automated WAF CVE testing and reporting
+
+##### Summary
+
+Setup automatic workflow to scan existing CVE PoC repository and run PoCs against sandbox
 
 ##### Description
 
@@ -754,12 +880,33 @@ This takes threat intelligence and threat analysis to the next level. The idea i
 
 If you manage to pull this off, this would be real milestone for the WAF / security industry. On top, this looks like a lot of fun.
 
+##### Expected Outcomes
+
+- Define and implemente a process for automating extraction of web attacks from CVE exploits
+- Scaffolding for testing against existing WAF testing implementations
+- Once the test is executed, write reports on the result
+- Reports in SARIF format or equivalent are a plus
+- Automation should be the primary focus (e.g. CI/CD)
+
+##### Skills required/preferred
+
+- Knowledge of Programming Languages (e.g Python)
+- Knowledge of testing frameworks (e.g. pytest or similar)
+- Knowledge on pipelines execution (e.g. Github Actions or similar)
+- Basic knowledge on CVE and the ecosystem around it
+
 ##### Mentors
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
 
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|      |        |  ✅   |
 
 ----
 
