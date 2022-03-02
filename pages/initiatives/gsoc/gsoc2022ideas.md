@@ -567,6 +567,11 @@ The advanced setting should be able to synchronize this limit using a persistent
 
 There are many examples on how to do this using, for example, in memory or Redis. We should discuss if this requires additional go modules, which one is the best for this case.
 
+**Expected Results**
+- a new plugin that implements the feature
+- documentation for configuration
+- automated testing using CI/CD
+
 **Student Requirements**
 
 - Golang
@@ -575,6 +580,11 @@ There are many examples on how to do this using, for example, in memory or Redis
 **Mentors**
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
+**Difficulty Level**
+| easy | medium | hard |
+|------|--------|------|
+|      |   ✅   |     |
+
 ###### Apache module
 
 Most OWASP Core Ruleset users are currently running their ruleset using apache 2 and mod_security2. In order to bring OWASP Coraza features to these users, we should provide a production-ready Apache module.
@@ -582,7 +592,7 @@ Most OWASP Core Ruleset users are currently running their ruleset using apache 2
 ![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-**Expected Results**
+**Expected Outcomes**
 
 This project has two parts, making [libcoraza](https://github.com/corazawaf/libcoraza) stable enough to support the Apache implementation, and implementing an Apache module PoC that can evaluate seclang rules using Coraza and process the 5 Coraza phases efficiently.
 
@@ -602,6 +612,11 @@ The following project can be used as a baseline, but there is no stable release 
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
+**Difficulty Level**
+| easy | medium | hard |
+|------|--------|------|
+|      |        | ✅   |
+
 ###### coraza-server
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
@@ -609,7 +624,7 @@ The following project can be used as a baseline, but there is no stable release 
 
 coraza-server was originally created as an experiment, but it has been the most successful sub-project. It allows to run OWASP Coraza as an HPOA server for HAProxy, but it was originally designed to support multiple protocols, like GRPC and Rest. Currently, it only supports SPOA.
 
-**Expected Results**
+**Expected Outcomes**
 
 - Design proto files and rest API for GRPC and REST modules
 - Implement the concurrent-safe modules for grpc and rest
@@ -620,6 +635,12 @@ coraza-server was originally created as an experiment, but it has been the most 
 
 **Mentors**
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
+
+**Difficulty Level**
+| easy | medium | hard |
+|------|--------|------|
+|      |  ✅    |      |
+
 
 ###### GraphQL body processor
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
@@ -645,6 +666,11 @@ SecRule REQUEST_URI "^/api/graphql$" "ctl:requestBodyProcessor=GRAPHQL"
 
 **Mentors**
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
+
+**Difficulty Level**
+| easy | medium | hard |
+|------|--------|------|
+|      |  ✅    |      |
 
 ### [OWASP ModSecurity Core Rule Set](https://coreruleset.org)
 
