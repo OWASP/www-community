@@ -208,8 +208,11 @@ It is recommended to add links to existing PRs (also in other open source projec
 ### [OWASP SecureTea](https://securetea.org/)
 
 The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
-
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 ##### Expected results
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 - Improve Web Application Firewall GUI based on AI 
 - Improve features (IDS,Firewall)
 - Complete the web GUI and remote monitoring
@@ -231,9 +234,13 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 ### OWASP PyGoat
 
 Intentionally vuln web Application Security in django.
-
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 ##### Expected results
+![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 - Improve Vulnerabilities based on OWASP Top 10 - 2021
+- Fixing all issues and work with Docker
 
 
 ##### Getting started
