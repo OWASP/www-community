@@ -304,24 +304,25 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [FOSSology] | Linux Foundation | Open Source | Cross Platform |
 | [Grafeas] | Grafeas | Open Source | Cross Platform |
 | [Greenkeeper] | Greenkeeper | Open Source | SaaS |
-| [OSS Review Toolkit] | HERE | Open Source | Cross Platform |
 | [Ion Channel SA] | Ion Channel | Commercial | SaaS |
 | [Libraries.io] | Tidelift | Open Source | SaaS |
 | [MergeBase] | MergeBase | Commercial | SaaS |
+| [Nexus IQ] | Sonatype | Commercial | Cross Platform |
 | [NPM Audit] | NPM | Open Source | SaaS |
+| [Open Source Lifecycle Management] | WhiteSource Software | Commercial | Cross Platform / SaaS |
 | [OSS Index] | Sonatype | Free / Open Source | SaaS |
+| [OSS Review Toolkit] | HERE | Open Source | Cross Platform |
+| [Patton] | OWASP | Open Source | Cross Platform |
 | [PHP Security Checker] | SensioLabs | Open Source | SaaS |
 | [Prisma Cloud] | Palo Alto Networks | Commercial | Cross Platform / SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
+| [Retire.js] | RetireJS Project | Open Source | Cross Platform |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
 | [SourceClear] | Veracode | Commercial | Cross Platform / SaaS |
-| [Nexus IQ] | Sonatype | Commercial | Cross Platform |
-| [Open Source Lifecycle Management] | WhiteSource Software | Commercial | Cross Platform / SaaS |
-| [Retire.js] | RetireJS Project | Open Source | Cross Platform |
 | [VulnDB] | Risk Based Security | Commercial	| SaaS |
-| [Patton] | OWASP | Open Source | Cross Platform |
 | [Vigiles] | Timesys | Commercial / Freemium | SaaS |
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
+| [Xray] | JFrog | Commercial | Cross Platform |
 
 [Bytesafe]: https://bytesafe.dev/
 [Bytesafe Dependency Checker]: https://bytesafe.dev/dependency-checker/javascript/
@@ -363,6 +364,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Patton]: https://owasp.org/www-project-patton/
 [Vigiles]: https://www.timesys.com/security/vigiles-vulnerability-management-patch-monitoring/
 [Vigilant Ops InSight]: https://vigilant-ops.com/
+[Xray]: https://jfrog.com/xray/
 
 
 ## References
