@@ -57,6 +57,12 @@ To receive early feedback please:
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
+**Level of Difficulty**
+
+| easy | medium | hard |
+|------|--------|------|
+|      |      | ✅     |
+
 Juice Shop's existing Score Board has been rewritten from scratch once
 when the project moved from AngularJS/Bootstrap to Angular/Material.
 Since then, new features, filters and information has been added to it
@@ -73,6 +79,12 @@ user experience.
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+**Level of Difficulty**
+
+| easy | medium | hard |
+|------|--------|------|
+|      |  ✅    |      |
 
 > The Angular team plans to end development of Protractor at the end of 2022 (in conjunction with Angular v15).
 > 
