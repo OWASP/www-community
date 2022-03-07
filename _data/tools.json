@@ -1699,7 +1699,7 @@
       "platforms": "Linux",
       "note": "Find secrets (tokens, keys, passwords, etc) in containers and filesystems, supporting approx 140 different secret types",
       "type": "DAST"
-   }
+   },
    {
       "title": "GitHub Advanced Security",
       "url": "https://github.com/features/security",
@@ -1708,5 +1708,5 @@
       "platforms": "SaaS or On-Premises",
       "note": "GitHub Advanced Security uses CodeQL for Static Code Analysis, and GitHub Secret Scanning for identifying tokens. GitHub code scanning can import SARIF from any other SAST tool ",
       "type": "SAST"
-   },
+   }
 ]
