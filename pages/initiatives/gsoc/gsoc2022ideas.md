@@ -1012,3 +1012,47 @@ OWASP Nettacker project is created to automate information gathering, vulnerabil
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
 * [Dhiren Serai](mailto:dhirensr@gmail.com)
 
+### [Security Knowledge Framework (SKF)](https://owasp.org/www-project-security-knowledge-framework/)
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### Explanation of Ideas
+OWASP SKF is an open source web application that explains secure coding and its goal is to help you learn and integrate security by design in your software development and build applications that are secure by design.
+We have more then 70 SKF Labs for developers to practice the skills in security in terms of identifying and testing vulnerabilities. Apart from that, we also have writeup written for every lab [here](https://github.com/blabla1337/skf-labs/tree/master/md) and this Markdown files have images and text explicitly.
+
+So now the idea is to create a Video Editor, which is a web-based application for OWASP SKF, which will take those Markdown
+files as an input and separate those images and text, and will convert them into a Video or Presentation. 
+
+In technical Terms, We can do is to make a video editor in React or some other Framework, that will take a file like writeup.pdf or in other format. Then in the UI side you have options to put text in blocks. A block will contain text, time interval in video and an image which we will show at that time interval.
+That's how we can make multiple blocks and after submitting the data. We will call the backend RestAPIs in django or flask, which will take those blocks data which contain time intervals images and text. And convert that text into speech and ultimately combine all those into a MP3 or any video file which user can get  after the request is complete.
+
+This will be the initial version of the project. We can advance it more using deep learning and some video editor libraries.
+
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|      |  ✅     |   |
+
+##### Getting Started
+
+* [SKF-Labs](https://github.com/blabla1337/skf-labs/)
+
+#### Expected Results
+
+* A UI, where we can set the parameters like time interval, image and text or any other feature in video, which we want to show in that interval and multiple blocks should be created which is separated with time intervals.
+* Backend Application, which will have the logic to convert all the blocks into a single video file and give the video to UI as a response for the request.
+* Well structured code with proper unit testing.
+
+#### Knowledge Prerequisites
+
+* Python
+* React or Any Web Based UI Framework
+* Django or Flask for Backend
+* DevOps (AWS or GCP for hosting the APIs using Docker)
+* WaveNets, DeepLearning (Optional)
+
+##### Mentors
+* [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com)
+* [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
