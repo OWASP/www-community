@@ -1056,3 +1056,47 @@ This will be the initial version of the project. We can advance it more using de
 ##### Mentors
 * [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com)
 * [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
+
+### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
+
+![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### Explanation of Ideas
+* Crypto - create a proof of stake coin called BUG
+* Flutter - ideas to improve the app? Launch it on the App Store.
+* Django - Website integration of new design
+* Private issue reporting - allow companies to switch on private issue reporting.
+* Payments for issues reported - allow companies or individuals to pay big hunters
+* Browser plug-in to check bug reports - scan each site visited against a database to see if any bugs were found - we have a plug-in for chrome, let’s update it.
+* Allow for the detection of banned apps in different countries. How would the internet look like if I was in country x.
+* Allow for customers to track their online presence and help take down links where they did not approve their personal info on.
+
+##### Level of Difficulty
+
+| easy | medium | hard |
+|------|--------|------|
+|      |  ✅     |   |
+
+##### Getting Started
+
+* [BLT Core](https://github.com/owasp/blt/)
+* [Flutter App](https://github.com/Bugheist/Flutter/)
+* [Fuse App](https://github.com/Bugheist/Fuse)
+
+#### Expected Results
+
+* Proof of stake coin on the testnet and mainnet.
+* Release Flutter app on app stores.
+* Backend implementation of the ideas.
+
+Reach out to us on Slack to discuss further on the scope, changes required, or if you have any other proposal.
+
+#### Knowledge Prerequisites
+
+* Python for Backend
+* Flutter for Mobile
+* Django for Backend
+
+##### Mentors
+* [Sourav Badami](mailto:sourav.badami@owasp.org)
