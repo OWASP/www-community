@@ -142,6 +142,12 @@ To get started with ZAP contributions see the [ZAP Contributing Guide](https://w
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
+**Level of Difficulty**
+
+| easy | medium | hard |
+|------|--------|------|
+| ✅   |        |      |
+
 Import PCAP/PCAPNG Files into ZAP as per [#4812](https://github.com/zaproxy/zaproxy/issues/4812)
 
 ##### Modern Web App Framework Handling: Angular / VueJS / React
@@ -149,12 +155,50 @@ Import PCAP/PCAPNG Files into ZAP as per [#4812](https://github.com/zaproxy/zapr
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
+**Level of Difficulty**
+
+| easy | medium | hard |
+|------|--------|------|
+|      | ✅     | ✅   |
+
 Enhance ZAP to handle one modern framework better - either Angular, VueJS or React. This project should allow ZAP to extract more information from one of the top JavaScript frameworks and potentisally tune attacks to target known issues with that framework.
+
+##### Browser Recorder
+
+![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+**Level of Difficulty**
+
+| easy | medium | hard |
+|------|--------|------|
+|      |        | ✅   |
+
+Create a new ZAP add-on which will allow the user to record and replay browser interactions, for example during authentication as per [#7139](https://github.com/zaproxy/zaproxy/issues/7139)
+
+##### Param Miner
+
+![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
+![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+**Level of Difficulty**
+
+| easy | medium | hard |
+|------|--------|------|
+|      |        | ✅   |
+
+Implement the equivalent on the Burp Pram Miner add-on which identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities as per [#7140](https://github.com/zaproxy/zaproxy/issues/7140)
 
 ##### Your Own Idea
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+**Level of Difficulty**
+
+| easy | medium | hard |
+|------|--------|------|
+| ✅     | ✅     | ✅     |
 
 We are always delighted to hear from contributors who have their own ideas for projects. You are encouraged to discuss these with the ZAP project leaders.
 
@@ -600,6 +644,7 @@ There are many examples on how to do this using, for example, in memory or Redis
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 **Difficulty Level**
+
 | easy | medium | hard |
 |------|--------|------|
 |      |   ✅   |     |
@@ -632,6 +677,7 @@ The following project can be used as a baseline, but there is no stable release 
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 **Difficulty Level**
+
 | easy | medium | hard |
 |------|--------|------|
 |      |        | ✅   |
@@ -656,6 +702,7 @@ coraza-server was originally created as an experiment, but it has been the most 
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 
 **Difficulty Level**
+
 | easy | medium | hard |
 |------|--------|------|
 |      |  ✅    |      |
@@ -687,6 +734,7 @@ SecRule REQUEST_URI "^/api/graphql$" "ctl:requestBodyProcessor=GRAPHQL"
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 
 **Difficulty Level**
+
 | easy | medium | hard |
 |------|--------|------|
 |      |  ✅    |      |
@@ -951,7 +999,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 
 | easy | medium | hard |
 |------|--------|------|
-|      |        |  ✅   |
+|      |        |  ✅  |
 
 ----
 
