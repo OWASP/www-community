@@ -530,6 +530,8 @@ the one chosen for GSoC is self contained and directly visible to users of the p
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
 It is not easy to use Threat Dragon in a CI/CD pipeline, and it would be great if CI/CD pipeline integration was provided by Threat Dragon.
 This is a feature that is at the beginning of development, which allows the developer to design it from scratch and see it all the way through
 to acceptance by the Threat Dragon community.
