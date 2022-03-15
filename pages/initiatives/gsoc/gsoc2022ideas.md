@@ -20,6 +20,10 @@ permalink: /initiatives/gsoc/gsoc2022ideas
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 ![Not recommended for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
 
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
 ##### [Expected Results]
 
 ##### [Getting Started]
@@ -57,11 +61,7 @@ To receive early feedback please:
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-**Level of Difficulty**
-
-| easy | medium | hard |
-|------|--------|------|
-|      |      | ✅     |
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 Juice Shop's existing Score Board has been rewritten from scratch once
 when the project moved from AngularJS/Bootstrap to Angular/Material.
@@ -80,11 +80,7 @@ user experience.
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
-**Level of Difficulty**
-
-| easy | medium | hard |
-|------|--------|------|
-|      |  ✅    |      |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 > The Angular team plans to end development of Protractor at the end of 2022 (in conjunction with Angular v15).
 > 
@@ -142,11 +138,7 @@ To get started with ZAP contributions see the [ZAP Contributing Guide](https://w
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
-**Level of Difficulty**
-
-| easy | medium | hard |
-|------|--------|------|
-| ✅   |        |      |
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
 Import PCAP/PCAPNG Files into ZAP as per [#4812](https://github.com/zaproxy/zaproxy/issues/4812)
 
@@ -155,11 +147,8 @@ Import PCAP/PCAPNG Files into ZAP as per [#4812](https://github.com/zaproxy/zapr
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-**Level of Difficulty**
-
-| easy | medium | hard |
-|------|--------|------|
-|      | ✅     | ✅   |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 Enhance ZAP to handle one modern framework better - either Angular, VueJS or React. This project should allow ZAP to extract more information from one of the top JavaScript frameworks and potentisally tune attacks to target known issues with that framework.
 
@@ -168,11 +157,7 @@ Enhance ZAP to handle one modern framework better - either Angular, VueJS or Rea
 ![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-**Level of Difficulty**
-
-| easy | medium | hard |
-|------|--------|------|
-|      |        | ✅   |
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 Create a new ZAP add-on which will allow the user to record and replay browser interactions, for example during authentication as per [#7139](https://github.com/zaproxy/zaproxy/issues/7139)
 
@@ -181,11 +166,7 @@ Create a new ZAP add-on which will allow the user to record and replay browser i
 ![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-**Level of Difficulty**
-
-| easy | medium | hard |
-|------|--------|------|
-|      |        | ✅   |
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 Implement the equivalent on the Burp Pram Miner add-on which identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities as per [#7140](https://github.com/zaproxy/zaproxy/issues/7140)
 
@@ -194,11 +175,9 @@ Implement the equivalent on the Burp Pram Miner add-on which identifies hidden, 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-**Level of Difficulty**
-
-| easy | medium | hard |
-|------|--------|------|
-| ✅     | ✅     | ✅     |
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 We are always delighted to hear from contributors who have their own ideas for projects. You are encouraged to discuss these with the ZAP project leaders.
 
@@ -290,11 +269,15 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 ### OWASP PyGoat
 
 Intentionally vuln web Application Security in django.
+
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
 ##### Expected results
+
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
 - Improve Vulnerabilities based on OWASP Top 10 - 2021
 - Fixing all issues and work with Docker
 
@@ -358,11 +341,7 @@ In order to use the latest versions of docker-compose docker-compose-ui needs to
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      | ✅     |      |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 #### Idea 2: Add Authentication Techniques
 
@@ -398,11 +377,7 @@ Changes will need to be made for both [Browser App and API _Job_ file schemas](h
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      | ✅     |      |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 #### Idea 3: Create Better Dockerfiles
 
@@ -435,11 +410,7 @@ As per issue [#92](https://github.com/purpleteam-labs/purpleteam/issues/91)
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-| ✅   |        |      |
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
 #### Idea 4: Create API System Under Test (SUT)
 
@@ -469,11 +440,7 @@ This is so that the PurpleTeam core team can test against a vulnerable set of AP
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      | ✅     |      |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 #### Idea 5: Provide the ability to remove alerts from reports by marking as false positive
 
@@ -507,11 +474,7 @@ Full details on the backlog item [#100](https://github.com/purpleteam-labs/purpl
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-| ✅   |        |      |
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
 #### Idea 6: Implement Server Scanner
 
@@ -546,11 +509,7 @@ The diagram [here](https://purpleteam-labs.com/product/#composition) shows where
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      |        | ✅   |
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 #### Pick idea from [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2)
 
@@ -643,11 +602,7 @@ There are many examples on how to do this using, for example, in memory or Redis
 **Mentors**
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-**Difficulty Level**
-
-| easy | medium | hard |
-|------|--------|------|
-|      |   ✅   |     |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 ###### Apache module
 
@@ -676,11 +631,7 @@ The following project can be used as a baseline, but there is no stable release 
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-**Difficulty Level**
-
-| easy | medium | hard |
-|------|--------|------|
-|      |        | ✅   |
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 ###### coraza-server
 
@@ -701,12 +652,7 @@ coraza-server was originally created as an experiment, but it has been the most 
 **Mentors**
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 
-**Difficulty Level**
-
-| easy | medium | hard |
-|------|--------|------|
-|      |  ✅    |      |
-
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 ###### GraphQL body processor
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
@@ -733,11 +679,7 @@ SecRule REQUEST_URI "^/api/graphql$" "ctl:requestBodyProcessor=GRAPHQL"
 **Mentors**
 * [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 
-**Difficulty Level**
-
-| easy | medium | hard |
-|------|--------|------|
-|      |  ✅    |      |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 ### [OWASP ModSecurity Core Rule Set](https://coreruleset.org)
 
@@ -785,11 +727,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      |  ✅     |   |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 #### CRS 💡 #2 
 
@@ -825,12 +763,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|  ✅     |      |   |
-
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
 #### CRS 💡 #3
 
@@ -868,11 +801,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      |     | ✅    |
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 #### CRS 💡 #4
 
@@ -910,11 +839,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      |  ✅     |   |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 #### CRS 💡 #5
 
@@ -950,11 +875,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|   ✅     |     |   |
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
 #### CRS 💡 #6
 
@@ -995,11 +916,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      |        |  ✅  |
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 ----
 
@@ -1209,11 +1126,7 @@ That's how we can make multiple blocks and after submitting the data. We will ca
 
 This will be the initial version of the project. We can advance it more using deep learning and some video editor libraries.
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      |  ✅     |   |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 ##### Getting Started
 
@@ -1252,11 +1165,7 @@ This will be the initial version of the project. We can advance it more using de
 * Allow for the detection of banned apps in different countries. How would the internet look like if I was in country x.
 * Allow for customers to track their online presence and help take down links where they did not approve their personal info on.
 
-##### Level of Difficulty
-
-| easy | medium | hard |
-|------|--------|------|
-|      |  ✅     |   |
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 ##### Getting Started
 
