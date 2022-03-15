@@ -7,10 +7,12 @@ permalink: /initiatives/gsoc/gsoc2022ideas
 
 # {{page.title}}
 
+[JuiceShop](#owaspjuiceshop) | [ZAP](#owaspzap) | [Maryam](#owasp-maryam) | [DSOMM](#owasp-dsomm) | [SecureTea](#owasp-securetea) | [PyGoat](#owasp-pygoat) | [PurpleTeam](#owasppurpleteam) | [Threat Dragon](#owasp-threat-dragon) | [Coraza Web Application Firewall](#owasp-coraza-web-application-firewall) | [ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) | [OWTF](owasp-owtf) | [Python Honeypot](#owasp-python-honeypot) | [Nettacker](#owasp-nettacker) | [Security Knowledge Framework](#security-knowledge-framework-skf) |
+
 <!-- Template: Use a format like below to add your project:
 ### [Project Name]
 
-##### [Explanation of Ideas]
+##### Explanation of Ideas
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
@@ -24,11 +26,11 @@ permalink: /initiatives/gsoc/gsoc2022ideas
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
-##### [Expected Results]
+##### Expected Results
 
-##### [Getting Started]
+##### Getting Started
 
-##### [Mentors]
+##### Mentors
 -->
 
 Tips to get you started in no particular order:
@@ -236,7 +238,7 @@ You have an awesome idea to improve OWASP DSOMM? Great, please submit it!
 * [Model](https://dsomm.timo-pagel.de/)
 It is recommended to add links to existing PRs (also in other open source projects) in your propsal.
 
-##### [Mentors]
+##### Mentors
 
 * Timo Pagel
 
@@ -917,8 +919,6 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
-
-----
 
 ### [OWASP OWTF](https://github.com/owtf/owtf)
 Offensive Web Testing Framework (OWTF) is a project focused on penetration testing efficiency and alignment of security tests to security standards like the OWASP Testing Guide (v3 and v4), the OWASP Top 10, PTES and NIST. Most of the ideas below focus on rewrite of some major 
