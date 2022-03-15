@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2022ideas
 
 # {{page.title}}
 
-[JuiceShop](#owaspjuiceshop) - [ZAP](#owaspzap) - [Maryam](#owasp-maryam) - [DSOMM](#owasp-dsomm) - [SecureTea](#owasp-securetea) - [PyGoat](#owasp-pygoat) - [PurpleTeam](#owasppurpleteam) - [Threat Dragon](#owasp-threat-dragon) - [Coraza Web Application Firewall](#owasp-coraza-web-application-firewall) - [ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) - [OWTF](#owasp-owtf) - [Python Honeypot](#owasp-python-honeypot) - [Nettacker](#owasp-nettacker) - [Security Knowledge Framework](#security-knowledge-framework-skf)
+[JuiceShop](#owaspjuiceshop) - [ZAP](#owaspzap) - [Maryam](#owasp-maryam) - [DSOMM](#owasp-dsomm) - [SecureTea](#owasp-securetea) - [PyGoat](#owasp-pygoat) - [PurpleTeam](#owasppurpleteam) - [Threat Dragon](#owasp-threat-dragon) - [Coraza Web Application Firewall](#owasp-coraza-web-application-firewall) - [ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) - [OWTF](#owasp-owtf) - [Python Honeypot](#owasp-python-honeypot) - [Nettacker](#owasp-nettacker) - [Security Knowledge Framework](#security-knowledge-framework-skf) - [Bug Logging Tool (BLT)](#bug-logging-tool-blt)
 
 <!-- Template: Use a format like below to add your project:
 ### [Project Name]
@@ -1173,21 +1173,26 @@ This will be the initial version of the project. We can advance it more using de
 
 * [BLT Core](https://github.com/owasp/blt/)
 * [Flutter App](https://github.com/Bugheist/Flutter/)
-* [Fuse App](https://github.com/Bugheist/Fuse)
 
 #### Expected Results
 
 * Proof of stake coin on the testnet and mainnet.
-* Release Flutter app on app stores.
-* Backend implementation of the ideas.
+* Release Flutter app on App Store and Play Store.
+* Implementation of private issues reporting.
+* Update of browser plugins to support showing bugs on relative sites in a secure way
+* Ability to choose a country from a selected list and see what apps are banned there
+* Ability for users to report links online with personal information where they can have it removed
 
 Reach out to us on Slack to discuss further on the scope, changes required, or if you have any other proposal.
 
 #### Knowledge Prerequisites
 
-* Python for Backend
+* Python / Django for Backend
 * Flutter for Mobile
-* Django for Backend
+* Blockchain / Bitcoin clone for the coin
 
 ##### Mentors
-* [Sourav Badami](mailto:sourav.badami@owasp.org)
+* Donnie on slack (lead mentor)
+* [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor  
+* Rahul Badami - Payments Mentor  
+* [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
