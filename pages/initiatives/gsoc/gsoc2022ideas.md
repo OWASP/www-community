@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2022ideas
 
 # {{page.title}}
 
-[JuiceShop](#owaspjuiceshop) | [ZAP](#owaspzap) | [Maryam](#owasp-maryam) | [DSOMM](#owasp-dsomm) | [SecureTea](#owasp-securetea) | [PyGoat](#owasp-pygoat) | [PurpleTeam](#owasppurpleteam) | [Threat Dragon](#owasp-threat-dragon) | [Coraza Web Application Firewall](#owasp-coraza-web-application-firewall) | [ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) | [OWTF](owasp-owtf) | [Python Honeypot](#owasp-python-honeypot) | [Nettacker](#owasp-nettacker) | [Security Knowledge Framework](#security-knowledge-framework-skf) |
+[JuiceShop](#owaspjuiceshop) - [ZAP](#owaspzap) - [Maryam](#owasp-maryam) - [DSOMM](#owasp-dsomm) - [SecureTea](#owasp-securetea) - [PyGoat](#owasp-pygoat) - [PurpleTeam](#owasppurpleteam) - [Threat Dragon](#owasp-threat-dragon) - [Coraza Web Application Firewall](#owasp-coraza-web-application-firewall) - [ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) - [OWTF](owasp-owtf) - [Python Honeypot](#owasp-python-honeypot) - [Nettacker](#owasp-nettacker) - [Security Knowledge Framework](#security-knowledge-framework-skf)
 
 <!-- Template: Use a format like below to add your project:
 ### [Project Name]
