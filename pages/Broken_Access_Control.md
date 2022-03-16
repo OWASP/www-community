@@ -36,6 +36,7 @@ other mischief.
 
 - [OWASP Proactive Controls: Enforce Access Controls](https://github.com/OWASP/www-project-proactive-controls/blob/master/v3/en/c7-enforce-access-controls.md)
 - [OWASP Application Security Verification Standard: V4 Access Control](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x12-V4-Access-Control.md)
+- [OWASP Testing Guide: Authorization Testing](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authorization_Testing/)
 - [OWASP Cheat Sheet: Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
 
 ## How to Determine If You Are Vulnerable
