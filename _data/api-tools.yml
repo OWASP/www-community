@@ -42,7 +42,7 @@
   posture: "https://img.shields.io/badge/API_Posture-No-red.svg"
   runtime: "https://img.shields.io/badge/API_Runtime-No-red.svg"
   testing: "https://img.shields.io/badge/API_Testing-Yes-brightgreen.svg"
-  notes: "<br/><em>Note: See <a href='https://portswigger.net/support/using-burp-to-test-a-rest-api'>Zap FAQ</a> for testing APIs</em>"
+  notes: "<br/><em>Note: See <a href='https://portswigger.net/support/using-burp-to-test-a-rest-api'>PortSwigger docs</a> for testing APIs</em>"
 - name: "curl"
   link: "https://curl.se/"
   from: "curl"
