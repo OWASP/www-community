@@ -128,7 +128,7 @@ void session_set_cookie_params ( int $lifetime  [, string $path  [, s
 ```
 
 For application cookies a parameter in setcookie() sets the secure attribute
-[7](http://pl.php.net/setcookie):
+[6](http://pl.php.net/setcookie):
 
 ```
 bool setcookie ( string $name  [, string $value  [, int $expire= 0  [, string $path  
