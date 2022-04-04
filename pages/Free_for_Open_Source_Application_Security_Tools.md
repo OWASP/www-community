@@ -6,6 +6,7 @@ author: Dave Wichers
 contributors: 
   - Sherif Koussa
   - Dirk Wetter
+  - kingthorin
 tags: application security tools, tools
 permalink: /Free_for_Open_Source_Application_Security_Tools
 
@@ -53,8 +54,7 @@ categories are listed below.
 OWASP already maintains a page of known SAST tools: [Source Code
 Analysis Tools](Source_Code_Analysis_Tools), which includes a
 list of those that are "Open Source or Free Tools Of This Type". Any
-such tools could certainly be used. One such cloud service that looks
-promising is:
+such tools could certainly be used. One such cloud service is:
 
   - [GitHub code scanning](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning) - A free for open
     source static analysis service that uses [GitHub Actions](https://docs.github.com/en/actions) and [CodeQL](https://codeql.github.com/)
@@ -65,8 +65,7 @@ promising is:
     - By default, CodeQL only looks for high fidelity security related results (well known true positives), so your results may look different from LGTM.
     - To achieve the same or similar results provided by LGTM, try enabling the `security-and-quality` query suite within the [CodeQL query pack](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs).
     
-In addition, we are aware of the following commercial SAST tools that
-are free for Open Source projects:
+In addition, we are aware of the following commercial SAST tools that are free for Open Source projects:
 
   - [Coverity Scan Static Analysis](https://scan.coverity.com/) - Can be
     lashed into Travis-CI so it's done automatically with online
