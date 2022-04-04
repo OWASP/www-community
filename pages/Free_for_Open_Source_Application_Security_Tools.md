@@ -142,9 +142,7 @@ this time:
     
 ### API Web Scanners
 
-Tools which focus on web APIs.
-
-  - [Cherrybomb](https://github.com/blst-security/cherrybomb) - Cherrybomb is a CLI tool that helps you avoid undefined user behavior by validating your API specifications.
+For tools which are API specific please refer to the OWASP community [/api_security_tools](API Security Tools) page.
 
 ### Open Source Software (OSS) Security Tools
 
