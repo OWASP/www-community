@@ -145,8 +145,6 @@ this time:
 Tools which focus on web APIs.
 
   - [Cherrybomb](https://github.com/blst-security/cherrybomb) - Cherrybomb is a CLI tool that helps you avoid undefined user behavior by validating your API specifications.
-      - It takes in an OAS file, runs a series of checks on it to make sure everything is on par with the OAS, and outputs a detailed table with any alerts found, guiding you to the exact problem and location to help you solve it quickly.
-      - It can also take in your logs and check them for business logic flaws.
 
 ### Open Source Software (OSS) Security Tools
 
