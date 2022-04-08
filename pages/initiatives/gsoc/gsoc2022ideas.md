@@ -85,7 +85,7 @@ user experience.
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 > The Angular team plans to end development of Protractor at the end of 2022 (in conjunction with Angular v15).
->
+> 
 > _(Source: https://github.com/angular/protractor/issues/5502)_
 
 With the Angular 15 release end of 2022, development support for Protractor will be terminated by the Angular team.
@@ -219,14 +219,14 @@ topics from documents, and a model that recognizes the most relevant documents b
 ### [OWASP DSOMM](https://github.com/wurstbrot/DevSecOps-MaturityModel)
 
 ##### New Application
-The OWASP DevSecOps Maturity Model is used to assess and present the devsecops maturity of an organization. It consits of an application and devsecops maturity model information. The application is used to present and assess the model itself. As it is aged, a new modern application with a frontend in angular is to be developed.
+The OWASP DevSecOps Maturity Model is used to assess and present the devsecops maturity of an organization. It consits of an application and devsecops maturity model information. The application is used to present and assess the model itself. As it is aged, a new modern application with a frontend in angular is to be developed. 
 Please also add your own ideas for enhancements in the propsal.
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
 * The application should work in the browser only and is created with angular.
 * The application should be able to assess multiple teams and present some statistics so that it is easy to get an overview of the maturity of all teams within an organization.
-* The application has the current abilities and more
+* The application has the current abilities and more 
 
 ##### Your Own Idea
 You have an awesome idea to improve OWASP DSOMM? Great, please submit it!
@@ -250,7 +250,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 ##### Expected results
 ![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Improve Web Application Firewall GUI based on AI
+- Improve Web Application Firewall GUI based on AI 
 - Improve features (IDS,Firewall)
 - Complete the web GUI and remote monitoring
 - Zero bugs - Fix the current identifed bugs
@@ -294,7 +294,7 @@ Intentionally vuln web Application Security in django.
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
-
+ 
 ### [OWASP PurpleTeam](https://purpleteam-labs.com/)
 
 PurpleTeam is a Developer focussed security regression testing CLI and SaaS targeting Web applications and APIs.
@@ -448,7 +448,7 @@ This is so that the PurpleTeam core team can test against a vulnerable set of AP
 
 ##### Description
 
-This is another way for PurpleTeam users to manage false positives.
+This is another way for PurpleTeam users to manage false positives. 
 There's an option in the Zap API to `updateAlertsConfidence` for specific alerts.
 We can change the confidence level to 0 - False Positive. This doesn't change the number of alerts raised, but the specific alert won't be included in the reports.
 We've tested (PoC) this HTML and JSON reports.
@@ -672,7 +672,7 @@ The GraphQL Body Processor must provide a safe way to read the GraphQL from JSON
 - The ARGS structure should be similar to JSON (```json.somearg.0.id```)
 - The body processor must be enforced, like:
 ```
-SecRule REQUEST_METHOD "POST" "id:100, chain, nolog, msg:'Enforcing graphql', phase:1"
+SecRule REQUEST_METHOD "POST" "id:100, chain, nolog, msg:'Enforcing graphql', phase:1" 
 SecRule REQUEST_URI "^/api/graphql$" "ctl:requestBodyProcessor=GRAPHQL"
 ```
 
@@ -733,7 +733,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
-#### CRS 💡 #2
+#### CRS 💡 #2 
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
@@ -789,7 +789,7 @@ Without exaggerating too much, you need to keep in mind that CRS is running on m
 ##### Expected Outcomes
 
 - Define a framework for testing performance for SecLanguage platforms
-- Implement the framework so it can be used for testing
+- Implement the framework so it can be used for testing 
 - Write documentation on usage and techniques used to measure performance for the various constructs
 
 ##### Skills required/preferred
@@ -923,7 +923,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 ### [OWASP OWTF](https://github.com/owtf/owtf)
-Offensive Web Testing Framework (OWTF) is a project focused on penetration testing efficiency and alignment of security tests to security standards like the OWASP Testing Guide (v3 and v4), the OWASP Top 10, PTES and NIST. Most of the ideas below focus on rewrite of some major
+Offensive Web Testing Framework (OWTF) is a project focused on penetration testing efficiency and alignment of security tests to security standards like the OWASP Testing Guide (v3 and v4), the OWASP Top 10, PTES and NIST. Most of the ideas below focus on rewrite of some major 
 components of OWTF to make it more modular. OWTF is moving to a fresh codebase with a fully Docker testing and deployment environment.
 
 #### OWASP OWTF - Passive Online scanner improvements
@@ -938,13 +938,13 @@ This would be a normal OWTF interactive report where the user can:
 * Play with boilerplate templates from the OWTF interactive report
 An old version of the passive online scanner is hosted [here](https://owtf.github.io/online-passive-scanner).
 
-##### LEGAL CLARIFICATION (Just in case!):
-The passive online scanner, simply makes OWTF passive testing through third party websites more accessible to anybody, however it is the user that must
-1. click the link manually +
-2. do something bad with that afterwards +
-3. doing 1 + 2 WITHOUT permission :).
-Therefore this passive online scanner does not do anything illegal
-[More information about why this is not illegal here](http://www.slideshare.net/abrahamaranguren/legal-and-efficient-web-app-testing-without-permission)
+##### LEGAL CLARIFICATION (Just in case!): 
+The passive online scanner, simply makes OWTF passive testing through third party websites more accessible to anybody, however it is the user that must 
+1. click the link manually + 
+2. do something bad with that afterwards + 
+3. doing 1 + 2 WITHOUT permission :). 
+Therefore this passive online scanner does not do anything illegal 
+[More information about why this is not illegal here](http://www.slideshare.net/abrahamaranguren/legal-and-efficient-web-app-testing-without-permission) 
 (recommended reading!)
 
 For background on OWASP OWTF please see: [OWASP OWTF](https://owasp.org/www-project-owtf/)
@@ -990,7 +990,7 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-proj
 
 - Python proficiency, React-Redux (high proficiency), TypeScript proficiency and general JavaScript proficiency.
 
-##### OWASP OWTF Mentors:
+##### OWASP OWTF Mentors: 
 * [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
 * Viyat Bhalodia
 * [Mohit Sharma](mailto:ms892075@gmail.com)
@@ -1019,7 +1019,7 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-proj
 
 - Python proficiency, React-Redux (high proficiency), TypeScript proficiency and general JavaScript proficiency.
 
-##### OWASP OWTF Mentors:
+##### OWASP OWTF Mentors: 
 * [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
 * Viyat Bhalodia
 * [Mohit Sharma](mailto:ms892075@gmail.com)
@@ -1121,7 +1121,7 @@ OWASP SKF is an open source web application that explains secure coding and its 
 We have more then 70 SKF Labs for developers to practice the skills in security in terms of identifying and testing vulnerabilities. Apart from that, we also have writeup written for every lab [here](https://github.com/blabla1337/skf-labs/tree/master/md) and this Markdown files have images and text explicitly.
 
 So now the idea is to create a Video Editor, which is a web-based application for OWASP SKF, which will take those Markdown
-files as an input and separate those images and text, and will convert them into a Video or Presentation.
+files as an input and separate those images and text, and will convert them into a Video or Presentation. 
 
 In technical Terms, We can do is to make a video editor in React or some other Framework, that will take a file like writeup.pdf or in other format. Then in the UI side you have options to put text in blocks. A block will contain text, time interval in video and an image which we will show at that time interval.
 That's how we can make multiple blocks and after submitting the data. We will call the backend RestAPIs in django or flask, which will take those blocks data which contain time intervals images and text. And convert that text into speech and ultimately combine all those into a MP3 or any video file which user can get  after the request is complete.
@@ -1193,7 +1193,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, or i
 
 ##### Mentors
 * Donnie on slack (lead mentor)
-* [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor
-* Rahul Badami - Payments Mentor
-* [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor
+* [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor  
+* Rahul Badami - Payments Mentor  
+* [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
 * [Sparsh Agrawal](mailto:sparshagrawal1212@gmail.com) - Flutter Mentor
