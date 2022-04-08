@@ -128,7 +128,7 @@ list? Great, please submit it!
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
 * Jannik Hollenbach - OWASP Juice Shop Core Team
-* Timo Pagel - OWASP Juice Shop Core Team
+* [Timo Pagel](mailto:timo.pagel@owasp.org) - OWASP Juice Shop Core Team
 
 ### [OWASP ZAP](https://zaproxy.org/)
 
@@ -240,8 +240,7 @@ It is recommended to add links to existing PRs (also in other open source projec
 
 ##### Mentors
 
-* Timo Pagel
-
+* [Timo Pagel](mailto:timo.pagel@owasp.org) - OWASP DevSecOps Maturity Model Leader
 ### [OWASP SecureTea](https://securetea.org/)
 
 The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
