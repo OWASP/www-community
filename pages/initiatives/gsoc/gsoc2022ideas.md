@@ -241,6 +241,7 @@ It is recommended to add links to existing PRs (also in other open source projec
 ##### Mentors
 
 * [Timo Pagel](mailto:timo.pagel@owasp.org) - OWASP DevSecOps Maturity Model Leader
+
 ### [OWASP SecureTea](https://securetea.org/)
 
 The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
