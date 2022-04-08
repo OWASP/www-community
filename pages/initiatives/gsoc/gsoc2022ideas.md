@@ -1196,3 +1196,4 @@ Reach out to us on Slack to discuss further on the scope, changes required, or i
 * [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor  
 * Rahul Badami - Payments Mentor  
 * [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
+* [Sparsh Agrawal](mailto:sparshagrawal1212@gmail.com) - Flutter Mentor
