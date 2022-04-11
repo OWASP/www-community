@@ -13,7 +13,7 @@ permalink: /initiatives/gsoc/gsoc_sat
 * University / current enrollment
 * Short bio / overview of your background
 * Subscribe to the mailing list of the appropriate group and introduce yourself
-* Tell us your IRC nick with which you will use the group's IRC channel
+* Tell us your slack username on the OWASP Slack
 
 ## Your Coding Skills
 
@@ -27,7 +27,7 @@ In your application let us know
 
 * Set up your platform to build a Bazaar/GIT/Subversion snapshot of the current state of the project you are interested in.
 * If you need help, ask on the mailing list of the appropriate group, or in the IRC.
-* Report success on the mailing list or IRC.
+* Report success on the mailing list or Slack.
 
 ## You and Us
 
