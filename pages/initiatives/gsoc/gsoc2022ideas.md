@@ -1184,6 +1184,8 @@ This will be the initial version of the project. We can advance it more using de
 * Ability for users to report links online with personal information where they can have it removed
 
 Reach out to us on Slack to discuss further on the scope, changes required, or if you have any other proposal.
+* Please submit your proposal on the BLT GitHub discussion board.  Because it will be easier for the team to review and give feedback there.
+* Team meetings are every Saturday at 1pm EST.  Check Slack for the google meet link.
 
 #### Knowledge Prerequisites
 
