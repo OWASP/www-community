@@ -1,5 +1,23 @@
 [
    {
+      "title": "Escape",
+      "url": "https://www.escape.tech/",
+      "owner": "Escape",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Run thousands of GraphQL security scans",
+      "type": "DAST"
+   },
+   {
+      "title": "GraphQL Security",
+      "url": "https://graphql.security",
+      "owner": "Escape",
+      "license": "Free",
+      "platforms": "SaaS",
+      "note": "Free. No account required.",
+      "type": "DAST"
+   },
+   {
       "title": "Static Reviewer",
       "url": "https://www.securityreviewer.net/",
       "owner": "Security Reviewer",
