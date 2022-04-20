@@ -15,7 +15,10 @@ permalink: meetings/
             ex.) meetup-group: OWASP-Delaware-Chapter
 -->
 
+<span class='alert'>Due to a change in the APIs used to collate this data, this page is temporarily offline.</span>
+
 <br>
+{% comment %}
 {% assign events = site.data.community_events | sort: 'date' %}
 {% assign prevdate = nil %}
 
@@ -49,3 +52,5 @@ permalink: meetings/
 <br>
   {% assign i = i | plus: 1 %}
 {% endfor %}
+
+{% endcomment %}
