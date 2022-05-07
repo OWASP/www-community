@@ -231,12 +231,14 @@ error, or being thrown out as an invalid parameter.
 The following PHP code snippet is vulnerable to a command injection
 attack:
 
+```php
 <?php
 print("Please specify the name of the file to delete");
 print("<p>");
 $file=$_GET['filename'];
 system("rm $file");
 ?>
+```
 
 The following request and response is an example of a successful attack:
 
