@@ -855,12 +855,12 @@
       "type": "SAST"
    },
    {
-      "title": "HCL AppScan CodeSweep - VS Code",
+      "title": "HCL AppScan CodeSweep - IDE",
       "url": "https://hclsw.co/codesweep",
       "owner": "HCL Software",
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "This is the first Community edition version of AppScan. It is delivered as a VS Code plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more.",
+      "note": "This is the first Community edition version of AppScan. It is delivered as a VS Code [https://hclsw.co/codesweep] and JetBrains [https://hclsw.co/codesweep-jetbrains] (IntelliJ IDEA, CLion, GoLand, PhpStorm, PyCharm , Rider, RubyMine, WebStorm) plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Java, .Net, Go, Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more. Auto-fix for some of the issues is available with a free trial.",
       "type": "SAST"
    },
    {
