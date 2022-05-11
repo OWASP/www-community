@@ -79,7 +79,8 @@ In addition, we are aware of the following commercial SAST tools that are free f
     for Java, Scala, and JavaScript/TypeScript. Per this pricing page, it
     is free for Open Source projects if you contact the vendor.
   - [HCL AppScan CodeSweep](https://hclsw.co/codesweep) - This is a SAST community edition version of HCL AppScan. Free for everyone to use. The tool currently supports Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc), PHP, Perl, Go, TypeScript & more, with new languages being added frequently.
-    - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. 
+    - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice.
+    - [CodeSweep - JetBrains Plugin](https://hclsw.co/codesweep-jetbrains) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with trail or subscription.  
     - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account. 
 
 ### DAST Tools
