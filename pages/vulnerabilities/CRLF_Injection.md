@@ -2,14 +2,18 @@
 
 layout: col-sidebar
 title: CRLF Injection
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/CRLF_Injection
 tags: vulnerability, CRLF Injection
 
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+- [CWE-93](https://cwe.mitre.org/data/definitions/93.html): The software uses CRLF (carriage return line feeds) as a special element, e.g. to separate lines or records, but it does not neutralize or incorrectly neutralizes CRLF sequences from inputs.
 
 ## Description
 

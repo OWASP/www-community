@@ -2,14 +2,18 @@
 
 layout: col-sidebar
 title: Heartbleed Bug
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Heartbleed_Bug
 tags: vulnerability, Heartbleed Bug
 
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+- [CWE-126: Buffer Over-read](https://cwe.mitre.org/data/definitions/126.html): The software reads from a buffer using buffer access mechanisms such as indexes or pointers that reference memory locations after the targeted buffer.
 
 # Introduction
 
@@ -92,13 +96,13 @@ Verify if you are using a vulnerable version of OpenSSL. Upgrade OpenSSL as soon
 ### Reissue your security certificates for SSL/TLS
 The vulnerability has been present for two years and there is no way to verify if your private key has been compromised as a result of this vulnerability. In addition, a compromised key would be used to silently monitor communications from your users and the attack would be undetectable. It is prudent to assume a breach and proactively reissue security certificates.
 
-### Implement Perfect Forward Secrecy 
+### Implement Perfect Forward Secrecy
 This additional layer of security protects encrypted data from several potential attacks by using a per session random keys.
 
 ### Change passwords
 If the compromised OpenSSL library had been used to protect login and password information (e.g. like in many cases using SSL for account login pages), this information should be considered compromised. That means that after the library has been upgraded all compromised passwords should be changed. The best way to do this is to inform the users that their password might have been compromised due to this vulnerability and that they should change their password, combined with system of one-time forced change of password after login.
 
-## What should users do? 
+## What should users do?
 
 Unfortunately there’s not much a user can do. If you have an account at one of the many large websites that may have been affected, you can proactively change your password just to be safe.
 
