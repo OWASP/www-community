@@ -2,8 +2,8 @@
 
 layout: col-sidebar
 title: Null Dereference
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Null_Dereference
 tags: vulnerability, Null Dereference
 auto-migrated: 1
@@ -11,6 +11,10 @@ auto-migrated: 1
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+> [CWE-476: NULL Pointer Dereference](https://cwe.mitre.org/data/definitions/476.html): A NULL pointer dereference occurs when the application dereferences a pointer that it expects to be valid, but is NULL, typically causing a crash or exit.
 
 # Description
 

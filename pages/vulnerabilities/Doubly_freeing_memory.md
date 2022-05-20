@@ -2,14 +2,18 @@
 
 layout: col-sidebar
 title: Doubly freeing memory
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Doubly_freeing_memory
 tags: vulnerability, Doubly freeing memory
 
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+> [CWE-415: Double Free](https://cwe.mitre.org/data/definitions/415.html): The product calls free() twice on the same memory address, potentially leading to modification of unexpected memory locations.
 
 ## Description
 
@@ -75,7 +79,7 @@ int main(int argc, char **argv) {
   free(buf2R1);
   free(buf1R2);
 }
-``` 
+```
 
 Double free vulnerabilities have three common (and sometimes overlapping) causes:
 
