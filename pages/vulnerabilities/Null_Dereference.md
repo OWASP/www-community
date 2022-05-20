@@ -14,7 +14,7 @@ auto-migrated: 1
 
 ## NVD Categorization
 
-- [CWE-476: NULL Pointer Dereference](https://cwe.mitre.org/data/definitions/476.html): A NULL pointer dereference occurs when the application dereferences a pointer that it expects to be valid, but is NULL, typically causing a crash or exit.
+> [CWE-476: NULL Pointer Dereference](https://cwe.mitre.org/data/definitions/476.html): A NULL pointer dereference occurs when the application dereferences a pointer that it expects to be valid, but is NULL, typically causing a crash or exit.
 
 # Description
 

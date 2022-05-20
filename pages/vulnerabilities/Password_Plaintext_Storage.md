@@ -13,8 +13,9 @@ tags: vulnerability, Password Plaintext Storage
 
 ## NVD Categorization
 
-- [CWE-256: Plaintext Storage of a Password](https://cwe.mitre.org/data/definitions/256.html): Storing a password in plaintext may result in a system compromise.
-- [CWE-312: Cleartext Storage of Sensitive Information](https://cwe.mitre.org/data/definitions/312.html): The application stores sensitive information in cleartext within a resource that might be accessible to another control sphere.
+> [CWE-256: Plaintext Storage of a Password](https://cwe.mitre.org/data/definitions/256.html): Storing a password in plaintext may result in a system compromise.
+
+> [CWE-312: Cleartext Storage of Sensitive Information](https://cwe.mitre.org/data/definitions/312.html): The application stores sensitive information in cleartext within a resource that might be accessible to another control sphere.
 
 ## Description
 

@@ -13,7 +13,7 @@ tags: vulnerability, Doubly freeing memory
 
 ## NVD Categorization
 
-- [CWE-415: Double Free](https://cwe.mitre.org/data/definitions/415.html): The product calls free() twice on the same memory address, potentially leading to modification of unexpected memory locations.
+> [CWE-415: Double Free](https://cwe.mitre.org/data/definitions/415.html): The product calls free() twice on the same memory address, potentially leading to modification of unexpected memory locations.
 
 ## Description
 

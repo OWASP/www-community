@@ -13,7 +13,7 @@ tags: vulnerability, Heartbleed Bug
 
 ## NVD Categorization
 
-- [CWE-126: Buffer Over-read](https://cwe.mitre.org/data/definitions/126.html): The software reads from a buffer using buffer access mechanisms such as indexes or pointers that reference memory locations after the targeted buffer.
+> [CWE-126: Buffer Over-read](https://cwe.mitre.org/data/definitions/126.html): The software reads from a buffer using buffer access mechanisms such as indexes or pointers that reference memory locations after the targeted buffer.
 
 # Introduction
 

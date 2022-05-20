@@ -13,9 +13,11 @@ tags: vulnerability, Directory Restriction Error
 
 ## NVD Categorization
 
-- [CWE-284: Improper Access Control](https://cwe.mitre.org/data/definitions/284.html): The software does not restrict or incorrectly restricts access to a resource from an unauthorized actor.
-- [CWE-552: Files or Directories Accessible to External Parties](https://cwe.mitre.org/data/definitions/552.html): The product makes files or directories accessible to unauthorized actors, even though they should not be.
-- [CWE-732: Incorrect Permission Assignment for Critical Resource](https://cwe.mitre.org/data/definitions/732.html): The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors.
+> [CWE-284: Improper Access Control](https://cwe.mitre.org/data/definitions/284.html): The software does not restrict or incorrectly restricts access to a resource from an unauthorized actor.
+
+> [CWE-552: Files or Directories Accessible to External Parties](https://cwe.mitre.org/data/definitions/552.html): The product makes files or directories accessible to unauthorized actors, even though they should not be.
+
+> [CWE-732: Incorrect Permission Assignment for Critical Resource](https://cwe.mitre.org/data/definitions/732.html): The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors.
 
 ## Description
 

@@ -13,7 +13,7 @@ tags: vulnerability, Deserialization of untrusted data
 
 ## NVD Categorization
 
-- [CWE-502: Deserialization of Untrusted Data](https://cwe.mitre.org/data/definitions/502.html): The application deserializes untrusted data without sufficiently verifying that the resulting data will be valid.
+> [CWE-502: Deserialization of Untrusted Data](https://cwe.mitre.org/data/definitions/502.html): The application deserializes untrusted data without sufficiently verifying that the resulting data will be valid.
 
 ## Description
 

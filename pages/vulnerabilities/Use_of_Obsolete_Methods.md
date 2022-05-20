@@ -14,7 +14,7 @@ auto-migrated: 1
 
 ## NVD Categorization
 
-- [CWE-477: Use of Obsolete Function](https://cwe.mitre.org/data/definitions/477.html): The code uses deprecated or obsolete functions, which suggests that the code has not been actively reviewed or maintained.
+> [CWE-477: Use of Obsolete Function](https://cwe.mitre.org/data/definitions/477.html): The code uses deprecated or obsolete functions, which suggests that the code has not been actively reviewed or maintained.
 
 # Description
 

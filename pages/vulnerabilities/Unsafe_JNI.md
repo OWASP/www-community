@@ -14,7 +14,7 @@ auto-migrated: 1
 
 ## NVD Categorization
 
-- [CWE-111: Direct Use of Unsafe JNI](https://cwe.mitre.org/data/definitions/111.html): When a Java application uses the Java Native Interface (JNI) to call code written in another programming language, it can expose the application to weaknesses in that code, even if those weaknesses cannot occur in Java.
+> [CWE-111: Direct Use of Unsafe JNI](https://cwe.mitre.org/data/definitions/111.html): When a Java application uses the Java Native Interface (JNI) to call code written in another programming language, it can expose the application to weaknesses in that code, even if those weaknesses cannot occur in Java.
 
 ## Description
 

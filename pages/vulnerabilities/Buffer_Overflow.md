@@ -35,7 +35,7 @@ A buffer overflow condition exists when a program attempts to put more data in a
 
 ## NVD Categorization
 
-- [CWE-788: Access of Memory Location After End of Buffer](https://cwe.mitre.org/data/definitions/788.html): This typically occurs when a pointer or its index is incremented to a position after the buffer; or when pointer arithmetic results in a position after the buffer.
+> [CWE-788: Access of Memory Location After End of Buffer](https://cwe.mitre.org/data/definitions/788.html): This typically occurs when a pointer or its index is incremented to a position after the buffer; or when pointer arithmetic results in a position after the buffer.
 
 ## Description
 
