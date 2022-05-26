@@ -14,7 +14,7 @@ auto-migrated: 1
 
 ## Description
 
-PHP, as many other languages, allows the inclution of files in order to
+PHP, as many other languages, allows the inclusion of files in order to
 provide or extend the functionality of the current file.
 
 ## Risk Factors
