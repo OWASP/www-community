@@ -7,6 +7,7 @@ contributors:
   - Sherif Koussa
   - Dirk Wetter
   - kingthorin
+  - Niclas Gustafsson
 tags: application security tools, tools
 permalink: /Free_for_Open_Source_Application_Security_Tools
 
@@ -194,6 +195,9 @@ Free tools of this type:
         dependencies in your GitHub projects. Supports: Java, .NET,
         JavaScript, Ruby, and Python. Your GitHub projects are
         automatically signed up for this service.
+  - [Bytesafe Dependency Firewall](https://bytesafe.dev/): Free for Open Source projects 
+    - Detects known vulnerabilities in source code dependencies, 
+    - Blocks dependencies based on policies such as vulnerabilities, type of license, release dates and more
   - Debricked: free for open source projects or smaller teams.
      - Identifies, fixes and prevents known vulnerabilities. Read more at [https://debricked.com](https://debricked.com)
      - [Create a free account](https://app.debricked.com/en/register)
@@ -201,6 +205,11 @@ Free tools of this type:
 
 Commercial tools of this type that are free for open source:
 
+  - [Bytesafe](https://bytesafe.dev/) - Bytesafe Dependency Firewall manages source code dependencies securely
+    - Detects Known Vulnerabilities in dependencies
+    - [Identifies OSS licenses](https://bytesafe.dev/compliance/) used in dependencies and prevents use of problematic licenses.
+    - Provides [SCA capabilities](https://bytesafe.dev/software-composition-analysis/) such as SBOM creation
+    - Free for Open Source Projects and [individual users](https://bytesafe.dev/pricing/)
   - Contrast Community Edition (CE) (mentioned earlier) also has both
     Known Vulnerable Component detection and Available Updates reporting
     for OSS. CE supports Java and .NET only.
