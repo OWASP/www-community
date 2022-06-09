@@ -89,12 +89,12 @@ Authentication Cookie, set the `requireSSL="true"` attribute in the web.config
 for that specific element. For example: 
 
 ```xml
-<code><authentication mode="Forms"></code>
-  <code><forms loginUrl="member_login.aspx"</code>
-         <code>cookieless="UseCookies"</code>
-         <code>'''requireSSL="true"'''</code>
-         <code>path="/MyApplication" /></code>
-<code></authentication></code>  
+<authentication mode="Forms">
+  <forms loginUrl="member_login.aspx"
+         cookieless="UseCookies"
+         `requireSSL="true"`
+         path="/MyApplication" />
+</authentication>
 ```
 
 Which will enable the secure attribute on the Forms Authentication cookie, as well as checking that the http request is coming to the server over SSL/TLS connection. Note that in case TLS is offloaded to a load balancer, the requireSSL solution wouldn't work.
@@ -133,6 +133,62 @@ For application cookies a parameter in setcookie() sets the secure attribute
 ```
 bool setcookie ( string $name  [, string $value  [, int $expire= 0  [, string $path  
                  [, string $domain  [, bool $secure= false  [, bool $httponly= false  ]]]]]] )
+```
+
+## Go
+
+### Iris
+
+For [session cookies managed by Iris](https://docs.iris-go.com/iris/security/security-sessions-cookies), the attribute is set through the `CookieSecureTLS` option:
+
+```go
+app := iris.New()
+sess := sessions.New(sessions.Config{
+  CookieSecureTLS: true,
+  // ...more options
+})
+app.Use(sess.Handler())
+```
+
+For application cookies a parameter in `SetCookie()` sets the secure attribute:
+
+```go
+app.Post("/", func(ctx iris.Context) {
+  ctx.SetCookie(&http.Cookie{
+    Secure: true,
+    // ...more options
+  })
+})
+```
+
+OR by `CookieSecure` cookie option:
+
+```go
+ctx.SetCookieKV("name", "value", iris.CookieSecure)
+```
+
+OR set the attribute permanently:
+
+```go
+app := iris.New()
+app.Use(withCookieOptions)
+
+withCookieOptions := func(ctx iris.Context) {
+	ctx.AddCookieOptions(iris.CookieSecure)
+	ctx.Next()
+}
+```
+
+For Single-Sign-On managed by Iris, the attribute is set through the `Cookie.Secure` option:
+
+```go
+authConfig := auth.Configuration{
+  Cookie: auth.CookieConfiguration{
+    Secure: true,
+    // ...more options
+  },
+  // ...more options
+}
 ```
 
 # Testing for the Secure Attribute

@@ -2,14 +2,18 @@
 
 layout: col-sidebar
 title: Catch NullPointerException
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Catch_NullPointerException
 tags: vulnerability, Catch NullPointerException
 
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+> [CWE-395: Use of NullPointerException Catch to Detect NULL Pointer Dereference](https://cwe.mitre.org/data/definitions/395.html): Catching NullPointerException should not be used as an alternative to programmatic checks to prevent dereferencing a null pointer.
 
 ## Description
 

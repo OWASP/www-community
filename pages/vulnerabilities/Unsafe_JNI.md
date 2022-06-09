@@ -2,8 +2,8 @@
 
 layout: col-sidebar
 title: Unsafe JNI
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Unsafe_JNI
 tags: vulnerability, Unsafe JNI
 auto-migrated: 1
@@ -12,7 +12,9 @@ auto-migrated: 1
 
 {% include writers.html %}
 
-Last revision (mm/dd/yyyy): **05/27/2009**
+## NVD Categorization
+
+> [CWE-111: Direct Use of Unsafe JNI](https://cwe.mitre.org/data/definitions/111.html): When a Java application uses the Java Native Interface (JNI) to call code written in another programming language, it can expose the application to weaknesses in that code, even if those weaknesses cannot occur in Java.
 
 ## Description
 

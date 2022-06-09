@@ -2,8 +2,13 @@
 /Gemfile.lock
 /favicon.ico
 _site/
+.DS_Store
 
 # Eclipse
 # -------
 *.project
 *.settings
+
+# IntelliJ
+# --------
+.idea/

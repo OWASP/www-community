@@ -87,8 +87,7 @@ node only has a entry edge, this is know as an ‘exit’ block ([Wögerer, 2005
 Example Control Flow Graph; ‘node 1’ represents the entry block and
 ‘node 6’ represents the exit block.
 
-![Control_flow_graph.png](../../assets/images/Control_flow_graph.png
-"Control_flow_graph.png")
+![Control Flow Graph](../../assets/images/Control_flow_graph.png)
 
 ### Taint Analysis
 
@@ -176,11 +175,11 @@ environment and whether it is configured securely.
 
 ### RIPS PHP Static Code Analysis Tool
 
-![Rips.jpg](Rips.jpg "Rips.jpg")
+![RIPS](../../assets/images/RIPS.jpg)
 
 ### OWASP LAPSE+ Static Code Analysis Tool
 
-![LapsePlusScreenshot.png](LapsePlusScreenshot.png "LapsePlusScreenshot.png")
+![Lapse Plus Screenshot](../../assets/images/LapsePlusScreenshot.png)
 
 ### Tool Lists
 
@@ -190,5 +189,5 @@ environment and whether it is configured securely.
 
 ## Further Reading
 
-- [RIPS](http://www.php-security.org/downloads/rips.pdf)
-- [pixy](http://www.seclab.tuwien.ac.at/papers/pixy.pdf)
+- [RIPS](https://sourceforge.net/projects/rips-scanner/)
+- [pixy](http://seclab.nu/static/publications/ssp2006pixy.pdf)

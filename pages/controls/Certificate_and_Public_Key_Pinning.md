@@ -209,10 +209,16 @@ information available.
 
 For the purposes of this article, the objects are in X509-compatible
 presentation format (PKCS\#1 defers to X509, both of which use ASN.1).
-If you have a PEM encoded object (for example, `-----BEGIN
-CERTIFICATE-----`, `-----END CERTIFICATE-----`), then convert the object
-to DER encoding. Conversion using OpenSSL is offered below in [Format
-Conversions](#Format_Conversions).
+If you have a PEM encoded object, such as:
+
+```
+-----BEGIN CERTIFICATE-----
+...
+-----END CERTIFICATE-----
+```
+
+Then convert the object to DER encoding. Conversion using OpenSSL is offered
+below in [Format Conversions](#Format_Conversions).
 
 A certificate is an object which binds an entity (such as a person or
 organization) to a public key via a signature. The certificate is DER
@@ -228,9 +234,9 @@ which is the subjectPublicKeyInfo. The key is for the site
 [random.org](https://www.random.org), and it is used in the sample
 programs and listings below.
 
-|                                                                               |                                                                            |
+| Figure 1: `subjectPublicKeyInfo` dumped with `dumpans`                        | Figure 2: `subjectPublicKeyInfo` under a hex editor                        |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| ![random-org-der-dump.png](random-org-der-dump.png "random-org-der-dump.png") | ![random-org-der-hex.png](random-org-der-hex.png "random-org-der-hex.png") |
+| ![Figure 1: subjectPublicKeyInfo dumped with dumpans1](../assets/images/random-org-der-dump.png) | ![Figure 2: subjectPublicKeyInfo under a hex editor](../assets/images/random-org-der-hex.png) |
 
 The concrete public key is an encoded public key. The key format will
 usually be specified elsewhere - for example, PKCS\#1 in the case of RSA
@@ -249,12 +255,13 @@ Keys](http://www.codeproject.com/Articles/25487/Cryptographic-Interoperability-K
 
 ### Certificate
 
-![pin-cert.png](pin-cert.png "pin-cert.png") The certificate is easiest
-to pin. You can fetch the certificate out of band for the website, have
-the IT folks email your company certificate to you, use `openssl
-s_client` to retrieve the certificate etc. When the certificate expires,
-you would update your application. Assuming your application has no bugs
-or security defects, the application would be updated every year or two.
+![Certificate](../assets/images/pin-cert.png)
+
+The certificate is easiest to pin. You can fetch the certificate out of band for
+the website, have the IT folks email your company certificate to you, use
+`openssl s_client` to retrieve the certificate etc. When the certificate
+expires, you would update your application. Assuming your application has no
+bugs or security defects, the application would be updated every year or two.
 
 At runtime, you retrieve the website or server's certificate in the
 callback. Within the callback, you compare the retrieved certificate
@@ -270,11 +277,12 @@ underlying public keys (within the certificate) remain static.
 
 ### Public Key
 
-![pin-pubkey.png](pin-pubkey.png "pin-pubkey.png") Public key pinning is
-more flexible but a little trickier due to the extra steps necessary to
-extract the public key from a certificate. As with a certificate, the
-program checks the extracted public key with its embedded copy of the
-public key.
+![Public Key](../assets/images/pin-pubkey.png)
+
+Public key pinning is more flexible but a little trickier due to the extra steps
+necessary to extract the public key from a certificate. As with a certificate,
+the program checks the extracted public key with its embedded copy of the public
+key.
 
 There are two downsides to public key pinning. First, it's harder to
 work with keys (versus certificates) since you usually must extract the

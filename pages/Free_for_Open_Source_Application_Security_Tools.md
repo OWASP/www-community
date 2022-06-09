@@ -6,6 +6,7 @@ author: Dave Wichers
 contributors: 
   - Sherif Koussa
   - Dirk Wetter
+  - kingthorin
 tags: application security tools, tools
 permalink: /Free_for_Open_Source_Application_Security_Tools
 
@@ -53,8 +54,7 @@ categories are listed below.
 OWASP already maintains a page of known SAST tools: [Source Code
 Analysis Tools](Source_Code_Analysis_Tools), which includes a
 list of those that are "Open Source or Free Tools Of This Type". Any
-such tools could certainly be used. One such cloud service that looks
-promising is:
+such tools could certainly be used. One such cloud service is:
 
   - [GitHub code scanning](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning) - A free for open
     source static analysis service that uses [GitHub Actions](https://docs.github.com/en/actions) and [CodeQL](https://codeql.github.com/)
@@ -65,8 +65,7 @@ promising is:
     - By default, CodeQL only looks for high fidelity security related results (well known true positives), so your results may look different from LGTM.
     - To achieve the same or similar results provided by LGTM, try enabling the `security-and-quality` query suite within the [CodeQL query pack](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs).
     
-In addition, we are aware of the following commercial SAST tools that
-are free for Open Source projects:
+In addition, we are aware of the following commercial SAST tools that are free for Open Source projects:
 
   - [Coverity Scan Static Analysis](https://scan.coverity.com/) - Can be
     lashed into Travis-CI so it's done automatically with online
@@ -80,7 +79,8 @@ are free for Open Source projects:
     for Java, Scala, and JavaScript/TypeScript. Per this pricing page, it
     is free for Open Source projects if you contact the vendor.
   - [HCL AppScan CodeSweep](https://hclsw.co/codesweep) - This is a SAST community edition version of HCL AppScan. Free for everyone to use. The tool currently supports Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc), PHP, Perl, Go, TypeScript & more, with new languages being added frequently.
-    - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. 
+    - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription. 
+    - [CodeSweep - JetBrains Plugin](https://hclsw.co/codesweep-jetbrains) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.  
     - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account. 
 
 ### DAST Tools
@@ -99,6 +99,10 @@ capabilities. Our primary recommendation is to use one of these:
         integrate ZAP into your CI/CD pipeline. (e.g., here's a [blog
         post on how to integrate ZAP with
         Jenkins](https://www.we45.com/blog/how-to-integrate-zap-into-jenkins-ci-pipeline-we45-blog)).
+  - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
+    tool built on OWASP ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
+    development and in CI/CD. The StackHawk platform allows you to manage findings over time in 
+    different environments. StackHawk is free for Open Source projects and free to use on a single application.
   - [Arachni](http://www.arachni-scanner.com/) - Arachni is a
     commercially supported scanner, but its free for most use cases,
     including scanning open source projects.
@@ -135,6 +139,10 @@ this time:
     (CE)](https://www.contrastsecurity.com/contrast-community-edition) -
     Fully featured version for 1 app and up to 5 users (some Enterprise
     features disabled). Contrast CE supports Java and .NET only.
+    
+### API Web Scanners
+
+For tools which are API specific please refer to the OWASP community [/api_security_tools](API Security Tools) page.
 
 ### Open Source Software (OSS) Security Tools
 
@@ -205,7 +213,7 @@ Commercial tools of this type that are free for open source:
      - GitHub version: [https://github.com/apps/debricked/](https://github.com/apps/debricked/) 
   - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
     Scala, Golang, .NET, PHP - Latest list here: 
-    <https://support.snyk.io/hc/en-us/sections/360001087857>
+    <https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support>
       - A Commercial tool that identifies vulnerable components and
         integrates with numerous CI/CD pipelines. It is free for open
         source: <https://snyk.io/plans>
@@ -213,7 +221,7 @@ Commercial tools of this type that are free for open source:
         it can auto-create pull requests) you can use the Command Line
         Interface (CLI) instead. See: <https://snyk.io/docs/using-snyk>.
         If you do this and want it to be free, you have to configure
-        Snyk so it know its open source:
+        Snyk so it knows it's open source:
         <https://support.snyk.io/hc/en-us/articles/360000910597-How-can-I-set-a-Snyk-CLI-project-as-open-source>
           - Another benefit of using the Snyk CLI is that it won't auto
             create Pull requests for you (which makes these 'issues'
@@ -226,6 +234,9 @@ Commercial tools of this type that are free for open source:
         known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
+  - [Vulert](https://vulert.com) - Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP
+      - A Commercial tool that identifies vulnerable components. It is free for open
+        source.
   - [WhiteSource](https://www.whitesourcesoftware.com/) - Supports 200+ programming languages.
       - Azure version:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>

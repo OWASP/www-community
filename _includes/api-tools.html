@@ -1,0 +1,21 @@
+<section id="tool-list">
+<div>
+ {% for tool in site.data.api-tools %}
+    <div>
+        <div style="background: #f2f2f2;width: 80%">
+          <h4><a href="{{tool.link}}">{{ tool.name }}</a> from {{tool.from}}</h4>
+        </div>
+        <div style="background: #cccccc;width: 80%">
+            <img src="{{tool.license}}" alt="License"> |
+            <img src="{{tool.platforms}}" alt="Platform"> |
+            <img src="{{tool.posture}}" alt="API Posture"> |
+            <img src="{{tool.runtime}}" alt="API Runtime"> |
+            <img src="{{tool.testing}}" alt="API Testing">
+            {{tool.notes}}
+        </div>
+    </div>
+    <div style="height:18px;"></div>
+{% endfor %}
+</div>
+<br/><br/>
+</section>

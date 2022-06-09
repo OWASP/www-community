@@ -2,8 +2,8 @@
 
 layout: col-sidebar
 title: Use of hard-coded password
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Use_of_hard-coded_password
 tags: vulnerability, Use of hard-coded password
 auto-migrated: 1
@@ -11,6 +11,14 @@ auto-migrated: 1
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+> [CWE-259: Use of Hard-coded Password](https://cwe.mitre.org/data/definitions/259.html): The software contains a hard-coded password, which it uses for its own inbound authentication or for outbound communication to external components.
+
+> [CWE-321: Use of Hard-coded Cryptographic Key](https://cwe.mitre.org/data/definitions/321.html): The use of a hard-coded cryptographic key significantly increases the possibility that encrypted data may be recovered.
+
+> [CWE-798: Use of Hard-coded Credentials](https://cwe.mitre.org/data/definitions/798.html): The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.
 
 ## Description
 
@@ -94,7 +102,7 @@ In Java:
 ```java
 int verifyAdmin(String password) {
 
-  if (password.equals("Mew!")) {
+  if (!password.equals("Mew!")) {
     return 0;
   }
   //Diagnostic Mode

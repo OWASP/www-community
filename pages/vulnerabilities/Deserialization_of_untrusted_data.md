@@ -2,14 +2,18 @@
 
 layout: col-sidebar
 title: Deserialization of untrusted data
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Deserialization_of_untrusted_data
 tags: vulnerability, Deserialization of untrusted data
 
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+> [CWE-502: Deserialization of Untrusted Data](https://cwe.mitre.org/data/definitions/502.html): The application deserializes untrusted data without sufficiently verifying that the resulting data will be valid.
 
 ## Description
 
@@ -129,7 +133,7 @@ It is possible to create an `ObjectInputStream` that is backward compatible with
 - Requirements specification: A deserialization library could be used which provides a cryptographic framework to seal serialized data.
 - Implementation: Use the signing features of a language to assure that deserialized data has not been tainted.
 - Implementation: Authenticate prior to deserializing.
-- Implementation: When deserializing data, populate a new object rather than just deserializing. The result is that the data flows through safe input validation and that the functions are safe. 
+- Implementation: When deserializing data, populate a new object rather than just deserializing. The result is that the data flows through safe input validation and that the functions are safe.
 - Implementation: Explicitly define final [readObject()](http://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html) to prevent deserialization.
 
 An example of this is:
@@ -148,7 +152,7 @@ private final void readObject(ObjectInputStream in) throws java.io.IOException {
 
 ## References
 
-- [FoxGlove vulnerability announcement](http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/#websphere) 
+- [FoxGlove vulnerability announcement](http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/#websphere)
 - [JFrame DoS example by Wouter Coekaerts](http://wouter.coekaerts.be/2011/amf-arbitrary-code-execution)
 - [HashSet Billion-Laughs Style DoS example by Wouter Coekaerts](https://gist.github.com/coekie/a27cc406fc9f3dc7a70d)
 - [Safe ObjectInputStream implementation that allows policy-based deserialization](https://github.com/ikkisoft/SerialKiller)

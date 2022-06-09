@@ -1,5 +1,23 @@
 [
    {
+      "title": "Escape",
+      "url": "https://www.escape.tech/",
+      "owner": "Escape",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Run thousands of GraphQL security scans",
+      "type": "DAST"
+   },
+   {
+      "title": "GraphQL Security",
+      "url": "https://graphql.security",
+      "owner": "Escape",
+      "license": "Free",
+      "platforms": "SaaS",
+      "note": "Free. No account required.",
+      "type": "DAST"
+   },
+   {
       "title": "Static Reviewer",
       "url": "https://www.securityreviewer.net/",
       "owner": "Security Reviewer",
@@ -7,6 +25,15 @@
       "platforms": "Windows and Linux; on-Premises and in Cloud; Desktop, CLI and CI/CD & IDE plugin integration",
       "note": "Static Reviewer executes code checks according to the most relevant Secure Coding Standards for 40+ programming languages, using 1000+ built-in validation rules.",
       "type": "SAST"
+   },
+   {
+          "title": "Blacklock",
+          "url": "https://blacklock.io/",
+          "owner": "Blacklock Security",
+          "license": "Commercial",
+          "platforms":  "Any",
+          "note": "14-day trial",
+          "type": "DAST"
    },
    {
       "title": "Astra Security Suite",
@@ -60,6 +87,15 @@
       "license": "Commercial",
       "platforms": "Windows, Linux, MacOS",
       "note": "Free (Limited Capability)",
+      "type": "DAST"
+   },
+   {
+      "title": "APIsec",
+      "url": "https://www.apisec.ai/free-api-pen-test",
+      "owner": "APIsec",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Free limited API Pen Test",
       "type": "DAST"
    },
    {
@@ -126,6 +162,15 @@
       "type": "DAST"
    },
    {
+      "title": "Bearer",
+      "url": "https://www.bearer.com",
+      "owner": "Bearer",
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": "Map sensitive data flows and identify security risks such as unauthorized data flow, missing encryption, unauthorized access, and more.",
+      "type": "SAST"
+   },
+   {
       "title": "beSECURE (formerly AVDS)",
       "url": "https://www.beyondsecurity.com/",
       "owner": "Beyond Security",
@@ -169,6 +214,15 @@
       "platforms": "SaaS or On-Premises",
       "note": "Free (Full featured for 1 App)",
       "type": "DAST"
+   },
+   {
+      "title": "Codiga",
+      "url": "https://codiga.io/",
+      "owner": "Codiga",
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": "Codiga scans your code and find security, safety, design, performance and maintainability issues in your code at each push or pull request. It integrates with GitHub, GitLab and Bitbucket.",
+      "type": "SAST"
    },
    {
       "title": "Crashtest Security",
@@ -411,6 +465,15 @@
       "license": "Open Source",
       "platforms": "Windows, Unix/Linux, and Macintosh",
       "note": "Fast and customisable vulnerability scanner based on simple YAML based DSL.",
+      "type": "DAST"
+   },
+   {
+      "title": "OnSecurity Protect",
+      "url": "https://www.onsecurity.io/scan/",
+      "owner": "OnSecurity LLP",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Free tier and free trial available.",
       "type": "DAST"
    },
    {
@@ -801,12 +864,12 @@
       "type": "SAST"
    },
    {
-      "title": "HCL AppScan CodeSweep - VS Code",
+      "title": "HCL AppScan CodeSweep - IDE",
       "url": "https://hclsw.co/codesweep",
       "owner": "HCL Software",
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "This is the first Community edition version of AppScan. It is delivered as a VS Code plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more.",
+      "note": "This is the first Community edition version of AppScan. It is delivered as a VS Code [https://hclsw.co/codesweep] and JetBrains [https://hclsw.co/codesweep-jetbrains] (IntelliJ IDEA, CLion, GoLand, PhpStorm, PyCharm , Rider, RubyMine, WebStorm) plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Java, .Net, Go, Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more. Auto-fix for some of the issues is available with a free trial.",
       "type": "SAST"
    },
    {
@@ -1197,6 +1260,15 @@
       "type": "SAST"
    },
    {
+      "title": "ScanMyCode CE (Community Edition)",
+      "url": "https://github.com/marcinguy/scanmycode-ce",
+      "owner": "Marcin Kozlowski",
+      "license": "Open Source",
+      "platforms": null,
+      "note": "Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report. Currently supports:  PHP, Java, Scala, Python, Ruby, Javascript, GO, Secret Scanning, Dependency Confusion, Trojan Source, Open Source and Proprietary Checks (total ca. 1000 checks). Supports also Differential analysis. Goal is to have one report using many tools/scanners",
+      "type": "SAST"
+   },
+   {
       "title": "Sentinel Source",
       "url": "https://www.whitehatsec.com/products/static-application-security-testing/",
       "owner": "Whitehat",
@@ -1237,8 +1309,8 @@
       "url": "https://oversecured.com/",
       "owner": "Oversecured Inc",
       "license": "Commercial",
-      "platforms": "Android",
-      "note": "A static SaaS-based vulnerability scanner for Android apps (APK files), supports apps written on Java and Kotlin. Also allows integrations into DevOps processes.",
+      "platforms": "iOS, Android",
+      "note": "Enterprise vulnerability scanner for Android and iOS apps. It offers app owners and developers the ability to secure each new version of a mobile app by integrating Oversecured into the development process.",
       "type": "SAST"
    },
    {
@@ -1626,6 +1698,60 @@
       "license": "Commercial",
       "platforms": "SaaS or On-Premises",
       "note": "CloudDefense provides holistic threat intelligence across all attack surfaces - Containers, Kubernetes, Code, Open Source Libraries, APIs and more...",
+      "type": "SAST"
+   },
+    {
+      "title": "clj-holmes",
+      "url": "https://github.com/clj-holmes/clj-holmes",
+      "owner": "clj-holmes",
+      "license": "Open Source",
+      "platforms": "Linux and MacOs",
+      "note": "A CLI SAST (Static application security testing) tool which was built with the intent of finding vulnerable Clojure code via rules that use a simple pattern language.",
+      "type": "SAST"
+   },
+     {
+      "title": "OpenVAS by Greenbone",
+      "url": "https://github.com/greenbone/openvas-scanner",
+      "owner": "greenbone",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Open source full-featured vulnerability scanner, developed and maintained by Greenbone Networks GmbH.",
+      "type": "DAST"
+   },
+   {
+      "title": "SmartScanner",
+      "url": "https://www.TheSmartScanner.com",
+      "owner": "SmartScanner",
+      "license": "Commercial",
+      "platforms": "Windows",
+      "note": "Free (Limited Capability)",
+      "type": "DAST"
+   },
+   {
+      "title": "ThreatMapper",
+      "url": "https://github.com/deepfence/ThreatMapper",
+      "owner": "Deepfence",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Open source vulnerability discovery and prioritization for Kubernetes, Docker, Serverless and host-based workloads",
+      "type": "DAST"
+   },
+      {
+      "title": "SecretScanner",
+      "url": "https://github.com/deepfence/SecretScanner",
+      "owner": "Deepfence",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Find secrets (tokens, keys, passwords, etc) in containers and filesystems, supporting approx 140 different secret types",
+      "type": "DAST"
+   },
+   {
+      "title": "GitHub Advanced Security",
+      "url": "https://github.com/features/security",
+      "owner": "GitHub",
+      "license": "Open Source or Free",
+      "platforms": "SaaS or On-Premises",
+      "note": "GitHub Advanced Security uses CodeQL for Static Code Analysis, and GitHub Secret Scanning for identifying tokens. GitHub code scanning can import SARIF from any other SAST tool ",
       "type": "SAST"
    }
 ]
