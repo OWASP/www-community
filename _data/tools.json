@@ -333,6 +333,15 @@
       "type": "DAST"
    },
    {
+      "title": "Holm Security",
+      "url": "https://www.holmsecurity.com/product/web-application-scanning",
+      "owner": "Holm Security",
+      "license": "Commercial",
+      "platforms": "Saas or On-Premise",
+      "note": null,
+      "type": "DAST"
+   },   
+   {
       "title": "HostedScan.com",
       "url": "https://hostedscan.com",
       "owner": "HostedScan.com",
@@ -1575,10 +1584,10 @@
       "type": "SAST"
    },
    {
-      "title": "Polyspace Static Analysis Tools",
+      "title": "Polyspace Static Analysis",
       "url": "https://www.mathworks.com/products/polyspace.html",
       "owner": null,
-      "license": "Commercial",
+      "license": "Open Source or Free",
       "platforms": null,
       "note": "C, C++, Ada",
       "type": "SAST"
