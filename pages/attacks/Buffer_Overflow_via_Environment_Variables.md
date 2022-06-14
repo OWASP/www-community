@@ -26,9 +26,7 @@ The following conditions must be met to conduct successful attack:
   buffer overflow.
 - The vulnerable environment variable uses untrusted data.
 - Tainted data used in the environment variables is not properly
-  validated. For instance boundary checking is not done before copying
-
-the input data to a buffer.
+  validated. For instance boundary checking is not done before copying the input data to a buffer.
 
 The attacker performs the following steps:
 
