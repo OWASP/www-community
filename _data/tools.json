@@ -1762,5 +1762,14 @@
       "platforms": "SaaS or On-Premises",
       "note": "GitHub Advanced Security uses CodeQL for Static Code Analysis, and GitHub Secret Scanning for identifying tokens. GitHub code scanning can import SARIF from any other SAST tool ",
       "type": "SAST"
+   },
+   {
+      "title": "AppSweep",
+      "url": "https://www.guardsquare.com/appsweep-mobile-application-security-testing",
+      "owner": "Guardsquare",
+      "license": "Open Source or Free",
+      "platforms": "SaaS",
+      "note": "Mobile application security testing tool for compiled Android apps with support of CI/CD integration",
+      "type": "SAST"
    }
 ]
