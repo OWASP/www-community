@@ -23,9 +23,9 @@ Attackers can inject double encoding in pathnames or query strings to bypass the
 There are some common characters sets that are used in Web applications attacks. For example, [Path Traversal](/attacks/Path_Traversal)
 attacks use `../` (dot-dot-slash) , while [XSS](/attacks/xss) attacks use `<` and `>` characters. These characters give a hexadecimal representation that differs from normal data.
 
-For example, `../` (dot-dot-slash) characters represent `%2E%2E%2f` in hexadecimal representation. When the `%` symbol is encoded again, its representation in hexadecimal code is `%25`. The result from the double encoding process `../` (dot-dot-slash) would be `%252E%252E%252F`:
+For example, `../` (dot-dot-slash) characters represent `%2E%2E%2F` in hexadecimal representation. When the `%` symbol is encoded again, its representation in hexadecimal code is `%25`. The result from the double encoding process `../` (dot-dot-slash) would be `%252E%252E%252F`:
 
-- The hexadecimal encoding of `../` represents `%2E%2E%2f`
+- The hexadecimal encoding of `../` represents `%2E%2E%2F`
 - Then encoding the `%` represents `%25`
 - Double encoding of `../` represents `%252E%252E%252F`
 
