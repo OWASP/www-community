@@ -1762,5 +1762,14 @@
       "platforms": "SaaS",
       "note": "Mobile application security testing tool for compiled Android apps with support of CI/CD integration",
       "type": "SAST"
-   }
+   },
+   {
+      "title": "Mend SAST",
+      "url": "https://www.mend.io/sast/",
+      "owner": "Mend",
+      "license": "Commercial",
+      "platforms": null,
+      "note": "Static security analysis for 27+ languages.",
+      "type": "SAST"
+   },
 ]
