@@ -1099,11 +1099,11 @@
    },
    {
       "title": "CodeSonar",
-      "url": "https://www.grammatech.com/products/codesonar",
-      "owner": null,
+      "url": "https://www.grammatech.com/products/source-code-analysis",
+      "owner": "GrammaTech",
       "license": "Commercial",
       "platforms": null,
-      "note": "tool that supports C, C++, Java and C\\# and maps against the OWASP top 10 vulnerabilities.",
+      "note": "tool that supports C, C++, Java and C# and maps against the OWASP top 10 vulnerabilities.",
       "type": "SAST"
    },
    {
@@ -1491,15 +1491,6 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "Android, ASP.NET, C\\#, C, C++, Classic ASP, COBOL, ColdFusion/Java, Go, Groovy, iOS, Java, JavaScript, Perl, PhoneGap/Cordova, PHP, Python, React Native, RPG, Ruby on Rails, Scala, Titanium, TypeScript, VB.NET, Visual Basic 6, Xamarin",
-      "type": "SAST"
-   },
-   {
-      "title": "CodeSonar",
-      "url": "https://www.grammatech.com/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "C, C++, Java",
       "type": "SAST"
    },
    {
