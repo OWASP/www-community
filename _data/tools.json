@@ -1287,15 +1287,6 @@
       "type": "SAST"
    },
    {
-      "title": "Thunderscan SAST",
-      "url": "https://www.defensecode.com/thunderscan-sast/",
-      "owner": "DefenseCode",
-      "license": "Commercial",
-      "platforms": null,
-      "note": "Static security analysis for 27+ languages.",
-      "type": "SAST"
-   },
-   {
       "title": "Veracode Static Analysis",
       "url": "https://www.veracode.com/products/binary-static-analysis-sast",
       "owner": "Veracode",
@@ -1761,6 +1752,15 @@
       "license": "Open Source or Free",
       "platforms": "SaaS",
       "note": "Mobile application security testing tool for compiled Android apps with support of CI/CD integration",
+      "type": "SAST"
+   },
+   {
+      "title": "Mend SAST",
+      "url": "https://www.mend.io/sast/",
+      "owner": "Mend",
+      "license": "Commercial",
+      "platforms": null,
+      "note": "Static security analysis for 27+ languages.",
       "type": "SAST"
    }
 ]
