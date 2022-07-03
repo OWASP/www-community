@@ -1117,11 +1117,11 @@
    },
    {
       "title": "Coverity Static Analysis",
-      "url": "https://www.synopsys.com/content/dam/synopsys/sig-assets/datasheets/SAST-Coverity-datasheet.pdf",
+      "url": "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html",
       "owner": "Synopsys",
       "license": "Commercial",
       "platforms": null,
-      "note": null,
+      "note": "Apex, C/C++, C#, CUDA, Java#, JavaScript, PHP, Python, .NET Core, ASP.NET, Objective-C, Go, JSP, Ruby, Swift, Fortran, Scala, VB.NET, iOS, Android, TypeScript, Kotlin",
       "type": "SAST"
    },
    {
@@ -1527,15 +1527,6 @@
       "license": "Commercial",
       "platforms": null,
       "note": "Android, Apex, ASP, C, C++, COBOL, ColdFusion, Go, Java, JavaScript(Client-side JavaScript, NodeJS, and AngularJS), .NET (C#, ASP.NET, VB.NET), .NET Core, Perl, PHP, PL/SQL, Python, Ruby, T-SQL, Visual Basic 6",
-      "type": "SAST"
-   },
-   {
-      "title": "Coverity",
-      "url": "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Android, C\\#, C, C++, Java, JavaScript, Node.js, Objective-C, PHP, Python, Ruby, Scala, Swift, VB.NET",
       "type": "SAST"
    },
    {
