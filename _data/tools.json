@@ -1184,7 +1184,7 @@
       "owner": "Perforce",
       "license": "Commercial",
       "platforms": null,
-      "note": "Static Code Analysis for C, C++, C#, and Java",
+      "note": "Static Code Analysis for C, C++, C#, Java, JavaScript, Python, Kotlin",
       "type": "SAST"
    },
    {
@@ -1554,15 +1554,6 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": ".NET, C\\#",
-      "type": "SAST"
-   },
-   {
-      "title": "Klocwork",
-      "url": "https://www.roguewave.com/products-services/klocwork/static-code-analysis",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "C, C++, C\\#, Java",
       "type": "SAST"
    },
    {
