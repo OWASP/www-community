@@ -67,7 +67,7 @@ such tools could certainly be used. One such cloud service is:
     
 In addition, we are aware of the following commercial SAST tools that are free for Open Source projects:
 
-  - [Contrast CodeSec - Scan/Serverless](https://www.contrastsecurity.com/developer/codesec/) - Web App and API code scanner via command line or through GitHub actions. Scan supports Java, Javascript and .NET, while Serverless supports AWS Lambda Functions (Java + Python). These tools are actually free for all projects, not just open source.
+  - [Contrast CodeSec - Scan & Serverless](https://www.contrastsecurity.com/developer/codesec/) - Web App and API code scanners via command line or through GitHub actions. CodeSec - Scan supports Java, JavaScript and .NET, while CodeSec - Serverless supports AWS Lambda Functions (Java + Python). These tools are actually free for all projects, not just open source.
   - [Coverity Scan Static Analysis](https://scan.coverity.com/) - Can be lashed into Travis-CI so it's done automatically with online resources. Supports over a dozen programming languages.
   - [HCL AppScan CodeSweep](https://hclsw.co/codesweep) - This is a SAST community edition version of HCL AppScan. Free for everyone to use. The tool currently supports Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc), PHP, Perl, Go, TypeScript & more, with new languages being added frequently.
     - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription. 
@@ -85,33 +85,28 @@ capabilities. Our primary recommendation is to use one of these:
 
   - [OWASP ZAP](/www-project-zap) - A full
     featured free and open source DAST tool that includes both automated
-    scanning for vulnerabilities and tools to assist expert manual web
-    app pen testing.
+    scanning for vulnerabilities and tools to assist expert manual web app pen testing.
       - The ZAP team has also been working hard to make it easier to
-        integrate ZAP into your CI/CD pipeline. (e.g., here's a [blog
-        post on how to integrate ZAP with
+        integrate ZAP into your CI/CD pipeline. (e.g., here's a [blog post on how to integrate ZAP with
         Jenkins](https://www.we45.com/blog/how-to-integrate-zap-into-jenkins-ci-pipeline-we45-blog)).
   - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
     tool built on OWASP ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
     development and in CI/CD. The StackHawk platform allows you to manage findings over time in 
     different environments. StackHawk is free for Open Source projects and free to use on a single application.
-  - [Arachni](http://www.arachni-scanner.com/) - Arachni is a
-    commercially supported scanner, but its free for most use cases,
-    including scanning open source projects.
+  - [Arachni](http://www.arachni-scanner.com/) - Arachni is a commercially supported scanner, but its free for most use cases, including scanning open source projects.
   - [VWT Digital's sec-helpers](https://github.com/vwt-digital/sec-helpers/tree/master) -
     Collection of dynamic security related helpers.
     Sec-helpers is a bundle of useful tests and validators to ensure the security of
     a given domain.
   - [OWASP purpleteam](/www-project-purpleteam) - A security regression testing SaaS and CLI,
     perfect for inserting into your build pipelines. You don't need to write any tests yourself.
-    purpleteam is smart enough to know how to test,
-    you just need to provide a Job file which tells purpleteam what you want tested.
+    purpleteam is smart enough to know how to test, you just need to provide a Job file which tells purpleteam what you want tested.
     It has two main environments `local` and `cloud`.
       - `local` is OWASP - set everything up yourself in your own environment.
       - `cloud` is a proprietary offering with everything hosted for you in the cloud.
         You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam).  
         
-    purpleteam is pluggable, if it doesn't have a tester that you need you can add your own.
+    Purpleteam is pluggable, if it doesn't have a tester that you need you can add your own.
     One of the testers (the web application tester) uses OWASP ZAP under the hood.
 
 
@@ -124,8 +119,7 @@ IAST tools are typically geared to analyze Web Applications and Web
 APIs, but that is vendor specific. There may be IAST products that can
 perform good security analysis on non-web applications as well.
 
-We are aware of only one IAST Tool that is free after registration at
-this time:
+We are aware of only one IAST Tool that is free after registration at this time:
 
   - [Contrast Community Edition
     (CE)](https://www.contrastsecurity.com/contrast-community-edition) -
@@ -134,7 +128,7 @@ this time:
     
 ### API Web Scanners
 
-For tools which are API specific please refer to the OWASP community [API Security Tools](/api_security_tools) page.
+For tools which are API specific please refer to the OWASP community [API Security Tools](api_security_tools) page.
 
 ### Open Source Software (OSS) Security Tools
 
@@ -154,8 +148,7 @@ There are two recommended approaches for this:
 
 Using the latest version of each library is recommended because security
 issues are frequently fixed 'silently' by the component maintainer. By
-silently, we mean without publishing a [CVE](https://cve.mitre.org/) for
-the security fix.
+silently, we mean without publishing a [CVE](https://cve.mitre.org/) for the security fix.
 
   - [Maven Versions plugin](https://www.mojohaus.org/versions-maven-plugin/)
       - For Maven projects, can be used to generate a report of all
@@ -246,17 +239,14 @@ Commercial tools of this type that are free for open source:
 ### Code Quality tools
 
 Quality has a significant correlation to security. As such, we recommend
-open source projects also consider using good code quality tools. A few
-that we are aware of are:
+open source projects also consider using good code quality tools. A few that we are aware of are:
 
   - [SpotBugs](https://spotbugs.github.io/) - Open source code
     quality tool for Java
-      - This is the active fork for FindBugs, so if you use Findbugs,
-        you should switch to this.
+      - This is the active fork for FindBugs, so if you use Findbugs, you should switch to this.
       - SpotBugs users should add the FindSecBugs plugin
         (http://find-sec-bugs.github.io/) to their SpotBugs setup, as it
-        significantly improves on the very basic security checking
-        native to SpotBugs.
+        significantly improves on the very basic security checking native to SpotBugs.
 
   - [SonarQube](https://www.sonarqube.org/)
       - This is a commercially supported, very popular, free (and
@@ -274,8 +264,7 @@ that we are aware of are:
       - DeepScan is free for open source projects on GitHub.
 
 ### Security Tools Built into DevOps/CI Environments
-  - GitLab - is building security into their platform and it is quickly
-    evolving as described here:
+  - GitLab - is building security into their platform and it is quickly evolving as described here:
     <https://about.gitlab.com/direction/secure/#security-paradigm>
       - They are leveraging the best free open source tools they can find
         and building them into the GitLab CI pipeline to make it easy to
