@@ -47,8 +47,7 @@ owasp.org and we will make every effort to correct this information.</b>
 
 ## Free for Open Source Tools
 
-Tools that are free for open source projects in each of the above
-categories are listed below.
+Tools that are free for open source projects in each of the above categories are listed below.
 
 ### SAST Tools
 
@@ -68,17 +67,8 @@ such tools could certainly be used. One such cloud service is:
     
 In addition, we are aware of the following commercial SAST tools that are free for Open Source projects:
 
-  - [Coverity Scan Static Analysis](https://scan.coverity.com/) - Can be
-    lashed into Travis-CI so it's done automatically with online
-    resources. Supports over a dozen programming languages.
-  - [reshift](https://www.softwaresecured.com/reshift) - A CI/CD tool
-    that uses static code analysis to scan for vulnerabilities and uses
-    machine learning to give a prediction on false positives. Supports
-    Java with future support for NodeJS and JavaScript planned. If you 
-    go to the Pricing section on this page, it says it is free for public repositories.
-  - [Xanitizer](https://www.xanitizer.com/xanitizer-pricing/) - A SAST tool
-    for Java, Scala, and JavaScript/TypeScript. Per this pricing page, it
-    is free for Open Source projects if you contact the vendor.
+  - [Contrast CodeSec - Scan/Serverless](https://www.contrastsecurity.com/developer/codesec/) - Web App and API code scanner via command line or through GitHub actions. Scan supports Java, Javascript and .NET, while Serverless supports AWS Lambda Functions (Java + Python). These tools are actually free for all projects, not just open source.
+  - [Coverity Scan Static Analysis](https://scan.coverity.com/) - Can be lashed into Travis-CI so it's done automatically with online resources. Supports over a dozen programming languages.
   - [HCL AppScan CodeSweep](https://hclsw.co/codesweep) - This is a SAST community edition version of HCL AppScan. Free for everyone to use. The tool currently supports Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc), PHP, Perl, Go, TypeScript & more, with new languages being added frequently.
     - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription. 
     - [CodeSweep - JetBrains Plugin](https://hclsw.co/codesweep-jetbrains) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.  
@@ -144,7 +134,7 @@ this time:
     
 ### API Web Scanners
 
-For tools which are API specific please refer to the OWASP community [/api_security_tools](API Security Tools) page.
+For tools which are API specific please refer to the OWASP community [API Security Tools](/api_security_tools) page.
 
 ### Open Source Software (OSS) Security Tools
 
@@ -251,7 +241,7 @@ Commercial tools of this type that are free for open source:
       - Azure version:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
       - GitHub version:
-        <https://github.com/apps/whitesource-bolt-for-github>
+        <https://github.com/marketplace/whitesource-bolt>
 
 ### Code Quality tools
 
