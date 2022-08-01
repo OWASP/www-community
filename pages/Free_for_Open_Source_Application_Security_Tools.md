@@ -277,6 +277,10 @@ open source projects also consider using good code quality tools. A few that we 
         - [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
       - The specific tools enabled are language specific.
       - These security features are free for public open source projects on [GitLab.com](https://gitlab.com/)
+  - [Faraday](https://www.faradaysec.com/) - Open Source Vulnerability Manager
+      - Security has two difficult tasks: designing smart ways of getting new information, and keeping track of findings to improve remediation efforts.           With Faraday, you may focus on discovering vulnerabilities while we help you with the rest. Just use it in your terminal and get your work                 organized on the run. Faraday was made to let you take advantage of the available tools in the community in a truly multiuser way.
+      - Community Version: public open source projects on [Github](https://github.com/infobyte/faraday)
+
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
