@@ -36,20 +36,18 @@ There are several techniques to execute the attack; it depends on how
 the Web application deals with session tokens. Below are some of the
 most common techniques:
 
-**• Session token in the URL argument:** The Session ID is sent to the
+* **Session token in the URL argument:** The Session ID is sent to the
 victim in a hyperlink and the victim accesses the site through the
 malicious URL.
 
-**• Session token in a hidden form field:** In this method, the victim
+* **Session token in a hidden form field:** In this method, the victim
 must be tricked to authenticate in the target Web Server, using a login
 form developed for the attacker. The form could be hosted in the evil
 web server or directly in html formatted e-mail.
 
-**• Session ID in a cookie:**
+* **Session ID in a cookie:**
 
-o Client-side script
-
-Most browsers support the execution of client-side scripting. In this
+* **Client-side script:** Most browsers support the execution of client-side scripting. In this
 case, the aggressor could use attacks of code injection as the
 [XSS](Cross-site_Scripting_\(XSS\) "wikilink") (Cross-site scripting)
 attack to insert a malicious code in the hyperlink sent to the victim
@@ -58,23 +56,13 @@ the browser which executes the command becomes capable of fixing values
 inside of the cookie that it will use to keep a session between the
 client and the Web Application.
 
-o
-```
-<META>
-
-tag
-
-<META>
-```
-tag also is considered a code injection attack, however, different from
+* **`<meta>` tag:** `<META>` tag also is considered a code injection attack, however, different from
 the XSS attack where undesirable scripts can be disabled, or the
 execution can be denied. The attack using this method becomes much more
 efficient because it's impossible to disable the processing of these
 tags in the browsers.
 
-o HTTP header response
-
-This method explores the server response to fix the Session ID in the
+* **HTTP header response**: This method explores the server response to fix the Session ID in the
 victim's browser. Including the parameter Set-Cookie in the HTTP header
 response, the attacker is able to insert the value of Session ID in the
 cookie and sends it to the victim's browser.
@@ -106,7 +94,7 @@ Figure 1. Simple example of Session Fixation attack.
 
 ### Example 2
 
-Client-side scripting
+## Client-side scripting
 
 The processes for the attack using the execution of scripts in the
 victim's browser are very similar to example 1, however, in this case,
@@ -115,35 +103,29 @@ the cookie. To fix the value of the Session ID in the victim's cookie,
 the attacker could insert a JavaScript code in the URL that will be
 executed in the victim's browser.
 
-` http://website.kom/<script>document.cookie=”sessionid=abcd”;</script>`
+```html
+  http://website.kom/<script>document.cookie=”sessionid=abcd”;</script>
+ ```
 
 ### Example 3
-```
-<META>
-
-tag
-```
-As well as client-side scripting, the code injection must be made in the
+For the `<meta>` tag as well as client-side scripting, the code injection must be made in the
 URL that will be sent to the victim.
 
-`http://website.kon/<meta http-equiv=Set-Cookie content=”sessionid=abcd”>`
+```
+  http://website.kon/<meta http-equiv=Set-Cookie content=”sessionid=abcd”>
+```
 
 ### Example 4
 
-HTTP header response
+## HTTP header response
 
 The insertion of the value of the SessionID into the cookie manipulating
 the server response can be made, intercepting the packages exchanged
 between the client and the Web Application inserting the Set-Cookie
 parameter.
 
-<center>
-
-<https://www.owasp.org/images/e/ed/Fixation2.jpg>
-
+![Set-Cookie in the HTTP header response](https://www.owasp.org/images/e/ed/Fixation2.jpg)
 Figure 2. Set-Cookie in the HTTP header response
-
-</center>
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
@@ -166,9 +148,9 @@ Figure 2. Set-Cookie in the HTTP header response
 
 ## References
 
-  - <http://www.acros.si/papers/session_fixation.pdf>
-  - <http://en.wikipedia.org/wiki/Session_fixation>
-  - <http://www.derkeiler.com/pdf/Mailing-Lists/Securiteam/2002-12/0099.pdf>
+ * <http://www.acros.si/papers/session_fixation.pdf>
+ * <http://en.wikipedia.org/wiki/Session_fixation>
+ * <http://www.derkeiler.com/pdf/Mailing-Lists/Securiteam/2002-12/0099.pdf>
 
 ## Categories
 
