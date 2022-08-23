@@ -13,7 +13,7 @@ permalink: /Injection_Flaws
 
 ## Description
 
-An injection flaw is a vulnerability which allows an attacker to relay malicious code through an application to another system. This can include compromising both backend systems as well as other clients connected to the vunlerable application.
+An injection flaw is a vulnerability which allows an attacker to relay malicious code through an application to another system. This can include compromising both backend systems as well as other clients connected to the vulnerable application.
 
 The effects of these attacks include:
 
