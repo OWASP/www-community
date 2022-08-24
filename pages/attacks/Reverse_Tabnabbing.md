@@ -29,7 +29,7 @@ possible even if the target site is only available via https as the
 attacker only needs to spoof the http site that is being linked to.
 
 The attack is typically possible when the source site uses a `target`
-instruction in a html link to specify a [target loading
+instruction in a [html link](https://www.scaler.com/topics/html/html-links/) to specify a [target loading
 location](https://www.w3schools.com/tags/att_a_target.asp) that do not
 replace the current location and then let the current window/tab
 available and does not include any of the preventative measures detailed
