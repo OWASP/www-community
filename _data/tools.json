@@ -1735,5 +1735,14 @@
       "platforms": null,
       "note": "Static security analysis for 27+ languages.",
       "type": "SAST"
+   },
+   {
+      "title": "Automated Security Helper",
+      "url": "https://github.com/aws-samples/automated-security-helper",
+      "owner": "AWS",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Javascript, Python, Jupyter Notebooks, Terraform, Cloudformation",
+      "type": "SAST"
    }
 ]
