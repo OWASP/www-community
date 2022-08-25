@@ -1735,5 +1735,14 @@
       "platforms": null,
       "note": "Static security analysis for 27+ languages.",
       "type": "SAST"
+   },
+   {
+      "title": "Automated Security Helper",
+      "url": "https://github.com/aws-samples/automated-security-helper",
+      "owner": "AWS",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter.",
+      "type": "SAST"
    }
 ]
