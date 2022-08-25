@@ -1742,7 +1742,7 @@
       "owner": "AWS",
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "Javascript, Python, Jupyter Notebooks, Terraform, Cloudformation",
+      "note": "ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter.",
       "type": "SAST"
    }
 ]
