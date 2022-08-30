@@ -1744,5 +1744,14 @@
       "platforms": null,
       "note": "ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter.",
       "type": "SAST"
+   },
+   {
+      "title": "Understand",
+      "url": "https://www.scitools.com",
+      "owner": "SciTools",
+      "license": "Commercial",
+      "platforms": "Windows, MacOSX, Linux",
+      "note": "IDE that provides static code analysis using graphs, documentation, and metrics. Scans code to check for vulnerabilities and ensures compliance with standards like MISRA and AUTOSAR. Works with 20 languages including C, C++, C#, JavaScript, Python, and Java.",
+      "type": "SAST"
    }
 ]
