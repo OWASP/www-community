@@ -309,9 +309,9 @@ At the next iteration, threats are further analyzed by exploring the attack path
 
 Once common threats, vulnerabilities, and attacks are assessed, a more focused threat analysis should take into consideration use and abuse cases. By thoroughly analyzing the use scenarios, weaknesses can be identified that could lead to the realization of a threat. Abuse cases should also be identified. These abuse cases can illustrate how existing protective measures could be bypassed, or where a lack of such protection exists.
 
-A use and misuse case graph for authentication is shown below:
+A use and abuse case graph for authentication is shown below:
 
-![Use And MisuseCase](../assets/images/UseAndMisuseCase.jpg)
+![Use And Abuse Case](../assets/images/UseAndMisuseCase.jpg)
 
 *Figure 4: Use and Misuse Cases*
 
