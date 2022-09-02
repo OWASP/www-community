@@ -3,7 +3,7 @@
 title: Threat Modeling Process
 layout: col-sidebar
 author: Larry Conklin
-contributors: ["Victoria Drake"]
+contributors: ["Victoria Drake", "Sven strittmatter"]
 tags: ["threat modeling"]
 permalink: /Threat_Modeling_Process
 
@@ -41,7 +41,7 @@ permalink: /Threat_Modeling_Process
 
 This document describes a structured approach to application threat modeling that enables you to identify, quantify, and address the security risks associated with an application.
 
-Threat modeling looks at a system from a potential attacker's perspective, as opposed to a defender's viewpoint. Making threat modeling a core component of your SDLC can help increase product security.
+Threat modeling looks at a system from a potential attacker's perspective, as opposed to a defender's viewpoint. Making threat modeling a core component of your [SDLC][wiki-sdlc] can help increase product security.
 
 The threat modeling process can be decomposed into three high level steps. Each step is documented as it is carried out. The resulting document is the threat model for the application.
 
@@ -54,15 +54,15 @@ The first step in the threat modeling process is concerned with gaining an under
 - Identifying assets, i.e. items or areas that the attacker would be interested in.
 - Identifying trust levels that represent the access rights that the application will grant to external entities.
 
-This information is documented in a resulting Threat Model document. It is also used to produce data flow diagrams (DFDs) for the application. The DFDs show the different paths through the system, highlighting the privilege boundaries.
+This information is documented in a resulting Threat Model document. It is also used to produce data flow diagrams ([DFDs][wiki-dfd]) for the application. The [DFDs][wiki-dfd] show the different paths through the system, highlighting the privilege boundaries.
 
 ### Step 2: Determine and Rank Threats
 
-Critical to the identification of threats is using a threat categorization methodology. A threat categorization such as STRIDE can be used, or the Application Security Frame (ASF) that defines threat categories such as Auditing & Logging, Authentication, Authorization, Configuration Management, Data Protection in Storage and Transit, Data Validation, and Exception Management.
+Critical to the identification of threats is using a threat categorization methodology. A threat categorization such as [STRIDE][wiki-stride] can be used, or the Application Security Frame (ASF) that defines threat categories such as Auditing & Logging, Authentication, Authorization, Configuration Management, Data Protection in Storage and Transit, Data Validation, and Exception Management.
 
-The goal of the threat categorization is to help identify threats both from the attacker (STRIDE) and the defensive perspective (ASF). DFDs produced in step 1 help to identify the potential threat targets from the attacker's perspective, such as data sources, processes, data flows, and interactions with users.
+The goal of the threat categorization is to help identify threats both from the attacker ([STRIDE][wiki-stride]) and the defensive perspective (ASF). [DFDs][wiki-dfd] produced in step 1 help to identify the potential threat targets from the attacker's perspective, such as data sources, processes, data flows, and interactions with users.
 
-These threats can be classified further as the roots for threat trees; there is one tree for each threat goal. From the defensive perspective, ASF categorization helps to identify the threats as weaknesses of security controls for such threats. Common threat lists with examples can help in the identification of such threats. Use and abuse cases can illustrate how existing protective measures could be bypassed, or where a lack of such protection exists. The determination of the security risk for each threat can be made using a value-based risk model such as DREAD, or a less subjective qualitative risk model based upon general risk factors (e.g. likelihood and impact).
+These threats can be classified further as the roots for threat trees; there is one tree for each threat goal. From the defensive perspective, ASF categorization helps to identify the threats as weaknesses of security controls for such threats. Common threat lists with examples can help in the identification of such threats. Use and abuse cases can illustrate how existing protective measures could be bypassed, or where a lack of such protection exists. The determination of the security risk for each threat can be made using a value-based risk model such as [DREAD][wiki-dread], or a less subjective qualitative risk model based upon general risk factors (e.g. likelihood and impact).
 
 ### Step 3: Determine Countermeasures and Mitigation
 
@@ -230,13 +230,13 @@ Example:
 
 ### Data Flow Diagrams
 
-All of the information collected allows us to accurately model the application through the use of Data Flow Diagrams (DFDs). The DFDs will allow us to gain a better understanding of the application by providing a visual representation of how the application processes data.
+All of the information collected allows us to accurately model the application through the use of Data Flow Diagrams ([DFDs][wiki-dfd]). The [DFDs][wiki-dfd] will allow us to gain a better understanding of the application by providing a visual representation of how the application processes data.
 
 Data flows show how data flows logically through the application, end to end. They allow the identification of affected components through critical points (e.g. data entering or leaving the system, storage of data) and the flow of control through these components.
 
-The focus of the DFDs is on how data moves through the application and what happens to the data as it moves. DFDs are hierarchical in structure, so they can be used to decompose the application into subsystems and lower-level subsystems. The high-level DFD will allow us to clarify the scope of the application being modeled. The lower level iterations will allow us to focus on the specific processes involved when processing specific data.
+The focus of the [DFDs][wiki-dfd] is on how data moves through the application and what happens to the data as it moves. [DFDs][wiki-dfd] are hierarchical in structure, so they can be used to decompose the application into subsystems and lower-level subsystems. The high-level [DFD][wiki-dfd] will allow us to clarify the scope of the application being modeled. The lower level iterations will allow us to focus on the specific processes involved when processing specific data.
 
-There are a number of symbols that are used in DFDs for threat modeling. These are described below:
+There are a number of symbols that are used in [DFDs][wiki-dfd] for threat modeling. These are described below:
 
 | Symbol | Name | Description |
 |---|---|---|
@@ -265,7 +265,7 @@ The first step in the determination of threats is adopting a threat categorizati
 
 ### STRIDE
 
-A threat categorization such as STRIDE is useful in the identification of threats by classifying attacker goals such as:
+A threat categorization such as [STRIDE][wiki-stride] is useful in the identification of threats by classifying attacker goals such as:
 
 - **S**poofing
 - **T**ampering
@@ -274,7 +274,7 @@ A threat categorization such as STRIDE is useful in the identification of threat
 - **D**enial of Service
 - **E**levation of Privilege
 
-A list of generic threats classified using STRIDE is provided in the following table along with their security controls:
+A list of generic threats classified using [STRIDE][wiki-stride] is provided in the following table along with their security controls:
 
 ## STRIDE Threat List
 
@@ -287,7 +287,7 @@ A list of generic threats classified using STRIDE is provided in the following t
 | Denial of service | Threat action attempting to deny access to valid users, such as by making a web server temporarily unavailable or unusable. | Availability |
 | Elevation of privilege | Threat action intending to gain privileged access to resources in order to gain unauthorized access to information or to compromise a system. | Authorization |
 
-Threat lists based on the STRIDE model are useful in the identification of threats with regards to the attacker goals. For example, if the threat scenario is attacking the login, would the attacker brute force the password to break the authentication? If the threat scenario is to try to elevate privileges to gain another user’s privileges, would the attacker try to perform forced browsing?
+Threat lists based on the [STRIDE][wiki-stride] model are useful in the identification of threats with regards to the attacker goals. For example, if the threat scenario is attacking the login, would the attacker brute force the password to break the authentication? If the threat scenario is to try to elevate privileges to gain another user’s privileges, would the attacker try to perform forced browsing?
 
 ### Threat Analysis
 
@@ -315,7 +315,7 @@ A use and misuse case graph for authentication is shown below:
 
 *Figure 4: Use and Misuse Cases*
 
-The outcome of threat analysis is a determination of the types of threats posed to each component of the decomposed system. This can be documented using a threat categorization such as STRIDE or ASF, the use of threat trees to determine how the threat can be exposed by a vulnerability, and use and misuse cases to further validate the lack of any countermeasures for mitigation.
+The outcome of threat analysis is a determination of the types of threats posed to each component of the decomposed system. This can be documented using a threat categorization such as [STRIDE][wiki-stride] or ASF, the use of threat trees to determine how the threat can be exposed by a vulnerability, and use and misuse cases to further validate the lack of any countermeasures for mitigation.
 
 ### Ranking of Threats
 
@@ -327,7 +327,7 @@ Threats can be ranked from the perspective of risk factors. By determining the r
 
 ### Subjective Model: DREAD
 
-In the Microsoft DREAD risk assessment model, risk factorization allows the assignment of values to the different influencing factors of a threat. This provides a subjective process to rank threats. To determine the ranking of a threat, the threat analyst answers questions for each factor of risk, for example:
+In the Microsoft [DREAD][wiki-dread] risk assessment model, risk factorization allows the assignment of values to the different influencing factors of a threat. This provides a subjective process to rank threats. To determine the ranking of a threat, the threat analyst answers questions for each factor of risk, for example:
 
 - **D**amage: How big would the damage be if the attack succeeded?
 - **R**eproducibility: How easy is it to reproduce an attack?
@@ -335,7 +335,7 @@ In the Microsoft DREAD risk assessment model, risk factorization allows the assi
 - **A**ffected Users: If a threat were exploited, what percentage of users would be affected?
 - **D**iscoverability: How easy is it for an attacker to discover this threat?
 
-A point system of numbers 1-10, representing low to high severity, is used to calculate a DREAD score that can help compare one threat to another.
+A point system of numbers 1-10, representing low to high severity, is used to calculate a [DREAD][wiki-dread] score that can help compare one threat to another.
 
 Example:
 
@@ -349,7 +349,7 @@ Example:
 > 
 > Overall DREAD score for this threat: (8+10+7+10+10) / 5 = 9
 
-The DREAD model does not have widespread use across the industry, as its ratings are subjective. Within an organization, however, models that employ subjective ranking can help to clarify priorities when addressing risk.
+The [DREAD][wiki-dread] model does not have widespread use across the industry, as its ratings are subjective. Within an organization, however, models that employ subjective ranking can help to clarify priorities when addressing risk.
 
 ### Qualitative Risk Model
 
@@ -379,11 +379,11 @@ Questions to help determine the number of components that are affected by a thre
 1. How many connected data sources and systems can be impacted?
 2. How many layers into infrastructure components can the threat agent traverse?
 
-These examples help in the calculation of the overall risk values by assigning qualitative values such as High, Medium and Low to the likelihood and impact factors. In this case, using qualitative values, rather than numeric ones like in the case of the DREAD model, help avoid the ranking becoming overly subjective.
+These examples help in the calculation of the overall risk values by assigning qualitative values such as High, Medium and Low to the likelihood and impact factors. In this case, using qualitative values, rather than numeric ones like in the case of the [DREAD][wiki-dread] model, help avoid the ranking becoming overly subjective.
 
 ## Determine Countermeasures and Mitigation
 
-The purpose of countermeasure identification is to determine if there is some kind of protective measure (e.g. security control, policies) that can prevent a threat from being realized. Vulnerabilities are then those threats that have no countermeasures. When threats have been categorized either with STRIDE or ASF, it is possible to find appropriate countermeasures within the given category.
+The purpose of countermeasure identification is to determine if there is some kind of protective measure (e.g. security control, policies) that can prevent a threat from being realized. Vulnerabilities are then those threats that have no countermeasures. When threats have been categorized either with [STRIDE][wiki-stride] or ASF, it is possible to find appropriate countermeasures within the given category.
 
 Provided below is a brief and limited checklist which is by no means an exhaustive list for identifying countermeasures for specific threats.
 
@@ -400,7 +400,7 @@ Provided below is a brief and limited checklist which is by no means an exhausti
 | User and Session Management | 1. No sensitive information is stored in clear text in the cookie <br />2. The contents of the authentication cookies is encrypted <br />3. Cookies are configured to expire <br />4. Sessions are resistant to replay attacks <br />5. Secure communication channels are used to protect authentication cookies <br />6. User is forced to re-authenticate when performing critical functions <br />7. Sessions are expired at logout |
 | Auditing and Logging | 1. Sensitive information (e.g. passwords, PII) is not logged <br />2. Access controls (e.g. ACLs) are enforced on log files to prevent un-authorized access <br />3. Integrity controls (e.g. signatures) are enforced on log files to provide non-repudiation <br />4. Log files provide for audit trail for sensitive operations and logging of key events <br />5. Auditing and logging is enabled across the tiers on multiple servers |
 
-When using STRIDE, the following threat-mitigation table can be used to identify techniques that can be employed to mitigate the threats.
+When using [STRIDE][wiki-stride], the following threat-mitigation table can be used to identify techniques that can be employed to mitigate the threats.
 
 ### STRIDE Threat & Mitigation Techniques
 
@@ -421,6 +421,11 @@ Once threats and corresponding countermeasures are identified, it is possible to
 
 ## Complementing Code Review
 
-Threat modeling is not an approach to reviewing code, but it does complement the security code review process. The inclusion of threat modeling early on in the Software Development Life Cycle (SDLC) can help to ensure that applications are being developed with appropriate security threat mitigations from the very beginning. This, combined with the documentation produced as part of the threat modeling process, can give code reviewers a greater understanding of the system. This allows the reviewer to see where the entry points to the application are and the associated threats with each entry point.
+Threat modeling is not an approach to reviewing code, but it does complement the security code review process. The inclusion of threat modeling early on in the Software Development Life Cycle ([SDLC][wiki-sdlc]) can help to ensure that applications are being developed with appropriate security threat mitigations from the very beginning. This, combined with the documentation produced as part of the threat modeling process, can give code reviewers a greater understanding of the system. This allows the reviewer to see where the entry points to the application are and the associated threats with each entry point.
 
-When source code analysis is performed outside the SDLC, such as on existing applications, threat modeling helps to clarify the complexity of source code analysis. It promotes a depth-first approach instead of a breadth-first approach. In other words, instead of reviewing all source code with equal focus, you can prioritize the security code review of components where the threat modelling indicates higher-risk threats.
+When source code analysis is performed outside the [SDLC][wiki-sdlc], such as on existing applications, threat modeling helps to clarify the complexity of source code analysis. It promotes a depth-first approach instead of a breadth-first approach. In other words, instead of reviewing all source code with equal focus, you can prioritize the security code review of components where the threat modelling indicates higher-risk threats.
+
+[wiki-dread]:   https://en.wikipedia.org/wiki/DREAD_(risk_assessment_model)
+[wiki-sdlc]:    https://en.wikipedia.org/wiki/Systems_development_life_cycle
+[wiki-dfd]:     https://en.wikipedia.org/wiki/Data-flow_diagram
+[wiki-stride]:  https://en.wikipedia.org/wiki/STRIDE_%28security%29
