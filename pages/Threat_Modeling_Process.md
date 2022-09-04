@@ -287,7 +287,7 @@ A list of generic threats classified using [STRIDE][wiki-stride] is provided in 
 | Denial of service | Threat action attempting to deny access to valid users, such as by making a web server temporarily unavailable or unusable. | Availability |
 | Elevation of privilege | Threat action intending to gain privileged access to resources in order to gain unauthorized access to information or to compromise a system. | Authorization |
 
-Threat lists based on the [STRIDE][wiki-stride] model are useful in the identification of threats with regards to the attacker goals. For example, if the threat scenario is attacking the login, would the attacker brute force the password to break the authentication? If the threat scenario is to try to elevate privileges to gain another user’s privileges, would the attacker try to perform forced browsing?
+Threat lists based on the [STRIDE][wiki-stride] model are useful in the identification of threats with regards to the attacker goals. For example, if the threat scenario is attacking the login, would the attacker brute force the password to break the authentication? If the threat scenario is to try to elevate privileges to gain another user’s privileges, would the attacker try to perform [forced browsing][owasp-forced browsing]?
 
 ### Threat Analysis
 
@@ -309,9 +309,9 @@ At the next iteration, threats are further analyzed by exploring the attack path
 
 Once common threats, vulnerabilities, and attacks are assessed, a more focused threat analysis should take into consideration use and abuse cases. By thoroughly analyzing the use scenarios, weaknesses can be identified that could lead to the realization of a threat. Abuse cases should also be identified. These abuse cases can illustrate how existing protective measures could be bypassed, or where a lack of such protection exists.
 
-A use and misuse case graph for authentication is shown below:
+A use and abuse case graph for authentication is shown below:
 
-![Use And MisuseCase](../assets/images/UseAndMisuseCase.jpg)
+![Use And Abuse Case](../assets/images/UseAndMisuseCase.jpg)
 
 *Figure 4: Use and Misuse Cases*
 
@@ -425,7 +425,8 @@ Threat modeling is not an approach to reviewing code, but it does complement the
 
 When source code analysis is performed outside the [SDLC][wiki-sdlc], such as on existing applications, threat modeling helps to clarify the complexity of source code analysis. It promotes a depth-first approach instead of a breadth-first approach. In other words, instead of reviewing all source code with equal focus, you can prioritize the security code review of components where the threat modelling indicates higher-risk threats.
 
-[wiki-dread]:   https://en.wikipedia.org/wiki/DREAD_(risk_assessment_model)
-[wiki-sdlc]:    https://en.wikipedia.org/wiki/Systems_development_life_cycle
-[wiki-dfd]:     https://en.wikipedia.org/wiki/Data-flow_diagram
-[wiki-stride]:  https://en.wikipedia.org/wiki/STRIDE_%28security%29
+[owasp-forced browsing]:  https://owasp.org/www-community/attacks/Forced_browsing
+[wiki-dread]:             https://en.wikipedia.org/wiki/DREAD_(risk_assessment_model)
+[wiki-sdlc]:              https://en.wikipedia.org/wiki/Systems_development_life_cycle
+[wiki-dfd]:               https://en.wikipedia.org/wiki/Data-flow_diagram
+[wiki-stride]:            https://en.wikipedia.org/wiki/STRIDE_%28security%29
