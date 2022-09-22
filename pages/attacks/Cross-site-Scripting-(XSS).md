@@ -125,7 +125,7 @@ complete account compromise. The most severe XSS attacks involve
 disclosure of the user’s session cookie, allowing an attacker to hijack
 the user’s session and take over the account. Other damaging attacks
 include the disclosure of end user files, installation of Trojan horse
-programs, redirect the user to some other page or site, or modify
+programs, redirecting the user to some other page or site, or modifying
 presentation of content. An XSS vulnerability allowing an attacker to
 modify a press release or news item could affect a company’s stock price
 or lessen consumer confidence. An XSS vulnerability on a pharmaceutical
