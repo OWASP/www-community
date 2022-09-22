@@ -16,7 +16,6 @@ permalink: meetings/
 -->
 
 <br>
-{% comment %}
 {% assign events = site.data.community_events | sort: 'date' %}
 {% assign prevdate = nil %}
 
@@ -50,5 +49,3 @@ permalink: meetings/
 <br>
   {% assign i = i | plus: 1 %}
 {% endfor %}
-
-{% endcomment %}
