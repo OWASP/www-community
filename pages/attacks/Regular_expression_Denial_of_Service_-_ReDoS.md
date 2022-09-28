@@ -171,7 +171,7 @@ will hang.
 - [Regular expression Denial of Service Revisited, Sep-2009](http://www.checkmarx.com/NewsDetails.aspx?id=23&cat=3)
 - [RegExLib](http://regexlib.com/)
 - [ReDOS Attacks: From the Exploitation to the Prevention (in .NET)](https://dzone.com/articles/regular-expressions-denial)
-- [Tool for detecting ReDoS vulnerabilities.](http://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
+- [Tool for detecting ReDoS vulnerabilities.](https://web.archive.org/web/20211027135828/https://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
 - Examples of ReDoS in open source applications:
     - [ReDoS in DataVault](https://nvd.nist.gov/vuln/detail/CVE-2009-3277)
     - [ReDoS in EntLib](https://nvd.nist.gov/vuln/detail/CVE-2009-3275)
