@@ -281,6 +281,12 @@ open source projects also consider using good code quality tools. A few that we 
       - Security has two difficult tasks: designing smart ways of getting new information, and keeping track of findings to improve remediation efforts.           With Faraday, you may focus on discovering vulnerabilities while we help you with the rest. Just use it in your terminal and get your work                 organized on the run. Faraday was made to let you take advantage of the available tools in the community in a truly multiuser way.
       - Community Version: public open source projects on [Github](https://github.com/infobyte/faraday)
 
+### Secrets detection Tools
+  - [GitGuardian](https://gitguardian.com/) 
+    - A commercial tool that scan your Git repositories’ history and monitor new contributions in real-time for secrets. It examine secrets exposure trends over time and monitor team performance.
+      It is free for open source repositories hosted under your GitHub Organization : <https://www.gitguardian.com/pricing>
+    - [Container Scanning](https://www.gitguardian.com/ggshield)
+    ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hardcoded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
