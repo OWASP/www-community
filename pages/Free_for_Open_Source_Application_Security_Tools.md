@@ -298,8 +298,7 @@ Secrets detection is often confused with SAST because both scan through static s
   - [GitGuardian](https://gitguardian.com/) 
     - A commercial tool that scans your Git repositories’ history and monitors new contributions in real-time for secrets. It examines secret exposure trends over time and monitors team performance.
       It is free for open source repositories hosted under your GitHub Organization: <https://www.gitguardian.com/pricing>
-    - [Container Scanning](https://www.gitguardian.com/ggshield)
-    ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hardcoded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
+    - [Container Scanning](https://www.gitguardian.com/ggshield) ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hard coded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
 
 
 Please let us know if you are aware of any other high quality
