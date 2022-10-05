@@ -281,6 +281,25 @@ open source projects also consider using good code quality tools. A few that we 
       - Security has two difficult tasks: designing smart ways of getting new information, and keeping track of findings to improve remediation efforts.           With Faraday, you may focus on discovering vulnerabilities while we help you with the rest. Just use it in your terminal and get your work                 organized on the run. Faraday was made to let you take advantage of the available tools in the community in a truly multiuser way.
       - Community Version: public open source projects on [Github](https://github.com/infobyte/faraday)
 
+### Secrets Detection Tools
+
+Secrets detection is often confused with SAST because both scan through static source code. Secrets detection scan the default branch before deployment but can also scan through every single commit of the git history, covering every branch, even development or test ones.
+
+  - [Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) - Open Source
+    - detect-secrets is an aptly named module for detecting secrets within a code base. Unlike other similar packages that solely focus on finding secrets, this package is designed with the enterprise client in mind: providing a backwards compatible means to prevent new secrets from entering the code base.
+  
+  - [Gitleaks](https://github.com/zricethezav/gitleaks) - Gitleaks is a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories
+    - All code is open-source (gitleaks) or source-available (Gitleaks-Action).
+    - Over 140 secret types with new types being added all the time: <https://github.com/zricethezav/gitleaks/tree/master/cmd/generate/config/rules>
+
+  - [Gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations
+    - Gitrob is a tool to help find potentially sensitive files pushed to public repositories on Github. Gitrob will clone repositories belonging to a user or organization down to a configurable depth and iterate through the commit history and flag files that match signatures for potentially sensitive files. The findings will be presented through a web interface for easy browsing and analysis.
+
+  - [GitGuardian](https://gitguardian.com/) 
+    - A commercial tool that scans your Git repositories’ history and monitors new contributions in real-time for secrets. It examines secret exposure trends over time and monitors team performance.
+      It is free for open source repositories hosted under your GitHub Organization: <https://www.gitguardian.com/pricing>
+    - [Container Scanning](https://www.gitguardian.com/ggshield) ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hard coded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
+
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
