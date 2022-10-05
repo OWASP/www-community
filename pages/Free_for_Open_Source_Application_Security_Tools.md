@@ -283,7 +283,7 @@ open source projects also consider using good code quality tools. A few that we 
 
 ### Secrets Detection Tools
 
-Secrets detection is often confused with SAST because both scan through static source code. Secrets detection scan the master branch before deployment but also scan through every single commit of the git history, covering every branch, even development or test ones.
+Secrets detection is often confused with SAST because both scan through static source code. Secrets detection scan the default branch before deployment but can also scan through every single commit of the git history, covering every branch, even development or test ones.
 
   - [Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) - Open Source
     - detect-secrets is an aptly named module for detecting secrets within a code base. Unlike other similar packages that solely focus on finding secrets, this package is designed with the enterprise client in mind: providing a backwards compatible means to prevent new secrets from entering the code base.
