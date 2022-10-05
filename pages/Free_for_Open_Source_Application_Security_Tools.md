@@ -281,7 +281,7 @@ open source projects also consider using good code quality tools. A few that we 
       - Security has two difficult tasks: designing smart ways of getting new information, and keeping track of findings to improve remediation efforts.           With Faraday, you may focus on discovering vulnerabilities while we help you with the rest. Just use it in your terminal and get your work                 organized on the run. Faraday was made to let you take advantage of the available tools in the community in a truly multiuser way.
       - Community Version: public open source projects on [Github](https://github.com/infobyte/faraday)
 
-### Secrets detection Tools
+### Secrets Detection Tools
 
 Secrets detection is often confused with SAST because both scan through static source code. Secrets detection scan the master branch before deployment but also scan through every single commit of the git history, covering every branch, even development or test ones.
 
