@@ -296,7 +296,7 @@ Secrets detection is often confused with SAST because both scan through static s
     - Gitrob is a tool to help find potentially sensitive files pushed to public repositories on Github. Gitrob will clone repositories belonging to a user or organization down to a configurable depth and iterate through the commit history and flag files that match signatures for potentially sensitive files. The findings will be presented through a web interface for easy browsing and analysis.
 
   - [GitGuardian](https://gitguardian.com/) 
-    - A commercial tool that scan your Git repositories’ history and monitor new contributions in real-time for secrets. It examine secrets exposure trends over time and monitor team performance.
+    - A commercial tool that scans your Git repositories’ history and monitors new contributions in real-time for secrets. It examines secret exposure trends over time and monitors team performance.
       It is free for open source repositories hosted under your GitHub Organization: <https://www.gitguardian.com/pricing>
     - [Container Scanning](https://www.gitguardian.com/ggshield)
     ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hardcoded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
