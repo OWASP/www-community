@@ -558,12 +558,48 @@
       "type": "DAST"
    },
    {
-      "title": "Snyk",
+      "title": "Snyk Open Source",
+      "url": "https://snyk.io/product/open-source-security-management/",
+      "owner": "Snyk Limited",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "Software composition analysis (SCA) solution helping developers find, prioritize, and fix security vulnerabilities and license issues in open source dependencies.",
+      "type": "SAST"
+   },
+   {
+      "title": "Snyk Container",
+      "url": "https://snyk.io/product/container-vulnerability-management/",
+      "owner": "Snyk Limited",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "Container and Kubernetes security that helps developers and DevOps find and fix vulnerabilities throughout the SDLC.",
+      "type": "SAST"
+   },
+   {
+      "title": "Snyk IaC",
+      "url": "https://snyk.io/product/infrastructure-as-code-security/",
+      "owner": "Snyk Limited",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "Reduce risk by automating Infrastructure as Code (IaC) security and compliance in development workflows pre-deployment and detecting drifted and missing resources post-deployment.",
+      "type": "SAST"
+   },
+   {
+      "title": "Snyk Cloud",
       "url": "https://snyk.io",
       "owner": "Snyk Limited",
       "license": "Commercial or Free",
       "platforms": "SaaS, IDE Plugin",
-      "note": "Find, learn and fix vulnerabilities in open source dependencies, in your application code, in container images or insecure configurations in Terraform and Kubernetes.",
+      "note": "Detects cloud security issues as soon as developers start designing configurations, providing expert guidance to cloud, platform, and security teams in the tools and workflows they use every day.",
+      "type": "SAST"
+   },
+   {
+      "title": "Snyk Code",
+      "url": "https://snyk.io/product/snyk-code/",
+      "owner": "Snyk Limited",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "AI-powered code checker that analyzes your code for security issues, providing actionable advice directly from your IDE to help you fix vulnerabilities quickly",
       "type": "SAST"
    },
    {
