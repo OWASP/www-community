@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: Cross Site Scripting (XSS)
 author: KirstenS
-contributors: Jim Manico, Jeff Williams, Dave Wichers, Adar Weidman, Roman, Alan Jex, Andrew Smith, Jeff Knutson, Imifos, Erez Yalon, kingthorin, Vikas Khanna
+contributors: Jim Manico, Jeff Williams, Dave Wichers, Adar Weidman, Roman, Alan Jex, Andrew Smith, Jeff Knutson, Imifos, Erez Yalon, kingthorin, Vikas Khanna. Grant Ongers
 permalink: /attacks/xss/
 tags: attack, XSS
 
@@ -68,25 +68,12 @@ attacker, redirecting the victim to web content controlled by the
 attacker, or performing other malicious operations on the user's machine
 under the guise of the vulnerable site.
 
-### Stored and Reflected XSS Attacks
+### Reflected and Stored XSS Attacks
 
-XSS attacks can generally be categorized into two categories: stored and
-reflected. There is a third, much less well-known type of XSS attack
+XSS attacks can generally be categorized into two categories: reflected 
+and stored. There is a third, much less well-known type of XSS attack
 called [DOM Based XSS](../DOM_Based_XSS) that is discussed
 separately [here](../DOM_Based_XSS).
-
-#### Stored XSS Attacks
-
-Stored attacks are those where the injected script is permanently stored
-on the target servers, such as in a database, in a message forum,
-visitor log, comment field, etc. The victim then retrieves the malicious
-script from the server when it requests the stored information. Stored
-XSS is also sometimes referred to as Persistent or Type-I XSS.
-
-#### Blind Cross-site Scripting 
-
-Blind Cross-site Scripting is a form of persistent XSS. It generally occurs when the attacker's payload saved on the server and reflected back to the victim from the backend application. For example in feedback forms, an attacker can submit the malicious payload using the form, and once the backend user/admin of the application will open the attacker's submitted form via the backend application, the attacker’s payload will get executed. 
-Blind Cross-site Scripting is hard to confirm in the real-world scenario but one of the best tools for this is XSS Hunter.
 
 #### Reflected XSS Attacks
 
@@ -100,7 +87,21 @@ specially crafted form, or even just browsing to a malicious site, the
 injected code travels to the vulnerable web site, which reflects the
 attack back to the user’s browser. The browser then executes the code
 because it came from a "trusted" server. Reflected XSS is also sometimes
-referred to as Non-Persistent or Type-II XSS.
+referred to as Non-Persistent or Type-I XSS (the attack is carried out 
+through a single request / response cycle).
+
+#### Stored XSS Attacks
+
+Stored attacks are those where the injected script is permanently stored
+on the target servers, such as in a database, in a message forum,
+visitor log, comment field, etc. The victim then retrieves the malicious
+script from the server when it requests the stored information. Stored
+XSS is also sometimes referred to as Persistent or Type-II XSS.
+
+#### Blind Cross-site Scripting 
+
+Blind Cross-site Scripting is a form of persistent XSS. It generally occurs when the attacker's payload saved on the server and reflected back to the victim from the backend application. For example in feedback forms, an attacker can submit the malicious payload using the form, and once the backend user/admin of the application will open the attacker's submitted form via the backend application, the attacker’s payload will get executed. 
+Blind Cross-site Scripting is hard to confirm in the real-world scenario but one of the best tools for this is XSS Hunter.
 
 ### Other Types of XSS Vulnerabilities
 
