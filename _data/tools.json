@@ -1789,5 +1789,14 @@
       "platforms": "Windows, MacOSX, Linux",
       "note": "IDE that provides static code analysis using graphs, documentation, and metrics. Scans code to check for vulnerabilities and ensures compliance with standards like MISRA and AUTOSAR. Works with 20 languages including C, C++, C#, JavaScript, Python, and Java.",
       "type": "SAST"
+   },
+   {
+      "title": "LunaTrace by LunaSec",
+      "url": "https://www.lunasec.io/",
+      "owner": "LunaSec",
+      "license": "Open Source or Free",
+      "platforms": "SaaS or On-Premises",
+      "note": "Software Composition Analysis (SCA) tool to generate SBOMs, identify vulnerabilities in dependencies, and generate patches. Leverages Static Analysis to reduce false positives by filtering non-exploitable CVEs.",
+      "type": "SAST"
    }
 ]
