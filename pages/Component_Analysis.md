@@ -318,6 +318,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
+| [SOOS] | SOOS | Commercial / Freemium | SaaS |
 | [Veracode SCA] | Veracode | Commercial | Cross Platform / SaaS |
 | [VulnDB] | Risk Based Security | Commercial	| SaaS |
 | [Vigiles] | Timesys | Commercial / Freemium | SaaS |
@@ -356,6 +357,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Prisma Cloud]: https://www.paloaltonetworks.com/prisma/cloud
 [Renovate]: https://renovatebot.com/
 [Snyk]: https://snyk.io/
+[SOOS]: https://soos.io/
 [Veracode SCA]: https://www.veracode.com/products/software-composition-analysis
 [Nexus IQ]: https://www.sonatype.com/
 [Open Source Lifecycle Management]: https://www.whitesourcesoftware.com/
