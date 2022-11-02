@@ -1798,5 +1798,14 @@
       "platforms": "SaaS or On-Premises",
       "note": "Software Composition Analysis (SCA) tool to generate SBOMs, identify vulnerabilities in dependencies, and generate patches. Leverages Static Analysis to reduce false positives by filtering non-exploitable CVEs.",
       "type": "SAST"
+   },
+   {
+      "title": "SOOS DAST",
+      "url": "https://soos.io/",
+      "owner": "SOOS",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Free 30-day Trial. Includes DAST & SCA (OSS Vuln detection, Licenses, Policies, SBOM). Affordable flat rate price.",
+      "type": "DAST"
    }
 ]
