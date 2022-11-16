@@ -40,7 +40,7 @@ Please carefully test the regex in your regex engine.
 
   <regex>
     <name>e-mail</name>
-    <pattern><![CDATA[^[a-zA-Z0-9_+&*-]+(?:\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,15}$]]></pattern>
+    <pattern><![CDATA[^[a-zA-Z0-9_+&*-]+(?:\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$]]></pattern>
     <description>A valid e-mail address</description>
   </regex>
 
