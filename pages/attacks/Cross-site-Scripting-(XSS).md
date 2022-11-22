@@ -341,7 +341,7 @@ below as an example to inform user about what specific page is missing:
 ```html
 <html>
 <body>
-<? php
+<?php
 print "Not found: " . urldecode($_SERVER["REQUEST_URI"]);
 ?>
 
