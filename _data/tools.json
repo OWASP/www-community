@@ -1807,5 +1807,14 @@
       "platforms": "SaaS",
       "note": "Free 30-day Trial. Includes DAST & SCA (OSS Vuln detection, Licenses, Policies, SBOM). Affordable flat rate price.",
       "type": "DAST"
-   }
+   },
+   {
+      "title": "Kayran",
+      "url": "https://kayran.io/",
+      "owner": "Kayran",
+      "license": "Commercial",
+      "platforms": "All Web Applications Supported",
+      "note": "Automatic Penetration Testing for Web Applications & API Schema Penetration Testing",
+      "type": "DAST"
+   }  
 ]
