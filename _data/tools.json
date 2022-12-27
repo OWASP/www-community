@@ -9,6 +9,15 @@
       "type": "DAST"
    },
    {
+      "title": " Threatspy",
+      "url": "https://www.secureblink.com/threatspy",
+      "owner": "Secure Blink",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Web application, API Scan while providing Auto Remediations",
+      "type": "DAST"
+   },
+   {
       "title": "GraphQL Security",
       "url": "https://graphql.security",
       "owner": "Escape",
