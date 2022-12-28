@@ -204,6 +204,19 @@ Commercial tools of this type that are free for open source:
      - Features automated fix pull request to automatically fix vulnerabilities (currently only for javascript)
      - Features one of the most complete [vulnerability databases](https://app.debricked.com/en/vulnerability-database) 
      - GitHub version: [https://github.com/apps/debricked/](https://github.com/apps/debricked/) 
+  - [OX Security](https://www.ox.security) - Stop Attacks Across Your Software Supply Chain
+     - Complete Software Supply Chain Security Solution, based on [Pipeline Bill Of Materials](https://www.pbom.dev/)
+     - Manage your findings from a single location
+       - Full visibility and end to end traceability over your software pipeline security from cloud to code.
+       - Manage your findings, orchestrate DevSecOps activities, prevent risks and maintain software pipeline integrity 
+     - Automatically block risks introduced into the pipeline and ensure the integrity of each workload
+     - Close Gaps in Security Tooling & Coverage
+       - Avoid known security risks like Log4j and Codecov.
+       - Prevent new attack types based on proprietary research and threat intel.
+     - Improve CI/CD Security & Processes
+        - Ensure the security and integrity of all cloud artifacts
+        - Undertake security gap analysis and identify any blind spots.
+     - Free tier for Open-Source projects
   - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
     Scala, Golang, .NET, PHP - Latest list here: 
     <https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support>
@@ -262,6 +275,19 @@ open source projects also consider using good code quality tools. A few that we 
         and poor code quality using data-flow analysis and provides 
         results for the project's code quality.
       - DeepScan is free for open source projects on GitHub.
+
+   - [MegaLinter](https://www.megalinter.io) - Multi-language Code Quality and Security checker
+      - MegaLinter is an Open-Source tool that analyzes the 
+        consistency of your code, IAC, configuration, and scripts in your repository 
+        sources, to ensure all your projects repositories are clean and formatted whatever 
+        IDE/toolbox is used by their developers
+      - [More than 100 linters](https://megalinter.io/latest/supported-linters/) supporting 52 
+        languages, 24 formats, 21 tooling formats, spelling and security
+      - Ready to use out of the box, compliant with GitHub Actions, Gitlab CI, Azure Pipelines, 
+        Jenkins, Concourse, Drone CI, or even locally with 
+        [mega-linter-runner](https://megalinter.io/latest/mega-linter-runner/)
+      - Highly configurable, without registration
+      - 100% Open-Source and free for all uses, powered and backed by by [OX Security](https://www.ox.security/)
 
 ### Security Tools Built into DevOps/CI Environments
   - GitLab - is building security into their platform and it is quickly evolving as described here:
