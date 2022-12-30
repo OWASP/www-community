@@ -20,16 +20,16 @@ OWASP ZAP is a client application written in JAVA. Therefore is important that y
 ### Check the Code
 OWASP ZAP is an open source application, meaning that you have access to the source code and you can debug it while testing it. This offers you a much better view of what is happening, but also, you have the ability to white-test the application and find out vulnerable Java Methods faster than the Blackbox approach.
 
-You will need to run ZAP within a Java IDE like Eclipse. The easiest way to get ZAP running this way is to follow these instructions [here](https://github.com/zaproxy/zaproxy/wiki/Building) or follow these videos:
+You will need to run ZAP within a Java IDE like Eclipse. The easiest way to get ZAP running this way is to follow these instructions [here](https://www.zaproxy.org/docs/developer/) or follow these videos:
 
-- [OWASP ZAP for Developers - Building ZAP -Part 1](https://www.youtube.com/watch?v=1UsH1jSnE3c)
-- [OWASP ZAP for Developers - Building ZAP -Part 2](https://www.youtube.com/watch?v=qhm1g1klyas)
-- [OWASP ZAP for Developers - Building ZAP -Part 3](https://www.youtube.com/watch?v=xevZ7n7ETMI)
+- [OWASP ZAP for Developers - Building ZAP - Part 1](https://www.youtube.com/watch?v=1UsH1jSnE3c)
+- [OWASP ZAP for Developers - Building ZAP - Part 2](https://www.youtube.com/watch?v=qhm1g1klyas)
+- [OWASP ZAP for Developers - Building ZAP - Part 3](https://www.youtube.com/watch?v=xevZ7n7ETMI)
 - [OWASP ZAP for Developers - Build ZAP from Eclipse - Part 4](https://www.youtube.com/watch?v=n9mQASWRcps)
 
 You can also use STATS analysis tools that might unmask vulnerable methods.
 
-OWASP Source code can be found [here](https://github.com/zaproxy/zaproxy/).
+ZAP source code can be found [here](https://github.com/zaproxy/zaproxy/).
 
 ### Scope
 
