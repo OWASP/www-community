@@ -36,7 +36,7 @@ tags: [attack, XSS, etc]
 
 ## Content Listing
 
-Client the triangle (or other control/character) to the left of the following headings to access an expanded list of community content pages.
+Click the triangle (or other control/character) to the left of the following headings to access an expanded list of community content pages.
 
 <details>
 <summary>Controls</summary>
