@@ -44,7 +44,7 @@ on-line agenda through the following URL:
 
 ` www.site-example.com/users/calendar.php/user1/20070715 `
 
-In the URL, it is possible to identify the username (âuser1â) and
+In the URL, it is possible to identify the username (`user1`) and
 the date (mm/dd/yyyy). If the user attempts to make a forced browsing
 attack, they could guess another user's agenda by predicting user
 identification and date, as follow:
@@ -70,7 +70,7 @@ database of well-know resources, such as:
 `/admin/`
 `/test/`
 
-When the tool receives an âHTTP 200â message it means that such
+When the tool receives an `HTTP 200` message it means that such
 resource was found and should be manually inspected for valuable
 information.
 
@@ -94,10 +94,10 @@ information.
 
 ## References
 
-  - Forceful Browsing â Imperva Application Data Security and
+  - Forceful Browsing — Imperva Application Data Security and
     Compliance
     <http://www.imperva.com/application_defense_center/glossary/forceful_browsing.html>
-  - Parameter fuzzing and forced browsing â WebAppSec -
+  - Parameter fuzzing and forced browsing — WebAppSec -
     <http://seclists.org/webappsec/2006/q3/0182.html>
   - <http://www.webappsec.org/projects/threat/classes/predictable_resource_location.shtml>
   - <http://cwe.mitre.org/data/definitions/425.html>
