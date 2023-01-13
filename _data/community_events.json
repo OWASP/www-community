@@ -30,6 +30,16 @@
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* --\n[https://owasp-austin-2023-january.eventbrite.com](https://owasp-austin-2023-january.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: Cryptoparty (various speakers)**\n\nIn 1996, John Perry Barlow, co-founder of the Electronic Frontier Foundation (EFF) wrote 'A Declaration of the Independence of Cyberspace' where he stated \"We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth. We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.\" The Internet of today is an amazing place of knowledge and opportunity, but it unfortunately falls short of Mr. Barlow's original vision.\n\nIn the 21st century we face problems of climate change, energy crisis, state censorship, mass surveillance, and on-going wars. We must be free to communicate and associate without fear. To realize our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online. Topics include technologies like TOR, full-disk encryption, GPG, and many more. CryptoParties are free to attend, public, and not commercially aligned.\n\nAt our January 31, 2023 OWASP Austin meeting, we will host a CryptoParty with the goal of inviting others to join us in learning about the tools and technologies that enable an individual's right to privacy. When the time comes, we will encourage you all to invite your family, friends, and peers to attend this event, but for now, I am looking for others who are willing to give a 10 minute max presentation on a crypto-oriented subject. The presentation will need to be laid out so that novice and experienced alike can take action based on the data presented. All tools must be free and open source. If you are interested in presenting, please e-mail me directly (do not reply to the list) with your name, bio, talk title, and abstract for consideration. This is going to be EPIC!"
     },
     {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "January Meet",
+        "date": "2023-01-19",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/290897623",
+        "timezone": "America/Los_Angeles",
+        "description": "Happy New Year, Security time, We will have two exciting talks, lots of people to meet, and great food. Come join us at Hacker dojo mountain view. This is a joint meetup with Pacific Hackers group(www.phack.org).\n\nCourtesy of our host **[Tromzo](https://tromzo.com/)** . Tromzo accelerates remediation of risks, from code to cloud. Built by security practitioners & backed by 25+ CISOs.\n\n**Talk#1:** Frictionless API Observability.Visibility of API assets, and their underlying JSON structure is a critical requirement for any security initiative that manages attack surfaces.This live session will demonstrate how Microservices in a Kubernetes environment can be instrumented by a no-code/agentless sensor to auto-discover, and auto-generate OpenAPI docs for all APIs present.\n\nSpeaker: Harish Natraj, co-founder of Levo.ai. He has deep experience in the APIs, microservices, and Kubernetes space. He has spent the last 10 years building and operating API Observability and Security solutions. He is passionate about empowering modern development teams to build secure and robust applications.\n\n**Talk#2:** Shadow Access has emerged as the most potent attack vector in the Cloud that creates exploitable pathways to an organization's crown jewels. Adversaries are shifting their attention to attacking DATA, Applications and software supply chains by weaponizing exploitable access pathways.\n\nWhat is Shadow Access?\nThe widespread use of cloud services and the increase in data-centric applications has led to the proliferation of data stores containing sensitive information. There is a high demand for access to this large volume of data, but it has also created a new problem called Shadow Access, which refers to unauthorized, unregulated, and invisible access to cloud data, applications, and software. In simple terms, shadow access must not exist and should be removed.\nWhat creates Shadow Access? Cloud identities, roles, permissions, policies, entitlements and vulnerabilities combine to create exploitable access pathways to DATA and applications. SEC-2 and SEC-5 of the OWASP Top 10 Security Risks are examples of Shadow Access impacting CI CD systems.\nThis talk will describe the problem of Shadow Access using the AWS Cloud as an exemplar. It will differentiate between status quo and the state of the art in detection engineering for Shadow Access. The talk will cover more 20+ detections of Shadow Access describing various techniques to detect and remove shadow access and its impact on audit, compliance and governance.\n\nSpeaker Bio\nVenkat Raghavan is the founder and CEO at Stack Identity. He is an operator, builder, and entrepreneur with over 25 years of enterprise software experience spanning big tech and start-ups. Venkat has held a variety of senior operational roles in products, research and development and general management. His areas of expertise include incubating, developing, and scaling businesses in Cyber Security, Cloud Native technologies and AI/ML."
+    },
+    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston February 2023 Meetup - Hybrid Attendance",
@@ -102,7 +112,7 @@
     {
         "group": "France",
         "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Janvier 2023",
+        "name": "Meetup OWASP - Paris - Janvier 2023",
         "date": "2023-01-23",
         "time": "9:00+01:00",
         "link": "https://www.meetup.com/owasp-france/events/290848644",
@@ -157,7 +167,7 @@
         "time": "7:30-08:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/290450912",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Identity Based Attacks - how attackers are reacting to increased multi factor authentication adoption\nJoin us for great networking, dinner and drinks, and see a presentation by:\n**Liam O\u2019Murchu**, Technical Director, Security Technology and Response Group with Symantec\n\n**ABSTRACT**: Identity Based Attacks have become more common as the use of multifactor authentication has increased. Groups as diverse as teenage hackers to North Korean spies have devised schemes to circumvent these improvements. Direct attacks on the MFA tools themselves have also allowed APTs unfettered access to enterprises. A strong understanding of recent successful Identity Based Attacks can guide us to stronger solutions. We will look at attacks from social engineering to hidden back doors, showing attacker trends, solution weaknesses and stronger solutions will be highlighted.\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
+        "description": "**TOPIC**: **Identity Based Attacks**\nJoin us for great networking, dinner and drinks, and see a presentation by:\n**Liam O\u2019Murchu**, Technical Director, Security Technology and Response Group with Symantec\n\n**ABSTRACT**: Identity Based Attacks have become more common as the use of multifactor authentication has increased. Groups as diverse as teenage hackers to North Korean spies have devised schemes to circumvent these improvements. Direct attacks on the MFA tools themselves have also allowed APTs unfettered access to enterprises. A strong understanding of recent successful Identity Based Attacks can guide us to stronger solutions. We will look at attacks from social engineering to hidden back doors, showing attacker trends, solution weaknesses and stronger solutions will be highlighted.\n\n**Thanks to our Sponsor**: **Ermetic**\nErmetic helps prevent breaches by reducing the attack surface of cloud infrastructure and enforcing least privilege at scale in the most complex environments. The Ermetic SaaS platform provides comprehensive cloud security for AWS, Azure and GCP that spans both cloud infrastructure entitlements management (CIEM) and cloud security posture management (CSPM). The company is led by proven technology entrepreneurs whose previous companies have been acquired by Microsoft, Palo Alto Networks and others. Ermetic has received funding from Accel, Forgepoint, Glilot Capital Partners, Norwest Venture Partners, Qumra and Target Global. Visit us at [https://ermetic.com/](https://ermetic.com/) and follow us on LinkedIn ([https://www.linkedin.com/company/ermetic/mycompany/](https://www.linkedin.com/company/ermetic/mycompany/)), Twitter ([https://twitter.com/ermeticsec](https://twitter.com/ermeticsec)) and Facebook ([https://www.facebook.com/ermeticsec/](https://www.facebook.com/ermeticsec/)).\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
     },
     {
         "group": "Madison",
@@ -200,16 +210,6 @@
         "description": "Join us for our first chapter meeting for 2023!\n\nHosted virtually, we will be joined by two amazing speakers for the following talks:\n\n* **Bootstrap and increase your software assurance with OWASP SAMM** **v2.1**, with Sebastien Deleersnyder\n* **OWASP Security Knowledge Framework**, with Glenn Ten Cate.\n\nTalk abstracts coming soon!\n\nA streaming link will be sent to you shortly before the event. If you have any questions, please email netherlands@owasp.org"
     },
     {
-        "group": "New York City",
-        "repo": "www-chapter-new-york-city",
-        "name": "OWASP Vulnerability Management Guide",
-        "date": "2023-01-12",
-        "time": "9:00-05:00",
-        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/290579782",
-        "timezone": "America/New_York",
-        "description": "Join us for the inaugural OWASP Vulnerability Management Guide (OVMG) group meeting where we cover some CVEs that dominated the 2022 headlines, dive into \"Untangling The Web of Software Dependencies\" with Theresa Mammarella, and walk through the OWASP Vulnerability Management Guide as first timers.\n\nThe OVMG meeting agenda:\n\n1. CVEs that dominated the 2022 headlines: Follina, Chrome zero-days, openSSL vulnerabilities, Citrix vulnerabilities, Log4j, and CVE-2022-24521 (Cuba ransomware). Presenter: Elizabeth Frenz. (10 min).\n2. Open source components make up a staggering 90% of the code in modern applications. Given the software industry\u2019s heavy reliance on open source projects, it\u2019s increasingly important to choose well-maintained, community-based components to better withstand unpredictable disasters, such as last year's Log4Shell vulnerability. During this session we'll discuss the modern software security landscape, the software supply chain, and best practices for dependency management. Presenter: Theresa Mammarella. (20 min).\n3. How to start with the OWASP Vulnerability Management Guide when you do not yet have an established vulnerability management program. Walkthrough led by OVMG author Elizabeth Frenz (15 min).\n4. The working group moderator, Zoe Braiterman, will lead Q&A session. (15 min).\n\nFurther Information on the OWASP Vulnerability Management Guide:\n\n\\- Project page: https://owasp\\.org/www\\-project\\-vulnerability\\-management\\-guide/\n\\- PDF version: [https://owasp.org/www-project-vulnerability-management-guide/OWASP-Vuln-Mgm-Guide-Jun05-2020.pdf](https://owasp.org/www-project-vulnerability-management-guide/OWASP-Vuln-Mgm-Guide-Jun05-2020.pdf)\n\\- GitHub repository: https://github\\.com/lizfrenz/owasp\\-vuln\\-mngmnt"
-    },
-    {
         "group": "Northern Virginia",
         "repo": "www-chapter-northern-virginia",
         "name": "Defense-In-Depth Engineering",
@@ -237,7 +237,7 @@
         "time": "8:00+01:00",
         "link": "https://www.meetup.com/owasp-oslo/events/290761822",
         "timezone": "Europe/Oslo",
-        "description": "We currently don\u2019t have a food sponsor. If your company is interested in sponsoring food, please let us know.\nLocation will likely be Rebel (Teknologihuset).\n\n**Tune your Toolbox for Velocity and Value**\nYou bought the application security tools, but now what? Many organizations find themselves drowning in \u201cpossible vulnerabilities\u201d, struggling to streamline their processes and not sure how to measure their progress.\nIf you are involved in using automated scanners, such as SAST, DAST or SCA tools, in your organization, these may be familiar feelings to you.\nIn this talk, I will give you ideas on how to streamline your implementation and automation to focus on what matters most. We\u2019ll also discuss what to consider when designing the manual processes and tasks around the automation so that you get more value in less time.\nYou will leave with a much better understanding of these security tools as well as ideas for improving processes and adding value that you can take and apply at your own organizations.\n\n**About Josh**\nJosh has worked as a consultant in IT/Application Security and Risk for 15 years now as well as a Software Developer. In that time, he has seen the good, the bad and the stuff which is sadly/luckily still covered by an NDA.\nHe has provided application security advice and support to companies ranging from multi-national software development organizations, Fortune 500 companies as well as early and mid-stage start-ups. This has also led him to work, speak and deliver training both locally and worldwide.\nHe is currently Chief Technology Officer for Bounce Security where he spends his time helping organisations improve and get better value from their Application Security processes and providing specialist Application Security advice. In his spare time, he co-leads the OWASP Application Security Verification Standard project and is on the OWASP Israel chapter board"
+        "description": "We will be at Exposalen at Rebel, and then those who want can join for burgers/beer at Skr\u00e5planet (also at Rebel) at their own expense.\n\n**Tune your Toolbox for Velocity and Value**\nYou bought the application security tools, but now what? Many organizations find themselves drowning in \u201cpossible vulnerabilities\u201d, struggling to streamline their processes and not sure how to measure their progress.\nIf you are involved in using automated scanners, such as SAST, DAST or SCA tools, in your organization, these may be familiar feelings to you.\nIn this talk, I will give you ideas on how to streamline your implementation and automation to focus on what matters most. We\u2019ll also discuss what to consider when designing the manual processes and tasks around the automation so that you get more value in less time.\nYou will leave with a much better understanding of these security tools as well as ideas for improving processes and adding value that you can take and apply at your own organizations."
     },
     {
         "group": "Ottawa",
@@ -300,16 +300,6 @@
         "description": "Neste Meetup vamos entender o processo que permite que executemos aplica\u00e7\u00f5es que utilizam GUI de dentro de um container.\n\nEste tipo de a\u00e7\u00e3o se torna \u00fatil no dia-a-dia, ainda falando em sec, pois permite que tenhamos todas as ferramentas necess\u00e1rias para um teste ou an\u00e1lise de vulnerabilidade, sem que haja a necessidade de instalar ferramentas diretamente no SO ou o uso de virtualiza\u00e7\u00e3o.\n\nO sistema final fica muito leve em compara\u00e7\u00e3o a um SO sendo executado em sua totalidade, seja como host ou virtualizado, al\u00e9m de ser extremamente minimalista, instalando somente as ferramentas necess\u00e1rias. O que o torna perform\u00e1tico e isolado do SO host (nem tanto)."
     },
     {
-        "group": "Sastra University",
-        "repo": "www-chapter-sastra-university",
-        "name": "Web Security 101:  A Comprehensive Walkthrough",
-        "date": "2023-01-12",
-        "time": "9:00+05:30",
-        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/290843881",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us for a thorough and informative session on web security. Our speaker will take you through the essential concepts and basic concepts of web security. By the end of this walkthrough, you'll have a strong foundation in web security."
-    },
-    {
         "group": "Suffolk",
         "repo": "www-chapter-suffolk",
         "name": "OWASP Suffolk Fight Club - January 2023",
@@ -320,24 +310,14 @@
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
-        "group": "Switzerland",
-        "repo": "www-chapter-switzerland",
-        "name": "Bootstrap and increase your software assurance with OWASP SAMM v2.1",
-        "date": "2023-01-12",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owaspswitzerland/events/290245130",
-        "timezone": "Europe/Zurich",
-        "description": "OWASP Switzerland brings you another high profile talk directly from the source:\nWith our new release OWASP SAMM v2.1 - the prime maturity model for software assurance - we provide an effective and measurable way for all types of organizations to analyze and improve their software security posture.\nOWASP SAMM supports the complete software lifecycle, including development and acquisition, and is technology and process agnostic. It is intentionally built to be evolutive and risk-driven in nature.\nDuring this talk Seba will explain how to use SAMM in your organization. And then continue on the added features in our new release 2.1:\n\n* The introduction of SAMM Practitioners\n* SAMM Guidance for all Security Practice streams, including:\n* OWASP projects and content references\n* Mappings to other standards and models (including NIST SSDF, ISO27001, BSIMM, \u2026)\n* Best practices\n* Tools\n* New SAMM guidance for development teams\n* The updated resources, including the online SAMMwise tools, the new PDF and the updated toolbox.\n\nWe will conclude with the outcome of our 2022 SAMM survey and the rebooted SAMM benchmark initiative."
-    },
-    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
+        "name": "AppSec Roundtable, hosted by Chris Romeo",
         "date": "2023-01-26",
-        "time": "8:30-05:00",
+        "time": "2:00-05:00",
         "link": "https://www.meetup.com/owasptriangle/events/290775398",
         "timezone": "America/New_York",
-        "description": "TBA"
+        "description": "OWASP Triangle Chapter is dormant no more! This month we'll re-launch with an AppSec roundtable. Bring your AppSec questions, thoughts, opinion, and debates, and let's get the community back together to talk all things AppSec!"
     },
     {
         "group": "Vancouver",
