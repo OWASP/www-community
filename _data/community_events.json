@@ -120,14 +120,34 @@
         "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
     },
     {
+        "group": "Jakarta",
+        "repo": "www-chapter-jakarta",
+        "name": "Flash memory dumping",
+        "date": "2023-01-30",
+        "time": "9:00+07:00",
+        "link": "https://www.meetup.com/owasp-jakarta-chapter/events/290913180",
+        "timezone": "Asia/Jakarta",
+        "description": "Topic: Flash memory dumping\n\nAbstract:\n\nThe test case objective is to dump the Flash Memory off the \"JTAG\" Protocol using \"Attify badge\" as the Attacking hardware against the DIVA (Damn Insecure and Vulnerable App).\n\nShort Bio:\n\nUjval Patel (Hax04)\n\ni have 2 total experience in security consulting & auditing. I\u2019m currently working in EY. I started my career as a researcher at Indian Space Research Organisation (ISRO). I\u2019m active member of the Seasides Security Community. I\u2019m most passionate about hardware hacking since i like to grt my hands dirty.\n\nNote\n\nThis Session deliver in English\n\nJoin By zoom :\n\nTopic: OWASP Jakarta - Flash memory dumping\nTime: Jan 30, 2023 07:00 PM Jakarta\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/87689121285?pwd=Z0dlS2lGRlJRZDFjOUZRUTFRMllSUT09\n\nMeeting ID: 876 8912 1285\nPasscode: OWASPJKT"
+    },
+    {
         "group": "Joao Pessoa",
         "repo": "www-chapter-joao-pessoa",
         "name": "Modelagem de Amea\u00e7as",
-        "date": "2023-01-25",
+        "date": "2023-01-26",
         "time": "9:00-03:00",
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/290874767",
         "timezone": "America/Fortaleza",
         "description": "Tudo o que voc\u00ea queria saber, mas tinha medo de perguntar\u2026 porque sabia que virariam requisitos."
+    },
+    {
+        "group": "Kansas City",
+        "repo": "www-chapter-kansas-city",
+        "name": "OWASP-KC Jan 24th All About SBOM",
+        "date": "2023-01-24",
+        "time": "8:00-06:00",
+        "link": "https://www.meetup.com/owasp-kansas-city/events/290919824",
+        "timezone": "America/Chicago",
+        "description": "Mat Caughron will be speaking on the topic of Software Bill of Materials (SBOM) and how it's relevant to application security and development!\n\nSBOM's are becoming more and more important in the application security and development space due to the White House's Executive Order around Software Supply Chain and NIST's newest guidance, SP 800-218 Secure Software Development Framework (SSDF).\n\nCome join us for drinks, snacks, and help contribute to the conversation about this topic and how it will effect application security and development for the foreseeable future!"
     },
     {
         "group": "Kathmandu",
@@ -218,6 +238,16 @@
         "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/290749024",
         "timezone": "America/New_York",
         "description": "The 2021 OWASP Top Ten introduced a category \"Insecure Design\" to focus on risks related to design flaws. In this talk, we will focus on techniques we can use to build defense-in-depth software. What can we do to proactively architect software to be more resilient to attacks? What type of findings may not be discovered via automated static analysis? How can we design our software to be more friendly during incident response scenarios? Throughout this talk, we will focus on identifying often-overlooked architectural anti-patterns and vulnerabilities to be on the lookout for. We will source code to analyze patterns for improvement in both real-world applications as well as intentionally vulnerable applications. Engineers will leave this talk with a solid understanding of defense-in-depth software architecture and design. Security engineers or consultants can expect to leave with an increased understanding of insecure design patterns and vulnerabilities."
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Security for Growth Companies",
+        "date": "2023-01-31",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-oc/events/290902364",
+        "timezone": "America/Los_Angeles",
+        "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nThe increased pressure for cybersecurity practices, even in their earliest stages, is becoming a common demand from both customers and investors. With cyber threats escalating, it\u2019s more urgent than ever to embed security into a company\u2019s day-to-day operations from day one to prevent \u2018security debt\u2019 from emerging as the company scale. Establishing a robust cyber security program can be a daunting task. A cloud-native company faces dozens of cybersecurity tools to choose from and the typical resource constraints of a young company that needs to grow fast. Based on the practical advice given by CISOs of 7 hyper-growth companies (Netflix, Datadog, HashiCorp, ACV, Axonius, Discord, and ServiceTitan), this talk aims to provide you with a modern, lightweight security guide to succeed in the cloud-first/cloud-native era.\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
     },
     {
         "group": "Orlando",
