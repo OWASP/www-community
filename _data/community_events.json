@@ -30,6 +30,16 @@
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* --\n[https://owasp-austin-2023-january.eventbrite.com](https://owasp-austin-2023-january.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: Cryptoparty (various speakers)**\n\nIn 1996, John Perry Barlow, co-founder of the Electronic Frontier Foundation (EFF) wrote 'A Declaration of the Independence of Cyberspace' where he stated \"We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth. We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.\" The Internet of today is an amazing place of knowledge and opportunity, but it unfortunately falls short of Mr. Barlow's original vision.\n\nIn the 21st century we face problems of climate change, energy crisis, state censorship, mass surveillance, and on-going wars. We must be free to communicate and associate without fear. To realize our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online. Topics include technologies like TOR, full-disk encryption, GPG, and many more. CryptoParties are free to attend, public, and not commercially aligned.\n\nAt our January 31, 2023 OWASP Austin meeting, we will host a CryptoParty with the goal of inviting others to join us in learning about the tools and technologies that enable an individual's right to privacy. When the time comes, we will encourage you all to invite your family, friends, and peers to attend this event, but for now, I am looking for others who are willing to give a 10 minute max presentation on a crypto-oriented subject. The presentation will need to be laid out so that novice and experienced alike can take action based on the data presented. All tools must be free and open source. If you are interested in presenting, please e-mail me directly (do not reply to the list) with your name, bio, talk title, and abstract for consideration. This is going to be EPIC!"
     },
     {
+        "group": "Baku",
+        "repo": "www-chapter-baku",
+        "name": "OWASP Baku Meetup",
+        "date": "2023-01-30",
+        "time": "5:00+04:00",
+        "link": "https://www.meetup.com/owasp-baku-chapter/events/290945502",
+        "timezone": "Asia/Baku",
+        "description": "We are celebrating foundation of Baku chapter of OWASP."
+    },
+    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "January Meet",
@@ -58,16 +68,6 @@
         "link": "https://www.meetup.com/owasp-bristol/events/290421029",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Top 10 V2021 Awareness - A1 A2 A3",
-        "date": "2023-01-14",
-        "time": "0:30+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/290847780",
-        "timezone": "Africa/Cairo",
-        "description": "OWASP Top 10 Awareness Program\n\nThe OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.\n\nThe first day of the awareness program includes three sessions covering the first three risks of OWASP top 10 risks and Mitigations,\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 14 Jan 2023\n\n1- A01:2021-Broken Access Control [By: Mahmoud Hendy] 10:30 to 11:30\n2- A02:2021-Cryptographic Failures [By: Muhammad Ahmad] 11:30 to 12:30\nBreak 12:30 to 13:00\n3- A03:2021-Injection [By: Muhammad Ahmad] 13:00 to 14:00\n\nSessions Details:\n\n**A01:2021-Broken Access Control** moves up from the fifth position; 94% of applications were tested for some form of broken access control. The 34 Common Weakness Enumerations (CWEs) mapped to Broken Access Control had more occurrences in applications than any other category.\n\n**A02:2021-Cryptographic Failures** shifts up one position to #2, previously known as Sensitive Data Exposure, which was broad symptom rather than a root cause. The renewed focus here is on failures related to cryptography which often leads to sensitive data exposure or system compromise.\n\n**A03:2021-Injection** slides down to the third position. 94% of the applications were tested for some form of injection, and the 33 CWEs mapped into this category have the second most occurrences in applications. Cross-site Scripting is now part of this category in this edition."
     },
     {
         "group": "Cambridge",
@@ -120,6 +120,16 @@
         "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
     },
     {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2023-02-13",
+        "time": "8:45-05:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/290841105",
+        "timezone": "America/New_York",
+        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+    },
+    {
         "group": "Jakarta",
         "repo": "www-chapter-jakarta",
         "name": "Flash memory dumping",
@@ -148,16 +158,6 @@
         "link": "https://www.meetup.com/owasp-kansas-city/events/290919824",
         "timezone": "America/Chicago",
         "description": "Mat Caughron will be speaking on the topic of Software Bill of Materials (SBOM) and how it's relevant to application security and development!\n\nSBOM's are becoming more and more important in the application security and development space due to the White House's Executive Order around Software Supply Chain and NIST's newest guidance, SP 800-218 Secure Software Development Framework (SSDF).\n\nCome join us for drinks, snacks, and help contribute to the conversation about this topic and how it will effect application security and development for the foreseeable future!"
-    },
-    {
-        "group": "Kathmandu",
-        "repo": "www-chapter-kathmandu",
-        "name": "OWASP Kathmandu Meetup - 0x02",
-        "date": "2023-01-14",
-        "time": "0:30+05:45",
-        "link": "https://www.meetup.com/owasp-kathmandu-chapter/events/290844117",
-        "timezone": "Asia/Kathmandu",
-        "description": "OWASP Kathmandu 0x02 meetup."
     },
     {
         "group": "Lahore",
