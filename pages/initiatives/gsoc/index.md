@@ -14,10 +14,12 @@ history of both organizations/projects.
 
 ## Current
 
-- [GSoC 2022](gsoc2022)
-  - [GSoC 2022 Ideas](gsoc2022ideas)
+- [GSoC 2023](gsoc2023)
+  - [GSoC 2023 Ideas](gsoc2023ideas)
 
 ## History
+- [GSoC 2022](gsoc2022)
+  - [GSoC 2022 Ideas](gsoc2022ideas)
 - [GSoC 2021](gsoc2021)
   - [GSoC 2021 Ideas](gsoc2021ideas)
 - [GSoC 2020](gsoc2020)
