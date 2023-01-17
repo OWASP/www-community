@@ -84,6 +84,8 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 * Rick Mitchell
 * thc202
 
+[BLT](#owaspblt)
+
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
