@@ -7,9 +7,9 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap) - [Bug Logging Tool (BLT)](#bug-logging-tool-blt)
+[ZAP](#owaspzap) | [Bug Logging Tool (BLT)](#bug-logging-tool-blt)
 
-<!-- Template: Use a format like below to add your project:
+<!-- Template: Use a format like below to add your project, don't forgetto add it to the anchor links above:
 ### [Project Name]
 
 ##### Explanation of Ideas
@@ -37,7 +37,7 @@ Tips to get you started in no particular order:
 - Read the
   [Student Guidelines](gsoc2023).
 - Check our
-  [github organization](https://github.com/OWASP).
+  [GitHub organization](https://github.com/OWASP).
 - Contact one of the project mentors below.
 
 ## List of Project Ideas
