@@ -7,7 +7,8 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap)
+[ZAP](#owaspzap)  
+[BLT](#owaspblt)  
 
 <!-- Template: Use a format like below to add your project:
 ### [Project Name]
@@ -84,7 +85,6 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 * Rick Mitchell
 * thc202
 
-[BLT](#owaspblt)
 
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
