@@ -7,8 +7,7 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap)  
-[BLT](#owaspblt)  
+[ZAP](#owaspzap) - [Bug Logging Tool (BLT)](#bug-logging-tool-blt)
 
 <!-- Template: Use a format like below to add your project:
 ### [Project Name]
