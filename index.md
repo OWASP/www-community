@@ -8,33 +8,9 @@ tags: community
 
 <!-- rebuild 6 -->
 
-OWASP Community Pages are a place where OWASP can accept community contributions for security-related content.
-To contribute, go to the [repository for this site](https://github.com/OWASP/www-community).
-Go into the `pages` folder and create a new file. Save and commit the file.
+[Community Content](#community-content) | [Contributing](#contributing)
 
-Include the following front matter and include in your file (for example, see: `pages/password-special-characters.md` in this repository):
-
-{% raw %}
-```md
----
-
-layout: col-sidebar
-title: [title of page]
-author: [author name]
-contributors: [contributors]
-permalink: [direct link to page, removes /pages] (this is optional and requires some care)
-tags: [attack, XSS, etc]
-
----
-
- {% include writers.html %}
-
-```
-{% endraw %}
-
-**Please** ensure your content contribution is based on original work/thought and not plagiarised. Also, please ensure that contributions are vendor/product neutral.
-
-## Content Listing
+## Community Content
 
 Click the triangle (or other control/character) to the left of the following headings to access an expanded list of community content pages.
 
@@ -96,3 +72,31 @@ Click the triangle (or other control/character) to the left of the following hea
 </ul>
 
 </details>
+
+## Contributing
+
+OWASP Community Pages are a place where OWASP can accept community contributions for security-related content.
+To contribute, go to the [repository for this site](https://github.com/OWASP/www-community).
+Go into the `pages` folder and create a new file. Save and commit the file.
+
+Include the following front matter and include in your file (for example, see: `pages/password-special-characters.md` in this repository):
+
+{% raw %}
+```md
+---
+
+layout: col-sidebar
+title: [title of page]
+author: [author name]
+contributors: [contributors]
+permalink: [direct link to page, removes /pages] (this is optional and requires some care)
+tags: [attack, XSS, etc]
+
+---
+
+ {% include writers.html %}
+
+```
+{% endraw %}
+
+**Please** ensure your content contribution is based on original work/thought and not plagiarised. Also, please ensure that contributions are vendor/product neutral.
