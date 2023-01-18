@@ -7,7 +7,7 @@
         "time": "9:00+01:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/289490322",
         "timezone": "Europe/Copenhagen",
-        "description": "Hi All,\nPlease note, that this is a physical event hosted by Github and OWASP Aarhus may share a list of participants with Github for the sole purpose of hosting the event.\nAs we have been talking about, OWASP Aarhus wanted to try out the \u201clightning talk\u201d format. All the details are still not complete, but the schedule is: (TBD \u2013 To Be Decided)\n\n19:00 \u2013 19:15 Welcome by Github and OWASP Aarhus TBD from Github and Thomas Ljungberg Kristensen, OWASP\n19:20 \u2013 19:35 TBD TBD from Github\n19:40 \u2013 19:55 OWASP for dummies Martin Duedahl\n20:00 \u2013 20:15 Live demo - Heap Exploit in Glibc Oliver Thomas\n20:15 \u2013 20:45 Break\n20:50 \u2013 21:05 TBD Klaus Agnoletti\n21:10 \u2013 21:25 Using storytelling Jens Roed Andersen\n21:25 \u2013 21:30 Goodbyes OWASP and Github\n\nLooking forward to it!"
+        "description": "Hi All,\nPlease note, that this is a physical event hosted by Github and OWASP Aarhus may share a list of participants with Github for the sole purpose of hosting the event.\nAs we have been talking about, OWASP Aarhus wanted to try out the \u201clightning talk\u201d format. All the details are still not complete, but the schedule is: (TBD \u2013 To Be Decided)\n\n19:00 \u2013 19:15 Welcome by Github and OWASP Aarhus, Karl Krukow, Github and Thomas Ljungberg Kristensen, OWASP\n19:20 \u2013 19:35 Leveraging CVEs to improve the CodeQL security analysis, Esben Andreasen, Sr. Software Engineer, GitHub\n19:40 \u2013 19:55 OWASP for dummies Martin Duedahl\n20:00 \u2013 20:15 Live demo - Heap Exploit in Glibc Oliver Thomas\n20:15 \u2013 20:45 Break\n20:50 \u2013 21:05 TBD Klaus Agnoletti\n21:10 \u2013 21:25 Using storytelling Jens Roed Andersen\n21:25 \u2013 21:30 Goodbyes OWASP and Github\n\nLooking forward to it!"
     },
     {
         "group": "Aligarh",
@@ -90,6 +90,16 @@
         "description": "**Abstract**\n\n**Is there a better way of interacting with digital forensic data from a user interface and user experience standpoint?**\n\nThe NPCC (2020, p.5) states that: \u201cDigital forensic (DF) science - examining digital evidence to support investigations and prosecutions - was once niche but is now very much mainstream.\n\nOver 90% of all crime is recognised as having a digital element, and society\u2019s accelerating use of technology means the critical role DF science plays will only grow\u201d. They identify three core challenges:\n\n1\\. the sheer volume of data and devices leading to backlogs and delays in investigations\\.\n\n2\\. the complexity of digital examinations including the variety of devices available\\, use of encryption\\, the number of data formats used\\, and the increasing use of cloud storage;\n\nand\n\n3\\. the need to maintain the legitimacy of the police in the digital landscape given 1 and 2 and law enforcement\u2019s need to work in new ways to deal with these issues\\. \\(ibid\\.\\)\n\nGiven the volume of data and complexity of the examinations digital forensic (DF) practitioners work with regularly, this research interviewed 12 DF practitioners in an attempt to understand how the user interface of DF tools may exacerbate these issues, and what their suggestions may be to mitigate these. This work explores the responses, provides and initial analysis, and provides suggestions for how these findings may feed into the next generation of DF tools.\n\nNPCC (2020) Digital Forensic Science Strategy (PDF) (Accessed: 06 October 2022).\n\n**Provisional Agenda**\n\n16:45 - Webinar waiting lobby opens\n17:00 - Start of Presentation\n17:50 \u2013 Questions & Answers\n18:00 \u2013 Estimated Finish"
     },
     {
+        "group": "Charlotte",
+        "repo": "www-chapter-charlotte",
+        "name": "2023 Kickoff Meeting!",
+        "date": "2023-02-16",
+        "time": "9:00-05:00",
+        "link": "https://www.meetup.com/owaspclt/events/289053091",
+        "timezone": "America/New_York",
+        "description": "Come join us for our First meeting of the year, Food and Drink Will be provided! The location and agenda are TBA."
+    },
+    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS January 2023",
@@ -98,6 +108,16 @@
         "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/290180872",
         "timezone": "America/Denver",
         "description": "Speaker: Adam Wilson\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
+    },
+    {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meetup!",
+        "date": "2023-02-01",
+        "time": "7:00-07:00",
+        "link": "https://www.meetup.com/denver-owasp/events/291010905",
+        "timezone": "America/Denver",
+        "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend. Bring a laptop if you plan to participate hands-on.**\n\nFor our February meetup, the focus will be on Hacking the OWASP Top 10 - 2023 Edition. We'll have a presenter, food, drinks, and networking. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to your sponsor [SpyderSec ](https://spydersec.com)**\n\n**Presentation Title:** Hacking the OWASP Top 10 - 2023 Edition\n\n**Presentation Details:**\nCurious what the latest OWASP Top 10 looks like? Wondering what the changes mean for developers, testers, and auditors? Come dive into it with our own Aaron Cure as he talks about each of the issues and his theories on the updates. Make sure to bring a laptop so you can hack along on several of the issues. Worried you don\u2019t have the chops? Don\u2019t be, we\u2019ll give you enough info to hack it whether you\u2019re a beginner or a pro!"
     },
     {
         "group": "Dindigul",
@@ -190,16 +210,6 @@
         "description": "**TOPIC**: **Identity Based Attacks**\nJoin us for great networking, dinner and drinks, and see a presentation by:\n**Liam O\u2019Murchu**, Technical Director, Security Technology and Response Group with Symantec\n\n**ABSTRACT**: Identity Based Attacks have become more common as the use of multifactor authentication has increased. Groups as diverse as teenage hackers to North Korean spies have devised schemes to circumvent these improvements. Direct attacks on the MFA tools themselves have also allowed APTs unfettered access to enterprises. A strong understanding of recent successful Identity Based Attacks can guide us to stronger solutions. We will look at attacks from social engineering to hidden back doors, showing attacker trends, solution weaknesses and stronger solutions will be highlighted.\n\n**Thanks to our Sponsor**: **Ermetic**\nErmetic helps prevent breaches by reducing the attack surface of cloud infrastructure and enforcing least privilege at scale in the most complex environments. The Ermetic SaaS platform provides comprehensive cloud security for AWS, Azure and GCP that spans both cloud infrastructure entitlements management (CIEM) and cloud security posture management (CSPM). The company is led by proven technology entrepreneurs whose previous companies have been acquired by Microsoft, Palo Alto Networks and others. Ermetic has received funding from Accel, Forgepoint, Glilot Capital Partners, Norwest Venture Partners, Qumra and Target Global. Visit us at [https://ermetic.com/](https://ermetic.com/) and follow us on LinkedIn ([https://www.linkedin.com/company/ermetic/mycompany/](https://www.linkedin.com/company/ermetic/mycompany/)), Twitter ([https://twitter.com/ermeticsec](https://twitter.com/ermeticsec)) and Facebook ([https://www.facebook.com/ermeticsec/](https://www.facebook.com/ermeticsec/)).\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
     },
     {
-        "group": "Madison",
-        "repo": "www-chapter-madison",
-        "name": "KringleCon 2022 Walk-Through",
-        "date": "2023-01-17",
-        "time": "5:30-06:00",
-        "link": "https://www.meetup.com/owasp-madison/events/290874931",
-        "timezone": "America/Chicago",
-        "description": "Drew - SANS Holiday Hack had a Rings of Power theme this year with the objectives representing 5 rings. I still have 3 rings to go but we can go through the first 2 and whatever else I get by Tuesday.\n\nSelf-Interested Discussion - [OAuth 2.0 Threat Model and Security Considerations](https://www.rfc-editor.org/rfc/rfc6819)"
-    },
-    {
         "group": "Maine",
         "repo": "www-chapter-maine",
         "name": "Post COVID OWASP Maine Relaunch Networking Event!",
@@ -258,16 +268,6 @@
         "link": "https://www.meetup.com/owasp-orlando/events/289801023",
         "timezone": "America/New_York",
         "description": "We had another speaker planned for this months event but we've had a scheduling issue so we will bring them another time. So instead I'll be presenting a preview of an upcoming talk I've been working on around CycloneDX BOMs and how to use in Threat Modeling.\n\nAs always we will be starting at 6 PM. We have room for a 2nd talk if anyone in the chapter would be interested in presenting. Don't be shy, Intro talks are fine. Message me here or at tony.turner AT owasp DOT org"
-    },
-    {
-        "group": "Oslo",
-        "repo": "www-chapter-oslo",
-        "name": "Tune your Toolbox for Velocity and Value - Josh Grossman",
-        "date": "2023-01-17",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owasp-oslo/events/290761822",
-        "timezone": "Europe/Oslo",
-        "description": "We will be at Exposalen at Rebel, and then those who want can join for burgers/beer at Skr\u00e5planet (also at Rebel) at their own expense.\n\n**Tune your Toolbox for Velocity and Value**\nYou bought the application security tools, but now what? Many organizations find themselves drowning in \u201cpossible vulnerabilities\u201d, struggling to streamline their processes and not sure how to measure their progress.\nIf you are involved in using automated scanners, such as SAST, DAST or SCA tools, in your organization, these may be familiar feelings to you.\nIn this talk, I will give you ideas on how to streamline your implementation and automation to focus on what matters most. We\u2019ll also discuss what to consider when designing the manual processes and tasks around the automation so that you get more value in less time.\nYou will leave with a much better understanding of these security tools as well as ideas for improving processes and adding value that you can take and apply at your own organizations."
     },
     {
         "group": "Ottawa",
@@ -392,12 +392,22 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver - January 2023",
+        "name": "OWASP Vancouver - February 2023",
+        "date": "2023-02-16",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248487",
+        "timezone": "America/Vancouver",
+        "description": "OWASP Vancouver monthly meetup"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "Panel: What is the meaning of AppSec, the Universe, and everything?",
         "date": "2023-01-19",
         "time": "8:00-08:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248482",
         "timezone": "America/Vancouver",
-        "description": "OWASP Vancouver January meetup"
+        "description": "Join us for a panel with industry veterans and an open discussion of various AppSec topics. Tired of a pre-set agenda? Have a question that doesn\u2019t align with a specific topic? Want to get an opinion from a number of people? Or make an important announcement? This is the perfect opportunity. Come prepared and this session will be mighty rewarding!\n\nWe thank Forward Security for sponsoring the venue and food for this event."
     },
     {
         "group": "Devslop",
