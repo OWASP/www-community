@@ -9,7 +9,7 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 [ZAP](#owaspzap) | [Bug Logging Tool (BLT)](#bug-logging-tool-blt)
 
-<!-- Template: Use a format like below to add your project, don't forgetto add it to the anchor links above:
+<!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
 
 ##### Explanation of Ideas
@@ -132,3 +132,52 @@ Reach out to us on Slack to discuss further on the scope, changes required, or i
 * Rahul Badami - Payments Mentor  
 * [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
 * [Sparsh Agrawal](mailto:sparshagrawal1212@gmail.com) - Flutter Mentor
+
+
+
+### [OWASP Maryam](https://owasp.org/www-project-maryam/)
+
+OWASP Maryam is a modular/optional open source framework based on OSINT and data gathering. Maryam is written in Python programming language and it’s designed to provide a powerful environment to harvest data from open sources and search engines and collect data quickly and thoroughly.
+
+Please see [Development Guide](https://github.com/saeeddhqan/maryam/wiki/Development-Guide).
+
+##### Web interface for meta searcher
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+
+Implement a web interface for Iris module with JQuery. The interface is somehow like www.qwant.com.
+
+
+##### Document Retrieval for Iris
+
+![Not recommended for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+Implement a Document Retrieval Algorithm for Iris in order to rank web pages according to the Query.
+You need to Understand Machine Learning classic algorithms for document retrieval or use Deep neural networks for 
+implementation.
+
+##### Your Own Idea
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+If you have a new Idea regarding Iris(Meta searcher), let us chat.
+
+##### Getting Started
+
+* [OWASP Maryam](https://github.com/saeeddhqan/Maryam)
+* [Documentation](https://github.com/saeeddhqan/Maryam/wiki)
+
+
+##### Mentors
+
+* [Saeed Dehqan](mailto:saeed.dehghan@owasp.org)
