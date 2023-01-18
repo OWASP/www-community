@@ -132,9 +132,6 @@ Reach out to us on Slack to discuss further on the scope, changes required, or i
 * Rahul Badami - Payments Mentor  
 * [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
 * [Sparsh Agrawal](mailto:sparshagrawal1212@gmail.com) - Flutter Mentor
-
-
-
 ### [OWASP Maryam](https://owasp.org/www-project-maryam/)
 
 OWASP Maryam is a modular/optional open source framework based on OSINT and data gathering. Maryam is written in Python programming language and it’s designed to provide a powerful environment to harvest data from open sources and search engines and collect data quickly and thoroughly.
