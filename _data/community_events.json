@@ -130,6 +130,16 @@
         "description": "**Speaker Name:** Premkumar S\nFounder & Director of ORBIT INFOSEC\n**Organizer:** Arun sakthivel\n**Owasp Dindigul leader**\n\nRegistration URL: [https://forms.gle/h4sRnviA3KcBbUep7](https://forms.gle/h4sRnviA3KcBbUep7)"
     },
     {
+        "group": "Dublin",
+        "repo": "www-chapter-dublin",
+        "name": "OWASP Dublin meetup -Implementing AppSec using common sense ",
+        "date": "2023-01-26",
+        "time": "8:00Z",
+        "link": "https://www.meetup.com/owasp-dublin/events/291000719",
+        "timezone": "Europe/Dublin",
+        "description": "OWASP Dublin are delighted to announce our next meetup will take place on Jan 26th. Venue is TBC.\n\nWe have a brilliant talk planned \" Implementing AppSec using common sense\" which will be delivered by Klaus Agnoletti.\n\nKlaus Agnoletti has been an all-round infosec professional since 2004. As a long-time active member of the infosec community in Copenhagen, Denmark, he co-founded BSides K\u00f8benhavn in 2019. Currently he's a freelance infosec professional specializing in security transformation and community focused marketing.\n\n**Synopsis**\nImplementing AppSec can be a daunting task; especially if you don't know exactly what it is and how do it. Join me as I give you an introduction to AppSec and share my long experience in infosec by giving you practical advice on how to go about doing just that.\n\nWe are really looking forward to this talk and hope to see you there."
+    },
+    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Paris - Janvier 2023",
@@ -260,16 +270,6 @@
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nThe increased pressure for cybersecurity practices, even in their earliest stages, is becoming a common demand from both customers and investors. With cyber threats escalating, it\u2019s more urgent than ever to embed security into a company\u2019s day-to-day operations from day one to prevent \u2018security debt\u2019 from emerging as the company scale. Establishing a robust cyber security program can be a daunting task. A cloud-native company faces dozens of cybersecurity tools to choose from and the typical resource constraints of a young company that needs to grow fast. Based on the practical advice given by CISOs of 7 hyper-growth companies (Netflix, Datadog, HashiCorp, ACV, Axonius, Discord, and ServiceTitan), this talk aims to provide you with a modern, lightweight security guide to succeed in the cloud-first/cloud-native era.\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
     },
     {
-        "group": "Orlando",
-        "repo": "www-chapter-orlando",
-        "name": "January Meeting",
-        "date": "2023-01-18",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owasp-orlando/events/289801023",
-        "timezone": "America/New_York",
-        "description": "We had another speaker planned for this months event but we've had a scheduling issue so we will bring them another time. So instead I'll be presenting a preview of an upcoming talk I've been working on around CycloneDX BOMs and how to use in Threat Modeling.\n\nAs always we will be starting at 6 PM. We have room for a 2nd talk if anyone in the chapter would be interested in presenting. Don't be shy, Intro talks are fine. Message me here or at tony.turner AT owasp DOT org"
-    },
-    {
         "group": "Ottawa",
         "repo": "www-chapter-ottawa",
         "name": "OWASP Ottawa January 2023:  Building & Adopting AppSec Capabilities",
@@ -278,16 +278,6 @@
         "link": "https://www.meetup.com/owasp-ottawa/events/290755929",
         "timezone": "America/Toronto",
         "description": "**Welcome to our first in-person meetup in over 2 years!**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nYouTube Live Stream Link: https://www.youtube.com/watch?v=FV8qrPpCSmU\n\n**6:00 PM EDT** Arrival and setup\n**6:30 PM EDT** Introduction to OWASP Ottawa 2023 - Garth Boyd\n**6:45 PM EDT** Venue Sponsor Welcome - Guy-Vincent Jourdan\n\n**7:00 PM EDT** Technical Talks\n\n1. **The Missing pieces to building and adopting application security capabilities -** Jon Shapransky\n\nAbstract:\nThere are increasing requirements for organizations to improve their application security practices. To meet these requirements, organizations need to adopt capabilities whether practices (e.g., threat modelling, vulnerability scanning, etc.) or tools (e.g., SAST, SCA, DAST, CSPM, etc.). The value of hiring specialists and buying tools will not be realized unless the associated services, processes, procedures are adopted.This talk will focus on presenting an approach to building capabilities and highlight underlying principles behind adoption. This framework covers both the general components of a capability and the components required to adopt a capability. We\u2019ll present a framework that incorporates relevant third-party research from fields outside of security and applies them to the security domain to help explain why some are successful in implementing and adopting capabilities while others are not.\n\nThis talk is for anyone involved in designing, building, and managing application security and product security programs. Takeaways:\n\n* Universal framework on capability development that prompts us to think about what we will need to ensure success and adoption.\n* Understanding of the principles behind adoption.\n* Perspective of how team topologies (structure and interactions) influences our ability to achieve desired results.\n* An approach to measuring progress.\n\nSpeaker Bio:\nJon Shapransky is a Technical Principal Security Consultant at Kroll with over 10 years of experience in Information Security. Since beginning his career, Jon has performed various forms of security assessments and helped clients build security programs and capabilities. Jon has worked with a wide range of client from both the public and private sector. His experience includes working with Fortune 100, Fortune 500, and Fortune Global 500 orgnisations across various industries and work with all levels of government, health care, and higher education. Presently, Jon is focussed on helping clients build Application Security and DevSecOps programs where he designs, architects, and helps implement related capabilities and processes."
-    },
-    {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "OWASP Meeting in Krakow - 18 Jan 2023",
-        "date": "2023-01-18",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owasp-poland/events/290738511",
-        "timezone": "Europe/Warsaw",
-        "description": "Hi,\nIf you hadn't attended our previous meetings - OWASP is a group related to application security issues. This time, Marcin Szyd\u0142owski will share his thoughts about the future of application security and Daniel Krasnokucki, current OWASP Poland Chapter Leader will speak about microservices security.\nAs usual, we are open to discuss any application security related topic, there will be a time for open discussion or to present IT security related jobs if you are an employer.\n\nPlease RSVP and save the date!\nIf you have a minute, please share this link with friends and in social media.\nBTW - if you have interesting topic to talk about, [send us your proposal](https://docs.google.com/forms/d/e/1FAIpQLSdUbie8Veh30EcRWhyq8ZFUUjz9d2sMqJx_DkIfrnMhO15LTA/viewform).\n\n**Agenda:**\n\n* AppSec trends & predictions 2023 (Marcin Szyd\u0142owski)\n* Microservices development vs OWASP Top10 A1 (Daniel Krasnokucki)\n* Open discussion / Lightning talks / IT Security jobs (if any)\n\n**AppSec trends & predictions 2023**\nIt is this time of the year when cybersecurity professionals pull out their crystall balls and tarot cards to predict what will be the industry trends in the next 12 months. Over the last few weeks I had a chance to plan what to focus on in 2023 and clash my opinions with some of the AppSec/ProductSec leaders in Poland. As interviewed individuals represent many different points of view (security consultants, bug bounty hunters, product security leaders) we have an interesting mixture of opinions and thoughts on SSDLC and Product Security in general.\nIf you are interested in most problematic vulnerabilities, upcoming challenges for software houses or predicted changes in tools & methodologies join us in Krakow and be part of the discussion.\"\n*Speaker's bio:*\n**Marcin Szyd\u0142owski** \\- Cybersecurity professional who spent last 10 years on improving security posture of different\\-sized companies in various industries\\. Started his security journey as a pentester and security consultant\\, went through building global teams responsible for application security in international companies and currently acts as a head of security at Booksy\\. Continuously struggling to find free time to do bug bounty hunting\\.\n\n**Microservices development vs OWASP Top10 A1.** Authorization in multilayer architecture\n\nNowadays all companies try to make software in agile way. The smaller pieces are done, the better. Architecture of computer programs changed a lot and everyone is try going into microservices, microfrontends and a lot of communication between those. BUT... wait... which layer is responsible for authorization? In the short presentation I will present main challenges and possible solutions in microservices world and hopefully open some discussion about your experience in this area!\n\n*Speaker's bio:*\n**Daniel Krasnokucki** \\- developer and appsec guy\\, who leads Product Security team @ Equinix\\. Every day works on improving\\, testing and automating security for very dynamic and innovative software\\. After work \\(as much as possible\\) training people about development and security and if any free time is left \\- spending time with family\\, dog and trying to find time for sport\\.\\.\\.\n\n**Open discussion / Lightning Talks / IT Security jobs**\nThe stage is yours. If you have something inspiring to share or just IT security related job offer - don't hesitate, it's open meeting and it's all about exchange of views and information."
     },
     {
         "group": "Portland Me",
@@ -328,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-sao-jose-dos-campos-chapter/events/290877438",
         "timezone": "America/Sao_Paulo",
         "description": "Neste Meetup vamos entender o processo que permite que executemos aplica\u00e7\u00f5es que utilizam GUI de dentro de um container.\n\nEste tipo de a\u00e7\u00e3o se torna \u00fatil no dia-a-dia, ainda falando em sec, pois permite que tenhamos todas as ferramentas necess\u00e1rias para um teste ou an\u00e1lise de vulnerabilidade, sem que haja a necessidade de instalar ferramentas diretamente no SO ou o uso de virtualiza\u00e7\u00e3o.\n\nO sistema final fica muito leve em compara\u00e7\u00e3o a um SO sendo executado em sua totalidade, seja como host ou virtualizado, al\u00e9m de ser extremamente minimalista, instalando somente as ferramentas necess\u00e1rias. O que o torna perform\u00e1tico e isolado do SO host (nem tanto)."
+    },
+    {
+        "group": "Sastra University",
+        "repo": "www-chapter-sastra-university",
+        "name": "Web Security 101 : Join The Dots With Dote",
+        "date": "2023-01-21",
+        "time": "9:00+05:30",
+        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/291024691",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us for a thorough and informative session on web security. Our speaker will take you through the essential concepts and basic concepts of web security. By the end of this walkthrough, you'll have a strong foundation in web security."
     },
     {
         "group": "Seattle",
