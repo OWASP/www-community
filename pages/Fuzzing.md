@@ -171,4 +171,5 @@ Some fuzzing initiatives:
 - [Beyond Security's beSTORM product](http://www.beyondsecurity.com/bestorm_overview.html)
 - [ForAllSecure Mayhem for Code](https://forallsecure.com/mayhem-for-code)
 - [CI Fuzz](https://code-intelligence.com)
+- [Fuzzbuzz](https://fuzzbuzz.io)
 

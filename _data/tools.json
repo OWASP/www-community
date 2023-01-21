@@ -1,5 +1,32 @@
 [
    {
+      "title": "Escape",
+      "url": "https://www.escape.tech/",
+      "owner": "Escape",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Run thousands of GraphQL security scans",
+      "type": "DAST"
+   },
+   {
+      "title": " Threatspy",
+      "url": "https://www.secureblink.com/threatspy",
+      "owner": "Secure Blink",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Web application, API Scan while providing Auto Remediations",
+      "type": "DAST"
+   },
+   {
+      "title": "GraphQL Security",
+      "url": "https://graphql.security",
+      "owner": "Escape",
+      "license": "Free",
+      "platforms": "SaaS",
+      "note": "Free. No account required.",
+      "type": "DAST"
+   },
+   {
       "title": "Static Reviewer",
       "url": "https://www.securityreviewer.net/",
       "owner": "Security Reviewer",
@@ -7,6 +34,15 @@
       "platforms": "Windows and Linux; on-Premises and in Cloud; Desktop, CLI and CI/CD & IDE plugin integration",
       "note": "Static Reviewer executes code checks according to the most relevant Secure Coding Standards for 40+ programming languages, using 1000+ built-in validation rules.",
       "type": "SAST"
+   },
+   {
+          "title": "Blacklock",
+          "url": "https://blacklock.io/",
+          "owner": "Blacklock Security",
+          "license": "Commercial",
+          "platforms":  "Any",
+          "note": "14-day trial",
+          "type": "DAST"
    },
    {
       "title": "Astra Security Suite",
@@ -42,15 +78,6 @@
       "license": "Commercial",
       "platforms": "SaaS",
       "note": "Paid Option Available",
-      "type": "DAST"
-   },
-   {
-      "title": "Abbey Scan",
-      "url": "https://misterscanner.com/",
-      "owner": "MisterScanner",
-      "license": "Commercial",
-      "platforms": "SaaS",
-      "note": null,
       "type": "DAST"
    },
    {
@@ -117,8 +144,8 @@
       "type": "DAST"
    },
    {
-      "title": "AppTrana Website Security Scan",
-      "url": "https://apptrana.indusface.com/basic/",
+      "title": "Indusface Website Security Scan",
+      "url": "https://www.indusface.com/website-security-scan.php",
       "owner": "AppTrana",
       "license": "Free",
       "platforms": "SaaS",
@@ -173,7 +200,7 @@
    {
       "title": "Burp Suite",
       "url": "http://www.portswigger.net/",
-      "owner": "PortSwiger",
+      "owner": "PortSwigger",
       "license": "Commercial",
       "platforms": "Most platforms supported",
       "note": "Free (Limited Capability)",
@@ -306,6 +333,15 @@
       "type": "DAST"
    },
    {
+      "title": "Holm Security",
+      "url": "https://www.holmsecurity.com/product/web-application-scanning",
+      "owner": "Holm Security",
+      "license": "Commercial",
+      "platforms": "Saas or On-Premise",
+      "note": null,
+      "type": "DAST"
+   },   
+   {
       "title": "HostedScan.com",
       "url": "https://hostedscan.com",
       "owner": "HostedScan.com",
@@ -405,9 +441,9 @@
       "type": "DAST"
    },
    {
-      "title": "Netsparker",
-      "url": "https://www.netsparker.com/",
-      "owner": "Netsparker",
+      "title": "Invicti, formerly Netsparker",
+      "url": "https://www.invicti.com/",
+      "owner": "Invicti",
       "license": "Commercial",
       "platforms": "Windows",
       "note": null,
@@ -438,6 +474,15 @@
       "license": "Open Source",
       "platforms": "Windows, Unix/Linux, and Macintosh",
       "note": "Fast and customisable vulnerability scanner based on simple YAML based DSL.",
+      "type": "DAST"
+   },
+   {
+      "title": "OnSecurity Protect",
+      "url": "https://www.onsecurity.io/scan/",
+      "owner": "OnSecurity LLP",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Free tier and free trial available.",
       "type": "DAST"
    },
    {
@@ -513,12 +558,48 @@
       "type": "DAST"
    },
    {
-      "title": "Snyk",
+      "title": "Snyk Open Source",
+      "url": "https://snyk.io/product/open-source-security-management/",
+      "owner": "Snyk Limited",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "Software composition analysis (SCA) solution helping developers find, prioritize, and fix security vulnerabilities and license issues in open source dependencies.",
+      "type": "SAST"
+   },
+   {
+      "title": "Snyk Container",
+      "url": "https://snyk.io/product/container-vulnerability-management/",
+      "owner": "Snyk Limited",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "Container and Kubernetes security that helps developers and DevOps find and fix vulnerabilities throughout the SDLC.",
+      "type": "SAST"
+   },
+   {
+      "title": "Snyk IaC",
+      "url": "https://snyk.io/product/infrastructure-as-code-security/",
+      "owner": "Snyk Limited",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "Reduce risk by automating Infrastructure as Code (IaC) security and compliance in development workflows pre-deployment and detecting drifted and missing resources post-deployment.",
+      "type": "SAST"
+   },
+   {
+      "title": "Snyk Cloud",
       "url": "https://snyk.io",
       "owner": "Snyk Limited",
       "license": "Commercial or Free",
       "platforms": "SaaS, IDE Plugin",
-      "note": "Find, learn and fix vulnerabilities in open source dependencies, in your application code, in container images or insecure configurations in Terraform and Kubernetes.",
+      "note": "Detects cloud security issues as soon as developers start designing configurations, providing expert guidance to cloud, platform, and security teams in the tools and workflows they use every day.",
+      "type": "SAST"
+   },
+   {
+      "title": "Snyk Code",
+      "url": "https://snyk.io/product/snyk-code/",
+      "owner": "Snyk Limited",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, IDE Plugin",
+      "note": "AI-powered code checker that analyzes your code for security issues, providing actionable advice directly from your IDE to help you fix vulnerabilities quickly",
       "type": "SAST"
    },
    {
@@ -828,17 +909,17 @@
       "type": "SAST"
    },
    {
-      "title": "HCL AppScan CodeSweep - VS Code",
+      "title": "HCL AppScan CodeSweep - IDE",
       "url": "https://hclsw.co/codesweep",
       "owner": "HCL Software",
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "This is the first Community edition version of AppScan. It is delivered as a VS Code plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more.",
+      "note": "This is the first Community edition version of AppScan. It is delivered as a VS Code [https://hclsw.co/codesweep] and JetBrains [https://hclsw.co/codesweep-jetbrains] (IntelliJ IDEA, CLion, GoLand, PhpStorm, PyCharm , Rider, RubyMine, WebStorm) plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Java, .Net, Go, Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more. Auto-fix for some of the issues is available with a free trial.",
       "type": "SAST"
    },
    {
       "title": "HuskyCI",
-      "url": "https://huskyci.opensource.globo.com/",
+      "url": "https://github.com/globocom/huskyCI",
       "owner": null,
       "license": "Open Source or Free",
       "platforms": null,
@@ -1054,11 +1135,11 @@
    },
    {
       "title": "CodeSonar",
-      "url": "https://www.grammatech.com/products/codesonar",
-      "owner": null,
+      "url": "https://www.grammatech.com/products/source-code-analysis",
+      "owner": "GrammaTech",
       "license": "Commercial",
       "platforms": null,
-      "note": "tool that supports C, C++, Java and C\\# and maps against the OWASP top 10 vulnerabilities.",
+      "note": "tool that supports C, C++, Java and C# and maps against the OWASP top 10 vulnerabilities.",
       "type": "SAST"
    },
    {
@@ -1072,11 +1153,11 @@
    },
    {
       "title": "Coverity Static Analysis",
-      "url": "https://www.synopsys.com/content/dam/synopsys/sig-assets/datasheets/SAST-Coverity-datasheet.pdf",
+      "url": "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html",
       "owner": "Synopsys",
       "license": "Commercial",
       "platforms": null,
-      "note": null,
+      "note": "Apex, C/C++, C#, CUDA, Java#, JavaScript, PHP, Python, .NET Core, ASP.NET, Objective-C, Go, JSP, Ruby, Swift, Fortran, Scala, VB.NET, iOS, Android, TypeScript, Kotlin",
       "type": "SAST"
    },
    {
@@ -1103,7 +1184,7 @@
       "owner": "DeepSource Corp.",
       "license": "Commercial",
       "platforms": "SaaS or On-Premises",
-      "note": "DeepSource helps you automatically find and fix issues in your code during code reviews, such as bug risks, anti-patterns, performance issues, and security flaws. It takes less than 5 minutes to set up with your Bitbucket, GitHub, or GitLab account. It works for Python, Go, Ruby, and JavaScript.",
+      "note": "DeepSource helps companies ship clean and secure code with powerful static analysis, OWASP Top 10 compliance, and Autofix. Supports all major programming languages.",
       "type": "SAST"
    },
    {
@@ -1139,7 +1220,7 @@
       "owner": "Perforce",
       "license": "Commercial",
       "platforms": null,
-      "note": "Static Code Analysis for C, C++, C#, and Java",
+      "note": "Static Code Analysis for C, C++, C#, Java, JavaScript, Python, Kotlin",
       "type": "SAST"
    },
    {
@@ -1206,21 +1287,21 @@
       "type": "SAST"
    },
    {
-      "title": "RIPS Code Analysis",
-      "url": "https://www.ripstech.com/",
-      "owner": "RIPS Technologies - Acquired by SonarSource",
-      "license": "Commercial",
-      "platforms": null,
-      "note": "Static security analyzer for Java and PHP.",
-      "type": "SAST"
-   },
-   {
       "title": "SecureAssist",
       "url": "https://community.synopsys.com/s/article/SecureAssist-Overview",
       "owner": "Synopsys",
       "license": "Commercial",
       "platforms": null,
       "note": "Scans code for insecure coding and configurations automatically as an IDE plugin for Eclipse, IntelliJ, and Visual Studio, etc. Supports Java, .NET, PHP, and JavaScript.",
+      "type": "SAST"
+   },
+   {
+      "title": "Betterscan CE (Community Edition)",
+      "url": "https://github.com/marcinguy/betterscan-ce",
+      "owner": "Marcin Kozlowski",
+      "license": "Open Source",
+      "platforms": null,
+      "note": "Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report. Currently supports:  PHP, Java, Scala, Python, Ruby, Javascript, GO, Secret Scanning, Dependency Confusion, Trojan Source, Open Source and Proprietary Checks (total ca. 1000 checks). Supports also Differential analysis. Goal is to have one report using many tools/scanners",
       "type": "SAST"
    },
    {
@@ -1239,15 +1320,6 @@
       "license": "Commercial",
       "platforms": null,
       "note": "Seeker performs code security without actually doing static analysis. Seeker does Interactive Application Security Testing (IAST), correlating runtime code & data analysis with simulated attacks. It provides code level results without actually relying on static analysis.",
-      "type": "SAST"
-   },
-   {
-      "title": "Thunderscan SAST",
-      "url": "https://www.defensecode.com/thunderscan-sast/",
-      "owner": "DefenseCode",
-      "license": "Commercial",
-      "platforms": null,
-      "note": "Static security analysis for 27+ languages.",
       "type": "SAST"
    },
    {
@@ -1458,15 +1530,6 @@
       "type": "SAST"
    },
    {
-      "title": "CodeSonar",
-      "url": "https://www.grammatech.com/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "C, C++, Java",
-      "type": "SAST"
-   },
-   {
       "title": "ParaSoft",
       "url": "https://www.parasoft.com/",
       "owner": null,
@@ -1494,15 +1557,6 @@
       "type": "SAST"
    },
    {
-      "title": "Coverity",
-      "url": "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Android, C\\#, C, C++, Java, JavaScript, Node.js, Objective-C, PHP, Python, Ruby, Scala, Swift, VB.NET",
-      "type": "SAST"
-   },
-   {
       "title": "PVS-Studio",
       "url": "https://www.viva64.com/en/pvs-studio/",
       "owner": null,
@@ -1521,19 +1575,10 @@
       "type": "SAST"
    },
    {
-      "title": "Klocwork",
-      "url": "https://www.roguewave.com/products-services/klocwork/static-code-analysis",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "C, C++, C\\#, Java",
-      "type": "SAST"
-   },
-   {
-      "title": "Polyspace Static Analysis",
+      "title": "Polyspace Static Analysis Tools",
       "url": "https://www.mathworks.com/products/polyspace.html",
       "owner": null,
-      "license": "Open Source or Free",
+      "license": "Commercial",
       "platforms": null,
       "note": "C, C++, Ada",
       "type": "SAST"
@@ -1571,7 +1616,7 @@
       "owner": null,
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "Python(3.x), Ruby, Javascript, GoLang, .NetCore(3.x), Java, Kotlin, Terraform",
+      "note": "C#, Java, Kotlin, Python, Ruby, Golang, Terraform, Javascript, Typescript, Kubernetes, PHP, C, HTML, JSON, Dart, Elixir, Shell, Nginx, Swift",
       "type": "SAST"
    },
    {
@@ -1681,5 +1726,95 @@
       "platforms": "Windows",
       "note": "Free (Limited Capability)",
       "type": "DAST"
-   }
+   },
+   {
+      "title": "ThreatMapper",
+      "url": "https://github.com/deepfence/ThreatMapper",
+      "owner": "Deepfence",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Open source vulnerability discovery and prioritization for Kubernetes, Docker, Serverless and host-based workloads",
+      "type": "DAST"
+   },
+      {
+      "title": "SecretScanner",
+      "url": "https://github.com/deepfence/SecretScanner",
+      "owner": "Deepfence",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "Find secrets (tokens, keys, passwords, etc) in containers and filesystems, supporting approx 140 different secret types",
+      "type": "DAST"
+   },
+   {
+      "title": "GitHub Advanced Security",
+      "url": "https://github.com/features/security",
+      "owner": "GitHub",
+      "license": "Open Source or Free",
+      "platforms": "SaaS or On-Premises",
+      "note": "GitHub Advanced Security uses CodeQL for Static Code Analysis, and GitHub Secret Scanning for identifying tokens. GitHub code scanning can import SARIF from any other SAST tool ",
+      "type": "SAST"
+   },
+   {
+      "title": "AppSweep",
+      "url": "https://www.guardsquare.com/appsweep-mobile-application-security-testing",
+      "owner": "Guardsquare",
+      "license": "Open Source or Free",
+      "platforms": "SaaS",
+      "note": "Mobile application security testing tool for compiled Android apps with support of CI/CD integration",
+      "type": "SAST"
+   },
+   {
+      "title": "Mend SAST",
+      "url": "https://www.mend.io/sast/",
+      "owner": "Mend",
+      "license": "Commercial",
+      "platforms": null,
+      "note": "Static security analysis for 27+ languages.",
+      "type": "SAST"
+   },
+   {
+      "title": "Automated Security Helper",
+      "url": "https://github.com/aws-samples/automated-security-helper",
+      "owner": "AWS",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter.",
+      "type": "SAST"
+   },
+   {
+      "title": "Understand",
+      "url": "https://www.scitools.com",
+      "owner": "SciTools",
+      "license": "Commercial",
+      "platforms": "Windows, MacOSX, Linux",
+      "note": "IDE that provides static code analysis using graphs, documentation, and metrics. Scans code to check for vulnerabilities and ensures compliance with standards like MISRA and AUTOSAR. Works with 20 languages including C, C++, C#, JavaScript, Python, and Java.",
+      "type": "SAST"
+   },
+   {
+      "title": "LunaTrace by LunaSec",
+      "url": "https://www.lunasec.io/",
+      "owner": "LunaSec",
+      "license": "Open Source or Free",
+      "platforms": "SaaS or On-Premises",
+      "note": "Software Composition Analysis (SCA) tool to generate SBOMs, identify vulnerabilities in dependencies, and generate patches. Leverages Static Analysis to reduce false positives by filtering non-exploitable CVEs.",
+      "type": "SAST"
+   },
+   {
+      "title": "SOOS DAST",
+      "url": "https://soos.io/",
+      "owner": "SOOS",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "Free 30-day Trial. Includes DAST & SCA (OSS Vuln detection, Licenses, Policies, SBOM). Affordable flat rate price.",
+      "type": "DAST"
+   },
+   {
+      "title": "Kayran",
+      "url": "https://kayran.io/",
+      "owner": "Kayran",
+      "license": "Commercial",
+      "platforms": "All Web Applications Supported",
+      "note": "Automatic Penetration Testing for Web Applications & API Schema Penetration Testing",
+      "type": "DAST"
+   }  
 ]

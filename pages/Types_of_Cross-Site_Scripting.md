@@ -24,7 +24,17 @@ of XSS](http://www.webappsec.org/projects/articles/071105.shtml), which
 Amit coined [DOM Based XSS](attacks/DOM_Based_XSS). These 3 types of
 XSS are defined as follows:
 
-### [Stored XSS](attacks/xss/#stored-xss-attacks) (AKA Persistent or Type I)
+### [Reflected XSS](attacks/xss/#reflected-xss-attacks) (AKA Non-Persistent or Type I)
+
+Reflected XSS occurs when user input is immediately returned by a web
+application in an error message, search result, or any other response
+that includes some or all of the input provided by the user as part of
+the request, without that data being made safe to render in the browser,
+and without permanently storing the user provided data. In some cases,
+the user provided data may never even leave the browser (see DOM Based
+XSS below).
+
+### [Stored XSS](attacks/xss/#stored-xss-attacks) (AKA Persistent or Type II)
 
 Stored XSS generally occurs when user input is stored on the target
 server, such as in a database, in a message forum, visitor log, comment
@@ -34,16 +44,6 @@ browser. With the advent of HTML5, and other browser technologies, we
 can envision the attack payload being permanently stored in the victim’s
 browser, such as an HTML5 database, and never being sent to the server
 at all.
-
-### [Reflected XSS](attacks/xss/#reflected-xss-attacks) (AKA Non-Persistent or Type II)
-
-Reflected XSS occurs when user input is immediately returned by a web
-application in an error message, search result, or any other response
-that includes some or all of the input provided by the user as part of
-the request, without that data being made safe to render in the browser,
-and without permanently storing the user provided data. In some cases,
-the user provided data may never even leave the browser (see DOM Based
-XSS next).
 
 ### [DOM Based XSS](attacks/DOM_Based_XSS) (AKA Type-0)
 

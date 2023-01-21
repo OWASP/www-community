@@ -234,9 +234,9 @@ which is the subjectPublicKeyInfo. The key is for the site
 [random.org](https://www.random.org), and it is used in the sample
 programs and listings below.
 
-| Figure 1: `subjectPublicKeyInfo` dumped with `dumpans`                        | Figure 2: `subjectPublicKeyInfo` under a hex editor                        |
+| Figure 1: `subjectPublicKeyInfo` dumped with `dumpasn1`                        | Figure 2: `subjectPublicKeyInfo` under a hex editor                        |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| ![Figure 1: subjectPublicKeyInfo dumped with dumpans1](../assets/images/random-org-der-dump.png) | ![Figure 2: subjectPublicKeyInfo under a hex editor](../assets/images/random-org-der-hex.png) |
+| ![Figure 1: subjectPublicKeyInfo dumped with dumpasn1](../assets/images/random-org-der-dump.png) | ![Figure 2: subjectPublicKeyInfo under a hex editor](../assets/images/random-org-der-hex.png) |
 
 The concrete public key is an encoded public key. The key format will
 usually be specified elsewhere - for example, PKCS\#1 in the case of RSA

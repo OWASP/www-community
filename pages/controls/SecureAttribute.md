@@ -135,6 +135,62 @@ bool setcookie ( string $name  [, string $value  [, int $expire= 0�
                  [, string $domain  [, bool $secure= false  [, bool $httponly= false  ]]]]]] )
 ```
 
+## Go
+
+### Iris
+
+For [session cookies managed by Iris](https://docs.iris-go.com/iris/security/security-sessions-cookies), the attribute is set through the `CookieSecureTLS` option:
+
+```go
+app := iris.New()
+sess := sessions.New(sessions.Config{
+  CookieSecureTLS: true,
+  // ...more options
+})
+app.Use(sess.Handler())
+```
+
+For application cookies a parameter in `SetCookie()` sets the secure attribute:
+
+```go
+app.Post("/", func(ctx iris.Context) {
+  ctx.SetCookie(&http.Cookie{
+    Secure: true,
+    // ...more options
+  })
+})
+```
+
+OR by `CookieSecure` cookie option:
+
+```go
+ctx.SetCookieKV("name", "value", iris.CookieSecure)
+```
+
+OR set the attribute permanently:
+
+```go
+app := iris.New()
+app.Use(withCookieOptions)
+
+withCookieOptions := func(ctx iris.Context) {
+	ctx.AddCookieOptions(iris.CookieSecure)
+	ctx.Next()
+}
+```
+
+For Single-Sign-On managed by Iris, the attribute is set through the `Cookie.Secure` option:
+
+```go
+authConfig := auth.Configuration{
+  Cookie: auth.CookieConfiguration{
+    Secure: true,
+    // ...more options
+  },
+  // ...more options
+}
+```
+
 # Testing for the Secure Attribute
 
 Verifying that a web site sets this attribute on any particular cookie is

@@ -50,6 +50,4 @@ Alternatively, apply the following sanitization to each field of the CSV, so tha
 
 For further information, please refer to the following articles:
 
-- [Comma Separated Vulnerabilities](https://www.contextis.com/resources/blog/comma-separated-vulnerabilities/)
-- [Video showing CSV Injection against Piwik](https://www.youtube.com/watch?v=SC7AkclnG2g)
 - [Stealing Google Docs via CSV Injection](http://georgemauer.net/2017/10/07/csv-injection.html)

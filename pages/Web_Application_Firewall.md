@@ -21,7 +21,8 @@ WAFs may come in the form of an appliance, server plugin, or filter, and may be 
 
 ## OWASP Projects
 
-* The [OWASP ModSecurity CRS Project's](/www-project-modsecurity-rule-set) goal is to provide an easily "pluggable" set of generic attack detection rules that provide a base level of protection for any web application.
+* The [OWASP ModSecurity CRS Project's](/www-project-modsecurity-core-rule-set/) goal is to provide an easily "pluggable" set of generic attack detection rules that provide a base level of protection for any web application.
+* The [OWASP Coraza WAF project](/www-project-coraza-web-application-firewall/) is a WAF framework that can be easily integrated into your applications. It supports the OWASP ModSecurity CRS rules and Modsecurity syntax.
 * Consider the [WASC OWASP Web Application Firewall Evaluation Criteria Project (WAFEC)](/www-project-wafec) to help evaluate commercial and open source web application firewalls.
 	
 ## References

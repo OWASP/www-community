@@ -2,14 +2,18 @@
 
 layout: col-sidebar
 title: Empty String Password
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Empty_String_Password
 tags: vulnerability, Empty String Password
 
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+> [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html): The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.
 
 ## Description
 

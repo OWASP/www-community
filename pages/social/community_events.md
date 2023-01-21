@@ -47,5 +47,5 @@ permalink: meetings/
 <strong>Description</strong>: {{ event.description }}
 </div>
 <br>
-  {% assign i = i | plus: 1 %}
+{% assign i = i | plus: 1 %}
 {% endfor %}

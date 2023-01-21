@@ -2,8 +2,8 @@
 
 layout: col-sidebar
 title: XML External Entity (XXE) Processing
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/XML_External_Entity_(XXE)_Processing
 tags: vulnerability, XML External Entity (XXE) Processing
 auto-migrated: 1
@@ -11,6 +11,10 @@ auto-migrated: 1
 ---
 
 {% include writers.html %}
+
+## NVD Categorization
+
+> [CWE-611: Improper Restriction of XML External Entity Reference](https://cwe.mitre.org/data/definitions/611.html): The software processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output.
 
 ## Description
 
