@@ -189,7 +189,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 - Improve Web Application Firewall GUI based on AI 
-- Improve all Securetea features (IDS,Firewall)
+- Improve all SecureTea features (IDS,Firewall)
 - Complete the web GUI and remote monitoring
 - Zero bugs - Fix the current identifed bugs
 - Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
