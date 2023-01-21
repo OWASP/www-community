@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap) | [Bug Logging Tool (BLT)](#bug-logging-tool-blt) | [Maryam](#owaspmaryam)
+[ZAP](#owaspzap) | [Bug Logging Tool (BLT)](#bug-logging-tool-blt) | [Maryam](#owaspmaryam) | [Securetea](#project-securetea) | [PyGoat](project-pygoat) | [RiskAssessmentFramework](risk-assessment)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -183,13 +183,13 @@ If you have a new Idea regarding Iris(Meta searcher), let us chat.
 ### [OWASP SecureTea](https://securetea.org/)
 
 The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 ##### Expected results
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 - Improve Web Application Firewall GUI based on AI 
-- Improve features (IDS,Firewall)
+- Improve all Securetea features (IDS,Firewall)
 - Complete the web GUI and remote monitoring
 - Zero bugs - Fix the current identifed bugs
 - Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
@@ -206,17 +206,16 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 * [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
-### OWASP PyGoat
-
+### [OWASP PyGoat](https://owasp.org/www-project-pygoat/)
 Intentionally vuln web Application Security in django.
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
 ##### Expected results
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
 - Improve Vulnerabilities based on OWASP Top 10 - 2021
 - Fixing all issues and work with Docker
@@ -232,18 +231,18 @@ Intentionally vuln web Application Security in django.
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
+* Rupak
 
-### OWASP Risk Assessment Framework
+### [OWASP Risk Assessment Framework](https://owasp.org/www-project-risk-assessment-framework/)
+The OWASP Risk Assessment Framework consist of Dynamic application security testing (DAST) and Risk Assessment tools. By using OWASP Risk Assessment Framework's  Testers will be able to analyse and review their application and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure application.
 
-The OWASP Risk Assessment Framework consist of Dynamic application security testing (DAST) and Risk Assessment tools. By using OWASP Risk Assessment Framework's  Testers will be able to analyse and review their application and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure code.
-
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
 ##### Expected results
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 - Building API Scanner
 - Add Vulnerabilities based on OWASP Top 10 - 2021 & CVE Mitre
 - Fixing all issues and work with Docker
@@ -260,3 +259,4 @@ The OWASP Risk Assessment Framework consist of Dynamic application security test
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
+* [Andriansyah](mailto:pakdesawangan@gmail.com)
