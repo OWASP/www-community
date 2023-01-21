@@ -179,7 +179,6 @@ If you have a new Idea regarding Iris(Meta searcher), let us chat.
 
 * [Saeed Dehqan](mailto:saeed.dehghan@owasp.org)
 
-
 ### [OWASP SecureTea](https://securetea.org/)
 
 The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
