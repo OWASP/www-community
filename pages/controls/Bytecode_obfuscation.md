@@ -1,12 +1,10 @@
 ---
-
 title: Bytecode Obfuscation
 layout: col-sidebar
 author: Pierre Parrend
 contributors: Stephendv, jmanico, AdamButton, KristenS, Robert Larsen, Shady, Milan Singh Thakur, Imifos, Gtorok, Robk, kingthorin, Matt Coley
 tags: controls, java
 permalink: /controls/Bytecode_obfuscation
-
 ---
 
 {% include writers.html %}
@@ -29,7 +27,7 @@ However, for some platforms such as Java, Android, or.NET, free
 decompilers can easily reverse-engineer source code from an executable
 or library with no real time or effort. Automated bytecode obfuscation
 can make reverse-engineering a program difficult but certainly not impossible.
-In simpler cases it can be done with enough patience and the correct tools. 
+In simpler cases it can be done with enough patience and the correct tools.
 Other advantages could include helping to protect licensing mechanisms and
 unauthorized access, hiding vulnerabilities and shrinking the size of the executable.
 
@@ -62,9 +60,9 @@ tampering. Some typical examples of obfuscation techniques include:
 
 ### How to automatically clean up obfuscated bytecode?
 
-While there are tools that would allow a person with enough patience and skill to 
+While there are tools that would allow a person with enough patience and skill to
 manually deobfuscate these techniques themselves, these processes can also be automated
-with some open source tools. 
+with some open source tools.
 
 - [Java-Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) - A command line tool providing automated reversal of common obfuscation patterns.
 - [Threadtear](https://github.com/GraxCode/threadtear/) - A UI tool including automated reversal of common obfuscation patterns, plus preview decompilation of the results and more useful tooling.
@@ -92,19 +90,19 @@ package](http://www.rzo.free.fr/applis/fr.inria.ares.sfelixutils-0.1.jar).
 Go to the main directory of Proguard. To launch it, use following script
 and parameters:
 
-`java -jar lib/proguard.jar @config-genericFrame.pro`
+`java -jar lib/proguard.jar @config-genericFrame.pro`
 
 config-genericFrame.pro is the option file (do not forget to adapt the
 libraryjars parameter to your own system) :
 
-`-obfuscationdictionary ./examples/dictionaries/compact.txt`
-`-libraryjars /usr/java/j2sdk1.4.2_10/jre/lib/rt.jar`
-`-injars fr.inria.ares.sfelixutils-0.1.jar`
-`-outjar fr.inria.ares.sfelixutils-0.1-obs.jar`
+`-obfuscationdictionary ./examples/dictionaries/compact.txt`
+`-libraryjars /usr/java/j2sdk1.4.2_10/jre/lib/rt.jar`
+`-injars fr.inria.ares.sfelixutils-0.1.jar`
+`-outjar fr.inria.ares.sfelixutils-0.1-obs.jar`
 `-dontshrink`
 `-dontoptimize`
-`-keep public class proguard.ProGuard {`
-`public static void main(java.lang.String[]);`
+`-keep public class proguard.ProGuard {`
+`public static void main(java.lang.String[]);`
 `}`
 
 Remark that the 'keep' option is mandatory, we use this default class
@@ -117,10 +115,10 @@ The output is stored in the package 'genericFrameOut.jar'.
 You can observe the modifications implied by obfuscation with following
 commands:
 
-- `jar xvf genericFrameOut.jar`
-- `cd genericFrame/pub/gui/`
-- `jad c.class`
-- `more c.jad more c.jad`
+- `jar xvf genericFrameOut.jar`
+- `cd genericFrame/pub/gui/`
+- `jad c.class`
+- `more c.jad more c.jad`
 
 ## Links
 

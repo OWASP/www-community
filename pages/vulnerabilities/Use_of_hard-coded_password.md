@@ -1,5 +1,4 @@
 ---
-
 layout: col-sidebar
 title: Use of hard-coded password
 author:
@@ -7,7 +6,6 @@ contributors:
 permalink: /vulnerabilities/Use_of_hard-coded_password
 tags: vulnerability, Use of hard-coded password
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -27,19 +25,19 @@ guessing tremendously.
 
 **Consequences**
 
-  - Authentication: If hard-coded passwords are used, it is almost
-    certain that malicious users will gain access through the account in
-    question.
+- Authentication: If hard-coded passwords are used, it is almost
+  certain that malicious users will gain access through the account in
+  question.
 
 **Exposure period**
 
-  - Design: For both front-end to back-end connections and default
-    account settings, alternate decisions must be made at design time.
+- Design: For both front-end to back-end connections and default
+  account settings, alternate decisions must be made at design time.
 
 **Platform**
 
-  - Languages: All
-  - Operating platforms: All
+- Languages: All
+- Operating platforms: All
 
 **Required resources**
 
@@ -74,11 +72,11 @@ simple.
 
 ## Risk Factors
 
-  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
-    that make this vulnerability likely or unlikely to actually happen
-  - Discuss the technical impact of a successful exploit of this
-    vulnerability
-  - Consider the likely \[business impacts\] of a successful attack
+- Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
+  that make this vulnerability likely or unlikely to actually happen
+- Discuss the technical impact of a successful exploit of this
+  vulnerability
+- Consider the likely \[business impacts\] of a successful attack
 
 ## Examples
 
@@ -117,23 +115,23 @@ change that password or disable this "functionality."
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - Use of hard-coded cryptographic key
-  - Storing passwords in a recoverable format
+- Use of hard-coded cryptographic key
+- Storing passwords in a recoverable format
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - Design (for default accounts): Rather than hard code a default
-    username and password for first time logins, utilize a "first login"
-    mode which requires the user to enter a unique strong password.
-  - Design (for front-end to back-end connections): Three solutions are
-    possible, although none are complete. The first suggestion involves
-    the use of generated passwords which are changed automatically and
-    must be entered at given time intervals by a system administrator.
-    These passwords will be held in memory and only be valid for the
-    time intervals. Next, the passwords used should be limited at the
-    back end to only performing actions valid to for the front end, as
-    opposed to having full access. Finally, the messages sent should be
-    tagged and checksummed with time sensitive values so as to prevent
-    replay style attacks.
+- Design (for default accounts): Rather than hard code a default
+  username and password for first time logins, utilize a "first login"
+  mode which requires the user to enter a unique strong password.
+- Design (for front-end to back-end connections): Three solutions are
+  possible, although none are complete. The first suggestion involves
+  the use of generated passwords which are changed automatically and
+  must be entered at given time intervals by a system administrator.
+  These passwords will be held in memory and only be valid for the
+  time intervals. Next, the passwords used should be limited at the
+  back end to only performing actions valid to for the front end, as
+  opposed to having full access. Finally, the messages sent should be
+  tagged and checksummed with time sensitive values so as to prevent
+  replay style attacks.
 
 [Category:Vulnerability](Category:Vulnerability "wikilink")

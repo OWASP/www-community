@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Insecure Randomness
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Insecure_Randomness
 tags: vulnerability, Insecure Randomness
-
 ---
 
 {% include writers.html %}

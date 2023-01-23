@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Unsafe function call from a signal handler
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Unsafe_function_call_from_a_signal_handler
 tags: vulnerability, Unsafe function call from a signal handler
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -20,23 +18,23 @@ for exploitation of the process.
 
 **Consequences**
 
-  - Access control: It may be possible to execute arbitrary code through
-    the use of a write-what-where condition.
-  - Integrity: Signal race conditions often result in data corruption.
+- Access control: It may be possible to execute arbitrary code through
+  the use of a write-what-where condition.
+- Integrity: Signal race conditions often result in data corruption.
 
 **Exposure period**
 
-  - Requirements specification: A language might be chosen which is not
-    subject to this flaw.
-  - Design: Signal handlers with complicated functionality may result in
-    this issue.
-  - Implementation: The use of any number of non-reentrant functions
-    will result in this issue.
+- Requirements specification: A language might be chosen which is not
+  subject to this flaw.
+- Design: Signal handlers with complicated functionality may result in
+  this issue.
+- Implementation: The use of any number of non-reentrant functions
+  will result in this issue.
 
 **Platform**
 
-  - Languages: C, C++, Assembly
-  - Platforms: All
+- Languages: C, C++, Assembly
+- Platforms: All
 
 **Required resources**
 
@@ -65,28 +63,28 @@ state.
 
 ## Risk Factors
 
-  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
-    that make this vulnerability likely or unlikely to actually happen
-  - Discuss the technical impact of a successful exploit of this
-    vulnerability
-  - Consider the likely \[business impacts\] of a successful attack
+- Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
+  that make this vulnerability likely or unlikely to actually happen
+- Discuss the technical impact of a successful exploit of this
+  vulnerability
+- Consider the likely \[business impacts\] of a successful attack
 
 ## Examples
 
-See *Race condition in signal handler*, for an example usage of free()
+See _Race condition in signal handler_, for an example usage of free()
 in a signal handler which is exploitable.
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - Requirements specification: A language might be chosen which is not
-    subject to this flaw, through a guarantee of reentrant code.
-  - Design: Design signal handlers to only set flags rather than perform
-    complex functionality.
-  - Implementation: Ensure that non-reentrant functions are not found in
-    signal handlers. Also, use sanity checks to ensure that state is
-    consistently performing asynchronous actions which effect the state
-    of execution.
+- Requirements specification: A language might be chosen which is not
+  subject to this flaw, through a guarantee of reentrant code.
+- Design: Design signal handlers to only set flags rather than perform
+  complex functionality.
+- Implementation: Ensure that non-reentrant functions are not found in
+  signal handlers. Also, use sanity checks to ensure that state is
+  consistently performing asynchronous actions which effect the state
+  of execution.
 
-__NOTOC__
+**NOTOC**
 
 [Category:Vulnerability](Category:Vulnerability "wikilink")

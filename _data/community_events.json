@@ -1,302 +1,302 @@
 [
-    {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - January",
-        "date": "2023-01-31",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/289490322",
-        "timezone": "Europe/Copenhagen",
-        "description": "Hi All,\nPlease note, that this is a physical event hosted by Github and OWASP Aarhus may share a list of participants with Github for the sole purpose of hosting the event.\nAs we have been talking about, OWASP Aarhus wanted to try out the \u201clightning talk\u201d format. All the details are still not complete, but the schedule is: (TBD \u2013 To Be Decided)\n\n19:00 \u2013 19:15 Welcome by Github and OWASP Aarhus, Karl Krukow, Github and Thomas Ljungberg Kristensen, OWASP\n19:20 \u2013 19:35 Leveraging CVEs to improve the CodeQL security analysis, Esben Andreasen, Sr. Software Engineer, GitHub\n19:40 \u2013 19:55 OWASP for dummies Martin Duedahl\n20:00 \u2013 20:15 Live demo - Heap Exploit in Glibc Oliver Thomas\n20:15 \u2013 20:45 Break\n20:50 \u2013 21:05 TBD Klaus Agnoletti\n21:10 \u2013 21:25 Using storytelling Jens Roed Andersen\n21:25 \u2013 21:30 Goodbyes OWASP and Github\n\nLooking forward to it!"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - January 2023 (Online)",
-        "date": "2023-01-31",
-        "time": "1:30-06:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705619",
-        "timezone": "America/Chicago",
-        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* --\n[https://owasp-austin-2023-january.eventbrite.com](https://owasp-austin-2023-january.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: Cryptoparty (various speakers)**\n\nIn 1996, John Perry Barlow, co-founder of the Electronic Frontier Foundation (EFF) wrote 'A Declaration of the Independence of Cyberspace' where he stated \"We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth. We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.\" The Internet of today is an amazing place of knowledge and opportunity, but it unfortunately falls short of Mr. Barlow's original vision.\n\nIn the 21st century we face problems of climate change, energy crisis, state censorship, mass surveillance, and on-going wars. We must be free to communicate and associate without fear. To realize our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online. Topics include technologies like TOR, full-disk encryption, GPG, and many more. CryptoParties are free to attend, public, and not commercially aligned.\n\nAt our January 31, 2023 OWASP Austin meeting, we will host a CryptoParty with the goal of inviting others to join us in learning about the tools and technologies that enable an individual's right to privacy. When the time comes, we will encourage you all to invite your family, friends, and peers to attend this event, but for now, I am looking for others who are willing to give a 10 minute max presentation on a crypto-oriented subject. The presentation will need to be laid out so that novice and experienced alike can take action based on the data presented. All tools must be free and open source. If you are interested in presenting, please e-mail me directly (do not reply to the list) with your name, bio, talk title, and abstract for consideration. This is going to be EPIC!"
-    },
-    {
-        "group": "Baku",
-        "repo": "www-chapter-baku",
-        "name": "OWASP Baku Meetup",
-        "date": "2023-01-30",
-        "time": "5:00+04:00",
-        "link": "https://www.meetup.com/owasp-baku-chapter/events/290945502",
-        "timezone": "Asia/Baku",
-        "description": "We are celebrating foundation of Baku chapter of OWASP."
-    },
-    {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston February 2023 Meetup - Hybrid Attendance",
-        "date": "2023-02-01",
-        "time": "7:30-05:00",
-        "link": "https://www.meetup.com/owaspboston/events/290724616",
-        "timezone": "America/New_York",
-        "description": "OWASP Boston's first hybrid meetup of 2023 will have an exciting guest speaker, Matt Cheung (https://www.linkedin.com/in/mattcheung1/). Matt is currently an Application Security Consultant at Veracode and is best known for his expertise in cryptograph having spoken at major conference such as DefCon, BsidesSF and many others. Matt will be sharing his experience researching and developing Cryptosploit (https://github.com/nullpsifer/cryptosploit), \"a Metasploit-like tool designed to streamline the exploitation of vulnerable cryptosystems\".\n\nZoom info provided to all registered attendees ahead of the event."
-    },
-    {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "TBC ",
-        "date": "2023-02-21",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/owasp-bristol/events/288310192",
-        "timezone": "Europe/London",
-        "description": "tbc\n\nWe publish the recordings of our meetups on @YouTube.\nIf you would like to be notified when a new video is published, please subscribe to our channel at:\nhttps://www.youtube.com/@OWASPBristol"
-    },
-    {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP Suffolk Fight Club - December 2022",
-        "date": "2023-01-24",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-bristol/events/290421029",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Cambridge",
-        "repo": "www-chapter-cambridge",
-        "name": "Automation of digital crime investigation using Reinforcement Learning (RL)",
-        "date": "2023-02-07",
-        "time": "7:00Z",
-        "link": "https://www.meetup.com/owasp-cambridge-meetup/events/290579034",
-        "timezone": "Europe/London",
-        "description": "Hosted by the Cyber Security & Networking Research Group, Anglia Ruskin University, OWASP (Open Web Application Security Project) Cambridge Chapter, & BCS Cybercrime Forensics SG\n\n**Background**\n\nThe BCS \u2013 Chartered Institute for IT - Cybercrime Forensics Special Interest Group (SG) promotes Cybercrime Forensics and the use of Cybercrime Forensics; of relevance to computing professionals, lawyers, law enforcement officers, academics and those interested in the use of Cybercrime Forensics and the need to address cybercrime for the benefit of those groups and of the wider public.\n\nOWASP (Open Web Application Security Project is a 501(c)(3) not-for-profit worldwide charitable organization focused on improving the security of application software. Their mission is to make application security visible, so that people and organizations can make informed decisions about true application security risks.\n\nThe **Cyber Security and Networking** (**CSN**) Research Group at Anglia Ruskin University has close working strategic relationships with industry, professional bodies, law enforcement, government agencies and academia in the delivery of operationally focused applied information and application security research. We have strong international links with professional organisations such as OWASP, BCS, ISC2, IISP & the UK Cyber Security Forum amongst others. The primary aims of CSNRG are to help the UK and partner nations to tackle cybercrime, be more resilient to cyber attacks and educate its users for a more secure cyberspace and operational business environment. These will be achieved through the investigation of threats posed to information systems and understanding the impact of attacks and creation of cyber-based warning systems which gathering threat intelligence, automate threat detection, alert users and neutralising attacks. For network security we are researching securing the next generation of software defined infrastructures from the application API and control/data plane attacks. Other key work includes Computer forensic analysis, digital evidence crime scenes and evidence visualisation as well as Cyber educational approaches such as developing Capture the Flag (CTF) resources and application security programs.\n\n**Abstract : \u201cAutomation of digital crime investigation using Reinforcement Learning (RL)\u201d**\n\nCurrent human-led Digital Investigation is reaching its limit, notably with the explosive increase in cybercrime. DFIR practitioners at law enforcement and corporate levels are facing severe challenges in coping with the demand. This talk will discuss the possible use of new Reinforcement Learning (RL) approaches to automate and optimise some of the processes in DFIR practice and thus off-load experts and increase efficiency.\n\n**Provisional Agenda**\n\n16:45 - Webinar waiting lobby opens\n17:00 - Start of Presentation\n17:50 \u2013 Questions & Answers"
-    },
-    {
-        "group": "Charlotte",
-        "repo": "www-chapter-charlotte",
-        "name": "2023 Kickoff Meeting!",
-        "date": "2023-02-16",
-        "time": "9:00-05:00",
-        "link": "https://www.meetup.com/owaspclt/events/289053091",
-        "timezone": "America/New_York",
-        "description": "Come join us for our First meeting of the year, Food and Drink Will be provided! The location and agenda are TBA."
-    },
-    {
-        "group": "Denver",
-        "repo": "www-chapter-denver",
-        "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meetup!",
-        "date": "2023-02-01",
-        "time": "7:00-07:00",
-        "link": "https://www.meetup.com/denver-owasp/events/291010905",
-        "timezone": "America/Denver",
-        "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend. Bring a laptop if you plan to participate hands-on.**\n\nFor our February meetup, the focus will be on Hacking the OWASP Top 10 - 2023 Edition. We'll have a presenter, food, drinks, and networking. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to your sponsor [SpyderSec ](https://spydersec.com)**\n\n**Presentation Title:** Hacking the OWASP Top 10 - 2023 Edition\n\n**Presentation Details:**\nCurious what the latest OWASP Top 10 looks like? Wondering what the changes mean for developers, testers, and auditors? Come dive into it with our own Aaron Cure as he talks about each of the issues and his theories on the updates. Make sure to bring a laptop so you can hack along on several of the issues. Worried you don\u2019t have the chops? Don\u2019t be, we\u2019ll give you enough info to hack it whether you\u2019re a beginner or a pro!"
-    },
-    {
-        "group": "Dindigul",
-        "repo": "www-chapter-dindigul",
-        "name": "Identifying Web Application Vulnerabilities",
-        "date": "2023-01-26",
-        "time": "8:00+05:30",
-        "link": "https://www.meetup.com/dindigul-owasp-meetup-group/events/290782618",
-        "timezone": "Asia/Kolkata",
-        "description": "**Speaker Name:** Premkumar S\nFounder & Director of ORBIT INFOSEC\n**Organizer:** Arun sakthivel\n**Owasp Dindigul leader**\n\nRegistration URL: [https://forms.gle/h4sRnviA3KcBbUep7](https://forms.gle/h4sRnviA3KcBbUep7)"
-    },
-    {
-        "group": "Dublin",
-        "repo": "www-chapter-dublin",
-        "name": "OWASP Dublin meetup -Implementing AppSec using common sense ",
-        "date": "2023-01-26",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/owasp-dublin/events/291000719",
-        "timezone": "Europe/Dublin",
-        "description": "OWASP Dublin are delighted to announce our next meetup will take place on Jan 26th. Venue is TBC.\n\nWe have a brilliant talk planned \" Implementing AppSec using common sense\" which will be delivered by Klaus Agnoletti.\n\nKlaus Agnoletti has been an all-round infosec professional since 2004. As a long-time active member of the infosec community in Copenhagen, Denmark, he co-founded BSides K\u00f8benhavn in 2019. Currently he's a freelance infosec professional specializing in security transformation and community focused marketing.\n\n**Synopsis**\nImplementing AppSec can be a daunting task; especially if you don't know exactly what it is and how do it. Join me as I give you an introduction to AppSec and share my long experience in infosec by giving you practical advice on how to go about doing just that.\n\nWe are really looking forward to this talk and hope to see you there."
-    },
-    {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Paris - Janvier 2023",
-        "date": "2023-01-23",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-france/events/290848644",
-        "timezone": "Europe/Paris",
-        "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
-    },
-    {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2023-02-13",
-        "time": "8:45-05:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/290841105",
-        "timezone": "America/New_York",
-        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
-    },
-    {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "Flash memory dumping",
-        "date": "2023-01-30",
-        "time": "9:00+07:00",
-        "link": "https://www.meetup.com/owasp-jakarta-chapter/events/290913180",
-        "timezone": "Asia/Jakarta",
-        "description": "Topic: Flash memory dumping\n\nAbstract:\n\nThe test case objective is to dump the Flash Memory off the \"JTAG\" Protocol using \"Attify badge\" as the Attacking hardware against the DIVA (Damn Insecure and Vulnerable App).\n\nShort Bio:\n\nUjval Patel (Hax04)\n\ni have 2 total experience in security consulting & auditing. I\u2019m currently working in EY. I started my career as a researcher at Indian Space Research Organisation (ISRO). I\u2019m active member of the Seasides Security Community. I\u2019m most passionate about hardware hacking since i like to grt my hands dirty.\n\nNote\n\nThis Session deliver in English\n\nJoin By zoom :\n\nTopic: OWASP Jakarta - Flash memory dumping\nTime: Jan 30, 2023 07:00 PM Jakarta\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/87689121285?pwd=Z0dlS2lGRlJRZDFjOUZRUTFRMllSUT09\n\nMeeting ID: 876 8912 1285\nPasscode: OWASPJKT"
-    },
-    {
-        "group": "Joao Pessoa",
-        "repo": "www-chapter-joao-pessoa",
-        "name": "Modelagem de Amea\u00e7as",
-        "date": "2023-01-26",
-        "time": "9:00-03:00",
-        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/290874767",
-        "timezone": "America/Fortaleza",
-        "description": "Tudo o que voc\u00ea queria saber, mas tinha medo de perguntar\u2026 porque sabia que virariam requisitos."
-    },
-    {
-        "group": "Kansas City",
-        "repo": "www-chapter-kansas-city",
-        "name": "OWASP-KC Jan 24th All About SBOM",
-        "date": "2023-01-24",
-        "time": "8:00-06:00",
-        "link": "https://www.meetup.com/owasp-kansas-city/events/290919824",
-        "timezone": "America/Chicago",
-        "description": "Mat Caughron will be speaking on the topic of Software Bill of Materials (SBOM) and how it's relevant to application security and development!\n\nSBOM's are becoming more and more important in the application security and development space due to the White House's Executive Order around Software Supply Chain and NIST's newest guidance, SP 800-218 Secure Software Development Framework (SSDF).\n\nCome join us for drinks, snacks, and help contribute to the conversation about this topic and how it will effect application security and development for the foreseeable future!"
-    },
-    {
-        "group": "Lahore",
-        "repo": "www-chapter-lahore",
-        "name": "January Meetup 2023",
-        "date": "2023-01-28",
-        "time": "7:00+05:00",
-        "link": "https://www.meetup.com/owasp-lahore-chapter/events/290789247",
-        "timezone": "Asia/Karachi",
-        "description": "TBD"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - JAN 25, 2023",
-        "date": "2023-01-25",
-        "time": "7:30-08:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/290450912",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: **Identity Based Attacks**\nJoin us for great networking, dinner and drinks, and see a presentation by:\n**Liam O\u2019Murchu**, Technical Director, Security Technology and Response Group with Symantec\n\n**ABSTRACT**: Identity Based Attacks have become more common as the use of multifactor authentication has increased. Groups as diverse as teenage hackers to North Korean spies have devised schemes to circumvent these improvements. Direct attacks on the MFA tools themselves have also allowed APTs unfettered access to enterprises. A strong understanding of recent successful Identity Based Attacks can guide us to stronger solutions. We will look at attacks from social engineering to hidden back doors, showing attacker trends, solution weaknesses and stronger solutions will be highlighted.\n\n**Thanks to our Sponsor**: **Ermetic**\nErmetic helps prevent breaches by reducing the attack surface of cloud infrastructure and enforcing least privilege at scale in the most complex environments. The Ermetic SaaS platform provides comprehensive cloud security for AWS, Azure and GCP that spans both cloud infrastructure entitlements management (CIEM) and cloud security posture management (CSPM). The company is led by proven technology entrepreneurs whose previous companies have been acquired by Microsoft, Palo Alto Networks and others. Ermetic has received funding from Accel, Forgepoint, Glilot Capital Partners, Norwest Venture Partners, Qumra and Target Global. Visit us at [https://ermetic.com/](https://ermetic.com/) and follow us on LinkedIn ([https://www.linkedin.com/company/ermetic/mycompany/](https://www.linkedin.com/company/ermetic/mycompany/)), Twitter ([https://twitter.com/ermeticsec](https://twitter.com/ermeticsec)) and Facebook ([https://www.facebook.com/ermeticsec/](https://www.facebook.com/ermeticsec/)).\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
-    },
-    {
-        "group": "Mumbai",
-        "repo": "www-chapter-mumbai",
-        "name": "OWASP Mumbai Online Meetup - 28th January 2023",
-        "date": "2023-01-28",
-        "time": "2:00+05:30",
-        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/290845418",
-        "timezone": "Asia/Kolkata",
-        "description": "### OWASP Mumbai Online Meetup\n\n### Time: 12:00PM - 1:00PM\n\n### Session Details\n\nIntroduction to the OWASP Mumbai Chapter.\n\n**Talk:-** Client Side Prototype Pollution (CSPP)\n**Speaker:-** Sanjeev R [Senior Consultant @TheSecOpsGroup]\n\nGeneral Discussion, QnA & Feedback"
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Security for Growth Companies",
-        "date": "2023-01-31",
-        "time": "7:30-08:00",
-        "link": "https://www.meetup.com/owasp-oc/events/290902364",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nThe increased pressure for cybersecurity practices, even in their earliest stages, is becoming a common demand from both customers and investors. With cyber threats escalating, it\u2019s more urgent than ever to embed security into a company\u2019s day-to-day operations from day one to prevent \u2018security debt\u2019 from emerging as the company scale. Establishing a robust cyber security program can be a daunting task. A cloud-native company faces dozens of cybersecurity tools to choose from and the typical resource constraints of a young company that needs to grow fast. Based on the practical advice given by CISOs of 7 hyper-growth companies (Netflix, Datadog, HashiCorp, ACV, Axonius, Discord, and ServiceTitan), this talk aims to provide you with a modern, lightweight security guide to succeed in the cloud-first/cloud-native era.\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)\n\n**Thanks to our Sponsor**: **Synopsys**\n**[Synopsys](https://www.synopsys.com/)**[ ](https://www.synopsys.com/)builds trust in software by enabling organizations to manage application security, quality, and compliance risks at the speed their business demands."
-    },
-    {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASP Ottawa January 2023:  Building & Adopting AppSec Capabilities",
-        "date": "2023-01-26",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/290755929",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our first in-person meetup in over 2 years!**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nYouTube Live Stream Link: https://www.youtube.com/watch?v=FV8qrPpCSmU\n\n**6:00 PM EDT** Arrival and setup\n**6:30 PM EDT** Introduction to OWASP Ottawa 2023 - Garth Boyd\n**6:45 PM EDT** Venue Sponsor Welcome - Guy-Vincent Jourdan\n\n**7:00 PM EDT** Technical Talks\n\n1. **The Missing pieces to building and adopting application security capabilities -** Jon Shapransky\n\nAbstract:\nThere are increasing requirements for organizations to improve their application security practices. To meet these requirements, organizations need to adopt capabilities whether practices (e.g., threat modelling, vulnerability scanning, etc.) or tools (e.g., SAST, SCA, DAST, CSPM, etc.). The value of hiring specialists and buying tools will not be realized unless the associated services, processes, procedures are adopted.This talk will focus on presenting an approach to building capabilities and highlight underlying principles behind adoption. This framework covers both the general components of a capability and the components required to adopt a capability. We\u2019ll present a framework that incorporates relevant third-party research from fields outside of security and applies them to the security domain to help explain why some are successful in implementing and adopting capabilities while others are not.\n\nThis talk is for anyone involved in designing, building, and managing application security and product security programs. Takeaways:\n\n* Universal framework on capability development that prompts us to think about what we will need to ensure success and adoption.\n* Understanding of the principles behind adoption.\n* Perspective of how team topologies (structure and interactions) influences our ability to achieve desired results.\n* An approach to measuring progress.\n\nSpeaker Bio:\nJon Shapransky is a Technical Principal Security Consultant at Kroll with over 10 years of experience in Information Security. Since beginning his career, Jon has performed various forms of security assessments and helped clients build security programs and capabilities. Jon has worked with a wide range of client from both the public and private sector. His experience includes working with Fortune 100, Fortune 500, and Fortune Global 500 orgnisations across various industries and work with all levels of government, health care, and higher education. Presently, Jon is focussed on helping clients build Application Security and DevSecOps programs where he designs, architects, and helps implement related capabilities and processes."
-    },
-    {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "Wasatch AppSec / OWASP-SLC - January Meetup (in person @ Health Equity Campus)",
-        "date": "2023-01-24",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-slc/events/290755920",
-        "timezone": "America/Denver",
-        "description": "**Agenda:**\n1) Lunch\n2) 2023 Calendar showing upcoming meetups for the year\n3) Topics for discussion:\n\n1. Content Security Policies and SRI and how they can/can't protect third party script usage (including dynamic)\n2. In room poll (what are you bumping into now?)"
-    },
-    {
-        "group": "Sao Jose Dos Campos",
-        "repo": "www-chapter-sao-jose-dos-campos",
-        "name": "Docker Weaponization",
-        "date": "2023-01-26",
-        "time": "1:00-03:00",
-        "link": "https://www.meetup.com/owasp-sao-jose-dos-campos-chapter/events/290877438",
-        "timezone": "America/Sao_Paulo",
-        "description": "Neste Meetup vamos entender o processo que permite que executemos aplica\u00e7\u00f5es que utilizam GUI de dentro de um container.\n\nEste tipo de a\u00e7\u00e3o se torna \u00fatil no dia-a-dia, ainda falando em sec, pois permite que tenhamos todas as ferramentas necess\u00e1rias para um teste ou an\u00e1lise de vulnerabilidade, sem que haja a necessidade de instalar ferramentas diretamente no SO ou o uso de virtualiza\u00e7\u00e3o.\n\nO sistema final fica muito leve em compara\u00e7\u00e3o a um SO sendo executado em sua totalidade, seja como host ou virtualizado, al\u00e9m de ser extremamente minimalista, instalando somente as ferramentas necess\u00e1rias. O que o torna perform\u00e1tico e isolado do SO host (nem tanto)."
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-02-08",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988680",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-02-08",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988679",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-02-08",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988678",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "OWASP Suffolk Fight Club - January 2023",
-        "date": "2023-01-24",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/290329408",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Sydney",
-        "repo": "www-chapter-sydney",
-        "name": "Modern Authentication - FIDO2 and Passkeys",
-        "date": "2023-02-15",
-        "time": "8:00+11:00",
-        "link": "https://www.meetup.com/owasp-sydney-chapter/events/290887586",
-        "timezone": "Australia/Sydney",
-        "description": "Location: - Talenza Offices, Level 3, 7 Macquarie Place, Sydney NSW 2000\nYouTube link: TBA\nDiscord: https://discord.com/invite/uAWze2B - Questions in the Sydney Chapter channel.\nMeet at 6:00 with the talk starting at 6:30.\n\nAbstract: This presentation will discuss approaches to the modern authentication protocols. In particular, we will dive into the FIDO2 passwordless protocol and passkey, a strong candidate to finally replace passwords. Our session will cover both technical and usability aspects of those approaches. We will look at the current trends in authentication attacks as well as the latest research and developments."
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "AppSec Roundtable, hosted by Chris Romeo",
-        "date": "2023-01-26",
-        "time": "2:00-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/290775398",
-        "timezone": "America/New_York",
-        "description": "OWASP Triangle Chapter is dormant no more! This month we'll re-launch with an AppSec roundtable. Bring your AppSec questions, thoughts, opinion, and debates, and let's get the community back together to talk all things AppSec!"
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver - February 2023",
-        "date": "2023-02-16",
-        "time": "8:00-08:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248487",
-        "timezone": "America/Vancouver",
-        "description": "OWASP Vancouver monthly meetup"
-    }
+  {
+    "group": "Aarhus",
+    "repo": "www-chapter-aarhus",
+    "name": "OWASP Aarhus Chapter Meeting - January",
+    "date": "2023-01-31",
+    "time": "9:00+01:00",
+    "link": "https://www.meetup.com/owasp-aarhus-chapter/events/289490322",
+    "timezone": "Europe/Copenhagen",
+    "description": "Hi All,\nPlease note, that this is a physical event hosted by Github and OWASP Aarhus may share a list of participants with Github for the sole purpose of hosting the event.\nAs we have been talking about, OWASP Aarhus wanted to try out the \u201clightning talk\u201d format. All the details are still not complete, but the schedule is: (TBD \u2013 To Be Decided)\n\n19:00 \u2013 19:15 Welcome by Github and OWASP Aarhus, Karl Krukow, Github and Thomas Ljungberg Kristensen, OWASP\n19:20 \u2013 19:35 Leveraging CVEs to improve the CodeQL security analysis, Esben Andreasen, Sr. Software Engineer, GitHub\n19:40 \u2013 19:55 OWASP for dummies Martin Duedahl\n20:00 \u2013 20:15 Live demo - Heap Exploit in Glibc Oliver Thomas\n20:15 \u2013 20:45 Break\n20:50 \u2013 21:05 TBD Klaus Agnoletti\n21:10 \u2013 21:25 Using storytelling Jens Roed Andersen\n21:25 \u2013 21:30 Goodbyes OWASP and Github\n\nLooking forward to it!"
+  },
+  {
+    "group": "Austin",
+    "repo": "www-chapter-austin",
+    "name": "OWASP Austin Chapter Monthly Meeting - January 2023 (Online)",
+    "date": "2023-01-31",
+    "time": "1:30-06:00",
+    "link": "https://www.meetup.com/owasp-austin-chapter/events/290705619",
+    "timezone": "America/Chicago",
+    "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* --\n[https://owasp-austin-2023-january.eventbrite.com](https://owasp-austin-2023-january.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: Cryptoparty (various speakers)**\n\nIn 1996, John Perry Barlow, co-founder of the Electronic Frontier Foundation (EFF) wrote 'A Declaration of the Independence of Cyberspace' where he stated \"We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth. We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.\" The Internet of today is an amazing place of knowledge and opportunity, but it unfortunately falls short of Mr. Barlow's original vision.\n\nIn the 21st century we face problems of climate change, energy crisis, state censorship, mass surveillance, and on-going wars. We must be free to communicate and associate without fear. To realize our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online. Topics include technologies like TOR, full-disk encryption, GPG, and many more. CryptoParties are free to attend, public, and not commercially aligned.\n\nAt our January 31, 2023 OWASP Austin meeting, we will host a CryptoParty with the goal of inviting others to join us in learning about the tools and technologies that enable an individual's right to privacy. When the time comes, we will encourage you all to invite your family, friends, and peers to attend this event, but for now, I am looking for others who are willing to give a 10 minute max presentation on a crypto-oriented subject. The presentation will need to be laid out so that novice and experienced alike can take action based on the data presented. All tools must be free and open source. If you are interested in presenting, please e-mail me directly (do not reply to the list) with your name, bio, talk title, and abstract for consideration. This is going to be EPIC!"
+  },
+  {
+    "group": "Baku",
+    "repo": "www-chapter-baku",
+    "name": "OWASP Baku Meetup",
+    "date": "2023-01-30",
+    "time": "5:00+04:00",
+    "link": "https://www.meetup.com/owasp-baku-chapter/events/290945502",
+    "timezone": "Asia/Baku",
+    "description": "We are celebrating foundation of Baku chapter of OWASP."
+  },
+  {
+    "group": "Boston",
+    "repo": "www-chapter-boston",
+    "name": "OWASP Boston February 2023 Meetup - Hybrid Attendance",
+    "date": "2023-02-01",
+    "time": "7:30-05:00",
+    "link": "https://www.meetup.com/owaspboston/events/290724616",
+    "timezone": "America/New_York",
+    "description": "OWASP Boston's first hybrid meetup of 2023 will have an exciting guest speaker, Matt Cheung (https://www.linkedin.com/in/mattcheung1/). Matt is currently an Application Security Consultant at Veracode and is best known for his expertise in cryptograph having spoken at major conference such as DefCon, BsidesSF and many others. Matt will be sharing his experience researching and developing Cryptosploit (https://github.com/nullpsifer/cryptosploit), \"a Metasploit-like tool designed to streamline the exploitation of vulnerable cryptosystems\".\n\nZoom info provided to all registered attendees ahead of the event."
+  },
+  {
+    "group": "Bristol Uk",
+    "repo": "www-chapter-bristol-uk",
+    "name": "TBC ",
+    "date": "2023-02-21",
+    "time": "8:00Z",
+    "link": "https://www.meetup.com/owasp-bristol/events/288310192",
+    "timezone": "Europe/London",
+    "description": "tbc\n\nWe publish the recordings of our meetups on @YouTube.\nIf you would like to be notified when a new video is published, please subscribe to our channel at:\nhttps://www.youtube.com/@OWASPBristol"
+  },
+  {
+    "group": "Bristol Uk",
+    "repo": "www-chapter-bristol-uk",
+    "name": "OWASP Suffolk Fight Club - December 2022",
+    "date": "2023-01-24",
+    "time": "9:00Z",
+    "link": "https://www.meetup.com/owasp-bristol/events/290421029",
+    "timezone": "Europe/London",
+    "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+  },
+  {
+    "group": "Cambridge",
+    "repo": "www-chapter-cambridge",
+    "name": "Automation of digital crime investigation using Reinforcement Learning (RL)",
+    "date": "2023-02-07",
+    "time": "7:00Z",
+    "link": "https://www.meetup.com/owasp-cambridge-meetup/events/290579034",
+    "timezone": "Europe/London",
+    "description": "Hosted by the Cyber Security & Networking Research Group, Anglia Ruskin University, OWASP (Open Web Application Security Project) Cambridge Chapter, & BCS Cybercrime Forensics SG\n\n**Background**\n\nThe BCS \u2013 Chartered Institute for IT - Cybercrime Forensics Special Interest Group (SG) promotes Cybercrime Forensics and the use of Cybercrime Forensics; of relevance to computing professionals, lawyers, law enforcement officers, academics and those interested in the use of Cybercrime Forensics and the need to address cybercrime for the benefit of those groups and of the wider public.\n\nOWASP (Open Web Application Security Project is a 501(c)(3) not-for-profit worldwide charitable organization focused on improving the security of application software. Their mission is to make application security visible, so that people and organizations can make informed decisions about true application security risks.\n\nThe **Cyber Security and Networking** (**CSN**) Research Group at Anglia Ruskin University has close working strategic relationships with industry, professional bodies, law enforcement, government agencies and academia in the delivery of operationally focused applied information and application security research. We have strong international links with professional organisations such as OWASP, BCS, ISC2, IISP & the UK Cyber Security Forum amongst others. The primary aims of CSNRG are to help the UK and partner nations to tackle cybercrime, be more resilient to cyber attacks and educate its users for a more secure cyberspace and operational business environment. These will be achieved through the investigation of threats posed to information systems and understanding the impact of attacks and creation of cyber-based warning systems which gathering threat intelligence, automate threat detection, alert users and neutralising attacks. For network security we are researching securing the next generation of software defined infrastructures from the application API and control/data plane attacks. Other key work includes Computer forensic analysis, digital evidence crime scenes and evidence visualisation as well as Cyber educational approaches such as developing Capture the Flag (CTF) resources and application security programs.\n\n**Abstract : \u201cAutomation of digital crime investigation using Reinforcement Learning (RL)\u201d**\n\nCurrent human-led Digital Investigation is reaching its limit, notably with the explosive increase in cybercrime. DFIR practitioners at law enforcement and corporate levels are facing severe challenges in coping with the demand. This talk will discuss the possible use of new Reinforcement Learning (RL) approaches to automate and optimise some of the processes in DFIR practice and thus off-load experts and increase efficiency.\n\n**Provisional Agenda**\n\n16:45 - Webinar waiting lobby opens\n17:00 - Start of Presentation\n17:50 \u2013 Questions & Answers"
+  },
+  {
+    "group": "Charlotte",
+    "repo": "www-chapter-charlotte",
+    "name": "2023 Kickoff Meeting!",
+    "date": "2023-02-16",
+    "time": "9:00-05:00",
+    "link": "https://www.meetup.com/owaspclt/events/289053091",
+    "timezone": "America/New_York",
+    "description": "Come join us for our First meeting of the year, Food and Drink Will be provided! The location and agenda are TBA."
+  },
+  {
+    "group": "Denver",
+    "repo": "www-chapter-denver",
+    "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meetup!",
+    "date": "2023-02-01",
+    "time": "7:00-07:00",
+    "link": "https://www.meetup.com/denver-owasp/events/291010905",
+    "timezone": "America/Denver",
+    "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend. Bring a laptop if you plan to participate hands-on.**\n\nFor our February meetup, the focus will be on Hacking the OWASP Top 10 - 2023 Edition. We'll have a presenter, food, drinks, and networking. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to your sponsor [SpyderSec ](https://spydersec.com)**\n\n**Presentation Title:** Hacking the OWASP Top 10 - 2023 Edition\n\n**Presentation Details:**\nCurious what the latest OWASP Top 10 looks like? Wondering what the changes mean for developers, testers, and auditors? Come dive into it with our own Aaron Cure as he talks about each of the issues and his theories on the updates. Make sure to bring a laptop so you can hack along on several of the issues. Worried you don\u2019t have the chops? Don\u2019t be, we\u2019ll give you enough info to hack it whether you\u2019re a beginner or a pro!"
+  },
+  {
+    "group": "Dindigul",
+    "repo": "www-chapter-dindigul",
+    "name": "Identifying Web Application Vulnerabilities",
+    "date": "2023-01-26",
+    "time": "8:00+05:30",
+    "link": "https://www.meetup.com/dindigul-owasp-meetup-group/events/290782618",
+    "timezone": "Asia/Kolkata",
+    "description": "**Speaker Name:** Premkumar S\nFounder & Director of ORBIT INFOSEC\n**Organizer:** Arun sakthivel\n**Owasp Dindigul leader**\n\nRegistration URL: [https://forms.gle/h4sRnviA3KcBbUep7](https://forms.gle/h4sRnviA3KcBbUep7)"
+  },
+  {
+    "group": "Dublin",
+    "repo": "www-chapter-dublin",
+    "name": "OWASP Dublin meetup -Implementing AppSec using common sense ",
+    "date": "2023-01-26",
+    "time": "8:00Z",
+    "link": "https://www.meetup.com/owasp-dublin/events/291000719",
+    "timezone": "Europe/Dublin",
+    "description": "OWASP Dublin are delighted to announce our next meetup will take place on Jan 26th. Venue is TBC.\n\nWe have a brilliant talk planned \" Implementing AppSec using common sense\" which will be delivered by Klaus Agnoletti.\n\nKlaus Agnoletti has been an all-round infosec professional since 2004. As a long-time active member of the infosec community in Copenhagen, Denmark, he co-founded BSides K\u00f8benhavn in 2019. Currently he's a freelance infosec professional specializing in security transformation and community focused marketing.\n\n**Synopsis**\nImplementing AppSec can be a daunting task; especially if you don't know exactly what it is and how do it. Join me as I give you an introduction to AppSec and share my long experience in infosec by giving you practical advice on how to go about doing just that.\n\nWe are really looking forward to this talk and hope to see you there."
+  },
+  {
+    "group": "France",
+    "repo": "www-chapter-france",
+    "name": "Meetup OWASP - Paris - Janvier 2023",
+    "date": "2023-01-23",
+    "time": "9:00+01:00",
+    "link": "https://www.meetup.com/owasp-france/events/290848644",
+    "timezone": "Europe/Paris",
+    "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+  },
+  {
+    "group": "Jacksonville",
+    "repo": "www-chapter-jacksonville",
+    "name": "OWASP Monthly meeting ",
+    "date": "2023-02-13",
+    "time": "8:45-05:00",
+    "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/290841105",
+    "timezone": "America/New_York",
+    "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+  },
+  {
+    "group": "Jakarta",
+    "repo": "www-chapter-jakarta",
+    "name": "Flash memory dumping",
+    "date": "2023-01-30",
+    "time": "9:00+07:00",
+    "link": "https://www.meetup.com/owasp-jakarta-chapter/events/290913180",
+    "timezone": "Asia/Jakarta",
+    "description": "Topic: Flash memory dumping\n\nAbstract:\n\nThe test case objective is to dump the Flash Memory off the \"JTAG\" Protocol using \"Attify badge\" as the Attacking hardware against the DIVA (Damn Insecure and Vulnerable App).\n\nShort Bio:\n\nUjval Patel (Hax04)\n\ni have 2 total experience in security consulting & auditing. I\u2019m currently working in EY. I started my career as a researcher at Indian Space Research Organisation (ISRO). I\u2019m active member of the Seasides Security Community. I\u2019m most passionate about hardware hacking since i like to grt my hands dirty.\n\nNote\n\nThis Session deliver in English\n\nJoin By zoom :\n\nTopic: OWASP Jakarta - Flash memory dumping\nTime: Jan 30, 2023 07:00 PM Jakarta\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/87689121285?pwd=Z0dlS2lGRlJRZDFjOUZRUTFRMllSUT09\n\nMeeting ID: 876 8912 1285\nPasscode: OWASPJKT"
+  },
+  {
+    "group": "Joao Pessoa",
+    "repo": "www-chapter-joao-pessoa",
+    "name": "Modelagem de Amea\u00e7as",
+    "date": "2023-01-26",
+    "time": "9:00-03:00",
+    "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/290874767",
+    "timezone": "America/Fortaleza",
+    "description": "Tudo o que voc\u00ea queria saber, mas tinha medo de perguntar\u2026 porque sabia que virariam requisitos."
+  },
+  {
+    "group": "Kansas City",
+    "repo": "www-chapter-kansas-city",
+    "name": "OWASP-KC Jan 24th All About SBOM",
+    "date": "2023-01-24",
+    "time": "8:00-06:00",
+    "link": "https://www.meetup.com/owasp-kansas-city/events/290919824",
+    "timezone": "America/Chicago",
+    "description": "Mat Caughron will be speaking on the topic of Software Bill of Materials (SBOM) and how it's relevant to application security and development!\n\nSBOM's are becoming more and more important in the application security and development space due to the White House's Executive Order around Software Supply Chain and NIST's newest guidance, SP 800-218 Secure Software Development Framework (SSDF).\n\nCome join us for drinks, snacks, and help contribute to the conversation about this topic and how it will effect application security and development for the foreseeable future!"
+  },
+  {
+    "group": "Lahore",
+    "repo": "www-chapter-lahore",
+    "name": "January Meetup 2023",
+    "date": "2023-01-28",
+    "time": "7:00+05:00",
+    "link": "https://www.meetup.com/owasp-lahore-chapter/events/290789247",
+    "timezone": "Asia/Karachi",
+    "description": "TBD"
+  },
+  {
+    "group": "Los Angeles",
+    "repo": "www-chapter-los-angeles",
+    "name": "OWASP LA Monthly In-Person Meeting - JAN 25, 2023",
+    "date": "2023-01-25",
+    "time": "7:30-08:00",
+    "link": "https://www.meetup.com/owasp-los-angeles/events/290450912",
+    "timezone": "America/Los_Angeles",
+    "description": "**TOPIC**: **Identity Based Attacks**\nJoin us for great networking, dinner and drinks, and see a presentation by:\n**Liam O\u2019Murchu**, Technical Director, Security Technology and Response Group with Symantec\n\n**ABSTRACT**: Identity Based Attacks have become more common as the use of multifactor authentication has increased. Groups as diverse as teenage hackers to North Korean spies have devised schemes to circumvent these improvements. Direct attacks on the MFA tools themselves have also allowed APTs unfettered access to enterprises. A strong understanding of recent successful Identity Based Attacks can guide us to stronger solutions. We will look at attacks from social engineering to hidden back doors, showing attacker trends, solution weaknesses and stronger solutions will be highlighted.\n\n**Thanks to our Sponsor**: **Ermetic**\nErmetic helps prevent breaches by reducing the attack surface of cloud infrastructure and enforcing least privilege at scale in the most complex environments. The Ermetic SaaS platform provides comprehensive cloud security for AWS, Azure and GCP that spans both cloud infrastructure entitlements management (CIEM) and cloud security posture management (CSPM). The company is led by proven technology entrepreneurs whose previous companies have been acquired by Microsoft, Palo Alto Networks and others. Ermetic has received funding from Accel, Forgepoint, Glilot Capital Partners, Norwest Venture Partners, Qumra and Target Global. Visit us at [https://ermetic.com/](https://ermetic.com/) and follow us on LinkedIn ([https://www.linkedin.com/company/ermetic/mycompany/](https://www.linkedin.com/company/ermetic/mycompany/)), Twitter ([https://twitter.com/ermeticsec](https://twitter.com/ermeticsec)) and Facebook ([https://www.facebook.com/ermeticsec/](https://www.facebook.com/ermeticsec/)).\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
+  },
+  {
+    "group": "Mumbai",
+    "repo": "www-chapter-mumbai",
+    "name": "OWASP Mumbai Online Meetup - 28th January 2023",
+    "date": "2023-01-28",
+    "time": "2:00+05:30",
+    "link": "https://www.meetup.com/owasp-mumbai-chapter/events/290845418",
+    "timezone": "Asia/Kolkata",
+    "description": "### OWASP Mumbai Online Meetup\n\n### Time: 12:00PM - 1:00PM\n\n### Session Details\n\nIntroduction to the OWASP Mumbai Chapter.\n\n**Talk:-** Client Side Prototype Pollution (CSPP)\n**Speaker:-** Sanjeev R [Senior Consultant @TheSecOpsGroup]\n\nGeneral Discussion, QnA & Feedback"
+  },
+  {
+    "group": "Orange County",
+    "repo": "www-chapter-orange-county",
+    "name": "Security for Growth Companies",
+    "date": "2023-01-31",
+    "time": "7:30-08:00",
+    "link": "https://www.meetup.com/owasp-oc/events/290902364",
+    "timezone": "America/Los_Angeles",
+    "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nThe increased pressure for cybersecurity practices, even in their earliest stages, is becoming a common demand from both customers and investors. With cyber threats escalating, it\u2019s more urgent than ever to embed security into a company\u2019s day-to-day operations from day one to prevent \u2018security debt\u2019 from emerging as the company scale. Establishing a robust cyber security program can be a daunting task. A cloud-native company faces dozens of cybersecurity tools to choose from and the typical resource constraints of a young company that needs to grow fast. Based on the practical advice given by CISOs of 7 hyper-growth companies (Netflix, Datadog, HashiCorp, ACV, Axonius, Discord, and ServiceTitan), this talk aims to provide you with a modern, lightweight security guide to succeed in the cloud-first/cloud-native era.\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)\n\n**Thanks to our Sponsor**: **Synopsys**\n**[Synopsys](https://www.synopsys.com/)**[ ](https://www.synopsys.com/)builds trust in software by enabling organizations to manage application security, quality, and compliance risks at the speed their business demands."
+  },
+  {
+    "group": "Ottawa",
+    "repo": "www-chapter-ottawa",
+    "name": "OWASP Ottawa January 2023:  Building & Adopting AppSec Capabilities",
+    "date": "2023-01-26",
+    "time": "8:00-05:00",
+    "link": "https://www.meetup.com/owasp-ottawa/events/290755929",
+    "timezone": "America/Toronto",
+    "description": "**Welcome to our first in-person meetup in over 2 years!**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nYouTube Live Stream Link: https://www.youtube.com/watch?v=FV8qrPpCSmU\n\n**6:00 PM EDT** Arrival and setup\n**6:30 PM EDT** Introduction to OWASP Ottawa 2023 - Garth Boyd\n**6:45 PM EDT** Venue Sponsor Welcome - Guy-Vincent Jourdan\n\n**7:00 PM EDT** Technical Talks\n\n1. **The Missing pieces to building and adopting application security capabilities -** Jon Shapransky\n\nAbstract:\nThere are increasing requirements for organizations to improve their application security practices. To meet these requirements, organizations need to adopt capabilities whether practices (e.g., threat modelling, vulnerability scanning, etc.) or tools (e.g., SAST, SCA, DAST, CSPM, etc.). The value of hiring specialists and buying tools will not be realized unless the associated services, processes, procedures are adopted.This talk will focus on presenting an approach to building capabilities and highlight underlying principles behind adoption. This framework covers both the general components of a capability and the components required to adopt a capability. We\u2019ll present a framework that incorporates relevant third-party research from fields outside of security and applies them to the security domain to help explain why some are successful in implementing and adopting capabilities while others are not.\n\nThis talk is for anyone involved in designing, building, and managing application security and product security programs. Takeaways:\n\n* Universal framework on capability development that prompts us to think about what we will need to ensure success and adoption.\n* Understanding of the principles behind adoption.\n* Perspective of how team topologies (structure and interactions) influences our ability to achieve desired results.\n* An approach to measuring progress.\n\nSpeaker Bio:\nJon Shapransky is a Technical Principal Security Consultant at Kroll with over 10 years of experience in Information Security. Since beginning his career, Jon has performed various forms of security assessments and helped clients build security programs and capabilities. Jon has worked with a wide range of client from both the public and private sector. His experience includes working with Fortune 100, Fortune 500, and Fortune Global 500 orgnisations across various industries and work with all levels of government, health care, and higher education. Presently, Jon is focussed on helping clients build Application Security and DevSecOps programs where he designs, architects, and helps implement related capabilities and processes."
+  },
+  {
+    "group": "Salt Lake City",
+    "repo": "www-chapter-salt-lake-city",
+    "name": "Wasatch AppSec / OWASP-SLC - January Meetup (in person @ Health Equity Campus)",
+    "date": "2023-01-24",
+    "time": "2:00-07:00",
+    "link": "https://www.meetup.com/owasp-slc/events/290755920",
+    "timezone": "America/Denver",
+    "description": "**Agenda:**\n1) Lunch\n2) 2023 Calendar showing upcoming meetups for the year\n3) Topics for discussion:\n\n1. Content Security Policies and SRI and how they can/can't protect third party script usage (including dynamic)\n2. In room poll (what are you bumping into now?)"
+  },
+  {
+    "group": "Sao Jose Dos Campos",
+    "repo": "www-chapter-sao-jose-dos-campos",
+    "name": "Docker Weaponization",
+    "date": "2023-01-26",
+    "time": "1:00-03:00",
+    "link": "https://www.meetup.com/owasp-sao-jose-dos-campos-chapter/events/290877438",
+    "timezone": "America/Sao_Paulo",
+    "description": "Neste Meetup vamos entender o processo que permite que executemos aplica\u00e7\u00f5es que utilizam GUI de dentro de um container.\n\nEste tipo de a\u00e7\u00e3o se torna \u00fatil no dia-a-dia, ainda falando em sec, pois permite que tenhamos todas as ferramentas necess\u00e1rias para um teste ou an\u00e1lise de vulnerabilidade, sem que haja a necessidade de instalar ferramentas diretamente no SO ou o uso de virtualiza\u00e7\u00e3o.\n\nO sistema final fica muito leve em compara\u00e7\u00e3o a um SO sendo executado em sua totalidade, seja como host ou virtualizado, al\u00e9m de ser extremamente minimalista, instalando somente as ferramentas necess\u00e1rias. O que o torna perform\u00e1tico e isolado do SO host (nem tanto)."
+  },
+  {
+    "group": "Seattle",
+    "repo": "www-chapter-seattle",
+    "name": "Security Social Lunch Hours",
+    "date": "2023-02-08",
+    "time": "2:00-08:00",
+    "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988680",
+    "timezone": "America/Los_Angeles",
+    "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+  },
+  {
+    "group": "Seattle",
+    "repo": "www-chapter-seattle",
+    "name": "Security Social Lunch Hours",
+    "date": "2023-02-08",
+    "time": "2:00-08:00",
+    "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988679",
+    "timezone": "America/Los_Angeles",
+    "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+  },
+  {
+    "group": "Seattle",
+    "repo": "www-chapter-seattle",
+    "name": "Security Social Lunch Hours",
+    "date": "2023-02-08",
+    "time": "2:00-08:00",
+    "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988678",
+    "timezone": "America/Los_Angeles",
+    "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+  },
+  {
+    "group": "Suffolk",
+    "repo": "www-chapter-suffolk",
+    "name": "OWASP Suffolk Fight Club - January 2023",
+    "date": "2023-01-24",
+    "time": "9:00Z",
+    "link": "https://www.meetup.com/owasp-suffolk-chapter/events/290329408",
+    "timezone": "Europe/London",
+    "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+  },
+  {
+    "group": "Sydney",
+    "repo": "www-chapter-sydney",
+    "name": "Modern Authentication - FIDO2 and Passkeys",
+    "date": "2023-02-15",
+    "time": "8:00+11:00",
+    "link": "https://www.meetup.com/owasp-sydney-chapter/events/290887586",
+    "timezone": "Australia/Sydney",
+    "description": "Location: - Talenza Offices, Level 3, 7 Macquarie Place, Sydney NSW 2000\nYouTube link: TBA\nDiscord: https://discord.com/invite/uAWze2B - Questions in the Sydney Chapter channel.\nMeet at 6:00 with the talk starting at 6:30.\n\nAbstract: This presentation will discuss approaches to the modern authentication protocols. In particular, we will dive into the FIDO2 passwordless protocol and passkey, a strong candidate to finally replace passwords. Our session will cover both technical and usability aspects of those approaches. We will look at the current trends in authentication attacks as well as the latest research and developments."
+  },
+  {
+    "group": "Triangle Nc",
+    "repo": "www-chapter-triangle-nc",
+    "name": "AppSec Roundtable, hosted by Chris Romeo",
+    "date": "2023-01-26",
+    "time": "2:00-05:00",
+    "link": "https://www.meetup.com/owasptriangle/events/290775398",
+    "timezone": "America/New_York",
+    "description": "OWASP Triangle Chapter is dormant no more! This month we'll re-launch with an AppSec roundtable. Bring your AppSec questions, thoughts, opinion, and debates, and let's get the community back together to talk all things AppSec!"
+  },
+  {
+    "group": "Vancouver",
+    "repo": "www-chapter-vancouver",
+    "name": "OWASP Vancouver - February 2023",
+    "date": "2023-02-16",
+    "time": "8:00-08:00",
+    "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248487",
+    "timezone": "America/Vancouver",
+    "description": "OWASP Vancouver monthly meetup"
+  }
 ]

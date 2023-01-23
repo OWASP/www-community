@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Full Path Disclosure
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Full_Path_Disclosure
 tags: attack, Full Path Disclosure
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -171,42 +169,42 @@ The above three checks can be done with the aid of
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [internal software
-    developer](internal_software_developer "wikilink")
+- [internal software
+  developer](internal_software_developer "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-  - [Relative Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
+- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [Relative Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - None
+- None
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Error Handling](Error_Handling "wikilink")
-  - [Bounds Checking](Bounds_Checking "wikilink")
-  - [Safe Libraries](Safe_Libraries "wikilink")
-  - [Static Code Analysis](Static_Code_Analysis "wikilink")
-  - [Executable space
-    protection](Executable_space_protection "wikilink")
-  - [Address space layout randomization
-    (ASLR)](Address_space_layout_randomization_\(ASLR\) "wikilink")
-  - [Stack-smashing Protection
-    (SSP)](Stack-smashing_Protection_\(SSP\) "wikilink")
+- [Error Handling](Error_Handling "wikilink")
+- [Bounds Checking](Bounds_Checking "wikilink")
+- [Safe Libraries](Safe_Libraries "wikilink")
+- [Static Code Analysis](Static_Code_Analysis "wikilink")
+- [Executable space
+  protection](Executable_space_protection "wikilink")
+- [Address space layout randomization
+  (ASLR)](<Address_space_layout_randomization_(ASLR)> "wikilink")
+- [Stack-smashing Protection
+  (SSP)](<Stack-smashing_Protection_(SSP)> "wikilink")
 
 ## References
 
-  - <http://www.acunetix.com/vulnerabilities/Full-path-disclosure.htm>
-  - [Articled summarised from Full Path Disclosure article by haZed on
-    EnigmaGroup.org.](http://www.enigmagroup.org/)
-  - [Path Disclosure Vulnerability - Is it
-    serious?](http://yehg.net/lab/pr0js/view.php/path_disclosure_vulnerability.txt)
-  - [inspathx - Internal Path Disclosure
-    Finder](http://yehg.net/lab/pr0js/files.php/inspath.zip)
+- <http://www.acunetix.com/vulnerabilities/Full-path-disclosure.htm>
+- [Articled summarised from Full Path Disclosure article by haZed on
+  EnigmaGroup.org.](http://www.enigmagroup.org/)
+- [Path Disclosure Vulnerability - Is it
+  serious?](http://yehg.net/lab/pr0js/view.php/path_disclosure_vulnerability.txt)
+- [inspathx - Internal Path Disclosure
+  Finder](http://yehg.net/lab/pr0js/files.php/inspath.zip)
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)

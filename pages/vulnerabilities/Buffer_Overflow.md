@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Buffer Overflow
 author:
 contributors:
 permalink: /vulnerabilities/Buffer_Overflow
 tags: vulnerability, Buffer Overflow
-
 ---
 
 {% include writers.html %}
@@ -217,7 +215,6 @@ void getUserInfo(char *username, struct _USER_INFO_2 info){
 - [Format string attack](../attacks/Format_string_attack "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 

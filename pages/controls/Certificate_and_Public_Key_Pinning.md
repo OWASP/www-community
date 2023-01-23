@@ -1,19 +1,17 @@
 ---
-
 title: Certificate and Public Key Pinning
 layout: col-sidebar
 author: Jeffery Walton, JohnSteven, Jim Manico, Kevin Wall, Ricardo Iramar
 contributors: Jack Mannino, Karl Fogel, Jshowalter , Achim, Pawel Krawczyk, Peter Bachman, Bill Sempf, Izar, Echsecutor, Jmanico, Douglasheld, Anant Shrivastava, Riramar, Nabla.c0d3, Neil Smithline, Tfrdidi, kingthorin
 tags: controls
 permalink: /controls/Certificate_and_Public_Key_Pinning
-
 ---
 
 {% include writers.html %}
 
 Certificate and Public Key Pinning is a technical
 guide to implementing certificate and public key pinning as discussed at
-the *[Virginia chapter's](https://owasp.org/www-chapter-northern-virginia/)*
+the _[Virginia chapter's](https://owasp.org/www-chapter-northern-virginia/)_
 presentation [Securing Wireless Channels in the Mobile
 Space](https://wiki.owasp.org/images/8/8f/Securing-Wireless-Channels-in-the-Mobile-Space.ppt).
 This guide is focused on providing clear, simple, actionable guidance
@@ -55,12 +53,12 @@ service by its public key.
 Others who actively engage in pinning include Google and its browser
 Chrome. Chrome was successful in detecting the DigiNotar compromise
 which uncovered suspected interception by the Iranian government on its
-citizens. The initial report of the compromise can be found at *[Is This
+citizens. The initial report of the compromise can be found at _[Is This
 MITM Attack to Gmail's
-SSL?](https://productforums.google.com/d/topic/gmail/3J3r2JqFNTw/discussion)*;
-and Google Security's immediate response at *[An update on attempted
+SSL?](https://productforums.google.com/d/topic/gmail/3J3r2JqFNTw/discussion)_;
+and Google Security's immediate response at _[An update on attempted
 man-in-the-middle
-attacks](https://googleonlinesecurity.blogspot.com/2011/08/update-on-attempted-man-in-middle.html)*.
+attacks](https://googleonlinesecurity.blogspot.com/2011/08/update-on-attempted-man-in-middle.html)_.
 
 ## What's the problem?
 
@@ -74,12 +72,12 @@ article. This cheat sheet does not attempt to catalogue the failures in
 the industry, investigate the design flaws in the scaffolding, justify
 the lack of accountability or liability with the providers, explain the
 race to the bottom in services, or demystify the collusion between, for
-example, Browsers and CAs. For additional reading, please visit *[PKI is Broken](http://www.cs.auckland.ac.nz/~pgut001/pubs/pkitutorial.pdf)* and
-*[The Internet is Broken](http://blog.cryptographyengineering.com/2012/02/how-to-fix-internet.html)*.
+example, Browsers and CAs. For additional reading, please visit _[PKI is Broken](http://www.cs.auckland.ac.nz/~pgut001/pubs/pkitutorial.pdf)_ and
+_[The Internet is Broken](http://blog.cryptographyengineering.com/2012/02/how-to-fix-internet.html)_.
 
 ### Patient 0
 
-The original problem was the *Key Distribution Problem*. Insecure
+The original problem was the _Key Distribution Problem_. Insecure
 communications can be transformed into a secure communication problem
 with encryption. Encrypted communications can be transformed into an
 identity problem with signatures. The identity problem terminates at the
@@ -102,11 +100,11 @@ problematic.
 
 ## What Is Pinning?
 
-Pinning is the process of associating a host with their *expected* X509
+Pinning is the process of associating a host with their _expected_ X509
 certificate or public key. Once a certificate or public key is known or
 seen for a host, the certificate or public key is associated or 'pinned'
 to the host. If more than one certificate or public key is acceptable,
-then the program holds a *pinset* (taking from [Jon Larimer and Kenny
+then the program holds a _pinset_ (taking from [Jon Larimer and Kenny
 Root Google I/O
 talk](https://developers.google.com/events/io/sessions/gooio2012/107/)).
 In this case, the advertised identity must match one of the elements in
@@ -115,17 +113,17 @@ the pinset.
 A host or service's certificate or public key can be added to an
 application at development time, or it can be added upon first
 encountering the certificate or public key. The former - adding at
-development time - is preferred since *preloading* the certificate or
-public key *out of band* usually means the attacker cannot taint the
+development time - is preferred since _preloading_ the certificate or
+public key _out of band_ usually means the attacker cannot taint the
 pin. If the certificate or public key is added upon first encounter, you
-will be using *key continuity*. Key continuity can fail if the attacker
+will be using _key continuity_. Key continuity can fail if the attacker
 has a privileged position during the first encounter.
 
 Pinning leverages knowledge of the pre-existing relationship between the
 user and an organization or service to help make better security related
 decisions. Because you already have information on the server or
 service, you don't need to rely on generalized mechanisms meant to solve
-the *key distribution* problem. That is, you don't need to turn to DNS
+the _key distribution_ problem. That is, you don't need to turn to DNS
 for name/address mappings or CAs for bindings and status. One exception
 is revocation and it is discussed below in [Pinning
 Gaps](#Pinning_Gaps).
@@ -155,7 +153,7 @@ The environment is not only hostile, it's toxic.
 
 If you are working for an organization which practices "egress
 filtering" as part of a Data Loss Prevention (DLP) strategy, you will
-likely encounter *Interception Proxies*. I like to refer to these things
+likely encounter _Interception Proxies_. I like to refer to these things
 as **"good" bad guys** (as opposed to **"bad" bad guys**) since both
 break end-to-end security and we can't tell them apart. In this case,
 **do not** offer to allow list the interception proxy since it defeats
@@ -170,12 +168,12 @@ integrity on the channel could suffer, and it surely breaks end-to-end
 security expectations of users and organizations.
 
 For more reading on interception proxies, the additional risk they
-bestow, and how they fail, see Dr. Matthew Green's *[How do Interception
+bestow, and how they fail, see Dr. Matthew Green's _[How do Interception
 Proxies
-fail?](http://blog.cryptographyengineering.com/2012/03/how-do-interception-proxies-fail.html)*
-and Jeff Jarmoc's BlackHat talk *[SSL/TLS Interception Proxies and
+fail?](http://blog.cryptographyengineering.com/2012/03/how-do-interception-proxies-fail.html)_
+and Jeff Jarmoc's BlackHat talk _[SSL/TLS Interception Proxies and
 Transitive
-Trust](https://www.blackhat.com/html/bh-eu-12/bh-eu-12-archives.html#jarmoc)*.
+Trust](https://www.blackhat.com/html/bh-eu-12/bh-eu-12-archives.html#jarmoc)_.
 
 ### How Do You Pin?
 
@@ -222,36 +220,36 @@ below in [Format Conversions](#Format_Conversions).
 
 A certificate is an object which binds an entity (such as a person or
 organization) to a public key via a signature. The certificate is DER
-encoded, and has associated data or attributes such as *Subject* (who is
-identified or bound), *Issuer* (who signed it), *Validity* (*NotBefore*
-and *NotAfter*), and a *Public Key*.
+encoded, and has associated data or attributes such as _Subject_ (who is
+identified or bound), _Issuer_ (who signed it), _Validity_ (_NotBefore_
+and _NotAfter_), and a _Public Key_.
 
-A certificate has a *subjectPublicKeyInfo*. The subjectPublicKeyInfo is
-a key with additional information. The ASN.1 type includes an *Algorithm
-ID*, a *Version*, and an extensible format to hold a concrete public
+A certificate has a _subjectPublicKeyInfo_. The subjectPublicKeyInfo is
+a key with additional information. The ASN.1 type includes an _Algorithm
+ID_, a _Version_, and an extensible format to hold a concrete public
 key. Figures 1 and 2 below show different views of the same RSA key,
 which is the subjectPublicKeyInfo. The key is for the site
 [random.org](https://www.random.org), and it is used in the sample
 programs and listings below.
 
-| Figure 1: `subjectPublicKeyInfo` dumped with `dumpasn1`                        | Figure 2: `subjectPublicKeyInfo` under a hex editor                        |
-| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Figure 1: `subjectPublicKeyInfo` dumped with `dumpasn1`                                          | Figure 2: `subjectPublicKeyInfo` under a hex editor                                           |
+| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
 | ![Figure 1: subjectPublicKeyInfo dumped with dumpasn1](../assets/images/random-org-der-dump.png) | ![Figure 2: subjectPublicKeyInfo under a hex editor](../assets/images/random-org-der-hex.png) |
 
 The concrete public key is an encoded public key. The key format will
 usually be specified elsewhere - for example, PKCS\#1 in the case of RSA
 Public Keys. In the case of an RSA public key, the type is
-*RSAPublicKey* and the parameters `{e,n}` will be ASN.1 encoded. Figures
-1 and 2 above clearly show the modulus (*n* at line 28) and exponent
-(*e* at line 289). For DSA, the concrete type is DSAPublicKey and the
+_RSAPublicKey_ and the parameters `{e,n}` will be ASN.1 encoded. Figures
+1 and 2 above clearly show the modulus (_n_ at line 28) and exponent
+(_e_ at line 289). For DSA, the concrete type is DSAPublicKey and the
 ASN.1 encoded parameters would be `{p,q,g,y}`.
 
 Final takeaways: (1) a certificate binds an entity to a public key; (2)
 a certificate has a subjectPublicKeyInfo; and (3) a subjectPublicKeyInfo
 has an concrete public key. For those who want to learn more, a more
 in-depth discussion from a programmer's perspective can be found at the
-Code Project's article *[Cryptographic Interoperability:
-Keys](http://www.codeproject.com/Articles/25487/Cryptographic-Interoperability-Keys)*.
+Code Project's article _[Cryptographic Interoperability:
+Keys](http://www.codeproject.com/Articles/25487/Cryptographic-Interoperability-Keys)_.
 
 ### Certificate
 
@@ -309,7 +307,7 @@ native API for many libraries, so it's convenient to use.
 Finally, an organization might want to supply a reserve (or back-up)
 identity in case the primary identity is compromised. Hashing ensures
 your adversaries do not see the reserved certificate or public key in
-advance of its use. In fact, Google's IETF draft *websec-key-pinning*
+advance of its use. In fact, Google's IETF draft _websec-key-pinning_
 uses the technique.
 
 ## Examples of Pinning
@@ -367,7 +365,7 @@ severe vulnerabilities.
 
 ### .NET
 
-.NET pinning can be achieved by using `ServicePointManager` for `HttpWebRequest`, or 
+.NET pinning can be achieved by using `ServicePointManager` for `HttpWebRequest`, or
 `HttpClientHandler` when using `HttpClient`, as shown below.
 
 #### HttpWebRequest
@@ -402,9 +400,9 @@ private static bool PinPublicKey(
 		return false;
 
 	var request = sender as HttpWebRequest;
-	if (request == null) 
+	if (request == null)
 		return false;
-		
+
 	// if the request is for the target domain, perform certificate pinning
 	if (string.Equals(request.Address.Authority, DomainName, StringComparison.OrdinalIgnoreCase))
 	{
@@ -418,7 +416,7 @@ private static bool PinPublicKey(
 ```
 
 Note that using `ServicePointManager.ServerCertificateValidationCallback` affects
-server certificate validation for **all** requests requiring validation from 
+server certificate validation for **all** requests requiring validation from
 the AppDomain. It is therefore advisable to check that the `sender` represents a request
 to the authority to which to apply certificate pinning, as the example above demonstrates.
 
@@ -438,7 +436,7 @@ private const string DomainPublicKey = "30818902818100C4A06B7B52F8D17DC1CCB47362
 public static void Main(string[] args)
 {
 	var wr = (HttpWebRequest)WebRequest.Create(string.Format("https://{0}/", DomainName));
-	
+
 	// set server validation callback for this request only
 	wr.ServerCertificateValidationCallback = PinPublicKey;
 	wr.GetResponse();
@@ -454,9 +452,9 @@ private static bool PinPublicKey(
 		return false;
 
 	var request = sender as HttpWebRequest;
-	if (request == null) 
+	if (request == null)
 		return false;
-		
+
 	// if the request is for the target domain, perform certificate pinning
 	if (string.Equals(request.Address.Authority, DomainName, StringComparison.OrdinalIgnoreCase))
 	{
@@ -730,11 +728,11 @@ user security.
 
 ### More Information?
 
-Pinning is an *old new thing* that has been shaken, stirred, and
+Pinning is an _old new thing_ that has been shaken, stirred, and
 repackaged. While "pinning" and "pinsets" are relatively new terms for
 old things, Jon Larimer and Kenny Root spent time on the subject at
-Google I/O 2012 with their talk *[Security and Privacy in Android
-Apps](https://developers.google.com/events/io/sessions/gooio2012/107/)*.
+Google I/O 2012 with their talk _[Security and Privacy in Android
+Apps](https://developers.google.com/events/io/sessions/gooio2012/107/)_.
 
 ### Format Conversions
 

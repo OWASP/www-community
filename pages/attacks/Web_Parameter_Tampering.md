@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Web Parameter Tampering
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Web_Parameter_Tampering
 tags: attack, Web Parameter Tampering
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -29,7 +27,7 @@ Webscarab and Paros proxy are mostly used.
 
 The attack success depends on integrity and logic validation mechanism
 errors, and its exploitation can result in other consequences including
-[XSS](Cross-site_Scripting_\(XSS\) "wikilink"), [SQL
+[XSS](<Cross-site_Scripting_(XSS)> "wikilink"), [SQL
 Injection](https://owasp.org/www-community/attacks/SQL_Injection), file inclusion, and path
 disclosure attacks.
 
@@ -86,34 +84,34 @@ Modifying the status variable to delete the page:
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category:Client-side
-    Attacks](:Category:Client-side_Attacks "wikilink")
-  - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
+- [:Category:Client-side
+  Attacks](:Category:Client-side_Attacks "wikilink")
+- [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-  - [XSS Attacks](XSS_Attacks "wikilink")
-  - [Path Traversal](Path_Traversal "wikilink")
+- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [XSS Attacks](XSS_Attacks "wikilink")
+- [Path Traversal](Path_Traversal "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
+- [:Category: Input Validation
+  Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category: Input
-    Validation](:Category:_Input_Validation "wikilink")
+- [:Category: Input
+  Validation](:Category:_Input_Validation "wikilink")
 
 ## References
 
-  - <http://cwe.mitre.org/data/definitions/472.html> - Web Parameter
-    Tampering
-  - <http://www.imperva.com/application_defense_center/glossary/parameter_tampering.html>
-    - Parameter Tampering Imperva - Application Defense Center
-  - <http://www.cgisecurity.com/owasp/html/ch11s04.html> - Parameter
-    Manipulation - Chapter 11. Preventing Common Problems
+- <http://cwe.mitre.org/data/definitions/472.html> - Web Parameter
+  Tampering
+- <http://www.imperva.com/application_defense_center/glossary/parameter_tampering.html>
+  - Parameter Tampering Imperva - Application Defense Center
+- <http://www.cgisecurity.com/owasp/html/ch11s04.html> - Parameter
+  Manipulation - Chapter 11. Preventing Common Problems
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category: Injection](Category:_Injection "wikilink") [Category:

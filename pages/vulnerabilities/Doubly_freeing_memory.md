@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Doubly freeing memory
 author:
 contributors:
 permalink: /vulnerabilities/Doubly_freeing_memory
 tags: vulnerability, Doubly freeing memory
-
 ---
 
 {% include writers.html %}

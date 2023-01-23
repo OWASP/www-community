@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Undefined Behavior
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Undefined_Behavior
 tags: vulnerability, Undefined Behavior
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -63,41 +61,39 @@ TBD
 
 ### Short example name
 
-  -
-    A short example description, small picture, or sample code with
-    [links](http://www.site.com)
+- A short example description, small picture, or sample code with
+  [links](http://www.site.com)
 
 ### Short example name
 
-  -
-    A short example description, small picture, or sample code with
-    [links](http://www.site.com)
+- A short example description, small picture, or sample code with
+  [links](http://www.site.com)
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
+- [Vulnerability 1](Vulnerability_1 "wikilink")
+- [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Control 1](Control_1 "wikilink")
-  - [Control 2](Control_2 "wikilink")
+- [Control 1](Control_1 "wikilink")
+- [Control 2](Control_2 "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
-  - \[1\] The Linux Standard Base Specification 2.0.1, Interfaces
-    Definitions for libc.
-    <http://www.linuxbase.org/spec/refspecs/LSB_1.2.0/gLSB/libcman.html>.
+- \[1\] The Linux Standard Base Specification 2.0.1, Interfaces
+  Definitions for libc.
+  <http://www.linuxbase.org/spec/refspecs/LSB_1.2.0/gLSB/libcman.html>.
 
 \[\[Category:FIXME|add links
 
@@ -128,7 +124,7 @@ Logging and Auditing Vulnerability
 
 Session Management Vulnerability\]\]
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:General Logic Error

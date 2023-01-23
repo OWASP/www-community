@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Privacy Violation
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Privacy_Violation
 tags: vulnerability, Privacy Violation
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -25,10 +23,10 @@ Privacy violations occur when:
 
 Private data can enter a program in a variety of ways:
 
-  - Directly from the user in the form of a password or personal
-    information
-  - Accessed from a database or other data store by the application
-  - Indirectly from a partner or other third party
+- Directly from the user in the form of a password or personal
+  information
+- Accessed from a database or other data store by the application
+- Indirectly from a partner or other third party
 
 Sometimes data that is not labeled as private can have a privacy
 implication in a different context. For example, student identification
@@ -60,10 +58,10 @@ location, the type of business it conducts, and the nature of any
 private data it handles, an organization may be required to comply with
 one or more of the following federal and state regulations:
 
-  - Safe Harbor Privacy Framework \[2\]
-  - Gramm-Leach Bliley Act (GLBA) \[3\]
-  - Health Insurance Portability and Accountability Act (HIPAA) \[4\]
-  - California SB-1386 \[5\]
+- Safe Harbor Privacy Framework \[2\]
+- Gramm-Leach Bliley Act (GLBA) \[3\]
+- Health Insurance Portability and Accountability Act (HIPAA) \[4\]
+- California SB-1386 \[5\]
 
 Despite these regulations, privacy violations continue to occur with
 alarming frequency.
@@ -88,19 +86,18 @@ particularly when privacy is a concern.
 
 ## References
 
-  - \[1\] J. Oates. AOL man pleads guilty to selling 92m email
-    addresses. The Register, 2005.
-    <http://www.theregister.co.uk/2005/02/07/aol_email_theft/>
-  - \[2\] Safe Harbor Privacy Framework. U.S. Department of Commerce.
-    <http://www.export.gov/safeharbor/>.
-  - \[3\] Financial Privacy: The Gramm-Leach Bliley Act (GLBA). Federal
-    Trade Commission.
-    <http://www.ftc.gov/privacy/privacyinitiatives/glbact.html>.
-  - \[4\] Health Insurance Portability and Accountability Act (HIPAA).
-    U.S. Department of Human Services. <http://www.hhs.gov/ocr/hipaa/>.
-  - \[5\] California SB-1386. Government of the State of California,
-    2002.
-    <http://info.sen.ca.gov/pub/01-02/bill/sen/sb_1351-1400/sb_1386_bill_20020926_chaptered.html>.
+- \[1\] J. Oates. AOL man pleads guilty to selling 92m email
+  addresses. The Register, 2005.
+  <http://www.theregister.co.uk/2005/02/07/aol_email_theft/>
+- \[2\] Safe Harbor Privacy Framework. U.S. Department of Commerce.
+  <http://www.export.gov/safeharbor/>.
+- \[3\] Financial Privacy: The Gramm-Leach Bliley Act (GLBA). Federal
+  Trade Commission.
+  <http://www.ftc.gov/privacy/privacyinitiatives/glbact.html>.
+- \[4\] Health Insurance Portability and Accountability Act (HIPAA).
+  U.S. Department of Human Services. <http://www.hhs.gov/ocr/hipaa/>.
+- \[5\] California SB-1386. Government of the State of California, 2002.
+  <http://info.sen.ca.gov/pub/01-02/bill/sen/sb_1351-1400/sb_1386_bill_20020926_chaptered.html>.
 
 \[\[Category:FIXME|add links
 
@@ -131,7 +128,7 @@ Logging and Auditing Vulnerability
 
 Session Management Vulnerability\]\]
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Sensitive Data Protection

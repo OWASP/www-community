@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Format string attack
-author: 
+author:
 contributors: meir555
 permalink: /attacks/Format_string_attack
 tags: attack, Format string attack
-
 ---
 
 {% include writers.html %}
@@ -52,19 +50,19 @@ website. For example, if the **printf** function is used to print the
 username inserted in some fields of the page, the website could be
 vulnerable to this kind of attack, as showed below:
 
-`printf (userName);`
+`printf (userName);`
 
 Following are some examples of Format Functions, which if not treated,
 can expose the application to the Format String Attack.
 
 **Table 1. Format Functions**
 
-| Format function | Description                                        |
-| --------------- | -------------------------------------------------- |
-| fprint          | Writes the printf to a file                        |
-| printf          | Output a formatted string                          |
-| sprintf         | Prints into a string                               |
-| snprintf        | Prints into a string checking the length           |
+| Format function | Description                                       |
+| --------------- | ------------------------------------------------- |
+| fprint          | Writes the printf to a file                       |
+| printf          | Output a formatted string                         |
+| sprintf         | Prints into a string                              |
+| snprintf        | Prints into a string checking the length          |
 | vfprintf        | Prints the a va_arg structure to a file           |
 | vprintf         | Prints the va_arg structure to stdout             |
 | vsprintf        | Prints the va_arg to a string                     |
@@ -99,7 +97,7 @@ parses the format string parameters shown in table 2.
 ## Example
 
 ```c
-#include  <stdio.h> 
+#include  <stdio.h>
 void main(int argc, char **argv)
 {
 	// This line is safe
@@ -109,15 +107,18 @@ void main(int argc, char **argv)
 	printf(argv[1]);
 }
 ```
+
 ### Safe Code
+
 The line `printf("%s", argv[1]);` in the example is safe, if you compile the program and run it:
 
 `./example "Hello World %s%s%s%s%s%s"`
 
-The `printf` in the first line will not interpret the "%s%s%s%s%s%s" in the input string, 
+The `printf` in the first line will not interpret the "%s%s%s%s%s%s" in the input string,
 and the output will be: "Hello World %s%s%s%s%s%s"
 
 ### Vulnerable Code
+
 The line `printf(argv[1]);` in the example is vulnerable, if you compile the program and run it:
 
 `./example "Hello World %s%s%s%s%s%s"`
@@ -126,6 +127,7 @@ The `printf` in the second line will interpret the `%s%s%s%s%s%s` in the input s
 At some point, it will get to an invalid address, and attempting to access it will cause the program to crash.
 
 ### Different Payloads
+
 An attacker can also use this to get information, not just crash the software.
 For example, running:
 
@@ -146,6 +148,7 @@ Also reading and writing to any memory location is possible in some conditions, 
 For more information, please see the [Exploiting Format String Vulnerabilities](https://cs155.stanford.edu/papers/formatstring-1.2.pdf) article from 2001.
 
 ### Similar Functions to printf
+
 The whole printf function family is vulnerable.
 Here is an example of snprintf:
 
@@ -166,29 +169,28 @@ A safe use of snprintf will be:
 
 `snprintf(buf, sizeof buf, "%s", argv[1]);`
 
-
 ## Related Threat Agents
 
-  - contractors
-  - internal software developer
+- contractors
+- internal software developer
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Code Injection](Code_Injection)
+- [Code Injection](Code_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Buffer Overflow](Buffer_Overflow)
+- [Buffer Overflow](Buffer_Overflow)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
 ## References
 
-  - <http://www.webappsec.org/projects/threat/classes/format_string_attack.shtml>
-  - <http://en.wikipedia.org/wiki/Format_string_attack>
-  - <http://seclists.org/bugtraq/2005/Dec/0030.html>
-  - <https://cs155.stanford.edu/papers/formatstring-1.2.pdf>
+- <http://www.webappsec.org/projects/threat/classes/format_string_attack.shtml>
+- <http://en.wikipedia.org/wiki/Format_string_attack>
+- <http://seclists.org/bugtraq/2005/Dec/0030.html>
+- <https://cs155.stanford.edu/papers/formatstring-1.2.pdf>
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)

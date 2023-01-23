@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cross Site Tracing
-author: 
+author:
 contributors: Kcghost, KristenS, Ryan Dewhurst, Andrew Smith
 permalink: /attacks/Cross_Site_Tracing
 tags: attack, Cross Site Tracing
-
 ---
 
 {% include writers.html %}
@@ -93,10 +91,10 @@ now block the TRACE method in XMLHttpRequest to help mitigate XST.
 ```html
 <script>
   var xmlhttp = new XMLHttpRequest();
-  var url = 'http://127.0.0.1/';
+  var url = "http://127.0.0.1/";
 
   xmlhttp.withCredentials = true; // send cookie header
-  xmlhttp.open('TRACE', url, false);
+  xmlhttp.open("TRACE", url, false);
   xmlhttp.send();
 </script>
 ```
@@ -115,19 +113,19 @@ for further information.
 
 ## Related [Attacks]({{ site.baseurl }}/attacks/)
 
-  - [Cross-site Scripting(XSS)]({{ site.baseurl }}/attacks/xss)
+- [Cross-site Scripting(XSS)]({{ site.baseurl }}/attacks/xss)
 
 ## References
 
-  - Cross-Site Tracing (XST):
-    <http://www.cgisecurity.com/whitehat-mirror/WH-WhitePaper_XST_ebook.pdf>
-  - [Testing for HTTP Methods and XST
-    (OWASP-CM-008)](Testing_for_HTTP_Methods_and_XST_\(OWASP-CM-008\) "wikilink")
-  - [OSVDB 877](https://vulners.com/osvdb/OSVDB:877)
-  - [CVE-2005-3398](https://nvd.nist.gov/vuln/detail/CVE-2005-3398)
-  - [XSS: Gaining access to HttpOnly Cookie
-    in 2012](http://seckb.yehg.net/2012/06/xss-gaining-access-to-httponly-cookie.html)
-  - [Mozilla
-    Bug 302489](https://bugzilla.mozilla.org/show_bug.cgi?id=302489)
-  - [Mozilla
-    Bug 381264](https://bugzilla.mozilla.org/show_bug.cgi?id=381264)
+- Cross-Site Tracing (XST):
+  <http://www.cgisecurity.com/whitehat-mirror/WH-WhitePaper_XST_ebook.pdf>
+- [Testing for HTTP Methods and XST
+  (OWASP-CM-008)](<Testing_for_HTTP_Methods_and_XST_(OWASP-CM-008)> "wikilink")
+- [OSVDB 877](https://vulners.com/osvdb/OSVDB:877)
+- [CVE-2005-3398](https://nvd.nist.gov/vuln/detail/CVE-2005-3398)
+- [XSS: Gaining access to HttpOnly Cookie
+  in 2012](http://seckb.yehg.net/2012/06/xss-gaining-access-to-httponly-cookie.html)
+- [Mozilla
+  Bug 302489](https://bugzilla.mozilla.org/show_bug.cgi?id=302489)
+- [Mozilla
+  Bug 381264](https://bugzilla.mozilla.org/show_bug.cgi?id=381264)

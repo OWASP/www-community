@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Binary Planting
-author: 
+author:
 contributors:
 permalink: /attacks/Binary_planting
 tags: attack, binary planting
-
 ---
 
 {% include writers.html %}
@@ -84,5 +82,5 @@ There are various ways this attack can occur:
 ## References
 
 - [CWE-114: Process Control](http://cwe.mitre.org/data/definitions/114.html)
-- [Elevation of Privilege Vulnerability in iTunes for Windows](http://www.securityfocus.com/archive/1/510426) - example of Insecure Access  Permissions-based Attack
+- [Elevation of Privilege Vulnerability in iTunes for Windows](http://www.securityfocus.com/archive/1/510426) - example of Insecure Access Permissions-based Attack
 - [Remote Binary Planting in Apple iTunes for Windows](http://www.securityfocus.com/archive/1/513190) - example of Current Working Directroy-based Attack

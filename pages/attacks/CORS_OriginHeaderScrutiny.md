@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: CORS OriginHeaderScrutiny
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/CORS_OriginHeaderScrutiny
 tags: attack, CORS OriginHeaderScrutiny
-
 ---
 
 {% include writers.html %}
@@ -76,8 +74,8 @@ allowed to access response data.
 
 ## Risk
 
-*A reminder : This article will focus on the web application side
-because it's the only part in which we have the maximum of control.*
+_A reminder : This article will focus on the web application side
+because it's the only part in which we have the maximum of control._
 
 The risk here is that a web client can put any value into the **Origin**
 request HTTP header in order to force web application to provide it the

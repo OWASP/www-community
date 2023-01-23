@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Unsafe Mobile Code
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Unsafe_Mobile_Code
 tags: vulnerability, Unsafe Mobile Code
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -156,38 +154,38 @@ method.
 
 ## Risk Factors
 
-  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
-    that make this vulnerability likely or unlikely to actually happen
-  - Discuss the technical impact of a successful exploit of this
-    vulnerability
-  - Consider the likely \[business impacts\] of a successful attack
+- Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
+  that make this vulnerability likely or unlikely to actually happen
+- Discuss the technical impact of a successful exploit of this
+  vulnerability
+- Consider the likely \[business impacts\] of a successful attack
 
 ## Examples
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
+- [Vulnerability 1](Vulnerability_1 "wikilink")
+- [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Use encapsulation](Use_encapsulation "wikilink")
+- [Use encapsulation](Use_encapsulation "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
 TBD
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Code Quality

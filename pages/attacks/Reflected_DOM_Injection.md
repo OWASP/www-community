@@ -1,18 +1,16 @@
 ---
-
 layout: col-sidebar
 title: Reflected DOM Injection
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Reflected_DOM_Injection
 tags: attack, Reflected DOM Injection
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
 
-Reflected DOM Injection, or *RDI*, is a form of [Stored Cross-Site
+Reflected DOM Injection, or _RDI_, is a form of [Stored Cross-Site
 Scripting](Cross-site_scripting#Stored_and_Reflected_XSS_Attacks "wikilink").
 
 The outline of the attack is as follows:
@@ -45,15 +43,15 @@ Arshan Dabirsiaghi surmised that vulnerability to this attack would
 eventually surface in popular search engines during a presentation at
 [OWASP NYC AppSec 2008](OWASP_NYC_AppSec_2008_Conference "wikilink") and
 [AppSec Europe 2008](OWASP_AppSec_Europe_2008_-_Belgium "wikilink"),
-*Next Generation Cross Site Scripting Worms* (see also *[Building and
+_Next Generation Cross Site Scripting Worms_ (see also _[Building and
 Stopping Next Generation XSS Worms
-(May 8, 2008)](https://www.owasp.org/images/1/1b/OWASP-AppSecEU08-Dabirsiaghi.pdf)*,
+(May 8, 2008)](https://www.owasp.org/images/1/1b/OWASP-AppSecEU08-Dabirsiaghi.pdf)_,
 last accessed August 5, 2013). Daniel Chechik and Anat Davidi confirmed
 Dabirsiaghi's surmisal by demonstrating such vulnerability in the Google
 Translate web application and Yahoo\! cached page results during the DEF
-CON 21 security conference in their August 2013 *[Utilizing Popular
+CON 21 security conference in their August 2013 _[Utilizing Popular
 Websites for Malicious Purposes Using
-RDI](https://defcon.org/html/defcon-21/dc-21-speakers.html#Chechik)*
+RDI](https://defcon.org/html/defcon-21/dc-21-speakers.html#Chechik)_
 presentation.
 
 The [DOM-based XSS Prevention Cheat

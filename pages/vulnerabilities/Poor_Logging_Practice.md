@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Poor Logging Practice
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Poor_Logging_Practice
 tags: vulnerability, Poor Logging Practice
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -98,23 +96,23 @@ TBD
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
+- [Vulnerability 1](Vulnerability_1 "wikilink")
+- [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Control 1](Control_1 "wikilink")
-  - [Control 2](Control_2 "wikilink")
+- [Control 1](Control_1 "wikilink")
+- [Control 2](Control_2 "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
@@ -122,11 +120,11 @@ Note: A reference to related [CWE](http://cwe.mitre.org/) or
 [CAPEC](http://capec.mitre.org/) article should be added when exists.
 Eg:
 
-  - [CWE 79](http://cwe.mitre.org/data/definitions/79.html).
-  - <http://www.link1.com>
-  - [Title for the link2](http://www.link2.com)
+- [CWE 79](http://cwe.mitre.org/data/definitions/79.html).
+- <http://www.link1.com>
+- [Title for the link2](http://www.link2.com)
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Code Quality

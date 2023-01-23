@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cash Overflow
 author: psiinon
 contributors: Andrew Smith, kingthorin
 permalink: /attacks/Cash_Overflow
 tags: attack, Cash Overflow
-
 ---
 
 {% include writers.html %}

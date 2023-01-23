@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cross Site History Manipulation (XSHM)
 author: Adar Weidman
 contributors: James Bowie, kingthorin
 permalink: /attacks/Cross_Site_History_Manipulation_(XSHM)
 tags: attack, Cross Site History Manipulation (XSHM)
-
 ---
 
 {% include writers.html %}
@@ -38,11 +36,11 @@ The following attack vectors based on techniques of **XSHM** are
 possible:
 
 - Cross-Site Condition Leakage
-    - Login Detection
-    - Resource Mapping
-    - Error Leakage
-    - State Detection
-    - Information Inference
+  - Login Detection
+  - Resource Mapping
+  - Error Leakage
+  - State Detection
+  - Information Inference
 - Cross-Site User Tracking
 - Cross-Site URL/Parameters Enumeration
 
@@ -125,7 +123,7 @@ a different site inside an IFRAME makes it vulnerable.
   Guide](https://www.checkmarx.com/wp-content/uploads/2012/07/XSHM-Cross-site-history-manipulation.pdf)
 - [Checkmarx identifies new web browser
   vulnerability](http://www.infosecurity-magazine.com/view/6828/checkmarx-identifies-new-web-browser-vulnerability/),
-  *InfoSecurity Magazine*, January 27, 2010
+  _InfoSecurity Magazine_, January 27, 2010
 - [Demo for Internet Explorer users - "Am I using
   Facebook?"](http://www.checkmarx.com/Demo/XSHM.aspx)
 - [Wikipedia: Same Origin Policy

@@ -1,93 +1,88 @@
 {
-	"definitions": {
-	},
-	"$schema": "http://json-schema.org/draft-07/schema#",
-	"title": "Root",
-	"type": "array",
-	"default": [
-	],
-	"items": {
-		"$id": "#root/items",
-		"title": "Items",
-		"type": "object",
-		"required": [
-			"title",
-			"url",
-			"owner",
-			"license",
-			"platforms",
-			"note",
-			"type"
-		],
-		"properties": {
-			"title": {
-				"$id": "#root/items/title",
-				"title": "Title",
-				"type": "string"
-			},
-			"url": {
-				"$id": "#root/items/url",
-				"title": "Url",
-				"type": "string",
-				"format": "uri"
-			},
-			"owner": {
-				"$id": "#root/items/owner",
-				"title": "Owner",
-				"oneOf": [
-					{
-						"type": "null"
-					},
-					{
-						"type": "string"
-					}
-				]
-			},
-			"license": {
-				"$id": "#root/items/license",
-				"title": "License",
-				"type": "string",
-				"enum": [
-					"Free",
-					"Commercial",
-					"Commercial or Free",
-					"Open Source",
-					"Open Source or Free"
-				]
-			},
-			"platforms": {
-				"$id": "#root/items/platforms",
-				"title": "Platforms",
-				"oneOf": [
-					{
-						"type": "null"
-					},
-					{
-						"type": "string"
-					}
-				]
-			},
-			"note": {
-				"$id": "#root/items/note",
-				"title": "Note",
-				"oneOf": [
-					{
-						"type": "null"
-					},
-					{
-						"type": "string"
-					}
-				]
-			},
-			"type": {
-				"$id": "#root/items/type",
-				"title": "Type",
-				"type": "string",
-				"enum": [
-					"DAST",
-					"SAST"
-				]
-			}
-		}
-	}
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items": {
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "title",
+      "url",
+      "owner",
+      "license",
+      "platforms",
+      "note",
+      "type"
+    ],
+    "properties": {
+      "title": {
+        "$id": "#root/items/title",
+        "title": "Title",
+        "type": "string"
+      },
+      "url": {
+        "$id": "#root/items/url",
+        "title": "Url",
+        "type": "string",
+        "format": "uri"
+      },
+      "owner": {
+        "$id": "#root/items/owner",
+        "title": "Owner",
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "license": {
+        "$id": "#root/items/license",
+        "title": "License",
+        "type": "string",
+        "enum": [
+          "Free",
+          "Commercial",
+          "Commercial or Free",
+          "Open Source",
+          "Open Source or Free"
+        ]
+      },
+      "platforms": {
+        "$id": "#root/items/platforms",
+        "title": "Platforms",
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "note": {
+        "$id": "#root/items/note",
+        "title": "Note",
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "type": {
+        "$id": "#root/items/type",
+        "title": "Type",
+        "type": "string",
+        "enum": ["DAST", "SAST"]
+      }
+    }
+  }
 }

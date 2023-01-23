@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Session hijacking attack
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Session_hijacking_attack
 tags: attack, Session hijacking attack
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -34,11 +32,11 @@ Web Server.
 The session token could be compromised in different ways; the most
 common are:
 
-  - Predictable session token;
-  - Session Sniffing;
-  - Client-side attacks (XSS, malicious JavaScript Codes, Trojans, etc);
-  - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
-  - [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink")
+- Predictable session token;
+- Session Sniffing;
+- Client-side attacks (XSS, malicious JavaScript Codes, Trojans, etc);
+- [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
+- [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink")
 
 ## Examples
 
@@ -52,8 +50,8 @@ valid token session to gain unauthorized access to the Web Server.
 
 ![Session sniffing](../assets/images/attacks/session-hijacking.jpg)
 
-*Figure 1. Manipulating the token session executing the session hijacking
-attack.*
+_Figure 1. Manipulating the token session executing the session hijacking
+attack._
 
 ### Example 2
 
@@ -77,38 +75,38 @@ send the cookie to the attacker.
 
 ![Code Injection](../assets/images/attacks/code-injection.jpg)
 
-*Figure 2. Code injection.*
+_Figure 2. Code injection._
 
 **Other Examples** The following attacks intercept the information
 exchange between the client and the server:
 
-  - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
-  - [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink")
+- [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
+- [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink")
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category: Authorization](:Category:_Authorization "wikilink")
+- [:Category: Authorization](:Category:_Authorization "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
-  - [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink")
-  - [Session Prediction](Session_Prediction "wikilink")
+- [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
+- [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink")
+- [Session Prediction](Session_Prediction "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:Input Validation
-    Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
+- [:Category:Input Validation
+  Vulnerability](:Category:Input_Validation_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Session
-    Management](:Category:Session_Management "wikilink")
+- [:Category:Session
+  Management](:Category:Session_Management "wikilink")
 
 ## References
 
-  - <http://www.iss.net/security_center/advice/Exploits/TCP/session_hijacking/default.htm>
-  - <http://en.wikipedia.org/wiki/HTTP_cookie>
+- <http://www.iss.net/security_center/advice/Exploits/TCP/session_hijacking/default.htm>
+- <http://en.wikipedia.org/wiki/HTTP_cookie>
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Exploitation of

@@ -1,5 +1,4 @@
 ---
-
 layout: col-sidebar
 title: Use of Obsolete Methods
 author:
@@ -7,7 +6,6 @@ contributors:
 permalink: /vulnerabilities/Use_of_Obsolete_Methods
 tags: vulnerability, Use of Obsolete Methods
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -23,13 +21,13 @@ The use of deprecated or obsolete functions may indicate neglected code.
 As programming languages evolve, functions occasionally become obsolete
 due to:
 
-  - Advances in the language
-  - Improved understanding of how operations should be performed
-    effectively and securely
-  - Changes in the conventions that govern certain operations
-  - Functions that are removed are usually replaced by newer
-    counterparts that perform the same task in some different and
-    hopefully improved way.
+- Advances in the language
+- Improved understanding of how operations should be performed
+  effectively and securely
+- Changes in the conventions that govern certain operations
+- Functions that are removed are usually replaced by newer
+  counterparts that perform the same task in some different and
+  hopefully improved way.
 
 Refer to the documentation for this function in order to determine why
 it is deprecated or obsolete and to learn about alternative ways to
@@ -39,11 +37,11 @@ functions.
 
 # Risk Factors
 
-  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
-    that make this vulnerability likely or unlikely to actually happen
-  - Discuss the technical impact of a successful exploit of this
-    vulnerability
-  - Consider the likely \[business impacts\] of a successful attack
+- Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
+  that make this vulnerability likely or unlikely to actually happen
+- Discuss the technical impact of a successful exploit of this
+  vulnerability
+- Consider the likely \[business impacts\] of a successful attack
 
 # Examples
 

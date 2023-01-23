@@ -1,0 +1,21 @@
+name: Lint
+
+on:
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read # This is required for actions/checkout
+
+jobs:
+  pre-commit:
+    name: Pre-commit check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout git repository
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v3
+      - name: Pre-commit checks
+        uses: pre-commit/action@v3.0.0

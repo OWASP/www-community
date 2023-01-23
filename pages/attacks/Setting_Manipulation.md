@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Setting Manipulation
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Setting_Manipulation
 tags: attack, Setting Manipulation
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -44,9 +42,9 @@ Dictionary Definition (Setting Manipulation-15).
 
 Consider the following piece of Java code:
 
-` …`
-` conn.setCatalog(request.getParameter(“catalog”));`
-` ...`
+` …`
+` conn.setCatalog(request.getParameter(“catalog”));`
+` ...`
 
 This fragment reads the string “catalog” from “HttpServletRequest” and
 sets it as the active catalog for a database connection. An attacker
@@ -74,29 +72,29 @@ For more details about this attack, see:
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category: Logical Attacks](:Category:_Logical_Attacks "wikilink")
+- [:Category: Logical Attacks](:Category:_Logical_Attacks "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Denial of Service](Denial_of_Service "wikilink")
+- [Denial of Service](Denial_of_Service "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:General Logic Error
-    Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")
+- [:Category:General Logic Error
+  Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category: Error Handling](:Category:_Error_Handling "wikilink")
+- [:Category: Error Handling](:Category:_Error_Handling "wikilink")
 
 ## References
 
-  - <http://cwe.mitre.org/data/definitions/15.html> - Setting
-    Manipulation
-  - <http://capec.mitre.org/data/definitions/13.html> - Subverting
-    Environment Variable Values
-  - <http://capec.mitre.org/data/definitions/96.html> - Block Access to
-    Libraries
+- <http://cwe.mitre.org/data/definitions/15.html> - Setting
+  Manipulation
+- <http://capec.mitre.org/data/definitions/13.html> - Subverting
+  Environment Variable Values
+- <http://capec.mitre.org/data/definitions/96.html> - Block Access to
+  Libraries
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category: Resource

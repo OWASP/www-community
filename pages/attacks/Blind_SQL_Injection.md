@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Blind SQL Injection
-author: 
+author:
 contributors:
 permalink: /attacks/Blind_SQL_Injection
 tags: attack, blind sql injection, sql injection
-
 ---
 
 {% include writers.html %}
@@ -144,10 +142,10 @@ of them is [SQLMap](http://sqlmap.org/) partly developed within OWASP
 grant program. On the other hand, tools of this kind are very sensitive
 to even small deviations from the rule. This includes:
 
-  - scanning other website clusters, where clocks are not ideally
-    synchronized,
-  - WWW services where argument acquiring method was changed, e.g. from
-    `/index.php?ID=10` to `/ID,10`
+- scanning other website clusters, where clocks are not ideally
+  synchronized,
+- WWW services where argument acquiring method was changed, e.g. from
+  `/index.php?ID=10` to `/ID,10`
 
 ### Remote Database Fingerprinting
 
@@ -165,7 +163,7 @@ MSSQL, and Oracle have different functions for that, respectively
 - [SQL_Injection](https://owasp.org/www-community/attacks/SQL_Injection)
 - [XPATH_Injection](https://owasp.org/www-community/attacks/XPATH_Injection)
 - [LDAP_injection](https://owasp.org/www-community/attacks/LDAP_Injection)
-- [Server-Side_Includes_%28SSI%29_Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
+- [Server-Side*Includes*%28SSI%29_Injection](<https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection>)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 

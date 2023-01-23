@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Catch NullPointerException
 author:
 contributors:
 permalink: /vulnerabilities/Catch_NullPointerException
 tags: vulnerability, Catch NullPointerException
-
 ---
 
 {% include writers.html %}

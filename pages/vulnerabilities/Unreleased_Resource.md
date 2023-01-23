@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Unreleased Resource
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Unreleased_Resource
 tags: vulnerability, Unreleased Resource
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -23,17 +21,17 @@ depleting the resource pool.
 
 Resource leaks have at least two common causes:
 
-  - Error conditions and other exceptional circumstances.
-  - Confusion over which part of the program is responsible for
-    releasing the resource.
+- Error conditions and other exceptional circumstances.
+- Confusion over which part of the program is responsible for
+  releasing the resource.
 
 # Risk Factors
 
-  - Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
-    that make this vulnerability likely or unlikely to actually happen
-  - Discuss the technical impact of a successful exploit of this
-    vulnerability
-  - Consider the likely \[business impacts\] of a successful attack
+- Talk about the [factors](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
+  that make this vulnerability likely or unlikely to actually happen
+- Discuss the technical impact of a successful exploit of this
+  vulnerability
+- Consider the likely \[business impacts\] of a successful attack
 
 # Examples
 

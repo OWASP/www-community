@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: XSS in subtitle
 author: Mohammad MortazaviZade
-contributors: 
+contributors:
 permalink: /attacks/Xss_in_subtitle
 tags: attack, Xss in subtitle
-
 ---
 
 {% include writers.html %}

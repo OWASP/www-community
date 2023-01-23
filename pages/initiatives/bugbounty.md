@@ -1,15 +1,14 @@
 ---
-
 layout: col-sidebar
 title: OWASP Bug Bounty
 tags: bugbounty
 permalink: /initiatives/bugbounty/
-
 ---
 
 OWASP Bug Bounty programs are run different from most traditional Bug Bounties. First of all, the applications to be tested are not available as deployed web applications online. For this part you will need to download the applications and deploy or install them on your computer. The following is a guideline for each bug bounty program we are running:
 
 # OWASP ZAP Bug Bounty
+
 The OWASP ZAP Bug Bounty program can be found [here](https://bugcrowd.com/owaspzap).
 
 OWASP ZAP is a client application written in JAVA. Therefore is important that you keep in mind the scope of the bounty.
@@ -18,6 +17,7 @@ OWASP ZAP is a client application written in JAVA. Therefore is important that y
 ## Bug Bounty Tips
 
 ### Check the Code
+
 OWASP ZAP is an open source application, meaning that you have access to the source code and you can debug it while testing it. This offers you a much better view of what is happening, but also, you have the ability to white-test the application and find out vulnerable Java Methods faster than the Blackbox approach.
 
 You will need to run ZAP within a Java IDE like Eclipse. The easiest way to get ZAP running this way is to follow these instructions [here](https://www.zaproxy.org/docs/developer/) or follow these videos:
@@ -39,6 +39,7 @@ Any design or implementation issue that is reproducible and substantially affect
 - Unauthorized API actions
 
 # OWASP CRSFGuard Bug Bounty
+
 OWASP CRSFGuard Bug Bounty program can be found [here](https://bugcrowd.com/owaspcrsfguard).
 
 Please read careful the scope of the bounty and make sure you understand the target.
@@ -50,6 +51,7 @@ You can open the Maven project in [Eclipse IDE for Java Developers](https://www.
 - [Import OWASP CRSFGuard Bounty File into Eclipse](https://www.youtube.com/watch?v=xWXPJexUPHg)
 
 # OWASP JAVA HTML Sanitizer Bug Bounty
+
 This bounty program is to be found [here](https://bugcrowd.com/owaspjavasanitizer)
 
 Please make sure your read carefully the scope of the bounty clear.

@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: CORS RequestPreflightScrutiny
 author: Dominique RIGHETTO
 contributors: Imifos, kingthorin
 permalink: /attacks/CORS_RequestPreflightScrutiny
 tags: attack, CORS RequestPreflightScrutiny
-
 ---
 
 {% include writers.html %}
@@ -61,11 +59,11 @@ request using theses steps:
 
 - Step 1 : Determine the type of the incoming request,
 - Step 2 : Process request according to is type using temporary cache
-    to keep state of preflighting step of the process.
+  to keep state of preflighting step of the process.
 
 **Sample implementation: Filter class**
 
-```
+````
 ```java
 import java.io.IOException;
 import java.util.Collections;
@@ -288,7 +286,7 @@ public class CORSRequestPreflightProcessScrutiny implements Filter {
         this.filterConfig.getServletContext().log("-------------------------------------");
     }
 }
-```
+````
 
 **Sample implementation: Utility class used by Filter**
 

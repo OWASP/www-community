@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Trojan Horse
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Trojan_Horse
 tags: attack, Trojan Horse
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -52,19 +50,19 @@ attack](Man-in-the-browser_attack "wikilink").
 
 Some common symptoms:
 
-  - Wallpaper and other background settings auto-changing
-  - Mouse pointer disappears
-  - Programs auto-loading and unloading
-  - Strange window warnings, messages and question boxes, and options
-    being displayed constantly
-  - e-mail client auto sending messages to all on the user's contacts
-    list
-  - Windows auto closing
-  - System auto rebooting
-  - Internet account information changing
-  - High internet bandwidth being used without user action
-  - Computer's high resources consumption (computer slows down)
-  - Ctrl + Alt + Del stops working
+- Wallpaper and other background settings auto-changing
+- Mouse pointer disappears
+- Programs auto-loading and unloading
+- Strange window warnings, messages and question boxes, and options
+  being displayed constantly
+- e-mail client auto sending messages to all on the user's contacts
+  list
+- Windows auto closing
+- System auto rebooting
+- Internet account information changing
+- High internet bandwidth being used without user action
+- Computer's high resources consumption (computer slows down)
+- Ctrl + Alt + Del stops working
 
 ## Risk Factors
 
@@ -87,30 +85,30 @@ A Javascript Trojan Horse example can be found on:
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category:Client-side
-    Attacks](:Category:Client-side_Attacks "wikilink")
+- [:Category:Client-side
+  Attacks](:Category:Client-side_Attacks "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Spyware](Spyware "wikilink")
-  - [Phishing](Phishing "wikilink")
+- [Spyware](Spyware "wikilink")
+- [Phishing](Phishing "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - TBD
+- TBD
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - TBD
+- TBD
 
 ## References
 
-  - [Ajax
-    Sniffer](http://myappsecurity.blogspot.com/2007/01/ajax-sniffer-prrof-of-concept.html)
-  - [Trojan Infection
-    Symptoms](http://hacker-eliminator.com/trojansymptoms.html)
-  - [The Difference Between a Virus, Worm and Trojan
-    Horse](http://www.webopedia.com/DidYouKnow/Internet/2004/virus.asp)
+- [Ajax
+  Sniffer](http://myappsecurity.blogspot.com/2007/01/ajax-sniffer-prrof-of-concept.html)
+- [Trojan Infection
+  Symptoms](http://hacker-eliminator.com/trojansymptoms.html)
+- [The Difference Between a Virus, Worm and Trojan
+  Horse](http://www.webopedia.com/DidYouKnow/Internet/2004/virus.asp)
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [need links](Category:FIXME "wikilink") [Category:Embedded Malicious

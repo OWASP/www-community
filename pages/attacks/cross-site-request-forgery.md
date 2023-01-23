@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cross Site Request Forgery (CSRF)
 author: KirstenS
 contributors: Dave Wichers, Davisnw, Paul Petefish, Adar Weidman, Michael Brooks, Ahsan Mir, Dc, D0ubl3 h3lix, Jim Manico, Robert Gilbert, Tgondrom, Pawel Krawczyk, Brandt, A V Minhaz, Kevin Lorenzo, Andrew Smith, Christina Schelin, Ari Elias-Bachrach, Sarciszewski, kingthorin, Ben Spatafora
 permalink: /attacks/csrf
 tags: attack, CSRF
-
 ---
 
 {% include writers.html %}
@@ -116,7 +114,7 @@ developed over time. Here are a few that we recommend you avoid.
 
 ### Using a secret cookie
 
-Remember that all cookies, even the *secret* ones, will be submitted
+Remember that all cookies, even the _secret_ ones, will be submitted
 with every request. All authentication tokens will be submitted
 regardless of whether or not the end-user was tricked into submitting
 the request. Furthermore, session identifiers are simply used by the
@@ -165,12 +163,12 @@ information from or submitting information to a web application. In
 order to execute an attack, we must first understand how to generate a
 valid malicious request for our victim to execute. Let us consider the
 following example: Alice wishes to transfer $100 to Bob using the
-*bank.com* web application that is vulnerable to CSRF. Maria, an
+_bank.com_ web application that is vulnerable to CSRF. Maria, an
 attacker, wants to trick Alice into sending the money to Maria instead.
 The attack will comprise the following steps:
 
 1. Building an exploit URL or script
-2. Tricking Alice into executing the action with [Social Engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))
+2. Tricking Alice into executing the action with [Social Engineering](<https://en.wikipedia.org/wiki/Social_engineering_(security)>)
 
 #### GET scenario
 
@@ -178,7 +176,7 @@ If the application was designed to primarily use GET requests to
 transfer parameters and execute actions, the money transfer operation
 might be reduced to a request like:
 
-`GET http://bank.com/transfer.do?acct=BOB&amount=100 HTTP/1.1`
+`GET http://bank.com/transfer.do?acct=BOB&amount=100 HTTP/1.1`
 
 Maria now decides to exploit this web application vulnerability using
 Alice as the victim. Maria first constructs the following exploit URL
@@ -188,7 +186,7 @@ herself, raising the transfer amount significantly at the same time:
 
 `http://bank.com/transfer.do?acct=MARIA&amount=100000`
 
-The [social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) aspect of the
+The [social engineering](<https://en.wikipedia.org/wiki/Social_engineering_(security)>) aspect of the
 attack tricks Alice into loading this URL when Alice is logged into the
 bank application. This is usually done with one of the following
 techniques:
@@ -199,14 +197,14 @@ techniques:
 The exploit URL can be disguised as an ordinary link, encouraging the
 victim to click it:
 
-`<a href="http://bank.com/transfer.do?acct=MARIA&amount=100000">View my Pictures!</a>`
+`<a href="http://bank.com/transfer.do?acct=MARIA&amount=100000">View my Pictures!</a>`
 
 Or as a 0x0 fake image:
 
-`<img src="http://bank.com/transfer.do?acct=MARIA&amount=100000" width="0" height="0" border="0">`
+`<img src="http://bank.com/transfer.do?acct=MARIA&amount=100000" width="0" height="0" border="0">`
 
 If this image tag were included in the email, Alice wouldn't see
-anything. However, the browser *will still* submit the request to
+anything. However, the browser _will still_ submit the request to
 bank.com without any visual indication that the transfer has taken
 place.
 
@@ -285,12 +283,12 @@ web site explicitly opens up cross-origin requests from the attacker's
 [CORS](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html)
 with the following header:
 
-`Access-Control-Allow-Origin: *`
+`Access-Control-Allow-Origin: *`
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
 - [Cross-site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/)
-- [Cross Site History Manipulation (XSHM)](https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM))
+- [Cross Site History Manipulation (XSHM)](<https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM)>)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
@@ -307,24 +305,30 @@ with the following header:
 
 - [The Cross-Site Request Forgery (CSRF/XSRF) FAQ](http://www.cgisecurity.com/articles/csrf-faq.shtml)
 
-> "This paper serves as a living document for Cross-Site Request Forgery issues. This document will serve as a repository of information from existing papers, talks, and mailing list postings and will be updated as new information is discovered."*
+> "This paper serves as a living document for Cross-Site Request Forgery issues. This document will serve as a repository of information from existing papers, talks, and mailing list postings and will be updated as new information is discovered."\*
 
 - [Testing for CSRF](\www-project-web-security-testing-guide\)
+
   - CSRF (aka Session riding) paper from the OWASP Testing Guide project.
 
 - [CSRF Vulnerability: A 'Sleeping Giant'](https://www.darkreading.com/risk/csrf-vulnerability-a-sleeping-giant/d/d-id/1128371)
+
   - Overview Paper
 
 - [Client Side Protection against Session Riding](http://www.owasp.org/index.php/Image:RequestRodeo-MartinJohns.pdf)
+
   - Martin Johns and Justus Winter's interesting paper and presentation for the 4th OWASP AppSec Conference which described potential techniques that browsers could adopt to automatically provide CSRF protection - [PDF paper](http://www.owasp.org/index.php/Image:RequestRodeo-MartinJohns.pdf)
 
 - [OWASP CSRF Guard](/www-project-csrfguard/)
+
   - J2EE, .NET, and PHP Filters which append a unique request token to each form and link in the HTML response in order to provide universal coverage against CSRF throughout your entire application.
 
 - [OWASP CSRF Protector](/www-project-csrfprotector/)
+
   - Anti CSRF method to mitigate CSRF in web applications. Currently implemented as a PHP library & Apache 2.x.x module
 
 - [A Most-Neglected Fact About Cross Site Request Forgery (CSRF)](http://yehg.net/lab/pr0js/view.php/A_Most-Neglected_Fact_About_CSRF.pdf)
+
   - Aung Khant, <http://yehg.net>, explained the danger and impact of CSRF with imperiling scenarios.
 
 - [Pinata-CSRF-Tool: CSRF POC tool](http://code.google.com/p/pinata-csrf-tool/)

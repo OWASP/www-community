@@ -97,8 +97,8 @@ appears in an image on the page. Since this cannot be done by a tool, we
 can thwart automated password guessing. The following are some tools
 that guess passwords of web applications:
 
-* Brutus
-* [http://www.securityfocus.com/tools/706](WebCracker)
+- Brutus
+- [http://www.securityfocus.com/tools/706](WebCracker)
 
 ## How can I protect against keystroke loggers on the client machine?
 
@@ -148,17 +148,17 @@ example of a login page in a web application where the database is SQL
 Server. The user needs to input Username and Password in the text boxes
 in Login.asp page. Suppose the user enters the following: Username :
 Obelix and Password : Dogmatix This input is then used to build a query
-dynamically which would be something like: 
+dynamically which would be something like:
 `SELECT * FROM Users WHERE username= 'Obelix' and password='Dogmatix'`
 This query would return to
 the application a row from the database with the given values. The user
 is considered authenticated if the database returns one or more rows to
 the application. Now, suppose an attacker enters the following input in
 the login page: `Username : ' or 1=1--` The query built will look like
-this: 
+this:
 `SELECT * FROM Users WHERE username='' or 1=1-- and password='' --`
 in SQL Server is used to comment out the rest of the line. So, our query
-is now effectively: 
+is now effectively:
 `SELECT \* FROM Users WHERE username='' or 1=1` This
 query will look in the database for a row where either username is blank
 or the condition `1=1` is met. Since the latter always evaluates to true,
@@ -385,7 +385,7 @@ browsers) so it will break XHTML validation.
 
 ## Where can I learn more about caching?
 
-Some useful links that talk about caching are - 
+Some useful links that talk about caching are -
 [Caching Tutorial for Web Authors and Webmasters by Mark Nottingham](http://www.mnot.net/cache_docs/)
 and [HTTP RFC (sec14.9.1)](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
 
@@ -399,7 +399,7 @@ This relies on the server reflecting back user input without checking
 for embedded javascript. This can be used to steal cookies and session
 IDs. Let's see how it works. We would all have come across the following
 situation sometime - we type a URL in the browser, say
-`www.abcd.com/mypage.asp`, and receive an error page that says 
+`www.abcd.com/mypage.asp`, and receive an error page that says
 `Sorry www.abcd.com/mypage.asp does not exist` or a page with a similar
 message. In other words, pages that display the user input back on the
 browser. Pages like this could be exploited using XSS. Instead of a
@@ -444,13 +444,13 @@ replaces the special characters by the following before displaying the
 output, XSS can be prevented to some extent.
 
 | Character | Escape Sequence |
-|:---------:|:---------------:|
-| `<`      |`&lt;`         |
-| `>`      |`&gt;`         |
-| `(`      |`&#40;`        |
-| `)`      |`&#41;`        |
-| `*`      |`&#42;`        |
-| `&`      |`&amp;`        |
+| :-------: | :-------------: |
+|    `<`    |     `&lt;`      |
+|    `>`    |     `&gt;`      |
+|    `(`    |     `&#40;`     |
+|    `)`    |     `&#41;`     |
+|    `*`    |     `&#42;`     |
+|    `&`    |     `&amp;`     |
 
 Gunter Ollmann has written an excellent paper on the use of special
 characters in XSS attacks. For instance, the above technique of escaping
@@ -520,7 +520,7 @@ database of these special requests and the responses of each web server.
 We can now send these requests to the web server we want to fingerprint
 and compare the responses with the database. This is the technique used
 by tools like [Fire & Water](http://www.ntobjectives.com/products/firewater/) There is a paper by
-Saumil Shah that discusses the [tool httprint](http://net-square.com/httprint_paper.html), 
+Saumil Shah that discusses the [tool httprint](http://net-square.com/httprint_paper.html),
 httprint can be found at [net-square.com](http://net-square.com/httprint.html)
 
 ## A friend told me it's safer to run my web server on a non-standard port. Is that right?
@@ -580,8 +580,8 @@ In our tests using a slightly modified WebGoat the best Black-box
 scanning tool found less than 20% of the issues! Some tools for
 automated scanning are:
 
-* [http://manpages.ubuntu.com/manpages/trusty/man1/spikeproxy.1.html](SpikeProxy)
-* [https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview](WebInspect)
+- [http://manpages.ubuntu.com/manpages/trusty/man1/spikeproxy.1.html](SpikeProxy)
+- [https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview](WebInspect)
 
 ## Where can I try out my testing skills? Is there a sample application I can practice with?
 
@@ -595,7 +595,7 @@ External projects of note include [VulnHub](https://www.vulnhub.com/), [Hack Thi
 
 ## Are there source code scanning tools for .NET languages, Java, PHP etc that predict vulnerabilities in the source code?
 
-[Rough Auditing Tool for Security (RATS)](http://code.google.com/p/rough-auditing-tool-for-security/downloads/list) 
+[Rough Auditing Tool for Security (RATS)](http://code.google.com/p/rough-auditing-tool-for-security/downloads/list)
 is a tool that scans the source
 code for security flaws in C, C++, Python, Perl and PHP programs.
 FX Cop was created by the Microsoft Team at the GotDotNet community site
@@ -618,7 +618,7 @@ Yes, Interactive TCP Replay is a tool that acts as a proxy for non-HTTP
 applications and also allows modifying the traffic. It allows editing of
 the messages in a hex editor. ITR also logs all the messages passing
 between the client and the server. It can use different types of
-character encoding like ASCII or EBCDIC for 
+character encoding like ASCII or EBCDIC for
 [editing and logging](http://www.webcohort.com/web_application_security/research/tools.html).
 
 # Cryptography/SSL
@@ -707,7 +707,7 @@ features. While installing the certificate issued by the CA, you will
 have to specify which web pages are to be on SSL.
 
 A good starting point for working on POC in a Windows development
-environment could be: 
+environment could be:
 [HOW TO: Secure XML Web Services with Secure Socket Layer in Windows 2000"](http://support.microsoft.com/default.aspx?scid=kb;en-us;q307267&sd=tech)
 
 # Cookies and Session Management
@@ -789,7 +789,7 @@ is the next page served. An application can use this to ensure that a
 user accesses pages only in the sequence determined by the application.
 The user cannot paste a deep URL in the browser and skip pages just
 because they have a session token, as the page token would not be
-authorized to access the deeper URL directly. Good Read: 
+authorized to access the deeper URL directly. Good Read:
 [Secure your sessions with Page Tokens](http://palisade.plynt.com/issues/2005Aug/page-tokens/)
 
 # Logging and Audit Trails
@@ -868,7 +868,7 @@ the application is more than the buffer capacity and the buffers are
 left unchecked, buffer overflow occurs. The severity depends on the user
 input. If a malicious code executes as a result of the overflow, it can
 even compromise the whole system. To learn more, please read the OWASP
-article on 
+article on
 [buffer overflows](attacks/Buffer_overflow_attack)
 
 ## What are application firewalls? How good are they really?
@@ -927,7 +927,7 @@ features if you decide to program in that language.
 
 The [OWASP Guide to Building Secure Web Application and Web Services](http://wiki.owasp.org/documentation/guide) is a
 good guide for web application developers. You can download it from.
-Writing Secure Code by Michael Howard and David LeBlanc has a chapter on 
+Writing Secure Code by Michael Howard and David LeBlanc has a chapter on
 [Securing Web-Based Services](http://www.microsoft.com/mspress/books/toc/5612.asp)
 [Secure Programming for Linux and Unix HOWTO](http://www.dwheeler.com/secure-programs)
 by David Wheeler talks about writing secure
@@ -942,6 +942,6 @@ service specific topics: 19 Deadly Sins of Software Security, by:
 
 Microsoft offers training programs on Developing Security-Enhanced Web
 Applications and Developing and Deploying Secure Microsoft .NET
-Framework Application. 
+Framework Application.
 Foundstone offers secure coding training through Global Knowledge Aspect
 Security offers a similar course.

@@ -1,4 +1,5 @@
-{% assign tools = site.data.tools | where: "type", include.type | sort_natural: "title" %}
+{% assign tools = site.data.tools | where: "type", include.type | sort_natural:
+"title" %}
 
 <table>
   <tr>
@@ -8,7 +9,7 @@
     <th nowrap="nowrap">Platforms</th>
     <th nowrap="nowrap">Note</th>
   </tr>
-{% for tool in tools %}
+  {% for tool in tools %}
   <tr>
     <td><a href="{{tool.url}}">{{ tool.title }}</a></td>
     <td>{{ tool.owner }}</td>
@@ -16,6 +17,5 @@
     <td>{{ tool.platforms }}</td>
     <td>{{ tool.note }}</td>
   </tr>
-{% endfor %}
+  {% endfor %}
 </table>
-

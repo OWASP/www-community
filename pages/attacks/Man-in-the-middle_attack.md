@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Manipulator-in-the-middle attack
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Manipulator-in-the-middle_attack
 tags: attack, Manipulator-in-the-middle attack, MITM
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -33,7 +31,7 @@ figure 1.
 
 ![HTTP packet intercepted with Paros Proxy](../assets/images/attacks/mitm-paros.jpg)
 
-*Figure 1. Illustration of a HTTP Packet intercepted with Paros Proxy.*
+_Figure 1. Illustration of a HTTP Packet intercepted with Paros Proxy._
 
 The MITM attack could also be done over an https connection by using the
 same technique; the only difference consists in the establishment of two
@@ -58,10 +56,10 @@ particularly efficient in LAN network environments, because they
 implement extra functionalities, like the arp spoof capabilities that
 permit the interception of communication between hosts.
 
-  - PacketCreator
-  - Ettercap
-  - Dsniff
-  - Cain e Abel
+- PacketCreator
+- Ettercap
+- Dsniff
+- Cain e Abel
 
 ### MITM Proxy only tools
 
@@ -71,34 +69,34 @@ the capability to intercept the TCP connection between client and
 server. To intercept the communication, it’s necessary to use other
 network attack tools or configure the browser.
 
-  - [OWASP WebScarab](OWASP_WebScarab "wikilink")
-  - Paros Proxy
-  - Burp Proxy
-  - ProxyFuzz
-  - Odysseus Proxy
-  - Fiddler (by Microsoft)
-  - [mitmproxy](https://mitmproxy.org/)
+- [OWASP WebScarab](OWASP_WebScarab "wikilink")
+- Paros Proxy
+- Burp Proxy
+- ProxyFuzz
+- Odysseus Proxy
+- Fiddler (by Microsoft)
+- [mitmproxy](https://mitmproxy.org/)
 
 ## Related Threat Agents
 
-  - Intranet Attacker
+- Intranet Attacker
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Man-in-the-browser_attack](https://owasp.org/www-community/attacks/Man-in-the-browser_attack)
+- [Man-in-the-browser_attack](https://owasp.org/www-community/attacks/Man-in-the-browser_attack)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - Session Management Vulnerability
+- Session Management Vulnerability
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - Session Management
+- Session Management
 
 ## References
 
-  - http://www.sans.org/reading_room/whitepapers/threats/480.php
-  - http://cwe.mitre.org/data/definitions/300.html
-  - http://resources.infosecinstitute.com/video-man-in-the-middle-howto/
-  - http://en.wikipedia.org/wiki/Man-in-the-middle_attack
-  - [OWASP ASDR Project](https://owasp.org/www-pdf-archive/Developing_Secure_Applications_with_OWASP.pdf)
+- http://www.sans.org/reading_room/whitepapers/threats/480.php
+- http://cwe.mitre.org/data/definitions/300.html
+- http://resources.infosecinstitute.com/video-man-in-the-middle-howto/
+- http://en.wikipedia.org/wiki/Man-in-the-middle_attack
+- [OWASP ASDR Project](https://owasp.org/www-pdf-archive/Developing_Secure_Applications_with_OWASP.pdf)

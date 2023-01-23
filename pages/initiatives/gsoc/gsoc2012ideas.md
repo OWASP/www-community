@@ -4,11 +4,13 @@ title: GSoC 2012 Ideas
 tags: gsoc
 permalink: /initiatives/gsoc/gsoc2012ideas
 ---
+
 # GSoC 2012 Ideas
 
 ## Guidelines
 
 ### Information for Students
+
 The ideas below were contributed by OWASP project leaders and users. They are sometimes vague or incomplete. If you wish to submit a proposal based on these ideas, you may wish to contact the corresponding project leaders and find out more about the particular suggestion you're looking at.
 Being accepted as a Google Summer of Code student is quite competitive. Accepted students typically have thoroughly researched the technologies of their proposed project and have been in frequent contact with potential mentors. Simply copying and pasting an idea here will not work. On the other hand, creating a completely new idea without first consulting potential mentors is unlikely to work out.
 
@@ -102,11 +104,12 @@ This component would provide a set of highly configurable 'actions' which the us
 So they would initially define when the action applies, based on things like regex matching on request elements. And they should be able to define multiple criteria with ANDs and ORs.
 
 Then they would define the actions, which could include:
-* Changing the request (adding, removing or replacing strings)
-* Raising alerts
-* Breaking (to replace existing break points)
-* Running custom scripts (which could do pretty much anything)
-They would then be able to switch the actions on and off from the full list of defined actions using checkboxes
+
+- Changing the request (adding, removing or replacing strings)
+- Raising alerts
+- Breaking (to replace existing break points)
+- Running custom scripts (which could do pretty much anything)
+  They would then be able to switch the actions on and off from the full list of defined actions using checkboxes
 
 #### Knowledge Prerequisite:
 
@@ -117,7 +120,6 @@ ZAP is written in Java, so a good knowledge of this language is recommended, as 
 ### Project 003 - Extend Web API to cover all of the ZAP functionality
 
 #### Brief explanation:
-
 
 ZAP provides a REST based API which can be used to control core aspects of the functionality provided by ZAP.
 
@@ -219,7 +221,7 @@ Adapt Swingset Interactive to work with any OS.
 
 #### Expected results:
 
-Swingset Interactive currently runs only under Windows. Modify the Eclipse project and installation scripts to be easily installed on any OS that runs Eclipse. 
+Swingset Interactive currently runs only under Windows. Modify the Eclipse project and installation scripts to be easily installed on any OS that runs Eclipse.
 
 #### Knowledge Prerequisite:
 
@@ -301,7 +303,7 @@ Comfort with Java, Maven, SVN and JUnit are required.
 
 ## AppSensor
 
-The AppSensor project defines a conceptual framework and methodology that offers prescriptive guidance to implement intrusion detection and automated response into an existing application. Current efforts are underway to create the AppSensor tool which can be utilized by any existing application interested in adding detection and response capabilities. 
+The AppSensor project defines a conceptual framework and methodology that offers prescriptive guidance to implement intrusion detection and automated response into an existing application. Current efforts are underway to create the AppSensor tool which can be utilized by any existing application interested in adding detection and response capabilities.
 
 [Website](https://www.owasp.org/index.php/OWASP_AppSensor_Project)
 
@@ -311,7 +313,7 @@ The AppSensor project defines a conceptual framework and methodology that offers
 
 #### Brief explanation:
 
-AppSensor is implementing a new service based architecture for the next version. This project would involve implementing a SOAP based web service (based on the WS-I Basic Profile standard) as a front-end to the AppSensor processing engine. 
+AppSensor is implementing a new service based architecture for the next version. This project would involve implementing a SOAP based web service (based on the WS-I Basic Profile standard) as a front-end to the AppSensor processing engine.
 
 #### Expected results:
 
@@ -321,13 +323,13 @@ A new SOAP based web service would be produced which provides a front-end to the
 
 AppSensor is written in Java, so a good knowledge of this language is recommended. Additionally, some knowledge of SOAP-based web services (particularly the WS-I Basic Profile standard) would be useful, but not essential. Finally, basic knowledge of application security would be very helpful.
 
-**Mentor:** John Melton - OWASP AppSensor Development Leader 
+**Mentor:** John Melton - OWASP AppSensor Development Leader
 
 ### Project 002 - REST web service server implementation
 
 #### Brief explanation:
 
-AppSensor is implementing a new service based architecture for the next version. This project would involve implementing a REST based web service as a front-end to the AppSensor processing engine. 
+AppSensor is implementing a new service based architecture for the next version. This project would involve implementing a REST based web service as a front-end to the AppSensor processing engine.
 
 #### Expected results:
 
@@ -337,13 +339,13 @@ A new REST based web service would be produced which provides a front-end to the
 
 AppSensor is written in Java, so a good knowledge of this language is recommended. Additionally, some knowledge of REST-based web services would be useful, but not essential. Finally, basic knowledge of application security would be very helpful.
 
-**Mentor:** John Melton - OWASP AppSensor Development Leader 
+**Mentor:** John Melton - OWASP AppSensor Development Leader
 
 ### Project 003 - SOAP/REST web service client implementation
 
 #### Brief explanation:
 
-AppSensor is implementing a new service based architecture for the next version. This project would involve implementing SOAP and REST based web service clients in various languages to communicate to a back-end server that represents the AppSensor core engine. 
+AppSensor is implementing a new service based architecture for the next version. This project would involve implementing SOAP and REST based web service clients in various languages to communicate to a back-end server that represents the AppSensor core engine.
 
 #### Expected results:
 
@@ -353,13 +355,13 @@ New SOAP and REST based web service clients would be produced which communicate 
 
 AppSensor is written in Java, and the initial client will be for Java, so a good knowledge of this language is recommended. Proficiency in one or more of the following languages would also be beneficial: C#, PHP, Python, Ruby. Additionally, some knowledge of REST and SOAP based web services would be useful, but not essential. Finally, basic knowledge of application security would be very helpful.
 
-**Mentor:** John Melton - OWASP AppSensor Development Leader 
+**Mentor:** John Melton - OWASP AppSensor Development Leader
 
 ### Project 004 - Detection Point Implementation Expansion
 
 #### Brief explanation:
 
-AppSensor has documentation outlining around 50 different detection points. We currently have an existing implementation that supports a small handful (5-7) of those. Implementing additional detection points would increase the value of the project. 
+AppSensor has documentation outlining around 50 different detection points. We currently have an existing implementation that supports a small handful (5-7) of those. Implementing additional detection points would increase the value of the project.
 
 #### Expected results:
 
@@ -369,7 +371,7 @@ Implementations of existing detection points would be produced. This could be do
 
 AppSensor is written in Java, and the initial client will be for Java, so a good knowledge of this language is recommended. Proficiency in one or more of the following languages would also be beneficial: C#, PHP, Python, Ruby. Finally, basic knowledge of application security would be very helpful.
 
-**Mentor:** John Melton - OWASP AppSensor Development Leader 
+**Mentor:** John Melton - OWASP AppSensor Development Leader
 
 ### Project 005 - Implement new configuration file format
 
@@ -385,7 +387,7 @@ A new implementation of the configuration file would be created. An XML file for
 
 AppSensor is written in Java, so a good knowledge of this language is recommended. Additionally, a basic understanding of XML and XSD would be useful, though not required.
 
-**Mentor:** John Melton - OWASP AppSensor Development Leader 
+**Mentor:** John Melton - OWASP AppSensor Development Leader
 
 ### Project 006 - Trend Monitoring
 
@@ -401,7 +403,7 @@ A new implementation of the trend monitoring module would be implemented.
 
 AppSensor is written in Java, so a good knowledge of this language is recommended. Additionally, basic knowledge of application security would be very helpful.
 
-**Mentor:** John Melton - OWASP AppSensor Development Leader 
+**Mentor:** John Melton - OWASP AppSensor Development Leader
 
 ### Project 007 - Reporting
 
@@ -420,6 +422,7 @@ AppSensor is written in Java, and the initial client will be for Java, so a good
 **Mentor:** John Melton - OWASP AppSensor Development Leader
 
 ## ESAPI
+
 ESAPI (The OWASP Enterprise Security API) is a free, open source, web application security control library that makes it easier for programmers to write lower-risk applications. The ESAPI libraries are designed to make it easier for programmers to retrofit security into existing applications. The ESAPI libraries also serve as a solid foundation for new development.
 
 [Website](http://www.esapi.org)
@@ -430,7 +433,7 @@ ESAPI (The OWASP Enterprise Security API) is a free, open source, web applicatio
 
 #### Brief explanation:
 
-The ESAPI-PHP Project has become outdated and needs to be brought up-to-date with the latest ESAPI 2.0 specification. 
+The ESAPI-PHP Project has become outdated and needs to be brought up-to-date with the latest ESAPI 2.0 specification.
 
 #### Expected results:
 
@@ -507,6 +510,7 @@ Familiarity with Java and Apache-WS or Jersey. An understanding of the mobile pl
 **Mentor:** Chris Schmidt - ESAPI Project Leader
 
 ## WebGoat
+
 The OWASP WebGoat is an intentionally vulnerable web application in Java. It's purpose is to be educational and covers a wide variety of web vulnerabilities and attacks, plus hints and ideas on how to exploit them.
 
 [Website](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
@@ -521,7 +525,7 @@ WebGoatPHP intends to deliver WebGoat to PHP/MySQL (and other SQLs) platform, wh
 
 #### Expected results:
 
-WebGoatPHP will be a vulnerable application, which provides PHP (and any other web) developers to realize common web threats and security flaws.  
+WebGoatPHP will be a vulnerable application, which provides PHP (and any other web) developers to realize common web threats and security flaws.
 
 #### Knowledge Prerequisites:
 
@@ -549,7 +553,7 @@ PHP, Subversion
 
 #### Brief explanation:
 
-Taking WebGoat to a new level, WebGoat Contest enables workshop/contest administrator to limit some access, creating a virtual contest environment for web application security, while having some control over the process of contestants. 
+Taking WebGoat to a new level, WebGoat Contest enables workshop/contest administrator to limit some access, creating a virtual contest environment for web application security, while having some control over the process of contestants.
 
 #### Expected results:
 
@@ -562,6 +566,7 @@ PHP, Subversion, TDD, MVC
 **Mentor:** Abbas Naderi - WebGoatPHP Project Leader
 
 ## Hackademic
+
 The OWASP Hackademic Challenges Project is an open source project that helps you test your knowledge on web application security. You can use it to actually attack web applications in a realistic but also controllable and safe environment. The Hackademic Challenges implement realistic scenarios with known vulnerabilities in a safe, controllable environment. Users can attempt to discover and exploit these vulnerabilities in order to learn important concepts of information security through the attacker's perspective.
 
 [Website](https://www.owasp.org/index.php/OWASP_Hackademic_Challenges_Project)
@@ -572,7 +577,7 @@ The OWASP Hackademic Challenges Project is an open source project that helps you
 
 #### Brief explanation:
 
-The current challenges have been implemented in a rather simple and ad-hoc way by the initial project team so that they work best with the existing joomla front-end. Since then other contributors have expressed interest to contribute new challenges, but also use these challenges with different front-ends. 
+The current challenges have been implemented in a rather simple and ad-hoc way by the initial project team so that they work best with the existing joomla front-end. Since then other contributors have expressed interest to contribute new challenges, but also use these challenges with different front-ends.
 
 #### Expected results:
 
@@ -612,11 +617,12 @@ New challenges
 
 #### Knowledge Prerequisites:
 
-Comfortable in PHP, HTML and possibly Java. Good understanding of Application Security and related vulnerabilities. 
+Comfortable in PHP, HTML and possibly Java. Good understanding of Application Security and related vulnerabilities.
 
 **Mentor:** Konstantinos Papapanagiotou - Hackademic Challenges Project Leader
 
 ## GoatDroid
+
 The OWASP GoatDroid Project pays homage to the OWASP WebGoat Project. It is a fully self-contained environment for learning more about vulnerabilities and security issues for the Android platform.
 
 [Website](https://www.owasp.org/index.php/Projects/OWASP_GoatDroid_Project)
@@ -641,7 +647,7 @@ A solid understanding of Android and web services. Java expertise is desirable, 
 
 #### Brief explanation:
 
-Each GoatDroid application is intentionally built to be insecure. While the new lessons and solution guides demonstrate how to solve these problems, the applications themselves do not contain the actual fixes. 
+Each GoatDroid application is intentionally built to be insecure. While the new lessons and solution guides demonstrate how to solve these problems, the applications themselves do not contain the actual fixes.
 
 #### Expected results:
 
@@ -654,7 +660,8 @@ A solid understanding of Android and Java. The candidate should also have some e
 **Mentor:** Jack Mannino - OWASP Mobile Security Project Lead/GoatDroid Lead
 
 ## ModSecurity Core Rule Set
-The OWASP ModSecurity Core Rule Set (CRS) Project provides a base set of attack detection rules for the popular [open source web application firewall](http://www.modsecurity.org/). 
+
+The OWASP ModSecurity Core Rule Set (CRS) Project provides a base set of attack detection rules for the popular [open source web application firewall](http://www.modsecurity.org/).
 
 [Website](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project)
 
@@ -664,7 +671,7 @@ The OWASP ModSecurity Core Rule Set (CRS) Project provides a base set of attack 
 
 #### Brief explanation:
 
-PHPIDS has an advanced normalization code section called Converter.php which applies counter-evasion methods to obscured attack payloads.  We have an initial Lua script that mimics this functionality.  We need to have it updated and tested.
+PHPIDS has an advanced normalization code section called Converter.php which applies counter-evasion methods to obscured attack payloads. We have an initial Lua script that mimics this functionality. We need to have it updated and tested.
 
 #### Expected results:
 
@@ -690,13 +697,13 @@ The new Lua script will implement more detection points to detect abnormal reque
 
 [Lua scripting](http://www.lua.org/).
 
-**Mentor:** Ryan Barnett - OWASP ModSecurity CRS Project Leader 
+**Mentor:** Ryan Barnett - OWASP ModSecurity CRS Project Leader
 
 ### Project 003 - Lua Script to Detect Application Flow Anomalies
 
 #### Brief explanation:
 
-Need a Lua script that can track normal application flow paths (click-flows) for business logic transactions - such as transferring money from accounts.  After profiling normal application path flows, we want to then be able to alert to anomalies.  This type of logic can help to prevent Banking Trojan attacks.
+Need a Lua script that can track normal application flow paths (click-flows) for business logic transactions - such as transferring money from accounts. After profiling normal application path flows, we want to then be able to alert to anomalies. This type of logic can help to prevent Banking Trojan attacks.
 
 #### Expected results:
 
@@ -706,13 +713,13 @@ The new Lua script will be able to alert on anomalous application flows.
 
 [Lua scripting](http://www.lua.org/).
 
-**Mentor:** Ryan Barnett - OWASP ModSecurity CRS Project Leader 
+**Mentor:** Ryan Barnett - OWASP ModSecurity CRS Project Leader
 
 ### Project 004 - Lua Script(s) to Identify User/System Trend Anomalies
 
 #### Brief explanation:
 
-Need Lua scripts to be able to track normal request velocities of user for resources and identify when they are abnormal.  The goal of these scripts will be to identify brute force, DoS and CSRF worm propagations.
+Need Lua scripts to be able to track normal request velocities of user for resources and identify when they are abnormal. The goal of these scripts will be to identify brute force, DoS and CSRF worm propagations.
 
 #### Expected results:
 

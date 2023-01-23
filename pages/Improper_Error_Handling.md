@@ -1,12 +1,10 @@
 ---
-
 title: Improper Error Handling
 layout: col-sidebar
 author:
 contributors: Jeremy Ferragamo, Wichers, Jim Bird, kingthorin
 tags:
 permalink: /Improper_Error_Handling
-
 ---
 
 {% include writers.html %}

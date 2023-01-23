@@ -18,6 +18,7 @@ history of both organizations/projects.
   - [GSoC 2023 Ideas](gsoc2023ideas)
 
 ## History
+
 - [GSoC 2022](gsoc2022)
   - [GSoC 2022 Ideas](gsoc2022ideas)
 - [GSoC 2021](gsoc2021)
@@ -41,4 +42,3 @@ history of both organizations/projects.
     - [GSoC 2013 - Zap SAML Support Progress Updates](gsoc2013zapsaml)
 - GSoC 2012
   - [GSoC 2012 Ideas](gsoc2012ideas)
-

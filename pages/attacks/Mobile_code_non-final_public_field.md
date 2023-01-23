@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Mobile code non-final public field
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Mobile_code_non-final_public_field
 tags: attack, Mobile code non-final public field
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -41,8 +39,8 @@ non-final objects and executes under victim’s credentials.
 In the following example, the class “any_class” is declared as final
 and “server_addr” variable is not:
 
-`public final class any_class extends class_Applet {`
-`public URL server_addr;`
+`public final class any_class extends class_Applet {`
+`public URL server_addr;`
 `…`
 `}`
 
@@ -50,8 +48,8 @@ In this case, the value of “server_addr” variable could be set by any
 other function that has access to it, thus changing the application
 behavior. A proper way to declare this variable is:
 
-`public class any_class extends class_Applet {`
-`public final URL server_addr;`
+`public class any_class extends class_Applet {`
+`public final URL server_addr;`
 `…`
 `}`
 
@@ -63,27 +61,27 @@ TBD
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Mobile code: invoking untrusted mobile
-    code](Mobile_code:_invoking_untrusted_mobile_code "wikilink")
-  - [Mobile code: object hijack](Mobile_code:_object_hijack "wikilink")
+- [Mobile code: invoking untrusted mobile
+  code](Mobile_code:_invoking_untrusted_mobile_code "wikilink")
+- [Mobile code: object hijack](Mobile_code:_object_hijack "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category: Unsafe Mobile
-    Code](:Category:_Unsafe_Mobile_Code "wikilink")
+- [:Category: Unsafe Mobile
+  Code](:Category:_Unsafe_Mobile_Code "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category: Access Control](:Category:_Access_Control "wikilink")
+- [:Category: Access Control](:Category:_Access_Control "wikilink")
 
 ## References
 
-  - <http://cwe.mitre.org/data/definitions/493.html> – Mobile Code:
-    non-final public field
-  - <http://www.fortifysoftware.com/vulncat/> - Unsafe Mobile Code:
-    Access Violation
-  - <http://www.fortifysoftware.com/vulncat/> - Unsafe Mobile Code:
-    Public finalize() Method
+- <http://cwe.mitre.org/data/definitions/493.html> – Mobile Code:
+  non-final public field
+- <http://www.fortifysoftware.com/vulncat/> - Unsafe Mobile Code:
+  Access Violation
+- <http://www.fortifysoftware.com/vulncat/> - Unsafe Mobile Code:
+  Public finalize() Method
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [the last two links are the same](Category:FIXME "wikilink")

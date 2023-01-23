@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: PHP File Inclusion
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/PHP_File_Inclusion
 tags: vulnerability, PHP File Inclusion
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -32,22 +30,22 @@ TBD
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - Remote file inclusion using variables from the request POST or GET
+- Remote file inclusion using variables from the request POST or GET
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
+- [Vulnerability 1](Vulnerability_1 "wikilink")
+- [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Control 1](Control_1 "wikilink")
-  - [Control 2](Control_2 "wikilink")
+- [Control 1](Control_1 "wikilink")
+- [Control 2](Control_2 "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
@@ -55,9 +53,9 @@ Note: A reference to related [CWE](http://cwe.mitre.org/) or
 [CAPEC](http://capec.mitre.org/) article should be added when exists.
 Eg:
 
-  - [CWE 98](http://cwe.mitre.org/data/definitions/98.html).
-  - <http://www.link1.com>
-  - [Title for the link2](http://www.link2.com)
+- [CWE 98](http://cwe.mitre.org/data/definitions/98.html).
+- <http://www.link1.com>
+- [Title for the link2](http://www.link2.com)
 
 \[\[Category:FIXME|add links
 
@@ -88,7 +86,7 @@ Logging and Auditing Vulnerability
 
 Session Management Vulnerability\]\]
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:PHP](Category:PHP "wikilink")

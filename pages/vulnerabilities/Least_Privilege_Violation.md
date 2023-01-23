@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Least Privilege Violation
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Least_Privilege_Violation
 tags: vulnerability, Least Privilege Violation
-
 ---
 
 {% include writers.html %}
@@ -60,7 +58,6 @@ The following deployment descriptor grants ANYONE permission to invoke the Emplo
 ```
 
 ## Related [Attacks](../attacks/)
-
 
 ## Related [Vulnerabilities](../vulnerabilities/)
 

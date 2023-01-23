@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Heartbleed Bug
 author:
 contributors:
 permalink: /vulnerabilities/Heartbleed_Bug
 tags: vulnerability, Heartbleed Bug
-
 ---
 
 {% include writers.html %}
@@ -25,7 +23,7 @@ Heartbleed is a catastrophic bug in OpenSSL, announced in April 2014.
 
 Like most major vulnerabilities, this major vulnerability is well branded. It gets it's name from the heart beat function between client and server. According to [Dan Kaminsky](https://itunes.apple.com/us/podcast/apm-marketplace-tech-report/id73330855),
 
->When you are communicating with another computer, sometimes you have a pulse message that says 'yes I'm still here'. This is a heart beat. In this particular case there is the possibility to leak information from the heartbeat, so you don't just know that someone is on the other side, you know something about them. In this case, you know too much. There's a bleeding of information from the heartbeat.
+> When you are communicating with another computer, sometimes you have a pulse message that says 'yes I'm still here'. This is a heart beat. In this particular case there is the possibility to leak information from the heartbeat, so you don't just know that someone is on the other side, you know something about them. In this case, you know too much. There's a bleeding of information from the heartbeat.
 
 # Timing
 
@@ -45,7 +43,7 @@ According to [Bruce Schneier](https://www.schneier.com/blog/archives/2014/04/hea
 
 According to [Codenomicon](http://heartbleed.com/):
 
->There is no total of 64 kilobytes limitation to the attack, that limit applies only to a single heartbeat. Attacker can either keep reconnecting or during an active TLS connection keep requesting arbitrary number of 64 kilobyte chunks of memory content until enough secrets are revealed.
+> There is no total of 64 kilobytes limitation to the attack, that limit applies only to a single heartbeat. Attacker can either keep reconnecting or during an active TLS connection keep requesting arbitrary number of 64 kilobyte chunks of memory content until enough secrets are revealed.
 
 ## Session Hijacking with Heartbleed
 
@@ -94,12 +92,15 @@ Some well funded attackers gather large amounts of encrypted data and store this
 Verify if you are using a vulnerable version of OpenSSL. Upgrade OpenSSL as soon as possible. OpenSSL 1.0.1g was released on April 7, 2014 (https://www.openssl.org/source/).
 
 ### Reissue your security certificates for SSL/TLS
+
 The vulnerability has been present for two years and there is no way to verify if your private key has been compromised as a result of this vulnerability. In addition, a compromised key would be used to silently monitor communications from your users and the attack would be undetectable. It is prudent to assume a breach and proactively reissue security certificates.
 
 ### Implement Perfect Forward Secrecy
+
 This additional layer of security protects encrypted data from several potential attacks by using a per session random keys.
 
 ### Change passwords
+
 If the compromised OpenSSL library had been used to protect login and password information (e.g. like in many cases using SSL for account login pages), this information should be considered compromised. That means that after the library has been upgraded all compromised passwords should be changed. The best way to do this is to inform the users that their password might have been compromised due to this vulnerability and that they should change their password, combined with system of one-time forced change of password after login.
 
 ## What should users do?

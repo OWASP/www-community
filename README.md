@@ -22,20 +22,17 @@ Place the following front matter and `include` tag at the beginning of your file
 
 ```md
 ---
-
 layout: col-sidebar
 title: "My Page"
 author: "My Name"
 contributors: ["Additional Contributor Names", "If Any"]
 permalink: /MyPageTitle
 tags: ["attack", "XSS"]
-
 ---
 
 {% include writers.html %}
 
 Write your content here!
-
 ```
 
 The fields `contributors`, `permalink`, and `tags` are optional. When in doubt, it's okay to leave them blank.

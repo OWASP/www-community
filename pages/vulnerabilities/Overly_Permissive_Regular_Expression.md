@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Overly Permissive Regular Expression
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Overly_Permissive_Regular_Expression
 tags: vulnerability, Overly Permissive Regular Expression
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -35,7 +33,7 @@ more of a chance of finding an injection flaw in a system.
 For example, consider this expression to match a floating point number
 in text:
 
-`   [-+]?([0-9])*\.?([0-9]*)`
+` [-+]?([0-9])*\.?([0-9]*)`
 
 While it does allow for floating point numbers, the greedy \* token will
 allow for the pattern to start anywhere in the string, leaving an
@@ -43,19 +41,19 @@ opening for injection.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Cross-site Scripting
-    (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
-  - [Regular expression Denial of Service -
-    ReDoS](Regular_expression_Denial_of_Service_-_ReDoS "wikilink")
-  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [Cross-site Scripting
+  (XSS)](<Cross-site_Scripting_(XSS)> "wikilink")
+- [Regular expression Denial of Service -
+  ReDoS](Regular_expression_Denial_of_Service_-_ReDoS "wikilink")
+- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Input Validation](Input_Validation "wikilink")
+- [Input Validation](Input_Validation "wikilink")
 
 ## References
 
-  - [CWE 625](http://cwe.mitre.org/data/definitions/625.html)
+- [CWE 625](http://cwe.mitre.org/data/definitions/625.html)
 
 [Category:Vulnerability](Category:Vulnerability "wikilink")
 [Category:Input Validation

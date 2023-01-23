@@ -34,6 +34,7 @@ permalink: /initiatives/gsoc/gsoc2022ideas
 -->
 
 Tips to get you started in no particular order:
+
 - Read the
   [Student Guidelines](gsoc2022).
 - Check our
@@ -51,6 +52,7 @@ vulnerabilities from the entire OWASP Top Ten along with many other
 security flaws found in real-world applications!
 
 To receive early feedback please:
+
 - put your proposal on Google Docs and submit it to the OWASP
   Organization on Google's GSoC page in "Draft Shared" mode.
 - Please pick "juice shop" as Proposal Tag to make them easier to find
@@ -60,8 +62,8 @@ To receive early feedback please:
 
 ###### Score Board UI/UX
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -79,13 +81,13 @@ user experience.
 
 ###### Replacement for Protractor end-to-end test suite
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 > The Angular team plans to end development of Protractor at the end of 2022 (in conjunction with Angular v15).
-> 
+>
 > _(Source: https://github.com/angular/protractor/issues/5502)_
 
 With the Angular 15 release end of 2022, development support for Protractor will be terminated by the Angular team.
@@ -101,34 +103,34 @@ list? Great, please submit it!
 
 ##### Expected Results
 
-* A new feature or improvement of an existing one that makes OWASP Juice
+- A new feature or improvement of an existing one that makes OWASP Juice
   Shop even better
-* Your code follows our existing styleguides and passes all existing
+- Your code follows our existing styleguides and passes all existing
   quality gates regarding code smells, test coverage etc.
-* Code that you write comes with automated tests that fit into
+- Code that you write comes with automated tests that fit into
   [our available test suites](https://pwning.owasp-juice.shop/part3/contribution.html#testing).
 
 ##### Getting started
 
-* Make sure your JavaScript/TypeScript is sufficient to work on the
+- Make sure your JavaScript/TypeScript is sufficient to work on the
   Juice Shop codebase. Check our
   [Codebase 101](https://pwning.owasp-juice.shop/part3/codebase.html)
   here. Students with some experience with (or willingness to learn)
   Angular and NodeJS/Express are usually prefered.
-* Read our
+- Read our
   [Contribution Guidelines](https://pwning.owasp-juice.shop/part3/contribution.html)
   very carefully. Best make some small contributions before GSoC, so we
   can see how you work and help you dive into the code even better.
-* Get in touch with
+- Get in touch with
   [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) to discuss any
   of the listed or your own idea for GSoC!
 
 ##### Mentors
 
-* [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
+- [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
-* Jannik Hollenbach - OWASP Juice Shop Core Team
-* [Timo Pagel](mailto:timo.pagel@owasp.org) - OWASP Juice Shop Core Team
+- Jannik Hollenbach - OWASP Juice Shop Core Team
+- [Timo Pagel](mailto:timo.pagel@owasp.org) - OWASP Juice Shop Core Team
 
 ### [OWASP ZAP](https://zaproxy.org/)
 
@@ -138,7 +140,7 @@ To get started with ZAP contributions see the [ZAP Contributing Guide](https://w
 
 ##### Import PCAP/PCAPNG Files
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
@@ -146,8 +148,8 @@ Import PCAP/PCAPNG Files into ZAP as per [#4812](https://github.com/zaproxy/zapr
 
 ##### Modern Web App Framework Handling: Angular / VueJS / React
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
@@ -156,8 +158,8 @@ Enhance ZAP to handle one modern framework better - either Angular, VueJS or Rea
 
 ##### Browser Recorder
 
-![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Not recommended for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -165,8 +167,8 @@ Create a new ZAP add-on which will allow the user to record and replay browser i
 
 ##### Param Miner
 
-![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Not recommended for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -174,8 +176,8 @@ Implement the equivalent on the Burp Pram Miner add-on which identifies hidden, 
 
 ##### Your Own Idea
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
@@ -187,9 +189,9 @@ We are always delighted to hear from contributors who have their own ideas for p
 
 All ZAP projects will be mentored by the ZAP Project Leaders:
 
-* [Simon Bennetts](mailto:psiinon@gmail.com)
-* Rick Mitchell
-* thc202
+- [Simon Bennetts](mailto:psiinon@gmail.com)
+- Rick Mitchell
+- thc202
 
 ### [OWASP Maryam](https://github.com/saeeddhqan/Maryam)
 
@@ -199,8 +201,8 @@ OWASP Maryam is a modular open-source framework based on OSINT and data gatherin
 
 ###### Iris
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 Iris currently has been added to Maryam as some basic Natural Language Processing Operations. We want to improve it.
 It has a simple document clustering module, a simple meta search engine, and sentiment analysis. What we want to do add
@@ -209,92 +211,103 @@ topics from documents, and a model that recognizes the most relevant documents b
 
 ##### Getting Started
 
-* Besides Python, make sure to be familiar with word vectors, neural networks, document retrieval, and NLP models.
-* Please read our [wiki page](https://github.com/saeeddhqan/Maryam/wiki), especially the Development Guide. previous PRs would be very helpful.
+- Besides Python, make sure to be familiar with word vectors, neural networks, document retrieval, and NLP models.
+- Please read our [wiki page](https://github.com/saeeddhqan/Maryam/wiki), especially the Development Guide. previous PRs would be very helpful.
 
 ##### Mentors
 
-* [Saeed Dehqan](mailto:saeed.dehghan@owasp.org) - OWASP Maryam Project Leader
+- [Saeed Dehqan](mailto:saeed.dehghan@owasp.org) - OWASP Maryam Project Leader
 
 ### [OWASP DSOMM](https://github.com/wurstbrot/DevSecOps-MaturityModel)
 
 ##### New Application
-The OWASP DevSecOps Maturity Model is used to assess and present the devsecops maturity of an organization. It consits of an application and devsecops maturity model information. The application is used to present and assess the model itself. As it is aged, a new modern application with a frontend in angular is to be developed. 
-Please also add your own ideas for enhancements in the propsal.
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-* The application should work in the browser only and is created with angular.
-* The application should be able to assess multiple teams and present some statistics so that it is easy to get an overview of the maturity of all teams within an organization.
-* The application has the current abilities and more 
+The OWASP DevSecOps Maturity Model is used to assess and present the devsecops maturity of an organization. It consits of an application and devsecops maturity model information. The application is used to present and assess the model itself. As it is aged, a new modern application with a frontend in angular is to be developed.
+Please also add your own ideas for enhancements in the propsal.
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
+
+- The application should work in the browser only and is created with angular.
+- The application should be able to assess multiple teams and present some statistics so that it is easy to get an overview of the maturity of all teams within an organization.
+- The application has the current abilities and more
 
 ##### Your Own Idea
+
 You have an awesome idea to improve OWASP DSOMM? Great, please submit it!
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 ##### Getting Started
-* [Model](https://dsomm.timo-pagel.de/)
-It is recommended to add links to existing PRs (also in other open source projects) in your propsal.
+
+- [Model](https://dsomm.timo-pagel.de/)
+  It is recommended to add links to existing PRs (also in other open source projects) in your propsal.
 
 ##### Mentors
 
-* [Timo Pagel](mailto:timo.pagel@owasp.org) - OWASP DevSecOps Maturity Model Leader
+- [Timo Pagel](mailto:timo.pagel@owasp.org) - OWASP DevSecOps Maturity Model Leader
 
 ### [OWASP SecureTea](https://securetea.org/)
 
 The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
+
 ##### Expected results
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Improve Web Application Firewall GUI based on AI 
+
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
+
+- Improve Web Application Firewall GUI based on AI
 - Improve features (IDS,Firewall)
 - Complete the web GUI and remote monitoring
 - Zero bugs - Fix the current identifed bugs
 - Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
 
 ##### Getting started
+
 - Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-securetea
 
 ##### Student Requirements
+
 - Python
 - Angular
 
 ##### Mentor
-* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
-* [Ade Yoseman](mailto:edikdoank@gmail.com)
+
+- [Rejah Rehim](mailto:rejah.rehim@owasp.org)
+- [Ade Yoseman](mailto:edikdoank@gmail.com)
 
 ### OWASP PyGoat
 
 Intentionally vuln web Application Security in django.
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 ##### Expected results
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 - Improve Vulnerabilities based on OWASP Top 10 - 2021
 - Fixing all issues and work with Docker
 
-
 ##### Getting started
+
 - Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
 
 ##### Student Requirements
+
 - Python
 - Django
 
 ##### Mentor
-* [Ade Yoseman](mailto:edikdoank@gmail.com)
- 
+
+- [Ade Yoseman](mailto:edikdoank@gmail.com)
+
 ### [OWASP PurpleTeam](https://purpleteam-labs.com/)
 
 PurpleTeam is a Developer focussed security regression testing CLI and SaaS targeting Web applications and APIs.
@@ -305,12 +318,12 @@ The core components are detailed [here](https://purpleteam-labs.com/product/#com
 
 #### Getting Started
 
-* To get started contributing review the [Contributing Guide](https://github.com/purpleteam-labs/purpleteam/blob/main/CONTRIBUTING.md)
-* Review the high level architecture [here](https://purpleteam-labs.com/doc/local/set-up/#purpleteam-local-architecture)
-* Review the [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2)
-* Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-purpleteam
-* View other [community](https://purpleteam-labs.com/community/) options
-* Dive into the [documentation](https://purpleteam-labs.com/doc/)
+- To get started contributing review the [Contributing Guide](https://github.com/purpleteam-labs/purpleteam/blob/main/CONTRIBUTING.md)
+- Review the high level architecture [here](https://purpleteam-labs.com/doc/local/set-up/#purpleteam-local-architecture)
+- Review the [Product Backlog](https://github.com/purpleteam-labs/purpleteam/projects/2)
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-purpleteam
+- View other [community](https://purpleteam-labs.com/community/) options
+- Dive into the [documentation](https://purpleteam-labs.com/doc/)
 
 #### Idea 1: Fork docker-compose-ui
 
@@ -322,26 +335,26 @@ In order to use the latest versions of docker-compose docker-compose-ui needs to
 
 ##### Expected Outcomes
 
-* Consumers of PurpleTeam `local` and Developers will be able to use the latest version of docker-compose to start the stage two containers
-* The [workflow](https://purpleteam-labs.com/doc/local/workflow/) should remain largely the same
-* All related documentation should be up-to-date
-* The forked docker-compose-ui and the rest of the PurpleTeam components will need to be Thoroughly tested
+- Consumers of PurpleTeam `local` and Developers will be able to use the latest version of docker-compose to start the stage two containers
+- The [workflow](https://purpleteam-labs.com/doc/local/workflow/) should remain largely the same
+- All related documentation should be up-to-date
+- The forked docker-compose-ui and the rest of the PurpleTeam components will need to be Thoroughly tested
 
 ##### Skills Required/Preferred
 
-* A reasonable level of JavaScript (NodeJS) experience
-* A reasonable understanding of docker-compopse, Docker and containers
-* A reasonable level of Python experience or understanding
-* You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
+- A reasonable level of JavaScript (NodeJS) experience
+- A reasonable understanding of docker-compopse, Docker and containers
+- A reasonable level of Python experience or understanding
+- You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
 
 ##### Mentors
 
-* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+- [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
 
 ##### Expected Size of Project
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
@@ -356,28 +369,28 @@ Changes will need to be made for both [Browser App and API _Job_ file schemas](h
 
 ##### Expected Outcomes
 
-* One or more of the authentication techniques could be implemented
-* Add additional authentication techniques to the [existing strategies](https://github.com/purpleteam-labs/purpleteam-app-scanner/tree/main/src/sUtAndEmissaryStrategies)
-* Add documentation around the new authentication techniques, we'll help point you in the right direction
-* Thoroughly tested
+- One or more of the authentication techniques could be implemented
+- Add additional authentication techniques to the [existing strategies](https://github.com/purpleteam-labs/purpleteam-app-scanner/tree/main/src/sUtAndEmissaryStrategies)
+- Add documentation around the new authentication techniques, we'll help point you in the right direction
+- Thoroughly tested
 
 ##### Skills Required/Preferred
 
-* Potentially work with a customer to make sure that their authentication need is meet and at the same time not break any other existing authentication techniques
-* A reasonable level of JavaScript (NodeJS) experience
-* A reasonable level of experience working with docker-compose, Docker and debugging containerised micro-services. Don't worry, we have good documentation around [debugging](https://purpleteam-labs.com/doc/local/workflow/)
-* Some experience with Zaproxy scripting would be highly advantageous
-* We will work with you to help you understand what Zaproxy (The _App Tester_ _Emissary_) supports and how to leverage the support within the _App Tester_
-* You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
+- Potentially work with a customer to make sure that their authentication need is meet and at the same time not break any other existing authentication techniques
+- A reasonable level of JavaScript (NodeJS) experience
+- A reasonable level of experience working with docker-compose, Docker and debugging containerised micro-services. Don't worry, we have good documentation around [debugging](https://purpleteam-labs.com/doc/local/workflow/)
+- Some experience with Zaproxy scripting would be highly advantageous
+- We will work with you to help you understand what Zaproxy (The _App Tester_ _Emissary_) supports and how to leverage the support within the _App Tester_
+- You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
 
 ##### Mentors
 
-* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+- [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
 
 ##### Expected Size of Project
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
@@ -392,25 +405,25 @@ As per issue [#92](https://github.com/purpleteam-labs/purpleteam/issues/91)
 
 ##### Expected Outcomes
 
-* Stage one docker images are as small as possible
-* Stage one docker images build and deploy as fast as possible
-* The overall experience of developing and debugging PurpleTeam is significantly improved due to smaller wait times
-* Deployments to both `local` and `cloud` environments are faster
+- Stage one docker images are as small as possible
+- Stage one docker images build and deploy as fast as possible
+- The overall experience of developing and debugging PurpleTeam is significantly improved due to smaller wait times
+- Deployments to both `local` and `cloud` environments are faster
 
 ##### Skills Required/Preferred
 
-* Basic knowledge of building lean and fast Dockerfiles, don't worry, it's actually pretty easy
-* Some knowledge of docker-compose, although not essential
-* Ideally have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine, although we could do the testing for you
+- Basic knowledge of building lean and fast Dockerfiles, don't worry, it's actually pretty easy
+- Some knowledge of docker-compose, although not essential
+- Ideally have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine, although we could do the testing for you
 
 ##### Mentors
 
-* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+- [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
 
 ##### Expected Size of Project
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
@@ -425,22 +438,22 @@ This is so that the PurpleTeam core team can test against a vulnerable set of AP
 
 ##### Expected Outcomes
 
-* As per the [Deployment Steps](https://github.com/purpleteam-labs/purpleteam-iac-sut#deployment-steps-regular-tf-workflow), it will be trivial to spin up and bring down again a purposely vulnerable API System Under Test (SUT) that sits within a container on AWS ECS
+- As per the [Deployment Steps](https://github.com/purpleteam-labs/purpleteam-iac-sut#deployment-steps-regular-tf-workflow), it will be trivial to spin up and bring down again a purposely vulnerable API System Under Test (SUT) that sits within a container on AWS ECS
 
 ##### Skills Required/Preferred
 
-* Ideally some knowledge of Terraform and Terragrunt
-* You will need to have an understanding of how the [purpleteam-iac-sut](https://github.com/purpleteam-labs/purpleteam-iac-sut) works. Don't worry, we can help with this
-* A reasonable level of experience working with microservices in Docker containers, as you will be adding a System Under Test that runs in a Docker container to the [purpleteam-iac-sut](https://github.com/purpleteam-labs/purpleteam-iac-sut) project
+- Ideally some knowledge of Terraform and Terragrunt
+- You will need to have an understanding of how the [purpleteam-iac-sut](https://github.com/purpleteam-labs/purpleteam-iac-sut) works. Don't worry, we can help with this
+- A reasonable level of experience working with microservices in Docker containers, as you will be adding a System Under Test that runs in a Docker container to the [purpleteam-iac-sut](https://github.com/purpleteam-labs/purpleteam-iac-sut) project
 
 ##### Mentors
 
-* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+- [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
 
 ##### Expected Size of Project
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
@@ -448,7 +461,7 @@ This is so that the PurpleTeam core team can test against a vulnerable set of AP
 
 ##### Description
 
-This is another way for PurpleTeam users to manage false positives. 
+This is another way for PurpleTeam users to manage false positives.
 There's an option in the Zap API to `updateAlertsConfidence` for specific alerts.
 We can change the confidence level to 0 - False Positive. This doesn't change the number of alerts raised, but the specific alert won't be included in the reports.
 We've tested (PoC) this HTML and JSON reports.
@@ -456,25 +469,25 @@ Full details on the backlog item [#100](https://github.com/purpleteam-labs/purpl
 
 ##### Expected Outcomes
 
-* [Documentation](https://purpleteam-labs.com/doc/jobfile/api/#updatealertsconfidence) will be updated. This will be mostly on the [_Job_](https://purpleteam-labs.com/doc/jobfile/) file, but may touch some other areas as well
-* [_Build Users_](https://purpleteam-labs.com/doc/definitions/) will be able to remove alerts that they consider to be false positives by modifying the _Job_ file
-* Thoroughly tested
+- [Documentation](https://purpleteam-labs.com/doc/jobfile/api/#updatealertsconfidence) will be updated. This will be mostly on the [_Job_](https://purpleteam-labs.com/doc/jobfile/) file, but may touch some other areas as well
+- [_Build Users_](https://purpleteam-labs.com/doc/definitions/) will be able to remove alerts that they consider to be false positives by modifying the _Job_ file
+- Thoroughly tested
 
 ##### Skills Required/Preferred
 
-* You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
-* A reasonable level of JavaScript (NodeJS) experience
-* A reasonable level of experience working with microservices in Docker containers and debugging containerised micro-services. Don't worry, we have good documentation around [debugging](https://purpleteam-labs.com/doc/local/workflow/)
-* Some experience with Zaproxy on the desktop along with it's API would be highly advantageous
+- You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
+- A reasonable level of JavaScript (NodeJS) experience
+- A reasonable level of experience working with microservices in Docker containers and debugging containerised micro-services. Don't worry, we have good documentation around [debugging](https://purpleteam-labs.com/doc/local/workflow/)
+- Some experience with Zaproxy on the desktop along with it's API would be highly advantageous
 
 ##### Mentors
 
-* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+- [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
 
 ##### Expected Size of Project
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
@@ -489,27 +502,27 @@ The diagram [here](https://purpleteam-labs.com/product/#composition) shows where
 
 ##### Expected Outcomes
 
-* The Server Scanner will be implemented and users will be able to start getting results of the defects in the various server platforms they use
-* Unit tests will be written where required, we will work though this with you
-* The [CLI](https://github.com/purpleteam-labs/purpleteam) will now have a screen and log file showing the scanning of users servers in real-time as per the other _Testers_
-* The [_orchestrator_](https://github.com/purpleteam-labs/purpleteam-orchestrator) will need to be modified to support the new _Tester_
-* All related documentation should be up-to-date, this includes the project README and the [documentation](https://purpleteam-labs.com/doc/). The best way to find the places where additions and modifications need to be made is to search for the other testers (app-scanner, tls-scanner). We will work through this with you anyway
+- The Server Scanner will be implemented and users will be able to start getting results of the defects in the various server platforms they use
+- Unit tests will be written where required, we will work though this with you
+- The [CLI](https://github.com/purpleteam-labs/purpleteam) will now have a screen and log file showing the scanning of users servers in real-time as per the other _Testers_
+- The [_orchestrator_](https://github.com/purpleteam-labs/purpleteam-orchestrator) will need to be modified to support the new _Tester_
+- All related documentation should be up-to-date, this includes the project README and the [documentation](https://purpleteam-labs.com/doc/). The best way to find the places where additions and modifications need to be made is to search for the other testers (app-scanner, tls-scanner). We will work through this with you anyway
 
 ##### Skills Required/Preferred
 
-* A reasonable level of JavaScript (NodeJS) experience
-* A reasonable level of experience with docker-compose, Docker and containerising micro-services
-* You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
-* Thoroughly tested
+- A reasonable level of JavaScript (NodeJS) experience
+- A reasonable level of experience with docker-compose, Docker and containerising micro-services
+- You will need to have PurpleTeam `local` [set-up](https://purpleteam-labs.com/doc/local/set-up/) and [running](https://purpleteam-labs.com/doc/local/workflow/) on your Linux development machine
+- Thoroughly tested
 
 ##### Mentors
 
-* [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
+- [Kim Carter](mailto:gsoc2022@purpleteam-labs.com)
 
 ##### Expected Size of Project
 
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -529,8 +542,8 @@ the one chosen for GSoC is self contained and directly visible to users of the p
 
 ###### Enable Threat Dragon as a part of CI/CD Pipelines
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -540,28 +553,29 @@ to acceptance by the Threat Dragon community.
 
 ##### Expected Results
 
-* Decide on what functionality is suitable for a CI/CD pipeline
-* Architect and Document the API
-* Incrementally implement the feature as a GitHub action
-* Respond to feedback from the Threat Dragon community
-* If a Jenkins Plugin can be provided then that is an added brownie
+- Decide on what functionality is suitable for a CI/CD pipeline
+- Architect and Document the API
+- Incrementally implement the feature as a GitHub action
+- Respond to feedback from the Threat Dragon community
+- If a Jenkins Plugin can be provided then that is an added brownie
 
 ##### Getting started
 
-* The project is written in Javascript, so some experience in this language is beneficial
-* There is a [feature request](https://github.com/OWASP/threat-dragon/issues/88) for this work, and this will give some idea of the scope
-* There are some [developer notes](https://github.com/OWASP/threat-dragon/blob/main/README.md) that give a flavour of our development process
+- The project is written in Javascript, so some experience in this language is beneficial
+- There is a [feature request](https://github.com/OWASP/threat-dragon/issues/88) for this work, and this will give some idea of the scope
+- There are some [developer notes](https://github.com/OWASP/threat-dragon/blob/main/README.md) that give a flavour of our development process
 
 ##### Mentors
 
-* [Arnold Kokoroko](mailto:awkokoroko@gmail.com) - OWASP Threat Dragon main contributor
-* [Leo Reading](mailto:leo.reading@owasp.org) - OWASP Threat Dragon Project Leader
+- [Arnold Kokoroko](mailto:awkokoroko@gmail.com) - OWASP Threat Dragon main contributor
+- [Leo Reading](mailto:leo.reading@owasp.org) - OWASP Threat Dragon Project Leader
 
 ### [OWASP Coraza Web Application Firewall](https://github.com/corazawaf/coraza)
 
 OWASP Coraza is a golang enterprise-grade Web Application Firewall framework that supports Modsecurity's seclang language and is 100% compatible with OWASP Core Ruleset. OWASP Coraza is super extensible; each feature from seclang can be easily extended and integrated with other technologies.
 
 ##### Getting Started
+
 - To get started contributing review the [Contributing Guide](https://github.com/corazawaf/coraza/blob/v2/master/CONTRIBUTING.md)
 - Review the [high level architecture](https://coraza.io/docs/reference/internals/)
 - Review the [Product Backlog](https://github.com/orgs/corazawaf/projects/1)
@@ -571,8 +585,8 @@ OWASP Coraza is a golang enterprise-grade Web Application Firewall framework tha
 
 ###### Implement new directive for rate limiting
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 Rate limiting is a feature that needs to be concocted using a combination of SecRules that adds complexity and it is mandatory for the today Web. While you have the scaffolding to create it, is should be easy to create and maintain.
 
@@ -594,6 +608,7 @@ The advanced setting should be able to synchronize this limit using a persistent
 There are many examples on how to do this using, for example, in memory or Redis. We should discuss if this requires additional go modules, which one is the best for this case.
 
 **Expected Results**
+
 - a new plugin that implements the feature
 - documentation for configuration
 - automated testing using CI/CD
@@ -604,7 +619,8 @@ There are many examples on how to do this using, for example, in memory or Redis
 - Key-value engines, like redis
 
 **Mentors**
-* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+- [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
@@ -612,14 +628,15 @@ There are many examples on how to do this using, for example, in memory or Redis
 
 Most OWASP Core Ruleset users are currently running their ruleset using apache 2 and mod_security2. In order to bring OWASP Coraza features to these users, we should provide a production-ready Apache module.
 
-![Not recommended for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
-![Preferred for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Not recommended for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red>)
+![Preferred for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-preferred-green>)
 
 **Expected Outcomes**
 
 This project has two parts, making [libcoraza](https://github.com/corazawaf/libcoraza) stable enough to support the Apache implementation, and implementing an Apache module PoC that can evaluate seclang rules using Coraza and process the 5 Coraza phases efficiently.
 
 **Some considerations:**
+
 - libcoraza is a draft project, but the C bindings are already working
 - The module name is mod_coraza
 - The module must be able to evaluate the 5 phases of seclang
@@ -628,19 +645,21 @@ This project has two parts, making [libcoraza](https://github.com/corazawaf/libc
 The following project can be used as a baseline, but there is no stable release yet: https://github.com/SpiderLabs/ModSecurity-apache
 
 **Student Requirements**
+
 - C
 - Apache internals
 
 **Mentors**
-* [Juan Pablo Tosso](mailto:jptosso@gmail.com)
-* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+- [Juan Pablo Tosso](mailto:jptosso@gmail.com)
+- [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 ###### coraza-server
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 coraza-server was originally created as an experiment, but it has been the most successful sub-project. It allows to run OWASP Coraza as an HPOA server for HAProxy, but it was originally designed to support multiple protocols, like GRPC and Rest. Currently, it only supports SPOA.
 
@@ -650,17 +669,20 @@ coraza-server was originally created as an experiment, but it has been the most 
 - Implement the concurrent-safe modules for grpc and rest
 
 **Student Requirements**
+
 - Golang
 - GRPC (Protobuf)
 
 **Mentors**
-* [Juan Pablo Tosso](mailto:jptosso@gmail.com)
+
+- [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 ###### GraphQL body processor
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Not recommended for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
+
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Not recommended for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red>)
 
 OWASP Coraza supports multiple body processors, they are used to read the request body and transform the content into a processable format, for example, it can transform multipart data into a list of temporary files and arguments, or it can transform a JSON payload into arguments.
 
@@ -669,19 +691,22 @@ OWASP Coraza supports multiple body processors, they are used to read the reques
 The GraphQL Body Processor must provide a safe way to read the GraphQL from JSON and create a simple introspection that could feed the ARGS_POST variable.
 
 - We must consider if there is a safe library to parse graphql, or we must design a parser
-- The ARGS structure should be similar to JSON (```json.somearg.0.id```)
+- The ARGS structure should be similar to JSON (`json.somearg.0.id`)
 - The body processor must be enforced, like:
+
 ```
-SecRule REQUEST_METHOD "POST" "id:100, chain, nolog, msg:'Enforcing graphql', phase:1" 
+SecRule REQUEST_METHOD "POST" "id:100, chain, nolog, msg:'Enforcing graphql', phase:1"
 SecRule REQUEST_URI "^/api/graphql$" "ctl:requestBodyProcessor=GRAPHQL"
 ```
 
 **Student Requirements**
+
 - Golang
 - GraphQL
 
 **Mentors**
-* [Juan Pablo Tosso](mailto:jptosso@gmail.com)
+
+- [Juan Pablo Tosso](mailto:jptosso@gmail.com)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
@@ -691,19 +716,19 @@ The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection r
 
 #### Getting Started
 
-* Familiarize yourself with the project and its [basics](https://coreruleset.org/docs). Make sure you understand core concepts such as anomaly scoring, paranoia levels and false positives.
-* Check out the [CRS Sandbox](https://coreruleset.org/docs/development/sandbox/)
-* Check out the separate CRS GSoC [wiki page](https://github.com/coreruleset/coreruleset/wiki/Google-Summer-of-Code-2022)
-* Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #coreruleset
+- Familiarize yourself with the project and its [basics](https://coreruleset.org/docs). Make sure you understand core concepts such as anomaly scoring, paranoia levels and false positives.
+- Check out the [CRS Sandbox](https://coreruleset.org/docs/development/sandbox/)
+- Check out the separate CRS GSoC [wiki page](https://github.com/coreruleset/coreruleset/wiki/Google-Summer-of-Code-2022)
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #coreruleset
 
 #### CRS 💡 #1
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ##### Machine Learning plugin integration
 
-#####  Summary
+##### Summary
 
 Enhance / finish / develop / integrate the machine learning plugin, including the documentation and showcase project for people to reproduce
 
@@ -728,15 +753,15 @@ There have been a few diploma or master thesis working with ModSecurity / CRS an
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
 
-* [Christian Folini](mailto:christian.folini@owasp.org)
-* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+- [Christian Folini](mailto:christian.folini@owasp.org)
+- [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
-#### CRS 💡 #2 
+#### CRS 💡 #2
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 #### CRS Transformations review
 
@@ -751,8 +776,8 @@ This is one for the nerds, or for somebody who is not afraid to dig into the hai
 ##### Expected Outcomes
 
 - A written guideline on how to transform which parameters
-    - include the corresponding attacks if needed
-    - and the precise order for all combinations based on the attack
+  - include the corresponding attacks if needed
+  - and the precise order for all combinations based on the attack
 - After discussion and approval, implement the necessary changes in the CRS
 
 ##### Skills required/preferred
@@ -764,15 +789,15 @@ This is one for the nerds, or for somebody who is not afraid to dig into the hai
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
 
-* [Christian Folini](mailto:christian.folini@owasp.org)
-* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+- [Christian Folini](mailto:christian.folini@owasp.org)
+- [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
 #### CRS 💡 #3
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ##### SecLanguage platforms performance analysis
 
@@ -789,7 +814,7 @@ Without exaggerating too much, you need to keep in mind that CRS is running on m
 ##### Expected Outcomes
 
 - Define a framework for testing performance for SecLanguage platforms
-- Implement the framework so it can be used for testing 
+- Implement the framework so it can be used for testing
 - Write documentation on usage and techniques used to measure performance for the various constructs
 
 ##### Skills required/preferred
@@ -802,15 +827,15 @@ Without exaggerating too much, you need to keep in mind that CRS is running on m
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
 
-* [Christian Folini](mailto:christian.folini@owasp.org)
-* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+- [Christian Folini](mailto:christian.folini@owasp.org)
+- [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 #### CRS 💡 #4
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 #### WAF Performance Testing Framework
 
@@ -840,15 +865,15 @@ So the idea is to design a facility (typically a docker container) that is being
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
 
-* [Christian Folini](mailto:christian.folini@owasp.org)
-* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+- [Christian Folini](mailto:christian.folini@owasp.org)
+- [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 #### CRS 💡 #5
 
-![Preferred for "Small" GSoC 2022 project](https://img.shields.io/badge/small%20size%20(~100h)-preferred-green)
-![Possible for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Small" GSoC 2022 project](<https://img.shields.io/badge/small%20size%20(~100h)-preferred-green>)
+![Possible for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow>)
 
 ##### New plugin for &lt;enter-your-cool-idea&gt;
 
@@ -876,15 +901,15 @@ Think about writing another cool plugin to complement the repository.
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
 
-* [Christian Folini](mailto:christian.folini@owasp.org)
-* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+- [Christian Folini](mailto:christian.folini@owasp.org)
+- [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
 
 #### CRS 💡 #6
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ##### Automated WAF CVE testing and reporting
 
@@ -917,13 +942,14 @@ If you manage to pull this off, this would be real milestone for the WAF / secur
 
 The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
 
-* [Christian Folini](mailto:christian.folini@owasp.org)
-* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+- [Christian Folini](mailto:christian.folini@owasp.org)
+- [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 ### [OWASP OWTF](https://github.com/owtf/owtf)
-Offensive Web Testing Framework (OWTF) is a project focused on penetration testing efficiency and alignment of security tests to security standards like the OWASP Testing Guide (v3 and v4), the OWASP Top 10, PTES and NIST. Most of the ideas below focus on rewrite of some major 
+
+Offensive Web Testing Framework (OWTF) is a project focused on penetration testing efficiency and alignment of security tests to security standards like the OWASP Testing Guide (v3 and v4), the OWASP Top 10, PTES and NIST. Most of the ideas below focus on rewrite of some major
 components of OWTF to make it more modular. OWTF is moving to a fresh codebase with a fully Docker testing and deployment environment.
 
 #### OWASP OWTF - Passive Online scanner improvements
@@ -933,39 +959,43 @@ components of OWTF to make it more modular. OWTF is moving to a fresh codebase w
 OWTF allows many passive tests, such as those using third party websites like Google, Bing, etc. searches, as well as handy "Search for vulnerability" search boxes (i.e. Fingerprinting plugin). This feature involves the creation of a "script" that produces an interactive OWTF report with the intention of hosting it in the github.io site. The idea here is to have a passive, JavaScript-only interactive report available on the owtf.github.io site, so that people can try OWTF "without installing anything", simply visiting a URL.
 
 This would be a normal OWTF interactive report where the user can:
-* Enter a target
-* Try passive plugins (only the parts that use no tools)
-* Play with boilerplate templates from the OWTF interactive report
-An old version of the passive online scanner is hosted [here](https://owtf.github.io/online-passive-scanner).
 
-##### LEGAL CLARIFICATION (Just in case!): 
-The passive online scanner, simply makes OWTF passive testing through third party websites more accessible to anybody, however it is the user that must 
-1. click the link manually + 
-2. do something bad with that afterwards + 
-3. doing 1 + 2 WITHOUT permission :). 
-Therefore this passive online scanner does not do anything illegal 
-[More information about why this is not illegal here](http://www.slideshare.net/abrahamaranguren/legal-and-efficient-web-app-testing-without-permission) 
-(recommended reading!)
+- Enter a target
+- Try passive plugins (only the parts that use no tools)
+- Play with boilerplate templates from the OWTF interactive report
+  An old version of the passive online scanner is hosted [here](https://owtf.github.io/online-passive-scanner).
+
+##### LEGAL CLARIFICATION (Just in case!):
+
+The passive online scanner, simply makes OWTF passive testing through third party websites more accessible to anybody, however it is the user that must
+
+1. click the link manually +
+2. do something bad with that afterwards +
+3. doing 1 + 2 WITHOUT permission :).
+   Therefore this passive online scanner does not do anything illegal
+   [More information about why this is not illegal here](http://www.slideshare.net/abrahamaranguren/legal-and-efficient-web-app-testing-without-permission)
+   (recommended reading!)
 
 For background on OWASP OWTF please see: [OWASP OWTF](https://owasp.org/www-project-owtf/)
 
 ##### Expected results:
-* IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/)/ES6 JavaScript code in all modified code and surrounding areas.
-* High performance
-* Reliability
-* Ease of use
-* Test cases
-* Good documentation
+
+- IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/)/ES6 JavaScript code in all modified code and surrounding areas.
+- High performance
+- Reliability
+- Ease of use
+- Test cases
+- Good documentation
 
 ##### Knowledge Prerequisite:
 
 A good knowledge of JavaScript and writing ES6 compliant React/TypeScript is needed. Previous exposure to security concepts and penetration testing is not required but recommended and some lack of this can be compensated with pre-GSoC involvement and will to learn.
 
 ##### OWASP OWTF Mentors:
-* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
-* Viyat Bhalodia
-* [Mohit Sharma](mailto:ms892075@gmail.com)
 
+- [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+- Viyat Bhalodia
+- [Mohit Sharma](mailto:ms892075@gmail.com)
 
 #### OWASP OWTF - Web interface enhancements
 
@@ -976,12 +1006,14 @@ The current owtf web interface is implemented in ReactJs with Redux as the state
 For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
 
 ##### Expected results:
+
 - IMPORTANT:Clean, maintainable (ES6 compatible and using recommended design patterns) React (TypeScript) code.
 - IMPORTANT: Thoroughly documented code along with API examples and example future components.
 - CRITICAL: Excellent reliability and performance.
 - Unit tests / Functional tests.
 
 ##### Getting Started:
+
 - Have a look at the GitHub project and wiki page, get familiar with the codebase.
 - Join OWASP Slack and contact us on channel #project-owtf.
 - Submit PRs for the issues listed on our github page.
@@ -990,27 +1022,29 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-proj
 
 - Python proficiency, React-Redux (high proficiency), TypeScript proficiency and general JavaScript proficiency.
 
-##### OWASP OWTF Mentors: 
-* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
-* Viyat Bhalodia
-* [Mohit Sharma](mailto:ms892075@gmail.com)
+##### OWASP OWTF Mentors:
 
+- [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+- Viyat Bhalodia
+- [Mohit Sharma](mailto:ms892075@gmail.com)
 
 #### OWASP OWTF - Login/Signup Implementation
 
 ##### Brief Explanation:
 
-Some pages of the new OWTF interface has been under progess for a very long time.  Complete implementation of the Login/Signup Page (APIs + frontend) with proper unit/functional tests will be deliverable for this project. Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
+Some pages of the new OWTF interface has been under progess for a very long time. Complete implementation of the Login/Signup Page (APIs + frontend) with proper unit/functional tests will be deliverable for this project. Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
 
 For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
 
 ##### Expected results:
+
 - IMPORTANT:Clean, maintainable (ES6 compatible and using recommended design patterns) React (TypeScript) code.
 - IMPORTANT: Thoroughly documented code along with API examples and example future components.
 - CRITICAL: Excellent reliability and performance.
 - Unit tests / Functional tests.
 
 ##### Getting Started:
+
 - Have a look at the GitHub project and wiki page, get familiar with the codebase.
 - Join OWASP Slack and contact us on channel #project-owtf.
 - Submit PRs for the issues listed on our github page.
@@ -1019,11 +1053,11 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-proj
 
 - Python proficiency, React-Redux (high proficiency), TypeScript proficiency and general JavaScript proficiency.
 
-##### OWASP OWTF Mentors: 
-* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
-* Viyat Bhalodia
-* [Mohit Sharma](mailto:ms892075@gmail.com)
+##### OWASP OWTF Mentors:
 
+- [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+- Viyat Bhalodia
+- [Mohit Sharma](mailto:ms892075@gmail.com)
 
 #### OWASP OWTF - General Improvements
 
@@ -1035,6 +1069,7 @@ The aim of the project is to implement some of the enhancements suggested in the
 For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
 
 ##### Expected results:
+
 - IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
 - IMPORTANT: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
 - IMPORTANT: [Sphinx-friendly python comments](http://sphinx-doc.org/) [example Sphinx-friendly python comments here](http://owtf.github.io/ptp/_modules/ptp/tools/w3af/parser.html#W3AFXMLParser)
@@ -1048,11 +1083,12 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-proj
 - Python proficiency, some previous exposure to security concepts and penetration testing is welcome but not strictly necessary as long as there is will to learn.
 
 ##### OWASP OWTF Mentors:
-* [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
-* Viyat Bhalodia
-* [Mohit Sharma](mailto:ms892075@gmail.com)
 
-----
+- [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+- Viyat Bhalodia
+- [Mohit Sharma](mailto:ms892075@gmail.com)
+
+---
 
 ### [OWASP Python Honeypot](https://github.com/OWASP/Python-Honeypot)
 
@@ -1062,25 +1098,26 @@ OWASP Honeypot is an open-source software in Python language which designed for 
 
 ##### Getting Started
 
-* [Wiki](https://github.com/OWASP/Python-Honeypot/wiki)
+- [Wiki](https://github.com/OWASP/Python-Honeypot/wiki)
 
 #### Expected Results
 
-* Zero Bugs
-* Extend functionalities
-* Enhance Performance
+- Zero Bugs
+- Extend functionalities
+- Enhance Performance
 
 #### Knowledge Prerequisites
 
-* Docker
-* Python
-* CyberSecurity
-* MongoDB
-* Web Design knowledge
+- Docker
+- Python
+- CyberSecurity
+- MongoDB
+- Web Design knowledge
 
 ##### Mentors
-* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
-* [Dhiren Serai](mailto:dhirensr@gmail.com)
+
+- [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+- [Dhiren Serai](mailto:dhirensr@gmail.com)
 
 ### [OWASP Nettacker](https://github.com/OWASP/Nettacker)
 
@@ -1090,41 +1127,43 @@ OWASP Nettacker project is created to automate information gathering, vulnerabil
 
 ##### Getting Started
 
-* [Wiki](https://github.com/OWASP/Nettacker/wiki)
+- [Wiki](https://github.com/OWASP/Nettacker/wiki)
 
 #### Expected Results
 
-* Migrate fully to Python 3
-* Re-architect the framework and all existing funtionalities/modules
-* Zero Bugs
-* Re-Design WebUI
+- Migrate fully to Python 3
+- Re-architect the framework and all existing funtionalities/modules
+- Zero Bugs
+- Re-Design WebUI
 
 #### Knowledge Prerequisites
 
-* Docker
-* Python
-* CyberSecurity
-* SQLite
-* Web Design knowledge
+- Docker
+- Python
+- CyberSecurity
+- SQLite
+- Web Design knowledge
 
 ##### Mentors
-* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
-* [Dhiren Serai](mailto:dhirensr@gmail.com)
+
+- [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+- [Dhiren Serai](mailto:dhirensr@gmail.com)
 
 ### [Security Knowledge Framework (SKF)](https://owasp.org/www-project-security-knowledge-framework/)
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ##### Explanation of Ideas
+
 OWASP SKF is an open source web application that explains secure coding and its goal is to help you learn and integrate security by design in your software development and build applications that are secure by design.
 We have more then 70 SKF Labs for developers to practice the skills in security in terms of identifying and testing vulnerabilities. Apart from that, we also have writeup written for every lab [here](https://github.com/blabla1337/skf-labs/tree/master/md) and this Markdown files have images and text explicitly.
 
 So now the idea is to create a Video Editor, which is a web-based application for OWASP SKF, which will take those Markdown
-files as an input and separate those images and text, and will convert them into a Video or Presentation. 
+files as an input and separate those images and text, and will convert them into a Video or Presentation.
 
 In technical Terms, We can do is to make a video editor in React or some other Framework, that will take a file like writeup.pdf or in other format. Then in the UI side you have options to put text in blocks. A block will contain text, time interval in video and an image which we will show at that time interval.
-That's how we can make multiple blocks and after submitting the data. We will call the backend RestAPIs in django or flask, which will take those blocks data which contain time intervals images and text. And convert that text into speech and ultimately combine all those into a MP3 or any video file which user can get  after the request is complete.
+That's how we can make multiple blocks and after submitting the data. We will call the backend RestAPIs in django or flask, which will take those blocks data which contain time intervals images and text. And convert that text into speech and ultimately combine all those into a MP3 or any video file which user can get after the request is complete.
 
 This will be the initial version of the project. We can advance it more using deep learning and some video editor libraries.
 
@@ -1132,70 +1171,74 @@ This will be the initial version of the project. We can advance it more using de
 
 ##### Getting Started
 
-* [SKF-Labs](https://github.com/blabla1337/skf-labs/)
+- [SKF-Labs](https://github.com/blabla1337/skf-labs/)
 
 #### Expected Results
 
-* A UI, where we can set the parameters like time interval, image and text or any other feature in video, which we want to show in that interval and multiple blocks should be created which is separated with time intervals.
-* Backend Application, which will have the logic to convert all the blocks into a single video file and give the video to UI as a response for the request.
-* Well structured code with proper unit testing.
+- A UI, where we can set the parameters like time interval, image and text or any other feature in video, which we want to show in that interval and multiple blocks should be created which is separated with time intervals.
+- Backend Application, which will have the logic to convert all the blocks into a single video file and give the video to UI as a response for the request.
+- Well structured code with proper unit testing.
 
 #### Knowledge Prerequisites
 
-* Python
-* React or Any Web Based UI Framework
-* Django or Flask for Backend
-* DevOps (AWS or GCP for hosting the APIs using Docker)
-* WaveNets, DeepLearning (Optional)
+- Python
+- React or Any Web Based UI Framework
+- Django or Flask for Backend
+- DevOps (AWS or GCP for hosting the APIs using Docker)
+- WaveNets, DeepLearning (Optional)
 
 ##### Mentors
-* [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com)
-* [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
+
+- [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com)
+- [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
 
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
-![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Medium" GSoC 2022 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2022 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
 
 ##### Explanation of Ideas
-* Crypto - create a proof of stake coin called BUG
-* Flutter - ideas to improve the app? Launch it on the App Store.
-* Django - Website integration of new design
-* Private issue reporting - allow companies to switch on private issue reporting.
-* Payments for issues reported - allow companies or individuals to pay big hunters
-* Browser plug-in to check bug reports - scan each site visited against a database to see if any bugs were found - we have a plug-in for chrome, let’s update it.
-* Allow for the detection of banned apps in different countries. How would the internet look like if I was in country x.
-* Allow for customers to track their online presence and help take down links where they did not approve their personal info on.
+
+- Crypto - create a proof of stake coin called BUG
+- Flutter - ideas to improve the app? Launch it on the App Store.
+- Django - Website integration of new design
+- Private issue reporting - allow companies to switch on private issue reporting.
+- Payments for issues reported - allow companies or individuals to pay big hunters
+- Browser plug-in to check bug reports - scan each site visited against a database to see if any bugs were found - we have a plug-in for chrome, let’s update it.
+- Allow for the detection of banned apps in different countries. How would the internet look like if I was in country x.
+- Allow for customers to track their online presence and help take down links where they did not approve their personal info on.
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 ##### Getting Started
 
-* [BLT Core](https://github.com/owasp/blt/)
-* [Flutter App](https://github.com/Bugheist/Flutter/)
+- [BLT Core](https://github.com/owasp/blt/)
+- [Flutter App](https://github.com/Bugheist/Flutter/)
 
 #### Expected Results
 
-* Proof of stake coin on the testnet and mainnet.
-* Release Flutter app on App Store and Play Store.
-* Implementation of private issues reporting.
-* Update of browser plugins to support showing bugs on relative sites in a secure way
-* Ability to choose a country from a selected list and see what apps are banned there
-* Ability for users to report links online with personal information where they can have it removed
+- Proof of stake coin on the testnet and mainnet.
+- Release Flutter app on App Store and Play Store.
+- Implementation of private issues reporting.
+- Update of browser plugins to support showing bugs on relative sites in a secure way
+- Ability to choose a country from a selected list and see what apps are banned there
+- Ability for users to report links online with personal information where they can have it removed
 
 Reach out to us on Slack to discuss further on the scope, changes required, or if you have any other proposal.
-* Please submit your proposal on the BLT GitHub discussion board.  Because it will be easier for the team to review and give feedback there.
-* Team meetings are every Saturday at 1pm EST.  Check Slack for the google meet link.
+
+- Please submit your proposal on the BLT GitHub discussion board. Because it will be easier for the team to review and give feedback there.
+- Team meetings are every Saturday at 1pm EST. Check Slack for the google meet link.
 
 #### Knowledge Prerequisites
 
-* Python / Django for Backend
-* Flutter for Mobile
-* Blockchain / Bitcoin clone for the coin
+- Python / Django for Backend
+- Flutter for Mobile
+- Blockchain / Bitcoin clone for the coin
 
 ##### Mentors
-* Donnie on slack (lead mentor)
-* [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor  
-* Rahul Badami - Payments Mentor  
-* [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
-* [Sparsh Agrawal](mailto:sparshagrawal1212@gmail.com) - Flutter Mentor
+
+- Donnie on slack (lead mentor)
+- [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor
+- Rahul Badami - Payments Mentor
+- [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor
+- [Sparsh Agrawal](mailto:sparshagrawal1212@gmail.com) - Flutter Mentor

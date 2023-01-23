@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Unsafe use of Reflection
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Unsafe_use_of_Reflection
 tags: vulnerability, Unsafe use of Reflection
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -109,22 +107,22 @@ constructor to leverage as part of an attack.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
+- [Vulnerability 1](Vulnerability_1 "wikilink")
+- [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
@@ -134,7 +132,7 @@ constructor to leverage as part of an attack.
 2.  Wikipedia: Reflection
     <https://en.wikipedia.org/wiki/Reflection_%28computer_programming%29>
 
-__NOTOC__
+**NOTOC**
 
 [Category:Input Validation
 Vulnerability](Category:Input_Validation_Vulnerability "wikilink")

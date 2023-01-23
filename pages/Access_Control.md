@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Access Control
 author:
 contributors:
 tags: Access Control
 permalink: /Access_Control
-
 ---
 
 {% include writers.html %}
@@ -138,10 +136,10 @@ of subjects and objects. Some examples include:
 - Network access - the ability to connect to a system or service;
 - At the host - access to operating system functionality;
 - Physical access - at locations housing information assets or
-    physical access to the assets themselves;
+  physical access to the assets themselves;
 - Restricted functions - operations evaluated as having an elevated
-    risk, such as financial transactions, changes to system
-    configuration, or security administration.
+  risk, such as financial transactions, changes to system
+  configuration, or security administration.
 
 Resource access may refer not only to files and database functionality,
 but to:
@@ -154,7 +152,7 @@ but to:
 - storage media;
 - transmission media;
 - In short, any object used in processing, storage or transmission of
-    information.
+  information.
 
 ## Access Control Models:
 
@@ -217,13 +215,13 @@ to issue an authorization decision.
 - Limits on the number of concurrent sessions;
 - Session lock after a period of inactivity;
 - Session termination after a period of inactivity, total time of use
-    or time of day;
+  or time of day;
 - Limitations on the number of records returned from a query (data
-    mining);
+  mining);
 - Features enforcing policies over segregation of duties;
 - Segregation and management of privileged user accounts;
 - Implementation of the principle of least privilege for granting
-    access;
+  access;
 - Requiring VPN (virtual private network) for access;
 - Dynamic reconfiguration of user interfaces based on authorization;
 - Restriction of access after a certain time of day.

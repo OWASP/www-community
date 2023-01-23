@@ -1,11 +1,9 @@
 ---
-
 title: Secure Cookie Attribute
 layout: col-sidebar
 author: MichaelCoates
 contributors: Andrew Smith, Gladwin, Bill Sempf, Wichers, James Jardine, Zerosum0x0, Paco, Dan Wallis, Nawwar, kingthorin, Grant Ongers
 permalink: /controls/SecureCookieAttribute
-
 ---
 
 {% include writers.html %}
@@ -34,11 +32,10 @@ technologies.
 ### Servlet 3.0 (Java EE 6)
 
 Sun Java EE supports secure attribute in Cookie interface since version 6
-(Servlet class version
-3)[1](http://java.sun.com/javaee/6/docs/api/javax/servlet/http/Cookie.html#setSecure%28boolean%29),
+(Servlet class version 3)[1](http://java.sun.com/javaee/6/docs/api/javax/servlet/http/Cookie.html#setSecure%28boolean%29),
 also for session cookies
 (JSESSIONID)[2](http://java.sun.com/javaee/6/docs/api/javax/servlet/SessionCookieConfig.html#setSecure%28boolean%29).
-Methods *setSecure* and *isSecure* can be used to set and check for
+Methods _setSecure_ and _isSecure_ can be used to set and check for
 secure value in cookies.
 
 #### web.xml
@@ -57,7 +54,7 @@ following configuration in web.xml
 
 ### Tomcat
 
-In **Tomcat 6** if the first request for session is using *https* then
+In **Tomcat 6** if the first request for session is using _https_ then
 it automatically sets secure attribute on session cookie.
 
 ### Setting it as a custom header
@@ -66,8 +63,8 @@ For **older versions** the workaround is to rewrite `JSESSIONID` value
 using and setting it as a custom header. The drawback is that servers
 can be configured to use a different session identifier than `JSESSIONID`.
 
-`String sessionid = request.getSession().getId();`
-`response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; secure");`
+`String sessionid = request.getSession().getId();`
+`response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; secure");`
 
 ### Environment consideration
 
@@ -86,7 +83,7 @@ Set the following in Web.config: `<httpCookies requireSSL="true" />`
 
 For some objects that have a requireSSL property, like the forms
 Authentication Cookie, set the `requireSSL="true"` attribute in the web.config
-for that specific element. For example: 
+for that specific element. For example:
 
 ```xml
 <authentication mode="Forms">
@@ -98,7 +95,7 @@ for that specific element. For example:
 ```
 
 Which will enable the secure attribute on the Forms Authentication cookie, as well as checking that the http request is coming to the server over SSL/TLS connection. Note that in case TLS is offloaded to a load balancer, the requireSSL solution wouldn't work.
- 
+
 Alternatively, the cookies can be set to secure programmatically using the following code by adding a EndRequest event handler to the `Global.asax.cs` file:
 
 ```
@@ -107,17 +104,17 @@ protected void Application_EndRequest(Object sender, EventArgs e) {
     foreach (string cookieName in Response.Cookies.AllKeys) {
         Response.Cookies[cookieName]?.Secure = true;
     }
-} 
+}
 ```
 
 ## PHP
 
 For session cookies managed by PHP, the attribute is set either permanently
 in php.ini [PHP manual on
-*SecureFlag*](http://php.net/manual/en/session.configuration.php#ini.session.cookie-secure)
+_SecureFlag_](http://php.net/manual/en/session.configuration.php#ini.session.cookie-secure)
 through the parameter:
 
-`session.cookie_secure = True`
+`session.cookie_secure = True`
 
 or in and during a script via the function
 [5](http://pl.php.net/manual/en/function.session-set-cookie-params.php):

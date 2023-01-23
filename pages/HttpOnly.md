@@ -4,7 +4,6 @@ layout: col-sidebar
 author:
 contributors: Rknell, Wichers, Jmanico, Pawel Krawczyk , Alan Hogan, Eyal Lupu, D0ubl3 h3lix, Roberto Martelloni, Tarin Gamberini, Ali Khalfan, Markgordon, kingthorin, mkost, Grant Ongers
 permalink: /HttpOnly
-
 ---
 
 {% include writers.html %}
@@ -24,13 +23,13 @@ Explorer developers for Internet Explorer 6 SP1.
 
 According to the [Microsoft Developer
 Network](http://msdn2.microsoft.com/en-us/library/ms533046.aspx),
-HttpOnly is an *additional flag* included in a Set-Cookie HTTP response
+HttpOnly is an _additional flag_ included in a Set-Cookie HTTP response
 header. Using the HttpOnly flag when generating a cookie helps mitigate
 the risk of client side script accessing the protected cookie (if the
 browser supports it).
 
 - The example below shows the syntax used within the **HTTP response
-header**:
+  header**:
 
 ```
 Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
@@ -63,7 +62,7 @@ the client.
 
 If a browser that supports HttpOnly detects a cookie containing the
 HttpOnly flag, and client side script code attempts to read the cookie,
-the browser *returns an empty string* as the result. This causes the
+the browser _returns an empty string_ as the result. This causes the
 attack to fail by preventing the malicious (usually XSS) code from
 sending the data to an attacker's website.
 
@@ -94,7 +93,7 @@ deployment descriptor `WEB-INF/web.xml`:
 </session-config>
 ```
 
-For Java Enterprise Edition versions *prior* to JEE 6 a common
+For Java Enterprise Edition versions _prior_ to JEE 6 a common
 **workaround** is to overwrite the `SET-COOKIE` HTTP response header
 with a session cookie value that explicitly appends the `HttpOnly` flag:
 
@@ -140,8 +139,8 @@ containers that implement Java Servlet 2.5 (part of JEE 5), also allow
 creating HttpOnly session cookies:
 
 - **Tomcat 6** In `context.xml` set the `context` tag's attribute `useHttpOnly`
-[4](http://tomcat.apache.org/tomcat-6.0-doc/config/context.html#Common_Attributes)
-as follow:
+  [4](http://tomcat.apache.org/tomcat-6.0-doc/config/context.html#Common_Attributes)
+  as follow:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -149,9 +148,9 @@ as follow:
 ```
 
 - **JBoss 5.0.1** and **JBOSS EAP 5.0.1** In
-`server <myJBossServerInstance> \deploy\jbossweb.sar\context.xml`
-set the `SessionCookie` tag
-[5](https://community.jboss.org/message/598558#598558) as follow:
+  `server <myJBossServerInstance> \deploy\jbossweb.sar\context.xml`
+  set the `SessionCookie` tag
+  [5](https://community.jboss.org/message/598558#598558) as follow:
 
 ```xml
 <Context cookies="true" crossContext="true">
@@ -162,7 +161,8 @@ set the `SessionCookie` tag
 
 ##### Using .NET to Set HttpOnly
 
-- By *default*, **.NET 2.0** sets the HttpOnly attribute for
+- By _default_, **.NET 2.0** sets the HttpOnly attribute for
+
 1. Session ID
 2. Forms Authentication cookie
 
@@ -170,7 +170,7 @@ In .NET 2.0, HttpOnly can also be set via the HttpCookie object for all custom a
 
 - Via **web.config** in the system.web/httpCookies element
 
-`<httpCookies httpOnlyCookies="true" …> `
+`<httpCookies httpOnlyCookies="true" …> `
 
 - Or **programmatically**
 
@@ -190,10 +190,10 @@ myCookie.HttpOnly = True
 Response.AppendCookie(myCookie)
 ```
 
-- However, in **.NET 1.1**, you would have to do this *manually*,
-e.g.,
+- However, in **.NET 1.1**, you would have to do this _manually_,
+  e.g.,
 
-`Response.Cookies[cookie].Path += ";HttpOnly";`
+`Response.Cookies[cookie].Path += ";HttpOnly";`
 
 ##### Using Python (cherryPy) to Set HttpOnly
 
@@ -212,10 +212,10 @@ PHP supports setting the HttpOnly flag since version 5.2.0 (November
 
 For session cookies managed by PHP, the flag is set either permanently
 in php.ini [PHP manual on
-*HttpOnly*](http://www.php.net/manual/en/session.configuration.php#ini.session.cookie-httponly)
+_HttpOnly_](http://www.php.net/manual/en/session.configuration.php#ini.session.cookie-httponly)
 through the parameter:
 
-`session.cookie_httponly = True`
+`session.cookie_httponly = True`
 
 or in and during a script via the
 function[6](http://pl.php.net/manual/en/function.session-set-cookie-params.php):
@@ -239,11 +239,11 @@ If code changes are infeasible, web application firewalls can be used to
 add HttpOnly to session cookies:
 
 - Mod_security - using SecRule and Header
-directives[8](http://blog.modsecurity.org/2008/12/fixing-both-missing-httponly-and-secure-cookie-flags.html)
+  directives[8](http://blog.modsecurity.org/2008/12/fixing-both-missing-httponly-and-secure-cookie-flags.html)
 - ESAPI
-WAF[9](http://code.google.com/p/owasp-esapi-java/downloads/list)
-using *add-http-only-flag*
-directive[10](http://www.slideshare.net/llamakong/owasp-esapi-waf-appsec-dc-2009)
+  WAF[9](http://code.google.com/p/owasp-esapi-java/downloads/list)
+  using _add-http-only-flag_
+  directive[10](http://www.slideshare.net/llamakong/owasp-esapi-waf-appsec-dc-2009)
 
 ## Browsers Supporting HttpOnly
 
@@ -263,7 +263,7 @@ details this page does not.
 Our results as of Feb 2009 are listed below in **table 1**.
 
 | **Browser**                 | **Version**                   | **Prevents Reads** | **Prevents Writes** | **Prevents Read within XMLHTTPResponse\***                                                                                                                                                        |
-| ----------------------------| ----------------------------- | ------------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------- | ----------------------------- | ------------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Microsoft Internet Explorer | 8 Beta 2                      | Yes                | Yes                 | Partially (set-cookie is protected, but not set-cookie2, see [11](http://www.microsoft.com/technet/security/bulletin/ms08-069.mspx)). Fully patched IE8 passes <http://ha.ckers.org/httponly.cgi> |
 | Microsoft Internet Explorer | 7                             | Yes                | Yes                 | Partially (set-cookie is protected, but not set-cookie2, see [12](http://www.microsoft.com/technet/security/bulletin/ms08-069.mspx)). Fully patched IE7 passes <http://ha.ckers.org/httponly.cgi> |
 | Microsoft Internet Explorer | 6 (SP1)                       | Yes                | No                  | No (Possible that ms08-069 fixed IE 6 too, please verify with <http://ha.ckers.org/httponly.cgi> and update this page\!)                                                                          |
@@ -313,14 +313,14 @@ supporting HttpOnly.
 
 ### Lesson Goal
 
-If the *HttpOnly flag* is set, then your browser should not allow a
+If the _HttpOnly flag_ is set, then your browser should not allow a
 client-side script to access the session cookie. Unfortunately, since
 the attribute is relatively new, several browsers may neglect to handle
 the new attribute properly.
 
 The **purpose** of this lesson is to test whether your browser supports
-the **HttpOnly cookie flag**. *Note the value of the* ***unique2u
-cookie***. If your browser supports HttpOnly, and you *enable* it for a
+the **HttpOnly cookie flag**. _Note the value of the_ **_unique2u
+cookie_**. If your browser supports HttpOnly, and you _enable_ it for a
 cookie, a client-side script should NOT be able to read OR write to that
 cookie, but the browser can still send its value to the server. However,
 some browsers only prevent client side read access, but do not prevent
@@ -343,23 +343,23 @@ flag.
 2) After turning HttpOnly off, select the **“Read Cookie”** button.
 
 - An alert dialog box will display on the screen notifying you that
-*since HttpOnly was not enabled*, the **‘unique2u’ cookie** was
-successfully read as shown below in **figure 3**.
+  _since HttpOnly was not enabled_, the **‘unique2u’ cookie** was
+  successfully read as shown below in **figure 3**.
 
 ![Fig3-Read_HTTPOnly_Off.PNG](../assets/images/Fig3-Read_HTTPOnly_Off.PNG)
 
 3) With HttpOnly remaining disabled, select the **“Write Cookie”** button.
 
 - An alert dialog box will display on the screen notifying you that
-*since HttpOnly was not enabled*, the **‘unique2u’ cookie** was
-successfully modified on the client side as shown below in **figure
-4**.
+  _since HttpOnly was not enabled_, the **‘unique2u’ cookie** was
+  successfully modified on the client side as shown below in **figure
+  4**.
 
 ![Fig4-Write_HTTPOnly_Off.PNG](../assets/images/Fig4-Write_HTTPOnly_Off.PNG)
 
 - As you have seen thus far, **browsing without HttpOnly** on is a
-potential ***threat***. Next, we will **enable HttpOnly** to
-demonstrate how this flag protects the cookie.
+  potential **_threat_**. Next, we will **enable HttpOnly** to
+  demonstrate how this flag protects the cookie.
 
 ##### Enabling HttpOnly
 
@@ -370,33 +370,33 @@ demonstrate how this flag protects the cookie.
 5) After enabling HttpOnly, select the **"Read Cookie"** button.
 
 - If the browser enforces the HttpOnly flag properly, an alert dialog
-box will display only the session ID rather than the contents of the
-**‘unique2u’ cookie** as shown below in **figure 6**.
+  box will display only the session ID rather than the contents of the
+  **‘unique2u’ cookie** as shown below in **figure 6**.
 
 ![Fig6-Cookie_Read_Protection.PNG](../assets/images/Fig6-Cookie_Read_Protection.PNG)
 
 - However, if the browser does not enforce the HttpOnly flag properly,
-an alert dialog box will display both the **‘unique2u’ cookie** and
-session ID as shown below in **figure 7**.
+  an alert dialog box will display both the **‘unique2u’ cookie** and
+  session ID as shown below in **figure 7**.
 
 ![Fig7-No_Cookie_Read_Protection.PNG](../assets/images/Fig7-No_Cookie_Read_Protection.PNG)
 
 - Finally, we will test if the browser allows **write access** to the
-cookie with HttpOnly enabled.
+  cookie with HttpOnly enabled.
 
-6) Select the **"Write Cookie"** button.
+  6) Select the **"Write Cookie"** button.
 
 - If the browser enforces the HttpOnly flag properly, client side
-modification will be unsuccessful in writing to the **‘unique2u’
-cookie** and an alert dialog box will display only containing the
-session ID as shown below in **figure 8**.
+  modification will be unsuccessful in writing to the **‘unique2u’
+  cookie** and an alert dialog box will display only containing the
+  session ID as shown below in **figure 8**.
 
 ![Fig6-Cookie_Read_Protection.PNG](../assets/images/Fig6-Cookie_Read_Protection.PNG)
 
 - However, if the browser does not enforce the write protection
-property of HttpOnly flag for the **‘unique2u’ cookie**, the cookie
-will be successfully modified to *HACKED* on the client side as
-shown below in **figure 9**.
+  property of HttpOnly flag for the **‘unique2u’ cookie**, the cookie
+  will be successfully modified to _HACKED_ on the client side as
+  shown below in **figure 9**.
 
 ![Fig9-No_Cookie_Write_Protection.PNG](../assets/images/Fig9-No_Cookie_Write_Protection.PNG)
 

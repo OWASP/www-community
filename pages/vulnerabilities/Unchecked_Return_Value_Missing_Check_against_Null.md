@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Unchecked Return Value Missing Check against Null
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Unchecked_Return_Value_Missing_Check_against_Null
 tags: vulnerability, Unchecked Return Value Missing Check against Null
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -57,22 +55,22 @@ particularly when exceptions are involved.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Ignored function return
-    value](Ignored_function_return_value "wikilink")
+- [Ignored function return
+  value](Ignored_function_return_value "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 

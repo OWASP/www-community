@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Process Control
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Process_Control
 tags: vulnerability, Process Control
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -20,10 +18,10 @@ behalf of an attacker.
 
 Process control vulnerabilities take two forms:
 
-  - An attacker can change the command that the program executes: the
-    attacker explicitly controls what the command is.
-  - An attacker can change the environment in which the command
-    executes: the attacker implicitly controls what the command means.
+- An attacker can change the command that the program executes: the
+  attacker explicitly controls what the command is.
+- An attacker can change the environment in which the command
+  executes: the attacker implicitly controls what the command means.
 
 We will first consider the first scenario, the possibility that an
 attacker may be able to control the command that is executed. Process
@@ -125,21 +123,21 @@ a potential opportunity to influence the behavior of these calls.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Command Injection](Command_Injection "wikilink")
+- [Command Injection](Command_Injection "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
+- [Vulnerability 1](Vulnerability_1 "wikilink")
+- [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
@@ -147,11 +145,11 @@ Note: A reference to related [CWE](http://cwe.mitre.org/) or
 [CAPEC](http://capec.mitre.org/) article should be added when exists.
 Eg:
 
-  - [CWE 79](http://cwe.mitre.org/data/definitions/79.html).
-  - <http://www.link1.com>
-  - [Title for the link2](http://www.link2.com)
+- [CWE 79](http://cwe.mitre.org/data/definitions/79.html).
+- <http://www.link1.com>
+- [Title for the link2](http://www.link2.com)
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Input Validation

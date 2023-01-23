@@ -1,10 +1,8 @@
 ---
-
 layout: col-sidebar
 title: Code Sprint
 tags: cs
 permalink: /initiatives/code_sprint/
-
 ---
 
 # OWASP Code Sprint Information

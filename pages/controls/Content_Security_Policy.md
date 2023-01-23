@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Content Security Policy
 author: Dominique RIGHETTO
 contributors: Dimisec, Peter Mosmans, Taras Ivashchenko, Ajin Abraham, Pawel Krawczyk, Imifos, Neil Smithline, kingthorin
 permalink: /controls/Content_Security_Policy
 tags: controls, Content Security Policy
-
 ---
 
 {% include writers.html %}
@@ -79,17 +77,17 @@ below using all HTTP headers defined in W3C Specs:
 - Resources are loaded only from source domain,
 - Inline style is not allowed,
 - For JavaScript:
-  - *Inline script* will be allowed because inline scripting is     commonly used (can be disabled if target site does not use this     type of scripting),
-  - *eval()* function will be allowed in order to not break use of     popular JavaScript libraries (ex: JQuery, JQueryUI, Sencha, ...)     because they use eval() function (it was the case last time I     have checked the source code from CDN ;) ),
+  - _Inline script_ will be allowed because inline scripting is commonly used (can be disabled if target site does not use this type of scripting),
+  - _eval()_ function will be allowed in order to not break use of popular JavaScript libraries (ex: JQuery, JQueryUI, Sencha, ...) because they use eval() function (it was the case last time I have checked the source code from CDN ;) ),
 - Generation of a random not guessable script nonce to use into all script tags,
 - Plugin types only allow PDF and Flash,
 - No font loading (configurable),
 - No Audio / Video loading (configurable),
 - Enable browser XSS filtering feature.
 
-The support for CSP directives is not the same level in major browsers (Firefox/Chrome/IE). It's recommanded to check the support provided by target browsers  (using site provided in link section of this article) in order to configure CSP policies. The sample below try to provide a set of policies from which your can add policies specific to your application context.
+The support for CSP directives is not the same level in major browsers (Firefox/Chrome/IE). It's recommanded to check the support provided by target browsers (using site provided in link section of this article) in order to configure CSP policies. The sample below try to provide a set of policies from which your can add policies specific to your application context.
 
-*This implementation provide an option to add CSP directives used by Firefox (Mozilla CSP directives).*
+_This implementation provide an option to add CSP directives used by Firefox (Mozilla CSP directives)._
 
 ```java
 import java.io.IOException;
@@ -282,12 +280,12 @@ There's a number of free tools that can assist with the generating, evaluation a
 
 It's very useful to include these types of tools into a web application development process in order to perform a regular automatic first level check (do not replace an manual audit and manual audit must be also conducted regularly).
 
-* [w3af](http://w3af.org) audit tools contains a [plugin](https://github.com/andresriancho/w3af/blob/master/plugins/grep/csp.py)
-to automatically audit web application to check if they correctly implement CSP policies.
-* [CSP Tester (browser extension)](https://oxdef.info/csp-tester) to build and test the policy for your web application.
-* [CSP Generator](https://csper.io/generator) for automatically generating policies ([chrome](https://chrome.google.com/webstore/detail/content-security-policy-c/ahlnecfloencbkpfnpljbojmjkfgnmdc)/[firefox](https://addons.mozilla.org/en-US/firefox/addon/csp-generator/) extension).
-* [CSP Evaluator](https://csper.io/evaluator) for evaluating existing content security policies for security misconfigurations.
-* [Csper report collector](https://csper.io/report-uri) for monitoring a content security policy using report-uri.
+- [w3af](http://w3af.org) audit tools contains a [plugin](https://github.com/andresriancho/w3af/blob/master/plugins/grep/csp.py)
+  to automatically audit web application to check if they correctly implement CSP policies.
+- [CSP Tester (browser extension)](https://oxdef.info/csp-tester) to build and test the policy for your web application.
+- [CSP Generator](https://csper.io/generator) for automatically generating policies ([chrome](https://chrome.google.com/webstore/detail/content-security-policy-c/ahlnecfloencbkpfnpljbojmjkfgnmdc)/[firefox](https://addons.mozilla.org/en-US/firefox/addon/csp-generator/) extension).
+- [CSP Evaluator](https://csper.io/evaluator) for evaluating existing content security policies for security misconfigurations.
+- [Csper report collector](https://csper.io/report-uri) for monitoring a content security policy using report-uri.
 
 ## Information Links
 

@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Forced browsing
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Forced_browsing
 tags: attack, Forced browsing
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -42,14 +40,14 @@ attack, which is based on a manual and oriented identification of
 resources by modifying URL parameters. The user1 wants to check their
 on-line agenda through the following URL:
 
-` www.site-example.com/users/calendar.php/user1/20070715 `
+` www.site-example.com/users/calendar.php/user1/20070715 `
 
 In the URL, it is possible to identify the username (`user1`) and
 the date (mm/dd/yyyy). If the user attempts to make a forced browsing
 attack, they could guess another user's agenda by predicting user
 identification and date, as follow:
 
-` www.site-example.com/users/calendar.php/user6/20070716 `
+` www.site-example.com/users/calendar.php/user6/20070716 `
 
 The attack can be considered successful upon accessing other user's
 agenda. A bad implementation of the authorization mechanism contributed
@@ -76,34 +74,34 @@ information.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [Internal software
-    developer](Internal_software_developer "wikilink")
+- [Internal software
+  developer](Internal_software_developer "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Path Traversal (Path Manipulation)](Path_Traversal "wikilink")
+- [Path Traversal (Path Manipulation)](Path_Traversal "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:Access Control
-    Vulnerability](:Category:Access_Control_Vulnerability "wikilink")
+- [:Category:Access Control
+  Vulnerability](:Category:Access_Control_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category: Access Control](:Category:_Access_Control "wikilink")
+- [:Category: Access Control](:Category:_Access_Control "wikilink")
 
 ## References
 
-  - Forceful Browsing — Imperva Application Data Security and
-    Compliance
-    <http://www.imperva.com/application_defense_center/glossary/forceful_browsing.html>
-  - Parameter fuzzing and forced browsing — WebAppSec -
-    <http://seclists.org/webappsec/2006/q3/0182.html>
-  - <http://www.webappsec.org/projects/threat/classes/predictable_resource_location.shtml>
-  - <http://cwe.mitre.org/data/definitions/425.html>
+- Forceful Browsing — Imperva Application Data Security and
+  Compliance
+  <http://www.imperva.com/application_defense_center/glossary/forceful_browsing.html>
+- Parameter fuzzing and forced browsing — WebAppSec -
+  <http://seclists.org/webappsec/2006/q3/0182.html>
+- <http://www.webappsec.org/projects/threat/classes/predictable_resource_location.shtml>
+- <http://cwe.mitre.org/data/definitions/425.html>
 
 [category:Resource
-Manipulation](category:Resource_Manipulation "wikilink") __NOTOC__
+Manipulation](category:Resource_Manipulation "wikilink") **NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [need content](Category:FIXME "wikilink")

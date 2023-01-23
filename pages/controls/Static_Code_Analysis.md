@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Static Code Analysis
 author: Ryan Dewhurst
 contributors: KirstenS, Nick Bloor, Sarah Baso, James Bowie, Ram ch, EvgeniyRyzhkov, Iberiam, Ann.campbell, Ejohn20, Jonathan Marcil, Christina Schelin, Jie Wang, Fabian, Achim, Dirk Wetter, kingthorin
 tags: controls, source code analysis, static code analysis
 permalink: /controls/Static_Code_Analysis
-
 ---
 
 {% include writers.html %}

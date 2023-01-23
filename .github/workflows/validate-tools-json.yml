@@ -1,9 +1,9 @@
 name: Validate Tools JSON
 
-on: 
+on:
   pull_request_target:
     paths:
-    - '_data/tools.json'
+      - "_data/tools.json"
 
 permissions:
   contents: read
@@ -13,43 +13,43 @@ jobs:
   schema-check:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        ref: ${{github.event.pull_request.head.ref}}
-        repository: ${{github.event.pull_request.head.repo.full_name}}
-    - name: Setup Node
-      uses: actions/setup-node@v1
-      with:
-        node-version: 13.x
-    - name: Install dependencies
-      run: |
-        npm install -g ajv-formats
-        npm install -g ajv-cli
-    - name: Run schema check
-      run: |
-        ajv validate -s tools_schema.json -d _data/tools.json --all-errors --errors=text --verbose=true -c=ajv-formats 1> log.txt 2>&1
-    - name: Show Validation Issues
-      if: failure()
-      run: cat log.txt
-    - name: Attach Log
-      uses: actions/upload-artifact@v2
-      if: failure()
-      with:
-        name: JSONValidationLog
-        path: log.txt
-    - name: Comment Validation Issues
-      if: failure()
-      uses: actions/github-script@v2
-      with:
-        github-token: ${{secrets.GITHUB_TOKEN}}
-        script: |
-          const fs = require("fs");
-          const logPath = `${process.env.GITHUB_WORKSPACE}/log.txt`;
-          const logString = fs.readFileSync(logPath).toString().trimEnd();
-          github.issues.createComment({
-            issue_number: ${{ github.event.number }},
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: `**The following issues were identified, when validating against the [schema](https://github.com/OWASP/www-community/blob/master/tools_schema.json):**\n\n<details><summary>Summary (click the triangle/control to the left to expand)</summary>\n\n\`\`\`\n${logString}\n\`\`\`\n\n</details>`
-          })
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 13.x
+      - name: Install dependencies
+        run: |
+          npm install -g ajv-formats
+          npm install -g ajv-cli
+      - name: Run schema check
+        run: |
+          ajv validate -s tools_schema.json -d _data/tools.json --all-errors --errors=text --verbose=true -c=ajv-formats 1> log.txt 2>&1
+      - name: Show Validation Issues
+        if: failure()
+        run: cat log.txt
+      - name: Attach Log
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: JSONValidationLog
+          path: log.txt
+      - name: Comment Validation Issues
+        if: failure()
+        uses: actions/github-script@v2
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const fs = require("fs");
+            const logPath = `${process.env.GITHUB_WORKSPACE}/log.txt`;
+            const logString = fs.readFileSync(logPath).toString().trimEnd();
+            github.issues.createComment({
+              issue_number: ${{ github.event.number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `**The following issues were identified, when validating against the [schema](https://github.com/OWASP/www-community/blob/master/tools_schema.json):**\n\n<details><summary>Summary (click the triangle/control to the left to expand)</summary>\n\n\`\`\`\n${logString}\n\`\`\`\n\n</details>`
+            })

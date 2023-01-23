@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Regular expression Denial of Service - ReDoS
-author: Adar Weidman 
+author: Adar Weidman
 contributors: Ebing, Rsl81, Wichers, Bjoern Kimminich, kingthorin, pi3ch
 permalink: /attacks/Regular_expression_Denial_of_Service_-_ReDoS
 tags: attack, redos, Regular expression Denial of Service - ReDoS
-
 ---
 
 {% include writers.html %}
@@ -50,7 +48,7 @@ The root-cause of the above example is in a Regex engine feature called **backtr
 Simply, if the input (token) fails to match, the engine goes back to
 previous positions where it could take a different path.
 The engine tries this many times until it explores all possible paths.
-In the above example, this feature create a long running loop 
+In the above example, this feature create a long running loop
 because there were many paths to explore due to inefficient Regex pattern.
 
 Notice, that not all algorithms are naïve, and actually Regex algorithms
@@ -70,8 +68,8 @@ A Regex pattern is called **Evil Regex** if it can get stuck on crafted input.
 
 - Grouping with repetition
 - Inside the repeated group:
-    - Repetition
-    - Alternation with overlapping
+  - Repetition
+  - Alternation with overlapping
 
 **Examples of Evil Regex**:
 
@@ -115,7 +113,7 @@ well-crafted input, that stacks the WEB server.
 ### Vulnerable Regex in online repositories
 
 1. [ReGexLib,id=1757 (email validation)](http://regexlib.com/REDetails.aspx?regexp_id=1757) - see
-bold part, which is an **Evil Regex**
+   bold part, which is an **Evil Regex**
 
 `^([a-zA-Z0-9])`**`(([\-.]|[_]+)?([a-zA-Z0-9]+))*`**`(@){1}[a-z0-9]+[.]{1}(([a-z]{2,3})|([a-z]{2,3}[.]{1}[a-z]{2,3}))$`
 
@@ -124,7 +122,7 @@ Input:
 `aaaaaaaaaaaaaaaaaaaaaaaa!`
 
 2. [OWASP Validation Regex Repository](https://wiki.owasp.org/index.php/OWASP_Validation_Regex_Repository), Java
-Classname - see bold part, which is an **Evil Regex**
+   Classname - see bold part, which is an **Evil Regex**
 
 `^`**`(([a-z])+.)+`**`[A-Z]([a-z])+$`
 
@@ -173,10 +171,10 @@ will hang.
 - [ReDOS Attacks: From the Exploitation to the Prevention (in .NET)](https://dzone.com/articles/regular-expressions-denial)
 - [Tool for detecting ReDoS vulnerabilities.](https://web.archive.org/web/20211027135828/https://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
 - Examples of ReDoS in open source applications:
-    - [ReDoS in DataVault](https://nvd.nist.gov/vuln/detail/CVE-2009-3277)
-    - [ReDoS in EntLib](https://nvd.nist.gov/vuln/detail/CVE-2009-3275)
-    - [ReDoS in NASD CORE.NET Terelik](https://nvd.nist.gov/vuln/detail/CVE-2009-3276)
-    - [ReDoS in .NET Framework](http://blog.malerisch.net/2015/09/net-mvc-redos-denial-of-service-vulnerability-cve-2015-2526.html)
-    - [ReDoS in Javascript minimatch](https://nodesecurity.io/advisories/118)
+  - [ReDoS in DataVault](https://nvd.nist.gov/vuln/detail/CVE-2009-3277)
+  - [ReDoS in EntLib](https://nvd.nist.gov/vuln/detail/CVE-2009-3275)
+  - [ReDoS in NASD CORE.NET Terelik](https://nvd.nist.gov/vuln/detail/CVE-2009-3276)
+  - [ReDoS in .NET Framework](http://blog.malerisch.net/2015/09/net-mvc-redos-denial-of-service-vulnerability-cve-2015-2526.html)
+  - [ReDoS in Javascript minimatch](https://nodesecurity.io/advisories/118)
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)

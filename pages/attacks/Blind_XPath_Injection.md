@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Blind XPath Injection
-author: 
+author:
 contributors:
 permalink: /attacks/Blind_XPath_Injection
 tags: attack, blind xpath injection, xpath injection
-
 ---
 
 {% include writers.html %}
@@ -65,6 +63,7 @@ counting from N character, the attacker is able to enumerate the whole
 string.
 
 Code:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
@@ -84,9 +83,9 @@ Code:
 Function:
 
 - `string.stringlength(//user\[position()=1\]/child::node()\[position()=2\])`
-    returns the length of the second string of the first user (8),
+  returns the length of the second string of the first user (8),
 - `substring((//user\[position()=1\]/child::node()\[position()=2),1,1)`
-    returns the first character of this user ('r').
+  returns the first character of this user ('r').
 
 ### XML Crawling
 
@@ -94,16 +93,16 @@ To get to know the XML document structure the attacker may use:
 
 - count(expression)
 
-``` 
+```
 count(//user/child::node()
 ```
 
 This will return the number of nodes (in this case 2).
 
--  stringlength(string)
+- stringlength(string)
 
-``` 
-string-length(//user[position()=1]/child::node()[position()=2])=6 
+```
+string-length(//user[position()=1]/child::node()[position()=2])=6
 ```
 
 Using this query the attacker will find out if the second string
@@ -139,7 +138,7 @@ consider that this language disallows commenting out the rest of
 expresssion. To omit this limitation the attacker should use OR
 expressions to void all expressions, which may disrupt the attack.
 
-Because of *Boolenization* the number of queries, even within a small
+Because of _Boolenization_ the number of queries, even within a small
 XML document, may be very high (thousands, hundreds of thousands and
 more). That is why this attack is not conducted manually. Knowing a few
 basic XPath functions, the attacker is able to write an application in a
@@ -160,4 +159,3 @@ fill it with data by itself.
 - http://dl.packetstormsecurity.net/papers/bypass/Blind_XPath_Injection_20040518.pdf
   - by Amit Klein (much more detailes, in my opinion the best source about Blind XPath Injection).
 - http://projects.webappsec.org/w/page/13247005/XPath%20Injection
-

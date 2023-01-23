@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Mobile code invoking untrusted mobile code
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Mobile_code_invoking_untrusted_mobile_code
 tags: attack, Mobile code invoking untrusted mobile code
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -51,36 +49,36 @@ mechanism to assure that the mobile code has not been modified.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - TBD
+- TBD
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Mobile code: non-final public
-    field](Mobile_code:_non-final_public_field "wikilink")
-  - [Mobile code: object hijack](Mobile_code:_object_hijack "wikilink")
+- [Mobile code: non-final public
+  field](Mobile_code:_non-final_public_field "wikilink")
+- [Mobile code: object hijack](Mobile_code:_object_hijack "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category: Unsafe Mobile
-    Code](:Category:_Unsafe_Mobile_Code "wikilink")
+- [:Category: Unsafe Mobile
+  Code](:Category:_Unsafe_Mobile_Code "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Hashing](Hashing "wikilink")
-  - [Bounds Checking](Bounds_Checking "wikilink")
-  - [Safe Libraries](Safe_Libraries "wikilink")
-  - [Static Code Analysis](Static_Code_Analysis "wikilink")
-  - [Executable space
-    protection](Executable_space_protection "wikilink")
-  - [Address space layout randomization
-    (ASLR)](Address_space_layout_randomization_\(ASLR\) "wikilink")
-  - [Stack-smashing Protection
-    (SSP)](Stack-smashing_Protection_\(SSP\) "wikilink")
+- [Hashing](Hashing "wikilink")
+- [Bounds Checking](Bounds_Checking "wikilink")
+- [Safe Libraries](Safe_Libraries "wikilink")
+- [Static Code Analysis](Static_Code_Analysis "wikilink")
+- [Executable space
+  protection](Executable_space_protection "wikilink")
+- [Address space layout randomization
+  (ASLR)](<Address_space_layout_randomization_(ASLR)> "wikilink")
+- [Stack-smashing Protection
+  (SSP)](<Stack-smashing_Protection_(SSP)> "wikilink")
 
 ## References
 
-  - <https://buildsecurityin.us-cert.gov/daisy/bsi/100/version/1/part/4/data/CLASP_ApplicationSecurityProcess.pdf?branch=main&language=default>
-  - <http://cwe.mitre.org/data/definitions/494.html>
+- <https://buildsecurityin.us-cert.gov/daisy/bsi/100/version/1/part/4/data/CLASP_ApplicationSecurityProcess.pdf?branch=main&language=default>
+- <http://cwe.mitre.org/data/definitions/494.html>
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category: Abuse of

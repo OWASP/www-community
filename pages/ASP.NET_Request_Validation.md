@@ -1,19 +1,17 @@
 ---
-
 title: ASP.NET Request Validation
 layout: col-sidebar
 author:
 contributors:
 tags: ASP.NET
 permalink: /ASP-NET_Request_Validation
-
 ---
 
 {% include writers.html %}
 
 # Description
 
-*Request validation* is a feature in ASP.NET that examines HTTP requests and determines whether they contain potentially dangerous content. This check adds protection from mark-up or code in the URL query string, cookies, or posted form values that might have been added for malicious purposes. This exploit is typically referred to as a *cross-site scripting* (XSS) attack. Request validation helps to prevent this kind of attack by throwing a "potentially dangerous value was detected" error and halting page processing if it detects input that may be malicious, such as mark-up or code in the request.
+_Request validation_ is a feature in ASP.NET that examines HTTP requests and determines whether they contain potentially dangerous content. This check adds protection from mark-up or code in the URL query string, cookies, or posted form values that might have been added for malicious purposes. This exploit is typically referred to as a _cross-site scripting_ (XSS) attack. Request validation helps to prevent this kind of attack by throwing a "potentially dangerous value was detected" error and halting page processing if it detects input that may be malicious, such as mark-up or code in the request.
 
 # Do Not Rely on Request Validation for XSS Protection
 
@@ -21,8 +19,8 @@ Request validation is generally desirable and should be left enabled for defense
 used as your sole method of XSS protection, and does not guarantee to catch every type of invalid input. There are known, documented bypasses (such as JSON requests) that will not be addressed in future releases, and the request validation feature is no longer provided in ASP.NET vNext.
 
 Fully protecting your application from malicious input requires validating each field of user supplied data. This should start with
-[ASP.NET Validation Controls](http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100).aspx) or
-[DataAnnotations attributes](http://msdn.microsoft.com/en-us/library/ee256141(VS.100).aspx) to check for:
+[ASP.NET Validation Controls](<http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100).aspx>) or
+[DataAnnotations attributes](<http://msdn.microsoft.com/en-us/library/ee256141(VS.100).aspx>) to check for:
 
 - Required fields
 - Correct data type and length
@@ -30,7 +28,7 @@ Fully protecting your application from malicious input requires validating each 
 - Allow list of permitted characters
 
 Any string input that is returned to the client should be encoded using an appropriate method, such as those provided via
-[AntiXssEncoder](http://msdn.microsoft.com/en-us/library/system.web.security.antixss.antixssencoder(v=vs.110).aspx).
+[AntiXssEncoder](<http://msdn.microsoft.com/en-us/library/system.web.security.antixss.antixssencoder(v=vs.110).aspx>).
 
 `var encodedInput = Server.HtmlEncode(userInput);`
 
@@ -158,12 +156,12 @@ This class is then registered in web.config using
 
 # References
 
-- [Request Validation in ASP.NET](http://msdn.microsoft.com/en-us/library/hh882339(v=vs.110).aspx)
-- [Validation ASP.NET Controls](http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100).aspx)
-- [How to: Validate Model Data Using DataAnnotations Attributes](http://msdn.microsoft.com/en-us/library/ee256141(VS.100).aspx)
-- [AntiXssEncoder Class](http://msdn.microsoft.com/en-us/library/system.web.security.antixss.antixssencoder(v=vs.110).aspx)
+- [Request Validation in ASP.NET](<http://msdn.microsoft.com/en-us/library/hh882339(v=vs.110).aspx>)
+- [Validation ASP.NET Controls](<http://msdn.microsoft.com/en-us/library/debza5t0(v=vs.100).aspx>)
+- [How to: Validate Model Data Using DataAnnotations Attributes](<http://msdn.microsoft.com/en-us/library/ee256141(VS.100).aspx>)
+- [AntiXssEncoder Class](<http://msdn.microsoft.com/en-us/library/system.web.security.antixss.antixssencoder(v=vs.110).aspx>)
 - [New ASP.NET Request Validation Features](http://www.asp.net/aspnet/overview/aspnet-and-visual-studio-2012/whats-new#_Toc318097379)
-- [Control.ValidateRequestMode Property](http://msdn.microsoft.com/en-us/library/system.web.ui.control.validaterequestmode(v=vs.110).aspx)
-- [ValidateInputAttribute Class](http://msdn.microsoft.com/en-us/library/system.web.mvc.validateinputattribute(v=vs.118).aspx)
-- [AllowHtmlAttribute Class](http://msdn.microsoft.com/en-us/library/system.web.mvc.allowhtmlattribute(v=vs.118).aspx)
-- [RequestValidator Class](http://msdn.microsoft.com/en-us/library/system.web.util.requestvalidator(v=vs.110).aspx)
+- [Control.ValidateRequestMode Property](<http://msdn.microsoft.com/en-us/library/system.web.ui.control.validaterequestmode(v=vs.110).aspx>)
+- [ValidateInputAttribute Class](<http://msdn.microsoft.com/en-us/library/system.web.mvc.validateinputattribute(v=vs.118).aspx>)
+- [AllowHtmlAttribute Class](<http://msdn.microsoft.com/en-us/library/system.web.mvc.allowhtmlattribute(v=vs.118).aspx>)
+- [RequestValidator Class](<http://msdn.microsoft.com/en-us/library/system.web.util.requestvalidator(v=vs.110).aspx>)

@@ -1,5 +1,4 @@
 ---
-
 layout: col-sidebar
 title: Null Dereference
 author:
@@ -7,7 +6,6 @@ contributors:
 permalink: /vulnerabilities/Null_Dereference
 tags: vulnerability, Null Dereference
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -37,20 +35,20 @@ even then, little can be done to salvage the process.
 
 # Consequences
 
-  - Availability: Null-pointer dereferences invariably result in the
-    failure of the process.
+- Availability: Null-pointer dereferences invariably result in the
+  failure of the process.
 
 # Exposure period
 
-  - Requirements specification: The choice could be made to use a
-    language that is not susceptible to these issues.
-  - Implementation: Proper sanity checks at implementation time can
-    serve to prevent null-pointer dereferences
+- Requirements specification: The choice could be made to use a
+  language that is not susceptible to these issues.
+- Implementation: Proper sanity checks at implementation time can
+  serve to prevent null-pointer dereferences
 
 # Platform
 
-  - Languages: C, C++, Java, Assembly
-  - Platforms: All
+- Languages: C, C++, Java, Assembly
+- Platforms: All
 
 # Examples
 
@@ -61,8 +59,8 @@ a property named "cmd" defined. If an attacker can control the program's
 environment so that "cmd" is not defined, the program throws a null
 pointer exception when it attempts to call the trim() method.
 
-`   String cmd = System.getProperty("cmd");`
-`   cmd = cmd.trim();`
+` String cmd = System.getProperty("cmd");`
+` cmd = cmd.trim();`
 
 ## Example 2
 
@@ -93,24 +91,24 @@ if statement; and unlock when it has finished.
 
 # Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Miscalculated null
-    termination](Miscalculated_null_termination "wikilink")
-  - [State synchronization
-    error](State_synchronization_error "wikilink")
+- [Miscalculated null
+  termination](Miscalculated_null_termination "wikilink")
+- [State synchronization
+  error](State_synchronization_error "wikilink")
 
 # Related [Controls](https://owasp.org/www-community/controls/)
 
-  - Requirements specification: The choice could be made to use a
-    language that is not susceptible to these issues.
-  - Implementation: If all pointers that could have been modified are
-    sanity-checked previous to use, nearly all null-pointer dereferences
-    can be prevented.
+- Requirements specification: The choice could be made to use a
+  language that is not susceptible to these issues.
+- Implementation: If all pointers that could have been modified are
+  sanity-checked previous to use, nearly all null-pointer dereferences
+  can be prevented.
 
 # References
 
-  - [CWE 79](http://cwe.mitre.org/data/definitions/79.html).
-  - <http://www.link1.com>
-  - [Title for the link2](http://www.link2.com)
+- [CWE 79](http://cwe.mitre.org/data/definitions/79.html).
+- <http://www.link1.com>
+- [Title for the link2](http://www.link2.com)
 
 [Category:Code Quality
 Vulnerability](Category:Code_Quality_Vulnerability "wikilink")

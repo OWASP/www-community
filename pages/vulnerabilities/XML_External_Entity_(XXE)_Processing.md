@@ -1,5 +1,4 @@
 ---
-
 layout: col-sidebar
 title: XML External Entity (XXE) Processing
 author:
@@ -7,7 +6,6 @@ contributors:
 permalink: /vulnerabilities/XML_External_Entity_(XXE)_Processing
 tags: vulnerability, XML External Entity (XXE) Processing
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -65,16 +63,16 @@ through subdomain names to a DNS server that they controls.
 
 ## Risk Factors
 
-  - The application parses XML documents.
-  - Tainted data is allowed within the system identifier portion of the
-    entity, within the [document type declaration](http://www.w3.org/TR/REC-xml/#sec-prolog-dtd) (DTD).
-  - The XML processor is configured to validate and process the DTD.
-  - The XML processor is configured to resolve external entities within
-    the DTD.
+- The application parses XML documents.
+- Tainted data is allowed within the system identifier portion of the
+  entity, within the [document type declaration](http://www.w3.org/TR/REC-xml/#sec-prolog-dtd) (DTD).
+- The XML processor is configured to validate and process the DTD.
+- The XML processor is configured to resolve external entities within
+  the DTD.
 
 ## Examples
 
-The examples below are from [Testing for XML Injection (OWASP-DV-008)](Testing_for_XML_Injection_\(OWASP-DV-008\) "wikilink").
+The examples below are from [Testing for XML Injection (OWASP-DV-008)](<Testing_for_XML_Injection_(OWASP-DV-008)> "wikilink").
 
 ### Accessing a local resource that may not return
 
@@ -112,7 +110,6 @@ get RCE. Let’s modify the payload
 <foo>&xxe;</foo>
 ```
 
-
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE foo [
@@ -137,15 +134,14 @@ get RCE. Let’s modify the payload
 <foo>&xxe;</foo>
 ```
 
-
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-  - [Blind SQL Injection](Blind_SQL_Injection "wikilink")
+- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [Blind SQL Injection](Blind_SQL_Injection "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Missing XML Validation](Missing_XML_Validation "wikilink")
+- [Missing XML Validation](Missing_XML_Validation "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
@@ -161,15 +157,15 @@ against XXE attacks is presented in the [XML External Entity (XXE) Prevention Ch
 
 ## References
 
-  - OWASP [XML External Entity (XXE) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
-  - [Timothy Morgan's 2014 Paper: XML Schema, DTD, and Entity Attacks - A Compendium of Known Techniques](http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf)
-  - [Precursor presentation of above paper - at OWASP AppSec USA 2013](http://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf)
-  - [CWE-611: Information Exposure Through XML External Entity Reference](http://cwe.mitre.org/data/definitions/611.html)
-  - [CWE-827: Improper Control of Document Type Definition](http://cwe.mitre.org/data/definitions/827.html)
-  - [Sascha Herzog's Presentation on XML External Entity Attacks - at OWASP AppSec Germany 2010](https://www.owasp.org/images/5/5d/XML_Exteral_Entity_Attack.pdf)
-  - [PostgreSQL XXE vulnerability](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3489)
-  - [SharePoint and DotNetNuke XXE Vulnerabilities, in French](http://www.agarri.fr/kom/archives/2011/09/15/failles_de_type_xee_dans_sharepoint_et_dotnetnuke/index.html)
-  - [XML Denial of Service Attacks and Defenses (in .NET)](http://msdn.microsoft.com/en-us/magazine/ee335713.aspx)
-  - [Early (2002) BugTraq Article on XXE](http://www.securityfocus.com/archive/1/297714/2002-10-27/2002-11-02/0)
+- OWASP [XML External Entity (XXE) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
+- [Timothy Morgan's 2014 Paper: XML Schema, DTD, and Entity Attacks - A Compendium of Known Techniques](http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf)
+- [Precursor presentation of above paper - at OWASP AppSec USA 2013](http://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf)
+- [CWE-611: Information Exposure Through XML External Entity Reference](http://cwe.mitre.org/data/definitions/611.html)
+- [CWE-827: Improper Control of Document Type Definition](http://cwe.mitre.org/data/definitions/827.html)
+- [Sascha Herzog's Presentation on XML External Entity Attacks - at OWASP AppSec Germany 2010](https://www.owasp.org/images/5/5d/XML_Exteral_Entity_Attack.pdf)
+- [PostgreSQL XXE vulnerability](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3489)
+- [SharePoint and DotNetNuke XXE Vulnerabilities, in French](http://www.agarri.fr/kom/archives/2011/09/15/failles_de_type_xee_dans_sharepoint_et_dotnetnuke/index.html)
+- [XML Denial of Service Attacks and Defenses (in .NET)](http://msdn.microsoft.com/en-us/magazine/ee335713.aspx)
+- [Early (2002) BugTraq Article on XXE](http://www.securityfocus.com/archive/1/297714/2002-10-27/2002-11-02/0)
 
 [Category:API_Abuse](Category:API_Abuse "wikilink")

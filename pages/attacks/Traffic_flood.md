@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Traffic flood
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Traffic_flood
 tags: attack, Traffic flood
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -79,24 +77,24 @@ comes to a crawling halt.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
+- [:Category:Logical Attacks](:Category:Logical_Attacks "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Denial of Service](Denial_of_Service "wikilink")
+- [Denial of Service](Denial_of_Service "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:General Logic Error
-    Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")
+- [:Category:General Logic Error
+  Vulnerability](:Category:General_Logic_Error_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - TBD
+- TBD
 
 ## References
 
-  - <http://shlang.com/netkill/netkill.html>
+- <http://shlang.com/netkill/netkill.html>
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Protocol

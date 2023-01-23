@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Session Variable Overloading
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Session_Variable_Overloading
 tags: vulnerability, Session Variable Overloading
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -18,17 +16,17 @@ Session Variable Overloading (also known as Session Puzzling) is an
 application level vulnerability which can enable an attacker to perform
 a variety of malicious actions not limited to:
 
-  - Bypass efficient authentication enforcement mechanisms, and
-    impersonate legitimate users.
-  - Elevate the privileges of a malicious user account, in an
-    environment that would otherwise be considered foolproof.
-  - Skip over qualifying phases in multiphase processes, even if the
-    process includes all the commonly recommended code level
-    restrictions.
-  - Manipulate server-side values in indirect methods that cannot be
-    predicted or detected.
-  - Execute traditional attacks in locations that were previously
-    unreachable, or even considered secure.
+- Bypass efficient authentication enforcement mechanisms, and
+  impersonate legitimate users.
+- Elevate the privileges of a malicious user account, in an
+  environment that would otherwise be considered foolproof.
+- Skip over qualifying phases in multiphase processes, even if the
+  process includes all the commonly recommended code level
+  restrictions.
+- Manipulate server-side values in indirect methods that cannot be
+  predicted or detected.
+- Execute traditional attacks in locations that were previously
+  unreachable, or even considered secure.
 
 This vulnerability occurs when an application uses the same session
 variable for more than one purpose. An attacker can potentially access
@@ -66,12 +64,12 @@ Session variables should only be used for a single consistent purpose.
 
 ## References
 
-  - Session Puzzles:
-    <http://puzzlemall.googlecode.com/files/Session%20Puzzles%20-%20Indirect%20Application%20Attack%20Vectors%20-%20May%202011%20-%20Whitepaper.pdf>
-  - Session Puzzling and Session Race Conditions:
-    <http://sectooladdict.blogspot.com/2011/09/session-puzzling-and-session-race.html>
+- Session Puzzles:
+  <http://puzzlemall.googlecode.com/files/Session%20Puzzles%20-%20Indirect%20Application%20Attack%20Vectors%20-%20May%202011%20-%20Whitepaper.pdf>
+- Session Puzzling and Session Race Conditions:
+  <http://sectooladdict.blogspot.com/2011/09/session-puzzling-and-session-race.html>
 
-__NOTOC__
+**NOTOC**
 
 [Category:Session Management
 Vulnerability](Category:Session_Management_Vulnerability "wikilink")

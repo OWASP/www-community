@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Code Injection
 author: Weilin Zhong, Rezos
 contributors: OWASP, Thandermax, Csa, KristenS, Wichers, Neil Bergman, Camilo, Andrew Smith, kingthorin
 permalink: /attacks/Code_Injection
 tags: attack, Code Injection
-
 ---
 
 {% include writers.html %}

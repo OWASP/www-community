@@ -1,5 +1,4 @@
 ---
-
 title: Session Timeout
 layout: col-sidebar
 author:
@@ -7,7 +6,6 @@ contributors:
 tags: java, web session
 auto-migrated: 1
 permalink: /Session_Timeout
-
 ---
 
 {% include writers.html %}
@@ -24,10 +22,10 @@ destroy it (deleting all data contained in it).
 
 On JEE web applications , there 2 ways to define a session timeout,
 
-  - Declaratively in web deployment descriptor (file "web.xml") : This
-    definition is applied to all sessions created for the application.
-  - Programmatically on the session object : This definition applies only to the
-    current session.
+- Declaratively in web deployment descriptor (file "web.xml") : This
+  definition is applied to all sessions created for the application.
+- Programmatically on the session object : This definition applies only to the
+  current session.
 
 **Timeout defined declaratively**
 
@@ -102,11 +100,11 @@ represents the time in which an attacker can try to steal and use a existing use
 
 For this, it's best practices to :
 
-  - Set session timeout to the minimal value possible depending on the
-    context of the application.
-  - Avoid "infinite" session timeout.
-  - Prefer declarative definition of the session timeout in order to
-    apply a global timeout for all application sessions.
-  - Trace session creation/destruction in order to analyse the creation trend
-    and try to detect a normal number of session creations (application
-    profiling phase in a attack).
+- Set session timeout to the minimal value possible depending on the
+  context of the application.
+- Avoid "infinite" session timeout.
+- Prefer declarative definition of the session timeout in order to
+  apply a global timeout for all application sessions.
+- Trace session creation/destruction in order to analyse the creation trend
+  and try to detect a normal number of session creations (application
+  profiling phase in a attack).

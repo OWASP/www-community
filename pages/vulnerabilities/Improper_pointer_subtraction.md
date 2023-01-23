@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Improper pointer subtraction
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Improper_pointer_subtraction
 tags: vulnerability, Improper pointer subtraction
-
 ---
 
 {% include writers.html %}

@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Using a broken or risky cryptographic algorithm
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Using_a_broken_or_risky_cryptographic_algorithm
 tags: vulnerability, Using a broken or risky cryptographic algorithm
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -20,22 +18,22 @@ to data that is meant to be secure.
 
 **Consequences**
 
-  - Confidentiality: The confidentiality of sensitive data may be
-    compromised by the use of a broken or risky cryptographic algorithm.
-  - Integrity: The integrity of sensitive data may be compromised by the
-    use of a broken or risky cryptographic algorithm.
-  - Accountability: Any accountability to message content preserved by
-    cryptography may be subject to attack.
+- Confidentiality: The confidentiality of sensitive data may be
+  compromised by the use of a broken or risky cryptographic algorithm.
+- Integrity: The integrity of sensitive data may be compromised by the
+  use of a broken or risky cryptographic algorithm.
+- Accountability: Any accountability to message content preserved by
+  cryptography may be subject to attack.
 
 **Exposure period**
 
-  - Design: The decision as to what cryptographic algorithm to utilize
-    is generally made at design time.
+- Design: The decision as to what cryptographic algorithm to utilize
+  is generally made at design time.
 
 **Platform**
 
-  - Languages: All
-  - Operating platforms: All
+- Languages: All
+- Operating platforms: All
 
 **Required resources**
 
@@ -57,8 +55,8 @@ little more benefit than the use of no cryptography at all.
 
 ## Risk Factors
 
-  - Use of custom cryptographic algorithms.
-  - Use of weak and/or untested public algorithms.
+- Use of custom cryptographic algorithms.
+- Use of weak and/or untested public algorithms.
 
 ## Examples
 
@@ -73,28 +71,28 @@ In Java:
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Failure to encrypt data](Failure_to_encrypt_data "wikilink")
+- [Failure to encrypt data](Failure_to_encrypt_data "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - Design: Use a cryptographic algorithm that is currently considered
-    to be strong by experts in the field.
+- Design: Use a cryptographic algorithm that is currently considered
+  to be strong by experts in the field.
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
 TBD
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Vulnerability](Category:Vulnerability "wikilink")

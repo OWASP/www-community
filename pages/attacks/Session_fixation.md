@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Session fixation
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Session_fixation
 tags: attack, Session fixation
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -51,7 +49,7 @@ o Client-side script
 
 Most browsers support the execution of client-side scripting. In this
 case, the aggressor could use attacks of code injection as the
-[XSS](Cross-site_Scripting_\(XSS\) "wikilink") (Cross-site scripting)
+[XSS](<Cross-site_Scripting_(XSS)> "wikilink") (Cross-site scripting)
 attack to insert a malicious code in the hyperlink sent to the victim
 and fix a Session ID in its cookie. Using the function document.cookie,
 the browser which executes the command becomes capable of fixing values
@@ -59,6 +57,7 @@ inside of the cookie that it will use to keep a session between the
 client and the Web Application.
 
 o
+
 ```
 <META>
 
@@ -66,6 +65,7 @@ tag
 
 <META>
 ```
+
 tag also is considered a code injection attack, however, different from
 the XSS attack where undesirable scripts can be disabled, or the
 execution can be denied. The attack using this method becomes much more
@@ -115,18 +115,20 @@ the cookie. To fix the value of the Session ID in the victim's cookie,
 the attacker could insert a JavaScript code in the URL that will be
 executed in the victim's browser.
 
-` http://website.kom/<script>document.cookie=”sessionid=abcd”;</script>`
+` http://website.kom/<script>document.cookie=”sessionid=abcd”;</script>`
 
 ### Example 3
+
 ```
 <META>
 
 tag
 ```
+
 As well as client-side scripting, the code injection must be made in the
 URL that will be sent to the victim.
 
-`http://website.kon/<meta http-equiv=Set-Cookie content=”sessionid=abcd”>`
+`http://website.kon/<meta http-equiv=Set-Cookie content=”sessionid=abcd”>`
 
 ### Example 4
 
@@ -147,28 +149,28 @@ Figure 2. Set-Cookie in the HTTP header response
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category:Authorization](:Category:Authorization "wikilink")
+- [:Category:Authorization](:Category:Authorization "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [XSS Attacks](XSS_Attacks "wikilink")
-  - [Session hijacking attack](Session_hijacking_attack "wikilink")
+- [XSS Attacks](XSS_Attacks "wikilink")
+- [Session hijacking attack](Session_hijacking_attack "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category:Session Management
-    Vulnerability](:Category:Session_Management_Vulnerability "wikilink")
+- [:Category:Session Management
+  Vulnerability](:Category:Session_Management_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Session Fixation
-    Protection](Session_Fixation_Protection "wikilink")
+- [Session Fixation
+  Protection](Session_Fixation_Protection "wikilink")
 
 ## References
 
-  - <http://www.acros.si/papers/session_fixation.pdf>
-  - <http://en.wikipedia.org/wiki/Session_fixation>
-  - <http://www.derkeiler.com/pdf/Mailing-Lists/Securiteam/2002-12/0099.pdf>
+- <http://www.acros.si/papers/session_fixation.pdf>
+- <http://en.wikipedia.org/wiki/Session_fixation>
+- <http://www.derkeiler.com/pdf/Mailing-Lists/Securiteam/2002-12/0099.pdf>
 
 ## Categories
 

@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Unchecked Error Condition
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Unchecked_Error_Condition
 tags: vulnerability, Unchecked Error Condition
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}

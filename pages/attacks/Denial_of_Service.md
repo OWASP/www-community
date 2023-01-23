@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Denial of Service
 author: Nsrav
 contributors: KristenS, Adar Weidman, psiinon, Adrew Smith, Jkurucar, kingthorin
 permalink: /attacks/Denial_of_Service
 tags: attack, Denial of Service
-
 ---
 
 {% include writers.html %}
@@ -111,9 +109,9 @@ If an error occurs in the application that prevents the release of an
 in-use resource, it can become unavailable for further use. Possible
 examples include:
 
-  - An application locks a file for writing, and then an exception occurs but does not explicitly close and unlock the file
-  - Memory leaking in languages where the developer is responsible for memory management such as C & C++. In the case where an error causes normal logic flow to be circumvented, the allocated memory may not be removed and may be left in such a state that the garbage collector does not know it should be reclaimed
-  - Use of DB connection objects where the objects are not being freed if an exception is thrown. A number of such repeated requests can cause the application to consume all the DB connections, as the code will still hold the open DB object, never releasing the resource.
+- An application locks a file for writing, and then an exception occurs but does not explicitly close and unlock the file
+- Memory leaking in languages where the developer is responsible for memory management such as C & C++. In the case where an error causes normal logic flow to be circumvented, the allocated memory may not be removed and may be left in such a state that the garbage collector does not know it should be reclaimed
+- Use of DB connection objects where the objects are not being freed if an exception is thrown. A number of such repeated requests can cause the application to consume all the DB connections, as the code will still hold the open DB object, never releasing the resource.
 
 The following is an example of vulnerable code in Java. In the example,
 both the Connection and the CallableStatement should be closed in a
