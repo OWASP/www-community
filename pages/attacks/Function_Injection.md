@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Function Injection
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Function_Injection
 tags: attack, Function Injection
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -25,13 +23,13 @@ execution.
 
 ## Risk Factors
 
-  - These types of vulnerabilities can range from very hard to find, to
-    easy to find
-  - If found, are usually moderately hard to exploit, depending on
-    scenario.
-  - If successfully exploited, impact could cover loss of
-    confidentiality, loss of integrity, loss of availability, and/or
-    loss of accountability
+- These types of vulnerabilities can range from very hard to find, to
+  easy to find
+- If found, are usually moderately hard to exploit, depending on
+  scenario.
+- If successfully exploited, impact could cover loss of
+  confidentiality, loss of integrity, loss of availability, and/or
+  loss of accountability
 
 ## Examples
 
@@ -140,35 +138,35 @@ This will execute the "ls" command on the system.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category:
-    Internet_attacker](:Category:_Internet_attacker "wikilink")
-  - [Internal_software_developer](Internal_software_developer "wikilink")
+- [:Category:
+  Internet_attacker](:Category:_Internet_attacker "wikilink")
+- [Internal_software_developer](Internal_software_developer "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Command Injection](Command_Injection "wikilink")
-  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-  - [LDAP injection](LDAP_injection "wikilink")
-  - [SSI injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
-  - [Cross-site Scripting
-    (XSS)](Cross-site_Scripting_\(XSS\) "wikilink")
+- [Command Injection](Command_Injection "wikilink")
+- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [LDAP injection](LDAP_injection "wikilink")
+- [SSI injection](<https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection>)
+- [Cross-site Scripting
+  (XSS)](<Cross-site_Scripting_(XSS)> "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
+- [:Category: Input Validation
+  Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Input Validation](Input_Validation "wikilink")
-  - [Canonicalization](Canonicalization "wikilink")
+- [Input Validation](Input_Validation "wikilink")
+- [Canonicalization](Canonicalization "wikilink")
 
 ## References
 
-  - [call_user_func](http://php.net/manual/en/function.call-user-func.php)
-    - PHP documentation for call_user_func.
-  - [call_user_func_array](http://php.net/manual/en/function.call-user-func-array.php)
-    - PHP documentation for call_user_func.
+- [call_user_func](http://php.net/manual/en/function.call-user-func.php)
+  - PHP documentation for call_user_func.
+- [call_user_func_array](http://php.net/manual/en/function.call-user-func-array.php)
+  - PHP documentation for call_user_func.
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
 [Category:Attack](Category:Attack "wikilink")

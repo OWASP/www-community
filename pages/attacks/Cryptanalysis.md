@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cryptanalysis
-author: 
+author:
 contributors: Rezos, KristenS, kingthorin
 permalink: /attacks/Cryptanalysis
 tags: attack, Cryptanalysis
-
 ---
 
 {% include writers.html %}

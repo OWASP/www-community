@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Directory Restriction Error
 author:
 contributors:
 permalink: /vulnerabilities/Directory_Restriction_Error
 tags: vulnerability, Directory Restriction Error
-
 ---
 
 {% include writers.html %}

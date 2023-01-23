@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Reverse Tabnabbing
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Reverse_Tabnabbing
 tags: attack, Reverse Tabnabbing
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -57,26 +55,32 @@ Link between parent and child pages when prevention attribute is used:
 
 Vulnerable page:
 
-``` html
+```html
 <html>
- <body>
-  <li><a href="bad.example.com" target="_blank">Vulnerable target using html link to open the new page</a></li>
-  <button onclick="window.open('https://bad.example.com')">Vulnerable target using javascript to open the new page</button>
- </body>
+  <body>
+    <li>
+      <a href="bad.example.com" target="_blank"
+        >Vulnerable target using html link to open the new page</a
+      >
+    </li>
+    <button onclick="window.open('https://bad.example.com')">
+      Vulnerable target using javascript to open the new page
+    </button>
+  </body>
 </html>
 ```
 
 Malicious Site that is linked to:
 
-``` html
+```html
 <html>
- <body>
-  <script>
-   if (window.opener) {
-      window.opener.location = "https://phish.example.com";
-   }
-  </script>
- </body>
+  <body>
+    <script>
+      if (window.opener) {
+        window.opener.location = "https://phish.example.com";
+      }
+    </script>
+  </body>
 </html>
 ```
 
@@ -112,6 +116,6 @@ Prevention information are documented into the [HTML5 Cheat Sheet](https://cheat
 
 - [The `target="_blank"` vulnerability by example](https://dev.to/ben/the-targetblank-vulnerability-by-example)
 - [About `rel=noopener` attribute values](https://mathiasbynens.github.io/rel-noopener/)
-- [Target="_blank" —  the most underestimated vulnerability ever](https://medium.com/@jitbit/target-blank-the-most-underestimated-vulnerability-ever-96e328301f4c)
+- [Target="\_blank" —  the most underestimated vulnerability ever](https://medium.com/@jitbit/target-blank-the-most-underestimated-vulnerability-ever-96e328301f4c)
 - Cure53's [Browser Security WhitePaper](https://github.com/cure53/browser-sec-whitepaper/raw/master/browser-security-whitepaper.pdf)
 - [Reverse tabnabbing and blackshield demo](https://danielstjules.github.io/blankshield/)

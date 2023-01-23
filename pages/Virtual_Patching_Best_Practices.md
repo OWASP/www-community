@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Virtual Patching Best Practices
-author: 
-contributors: 
+author:
+contributors:
 tags: virtual patching
 permalink: /Virtual_Patching_Best_Practices
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -28,15 +26,15 @@ The term virtual patching was originally coined by Intrusion Prevention
 System (IPS) vendors a number of years ago. It is not a web application
 specific term, and may be applied to other protocols however currently
 it is more generally used as a term for Web Application Firewalls (WAF).
-It has been known by many different names including both *External
-Patching* and *Just-in-time Patching*. Whatever term you choose to use
+It has been known by many different names including both _External
+Patching_ and _Just-in-time Patching_. Whatever term you choose to use
 is irrelevant. What is important is that you understand exactly what a
 virtual patch is.
 
 ## Definition
 
-***A security policy enforcement layer which prevents the exploitation
-of a known vulnerability.***
+**_A security policy enforcement layer which prevents the exploitation
+of a known vulnerability._**
 
 The virtual patch works since the security enforcement layer analyzes
 transactions and intercepts attacks in transit, so malicious traffic
@@ -50,17 +48,17 @@ When you consider the numerous situations when organizations can’t
 simply immediately edit the source code, the value of virtual patching
 becomes apparent. From an organizations perspective, the benefits are:
 
-  - It is a scalable solution as it is implemented in few locations vs.
-    installing patches on all hosts.
-  - It reduces risk until a vendor-supplied patch is released or while a
-    patch is being tested and applied.
-  - There is less likelihood of introducing conflicts as libraries and
-    support code files are not changed.
-  - It provides protection for mission-critical systems that may not be
-    taken offline.
-  - It reduces or eliminates time and money spent performing emergency
-    patching.
-  - It allows organizations to maintain normal patching cycles.
+- It is a scalable solution as it is implemented in few locations vs.
+  installing patches on all hosts.
+- It reduces risk until a vendor-supplied patch is released or while a
+  patch is being tested and applied.
+- There is less likelihood of introducing conflicts as libraries and
+  support code files are not changed.
+- It provides protection for mission-critical systems that may not be
+  taken offline.
+- It reduces or eliminates time and money spent performing emergency
+  patching.
+- It allows organizations to maintain normal patching cycles.
 
 From a web application security consultant’s perspective, virtual
 patching opens up another avenue for providing services to your clients.
@@ -144,9 +142,9 @@ coding” issues but only functional defects.
 There are a number of different tools that may be used for virtual
 patching efforts.
 
-  - Intermediary device such as a WAF or IPS
-  - Web server plugin such as ModSecurity
-  - Application layer filter such as ESAPI WAF
+- Intermediary device such as a WAF or IPS
+- Web server plugin such as ModSecurity
+- Application layer filter such as ESAPI WAF
 
 ## Robust HTTP and HTML Parsing
 
@@ -528,26 +526,26 @@ vs. application or db capabilities.
 
 ### Authors
 
-  - Ryan Barnett with collaboration from OWASP Global Summit Attendees:
-    [Summit 2011 Working
-    Sessions/Session091](Summit_2011_Working_Sessions/Session091 "wikilink")
-  - Dan Cornell
-  - [Achim Hoffmann](User:Achim "wikilink")
-  - Martin Knobloch
+- Ryan Barnett with collaboration from OWASP Global Summit Attendees:
+  [Summit 2011 Working
+  Sessions/Session091](Summit_2011_Working_Sessions/Session091 "wikilink")
+- Dan Cornell
+- [Achim Hoffmann](User:Achim "wikilink")
+- Martin Knobloch
 
 ## References
 
 Detailed definitions and more in-depth descriptions concerning WAS - Web
 Application Security - can be found at:
 
-  - OWASP [Virtual Patching Cheat
-    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Virtual_Patching_Cheat_Sheet.html)
-  - [OWASP Best Practices: Use of Web Application
-    Firewalls](:Category:OWASP_Best_Practices:_Use_of_Web_Application_Firewalls "wikilink")
-  - [OWASP Securing WebGoat using ModSecurity
-    Project](:Category:OWASP_Securing_WebGoat_using_ModSecurity_Project "wikilink")
-  - [OWASP ModSecurity Core Rule
-    Set](:Category:OWASP_ModSecurity_Core_Rule_Set_Project "wikilink")
+- OWASP [Virtual Patching Cheat
+  Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Virtual_Patching_Cheat_Sheet.html)
+- [OWASP Best Practices: Use of Web Application
+  Firewalls](:Category:OWASP_Best_Practices:_Use_of_Web_Application_Firewalls "wikilink")
+- [OWASP Securing WebGoat using ModSecurity
+  Project](:Category:OWASP_Securing_WebGoat_using_ModSecurity_Project "wikilink")
+- [OWASP ModSecurity Core Rule
+  Set](:Category:OWASP_ModSecurity_Core_Rule_Set_Project "wikilink")
 
 [ModSecurity Core Rule Set Project](Category:OWASP_Project "wikilink")
 [ModSecurity Core Rule Set Project](Category:OWASP_WAF "wikilink")

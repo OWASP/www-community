@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Source Code Analysis Tools
-author: 
-contributors: 
+author:
+contributors:
   - Dave Wichers, itamarlavender, will-obrien, Eitan Worcel, Prabhu Subramanian, kingthorin, coadaflorin, hblankenship, GovorovViva64, pfhorman, GouveaHeitor, Clint Gibler, DSotnikov, Ajin Abraham, Noam Rathaus, Mike Jang
 tags: source code analysis, static code analysis, tools
 permalink: /Source_Code_Analysis_Tools
-
 ---
 
 {% include writers.html %}
@@ -51,8 +49,8 @@ SAST tool feedback can save time and effort, especially when compared to finding
 - Ability to detect vulnerabilities, based on:
   - The [OWASP Top Ten](/www-project-top-ten/)
   - Other criteria such as:
-      - [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf)
-      - [CHECK](https://www.ncsc.gov.uk/information/check-penetration-testing)
+    - [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf)
+    - [CHECK](https://www.ncsc.gov.uk/information/check-penetration-testing)
 - Accuracy:
   - False Positive/False Negative rates
   - OWASP [Benchmark](/www-project-benchmark/) score
@@ -68,7 +66,7 @@ SAST tool feedback can save time and effort, especially when compared to finding
 
 ## Disclaimer
 
-**The tools listed in the tables below are presented in alphabetical order. *OWASP does not endorse any of the vendors or tools by listing them in the table below.* We have made every effort to provide this information as accurately as possible. If you are the vendor of a tool below and think that this information is incomplete or incorrect, please send an e-mail to our mailing list and we will make every effort to correct this information.**
+**The tools listed in the tables below are presented in alphabetical order. _OWASP does not endorse any of the vendors or tools by listing them in the table below._ We have made every effort to provide this information as accurately as possible. If you are the vendor of a tool below and think that this information is incomplete or incorrect, please send an e-mail to our mailing list and we will make every effort to correct this information.**
 
 {% include tools.html type="SAST" %}
 

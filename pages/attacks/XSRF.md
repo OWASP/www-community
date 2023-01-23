@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: XSRF
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/XSRF
 tags: attack, XSRF
 auto-migrated: 1
-
 ---
 
 [Cross-Site Request Forgery (CSRF)](csrf)

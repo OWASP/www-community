@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Covert storage channel
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Covert_storage_channel
 tags: vulnerability, Covert storage channel
-
 ---
 
 {% include writers.html %}

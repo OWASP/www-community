@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Log Injection
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Log_Injection
 tags: attack, Log Injection
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}

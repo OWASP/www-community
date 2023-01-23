@@ -1,12 +1,10 @@
 ---
-
 title: Session Fixation Protection
 layout: col-sidebar
 author: RoganDawes
 contributors: Wichers, KirstenS, Jmanico, Mike Santillana, kingthorin
 tags: controls, ASP
 permalink: /controls/Session_Fixation_Protection
-
 ---
 
 {% include writers.html %}
@@ -100,8 +98,8 @@ Here is a sample implementation:
 ```
 
 > NOTE: In an enterprise deployment, consider the use of a COM wrapper
-object that invokes a cryptographically secure random number generator
-in favor of the VBScript Rnd function.
+> object that invokes a cryptographically secure random number generator
+> in favor of the VBScript Rnd function.
 
 Include the following lines in your login page:
 
@@ -113,7 +111,7 @@ All other private pages (i.e. only accessible by an authenticated user)
 should include the following lines (preferably as the first couple of
 lines in the file):
 
-`<% AntiFixationVerify("login.asp") %>`
+`<% AntiFixationVerify("login.asp") %>`
 
 In this case, any requests that do not contain a valid ASPFIXATION
 cookie will be redirected to the page indicated, in this case

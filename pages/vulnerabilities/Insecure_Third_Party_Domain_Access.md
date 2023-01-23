@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Insecure Third Party Domain Access
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Insecure_Third_Party_Domain_Access
 tags: vulnerability, Insecure Third Party Domain Access
-
 ---
 
 {% include writers.html %}
@@ -34,7 +32,7 @@ This following example is a common method to insert third party hosted content i
 <iframe src="http://site.com/share/Action.swf" width="720" height="420"
         marginwidth="0" marginheight="0" scrolling="Auto" frameborder="0">
 </iframe>
-```    
+```
 
 ## Related [Attacks](../attacks/)
 

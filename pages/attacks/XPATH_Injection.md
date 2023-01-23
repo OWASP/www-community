@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: XPATH Injection
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/XPATH_Injection
 tags: attack, XPATH Injection
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -127,25 +125,25 @@ have been escaped.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [Command Injection](Command_Injection "wikilink")
-  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-  - [LDAP injection](LDAP_injection "wikilink")
-  - [Server-Side_Includes_%28SSI%29_Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
+- [Command Injection](Command_Injection "wikilink")
+- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [LDAP injection](LDAP_injection "wikilink")
+- [Server-Side*Includes*%28SSI%29_Injection](<https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection>)
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
-  - [Blind_XPath_Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
+- [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
+- [Blind_XPath_Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
+- [:Category: Input Validation
+  Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-  - [Input Validation](Input_Validation "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [Input Validation](Input_Validation "wikilink")
 
 Just like SQL injection, in order to protect yourself you must escape
 single quotes (or double quotes) if your application uses them.

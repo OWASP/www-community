@@ -1,12 +1,10 @@
 ---
-
 title: Broken Access Control
 layout: col-sidebar
 author:
 contributors:
 tags:
 permalink: /Broken_Access_Control
-
 ---
 
 {% include writers.html %}
@@ -66,26 +64,26 @@ extensively tested to be sure that there is no way to bypass it. This testing re
 Some specific access control issues include:
 
 - **Insecure Id’s** – Most web sites use some form of id, key, or index as a way to reference users, roles, content, objects, or
-functions. If an attacker can guess these id’s, and the supplied values are not validated to ensure the are authorized for the
-current user, the attacker can exercise the access control scheme freely to see what they can access. Web applications should not rely
-on the secrecy of any id’s for protection.
+  functions. If an attacker can guess these id’s, and the supplied values are not validated to ensure the are authorized for the
+  current user, the attacker can exercise the access control scheme freely to see what they can access. Web applications should not rely
+  on the secrecy of any id’s for protection.
 - **Forced Browsing Past Access Control Checks** – many sites require users to pass certain checks before being granted access to certain
-URLs that are typically ‘deeper’ down in the site. These checks must not be bypassable by a user that simply skips over the page with the
-security check.
+  URLs that are typically ‘deeper’ down in the site. These checks must not be bypassable by a user that simply skips over the page with the
+  security check.
 - **Path Traversal** – This attack involves providing relative path information (e.g., “../../target_dir/target_file”) as part of a
-request for information. Such attacks try to access files that are normally not directly accessible by anyone, or would otherwise be
-denied if requested directly. Such attacks can be submitted in URLs as well as any other input that ultimately accesses a file (i.e.,
-system calls and shell commands).
+  request for information. Such attacks try to access files that are normally not directly accessible by anyone, or would otherwise be
+  denied if requested directly. Such attacks can be submitted in URLs as well as any other input that ultimately accesses a file (i.e.,
+  system calls and shell commands).
 - **File Permissions** – Many web and application servers rely on access control lists provided by the file system of the underlying
-platform. Even if almost all data is stored on backend servers, there are always files stored locally on the web and application
-server that should not be publicly accessible, particularly configuration files, default files, and scripts that are installed
-on most web and application servers. Only files that are specifically intended to be presented to web users should be marked
-as readable using the OS’s permissions mechanism, most directories should not be readable, and very few files, if any, should be marked
-executable.
+  platform. Even if almost all data is stored on backend servers, there are always files stored locally on the web and application
+  server that should not be publicly accessible, particularly configuration files, default files, and scripts that are installed
+  on most web and application servers. Only files that are specifically intended to be presented to web users should be marked
+  as readable using the OS’s permissions mechanism, most directories should not be readable, and very few files, if any, should be marked
+  executable.
 - **Client Side Caching** – Many users access web applications from shared computers located in libraries, schools, airports, and other
-public access points. Browsers frequently cache web pages that can be accessed by attackers to gain access to otherwise inaccessible
-parts of sites. Developers should use multiple mechanisms, including HTTP headers and meta tags, to be sure that pages containing
-sensitive information are not cached by user’s browsers.
+  public access points. Browsers frequently cache web pages that can be accessed by attackers to gain access to otherwise inaccessible
+  parts of sites. Developers should use multiple mechanisms, including HTTP headers and meta tags, to be sure that pages containing
+  sensitive information are not cached by user’s browsers.
 
 There are some application layer security components that can assist in the proper enforcement of some aspects of your access control scheme. Again, as for parameter validation, to be effective, the component must be configured with a strict definition of what access requests are valid for your site. When using such a component, you must be careful to understand exactly what access control assistance the component can provide for you given your site’s security policy, and what part of your access control policy that the component cannot deal with, and therefore must be properly dealt with in your own custom code.
 

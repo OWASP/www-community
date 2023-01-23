@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Initiatives
 author:
 contributors:
 tags: initiatives
 permalink: /initiatives/
-
 ---
 
 ## Google Summer of Code
@@ -16,7 +14,6 @@ Information related to OWASP's participation in Google Summer of Code (GSoC) sin
 ## Google Season of Docs
 
 Information related to OWASP's participation in Google Season of Docs (GSoD) since 2019 can be found [here](gsod).
-
 
 ## Code Sprints
 

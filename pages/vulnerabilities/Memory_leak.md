@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Memory leak
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Memory_leak
 tags: vulnerability, Memory leak
-
 ---
 
 {% include writers.html %}
@@ -15,12 +13,11 @@ tags: vulnerability, Memory leak
 
 A memory leak is an unintentional form of memory consumption whereby the developer fails to free an allocated block of memory when no longer needed. The consequences of such an issue depend on the application itself. Consider the following general three cases:
 
-
-| Case        | Description of Consequence |
-| ----------- |-------------|
-|  **Short Lived User-land Application**  |  Little if any noticable effect. Modern operating system recollects lost memory after program termination.  |
-|  **Long Lived User-land Application**  |  Potentially dangerous. These applications continue to waste memory over time, eventually consuming all RAM resources. Leads to abnormal system behavior.  |
-|  **Kernel-land Process**    |   Very dangerous. Memory leaks in the kernel level lead to serious system stability issues. Kernel memory is very limited compared to user land memory and should be handled cautiously.  |
+| Case                                  | Description of Consequence                                                                                                                                                             |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Short Lived User-land Application** | Little if any noticable effect. Modern operating system recollects lost memory after program termination.                                                                              |
+| **Long Lived User-land Application**  | Potentially dangerous. These applications continue to waste memory over time, eventually consuming all RAM resources. Leads to abnormal system behavior.                               |
+| **Kernel-land Process**               | Very dangerous. Memory leaks in the kernel level lead to serious system stability issues. Kernel memory is very limited compared to user land memory and should be handled cautiously. |
 
 Memory is allocated but never freed.
 
@@ -90,9 +87,7 @@ The following C function leaks a block of allocated memory if the call to `read(
 
 - [Denial of Service](../attacks/Denial_of_Service)
 
-
 ## Related [Vulnerabilities](../vulnerabilities/)
-
 
 ## Related [Controls](../controls/)
 

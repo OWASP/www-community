@@ -1,12 +1,10 @@
 ---
-
 title: Anti CSRF Tokens ASP.NET
 layout: col-sidebar
 author:
 contributors: kingthorin
 tags:
 permalink: /Anti_CRSF_Tokens_ASP-NET
-
 ---
 
 {% include writers.html %}
@@ -49,46 +47,46 @@ may call for adjustments and/or combinations of different strategies.
 ## Solutions NOT considered secure
 
 - All of the solutions provided in this article are not designed to
-work with GET requests that change the server state (e.g.,
-/example/delete.aspx?id=1). GET requests should be
-[idempotent](https://www.wordnik.com/words/idempotent) so that CSRF
-cannot take place.
+  work with GET requests that change the server state (e.g.,
+  /example/delete.aspx?id=1). GET requests should be
+  [idempotent](https://www.wordnik.com/words/idempotent) so that CSRF
+  cannot take place.
 
 - Assuming that SSL/TLS will thwart CSRF attacks just because the
-cookie is marked "Secure" and/or "HTTPOnly". The problem lies in the
-trust between legitimate browser and server. Therefore, the browser will
-just send its current cookies when the forged request is triggered. The
-attacker never has to touch any cookies.
+  cookie is marked "Secure" and/or "HTTPOnly". The problem lies in the
+  trust between legitimate browser and server. Therefore, the browser will
+  just send its current cookies when the forged request is triggered. The
+  attacker never has to touch any cookies.
 
 - Referer header verification as the only protection. This can be
-easily manipulated.
+  easily manipulated.
 
 - Cookie double-submission when the cookie utilized is the session
-cookie. This exposes the session cookie to JavaScript. Always mark the
-session cookie "HTTPOnly" so that it cannot be accessed with JavaScript.
+  cookie. This exposes the session cookie to JavaScript. Always mark the
+  session cookie "HTTPOnly" so that it cannot be accessed with JavaScript.
 
 - Any CSRF protection is null and void given the presence of XSS, for
-several reasons. The main and obvious reason is that, through XSS, the
-attacker can hijack the session and spoof the user, not even having to
-worry about performing CSRF.
+  several reasons. The main and obvious reason is that, through XSS, the
+  attacker can hijack the session and spoof the user, not even having to
+  worry about performing CSRF.
 
 ## ASP.NET MVC and Web API: Anti-CSRF Token
 
 ASP.NET has the capability to generate anti-CSRF security tokens for
 consumption by your application, as such:
 
-1) Authenticated user (has session which is managed by the framework)
-requests a page which contains form(s) that changes the server state
-(e.g., user options, account transfer, file upload, admin functions,
-etc.)
+1. Authenticated user (has session which is managed by the framework)
+   requests a page which contains form(s) that changes the server state
+   (e.g., user options, account transfer, file upload, admin functions,
+   etc.)
 
-2) Generate the security token (or grab it from the session state) and
-send the token as a session cookie (again, managed in the session state,
-unique per session) **as well as within a hidden value in each form**.
+2. Generate the security token (or grab it from the session state) and
+   send the token as a session cookie (again, managed in the session state,
+   unique per session) **as well as within a hidden value in each form**.
 
-3) Once the user submits the form, validate the token stored in the
-session state against the token included in the submitted form value. On
-failure, disregard form.
+3. Once the user submits the form, validate the token stored in the
+   session state against the token included in the submitted form value. On
+   failure, disregard form.
 
 Effectively, this is the cookie double-submission approach done right,
 since the security token is submitted both as a cookie (managed in the
@@ -96,6 +94,7 @@ framework session state) and within a hidden form value at the same
 time.
 
 For implementation details, see:
+
 - [MVC CSRF Prevention (official ASP.NET blog)](http://www.asp.net/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages)
 - [Web API CSRF Prevention (official ASP.NET blog)](http://www.asp.net/web-api/overview/security/preventing-cross-site-request-forgery-%28csrf%29-attacks)
 
@@ -135,6 +134,7 @@ Here's a [blog post by Eric Johnson and James Jardine](http://software-security.
 with an example of this implementation.
 
 For more implementation details, see:
+
 - [MSDN - Securing ViewState](http://msdn.microsoft.com/en-us/library/ms178199%28v=vs.85%29.aspx)
 - [MSDN - ViewStateUserKey](http://msdn.microsoft.com/en-us/library/ms972969.aspx#securitybarriers_topic2)
 
@@ -150,6 +150,7 @@ token with the rest of the POST data.
 
 For more guidance, see the **answers** given to the following
 questions:
+
 - [Anti-CSRF Cookie](http://stackoverflow.com/questions/8253396/anti-csrf-cookie)
 - [CSRF Protection With Custom Headers](http://security.stackexchange.com/questions/23371/csrf-protection-with-custom-headers-and-without-validating-token)
 

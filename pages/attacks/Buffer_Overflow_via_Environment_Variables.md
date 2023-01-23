@@ -1,12 +1,10 @@
 ---
-
 title: Buffer Overflow via Environment Variables
 layout: col-sidebar
 author:
 contributors: Rezos, KristenS, hblankenship, cmvar8, kingthorin
 tags: attacks
 permalink: /attacks/Buffer_Overflow_via_Environment_Variables
-
 ---
 
 {% include writers.html %}
@@ -65,7 +63,7 @@ int main(void)
 }
 ```
 
-The application checks the value of the environment variable *HOME*
+The application checks the value of the environment variable _HOME_
 (path to the home directory) and stores it. It is done by calling the
 getenv(3) library function in GNU/Linux. If the return value of this
 function is different than NULL (NULL value means that variable is not

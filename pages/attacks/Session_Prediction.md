@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Session Prediction
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Session_Prediction
 tags: attack, Session Prediction
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -45,7 +43,7 @@ authentication.
 
 ![Predictable cookie](../assets/images/attacks/predictable-cookie.jpg)
 
-*Figure 1. Predictable cookie*
+_Figure 1. Predictable cookie_
 
 ## External References
 
@@ -59,10 +57,10 @@ authentication.
 
 ## Related Attacks
 
-  - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
-  - [Session hijacking attack](Session_hijacking_attack "wikilink")
-  - [Manipulating User Permission
-    Identifier](Manipulating_User_Permission_Identifier "wikilink")
+- [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
+- [Session hijacking attack](Session_hijacking_attack "wikilink")
+- [Manipulating User Permission
+  Identifier](Manipulating_User_Permission_Identifier "wikilink")
 
 ## Related Vulnerabilities
 

@@ -1,12 +1,10 @@
 ---
-
 title: Automated Audit using WAPITI
 layout: col-sidebar
 author:
 contributors:
 tags: python, audit
 permalink: /Automated_Audit_using_WAPITI
-
 ---
 
 {% include writers.html %}
@@ -42,18 +40,18 @@ It is also recommended that you perform a build of the app:
 
 **Attack modules used by WAPITI:**
 
-- *backup*: This module search backup of scripts on the server.
-- *blindsql*: Time-based blind sql scanner.
-- *crlf*: Search for CR/LF injection in HTTP headers.
-- *exec*: Module used to detect command execution vulnerabilities.
-- *file*: Search for include()/fread() and other file handling vulns.
-- *htaccess*: Try to bypass weak htaccess configurations.
-- *nikto*: Use a Nikto database to search for potentially dangerous files.
-- *permanentxss*: Look for permanent XSS.
-- *sql*: Standard error-based SQL injection scanner.
-- *xss*: Module for XSS detection.
-- *buster*: Module for a file and directory buster attack - checking for "bad" files.
-- *shellshock*: Module for Shellshock bug detection.
+- _backup_: This module search backup of scripts on the server.
+- _blindsql_: Time-based blind sql scanner.
+- _crlf_: Search for CR/LF injection in HTTP headers.
+- _exec_: Module used to detect command execution vulnerabilities.
+- _file_: Search for include()/fread() and other file handling vulns.
+- _htaccess_: Try to bypass weak htaccess configurations.
+- _nikto_: Use a Nikto database to search for potentially dangerous files.
+- _permanentxss_: Look for permanent XSS.
+- _sql_: Standard error-based SQL injection scanner.
+- _xss_: Module for XSS detection.
+- _buster_: Module for a file and directory buster attack - checking for "bad" files.
+- _shellshock_: Module for Shellshock bug detection.
 
 ## Report
 

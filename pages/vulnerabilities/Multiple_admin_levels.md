@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Multiple admin levels
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Multiple_admin_levels
 tags: vulnerability, Multiple admin levels
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -22,10 +20,10 @@ credentials of higher level admins.
 
 ## Risk Factors
 
-  - Likelihood of this happening relies on an attacker getting control
-    of a lower level admin account in the first place.
-  - Administrator misconduct or mistakes could be made worse if they
-    could easily escalate their own permissions.
-  - There is no point to create administrators with different levels of
-    permissions if you don't prevent them from easily escalating their
-    own permissions.
+- Likelihood of this happening relies on an attacker getting control
+  of a lower level admin account in the first place.
+- Administrator misconduct or mistakes could be made worse if they
+  could easily escalate their own permissions.
+- There is no point to create administrators with different levels of
+  permissions if you don't prevent them from easily escalating their
+  own permissions.

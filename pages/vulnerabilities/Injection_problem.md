@@ -1,19 +1,17 @@
 ---
-
 layout: col-sidebar
 title: Injection problem
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Injection_problem
 tags: vulnerability, Injection problem
-
 ---
 
 {% include writers.html %}
 
 ## Description
 
-Injection problems span a wide range of instantiations. The basic form of this flaw involves the injection of control-plane data into the data-plane in order to alter the control flow of the process. 
+Injection problems span a wide range of instantiations. The basic form of this flaw involves the injection of control-plane data into the data-plane in order to alter the control flow of the process.
 
 ### Consequences
 
@@ -25,7 +23,7 @@ Injection problems span a wide range of instantiations. The basic form of this f
 
 ### Exposure period
 
-- Requirements specification: A language might be chosen which is not subject to these issues. 
+- Requirements specification: A language might be chosen which is not subject to these issues.
 - Implementation: Many logic errors can contribute to these issues.
 
 ### Platform
@@ -51,7 +49,6 @@ The most important issue to note is that all injection problems share one thing 
 
 The most classing instantiations of this category of flaw are SQL injection and format string vulnerabilities.
 
-
 ## Risk Factors
 
 TBD
@@ -68,4 +65,3 @@ Injection problems describe a large subset of problems with varied instantiation
 - [Log injection](../attacks/Log_Injection)
 
 ## Related Vulnerabilities
-

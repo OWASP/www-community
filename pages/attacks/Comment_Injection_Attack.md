@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Comment Injection Attack
 author: Weilin Zhong, Rezos
 contributors: KristenS, Jeff Williams, Alan Jex, kingthorin
 permalink: /attacks/Comment_Injection_Attack
 tags: attack, Comment Injection Attack
-
 ---
 
 {% include writers.html %}

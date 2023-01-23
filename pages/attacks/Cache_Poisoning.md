@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cache Poisoning
 author: Weilin Zhong, Rezos
 contributors: Pshanks, KristenS, Ingo86, Achim, kingthorin
 permalink: /attacks/Cache_Poisoning
 tags: attack, Cache Poisoning
-
 ---
 
 {% include writers.html %}
@@ -73,7 +71,7 @@ Accept-Language: en
 Accept-Charset: iso-8859-1,*,utf-8
 ```
 
-HTTP header fields `Pragma: no-cache` and 'Cache-Control: no-cache' should 
+HTTP header fields `Pragma: no-cache` and 'Cache-Control: no-cache' should
 remove the page from cache (if the page is stored in cache, obviously).
 
 2. Using HTTP Response Splitting we force cache server to generate two responses to one request

@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Insecure Transport
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Insecure_Transport
 tags: vulnerability, Insecure Transport
-
 ---
 
 {% include writers.html %}
@@ -22,6 +20,7 @@ There are three common ways for SSL to be bypassed:
 - A user manually enters the URL and types "HTTP" rather than "HTTPS".
 - Attackers intentionally send a user to an insecure URL.
 - A programmer erroneously creates a relative link to a page in the application, failing to switch from HTTP to HTTPS. (This is particularly easy to do when the link moves between public and secured areas on a web site.)
+
 ## Examples
 
 - Login pages are not SSL protected

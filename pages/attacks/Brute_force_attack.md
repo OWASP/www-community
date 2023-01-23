@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Brute Force Attack
 author:
 contributors: Gsami, Rezos, Thiagoalz, KristenS, D0ubl3 h3lix, Andrew Smith, Jenjava1762, Mtesauro, kingthorin
 permalink: /attacks/Brute_force_attack
 tags: attack, brute force
-
 ---
 
 {% include writers.html %}
@@ -139,7 +137,7 @@ Another example is to examine ranges of the variable's values:
 
 `./WebRoot.pl -noupdate -host testsite.test -port 80 -verbose -diff "Error" -url "/index.php?id=<BRUTE>" -incremental integer -minimum 1 -maximum 1`
 
-  - Road Blocks:
+- Road Blocks:
 
 One of the main issues with tools like dirb/dirbuster consist in the
 analysis of server responses. With more advanced server configuration
@@ -169,7 +167,6 @@ Acunetix, etc. This helps you quickly identify probable probing by bad
 actors who want to dig possible security holes.
 
 [Docs](http://yehg.net/lab/pr0js/tools/php-brute-force-detector-readme.pdf)
-
 
 ## References
 

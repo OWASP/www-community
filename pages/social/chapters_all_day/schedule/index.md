@@ -14,7 +14,7 @@ tags: chaptersAllDay2020
 
 ## Saturday-Sunday, 6-7 June 2020
 
-**Presentation abstracts and speaker biographies can be found on [this page](/www-community/pages/social/chapters_all_day/speakers/){:target="_blank"}{:rel="noopener noreferrer"}.
+\*\*Presentation abstracts and speaker biographies can be found on [this page](/www-community/pages/social/chapters_all_day/speakers/){:target="\_blank"}{:rel="noopener noreferrer"}.
 
 <table width="100%">
   <tr style="background-color: #8595C2; margin: 10px;">
@@ -403,7 +403,7 @@ tags: chaptersAllDay2020
     </td>
     <td style="vertical-align: top; text-align: center;">
       <strong>How SameSite Cookies Are Making the World a Safer Place</strong>
-      {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %} 
+      {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %}
 <br />
       <em>Michael Furman</em>
     </td>
@@ -485,8 +485,7 @@ tags: chaptersAllDay2020
       <p style="font-weight: bold;">Closing Session
         {% include video.html video="https://www.youtube.com/watch?v=M4wzNTy4nK8" %}
       </p>
-      
-      
+
       <span style="font-style: italic;">
       <strong>Organizing Committee:</strong>
       <ul>
@@ -499,6 +498,7 @@ tags: chaptersAllDay2020
       </ul>
       </span>
     </td>
+
   </tr>
-  
+
 </table>

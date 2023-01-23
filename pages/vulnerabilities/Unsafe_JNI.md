@@ -1,5 +1,4 @@
 ---
-
 layout: col-sidebar
 title: Unsafe JNI
 author:
@@ -7,7 +6,6 @@ contributors:
 permalink: /vulnerabilities/Unsafe_JNI
 tags: vulnerability, Unsafe JNI
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -77,7 +75,7 @@ gets(), which does not perform any bounds checking on its input.
 The Sun Java(TM) Tutorial provides the following description of JNI
 \[2\]:
 
-*The JNI framework lets your native method utilize Java objects in the
+_The JNI framework lets your native method utilize Java objects in the
 same way that Java code uses these objects. A native method can create
 Java objects, including arrays and strings, and then inspect and use
 these objects to perform its tasks. A native method can also inspect and
@@ -86,7 +84,7 @@ update Java objects that it created or that were passed to it, and these
 updated objects are available to the Java application. Thus, both the
 native language side and the Java side of an application can create,
 update, and access Java objects and then share these objects between
-them.*
+them._
 
 The vulnerability in the example above could easily be detected through
 a source code audit of the native method implementation. This may not be
@@ -109,30 +107,30 @@ in the Java application that exposes its use of JNI \[2\].
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Buffer Overflow](Buffer_Overflow "wikilink")
+- [Buffer Overflow](Buffer_Overflow "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
-  - \[1\] B. Stearns. The Java™ Tutorial: The Java Native Interface. Sun
-    Microsystems, 2005.
-    <http://java.sun.com/docs/books/tutorial/native1.1/>
-  - \[2\] Fortify Descriptions. <http://vulncat.fortifysoftware.com>.
+- \[1\] B. Stearns. The Java™ Tutorial: The Java Native Interface. Sun
+  Microsystems, 2005.
+  <http://java.sun.com/docs/books/tutorial/native1.1/>
+- \[2\] Fortify Descriptions. <http://vulncat.fortifysoftware.com>.
 
-__NOTOC__
+**NOTOC**
 
 [The first link works, but the page says the content is going to be
 removed at some point. Need to change link](Category:FIXME "wikilink")

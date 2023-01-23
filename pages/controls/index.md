@@ -1,12 +1,10 @@
 ---
-
 title: Controls
 layout: col-sidebar
 author:
 contributors: Leocavallari , KristenS, Frank Alexander, Jason Li, Brennan, MelDrews, hblankenship , rbsec, kingthorin
 tags: controls
 permalink: /controls/
-
 ---
 
 This category is a parent category used to track categories of controls (or countermeasure, security mechanisms).
@@ -18,7 +16,7 @@ As an abstract category of concepts, it can be difficult to grasp where controls
 ISACA defines control as the means of managing risk, including policies, procedures, guidelines, practices or organizational structures, which can be of an administrative, technical, management, or legal nature.[ISACA Glossary](http://www.isaca.org/Pages/Glossary.aspx?tid=2011&char=C)
 
 While the ISACA COBIT standard is frequently referenced with regard to information security control, the design of the standard places its
-guidance mostly at the level of governance with very little that will help us design or implement secure software. U.S. National Institute of Standards and Technology (NIST) Special Publication 800-53, *Security and Privacy Controls for Federal Information Systems and Organizations* is widely referenced for its fairly detailed catalog of security controls. It does not, however, define what a control should be.
+guidance mostly at the level of governance with very little that will help us design or implement secure software. U.S. National Institute of Standards and Technology (NIST) Special Publication 800-53, _Security and Privacy Controls for Federal Information Systems and Organizations_ is widely referenced for its fairly detailed catalog of security controls. It does not, however, define what a control should be.
 
 The Council on CyberSecurity Critical Security Controls list provides very little detail on specific measures we can implement in software.
 Among the 20 critical controls we find "Application Software Security" with 11 recommended implementation measures:
@@ -57,7 +55,7 @@ guidelines spell out specific implementation of controls.
 While different organizations and standards will write controls at differing levels of abstraction, it is generally recognized that
 controls should be defined and implemented to address business needs for security. COBIT 5 makes this explicit by mapping enterprise goals to IT-related goals, process goals, management practices and activities.The management practices map to items that were described in COBIT 4 as control objectives. Each organization and process area will define their controls differently, but this alignment of controls to objectives and activities is a strong commonality between different standards. Activities are often the means by which controls are implemented. They are written out in procedures that specify the intended operation of controls. A procedure is not, in itself, a control. A given procedure may address multiple controls and a given control may require more than one procedure to fully implement.
 
-So, we've found that the concept of a security control is hard to define clearly in a way that enables practitioners to begin writing   controls and putting them to use. Some definitions exist, but are open to wide interpretation and may not be adaptable to every need. At this point we can hazard some statements that may provide further clarity. Control statements should be concisely worded to specify required process outcomes. While this is very similar to a policy statement, policies are generally more oriented toward enterprise goals, whereas controls are more oriented toward process goals.
+So, we've found that the concept of a security control is hard to define clearly in a way that enables practitioners to begin writing controls and putting them to use. Some definitions exist, but are open to wide interpretation and may not be adaptable to every need. At this point we can hazard some statements that may provide further clarity. Control statements should be concisely worded to specify required process outcomes. While this is very similar to a policy statement, policies are generally more oriented toward enterprise goals, whereas controls are more oriented toward process goals.
 
 A control differs from a standard in that the standard is focused on requirements for specific tools that may be used, coding structures, or
 techniques.

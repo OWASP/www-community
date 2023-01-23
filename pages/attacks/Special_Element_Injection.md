@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Special Element Injection
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Special_Element_Injection
 tags: attack, Special Element Injection
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -81,9 +79,9 @@ in the “index.php” page and enter their login information. However, using
 profile, the user could elevate their privileges to administrator.
 Example:
 
-`Username: Alice`
-`Password: 87654321`
-`Email: alice@attack.com |admin| `
+`Username: Alice`
+`Password: 87654321`
+`Email: alice@attack.com |admin| `
 
 This information will be recorded in “mem.php” file like this:
 
@@ -95,46 +93,46 @@ administrator profile.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category: Command
-    Execution](:Category:_Command_Execution "wikilink")
-  - [:Category: Authorization](:Category:_Authorization "wikilink")
+- [:Category: Command
+  Execution](:Category:_Command_Execution "wikilink")
+- [:Category: Authorization](:Category:_Authorization "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
+- [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
+- [:Category: Input Validation
+  Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
+- [:Category: Input Validation
+  Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
 ## References
 
-  - <http://cwe.mitre.org/data/definitions/75.html> - Special Element
-    Injection (75)
-  - <http://cwe.mitre.org/data/definitions/76.html> - Equivalent Special
-    Element Injection (76)
-  - <http://cwe.mitre.org/data/definitions/141.html> - Parameter
-    Delimiter(141)
-  - <http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0770> - Quake II
-    Server Vulnerability
-  - <http://www.kb.cert.org/vuls/id/970915> - Quake II Server performs
-    console variable expansion on client-supplied input values
-  - <http://archives.neohapsis.com/archives/bugtraq/2002-05/0118.html> -
-    Quaker II Server problem
-  - <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0307> -
-    Attacker inserts field separator into input to specify admin
-    privileges
+- <http://cwe.mitre.org/data/definitions/75.html> - Special Element
+  Injection (75)
+- <http://cwe.mitre.org/data/definitions/76.html> - Equivalent Special
+  Element Injection (76)
+- <http://cwe.mitre.org/data/definitions/141.html> - Parameter
+  Delimiter(141)
+- <http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0770> - Quake II
+  Server Vulnerability
+- <http://www.kb.cert.org/vuls/id/970915> - Quake II Server performs
+  console variable expansion on client-supplied input values
+- <http://archives.neohapsis.com/archives/bugtraq/2002-05/0118.html> -
+  Quaker II Server problem
+- <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0307> -
+  Attacker inserts field separator into input to specify admin
+  privileges
 
 \[\[Category:FIXME|link not working
 
-  - <http://cve.mitre.org/docs/plover/SECTION.9.3.html> - PLOVER:
-    SECTION.9.3. – Special Elements (Characters or Reserved Words)
+- <http://cve.mitre.org/docs/plover/SECTION.9.3.html> - PLOVER:
+  SECTION.9.3. – Special Elements (Characters or Reserved Words)
 
 \]\]
 

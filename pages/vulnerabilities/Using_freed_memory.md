@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Using freed memory
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Using_freed_memory
 tags: vulnerability, Using freed memory
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -21,13 +19,13 @@ leads to undefined system behavior and, in many cases, to a
 write-what-where condition.
 
 Use after free errors occur when a program continues to use a pointer
-after it has been freed. Like [double free errors](Doubly_freeing_memory) 
+after it has been freed. Like [double free errors](Doubly_freeing_memory)
 and [memory leaks](Memory_leak), use after free errors have two common
 and sometimes overlapping causes:
 
 - Error conditions and other exceptional circumstances
 - Confusion over which part of the program is responsible for freeing
-    the memory
+  the memory
 
 Use after free errors sometimes have no effect and other times cause a
 program to crash. While it is technically feasible for the freed memory
@@ -56,20 +54,20 @@ shellcode, execution of arbitrary code can be achieved.
 # Consequences
 
 - Integrity: The use of previously freed memory may corrupt valid
-    data, if the memory area in question has been allocated and used
-    properly elsewhere.
+  data, if the memory area in question has been allocated and used
+  properly elsewhere.
 - Availability: If chunk consolidation occurs after the use of
-    previously freed data, the process may crash when invalid data is
-    used as chunk information.
+  previously freed data, the process may crash when invalid data is
+  used as chunk information.
 - Access Control (instruction processing): If malicious data is
-    entered before chunk consolidation can take place, it may be
-    possible to take advantage of a write-what-where primitive to
-    execute arbitrary code.
+  entered before chunk consolidation can take place, it may be
+  possible to take advantage of a write-what-where primitive to
+  execute arbitrary code.
 
 # Exposure period
 
 - Implementation: Use of previously freed memory errors occur largely
-    at implementation time.
+  at implementation time.
 
 # Platform
 
@@ -126,14 +124,14 @@ shellcode, execution of arbitrary code can be achieved.
 # Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
 - [Buffer Overflow](Buffer_Overflow) (in particular, heap
-    overflows): The method of exploitation is often the same, as both
-    constitute the unauthorized writing to heap memory.
+  overflows): The method of exploitation is often the same, as both
+  constitute the unauthorized writing to heap memory.
   - Write-what-where condition: The use of previously freed memory can
     result in a write-what-where in several ways.
 
 # Related [Controls](https://owasp.org/www-community/controls/)
 
 - Implementation: Ensuring that all pointers are set to NULL once the
-    memory they point to has been freed can be effective strategy. The
-    utilization of multiple or complex data structures may lower the
-    usefulness of this strategy.
+  memory they point to has been freed can be effective strategy. The
+  utilization of multiple or complex data structures may lower the
+  usefulness of this strategy.

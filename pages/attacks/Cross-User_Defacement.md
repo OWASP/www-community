@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Cross-User Defacement
-author: 
+author:
 contributors: Zhong, Rezos, KristenS
 permalink: /attacks/Cross-User_Defacement
 tags: attack, Cross-User Defacement
-
 ---
 
 {% include writers.html %}

@@ -1,13 +1,11 @@
 ---
-
-title: 'Windows ::DATA Alternate Data Stream'
+title: "Windows ::DATA Alternate Data Stream"
 layout: col-sidebar
 author:
-contributors: 
+contributors:
 permalink: /attacks/Windows_alternate_data_stream
 tags: attack
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -65,9 +63,11 @@ attack.
 ### Example 3 - Exploiting the ASP Alternate Data Stream Show Code Vulnerability
 
 Normal access:
+
 - `http://www.alternate-data-streams.com/default.asp`
 
 Show code bypass accessing the :$DATA alternate data stream:
+
 - `http://www.alternate-data-streams.com/default.asp::$DATA`
 
 In the vulnerable versions, IIS parsed the extension of this file as

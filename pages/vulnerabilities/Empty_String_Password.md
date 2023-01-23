@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Empty String Password
 author:
 contributors:
 permalink: /vulnerabilities/Empty_String_Password
 tags: vulnerability, Empty String Password
-
 ---
 
 {% include writers.html %}

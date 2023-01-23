@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Insecure Compiler Optimization
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Insecure_Compiler_Optimization
 tags: vulnerability, Insecure Compiler Optimization
-
 ---
 
 {% include writers.html %}

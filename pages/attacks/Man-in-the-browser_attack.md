@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Man-in-the-browser attack
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Man-in-the-browser_attack
 tags: attack, Man-in-the-browser attack
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -36,16 +34,16 @@ and security mechanisms are displayed and work normally.
 
 Points of effect:
 
-  - **Browser Helper Objects** – dynamically-loaded libraries loaded by
-    Internet Explorer upon startup
-  - **Extensions** – the equivalent to Browser Helper Objects for
-    Firefox Browser
-  - **API-Hooking** – this is the technique used by Man-in-the-Browser
-    to perform its Man-in-the-Middle between the executable application
-    (EXE) and its libraries (DLL).
-  - **Javascript** – By using a malicious Ajax worm, as described on
-    [Ajax Sniffer - Proof of
-    Concept](http://myappsecurity.blogspot.com/2007/01/ajax-sniffer-prrof-of-concept.html)
+- **Browser Helper Objects** – dynamically-loaded libraries loaded by
+  Internet Explorer upon startup
+- **Extensions** – the equivalent to Browser Helper Objects for
+  Firefox Browser
+- **API-Hooking** – this is the technique used by Man-in-the-Browser
+  to perform its Man-in-the-Middle between the executable application
+  (EXE) and its libraries (DLL).
+- **Javascript** – By using a malicious Ajax worm, as described on
+  [Ajax Sniffer - Proof of
+  Concept](http://myappsecurity.blogspot.com/2007/01/ajax-sniffer-prrof-of-concept.html)
 
 ## Risk Factors
 
@@ -96,37 +94,36 @@ following steps:
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - TBD
+- TBD
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
-  - [:Category: Client-side
-    attacks](:Category:_Client-side_attacks "wikilink")
+- [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
+- [:Category: Client-side
+  attacks](:Category:_Client-side_attacks "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category: Session Management
-    Vulnerability](:Category:_Session_Management_Vulnerability "wikilink")
+- [:Category: Session Management
+  Vulnerability](:Category:_Session_Management_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category: Authentication](:Category:_Authentication "wikilink")
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-  - [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")
-  - [:Category:Session
-    Management](:Category:Session_Management "wikilink")
+- [:Category: Authentication](:Category:_Authentication "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")
+- [:Category:Session
+  Management](:Category:Session_Management "wikilink")
 
 ## References
 
-  - <http://events.ccc.de/congress/2006/Fahrplan/attachments/1158-Subverting_Ajax.pdf>
-    - Stefano di Paola and Giorgio Fedon, Subverting Ajax, Dec, 2006.
+- <http://events.ccc.de/congress/2006/Fahrplan/attachments/1158-Subverting_Ajax.pdf>
+  - Stefano di Paola and Giorgio Fedon, Subverting Ajax, Dec, 2006.
 
 \[\[Category:FIXME|link not working
 
-  - <http://www.it-observer.com/pdf/dl/concepts_against_mitb_attacks.pdf->
-    Philipp Gühring - Concepts against Man-in-the-Browser Attacks, May,
-    2006.
+- <http://www.it-observer.com/pdf/dl/concepts_against_mitb_attacks.pdf->
+  Philipp Gühring - Concepts against Man-in-the-Browser Attacks, May, 2006.
 
 \]\]
 

@@ -4,6 +4,7 @@ title: GSoC 2014 Ideas
 tags: gsoc
 permalink: /initiatives/gsoc/gsoc2014ideas
 ---
+
 # GSoC 2014 Ideas
 
 ## OWASP Hackademic Challenges
@@ -18,11 +19,11 @@ Also existing challenges can be modified to accept a broader set of valid answer
 
 Ideas on the project:
 
-* Simulated simple buffer overflows
-* SQL injections
-* Man in the middle simulation
-* Bypassing regular expression filtering
-* Your idea here
+- Simulated simple buffer overflows
+- SQL injections
+- Man in the middle simulation
+- Bypassing regular expression filtering
+- Your idea here
 
 #### Expected Results:
 
@@ -30,7 +31,7 @@ New cool challenges
 
 #### Knowledge Prerequisites:
 
-Comfortable in PHP, HTML and possibly Javascript. Good understanding of Application Security and related vulnerabilities. 
+Comfortable in PHP, HTML and possibly Javascript. Good understanding of Application Security and related vulnerabilities.
 
 **Mentors:** Konstantinos Papapanagiotou, Spyros Gasteratos - Hackademic Challenges Project Leaders
 
@@ -46,7 +47,7 @@ A source code testing and improvement environment where a user will be able to r
 
 #### Knowledge Prerequisites:
 
-Comfortable in PHP, HTML and possibly Java. Good understanding of Application Security, source code analysis and related vulnerabilities. 
+Comfortable in PHP, HTML and possibly Java. Good understanding of Application Security, source code analysis and related vulnerabilities.
 
 **Mentors:** Konstantinos Papapanagiotou, Spyros Gasteratos - Hackademic Challenges Project Leaders
 
@@ -58,20 +59,20 @@ Since this is probably the most difficult task proposed, if you are considering 
 
 Ideas on the project:
 
-*Administrator's point of view*
+_Administrator's point of view_
 
 Create an infrastructure that spawns virtual environments for users while keeping the load reasonable on the server(s).
 Or configure apache,php,mysql in a way that allows for multiple instances of the programms to run in parallel completely seperated from the rest of the server.
 The student is expected to provide configuration scripts that do the above
 
-*Coder's Way*
+_Coder's Way_
 
 This is better explained with an example:
 In order to create an sql injection challenge one should be able to call a common unsecure mysql execute statement function.
 The student can override common functions like this providing their own implementation of a very temporary database (based on flat files or nosql solutions e.t.c.).
 The new functions should be able to detect the sqli and apply its results in a secure way(if the student drops a table no actual tables should be dropped but the table should not be visible to the student anymore).
 
-* Your solution here *
+- Your solution here \*
 
 The above solutions are by no way complete,their intention is to start you thinking.
 This is a difficult task so if you consider takling it talk to us early on so we can reach a good solution which is possible in the GSoC timeframe.
@@ -88,44 +89,44 @@ The new CMS was created during last year's GSOC. We have received feedback from 
 
 Ideas on this project:
 
-* Template *
+- Template \*
 
 Since it's creation the project has received a good number of new features, but the visual/ux/ui part has never gotten much love.
 It would be good if we had a new template with proper ui design.
 
-* Questionaire creation plugin *
+- Questionaire creation plugin \*
 
-We'd like the admin to be able to create questionaires, assign rules for each question (e.g. correct answer +2pts incorrect answer -2, no answer 0)  and assign them to students as homework/exams.
+We'd like the admin to be able to create questionaires, assign rules for each question (e.g. correct answer +2pts incorrect answer -2, no answer 0) and assign them to students as homework/exams.
 The grading can either be done automatically (for multiple choice) or be submitted to the creator of the questionaire.
 
-* Ability to show different articles on the user's home screen 
+- Ability to show different articles on the user's home screen
 
 Now each user is served the latest article in their home screen. We need the ability for either the teacher/admin to be able to define what article each class is served.
 
-* Gamification of the user's progress *
+- Gamification of the user's progress \*
 
 A series of plugins and a template which allow the user to earn badges as they solve challenges and a better visual representation of their progress.
 
-* Ability to define series of challenges *
+- Ability to define series of challenges \*
 
 The teacher/admin should be able to define a series of challenges (e.g. 2,5,3,1) which are meant to be solved in that order and if one is not solved then the student can't try the next one.
 
-* Tagging of articles, users, challenges *
+- Tagging of articles, users, challenges \*
 
 A user should be able to put tags on articles and challenges if they are a student and on users, classes, articles and challenges if they are a teacher.
 Also the user should be able to search according to the tags.
 
-* Your idea here *
+- Your idea here \*
 
 We welcome new ideas to make the project look awesome.
 
 #### Expected Results:
 
-New features  and security improvements on the CMS part of the project.
+New features and security improvements on the CMS part of the project.
 
 #### Knowledge Prerequisites:
 
-Comfortable in PHP and HTML. Good understanding of Application Security and related vulnerabilities if you undertake security improvements. 
+Comfortable in PHP and HTML. Good understanding of Application Security and related vulnerabilities if you undertake security improvements.
 
 **Mentors:** Konstantinos Papapanagiotou, Spyros Gasteratos - Hackademic Challenges Project Leaders
 
@@ -135,7 +136,7 @@ Comfortable in PHP and HTML. Good understanding of Application Security and rela
 
 #### Description:
 
-Webgoat is a deliberately insecure open source software made by OWASP using Java programming language. It has a set of challenges and steps, each providing the user with one or more web application vulnerability which user tries to solve. There are also hints and auto-detection of correct solutions. 
+Webgoat is a deliberately insecure open source software made by OWASP using Java programming language. It has a set of challenges and steps, each providing the user with one or more web application vulnerability which user tries to solve. There are also hints and auto-detection of correct solutions.
 Since Java is not the most common web application programming language, and it doesn't have many of the bugs other languages such as PHP have when it comes to security, OWASP has dedicated in 2012 an amount of $5000 for promotion of WebGoatPHP.
 
 If you want to know more about WebGoatPHP, I suggest downloading and giving WebGoat a try. It is one of OWASP prides (about 200000 downloads).
@@ -154,15 +155,15 @@ You just need to know PHP. You are supposed to define flawed systems, which is n
 
 ### OWASP CSRF Guard
 
-#### Description: 
+#### Description:
 
-Cross-Site_Request_Forgery_(CSRF) is a complicated yet very effective web attack. The most important thing about CSRF is that it's hard to properly defend against it, specially when it comes to Web 2 and AJAX. We have had discussions on means of mitigating CSRF for years at OWASP, and are now ready to develop libraries for it. Many of the key ideas of this library can be found at [jcsrf](http://www.cs.sunysb.edu/~rpelizzi/jcsrf.pdf).
+Cross-Site*Request_Forgery*(CSRF) is a complicated yet very effective web attack. The most important thing about CSRF is that it's hard to properly defend against it, specially when it comes to Web 2 and AJAX. We have had discussions on means of mitigating CSRF for years at OWASP, and are now ready to develop libraries for it. Many of the key ideas of this library can be found at [jcsrf](http://www.cs.sunysb.edu/~rpelizzi/jcsrf.pdf).
 
 #### Expected Results:A transparent Apache 2 module properly mitigating all POST CSRF attacks, as well as a lightweight PHP library doing the same.
 
 #### Knowledge prerequisites: Knowing CSRF and at least one way to defend against it, PHP, C/C++, Linux.
 
-**Mentor:** Abbas Naderi, Rahul Chaudhary 
+**Mentor:** Abbas Naderi, Rahul Chaudhary
 
 ## OWASP PHP Security Project
 
@@ -178,9 +179,9 @@ Result of this project is much more security among PHP applications. Most PHP ap
 
 Last year, we got GSoC people working on OWASP PHPSEC, and we were the most active OWASP project. A lot of the libraries are in place, and this year, we will mostly work on the framework.
 
-#### Knowledge prerequisite: 
+#### Knowledge prerequisite:
 
-Anyone with adequate PHP programming language experience (possibly web application development in PHP).  There are hard and easy parts of this project. For tougher parts, familiarity with security concepts, advanced SQL, and advanced PHP and web server configuration is required. 
+Anyone with adequate PHP programming language experience (possibly web application development in PHP). There are hard and easy parts of this project. For tougher parts, familiarity with security concepts, advanced SQL, and advanced PHP and web server configuration is required.
 
 **Mentor:** Abbas Naderi, Rahul Chaudhary, Johanna Curiel
 
@@ -194,7 +195,7 @@ For the last 6 years, improper access control has been the issue behind two of t
 
 RBAC stands for Role Based Access Control and is the de-facto access control and authorization standard. It simplifies access control and its maintenance for small and enterprise systems alike. NIST RBAC standard has four levels, the second level hierarchical RBAC is intended for this project.
 
-Unfortunately because of many performance and development problems, no suitable RBAC implementation was available until recently, so developers and admins mostly used ACLs and other forms of simple access control methods, which leads to broken and unmaintainable access control over the time. 
+Unfortunately because of many performance and development problems, no suitable RBAC implementation was available until recently, so developers and admins mostly used ACLs and other forms of simple access control methods, which leads to broken and unmaintainable access control over the time.
 
 OWASP provides the RBAC project, as a stand-alone library with very fast access control checks and standard mature code-base. Currently PHPRBAC which is the PHP version of the RBAC project is released.
 
@@ -206,7 +207,7 @@ Standard NIST level 2 hierarchical RBAC libraries for different programming lang
 
 Good SQL knowledge, library development schemes, familiarity with one of the programming languages.
 
-**Mentor:** Abbas Naderi, Rahul Chaudhary 
+**Mentor:** Abbas Naderi, Rahul Chaudhary
 
 **Skill Level:** Advanced
 
@@ -255,13 +256,13 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 
 #### Expected Results:
 
-* **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
-* **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
-* High performance
-* Reliability
-* Ease of use
-* Test cases
-* Good documentation
+- **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- High performance
+- Reliability
+- Ease of use
+- Test cases
+- Good documentation
 
 #### Knowledge prerequisite:
 
@@ -276,16 +277,17 @@ Python knowledge is very welcome but not strictly necessary if there is will to 
 An unfortunate reality of penetration testing is the amount of time that is gone via reporting. Explaining vulnerabilities to non technical customers is difficult. Conveying the urgency of fixing XSS, CSRF and many other issues tends to be non-trivial. Especially when the overall security background from the customer is poor (which is common).
 
 This project aims to:
-* Provide boilerplate **vulnerability explanations** which can easily be copy-pasted into real-world reports
-* Provide boilerplate **vulnerability fixing recommendations** which can easily be copy-pasted into real-world reports
-For example: Linking to the [OWASP CheatSheets](https://www.owasp.org/index.php/Cheat_Sheets), providing platform-specific vulnerability fixing information (i.e. Apache vs. IIS vs. nginx), etc. is important here.
-* Allow penetration testers to **easily** customise and work with alternative remediation templates
-* (Obviously) map boilerplate templates to OWTF plugins so that OWTF can show/merge the templates together with the penetration tester notes :).
-* Storing remediation template information in a database would be nice to provide additional flexibility to copy-paste into or even generate a msoft word doc, odt, etc.
-* Implement **database import/export functionality** for the boilerplate templates
-* Improve the OWTF interactive report to make this copy-pasting as simple as possible
-* Improve the existing “magic bar” OWTF functionality (in the interactive report), which assembles all penetration tester notes in 1 easy to copy-paste page, so that it assembles the generated report like “vulnerability explanation + penetration tester notes + vulnerability fixing recommendations”.
-* **IMPORTANT** community features:
+
+- Provide boilerplate **vulnerability explanations** which can easily be copy-pasted into real-world reports
+- Provide boilerplate **vulnerability fixing recommendations** which can easily be copy-pasted into real-world reports
+  For example: Linking to the [OWASP CheatSheets](https://www.owasp.org/index.php/Cheat_Sheets), providing platform-specific vulnerability fixing information (i.e. Apache vs. IIS vs. nginx), etc. is important here.
+- Allow penetration testers to **easily** customise and work with alternative remediation templates
+- (Obviously) map boilerplate templates to OWTF plugins so that OWTF can show/merge the templates together with the penetration tester notes :).
+- Storing remediation template information in a database would be nice to provide additional flexibility to copy-paste into or even generate a msoft word doc, odt, etc.
+- Implement **database import/export functionality** for the boilerplate templates
+- Improve the OWTF interactive report to make this copy-pasting as simple as possible
+- Improve the existing “magic bar” OWTF functionality (in the interactive report), which assembles all penetration tester notes in 1 easy to copy-paste page, so that it assembles the generated report like “vulnerability explanation + penetration tester notes + vulnerability fixing recommendations”.
+- **IMPORTANT** community features:
 
 Feature 1) Making templates available on github.io site
 
@@ -305,10 +307,11 @@ OWTF allows many passive tests, such as those using third party websites like Go
 The idea here is to have a passive, JavaScript-only interactive report available on the github.io site, so that people can try OWTF **without installing anything**, simply visiting a URL.
 
 This would be a normal OWTF interactive report where the user can:
-* Enter a target
-* Try passive plugins (only the parts that use no tools)
-* Play with boilerplate templates from the OWTF interactive report
-This would make all the third-party website tests from OWTF usable from any browser, without having to install anything, etc.
+
+- Enter a target
+- Try passive plugins (only the parts that use no tools)
+- Play with boilerplate templates from the OWTF interactive report
+  This would make all the third-party website tests from OWTF usable from any browser, without having to install anything, etc.
 
 The thinking here is that this would make it even easier to use/try OWTF.
 
@@ -318,10 +321,11 @@ The thinking here is that this would make it even easier to use/try OWTF.
 The passive online scanner, simply makes OWTF passive testing "through third party websites" more accessible to anybody, however it is the user that must 1) click the link manually + 2) do something bad with that afterwards + 3) doing 1 + 2 WITHOUT permission :). Therefore this passive online scanner does not do anything illegal [More information about why this is not illegal here](http://www.slideshare.net/abrahamaranguren/legal-and-efficient-web-app-testing-without-permission) (recommended reading!)
 
 The thought here is to have a script that does something like:
-* Run "owtf.py -t passive http://demo.testfire.net"
-* Modifies the output report to have a big "add target" at the beginning
-* Adds necessary JavaScript to the report, so that demo.testfire.net can be changed to the value of Target field input
-Essentially, anybody would be able to run (most of) the passive stuff in owtf without having anything installed, this applies mostly to third party website testing (i.e. Google/Bing/NIST/etc. searches), but also to leave the whole OWASP Testing Guide there so that people can use the reports from there too.
+
+- Run "owtf.py -t passive http://demo.testfire.net"
+- Modifies the output report to have a big "add target" at the beginning
+- Adds necessary JavaScript to the report, so that demo.testfire.net can be changed to the value of Target field input
+  Essentially, anybody would be able to run (most of) the passive stuff in owtf without having anything installed, this applies mostly to third party website testing (i.e. Google/Bing/NIST/etc. searches), but also to leave the whole OWASP Testing Guide there so that people can use the reports from there too.
 
 The placeholder becomes "demo.testfire.net" essentially, of course, things like theHarvester won't work for this, but Google/Bing/etc. searches will work.
 This is somewhat like a JavaScript link generator for OWTF passive plugins, in a sense.
@@ -344,13 +348,13 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 
 #### Expected Results:
 
-* **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
-* **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
-* High performance
-* Reliability
-* Ease of use
-* Test cases
-* Good documentation
+- **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- High performance
+- Reliability
+- Ease of use
+- Test cases
+- Good documentation
 
 #### Knowledge prerequisite:
 
@@ -384,8 +388,9 @@ During analysis of this proposed project we identified some possible implementat
 **Possible Approach 1) Change all OWTF plugins**
 
 So that they produce:
-* Their usual output (as currently)
-* **An initial automated severity ranking (when possible)**
+
+- Their usual output (as currently)
+- **An initial automated severity ranking (when possible)**
 
 #### Potential Advantages:
 
@@ -410,14 +415,12 @@ The ranking logic is de-coupled from the scanning logic (where perhaps more info
 #### Expected Outcome and Reporting Implications
 
 At the end of the automated plugin severity rankings OWTF should:
-1. Provide a default, automated, plugin severity ranking for each plugin
-2. Since default severity rankings are less reliable (automated) they will be highlighted as such in the report, for example, providing a confidence percentage or at least a clear visual clue that the ranking is automated such as black/gray background. 
 
-If implementing a confidence percentage, OWTF would say "how sure" it is about a given automated ranking. For example "0%" would be "just guessing" and "100%" would be "exploitation verified".
-3. When the human overrides or confirms the default ranking, the ranking is considered
-"confirmed by a human" (i.e. more reliable) and this highlighting (i.e. black/gray background) is removed
-4. A new filter to group vulnerabilities by target will be provided in the report.
-5. A new filter to group vulnerabilities for all targets will be provided in the report
+1. Provide a default, automated, plugin severity ranking for each plugin
+2. Since default severity rankings are less reliable (automated) they will be highlighted as such in the report, for example, providing a confidence percentage or at least a clear visual clue that the ranking is automated such as black/gray background.
+
+If implementing a confidence percentage, OWTF would say "how sure" it is about a given automated ranking. For example "0%" would be "just guessing" and "100%" would be "exploitation verified". 3. When the human overrides or confirms the default ranking, the ranking is considered
+"confirmed by a human" (i.e. more reliable) and this highlighting (i.e. black/gray background) is removed 4. A new filter to group vulnerabilities by target will be provided in the report. 5. A new filter to group vulnerabilities for all targets will be provided in the report
 
 #### Potential project coordination
 
@@ -427,13 +430,13 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 
 #### Expected Results:
 
-* **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
-* **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
-* High performance
-* Reliability
-* Ease of use
-* Test cases
-* Good documentation
+- **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- High performance
+- Reliability
+- Ease of use
+- Test cases
+- Good documentation
 
 #### Knowledge prerequisite:
 
@@ -454,7 +457,7 @@ The Mozilla foundation has done great work with the Zest initiative, this provid
 This project, introduces the risk of seriously damaging OWTF performance, therefore, at a high level, we believe there are the following choices:
 
 Choice 1) **Background execution** - You try to see if a Zest script can be
-created for each plugin in the *background* while owtf keeps running
+created for each plugin in the _background_ while owtf keeps running
 
 Choice 2) **On-demand execution** - Using some Plug-n-Hack magic, we could
 have a button in the report saying "Generate Zest Scripts for plugin"
@@ -470,7 +473,7 @@ Makes sense on at least the output of scanner plugins (i.e. w3af finds a vuln, w
 
 2. **On-demand Zest script generation from plugin output**
 
-From the report, when you select a plugin, *could* be useful
+From the report, when you select a plugin, _could_ be useful
 
 3. **On-demand Zest script generation from HTTP transaction**
 
@@ -490,13 +493,13 @@ This project should be coordinated with [OWASP OWTF - Automated Plugin Severity 
 
 #### Expected Results:
 
-* **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
-* **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
-* High performance
-* Reliability
-* Ease of use
-* Test cases
-* Good documentation
+- **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- High performance
+- Reliability
+- Ease of use
+- Test cases
+- Good documentation
 
 #### Knowledge prerequisite:
 
@@ -508,7 +511,7 @@ Some previous exposure to security concepts, penetration testing, Python and dev
 
 #### Brief Explanation:
 
-The Mozilla foundation has done great work with [the Plug-n-Hack standard (PnH)](https://blog.mozilla.org/security/2013/08/22/plug-n-hack/), which allows security tools to provide better interaction with web browsers. For example, it allows us to send commands from the browser to the OWTF proxy, which opens the door to a much better user experience. Please note that **OWTF already supports Plug-n-Hack Phase 1**. 
+The Mozilla foundation has done great work with [the Plug-n-Hack standard (PnH)](https://blog.mozilla.org/security/2013/08/22/plug-n-hack/), which allows security tools to provide better interaction with web browsers. For example, it allows us to send commands from the browser to the OWTF proxy, which opens the door to a much better user experience. Please note that **OWTF already supports Plug-n-Hack Phase 1**.
 
 #### Overview
 
@@ -541,13 +544,13 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 
 #### Expected Results:
 
-* **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
-* **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
-* High performance
-* Reliability
-* Ease of use
-* Test cases
-* Good documentation
+- **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- High performance
+- Reliability
+- Ease of use
+- Test cases
+- Good documentation
 
 #### Knowledge prerequisite:
 
@@ -565,15 +568,16 @@ The automated functionality of OWASP OWTF is currently limited to the non-authen
 2. Configuration files
 
 What we would like to do here is to leverage the [powerful mechanize python library](http://wwwsearch.sourceforge.net/mechanize/) and build at least support for the following authentication options:
-* Basic authentication [Already implemented here](https://github.com/7a/owtf/issues/9)
-* Cookie based authentication
-* Form-based authentication
-* Client-side certificates
+
+- Basic authentication [Already implemented here](https://github.com/7a/owtf/issues/9)
+- Cookie based authentication
+- Form-based authentication
+- Client-side certificates
 
 #### Other important features
 
-* GUI mechanism to make authentication setup (super-)easy for the user via [Plug-n-Hack](https://blog.mozilla.org/security/2013/08/22/plug-n-hack/)
-* Ability to **keep track of several user roles** and allow easy switching via [Plug-n-Hack](https://developer.mozilla.org/en-US/docs/Plug-n-Hack)
+- GUI mechanism to make authentication setup (super-)easy for the user via [Plug-n-Hack](https://blog.mozilla.org/security/2013/08/22/plug-n-hack/)
+- Ability to **keep track of several user roles** and allow easy switching via [Plug-n-Hack](https://developer.mozilla.org/en-US/docs/Plug-n-Hack)
 
 Additionally, we would welcome here a feature to detect when the user has been logged off, to log OWTF back in again before retrying the next request. <-- The proxy is probably a better place to implement this since external tools would also benefit from this. This feature will have to be coordinated with the MiTM proxy feature (already implemented).
 
@@ -583,13 +587,13 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 
 #### Expected Results:
 
-* **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
-* **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
-* High performance
-* Reliability
-* Ease of use
-* Test cases
-* Good documentation
+- **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- High performance
+- Reliability
+- Ease of use
+- Test cases
+- Good documentation
 
 #### Knowledge prerequisite:
 
@@ -606,37 +610,39 @@ As OWASP OWTF grows it makes sense to build custom unit tests to automatically r
 #### Top features
 
 In this improvement phase, the Testing Framework should:
-* (Top Prio) Focus more on functional tests
-For example: Improve coverage of OWASP Testing Guide, PTES, etc. (lots of room for improvement there!)
-* (Top Prio) Put together a great wiki documentation section for contributors
-The goal here is to help contributors write tests for the functionality that they implement. This should be as easy as possible.
-* (Top Prio) Fix the current Travis issues :)
-* (Nice to have) Bring the unit tests up to speed with the codebase
-This will be challenging but very worth trying after top priorities.
-The wiki should be heavily updated so that contributors create their own unit tests easily moving forward.
+
+- (Top Prio) Focus more on functional tests
+  For example: Improve coverage of OWASP Testing Guide, PTES, etc. (lots of room for improvement there!)
+- (Top Prio) Put together a great wiki documentation section for contributors
+  The goal here is to help contributors write tests for the functionality that they implement. This should be as easy as possible.
+- (Top Prio) Fix the current Travis issues :)
+- (Nice to have) Bring the unit tests up to speed with the codebase
+  This will be challenging but very worth trying after top priorities.
+  The wiki should be heavily updated so that contributors create their own unit tests easily moving forward.
 
 #### General background
 
 The Unit Test Framework should be able to:
-* Define test categories: For example, "all plugins", "web plugins", "aux plugins", "test framework core", etc. (please see [this presentation](http://www.slideshare.net/abrahamaranguren/introducing-owasp-owtf-workshop-brucon-2012) for more background)
-* Allow to regression test isolated plugins (i.e. "only test _this_ plugin")
-* Allow to regression test by test categories (i.e. "test only web plugins")
-* Allow to regression test everything (i.e. plugins + framework core: "test all")
-* Produce meaningful statistics and easy to navigate logs to identify which tests failed and ideally also hints on how to potentially fix the problem where possible
-* Allow for easy creation of _new_ unit tests specific to OWASP OWTF
-* Allow for easy modification and maintenance of _existing_ unit tests specific to OWASP OWTF
-* Perform well so that we can run as many tests as possible in a given period of time
-* Potentially leverage the [python unittest library](http://docs.python.org/2/library/unittest.html)
+
+- Define test categories: For example, "all plugins", "web plugins", "aux plugins", "test framework core", etc. (please see [this presentation](http://www.slideshare.net/abrahamaranguren/introducing-owasp-owtf-workshop-brucon-2012) for more background)
+- Allow to regression test isolated plugins (i.e. "only test _this_ plugin")
+- Allow to regression test by test categories (i.e. "test only web plugins")
+- Allow to regression test everything (i.e. plugins + framework core: "test all")
+- Produce meaningful statistics and easy to navigate logs to identify which tests failed and ideally also hints on how to potentially fix the problem where possible
+- Allow for easy creation of _new_ unit tests specific to OWASP OWTF
+- Allow for easy modification and maintenance of _existing_ unit tests specific to OWASP OWTF
+- Perform well so that we can run as many tests as possible in a given period of time
+- Potentially leverage the [python unittest library](http://docs.python.org/2/library/unittest.html)
 
 For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
 
 #### Expected Results:
 
-* **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
-* **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
-* Performant and automated regression testing
-* Unit tests for a wide coverage of OWASP OWTF, ideally leveraging the Unit Test Framework where possible
-* Good documentation
+- **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- Performant and automated regression testing
+- Unit tests for a wide coverage of OWASP OWTF, ideally leveraging the Unit Test Framework where possible
+- Good documentation
 
 #### Knowledge prerequisite:
 
@@ -658,11 +664,11 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://www.owasp.org/inde
 
 #### Expected Results:
 
-* **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
-* **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
-* Performant and reliable OWASP OWTF execution on multiple python versions, in particular the latest python version (i.e. 3.3.x) as well as the previous 2.6.5-2.7.3 range.
-* Test cases
-* Good documentation
+- **IMPORTANT**: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
+- **IMPORTANT**: [OWTF contributor README compliant code](https://github.com/7a/owtf/wiki/Contributor%27s-README)
+- Performant and reliable OWASP OWTF execution on multiple python versions, in particular the latest python version (i.e. 3.3.x) as well as the previous 2.6.5-2.7.3 range.
+- Test cases
+- Good documentation
 
 #### Knowledge prerequisite:
 
@@ -671,16 +677,18 @@ Python, experience with python version upgrades and python version compatibility
 **Mentor:** Abraham Aranguren - OWASP OWTF Project Leader - Contact: name.surname@owasp.org
 
 ## OWASP PCI TOOLKIT
+
 ### OWASP PCI TOOLKIT
+
 OWASP PCI toolkit is an Open Source project built using Google Engine App, that will help organizations scope the PCI-DSS requirements for their System Components. The Payment Card Industry Data Security Standard (PCI DSS) is a proprietary information security standard for organizations that handle cardholder information for the major debit, credit, prepaid, e-purse, ATM, and POS cards.
 
 In order to comply with this standard, organizations need to understand the PCI-DSS requirements. Many of these requirements use OWASP guidelines as their baseline.
- 
+
 The OWASP PCI toolkit is a project focused on helping organization understand how OWASP guidelines apply to the PCI-DSS requirements.
 
 #### Expected Results:
 
-4 complete modules built as a Google App Engine: 
+4 complete modules built as a Google App Engine:
 [pci-toolkit.appspot.com](http://pci-toolkit.appspot.com/)
 
 #### Knowledge prerequisite:
@@ -710,9 +718,9 @@ For background on OWASP iGoat please see: [OWASP_iGoat_Project](https://www.owas
 
 #### Expected Results:
 
-* iGoat functions properly in all current aspects under iOS 7.x, compiled under Xcode 5.x.
-* All GUI, buttons, and other presentation layer aspects of iGoat are compliant with iOS 7.x look and feel.
-* (Optionally) write one or more new iGoat exercise modules, based on existing design descriptions to be provided by the project mentor.
+- iGoat functions properly in all current aspects under iOS 7.x, compiled under Xcode 5.x.
+- All GUI, buttons, and other presentation layer aspects of iGoat are compliant with iOS 7.x look and feel.
+- (Optionally) write one or more new iGoat exercise modules, based on existing design descriptions to be provided by the project mentor.
 
 #### Knowledge prerequisite:
 
@@ -733,13 +741,14 @@ ZAP is the [most active OWASP project](https://www.ohloh.net/orgs/OWASP) and was
 #### Expected Results:
 
 This development would allow (semi) automated access control testing by:
-* Maintaining and displaying different site trees (application maps) for different users/roles
-* Providing tools which access all of the content accessible via one user/role which should not be accessible via another user/role
-* Ideally allow resources to be tied to users/roles to allow enable horizontal privilege testing 
+
+- Maintaining and displaying different site trees (application maps) for different users/roles
+- Providing tools which access all of the content accessible via one user/role which should not be accessible via another user/role
+- Ideally allow resources to be tied to users/roles to allow enable horizontal privilege testing
 
 #### Knowledge prerequisite:
 
-ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential. 
+ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential.
 
 **Mentor:** Simon Bennetts - OWASP ZAP Project Leader
 
@@ -753,12 +762,12 @@ ZAP is the [most active OWASP project](https://www.ohloh.net/orgs/OWASP) and was
 
 #### Expected Results:
 
-* Users will be able to 'full' add-ons in any JSR 233 scripting language
-* A set of example add-ons demonstrating as much functionality as possible should be developed in at least Java Script, Jython and Jruby.
+- Users will be able to 'full' add-ons in any JSR 233 scripting language
+- A set of example add-ons demonstrating as much functionality as possible should be developed in at least Java Script, Jython and Jruby.
 
 #### Knowledge prerequisite:
 
-ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential. 
+ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential.
 
 **Mentor:** Simon Bennetts - OWASP ZAP Project Leader
 
@@ -766,21 +775,21 @@ ZAP is written in Java, so a good knowledge of this language is recommended, as 
 
 #### Brief Explanation:
 
-ZAP has only very limited support for AMF and does not provide an effective graphical representation of it. 
+ZAP has only very limited support for AMF and does not provide an effective graphical representation of it.
 This development will add full support for AMF.
 
 ZAP is the [most active OWASP project](https://www.ohloh.net/orgs/OWASP) and was voted the [most popular security tool of 2013](http://www.toolswatch.org/2013/12/2013-top-security-tools-as-voted-by-toolswatch-org-readers/) by ToolsWatch.org readers.
 
 #### Expected Results:
 
-* De-serialise and display AMF messages in ZAP graphically (based on existing POC code)
-* Expose the AMF data as parameters so that ZAP can scan them
-* Add new AMF specific scan rules as required
-* Implement in a way that makes it easier for ZAP to support other technologies (such as Java applets, Silverlight) 
+- De-serialise and display AMF messages in ZAP graphically (based on existing POC code)
+- Expose the AMF data as parameters so that ZAP can scan them
+- Add new AMF specific scan rules as required
+- Implement in a way that makes it easier for ZAP to support other technologies (such as Java applets, Silverlight)
 
 #### Knowledge prerequisite:
 
-ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential. 
+ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential.
 
 **Mentor:** Colm O'Flaherty - OWASP ZAP Core team
 
@@ -799,7 +808,7 @@ The development will allow ZAP to parse WSDL and populate the Sites tree with al
 
 #### Knowledge prerequisite:
 
-ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential. 
+ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential.
 
 **Mentor:** Simon Bennetts - OWASP ZAP Project Leader
 
@@ -807,7 +816,7 @@ ZAP is written in Java, so a good knowledge of this language is recommended, as 
 
 #### Brief Explanation:
 
-ZAP started out as a GUI only desktop tool. It now supports a headless 'daemon' mode but it is still not suitable for running as a long running service. This will require much heavier use of the database, and ideally will allow different databases to be used. 
+ZAP started out as a GUI only desktop tool. It now supports a headless 'daemon' mode but it is still not suitable for running as a long running service. This will require much heavier use of the database, and ideally will allow different databases to be used.
 
 ZAP is the [most active OWASP project](https://www.ohloh.net/orgs/OWASP) and was voted the [most popular security tool of 2013](http://www.toolswatch.org/2013/12/2013-top-security-tools-as-voted-by-toolswatch-org-readers/) by ToolsWatch.org readers.
 
@@ -817,7 +826,7 @@ ZAP able to run as a (very) long running service. There must be no memory leaks 
 
 #### Knowledge prerequisite:
 
-ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential. 
+ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential.
 
 **Mentor:** Simon Bennetts - OWASP ZAP Project Leader
 
@@ -835,20 +844,21 @@ A unit test framework which will allow the GUI to be easily tested. A set of uni
 
 #### Knowledge prerequisite:
 
-ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential. 
+ZAP is written in Java, so a good knowledge of this language is recommended, as is knowledge of HTML. Some knowledge of application security would be useful, but not essential.
 
 **Mentor:** Simon Bennetts - OWASP ZAP Project Leader
 
 ## [OWASP ESAPI](https://www.owasp.org/index.php/ESAPI) 2.x
+
 ### [OWASP ESAPI](https://www.owasp.org/index.php/ESAPI) 2.x - Security Configuration
 
 #### Brief explanation:
 
-There are currently more than a half-dozen of open Google Issues in ESAPI regarding the security configuration component (e.g., see [ESAPI Security Configuration Issues](http://code.google.com/p/owasp-esapi-java/issues/list?q=component%3DSecurityConfiguration)).  
+There are currently more than a half-dozen of open Google Issues in ESAPI regarding the security configuration component (e.g., see [ESAPI Security Configuration Issues](http://code.google.com/p/owasp-esapi-java/issues/list?q=component%3DSecurityConfiguration)).
 
 The ESAPI interface for its configuration (SecurityConfiguration) is overly complicated; it has a 'getter' method specific to almost every ESAPI configuration property. The rules for how and where the ESAPI.properties file is found are overly complicated making questions about it one of the most frequently asked questions on forums such as Stack Exchange and the ESAPI mailing lists. This complication leads to a unduly intricate, non-modular reference implementation (DefaultSecurityConfiguration) that makes it difficult to extend in terms of new functionality.
 
-A new, simpler security configuration interface and implementation is needed. Such an implementation would not only be useful for ESAPI 2.x, but could very well be used to build the configurator needed by ESAPI 3.  
+A new, simpler security configuration interface and implementation is needed. Such an implementation would not only be useful for ESAPI 2.x, but could very well be used to build the configurator needed by ESAPI 3.
 
 As part of this GSoC project, expectations would not only to address as many of the open security configuration issues as possible, but to also go beyond this to allow a framework for additional extensions in terms of functionality.
 
@@ -875,13 +885,13 @@ OWASP Seraphimdroid is relatively new OWASP project regarding Android security. 
 
 #### Expected results:
 
-* Building features for stopping threats that can cost money originating from third party applications (continue where it was stopped)
-* Build and propose features that can stop third party application damage user's privacy by sending user's data out of the mobile device (using internet) 
-* Enhance UI/UX
+- Building features for stopping threats that can cost money originating from third party applications (continue where it was stopped)
+- Build and propose features that can stop third party application damage user's privacy by sending user's data out of the mobile device (using internet)
+- Enhance UI/UX
 
 #### Knowledge Prerequisite:
 
-Since the OWASP Seraphimdroid project is written in Java and Android SDK, a good knowledge of Java, Android OS and SDK are essential. Good knowledge of XML and IP protocol can be useful. 
+Since the OWASP Seraphimdroid project is written in Java and Android SDK, a good knowledge of Java, Android OS and SDK are essential. Good knowledge of XML and IP protocol can be useful.
 
 **Mentor:** Nikola Milosevi] - OWASP Seraphimdroid Project Leader
 
@@ -931,10 +941,11 @@ Mentor: Felipe Zimmerle Costa and Ryan Barnett - OWASP ModSecurity Core Rule Set
 
 #### Brief explanation:
 
-The ModSecurity code includes a "standalone" version that wraps a light weight Apache/APR around the ModSecurity code.  This is used as the basis for the ports to the IIS/Nginx web server platforms.  The goal for this project task is to extend this standalone version so that it can accept a data feed of network traffic (e.g. libpcap) data as input and apply the ModSecurity CRS rules.  Possible solutions could be:
-* Create a ModSecurity "plugin" for the Snort IDS.
-* Create a ModSecurity "plugin" for the Suricata IDS.
-* Add libpcap sniffer wrapper to standalone ModSecurity code to directly pull data off the wire.
+The ModSecurity code includes a "standalone" version that wraps a light weight Apache/APR around the ModSecurity code. This is used as the basis for the ports to the IIS/Nginx web server platforms. The goal for this project task is to extend this standalone version so that it can accept a data feed of network traffic (e.g. libpcap) data as input and apply the ModSecurity CRS rules. Possible solutions could be:
+
+- Create a ModSecurity "plugin" for the Snort IDS.
+- Create a ModSecurity "plugin" for the Suricata IDS.
+- Add libpcap sniffer wrapper to standalone ModSecurity code to directly pull data off the wire.
 
 #### Expected Results:
 
@@ -984,9 +995,9 @@ C programming and ModSecurity Development [Guidelines](http://www.modsecurity.or
 
 #### Brief Explanation:
 
-Need an engine that can track normal application flow paths (click-flows) for business logic transactions - such as transferring money from accounts.  After profiling normal application path flows, we want to then be able to alert to anomalies.  This type of logic can help to prevent Banking Trojan attacks.
+Need an engine that can track normal application flow paths (click-flows) for business logic transactions - such as transferring money from accounts. After profiling normal application path flows, we want to then be able to alert to anomalies. This type of logic can help to prevent Banking Trojan attacks.
 
-Example - let's say an application has a multi-step checkout process to purchase an item.  This new engine would be able to profile/learn which URLs are accessed in what order and identify if clients skip steps or jump directly to other URLs in the flow.
+Example - let's say an application has a multi-step checkout process to purchase an item. This new engine would be able to profile/learn which URLs are accessed in what order and identify if clients skip steps or jump directly to other URLs in the flow.
 
 #### Expected Results:
 

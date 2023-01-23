@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Portability Flaw
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Portability_Flaw
 tags: vulnerability, Portability Flaw
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -21,11 +19,11 @@ The behavior of functions in this category varies by operating system,
 and at times, even by operating system version. Implementation
 differences can include:
 
-  - Slight differences in the way parameters are interpreted, leading to
-    inconsistent results.
-  - Some implementations of the function carry significant security
-    risks.
-  - The function might not be defined on all platforms.
+- Slight differences in the way parameters are interpreted, leading to
+  inconsistent results.
+- Some implementations of the function carry significant security
+  risks.
+- The function might not be defined on all platforms.
 
 ## Risk Factors
 
@@ -37,23 +35,23 @@ TBD
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
+- [Vulnerability 1](Vulnerability_1 "wikilink")
+- [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [Control 1](Control_1 "wikilink")
-  - [Control 2](Control_2 "wikilink")
+- [Control 1](Control_1 "wikilink")
+- [Control 2](Control_2 "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
@@ -86,7 +84,7 @@ Logging and Auditing Vulnerability
 
 Session Management Vulnerability\]\]
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Code Quality

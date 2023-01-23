@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Missing Error Handling
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Missing_Error_Handling
 tags: vulnerability, Missing Error Handling
-
 ---
 
 {% include writers.html %}

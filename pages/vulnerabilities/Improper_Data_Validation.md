@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Improper Data Validation
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Improper_Data_Validation
 tags: vulnerability, Improper Data Validation
-
 ---
 
 {% include writers.html %}
@@ -207,4 +205,4 @@ TBD
 
 TBD
 
-__NOTOC__
+**NOTOC**

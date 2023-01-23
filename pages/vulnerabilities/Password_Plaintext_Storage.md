@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Password Plaintext Storage
 author:
 contributors:
 permalink: /vulnerabilities/Password_Plaintext_Storage
 tags: vulnerability, Password Plaintext Storage
-
 ---
 
 {% include writers.html %}

@@ -1,12 +1,10 @@
 ---
-
 title: Intrusion Detection
 layout: col-sidebar
 author:
 contributors: KirstenS, Wichers, Jkurucar, kingthorin
 tags: controls
 permalink: /controls/Intrusion_Detection
-
 ---
 
 {% include writers.html %}

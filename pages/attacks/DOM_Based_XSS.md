@@ -1,12 +1,10 @@
 ---
-
 title: DOM Based XSS
 layout: col-sidebar
 author:
 contributors:
 auto-migrated: 1
 permalink: /attacks/DOM_Based_XSS
-
 ---
 
 {% include writers.html %}
@@ -198,4 +196,4 @@ Europe AppSec presentation) Ivan Ristic, May 2007
 
 \[6\] OWASP Testing Guide
 
-[Testing_for_DOM-based_Cross_site_scripting_(OWASP-DV-003)](Testing_for_DOM-based_Cross_site_scripting_\(OWASP-DV-003\) "wikilink")
+[Testing*for_DOM-based_Cross_site_scripting*(OWASP-DV-003)](<Testing_for_DOM-based_Cross_site_scripting_(OWASP-DV-003)> "wikilink")

@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: HTTP Response Splitting
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/HTTP_Response_Splitting
 tags: attack, HTTP Response Splitting
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -16,10 +14,10 @@ auto-migrated: 1
 
 HTTP response splitting occurs when:
 
-  - Data enters a web application through an untrusted source, most
-    frequently an HTTP request.
-  - The data is included in an HTTP response header sent to a web user
-    without being validated for malicious characters.
+- Data enters a web application through an untrusted source, most
+  frequently an HTTP request.
+- The data is included in an HTTP response header sent to a web user
+  without being validated for malicious characters.
 
 HTTP response splitting is a means to an end, not an end in itself. At
 its root, the attack is straightforward: an attacker passes malicious
@@ -90,9 +88,9 @@ The ability of the attacker to construct arbitrary HTTP responses
 permits a variety of resulting attacks, including: [Cross-User
 Defacement](Cross-User_Defacement "wikilink"), [Cache
 Poisoning](Cache_Poisoning "wikilink"), [Cross-site Scripting
-(XSS)](Cross-site_Scripting_\(XSS\) "wikilink") and [Page
+(XSS)](<Cross-site_Scripting_(XSS)> "wikilink") and [Page
 Hijacking](Page_Hijacking "wikilink").
 
-__NOTOC__
+**NOTOC**
 
 [Category: Attack](Category:_Attack "wikilink")

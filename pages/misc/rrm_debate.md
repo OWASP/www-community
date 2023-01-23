@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: OWASP Risk Rating Methodology - Debate (Historic)
 author: kingthorin
 contributors:
 permalink: /misc/rrm_debate
 tags: risk rating methodology, rrm
-
 ---
 
 References to previous debate on the OWASP Risk Rating Methodology (these are just a sample, there's much more on the mailing lists):

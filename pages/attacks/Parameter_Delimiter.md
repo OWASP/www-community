@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Parameter Delimiter
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Parameter_Delimiter
 tags: attack, Parameter Delimiter
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -46,9 +44,9 @@ option in the “index.php” page and enter their login information. However,
 using “|” as a parameter delimiter on email field followed by “admin”,
 the user could elevate their privileges to administrator. Example:
 
-`Username: Alice`
-`Password: 87654321`
-`Email: alice@attack.com |admin| `
+`Username: Alice`
+`Password: 87654321`
+`Email: alice@attack.com |admin| `
 
 This information will be recorded in “mem.php” file like this:
 
@@ -63,28 +61,28 @@ profiles, it allows privilege escalation for application users.
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category: Authorization](:Category:_Authorization "wikilink")
-  - [:Category: Command
-    Execution](:Category:_Command_Execution "wikilink")
+- [:Category: Authorization](:Category:_Authorization "wikilink")
+- [:Category: Command
+  Execution](:Category:_Command_Execution "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
+- [:Category:Injection Attack](:Category:Injection_Attack "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
+- [:Category: Input Validation
+  Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category: Input
-    Validation](:Category:_Input_Validation "wikilink")
+- [:Category: Input
+  Validation](:Category:_Input_Validation "wikilink")
 
 ## References
 
-  - <http://cwe.mitre.org/data/definitions/141.html>
-  - <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0307>
+- <http://cwe.mitre.org/data/definitions/141.html>
+- <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0307>
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)

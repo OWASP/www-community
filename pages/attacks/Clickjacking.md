@@ -1,12 +1,10 @@
 ---
-
 title: Clickjacking
 layout: col-sidebar
-author: Gustav Rydstedt 
+author: Gustav Rydstedt
 contributors: Wichers, Jmanico, MichaelCoates, Till Maas, Ajay, Michael Monsivais, Arun Kumar V, Abhinav, Neil Smithline, kingthorin, Shai Alon
 permalink: /attacks/Clickjacking
 tags: attack, clickjacking
-
 ---
 
 {% include writers.html %}
@@ -58,12 +56,13 @@ etc](http://threatpost.com/en_us/blogs/facebook-jacking-scams-expand-060310)
 There are three main ways to prevent clickjacking:
 
 1.  Sending the proper Content Security Policy (CSP) frame-ancestors directive response headers that instruct the browser to not allow framing from other domains. The older `X-Frame-Options` HTTP headers is used for graceful degradation and older browser compatibility.
-2. Properly setting authentication cookies with `SameSite=Strict` (or `Lax`), unless they explicitly need `None` (which is rare).
-3. Employing defensive code in the UI to ensure that the current frame is the most top level window.
+2.  Properly setting authentication cookies with `SameSite=Strict` (or `Lax`), unless they explicitly need `None` (which is rare).
+3.  Employing defensive code in the UI to ensure that the current frame is the most top level window.
 
 For more information on Clickjacking defense, please see the the [Clickjacking Defense Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html).
 
 # References
+
 - [Why am I anxious about Clickjacking?](https://www.linkedin.com/pulse/20141202104842-120953718-why-am-i-anxious-about-clickjacking)
 - A Basic understanding of Clickjacking Attack
 - <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors>

@@ -1,5 +1,4 @@
 ---
-
 title: Types of XSS
 layout: col-sidebar
 author:
@@ -7,7 +6,6 @@ contributors:
 tags: xss
 auto-migrated: 1
 permalink: /Types_of_Cross-Site_Scripting
-
 ---
 
 {% include writers.html %}
@@ -67,8 +65,8 @@ clarify things, starting about mid 2012, the research community proposed
 and started using two new terms to help organize the types of XSS that
 can occur:
 
-  - Server XSS
-  - Client XSS
+- Server XSS
+- Client XSS
 
 ## Server XSS
 
@@ -108,7 +106,7 @@ other axis as depicted in Dave Witchers’ DOM Based XSS talk \[2\]:
 Server XSS is caused by including untrusted data in an HTML response.
 The easiest and strongest defense against Server XSS in most cases is:
 
-  - Context-sensitive server side output encoding
+- Context-sensitive server side output encoding
 
 The details on how to implement Context-sensitive server side output
 encoding are presented in the OWASP [XSS (Cross Site Scripting)
@@ -126,7 +124,7 @@ Client XSS is caused when untrusted data is used to update the DOM with
 an unsafe JavaScript call. The easiest and strongest defense against
 Client XSS is:
 
-  - Using safe JavaScript APIs
+- Using safe JavaScript APIs
 
 However, developers frequently don’t know which JavaScript APIs are safe
 or not, never mind which methods in their favorite JavaScript library
@@ -158,19 +156,19 @@ USA), Dave Wichers, 2012
 
 ### Related OWASP Articles
 
-  - [Cross-site Scripting
-    (XSS)](attacks/xss/)
-  - [Stored
-    XSS](attacks/xss/#stored-xss-attacks)
-    (AKA Persistent or Type I XSS)
-  - [Reflected
-    XSS](attacks/xss/#reflected-xss-attacks)
-    (AKA Non-Persistent or Type II XSS)
-  - [DOM Based XSS](attacks/DOM_Based_XSS)
-  - [XSS (Cross Site Scripting) Prevention Cheat
-    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
-  - [DOM based XSS Prevention Cheat
-    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
+- [Cross-site Scripting
+  (XSS)](attacks/xss/)
+- [Stored
+  XSS](attacks/xss/#stored-xss-attacks)
+  (AKA Persistent or Type I XSS)
+- [Reflected
+  XSS](attacks/xss/#reflected-xss-attacks)
+  (AKA Non-Persistent or Type II XSS)
+- [DOM Based XSS](attacks/DOM_Based_XSS)
+- [XSS (Cross Site Scripting) Prevention Cheat
+  Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+- [DOM based XSS Prevention Cheat
+  Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
 
 ### Acknowledgements
 
@@ -178,9 +176,9 @@ A number of us in the industry have been discussing the new terms Server
 XSS and Client XSS since mid 2012 and we all agree that these terms help
 bring more clarity and order to the XSS terminology landscape.
 
-  - Dave Wichers
-  - Arshan Dabirsiaghi
-  - Stefano Di Paolo
-  - Mario Heiderich
-  - Eduardo Alberto Vela Nava
-  - Jeff Williams
+- Dave Wichers
+- Arshan Dabirsiaghi
+- Stefano Di Paolo
+- Mario Heiderich
+- Eduardo Alberto Vela Nava
+- Jeff Williams

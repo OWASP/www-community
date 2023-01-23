@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Allowing Domains or Accounts to Expire
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Allowing_Domains_or_Accounts_to_Expire
 tags: vulnerability, Allowing Domains or Accounts to Expire
-
 ---
 
 {% include writers.html %}

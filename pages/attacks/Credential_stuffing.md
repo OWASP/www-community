@@ -1,29 +1,26 @@
 ---
-
 layout: col-sidebar
 title: Credential stuffing
 author: Neal Mueller
 contributors: Jmanico, Dirk Wetter, kingthorin, Nick Malcolm
 permalink: /attacks/Credential_stuffing
 tags: attack, Credential stuffing
-
 ---
 
 {% include writers.html %}
 
 ## Description
 
-Credential stuffing is the automated injection of stolen username and password pairs ("credentials") in to website login forms, in order to fraudulently gain access to user accounts. 
+Credential stuffing is the automated injection of stolen username and password pairs ("credentials") in to website login forms, in order to fraudulently gain access to user accounts.
 
 Since many users will re-use the same password and username/email, when those credentials are exposed (by a database breach or phishing attack, for example) submitting those sets of stolen credentials into dozens or hundreds of other sites can allow an attacker to compromise those accounts too.
 
 Credential Stuffing is a subset of the brute force attack category. Brute forcing will attempt to try multiple passwords against one or multiple accounts; guessing a password, in other words. Credential Stuffing typically refers to specifically using known (breached) username / password pairs against other websites.
 
-
 ### Likelihood & Severity
 
 Credential stuffing is one of the most common techniques used to
-take-over user accounts. 
+take-over user accounts.
 
 Credential stuffing is dangerous to both consumers and enterprises because of the ripple effects of these breaches. For more information on this please reference the Examples section showing the connected chain of events from one breach to another through credential stuffing.
 
@@ -50,7 +47,6 @@ In the diagram above, acme.com's database is compromised. An attacker takes the 
 
 Defenses against Credential Stuffing are described in the [Credential Stuffing Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html), Multi-Factor Authentication being a primary counter-measure.
 
-
 ## Examples
 
 Below are excerpts taken from publications analyzing large-scale
@@ -58,7 +54,7 @@ breaches. Evidence supports that these breaches were the result of
 credential stuffing.
 
 - Sony, 2011 breach: “I wish to highlight that two-thirds of users whose data were in both the Sony data set and the Gawker breach earlier this year used the same password for each system.”
-  - Source: Agile Bits     [1](https://blog.agilebits.com/2011/06/07/two-thirds-of-web-users-re-use-the-same-passwords/) - Source: Wired [2](http://www.wired.com/2011/10/93000-sony-accounts-breached/)
+  - Source: Agile Bits [1](https://blog.agilebits.com/2011/06/07/two-thirds-of-web-users-re-use-the-same-passwords/) - Source: Wired [2](http://www.wired.com/2011/10/93000-sony-accounts-breached/)
 - Yahoo, 2012 breach: “What do Sony and Yahoo\! have in common? Passwords\!”.
   - Source: Troy Hunt. [3](http://www.troyhunt.com/2012/07/what-do-sony-and-yahoo-have-in-common.html)
 - Dropbox, 2012 breach: “The usernames and passwords referenced in these articles were stolen from unrelated services, not Dropbox. Attackers then used these stolen credentials to try to log in to sites across the internet, including Dropbox”.
@@ -71,19 +67,17 @@ JPMC. The JPMC breach came from a separate and unrelated source. We know
 that the JPMC breach was caused by attackers targeting an unrelated
 third-party athletic race/run site for credentials to use against JPMC.
 
-
 ## References
 
-
-  - [F5's 2021 Credential Stuffing Report](https://www.f5.com/labs/articles/threat-intelligence/2021-credential-stuffing-report)
-  - [You Can’t Secure 100% of Your Data 100% of the Time (2017)](https://hbr.org/2017/12/you-cant-secure-100-of-your-data-100-of-the-time)
-  - [How Third Party Password Breaches Put Your Website at Risk (2013)](http://michael-coates.blogspot.be/2013/11/how-third-party-password-breaches-put.html)
-  - [What Happens to Stolen Data After a Breach?](http://www.securityweek.com/what-happens-stolen-data-after-breach)
+- [F5's 2021 Credential Stuffing Report](https://www.f5.com/labs/articles/threat-intelligence/2021-credential-stuffing-report)
+- [You Can’t Secure 100% of Your Data 100% of the Time (2017)](https://hbr.org/2017/12/you-cant-secure-100-of-your-data-100-of-the-time)
+- [How Third Party Password Breaches Put Your Website at Risk (2013)](http://michael-coates.blogspot.be/2013/11/how-third-party-password-breaches-put.html)
+- [What Happens to Stolen Data After a Breach?](http://www.securityweek.com/what-happens-stolen-data-after-breach)
 
 ## See Also
 
-  - OWASP [Credential Stuffing Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html)
-  - OWASP [Brute Force Attack](https://owasp.org/www-community/attacks/Brute_force_attack) 
-  - OWASP [Password Spraying](https://owasp.org/www-community/attacks/Password_Spraying_Attack) 
+- OWASP [Credential Stuffing Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html)
+- OWASP [Brute Force Attack](https://owasp.org/www-community/attacks/Brute_force_attack)
+- OWASP [Password Spraying](https://owasp.org/www-community/attacks/Password_Spraying_Attack)
 
 [Category:Attack](https://owasp.org/www-community/attacks/)

@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Spyware
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Spyware
 tags: attack, Spyware
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -47,28 +45,28 @@ spyware
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
-  - [:Category:Client-side
-    Attacks](:Category:Client-side_Attacks "wikilink")
+- [:Category:Client-side
+  Attacks](:Category:Client-side_Attacks "wikilink")
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Trojan Horse](Trojan_Horse "wikilink")
-  - [Phishing](Phishing "wikilink")
-  - [:Category:Malicious Code
-    Attack](:Category:Malicious_Code_Attack "wikilink")
+- [Trojan Horse](Trojan_Horse "wikilink")
+- [Phishing](Phishing "wikilink")
+- [:Category:Malicious Code
+  Attack](:Category:Malicious_Code_Attack "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - TBD
+- TBD
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - TBD
+- TBD
 
 ## References
 
-  - <http://cwe.mitre.org/data/definitions/506.html> - Malicious
-  - <http://en.wikipedia.org/wiki/Spyware> - Spyware
+- <http://cwe.mitre.org/data/definitions/506.html> - Malicious
+- <http://en.wikipedia.org/wiki/Spyware> - Spyware
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [not a threat agent that is currently there](Category:FIXME "wikilink")

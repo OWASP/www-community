@@ -1,12 +1,10 @@
 ---
-
 title: Detect Profiling Phase
 layout: col-sidebar
 author: Dominique RIGHETTO
 contributors: Imifos, kingthorin
 tags: controls
 permalink: /controls/Detect_profiling_phase_into_web_application
-
 ---
 
 {% include writers.html %}
@@ -19,7 +17,7 @@ The ideas proposed into this page can seems to be uncommon, aggressive
 or a little bit crazy in corporate environment (like a web banking) but
 the initial page author is personally convinced that if we can detect a
 profiling phase and send sign, to the originator, indicating clearly to
-them that "*we know what is currently doing*" we must be able to stop
+them that "_we know what is currently doing_" we must be able to stop
 attack before that it can cause damage.
 
 ## Introduction
@@ -168,9 +166,9 @@ application performance.
 The table below lists the name and value of the fake cookie that will be
 issued at first visitor request:
 
-| Name           | Description                                                                    | Value          | Life Time  |
-|----------------| -------------------------------------------------------------------------------|--------------- |------------|
-| `verbose_mode` | Simulate a flag that can enable development mode (verbose) of the application. | false          | 1 day      |
+| Name           | Description                                                                    | Value | Life Time |
+| -------------- | ------------------------------------------------------------------------------ | ----- | --------- |
+| `verbose_mode` | Simulate a flag that can enable development mode (verbose) of the application. | false | 1 day     |
 
 See this class
 [ActiveDetectionFilter](https://code.google.com/p/righettod/source/browse/JEE/ProfilingDetectionPOC/src/main/java/com/googlecode/righettod/pdec/ActiveDetectionFilter.java)
@@ -186,13 +184,13 @@ level of invasion on the client.
 
 **Level 1: Without invasion**
 
-*Simply block connection to application*
+_Simply block connection to application_
 
 Close TCP/IP connection or block list IP address.
 
 **Level 2: With invasion**
 
-*Gather information about attacker from is computer*
+_Gather information about attacker from is computer_
 
 Run client application through browser plugin (for example Java applet
 signed by the company, crafted pdf file…) and gather information like

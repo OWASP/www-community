@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Path Traversal
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Path_Traversal
 tags: attack, Path Traversal
-
 ---
 
 {% include writers.html %}
@@ -46,7 +44,7 @@ All but the most simple web applications have to include local resources, such a
 - Ensure the user cannot supply all parts of the path – surround it with your path code
 - Validate the user’s input by only accepting known good – do not sanitize the data
 - Use chrooted jails and code access policies to restrict where the files can be obtained or saved to
-- If forced to use user input for file operations, normalize the input before using in file io API's, such as [normalize()](http://docs.oracle.com/javase/7/docs/api/java/net/URI.html#normalize()).
+- If forced to use user input for file operations, normalize the input before using in file io API's, such as [normalize()](<http://docs.oracle.com/javase/7/docs/api/java/net/URI.html#normalize()>).
 
 ### How to Test for Path Traversal Vulnerabilities
 
@@ -61,12 +59,12 @@ Encoding and double encoding:
 
 - `%2e%2e%2f` represents `../`
 - `%2e%2e/` represents `../`
-- `..%2f` represents `../ `
+- `..%2f` represents `../ `
 - `%2e%2e%5c` represents `..\`
-- `%2e%2e\` represents `..\ `
-- `..%5c` represents `..\ `
-- `%252e%252e%255c` represents `..\ `
-- `..%255c` represents `..\` 
+- `%2e%2e\` represents `..\ `
+- `..%5c` represents `..\ `
+- `%252e%252e%255c` represents `..\ `
+- `..%255c` represents `..\`
 
 and so on.
 
@@ -75,8 +73,8 @@ and so on.
 Note that web containers perform one level of decoding on percent
 encoded values from forms and URLs.
 
-- `..%c0%af` represents `../ `
-- `..%c1%9c` represents `..\ `
+- `..%c0%af` represents `../ `
+- `..%c1%9c` represents `..\ `
 
 #### OS specific
 

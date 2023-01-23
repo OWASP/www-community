@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Attacks
 author:
 contributors:
-tags: 
+tags:
 permalink: /attacks/
-
 ---
 
 {% include writers.html %}

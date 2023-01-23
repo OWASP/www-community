@@ -14,18 +14,19 @@ tags: chaptersAllDay2020
 
 ## Hour 01 - Opening Session
 
-### Session Host: Takaharu Ogasa, *Chapter Leader, OWASP Sendai (Japan)*
+### Session Host: Takaharu Ogasa, _Chapter Leader, OWASP Sendai (Japan)_
 
 {% include video.html video="https://www.youtube.com/watch?v=VjGbfuGWc2I" %}
 
--------------
+---
 
 ## Hour 02 - Hosted by OWASP Belgium
 
-### Session Host: Sebastien Deleersnyder, *Chapter Leader*
+### Session Host: Sebastien Deleersnyder, _Chapter Leader_
 
 ### Talk 1 - OWASP SAMM v2: Your Dynamic Software Security Journey
-*Sebastien Deleersnyder - Project Leader*
+
+_Sebastien Deleersnyder - Project Leader_
 {% include video.html video="https://www.youtube.com/watch?v=H7xH3YIhMcM&t=190" %}
 
 #### Abstract
@@ -34,46 +35,49 @@ Building security into the software development and management practices of a co
 
 #### Speaker Biography
 
-**Sebastien (Seba) Deleersnyder** is co-founder and CEO of Toreon, and a proponent of application security as a holistic endeavor. He started the Belgian OWASP chapter, was a member of the OWASP Foundation Board and performed several public presentations on Application Security. Seba also co-organized the yearly security & hacker BruCON conference and trainings in Belgium. 
+**Sebastien (Seba) Deleersnyder** is co-founder and CEO of Toreon, and a proponent of application security as a holistic endeavor. He started the Belgian OWASP chapter, was a member of the OWASP Foundation Board and performed several public presentations on Application Security. Seba also co-organized the yearly security & hacker BruCON conference and trainings in Belgium.
 
 With a background in development and many years of experience in security, he has trained countless developers to create software more securely. He has led OWASP projects such as OWASP SAMM, thereby truly making the world a little bit safer. Now he is adapting application security models to the evolving field of DevOps and is also focused on bringing Threat Modeling to a wider audience. **Twitter:** [@sebadele](https://twitter.com/sebadele)
 
 ### Talk 2 - A Practical Approach for Taking Down Avalanche Botnets Under Real-World Constraints
-*Victor Le Pochat - PhD student web security at KU Leuven*
+
+_Victor Le Pochat - PhD student web security at KU Leuven_
 {% include video.html video="https://www.youtube.com/watch?v=H7xH3YIhMcM&t=2100" %}
 
 #### Abstract
 
-In 2016, law enforcement conducted the largest takedown of a cybercrime operation so far, targeting the Avalanche botnet. 
+In 2016, law enforcement conducted the largest takedown of a cybercrime operation so far, targeting the Avalanche botnet.
 They faced a challenge when blocking future registration of the C&C domains: some of these domains already existed, and this was not necessarily for malicious purposes.<br>
 In our talk, we discuss our collaboration in developing an approach to improve detection of these false positives for the ongoing cleanup of Avalanche. We'll explain how we leveraged the synergy of a machine learning model and human analyst to reduce manual effort without compromising correctness.
 
 #### Speaker Biography
 
-**Victor Le Pochat** is a PhD student in the area of web security at the imec-DistriNet research group at KU Leuven in Belgium.  His interests lie in the exploration of web ecosystems through large-scale measurements, and in web security
+**Victor Le Pochat** is a PhD student in the area of web security at the imec-DistriNet research group at KU Leuven in Belgium. His interests lie in the exploration of web ecosystems through large-scale measurements, and in web security
 research methodology, both analyzing and improving current research practices.<br>
 [@VictorLePochat](https://twitter.com/VictorLePochat)
 
----------
+---
 
 ## Hour 03 - Hosted by OWASP New York City (CA, USA)
 
-### Session Host: Guy Osa, *Chapter Leader*
+### Session Host: Guy Osa, _Chapter Leader_
 
 ### Flattening the Cyber Curve
-*Christopher Frenz*
+
+_Christopher Frenz_
 {% include video.html video="https://www.youtube.com/watch?v=mGVXYaqmybo&t=273" %}
 
 #### Abstract
 
-*To be provided*
+_To be provided_
 
 #### Speaker Biography
 
-**Christopher Frenz** is the AVP of Information Security for Interfaith Medical Center where he worked to develop the hospital's information security program and infrastructure.  Under his leadership the hospital has been one of the first in the country to embrace a zero trust model for network security. Christopher has also played a role in pushing for the adoption of improved security standards within hospitals and is the author of the OWASP Secure Medical Device Deployment Standard as well as the OWASP Anti-Ransomware Guide. He also currently chairs the AEHIS Incident Response Committee which has released several deliverables designed to help hospitals test and improve their incident response capabilities.  Christopher has been recognized as a Rising Star amongst healthcare executives and also a top healthcare IT leader by Becker's Hospital Review.  He has also been recognized as a top healthcare IT leader by Health Data Management.  Christopher's security expertise has been highlighted in The Financial Times, CSO Magazine, SC Magazine and many other publications.  Christopher shares his expertise at conferences around the world including presentations at VMworld, ASIS GSX, Defcon, HIMSS, and many others.  He is also the author of the computer programming books _Pro Perl Parsing_ and _Visual Basic and Visual Basic .NET for Scientists and Engineers_. [LinkedIn](https://www.linkedin.com/in/christopherfrenz/)
+**Christopher Frenz** is the AVP of Information Security for Interfaith Medical Center where he worked to develop the hospital's information security program and infrastructure. Under his leadership the hospital has been one of the first in the country to embrace a zero trust model for network security. Christopher has also played a role in pushing for the adoption of improved security standards within hospitals and is the author of the OWASP Secure Medical Device Deployment Standard as well as the OWASP Anti-Ransomware Guide. He also currently chairs the AEHIS Incident Response Committee which has released several deliverables designed to help hospitals test and improve their incident response capabilities. Christopher has been recognized as a Rising Star amongst healthcare executives and also a top healthcare IT leader by Becker's Hospital Review. He has also been recognized as a top healthcare IT leader by Health Data Management. Christopher's security expertise has been highlighted in The Financial Times, CSO Magazine, SC Magazine and many other publications. Christopher shares his expertise at conferences around the world including presentations at VMworld, ASIS GSX, Defcon, HIMSS, and many others. He is also the author of the computer programming books _Pro Perl Parsing_ and _Visual Basic and Visual Basic .NET for Scientists and Engineers_. [LinkedIn](https://www.linkedin.com/in/christopherfrenz/)
 
 ### OWASP Vulnerability Management Guide (OVMG)
-*Elizabeth Frenz*
+
+_Elizabeth Frenz_
 {% include video.html video="https://www.youtube.com/watch?v=mGVXYaqmybo&t=3807"%}
 
 #### Abstract
@@ -82,52 +86,54 @@ This is an introductory presentation about OWASP Vulnerability Management Guide 
 
 #### Speaker Biography
 
-**Elizabeth Frenz** is a highly experienced information security professional that has been a cybersecurity enthusiast for over twenty years and an OWASP member since 2015. She specializes in cyber security operations and taking risk based approaches to improving security.  She works as a Lead Information Security Analyst for the leading company in clinical trails software.  Previously in her career she led the vulnerability management effort at Office of IT Security and Data Management of the NYC Department of Education.  Elizabeth also has extensive experience in the identity and access management arena and was one of the contributors to an IEEE standard for using biometrics for identity and access management (IEEE 2410-2017).  She is an active member in the NY information security scene and serves as a volunteer at the NYC OWASP chapter.  Elizabeth holds an MS degree in Systems Management from New York University. [LinkedIn](https://www.linkedin.com/in/elizbel/)
+**Elizabeth Frenz** is a highly experienced information security professional that has been a cybersecurity enthusiast for over twenty years and an OWASP member since 2015. She specializes in cyber security operations and taking risk based approaches to improving security. She works as a Lead Information Security Analyst for the leading company in clinical trails software. Previously in her career she led the vulnerability management effort at Office of IT Security and Data Management of the NYC Department of Education. Elizabeth also has extensive experience in the identity and access management arena and was one of the contributors to an IEEE standard for using biometrics for identity and access management (IEEE 2410-2017). She is an active member in the NY information security scene and serves as a volunteer at the NYC OWASP chapter. Elizabeth holds an MS degree in Systems Management from New York University. [LinkedIn](https://www.linkedin.com/in/elizbel/)
 
-----------
+---
 
 ## Hour 04 - Hosted by OWASP Uruguay
 
-### Session Host: Mateo Martinez, *Chapter Leader*
+### Session Host: Mateo Martinez, _Chapter Leader_
 
------------
+---
 
 ## Hour 05 - Hosted by OWASP Chile
 
-### Session Host: Carlos Allendes, *Chapter Leader*
+### Session Host: Carlos Allendes, _Chapter Leader_
 
 ### Is Your Phone Your Enemy or Your Friend?
-*Silvia Arias Becker and Oscar Orellana Artigas*
+
+_Silvia Arias Becker and Oscar Orellana Artigas_
 {% include video.html video="https://www.youtube.com/watch?v=ICYxm3zBtNA&t=231" %}
 
 #### Abstract
 
 In this presentation, we will provide information related to the risks you are exposed to through the apps you download to your mobile. We will review the OWASP Mobile Top 10 and use them in real APK analysis. If you are using your mobile more than ever for social media and even for work, this is the presentation you need in your life now!
 
-Telephone devices have become our biggest repository of personal and private information, containing our banking and social network data. They allow us to read news and choose the type of information we want to read, creating a clear profile of our tastes and preferences.  They also store the personal data of our family and people with whom we interact frequently.
+Telephone devices have become our biggest repository of personal and private information, containing our banking and social network data. They allow us to read news and choose the type of information we want to read, creating a clear profile of our tastes and preferences. They also store the personal data of our family and people with whom we interact frequently.
 
 All of the above is great, if it is under our control and we can privately isolate that personal information. So what happens if our phone's operating system decides to publish that data or share it so other entities can access and know our tastes and everything that we thought was private?
 
 #### Speaker Biographies
 
-**Silvia Arias Becker** has been a professor for more than 10 years at the University of Santiago in Chile. Her interests go from directing seminars in senior years in the English Teaching Training Program to the development and contribution of new knowledge in different areas related to technology. As a consequence, she is part of the organizing committee and project manager of the Cybersecurity Congress, CYBERSEC CHILE, organized by the University of Santiago, and Project Manager of the "Telemedicine, Telehealth and Digital Health International Congress," organized by the University of Concepci&oacute;n, Chile. 
+**Silvia Arias Becker** has been a professor for more than 10 years at the University of Santiago in Chile. Her interests go from directing seminars in senior years in the English Teaching Training Program to the development and contribution of new knowledge in different areas related to technology. As a consequence, she is part of the organizing committee and project manager of the Cybersecurity Congress, CYBERSEC CHILE, organized by the University of Santiago, and Project Manager of the "Telemedicine, Telehealth and Digital Health International Congress," organized by the University of Concepci&oacute;n, Chile.
 
-* Teacher of English- Graduated from University of Santiago, Chile
-* Master's Degree in Linguistics, focusing in Language learning theories
-* Founder and Project Manager in Creativa Producciones
-* Project Manger of the Cybersecurity Congress, CYBERSEC Chile
-* Project Manager of the "Telemedicine, Telehealth and Digital Health International Conference"
+- Teacher of English- Graduated from University of Santiago, Chile
+- Master's Degree in Linguistics, focusing in Language learning theories
+- Founder and Project Manager in Creativa Producciones
+- Project Manger of the Cybersecurity Congress, CYBERSEC Chile
+- Project Manager of the "Telemedicine, Telehealth and Digital Health International Conference"
 
-**Oscar Orellana Artigas** is a Master in Cybersecurity and a volunteer with the OWASP Chile Chapter. He has extensive experience presenting talks about cybersecurity in universities and other organizations, also webinar experience in LATAM events.  His current ocupations is working in consulting services and like university docent, connecting his experience in the real world with the daily classroom interactions with his students.
+**Oscar Orellana Artigas** is a Master in Cybersecurity and a volunteer with the OWASP Chile Chapter. He has extensive experience presenting talks about cybersecurity in universities and other organizations, also webinar experience in LATAM events. His current ocupations is working in consulting services and like university docent, connecting his experience in the real world with the daily classroom interactions with his students.
 
----------
+---
 
 ## Hour 06 - Hosted by OWASP Cairo (Egypt)
 
-### Session Host: Mohamed Alfateh, *Chapter Leader*
+### Session Host: Mohamed Alfateh, _Chapter Leader_
 
 ### Building Your Web Offensive Shield
-*Mohamed Alfateh - Chapter Leader, OWASP Cairo*
+
+_Mohamed Alfateh - Chapter Leader, OWASP Cairo_
 {% include video.html video="https://www.youtube.com/watch?v=3PnPsrOoVUc&t=30"%}
 
 #### Abstract
@@ -139,7 +145,8 @@ The presentation will talk about how to track any malicious user trying to perfo
 **Mohamed Alfateh** is the OWASP Cairo chapter leader. He has deep experience in secure SDLC, code review, application threat modeling, DevSecOps, and security compliance. Mohamed has many contributions for OWASP, he is the author for the "OWASP Application Threat Modeling Cheat Sheet" and a board member of OWASP Middle-East. He is currently Sr. Consultant at ZINAD IT.
 
 ### Set Up a Continuous DevSecOps Toolchain with Open-Source Tools
-*Azzendine Ramrami - Chapter Leader, OWASP Morocco*
+
+_Azzendine Ramrami - Chapter Leader, OWASP Morocco_
 {% include video.html video="https://www.youtube.com/watch?v=3PnPsrOoVUc&t=2123" %}
 
 #### Abstract
@@ -152,46 +159,49 @@ We will focus on open-source tools, including OWASP Zed Attack Proxy (ZAP), OWAS
 
 **Azzendine Ramrami** is the Chapter Leader of the OWASP Morocco chapter.
 
----------
+---
 
 ## Hour 07 - Hosted by OWASP Guatemala
 
-### Session Host: Pablo Barrera, *Chapter Leader*
+### Session Host: Pablo Barrera, _Chapter Leader_
 
 ### Building Cyber-Resilience the right way
-*Pablo Barrera, OWASP Guatemala*
+
+_Pablo Barrera, OWASP Guatemala_
 {% include video.html video="https://www.youtube.com/watch?v=z0CdVBT_IsY&t=46" %}
 
-
 ### Task 0: Hardening as code. Protecting your systems before they born
+
 {% include video.html video="https://www.youtube.com/watch?v=z0CdVBT_IsY&t=1187" %}
 
----------
+---
 
 ## Hour 08 - Hosted by OWASP Atlanta (GA, USA)
 
-### Session Host: Tony UV, *Chapter Leader*
+### Session Host: Tony UV, _Chapter Leader_
 
 ### Cooking with PASTA - Risk Centric, Offensive Minded Threat Modeling Walk Through
-*Tony UV - Chapter Leader, OWASP Atlanta ("The ATL")*
+
+_Tony UV - Chapter Leader, OWASP Atlanta ("The ATL")_
 {% include video.html video="https://www.youtube.com/watch?v=YFxSjiwbv4U&t=42"%}
 
 #### Abstract
 
-Pour yourself a nice vino and enjoy this walk through of the Process for Attack Simulation & Threat Analysis - the only risk centric threat modeling approach that was developed by two OWASP leaders and manifested in their literary work, *[Risk Centric Threat Modeling](https://www.wiley.com/en-us/Risk+Centric+Threat+Modeling%3A+Process+for+Attack+Simulation+and+Threat+Analysis-p-9780470500965){:target="_blank"}{:rel="noopener noreferrer"}*, via Wiley Publishing. This presentation will walk those interested in an evidence based approach to decomposing their application/ software for the purposes of addressing attack patterns and software weaknesses that facilitate a library of threats.  Each of the seven stages of PASTA will be covered so that practioners, developers, architects, and security champions can become inspired to chef up their own PASTA within their respective S-SDLC cycles.
+Pour yourself a nice vino and enjoy this walk through of the Process for Attack Simulation & Threat Analysis - the only risk centric threat modeling approach that was developed by two OWASP leaders and manifested in their literary work, _[Risk Centric Threat Modeling](https://www.wiley.com/en-us/Risk+Centric+Threat+Modeling%3A+Process+for+Attack+Simulation+and+Threat+Analysis-p-9780470500965){:target="\_blank"}{:rel="noopener noreferrer"}_, via Wiley Publishing. This presentation will walk those interested in an evidence based approach to decomposing their application/ software for the purposes of addressing attack patterns and software weaknesses that facilitate a library of threats. Each of the seven stages of PASTA will be covered so that practioners, developers, architects, and security champions can become inspired to chef up their own PASTA within their respective S-SDLC cycles.
 
 #### Speaker Biography
 
-**Tony UV** is the OWASP Atlanta (ATL) chapter leader. He is the co-author of Risk Centric Threat Modeling (Wiley 2015) and is CEO of VerSprite.  Tony UV is an avid AppSec professional who's experience in security architecture, development, code analysis, exploit testing, threat analysis have funneled into his current passion around threat modeling. 
+**Tony UV** is the OWASP Atlanta (ATL) chapter leader. He is the co-author of Risk Centric Threat Modeling (Wiley 2015) and is CEO of VerSprite. Tony UV is an avid AppSec professional who's experience in security architecture, development, code analysis, exploit testing, threat analysis have funneled into his current passion around threat modeling.
 
----------
+---
 
 ## Hour 09 - Hosted by OWASP Orange County (CA, USA)
 
-### Session Host: Haral Tsitsivas, *Chapter Leader*
+### Session Host: Haral Tsitsivas, _Chapter Leader_
 
 ### Your Taxes Are Being Leaked
-*Michael Wylie*
+
+_Michael Wylie_
 {% include video.html video="https://www.youtube.com/watch?v=N969Xkjw7eA&t=188" %}
 
 #### Abstract
@@ -202,48 +212,51 @@ Pour yourself a nice vino and enjoy this walk through of the Process for Attack 
 
 **Michael Wylie, MBA, CISSP** is the Director of Cybersecurity Services at Richey May Technology Solutions. In his role, Michael is responsible for delivering information assurance by means of vulnerability assessments, TPN vendor assessments, cloud security, penetration tests, risk management, and training. Michael has developed and taught numerous courses for the U.S. Department of Defense, DEFCON, Moorpark College, California State Universities, and for clients around the world. Michael is the winner of the SANS Continuous Monitoring and Security Operations challenge coin and holds the following credentials: CISSP, CCNA R&S, CCNA CyberOps, GPEN, GMON, TPN, CEH, CEI, VCP-DCV, CHPA, PenTest+, Security+, Project+, and more. **Twitter:** [@TheMikeWylie](https://twitter.com/TheMikeWiley).
 
----------
+---
 
 ## Hour 10 - Hosted by OWASP Santa Barbara (CA, USA)
 
-### Session Host: Walter Mart&iacute;n Villalba, *Chapter Leader*
+### Session Host: Walter Mart&iacute;n Villalba, _Chapter Leader_
 
 ### HTTP Security Headers
-*Walter Mart&iacute;n Villalba - Chapter Leader, OWASP Santa Barbara*
-      {% include video.html video="https://www.youtube.com/watch?v=QQsK9FD_K9g&t=85"%}
+
+_Walter Mart&iacute;n Villalba - Chapter Leader, OWASP Santa Barbara_
+{% include video.html video="https://www.youtube.com/watch?v=QQsK9FD_K9g&t=85"%}
 
 #### Abstract
 
-HTTP headers let web clients and servers exchange additional information (usually metadata) in HTTP messages. HTTP *security* headers define whether a set of security mechanisms should be enabled on the web client. They are a fundamental part of web security as they help protect against different types of attacks such as XSS, code injection, and session hijacking. In this talk, we'll discuss the most common security headers, how to configure them properly, and look at some real-world examples of misconfigurations that led to successful attacks.
+HTTP headers let web clients and servers exchange additional information (usually metadata) in HTTP messages. HTTP _security_ headers define whether a set of security mechanisms should be enabled on the web client. They are a fundamental part of web security as they help protect against different types of attacks such as XSS, code injection, and session hijacking. In this talk, we'll discuss the most common security headers, how to configure them properly, and look at some real-world examples of misconfigurations that led to successful attacks.
 
 #### Speaker Biography
 
 **Walter Mart&iacute;n Villalba** is a Principal Application Security Consultant at C13 Security, a company he started recently. He leads the OWASP Santa Barbara chapter and is one of the key organizers for the AppSec California conference. He loves foosball and cyberpunk culture. **Twitter:** [@act1vand0](https://twitter.com/act1vand0); **LinkedIn:** [wmvillalba](https://www.linkedin.com/in/wmvillalba/)
 
----------
+---
 
 ## Hour 11 - Hosted by OWASP Hawaii (USA)
 
-### Session Host: Jason Sewell, *Chapter Leader*
+### Session Host: Jason Sewell, _Chapter Leader_
 
 ### Lyft Cartography: Using Graphs to Improve and Scale Security Decision-Making
-*Alex Chantavy*
+
+_Alex Chantavy_
 {% include video.html video="https://www.youtube.com/watch?v=3w5oDuEs0Zc&t=121" %}
 
 #### Abstract
 
-This talk highlights how we leverage Cartography ([https://github.com/lyft/cartography](https://github.com/lyft/cartography)) at Lyft to improve and scale security decision-making. Attendees of this session will be introduced to our platform and shown a broad set of compelling scenarios including reducing security debt, tracking and alerting on infrastructure changes, and enabling teams to see and better understand their security risk. 
+This talk highlights how we leverage Cartography ([https://github.com/lyft/cartography](https://github.com/lyft/cartography)) at Lyft to improve and scale security decision-making. Attendees of this session will be introduced to our platform and shown a broad set of compelling scenarios including reducing security debt, tracking and alerting on infrastructure changes, and enabling teams to see and better understand their security risk.
 
 Cartography is a free open-source tool that consolidates your technical assets and the relationships between them in an intuitive graph database to enable quick exploration, repeatable decisions, and automated workflows.
 
-We hope that sharing our approach to these problems with Cartography will help you achieve these same outcomes in your own organizations.  We have been thrilled to grow the community in our first couple years as an open source project and look forward to hearing your feedback!
+We hope that sharing our approach to these problems with Cartography will help you achieve these same outcomes in your own organizations. We have been thrilled to grow the community in our first couple years as an open source project and look forward to hearing your feedback!
 
 #### Speaker Biography
 
 **Alex Chantavy** is a software engineer on Lyft's security team (and also happens to be from Makakilo, HI). As one of the developers on Cartography, his security interests are understanding cloud permissions relationships and finding opportunities for lateral movement. In previous roles, Alex has performed red teaming as well as security tool development. In short, he enjoys learning easy ways to make computers do what they're not supposed to do, making robots do his homework, and showing others how to do the same.
 
-### Content Security Policy: Going From Idea to Afterthought 
-*Neil Matatall*
+### Content Security Policy: Going From Idea to Afterthought
+
+_Neil Matatall_
 {% include video.html video="https://www.youtube.com/watch?v=3w5oDuEs0Zc&t=1731" %}
 
 #### Abstract
@@ -256,14 +269,15 @@ Any random article on CSP will talk about its features and behaviors. Some talk 
 
 **Neil Matatall** is a product security engineer at GitHub that focuses on account security and security UX. Having started off in development with two separate development stints in between, the majority of his work has been in the application security space hardening frameworks, creating libraries, and working with standards bodies. Neil is often considered a hipster because he likes Ruby on Rails. He is also the first user to ever get locked out of their Twitter account because of 2FA.
 
----------
+---
 
 ## Hour 12 - Hosted by OWASP Vi&ntilde;a del Mar (Chile)
 
-### Session Host: Gustavo Nieves Arreaza, *Chapter Leader*
+### Session Host: Gustavo Nieves Arreaza, _Chapter Leader_
 
 ### Why Phishing Is Here to Stay?
-*Paola Perez and Patricia Valdivia Heredia*
+
+_Paola Perez and Patricia Valdivia Heredia_
 {% include video.html video="https://www.youtube.com/watch?v=yS6W1qcgvMA&t=260s" %}
 
 #### Abstract
@@ -272,12 +286,14 @@ A review of the growing phishing trend with tools and techniques to explain even
 
 #### Speaker Biographies
 
-Visit their profiles on LinkedIn: 
-* [Paola Perez](https://www.linkedin.com/in/itwomanworld/)
-* [Patricia Valdivia Heredia](https://www.linkedin.com/in/patriciavaldivia/)
- 
+Visit their profiles on LinkedIn:
+
+- [Paola Perez](https://www.linkedin.com/in/itwomanworld/)
+- [Patricia Valdivia Heredia](https://www.linkedin.com/in/patriciavaldivia/)
+
 ### Automated and Manual Threat Modeling
-*Gustavo Nieves Arreaza*
+
+_Gustavo Nieves Arreaza_
 {% include video.html video="https://www.youtube.com/watch?v=yS6W1qcgvMA&t=1989s" %}
 
 #### Abstract
@@ -290,14 +306,15 @@ How to use an automated threat modeling tool, the advantages of using it versus 
 
 Visit his profile on LinkedIn: [Gustavo Nieves Arreaza](https://www.linkedin.com/in/gustavo-nieves-arreaza/)
 
----------
+---
 
 ## Hour 13 - Hosted by OWASP New Zealand
 
-### Session Host: John DiLeo, *Chapter Leader*
+### Session Host: John DiLeo, _Chapter Leader_
 
 ### Small, But Fierce (But Still Small)
-*Erica Anderson*
+
+_Erica Anderson_
 {% include video.html video="https://www.youtube.com/watch?v=rcWSjqNHD8U&t=321" %}
 
 #### Abstract
@@ -309,7 +326,8 @@ Most of us volunteer or work closely with small groups. These are the local comm
 **Erica Anderson:** Her twitter bio says "info sec, cat, and ketchup enthusiast" which summarizes her quite nicely. Erica is a space cadet (and Principal Security Consultant) for SafeStack and leads their Wellington presence. She also causes general mayhem with Kiwicon, Kawaiicon, and (previously) BSides Wellington. **Twitter:** [@sputina](https://twitter.com/sputina)
 
 ### Let Me Secure That for You
-*Kirk Jackson - Chapter Leader, OWASP New Zealand*
+
+_Kirk Jackson - Chapter Leader, OWASP New Zealand_
 {% include video.html video="https://www.youtube.com/watch?v=rcWSjqNHD8U&t=1493" %}
 
 #### Abstract
@@ -324,14 +342,15 @@ This talk will introduce virtual patching, what types of security issues can be 
 
 Kirk worked as a web developer before switching to the defense team - setting up the security practice at Xero, working as a pen tester, and in defense roles at several companies. **Twitter:** [@kirkj](https://twitter.com/kirkj)
 
----------
+---
 
 ## Hour 14 - Hosted by OWASP Victoria (BC, Canada)
 
 ### Session Host: Tanya Janca
 
 ### Purple is the New Black: Modern Approaches to Application Security
-*Tanya Janca*
+
+_Tanya Janca_
 {% include video.html video="https://www.youtube.com/watch?v=q3tKPb8RqC4&t=92" %}
 
 #### Abstract
@@ -342,14 +361,15 @@ Gone are the days when breaches were rare and security could safely be put low o
 
 **Tanya Janca**, also known as 'SheHacksPurple,' is the founder, security trainer and coach of [SheHacksPurple.dev](https://www.shehackspurple.dev/), specializing in software and cloud security. Her obsession with securing software runs deep, from starting her company, to running her own OWASP chapter for four years in Ottawa, co-founding a new OWASP chapter in Victoria, and co-founding the OWASP DevSlop open-source and education project. With her countless blog articles, workshops and talks, her focus is clear. Tanya is also an advocate for diversity and inclusion, co-founding the international women's organization WoSEC, starting the online #CyberMentoringMonday initiative, and personally mentoring, advocating for and enabling countless other women in her field. As a professional computer geek of 20+ years, she is a person who is truly fascinated by the 'science' of computer science. **Twitter:** [shehackspurple](https://twitter.com/shehackspurple)
 
----------
+---
 
 ## Hour 15 - Hosted by OWASP Japan
 
-### Session Hosts: Riotaro Okada and Sen Ueno, *Chapter Leaders*
+### Session Hosts: Riotaro Okada and Sen Ueno, _Chapter Leaders_
 
 ### Implementing CSIRT Based on Frameworks and Maturity Model
-*Akitsugu Ito*
+
+_Akitsugu Ito_
 {% include video.html video="https://www.youtube.com/watch?v=yNqiibMN8nY&t=385" %}
 
 #### Abstract
@@ -358,10 +378,11 @@ We implemented CSIRT based on some frameworks and maturity model at this year in
 
 #### Speaker Biography
 
-**Akitsugu Ito** has worked in the security industry for nine years. His specialties are information security management, incident handling, product security and quality assurance. 
+**Akitsugu Ito** has worked in the security industry for nine years. His specialties are information security management, incident handling, product security and quality assurance.
 
 ### How Our PSIRT Evolved
-*Yuriko Otsuka*
+
+_Yuriko Otsuka_
 {% include video.html video="https://www.youtube.com/watch?v=yNqiibMN8nY&t=1785" %}
 
 #### Abstract
@@ -376,14 +397,15 @@ In addition, I will also share our activities like Bug Bounty program and collab
 
 **Yuriko Ostuka** is a PSIRT specialist at Cybozu, Inc.
 
----------
+---
 
 ## Hour 16 - Hosted by OWASP Melbourne (Australia)
 
 ### Session Host: Daniel Ting
 
 ### Input Validation and Output Encoding Fallacies
-*Eldar Marcussen*
+
+_Eldar Marcussen_
 {% include video.html video="https://www.youtube.com/watch?v=t2tKkiQxfH0&t=206" %}
 
 #### Abstract
@@ -396,14 +418,15 @@ Exploring application security problems and solutions around input validation an
 
 In addition to finding vulnerabilities, he contributes to and maintains several open-source projects in his spare time aimed at web application security and penetration testing. These include graudit, doona, lbmap, dotdotpwn, nikto and more. His tools and research are featured in most security-oriented linux distros as well as many industry-leading books.
 
----------
+---
 
 ## Hour 17 - Hosted by OWASP Bangalore (India)
 
-### Session Host: Vandana Verma Sehgal, *OWASP Global Board of Directors*
+### Session Host: Vandana Verma Sehgal, _OWASP Global Board of Directors_
 
 ### Continuous Auditing with Compliance as Code
-*Mohammed A. Imran*
+
+_Mohammed A. Imran_
 {% include video.html video="https://www.youtube.com/watch?v=PMgmlZztpEQ&t=111" %}
 
 #### Abstract
@@ -415,7 +438,8 @@ Very useful in today's modern dev context where quick turnarounds for features m
 Visit his profile on LinkedIn: [Mohammed A. Imran](https://www.linkedin.com/in/secfigo/)
 
 ### Security Hardening of Popular Public Cloud Managed Services
-*Runcy Oommen*
+
+_Runcy Oommen_
 {% include video.html video="https://www.youtube.com/watch?v=PMgmlZztpEQ&t=1450" %}
 
 #### Abstract
@@ -426,38 +450,41 @@ The default configurations of popular managed services in public cloud like AWS,
 
 Visit his profile on LinkedIn: [Runcy Oommen](https://www.linkedin.com/in/runcyoommen/)
 
----------
+---
 
 ## Hour 17/18 - Hosted by OWASP Jakarta (Indonesia)
 
 ### Session Host: TBC
 
 ### OWASP Risk Assessment Framework
-*Azhar Ahamed*
+
+_Azhar Ahamed_
 {% include video.html video="https://www.youtube.com/watch?v=dEYkQRyr3cA&t=148"%}
 
 #### Abstract
 
 The OWASP Risk Assessment Framework consists of Static Application Security Testing and Risk Assessment tools. There are many SAST tools available for testers, but the compatibility and the environment setup process is complex. By using OWASP Risk Assessment Framework's Static Application Security Testing tool, testers will be able to analyze and review their code quality and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated into the DevSecOps tool chain to help developers to write and produce secure code.
 
----------
+---
 
 ## Hour 18 - Hosted by OWASP Kerala (India)
 
 ### Session Host: Rejah Rahim
 
 ### OSINT Gathering and Analysis
-*Manieendar Mohan and Anees Muhammed*
+
+_Manieendar Mohan and Anees Muhammed_
 {% include video.html video="https://www.youtube.com/watch?v=fUQ7KAG8Gzs&t=67" %}
 
 #### Abstract
 
 This talk will begin with a beginner-level introduction to Open-Source Intelligence (OSINT), and will proceed to cover the following topics:
-* History of OSINT
-* Foundations of OSINT
-* Social Media Data Harvesting
-* Business and Network Data Harvesting
-* Tools and Frameworks
+
+- History of OSINT
+- Foundations of OSINT
+- Social Media Data Harvesting
+- Business and Network Data Harvesting
+- Tools and Frameworks
 
 #### Speaker Biographies
 
@@ -465,14 +492,15 @@ This talk will begin with a beginner-level introduction to Open-Source Intellige
 
 **Anees Muhammed** - No biography submitted
 
----------
+---
 
 ## Hour 19 - Hosted by OWASP Nagpur
 
-### Session Host: Tushar Kulkarni, *Chapter Leader*
+### Session Host: Tushar Kulkarni, _Chapter Leader_
 
 ### Cuffing Web APIs Offensively
-*Chaitanya Deshpande*
+
+_Chaitanya Deshpande_
 {% include video.html video="https://www.youtube.com/watch?v=WhK42yvjqvs&t=78" %}
 
 #### Abstract
@@ -486,30 +514,33 @@ In this talk, we will be discussing how to achieve all this and more.
 **Chaitanya Deshpande** is a Full-Stack Developer at Tata Consultancy Services.
 
 ### Fortifying Ruby On Rails Web Application Framework Security
-*Sahil Tembhare*
+
+_Sahil Tembhare_
 {% include video.html video="https://www.youtube.com/watch?v=WhK42yvjqvs&t=1675" %}
 
 #### Abstract
 
-A short but very comprehensive introduction to Ruby On Rails web framework's security, including very common exploits about the RoR framework. 
+A short but very comprehensive introduction to Ruby On Rails web framework's security, including very common exploits about the RoR framework.
 
 Key points that will be covered:
+
 1. Securing the RoR framework
-2. Common Exploits about the RoR framework 
+2. Common Exploits about the RoR framework
 3. Some CVEs
 
 #### Speaker Biography
 
-**Sahil Tembhare* is currently a student. Visit his profile on [LinkedIn](https://www.linkedin.com/in/peeper35/).
+\*_Sahil Tembhare_ is currently a student. Visit his profile on [LinkedIn](https://www.linkedin.com/in/peeper35/).
 
----------
+---
 
 ## Hour 20 - Hosted by OWASP Meerut (India)
 
-### Session Host: Hanut Arora, *Chapter Leader*
+### Session Host: Hanut Arora, _Chapter Leader_
 
 ### Real Privacy Protection in the COVID-19 Era
-*Rahul Tyagi*
+
+_Rahul Tyagi_
 {% include video.html video="https://www.youtube.com/watch?v=BzSAeWs21dY&t=140" %}
 
 #### Abstract
@@ -521,14 +552,16 @@ At the time of this pandemic, cyber scams are scaling like never before. In this
 Visit his profile on LinkedIn: [Rahul Tyagi](https://www.linkedin.com/in/iamrahultyagi/)
 
 ### Introduction to Exploit Development
-*Sanjeev Multani*
+
+_Sanjeev Multani_
 {% include video.html video="https://www.youtube.com/watch?v=BzSAeWs21dY&t=1798" %}
 
 #### Abstract
 
 In this talk, we will talk about the basics of Exploit Development and will answer the following 2 questions:
-* Why do we need to do Exploit development?
-* What actually is Exploit development?
+
+- Why do we need to do Exploit development?
+- What actually is Exploit development?
 
 And, finally, we will burst all the myths about Exploit Development.
 
@@ -536,14 +569,15 @@ And, finally, we will burst all the myths about Exploit Development.
 
 Visit his profile on LinkedIn: [Sanjeev Multani](https://www.linkedin.com/in/sanjeevmultani/)
 
----------
+---
 
 ## Hour 21 - Hosted by OWASP Israel
 
 ### Session Hosts: Shira Shamban and Ori Troyna
 
 ### How SameSite Cookies Are Making the World a Safer Place
-*Michael Furman*
+
+_Michael Furman_
 {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=103s" %}
 
 #### Abstract
@@ -555,11 +589,12 @@ Do you know how to protect against them? Is the 'Synchronizer Token' Pattern sti
 There is a much better approach based on SameSite Cookies.
 
 Come learn about:
-* SameSite Cookies
-* The supported settings
-* How to protect against CSRF attacks
-* Best practices
-* Google's new Cookie policy
+
+- SameSite Cookies
+- The supported settings
+- How to protect against CSRF attacks
+- Best practices
+- Google's new Cookie policy
 
 The presentation includes a live demo.
 
@@ -570,7 +605,8 @@ The presentation includes a live demo.
 **Twitter:** [@ultimatesecpro](https://twitter.com/ultimatesecpro)
 
 ### Vulnerable Dependencies: It's Not About Discovery
-*Omer Levi Hevroni*
+
+_Omer Levi Hevroni_
 {% include video.html video="https://www.youtube.com/watch?v=qIl-suyksjU&t=1395s" %}
 
 #### Abstract
@@ -593,14 +629,15 @@ My current job is DevSecOps - helping the entire team to produce more secure sof
 
 When not working, I'm enjoying the company of my two beloved kids.
 
----------
+---
 
 ## Hour 22 - Hosted by OWASP Kyiv (Ukraine)
 
-### Session Host: Vlad Styran, *Chapter Leader*
+### Session Host: Vlad Styran, _Chapter Leader_
 
 ### Use Cryptography; Don't Learn It
-*Anastasiia Voitova*
+
+_Anastasiia Voitova_
 {% include video.html video="https://www.youtube.com/watch?v=3JWkHaxXbKo&t=225" %}
 
 #### Abstract
@@ -614,7 +651,8 @@ This talk was first presented at OWASP Kyiv Winter 2017. Still relevant.
 **Anastasiia Voitova** is Head of Customer Solutions at Cossack Labs. She is a software engineer with a wide background, now deepen into software security engineering. She is focused on cryptography/applied security and architecture of secure yet usable systems. Anastasiia maintains the open-source cryptographic library Themis, conducts secure software development training, speaks at international conferences, co-organises cyber-security events. **Twitter:** [@vixentael](https://twitter.com/vixentael)
 
 ### Cybersecurity Economics
-*Vlad Styran - Chapter Leader, OWASP Kyiv*
+
+_Vlad Styran - Chapter Leader, OWASP Kyiv_
 {% include video.html video="https://www.youtube.com/watch?v=3JWkHaxXbKo&t=1941" %}
 
 #### Abstract
@@ -623,16 +661,17 @@ This is a small recap of a Cybersecurity Economics 101 course I took on edEX. It
 
 #### Speaker Biography
 
-**Vlad Styran** is Cofounder at Berezha Security, and Chapter Leader at OWASP Kyiv. Relevant credentials include: CISSP, CISA, and OSCP. 
+**Vlad Styran** is Cofounder at Berezha Security, and Chapter Leader at OWASP Kyiv. Relevant credentials include: CISSP, CISA, and OSCP.
 
----------
+---
 
 ## Hour 23 - Hosted by OWASP Cambridge (UK)
 
-### Session Host: Adrian Winckles, *Chapter Leader*
+### Session Host: Adrian Winckles, _Chapter Leader_
 
 ### OWASP Application Security Curriculum Project
-*Adrian Winckles - Project Leader*
+
+_Adrian Winckles - Project Leader_
 {% include video.html video="https://www.youtube.com/watch?v=V4KA8AAGcAk&t=249" %}
 
 #### Abstract
@@ -647,10 +686,11 @@ There is an opportunity for OWASP to pull together its wide-ranging expertise, p
 
 #### Speaker Biography
 
-**Adrian Winckles** is Director for the Cyber Security, Networking & Big Data Research Group and Security Researcher at Anglia Ruskin University. He is OWASP Cambridge Chapter Leader, OWASP Europe Board Member and is involved in rebooting the Cambridge Cluster of the UK Cyber Security Forum. His security research programs include (in)security of software-defined networks/everything (SDN/Sdx), novel network botnet detection techniques within cloud and virtual environments, distributed honeypots for threat intelligence, advanced educational techniques for teaching cybercrime investigation, and virtual digital crimescene/incident simulation. He has successfully completed a contribution to the European FP7 English Centre of Excellence for Cybercrime training, research and education (ECENTRE). He is Chair of the BCS Cyber Forensics Special Interest Group.  Adrian is also CTO for Botprobe, an intelligent threat data capture start-up.
+**Adrian Winckles** is Director for the Cyber Security, Networking & Big Data Research Group and Security Researcher at Anglia Ruskin University. He is OWASP Cambridge Chapter Leader, OWASP Europe Board Member and is involved in rebooting the Cambridge Cluster of the UK Cyber Security Forum. His security research programs include (in)security of software-defined networks/everything (SDN/Sdx), novel network botnet detection techniques within cloud and virtual environments, distributed honeypots for threat intelligence, advanced educational techniques for teaching cybercrime investigation, and virtual digital crimescene/incident simulation. He has successfully completed a contribution to the European FP7 English Centre of Excellence for Cybercrime training, research and education (ECENTRE). He is Chair of the BCS Cyber Forensics Special Interest Group. Adrian is also CTO for Botprobe, an intelligent threat data capture start-up.
 
 ### OWASP SecureFlag Community Edition
-*Andrea Scaduto - Project Leader*
+
+_Andrea Scaduto - Project Leader_
 {% include video.html video="https://www.youtube.com/watch?v=V4KA8AAGcAk&t=1238" %}
 
 #### Abstract
@@ -669,14 +709,15 @@ He enjoys breaking, building and securing web, mobile and cloud applications, an
 
 He co-founded and built SecureFlag, an Application Security training platform for developers to learn and practice modern secure coding techniques through 100% hands-on exercises. SecureFlag offers an innovative concept for Application Security training to help our customers improve their development teams' AppSec knowledge, keep their skills up-to-date, and help them to protect their most valuable products.
 
----------
+---
 
 ## Hour 24 - Hosted by OWASP London (UK)
 
-### Session Host: Sam Stepanyan, *Chapter Leader*
+### Session Host: Sam Stepanyan, _Chapter Leader_
 
 ### Introducing the OWASP Nettacker Project
-*Sam Stepanyan - Chapter Leader, OWASP London*
+
+_Sam Stepanyan - Chapter Leader, OWASP London_
 {% include video.html video="https://www.youtube.com/watch?v=-klGZ7AaMc4&t=308" %}
 
 #### Abstract
@@ -688,7 +729,8 @@ The OWASP Nettacker project was created to automate the information gathering, v
 **Sam Stepanyan** is an OWASP London Chapter Leader and an Independent Application Security Consultant with over 20 years of experience in IT industry with a background in software engineering and web application development. Sam has worked for various financial services institutions in the City of London specialising in Application Security consulting, Secure Software Development Lifecycle (SDLC), developer training, source code reviews and vulnerability management. He is also a Subject Matter Expert in Web Application Firewalls (WAF) and SIEM systems. Sam holds a Master's degree in Software Engineering and a CISSP certification.
 
 ### Gamification of Threat Modelling
-*Grant Ongers - OWASP Global Board of Directors*
+
+_Grant Ongers - OWASP Global Board of Directors_
 {% include video.html video="https://www.youtube.com/watch?v=-klGZ7AaMc4&t=2062" %}
 
 #### Abstract
@@ -703,12 +745,12 @@ Grant's versatile experience in information systems spans **Dev** - building man
 
 Grant's community involvement is global: Staff at BSides (London, Las Vegas, and Cape Town), Goon at DEF CON (USA) for nearly ten years and DC2721 co-founder, staff at BlackHat (USA and EU), and OWASP Global Board member. **Twitter:** [@rewtd](https://twitter.com/rewtd)
 
----------
+---
 
 ## Hour 25 - Closing Session
 
-### Session Host: Takaharu Ogasa, *Chapter Leader, OWASP Sendai (Japan)*
+### Session Host: Takaharu Ogasa, _Chapter Leader, OWASP Sendai (Japan)_
+
 {% include video.html video="https://www.youtube.com/watch?v=M4wzNTy4nK8" %}
 
----------
-
+---

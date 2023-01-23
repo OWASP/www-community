@@ -1,9 +1,7 @@
 ---
-
 layout: col-sidebar
 title: OWASP Community Pages
 tags: community
-
 ---
 
 <!-- rebuild 6 -->
@@ -18,6 +16,7 @@ Click the triangle (or other control/character) to the left of the following hea
 <summary>Controls</summary>
 
 {% assign control_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/controls/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
+
 <ul>
 {% for page in control_pages %}
        <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
@@ -30,6 +29,7 @@ Click the triangle (or other control/character) to the left of the following hea
 <summary>Attacks</summary>
 
 {% assign attack_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/attacks/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
+
 <ul>
 {% for page in attack_pages %}
        <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
@@ -42,6 +42,7 @@ Click the triangle (or other control/character) to the left of the following hea
 <summary>Vulnerabilities</summary>
 
 {% assign vuln_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/vulnerabilities/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
+
 <ul>
 {% for page in vuln_pages %}
        <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
@@ -55,6 +56,7 @@ Click the triangle (or other control/character) to the left of the following hea
 
 {% assign pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains 'pages/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
 {% assign already_displayed = control_pages | concat: attack_pages | concat: vuln_pages %}
+
 <ul>
 {% for page in pages %}
   {% assign display = true %}
@@ -65,10 +67,11 @@ Click the triangle (or other control/character) to the left of the following hea
     {% endif %}
   {% endfor %}
 
-  {% if display %}
-       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
-  {% endif %}
+{% if display %}
+<li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+{% endif %}
 {% endfor %}
+
 </ul>
 
 </details>
@@ -82,6 +85,7 @@ Go into the `pages` folder and create a new file. Save and commit the file.
 Include the following front matter and include in your file (for example, see: `pages/password-special-characters.md` in this repository):
 
 {% raw %}
+
 ```md
 ---
 
@@ -94,9 +98,9 @@ tags: [attack, XSS, etc]
 
 ---
 
- {% include writers.html %}
-
+{% include writers.html %}
 ```
+
 {% endraw %}
 
 **Please** ensure your content contribution is based on original work/thought and not plagiarised. Also, please ensure that contributions are vendor/product neutral.

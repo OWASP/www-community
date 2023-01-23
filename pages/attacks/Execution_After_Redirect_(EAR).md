@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Execution After Redirect (EAR)
 author: Robert Gilbert (amroot)
-contributors: 
+contributors:
 permalink: /attacks/Execution_After_Redirect_(EAR)
 tags: attack, Execution After Redirect (EAR)
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -46,7 +44,7 @@ accessible without authentication.
 
 ```php
 <?php if (!$loggedin) {
-     print "<script>window.location = '/login';</script>\n\n"; 
+     print "<script>window.location = '/login';</script>\n\n";
 } ?>
 <h1>Admin</h1>
 <a href=/mu>Manage Users</a><br />

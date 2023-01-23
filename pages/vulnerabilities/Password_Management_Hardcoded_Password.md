@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Password Management Hardcoded Password
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Password_Management_Hardcoded_Password
 tags: vulnerability, Password Management Hardcoded Password
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -59,20 +57,20 @@ something like the following for the example above:
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Vulnerability 1](Vulnerability_1 "wikilink")
-  - [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
+- [Vulnerability 1](Vulnerability_1 "wikilink")
+- [Vulnerabiltiy 2](Vulnerabiltiy_2 "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
@@ -107,7 +105,7 @@ Logging and Auditing Vulnerability
 
 Session Management Vulnerability\]\]
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Sensitive Data Protection

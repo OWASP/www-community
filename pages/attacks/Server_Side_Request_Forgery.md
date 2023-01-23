@@ -1,12 +1,10 @@
 ---
-
 title: Server Side Request Forgery
 layout: col-sidebar
 author: Eoftedal
 contributors: ErezYalon, kingthorin
 tags: attack
 permalink: /attacks/Server_Side_Request_Forgery
-
 ---
 
 {% include writers.html %}
@@ -35,15 +33,15 @@ picks up the manipulated URL and tries to read data to the manipulated
 URL. By selecting target URLs the attacker may be able to read data from
 services that are not directly exposed on the internet:
 
-  - Cloud server meta-data - Cloud services such as AWS provide a REST
-    interface on `http://169.254.169.254/` where important configuration
-    and sometimes even authentication keys can be extracted.
-  - Database HTTP interfaces - NoSQL database such as MongoDB provide
-    REST interfaces on HTTP ports. If the database is expected to only
-    be available to internally, authentication may be disabled and the
-    attacker can extract data.
-  - Internal REST interfaces.
-  - Files - The attacker may be able to read files using `file://` URIs.
+- Cloud server meta-data - Cloud services such as AWS provide a REST
+  interface on `http://169.254.169.254/` where important configuration
+  and sometimes even authentication keys can be extracted.
+- Database HTTP interfaces - NoSQL database such as MongoDB provide
+  REST interfaces on HTTP ports. If the database is expected to only
+  be available to internally, authentication may be disabled and the
+  attacker can extract data.
+- Internal REST interfaces.
+- Files - The attacker may be able to read files using `file://` URIs.
 
 The attacker may also use this functionality to import untrusted data
 into code that expects to only read data from trusted sources, and as

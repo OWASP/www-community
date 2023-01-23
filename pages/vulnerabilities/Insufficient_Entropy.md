@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Insufficient Entropy
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/Insufficient_Entropy
 tags: vulnerability, Insufficient Entropy
-
 ---
 
 {% include writers.html %}

@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: CRLF Injection
 author:
 contributors:
 permalink: /vulnerabilities/CRLF_Injection
 tags: vulnerability, CRLF Injection
-
 ---
 
 {% include writers.html %}

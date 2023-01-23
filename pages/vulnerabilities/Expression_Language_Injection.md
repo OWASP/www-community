@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Expression Language Injection
 author:
 contributors:
 permalink: /vulnerabilities/Expression_Language_Injection
 tags: vulnerability, Expression Language Injection
-
 ---
 
 {% include writers.html %}
@@ -46,6 +44,7 @@ The Spring Message tag will double resolve Expression Language.
 A common pattern of passing URL parameters to the message tag is:
 
 Controller.java
+
 ```
 @RequestMapping(value="/")
 String index() {
@@ -127,3 +126,4 @@ In the case of Spring Framework, disable the double resolution functionality in 
 - [EL Injection: Information Disclosure](http://www.mindedsecurity.com/fileshare/ExpressionLanguageInjection.pdf)
 - [EL Injection: Remote Code Execution](http://danamodio.com/application-security/discoveries/spring-remote-code-with-expression-language-injection/)
 - [JSR245: EL 2.2 Spec](http://jcp.org/aboutJava/communityprocess/mrel/jsr245/index.html)
+````

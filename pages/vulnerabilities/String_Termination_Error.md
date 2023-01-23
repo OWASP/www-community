@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: String Termination Error
-author: 
-contributors: 
+author:
+contributors:
 permalink: /vulnerabilities/String_Termination_Error
 tags: vulnerability, String Termination Error
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -18,10 +16,10 @@ Relying on proper string termination may result in a buffer overflow.
 
 String termination errors occur when:
 
-  - Data enters a program via a function that does not null terminate
-    its output.
-  - The data is passed to a function that requires its input to be null
-    terminated.
+- Data enters a program via a function that does not null terminate
+  its output.
+- The data is passed to a function that requires its input to be null
+  terminated.
 
 ## Risk Factors
 
@@ -98,27 +96,27 @@ code on the system.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Attack 1](Attack_1 "wikilink")
-  - [Attack 2](Attack_2 "wikilink")
+- [Attack 1](Attack_1 "wikilink")
+- [Attack 2](Attack_2 "wikilink")
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-  - [Buffer Overflow](Buffer_Overflow "wikilink")
+- [Buffer Overflow](Buffer_Overflow "wikilink")
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
+- [:Category:Input Validation](:Category:Input_Validation "wikilink")
 
 ## Related [Technical Impacts](Technical_Impacts "wikilink")
 
-  - [Technical Impact 1](Technical_Impact_1 "wikilink")
-  - [Technical Impact 2](Technical_Impact_2 "wikilink")
+- [Technical Impact 1](Technical_Impact_1 "wikilink")
+- [Technical Impact 2](Technical_Impact_2 "wikilink")
 
 ## References
 
 TBD
 
-__NOTOC__
+**NOTOC**
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Input Validation

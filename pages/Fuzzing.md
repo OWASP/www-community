@@ -1,17 +1,15 @@
 ---
-
 title: Fuzzing
 layout: col-sidebar
 author:
 contributors:
 tags:
 permalink: /Fuzzing
-
 ---
 
 {% include writers.html %}
 
-*Fuzz testing* or *Fuzzing* is a Black Box software testing technique, which basically consists in finding implementation bugs using
+_Fuzz testing_ or _Fuzzing_ is a Black Box software testing technique, which basically consists in finding implementation bugs using
 malformed/semi-malformed data injection in an automated fashion.
 
 ## A trivial example
@@ -32,11 +30,11 @@ Fuzz testing was developed at the University of Wisconsin Madison in 1989 by Pro
 A fuzzer is a program which injects automatically semi-random data into a program/stack and detect bugs.
 
 The data-generation part is made of generators, and vulnerability identification relies on debugging tools. Generators usually use
- combinations of static fuzzing vectors (known-to-be-dangerous values), or totally random data. New generation fuzzers use genetic algorithms to link injected data and observed impact. Such tools are not public yet.
+combinations of static fuzzing vectors (known-to-be-dangerous values), or totally random data. New generation fuzzers use genetic algorithms to link injected data and observed impact. Such tools are not public yet.
 
 ## Comparison with cryptanalysis
 
-The number of possible tryable solutions is *the explorable solutions space*. The aim of cryptanalysis is to reduce this space, which means
+The number of possible tryable solutions is _the explorable solutions space_. The aim of cryptanalysis is to reduce this space, which means
 finding a way of having less keys to try than pure bruteforce to decrypt something.
 
 Most of the fuzzers are:
@@ -46,10 +44,10 @@ Most of the fuzzers are:
 
 Why?
 
-- First, because the fuzzer has to connect to the input channel, which  is bound to the target.
-- Second, because a program only understands structured-enough data.  If you connect to a web server in a raw way, it will only respond to
- listed commands such as GET (or eventually crash). It will take less  time to start the string with "GET ", and fuzz the rest, but the
- drawback is that you'll skip all the tests on the first verb.
+- First, because the fuzzer has to connect to the input channel, which is bound to the target.
+- Second, because a program only understands structured-enough data. If you connect to a web server in a raw way, it will only respond to
+  listed commands such as GET (or eventually crash). It will take less time to start the string with "GET ", and fuzz the rest, but the
+  drawback is that you'll skip all the tests on the first verb.
 
 In this regard, Fuzzers try to reduce the number of unuseful tests, i.e. the values we already know that there's little chance they'll work: you reduce unpredictability, in favor of speed.
 
@@ -62,7 +60,7 @@ A fuzzer would try combinations of attacks on:
 - metadata : user-input text (id3 tag)
 - pure binary sequences
 
-A common approach to fuzzing is to define lists of "known-to-be-dangerous values" (*fuzz vectors*) for each type, and to inject them or recombinations.
+A common approach to fuzzing is to define lists of "known-to-be-dangerous values" (_fuzz vectors_) for each type, and to inject them or recombinations.
 
 - for integers: zero, possibly negative or very big numbers
 - for chars: escaped, interpretable characters / instructions (ex: For SQL Requests, quotes / commands...)
@@ -71,7 +69,7 @@ A common approach to fuzzing is to define lists of "known-to-be-dangerous values
 Please refer to [OWASP's Fuzz Vector's
 resource](https://owasp.org/www-project-web-security-testing-guide/v41/6-Appendix/C-Fuzz_Vectors) for real-life fuzzing vectors examples and methodology.
 
-Protocols and file formats imply norms, which are sometimes blurry, very complicated or badly implemented : that's why developers sometimes mess up in the implementation process (because of time/cost constraints). That's why it can be interesting to take the opposite approach: take a norm, look at all mandatory features and constraints, and try all of them; forbidden/reserved values, linked parameters, field sizes. That would be *conformance testing oriented* fuzzing.
+Protocols and file formats imply norms, which are sometimes blurry, very complicated or badly implemented : that's why developers sometimes mess up in the implementation process (because of time/cost constraints). That's why it can be interesting to take the opposite approach: take a norm, look at all mandatory features and constraints, and try all of them; forbidden/reserved values, linked parameters, field sizes. That would be _conformance testing oriented_ fuzzing.
 
 ## Application fuzzing
 
@@ -95,7 +93,7 @@ for further investigation.
 
 One can attack:
 
-- the parser layer (container layer): file format constraints,  structure, conventions, field sizes, flags, ...
+- the parser layer (container layer): file format constraints, structure, conventions, field sizes, flags, ...
 - the codec/application layer: lower-level attacks, aiming at the program's deeper internals
 
 One example of file format related vulnerabilities:
@@ -104,11 +102,11 @@ One example of file format related vulnerabilities:
 Surprisingly, file format fuzzers are not that common, but tend to appear these days; some examples:
 
 - A generic file format fuzzer : [Ilja van Sprundel's mangle.c](https://ext4.wiki.kernel.org/index.php/Filesystem_Testing_Tools/mangle.c); "it's usage is very simple, it takes a filename and headersize as input. it will then change approximatly between 0 and 10% of the header with random bytes." (from the author)
-- Zzuf can act as a fuzzed file generator, <http://sam.zoy.org/zzuf/> - One may use tools like [Hachoir](https://hachoir.readthedocs.io/) as a generic  parser for file format fuzzer development.
+- Zzuf can act as a fuzzed file generator, <http://sam.zoy.org/zzuf/> - One may use tools like [Hachoir](https://hachoir.readthedocs.io/) as a generic parser for file format fuzzer development.
 
 ## Fuzzers advantages
 
-*The great advantage of fuzz testing is that the test design is extremely simple, and free of preconceptions about system behavior*
+_The great advantage of fuzz testing is that the test design is extremely simple, and free of preconceptions about system behavior_
 ([from Wikipedia](http://en.wikipedia.org/wiki/Fuzz_testing)).
 
 The systematic/random approach allows this method to find bugs that would have often been missed by human eyes. Plus, when the tested system
@@ -133,8 +131,7 @@ approach. It doesn't replace them, but is a reasonable complement, thanks to the
 Some fuzzing initiatives:
 
 - The [Month of Kernel Bugs, which revealed an Apple Wireless flaw](http://kernelfun.blogspot.com/) mainly used file system fuzzing tools
-- The [Month of Browser Bugs](http://browserfun.blogspot.com/); number of bugs found: MSIE: 25 Apple Safari: 2 Mozilla: 2 Opera: 1 Konqueror: 1; used  DHTML, Css, DOM, ActiveX fuzzing tools
-
+- The [Month of Browser Bugs](http://browserfun.blogspot.com/); number of bugs found: MSIE: 25 Apple Safari: 2 Mozilla: 2 Opera: 1 Konqueror: 1; used DHTML, Css, DOM, ActiveX fuzzing tools
 
 ## References
 
@@ -172,4 +169,3 @@ Some fuzzing initiatives:
 - [ForAllSecure Mayhem for Code](https://forallsecure.com/mayhem-for-code)
 - [CI Fuzz](https://code-intelligence.com)
 - [Fuzzbuzz](https://fuzzbuzz.io)
-

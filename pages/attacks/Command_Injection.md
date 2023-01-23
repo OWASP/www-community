@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Command Injection
 author: Weilin Zhong
 contributors: Wichers, Amwestgate, Rezos, Clow808, KristenS, Jason Li, Andrew Smith, Jmanico, Tal Mel, kingthorin
 permalink: /attacks/Command_Injection
 tags: attack, Command Injection
-
 ---
 
 {% include writers.html %}
@@ -32,7 +30,7 @@ commands, without the necessity of injecting code.
 
 ### Example 1
 
-The following code is a wrapper around the UNIX command *cat* which
+The following code is a wrapper around the UNIX command _cat_ which
 prints the contents of a file to standard output. It is also injectable:
 
 ```
@@ -139,7 +137,7 @@ the attacker changes the way the command is interpreted.
 
 The code below is from a web-based CGI utility that allows users to
 change their passwords. The password update process under NIS includes
-running *make* in the /var/yp directory. Note that since the program
+running _make_ in the /var/yp directory. Note that since the program
 updates password records, it has been installed setuid root.
 
 The program invokes make as follows:

@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Deserialization of untrusted data
 author:
 contributors:
 permalink: /vulnerabilities/Deserialization_of_untrusted_data
 tags: vulnerability, Deserialization of untrusted data
-
 ---
 
 {% include writers.html %}

@@ -1,5 +1,4 @@
 ---
-
 title: Using the Java Cryptographic Extensions
 layout: col-sidebar
 author:
@@ -7,7 +6,6 @@ contributors: thodorisbais
 tags: java, cryptography
 auto-migrated: 1
 permalink: /Using_the_Java_Cryptographic_Extensions
-
 ---
 
 {% include writers.html %}
@@ -16,7 +14,7 @@ permalink: /Using_the_Java_Cryptographic_Extensions
 
 The code included in this article has not been reviewed and should not
 be used without proper analysis. If you have reviewed the included code
-or portions of it, please post your findings back to the 
+or portions of it, please post your findings back to the
 [issue tracker](https://github.com/OWASP/www-community/issues) for this web content.
 
 ## Overview
@@ -141,7 +139,7 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
     import javax.crypto.NoSuchPaddingException;
     import javax.crypto.SecretKey;
     import javax.crypto.spec.IvParameterSpec;
-    
+
     import java.util.Base64;
 
     /**
@@ -277,7 +275,7 @@ Security](http://www.ietf.org/rfc/rfc1750.txt)
     import javax.crypto.BadPaddingException;
     import javax.crypto.IllegalBlockSizeException;
 
-   import java.util.Base64;
+import java.util.Base64;
 
     /**
      * @author Joe Prasanna Kumar

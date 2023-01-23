@@ -1,12 +1,10 @@
 ---
-
 title: Double Encoding
 layout: col-sidebar
 author:
 contributors:
 tags:
 permalink: /Double_Encoding
-
 ---
 
 {% include writers.html %}
@@ -48,7 +46,7 @@ it’s possible to bypass the security filter:
 
 Double encoded URL:
 
-`http://victim/cgi/%252E%252E%252F%252E%252E%252Fwinnt/system32/cmd.exe?/c+dir+c:\ `
+`http://victim/cgi/%252E%252E%252F%252E%252E%252Fwinnt/system32/cmd.exe?/c+dir+c:\ `
 
 ### Example 2
 
@@ -56,18 +54,18 @@ A double encoded URL can be used to perform an XSS attack in order to bypass a b
 
 ```html
 <script>
-alert('XSS')
+  alert("XSS");
 </script>
 ```
 
 This malicious code could be inserted into a vulnerable application, resulting in an alert window with the message “XSS”. However, the web
 application can have a character filter which prohibits characters such as `<`, `>` and `/`, since they are used to perform web application attacks. The attacker could use a double encoding technique to bypass the filter and exploit the client’s session. The encoding process for this JavaScript is:
 
-|Char|Hex encode|Then encoding '%'|Double encode|
-|----|----------|-----------------|-------------|
-|`<`|`%3C`|`%25`|`%253C`|
-|`/`|`%2F`|`%25`|`%252F`|
-|`>`|`%3E`|`%25`|`%253E`|
+| Char | Hex encode | Then encoding '%' | Double encode |
+| ---- | ---------- | ----------------- | ------------- |
+| `<`  | `%3C`      | `%25`             | `%253C`       |
+| `/`  | `%2F`      | `%25`             | `%252F`       |
+| `>`  | `%3E`      | `%25`             | `%253E`       |
 
 Finally, the malicious double encoding code is:
 

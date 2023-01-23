@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: Buffer Overflow Attack
-author: 
+author:
 contributors: OWASP, Rezos, Thaigoalz, KristenS, Andrew Smith, Jmanico, hblankenship , nbaars, cmvar8, CRImier, pranavek, hblankenship , tghosth, nbaars, k-37, kingthorin
 permalink: /attacks/Buffer_overflow_attack
 tags: attack, buffer overflow
-
 ---
 
 {% include writers.html %}

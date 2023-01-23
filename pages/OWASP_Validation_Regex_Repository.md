@@ -1,25 +1,23 @@
 ---
-
 title: OWASP Validation Regex Repository
 layout: col-sidebar
 author: Weilin Zhong, Achim
 contributors: Delink, Christopher Hendrix, Wichers, Jmanico, Thomas Herzog, Duccio Fabbri, EPaul, kingthorin
 tags: regex, validation
 permalink: /OWASP_Validation_Regex_Repository
-
 ---
 
 {% include writers.html %}
 
 > Note: These Regexs are examples and not built for a particular Regex
-engine. However, the PCRE syntax is mainly used. In particular, this
-means that character classes do not contain meta characters which
-need to be escaped, except the `-` and `]` character, where it is
-assumed that a `-` needs not to be escaped only when it is the last
-character in a character class. The character class supports
-shortcut notations for other character classes like `\s` or `\w`
-which should not be used as they depend on the LOCALE environment
-setting in most systems.
+> engine. However, the PCRE syntax is mainly used. In particular, this
+> means that character classes do not contain meta characters which
+> need to be escaped, except the `-` and `]` character, where it is
+> assumed that a `-` needs not to be escaped only when it is the last
+> character in a character class. The character class supports
+> shortcut notations for other character classes like `\s` or `\w`
+> which should not be used as they depend on the LOCALE environment
+> setting in most systems.
 
 Please carefully test the regex in your regex engine.
 

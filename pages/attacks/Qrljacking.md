@@ -1,13 +1,11 @@
 ---
-
 layout: col-sidebar
 title: Qrljacking
-author: 
-contributors: 
+author:
+contributors:
 permalink: /attacks/Qrljacking
 tags: attack, Qrljacking
 auto-migrated: 1
-
 ---
 
 {% include writers.html %}
@@ -309,19 +307,19 @@ sends it to the user.
 3. User scans the attacker's QR Code in the phishing website.
 
 4. The mobile App generates the authentication sound and play it to the
-phishing website.
+   phishing website.
 
 5. The phishing website fails to process and capture the authentication
-audio as it requires additional browser permissions.
+   audio as it requires additional browser permissions.
 
 6. Even if the attacker tries to generate the authentication sound
-based on the (User ID) they still lack the private key.
+   based on the (User ID) they still lack the private key.
 
 ![Mitigation Scenario](../assets/images/attacks/qrljacking-mitigation-scenario.jpg)
 
 # Related Vulnerabilities
 
-  - Clickjacking
+- Clickjacking
 
 # More information
 
@@ -343,8 +341,8 @@ For more information on QRLJacking tools and extra, please visit the
 
 **Proof of Concept examples (Videos)**
 
-  - [WhatsApp QRHijackingVulnerability](https://www.youtube.com/watch?v=4QwyBXiZhG0)
-  - [WhatsApp Accounts Hijacking and ARPpoisoning](https://www.youtube.com/watch?v=JCoPSdQvESc)
-  - [AirDroid vulnerable to QRLJackingVulnerability](https://www.youtube.com/watch?v=jenmicugWoo)
-  - [Vulnerable Web Applications and Services uses Login by QR CodeFeature part \#1](https://www.youtube.com/watch?v=lx-qnQ0ltpI)
-  - [Vulnerable Web Applications and Services uses Login by QR CodeFeature part \#2](https://www.youtube.com/watch?v=Nc_NyR06U5Q)
+- [WhatsApp QRHijackingVulnerability](https://www.youtube.com/watch?v=4QwyBXiZhG0)
+- [WhatsApp Accounts Hijacking and ARPpoisoning](https://www.youtube.com/watch?v=JCoPSdQvESc)
+- [AirDroid vulnerable to QRLJackingVulnerability](https://www.youtube.com/watch?v=jenmicugWoo)
+- [Vulnerable Web Applications and Services uses Login by QR CodeFeature part \#1](https://www.youtube.com/watch?v=lx-qnQ0ltpI)
+- [Vulnerable Web Applications and Services uses Login by QR CodeFeature part \#2](https://www.youtube.com/watch?v=Nc_NyR06U5Q)
