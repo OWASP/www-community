@@ -351,3 +351,54 @@ list? Great, please submit it!
 
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
+
+### [WrongSecrets](https://owasp.org/www-project-wrongsecrets/)
+
+![Preferred for "Medium" GSoC 2023 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
+![Possible for "Large" GSoC 2023 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
+
+##### Explanation of Ideas
+
+- Revise WrongSecrets frontend ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
+- Port WrongSecrets CTF to Azure ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Port WrongSecrets CTF to GCP ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Create Nomad support ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+- Improve WrongSecrets CTF helm chart and release process ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+
+##### Getting Started
+
+Repositories:
+
+- [WrongSecrets](https://github.com/owasp/wrongsecrets)
+- [WrongSecrets CTF](https://github.com/owasp/wrongsecrets-ctf-party)
+
+Please use the repositories' issue tracker, GitHub discussions, and don't forget to read the [contributing guide](https://github.com/OWASP/wrongsecrets/blob/master/CONTRIBUTING.md).
+
+#### Expected Results
+
+Depending on the project:
+
+- A revised WrongSecrets frontend
+- Azure CTF support
+- GCP CTF support
+- WrongSecrets Nomad support
+- A helm chart that's up to industry standards with an appropriate release pipeline
+
+Reach out to us on Slack to discuss these and other ideas!
+
+- Please submit your proposal on the WrongSecrets GitHub discussion board or issue tracker to make it easier for the team to review and give feedback.
+- Team meetings are every friday 8.30 CET. Invite will be shared once GSoC application is approved.
+
+#### Knowledge Prerequisites
+
+- Terraform for infra as code
+- Java for application
+- Java/HTML/JavaScript/CSS for application frontend
+- Kubernetes/helm for backend
+- Azure (if extending Azure support)
+- GCP (if extending GCP support)
+- Nomad for backend (if building Nomad support)
+
+##### Mentors
+
+- [Ben de Haan](mailto:ben.dehaan@owasp.org)
