@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap) | [Bug Logging Tool (BLT)](#bug-logging-tool-blt) | [Maryam](#owaspmaryam) | [SecureTea](#project-securetea) | [PyGoat](#project-pygoat) | [RiskAssessmentFramework](#risk-assessment) | [Juice Shop](#owaspjuiceshop)
+[ZAP](#owasp-zap) | [Bug Logging Tool (BLT)](#bug-logging-tool-blt) | [Maryam](#owasp-maryam) | [SecureTea](#owasp-securetea) | [PyGoat](#owasp-pygoat) | [RiskAssessmentFramework](#owasp-risk-assessment-framework) | [Juice Shop](#owasp-juice-shop) | [OWASP WrongSecrets](#owasp-wrongsecrets)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -352,7 +352,7 @@ list? Great, please submit it!
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
 
-### [WrongSecrets](https://owasp.org/www-project-wrongsecrets/)
+### [OWASP WrongSecrets](https://owasp.org/www-project-wrongsecrets/)
 
 ![Preferred for "Medium" GSoC 2023 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
 ![Possible for "Large" GSoC 2023 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
