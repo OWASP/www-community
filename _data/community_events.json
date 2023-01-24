@@ -30,6 +30,16 @@
         "description": "We are celebrating foundation of Baku chapter of OWASP."
     },
     {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "OWASP Bay Area chapter February Meetup",
+        "date": "2023-02-08",
+        "time": "7:00-08:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/291146036",
+        "timezone": "America/Los_Angeles",
+        "description": "**Please fill the eventbrite registration link to reserve the spot.**\n\nSecurity time, The February OWASP Bay Area chapter meetup is sponsored by GitHub. It will be a great occasion to connect with other security researchers, developers and managers, by discussing all things security, sharing tips and tricks and networking. Enjoy tasty food and crafted cocktails too!\nThe host require everyone to be pre-registered and have to sign a NDA at the event. Your full name and email address will be shared with GitHub. This is for the registration purpose.\n\nPlease complete the form below to reserve your spot.\n[https://www.eventbrite.com/e/owasp-bay-area-chapter-february-meetup-tickets-523090266067](https://www.eventbrite.com/e/owasp-bay-area-chapter-february-meetup-tickets-523090266067)\n\n**Agenda**\n\n* 5:00 - Check in, grab some food/drinks and network\n* 5:45 - Introductions & free security features on GitHub\n* 6:00 - 6:45 - Building trust in your container supply chain\n* 6:45 - 7:30 - Every risk is not a CVE: Bolster up against software supply chain attacks\n* 7:30 - Networking\n* 8:00 - Conclusion\n\n**Talk#1 Building trust in your container supply chain**\n**Speakers:**\nSai Santosh Vernekar\\| Senior Information Security Analyst\\, Kohl\u2019s\nSwarup Natukula \\| Senior Information Security Analyst\\, Kohl\u2019s\n\n**Details:**\nApplications are made up of software components. The supply chain is at the heart of developing, delivering, maintaining, and scaling applications. It is critical to understand the risk in each component in order to safeguard the supply chain. End-to-end security is critical to mitigating the risks associated with open source software, regardless of the application that is being created.\nIn this talk, we will look at the challenges associated with the \"Container\" supply chain, as well as some of the technology, processes, and tools that you can use to create confidence in your container supply chain.\n\n**Talk#2** : **Every risk is not a CVE: Bolster up against software supply chain attacks**\n\n###\n\n**Speaker:** Varun Badhwar, Founder/CEO of Endor Labs\n3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nWe will present a comprehensive, comprehensible and technology-agnostic[ ](https://arxiv.org/abs/2204.04008)taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy,[ ](https://riskexplorer.endorlabs.com/)available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nFollowing, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\nLooking forward to connecting at the Security Meetup"
+    },
+    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston February 2023 Meetup - Hybrid Attendance",
@@ -80,6 +90,16 @@
         "description": "Come join us for our First meeting of the year, Food and Drink Will be provided! The location and agenda are TBA."
     },
     {
+        "group": "Cuddalore",
+        "repo": "www-chapter-cuddalore",
+        "name": "Web 3.0 - Smart Contract Security",
+        "date": "2023-01-28",
+        "time": "8:00+05:30",
+        "link": "https://www.meetup.com/owasp-cuddalore-chapter/events/291124450",
+        "timezone": "Asia/Kolkata",
+        "description": "In this event, you will be learning about Smart contract security. This event is a beginner-friendly event so everyone can participate in this."
+    },
+    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meetup!",
@@ -110,14 +130,14 @@
         "description": "OWASP Dublin are delighted to announce our next meetup will take place on Jan 26th. Venue is TBC.\n\nWe have a brilliant talk planned \" Implementing AppSec using common sense\" which will be delivered by Klaus Agnoletti.\n\nKlaus Agnoletti has been an all-round infosec professional since 2004. As a long-time active member of the infosec community in Copenhagen, Denmark, he co-founded BSides K\u00f8benhavn in 2019. Currently he's a freelance infosec professional specializing in security transformation and community focused marketing.\n\n**Synopsis**\nImplementing AppSec can be a daunting task; especially if you don't know exactly what it is and how do it. Join me as I give you an introduction to AppSec and share my long experience in infosec by giving you practical advice on how to go about doing just that.\n\nWe are really looking forward to this talk and hope to see you there."
     },
     {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Paris - Janvier 2023",
-        "date": "2023-01-23",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-france/events/290848644",
-        "timezone": "Europe/Paris",
-        "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+        "group": "Frankfurt",
+        "repo": "www-chapter-frankfurt",
+        "name": "OWASP Frankfurt #59 Virtual Edition 2023",
+        "date": "2023-02-22",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/290496214",
+        "timezone": "Europe/Berlin",
+        "description": "Hi folks, for our OWASP Frankfurt 2023 winter edition, we are looking forward to welcoming you to our next **virtual event**!\n\n_What's going to happen?\nWe look forward to welcoming you to our first OWASP Frankfurt Meetup in 2023.\n\n_What are we going to talk about?\nTalks to be announced!\n\n_When and Where?\nOur Meetup takes place via Zoom on 22.02.2022 from 18:00 to 20.30 o'clock CEST (ca. 2.5 hours)\n\n_Interested in **giving a talk** yourself?\nGet in touch with the Frankfurt Leads (Dan Gora or Jonas Becker)\n\n_And now?\nPlease save the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on **[Twitter #owasp_frankfurt](https://twitter.com/owasp_frankfurt)**[ ](https://twitter.com/owasp_frankfurt)and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you for this online event!"
     },
     {
         "group": "Jacksonville",
@@ -172,6 +192,16 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - FEB 22, 2023",
+        "date": "2023-02-22",
+        "time": "7:30-08:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/290935113",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks\nJoin us for great networking, dinner and drinks, and see a presentation by Jamie Scott - Product Manager\n\n**ABSTRACT**: 3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\nWe will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\nFollowing, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\n**Thanks to our Sponsor**: Endor Labs\nEndor Labs\u2019 Dependency Lifecycle Management Platform is designed to address the weakest link in software supply chain security: the ungoverned sprawl of open source software in the enterprise. Endor Labs\u2019 mission is to help developers spend less time dealing with security issues and more time accelerating development through safe code reuse. With this solution, development and security teams are able to maximize software reuse by safely evaluating, maintaining, and updating dependencies at scale.\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - JAN 25, 2023",
         "date": "2023-01-25",
         "time": "7:30-08:00",
@@ -188,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-mumbai-chapter/events/290845418",
         "timezone": "Asia/Kolkata",
         "description": "### OWASP Mumbai Online Meetup\n\n### Time: 12:00PM - 1:00PM\n\n### Session Details\n\nIntroduction to the OWASP Mumbai Chapter.\n\n**Talk:-** Client Side Prototype Pollution (CSPP)\n**Speaker:-** Sanjeev R [Senior Consultant @TheSecOpsGroup]\n\nGeneral Discussion, QnA & Feedback"
+    },
+    {
+        "group": "Natal",
+        "repo": "www-chapter-natal",
+        "name": "Meetup 2023 Presencial #01",
+        "date": "2023-02-01",
+        "time": "9:00-03:00",
+        "link": "https://www.meetup.com/owasp-natal-chapter/events/291048946",
+        "timezone": "America/Fortaleza",
+        "description": "OWASP \u00e9 uma organiza\u00e7\u00e3o sem fins lucrativos que se dedica a melhorar a seguran\u00e7a da informa\u00e7\u00e3o global. Ela busca conscientizar as empresas e as universidades sobre as amea\u00e7as de seguran\u00e7a cibern\u00e9tica e fornecer ferramentas e recursos para defender contra essas amea\u00e7as.\n\nCom este evento, as empresas e as universidades participantes ter\u00e3o a oportunidade de serem atualizadas sobre os mais recentes desenvolvimentos e t\u00e9cnicas na \u00e1rea de seguran\u00e7a da informa\u00e7\u00e3o. Al\u00e9m disso, as palestras ser\u00e3o ministradas por profissionais experientes e altamente qualificados, o que lhes dar\u00e1 acesso a conhecimento e a uma rede de contatos de especialistas.\n\nNeste primeiro meetup presencial em 2023 o que vai rolar:\n\n\\- Apresenta\u00e7\u00e3o sobre OWASP\n\\- Como o cap\u00edtulo OWASP Natal funciona?\n\\- Como funciona a seguran\u00e7a de aplica\u00e7\u00f5es da TV Globo\n\nPalestrantes:\n**Matheus Cezar** \\- Analista de seguran\u00e7a da informa\u00e7\u00e3o na Conviso\n**Fernando Guisso** \\- AppSec Engineer na TV Globo\n\n**Local:** Seahub unidade Sebrae - Av. Lima e Silva, 76 - Lagoa Nova, Natal -RN\n\n**Evento Gratutito**\nInscri\u00e7\u00f5es para ter acesso ao local: https://www.sympla.com.br/evento/meetup-seguranca-da-informacao/1851079"
     },
     {
         "group": "Orange County",
@@ -298,5 +338,15 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248487",
         "timezone": "America/Vancouver",
         "description": "OWASP Vancouver monthly meetup"
+    },
+    {
+        "group": "Wrongsecrets",
+        "repo": "www-project-wrongsecrets",
+        "name": "OWASP Frankfurt #59 Virtual Edition 2023",
+        "date": "2023-02-22",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/290496214",
+        "timezone": "Europe/Berlin",
+        "description": "Hi folks, for our OWASP Frankfurt 2023 winter edition, we are looking forward to welcoming you to our next **virtual event**!\n\n_What's going to happen?\nWe look forward to welcoming you to our first OWASP Frankfurt Meetup in 2023.\n\n_What are we going to talk about?\nTalks to be announced!\n\n_When and Where?\nOur Meetup takes place via Zoom on 22.02.2022 from 18:00 to 20.30 o'clock CEST (ca. 2.5 hours)\n\n_Interested in **giving a talk** yourself?\nGet in touch with the Frankfurt Leads (Dan Gora or Jonas Becker)\n\n_And now?\nPlease save the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on **[Twitter #owasp_frankfurt](https://twitter.com/owasp_frankfurt)**[ ](https://twitter.com/owasp_frankfurt)and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you for this online event!"
     }
 ]
