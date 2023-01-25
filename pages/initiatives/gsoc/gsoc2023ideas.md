@@ -242,10 +242,12 @@ The OWASP Risk Assessment Framework consist of Dynamic application security test
 
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Building API Scanner
-- Add Vulnerabilities based on OWASP Top 10 - 2021 & CVE Mitre
-- Fixing all issues and work with Docker
-- Integrated to other pentest tool like brute force, ossint tool etc
+- Building the Dashboard
+- Building API Scanner and integrated other scanner
+- Add Vulnerabilities based on OWASP Top 10 - 2021, CVE Mitre, SANS 25 Top error also ISO 27k
+- Integrated to other pentest tool like scan network, scan web application, brute force, ossint tool, phising attack. etc
+- Custom report like pdf also word format
+- Scheduled scan
 
 ##### Getting started
 - Check[GitHub project](https://github.com/Risk-Assessment-Framework) and [Website](https://owasp.org/www-project-risk-assessment-framework/).
