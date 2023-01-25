@@ -8,7 +8,7 @@ tags: community
 
 <!-- rebuild 6 -->
 
-[Community Content](#community-content) | [Contributing](#contributing)
+[Community Content](#community-content) - [Contributing](#contributing)
 
 ## Community Content
 
