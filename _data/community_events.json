@@ -47,7 +47,7 @@
         "time": "7:30-05:00",
         "link": "https://www.meetup.com/owaspboston/events/290724616",
         "timezone": "America/New_York",
-        "description": "OWASP Boston's first hybrid meetup of 2023 will have an exciting guest speaker, Matt Cheung (https://www.linkedin.com/in/mattcheung1/). Matt is currently an Application Security Consultant at Veracode and is best known for his expertise in cryptograph having spoken at major conference such as DefCon, BsidesSF and many others. Matt will be sharing his experience researching and developing Cryptosploit (https://github.com/nullpsifer/cryptosploit), \"a Metasploit-like tool designed to streamline the exploitation of vulnerable cryptosystems\".\n\nZoom info provided to all registered attendees ahead of the event."
+        "description": "OWASP Boston's first hybrid meetup of 2023 will have an exciting guest speaker, Matt Cheung (https://www.linkedin.com/in/mattcheung1/). Matt is currently an Application Security Consultant at Veracode and is best known for his expertise in cryptograph having spoken at major conference such as DefCon, BsidesSF and many others. Matt will be sharing his experience researching and developing Cryptosploit (https://github.com/nullpsifer/cryptosploit), \"a Metasploit-like tool designed to streamline the exploitation of vulnerable cryptosystems\".\n\nJoin us in person at the Broad Institute in Cambridge, on on Zoom (link provided to all registered attendees ahead of the event)."
     },
     {
         "group": "Bristol Uk",
@@ -58,16 +58,6 @@
         "link": "https://www.meetup.com/owasp-bristol/events/288310192",
         "timezone": "Europe/London",
         "description": "tbc\n\nWe publish the recordings of our meetups on @YouTube.\nIf you would like to be notified when a new video is published, please subscribe to our channel at:\nhttps://www.youtube.com/@OWASPBristol"
-    },
-    {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP Suffolk Fight Club - December 2022",
-        "date": "2023-01-24",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-bristol/events/290421029",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Cambridge",
@@ -140,6 +130,16 @@
         "description": "Hi folks, for our OWASP Frankfurt 2023 winter edition, we are looking forward to welcoming you to our next **virtual event**!\n\n_What's going to happen?\nWe look forward to welcoming you to our first OWASP Frankfurt Meetup in 2023.\n\n_What are we going to talk about?\nTalks to be announced!\n\n_When and Where?\nOur Meetup takes place via Zoom on 22.02.2022 from 18:00 to 20.30 o'clock CEST (ca. 2.5 hours)\n\n_Interested in **giving a talk** yourself?\nGet in touch with the Frankfurt Leads (Dan Gora or Jonas Becker)\n\n_And now?\nPlease save the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on **[Twitter #owasp_frankfurt](https://twitter.com/owasp_frankfurt)**[ ](https://twitter.com/owasp_frankfurt)and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you for this online event!"
     },
     {
+        "group": "Indraprastha Institute Of Information Technology",
+        "repo": "www-chapter-indraprastha-institute-of-information-technology",
+        "name": "The Critical Bid @ Odyssey'23",
+        "date": "2023-01-28",
+        "time": "2:00+05:30",
+        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/291162011",
+        "timezone": "Asia/Kolkata",
+        "description": "Critical Bid is a technical event consisting of two rounds where teams of 4-5 people engage in a bidding war in the first round in order to obtain the materials they desire. The second round is where teams trade amongst themselves in a quest to procure what they couldn\u2019t during the bidding round. This event showcases your ability to observe what the market situations are and how to use collaboration across agencies to your advantage.\n\n* You can register as a team or individual\n* Teams of 4 (the individual players/ teams with less than 4 members would be randomly clubbed)\n* Inter-college teams are allowed\n* The event will consist of 2 rounds\n* The total duration of the event is 2.5 hours\n* The event is open to U-25.\n* Registration at bit.ly/odysseypass is mandatory for entry to Odyssey'23 Fest and this event.\n\n**Rules:**\n\n* Participate in an auction with some starting capital and battle it out with other teams to buy the items you desire.\n* The items you have obtained in the first round will function as raw materials to build final products, which will ultimately be the deciding factor.\n* Which raw materials will be used to make a particular finished product will be revealed after the conclusion of the auction.\n* Different finished products will have different points based on the rarity of the raw materials in the auction.\n* The second round is a trading round where teams trade items among themselves to find the right combination of raw materials.\n* After the second round ends, the team whose products accumulated the highest points will be the winner.\n\nNOTE: To register as a team, all people registering should enter **Organisation Name** as the name of the team."
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -168,16 +168,6 @@
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/290874767",
         "timezone": "America/Fortaleza",
         "description": "Tudo o que voc\u00ea queria saber, mas tinha medo de perguntar\u2026 porque sabia que virariam requisitos."
-    },
-    {
-        "group": "Kansas City",
-        "repo": "www-chapter-kansas-city",
-        "name": "OWASP-KC Jan 24th All About SBOM",
-        "date": "2023-01-24",
-        "time": "8:00-06:00",
-        "link": "https://www.meetup.com/owasp-kansas-city/events/290919824",
-        "timezone": "America/Chicago",
-        "description": "Mat Caughron will be speaking on the topic of Software Bill of Materials (SBOM) and how it's relevant to application security and development!\n\nSBOM's are becoming more and more important in the application security and development space due to the White House's Executive Order around Software Supply Chain and NIST's newest guidance, SP 800-218 Secure Software Development Framework (SSDF).\n\nCome join us for drinks, snacks, and help contribute to the conversation about this topic and how it will effect application security and development for the foreseeable future!"
     },
     {
         "group": "Lahore",
@@ -250,16 +240,6 @@
         "description": "**Welcome to our first in-person meetup in over 2 years!**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nYouTube Live Stream Link: https://www.youtube.com/watch?v=FV8qrPpCSmU\n\n**6:00 PM EDT** Arrival and setup\n**6:30 PM EDT** Introduction to OWASP Ottawa 2023 - Garth Boyd\n**6:45 PM EDT** Venue Sponsor Welcome - Guy-Vincent Jourdan\n\n**7:00 PM EDT** Technical Talks\n\n1. **The Missing pieces to building and adopting application security capabilities -** Jon Shapransky\n\nAbstract:\nThere are increasing requirements for organizations to improve their application security practices. To meet these requirements, organizations need to adopt capabilities whether practices (e.g., threat modelling, vulnerability scanning, etc.) or tools (e.g., SAST, SCA, DAST, CSPM, etc.). The value of hiring specialists and buying tools will not be realized unless the associated services, processes, procedures are adopted.This talk will focus on presenting an approach to building capabilities and highlight underlying principles behind adoption. This framework covers both the general components of a capability and the components required to adopt a capability. We\u2019ll present a framework that incorporates relevant third-party research from fields outside of security and applies them to the security domain to help explain why some are successful in implementing and adopting capabilities while others are not.\n\nThis talk is for anyone involved in designing, building, and managing application security and product security programs. Takeaways:\n\n* Universal framework on capability development that prompts us to think about what we will need to ensure success and adoption.\n* Understanding of the principles behind adoption.\n* Perspective of how team topologies (structure and interactions) influences our ability to achieve desired results.\n* An approach to measuring progress.\n\nSpeaker Bio:\nJon Shapransky is a Technical Principal Security Consultant at Kroll with over 10 years of experience in Information Security. Since beginning his career, Jon has performed various forms of security assessments and helped clients build security programs and capabilities. Jon has worked with a wide range of client from both the public and private sector. His experience includes working with Fortune 100, Fortune 500, and Fortune Global 500 orgnisations across various industries and work with all levels of government, health care, and higher education. Presently, Jon is focussed on helping clients build Application Security and DevSecOps programs where he designs, architects, and helps implement related capabilities and processes."
     },
     {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "Wasatch AppSec / OWASP-SLC - January Meetup (in person @ Health Equity Campus)",
-        "date": "2023-01-24",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-slc/events/290755920",
-        "timezone": "America/Denver",
-        "description": "**Agenda:**\n1) Lunch\n2) 2023 Calendar showing upcoming meetups for the year\n3) Topics for discussion:\n\n1. Content Security Policies and SRI and how they can/can't protect third party script usage (including dynamic)\n2. In room poll (what are you bumping into now?)"
-    },
-    {
         "group": "Sao Jose Dos Campos",
         "repo": "www-chapter-sao-jose-dos-campos",
         "name": "Docker Weaponization",
@@ -300,16 +280,6 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "OWASP Suffolk Fight Club - January 2023",
-        "date": "2023-01-24",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/290329408",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
         "group": "Sydney",
         "repo": "www-chapter-sydney",
         "name": "Modern Authentication - FIDO2 and Passkeys",
@@ -318,6 +288,16 @@
         "link": "https://www.meetup.com/owasp-sydney-chapter/events/290887586",
         "timezone": "Australia/Sydney",
         "description": "Location: - Talenza Offices, Level 3, 7 Macquarie Place, Sydney NSW 2000\nYouTube link: TBA\nDiscord: https://discord.com/invite/uAWze2B - Questions in the Sydney Chapter channel.\nMeet at 6:00 with the talk starting at 6:30.\n\nAbstract: This presentation will discuss approaches to the modern authentication protocols. In particular, we will dive into the FIDO2 passwordless protocol and passkey, a strong candidate to finally replace passwords. Our session will cover both technical and usability aspects of those approaches. We will look at the current trends in authentication attacks as well as the latest research and developments."
+    },
+    {
+        "group": "Triangle Nc",
+        "repo": "www-chapter-triangle-nc",
+        "name": "Building a Security Program & Preparing for a Breach",
+        "date": "2023-02-23",
+        "time": "2:00-05:00",
+        "link": "https://www.meetup.com/owasptriangle/events/290897948",
+        "timezone": "America/New_York",
+        "description": "The world of technology is evolving, and so is the threat landscape. This talk will remind us that security initiatives may be seen as overhead for most companies and how we can change the narrative. We will discuss methods that will save the company money in the long run by partnering with Finance, Business Operations, and DevOps (Modern IT Function). This will provide a strategic roadmap curated through real-life experience and some of the best practices to prepare for 2023 and beyond. Let's succeed by understanding what's important to the shot callers!"
     },
     {
         "group": "Triangle Nc",
