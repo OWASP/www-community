@@ -40,6 +40,16 @@
         "description": "**Please fill the eventbrite registration link to reserve the spot.**\n\nSecurity time, The February OWASP Bay Area chapter meetup is sponsored by GitHub. It will be a great occasion to connect with other security researchers, developers and managers, by discussing all things security, sharing tips and tricks and networking. Enjoy tasty food and crafted cocktails too!\nThe host require everyone to be pre-registered and have to sign a NDA at the event. Your full name and email address will be shared with GitHub. This is for the registration purpose.\n\nPlease complete the form below to reserve your spot.\n[https://www.eventbrite.com/e/owasp-bay-area-chapter-february-meetup-tickets-523090266067](https://www.eventbrite.com/e/owasp-bay-area-chapter-february-meetup-tickets-523090266067)\n\n**Agenda**\n\n* 5:00 - Check in, grab some food/drinks and network\n* 5:45 - Introductions & free security features on GitHub\n* 6:00 - 6:45 - Building trust in your container supply chain\n* 6:45 - 7:30 - Every risk is not a CVE: Bolster up against software supply chain attacks\n* 7:30 - Networking\n* 8:00 - Conclusion\n\n**Talk#1 Building trust in your container supply chain**\n**Speakers:**\nSai Santosh Vernekar\\| Senior Information Security Analyst\\, Kohl\u2019s\nSwarup Natukula \\| Senior Information Security Analyst\\, Kohl\u2019s\n\n**Details:**\nApplications are made up of software components. The supply chain is at the heart of developing, delivering, maintaining, and scaling applications. It is critical to understand the risk in each component in order to safeguard the supply chain. End-to-end security is critical to mitigating the risks associated with open source software, regardless of the application that is being created.\nIn this talk, we will look at the challenges associated with the \"Container\" supply chain, as well as some of the technology, processes, and tools that you can use to create confidence in your container supply chain.\n\n**Talk#2** : **Every risk is not a CVE: Bolster up against software supply chain attacks**\n\n###\n\n**Speaker:** Varun Badhwar, Founder/CEO of Endor Labs\n3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nWe will present a comprehensive, comprehensible and technology-agnostic[ ](https://arxiv.org/abs/2204.04008)taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy,[ ](https://riskexplorer.endorlabs.com/)available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nFollowing, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\nLooking forward to connecting at the Security Meetup"
     },
     {
+        "group": "Bogota",
+        "repo": "www-chapter-bogota",
+        "name": "OWASP Bogot\u00e1 - Ataques dirigidos a smartcontracts y Hack The Box:SQL Inyecci\u00f3n",
+        "date": "2023-02-16",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasp-bogota-meetup-group/events/291169276",
+        "timezone": "America/Bogota",
+        "description": "Nuestra primera reuni\u00f3n del 2023 - Modalidad presencial\n\nEn esta ocasi\u00f3n nos acompa\u00f1a Jawy Romero y Jesus Su\u00e1rez vamos hablar sobre ataques dirigidos a smartcontracts y DAO y una charla introductoria sobre sql injection en ambientes controlados.\n\nUn agradecimiento muy especial a la Fundaci\u00f3n Universitaria San Mateo, recuerden que los asistentes deben enviar el n\u00famero de c\u00e9dula al correo luis.hernandez@owasp.org previamente para evitar problemas con el acceso a las instalaciones.\n\nNombre del ponente: Jawy Romero @JawyPinto\n\nT\u00edtulo de la charla: Ataques dirigidos a smartcontracts y DAO\n\nDescripci\u00f3n:\nDar a conocer los ataques conocidos en smartcontracts y c\u00f3mo se han visto afectadas las aplicaciones en entornos blockchain.\n\nP\u00fablico con conocimiento b\u00e1sico en tecnolog\u00edas Blockchain\n\nDuraci\u00f3n: 45 Min\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nNombre del ponente: Jes\u00fas Su\u00e1rez\n\nLinkedIn: https://www.linkedin.com/in/jesussuarz/\n\nT\u00edtulo de la charla: Hack The Box: SQL Inyecci\u00f3n SQLi\n\nDescripci\u00f3n de la charla: En esta charla conoceremos c\u00f3mo funciona Hack The Box a nivel general, adem\u00e1s completaremos un reto de Hack The Box Academy utilizando diversas t\u00e9cnicas, mostraremos t\u00e9cnicas de SQL Inyecci\u00f3n realistas junto con recolecci\u00f3n de informaci\u00f3n en entornos controlados, la idea es entender c\u00f3mo funciona la plataforma y como se pueden completar los distintos retos propuestos si se quisiera dedicar a Ciberseguridad y Hacking \u00c9tico.\n\nP\u00fablico objetivo: charla dirigida a inform\u00e1ticos que quieran comenzar en Hacking \u00c9tico y Ciberseguridad\n\nDuraci\u00f3n: 1 Hora\n\nLos esperamos!!"
+    },
+    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston February 2023 Meetup - Hybrid Attendance",
@@ -107,7 +117,7 @@
         "time": "8:00+05:30",
         "link": "https://www.meetup.com/dindigul-owasp-meetup-group/events/290782618",
         "timezone": "Asia/Kolkata",
-        "description": "**Speaker Name:** Premkumar S\nFounder & Director of ORBIT INFOSEC\n**Organizer:** Arun sakthivel\n**Owasp Dindigul leader**\n\nRegistration URL: [https://forms.gle/h4sRnviA3KcBbUep7](https://forms.gle/h4sRnviA3KcBbUep7)"
+        "description": "**Speaker Name:** Premkumar S\nFounder & Director of ORBIT INFOSEC\n**Organizer:** Arun sakthivel\n**Owasp Dindigul leader**"
     },
     {
         "group": "Dublin",
@@ -188,16 +198,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/290935113",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks\nJoin us for great networking, dinner and drinks, and see a presentation by Jamie Scott - Product Manager\n\n**ABSTRACT**: 3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\nWe will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\nFollowing, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\n**Thanks to our Sponsor**: Endor Labs\nEndor Labs\u2019 Dependency Lifecycle Management Platform is designed to address the weakest link in software supply chain security: the ungoverned sprawl of open source software in the enterprise. Endor Labs\u2019 mission is to help developers spend less time dealing with security issues and more time accelerating development through safe code reuse. With this solution, development and security teams are able to maximize software reuse by safely evaluating, maintaining, and updating dependencies at scale.\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - JAN 25, 2023",
-        "date": "2023-01-25",
-        "time": "7:30-08:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/290450912",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: **Identity Based Attacks**\nJoin us for great networking, dinner and drinks, and see a presentation by:\n**Liam O\u2019Murchu**, Technical Director, Security Technology and Response Group with Symantec\n\n**ABSTRACT**: Identity Based Attacks have become more common as the use of multifactor authentication has increased. Groups as diverse as teenage hackers to North Korean spies have devised schemes to circumvent these improvements. Direct attacks on the MFA tools themselves have also allowed APTs unfettered access to enterprises. A strong understanding of recent successful Identity Based Attacks can guide us to stronger solutions. We will look at attacks from social engineering to hidden back doors, showing attacker trends, solution weaknesses and stronger solutions will be highlighted.\n\n**Thanks to our Sponsor**: **Ermetic**\nErmetic helps prevent breaches by reducing the attack surface of cloud infrastructure and enforcing least privilege at scale in the most complex environments. The Ermetic SaaS platform provides comprehensive cloud security for AWS, Azure and GCP that spans both cloud infrastructure entitlements management (CIEM) and cloud security posture management (CSPM). The company is led by proven technology entrepreneurs whose previous companies have been acquired by Microsoft, Palo Alto Networks and others. Ermetic has received funding from Accel, Forgepoint, Glilot Capital Partners, Norwest Venture Partners, Qumra and Target Global. Visit us at [https://ermetic.com/](https://ermetic.com/) and follow us on LinkedIn ([https://www.linkedin.com/company/ermetic/mycompany/](https://www.linkedin.com/company/ermetic/mycompany/)), Twitter ([https://twitter.com/ermeticsec](https://twitter.com/ermeticsec)) and Facebook ([https://www.facebook.com/ermeticsec/](https://www.facebook.com/ermeticsec/)).\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
     },
     {
         "group": "Mumbai",
@@ -290,6 +290,16 @@
         "description": "Location: - Talenza Offices, Level 3, 7 Macquarie Place, Sydney NSW 2000\nYouTube link: TBA\nDiscord: https://discord.com/invite/uAWze2B - Questions in the Sydney Chapter channel.\nMeet at 6:00 with the talk starting at 6:30.\n\nAbstract: This presentation will discuss approaches to the modern authentication protocols. In particular, we will dive into the FIDO2 passwordless protocol and passkey, a strong candidate to finally replace passwords. Our session will cover both technical and usability aspects of those approaches. We will look at the current trends in authentication attacks as well as the latest research and developments."
     },
     {
+        "group": "Tampa",
+        "repo": "www-chapter-tampa",
+        "name": "OWASP Tampa Chapter | Q1 2023 | Lunch and Speaker Event",
+        "date": "2023-02-24",
+        "time": "1:30-05:00",
+        "link": "https://www.meetup.com/owasp-tampa/events/290897847",
+        "timezone": "America/New_York",
+        "description": "Welcome to OWASP Tampa Chapter \\| Q1 2023 \\| Lunch and Speaker Event\n\nTitle: **Build a Roadmap for Your Dream Career in Cybersecurity**\n\nAbstract: Don\u2019t rely on luck or hope; create a strategy to navigate your path to your dream role in cyber. Whether you want to lead the top NSA Red Team, build software to mitigate zero-day attacks, become a CISO, take a startup to IPO, or have a seat in the Boardroom, you need a plan. Beyond core skills getting that dream role requires the right mindset, specific communication skills, and growing your personal brand.\n\nSpeaker: Joy Randels is an Entrepreneur, current CEO of Prowess Group & New Market Partners, she\u2019s named Top 100 Female Speaker, Board Director and so much more in the Cybersecurity community! Joy was recently selected as one of only 54 of Florida\u2019s most influential executives in the Finance & Insurance category and one of five in venture capital.\n\nRegistration Page: https://www.eventbrite.com/e/owasp-tampa-chapter-q1-lunch-and-speaker-event-2023-tickets-510875942697\n\nLocation:\n\n* This is an in-person event only, no streaming available.\n* **8th Floor, John P Lowth Entrepreneur Center, University of Tampa** -**Public (non-student, free) Parking available directly across from the John P Lowth Entrepreneur Center**\n\nAGENDA:\n\n* Announcements\n* Guest Speaker\n* Ajourn"
+    },
+    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Building a Security Program & Preparing for a Breach",
@@ -312,12 +322,12 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver - February 2023",
+        "name": "OWASP Vancouver - Scaling your Application Security program",
         "date": "2023-02-16",
         "time": "8:00-08:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248487",
         "timezone": "America/Vancouver",
-        "description": "OWASP Vancouver monthly meetup"
+        "description": "**Title**: How to avoid potholes when scaling your Application Security program\n**Speaker**: Jeevan Singh, Director of Product Security at Twilio\n\nHave you ever wondered what it is like to build an Application Security program at a very large organization? Or how to build it at an organization that had experienced hypergrowth and the security team\u2019s hiring was not at the same pace as Engineering? What about an organization that had acquired a lot of different companies with vastly different tech stacks?\nJeevan Singh will show you how to build an Application Security program and avoid pitfalls at a hypergrowth organization. The talk will cover topics such as hiring, tooling, metrics, roadmapping, building allies and setting yourself up for success."
     },
     {
         "group": "Wrongsecrets",
