@@ -90,6 +90,16 @@
         "description": "Come join us for our First meeting of the year, Food and Drink Will be provided! The location and agenda are TBA."
     },
     {
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP CoS February 2023",
+        "date": "2023-02-23",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/291207717",
+        "timezone": "America/Denver",
+        "description": "Speaker: TBD\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
+    },
+    {
         "group": "Cuddalore",
         "repo": "www-chapter-cuddalore",
         "name": "Web 3.0 - Smart Contract Security",
@@ -108,26 +118,6 @@
         "link": "https://www.meetup.com/denver-owasp/events/291010905",
         "timezone": "America/Denver",
         "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend. Bring a laptop if you plan to participate hands-on.**\n\nFor our February meetup, the focus will be on Hacking the OWASP Top 10 - 2023 Edition. We'll have a presenter, food, drinks, and networking. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to your sponsor [SpyderSec ](https://spydersec.com)**\n\n**Presentation Title:** Hacking the OWASP Top 10 - 2023 Edition\n\n**Presentation Details:**\nCurious what the latest OWASP Top 10 looks like? Wondering what the changes mean for developers, testers, and auditors? Come dive into it with our own Aaron Cure as he talks about each of the issues and his theories on the updates. Make sure to bring a laptop so you can hack along on several of the issues. Worried you don\u2019t have the chops? Don\u2019t be, we\u2019ll give you enough info to hack it whether you\u2019re a beginner or a pro!"
-    },
-    {
-        "group": "Dindigul",
-        "repo": "www-chapter-dindigul",
-        "name": "Identifying Web Application Vulnerabilities",
-        "date": "2023-01-26",
-        "time": "8:00+05:30",
-        "link": "https://www.meetup.com/dindigul-owasp-meetup-group/events/290782618",
-        "timezone": "Asia/Kolkata",
-        "description": "**Speaker Name:** Premkumar S\nFounder & Director of ORBIT INFOSEC\n**Organizer:** Arun sakthivel\n**Owasp Dindigul leader**"
-    },
-    {
-        "group": "Dublin",
-        "repo": "www-chapter-dublin",
-        "name": "OWASP Dublin meetup -Implementing AppSec using common sense ",
-        "date": "2023-01-26",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/owasp-dublin/events/291000719",
-        "timezone": "Europe/Dublin",
-        "description": "OWASP Dublin are delighted to announce our next meetup will take place on Jan 26th. Venue is TBC.\n\nWe have a brilliant talk planned \" Implementing AppSec using common sense\" which will be delivered by Klaus Agnoletti.\n\nKlaus Agnoletti has been an all-round infosec professional since 2004. As a long-time active member of the infosec community in Copenhagen, Denmark, he co-founded BSides K\u00f8benhavn in 2019. Currently he's a freelance infosec professional specializing in security transformation and community focused marketing.\n\n**Synopsis**\nImplementing AppSec can be a daunting task; especially if you don't know exactly what it is and how do it. Join me as I give you an introduction to AppSec and share my long experience in infosec by giving you practical advice on how to go about doing just that.\n\nWe are really looking forward to this talk and hope to see you there."
     },
     {
         "group": "Frankfurt",
@@ -168,16 +158,6 @@
         "link": "https://www.meetup.com/owasp-jakarta-chapter/events/290913180",
         "timezone": "Asia/Jakarta",
         "description": "Topic: Flash memory dumping\n\nAbstract:\n\nThe test case objective is to dump the Flash Memory off the \"JTAG\" Protocol using \"Attify badge\" as the Attacking hardware against the DIVA (Damn Insecure and Vulnerable App).\n\nShort Bio:\n\nUjval Patel (Hax04)\n\ni have 2 total experience in security consulting & auditing. I\u2019m currently working in EY. I started my career as a researcher at Indian Space Research Organisation (ISRO). I\u2019m active member of the Seasides Security Community. I\u2019m most passionate about hardware hacking since i like to grt my hands dirty.\n\nNote\n\nThis Session deliver in English\n\nJoin By zoom :\n\nTopic: OWASP Jakarta - Flash memory dumping\nTime: Jan 30, 2023 07:00 PM Jakarta\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/87689121285?pwd=Z0dlS2lGRlJRZDFjOUZRUTFRMllSUT09\n\nMeeting ID: 876 8912 1285\nPasscode: OWASPJKT"
-    },
-    {
-        "group": "Joao Pessoa",
-        "repo": "www-chapter-joao-pessoa",
-        "name": "Modelagem de Amea\u00e7as",
-        "date": "2023-01-26",
-        "time": "9:00-03:00",
-        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/290874767",
-        "timezone": "America/Fortaleza",
-        "description": "Tudo o que voc\u00ea queria saber, mas tinha medo de perguntar\u2026 porque sabia que virariam requisitos."
     },
     {
         "group": "Lahore",
@@ -230,26 +210,6 @@
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nThe increased pressure for cybersecurity practices, even in their earliest stages, is becoming a common demand from both customers and investors. With cyber threats escalating, it\u2019s more urgent than ever to embed security into a company\u2019s day-to-day operations from day one to prevent \u2018security debt\u2019 from emerging as the company scale. Establishing a robust cyber security program can be a daunting task. A cloud-native company faces dozens of cybersecurity tools to choose from and the typical resource constraints of a young company that needs to grow fast. Based on the practical advice given by CISOs of 7 hyper-growth companies (Netflix, Datadog, HashiCorp, ACV, Axonius, Discord, and ServiceTitan), this talk aims to provide you with a modern, lightweight security guide to succeed in the cloud-first/cloud-native era.\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)\n\n**Thanks to our Sponsor**: **Synopsys**\n**[Synopsys](https://www.synopsys.com/)**[ ](https://www.synopsys.com/)builds trust in software by enabling organizations to manage application security, quality, and compliance risks at the speed their business demands."
     },
     {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASP Ottawa January 2023:  Building & Adopting AppSec Capabilities",
-        "date": "2023-01-26",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/290755929",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our first in-person meetup in over 2 years!**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nYouTube Live Stream Link: https://www.youtube.com/watch?v=FV8qrPpCSmU\n\n**6:00 PM EDT** Arrival and setup\n**6:30 PM EDT** Introduction to OWASP Ottawa 2023 - Garth Boyd\n**6:45 PM EDT** Venue Sponsor Welcome - Guy-Vincent Jourdan\n\n**7:00 PM EDT** Technical Talks\n\n1. **The Missing pieces to building and adopting application security capabilities -** Jon Shapransky\n\nAbstract:\nThere are increasing requirements for organizations to improve their application security practices. To meet these requirements, organizations need to adopt capabilities whether practices (e.g., threat modelling, vulnerability scanning, etc.) or tools (e.g., SAST, SCA, DAST, CSPM, etc.). The value of hiring specialists and buying tools will not be realized unless the associated services, processes, procedures are adopted.This talk will focus on presenting an approach to building capabilities and highlight underlying principles behind adoption. This framework covers both the general components of a capability and the components required to adopt a capability. We\u2019ll present a framework that incorporates relevant third-party research from fields outside of security and applies them to the security domain to help explain why some are successful in implementing and adopting capabilities while others are not.\n\nThis talk is for anyone involved in designing, building, and managing application security and product security programs. Takeaways:\n\n* Universal framework on capability development that prompts us to think about what we will need to ensure success and adoption.\n* Understanding of the principles behind adoption.\n* Perspective of how team topologies (structure and interactions) influences our ability to achieve desired results.\n* An approach to measuring progress.\n\nSpeaker Bio:\nJon Shapransky is a Technical Principal Security Consultant at Kroll with over 10 years of experience in Information Security. Since beginning his career, Jon has performed various forms of security assessments and helped clients build security programs and capabilities. Jon has worked with a wide range of client from both the public and private sector. His experience includes working with Fortune 100, Fortune 500, and Fortune Global 500 orgnisations across various industries and work with all levels of government, health care, and higher education. Presently, Jon is focussed on helping clients build Application Security and DevSecOps programs where he designs, architects, and helps implement related capabilities and processes."
-    },
-    {
-        "group": "Sao Jose Dos Campos",
-        "repo": "www-chapter-sao-jose-dos-campos",
-        "name": "Docker Weaponization",
-        "date": "2023-01-26",
-        "time": "1:00-03:00",
-        "link": "https://www.meetup.com/owasp-sao-jose-dos-campos-chapter/events/290877438",
-        "timezone": "America/Sao_Paulo",
-        "description": "Neste Meetup vamos entender o processo que permite que executemos aplica\u00e7\u00f5es que utilizam GUI de dentro de um container.\n\nEste tipo de a\u00e7\u00e3o se torna \u00fatil no dia-a-dia, ainda falando em sec, pois permite que tenhamos todas as ferramentas necess\u00e1rias para um teste ou an\u00e1lise de vulnerabilidade, sem que haja a necessidade de instalar ferramentas diretamente no SO ou o uso de virtualiza\u00e7\u00e3o.\n\nO sistema final fica muito leve em compara\u00e7\u00e3o a um SO sendo executado em sua totalidade, seja como host ou virtualizado, al\u00e9m de ser extremamente minimalista, instalando somente as ferramentas necess\u00e1rias. O que o torna perform\u00e1tico e isolado do SO host (nem tanto)."
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -300,6 +260,16 @@
         "description": "Welcome to OWASP Tampa Chapter \\| Q1 2023 \\| Lunch and Speaker Event\n\nTitle: **Build a Roadmap for Your Dream Career in Cybersecurity**\n\nAbstract: Don\u2019t rely on luck or hope; create a strategy to navigate your path to your dream role in cyber. Whether you want to lead the top NSA Red Team, build software to mitigate zero-day attacks, become a CISO, take a startup to IPO, or have a seat in the Boardroom, you need a plan. Beyond core skills getting that dream role requires the right mindset, specific communication skills, and growing your personal brand.\n\nSpeaker: Joy Randels is an Entrepreneur, current CEO of Prowess Group & New Market Partners, she\u2019s named Top 100 Female Speaker, Board Director and so much more in the Cybersecurity community! Joy was recently selected as one of only 54 of Florida\u2019s most influential executives in the Finance & Insurance category and one of five in venture capital.\n\nRegistration Page: https://www.eventbrite.com/e/owasp-tampa-chapter-q1-lunch-and-speaker-event-2023-tickets-510875942697\n\nLocation:\n\n* This is an in-person event only, no streaming available.\n* **8th Floor, John P Lowth Entrepreneur Center, University of Tampa** -**Public (non-student, free) Parking available directly across from the John P Lowth Entrepreneur Center**\n\nAGENDA:\n\n* Announcements\n* Guest Speaker\n* Ajourn"
     },
     {
+        "group": "Tirunelveli",
+        "repo": "www-chapter-tirunelveli",
+        "name": "Basic Blockchain 101",
+        "date": "2023-01-29",
+        "time": "8:30+05:30",
+        "link": "https://www.meetup.com/owasp-tirunelveli-chapter/events/291202579",
+        "timezone": "Asia/Kolkata",
+        "description": "An basic concept of blockchain\nAn some case studies about the block chain"
+    },
+    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Building a Security Program & Preparing for a Breach",
@@ -308,16 +278,6 @@
         "link": "https://www.meetup.com/owasptriangle/events/290897948",
         "timezone": "America/New_York",
         "description": "The world of technology is evolving, and so is the threat landscape. This talk will remind us that security initiatives may be seen as overhead for most companies and how we can change the narrative. We will discuss methods that will save the company money in the long run by partnering with Finance, Business Operations, and DevOps (Modern IT Function). This will provide a strategic roadmap curated through real-life experience and some of the best practices to prepare for 2023 and beyond. Let's succeed by understanding what's important to the shot callers!"
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "AppSec Roundtable, hosted by Chris Romeo",
-        "date": "2023-01-26",
-        "time": "2:00-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/290775398",
-        "timezone": "America/New_York",
-        "description": "OWASP Triangle Chapter is dormant no more! This month we'll re-launch with an AppSec roundtable. Bring your AppSec questions, thoughts, opinion, and debates, and let's get the community back together to talk all things AppSec!"
     },
     {
         "group": "Vancouver",
