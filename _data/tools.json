@@ -207,6 +207,24 @@
       "type": "DAST"
    },
    {
+      "title": "Code Intelligence App",
+      "url": "https://www.code-intelligence.com/guided-product-tour",
+      "owner": "Code Intelligence",
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premises",
+      "note": null,
+      "type": "DAST"
+   },
+   {
+      "title": "CI Fuzz CLI",
+      "url": "https://www.code-intelligence.com/cli-tool",
+      "owner": "Code Intelligence",
+      "license": "Open Source",
+      "platforms": "Most platforms supported",
+      "note": null,
+      "type": "DAST"
+   },
+   {
       "title": "Contrast",
       "url": "https://contrastsecurity.com/",
       "owner": "Contrast Security",
