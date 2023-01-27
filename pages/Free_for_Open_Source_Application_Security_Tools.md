@@ -108,6 +108,8 @@ capabilities. Our primary recommendation is to use one of these:
         
     Purpleteam is pluggable, if it doesn't have a tester that you need you can add your own.
     One of the testers (the web application tester) uses OWASP ZAP under the hood.
+  - [CI Fuzz CLI](https://www.code-intelligence.com/cli-tool) - An open source command line tool for creating fuzz tests. The tool is tightly integrated with various build systems, enabling developers to create fuzz tests as easily as unit tests.
+  - [Code Intelligence App](https://www.code-intelligence.com/guided-product-tour) - This application security testing platform enables CI/CD-integrated fuzz testing at each pull request. It helps developers to measure and maximize code coverage and to prioritize all findings based on severity. All of this information is then aggregated in a usable dashboard. The testing platform integrates directly into popular ticketing systems and issue trackers.
 
 
 We are not aware of any other commercial grade tools that offer their
