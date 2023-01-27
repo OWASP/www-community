@@ -369,7 +369,7 @@ And some special recommendations for the developers and webmasters:
     name of a file plus its extension should be less than 255 characters
     (without any directory) in an NTFS partition.
   - It is recommended to use an algorithm to determine the filenames.
-    For instance, a filename can be a Keccak hash of the name of file plus
+    For instance, a filename can be a hash of the name of file plus
     the date of the day.
   - Uploaded directory should not have any "execute" permission and all
     the script handlers should be removed from these directories.
