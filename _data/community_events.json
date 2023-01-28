@@ -7,7 +7,7 @@
         "time": "9:00+01:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/289490322",
         "timezone": "Europe/Copenhagen",
-        "description": "Hi All,\nPlease note, that this is a physical event hosted by Github and OWASP Aarhus may share a list of participants with Github for the sole purpose of hosting the event.\nAs we have been talking about, OWASP Aarhus wanted to try out the \u201clightning talk\u201d format. All the details are still not complete, but the schedule is: (TBD \u2013 To Be Decided)\n\n19:00 \u2013 19:15 Welcome by Github and OWASP Aarhus, Karl Krukow, Github and Thomas Ljungberg Kristensen, OWASP\n19:20 \u2013 19:35 Leveraging CVEs to improve the CodeQL security analysis, Esben Andreasen, Sr. Software Engineer, GitHub\n19:40 \u2013 19:55 OWASP for dummies Martin Duedahl\n20:00 \u2013 20:15 Live demo - Heap Exploit in Glibc Oliver Thomas\n20:15 \u2013 20:45 Break\n20:50 \u2013 21:05 TBD Klaus Agnoletti\n21:10 \u2013 21:25 Using storytelling Jens Roed Andersen\n21:25 \u2013 21:30 Goodbyes OWASP and Github\n\nLooking forward to it!"
+        "description": "Hi All,\nPlease note, that this is a physical event hosted by Github and OWASP Aarhus may share a list of participants with Github for the sole purpose of hosting the event.\nAs we have been talking about, OWASP Aarhus wanted to try out the \u201clightning talk\u201d format. All the details are still not complete, but the schedule is: (TBD \u2013 To Be Decided)\n\n19:00 \u2013 19:15 Welcome by Github and OWASP Aarhus, Karl Krukow, Github and Thomas Ljungberg Kristensen, OWASP\n19:20 \u2013 19:35 Leveraging CVEs to improve the CodeQL security analysis, Esben Andreasen, Sr. Software Engineer, GitHub\n19:40 \u2013 19:55 OWASP for dummies Martin Duedahl\n20:00 \u2013 20:15 Live demo - Heap Exploit in Glibc Oliver Thomas\n20:15 \u2013 20:45 Break\n20:50 \u2013 21:05 Living with AD(H)D in infosec, Klaus Agnoletti\n21:10 \u2013 21:25 Using storytelling Jens Roed Andersen\n21:25 \u2013 21:30 Goodbyes OWASP and Github\n\nLooking forward to it!"
     },
     {
         "group": "Austin",
@@ -120,6 +120,16 @@
         "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend. Bring a laptop if you plan to participate hands-on.**\n\nFor our February meetup, the focus will be on Hacking the OWASP Top 10 - 2023 Edition. We'll have a presenter, food, drinks, and networking. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to your sponsor [SpyderSec ](https://spydersec.com)**\n\n**Presentation Title:** Hacking the OWASP Top 10 - 2023 Edition\n\n**Presentation Details:**\nCurious what the latest OWASP Top 10 looks like? Wondering what the changes mean for developers, testers, and auditors? Come dive into it with our own Aaron Cure as he talks about each of the issues and his theories on the updates. Make sure to bring a laptop so you can hack along on several of the issues. Worried you don\u2019t have the chops? Don\u2019t be, we\u2019ll give you enough info to hack it whether you\u2019re a beginner or a pro!"
     },
     {
+        "group": "Dubai",
+        "repo": "www-chapter-dubai",
+        "name": " Cyber Security Awareness for Modern Enterprises ",
+        "date": "2023-02-03",
+        "time": "5:00+04:00",
+        "link": "https://www.meetup.com/meetup-group-svgchist/events/291225865",
+        "timezone": "Asia/Dubai",
+        "description": "Everyday, technology gets more helpful yet more complex\nEveryday, we relay more and more on technology and software solutions\nEveryday, new cyber threats and attacks are created and activated.\nIn this session, we will discuss:\n\\- Modern Cyber Security Threats and major attacks targeting enterprises\n\\- Common pitfalls in cyber securing\n\\- Best practices for increasing your safety online on both business and personal levels\\."
+    },
+    {
         "group": "Frankfurt",
         "repo": "www-chapter-frankfurt",
         "name": "OWASP Frankfurt #59 Virtual Edition 2023",
@@ -178,16 +188,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/290935113",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks\nJoin us for great networking, dinner and drinks, and see a presentation by Jamie Scott - Product Manager\n\n**ABSTRACT**: 3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\nWe will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\nFollowing, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\n**Thanks to our Sponsor**: Endor Labs\nEndor Labs\u2019 Dependency Lifecycle Management Platform is designed to address the weakest link in software supply chain security: the ungoverned sprawl of open source software in the enterprise. Endor Labs\u2019 mission is to help developers spend less time dealing with security issues and more time accelerating development through safe code reuse. With this solution, development and security teams are able to maximize software reuse by safely evaluating, maintaining, and updating dependencies at scale.\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
-    },
-    {
-        "group": "Mumbai",
-        "repo": "www-chapter-mumbai",
-        "name": "OWASP Mumbai Online Meetup - 28th January 2023",
-        "date": "2023-01-28",
-        "time": "2:00+05:30",
-        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/290845418",
-        "timezone": "Asia/Kolkata",
-        "description": "### OWASP Mumbai Online Meetup\n\n### Time: 12:00PM - 1:00PM\n\n### Session Details\n\nIntroduction to the OWASP Mumbai Chapter.\n\n**Talk:-** Client Side Prototype Pollution (CSPP)\n**Speaker:-** Sanjeev R [Senior Consultant @TheSecOpsGroup]\n\nGeneral Discussion, QnA & Feedback"
     },
     {
         "group": "Natal",
