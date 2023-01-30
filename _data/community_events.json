@@ -2,12 +2,32 @@
     {
         "group": "Aarhus",
         "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - February",
+        "date": "2023-02-28",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/288772226",
+        "timezone": "Europe/Copenhagen",
+        "description": "More information to come!"
+    },
+    {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
         "name": "OWASP Aarhus Chapter Meeting - January",
         "date": "2023-01-31",
         "time": "9:00+01:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/289490322",
         "timezone": "Europe/Copenhagen",
         "description": "Hi All,\nPlease note, that this is a physical event hosted by Github and OWASP Aarhus may share a list of participants with Github for the sole purpose of hosting the event.\nAs we have been talking about, OWASP Aarhus wanted to try out the \u201clightning talk\u201d format. All the details are still not complete, but the schedule is: (TBD \u2013 To Be Decided)\n\n19:00 \u2013 19:15 Welcome by Github and OWASP Aarhus, Karl Krukow, Github and Thomas Ljungberg Kristensen, OWASP\n19:20 \u2013 19:35 Leveraging CVEs to improve the CodeQL security analysis, Esben Andreasen, Sr. Software Engineer, GitHub\n19:40 \u2013 19:55 OWASP for dummies Martin Duedahl\n20:00 \u2013 20:15 Live demo - Heap Exploit in Glibc Oliver Thomas\n20:15 \u2013 20:45 Break\n20:50 \u2013 21:05 Living with AD(H)D in infosec, Klaus Agnoletti\n21:10 \u2013 21:25 Using storytelling Jens Roed Andersen\n21:25 \u2013 21:30 Goodbyes OWASP and Github\n\nLooking forward to it!"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - February 2023 (Online)",
+        "date": "2023-02-28",
+        "time": "1:30-06:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705717",
+        "timezone": "America/Chicago",
+        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- https://owasp\\-austin\\-2023\\-february\\.eventbrite\\.com\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nAppSecOps - a Scalable Approach to Application Security\nLuis Guzman\n\nToday many unforeseen factors are driving AppSec chaos...We have found about 3-4 TOP challenges every vertical is seeing in today's frugal market. The factors range from simple to hilariously unattainable! I aim to give you a few tips and steps to overcome some if not ALL and create an organization able to ship software fast and secure! All the while addressing current events happening in the market and how to avoid potential \"potholes.\""
     },
     {
         "group": "Austin",
@@ -58,6 +78,16 @@
         "link": "https://www.meetup.com/owaspboston/events/290724616",
         "timezone": "America/New_York",
         "description": "OWASP Boston's first hybrid meetup of 2023 will have an exciting guest speaker, Matt Cheung (https://www.linkedin.com/in/mattcheung1/). Matt is currently an Application Security Consultant at Veracode and is best known for his expertise in cryptograph having spoken at major conference such as DefCon, BsidesSF and many others. Matt will be sharing his experience researching and developing Cryptosploit (https://github.com/nullpsifer/cryptosploit), \"a Metasploit-like tool designed to streamline the exploitation of vulnerable cryptosystems\".\n\nJoin us in person at the Broad Institute in Cambridge, on on Zoom (link provided to all registered attendees ahead of the event)."
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "OWASP Suffolk Fight Club - February 2022",
+        "date": "2023-02-28",
+        "time": "9:00Z",
+        "link": "https://www.meetup.com/owasp-bristol/events/291234834",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Bristol Uk",
@@ -150,6 +180,16 @@
         "description": "Topic: Flash memory dumping\n\nAbstract:\n\nThe test case objective is to dump the Flash Memory off the \"JTAG\" Protocol using \"Attify badge\" as the Attacking hardware against the DIVA (Damn Insecure and Vulnerable App).\n\nShort Bio:\n\nUjval Patel (Hax04)\n\ni have 2 total experience in security consulting & auditing. I\u2019m currently working in EY. I started my career as a researcher at Indian Space Research Organisation (ISRO). I\u2019m active member of the Seasides Security Community. I\u2019m most passionate about hardware hacking since i like to grt my hands dirty.\n\nNote\n\nThis Session deliver in English\n\nJoin By zoom :\n\nTopic: OWASP Jakarta - Flash memory dumping\nTime: Jan 30, 2023 07:00 PM Jakarta\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/87689121285?pwd=Z0dlS2lGRlJRZDFjOUZRUTFRMllSUT09\n\nMeeting ID: 876 8912 1285\nPasscode: OWASPJKT"
     },
     {
+        "group": "Lisboa",
+        "repo": "www-chapter-lisboa",
+        "name": "#02 Building Up",
+        "date": "2023-02-28",
+        "time": "8:00Z",
+        "link": "https://www.meetup.com/owasp-lisboa-chapter/events/291153982",
+        "timezone": "Europe/Lisbon",
+        "description": "OWASP Lisboa chapter meetup on February 28th, 2023, at 18:00, **sponsored by INESC-ID**.\n\nThe schedule is the following:\n**18:00** \\- Welcome notes by the OWASP Lisboa chapter leadership team\n**18:15** \\- Surface Security: The experience so far and the road ahead by Gustavo Silva\n**19:00** \\- Is it private\\, is it public? Dependency Confusion by Francisco Santos\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Talks**:\n\nTitle: **Surface Security: The experience so far and the road ahead**\n\nSpeaker:\nGustavo Silva\n\nAbstract:\nAt Paddy Power Betfair (Blip.pt), throughout the years, we have developed a tool to help us have an inventory of all internal assets, from servers to DNS records to endpoint devices, but to also integrate other tools in it, like open source scanners to help us detect vulnerabilities, understand our exposure, weaknesses, and priorities, as well as leverage built-in notifications, a slack bot, and much more.\nThis talk is to talk about this project, which was open-sourced recently, and what the roadmap is for the future.\n\n[Gustavo Silva](https://www.linkedin.com/in/gsilvapt/) Bio:\nSoftware Developer by day, Security Researcher at night. I\u2019m passionate about software security. The niche I am currently working on is engineering processes, tools, and internal interfaces to help companies secure their development lifecycles, do vulnerability management and increase overall awareness of the product's security risks.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nTitle: **Is it private, is it public? Dependency Confusion**\n\nSpeaker:\nFrancisco Santos\n\nAbstract:\nBy 2021, the number of components in the average application rose 77 % from 298 to more than 500 open-source packages. Those components are hosted on public repositories such as GitHub, NPM, or PyPI, while some organizations choose to operate proprietary packages inside private registries of those repositories. Private or public, the management is done by CLI (like npm). The CLI imports private or public packages via a simple precedence algorithm: If the package resides inside the private registry, import it. If not, import the public component. How can a bad actor play this to his advantage?\nThe \"is it private, is it public? Dependency Confusion\" talk explains what dependency confusion is, and teaches ways of finding dependency confusion vulnerabilities in js files via BurpSuite with an automated tool called jsminer, a real example of a dependency confusion bug I found, and recommendations to mitigate those issues. By the end, breakers and makers should acquire a fresh new perspective on this issue.\n\n[Francisco Santos](https://www.linkedin.com/in/francisco-santos-77917a210/) Bio:\nI'm Francisco Santos, 23 years old. I always liked to think out of the box and find weird solutions to problems. I like logic and solving puzzles. I enjoy being a breaker, and I want to add value to that community.\n\nTwitter: https://twitter.com/andr0idp4r4n0id"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - FEB 22, 2023",
@@ -210,6 +250,16 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "OWASP Suffolk Fight Club - February 2023",
+        "date": "2023-02-28",
+        "time": "9:00Z",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291186385",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+    },
+    {
         "group": "Sydney",
         "repo": "www-chapter-sydney",
         "name": "Modern Authentication - FIDO2 and Passkeys",
@@ -233,7 +283,7 @@
         "group": "Tirunelveli",
         "repo": "www-chapter-tirunelveli",
         "name": "Basic Blockchain 101",
-        "date": "2023-01-29",
+        "date": "2023-01-31",
         "time": "8:30+05:30",
         "link": "https://www.meetup.com/owasp-tirunelveli-chapter/events/291202579",
         "timezone": "Asia/Kolkata",
