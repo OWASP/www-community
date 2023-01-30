@@ -94,16 +94,17 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
+BugHeist is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors have atleast one PR merged into BugHeist app or BLT Core. For more info on the present initiatives check [this.](https://justary27.notion.site/BugHeist-834f6e7ae2f7489785cd6297bbc4d98f)
+
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
 ##### Explanation of Ideas
 * Crypto - create a proof of stake coin called BUG
-* Flutter - ideas to improve the app? Launch it on the App Store.
+* Flutter - Check the [app section](https://justary27.notion.site/BugHeist-834f6e7ae2f7489785cd6297bbc4d98f) of initiatives page.
 * Django - Website integration of new design
 * Private issue reporting - allow companies to switch on private issue reporting.
 * Payments for issues reported - allow companies or individuals to pay big hunters
-* Browser plug-in to check bug reports - scan each site visited against a database to see if any bugs were found - we have a plug-in for chrome, let’s update it.
 * Allow for the detection of banned apps in different countries. How would the internet look like if I was in country x.
 * Allow for customers to track their online presence and help take down links where they did not approve their personal info on.
 
@@ -112,7 +113,7 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 ##### Getting Started
 
 * [BLT Core](https://github.com/owasp/blt/)
-* [Flutter App](https://github.com/Bugheist/Flutter/)
+* [BugHeist Mobile App](https://github.com/Bugheist/Flutter/)
 
 #### Expected Results
 
@@ -125,20 +126,20 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 
 Reach out to us on Slack to discuss further on the scope, changes required, or if you have any other proposal.
 * Please submit your proposal on the BLT GitHub discussion board.  Because it will be easier for the team to review and give feedback there.
-* Team meetings are every Saturday at 1pm EST.  Check Slack for the google meet link.
+* Team meetings are every Saturday at 12pm EST.  Check Slack for the meet link.
 
 #### Knowledge Prerequisites
 
 * Python / Django for Backend
-* Flutter for Mobile
+* Flutter for Mobile app
 * Blockchain / Bitcoin clone for the coin
 
 ##### Mentors
 * Donnie on slack (lead mentor)
+* [Aryan Ranjan](mailto:aryan_r@ch.iitr.ac.in) - Flutter and Django Mentor
 * [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor  
 * Rahul Badami - Payments Mentor  
 * [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
-* [Sparsh Agrawal](mailto:sparshagrawal1212@gmail.com) - Flutter Mentor
 
 ### [OWASP Maryam](https://owasp.org/www-project-maryam/)
 
