@@ -72,7 +72,7 @@ However, because the value of the cookie is formed of unvalidated user
 input, the response will only maintain this form if the value submitted
 for AUTHOR_PARAM does not contain any CR and LF characters. If an
 attacker submits a malicious string, such as "Wiley
-Hacker\\r\\nContent-Length:45\\r\\n\\r\\n...", then the HTTP response
+Hacker\\r\\nContent-Length:999\\r\\n\\r\\n...", then the HTTP response
 would be split into an imposter response followed by the original
 response, which is now ignored:
 
