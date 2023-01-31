@@ -37,17 +37,7 @@
         "time": "1:30-06:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/290705619",
         "timezone": "America/Chicago",
-        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* --\n[https://owasp-austin-2023-january.eventbrite.com](https://owasp-austin-2023-january.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: Cryptoparty (various speakers)**\n\nIn 1996, John Perry Barlow, co-founder of the Electronic Frontier Foundation (EFF) wrote 'A Declaration of the Independence of Cyberspace' where he stated \"We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth. We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.\" The Internet of today is an amazing place of knowledge and opportunity, but it unfortunately falls short of Mr. Barlow's original vision.\n\nIn the 21st century we face problems of climate change, energy crisis, state censorship, mass surveillance, and on-going wars. We must be free to communicate and associate without fear. To realize our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online. Topics include technologies like TOR, full-disk encryption, GPG, and many more. CryptoParties are free to attend, public, and not commercially aligned.\n\nAt our January 31, 2023 OWASP Austin meeting, we will host a CryptoParty with the goal of inviting others to join us in learning about the tools and technologies that enable an individual's right to privacy. When the time comes, we will encourage you all to invite your family, friends, and peers to attend this event, but for now, I am looking for others who are willing to give a 10 minute max presentation on a crypto-oriented subject. The presentation will need to be laid out so that novice and experienced alike can take action based on the data presented. All tools must be free and open source. If you are interested in presenting, please e-mail me directly (do not reply to the list) with your name, bio, talk title, and abstract for consideration. This is going to be EPIC!"
-    },
-    {
-        "group": "Baku",
-        "repo": "www-chapter-baku",
-        "name": "OWASP Baku Meetup",
-        "date": "2023-01-30",
-        "time": "5:00+04:00",
-        "link": "https://www.meetup.com/owasp-baku-chapter/events/290945502",
-        "timezone": "Asia/Baku",
-        "description": "We are celebrating foundation of Baku chapter of OWASP."
+        "description": "*Due to the potential inclement weather event on January 31, in-person is cancelled and we are moving entirely to online.*\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: Cryptoparty (various speakers)**\n\nIn 1996, John Perry Barlow, co-founder of the Electronic Frontier Foundation (EFF) wrote 'A Declaration of the Independence of Cyberspace' where he stated \"We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth. We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.\" The Internet of today is an amazing place of knowledge and opportunity, but it unfortunately falls short of Mr. Barlow's original vision.\n\nIn the 21st century we face problems of climate change, energy crisis, state censorship, mass surveillance, and on-going wars. We must be free to communicate and associate without fear. To realize our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online. Topics include technologies like TOR, full-disk encryption, GPG, and many more. CryptoParties are free to attend, public, and not commercially aligned.\n\nAt our January 31, 2023 OWASP Austin meeting, we will host a CryptoParty with the goal of inviting others to join us in learning about the tools and technologies that enable an individual's right to privacy. When the time comes, we will encourage you all to invite your family, friends, and peers to attend this event, but for now, I am looking for others who are willing to give a 10 minute max presentation on a crypto-oriented subject. The presentation will need to be laid out so that novice and experienced alike can take action based on the data presented. All tools must be free and open source. If you are interested in presenting, please e-mail me directly (do not reply to the list) with your name, bio, talk title, and abstract for consideration. This is going to be EPIC!"
     },
     {
         "group": "Bay Area",
@@ -78,6 +68,16 @@
         "link": "https://www.meetup.com/owaspboston/events/290724616",
         "timezone": "America/New_York",
         "description": "OWASP Boston's first hybrid meetup of 2023 will have an exciting guest speaker, Matt Cheung (https://www.linkedin.com/in/mattcheung1/). Matt is currently an Application Security Consultant at Veracode and is best known for his expertise in cryptograph having spoken at major conference such as DefCon, BsidesSF and many others. Matt will be sharing his experience researching and developing Cryptosploit (https://github.com/nullpsifer/cryptosploit), \"a Metasploit-like tool designed to streamline the exploitation of vulnerable cryptosystems\".\n\nJoin us in person at the Broad Institute in Cambridge, on on Zoom (link provided to all registered attendees ahead of the event)."
+    },
+    {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "OWASP Brisbane - February (Speaker pending)",
+        "date": "2023-02-23",
+        "time": "8:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/291301162",
+        "timezone": "Australia/Brisbane",
+        "description": "Hi all!\n\nPlease save the date for our next event at Thoughtworks!\n\nThe speaker and topic will be announced soon."
     },
     {
         "group": "Bristol Uk",
@@ -168,16 +168,6 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/290841105",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
-    },
-    {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "Flash memory dumping",
-        "date": "2023-01-30",
-        "time": "9:00+07:00",
-        "link": "https://www.meetup.com/owasp-jakarta-chapter/events/290913180",
-        "timezone": "Asia/Jakarta",
-        "description": "Topic: Flash memory dumping\n\nAbstract:\n\nThe test case objective is to dump the Flash Memory off the \"JTAG\" Protocol using \"Attify badge\" as the Attacking hardware against the DIVA (Damn Insecure and Vulnerable App).\n\nShort Bio:\n\nUjval Patel (Hax04)\n\ni have 2 total experience in security consulting & auditing. I\u2019m currently working in EY. I started my career as a researcher at Indian Space Research Organisation (ISRO). I\u2019m active member of the Seasides Security Community. I\u2019m most passionate about hardware hacking since i like to grt my hands dirty.\n\nNote\n\nThis Session deliver in English\n\nJoin By zoom :\n\nTopic: OWASP Jakarta - Flash memory dumping\nTime: Jan 30, 2023 07:00 PM Jakarta\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/87689121285?pwd=Z0dlS2lGRlJRZDFjOUZRUTFRMllSUT09\n\nMeeting ID: 876 8912 1285\nPasscode: OWASPJKT"
     },
     {
         "group": "Lisboa",
