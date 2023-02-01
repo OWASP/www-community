@@ -360,6 +360,7 @@ list? Great, please submit it!
 
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
+* [Shubham Palriwala](mailto:spalriwalau@gmail.com) - OWASP Juice Shop Core Team
 
 ### [OWASP WrongSecrets](https://owasp.org/www-project-wrongsecrets/)
 
