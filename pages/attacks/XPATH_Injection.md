@@ -130,7 +130,7 @@ have been escaped.
   - [Command Injection](Command_Injection "wikilink")
   - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
   - [LDAP injection](LDAP_injection "wikilink")
-  - [Server-Side_Includes_%28SSI%29_Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
+  - [Server-Side_Includes_(SSI)_Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
