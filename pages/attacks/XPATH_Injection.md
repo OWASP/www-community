@@ -135,7 +135,7 @@ have been escaped.
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
   - [Blind_SQL_Injection](Blind_SQL_Injection)
-  - [Blind_XPath_Injection](Blind_XPath_Injection
+  - [Blind_XPath_Injection](Blind_XPath_Injection)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
