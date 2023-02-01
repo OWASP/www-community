@@ -10,16 +10,6 @@
         "description": "More information to come!"
     },
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - January",
-        "date": "2023-01-31",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/289490322",
-        "timezone": "Europe/Copenhagen",
-        "description": "Hi All,\nPlease note, that this is a physical event hosted by Github and OWASP Aarhus may share a list of participants with Github for the sole purpose of hosting the event.\nAs we have been talking about, OWASP Aarhus wanted to try out the \u201clightning talk\u201d format. All the details are still not complete, but the schedule is: (TBD \u2013 To Be Decided)\n\n19:00 \u2013 19:15 Welcome by Github and OWASP Aarhus, Karl Krukow, Github and Thomas Ljungberg Kristensen, OWASP\n19:20 \u2013 19:35 Leveraging CVEs to improve the CodeQL security analysis, Esben Andreasen, Sr. Software Engineer, GitHub\n19:40 \u2013 19:55 OWASP for dummies Martin Duedahl\n20:00 \u2013 20:15 Live demo - Heap Exploit in Glibc Oliver Thomas\n20:15 \u2013 20:45 Break\n20:50 \u2013 21:05 Living with AD(H)D in infosec, Klaus Agnoletti\n21:10 \u2013 21:25 Using storytelling Jens Roed Andersen\n21:25 \u2013 21:30 Goodbyes OWASP and Github\n\nLooking forward to it!"
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - February 2023 (Online)",
@@ -28,16 +18,6 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/290705717",
         "timezone": "America/Chicago",
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- https://owasp\\-austin\\-2023\\-february\\.eventbrite\\.com\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nAppSecOps - a Scalable Approach to Application Security\nLuis Guzman\n\nToday many unforeseen factors are driving AppSec chaos...We have found about 3-4 TOP challenges every vertical is seeing in today's frugal market. The factors range from simple to hilariously unattainable! I aim to give you a few tips and steps to overcome some if not ALL and create an organization able to ship software fast and secure! All the while addressing current events happening in the market and how to avoid potential \"potholes.\""
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - January 2023 (Online)",
-        "date": "2023-01-31",
-        "time": "1:30-06:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705619",
-        "timezone": "America/Chicago",
-        "description": "*Due to the potential inclement weather event on January 31, in-person is cancelled and we are moving entirely to online.*\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: Cryptoparty (various speakers)**\n\nIn 1996, John Perry Barlow, co-founder of the Electronic Frontier Foundation (EFF) wrote 'A Declaration of the Independence of Cyberspace' where he stated \"We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth. We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.\" The Internet of today is an amazing place of knowledge and opportunity, but it unfortunately falls short of Mr. Barlow's original vision.\n\nIn the 21st century we face problems of climate change, energy crisis, state censorship, mass surveillance, and on-going wars. We must be free to communicate and associate without fear. To realize our right to privacy and anonymity online, we need peer-reviewed, crowd-sourced solutions. CryptoParties provide the opportunity to meet up and learn how to use these solutions to give us all the means with which to assert our right to privacy and anonymity online. Topics include technologies like TOR, full-disk encryption, GPG, and many more. CryptoParties are free to attend, public, and not commercially aligned.\n\nAt our January 31, 2023 OWASP Austin meeting, we will host a CryptoParty with the goal of inviting others to join us in learning about the tools and technologies that enable an individual's right to privacy. When the time comes, we will encourage you all to invite your family, friends, and peers to attend this event, but for now, I am looking for others who are willing to give a 10 minute max presentation on a crypto-oriented subject. The presentation will need to be laid out so that novice and experienced alike can take action based on the data presented. All tools must be free and open source. If you are interested in presenting, please e-mail me directly (do not reply to the list) with your name, bio, talk title, and abstract for consideration. This is going to be EPIC!"
     },
     {
         "group": "Bay Area",
@@ -132,6 +112,16 @@
     {
         "group": "Denver",
         "repo": "www-chapter-denver",
+        "name": "Denver OWASP SNOWFROC Conference",
+        "date": "2023-03-02",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/denver-owasp/events/290702464",
+        "timezone": "America/Denver",
+        "description": "SnowFROC 23 is on Thursday March 2nd - all day long. While billed as, \"Denver's premier application security conference\", SnowFROC's presentations and workshops focus on many facets of cybersecurity and over the years, SnowFROC has come to be known for its exceptional value: Hands-on training, excellent food, spectacular networking, great location/venue and professional orchestration.\n\nThis year, our Keynote will be given by Kevin Johnson!\n\nSnowFROC includes breakfast, lunch, presentations, vendor giveaways, a panel discussion and optional hands on training and workshops.\n\nThe location of this event is The Cable Center on the University of Denver campus near I-25 and University.\n\n**YOU MUST REGISTER AT** [https://www.eventbrite.com/e/owasp-2023-snowfroc-tickets-487925687867](https://www.eventbrite.com/e/owasp-2023-snowfroc-tickets-487925687867)\n\n**Our regular meetups are free, but this one-day only event/conference is not free:** Only $75 for the conference which includes breakfast, lunch, afternoon snacks and happy hour. Additional $30 for the hands-on track if desired.\n\nBY FAR THE BEST VALUE for any conference you will attend this year - Start 2023 off right and invest in yourself and your company!\n\nStay up-to-date with the latest information on speakers, sponsors, workshops and more: [https://snowfroc.com](https://snowfroc.com)"
+    },
+    {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
         "name": "Join us LIVE and IN-PERSON for Denver/Boulder OWASP's February Meetup!",
         "date": "2023-02-01",
         "time": "7:00-07:00",
@@ -170,6 +160,16 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
+        "group": "Limassol",
+        "repo": "www-chapter-limassol",
+        "name": "OWASP Limassol Meetup",
+        "date": "2023-02-23",
+        "time": "8:30+02:00",
+        "link": "https://www.meetup.com/owasp-limassol-meetup-group/events/291266510",
+        "timezone": "Asia/Nicosia",
+        "description": "**Calling all tech and security enthusiasts!**\n\nWe are excited to announce our upcoming [OWASP Limassol](https://owasp.org/www-chapter-limassol/) meetup. Join us for an evening of cool new ideas and inspiring presentations from industry experts.\nWe'll discuss the latest trends in web application security, share best practices and explore different approaches to building a secure online environment. So come on out and learn something new!\n\nWe look forward to seeing you there and would be delighted to offer a complimentary gift to each attendee!\n\n**Schedule:**\n18:30 \u2014 19:00 \u2014 Gathering & Intro\n19:00 \u2014 20:30 \u2014 Speaches TBA\n20:30 \u2014 21:00 \u2014 Entertainment for all the attenders\n21:00 \u2014 22:00 \u2014 Eat, drink, networking!\n\nMore information about the speakers is to come!\n[CFP is still open!](https://forms.gle/HSweZ7JtWwwe2FjaA)\n[You can also join us on Telegram.](https://t.me/+W1hEPzn4BOcwMTNi)"
+    },
+    {
         "group": "Lisboa",
         "repo": "www-chapter-lisboa",
         "name": "#02 Building Up",
@@ -198,16 +198,6 @@
         "link": "https://www.meetup.com/owasp-natal-chapter/events/291048946",
         "timezone": "America/Fortaleza",
         "description": "OWASP \u00e9 uma organiza\u00e7\u00e3o sem fins lucrativos que se dedica a melhorar a seguran\u00e7a da informa\u00e7\u00e3o global. Ela busca conscientizar as empresas e as universidades sobre as amea\u00e7as de seguran\u00e7a cibern\u00e9tica e fornecer ferramentas e recursos para defender contra essas amea\u00e7as.\n\nCom este evento, as empresas e as universidades participantes ter\u00e3o a oportunidade de serem atualizadas sobre os mais recentes desenvolvimentos e t\u00e9cnicas na \u00e1rea de seguran\u00e7a da informa\u00e7\u00e3o. Al\u00e9m disso, as palestras ser\u00e3o ministradas por profissionais experientes e altamente qualificados, o que lhes dar\u00e1 acesso a conhecimento e a uma rede de contatos de especialistas.\n\nNeste primeiro meetup presencial em 2023 o que vai rolar:\n\n\\- Apresenta\u00e7\u00e3o sobre OWASP\n\\- Como o cap\u00edtulo OWASP Natal funciona?\n\\- Como funciona a seguran\u00e7a de aplica\u00e7\u00f5es da TV Globo\n\nPalestrantes:\n**Matheus Cezar** \\- Analista de seguran\u00e7a da informa\u00e7\u00e3o na Conviso\n**Fernando Guisso** \\- AppSec Engineer na TV Globo\n\n**Local:** Seahub unidade Sebrae - Av. Lima e Silva, 76 - Lagoa Nova, Natal -RN\n\n**Evento Gratutito**\nInscri\u00e7\u00f5es para ter acesso ao local: https://www.sympla.com.br/evento/meetup-seguranca-da-informacao/1851079"
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Security for Growth Companies",
-        "date": "2023-01-31",
-        "time": "7:30-08:00",
-        "link": "https://www.meetup.com/owasp-oc/events/290902364",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nThe increased pressure for cybersecurity practices, even in their earliest stages, is becoming a common demand from both customers and investors. With cyber threats escalating, it\u2019s more urgent than ever to embed security into a company\u2019s day-to-day operations from day one to prevent \u2018security debt\u2019 from emerging as the company scale. Establishing a robust cyber security program can be a daunting task. A cloud-native company faces dozens of cybersecurity tools to choose from and the typical resource constraints of a young company that needs to grow fast. Based on the practical advice given by CISOs of 7 hyper-growth companies (Netflix, Datadog, HashiCorp, ACV, Axonius, Discord, and ServiceTitan), this talk aims to provide you with a modern, lightweight security guide to succeed in the cloud-first/cloud-native era.\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)\n\n**Thanks to our Sponsor**: **Synopsys**\n**[Synopsys](https://www.synopsys.com/)**[ ](https://www.synopsys.com/)builds trust in software by enabling organizations to manage application security, quality, and compliance risks at the speed their business demands."
     },
     {
         "group": "Seattle",
@@ -268,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-tampa/events/290897847",
         "timezone": "America/New_York",
         "description": "Welcome to OWASP Tampa Chapter \\| Q1 2023 \\| Lunch and Speaker Event\n\nTitle: **Build a Roadmap for Your Dream Career in Cybersecurity**\n\nAbstract: Don\u2019t rely on luck or hope; create a strategy to navigate your path to your dream role in cyber. Whether you want to lead the top NSA Red Team, build software to mitigate zero-day attacks, become a CISO, take a startup to IPO, or have a seat in the Boardroom, you need a plan. Beyond core skills getting that dream role requires the right mindset, specific communication skills, and growing your personal brand.\n\nSpeaker: Joy Randels is an Entrepreneur, current CEO of Prowess Group & New Market Partners, she\u2019s named Top 100 Female Speaker, Board Director and so much more in the Cybersecurity community! Joy was recently selected as one of only 54 of Florida\u2019s most influential executives in the Finance & Insurance category and one of five in venture capital.\n\nRegistration Page: https://www.eventbrite.com/e/owasp-tampa-chapter-q1-lunch-and-speaker-event-2023-tickets-510875942697\n\nLocation:\n\n* This is an in-person event only, no streaming available.\n* **8th Floor, John P Lowth Entrepreneur Center, University of Tampa** -**Public (non-student, free) Parking available directly across from the John P Lowth Entrepreneur Center**\n\nAGENDA:\n\n* Announcements\n* Guest Speaker\n* Ajourn"
-    },
-    {
-        "group": "Tirunelveli",
-        "repo": "www-chapter-tirunelveli",
-        "name": "Basic Blockchain 101",
-        "date": "2023-01-31",
-        "time": "8:30+05:30",
-        "link": "https://www.meetup.com/owasp-tirunelveli-chapter/events/291202579",
-        "timezone": "Asia/Kolkata",
-        "description": "An basic concept of blockchain\nAn some case studies about the block chain"
     },
     {
         "group": "Triangle Nc",
