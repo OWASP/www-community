@@ -320,6 +320,20 @@ With well over 12,000 readers on LeanPub alone, the eBook is definitely a corner
 renewal of its technbology stack. This includes a modern and future-proof authoring format (that still supports both online-reading and eBook export) as well
 as moving the CI/CD pipeline over to GitHub.
 
+###### Add Web3 specific hacking and coding challenges
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+
+The Juice Shop currently focuses primarily on Web2 challenges and it would be good to expose some web3 challenges natively as well as third-party integrations.
+The only concern we have is that playing around with the challenges should not impact the availability of the entire application. We are also open to having our own
+in-memory blockchain if that is needed. This is currently an open-ended and a flexible project idea that can be discussed and planned!
+Oh! Did I not mention we also have our own NFTs!
+
+Find and Discuss more about the project idea here at [juice-shop#1946](https://github.com/juice-shop/juice-shop/issues/1946)
+
 ###### Your own idea
 
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
@@ -360,6 +374,7 @@ list? Great, please submit it!
 
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
+* [Shubham Palriwala](mailto:spalriwalau@gmail.com) - OWASP Juice Shop Core Team
 
 ### [OWASP WrongSecrets](https://owasp.org/www-project-wrongsecrets/)
 
