@@ -125,44 +125,40 @@ user's input has been added to the string. This is a better route
 because you don't have to worry about missing a character that should
 have been escaped.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
+## Related [Threat Agents](Threat_Agents)
 
-  - [Command Injection](Command_Injection "wikilink")
-  - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-  - [LDAP injection](LDAP_injection "wikilink")
-  - [Server-Side_Includes_%28SSI%29_Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
+  - [Command Injection](Command_Injection)
+  - [SQL Injection](SQL_Injection)
+  - [LDAP injection](LDAP_injection)
+  - [Server-Side Includes &#40;SSI&#41; Injection](Server-Side_Includes_(SSI)_Injection)
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Blind_SQL_Injection](Blind_SQL_Injection "wikilink")
-  - [Blind_XPath_Injection](https://owasp.org/www-community/attacks/Blind_XPath_Injection)
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [:Category: Input Validation
-    Vulnerability](:Category:_Input_Validation_Vulnerability "wikilink")
+  - [Blind_SQL_Injection](Blind_SQL_Injection)
+  - [Blind_XPath_Injection](Blind_XPath_Injection)
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-  - [Input Validation](Input_Validation "wikilink")
+- [Input Validation](Input_Validation)
 
 Just like SQL injection, in order to protect yourself you must escape
 single quotes (or double quotes) if your application uses them.
 
-VB:
+```VB
 
     Dim FindUserXPath as String
     FindUserXPath = "//Employee[UserName/text()='" &
     Request("Username").Replace("'", "&apos;") & "' And
            Password/text()='" & Request("Password").Replace("'", "&apos;") & "']"
+```
 
-C\#:
 
+```
     String FindUserXPath;
     FindUserXPath = "//Employee[UserName/text()='" +
     Request("Username").Replace("'", "&apos;") + "' And
            Password/text()='" + Request("Password").Replace("'", "&apos;") + "']";
+```
 
 Another better mitigation option is to use a precompiled XPath\[1\].
 Precompiled XPaths are already preset before the program executes,
@@ -180,7 +176,5 @@ nature of queries from descriptive error messages. Input validation must
 be coupled with customized error pages that inform about an error
 without disclosing information about the database or application.
 
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[Category: Injection](Category:_Injection "wikilink")
 [Category:Attack](Category:Attack "wikilink") [Category:Injection
 Attack](Category:Injection_Attack "wikilink")
