@@ -94,19 +94,27 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
-OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors have atleast one PR merged into BLT. 
+OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors get atleast one PR merged for the project. 
 
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
 ##### Explanation of Ideas
+You can chose to work on one or a combination of ideas depending on the difficulty!
 * Crypto - create a proof of stake coin called BUG
-* Flutter - Check the [app section](https://justary27.notion.site/BugHeist-834f6e7ae2f7489785cd6297bbc4d98f) of initiatives page.
+* Flutter - 
+	- Add designs for a dark theme in the Figma file, then implement a generic theme manager for future themes.
+	- Start with app internationalization and localization (l10n).
+	- ***Design and build the company side part of the app.***
+	- ***Allow anonymous reporting*** for both logged-in and logged-out users, logged-in users should get an option to select whether to report a bug anonymously.
+	- ***Close most of the current issues on the app repo.***
+	- ***Bring the app to MVP level for both Android & iOS.*** 
 * Django - Website integration of new design
 * Private issue reporting - allow companies to switch on private issue reporting.
 * Payments for issues reported - allow companies or individuals to pay big hunters
 * Allow for the detection of banned apps in different countries. How would the internet look like if I was in country x.
 * Allow for customers to track their online presence and help take down links where they did not approve their personal info on.
+* Browser plug-in to check bug reports - scan each site visited against a database to see if any bugs were found - we have a plug-in for chrome, let’s update it.
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
@@ -124,7 +132,7 @@ OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to 
 * Ability to choose a country from a selected list and see what apps are banned there
 * Ability for users to report links online with personal information where they can have it removed
 
-Reach out to us on Slack to discuss further on the scope, changes required, or if you have any other proposal.
+Reach out to us on Slack to discuss further on the scope, changes required, _or if you have any other proposal._
 * Please submit your proposal on the BLT GitHub discussion board.  Because it will be easier for the team to review and give feedback there.
 * Team meetings are every Saturday at 12pm EST.  Check Slack for the meet link.
 
@@ -133,6 +141,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, or i
 * Python / Django for Backend
 * Flutter for Mobile app
 * Blockchain / Bitcoin clone for the coin
+* Some knowledge of UI designing for design related ideas.
 
 ##### Mentors
 * Donnie on slack (lead mentor)
