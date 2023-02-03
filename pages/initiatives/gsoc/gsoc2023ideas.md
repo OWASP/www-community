@@ -94,7 +94,7 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
-BugHeist is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors have atleast one PR merged into BugHeist app or BLT Core. For more info on the present initiatives check [this.](https://justary27.notion.site/BugHeist-834f6e7ae2f7489785cd6297bbc4d98f)
+OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors have atleast one PR merged into BLT. 
 
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
