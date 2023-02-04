@@ -121,7 +121,6 @@ You can chose to work on one or a combination of ideas depending on the difficul
 ##### Getting Started
 
 * [BLT Core](https://github.com/owasp/blt/)
-* [Flutter App](https://github.com/Bugheist/Flutter/)
 
 #### Expected Results
 
