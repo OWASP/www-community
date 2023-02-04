@@ -42,12 +42,12 @@
     {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
-        "name": "OWASP Brisbane - February (Speaker pending)",
+        "name": "OWASP Brisbane - February **UPDATE**",
         "date": "2023-02-23",
         "time": "8:00+10:00",
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/291301162",
         "timezone": "Australia/Brisbane",
-        "description": "Hi all!\n\nPlease save the date for our next event at Thoughtworks!\n\nThe speaker and topic will be announced soon."
+        "description": "Hi All!\n\nWe are excited to confirm our speaker for the next event at Thoughtworks Brisbane!\n\n**Speaker:** Raafey Khan\n\n**Title:** Can AppSec testing really be automated?\n\n**Talk Description:** The capabilities of Application Security Testing (AST) tools are changing rapidly. As vendors continue to acquire and build new features, feature parity is on the horizon. For now, they're doing things in their own unique, sometimes odd way.\n\nOver the last few years, Raafey has used, analysed and compared various AppSec tooling. Running them against benchmarks and multiple applications.\nIn this talk, he will go through what makes an AST tool good, why there are SO many false positives, and when they actually make sense to use compared to a good old-fashioned pentest.\n\n**Bio:** Raafey has been a security consultant for many years and leads the AppSec team for CyberCX. His primary focus is working with organisations to understand how they build software and what they can do to make sure they\u2019re protected.\n\nHaving recently moved over from NZ, he\u2019s looking forward to getting to know the Brisbane security community."
     },
     {
         "group": "Bristol Uk",
@@ -110,14 +110,14 @@
         "description": "SnowFROC 23 is on Thursday March 2nd - all day long. While billed as, \"Denver's premier application security conference\", SnowFROC's presentations and workshops focus on many facets of cybersecurity and over the years, SnowFROC has come to be known for its exceptional value: Hands-on training, excellent food, spectacular networking, great location/venue and professional orchestration.\n\nThis year, our Keynote will be given by Kevin Johnson!\n\nSnowFROC includes breakfast, lunch, presentations, vendor giveaways, a panel discussion and optional hands on training and workshops.\n\nThe location of this event is The Cable Center on the University of Denver campus near I-25 and University.\n\n**YOU MUST REGISTER AT** [https://www.eventbrite.com/e/owasp-2023-snowfroc-tickets-487925687867](https://www.eventbrite.com/e/owasp-2023-snowfroc-tickets-487925687867)\n\n**Our regular meetups are free, but this one-day only event/conference is not free:** Only $75 for the conference which includes breakfast, lunch, afternoon snacks and happy hour. Additional $30 for the hands-on track if desired.\n\nBY FAR THE BEST VALUE for any conference you will attend this year - Start 2023 off right and invest in yourself and your company!\n\nStay up-to-date with the latest information on speakers, sponsors, workshops and more: [https://snowfroc.com](https://snowfroc.com)"
     },
     {
-        "group": "Dubai",
-        "repo": "www-chapter-dubai",
-        "name": " Cyber Security Awareness for Modern Enterprises ",
-        "date": "2023-02-03",
-        "time": "5:00+04:00",
-        "link": "https://www.meetup.com/meetup-group-svgchist/events/291225865",
-        "timezone": "Asia/Dubai",
-        "description": "Everyday, technology gets more helpful yet more complex\nEveryday, we relay more and more on technology and software solutions\nEveryday, new cyber threats and attacks are created and activated.\nIn this session, we will discuss:\n\\- Modern Cyber Security Threats and major attacks targeting enterprises\n\\- Common pitfalls in cyber securing\n\\- Best practices for increasing your safety online on both business and personal levels\\."
+        "group": "France",
+        "repo": "www-chapter-france",
+        "name": "OWASP France - Bordeaux Meetup - F\u00e9vrier 2023",
+        "date": "2023-02-22",
+        "time": "7:00+01:00",
+        "link": "https://www.meetup.com/owasp-france/events/291313081",
+        "timezone": "Europe/Paris",
+        "description": "OWASP France se d\u00e9localise \u00e0 Bordeaux pour le 1er MeetUp de la communaut\u00e9 s\u00e9curit\u00e9 hors de Paris !\n\nPour cette premi\u00e8re rencontre, nous allons adresser un sujet chaud pour beaucoup d'organisations : le **DevSecOps**.\n\nComment inclure la s\u00e9curit\u00e9 dans les process de d\u00e9veloppement ?\n Quels outils ?\n Quels process ?\n\u200d Quelles \u00e9quipes ?\n Quelles comp\u00e9tences ?\nQue de questions...\n\nNotre premier sponsor Mirakl nous accueille dans le coworking Meetropolitan :\n** Mirakl Bordeaux**\n31 All\u00e9es de Chartres\n33000 Bordeaux\n\n** Voici le programme complet**\n 17h00 : Pot d'accueil sucr\u00e9\n 17h30 : D\u00e9but du MeetUp - Pr\u00e9sentation de la communaut\u00e9 OWASP\n 17h45 : Intervention des speakers :\no S\u00e9bastien Gioria (DevSecOps Officer chez Lectra) : Les 4,2 facteurs de succ\u00e8s d'un d\u00e9ploiement DevSecOPS a grande \u00e9chelle\no Tiana Razafindralambo (eShard) : Pourquoi int\u00e9grer les tests de s\u00e9curit\u00e9 d'apps mobiles dans votre CI/CD ?\no Alexis Cadoret (Security Operations Team Lead - Mirakl) : Impl\u00e9mentation du programme de Bug Bounty\n 18h45 : Questions r\u00e9ponses\n 19h15 : Fin du MeetUp\n\nAttention, nous ne pourrons accueillir que les **20 premiers d'entre vous** !\n\nLe Meetup sera retransmis sur Zoom (le lien sera donn\u00e9 le jour meme)\n\n Merci \u00e0 Mirakl de nous permettre d'organiser cette premi\u00e8re rencontre."
     },
     {
         "group": "Frankfurt",
@@ -168,6 +168,16 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/290935113",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks\nJoin us for great networking, dinner and drinks, and see a presentation by Jamie Scott - Product Manager\n\n**ABSTRACT**: 3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\nWe will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\nFollowing, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\n**Thanks to our Sponsor**: Endor Labs\nEndor Labs\u2019 Dependency Lifecycle Management Platform is designed to address the weakest link in software supply chain security: the ungoverned sprawl of open source software in the enterprise. Endor Labs\u2019 mission is to help developers spend less time dealing with security issues and more time accelerating development through safe code reuse. With this solution, development and security teams are able to maximize software reuse by safely evaluating, maintaining, and updating dependencies at scale.\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks",
+        "date": "2023-02-23",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-oc/events/291352900",
+        "timezone": "America/Los_Angeles",
+        "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\n3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nI will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nFollowing, I will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\n### **Code of Conduct**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)\n\n**Thanks to our Sponsor**: [Endor Labs](https://www.endorlabs.com)\nEndor Labs\u2019 Dependency Lifecycle Management Platform is designed to address the weakest link in software supply chain security: the ungoverned sprawl of open source software in the enterprise. Endor Labs\u2019 mission is to help developers spend less time dealing with security issues and more time accelerating development through safe code reuse. With this solution, development and security teams are able to maximize software reuse by safely evaluating, maintaining, and updating dependencies at scale."
     },
     {
         "group": "Seattle",
