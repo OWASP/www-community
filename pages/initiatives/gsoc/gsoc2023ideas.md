@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap) - [Bug Logging Tool (BLT)](#bug-logging-tool-blt) - [Maryam](#owaspmaryam) - [SecureTea](#owasp-securetea) - [PyGoat](#owasp-pygoat) - [RiskAssessmentFramework](#owasp-risk-assessment-framework) - [Juice Shop](#owaspjuiceshop) - [OWASP WrongSecrets](#owasp-wrongsecrets)
+[ZAP](#owaspzap) &bull; [Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
