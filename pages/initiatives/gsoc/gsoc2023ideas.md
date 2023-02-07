@@ -237,7 +237,7 @@ Intentionally vuln web Application Security in django.
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
-* Rupak
+* FLo
 
 ### [OWASP Risk Assessment Framework](https://owasp.org/www-project-risk-assessment-framework/)
 The OWASP Risk Assessment Framework consist of Dynamic application security testing (DAST) and Risk Assessment tools. By using OWASP Risk Assessment Framework's  Testers will be able to analyse and review their application and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure application.
