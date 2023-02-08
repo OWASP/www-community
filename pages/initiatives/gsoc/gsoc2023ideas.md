@@ -339,9 +339,23 @@ as moving the CI/CD pipeline over to GitHub.
 The Juice Shop currently focuses primarily on Web2 challenges and it would be good to expose some web3 challenges natively as well as third-party integrations.
 The only concern we have is that playing around with the challenges should not impact the availability of the entire application. We are also open to having our own
 in-memory blockchain if that is needed. This is currently an open-ended and a flexible project idea that can be discussed and planned!
-Oh! Did I not mention we also have our own NFTs!
+Oh! Did I not mention we also have [our own NFTs](https://opensea.io/collection/juice-shop)?!
 
-Find and Discuss more about the project idea here at [juice-shop#1946](https://github.com/juice-shop/juice-shop/issues/1946)
+Find and discuss more about the project idea here at [juice-shop#1946](https://github.com/juice-shop/juice-shop/issues/1946)
+
+###### Advanced Cheat Detection
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Not recommended for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+
+The [current Cheat Detection](https://pwning.owasp-juice.shop/appendix/cheat-detection.html) in Juice Shop is mostly based on expected timespans between solving two challenges.
+It takes challenge difficulty and availability of in-app hints into consideration, as well as possible correlations or dependencies between challenges. It leaves a lot of possible
+data sources out of its calculation, though. For example: Does the user always hit the solution on their first try, or do they explore the vulnerable functionality beforehand? Are the
+HTTP requests showing signs of hacking tool usage? Are the solution steps _exactly_ reproduced from available official or even third party guides or videos?
+
+Could maybe even techniques from banking fraud detection or actual game development be applied in the Juice Shop context? 
 
 ###### Your own idea
 
