@@ -20,16 +20,6 @@
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- https://owasp\\-austin\\-2023\\-february\\.eventbrite\\.com\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nAppSecOps - a Scalable Approach to Application Security\nLuis Guzman\n\nToday many unforeseen factors are driving AppSec chaos...We have found about 3-4 TOP challenges every vertical is seeing in today's frugal market. The factors range from simple to hilariously unattainable! I aim to give you a few tips and steps to overcome some if not ALL and create an organization able to ship software fast and secure! All the while addressing current events happening in the market and how to avoid potential \"potholes.\""
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "OWASP Bay Area chapter February Meetup",
-        "date": "2023-02-08",
-        "time": "7:00-08:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/291146036",
-        "timezone": "America/Los_Angeles",
-        "description": "**Please fill the eventbrite registration link to reserve the spot.**\n\nSecurity time, The February OWASP Bay Area chapter meetup is sponsored by GitHub. It will be a great occasion to connect with other security researchers, developers and managers, by discussing all things security, sharing tips and tricks and networking. Enjoy tasty food and crafted cocktails too!\nThe host require everyone to be pre-registered and have to sign a NDA at the event. Your full name and email address will be shared with GitHub. This is for the registration purpose.\n\nAgenda\n\n* 5:00 - Check in, grab some food/drinks and network\n* 5:45 - Introductions & free security features on GitHub\n* 6:00 - 6:45 - Building trust in your container supply chain\n* 6:45 - 7:30 - Every risk is not a CVE: Bolster up against software supply chain attacks\n* 7:30 - Networking\n* 8:00 - Conclusion\n\n**Talk#1 Building trust in your container supply chain**\n**Speakers:**\nSai Santosh Vernekar\\| Senior Information Security Analyst\\, Kohl\u2019s\nSwarup Natukula \\| Senior Information Security Analyst\\, Kohl\u2019s\n\n**Details:**\nApplications are made up of software components. The supply chain is at the heart of developing, delivering, maintaining, and scaling applications. It is critical to understand the risk in each component in order to safeguard the supply chain. End-to-end security is critical to mitigating the risks associated with open source software, regardless of the application that is being created.\nIn this talk, we will look at the challenges associated with the \"Container\" supply chain, as well as some of the technology, processes, and tools that you can use to create confidence in your container supply chain.\n\n**Talk#2** : **Every risk is not a CVE: Bolster up against software supply chain attacks**\n\n###\n\n**Speaker:** Varun Badhwar, Founder/CEO of Endor Labs\n3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nWe will present a comprehensive, comprehensible and technology-agnostic[ ](https://arxiv.org/abs/2204.04008)taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy,[ ](https://riskexplorer.endorlabs.com/)available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nFollowing, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\nLooking forward to connecting at the Security Meetup"
-    },
-    {
         "group": "Bellingham",
         "repo": "www-chapter-bellingham",
         "name": "OWASP Bellingham Chapter March Event (Online) ",
@@ -170,16 +160,6 @@
         "description": "Halo para IT Indonesia!\n\nYuk join Meetup *OWASP Jakarta Meetup - Building Defence in Depths for APIS across Multiple Platform*, pada:\n\n Kamis, 16 Februari 2023\n 17.45 \u2013 20.45 WIB\n Uptown Event Space \u2013 Plaza Mutiara Lt. 8\nJl. DR. Ide Anak Agung Gde Agung No.5, Kuningan-Jakarta Selatan\n\nSaatnya tambah wawasan kamu dan bangun networking dengan member OWASP Jakarta !\n\nDaftar sekarang dan dapatkan kesempatan untuk memenangkan Limited SWAG dari F5 : https://bit.ly/F5OWASPJakartameetup"
     },
     {
-        "group": "Kerala",
-        "repo": "www-chapter-kerala",
-        "name": "OWASP Kerala - Personal Cybersecurity Awareness ",
-        "date": "2023-02-08",
-        "time": "4:00+05:30",
-        "link": "https://www.meetup.com/owasp-kerala-chapter/events/291442961",
-        "timezone": "Asia/Kolkata",
-        "description": "### Date and time\n\n8th Feb 2023, 2 PM to 4PM IST\n\n### Venue\n\n[St. Stephen\u2019s College, Uzhavoor](https://goo.gl/maps/cge6M2VvPDeoQF6m6)\n\n### Personal Cybersecurity Awareness\n\nPersonal Cybersecurity Awareness event to learn about the latest threats and how to safeguard your online identity. From password management to social media safety, practical tips and advice to help you secure your personal information."
-    },
-    {
         "group": "Limassol",
         "repo": "www-chapter-limassol",
         "name": "OWASP Limassol Meetup",
@@ -240,36 +220,6 @@
         "description": "**Welcome to our second in-person meetup in over 2 years!**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nYouTube Live Stream Link:\nhttps://www.youtube.com/watch?v=cjrmv2p6jkE\n\n**6:00 PM EDT** Arrival, setup, mingle\n**6:30 PM EDT** Technical Talks\n\n**In the cloud no one can hear you scream. Dangerous Azure defaults.**\nAbstract:\nIf you happen to be in a rush, you may not notice some interesting default settings on cloud components. And if you do not have the time to investigate the real effects of a specific setting, you may be surprised what it actually does. This presentation reviews some of the thrills and chills associated with default settings on some common Azure cloud components.\n\nSpeaker Bio:\nGarth Boyd is an OWASP Ottawa Chapter Co-Leader, Software Developer, Hacker, and Security Architect. Erstwhile Electrical Engineer who started programming in the bear skins and stone knives age of Windows 1.0 and Sys5 Unix and his path moved into TCP/IP network programming before moving into Military Message Handling, PKI, cryptography, key management, AppSec, Cloud, and threat modelling. A lifelong learner who enjoys crafting solutions to interesting and tough problems through architecture, threat modelling, mitigation design, and penetration testing. Researching new ideas, troubleshooting, communication, and thinking of six impossible things before breakfast are part of the journey."
     },
     {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-02-08",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988680",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-02-08",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988679",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-02-08",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/290988678",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
         "group": "Suffolk",
         "repo": "www-chapter-suffolk",
         "name": "OWASP Suffolk Fight Club - February 2023",
@@ -287,7 +237,7 @@
         "time": "8:00+11:00",
         "link": "https://www.meetup.com/owasp-sydney-chapter/events/290887586",
         "timezone": "Australia/Sydney",
-        "description": "Location: - Talenza Offices, Level 3, 7 Macquarie Place, Sydney NSW 2000\nYouTube link: TBA\nDiscord: https://discord.com/invite/uAWze2B - Questions in the Sydney Chapter channel.\nMeet at 6:00 with the talk starting at 6:30.\n\nAbstract: This presentation will discuss approaches to the modern authentication protocols. In particular, we will dive into the FIDO2 passwordless protocol and passkey, a strong candidate to finally replace passwords. Our session will cover both technical and usability aspects of those approaches. We will look at the current trends in authentication attacks as well as the latest research and developments."
+        "description": "Location: - Talenza Offices, Level 3, 7 Macquarie Place, Sydney NSW 2000\nYouTube link: https://www.youtube.com/watch?v=yQd1hj7BEgc\nDiscord: https://discord.com/invite/uAWze2B - Questions in the Sydney Chapter channel.\nMeet at 6:00 with the talk starting at 6:30.\n\nAbstract: This presentation will discuss approaches to the modern authentication protocols. In particular, we will dive into the FIDO2 passwordless protocol and passkey, a strong candidate to finally replace passwords. Our session will cover both technical and usability aspects of those approaches. We will look at the current trends in authentication attacks as well as the latest research and developments."
     },
     {
         "group": "Tampa",
