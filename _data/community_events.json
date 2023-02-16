@@ -182,6 +182,16 @@
     {
         "group": "Lahore",
         "repo": "www-chapter-lahore",
+        "name": "OWASP March Event",
+        "date": "2023-03-17",
+        "time": "9:00+05:00",
+        "link": "https://www.meetup.com/owasp-lahore-chapter/events/291537674",
+        "timezone": "Asia/Karachi",
+        "description": "TBD"
+    },
+    {
+        "group": "Lahore",
+        "repo": "www-chapter-lahore",
         "name": "OWASP Feb Event",
         "date": "2023-02-24",
         "time": "9:00+05:00",
@@ -194,7 +204,7 @@
         "repo": "www-chapter-limassol",
         "name": "OWASP Limassol Meetup",
         "date": "2023-02-23",
-        "time": "8:30+02:00",
+        "time": "6:30+02:00",
         "link": "https://www.meetup.com/owasp-limassol-meetup-group/events/291266510",
         "timezone": "Asia/Nicosia",
         "description": "**Calling all tech and security enthusiasts!**\n\nWe are excited to announce our upcoming [OWASP Limassol](https://owasp.org/www-chapter-limassol/) meetup. Join us for an evening of cool new ideas and inspiring presentations from industry experts.\nWe'll discuss the latest trends in web application security, share best practices and explore different approaches to building a secure online environment. So come on out and learn something new!\n\nWe look forward to seeing you there and would be delighted to offer a complimentary gift to each attendee!\n\n**Schedule:**\n18:30 \u2014 19:00 \u2014 Gathering & Intro\n19:00 \u2014 19:30 \u2014 [Valeriy Shevchenko](https://krevetk0.medium.com), Semrush:\n***Use information about modern attacks to stay safe.***\n19:30 \u2014 20:30 \u2014 Speaches TBA\n20:30 \u2014 21:00 \u2014 Entertainment for all the attenders\n21:00 \u2014 22:00 \u2014 Eat, drink, networking!\n\nMore information about the speakers is to come!\n[CFP is still open!](https://forms.gle/HSweZ7JtWwwe2FjaA)\n[You can also join us on Telegram.](https://t.me/+W1hEPzn4BOcwMTNi)"
@@ -240,6 +250,16 @@
         "description": "**Delegates may be asked to provide a valid proof of photo ID (such as a driving licence or passport) to enter the venue.**\n\nThis meetup's sponsor, Adyen - a financial services institution - works within a highly regulated environment, so we kindly ask for your understanding if you are asked to provide ID during your visit.\n\n**Location:** Adyen\n**Address:** Rokin 49, Amsterdam\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **Crash course on the OWASP API Security Top 10** by **Colin Domoney**\n20:00 - 20:15- **Break with drinks**\n20:15 - 21:00 - **Managing APIs securely** by **Rob Blaauboer**\n\n**Crash course on the OWASP API Security Top 10**\n*Abstract:*\nWith the recent breaches to Optus, Twitter, and T-Mobile, 2023 is destined to become the year API security becomes the number one concern for organizations, both at the board level and within security and development teams. API security poses unique challenges to builders and defenders, and many of your existing detection and protection measures may prove to be ineffective.\n\nJoin Colin as he draws on his experience from curating the industry's biggest API security resource (APISecurity.io) in exploring the following:\nCrash course on the OWASP API Security Top 10 (and how it differs from the OWASP Top 10)\nA whistle-stop tour of some of the biggest API breaches over the past 18 months, taking a look at what went wrong, the impact, and most importantly, how to prevent such attacks.\nFinally, he will present the top techniques for protecting your APIs from attack, starting with secure development practices through to API protection and threat detection.\n\nThe content will be technical, with demos and code samples, and based on real-world breaches. By the end of the session, you will have an understanding of the API Security Top 10, and have a working knowledge of how to protect your APIs, either at a code level or using runtime protections.\n*Bio:*\nColin has a long and varied career in producing secure, rugged, and trustable software and hardware products covering a range of industries from military, consumer, medical, automotive to financial services. In the last decade, he has become a sought-after evangelist and consultant in building AppSec programs, and the latest developments in DevSecOps. His greatest passion is for teaching and inspiring others to produce software we can trust, either delivering webinars, in-person events or speaking to the C-level.\n\nCurrently, he is the Chief Technology Evangelist with 42Crunch, the curator of the APISecurity.io newsletter, and is writing the industry\u2019s first book on defending APIs.\n\n**Managing APIs securely**\n*Abstract:*\nWhen an organization offers an API, the API needs to become a Managed API. This means that lifecycle management, security, and throttling resources become an important aspect of API Management, as well as the ability of developers to find, explore and subscribe to the API to use them.\n\nDuring the presentation, Rob will zoom into these aspects and how an API Manager can help you with security and throttling (including schema validation and advanced scenarios) while at the same time making the API easily available to your target developers (inside or outside the organization).\n\nIn the second part, he will elaborate on the \u201cshiny frontend / dirty backend\u201d. This is an API frontend that accesses legacy systems, databases, but also the integration of a set of APIs etc., thus enabling services that use older technology or proprietary interfaces to have a modern appearance to the outside world, e.g. exposing a legacy insurance policy administration system as an API.\n\nThirdly, we will look at the way you can implement the Mastodon API. Since Elon Musk acquired Twitter l ast year, alternative platforms like Mastodon have become more popular. It might be that this becomes a viable channel to communicate with clients for some organizations.\n*Bio:*\nRob has 30 years of experience in IT in such roles as developer, analyst, project manager, business consultant, and management consultant. He is currently Head of Training Services and Integration Consultant at Yenlo, responsible for the development and the actual training of Yenlo\u2019s clients and consultants.\n\nNext to these responsibilities, Rob is also an avid blogger with almost 200 blogs on innovation on Frankwatching, more than 150 blogs on WSO2 on Yenlo\u2019s website and many other blogs on various other sites. Rob is also a regular contributor to BNR Zaken Doen radio show on the area of technology and innovation.\n\n**Delegates may be asked to provide a valid proof of photo ID (such as a driving licence or passport) to enter the venue.**"
     },
     {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP New Zealand - Auckland-area Meetup",
+        "date": "2023-03-14",
+        "time": "8:00+13:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291645592",
+        "timezone": "Pacific/Auckland",
+        "description": "The Auckland-area OWASP Meetup takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for March will be A06:2021 - Vulnerable and Outdated Components.\n\nTechnical Topic Speaker: Ruskin Dantra, AWS\nTalk Title: TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
+    },
+    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks",
@@ -250,14 +270,14 @@
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\n3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nI will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nFollowing, I will discuss the types of defenses you can put in place to detect and respond to such modern day attacks.\n\n### **Code of Conduct**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)\n\n**Thanks to our Sponsor**: [Endor Labs](https://www.endorlabs.com)\nEndor Labs\u2019 Dependency Lifecycle Management Platform is designed to address the weakest link in software supply chain security: the ungoverned sprawl of open source software in the enterprise. Endor Labs\u2019 mission is to help developers spend less time dealing with security issues and more time accelerating development through safe code reuse. With this solution, development and security teams are able to maximize software reuse by safely evaluating, maintaining, and updating dependencies at scale."
     },
     {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASP Ottawa Feb 2023:In the cloud no one can hear you scream.Dangerous defaults",
-        "date": "2023-02-15",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/291474823",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our second in-person meetup in over 2 years!**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nYouTube Live Stream Link:\nhttps://www.youtube.com/watch?v=cjrmv2p6jkE\n\n**6:00 PM EDT** Arrival, setup, mingle\n**6:30 PM EDT** Technical Talks\n\n**In the cloud no one can hear you scream. Dangerous Azure defaults.**\nAbstract:\nIf you happen to be in a rush, you may not notice some interesting default settings on cloud components. And if you do not have the time to investigate the real effects of a specific setting, you may be surprised what it actually does. This presentation reviews some of the thrills and chills associated with default settings on some common Azure cloud components.\n\nSpeaker Bio:\nGarth Boyd is an OWASP Ottawa Chapter Co-Leader, Software Developer, Hacker, and Security Architect. Erstwhile Electrical Engineer who started programming in the bear skins and stone knives age of Windows 1.0 and Sys5 Unix and his path moved into TCP/IP network programming before moving into Military Message Handling, PKI, cryptography, key management, AppSec, Cloud, and threat modelling. A lifelong learner who enjoys crafting solutions to interesting and tough problems through architecture, threat modelling, mitigation design, and penetration testing. Researching new ideas, troubleshooting, communication, and thinking of six impossible things before breakfast are part of the journey."
+        "group": "Oslo",
+        "repo": "www-chapter-oslo",
+        "name": "Purple is the New Black: Modern Approaches to Application Security",
+        "date": "2023-02-28",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/owasp-oslo/events/291636535",
+        "timezone": "Europe/Oslo",
+        "description": "**Talk description**\n\nGone are the days when breaches were rare and security could safely be put low on the priority list; product security is now a customer demand and cyber crime has reached epic proportions. Our idolization of hackers, penetration testing and \u2018breaking\u2019 has not resulted in secure software for our industry, only egos, stereotypes and unaffordable security models. Modern application security approaches need to address both offensive (red team) and defensive (blue team) approaches, as well as continuous learning and advocacy for developers. This means Purple Team. This talk will explore how to combine defence, offence, automation, empathy and continuous learning, all without the requirement of ever wearing a hoodie. The future of security is PURPLE."
     },
     {
         "group": "Recife",
@@ -288,16 +308,6 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291186385",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Sydney",
-        "repo": "www-chapter-sydney",
-        "name": "Modern Authentication - FIDO2 and Passkeys",
-        "date": "2023-02-15",
-        "time": "8:00+11:00",
-        "link": "https://www.meetup.com/owasp-sydney-chapter/events/290887586",
-        "timezone": "Australia/Sydney",
-        "description": "Location: - Talenza Offices, Level 3, 7 Macquarie Place, Sydney NSW 2000\nYouTube link: https://www.youtube.com/watch?v=yQd1hj7BEgc\nDiscord: https://discord.com/invite/uAWze2B - Questions in the Sydney Chapter channel.\nMeet at 6:00 with the talk starting at 6:30.\n\nAbstract: This presentation will discuss approaches to the modern authentication protocols. In particular, we will dive into the FIDO2 passwordless protocol and passkey, a strong candidate to finally replace passwords. Our session will cover both technical and usability aspects of those approaches. We will look at the current trends in authentication attacks as well as the latest research and developments."
     },
     {
         "group": "Tampa",
@@ -332,12 +342,12 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver - March 2023",
+        "name": "Tracing webapp exploitability through code review and taint analysis",
         "date": "2023-03-16",
         "time": "8:00-07:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248491",
         "timezone": "America/Vancouver",
-        "description": "OWASP Vancouver monthly meetup\n\nThis event is sponsored by **Forward Security** \\- thanks for providing us space and food\\."
+        "description": "**Title**: Tracing webapp exploitability through code review and taint analysis\n**Speaker**: Dana Epp\n\nCome learn how to look at your web apps and APIs more offensively to discover the exploitability of your code before your adversaries do.\n\nThis event is sponsored by **Forward Security** \\- thanks for providing us space and food\\."
     },
     {
         "group": "Vancouver",
