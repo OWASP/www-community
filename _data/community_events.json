@@ -30,6 +30,16 @@
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- https://owasp\\-austin\\-2023\\-february\\.eventbrite\\.com\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nAppSecOps - a Scalable Approach to Application Security\nLuis Guzman\n\nToday many unforeseen factors are driving AppSec chaos...We have found about 3-4 TOP challenges every vertical is seeing in today's frugal market. The factors range from simple to hilariously unattainable! I aim to give you a few tips and steps to overcome some if not ALL and create an organization able to ship software fast and secure! All the while addressing current events happening in the market and how to avoid potential \"potholes.\""
     },
     {
+        "group": "Bangalore",
+        "repo": "www-chapter-bangalore",
+        "name": "OWASP Bangalore Meet 18 February 2023 Combined Meet-up",
+        "date": "2023-02-18",
+        "time": "0:00+05:30",
+        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/291661472",
+        "timezone": "Asia/Kolkata",
+        "description": "OWASP Bangalore Meet 18 February 2023 Null/Owasp Combined Meetup\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* OSINT by **Dhanush**\n* OPA and EBPF Security by **Mahalakshmi Sugumaran**\n* Shift Left + API Security by **Soujanya Namburi**\n* Active Directory by **Jaskaran Singh**\n* Evading Exploit Development Defense with ROP by **Manish**\n\nNote: The session details including schedule are available below."
+    },
+    {
         "group": "Bellingham",
         "repo": "www-chapter-bellingham",
         "name": "OWASP Bellingham Chapter March Event (Online) ",
@@ -40,14 +50,14 @@
         "description": "Please join us on the evening of March 1st for a social gathering to talk about what we're working on, upcoming events, and hang out with other web security minded folks!"
     },
     {
-        "group": "Bogota",
-        "repo": "www-chapter-bogota",
-        "name": "OWASP Bogot\u00e1 - Ataques dirigidos a smartcontracts y Hack The Box:SQL Inyecci\u00f3n",
-        "date": "2023-02-16",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/owasp-bogota-meetup-group/events/291169276",
-        "timezone": "America/Bogota",
-        "description": "Nuestra primera reuni\u00f3n del 2023 - Modalidad presencial\n\nEn esta ocasi\u00f3n nos acompa\u00f1a Jawy Romero y Jesus Su\u00e1rez vamos hablar sobre ataques dirigidos a smartcontracts y DAO y una charla introductoria sobre sql injection en ambientes controlados.\n\nUn agradecimiento muy especial a la Fundaci\u00f3n Universitaria San Mateo, recuerden que los asistentes deben enviar el n\u00famero de c\u00e9dula al correo luis.hernandez@owasp.org previamente para evitar problemas con el acceso a las instalaciones.\n\nNombre del ponente: Jawy Romero @JawyPinto\n\nT\u00edtulo de la charla: Ataques dirigidos a smartcontracts y DAO\n\nDescripci\u00f3n:\nDar a conocer los ataques conocidos en smartcontracts y c\u00f3mo se han visto afectadas las aplicaciones en entornos blockchain.\n\nP\u00fablico con conocimiento b\u00e1sico en tecnolog\u00edas Blockchain\n\nDuraci\u00f3n: 45 Min\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nNombre del ponente: Jes\u00fas Su\u00e1rez\n\nLinkedIn: https://www.linkedin.com/in/jesussuarz/\n\nT\u00edtulo de la charla: Hack The Box: SQL Inyecci\u00f3n SQLi\n\nDescripci\u00f3n de la charla: En esta charla conoceremos c\u00f3mo funciona Hack The Box a nivel general, adem\u00e1s completaremos un reto de Hack The Box Academy utilizando diversas t\u00e9cnicas, mostraremos t\u00e9cnicas de SQL Inyecci\u00f3n realistas junto con recolecci\u00f3n de informaci\u00f3n en entornos controlados, la idea es entender c\u00f3mo funciona la plataforma y como se pueden completar los distintos retos propuestos si se quisiera dedicar a Ciberseguridad y Hacking \u00c9tico.\n\nP\u00fablico objetivo: charla dirigida a inform\u00e1ticos que quieran comenzar en Hacking \u00c9tico y Ciberseguridad\n\nDuraci\u00f3n: 1 Hora\n\nLos esperamos!!"
+        "group": "Bergen",
+        "repo": "www-chapter-bergen",
+        "name": "Purple is the New Black: Modern Approaches to Application Security",
+        "date": "2023-02-28",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/owasp-bergen-meetup-group/events/291655332",
+        "timezone": "Europe/Oslo",
+        "description": "**Talk description**\n\nGone are the days when breaches were rare and security could safely be put low on the priority list; product security is now a customer demand and cyber crime has reached epic proportions. Our idolization of hackers, penetration testing and \u2018breaking\u2019 has not resulted in secure software for our industry, only egos, stereotypes and unaffordable security models. Modern application security approaches need to address both offensive (red team) and defensive (blue team) approaches, as well as continuous learning and advocacy for developers. This means Purple Team. This talk will explore how to combine defence, offence, automation, empathy and continuous learning, all without the requirement of ever wearing a hoodie. The future of security is PURPLE."
     },
     {
         "group": "Boston",
@@ -88,16 +98,6 @@
         "link": "https://www.meetup.com/owasp-bristol/events/288310192",
         "timezone": "Europe/London",
         "description": "tbc\n\nWe publish the recordings of our meetups on @YouTube.\nIf you would like to be notified when a new video is published, please subscribe to our channel at:\nhttps://www.youtube.com/@OWASPBristol"
-    },
-    {
-        "group": "Charlotte",
-        "repo": "www-chapter-charlotte",
-        "name": "2023 Kickoff Meeting!",
-        "date": "2023-02-16",
-        "time": "9:00-05:00",
-        "link": "https://www.meetup.com/owaspclt/events/289053091",
-        "timezone": "America/New_York",
-        "description": "Come join us for our First meeting of the year, Food and Drink Will be provided! The location and agenda are TBA."
     },
     {
         "group": "Colorado Springs",
@@ -170,14 +170,14 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "Building Defence in Depths for APIS acros Multiple Platform",
-        "date": "2023-02-16",
-        "time": "7:45+07:00",
-        "link": "https://www.meetup.com/owasp-jakarta-chapter/events/291464497",
-        "timezone": "Asia/Jakarta",
-        "description": "Halo para IT Indonesia!\n\nYuk join Meetup *OWASP Jakarta Meetup - Building Defence in Depths for APIS across Multiple Platform*, pada:\n\n Kamis, 16 Februari 2023\n 17.45 \u2013 20.45 WIB\n Uptown Event Space \u2013 Plaza Mutiara Lt. 8\nJl. DR. Ide Anak Agung Gde Agung No.5, Kuningan-Jakarta Selatan\n\nSaatnya tambah wawasan kamu dan bangun networking dengan member OWASP Jakarta !\n\nDaftar sekarang dan dapatkan kesempatan untuk memenangkan Limited SWAG dari F5 : https://bit.ly/F5OWASPJakartameetup"
+        "group": "Kansas City",
+        "repo": "www-chapter-kansas-city",
+        "name": "OWASP-KC February Stammtisch",
+        "date": "2023-02-21",
+        "time": "8:00-06:00",
+        "link": "https://www.meetup.com/owasp-kansas-city/events/291668004",
+        "timezone": "America/Chicago",
+        "description": "Hey all!\n\nThis session we'll be having our very first Stammtisch! For anyone not familiar with a stammtisch this is largely just an informal group meeting with like minded people to sit around and talk shop. There will be no set topic other than general AppSec. So come on out, meet some new people in the industry and share your ideas around all things AppSec!\n\nWe'll have drinks, snacks, and a great people, so join us and be a part of the conversation about general AppSec topics, or share what topics you might like to see talks or speakers present in the future."
     },
     {
         "group": "Lahore",
@@ -220,6 +220,16 @@
         "description": "OWASP Lisboa chapter meetup on February 28th, 2023, at 18:00, **supported by INESC-ID and AP2SI**.\n\nThe schedule is the following:\n**18:00** \\- Welcome notes by the OWASP Lisboa chapter leadership team\n**18:15** \\- Surface Security: The experience so far and the road ahead by Gustavo Silva\n**19:00** \\- Is it private\\, is it public? Dependency Confusion by Francisco Santos\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Talks**:\n\nTitle: **Surface Security: The experience so far and the road ahead**\n\nSpeaker:\nGustavo Silva\n\nAbstract:\nAt Paddy Power Betfair (Blip.pt), throughout the years, we have developed a tool to help us have an inventory of all internal assets, from servers to DNS records to endpoint devices, but to also integrate other tools in it, like open source scanners to help us detect vulnerabilities, understand our exposure, weaknesses, and priorities, as well as leverage built-in notifications, a slack bot, and much more.\nThis talk is to talk about this project, which was open-sourced recently, and what the roadmap is for the future.\n\n[Gustavo Silva](https://www.linkedin.com/in/gsilvapt/) Bio:\nSoftware Developer by day, Security Researcher at night. I\u2019m passionate about software security. The niche I am currently working on is engineering processes, tools, and internal interfaces to help companies secure their development lifecycles, do vulnerability management and increase overall awareness of the product's security risks.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nTitle: **Is it private, is it public? Dependency Confusion**\n\nSpeaker:\nFrancisco Santos\n\nAbstract:\nBy 2021, the number of components in the average application rose 77 % from 298 to more than 500 open-source packages. Those components are hosted on public repositories such as GitHub, NPM, or PyPI, while some organizations choose to operate proprietary packages inside private registries of those repositories. Private or public, the management is done by CLI (like npm). The CLI imports private or public packages via a simple precedence algorithm: If the package resides inside the private registry, import it. If not, import the public component. How can a bad actor play this to his advantage?\nThe \"is it private, is it public? Dependency Confusion\" talk explains what dependency confusion is, and teaches ways of finding dependency confusion vulnerabilities in js files via BurpSuite with an automated tool called jsminer, a real example of a dependency confusion bug I found, and recommendations to mitigate those issues. By the end, breakers and makers should acquire a fresh new perspective on this issue.\n\n[Francisco Santos](https://www.linkedin.com/in/francisco-santos-77917a210/) Bio:\nI'm Francisco Santos, 23 years old. I always liked to think out of the box and find weird solutions to problems. I like logic and solving puzzles. I enjoy being a breaker, and I want to add value to that community.\n\nTwitter: https://twitter.com/andr0idp4r4n0id"
     },
     {
+        "group": "London",
+        "repo": "www-chapter-london",
+        "name": "OWASP London Chapter Meetup [IN-PERSON]",
+        "date": "2023-02-28",
+        "time": "8:00Z",
+        "link": "https://www.meetup.com/owasp-london/events/291658747",
+        "timezone": "Europe/London",
+        "description": "**PLEASE [REGISTER](https://www.eventbrite.co.uk/e/owasp-london-chapter-in-person-meetup-tickets-550592004507) ON EventBrite: [https://www.eventbrite.co.uk/e/owasp-london-chapter-in-person-meetup-tickets-550592004507](https://www.eventbrite.co.uk/e/owasp-london-chapter-in-person-meetup-tickets-550592004507)**\n\nThis event is kindly sponsored and hosted by Monzo. There is limited seating available for in-person attendees. Registration required. Please note that this event will be live-streamed on YouTube for the online audience. Recordings will be available on the OWASP London YouTube channel.\n\n**Venue Location**: Monzo, 5 Appold St, London, EC2A 2AG\n**Nearest Tube:** Liverpool Street - 4 min walk\n**Doors Open at 6pm** for registration, pizza, drinks and networking. The talks start at 6:30pm (we start on time).\n\n**TALKS**\n\n**OWASP Introduction, Welcome and News** \\- Sam Stepanyan\\, Sherif Mansour and Andra Lezza\nWelcome and a brief update on OWASP Projects & Events from the OWASP London Chapter Leaders\n\n**Talk 1: TBA , Sal Kimmich**\n\n**Talk2: An AppSec Point of View On Synthetic Identities, Timur Yunusov**\nIn the era of neobanks with no branches and broadly adopted eKYC standards, the entry barriers for cybercriminals are extremely low. How could FinTech win in this ongoing cat-and-mouse game? How criminals utilise gaps in workflows of the modern payment ecosystem?After looking at mobile applications and the API workflows of dozens of FinTech companies across Europe, the USA and Asia, I will provide real-world examples from both sides of the battle.\n\n**SPEAKERS**\n\n**Sal Kimmich (@KimmichSal)**\nSal is the head of AI DevSecOps at EscherCloud and an open source advocate passionate about helping engineers, ethical hackers and digital enthusiasts understand the complexity of modern software development. With over a decade of experience as building cloud-native machine learning pipelines in the healthcare and tech for good sectors, their work is now focused on filling the cracks in the open source software supply chain to build a better digital future for all of us. By day, you'll find Sal working with site reliability engineers, DevOps and cybersecurity specialists to implement best tools and practices to remove toil from developer workflows. By night, you'll find Sal mentoring the next generation of engineers in cloud computing from around the globe, helping them to make the world a better place through the clever use of math.\n\n**Timur Yunusov (@a66ot)**\nTimur Yunusov, Payment security researcher, an application security expert with a focus on FinTech, and one of the Payment Village organisers. Some of Timur's research in the field of application security includes \"Bruteforce of PHPSESSID\" and \"XML Out-Of-Band\" shown at the Black Hat EU back in 2013 . Timur has previously spoken at conferences such as Black Hat EU, BlackHat USA, HackInTheBox, Nullcon, NoSuchCon, CanSecWest, Hack In Paris, ZeroNights, Positive Hack Days and at OWASP meetups.\n\n**TICKETS**\nThis event is free to attend for both members and non-members of OWASP and is open to anyone interested in web application and cyber security. Please note that you MUST [book your place](https://www.eventbrite.co.uk/e/owasp-london-chapter-in-person-meetup-tickets-550592004507) to be admitted to the event by the building security - your name will be checked against the guest list.\n\n###\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously.\nOWASP aims to provide a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, age, or religion. We do not tolerate harassment of event participants in any form.\nAdditionally, participating in OWASP events means you shall also adhere to the OWASP Code of Conduct which you can find here: https://owasp.org/www-policy/operational/code-of-conduct"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - FEB 22, 2023",
@@ -260,6 +270,16 @@
         "description": "The Auckland-area OWASP Meetup takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for March will be A06:2021 - Vulnerable and Outdated Components.\n\nTechnical Topic Speaker: Ruskin Dantra, AWS\nTalk Title: TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
     },
     {
+        "group": "Northern Virginia",
+        "repo": "www-chapter-northern-virginia",
+        "name": "Introducing the OWASP Top Ten",
+        "date": "2023-02-23",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/291669658",
+        "timezone": "America/New_York",
+        "description": "OWASP has long been known for its Top Ten relating to common web application vulnerabilities. As more and more applications have been built or moved to the cloud, OWASP has started a new project to capture the risks facing cloud-based applications. The OWASP Cloud Native Top Ten is an initiative identifying the top risks for cloud-native workloads. Cloud-based applications face the common issues on-prem applications deal with and new risks based on cloud vulnerabilities. This talk will cover the project progression, the current Top Ten list, and how companies can use the list to secure their workloads further. It will be a great introduction to cloud risks for security professionals to start using the OWASP project in their work."
+    },
+    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks",
@@ -298,6 +318,16 @@
         "link": "https://www.meetup.com/meetup-group-jhcesodi/events/291428981",
         "timezone": "America/Puerto_Rico",
         "description": "Join us for our first event, where we will be doing Q&A on the upcoming Capture-The-Flag (CTF) event in early March!\n\nFor those of you who are new to cybersecurity, or new to tech in general, CTF's are a way for us to make the boring stuff more fun. CTF's usually come in two varieties:\n\n* **Jeopardy**: *is a type of cybersecurity competition. In a CTF, participants work to solve challenges that are often based on real-world scenarios, such as finding vulnerabilities in systems or decoding hidden messages. These challenges are usually organized into categories, such as web security, cryptography, or binary exploitation, and participants earn points for each challenge they successfully solve. CTFs are often used as a way for cybersecurity professionals to learn and improve their skills, and they can also be a lot of fun for people who are interested in this field.*\n\n* **Attack & Defense**: *Attack-Defense CTFs are a type of cybersecurity competition where teams are given a set of resources, such as servers or websites, and must defend them from attacks launched by other teams. At the same time, each team must also try to attack and compromise the resources of the other teams. In this type of CTF, points are usually awarded for successfully launching an attack or successfully defending against an attack.*\n\nWe want to be able to live stream the event, so stay tuned into all of OWASP San Juans social media. If you'd like to help promote, sponsor, donate, develop, or collaborate, please checkout our home page where to go!\n\nTo learn more, reach out to a community member, and we hope to see you there at the event!"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2023-03-08",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/291660918",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Suffolk",
@@ -348,16 +378,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248491",
         "timezone": "America/Vancouver",
         "description": "**Title**: Tracing webapp exploitability through code review and taint analysis\n**Speaker**: Dana Epp\n\nCome learn how to look at your web apps and APIs more offensively to discover the exploitability of your code before your adversaries do.\n\nThis event is sponsored by **Forward Security** \\- thanks for providing us space and food\\."
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver - Scaling your Application Security program",
-        "date": "2023-02-16",
-        "time": "8:00-08:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248487",
-        "timezone": "America/Vancouver",
-        "description": "**Title**: How to avoid potholes when scaling your Application Security program\n**Speaker**: Jeevan Singh, Director of Product Security at Twilio\n\nHave you ever wondered what it is like to build an Application Security program at a very large organization? Or how to build it at an organization that had experienced hypergrowth and the security team\u2019s hiring was not at the same pace as Engineering? What about an organization that had acquired a lot of different companies with vastly different tech stacks?\nJeevan Singh will show you how to build an Application Security program and avoid pitfalls at a hypergrowth organization. The talk will cover topics such as hiring, tooling, metrics, roadmapping, building allies and setting yourself up for success.\n\nThis event is sponsored by **Forward Security** \\- thanks for providing us space and food\\."
     },
     {
         "group": "Wrongsecrets",
