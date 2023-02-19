@@ -232,9 +232,10 @@ Intentionally vuln web Application Security in django.
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-- Improve Vulnerabilities based on OWASP Top 10 - 2021
-- Fixing all issues and work with Docker
-
+- Improve Vulnerabilities Challenges
+- Improve Secure Coding Labs
+- Fixing all issues 
+- Add AI Chatbox for PyGoat
 
 ##### Getting started
 - Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
@@ -246,7 +247,7 @@ Intentionally vuln web Application Security in django.
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
-* FLo
+* Nizam
 
 ### [OWASP Risk Assessment Framework](https://owasp.org/www-project-risk-assessment-framework/)
 The OWASP Risk Assessment Framework consist of Dynamic application security testing (DAST) and Risk Assessment tools. By using OWASP Risk Assessment Framework's  Testers will be able to analyse and review their application and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure application.
