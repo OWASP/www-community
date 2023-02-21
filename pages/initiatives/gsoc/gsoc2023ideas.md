@@ -232,7 +232,9 @@ Intentionally vuln web Application Security in django.
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-- Improve Vulnerabilities based on OWASP Top 10 - 2021
+- Improve Vulnerabilities Challenges 
+- Improve Secure Coding Labs
+- Build AI Chatbox
 - Fixing all issues and work with Docker
 
 
@@ -243,10 +245,11 @@ Intentionally vuln web Application Security in django.
 ##### Student Requirements
 - Python
 - Django
+- NLP 
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
-* FLo
+* Nizam
 
 ### [OWASP Risk Assessment Framework](https://owasp.org/www-project-risk-assessment-framework/)
 The OWASP Risk Assessment Framework consist of Dynamic application security testing (DAST) and Risk Assessment tools. By using OWASP Risk Assessment Framework's  Testers will be able to analyse and review their application and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure application.
@@ -258,11 +261,9 @@ The OWASP Risk Assessment Framework consist of Dynamic application security test
 
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Building the Dashboard
-- Building API Scanner and integrated other scanner
+- Building API Scanner and Integrated other scanner (OWASP ZAP, etc)
 - Add Vulnerabilities based on OWASP Top 10 - 2021, CVE Mitre, SANS 25 Top error also ISO 27k
-- Integrated to other pentest tool like scan network, scan web application, brute force, ossint tool, phising attack. etc
-- Custom report like pdf also word format
+- Integrated to other pentest tool
 - Scheduled scan
 
 ##### Getting started
@@ -276,7 +277,7 @@ The OWASP Risk Assessment Framework consist of Dynamic application security test
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
-* [Andriansyah](mailto:pakdesawangan@gmail.com)
+* [Ardi](mailto:pakdesawangan@gmail.com)
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
