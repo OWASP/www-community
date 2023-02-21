@@ -232,8 +232,8 @@ Intentionally vuln web Application Security in django.
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-- Improve Vulnerabilities Challenges 
-- Improve Secure Coding Labs
+- Improve Vulnerability Challenges
+- Improve Secure Coding Lab
 - Build AI Chatbox
 - Fixing all issues and work with Docker
 
