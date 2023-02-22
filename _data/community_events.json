@@ -70,16 +70,6 @@
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "TBC ",
-        "date": "2023-02-21",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/owasp-bristol/events/288310192",
-        "timezone": "Europe/London",
-        "description": "tbc\n\nWe publish the recordings of our meetups on @YouTube.\nIf you would like to be notified when a new video is published, please subscribe to our channel at:\nhttps://www.youtube.com/@OWASPBristol"
-    },
-    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS February 2023",
@@ -88,6 +78,16 @@
         "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/291207717",
         "timezone": "America/Denver",
         "description": "Speaker: James Smith\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
+    },
+    {
+        "group": "Curitiba",
+        "repo": "www-chapter-curitiba",
+        "name": " Visi\u00f3n t\u00e1ctica de las amenazas en Am\u00e9rica Latina  ",
+        "date": "2023-03-03",
+        "time": "0:00-03:00",
+        "link": "https://www.meetup.com/owasp-curitiba-chapter/events/291774275",
+        "timezone": "America/Sao_Paulo",
+        "description": "Conocer el modus operandi llevado a cabo por amenazas que ejecutan operaciones en Am\u00e9rica Latina es vital si tu negocio est\u00e1 all\u00ed. Existen muchos grupos que realizan intrusiones de manera indiscriminada contra m\u00faltiples sectores. Por ello, ahondaremos a nivel t\u00e1ctico sobre c\u00f3mo estos grupos (ya sean avanzados o cibercriminales) ejecutan sus operaciones para conseguir sus objetivos finales y c\u00f3mo podemos detectar algunos de esos comportamientos m\u00e1s repetidos."
     },
     {
         "group": "Denver",
@@ -108,16 +108,6 @@
         "link": "https://www.meetup.com/meetup-group-opbybwve/events/291516859",
         "timezone": "America/Edmonton",
         "description": "## Time & Location\n\nFeb 28, 5:00 - 6:30 p.m.\nEdmonton, 10700 104 Ave NW, Edmonton, AB T5J 4S2, Canada\n\n## About The Event\n\nAn in-person event for all members hosted at Grant MacEwan.\nPresentation by Thomas Dang.\n\n1. C2's What are they and how are they used in CTFs\n2. Common C2s/The C2 Matrix\n3. Basic Metasploit demo\n4. Basic Sliver demo\n5. QA"
-    },
-    {
-        "group": "Edmonton",
-        "repo": "www-chapter-edmonton",
-        "name": "CTF Event - King of the Hill",
-        "date": "2023-02-21",
-        "time": "8:30-07:00",
-        "link": "https://www.meetup.com/meetup-group-opbybwve/events/291515918",
-        "timezone": "America/Edmonton",
-        "description": "## Time & Location\n\nFeb 21, 6:30 p.m. \u2013 8:00 p.m.\nOnline\n\n## About The Event\n\nAn online event where we will work on Try Hack Me King of the Hill.\n\nGoogle Meet joining info\nCTF Online Event\nTuesday, February 21 \u00b7 6:30 \u2013 8:30pm\nGoogle Meet joining info\nVideo call link: https://meet.google.com/uzv-zqcq-rsg\nOr dial: \u202a(US) +1 904-580-8855\u202c PIN: \u202a495 302 301\u202c#"
     },
     {
         "group": "France",
@@ -148,16 +138,6 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/291093616",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
-    },
-    {
-        "group": "Kansas City",
-        "repo": "www-chapter-kansas-city",
-        "name": "OWASP-KC February Stammtisch",
-        "date": "2023-02-21",
-        "time": "8:00-06:00",
-        "link": "https://www.meetup.com/owasp-kansas-city/events/291668004",
-        "timezone": "America/Chicago",
-        "description": "Hey all!\n\nThis session we'll be having our very first Stammtisch! For anyone not familiar with a stammtisch this is largely just an informal group meeting with like minded people to sit around and talk shop. There will be no set topic other than general AppSec. So come on out, meet some new people in the industry and share your ideas around all things AppSec!\n\nWe'll have drinks, snacks, and a great people, so join us and be a part of the conversation about general AppSec topics, or share what topics you might like to see talks or speakers present in the future."
     },
     {
         "group": "Lahore",
@@ -282,6 +262,16 @@
     {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
+        "name": "Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project",
+        "date": "2023-03-23",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/owasp-oc/events/291353134",
+        "timezone": "America/Los_Angeles",
+        "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nMobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
         "name": "Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks",
         "date": "2023-02-23",
         "time": "8:00-08:00",
@@ -387,7 +377,7 @@
         "time": "8:30-05:00",
         "link": "https://www.meetup.com/owasp-toronto/events/291468476",
         "timezone": "America/Toronto",
-        "description": "**EVENT**\n\n**CMD+CTRL Cyber Range CTF**\n\n**Summary:**\n\n**Want to tap into your inner evildoer and test your skills in hunting down web application vulnerabilities?**\nIf so, immerse yourself in the industry\u2019s most authentic environment where players exploit their way through hundreds of vulnerabilities that lurk in business applications today. Success means learning quickly that attack and defense is all about thinking on your feet. For each vulnerability you uncover, you are awarded points. Climb the interactive leaderboard as you vie for the top spot!\nThe CMD+CTRL Cyber Range is ideal for anyone interested in learning how web applications are attacked, furthering their cybersecurity acumen, or honing the skills needed to protect the enterprise. From curious bystanders to active practitioners to Risk and Security Executives, there\u2019s something for everyone.\n\n**Hosts:**\n\n**Geoff Vaughan** is an Application & IT Security expert helping companies secure software and devices throughout all stages of development with Security Innovation. He is passionate about ensuring that software is safe to use for both businesses and end-users alike. Geoff is excited to lead this OWASP chapter through a cyber range and give them the chance to become the attacker.\n\n***Who is Security Innovation? ***\nEveryone wants to solve cybersecurity software challenges and go beyond reactive (but necessary) stopgaps. However, most security providers address symptoms and not the root cause. Security Innovation\u2019s approach is different \u2013 by pragmatically transferring our security expertise across all software security stakeholders, from developers to the C-suite, we help teams get smarter about software security so they are prepared for future challenges. We are able to do this because as a SaaS and assessment provider, we face the same threats our clients do. We also understand the challenges of taking a risk-based approach to software development and operations."
+        "description": "**EVENT**\n\n**CMD+CTRL Cyber Range CTF**\n\n**Summary:**\n\n**Want to tap into your inner evildoer and test your skills in hunting down web application vulnerabilities?**\nStuck at home, but still want to test your skills in identifying web app vulnerabilities? The OWASP Toronto chapter along with Security Innovation and Trend Micro invite members to virtually compete in the InstaFriends CMD+CTRL cyber range, where players exploit their way through hundreds of vulnerabilities that lurk in social media applications today. Success means learning quickly that attack and defense is all about thinking on your feet.\n\nAll you need is your laptop and inner evil-doer!\n\n**Facilitator:**\n\n**Geoff Vaughan** is an Application & IT Security expert helping companies secure software and devices throughout all stages of development with Security Innovation. He is passionate about ensuring that software is safe to use for both businesses and end-users alike. Geoff is excited to lead this OWASP chapter through a cyber range and give them the chance to become the attacker.\n\n\\*\\*\\*Who is Security Innovation? \\*\\*\\*\nEveryone wants to solve cybersecurity software challenges and go beyond reactive (but necessary) stopgaps. However, most security providers address symptoms and not the root cause. Security Innovation\u2019s approach is different \u2013 by pragmatically transferring our security expertise across all software security stakeholders, from developers to the C-suite, we help teams get smarter about software security so they are prepared for future challenges. We are able to do this because as a SaaS and assessment provider, we face the same threats our clients do. We also understand the challenges of taking a risk-based approach to software development and operations."
     },
     {
         "group": "Triangle Nc",
