@@ -10,16 +10,6 @@
         "description": "More information to come!"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - March 2023 (Online)",
-        "date": "2023-03-28",
-        "time": "1:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705720",
-        "timezone": "America/Chicago",
-        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- Coming Soon\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!"
-    },
-    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "March Meetup",
@@ -28,16 +18,6 @@
         "link": "https://www.meetup.com/bay-area-owasp/events/291777163",
         "timezone": "America/Los_Angeles",
         "description": "Host needs first name, last name and email address to sign you into the building. Please use the link below to register:\nhttps://www.eventbrite.com/e/owasp-march-meetup-tickets-559081837827\n\nSecurity time, The March OWASP Bay Area chapter meetup is sponsored by Atlassian. It will be a great occasion to connect with other security researchers, developers and managers, by discussing all things security, sharing tips and tricks and networking. Enjoy tasty food and great drinks\n\nThe host require everyone to be pre-registered and have to sign a NDA at the event. Your full name and email address will be shared with Atlassian. Please use the link below to register:\n\nhttps://www.eventbrite.com/e/owasp-march-meetup-tickets-559081837827\n\nAgenda\n\n* 5:00 - Check in, grab some food/drinks and network\n* 5:45 - 6.30 - Scoring vulnerabilities with SSVC\n* 6:30 - 7:15 - The 7 Habits of Highly Effective AppSec Programs\n* 7:15 - 8.00 - Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project\n* 8:00 - Doors close\n\n**Title**: Scoring vulnerabilities with SSVC\n**Abstract**: Vulnerability scoring at Atlassian. They journey to introduce SSVC (Stakeholder Specific Vulnerability Categorization)\n**Speaker**: Mitchell Johnson has been working as a security engineer at Atlassian for about 3 years. During that time he\u2019s been focusing on vulnerability management and automation. Outside of work he enjoys video games with friends, staying active and listening to music!\n\n**Title:** The 7 Habits of Highly Effective AppSec Programs\n**Description:**\n\u201cYour Habits Determine Your Destiny\u201d\nFor over 30 years the original book, The 7 Habits of Highly Effective People, has helped millions of individuals increase effectiveness in achieving their goals through a series of habits. In this namesake talk, we will discuss the 7 habits of truly effective Application Security teams that help them achieve the desired consequences and accelerate remediation of risks. By following these practical habits, AppSec teams have been able to increase their program\u2019s maturity, achieve higher productivity and execute on critical priorities with laser-like focus.\n\nThis talk is for you if you constantly feel overwhelmed in your AppSec program with too many priorities and unable to make enough progress on remediating critical risks that matter.\n**Speaker:-** Harshil Parikh is a seasoned security leader with experience in building and scaling security teams from the ground up. Having been a CISO and AppSec leader before, recently Harshil switched to the dark side of entrepreneurship and founded Tromzo to solve some of the most painful problems for AppSec / Product Security teams. Additionally, he has been a speaker at AppSec USA, RSA Conference and CSX Europe so this talk should be pretty interesting.\n\n**Title**:\nMobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project\n\n**Abstract**:\nMobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!\n\n**Presenter**: Brian Reed, Chief Mobility Officer, NowSecure Mobile\nBrian Reed leads the mobile innovation and DevSecOps charge at NowSecure helping orgs deliver high quality secure mobile apps faster. He brings decades of experience in mobile, apps, security, dev, testing and operations helping Fortune 2000 global customers, federal agencies and mobile innovators. Brian is a compelling storyteller, speaker and writer including Droidcon, AllDayDevOps, OWASP, DevOpsWorld, DevOps Days, RSA, Mobile World Congress, FS-ISAC, and more. Brian is a graduate of Duke University."
-    },
-    {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston March 2023 Meetup - Hybrid Attendance",
-        "date": "2023-03-01",
-        "time": "7:30-05:00",
-        "link": "https://www.meetup.com/owaspboston/events/291465528",
-        "timezone": "America/New_York",
-        "description": "This month OWASP Boston will be welcoming Pete Morgan, CSO & Co-founder of Phylum, as our presenter. Pete will be presenting to the group on defending the complete attack surface of the software supply chain. The presentation will include research findings from the Phylum team and their insights on how to counteract them. For more details about Pete and the talk please see the details below.\n\nThis month\u2019s meetup with be a hybrid meeting, feel free to join us in person at the Broad Institute in Cambridge or via Zoom (link provided to all registered attendees ahead of the event).\n\n**Title:** Defending the complete attack surface of the software supply chain\n\n**Abstract:** As attacks have shown, soft targets in the software supply chain are now the path of least resistance for attackers. This session will review the TTPs of recent attacks and areas of software supply chain risk to focus on.\n\n**Speaker:** Pete Morgan, CSO & Co-Founder at Phylum (photo attached)\n\n**Bio:** Pete Morgan is a co-founder and CSO of Phylum. He is a recognized security researcher and entrepreneur with more than 20 years of experience in information security, software development and executive leadership. Pete\u2019s background in offensive security drives his passion for creating and sharing the best defenses against the growing number of software supply chain attacks originating in the open-source ecosystem."
     },
     {
         "group": "Brisbane",
@@ -68,16 +48,6 @@
         "link": "https://www.meetup.com/owasp-curitiba-chapter/events/291774275",
         "timezone": "America/Sao_Paulo",
         "description": "Conocer el modus operandi llevado a cabo por amenazas que ejecutan operaciones en Am\u00e9rica Latina es vital si tu negocio est\u00e1 all\u00ed. Existen muchos grupos que realizan intrusiones de manera indiscriminada contra m\u00faltiples sectores. Por ello, ahondaremos a nivel t\u00e1ctico sobre c\u00f3mo estos grupos (ya sean avanzados o cibercriminales) ejecutan sus operaciones para conseguir sus objetivos finales y c\u00f3mo podemos detectar algunos de esos comportamientos m\u00e1s repetidos."
-    },
-    {
-        "group": "Denver",
-        "repo": "www-chapter-denver",
-        "name": "Denver OWASP SNOWFROC Conference",
-        "date": "2023-03-02",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/denver-owasp/events/290702464",
-        "timezone": "America/Denver",
-        "description": "SnowFROC 23 is on Thursday March 2nd - all day long. While billed as, \"Denver's premier application security conference\", SnowFROC's presentations and workshops focus on many facets of cybersecurity and over the years, SnowFROC has come to be known for its exceptional value: Hands-on training, excellent food, spectacular networking, great location/venue and professional orchestration.\n\nThis year, our Keynote will be given by Kevin Johnson!\n\nSnowFROC includes breakfast, lunch, presentations, vendor giveaways, a panel discussion and optional hands on training and workshops.\n\nThe location of this event is The Cable Center on the University of Denver campus near I-25 and University.\n\n**YOU MUST REGISTER AT** [https://www.eventbrite.com/e/owasp-2023-snowfroc-tickets-487925687867](https://www.eventbrite.com/e/owasp-2023-snowfroc-tickets-487925687867)\n\n**Our regular meetups are free, but this one-day only event/conference is not free:** Only $75 for the conference which includes breakfast, lunch, afternoon snacks and happy hour. Additional $30 for the hands-on track if desired.\n\nBY FAR THE BEST VALUE for any conference you will attend this year - Start 2023 off right and invest in yourself and your company!\n\nStay up-to-date with the latest information on speakers, sponsors, workshops and more: [https://snowfroc.com](https://snowfroc.com)"
     },
     {
         "group": "Dorset",
@@ -170,16 +140,6 @@
         "description": "TBD"
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - MAR 22, 2023",
-        "date": "2023-03-22",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/291304796",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project\nJoin us for great networking, dinner and drinks, and see a presentation by Brian Reed, Chief Mobility Officer, NowSecure Mobile\n\n**ABSTRACT**: Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!\n\n**Thanks to our Sponsor**: NowSecure\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
-    },
-    {
         "group": "Manchester",
         "repo": "www-chapter-manchester",
         "name": "Proactive Security - How do you prevent vulnerabilities",
@@ -240,6 +200,16 @@
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nMobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
     },
     {
+        "group": "Oslo",
+        "repo": "www-chapter-oslo",
+        "name": "Defendable Products: Improving security in our products",
+        "date": "2023-03-23",
+        "time": "7:00+01:00",
+        "link": "https://www.meetup.com/owasp-oslo/events/291637400",
+        "timezone": "Europe/Oslo",
+        "description": "**About the meetup**\nLocation: Grensen 5-7, Oslo\nFood: Pizza will be served from 17:00 (sponsored by Schibsted)\nPresentations will be held in english.\nThe meeting will not be recorded or streamed.\n\n**Talk 1**\nHow do you improve security in products? This talk will walk you through what we have done in Schibsted the last three years to improve security in our products (e.g. Application Security and Cloud Security). From guiding principles, training package for developers, risk identification and escalation processes to introducing technical tools like SAST, DAST, CSPM and others. We wrap up with mistakes we made and our road ahead.\n\n**Talk 2**\nWe have set aside time to have another talk. Reach out [oslo-leaders@owasp.org](mailto:oslo-leaders@owasp.org) to suggest a talk :)\n\nThis meetup is sponsored by Schibsted. We appreciate their support!\n\nIf you want to become a sponsor for an OWASP meetup, contact [oslo-leaders@owasp.org](mailto:oslo-leaders@owasp.org)."
+    },
+    {
         "group": "Ottawa",
         "repo": "www-chapter-ottawa",
         "name": "OWASP Ottawa March 2023: Building Security Champions with Tanya Janca",
@@ -250,14 +220,14 @@
         "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\nYouTube Live Stream Link:\nhttps://www.youtube.com/watch?v=WqzWVkCAhcQ\n\n**6:00 PM EDT** Arrival, setup, mingle\n**6:30 PM EDT** Technical Talks\n\n**Building Security Champions: How to make a security champions program work.**\nAbstract:\nWith security teams being vastly outnumbered many organizations have responded to this challenge with different program scaling methods, including building security champions programs. Which leads us to questions; How does a security champions program work? How do you select your champions? And once you have them, what do you DO with them?\n\nRecipe for success; recruit, engage, teach, recognize, reward, don\u2019t stop.\n\nSpeaker Bio:\nTanya Janca, also known as [SheHacksPurple](https://shehackspurple.ca/), is the best-selling author of \u2018[Alice and Bob Learn Application Security](https://aliceandboblearn.com/)\u2019. She is also the founder of We Hack Purple, an online learning community that revolves around teaching everyone to create secure software. Tanya has been coding and working in IT for over twenty five years, won countless awards, and has been everywhere from public service to tech giants, writing software, leading communities, founding companies and \u2018securing all the things\u2019. She is an award-winning public speaker, active blogger & podcaster and has delivered hundreds of talks on 6 continents. She values diversity, inclusion, and kindness, which shines through in her countless initiatives.\n\nAdvisor: [Nord VPN](https://nordvpn.com/), Cloud Defense, Aiya Corp\nFaculty: IANs Research\nFounder: [We Hack Purple](https://wehackpurple.com/), [OWASP DevSlop](https://www.youtube.com/owasp_devslop), [#CyberMentoringMonday](https://twitter.com/search?q=%23cybermentoringmonday&src=typed_query&f=live), [WoSEC](https://www.womenofsecurity.com)"
     },
     {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "OWASP Meeting in Krakow - 1 Mar 2023",
-        "date": "2023-03-01",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owasp-poland/events/291510346",
-        "timezone": "Europe/Warsaw",
-        "description": "Hi,\n[OWASP](https://owasp.org/) is a worldwide, non-profit organisation focused on application security issues and we are Polish chapter of this initiative.\n\nStarting from this meeting, we are changing our usual agenda a little bit, to give an opportunity to raise more subjects and to have more diverse discussions.\nWe will have one bigger (30 min) presentation and 3-4 shorter \"lightning talks\" with discussion. **If you want to have lightning talk** please let us know in advance by [filling the form](https://forms.gle/7JFiD3z2tKifogvs5). This will help us to plan the meeting.\n\nAgenda:\n\n1. [OWASP Cheat Sheets Series Project](https://cheatsheetseries.owasp.org/). Kuba Ma\u0107kowski - project co-leader will introduce you to the project idea and how security cheat sheets could be useful for your daily work - no mater if you are developer, architect or security tester. (about 30 min + discussion)\n2. After the break we will have series of short lightning talks with discussion (typical format is 5-10 minute talk followed by 5-10 minute discussion). [Please submit your proposals](https://forms.gle/7JFiD3z2tKifogvs5)!\nCurrent queue:\n\n* Web3, Authentication and Search Engine Optimization (Szymon Chadam)\n* Obfuscating C&C servers with redirectors (Bartosz Klinowski)\n* BSides Krakow announcement\n* OWASP Poland Day announcement\n* **(a place for you )**\n\n3. Job announcements. If you are an employer, there will be a chance to present who you are looking for.\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this link** with friends and in social media."
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "OWASP Peterborough: Chapter Kick Off",
+        "date": "2023-03-29",
+        "time": "9:30+01:00",
+        "link": "https://www.meetup.com/owasp-peterborough/events/291965524",
+        "timezone": "Europe/London",
+        "description": "**Join the first ever OWASP Peterborough Chapter event!**\n\nTo kick the chapter off, the session focuses on introducing OWASP and similar topics, whilst networking in a great venue!\n\nWe're still confirming some specifics, but can promise outstanding speakers focusing on:\n\n* Introducing OWASP and Web Application Security\n* Offensive Security\n* Pitfalls of development\n* How to get involved in the security field\n\nAn agenda will be shared closer to the MeetUp date.\n\n**Who is it for?**\nEverybody! Come along, bring a friend, share with your colleagues.\n\nA principle of the chapter is to ensure **cyber security is accessible** for everyone. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**When is it?**\n\n* Wednesday 29th March\n* **Arrive** from 7:30pm\n* **Sessions start** at 8PM sharp\n* **Networking** drinks from 9:30pm\n* **Close** by 11pm\n\n**How can you get involved?**\n\n* Respond **'I'm coming!'** to this group\n* Join our **[slack](https://owasp.slack.com/archives/C04PP89RJ2K) channel**\n* Check out our OWASP Chapter [page](https://owasp.org/www-chapter-peterborough/)\n\n**Sponsors!**\nSponsors enable events like ours to happen. We want to give a huge shout out to our sponsors - Cybanetix. Check them out to understand how you can secure your business, people and network: https://cybanetix.com\n\nWe look forward to seeing you there!"
     },
     {
         "group": "Recife",
@@ -298,16 +268,6 @@
         "link": "https://www.meetup.com/south-florida-owasp-chapter/events/291822447",
         "timezone": "America/New_York",
         "description": "We will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our March 2023 Meeting. Once again we are starting the year with the Owasp Top 10!\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n===\n\n+Chapter updates/announcements, etc.\n\n* The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
-    },
-    {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "DDoS attacks against Sweden - what happened and what we can do about it",
-        "date": "2023-03-02",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/291849850",
-        "timezone": "Europe/Stockholm",
-        "description": "During the month of February social media accounts have repeatedly threatened Sweden with cyberattacks. The threats realized in the form of Distributed Denial-of-service attacks, a type of attack aiming at disrupting normal operations and availability of online services and websites. As a result, several Swedish websites were affected, but thankfully not nation-critical services.\n\nDDoS attacks are on the rise on a global scale. They are used by organized crime to blackmail organizations, as well as nation state actors to attack infrastructure of other countries, often opportunistically under the cover of political events.\n\nFor this event we get together to discuss what happened, but more importantly what we can do to protect the organizations we work for against DDoS attacks.\n\nThe event will be held using huddle in Slack so make sure to join the channel \u201cchapter-stockholm\u201d."
     },
     {
         "group": "Suffolk",
