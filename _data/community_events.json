@@ -10,6 +10,16 @@
         "description": "More information to come!"
     },
     {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - March 2023 (Online)",
+        "date": "2023-03-28",
+        "time": "1:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705720",
+        "timezone": "America/Chicago",
+        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- Coming Soon\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+    },
+    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "March Meetup",
@@ -140,6 +150,16 @@
         "description": "TBD"
     },
     {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - MAR 22, 2023",
+        "date": "2023-03-22",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/291304796",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project\nJoin us for great networking, dinner and drinks, and see a presentation by Brian Reed, Chief Mobility Officer, NowSecure Mobile\n\n**ABSTRACT**: Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!\n\n**Thanks to our Sponsor**: NowSecure\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
+    },
+    {
         "group": "Manchester",
         "repo": "www-chapter-manchester",
         "name": "Proactive Security - How do you prevent vulnerabilities",
@@ -147,7 +167,7 @@
         "time": "8:00Z",
         "link": "https://www.meetup.com/owasp-manchester-uk-chapter/events/291657572",
         "timezone": "Europe/London",
-        "description": "Hello & Welcome\n\nIn this session we'll be discussing Proactive Security. Meaning, how do you empower and enable engineering teams to own their own security to prevent the release of vulnerable code... what would secure coding practices look like, what is security by design, what security testing can teams do during the test & release process. More importantly, what can we put in place to really make the security teams work for their money\n\n**6:00 - Open doors**\n**6:45 - Robin Fewster: Threat modelling**\nDrawing on some client experiences, Robin will discuss different threat modelling approaches and tools available, and how they went down with development teams.\n\n**7:30 - Refreshments**\n**8:00 - Second talk**\n\n**8:45 - Networking**\n**9:00 - Vacate venue -> to the pub for more socialising**\n\n**Robin Fewster**\nRobin has 20 years experience in cyber security, and is particularly interested in helping companies to improve their security posture. A current area of focus is to assist software development teams with improving their secure software development practices. This includes work ranging from implementing security strategy, security champions programmes and threat modeling. Robin is also a former OWASP Newcastle chapter leader\n\nWe'd like to say THANK YOU to the companies who helped make this event possible\nBarlcays DiSH - Thank you so much for sponsoring the venue\nBeyondTrust - Thank you so much for sponsoring the food & drink\nCytix - Special thanks for making introductions\n\nAre you passionate about a security topic?\nDo you want to speak at a future event?\nSubmit your interest here - https://forms.gle/zcm9bVNhgDixe8Gq5\n\nDoes your company want to sponsor a venue and/or refreshments?\nEmail Paul - paul.johnston@owasp.org"
+        "description": "Hello & Welcome\n\nIn this session we'll be discussing Proactive Security. Meaning, how do you empower and enable engineering teams to own their own security to prevent the release of vulnerable code... what would secure coding practices look like, what is security by design, what security testing can teams do during the test & release process. More importantly, what can we put in place to really make the security teams work for their money\n\nPlease note this event will be recorded so we can put these talks on our YouTube channel afterwards. We will also be trying out our live streaming capabilities.\n\n**6:00 - Open doors**\n**6:45 - Robin Fewster: Threat modelling**\nDrawing on some client experiences, Robin will discuss different threat modelling approaches and tools available, and how they went down with development teams.\n\n**7:30 - Refreshments**\n**8:00 - Second talk**\n\n**8:45 - Networking**\n**9:00 - Vacate venue -> to the pub for more socialising**\n\n**Robin Fewster**\nRobin has 20 years experience in cyber security, and is particularly interested in helping companies to improve their security posture. A current area of focus is to assist software development teams with improving their secure software development practices. This includes work ranging from implementing security strategy, security champions programmes and threat modeling. Robin is also a former OWASP Newcastle chapter leader\n\nWe'd like to say THANK YOU to the companies who helped make this event possible\nBarlcays DiSH - Thank you so much for sponsoring the venue\nBeyondTrust - Thank you so much for sponsoring the food & drink\nCytix - Special thanks for making introductions\n\nAre you passionate about a security topic?\nDo you want to speak at a future event?\nSubmit your interest here - https://forms.gle/zcm9bVNhgDixe8Gq5\n\nDoes your company want to sponsor a venue and/or refreshments?\nEmail Paul - paul.johnston@owasp.org"
     },
     {
         "group": "Minneapolis St Paul",
@@ -227,7 +247,7 @@
         "time": "9:30+01:00",
         "link": "https://www.meetup.com/owasp-peterborough/events/291965524",
         "timezone": "Europe/London",
-        "description": "**Join the first ever OWASP Peterborough Chapter event!**\n\nTo kick the chapter off, the session focuses on introducing OWASP and similar topics, whilst networking in a great venue!\n\nWe're still confirming some specifics, but can promise outstanding speakers focusing on:\n\n* Introducing OWASP and Web Application Security\n* Offensive Security\n* Pitfalls of development\n* How to get involved in the security field\n\nAn agenda will be shared closer to the MeetUp date.\n\n**Who is it for?**\nEverybody! Come along, bring a friend, share with your colleagues.\n\nA principle of the chapter is to ensure **cyber security is accessible** for everyone. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**When is it?**\n\n* Wednesday 29th March\n* **Arrive** from 7:30pm\n* **Sessions start** at 8PM sharp\n* **Networking** drinks from 9:30pm\n* **Close** by 11pm\n\n**How can you get involved?**\n\n* Respond **'I'm coming!'** to this group\n* Join our **[slack](https://owasp.slack.com/archives/C04PP89RJ2K) channel**\n* Check out our OWASP Chapter [page](https://owasp.org/www-chapter-peterborough/)\n\n**Sponsors!**\nSponsors enable events like ours to happen. We want to give a huge shout out to our sponsors - Cybanetix. Check them out to understand how you can secure your business, people and network: https://cybanetix.com\n\nWe look forward to seeing you there!"
+        "description": "**Join the first ever OWASP Peterborough Chapter event!**\n\nTo kick the chapter off, the session focuses on introducing OWASP and similar topics, whilst networking in a great venue!\n\nWe're still confirming some specifics, but can promise outstanding speakers focusing on:\n\n* Introducing OWASP and Web Application Security\n* Offensive Security\n* Pitfalls of development\n* How to get involved in the security field\n\nAn agenda will be shared closer to the MeetUp date.\n\n**Who is it for?**\nEverybody! Come along, bring a friend, share with your colleagues.\n\nA principle of the chapter is to ensure **cyber security is accessible** for everyone. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**When is it?**\n\n* Wednesday 29th March\n* **Arrive** from 7:30pm\n* **Sessions start** at 8PM sharp\n* **Networking** from 9:30pm\n* **Close** by 11pm\n\n**How can you get involved?**\n\n* Respond **'I'm coming!'** to this group\n* Join our **[slack](https://owasp.slack.com/archives/C04PP89RJ2K) channel**\n* Check out our OWASP Chapter [page](https://owasp.org/www-chapter-peterborough/)\n\n**Sponsors!**\nSponsors enable events like ours to happen. We want to give a huge shout out to our sponsors - Cybanetix. Check them out to understand how you can secure your business, people and network: https://cybanetix.com\n\nWe look forward to seeing you there!"
     },
     {
         "group": "Recife",
@@ -240,16 +260,6 @@
         "description": "O OWASP Recife em conjunto com a Tempest Security Intelligence tem muita alegria em divulgar o terceiro OWASP Tempest Tech Sessions!\n\nO evento \u00e9 h\u00edbrido (presencial + remoto). Corram porque as vagas presenciais s\u00e3o limitadas. Contudo, quem n\u00e3o puder participar presencialmente haver\u00e1 a op\u00e7\u00e3o de participar na modalidade remota atrav\u00e9s da plataforma Zoom, as vagas para essa modalidade ser\u00e3o ilimitadas.\n\n**TODAS AS INSCRI\u00c7\u00d5ES DEVEM SE REALIZADAS ATRAV\u00c9S DA PLATAFORMA EVENT3:**\n[https://www.even3.com.br/tempest-tech-sessions-pos-exploracao/](https://www.even3.com.br/tempest-tech-sessions-pos-exploracao/)\n\nVoc\u00ea dever\u00e1 escolher se sua participa\u00e7\u00e3o ser\u00e1 **presencial** ou **remota**.\n\n**Palestra:** Do Cobalt Strike ao Sliver: um panorama sobre as principais ferramentas de p\u00f3s-explora\u00e7\u00e3o usadas por cibercriminosos\n\n**Resumo:** O que os advers\u00e1rios fazem depois de invadir e explorar um sistema? Nessa palestra vamos discutir sobre as principais ferramentas de p\u00f3s explora\u00e7\u00e3o usadas atualmente, abordando tamb\u00e9m as fases de um ataque com base em frameworks como Cyber Kill Chain e Mitre ATT&CK, o funcionamento de um servidor de comando e controle e as principais estrat\u00e9gias de defesa e detec\u00e7\u00e3o.\n\n**Palestrantes:** Wanessa Souza\n**Shortbio:** Wanessa \u00e9 Analista de Seguran\u00e7a Senior na Tempest, atuando no time de Cyber Threat Intelligence h\u00e1 5 anos. Com uma paix\u00e3o a parte pela escrita criativa, Wanessa tamb\u00e9m \u00e9 poetisa, astr\u00f4noma amadora e ama trocar uma id\u00e9ia sobre tecnologia, rob\u00f3tica e viagens no tempo.\n**Formato da palestra:** H\u00edbridro - Presencial (com apenas 30 vagas limitadas) e Online, atrav\u00e9s da plataforma Zoom. O link de acesso \u00e0 palestra constar\u00e1 aqui na plataforma Even3 e tamb\u00e9m ser\u00e1 enviado para o seu e-mail cadastrado no momento da inscri\u00e7\u00e3o.\n\n**Certificado de Participa\u00e7\u00e3o:** A palestra confere certificado de 2 horas.\nEnviaremos para o seu e-mail em at\u00e9 48h \u00fateis ap\u00f3s a palestra. Para que o certificado seja aceito como horas complementares em sua Institui\u00e7\u00e3o de Ensino, \u00e9 importante que preencha o seu nome completo no momento da inscri\u00e7\u00e3o.\n\nEsperamos voc\u00ea na nossa palestra! At\u00e9 l\u00e1!"
     },
     {
-        "group": "Santa Barbara",
-        "repo": "www-chapter-santa-barbara",
-        "name": "Proactive vs. Reactive AppSec",
-        "date": "2023-03-02",
-        "time": "7:30-08:00",
-        "link": "https://www.meetup.com/santa-barbara-owasp-chapter/events/291688284",
-        "timezone": "America/Los_Angeles",
-        "description": "OWASP SB and GitHub have joined forces to bring you the first security meetup of the year in beautiful Santa Barbara. Come join the local AppSec/InfoSec community for a great evening of technical talks and mindful networking. Dinner will be provided.\n\n**Event Agenda**\n05.30pm -- Event kickoff, with dinner and networking.\n06.00pm -- Announcements, by W. Mart\u00edn Villalba (OWASP SB).\n06.15pm -- Intro to GitHub Advanced Security, by Levy Forchheimer (GitHub).\n06.30pm -- Proactive vs. Reactive AppSec, by Ravi Gadhia (GitHub).\n07.30pm -- BYOT / Networking.\n08.30pm -- Event end.\n\n**Proactive vs. Reactive AppSec - Abstract**\nMost security findings are discovered after the code has been committed to your main branch. Meaning they will be part of your security tech debt that often takes months to fix. In this talk, learn how you can shift your security approach from reactive to proactive and prevent security weaknesses from ever making it into your code.\n\n**Ravi Gadhia - Bio**\nRavi Gadhia is a technologist who began his career as a chip designer and found his way to customer-facing roles in the software industry. His primary areas of expertise are in software development, collaboration tools, and cloud native platforms. Ravi is currently Director of a Solutions Engineering at GitHub where he leads a technical sales team in the Western US.\n\n**Levy Forchheimer - Bio**\nLevy Forchheimer is an Enterprise Account Executive at GitHub. He's been in AppSec for nearly a decade and his expertise spans DevOps, SCA and Secret Management.\n\n**BYOT: Bring Your Own Topic**\nThis meeting is a great chance to ask for technical help, career advice, share new ideas, look for feedback, and discuss anything related to AppSec/InfoSec.\n\n**Location**\nKiva Cowork - Funk Zone, 10 E Yanonali St, Santa Barbara, CA. The front door will be kept open for the duration of the event. If you have any trouble getting in, please do not leave, just knock on the front/side doors and/or message us through this platform.\n\nLooking forward to seeing you all!\n\nMart\u00edn\nOWASP SB Leader"
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -258,6 +268,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/291660918",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Sofia",
+        "repo": "www-chapter-sofia",
+        "name": "Dependency Confusion Attack",
+        "date": "2023-03-09",
+        "time": "9:00+02:00",
+        "link": "https://www.meetup.com/owasp-sofia-chapter/events/291979526",
+        "timezone": "Europe/Sofia",
+        "description": "Some programming languages, like Python, come with an easy, official method of installing dependencies for your projects. These installers are usually tied to public code repositories where anyone can freely upload code packages for others to use. You have probably heard of these tools already \u2014 Node has npm and the npm registry, Python\u2019s pip uses PyPI (Python Package Index), and Ruby\u2019s gems can be found on\u2026 well, RubyGems. Have you ever run a command like 'pip3 install some_package'? Did you know that when downloading and using a package from any of these sources, you are essentially trusting its publisher to run code on your machine? Can this blind trust be exploited by malicious actors?"
     },
     {
         "group": "South Florida",
@@ -288,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291863652",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+    },
+    {
+        "group": "Sydney",
+        "repo": "www-chapter-sydney",
+        "name": "OWASP Sydney Annual General Meeting 2023",
+        "date": "2023-03-22",
+        "time": "8:00+11:00",
+        "link": "https://www.meetup.com/owasp-sydney-chapter/events/291978578",
+        "timezone": "Australia/Sydney",
+        "description": "Join us at Secure Code Warrior's office for our Annual General Meeting where we are looking forward to recapping everything the Chapter has achieved over the past year, and passing the microphone over to our new Chapter Leaders!\n\nThe AGM also offers the community the opportunity to share their thoughts on the Sydney Chapter and get a sense of what you\u2019d like to see more of, what could\u2019ve been improved, and any new ideas for 2023.\n\nWe'll meet at Secure Code Warrior's office from 6pm, with the AGM beginning at 6:30pm. After the AGM come grab some free pizza and drinks from 7:30pm onwards.\n\nHope to see you there!\n\nAgenda:\n\n* Chair Welcome & Introduction\n* 2022 Summary Presentation & Financial Statement\n* Introduction to the new Chapter Leaders\n* Member Feedback\n* Action Items\n* Open Floor"
     },
     {
         "group": "Syracuse",
