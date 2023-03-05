@@ -121,6 +121,7 @@ You can chose to work on one or a combination of ideas depending on the difficul
 ##### Getting Started
 
 * [BLT Core](https://github.com/owasp/blt/)
+* [BLT Flutter](https://github.com/OWASP/BLT-Flutter)
 
 #### Expected Results
 
@@ -145,9 +146,6 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 ##### Mentors
 * Donnie on slack (lead mentor)
 * [Aryan Ranjan](mailto:aryan_r@ch.iitr.ac.in) - Flutter and Django Mentor
-* [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor  
-* Rahul Badami - Payments Mentor  
-* [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
 
 ### [OWASP Maryam](https://owasp.org/www-project-maryam/)
 
