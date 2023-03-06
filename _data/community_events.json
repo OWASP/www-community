@@ -40,6 +40,26 @@
         "description": "Hi All!\n\nWe are excited to announce the details for our March event, at Thoughtworks Brisbane on the 30th of March!\n\n**Speaker:** Paul McCarty\n\n**Title:** The DevSecOps Playbook - a step-by-step open source guide to building a DevSecOps program for any sized org\n\n**Talk Description:** What is DevSecOps? How do I \"do\" it?\nThere's a lot of hype around DevSecOps right now, and getting two people to agree on exactly what it means can be challenging. Unfortunately, a lot of vendor narrative says it's CI/CD with some security thrown in for good measure, but DevSecOps is a lot more than that!\n\nMy career was changed by the DevOps movement, and I believe that DevSecOps should be built on top of DevOps. What does that mean? Well, what made DevOps so powerful for me in the late 2000s was that it brought together people from different departments to work together. Developers learned more about how to manage the underlying infrastructure, and ops teams learned how to use code to build and manage automation. This was powerful, and I believe we can do the same with DevSecOps: bring security teams into the processes and workflows that DevOps built. At the same time, those security teams will evolve to understand how operations and development teams work.\n\nThis talk will cover my DevSecOps Playbook, which is a step-by-step open-source guide to implementing DevSecOps for any organisation.\nThis Playbook is broken down into 5 distinct areas of domain expertise:\n\n1\\. Development Environment\n2\\. Source Code Management\n3\\. Continuous Integration / Deployment and other Automation\n4\\. Deployment Environments\n5\\. Organisational Functions\n\nThe DevSecOps Playbooks spreads the controls evenly across these 5 domains and highlights that this is a group responsibility. There is also an addendum for compliance frameworks and how they can map to the tasks and controls listed in the Playbook.\n\nIn this talk, I will outline these 5 areas and talk about the different controls and tasks in each. I will also give examples of how to implement a subset of these controls."
     },
     {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "OWASP Suffolk - Thinking like a Hacker",
+        "date": "2023-03-21",
+        "time": "9:00Z",
+        "link": "https://www.meetup.com/owasp-bristol/events/292044030",
+        "timezone": "Europe/London",
+        "description": "Over the past few years OWASP Suffolk has been bringing you free events to show you cyber security best practices. We discussed creating strong passwords, patching and backing up, OSINT, API Security, SCA and RASP, and many other subjects. In this event we hope to cement that knowledge by showing you the view from the other side of the fence.\nIn this live interactive demonstration we will show you what a web target looks like from the perspective of an attacker. With the use of a vulnerable target that has not followed security best practices we will show you just how easy it is for an attacker to gain access to your computer, it's data and resources. With each step of the attack we will demonstrate techniques and tools while discussing what could of been done to mitigate each step of the attack.\nBy thinking like a Hacker and seeing your \"defences\" from their point of view we hope to show you how important following cyber security best practices really is.\nAttendees of the OWASP Suffolk Fight Club events will be familiar with the format of this event, except that this will be scripted with interactive Q&A. The vulnerable target will be a virtual machine created for the purpose of learning.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of a web attack with Q&A throughout\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\nThis talk will not be recorded."
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "OWASP Suffolk Fight Club - March 2023",
+        "date": "2023-03-14",
+        "time": "9:00Z",
+        "link": "https://www.meetup.com/owasp-bristol/events/292044021",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+    },
+    {
         "group": "Cambridge",
         "repo": "www-chapter-cambridge",
         "name": "Can forensic processes thwart the use of portable programmable devices?",
@@ -48,16 +68,6 @@
         "link": "https://www.meetup.com/owasp-cambridge-meetup/events/291932118",
         "timezone": "Europe/London",
         "description": "Hosted by the Cyber Security & Networking Research Group, Anglia Ruskin University, OWASP (Open Web Application Security Project) Cambridge Chapter, & BCS Cybercrime Forensics SG\n\n**Background**\n\nThe BCS \u2013 Chartered Institute for IT - Cybercrime Forensics Special Interest Group (SG) promotes Cybercrime Forensics and the use of Cybercrime Forensics; of relevance to computing professionals, lawyers, law enforcement officers, academics and those interested in the use of Cybercrime Forensics and the need to address cybercrime for the benefit of those groups and of the wider public.\n\nOWASP (Open Web Application Security Project is a 501(c)(3) not-for-profit worldwide charitable organization focused on improving the security of application software. Their mission is to make application security visible, so that people and organizations can make informed decisions about true application security risks.\n\nThe **Cyber Security and Networking** (**CSN**) Research Group at Anglia Ruskin University has close working strategic relationships with industry, professional bodies, law enforcement, government agencies and academia in the delivery of operationally focused applied information and application security research. We have strong international links with professional organisations such as OWASP, BCS, ISC2, IISP & the UK Cyber Security Forum amongst others. The primary aims of CSNRG are to help the UK and partner nations to tackle cybercrime, be more resilient to cyber attacks and educate its users for a more secure cyberspace and operational business environment. These will be achieved through the investigation of threats posed to information systems and understanding the impact of attacks and creation of cyber-based warning systems which gathering threat intelligence, automate threat detection, alert users and neutralising attacks. For network security we are researching securing the next generation of software defined infrastructures from the application API and control/data plane attacks. Other key work includes Computer forensic analysis, digital evidence crime scenes and evidence visualisation as well as Cyber educational approaches such as developing Capture the Flag (CTF) resources and application security programs.\n\n**Abstract : \u201cHow reliable are current forensic processes in combatting the illegal use of portable programmable devices?**\n\nThe teaching of digital forensics must be restricted, by its very nature, as we can\u2019t teach students everything. There is a new threat to best practice that we have encountered in our research, which could lead to a miscarriage of justice, where an innocent person is falsely accused of a crime. In our research, we have found that hardware devices, such as the Rubber Ducky, Bash Bunny and the O.MG cable can be used to commit or facilitate a crime. These devices leave very little forensics evidence on the target device, other than showing that a file was accessed or that an illegal picture was downloaded and viewed.\n\nThe user of the victim machine could easily be wrongly accused of a crime that they know nothing about, and they will not easily be able to prove their innocence. Forensics investigators might look no further than the access times of the file that was altered or the picture that was downloaded and viewed and would not even look for clues that might point to a hardware attack. This paper highlights the difficulties of proving that a hardware attack even took place and shows the lack of awareness amongst digital forensics investigators to this possibility.\n\n**Provisional Agenda**\n\n17:15 - Webinar waiting lobby opens\n17:30 - Start of Presentation\n18:20 \u2013 Questions & Answers\n18:30 \u2013 Estimated Finish"
-    },
-    {
-        "group": "Delaware",
-        "repo": "www-chapter-delaware",
-        "name": "Hacking Multifactor Authentication",
-        "date": "2023-03-28",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-delaware-chapter/events/292010693",
-        "timezone": "America/New_York",
-        "description": "Organizations often have the misconception that if they implement Multifactor Authentication (MFA) as an extra layer of security on top of passwords, they are unhackable. Unfortunately, this is not the case. During this talk you will learn some of the ways MFA can be bypassed.\n\nBonus: Time permitting - Misc. web hacking demos and CTF challenges will also be given after the featured presentation. The meeting will be held in the library's computer lab to encourage people to get some hands-on web security testing experience."
     },
     {
         "group": "Dorset",
@@ -88,6 +98,16 @@
         "link": "https://www.meetup.com/owasp-dorset-chapter/events/291888992",
         "timezone": "Europe/London",
         "description": "OWASP Dorset is delighted to be hosting our first in-person event since January 2020!\n\nTwo seasoned Penetration Testers will walk us through some real life physical penetration test case studies; discussing the vulnerabilities, exploits and possible mitigations and resolutions.\n\nThis will be an in person event and will not be recorded."
+    },
+    {
+        "group": "Dubai",
+        "repo": "www-chapter-dubai",
+        "name": "OWASP IoT Top 10",
+        "date": "2023-03-20",
+        "time": "9:00+04:00",
+        "link": "https://www.meetup.com/meetup-group-svgchist/events/291802446",
+        "timezone": "Asia/Dubai",
+        "description": "OWASP Dubai Chapter is announcing an upcoming event about \"OWASP IoT Top 10\"\n\nEveryday, technology gets more helpful yet more complex\nEveryday, we relay more and more on technology and software solutions\nEveryday, new cyber threats and attacks are created and activated.\n\nIn this session, we will discuss:\n\\- The new Era of IoT and how it is changing the daily life of people around the globe\n\\- The top 10 security risks associated with IoT and how IoT is expanding the attack surface according to OWASP guide\n\\- How to mitigate IoT associated security risks to design and build more resilient IoT products\n\nEvent Speaker is [Mahmoud Hussein](https://www.linkedin.com/company/90810901/admin/#), OWASP Dubai Chapter Leader.\n\nEvent is online and Free on Monday, 20th March 2023 @ 9:00am - 11:00am Dubai time.\n\nRegistration is now open on the link below\n\nJoin our meetup group to keep up with all updates and events.\n\n**#IoT** **#security** **#design** **#events** **#software** **#cybersecurity** **#technology** **#cyber** **#business** **#business** **#dubai** **#safety** **#event**"
     },
     {
         "group": "Dublin",
@@ -198,16 +218,6 @@
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291645592",
         "timezone": "Pacific/Auckland",
         "description": "The Auckland-area OWASP Meetup takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for March will be **A06:2021 - Vulnerable and Outdated Components.**\n\n**Technical Topic Speaker:** Ruskin Dantra, AWS\n**Talk Title:** Networking Security for Application Developers\n**Synopsis:**\nMicroservices are an integral part of modern application development. As we increasingly adopt distributed services, securing communication between them is crucial.\nIn this talk, you will discover how to strengthen your application network security at multiple layers and achieve continuous compliance visibility. By implementing these practices, you can mitigate potential security risks and ensure the safety and privacy of your users' data.\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project",
-        "date": "2023-03-23",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/291353134",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nMobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
     },
     {
         "group": "Oslo",
@@ -338,16 +348,6 @@
         "link": "https://www.meetup.com/owasptriangle/events/291842782",
         "timezone": "America/New_York",
         "description": "Given the growth and adoption of Kubernetes, a number of projects have been published in the OWASP community to help practitioners assess and secure the security of their containerized infrastructure including the recently released Top Ten for Kubernetes ([https://owasp.org/www-project-kubernetes-top-ten/](https://owasp.org/www-project-kubernetes-top-ten/)). This OSS project is a community-curated list of the most common Kubernetes risks backed by data collected from organizations varying in maturity and complexity. This session will discuss the project in detail, examples for each of the risks in the list, and how you can get involved."
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "Tracing webapp exploitability through code review and taint analysis",
-        "date": "2023-03-16",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248491",
-        "timezone": "America/Vancouver",
-        "description": "**Title**: Scaling security via culture, technology & humans\n**Speaker:** Paul Hawkins. Principal, Office of the CISO, AWS Security\n\nSecurity is everyone\u2019s job, not just those who have security in their job title. We are all working towards the same goal of shipping software securely. You\u2019ll hear some approaches that AWS takes in their distributed environment & how you can apply those to your own organization. There will be a bit of tech, but this talk is going to be more on the distributed ownership & decision making aspect of how to ship software.\n\nThis event is sponsored by **Forward Security** \\- thanks for providing us space and food\\."
     },
     {
         "group": "Vina Del Mar",
