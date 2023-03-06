@@ -140,7 +140,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 
 * Python / Django for Backend
 * Flutter for Mobile app
-* Blockchain / Bitcoin clone for the coin
+* Smart contract development
 * Some knowledge of UI designing for design related ideas.
 
 ##### Mentors
