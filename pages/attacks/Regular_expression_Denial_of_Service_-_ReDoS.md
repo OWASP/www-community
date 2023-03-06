@@ -123,15 +123,6 @@ Input:
 
 `aaaaaaaaaaaaaaaaaaaaaaaa!`
 
-2. [OWASP Validation Regex Repository](https://wiki.owasp.org/index.php/OWASP_Validation_Regex_Repository), Java
-Classname - see bold part, which is an **Evil Regex**
-
-`^`**`(([a-z])+.)+`**`[A-Z]([a-z])+$`
-
-Input:
-
-`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!`
-
 ### Web application attack
 
 - Open a JavaScript
