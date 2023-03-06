@@ -36,6 +36,15 @@
       "type": "SAST"
    },
    {
+      "title": "SAST Online",
+      "url": "https://sast.online/",
+      "owner": "MUNSIRADO Group",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Examine the Android Source code to identify any security issues or vulnerabilities.",
+      "type": "SAST"
+   },
+   {
           "title": "Blacklock",
           "url": "https://blacklock.io/",
           "owner": "Blacklock Security",
@@ -492,6 +501,15 @@
       "license": "Open Source",
       "platforms": "Windows, Unix/Linux, and Macintosh",
       "note": "Fast and customisable vulnerability scanner based on simple YAML based DSL.",
+      "type": "DAST"
+   },
+   {
+      "title": "Portscanner Online",
+      "url": "https://portscanner.online/",
+      "owner": "MUNSIRADO Group",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Online Port scanner.",
       "type": "DAST"
    },
    {
