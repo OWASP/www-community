@@ -101,7 +101,7 @@ OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to 
 
 ##### Explanation of Ideas
 You can chose to work on one or a combination of ideas depending on the difficulty!
-* Crypto - create a proof of stake coin called BUG
+* Smart Contract - create an Ethereum smart contract to issue a token when a bug is found
 * Flutter - 
 	- Add designs for a dark theme in the Figma file, then implement a generic theme manager for future themes.
 	- Start with app internationalization and localization (l10n).
@@ -125,7 +125,7 @@ You can chose to work on one or a combination of ideas depending on the difficul
 
 #### Expected Results
 
-* Proof of stake coin on the testnet and mainnet.
+* Integrated Ethereum smart contract that issues a token when a bug is found and verifed.
 * Release Flutter app on App Store and Play Store.
 * Implementation of private issues reporting.
 * Update of browser plugins to support showing bugs on relative sites in a secure way
@@ -140,7 +140,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 
 * Python / Django for Backend
 * Flutter for Mobile app
-* Blockchain / Bitcoin clone for the coin
+* Smart contract development
 * Some knowledge of UI designing for design related ideas.
 
 ##### Mentors
