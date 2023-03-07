@@ -485,3 +485,40 @@ To receive early feedback please:
 Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
+
+
+### [OWASP OWTF](https://owasp.org/www-project-owtf/)
+
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+##### Explanation of Ideas
+
+- Refactor and complete the web interface ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
+- Update plugins to new recon, discovert and attack tools![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Design & implement deployment architecture ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+##### Getting Started
+
+Repositories:
+
+- [OWTF](https://github.com/owtf/owtf)
+- [OWTF Docker](https://github.com/owtf/owtf-docker)
+- [OWTF Python client](https://github.com/owtf/owtf-python-client)
+
+Please use the repositories' issue tracker, GitHub discussions, and don't forget to read the [contributing guide](https://github.com/owtf/owtf/blob/master/CONTRIBUTING.md). Join the community at #owtf on OWASP [Slack](https://owasp.slack.com/) and share your questions, project ideas.
+
+#### Knowledge Prerequisites
+
+- Terraform for infra as code
+- Python for application
+- React/React ecosystem for application frontend
+- Kubernetes/helm for infrastructure deployment
+- Basic knowledge of application security, tools used in bug bounty style hunting
+
+##### Mentors
+
+- [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
+- [Abraham Aranguran](mailto:Abraham.Aranguren@owasp.org)
