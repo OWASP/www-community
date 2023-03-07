@@ -486,7 +486,6 @@ Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
 
-
 ### [OWASP OWTF](https://owasp.org/www-project-owtf/)
 
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
@@ -496,8 +495,8 @@ Reach out to us on Slack to discuss these and other ideas!
 
 ##### Explanation of Ideas
 
-- Refactor and complete the web interface ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- Update plugins to new recon, discovert and attack tools![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Refactor and complete the web interface ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Update plugins to new recon, discovery and attack tools ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 - Design & implement deployment architecture ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 ##### Getting Started
