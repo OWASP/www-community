@@ -150,6 +150,16 @@
         "description": "**OWASP Dublin is happy to announce our next meetup hosted by Workday.**\n\nThis meetup promises to cover some interesting topics about how to detect, respond and mitigate active cyber attacks in warzones and we will also cover the power of automated malware analysis. Further details can be found below.\n\nThere will be refreshments available on the night.\n\n**Speaker One:** Gavin O'Gorman - Microsoft's Threat Intelligence Center (MSTIC) & The war in Ukraine\n\nGavin is a principal intelligence analyst in the Signals team, a part of Microsoft's Threat Intelligence Center (MSTIC). His current role is to work with intelligence analysts in MSTIC, and engineers on the Signals team, to help build systems and automation that enable analysts to track more malicious actors, faster. Prior to working in Microsoft, Gavin spent 13 years in Symantec, working as a reverse engineer, incident handler, intelligence analyst and manager of the Attack Investigations Team. He has tracked and authored reports on actors operating across the world, including both government and corporate espionage, and e-crime. Gavin also lectures the Advanced Malware course in UCD's MSc in Forensic Computing and Cybercrime.\"\n\n**Topic: MSTIC & The war in Ukraine**\n\nPrior to and during the war in Ukraine, MSTIC tracked multiple Russian actors engaging in offensive cyber operations against Ukraine. MSTIC has attributed these actors back to Russian entities such as the SVR, GRU and FSB.\nIn this talk, we'll review the types of attacks that MSTIC identified being performed against Ukraine. How does one identify the right person to prevent a cyber attack against an organisation physically located in an active warzone? We'll show how Microsoft worked with Ukrainian individuals and organisations to help mitigate attacks, including techniques that Microsoft would apply for the first time.\n\n**Speaker Two:** Oliver Ciappara- Automating Malware Analysis\n\nOliver is a Senior Malware Analysis Developer at Microsoft's Threat Intelligence Center (MSTIC). Oliver's primary focus is to automate and streamline file analysis within Microsoft.\n\nThe tools that Oliver is putting in place enable rapid analysis and triage of malware. This rapid analysis allows threat intelligence teams to track actor activity by extracting relevant indicators and context, as well as help protect Microsoft's customers.\n\nBefore joining Microsoft, Oliver developed software for embedded systems as well as cybersecurity products. Having recently completed a Master's in Law from UCC, specialising in Cybercrime and E-Law, he has a unique combination of technical and legal expertise.\"\n\n**Topic: Automating Malware Analysis**\n\nDiscover the power of Automated Malware Analysis with Assemblyline. Developed by the Canadian Centre for Cyber Security, Assemblyline is a cutting-edge open-source solution for automating malware analysis. With its modular and scalable architecture, Assemblyline efficiently processes and aggregates information from various analysers, while also centralizing analysis tools used by different teams. Automated malware analysis lowers the bar and enables TIs to continue their work as quickly as possible, while also freeing up REs to do the more important work. Join us and get a first-hand look at assemblyline and its capabilities.\n\n**Thank you to our speakers for the evening and also to Workday for hosting us. Without the support of the community we would not be able to run these meetups.**"
     },
     {
+        "group": "Edmonton",
+        "repo": "www-chapter-edmonton",
+        "name": "The Art of Deception - Outsmarting the Attackers",
+        "date": "2023-03-29",
+        "time": "7:00-06:00",
+        "link": "https://www.meetup.com/meetup-group-opbybwve/events/292115758",
+        "timezone": "America/Edmonton",
+        "description": "## About The Event\n\n  \n**RSVP For TACO'S + POP + DOOR PRIZES**\n\nhttps://www.meetup.com/meetup-group-opbybwve/\n\n**Sentinel One** is sending a squadron of their finest experts to share their knowledge on the elusive art of MITRE deception.\n\nAs a pioneering force in this field, they will be providing not only a delectable **TACO DINNER** but also valuable insights on how to outsmart the crafty attackers. Think of it as a masterclass on the tactics and strategies needed to protect your organization from cyber-attacks.\n\nIn the words of the renowned ancient Chinese general **Sun Tzu**, \"All warfare is based on deception.\" And just as Sun Tzu believed in the importance of deception in warfare, Sentinel One understands the significance of deception in the ever-evolving battlefield of cybersecurity. So, join us for this informative session, and let's learn how to effectively deploy deception techniques to turn the tables on attackers."
+    },
+    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Mars 2023",
@@ -297,7 +307,7 @@
         "time": "9:30+01:00",
         "link": "https://www.meetup.com/owasp-peterborough/events/291965524",
         "timezone": "Europe/London",
-        "description": "**Join the first ever OWASP Peterborough Chapter event!**\n\nTo kick the chapter off, the session focuses on introducing OWASP and similar topics, whilst networking in a great venue!\n\nWe're still confirming some specifics, but can promise outstanding speakers focusing on:\n\n* Introducing OWASP and Web Application Security\n* Offensive Security\n* Pitfalls of development\n* How to get involved in the security field\n\nAn agenda will be shared closer to the MeetUp date.\n\n**Who is it for?**\nEverybody! Come along, bring a friend, share with your colleagues.\n\nA principle of the chapter is to ensure **cyber security is accessible** for everyone. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**When is it?**\n\n* Wednesday 29th March\n* **Arrive** from 7:30pm\n* **Sessions start** at 8PM sharp\n* **Networking** from 9:30pm\n* **Close** by 11pm\n\n**How can you get involved?**\n\n* Respond **'I'm coming!'** to this group\n* Join our **[slack](https://join.slack.com/share/enQtNDkyNjM5ODI3ODgzMi02N2ZkNGQ2NzIzZjQ4M2FjOTc1MGQxNmRlOTlkZTJmZjc1MmZmYzMxYzFkMWEwMzQyMzdkMDJjZjk1N2FiNzUy) channel**\n* Check out our OWASP Chapter [page](https://owasp.org/www-chapter-peterborough/)\n\n**Sponsors!**\nSponsors enable events like ours to happen. We want to give a huge shout out to our sponsors - Cybanetix. Check them out to understand how you can secure your business, people and network: https://cybanetix.com\n\nWe look forward to seeing you there!"
+        "description": "**Join the first ever OWASP Peterborough Chapter event!**\n\nTo kick the chapter off, the session focuses on introducing OWASP and similar topics, whilst networking in a great venue!\n\nWe're still confirming some specifics, but can promise outstanding speakers focusing on:\n\n* Introducing OWASP and Web Application Security\n* Web Application Firewalls (WAFs)\n* What's coming up next\n* How to get involved in the security field\n\nAn agenda will be shared closer to the MeetUp date.\n\n**Who is it for?**\nEverybody! Come along, bring a friend, share with your colleagues.\n\nA principle of the chapter is to ensure **cyber security is accessible** for everyone. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**When is it?**\n\n* Wednesday 29th March\n* **Arrive** from 7:30pm\n* **Sessions start** at 8PM sharp\n* **Networking** from 9:30pm\n* **Close** by 11pm\n\n**How can you get involved?**\n\n* Respond **'I'm coming!'** to this group\n* Join our **[slack](https://join.slack.com/share/enQtNDkyNjM5ODI3ODgzMi02N2ZkNGQ2NzIzZjQ4M2FjOTc1MGQxNmRlOTlkZTJmZjc1MmZmYzMxYzFkMWEwMzQyMzdkMDJjZjk1N2FiNzUy) channel**\n* Check out our OWASP Chapter [page](https://owasp.org/www-chapter-peterborough/)\n\n**Sponsors!**\nSponsors enable events like ours to happen. We want to give a huge shout out to our sponsors - Cybanetix. Check them out to understand how you can secure your business, people and network: https://cybanetix.com\n\nWe look forward to seeing you there!"
     },
     {
         "group": "Recife",
@@ -318,16 +328,6 @@
         "link": "https://www.meetup.com/owasp-slc/events/292096700",
         "timezone": "America/Denver",
         "description": "**Agenda:**\n\n1. Lunch\n2. Discussion on book: \"[How to measure anything in Cybersecurity](https://a.co/d/3E75efX)\" by Douglas W. Hubbard & Richard Seiersen\n3. How to measure ROI on popular AppSec controls\n\nPlease RSVP if you're coming! We'd like to make sure you get some lunch (i.e. pizza) for meeting in person.\nAnd let us know if there are any food sensitivities.\n\nSee you all then!\n\nhttps://a.co/d/3E75efX (Amazon book link)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-03-08",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/291660918",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Sofia",
@@ -387,17 +387,7 @@
         "time": "2:00-04:00",
         "link": "https://www.meetup.com/syracuse-owasp-chapter/events/291841528",
         "timezone": "America/New_York",
-        "description": "Event details to follow."
-    },
-    {
-        "group": "Syracuse",
-        "repo": "www-chapter-syracuse",
-        "name": "Chapter Re-organizational Meeting",
-        "date": "2023-03-08",
-        "time": "0:00-05:00",
-        "link": "https://www.meetup.com/syracuse-owasp-chapter/events/291793005",
-        "timezone": "America/New_York",
-        "description": "We are re-organizing the SYR OWASP Chapter and have an open position for a co-leader.\n\nPlease come if you want to learn more about our chapter and set the direction for 2023!"
+        "description": "* **Introductions ( Gavin, Oliver, Will) (2 min each)**\n* **Background on Attacks on Cloud Native Solutions (Will) (3 min)**\n* **What is Threat Hunting? (Gavin) (3 min)**\n* **What is Elastic? (Oliver) (3 min)**\n* **What is Dorothy? (Gavin) ( 2 to 3 min)**\n* **What is Okta? (Gavin) ( 2 to 3 min)**\n* **How can Dorothy be used to generate events that an attacker would use? (Gavin) (5 min)**\n* **Q&A ( Gavin, Oliver, Will)**"
     },
     {
         "group": "Triangle Nc",
