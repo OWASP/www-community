@@ -7,7 +7,7 @@
         "time": "9:00+02:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/288772567",
         "timezone": "Europe/Copenhagen",
-        "description": "More information to come!"
+        "description": "Notice, that this is a virtual event running on Zoom. Please reach out if the event gets full and I will add room for more people.\n\n**19:00 - 19:10 \u2013 \"Welcome\" by OWASP Chapter Aarhus**\n\n**19:10 - 19:55 \u2013 \u201cA Fully Trained Jedi, You Are Not\u201d by Adam Shostack, President, Shostack + Associates**\n\nAbout the presentation:\nAs software organizations try to bring security earlier in the development processes, what can or should regular software or operations engineers know about security? Taking as given that we want them to build secure systems, that demands a shared understanding of the security issues that might come up, and agreement on what that body of knowledge might entail. Without this knowledge, they'll keep building insecure systems. With them, we can have fewer recurring problems that are trivially attackable.\n\nAbout the presenter:\nAdam is a leading expert on threat modeling, and a consultant, author and game designer. He has decades of experience delivering security. His experience ranges across the business world from founding startups to nearly a decade at Microsoft. He helped to create the CVE, serves on the Blackhat Review Board, and is an affiliate professor at the University of Washington.\n\n**19:55 \u2013 20:05 \u2013 Short break**\n\n**20:05 \u2013 20:55 \u2013 \"Let's Write Security Unit Tests\" by Eric Johnson, Principal Security Engineer at Puma Security and SANS Senior Instructor**\n\nAbout the presentation:\nDevOps teams are test obsessed, often leveraging unit testing frameworks and continuous integration (CI) tools to automate test requirements. In this talk, we will explore how security unit testing fits into DevOps, a few unit testing frameworks, and several examples that can help security teams harden their applications. Live demonstrations will show how to write security unit tests, execute the tests in a GitHub Actions workflow, and evaluate the test results.\n\nAbout the presenter:\nEric Johnson is co-founder and Principal Security Engineer at Puma Security focusing on cloud security, static code analysis, and DevSecOps automation. His experience includes performing cloud security reviews, infrastructure as code automation, application security automation, web and mobile application penetration testing, secure development lifecycle consulting, and secure code review assessments. Eric is a Senior Instructor with the SANS Institute where he authors information security courses on cloud security, DevSecOps automation, and secure coding. He delivers security training globally for SANS, as well as presents security research at conferences including RSA, BlackHat, OWASP, BSides, DevOpsDays, fwd:cloudsec, and ISSA.\n\n**20:55 \u2013 21:00 - \"Closing notes and Goodbyes\" by OWASP Chapter Aarhus**"
     },
     {
         "group": "Austin",
@@ -38,6 +38,16 @@
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/291605626",
         "timezone": "Australia/Brisbane",
         "description": "Hi All!\n\nWe are excited to announce the details for our March event, at Thoughtworks Brisbane on the 30th of March!\n\n**Speaker:** Paul McCarty\n\n**Title:** The DevSecOps Playbook - a step-by-step open source guide to building a DevSecOps program for any sized org\n\n**Talk Description:** What is DevSecOps? How do I \"do\" it?\nThere's a lot of hype around DevSecOps right now, and getting two people to agree on exactly what it means can be challenging. Unfortunately, a lot of vendor narrative says it's CI/CD with some security thrown in for good measure, but DevSecOps is a lot more than that!\n\nMy career was changed by the DevOps movement, and I believe that DevSecOps should be built on top of DevOps. What does that mean? Well, what made DevOps so powerful for me in the late 2000s was that it brought together people from different departments to work together. Developers learned more about how to manage the underlying infrastructure, and ops teams learned how to use code to build and manage automation. This was powerful, and I believe we can do the same with DevSecOps: bring security teams into the processes and workflows that DevOps built. At the same time, those security teams will evolve to understand how operations and development teams work.\n\nThis talk will cover my DevSecOps Playbook, which is a step-by-step open-source guide to implementing DevSecOps for any organisation.\nThis Playbook is broken down into 5 distinct areas of domain expertise:\n\n1\\. Development Environment\n2\\. Source Code Management\n3\\. Continuous Integration / Deployment and other Automation\n4\\. Deployment Environments\n5\\. Organisational Functions\n\nThe DevSecOps Playbooks spreads the controls evenly across these 5 domains and highlights that this is a group responsibility. There is also an addendum for compliance frameworks and how they can map to the tasks and controls listed in the Playbook.\n\nIn this talk, I will outline these 5 areas and talk about the different controls and tasks in each. I will also give examples of how to implement a subset of these controls."
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "OWASP Suffolk Fight Club - April 2023",
+        "date": "2023-04-11",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-bristol/events/292044025",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Bristol Uk",
@@ -98,6 +108,16 @@
         "link": "https://www.meetup.com/owasp-dhaka-chapter/events/292091176",
         "timezone": "Asia/Dhaka",
         "description": "**OWASP Secure Coding Practices**\n\n* We will discuss the OWASP Secure Coding Practices\n\nGoogle Meet Details:\nTopic: OWASP Secure Coding Practices\nTime: Thursday, March 16 \u00b7 9:00 pm \u2013 10:30 pm Bangladesh Standard Time\n**Join Google Meet from the following link:**\nhttps://meet.google.com/sqb-dmdu-gcd"
+    },
+    {
+        "group": "Dorset",
+        "repo": "www-chapter-dorset",
+        "name": "OWASP Suffolk Fight Club - April 2022",
+        "date": "2023-04-11",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-dorset-chapter/events/291889114",
+        "timezone": "Europe/London",
+        "description": "Hosted by OWASP Suffolk\n\nFight Club has no agenda, no slides, no recording, and is 100% unscripted.\nThis month a live attempt of a HTB machine or challenge."
     },
     {
         "group": "Dorset",
@@ -388,6 +408,16 @@
         "link": "https://www.meetup.com/south-florida-owasp-chapter/events/291822447",
         "timezone": "America/New_York",
         "description": "We will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our March 2023 Meeting. Once again we are starting the year with the Owasp Top 10!\n\nBYOB - Bring Your Own Beverage\n\nAgenda\n===\n\n+Chapter updates/announcements, etc.\n\n* The Owasp Top 10 2021 Demystified\n\nThis is a fast paced and and hands-on security training session to go over the 2021 Owasp Top 10. This will cover the following:\n\n* Understand the latest OWASP Top 10 and the differences between the 2021 and the 2017 Top 10\n* Find and fix security issues\n* Understand how to defend against these risks\n* Think defensively while developing applications\n* Demos of attacks and defense techniques will be provided.\n\nMake sure you don\u2019t miss this session!\n\nBio: Rohini Sulatycki is a passionate and innovative security leader with a proven track record in setting up application and network security programs. Is considered a thought leader in the field and has presented on topics related to application security, cloud security and automation at conferences including Blackhat, AppSec EU and BSides. Strong leadership skills are combined with an extensive background in application design and development, cloud security, IaC security, container security, Blockchain security, DAPP development, penetration testing (application, network, mobile, client-server), security assessments of systems, mobile devices, networks, virtualization platforms, middleware platforms, databases, and applications. Expertise in security code reviews and secure development training. Serves as the current chapter lead for OWASP South Florida and founder of a South Florida based Blockchain/DAPP meetup."
+    },
+    {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "OWASP Suffolk Fight Club - April 2023",
+        "date": "2023-04-11",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291864839",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Suffolk",
