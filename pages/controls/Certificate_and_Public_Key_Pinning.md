@@ -190,6 +190,18 @@ validating its certificate or public key. While pinning does not have to
 occur in an `OnConnect` callback, it's often most convenient because the
 underlying connection information is readily available.
 
+### When Do You Not Pin?
+
+Pinning requires control of upcoming certificate attributes. If the
+certificate key pair cannot be predicted in advance before it is put
+into service, then pinning will lead to an outage when the endpoint
+presents a new certificate. For instance, if a certificate provider
+generates random key pairs whenever a certificate is rotated, and you
+cannot control when this certificate is put into use, then you will
+not be able to update your clients until they have already experienced
+an outage. You should not pin using attributes of a certificate
+presented by an endpoint outside of your control.
+
 ## What Should Be Pinned?
 
 The first thing to decide is what should be pinned. For this choice, you
@@ -270,10 +282,8 @@ fails, then fail the method or function.
 
 There is a downside to pinning a certificate. If the site rotates its
 certificate on a regular basis, then your application would need to be
-updated regularly. For example, Google rotates its certificates, so you
-will need to update your application about once a month (if it depended
-on Google services). Even though Google rotates its certificates, the
-underlying public keys (within the certificate) remain static.
+updated regularly. If you do not control when this certificate is put
+into service, then pinning will lead to an outage.
 
 ### Public Key
 
@@ -285,10 +295,13 @@ the program checks the extracted public key with its embedded copy of the public
 key.
 
 There are two downsides to public key pinning. First, it's harder to
-work with keys (versus certificates) since you usually must extract the
-key from the certificate. Extraction is a minor inconvenience in Java
-and .NET, buts it's uncomfortable in Cocoa/CocoaTouch and OpenSSL.
-Second, the key is static and may violate key rotation policies.
+work with keys (versus certificates) since you usually must extract
+the key from the certificate. Extraction is a minor inconvenience in
+Java and .NET, buts it's uncomfortable in Cocoa/CocoaTouch and
+OpenSSL.  Second, the key is static and may violate key rotation
+policies. For this reason, a certificate management service may
+generate new keys every time. If that is the case, then it may be
+difficult to pin using the public key.
 
 ### Hashing
 
@@ -311,6 +324,10 @@ identity in case the primary identity is compromised. Hashing ensures
 your adversaries do not see the reserved certificate or public key in
 advance of its use. In fact, Google's IETF draft *websec-key-pinning*
 uses the technique.
+
+The downside to hashing is similar to that of pinning the
+certificate. You must be able to update client applications before the
+certificate is used by the service endpoint.
 
 ## Examples of Pinning
 
@@ -367,7 +384,7 @@ severe vulnerabilities.
 
 ### .NET
 
-.NET pinning can be achieved by using `ServicePointManager` for `HttpWebRequest`, or 
+.NET pinning can be achieved by using `ServicePointManager` for `HttpWebRequest`, or
 `HttpClientHandler` when using `HttpClient`, as shown below.
 
 #### HttpWebRequest
@@ -402,9 +419,9 @@ private static bool PinPublicKey(
 		return false;
 
 	var request = sender as HttpWebRequest;
-	if (request == null) 
+	if (request == null)
 		return false;
-		
+
 	// if the request is for the target domain, perform certificate pinning
 	if (string.Equals(request.Address.Authority, DomainName, StringComparison.OrdinalIgnoreCase))
 	{
@@ -418,7 +435,7 @@ private static bool PinPublicKey(
 ```
 
 Note that using `ServicePointManager.ServerCertificateValidationCallback` affects
-server certificate validation for **all** requests requiring validation from 
+server certificate validation for **all** requests requiring validation from
 the AppDomain. It is therefore advisable to check that the `sender` represents a request
 to the authority to which to apply certificate pinning, as the example above demonstrates.
 
@@ -438,7 +455,7 @@ private const string DomainPublicKey = "30818902818100C4A06B7B52F8D17DC1CCB47362
 public static void Main(string[] args)
 {
 	var wr = (HttpWebRequest)WebRequest.Create(string.Format("https://{0}/", DomainName));
-	
+
 	// set server validation callback for this request only
 	wr.ServerCertificateValidationCallback = PinPublicKey;
 	wr.GetResponse();
@@ -454,9 +471,9 @@ private static bool PinPublicKey(
 		return false;
 
 	var request = sender as HttpWebRequest;
-	if (request == null) 
+	if (request == null)
 		return false;
-		
+
 	// if the request is for the target domain, perform certificate pinning
 	if (string.Equals(request.Address.Authority, DomainName, StringComparison.OrdinalIgnoreCase))
 	{
