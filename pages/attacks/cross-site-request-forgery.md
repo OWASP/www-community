@@ -315,8 +315,8 @@ with the following header:
 - [CSRF Vulnerability: A 'Sleeping Giant'](https://www.darkreading.com/risk/csrf-vulnerability-a-sleeping-giant/d/d-id/1128371)
   - Overview Paper
 
-- [Client Side Protection against Session Riding](http://www.owasp.org/index.php/Image:RequestRodeo-MartinJohns.pdf)
-  - Martin Johns and Justus Winter's interesting paper and presentation for the 4th OWASP AppSec Conference which described potential techniques that browsers could adopt to automatically provide CSRF protection - [PDF paper](http://www.owasp.org/index.php/Image:RequestRodeo-MartinJohns.pdf)
+- [Client Side Protection against Session Riding](https://wiki.owasp.org/index.php/File:RequestRodeo-MartinJohns.pdf)
+  - Martin Johns and Justus Winter's interesting paper and presentation for the 4th OWASP AppSec Conference which described potential techniques that browsers could adopt to automatically provide CSRF protection - [PDF paper](https://wiki.owasp.org/index.php/File:RequestRodeo-MartinJohns.pdf)
 
 - [OWASP CSRF Guard](/www-project-csrfguard/)
   - J2EE, .NET, and PHP Filters which append a unique request token to each form and link in the HTML response in order to provide universal coverage against CSRF throughout your entire application.
