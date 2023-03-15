@@ -42,12 +42,12 @@
     {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
-        "name": "OWASP Brisbane - March",
+        "name": "**Speaker change** OWASP Brisbane - March",
         "date": "2023-03-30",
         "time": "8:00+10:00",
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/291605626",
         "timezone": "Australia/Brisbane",
-        "description": "Hi All!\n\nWe are excited to announce the details for our March event, at Thoughtworks Brisbane on the 30th of March!\n\n**Speaker:** Paul McCarty\n\n**Title:** The DevSecOps Playbook - a step-by-step open source guide to building a DevSecOps program for any sized org\n\n**Talk Description:** What is DevSecOps? How do I \"do\" it?\nThere's a lot of hype around DevSecOps right now, and getting two people to agree on exactly what it means can be challenging. Unfortunately, a lot of vendor narrative says it's CI/CD with some security thrown in for good measure, but DevSecOps is a lot more than that!\n\nMy career was changed by the DevOps movement, and I believe that DevSecOps should be built on top of DevOps. What does that mean? Well, what made DevOps so powerful for me in the late 2000s was that it brought together people from different departments to work together. Developers learned more about how to manage the underlying infrastructure, and ops teams learned how to use code to build and manage automation. This was powerful, and I believe we can do the same with DevSecOps: bring security teams into the processes and workflows that DevOps built. At the same time, those security teams will evolve to understand how operations and development teams work.\n\nThis talk will cover my DevSecOps Playbook, which is a step-by-step open-source guide to implementing DevSecOps for any organisation.\nThis Playbook is broken down into 5 distinct areas of domain expertise:\n\n1\\. Development Environment\n2\\. Source Code Management\n3\\. Continuous Integration / Deployment and other Automation\n4\\. Deployment Environments\n5\\. Organisational Functions\n\nThe DevSecOps Playbooks spreads the controls evenly across these 5 domains and highlights that this is a group responsibility. There is also an addendum for compliance frameworks and how they can map to the tasks and controls listed in the Playbook.\n\nIn this talk, I will outline these 5 areas and talk about the different controls and tasks in each. I will also give examples of how to implement a subset of these controls."
+        "description": "Hi All!\n\nWe have a speaker change for this event. The new date for Paul McCarty will be announced soon.\n\nHere is all you need to know about our new speaker for our March event, at Thoughtworks Brisbane on the 30th of March!\n\n**Speaker:** Louis Nyffenegger\n\n**Title:** Introduction to SAML and its Security\n\n**Talk Description:** SAML is one of the key protocols used to perform Single Sign-On. Especially for enterprises who...\n\nACKCHYUALLY!!! SAML is a Markup Language, like HTML... You don't code in HTML, you don't SSO with SAML.\n\nOk, thanks for the clarification. In this talk we are going to look at how SAML is used to provide Single Sign-on and what security issues can arise.\n\n**Thank you to our sponsor:**\n[Thoughtworks](https://www.thoughtworks.com)"
     },
     {
         "group": "Bristol Uk",
@@ -70,16 +70,6 @@
         "description": "Over the past few years OWASP Suffolk has been bringing you free events to show you cyber security best practices. We discussed creating strong passwords, patching and backing up, OSINT, API Security, SCA and RASP, and many other subjects. In this event we hope to cement that knowledge by showing you the view from the other side of the fence.\nIn this live interactive demonstration we will show you what a web target looks like from the perspective of an attacker. With the use of a vulnerable target that has not followed security best practices we will show you just how easy it is for an attacker to gain access to your computer, it's data and resources. With each step of the attack we will demonstrate techniques and tools while discussing what could of been done to mitigate each step of the attack.\nBy thinking like a Hacker and seeing your \"defences\" from their point of view we hope to show you how important following cyber security best practices really is.\nAttendees of the OWASP Suffolk Fight Club events will be familiar with the format of this event, except that this will be scripted with interactive Q&A. The vulnerable target will be a virtual machine created for the purpose of learning.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of a web attack with Q&A throughout\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\nThis talk will not be recorded."
     },
     {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP Suffolk Fight Club - March 2023",
-        "date": "2023-03-14",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-bristol/events/292044021",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
         "group": "Cambridge",
         "repo": "www-chapter-cambridge",
         "name": "Can forensic processes thwart the use of portable programmable devices?",
@@ -98,6 +88,16 @@
         "link": "https://www.meetup.com/owasp-cluj-napoca-chapter/events/292085415",
         "timezone": "Europe/Bucharest",
         "description": "We are happy to announce our next OWASP Cluj meetup.\n\n**Agenda:**\n\n**Stranger Danger: Your Node.js Attack Surface Just Got Bigger**\nRadu Farcas\nSenior Director, Engineering Snyk\n\n**Securing Your Pipeline: Nuclei-Powered Regression Testing for CI/CD**\nIstv\u00e1n Albert-T\u00f3th\nDevSecOps Director VerSprite\n\nWe are looking to gather your feedback on interests of topics and contributing in the bellow form:\nhttps://forms.gle/UL2DVvfdLwgyW9we7\nDon't forget to complete it before the event"
+    },
+    {
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP CoS March 2023",
+        "date": "2023-03-30",
+        "time": "8:00-06:00",
+        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/292240244",
+        "timezone": "America/Denver",
+        "description": "Speaker: Ben Struebing\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
         "group": "Delaware",
@@ -150,16 +150,6 @@
         "description": "OWASP Dorset is delighted to be hosting our first in-person event since January 2020!\n\nTwo seasoned Penetration Testers will walk us through some real life physical penetration test case studies; discussing the vulnerabilities, exploits and possible mitigations and resolutions.\n\nThis will be an in person event and will not be recorded."
     },
     {
-        "group": "Dorset",
-        "repo": "www-chapter-dorset",
-        "name": "OWASP Suffolk Fight Club - March 2022",
-        "date": "2023-03-14",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-dorset-chapter/events/291889105",
-        "timezone": "Europe/London",
-        "description": "Hosted by OWASP Suffolk\n\nFight Club has no agenda, no slides, no recording, and is 100% unscripted.\nThis month a live attempt of a HTB machine or challenge."
-    },
-    {
         "group": "Dubai",
         "repo": "www-chapter-dubai",
         "name": "OWASP IoT Top 10",
@@ -177,7 +167,7 @@
         "time": "7:00-06:00",
         "link": "https://www.meetup.com/meetup-group-opbybwve/events/292115758",
         "timezone": "America/Edmonton",
-        "description": "## About The Event\n\n  \n**RSVP For CATERING COMPANY + DOOR PRIZES**\n\nhttps://www.meetup.com/meetup-group-opbybwve/\n\n**SentinelOne** is sending a squadron of their finest experts to share their knowledge on the elusive art of **MITRE** deception.\n\nAs a pioneering force in this field, they will be providing not only a delectable **BBQ** **DINNER** catered by **Edmonton's** local **[CORNERSTONE BBQ](https://www.cornerstonebbq.com/)**, but also valuable insights on how to outsmart the crafty attackers. Think of it as a masterclass on the tactics and strategies needed to protect your organization from cyber-attacks.\n\nIn the words of the renowned ancient Chinese general **Sun Tzu**, \"All warfare is based on deception.\" And just as Sun Tzu believed in the importance of deception in warfare, Sentinel One understands the significance of deception in the ever-evolving battlefield of cybersecurity. So, join us for this informative session, and let's learn how to effectively deploy deception techniques to turn the tables on attackers."
+        "description": "**UPDATE** - *The March event has been moved to NorQuest college to accommodate catering services and a larger than expected audience.*\n\n**Location**\n*10215 108 St NW, Edmonton, AB T5J 1L6*\n*Room 2-013 - SCFL - Downtown*\n*Directions and parking information are located in the photos section at the bottom of this page.*\n\n## About The Event###\n\n  \n**RSVP for CATERING COMPANY + DOOR PRIZES**\n\nhttps://www.meetup.com/meetup-group-opbybwve/\n\n**[SentinelOne](https://www.sentinelone.com/)** is sending a squadron of their finest experts to share their knowledge on the elusive art of **MITRE** deception.\n\nAs a pioneering force in this field, they will be providing not only a delectable **BBQ** **DINNER** catered by **Edmonton's** local **[CORNERSTONE BBQ](https://www.cornerstonebbq.com/)**, but also valuable insights on how to outsmart the crafty attackers. Think of it as a masterclass on the tactics and strategies needed to protect your organization from cyber-attacks.\n\nIn the words of the renowned ancient Chinese general **Sun Tzu**, \"All warfare is based on deception.\" And just as Sun Tzu believed in the importance of deception in warfare, Sentinel One understands the significance of deception in the ever-evolving battlefield of cybersecurity. So, join us for this informative session, and let's learn how to effectively deploy deception techniques to turn the tables on attackers."
     },
     {
         "group": "France",
@@ -300,16 +290,6 @@
         "description": "Session Details:\nIntroduction to OWASP Mumbai\n\nHow to build an efficient security automation strategy and teams for your organization? **With Prashasth Baliga**\n\nQnA and FeedBack\n\n**Synopsis:**\nThe focus of a security automation strategy is on implementing automated tools and processes to enhance the effectiveness and efficiency of an organization's security operations. The strategy covers several key steps, including identifying security risks and vulnerabilities, evaluating current security operations, setting clear automation goals, selecting the appropriate tools, implementing and testing them, continuously monitoring and improving, training the team, and ensuring compliance with regulations. With security automation, organizations have seen benefits such as improved efficiency and scalability, faster threat detection and response, cost savings, and better decision-making."
     },
     {
-        "group": "Natal",
-        "repo": "www-chapter-natal",
-        "name": "Meetup 2023 Presencial #02",
-        "date": "2023-03-14",
-        "time": "9:30-03:00",
-        "link": "https://www.meetup.com/owasp-natal-chapter/events/292055138",
-        "timezone": "America/Fortaleza",
-        "description": "OWASP \u00e9 uma organiza\u00e7\u00e3o sem fins lucrativos que se dedica a melhorar a seguran\u00e7a da informa\u00e7\u00e3o global. Ela busca conscientizar as empresas e as universidades sobre as amea\u00e7as de seguran\u00e7a cibern\u00e9tica e fornecer ferramentas e recursos para defender contra essas amea\u00e7as.\n\nCom este evento, as empresas e as universidades participantes ter\u00e3o a oportunidade de serem atualizadas sobre os mais recentes desenvolvimentos e t\u00e9cnicas na \u00e1rea de seguran\u00e7a da informa\u00e7\u00e3o. Al\u00e9m disso, as palestras ser\u00e3o ministradas por profissionais experientes e altamente qualificados, o que lhes dar\u00e1 acesso a conhecimento e a uma rede de contatos de especialistas.\n\nNeste nosso segundo encontro, as atividades ser\u00e3o:\n\n\\- Apresenta\u00e7\u00e3o sobre OWASP\n\\- Como o cap\u00edtulo OWASP Natal funciona?\n\n* **Pentesting 101**\nVoc\u00ea j\u00e1 imaginou ser pago para hackear empresas e descobrir suas vulnerabilidades? Descubra como se tornar um Pentester de sucesso e\ndesvendar os segredos do mundo da ciberseguran\u00e7a! N\u00e3o perca a chance de aprender na pr\u00e1tica com este resumo empolgante.\n\nPalestrante:\n**Kali Nathalie -** Analista de seguran\u00e7a da informa\u00e7\u00e3o na Conviso\n\nFacilitadores:\n**Matheus Cezar** \\- Analista de seguran\u00e7a da informa\u00e7\u00e3o na Conviso\n**Fernando Guisso** \\- AppSec Engineer na TV Globo\n\n**Evento Gratutito**\nInscri\u00e7\u00f5es limitadas.\nLocal: IMD Sala B206"
-    },
-    {
         "group": "Netherlands",
         "repo": "www-chapter-netherlands",
         "name": "March 2023 OWASP Chapter Netherlands Meetup",
@@ -318,16 +298,6 @@
         "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/291470656",
         "timezone": "Europe/Amsterdam",
         "description": "**Delegates may be asked to provide a valid proof of photo ID (such as a driving licence or passport) to enter the venue.**\n\nThis meetup's sponsor, Adyen - a financial services institution - works within a highly regulated environment, so we kindly ask for your understanding if you are asked to provide ID during your visit.\n\n**Location:** Adyen\n**Address:** Rokin 49, Amsterdam\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **Crash course on the OWASP API Security Top 10** by **Colin Domoney**\n20:00 - 20:15- **Break with drinks**\n20:15 - 21:00 - **Managing APIs securely** by **Rob Blaauboer**\n\n**Crash course on the OWASP API Security Top 10**\n*Abstract:*\nWith the recent breaches to Optus, Twitter, and T-Mobile, 2023 is destined to become the year API security becomes the number one concern for organizations, both at the board level and within security and development teams. API security poses unique challenges to builders and defenders, and many of your existing detection and protection measures may prove to be ineffective.\n\nJoin Colin as he draws on his experience from curating the industry's biggest API security resource (APISecurity.io) in exploring the following:\nCrash course on the OWASP API Security Top 10 (and how it differs from the OWASP Top 10)\nA whistle-stop tour of some of the biggest API breaches over the past 18 months, taking a look at what went wrong, the impact, and most importantly, how to prevent such attacks.\nFinally, he will present the top techniques for protecting your APIs from attack, starting with secure development practices through to API protection and threat detection.\n\nThe content will be technical, with demos and code samples, and based on real-world breaches. By the end of the session, you will have an understanding of the API Security Top 10, and have a working knowledge of how to protect your APIs, either at a code level or using runtime protections.\n*Bio:*\nColin has a long and varied career in producing secure, rugged, and trustable software and hardware products covering a range of industries from military, consumer, medical, automotive to financial services. In the last decade, he has become a sought-after evangelist and consultant in building AppSec programs, and the latest developments in DevSecOps. His greatest passion is for teaching and inspiring others to produce software we can trust, either delivering webinars, in-person events or speaking to the C-level.\n\nCurrently, he is the Chief Technology Evangelist with 42Crunch, the curator of the APISecurity.io newsletter, and is writing the industry\u2019s first book on defending APIs.\n\n**Managing APIs securely**\n*Abstract:*\nWhen an organization offers an API, the API needs to become a Managed API. This means that lifecycle management, security, and throttling resources become an important aspect of API Management, as well as the ability of developers to find, explore and subscribe to the API to use them.\n\nDuring the presentation, Rob will zoom into these aspects and how an API Manager can help you with security and throttling (including schema validation and advanced scenarios) while at the same time making the API easily available to your target developers (inside or outside the organization).\n\nIn the second part, he will elaborate on the \u201cshiny frontend / dirty backend\u201d. This is an API frontend that accesses legacy systems, databases, but also the integration of a set of APIs etc., thus enabling services that use older technology or proprietary interfaces to have a modern appearance to the outside world, e.g. exposing a legacy insurance policy administration system as an API.\n\nThirdly, we will look at the way you can implement the Mastodon API. Since Elon Musk acquired Twitter l ast year, alternative platforms like Mastodon have become more popular. It might be that this becomes a viable channel to communicate with clients for some organizations.\n*Bio:*\nRob has 30 years of experience in IT in such roles as developer, analyst, project manager, business consultant, and management consultant. He is currently Head of Training Services and Integration Consultant at Yenlo, responsible for the development and the actual training of Yenlo\u2019s clients and consultants.\n\nNext to these responsibilities, Rob is also an avid blogger with almost 200 blogs on innovation on Frankwatching, more than 150 blogs on WSO2 on Yenlo\u2019s website and many other blogs on various other sites. Rob is also a regular contributor to BNR Zaken Doen radio show on the area of technology and innovation.\n\n**Delegates may be asked to provide a valid proof of photo ID (such as a driving licence or passport) to enter the venue.**"
-    },
-    {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP New Zealand - Auckland-area Meetup",
-        "date": "2023-03-14",
-        "time": "8:00+13:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291645592",
-        "timezone": "Pacific/Auckland",
-        "description": "The Auckland-area OWASP Meetup takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for March will be **A06:2021 - Vulnerable and Outdated Components.**\n\n**Technical Topic Speaker:** Ruskin Dantra and Ryan Tan, AWS\n**Talk Title:** Networking Security for Application Developers\n**Synopsis:**\nMicroservices are an integral part of modern application development. As we increasingly adopt distributed services, securing communication between them is crucial.\nIn this talk, you will discover how to strengthen your application network security at multiple layers and achieve continuous compliance visibility. By implementing these practices, you can mitigate potential security risks and ensure the safety and privacy of your users' data.\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
     },
     {
         "group": "Northern Virginia",
@@ -382,7 +352,7 @@
     {
         "group": "Recife",
         "repo": "www-chapter-recife",
-        "name": "OWASP Tempest Tech Sessions",
+        "name": "OWASP  Tech Sessions",
         "date": "2023-03-16",
         "time": "9:30-03:00",
         "link": "https://www.meetup.com/owasp-recife-meetup-group/events/291617162",
@@ -428,16 +398,6 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291864159",
         "timezone": "Europe/London",
         "description": "Over the past few years OWASP Suffolk has been bringing you free events to show you cyber security best practices. We discussed creating strong passwords, patching and backing up, OSINT, API Security, SCA and RASP, and many other subjects. In this event we hope to cement that knowledge by showing you the view from the other side of the fence.\n\nIn this live interactive demonstration we will show you what a web target looks like from the perspective of an attacker. With the use of a vulnerable target that has not followed security best practices we will show you just how easy it is for an attacker to gain access to your computer, it's data and resources. With each step of the attack we will demonstrate techniques and tools while discussing what could of been done to mitigate each step of the attack.\n\nBy thinking like a Hacker and seeing your \"defences\" from their point of view we hope to show you how important following cyber security best practices really is.\n\nAttendees of the OWASP Suffolk Fight Club events will be familiar with the format of this event, except that this will be scripted with interactive Q&A. The vulnerable target will be a virtual machine created for the purpose of learning.\n\nAgenda:\n\n* OWASP updates\n* Live interactive demonstration of a web attack with Q&A throughout\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
-    },
-    {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "OWASP Suffolk Fight Club - March 2023",
-        "date": "2023-03-14",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291863652",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Sydney",
