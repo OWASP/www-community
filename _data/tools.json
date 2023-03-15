@@ -1050,7 +1050,7 @@
       "license": "Commercial",
       "platforms": null,
       "note": "Semgrep Supply Chain’s reachability analysis lets you quickly find and remediate the 2% of dependency vulnerabilities that are actually reachable.",
-      "type": "SCA"
+      "type": "SAST"
    },
    {
       "title": "ShiftLeft Scan",
