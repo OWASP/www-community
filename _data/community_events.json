@@ -80,6 +80,16 @@
         "description": "Over the past few years OWASP Suffolk has been bringing you free events to show you cyber security best practices. We discussed creating strong passwords, patching and backing up, OSINT, API Security, SCA and RASP, and many other subjects. In this event we hope to cement that knowledge by showing you the view from the other side of the fence.\nIn this live interactive demonstration we will show you what a web target looks like from the perspective of an attacker. With the use of a vulnerable target that has not followed security best practices we will show you just how easy it is for an attacker to gain access to your computer, it's data and resources. With each step of the attack we will demonstrate techniques and tools while discussing what could of been done to mitigate each step of the attack.\nBy thinking like a Hacker and seeing your \"defences\" from their point of view we hope to show you how important following cyber security best practices really is.\nAttendees of the OWASP Suffolk Fight Club events will be familiar with the format of this event, except that this will be scripted with interactive Q&A. The vulnerable target will be a virtual machine created for the purpose of learning.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of a web attack with Q&A throughout\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\nThis talk will not be recorded."
     },
     {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "OWASP Top 10 V2021 Awareness - A6 - A10",
+        "date": "2023-03-25",
+        "time": "2:00+02:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/292302183",
+        "timezone": "Africa/Cairo",
+        "description": "OWASP Top 10 Awareness Program\n\nThe OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.\n\nThe second day of the awareness program includes three sessions covering the risks from 6 to 10 of OWASP top 10 risks and Mitigations,\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 18 Feb 2023\n\nAgenda:\n\n1- A06:2021-Vulnerable and Outdated Components\n2- A07:2021-Identification and Authentication Failures\n3- A08:2021-Software and Data Integrity Failures\n4- A09:2021-Security Logging and Monitoring Failures\n5- A10:2021-Server-Side Request Forgery"
+    },
+    {
         "group": "Cambridge",
         "repo": "www-chapter-cambridge",
         "name": "Can forensic processes thwart the use of portable programmable devices?",
@@ -187,7 +197,7 @@
         "time": "3:30+05:30",
         "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/292132847",
         "timezone": "Asia/Kolkata",
-        "description": "Have you ever wanted to learn cybersecurity, but are intimidated by the technical jargon? **How about learning it through a gamified experience?**\n\n**OWASP IIITD**, in collaboration with **Technobyte, NIT Kurukshetra**, brings to you a session on **Introduction to Capture The Flag** challenges (CTFs) at the **NIT KKR Campus!**\n\nThe event will feature amazing, hands-on activities packed **45 minute session** on what Capture The Flag tournaments are, how they are relevant to the world of cybersecurity, and how you can get started with them. It will be followed by a **3 hour CTF** where you can compete for **exciting prizes!**\n\n**Students from all colleges and regions are invited to join!**\n\n*Note: Sadly, we will not be able to provide accommodation, so people outside the Kurukshetra Region who wish to come to the session must plan their own accommodation.*"
+        "description": "Have you ever wanted to learn cybersecurity, but are intimidated by the technical jargon? **How about learning it through a gamified experience?**\n\n**OWASP IIITD**, in collaboration with **Technobyte, NIT Kurukshetra**, brings to you a session on **Introduction to Capture The Flag** challenges (CTFs) at the **Senate Hall**, **NIT KKR Campus!**\n\nThe event will feature amazing, hands-on activities packed **45 minute session** on what Capture The Flag tournaments are, how they are relevant to the world of cybersecurity, and how you can get started with them. It will be followed by a **3 hour CTF** where you can compete for **exciting prizes!**\n\n**Students from all colleges and regions are invited to join!**\n\n*Note: Sadly, we will not be able to provide accommodation, so people outside the Kurukshetra Region who wish to come to the session must plan their own accommodation.*"
     },
     {
         "group": "Jacksonville",
@@ -198,16 +208,6 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/291605618",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
-    },
-    {
-        "group": "Lahore",
-        "repo": "www-chapter-lahore",
-        "name": "OWASP March Event",
-        "date": "2023-03-17",
-        "time": "9:00+05:00",
-        "link": "https://www.meetup.com/owasp-lahore-chapter/events/291537674",
-        "timezone": "Asia/Karachi",
-        "description": "TBD"
     },
     {
         "group": "London",
@@ -240,16 +240,6 @@
         "description": "Hello OWASP Melbourne,\nTo start off the year, we have a free challenge workshop to find and fix some common bugs, in collaboration with Dr. Pedram from SecDim\u2019s SecGames. Following the positive feedback from the last collaboration we did, we're trying this again. All too often, there\u2019s lots of talk out there about doing security better, let\u2019s actually get our hands on keyboards and try our hands at it.\n\nNo presentation, no lecture. This is a hands-on session to up-skill in secure programming.\n\nHere, we explore a vulnerable app to find and fix its vulnerability. The winner is the first person who fixes the vulnerability. The winner then shares their solution so we can all learn (or possibly find more bugs!).\n\nIt\u2019s a small space, so please RSVP if you\u2019re attending in-person, or join us remotely via Google Meets at [https://meet.google.com/nsn-ukof-pte](https://meet.google.com/nsn-ukof-pte)\n\n**Technical analysis of Secrets Disclosure + Unicode security challenge**\nDuring this challenge workshop, we will explore these weaknesses:\n\n* CWE-200: Exposure of Sensitive Information to an Unauthorized Actor\n* CWE-527: Exposure of Version-Control Repository to an Unauthorized Control Sphere\n* CWE-641: Improper Restriction of Names for Files and Other Resources\n* CWE-20: Improper Input Validation\n* CWE-176: Improper Handling of Unicode Encoding\n\n**Agenda**\n6:00-6:10 Welcome\n6:10-6:30 Past challenge solution and discussion (CWE-527 and 200)\n6:30-7:00 Play the challenge of the month (CWE-641, 176 and 20)\n7:30pm - End.\n\n**Prepare**\nIf you are a first timer, prior to attending, please get your workstation setup by completing any of the \"Start Here\" levels on https://play.secdim.com\n\n**Required Equipment**\nPlease bring your own laptop along to the event that has been setup as described above.\n\n**PS. This is a joint community event with SecDim.**\n[https://www.meetup.com/secgames/events/292139527/](https://www.meetup.com/secgames/events/292139527/)\n\n**Other Information**\n**What is OWASP?**\nThe Open Worldwide Application Security Project\u00ae (OWASP) is a volunteer-run, nonprofit foundation that works to improve the security of software. Through community-led open source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.\n\n**Find out more?**\nMeetup.com Page: https://www.meetup.com/Application-Security-OWASP-Melbourne/\nAbout the Chapter: https://owasp.org/www-chapter-melbourne/\nJoin the AppSec ANZ Discord: https://discord.gg/uAWze2B"
     },
     {
-        "group": "Minneapolis St Paul",
-        "repo": "www-chapter-minneapolis-st-paul",
-        "name": "March virtual meet: Application Security Considerations in Offensive Operations",
-        "date": "2023-03-17",
-        "time": "4:00-05:00",
-        "link": "https://www.meetup.com/owasp-msp-meetup/events/291851101",
-        "timezone": "America/Chicago",
-        "description": "**Application Security Considerations in Offensive Operations**\n\nThis technical talk will be about Tactics, Techniques, and Procedures (TTPs) employed during Red Team engagements. Special focus will be given to lateral movement and persistence tactics. May also include some observations about different schools of red teaming behavior/philosophy. As always, come with your questions!\n\n*Due to the potentially sensitive nature of red teaming, the speaker will remain anonymous by request, and the talk will not be recorded.*\n\nApproximate agenda (U.S. Central Time):\n2:00 - Socializing/connecting, OWASP announcements\n2:15 - Presentation:\n\n* Employing OSint\n* Breaching the perimeter\n* Moving/pivoting around\n* Finding interesting things\n* Covering footprints"
-    },
-    {
         "group": "Mumbai",
         "repo": "www-chapter-mumbai",
         "name": "OWASP Mumbai Online Meetup | 18th March 2023",
@@ -278,6 +268,16 @@
         "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/292136110",
         "timezone": "America/New_York",
         "description": "Important details about attending:\nThis will be an in-person only event. We are proud to finally be meeting in real life. Please RSVP as a yes only if you plan on attending to help with planning for the space.\n\nCarahsoft has graciously offered to host this meetup. The address to their office is 11493 Sunset Hills Rd Suite 100, Reston, VA 20190. Attendees are free to park anywhere in the Carahsoft parking lot. The event will be in the CarahCafe, which is the room on the left side when entering the Carahsoft office. Carahsoft will also create welcome signs that say \"OWASP NoVA Meeting\" to guide attendees when they enter the building.\n\nAbstract:\nThe last decade has seen an increased adoption of security practices across the development landscape. It is now standard practice to perform penetration testing, run threat modeling, teach developers about security, push left, and have zero trust. Or is it? Come join Seth as he explores why everything old is new again. See the security failures that existed then and how they still exist from modern examples. Also explore the strategies that actually catch these problems early in the development lifecycle without spending a fortune on security snake oil."
+    },
+    {
+        "group": "Oakland County",
+        "repo": "www-chapter-oakland-county",
+        "name": "Kubernetes \u2013 \u201ccontainers aren't just for leftovers\u201d",
+        "date": "2023-04-13",
+        "time": "9:00-04:00",
+        "link": "https://www.meetup.com/owasp-oakland-county-chapter/events/292303253",
+        "timezone": "America/New_York",
+        "description": "An exploratory look at what Kubernetes is, how it works, and how it can be implemented to provide modern solutions to dated problems.\n\n5:30pm - Socializing (Towne Square Food and Spirits)\n7:00pm - Announcements followed by this month's speaker presentation starts\n8:00pm - presentation ends, socializing\n\nTowne Square Food and Spirits entrance:\nPark in the East parking lot of 1 Town center and look for the awning to the right of the main entrance of the 1 town center building. That is the restaurant. We meet in the main dinning center to the right of the restaurant's entrance. The presentation is given in the room to the left of the Bar you face once you enter. It's advised first time attendees show up before to socialize but also follow the group into the presentation area."
     },
     {
         "group": "Orange County",
@@ -398,6 +398,16 @@
         "link": "https://www.meetup.com/owasp-vilnius/events/292250628",
         "timezone": "Europe/Vilnius",
         "description": "I'm glad to announce, that this will be a physical event organised with VU Cyber Security Lab on the Vilnius University premises (Baltupiai, Vilnius).\nEven though the main audience will be students, but we'll have one speaker covering an interesting topic about car hacking.\n\nMore information coming soon."
+    },
+    {
+        "group": "Waterloo",
+        "repo": "www-chapter-waterloo",
+        "name": "OWASP Waterloo - Enhancing the security of your Kubernetes cluster",
+        "date": "2023-04-04",
+        "time": "8:30-04:00",
+        "link": "https://www.meetup.com/owasp-waterloo-meetup-group/events/292294645",
+        "timezone": "America/Toronto",
+        "description": "Dear OWASP Waterloo Community Members,\n\nWe are excited to announce our upcoming OWASP chapter meetup on \"Enhancing the security of your Kubernetes cluster.\" Join us virtually for an engaging and informative session on securing Kubernetes clusters using best practices and cutting-edge security tools.\n\nDuring this meetup, our expert speakers will cover the following topics:\n\n1. Running CIS Benchmarks against Kubernetes Clusters: Learn how to assess the security configuration of your K8s cluster using the Center for Internet Security (CIS) benchmarks to ensure compliance with industry best practices.\n2. Seccomp and AppArmor in Kubernetes: Discover the importance of implementing Linux security features like Seccomp and AppArmor in your K8s environment to limit system calls and resource access, minimizing the attack surface.\n3. Using Falco to Identify a Breach in Cluster: Explore how to deploy and use Falco, an open-source cloud-native runtime security project, for monitoring K8s cluster security, identifying potential breaches, and generating alerts for security incidents.\n\nThis meetup is a fantastic opportunity for security professionals, developers, and Kubernetes enthusiasts to network, share knowledge and stay up-to-date on the latest security trends and best practices in Kubernetes.\n\nEvent Details:\nDate: March 30, 2023\nTime: 6:30 PM - 7.30 PM EST\nLocation: https://us06web.zoom.us/j/85253024263?pwd=ckdtRE5XTmlBUFpNUTc3YXFtRlVhdz09\n\nWe look forward to seeing you!"
     },
     {
         "group": "Yerevan",
