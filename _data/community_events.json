@@ -20,16 +20,6 @@
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* -- [Eventbrite](https://owasp-austin-2023-march.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: API Risk Management**\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\n**Speaker: Dr. Baljeet Malhotra**\nDr. Baljeet Malhotra, is an award-winning researcher known for his work in Open Source and API Data Management. He conceptualized the world's first \"API Composition Analysis\" based on source code static analysis. He founded TeejLab in 2017 and steered the team to build API Discovery and Security\u2122, world's first comprehensive end-to-end API Management platform. Prior to TeejLab, he established the R&D unit of Black Duck Software in 2016 (acquired by Synopsys), he has also served as Research Director at SAP. He received a PhD in Computing Science from the University of Alberta and won several awards including NSERC (Canada) scholar in 2005 and Global Young Scientist (Singapore). He concurrently holds Adjunct Professor positions at the University of British Columbia, University of Victoria and University of Northern BC.\n\nRSVP for in-person:\nhttps://owasp-austin-2023-march.eventbrite.com Eventbrite(in-person)"
     },
     {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "Null/Owasp Combined Meet-up March 18",
-        "date": "2023-03-18",
-        "time": "9:30+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/292250289",
-        "timezone": "Asia/Kolkata",
-        "description": "More detailes available here : https://null.community/events/873-bangalore-null-owasp-combined-meetup#event_sessions"
-    },
-    {
         "group": "Bonita Springs",
         "repo": "www-chapter-bonita-springs",
         "name": "Zed Attack Proxy",
@@ -78,16 +68,6 @@
         "link": "https://www.meetup.com/owasp-bristol/events/292044030",
         "timezone": "Europe/London",
         "description": "Over the past few years OWASP Suffolk has been bringing you free events to show you cyber security best practices. We discussed creating strong passwords, patching and backing up, OSINT, API Security, SCA and RASP, and many other subjects. In this event we hope to cement that knowledge by showing you the view from the other side of the fence.\nIn this live interactive demonstration we will show you what a web target looks like from the perspective of an attacker. With the use of a vulnerable target that has not followed security best practices we will show you just how easy it is for an attacker to gain access to your computer, it's data and resources. With each step of the attack we will demonstrate techniques and tools while discussing what could of been done to mitigate each step of the attack.\nBy thinking like a Hacker and seeing your \"defences\" from their point of view we hope to show you how important following cyber security best practices really is.\nAttendees of the OWASP Suffolk Fight Club events will be familiar with the format of this event, except that this will be scripted with interactive Q&A. The vulnerable target will be a virtual machine created for the purpose of learning.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of a web attack with Q&A throughout\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\nThis talk will not be recorded."
-    },
-    {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Top 10 V2021 Awareness - A6 - A10",
-        "date": "2023-03-25",
-        "time": "2:00+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/292302183",
-        "timezone": "Africa/Cairo",
-        "description": "OWASP Top 10 Awareness Program\n\nThe OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.\n\nThe second day of the awareness program includes three sessions covering the risks from 6 to 10 of OWASP top 10 risks and Mitigations,\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 18 Feb 2023\n\nAgenda:\n\n1- A06:2021-Vulnerable and Outdated Components\n2- A07:2021-Identification and Authentication Failures\n3- A08:2021-Software and Data Integrity Failures\n4- A09:2021-Security Logging and Monitoring Failures\n5- A10:2021-Server-Side Request Forgery"
     },
     {
         "group": "Cambridge",
@@ -190,16 +170,6 @@
         "description": "*This talk will provide an introduction to cybersecurity for beginners and offer guidance on how to break into the cyberindustry. The speaker will provide practical advice on how to gain relevant experience, including resources for learning and developing technical skills, as well as tips for building a professional network and finding job opportunities. The talk will also touch on the importance of staying current with industry trends and regulations, and the need for ethical behavior and responsibility in the cybersecurity profession.*"
     },
     {
-        "group": "Indraprastha Institute Of Information Technology",
-        "repo": "www-chapter-indraprastha-institute-of-information-technology",
-        "name": "Introduction to CTFs: Session and Competition!",
-        "date": "2023-03-18",
-        "time": "3:30+05:30",
-        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/292132847",
-        "timezone": "Asia/Kolkata",
-        "description": "Have you ever wanted to learn cybersecurity, but are intimidated by the technical jargon? **How about learning it through a gamified experience?**\n\n**OWASP IIITD**, in collaboration with **Technobyte, NIT Kurukshetra**, brings to you a session on **Introduction to Capture The Flag** challenges (CTFs) at the **Senate Hall**, **NIT KKR Campus!**\n\nThe event will feature amazing, hands-on activities packed **45 minute session** on what Capture The Flag tournaments are, how they are relevant to the world of cybersecurity, and how you can get started with them. It will be followed by a **3 hour CTF** where you can compete for **exciting prizes!**\n\n**Students from all colleges and regions are invited to join!**\n\n*Note: Sadly, we will not be able to provide accommodation, so people outside the Kurukshetra Region who wish to come to the session must plan their own accommodation.*"
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -238,16 +208,6 @@
         "link": "https://www.meetup.com/application-security-owasp-melbourne/events/292166552",
         "timezone": "Australia/Melbourne",
         "description": "Hello OWASP Melbourne,\nTo start off the year, we have a free challenge workshop to find and fix some common bugs, in collaboration with Dr. Pedram from SecDim\u2019s SecGames. Following the positive feedback from the last collaboration we did, we're trying this again. All too often, there\u2019s lots of talk out there about doing security better, let\u2019s actually get our hands on keyboards and try our hands at it.\n\nNo presentation, no lecture. This is a hands-on session to up-skill in secure programming.\n\nHere, we explore a vulnerable app to find and fix its vulnerability. The winner is the first person who fixes the vulnerability. The winner then shares their solution so we can all learn (or possibly find more bugs!).\n\nIt\u2019s a small space, so please RSVP if you\u2019re attending in-person, or join us remotely via Google Meets at [https://meet.google.com/nsn-ukof-pte](https://meet.google.com/nsn-ukof-pte)\n\n**Technical analysis of Secrets Disclosure + Unicode security challenge**\nDuring this challenge workshop, we will explore these weaknesses:\n\n* CWE-200: Exposure of Sensitive Information to an Unauthorized Actor\n* CWE-527: Exposure of Version-Control Repository to an Unauthorized Control Sphere\n* CWE-641: Improper Restriction of Names for Files and Other Resources\n* CWE-20: Improper Input Validation\n* CWE-176: Improper Handling of Unicode Encoding\n\n**Agenda**\n6:00-6:10 Welcome\n6:10-6:30 Past challenge solution and discussion (CWE-527 and 200)\n6:30-7:00 Play the challenge of the month (CWE-641, 176 and 20)\n7:30pm - End.\n\n**Prepare**\nIf you are a first timer, prior to attending, please get your workstation setup by completing any of the \"Start Here\" levels on https://play.secdim.com\n\n**Required Equipment**\nPlease bring your own laptop along to the event that has been setup as described above.\n\n**PS. This is a joint community event with SecDim.**\n[https://www.meetup.com/secgames/events/292139527/](https://www.meetup.com/secgames/events/292139527/)\n\n**Other Information**\n**What is OWASP?**\nThe Open Worldwide Application Security Project\u00ae (OWASP) is a volunteer-run, nonprofit foundation that works to improve the security of software. Through community-led open source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.\n\n**Find out more?**\nMeetup.com Page: https://www.meetup.com/Application-Security-OWASP-Melbourne/\nAbout the Chapter: https://owasp.org/www-chapter-melbourne/\nJoin the AppSec ANZ Discord: https://discord.gg/uAWze2B"
-    },
-    {
-        "group": "Mumbai",
-        "repo": "www-chapter-mumbai",
-        "name": "OWASP Mumbai Online Meetup | 18th March 2023",
-        "date": "2023-03-18",
-        "time": "2:00+05:30",
-        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/291680287",
-        "timezone": "Asia/Kolkata",
-        "description": "Session Details:\nIntroduction to OWASP Mumbai\n\nHow to build an efficient security automation strategy and teams for your organization? **With Prashasth Baliga**\n\nQnA and FeedBack\n\n**Synopsis:**\nThe focus of a security automation strategy is on implementing automated tools and processes to enhance the effectiveness and efficiency of an organization's security operations. The strategy covers several key steps, including identifying security risks and vulnerabilities, evaluating current security operations, setting clear automation goals, selecting the appropriate tools, implementing and testing them, continuously monitoring and improving, training the team, and ensuring compliance with regulations. With security automation, organizations have seen benefits such as improved efficiency and scalability, faster threat detection and response, cost savings, and better decision-making."
     },
     {
         "group": "New Braunfels",
