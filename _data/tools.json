@@ -1861,5 +1861,14 @@
       "platforms": "SaaS or On-Premises",
       "note": "Automatically finds and fixes application vulnerabilities in source code. Supports .NET, ASP, Android, C and C++, ECMAScript, Go, iOS, Java, PHP, Pytohn, Ruby, and Visual Basic applications.",
       "type": "SAST"
+   },
+   {
+      "title": "OpenApi Security",
+      "url": "https://openapi.security",
+      "owner": "Escape",
+      "license": "Free",
+      "platforms": "SaaS",
+      "note": "Free. No account required.",
+      "type": "DAST"
    }
 ]
