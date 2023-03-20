@@ -22,7 +22,7 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 ![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 ![Not recommended for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -59,7 +59,7 @@ Import Postman API definitions into ZAP as per [#6960](https://github.com/zaprox
 
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 
 Import PCAP/PCAPNG Files into ZAP as per [#4812](https://github.com/zaproxy/zaproxy/issues/4812)
 
@@ -77,7 +77,7 @@ Create a new browser extension using Type Script which will allow the user to re
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -157,7 +157,7 @@ Please see [Development Guide](https://github.com/saeeddhqan/maryam/wiki/Develop
 
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 
 Implement a web interface for Iris module with JQuery. The interface is somehow like www.qwant.com.
 
@@ -178,7 +178,7 @@ implementation.
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -361,7 +361,7 @@ Could maybe even techniques from banking fraud detection or actual game developm
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -476,7 +476,7 @@ To receive early feedback please:
 - [Team-based asessment](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/211) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
 - [Enhancement of diagram](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/183) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
 - [Adding of graph support](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/210) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
-- [Adding of tags](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/212) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+- [Adding of tags](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/212) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 - Your idea
 
 #### Prerequisites
