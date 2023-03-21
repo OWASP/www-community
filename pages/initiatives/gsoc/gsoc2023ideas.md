@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap) &bull; [Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owaspdevsecops-maturity-model)
+[ZAP](#owaspzap) &bull; [Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -325,7 +325,7 @@ start failing from outdated tooling in general and specifically unsupported old 
 is currently running [on AppVeyor](https://ci.appveyor.com/project/bkimminich/pwning-juice-shop) whereas all other Juice Shop components are built with GitHub Actions.
 
 With well over 12,000 readers on LeanPub alone, the eBook is definitely a cornerstone of Juice Shop's success, so it should receive a long-overdue
-renewal of its technbology stack. This includes a modern and future-proof authoring format (that still supports both online-reading and eBook export) as well
+renewal of its technology stack. This includes a modern and future-proof authoring format (that still supports both online-reading and eBook export) as well
 as moving the CI/CD pipeline over to GitHub.
 
 ###### Add Web3 specific hacking and coding challenges
@@ -523,3 +523,74 @@ Please use the repositories' issue tracker, GitHub discussions, and don't forget
 
 - [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
 - [Abraham Aranguran](mailto:Abraham.Aranguren@owasp.org)
+
+### [OWASP secureCodeBox](https://www.securecodebox.io)
+
+secureCodeBox is a kubernetes based, modularized toolchain for continuous security scans of your software project.
+The secureCodeBox comes with many different scanners officially integrated (from Amass to Zap) and integration 
+with vulnerability management backends like DefectDojo.
+
+To receive early feedback please:
+- put your proposal on Google Docs and submit it to the OWASP
+  Organization on Google's GSoC page in "Draft Shared" mode.
+- Please pick "securecodebox" as Proposal Tag to make them easier to find
+  for us. Thank you!
+
+##### Explanation of Ideas
+
+###### Rewrite DefectDojo Hook in Go(lang)
+
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-yellow)
+
+The current implementation of our [DefectDojo hook](https://github.com/secureCodeBox/secureCodeBox/tree/main/hooks/persistence-defectdojo) is written in Java.
+As the remainder of the project is written in Go & JavaScript the code does not fit into the remainder of the project and suffers from typical Java problems 
+like a comparatively large memory footprint and slow boot times.
+
+The goals of the project are:
+
+- moving the implementation to a modern Go implementation
+- extracting the DefectDojo api calls to reusable golang library
+- expanding end-to-end testability of the hook with a real DefectDojo instance in the CI pipeline
+
+###### Add a secureCodeBox CLI (scbctl)
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-yellow)
+
+The primary interface to interact with the secureCodeBox is through it's Custom Resources (CRs) in the Kubernetes API.
+Writing the resource (e.g. [Scans](https://www.securecodebox.io/docs/scanners/amass#examplecom)) is generally not hard but can be cumbersome as the require the creation of a new file / multi line string in the command line.
+
+To make these interactions easier to use and more fun, a custom (but optional) secureCodeBox CLI should help by automatically connecting to the Kubernetes API.
+
+- create a new command line client which connects to the Kubernetes API and interacts with the CRs of the secureCodeBox
+- write tests & including integration / e2e test and the CI pipeline (GitHub Actions)
+
+More context & information are listed in the [GitHub Issue](https://github.com/secureCodeBox/secureCodeBox/issues/189)
+
+###### Your own idea
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+You have an awesome idea to improve the OWASP secureCodeBox?
+We'd love to hear it, please reach out via email / owasp slack / github to ensure that the idea fits into the project. :)
+
+##### Getting started
+
+* Make yourself familiar with the project by going through our HowTo guides which will guide you through different parts of the secureCodeBox.
+* Make sure that you have a solid golang knowledge to be able to complete the two proposed project.
+* Get in touch with
+  [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) to discuss any
+  of the listed or your own idea for GSoC!
+
+##### Mentors
+
+* [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP secureCodeBox Core Team
+* [Robert Felber](mailto:robert.seedorff@owasp.org) - OWASP secureCodeBox Project Lead
