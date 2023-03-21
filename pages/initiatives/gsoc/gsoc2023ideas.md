@@ -325,7 +325,7 @@ start failing from outdated tooling in general and specifically unsupported old 
 is currently running [on AppVeyor](https://ci.appveyor.com/project/bkimminich/pwning-juice-shop) whereas all other Juice Shop components are built with GitHub Actions.
 
 With well over 12,000 readers on LeanPub alone, the eBook is definitely a cornerstone of Juice Shop's success, so it should receive a long-overdue
-renewal of its technbology stack. This includes a modern and future-proof authoring format (that still supports both online-reading and eBook export) as well
+renewal of its technology stack. This includes a modern and future-proof authoring format (that still supports both online-reading and eBook export) as well
 as moving the CI/CD pipeline over to GitHub.
 
 ###### Add Web3 specific hacking and coding challenges
