@@ -60,16 +60,6 @@
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP Suffolk - Thinking like a Hacker",
-        "date": "2023-03-21",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-bristol/events/292044030",
-        "timezone": "Europe/London",
-        "description": "Over the past few years OWASP Suffolk has been bringing you free events to show you cyber security best practices. We discussed creating strong passwords, patching and backing up, OSINT, API Security, SCA and RASP, and many other subjects. In this event we hope to cement that knowledge by showing you the view from the other side of the fence.\nIn this live interactive demonstration we will show you what a web target looks like from the perspective of an attacker. With the use of a vulnerable target that has not followed security best practices we will show you just how easy it is for an attacker to gain access to your computer, it's data and resources. With each step of the attack we will demonstrate techniques and tools while discussing what could of been done to mitigate each step of the attack.\nBy thinking like a Hacker and seeing your \"defences\" from their point of view we hope to show you how important following cyber security best practices really is.\nAttendees of the OWASP Suffolk Fight Club events will be familiar with the format of this event, except that this will be scripted with interactive Q&A. The vulnerable target will be a virtual machine created for the purpose of learning.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of a web attack with Q&A throughout\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\nThis talk will not be recorded."
-    },
-    {
         "group": "Cambridge",
         "repo": "www-chapter-cambridge",
         "name": "Can forensic processes thwart the use of portable programmable devices?",
@@ -108,16 +98,6 @@
         "link": "https://www.meetup.com/owasp-dorset-chapter/events/291889114",
         "timezone": "Europe/London",
         "description": "Hosted by OWASP Suffolk\n\nFight Club has no agenda, no slides, no recording, and is 100% unscripted.\nThis month a live attempt of a HTB machine or challenge."
-    },
-    {
-        "group": "Dorset",
-        "repo": "www-chapter-dorset",
-        "name": "Thinking like a Hacker",
-        "date": "2023-03-21",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-dorset-chapter/events/291889147",
-        "timezone": "Europe/London",
-        "description": "Hosted by OWASP Suffolk\n\nOver the past few years OWASP Suffolk has been bringing you free events to show you cyber security best practices. We discussed creating strong passwords, patching and backing up, OSINT, API Security, SCA and RASP, and many other subjects. In this event we hope to cement that knowledge by showing you the view from the other side of the fence.\nIn this live interactive demonstration we will show you what a web target looks like from the perspective of an attacker. With the use of a vulnerable target that has not followed security best practices we will show you just how easy it is for an attacker to gain access to your computer, it's data and resources. With each step of the attack we will demonstrate techniques and tools while discussing what could of been done to mitigate each step of the attack.\nBy thinking like a Hacker and seeing your \"defences\" from their point of view we hope to show you how important following cyber security best practices really is.\nAttendees of the OWASP Suffolk Fight Club events will be familiar with the format of this event, except that this will be scripted with interactive Q&A. The vulnerable target will be a virtual machine created for the purpose of learning.\nAgenda:\n\n* OWASP updates\n* Live interactive demonstration of a web attack with Q&A throughout\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\nThis talk will not be recorded."
     },
     {
         "group": "Edmonton",
@@ -198,6 +178,16 @@
         "link": "https://www.meetup.com/application-security-owasp-melbourne/events/292166552",
         "timezone": "Australia/Melbourne",
         "description": "Hello OWASP Melbourne,\nTo start off the year, we have a free challenge workshop to find and fix some common bugs, in collaboration with Dr. Pedram from SecDim\u2019s SecGames. Following the positive feedback from the last collaboration we did, we're trying this again. All too often, there\u2019s lots of talk out there about doing security better, let\u2019s actually get our hands on keyboards and try our hands at it.\n\nNo presentation, no lecture. This is a hands-on session to up-skill in secure programming.\n\nHere, we explore a vulnerable app to find and fix its vulnerability. The winner is the first person who fixes the vulnerability. The winner then shares their solution so we can all learn (or possibly find more bugs!).\n\nIt\u2019s a small space, so please RSVP if you\u2019re attending in-person, or join us remotely via Google Meets at [https://meet.google.com/nsn-ukof-pte](https://meet.google.com/nsn-ukof-pte)\n\n**Technical analysis of Secrets Disclosure + Unicode security challenge**\nDuring this challenge workshop, we will explore these weaknesses:\n\n* CWE-200: Exposure of Sensitive Information to an Unauthorized Actor\n* CWE-527: Exposure of Version-Control Repository to an Unauthorized Control Sphere\n* CWE-641: Improper Restriction of Names for Files and Other Resources\n* CWE-20: Improper Input Validation\n* CWE-176: Improper Handling of Unicode Encoding\n\n**Agenda**\n6:00-6:10 Welcome\n6:10-6:30 Past challenge solution and discussion (CWE-527 and 200)\n6:30-7:00 Play the challenge of the month (CWE-641, 176 and 20)\n7:30pm - End.\n\n**Prepare**\nIf you are a first timer, prior to attending, please get your workstation setup by completing any of the \"Start Here\" levels on https://play.secdim.com\n\n**Required Equipment**\nPlease bring your own laptop along to the event that has been setup as described above.\n\n**PS. This is a joint community event with SecDim.**\n[https://www.meetup.com/secgames/events/292139527/](https://www.meetup.com/secgames/events/292139527/)\n\n**Other Information**\n**What is OWASP?**\nThe Open Worldwide Application Security Project\u00ae (OWASP) is a volunteer-run, nonprofit foundation that works to improve the security of software. Through community-led open source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.\n\n**Find out more?**\nMeetup.com Page: https://www.meetup.com/Application-Security-OWASP-Melbourne/\nAbout the Chapter: https://owasp.org/www-chapter-melbourne/\nJoin the AppSec ANZ Discord: https://discord.gg/uAWze2B"
+    },
+    {
+        "group": "Netherlands",
+        "repo": "www-chapter-netherlands",
+        "name": "April 2023 OWASP Chapter Netherlands Meetup",
+        "date": "2023-04-20",
+        "time": "9:00+02:00",
+        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/292323208",
+        "timezone": "Europe/Amsterdam",
+        "description": "This is an online meeting and will be streamed on YouTube.\n\n19:00 - 19:10 - **Welcome and OWASP updates**\n19:10 - 19:55 - **The Rise of the Security Verification Standard** by **Josh Grossman**\n19:55 - 20:05 - **Questions and** **Break**\n20:05 - 20:50 - **OWASP Juice Shop** by **Bj\u00f6rn Kimminich**\n\n**The Rise of the Security Verification Standard**\n*Abstract:*\nWe are currently seeing a big uptick in the progression of the OWASP Application Security Verification Standard (ASVS) as well as the Mobile version (MASVS). Not only are two major releases in the pipeline (5.0 and 2.0 respectively) but we are now seeing industry stand up, take notice and start expecting more from applications, based on these standards. In this talk, Josh Grossman (one of the ASVS project leaders) will take you through these key developments including our vision for the upcoming version 5.0 of the ASVS and how you and your employer can be involved in the final release.\nThis will also be a chance to hear first-hand about a couple of new programmes where you will see the SVSs being more widely used and required and how you can prepare your organizations for this significant impact this will have, whether you are developing applications or you are assessing them.\n\n*Bio:*\nJosh Grossman has worked as a consultant in IT and Application Security and Risk for 15 years now, as well as a Software Developer. This has given him an in-depth understanding of how to manage the balance between business needs, developer needs and security needs which goes into a successful software security programme.\n\nJosh is currently CTO for Bounce Security where he helps clients improve and get better value from their application security processes and provides specialist application security advice. His consultancy work has led him to work, speak and deliver training both locally and worldwide including privately for ISACA and Manicode and publicly for OWASP's Global AppSec conferences. In his spare time, he co-leads the OWASP Application Security Verification Standard project and is on the OWASP Israel chapter board.\n\nHe was also recognized as a Key Contributor for the OWASP Proactive Controls project and has also contributed to the OWASP Top 10 Risks project and the OWASP JuiceShop project.\n\n**OWASP Juice Shop**\n*Abstract:*\nOWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security training, awareness demos, CTFs and as a guinea pig for security tools!\n\nJuice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!\n\nAt this event, we will take a tour through the application, hack it live on screen, learn about Coding Challenges, CTF mode, cheat detection, custom theming, and more!\n\n*Bio:*\nBjoern Kimminich works as Product Group Lead Application Ecosystem at Kuehne + Nagel, responsible \u2013 among other things \u2013 for the Application Security program in corporate IT. He is an OWASP Lifetime Member, the project leader of the OWASP Juice Shop, and a co-chapter leader for the OWASP Germany Chapter. Bj\u00f6rn also currently chairs the OWASP Project Committee."
     },
     {
         "group": "New Braunfels",
@@ -320,16 +310,6 @@
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "Thinking like a Hacker",
-        "date": "2023-03-21",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291864159",
-        "timezone": "Europe/London",
-        "description": "Over the past few years OWASP Suffolk has been bringing you free events to show you cyber security best practices. We discussed creating strong passwords, patching and backing up, OSINT, API Security, SCA and RASP, and many other subjects. In this event we hope to cement that knowledge by showing you the view from the other side of the fence.\n\nIn this live interactive demonstration we will show you what a web target looks like from the perspective of an attacker. With the use of a vulnerable target that has not followed security best practices we will show you just how easy it is for an attacker to gain access to your computer, it's data and resources. With each step of the attack we will demonstrate techniques and tools while discussing what could of been done to mitigate each step of the attack.\n\nBy thinking like a Hacker and seeing your \"defences\" from their point of view we hope to show you how important following cyber security best practices really is.\n\nAttendees of the OWASP Suffolk Fight Club events will be familiar with the format of this event, except that this will be scripted with interactive Q&A. The vulnerable target will be a virtual machine created for the purpose of learning.\n\nAgenda:\n\n* OWASP updates\n* Live interactive demonstration of a web attack with Q&A throughout\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
-    },
-    {
         "group": "Sydney",
         "repo": "www-chapter-sydney",
         "name": "OWASP Sydney Annual General Meeting 2023",
@@ -340,6 +320,16 @@
         "description": "Join us at Secure Code Warrior's office for our Annual General Meeting where we are looking forward to recapping everything the Chapter has achieved over the past year, and passing the microphone over to our new Chapter Leaders!\n\nThe AGM also offers the community the opportunity to share their thoughts on the Sydney Chapter and get a sense of what you\u2019d like to see more of, what could\u2019ve been improved, and any new ideas for 2023.\n\nWe'll meet at Secure Code Warrior's office from 6pm, with the AGM beginning at 6:30pm. After the AGM come grab some free pizza and drinks from 7:30pm onwards.\n\nHope to see you there!\n\nAgenda:\n\n* Chair Welcome & Introduction\n* 2022 Summary Presentation & Financial Statement\n* Introduction to the new Chapter Leaders\n* Member Feedback\n* Action Items\n* Open Floor"
     },
     {
+        "group": "Taiwan",
+        "repo": "www-chapter-taiwan",
+        "name": "OWASP Taiwan Meetup (APR, 2023)",
+        "date": "2023-04-07",
+        "time": "3:20+08:00",
+        "link": "https://www.meetup.com/taipei-owasp-meetup-group/events/292383519",
+        "timezone": "Asia/Taipei",
+        "description": "OWASP Taiwan Chapter Meetup  OWASP \n\n\n\n [KKTIX](https://csa.kktix.cc/events/owasp202304-copy-1)\n 200/()"
+    },
+    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Introducing the OWASP Top Ten for Kubernetes",
@@ -348,6 +338,16 @@
         "link": "https://www.meetup.com/owasptriangle/events/291842782",
         "timezone": "America/New_York",
         "description": "Given the growth and adoption of Kubernetes, a number of projects have been published in the OWASP community to help practitioners assess and secure the security of their containerized infrastructure including the recently released Top Ten for Kubernetes ([https://owasp.org/www-project-kubernetes-top-ten/](https://owasp.org/www-project-kubernetes-top-ten/)). This OSS project is a community-curated list of the most common Kubernetes risks backed by data collected from organizations varying in maturity and complexity. This session will discuss the project in detail, examples for each of the risks in the list, and how you can get involved."
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "Tracing webapp exploitability through code review and taint analysis",
+        "date": "2023-04-20",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248498",
+        "timezone": "America/Vancouver",
+        "description": "**Title**: Tracing web application exploitability through code review and taint analysis\n**Speaker**: Dana Epp\n\nCome learn how to look at your web apps and APIs more offensively to discover the exploitability of your code before your adversaries do.\n\nThis event is sponsored by **Microsoft** \\- thanks for providing us space and food\\."
     },
     {
         "group": "Vilnius",
