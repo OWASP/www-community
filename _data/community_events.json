@@ -60,16 +60,6 @@
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
-        "group": "Cambridge",
-        "repo": "www-chapter-cambridge",
-        "name": "Can forensic processes thwart the use of portable programmable devices?",
-        "date": "2023-03-23",
-        "time": "7:30Z",
-        "link": "https://www.meetup.com/owasp-cambridge-meetup/events/291932118",
-        "timezone": "Europe/London",
-        "description": "Hosted by the Cyber Security & Networking Research Group, Anglia Ruskin University, OWASP (Open Web Application Security Project) Cambridge Chapter, & BCS Cybercrime Forensics SG\n\n**Background**\n\nThe BCS \u2013 Chartered Institute for IT - Cybercrime Forensics Special Interest Group (SG) promotes Cybercrime Forensics and the use of Cybercrime Forensics; of relevance to computing professionals, lawyers, law enforcement officers, academics and those interested in the use of Cybercrime Forensics and the need to address cybercrime for the benefit of those groups and of the wider public.\n\nOWASP (Open Web Application Security Project is a 501(c)(3) not-for-profit worldwide charitable organization focused on improving the security of application software. Their mission is to make application security visible, so that people and organizations can make informed decisions about true application security risks.\n\nThe **Cyber Security and Networking** (**CSN**) Research Group at Anglia Ruskin University has close working strategic relationships with industry, professional bodies, law enforcement, government agencies and academia in the delivery of operationally focused applied information and application security research. We have strong international links with professional organisations such as OWASP, BCS, ISC2, IISP & the UK Cyber Security Forum amongst others. The primary aims of CSNRG are to help the UK and partner nations to tackle cybercrime, be more resilient to cyber attacks and educate its users for a more secure cyberspace and operational business environment. These will be achieved through the investigation of threats posed to information systems and understanding the impact of attacks and creation of cyber-based warning systems which gathering threat intelligence, automate threat detection, alert users and neutralising attacks. For network security we are researching securing the next generation of software defined infrastructures from the application API and control/data plane attacks. Other key work includes Computer forensic analysis, digital evidence crime scenes and evidence visualisation as well as Cyber educational approaches such as developing Capture the Flag (CTF) resources and application security programs.\n\n**Abstract : \u201cHow reliable are current forensic processes in combatting the illegal use of portable programmable devices?**\n\nThe teaching of digital forensics must be restricted, by its very nature, as we can\u2019t teach students everything. There is a new threat to best practice that we have encountered in our research, which could lead to a miscarriage of justice, where an innocent person is falsely accused of a crime. In our research, we have found that hardware devices, such as the Rubber Ducky, Bash Bunny and the O.MG cable can be used to commit or facilitate a crime. These devices leave very little forensics evidence on the target device, other than showing that a file was accessed or that an illegal picture was downloaded and viewed.\n\nThe user of the victim machine could easily be wrongly accused of a crime that they know nothing about, and they will not easily be able to prove their innocence. Forensics investigators might look no further than the access times of the file that was altered or the picture that was downloaded and viewed and would not even look for clues that might point to a hardware attack. This paper highlights the difficulties of proving that a hardware attack even took place and shows the lack of awareness amongst digital forensics investigators to this possibility.\n\n**Provisional Agenda**\n\n17:15 - Webinar waiting lobby opens\n17:30 - Start of Presentation\n18:20 \u2013 Questions & Answers\n18:30 \u2013 Estimated Finish"
-    },
-    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS March 2023",
@@ -200,16 +190,6 @@
         "description": "The OWASP New Braunfels chapter will discuss better ways to engage the community, the emergence of the San Antonio chapter, Defect Dojo, and the new Developer Guide. Please join us!"
     },
     {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "Modern vs. 0ld 5ch00l ",
-        "date": "2023-03-23",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/292136110",
-        "timezone": "America/New_York",
-        "description": "Important details about attending:\nThis will be an in-person only event. We are proud to finally be meeting in real life. Please RSVP as a yes only if you plan on attending to help with planning for the space.\n\nCarahsoft has graciously offered to host this meetup. The address to their office is 11493 Sunset Hills Rd Suite 100, Reston, VA 20190. Attendees are free to park anywhere in the Carahsoft parking lot. The event will be in the CarahCafe, which is the room on the left side when entering the Carahsoft office. Carahsoft will also create welcome signs that say \"OWASP NoVA Meeting\" to guide attendees when they enter the building.\n\nAbstract:\nThe last decade has seen an increased adoption of security practices across the development landscape. It is now standard practice to perform penetration testing, run threat modeling, teach developers about security, push left, and have zero trust. Or is it? Come join Seth as he explores why everything old is new again. See the security failures that existed then and how they still exist from modern examples. Also explore the strategies that actually catch these problems early in the development lifecycle without spending a fortune on security snake oil."
-    },
-    {
         "group": "Oakland County",
         "repo": "www-chapter-oakland-county",
         "name": "Kubernetes \u2013 \u201ccontainers aren't just for leftovers\u201d",
@@ -218,26 +198,6 @@
         "link": "https://www.meetup.com/owasp-oakland-county-chapter/events/292303253",
         "timezone": "America/New_York",
         "description": "An exploratory look at what Kubernetes is, how it works, and how it can be implemented to provide modern solutions to dated problems.\n\n5:30pm - Socializing (Towne Square Food and Spirits)\n7:00pm - Announcements followed by this month's speaker presentation starts\n8:00pm - presentation ends, socializing\n\nTowne Square Food and Spirits entrance:\nPark in the East parking lot of 1 Town center and look for the awning to the right of the main entrance of the 1 town center building. That is the restaurant. We meet in the main dinning center to the right of the restaurant's entrance. The presentation is given in the room to the left of the Bar you face once you enter. It's advised first time attendees show up before to socialize but also follow the group into the presentation area."
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project",
-        "date": "2023-03-23",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/291353134",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nMobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
-    },
-    {
-        "group": "Oslo",
-        "repo": "www-chapter-oslo",
-        "name": "\"Defendable Products\" and \"Opera: Five Years of Championship\"",
-        "date": "2023-03-23",
-        "time": "7:00+01:00",
-        "link": "https://www.meetup.com/owasp-oslo/events/291637400",
-        "timezone": "Europe/Oslo",
-        "description": "**About the meetup**\nLocation: Grensen 5-7, Oslo\nFood: Pizza will be served from 17:00 (sponsored by Schibsted)\nPresentations will be held in english.\nThe meeting will not be recorded or streamed.\n\n**Talk 1: Defendable Products**\nHow do you improve security in products? This talk will walk you through what we have done in Schibsted the last three years to improve security in our products (e.g. Application Security and Cloud Security). From guiding principles, training package for developers, risk identification and escalation processes to introducing technical tools like SAST, DAST, CSPM and others. We wrap up with mistakes we made and our road ahead.\n\n**Talk 2: Opera: Five Years of Championship**\nFor the last five years, we have successfully run the security champions program at Opera. During this time, we learned a lot about the advantages and constraints of this model, applied it at scale (with more than 40 champions working in parallel), and improved it with the growing maturity of our processes.\n\nThis meet-up is sponsored by Schibsted. We appreciate their support!\n\nIf you want to become a sponsor for an OWASP meet-up, contact [oslo-leaders@owasp.org](mailto:oslo-leaders@owasp.org)."
     },
     {
         "group": "Peterborough",
@@ -258,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-maine/events/292101163",
         "timezone": "America/New_York",
         "description": "Are you an appsec guru and pride yourself in secure coding? Are you a developer and know you write **THE MOST** secure code out of your peers? Well here is your chance to come out and prove it and win **$CASH!$**\n\nOWASP Maine partnered with Secure Code Warrior will be hosting the 1st annual OWASP Maine Secure Coding Tournament! This will be an in person meetup where we welcome all software developers and appsec professionals from entry level to principal. Bring your laptop and your secure coding wits and compete against your peers to be crowned the most secure coder in the state of Maine for 2023!\n\n**Prizes will be as follows:**\n\n**1st Place**\n\n* Crowned most secure coder in the state of Maine\n* Pretty cool trophy (pics to come)\n* $500 VISA giftcard!\n\n**2nd Place**\n\n* Second place trophy\n* Some cool Secure Code Warrior Swag\n* $100 VISA giftcard!\n\n**3rd Place**\n\n* Third place trophy\n* Some slightly less cool swag\n* $50 VISA giftcard!\n\nFor everyone else? You will gain new skills in secure coding, network with your peers, and also get free pizza and drinks!\n\nParticipating in the tournament is not required, feel free to join us either way for networking and learning something new!\n\n**When:** Wednesday April 19th 2023 6:00pm - 8:00pm est\n**Where:** IDEXX Laboratories 1 Idexx Dr. Westbrook, ME 04092\n**Who:** Security and Development leadership and practitioners from Maine and all of northern New England\n\n**REQUIREMENTS:**\n\n**\\*You must also register for the Secure Code Warrior tournament here:** [https://discover.securecodewarrior.com/tournament-maine23.html](https://discover.securecodewarrior.com/tournament-maine23.html)\n**\\*You must bring your own laptop/machine to participate**\n**\\*You must be onsite and in person to participate**\n\n**OWASP Maine Linkedin Page:** [https://www.linkedin.com/company/owasp-maine/](https://www.linkedin.com/company/owasp-maine/)"
+    },
+    {
+        "group": "Sacramento",
+        "repo": "www-chapter-sacramento",
+        "name": "April Meetups",
+        "date": "2023-04-19",
+        "time": "9:00-07:00",
+        "link": "https://www.meetup.com/owasp-sacramento-chapter/events/292421031",
+        "timezone": "America/Los_Angeles",
+        "description": "OWASP Sacramento will meet the third Wednesday of the month. We will announce topics 2-3 weeks in advanced of our meetups.\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Intro to the chapter\n* Desired outcome from the community\n* Brief Threat Model of AWS Security"
     },
     {
         "group": "Salt Lake City",
@@ -308,16 +278,6 @@
         "link": "https://www.meetup.com/taipei-owasp-meetup-group/events/292383519",
         "timezone": "Asia/Taipei",
         "description": "OWASP Taiwan Chapter Meetup  OWASP \n\n\n\n [KKTIX](https://csa.kktix.cc/events/owasp202304-copy-1)\n 200/()"
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "Introducing the OWASP Top Ten for Kubernetes",
-        "date": "2023-03-23",
-        "time": "2:00-04:00",
-        "link": "https://www.meetup.com/owasptriangle/events/291842782",
-        "timezone": "America/New_York",
-        "description": "Given the growth and adoption of Kubernetes, a number of projects have been published in the OWASP community to help practitioners assess and secure the security of their containerized infrastructure including the recently released Top Ten for Kubernetes ([https://owasp.org/www-project-kubernetes-top-ten/](https://owasp.org/www-project-kubernetes-top-ten/)). This OSS project is a community-curated list of the most common Kubernetes risks backed by data collected from organizations varying in maturity and complexity. This session will discuss the project in detail, examples for each of the risks in the list, and how you can get involved."
     },
     {
         "group": "Vancouver",
