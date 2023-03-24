@@ -236,6 +236,9 @@ Commercial tools of this type that are free for open source:
             more public than you might prefer)
       - They also provide detailed information and remediation guidance
         for known vulnerabilities here: <https://snyk.io/vuln>
+  - [Software Health Indicator](https://software-health-indicator.com) by YourSky.blue
+    - The real time indicator that promotes supply chain transparency
+      Free for FOSS projects: <https://software-health-indicator.com/order/>
   - [SourceClear](https://www.veracode.com/products/software-composition-analysis)
     Now owned by Veracode. Supports: Java, Ruby, JavaScript, Python, Objective C, GO, PHP
       - They make their component vulnerability data (for publicly
