@@ -12,6 +12,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - April 2023 (Online)",
+        "date": "2023-04-25",
+        "time": "1:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705726",
+        "timezone": "America/Chicago",
+        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- Coming Soon\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - March 2023 (Online)",
         "date": "2023-03-28",
         "time": "1:30-05:00",
@@ -48,6 +58,16 @@
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/291605626",
         "timezone": "Australia/Brisbane",
         "description": "Hi All!\n\nWe have a speaker change for this event. The new date for Paul McCarty will be announced soon.\n\nHere is all you need to know about our new speaker for our March event, at Thoughtworks Brisbane on the 30th of March!\n\n**Speaker:** Louis Nyffenegger\n\n**Title:** Introduction to SAML and its Security\n\n**Talk Description:** SAML is one of the key protocols used to perform Single Sign-On. Especially for enterprises who...\n\nACKCHYUALLY!!! SAML is a Markup Language, like HTML... You don't code in HTML, you don't SSO with SAML.\n\nOk, thanks for the clarification. In this talk we are going to look at how SAML is used to provide Single Sign-on and what security issues can arise.\n\n**Thank you to our sponsor:**\n[Thoughtworks](https://www.thoughtworks.com)"
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "OWASP Suffolk - ZAP and Burp the Walkthrough",
+        "date": "2023-04-25",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-bristol/events/292044037",
+        "timezone": "Europe/London",
+        "description": "For the past two years I've been using OWASP ZAP and PortSwigger's Burp Suite (Community Edition), switching between the two as I learned hacking techniques and took part in CTFs. Each has their own pros and cons, features I like, quirks, and even room for improvement.\nFor this event we will be taking a slow walk through the interfaces and features of both tools side-by-side with both pointed at a vulnerable target.\nThis will be an interactive session where you can ask questions throughout. This event is aimed at the beginner who wishes to know more about these two popular tools. This is an unbiased demonstration and both tools will be in an out-of-the-box state with no optional extras / add-ons / plugins installed.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of ZAP and Burp Suite CE\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
     },
     {
         "group": "Bristol Uk",
@@ -108,6 +128,16 @@
         "link": "https://www.meetup.com/meetup-group-opbybwve/events/292115758",
         "timezone": "America/Edmonton",
         "description": "**UPDATE** - *The March event has been moved to NorQuest college to accommodate catering services and a larger than expected audience.*\n\n**Location**\n*10215 108 St NW, Edmonton, AB T5J 1L6*\n*Room 2-013 - SCFL - Downtown*\n*Directions and parking information are located in the photos section at the bottom of this page.*\n\n## About The Event###\n\n  \n**RSVP for CATERING COMPANY + DOOR PRIZES**\n\nhttps://www.meetup.com/meetup-group-opbybwve/\n\n**[SentinelOne](https://www.sentinelone.com/)** is sending a squadron of their finest experts to share their knowledge on the elusive art of **MITRE** deception.\n\nAs a pioneering force in this field, they will be providing not only a delectable **BBQ** **DINNER** catered by **Edmonton's** local **[CORNERSTONE BBQ](https://www.cornerstonebbq.com/)**, but also valuable insights on how to outsmart the crafty attackers. Think of it as a masterclass on the tactics and strategies needed to protect your organization from cyber-attacks.\n\nIn the words of the renowned ancient Chinese general **Sun Tzu**, \"All warfare is based on deception.\" And just as Sun Tzu believed in the importance of deception in warfare, Sentinel One understands the significance of deception in the ever-evolving battlefield of cybersecurity. So, join us for this informative session, and let's learn how to effectively deploy deception techniques to turn the tables on attackers."
+    },
+    {
+        "group": "Hong Kong",
+        "repo": "www-chapter-hong-kong",
+        "name": "Smart Contract Hacking Lab",
+        "date": "2023-04-04",
+        "time": "6:00+08:00",
+        "link": "https://www.meetup.com/owasp-hong-kong-chapter/events/292483522",
+        "timezone": "Asia/Shanghai",
+        "description": "Smart Contract Hacking self practice and idea exchange"
     },
     {
         "group": "Indian Institute Of Technology Patna",
@@ -220,6 +250,16 @@
         "description": "**Agenda:**\n\n1. Lunch\n2. Discussion on book: \"[How to measure anything in Cybersecurity](https://a.co/d/3E75efX)\"\n3. How to measure ROI on popular AppSec controls\n\nPlease RSVP if you're coming! We'd like to make sure you get some lunch (i.e. pizza) for meeting in person.\nAnd let us know if there are any food sensitivities.\n\nSee you all then!\n\n[ADDRESS]\n2001 S State St, Salt Lake City, UT 84190\nSouth Building -- Rm# S1-120, located on the West side of the South building atrium\n\n[Amazon Book Link]\nhttps://a.co/d/3E75efX"
     },
     {
+        "group": "Sastra University",
+        "repo": "www-chapter-sastra-university",
+        "name": "From Student to Cybersecurity Intern: Insights and Learning Curve",
+        "date": "2023-04-01",
+        "time": "9:00+05:30",
+        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/292492224",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us for an insightful webinar with Abisheik Magesh, as he shares his journey and learning curve from a student to a cybersecurity intern.\nDon't miss out on this opportunity to learn from a SecDevOps Intern at Synchroy and a Synack Red Teamer, and the Lead of OWASP Thiruvallur."
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -238,6 +278,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/292263675",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "ZAP and Burp the Walkthrough",
+        "date": "2023-04-25",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291848350",
+        "timezone": "Europe/London",
+        "description": "For the past two years I've been using OWASP ZAP and PortSwigger's Burp Suite (Community Edition), switching between the two as I learned hacking techniques and took part in CTFs. Each has their own pros and cons, features I like, quirks, and even room for improvement.\n\nFor this event we will be taking a slow walk through the interfaces and features of both tools side-by-side with both pointed at a vulnerable target.\n\nThis will be an interactive session where you can ask questions throughout. This event is aimed at the beginner who wishes to know more about these two popular tools. This is an unbiased demonstration and both tools will be in an out-of-the-box state with no optional extras / add-ons / plugins installed.\n\nAgenda:\n\n* OWASP updates\n* Live interactive demonstration of ZAP and Burp Suite CE\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
     },
     {
         "group": "Suffolk",
