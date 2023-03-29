@@ -1,15 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - Virtual - March",
-        "date": "2023-03-28",
-        "time": "9:00+02:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/288772567",
-        "timezone": "Europe/Copenhagen",
-        "description": "Notice, that this is a virtual event running on Zoom. Please reach out if the event gets full and I will add room for more people.\n\n**19:00 - 19:10 \u2013 \"Welcome\" by OWASP Chapter Aarhus**\n\n**19:10 - 19:55 \u2013 \"Let's Write Security Unit Tests\" by Eric Johnson, Principal Security Engineer at Puma Security and SANS Senior Instructor**\n\nAbout the presentation:\nDevOps teams are test obsessed, often leveraging unit testing frameworks and continuous integration (CI) tools to automate test requirements. In this talk, we will explore how security unit testing fits into DevOps, a few unit testing frameworks, and several examples that can help security teams harden their applications. Live demonstrations will show how to write security unit tests, execute the tests in a GitHub Actions workflow, and evaluate the test results.\n\nAbout the presenter:\nEric Johnson is co-founder and Principal Security Engineer at Puma Security focusing on cloud security, static code analysis, and DevSecOps automation. His experience includes performing cloud security reviews, infrastructure as code automation, application security automation, web and mobile application penetration testing, secure development lifecycle consulting, and secure code review assessments. Eric is a Senior Instructor with the SANS Institute where he authors information security courses on cloud security, DevSecOps automation, and secure coding. He delivers security training globally for SANS, as well as presents security research at conferences including RSA, BlackHat, OWASP, BSides, DevOpsDays, fwd:cloudsec, and ISSA.\n\n**19:55 \u2013 20:05 \u2013 Short break**\n\n**20:05 \u2013 20:55 \u2013 \u201cA Fully Trained Jedi, You Are Not\u201d by Adam Shostack, President, Shostack + Associates**\n\nAbout the presentation:\nAs software organizations try to bring security earlier in the development processes, what can or should regular software or operations engineers know about security? Taking as given that we want them to build secure systems, that demands a shared understanding of the security issues that might come up, and agreement on what that body of knowledge might entail. Without this knowledge, they'll keep building insecure systems. With them, we can have fewer recurring problems that are trivially attackable.\n\nAbout the presenter:\nAdam is a leading expert on threat modeling, and a consultant, author and game designer. He has decades of experience delivering security. His experience ranges across the business world from founding startups to nearly a decade at Microsoft. He helped to create the CVE, serves on the Blackhat Review Board, and is an affiliate professor at the University of Washington.\n\n**20:55 \u2013 21:00 - \"Closing notes and Goodbyes\" by OWASP Chapter Aarhus**"
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - April 2023 (Online)",
@@ -18,16 +8,6 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/290705726",
         "timezone": "America/Chicago",
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- Coming Soon\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - March 2023 (Online)",
-        "date": "2023-03-28",
-        "time": "1:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705720",
-        "timezone": "America/Chicago",
-        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* -- [Eventbrite](https://owasp-austin-2023-march.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: API Risk Management**\nWeb applications are prone to various cybersecurity risks. Did you know that 96% of these web applications contain some Open Source? Furthermore, did you know that 99% of such Open Source contain some Web APIs. You may be surprised to know that Web APIs contribute 83% of the traffic over the internet. Unfortunately, this growing API usage also means growing cybersecurity risks. Although, APIs benefit organizations immensely through accelerated innovations, newer business models, competitive differentiation, but organizations are also negatively impacted by APIs due to their weak security posture leading to business disruptions, legal and compliance issues. Gartner has actually predicted that by 2022, API abuses will be the most frequent attack vector resulting in data breaches for web applications. Given the importance of APIs for digital transformation at organizations, it is imperative for their Security, Compliance and Audit professionals to get a handle on APIs to manage various API related risks. This session will provide an overview of an API Governance framework for effective API Risk Management. This framework is inspired by the Zero Trust model that enterprises can use as a \u201cSwiss Knife\u201d for reducing their API related risks. We\u2019ll also highlight best practices and hands-on examples for API Risk Management.\n\n**Speaker: Dr. Baljeet Malhotra**\nDr. Baljeet Malhotra, is an award-winning researcher known for his work in Open Source and API Data Management. He conceptualized the world's first \"API Composition Analysis\" based on source code static analysis. He founded TeejLab in 2017 and steered the team to build API Discovery and Security\u2122, world's first comprehensive end-to-end API Management platform. Prior to TeejLab, he established the R&D unit of Black Duck Software in 2016 (acquired by Synopsys), he has also served as Research Director at SAP. He received a PhD in Computing Science from the University of Alberta and won several awards including NSERC (Canada) scholar in 2005 and Global Young Scientist (Singapore). He concurrently holds Adjunct Professor positions at the University of British Columbia, University of Victoria and University of Northern BC.\n\nRSVP for in-person:\nhttps://owasp-austin-2023-march.eventbrite.com Eventbrite(in-person)"
     },
     {
         "group": "Bonita Springs",
@@ -57,7 +37,7 @@
         "time": "8:00+10:00",
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/291605626",
         "timezone": "Australia/Brisbane",
-        "description": "Hi All!\n\nWe have a speaker change for this event. The new date for Paul McCarty will be announced soon.\n\nHere is all you need to know about our new speaker for our March event, at Thoughtworks Brisbane on the 30th of March!\n\n**Speaker:** Louis Nyffenegger\n\n**Title:** Introduction to SAML and its Security\n\n**Talk Description:** SAML is one of the key protocols used to perform Single Sign-On. Especially for enterprises who...\n\nACKCHYUALLY!!! SAML is a Markup Language, like HTML... You don't code in HTML, you don't SSO with SAML.\n\nOk, thanks for the clarification. In this talk we are going to look at how SAML is used to provide Single Sign-on and what security issues can arise.\n\n**Thank you to our sponsor:**\n[Thoughtworks](https://www.thoughtworks.com)"
+        "description": "Hi All!\n\nWe have a speaker change for this event. The new date for Paul McCarty will be announced soon.\n\nHere is all you need to know about our new speaker for our March event, at Thoughtworks Brisbane on the 30th of March!\n\n**Speaker:** Louis Nyffenegger\n\n**Title:** Introduction to SAML and its Security\n\n**Talk Description:** SAML is one of the key protocols used to perform Single Sign-On. Especially for enterprises who...\n\nACKCHYUALLY!!! SAML is a Markup Language, like HTML... You don't code in HTML, you don't SSO with SAML.\n\nOk, thanks for the clarification. In this talk we are going to look at how SAML is used to provide Single Sign-on and what security issues can arise.\n\n**Thank you to our venue sponsor:**\n[Thoughtworks](https://www.thoughtworks.com)\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nFor those of you who have joined us at previous events, unfortunately, we are unable to provide drinks and pizzas at this stage. However, we plan to meet at Pig\u2019n\u2019Whistle, 123 Eagle St, at 4:30 pm. Then, we will head over to Thoughtworks at around 5:15 pm.\n\nIf you can, come and join us!"
     },
     {
         "group": "Bristol Uk",
@@ -100,16 +80,6 @@
         "description": "Ce meeting du chapitre OWASP-Cotonou a pour th\u00e8me g\u00e9n\u00e9ral: \"Les applications web: am\u00e9lioration ou mise en danger de la vie des utilisateurs ?\" Il s'articulera autours des deux th\u00e8mes suivants:\n\n**Impacts de la digitalisation sur les internautes,** par **Orace KPAKPO**, Ing R\u00e9seaux et Syst\u00e8mes, Analyst Cybers\u00e9curit\u00e9 \u00e0 EMES SARL, leader du chapitre OWASP Cotonou\n\n**Digitalisation et s\u00e9curit\u00e9 au B\u00e9nin,** par **Victor OYETOLA**, Expert TIC, responsable du SPTIC \u00e0 l'UAC"
     },
     {
-        "group": "Delaware",
-        "repo": "www-chapter-delaware",
-        "name": "Hacking Multifactor Authentication",
-        "date": "2023-03-28",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-delaware-chapter/events/292010693",
-        "timezone": "America/New_York",
-        "description": "Organizations often have the misconception that if they implement Multifactor Authentication (MFA) as an extra layer of security on top of passwords, they are unhackable. Unfortunately, this is not the case. During this talk you will learn some of the ways MFA can be bypassed.\n\nBonus: Time permitting - Misc. web hacking demos and CTF challenges will also be given after the featured presentation. The meeting will be held in the library's computer lab to encourage people to get some hands-on web security testing experience."
-    },
-    {
         "group": "Dorset",
         "repo": "www-chapter-dorset",
         "name": "OWASP Suffolk Fight Club - April 2022",
@@ -148,6 +118,16 @@
         "link": "https://www.meetup.com/owasp-hong-kong-chapter/events/292483522",
         "timezone": "Asia/Shanghai",
         "description": "Smart Contract Hacking self practice and idea exchange"
+    },
+    {
+        "group": "Indraprastha Institute Of Information Technology",
+        "repo": "www-chapter-indraprastha-institute-of-information-technology",
+        "name": "BugSmash 2023",
+        "date": "2023-03-29",
+        "time": "7:30+05:30",
+        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/292526513",
+        "timezone": "Asia/Kolkata",
+        "description": "**Only for IIITD Students**\nOWASP IIITD is back with its no-prerequisite, highly thrilling, one-of-a-kind flagship contest BugSmash.\n\nNo prerequisites required, just come ready to put your skills to the test and find those vulnerabilities and smash them damn bugs in the code. Be ready to google stuff, because you'll need it. Make StackOverflow and manual pages (or probably even reddit idk) your best friends as you battle it out with your fellow contestants and climb up the leaderboard in a two hour rush of adrenaline.\n\n**Date: Wednesday, 29th March 2022**\n**Time: 5:30 pm**\n**Venue: A106, R&D Block, IIIT Delhi**\n\n**Chocolates for the First Blood in each challenge.**\n**Refreshments for all attendees :)**"
     },
     {
         "group": "Jacksonville",
@@ -198,16 +178,6 @@
         "link": "https://www.meetup.com/owasp-maine/events/292101163",
         "timezone": "America/New_York",
         "description": "Are you an appsec guru and pride yourself in secure coding? Are you a developer and know you write **THE MOST** secure code out of your peers? Well here is your chance to come out and prove it and win **$CASH!$**\n\nOWASP Maine partnered with Secure Code Warrior will be hosting the 1st annual OWASP Maine Secure Coding Tournament! This will be an in person meetup where we welcome all software developers and appsec professionals from entry level to principal. Bring your laptop and your secure coding wits and compete against your peers to be crowned the most secure coder in the state of Maine for 2023!\n\n**Prizes will be as follows:**\n\n**1st Place**\n\n* Crowned most secure coder in the state of Maine\n* Pretty cool trophy (pics to come)\n* $500 VISA giftcard!\n\n**2nd Place**\n\n* Second place trophy\n* Some cool Secure Code Warrior Swag\n* $100 VISA giftcard!\n\n**3rd Place**\n\n* Third place trophy\n* Some slightly less cool swag\n* $50 VISA giftcard!\n\nFor everyone else? You will gain new skills in secure coding, network with your peers, and also get free pizza and drinks!\n\nParticipating in the tournament is not required, feel free to join us either way for networking and learning something new!\n\n**When:** Wednesday April 19th 2023 6:00pm - 8:00pm est\n**Where:** IDEXX Laboratories 1 Idexx Dr. Westbrook, ME 04092\n**Who:** Security and Development leadership and practitioners from Maine and all of northern New England\n\n**REQUIREMENTS:**\n\n**\\*You must also register for the Secure Code Warrior tournament here:** [https://discover.securecodewarrior.com/tournament-maine23.html](https://discover.securecodewarrior.com/tournament-maine23.html)\n**\\*You must bring your own laptop/machine to participate**\n**\\*You must be onsite and in person to participate**\n\n**OWASP Maine Linkedin Page:** [https://www.linkedin.com/company/owasp-maine/](https://www.linkedin.com/company/owasp-maine/)"
-    },
-    {
-        "group": "Mugla University",
-        "repo": "www-chapter-mugla-university",
-        "name": "Web Uygulama Zafiyetleri: Cross Site Scripting (XSS) Injection",
-        "date": "2023-03-28",
-        "time": "9:00+03:00",
-        "link": "https://www.meetup.com/owasp-mugla-university-student-chapter/events/292511963",
-        "timezone": "Europe/Istanbul",
-        "description": "Tekrardan merhabalar arkada\u015flar, OWASP Mu\u011fla University & MSKU Siber toplulu\u011fu olarak bahar d\u00f6neminin ilk etkinli\u011fi ile sizlerleyiz.\nBu serimizde Siber G\u00fcvenlik konular\u0131ndan Web Uygulama Zafiyetlerini \u00f6\u011frenece\u011fiz. \u0130lk etkinli\u011fimizde web uygulamalar\u0131nda s\u0131kl\u0131kla kar\u015f\u0131la\u015f\u0131lan bir zafiyet olan Cross Site Scripting (XSS) Injection zafiyeti anlat\u0131lacak\n\nDiscord Adresimiz: https://discord.gg/ee3vUQeEbg"
     },
     {
         "group": "Netherlands",
@@ -330,6 +300,16 @@
         "description": "OWASP Taiwan Chapter Meetup  OWASP \n\n\n\n [KKTIX](https://csa.kktix.cc/events/owasp202304-copy-1)\n 200/()"
     },
     {
+        "group": "Triangle Nc",
+        "repo": "www-chapter-triangle-nc",
+        "name": "AppSec Roundtable, hosted by Chris Romeo",
+        "date": "2023-04-27",
+        "time": "2:00-04:00",
+        "link": "https://www.meetup.com/owasptriangle/events/291207489",
+        "timezone": "America/New_York",
+        "description": "Following up on the success of our first AppSec round table in January, we'll continue the format for our April meeting. The host will present questions to get the conversation going, and the group will share insights and wisdom!"
+    },
+    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Tracing webapp exploitability through code review and taint analysis",
@@ -347,7 +327,7 @@
         "time": "8:00+03:00",
         "link": "https://www.meetup.com/owasp-vilnius/events/292250628",
         "timezone": "Europe/Vilnius",
-        "description": "I'm glad to announce, that this will be a physical event organised with VU Cyber Security Lab on the Vilnius University premises (Baltupiai, Vilnius).\n\nThe agenda:\n\n1\\) Linas Bukauskas \\(Kibernetinio saugumo labaratorijos vadovas \\| VU MIF\\) \\- \"Kibernetinio saugumo laboratorijos veiklos\\, projektai\\, bendradarbiavimo galimyb\u0117s\" \\(lithuanian\\)\n\n2\\) Agne Marija Bucyte \\(Vehicle Cybersecurity Analyst \\| Block Harbor\nCybersecurity) - \"Automotive (car) Cybersecurity trends\".\nWe will be discussing some of the latest trends in the world of automotive\ncybersecurity, gain insight on some latest statistics and get familiar\nwith some standards that help keep the streets safe.\n\n3\\) Ulad Pyanou \\( Application Security Engineer \\| EPAM Systems\\)\\- \"A day in life of the Security Engineer\"\\. During the talk Ulad will show\nexamples of tasks that are being solved by different security teams\n\nLocation: VU MIF, Didlaukio g. 47. 103 auditorium.\n\nSee you soon!"
+        "description": "I'm glad to announce, that this will be a physical event organised with VU Cyber Security Lab in the Vilnius University premises (Baltupiai, Vilnius).\n\nThe agenda:\n\n1\\) Linas Bukauskas \\(Kibernetinio saugumo labaratorijos vadovas \\| VU MIF\\) \\- \"Kibernetinio saugumo laboratorijos veiklos\\, projektai\\, bendradarbiavimo galimyb\u0117s\" \\(lithuanian\\)\n\n2\\) Agne Marija Bucyte \\(Vehicle Cybersecurity Analyst \\| Block Harbor\nCybersecurity) - \"Automotive (car) Cybersecurity trends\".\nWe will be discussing some of the latest trends in the world of automotive\ncybersecurity, gain insight on some latest statistics and get familiar\nwith some standards that help keep the streets safe.\n\n3\\) Ulad Pyanou \\( Application Security Engineer \\| EPAM Systems\\)\\- \"A day in life of the Security Engineer\"\\. During the talk Ulad will show\nexamples of tasks that are being solved by different security teams\n\nLocation: VU MIF, Didlaukio g. 47. 103 auditorium.\n\nSee you soon!"
     },
     {
         "group": "Waterloo",
