@@ -216,7 +216,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Angular
 
 ##### Mentor
-* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
+* [Ardi](mailto:pakdesawangan@gmail.com)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
 ### [OWASP PyGoat](https://owasp.org/www-project-pygoat/)
@@ -259,7 +259,7 @@ The OWASP Risk Assessment Framework consist of Dynamic application security test
 
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Building API Scanner and Integrated other scanner (OWASP ZAP, etc)
+- Building API Scanner and Integrated other scanners
 - Add Vulnerabilities based on OWASP Top 10 - 2021, CVE Mitre, SANS 25 Top error also ISO 27k
 - Integrated to other pentest tool
 - Scheduled scan
