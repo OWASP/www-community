@@ -640,7 +640,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 
 #### CRS 💡 #2
 
@@ -752,4 +752,4 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Christian Folini](mailto:christian.folini@owasp.org)
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
