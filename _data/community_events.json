@@ -10,6 +10,26 @@
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- Coming Soon\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!"
     },
     {
+        "group": "Bangalore",
+        "repo": "www-chapter-bangalore",
+        "name": "Null/OWASP Combined monthly meet-up ",
+        "date": "2023-04-22",
+        "time": "0:00+05:30",
+        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/292584332",
+        "timezone": "Asia/Kolkata",
+        "description": "Exploiting Android Activities by UJJAYANI PRADHAN\n\nSecurity Testing on login pages by srinivas\n\nCloud Pentesting by Mukesh kumar Rao\n\nCyber Threat intel and mitre attack by Tarun Sai"
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "April Meetup",
+        "date": "2023-04-12",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/292582745",
+        "timezone": "America/Los_Angeles",
+        "description": "Our April Meetup is hosted by Check Point at their San Carlos location.\n\nPlease note: You will be required to show picture ID to enter the building.\n\n**Location**\nCheck Point Software Technologies 959 Skyway Rd #300, San Carlos, CA 94070\n\n**Agenda**\n5:30 - Doors open\n5:30 - 6:00 Food and drinks, networking\n6:00 - 6:45 Ryan Rasmuss - Leveraging ML/AI to advance Application Security\n6:45 - 7:30 Kiran Kamit - Reducing Alert Fatigue with Container Scans: Correlate, Prioritize and Filter Based on Usage\n7:30 - 8:15 Jim Downey - topic TBA\n8:15 - Close\n\n**We will have three talks this month**\n\n**Talk 1:**\n*Leveraging ML/AI to advance Application Security*\n\nDescription:\nWeb Applications and APIs are always vulnerable to new CVEs and victim to constant probing of threat actors. When a new vulnerability is released, we have to identify if our application is susceptible and then build a rule(s) to protect against these exploits. Pair this with applications and APIs that change with every release and we are left feeling uncertain.\n\nIn today's session we will deploy open source tools that leverage machine learning for web applications and APIs. These tools will help us learn about our applications and automatically apply the relevant protections. We can also learn about new exploits in the wild before an official CVE is released.\n\nSpeaker:\nRyan Rasmuss has been working as a security engineer for Check Point Software Ltd for about 5 years. During that time he\u2019s focused on Application Security and Threat Intelligence. Outside of work he\u2019s a big fan of local CTFs, golf, and camping!\n\n**Talk 2:**\n*Reducing Alert Fatigue with Container Scans: Correlate, Prioritize and Filter Based on Usage*\n\nDescription:\nToday, developers and devops engineers are being asked to address vulnerabilities and apply chain risks in container images. However, the volume of noisy security alerts often leads to developers ignoring them entirely or wasting valuable sprint time researching \u201cfalse positives.\u201d\nThis session will focus on how engineering teams can correlate vulnerabilities with runtime information, prioritize alerts based on usage, and filter out false positives that don\u2019t represent a true exposure of a vulnerability. Prioritizing security updates to only used packages in your container image is a highly effective approach to reducing alert fatigue with your container scans. In addition, your DevOps team can even consider removing some of the unused packages and shrink your container images. As an example, this session will include a demonstration of a typical SCA static container scan of a sample open-source test application and then show how an engineering team can filter alerts to reduce the number of vulnerable and used alerts that actually need to be fixed by developers by up to 90%.\n\nSpeaker:\nKiran Kamity is the Founder & CEO of Deepfactor. He is a serial Silicon Valley entrepreneur with a passion for building products that meet a need and make a business impact\u2014with Deepfactor that\u2019s empowering engineering teams to create secure cloud native applications. Prior to Deepfactor, Kiran was the Head of Product at Cisco Cloud BU, Founder/CEO at ContainerX (acquired by Cisco), and the Founder/VP at RingCube (acquired by Citrix). Kiran is a TEDx speaker and loves nature, travel, and food\n\n**Talk 3:**\n*Details to follow*"
+    },
+    {
         "group": "Bonita Springs",
         "repo": "www-chapter-bonita-springs",
         "name": "Zed Attack Proxy",
@@ -30,16 +50,6 @@
         "description": "**Join us for [BASC 2023](basconf.org) on April 1.**\n\n**See [conference website](https://www.basconf.org/home) for details and [register at eventbrite](https://www.eventbrite.com/e/boston-application-security-conference-basc-2023-tickets-542873247497)**\n\n(There is no conference registration or RSVP here on meetup.)"
     },
     {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "**Speaker change** OWASP Brisbane - March",
-        "date": "2023-03-30",
-        "time": "8:00+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/291605626",
-        "timezone": "Australia/Brisbane",
-        "description": "Hi All!\n\nWe have a speaker change for this event. The new date for Paul McCarty will be announced soon.\n\nHere is all you need to know about our new speaker for our March event, at Thoughtworks Brisbane on the 30th of March!\n\n**Speaker:** Louis Nyffenegger\n\n**Title:** Introduction to SAML and its Security\n\n**Talk Description:** SAML is one of the key protocols used to perform Single Sign-On. Especially for enterprises who...\n\nACKCHYUALLY!!! SAML is a Markup Language, like HTML... You don't code in HTML, you don't SSO with SAML.\n\nOk, thanks for the clarification. In this talk we are going to look at how SAML is used to provide Single Sign-on and what security issues can arise.\n\n**Thank you to our venue sponsor:**\n[Thoughtworks](https://www.thoughtworks.com)\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nFor those of you who have joined us at previous events, unfortunately, we are unable to provide drinks and pizzas at this stage. However, we plan to meet at Pig\u2019n\u2019Whistle, 123 Eagle St, at 4:30 pm. Then, we will head over to Thoughtworks at around 5:15 pm.\n\nIf you can, come and join us!"
-    },
-    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "OWASP Suffolk - ZAP and Burp the Walkthrough",
@@ -58,16 +68,6 @@
         "link": "https://www.meetup.com/owasp-bristol/events/292044025",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Colorado Springs",
-        "repo": "www-chapter-colorado-springs",
-        "name": "OWASP CoS March 2023",
-        "date": "2023-03-30",
-        "time": "8:00-06:00",
-        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/292240244",
-        "timezone": "America/Denver",
-        "description": "Speaker: Ben Struebing\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
         "group": "Cotonou",
@@ -210,16 +210,6 @@
         "description": "OWASP Sacramento will meet the third Wednesday of the month. We will announce topics 2-3 weeks in advanced of our meetups.\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Intro to the chapter\n* Desired outcome from the community\n* Brief Threat Model of AWS Security"
     },
     {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "Wasatch AppSec / OWASP-SLC - March Meetup (in person @ SLC County Bldg)",
-        "date": "2023-03-30",
-        "time": "2:00-06:00",
-        "link": "https://www.meetup.com/owasp-slc/events/292096700",
-        "timezone": "America/Denver",
-        "description": "**Agenda:**\n\n1. Lunch\n2. Discussion on book: \"[How to measure anything in Cybersecurity](https://a.co/d/3E75efX)\"\n3. How to measure ROI on popular AppSec controls\n\nPlease RSVP if you're coming! We'd like to make sure you get some lunch (i.e. pizza) for meeting in person.\nAnd let us know if there are any food sensitivities.\n\nSee you all then!\n\n[ADDRESS]\n2001 S State St, Salt Lake City, UT 84190\nSouth Building -- Rm# S1-120, located on the West side of the South building atrium\n\n[Amazon Book Link]\nhttps://a.co/d/3E75efX"
-    },
-    {
         "group": "Sastra University",
         "repo": "www-chapter-sastra-university",
         "name": "From Student to Cybersecurity Intern: Insights and Learning Curve",
@@ -298,16 +288,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248498",
         "timezone": "America/Vancouver",
         "description": "**Title**: Tracing web application exploitability through code review and taint analysis\n**Speaker**: Dana Epp\n\nCome learn how to look at your web apps and APIs more offensively to discover the exploitability of your code before your adversaries do.\n\nThis event is sponsored by **Microsoft** \\- thanks for providing us space and food\\."
-    },
-    {
-        "group": "Vilnius",
-        "repo": "www-chapter-vilnius",
-        "name": "OWASP Vilnius #4",
-        "date": "2023-03-30",
-        "time": "8:00+03:00",
-        "link": "https://www.meetup.com/owasp-vilnius/events/292250628",
-        "timezone": "Europe/Vilnius",
-        "description": "I'm glad to announce, that this will be a physical event organised with VU Cyber Security Lab in the Vilnius University premises (Baltupiai, Vilnius).\n\nThe agenda:\n\n1\\) Linas Bukauskas \\(Kibernetinio saugumo labaratorijos vadovas \\| VU MIF\\) \\- \"Kibernetinio saugumo laboratorijos veiklos\\, projektai\\, bendradarbiavimo galimyb\u0117s\" \\(lithuanian\\)\n\n2\\) Agne Marija Bucyte \\(Vehicle Cybersecurity Analyst \\| Block Harbor\nCybersecurity) - \"Automotive (car) Cybersecurity trends\".\nWe will be discussing some of the latest trends in the world of automotive\ncybersecurity, gain insight on some latest statistics and get familiar\nwith some standards that help keep the streets safe.\n\n3\\) Ulad Pyanou \\( Application Security Engineer \\| EPAM Systems\\)\\- \"A day in life of the Security Engineer\"\\. During the talk Ulad will show\nexamples of tasks that are being solved by different security teams\n\nLocation: VU MIF, Didlaukio g. 47. 103 auditorium.\n\nSee you soon!"
     },
     {
         "group": "Waterloo",
