@@ -7,7 +7,8 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap) &bull; [Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set)
+[ZAP](#owaspzap) &bull; [Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) &bull; [OWASP Nettacker](#owasp-nettacker)
+
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -753,3 +754,38 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 * [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+
+### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
+
+OWASP Nettacker is a Modular Automated Penetration Testing/ Information gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, default credentials.
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Preferred for "Medium" GSoC 2032 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+
+##### Explanation of Ideas
+
+- create comparison functionality for comparing the current scan with another scan using scanID
+- fix scan engine multi-threading/queuing issues
+- improve WebUI / add dashboard
+- implement SSL/TLS modules to restore the functionality we had in Nettacker v0.0.2
+- add DefectDojo integration / output report format
+- add SARIF output report format
+
+##### Getting Started
+
+Repositories:
+
+- [OWASP Nettacker on OWASP GitHub](https://github.com/OWASP/Nettacker)
+- Join OWASP Slack and contact us on channel [#project-nettacker](https://app.slack.com/client/T04T40NHX/CQZGG24FQ)
+
+##### Knowldege  Requirements
+
+- Python
+- Flask
+- HTML/CSS/JavaScript
+- previous vulnerability scanning/bug bounty hunting experience
+
+##### Mentors
+
+* [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
+* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
