@@ -162,12 +162,12 @@
       "type": "DAST"
    },
    {
-      "title": "Bearer",
-      "url": "https://www.bearer.com",
+      "title": "Bearer CLI",
+      "url": "https://github.com/bearer/bearer",
       "owner": "Bearer",
-      "license": "Commercial",
-      "platforms": "SaaS or On-Premises",
-      "note": "Map sensitive data flows and identify security risks such as unauthorized data flow, missing encryption, unauthorized access, and more.",
+      "license": "Open Source or Free",
+      "platforms": "CLI on Windows, MacOS, Linux, Docker,  CI/CD integration",
+      "note": "Developer-first Static Application Security Testing (SAST) tool that automates threat modelling, allows native filtering and prioritization of security risks using sensitive data flow analysis. Supports Ruby, JavaScript, and TypeScript with more coming soon.",
       "type": "SAST"
    },
    {
