@@ -52,6 +52,16 @@
     {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
+        "name": "OWASP Suffolk Fight Club - May 2023",
+        "date": "2023-05-09",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-bristol/events/292044026",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
         "name": "OWASP Suffolk - ZAP and Burp the Walkthrough",
         "date": "2023-04-25",
         "time": "9:00+01:00",
@@ -200,6 +210,16 @@
         "description": "This is an online meeting and will be streamed on YouTube.\n\n19:00 - 19:10 - **Welcome and OWASP updates**\n19:10 - 19:55 - **The Rise of the Security Verification Standard** by **Josh Grossman**\n19:55 - 20:05 - **Questions and** **Break**\n20:05 - 20:50 - **OWASP Juice Shop** by **Bj\u00f6rn Kimminich**\n\n**The Rise of the Security Verification Standard**\n*Abstract:*\nWe are currently seeing a big uptick in the progression of the OWASP Application Security Verification Standard (ASVS) as well as the Mobile version (MASVS). Not only are two major releases in the pipeline (5.0 and 2.0 respectively) but we are now seeing industry stand up, take notice and start expecting more from applications, based on these standards. In this talk, Josh Grossman (one of the ASVS project leaders) will take you through these key developments including our vision for the upcoming version 5.0 of the ASVS and how you and your employer can be involved in the final release.\nThis will also be a chance to hear first-hand about a couple of new programmes where you will see the SVSs being more widely used and required and how you can prepare your organizations for this significant impact this will have, whether you are developing applications or you are assessing them.\n\n*Bio:*\nJosh Grossman has worked as a consultant in IT and Application Security and Risk for 15 years now, as well as a Software Developer. This has given him an in-depth understanding of how to manage the balance between business needs, developer needs and security needs which goes into a successful software security programme.\n\nJosh is currently CTO for Bounce Security where he helps clients improve and get better value from their application security processes and provides specialist application security advice. His consultancy work has led him to work, speak and deliver training both locally and worldwide including privately for ISACA and Manicode and publicly for OWASP's Global AppSec conferences. In his spare time, he co-leads the OWASP Application Security Verification Standard project and is on the OWASP Israel chapter board.\n\nHe was also recognized as a Key Contributor for the OWASP Proactive Controls project and has also contributed to the OWASP Top 10 Risks project and the OWASP JuiceShop project.\n\n**OWASP Juice Shop**\n*Abstract:*\nOWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security training, awareness demos, CTFs and as a guinea pig for security tools!\n\nJuice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!\n\nAt this event, we will take a tour through the application, hack it live on screen, learn about Coding Challenges, CTF mode, cheat detection, custom theming, and more!\n\n*Bio:*\nBjoern Kimminich works as Product Group Lead Application Ecosystem at Kuehne + Nagel, responsible \u2013 among other things \u2013 for the Application Security program in corporate IT. He is an OWASP Lifetime Member, the project leader of the OWASP Juice Shop, and a co-chapter leader for the OWASP Germany Chapter. Bj\u00f6rn also currently chairs the OWASP Project Committee."
     },
     {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP NZ - Auckland Meetup - May 2023",
+        "date": "2023-05-09",
+        "time": "8:00+12:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291720878",
+        "timezone": "Pacific/Auckland",
+        "description": "The Auckland-area OWASP Meetup takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for May will be **A07:2021 - Identification and Authentication Failures.**\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
+    },
+    {
         "group": "Oakland County",
         "repo": "www-chapter-oakland-county",
         "name": "Kubernetes \u2013 \u201ccontainers aren't just for leftovers\u201d",
@@ -298,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/292263675",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "OWASP Suffolk Fight Club - May 2023",
+        "date": "2023-05-09",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291864867",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Suffolk",
