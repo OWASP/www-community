@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: CSV Injection
 author: Timo Goosen, Albinowax
-contributors: kingthorin
+contributors: kingthorin, budgy11
 permalink: /attacks/CSV_Injection
 tags: attack, vulnerability, CSV Injection
 
@@ -37,7 +37,6 @@ begin with any of the following characters:
 Keep in mind that it is not sufficient to make sure that the untrusted user input does not start with these characters. You also need to take care of the field separator (e.g., '`,`', or '`;`') and quotes (e.g., `'`, or `"`), as attackers could use this to start a new cell and then have the dangerous character in the middle of the user input, but at the beginning of a cell.
 
 Alternatively, apply the following sanitization to each field of the CSV, so that their content will be read as text by the spreadsheet editor:
-* Wrap each cell field in double quotes
 * Prepend each cell field with a single quote
 * Escape every double quote using an additional double quote
 
