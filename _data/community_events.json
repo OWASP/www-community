@@ -57,7 +57,7 @@
         "time": "8:00+10:00",
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/292718908",
         "timezone": "Australia/Brisbane",
-        "description": "Today, software engineering teams are increasingly focused on results and strive for autonomy, often by embracing various agile methodologies and organizational structures. This move presents numerous challenges for security teams, who are typically responsible for ensuring a vulnerability-free platform.\nThis month, Andrew will explore strategies for effectively integrating vulnerability management into these dynamic agile teams and fostering a robust security culture.\n\nEvent location to be confirmed (coming soon)."
+        "description": "Today, software engineering teams are increasingly focused on results and strive for autonomy, often by embracing various agile methodologies and organizational structures. This move presents numerous challenges for security teams, who are typically responsible for ensuring a vulnerability-free platform.\nThis month, Andrew will explore strategies for effectively integrating vulnerability management into these dynamic agile teams and fostering a robust security culture.\n\nSee you all there Tuesday the 18th of April at Thoughtworks."
     },
     {
         "group": "Bristol Uk",
@@ -80,16 +80,6 @@
         "description": "For the past two years I've been using OWASP ZAP and PortSwigger's Burp Suite (Community Edition), switching between the two as I learned hacking techniques and took part in CTFs. Each has their own pros and cons, features I like, quirks, and even room for improvement.\nFor this event we will be taking a slow walk through the interfaces and features of both tools side-by-side with both pointed at a vulnerable target.\nThis will be an interactive session where you can ask questions throughout. This event is aimed at the beginner who wishes to know more about these two popular tools. This is an unbiased demonstration and both tools will be in an out-of-the-box state with no optional extras / add-ons / plugins installed.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of ZAP and Burp Suite CE\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
     },
     {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP Suffolk Fight Club - April 2023",
-        "date": "2023-04-11",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-bristol/events/292044025",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
         "group": "Cotonou",
         "repo": "www-chapter-cotonou",
         "name": "Les applications web: Am\u00e9lioration ou mise en danger de la vie des utilisateurs",
@@ -108,16 +98,6 @@
         "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/292685322",
         "timezone": "America/Chicago",
         "description": "**Gaining Visibility and Reducing Risk in the SaaS Attack Surface**\n\nWith many recent SaaS related breaches (GitHub, Okta, LastPass, Dropbox, Microsoft, HubSpot), more and more attention is being focused on SaaS applications and potential security gaps. To further exacerbate the challenge, security practitioners often lack both visibility and domain expertise of the SaaS application control set required to mitigate the risk of data theft and breaches.\n\nIn the hands of the business, SaaS enables organizations to move more quickly and with greater agility, but they often do so without any security guard rails or checks beyond a supplier risk assessment during procurement. With industry analysts estimating that 99% of data leaks and breaches in SaaS will be due to application and platform misconfigurations, this leaves companies exposed to potential ticking time bombs or blind spots.\n\nJoin this virtual event to discuss:\n\n\\- Common security gaps in SaaS applications and data exposure points\n\\- Pitfalls of building on top of the PaaS layer and inadvertently leveraging security by obscurity techniques\n\\- The anatomy of a SaaS breach and best practices for the SaaS threat model\n\\- Comparisons of different cloud and SaaS security technologies and approaches\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/89925436170?pwd=RXlmSHlQWlFqZ3VzdkkySy9JWGMyZz09\nMeeting ID: 899 2543 6170\nPasscode: 534889\nOne tap mobile\n+13462487799,,89925436170# US (Houston)\n+12532050468,,89925436170# US\nDial by your location\n+1 346 248 7799 US (Houston)\n+1 253 205 0468 US\n+1 253 215 8782 US (Tacoma)\n+1 669 444 9171 US\n+1 669 900 6833 US (San Jose)\n+1 719 359 4580 US\n+1 309 205 3325 US\n+1 312 626 6799 US (Chicago)\n+1 360 209 5623 US\n+1 386 347 5053 US\n+1 507 473 4847 US\n+1 564 217 2000 US\n+1 646 931 3860 US\n+1 689 278 1000 US\n+1 929 436 2866 US (New York)\n+1 301 715 8592 US (Washington DC)\n+1 305 224 1968 US\nMeeting ID: 899 2543 6170\nFind your local number: https://us06web.zoom.us/u/kc1kZ35Pml"
-    },
-    {
-        "group": "Dorset",
-        "repo": "www-chapter-dorset",
-        "name": "OWASP Suffolk Fight Club - April 2022",
-        "date": "2023-04-11",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-dorset-chapter/events/291889114",
-        "timezone": "Europe/London",
-        "description": "Hosted by OWASP Suffolk\n\nFight Club has no agenda, no slides, no recording, and is 100% unscripted.\nThis month a live attempt of a HTB machine or challenge."
     },
     {
         "group": "France",
@@ -320,6 +300,16 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
+        "group": "Singapore",
+        "repo": "www-chapter-singapore",
+        "name": "Hands-on walkthrough of API Security & Automated Testing for Complex API",
+        "date": "2023-05-10",
+        "time": "9:00+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/292823383",
+        "timezone": "Asia/Singapore",
+        "description": "Ashwath (co-author of ATOR Burp Plugin) and Avneesh (employee of Akto) will be doing a hands-on walkthrough of API security and talk about automating testing for complex API scenarios. They will cover the following topics:\n\n1\\. What is API Security\n2\\. Why is it important?\n3\\. Why do BB hunters find more bugs than appsec/internal folks?\n4\\. Common problems with API Security\n5\\. Automated tools that are in the market:\na. Burp native scanning\nb. Burp plugins - ATOR\nc. Akto open source\n6\\. Running ATOR against some basic scenarios \\- Demo & Hands on\n7\\. Running Akto against a test setup \\- Demo & Hands on\n8\\. Q&A\n9\\. Wrap\\-up\n\n**Target Audience:** Appsec engineers, Developers who work on APIs, Bug Bounty Hunters\n\n**What will they gain at end of session**:\n1\\. Why is API security important?\n2\\. How do misconfigurations happen?\n3\\. How to build an inventory of APIs?\n4\\. How to automate testing for complex scenarios \\(chained login\\, multi\\-step API request etc\\.\\)"
+    },
+    {
         "group": "Suffolk",
         "repo": "www-chapter-suffolk",
         "name": "OWASP Suffolk Fight Club - May 2023",
@@ -338,16 +328,6 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291848350",
         "timezone": "Europe/London",
         "description": "For the past two years I've been using OWASP ZAP and PortSwigger's Burp Suite (Community Edition), switching between the two as I learned hacking techniques and took part in CTFs. Each has their own pros and cons, features I like, quirks, and even room for improvement.\n\nFor this event we will be taking a slow walk through the interfaces and features of both tools side-by-side with both pointed at a vulnerable target.\n\nThis will be an interactive session where you can ask questions throughout. This event is aimed at the beginner who wishes to know more about these two popular tools. This is an unbiased demonstration and both tools will be in an out-of-the-box state with no optional extras / add-ons / plugins installed.\n\nAgenda:\n\n* OWASP updates\n* Live interactive demonstration of ZAP and Burp Suite CE\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
-    },
-    {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "OWASP Suffolk Fight Club - April 2023",
-        "date": "2023-04-11",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291864839",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Toronto",
@@ -378,6 +358,16 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248498",
         "timezone": "America/Vancouver",
         "description": "**Title**: Tracing web application exploitability through code review and taint analysis\n**Speaker**: Dana Epp\n\nCome learn how to look at your web apps and APIs more offensively to discover the exploitability of your code before your adversaries do.\n\nThis event is sponsored by **Microsoft** \\- thanks for providing us space and food\\."
+    },
+    {
+        "group": "Victoria",
+        "repo": "www-chapter-victoria",
+        "name": "Secure Your Apps: A Cybersecurity Event by OWASP Victoria",
+        "date": "2023-05-11",
+        "time": "8:30-07:00",
+        "link": "https://www.meetup.com/owasp-victoria-chapter/events/292413504",
+        "timezone": "America/Vancouver",
+        "description": "The OWASP Victoria Chapter is pleased to present an In-Person Application Security Event on May 11, 2023. Join us at Fort Tectoria from 6:30 PM to 9:00 PM for an informative and engaging event focused on the latest trends and best practices in cybersecurity. We are excited to announce that Tanya Janca and Roberto Salgado will deliver two live presentations!\n\nTanya will present \"Pushing Left to Secure Software,\" and Roberto will present \"A Summary of Cybersecurity in 2022\". Whether you're a seasoned security professional or just getting started in the field, you'll leave with valuable insights, actionable takeaways to improve your organisation's security posture, and a chance to win swag/prizes!\n\nIn addition to the presentations, hors d'oeuvres, and prize giveaways, there will be ample opportunities for networking and collaboration with like-minded professionals. You'll have the chance to connect with peers, learn from industry leaders, and exchange ideas about the latest tools and techniques for staying ahead of the ever-evolving cybersecurity landscape.\n\nDon't miss out on this valuable opportunity to enhance your knowledge and skills in cybersecurity. If you would like to attend, please click the RSVP button to reserve your spot, as we have limited seats available.\n\nWe would also like to give a special thanks to Websec and SheHacksPurple for sponsoring this event.\n\n\u200e\n**Who This Event is For**\n\n* IT and Cybersecurity Professionals\n* Developers and Engineers\n* Executives and Managers\n* Researchers, Academics, and Students\n* IT Vendors and Service Providers\n* Hobbyists\n\n\u200e\n\n**Speaker Biographies**\n**Tanya Janca**\nTanya Janca, also known as SheHacksPurple, is the best-selling author of 'Alice and Bob Learn Application Security'. She is also the founder of We Hack Purple, an online learning academy, community, and podcast that revolves around teaching everyone to create secure software. Tanya has been coding and working in IT for over twenty five years and has been everywhere from startups to public service to tech giants (Microsoft, Adobe, & Nokia). She has worn many hats; startup founder, pentester, CISO, AppSec Engineer, and software developer. She is an award-winning public speaker, active blogger, and streamer and has delivered countless talks and training sessions across six continents. She values diversity, inclusion, and kindness, which shines through in her countless initiatives.\n\n**Roberto Salgado**\nRoberto Salgado, a co-founder of Websec, became fascinated with technology at a very young age and eventually found his niche in Cybersecurity. Through his passion and dedication to this field, he researched and devised new methods of attack and defence; this led Roberto to present his research at several security conferences and contribute to various open-source projects. Roberto also created and maintains the SQL Injection Knowledge Base, one of the most comprehensive references available. During his time at Websec, he has served many roles, from security tester to business developer, which has allowed him to gain a broad perspective and understanding of the field of information security."
     },
     {
         "group": "Wrongsecrets",
