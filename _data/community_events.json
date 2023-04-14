@@ -70,6 +70,16 @@
         "description": "For the past two years I've been using OWASP ZAP and PortSwigger's Burp Suite (Community Edition), switching between the two as I learned hacking techniques and took part in CTFs. Each has their own pros and cons, features I like, quirks, and even room for improvement.\nFor this event we will be taking a slow walk through the interfaces and features of both tools side-by-side with both pointed at a vulnerable target.\nThis will be an interactive session where you can ask questions throughout. This event is aimed at the beginner who wishes to know more about these two popular tools. This is an unbiased demonstration and both tools will be in an out-of-the-box state with no optional extras / add-ons / plugins installed.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of ZAP and Burp Suite CE\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
     },
     {
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP CoS April 2023",
+        "date": "2023-04-27",
+        "time": "8:00-06:00",
+        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/292861021",
+        "timezone": "America/Denver",
+        "description": "Speaker: Panel Discussion composed of cybersecurity hopefuls, current professionals, and cyber veterans.\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
+    },
+    {
         "group": "Cotonou",
         "repo": "www-chapter-cotonou",
         "name": "Les applications web: Am\u00e9lioration ou mise en danger de la vie des utilisateurs",
@@ -190,16 +200,6 @@
         "description": "Abstract:\n\nIn this enlightening and engaging talk, Abhay will delve into the world of software supply-chain vulnerabilities and explore the most effective strategies for defending against them. As the software development ecosystem becomes increasingly complex and interconnected, the risks associated with supply-chain vulnerabilities have also grown exponentially.\n\nBy sharing captivating anecdotes, insightful case studies, and live demos, Abhay will shed light on the hidden dangers lurking within the software supply chain and offer practical advice for safeguarding organizations against these threats. The talk will cover a wide range of topics, including:\n\n\\- The evolving landscape of software supply\\-chain vulnerabilities: An overview of the most notorious incidents and their far\\-reaching consequences\\.\n\n\\- Understanding the attack surface: A deep dive into the common entry points for attackers\\, such as third\\-party dependencies\\, open\\-source libraries\\, and CI/CD pipelines\\.\n\n\\- Case studies: Real\\-life examples of high\\-profile software supply\\-chain attacks to illustrate the severity and complexity of these threats\\.\n\n\\- Risk assessment and mitigation: Essential tools and techniques for identifying and managing software supply\\-chain risks\\, such as Software Composition Analysis \\(SCA\\) and Software Bill of Materials \\(SBOM\\)\\.\n\n\\- Live demos: Hands\\-on demonstrations of how attackers exploit supply\\-chain vulnerabilities and how to effectively defend against them using best practices and cutting\\-edge solutions\\.\n\n\\- Building a resilient software supply chain: Proactive steps organizations can take to secure their software development lifecycle\\, including vendor management\\, DevSecOps integration\\, and continuous monitoring\\.\n\nBy the end of this talk, attendees will have gained a comprehensive understanding of the current state of software supply-chain vulnerabilities, as well as the knowledge and tools necessary to protect their organizations from these ever-evolving threats."
     },
     {
-        "group": "Oakland County",
-        "repo": "www-chapter-oakland-county",
-        "name": "Kubernetes \u2013 \u201ccontainers aren't just for leftovers\u201d",
-        "date": "2023-04-13",
-        "time": "9:00-04:00",
-        "link": "https://www.meetup.com/owasp-oakland-county-chapter/events/292303253",
-        "timezone": "America/New_York",
-        "description": "An exploratory look at what Kubernetes is, how it works, and how it can be implemented to provide modern solutions to dated problems.\n\n5:30pm - Socializing (Towne Square Food and Spirits)\n7:00pm - Announcements followed by this month's speaker presentation starts\n8:00pm - presentation ends, socializing\n\nTowne Square Food and Spirits entrance:\nPark in the East parking lot of 1 Town center and look for the awning to the right of the main entrance of the 1 town center building. That is the restaurant. We meet in the main dinning center to the right of the restaurant's entrance. The presentation is given in the room to the left of the Bar you face once you enter. It's advised first time attendees show up before to socialize but also follow the group into the presentation area."
-    },
-    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "How to Identify Threat Modeling Limitations & CTF Surprise Workshop",
@@ -258,6 +258,26 @@
         "link": "https://www.meetup.com/owasp-sacramento-chapter/events/292421031",
         "timezone": "America/Los_Angeles",
         "description": "OWASP Sacramento will meet the third Wednesday of the month. We will announce topics 2-3 weeks in advanced of our meetups.\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Intro to the chapter\n* Desired outcome from the community\n* Brief Threat Model of AWS Security"
+    },
+    {
+        "group": "San Antonio",
+        "repo": "www-chapter-san-antonio",
+        "name": "OWASP San Antonio In-Person Meeting - 04/28/2023",
+        "date": "2023-04-28",
+        "time": "1:30-05:00",
+        "link": "https://www.meetup.com/owasp-sanantonio/events/292870330",
+        "timezone": "America/Chicago",
+        "description": "Title: The Ever-Unachievable Practical Security\nSpeaker: Priyadharshini Parthasarathy\nAbstract:\n**In this talk, I will walk through an analysis of general risks and threats to businesses, some of the current issues folks find implementing security programs, and then walk through a more practical, sustainable, and more implementable version of the process. I\u2019m drawing on the many failures I\u2019ve seen over the years and pointing out the simple reasons for why they didn\u2019t work.**\n\nWe will meet in person at CoalFire San Antonio office (Previous Denim Group Office: 1354 N Loop 1604 E Ste 110, San Antonio, TX 78232)\nSee you all there. Thanks."
+    },
+    {
+        "group": "Santa Barbara",
+        "repo": "www-chapter-santa-barbara",
+        "name": "Workshop: NFTs and How to Steal Them",
+        "date": "2023-04-20",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/santa-barbara-owasp-chapter/events/292862030",
+        "timezone": "America/Los_Angeles",
+        "description": "NOTE: this is an in-person only event.\n\n**Event Agenda**\n05.30pm -- Event kickoff, with dinner and networking.\n06.00pm -- Announcements, by W. Mart\u00edn Villalba (OWASP SB).\n06.15pm -- Workshop: NFTs and How to Steal Them, by Jonathan Marcil (Challenge Designer, NorthSec CTF).\n08.15pm -- BYOT / Networking.\n08.30pm -- Event end.\n\n**Workshop: NFTs and How to Steal Them (hands-on)**\nThis workshop is an overview of NFT concepts, related tools and platforms, alongside a guided experience on how to \"steal\" them. We will cover from a high point of view what constitutes an NFT, and we'll look at some tools/websites to manipulate them at the blockchain level.\n\nWe'll leave some time for participants to setup the Metamask wallet. If you want to prepare beforehand, go to [https://metamask.io/](https://metamask.io/) and setup the browser plugin in an isolated browser profile.\n\nWhile you could perform the workshop as a CTF (Capture the Flag) challenge on your own, we'll have a step by step guide that you can follow along or just watch it come to completion. We'll see the actions required on the blockchain to \"steal\" the NFT while looking at the hints that lead to the required \"exploitation\" path.\n\n**Trainer Bio**\nJonathan is a board member of the OWASP Orange County chapter. Originally from Montreal, he is part of NorthSec CTF as a challenge designer. He is passionate about Application Security and enjoys architecture analysis, code review, threat modeling and debunking security tools. Jonathan holds a bachelor's degree in Software Engineering from ETS Montreal and has more than 19 years of experience in Information Technology and Security.\n\n**BYOT: Bring Your Own Topic**\nThis meeting is a great chance to ask for technical help, career advice, share new ideas, look for feedback, and discuss anything related to AppSec/InfoSec.\n\n**Location**\nKiva Cowork - Funk Zone, 10 E Yanonali St, Santa Barbara, CA. The front door will be kept open for the duration of the event. If you have any trouble getting in, please do not leave, just knock on the front or side doors and/or message us through this platform.\n\nThank you to Kiva Cowork for sharing their space to host our free events! To learn more about this space, please visit [https://kivacowork.com](https://kivacowork.com).\n\nLooking forward to seeing you all!\n\nMart\u00edn\nOWASP SB Leader"
     },
     {
         "group": "Singapore",
