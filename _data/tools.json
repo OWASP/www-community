@@ -1870,5 +1870,14 @@
       "platforms": "SaaS",
       "note": "Free. No account required.",
       "type": "DAST"
+   },
+   {
+      "title": "Vulners",
+      "url": "https://vulners.com/plugins",
+      "owner": "Vulners Inc",
+      "license": "Commercial or Free",
+      "platforms": "Linux / Windows / Plugins / SaaS",
+      "note": "SAST and DAST software vulnerability scanner based on the Vulners database. Including different integrations for administration and security tools, such as NMAP, Burp, Ansible and more.",
+      "type": "DAST"
    }
 ]
