@@ -855,15 +855,6 @@
       "type": "SAST"
    },
    {
-      "title": "Deep Dive",
-      "url": "https://discotek.ca/deepdive.xhtml",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Byte code analysis tool for discovering vulnerabilities in Java deployments (EAR, WAR, JAR).",
-      "type": "SAST"
-   },
-   {
       "title": "Enlightn",
       "url": "https://www.laravel-enlightn.com/",
       "owner": "Enlightn Software",
@@ -1059,15 +1050,6 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "A free open-source DevSecOps platform for detecting security issues in source ode and dependencies. It supports a broad range of languages and CI/CD pipelines by bundling various open source scanners into the pipeline.",
-      "type": "SAST"
-   },
-   {
-      "title": "Sink Tank",
-      "url": "https://discotek.ca/sinktank.xhtml",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Java byte code static code analyzer for performing source/sink (taint) analysis.",
       "type": "SAST"
    },
    {
@@ -1419,15 +1401,6 @@
       "license": "Open Source or Free",
       "platforms": "Windows",
       "note": "ASP, ASP.NET, C\\#, Java, Javascript, Perl, PHP, Python, Ruby, VB.NET, XML",
-      "type": "SAST"
-   },
-   {
-      "title": "DevBug",
-      "url": "http://www.devbug.co.uk",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": "Web Based",
-      "note": "PHP",
       "type": "SAST"
    },
    {
