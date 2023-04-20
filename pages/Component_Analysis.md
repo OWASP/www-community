@@ -282,6 +282,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 
 | Name | Owner | Licence | Platforms |
 | ---- | ----- | ------- |---------- |
+| [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [GitHub SCA] | GitHub | Freemium | SaaS |
 | [Black Duck Hub] | Synopsys | Commercial | Cross Platform |
 | [Bytesafe] | Bytesafe | Freemium | SaaS |
@@ -326,6 +327,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
 | [Xray] | JFrog | Commercial | Cross Platform |
 
+[Scantist SCA]: https://scantist.com/
 [Bytesafe]: https://bytesafe.dev/
 [Bytesafe Dependency Checker]: https://bytesafe.dev/dependency-checker/javascript/
 [GitHub SCA]: https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on/
