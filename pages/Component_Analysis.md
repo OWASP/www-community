@@ -282,6 +282,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 
 | Name | Owner | Licence | Platforms |
 | ---- | ----- | ------- |---------- |
+| [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [GitHub SCA] | GitHub | Freemium | SaaS |
 | [Black Duck Hub] | Synopsys | Commercial | Cross Platform |
 | [Bytesafe] | Bytesafe | Freemium | SaaS |
