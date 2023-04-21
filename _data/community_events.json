@@ -80,16 +80,6 @@
         "description": "For the past two years I've been using OWASP ZAP and PortSwigger's Burp Suite (Community Edition), switching between the two as I learned hacking techniques and took part in CTFs. Each has their own pros and cons, features I like, quirks, and even room for improvement.\nFor this event we will be taking a slow walk through the interfaces and features of both tools side-by-side with both pointed at a vulnerable target.\nThis will be an interactive session where you can ask questions throughout. This event is aimed at the beginner who wishes to know more about these two popular tools. This is an unbiased demonstration and both tools will be in an out-of-the-box state with no optional extras / add-ons / plugins installed.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of ZAP and Burp Suite CE\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
     },
     {
-        "group": "Cambridge",
-        "repo": "www-chapter-cambridge",
-        "name": "What your Washing Machine says about you: Investigating unusual devices",
-        "date": "2023-04-20",
-        "time": "7:00+01:00",
-        "link": "https://www.meetup.com/owasp-cambridge-meetup/events/292993860",
-        "timezone": "Europe/London",
-        "description": "Hosted by the Cyber Security & Networking Research Group, Anglia Ruskin University, OWASP (Open Web Application Security Project) Cambridge Chapter, & BCS Cybercrime Forensics SG/BCS Women & BCS Hampshire/Dorset branches\n\n**Background**\n\nThe BCS \u2013 Chartered Institute for IT - Cybercrime Forensics Special Interest Group (SG) promotes Cybercrime Forensics and the use of Cybercrime Forensics; of relevance to computing professionals, lawyers, law enforcement officers, academics and those interested in the use of Cybercrime Forensics and the need to address cybercrime for the benefit of those groups and of the wider public.\n\nOWASP (Open Web Application Security Project is a 501(c)(3) not-for-profit worldwide charitable organisation focused on improving the security of application software. Their mission is to make application security visible, so that people and organisations can make informed decisions about true application security risks.\n\nThe **Cyber Security and Networking** (**CSN**) Research Group at Anglia Ruskin University has close working strategic relationships with industry, professional bodies, law enforcement, government agencies and academia in the delivery of operationally focused applied information and application security research. We have strong international links with professional organisations such as OWASP, BCS, ISC2, IISP & the UK Cyber Security Forum amongst others. The primary aims of CSNRG are to help the UK and partner nations to tackle cybercrime, be more resilient to cyber attacks and educate its users for a more secure cyberspace and operational business environment.\n\n**Abstract : \u201cWhat your Washing Machine says about you: Investigating unusual devices\"**\n\nWith the rise in IoT devices, it is no surprise that such devices are cropping up during criminal, civil, corporate, and intelligence investigations. The media focus users on the security and type of data being transmitted/received by the device. However, the data the device stores are often less secure and provide a wealth of information about your activity.\n\nIn Digital Investigation, typically, we focus on what the device can tell us about the user and system behaviour. In this presentation, Sarah will be discussing the research from her past cases, including investigating a Smart Washing Machine. She will discuss how these cases led to her designing and applying research techniques to extract information from the device to help with the active investigations.\n\nHer casework not only led to actionable intelligence, but the research led to Sarah developing a new framework for acquisition which has been used in a range of casework by various investigation units.\n\n**Provisional Agenda**\n\n16:45 - Webinar waiting lobby opens\n17:00 - Start of Presentation\n17:45 \u2013 Questions & Answers\n18:00 \u2013 Estimated Finish"
-    },
-    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS April 2023",
@@ -98,16 +88,6 @@
         "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/292861021",
         "timezone": "America/Denver",
         "description": "Speaker: Panel Discussion composed of cybersecurity hopefuls, current professionals, and cyber veterans.\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
-    },
-    {
-        "group": "Cotonou",
-        "repo": "www-chapter-cotonou",
-        "name": "Les applications web: Am\u00e9lioration ou mise en danger de la vie des utilisateurs",
-        "date": "2023-04-20",
-        "time": "6:00+01:00",
-        "link": "https://www.meetup.com/owasp-cotonou-chapter/events/292382900",
-        "timezone": "Africa/Porto-Novo",
-        "description": "Ce meeting du chapitre OWASP-Cotonou a pour th\u00e8me g\u00e9n\u00e9ral: \"Les applications web: am\u00e9lioration ou mise en danger de la vie des utilisateurs ?\" Il s'articulera autours des deux th\u00e8mes suivants:\n\n**Impacts de la digitalisation sur les internautes,** par **Orace KPAKPO**, Ing R\u00e9seaux et Syst\u00e8mes, Analyst Cybers\u00e9curit\u00e9 \u00e0 EMES SARL, leader du chapitre OWASP Cotonou\n\n**Digitalisation et s\u00e9curit\u00e9 au B\u00e9nin,** par **Victor OYETOLA**, Expert TIC, responsable du SPTIC \u00e0 l'UAC"
     },
     {
         "group": "Denver",
@@ -130,6 +110,16 @@
         "description": "Hi all, for our last OWASP Frankfurt Chapter event before the upcoming [German OWASP Day 2023](https://god.owasp.de/2023/) edition, join us for our **Women in AppSec Special**, where we'll be tackling two of the most pressing topics in the industry today: enhancing security culture through security champions, and offensive security beyond the checkbox. There will also be plenty of time to socialize before and after the event at the venue.\n\n_What's going to happen?\nWe look forward to welcoming you to our OWASP Frankfurt Meetup hosted by **CHECK24 Frankfurt.**\n\n_What are we going to talk about?\n\n* _Talk 1 - \"**AI-Enhanced Application Security: A Modern Approach**\" by **Diana Waithanji**, Cybersecurity engineer at SAP.\nThis talk will discuss how AI is being used to solve application security issues. We will explore the potential benefits of using AI in this area, such as increased efficiency and effectiveness in identifying vulnerabilities and threats. Additionally, we will discuss some of the challenges and limitations that come with using AI in application security and how they can be addressed.\n* _Talk 2 - \"**Beyond the Checkbox: Breaking out of Testing Frameworks**\" by **Jiska Classen**, As mobile applications handle sensitive data, ensuring their security is crucial. However, simply securing individual apps is not enough to stop real-world attackers who exploit devices through other avenues. This talk will explore unconventional security testing approaches that can help improve app security by addressing vulnerabilities in the operating system, hardware, and third-party libraries. Discover how attackers can exploit wireless interfaces, sandboxing, privilege checking bypasses, and more. Let's explore why these attack vectors are relevant in practice and how to address them beyond standard security testing checklists.\n\n_Afterwards? We will pre- and conclude the evening with the possibility to **socialize** at the venue with **free food and cold & hot drinks** kindly provided by **CHECK24 Frankfurt**.\n\n_When\nOur Meetup takes place on the last Wednesday of the month in April, namely on 26.04.2023 from 18:00 to 21.00 o'clock CEST.\n\n_Where?\nCHECK24 Frankfurt is located at Speicherstra\u00dfe 55 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nGet in touch with the Frankfurt Chapter Leads (Dan Gora or Jonas Becker)\n\n_And now?\nSave the date, **spread the word** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on **[Twitter #owasp_frankfurt](https://twitter.com/owasp_frankfurt)**[ ](https://twitter.com/owasp_frankfurt)and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you for this in-person event!"
     },
     {
+        "group": "Indraprastha Institute Of Information Technology",
+        "repo": "www-chapter-indraprastha-institute-of-information-technology",
+        "name": "Enigma | Cryptic Hunt + CTF | IEEE x OWASP",
+        "date": "2023-04-22",
+        "time": "2:00+05:30",
+        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/293016167",
+        "timezone": "Asia/Kolkata",
+        "description": "Are you ready to embark on a thrilling adventure and unravel the secrets of Enigma? Whether you\u2019re a seasoned internet sleuth or a cybersec hobbyist, we\u2019ve got you covered.\n\n**OWASP IIITD** in collaboration with **IEEE IIIT-Delhi Student Branch** brings to you its **special one-year Anniversary event,** **Enigma**, a one-of-its-kind cybersecurity based **online cryptic hunt**.\nTo win, you don't need any prerequisite knowledge. You just need the determination and some energy drinks by your side because trust us, you\u2019ll need them. Climb on this 24 hour adrenaline-filled ride with a teammate, or solo it as a lone wolf. And don't forget, treasure awaits the one who solves the Enigma.\n\n**Date and Time:** 22nd April, 10 pm to 23rd April, 10 pm.\n**Venue:** OWASP IIITD Discord Server\n**Teams of:** 1 or 2 members\n\n**Cash Prizes of upto 5000 Rs. and goodies worth upto 3000 Rs. for IIITD Students** and **Goodies worth upto 7000 Rs. for other School/College Students with Valid ID**"
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -150,6 +140,16 @@
         "description": "The 0x03 meetup of the OWASP Kathmandu chapter is scheduled for Saturday, April 22nd, at 10:00 AM. The event will take place at SecurityPal Nepal's office, located in Baluwatar."
     },
     {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #5",
+        "date": "2023-04-29",
+        "time": "6:30+05:30",
+        "link": "https://www.meetup.com/owasp-kolkata/events/293017268",
+        "timezone": "Asia/Kolkata",
+        "description": "**In this meetup, You will learn how to do ios penetration testing .**\n**Join Us to learn from MR. Vishal Mohan on OWASP KOLKATA MEETUP #5.**"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - APR 26, 2023",
@@ -157,17 +157,7 @@
         "time": "7:30-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/291490081",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: How to Identify Threat Modeling Limitations\nJoin us for great networking, dinner and drinks, and see a presentation by Joshua Williams, Senior Solutions Architect at IriusRisk.\n\n**ABSTRACT**: Many cyber and application security tools love to say they can do everything needed to protect your assets. It isn\u2019t rocket science to know that\u2019s not true. It\u2019s helpful to consider the limitations of tools and processes. This presentation will take attendees through how to define the limitations of threat modeling correctly, understand best practices in how, when, and by whom a proper threat model should be performed, and how this process of identifying threat model limitations can help users better understand its utility to systems and processes.\n\n**Thanks to our Sponsor**: [IriusRisk](https://www.iriusrisk.com/)\n*When it comes to application development, security is paramount. With **IriusRisk**\u2019s automated, scalable and easy-to-use threat modeling platform, your engineers can iron out architectural security flaws before writing code, helping you avoid costly re-design and get to market faster with secure products your customers can rely on.*\n\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
-    },
-    {
-        "group": "Netherlands",
-        "repo": "www-chapter-netherlands",
-        "name": "April 2023 OWASP Chapter Netherlands Meetup",
-        "date": "2023-04-20",
-        "time": "9:00+02:00",
-        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/292323208",
-        "timezone": "Europe/Amsterdam",
-        "description": "This is an online meeting and will be streamed on YouTube.\n\n19:00 - 19:10 - **Welcome and OWASP updates**\n19:10 - 19:55 - **The Rise of the Security Verification Standard** by **Josh Grossman**\n19:55 - 20:05 - **Questions and** **Break**\n20:05 - 20:50 - **OWASP Juice Shop** by **Bj\u00f6rn Kimminich**\n\n**The Rise of the Security Verification Standard**\n*Abstract:*\nWe are currently seeing a big uptick in the progression of the OWASP Application Security Verification Standard (ASVS) as well as the Mobile version (MASVS). Not only are two major releases in the pipeline (5.0 and 2.0 respectively) but we are now seeing industry stand up, take notice and start expecting more from applications, based on these standards. In this talk, Josh Grossman (one of the ASVS project leaders) will take you through these key developments including our vision for the upcoming version 5.0 of the ASVS and how you and your employer can be involved in the final release.\nThis will also be a chance to hear first-hand about a couple of new programmes where you will see the SVSs being more widely used and required and how you can prepare your organizations for this significant impact this will have, whether you are developing applications or you are assessing them.\n\n*Bio:*\nJosh Grossman has worked as a consultant in IT and Application Security and Risk for 15 years now, as well as a Software Developer. This has given him an in-depth understanding of how to manage the balance between business needs, developer needs and security needs which goes into a successful software security programme.\n\nJosh is currently CTO for Bounce Security where he helps clients improve and get better value from their application security processes and provides specialist application security advice. His consultancy work has led him to work, speak and deliver training both locally and worldwide including privately for ISACA and Manicode and publicly for OWASP's Global AppSec conferences. In his spare time, he co-leads the OWASP Application Security Verification Standard project and is on the OWASP Israel chapter board.\n\nHe was also recognized as a Key Contributor for the OWASP Proactive Controls project and has also contributed to the OWASP Top 10 Risks project and the OWASP JuiceShop project.\n\n**OWASP Juice Shop**\n*Abstract:*\nOWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security training, awareness demos, CTFs and as a guinea pig for security tools!\n\nJuice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!\n\nAt this event, we will take a tour through the application, hack it live on screen, learn about Coding Challenges, CTF mode, cheat detection, custom theming, and more!\n\n*Bio:*\nBjoern Kimminich works as Product Group Lead Application Ecosystem at Kuehne + Nagel, responsible \u2013 among other things \u2013 for the Application Security program in corporate IT. He is an OWASP Lifetime Member, the project leader of the OWASP Juice Shop, and a co-chapter leader for the OWASP Germany Chapter. Bj\u00f6rn also currently chairs the OWASP Project Committee."
+        "description": "**TOPIC**: How to Identify Threat Modeling Limitations\nJoin us for great networking, dinner and drinks, and see a presentation by Joshua Williams, Senior Solutions Architect at IriusRisk.\n\n**ABSTRACT**: Many cyber and application security tools love to say they can do everything needed to protect your assets. It isn\u2019t rocket science to know that\u2019s not true.It\u2019s helpful to consider the limitations of tools and processes. This presentation will take attendees through how to define the limitations of threat modeling correctly, understand best practices in how, when, and by whom a proper threat model should be performed and how this process of identifying threat model limitations can help users better understand its utility to systems and processes.\n\n**Thanks to our Sponsor**: [IriusRisk](https://www.iriusrisk.com/)\n*When it comes to application development, security is paramount. With **IriusRisk**\u2019s automated, scalable and easy-to-use threat modeling platform, your engineers can iron out architectural security flaws before writing code, helping you avoid costly re-design and get to market faster with secure products your customers can rely on.*\n\n### **SPONSORSHIP Opportunities Available**\n\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "New Zealand",
@@ -178,16 +168,6 @@
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291720878",
         "timezone": "Pacific/Auckland",
         "description": "The Auckland-area OWASP Meetup takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for May will be **A07:2021 - Identification and Authentication Failures.**\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
-    },
-    {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "Fantastic Software Supply-Chain Vulnerabilities and How to Defend Against Them",
-        "date": "2023-04-20",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/292807454",
-        "timezone": "America/New_York",
-        "description": "Abstract:\n\nIn this enlightening and engaging talk, Abhay will delve into the world of software supply-chain vulnerabilities and explore the most effective strategies for defending against them. As the software development ecosystem becomes increasingly complex and interconnected, the risks associated with supply-chain vulnerabilities have also grown exponentially.\n\nBy sharing captivating anecdotes, insightful case studies, and live demos, Abhay will shed light on the hidden dangers lurking within the software supply chain and offer practical advice for safeguarding organizations against these threats. The talk will cover a wide range of topics, including:\n\n\\- The evolving landscape of software supply\\-chain vulnerabilities: An overview of the most notorious incidents and their far\\-reaching consequences\\.\n\n\\- Understanding the attack surface: A deep dive into the common entry points for attackers\\, such as third\\-party dependencies\\, open\\-source libraries\\, and CI/CD pipelines\\.\n\n\\- Case studies: Real\\-life examples of high\\-profile software supply\\-chain attacks to illustrate the severity and complexity of these threats\\.\n\n\\- Risk assessment and mitigation: Essential tools and techniques for identifying and managing software supply\\-chain risks\\, such as Software Composition Analysis \\(SCA\\) and Software Bill of Materials \\(SBOM\\)\\.\n\n\\- Live demos: Hands\\-on demonstrations of how attackers exploit supply\\-chain vulnerabilities and how to effectively defend against them using best practices and cutting\\-edge solutions\\.\n\n\\- Building a resilient software supply chain: Proactive steps organizations can take to secure their software development lifecycle\\, including vendor management\\, DevSecOps integration\\, and continuous monitoring\\.\n\nBy the end of this talk, attendees will have gained a comprehensive understanding of the current state of software supply-chain vulnerabilities, as well as the knowledge and tools necessary to protect their organizations from these ever-evolving threats."
     },
     {
         "group": "Orange County",
@@ -250,14 +230,14 @@
         "description": "Title: The Ever-Unachievable Practical Security\nSpeaker: Red Thomas, CEO at Red Knight\nAbstract:\n**In this talk, I will walk through an analysis of general risks and threats to businesses, some of the current issues folks find implementing security programs, and then walk through a more practical, sustainable, and more implementable version of the process. I\u2019m drawing on the many failures I\u2019ve seen over the years and pointing out the simple reasons for why they didn\u2019t work.**\n\nWe will meet in person at CoalFire San Antonio office (Previous Denim Group Office: 1354 N Loop 1604 E Ste 110, San Antonio, TX 78232)\nSee you all there. Thanks."
     },
     {
-        "group": "Santa Barbara",
-        "repo": "www-chapter-santa-barbara",
-        "name": "Workshop: NFTs and How to Steal Them",
-        "date": "2023-04-20",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/santa-barbara-owasp-chapter/events/292862030",
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2023-05-10",
+        "time": "2:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/293028166",
         "timezone": "America/Los_Angeles",
-        "description": "NOTE: this is an in-person only event.\n\n**Event Agenda**\n05.30pm -- Event kickoff, with dinner and networking.\n06.00pm -- Announcements, by W. Mart\u00edn Villalba (OWASP SB).\n06.15pm -- Workshop: NFTs and How to Steal Them, by Jonathan Marcil (Challenge Designer, NorthSec CTF).\n08.15pm -- BYOT / Networking.\n08.30pm -- Event end.\n\n**Workshop: NFTs and How to Steal Them (hands-on)**\nThis workshop is an overview of NFT concepts, related tools and platforms, alongside a guided experience on how to \"steal\" them. We will cover from a high point of view what constitutes an NFT, and we'll look at some tools/websites to manipulate them at the blockchain level.\n\nWe'll leave some time for participants to setup the Metamask wallet. If you want to prepare beforehand, go to [https://metamask.io/](https://metamask.io/) and setup the browser plugin in an isolated browser profile.\n\nWhile you could perform the workshop as a CTF (Capture the Flag) challenge on your own, we'll have a step by step guide that you can follow along or just watch it come to completion. We'll see the actions required on the blockchain to \"steal\" the NFT while looking at the hints that lead to the required \"exploitation\" path.\n\n**Trainer Bio**\nJonathan is a board member of the OWASP Orange County chapter. Originally from Montreal, he is part of NorthSec CTF as a challenge designer. He is passionate about Application Security and enjoys architecture analysis, code review, threat modeling and debunking security tools. Jonathan holds a bachelor's degree in Software Engineering from ETS Montreal and has more than 19 years of experience in Information Technology and Security.\n\n**BYOT: Bring Your Own Topic**\nThis meeting is a great chance to ask for technical help, career advice, share new ideas, look for feedback, and discuss anything related to AppSec/InfoSec.\n\n**Location**\nKiva Cowork - Funk Zone, 10 E Yanonali St, Santa Barbara, CA. The front door will be kept open for the duration of the event. If you have any trouble getting in, please do not leave, just knock on the front or side doors and/or message us through this platform.\n\nThank you to Kiva Cowork for sharing their space to host our free events! To learn more about this space, please visit [https://kivacowork.com](https://kivacowork.com).\n\nLooking forward to seeing you all!\n\nMart\u00edn\nOWASP SB Leader"
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Singapore",
@@ -318,16 +298,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248501",
         "timezone": "America/Vancouver",
         "description": "Want to tap into your inner evildoer and test your skills in hunting down web application vulnerabilities?\nIf so, immerse yourself in the industry\u2019s most authentic environment where players exploit their way through hundreds of vulnerabilities that lurk in business applications today. Success means learning quickly that attack and defense is all about thinking on your feet. For each vulnerability you uncover, you are awarded points. Climb the interactive leaderboard as you vie for the top spot!\n\nThe **CMD+CTRL Cyber Range** is ideal for anyone interested in learning how web applications are attacked, furthering their cybersecurity acumen, or honing the skills needed to protect the enterprise. From curious bystanders to active practitioners to Risk and Security Executives, there\u2019s something for everyone.\n\nTeaser: [https://securityinnovation.hubs.vidyard.com/watch/9NbmLo8rHBqcKJbVP4oLek](https://securityinnovation.hubs.vidyard.com/watch/9NbmLo8rHBqcKJbVP4oLek)\n\nThis event is sponsored by **Microsoft** \\- thanks for providing us space and food\\."
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "Tracing webapp exploitability through code review and taint analysis",
-        "date": "2023-04-20",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248498",
-        "timezone": "America/Vancouver",
-        "description": "**Title**: Tracing web application exploitability through code review and taint analysis\n**Speaker**: Dana Epp\n\nCome learn how to look at your web apps and APIs more offensively to discover the exploitability of your code before your adversaries do.\n\nThis event is sponsored by **Microsoft** and **Forward Security** \\- thanks for providing us space and food\\!"
     },
     {
         "group": "Victoria",
