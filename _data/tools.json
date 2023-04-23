@@ -954,15 +954,6 @@
       "type": "SAST"
    },
    {
-      "title": "LGTM",
-      "url": "https://lgtm.com/help/lgtm/about-lgtm",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "A free for open source static analysis service that automatically monitors commits to publicly accessible code in Bitbucket Cloud, GitHub, or GitLab. Supports C/C++, C\\#, Go, Java, JavaScript/TypeScript, Python.",
-      "type": "SAST"
-   },
-   {
       "title": "MobSF",
       "url": "https://mobsf.github.io/Mobile-Security-Framework-MobSF/",
       "owner": null,
@@ -1089,15 +1080,6 @@
       "type": "SAST"
    },
    {
-      "title": "Application Inspector",
-      "url": "https://www.ptsecurity.com/ww-en/products/ai/",
-      "owner": "Positive Technologies",
-      "license": "Commercial",
-      "platforms": null,
-      "note": "combines SAST, DAST, IAST, SCA, configuration analysis and other technologies, incl. unique abstract interpretation; has capability to generate test queries (exploits) to verify detected vulnerabilities during SAST analysis; Supported languages include: Java, C\\#, PHP, JavaScript, Objective C, VB.Net, PL/SQL, T-SQL, and others.",
-      "type": "SAST"
-   },
-   {
       "title": "Beyond Security beSOURCE",
       "url": "https://beyondsecurity.com/solutions/besource.html",
       "owner": "Beyond Security",
@@ -1212,15 +1194,6 @@
       "license": "Commercial",
       "platforms": null,
       "note": "Capable of identifying vulnerabilities and backdoors (undocumented features) in over 30 programming languages by analyzing source code or executables, without requiring debug info.",
-      "type": "SAST"
-   },
-   {
-      "title": "ECG",
-      "url": "https://ecg.voidsec.com/",
-      "owner": "VoidSec",
-      "license": "Commercial",
-      "platforms": null,
-      "note": "SaaS TCL Static Source Code Analysis Tool able to detect real and complex security vulnerabilities in TCL/ADP source-code. Discovered vulnerabilities will be mapped against the OWASP top 10 vulnerabilities.",
       "type": "SAST"
    },
    {
@@ -1653,15 +1626,6 @@
       "license": "Commercial",
       "platforms": "SaaS",
       "note": "Scans Git repos daily and provides a web-based dashboard to track code and dependency vulnerabilities. Handles team-based access patterns, vulnerability exception lifecycle, and is built on API first principles.",
-      "type": "SAST"
-   },
-   {
-      "title": "Xanitizer",
-      "url": "https://www.xanitizer.com/",
-      "owner": "Xanitizer",
-      "license": "Commercial",
-      "platforms": "CLI and plugin integration",
-      "note": "A SAST tool for Java, Scala, and JavaScript/TypeScript, mainly via taint analysis. Per this pricing page, it is free for Open Source projects if you contact the vendor.",
       "type": "SAST"
    },
    {
