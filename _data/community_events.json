@@ -7,7 +7,7 @@
         "time": "1:30-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/290705726",
         "timezone": "America/Chicago",
-        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* -- [Eventbrite](https://owasp-austin-2023-april.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nThe Three Trends Driving Cybersecurity Forward in 2023\n\nDramatic trend shifts in threat management and data protection are having a profound impact on cybersecurity best practices. This session will explore these trends, with an emphasis on pragmatic use cases, delivered by a 29-year cyber veteran from IBM\u2019s Security business.\n\nSpeaker: Bob Kalka"
+        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* -- [Eventbrite](https://owasp-austin-2023-april.eventbrite.com)\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nThe Three Trends Driving Cybersecurity Forward in 2023\n\nDramatic trend shifts in threat management and data protection are having a profound impact on cybersecurity best practices. This session will explore these trends, with an emphasis on pragmatic use cases, delivered by a cyber veteran from IBM\u2019s Security business.\n\nSpeaker: Patrick Wardrop"
     },
     {
         "group": "Bay Area",
@@ -42,22 +42,22 @@
     {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
+        "name": "Injection Vulnerabilities, with OWASP Suffolk",
+        "date": "2023-05-23",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-bristol/events/292044436",
+        "timezone": "Europe/London",
+        "description": "A joint event, by OWASP Bristol and OWASP Suffolk.\n\nInjection vulnerabilities remain a common problem today. A single mistake could expose your whole database and customer data, or give an attacker the ability to remotely execute code on your server.\n\nWe will look at some examples of coding mistakes that can lead to injection vulnerabilities, demonstrate how they can be found with vulnerability scanning tools, and discuss how they can be completely prevented from happening (more than simply hoping developers will use prepared queries or database abstractions correctly).\n\nAgenda:\n\n* OWASP updates\n* Injection Vulnerabilities talk"
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
         "name": "OWASP Suffolk Fight Club - May 2023",
         "date": "2023-05-09",
         "time": "9:00+01:00",
         "link": "https://www.meetup.com/owasp-bristol/events/292044026",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP Suffolk - ZAP and Burp the Walkthrough",
-        "date": "2023-04-25",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-bristol/events/292044037",
-        "timezone": "Europe/London",
-        "description": "For the past two years I've been using OWASP ZAP and PortSwigger's Burp Suite (Community Edition), switching between the two as I learned hacking techniques and took part in CTFs. Each has their own pros and cons, features I like, quirks, and even room for improvement.\nFor this event we will be taking a slow walk through the interfaces and features of both tools side-by-side with both pointed at a vulnerable target.\nThis will be an interactive session where you can ask questions throughout. This event is aimed at the beginner who wishes to know more about these two popular tools. This is an unbiased demonstration and both tools will be in an out-of-the-box state with no optional extras / add-ons / plugins installed.\n\n**Agenda:**\n\n* OWASP updates\n* Live interactive demonstration of ZAP and Burp Suite CE\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nThis talk will not be recorded."
     },
     {
         "group": "Colorado Springs",
@@ -202,6 +202,16 @@
     {
         "group": "Suffolk",
         "repo": "www-chapter-suffolk",
+        "name": "Injection Vulnerabilities",
+        "date": "2023-05-23",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291863605",
+        "timezone": "Europe/London",
+        "description": "Injection vulnerabilities remain a common problem today. A single mistake could expose your whole database and customer data or give an attacker the ability to remotely execute code on your server.\n\nWe will look at some examples of coding mistakes that can lead to injection vulnerabilities and discuss how they could be mitigated.\n\nThis is a joint event provided by OWASP Bristol and OWASP Suffolk.\n\nAgenda:\n\n* OWASP updates\n* Injection Vulnerabilities talk\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes."
+    },
+    {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
         "name": "OWASP Suffolk Fight Club - May 2023",
         "date": "2023-05-09",
         "time": "9:00+01:00",
@@ -228,6 +238,26 @@
         "link": "https://www.meetup.com/owasptriangle/events/291207489",
         "timezone": "America/New_York",
         "description": "Following up on the success of our first AppSec round table in January, we'll continue the format for our April meeting. The host will present questions to get the conversation going, and the group will share insights and wisdom!"
+    },
+    {
+        "group": "Tunisia",
+        "repo": "www-chapter-tunisia",
+        "name": "Small Coding Mistakes, Big Security Risks",
+        "date": "2023-04-28",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-tunis-meetup-group/events/293085149",
+        "timezone": "Africa/Tunis",
+        "description": "**OWASP Tunisia Chapter** and **SecuriNets** Foundation are glad to invite you to an online Workshop **\"Small Coding Mistakes, Big Security Risks\"**\n\nThe \"Small Coding Mistakes, Big Security Risks\" workshop is a short technical training session aimed at highlighting the importance of code-level security practices. The workshop aims to demonstrate how small coding mistakes can lead to high-impact vulnerabilities in web applications, and how to identify and remediate these issues. The coding issues with be shown, exploited via a live demo, and presented in multiple web-oriented scripting/programming languages: php, python, and java.\n\nOur dear Guest Speaker\n\n**Mohamed Adib Boukthir** is a Securinets alumnus and a previous technical manager/vice president at Securinets ISI. He currently occupies the position of a Cyber Security Tester/Penetration Tester at EY."
+    },
+    {
+        "group": "Uruguay",
+        "repo": "www-chapter-uruguay",
+        "name": "SQLi en la pr\u00e1ctica: De la explotaci\u00f3n a la prevenci\u00f3n",
+        "date": "2023-05-02",
+        "time": "8:00-03:00",
+        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/292840705",
+        "timezone": "America/Montevideo",
+        "description": "Este evento se enfocar\u00e1 en un tema cl\u00e1sico y que \u00faltimamente se ha visto menos vulnerado, aunque sigue presente y explotable en nuevos desarrollos: **inyecciones en SQL (SQLi)**. Se abordar\u00e1 desde m\u00e1s de una perspectiva, como individuo que **ataca**, que **prueba** la aplicaci\u00f3n o que la **desarrolla**.\n\nSe presentar\u00e1n los diferentes tipos de inyecci\u00f3n: cl\u00e1sicas con retorno de datos visibles, por inferencia (ciegas basadas en errores o demoras) y con visibilidad fuera de banda. El prop\u00f3sito es tambi\u00e9n comentar c\u00f3mo **combatir** problemas desde el punto de vista del **desarrollo y configuraci\u00f3n,** mencionando algunas herramientas y tecnolog\u00edas comunes para lograr tanto la detecci\u00f3n y explotaci\u00f3n como la correcci\u00f3n.\n\n**La participaci\u00f3n pr\u00e1ctica es opcional**. Se contar\u00e1 con una gu\u00eda p\u00fablica unos d\u00edas previos al evento para quien le interese seguir los ejercicios expuestos con un ambiente en su propia m\u00e1quina o tener una idea del tema antes de concurrir.\n\nSe lleva a cabo en el **edificio central** de la Universidad Cat\u00f3lica del Uruguay, en la **sala Plaza de Encuentro**."
     },
     {
         "group": "Vancouver",
