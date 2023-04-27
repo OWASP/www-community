@@ -1816,5 +1816,14 @@
       "platforms": "Linux / Windows / Plugins / SaaS",
       "note": "SAST and DAST software vulnerability scanner based on the Vulners database. Including different integrations for administration and security tools, such as NMAP, Burp, Ansible and more.",
       "type": "DAST"
+   },
+   {
+      "title": "Pentest-Tools.com Website Scanner",
+      "url": "https://pentest-tools.com/website-vulnerability-scanning/website-scanner",
+      "owner": "Pentest-Tools.com",
+      "license": "Commercial and free light version",
+      "platforms": "SaaS",
+      "note": "Finds vulnerabilities such as XSS (testing using real browsers), Server-Side Template Injection, Code Injection (with out of band detection) and other OWASP Top 10, and more high-risk vulnerabilities. Even newer vulnerabilties such as Client-Side Prototype Pollution	are included.",
+      "type": "DAST"
    }
 ]
