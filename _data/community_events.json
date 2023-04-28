@@ -30,6 +30,16 @@
         "description": "Hybrid Attendance: Join us in person or online (link to be provided).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nFor our May meeting, Andrew Josephides, Director of Security Research at KSOC, will give a talk introducing the [OWASP Kubernetes Top 10](https://owasp.org/www-project-kubernetes-top-ten/).\n\nGiven the growth and adoption of Kubernetes, a number of projects have been published in the OWASP community to help practitioners assess and secure the security of their containerized infrastructure including the recently released Top Ten for Kubernetes ([https://owasp.org/www-project-kubernetes-top-ten/](https://owasp.org/www-project-kubernetes-top-ten/)). This OSS project is a community-curated list of the most common Kubernetes risks backed by data collected from organizations varying in maturity and complexity. This session will discuss the project in detail, examples for each of the risks in the list, and how to get involved."
     },
     {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "The DevSecOps Playbook-step by step open source guide-building DevSecOps program",
+        "date": "2023-05-16",
+        "time": "8:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/293181021",
+        "timezone": "Australia/Brisbane",
+        "description": "Short Description:\nWe talk a lot about DevSecOps, but what do we really mean when we say that? Nobody really can agree on what it means, and if you listen to vendors it's just security tools embedded in your CI/CD processes. I believe in the original idea of a group of people with backgrounds in development, security, and operations working collaboratively together to build and deploy better, more secure applications. Based on that vision I wrote the DevSecOps Playbook in early 2022 as a list of specific steps that people from all three domains (dev, sec, and ops) can do together. The Playbook is 60 tasks that DevSecOps teams can perform to materially affect their application environments. This presentation will walk the audience through all 55 tasks in the Playbook and show them how to prioritize the tasks for their specific company based on the resources that org has.\n\nLonger Description:\nWhat is DevSecOps? How do I \"do\" it? There's a lot of hype around DevSecOps right now, and getting two people to agree on exactly what it means can be a challenge. Unfortunately, there's a lot of vendor narrative that says it's CI/CD with some security thrown in for good measure, but DevSecOps is a lot more than that! My career was changed by the DevOps movement and I believe that DevSecOps should be built on top of DevOps. What does that mean? Well, what made DevOps so powerful for me in the late 2000's was that it brought together people from different departments to work together. Developers learned more about how to manage the underlying infrastructure, and ops teams learned how to use code to build and manage automation. This was powerful and I believe we can do the same with DevSecOps: bring security teams into the processes and workflows that DevOps built at at the same time those security teams will evolve to understand how operations and development teams work.\nThis talk will cover my DevSecOps Playbook which is an open source step-by-step guide to implementing DevSecOps for any organization. This Playbook is broken down into 5 distinct areas of domain expertise:\nDevelopment Environment\nSource Code Management\nContinuous Integration / Deployment and other Automation\nDeployment Environments\nOrganizational Functions\nThe DevSecOps Playbooks spreads the controls evenly across these 5 domains and highlights that this is a group responsibility. There is also an addendum for compliance frameworks and how they can map to the tasks and controls listed in the Playbook. In this talk I will outline these 5 areas and talk about the different controls and tasks in each. I will also give examples of how to implement a subset of these controls.\n\nLocation of this event coming soon."
+    },
+    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "Injection Vulnerabilities, with OWASP Suffolk",
@@ -48,16 +58,6 @@
         "link": "https://www.meetup.com/owasp-bristol/events/292044026",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Colorado Springs",
-        "repo": "www-chapter-colorado-springs",
-        "name": "OWASP CoS April 2023",
-        "date": "2023-04-27",
-        "time": "8:00-06:00",
-        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/292861021",
-        "timezone": "America/Denver",
-        "description": "Speaker: Panel Discussion composed of cybersecurity hopefuls, current professionals, and cyber veterans.\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
         "group": "Denver",
@@ -110,6 +110,16 @@
         "description": "**TOPIC**: Tactical Security - Improving AppSec Coverage with Fewer Resources\nJoin us for great networking, dinner and drinks, and see a presentation by Rich Newman, Technical Account Manager, Synopsys\n\n**ABSTRACT**: This discussion focuses on the differences in issues detected between SAST, SCA and DAST with detailed examples. There is also an aggregation/correlation section at the end to cover the need to view an application\u2019s AppSec status as a whole and not via individual tools.\n\n* SAST - Examples from Coverity/Sigma\n* SCA - Examples from Black Duck\n* DAST (IAST/Fuzz) - Examples from Seeker & Defensics\n* ASOC - Examples from Code Dx\n\n**Thanks to our Sponsor**: [Synopsys](www.synopsys.com/software)\n*Minimize business risk across the entire SDLC*\n*Every business is a software business. Whether you\u2019re selling it directly to your customers or relying on it to run your operations. **Synopsys** helps you protect your bottom line by building trust in your software\u2014at the speed your business demands.*\n\n### **SPONSORSHIP Opportunities Available**\n\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
+        "group": "Morocco",
+        "repo": "www-chapter-morocco",
+        "name": "DevSecOps Toolchain Transformation on Microsoft Azure and Amazon AWS",
+        "date": "2023-05-27",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/morocco-owasp-meetup-group/events/290723926",
+        "timezone": "Africa/Casablanca",
+        "description": "## DevSecOps Toolchain Transformation Hands-on\n\nThe DevSecOps Mindset and Salient Features\n\n* Shared Objectives\n* Prioritizing Security\n* Auomation\n* Operational Insights and Threat Intelligence\n* Holistic Security\n* Proactive Threat Monitoring\n* Security-as-a-Code\n* Infrastructure-as-a-Code\n* Improved Collaboration\n* Developers as Security Proponents\n* Continuous Monitoring and Auditing\n* Defined Incident Response\n\nHere are some actions you can take to upgrade your DevOps toolchain into a DevSecOps toolchain:\n\n1. Learn From Others in the DevOps and DevSecOps Communities\nLook to the DevOps community to help close your critical knowledge gaps.\n2. 2\\. Start With Your Container Security\nThe first step to building out the security of your DevOps toolchain starts with your container security.\n3. Institute Continuous Compliance\nDevSecOps is a platform for continuous compliance to protect your software supply chains against vulnerable packages and vulnerable configurations.\n4. Double Down on Automation\nWhile you may have already been experimenting with automation during your DevOps phase, it only becomes more integral once you throw the switch in by going DevSecOps. Go into your DevOps to DevSecOps transformation with an automation strategy that focuses on automating common developer and sysadmin tasks.\n5. Improve Your Monitoring and Analytics\nBuilding out a DevSecOps toolchain takes your monitoring and analytics options to a new level. Consider the fact that you should already collect and publish data from your toolchain and deliver reports to your project managers, developers, QA testers, and stakeholders outside your team. Commonly, DevOps reporting is still a work in progress for organizations. Use the introduction of new security tools into your toolchain as a chance to offer more granular and real-time security reporting into all parts of your DevSecOps toolchain.\n6. Implement Accessibility Assurance\nDepending on your organization\u2019s definition of compliance, the option is there to add accessibility compliance or Section 508 to your DevSecOps toolchain.\n\nThis hands-on training is reserver for 70% professional and 30% students.\n\nMandatory:\n\nGeneral Conditions in order to validate your participation to this event:\n\n1\\. Student must send University/Student ID\\, otherwise registration will be rejected\\.\n\n2.Professional must register company emails, otherwise registration will be rejected.\n\nRegistration only via EventBrite. We don't accept answer via meetup.\n\nPlease indicate your firstname, lastname, company name, a valid business email or school email (email like gmai, free, hotmail, outlook, etc are not accepted and registration will be cancelled).\n\nPlease register here:\nhttps://www.eventbrite.com/e/billets-devsecops-toolchain-transformation-374188276207"
+    },
+    {
         "group": "Netherlands",
         "repo": "www-chapter-netherlands",
         "name": "May 2023 OWASP Chapter Netherlands Meetup",
@@ -150,26 +160,6 @@
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nThis discussion focuses on the differences in issues detected between SAST, SCA and DAST with detailed examples. There is also an aggregation/correlation section at the end to cover the need to view an application\u2019s AppSec status as a whole and not via individual tools.\n\n* SAST - Examples from Coverity/Sigma\n* SCA - Examples from Black Duck\n* DAST (IAST/Fuzz) - Examples from Seeker & Defensics\n* ASOC - Examples from Code Dx\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)\n\n**Thanks to our Sponsor**: **Synopsys**\n**[Synopsys](https://www.synopsys.com/)**[ ](https://www.synopsys.com/)builds trust in software by enabling organizations to manage application security, quality, and compliance risks at the speed their business demands."
     },
     {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "How to Identify Threat Modeling Limitations & AI CTF Workshop",
-        "date": "2023-04-27",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/292674721",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: IN-PERSON EVENT**\n\n**Speaker 1: James Rabe, Senior Solutions Architect & Threat Modeling SME at IriusRisk**\nJames Rabe is a Senior Solutions Architect & Threat Modeling SME at IriusRisk and is responsible for designing and implementing threat modeling solutions for customers. He brings nearly 10 years\u2019 experience in technology, security and compliance consulting and is a cybersecurity evangelist. Prior to joining IriusRisk James worked as a Security & Compliance Engineer at a consulting firm. He is a proud husband and father to two kids. James currently is an active board member in a community non-profit that focuses on revitalization and economic development of historic districts across the country.\n**Title: How to Identify Threat Modeling Limitations**\n**Abstract:**\nMany cyber and application security tools love to say they can do everything needed to protect your assets. It isn\u2019t rocket science to know that\u2019s not true. It\u2019s helpful to consider the limitations of tools and processes. This presentation will take attendees through how to define the limitations of threat modeling correctly, understand best practices in how, when, and by whom a proper threat model should be performed, and how this process of identifying threat model limitations can help users better understand its utility to systems and processes.\n\n**Speaker 2: Jonathan Marcil, NorthSec Challenge Designer**\nJonathan is a board member of the OWASP Orange County chapter. Originally from Montreal, he is part of NorthSec CTF as a challenge designer. He is passionate about Application Security and enjoys architecture analysis, code review, threat modeling and debunking security tools. Jonathan holds a bachelor's degree in Software Engineering from ETS Montreal and has more than 19 years of experience in Information Technology and Security.\n**Title: AI (Stable Diffusion) CTF Workshop**\n**Abstract:**\nSurprise! We're going to dive into the marvelous world of \"artificial intelligence\" and \"prompt engineering\".\nThis session will cover two CTF challenges based on Stable Diffusion which is a model capable of generating photo-realistic images given any text input. This will allow us to show in a practical fashion some potential real impact of something otherwise artificial.\nParticipants can bring their laptop to try the challenges by themselves. If you have a gaming laptop with a dedicated graphic card, that could be handy! For the others, rest assured as we will be solving them step by step alongside diving into diffusion models and machine learning technical details.\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
-    },
-    {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Chapter Social",
-        "date": "2023-04-27",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/292659929",
-        "timezone": "Europe/London",
-        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
         "group": "Sacramento",
         "repo": "www-chapter-sacramento",
         "name": "May Meetup",
@@ -178,16 +168,6 @@
         "link": "https://www.meetup.com/owasp-sacramento-chapter/events/293001314",
         "timezone": "America/Los_Angeles",
         "description": "OWASP Sacramento will meet the third Wednesday of each month. We will announce topics 2-3 weeks in advanced of our meetups.\n\n7PM-9PM\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Community Topics\n* Modern Phishing Techniques with Evilginx2"
-    },
-    {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "Wasatch AppSec / OWASP-SLC - April (virtual meetup) - Guest Speaker: Mike McCabe",
-        "date": "2023-04-27",
-        "time": "2:00-06:00",
-        "link": "https://www.meetup.com/owasp-slc/events/293000021",
-        "timezone": "America/Denver",
-        "description": "**Agenda:**\n\n1. Discuss upcoming events (e.g. Campout in July, SaintCon this Fall)\n2. Quick intros\n3. Guest Speaker: **Mike McCabe** \\- Title: *Infrastructure as Remote Code Execution: How to abuse Terraform to elevate access*\n4. Q&A\n\n**Talk Abstract:**\n\n```\n\nThis talk will focus on ways to abuse the use of Terraform to elevate privileges, expose data, and gain further footholds in environments from a developer's perspective. We'll cover the common uses of Terraform and how a malicious actor could abuse Terraform and even bypass security controls to execute unapproved code. This talk will include multiple demos of ways to exploit Terraform cloud.\n```"
     },
     {
         "group": "San Antonio",
@@ -250,16 +230,6 @@
         "description": "We are thrilled to announce our first community-driven Meetup event, where we aim to build a platform for you to showcase your skills, network with like-minded individuals, and learn from others' real-life experiences.\n\nAt this event, we're doing something different by allowing the community to select the topics of most interest to them. Whether you're an experienced speaker or a first-time presenter, we encourage you to bring an idea for a talk you can give. No slides required, and the minimum time is 5 minutes.\n\nWe're hoping to create a safe space for people of all levels of experience, so if you're a little nervous about speaking, this is the perfect opportunity to overcome that fear. The event is designed to be inclusive and supportive, so even if you don't get to give your talk this time, you can always bring it to the next Meetup!\n\nHere are the details of the event:\n\n**Date:** May 9 2023\n**Time:** Arrive from 5.30 pm\n**Venue:** Talenza, Level 3, 7 Macquarie Place, Sydney\n\n**Schedule:**\n\n* 5.30 pm: Arrive, grab a drink, and meet your fellow attendees\n* 6.00 pm: Food is served\n* 6.00 pm: Submit your talk suggestions (5 to 30 mins each) for the night and begin voting\n* 6.30 pm: Voting closes, and the top selected talks begin\n* 7.30 pm: Talks finish, and networking begins\n* 8.00 pm: Event ends\n\n**Here are some of the talks that have already been submitted:**\n\n* Automating software composition analysis to identity vulnerabilities (est. 5 mins)\n* How we used readily available AppSec tools to get our startup acquired (est. 5-10 mins)\n* The emerging verticals in cyber threat intelligence (est. 5-10 mins)\n* Being ghosted during a security role interview process - and what to do next! (est. 5 mins)\n\nWe're expecting this event to be a little haphazard as it's our first time trying something like this. But we're looking forward to receiving your feedback to make the next event even better.\n\nDon't miss out on this unique opportunity to share your knowledge and connect with your peers. RSVP now, and we'll see you there!\n\nBest regards,\nOWASP Sydney Chapter Committee"
     },
     {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "AppSec Roundtable, hosted by Chris Romeo",
-        "date": "2023-04-27",
-        "time": "2:00-04:00",
-        "link": "https://www.meetup.com/owasptriangle/events/291207489",
-        "timezone": "America/New_York",
-        "description": "Following up on the success of our first AppSec round table in January, we'll continue the format for our April meeting. The host will present questions to get the conversation going, and the group will share insights and wisdom!"
-    },
-    {
         "group": "Tunisia",
         "repo": "www-chapter-tunisia",
         "name": "Small Coding Mistakes, Big Security Risks",
@@ -277,7 +247,7 @@
         "time": "8:00-03:00",
         "link": "https://www.meetup.com/owasp-uruguay-chapter/events/292840705",
         "timezone": "America/Montevideo",
-        "description": "Este evento se enfocar\u00e1 en un tema cl\u00e1sico y que \u00faltimamente se ha visto menos vulnerado, aunque sigue presente y explotable en nuevos desarrollos: **inyecciones en SQL (SQLi)**. Se abordar\u00e1 desde m\u00e1s de una perspectiva, como individuo que **ataca**, que **prueba** la aplicaci\u00f3n o que la **desarrolla**.\n\nSe presentar\u00e1n los diferentes tipos de inyecci\u00f3n: cl\u00e1sicas con retorno de datos visibles, por inferencia (ciegas basadas en errores o demoras) y con visibilidad fuera de banda. El prop\u00f3sito es tambi\u00e9n comentar c\u00f3mo **combatir** problemas desde el punto de vista del **desarrollo y configuraci\u00f3n,** mencionando algunas herramientas y tecnolog\u00edas comunes para lograr tanto la detecci\u00f3n y explotaci\u00f3n como la correcci\u00f3n.\n\n**La participaci\u00f3n pr\u00e1ctica es opcional**. Se contar\u00e1 con una gu\u00eda p\u00fablica unos d\u00edas previos al evento para quien le interese seguir los ejercicios expuestos con un ambiente en su propia m\u00e1quina o tener una idea del tema antes de concurrir.\n\nSe lleva a cabo en el **edificio central** de la Universidad Cat\u00f3lica del Uruguay, en la **sala Plaza de Encuentro**. La entrada es libre y gratuita. Por dudas, usar la secci\u00f3n de comentarios."
+        "description": "Este evento se enfocar\u00e1 en un tema cl\u00e1sico y que \u00faltimamente se ha visto menos vulnerado, aunque sigue presente y explotable en nuevos desarrollos: **inyecciones en SQL (SQLi)**. Se abordar\u00e1 desde m\u00e1s de una perspectiva, como individuo que **ataca**, que **prueba** la aplicaci\u00f3n o que la **desarrolla**.\n\nSe presentar\u00e1n los diferentes tipos de inyecci\u00f3n: cl\u00e1sicas con retorno de datos visibles, por inferencia (ciegas basadas en errores o demoras) y con visibilidad fuera de banda. El prop\u00f3sito es tambi\u00e9n comentar c\u00f3mo **combatir** problemas desde el punto de vista del **desarrollo y configuraci\u00f3n,** mencionando algunas herramientas y tecnolog\u00edas comunes para lograr tanto la detecci\u00f3n y explotaci\u00f3n como la correcci\u00f3n.\n\n**La participaci\u00f3n pr\u00e1ctica es opcional**. Se contar\u00e1 con una gu\u00eda p\u00fablica unos d\u00edas previos al evento para quien le interese seguir los ejercicios expuestos con un ambiente en su propia m\u00e1quina o tener una idea del tema antes de concurrir.\n\nSe lleva a cabo en el **edificio central** de la Universidad Cat\u00f3lica del Uruguay, en el **Anexo Plaza de Encuentro**. La entrada es libre y gratuita. Por dudas, usar la secci\u00f3n de comentarios."
     },
     {
         "group": "Vancouver",
