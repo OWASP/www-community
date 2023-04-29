@@ -10,6 +10,16 @@
         "description": "After a long time we are happy to announce a hacker day with hands on workshop by Abhay Bhargav. This meetup is sponsored by DeepFactor.\nWe are presenting this event in partnership with Pacific hackers group.\n\nSchedule:\n5PM :- Doors open, food, drinks and networking\n5.45PM :- Introduction and Short talk by Kiran Kamity from Deepfactor\n6PM :- Workshop on The Purple Team Cloud Security Ninja Learning Lab\n8 PM :- Doors closed.\n\nTalk by Kiran Kamity(TBD)\n\n## Session Abstract\n\nThe Purple Team Cloud Security Ninja Learning Lab is meant to be a completely hands-on exploration of cloud security attacks and defense against major cloud providers, AWS, Azure and GCP. In this Learning Lab, participants will be given vulnerable cloud environments on cyber-ranges. The participants have to identify and fix the vulnerabilities in the cloud environments.\n\n## Facilitator(s)\n\n* Abhay Bhargav, Founder and Chief Research Officer, AppSecEngineer\n\n## Technical Requirements\n\n* Participants will need to bring their own laptops that can connect to the conference WiFi network. They will need to access our lab environment on the cloud to access the labs for the learning lab\n* Participants should preferably not have a highly restrictive network policy, especially to access cloud resources\n\n## Outline\n\n* 0-20 minutes: Overview of Learning Lab, Shared Responsibility on Cloud, History of Cloud Attacks and Exploits\n* 21-60 mins - AWS Attack and Defense Scenarios\n* AWS EC2 and Attack and Defense Story and Scenario\n* AWS Lambda Attack and Defense Story and Scenario\n* 60-90 mins - Azure Attack and Defense Scenarios:\n* Azure Compute and Storage Attack and Defense Story\n* Azure Functions and Logic Apps Attack and Defense Story and Scenario\n* 90-110 mins - Google Cloud Attack and Defense Scenarios:\n* Google Storage IAM Attack and Defense Story and Scenario\n* 110-120 mins - Conclusions + Review of Scenarios"
     },
     {
+        "group": "Belfast",
+        "repo": "www-chapter-belfast",
+        "name": "OWASP Belfast event! ",
+        "date": "2023-05-25",
+        "time": "8:30+01:00",
+        "link": "https://www.meetup.com/owasp-belfast/events/293191036",
+        "timezone": "Europe/London",
+        "description": "Hello OWASP Belfast!\n\nWe are delighted to announce that we are back with our first hybrid event for 2023 with an exciting line up of talks from industry leaders. The Meet up will be in partnership with ESO, who have also kindly offered to host the evening and provide pizza, beers and soft drinks for everyone!\n\n**Date**: 25th May 2023\n**Time**: 6.30 PM\n**Location**: ESO, 42 Fountain St, Belfast BT1 5EF.\n\n**Or join us virtually by Zoom**: https://eso.zoom.us/j/93766328107\n\nFirst, we will talk about threat modelling, its importance to developers, and how it can be implemented as a continuous approach within the development pipeline. This will naturally lead into a discussion about the current TOP 10 threats by OWASP focusing specifically on: HTTP request smuggling, mass assignment attacks, plus terraform security best practices. Finally, to wrap up, we\u2019ll discuss how automation\ncan help address OWASP vulnerabilities, the importance of design principal prioritisation and how the utilisation of code analysis can improve vulnerability detection, management, and remediation as part of the development pipeline.\n\n**Agenda**:\n6.30 - 6.50 Networking\n6.50 - 7.00 Welcome & chat about ESO\n7.00 - 7.20 Talk 1: Threat Modelling (Simon Whittaker, Vertical Structures).\n7.20 - 7.30 BREAK\n7.30 - 7.50 Talk 2: OWASP Top 10 (Denis Podgurskii)\n7.50 - 8.00 BREAK\n8.00 - 8.20 Talk 3: Automating OWASP Defences (ESO)\n8.20 - 8.30 Q&A, Networking and Exit Disclaimer\nAs always, our events are designed to educate. Any tools and techniques\ndemonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nSpeaker Info:\n**Finian Mackin** \u2013 Director of Security Architecture at ESO\nhttps://www.linkedin.com/in/finian-m-81718014/\n**Simon Whittaker** \\- CEO at Vertical Structure Ltd\nhttps://speaking.verticalstructure.com/bio\n**Denis Podgurskii** \\- OWASP Belfast\nhttps://www.linkedin.com/in/denis-podgurskii/\n\nAdditional Information:\nESO is located between Waterstones bookshop and the back of Boots in Belfast city centre.\nThey have two working lifts\nESO employees will be at the door to welcome attendees and show them to the meetup space."
+    },
+    {
         "group": "Birmingham Uk",
         "repo": "www-chapter-birmingham-uk",
         "name": "OWASP Birmingham Chapter Meetup May 2023",
@@ -160,6 +170,16 @@
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nThis discussion focuses on the differences in issues detected between SAST, SCA and DAST with detailed examples. There is also an aggregation/correlation section at the end to cover the need to view an application\u2019s AppSec status as a whole and not via individual tools.\n\n* SAST - Examples from Coverity/Sigma\n* SCA - Examples from Black Duck\n* DAST (IAST/Fuzz) - Examples from Seeker & Defensics\n* ASOC - Examples from Code Dx\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)\n\n**Thanks to our Sponsor**: **Synopsys**\n**[Synopsys](https://www.synopsys.com/)**[ ](https://www.synopsys.com/)builds trust in software by enabling organizations to manage application security, quality, and compliance risks at the speed their business demands."
     },
     {
+        "group": "Oslo",
+        "repo": "www-chapter-oslo",
+        "name": "May meeting - API Security",
+        "date": "2023-05-08",
+        "time": "7:00+02:00",
+        "link": "https://www.meetup.com/owasp-oslo/events/293025797",
+        "timezone": "Europe/Oslo",
+        "description": "We have one talk planned, and an opening for one more.\n\nBig thanks to Vipps for sponsoring the event\n\n**Security at high speed - How Vipps secures their APIs**\n\nFrom the outside, login systems can seem very simple. In the Vipps app, for example, you just use biometrics (or a PIN code) and you're in with a blink of an eye! But how much work goes into creating such a system? What actually happens if someone steals my Vipps PIN code? And why doesn't Vipps just have a \"login with Facebook\" button? You'll get the answers to these questions in this presentation. We'll cover everything from the EU directive PSD2 to how to practically secure APIs so that the next time you log in to Vipps, you'll know what's happening behind the scenes!"
+    },
+    {
         "group": "Sacramento",
         "repo": "www-chapter-sacramento",
         "name": "May Meetup",
@@ -168,16 +188,6 @@
         "link": "https://www.meetup.com/owasp-sacramento-chapter/events/293001314",
         "timezone": "America/Los_Angeles",
         "description": "OWASP Sacramento will meet the third Wednesday of each month. We will announce topics 2-3 weeks in advanced of our meetups.\n\n7PM-9PM\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Community Topics\n* Modern Phishing Techniques with Evilginx2"
-    },
-    {
-        "group": "San Antonio",
-        "repo": "www-chapter-san-antonio",
-        "name": "OWASP San Antonio In-Person Meeting - 04/28/2023",
-        "date": "2023-04-28",
-        "time": "1:30-05:00",
-        "link": "https://www.meetup.com/owasp-sanantonio/events/292870330",
-        "timezone": "America/Chicago",
-        "description": "Title: The Ever-Unachievable Practical Security\nSpeaker: Red Thomas, CEO at Red Knight\nAbstract:\n**In this talk, I will walk through an analysis of general risks and threats to businesses, some of the current issues folks find implementing security programs, and then walk through a more practical, sustainable, and more implementable version of the process. I\u2019m drawing on the many failures I\u2019ve seen over the years and pointing out the simple reasons for why they didn\u2019t work.**\n\nWe will meet in person at CoalFire San Antonio office (Previous Denim Group Office: 1354 N Loop 1604 E Ste 110, San Antonio, TX 78232)\nSee you all there. Thanks."
     },
     {
         "group": "Seattle",
@@ -230,14 +240,14 @@
         "description": "We are thrilled to announce our first community-driven Meetup event, where we aim to build a platform for you to showcase your skills, network with like-minded individuals, and learn from others' real-life experiences.\n\nAt this event, we're doing something different by allowing the community to select the topics of most interest to them. Whether you're an experienced speaker or a first-time presenter, we encourage you to bring an idea for a talk you can give. No slides required, and the minimum time is 5 minutes.\n\nWe're hoping to create a safe space for people of all levels of experience, so if you're a little nervous about speaking, this is the perfect opportunity to overcome that fear. The event is designed to be inclusive and supportive, so even if you don't get to give your talk this time, you can always bring it to the next Meetup!\n\nHere are the details of the event:\n\n**Date:** May 9 2023\n**Time:** Arrive from 5.30 pm\n**Venue:** Talenza, Level 3, 7 Macquarie Place, Sydney\n\n**Schedule:**\n\n* 5.30 pm: Arrive, grab a drink, and meet your fellow attendees\n* 6.00 pm: Food is served\n* 6.00 pm: Submit your talk suggestions (5 to 30 mins each) for the night and begin voting\n* 6.30 pm: Voting closes, and the top selected talks begin\n* 7.30 pm: Talks finish, and networking begins\n* 8.00 pm: Event ends\n\n**Here are some of the talks that have already been submitted:**\n\n* Automating software composition analysis to identity vulnerabilities (est. 5 mins)\n* How we used readily available AppSec tools to get our startup acquired (est. 5-10 mins)\n* The emerging verticals in cyber threat intelligence (est. 5-10 mins)\n* Being ghosted during a security role interview process - and what to do next! (est. 5 mins)\n\nWe're expecting this event to be a little haphazard as it's our first time trying something like this. But we're looking forward to receiving your feedback to make the next event even better.\n\nDon't miss out on this unique opportunity to share your knowledge and connect with your peers. RSVP now, and we'll see you there!\n\nBest regards,\nOWASP Sydney Chapter Committee"
     },
     {
-        "group": "Tunisia",
-        "repo": "www-chapter-tunisia",
-        "name": "Small Coding Mistakes, Big Security Risks",
-        "date": "2023-04-28",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-tunis-meetup-group/events/293085149",
-        "timezone": "Africa/Tunis",
-        "description": "**OWASP Tunisia Chapter** and **SecuriNets** Foundation are glad to invite you to an online Workshop **\"Small Coding Mistakes, Big Security Risks\"**\n\nThe \"Small Coding Mistakes, Big Security Risks\" workshop is a short technical training session aimed at highlighting the importance of code-level security practices. The workshop aims to demonstrate how small coding mistakes can lead to high-impact vulnerabilities in web applications, and how to identify and remediate these issues. The coding issues with be shown, exploited via a live demo, and presented in multiple web-oriented scripting/programming languages: php, python, and java.\n\nOur dear Guest Speaker\n\n**Mohamed Adib Boukthir** is a Securinets alumnus and a previous technical manager/vice president at Securinets ISI. He currently occupies the position of a Cyber Security Tester/Penetration Tester at EY."
+        "group": "Triangle Nc",
+        "repo": "www-chapter-triangle-nc",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2023-05-25",
+        "time": "8:30-04:00",
+        "link": "https://www.meetup.com/owasptriangle/events/293199573",
+        "timezone": "America/New_York",
+        "description": "TBA"
     },
     {
         "group": "Uruguay",
