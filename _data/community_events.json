@@ -1,5 +1,15 @@
 [
     {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - May 2023 (Online)",
+        "date": "2023-05-30",
+        "time": "1:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705737",
+        "timezone": "America/Chicago",
+        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- Coming Soon\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+    },
+    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "Hacker Days, Cloud Security: The Purple Team Ninja Learning Lab",
@@ -97,7 +107,7 @@
         "time": "8:30+03:00",
         "link": "https://www.meetup.com/owasp-israel/events/293101142",
         "timezone": "Asia/Jerusalem",
-        "description": "OWASP AppSec Israel 2023 will take place IN-PERSON on May 16th and 17th, 2023!\n\nIt is the largest conference in Israel for application security.\n\nThe [Agenda](https://appsecil.org/Agenda) is out!\n\nMake sure to **Register** [here](https://appsecil.org/Register)\n\nWe still have [sponsor](https://appsecil.org/assets/AppSecIL2023Sponsorships.pdf) spots available as well"
+        "description": "Dear community use this code for 25% discount\n\n**AppSecIL2023_owaspil_meetup**\n\nOWASP AppSec Israel 2023 will take place IN-PERSON on May 16th and 17th, 2023!\n\nIt is the largest conference in Israel for application security.\n\nThe [Agenda](https://appsecil.org/Agenda) is out!\n\nMake sure to **Register** [here](https://appsecil.org/Register)\n\nWe still have [sponsor](https://appsecil.org/assets/AppSecIL2023Sponsorships.pdf) spots available as well"
     },
     {
         "group": "Jacksonville",
@@ -108,6 +118,16 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/291605620",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+    },
+    {
+        "group": "Lisboa",
+        "repo": "www-chapter-lisboa",
+        "name": "#03 is a charm",
+        "date": "2023-05-30",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/owasp-lisboa-chapter/events/292893619",
+        "timezone": "Europe/Lisbon",
+        "description": "OWASP Lisboa chapter meetup on May 30th, 2023, at 18:00, **supported by Snyk**.\n\nThe schedule is the following:\n**18:00** \\- Welcome notes by the OWASP Lisboa chapter leadership team\n**18:15** \\- Open projects you can use today to improve your AppSec posture\n**19:00** \\- One\\-Time Quantum\\-Resistant Fully\\-Homomorphic Padding Oracle cryptography trends\\, buzzwords\\, and snake oil for 2023\n**20:00** \\- Snacks & Drinks sponsored by Snyk\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Talks**:\n\nTitle: **Open projects you can use today to improve your AppSec posture**\n\nSpeaker:\nLucas Ferreira\n\nAbstract:\nIn this talk, we go through the most important OWASP projects (both documentation/standards and tools) to show how companies can improve their security posture and mature their AppSec program. It is meant as an overview of the main OWASP projects.\n\nBio:\nLucas is a long-time OWASP member, having worked in OWASP as a project leader and chapter leader on two continents. He was a member of the OWASP Global Conferences committee and lead the organization of 3 OWASP AppSec conferences in Brazil.\n\nLinkedIn: [https://www.linkedin.com/in/ferreira/](https://www.linkedin.com/in/ferreira/)\nTwitter: @lucassapao\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nTitle: **One-Time Quantum-Resistant Fully-Homomorphic Padding Oracle cryptography trends, buzzwords, and snake oil for 2023**\n\nSpeaker:\nDiogo Sousa\n\nAbstract:\nIn our modern times, cryptography is all around us, even if we don't notice it. We use it when checking our bank statements, buying pig plushies online, or sending stickers to each other on instant messengers. Given its ubiquity, it is, for the most part, taken for granted by developers: import HTTP/crypto/TLS, throw in a certificate from Let's Encrypt, and don't think much about it while relying on (hopefully) safe defaults.\nWhile sticking with well-vetted libraries should work out of the box for most cases, in certain areas, you need to be a bit more knowledgeable, if only to make good decisions about what libraries to use and how to wrangle all the moving parts into a cohesive and secure system.\nCryptography tends to be full of obscure notation that isn't that dissimilar to magic spells, and \"Don't Roll Your Own Crypto\" is an often repeated mantra (many times because of the previous statement). Search results for \"crypto\" have been getting progressively more complicated to navigate, with BTC, XRP, and others taking up all the prime SEO result space.\nThis talk targets a beginner to an intermediate audience and, starting from a brief overview of core tenets (Kerckhoffs's principle, Schneier's Law, the economy of mechanism, theoretical vs. practical security), will expand upon the current challenges and trends in modern cryptography, from FHE to PQC (including explaining what those are), and also highlight common design pitfalls (and their consequences) and how to reduce your snake oil intake.\n\nBio:\nAn opinionated individual with interest in cryptography and its intersection with secure software development.\n\nLinkedIn: [https://www.linkedin.com/in/0xdsousa/](https://www.linkedin.com/in/0xdsousa/)"
     },
     {
         "group": "Los Angeles",
@@ -177,7 +197,7 @@
         "time": "7:00+02:00",
         "link": "https://www.meetup.com/owasp-oslo/events/293025797",
         "timezone": "Europe/Oslo",
-        "description": "We have one talk planned, and an opening for one more.\n\nBig thanks to Vipps for sponsoring the event\n\n**Security at high speed - How Vipps secures their APIs**\n\nFrom the outside, login systems can seem very simple. In the Vipps app, for example, you just use biometrics (or a PIN code) and you're in with a blink of an eye! But how much work goes into creating such a system? What actually happens if someone steals my Vipps PIN code? And why doesn't Vipps just have a \"login with Facebook\" button? You'll get the answers to these questions in this presentation. We'll cover everything from the EU directive PSD2 to how to practically secure APIs so that the next time you log in to Vipps, you'll know what's happening behind the scenes!"
+        "description": "We have one talk planned, and an opening for one more.\n\nBig thanks to Vipps for sponsoring the event\n\n**Security at high speed - How Vipps secures their APIs**\n\nFrom the outside, login systems can seem very simple. In the Vipps app, for example, you just use biometrics (or a PIN code) and you're in with a blink of an eye! But how much work goes into creating such a system? What actually happens if someone steals my Vipps PIN code? And why doesn't Vipps just have a \"login with Facebook\" button? You'll get the answers to these questions in this presentation. We'll cover everything from the EU directive PSD2 to how to practically secure APIs so that the next time you log in to Vipps, you'll know what's happening behind the scenes!\n\nSpeaker: Nora Tomas is a developer and security lead for the User Security team at Vipps MobilePay. She is involved in developing Vipps MobilePay's authentication systems. With a passion for both security and programming, Nora is interested in how to develop at DevOps speed while still keeping the systems secure"
     },
     {
         "group": "Sacramento",
