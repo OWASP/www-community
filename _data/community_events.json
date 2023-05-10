@@ -1,5 +1,15 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - May/June",
+        "date": "2023-06-01",
+        "time": "9:00+02:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/293431733",
+        "timezone": "Europe/Copenhagen",
+        "description": "Hi All,\n\nPlease note, that this is a physical event hosted by Beumer Group A/S and OWASP Aarhus may share a list of participants with Beumer Group A/S for the sole purpose of hosting the event.\n\nNote that the doors open at 18:30 for snacks and network.\n\nOWASP Aarhus would like to invite you to an OWASP Aarhus meetup on June 1st in collaboration with ICS Range and BEUMER Group A/S, and this time, it will be a bit different as we will have OT security as a theme.\n\nMikael Vingaard from ICS Range will present \u201cIT/OT, more than a letter of differences! \u2013 Only a foul does not fear it-security people in their OT network\u201d, and Jens Nielsen (Senior Security Researcher) also from ICS Range will present \u201cIn my defence, I was left unsupervised\".\n\nThe event will occur at BEUMER Group A/S, P.O. Pedersens Vej 10, 8200 Aarhus N (Thanks to BeumerGroup and Claus Riber for hosting us).\n\nWe will start at 19:00 but the doors open for network, snacks at 18:30 and we plan to end at 21:00.\n\nPlease remember to sign up!"
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - May 2023 (Online)",
@@ -70,14 +80,14 @@
         "description": "A joint event, by OWASP Bristol and OWASP Suffolk.\n\nInjection vulnerabilities remain a common problem today. A single mistake could expose your whole database and customer data, or give an attacker the ability to remotely execute code on your server.\n\nWe will look at some examples of coding mistakes that can lead to injection vulnerabilities, demonstrate how they can be found with vulnerability scanning tools, and discuss how they can be completely prevented from happening (more than simply hoping developers will use prepared queries or database abstractions correctly).\n\nAgenda:\n\n* OWASP updates\n* Injection Vulnerabilities talk"
     },
     {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP Suffolk Fight Club - May 2023",
-        "date": "2023-05-09",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-bristol/events/292044026",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "OWASP Cairo Chapter Event - Introduction to DevSecOps",
+        "date": "2023-05-13",
+        "time": "0:00+02:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/293427950",
+        "timezone": "Africa/Cairo",
+        "description": "OWASP Cairo Chapter Event - Introduction to DevSecOps\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 13 May 2023\n\nAgenda:\n\n10:00 - 10:30- Intro to the DevSecOps Culture [ By **Ahmed Saafan** ]\n10:30 - 11:15 - Security Testing in DevSecOps [ By **Seif El Sherif** ]\n11:15 - 12:00 - Securing Cloud-native Deployments [ By **George Fahmy** ]\n12:00 - 12:15 - Break\n12:15 - 1:00 - Case Study: Managing Vulnerabilities in DevSecOps with DefectDojo [ By **Ahmed Abdallah** ]"
     },
     {
         "group": "Colorado Springs",
@@ -184,7 +194,7 @@
         "repo": "www-chapter-morocco",
         "name": "Utilisation s\u00e9curis\u00e9e des r\u00e9seaux sociaux et de votre email",
         "date": "2023-05-18",
-        "time": "8:30+01:00",
+        "time": "9:30+01:00",
         "link": "https://www.meetup.com/morocco-owasp-meetup-group/events/293402635",
         "timezone": "Africa/Casablanca",
         "description": "La chapitre OWASP Maroc dans les locaux du Golf Royal de Casablanca une session de sensibilisation :\n\n* Les r\u00e8gles d\u2019utilisation d\u2019Internet\n* Les dangers d\u2019Internet\n* Le cyberharc\u00e8lement\n* L\u2019utilisation d\u2019une messagerie\n* Utilisation s\u00e9curis\u00e9 les blogs\n* Utilisation s\u00e9curis\u00e9 des r\u00e9seaux sociaux\n* Pourquoi s\u00e9curiser au maximum le mot de passe de vos comptes: email, r\u00e9seau sociaux, etc ?\n* Choisir un mot de passe robuste \u00e0 partir d'une phrase\n* C'est quoi le PasswordLess ?"
@@ -208,16 +218,6 @@
         "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/292932837",
         "timezone": "Europe/Amsterdam",
         "description": "**Location:** Exact\n**Address:** Molengraaffsingel 33, 2629 JD Delft\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **AppSec in IT contracts** by **Sebastian Avarvarei**\n20:00 - 20:15- **Break with drinks**\n20:15 - 21:00 - **About containers and their escapes: understanding escape patterns and possibilities** by **Mauricio Cano**\n\n**AppSec in IT contracts**\n*Abstract:*\nBack in 2018 I wrote: \u201cIn today\u2019s multi-sourced enterprise, your security is as good as your worst written contract.\u201d We have gotten better at writing security into commercial contracts since I first did my talk on this topic, but the yellow brick road ahead of us still goes some ways.\n\nBut how about AppSec, how well is it covered in our IT contracts? What are the pitfalls and the solutions? How do we avoid that someone else\u2019s security issues become our security problems? And, by all means, let\u2019s learn how to be a bit lazy, and do better with less effort!\n*Bio:*\nCurrently working as Information Security Manager at Canon EMEA, Sebastian has been in IT and Security for over 20 years, covering a multitude of roles ranging from Developer, Security Architect, Auditor and Consultant, before moving into security governance and management, giving him a unique multi-faceted view on today\u2019s InfoSec challenges. He has led multiple security improvement programs and performed maturity assessments for a wide variety of organizations - while continuously asking himself:\"Could we do this in another way?\"\n\n**About containers and their escapes: understanding escape patterns and possibilities**\n*Abstract:*\nContainers have become one of the most common underlying infrastructure for microservice architectures. As such, they can often be part of the external attack surface of enterprise systems and applications (e.g., whenever a web application hosted on a kubernetes cluster is Internet-facing). Thus, it is important to understand what types of (mis)configurations can make containers more vulnerable against attacks of different types. In this talk, Mauricio will deep dive into different techniques that can be used to escape containers. In particular, he will talk about how to escape privileged containers, the usage of different capabilities, the usage of kernel exploits and a few other ways in which attackers may use to gain access to the hosts of the containers.\n*Bio:*\nMauricio Cano is a cloud pentester focused on container technologies. In particular, he focuses on the security of containers and serverless architectures. He has pentested Kubernetes clusters and serverless architectures for several multinational financial institutions. Prior to his security work, he has a background in academia and a Ph.D. in Computer Science from the University of Groningen, focused on programming language design and formal methods to ensure correctness. In his spare time, Cano enjoys reading, cooking, and solving puzzles."
-    },
-    {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP NZ - Auckland Meetup - May 2023",
-        "date": "2023-05-09",
-        "time": "8:00+12:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291720878",
-        "timezone": "Pacific/Auckland",
-        "description": "We have a new host for our May Meetup!\n[IriusRisk](https://iriusrisk.com) has kindly agreed to host our session, at their Auckland 'office.' We'll be meeting in the ground-level Seminar Room at the B:HIVE shared workspace, 72 Taharoto Road, in Takapuna.\n\nPizza, soft drinks, beer, and wine will be provided - also sponsored by IriusRisk.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for May will be **A07:2021 - Identification and Authentication Failures.**\n\n**Technical Topic Speaker:** John DiLeo, IriusRisk\n**Talk Title:** Let's Talk about Threat Modelling\n\n**Abstract:** John will provide an update on his general thoughts about threat modelling as a source of Security Requirements for applications, how development teams can integrate threat modelling into their BAU practices, and his updated views on the tool landscape.\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make.\n\n**Important \"how to find us\" info:** We'll be letting you in through the side door. When you're on The Boulevard facing the building, you'll see a nondescript set of black doors to the left of Reform Physio. That will be your entrance, and one of us will be on hand to let you in, at least until 6:30. If you arrive late, call or text Willo (027 226 4081) and he'll come get you."
     },
     {
         "group": "Newcastle Uk",
@@ -298,26 +298,6 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291863605",
         "timezone": "Europe/London",
         "description": "Injection vulnerabilities remain a common problem today. A single mistake could expose your whole database and customer data or give an attacker the ability to remotely execute code on your server.\n\nWe will look at some examples of coding mistakes that can lead to injection vulnerabilities and discuss how they could be mitigated.\n\nThis is a joint event provided by OWASP Bristol and OWASP Suffolk.\n\nAgenda:\n\n* OWASP updates\n* Injection Vulnerabilities talk\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes."
-    },
-    {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "OWASP Suffolk Fight Club - May 2023",
-        "date": "2023-05-09",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291864867",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Sydney",
-        "repo": "www-chapter-sydney",
-        "name": "OWASP Sydney Unmeetup #1",
-        "date": "2023-05-09",
-        "time": "7:30+10:00",
-        "link": "https://www.meetup.com/owasp-sydney-chapter/events/292887824",
-        "timezone": "Australia/Sydney",
-        "description": "We are thrilled to announce our first community-driven Meetup event, where we aim to build a platform for you to showcase your skills, network with like-minded individuals, and learn from others' real-life experiences.\n\nAt this event, we're doing something different by allowing the community to select the topics of most interest to them. Whether you're an experienced speaker or a first-time presenter, we encourage you to bring an idea for a talk you can give. No slides required, and the minimum time is 5 minutes.\n\nWe're hoping to create a safe space for people of all levels of experience, so if you're a little nervous about speaking, this is the perfect opportunity to overcome that fear. The event is designed to be inclusive and supportive, so even if you don't get to give your talk this time, you can always bring it to the next Meetup!\n\nHere are the details of the event:\n\n**Date:** May 9 2023\n**Time:** Arrive from 5.30 pm\n**Venue:** Talenza, Level 3, 7 Macquarie Place, Sydney\n\n**Schedule:**\n\n* 5.30 pm: Arrive, grab a drink, and meet your fellow attendees\n* 6.00 pm: Food is served\n* 6.00 pm: Submit your talk suggestions (5 to 30 mins each) for the night and begin voting\n* 6.30 pm: Voting closes, and the top selected talks begin\n* 7.30 pm: Talks finish, and networking begins\n* 8.00 pm: Event ends\n\n**Here are some of the talks that have already been submitted:**\n\n* Automating software composition analysis to identity vulnerabilities (est. 5 mins)\n* How we used readily available AppSec tools to get our startup acquired (est. 5-10 mins)\n* The emerging verticals in cyber threat intelligence (est. 5-10 mins)\n* Being ghosted during a security role interview process - and what to do next! (est. 5 mins)\n\nWe're expecting this event to be a little haphazard as it's our first time trying something like this. But we're looking forward to receiving your feedback to make the next event even better.\n\nDon't miss out on this unique opportunity to share your knowledge and connect with your peers. RSVP now, and we'll see you there!\n\nBest regards,\nOWASP Sydney Chapter Committee"
     },
     {
         "group": "Tampa",
