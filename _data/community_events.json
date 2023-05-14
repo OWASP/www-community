@@ -70,16 +70,6 @@
         "description": "A joint event, by OWASP Bristol and OWASP Suffolk.\n\nInjection vulnerabilities remain a common problem today. A single mistake could expose your whole database and customer data, or give an attacker the ability to remotely execute code on your server.\n\nWe will look at some examples of coding mistakes that can lead to injection vulnerabilities, demonstrate how they can be found with vulnerability scanning tools, and discuss how they can be completely prevented from happening (more than simply hoping developers will use prepared queries or database abstractions correctly).\n\nAgenda:\n\n* OWASP updates\n* Injection Vulnerabilities talk"
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Cairo Chapter Event - Introduction to DevSecOps",
-        "date": "2023-05-13",
-        "time": "0:30+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/293427950",
-        "timezone": "Africa/Cairo",
-        "description": "OWASP Cairo Chapter Event - Introduction to DevSecOps\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 13 May 2023\n\nAgenda:\n\n10:00 - 10:30- Intro to the DevSecOps Culture [ By **Ahmed Saafan** ]\n10:30 - 11:15 - Security Testing in DevSecOps [ By **Seif El Sherif** ]\n11:15 - 12:00 - Securing Cloud-native Deployments [ By **George Fahmy** ]\n12:00 - 12:15 - Break\n12:15 - 1:00 - Case Study: Managing Vulnerabilities in DevSecOps with DefectDojo [ By **Ahmed Abdallah** ]"
-    },
-    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS May 2023",
@@ -88,6 +78,16 @@
         "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/293309247",
         "timezone": "America/Denver",
         "description": "Speaker: John Mocuta, Weaponized AI and Executive Impersonation.\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
+    },
+    {
+        "group": "Dublin",
+        "repo": "www-chapter-dublin",
+        "name": "OWASP Dublin - May Meetup",
+        "date": "2023-05-23",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/owasp-dublin/events/293492626",
+        "timezone": "Europe/Dublin",
+        "description": "OWASP Dublin are delighted to announce KPMG will be sponsoring & hosting the next OWASP Dublin chapter meetup.\n\nWe will have two great talks from industry experts, details can be found below:\n\n**Speaker 1: Muath Sharawi** is an associate director in the KPMG Cyber Defense and Response team, with over a decade of experience assisting organisations in improving their cybersecurity posture through offensive security. His primary focus is on red and purple team exercises, in addition to infrastructure and application security assessments.\n\n**Speaker 2: Ritesh Bhat** is a senior consultant in the KPMG Cyber Defense and Response Team. He has almost 6 years of experience in the industry specialising in Offensive Security and Incident Response. Apart from that he has experience in deploying and managing Endpoint Security stacks. He also has knowledge in the areas of Malware analysis and forensics.\n\n**Talk Description**:\nOur presentation covers the life cycle of cyber-attacks, focusing on a real-world incident involving a threat actor group that exploited a public-facing server to compromise the network. Topics include common initial access vectors, recent trends in cyber attacks, and a detailed walkthrough of the attack, highlighting the tactics and techniques employed\n\nWe will also hear from our third speaker **John Marmelstein**.\n\nJohn is currently an independent security consultant. Previously he was with Oracle for about 10 years. Focus areas include access controls, and technology risk in general.\n\nJohn will be talking to us about using a test based approach to managing complex data access rules.\n\nThis will be an exciting evening, so please ensure you register early.\n\nRefreshments will be available and plenty of opportunity to speak with others in the Secuirty Community.\n\nA big thanks to our hosts for the evening KPMG."
     },
     {
         "group": "Edmonton",
@@ -128,6 +128,16 @@
         "link": "https://www.meetup.com/owasp-israel/events/293101142",
         "timezone": "Asia/Jerusalem",
         "description": "Dear community use this code for 25% discount\n\n**AppSecIL2023_owaspil_meetup**\n\nOWASP AppSec Israel 2023 will take place IN-PERSON on May 16th and 17th, 2023!\n\nIt is the largest conference in Israel for application security.\n\nThe [Agenda](https://appsecil.org/Agenda) is out!\n\nMake sure to **Register** [here](https://appsecil.org/Register)\n\nWe still have [sponsor](https://appsecil.org/assets/AppSecIL2023Sponsorships.pdf) spots available as well"
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2023-06-12",
+        "time": "8:45-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/293371130",
+        "timezone": "America/New_York",
+        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
         "group": "Lisboa",
@@ -260,6 +270,16 @@
         "description": "Join Portland OWASP for a evening of networking at Lucky Lab."
     },
     {
+        "group": "Riyadh",
+        "repo": "www-chapter-riyadh",
+        "name": "Navigating Security Risks in Cloud Computing?",
+        "date": "2023-05-24",
+        "time": "1:00+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/293507584",
+        "timezone": "Asia/Riyadh",
+        "description": "**Cloudy with a Chance of Penetration: Navigating Security Risks in Cloud Computing?**\n\n**Target audience:**\nIT professionals and cybersecurity experts responsible for securing cloud-based systems and data\n\n**Objective:**\nto provide a comprehensive overview of strategies for conducting penetration testing, mitigating cloud computing security risks ,and minimizing the likelihood of cyber attacks and data breaches\n\n**Topics covered:**\n\n* The current state of cloud computing security\n* Common risks and threats inherent in cloud-based systems\n* A practical guide to penetration testing in the cloud\n* Methods for reducing risk and minimizing the likelihood of data breaches\n\n**Key takeaways:**\n\n* A solid foundation in cloud computing security best practices\n* An understanding of the risks and vulnerabilities that must be addressed to achieve secure cloud computing\n* Practical strategies for mitigating risk and conducting effective penetration testing\n* An overview of the tools and techniques used to secure cloud-based assets\n\nAbrar, is a cybersecurity consultant specializing in cloud security with a focus on compliance regulations applicable to the Saudi Arabian market. He works closely with organizations to help them navigate complex regulatory requirements and safeguard themselves from cyber threats, both in the cloud and on-premise environments.\nHe helps organizations implement effective cloud security strategies to protect their data, networks, and applications from security breaches and cyberattacks. He conducts comprehensive penetration testing with a focus on cloud security, identifies potential vulnerabilities, and proposes remediation measures. Furthermore, he assists organizations in implementing multi-layered security to ensure their data privacy and availability and maintain regulatory compliance.\nTo effectively monitor cloud environments, he offers Security Operations Center (SOC) implementation to identify and respond to security issues in real-time. He also provides Digital Forensics and Incident Response (DFIR) services to ensure quick and efficient resolution of cyber-security incidents to minimize impact. He is committed to ensuring organizations are secure and compliant with the relevant regulations, which extends to assisting organizations in obtaining ISO 27001 certification, the standard Information Security Management System (ISMS), NCA ECC, and NDMO.\nBy working closely with organizations, he can help achieve a robust cloud security posture that meets both regulatory requirements and industry best practices."
+    },
+    {
         "group": "Sacramento",
         "repo": "www-chapter-sacramento",
         "name": "May Meetup",
@@ -338,5 +358,15 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248501",
         "timezone": "America/Vancouver",
         "description": "Want to tap into your inner evildoer and test your skills in hunting down web application vulnerabilities?\nIf so, immerse yourself in the industry\u2019s most authentic environment where players exploit their way through hundreds of vulnerabilities that lurk in business applications today. Success means learning quickly that attack and defense is all about thinking on your feet. For each vulnerability you uncover, you are awarded points. Climb the interactive leaderboard as you vie for the top spot!\n\nThe **CMD+CTRL Cyber Range** is ideal for anyone interested in learning how web applications are attacked, furthering their cybersecurity acumen, or honing the skills needed to protect the enterprise. From curious bystanders to active practitioners to Risk and Security Executives, there\u2019s something for everyone.\n\nTeaser: [https://securityinnovation.hubs.vidyard.com/watch/9NbmLo8rHBqcKJbVP4oLek](https://securityinnovation.hubs.vidyard.com/watch/9NbmLo8rHBqcKJbVP4oLek)\n\nThis event is sponsored by **Security Innovation** \\- thank you for facilitating the workshop and enabling access to their Cyber Range\\.\nThis event is sponsored by **Microsoft** \\- thank you for providing us space\\."
+    },
+    {
+        "group": "Security Integration System",
+        "repo": "www-project-security-integration-system",
+        "name": "Navigating Security Risks in Cloud Computing?",
+        "date": "2023-05-24",
+        "time": "1:00+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/293507584",
+        "timezone": "Asia/Riyadh",
+        "description": "**Cloudy with a Chance of Penetration: Navigating Security Risks in Cloud Computing?**\n\n**Target audience:**\nIT professionals and cybersecurity experts responsible for securing cloud-based systems and data\n\n**Objective:**\nto provide a comprehensive overview of strategies for conducting penetration testing, mitigating cloud computing security risks ,and minimizing the likelihood of cyber attacks and data breaches\n\n**Topics covered:**\n\n* The current state of cloud computing security\n* Common risks and threats inherent in cloud-based systems\n* A practical guide to penetration testing in the cloud\n* Methods for reducing risk and minimizing the likelihood of data breaches\n\n**Key takeaways:**\n\n* A solid foundation in cloud computing security best practices\n* An understanding of the risks and vulnerabilities that must be addressed to achieve secure cloud computing\n* Practical strategies for mitigating risk and conducting effective penetration testing\n* An overview of the tools and techniques used to secure cloud-based assets\n\nAbrar, is a cybersecurity consultant specializing in cloud security with a focus on compliance regulations applicable to the Saudi Arabian market. He works closely with organizations to help them navigate complex regulatory requirements and safeguard themselves from cyber threats, both in the cloud and on-premise environments.\nHe helps organizations implement effective cloud security strategies to protect their data, networks, and applications from security breaches and cyberattacks. He conducts comprehensive penetration testing with a focus on cloud security, identifies potential vulnerabilities, and proposes remediation measures. Furthermore, he assists organizations in implementing multi-layered security to ensure their data privacy and availability and maintain regulatory compliance.\nTo effectively monitor cloud environments, he offers Security Operations Center (SOC) implementation to identify and respond to security issues in real-time. He also provides Digital Forensics and Incident Response (DFIR) services to ensure quick and efficient resolution of cyber-security incidents to minimize impact. He is committed to ensuring organizations are secure and compliant with the relevant regulations, which extends to assisting organizations in obtaining ISO 27001 certification, the standard Information Security Management System (ISMS), NCA ECC, and NDMO.\nBy working closely with organizations, he can help achieve a robust cloud security posture that meets both regulatory requirements and industry best practices."
     }
 ]
