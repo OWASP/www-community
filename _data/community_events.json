@@ -230,16 +230,6 @@
         "description": "This is an In-Person Event\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nSpeaker 1: **Kevin Johnson**\n\nKevin Johnson is the Chief Executive Officer of Secure Ideas. Kevin has a long history in the IT field including system administration, network architecture and application development. He has been involved in building incident response and forensic teams, architecting security solutions for large enterprises and penetration testing everything from government agencies to Fortune 100 companies. In addition, Kevin is a faculty member at IANS and was an instructor and author for the SANS Institute.\n\nTopic: **Replacements: What Malcolm Gladwell and Keanu Reeves can teach AppSec**. A reflection of how appsec is focused in the wrong place and how we can improve it. The talk includes stories and tangents based on Kevin's work and consulting.\n\nSpeaker 2: TBD\n\nTopic TBD"
     },
     {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASP Ottawa May 17th 2023: Office Under Siege ",
-        "date": "2023-05-17",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/293459642",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: https://www.youtube.com/watch?v=CyVrl7MIgVA\n\n**6:00 PM EDT** Arrival, setup, mingle\n**6:30 PM EDT** Technical Talks\n\n1. **Introduction to OWASP Ottawa, Public Announcements.**\n2. **Office Under Siege:** Understanding, Discovering, and Preventing Attacks against M365\n\n**Abstract:**\nMicrosoft 365 (AKA Office 365) has enjoyed an explosive popularity in recent years, fueled by many factors, including cloud migration, proliferation of remote work, and COVID-19 lockdowns. More and more of companies' important communications and resources now reside in this ecosystem, and naturally the attackers are training their sights on it with growing frequency.\n\nIn this presentation we will start with an introduction of M365 and AAD environments, and describe the most popular attack methods that hackers employ when exploiting them. We will then continue with discussion of facilities available to enterprises to help identify and investigate malicious activity, and wrap up about strategies for preventing and responding to attacks.\n\n**Speaker Bio:**\nDmitriy Beryoza is a Senior Security Researcher with Vectra AI, working on threat detection in the cloud and on-prem networks.\nBefore that he was a penetration tester and secure software development advocate at IBM. He has been a software developer for many years, before switching to security full-time.\nDmitriy holds a Ph.D. in Computer Science, and OSCP, CISSP, CCSP and CEH certifications.\nHis interests include reverse engineering, secure software development, and CTF competitions."
-    },
-    {
         "group": "Patna",
         "repo": "www-chapter-patna",
         "name": "OWASP Patna Session II : Playing with Access Controls",
@@ -280,16 +270,6 @@
         "description": "**Cloudy with a Chance of Penetration: Navigating Security Risks in Cloud Computing?**\n\n**Target audience:**\nIT professionals and cybersecurity experts responsible for securing cloud-based systems and data\n\n**Objective:**\nto provide a comprehensive overview of strategies for conducting penetration testing, mitigating cloud computing security risks ,and minimizing the likelihood of cyber attacks and data breaches\n\n**Topics covered:**\n\n* The current state of cloud computing security\n* Common risks and threats inherent in cloud-based systems\n* A practical guide to penetration testing in the cloud\n* Methods for reducing risk and minimizing the likelihood of data breaches\n\n**Key takeaways:**\n\n* A solid foundation in cloud computing security best practices\n* An understanding of the risks and vulnerabilities that must be addressed to achieve secure cloud computing\n* Practical strategies for mitigating risk and conducting effective penetration testing\n* An overview of the tools and techniques used to secure cloud-based assets\n\nAbrar, is a cybersecurity consultant specializing in cloud security with a focus on compliance regulations applicable to the Saudi Arabian market. He works closely with organizations to help them navigate complex regulatory requirements and safeguard themselves from cyber threats, both in the cloud and on-premise environments.\nHe helps organizations implement effective cloud security strategies to protect their data, networks, and applications from security breaches and cyberattacks. He conducts comprehensive penetration testing with a focus on cloud security, identifies potential vulnerabilities, and proposes remediation measures. Furthermore, he assists organizations in implementing multi-layered security to ensure their data privacy and availability and maintain regulatory compliance.\nTo effectively monitor cloud environments, he offers Security Operations Center (SOC) implementation to identify and respond to security issues in real-time. He also provides Digital Forensics and Incident Response (DFIR) services to ensure quick and efficient resolution of cyber-security incidents to minimize impact. He is committed to ensuring organizations are secure and compliant with the relevant regulations, which extends to assisting organizations in obtaining ISO 27001 certification, the standard Information Security Management System (ISMS), NCA ECC, and NDMO.\nBy working closely with organizations, he can help achieve a robust cloud security posture that meets both regulatory requirements and industry best practices."
     },
     {
-        "group": "Sacramento",
-        "repo": "www-chapter-sacramento",
-        "name": "May Meetup",
-        "date": "2023-05-17",
-        "time": "9:00-07:00",
-        "link": "https://www.meetup.com/owasp-sacramento-chapter/events/293001314",
-        "timezone": "America/Los_Angeles",
-        "description": "OWASP Sacramento will meet the third Wednesday of each month. We will announce topics 2-3 weeks in advanced of our meetups.\n\n7PM-9PM\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Community Topics\n* Modern Phishing Techniques with Evilginx2"
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -318,6 +298,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/292199099",
         "timezone": "America/Los_Angeles",
         "description": "A collaboration between the **Vancouver, Portland, Victoria, and Seattle** chapters taking place **June 10, 2023** at **Portland Center Stage.**\n\nThe CFP for AppSec PNW is OPEN and you have until April 3rd to submit a presentation. You don't want to miss on this opportunity to speak, submit your CFPs soon!\nhttps://bit.ly/AppSecPNW2023CFP\n\nGet your tickets now for the event, there are only a few available spots in the Early Bird registration:\nhttps://bit.ly/AppSecPNW2023Tickets"
+    },
+    {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "OWASP Suffolk Fight Club - June 2023",
+        "date": "2023-06-13",
+        "time": "9:30+01:00",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/293587091",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Suffolk",
