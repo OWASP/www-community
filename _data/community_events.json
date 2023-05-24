@@ -40,16 +40,6 @@
         "description": "In-person event, kindly **hosted by Immersive Labs**, 6th Floor, The Programme, All Saints' St, Bristol BS1 2LZ.\n\n**Agenda:**\n\n* OWASP Updates\n* Talk 1: Browser extension security, with Billy Sheppard from Immersive Labs\n* Break\n* Talk 2: Intro to Scripting for Web Application Testers with Alex Archondakis\n* Networking\n\n**Venue:**\nPhoto shows the main entrance, which is visible when walking down the right hand side of the Tesco Express on Wine Street (Google Street View sometimes shows the back entrance, which is only accessible via keycard).\n\nAddress: 6th Floor, The Programme, All Saints' St, Bristol BS1 2LZ\n\n\\-\\-\\-\n\nTalk 1: **A look into browser extension security**, the risks involved with allowing users to install browser extensions and browser security/attack vectors, presented by **Billy Sheppard**.\n\n**Abstract**: As web technologies are becoming more and more popular, you need to be more careful about what you put in your browsers. While extensions can be very useful, they come with hidden dangers \u2013 users often prioritise functionality over safety. In this talk, you'll uncover the real risks of using extensions, explore common attacks, and learn about pitfalls. You'll also take a look at some real-life security incidents and what went wrong. You'll leave with a deeper understanding of the need for browser extension security and how to safeguard your browser.\n\n**Bio:** Billy Sheppard is a Bristol-based Senior Application Security Engineer working at Immersive Labs where he creates Secure Code content and challenges for their product.\n\nIn his career thus far, he has earned several achievements including VDP submissions for Fortune 500 companies, Bug bounties, and created and released his own niche CTF/Hacking challenge specifically aimed at increasing security awareness for ServiceNow developers. He has also created a Web Security YouTube Channel to demonstrate security concepts and educate developers and reported multiple real security issues to VDPs/Bug Bounty Programs for large companies such as BBC, RedHat and Accenture. He is a keen learner and spends a lot of his personal time continuously learning and is passionate about education around secure code.\n\n\\-\\-\\-\n\nTalk 2: **An Introduction to scripting for Application Testers,** presented by **Alex Archondakis**.\n\n**Abstract**: Scripting, or the ability to write code that allows you to perform actions or automate repetitive tasks is a crucial tool in any application security testers belt, however, it doesn\u2019t seem to be a common one.\n\nThe purpose of this talk is to introduce scripting to application security testers, this will be achieved by looking at case studies to determine where scripting may be appropriate and how to solve the problem. We will discuss multiple languages and their advantages whilst focussing on interacting with the HTTP protocol.\n\nThe key learning points from this talk are as follows:\n\n* To gain an understanding of the importance of scripting for application security testers\n* What programming languages are used, and their advantages/disadvantages.\n* Typical scenarios where scripting is required because tooling is not comprehensive enough\n\n**Bio**: Alex is head of professional services & a senior consultant at Pentest People. He has a wealth of experience in penetration testing, people management and training hackers. He believes that all application security professionals should be able to write basic scripts to solve common problems."
     },
     {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "Injection Vulnerabilities, with OWASP Suffolk",
-        "date": "2023-05-23",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-bristol/events/292044436",
-        "timezone": "Europe/London",
-        "description": "A joint event, by OWASP Bristol and OWASP Suffolk.\n\nInjection vulnerabilities remain a common problem today. A single mistake could expose your whole database and customer data, or give an attacker the ability to remotely execute code on your server.\n\nWe will look at some examples of coding mistakes that can lead to injection vulnerabilities, demonstrate how they can be found with vulnerability scanning tools, and discuss how they can be completely prevented from happening (more than simply hoping developers will use prepared queries or database abstractions correctly).\n\nAgenda:\n\n* OWASP updates\n* Injection Vulnerabilities talk"
-    },
-    {
         "group": "Chile",
         "repo": "www-chapter-chile",
         "name": "Desarrollo Seguro basado en OWASP",
@@ -98,16 +88,6 @@
         "link": "https://www.meetup.com/owasp-dorset-chapter/events/293556100",
         "timezone": "Europe/London",
         "description": "OWASP Dorset are proud to bring out latest in-person event, hosted with Hays Recruitment Bournemouth.\n\n**Talks**\nAndrew Howe is a locally based technical author, architect and Linux load balancer engineer. He is an advocate of open source software and a fellow member of OWASP. Andrew is a developer for the OWASP ModSecurity Core Rule Set (CRS) project.\n\nThe OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with ModSecurity or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts. The CRS provides protection against many common attack categories, including SQL Injection, Cross Site Scripting, Local File Inclusion, etc.\n\nWe will also have a talk from James Walsh of Hays Recruitment. James will present the findings from the recent Hays Global Cyber Survey, where over 1000 Senior Leaders from 29 countries have given their insight.\n\n**Event and Venue**\nWe will be joining Hays Recruitment in Bournemouth for this event, there is a limit on numbers, so signup is essential. Names will be required upon arrival to enter the building.\n\nThere will be food and drink provided for this event, so please let us know of any dietary requirements or allergies."
-    },
-    {
-        "group": "Dublin",
-        "repo": "www-chapter-dublin",
-        "name": "OWASP Dublin - May Meetup",
-        "date": "2023-05-23",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owasp-dublin/events/293492626",
-        "timezone": "Europe/Dublin",
-        "description": "OWASP Dublin are delighted to announce KPMG will be sponsoring & hosting the next OWASP Dublin chapter meetup.\n\nWe will have two great talks from industry experts, John Marmelstein, Ritesh Bhat and Muath Sharawi, details can be found below:\n\n**Speaker 1: Muath Sharawi** is an associate director in the KPMG Cyber Defense and Response team, with over a decade of experience assisting organisations in improving their cybersecurity posture through offensive security. His primary focus is on red and purple team exercises, in addition to infrastructure and application security assessments.\n\n**Speaker 2: Ritesh Bhat** is a senior consultant in the KPMG Cyber Defense and Response Team. He has almost 6 years of experience in the industry specialising in Offensive Security and Incident Response. Apart from that he has experience in deploying and managing Endpoint Security stacks. He also has knowledge in the areas of Malware analysis and forensics.\n\n**Talk Description**:\nOur presentation covers the life cycle of cyber-attacks, focusing on a real-world incident involving a threat actor group that exploited a public-facing server to compromise the network. Topics include common initial access vectors, recent trends in cyber attacks, and a detailed walkthrough of the attack, highlighting the tactics and techniques employed\n\nWe will also hear from our third speaker **John Marmelstein**.\n\nJohn is currently an independent security consultant. Previously he was with Oracle for about 10 years. Focus areas include access controls, and technology risk in general.\n\nJohn will be talking to us about using a test based approach to managing complex data access rules.\n\nThis will be an exciting evening, so please ensure you register early.\n\nRefreshments will be available and plenty of opportunity to speak with others in the Secuirty Community.\n\nA big thanks to our hosts for the evening KPMG."
     },
     {
         "group": "Edmonton",
@@ -190,14 +170,14 @@
         "description": "Requested Topics:\n\n* Discuss the Open Letter to OWASP and the Response/Updates\n\nhttps://owasp.org/blog/2023/03/10/strategic-plan-open-letter-update.html\nhttps://owasp.org/blog/2023/03/31/owasp-strategy-2023-1.html\n\n* Industry Roundtable: initiatives, struggles, successes from the Madison Metro AppSec Space\n* Jazzer Demo https://github.com/CodeIntelligenceTesting/jazzer"
     },
     {
-        "group": "Natal",
-        "repo": "www-chapter-natal",
-        "name": "Meetup 2023 Presencial #02",
-        "date": "2023-05-23",
-        "time": "9:30-03:00",
-        "link": "https://www.meetup.com/owasp-natal-chapter/events/293627466",
-        "timezone": "America/Fortaleza",
-        "description": "OWASP \u00e9 uma organiza\u00e7\u00e3o sem fins lucrativos que se dedica a melhorar a seguran\u00e7a da informa\u00e7\u00e3o global. Ela busca conscientizar as empresas e as universidades sobre as amea\u00e7as de seguran\u00e7a cibern\u00e9tica e fornecer ferramentas e recursos para defender contra essas amea\u00e7as.\n\nCom este evento, as empresas e as universidades participantes ter\u00e3o a oportunidade de serem atualizadas sobre os mais recentes desenvolvimentos e t\u00e9cnicas na \u00e1rea de seguran\u00e7a da informa\u00e7\u00e3o. Al\u00e9m disso, as palestras ser\u00e3o ministradas por profissionais experientes e altamente qualificados, o que lhes dar\u00e1 acesso a conhecimento e a uma rede de contatos de especialistas.\n\nNeste meetup presencial o que vai rolar:\n\\- Apresenta\u00e7\u00e3o sobre OWASP\n\\- Como o cap\u00edtulo OWASP Natal funciona?\n**\\- Pentesting 101**\n\n*\nVoc\u00ea j\u00e1 imaginou ser pago para hackear empresas e descobrir suas vulnerabilidades? Descubra como se tornar um Pentester de sucesso e\ndesvendar os segredos do mundo da ciberseguran\u00e7a! N\u00e3o perca a chance de aprender na pr\u00e1tica com este resumo empolgante.\n\n**\\- Mesa redonda: Carreira em Seguran\u00e7a da Informa\u00e7\u00e3o**\n\nDestinada especialmente aos alunos do IMD interessados neste campo em expans\u00e3o, mas tamb\u00e9m aberto a todo publico. Contaremos com a presen\u00e7a de especialistas da Conviso, Unicred e TV Globo, prontos para compartilhar suas experi\u00eancias e responder \u00e0s suas d\u00favidas.\n\nRepresentantes da Conviso, empresa l\u00edder em consultoria de seguran\u00e7a, discutir\u00e3o tend\u00eancias emergentes e habilidades necess\u00e1rias na \u00e1rea de seguran\u00e7a da informa\u00e7\u00e3o. Da Unicred, teremos profissionais destacando a import\u00e2ncia deste campo no setor banc\u00e1rio e dando dicas de como prosperar nesse segmento. A TV Globo trar\u00e1 sua perspectiva sobre os desafios de manter a seguran\u00e7a da informa\u00e7\u00e3o em um ambiente de m\u00eddia e a sua relev\u00e2ncia no entretenimento.\n\nO evento iniciar\u00e1 com breves apresenta\u00e7\u00f5es dos palestrantes, seguidas de uma discuss\u00e3o aberta para perguntas e intera\u00e7\u00e3o com os especialistas. Concluiremos com uma sess\u00e3o de networking, propiciando a conex\u00e3o entre os participantes e os palestrantes. Esta \u00e9 uma oportunidade imperd\u00edvel para quem deseja direcionar sua carreira em seguran\u00e7a da informa\u00e7\u00e3o.\n\nPalestrantes:\n**Kadson Breno -** Especialista em Seguran\u00e7a da Informa\u00e7\u00e3o na Unicred do Brasil(UBR)\n**Kali Nathalie -** Analista de seguran\u00e7a da informa\u00e7\u00e3o na Conviso\n**Matheus Cezar** \\- Analista de seguran\u00e7a da informa\u00e7\u00e3o na Conviso\n**Fernando Guisso** \\- AppSec Engineer na TV Globo\n\n**Local:** Av. Cap. Mor Gouveia, 3000 - Lagoa Nova, Natal - RN, 59078-970\n**Sala**: B206\n\n**Evento Gratutito**\nInscri\u00e7\u00f5es para ter o Certificado de participa\u00e7\u00e3o: https://meetup.grupyrn.org/2-meetup-owasp-2023"
+        "group": "Maine",
+        "repo": "www-chapter-maine",
+        "name": "OWASP Maine: Jump into Mobile AppSec with the OWASP MAS Project",
+        "date": "2023-06-22",
+        "time": "8:00-04:00",
+        "link": "https://www.meetup.com/owasp-maine/events/293695815",
+        "timezone": "America/New_York",
+        "description": "Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS), the OWASP Mobile Application Security Verification Standard (MASVS), and OWASP Mobile Application Security Testing Guide (MASTG) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. Come join us!\n\n\\*Food and drinks will be provided by NowSecure\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
     },
     {
         "group": "Netherlands",
@@ -250,6 +230,16 @@
         "description": "Joins us for a conference in person in Portland Oregon June 10th (tickets required)\n\n[https://www.appsecpnw.org/](https://www.appsecpnw.org/)\n\nTickets [https://www.eventbrite.com/e/3rd-annual-owasp-appsec-days-pacific-northwest-conference-in-person-tickets-558186820807](https://www.eventbrite.com/e/3rd-annual-owasp-appsec-days-pacific-northwest-conference-in-person-tickets-558186820807)"
     },
     {
+        "group": "Portland Me",
+        "repo": "www-chapter-portland-me",
+        "name": "OWASP Maine: Jump into Mobile AppSec with the OWASP MAS Project",
+        "date": "2023-06-22",
+        "time": "8:00-04:00",
+        "link": "https://www.meetup.com/owasp-maine/events/293695815",
+        "timezone": "America/New_York",
+        "description": "Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS), the OWASP Mobile Application Security Verification Standard (MASVS), and OWASP Mobile Application Security Testing Guide (MASTG) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. Come join us!\n\n\\*Food and drinks will be provided by NowSecure\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
+    },
+    {
         "group": "Riyadh",
         "repo": "www-chapter-riyadh",
         "name": "Navigating Security Risks in Cloud Computing?",
@@ -268,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-sacramento-chapter/events/293615825",
         "timezone": "America/Los_Angeles",
         "description": "OWASP Sacramento will meet the third Wednesday of each month. We will announce topics 2-3 weeks in advanced of our meetups.\n\n7PM-9PM\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Community Topics\n* Presentation TBD"
-    },
-    {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "Wasatch AppSec/OWASP-SLC - May Meetup (in person @ Murray Park - Pavilion #4)",
-        "date": "2023-05-23",
-        "time": "2:00-06:00",
-        "link": "https://www.meetup.com/owasp-slc/events/293627244",
-        "timezone": "America/Denver",
-        "description": "**Agenda:**\n\n1. Lunch\n2. Discussion on book: \"[Project Zero Trust](https://www.goodreads.com/book/show/62061375-project-zero-trust)\"\n\nPlease RSVP if you're coming! We'd like to make sure you get some lunch for meeting in person :)\n\nSee you all then!\n[ADDRESS]\nMurray Park Pavilion #4, Murray, UT 84107\nhttps://goo.gl/maps/6fLMjzZmpRftk9G79?coh=178573&entry=tt"
     },
     {
         "group": "Seattle",
@@ -320,16 +300,6 @@
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "Injection Vulnerabilities",
-        "date": "2023-05-23",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/291863605",
-        "timezone": "Europe/London",
-        "description": "Injection vulnerabilities remain a common problem today. A single mistake could expose your whole database and customer data or give an attacker the ability to remotely execute code on your server.\n\nWe will look at some examples of coding mistakes that can lead to injection vulnerabilities and discuss how they could be mitigated.\n\nThis is a joint event provided by OWASP Bristol and OWASP Suffolk.\n\nAgenda:\n\n* OWASP updates\n* Injection Vulnerabilities talk\n\nDisclaimer: As always our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes."
-    },
-    {
         "group": "Tampa",
         "repo": "www-chapter-tampa",
         "name": "OWASP Tampa Chapter Q2 CTF/Lunch Event 2023",
@@ -347,7 +317,7 @@
         "time": "8:00+03:00",
         "link": "https://www.meetup.com/owasp-timisoara-chapter/events/293548265",
         "timezone": "Europe/Bucharest",
-        "description": "The next OWASP Timisoara Chapter Meetup will be ***in person***.\n\nSee https://owasp.org/www-chapter-timisoara/ for more information about the OWASP Timisoara chapter.\n\nTheme sessions - Theme: CyberSec Ecosystem & Cloud Security\n\n`Schedule` **`Time:`**` 18:00 to 21:00`\n\nIntroduction, OWASP News & Updates - Catalin Curelaru\nCyberSecurity Ecosystem - Octavian STANCU (Atos)\nSecurity Log Management - Adrian PAUL (Visma)\nImproving security in AWS Cognito - Lucian Patian (Haufe)\n\nLocation of the event: UBC3, et 10, Sediu VISMA, Pia\u021ba Consiliul Europei 2 \u00b7 Timi\u0219oara\n\nEvent powered by VISMA"
+        "description": "The next OWASP Timisoara Chapter Meetup will be ***in person***.\n\nSee https://owasp.org/www-chapter-timisoara/ for more information about the OWASP Timisoara chapter.\nTheme sessions - Theme: CyberSec Ecosystem & Cloud Security\n\n`Schedule` **`Time:`**` 18:00 to 21:00`\n\nIntroduction, OWASP News & Updates - Catalin Curelaru\nCyberSecurity Ecosystem - Octavian STANCU (Atos)\nSecurity Log Management - Adrian PAUL (Visma)\nImproving security in AWS Cognito - Lucian Patian (Haufe)\n\nLocation of the event: UBC3, et 10, Sediu VISMA, Pia\u021ba Consiliul Europei 2 \u00b7 Timi\u0219oara\n\nEvent powered by VISMA\n\nMore about the speakers and topics:\n**Octavian STANCU** is an experienced Unit Lead and IT Instructor with a demonstrated history of working in the Information Technology and Services industry, specifically in the fields of Cybersecurity, Networking and Telecommunications. As the Head of Cybersecurity Services at Eviden, an Atos business, Octavian brings extensive expertise and a strong track record in managing and delivering Cybersecurity services and solutions.\n\n**Adrian PAUL**\n\n**Lucian P\u0103tian** is a Cloud Solutions Architect at Haufe Group Timisoara. With a SysAdmin background, for the past four years, he has earned a reputation for finding creative solutions to problems in Cloud.\n\\~ Improving security in AWS Cognito. \\~\nAbstract: we will discuss about why using the standard configurations in Cognito can make your application a security honeypot. How can you use AWS WAF to add an extra layer of protection and why using verified token attributes should be a must."
     },
     {
         "group": "Toronto",
