@@ -197,7 +197,7 @@
   posture: "https://img.shields.io/badge/API_Posture-No-red.svg"
   runtime: "https://img.shields.io/badge/API_Runtime-No-red.svg"
   testing: "https://img.shields.io/badge/API_Testing-Yes-brightgreen.svg"
-  notes: "<br/><em>Note: Premium API security scanning</em>"
+  notes: ""
 - name: "Insomnia"
   link: "https://insomnia.rest/"
   from: "Kong"
