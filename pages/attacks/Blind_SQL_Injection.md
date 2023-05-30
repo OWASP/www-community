@@ -189,7 +189,7 @@ vulnerabilities.
 
 ### Online Resources
 
-- [more Advanced SQL Injection](http://www.nccgroup.com/Libraries/Document_Downloads/more__Advanced_SQL_Injection.sflb.ashx) - by NGS
+- [more Advanced SQL Injection](https://research.nccgroup.com/wp-content/uploads/2020/07/advanced_sql_injection.pdf) - by NGS
 - [Blind SQL Injection Automation Techniques](http://www.blackhat.com/presentations/bh-usa-04/bh-us-04-hotchkies/bh-us-04-hotchkies.pdf) - Black Hat Pdf
 - [Blind Sql-Injection in MySQL Databases](http://seclists.org/lists/bugtraq/2005/Feb/0288.html)
 - [Cgisecurity.com: What is Blind SQL Injection?](http://www.cgisecurity.com/questions/blindsql.shtml)
