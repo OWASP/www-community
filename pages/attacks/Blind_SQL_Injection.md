@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: Blind SQL Injection
 author: 
-contributors:
+contributors: kingthorin
 permalink: /attacks/Blind_SQL_Injection
 tags: attack, blind sql injection, sql injection
 
@@ -189,20 +189,13 @@ vulnerabilities.
 
 ### Online Resources
 
-- [more Advanced SQL Injection](http://www.nccgroup.com/Libraries/Document_Downloads/more__Advanced_SQL_Injection.sflb.ashx) - by NGS
-- [Blind SQL Injection Automation Techniques](http://www.blackhat.com/presentations/bh-usa-04/bh-us-04-hotchkies/bh-us-04-hotchkies.pdf) - Black Hat Pdf
+- [More Advanced SQL Injection](https://research.nccgroup.com/wp-content/uploads/2020/07/advanced_sql_injection.pdf) - by NGS
+- [Blind SQL Injection Automation Techniques](http://www.blackhat.com/presentations/bh-usa-04/bh-us-04-hotchkies/bh-us-04-hotchkies.pdf) - Black Hat PDF
 - [Blind Sql-Injection in MySQL Databases](http://seclists.org/lists/bugtraq/2005/Feb/0288.html)
 - [Cgisecurity.com: What is Blind SQL Injection?](http://www.cgisecurity.com/questions/blindsql.shtml)
-- Kevin Spett from SPI Dynamics:
-  - http://www.net-security.org/dl/articles/Blind_SQLInjection.pdf
-  - http://www.imperva.com/resources/whitepapers.asp?t=ADC
-  - [Advanced SQL Injection](https://wiki.owasp.org/images/7/74/Advanced_SQL_Injection.ppt)
+- [Advanced SQL Injection](https://wiki.owasp.org/images/7/74/Advanced_SQL_Injection.ppt) - Kevin Spett from SPI Dynamics
 
 ### Tools
 
-- [SQL Power Injector](http://www.sqlpowerinjector.com/)
-- [Absinthe :: Automated Blind SQL Injection](https://github.com/cameronhotchkies/Absinthe)
-- [SQLBrute - Multi Threaded Blind SQL Injection Bruteforcer](http://www.securiteam.com/tools/5IP0L20I0E.html) in Python
-- [SQLiX - SQL Injection Scanner](:Category:OWASP_SQLiX_Project "wikilink") in Perl
 - [sqlmap, automatic SQL injection tool](http://sqlmap.org/) in Python
 - [bsqlbf, a blind SQL injection tool](https://code.google.com/p/bsqlbf-v2/) in Perl
