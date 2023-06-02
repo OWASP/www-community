@@ -1,15 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - May/June",
-        "date": "2023-06-01",
-        "time": "9:00+02:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/293431733",
-        "timezone": "Europe/Copenhagen",
-        "description": "Hi All,\n\nPlease note, that this is a physical event hosted by Beumer Group A/S and OWASP Aarhus may share a list of participants with Beumer Group A/S for the sole purpose of hosting the event.\n\nNote that the doors open at 18:30 for snacks and network.\n\nOWASP Aarhus would like to invite you to an OWASP Aarhus meetup on June 1st in collaboration with ICS Range and BEUMER Group A/S, and this time, it will be a bit different as we will have OT security as a theme.\n\nMikael Vingaard from ICS Range will present \u201cIT/OT, more than a letter of differences! \u2013 Only a foul does not fear it-security people in their OT network\u201d, and Jens Nielsen (Senior Security Researcher) also from ICS Range will present \u201cIn my defence, I was left unsupervised\".\n\nThe event will occur at BEUMER Group A/S, P.O. Pedersens Vej 10, 8200 Aarhus N (Thanks to BeumerGroup and Claus Riber for hosting us).\n\nWe will start at 19:00 but the doors open for network, snacks at 18:30 and we plan to end at 21:00.\n\nPlease remember to sign up!"
-    },
-    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "Project Spotlight - OWASP SAMM",
@@ -88,16 +78,6 @@
         "link": "https://www.meetup.com/denver-owasp/events/293553304",
         "timezone": "America/Denver",
         "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend.**\n\nJoin us June 21st for food, drinks, networking and a super informative presentation on \"The Joys of Mobile Application Testing\" from one of the best and brightest in the industry: Greg Leonard. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to our Denver OWASP sponsor [SpyderSec](https://spydersec.com)**\n\n**Presentation Title:** The Joys of Mobile Application Testing\n\n**Presentation Details:** In this talk, I will walk through the major challenges of testing mobile applications. This will include reliably capturing HTTPS traffic between the app and it's backend APIs, reviewing data stored by the app on the mobile device, working around defenses built into many apps, and discussing some obstacles that need to be worked around with modern mobile operating systems."
-    },
-    {
-        "group": "Dorset",
-        "repo": "www-chapter-dorset",
-        "name": "Introduction to OWASP ModSecurity CRS",
-        "date": "2023-06-01",
-        "time": "8:30+01:00",
-        "link": "https://www.meetup.com/owasp-dorset-chapter/events/293556100",
-        "timezone": "Europe/London",
-        "description": "OWASP Dorset are proud to bring out latest in-person event, hosted with Hays Recruitment Bournemouth.\n\n**Talks**\nAndrew Howe is a locally based technical author, architect and Linux load balancer engineer. He is an advocate of open source software and a fellow member of OWASP. Andrew is a developer for the OWASP ModSecurity Core Rule Set (CRS) project.\n\nThe OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with ModSecurity or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts. The CRS provides protection against many common attack categories, including SQL Injection, Cross Site Scripting, Local File Inclusion, etc.\n\nWe will also have a talk from James Walsh of Hays Recruitment. James will present the findings from the recent Hays Global Cyber Survey, where over 1000 Senior Leaders from 29 countries have given their insight.\n\n**Event and Venue**\nWe will be joining Hays Recruitment in Bournemouth for this event, there is a limit on numbers, so signup is essential. Names will be required upon arrival to enter the building.\n\nThere will be food and drink provided for this event, so please let us know of any dietary requirements or allergies."
     },
     {
         "group": "Dubai",
