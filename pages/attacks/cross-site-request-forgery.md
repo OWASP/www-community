@@ -156,6 +156,14 @@ HTTPS by itself does nothing to defend against CSRF.
 However, HTTPS should be considered a prerequisite for any preventative
 measures to be trustworthy.
 
+### Validating the Referrer Header
+
+This doesn't work in practice because the referrer header can be easily 
+spoofed by an attacker. Additionally, some users or browsers might not 
+send the referrer header due to privacy settings or policies, leading to false
+positives.
+
+
 ## Examples
 
 ### How does the attack work?
