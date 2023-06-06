@@ -161,9 +161,9 @@ measures to be trustworthy.
 This doesn't work in practice because the referrer header can be easily 
 spoofed by an attacker. Additionally, some users or browsers might not 
 send the referrer header due to privacy settings or policies, leading to false
-positives.Moreover, there are situations where the referrer can be null, such 
+positives. Moreover, there are situations where the referrer can be null, such 
 as when a user navigates to a site from a bookmark or any other resource without 
-a traditional url.In these scenarios, legitimate requests could be mistaken as 
+a traditional url. In these scenarios, legitimate requests could be mistaken as 
 potential CSRF attacks, which would result in more potential false positive flags.
 
 
