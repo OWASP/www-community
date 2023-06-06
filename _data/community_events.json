@@ -24,7 +24,7 @@
         "repo": "www-chapter-bay-area",
         "name": "June Meetup ",
         "date": "2023-06-14",
-        "time": "2:00-07:00",
+        "time": "7:00-07:00",
         "link": "https://www.meetup.com/bay-area-owasp/events/293963878",
         "timezone": "America/Los_Angeles",
         "description": "Security time, We will have exciting talks, lots of people to meet, and great food and Drinks. Courtesy our sponsors JIT (https://www.jit.io).\n\n*Jit*\\- An open DevSecOps Orchestration Platform allows high\\-velocity Engineering teams to own product security while increasing dev velocity\\.\n\n5PM to 5.45PM Networking, food/Drinks\n5.45 PM to 8 PM Talks\n\nComplete talk descriptions will be updated soon.\n\nTalk #1: \"Securing a cloud app: from threat modeling to Continuous Security\"\n(basically I am doing is an extended talk based on the MVS one for Python apps)\n\nAbstract:\nIn this presentation, we will delve into the process of securing a cloud hosted application, using a Python-based app as our demonstrative model, from scratch. Our initial focus is on the initial crucial step of threat modeling, demystifying the process for beginners and offering a deep-dive into the identification, analysis, and prioritization of potential security risks across the codebase, infrastructure, CI/CD pipeline, and runtime.\n\nFurther, we will explore how these identified risks can be mapped to security tools using open-source security (OSS) tools, including some developed by OWASP.\n\nThe final part of our journey takes us through the seamless integration of these tools into the Continuous Integration/Continuous Deployment (CI/CD) pipeline. Utilizing Github Actions as a case study, we will show how to build and automate a security-focused workflow, ensuring a constantly secure state for your application.\n\nBy attending this session, you'll gain practical insights and tools to build secure cloud applications, maintain an efficient CI/CD pipeline, and tackle the dynamic cyber threat landscape with confidence and foresight. Stay a step ahead in your application security with continuous and integrated security measures.\n\nSpeaker: David Melamed CTO JIT\n\nTalks #2: Career growth topic for Appsec professionals\n\nSpeaker: Trupti Shiralkar, Sr Manager Product Security at Datadog and Deidre Diamond Founder CyberSN\n\nTalk #3: Drowning in APIs - How to improve your API security with proper inventory, prioritization, and automation\n\nSpearker: Nick Hawley, Practice Manager Optiv"
@@ -64,10 +64,20 @@
         "repo": "www-chapter-cairo",
         "name": "OWASP Cairo Chapter Event at CIASEC",
         "date": "2023-06-12",
-        "time": "1:00+02:00",
+        "time": "2:00+02:00",
         "link": "https://www.meetup.com/owasp-cairo-chapter/events/293931877",
         "timezone": "Africa/Cairo",
         "description": "OWASP Cairo Chapter will have a separate room during CAICES event with a free registration.\nThese sessions are served on the way of First Come, First Served. The room has limited seats. If you are interested in attending, please be there before the first OWASP session starts in a reasonable amount of time.\n\nPlease make sure to register using the following link:\nhttps://www.eventbrite.com/e/owasp-cairo-chapter-in-caisec-cyber-security-event-tickets-648988942397\n\nEven Agenda:\n\n13:00 - 13:45 Topic title: From traditional SDLC to DevSecOps\nSpeaker: Ahmed Abdallah\n13:45 - 14:30 Workshop title: Session Management\nSpeaker: Mohamed Amgad\n14:30 - 15:15 Workshop title: Implementing DevSecOps using OWASP free tools\nSpeaker: Ahmed Abdallah\n15:15 - 16:00 Topic title: AppSec Lessons from Battlefield\nSpeaker: Mohamed El-Fateh\n16:00 - 17:00 Discussion panel: Application Security Challanges in the Middleast"
+    },
+    {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "OWASP API Top 10 Awareness",
+        "date": "2023-06-10",
+        "time": "9:30+02:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/293990207",
+        "timezone": "Africa/Cairo",
+        "description": "A foundational element of innovation in today\u2019s app-driven world is the API. From banks, retail and transportation to IoT, autonomous vehicles and smart cities, APIs are a critical part of modern mobile, SaaS and web applications and can be found in customer-facing, partner-facing and internal applications. By nature, APIs expose application logic and sensitive data such as Personally Identifiable Information (PII) and because of this have increasingly become a target for attackers. Without secure APIs, rapid innovation would be impossible.\n\nAPI Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces (APIs).\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 10 June 2023\n\nAgenda:\n\n1- Session 1: OWASP API Top 10 - Part One [By Mahmoud Elhendy]\n2-Session 2: OWASP API Top 10 - Part Two [By Ahmed Abdallah]"
     },
     {
         "group": "Cambridge",
@@ -128,6 +138,16 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/293371130",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+    },
+    {
+        "group": "Lima",
+        "repo": "www-chapter-lima",
+        "name": "OWASP Meeting Junio 2023",
+        "date": "2023-06-21",
+        "time": "9:00-05:00",
+        "link": "https://www.meetup.com/owasp-lima-meetup-group/events/293986407",
+        "timezone": "America/Lima",
+        "description": "**OWASP Meeting Junio 2023**\nReuni\u00f3n Mensual de Seguridad de Aplicaciones\n\n**PRESENTACIONES:**\n\n***T\u00e9cnicas de evasi\u00f3n de sistemas de detecci\u00f3n y prevenci\u00f3n de intrusiones (IDS/IPS) - Aleida P\u00e9rez* (MX)**\n\u00bfTe gustar\u00eda conocer las estrategias utilizadas por los hackers para evadir los sistemas de seguridad m\u00e1s avanzados? \u00bfQuieres estar un paso adelante en la protecci\u00f3n de tu red?\nEn esta charla, profundizaremos en las t\u00e9cnicas de evasi\u00f3n de IDS/IPS. Aprender\u00e1s c\u00f3mo los atacantes logran evitar la detecci\u00f3n y el bloqueo de los sistemas de seguridad, y c\u00f3mo puedes fortalecer tus defensas para proteger mejor tu infraestructura.\n\n***Ciberseguridad para Todos - Alejandra Figueroa* (MX)**\nSe abordar\u00e1n la historia de la ciberseguridad, los conceptos principales, herramientas, c\u00f3mo incursionar en el \u00e1rea, campo laboral y experiencias personales."
     },
     {
         "group": "Los Angeles",
@@ -198,6 +218,26 @@
         "link": "https://www.meetup.com/owasp-oc/events/293621833",
         "timezone": "America/Los_Angeles",
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nCloud security presents unique challenges. As enterprises continue to move to the cloud, security practitioners face new threats and paradigms. In this session, we\u2019ll forensically reconstruct major cloud-centric breaches and step through them, building an understanding of what happened, how it happened, and developing key takeaways to help secure our own infrastructure, especially in AWS, Azure, and GCP.\n\n**Code of Conduct:**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**Sponsorship:**\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Chapter 2: OWASP Meet Up",
+        "date": "2023-07-05",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-peterborough/events/292660571",
+        "timezone": "Europe/London",
+        "description": "***PLACEHOLDER EVENT - PLEASE RESPOND TO UNDERSTAND AVAILABILITY***\n\nEach Chapter meeting will be focus on a different element of Cyber. To not limit creativity - this will be agreed once the request for speakers/sponsors/demos has been closed.\n\n**Location:** The Brewery Tap [availability pending]\n\n**We are looking for:**\n\n* Sponsors [to enable the event]\n* Speakers [to learn from & showcase]\n* Demos [to showcase practicals]\n\n**SPEAKERS:** If you want to speak or showcase anything - hit this link -> https://forms.gle/k1xnqmuGbHE5zsvUA\n\n**SPONSORS:** If you'd like to sponsor the event - please contact Ryan.winstanley@owasp.org.\n\nThank you,"
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Chapter Social",
+        "date": "2023-06-29",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-peterborough/events/293991357",
+        "timezone": "Europe/London",
+        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
         "group": "Portland",
