@@ -67,7 +67,7 @@
         "time": "8:30+01:00",
         "link": "https://www.meetup.com/owasp-bristol/events/290892060",
         "timezone": "Europe/London",
-        "description": "In-person event, kindly **hosted by Immersive Labs**, 6th Floor, The Programme, All Saints' St, Bristol BS1 2LZ.\n\n**Agenda:**\n\n* OWASP Updates.\n* Talk 1: LLM and Application Security, with Chris Wood from Immersive Labs.\n* Break.\n* Talk 2: Intro to Scripting for Web Application Testers with Alex Archondakis.\n* Networking.\n\n**Venue:**\nPhoto shows the main entrance, which is visible when walking down the right hand side of the Tesco Express on Wine Street (Google Street View sometimes shows the back entrance, which is only accessible via keycard).\n\nAddress: 6th Floor, The Programme, All Saints' St, Bristol BS1 2LZ.\n\n\\-\\-\\-\n\nTalk 1: **LLM and Application Security**, presented by **Chris Wood**.\n\n**Abstract**: A look at LLMs and how they affect the security of code and how humans are still needed in the loop.\n\n**Bio:** Chris is Principal AppSec Engineer at Immersive Labs leading on the development of our Secure Coding product. He is also a founder of BSides Cheltenham.\n\n\\-\\-\\-\n\nTalk 2: **An Introduction to scripting for Application Testers,** presented by **Alex Archondakis**.\n\n**Abstract**: Scripting, or the ability to write code that allows you to perform actions or automate repetitive tasks is a crucial tool in any application security testers belt, however, it doesn\u2019t seem to be a common one.\n\nThe purpose of this talk is to introduce scripting to application security testers, this will be achieved by looking at case studies to determine where scripting may be appropriate and how to solve the problem. We will discuss multiple languages and their advantages whilst focussing on interacting with the HTTP protocol.\n\nThe key learning points from this talk are as follows:\n\n* To gain an understanding of the importance of scripting for application security testers.\n* What programming languages are used, and their advantages/disadvantages.\n* Typical scenarios where scripting is required because tooling is not comprehensive enough.\n\n**Bio**: Alex is head of professional services & a senior consultant at Pentest People. He has a wealth of experience in penetration testing, people management and training hackers. He believes that all application security professionals should be able to write basic scripts to solve common problems."
+        "description": "In-person event, kindly **hosted by Immersive Labs**, 6th Floor, The Programme, All Saints' St, Bristol BS1 2LZ.\n\nTo find the entrance, it might be easier to search for \"Programme, Bristol, BS1 2NB\", or use this link to [Google Maps](https://www.google.com/maps/?q=51.455666,-2.592341).\n\n**Agenda:**\n\n* OWASP Updates.\n* Talk 1: LLM and Application Security, with Chris Wood from Immersive Labs.\n* Break.\n* Talk 2: Intro to Scripting for Web Application Testers with Alex Archondakis.\n* Networking.\n\n**Venue:**\nPhoto shows the main entrance, which is visible when walking down the right hand side of the Tesco Express on Wine Street (Google Street View sometimes shows the back entrance, which is only accessible via keycard).\n\nAddress: 6th Floor, The Programme, All Saints' St, Bristol BS1 2LZ.\n\n\\-\\-\\-\n\nTalk 1: **LLM and Application Security**, presented by **Chris Wood**.\n\n**Abstract**: A look at LLMs and how they affect the security of code and how humans are still needed in the loop.\n\n**Bio:** Chris is Principal AppSec Engineer at Immersive Labs leading on the development of our Secure Coding product. He is also a founder of BSides Cheltenham.\n\n\\-\\-\\-\n\nTalk 2: **An Introduction to scripting for Application Testers,** presented by **Alex Archondakis**.\n\n**Abstract**: Scripting, or the ability to write code that allows you to perform actions or automate repetitive tasks is a crucial tool in any application security testers belt, however, it doesn\u2019t seem to be a common one.\n\nThe purpose of this talk is to introduce scripting to application security testers, this will be achieved by looking at case studies to determine where scripting may be appropriate and how to solve the problem. We will discuss multiple languages and their advantages whilst focussing on interacting with the HTTP protocol.\n\nThe key learning points from this talk are as follows:\n\n* To gain an understanding of the importance of scripting for application security testers.\n* What programming languages are used, and their advantages/disadvantages.\n* Typical scenarios where scripting is required because tooling is not comprehensive enough.\n\n**Bio**: Alex is head of professional services & a senior consultant at Pentest People. He has a wealth of experience in penetration testing, people management and training hackers. He believes that all application security professionals should be able to write basic scripts to solve common problems."
     },
     {
         "group": "Cairo",
@@ -78,16 +78,6 @@
         "link": "https://www.meetup.com/owasp-cairo-chapter/events/293931877",
         "timezone": "Africa/Cairo",
         "description": "OWASP Cairo Chapter will have a separate room during CAICES event with a free registration.\nThese sessions are served on the way of First Come, First Served. The room has limited seats. If you are interested in attending, please be there before the first OWASP session starts in a reasonable amount of time.\n\nPlease make sure to register using the following link:\nhttps://www.eventbrite.com/e/owasp-cairo-chapter-in-caisec-cyber-security-event-tickets-648988942397\n\nEven Agenda:\n\n13:00 - 13:45 Topic title: From traditional SDLC to DevSecOps\nSpeaker: Ahmed Abdallah\n13:45 - 14:30 Workshop title: Session Management\nSpeaker: Mohamed Amgad\n14:30 - 15:15 Workshop title: Implementing DevSecOps using OWASP free tools\nSpeaker: Ahmed Abdallah\n15:15 - 16:00 Topic title: AppSec Lessons from Battlefield\nSpeaker: Mohamed El-Fateh\n16:00 - 17:00 Discussion panel: Application Security Challanges in the Middleast"
-    },
-    {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP API Top 10 Awareness",
-        "date": "2023-06-10",
-        "time": "9:30+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/293990207",
-        "timezone": "Africa/Cairo",
-        "description": "A foundational element of innovation in today\u2019s app-driven world is the API. From banks, retail and transportation to IoT, autonomous vehicles and smart cities, APIs are a critical part of modern mobile, SaaS and web applications and can be found in customer-facing, partner-facing and internal applications. By nature, APIs expose application logic and sensitive data such as Personally Identifiable Information (PII) and because of this have increasingly become a target for attackers. Without secure APIs, rapid innovation would be impossible.\n\nAPI Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces (APIs).\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 10 June 2023\n\nAgenda:\n\n1- Session 1: OWASP API Top 10 - Part One [By Mahmoud Elhendy]\n2-Session 2: OWASP API Top 10 - Part Two [By Ahmed Abdallah]"
     },
     {
         "group": "Chile",
@@ -128,6 +118,16 @@
         "link": "https://www.meetup.com/denver-owasp/events/293553304",
         "timezone": "America/Denver",
         "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend.**\n\nJoin us June 21st for food, drinks, networking and a super informative presentation on \"The Joys of Mobile Application Testing\" from one of the best and brightest in the industry: Greg Leonard. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to our Denver OWASP sponsor [SpyderSec](https://spydersec.com)**\n\n**Presentation Title:** The Joys of Mobile Application Testing\n\n**Presentation Details:** In this talk, I will walk through the major challenges of testing mobile applications. This will include reliably capturing HTTPS traffic between the app and it's backend APIs, reviewing data stored by the app on the mobile device, working around defenses built into many apps, and discussing some obstacles that need to be worked around with modern mobile operating systems."
+    },
+    {
+        "group": "Doha",
+        "repo": "www-chapter-doha",
+        "name": "Cyber Security Meetup -  13th of Jun 2023 ",
+        "date": "2023-06-13",
+        "time": "6:00+03:00",
+        "link": "https://www.meetup.com/owasp-doha-chapter/events/294100398",
+        "timezone": "Asia/Qatar",
+        "description": "Are you a cyber security enthusiast? Do you want to meet other enthusiasts and experts in this field? If yes, come to our meetup on the 13th of Jun 2023 from 4PM to 7PM at the innovation cafe Qatar. This is a free event with no hidden agenda. You can enjoy a cup of coffee and chat with people who share your passion for cybersecurity. You can also learn new things and exchange your insights with others. Don't let this chance pass you by!\nNote: Please pay for your own coffee as a way of supporting the venue owner and keeping us vendor neutral by not taking any sponsorship\n\n***Agenda & Schedule for this meetup***\n***Dated: 13th June 2022 \u2013 04 PM \u2013 07:00 PM***\n\nAs this will be a recurring event, we welcome as many paper submissions as possible, and reserve keeps interesting talk proposals for future editions.\n\nThe talk proposal should abide by the (ISC)\u00b2/OWASP/Null principles: to promote and disseminate knowledge and tools in cybersecurity that respect its core values, openness, support for innovation, global reach, and integrity. The talks should be vendor-neutral, which is not publicity talks for a specific company or a proprietary tool, but about interesting experiences and insecurity that can engage and foster discussion in the local community."
     },
     {
         "group": "Dubai",
@@ -260,16 +260,6 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Portland",
-        "repo": "www-chapter-portland",
-        "name": "AppSecDays PNW ",
-        "date": "2023-06-10",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-portland-chapter/events/292707041",
-        "timezone": "America/Los_Angeles",
-        "description": "Joins us for a conference in person in Portland Oregon June 10th (tickets required)\n\n[https://www.appsecpnw.org/](https://www.appsecpnw.org/)\n\nTickets [https://www.eventbrite.com/e/3rd-annual-owasp-appsec-days-pacific-northwest-conference-in-person-tickets-558186820807](https://www.eventbrite.com/e/3rd-annual-owasp-appsec-days-pacific-northwest-conference-in-person-tickets-558186820807)"
-    },
-    {
         "group": "Portland Me",
         "repo": "www-chapter-portland-me",
         "name": "OWASP Maine: Jump into Mobile AppSec with the OWASP MAS Project",
@@ -308,16 +298,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/292838144",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "OWASP AppSec Days PNW 2023",
-        "date": "2023-06-10",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/292199099",
-        "timezone": "America/Los_Angeles",
-        "description": "A collaboration between the **Vancouver, Portland, Victoria, and Seattle** chapters taking place **June 10, 2023** at **Portland Center Stage.**\n\nThe CFP for AppSec PNW is OPEN and you have until April 3rd to submit a presentation. You don't want to miss on this opportunity to speak, submit your CFPs soon!\nhttps://bit.ly/AppSecPNW2023CFP\n\nGet your tickets now for the event, there are only a few available spots in the Early Bird registration:\nhttps://bit.ly/AppSecPNW2023Tickets"
     },
     {
         "group": "Suffolk",
