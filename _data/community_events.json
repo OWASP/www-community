@@ -110,16 +110,6 @@
         "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend.**\n\nJoin us June 21st for food, drinks, networking and a super informative presentation on \"The Joys of Mobile Application Testing\" from one of the best and brightest in the industry: Greg Leonard. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to our Denver OWASP sponsor [SpyderSec](https://spydersec.com)**\n\n**Presentation Title:** The Joys of Mobile Application Testing\n\n**Presentation Details:** In this talk, I will walk through the major challenges of testing mobile applications. This will include reliably capturing HTTPS traffic between the app and it's backend APIs, reviewing data stored by the app on the mobile device, working around defenses built into many apps, and discussing some obstacles that need to be worked around with modern mobile operating systems."
     },
     {
-        "group": "Doha",
-        "repo": "www-chapter-doha",
-        "name": "Cyber Security Meetup -  13th of Jun 2023 ",
-        "date": "2023-06-13",
-        "time": "6:00+03:00",
-        "link": "https://www.meetup.com/owasp-doha-chapter/events/294100398",
-        "timezone": "Asia/Qatar",
-        "description": "Are you a cyber security enthusiast? Do you want to meet other enthusiasts and experts in this field? If yes, come to our meetup on the 13th of Jun 2023 from 4PM to 7PM at the innovation cafe Qatar. This is a free event with no hidden agenda. You can enjoy a cup of coffee and chat with people who share your passion for cybersecurity. You can also learn new things and exchange your insights with others. Don't let this chance pass you by!\nNote: Please pay for your own coffee as a way of supporting the venue owner and keeping us vendor neutral by not taking any sponsorship\n\n***Agenda & Schedule for this meetup***\n***Dated: 13th June 2022 \u2013 04 PM \u2013 07:00 PM***\n\nAs this will be a recurring event, we welcome as many paper submissions as possible, and reserve keeps interesting talk proposals for future editions.\n\nThe talk proposal should abide by the (ISC)\u00b2/OWASP/Null principles: to promote and disseminate knowledge and tools in cybersecurity that respect its core values, openness, support for innovation, global reach, and integrity. The talks should be vendor-neutral, which is not publicity talks for a specific company or a proprietary tool, but about interesting experiences and insecurity that can engage and foster discussion in the local community."
-    },
-    {
         "group": "Dubai",
         "repo": "www-chapter-dubai",
         "name": "Adopting DevSecOps for faster and more secure SDLC",
@@ -160,16 +150,6 @@
         "description": "**TOPIC**: Security Architecture - What is it? How to Deploy it\nJoin us for great networking, dinner and drinks, and see a presentation by President and Founder of iSecurePrivacy, LLC.\n\n**ABSTRACT**: Security Architecture is a security design that addresses the technology goals, approaches, controls, and potential for the enterprise. It also specifies when and where to apply security controls. This discussion starts from the enterprise perspective using SABSA (Sherwood Applied Business Security Architecture). It then introduces COBIT, from ISACA, which is a framework that focuses on the governance and management of enterprise IT. TOGAF (The Open Group Architecture Framework) aligns security with business needs. Then there is the OWASP SAMM (Software Assurance Maturity Model) that is a framework for helping organizations analyze their current software security practices in the development of new applications. Within these four security architectures, we will also talk about some software secure coding standards such as (PCI Software Security Framework, SEI CERT Coding Standards, NIST SSDF, Microsoft Secure Coding Guidelines , and OWASP Secure Coding Practices). These standards are important, but they need to be based on meeting the business strategic objectives, business model, and business needs. That is what security architectures provide.\n\n**Thanks to our Sponsor**: *[Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)*\n*The Most Complete Cloud-Native Application Protection Platform (CNAPP). Prisma Cloud secures applications from code to cloud, enabling security and DevOps teams to effectively collaborate to accelerate secure cloud-native application development and deployment.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
-        "group": "Madison",
-        "repo": "www-chapter-madison",
-        "name": "June Meeting",
-        "date": "2023-06-13",
-        "time": "5:30-05:00",
-        "link": "https://www.meetup.com/owasp-madison/events/293553420",
-        "timezone": "America/Chicago",
-        "description": "Requested Topics:\n\n* Discuss the Open Letter to OWASP and the Response/Updates\n\nhttps://owasp.org/blog/2023/03/10/strategic-plan-open-letter-update.html\nhttps://owasp.org/blog/2023/03/31/owasp-strategy-2023-1.html\n\n* Industry Roundtable: initiatives, struggles, successes from the Madison Metro AppSec Space\n* Jazzer Demo https://github.com/CodeIntelligenceTesting/jazzer"
-    },
-    {
         "group": "Maine",
         "repo": "www-chapter-maine",
         "name": "OWASP Maine: Jump into Mobile AppSec with the OWASP MAS Project",
@@ -178,6 +158,16 @@
         "link": "https://www.meetup.com/owasp-maine/events/293695815",
         "timezone": "America/New_York",
         "description": "Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS), the OWASP Mobile Application Security Verification Standard (MASVS), and OWASP Mobile Application Security Testing Guide (MASTG) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. Come join us!\n\n\\*Food and drinks will be provided by NowSecure\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
+    },
+    {
+        "group": "Melbourne",
+        "repo": "www-chapter-melbourne",
+        "name": "Secure File Location Handling - Build.Attack.Fix Games",
+        "date": "2023-06-29",
+        "time": "8:00+10:00",
+        "link": "https://www.meetup.com/application-security-owasp-melbourne/events/294138476",
+        "timezone": "Australia/Melbourne",
+        "description": "Hello OWASP Melbourne,\nFollowing our last challenge being well received, we're back with another challenge and ramped up the stakes. Brought to you in collaboration with Dr. Pedram from SecDim, this time a King of the Hill style challenge. Build your app, attack other's apps, and iterate on improving your defences.\n\nHow will this work?\n\nThis is a battle challenge. You have limited time to address the security vulnerabilities in your code. Once you push your code, you enter the battle page where you can hack other players app. Anytime you successfully hack a player's app, you need to extract the flag. You then submit the flag to get the score. The earlier you defend your app or hack another player's, the higher will be your ranking.\n\nNOTE: If a player hacks your app, you will lose the score and get kicked out of the battle page. You may try again.\n\nNo presentation, no lecture. This is a hands-on session to up-skill in secure programming. Please bring your laptop with your development environment set up and ready to go, so that you can jump right into the action.\n\n**We will explore these weaknesses**:\n\n* CWE-35 and CWE-23\n\n**Agenda**:\n\n* 6:00-6:10 Welcome\n* 6:10-7:30 Let the battle begin.\n\nThis event is not catered, but you're welcomed to bring your own food along.\n\n**Prepare**:\nIf you are a first timer, **get your workstation setup** by completing any of the \"Start Here\" levels on [https://play.secdim.com](https://play.secdim.com/) (SecDim Play is a training game for secure programming)\n\n**Contribute**: Help to foster the community by **contributing a secure programming challenge**. Follow the guide at [https://github.com/secdim/play-sdk](https://github.com/secdim/play-sdk).\n\n**Keep in-touch**:\nKeep the conversation going. OWASP Melbourne is on the [AppSec ANZ Discord ( https://discord.gg/uAWze2B )](https://discord.gg/uAWze2B) where you can meet up with others interested in AppSec and secure development.\n\n**Hybrid event**:\nIf you're attending in-person, please RSVP (and update if you no longer are able to go) as the venue is very limited. We will update this listing here with the video conference link closer to the event:\n< virtual attendance link coming soon >\n\n**Required Equipment**\nPlease bring your own laptop along to the event that has been setup as described above. There is free wifi, but without your own laptop, you won't be able to participate.\n\n**PS. This is a joint community event with SecDim.**\n\n**Other Information**\n**What is OWASP?**\nThe Open Worldwide Application Security Project\u00ae (OWASP) is a volunteer-run, nonprofit foundation that works to improve the security of software. Through community-led open source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.\n\n**Find out more?**\nMeetup.com Page: https://www.meetup.com/Application-Security-OWASP-Melbourne/\nAbout the Chapter: https://owasp.org/www-chapter-melbourne/\nJoin the AppSec ANZ Discord: https://discord.gg/uAWze2B"
     },
     {
         "group": "Natal",
@@ -237,7 +227,7 @@
         "time": "9:00+01:00",
         "link": "https://www.meetup.com/owasp-peterborough/events/292660571",
         "timezone": "Europe/London",
-        "description": "***PLACEHOLDER EVENT - PLEASE RESPOND TO UNDERSTAND AVAILABILITY***\n\nEach Chapter meeting will be focus on a different element of Cyber. To not limit creativity - this will be agreed once the request for speakers/sponsors/demos has been closed.\n\n**Location:** The Brewery Tap [availability pending]\n\n**We are looking for:**\n\n* Sponsors [to enable the event]\n* Speakers [to learn from & showcase]\n* Demos [to showcase practicals]\n\n**SPEAKERS:** If you want to speak or showcase anything - hit this link -> https://forms.gle/k1xnqmuGbHE5zsvUA\n\n**SPONSORS:** If you'd like to sponsor the event - please contact Ryan.winstanley@owasp.org.\n\nThank you,"
+        "description": "**OWASP JULY!**\nWe're back for our 2nd Cyber catch up! July's focus is on cloud security, trends and behaviours.\n\n**Who is it for?**\nEverybody! Come along, bring a friend, share with your colleagues.\nA principle of the chapter is to ensure **cyber security is accessible** for everyone. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**Agenda**\n*2 talks* to be confirmed soon, with a *round-table discussion* on trending cyber security topics.\n\n**When is it?**\n\n* Wednesday 5th July\n* **Start** from 7:30pm\n* **Finish** around 11:00pm\n\n**Where is it?**\n\n* The Brewery Tap, Peterborough\n\n**How can you get involved?**\n\n* Respond **'I'm coming!'** to this group\n* Check out our OWASP Chapter [page](https://owasp.org/www-chapter-peterborough/)\n\nWe look forward to seeing you there!"
     },
     {
         "group": "Peterborough",
@@ -296,16 +286,6 @@
         "date": "2023-06-27",
         "time": "9:30+01:00",
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/293587120",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "OWASP Suffolk Fight Club - June 2023",
-        "date": "2023-06-13",
-        "time": "9:30+01:00",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/293587091",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
