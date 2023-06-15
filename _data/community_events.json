@@ -30,26 +30,6 @@
         "description": "Bangalore Meet 24 June 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n*\n* Securing IoT on the Home Network by **Vedant Khandelwal**\n* OAUTH vulnerabilities by **Soujanya Namburi**\n* AWS serverless pentesting by **Divyanshu shukla**\n* Policy based Kubernetes Security Using KYVERNO by **Ravi**\n* GCP with IAP Security by **Anjali Shukla**\n\n*\n\nNote: The session details, including schedule are available below."
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "June Meetup ",
-        "date": "2023-06-14",
-        "time": "7:00-07:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/293963878",
-        "timezone": "America/Los_Angeles",
-        "description": "Security time, We will have exciting talks, lots of people to meet, and great food and Drinks. Courtesy our sponsors JIT (https://www.jit.io).\n\nThis is a joint meetup with Pacific hackers community (https://www.phack.org/)\n\n*Jit*\\- An open DevSecOps Orchestration Platform allows high\\-velocity Engineering teams to own product security while increasing dev velocity\\.\n\n5PM to 5.45PM Networking, food/Drinks\n5.45 PM to 8 PM Talks\n\n**Talk #1: \"Securing a cloud app: from threat modeling to Continuous Security\"**\n(basically I am doing is an extended talk based on the MVS one for Python apps)\n\n**Abstract:**\nIn this presentation, we will delve into the process of securing a cloud hosted application, using a Python-based app as our demonstrative model, from scratch. Our initial focus is on the initial crucial step of threat modeling, demystifying the process for beginners and offering a deep-dive into the identification, analysis, and prioritization of potential security risks across the codebase, infrastructure, CI/CD pipeline, and runtime.\n\nFurther, we will explore how these identified risks can be mapped to security tools using open-source security (OSS) tools, including some developed by OWASP.\n\nThe final part of our journey takes us through the seamless integration of these tools into the Continuous Integration/Continuous Deployment (CI/CD) pipeline. Utilizing Github Actions as a case study, we will show how to build and automate a security-focused workflow, ensuring a constantly secure state for your application.\n\nBy attending this session, you'll gain practical insights and tools to build secure cloud applications, maintain an efficient CI/CD pipeline, and tackle the dynamic cyber threat landscape with confidence and foresight. Stay a step ahead in your application security with continuous and integrated security measures.\n\n**Speaker:** David Melamed CTO JIT\n\n**Talks #2: Unlock Your AppSec Career Potential: A Guide to Successful career**\nDescription:\nRapid development cycles and time constraints, diverse skill sets required to evaluate applications built with complex new technologies, evolving threat landscape are some of the reasons that make application security engineer\u2019s job interesting and difficult at the same time. As a result appsec engineers have to develop fast learning mechanisms and based on their strengths and interest, pick the right career paths to not just survive but thrive in the world of application security. In this talk, we will discuss how to analyze one\u2019s strengths and interests and choose the right application security career path and continue to prosper throughout your career.\n\nSpeaker: Trupti Shiralkar, Sr Manager Product Security at Datadog and Deidre Diamond Founder CyberSN\n\n**Talk #3: Winning Others Over, Cross-Functional Collaboration in Cybersecurity**\n\nWhether we\u2019re an extrovert, ambivert, or introvert, the majority of us work with people. Even when we write or review code most of the day, we still receive and provide feedback. In cybersecurity, a large portion of success relies on your ability to win others over. How do you convince developers to write secure code or care about it? How do you work with HR/People to educate new and existing employees about security practices? How do you collaborate with product, program, and project teams to build, deploy, or review? How do we incorporate the OWASP Top 10 into our work and communicate those vulnerabilities and their importance to other teams? Solid documentation is a hallmark of cybersecurity work and an aspect of WOO, but there's more to it. In this presentation, we\u2019ll discuss ways to work cross-functionally and win others over. Methods will be presented for all personality types, and participants will have examples that can be applied in their workplaces.\n\nSpeaker: Kelly Thibault is the Executive Director at Secure Diversity, a non-profit focused on diversity in cybersecurity. In her job, she runs the Day of Shecurity Conference and partners with cybersecurity professionals of all levels. She has spent over 15 years running programs, managing risk and crisis response, leading people, and working cross-functionally. She loves learning, wearing multiple hats, and building relationships. She attributes much of her success in building and problem-solving to her ability to make connections and build work relationships."
-    },
-    {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "The Risks of Hardcoding Secrets in AI-Generated Code",
-        "date": "2023-06-14",
-        "time": "7:30-04:00",
-        "link": "https://www.meetup.com/owaspboston/events/293890172",
-        "timezone": "America/New_York",
-        "description": "Hybrid Attendance: Join us in person or online (link to be provided).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nFor our June meeting, Julie Peterson, Senior Product Marketing Manager at Cycode, will be speaking to the chapter about The Risks of Hardcoding Secrets in AI-Generated Code.\n\nMachine learning, particularly Language Learning Models (LLMs), has paved the way for groundbreaking advancements in many fields, including code generation. However, this innovation is not without inherent risks. One potential issue is that these models generate code with hardcoded secrets, such as API keys or database credentials. This practice stands in stark contrast to the recommended way of managing these secrets \u2013 through a secrets manager.\n\nIn this presentation, we consider the following:\n\\- What are hardcoded secrets and how to prevent them\n\\- The importance of secrets management\n\\- The impact of LLMs in generating code\n\\- How to mitigate the risk of hardcoded secrets in code generated by LLM\n\nThis will be an exciting session, RSVP now!"
-    },
-    {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
         "name": "PCI - The Good, The Bad and the Ugly",
@@ -210,6 +190,16 @@
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nCloud security presents unique challenges. As enterprises continue to move to the cloud, security practitioners face new threats and paradigms. In this session, we\u2019ll forensically reconstruct major cloud-centric breaches and step through them, building an understanding of what happened, how it happened, and developing key takeaways to help secure our own infrastructure, especially in AWS, Azure, and GCP.\n\n**Code of Conduct:**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**Sponsorship:**\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
     },
     {
+        "group": "Oslo",
+        "repo": "www-chapter-oslo",
+        "name": "June meetup",
+        "date": "2023-06-29",
+        "time": "7:00+02:00",
+        "link": "https://www.meetup.com/owasp-oslo/events/294176472",
+        "timezone": "Europe/Oslo",
+        "description": "**Blank** is the sponsor of this meetup! Thank you!\n\n**Agenda:**\n\n* 17:00-17:30 : Food\n* 17:30-17:50 : How to get pwned by npm packages and weak settings in GitHub Actions - Erlend \u00c5mdal\n* 18:00-18:45 : Open Policy Agent in-depth - Anders Eknert\n\n**How to get pwned by npm packages and weak settings in GitHub Actions**\nDo you know if your GitHub Actions workflows are secure? I will demonstrate a proof of concept of a supply chain attack that exploits weak security settings in a typical GitHub Actions workflow to do things you might not expect an npm package to be able to do, followed by a presentation of simple methods to prevent this kind of attack. Due to Action's tight integration with the rest of the GitHub platform, the attack can easily target a repository's contents and metadata, including the issue tracker, pull requests and GitHub Packages. If you value the content on your issue tracker or publish to GitHub Packages and are curious about the security of GitHub Actions, this presentation might prove interesting and useful.\n**Erlend \u00c5mdal** is a software development consultant at Blank with a few years of industry experience. He is a passionate developer who strives for secure software. Having worked with various customers ranging from reMarkable to Autodesk, Erlend has been involved with several organizations depending on GitHub Actions and npm packages for their CI/CD, and knows a thing or two about securing this dependency.\n\n**Open Policy Agent in-depth**\nShould user Alice be allowed to read credit reports? Should a cloud compute instance be deployable without basic security configuration in place? Should service X be allowed to query the database?\nPolicy defines the rules of our systems, but how do we ensure our policies are enforced consistently in increasingly distributed and diverse tech stacks?\nIn this technical talk we\u2019ll explore the benefits of decoupling policy from our applications, deployment pipelines and platforms, and how Open Policy Agent (OPA) and its policy language Rego works to unify policy enforcement across the whole stack.\n**Anders Eknert** is a developer advocate at Styra with a long background in software development, security and identity systems in primarily distributed environments. When not in front of his computer he enjoys watching football, cooking and Belgian beers."
+    },
+    {
         "group": "Ottawa",
         "repo": "www-chapter-ottawa",
         "name": "OWASP Ottawa June 21st 2023: Metamorphic Testing",
@@ -258,26 +248,6 @@
         "link": "https://www.meetup.com/owasp-sacramento-chapter/events/293615825",
         "timezone": "America/Los_Angeles",
         "description": "OWASP Sacramento will meet the third Wednesday of each month. We will announce topics 2-3 weeks in advanced of our meetups.\n\n7PM-9PM\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Community Topics\n* Presentation TBD"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-06-14",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/292838145",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-06-14",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/292838144",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Suffolk",
