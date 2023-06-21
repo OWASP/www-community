@@ -30,16 +30,6 @@
         "description": "Bangalore Meet 24 June 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n*\n* Securing IoT on the Home Network by **Vedant Khandelwal**\n* OAUTH vulnerabilities by **Soujanya Namburi**\n* AWS serverless pentesting by **Divyanshu shukla**\n* Policy based Kubernetes Security Using KYVERNO by **Ravi**\n* GCP with IAP Security by **Anjali Shukla**\n\n*\n\nNote: The session details, including schedule are available below."
     },
     {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "PCI - The Good, The Bad and the Ugly",
-        "date": "2023-06-20",
-        "time": "8:00+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/293853720",
-        "timezone": "Australia/Brisbane",
-        "description": "Intro - Craig & Michael\nPCI - What is it?\nPCI Projects - The Game Plan\nApp Sec Deep(ish) Dive\nAuditor Whispering\nWar Stories\nIs PCI DSS Effective? The Verdict"
-    },
-    {
         "group": "Cairo",
         "repo": "www-chapter-cairo",
         "name": "OWASP Top 10 V2021 Awareness - A6 - A10",
@@ -60,14 +50,24 @@
         "description": "Speaker: Stan Richister, Social Engineering: How and Why it Works (A \u201csoft\u201d Kill is Still a Kill).\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "And we're back!",
+        "date": "2023-07-20",
+        "time": "8:00-04:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/294216909",
+        "timezone": "America/New_York",
+        "description": "We are BACK folks. Been .. a minute. But we have a great meeting coming together. Everyone confirmed, just waiting on bios and whatnot.\nBut, I can say:\n\nFeatured Speaker: Jeff Williams, an OWASP OG, will be speaking on honing your instrumentation in an appsec program.\n\nBlack Hills Information Security will be providing the snac. Brian King will have something interesting to say about them.\n\nAND we will be meeting at a familiar haunt, the Improcing Columbus office at Easton.\n\nKeep your eyes glued here, and I'll update with details as they come in. Otherwise, see ya then!"
+    },
+    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
-        "name": "OWASP June Meet ",
-        "date": "2023-06-20",
-        "time": "2:00-05:00",
-        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/293404993",
+        "name": "OWASP July Meet - In person",
+        "date": "2023-07-20",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/294141225",
         "timezone": "America/Chicago",
-        "description": "\"Common Security Considerations for Web 3.0\u201d\n\nJoin this virtual event to discuss:\n\n* an overview of decentralization\n* digital identities in 3.0 and typical threats\n* examples of Web 3.0 attacks and mitigations\n* security concerns and some actions to consider to protect organizations."
+        "description": "OWASP Dallas is ready to host in-person meets.\n\n\"The Monsters in Your Software Supply Chain that SCA Can't Find\"\n\nThere are excellent SCA tools and excellent SSDLs out there, so why did the 3cx breach feel so much like GroundHog Day? This talk will discuss root cause, attack vectors, adversaries, and countermeasures for Software Supply Chain Security attacks."
     },
     {
         "group": "Denver",
@@ -98,6 +98,26 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/294138407",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+    },
+    {
+        "group": "Kathmandu",
+        "repo": "www-chapter-kathmandu",
+        "name": "OWASP Kathmandu Meetup - 0x04",
+        "date": "2023-07-08",
+        "time": "0:00+05:45",
+        "link": "https://www.meetup.com/owasp-kathmandu-chapter/events/294300182",
+        "timezone": "Asia/Kathmandu",
+        "description": "The 0x04 Meetup for OWASP Kathmandu is ecstatically set to take place on the 8th of July, 2023. We are deeply honored to have the illustrious TechKraft Inc. as our esteemed sponsor.\n\nTalks will encompass a diverse range of topics including Organizational Cybersecurity, Bug Bounties, Network Security, Compliance, and much more. Please note that this time we have implemented a strict RSVP policy, so ensure to confirm your attendance in advance."
+    },
+    {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #6",
+        "date": "2023-07-01",
+        "time": "0:00+05:30",
+        "link": "https://www.meetup.com/owasp-kolkata/events/294304662",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Proposed sessions for this event:\n\n* Exploit Writing 101 \u2013 Beyond Just Reporting Bugs by **Soummya Mukhopadhyay**\n* Hack Wireless Networks with IOT by **Aninda Saha**\n* Web Application Hunting Approach by **Souvik**\n* Incident Response Fundamentals by **Sudipta Pramanik**"
     },
     {
         "group": "Lima",
@@ -172,12 +192,22 @@
     {
         "group": "Northern Virginia",
         "repo": "www-chapter-northern-virginia",
-        "name": "The State of the Security Industry in 2023: Firetalk",
+        "name": "Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project",
+        "date": "2023-07-20",
+        "time": "8:30-04:00",
+        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/294045639",
+        "timezone": "America/New_York",
+        "description": "Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in mobile AppSec vs. web AppSec and how to put OWASP MAS project, tools, and resources to work. In this session, we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources, and how to build your own toolkit. Along the way, we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!"
+    },
+    {
+        "group": "Northern Virginia",
+        "repo": "www-chapter-northern-virginia",
+        "name": "The State of the Security Industry in 2023: Round Table",
         "date": "2023-06-29",
         "time": "8:30-04:00",
         "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/294226355",
         "timezone": "America/New_York",
-        "description": "This month, the OWASP NoVA team is hosting a group of leading security professionals to discuss the latest challenges we are all facing.\n\nBring your best and most challenging questions and join us for a mid-year roundup with Abdullah Munawar, Sean Poris, and Rich Wickersham.\n\nBios:\nAbdullah Munawar is currently the Director of Product Security at Appian and has previously been a consultant for a number of years helping various federal and financial clients build and mature security programs. He has been running the Northern Virginia Chapter of OWASP for the past 8 years and was also one of the lead organizers for AppSec USA 2016 and Global AppSec DC in 2019.\n\nRich Wickersham is a highly experienced Cyber Security expert, researcher and executive with over two decades of experience in defining and guiding cybersecurity vision, strategy, and execution for major organizations in the public and private sectors. Wickersham is currently the Chief Security Architect for Voya Financial and has previous security leadership experience with AIG, Fannie Mae, The United States House of Representatives, and The Department of Homeland Security. Rich is a recognized researcher with past speaking engagements at CSA, DEFCON, Voice of America and BSIDES."
+        "description": "This month, the OWASP NoVA team is hosting a group of leading security professionals to discuss the latest challenges we are all facing.\n\nBring your best and most challenging questions and join us for a mid-year roundup with Abdullah Munawar, Sean Poris, and Rich Wickersham.\n\nBios:\nAbdullah Munawar is currently the Director of Product Security at Appian and has previously been a consultant for a number of years helping various federal and financial clients build and mature security programs. He has been running the Northern Virginia Chapter of OWASP for the past 8 years and was also one of the lead organizers for AppSec USA 2016 and Global AppSec DC in 2019.\n\nRich Wickersham is a highly experienced Cyber Security expert, researcher and executive with over two decades of experience in defining and guiding cybersecurity vision, strategy, and execution for major organizations in the public and private sectors. Wickersham is currently the Chief Security Architect for Voya Financial and has previous security leadership experience with AIG, Fannie Mae, The United States House of Representatives, and The Department of Homeland Security. Rich is a recognized researcher with past speaking engagements at CSA, DEFCON, Voice of America and BSIDES.\n\nSean Poris\nSean Poris leads the Cyber Resilience pillar inside Yahoo's information security organization, affectionately dubbed \"The Paranoids.\"\nHe's passionate about providing the bedrock of security solutions that ensure the protection of the company's critical consumer and company data that nearly one billion people around the world entrust to Yahoo.\nSean's team \u2014 which includes Vulnerability Management Operations and Engineering; Product Security; Cloud Security; and Bug Bounty, among half a dozen other functions \u2014 builds solutions that drive the delivery of resilient products and infrastructure.\nPrior to Yahoo, Sean was the Senior Director of Software Security at The College Board, which enables students in their collegiate journeys throughout the world.\nThere, his team equipped software development groups with the critical training, tools, and processes needed to address information security holistically throughout the development lifecycle.\nSean currently serves on the Board of the Northern Virginia Chapter of OWASP. And in that capacity, he worked as the 2019 Global OWASP AppSec DC conference's co-chair."
     },
     {
         "group": "Orange County",
@@ -268,6 +298,16 @@
         "link": "https://www.meetup.com/owasptriangle/events/293768575",
         "timezone": "America/New_York",
         "description": "TBA"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "OWASP Vancouver - July 2023",
+        "date": "2023-07-20",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248508",
+        "timezone": "America/Vancouver",
+        "description": "OWASP Vancouver monthly meetup"
     },
     {
         "group": "Wrongsecrets",
