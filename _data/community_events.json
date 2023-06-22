@@ -57,7 +57,7 @@
         "time": "8:00-04:00",
         "link": "https://www.meetup.com/columbus-owasp/events/294216909",
         "timezone": "America/New_York",
-        "description": "We are BACK folks. Been .. a minute. But we have a great meeting coming together. Everyone confirmed, just waiting on bios and whatnot.\nBut, I can say:\n\nFeatured Speaker: Jeff Williams, an OWASP OG, will be speaking on honing your instrumentation in an appsec program.\n\nBlack Hills Information Security will be providing the snac. Brian King will have something interesting to say about them.\n\nAND we will be meeting at a familiar haunt, the Improcing Columbus office at Easton.\n\nKeep your eyes glued here, and I'll update with details as they come in. Otherwise, see ya then!"
+        "description": "We are BACK folks. Been .. a minute. But we have a great meeting coming together. Jeff Williams is our speaker, and Black Hills Security will be providing the snac. Here's what Jeff will be covering:\n\nAfter over 20 years, achieving app and API security still requires Herculean effort by smart and dedicated people. Fortunately, we can look to history and see a path forward. In the mid-2000s we changed the curve on kernel exploits by adding ASLR and DEP to operating systems. Imagine hardening your web app and web API stacks against all the major classes of vulnerability. You could instantly notify developers if they introduce a vulnerability and you could stop vulnerable software from being exploited. How would it change your appsec program if you could dramatically reduce the risk of all the common classes of vulnerability? In this talk, we\u2019ll explain how runtime protection works and how you can streamline vulnerability management and ensure your software doesn\u2019t get exploited\u2026 at the same time."
     },
     {
         "group": "Dallas",
@@ -68,16 +68,6 @@
         "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/294141225",
         "timezone": "America/Chicago",
         "description": "OWASP Dallas is ready to host in-person meets.\n\n\"The Monsters in Your Software Supply Chain that SCA Can't Find\"\n\nThere are excellent SCA tools and excellent SSDLs out there, so why did the 3cx breach feel so much like GroundHog Day? This talk will discuss root cause, attack vectors, adversaries, and countermeasures for Software Supply Chain Security attacks."
-    },
-    {
-        "group": "Denver",
-        "repo": "www-chapter-denver",
-        "name": "Join us LIVE and IN-PERSON for Denver OWASP's June Meetup",
-        "date": "2023-06-21",
-        "time": "7:30-06:00",
-        "link": "https://www.meetup.com/denver-owasp/events/293553304",
-        "timezone": "America/Denver",
-        "description": "**As always, everyone is welcome! You do NOT have to be an OWASP member to attend.**\n\nJoin us June 21st for food, drinks, networking and a super informative presentation on \"The Joys of Mobile Application Testing\" from one of the best and brightest in the industry: Greg Leonard. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to our Denver OWASP sponsor [SpyderSec](https://spydersec.com)**\n\n**Presentation Title:** The Joys of Mobile Application Testing\n\n**Presentation Details:** In this talk, I will walk through the major challenges of testing mobile applications. This will include reliably capturing HTTPS traffic between the app and it's backend APIs, reviewing data stored by the app on the mobile device, working around defenses built into many apps, and discussing some obstacles that need to be worked around with modern mobile operating systems."
     },
     {
         "group": "Frankfurt",
@@ -118,16 +108,6 @@
         "link": "https://www.meetup.com/owasp-kolkata/events/294304662",
         "timezone": "Asia/Kolkata",
         "description": "#### Proposed sessions for this event:\n\n* Exploit Writing 101 \u2013 Beyond Just Reporting Bugs by **Soummya Mukhopadhyay**\n* Hack Wireless Networks with IOT by **Aninda Saha**\n* Web Application Hunting Approach by **Souvik**\n* Incident Response Fundamentals by **Sudipta Pramanik**"
-    },
-    {
-        "group": "Lima",
-        "repo": "www-chapter-lima",
-        "name": "OWASP Meeting Junio 2023",
-        "date": "2023-06-21",
-        "time": "9:00-05:00",
-        "link": "https://www.meetup.com/owasp-lima-meetup-group/events/293986407",
-        "timezone": "America/Lima",
-        "description": "**OWASP Meeting Junio 2023**\nReuni\u00f3n Mensual de Seguridad de Aplicaciones\n\n**PRESENTACIONES:**\n\n***T\u00e9cnicas de evasi\u00f3n de sistemas de detecci\u00f3n y prevenci\u00f3n de intrusiones (IDS/IPS) - Aleida P\u00e9rez* (MX)**\n\u00bfTe gustar\u00eda conocer las estrategias utilizadas por los hackers para evadir los sistemas de seguridad m\u00e1s avanzados? \u00bfQuieres estar un paso adelante en la protecci\u00f3n de tu red?\nEn esta charla, profundizaremos en las t\u00e9cnicas de evasi\u00f3n de IDS/IPS. Aprender\u00e1s c\u00f3mo los atacantes logran evitar la detecci\u00f3n y el bloqueo de los sistemas de seguridad, y c\u00f3mo puedes fortalecer tus defensas para proteger mejor tu infraestructura.\n\n***Ciberseguridad para Todos - Alejandra Figueroa* (MX)**\nSe abordar\u00e1n la historia de la ciberseguridad, los conceptos principales, herramientas, c\u00f3mo incursionar en el \u00e1rea, campo laboral y experiencias personales."
     },
     {
         "group": "Los Angeles",
@@ -230,16 +210,6 @@
         "description": "**Blank** is the sponsor of this meetup! Thank you!\n\n**Agenda:**\n\n* 17:00-17:30 : Food\n* 17:30-17:50 : How to get pwned by npm packages and weak settings in GitHub Actions - Erlend \u00c5mdal\n* 18:00-18:45 : Open Policy Agent in-depth - Anders Eknert\n\n**How to get pwned by npm packages and weak settings in GitHub Actions**\nDo you know if your GitHub Actions workflows are secure? I will demonstrate a proof of concept of a supply chain attack that exploits weak security settings in a typical GitHub Actions workflow to do things you might not expect an npm package to be able to do, followed by a presentation of simple methods to prevent this kind of attack. Due to Action's tight integration with the rest of the GitHub platform, the attack can easily target a repository's contents and metadata, including the issue tracker, pull requests and GitHub Packages. If you value the content on your issue tracker or publish to GitHub Packages and are curious about the security of GitHub Actions, this presentation might prove interesting and useful.\n**Erlend \u00c5mdal** is a software development consultant at Blank with a few years of industry experience. He is a passionate developer who strives for secure software. Having worked with various customers ranging from reMarkable to Autodesk, Erlend has been involved with several organizations depending on GitHub Actions and npm packages for their CI/CD, and knows a thing or two about securing this dependency.\n\n**Open Policy Agent in-depth**\nShould user Alice be allowed to read credit reports? Should a cloud compute instance be deployable without basic security configuration in place? Should service X be allowed to query the database?\nPolicy defines the rules of our systems, but how do we ensure our policies are enforced consistently in increasingly distributed and diverse tech stacks?\nIn this technical talk we\u2019ll explore the benefits of decoupling policy from our applications, deployment pipelines and platforms, and how Open Policy Agent (OPA) and its policy language Rego works to unify policy enforcement across the whole stack.\n**Anders Eknert** is a developer advocate at Styra with a long background in software development, security and identity systems in primarily distributed environments. When not in front of his computer he enjoys watching football, cooking and Belgian beers."
     },
     {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASP Ottawa June 21st 2023: Metamorphic Testing",
-        "date": "2023-06-21",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/294089785",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\n**Health Notice:**\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/channel/UCxSU-KvNmYusZEq6v4YK5Lw). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EDT** Arrival, setup, mingle\n**6:30 PM EDT** Technical Talks\n\n1. **Introduction to OWASP Ottawa, Public Announcements.**\n2. Metamorphic Testing for Web System Security.\n\n**Abstract:**\nSecurity testing aims at verifying that the software meets its security properties. In modern Web systems, however, this often entails the verification of the outputs generated when exercising the system with a very large set of inputs. Full automation is thus required to lower costs and increase the effectiveness of security testing.\n\nUnfortunately, to achieve such automation, in addition to strategies for automatically deriving test inputs, we need to address the oracle problem, which refers to the challenge, given an input for a system, of distinguishing correct from incorrect behavior (e.g., the response to be received after a specific HTTP GET request).\n\nIn this presentation, we propose Metamorphic Security Testing for Web-interactions (MST-wi), a metamorphic testing approach that integrates test input generation strategies inspired by mutational fuzzing and alleviates the oracle problem in security testing. It enables engineers to specify metamorphic relations (MRs) that capture many security properties of Web systems. To facilitate the specification of such MRs, we provide a domain-specific language accompanied by an Eclipse editor. MST-wi automatically collects the input data and transforms the MRs into executable Java code to automatically perform security testing. It automatically tests Web systems to detect vulnerabilities based on the relations and collected data.\n\n**Speaker Bio:**\nNazanin Bayati is a Ph.D. candidate at the School of EECS at the University of Ottawa and a member of the Nanda Lab. She received several academic awards, including a Ph.D. admission scholarship, an international doctoral scholarship from the University of Ottawa, and an honourable award for being an outstanding student during her master\u2019s degree at the Iran University of Science and Technology. She was also ranked the best student among all computer engineering students at the Iran University of Science and Technology in 2019. Her research interests include automated software testing concerning security testing, applied data science and empirical software engineering."
-    },
-    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter 2: OWASP Meet Up",
@@ -268,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-maine/events/293695815",
         "timezone": "America/New_York",
         "description": "**UPDATE! If you cannot attend in person feel free to utilize the below zoom link to attend virtually from anywhere in the world!**\n\n**[https://nowsecure.zoom.us/j/86199318785?pwd=RmRNMVR3allzSnAzU0ltdlR1SWxXdz09](https://nowsecure.zoom.us/j/86199318785?pwd=RmRNMVR3allzSnAzU0ltdlR1SWxXdz09)**\n\nMobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS), the OWASP Mobile Application Security Verification Standard (MASVS), and OWASP Mobile Application Security Testing Guide (MASTG) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. Come join us!\n\n\\*Food and drinks will be provided by NowSecure\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
-    },
-    {
-        "group": "Sacramento",
-        "repo": "www-chapter-sacramento",
-        "name": "June Meetup",
-        "date": "2023-06-21",
-        "time": "9:00-07:00",
-        "link": "https://www.meetup.com/owasp-sacramento-chapter/events/293615825",
-        "timezone": "America/Los_Angeles",
-        "description": "OWASP Sacramento will meet the third Wednesday of each month. We will announce topics 2-3 weeks in advanced of our meetups.\n\n7PM-9PM\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Community Topics\n* Threat Modeling in the Cloud"
     },
     {
         "group": "Suffolk",
