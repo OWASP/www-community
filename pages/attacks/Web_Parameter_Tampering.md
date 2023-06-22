@@ -33,10 +33,6 @@ errors, and its exploitation can result in other consequences including
 Injection](https://owasp.org/www-community/attacks/SQL_Injection), file inclusion, and path
 disclosure attacks.
 
-For a short video clip describing the vulnerability, [click
-here](http://www.youtube.com/watch?v=l5LCDEDn7FY&hd=1) (Courtesy of
-[Checkmarx](http://www.checkmarx.com/))
-
 ## Examples
 
 ### Example 1
