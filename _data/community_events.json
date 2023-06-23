@@ -1,15 +1,5 @@
 [
     {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "Project Spotlight - OWASP SAMM",
-        "date": "2023-06-22",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-atlanta/events/293864175",
-        "timezone": "America/New_York",
-        "description": "Interested in learning how to secure your software development lifecycle? Then join us as we dive deep into the OWASP Software Assurance Maturity Model (SAMM), a technology and process agnostic framework that helps to provide an effective and measurable way for you to analyze and improve your secure development lifecycle. Our speaker, Christian DeHoyos, will walk through its history, use cases, benefits, and how one can quickly leverage OWASP SAMM at their org."
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - June 2023 (Online)",
@@ -38,16 +28,6 @@
         "link": "https://www.meetup.com/owasp-cairo-chapter/events/292302183",
         "timezone": "Africa/Cairo",
         "description": "OWASP Top 10 Awareness Program\n\nThe OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.\n\nThe second day of the awareness program includes three sessions covering the risks from 6 to 10 of OWASP top 10 risks and Mitigations,\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 18 Feb 2023\n\nAgenda:\n\n1- A06:2021-Vulnerable and Outdated Components\n2- A07:2021-Identification and Authentication Failures\n3- A08:2021-Software and Data Integrity Failures\n4- A09:2021-Security Logging and Monitoring Failures\n5- A10:2021-Server-Side Request Forgery"
-    },
-    {
-        "group": "Colorado Springs",
-        "repo": "www-chapter-colorado-springs",
-        "name": "OWASP CoS June 2023",
-        "date": "2023-06-22",
-        "time": "8:00-06:00",
-        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/294021716",
-        "timezone": "America/Denver",
-        "description": "Speaker: Stan Richister, Social Engineering: How and Why it Works (A \u201csoft\u201d Kill is Still a Kill).\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
         "group": "Columbus",
@@ -80,6 +60,16 @@
         "description": "Hi all, after the [German OWASP Day 2023](https://god.owasp.de/2023/) we want to dive into our regular OWASP Frankfurt Chapter meetings again. We are delighted to host the next in-person event in Frankfurt! For this event, we will have a range of interesting talks delivered by leaders within AppSec & Cyber Security. There will also be plenty of time to socialize before and after the event at the venue.\n\n_What's going to happen?\nWe look forward to welcoming you to our OWASP Frankfurt Meetup hosted by **NVISO.**\n\n_What are we going to talk about?\nTo be announced!\n\n_Afterwards? We will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks** kindly provided by **NVISO**.\n\n_When?\nOur Meetup takes place on the last Wednesday before the summer break in July, namely on 19.07.2023 from 18:00 to 21.00 o'clock CEST.\n\n_Where?\nNVISO GmbH, Holzgraben 5, 60313 Frankfurt\n\n_Interested in **giving a talk** yourself?\nGet in touch with the Frankfurt Chapter Leads (Dan Gora or Jonas Becker)\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on **[Twitter #owasp_frankfurt](https://twitter.com/owasp_frankfurt)**[ ](https://twitter.com/owasp_frankfurt)and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you for this in-person event!"
     },
     {
+        "group": "Germany",
+        "repo": "www-chapter-germany",
+        "name": "[on-prem] Rust: Eine moderne Alternative zu C und C++ ",
+        "date": "2023-07-06",
+        "time": "8:30+02:00",
+        "link": "https://www.meetup.com/owasp-hamburg-stammtisch/events/294347212",
+        "timezone": "Europe/Berlin",
+        "description": "Moin / Hi,\n\nnext talk will be in German.\n\nWir haben in zwei Wochen einen interessanten Vortrag von Damian Poddebniak zur gehypten Programmiersprache Rust. Dem k\u00f6nnen wir uns nat\u00fcrlich nicht verschlie\u00dfen ;-) und freuen uns auf die Einsichten von Damian.\n\nHier der erste Input zu dem, was uns erwartet. Details werden im Laufe der n\u00e4chsten Tage erg\u00e4nzt.\n\nGeplant ist, den Vortrag auch zu streamen. In dem Fall bitte NICHT auf \"RSVP: ja\" dr\u00fccken, da das sonst die Planung unseres Gastgebers durcheinander bringt (Stream-URL folgt)\n\nAbstract\n===\n\nC und C++ haben sich durch ihre hohe Leistung und Kontrolle \u00fcber Hardware als wichtigste systemnahe Programmiersprachen etabliert. Allerdings sind sie auch bekannt f\u00fcr ihre subtil schwierige Anwendung und die damit verbundenen Sicherheitsl\u00fccken.\n\nRust tritt hier als vielversprechende Alternative auf: Es bietet die gleichen Vorteile in Bezug auf Leistung und Kontrolle, bringt jedoch auch Speichersicherheit und Threadsicherheit mit. Zudem l\u00f6st es weitere gesamte Klassen an Fehlern wie z.B. NULL-Pointer-Dereferenzierung auf.\n\nRust ist bereits jetzt fester Bestandteil des Linux- und Windows-Kernels und wird f\u00fcr neue Komponenten in Android eingesetzt.\n\nDie Kombination aus Leistung, Sicherheit und nicht zuletzt einer tollen Community mit hohen sozialen Standards macht Rust zur Sprache der Wahl f\u00fcr moderne Programmierung.\n\n\\-\\-\\-\nDer Vortrag gibt einen kurzen \u00dcberblick \u00fcber die Programmiersprache Rust und soll zum Auszuprobieren anregen. Dazu gibt es einen gr\u00f6\u00dferen Live-Coding Anteil um zu zeigen wie die Arbeit mit Rust aussieht und welche Konzepte die Sprache so besonders machen.\n\nMehr folgt!"
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -110,6 +100,16 @@
         "description": "#### Proposed sessions for this event:\n\n* Exploit Writing 101 \u2013 Beyond Just Reporting Bugs by **Soummya Mukhopadhyay**\n* Hack Wireless Networks with IOT by **Aninda Saha**\n* Web Application Hunting Approach by **Souvik**\n* Incident Response Fundamentals by **Sudipta Pramanik**"
     },
     {
+        "group": "Lahore",
+        "repo": "www-chapter-lahore",
+        "name": "OWASP Community Day",
+        "date": "2023-07-22",
+        "time": "0:00+05:00",
+        "link": "https://www.meetup.com/owasp-lahore-chapter/events/294165322",
+        "timezone": "Asia/Karachi",
+        "description": "**OWASP Community Day Lahore**\n\nJoin us for the highly anticipated OWASP (Open Web Application Security Project) Community Day in Lahore! This event is a gathering of cybersecurity enthusiasts, professionals, students, and experts who are passionate about web application security and its importance in today's digital landscape.\n\nDuring this day-long event, you will have the opportunity to engage with like-minded individuals, learn from industry leaders, and expand your knowledge in the field of web application security. The OWASP Community Day Lahore aims to promote collaboration, knowledge sharing, and awareness of the latest trends and best practices in securing web applications.\n\n_**Highlights of the OWASP Community Day Lahore:_**\n\n1. Expert Talks: Listen to renowned cybersecurity experts and thought leaders as they share their insights and experiences in web application security. Gain valuable knowledge about emerging threats, vulnerabilities, and effective countermeasures.\n\n2. Hands-on Workshops: Participate in interactive workshops conducted by industry professionals where you can enhance your practical skills in areas such as secure coding, penetration testing, threat modeling, and secure software development.\n\n3. Networking Opportunities: Connect with fellow cybersecurity enthusiasts, professionals, and students in a collaborative and engaging environment. Expand your professional network, share ideas, and forge valuable connections with individuals who share your passion for web application security.\n\n4. Capture The Flag (CTF) Challenges: Test your skills and compete in exciting Capture The Flag challenges designed to simulate real-world scenarios. Solve security puzzles, find vulnerabilities, and demonstrate your expertise to win attractive prizes.\n\n5. Lightning Talks and Demos: Engage in quick-paced lightning talks and live demonstrations, where participants showcase innovative tools, techniques, and research findings related to web application security. Discover new solutions and gain inspiration from cutting-edge projects.\n\n6. Community Projects and Initiatives: Learn about ongoing OWASP projects and initiatives, and find out how you can contribute to the community. Explore opportunities to collaborate on open-source security tools, research papers, and resources that benefit the broader cybersecurity ecosystem.\n\nDon't miss out on this incredible opportunity to be part of the OWASP Community Day Lahore! Mark your calendars and join us for a day filled with knowledge sharing, skill-building, and networking in the vibrant world of web application security. Together, let's make the web a safer place for everyone.\n\n**Note: Please stay tuned for updates on speakers, workshops, and additional event details on our official website and social media channels.**\n\nWe look forward to welcoming you to the OWASP Community Day Lahore!"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - JUN 28, 2023",
@@ -118,16 +118,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/292955470",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Security Architecture - What is it? How to Deploy it\nJoin us for great networking, dinner and drinks, and see a presentation by President and Founder of iSecurePrivacy, LLC.\n\n**ABSTRACT**: Security Architecture is a security design that addresses the technology goals, approaches, controls, and potential for the enterprise. It also specifies when and where to apply security controls. This discussion starts from the enterprise perspective using SABSA (Sherwood Applied Business Security Architecture). It then introduces COBIT, from ISACA, which is a framework that focuses on the governance and management of enterprise IT. TOGAF (The Open Group Architecture Framework) aligns security with business needs. Then there is the OWASP SAMM (Software Assurance Maturity Model) that is a framework for helping organizations analyze their current software security practices in the development of new applications. Within these four security architectures, we will also talk about some software secure coding standards such as (PCI Software Security Framework, SEI CERT Coding Standards, NIST SSDF, Microsoft Secure Coding Guidelines , and OWASP Secure Coding Practices). These standards are important, but they need to be based on meeting the business strategic objectives, business model, and business needs. That is what security architectures provide.\n\n**Thanks to our Sponsor**: *[Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)*\n*The Most Complete Cloud-Native Application Protection Platform (CNAPP). Prisma Cloud secures applications from code to cloud, enabling security and DevOps teams to effectively collaborate to accelerate secure cloud-native application development and deployment.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Maine",
-        "repo": "www-chapter-maine",
-        "name": "OWASP Maine: Jump into Mobile AppSec with the OWASP MAS Project",
-        "date": "2023-06-22",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-maine/events/293695815",
-        "timezone": "America/New_York",
-        "description": "**UPDATE! If you cannot attend in person feel free to utilize the below zoom link to attend virtually from anywhere in the world!**\n\n**[https://nowsecure.zoom.us/j/86199318785?pwd=RmRNMVR3allzSnAzU0ltdlR1SWxXdz09](https://nowsecure.zoom.us/j/86199318785?pwd=RmRNMVR3allzSnAzU0ltdlR1SWxXdz09)**\n\nMobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS), the OWASP Mobile Application Security Verification Standard (MASVS), and OWASP Mobile Application Security Testing Guide (MASTG) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. Come join us!\n\n\\*Food and drinks will be provided by NowSecure\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
     },
     {
         "group": "Melbourne",
@@ -230,14 +220,14 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Portland Me",
-        "repo": "www-chapter-portland-me",
-        "name": "OWASP Maine: Jump into Mobile AppSec with the OWASP MAS Project",
-        "date": "2023-06-22",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/owasp-maine/events/293695815",
-        "timezone": "America/New_York",
-        "description": "**UPDATE! If you cannot attend in person feel free to utilize the below zoom link to attend virtually from anywhere in the world!**\n\n**[https://nowsecure.zoom.us/j/86199318785?pwd=RmRNMVR3allzSnAzU0ltdlR1SWxXdz09](https://nowsecure.zoom.us/j/86199318785?pwd=RmRNMVR3allzSnAzU0ltdlR1SWxXdz09)**\n\nMobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS), the OWASP Mobile Application Security Verification Standard (MASVS), and OWASP Mobile Application Security Testing Guide (MASTG) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in Mobile AppSec vs Web AppSec and how to put OWASP MAS project, tools and resources to work.\n\nIn this session we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them, and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources and how to build your own toolkit. Along the way we will hit the latest privacy and security updates with iOS and Android. Come join us!\n\n\\*Food and drinks will be provided by NowSecure\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2023-07-12",
+        "time": "2:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/294356460",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Suffolk",
@@ -248,6 +238,16 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/293587120",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge.\n\nWe are the only OWASP chapter in the world that runs fight clubs. And it's 100% online so you can join from wherever you are."
+    },
+    {
+        "group": "Sydney",
+        "repo": "www-chapter-sydney",
+        "name": "Residential Proxies Unmasked: Navigating the Hidden Threat",
+        "date": "2023-07-11",
+        "time": "7:30+10:00",
+        "link": "https://www.meetup.com/owasp-sydney-chapter/events/294359924",
+        "timezone": "Australia/Sydney",
+        "description": "Join us at the second OWASP Sydney event featuring a talk by [Adam Cassar](https://www.linkedin.com/in/adamcassarac/) from [Peakhour.io](http://peakhour.io/) who will delve into the world of residential proxies. In this talk, Adam will dive into residential proxies, tools that allow for requests from residential IP addresses. He'll clarify what these proxies are, who relies on them, and the possibilities they unlock. Additionally, he'll go over the process of how these large-scale proxy networks come to life.\n\nAdam will discuss the potential implications of these services on IP threat intelligence, the complications of carrier-grade NAT, and questions our reliance on geo-IP databases. He'll also shed light on how your internet use at home, school, or work might be effected by these services.\n\nFinally, Adam will touch on ongoing legal cases involving these services and reveal that some state actors are setting up their own proxy networks for data extraction purposes. The goal is to equip you with a comprehensive understanding of residential proxies, enabling you to make informed decisions within the field of internet security.\n\n**Here are the details of the event:**\n**Date:** July 11th 2023, 5:30pm\n**Venue**: Talenza, Level 3, Macquarie Place, Sydney\n\n**Schedule:**\n\n* 5.30 pm: Arrive, grab a drink, and meet your fellow attendees.\n* 6.00 pm: Residential Proxies Talk.\n* 6:30 pm: Q&A.\n* 7:00 pm: Networking.\n\n* 8:00 pm: Event ends\n\nRSVP now, and we'll see you there!\n\nBest regards,\nOWASP Sydney Chapter Committee"
     },
     {
         "group": "Triangle Nc",
