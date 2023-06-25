@@ -24,7 +24,8 @@ Alternatively you may with the review information about Threat Modeling, as that
 
 - <https://owasp.org/www-community/Threat_Modeling>
 - <https://owasp.org/www-community/Application_Threat_Modeling>
-- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
+- [OWASP pytm](https://owasp.org/www-project-pytm/) Pythonic framework for threat modeling
+- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) threat modeling tool
 
 Lastly you might want to refer to the [references](#references) below.
 
