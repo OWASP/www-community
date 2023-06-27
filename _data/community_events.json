@@ -1,5 +1,15 @@
 [
     {
+        "group": "Ahmedabad",
+        "repo": "www-chapter-ahmedabad",
+        "name": "OWASP | Ahmedabad Monthly Meet-Up",
+        "date": "2023-07-01",
+        "time": "1:00+05:30",
+        "link": "https://www.meetup.com/owasp-ahmedabad-chapter/events/294429221",
+        "timezone": "Asia/Kolkata",
+        "description": "11:00 am - 11:45 am -Project Yantra Vishleshan by Vismit Rakhecha(Druk)\n11:45 am - 12:15 PM - Deserialization 101\n(Java/PHP edition) by Marvik\n12:15pm - 12:30 pm - Network Break\n12:30 pm - 1:00 pm - Blockchain 101 by Parth\n1:00 pm - 1:30 pm - Unleashing the Power of SSRF by Vaidik"
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - July 2023 (Online)",
@@ -18,6 +28,16 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/290705746",
         "timezone": "America/Chicago",
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- https://owasp\\-austin\\-2023\\-june\\.eventbrite\\.com\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nOWASP Austin Chapter Meeting June 2023\nWhen: Tuesday, June 27th, 2023 @ 11:30 AM - 1:00 PM\n\nPresentation: 2023 AT&T Cybersecurity Insights Report: Edge Ecosystem\n\nWe are poised on the precipice of a new era of computing underpinned by new networks, new apps, and a digital-first experience.\nHear the latest findings from AT&T Cybersecurity research and learn about:\n\\- What high\\-priority edge computing use cases are across seven industry markets\n\\- How to secure and work with the edge ecosystem\n\\- How the attack surface is changing\n\\- How endpoints are diversifying\nThe data from this research helps audiences understand challenges and opportunities of the future and examines:\n\\- Balanced investment strategies\n\\- Collaboration and communication needs\n\\- Building with dynamic cyber resilience in mind\nSecurity is now a critical part of business - learn how to move your team to the future!\n\nSpeaker: Theresa Lanowitz"
+    },
+    {
+        "group": "Bangalore",
+        "repo": "www-chapter-bangalore",
+        "name": "OWASP Bangalore Meet 15 July 2023 ",
+        "date": "2023-07-15",
+        "time": "0:00+05:30",
+        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/294426792",
+        "timezone": "Asia/Kolkata",
+        "description": "Bangalore Meet 15 July 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* TBD\n* TBD\n*"
     },
     {
         "group": "Cairo",
@@ -112,12 +132,22 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - JUL 26, 2023",
+        "date": "2023-07-26",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/293419781",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: Anatomy of a Breach: Dissecting Cloud Security\n\nJoin us for great networking, dinner and drinks, and see a presentation by John Heenan, Cloud Security Solutions Architect, Palo Alto Networks.\n\n**ABSTRACT**: Cloud security presents unique challenges. As enterprises continue to move to the cloud, security practitioners face new threats and paradigms. In this session, we\u2019ll forensically reconstruct major cloud-centric breaches and step through them, building an understanding of what happened, how it happened, and developing key takeaways to help secure our own infrastructure, especially in AWS, Azure, and GCP.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - JUN 28, 2023",
         "date": "2023-06-28",
         "time": "7:30-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/292955470",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Security Architecture - What is it? How to Deploy it\nJoin us for great networking, dinner and drinks, and see a presentation by President and Founder of iSecurePrivacy, LLC.\n\n**ABSTRACT**: Security Architecture is a security design that addresses the technology goals, approaches, controls, and potential for the enterprise. It also specifies when and where to apply security controls. This discussion starts from the enterprise perspective using SABSA (Sherwood Applied Business Security Architecture). It then introduces COBIT, from ISACA, which is a framework that focuses on the governance and management of enterprise IT. TOGAF (The Open Group Architecture Framework) aligns security with business needs. Then there is the OWASP SAMM (Software Assurance Maturity Model) that is a framework for helping organizations analyze their current software security practices in the development of new applications. Within these four security architectures, we will also talk about some software secure coding standards such as (PCI Software Security Framework, SEI CERT Coding Standards, NIST SSDF, Microsoft Secure Coding Guidelines , and OWASP Secure Coding Practices). These standards are important, but they need to be based on meeting the business strategic objectives, business model, and business needs. That is what security architectures provide.\n\n**Thanks to our Sponsor**: *[Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)*\n*The Most Complete Cloud-Native Application Protection Platform (CNAPP). Prisma Cloud secures applications from code to cloud, enabling security and DevOps teams to effectively collaborate to accelerate secure cloud-native application development and deployment.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+        "description": "**TOPIC**: Security Architecture - What is it? How to Deploy it\nJoin us for great networking, dinner and drinks, and see a presentation by **Miguel (Mike) O. Villegas**, President and Founder of iSecurePrivacy, LLC.\n\n**ABSTRACT**: Security Architecture is a security design that addresses the technology goals, approaches, controls, and potential for the enterprise. It also specifies when and where to apply security controls. This discussion starts from the enterprise perspective using SABSA (Sherwood Applied Business Security Architecture). It then introduces COBIT, from ISACA, which is a framework that focuses on the governance and management of enterprise IT. TOGAF (The Open Group Architecture Framework) aligns security with business needs. Then there is the OWASP SAMM (Software Assurance Maturity Model) that is a framework for helping organizations analyze their current software security practices in the development of new applications. Within these four security architectures, we will also talk about some software secure coding standards such as (PCI Software Security Framework, SEI CERT Coding Standards, NIST SSDF, Microsoft Secure Coding Guidelines , and OWASP Secure Coding Practices). These standards are important, but they need to be based on meeting the business strategic objectives, business model, and business needs. That is what security architectures provide.\n\n**SPONSOR Opportunities Available**\n*Vendors interested in sponsoring send an email to sponsorship.la@owasp.org*"
     },
     {
         "group": "Melbourne",
@@ -208,6 +238,16 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/293991357",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Porto Alegre",
+        "repo": "www-chapter-porto-alegre",
+        "name": "OWASP Chapter POA - Encontro 011 [ONLINE]",
+        "date": "2023-07-20",
+        "time": "9:30-03:00",
+        "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/294421971",
+        "timezone": "America/Sao_Paulo",
+        "description": "Em julho teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 20/07 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n*Link para a transmiss\u00e3o:* [https://www.youtube.com/watch?v=-5EE217FhAk](https://www.youtube.com/watch?v=-5EE217FhAk)\n\n**Confira a agenda:**\n\n**19h30-20h30**\n***\"Shift-Left no SSDLC\"***\n*Desloque sua mente para a esquerda com a gente, ser\u00e3o abordadas iniciativas Shift-Left para detec\u00e7\u00e3o e corre\u00e7\u00e3o de vulnerabilidades de forma antecipada, gerando uma maior efici\u00eancia na batalha contra as vulnerabilidades e uma redu\u00e7\u00e3o de custos para sua empresa!*\n***Rodolfo Mariano*** *(Application Security Leader na Compass.UOL)*\n*Formado em An\u00e1lise e Desenvolvimento de Sistemas\\, P\u00f3s\\-graduado em Intelig\u00eancia Cibern\u00e9tica e Seguran\u00e7a Ofensiva OSCP \\| CEH \\| eWPTX \\| CRTP \\| eJPT \\| DCPT \\| SYCP \\| CWHI\\.*"
     },
     {
         "group": "Seattle",
