@@ -152,6 +152,5 @@ and executes arbitrary code.
 
 ## References
 
-- [SSI Examples](http://www.comptechdoc.org/independent/web/cgi/ssimanual/ssiexamples.html)
 - [CGI and SSI Syntax and Examples](http://httpd.apache.org/docs/current/howto/ssi.html#basic)
 - [Injection Flaws](https://owasp.org/www-community/Injection_Flaws)
