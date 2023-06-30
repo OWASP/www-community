@@ -150,16 +150,6 @@
         "description": "**TOPIC**: Anatomy of a Breach: Dissecting Cloud Security\n\nJoin us for great networking, dinner and drinks, and see a presentation by John Heenan, Cloud Security Solutions Architect, Palo Alto Networks.\n\n**ABSTRACT**: Cloud security presents unique challenges. As enterprises continue to move to the cloud, security practitioners face new threats and paradigms. In this session, we\u2019ll forensically reconstruct major cloud-centric breaches and step through them, building an understanding of what happened, how it happened, and developing key takeaways to help secure our own infrastructure, especially in AWS, Azure, and GCP.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
-        "group": "Melbourne",
-        "repo": "www-chapter-melbourne",
-        "name": "Secure File Location Handling - Build.Attack.Fix Games",
-        "date": "2023-06-29",
-        "time": "8:00+10:00",
-        "link": "https://www.meetup.com/application-security-owasp-melbourne/events/294138476",
-        "timezone": "Australia/Melbourne",
-        "description": "Hello OWASP Melbourne,\nFollowing our last challenge being well received, we're back with another challenge and ramped up the stakes. Brought to you in collaboration with Dr. Pedram from SecDim, this time a King of the Hill style challenge. Build your app, attack other's apps, and iterate on improving your defences.\n\nHow will this work?\n\nThis is a battle challenge. You have limited time to address the security vulnerabilities in your code. Once you push your code, you enter the battle page where you can hack other players app. Anytime you successfully hack a player's app, you need to extract the flag. You then submit the flag to get the score. The earlier you defend your app or hack another player's, the higher will be your ranking.\n\nNOTE: If a player hacks your app, you will lose the score and get kicked out of the battle page. You may try again.\n\nNo presentation, no lecture. This is a hands-on session to up-skill in secure programming. Please bring your laptop with your development environment set up and ready to go, so that you can jump right into the action.\n\n**We will explore these weaknesses**:\n\n* CWE-35 and CWE-23\n\n**Agenda**:\n\n* 6:00-6:10 Welcome\n* 6:10-7:30 Let the battle begin.\n\nThis event is not catered, but you're welcomed to bring your own food along.\n\n**Prepare**:\nIf you are a first timer, **get your workstation setup** by completing any of the \"Start Here\" levels on [https://play.secdim.com](https://play.secdim.com/) (SecDim Play is a training game for secure programming)\n\n**Contribute**: Help to foster the community by **contributing a secure programming challenge**. Follow the guide at [https://github.com/secdim/play-sdk](https://github.com/secdim/play-sdk).\n\n**Keep in-touch**:\nKeep the conversation going. OWASP Melbourne is on the [AppSec ANZ Discord ( https://discord.gg/uAWze2B )](https://discord.gg/uAWze2B) where you can meet up with others interested in AppSec and secure development.\n\n**Hybrid event**:\nIf you're attending in-person, please RSVP (and update if you no longer are able to go) as the venue is very limited. We will update this listing here with the video conference link closer to the event:\n[https://meet.google.com/oej-hjsp-uwe](https://meet.google.com/oej-hjsp-uwe)\n\n**Required Equipment**\nPlease bring your own laptop along to the event that has been setup as described above. There is free wifi, but without your own laptop, you won't be able to participate.\n\n**PS. This is a joint community event with SecDim.**\n\n**Other Information**\n**What is OWASP?**\nThe Open Worldwide Application Security Project\u00ae (OWASP) is a volunteer-run, nonprofit foundation that works to improve the security of software. Through community-led open source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.\n\n**Find out more?**\nMeetup.com Page: https://www.meetup.com/Application-Security-OWASP-Melbourne/\nAbout the Chapter: https://owasp.org/www-chapter-melbourne/\nJoin the AppSec ANZ Discord: https://discord.gg/uAWze2B"
-    },
-    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP NZ - Auckland Meetup - July 2023",
@@ -200,36 +190,6 @@
         "description": "Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in mobile AppSec vs. web AppSec and how to put OWASP MAS project, tools, and resources to work. In this session, we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources, and how to build your own toolkit. Along the way, we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!"
     },
     {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "The State of the Security Industry in 2023: Round Table",
-        "date": "2023-06-29",
-        "time": "8:30-04:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/294226355",
-        "timezone": "America/New_York",
-        "description": "This month, the OWASP NoVA team is hosting a group of leading security professionals to discuss the latest challenges we are all facing.\n\nBring your best and most challenging questions and join us for a mid-year roundup with Abdullah Munawar, Sean Poris, and Rich Wickersham.\n\nBios:\nAbdullah Munawar is currently the Director of Product Security at Appian and has previously been a consultant for a number of years helping various federal and financial clients build and mature security programs. He has been running the Northern Virginia Chapter of OWASP for the past 8 years and was also one of the lead organizers for AppSec USA 2016 and Global AppSec DC in 2019.\n\nRich Wickersham is a highly experienced Cyber Security expert, researcher and executive with over two decades of experience in defining and guiding cybersecurity vision, strategy, and execution for major organizations in the public and private sectors. Wickersham is currently the Chief Security Architect for Voya Financial and has previous security leadership experience with AIG, Fannie Mae, The United States House of Representatives, and The Department of Homeland Security. Rich is a recognized researcher with past speaking engagements at CSA, DEFCON, Voice of America and BSIDES.\n\nSean Poris\nSean Poris leads the Cyber Resilience pillar inside Yahoo's information security organization, affectionately dubbed \"The Paranoids.\"\nHe's passionate about providing the bedrock of security solutions that ensure the protection of the company's critical consumer and company data that nearly one billion people around the world entrust to Yahoo.\nSean's team \u2014 which includes Vulnerability Management Operations and Engineering; Product Security; Cloud Security; and Bug Bounty, among half a dozen other functions \u2014 builds solutions that drive the delivery of resilient products and infrastructure.\nPrior to Yahoo, Sean was the Senior Director of Software Security at The College Board, which enables students in their collegiate journeys throughout the world.\nThere, his team equipped software development groups with the critical training, tools, and processes needed to address information security holistically throughout the development lifecycle.\nSean currently serves on the Board of the Northern Virginia Chapter of OWASP. And in that capacity, he worked as the 2019 Global OWASP AppSec DC conference's co-chair."
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Anatomy of a Breach: Dissecting Cloud Security",
-        "date": "2023-06-29",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/293621833",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: IN-PERSON EVENT**\n\n**Abstract:**\nCloud security presents unique challenges. As enterprises continue to move to the cloud, security practitioners face new threats and paradigms. In this session, we\u2019ll forensically reconstruct major cloud-centric breaches and step through them, building an understanding of what happened, how it happened, and developing key takeaways to help secure our own infrastructure, especially in AWS, Azure, and GCP.\n\n**Code of Conduct:**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**Sponsorship:**\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
-    },
-    {
-        "group": "Oslo",
-        "repo": "www-chapter-oslo",
-        "name": "June meetup",
-        "date": "2023-06-29",
-        "time": "7:00+02:00",
-        "link": "https://www.meetup.com/owasp-oslo/events/294176472",
-        "timezone": "Europe/Oslo",
-        "description": "**Blank** is the sponsor of this meetup! Thank you!\n\n**Agenda:**\n\n* 17:00-17:30 : Food\n* 17:30-17:50 : How to get pwned by npm packages and weak settings in GitHub Actions - Erlend \u00c5mdal\n* 18:00-18:45 : Open Policy Agent in-depth - Anders Eknert\n\n**How to get pwned by npm packages and weak settings in GitHub Actions**\nDo you know if your GitHub Actions workflows are secure? I will demonstrate a proof of concept of a supply chain attack that exploits weak security settings in a typical GitHub Actions workflow to do things you might not expect an npm package to be able to do, followed by a presentation of simple methods to prevent this kind of attack. Due to Action's tight integration with the rest of the GitHub platform, the attack can easily target a repository's contents and metadata, including the issue tracker, pull requests and GitHub Packages. If you value the content on your issue tracker or publish to GitHub Packages and are curious about the security of GitHub Actions, this presentation might prove interesting and useful.\n**Erlend \u00c5mdal** is a software development consultant at Blank with a few years of industry experience. He is a passionate developer who strives for secure software. Having worked with various customers ranging from reMarkable to Autodesk, Erlend has been involved with several organizations depending on GitHub Actions and npm packages for their CI/CD, and knows a thing or two about securing this dependency.\n\n**Open Policy Agent in-depth**\nShould user Alice be allowed to read credit reports? Should a cloud compute instance be deployable without basic security configuration in place? Should service X be allowed to query the database?\nPolicy defines the rules of our systems, but how do we ensure our policies are enforced consistently in increasingly distributed and diverse tech stacks?\nIn this technical talk we\u2019ll explore the benefits of decoupling policy from our applications, deployment pipelines and platforms, and how Open Policy Agent (OPA) and its policy language Rego works to unify policy enforcement across the whole stack.\n**Anders Eknert** is a developer advocate at Styra with a long background in software development, security and identity systems in primarily distributed environments. When not in front of his computer he enjoys watching football, cooking and Belgian beers."
-    },
-    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter 2: OWASP Meet Up",
@@ -238,16 +198,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/292660571",
         "timezone": "Europe/London",
         "description": "**OWASP JULY!**\nWe're back for our 2nd Cyber catch up! July's focus is on cloud security, trends and behaviours.\n\n**Who is it for?**\nEverybody! Come along, bring a friend, share with your colleagues.\nA principle of the chapter is to ensure **cyber security is accessible** for everyone. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**Agenda**\n\n* **Xavi Garcia** & **David Greenwood** (of Prisma Security origin) share their insights into cloud security trends and behaviours.\n* **Ashley Fleet** hosts a round-table discussing the latest cyber trends (think AI, secure coding, recent breaches)\n* **Networking & Drinks**\n\n**When is it?**\n\n* Wednesday 5th July\n* **Start** from 7:30pm\n* **Finish** around 11:00pm\n\n**Where is it?**\n\n* The Brewery Tap, Peterborough\n\n**How can you get involved?**\n\n* Respond **'I'm coming!'** to this group\n* Check out our OWASP Chapter [page](https://owasp.org/www-chapter-peterborough/)\n\nWe look forward to seeing you there!"
-    },
-    {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Chapter Social",
-        "date": "2023-06-29",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/293991357",
-        "timezone": "Europe/London",
-        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
         "group": "Porto Alegre",
@@ -288,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-sydney-chapter/events/294359924",
         "timezone": "Australia/Sydney",
         "description": "Join us at the second OWASP Sydney event featuring a talk by [Adam Cassar](https://www.linkedin.com/in/adamcassarac/) from [Peakhour.io](http://peakhour.io/) who will delve into the world of residential proxies. In this talk, Adam will dive into residential proxies, tools that allow for requests from residential IP addresses. He'll clarify what these proxies are, who relies on them, and the possibilities they unlock. Additionally, he'll go over the process of how these large-scale proxy networks come to life.\n\nAdam will discuss the potential implications of these services on IP threat intelligence, the complications of carrier-grade NAT, and questions our reliance on geo-IP databases. He'll also shed light on how your internet use at home, school, or work might be effected by these services.\n\nFinally, Adam will touch on ongoing legal cases involving these services and reveal that some state actors are setting up their own proxy networks for data extraction purposes. The goal is to equip you with a comprehensive understanding of residential proxies, enabling you to make informed decisions within the field of internet security.\n\n**Here are the details of the event:**\n**Date:** July 11th 2023, 5:30pm\n**Venue**: Talenza, Level 3, Macquarie Place, Sydney\n\n**Schedule:**\n\n* 5.30 pm: Arrive, grab a drink, and meet your fellow attendees.\n* 6.00 pm: Residential Proxies Talk.\n* 6:30 pm: Q&A.\n* 7:00 pm: Networking.\n\n* 8:00 pm: Event ends\n\nRSVP now, and we'll see you there!\n\nBest regards,\nOWASP Sydney Chapter Committee"
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
-        "date": "2023-06-29",
-        "time": "8:30-04:00",
-        "link": "https://www.meetup.com/owasptriangle/events/293768575",
-        "timezone": "America/New_York",
-        "description": "TBA"
     },
     {
         "group": "Vancouver",
