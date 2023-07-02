@@ -40,6 +40,16 @@
         "description": "OWASP Top 10 Awareness Program\n\nThe OWASP Top 10 is a powerful awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications.\n\nThe second day of the awareness program includes three sessions covering the risks from 6 to 10 of OWASP top 10 risks and Mitigations,\n\nLocation: Online Event, we will have a live streaming for the event through chapter Youtube channel:\nhttps://www.youtube.com/channel/UCOmffRRYZSpYOiJQp15NHQA\n\nDate: 18 Feb 2023\n\nAgenda:\n\n1- A06:2021-Vulnerable and Outdated Components\n2- A07:2021-Identification and Authentication Failures\n3- A08:2021-Software and Data Integrity Failures\n4- A09:2021-Security Logging and Monitoring Failures\n5- A10:2021-Server-Side Request Forgery"
     },
     {
+        "group": "Cambridge",
+        "repo": "www-chapter-cambridge",
+        "name": "Operation Poppins: An immersive Interactive case study driven approach",
+        "date": "2023-07-06",
+        "time": "7:00+01:00",
+        "link": "https://www.meetup.com/owasp-cambridge-meetup/events/294546302",
+        "timezone": "Europe/London",
+        "description": "Hosted by the Cyber Security & Networking Research Group, Anglia Ruskin University, OWASP (Open Web Application Security Project) Cambridge Chapter, & BCS Cybercrime Forensics SG/BCS Women & BCS Hampshire/Dorset branches\n\n**Background**\n\nThe BCS \u2013 Chartered Institute for IT - Cybercrime Forensics Special Interest Group (SG) promotes Cybercrime Forensics and the use of Cybercrime Forensics; of relevance to computing professionals, lawyers, law enforcement officers, academics and those interested in the use of Cybercrime Forensics and the need to address cybercrime for the benefit of those groups and of the wider public.\n\nOWASP (Open Web Application Security Project is a 501(c)(3) not-for-profit worldwide charitable organisation focused on improving the security of application software. Their mission is to make application security visible, so that people and organisations can make informed decisions about true application security risks.\n\nThe **Cyber Security and Networking** (**CSN**) Research Group at Anglia Ruskin University has close working strategic relationships with industry, professional bodies, law enforcement, government agencies and academia in the delivery of operationally focused applied information and application security research. We have strong international links with professional organisations such as OWASP, BCS, ISC2, IISP & the UK Cyber Security Forum amongst others. The primary aims of CSNRG are to help the UK and partner nations to tackle cybercrime, be more resilient to cyber attacks and educate its users for a more secure cyberspace and operational business environment.\n\n**Abstract : \u201cOperation Poppins: An immersive Interactive case study driven approach\"**\n\nLike a lot of recent teaching developments, the pandemic and lockdowns forced us to re-evaluate how to deliver engaging remote content. Together with limited staffing resources there was an urgent operational requirement for case study driven teaching which kept a high level of interactive student engagement in a remote setting.\n\nThe success of the resources trialled during this period led to the development of an outreach course which successfully trialled a whodoneit style of immersive investigation throughout the entire module. The result included animated character videos, interactive online and in person exercises for each activity area, and a virtual crime scene for additional reflection and learning. By the end of the module the students had solved their first mini digital forensics case. The technique has proven so successful in outreach trials it has now been developed into a full module for postgraduate students.\n\nThis talk will briefly describe the development journey, the resulting module, and look at results from trials to date.\n\n**Provisional Agenda**\n\n16:45 - Webinar waiting lobby opens\n17:00 - Start of Presentation\n17:45 \u2013 Questions & Answers\n18:00 \u2013 Estimated Finish"
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "And we're back!",
@@ -108,16 +118,6 @@
         "link": "https://www.meetup.com/owasp-kathmandu-chapter/events/294300182",
         "timezone": "Asia/Kathmandu",
         "description": "The 0x04 Meetup for OWASP Kathmandu is ecstatically set to take place on the 8th of July, 2023. We are deeply honored to have the illustrious TechKraft Inc. as our esteemed sponsor.\n\nTalks will encompass a diverse range of topics including Organizational Cybersecurity, Bug Bounties, Network Security, Compliance, and much more. Please note that this time we have implemented a strict RSVP policy, so ensure to confirm your attendance in advance."
-    },
-    {
-        "group": "Kolkata",
-        "repo": "www-chapter-kolkata",
-        "name": "OWASP KOLKATA MEETUP #6",
-        "date": "2023-07-01",
-        "time": "0:00+05:30",
-        "link": "https://www.meetup.com/owasp-kolkata/events/294304662",
-        "timezone": "Asia/Kolkata",
-        "description": "#### Proposed sessions for this event:\n\n* Exploit Writing 101 \u2013 Beyond Just Reporting Bugs by **Soummya Mukhopadhyay**\n* Hack Wireless Networks with IOT by **Aninda Saha**\n* Web Application Hunting Approach by **Souvik**\n* Incident Response Fundamentals by **Sudipta Pramanik**"
     },
     {
         "group": "Lahore",
