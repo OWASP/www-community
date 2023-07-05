@@ -184,8 +184,8 @@
       "url": "https://github.com/bearer/bearer",
       "owner": "Bearer",
       "license": "Open Source or Free",
-      "platforms": "CLI on Windows, MacOS, Linux, Docker,  CI/CD integration",
-      "note": "Developer-first Static Application Security Testing (SAST) tool that automates threat modelling, allows native filtering and prioritization of security risks using sensitive data flow analysis. Supports Ruby, JavaScript, and TypeScript with more coming soon.",
+      "platforms": "CLI on Windows, MacOS, Linux, Docker, CI/CD integration",
+      "note": "Static Application Security Testing (SAST) to discover, filter and prioritize security and privacy risks using sensitive data flow analysis. Currently supports Java, Ruby, JavaScript and TypeScript.",
       "type": "SAST"
    },
    {
