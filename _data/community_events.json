@@ -30,6 +30,26 @@
         "description": "Bangalore Meet 15 July 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* TBD\n* TBD\n*"
     },
     {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "Hacker Days:- API Security Workshop with OWASP crAPI (hands-on)",
+        "date": "2023-07-27",
+        "time": "7:00-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/294625016",
+        "timezone": "America/Los_Angeles",
+        "description": "We are happy to announce a Hacker days on API security on 27th July.\nFood and awesome courtesy of our host Traceable.\n\n**Abstract**:\nIn today's rapidly digitalizing world, Application Programming Interfaces (APIs) are the backbone\nof communication in the vast landscape of web services, cloud applications, and microservices.\nWith this increased usage comes the inevitable rise of security threats targeting APIs. This\nworkshop aims to arm participants with practical knowledge and hands-on experience to secure\nAPIs effectively.\nIn this workshop, we will be using OWASP crAPI (completely ridiculous API), a purposely\ninsecure API, to demonstrate common API vulnerabilities and their mitigations. We will discuss\nthe 'Shift Left' approach in API security, emphasizing the importance of integrating security\nmeasures early in the development lifecycle. Participants will learn to identify, exploit, and\nsecure API vulnerabilities, equipping them with the necessary skills to build more secure\napplications\n\n**Presenter Bio:**\n1\\. Jayesh Ahire is the Product Manager at TraceableAI where he works on the Company\u2019s\nAPI Security initiative. He is the maintainer of OWASP crAPI, Hypertrace, and many\nother notable OSS Projects. He is AWS ML Hero, Twilio champion, and runs API\nSecurity Global Community. He also runs AWS UG, Elastic UG, TensorFlow UG, and\nmany other communities in US and India. His research interest involved Distributed\nneural computers and Defi. In his free time, he likes to read and these days he is\nlearning to play the piano.\nLinkedin: https://www.linkedin.com/in/jayesh-ahire/\n\n**Requirements**:\n1\\. Active Participation: The workshop will be highly interactive\\. Questions\\, comments\\, and\nsharing of experiences are strongly encouraged.\n2\\. Laptop: As this is an in\\-person workshop\\, please bring along your laptop with any API\ntesting tool installed.\n3\\. Pre\\-workshop Material: On confirmation of your attendance\\, you will receive some\npre-workshop reading materials. We recommend reviewing these before the event to\nmaximize your learning experience."
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "July Meetup",
+        "date": "2023-07-19",
+        "time": "7:00-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/294624958",
+        "timezone": "America/Los_Angeles",
+        "description": "This is a place holder for July meetup. We are looking for speakers. Please message or email us at kvprashant at owasp.org"
+    },
+    {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
         "name": "Every action on every device tells a story",
@@ -180,16 +200,6 @@
         "description": "The Auckland-area OWASP Meetup takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for July will be **A08:2021 - Software and Data Integrity Failures.**\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
     },
     {
-        "group": "Newcastle Uk",
-        "repo": "www-chapter-newcastle-uk",
-        "name": "OWASP x LHS",
-        "date": "2023-07-05",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owasp-newcastle-chapter/events/278283841",
-        "timezone": "Europe/London",
-        "description": "We are super excited to announce the first joint meetup between OWASP Newcastle and North East Ladies Hacking Society.\n\nWe will be announcing speakers imminently, however you can be sure we have great speakers lined up, along with pizza and refreshments.\n\nEvent start time from 1800 - Arrival and networking\n\nTalk overviews:\nTalk 1\n**Title:** Breaking Barriers: Empowering Women to Thrive in Cyber Security\n**Speaker:** Katie McMillan\n**Speaker Bio:** Katie is a Cybersecurity enthusiast, strategist and an advocate for Women in Technology. Katie was one of the winners of TechWomen100 in 2021.\n**Talk Synopsis:** Join us for a transformative discussion on bridging the gender gap in Cyber Security, where we'll:\n- Challenge stereotypes and biases: Break down societal barriers that hinder women's representation and advancement in the technology industry.\n- Brainstorm innovative solutions: Explore fresh and creative ideas to attract and retain more women in the field of Cyber Security.\n- Foster a supportive network: Build a community that provides networking opportunities, mentorship, and collaboration to empower women in their professional journey.\n- Promote equal opportunities: Advocate for equal access to education, training, and career advancement, ensuring a level playing field for all.\n- Drive industry-wide change: Be part of a game-changing movement that revolutionizes the Cyber Security landscape, making it more inclusive, diverse, and representative.\n\nTalk 2\n**Title:** Look at me! I'm the manager now: Becoming a Security Engineer Manager, common pitfalls, lessons and more.\n**Speaker:** Marcus Tenorio\n**Speaker Bio:** Marcus Tenorio, A.K.A MART\nHe is a Brazilian who didn't cost 40 million and has been working with security in recent years from research projects, to small hacks, to the pleasure of managing a team of security engineers and software engineers.\n**Talk Synopsis:** This session dives into transitioning from a security engineer to a security engineering manager, addressing common pitfalls, valuable lessons, and critical errors to avoid. We will have some insights into the challenges faced during this transition and learn practical strategies to overcome them. The talk emphasizes the importance of effective communication, stakeholder management, and cultivating a collaborative team culture by sharing real-world examples and providing guidance on navigating potential errors (that I did, again oh dear so many)\n\nAs always, tickets aren\u2019t required but help us gauge how much food to order.\n\n**Live Stream Info:** We're hoping to be able to live stream the event on the OWASP Newcastle [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there.\n\nYou can also join the OWASP Newcastle Google Group which is how we'll be sending out emails to events and is also going to be used as a forum for discussion.\n\nhttps://groups.google.com/a/owasp.org/forum/#!forum/newcastle-chapter"
-    },
-    {
         "group": "Northern Virginia",
         "repo": "www-chapter-northern-virginia",
         "name": "Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project",
@@ -200,14 +210,24 @@
         "description": "Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in mobile AppSec vs. web AppSec and how to put OWASP MAS project, tools, and resources to work. In this session, we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources, and how to build your own toolkit. Along the way, we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!"
     },
     {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Disinformation is the malware of a free society - Part 2",
+        "date": "2023-07-27",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/owasp-oc/events/294627454",
+        "timezone": "America/Los_Angeles",
+        "description": "**NOTE: IN-PERSON EVENT**\n\n**Speaker:** Brandon Soroudi, Visiting fellow at National Security Institute\n[https://nationalsecurity.gmu.edu/](https://nationalsecurity.gmu.edu/)\n\n**Topic:** Disinformation is the malware of a free society - Part 2\n**Abstract:**\nThe future of information security is not protecting networks or endpoints. A new and unique security condition has emerged that has no IOC\u2019s or TTP\u2019s. However, it is arguably the most dangerous of all emerging threats. If exploited, it can alter elections, destabilize governments, and bring a swift end to truth and the institutions that rely on truth. The future of information security is detecting and preventing the spread of \u201cdisinformation\u201d.\n\nPart 1 of this series focused on the origins of \u201cactive measures\u201d in the Cold War and the events leading up to January 6th 2021. Part 2 of this series, will focus on a new framework to map disinformation tactics and techniques, and the impact AI based chatbots and \u201cdeepfake\u201d technology will have on the future of democracy.\n\nWithout trust, democracy has no future. Can the security community help to restore trust in information and save democracy for posterity?\n\n**Schedule:**\n6:00pm - 6:40pm Networking, Food & Drink\n6:40pm - 6:45pm Welcome and Introduction\n6:45pm - 7:45pm Presentation & Q&A\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
-        "name": "Chapter 2: OWASP Meet Up",
-        "date": "2023-07-05",
+        "name": "Chapter Social",
+        "date": "2023-07-27",
         "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/292660571",
+        "link": "https://www.meetup.com/owasp-peterborough/events/294627572",
         "timezone": "Europe/London",
-        "description": "**OWASP JULY!**\nWe're back for our 2nd Cyber catch up! July's focus is on cloud security, trends and behaviours.\n\n**Who is it for?**\nEverybody! Come along, bring a friend, share with your colleagues.\nA principle of the chapter is to ensure **cyber security is accessible** for everyone. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**Agenda**\n\n* **Xavi Garcia** & **David Greenwood** (of Prisma Security origin) share their insights into cloud security trends and behaviours.\n* **Ashley Fleet** hosts a round-table discussing the latest cyber trends (think AI, secure coding, recent breaches)\n* **Networking & Drinks**\n\n**When is it?**\n\n* Wednesday 5th July\n* **Start** from 7:30pm\n* **Finish** around 11:00pm\n\n**Where is it?**\n\n* The Brewery Tap, Peterborough\n\n**How can you get involved?**\n\n* Respond **'I'm coming!'** to this group\n* Check out our OWASP Chapter [page](https://owasp.org/www-chapter-peterborough/)\n\nWe look forward to seeing you there!"
+        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
         "group": "Porto Alegre",
