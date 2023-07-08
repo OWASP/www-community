@@ -10,6 +10,16 @@
         "description": "11:00 am - 11:45 am -Project Yantra Vishleshan by Vismit Rakhecha(Druk)\n11:45 am - 12:15 PM - Deserialization 101\n(Java/PHP edition) by Marvik\n12:15pm - 12:30 pm - Network Break\n12:30 pm - 1:00 pm - Blockchain 101 by Parth\n1:00 pm - 1:30 pm - Unleashing the Power of SSRF by Vaidik"
     },
     {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "You don't have to patch!",
+        "date": "2023-07-19",
+        "time": "6:30-04:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/294663607",
+        "timezone": "America/New_York",
+        "description": "A standing premise in engineering and security is that in order to be secure you have to have all security patches applied and your software be up to date. This advice seems obviously correct but can also be the source of a lot of frustration, cost and fragility in production systems. Security patches often have to be rushed out, can be poorly tested, sometimes subtly change behavior and can cause performance, availability and even security problems to get introduced. Not only that, when vulnerabilities occur in third party systems, your ability to patch or upgrade can be dependent on a vendor or a party you don\u2019t control.\n\nInfrastructure as Code (IaC) and the use of containers and orchestration complicated matters by forcing patching to any part of the application or infrastructure cause a full application build. For smaller sized apps, this isn\u2019t really relevant, but it\u2019s a real problem for apps that take hours to build and even more to test before being able to deploy again. This can highly discourage people from patching as fast as they can. Automated patching isn\u2019t the answer as well, as the risk of breaking the application is too high. So, certainly, there must be another way.\n\nWhat alternatives are there then? In this talk, we will argue that an alternative is to use sandboxing and isolation to limit the blast radius of exploits. We will also look at three different examples in networking, in server side rendering and a web client on how you can architecture a system using sandboxing and isolation so that while patching remains necessary, the need to rush a patch out can be mitigated.\n\nHopefully, this talk can help security professionals better strategize how they spend their efforts to find a balance between finding and fixing vulnerabilities and patching them - and deploying mitigation or attenuation mechanisms assuming that no one can ever aspire to be 100% secure.\n\n----\nPedro Fortuna Bio\nCTO and Co-Founder at Jscrambler\n\nOnce on a trajectory to a full academic career, where he taught security and computer science courses for about 5 years - ended up falling in love with the fast-paced world of entrepreneurship. He Started Jscrambler where he leads all security research and drives the company's product innovation on application security. Has more than 15 years of experience researching and working on web security. OWASP contributor. A regular speaker at several international security conferences. Main research interests lie in the fields of Application Security, Web Security, Reverse Engineering, Malware, and Software Engineering. Builder of solutions that require code rewriting, sandboxing, or both. Author of several patents in application security."
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - July 2023 (Online)",
@@ -47,7 +57,7 @@
         "time": "7:00-07:00",
         "link": "https://www.meetup.com/bay-area-owasp/events/294624958",
         "timezone": "America/Los_Angeles",
-        "description": "This is a place holder for July meetup. We are looking for speakers. Please message or email us at kvprashant at owasp.org"
+        "description": "We are happy to announce our July meetup. Thanks to our hosts FOSSA Inc. Please come and attend some awesome talks with some great food and drinks.\n\n**Talk #1 Quantifying Application Security**\nAbstract:\nWhy are application security concerns important? The security industry is increasingly using cyber risk quantification to express risks in business language. We will cover the tools, techniques, and methods used to measure risk and make informed decisions within security and the business at large. This includes an overview of Monte Carlo, Metalog Distributions, OPEN FAIR analysis, causal models, and other techniques/ tools.\n\nSpeaker:- Daniel ONeil, CEO Privacy labs\n\n**Talk#2: AppSec 2.0: Reimagine AppSec With Runtime Analysis**\nAbstract:\nSCA tools (container and dependency scans) generate too much noise. Runtime security tools don\u2019t understand SCA findings, and don\u2019t come in until production. What if you could marry SCA with runtime analysis during dev, test, and prod?\n\nIn this session, Kiran Kamity, CEO and Founder of Deepfactor, will discuss how the next generation of AppSec needs to go beyond just integrating static SCA into your CI pipeline, to analyzing insecure behaviors inside running apps and correlating that back to SCA to understand which vulnerable components are actually loaded into memory and used by your application. This new approach to AppSec will detect both known vulnerabilities/CVEs with SCA scans and unknown vulnerabilities with runtime analysis. It will then prioritize known vulnerabilities with runtime correlation of SCA findings. End result: you catch most of the key risks in your app, prioritize the key items your devs need to work on without flooding them with alerts, and remove unused components from your containers to burn down your CVE debt rapidly\u2026.and achieve the true mission of AppSec\u2026to empower engineering and security teams to create secure applications.\n\nSpeaker:- Kiran Kamity is the Founder & CEO of Deepfactor. He is a serial Silicon Valley entrepreneur with a passion for building products that meet a need and make a business impact\u2014with Deepfactor that\u2019s empowering engineering teams to create secure cloud native applications. Prior to Deepfactor, Kiran was the Head of Product at Cisco Cloud BU, Founder/CEO at ContainerX (acquired by Cisco), and the Founder/VP at RingCube (acquired by Citrix). Kiran is a TEDx speaker and loves nature, travel, and food."
     },
     {
         "group": "Brisbane",
@@ -78,6 +88,16 @@
         "link": "https://www.meetup.com/columbus-owasp/events/294216909",
         "timezone": "America/New_York",
         "description": "We are BACK folks. Been .. a minute. But we have a great meeting coming together. Jeff Williams is our speaker, and Black Hills Security will be providing the snac. Here's what Jeff will be covering:\n\nAfter over 20 years, achieving app and API security still requires Herculean effort by smart and dedicated people. Fortunately, we can look to history and see a path forward. In the mid-2000s we changed the curve on kernel exploits by adding ASLR and DEP to operating systems. Imagine hardening your web app and web API stacks against all the major classes of vulnerability. You could instantly notify developers if they introduce a vulnerability and you could stop vulnerable software from being exploited. How would it change your appsec program if you could dramatically reduce the risk of all the common classes of vulnerability? In this talk, we\u2019ll explain how runtime protection works and how you can streamline vulnerability management and ensure your software doesn\u2019t get exploited\u2026 at the same time."
+    },
+    {
+        "group": "Croatia",
+        "repo": "www-chapter-croatia",
+        "name": "Chapter Croatia Physical Meetup (Vara\u017edin)",
+        "date": "2023-07-18",
+        "time": "8:00+02:00",
+        "link": "https://www.meetup.com/owasp-croatia-meetup-group/events/294664531",
+        "timezone": "Europe/Belgrade",
+        "description": "Hello everyone, it\u2019s time for our OWASP Croatia meetup. This time, we will meet in person.\n\nLocation: Inside terrace of Park Boutique Hotel in Vara\u017edin. Tuesday of 18.7.2023 @ 18:00.\n\nWe have two topics for this meetup:\n1\\. Vlatko Ko\u0161turjak will go over Diverto's yearly security report and comment on the application security results and lessons\\.\n2\\. We will discuss future activities for Chapter Croatia \\(Talks\\, Workshops\\, Projects\\)\n\nPlease RSVP to the event because we will have space reserved in the inside terrace and we need to let the venue know the number of chairs needed in the morning. If you are not coming, please remove the RSVP so we can plan accordingly."
     },
     {
         "group": "Dallas",
@@ -190,6 +210,16 @@
         "description": "https://guidedconversations.org/\n\nTopics\n\n1. Soft / hard gates in pipelines\n2. jira ticket creation\n3. Automated Dependency Updates\n4. Automated SAST fixes\u2026\n5. Enterprise scaling (scan by default ideas)"
     },
     {
+        "group": "Mumbai",
+        "repo": "www-chapter-mumbai",
+        "name": "OWASP Mumbai Online Meetup - 22nd July 2023",
+        "date": "2023-07-22",
+        "time": "2:00+05:30",
+        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/294661574",
+        "timezone": "Asia/Kolkata",
+        "description": "Introduction to OWASP Mumbai\n\n**Talk:** Introduction to SASE and the use cases.\nCloud-based Secure Access Service Edge and how it is changing the way we address the network and security challenges\n\n**Speaker:** Prashanth \\| Senior Security Consultant at Palo Alto Networks\n\nQnA, Feedback and Discussions"
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP NZ - Auckland Meetup - July 2023",
@@ -278,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-sydney-chapter/events/294359924",
         "timezone": "Australia/Sydney",
         "description": "Join us at the second OWASP Sydney event featuring a talk by [Adam Cassar](https://www.linkedin.com/in/adamcassarac/) from [Peakhour.io](http://peakhour.io/) who will delve into the world of residential proxies. In this talk, Adam will dive into residential proxies, tools that allow for requests from residential IP addresses. He'll clarify what these proxies are, who relies on them, and the possibilities they unlock. Additionally, he'll go over the process of how these large-scale proxy networks come to life.\n\nAdam will discuss the potential implications of these services on IP threat intelligence, the complications of carrier-grade NAT, and questions our reliance on geo-IP databases. He'll also shed light on how your internet use at home, school, or work might be effected by these services.\n\nFinally, Adam will touch on ongoing legal cases involving these services and reveal that some state actors are setting up their own proxy networks for data extraction purposes. The goal is to equip you with a comprehensive understanding of residential proxies, enabling you to make informed decisions within the field of internet security.\n\n**Here are the details of the event:**\n**Date:** July 11th 2023, 5:30pm\n**Venue**: Talenza, Level 3, Macquarie Place, Sydney\n\n**Schedule:**\n\n* 5.30 pm: Arrive, grab a drink, and meet your fellow attendees.\n* 6.00 pm: Residential Proxies Talk.\n* 6:30 pm: Q&A.\n* 7:00 pm: Networking.\n\n* 8:00 pm: Event ends\n\nRSVP now, and we'll see you there!\n\nBest regards,\nOWASP Sydney Chapter Committee"
+    },
+    {
+        "group": "Triangle Nc",
+        "repo": "www-chapter-triangle-nc",
+        "name": "Speaker TBA - Contact us if interested",
+        "date": "2023-07-27",
+        "time": "8:30-04:00",
+        "link": "https://www.meetup.com/owasptriangle/events/294671576",
+        "timezone": "America/New_York",
+        "description": "TBA"
     },
     {
         "group": "Vancouver",
