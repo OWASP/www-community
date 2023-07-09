@@ -1,15 +1,5 @@
 [
     {
-        "group": "Ahmedabad",
-        "repo": "www-chapter-ahmedabad",
-        "name": "OWASP | Ahmedabad Monthly Meet-Up",
-        "date": "2023-07-08",
-        "time": "1:00+05:30",
-        "link": "https://www.meetup.com/owasp-ahmedabad-chapter/events/294429221",
-        "timezone": "Asia/Kolkata",
-        "description": "11:00 am - 11:45 am -Project Yantra Vishleshan by Vismit Rakhecha(Druk)\n11:45 am - 12:15 PM - Deserialization 101\n(Java/PHP edition) by Marvik\n12:15pm - 12:30 pm - Network Break\n12:30 pm - 1:00 pm - Blockchain 101 by Parth\n1:00 pm - 1:30 pm - Unleashing the Power of SSRF by Vaidik"
-    },
-    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "You don't have to patch!",
@@ -160,16 +150,6 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
-        "group": "Kathmandu",
-        "repo": "www-chapter-kathmandu",
-        "name": "OWASP Kathmandu Meetup - 0x04",
-        "date": "2023-07-08",
-        "time": "0:30+05:45",
-        "link": "https://www.meetup.com/owasp-kathmandu-chapter/events/294300182",
-        "timezone": "Asia/Kathmandu",
-        "description": "The 0x04 Meetup for OWASP Kathmandu is ecstatically set to take place on the 8th of July, 2023. We are deeply honored to have the illustrious TechKraft Inc. as our esteemed sponsor & the 0x04 CTF has been sponsored by Plerion.\n\nTalks will encompass a diverse range of topics including Organizational Cybersecurity, Bug Bounties, Network Security, Compliance, and much more. Please note that this time we have implemented a strict RSVP policy, so ensure to confirm your attendance in advance."
-    },
-    {
         "group": "Lahore",
         "repo": "www-chapter-lahore",
         "name": "OWASP Community Day",
@@ -248,16 +228,6 @@
         "link": "https://www.meetup.com/owasp-oc/events/294627454",
         "timezone": "America/Los_Angeles",
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Speaker:** Brandon Soroudi, Visiting fellow at National Security Institute\n[https://nationalsecurity.gmu.edu/](https://nationalsecurity.gmu.edu/)\n\n**Topic:** Disinformation is the malware of a free society - Part 2\n**Abstract:**\nThe future of information security is not protecting networks or endpoints. A new and unique security condition has emerged that has no IOC\u2019s or TTP\u2019s. However, it is arguably the most dangerous of all emerging threats. If exploited, it can alter elections, destabilize governments, and bring a swift end to truth and the institutions that rely on truth. The future of information security is detecting and preventing the spread of \u201cdisinformation\u201d.\n\nPart 1 of this series focused on the origins of \u201cactive measures\u201d in the Cold War and the events leading up to January 6th 2021. Part 2 of this series, will focus on a new framework to map disinformation tactics and techniques, and the impact AI based chatbots and \u201cdeepfake\u201d technology will have on the future of democracy.\n\nWithout trust, democracy has no future. Can the security community help to restore trust in information and save democracy for posterity?\n\n**Schedule:**\n6:00pm - 6:40pm Networking, Food & Drink\n6:40pm - 6:45pm Welcome and Introduction\n6:45pm - 7:45pm Presentation & Q&A\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
-    },
-    {
-        "group": "Patna",
-        "repo": "www-chapter-patna",
-        "name": "A Deep Dive into Pentesting : File Upload Vulnerabilities Explored",
-        "date": "2023-07-08",
-        "time": "4:30+05:30",
-        "link": "https://www.meetup.com/owasp-patna-chapter/events/294635651",
-        "timezone": "Asia/Kolkata",
-        "description": "During the session, we will dive deep into the challenges posed by file upload restrictions. Often, certain file extensions like PHP or HTML are prohibited, limiting the scope of a penetration test. However, fear not, as we will explore effective methods to overcome these restrictions, empowering you to uncover potential vulnerabilities within file upload features. Through practical demonstrations and hands-on exercises, we will cover a wide range of techniques that can significantly bolster your penetration testing capabilities."
     },
     {
         "group": "Peterborough",
