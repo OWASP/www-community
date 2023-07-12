@@ -12,7 +12,7 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - July 2023 (Online)",
+        "name": "OWASP Austin Chapter Monthly Meeting - July 2023",
         "date": "2023-07-25",
         "time": "1:30-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/290705755",
@@ -147,7 +147,7 @@
         "time": "9:00-05:00",
         "link": "https://www.meetup.com/owasp-lima-meetup-group/events/294711775",
         "timezone": "America/Lima",
-        "description": "**OWASP Meeting Julio 2023**\nReuni\u00f3n Mensual de Seguridad de Aplicaciones\n\n**PRESENTACIONES:**\n\n***Conceptos, est\u00e1ndares y problem\u00e1tica desde el frente de seguridad en la adopci\u00f3n del Open Banking en Per\u00fa- Jean Lau* (PE) & Luis Huapaya (PE)**\n\n***Vulnerabilidades sobre NFC: 4 millones de saldo en el metro - Fernando Flores (PE)***"
+        "description": "**OWASP Meeting Julio 2023**\nReuni\u00f3n Mensual de Seguridad de Aplicaciones (VIA ZOOM)\n\n**PRESENTACIONES:**\n\n***Conceptos, est\u00e1ndares y problem\u00e1tica desde el frente de seguridad en la adopci\u00f3n del Open Banking en Per\u00fa- Jean Lau* (PE) & Luis Huapaya (PE)**\n\n***Vulnerabilidades sobre NFC: 4 millones de saldo en el metro - Fernando Flores (PE)***"
     },
     {
         "group": "Limassol",
@@ -188,16 +188,6 @@
         "link": "https://www.meetup.com/owasp-mumbai-chapter/events/294661574",
         "timezone": "Asia/Kolkata",
         "description": "Introduction to OWASP Mumbai\n\n**Talk:** Introduction to SASE and the use cases.\nCloud-based Secure Access Service Edge and how it is changing the way we address the network and security challenges\n\n**Speaker:** Prashanth \\| Senior Security Consultant at Palo Alto Networks\n\nQnA, Feedback and Discussions"
-    },
-    {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP NZ - Auckland Meetup - July 2023",
-        "date": "2023-07-11",
-        "time": "8:00+12:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291721004",
-        "timezone": "Pacific/Auckland",
-        "description": "The Auckland-area OWASP Meetup takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for July will be **A08:2021 - Software and Data Integrity Failures.**\n\n**Discussion Leader:** John DiLeo\n**Discussion Topic:** Taking a look back at last week's conference, and making a plan for the coming year's activities\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
     },
     {
         "group": "Northern Virginia",
@@ -260,24 +250,24 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
-        "group": "Sydney",
-        "repo": "www-chapter-sydney",
-        "name": "Residential Proxies Unmasked: Navigating the Hidden Threat",
-        "date": "2023-07-11",
-        "time": "7:30+10:00",
-        "link": "https://www.meetup.com/owasp-sydney-chapter/events/294359924",
-        "timezone": "Australia/Sydney",
-        "description": "Join us at the second OWASP Sydney event featuring a talk by [Adam Cassar](https://www.linkedin.com/in/adamcassarac/) from [Peakhour.io](http://peakhour.io/) who will delve into the world of residential proxies. In this talk, Adam will dive into residential proxies, tools that allow for requests from residential IP addresses. He'll clarify what these proxies are, who relies on them, and the possibilities they unlock. Additionally, he'll go over the process of how these large-scale proxy networks come to life.\n\nAdam will discuss the potential implications of these services on IP threat intelligence, the complications of carrier-grade NAT, and questions our reliance on geo-IP databases. He'll also shed light on how your internet use at home, school, or work might be effected by these services.\n\nFinally, Adam will touch on ongoing legal cases involving these services and reveal that some state actors are setting up their own proxy networks for data extraction purposes. The goal is to equip you with a comprehensive understanding of residential proxies, enabling you to make informed decisions within the field of internet security.\n\n**Here are the details of the event:**\n**Date:** July 11th 2023, 5:30pm\n**Venue**: Talenza, Level 3, Macquarie Place, Sydney\n\n**Schedule:**\n\n* 5.30 pm: Arrive, grab a drink, and meet your fellow attendees.\n* 6.00 pm: Residential Proxies Talk.\n* 6:30 pm: Q&A.\n* 7:00 pm: Networking.\n\n* 8:00 pm: Event ends\n\nRSVP now, and we'll see you there!\n\nBest regards,\nOWASP Sydney Chapter Committee"
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "OWASP Suffolk Fight Club - July 2023",
+        "date": "2023-07-25",
+        "time": "9:30+01:00",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/294745775",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
     },
     {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
-        "name": "Speaker TBA - Contact us if interested",
+        "name": "Unpacking the Present State of Application Security",
         "date": "2023-07-27",
-        "time": "8:30-04:00",
+        "time": "2:00-04:00",
         "link": "https://www.meetup.com/owasptriangle/events/294671576",
         "timezone": "America/New_York",
-        "description": "TBA"
+        "description": "Enjoy an industry practitioner's view of the state-of-the-art in AppSec today and over the next few years. Explore the state of the industry, from attackers, threats, and vulns to tools and tech. Learn successful strategies and roadmaps to build a solid foundation and future-proof AppSec programs, including ten future-looking areas for examination."
     },
     {
         "group": "Vancouver",
