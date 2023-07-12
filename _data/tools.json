@@ -162,9 +162,9 @@
       "type": "DAST"
    },
    {
-      "title": "Indusface Website Security Scan",
-      "url": "https://www.indusface.com/website-security-scan.php",
-      "owner": "AppTrana",
+      "title": "AppTrana",
+      "url": "https://www.indusface.com/website-security-scan.php?ref=owasp",
+      "owner": "Indusface",
       "license": "Free",
       "platforms": "SaaS",
       "note": null,
@@ -424,7 +424,7 @@
    },
    {
       "title": "Indusface Web Application Scanning",
-      "url": "https://www.indusface.com/web-application-scanning.php",
+      "url": "https://www.indusface.com/web-application-scanning.php?ref=owasp",
       "owner": "Indusface",
       "license": "Commercial",
       "platforms": "SaaS",
