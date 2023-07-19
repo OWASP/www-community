@@ -70,16 +70,6 @@
         "description": "We are BACK folks. Been .. a minute. But we have a great meeting coming together. Jeff Williams is our speaker, and Black Hills Security will be providing the snac. Here's what Jeff will be covering:\n\nAfter over 20 years, achieving app and API security still requires Herculean effort by smart and dedicated people. Fortunately, we can look to history and see a path forward. In the mid-2000s we changed the curve on kernel exploits by adding ASLR and DEP to operating systems. Imagine hardening your web app and web API stacks against all the major classes of vulnerability. You could instantly notify developers if they introduce a vulnerability and you could stop vulnerable software from being exploited. How would it change your appsec program if you could dramatically reduce the risk of all the common classes of vulnerability? In this talk, we\u2019ll explain how runtime protection works and how you can streamline vulnerability management and ensure your software doesn\u2019t get exploited\u2026 at the same time."
     },
     {
-        "group": "Croatia",
-        "repo": "www-chapter-croatia",
-        "name": "Chapter Croatia Physical Meetup (Vara\u017edin)",
-        "date": "2023-07-18",
-        "time": "8:00+02:00",
-        "link": "https://www.meetup.com/owasp-croatia-meetup-group/events/294664531",
-        "timezone": "Europe/Belgrade",
-        "description": "Hello everyone, it\u2019s time for our OWASP Croatia meetup. This time, we will meet in person.\n\nLocation: Inside terrace of Park Boutique Hotel in Vara\u017edin. Tuesday of 18.7.2023 @ 18:00.\n\nWe have two topics for this meetup:\n1\\. Vlatko Ko\u0161turjak will go over Diverto's yearly security report and comment on the application security results and lessons\\.\n2\\. We will discuss future activities for Chapter Croatia \\(Talks\\, Workshops\\, Projects\\)\n\nPlease RSVP to the event because we will have space reserved in the inside terrace and we need to let the venue know the number of chairs needed in the morning. If you are not coming, please remove the RSVP so we can plan accordingly."
-    },
-    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP July Meet - In person",
@@ -87,7 +77,7 @@
         "time": "8:00-05:00",
         "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/294141225",
         "timezone": "America/Chicago",
-        "description": "OWASP Dallas is ready to host in-person meets.\n\n\"The Monsters in Your Software Supply Chain that SCA Can't Find\"\n\nThere are excellent SCA tools and excellent SSDLs out there, so why did the 3cx breach feel so much like GroundHog Day? This talk will discuss root cause, attack vectors, adversaries, and countermeasures for Software Supply Chain Security attacks."
+        "description": "OWASP Dallas is ready to host in-person meets.\n\n\"The Monsters in Your Software Supply Chain that SCA Can't Find\"\n\nThere are excellent SCA tools and excellent SSDLs out there, so why did the 3cx breach feel so much like GroundHog Day? This talk will discuss root cause, attack vectors, adversaries, and countermeasures for Software Supply Chain Security attacks.\n\nNote: Food and refreshments for the event will be provided. We thank Reversinglabs for sponsoring this event."
     },
     {
         "group": "Denver",
@@ -112,7 +102,7 @@
     {
         "group": "Frankfurt",
         "repo": "www-chapter-frankfurt",
-        "name": "OWASP Frankfurt #61 ",
+        "name": "OWASP Frankfurt #61  - Red Teaming & AD Security Quick Wins!",
         "date": "2023-07-19",
         "time": "8:00+02:00",
         "link": "https://www.meetup.com/owasp-frankfurt/events/291813603",
@@ -222,6 +212,16 @@
     {
         "group": "Porto Alegre",
         "repo": "www-chapter-porto-alegre",
+        "name": "OWASP Chapter POA - Encontro 012 [ONLINE]",
+        "date": "2023-08-17",
+        "time": "9:30-03:00",
+        "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/294883770",
+        "timezone": "America/Sao_Paulo",
+        "description": "Em agosto teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 20/07 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n*Link para a transmiss\u00e3o:* *[https://www.youtube.com/watch?v=DaSarcPUym4](https://www.youtube.com/watch?v=DaSarcPUym4)*[ ](https://www.youtube.com/watch?v=DaSarcPUym4)\n\n**Confira a agenda:**\n\n**19h30-20h30**\n***\"Como fazer um secure code review na sua empresa\"***\n*O Secure Code Review \u00e9 uma pr\u00e1tica essencial para evitar que as vulnerabilidades cheguem em produ\u00e7\u00e3o. A revis\u00e3o de c\u00f3digo antes do seu commit traz muitos beneficios. Na apresenta\u00e7\u00e3o ser\u00e1 mostrado algumas dicas de como realizar de forma eficiente um secure code review e como come\u00e7ar a fazer isso na sua empresa.*\n***Francisco Silva*** *(AppSec Engineer na Amazon)*\n*AppSec Engineer na Amazon, trabalha com seguran\u00e7a de aplica\u00e7\u00f5es e seguran\u00e7a de cloud. Com foco em ajudar desenvolvedores a descomplicar a seguran\u00e7a no c\u00f3digo.*"
+    },
+    {
+        "group": "Porto Alegre",
+        "repo": "www-chapter-porto-alegre",
         "name": "OWASP Chapter POA - Encontro 011 [ONLINE]",
         "date": "2023-07-20",
         "time": "9:30-03:00",
@@ -270,6 +270,26 @@
         "description": "Enjoy an industry practitioner's view of the state-of-the-art in AppSec today and over the next few years. Explore the state of the industry, from attackers, threats, and vulns to tools and tech. Learn successful strategies and roadmaps to build a solid foundation and future-proof AppSec programs, including ten future-looking areas for examination."
     },
     {
+        "group": "Uruguay",
+        "repo": "www-chapter-uruguay",
+        "name": "Introducci\u00f3n a la seguridad de aplicaciones - Edici\u00f3n Julio 2023",
+        "date": "2023-07-27",
+        "time": "8:00-03:00",
+        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/294654645",
+        "timezone": "America/Montevideo",
+        "description": "Esta ser\u00e1 la reuni\u00f3n de julio de una serie de reuniones **presenciales**, enfocadas en lo **pr\u00e1ctico** y en inspirar a nuevas generaciones y a personas que no est\u00e1n involucradas a\u00fan con la comunidad. Se llevar\u00e1 a cabo en [Technisys Uruguay](https://goo.gl/maps/coqZwLRqsrevrs976) (Dionisio Oribe 3071).\n\nEs importante destacar que **no se requieren** conocimientos previos en seguridad de aplicaciones para participar. Si bien tener conocimientos de web/frontend/backend ayuda, la idea es aprender en la marcha, as\u00ed que sin timidez :)\n\nLa din\u00e1mica de *esta jornada* ser\u00e1 la siguiente:\n\n* Pueden armarse grupos para compartir ideas y ayudarse en los ejercicios.\n* Los grupos tendr\u00e1n desaf\u00edos/objetivos comunes basados en el proyecto [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/).\n* Cada grupo tendr\u00e1 **al menos un** **referente/facilitador** disponible, colaborador de la comunidad con experiencia para apoyar en cualquier duda y generar conocimiento, mano a mano.\n\nEl requerimiento para poder participar es **traer tu notebook**, cada asistente tendr\u00e1 su ambiente de trabajo. Se proporciona a los asistentes una imagen virtual de Kali Linux preconfigurada con las herramientas necesarias para realizar el taller. Se necesita Virtualbox o VMWare para ejecutarla. Si tus recursos no son suficientes tendr\u00e1s que seguir tutoriales para instalar un proxy de ataque (Burp Suite Community u OWASP ZAP) y Juice Shop (servidor local o con Docker).\n\nLa imagen se puede descargar de ac\u00e1: [https://drive.google.com/file/d/1qjXU4Ea8KB0MTc3WRQ7eVDNMOXaxawB9/](https://drive.google.com/file/d/1qjXU4Ea8KB0MTc3WRQ7eVDNMOXaxawB9/)\n\nPara aprovechar mejor el tiempo y el ancho de banda se recomienda asistir con todo pronto. Para verificar la estabilidad y acceso al ambiente local se compartir\u00e1 una presentaci\u00f3n (que se mostrar\u00e1 el d\u00eda del evento) con algunas instrucciones.\n\nA registrarse, **los cupos son limitados** (se pedir\u00e1 confirmaci\u00f3n para dar lugar a quienes est\u00e9n en lista de espera). \u00a1Los esperamos!\n\n***NOTA***: *Para quienes hayan asistido a jornadas anteriores, pueden seguir con desaf\u00edos m\u00e1s complejos.*"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "Rating API Business Risks based on OWASP Top-10 API Security Vulnerabilities",
+        "date": "2023-08-17",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248511",
+        "timezone": "America/Vancouver",
+        "description": "Web APIs are a common glue that connect people and processes with digital systems all across the globe. Not surprisingly, Web APIs contribute more than 80% of the Internet traffic today. Given the importance of APIs, OWASP has recommended top-10 API specific security vulnerabilities (such as Broken Authentication/Authorization and Excessive Data Exposure problems) that organizations must address to strengthen their security posture. Albeit useful, these API specific vulnerabilities do not necessarily translate to the same business risks. For instance, two APIs from an organization with Broken Object Level Authorization (BOLA) may pose very different business risks to that organization.\n\nIn this session, we'll talk about API Risk Rating System (ARRS) that maps API specific vulnerabilities to business risks such as Legal/Contractual, Operational, Financial, Reputational and Regulatory. Similar in-principle yet different than Common Vulnerability Scoring System (CVSS), the main objective of ARRS is to prioritize API specific vulnerabilities based on their business risks. We'll describe the methodology behind the system developed using thousands of APIs that are being tracked at a global scale. We\u2019ll also share some hands-on practical scenarios.\n\nThe work presented was done by Samantha Sanchez, Jun Hee Lee, Alberto Ciconi and Baljeet Malhotra. Samantha, Jun Hee and Alberto are MSc Cybersecurity students at NYIT. Baljeet is an Adjunct Professor at NYIT, UBC, UVic, UNBC, and CEO of TeejLab Inc.\n\n**Location TBD**"
+    },
+    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Bridging the Security Gaps: Proposing and Implementing New ASVS Checks",
@@ -277,12 +297,12 @@
         "time": "8:00-07:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248508",
         "timezone": "America/Vancouver",
-        "description": "**Bridging the Security Gaps: Proposing and Implementing New ASVS Checks** with Iman Sharafaldin and Farshad Abasi\n\nIn the continuously evolving landscape of application security, staying abreast of potential vulnerabilities is paramount. This talk provides an in-depth exploration of recently identified security concerns, their implications, and their incorporation into the Application Security Verification Standard (ASVS). We will delve into the specifics of ten novel additions to the ASVS that were proposed and subsequently accepted.\n\nThe security vulnerabilities we will discuss include Zip Slip, arbitrary file read via malicious Symlink, flaws in escaping special characters in regular expressions, Type Juggling, Latex Injection, JNDI Injection, Prototype Pollution, and Cache Deception. Each of these vulnerabilities poses unique threats and requires distinct mitigation strategies.\n\nWe will shed light on each vulnerability, explore real-world implications, discuss best practices in addressing these security gaps, and detail how they have been integrated into the ASVS. This talk aims to arm developers, security professionals, and decision-makers with vital knowledge to enhance their application security, aligning it with the latest standards in the industry. Attendees will gain comprehensive insights that will enable them to fortify their applications, networks, and systems against these cutting-edge security challenges.\n\n**Iman Sharafaldin**\nPassionate about all things code, Iman has more than 8 years of cybersecurity and software related experience. He is also a PhD candidate in computer science with more than 1000 citations on his cybersecurity related publications. Iman enjoys hiking in his spare time. Designations & Certifications: PhD Candidate Comp. Sci., AWS Solutions Architect, OSWE, AWS Certified Security \u2013 Specialty\n\n**Farshad Abasi**\nAn innovative technologist with over twenty years of experience in security, software design and development, network and system architecture and management. Farshad spent a decade as a senior member of HSBC\u2019s IT security team and currently leads OWASP\u2019s Vancouver chapter. Designations & Certifications: CISSP, AWS Security Professional, Azure Security Engineer"
+        "description": "**Bridging the Security Gaps: Proposing and Implementing New ASVS Checks** with Iman Sharafaldin and Farshad Abasi\n\nIn the continuously evolving landscape of application security, staying abreast of potential vulnerabilities is paramount. This talk provides an in-depth exploration of recently identified security concerns, their implications, and their incorporation into the Application Security Verification Standard (ASVS). We will delve into the specifics of ten novel additions to the ASVS that were proposed and subsequently accepted.\n\nThe security vulnerabilities we will discuss include Zip Slip, arbitrary file read via malicious Symlink, flaws in escaping special characters in regular expressions, Type Juggling, Latex Injection, JNDI Injection, Prototype Pollution, and Cache Deception. Each of these vulnerabilities poses unique threats and requires distinct mitigation strategies.\n\nWe will shed light on each vulnerability, explore real-world implications, discuss best practices in addressing these security gaps, and detail how they have been integrated into the ASVS. This talk aims to arm developers, security professionals, and decision-makers with vital knowledge to enhance their application security, aligning it with the latest standards in the industry. Attendees will gain comprehensive insights that will enable them to fortify their applications, networks, and systems against these cutting-edge security challenges.\n\n**Iman Sharafaldin**\nPassionate about all things code, Iman has more than 8 years of cybersecurity and software related experience. He is also a PhD candidate in computer science with more than 1000 citations on his cybersecurity related publications. Iman enjoys hiking in his spare time. Designations & Certifications: PhD Candidate Comp. Sci., AWS Solutions Architect, OSWE, AWS Certified Security \u2013 Specialty\n\n**Farshad Abasi**\nAn innovative technologist with over twenty years of experience in security, software design and development, network and system architecture and management. Farshad spent a decade as a senior member of HSBC\u2019s IT security team and currently leads OWASP\u2019s Vancouver chapter. Designations & Certifications: CISSP, AWS Security Professional, Azure Security Engineer\n\nThis event wouldn't be possible without our sponsors - **Microsoft** and **Forward Security**."
     },
     {
         "group": "Wrongsecrets",
         "repo": "www-project-wrongsecrets",
-        "name": "OWASP Frankfurt #61 ",
+        "name": "OWASP Frankfurt #61  - Red Teaming & AD Security Quick Wins!",
         "date": "2023-07-19",
         "time": "8:00+02:00",
         "link": "https://www.meetup.com/owasp-frankfurt/events/291813603",
