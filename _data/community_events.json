@@ -10,6 +10,16 @@
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- https://owasp\\-austin\\-2023\\-july\\.eventbrite\\.com\\.\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n# Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks\n\n3rd party and open-source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern."
     },
     {
+        "group": "Bangalore",
+        "repo": "www-chapter-bangalore",
+        "name": "OWASP Bangalore Meet 19 August 2023 ",
+        "date": "2023-08-19",
+        "time": "9:30+05:30",
+        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/294827514",
+        "timezone": "Asia/Kolkata",
+        "description": "Bangalore Meet 19 August 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n**Session:-**\nTo Be Shared\n\nNOTE: Please make sure to RSVP. On the door registration, not possible for this event.\n\n| |\n| --- |\n|"
+    },
+    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "Hacker Days:- API Security Workshop with OWASP crAPI (hands-on)",
@@ -37,27 +47,7 @@
         "time": "8:00+10:00",
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/294588372",
         "timezone": "Australia/Brisbane",
-        "description": "Let's talk about leveraging the power of device and behavioural user data to create trust and maintain ease of access at the same time. This is becoming more and more common with giants like Google and Microsoft who are taking the lead to add it into their services while smaller players are falling behind due to a lack of resources to invest in it. In this presentation, I mainly focus on modern methods of fake account detection and account takeover protection as key areas that almost every service is dealing with these days.\n\nEvent location to be confirmed. (soon)"
-    },
-    {
-        "group": "Columbus",
-        "repo": "www-chapter-columbus",
-        "name": "And we're back!",
-        "date": "2023-07-20",
-        "time": "8:00-04:00",
-        "link": "https://www.meetup.com/columbus-owasp/events/294216909",
-        "timezone": "America/New_York",
-        "description": "We are BACK folks. Been .. a minute. But we have a great meeting coming together. Jeff Williams is our speaker, and Black Hills Security will be providing the snac. Here's what Jeff will be covering:\n\nAfter over 20 years, achieving app and API security still requires Herculean effort by smart and dedicated people. Fortunately, we can look to history and see a path forward. In the mid-2000s we changed the curve on kernel exploits by adding ASLR and DEP to operating systems. Imagine hardening your web app and web API stacks against all the major classes of vulnerability. You could instantly notify developers if they introduce a vulnerability and you could stop vulnerable software from being exploited. How would it change your appsec program if you could dramatically reduce the risk of all the common classes of vulnerability? In this talk, we\u2019ll explain how runtime protection works and how you can streamline vulnerability management and ensure your software doesn\u2019t get exploited\u2026 at the same time."
-    },
-    {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP July Meet - In person",
-        "date": "2023-07-20",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/294141225",
-        "timezone": "America/Chicago",
-        "description": "OWASP Dallas is ready to host in-person meets.\n\n\"The Monsters in Your Software Supply Chain that SCA Can't Find\"\n\nThere are excellent SCA tools and excellent SSDLs out there, so why did the 3cx breach feel so much like GroundHog Day? This talk will discuss root cause, attack vectors, adversaries, and countermeasures for Software Supply Chain Security attacks.\n\nNote: Food and refreshments for the event will be provided. We thank Reversinglabs for sponsoring this event."
+        "description": "Let's talk about leveraging the power of device and behavioural user data to create trust and maintain ease of access at the same time. This is becoming more and more common with giants like Google and Microsoft who are taking the lead to add it into their services while smaller players are falling behind due to a lack of resources to invest in it. In this presentation, I mainly focus on modern methods of fake account detection and account takeover protection as key areas that almost every service is dealing with these days."
     },
     {
         "group": "Denver",
@@ -70,14 +60,24 @@
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us July 26 for food, drinks, networking and an exciting and timely presentation on \"Introduction to the OWASP API Security Top 10 2023\" from one of the best and brightest in the industry: Alan Shen. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to our Denver OWASP sponsor [SpyderSec](https://spydersec.com)**\n\n**Presentation Title:** Introduction to the OWASP API Security Top 10 2023\n\n**Presentation Details:** Application Programming Interfaces (APIs) are the glue that allows independently evolving systems to communicate with each other, and are an important focus for security investment due to their privileged access to sensitive data and functionality. Recently, the OWASP API Top 10 has been updated for 2023, so join us as we introduce the OWASP API Security Project. We'll cover what's new in the 2023 API Top 10, as well as compare the differences with the previous 2019 version. For those interested in hands-on practice, we'll also briefly introduce the OWASP crAPI (completely ridiculous API) Project which demonstrates common API vulnerabilities."
     },
     {
-        "group": "Dubai",
-        "repo": "www-chapter-dubai",
-        "name": "From Manual to Machine: Evolution of Security Automation (SOAR) in SOC",
-        "date": "2023-07-20",
-        "time": "9:00+04:00",
-        "link": "https://www.meetup.com/meetup-group-svgchist/events/294576663",
-        "timezone": "Asia/Dubai",
-        "description": "**The focus of a security automation strategy is on implementing automated tools and processes to enhance the effectiveness and efficiency of an organization's security operations.**\n**The strategy covers several key steps, including identifying security risks and vulnerabilities, evaluating current security operations, setting clear automation goals, selecting the appropriate tools, implementing and testing them, continuously monitoring and improving, training the team, and ensuring compliance with regulations. With security automation, organizations have seen benefits such as improved efficiency and scalability, faster threat detection and response, cost savings, and better decision-making**"
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2023-08-14",
+        "time": "8:45-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/294925671",
+        "timezone": "America/New_York",
+        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+    },
+    {
+        "group": "Lahore",
+        "repo": "www-chapter-lahore",
+        "name": "OWASP Community Day",
+        "date": "2023-08-19",
+        "time": "0:00+05:00",
+        "link": "https://www.meetup.com/owasp-lahore-chapter/events/294165322",
+        "timezone": "Asia/Karachi",
+        "description": "**OWASP Community Day Lahore**\n\nJoin us for the highly anticipated OWASP (Open Web Application Security Project) Community Day in Lahore! This event is a gathering of cybersecurity enthusiasts, professionals, students, and experts who are passionate about web application security and its importance in today's digital landscape.\n\nDuring this day-long event, you will have the opportunity to engage with like-minded individuals, learn from industry leaders, and expand your knowledge in the field of web application security. The OWASP Community Day Lahore aims to promote collaboration, knowledge sharing, and awareness of the latest trends and best practices in securing web applications.\n\n_**Highlights of the OWASP Community Day Lahore:_**\n\n1. Expert Talks: Listen to renowned cybersecurity experts and thought leaders as they share their insights and experiences in web application security. Gain valuable knowledge about emerging threats, vulnerabilities, and effective countermeasures.\n\n2. Hands-on Workshops: Participate in interactive workshops conducted by industry professionals where you can enhance your practical skills in areas such as secure coding, penetration testing, threat modeling, and secure software development.\n\n3. Networking Opportunities: Connect with fellow cybersecurity enthusiasts, professionals, and students in a collaborative and engaging environment. Expand your professional network, share ideas, and forge valuable connections with individuals who share your passion for web application security.\n\n4. Capture The Flag (CTF) Challenges: Test your skills and compete in exciting Capture The Flag challenges designed to simulate real-world scenarios. Solve security puzzles, find vulnerabilities, and demonstrate your expertise to win attractive prizes.\n\n5. Lightning Talks and Demos: Engage in quick-paced lightning talks and live demonstrations, where participants showcase innovative tools, techniques, and research findings related to web application security. Discover new solutions and gain inspiration from cutting-edge projects.\n\n6. Community Projects and Initiatives: Learn about ongoing OWASP projects and initiatives, and find out how you can contribute to the community. Explore opportunities to collaborate on open-source security tools, research papers, and resources that benefit the broader cybersecurity ecosystem.\n\nDon't miss out on this incredible opportunity to be part of the OWASP Community Day Lahore! Mark your calendars and join us for a day filled with knowledge sharing, skill-building, and networking in the vibrant world of web application security. Together, let's make the web a safer place for everyone.\n\n**Note: Please stay tuned for updates on speakers, workshops, and additional event details on our official website and social media channels.**\n\nWe look forward to welcoming you to the OWASP Community Day Lahore!"
     },
     {
         "group": "Lima",
@@ -140,16 +140,6 @@
         "description": "Introduction to OWASP Mumbai\n\n**Talk:** Introduction to SASE and the use cases.\nCloud-based Secure Access Service Edge and how it is changing the way we address the network and security challenges\n\n**Speaker:** Prashanth \\| Senior Security Consultant at Palo Alto Networks\n\nQnA, Feedback and Discussions"
     },
     {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "Mobile Rules the World - Jump into Mobile AppSec with the OWASP MAS Project",
-        "date": "2023-07-20",
-        "time": "8:30-04:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/294045639",
-        "timezone": "America/New_York",
-        "description": "Mobile apps dominate all digital time spent online - but mobile AppSec programs often lag. Jumpstart your team and skills by stepping inside the OWASP Mobile AppSec Project (MAS) to learn about the fundamentals of mobile app security and the latest updates just released in OWASP MASVS V2 launched at OWASP Global AppSec in Dublin. Learn the differences in mobile AppSec vs. web AppSec and how to put OWASP MAS project, tools, and resources to work. In this session, we will drill down into the top 5 most frequent security issues found in testing thousands of mobile apps. Learn how to test for them and how to teach your dev teams to prevent them with code examples, test examples, links to additional resources, and how to build your own toolkit. Along the way, we will hit the latest privacy and security updates with iOS and Android. The Web Rocks\u2026 but Mobile Rules - Come join us!"
-    },
-    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Disinformation: malware of a free society / How Volunteer Work Can Work for You",
@@ -188,16 +178,6 @@
         "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/294883770",
         "timezone": "America/Sao_Paulo",
         "description": "Em agosto teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 20/07 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n*Link para a transmiss\u00e3o:* *[https://www.youtube.com/watch?v=DaSarcPUym4](https://www.youtube.com/watch?v=DaSarcPUym4)*[ ](https://www.youtube.com/watch?v=DaSarcPUym4)\n\n**Confira a agenda:**\n\n**19h30-20h30**\n***\"Como fazer um secure code review na sua empresa\"***\n*O Secure Code Review \u00e9 uma pr\u00e1tica essencial para evitar que as vulnerabilidades cheguem em produ\u00e7\u00e3o. A revis\u00e3o de c\u00f3digo antes do seu commit traz muitos beneficios. Na apresenta\u00e7\u00e3o ser\u00e1 mostrado algumas dicas de como realizar de forma eficiente um secure code review e como come\u00e7ar a fazer isso na sua empresa.*\n***Francisco Silva*** *(AppSec Engineer na Amazon)*\n*AppSec Engineer na Amazon, trabalha com seguran\u00e7a de aplica\u00e7\u00f5es e seguran\u00e7a de cloud. Com foco em ajudar desenvolvedores a descomplicar a seguran\u00e7a no c\u00f3digo.*"
-    },
-    {
-        "group": "Porto Alegre",
-        "repo": "www-chapter-porto-alegre",
-        "name": "OWASP Chapter POA - Encontro 011 [ONLINE]",
-        "date": "2023-07-20",
-        "time": "9:30-03:00",
-        "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/294421971",
-        "timezone": "America/Sao_Paulo",
-        "description": "Em julho teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 20/07 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n*Link para a transmiss\u00e3o:* [https://www.youtube.com/watch?v=-5EE217FhAk](https://www.youtube.com/watch?v=-5EE217FhAk)\n\n**Confira a agenda:**\n\n**19h30-20h30**\n***\"Shift-Left no SSDLC\"***\n*Desloque sua mente para a esquerda com a gente, ser\u00e3o abordadas iniciativas Shift-Left para detec\u00e7\u00e3o e corre\u00e7\u00e3o de vulnerabilidades de forma antecipada, gerando uma maior efici\u00eancia na batalha contra as vulnerabilidades e uma redu\u00e7\u00e3o de custos para sua empresa!*\n***Rodolfo Mariano*** *(Application Security Leader na Compass.UOL)*\n*Formado em An\u00e1lise e Desenvolvimento de Sistemas\\, P\u00f3s\\-graduado em Intelig\u00eancia Cibern\u00e9tica e Seguran\u00e7a Ofensiva OSCP \\| CEH \\| eWPTX \\| CRTP \\| eJPT \\| DCPT \\| SYCP \\| CWHI\\.*"
     },
     {
         "group": "Sastra University",
@@ -258,15 +238,5 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248511",
         "timezone": "America/Vancouver",
         "description": "Web APIs are a common glue that connect people and processes with digital systems all across the globe. Not surprisingly, Web APIs contribute more than 80% of the Internet traffic today. Given the importance of APIs, OWASP has recommended top-10 API specific security vulnerabilities (such as Broken Authentication/Authorization and Excessive Data Exposure problems) that organizations must address to strengthen their security posture. Albeit useful, these API specific vulnerabilities do not necessarily translate to the same business risks. For instance, two APIs from an organization with Broken Object Level Authorization (BOLA) may pose very different business risks to that organization.\n\nIn this session, we'll talk about API Risk Rating System (ARRS) that maps API specific vulnerabilities to business risks such as Legal/Contractual, Operational, Financial, Reputational and Regulatory. Similar in-principle yet different than Common Vulnerability Scoring System (CVSS), the main objective of ARRS is to prioritize API specific vulnerabilities based on their business risks. We'll describe the methodology behind the system developed using thousands of APIs that are being tracked at a global scale. We\u2019ll also share some hands-on practical scenarios.\n\nThe work presented was done by Samantha Sanchez, Jun Hee Lee, Alberto Ciconi and Baljeet Malhotra. Samantha, Jun Hee and Alberto are MSc Cybersecurity students at NYIT. Baljeet is an Adjunct Professor at NYIT, UBC, UVic, UNBC, and CEO of TeejLab Inc.\n\n**Location TBD**"
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "Bridging the Security Gaps: Proposing and Implementing New ASVS Checks",
-        "date": "2023-07-20",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248508",
-        "timezone": "America/Vancouver",
-        "description": "**Bridging the Security Gaps: Proposing and Implementing New ASVS Checks** with Iman Sharafaldin and Farshad Abasi\n\nIn the continuously evolving landscape of application security, staying abreast of potential vulnerabilities is paramount. This talk provides an in-depth exploration of recently identified security concerns, their implications, and their incorporation into the Application Security Verification Standard (ASVS). We will delve into the specifics of ten novel additions to the ASVS that were proposed and subsequently accepted.\n\nThe security vulnerabilities we will discuss include Zip Slip, arbitrary file read via malicious Symlink, flaws in escaping special characters in regular expressions, Type Juggling, Latex Injection, JNDI Injection, Prototype Pollution, and Cache Deception. Each of these vulnerabilities poses unique threats and requires distinct mitigation strategies.\n\nWe will shed light on each vulnerability, explore real-world implications, discuss best practices in addressing these security gaps, and detail how they have been integrated into the ASVS. This talk aims to arm developers, security professionals, and decision-makers with vital knowledge to enhance their application security, aligning it with the latest standards in the industry. Attendees will gain comprehensive insights that will enable them to fortify their applications, networks, and systems against these cutting-edge security challenges.\n\n**Iman Sharafaldin**\nPassionate about all things code, Iman has more than 8 years of cybersecurity and software related experience. He is also a PhD candidate in computer science with more than 1000 citations on his cybersecurity related publications. Iman enjoys hiking in his spare time. Designations & Certifications: PhD Candidate Comp. Sci., AWS Solutions Architect, OSWE, AWS Certified Security \u2013 Specialty\n\n**Farshad Abasi**\nAn innovative technologist with over twenty years of experience in security, software design and development, network and system architecture and management. Farshad spent a decade as a senior member of HSBC\u2019s IT security team and currently leads OWASP\u2019s Vancouver chapter. Designations & Certifications: CISSP, AWS Security Professional, Azure Security Engineer\n\nThis event wouldn't be possible without our sponsors - **Microsoft** and **Forward Security**."
     }
 ]
