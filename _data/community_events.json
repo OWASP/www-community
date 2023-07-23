@@ -30,16 +30,6 @@
         "description": "We are happy to announce a Hacker days on API security on 27th July.\nFood and awesome courtesy of our host Traceable.\n\n**Abstract**:\nIn today's rapidly digitalizing world, Application Programming Interfaces (APIs) are the backbone\nof communication in the vast landscape of web services, cloud applications, and microservices.\nWith this increased usage comes the inevitable rise of security threats targeting APIs. This\nworkshop aims to arm participants with practical knowledge and hands-on experience to secure\nAPIs effectively.\nIn this workshop, we will be using OWASP crAPI (completely ridiculous API), a purposely\ninsecure API, to demonstrate common API vulnerabilities and their mitigations. We will discuss\nthe 'Shift Left' approach in API security, emphasizing the importance of integrating security\nmeasures early in the development lifecycle. Participants will learn to identify, exploit, and\nsecure API vulnerabilities, equipping them with the necessary skills to build more secure\napplications\n\n**Presenter Bio:**\n1\\. Jayesh Ahire is the Product Manager at TraceableAI where he works on the Company\u2019s\nAPI Security initiative. He is the maintainer of OWASP crAPI, Hypertrace, and many\nother notable OSS Projects. He is AWS ML Hero, Twilio champion, and runs API\nSecurity Global Community. He also runs AWS UG, Elastic UG, TensorFlow UG, and\nmany other communities in US and India. His research interest involved Distributed\nneural computers and Defi. In his free time, he likes to read and these days he is\nlearning to play the piano.\nLinkedin: https://www.linkedin.com/in/jayesh-ahire/\n\n**Requirements**:\n1\\. Active Participation: The workshop will be highly interactive\\. Questions\\, comments\\, and\nsharing of experiences are strongly encouraged.\n2\\. Laptop: As this is an in\\-person workshop\\, please bring along your laptop with any API\ntesting tool installed.\n3\\. Pre\\-workshop Material: On confirmation of your attendance\\, you will receive some\npre-workshop reading materials. We recommend reviewing these before the event to\nmaximize your learning experience."
     },
     {
-        "group": "Bhubaneswar",
-        "repo": "www-chapter-bhubaneswar",
-        "name": "OWASP Bhubaneswar Monthly Online Meetup",
-        "date": "2023-07-22",
-        "time": "1:00+05:30",
-        "link": "https://www.meetup.com/owasp-bhubaneswar/events/294840495",
-        "timezone": "Asia/Kolkata",
-        "description": "Hey, [#infosec](https://www.instagram.com/explore/tags/infosec/?next=%2F) enthusiasts. we are going to have an online monthly meetup on 22nd July 2023. If you want to learn about Information Security with absolute zero expense, please register and be a part of the fastest open infosec community.\n\nPlease register on the below-mentioned link as well as RSVP here and grab your seat.\n\nRegistration: [https://docs.google.com/forms/d/e/1FAIpQLSehnFF9gPXTTGe5pEg0dYM7vMtzVPKHkJIvW8U53LjbMssdYQ/viewform](https://docs.google.com/forms/d/e/1FAIpQLSehnFF9gPXTTGe5pEg0dYM7vMtzVPKHkJIvW8U53LjbMssdYQ/viewform)\n\nOur Awesome Speakers: Shakti Ranjan Mohanty  and Sai Swarup Das\n\nCC: OWASP Bhubaneswar, Amiya Behera, Janmejaya Swain, Sai Swarup Das\n\n[#informationsecurity](https://www.instagram.com/explore/tags/informationsecurity/?next=%2F) [#offensivesecurity](https://www.instagram.com/explore/tags/offensivesecurity/?next=%2F) [#securityawareness](https://www.instagram.com/explore/tags/securityawareness/?next=%2F) [#computersecurity](https://www.instagram.com/explore/tags/computersecurity/?next=%2F) [#security](https://www.instagram.com/explore/tags/security/?next=%2F)"
-    },
-    {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
         "name": "Every action on every device tells a story",
@@ -140,16 +130,6 @@
         "description": "https://guidedconversations.org/\n\nTopics\n\n1. Soft / hard gates in pipelines\n2. jira ticket creation\n3. Automated Dependency Updates\n4. Automated SAST fixes\u2026\n5. Enterprise scaling (scan by default ideas)"
     },
     {
-        "group": "Mumbai",
-        "repo": "www-chapter-mumbai",
-        "name": "OWASP Mumbai Online Meetup - 22nd July 2023",
-        "date": "2023-07-22",
-        "time": "2:00+05:30",
-        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/294661574",
-        "timezone": "Asia/Kolkata",
-        "description": "Introduction to OWASP Mumbai\n\n**Talk:** Introduction to SASE and the use cases.\nCloud-based Secure Access Service Edge and how it is changing the way we address the network and security challenges\n\n**Speaker:** Prashanth \\| Senior Security Consultant at Palo Alto Networks\n\nQnA, Feedback and Discussions"
-    },
-    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Disinformation: malware of a free society / How Volunteer Work Can Work for You",
@@ -188,16 +168,6 @@
         "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/294883770",
         "timezone": "America/Sao_Paulo",
         "description": "Em agosto teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 20/07 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n*Link para a transmiss\u00e3o:* *[https://www.youtube.com/watch?v=DaSarcPUym4](https://www.youtube.com/watch?v=DaSarcPUym4)*[ ](https://www.youtube.com/watch?v=DaSarcPUym4)\n\n**Confira a agenda:**\n\n**19h30-20h30**\n***\"Como fazer um secure code review na sua empresa\"***\n*O Secure Code Review \u00e9 uma pr\u00e1tica essencial para evitar que as vulnerabilidades cheguem em produ\u00e7\u00e3o. A revis\u00e3o de c\u00f3digo antes do seu commit traz muitos beneficios. Na apresenta\u00e7\u00e3o ser\u00e1 mostrado algumas dicas de como realizar de forma eficiente um secure code review e como come\u00e7ar a fazer isso na sua empresa.*\n***Francisco Silva*** *(AppSec Engineer na Amazon)*\n*AppSec Engineer na Amazon, trabalha com seguran\u00e7a de aplica\u00e7\u00f5es e seguran\u00e7a de cloud. Com foco em ajudar desenvolvedores a descomplicar a seguran\u00e7a no c\u00f3digo.*"
-    },
-    {
-        "group": "Sastra University",
-        "repo": "www-chapter-sastra-university",
-        "name": "Cracking the Code: Unveiling Untapped Opportunities in Cyber\u00a0Security",
-        "date": "2023-07-22",
-        "time": "9:30+05:30",
-        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/294902398",
-        "timezone": "Asia/Kolkata",
-        "description": "Hey there everyone! Mark your calendars for July 22nd at 7:30 because you won't want to miss this exciting online event hosted by the brilliant Armando Seay. We're gathering on Zoom to dive deep into the world of - \"Cracking the Code: Unveiling Untapped Opportunities in Cyber Security.\" revealing about the unexplored areas of cyber security and articulating the message of cyber security isn't always about hacking."
     },
     {
         "group": "Seattle",
