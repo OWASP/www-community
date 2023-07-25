@@ -331,6 +331,8 @@ Secrets detection is often confused with SAST because both scan through static s
       It is free for open source repositories hosted under your GitHub Organization: <https://www.gitguardian.com/pricing>
     - [Container Scanning](https://www.gitguardian.com/ggshield) ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hard coded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
 
+  - [SAP/Credential Digger](https://github.com/SAP/credential-digger) - Open Source
+    - A GitHub scanning tool that identifies hardcoded credentials (Passwords, API Keys, Secret Keys, Tokens, personal information, etc.), filtering the false positive data through machine learning models.
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
