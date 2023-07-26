@@ -1,13 +1,13 @@
 [
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - July 2023",
-        "date": "2023-07-25",
-        "time": "1:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705755",
-        "timezone": "America/Chicago",
-        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- https://owasp\\-austin\\-2023\\-july\\.eventbrite\\.com\\.\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n# Every Risk is Not a CVE: Bolster up Against Software Supply Chain Attacks\n\n3rd party and open-source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern."
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - August",
+        "date": "2023-08-24",
+        "time": "8:30+02:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/294346390",
+        "timezone": "Europe/Copenhagen",
+        "description": "OWASP Aarhus and EAAA are hosting the next meetup on August 24th, 18:30 \u2013 21:30 where we will be doing lighting talks.\n\nThe agenda is therefore still open and feel free to reach out, if you would like to make a short presentation (approx. 20 minutes). It does not have to be a technical presentation, we are open to and welcome presentations about war stories, personal stories, experiences or just cool stuff.\n\nEAAA will provide snacks and drinks!"
     },
     {
         "group": "Bangalore",
@@ -30,26 +30,6 @@
         "description": "We are happy to announce a Hacker days on API security on 27th July.\nFood and awesome courtesy of our host Traceable.\n\n**Abstract**:\nIn today's rapidly digitalizing world, Application Programming Interfaces (APIs) are the backbone\nof communication in the vast landscape of web services, cloud applications, and microservices.\nWith this increased usage comes the inevitable rise of security threats targeting APIs. This\nworkshop aims to arm participants with practical knowledge and hands-on experience to secure\nAPIs effectively.\nIn this workshop, we will be using OWASP crAPI (completely ridiculous API), a purposely\ninsecure API, to demonstrate common API vulnerabilities and their mitigations. We will discuss\nthe 'Shift Left' approach in API security, emphasizing the importance of integrating security\nmeasures early in the development lifecycle. Participants will learn to identify, exploit, and\nsecure API vulnerabilities, equipping them with the necessary skills to build more secure\napplications\n\n**Presenter Bio:**\n1\\. Jayesh Ahire is the Product Manager at TraceableAI where he works on the Company\u2019s\nAPI Security initiative. He is the maintainer of OWASP crAPI, Hypertrace, and many\nother notable OSS Projects. He is AWS ML Hero, Twilio champion, and runs API\nSecurity Global Community. He also runs AWS UG, Elastic UG, TensorFlow UG, and\nmany other communities in US and India. His research interest involved Distributed\nneural computers and Defi. In his free time, he likes to read and these days he is\nlearning to play the piano.\nLinkedin: https://www.linkedin.com/in/jayesh-ahire/\n\n**Requirements**:\n1\\. Active Participation: The workshop will be highly interactive\\. Questions\\, comments\\, and\nsharing of experiences are strongly encouraged.\n2\\. Laptop: As this is an in\\-person workshop\\, please bring along your laptop with any API\ntesting tool installed.\n3\\. Pre\\-workshop Material: On confirmation of your attendance\\, you will receive some\npre-workshop reading materials. We recommend reviewing these before the event to\nmaximize your learning experience."
     },
     {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "Every action on every device tells a story",
-        "date": "2023-07-25",
-        "time": "8:00+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/294588372",
-        "timezone": "Australia/Brisbane",
-        "description": "Let's talk about leveraging the power of device and behavioural user data to create trust and maintain ease of access at the same time. This is becoming more and more common with giants like Google and Microsoft who are taking the lead to add it into their services while smaller players are falling behind due to a lack of resources to invest in it. In this presentation, I mainly focus on modern methods of fake account detection and account takeover protection as key areas that almost every service is dealing with these days."
-    },
-    {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "OWASP Suffolk Fight Club - July 2023",
-        "date": "2023-07-25",
-        "time": "9:30+01:00",
-        "link": "https://www.meetup.com/owasp-bristol/events/295001431",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Denver OWASP JULY Meetup - Join Us!",
@@ -58,16 +38,6 @@
         "link": "https://www.meetup.com/denver-owasp/events/294482375",
         "timezone": "America/Denver",
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us July 26 for food, drinks, networking and an exciting and timely presentation on \"Introduction to the OWASP API Security Top 10 2023\" from one of the best and brightest in the industry: Alan Shen. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor: A big thank you to our Denver OWASP sponsor [SpyderSec](https://spydersec.com)**\n\n**Presentation Title:** Introduction to the OWASP API Security Top 10 2023\n\n**Presentation Details:** Application Programming Interfaces (APIs) are the glue that allows independently evolving systems to communicate with each other, and are an important focus for security investment due to their privileged access to sensitive data and functionality. Recently, the OWASP API Top 10 has been updated for 2023, so join us as we introduce the OWASP API Security Project. We'll cover what's new in the 2023 API Top 10, as well as compare the differences with the previous 2019 version. For those interested in hands-on practice, we'll also briefly introduce the OWASP crAPI (completely ridiculous API) Project which demonstrates common API vulnerabilities."
-    },
-    {
-        "group": "Gla University Mathura",
-        "repo": "www-chapter-gla-university-mathura",
-        "name": "OSINTcon",
-        "date": "2023-07-25",
-        "time": "0:00+05:30",
-        "link": "https://www.meetup.com/owasp-gla-university-mathura-student-chapter/events/294921703",
-        "timezone": "Asia/Kolkata",
-        "description": "Welcome to our free virtual session on OSINT (Open Source Intelligence) - an informative journey through the world of information gathering! This meetup, hosted by OWASP Chapter GLA University, will provide you with valuable insights into OSINT techniques, tools, and frameworks.\n[Click here to register ](https://us06web.zoom.us/meeting/register/tZEtcuyprTkpGdw2rR16_mqjFwaXZkHqxIen)\n\nDuring this session, we'll be exploring the following topics:\nIntroduction to OSINT and Information Gathering: Get introduced to the fascinating realm of OSINT and understand its importance in gathering valuable information from various publicly available sources.\nOSINT Framework: Discover a wide array of tools and websites related to information gathering. Learn how to leverage these resources effectively to collect and analyze data for your research and investigations.\nExtracting Intelligence from Social Media: Uncover the power of social media as an intelligence source. We'll explore techniques and tools to extract valuable information from social media platforms.\nPractical Machine: Engage in a hands-on experience by working on a lab machine. This practical exercise will allow you to apply your OSINT skills in a simulated environment.\nCase Study: Participate in an intriguing case study where we'll apply OSINT techniques to solve a real-world scenario. This exercise will sharpen your skills and provide practical insights into OSINT applications.\nJoin us for this enriching session, where you will gain valuable knowledge and expertise in OSINT and information gathering. Whether you're a beginner or have some experience in the field, this meetup offers an excellent opportunity to enhance your skills and network with fellow enthusiasts.\nDate: July 25, 2023\nTime: 8:00 pm\nPlatform: Zoom [Click here to Register](https://us06web.zoom.us/meeting/register/tZwoduqsqT8uE9fOCo21WWK4InU6ZGpNHvb8)\nDon't miss out on this chance to embark on a fascinating journey of OSINT and information gathering. We look forward to having you with us!"
     },
     {
         "group": "Jacksonville",
@@ -100,16 +70,6 @@
         "description": "**OWASP Community Day Lahore**\n\nJoin us for the highly anticipated OWASP (Open Web Application Security Project) Community Day in Lahore! This event is a gathering of cybersecurity enthusiasts, professionals, students, and experts who are passionate about web application security and its importance in today's digital landscape.\n\nDuring this day-long event, you will have the opportunity to engage with like-minded individuals, learn from industry leaders, and expand your knowledge in the field of web application security. The OWASP Community Day Lahore aims to promote collaboration, knowledge sharing, and awareness of the latest trends and best practices in securing web applications.\n\n_**Highlights of the OWASP Community Day Lahore:_**\n\n1. Expert Talks: Listen to renowned cybersecurity experts and thought leaders as they share their insights and experiences in web application security. Gain valuable knowledge about emerging threats, vulnerabilities, and effective countermeasures.\n\n2. Hands-on Workshops: Participate in interactive workshops conducted by industry professionals where you can enhance your practical skills in areas such as secure coding, penetration testing, threat modeling, and secure software development.\n\n3. Networking Opportunities: Connect with fellow cybersecurity enthusiasts, professionals, and students in a collaborative and engaging environment. Expand your professional network, share ideas, and forge valuable connections with individuals who share your passion for web application security.\n\n4. Capture The Flag (CTF) Challenges: Test your skills and compete in exciting Capture The Flag challenges designed to simulate real-world scenarios. Solve security puzzles, find vulnerabilities, and demonstrate your expertise to win attractive prizes.\n\n5. Lightning Talks and Demos: Engage in quick-paced lightning talks and live demonstrations, where participants showcase innovative tools, techniques, and research findings related to web application security. Discover new solutions and gain inspiration from cutting-edge projects.\n\n6. Community Projects and Initiatives: Learn about ongoing OWASP projects and initiatives, and find out how you can contribute to the community. Explore opportunities to collaborate on open-source security tools, research papers, and resources that benefit the broader cybersecurity ecosystem.\n\nDon't miss out on this incredible opportunity to be part of the OWASP Community Day Lahore! Mark your calendars and join us for a day filled with knowledge sharing, skill-building, and networking in the vibrant world of web application security. Together, let's make the web a safer place for everyone.\n\n**Note: Please stay tuned for updates on speakers, workshops, and additional event details on our official website and social media channels.**\n\nWe look forward to welcoming you to the OWASP Community Day Lahore!"
     },
     {
-        "group": "Lima",
-        "repo": "www-chapter-lima",
-        "name": "OWASP Meeting Julio 2023",
-        "date": "2023-07-25",
-        "time": "9:00-05:00",
-        "link": "https://www.meetup.com/owasp-lima-meetup-group/events/294711775",
-        "timezone": "America/Lima",
-        "description": "**OWASP Meeting Julio 2023**\nReuni\u00f3n Mensual de Seguridad de Aplicaciones (VIA ZOOM)\n\n**PRESENTACIONES:**\n\n***Conceptos, est\u00e1ndares y problem\u00e1tica desde el frente de seguridad en la adopci\u00f3n del Open Banking en Per\u00fa- Jean Lau* (PE) & Luis Huapaya (PE)**\n\n***Vulnerabilidades sobre NFC: 4 millones de saldo en el metro - Fernando Flores (PE)***"
-    },
-    {
         "group": "Limassol",
         "repo": "www-chapter-limassol",
         "name": "OWASP Limassol Meetup 2.0",
@@ -117,7 +77,7 @@
         "time": "8:30+03:00",
         "link": "https://www.meetup.com/owasp-limassol-meetup-group/events/294232592",
         "timezone": "Asia/Nicosia",
-        "description": "**Calling all tech and security enthusiasts!**\n\nWe are thrilled to announce the second meetup of the [OWASP Chapter in Limassol](https://owasp.org/www-chapter-limassol/)! We cordially invite you to join us for an evening of engaging discussions, networking, and knowledge sharing among cybersecurity enthusiasts, professionals, and enthusiasts from various backgrounds.\n\n**Schedule:**\n18:30 \u2014 19:00 \u2014 Gathering & Intro\n19:00 \u2014 19:30 Maksim Gall, Exness:\n**How are Apples cracked?**\n19:30 \u2014 19:55 Vlad Bychenkov, Semrush:\n**Malware in the life of SOC analyst: how to improve detection?**\n19:55 \u2014 20:05 A short break\n20:05 \u2014 20:30 Dmitry Vershinin, InDrive:\n**SMS flood prevention**\n20:30 \u2014 21:00 Andrey Leonov, Semrush:\n**10255 Shades of k8s**\n21:00 \u2014 22:00 \u2014 PvP Battles!\n22:00 \u2014 23:00 \u2014 Eat, drink, networking!\n\nWe'll have catering, a cocktail bar, a DJ, and a shisha zone all set up to make the evening unforgettable. \n\n[Don't forget to join us on Telegram (we will send updates there quickly).](https://t.me/+W1hEPzn4BOcwMTNi)"
+        "description": "[Location](https://www.google.com/maps/place/BrainRocket/@34.6979542,33.0460735,20z/data=!4m6!3m5!1s0x14e733f291b01fad:0x5ff57bb6ed3f9838!8m2!3d34.6979152!4d33.0461381!16s%2Fg%2F11q_08mvzb?entry=ttu) is the restaurant at the Brain Rocket office.\n\n**Calling all tech and security enthusiasts!**\n\nWe are thrilled to announce the second meetup of the [OWASP Chapter in Limassol](https://owasp.org/www-chapter-limassol/)! We cordially invite you to join us for an evening of engaging discussions, networking, and knowledge sharing among cybersecurity enthusiasts, professionals, and enthusiasts from various backgrounds.\n\n**Schedule:**\n18:30 \u2014 19:00 \u2014 Gathering & Intro\n19:00 \u2014 19:30 Maksim Gall, Exness:\n**How are Apples cracked?**\n19:30 \u2014 19:55 Vlad Bychenkov, Semrush:\n**Malware in the life of SOC analyst: how to improve detection?**\n19:55 \u2014 20:05 A short break\n20:05 \u2014 20:30 Dmitry Vershinin, InDrive:\n**SMS flood prevention**\n20:30 \u2014 21:00 Andrey Leonov, Semrush:\n**10255 Shades of k8s**\n21:00 \u2014 22:00 \u2014 PvP Battles!\n22:00 \u2014 23:00 \u2014 Eat, drink, networking!\n\nWe'll have catering, a cocktail bar, a DJ, and a shisha zone all set up to make the evening unforgettable. \n\n[Don't forget to join us on Telegram (we will send updates there quickly).](https://t.me/+W1hEPzn4BOcwMTNi)"
     },
     {
         "group": "London",
@@ -150,14 +110,14 @@
         "description": "**TOPIC**: Anatomy of a Breach: Dissecting Cloud Security\n\nJoin us for great networking, dinner and drinks, and see a presentation by John Heenan, Cloud Security Solutions Architect, Palo Alto Networks.\n\n**ABSTRACT**: Cloud security presents unique challenges. As enterprises continue to move to the cloud, security practitioners face new threats and paradigms. In this session, we\u2019ll forensically reconstruct major cloud-centric breaches and step through them, building an understanding of what happened, how it happened, and developing key takeaways to help secure our own infrastructure, especially in AWS, Azure, and GCP.\n\n**Thanks to our Sponsor**: *[Prisma Cloud](http://clicks.meetup.com/ls/click?upn=XbaZ37larFA-2FuV5MohrYpTvD1J2bsxCjJbCKpoUGcPX3ewIL6pwqLwS8EmLCqWDu56u15chieLBwkLYUA-2BE3hQ-3D-3DM8gd_WM5sMlpZkKyL6J3f7XI96QGBrITe-2BRJXXCpWUxw24IDDJ89Oqk7zfAbTXIJvn2-2FXExV79iHLnHjn7YCOgznKPut0-2BHcpkVsng4o0CxUdl9nQsnzg-2Bloz0CMWkwupp2HtjKPiDSvQZwdrTjUDs15rvHvPz1z7RVyL9onv1xb5iitljbKVZq2I2awg-2BiKK-2FO4xm-2F7b-2BkA-2BQJJN7g9Um9Q7lgcHxH4jIrpN2r0Jf8HFJ6z-2Bii1KFxC1p3R7-2FnuS7iUxRQ40AE6YZNM5GF1LSuvn7nG8AAHA1oQ3rHNeY-2BIglNtL-2FuHNnA6edfQg33XpsvDs0KVXCvQbFcIwMPKGJhP-2FQjWgzviLb9Sv9L7z8tuMSg141AiTKEIzFxjbFPFonSyu8T-2F0i655p9hGcgw2Nefyt60A3pLHfFSY157LAcY-2F0Ro0LF8dlzXqA3oqIUDHH5JcSXVFZlNK8ap69n5rU-2FnfzOzJ7jr47ZbylzeolniAERlS8PiQaTYAgCaZp4-2Fqt7KV9XadFCkcGd3A86D576KfSsVJ6WkzxblmlesVuPBv6nIB2avLDPLnMiWgBx9gdvvti-2BQ-2Beowt1Vs-2FL3e5C8NqOVOFn12N7HPVmtfoFrZoArgFEhdE8pC-2BOAupVJyUbm9YWZzlFuY-2Fgyrxt6jpL10e-2BtWPNaXFwfsa5HxfUtDuwZUo5Hp-2BiKjCAyITVwkEQOa1)*\n*The Most Complete Cloud-Native Application Protection Platform (CNAPP). Prisma Cloud secures applications from code to cloud, enabling security and DevOps teams to effectively collaborate to accelerate secure cloud-native application development and deployment.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
-        "group": "Madison",
-        "repo": "www-chapter-madison",
-        "name": "July Meeting",
-        "date": "2023-07-25",
-        "time": "5:30-05:00",
-        "link": "https://www.meetup.com/owasp-madison/events/294646940",
-        "timezone": "America/Chicago",
-        "description": "https://guidedconversations.org/\n\nTopics\n\n1. Soft / hard gates in pipelines\n2. jira ticket creation\n3. Automated Dependency Updates\n4. Automated SAST fixes\u2026\n5. Enterprise scaling (scan by default ideas)"
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Reducing Alert Fatigue with Container Scans",
+        "date": "2023-08-24",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/owasp-oc/events/295035051",
+        "timezone": "America/Los_Angeles",
+        "description": "**NOTE: IN-PERSON EVENT**\n\n**Speaker:** Kiran Kamity, Founder & CEO, Deepfactor\n\n**Topic:** Reducing Alert Fatigue with Container Scans: Correlate, Prioritize and Filter Based on Usage\n\n**Abstract:**\nScenario: Your application is composed of 12 docker containers. Together they have 400 packages. When you run a container scan with an SCA (Software Composition Analysis) tool, you notice that 120 of them have vulnerabilities. Your security team is asking you to fix all the critical and high vulnerabilities, but your dev/DevOps team doesn\u2019t have the cycles. What do you do?\n\nToday, developers and DevOps engineers are being asked to address vulnerabilities and supply chain risks in container images. However, the volume of noisy security alerts often leads to developers ignoring them entirely or wasting valuable sprint time researching \u201cfalse positives.\u201d This session will focus on how security and engineering teams can correlate vulnerabilities with runtime information, prioritize alerts based on usage, and filter out false positives that don\u2019t represent a true exposure of a vulnerability. Understanding runtime information can provide intelligence such as applicability of the CVE to the running environment, reachability, and usage. This session will focus on usage. Prioritizing security updates to only used packages in your container image is a highly effective approach to reducing alert fatigue with your container scans. In addition, your DevOps team can even consider removing some of the unused packages and shrink your container images.\n\nAs an example, the session will include a demonstration of a typical SCA static container scan of a sample open-source test application and then show how an engineering team can filter alerts to reduce the number of vulnerable and used alerts that actually need to be fixed by developers by up to 90%.\n\n**Bio:**\nKiran Kamity is the Founder & CEO of Deepfactor. He is a serial Silicon Valley entrepreneur with a passion for building products that meet a need and make a business impact\u2014with Deepfactor that\u2019s empowering engineering teams to create secure cloud native applications. Prior to Deepfactor, Kiran was the Head of Product at Cisco Cloud BU, Founder/CEO at ContainerX (acquired by Cisco), and the Founder/VP at RingCube (acquired by Citrix). Kiran is a TEDx speaker and loves nature, travel, and food.\n\n**Schedule:**\n6:00pm - 6:40pm Networking, Food & Drink\n6:40pm - 7:40pm Presentation\n7:40pm - 8:00pm Networking\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
     },
     {
         "group": "Orange County",
@@ -178,16 +138,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/294627572",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Pittsburgh",
-        "repo": "www-chapter-pittsburgh",
-        "name": "2023 - Q3 OWASP Meetup: IaC Security w/ Jon Zeolla",
-        "date": "2023-07-25",
-        "time": "9:00-04:00",
-        "link": "https://www.meetup.com/owasp-pittsburgh-chapter/events/294769152",
-        "timezone": "America/New_York",
-        "description": "**IaC Security**\n\nJon Zeolla\n\nLet's talk through the progression of Infrastructure as Code (IaC) in a company that has embraced cloud native practices, and how you can quickly get to the point of having many modular repos, all independently versioned and maintained, while being leveraged by other IaC. Then I will discuss how you can add security into these in a way that respects your development/SRE teams. Allowing teams to manage and configure their tools independently and in a distributed manner, while still having centralized visibility (through logs and metrics extracted from their pipelines, with associated dashboards and SLA/O/Is) and the ability to quickly deploy new IaC-specific security policies. We will also discuss a reasonable onramp \u2013 ensuring that teams don't need to triage piles of findings only to discover that most of them are false positives or low-priority noise. This will include a discussion of a real world roll-out, and a method that was developed to add passive security scans into existing IaC pipelines with no changes other than running the existing commands (terraform, ansible, etc.) inside of a new docker container."
     },
     {
         "group": "Porto Alegre",
@@ -220,16 +170,6 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
-        "group": "Suffolk",
-        "repo": "www-chapter-suffolk",
-        "name": "OWASP Suffolk Fight Club - July 2023",
-        "date": "2023-07-25",
-        "time": "9:30+01:00",
-        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/294745775",
-        "timezone": "Europe/London",
-        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
-    },
-    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Unpacking the Present State of Application Security",
@@ -247,7 +187,7 @@
         "time": "8:00-03:00",
         "link": "https://www.meetup.com/owasp-uruguay-chapter/events/294654645",
         "timezone": "America/Montevideo",
-        "description": "Esta ser\u00e1 la reuni\u00f3n de julio de una serie de reuniones **presenciales**, enfocadas en lo **pr\u00e1ctico** y en inspirar a nuevas generaciones y a personas que no est\u00e1n involucradas a\u00fan con la comunidad. Se llevar\u00e1 a cabo en [Technisys Uruguay](https://goo.gl/maps/coqZwLRqsrevrs976) (Dionisio Oribe 3071).\n\nEs importante destacar que **no se requieren** conocimientos previos en seguridad de aplicaciones para participar. Si bien tener conocimientos de web/frontend/backend ayuda, la idea es aprender en la marcha, as\u00ed que sin timidez :)\n\nLa din\u00e1mica de *esta jornada* ser\u00e1 la siguiente:\n\n* Pueden armarse grupos para compartir ideas y ayudarse en los ejercicios.\n* Los grupos tendr\u00e1n desaf\u00edos/objetivos comunes basados en el proyecto [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/).\n* Cada grupo tendr\u00e1 **al menos un** **referente/facilitador** disponible, colaborador de la comunidad con experiencia para apoyar en cualquier duda y generar conocimiento, mano a mano.\n\nEl requerimiento para poder participar es **traer tu notebook**, cada asistente tendr\u00e1 su ambiente de trabajo. Se proporciona a los asistentes una imagen virtual de Kali Linux preconfigurada con las herramientas necesarias para realizar el taller. Se necesita Virtualbox o VMWare para ejecutarla. Si tus recursos no son suficientes tendr\u00e1s que seguir tutoriales para instalar un proxy de ataque (Burp Suite Community u OWASP ZAP) y Juice Shop (servidor local o con Docker).\n\nLa imagen se puede descargar de ac\u00e1: [https://drive.google.com/file/d/1qjXU4Ea8KB0MTc3WRQ7eVDNMOXaxawB9/](https://drive.google.com/file/d/1qjXU4Ea8KB0MTc3WRQ7eVDNMOXaxawB9/)\n\nPara aprovechar mejor el tiempo y el ancho de banda se recomienda asistir con todo pronto. Para verificar la estabilidad y acceso al ambiente local se compartir\u00e1 una presentaci\u00f3n (que se mostrar\u00e1 el d\u00eda del evento) con algunas instrucciones.\n\nA registrarse, **los cupos son limitados** (se pedir\u00e1 confirmaci\u00f3n para dar lugar a quienes est\u00e9n en lista de espera). \u00a1Los esperamos!\n\n***NOTA***: *Para quienes hayan asistido a jornadas anteriores, pueden seguir con desaf\u00edos m\u00e1s complejos.*"
+        "description": "Esta ser\u00e1 la reuni\u00f3n de julio de una serie de reuniones **presenciales**, enfocadas en lo **pr\u00e1ctico** y en inspirar a nuevas generaciones y a personas que no est\u00e1n involucradas a\u00fan con la comunidad. Se llevar\u00e1 a cabo en [Technisys Uruguay](https://goo.gl/maps/coqZwLRqsrevrs976) (Dionisio Oribe 3071).\n\nEs importante destacar que **no se requieren** conocimientos previos en seguridad de aplicaciones para participar. Si bien tener conocimientos de web/frontend/backend ayuda, la idea es aprender en la marcha, as\u00ed que sin timidez :)\n\nLa din\u00e1mica de *esta jornada* ser\u00e1 la siguiente:\n\n* Pueden armarse grupos para compartir ideas y ayudarse en los ejercicios.\n* Los grupos tendr\u00e1n desaf\u00edos/objetivos comunes basados en el proyecto [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/).\n* Cada grupo tendr\u00e1 **al menos un** **referente/facilitador** disponible, colaborador de la comunidad con experiencia para apoyar en cualquier duda y generar conocimiento, mano a mano.\n\nEl requerimiento para poder participar es **traer tu notebook**, cada asistente tendr\u00e1 su ambiente de trabajo. Se proporciona a los asistentes una imagen virtual de Kali Linux preconfigurada con las herramientas necesarias para realizar el taller. Se necesita Virtualbox o VMWare para ejecutarla. Si tus recursos no son suficientes tendr\u00e1s que seguir tutoriales para instalar un proxy de ataque (Burp Suite Community u OWASP ZAP) y Juice Shop (servidor local o con Docker).\n\nLa imagen se puede descargar de ac\u00e1: [https://drive.google.com/file/d/1qjXU4Ea8KB0MTc3WRQ7eVDNMOXaxawB9/](https://drive.google.com/file/d/1qjXU4Ea8KB0MTc3WRQ7eVDNMOXaxawB9/)\n\nPara aprovechar mejor el tiempo y el ancho de banda se recomienda asistir con todo pronto. Para verificar la estabilidad y acceso al ambiente local se compartir\u00e1 una presentaci\u00f3n (que se mostrar\u00e1 el d\u00eda del evento) con algunas instrucciones.\n\nA registrarse, **los cupos son limitados** (se pedir\u00e1 confirmaci\u00f3n para dar lugar a quienes est\u00e9n en lista de espera). \u00a1Los esperamos!\n\n***NOTAS***:\n\n* *Para quienes hayan asistido a jornadas anteriores, pueden seguir con desaf\u00edos m\u00e1s complejos.*\n* *Se pedir\u00e1 en el ingreso a las oficinas de Technisys nombre completo y documento de identidad para registrar los asistentes, en caso de alguna eventualidad.*"
     },
     {
         "group": "Vancouver",
