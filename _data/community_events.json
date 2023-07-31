@@ -20,6 +20,16 @@
         "description": "In the world of vulnerability research & exploit development, much of the public research and findings are primarily centered around the result of said research and activities. However, a lesser known and even lesser publicly talked about part of research is what happens when a bug is discovered where at that current time an abusable condition is not clearly present. What happens? Is this bug now worthless or not worth inspecting further? Many professional teams have a multitude of bugs to analyze specifically from fuzzing campaigns. This can cause teams to have to prioritize certain types of bugs over others, especially when looking for bugs that can lead to bypassing a specific mitigation. They don\u2019t have time to analyze every single bug in depth majority of the time.\u2028\u2028If you are curious about the world of vulnerability research and some of the methodology, this talk aims to help explain a common technique used among research teams where they hold onto potential mitigation breaking bugs in the hopes that in the future an abusable condition become available. We will walk through a real-world example of a bug within the Windows Kernel AFD driver discovered by VerSprite VS-Labs Research team.\n\nSpeaker Bio:\nRobert Hawes is the active Director of Research at VerSprite VS-Labs Research team. He Enjoys all things in the area of vulnerability research and exploit development. Robert is passionate about discovering zero-day vulnerabilities and developing accompanying exploits for advance capabilities. Robert is currently focused on userland, and kernel driver exploitation centered around the Windows operating system."
     },
     {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - August 2023 (Online)",
+        "date": "2023-08-29",
+        "time": "1:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705760",
+        "timezone": "America/Chicago",
+        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- Coming Soon\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+    },
+    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "OWASP Bangalore Meet 19 August 2023 ",
@@ -40,14 +50,14 @@
         "description": "We are excited to present a workshop on API Security. This workshop Is in collaboration with Pacific hackers community. Food and drinks are sponsored by Akto.io an open source API security tool.\n\n**Hands-on API Security Workshop with OWASP JuiceShop and other vulnerable apps**\nStep into the world of API Security with our immersive two-hour hands-on training event at the OWASP meetup!\nWe\u2019re excited to announce this opportunity for appsec teams to enhance their skills in API Security and writing business logic tests. We will have a hands-on workshop focused on creating and running business logic tests using Akto. You will learn to write ten different business logic tests, which will then be executed against Juice Shop and other vulnerable apps. The goal of the workshop is to give a hands-on experience in writing and automating custom API security tests related to authentication, authorization and access control issues. The workshop aims to be interactive, engaging, and an enriching learning experience. You will learn the fundamentals of writing, automating, and executing business logic tests. By the end of this training, participants will be able to automate 10 business logic tests, a key skill in the realm of API security.\n\nSpeaker Bios:\n**Ankush Jain:** Ankush is the co-founder & CTO at Akto ([https://www.akto.io](https://www.akto.io/)) - The open source API Security product. Prior to starting Akto he worked at CleverTap as VP of Engineering. He has also worked for 5 years as a Quant at Morgan Stanley. He holds Bachelors in Technology from IIT Bombay. He is also a speaker at Black Hat and Defcon.\n**Ankita Gupta:** She is the co-founder and CEO of [Akto.io](http://akto.io/) \\- The open source API Security product\\. Prior to Akto she has experience working in VMware\\, LinkedIn and JP Morgan\\. She holds MBA from Dartmouth College and Bachelors in Technology from IIT Roorkee\\. She is also a speaker at Black Hat and Defcon\\.\n\nWhat to Expect?\n\n* By the end of the workshop participants will be able to write 10 business logic tests focused on authentication, authorization and access control issues.\n* Networking opportunity with fellow security professional.\n* Ask absolutely any questions about securing APIs\n\nRequirements:\n\n* Attendees are required to bring their laptops with internet connectivity\n\nNote\nParticipants are encouraged to bring their own API projects or sample APIs they are trying to test to receive personalized guidance and recommendations during the workshop. We will help everyone write their own custom tests during the workshop itself so you can test your own APIs. If not, we will be using Juiceshop or other vulnerable apps for demo purposes."
     },
     {
-        "group": "Columbus",
-        "repo": "www-chapter-columbus",
-        "name": "From SBOMs to F-Bombs: Vulnerability Analysis, and False Positives & Negatives",
-        "date": "2023-07-30",
-        "time": "9:00-04:00",
-        "link": "https://www.meetup.com/columbus-owasp/events/295118793",
-        "timezone": "America/New_York",
-        "description": "Coming Soon, but the original title is:\n\n\"From SBOMs to F-Bombs: Vulnerability Analysis, SCA Tools, and False Positives & Negatives\"\n\n... which is too long for the field. And that tells you most of what you need to know about Kevin."
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "Dependable dependency systems and supply chain risk",
+        "date": "2023-08-29",
+        "time": "8:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/295108131",
+        "timezone": "Australia/Brisbane",
+        "description": "In this talk, Haoxi will be covering the threat landscape of dependency systems (package managers) and why central package registries are not a good model for dependency management. He will then cover open-source tools and data feeds you can use to detect malicious packages in your source code repositories and CICD pipeline, as well as his own open-source experiments in detecting malicious packages in NPM and PyPi.\n\nEvent location coming soon."
     },
     {
         "group": "Jacksonville",
