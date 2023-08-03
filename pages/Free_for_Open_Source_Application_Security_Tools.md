@@ -83,12 +83,9 @@ a page of known [DAST Tools](Vulnerability_Scanning_Tools), and the
 **License** column on this page indicates which of those tools have free
 capabilities. Our primary recommendation is to use one of these:
 
-  - [OWASP ZAP](/www-project-zap) - A full
+  - [ZAP]([/www-project-zap](https://www.zaproxy.org/)) - A full
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web app pen testing.
-      - The ZAP team has also been working hard to make it easier to
-        integrate ZAP into your CI/CD pipeline. (e.g., here's a [blog post on how to integrate ZAP with
-        Jenkins](https://www.we45.com/blog/how-to-integrate-zap-into-jenkins-ci-pipeline-we45-blog)).
   - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
     tool built on OWASP ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
     development and in CI/CD. The StackHawk platform allows you to manage findings over time in 
