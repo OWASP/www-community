@@ -70,6 +70,16 @@
         "description": "In this talk, Haoxi will be covering the threat landscape of dependency systems (package managers) and why central package registries are not a good model for dependency management. He will then cover open-source tools and data feeds you can use to detect malicious packages in your source code repositories and CICD pipeline, as well as his own open-source experiments in detecting malicious packages in NPM and PyPi.\n\nEvent location coming soon."
     },
     {
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP CoS August 2023",
+        "date": "2023-08-24",
+        "time": "8:00-06:00",
+        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/295193476",
+        "timezone": "America/Denver",
+        "description": "Speaker: TBD\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
+    },
+    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Denver OWASP August Meetup - Join Us!",
@@ -190,16 +200,6 @@
         "description": "Em agosto teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 20/07 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n*Link para a transmiss\u00e3o:* *[https://www.youtube.com/watch?v=DaSarcPUym4](https://www.youtube.com/watch?v=DaSarcPUym4)*[ ](https://www.youtube.com/watch?v=DaSarcPUym4)\n\n**Confira a agenda:**\n\n**19h30-20h30**\n***\"Como fazer um secure code review na sua empresa\"***\n*O Secure Code Review \u00e9 uma pr\u00e1tica essencial para evitar que as vulnerabilidades cheguem em produ\u00e7\u00e3o. A revis\u00e3o de c\u00f3digo antes do seu commit traz muitos beneficios. Na apresenta\u00e7\u00e3o ser\u00e1 mostrado algumas dicas de como realizar de forma eficiente um secure code review e como come\u00e7ar a fazer isso na sua empresa.*\n***Francisco Silva*** *(AppSec Engineer na Amazon)*\n*AppSec Engineer na Amazon, trabalha com seguran\u00e7a de aplica\u00e7\u00f5es e seguran\u00e7a de cloud. Com foco em ajudar desenvolvedores a descomplicar a seguran\u00e7a no c\u00f3digo.*"
     },
     {
-        "group": "Sao Paulo",
-        "repo": "www-chapter-sao-paulo",
-        "name": "OWASP Sao Paulo Primeiro Meetup Virtual de 2023",
-        "date": "2023-08-02",
-        "time": "9:00-03:00",
-        "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/295015583",
-        "timezone": "America/Sao_Paulo",
-        "description": "Nosso pr\u00f3ximo encontro virtual ser\u00e1 no dia 02 de Agosto. Faremos um painel com o tema: **\"A Import\u00e2ncia da OWASP para os Times de Ataque e Defesa\"**. Um encontro obrigat\u00f3rio para profissionais de seguran\u00e7a, desenvolvedores, e qualquer pessoa interessada em aprender mais sobre a seguran\u00e7a na web.\n\nNossos convidados para esse bate papo s\u00e3o: ***Paulo Baldin, do Stark Bank***, ***Ana Tessaro, do Jusbrasil*** e **Jonathan Coradi, do Banco Safra** todos com vasta experi\u00eancia em Seguran\u00e7a da Informa\u00e7\u00e3o.\n\nVeja mais sobre os nossos convidados no nosso post do linkedin [AQUI!](https://www.linkedin.com/pulse/owasp-s%25C3%25A3o-paulo-primeiro-meetup-virtual-de-2023/)\n\nSer\u00e1 um momento de grande aprendizado e troca de experi\u00eancias. Prepare-se para ampliar seus conhecimentos e habilidades em seguran\u00e7a da web! A troca de ideias e experi\u00eancias \u00e9 um dos alicerces da nossa comunidade, por isso, reserve um espa\u00e7o na sua agenda para esse encontro!\n\n**SOBRE A OWASP S\u00c3O PAULO**\n\nA OWASP S\u00e3o Paulo \u00e9 um dos 9 cap\u00edtulos brasileiros entre os mais de 270 ativos em todo o mundo. O objetivo \u00e9 disseminar a miss\u00e3o da funda\u00e7\u00e3o, tornando a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel para que as pessoas e as organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos que correm.\n\nS\u00e3o realizados encontros peri\u00f3dicos para compartilhamento de conhecimentos, discuss\u00e3o de temas e aprendizado sobre seguran\u00e7a de software.\n\n**Participe!**"
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -208,6 +208,26 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/294771597",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Tampa",
+        "repo": "www-chapter-tampa",
+        "name": "OWASP Tampa Chapter Q3 Lunch and Speaker Event 2023",
+        "date": "2023-08-25",
+        "time": "1:30-04:00",
+        "link": "https://www.meetup.com/owasp-tampa/events/295193215",
+        "timezone": "America/New_York",
+        "description": "Exploring the OWASP API Top 10 Attack Categories by Andrew Jones\n\nThe OWASP API Top 10 attack categories have recently been updated for 2023. This talk will focus on discussing some of those changes, examining the API threat landscape in general, and demonstrate some API attacks against a vulnerable web application.\n\nRegister today:\n[https://www.eventbrite.com/e/owasp-tampa-chapter-q3-lunch-and-speaker-event-2023-tickets-689321297557](https://www.eventbrite.com/e/owasp-tampa-chapter-q3-lunch-and-speaker-event-2023-tickets-689321297557)\n\nVenue Sponsor: GuidePoint Security\nFood Sponsor: Salt Security"
+    },
+    {
+        "group": "Toronto",
+        "repo": "www-chapter-toronto",
+        "name": "OWASP x Okta |  IoTSecurity101 - Art of exploiting real world devices",
+        "date": "2023-08-17",
+        "time": "8:30-04:00",
+        "link": "https://www.meetup.com/owasp-toronto/events/295200070",
+        "timezone": "America/Toronto",
+        "description": "\\*\\*\\* THIS TALK IS BOTH ONLINE (https://www.youtube.com/watch?v=8LN35082u-4) and OFFLINE @ the Okta offices \\*\\*\\*\n\n**TALK**\n\n**IoTSecurity101 - Art of exploiting real world devices**\n\n**Summary:**\n\nDelve deep into the realm of Internet of Things (IoT) security in this session, where we unmask the common attack vectors threatening our connected devices. A key highlight will be a walkthrough of ARM assembly exploit development, providing the attendees with practical resources to fortify their knowledge in this area. The grand finale will be an interactive demonstration where we will exploit three existing vulnerabilities in the IoTGoat project. This talk is not only about uncovering vulnerabilities but also about empowering you with the mindset to build a more secure IoT ecosystem.\n\n**Presenter:**\n\nChirag (@cjhackerz) is currently an Application Security Analyst at MindGeek Canada, where he brings a rich blend of AppSec experience to the table. Before relocating to Canada, Chirag was deeply involved in conducting critical infrastructure and end consumer product penetration testing engagements. Who also delivered numerous talks at OWASP chapters across India. Beyond the podium, Chirag is passionate about knowledge sharing. This drive is reflected in his blog, [https://cjhackerz.net](https://cjhackerz.net/), where he has provided insights drawn from his diverse and extensive experience in the field. His seasoned perspective and commitment to fostering an informed cybersecurity community make him a valued figure in the realm of application security."
     },
     {
         "group": "Triangle Nc",
