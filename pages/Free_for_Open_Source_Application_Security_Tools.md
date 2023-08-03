@@ -87,7 +87,7 @@ capabilities. Our primary recommendation is to use one of these:
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web app pen testing.
   - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
-    tool built on OWASP ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
+    tool built on ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
     development and in CI/CD. The StackHawk platform allows you to manage findings over time in 
     different environments. StackHawk is free for Open Source projects and free to use on a single application.
   - [Arachni](http://www.arachni-scanner.com/) - Arachni is a commercially supported scanner, but its free for most use cases, including scanning open source projects.
@@ -104,7 +104,7 @@ capabilities. Our primary recommendation is to use one of these:
         You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam).  
         
     Purpleteam is pluggable, if it doesn't have a tester that you need you can add your own.
-    One of the testers (the web application tester) uses OWASP ZAP under the hood.
+    One of the testers (the web application tester) uses ZAP under the hood.
   - [CI Fuzz CLI](https://www.code-intelligence.com/cli-tool) - An open source command line tool for creating fuzz tests. The tool is tightly integrated with various build systems, enabling developers to create fuzz tests as easily as unit tests.
   - [Code Intelligence App](https://www.code-intelligence.com/guided-product-tour) - This application security testing platform enables CI/CD-integrated fuzz testing at each pull request. It helps developers to measure and maximize code coverage and to prioritize all findings based on severity. All of this information is then aggregated in a usable dashboard. The testing platform integrates directly into popular ticketing systems and issue trackers.
 
