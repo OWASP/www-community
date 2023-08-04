@@ -218,7 +218,7 @@ Commercial tools of this type that are free for open source:
      - Free tier for Open-Source projects
   - [SOOS](https://soos.io) - [Free Community Edition](https://app.soos.io/register?registrationType=community) - Our no-hassle enrollment process for open source projects brings practical supply chain security to the masses.
      - Use our SCA tool with any public GitHub repository
-     - C++, Node, Ruby, Python, Java, .Net and more
+     - C++, Node, Ruby, Python, Java, .Net, and more
      - Integrates with GitHub
      - Connect to Jira, Azure DevOps, or GitHub Issues
      - Robust license policies
