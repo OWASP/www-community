@@ -216,6 +216,14 @@ Commercial tools of this type that are free for open source:
         - Ensure the security and integrity of all cloud artifacts
         - Undertake security gap analysis and identify any blind spots.
      - Free tier for Open-Source projects
+  - [SOOS](https://soos.io) - [Free Community Edition](https://app.soos.io/register?registrationType=community) - Our no-hassle enrollment process for open source projects brings practical supply chain security to everyone.
+     - Use our SCA tool with any public GitHub repository
+     - C++, Node, Ruby, Python, Java, .Net and more
+     - Integrates with GitHub
+     - Connect to Jira, Azure DevOps, or GitHub Issues
+     - Robust license policies
+     - Rich vulnerability dashboard
+     - SBOM generation (SPDX/CycloneDX)
   - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
     Scala, Golang, .NET, PHP - Latest list here: 
     <https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support>
