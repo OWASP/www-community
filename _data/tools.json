@@ -1,5 +1,14 @@
 [
    {
+      "title": "OSTE Meta Scanner",
+      "url": "https://github.com/OSTEsayed/OSTE-Meta-Scan",
+      "owner": "OSTEsayed",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "OSTE meta scanner is a comprehensive web vulnerability scanner that combines multiple DAST scanners, including Nikto Scanner, ZAP, Nuclei, SkipFish, and Wapiti.",
+      "type": "DAST"
+   },
+   {
       "title": "Escape",
       "url": "https://www.escape.tech/",
       "owner": "Escape",
