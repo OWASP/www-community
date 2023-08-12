@@ -212,11 +212,11 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "Rating API Business Risks based on OWASP Top-10 API Security Vulnerabilities",
-        "date": "2023-08-17",
+        "name": "ISACAxOWASP: Demystifying Application Security Frameworks",
+        "date": "2023-08-24",
         "time": "8:00-07:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248511",
         "timezone": "America/Vancouver",
-        "description": "Web APIs are a common glue that connect people and processes with digital systems all across the globe. Not surprisingly, Web APIs contribute more than 80% of the Internet traffic today. Given the importance of APIs, OWASP has recommended top-10 API specific security vulnerabilities (such as Broken Authentication/Authorization and Excessive Data Exposure problems) that organizations must address to strengthen their security posture. Albeit useful, these API specific vulnerabilities do not necessarily translate to the same business risks. For instance, two APIs from an organization with Broken Object Level Authorization (BOLA) may pose very different business risks to that organization.\n\nIn this session, we'll talk about API Risk Rating System (ARRS) that maps API specific vulnerabilities to business risks such as Legal/Contractual, Operational, Financial, Reputational and Regulatory. Similar in-principle yet different than Common Vulnerability Scoring System (CVSS), the main objective of ARRS is to prioritize API specific vulnerabilities based on their business risks. We'll describe the methodology behind the system developed using thousands of APIs that are being tracked at a global scale. We\u2019ll also share some hands-on practical scenarios.\n\nThe work presented was done by Samantha Sanchez, Jun Hee Lee, Alberto Ciconi and Baljeet Malhotra. Samantha, Jun Hee and Alberto are MSc Cybersecurity students at NYIT. Baljeet is an Adjunct Professor at NYIT, UBC, UVic, UNBC, and CEO of TeejLab Inc.\n\n**Location TBD**"
+        "description": "This month OWASP Vancouver is collaborating with ISACA Vancouver to bring you a unique event that explores the topics at the intersection of governance and compliance and application security.\n\n**Separate registration is required, register here:** https://www.eventbrite.ca/e/isacaxowasp-demystifying-application-security-frameworks-tickets-688152010187"
     }
 ]
