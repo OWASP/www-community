@@ -210,13 +210,13 @@ Secure Configuration :
 If the service is up an running with the Insecure Configuration, any one
 can beat the getimagesize function by writing comments in GIF file.
 
-For that an end user need to install an utility in Kali/Ubuntu OS named
+For that an end user needs to install an utility in Kali/Ubuntu OS named
 'gifsicle'
 
 ` For Kali Linux : apt-get install gifsicle`
 ` For Ubuntu : sudo apt-get install gifsicle`
 
-Once installed, the below commands will help writing the commands in gif
+Once installed, the below commands will help writing the commands in a gif
 file.
 
 ` gifsicle < mygif.gif -- comment "`
@@ -225,8 +225,7 @@ file.
 
 " \> output.php.gif
 
-The above command will create an file with the name "output.php.gif"
-which simply need to be upload durning the check of file upload
+The above command will create a file with the name “output.php.gif” which simply needs to be uploaded during the check of file upload
 vulnerability.
 
 ### Allow Listing File Extensions
