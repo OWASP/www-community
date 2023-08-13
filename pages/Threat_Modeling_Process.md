@@ -33,7 +33,7 @@ permalink: /Threat_Modeling_Process
   - [Subjective Model: DREAD](#subjective-model-dread)
   - [Qualitative Risk Model](#qualitative-risk-model)
 - [Determine Countermeasures and Mitigation](#determine-countermeasures-and-mitigation)
-  - [ASF Threat & Countermeasures Examples](https://github.com/OWASP/www-community/blob/master/pages/Threat_Modeling_Process.md#asf-threat--countermeasures-examples)
+  - [ASF Threat & Countermeasures Examples](#asf-threat--countermeasures-examples)
   - [STRIDE Threat & Mitigation Techniques](#stride-threat--mitigation-techniques)
 - [Complementing Code Review](#complementing-code-review)
 
