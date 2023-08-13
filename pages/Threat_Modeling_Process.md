@@ -33,7 +33,7 @@ permalink: /Threat_Modeling_Process
   - [Subjective Model: DREAD](#subjective-model-dread)
   - [Qualitative Risk Model](#qualitative-risk-model)
 - [Determine Countermeasures and Mitigation](#determine-countermeasures-and-mitigation)
-  - [ASF Threat & Countermeasures Examples](#asf-threat--countermeasures-examples)
+  - [[ASF](https://pathlock.com/learn/what-are-application-security-frameworks/) Threat & Countermeasures Examples](#[ASF](https://pathlock.com/learn/what-are-application-security-frameworks/)-threat--countermeasures-examples)
   - [STRIDE Threat & Mitigation Techniques](#stride-threat--mitigation-techniques)
 - [Complementing Code Review](#complementing-code-review)
 
@@ -58,11 +58,11 @@ This information is documented in a resulting Threat Model document. It is also 
 
 ### Step 2: Determine and Rank Threats
 
-Critical to the identification of threats is using a threat categorization methodology. A threat categorization such as [STRIDE][wiki-stride] can be used, or the Application Security Frame (ASF) that defines threat categories such as Auditing & Logging, Authentication, Authorization, Configuration Management, Data Protection in Storage and Transit, Data Validation, and Exception Management.
+Critical to the identification of threats is using a threat categorization methodology. A threat categorization such as [STRIDE][wiki-stride] can be used, or the Application Security Frame ([[ASF](https://pathlock.com/learn/what-are-application-security-frameworks/)](https://pathlock.com/learn/what-are-application-security-frameworks/)) that defines threat categories such as Auditing & Logging, Authentication, Authorization, Configuration Management, Data Protection in Storage and Transit, Data Validation, and Exception Management.
 
-The goal of the threat categorization is to help identify threats both from the attacker ([STRIDE][wiki-stride]) and the defensive perspective (ASF). [DFDs][wiki-dfd] produced in step 1 help to identify the potential threat targets from the attacker's perspective, such as data sources, processes, data flows, and interactions with users.
+The goal of the threat categorization is to help identify threats both from the attacker ([STRIDE][wiki-stride]) and the defensive perspective ([[ASF](https://pathlock.com/learn/what-are-application-security-frameworks/)](https://pathlock.com/learn/what-are-application-security-frameworks/)). [DFDs][wiki-dfd] produced in step 1 help to identify the potential threat targets from the attacker's perspective, such as data sources, processes, data flows, and interactions with users.
 
-These threats can be classified further as the roots for threat trees; there is one tree for each threat goal. From the defensive perspective, ASF categorization helps to identify the threats as weaknesses of security controls for such threats. Common threat lists with examples can help in the identification of such threats. Use and abuse cases can illustrate how existing protective measures could be bypassed, or where a lack of such protection exists. The determination of the security risk for each threat can be made using a value-based risk model such as [DREAD][wiki-dread], or a less subjective qualitative risk model based upon general risk factors (e.g. likelihood and impact).
+These threats can be classified further as the roots for threat trees; there is one tree for each threat goal. From the defensive perspective, [[ASF](https://pathlock.com/learn/what-are-application-security-frameworks/)](https://pathlock.com/learn/what-are-application-security-frameworks/) categorization helps to identify the threats as weaknesses of security controls for such threats. Common threat lists with examples can help in the identification of such threats. Use and abuse cases can illustrate how existing protective measures could be bypassed, or where a lack of such protection exists. The determination of the security risk for each threat can be made using a value-based risk model such as [DREAD][wiki-dread], or a less subjective qualitative risk model based upon general risk factors (e.g. likelihood and impact).
 
 ### Step 3: Determine Countermeasures and Mitigation
 
@@ -315,7 +315,7 @@ A use and abuse case graph for authentication is shown below:
 
 *Figure 4: Use and Misuse Cases*
 
-The outcome of threat analysis is a determination of the types of threats posed to each component of the decomposed system. This can be documented using a threat categorization such as [STRIDE][wiki-stride] or ASF, the use of threat trees to determine how the threat can be exposed by a vulnerability, and use and misuse cases to further validate the lack of any countermeasures for mitigation.
+The outcome of threat analysis is a determination of the types of threats posed to each component of the decomposed system. This can be documented using a threat categorization such as [STRIDE][wiki-stride] or [ASF](https://pathlock.com/learn/what-are-application-security-frameworks/), the use of threat trees to determine how the threat can be exposed by a vulnerability, and use and misuse cases to further validate the lack of any countermeasures for mitigation.
 
 ### Ranking of Threats
 
@@ -383,11 +383,11 @@ These examples help in the calculation of the overall risk values by assigning q
 
 ## Determine Countermeasures and Mitigation
 
-The purpose of countermeasure identification is to determine if there is some kind of protective measure (e.g. security control, policies) that can prevent a threat from being realized. Vulnerabilities are then those threats that have no countermeasures. When threats have been categorized either with [STRIDE][wiki-stride] or ASF, it is possible to find appropriate countermeasures within the given category.
+The purpose of countermeasure identification is to determine if there is some kind of protective measure (e.g. security control, policies) that can prevent a threat from being realized. Vulnerabilities are then those threats that have no countermeasures. When threats have been categorized either with [STRIDE][wiki-stride] or [ASF](https://pathlock.com/learn/what-are-application-security-frameworks/), it is possible to find appropriate countermeasures within the given category.
 
 Provided below is a brief and limited checklist which is by no means an exhaustive list for identifying countermeasures for specific threats.
 
-### ASF Threat & Countermeasures Examples
+### [ASF](https://pathlock.com/learn/what-are-application-security-frameworks/) Threat & Countermeasures Examples
 
 | Threat Type | Countermeasure |
 |---|---|
