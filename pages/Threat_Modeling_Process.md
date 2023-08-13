@@ -33,7 +33,7 @@ permalink: /Threat_Modeling_Process
   - [Subjective Model: DREAD](#subjective-model-dread)
   - [Qualitative Risk Model](#qualitative-risk-model)
 - [Determine Countermeasures and Mitigation](#determine-countermeasures-and-mitigation)
-  - [[ASF](https://pathlock.com/learn/what-are-application-security-frameworks/) Threat & Countermeasures Examples](#[ASF](https://pathlock.com/learn/what-are-application-security-frameworks/)-threat--countermeasures-examples)
+  - [ASF Threat & Countermeasures Examples](#[ASF](https://pathlock.com/learn/what-are-application-security-frameworks/)-threat--countermeasures-examples)
   - [STRIDE Threat & Mitigation Techniques](#stride-threat--mitigation-techniques)
 - [Complementing Code Review](#complementing-code-review)
 
