@@ -363,7 +363,7 @@ And some special recommendations for the developers and webmasters:
     characters and only 1 dot as an input for the file name and the
     extension; in which the file name and also the extension should not
     be empty at all (regular expression:
-    \[a-zA-Z0-9\]{1,200}\\.\[a-zA-Z0-9\]{1,10}).
+    `^\[a-zA-Z0-9\]{1,200}\\.\[a-zA-Z0-9\]{1,10}$`).
   - Limit the filename length. For instance, the maximum length of the
     name of a file plus its extension should be less than 255 characters
     (without any directory) in an NTFS partition.
