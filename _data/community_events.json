@@ -80,6 +80,16 @@
         "description": "Speaker: James Smith and Bryan Angeles - Red Vs Blue: A Kill Chain Journey\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
+        "group": "Cusco",
+        "repo": "www-chapter-cusco",
+        "name": "OWASP CUSCO TOUR 2023",
+        "date": "2023-08-17",
+        "time": "5:00-05:00",
+        "link": "https://www.meetup.com/owasp-cusco-meetup-group/events/295435008",
+        "timezone": "America/Lima",
+        "description": "El cap\u00edtulo de OWASP Cusco siguiendo la tradici\u00f3n de realizar reuniones presenciales y virtuales, en esta ocasi\u00f3n presentaremos a grandes oradores relacionados con la seguridad.\nEn esta ocasi\u00f3n tenemos el agrado de poder contar con el apoyo de la Universidad Andina del Cusco, junto al CIRCLE-UAC.\nEste encuentro presencial se realizara el 17 y 18 de Agosto, en el Paraninfo de la Universidad Andina del Cusco ubicado en Larapa, nos permitir\u00e1 compartir con la comunidad, temas desde an\u00e1lisis web, an\u00e1lisis m\u00f3vil Android e iOS, an\u00e1lisis de malware, ingenier\u00eda reversa, conceptos de criptograf\u00eda, entre otros muchos temas.\nEn esta ocasi\u00f3n tenemos el grato placer de contar con las siguientes ponencias:\n\n1. *Factores b\u00e1sicos esenciales de desarrollo seguro*, presentado por Jim Cardenas Cruz\n2. *De los CTF a la vida real*, presentado por Everth Gallegos\n3. *Bypass root and SSL Pinning* presentado por Rafael Limachi Ortiz\n4. *Ciberataques Ransomware, Vectores de infecci\u00f3n* presentado por C\u00e9sar Farro\n5. *Historia de una intrusi\u00f3n f\u00edsica* presentado por Alfredo Mari\u00f1os Puma\n6. *Centro de Operaciones de Seguridad* presentado por Luis Alberto Sota Orellana\n7. *Plataformas para iniciar en Ciberseguridad* presentado por Roy Quintana\n8. *De cero a system explotando Networker* presentado por Cesar Neira.\n\nLos esperamos....\nHappy Hacking!!!"
+    },
+    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Denver OWASP August Meetup - Join Us!",
@@ -118,6 +128,16 @@
         "link": "https://www.meetup.com/owasp-lima-meetup-group/events/295181195",
         "timezone": "America/Lima",
         "description": "**OWASP Meeting Agosto 2023**\nReuni\u00f3n Mensual de Seguridad de Aplicaciones (VIA ZOOM)\n\n**PRESENTACIONES:**\n\n***El arte del enga\u00f1o: Revelando la Fascinante Danza entre la Seguridad F\u00edsica y la Ingenier\u00eda Social - David Probisnky* (RD) - Red Team Leader en Elevate Consult**\n\n***Mitigar Vulnerabilidades Sin Morir en el Intento: Priorizando el Trabajo de Seguridad - Nicol\u00e1s Valc\u00e1rcel (PE) - Information security Leader en NextRoll***"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "Hands-on API Security Workshop with OWASP JuiceShop",
+        "date": "2023-08-24",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/295379981",
+        "timezone": "America/Los_Angeles",
+        "description": "Step into the world of API Security in an immersive two-hour hands-on training event offered by [Akto](https://akto.io) and in collaboration by OWASP LA!\n\nWe\u2019re excited to announce this opportunity for appsec teams to enhance their skills in API Security and writing business logic tests. This instructor led hands-on workshop focuses on creating and running business logic tests using Akto. You will learn to write ten different business logic tests, which will then be executed against Juice Shop and other vulnerable apps. The goal of the workshop is to give hands-on experience in writing and automating custom API security tests related to authentication, authorization and access control issues. The workshop aims to be interactive, engaging, and an enriching learning experience. You will learn the fundamentals of writing, automating, and executing business logic tests. By the end of this training, participants will be able to automate 10 business logic tests, a key skill in the realm of API security.\n\nWhat to Expect?\n\n* By the end of the workshop participants will be able to write 10 business logic tests focused on authentication, authorization and access control issues.\n* Networking opportunity with fellow security professionals.\n* Ask absolutely any questions about securing APIs\n\nRequirements:\n\n* Attendees are required to bring their laptops\n\nParticipants are encouraged to bring their own API projects or sample APIs they are trying to test to receive personalized guidance and recommendations during the workshop. We will help everyone write their own custom tests during the workshop itself so you can test your own APIs. If not, we will be using Juice Shop or other vulnerable apps for demo purposes.\n\n**Food and drinks** will be provided and there's a free 90 minute **parking** available across the street."
     },
     {
         "group": "Los Angeles",
@@ -198,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-tampa/events/295193215",
         "timezone": "America/New_York",
         "description": "Exploring the OWASP API Top 10 Attack Categories by Andrew Jones\n\nThe OWASP API Top 10 attack categories have recently been updated for 2023. This talk will focus on discussing some of those changes, examining the API threat landscape in general, and demonstrate some API attacks against a vulnerable web application.\n\nRegister today:\n[https://www.eventbrite.com/e/owasp-tampa-chapter-q3-lunch-and-speaker-event-2023-tickets-689321297557](https://www.eventbrite.com/e/owasp-tampa-chapter-q3-lunch-and-speaker-event-2023-tickets-689321297557)\n\nVenue Sponsor: GuidePoint Security\nFood Sponsor: Salt Security"
+    },
+    {
+        "group": "Tegucigalpa",
+        "repo": "www-chapter-tegucigalpa",
+        "name": "Conoce OWASP | El Proyecto de Seguridad de Aplicaciones Mundiales Abiertas",
+        "date": "2023-08-31",
+        "time": "8:00-06:00",
+        "link": "https://www.meetup.com/owasp-tegucigalpa-chapter/events/295366243",
+        "timezone": "America/Tegucigalpa",
+        "description": "Charla virtual para dar a conocer el Conoce El Proyecto de Seguridad de Aplicaciones Mundiales Abiertas (OWASP), Explorando el mundo de la ciberseguridad, con profesionales y estudiantes del \u00e1rea tecnol\u00f3gica en Honduras.\n\n**[Registro Requerido](https://us06web.zoom.us/meeting/register/tZArf--qpzguHtPg_arEuV7WD2L8Btp2pcgE)**: [https://us06web.zoom.us/meeting/register/tZArf--qpzguHtPg_arEuV7WD2L8Btp2pcgE ](https://us06web.zoom.us/meeting/register/tZArf--qpzguHtPg_arEuV7WD2L8Btp2pcgE)"
     },
     {
         "group": "Toronto",
