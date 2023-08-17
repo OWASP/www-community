@@ -1,8 +1,8 @@
-# What is sim swap fraud?
+## What is sim swap fraud?
 
 SIM swap fraud is a sophisticated cybercrime that capitalizes on a vulnerability within two-factor authentication and verification processes. In this nefarious scheme, perpetrators exploit the inherent security weaknesses in how mobile phone carriers handle SIM cards. The process unfolds as follows: The scammers initiate contact with the target's mobile carrier, employing deceptive tactics to manipulate the carrier into activating a SIM card that is in the possession of the fraudsters themselves. Once this illicit activation takes place, the scammers effectively wrest control of the victim's phone number. Subsequently, any calls or messages directed to this compromised number unwittingly reach the scammers' device, rather than the legitimate owner's smartphone. This intricate maneuver, commonly referred to as SIM swap fraud, exposes the victim to significant risks and underscores the imperative need for heightened vigilance against such cyber threats.
 
-# How to prevent sim swap fraud?
+## How to prevent sim swap fraud?
 
 Fortunately, there exist effective measures that both you and your service providers can take to prevent falling victim to SIM swap fraud.
 
