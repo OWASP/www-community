@@ -1,3 +1,9 @@
+
+|                title                |    layout     |     author      | contributors  |     tags   |
+| ----------------------------------- | ------------- | --------------- | ------------- | ---------- |
+| SIM swapping prevention guidelines  | col-sidebar   | Prakhar Shankar | kingthorin    |  controls  |
+|                                     |               |                 |               |            |
+
 ## What is SIM swapping?
 
 SIM swapping, also known as SIM jacking or SIM hijacking, represents a method of identity theft in which a perpetrator illicitly acquires possession of your mobile phone number by reassigning it to a fresh SIM card. Subsequently, this new SIM card can be inserted into an alternative device, affording the wrongdoer access to your various accounts, thereby enabling substantial harm to be inflicted.
