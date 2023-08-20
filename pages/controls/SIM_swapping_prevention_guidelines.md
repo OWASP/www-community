@@ -1,8 +1,13 @@
+---
+layout: col-sidebar
+title: "SIM Swapping Prevention Guidelines"
+author: "Prakhar-Shankar"
+contributors: ["kingthorin"]
+tags: ["control", "SIM Swapping"]
 
-|                title                |    layout     |     author      | contributors  |     tags   |
-| ----------------------------------- | ------------- | --------------- | ------------- | ---------- |
-| SIM swapping prevention guidelines  | col-sidebar   |                 | kingthorin    |  controls  |
-|                                     |               |                 |               |            |
+---
+
+{% include writers.html %}
 
 ## What is SIM swapping?
 
