@@ -1,7 +1,7 @@
 
 |                title                |    layout     |     author      | contributors  |     tags   |
 | ----------------------------------- | ------------- | --------------- | ------------- | ---------- |
-| SIM swapping prevention guidelines  | col-sidebar   | Prakhar Shankar | kingthorin    |  controls  |
+| SIM swapping prevention guidelines  | col-sidebar   |                 | kingthorin    |  controls  |
 |                                     |               |                 |               |            |
 
 ## What is SIM swapping?
