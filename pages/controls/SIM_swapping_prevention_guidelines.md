@@ -3,6 +3,7 @@ layout: col-sidebar
 title: "SIM Swapping Prevention Guidelines"
 author: "Prakhar-Shankar"
 contributors: ["kingthorin"]
+permalink: /controls/SIM_swapping_prevention_guidelines
 tags: ["control", "SIM Swapping"]
 
 ---
