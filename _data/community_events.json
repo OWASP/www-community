@@ -83,7 +83,7 @@
         "group": "Hartford",
         "repo": "www-chapter-hartford",
         "name": "OWASP Hartford Meetup",
-        "date": "2023-09-13",
+        "date": "2023-09-14",
         "time": "8:00-04:00",
         "link": "https://www.meetup.com/ct-cyber-security-meetup-owasp-hartford/events/295568205",
         "timezone": "America/New_York",
@@ -98,6 +98,16 @@
         "link": "https://www.meetup.com/hyderabad-owasp-meetup-group/events/295554693",
         "timezone": "Asia/Kolkata",
         "description": "Dear OWASPIANS & Cybersecurity Enthusiasts,\n\nWe are excited to invite you to the upcoming OWASP Hyderabad Local Chapter Meeting in collaboration with CyberSecurist Technologies and Altimetrik India.\n\nThis event is going to be an on-campus event bringing together cybersecurity enthusiasts, professionals, and experts to discuss the latest trends, best practices, and advancements in web application security.\n\nEvent Details: Date: 26th Aug 2023\n\nTime: Starts at 10:30 am IST\n\nLocation:\n\nAltimetrik India Pvt Ltd CoWrks, 2nd Floor, SKYVIEW 10, The Skyview,\n\nSy no 83/1 Raidurgam, Hitech City Main Rd,\n\nHyderabad,\n\nTelangana,\n\nIndia - 500081\n\nAgenda Highlights:\n\n1. Welcome and Introduction\n\n2. Presentation 1:\n\n\"Preparation of an automated web API Regression test suite\"\n\n3. Open Discussion: Q&A and Knowledge Sharing\n\n4. Presentation 2: \"TBD\"\n\n5. Open Discussion: Q&A and Knowledge Sharing\n\n6. Closing Remarks and Future Events\n\n7. Networking Break: Engage with fellow attendees and speakers\n\nOur guest speakers and facilitators are industry specialists who will share their insights, experiences, and knowledge to help you stay updated on the latest security practices and vulnerabilities.\n\nPlease confirm your attendance via Meetup\n\nDon't miss out on this valuable opportunity to connect with fellow security enthusiasts and enhance your understanding of web application security. We look forward to your presence at the OWASP Hyderabad Chapter Meeting.\n\nNOTE: Please ensure to carry your government-issued ID so as to register and get into the premises.\n\nBest regards,\n\nOWASP Hyderabad Chapter"
+    },
+    {
+        "group": "Indian Institute Of Technology Patna",
+        "repo": "www-chapter-indian-institute-of-technology-patna",
+        "name": "From Manual to Machine: The Evolution of Security Automation (SOAR) in SOC",
+        "date": "2023-08-25",
+        "time": "8:00+05:30",
+        "link": "https://www.meetup.com/meetup-group-mrogmpnt/events/295591642",
+        "timezone": "Asia/Kolkata",
+        "description": "Discover the game-changing potential of Security Orchestration, Automation, and Response (SOAR) in revolutionizing cybersecurity. This talk dives into how SOAR turbocharges incident response by automating tasks, coordinating tools, and amplifying team efficiency. We will explore real-world use cases, benefits, and best practices for integrating SOAR seamlessly. By the end, you'll grasp how SOAR empowers organizations to combat threats proactively, minimize manual effort, and fortify their security posture."
     },
     {
         "group": "Italy",
@@ -190,6 +200,16 @@
         "description": "**NOTE: IN-PERSON EVENT**\n\n**Speaker:** Kiran Kamity, Founder & CEO, Deepfactor\n\n**Topic:** Reducing Alert Fatigue with Container Scans: Correlate, Prioritize and Filter Based on Usage\n\n**Abstract:**\n\nScenario: Your application is composed of 12 docker containers. Together they have 400 packages. When you run a container scan with an SCA (Software Composition Analysis) tool, you notice that 120 of them have vulnerabilities. Your security team is asking you to fix all the critical and high vulnerabilities, but your dev/DevOps team doesn\u2019t have the cycles. What do you do?\n\nToday, developers and DevOps engineers are being asked to address vulnerabilities and supply chain risks in container images. However, the volume of noisy security alerts often leads to developers ignoring them entirely or wasting valuable sprint time researching \u201cfalse positives.\u201d This session will focus on how security and engineering teams can correlate vulnerabilities with runtime information, prioritize alerts based on usage, and filter out false positives that don\u2019t represent a true exposure of a vulnerability. Understanding runtime information can provide intelligence such as applicability of the CVE to the running environment, reachability, and usage. This session will focus on usage. Prioritizing security updates to only used packages in your container image is a highly effective approach to reducing alert fatigue with your container scans. In addition, your DevOps team can even consider removing some of the unused packages and shrink your container images.\n\nAs an example, the session will include a demonstration of a typical SCA static container scan of a sample open-source test application and then show how an engineering team can filter alerts to reduce the number of vulnerable and used alerts that actually need to be fixed by developers by up to 90%.\n\n**Bio:**\n\nKiran Kamity is the Founder & CEO of Deepfactor. He is a serial Silicon Valley entrepreneur with a passion for building products that meet a need and make a business impact\u2014with Deepfactor that\u2019s empowering engineering teams to create secure cloud native applications. Prior to Deepfactor, Kiran was the Head of Product at Cisco Cloud BU, Founder/CEO at ContainerX (acquired by Cisco), and the Founder/VP at RingCube (acquired by Citrix). Kiran is a TEDx speaker and loves nature, travel, and food.\n\n**Schedule:**\n\n6:00pm - 6:40pm Networking, Food & Drink\n\n6:40pm - 7:40pm Presentation\n\n7:40pm - 8:00pm Networking\n\n### **Code of Conduct**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n### **Sponsorship**\n\nVendors who are interested in sponsoring OWASP OC monthly meetings, please send an email to [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org)"
     },
     {
+        "group": "Orlando",
+        "repo": "www-chapter-orlando",
+        "name": "OWASP Orlando - Chapter Meeting",
+        "date": "2023-09-20",
+        "time": "8:00-04:00",
+        "link": "https://www.meetup.com/owasp-orlando/events/295595923",
+        "timezone": "America/New_York",
+        "description": "This is an In-Person Event\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nSpeaker 1: **TBD**\n\nTopic: **TBD**\n\nSpeaker 2: **TBD**\n\nTopic 2: **TBD**"
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter Social",
@@ -198,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/295048332",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "Wasatch AppSec / OWASP-SLC - August (virtual meetup)",
+        "date": "2023-08-30",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/owasp-slc/events/295598154",
+        "timezone": "America/Denver",
+        "description": "We will have two Lightning talks presented during our virtual AppSec meetup this month.\n\n**Agenda:**\n\n1. Introductions / Chapter Announcements\n\n2. Presentation: Nuclei Scanner (Justin Larson)\n\nQ&A\n\n3. Presentation: Risk Assessments (Mark Christensen)\n\nQ&A"
     },
     {
         "group": "Switzerland",
