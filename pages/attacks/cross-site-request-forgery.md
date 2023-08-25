@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: Cross Site Request Forgery (CSRF)
 author: KirstenS
-contributors: Dave Wichers, Davisnw, Paul Petefish, Adar Weidman, Michael Brooks, Ahsan Mir, Dc, D0ubl3 h3lix, Jim Manico, Robert Gilbert, Tgondrom, Pawel Krawczyk, Brandt, A V Minhaz, Kevin Lorenzo, Andrew Smith, Christina Schelin, Ari Elias-Bachrach, Sarciszewski, kingthorin, Ben Spatafora
+contributors: Dave Wichers, Davisnw, Paul Petefish, Adar Weidman, Michael Brooks, Ahsan Mir, Dc, D0ubl3 h3lix, Jim Manico, Robert Gilbert, Tgondrom, Pawel Krawczyk, Brandt, A V Minhaz, Kevin Lorenzo, Andrew Smith, Christina Schelin, Ari Elias-Bachrach, Sarciszewski, kingthorin, Ben Spatafora, Krishna Madala
 permalink: /attacks/csrf
 tags: attack, CSRF
 
@@ -155,6 +155,17 @@ HTTPS by itself does nothing to defend against CSRF.
 
 However, HTTPS should be considered a prerequisite for any preventative
 measures to be trustworthy.
+
+### Validating the Referrer Header
+
+This doesn't work in practice because the referrer header can be easily 
+spoofed by an attacker. Additionally, some users or browsers might not 
+send the referrer header due to privacy settings or policies, leading to false
+positives. Moreover, there are situations where the referrer can be null, such 
+as when a user navigates to a site from a bookmark or any other resource without 
+a traditional url. In these scenarios, legitimate requests could be mistaken as 
+potential CSRF attacks, which would result in more potential false positive flags.
+
 
 ## Examples
 

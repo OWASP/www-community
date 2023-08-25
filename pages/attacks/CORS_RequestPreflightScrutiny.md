@@ -46,7 +46,7 @@ process is entirely managed on client side (by the browser) and then
 anything warrant web application that the request preflight process will
 be always followed...
 
-A user can create/send (using tools like Curl,OWASP Zap Proxy,...) a
+A user can create/send (using tools like Curl, ZAP,...) a
 final HTTP request without previously send the first request for
 preflight and then bypass request preflight process in order to act on
 data in a unsafe way.

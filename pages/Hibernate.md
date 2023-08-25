@@ -214,7 +214,7 @@ Consider this example:
  Session session = sessionFactory.getCurrentSession();
  try{
       session.beginTransaction();
-            SQLQuery query = session.createSQLQuery("SELECT * FROM " + table + "WHERE stuff= ?"); /*B00*/
+            SQLQuery query = session.createSQLQuery("SELECT * FROM " + table + "WHERE stuff= ?"); /*Boo*/
             query.setParameter(0, parameter1); /*YAY*/
       session.getTransaction().commit();
  } catch (Exception e) {}
@@ -254,10 +254,10 @@ Using executeUpdate()
 ```
  public void executeUpdateHQL(Session session, String evil)//a few calls deep from where evil became tainted
 {
-  Query query = session.createQuery(evil);  /*B00*/
+  Query query = session.createQuery(evil);  /*Boo*/
   query.setString("name","Evil");
   query.setString("newName","EEvil"); //these don't matter if the sql is already evil
-  int rowCount = query.executeUpdate();  /*B00*/
+  int rowCount = query.executeUpdate();  /*Boo*/
   System.out.println("Rows affected: " + rowCount);
 
   //See the results of the update and some other random stuff

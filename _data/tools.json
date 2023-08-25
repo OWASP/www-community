@@ -1,5 +1,14 @@
 [
    {
+      "title": "OSTE Meta Scanner",
+      "url": "https://github.com/OSTEsayed/OSTE-Meta-Scan",
+      "owner": "OSTEsayed",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "OSTE meta scanner is a comprehensive web vulnerability scanner that combines multiple DAST scanners, including Nikto Scanner, ZAP, Nuclei, SkipFish, and Wapiti.",
+      "type": "DAST"
+   },
+   {
       "title": "Escape",
       "url": "https://www.escape.tech/",
       "owner": "Escape",
@@ -8,13 +17,22 @@
       "note": "Run thousands of GraphQL security scans",
       "type": "DAST"
    },
-   {
+ {
       "title": " Threatspy",
       "url": "https://www.secureblink.com/threatspy",
       "owner": "Secure Blink",
-      "license": "Commercial",
+      "license": "Commercial or Free",
       "platforms": "SaaS",
-      "note": "Web application, API Scan while providing Auto Remediations",
+      "note": "Threatspy is the heuristic Application Security Management Platform. Discovering Both Known and Unknown Vulnerabilities, Strategically Prioritized via the Reachability Framework, with Built-in Automated Remediation. ",
+      "type": "DAST"
+   },
+     {
+      "title": " Akto",
+      "url": "https://www.akto.io/",
+      "owner": "Akto",
+      "license": "Commercial",
+      "platforms":  "SaaS or On-Premises",
+      "note": "150+ tests, free trial available",
       "type": "DAST"
    },
    {
@@ -144,9 +162,18 @@
       "type": "DAST"
    },
    {
-      "title": "Indusface Website Security Scan",
+      "title": "Aptori",
+      "url": "https://aptori.dev/",
+      "owner": "Aptori",
+      "license": "Commercial",
+      "platforms":  "SaaS or On-Premises",
+      "note": null,
+      "type": "DAST"
+   },
+   {
+      "title": "AppTrana",
       "url": "https://www.indusface.com/website-security-scan.php",
-      "owner": "AppTrana",
+      "owner": "Indusface",
       "license": "Free",
       "platforms": "SaaS",
       "note": null,
@@ -166,8 +193,8 @@
       "url": "https://github.com/bearer/bearer",
       "owner": "Bearer",
       "license": "Open Source or Free",
-      "platforms": "CLI on Windows, MacOS, Linux, Docker,  CI/CD integration",
-      "note": "Developer-first Static Application Security Testing (SAST) tool that automates threat modelling, allows native filtering and prioritization of security risks using sensitive data flow analysis. Supports Ruby, JavaScript, and TypeScript with more coming soon.",
+      "platforms": "CLI on Windows, MacOS, Linux, Docker, CI/CD integration",
+      "note": "Static Application Security Testing (SAST) to discover, filter and prioritize security and privacy risks using sensitive data flow analysis. Currently supports Java, Ruby, JavaScript and TypeScript.",
       "type": "SAST"
    },
    {
@@ -1485,15 +1512,6 @@
       "type": "SAST"
    },
    {
-      "title": "VisualCodeGrepper",
-      "url": "https://sourceforge.net/projects/visualcodegrepp/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": "Windows",
-      "note": "C/C++, C\\#, VB, PHP, Java, PL/SQL",
-      "type": "SAST"
-   },
-   {
       "title": "Fortify",
       "url": "https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview",
       "owner": "Micro Focus",
@@ -1815,6 +1833,24 @@
       "license": "Commercial or Free",
       "platforms": "Linux / Windows / Plugins / SaaS",
       "note": "SAST and DAST software vulnerability scanner based on the Vulners database. Including different integrations for administration and security tools, such as NMAP, Burp, Ansible and more.",
+      "type": "DAST"
+   },
+   {
+      "title": "Pentest-Tools.com Website Scanner",
+      "url": "https://pentest-tools.com/website-vulnerability-scanning/website-scanner",
+      "owner": "Pentest-Tools.com",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Finds vulnerabilities such as XSS (testing using real browsers), Server-Side Template Injection, Code Injection (with out of band detection) and other OWASP Top 10, and more high-risk vulnerabilities. Even newer vulnerabilties such as Client-Side Prototype Pollution are included.",
+      "type": "DAST"
+   },
+   {
+      "title": " SecOps Solution",
+      "url": "https://secopsolution.com",
+      "owner": "SecOps Solution",
+      "license": "Commercial or Free",
+      "platforms": "Windows/Linux/SaaS/On-Premises",
+      "note": "An agent-less full-stack vulnerability and patch management platform for identifying and remediating vulnerabilities in servers, network devices, end-points, web application and mobile application",
       "type": "DAST"
    }
 ]

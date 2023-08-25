@@ -177,6 +177,6 @@ will hang.
     - [ReDoS in EntLib](https://nvd.nist.gov/vuln/detail/CVE-2009-3275)
     - [ReDoS in NASD CORE.NET Terelik](https://nvd.nist.gov/vuln/detail/CVE-2009-3276)
     - [ReDoS in .NET Framework](http://blog.malerisch.net/2015/09/net-mvc-redos-denial-of-service-vulnerability-cve-2015-2526.html)
-    - [ReDoS in Javascript minimatch](https://nodesecurity.io/advisories/118)
+    - [ReDoS in Javascript minimatch](https://nvd.nist.gov/vuln/detail/CVE-2022-3517)
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)

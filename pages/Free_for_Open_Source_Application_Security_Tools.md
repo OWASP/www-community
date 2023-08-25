@@ -83,14 +83,11 @@ a page of known [DAST Tools](Vulnerability_Scanning_Tools), and the
 **License** column on this page indicates which of those tools have free
 capabilities. Our primary recommendation is to use one of these:
 
-  - [OWASP ZAP](/www-project-zap) - A full
+  - [ZAP]([/www-project-zap](https://www.zaproxy.org/)) - A full
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web app pen testing.
-      - The ZAP team has also been working hard to make it easier to
-        integrate ZAP into your CI/CD pipeline. (e.g., here's a [blog post on how to integrate ZAP with
-        Jenkins](https://www.we45.com/blog/how-to-integrate-zap-into-jenkins-ci-pipeline-we45-blog)).
   - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
-    tool built on OWASP ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
+    tool built on ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
     development and in CI/CD. The StackHawk platform allows you to manage findings over time in 
     different environments. StackHawk is free for Open Source projects and free to use on a single application.
   - [Arachni](http://www.arachni-scanner.com/) - Arachni is a commercially supported scanner, but its free for most use cases, including scanning open source projects.
@@ -107,7 +104,7 @@ capabilities. Our primary recommendation is to use one of these:
         You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam).  
         
     Purpleteam is pluggable, if it doesn't have a tester that you need you can add your own.
-    One of the testers (the web application tester) uses OWASP ZAP under the hood.
+    One of the testers (the web application tester) uses ZAP under the hood.
   - [CI Fuzz CLI](https://www.code-intelligence.com/cli-tool) - An open source command line tool for creating fuzz tests. The tool is tightly integrated with various build systems, enabling developers to create fuzz tests as easily as unit tests.
   - [Code Intelligence App](https://www.code-intelligence.com/guided-product-tour) - This application security testing platform enables CI/CD-integrated fuzz testing at each pull request. It helps developers to measure and maximize code coverage and to prioritize all findings based on severity. All of this information is then aggregated in a usable dashboard. The testing platform integrates directly into popular ticketing systems and issue trackers.
 
@@ -219,6 +216,14 @@ Commercial tools of this type that are free for open source:
         - Ensure the security and integrity of all cloud artifacts
         - Undertake security gap analysis and identify any blind spots.
      - Free tier for Open-Source projects
+  - [SOOS](https://soos.io) - [Free Community Edition](https://app.soos.io/register?registrationType=community) - Our no-hassle enrollment process for open source projects brings practical supply chain security to the masses.
+     - Use our SCA tool with any public GitHub repository
+     - C++, Node, Ruby, Python, Java, .Net, and more
+     - Integrates with GitHub
+     - Connect to Jira, Azure DevOps, or GitHub Issues
+     - Robust license policies
+     - Rich vulnerability dashboard
+     - SBOM generation (SPDX/CycloneDX)
   - [Snyk](https://www.snyk.io) - Supports Node.js, Ruby, Java, Python,
     Scala, Golang, .NET, PHP - Latest list here: 
     <https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support>
@@ -331,6 +336,8 @@ Secrets detection is often confused with SAST because both scan through static s
       It is free for open source repositories hosted under your GitHub Organization: <https://www.gitguardian.com/pricing>
     - [Container Scanning](https://www.gitguardian.com/ggshield) ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hard coded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
 
+  - [SAP/Credential Digger](https://github.com/SAP/credential-digger) - Open Source
+    - A GitHub scanning tool that identifies hardcoded credentials (Passwords, API Keys, Secret Keys, Tokens, personal information, etc.), filtering the false positive data through machine learning models.
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
