@@ -80,16 +80,6 @@
         "description": "Hello esteemed members and web security enthusiasts!\n\nWe are thrilled to announce our next meetup scheduled for September 2023, and we'd love for you to be there!\n\n**Details of the Event:**\n\n* **Host:** Connecticut OWASP (Open Web Application Security Project) Chapter\n\n* **Date:** Thursday September 14th 2023\n\n* **Time:** 6:00 PM to 9:00 PM\n\n* **Location:** Thomas Hooker Brewery\n\n* **Address:** 16 Tobey Rd, Bloomfield, CT 06002-3522\n\n**Highlights of the Meetup:**\n\n* Engage with fellow web security professionals and enthusiasts.\n\n* Network and share insights over some of the finest brews offered by Thomas Hooker Brewery.\n\n* This event is free and open to the public\n\n**RSVP:**\n\nYour participation is important to us! Kindly let us know if you'll be attending by 9/7/23. This will help us in making appropriate arrangements.\n\n**About OWASP:**\n\nFor those who are new, the Open Web Application Security Project (OWASP) is an open community dedicated to enabling organizations to develop, purchase, and maintain software applications that can be trusted.\n\nOur local Connecticut Chapter regularly hosts meetups and events to bring together professionals and students interested in web application security.\n\nWe're looking forward to an evening of learning, networking, and fun. Hope to see you there!\n\nBest Regards,\n\n[Bill Reyor/OWASP Connecticut Chapter Team]"
     },
     {
-        "group": "Hyderabad",
-        "repo": "www-chapter-hyderabad",
-        "name": "OWASP Hyderabad Chapter Meetup",
-        "date": "2023-08-26",
-        "time": "0:30+05:30",
-        "link": "https://www.meetup.com/hyderabad-owasp-meetup-group/events/295554693",
-        "timezone": "Asia/Kolkata",
-        "description": "Dear OWASPIANS & Cybersecurity Enthusiasts,\n\nWe are excited to invite you to the upcoming OWASP Hyderabad Local Chapter Meeting in collaboration with CyberSecurist Technologies and Altimetrik India.\n\nThis event is going to be an on-campus event bringing together cybersecurity enthusiasts, professionals, and experts to discuss the latest trends, best practices, and advancements in web application security.\n\nEvent Details: Date: 26th Aug 2023\n\nTime: Starts at 10:30 am IST\n\nLocation:\n\nAltimetrik India Pvt Ltd CoWrks, 1st Floor, SKYVIEW 10, The Skyview,\n\nSy no 83/1 Raidurgam, Hitech City Main Rd,\n\nHyderabad,\n\nTelangana,\n\nIndia - 500081\n\nAgenda Highlights:\n\n1. Welcome and Introduction\n\n2. Presentation 1:\n\n\"Preparation of an automated web API Regression test suite\" By Rushab Desarda\n\nHe is a speaker with comprehensive knowledge in conducting DAST, SAST, VAPT for Web ,Mobile applications (Android), Web Security reviews and Threat Modelling\n\nOpen Discussion: Q&A and Knowledge Sharing\n\n3. Presentation 2:\n\n4. \"Automating API Security Testing\" by Rohit Sarmalkar\n\nOpen Discussion: Q&A and Knowledge Sharing\n\n5. Closing Remarks and Future Events\n\n6. Networking Break: Engage with fellow attendees and speakers\n\nOur guest speakers and facilitators are industry specialists who will share their insights, experiences, and knowledge to help you stay updated on the latest security practices and vulnerabilities.\n\nPlease confirm your attendance via Meetup\n\nDon't miss out on this valuable opportunity to connect with fellow security enthusiasts and enhance your understanding of web application security. We look forward to your presence at the OWASP Hyderabad Chapter Meeting.\n\nNOTE: Please ensure to carry your government-issued ID so as to register and get into the premises.\n\nBest regards,\n\nOWASP Hyderabad Chapter"
-    },
-    {
         "group": "Italy",
         "repo": "www-chapter-italy",
         "name": "OWASP Italy Day 2023",
@@ -210,6 +200,16 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
+        "group": "Riyadh",
+        "repo": "www-chapter-riyadh",
+        "name": "Data Privacy and KSA PDPL",
+        "date": "2023-09-14",
+        "time": "1:00+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/295697538",
+        "timezone": "Asia/Riyadh",
+        "description": "**Topics covered:**\n\n* Introduction to KSA PDPL\n\n* Timelines of KSA PDPL\n\n* Position Prior to PDPL\n\n* What is the scope of Applicability\n\n* Privacy Definitions, Role of Regulatory Authority\n\n* Organizing Data Protection & Internal External compliance"
+    },
+    {
         "group": "Salt Lake City",
         "repo": "www-chapter-salt-lake-city",
         "name": "Wasatch AppSec / OWASP-SLC - August (virtual meetup)",
@@ -277,6 +277,16 @@
         "time": "9:00+04:00",
         "link": "https://www.meetup.com/owasp-yerevan/events/295461329",
         "timezone": "Asia/Yerevan",
-        "description": "OWASP Yerevan August meetup agenda:\n\n1. Introduction of new chapter leaders: Samvel Martirosyan, Samvel Harutyunyan\n\n2. Samvel Martirosyan - Spyware in Armenia. General steps to be protected.\n\n3. Artur Papyan - Pegasus/Predator and other spyware detection with free and paid programs, including MVT, iMazing, iVerify."
+        "description": "OWASP Yerevan August meetup agenda:\n\n1. Introduction of new chapter leaders: Samvel Martirosyan, Samvel Harutyunyan\n\n2. Samvel Martirosyan - Spyware in Armenia. General steps to be protected.\n\n3. Artur Papyan - Pegasus/Predator and other spyware detection with free and paid programs, including MVT, iMazing, iVerify.\n\nRoom is 313W in Paramaz Avedisian (new) building."
+    },
+    {
+        "group": "Security Integration System",
+        "repo": "www-project-security-integration-system",
+        "name": "Data Privacy and KSA PDPL",
+        "date": "2023-09-14",
+        "time": "1:00+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/295697538",
+        "timezone": "Asia/Riyadh",
+        "description": "**Topics covered:**\n\n* Introduction to KSA PDPL\n\n* Timelines of KSA PDPL\n\n* Position Prior to PDPL\n\n* What is the scope of Applicability\n\n* Privacy Definitions, Role of Regulatory Authority\n\n* Organizing Data Protection & Internal External compliance"
     }
 ]
