@@ -4,6 +4,7 @@ on:
   pull_request_target:
     paths:
     - '_data/tools.json'
+    - 'tools_schema.json'
 
 permissions:
   contents: read
