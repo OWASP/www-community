@@ -140,6 +140,16 @@
         "description": "Os ataques XSS (Cross-Site Scripting) s\u00e3o brechas comuns em sites, onde o explorador insere c\u00f3digo malicioso para atacar usu\u00e1rios. Isso pode levar ao roubo de informa\u00e7\u00f5es ou controle da sess\u00e3o. Existem tipos como armazenados, refletidos e DOM-based. Prevenir requer valida\u00e7\u00e3o rigorosa e pr\u00e1ticas seguras de codifica\u00e7\u00e3o, como CSP. A conscientiza\u00e7\u00e3o \u00e9 fundamental.\n\nO Java Encoder \u00e9 uma ferramenta chave contra ataques XSS. Ele converte os dados para um formato seguro, bloqueando c\u00f3digos maliciosos, auxiliando na prote\u00e7\u00e3o do site em quest\u00e3o."
     },
     {
+        "group": "Lima",
+        "repo": "www-chapter-lima",
+        "name": "OWASP Meeting Setiembre 2023",
+        "date": "2023-09-21",
+        "time": "9:00-05:00",
+        "link": "https://www.meetup.com/owasp-lima-meetup-group/events/295729119",
+        "timezone": "America/Lima",
+        "description": "**OWASP Meeting Setiembre 2023**\n\nReuni\u00f3n Mensual de Seguridad de Aplicaciones (VIA ZOOM)\n\n**PRESENTACIONES:**\n\n***El arte del enga\u00f1o: Desarrollo Seguro de Software: Evoluci\u00f3n y Tendencias - Ing. Miguel Salvador - Software Architect at Charles Taylor***\n\n***Ataques al Active Directory - Ricardo Berrospi (PE) - Instructor de ciberseguridad y Ethical Hacking***"
+    },
+    {
         "group": "Lisboa",
         "repo": "www-chapter-lisboa",
         "name": "#04 - The Room",
@@ -148,6 +158,16 @@
         "link": "https://www.meetup.com/owasp-lisboa-chapter/events/295466709",
         "timezone": "Europe/Lisbon",
         "description": "OWASP Lisboa chapter meetup on Sep 19th, 2023, at 18:00, **supported by [BNP Paribas](https://www.bnpparibas.pt).**\n\nThe schedule is the following:\n\n**18:00** \\- Welcome notes by the OWASP Lisboa chapter leadership team\n\n**18:15** \\- How to test and compare SAST solutions\n\n**19:00** \\- Unmasking Azure Kubernetes Service \\- Unveiling Inherent Security Risks in K8S Environments\n\n**20:00** \\- Snacks & Drinks sponsored by BNP Paribas\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\n**Talks**:\n\nTitle: **How to test and compare SAST solutions**\n\nSpeaker:\n\nGuillaume Montard\n\nAbstract:\n\nOver the past two decades, many of us have had negative experiences with SAST. In this talk, I will explain SAST, its significance, and introduce a framework that allows you to test and compare the latest SAST solutions. By the end, I hope to change your perspective on SAST.\n\nBio:\n\nGuillaume, co-founder of Bearer, developer-first security solution. Previously CTO and VP of Engineering at Skillsoft.\n\nLinkedIn: [https://www.linkedin.com/in/guillaumemontard/](https://www.linkedin.com/in/guillaumemontard/)\n\nTwitter: [https://twitter.com/g_montard]( https://twitter.com/g_montard)\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nTitle: **Unmasking Azure Kubernetes Service - Unveiling Inherent Security Risks in K8S Environments**\n\nSpeaker:\n\nSadi Zane\n\nAbstract:\n\nThis talk delves into the security risks associated with Azure Kubernetes Service (AKS). Specifically, it focuses on a deep dive into key security controls like Role-Based Access Control (RBAC) and explores associated risks with service accounts. Additionally, the talk presents a novel approach highlighting how an attacker could exploit Node authorization certificate keys to achieve long-term persistence within AKS environments and their underlying containers. Furthermore, the presentation describes and demonstrates an attack against a vulnerable Grafana enterprise application by leveraging directory traversal techniques to steal privileged tokens. These tokens serve as a stepping stone for further pivoting into the container environment. The talk also addresses the inherent shortcomings of default Azure Kubernetes deployments, including vulnerabilities related to secrets management, pod security admission, and underlying networks. By shedding light on these deficiencies, attendees gain a comprehensive understanding of the security challenges and potential avenues for improvement in AKS environments.\n\nBio:\n\nSadi Zane is a Principal Cyber Security Consultant specialising in offensive security, Red Team/Purple Team exercises, and extensive experience in Orchestration technologies e.g., Cloud on premise Kubernetes container security systems.\n\nLinkedIn: [https://www.linkedin.com/in/sadi-zane-bb6430206/](https://www.linkedin.com/in/sadi-zane-bb6430206/)"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - SEPT 27, 2023",
+        "date": "2023-09-27",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/294467841",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: Safety in your Embedded Systems, how to Prepare for the next Generation\n\nJoin us for great networking, dinner and drinks, and see a presentation by **Stephen Olsen**, Principal Field Application Engineer for North America with BlackBerry QNX.\n\n**ABSTRACT**: Discover the intricate connection between safety and security in product development, where safeguarding against external threats and internal risks is paramount. Delve into the nuances of isolating safety and non-safety functions, along with securing data. This talk addresses the significance of safety across various industries, particularly in the evolving medical field. Gain insights into the concept of virtualization and its optimal application. Explore why safety matters, its diverse applications, and the critical need to protect cutting-edge devices. A must-attend discussion for those shaping the future of embedded systems.\n\n**Thanks to our Sponsor**: *[BlackBerry QNX](https://blackberry.qnx.com/en)*\n\n*BlackBerry\u00ae QNX\u00ae is a trusted supplier of commercial operating systems, hypervisors, development tools, support, and services, all purpose-built for the world\u2019s most critical embedded systems. BlackBerry QNX helps customers streamline their development efforts to efficiently launch safe, secure, and reliable systems. Our technology is trusted in more than 235 million vehicles and is deployed in embedded systems around the world across a range of industries including aerospace and defense, automotive, commercial vehicles, heavy machinery, industrial controls, medical, rail and robotics.*\n\n**SPONSORSHIP Opportunities Available**\n\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Morocco",
@@ -210,6 +230,16 @@
         "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n\n150 Louis-Pasteur Private, Ottawa,\n\nUniversity of Ottawa\n\nRoom 117\n\n**Health Notice:**\n\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: https://www.youtube.com/watch?v=PDU9_aooRRU\n\n**6:00 PM EDT** Arrival, setup, mingle\n\n**6:30 PM EDT** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n\n2. **Vulkan Unveiled-Tools of the Trade.**\n\n**Abstract:**\n\nThe Vulkan files have exposed a clandestine world of state-sponsored cyberwarfare, revealing the collaboration between NTC Vulkan, a private defence contractor, and Russian intelligence agencies. This presentation delves into the significance of the leaked files, shedding light on the role of private contractors in cyber warfare and the implications for global cybersecurity. It explores the capabilities of Amezit, Skan, and Krystal2V, three prominent tools mentioned in the leaked documents, providing insights into their functionality and potential impact. By examining the authenticity of the files, assessing their usage, and analyzing the broader implications, this research aims to deepen our understanding of Russia's cyber capabilities and the challenges they pose for international security. The findings underscore the need for stronger regulations, international cooperation, and enhanced defence strategies to counter the evolving threats in the cyber domain.\n\n**Speaker Bio:**\n\nBy day, Julian works as a penetration tester hunting vulnerabilities to exploit. By night, Julian is a researcher and journalist focused on Russian cyberspace. Using his OSINT skills, Julian uncovers emerging threats to the Western world\n\nPavle is a cybersecurity analyst with an academic background in political science. He is fluent in English, French, Russian, Serbian, and Bulgarian, with a keen interest in understanding the implications of the evolving threat landscape on human and civil rights.\n\nDriven by a deep curiosity about the intersection between cybersecurity and global politics, Pavle focuses on the motivations behind state-sponsored cyberattacks, cyberwarfare domains, and emerging cyber governance.."
     },
     {
+        "group": "Patna",
+        "repo": "www-chapter-patna",
+        "name": "Session 03 - Advanced Persistent Threat",
+        "date": "2023-09-02",
+        "time": "4:30+05:30",
+        "link": "https://www.meetup.com/owasp-patna-chapter/events/295730286",
+        "timezone": "Asia/Kolkata",
+        "description": "Join **Saurabh Kashyap** in this session on ***Advanced Persistent Threats (APTs)***, where he will provide insights into the characteristics, motivations, and key differences between APTs and traditional attacks. Saurabh will explore the lifecycle of an APT attack, analyze real-world case studies, and share detection and mitigation strategies. Additionally, he will discuss future trends in the APT landscape. The session will conclude with a Q&A session, allowing participants to engage in interactive discussions and gain valuable knowledge to enhance their organization's resilience against APT attacks."
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter Social",
@@ -240,6 +270,16 @@
         "description": "We will have two Lightning talks presented during our virtual AppSec meetup this month.\n\n**Agenda:**\n\n1. Introductions / Chapter Announcements\n\n2. Presentation: Nuclei Scanner (Justin Larson)\n\nQ&A\n\n3. Presentation: Risk Assessments (Mark Christensen)\n\nQ&A"
     },
     {
+        "group": "Sao Jose Dos Campos",
+        "repo": "www-chapter-sao-jose-dos-campos",
+        "name": " Debate: Carreira de TI - Verdades e Mitos",
+        "date": "2023-09-14",
+        "time": "1:00-03:00",
+        "link": "https://www.meetup.com/owasp-sao-jose-dos-campos-chapter/events/295736158",
+        "timezone": "America/Sao_Paulo",
+        "description": "Prezados entusiastas de tecnologia,\n\nVoc\u00ea est\u00e1 convidado para um emocionante evento online que ir\u00e1 explorar o fascinante mundo da Carreira de Tecnologia da Informa\u00e7\u00e3o (TI). Se voc\u00ea est\u00e1 considerando entrar na \u00e1rea de TI, j\u00e1 est\u00e1 nela ou apenas tem curiosidade sobre os aspectos reais por tr\u00e1s dos mitos, este encontro \u00e9 feito para voc\u00ea!\n\n**Tema: Carreira de TI - Verdades e Mitos** **Data: 14/09/2023** **Hor\u00e1rio: 21:00** **Local: Online**\n\nJunte-se a n\u00f3s enquanto exploramos os altos e baixos da Carreira de TI, desvendando mitos comuns e trazendo \u00e0 tona as verdades que moldam o setor. Teremos a honra de receber especialistas do campo que compartilhar\u00e3o suas hist\u00f3rias pessoais, insights sobre o setor e dicas pr\u00e1ticas para navegar na carreira de TI.\n\n**Destaques do Evento:**\n\n* **Mitologia vs. Realidade:** Vamos desmascarar os mitos populares que cercam a TI e discutir as realidades que os profissionais enfrentam.\n\n* **Jornadas Inspiradoras:** Nossos palestrantes compartilhar\u00e3o suas jornadas \u00fanicas na ind\u00fastria, incluindo desafios superados e conquistas marcantes.\n\n* **Orienta\u00e7\u00e3o de Carreira:** Aprenda sobre as diferentes trilhas de carreira em TI, oportunidades de crescimento e como se preparar para o sucesso.\n\n* **Perguntas e Respostas:** Um momento valioso para voc\u00ea tirar suas d\u00favidas diretamente com nossos experientes palestrantes.\n\n*\n\nEste \u00e9 o momento perfeito para obter insights de profissionais que prosperam na ind\u00fastria de TI e desmistificar as ideias preconcebidas. Independentemente de voc\u00ea ser um estudante aspirante, um profissional em transi\u00e7\u00e3o de carreira ou um veterano da ind\u00fastria, este Meetup oferece uma oportunidade \u00fanica para explorar e se conectar.\n\n**Agende seu lugar hoje mesmo!**\n\nhttps://us06web.zoom.us/j/87382124849?pwd=M0xJaXZqZHRObDZucFJlR1I4Nng0dz09\n\nVenha se juntar a n\u00f3s para uma tarde enriquecedora de aprendizado e discuss\u00e3o. Espalhe a palavra entre seus colegas de tecnologia e amigos que tamb\u00e9m possam se beneficiar com essa experi\u00eancia.\n\nMal podemos esperar para ver voc\u00ea l\u00e1 e compartilhar insights valiosos sobre a emocionante Carreira de TI!\n\nAtenciosamente,\n\nOWASP S\u00e3o Jos\u00e9 dos Campos"
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -248,6 +288,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/295662087",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Singapore",
+        "repo": "www-chapter-singapore",
+        "name": "APIs Unveiled: A Deep Dive into OWASP Top 10 and Zero Trust Access",
+        "date": "2023-09-06",
+        "time": "8:30+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/295730596",
+        "timezone": "Asia/Singapore",
+        "description": "Exciting news!\n\nF5 is hosting our next OWASP SG hybrid meetup - online and in person - on API Security that you won't want to miss.\n\nWe have a distinguished speaker lined up: James Lee from F5. The topics covered in this meetup will be highly relevant for individuals engaged in both AppSec within App Development and AppSec within Cyber Security.\n\nJoin us as we gather to share knowledge over delectable pizza and refreshing drinks!\n\nLimited in-person seats are available at the venue @ F5 Office, so be sure to secure your spot now. If you can't attend in person, no worries! Register to access the live stream.\n\nStay tuned for the meeting URL \u2013 we'll send it your way once you're registered.\n\nThis is an opportunity you won't want to miss to enhance your understanding of API Security. See you there!\n\n**Session 1: The new OWASP Top 10 API Security 2023**\n\nJoin us for an insightful session where we delve into the evolving landscape of API security. In this engaging event, we will uncover the advancements made in the OWASP API Top 10 from 2019 to 2023, highlighting the key changes and emerging threats.\n\nThe core focus will be on two crucial aspects of API security \u2013 tackling the challenges posed by [API10:2023 - Unsafe Consumption of APIs](https://owasp.org/API-Security/editions/2023/en/0xaa-unsafe-consumption-of-apis/) and addressing [API8:2023 - Security Misconfiguration](https://owasp.org/API-Security/editions/2023/en/0xa8-security-misconfiguration/)\n\nWe'll also address lessons learned from the Log4J vulnerability, aiming to better equip you for future situations.\n\n**Session 2: Zero Trust API Access based on OAuth**\n\nIn today's hybrid and multi-cloud environments, API communications play a pivotal role, forming a critical foundation for various organizational operations. As many organizations embrace the Zero Trust model as their core security principle, it's essential to recognize that API security holds significant importance within the context of Zero Trust design.However, API security often tends to be underestimated in Zero Trust implementation.\n\nJoin us in this session to learn how F5 Distributed Cloud solutions bridge this gap, offering Zero Trust-based API access by leveraging the standard OAuth framework and its App Segmentation integration.\n\nTo register for this event, please do so at https://www.f5.com/c/apcj-2023/event/owasp-singapore-meet-up-api-unveiled"
     },
     {
         "group": "Tegucigalpa",
@@ -268,6 +318,16 @@
         "link": "https://www.meetup.com/owasptriangle/events/295075768",
         "timezone": "America/New_York",
         "description": "TBA"
+    },
+    {
+        "group": "Tunisia",
+        "repo": "www-chapter-tunisia",
+        "name": "OWASP Tunisia online Event",
+        "date": "2023-09-01",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-tunis-meetup-group/events/295738376",
+        "timezone": "Africa/Tunis",
+        "description": "Welcome to our next **OWASP Tunisia online Event!** organized by **OWASP Tunisia Chapter** with **SecuriNets foundation**\n\n**\\- Workshop1**:\n\n**Exploring LLM Vulnerabilities with OWASP TOP 10 for LLMs**\n\nDescription:\n\nJoin us as we navigate the OWASP TOP 10 for LLMs shedding light on the most pressing security\n\nconcerns that arise in the landscape of language-based AI, delving into their remarkable potential\n\nand the hidden pitfalls they may harbor.\n\n**Our Guest: Alyssa Berriche** . Lead Cyber Threat\n\nIntelligence Analyst @Cimpress/Vistaprint\n\nAlyssa Berriche is an alumnus of the National Institute of Applied Science and Technology with a\n\ndegree in Network and Telecommunications engineering. She is currently a Lead Cyber Threat\n\nIntelligence Analyst with +7 years of professional experience in the cybersecurity field and +5 years\n\nof experience in teaching cybersecurity in private/public universities (INSAT, Tek-up, PolytechIntl) and\n\neLearning platforms. She presents at local cybersecurity conferences and webinars. She has\n\nmentored local security groups and students since 2014. Member and former president of SecuriNets\n\nINSAT, the National Cybersecurity Association, during 2014-2015. She is the author of the course\n\n\u201cAdvanced Cyber Threat Intelligence\u201d in Cybrary and \"Security for Small and Medium Businesses\" in\n\nEC-Council's CodeRed.\n\nCertifications: GCTI, ISO/IEC 27032 Cybersecurity Management, ISO/IEC27001 LA, CSI Linux Certified\n\nOSINT Analyst, CSI Linux Certified Social Media Investigator, CSI Linux Certified Dark Web Investigator\n\n- **Workshop2: Code Red: Deciphering the Depths of Active Directory Security**\n\nDescription:\n\nIn this workshop we will be talking about Active\n\nDirectory and its core Security Principles while providing hands-on\n\nDemo of some common AD attacks and how to protect ourselves against\n\nthem.\n\n**Our Guest Foued SAIDI**\n\nFoued Saidi is Technical Director @SecuriNets ISI, Penetration Tester, Cyber Security Intern @CyberUnitTechnologies.\n\nPreviously top #1 on HackTheBox Tunisia and top 60 WorldWide"
     },
     {
         "group": "Uruguay",
@@ -297,7 +357,7 @@
         "time": "9:00+04:00",
         "link": "https://www.meetup.com/owasp-yerevan/events/295461329",
         "timezone": "Asia/Yerevan",
-        "description": "OWASP Yerevan August meetup agenda:\n\n1. Introduction of new chapter leaders: Samvel Martirosyan, Samvel Harutyunyan\n\n2. Samvel Martirosyan - Spyware in Armenia. General steps to be protected.\n\n3. Artur Papyan - Pegasus/Predator and other spyware detection with free and paid programs, including MVT, iMazing, iVerify.\n\nRoom is 313W in Paramaz Avedisian (new) building."
+        "description": "OWASP Yerevan August meetup agenda:\n\n1. Introduction of new chapter leaders: Samvel Martirosyan, Samvel Harutyunyan\n\n2. Samvel Martirosyan - Spyware in Armenia. General steps to be protected.\n\n3. Artur Papyan - Pegasus/Predator and other spyware detection with free and paid programs, including MVT, iMazing, iVerify.\n\nRoom is 314W in Paramaz Avedisian (new) building."
     },
     {
         "group": "Security Integration System",
