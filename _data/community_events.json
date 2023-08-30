@@ -1,5 +1,15 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - September",
+        "date": "2023-09-26",
+        "time": "9:00+02:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/295755057",
+        "timezone": "Europe/Copenhagen",
+        "description": "OWASP Aarhus og DEIF holder vores n\u00e6ste meetup tirsdag d. 26. september i Aalborg fra 19.00 - 21:30.\n\nVi vil meget gerne, hvis I hj\u00e6lper hinanden ved at arrangere f\u00e6llesk\u00f8rsel. Skriv meget gerne her!\n\nDetaljerne er ikke helt p\u00e5 plads, men Jens Myrup Pedersen kommer og fort\u00e6ller om hans erfaring med Cyberlandsholdet.\n\nOm Jens:\n\nJens Myrup Pedersen er professor p\u00e5 Aalborg Universitet, hvor han prim\u00e6rt forsker i netv\u00e6rkssikkerhed og tidlig detektion af skadelig aktivitet, og hvor han er ansvarlig for kandidatuddannelsen i Cybersikkerhed. Jens er ogs\u00e5 involveret i en r\u00e6kke projekter der skal \u00f8ge viden om og interesse for cybersikkerhed blandt unge, herunder Cyberskills - og s\u00e5 har han siden 2021 v\u00e6ret landstr\u00e6ner for Cyberlandsholdet.\n\nTitel: Cyberlandsholdet For The Win\n\nKort beskrivelse:\n\nKom med p\u00e5 rejsen bag Det Danske Cyberlandshold, der i 2022 - som det mindste land nogensinde - vandt de Europ\u00e6iske Mesterskaber i t\u00e6t konkurrence med store lande som Tyskland og Frankrig. Hvert \u00e5r dyster hundredevis af unge danskere om en plads p\u00e5 Cyberlandsholdet. En konkurrence, der starter med \u00e5bne online tr\u00e6nings-sessions der er tilg\u00e6ngelige for alle og ingen s\u00e6rlige foruds\u00e6tninger kr\u00e6ver, og som g\u00e5r gennem Kvalifikationsrunde, Regionale Mesterskaber og Nationale Mesterskaber til den eftertragtede Bootcamp med kun 25 pladser, hvoraf 10 ender p\u00e5 landsholdet. Men det er ikke kun en konkurrence: Det er ogs\u00e5 et vigtigt projekt for at \u00f8ge interessen for cybersikkerhed blandt unge, og derfor er det s\u00e5 vigtigt ogs\u00e5 at skabe noget fedt for det store flertal der ikke kommer p\u00e5 Landsholdet. \u201cCyberlandsholdet For The Win\u201d handler om landsholdets sejr, om arbejdet med at \u00f8ge interessen for cybersikkerhed blandt unge, og om hvorfor de to dele h\u00e6nger s\u00e5 t\u00e6t sammen."
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - September 2023 (Online)",
@@ -8,16 +18,6 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/290705763",
         "timezone": "America/Chicago",
         "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI, please see* \\-\\- Coming Soon\\!\n\n30 minutes of meet-and-greet and Chapter information, then the Presentation!"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - August 2023 (Online)",
-        "date": "2023-08-29",
-        "time": "1:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/290705760",
-        "timezone": "America/Chicago",
-        "description": "*Due to supplying lunch for attendees so we have sufficient foods, if you would like to attend in-person at NI. **Please do not pull both an online and in-person ticket as we purchase food for every in-person ticket.***\n\nWhile the speakers presentation will be online, please feel free to attend in-person at NI. Lunch is sponsored for those who pull tickets via ***https://owasp-austin-2023-august.eventbrite.com***\n\nOnline meeting will be opened at 11:30. The chapter presentation will be starting around 11:55 then the Presentation!\n\nPresentation:\n\n***Undercover Agent in Chinese Card Shop Ecosystem: Become a Phishing Master***\n\nPersonal Identifiable Information (PII) leaks have become more frequent in recent years, and losses from credit card fraud in 2022 have set records respectively in the USA. Where did this information get leaked and sold in the first place?\n\nThe term \"Dark web\" refers to websites inaccessible without the use of Tor protocol, and given added privacy and anonymity while using Tor, and marketplaces in it are proven to be very attractive to criminals.\n\nAn anonymous researcher will share experiences of dealing with vendors from card shops on marketplaces among dark web, focused on insights of shops selling American PIIs, and therefore, TTPs of hackers from these card shops."
     },
     {
         "group": "Bangalore",
@@ -78,6 +78,16 @@
         "link": "https://www.meetup.com/owasp-france/events/295629230",
         "timezone": "Europe/Paris",
         "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **Zenika** que nous remercions chaleureusement de leur soutien.\n\n**Date limite d'inscription: dimanche 10 septembre au soir**\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\n\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\n\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\n\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\n*--*\n\n*Pour des raisons de s\u00e9curit\u00e9 d'acc\u00e8s aux locaux de notre sponsor, il est n\u00e9cessaire de fournir votre nom et pr\u00e9nom pour ce meetup. **Une pi\u00e8ce d'identit\u00e9 sera demand\u00e9e** pour l'obtention d'un badge d'acc\u00e8s. Nous vous remercions de votre compr\u00e9hension.*\n\n*--*\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+    },
+    {
+        "group": "Frankfurt",
+        "repo": "www-chapter-frankfurt",
+        "name": "OWASP Frankfurt #62",
+        "date": "2023-09-21",
+        "time": "7:30+02:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/295190157",
+        "timezone": "Europe/Berlin",
+        "description": "Hi all, we are delighted to host the next in-person event in Frankfurt! For this event, we will have a range of interesting talks delivered by leaders within Product & Cyber Security. There will also be plenty of time to socialize before and after the event.\n\n_What's going to happen?\n\nWe look forward to welcoming you to our OWASP Frankfurt Meetup hosted by **codecentric AG.**\n\n_What are we going to talk about?\n\n**My CI/CD pipeline contains all security tools available! Now what...?**\n\n*Jasmin Mair*\n\nTools are helpful to enable DevSecOps, many challenges and pitfalls highlight the need for a cultural shift. Explore issues such as security resistance, conflicting KPIs and organizational silos. Real-world examples and best practices will provide actionable insights to overcome these obstacles.\n\n**Talk 2 - to be announced**\n\n_Afterwards? We will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks** kindly provided by **codecentric AG**. Due to the hard end at 21.30, everyone interested can join us at the **Bockenheimer Weinkontor** (https://goo.gl/maps/6DWRcgFEH27FkaDb8) for drinks at their own cost.\n\n_When?\n\nOur Meetup takes place on 21.09.2023 from 17.30 to 21.30 o'clock CEST.\n\n_Where?\n\ncodecentric AG, Lise-Meitner-Stra\u00dfe 4, 60486 Frankfurt am Main\n\n_Interested in **giving a talk** yourself?\n\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\n\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\n\nAlso, follow us on **[Twitter #owasp_frankfurt](https://twitter.com/owasp_frankfurt)**[ ](https://twitter.com/owasp_frankfurt)and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you for this in-person event!"
     },
     {
         "group": "Hartford",
@@ -243,6 +253,16 @@
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter Social",
+        "date": "2023-09-28",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-peterborough/events/295239486",
+        "timezone": "Europe/London",
+        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Chapter Social",
         "date": "2023-08-31",
         "time": "9:00+01:00",
         "link": "https://www.meetup.com/owasp-peterborough/events/295048332",
@@ -330,16 +350,6 @@
         "description": "Welcome to our next **OWASP Tunisia online Event!** organized by **OWASP Tunisia Chapter** with **SecuriNets foundation**\n\n**\\- Workshop1**:\n\n**Exploring LLM Vulnerabilities with OWASP TOP 10 for LLMs**\n\nDescription:\n\nJoin us as we navigate the OWASP TOP 10 for LLMs shedding light on the most pressing security\n\nconcerns that arise in the landscape of language-based AI, delving into their remarkable potential\n\nand the hidden pitfalls they may harbor.\n\n**Our Guest: Alyssa Berriche** . Lead Cyber Threat\n\nIntelligence Analyst @Cimpress/Vistaprint\n\nAlyssa Berriche is an alumnus of the National Institute of Applied Science and Technology with a\n\ndegree in Network and Telecommunications engineering. She is currently a Lead Cyber Threat\n\nIntelligence Analyst with +7 years of professional experience in the cybersecurity field and +5 years\n\nof experience in teaching cybersecurity in private/public universities (INSAT, Tek-up, PolytechIntl) and\n\neLearning platforms. She presents at local cybersecurity conferences and webinars. She has\n\nmentored local security groups and students since 2014. Member and former president of SecuriNets\n\nINSAT, the National Cybersecurity Association, during 2014-2015. She is the author of the course\n\n\u201cAdvanced Cyber Threat Intelligence\u201d in Cybrary and \"Security for Small and Medium Businesses\" in\n\nEC-Council's CodeRed.\n\nCertifications: GCTI, ISO/IEC 27032 Cybersecurity Management, ISO/IEC27001 LA, CSI Linux Certified\n\nOSINT Analyst, CSI Linux Certified Social Media Investigator, CSI Linux Certified Dark Web Investigator\n\n- **Workshop2: Code Red: Deciphering the Depths of Active Directory Security**\n\nDescription:\n\nIn this workshop we will be talking about Active\n\nDirectory and its core Security Principles while providing hands-on\n\nDemo of some common AD attacks and how to protect ourselves against\n\nthem.\n\n**Our Guest Foued SAIDI**\n\nFoued Saidi is Technical Director @SecuriNets ISI, Penetration Tester, Cyber Security Intern @CyberUnitTechnologies.\n\nPreviously top #1 on HackTheBox Tunisia and top 60 WorldWide"
     },
     {
-        "group": "Uruguay",
-        "repo": "www-chapter-uruguay",
-        "name": "Introducci\u00f3n a la seguridad de aplicaciones - Edici\u00f3n Agosto 2023",
-        "date": "2023-08-29",
-        "time": "8:30-03:00",
-        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/295521802",
-        "timezone": "America/Montevideo",
-        "description": "Esta ser\u00e1 la reuni\u00f3n de agosto de una serie de reuniones **presenciales**, enfocadas en lo **pr\u00e1ctico** y en inspirar a nuevas generaciones y a personas que no est\u00e1n involucradas a\u00fan con la comunidad. Se llevar\u00e1 a cabo en el espacio provisto por GeneXus Consulting: [Parque tecnol\u00f3gico del LATU](https://goo.gl/maps/MKpCgvcP6rsWpZ9u6) (Avenida Italia 6201), edificio Los Abetos (cowork), Sala 2. **Ver en los detalles de c\u00f3mo encontrarnos y la foto con el mapa**.\n\nEs importante destacar que **no se requieren** conocimientos previos en seguridad de aplicaciones para participar. Si bien tener conocimientos de web/frontend/backend ayuda, la idea es aprender en la marcha, as\u00ed que sin timidez :)\n\nLa din\u00e1mica de *esta jornada* ser\u00e1 la siguiente:\n\n* Pueden armarse grupos para compartir ideas y ayudarse en los ejercicios.\n\n* Los grupos tendr\u00e1n desaf\u00edos/objetivos comunes basados en el proyecto [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/).\n\n* Cada grupo tendr\u00e1 **al menos un** **referente/facilitador** disponible, colaborador de la comunidad con experiencia para apoyar en cualquier duda y generar conocimiento, mano a mano.\n\nEl requerimiento para poder participar es **traer tu notebook**, cada asistente tendr\u00e1 su ambiente de trabajo. Se proporciona a los asistentes una imagen virtual de Kali Linux preconfigurada con las herramientas necesarias para realizar el taller. Se necesita Virtualbox o VMWare para ejecutarla. Si tus recursos no son suficientes tendr\u00e1s que seguir tutoriales para instalar un proxy de ataque (Burp Suite Community o ZAP Proxy) y Juice Shop (servidor local o con Docker).\n\nLa imagen se puede descargar de ac\u00e1: [https://drive.google.com/file/d/1qjXU4Ea8KB0MTc3WRQ7eVDNMOXaxawB9/](https://drive.google.com/file/d/1qjXU4Ea8KB0MTc3WRQ7eVDNMOXaxawB9/)\n\nPara quienes usen MacOS con chip M1-M2 y VMWare est\u00e1 esta m\u00e1quina virtual con Kali Linux, OWASP ZAP y Juice Shop en Docker:\n\n[https://drive.google.com/file/d/1MKrx8efu0L4Bg71Rw8XUUxjqBiVigb8m/](https://drive.google.com/file/d/1MKrx8efu0L4Bg71Rw8XUUxjqBiVigb8m/)\n\nEl usuario y contrase\u00f1a es \"kali\". En la imagen para MacOS se levanta Juice Shop con el comando \"sudo docker start juice-shop\".\n\nPara aprovechar mejor el tiempo y el ancho de banda se recomienda asistir con todo pronto. Para verificar la estabilidad y acceso al ambiente local se compartir\u00e1 una presentaci\u00f3n (que se mostrar\u00e1 el d\u00eda del evento) con algunas instrucciones.\n\nA registrarse, **los cupos son limitados** (se pedir\u00e1 confirmaci\u00f3n para dar lugar a quienes est\u00e9n en lista de espera). \u00a1Los esperamos!\n\n***NOTA***:\n\n* *Para quienes hayan asistido a jornadas anteriores, pueden seguir con desaf\u00edos m\u00e1s complejos.*"
-    },
-    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Attacking Android applications",
@@ -368,5 +378,15 @@
         "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/295697538",
         "timezone": "Asia/Riyadh",
         "description": "**Topics covered:**\n\n* Introduction to KSA PDPL\n\n* Timelines of KSA PDPL\n\n* Position Prior to PDPL\n\n* What is the scope of Applicability\n\n* Privacy Definitions, Role of Regulatory Authority\n\n* Organizing Data Protection & Internal External compliance"
+    },
+    {
+        "group": "Wrongsecrets",
+        "repo": "www-project-wrongsecrets",
+        "name": "OWASP Frankfurt #62",
+        "date": "2023-09-21",
+        "time": "7:30+02:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/295190157",
+        "timezone": "Europe/Berlin",
+        "description": "Hi all, we are delighted to host the next in-person event in Frankfurt! For this event, we will have a range of interesting talks delivered by leaders within Product & Cyber Security. There will also be plenty of time to socialize before and after the event.\n\n_What's going to happen?\n\nWe look forward to welcoming you to our OWASP Frankfurt Meetup hosted by **codecentric AG.**\n\n_What are we going to talk about?\n\n**My CI/CD pipeline contains all security tools available! Now what...?**\n\n*Jasmin Mair*\n\nTools are helpful to enable DevSecOps, many challenges and pitfalls highlight the need for a cultural shift. Explore issues such as security resistance, conflicting KPIs and organizational silos. Real-world examples and best practices will provide actionable insights to overcome these obstacles.\n\n**Talk 2 - to be announced**\n\n_Afterwards? We will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks** kindly provided by **codecentric AG**. Due to the hard end at 21.30, everyone interested can join us at the **Bockenheimer Weinkontor** (https://goo.gl/maps/6DWRcgFEH27FkaDb8) for drinks at their own cost.\n\n_When?\n\nOur Meetup takes place on 21.09.2023 from 17.30 to 21.30 o'clock CEST.\n\n_Where?\n\ncodecentric AG, Lise-Meitner-Stra\u00dfe 4, 60486 Frankfurt am Main\n\n_Interested in **giving a talk** yourself?\n\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\n\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\n\nAlso, follow us on **[Twitter #owasp_frankfurt](https://twitter.com/owasp_frankfurt)**[ ](https://twitter.com/owasp_frankfurt)and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you for this in-person event!"
     }
 ]
