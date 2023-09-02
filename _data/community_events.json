@@ -47,7 +47,7 @@
         "time": "7:30-04:00",
         "link": "https://www.meetup.com/owaspboston/events/295661566",
         "timezone": "America/New_York",
-        "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nPresentation and speaker update coming soon!"
+        "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nThis month we will welcome Itzik Alvas, CEO & Co-founder at Entro to present to our chapter their talk: *The art of keeping secrets - Strategies for next-gen secrets security.* Itzik will share with us his experiences and teams research on the complexities of secrets management in modern application development and highlight the risk they pose.\n\nItzik started his cybersecurity journey 17 years ago when he was selected to join the elite cyber security unit of the IDF (Israel Defense Forces). He was introduced to the cyber security ecosystem there and gained enormous knowledge and experience on a nation-state level. After serving for five years, He moved to the \u2018real world\u2019 where he held various positions in the industry, including developer, DevOps, cybersecurity researcher, and CISO of a major healthcare organization, before becoming the Head of Security and SRE at Microsoft.\n\nIn 2022, Itzik Co-founded Entro Security where he serves as the CEO."
     },
     {
         "group": "Brisbane",
@@ -183,11 +183,11 @@
         "group": "Maulana Azad National Institute Of Technology",
         "repo": "www-chapter-maulana-azad-national-institute-of-technology",
         "name": "How to stay safe on Social Media?",
-        "date": "2023-09-02",
+        "date": "2023-09-16",
         "time": "2:00+05:30",
         "link": "https://www.meetup.com/owasp-maulana-azad-national-institute-of-technology-chapter/events/295772860",
         "timezone": "Asia/Kolkata",
-        "description": "Dear attendees,\n\nWe are excited to communicate with you at our upcoming event at IES Public School Bhopal on Saturday, 2nd September 2023. Please find below all the necessary information and details for the event:\n\nEvent: How to stay safe on Social Media\n\nDate: Saturday, 2nd September 2023\n\nTime: 12:00 PM - 1:30 PM\n\nAgenda:\n\n1\\. Address common problems as Cyberbullying\\, Phishing\\, Scamming\\, etc\\.\n\n2\\. Aware students about various privacy settings in social media apps\\.\n\n3\\. How to check if your social media is compromised and how to deal with it\\.\n\n4\\. Give Conclusion\n\n5\\. Play a game called Interland by google on cybersecurity by including the audience\\.\n\nYou don't need anything to have you on person to attend this event. All students are encouraged to come with an open mind and a willingness to engage in the presentation and game.\n\nWe are thrilled about this collaboration with IES school and are looking forward to a successful event. If you have any further questions or require additional information, please do not hesitate to reach out to us.\n\nThank you for your support and cooperation.\n\nBest regards,\n\nDurgesh Shah\n\nCoordinator\n\nOWASP Consortium, Manit Bhopal"
+        "description": "Dear attendees,\n\nWe are excited to communicate with you at our upcoming event at IES Public School Bhopal on Saturday, 2nd September 2023. Please find below all the necessary information and details for the event:\n\nEvent: How to stay safe on Social Media\n\nDate: Saturday, 16th September 2023\n\nTime: 12:30 PM - 2:00 PM\n\nAgenda:\n\n1\\. Address common problems as Cyberbullying\\, Phishing\\, Scamming\\, etc\\.\n\n2\\. Aware students about various privacy settings in social media apps\\.\n\n3\\. How to check if your social media is compromised and how to deal with it\\.\n\n4\\. Give Conclusion\n\n5\\. Play a game called Interland by google on cybersecurity by including the audience\\.\n\nYou don't need anything to have you on person to attend this event. All students are encouraged to come with an open mind and a willingness to engage in the presentation and game.\n\nWe are thrilled about this collaboration with IES school and are looking forward to a successful event. If you have any further questions or require additional information, please do not hesitate to reach out to us.\n\nThank you for your support and cooperation.\n\nBest regards,\n\nDurgesh Shah\n\nCoordinator\n\nOWASP Consortium, Manit Bhopal"
     },
     {
         "group": "Morocco",
@@ -238,6 +238,16 @@
         "link": "https://www.meetup.com/owasp-orlando/events/295595923",
         "timezone": "America/New_York",
         "description": "This is an In-Person Event\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nSpeaker 1: **TBD**\n\nTopic: **TBD**\n\nSpeaker 2: **TBD**\n\nTopic 2: **TBD**"
+    },
+    {
+        "group": "Oslo",
+        "repo": "www-chapter-oslo",
+        "name": "Test Driven Application Security + TBA",
+        "date": "2023-09-20",
+        "time": "8:00+02:00",
+        "link": "https://www.meetup.com/owasp-oslo/events/295822703",
+        "timezone": "Europe/Oslo",
+        "description": "Welcome to OWASP Oslo September meetup. Special thanks to venue and food sponsor Visma.\n\n**Test Driven Application Security**\n\nMost penetration tests find vulnerabilities present in the OWASP TOP 10 lists. Many originate from unclear non-functional requirements and a lack of tests with security in mind. This presentation will demonstrate a test-driven approach to application security and show how we can write automated tests to prove that our defenses work as expected. Demos will be in C#, for an API in [ASP.NET](http://asp.net/) Core 7.\n\nTarget audience\n\nAll concerned with building secure applications. The demos are in C#, it is good to have a basic understanding of C# and unit testing, but the concepts and security best practices relevant regardless of programming background and level.\n\nTobias Ahnoff - Application security specialist at Omegapoint\n\nTobias Ahnoff is an experienced .NET developer and architect with focus on application security. He specializes in implementing authentication flows and authorization for web applications and APIs that manage sensitive data in the bank, finance, and health sectors. He performs security reviews and penetration tests as part of Omegapoint Cybersecurity Gothenburg, a group of experts in application security.\n\nMartin Altenstedt - Application security specialist at Omegapoint\n\nMartin Altenstedt is a software developer and architect with 25 years of experience in Sweden's IT industry. He specializes in being able to take part in both the development and management of software. He is part of Omegapoint Cybersecurity Gothenburg, a group of experts in application security, and has developed several courses in secure application development and gives presentations on application development and security.\n\n2nd presentation TBA."
     },
     {
         "group": "Ottawa",
@@ -310,14 +320,24 @@
         "description": "Exciting news!\n\nF5 is hosting our next OWASP SG hybrid meetup - online and in person - on API Security that you won't want to miss.\n\nWe have a distinguished speaker lined up: James Lee from F5. The topics covered in this meetup will be highly relevant for individuals engaged in both AppSec within App Development and AppSec within Cyber Security.\n\nJoin us as we gather to share knowledge over delectable pizza and refreshing drinks!\n\nLimited in-person seats are available at the venue @ F5 Office, so be sure to secure your spot now. If you can't attend in person, no worries! Register to access the live stream.\n\nStay tuned for the meeting URL \u2013 we'll send it your way once you're registered.\n\nThis is an opportunity you won't want to miss to enhance your understanding of API Security. See you there!\n\n**Session 1: The new OWASP Top 10 API Security 2023**\n\nJoin us for an insightful session where we delve into the evolving landscape of API security. In this engaging event, we will uncover the advancements made in the OWASP API Top 10 from 2019 to 2023, highlighting the key changes and emerging threats.\n\nThe core focus will be on two crucial aspects of API security \u2013 tackling the challenges posed by [API10:2023 - Unsafe Consumption of APIs](https://owasp.org/API-Security/editions/2023/en/0xaa-unsafe-consumption-of-apis/) and addressing [API8:2023 - Security Misconfiguration](https://owasp.org/API-Security/editions/2023/en/0xa8-security-misconfiguration/)\n\nWe'll also address lessons learned from the Log4J vulnerability, aiming to better equip you for future situations.\n\n**Session 2: Zero Trust API Access based on OAuth**\n\nIn today's hybrid and multi-cloud environments, API communications play a pivotal role, forming a critical foundation for various organizational operations. As many organizations embrace the Zero Trust model as their core security principle, it's essential to recognize that API security holds significant importance within the context of Zero Trust design.However, API security often tends to be underestimated in Zero Trust implementation.\n\nJoin us in this session to learn how F5 Distributed Cloud solutions bridge this gap, offering Zero Trust-based API access by leveraging the standard OAuth framework and its App Segmentation integration.\n\nTo register for this event, please do so at https://www.f5.com/c/apcj-2023/event/owasp-singapore-meet-up-api-unveiled"
     },
     {
-        "group": "Tunisia",
-        "repo": "www-chapter-tunisia",
-        "name": "OWASP Tunisia online Event",
-        "date": "2023-09-01",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-tunis-meetup-group/events/295738376",
-        "timezone": "Africa/Tunis",
-        "description": "Welcome to our next **OWASP Tunisia online Event!** organized by **OWASP Tunisia Chapter** with **SecuriNets foundation**\n\n**\\- Workshop1**:\n\n**Exploring LLM Vulnerabilities with OWASP TOP 10 for LLMs**\n\nDescription:\n\nJoin us as we navigate the OWASP TOP 10 for LLMs shedding light on the most pressing security\n\nconcerns that arise in the landscape of language-based AI, delving into their remarkable potential\n\nand the hidden pitfalls they may harbor.\n\n**Our Guest: Alyssa Berriche** . Lead Cyber Threat\n\nIntelligence Analyst @Cimpress/Vistaprint\n\nAlyssa Berriche is an alumnus of the National Institute of Applied Science and Technology with a\n\ndegree in Network and Telecommunications engineering. She is currently a Lead Cyber Threat\n\nIntelligence Analyst with +7 years of professional experience in the cybersecurity field and +5 years\n\nof experience in teaching cybersecurity in private/public universities (INSAT, Tek-up, PolytechIntl) and\n\neLearning platforms. She presents at local cybersecurity conferences and webinars. She has\n\nmentored local security groups and students since 2014. Member and former president of SecuriNets\n\nINSAT, the National Cybersecurity Association, during 2014-2015. She is the author of the course\n\n\u201cAdvanced Cyber Threat Intelligence\u201d in Cybrary and \"Security for Small and Medium Businesses\" in\n\nEC-Council's CodeRed.\n\nCertifications: GCTI, ISO/IEC 27032 Cybersecurity Management, ISO/IEC27001 LA, CSI Linux Certified\n\nOSINT Analyst, CSI Linux Certified Social Media Investigator, CSI Linux Certified Dark Web Investigator\n\n- **Workshop2: Code Red: Deciphering the Depths of Active Directory Security**\n\nDescription:\n\nIn this workshop we will be talking about Active\n\nDirectory and its core Security Principles while providing hands-on\n\nDemo of some common AD attacks and how to protect ourselves against\n\nthem.\n\n**Our Guest Foued SAIDI**\n\nFoued Saidi is Technical Director @SecuriNets ISI, Penetration Tester, Cyber Security Intern @CyberUnitTechnologies.\n\nPreviously top #1 on HackTheBox Tunisia and top 60 WorldWide"
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "OWASP Suffolk Fight Club - September 2023",
+        "date": "2023-09-26",
+        "time": "9:30+01:00",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/295821190",
+        "timezone": "Europe/London",
+        "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+    },
+    {
+        "group": "Tirunelveli",
+        "repo": "www-chapter-tirunelveli",
+        "name": "Free Webinar Build Telegram Bots with Python",
+        "date": "2023-09-03",
+        "time": "4:50+05:30",
+        "link": "https://www.meetup.com/owasp-tirunelveli-chapter/events/295828929",
+        "timezone": "Asia/Kolkata",
+        "description": "Free Webinar Build Telegram Bots with Python\n\nSpeaker: Raveen Kumar"
     },
     {
         "group": "Vancouver",
