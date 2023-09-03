@@ -60,6 +60,16 @@
         "description": "In this talk, Haoxi will be covering the threat landscape of dependency systems (package managers) and why central package registries are not a good model for dependency management. He will then cover open-source tools and data feeds you can use to detect malicious packages in your source code repositories and CICD pipeline, as well as his own open-source experiments in detecting malicious packages in NPM and PyPi."
     },
     {
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP CoS September 2023",
+        "date": "2023-09-28",
+        "time": "8:00-06:00",
+        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/295850529",
+        "timezone": "America/Denver",
+        "description": "Speaker: Jeff Tomkiewicz: \"Gone Vishing: A DEFCON 31 Social Engineering Story\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\n\nhttps://cyber-center.org/"
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Self XSS, but Useful",
@@ -148,6 +158,16 @@
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/295631047",
         "timezone": "America/Fortaleza",
         "description": "Os ataques XSS (Cross-Site Scripting) s\u00e3o brechas comuns em sites, onde o explorador insere c\u00f3digo malicioso para atacar usu\u00e1rios. Isso pode levar ao roubo de informa\u00e7\u00f5es ou controle da sess\u00e3o. Existem tipos como armazenados, refletidos e DOM-based. Prevenir requer valida\u00e7\u00e3o rigorosa e pr\u00e1ticas seguras de codifica\u00e7\u00e3o, como CSP. A conscientiza\u00e7\u00e3o \u00e9 fundamental.\n\nO Java Encoder \u00e9 uma ferramenta chave contra ataques XSS. Ele converte os dados para um formato seguro, bloqueando c\u00f3digos maliciosos, auxiliando na prote\u00e7\u00e3o do site em quest\u00e3o."
+    },
+    {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #8",
+        "date": "2023-09-16",
+        "time": "0:00+05:30",
+        "link": "https://www.meetup.com/owasp-kolkata/events/295846120",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Proposed sessions for this event:\n\n* Get Started with Cyber Security and Its landscape by **Anurag Roy**\n\n* Reverse Engineering and It\u2019s Basic by **Prasenjit Kanti Paul**\n\n* GSM call flow & security features (2G,3G,4G) by **KRISHNENDU GHOSH**\n\n* Cyber Forensic by **Soham Das**"
     },
     {
         "group": "Lima",
@@ -260,16 +280,6 @@
         "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n\n150 Louis-Pasteur Private, Ottawa,\n\nUniversity of Ottawa\n\nRoom 117\n\n**Health Notice:**\n\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: https://www.youtube.com/watch?v=PDU9_aooRRU\n\n**6:00 PM EDT** Arrival, setup, mingle\n\n**6:30 PM EDT** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n\n2. **Vulkan Unveiled-Tools of the Trade.**\n\n**Abstract:**\n\nThe Vulkan files have exposed a clandestine world of state-sponsored cyberwarfare, revealing the collaboration between NTC Vulkan, a private defence contractor, and Russian intelligence agencies. This presentation delves into the significance of the leaked files, shedding light on the role of private contractors in cyber warfare and the implications for global cybersecurity. It explores the capabilities of Amezit, Skan, and Krystal2V, three prominent tools mentioned in the leaked documents, providing insights into their functionality and potential impact. By examining the authenticity of the files, assessing their usage, and analyzing the broader implications, this research aims to deepen our understanding of Russia's cyber capabilities and the challenges they pose for international security. The findings underscore the need for stronger regulations, international cooperation, and enhanced defence strategies to counter the evolving threats in the cyber domain.\n\n**Speaker Bio:**\n\nBy day, Julian works as a penetration tester hunting vulnerabilities to exploit. By night, Julian is a researcher and journalist focused on Russian cyberspace. Using his OSINT skills, Julian uncovers emerging threats to the Western world\n\nPavle is a cybersecurity analyst with an academic background in political science. He is fluent in English, French, Russian, Serbian, and Bulgarian, with a keen interest in understanding the implications of the evolving threat landscape on human and civil rights.\n\nDriven by a deep curiosity about the intersection between cybersecurity and global politics, Pavle focuses on the motivations behind state-sponsored cyberattacks, cyberwarfare domains, and emerging cyber governance.."
     },
     {
-        "group": "Patna",
-        "repo": "www-chapter-patna",
-        "name": "Session 03 - Advanced Persistent Threat",
-        "date": "2023-09-02",
-        "time": "4:30+05:30",
-        "link": "https://www.meetup.com/owasp-patna-chapter/events/295730286",
-        "timezone": "Asia/Kolkata",
-        "description": "Join **Saurabh Kashyap** in this session on ***Advanced Persistent Threats (APTs)***, where he will provide insights into the characteristics, motivations, and key differences between APTs and traditional attacks. Saurabh will explore the lifecycle of an APT attack, analyze real-world case studies, and share detection and mitigation strategies. Additionally, he will discuss future trends in the APT landscape. The session will conclude with a Q&A session, allowing participants to engage in interactive discussions and gain valuable knowledge to enhance their organization's resilience against APT attacks."
-    },
-    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter Social",
@@ -302,12 +312,12 @@
     {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
+        "name": "Security Team Goes on a Vacation: Self-service threat modeling",
         "date": "2023-09-13",
         "time": "2:00-07:00",
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/295662087",
         "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+        "description": "Instead of a lunchtime social, this month we have a guest speaker lined up that you'll be eager to see. Welcome [Jeevan Singh](https://www.linkedin.com/in/jeevansecurity/) as he helps us explore self-service threat modeling!\n\nThreat Modeling is an important part of every company\u2019s Security Development Lifecycle, but as development teams grow bigger, Security will have to choose which features they want to Threat Model or they will become a bottleneck for the development organization.\n\nWhat if I told you, you could have your cake and eat it too? It is possible to scale your threat modeling program to \\*every\\* feature and you don\u2019t have to be a bottleneck to the development organization. What if I also told you that the Threat Models in this utopia are also of higher quality as well?\n\nIn this utopian world, Threat Modeling is no longer the Application Security team\u2019s responsibility. The responsibility now lies with the development teams. Self-serve Threat Modeling is the way of the future.\n\n* [Slack @ #chapter-seattle](https://bit.ly/owasp-seattle-slack)\n\n* [seattle-chapter@owasp.org](https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Singapore",
