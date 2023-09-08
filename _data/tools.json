@@ -1861,5 +1861,23 @@
       "platforms": "Windows/Linux/SaaS/On-Premises",
       "note": "An agent-less full-stack vulnerability and patch management platform for identifying and remediating vulnerabilities in servers, network devices, end-points, web application and mobile application",
       "type": "DAST"
+   },
+   {
+      "title": "ABOM Scanner",
+      "url": "https://vulert.com/abom",
+      "owner": "Vulert",
+      "license": "Free",
+      "platforms": "SaaS",
+      "note": "ABOM is an online SCA ( software composition analysis ) tool that scans your application for open-source vulnerabilities using only a manifest file. Covering PHP, JavaScript, Rust, Python, and other top languages.",
+      "type": "SAST"
+   },
+   {
+      "title": "Vulert",
+      "url": "https://vulert.com",
+      "owner": "Vulert",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "An SCA solution that seamlessly monitors applications for open-source vulnerabilities without code access or installations, delivering real-time alerts.",
+      "type": "SAST"
    }
 ]
