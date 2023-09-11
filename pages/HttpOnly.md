@@ -54,7 +54,7 @@ modification by malicious script.
 
 ### Mitigating the Most Common XSS attack using HttpOnly
 
-According to [Michael Howard](http://msdn2.microsoft.com/en-us/library/ms972826.aspx), Senior
+According to [Michael Howard](https://en.wikipedia.org/wiki/Michael_Howard_(Microsoft)), Senior
 Security Program Manager in the Secure Windows Initiative group at
 Microsoft, the majority of XSS attacks target theft of session cookies.
 A server could help mitigate this issue by setting the HttpOnly flag on
