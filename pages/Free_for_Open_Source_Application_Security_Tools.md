@@ -184,6 +184,7 @@ Free tools of this type:
   - Debricked: free for open source projects or smaller teams.
      - Identifies, fixes and prevents known vulnerabilities. Read more at [https://debricked.com](https://debricked.com)
      - [Create a free account](https://app.debricked.com/en/register)
+   - [retire.js](https://github.com/RetireJS/retire.js): free open source tool for finding javascript libraries with known vulnerabilities. Originally a command line tool, and there are plugins for browsers and scanners.
        
 
 Commercial tools of this type that are free for open source:
