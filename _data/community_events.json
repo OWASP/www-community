@@ -62,6 +62,16 @@
     {
         "group": "Boston",
         "repo": "www-chapter-boston",
+        "name": "OWASP Boston Chapter October 2023 Meetup",
+        "date": "2023-10-11",
+        "time": "7:30-04:00",
+        "link": "https://www.meetup.com/owaspboston/events/295661579",
+        "timezone": "America/New_York",
+        "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nPresentation and speaker update coming soon!"
+    },
+    {
+        "group": "Boston",
+        "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter September 2023 Meetup",
         "date": "2023-09-13",
         "time": "7:30-04:00",
@@ -150,16 +160,6 @@
         "description": "Hello esteemed members and web security enthusiasts!\n\nWe are thrilled to announce our next meetup scheduled for September 2023, and we'd love for you to be there!\n\n**Details of the Event:**\n\n* **Host:** Connecticut OWASP (Open Web Application Security Project) Chapter\n* **Date:** Thursday September 21th 2023\n* **Time:** 6:00 PM to 9:00 PM\n* **Location:** Thomas Hooker Brewery\n* **Address:** 16 Tobey Rd, Bloomfield, CT 06002-3522\n\n**Highlights of the Meetup:**\n\n* Engage with fellow web security professionals and enthusiasts.\n* Network and share insights over some of the finest brews offered by Thomas Hooker Brewery.\n* This event is free and open to the public\n\n**RSVP:**\n\nYour participation is important to us! Kindly let us know if you'll be attending by 9/7/23. This will help us in making appropriate arrangements.\n\n**About OWASP:**\n\nFor those who are new, the Open Web Application Security Project (OWASP) is an open community dedicated to enabling organizations to develop, purchase, and maintain software applications that can be trusted.\n\nOur local Connecticut Chapter regularly hosts meetups and events to bring together professionals and students interested in web application security.\n\nWe're looking forward to an evening of learning, networking, and fun. Hope to see you there!\n\nBest Regards,\n\n[Bill Reyor/OWASP Connecticut Chapter Team]"
     },
     {
-        "group": "Italy",
-        "repo": "www-chapter-italy",
-        "name": "OWASP Italy Day 2023",
-        "date": "2023-09-11",
-        "time": "9:00+02:00",
-        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/294083412",
-        "timezone": "Europe/Rome",
-        "description": "In collaboration with Politecnico di Milano (Polimi) University, we are excited to announce the upcoming OWASP Italy Day 2023 on September 11th. It will be a full-day event dedicated to application security (AppSec)!\n\nThe Open Worldwide Application Security Project (OWASP) stands as a well known international non-profit organization dedicated to the crucial field of web and application security.\n\nAt its core, OWASP operates as a vibrant online community, diligently producing a wealth of freely-available resources. These include insightful articles, comprehensive methodologies, extensive documentation, cutting-edge tools, and advanced technologies, all focused on bolstering web application security.\n\nThe impact of OWASP's work extends far and wide, with numerous standards, books, tools, and organizations drawing upon the invaluable insights provided by the Top OWASP 10 project. Esteemed entities such as MITRE, PCI DSS, the Defense Information Systems Agency (DISA-STIG), and the United States Federal Trade Commission (FTC) all recognize and reference OWASP's contributions.\n\nAn eagerly anticipated event in the OWASP calendar is the OWASP Italy Day 2023. This captivating one-day conference is exclusively dedicated to web application and software security, as well as application security testing tools and technologies.\n\nIt presents a golden opportunity for attendees to expand their knowledge on critical application security topics and to network with esteemed professionals and experts. Participants include application security professionals/managers, software engineers, software quality engineers/testers, and computer science students.\n\nFor further details regarding the OWASP Italy Day 2023, please refer to the following link:\n\n[https://owasp.org/www-chapter-italy/events/OWASPItalyDay2023](https://owasp.org/www-chapter-italy/events/OWASPItalyDay2023)\n\n**REGISTRATION IS NOW CLOSED**\n\n**Important Registration Update**\nWe would like to inform you that due to an overwhelming response, registration for the upcoming OWASP Italy event in collaboration with Politecnico di Milano is now closed.\nWe apologize for any inconvenience this may cause and appreciate your understanding."
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -170,24 +170,14 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2023-09-11",
-        "time": "8:45-04:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/295620096",
-        "timezone": "America/New_York",
-        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
-    },
-    {
         "group": "Jakarta",
         "repo": "www-chapter-jakarta",
-        "name": "OWASP Jakarta Night x Fastly.com (Offline Meetup)",
+        "name": "OWASP Jakarta Night x Fastly x A10 (Offline Meetup)",
         "date": "2023-09-15",
         "time": "8:00+07:00",
         "link": "https://www.meetup.com/owasp-jakarta-chapter/events/295313578",
         "timezone": "Asia/Jakarta",
-        "description": "Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\n\u2022 Tool dan standar keamanan aplikasi\n\n\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n\n\u2022 Kendali keamanan dan pustaka standar\n\n\u2022 Cabang lokal di seluruh dunia\n\n\u2022 Riset terkini\n\n\u2022 Konferensi lengkap di seluruh dunia\n\n\u2022 Mailing list\n\n\u2022 Dan banyak lagi \u2026 di www.owasp.org\n\nKali ini OWASP Jakarta Meetup akan membahas:\n\nJadwal Acara\n\n6:00PM: Registrasi Peserta\n\n6:30PM: Topic Terkini dari OWASP\n\n7:00PM: Presentasi topik khusus:\n\n\u2018Evolusi Bot dan Penipuan\u2019 oleh Fastly (30mins)\n\n\u2018Keamanan Aplikasi Modern\u2019 oleh Fastly partner A10 (30mins)\n\n8:00PM: TBD\n\n8:30PM: Foto session and networking\n\nHosts / Speakers :\n\nHos: Flo\n\nOWASP JKT Chairman & CEO Appsec.asia : Ade Yoseman Putra\n\nPembicara Fastly: Guy Brown\n\nPembicara A10: untuk di konfirmasi(TBC)\n\nVenue :\n\nWework Parc 18\n\nTower E, SCBDJl. Jend. Sudirman No.Kav. 52-53Jakarta, DKI Jakarta 12190\n\nthank you sponsor this event - Fastly.com"
+        "description": "Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital, kita akan kesulitan mencapai keamanan aplikasi dengan ancaman yang meningkat secara eksponensial. *Open Worldwide Application Security Project* (OWASP) merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\n* Tool dan standar keamanan aplikasi\n* Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n* Kendali keamanan dan pustaka standar\n* Cabang lokal di seluruh dunia\n* Riset terkini\n* Konferensi lengkap di seluruh dunia\n* Mailing list\n* dan banyak lagi \u2026 di www.owasp.org\n\nKali ini OWASP Jakarta Meetup akan membahas:\n\n**Agenda**\n6:00PM: Registrasi Peserta\n6:30PM: Topic Terkini dari OWASP\n7:00PM: Presentasi topik khusus:\n\\- \u2018Evolusi Bot dan Penipuan\u2019 oleh Fastly \\(30mins\\)\n\\- \u2018Keamanan Aplikasi Modern\u2019 oleh Fastly partner A10 \\(30mins\\)\n8:00PM: TBD\n8:30PM: Foto session and networking\n\n**Hosts / Speakers**\n**Host:** Flo\n**Speakers:**\n\n* OWASP Jakarta Chairman & CEO Appsec.asia : Ade Yoseman Putra\n* OWASP Jakarta Vice Chairman: Achmad Syafa'at\n* Pembicara Fastly: Guy Brown\n* Pembicara A10: Hue Fatt Seng\n\n**Venue** :\nWework Parc 18\nTower E, SCBD\nJl. Jend. Sudirman No.Kav. 52-53Jakarta, DKI Jakarta 12190\n\nThank you sponsor this event - Fastly.com"
     },
     {
         "group": "Joao Pessoa",
@@ -208,6 +198,16 @@
         "link": "https://www.meetup.com/owasp-kolkata/events/295846120",
         "timezone": "Asia/Kolkata",
         "description": "#### Proposed sessions for this event:\n\n* Get Started with Cyber Security and Its landscape by **Anurag Roy**\n* Reverse Engineering and It\u2019s Basic by **Prasenjit Kanti Paul**\n* GSM call flow & security features (2G,3G,4G) by **KRISHNENDU GHOSH**\n* Cyber Forensic by **Soham Das**"
+    },
+    {
+        "group": "Lagos",
+        "repo": "www-chapter-lagos",
+        "name": "Web App Security Webinar Registration - Sept 14th, 2023.",
+        "date": "2023-09-14",
+        "time": "2:00+01:00",
+        "link": "https://www.meetup.com/owasp-lagos-meetup-group/events/296039507",
+        "timezone": "Africa/Lagos",
+        "description": "Its just a Webinar on Web App Security."
     },
     {
         "group": "Lima",
@@ -238,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/294467841",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Safety in your Embedded Systems, how to Prepare for the next Generation\n\nJoin us for great networking, dinner and drinks, and see a presentation by **Stephen Olsen**, Principal Field Application Engineer for North America with BlackBerry QNX.\n\n**ABSTRACT**: Discover the intricate connection between safety and security in product development, where safeguarding against external threats and internal risks is paramount. Delve into the nuances of isolating safety and non-safety functions, along with securing data. This talk addresses the significance of safety across various industries, particularly in the evolving medical field. Gain insights into the concept of virtualization and its optimal application. Explore why safety matters, its diverse applications, and the critical need to protect cutting-edge devices. A must-attend discussion for those shaping the future of embedded systems.\n\n**Thanks to our Sponsor**: *[BlackBerry QNX](https://blackberry.qnx.com/en)*\n\n*BlackBerry\u00ae QNX\u00ae is a trusted supplier of commercial operating systems, hypervisors, development tools, support, and services, all purpose-built for the world\u2019s most critical embedded systems. BlackBerry QNX helps customers streamline their development efforts to efficiently launch safe, secure, and reliable systems. Our technology is trusted in more than 235 million vehicles and is deployed in embedded systems around the world across a range of industries including aerospace and defense, automotive, commercial vehicles, heavy machinery, industrial controls, medical, rail and robotics.*\n\n**SPONSORSHIP Opportunities Available**\n\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "The Techno Security & Digital Forensics Conference 2023",
-        "date": "2023-09-11",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/295892104",
-        "timezone": "America/Los_Angeles",
-        "description": "**OWASP LA** has organized an exceptional opportunity for OWASP membership to participate in *[Techno Security & Digital Forensics Conference](https://www.technosecurity.us/west/owaspla23-campaign)*, September 11-13 in Pasadena, CA. Join us to learn about new tools, training, and networking.\nUse promo code **OWASPLA23** for **10% off** registration! Check the full schedule at [Techno Security & Digital Forensics Conference - Schedule at a Glance](https://www.technosecurity.us/west/schedule-at-a-glance)\n\nNOTE \\*\\*\\* THIS IS NOT A FREE EVENT \\*\\*\\*\n\nThe West edition of Techno Security & Digital Forensics Conference will take place September 11-13, 2023, at the Pasadena Convention Center in Pasadena, CA. Attend the conference for a unique education experience that blends the digital forensics, cybersecurity, and eDiscovery industries for collaboration between government and private sectors. Educational sessions cover topics within the following primary tracks from which CPE credits can be earned: Cybersecurity, eDiscovery, Forensics, Investigations, and Sponsor Demos. For additional event details and to register, visit https://www.technosecurity.us/west/owaspla23-campaign\n\nDon't forget to visit us at the OWASP Los Angeles booth!"
     },
     {
         "group": "Manchester",
@@ -318,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-newcastle-chapter/events/294887196",
         "timezone": "Europe/London",
         "description": "After the success of our last joint meetup we're back for another. It's September which means CyberFest. We're delighted to be joining up with the wonderful Dev.Ops.North.East for an evening about all things Dev**Sec**Ops.\n\nWe\u2019ll be doing our usual two talks and pizza format.\n\nRough schedule:\n\n1800 - 1815 Arrival and networking\n\n1815 - 1820 OWASP Newcastle and D.O.N.E. Welcome\n\n1820 - 1830 Andrew Pounder on CyberNorth and CyberFirst\n\n1830 - 1920 Talk one\n\n1920 - 2000 Pizza and networking\n\n2000 - 2045 Talk two\n\n2045 - onwards Pub?\n\nTalk overviews:\n\nTalk 1\n\n**Title:** Driving the most out of DAST\n\n**Speaker:** Simon Gurney\n\n**Speaker Bio:** Simon is one of the Punk Security Co-Founders and has over 15 years experience working within IT, primarily focused on automation and InfoSec.\n\nSimon has a wealth of experience and approaches DevOps from an infrastructure background, but is a keen Python and .NET CORE developer. He has authored two open source projects, pwnSpoof and SMBeagle.\n\n**Talk Synopsis:** Unlike SAST and IAST, DAST can be a difficult tool to implement and configure in DevSecOps pipelines. In this session, we will explore why this is and what the real prerequisites are to getting meaningful results from DAST tooling.\n\nSimon will explore a few different DAST tools, including ZAP, and discuss how using functional testing scripts can help navigate your apps and drive out DAST findings.\n\nTalk 2\n\n**Title:** Securing your software supply chain\n\n**Speaker:** Jonny Brodie\n\n**Speaker Bio:** Jonny Brodie is Cloud Security Engineer, currently working in DevSecOps.\n\n**Talk Synopsis:** The ability to reuse opened sourced libraries and packages has given rise to rapid software development. This talk will discuss what we defined in code as part of DevOps and how we can secure that code. The talk will cover Application Code, Infrastructure as Code and Dockerfile configuration.\n\nAs always, tickets aren\u2019t required but help us gauge how much food to order.\n\nYou can also join our Google Group which is how we'll be sending out emails to events and is also going to be used as a forum for discussion.\n\nhttps://groups.google.com/a/owasp.org/forum/#!forum/newcastle-chapter"
+    },
+    {
+        "group": "Northern Virginia",
+        "repo": "www-chapter-northern-virginia",
+        "name": "What lessons have we actually learned from the past?",
+        "date": "2023-09-14",
+        "time": "8:00-04:00",
+        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/296044502",
+        "timezone": "America/New_York",
+        "description": "As we become more and more familiar with security risks, common sense suggests that we apply lessons learned from past mistakes....but this is not always the case.\nWe still regularly find basic security failings in operational technology, maritime, and automotive environments. This is further compounded with the application of IoT technologies in ever more innovative ways.\nIn this presentation we will demonstrate the vulnerabilities found in cars, ships, oil rigs, and toys which show that perhaps we haven't learned many lessons from the past at all."
     },
     {
         "group": "Orlando",
@@ -418,6 +418,16 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/295821190",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+    },
+    {
+        "group": "Switzerland",
+        "repo": "www-chapter-switzerland",
+        "name": "OWASP Top 10 for Large Language Model Applications (for AI systems)",
+        "date": "2023-09-18",
+        "time": "8:00+02:00",
+        "link": "https://www.meetup.com/owaspswitzerland/events/296043082",
+        "timezone": "Europe/Zurich",
+        "description": "The OWASP Top 10 for Large Language Model Applications project ([https://owasp.org/www-project-top-10-for-large-language-model-applications/](https://owasp.org/www-project-top-10-for-large-language-model-applications/)) aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs). The project provides a list of the top 10 most critical vulnerabilities often seen in LLM applications, highlighting their potential impact, ease of exploitation, and prevalence in real-world applications.\n\nWith Steve Wilson as a speaker you get a high quality talk directly from the leader of the OWASP Top 10 for LLM Applications!\n\nSteve will introduce you to the Top 10 in an understandable and structured way, and talk about pitfalls and his broad experience in this field.\n\n(Please use the Link to the online event to join. Note that the direct link is made available just a couple of hours before the event.)"
     },
     {
         "group": "Triangle Nc",
