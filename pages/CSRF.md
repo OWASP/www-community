@@ -1,3 +1,16 @@
+---
+
+layout: col-sidebar
+title: "CSRF"
+author: "Tholkappiar"
+contributors: ["tholkappiar"]
+permalink: /CSRF_Attack
+tags: ["attack", "CSRF"]
+
+---
+
+
+
 # Cross-Site Request Forgery (CSRF)
 
 ## Table of Contents
