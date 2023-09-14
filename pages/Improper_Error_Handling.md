@@ -61,7 +61,7 @@ are susceptible to error handling problems.
 
 ## Examples and References
 
-- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+- [OWASP Testing Guide](/www-project-web-security-testing-guide/)
 
 ## How to Determine If You Are Vulnerable
 
