@@ -70,16 +70,6 @@
         "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nPresentation and speaker update coming soon!"
     },
     {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston Chapter September 2023 Meetup",
-        "date": "2023-09-13",
-        "time": "7:30-04:00",
-        "link": "https://www.meetup.com/owaspboston/events/295661566",
-        "timezone": "America/New_York",
-        "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nThis month we will welcome Itzik Alvas, CEO & Co-founder at Entro to present to our chapter their talk: *The art of keeping secrets - Strategies for next-gen secrets security.* Itzik will share with us his experiences and teams research on the complexities of secrets management in modern application development and highlight the risk they pose.\n\nItzik started his cybersecurity journey 17 years ago when he was selected to join the elite cyber security unit of the IDF (Israel Defense Forces). He was introduced to the cyber security ecosystem there and gained enormous knowledge and experience on a nation-state level. After serving for five years, He moved to the \u2018real world\u2019 where he held various positions in the industry, including developer, DevOps, cybersecurity researcher, and CISO of a major healthcare organization, before becoming the Head of Security and SRE at Microsoft.\n\nIn 2022, Itzik Co-founded Entro Security where he serves as the CEO."
-    },
-    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "OWASP Suffolk Fight Club - September 2023",
@@ -300,16 +290,6 @@
         "description": "Join us for the 2023 Global AppSec-Singapore (virtual) conference.\n\nConference will be presented through the conference's Whova app (access provided after registration) and training will be presented via Zoom (private links provided to registrants).\n\n**NOTE:** The conference's schedule is 9:00 a.m. - 5:00 p.m. Singapore Time (UTC+8) each day.\n\nDesigned for private and public sector InfoSec professionals, the one-day OWASP conference equips developers, defenders, and advocates to build a more secure web. We are offering educational\n\n* Three (3) one-day training courses, 4th October - US $260\n* API Security Testing 101 (Abdessamad Temmar)\n* Threat Modelling: From none to done (John DiLeo)\n* Don\u2019t trust my input: Frontend Security for Developers (Gian-Luca Frei)\n* One (1) two day training course, 3rd-4th October - US $1,010\n* Hacking Modern Web Apps - Master the Future of Attack Vectors (Ashwin Shenoi)\n* One-day conference, 5th October - US $35.00\n\nConference and Training schedule: [https://singapore.globalappsec.org/schedule/](https://singapore.globalappsec.org/schedule/)\nRegistration link: [https://whova.com/portal/registration/owasp_202310/](https://whova.com/portal/registration/owasp_202310/)"
     },
     {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP New Zealand - Auckland-area Meetup",
-        "date": "2023-09-13",
-        "time": "8:00+12:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291721023",
-        "timezone": "Pacific/Auckland",
-        "description": "**NOTE DATE CHANGE:** Due to a scheduling conflict, the September Meetup isn't on its usual date. This month, we're meeting on **Wednesday, 13 September.**\n\nFor our September Meetup, our friends at SMX ([smxemail.com](https://smxemail.com/)) have kindly agreed to be our hosts. SMX's office is located in the B:HIVE shared workspace, in Takapuna, and we'll be meeting in one of the ground-level conference rooms.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nIn late 2021, we restarted our introductory coverage of the OWASP Top 10, with the 2021 edition, and we're nearing the end of the cycle. Our Top 10 topic for September will be **A09:2021 - Security Logging and Monitoring Failures.**\n\n**Technical Topic Speaker:** John DiLeo (IriusRisk and OWASP NZ)\n\n**Talk Title:** Listener's Choice (I have a few talks I can do, or we can have a general AMA session about OWASP projects/tools, or...)\n\nThe Auckland-area OWASP Meetup usually takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays.\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make."
-    },
-    {
         "group": "Newcastle Uk",
         "repo": "www-chapter-newcastle-uk",
         "name": "OWASP x D.O.N.E.",
@@ -410,6 +390,16 @@
         "description": "**Topics covered:**\n\n* Introduction to KSA PDPL\n* Timelines of KSA PDPL\n* Position Prior to PDPL\n* What is the scope of Applicability\n* Privacy Definitions, Role of Regulatory Authority\n* Organizing Data Protection & Internal External compliance"
     },
     {
+        "group": "Sacramento",
+        "repo": "www-chapter-sacramento",
+        "name": "September Meetup: Threat Modeling Considerations for Silicon Development",
+        "date": "2023-09-20",
+        "time": "9:00-07:00",
+        "link": "https://www.meetup.com/owasp-sacramento-chapter/events/296079121",
+        "timezone": "America/Los_Angeles",
+        "description": "OWASP Sacramento will meet the third Wednesday of each month. We will announce topics 2-3 weeks in advanced of our meetups.\n\n7PM-9PM\n\nPlease join our [Slack](https://owasp.org/slack/invite) @ #chapter-sacramento\n\nAgenda\n\n* Food and Beverages\n* Community Topics\n* Threat Modelling Considerations for Silicon Development"
+    },
+    {
         "group": "Salt Lake City",
         "repo": "www-chapter-salt-lake-city",
         "name": "OWASP-SLC / Wasatch AppSec - September Meetup - In person @ Weave (Lehi, UT)",
@@ -428,16 +418,6 @@
         "link": "https://www.meetup.com/owasp-sao-jose-dos-campos-chapter/events/295736158",
         "timezone": "America/Sao_Paulo",
         "description": "Prezados entusiastas de tecnologia,\n\nVoc\u00ea est\u00e1 convidado para um emocionante evento online que ir\u00e1 explorar o fascinante mundo da Carreira de Tecnologia da Informa\u00e7\u00e3o (TI). Se voc\u00ea est\u00e1 considerando entrar na \u00e1rea de TI, j\u00e1 est\u00e1 nela ou apenas tem curiosidade sobre os aspectos reais por tr\u00e1s dos mitos, este encontro \u00e9 feito para voc\u00ea!\n\n**Tema: Carreira de TI - Verdades e Mitos** **Data: 14/09/2023** **Hor\u00e1rio: 21:00** **Local: Online**\n\nJunte-se a n\u00f3s enquanto exploramos os altos e baixos da Carreira de TI, desvendando mitos comuns e trazendo \u00e0 tona as verdades que moldam o setor. Teremos a honra de receber especialistas do campo que compartilhar\u00e3o suas hist\u00f3rias pessoais, insights sobre o setor e dicas pr\u00e1ticas para navegar na carreira de TI.\n\n**Destaques do Evento:**\n\n* **Mitologia vs. Realidade:** Vamos desmascarar os mitos populares que cercam a TI e discutir as realidades que os profissionais enfrentam.\n* **Jornadas Inspiradoras:** Nossos palestrantes compartilhar\u00e3o suas jornadas \u00fanicas na ind\u00fastria, incluindo desafios superados e conquistas marcantes.\n* **Orienta\u00e7\u00e3o de Carreira:** Aprenda sobre as diferentes trilhas de carreira em TI, oportunidades de crescimento e como se preparar para o sucesso.\n* **Perguntas e Respostas:** Um momento valioso para voc\u00ea tirar suas d\u00favidas diretamente com nossos experientes palestrantes.\n*\n\nEste \u00e9 o momento perfeito para obter insights de profissionais que prosperam na ind\u00fastria de TI e desmistificar as ideias preconcebidas. Independentemente de voc\u00ea ser um estudante aspirante, um profissional em transi\u00e7\u00e3o de carreira ou um veterano da ind\u00fastria, este Meetup oferece uma oportunidade \u00fanica para explorar e se conectar.\n\n**Agende seu lugar hoje mesmo!**\n\nhttps://youtube.com/live/wmRllgSdzRk\n\nVenha se juntar a n\u00f3s para uma tarde enriquecedora de aprendizado e discuss\u00e3o. Espalhe a palavra entre seus colegas de tecnologia e amigos que tamb\u00e9m possam se beneficiar com essa experi\u00eancia.\n\nMal podemos esperar para ver voc\u00ea l\u00e1 e compartilhar insights valiosos sobre a emocionante Carreira de TI!\n\nAtenciosamente,\n\nOWASP S\u00e3o Jos\u00e9 dos Campos"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Team Goes on a Vacation: Self-service threat modeling",
-        "date": "2023-09-13",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/295662087",
-        "timezone": "America/Los_Angeles",
-        "description": "Instead of a lunchtime social, this month we have a guest speaker lined up that you'll be eager to see. Welcome [Jeevan Singh](https://www.linkedin.com/in/jeevansecurity/) as he helps us explore self-service threat modeling!\n\nThreat Modeling is an important part of every company\u2019s Security Development Lifecycle, but as development teams grow bigger, Security will have to choose which features they want to Threat Model or they will become a bottleneck for the development organization.\n\nWhat if I told you, you could have your cake and eat it too? It is possible to scale your threat modeling program to \\*every\\* feature and you don\u2019t have to be a bottleneck to the development organization. What if I also told you that the Threat Models in this utopia are also of higher quality as well?\n\nIn this utopian world, Threat Modeling is no longer the Application Security team\u2019s responsibility. The responsibility now lies with the development teams. Self-serve Threat Modeling is the way of the future.\n\n* [Slack @ #chapter-seattle](https://bit.ly/owasp-seattle-slack)\n* [seattle-chapter@owasp.org](https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Suffolk",
@@ -460,6 +440,16 @@
         "description": "The OWASP Top 10 for Large Language Model Applications project ([https://owasp.org/www-project-top-10-for-large-language-model-applications/](https://owasp.org/www-project-top-10-for-large-language-model-applications/)) aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs). The project provides a list of the top 10 most critical vulnerabilities often seen in LLM applications, highlighting their potential impact, ease of exploitation, and prevalence in real-world applications.\n\nWith Steve Wilson as a speaker you get a high quality talk directly from the leader of the OWASP Top 10 for LLM Applications!\n\nSteve will introduce you to the Top 10 in an understandable and structured way, and talk about pitfalls and his broad experience in this field.\n\n(Please use the Link to the online event to join. Note that the direct link is made available just a couple of hours before the event.)"
     },
     {
+        "group": "Tirunelveli",
+        "repo": "www-chapter-tirunelveli",
+        "name": "Cyber Forensic Webinar ",
+        "date": "2023-09-16",
+        "time": "8:00+05:30",
+        "link": "https://www.meetup.com/owasp-tirunelveli-chapter/events/296077500",
+        "timezone": "Asia/Kolkata",
+        "description": "Fill this form to join:\nhttps://forms.gle/2kiau7Bp8FYQxDks5"
+    },
+    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Threat Modeling in a Zero Trust World",
@@ -470,6 +460,16 @@
         "description": "Zero trust is all the rage. Nevertheless, zero trust has vast implications for AppSec and threat modeling. Zero trust threat modeling means the death of the trust boundary and assumes attackers are in the environment, and data sources and flows can no longer hide.\nApply the concept of zero trust to threat modeling by understanding what changes and considering a threat model of the zero-trust architecture. Explore new design principles in a zero-trust threat model and apply a mnemonic and taxonomy of threats impacting zero-trust applications.\nLong live the threat model, but say goodbye to the trust boundary."
     },
     {
+        "group": "Uruguay",
+        "repo": "www-chapter-uruguay",
+        "name": "OWASP Meetup: Developer mode",
+        "date": "2023-09-27",
+        "time": "8:30-03:00",
+        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/296064633",
+        "timezone": "America/Montevideo",
+        "description": "\u00bfTe interesa una pr\u00e1ctica de ciberseguridad pensada **exclusivamente para desarrolladores**?\n\nEn esta Meetup, utilizando el proyecto [OWASP Secure Coding Dojo](https://owasp.org/www-project-secure-coding-dojo/) tendremos una sesi\u00f3n de ejercicios que incluyen **revisi\u00f3n de c\u00f3digo** y **detecci\u00f3n de vulnerabilidades**. Los desaf\u00edos son guiados y se cuenta con el apoyo de expertos en seguridad de aplicaciones.\n\nSolo precisas **llevar una notebook** para participar, sin descarga de materiales o herramientas. Solo se utilizar\u00e1 un navegador.\n\nEn esta instancia la Meetup ser\u00e1 en las oficinas de [Switch Software Solutions](https://goo.gl/maps/D9c8LeWwP8ebYzJ29).\n\n**IMPORTANTE**: *Las medidas de seguridad del host requieren que los asistentes provean de antemano **nombre** y **documento de identidad**. Al ingresar a las oficinas adem\u00e1s se pedir\u00e1 el **n\u00famero de tel\u00e9fono**. Estos datos se pedir\u00e1n a los asistentes confirmados el d\u00eda previo al evento. Dejamos a criterio de los asistentes si quieren ofrecer tal informaci\u00f3n o desistir de atender.*"
+    },
+    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Attacking Android applications",
@@ -478,6 +478,16 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248516",
         "timezone": "America/Vancouver",
         "description": "**Attacking Android applications** with **Harsh Modi**\n\nThis talk will cover in depth on how attackers attack android applications in the wild, and earn bounties from it. Modern methodologies, tools and techniques with live demonstration will be covered. The viewers will dive into basic understanding of android applications to advance techniques used in the modern world. Finally, some core devsecops concepts will be introduced and how the vulns are mitigated at an organizational level.\n\n**Speaker**\n\nWith over 7 years of dedicated experience as an Offensive Security Engineer and Penetration Tester, Harsh Modi has honed an exceptional skill set in identifying and mitigating security vulnerabilities. His relentless pursuit of knowledge and mastery in the field has propelled him to become a respected figure in the cybersecurity landscape. Alongside his dynamic role, he has played a pivotal part in shaping the security domain as an Entrepreneur and Lead Security Architect at Bell. His influence extends beyond corporate boundaries, as he also serves as the Director of the ISACA Mentorship Program, nurturing the next generation of security professionals. A sought-after speaker, Harsh Modi has graced prestigious platforms such as VIPSS, BSides Vancouver, OWASP Vancouver, BSides Edmonton, and BSides Calgary, where he shares invaluable insights and contributes to the industry's advancement. With an unwavering commitment to excellence, Harsh Modi continues to champion a more secure digital realm."
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "Monthly SAMM community call",
+        "date": "2023-10-11",
+        "time": "5:30-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/291889799",
+        "timezone": "America/New_York",
+        "description": "Welcome to our monthly SAMM community call Wednesday 11th October, (each 2nd Wednesday of the month).\n\nAt 21:30 CET, which is 3:30 pm EDT/EST.\n\nJoin Zoom Meeting:"
     },
     {
         "group": "Security Integration System",
