@@ -170,16 +170,6 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "OWASP Jakarta Night x Fastly x A10 (Offline Meetup)",
-        "date": "2023-09-15",
-        "time": "8:00+07:00",
-        "link": "https://www.meetup.com/owasp-jakarta-chapter/events/295313578",
-        "timezone": "Asia/Jakarta",
-        "description": "Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital, kita akan kesulitan mencapai keamanan aplikasi dengan ancaman yang meningkat secara eksponensial. *Open Worldwide Application Security Project* (OWASP) merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\n* Tool dan standar keamanan aplikasi\n* Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n* Kendali keamanan dan pustaka standar\n* Cabang lokal di seluruh dunia\n* Riset terkini\n* Konferensi lengkap di seluruh dunia\n* Mailing list\n* dan banyak lagi \u2026 di www.owasp.org\n\nKali ini OWASP Jakarta Meetup akan membahas:\n\n**Agenda**\n6:00PM: Registrasi Peserta\n6:30PM: Topic Terkini dari OWASP\n7:00PM: Presentasi topik khusus:\n\\- \u2018Evolusi Bot dan Penipuan\u2019 oleh Fastly \\(30mins\\)\n\\- \u2018Keamanan Aplikasi Modern\u2019 oleh Fastly partner A10 \\(30mins\\)\n8:00PM: TBD\n8:30PM: Foto session and networking\n\n**Hosts / Speakers**\n**Host:** Flo\n**Speakers:**\n\n* OWASP Jakarta Chairman & CEO Appsec.asia : Ade Yoseman Putra\n* OWASP Jakarta Vice Chairman: Achmad Syafa'at\n* Pembicara Fastly: Guy Brown\n* Pembicara A10: Hue Fatt Seng\n\n**Venue** :\nWework Parc 18\nTower E, SCBD\nJl. Jend. Sudirman No.Kav. 52-53Jakarta, DKI Jakarta 12190\n\nThank you sponsor this event - **Fastly** and **A10**"
-    },
-    {
         "group": "Joao Pessoa",
         "repo": "www-chapter-joao-pessoa",
         "name": "Os ataques XSS e sua mitiga\u00e7\u00e3o com o OWASP Java Encoder",
@@ -370,6 +360,16 @@
         "description": "Em setembro teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 28/09 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n**Link para a transmiss\u00e3o:** https://www.youtube.com/watch?v=-xYckJK3VY8\n\n**Confira nossa agenda:**\n\n**19h30-20h30**\n**\"Generative AI na Cria\u00e7\u00e3o de Ataques Cibern\u00e9ticos\"**\n\nNesta palestra sobre \"Generative AI na Cria\u00e7\u00e3o de Ataques Cibern\u00e9ticos\", exploraremos como a intelig\u00eancia artificial generativa, como as Redes Generativas Adversariais (GANs), est\u00e1 sendo utilizada por cibercriminosos para criar deepfakes e conte\u00fado sint\u00e9tico enganoso. Abordaremos os desafios e riscos que essa tecnologia traz para a seguran\u00e7a cibern\u00e9tica e a privacidade, discutindo casos reais de ataques prejudiciais. Al\u00e9m disso, examinaremos t\u00e9cnicas de detec\u00e7\u00e3o e defesa contra amea\u00e7as geradas por IA e refletiremos sobre quest\u00f5es \u00e9ticas e regulamenta\u00e7\u00f5es necess\u00e1rias para um uso respons\u00e1vel da Generative AI.\n\n**Palestrante:** Alestan Alves (Data Lead na TOTVS)\n\nAlestan Alves \u00e9 um criador, hacker \u00e9tico e dev desde sempre. Trabalha na TOTVS como Data Lead e compartilha sobre tecnologia na p\u00e1gina @ackercode . Ama a \u00e1rea de dados, hacking e intelig\u00eancia artificial e est\u00e1 acostumado com linguagens como Go, Python e Rust."
     },
     {
+        "group": "Rajiv Gandhi Institute Of Petroleum Technology",
+        "repo": "www-chapter-rajiv-gandhi-institute-of-petroleum-technology",
+        "name": "OWASP RGIPT Orientation 2023",
+        "date": "2023-09-16",
+        "time": "6:30+05:30",
+        "link": "https://www.meetup.com/owasp-rajiv-gandhi-institute-of-petroleum-technology/events/296132848",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us for an electrifying OWASP Orientation on September 16th, Saturday, starting at 4:30 PM at Vivekanand Sabhagar! \nPrepare to unlock endless possibilities, connect with fellow explorers, and ignite your curiosity. This is the thrilling start of your OWASP adventure!\nDon't miss this opportunity to expand your knowledge and network with fellow enthusiasts. We'll see you there! #OWASPOrientation2023 #JoinTheExperience #GetReadyToLearn #ConnectAndGrow "
+    },
+    {
         "group": "Sacramento",
         "repo": "www-chapter-sacramento",
         "name": "September Meetup: Threat Modeling Considerations for Silicon Development",
@@ -447,7 +447,7 @@
         "time": "8:30-03:00",
         "link": "https://www.meetup.com/owasp-uruguay-chapter/events/296064633",
         "timezone": "America/Montevideo",
-        "description": "\u00bfTe interesa una pr\u00e1ctica de ciberseguridad pensada **exclusivamente para desarrolladores**?\n\nEn esta Meetup, utilizando el proyecto [OWASP Secure Coding Dojo](https://owasp.org/www-project-secure-coding-dojo/) tendremos una sesi\u00f3n de ejercicios que incluyen **revisi\u00f3n de c\u00f3digo** y **detecci\u00f3n de vulnerabilidades**. Los desaf\u00edos son guiados y se cuenta con el apoyo de expertos en seguridad de aplicaciones.\n\nSolo precisas **llevar una notebook** para participar, sin descarga de materiales o herramientas. Solo se utilizar\u00e1 un navegador.\n\nEn esta instancia la Meetup ser\u00e1 en las oficinas de [Switch Software Solutions](https://goo.gl/maps/D9c8LeWwP8ebYzJ29).\n\n**IMPORTANTE**: *Las medidas de seguridad del host requieren que los asistentes provean de antemano **nombre** y **documento de identidad**. Al ingresar a las oficinas adem\u00e1s se pedir\u00e1 el **n\u00famero de tel\u00e9fono**. Estos datos se pedir\u00e1n a los asistentes confirmados el d\u00eda previo al evento. Dejamos a criterio de los asistentes si quieren ofrecer tal informaci\u00f3n o desistir de atender.*"
+        "description": "\u00bfTe interesa una pr\u00e1ctica de ciberseguridad pensada **exclusivamente para desarrolladores**?\n\nEn esta Meetup, utilizando el proyecto [OWASP Secure Coding Dojo](https://owasp.org/www-project-secure-coding-dojo/) tendremos una sesi\u00f3n de ejercicios que incluyen **revisi\u00f3n de c\u00f3digo** y **detecci\u00f3n de vulnerabilidades**. Los desaf\u00edos son guiados y se cuenta con el apoyo de expertos en seguridad de aplicaciones.\n\nSolo precisas **llevar una notebook** para participar, sin descarga de materiales o herramientas. Solo se utilizar\u00e1 un navegador.\n\nEn esta instancia la Meetup ser\u00e1 en las oficinas de [Switch Software Solutions](https://goo.gl/maps/D9c8LeWwP8ebYzJ29).\n\n**IMPORTANTE**: *Las medidas de seguridad del host requieren que los asistentes provean de antemano **nombre** y **documento de identidad**. Al ingresar a las oficinas adem\u00e1s se pedir\u00e1 el **n\u00famero de tel\u00e9fono**. Estos datos se pedir\u00e1n a los asistentes confirmados **el d\u00eda previo al evento**. Dejamos a criterio de los asistentes si quieren ofrecer tal informaci\u00f3n o desistir de atender. **Habr\u00e1 lista de espera** para incluir a quienes en esta instancia no entren en el cupo.*"
     },
     {
         "group": "Vancouver",
