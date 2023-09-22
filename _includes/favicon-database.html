@@ -1,0 +1,17 @@
+<div>
+    <table>
+        <tr>
+            <th nowrap="nowrap">Name</th>
+            <th nowrap="nowrap">Hash</th>
+            <th nowrap="nowrap">Algorithm</th>
+            <th nowrap="nowrap">Source</th>
+        </tr>
+        {% for tool in site.data.favicons-database %}
+        <tr>
+            <td>{{ tool.name }}</td>
+            <td>{{ tool.hash }}</td>
+            <td>{{ tool.algorithm }}</td>
+            <td>{{ tool.source }}</td>
+        </tr>
+        {% endfor %}
+</div>
