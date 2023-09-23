@@ -1,15 +1,15 @@
 ---
 title: OWASP Favicon Database
 layout: col-sidebar
-author:
-contributors:
+author: Vlatko Kosturjak
+contributors: Ryan Dewhurst, Paulino Calderon, Brian Martin, Darius Freamon, Nikhil Raj
 tags: favicons, oss
 permalink: /favicons_database
 ---
 
 {% include writers.html %}
 
-So, project has started the adventure of getting the statistics of MD5 fingerprints of most usual favicons.ico. We have faced problems how to enumerate http(s) hosts on Internet. Currently, we have recognized two types of http servers which we want to cover. First type is http servers on network devices and appliances and the second type is normal web servers with virtual hosts support. Idea is to have software enumerated via favicon.ico. How to do that? Take hash (in our case MD5) of favicon.ico and compare it against the known database. This project is about the favicon database itself and process in how to get the database of most frequent ones by crawling internet.
+This content represents a community attempt to enumerate/document fingerprints of known favicons (favicon.ico) used on the web. We have faced problems how to enumerate http(s) hosts on the Internet. Currently, we have recognized two types of HTTP servers which we want to cover. The first type are HTTP servers on network devices and appliances. The second type is normal web servers with virtual hosts support. A portion of this effort is to have software enumerated via favicon.ico. How to do that? Take hash (MD5, etc) of favicon.ico and compare it against a known database (such as this one).
 
 ## OWASP Favicons
 
