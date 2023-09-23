@@ -140,6 +140,16 @@
         "description": "DevSecOps Lab - Security in the CI/CD pipeline as code.\nPrerequisite: GitHub account, AWS account."
     },
     {
+        "group": "Houston",
+        "repo": "www-chapter-houston",
+        "name": "OWASP Houston Chapter API Security Study Group",
+        "date": "2023-09-26",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/296209716",
+        "timezone": "America/Chicago",
+        "description": "This is the kickoff for the study group sessions. This first round of sessions will cover API Security. It will last several months with end date TBD.\n\nThis session is an introduction to API Security Top 10 2023.\nhttps://owasp.org/www-project-api-security/\n\nFuture sessions will include lab setup and working through crAPI challenges.\nhttps://github.com/OWASP/crAPI"
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -158,16 +168,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/294467841",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Safety in your Embedded Systems, how to Prepare for the next Generation\n\nJoin us for great networking, dinner and drinks, and see a presentation by **Stephen Olsen**, Principal Field Application Engineer for North America with BlackBerry QNX.\n\n**ABSTRACT**: Discover the intricate connection between safety and security in product development, where safeguarding against external threats and internal risks is paramount. Delve into the nuances of isolating safety and non-safety functions, along with securing data. This talk addresses the significance of safety across various industries, particularly in the evolving medical field. Gain insights into the concept of virtualization and its optimal application. Explore why safety matters, its diverse applications, and the critical need to protect cutting-edge devices. A must-attend discussion for those shaping the future of embedded systems.\n\n**Thanks to our Sponsor**: *[BlackBerry QNX](https://blackberry.qnx.com/en)*\n\n*BlackBerry\u00ae QNX\u00ae is a trusted supplier of commercial operating systems, hypervisors, development tools, support, and services, all purpose-built for the world\u2019s most critical embedded systems. BlackBerry QNX helps customers streamline their development efforts to efficiently launch safe, secure, and reliable systems. Our technology is trusted in more than 235 million vehicles and is deployed in embedded systems around the world across a range of industries including aerospace and defense, automotive, commercial vehicles, heavy machinery, industrial controls, medical, rail and robotics.*\n\n**SPONSORSHIP Opportunities Available**\n\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Morocco",
-        "repo": "www-chapter-morocco",
-        "name": "DevSecOps Toolchain Transformation on Microsoft Azure and Amazon AWS",
-        "date": "2023-09-23",
-        "time": "0:00+01:00",
-        "link": "https://www.meetup.com/morocco-owasp-meetup-group/events/290723926",
-        "timezone": "Africa/Casablanca",
-        "description": "## DevSecOps Toolchain Transformation Hands-on\n\nThe DevSecOps Mindset and Salient Features\n\n* Shared Objectives\n* Prioritizing Security\n* Auomation\n* Operational Insights and Threat Intelligence\n* Holistic Security\n* Proactive Threat Monitoring\n* Security-as-a-Code\n* Infrastructure-as-a-Code\n* Improved Collaboration\n* Developers as Security Proponents\n* Continuous Monitoring and Auditing\n* Defined Incident Response\n\nHere are some actions you can take to upgrade your DevOps toolchain into a DevSecOps toolchain:\n\n1. Learn From Others in the DevOps and DevSecOps Communities\nLook to the DevOps community to help close your critical knowledge gaps.\n2. 2\\. Start With Your Container Security\nThe first step to building out the security of your DevOps toolchain starts with your container security.\n3. Institute Continuous Compliance\nDevSecOps is a platform for continuous compliance to protect your software supply chains against vulnerable packages and vulnerable configurations.\n4. Double Down on Automation\nWhile you may have already been experimenting with automation during your DevOps phase, it only becomes more integral once you throw the switch in by going DevSecOps. Go into your DevOps to DevSecOps transformation with an automation strategy that focuses on automating common developer and sysadmin tasks.\n5. Improve Your Monitoring and Analytics\nBuilding out a DevSecOps toolchain takes your monitoring and analytics options to a new level. Consider the fact that you should already collect and publish data from your toolchain and deliver reports to your project managers, developers, QA testers, and stakeholders outside your team. Commonly, DevOps reporting is still a work in progress for organizations. Use the introduction of new security tools into your toolchain as a chance to offer more granular and real-time security reporting into all parts of your DevSecOps toolchain.\n6. Implement Accessibility Assurance\nDepending on your organization\u2019s definition of compliance, the option is there to add accessibility compliance or Section 508 to your DevSecOps toolchain.\n\nThis hands-on training is reserver for 70% professional and 30% students.\n\nMandatory:\n\nGeneral Conditions in order to validate your participation to this event:\n\n1\\. Student must send University/Student ID\\, otherwise registration will be rejected\\.\n\n2.Professional must register company emails, otherwise registration will be rejected.\n\nRegistration only via EventBrite. We don't accept answer via meetup.\n\nPlease indicate your firstname, lastname, company name, a valid business email or school email (email like gmai, free, hotmail, outlook, etc are not accepted and registration will be cancelled).\n\nPlease register here:\nhttps://www.eventbrite.com/e/billets-devsecops-toolchain-transformation-374188276207"
     },
     {
         "group": "Netherlands",
@@ -258,6 +258,16 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/295821190",
         "timezone": "Europe/London",
         "description": "No agenda, no slides, no recording, 100% unscripted.\n\nPractical learning: Live ethical hacking challenges, workshops, CTFs and sharing of knowledge."
+    },
+    {
+        "group": "Syracuse",
+        "repo": "www-chapter-syracuse",
+        "name": "Unlocking Cybersecurity Insights: New Open Source Tools for Defense Modeling",
+        "date": "2023-10-13",
+        "time": "2:00-04:00",
+        "link": "https://www.meetup.com/syracuse-owasp-chapter/events/296273644",
+        "timezone": "America/New_York",
+        "description": "Join us for an OWASP chapter meeting that delves deep into the world of cybersecurity defense modeling! In this enlightening session, we'll explore the art of attack path mapping and unveil a dynamic duo of innovative open-source tools designed to bolster your security posture. Our first tool, ADM, is a powerful command-line interface (CLI) solution engineered to effortlessly process .adm files structured in accordance with the attack-defense model. As we dive further, you'll discover ADSM, an ingenious tool that can seamlessly associate attack and defense specifications, all elegantly composed in the ADM language, with each entity and flow within your security model.\nThese cutting-edge tools promise to revolutionize your approach to cybersecurity by providing clearer insights into vulnerabilities and defense strategies. Whether you're a seasoned security professional or just starting your journey in the field, this meeting is a must-attend to stay ahead of the game in today's ever-evolving threat landscape. Don't miss out on the opportunity to strengthen your defenses and enhance your understanding of cyber threats \u2013 secure your spot today!"
     },
     {
         "group": "Uruguay",
