@@ -2,16 +2,12 @@
   <table>
     <tr>
       <th nowrap="nowrap">Name</th>
-      <th nowrap="nowrap">Hash</th>
-      <th nowrap="nowrap">Algorithm</th>
-      <th nowrap="nowrap">Source</th>
+      <th nowrap="nowrap">Algorithm: Hash</th>
     </tr>
-    {% for tool in site.data.favicons-database %}
+    {% for icon in site.data.favicons-database %}
     <tr>
-      <td>{{ tool.name }}</td>
-      <td>{{ tool.hash }}</td>
-      <td>{{ tool.algorithm }}</td>
-      <td>{{ tool.source }}</td>
+      <td>{{ icon.name }}</td>
+      <td>{{ icon.algorithm }}: {{ icon.hash }}</td>
     </tr>
     {% endfor %}
   </table>
