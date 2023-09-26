@@ -70,6 +70,16 @@
         "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nPresentation and speaker update coming soon!"
     },
     {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "CSRF and CORS: $num.toString() Facts and a Lie.",
+        "date": "2023-10-25",
+        "time": "8:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/296322658",
+        "timezone": "Australia/Brisbane",
+        "description": "Watch Colin\u2019s gradual decent into insanity as he attempts to unpack all the idiosyncratic behaviours of web that lead to Cross-Site Request Forgery and Cross-Origin Resource Sharing vulnerabilities within modern Web Applications.\nDon\u2019t know CSRF and CORS? After this talk, you\u2019ll understand the fundamentals.\nThink you know CSRF and CORS? By the end of the talk, you\u2019ll probably conclude that nobody \\*knows\\* CSRF and CORS.\n\nEvent location to be confirmed."
+    },
+    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "October Meetup",
@@ -77,7 +87,7 @@
         "time": "8:00+01:00",
         "link": "https://www.meetup.com/owasp-bristol/events/295904341",
         "timezone": "Europe/London",
-        "description": "We're back, somewhere near Queen Square, exact details to be confirmed Soon\u2122... but it should at least be on Tuesday 17th October!"
+        "description": "We're back, on Tuesday 17th October, at Sage Bristol (near Queen Square).\n\nChris Goff will talk about \"**Secure by Design and by Default**\", and Daniel Billing has a talk on \"**Exploring Security**\".\n\nMore details to be confirmed Soon\u2122."
     },
     {
         "group": "Bristol Uk",
@@ -118,6 +128,16 @@
         "link": "https://www.meetup.com/owasp-cotonou-chapter/events/295924258",
         "timezone": "Africa/Porto-Novo",
         "description": "**Les normes et standards d\u2019audit de la fonction informatique au sein d\u2019une organisation: Valeurs pratiques.** Apr\u00e8s avoir pr\u00e9sent\u00e9 l\u2019importance des normes et standards pour l\u2019audit de la fonction informatique au sein d\u2019une organisation, le conf\u00e9rencier fera la gen\u00e8se des normes et standards propres au B\u00e9nin. Il mettra l\u2019accent sur comment les entreprises b\u00e9ninoises pourront s\u2019approprier ces normes pour leur permettre d\u2019aligner la fonction informatique\navec les besoins m\u00e9tiers. Quelles sont les normes et standards qui s\u2019imposent \u00e0 une entreprise b\u00e9ninoise? Comment s\u2019approprier ces normes et standards? En quoi la mise en \u0153uvre de normes et standards sont b\u00e9n\u00e9fiques pour une organisation?\n\n**L\u2019importance de l\u2019audit dans la vie d\u2019une organisation: Le\u00e7ons apprises.**\nLe conf\u00e9rencier de part son exp\u00e9rience d\u2019auditeur au sein des structures publiques et priv\u00e9es de finance pr\u00e9sentera les le\u00e7ons apprises de l\u2019audit. Quelles le\u00e7ons peut-on apprendre apr\u00e8s plus de 10 ann\u00e9es d\u2019audit de structures financi\u00e8res? Quels sont les d\u00e9fis? Quelles sont les opportunit\u00e9s?"
+    },
+    {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "CSA Colorado  Fall Summit 2023",
+        "date": "2023-10-25",
+        "time": "8:00-06:00",
+        "link": "https://www.meetup.com/denver-owasp/events/296253810",
+        "timezone": "America/Denver",
+        "description": "OWASP Denver wanted to help promote a great upcoming conference put on by our sister organization in Denver on October 25:\n\n**The Cloud Security Alliance (CSA) - Colorado Chapter** is holding a unique event this year\n\n**AI and Cybersecurity: Revolution and Risks**\n\nAll sessions, speakers and content are dedicated to exploring AI's impact on the future of cybersecurity.\n\nCome be part of this all-day conversation. Registration includes:- Access to all sessions\n\n\\- Breakfast\n\\- Lunch\n\\- Networking happy hour\n\\- 6 Continuing education Credits\n**\\- An \"All\\-AI Panel\"\\, where the audience will be able to interact and ask questions of AI personalities representing experts in various fields\\.**\n\nThe full agenda is available now, including information about our keynote, speakers and topics:\n\nRegister now: [https://iplanit.swoogo.com/csacofall2023/](https://iplanit.swoogo.com/csacofall2023/)"
     },
     {
         "group": "Edmonton",
@@ -188,6 +208,16 @@
         "link": "https://www.meetup.com/owasp-kerala-chapter/events/296310744",
         "timezone": "Asia/Kolkata",
         "description": "OWASP Kerala Chapter Meet Sep 2023\n\n**Sessions**\n\n* Uncovering iOS secrets: jailbreaking and security insights - Riya Santhosh\n* Demistifying SAP penetration testing with owasp sapkiln - Alex Devassy\n\n**Date & Time**\n\nSep 30th 2023, 2PM IST\n\n**Location**\n\nFAYA, Thejaswini, Technopark Phase 1, Trivandrum\n\n**About Speakers**\n\n**Riya Santhosh** is a Cyber Enthusiast and Seasoned Professional with 7 years of global industry expertise, known for driving business growth strategies through expert penetration testing. Well versed on web, infrastructure, mobile, thick client, infrastructure penetration testing.Spearheading and securing businesses across the US and APAC regions, Riya combines cutting-edge cybersecurity knowledge with a passion for safeguarding digital landscapes and innovating for a safer tomorrow.\n\n**Alex Neelankavil Devassy** is a seasoned Cyber Security Consultant with over 5 years of extensive experience in penetration testing, security consultancy, and cyber security training. With a strong background in conducting security assessments, Alex specializes in penetration testing of various systems, including commercial off-the-shelf Web Applications, Network, Mobile, and Thick client applications. He had also shared his knowledge as a speaker at hacking and cyber security conference cocon 15th, where they delved into the topic of \"Hyperledger Fabric & Ethereum Apps: Security Deep Dive.\" Additionally, Alex has delivered talks on \"Blockchain Security\" at OWASP Tunisia and Kerala chapters."
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - OCT 25, 2023",
+        "date": "2023-10-25",
+        "time": "7:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/294467794",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: How Can DevSecOps Improve Security?\n\nJoin us for dinner, drinks, networking and a great talk by **Mary Wang**, Software Engineering Manager at Northrop Grumman Space Systems\n\n**NOTE**: New Location!! \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n**ABSTRACT**: DevSecOps is the new buzzword that has been around for a while now. DevOps, DevSecOps, Agile, CI/CD pipeline, etc., and chances are you have heard these terms when discussing the software development life cycle. What do those terms mean? With the recent increasing cyber-attacks on software such as in-house developed code or software supply chain (open source software), the traditional ways of decreasing the attack surface on software applications no longer work effectively. Moreover, organizations are pressured to develop code faster and cheaper to meet customer demands. Mary will explain what DevSecOps is and how this practice is better than DevOps in security. In addition, how CI/CD fits in DevSecOps. Lastly, the popular tools are used in DevSecOps practices. She will provide the real-world experience challenges that she encountered.\n\n**Thanks to our Sponsor**: *[SAFEBASE](https://safebase.io/)*\n*SafeBase is the customer-facing Trust Center that automates B2B security reviews. Companies like LinkedIn, Asana, OpenAI, and Snyk use SafeBase to reduce security questionnaires, create a better buying experience, accelerate sales velocity, and position security as a revenue driver.*\n\n**SPONSORSHIP Opportunities Available** *Vendors interested in sponsoring please send an email to* *sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Los Angeles",
@@ -318,6 +348,16 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248518",
         "timezone": "America/Vancouver",
         "description": "Web APIs are a common glue that connect people and processes with digital systems all across the globe. Not surprisingly, Web APIs contribute more than 80% of the Internet traffic today. Given the importance of APIs, OWASP has recommended top-10 API specific security vulnerabilities (such as Broken Authentication/Authorization and Excessive Data Exposure problems) that organizations must address to strengthen their security posture. Albeit useful, these API specific vulnerabilities do not necessarily translate to the same business risks. For instance, two APIs from an organization with Broken Object Level Authorization (BOLA) may pose very different business risks to that organization.\n\nIn this session, we'll talk about API Risk Rating System (ARRS) that maps API specific vulnerabilities to business risks such as Legal/Contractual, Operational, Financial, Reputational and Regulatory. Similar in-principle yet different than Common Vulnerability Scoring System (CVSS), the main objective of ARRS is to prioritize API specific vulnerabilities based on their business risks. We'll describe the methodology behind the system developed using thousands of APIs that are being tracked at a global scale. We\u2019ll also share some hands-on practical scenarios.\n\nThe work presented was done by Samantha Sanchez, Jun Hee Lee, Alberto Ciconi and Baljeet Malhotra. Samantha, Jun Hee and Alberto are MSc Cybersecurity students at NYIT. Baljeet is an Adjunct Professor at NYIT, UBC, UVic, UNBC, and CEO of TeejLab Inc."
+    },
+    {
+        "group": "Vitoria",
+        "repo": "www-chapter-vitoria",
+        "name": "Carreira em Seguran\u00e7a da Informa\u00e7\u00e3o",
+        "date": "2023-09-26",
+        "time": "9:00-03:00",
+        "link": "https://www.meetup.com/owasp-capixaba/events/296347907",
+        "timezone": "America/Sao_Paulo",
+        "description": "Palestrante: Maycon Vitali, Jance Luiz e Gilberto Sudr\u00e9.\nTema: Carreira em Seguran\u00e7a da Informa\u00e7\u00e3o\nLocal: FAESA - Campus Vit\u00f3ria : Av. Vit\u00f3ria, 2220 - Monte Belo, Vit\u00f3ria - ES, 29053-360\nLink da Inscri\u00e7\u00e3o da FAESA: https://pergamumweb.com.br/eventum_faesa/computacao_sistemasFAESA/inscricao/21/login\n\nNota: A inscri\u00e7\u00e3o no link acima \u00e9 super importante para ter acesso \u00e0 FAESA."
     },
     {
         "group": "Samm",
