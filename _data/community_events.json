@@ -100,16 +100,6 @@
         "description": "OWASP Denver wanted to help promote a great upcoming conference put on by our sister organization in Denver on October 25:\n\n**The Cloud Security Alliance (CSA) - Colorado Chapter** is holding a unique event this year\n\n**AI and Cybersecurity: Revolution and Risks**\n\nAll sessions, speakers and content are dedicated to exploring AI's impact on the future of cybersecurity.\n\nCome be part of this all-day conversation. Registration includes:- Access to all sessions\n\n\\- Breakfast\n\\- Lunch\n\\- Networking happy hour\n\\- 6 Continuing education Credits\n**\\- An \"All\\-AI Panel\"\\, where the audience will be able to interact and ask questions of AI personalities representing experts in various fields\\.**\n\nThe full agenda is available now, including information about our keynote, speakers and topics:\n\nRegister now: [https://iplanit.swoogo.com/csacofall2023/](https://iplanit.swoogo.com/csacofall2023/)"
     },
     {
-        "group": "Edmonton",
-        "repo": "www-chapter-edmonton",
-        "name": "Exploring MITRE ATT&CK Framework Adoption With Cybera",
-        "date": "2023-10-04",
-        "time": "7:00-06:00",
-        "link": "https://www.meetup.com/meetup-group-opbybwve/events/296139404",
-        "timezone": "America/Edmonton",
-        "description": "## Details\n\n  \n**RSVP to attend** \u2013 **limited space available.** This assists in fire code compliance and planning CATERING and DOOR PRIZES for everyone's enjoyment.\n  \n\n**Event Description:**\nPrepare to embark on a cybersecurity odyssey as OWASP Edmonton proudly presents an illuminating event in collaboration with [Cybera](https://www.cybera.ca/), a cybersecurity trailblazer. Join us for a captivating session where Cybera will unravel their remarkable voyage through the MITRE ATT&CK framework and share invaluable lessons gleaned from their adoption journey.\n\n**Who is Cybera? (cybera.ca)**\nCybera is Alberta's research and education network facilitator, responsible for driving connections, collaborations and skills growth through the use of digital technology.\n\nTheir mission is to connect Alberta to the world, enabling and advocating for better services, collaborations and skills growth through the use of digital technology.\n\nTheir vision is to ensure a connected, secure and equitable digital future for every Albertan.\n\n**Navigating the Adoption Process:**\nCybera will divulge their experiences, offering insights into the intricacies of implementing the MITRE ATT&CK framework. Explore the challenges they surmounted and the victories they achieved. Learn firsthand from their expedition through the cybersecurity landscape and how this framework fortified their defenses against cyber threats.\n\n**Culinary & Sponsor Notes: iON United (ionunited.com)**\nTo fuel your cybersecurity exploration, iON United generously sponsors a delectable pizza feast for all attendees. Savor a slice while mingling with peers and immersing yourself in conversations about the ever-evolving cybersecurity landscape.\n\nDon't miss this unparalleled opportunity to broaden your horizons, gain practical insights, and expand your professional network. Whether you are a seasoned cybersecurity practitioner or a newcomer to the field, this event promises to inspire, inform, and empower.\n\n**Date & Time:**\nOctober 4th, 5:00 PM -6:30 PM\n\n**Location:**\nNorquest College\n*10215 108 St NW, Edmonton, AB T5J 1L6*\n*Room 3-071 - SCFL - Downtown*\n\nFor parking, please see the highlighted area in the photo below."
-    },
-    {
         "group": "Hong Kong",
         "repo": "www-chapter-hong-kong",
         "name": "DevSecOps Lab",
@@ -158,16 +148,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/294467794",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: How Can DevSecOps Improve Security?\n\nJoin us for dinner, drinks, networking and a great talk by **Mary Wang**, Software Engineering Manager at Northrop Grumman Space Systems\n\n**NOTE**: New Location!! \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n**ABSTRACT**: DevSecOps is the new buzzword that has been around for a while now. DevOps, DevSecOps, Agile, CI/CD pipeline, etc., and chances are you have heard these terms when discussing the software development life cycle. What do those terms mean? With the recent increasing cyber-attacks on software such as in-house developed code or software supply chain (open source software), the traditional ways of decreasing the attack surface on software applications no longer work effectively. Moreover, organizations are pressured to develop code faster and cheaper to meet customer demands. Mary will explain what DevSecOps is and how this practice is better than DevOps in security. In addition, how CI/CD fits in DevSecOps. Lastly, the popular tools are used in DevSecOps practices. She will provide the real-world experience challenges that she encountered.\n\n**Thanks to our Sponsor**: *[SAFEBASE](https://safebase.io/)*\n*SafeBase is the customer-facing Trust Center that automates B2B security reviews. Companies like LinkedIn, Asana, OpenAI, and Snyk use SafeBase to reduce security questionnaires, create a better buying experience, accelerate sales velocity, and position security as a revenue driver.*\n\n**SPONSORSHIP Opportunities Available** *Vendors interested in sponsoring please send an email to* *sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - SEPT 27, 2023",
-        "date": "2023-09-27",
-        "time": "7:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/294467841",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Safety & Security in your Embedded Systems\n\nJoin us for great networking, dinner and drinks, and see a presentation by **Stephen Olsen**, Principal Field Application Engineer for North America with BlackBerry QNX.\n\n**ABSTRACT**: Discover the intricate connection between safety and security in product development, where safeguarding against external threats and internal risks is paramount. Delve into the nuances of isolating safety and non-safety functions, along with securing data. This talk addresses the significance of safety across various industries, particularly in the evolving medical field. Gain insights into the concept of virtualization and its optimal application. Explore why safety matters, its diverse applications, and the critical need to protect cutting-edge devices. A must-attend discussion for those shaping the future of embedded systems.\n\n**Thanks to our Sponsor**: *[BlackBerry QNX](https://blackberry.qnx.com/en)*\n\n*BlackBerry\u00ae QNX\u00ae is a trusted supplier of commercial operating systems, hypervisors, development tools, support, and services, all purpose-built for the world\u2019s most critical embedded systems. BlackBerry QNX helps customers streamline their development efforts to efficiently launch safe, secure, and reliable systems. Our technology is trusted in more than 235 million vehicles and is deployed in embedded systems around the world across a range of industries including aerospace and defense, automotive, commercial vehicles, heavy machinery, industrial controls, medical, rail and robotics.*\n\n**SPONSORSHIP Opportunities Available**\n\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Netherlands",
@@ -280,16 +260,6 @@
         "description": "TBA"
     },
     {
-        "group": "Uruguay",
-        "repo": "www-chapter-uruguay",
-        "name": "OWASP Meetup: Developer mode",
-        "date": "2023-09-27",
-        "time": "8:30-03:00",
-        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/296064633",
-        "timezone": "America/Montevideo",
-        "description": "\u00bfTe interesa una pr\u00e1ctica de ciberseguridad pensada **exclusivamente para desarrolladores**?\n\nEn esta Meetup, utilizando el proyecto [OWASP Secure Coding Dojo](https://owasp.org/www-project-secure-coding-dojo/) tendremos una sesi\u00f3n de ejercicios que incluyen **revisi\u00f3n de c\u00f3digo** y **detecci\u00f3n de vulnerabilidades**. Los desaf\u00edos son guiados y se cuenta con el apoyo de expertos en seguridad de aplicaciones.\n\nSolo precisas **llevar una notebook** para participar, sin descarga de materiales o herramientas. Solo se utilizar\u00e1 un navegador.\n\nEn esta instancia la Meetup ser\u00e1 en las oficinas de [Switch Software Solutions](https://goo.gl/maps/D9c8LeWwP8ebYzJ29).\n\n**IMPORTANTE**: *Las medidas de seguridad del host requieren que los asistentes provean de antemano **nombre** y **documento de identidad**. Al ingresar a las oficinas adem\u00e1s se pedir\u00e1 el **n\u00famero de tel\u00e9fono**. Estos datos se pedir\u00e1n a los asistentes confirmados **el d\u00eda previo al evento**. Dejamos a criterio de los asistentes si quieren ofrecer tal informaci\u00f3n o desistir de atender. **Habr\u00e1 lista de espera** para incluir a quienes en esta instancia no entren en el cupo.*"
-    },
-    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Rating API Business Risks based on OWASP Top-10 API Security Vulnerabilities",
@@ -298,16 +268,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248518",
         "timezone": "America/Vancouver",
         "description": "Web APIs are a common glue that connect people and processes with digital systems all across the globe. Not surprisingly, Web APIs contribute more than 80% of the Internet traffic today. Given the importance of APIs, OWASP has recommended top-10 API specific security vulnerabilities (such as Broken Authentication/Authorization and Excessive Data Exposure problems) that organizations must address to strengthen their security posture. Albeit useful, these API specific vulnerabilities do not necessarily translate to the same business risks. For instance, two APIs from an organization with Broken Object Level Authorization (BOLA) may pose very different business risks to that organization.\n\nIn this session, we'll talk about API Risk Rating System (ARRS) that maps API specific vulnerabilities to business risks such as Legal/Contractual, Operational, Financial, Reputational and Regulatory. Similar in-principle yet different than Common Vulnerability Scoring System (CVSS), the main objective of ARRS is to prioritize API specific vulnerabilities based on their business risks. We'll describe the methodology behind the system developed using thousands of APIs that are being tracked at a global scale. We\u2019ll also share some hands-on practical scenarios.\n\nThe work presented was done by Samantha Sanchez, Jun Hee Lee, Alberto Ciconi and Baljeet Malhotra. Samantha, Jun Hee and Alberto are MSc Cybersecurity students at NYIT. Baljeet is an Adjunct Professor at NYIT, UBC, UVic, UNBC, and CEO of TeejLab Inc."
-    },
-    {
-        "group": "Yerevan",
-        "repo": "www-chapter-yerevan",
-        "name": "OWASP Yerevan September meetup-Vaagn Toukharian,Norayr Arakelyan,GrigoriHakobyan",
-        "date": "2023-09-27",
-        "time": "9:00+04:00",
-        "link": "https://www.meetup.com/owasp-yerevan/events/296360015",
-        "timezone": "Asia/Yerevan",
-        "description": "OWASP Yerevan September meetup agenda:\n\n1. LLMs and OWASP - Vaagn Toukharian\n2. From getting interested to having an interview - Norayr Arakelyan, Grigori Hakobyan\n\nRoom is 314W in Paramaz Avedisian (new) building."
     },
     {
         "group": "Samm",
