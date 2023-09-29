@@ -20,26 +20,6 @@
         "description": "\\| **Name** \\| **Speaker** \\| **Start Time** \\| **End Time** \\|\n\n\\| \\-\\-\\-\\- \\| \\-\\-\\-\\-\\-\\-\\- \\| \\-\\-\\-\\-\\-\\-\\-\\-\\-\\- \\| \\-\\-\\-\\-\\-\\-\\-\\- \\|\n\n\\| **Welcome Note / Registrations** \\| 09:30 AM \\| 09:40 AM \\|\n\n\\| TBD\\| 09:40 AM \\| 10:10 AM \\|\n\n\\| **Intoductions** \\| 10:10 AM \\| 10:25 AM \\|\n\n\\| TBD\\| 09:40 AM \\| 10:10 AM \\|"
     },
     {
-        "group": "Belfast",
-        "repo": "www-chapter-belfast",
-        "name": "OWASP Belfast September meetup",
-        "date": "2023-09-28",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owasp-belfast/events/295904214",
-        "timezone": "Europe/London",
-        "description": "Hello OWASP Belfast!\n\nWe are delighted to announce our next hybrid event for 2023 with an exciting lineup of talks from local industry leaders. The Meet up will be in partnership with ESO, who have also kindly offered to host the evening and provide pizza, beers, and soft drinks for everyone.\n\n**Date: 28th September 2023**\n\n**Time: 6.00 PM**\n\n**Location: ESO, 42 Fountain St, Belfast BT1 5EF.**\n\n**Zoom Link:** [https://eso.zoom.us/j/95951081970?from=addon](https://eso.zoom.us/j/95951081970?from=addon)\n\nFirst, we will share an example of how identifying and assessing an attack on an application was used to gain insights into attacker behavior, and how invaluable this can prove in informing future actionable steps to prevent exposure. Next, we will present an overview of the key vulnerabilities associated with the use of social media in business and how easy it is to experience a breach when you do not have the correct policies and procedures in place. We will then delve into the world of ethical hacking, exploring the most common \"low-hanging fruit\" issues encountered over the past year. We will focus on prevalent vulnerabilities like HTML injection, Insecure Direct Object References (IDOR), and authentication flaws. Finally, we will finish with a technical talk from Ciaran from Rapid 7 who will take you through software supply chain software issues \u2013 malicious attackers, unsuitable licenses, and deprecated code which can all lead to problems in stuff that used to \"just work\". He will talk about how (despite what sales teams might tell you) there\u2019s no single simple solution to this and show you how to manage your risk in an achievable way.\n\n**Agenda:**\n\n6.00 - 6.20 Networking & Food\n\n6.20 - 6.30 Welcome to ESO Finian / Sarah\n\n6:40 - 7:00 Talk 1: \"The Safety Law of An Idiot Next to You\" by Tanya Vacarda\n\n7:00\u2013 7:20 Talk 2: \"From Likes to Leaks: Understanding the Security Risks of Social Media\" by Anne-Marie O'Donnell\n\n7:20 \u2013 7:30 BREAK (10 min)\n\n7:30 \u2013 7:50 Talk 3: \"Hacking For Devs: Bridging the Gap Between Developers and Hackers\" by Jacob Steadman\n\n7:50 \u2013 8:10 Talk 4 \"A Pragmatic Approach to Software Supply Chain Security\" by Ciaran Conliffe\n\n8.10 - 8.30 Networking and Exit\n\n**Disclaimer**\n\nAs always, our events are designed to educate. Any tools and techniques demonstrated are for informative purposes only. We do not endorse their use for malicious purposes.\n\nOWASP, the Open Web Application Security Project, is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. So come along to Belfast chapter meetings if you would like to hear about, or share information with the community on how to ethically hack your own systems, how to defend your applications, and how to build security into your applications. Chapter meetings also provide a great opportunity to meet like-minded people with similar interests for general discussion, chit-chat, and banter!\n\n**Speaker Info:**\n\nTanya Vacarda - Allstate NI, Sr. Consultant [https://www.linkedin.com/in/tanyavacarda/](https://www.linkedin.com/in/tanyavacarda/)\n\nJacob Steadman- Vertical Structure Ltd, Ethical Hacker/Lead Penetration Tester [https://www.linkedin.com/in/jacob-steadman-08b17395/](https://www.linkedin.com/in/jacob-steadman-08b17395/)\n\nAnne-Marie O'Donnell, BH Consulting Ltd, Cybersecurity Consultant [https://www.linkedin.com/in/anne-marie-o-donnell-71536411a/](https://www.linkedin.com/in/anne-marie-o-donnell-71536411a/)\n\nCiaran Conliffe, Security Architect, Rapid7 [https://www.linkedin.com/in/ciaran-conliffe-7133843a/](https://www.linkedin.com/in/ciaran-conliffe-7133843a/)\n\n**Additional Information**\n\nESO is located between Waterstones bookshop and the back of Boots in Belfast city center. They have two working lifts. ESO employees will be at the door to welcome attendees and show them to the meetup space."
-    },
-    {
-        "group": "Bogota",
-        "repo": "www-chapter-bogota",
-        "name": "RESUMEN DE DEFCON, BSIDES Y BLACK HAT EN LAS VEGAS",
-        "date": "2023-09-28",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owasp-bogota-meetup-group/events/296199949",
-        "timezone": "America/Bogota",
-        "description": "Despu\u00e9s de un tiempo sin poder reunirnos, estamos listos para iniciar con las charlas y laboratorios. El pr\u00f3ximo evento se llevar\u00e1 a cabo el **28 de septiembre de 2023, de 6:00 a 8:00 P.M. en la Universidad del Rosario**\n\nEn esta ocasi\u00f3n, exploraremos los eventos de DEFCON, BSIDES y BLACK HAT en Las Vegas, tres de las conferencias de seguridad m\u00e1s destacadas en el mundo. Analizaremos las tendencias, avances y noticias m\u00e1s relevantes que surgieron en estos eventos, contaremos con compa\u00f1eros que vivieron estos eventos y nos contar\u00e1n su experiencia.\nAdem\u00e1s, durante la reuni\u00f3n, los asistentes tendr\u00e1n la oportunidad de ganarse uno de los dos bags oficiales de DEFCON que tenemos para ustedes. No te pierdas la oportunidad de adquirir nuevo conocimiento y la posibilidad de ganarte uno de estos premios.\nEsperamos que este espacio nos permita reconectarnos como comunidad\n\nUn agradecimiento muy especial a la Universidad del Rosario\n\nLos esperamos!!"
-    },
-    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter October 2023 Meetup",
@@ -68,16 +48,6 @@
         "link": "https://www.meetup.com/owasp-bristol/events/295904341",
         "timezone": "Europe/London",
         "description": "We're back, on Tuesday 17th October, at Sage Bristol (near Queen Square).\n\nChris Goff will talk about \"**Secure by Design and by Default**\", and Daniel Billing has a talk on \"**Exploring Security**\".\n\nMore details to be confirmed Soon\u2122."
-    },
-    {
-        "group": "Colorado Springs",
-        "repo": "www-chapter-colorado-springs",
-        "name": "OWASP CoS September 2023",
-        "date": "2023-09-28",
-        "time": "8:00-06:00",
-        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/295850529",
-        "timezone": "America/Denver",
-        "description": "Speaker: Jeff Tomkiewicz: \"Gone Vishing: A DEFCON 31 Social Engineering Story\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\n\nhttps://cyber-center.org/"
     },
     {
         "group": "Cotonou",
@@ -170,26 +140,6 @@
         "description": "Join us for the 2023 Global AppSec-Singapore (virtual) conference.\n\nConference will be presented through the conference's Whova app (access provided after registration) and training will be presented via Zoom (private links provided to registrants).\n\n**NOTE:** The conference's schedule is 9:00 a.m. - 5:00 p.m. Singapore Time (UTC+8) each day.\n\nDesigned for private and public sector InfoSec professionals, the one-day OWASP conference equips developers, defenders, and advocates to build a more secure web. We are offering educational\n\n* Three (3) one-day training courses, 4th October - US $260\n* API Security Testing 101 (Abdessamad Temmar)\n* Threat Modelling: From none to done (John DiLeo)\n* Don\u2019t trust my input: Frontend Security for Developers (Gian-Luca Frei)\n* One (1) two day training course, 3rd-4th October - US $1,010\n* Hacking Modern Web Apps - Master the Future of Attack Vectors (Ashwin Shenoi)\n* One-day conference, 5th October - US $35.00\n\nConference and Training schedule: [https://singapore.globalappsec.org/schedule/](https://singapore.globalappsec.org/schedule/)\nRegistration link: [https://whova.com/portal/registration/owasp_202310/](https://whova.com/portal/registration/owasp_202310/)"
     },
     {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Safety in your Embedded Systems / An Enterprise on Fire",
-        "date": "2023-09-28",
-        "time": "8:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/296097192",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: IN-PERSON EVENT**\n**Thanks to our Sponsor**: *[BlackBerry QNX](https://blackberry.qnx.com/en)*\n*BlackBerry\u00ae QNX\u00ae is a trusted supplier of commercial operating systems, hypervisors, development tools, support, and services, all purpose-built for the world\u2019s most critical embedded systems. BlackBerry QNX helps customers streamline their development efforts to efficiently launch safe, secure, and reliable systems. Our technology is trusted in more than 235 million vehicles and is deployed in embedded systems around the world across a range of industries including aerospace and defense, automotive, commercial vehicles, heavy machinery, industrial controls, medical, rail and robotics.*\n\n**Speaker 1:** **Rich DesMarais** & **Stephen Olsen**\n\n**Topic1 :** Safety in your Embedded Systems, how to Prepare for the next Generation\n\n**Abstract:**\nDiscover the intricate connection between safety and security in product development, where safeguarding against external threats and internal risks is paramount. Delve into the nuances of isolating safety and non-safety functions, along with securing data. This talk addresses the significance of safety across various industries, particularly in the evolving medical field. Gain insights into the concept of virtualization and its optimal application. Explore why safety matters, its diverse applications, and the critical need to protect cutting-edge devices. A must-attend discussion for those shaping the future of embedded systems.\n\n**Bio:**\nRich DesMarais is the Regional Sales Manager for Aerospace & Defense in the US as well as Medical, Industrial, and Rail in the Southwest working with customers on embedded Real-Time Operating Systems and Security software. His background includes helping customers to create Safe & reliable systems. His design background was in Printed Circuit Processor Boards, Application Specific Integrated Circuits, Embedded Devices and supporting ECAD Software.\n\nStephen Olsen is an embedded industry expert with extensive experience in embedded software\ndevelopment and communications. He is currently a Principle Field Application Engineer for North\nAmerica with BlackBerry QNX. Stephen worked with several other real time operating systems in many\nroles, including product line management, system architecture, and engineering management. He co-\nchaired VSIA's hardware dependent software working group, and has authored many papers on safety\ncertifiable systems, system architecture, USB, and multicore/multi-OS design, and power management.\n\n**Speaker 2:** K \"Turb0Yoda\" Singh & Bluescreenofwin\n\n**Topic 2:** An Enterprise on Fire: Successful Strategies in Triage\n\n**Abstract:**\n0900 PST. You grab your cup of coffee and get into your chair. You begin the day with some small cheese factory in Wisconsin claiming that they've been hacked. As you log in, you behold default creds, no MFA, and a small Cisco firewall set to ALLOW ANY:ANY because hey, having a rule means passing compliance checks. In the corner of your eye, you suddenly start to see alerts appear. Mimikatz, Metasploit, some Cobalt Strike Beacons, LSASS dumps, the lot quickly piles on and on in your environment. No amount of caffeinated adrenaline will help as you watch your environment go up in flames.\nEven the most seasoned veterans can be stricken by keyboard fright when facing the unknown state of a compromised system. Maybe your playbooks are woefully inadequate, out of date, or simply don't exist. Perhaps you've assumed that your tooling will feed you information, but the right information may not always be available or easily consumable. It can be daunting when faced with the prospect of manual box-by-box triage.\nIf you've ever been in any of the aforementioned situations and have stared in incredulity at your terminal then this talk is for you.\nWe will examine the compromised environment from the 2023 WRCCDC security competition and discuss the foundation of the competition and the infrastructure from where all the data was pulled.\n\n**Bio:**\n\u201cK\u201d Singh is currently an Incident Response Consultant at CrowdStrike. Previously an Incident Response Consultant and the Forensic Lab Manager for the Global Incident Response Practice at Cylance - \"K\" has worked with multiple Fortune 500 companies, sector-leading firms, and healthcare organizations in a variety of engagements ranging from Incident Response to Traditional \u201cDead Disk\u201d Forensics and E-Discovery.\n\nBluescreenofwin is a senior security engineer and Windows hacker. He is currently employed in the \"entertainment\" business making sure your favorite time on the Internet goes uninterrupted. He runs infrastructure for WRCCDC, brews copious amounts of delicious beer for consumption, and is a connoisseur of dank memes and handsome squidwards. Will vCISO for dogecoin.\n\n**Schedule:**\n6:00pm - 6:30pm Networking, Food & Drink\n6:30pm - 7:30pm First Presentation\n7:30pm - 8:30pm Second Presentation"
-    },
-    {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Chapter Social",
-        "date": "2023-09-28",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/295239486",
-        "timezone": "Europe/London",
-        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
         "group": "Poland",
         "repo": "www-chapter-poland",
         "name": "OWASP Poland Day 2023 - The truly underground IT security conference",
@@ -200,16 +150,6 @@
         "description": "OWASP Poland Day 2023 - Guido Coal Mine - Zabrze\n\n**[Register using this link](https://owasp-poland-day-2023.eventbrite.com/?aff=meetup)**\n\n(event is paid, but we are doing our best to keep it as low as possible)\n\nOWASP Poland Day is the largest annual security conference in Poland focused on topics related to application security. The conference brings together developers, penetration testers and CISOs responsible for ensuring application security. Apart from great presentations delivered by leading application security professionals and researchers the conference will be fantastic networking opportunity.\n\nAfter the pandemic we are back with an even better conference. Since we organize it in Silesia, it will be very unique \u2013 probably the only one in the world application security conference:\n\n* 320 meters under the ground\n\n* Held in coal mine and museum\n\n* 2 tracks, 17 presentations. 300+ attendees.\n\nIf you want to attend, you have to use Eventbrite for registration. Please do not RSVP using Meetup. It's a paid event but we are doing our best to keep entrance fee as low as possible, just to cover venue, coffee and lunch, speakers expenses, evening networking event etc.\n\n**Register at: [https://owasp-poland-day-2023.eventbrite.com/?aff=meetup ](https://owasp-poland-day-2023.eventbrite.com/?aff=meetup)**\n\nAgenda and speaker list at: [https://owasp-poland.day/](https://owasp-poland.day/)\n\nPlease spread the word!"
     },
     {
-        "group": "Porto Alegre",
-        "repo": "www-chapter-porto-alegre",
-        "name": "OWASP Chapter POA - Encontro 013 [ONLINE]",
-        "date": "2023-09-28",
-        "time": "9:30-03:00",
-        "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/296067036",
-        "timezone": "America/Sao_Paulo",
-        "description": "Em setembro teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 28/09 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n**Link para a transmiss\u00e3o:** https://www.youtube.com/watch?v=-xYckJK3VY8\n\n**Confira nossa agenda:**\n\n**19h30-20h30**\n**\"Generative AI na Cria\u00e7\u00e3o de Ataques Cibern\u00e9ticos\"**\n\nNesta palestra sobre \"Generative AI na Cria\u00e7\u00e3o de Ataques Cibern\u00e9ticos\", exploraremos como a intelig\u00eancia artificial generativa, como as Redes Generativas Adversariais (GANs), est\u00e1 sendo utilizada por cibercriminosos para criar deepfakes e conte\u00fado sint\u00e9tico enganoso. Abordaremos os desafios e riscos que essa tecnologia traz para a seguran\u00e7a cibern\u00e9tica e a privacidade, discutindo casos reais de ataques prejudiciais. Al\u00e9m disso, examinaremos t\u00e9cnicas de detec\u00e7\u00e3o e defesa contra amea\u00e7as geradas por IA e refletiremos sobre quest\u00f5es \u00e9ticas e regulamenta\u00e7\u00f5es necess\u00e1rias para um uso respons\u00e1vel da Generative AI.\n\n**Palestrante:** Alestan Alves (Data Lead na TOTVS)\n\nAlestan Alves \u00e9 um criador, hacker \u00e9tico e dev desde sempre. Trabalha na TOTVS como Data Lead e compartilha sobre tecnologia na p\u00e1gina @ackercode . Ama a \u00e1rea de dados, hacking e intelig\u00eancia artificial e est\u00e1 acostumado com linguagens como Go, Python e Rust."
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -218,16 +158,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/296259961",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "Pub evening - OWASP meet up and after-work near Odenplan",
-        "date": "2023-09-28",
-        "time": "7:00+02:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/293021766",
-        "timezone": "Europe/Stockholm",
-        "description": "While the summer holidays may be behind us, there's no reason to stop the fun. This is the perfect opportunity for all of us app-sec interested folks to get together and meet up in real life for a relaxed chat and maybe a beer or some other refreshments.\n\n When: September 28th, 2023\n Where: The Old Brewer - Public House & Dining Room at Luntmakargatan 98, 113 51 Stockholm\n\nExpect:\n Quick AppSec Tips\n Networking\n Drinks & Laughter\n\nThe meeting will start at 17:00, but it's a casual event so turn up when it suits."
     },
     {
         "group": "Syracuse",
