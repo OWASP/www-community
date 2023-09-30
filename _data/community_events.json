@@ -1,15 +1,5 @@
 [
     {
-        "group": "Baku",
-        "repo": "www-chapter-baku",
-        "name": "OWASP Baku - Show Must Go On",
-        "date": "2023-09-29",
-        "time": "5:00+04:00",
-        "link": "https://www.meetup.com/owasp-baku-chapter/events/295899957",
-        "timezone": "Asia/Baku",
-        "description": "## Fortifying the Future of Application Security\n\nJoin us for an exciting online event, **OWASP Baku - Show Must Go On**! This is your chance to dive into the world of web application security and network with like-minded professionals. Our expert speakers will share their knowledge and insights on the latest trends, challenges, and best practices in the field. Don't miss out on this incredible opportunity to learn, grow, and connect with the cybersecurity community. Mark your calendars and get ready for an unforgettable experience!\n\n**Event Agenda**\n\n1. **Azar Alili** \\- Welcoming 3:00 PM \\- 3:10 PM\n2. **Sabuhi Safarov** \\- Threat Modeling 3:10 PM \\- 3:25 PM\n3. **Aghadadash Guliyev** \\- The Art of Deception 3:25 PM \\- 3:40 PM\n4. **Sakhavat Suleymanli** \\- Secure Coding Best Practices 3:40 PM \\- 3:55 PM\n5. **Javid Alizadeh** \\- DevSecOps vs\\. DevOps 3:55 PM \\- 4:10 PM\n6. **Orhan Jan** \\- Mobile Application Pentest: Best Practices and Emerging Threats 4:10 PM \\- 4:25 PM\n7. **Q&A** 4:25 PM - 5:00 PM"
-    },
-    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "OWASP/Null Combine Monthly meetup on October 14th.",
@@ -70,6 +60,16 @@
         "description": "OWASP Denver wanted to help promote a great upcoming conference put on by our sister organization in Denver on October 25:\n\n**The Cloud Security Alliance (CSA) - Colorado Chapter** is holding a unique event this year\n\n**AI and Cybersecurity: Revolution and Risks**\n\nAll sessions, speakers and content are dedicated to exploring AI's impact on the future of cybersecurity.\n\nCome be part of this all-day conversation. Registration includes:- Access to all sessions\n\n\\- Breakfast\n\\- Lunch\n\\- Networking happy hour\n\\- 6 Continuing education Credits\n**\\- An \"All\\-AI Panel\"\\, where the audience will be able to interact and ask questions of AI personalities representing experts in various fields\\.**\n\nThe full agenda is available now, including information about our keynote, speakers and topics:\n\nRegister now: [https://iplanit.swoogo.com/csacofall2023/](https://iplanit.swoogo.com/csacofall2023/)"
     },
     {
+        "group": "France",
+        "repo": "www-chapter-france",
+        "name": "Meetup OWASP - Paris - Octobre 2023",
+        "date": "2023-10-19",
+        "time": "9:00+02:00",
+        "link": "https://www.meetup.com/owasp-france/events/296429946",
+        "timezone": "Europe/Paris",
+        "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+    },
+    {
         "group": "Hong Kong",
         "repo": "www-chapter-hong-kong",
         "name": "DevSecOps Lab",
@@ -112,12 +112,32 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "Hands-on API Security Workshop w/ OWASP API Security Top 10",
+        "date": "2023-10-27",
+        "time": "7:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/296440656",
+        "timezone": "America/Los_Angeles",
+        "description": "**Integrating API Security Checks into the CI/CD Pipeline for DevSecOps**\n\nHello AppSec teams and tech enthusiasts! We're thrilled to roll out an exceptional DevSecOps workshop in collaboration with OWASP LA and offered by [Akto](https://akto.io). This workshop will equip participants with the knowledge and hands-on skills to integrate API Security Testing into their GitHub DevSecOps pipelines, using [OWASP API Security Top 10](https://owasp.org/API-Security/).\n\n## **Agenda:**\n\n### Introduction (15 minutes)\n\n1. The DevSecOps paradigm and its importance.\n2. Understanding GitHub Actions.\n3. The relevance of API Security testing in the CI/CD pipeline.\n\n### Overview of GitHub Actions for CI/CD (10 minutes)\n\n1. Basic components: workflows, runners, actions.\n2. Demonstration: A simple CI pipeline with GitHub Actions.\n\n### Hands-on: Integrating API Security testing with GitHub Actions (60 minutes)\n\n1. Introduction to API Security Testing.\n2. Overview of OWASP Top 10 for API Security\n3. Hands-on activity: a. Setting up a test environment (ideally a deployed version of the app). b. Configuring the API Security tool to scan the deployed application. c. Writing a GitHub Actions workflow to trigger API Security scans post-deployment. d. Analyzing and responding to API Security findings within GitHub.\n\n## **What's in it for Participants?**\n\n1. **Skill Enhancement:** Mastery of integrating API Security checks within the popular GitHub Actions CI/CD framework.\n2. **Hands-on Experience:** Directly apply workshop teachings to real-world scenarios.\n3. **Collaboration:** Network and collaborate with peers facing similar challenges.\n\n**Food and drinks** will be provided and there's a free 90 minute **parking** available across the street.\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - OCT 25, 2023",
         "date": "2023-10-25",
         "time": "7:30-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/294467794",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: How Can DevSecOps Improve Security?\n\nJoin us for dinner, drinks, networking and a great talk by **Mary Wang**, Software Engineering Manager at Northrop Grumman Space Systems\n\n**NOTE**: New Location!! \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n**ABSTRACT**: DevSecOps is the new buzzword that has been around for a while now. DevOps, DevSecOps, Agile, CI/CD pipeline, etc., and chances are you have heard these terms when discussing the software development life cycle. What do those terms mean? With the recent increasing cyber-attacks on software such as in-house developed code or software supply chain (open source software), the traditional ways of decreasing the attack surface on software applications no longer work effectively. Moreover, organizations are pressured to develop code faster and cheaper to meet customer demands. Mary will explain what DevSecOps is and how this practice is better than DevOps in security. In addition, how CI/CD fits in DevSecOps. Lastly, the popular tools are used in DevSecOps practices. She will provide the real-world experience challenges that she encountered.\n\n**Thanks to our Sponsor**: *[SAFEBASE](https://safebase.io/)*\n*SafeBase is the customer-facing Trust Center that automates B2B security reviews. Companies like LinkedIn, Asana, OpenAI, and Snyk use SafeBase to reduce security questionnaires, create a better buying experience, accelerate sales velocity, and position security as a revenue driver.*\n\n**SPONSORSHIP Opportunities Available** *Vendors interested in sponsoring please send an email to* *sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+    },
+    {
+        "group": "Maribor",
+        "repo": "www-chapter-maribor",
+        "name": "Cyber Night 2023",
+        "date": "2023-10-13",
+        "time": "6:00+02:00",
+        "link": "https://www.meetup.com/maribor-owasp-meetup-group/events/296432858",
+        "timezone": "Europe/Belgrade",
+        "description": "# Cyber Night 2023\n\n**Cyber Night je dogodek namenjen navdu\u0161encem informacijske varnosti in vsem ostalim, ki bi se na tem podro\u010dju radi preizkusili.**\n\nPrijava je obvezna na [eventbrite](https://www.eventbrite.com/e/cyber-night-2023-tickets-717651493937?aff=oddtdtcreator)."
     },
     {
         "group": "Netherlands",
@@ -132,12 +152,32 @@
     {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
+        "name": "OWASP Global AppSec - DC",
+        "date": "2023-10-30",
+        "time": "0:00+13:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291721118",
+        "timezone": "Pacific/Auckland",
+        "description": "**Global AppSec DC returns October 30 - November 3!**\n\nDesigned for private- and public-sector InfoSec professionals, the two-day OWASP conferences equip developers, defenders, and advocates to build a more secure web.\nWe are offering educational 1-day, 2-day, and 3-day training courses immediately following the conference.\n\n**Conference dates:** Monday and Tuesday, October 30-31\n**Training dates:** Wednesday to Friday, November 1-3.\n\nJoin us for leading application security technologies, speakers, prospects, and community, in a unique event that will build on everything you already know to expect from an OWASP Global Conference.\n\nConference Site: [https://dc.globalappsec.org/](https://dc.globalappsec.org/)\nRegistration: [EventBrite](https://www.eventbrite.com/e/owasp-global-appsec-washington-dc-2023-tickets-519195877847)"
+    },
+    {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
         "name": "OWASP Global AppSec - Singapore",
         "date": "2023-10-03",
         "time": "4:00+13:00",
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/294274627",
         "timezone": "Pacific/Auckland",
         "description": "Join us for the 2023 Global AppSec-Singapore (virtual) conference.\n\nConference will be presented through the conference's Whova app (access provided after registration) and training will be presented via Zoom (private links provided to registrants).\n\n**NOTE:** The conference's schedule is 9:00 a.m. - 5:00 p.m. Singapore Time (UTC+8) each day.\n\nDesigned for private and public sector InfoSec professionals, the one-day OWASP conference equips developers, defenders, and advocates to build a more secure web. We are offering educational\n\n* Three (3) one-day training courses, 4th October - US $260\n* API Security Testing 101 (Abdessamad Temmar)\n* Threat Modelling: From none to done (John DiLeo)\n* Don\u2019t trust my input: Frontend Security for Developers (Gian-Luca Frei)\n* One (1) two day training course, 3rd-4th October - US $1,010\n* Hacking Modern Web Apps - Master the Future of Attack Vectors (Ashwin Shenoi)\n* One-day conference, 5th October - US $35.00\n\nConference and Training schedule: [https://singapore.globalappsec.org/schedule/](https://singapore.globalappsec.org/schedule/)\nRegistration link: [https://whova.com/portal/registration/owasp_202310/](https://whova.com/portal/registration/owasp_202310/)"
+    },
+    {
+        "group": "Northern Virginia",
+        "repo": "www-chapter-northern-virginia",
+        "name": "Contextual Security Analysis - The next step for AppSec",
+        "date": "2023-10-12",
+        "time": "8:30-04:00",
+        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/296357704",
+        "timezone": "America/New_York",
+        "description": "Our current primary industry standard for detecting security issues in a software application is the use of either a DAST or SAST security tool which is then typically intertwined into the development pipeline. The hope being, as software changes, this data point helps us prevent some classes of vulnerabilities. The higher the risk associated with this data point, the more likely we are to intervene. As practitioners we accept that this singular data point has wildly varying levels of accuracy and we also accept that it will only find a subset of the vulnerability classes. Furthermore, we often rely upon this inaccurate signal and acknowledge that anything else is going to be caught by an attacker, a researcher or, our own appsec team. Ideally, not in that order.\n\nSome organizations have beefed up their approach and have begun using a second data point which is typically a dependency style scan tool. The bleeding edge appsec teams have begun also incorporating docker image CVE results as well as their own custom rules for their scanner tool. The fact remains though that these data points are not enough and that we have so much more available to us that can help us truly assess the risk that software changes introduce into our applications.\n\nDuring an almost six year tenure at GitHub, it became crystal clear not just how much data is available to defenders but also just how little of it is actually used to prevent vulnerabilities from being introduced on a daily basis and finally, what those reliable signals are. If we know that scan tools have such huge limitations, why is the primary and sometimes only data point we rely on?\n\nEnter Contextual Security Analysis (CSA) which utilizes a S.L.I.D.E. methodology and incorporates many data points to contextualize code changes and ultimately detect risk. CSA synthesizes many markers and bits of information to produce contextually relevant risk scores.\n\nJoin us to learn how you can leverage CSA in your organization!"
     },
     {
         "group": "Poland",
