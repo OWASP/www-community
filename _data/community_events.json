@@ -27,7 +27,7 @@
         "time": "8:00+10:00",
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/296322658",
         "timezone": "Australia/Brisbane",
-        "description": "Watch Colin\u2019s gradual decent into insanity as he attempts to unpack all the idiosyncratic behaviours of web that lead to Cross-Site Request Forgery and Cross-Origin Resource Sharing vulnerabilities within modern Web Applications.\nDon\u2019t know CSRF and CORS? After this talk, you\u2019ll understand the fundamentals.\nThink you know CSRF and CORS? By the end of the talk, you\u2019ll probably conclude that nobody \\*knows\\* CSRF and CORS.\n\nEvent location to be confirmed."
+        "description": "Watch Colin\u2019s gradual decent into insanity as he attempts to unpack all the idiosyncratic behaviours of web that lead to Cross-Site Request Forgery and Cross-Origin Resource Sharing vulnerabilities within modern Web Applications.\nDon\u2019t know CSRF and CORS? After this talk, you\u2019ll understand the fundamentals.\nThink you know CSRF and CORS? By the end of the talk, you\u2019ll probably conclude that nobody \\*knows\\* CSRF and CORS."
     },
     {
         "group": "Bristol Uk",
@@ -90,16 +90,6 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
-        "group": "Jalpaiguri Government Engineering College",
-        "repo": "www-chapter-jalpaiguri-government-engineering-college",
-        "name": "Introduction to CTFs - Workshop",
-        "date": "2023-10-02",
-        "time": "1:30+05:30",
-        "link": "https://www.meetup.com/owasp-jalpaiguri-government-engineering-college-chapter/events/296446622",
-        "timezone": "Asia/Kolkata",
-        "description": "A beginners guide on introduction to CTFs. Mandatory for students taking part in the JCTF 2023.\n\nWe have a special speaker among us who is going to cover all areas of CTF.\n\\- OSINT\n\\- Web\n\\- Cloud\n\\- Crypto\n\\- Forensics\n\\- Reverse Engineering\n\\- Pwn\n\nJoining info:\nOWASP CHAPTER LEADERS is inviting you to a scheduled Zoom meeting.\nTopic: OWASP JGEC Student Chapter - Introduction to CTFs [Workshop]\nTime: Oct 2, 2023 11:30 AM India\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/83013012955?pwd=3aehvLrnBxBfk5eMVHtm36REtONn0K.1\nMeeting ID: 830 1301 2955\nPasscode: 058115\n\\-\\-\\-\nOne tap mobile\n+17193594580,,83013012955# US\n+19294362866,,83013012955# US (New York)\n\\-\\-\\-\nDial by your location\n\u2022 +1 719 359 4580 US\n\u2022 +1 929 436 2866 US (New York)\n\u2022 +1 253 205 0468 US\n\u2022 +1 253 215 8782 US (Tacoma)\n\u2022 +1 301 715 8592 US (Washington DC)\n\u2022 +1 305 224 1968 US\n\u2022 +1 309 205 3325 US\n\u2022 +1 312 626 6799 US (Chicago)\n\u2022 +1 346 248 7799 US (Houston)\n\u2022 +1 360 209 5623 US\n\u2022 +1 386 347 5053 US\n\u2022 +1 507 473 4847 US\n\u2022 +1 564 217 2000 US\n\u2022 +1 646 931 3860 US\n\u2022 +1 669 444 9171 US\n\u2022 +1 669 900 6833 US (San Jose)\n\u2022 +1 689 278 1000 US\nMeeting ID: 830 1301 2955\nFind your local number: https://us06web.zoom.us/u/kfoTRRnMx"
-    },
-    {
         "group": "Lahore",
         "repo": "www-chapter-lahore",
         "name": "Workshop | Kubernates community Day Lahore ",
@@ -140,6 +130,16 @@
         "description": "# Cyber Night 2023\n\n**Cyber Night je dogodek namenjen navdu\u0161encem informacijske varnosti in vsem ostalim, ki bi se na tem podro\u010dju radi preizkusili.**\n\nPrijava je obvezna na [eventbrite](https://www.eventbrite.com/e/cyber-night-2023-tickets-717651493937?aff=oddtdtcreator)."
     },
     {
+        "group": "Minneapolis St Paul",
+        "repo": "www-chapter-minneapolis-st-paul",
+        "name": "(Hybrid) Gamifying Tabletop Exercises",
+        "date": "2023-10-24",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/owasp-msp-meetup/events/296499717",
+        "timezone": "America/Chicago",
+        "description": "**Andrew Carlson -- Gamifying Tabletop Exercises**\n\nHave you wondered whether there is a fun way to examine how prepared teams are for an incident?\n\nAndrew will give an overview of a game he developed and uses to do tabletop exercises for incident response at his company. He will walk through the set up of the game and walk attendees through a round of the game.\n\nThe game doesn't require deep security knowledge from the teams going through the exercise.\n\nHors d'oeuvres will be available.\n\nAgenda:\n6:00 - Socializing/connecting\n6:10 - OWASP announcements\n6:15 - Presentation\nThere will be time for socializing after the presentation/game as well.\n\nIf needed, the code for the on-line portion will be 972403."
+    },
+    {
         "group": "Netherlands",
         "repo": "www-chapter-netherlands",
         "name": "October 2023 OWASP Chapter Netherlands Meetup",
@@ -178,6 +178,16 @@
         "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/296357704",
         "timezone": "America/New_York",
         "description": "Our current primary industry standard for detecting security issues in a software application is the use of either a DAST or SAST security tool which is then typically intertwined into the development pipeline. The hope being, as software changes, this data point helps us prevent some classes of vulnerabilities. The higher the risk associated with this data point, the more likely we are to intervene. As practitioners we accept that this singular data point has wildly varying levels of accuracy and we also accept that it will only find a subset of the vulnerability classes. Furthermore, we often rely upon this inaccurate signal and acknowledge that anything else is going to be caught by an attacker, a researcher or, our own appsec team. Ideally, not in that order.\n\nSome organizations have beefed up their approach and have begun using a second data point which is typically a dependency style scan tool. The bleeding edge appsec teams have begun also incorporating docker image CVE results as well as their own custom rules for their scanner tool. The fact remains though that these data points are not enough and that we have so much more available to us that can help us truly assess the risk that software changes introduce into our applications.\n\nDuring an almost six year tenure at GitHub, it became crystal clear not just how much data is available to defenders but also just how little of it is actually used to prevent vulnerabilities from being introduced on a daily basis and finally, what those reliable signals are. If we know that scan tools have such huge limitations, why is the primary and sometimes only data point we rely on?\n\nEnter Contextual Security Analysis (CSA) which utilizes a S.L.I.D.E. methodology and incorporates many data points to contextualize code changes and ultimately detect risk. CSA synthesizes many markers and bits of information to produce contextually relevant risk scores.\n\nJoin us to learn how you can leverage CSA in your organization!"
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Chapter 3: Cyber Peterborough MeetUp",
+        "date": "2023-11-01",
+        "time": "9:30Z",
+        "link": "https://www.meetup.com/owasp-peterborough/events/295240302",
+        "timezone": "Europe/London",
+        "description": "**We're evolving!**\n\nListening to our member feedback, we've moved towards '**Cyber Peterborough**', have a new lick of paint and are still focussing on all things cyber security.\n\n**'Powered by OWASP'** means we still practice, share and discuss content amongst peers in our global network, now with a local feel closer to our community.\n\n**Making Cyber Security Accessible.**\n\nCyber Peterborough is for everyone. Come along, bring a friend, share with your colleagues. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**Agenda**\n\n1. **Ben Mackereth** \\| A working title of a mysterious nature\n2. **Speaker TBC**\n3. **Sign up to Cyber Peterborough's first ever Capture the Flag!** Suitable for all experiences and abilities, join us over food and drink and learn whilst doing in our CTF event.\n\n**When is it?**\n\n* Wednesday 1st November\n* **Start** from 7:30PM\n* **Finish** around 11:00PM\n\n**Where is it?**\n\n* The Brewery Tap, Peterborough\n\n**How can you get involved?**\n\n* Respond \"I'm Coming!\" to this group\n\nWe look forward to seeing you!"
     },
     {
         "group": "Poland",
