@@ -90,6 +90,16 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
+        "group": "Kathmandu",
+        "repo": "www-chapter-kathmandu",
+        "name": "OWASP Kathmandu Meetup - 0x05",
+        "date": "2023-10-07",
+        "time": "0:30+05:45",
+        "link": "https://www.meetup.com/owasp-kathmandu-chapter/events/296492055",
+        "timezone": "Asia/Kathmandu",
+        "description": "The 0x05 Meetup for OWASP Kathmandu is ecstatically set to take place on the **7th of October, 2023.** We are deeply honored to have the illustrious **Cedar Gate Nepal** as our esteemed sponsor.\n\nTalks will encompass a diverse range of topics including Organizational Cybersecurity, Bug Bounties, Network Security, Compliance, DevSecOps, and much more. Please note that this time we have implemented a strict RSVP policy, so ensure to confirm your attendance in advance."
+    },
+    {
         "group": "Lahore",
         "repo": "www-chapter-lahore",
         "name": "Workshop | Kubernates community Day Lahore ",
@@ -120,6 +130,16 @@
         "description": "**TOPIC**: How Can DevSecOps Improve Security?\n\nJoin us for dinner, drinks, networking and a great talk by **Mary Wang**, Software Engineering Manager at Northrop Grumman Space Systems\n\n**NOTE**: New Location!! \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n**ABSTRACT**: DevSecOps is the new buzzword that has been around for a while now. DevOps, DevSecOps, Agile, CI/CD pipeline, etc., and chances are you have heard these terms when discussing the software development life cycle. What do those terms mean? With the recent increasing cyber-attacks on software such as in-house developed code or software supply chain (open source software), the traditional ways of decreasing the attack surface on software applications no longer work effectively. Moreover, organizations are pressured to develop code faster and cheaper to meet customer demands. Mary will explain what DevSecOps is and how this practice is better than DevOps in security. In addition, how CI/CD fits in DevSecOps. Lastly, the popular tools are used in DevSecOps practices. She will provide the real-world experience challenges that she encountered.\n\n**Thanks to our Sponsor**: *[SAFEBASE](https://safebase.io/)*\n*SafeBase is the customer-facing Trust Center that automates B2B security reviews. Companies like LinkedIn, Asana, OpenAI, and Snyk use SafeBase to reduce security questionnaires, create a better buying experience, accelerate sales velocity, and position security as a revenue driver.*\n\n**SPONSORSHIP Opportunities Available** *Vendors interested in sponsoring please send an email to* *sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
+        "group": "Madison",
+        "repo": "www-chapter-madison",
+        "name": "October Meeting",
+        "date": "2023-10-24",
+        "time": "5:30-05:00",
+        "link": "https://www.meetup.com/owasp-madison/events/296510809",
+        "timezone": "America/Chicago",
+        "description": "https://guidedconversations.org/\n\nDiscussion Topics\n\n1. [LLM Top 10](https://www.llmtop10.com/)\n2. \u201cThe Bogus CVE Problem\u201d: [https://lwn.net/Articles/944209/](https://lwn.net/Articles/944209/)\n3. (your topic here)\n\nTool Spotlights\n\n1. [Checkmarx KICS](https://docs.kics.io/)\n2. https://github.com/guacsec/guac"
+    },
+    {
         "group": "Maribor",
         "repo": "www-chapter-maribor",
         "name": "Cyber Night 2023",
@@ -147,7 +167,7 @@
         "time": "8:00+02:00",
         "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/296179697",
         "timezone": "Europe/Amsterdam",
-        "description": "**Location:** Radboud University, Huygens building\n**Address:** Heyendaalseweg 135, Nijmegen\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **TBA** by **Marinus Kuivenhoven**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **Unveiling the secrets in your code: Detecting and Triaging exposed credentials at scale** by **Ingmar Vis**\n\n**Unveiling the secrets in your code: Detecting and Triaging exposed credentials at scale**\n*Abstract:*\nSecurity misconfigurations are often easy to exploit but also easy to avoid. How can we raise security awareness and at the same time prevent security misconfigurations (such as leaked credentials) from reaching production? Is there an easy way to scan, triage and follow-up on exposed secrets at enterprise scale? ABN Amro open sourced Repository Scanner and runs Repository Scanner internally at scale, exposing secrets in source code repositories and thereby raising security awareness while at the same time improving the security posture by remediating security misconfigurations.\n\n*Bio:*\nIngmar Vis has been working in CICD for 7 years. In his current role, Ingmar acts as a Product Owner for 2 teams at ABN Amro. 1 team is responsible for delivering the Secure Coding capability for all developers, the 2nd team is responsible for the infrastructure and automation of CICD tooling. Ingmar works on aspects such as Static Analysis, Software Composition Analysis, Container Security, and Secret Detection."
+        "description": "**Location:** Radboud University, Huygens building\n**Address:** Heyendaalseweg 135, Nijmegen\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **Hacking CI/CD pipelines: a few considerations when attacking a CI/CD orchestrator** by **Mauricio Cano**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **Unveiling the secrets in your code: Detecting and Triaging exposed credentials at scale** by **Ingmar Vis**\n\n**Unveiling the secrets in your code: Detecting and Triaging exposed credentials at scale**\n*Abstract:*\nSecurity misconfigurations are often easy to exploit but also easy to avoid. How can we raise security awareness and at the same time prevent security misconfigurations (such as leaked credentials) from reaching production? Is there an easy way to scan, triage and follow-up on exposed secrets at enterprise scale? ABN Amro open sourced Repository Scanner and runs Repository Scanner internally at scale, exposing secrets in source code repositories and thereby raising security awareness while at the same time improving the security posture by remediating security misconfigurations.\n\n*Bio:*\nIngmar Vis has been working in CICD for 7 years. In his current role, Ingmar acts as a Product Owner for 2 teams at ABN Amro. 1 team is responsible for delivering the Secure Coding capability for all developers, the 2nd team is responsible for the infrastructure and automation of CICD tooling. Ingmar works on aspects such as Static Analysis, Software Composition Analysis, Container Security, and Secret Detection."
     },
     {
         "group": "New Zealand",
@@ -158,16 +178,6 @@
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291721118",
         "timezone": "Pacific/Auckland",
         "description": "**Global AppSec DC returns October 30 - November 3!**\n\nDesigned for private- and public-sector InfoSec professionals, the two-day OWASP conferences equip developers, defenders, and advocates to build a more secure web.\nWe are offering educational 1-day, 2-day, and 3-day training courses immediately following the conference.\n\n**Conference dates:** Monday and Tuesday, October 30-31\n**Training dates:** Wednesday to Friday, November 1-3.\n\nJoin us for leading application security technologies, speakers, prospects, and community, in a unique event that will build on everything you already know to expect from an OWASP Global Conference.\n\nConference Site: [https://dc.globalappsec.org/](https://dc.globalappsec.org/)\nRegistration: [EventBrite](https://www.eventbrite.com/e/owasp-global-appsec-washington-dc-2023-tickets-519195877847)"
-    },
-    {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP Global AppSec - Singapore",
-        "date": "2023-10-03",
-        "time": "4:00+13:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/294274627",
-        "timezone": "Pacific/Auckland",
-        "description": "Join us for the 2023 Global AppSec-Singapore (virtual) conference.\n\nConference will be presented through the conference's Whova app (access provided after registration) and training will be presented via Zoom (private links provided to registrants).\n\n**NOTE:** The conference's schedule is 9:00 a.m. - 5:00 p.m. Singapore Time (UTC+8) each day.\n\nDesigned for private and public sector InfoSec professionals, the one-day OWASP conference equips developers, defenders, and advocates to build a more secure web. We are offering educational\n\n* Three (3) one-day training courses, 4th October - US $260\n* API Security Testing 101 (Abdessamad Temmar)\n* Threat Modelling: From none to done (John DiLeo)\n* Don\u2019t trust my input: Frontend Security for Developers (Gian-Luca Frei)\n* One (1) two day training course, 3rd-4th October - US $1,010\n* Hacking Modern Web Apps - Master the Future of Attack Vectors (Ashwin Shenoi)\n* One-day conference, 5th October - US $35.00\n\nConference and Training schedule: [https://singapore.globalappsec.org/schedule/](https://singapore.globalappsec.org/schedule/)\nRegistration link: [https://whova.com/portal/registration/owasp_202310/](https://whova.com/portal/registration/owasp_202310/)"
     },
     {
         "group": "Northern Virginia",
@@ -210,6 +220,16 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
+        "group": "Stockholm",
+        "repo": "www-chapter-stockholm",
+        "name": "OWASP Stockholm - API Security and Resilient Websites",
+        "date": "2023-10-18",
+        "time": "7:30+02:00",
+        "link": "https://www.meetup.com/owasp-stockholm/events/296510766",
+        "timezone": "Europe/Stockholm",
+        "description": "Join us for an exciting in-person event at **Akamai**, **Solna Gate**! This meetup is all about **API Security** and building **Resilient Websites**. Discover the latest techniques and best practices to protect your APIs from vulnerabilities and ensure your websites can withstand any challenges. Network with like-minded professionals, share experiences, and learn from industry experts while enjoying some food and drinks.\n\n**NOTE:** Registration required through Eventbrite [Register link](https://www.eventbrite.com/e/owasp-meetup-api-security-and-resilient-websites-tickets-730436113077)\n\n**Agenda:**\n\n* **17:30 - 18:15** Join us for food & drinks\n* **18:15 - 18:45** Why API Security is a hot topic, recent attacks and examples\n* **18:45 - 19:15** Architecting web applications to achieve DDoS resiliency\n* **19:15 - 20:30** Networking and discussions\n\n**Why API Security is a hot topic, recent attacks and examples by Menachem Perlman, Director of API Security**\nWhy API Security become a hot topic and what you need to know about it, join Menachem Perlman Director of API Security to learn more about API Security types of attacks, why authenticated users are posing risk for organizations and hear about real stories and examples.\n\n**Architecting web applications to achieve DDoS resiliency by Johan Aldor, Senior SE Akamai**\nIn this session, Johan Aldor, Senior Solutions Engineer from Akamai will cover how to architect web applications to achieve DDoS resiliency. DDoS attacks are getting more common and also bigger, if you don\u2019t architecture your web application correctly, coping with attacks can be a hassle. Akamai has over 25 years of experience in running distributed systems and overlay networks. Join us in this session where we share the benefits of using a distributed architecture for DNS, Web Application Firewalls and datacenter protection that will make you ready for any attack.\n\n**Location**: Hemv\u00e4rnsgatan 9, 171 54 Solna\nTime: October 18th, 17:30 \u2013 20:30\nLighter food & drinks will be served. The talks will begin at 18:15.\n\nRegistration required on Eventbrite [https://www.eventbrite.com/e/owasp-meetup-api-security-and-resilient-websites-tickets-730436113077](https://www.eventbrite.com/e/owasp-meetup-api-security-and-resilient-websites-tickets-730436113077?aff=oddtdtcreator)"
+    },
+    {
         "group": "Syracuse",
         "repo": "www-chapter-syracuse",
         "name": "Unlocking Cybersecurity Insights: New Open Source Tools for Defense Modeling",
@@ -228,6 +248,16 @@
         "link": "https://www.meetup.com/owasp-timisoara-chapter/events/296120016",
         "timezone": "Europe/Bucharest",
         "description": "## Details\n\nThe next OWASP Timisoara Chapter Meetup will be ***in person***.\n\nSee https://owasp.org/www-chapter-timisoara/ for more information about the OWASP Timisoara chapter.\nTheme sessions - Theme: Secure Coding Tournament\n\n\\`Schedule\\` **\\`Time:\\`**\\` 18:00 to 21:00\\`\n\n18:00 - 18:20 - Welcome participants - Lucian Patian (Haufe)\n18:20 - 18:30 - Introduction, OWASP News & Updates - Catalin Curelaru\nSecure code\n18:30 - 19:45 - Secure Coding Tournament\n19:45 - 20:00 - Prizes\n\nLocation of the event: UBC0, et 15, Sediu Haufe.Group, Pia\u021ba Consiliul Europei 2 \u00b7 Timi\u0219oara\n\nEvent powered by **Haufe**.Group & **Secure Code Warrior**\n\nMore about the event:\n[Secure Code Warrior](https://www.securecodewarrior.com/) brings you a defensive security-based tournament from a developer's perspective. *The tournament allows you to test your skill in a series of vulnerable code challenges that ask you to identify a problem, locate insecure code, and fix a vulnerability.*\n\n*You don\u2019t need extensive programming knowledge as this will be a great way to learn the foundations and intermediates of leveraging code that is not only functional but is also secure.*\n\nYou can find the tournament step-by-step guide here: [https://youtu.be/o8XhKK_eOOs](https://youtu.be/o8XhKK_eOOs)\n\nThe tournament is hosted physically by **Haufe**.Group and you can join through your laptop. The tournament it should take only a 1.5 hours, drop-in as you see fit during the duration of the event to complete all the challenges and win prizes!"
+    },
+    {
+        "group": "Toronto",
+        "repo": "www-chapter-toronto",
+        "name": "OWASP Toronto | Developers like Carrots not sticks",
+        "date": "2023-10-12",
+        "time": "8:30-04:00",
+        "link": "https://www.meetup.com/owasp-toronto/events/296515557",
+        "timezone": "America/Toronto",
+        "description": "TALK\n\nDevs like Carrots not sticks\n\nSummary:\n\nIn this talk, we will delve into several crucial concepts that are pivotal in the realm of modern software development. We'll explore the intricate intersection of language, DevSecOps tools, Git strategies, CI pipelines, and self-governance frameworks, shedding light on how they come together to form a cohesive whole..\nWe will follow an IAC dev story, but also point out where application code checks are also pertinent. Daniel will share lessons learnt while helping clients implement IAC with security scanning and manage of security bugs.\nBy the end of this talk, you will have a better understanding of how to protect your IAC from security failures, how CI/CD pipelines can save the day and how to manage the security bugs.\n\nPresenter:\n\nDaniel Oates-Lee\n\nDirector/ Senior DevSecOps Consultant\n\nDaniel is one of the co-founders and directors of Punk Security Ltd. He has over 23 years of commercial IT experience, with 17 years focused on cyber security. He has worked with some of the largest global financial companies, the UK government and the British military on various projects ranging from penetration testing and security policy writing to technical implementations and red teaming. Over the last 6 years, Daniel\u2019s focus has been on DevSecOps and automating security testing. In his spare time, Daniel volunteers to help run and deliver talks at cyber security conferences, whilst also carrying out his own personal research."
     },
     {
         "group": "Triangle Nc",
