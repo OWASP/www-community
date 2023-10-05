@@ -17,7 +17,7 @@
         "time": "7:30-04:00",
         "link": "https://www.meetup.com/owaspboston/events/295661579",
         "timezone": "America/New_York",
-        "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nPresentation and speaker update coming soon!"
+        "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\n**The Dark Side of Open Source Productivity**: There is a dark side to productivity with open source. In modern applications, the majority of code on which an application is built isn\u2019t code written by your team. Modern applications are built on the backs of volunteer communities and open-source software. These volunteers and their software delivery practices all become potential attack vectors. The truth is that most organizations do not factor open-source supply chain attacks into their organization\u2019s threat models today. Security incidents such as the CodeCov bash uploader script, the npm colors, and faker intentionally introduced malicious commits, and the recent PyPi backdoors targeting AWS credentials highlight the impact of supply chain attacks as a scalable attack pattern. To spread awareness on supply chain attacks so that organizations can scalably handle them we propose baking supply chain attacks into existing threat modeling procedures and software development culture so that organizations can champion supply chain management of open source in the places where they are most impactful, at development time. We will present a comprehensive, comprehensible, and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents and validated by experts in the domain. Following, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks and how you can work these defenses in based on your program\u2019s maturity."
     },
     {
         "group": "Brisbane",
@@ -100,14 +100,14 @@
         "description": "The 0x05 Meetup for OWASP Kathmandu is ecstatically set to take place on the **7th of October, 2023.** We are deeply honored to have the illustrious **Cedar Gate Nepal** as our esteemed sponsor.\n\nTalks will encompass a diverse range of topics including Organizational Cybersecurity, Bug Bounties, Network Security, Compliance, DevSecOps, and much more. Please note that this time we have implemented a strict RSVP policy, so ensure to confirm your attendance in advance."
     },
     {
-        "group": "Lahore",
-        "repo": "www-chapter-lahore",
-        "name": "Workshop | Kubernates community Day Lahore ",
-        "date": "2023-10-04",
-        "time": "1:00+05:00",
-        "link": "https://www.meetup.com/owasp-lahore-chapter/events/296473097",
-        "timezone": "Asia/Karachi",
-        "description": "A hand-on workshop on this KCD event Lahore, we are proud to announce that our one of organizer is hosting this workshop at Kubernates community Day event,\n\n**speaker name :** Syed Asad Raza\n**workshop :** implement OWASP security rules on K8s.\n\nhttps://pk.linkedin.com/in/syedasadrazadevops\n\nbe ready for this upcoming event, you can register on [Kcdlahore.com](https://kcdlahore.com/) as an owasp community member and get *free ticket*."
+        "group": "London",
+        "repo": "www-chapter-london",
+        "name": "OWASP London Secure Coding Tournament CTF [IN-PERSON]",
+        "date": "2023-10-24",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/owasp-london/events/296523070",
+        "timezone": "Europe/London",
+        "description": "**OWASP London Chapter** is pleased to announce the OWASP London CTF Tournament for Software Developers kindly sponsored by **Monzo** and **SecureFlag**. Discover vulnerabilities, capture flags, win real prizes!\n\nThis event is kindly hosted and sponsored by: **Monzo**\nThe CTF Tournament platform is kindly provided by: **SecureFlag**\n\n**Venue Location**: Monzo, 5 Appold St, London, EC2A 2AG\n**Nearest Tube:** Liverpool Street - 4 min walk\n**Doors open and registration**: 6:00pm (grab some food & drink and connect your laptop)\n**CTF starts**: 6:30pm (we start on time)\n**Expected CTF finish and Prize Giving Ceremony**: 8:45pm-9:00pm\n\nCTF (Capture The Flag) is a type of computer security competition. Contestants are presented with a set of challenges and puzzles which test their creativity, technical skills, vulnerability-finding skills and problem-solving ability. The challenges usually cover a number of categories of vulnerabilities in source code and when solved, each yields a \u201cflag\u201d which is submitted to a real-time scoring service. The difficulty levels are from beginner to advanced.\n\n**IMPORTANT**: Please **bring your own** **LAPTOP** and a **CHARGER** for it.\n\n**Top 3 scorers** will win exciting prizes generously provided by OWASP London Chapter sponsors.\n\nParticipation is FREE, but the **number of seats is strictly limited** and **registration is required** to attend.\n\n**Please remember to bring your own laptop!**\n\n**IMPORTANT**: By participating in this activity you agree to abide by the **OWASP Code of Conduct**\n\n**CODE OF CONDUCT**\nWe hope you enjoy our events, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback or would like to speak to us, we take these matters very seriously. You can find the full text of the OWASP Code of Conduct Policy here: [https://owasp.org/www-policy/operational/code-of-conduct](https://owasp.org/www-policy/operational/code-of-conduct)"
     },
     {
         "group": "Los Angeles",
@@ -198,16 +198,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/295240302",
         "timezone": "Europe/London",
         "description": "**We're evolving!**\n\nListening to our member feedback, we've moved towards '**Cyber Peterborough**', have a new lick of paint and are still focussing on all things cyber security.\n\n**'Powered by OWASP'** means we still practice, share and discuss content amongst peers in our global network, now with a local feel closer to our community.\n\n**Making Cyber Security Accessible.**\n\nCyber Peterborough is for everyone. Come along, bring a friend, share with your colleagues. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**Agenda**\n\n1. **Ben Mackereth** \\| A working title of a mysterious nature\n2. **Speaker TBC**\n3. **Sign up to Cyber Peterborough's first ever Capture the Flag!** Suitable for all experiences and abilities, join us over food and drink and learn whilst doing in our CTF event.\n\n**When is it?**\n\n* Wednesday 1st November\n* **Start** from 7:30PM\n* **Finish** around 11:00PM\n\n**Where is it?**\n\n* The Brewery Tap, Peterborough\n\n**How can you get involved?**\n\n* Respond \"I'm Coming!\" to this group\n\nWe look forward to seeing you!"
-    },
-    {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "OWASP Poland Day 2023 - The truly underground IT security conference",
-        "date": "2023-10-04",
-        "time": "9:00+02:00",
-        "link": "https://www.meetup.com/owasp-poland/events/295385092",
-        "timezone": "Europe/Warsaw",
-        "description": "OWASP Poland Day 2023 - Guido Coal Mine - Zabrze\n\n**[Register using this link](https://owasp-poland-day-2023.eventbrite.com/?aff=meetup)**\n\n(event is paid, but we are doing our best to keep it as low as possible)\n\nOWASP Poland Day is the largest annual security conference in Poland focused on topics related to application security. The conference brings together developers, penetration testers and CISOs responsible for ensuring application security. Apart from great presentations delivered by leading application security professionals and researchers the conference will be fantastic networking opportunity.\n\nAfter the pandemic we are back with an even better conference. Since we organize it in Silesia, it will be very unique \u2013 probably the only one in the world application security conference:\n\n* 320 meters under the ground\n\n* Held in coal mine and museum\n\n* 2 tracks, 17 presentations. 300+ attendees.\n\nIf you want to attend, you have to use Eventbrite for registration. Please do not RSVP using Meetup. It's a paid event but we are doing our best to keep entrance fee as low as possible, just to cover venue, coffee and lunch, speakers expenses, evening networking event etc.\n\n**Register at: [https://owasp-poland-day-2023.eventbrite.com/?aff=meetup ](https://owasp-poland-day-2023.eventbrite.com/?aff=meetup)**\n\nAgenda and speaker list at: [https://owasp-poland.day/](https://owasp-poland.day/)\n\nPlease spread the word!"
     },
     {
         "group": "Seattle",
