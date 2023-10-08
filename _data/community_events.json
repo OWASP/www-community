@@ -120,16 +120,6 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
-        "group": "Kathmandu",
-        "repo": "www-chapter-kathmandu",
-        "name": "OWASP Kathmandu Meetup - 0x05",
-        "date": "2023-10-07",
-        "time": "0:30+05:45",
-        "link": "https://www.meetup.com/owasp-kathmandu-chapter/events/296492055",
-        "timezone": "Asia/Kathmandu",
-        "description": "The 0x05 Meetup for OWASP Kathmandu is ecstatically set to take place on the **7th of October, 2023.** We are deeply honored to have the illustrious **Cedar Gate Nepal** as our esteemed sponsor.\n\nTalks will encompass a diverse range of topics including Organizational Cybersecurity, Bug Bounties, Network Security, Compliance, DevSecOps, and much more. Please note that this time we have implemented a strict RSVP policy, so ensure to confirm your attendance in advance."
-    },
-    {
         "group": "London",
         "repo": "www-chapter-london",
         "name": "OWASP London Secure Coding Tournament CTF [IN-PERSON]",
@@ -218,6 +208,16 @@
         "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/296357704",
         "timezone": "America/New_York",
         "description": "Our current primary industry standard for detecting security issues in a software application is the use of either a DAST or SAST security tool which is then typically intertwined into the development pipeline. The hope being, as software changes, this data point helps us prevent some classes of vulnerabilities. The higher the risk associated with this data point, the more likely we are to intervene. As practitioners we accept that this singular data point has wildly varying levels of accuracy and we also accept that it will only find a subset of the vulnerability classes. Furthermore, we often rely upon this inaccurate signal and acknowledge that anything else is going to be caught by an attacker, a researcher or, our own appsec team. Ideally, not in that order.\n\nSome organizations have beefed up their approach and have begun using a second data point which is typically a dependency style scan tool. The bleeding edge appsec teams have begun also incorporating docker image CVE results as well as their own custom rules for their scanner tool. The fact remains though that these data points are not enough and that we have so much more available to us that can help us truly assess the risk that software changes introduce into our applications.\n\nDuring an almost six year tenure at GitHub, it became crystal clear not just how much data is available to defenders but also just how little of it is actually used to prevent vulnerabilities from being introduced on a daily basis and finally, what those reliable signals are. If we know that scan tools have such huge limitations, why is the primary and sometimes only data point we rely on?\n\nEnter Contextual Security Analysis (CSA) which utilizes a S.L.I.D.E. methodology and incorporates many data points to contextualize code changes and ultimately detect risk. CSA synthesizes many markers and bits of information to produce contextually relevant risk scores.\n\nJoin us to learn how you can leverage CSA in your organization!"
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Hands-on API Security Workshop with OWASP JuiceShop and other vulnerable apps",
+        "date": "2023-10-26",
+        "time": "8:00-07:00",
+        "link": "https://www.meetup.com/owasp-oc/events/296608425",
+        "timezone": "America/Los_Angeles",
+        "description": "Step into the world of API Security with our immersive two-hour hands-on training event at the OWASP meetup!\n\nWe\u2019re excited to announce this opportunity for appsec teams to enhance their skills in API Security and writing business logic tests. We will have a hands-on workshop focused on creating and running business logic tests using Akto. You will learn to write ten different business logic tests, which will then be executed against Juice Shop and other vulnerable apps. The goal of the workshop is to give a hands-on experience in writing and automating custom API security tests related to authentication, authorization and access control issues. The workshop aims to be interactive, engaging, and an enriching learning experience. You will learn the fundamentals of writing, automating, and executing business logic tests. By the end of this training, participants will be able to automate 10 business logic tests, a key skill in the realm of API security.\n\n**What to Expect?**\n\n* By the end of the workshop participants will be able to write 10 business logic tests focused on authentication, authorization and access control issues.\n* Networking opportunity with fellow security professional.\n* Ask absolutely any questions about securing APIs\n\n**Requirements:**\n\n* Attendees are required to bring their laptops with internet connectivity\n\n**Note**\nParticipants are encouraged to bring their own API projects or sample APIs they are trying to test to receive personalized guidance and recommendations during the workshop. We will help everyone write their own custom tests during the workshop itself so you can test your own APIs. If not, we will be using Juiceshop or other vulnerable apps for demo purposes."
     },
     {
         "group": "Ottawa",
