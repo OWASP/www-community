@@ -47,7 +47,7 @@
         "time": "8:00+01:00",
         "link": "https://www.meetup.com/owasp-bristol/events/295904341",
         "timezone": "Europe/London",
-        "description": "We're back, on Tuesday 17th October, at Sage Bristol (near Queen Square).\n\nChris Goff will talk about \"**Secure by Design and by Default**\", and Daniel Billing has a talk on \"**Exploring Security**\".\n\nMore details to be confirmed Soon\u2122."
+        "description": "We're back, on Tuesday 17th October, at Sage Bristol (near Queen Square).\n\nChris Goff will talk about \"**Secure by Design and by Default**\", and Daniel Billing has a talk on \"**Exploring Security**\".\n\n\\-\\-\\-\n\n**Secure by Design and by Default**\n\nSecure by design is not a new concept. But is it typically done well? What does it mean? To what extent should software producers be required to understand how their products could present security threats to their customers, and how should they mitigate them?\nWe\u2019ll briefly explore this topic, have a discussion about what we think as cyber professionals and engineers, and have a brief look at how we could embed secure design thinking into our daily practices.\n\nChris has over 18 years of experience in technology careers. Having completed a web application development degree at Bournemouth, Chris has worked for various sizes of business, from a small software start up, to CIO for the UK\u2019s largest independent foster care agency, to working for a Big 4 consulting firm as a cybersecurity consultant. Chris is a security generalist who thrives acting as the interface between security and technology teams and the wider business. He now works for Sage, a FTSE 100 software company, as part of the security leadership team. Outside of work, Chris is a husband and father of two girls, enjoys hiking, camping, wine and folk music.\n\n\\-\\-\\-\n\n**Exploring Security**\n\nSecurity is a vital aspect of software development and quality. Without it, we compromise the confidentiality of data, both corporate and personal, the integrity and the availability of our products and services.\n\nUnfortunately, it is a challenge that is not fully understood, or executed on. Software engineers and leaders need to understand the risks and threats to their customers and deliverables. Sometimes these risks are deferred to tooling, consultants and internal security teams. This is often a great way of working for some organizations, but it ignores the fact that engineers need to be able to identify, fix and communicate the security risks to their products.\n\nKey takeaways:\n\n* Understand the key security risks, threats and vulnerabilities to the services that they work on.\n* Understand that security is a whole team problem, which requires thought, planning and honest commitment to take on the challenge.\n* Begin to be able to explore security using a variety of methods, techniques and skills\n\nDan has been working in software testing and quality for over 20 years, in a variety of private and public sector organisations. Over the last 10 years or so he has discovered a passion for security testing and including and encouraging engineering teams to incorporate security processes and skills in their day to day work. Dan has also been a public speaker at a variety of tech and testing conferences across the Europe and the rest of the world. He has been passionately driving interest and skilling up of testers in the security space. Dan currently works at Microsoft Azure for Operators, since 2020. He lives in Bristol, with his family and dog Milo. He can often be found walking Milo around Hanham Common."
     },
     {
         "group": "Cotonou",
@@ -88,6 +88,16 @@
         "link": "https://www.meetup.com/owasp-france/events/296429946",
         "timezone": "Europe/Paris",
         "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+    },
+    {
+        "group": "Gothenburg",
+        "repo": "www-chapter-gothenburg",
+        "name": "Security Pub (S\u00e4kPub)",
+        "date": "2023-11-07",
+        "time": "7:30+01:00",
+        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/296558368",
+        "timezone": "Europe/Stockholm",
+        "description": "**OWASP Gothenborg Chapter invites you to an evening of security and entertainment!**\n\nCome hang out, grab a beer, and play arcade games with other security minded people!\n\nWhen: Tuesday 7/11 17:30 - 21:30\nWhere: Zamenhof, Esperantoplatsen 5, 411 19 G\u00f6teborg"
     },
     {
         "group": "Hong Kong",
@@ -252,12 +262,22 @@
     {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
+        "name": "Inside the hacker mindset: how we attack your web apps",
+        "date": "2023-10-11",
+        "time": "2:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/296626067",
+        "timezone": "America/Los_Angeles",
+        "description": "In this session, Dana will demonstrate how hackers manipulate coding defects in your web applications to manipulate infrastructure, steal information, and completely take control of your app servers... all remotely. By the end of his talk, you will have a better appreciation of why security engineering should be part of your everyday development workflow."
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
         "date": "2023-10-11",
         "time": "2:00-07:00",
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/296259961",
         "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+        "description": ""
     },
     {
         "group": "Stockholm",
@@ -288,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-timisoara-chapter/events/296120016",
         "timezone": "Europe/Bucharest",
         "description": "## Details\n\nThe next OWASP Timisoara Chapter Meetup will be ***in person***.\n\nSee https://owasp.org/www-chapter-timisoara/ for more information about the OWASP Timisoara chapter.\nTheme sessions - Theme: Secure Coding Tournament\n\n\\`Schedule\\` **\\`Time:\\`**\\` 18:00 to 21:00\\`\n\n18:00 - 18:20 - Welcome participants - Lucian Patian (Haufe)\n18:20 - 18:30 - Introduction, OWASP News & Updates - Catalin Curelaru\nSecure code\n18:30 - 19:45 - Secure Coding Tournament\n19:45 - 20:00 - Prizes\n\nLocation of the event: UBC0, et 15, Sediu Haufe.Group, Pia\u021ba Consiliul Europei 2 \u00b7 Timi\u0219oara\n\nEvent powered by **Haufe**.Group & **Secure Code Warrior**\n\nMore about the event:\n[Secure Code Warrior](https://www.securecodewarrior.com/) brings you a defensive security-based tournament from a developer's perspective. *The tournament allows you to test your skill in a series of vulnerable code challenges that ask you to identify a problem, locate insecure code, and fix a vulnerability.*\n\n*You don\u2019t need extensive programming knowledge as this will be a great way to learn the foundations and intermediates of leveraging code that is not only functional but is also secure.*\n\nYou can find the tournament step-by-step guide here: [https://youtu.be/o8XhKK_eOOs](https://youtu.be/o8XhKK_eOOs)\n\nThe tournament is hosted physically by **Haufe**.Group and you can join through your laptop. The tournament it should take only a 1.5 hours, drop-in as you see fit during the duration of the event to complete all the challenges and win prizes!"
+    },
+    {
+        "group": "Tiruvallur",
+        "repo": "www-chapter-tiruvallur",
+        "name": "Null and OWASP combined meetup",
+        "date": "2023-10-28",
+        "time": "4:30+05:30",
+        "link": "https://www.meetup.com/tiruvallur-owasp-meetup-group/events/296618490",
+        "timezone": "Asia/Kolkata",
+        "description": "* Hacking Companies on Mails - Deep Dive into Email Security by **Sriram**\n* AI and ML in CyberSecurity by **PradeepKumar P**\n* You can be a Human Decompiler by **Ravi Rajput**\n* Cloud Security 101 by **Chandresh Gupta**"
     },
     {
         "group": "Toronto",
