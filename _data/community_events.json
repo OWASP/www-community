@@ -20,6 +20,26 @@
         "description": "We're thrilled to announce October month's meetup on 19th, courtesy Semgrep.\nGet ready for an great evening of networking, knowledge sharing and awesome food and drinks.\n\n**Agenda**\n\n* 5:00 - Check in, grab some food/drinks and network\n* 5:45 - Introductions\n* 6:00 - 6:45 -AI applied to Cybersecurity\n* 6:45 - 7:30 - Roadmap to DevSecOps Adoption with Case Studies\n* 7:30- 8:00 - IAM for the DevSecOps Engineers\n* 8:00 - Conclusion\n\n**Talk #1:**\nAI applied to Cybersecurity: Current applications and where we\u2019re headed\n\n**Abstract**\nWith the rise of large language models (LLMs), there\u2019s been an explosion of innovation in AI being applied to nearly every domain, from generating beautiful art, to summarizing huge bodies of text, automating sales outreach and customer service, performing scientific research, and more.\nI\u2019ve spent hundreds of hours following how AI is being applied to cybersecurity, and in this talk, I\u2019m going to distill the best articles, papers, and talks across cloud security, web security, AppSec, offensive security and more into one talk so you can rapidly understand the lay of the land.\nYou\u2019ll leave the talk with a solid understanding of the current landscape, open problems, where things are headed, and tons of links where you can learn more and tools you can immediately start playing with.\n\n**Speaker**:\nClint Gibler, Who is a passionate, hard-working computer security professional. He has experience working in several types of security-focused companies, from government contractors to security consulting firms and startups.\nKeep up with the latest and greatest in security research via Clint's free newsletter: https://tldrsec.com/\n\n**Talk 2#**\n\n# **Roadmap to DevSecOps Adoption with Case Studies**\n\n* Brief on traditional DevOps.\n* The rising need for security: Introducing DevSecOps.\n* The benefits of integrating security into the CI/CD pipeline.\n\n## **Key Principles of DevSecOps**\n\n* DevSecOps vs. traditional security models.\n* The continuous nature of DevSecOps: Continuous Integration, Continuous Delivery, Continuous Security.\n* \"Shift Left\" philosophy: Implementing security in the early stages.\n* Automation: Making security checks automated and integral to the pipeline.\n* Collaboration: Breaking silos between Dev, Ops, and Security teams.\n\n## **Starting the Journey - Cultural Shift**\n\n* Building a collaborative culture: Communication and training.\n* Security as everyone's responsibility.\n\n## **Setting up Your Toolchain**\n\n* Identifying the right tools for:\n* Static Application Security Testing (SAST)\n* Dynamic Application Security Testing (DAST)\n* Interactive Application Security Testing (IAST)\n* Integrating these tools into the CI/CD pipeline.\n* Continuous monitoring and real-time feedback loops.\n\n## **Key Challenges in DevSecOps Adoption**\n\n* Resistance to change.\n* Addressing false positives in automated security checks.\n* Balancing speed with security.\n* Continuous training and staying updated with evolving threats.\n\n## **Best Practices**\n\n* Regularly updating and patching tools and systems.\n* Collaborative threat modeling.\n* Continuous feedback loop: Learning from security incidents.\n* Prioritizing security debts alongside other technical debts.\n\n## **Measuring Success**\n\n* Key Performance Indicators (KPIs) for DevSecOps.\n* Reduced number of security incidents.\n* Faster incident response time.\n* Number of vulnerabilities detected and addressed in the early stages.\n\n**Speakers:**\nAnkush Jain: Ankush is the co-founder & CTO at Akto (https://www.akto.io) - The open source API Security product. Prior to starting Akto he worked at CleverTap as VP of Engineering. He has also worked for 5 years as a Quant at Morgan Stanley. He holds Bachelors in Technology from IIT Bombay. He is also a speaker at Black Hat and Defcon.\n\nAnkita Gupta: She is the co-founder and CEO of Akto.io - The open source API Security product. Prior to Akto she has experience working in VMware, LinkedIn and JP Morgan. She holds MBA from Dartmouth College and Bachelors in Technology from IIT Roorkee. She is also a speaker at Black Hat and Defcon.\n\n**Talk 3#**\nIAM for the DevSecOps Engineer\n\n**Speaker:**\nJeff Chao, Co-founder Abbey Labs. Software engineer experienced in working with senior leadership and cross-functional teams with a passion for being a positive multiplier. Jeff has open source contributions across a variety of domains and languages and am currently a committer for Mantis. Jeff also have publications in IEEE on network security and evolutionary computing and patents in the stream processing space."
     },
     {
+        "group": "Belgium",
+        "repo": "www-chapter-belgium",
+        "name": "OWASP BE chapter meeting (17/10/2023, Mechelen)",
+        "date": "2023-10-17",
+        "time": "9:00+02:00",
+        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/296635015",
+        "timezone": "Europe/Brussels",
+        "description": "On October 17th, we organize our next OWASP Belgium chapter meeting in Lamot (Mechelen).\n\nThis event is co-located with the [CyberSecurity event \"Strategic Research and Industry Impact\"](https://cybersecurity-bites.be/cybersecurity-strategic-research-industry-impact-2nd-edition/).\n\n**Agenda**:\n\n* 17h30-19h: networking drink\n* 19h-19h10: **OWASP update**\n* 19u10-19h50: \"**Leaky Forms: A Study of Email and Password Exfiltration Before Form Submission**\" by Asuman Senol (Privacy Researcher at COSIC, KU Leuven BE)\n* 19h50-20h30: **TBD** by Georges Bolssens (Principal Consultant at Toreon)\n\nTopics and abstracts will be added shortly. Block already your agenda!\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed.\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) ."
+    },
+    {
+        "group": "Boston",
+        "repo": "www-chapter-boston",
+        "name": "OWASP Boston Chapter November 2023 Meetup",
+        "date": "2023-11-08",
+        "time": "7:30-05:00",
+        "link": "https://www.meetup.com/owaspboston/events/295661584",
+        "timezone": "America/New_York",
+        "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nPresentation and speaker update coming soon!"
+    },
+    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter October 2023 Meetup",
@@ -80,6 +100,16 @@
         "description": "OWASP Denver wanted to help promote a great upcoming conference put on by our sister organization in Denver on October 25:\n\n**The Cloud Security Alliance (CSA) - Colorado Chapter** is holding a unique event this year\n\n**AI and Cybersecurity: Revolution and Risks**\n\nAll sessions, speakers and content are dedicated to exploring AI's impact on the future of cybersecurity.\n\nCome be part of this all-day conversation. Registration includes:- Access to all sessions\n\n\\- Breakfast\n\\- Lunch\n\\- Networking happy hour\n\\- 6 Continuing education Credits\n**\\- An \"All\\-AI Panel\"\\, where the audience will be able to interact and ask questions of AI personalities representing experts in various fields\\.**\n\nThe full agenda is available now, including information about our keynote, speakers and topics:\n\nRegister now: [https://iplanit.swoogo.com/csacofall2023/](https://iplanit.swoogo.com/csacofall2023/)"
     },
     {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Denver OWASP October Meetup - Join Us!",
+        "date": "2023-10-18",
+        "time": "7:30-06:00",
+        "link": "https://www.meetup.com/denver-owasp/events/296640341",
+        "timezone": "America/Denver",
+        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on October 18th for food, drinks, networking and an exciting and timely presentation on \"**Will it Blend? Questions to ask your Application Security Vendor**\". Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6.\n\n**Sponsor:**\n\n**Presentation Title:** Will it Blend? Questions to ask your Application Security Vendor\n\n**Presentation Details:** Marketing materials abound with claims of how a particular tool will protect us from all manner of security risks. Sometimes they are highlighting a genuine advantage of their product and sometimes they are glossing over some huge pre-conditions. At this meeting we'll talk about the technology underneath common classes of application security products and what we should and should not expect out of them. Can a particular product exceed expectations? Sure. Knowing the right questions to ask will help us find out before investing our security dollars."
+    },
+    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Paris - Octobre 2023",
@@ -118,16 +148,6 @@
         "link": "https://www.meetup.com/owasp-hong-kong-chapter/events/296247917",
         "timezone": "Asia/Shanghai",
         "description": "DevSecOps Lab - Security in the CI/CD pipeline as code.\nPrerequisite: GitHub account, AWS account."
-    },
-    {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2023-10-09",
-        "time": "8:45-04:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/296020744",
-        "timezone": "America/New_York",
-        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
         "group": "London",
@@ -262,6 +282,16 @@
     {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2023-11-08",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/296626035",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
         "name": "Inside the hacker mindset: how we attack your web apps",
         "date": "2023-10-11",
         "time": "2:00-07:00",
@@ -358,6 +388,16 @@
         "link": "https://www.meetup.com/owasp-capixaba/events/296546266",
         "timezone": "America/Sao_Paulo",
         "description": "Palestrante: Cybelle Oliveira\nTema: OPSEC/OSINT\nData: 10/10/2023 \u00e0s 19:30"
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "Monthly SAMM community call",
+        "date": "2023-11-08",
+        "time": "5:30-05:00",
+        "link": "https://www.meetup.com/owasp-samm/events/291889868",
+        "timezone": "America/New_York",
+        "description": "Welcome to our monthly SAMM community call Wednesday 8th November, (each 2nd Wednesday of the month).\n\nAt 21:30 CET, which is 3:30 pm EST.\n\nJoin Zoom Meeting: [Zoom link](https://zoom.us/j/96866048960?pwd=TmZkTSs3ZmlWU09DbHJoSnVZWmdiUT09)."
     },
     {
         "group": "Samm",
