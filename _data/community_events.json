@@ -12,6 +12,16 @@
     {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
+        "name": "Hacker days:- Integrating Automated Security Checks into the CI/CD Pipeline",
+        "date": "2023-10-24",
+        "time": "7:00-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/296670889",
+        "timezone": "America/Los_Angeles",
+        "description": "We are thrilled to announce a Hands-on Hacker Days session, courtesy our Hosts Akto.io . We also thank them for arranging awesome food and drinks.\n\nTopic: Integrating Automated Security Checks into the CI/CD Pipeline for DevSecOps\n\nThis workshop will equip participants with the knowledge and hands-on skills to integrate Static (SAST), Dynamic (DAST) and Interactive (IAST) Application Security Testing into their GitHub DevSecOps pipelines.\n\nPre-requisites:\n\nA GitHub account.\n\nBasic understanding of application security.\n\nAttendees are required to bring their laptops with internet connectivity\n\nAgenda:\n\nIntroduction (15 minutes)\n\nThe DevSecOps paradigm and its importance.\n\nUnderstanding GitHub Actions.\n\nThe relevance of SAST and DAST in the CI/CD pipeline.\n\nOverview of GitHub Actions for CI/CD (10 minutes)\n\nBasic components: workflows, runners, actions.\n\nDemonstration: A simple CI pipeline with GitHub Actions.\n\nHands-on: Integrating SAST with GitHub Actions (20 minutes)\n\nIntroduction to Static Application Security Testing.\n\nPopular SAST tools and choosing one for demonstration.\n\nHands-on activity: a. Setting up the SAST tool on a sample GitHub repository. b. Writing a GitHub Actions workflow to automate SAST scans on every pull request or push. c. Analyzing and understanding the SAST report in the GitHub interface.\n\nHands-on: Integrating DAST and IAST with GitHub Actions (60 minutes)\n\nIntroduction to Dynamic Application Security Testing and Interactive application security testing.\n\nCommon DAST and IAST tools suitable for CI/CD integration.\n\nHands-on activity: a. Setting up a test environment (ideally a deployed version of the app). b. Configuring the DAST tool to scan the deployed application. c. Writing a GitHub Actions workflow to trigger DAST scans post-deployment. d. Analyzing and responding to DAST findings within GitHub.\n\nWhat's in it for Participants?\n\nSkill Enhancement: Mastery of integrating key security tools within the popular GitHub Actions CI/CD framework.\n\nHands-on Experience: Directly apply workshop teachings to real-world scenarios.\n\nCollaboration: Network and collaborate with peers facing similar challenges.\n\nSpeaker Bios:\n\nAnkush Jain: Ankush is the co-founder & CTO at Akto (https://www.akto.io) - The open source API Security product. Prior to starting Akto he worked at CleverTap as VP of Engineering. He has also worked for 5 years as a Quant at Morgan Stanley. He holds Bachelors in Technology from IIT Bombay. He is also a speaker at Black Hat and Defcon.\n\nAnkita Gupta: She ****is the co-founder and CEO of Akto.io - The open source API Security product. Prior to Akto she has experience working in VMware, LinkedIn and JP Morgan. She holds MBA from Dartmouth College and Bachelors in Technology from IIT Roorkee. She is also a speaker at Black Hat and Defcon."
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
         "name": "October Meetup",
         "date": "2023-10-19",
         "time": "7:00-07:00",
@@ -38,16 +48,6 @@
         "link": "https://www.meetup.com/owaspboston/events/295661584",
         "timezone": "America/New_York",
         "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nPresentation and speaker update coming soon!"
-    },
-    {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston Chapter October 2023 Meetup",
-        "date": "2023-10-11",
-        "time": "7:30-04:00",
-        "link": "https://www.meetup.com/owaspboston/events/295661579",
-        "timezone": "America/New_York",
-        "description": "Hybrid Attendance: Join us in person at 5:30pm or online at 6:30pm (link to be provided to attendees).\n\nJoin us for discussion, food, appsec news, and an OWASP-related talk.\n\nThis month Matt Brown from Endor Labs will be joining us to discuss, **The Dark Side of Open Source Productivity**: There is a dark side to productivity with open source. In modern applications, the majority of code on which an application is built isn\u2019t code written by your team. Modern applications are built on the backs of volunteer communities and open-source software. These volunteers and their software delivery practices all become potential attack vectors. The truth is that most organizations do not factor open-source supply chain attacks into their organization\u2019s threat models today. Security incidents such as the CodeCov bash uploader script, the npm colors, and faker intentionally introduced malicious commits, and the recent PyPi backdoors targeting AWS credentials highlight the impact of supply chain attacks as a scalable attack pattern. To spread awareness on supply chain attacks so that organizations can scalably handle them we propose baking supply chain attacks into existing threat modeling procedures and software development culture so that organizations can champion supply chain management of open source in the places where they are most impactful, at development time. We will present a comprehensive, comprehensible, and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents and validated by experts in the domain. Following, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks and how you can work these defenses in based on your program\u2019s maturity.\n\nMatt Brown (https://www.linkedin.com/in/matthewbrown7/) is a Solutions Architect at Endor Labs. In his various roles in AppSec and CloudSec, Matt has had the opportunity to help Enterprises with their DevSecOps strategies, particularly within the Application Security (SCA, SAST, DAST, etc.), Cloud Security (Containers, IaC, CSPM, CNAPP, etc.), and Vulnerability Management domains. With a background in software development, Matt is passionate about helping security teams work with and support their software engineering organizations to take a developer-first approach to secure the SDLC. Matt holds his Master\u2019s in Computer Science and enjoys spending time with his family, woodworking/carpentry, and playing golf."
     },
     {
         "group": "Brisbane",
@@ -192,7 +192,7 @@
     {
         "group": "Maine",
         "repo": "www-chapter-maine",
-        "name": "OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications",
+        "name": "OWASP Maine: Cybersecurity of Critical SAP Apps at Rising Tide Brewery",
         "date": "2023-10-26",
         "time": "8:00-04:00",
         "link": "https://www.meetup.com/owasp-maine/events/296600794",
@@ -292,7 +292,7 @@
     {
         "group": "Portland Me",
         "repo": "www-chapter-portland-me",
-        "name": "OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications",
+        "name": "OWASP Maine: Cybersecurity of Critical SAP Apps at Rising Tide Brewery",
         "date": "2023-10-26",
         "time": "8:00-04:00",
         "link": "https://www.meetup.com/owasp-maine/events/296600794",
@@ -308,26 +308,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/296626035",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Inside the hacker mindset: how we attack your web apps",
-        "date": "2023-10-11",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/296626067",
-        "timezone": "America/Los_Angeles",
-        "description": "In this session, Dana will demonstrate how hackers manipulate coding defects in your web applications to manipulate infrastructure, steal information, and completely take control of your app servers... all remotely. By the end of his talk, you will have a better appreciation of why security engineering should be part of your everyday development workflow."
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-10-11",
-        "time": "2:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/296259961",
-        "timezone": "America/Los_Angeles",
-        "description": ""
     },
     {
         "group": "Stockholm",
@@ -408,15 +388,5 @@
         "link": "https://www.meetup.com/owasp-samm/events/291889868",
         "timezone": "America/New_York",
         "description": "Welcome to our monthly SAMM community call Wednesday 8th November, (each 2nd Wednesday of the month).\n\nAt 21:30 CET, which is 3:30 pm EST.\n\nJoin Zoom Meeting: [Zoom link](https://zoom.us/j/96866048960?pwd=TmZkTSs3ZmlWU09DbHJoSnVZWmdiUT09)."
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "Monthly SAMM community call",
-        "date": "2023-10-11",
-        "time": "5:30-04:00",
-        "link": "https://www.meetup.com/owasp-samm/events/291889799",
-        "timezone": "America/New_York",
-        "description": "Welcome to our monthly SAMM community call Wednesday 11th October, (each 2nd Wednesday of the month).\n\nAt 21:30 CET, which is 3:30 pm EDT/EST.\n\nJoin Zoom Meeting:"
     }
 ]
