@@ -1,5 +1,15 @@
 [
     {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "LASCON 2023 - OWASP Top-10 Training (Free)",
+        "date": "2023-10-25",
+        "time": "2:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/296691055",
+        "timezone": "America/Chicago",
+        "description": "Welcome to this beginner course on the OWASP Top 10!\n\nThis course has no technical prerequisites, it is truly meant for everyone. Whether you are a software developer, engineering manager, security/risk analyst, auditor, security professional, or simply curious on application security and looking for an introduction to the OWASP Top 10; This course is for you!\n\nIn this course you will learn a little bit about the OWASP Foundation and how you can be part of this opensource community. We are going to learn about the OWASP Top 10 risks and how they get periodically updated.\n\nFor each of the OWASP Top 10 risks, we are going to look at the key information security concepts, so that you better understand the definition of each risk. Then we are going to \u2013 together \u2013 define each risk \u2013 and we are going to do this in layman\u2019s terms, so that you really understand each risk.\n\nWe are also going to look at the main challenges that developers and others face that cause each risk. Finally, we are going to give examples of good and bad code using pseudocode and we are going to conclude with some of the best protection practices to help you and your team avoid each risk from materializing.\n\n**Who this course is for:**\n\n* This course has no technical prerequisites, it is truly meant for everyone\n* Web application, API, and mobile developers\n* Risk managers and auditor looking to understand the OWASP Top 10 risks\n* Cybersecurity professionals looking for an introduction to the OWASP Top 10, or a refresher\n\n**Timing:**\n\n* 12:30-1pm - Check-in & arrival\n* 1pm - Session start\n* 2:45-3pm - break\n* 5pm - Session end\n\n**Please note:** Lunch is **not** provided, and you will not be able to bring food into Norris Conference Center. There are several places within walking distance where you may eat before the session."
+    },
+    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "OWASP/Null Combine Monthly meetup on October 14th.",
@@ -137,7 +147,7 @@
         "time": "8:00+08:00",
         "link": "https://www.meetup.com/owasp-hong-kong-chapter/events/296577861",
         "timezone": "Asia/Shanghai",
-        "description": "LLM Prompt Injection lab practice\nPrerequisite: VPN and account access to a LLM model"
+        "description": "LLM Prompt Injection lab practice\nPrerequisite: VPN and POE account access to a LLM model"
     },
     {
         "group": "Hong Kong",
@@ -232,22 +242,22 @@
     {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
+        "name": "OWASP Training Day - Dunedin",
+        "date": "2023-11-11",
+        "time": "8:00+13:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/296507998",
+        "timezone": "Pacific/Auckland",
+        "description": "We're pleased to announce that we'll be holding an OWASP Training Day event in Dunedin, on Saturday, 11th November.\n\nClasses will run 8:45 a.m. - 5:30 p.m. Tea breaks and lunch will be provided.\n\nRegistration Fee: $99 per attendee (plus GST and booking fees)\n\nWe're in the process of confirming our classes and trainers, so we'll update this description with registration information as soon as those are confirmed."
+    },
+    {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
         "name": "OWASP Global AppSec - DC",
         "date": "2023-10-30",
         "time": "0:00+13:00",
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291721118",
         "timezone": "Pacific/Auckland",
         "description": "**Global AppSec DC returns October 30 - November 3!**\n\nDesigned for private- and public-sector InfoSec professionals, the two-day OWASP conferences equip developers, defenders, and advocates to build a more secure web.\nWe are offering educational 1-day, 2-day, and 3-day training courses immediately following the conference.\n\n**Conference dates:** Monday and Tuesday, October 30-31\n**Training dates:** Wednesday to Friday, November 1-3.\n\nJoin us for leading application security technologies, speakers, prospects, and community, in a unique event that will build on everything you already know to expect from an OWASP Global Conference.\n\nConference Site: [https://dc.globalappsec.org/](https://dc.globalappsec.org/)\nRegistration: [EventBrite](https://www.eventbrite.com/e/owasp-global-appsec-washington-dc-2023-tickets-519195877847)"
-    },
-    {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "Contextual Security Analysis - The next step for AppSec",
-        "date": "2023-10-12",
-        "time": "8:30-04:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/296357704",
-        "timezone": "America/New_York",
-        "description": "Our current primary industry standard for detecting security issues in a software application is the use of either a DAST or SAST security tool which is then typically intertwined into the development pipeline. The hope being, as software changes, this data point helps us prevent some classes of vulnerabilities. The higher the risk associated with this data point, the more likely we are to intervene. As practitioners we accept that this singular data point has wildly varying levels of accuracy and we also accept that it will only find a subset of the vulnerability classes. Furthermore, we often rely upon this inaccurate signal and acknowledge that anything else is going to be caught by an attacker, a researcher or, our own appsec team. Ideally, not in that order.\n\nSome organizations have beefed up their approach and have begun using a second data point which is typically a dependency style scan tool. The bleeding edge appsec teams have begun also incorporating docker image CVE results as well as their own custom rules for their scanner tool. The fact remains though that these data points are not enough and that we have so much more available to us that can help us truly assess the risk that software changes introduce into our applications.\n\nDuring an almost six year tenure at GitHub, it became crystal clear not just how much data is available to defenders but also just how little of it is actually used to prevent vulnerabilities from being introduced on a daily basis and finally, what those reliable signals are. If we know that scan tools have such huge limitations, why is the primary and sometimes only data point we rely on?\n\nEnter Contextual Security Analysis (CSA) which utilizes a S.L.I.D.E. methodology and incorporates many data points to contextualize code changes and ultimately detect risk. CSA synthesizes many markers and bits of information to produce contextually relevant risk scores.\n\nJoin us to learn how you can leverage CSA in your organization!"
     },
     {
         "group": "Orange County",
@@ -267,7 +277,7 @@
         "time": "8:00-04:00",
         "link": "https://www.meetup.com/owasp-ottawa/events/296581063",
         "timezone": "America/Toronto",
-        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 464 **(Note Room Change)**\n\n**Health Notice:**\n\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EDT** Arrival, setup, mingle\n\n**6:30 PM EDT** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **Digital Self Defense: The AI Edition**\n\n**Abstract:**\n\nTBA\n\n**Speaker Bio:**\n\nAbigail Dubiniecki is a lawyer, speaker, writer and educator specialising in privacy. She is passionate about Privacy by Design (PbD), privtech, Data Justice and Indigenous Data Sovereignty, especially in emerging tech and high-risk areas such as biotech, AI, IoT and adtech. As an independent consultant she helps clients of all sizes across a range of industries navigate and implement complex privacy and data protection regimes like GDPR and Quebec\u2019s Law 25 (Bill 64), with a focus on PbD and human-centred design. She has guest lectured at Henley Business School in the UK, OttawaU and U of T\u2019s School of Continuing Education. She\u2019s a Correspondent for Privacy Laws & Business International Report and a Forbes.com Contributor."
+        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 464 **(Note Room Change)**\n\n**Health Notice:**\n\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EDT** Arrival, setup, mingle\n\n**6:30 PM EDT** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **Digital Self Defense: The AI Edition**\n\n**Abstract:**\n\nWith the arrival of AI advances like ChatGPT-4, a heady mixture of doomsday / euphoria talk about AI overtaking humanity has dominated the conversation, with some warning of human extinction risk. Yet we are from from artificial general intelligence. In many cases AI falls laughably short of its promises. Yet overblown claims of AI capability distract us from the real-world harms caused by poorly designed AI being deployed today that either doesn\u2019t work as advertised or that was designed without regard to the harms they can cause. Meanwhile, it also hides the successful AI use cases and the potential for real benefit when used responsibly. In this talk Abigail will dispel AI myths, highlight real-world benefits and harms with AI that exists today, and show how AI privacy can help protect us, and society, from these harms while building better AI. No, this will not be a talk on how to tame your AI overlord. This is Digital Self-Defense: the AI (Privacy) Edition.\n\n**Speaker Bio:**\n\nAbigail Dubiniecki is a lawyer, speaker, writer and educator specialising in privacy. She is passionate about Privacy by Design (PbD), privtech, Data Justice and Indigenous Data Sovereignty, especially in emerging tech and high-risk areas such as biotech, AI, IoT and adtech. As an independent consultant she helps clients of all sizes across a range of industries navigate and implement complex privacy and data protection regimes like GDPR and Quebec\u2019s Law 25 (Bill 64), with a focus on PbD and human-centred design. She has guest lectured at Henley Business School in the UK, OttawaU and U of T\u2019s School of Continuing Education. She\u2019s a Correspondent for Privacy Laws & Business International Report and a Forbes.com Contributor."
     },
     {
         "group": "Peterborough",
@@ -310,16 +320,6 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "OWASP Stockholm - API Security and Resilient Websites",
-        "date": "2023-10-18",
-        "time": "7:30+02:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/296510766",
-        "timezone": "Europe/Stockholm",
-        "description": "Join us for an exciting in-person event at **Akamai**, **Solna Gate**! This meetup is all about **API Security** and building **Resilient Websites**. Discover the latest techniques and best practices to protect your APIs from vulnerabilities and ensure your websites can withstand any challenges. Network with like-minded professionals, share experiences, and learn from industry experts while enjoying some food and drinks.\n\n**NOTE:** Registration required through Eventbrite [Register link](https://www.eventbrite.com/e/owasp-meetup-api-security-and-resilient-websites-tickets-730436113077)\n\n**Agenda:**\n\n* **17:30 - 18:15** Join us for food & drinks\n* **18:15 - 18:45** Why API Security is a hot topic, recent attacks and examples\n* **18:45 - 19:15** Architecting web applications to achieve DDoS resiliency\n* **19:15 - 20:30** Networking and discussions\n\n**Why API Security is a hot topic, recent attacks and examples by Menachem Perlman, Director of API Security**\nWhy API Security become a hot topic and what you need to know about it, join Menachem Perlman Director of API Security to learn more about API Security types of attacks, why authenticated users are posing risk for organizations and hear about real stories and examples.\n\n**Architecting web applications to achieve DDoS resiliency by Johan Aldor, Senior SE Akamai**\nIn this session, Johan Aldor, Senior Solutions Engineer from Akamai will cover how to architect web applications to achieve DDoS resiliency. DDoS attacks are getting more common and also bigger, if you don\u2019t architecture your web application correctly, coping with attacks can be a hassle. Akamai has over 25 years of experience in running distributed systems and overlay networks. Join us in this session where we share the benefits of using a distributed architecture for DNS, Web Application Firewalls and datacenter protection that will make you ready for any attack.\n\n**Location**: Hemv\u00e4rnsgatan 9, 171 54 Solna\nTime: October 18th, 17:30 \u2013 20:30\nLighter food & drinks will be served. The talks will begin at 18:15.\n\nRegistration required on Eventbrite [https://www.eventbrite.com/e/owasp-meetup-api-security-and-resilient-websites-tickets-730436113077](https://www.eventbrite.com/e/owasp-meetup-api-security-and-resilient-websites-tickets-730436113077?aff=oddtdtcreator)"
-    },
-    {
         "group": "Syracuse",
         "repo": "www-chapter-syracuse",
         "name": "Unlocking Cybersecurity Insights: New Open Source Tools for Defense Modeling",
@@ -348,16 +348,6 @@
         "link": "https://www.meetup.com/tiruvallur-owasp-meetup-group/events/296618490",
         "timezone": "Asia/Kolkata",
         "description": "* Hacking Companies on Mails - Deep Dive into Email Security by **Sriram**\n* AI and ML in CyberSecurity by **PradeepKumar P**\n* You can be a Human Decompiler by **Ravi Rajput**\n* Cloud Security 101 by **Chandresh Gupta**"
-    },
-    {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "OWASP Toronto | Developers like Carrots not sticks",
-        "date": "2023-10-12",
-        "time": "8:30-04:00",
-        "link": "https://www.meetup.com/owasp-toronto/events/296515557",
-        "timezone": "America/Toronto",
-        "description": "TALK\n\nDevs like Carrots not sticks\n\nSummary:\n\nIn this talk, we will delve into several crucial concepts that are pivotal in the realm of modern software development. We'll explore the intricate intersection of language, DevSecOps tools, Git strategies, CI pipelines, and self-governance frameworks, shedding light on how they come together to form a cohesive whole..\nWe will follow an IAC dev story, but also point out where application code checks are also pertinent. Daniel will share lessons learnt while helping clients implement IAC with security scanning and manage of security bugs.\nBy the end of this talk, you will have a better understanding of how to protect your IAC from security failures, how CI/CD pipelines can save the day and how to manage the security bugs.\n\nPresenter:\n\nDaniel Oates-Lee\n\nDirector/ Senior DevSecOps Consultant\n\nDaniel is one of the co-founders and directors of Punk Security Ltd. He has over 23 years of commercial IT experience, with 17 years focused on cyber security. He has worked with some of the largest global financial companies, the UK government and the British military on various projects ranging from penetration testing and security policy writing to technical implementations and red teaming. Over the last 6 years, Daniel\u2019s focus has been on DevSecOps and automating security testing. In his spare time, Daniel volunteers to help run and deliver talks at cyber security conferences, whilst also carrying out his own personal research."
     },
     {
         "group": "Triangle Nc",
