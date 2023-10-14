@@ -150,14 +150,14 @@
         "description": "LLM Prompt Injection lab practice\nPrerequisite: VPN and POE account access to a LLM model"
     },
     {
-        "group": "Hong Kong",
-        "repo": "www-chapter-hong-kong",
-        "name": "DevSecOps Lab",
-        "date": "2023-10-13",
-        "time": "6:00+08:00",
-        "link": "https://www.meetup.com/owasp-hong-kong-chapter/events/296247917",
-        "timezone": "Asia/Shanghai",
-        "description": "DevSecOps Lab - Security in the CI/CD pipeline as code.\nPrerequisite: GitHub account, AWS account."
+        "group": "Indraprastha Institute Of Information Technology",
+        "repo": "www-chapter-indraprastha-institute-of-information-technology",
+        "name": "IEEE Day Celebrations",
+        "date": "2023-10-14",
+        "time": "0:00+05:30",
+        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/296718892",
+        "timezone": "Asia/Kolkata",
+        "description": "OWASP IIITD has partnered with IEEE IIIT Delhi and IEEE GTBIT to bring to you a plethora of events in the tech domain to celebrate the annual IEEE Day. A description of all events along with event registration links can be found at: https://ieeeday23.ieeegtbit.com/"
     },
     {
         "group": "London",
@@ -208,16 +208,6 @@
         "link": "https://www.meetup.com/owasp-maine/events/296600794",
         "timezone": "America/New_York",
         "description": "**OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications**\n\nApplication and software security are so vitally important in all aspects of the business especially with every company becoming a software company as they navigate through digital transformations.\n\nWith that being said ERP systems are some of **THE MOST** critical applications within enterprises today and come with their own unique set of security challenges.\n\nThe fine folks at Onapsis who 100% specialize in SAP and ERP application security will be on site to dive deep into these specific challenges. They will also review real world attacks on SAP ERP environments and discuss the best in class strategies and measures you can do to mitigate the risk of exploitation of your ERP environments.\n\nAnyone who is involved in SAP ERP environments from both a software development and security perspective would gain a tremendous amount of knowledge attending this meetup.\n\n\\*Food and drinks will be provided by Onapsis\n\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
-    },
-    {
-        "group": "Maribor",
-        "repo": "www-chapter-maribor",
-        "name": "Cyber Night 2023",
-        "date": "2023-10-13",
-        "time": "6:00+02:00",
-        "link": "https://www.meetup.com/maribor-owasp-meetup-group/events/296432858",
-        "timezone": "Europe/Belgrade",
-        "description": "# Cyber Night 2023\n\n**Cyber Night je dogodek namenjen navdu\u0161encem informacijske varnosti in vsem ostalim, ki bi se na tem podro\u010dju radi preizkusili.**\n\nPrijava je obvezna na [eventbrite](https://www.eventbrite.com/e/cyber-night-2023-tickets-717651493937?aff=oddtdtcreator)."
     },
     {
         "group": "Minneapolis St Paul",
@@ -320,16 +310,6 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
-        "group": "Syracuse",
-        "repo": "www-chapter-syracuse",
-        "name": "Unlocking Cybersecurity Insights: New Open Source Tools for Defense Modeling",
-        "date": "2023-10-13",
-        "time": "2:00-04:00",
-        "link": "https://www.meetup.com/syracuse-owasp-chapter/events/296273644",
-        "timezone": "America/New_York",
-        "description": "Join us for an OWASP chapter meeting that delves deep into the world of cybersecurity defense modeling! In this enlightening session, we'll explore the art of attack path mapping and unveil a dynamic duo of innovative open-source tools designed to bolster your security posture. Our first tool, ADM, is a powerful command-line interface (CLI) solution engineered to effortlessly process .adm files structured in accordance with the attack-defense model. As we dive further, you'll discover ADSM, an ingenious tool that can seamlessly associate attack and defense specifications, all elegantly composed in the ADM language, with each entity and flow within your security model.\nThese cutting-edge tools promise to revolutionize your approach to cybersecurity by providing clearer insights into vulnerabilities and defense strategies. Whether you're a seasoned security professional or just starting your journey in the field, this meeting is a must-attend to stay ahead of the game in today's ever-evolving threat landscape. Don't miss out on the opportunity to strengthen your defenses and enhance your understanding of cyber threats \u2013 secure your spot today!"
-    },
-    {
         "group": "Timisoara",
         "repo": "www-chapter-timisoara",
         "name": "OWASP Timisoara #23: Secure Coding Tournament [IN-PERSON]",
@@ -358,6 +338,16 @@
         "link": "https://www.meetup.com/owasptriangle/events/296265774",
         "timezone": "America/New_York",
         "description": "TBA"
+    },
+    {
+        "group": "Uruguay",
+        "repo": "www-chapter-uruguay",
+        "name": "OWASP Meetup: Developer mode",
+        "date": "2023-10-24",
+        "time": "8:30-03:00",
+        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/296685550",
+        "timezone": "America/Montevideo",
+        "description": "\u00bfTe interesa una pr\u00e1ctica de ciberseguridad pensada **exclusivamente para desarrolladores**?\n\nEn esta Meetup, utilizando el proyecto [OWASP Secure Coding Dojo](https://owasp.org/www-project-secure-coding-dojo/) tendremos una sesi\u00f3n de ejercicios que incluyen **revisi\u00f3n de c\u00f3digo** y **detecci\u00f3n de vulnerabilidades**. Los desaf\u00edos son guiados y se cuenta con el apoyo de expertos en seguridad de aplicaciones.\n\nSolo precisas **llevar una notebook** para participar, sin descarga de materiales o herramientas. Solo se utilizar\u00e1 un navegador.\n\nEn esta instancia la Meetup ser\u00e1 en las oficinas de Geocom (Dionisio Oribe 3071).\n\n**IMPORTANTE**: *Las medidas de seguridad del host requieren que los asistentes provean de antemano **nombre** y **documento de identidad**. Al ingresar a las oficinas adem\u00e1s se pedir\u00e1 el **n\u00famero de tel\u00e9fono**. Estos datos se pedir\u00e1n a los asistentes confirmados **el d\u00eda previo al evento**. Dejamos a criterio de los asistentes si quieren ofrecer tal informaci\u00f3n o desistir de atender. **Habr\u00e1 lista de espera** para incluir a quienes en esta instancia no entren en el cupo.*"
     },
     {
         "group": "Vancouver",
