@@ -149,7 +149,7 @@ Some fuzzing initiatives:
 #### Mutational Fuzzers
 
 - [american fuzzy lop](https://en.wikipedia.org/wiki/American_fuzzy_lop_%28fuzzer%29)
-- [Radamsa - a flock of fuzzers](https://github.com/aoh/radamsa)
+- [Radamsa - a flock of fuzzers](https://gitlab.com/akihe/radamsa)
 - [APIFuzzer - fuzz test without coding](https://pypi.org/project/APIFuzzer/)
 - [Jazzer - fuzzing for the JVM](https://github.com/CodeIntelligenceTesting/jazzer)
 - [ForAllSecure Mayhem for API](https://forallsecure.com/mayhem-for-api)
