@@ -1,5 +1,15 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - Virtual - November",
+        "date": "2023-11-21",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/296374615",
+        "timezone": "Europe/Copenhagen",
+        "description": "Notice that this is a virtual event running on Zoom. Please reach out if the event gets packed, and I will add room for more people.\n\nOWASP Aarhus will be joined by Simon Bennetts, project-lead for ZAP, and Liz Keogh, who will talk about human nature and behaviour and how that impacts software development.\n\nWe will update this event with more details when we get closer to the event."
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "LASCON 2023 - OWASP Top-10 Training (Free)",
@@ -18,6 +28,16 @@
         "link": "https://www.meetup.com/bay-area-owasp/events/296670889",
         "timezone": "America/Los_Angeles",
         "description": "We are thrilled to announce a Hands-on Hacker Days session, courtesy our Hosts Akto.io . We also thank them for arranging awesome food and drinks.\n\nTopic: Integrating Automated Security Checks into the CI/CD Pipeline for DevSecOps\n\nThis workshop will equip participants with the knowledge and hands-on skills to integrate Static (SAST), Dynamic (DAST) and Interactive (IAST) Application Security Testing into their GitHub DevSecOps pipelines.\n\nPre-requisites:\n\nA GitHub account.\n\nBasic understanding of application security.\n\nAttendees are required to bring their laptops with internet connectivity\n\nAgenda:\n\nIntroduction (15 minutes)\n\nThe DevSecOps paradigm and its importance.\n\nUnderstanding GitHub Actions.\n\nThe relevance of SAST and DAST in the CI/CD pipeline.\n\nOverview of GitHub Actions for CI/CD (10 minutes)\n\nBasic components: workflows, runners, actions.\n\nDemonstration: A simple CI pipeline with GitHub Actions.\n\nHands-on: Integrating SAST with GitHub Actions (20 minutes)\n\nIntroduction to Static Application Security Testing.\n\nPopular SAST tools and choosing one for demonstration.\n\nHands-on activity: a. Setting up the SAST tool on a sample GitHub repository. b. Writing a GitHub Actions workflow to automate SAST scans on every pull request or push. c. Analyzing and understanding the SAST report in the GitHub interface.\n\nHands-on: Integrating DAST and IAST with GitHub Actions (60 minutes)\n\nIntroduction to Dynamic Application Security Testing and Interactive application security testing.\n\nCommon DAST and IAST tools suitable for CI/CD integration.\n\nHands-on activity: a. Setting up a test environment (ideally a deployed version of the app). b. Configuring the DAST tool to scan the deployed application. c. Writing a GitHub Actions workflow to trigger DAST scans post-deployment. d. Analyzing and responding to DAST findings within GitHub.\n\nWhat's in it for Participants?\n\nSkill Enhancement: Mastery of integrating key security tools within the popular GitHub Actions CI/CD framework.\n\nHands-on Experience: Directly apply workshop teachings to real-world scenarios.\n\nCollaboration: Network and collaborate with peers facing similar challenges.\n\nSpeaker Bios:\n\nAnkush Jain: Ankush is the co-founder & CTO at Akto (https://www.akto.io) - The open source API Security product. Prior to starting Akto he worked at CleverTap as VP of Engineering. He has also worked for 5 years as a Quant at Morgan Stanley. He holds Bachelors in Technology from IIT Bombay. He is also a speaker at Black Hat and Defcon.\n\nAnkita Gupta: She is the co-founder and CEO of Akto.io - The open source API Security product. Prior to Akto she has experience working in VMware, LinkedIn and JP Morgan. She holds MBA from Dartmouth College and Bachelors in Technology from IIT Roorkee. She is also a speaker at Black Hat and Defcon."
+    },
+    {
+        "group": "Beja",
+        "repo": "www-chapter-beja",
+        "name": "0x00 Kickoff",
+        "date": "2023-11-08",
+        "time": "8:00Z",
+        "link": "https://www.meetup.com/owasp-beja-chapter/events/296880579",
+        "timezone": "Europe/Lisbon",
+        "description": "OWASP Beja chapter kickoff meetup.\n\nJoin us and seize the opportunity to **win** a ticket to the premier technical information security conference in Portugal: BSides Lisbon!\n\n**Schedule**\n\n18:00 - **OWASP Beja: Five Ws and How** by OWASP Beja chapter leadership team\n18:30 - **OWASP API Security Top 10** by Paulo A. Silva\n19:20 - **Snacks & Drinks**\n\n**Talks**\n\n**OWASP Beja: Five Ws and How**\nby OWASP Beja chapter leadership team\n\nA warm welcome message from the OWASP Beja chapter leadership team that aims to provide a comprehensive understanding of the chapter's purpose, inception, and future plans.\n\nYou're invited to join us in this momentous launch event and, together, help establish OWASP Beja as a dynamic community in the realm of application security.\n\n\\-\\-\\-\n\n**OWASP API Security Top 10**\nby Paulo A. Silva, OWASP API Security Project co-Leader\n\nIn today's app-crazy universe, APIs are the secret sauce behind the magic. Think of them as the superheroes of tech, from banking to retail, transport to smart cities, they're the unsung heroes revealing the secrets of business logic and access to the treasure trove of sensitive data. But hold on to your cyberhats because where there's treasure, there are pirates!\n\nAPIs have become the gold mine for attackers. They're the common thread weaving through those notorious data breaches we've all heard about. Now, how do you turn the tables on these cyber scoundrels? Well, the answer is simple: learn their tricks, and you'll become the ultimate API security hero! We're here to take you on a thrilling, rollercoaster ride into the heart of API security: a hands-on deep dive into the OWASP API Security Top 10!\n\n**About the Speaker**\nPaulo is the Principal Security Researcher and Pentester at Char49. Since his first OWASP local event back in 2010, he has been an active community member contributing to several OWASP projects. He has co-authored the OWASP API Security Top 10 and co-leads the OWASP API Security Project."
     },
     {
         "group": "Birmingham Uk",
@@ -188,6 +208,16 @@
         "link": "https://www.meetup.com/owasp-msp-meetup/events/296499717",
         "timezone": "America/Chicago",
         "description": "**Doors open at 5:30! Join us before the talk for pizza!**\n\n**Andrew Carlson -- Gamifying Tabletop Exercises**\n\nHave you wondered whether there is a fun way to examine how prepared teams are for an incident?\n\nAndrew will give an overview of a game he developed and uses to do tabletop exercises for incident response at his company. He will walk through the set up of the game and walk attendees through a round of the game.\n\nThe game doesn't require deep security knowledge from the teams going through the exercise.\n\nFood and drink provided by Concord.\n\n**Agenda**\n5:30 - Doors open for pizza, socializing, and connecting!\n6:10 - Online call opens; OWASP announcements\n6:15 - Presentation\nThere will be time for socializing after the presentation/game as well.\n\nIf needed, the code for the on-line portion will be 972403.\n\nConcord is a proud supporter of cyber security efforts, including providing food, drink, and locale for OWASP-MSP -- thank you!"
+    },
+    {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP New Zealand - Auckland-area Meetup",
+        "date": "2023-11-21",
+        "time": "8:30+13:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291721034",
+        "timezone": "Pacific/Auckland",
+        "description": "For November, we're shifting our Meetup by one week, to work around several other events going on in the region - the NZITF Conference is taking place in Wellington Monday and Tuesday, 13-14 November; the ISANZ Awards Dinner is on the evening of 14 November; and John will be in Melbourne for the OT Cyber Resilience Summit on the 14th.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for November will be **A10:2021 - Server-Side Request Forgery (SSRF).**\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make.\n\nThe Auckland-area OWASP Meetup usually takes place on the second Tuesdays of March, May, July, September, and November. There are no Meetups in January, as our members enjoy their holidays."
     },
     {
         "group": "New Zealand",
