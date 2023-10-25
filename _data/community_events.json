@@ -20,16 +20,6 @@
         "description": "Welcome to this beginner course on the OWASP Top 10!\n\nThis course has no technical prerequisites, it is truly meant for everyone. Whether you are a software developer, engineering manager, security/risk analyst, auditor, security professional, or simply curious on application security and looking for an introduction to the OWASP Top 10; This course is for you!\n\nIn this course you will learn a little bit about the OWASP Foundation and how you can be part of this opensource community. We are going to learn about the OWASP Top 10 risks and how they get periodically updated.\n\nFor each of the OWASP Top 10 risks, we are going to look at the key information security concepts, so that you better understand the definition of each risk. Then we are going to \u2013 together \u2013 define each risk \u2013 and we are going to do this in layman\u2019s terms, so that you really understand each risk.\n\nWe are also going to look at the main challenges that developers and others face that cause each risk. Finally, we are going to give examples of good and bad code using pseudocode and we are going to conclude with some of the best protection practices to help you and your team avoid each risk from materializing.\n\n**Who this course is for:**\n\n* This course has no technical prerequisites, it is truly meant for everyone\n* Web application, API, and mobile developers\n* Risk managers and auditor looking to understand the OWASP Top 10 risks\n* Cybersecurity professionals looking for an introduction to the OWASP Top 10, or a refresher\n\n**Timing:**\n\n* 12:30-1pm - Check-in & arrival\n* 1pm - Session start\n* 2:45-3pm - break\n* 5pm - Session end\n\n**Please note:** Lunch is **not** provided, and you will not be able to bring food into Norris Conference Center. There are several places within walking distance where you may eat before the session."
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "Hacker days:- Integrating Automated Security Checks into the CI/CD Pipeline",
-        "date": "2023-10-24",
-        "time": "7:00-07:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/296670889",
-        "timezone": "America/Los_Angeles",
-        "description": "We are thrilled to announce a Hands-on Hacker Days session, courtesy our Hosts Akto.io . We also thank them for arranging awesome food and drinks.\n\nTopic: Integrating Automated Security Checks into the CI/CD Pipeline for DevSecOps\n\nThis workshop will equip participants with the knowledge and hands-on skills to integrate Static (SAST), Dynamic (DAST) and Interactive (IAST) Application Security Testing into their GitHub DevSecOps pipelines.\n\nPre-requisites:\n\nA GitHub account.\n\nBasic understanding of application security.\n\nAttendees are required to bring their laptops with internet connectivity\n\nAgenda:\n\nIntroduction (15 minutes)\n\nThe DevSecOps paradigm and its importance.\n\nUnderstanding GitHub Actions.\n\nThe relevance of SAST and DAST in the CI/CD pipeline.\n\nOverview of GitHub Actions for CI/CD (10 minutes)\n\nBasic components: workflows, runners, actions.\n\nDemonstration: A simple CI pipeline with GitHub Actions.\n\nHands-on: Integrating SAST with GitHub Actions (20 minutes)\n\nIntroduction to Static Application Security Testing.\n\nPopular SAST tools and choosing one for demonstration.\n\nHands-on activity: a. Setting up the SAST tool on a sample GitHub repository. b. Writing a GitHub Actions workflow to automate SAST scans on every pull request or push. c. Analyzing and understanding the SAST report in the GitHub interface.\n\nHands-on: Integrating DAST and IAST with GitHub Actions (60 minutes)\n\nIntroduction to Dynamic Application Security Testing and Interactive application security testing.\n\nCommon DAST and IAST tools suitable for CI/CD integration.\n\nHands-on activity: a. Setting up a test environment (ideally a deployed version of the app). b. Configuring the DAST tool to scan the deployed application. c. Writing a GitHub Actions workflow to trigger DAST scans post-deployment. d. Analyzing and responding to DAST findings within GitHub.\n\nWhat's in it for Participants?\n\nSkill Enhancement: Mastery of integrating key security tools within the popular GitHub Actions CI/CD framework.\n\nHands-on Experience: Directly apply workshop teachings to real-world scenarios.\n\nCollaboration: Network and collaborate with peers facing similar challenges.\n\nSpeaker Bios:\n\nAnkush Jain: Ankush is the co-founder & CTO at Akto (https://www.akto.io) - The open source API Security product. Prior to starting Akto he worked at CleverTap as VP of Engineering. He has also worked for 5 years as a Quant at Morgan Stanley. He holds Bachelors in Technology from IIT Bombay. He is also a speaker at Black Hat and Defcon.\n\nAnkita Gupta: She is the co-founder and CEO of Akto.io - The open source API Security product. Prior to Akto she has experience working in VMware, LinkedIn and JP Morgan. She holds MBA from Dartmouth College and Bachelors in Technology from IIT Roorkee. She is also a speaker at Black Hat and Defcon."
-    },
-    {
         "group": "Beja",
         "repo": "www-chapter-beja",
         "name": "0x00 Kickoff",
@@ -40,6 +30,16 @@
         "description": "OWASP Beja chapter kickoff meetup.\n\nJoin us and seize the opportunity to **win** a ticket to the premier technical information security conference in Portugal: BSides Lisbon!\n\n**Schedule**\n\n18:00 - **OWASP Beja: Five Ws and How** by OWASP Beja chapter leadership team\n18:30 - **OWASP API Security Top 10** by Paulo A. Silva\n19:20 - **Snacks & Drinks**\n\n**Talks**\n\n**OWASP Beja: Five Ws and How**\nby OWASP Beja chapter leadership team\n\nA warm welcome message from the OWASP Beja chapter leadership team that aims to provide a comprehensive understanding of the chapter's purpose, inception, and future plans.\n\nYou're invited to join us in this momentous launch event and, together, help establish OWASP Beja as a dynamic community in the realm of application security.\n\n\\-\\-\\-\n\n**OWASP API Security Top 10**\nby Paulo A. Silva, OWASP API Security Project co-Leader\n\nIn today's app-crazy universe, APIs are the secret sauce behind the magic. Think of them as the superheroes of tech, from banking to retail, transport to smart cities, they're the unsung heroes revealing the secrets of business logic and access to the treasure trove of sensitive data. But hold on to your cyberhats because where there's treasure, there are pirates!\n\nAPIs have become the gold mine for attackers. They're the common thread weaving through those notorious data breaches we've all heard about. Now, how do you turn the tables on these cyber scoundrels? Well, the answer is simple: learn their tricks, and you'll become the ultimate API security hero! We're here to take you on a thrilling, rollercoaster ride into the heart of API security: a hands-on deep dive into the OWASP API Security Top 10!\n\n**About the Speaker**\nPaulo is the Principal Security Researcher and Pentester at Char49. Since his first OWASP local event back in 2010, he has been an active community member contributing to several OWASP projects. He has co-authored the OWASP API Security Top 10 and co-leads the OWASP API Security Project."
     },
     {
+        "group": "Belgium",
+        "repo": "www-chapter-belgium",
+        "name": "OWASP BeNeLux Days 2023",
+        "date": "2023-11-23",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/296033531",
+        "timezone": "Europe/Brussels",
+        "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
+    },
+    {
         "group": "Birmingham Uk",
         "repo": "www-chapter-birmingham-uk",
         "name": "OWASP Bham November Meetup!",
@@ -47,7 +47,7 @@
         "time": "8:00Z",
         "link": "https://www.meetup.com/meetup-group-owasp-birmingham/events/296510816",
         "timezone": "Europe/London",
-        "description": "Greetings OWASP Birmingham members!\n\nWe are excited to announce our second Meetup of 2023 on Thursday, November 16th once again at Hays in One Colmore Square.\n\nThis in-person Meetup will feature two fantastic infosec talks from our knowledgeable speakers. We have a great community of over 500 members and we can't wait to reconnect and learn together.\n\nMore details to come soon!\n\nPlease mark your calendars for Thursday, November 16th for what is sure to be an engaging and educational evening. We hope to see many of you there!\n\nRSVP when you get a chance so we can plan accordingly. We look forward to catching up with you all next month!"
+        "description": "Greetings OWASP Birmingham members!\n\nWe are excited to announce our second Meetup of 2023 on Thursday, November 16th once again at Hays in One Colmore Square.\n\nThis in-person Meetup will feature two fantastic infosec talks from our knowledgeable speakers.\n\n5.45pm - Doors open\n6.15pm - Welcome and Food\n6.30pm - TALK #1 \"Social engineering adventures of a pentester\"\n\nSynopsis : This is about my experience of performing social engineering (SE) assessments as a pentester who is no expert on the subject of performing physical work.\nI volunteered to be pushed in at the deep end on an SE job and had to learn quickly which was a little scary. I hope there will be something useful you take away from the talk, whatever your interest in security relates to.\n\n7.00pm - Break\n7.15pm - TALK #2 TBC\n7.45pm - Questions/Any Other Business\n8.00pm - Close\n\nRSVP when you get a chance so we can plan accordingly. We look forward to catching up with you all next month!"
     },
     {
         "group": "Boston",
@@ -90,16 +90,6 @@
         "description": "3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nWe will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nMantium AI will be providing snax."
     },
     {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP Oct Meet - In person",
-        "date": "2023-10-24",
-        "time": "7:00-05:00",
-        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/296587433",
-        "timezone": "America/Chicago",
-        "description": "OWASP Dallas is ready to host in-person meets.\n\n\"**AppSec 2.0: Reimagine AppSec with Runtime Analysis**\n\nSCA tools (container and dependency scans) generate too much noise. Runtime security tools don\u2019t understand SCA findings, and don\u2019t come in until production. What if you could marry SCA with runtime analysis during dev, test, and prod?\n\nIn this session, Kiran Kamity, Founder and CEO of Deepfactor, will discuss how the next generation of AppSec needs to go beyond just integrating static SCA into your CI pipeline, to analyzing insecure behaviors inside running apps and correlating that back to SCA to understand which vulnerable components are actually loaded into memory and used by your application. This new approach to AppSec will detect both known vulnerabilities/CVEs with SCA scans and unknown vulnerabilities with runtime analysis. It will then prioritize known vulnerabilities with runtime correlation of SCA findings. End result: you catch most of the key risks in your app, prioritize the key items your devs need to work on without flooding them with alerts, and remove unused components from your containers to burn down your CVE debt rapidly. And achieve the true mission of AppSec\u2026to empower engineering and security teams to create secure applications."
-    },
-    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "CSA Colorado  Fall Summit 2023",
@@ -108,6 +98,16 @@
         "link": "https://www.meetup.com/denver-owasp/events/296253810",
         "timezone": "America/Denver",
         "description": "OWASP Denver wanted to help promote a great upcoming conference put on by our sister organization in Denver on October 25:\n\n**The Cloud Security Alliance (CSA) - Colorado Chapter** is holding a unique event this year\n\n**AI and Cybersecurity: Revolution and Risks**\n\nAll sessions, speakers and content are dedicated to exploring AI's impact on the future of cybersecurity.\n\nCome be part of this all-day conversation. Registration includes:- Access to all sessions\n\n\\- Breakfast\n\\- Lunch\n\\- Networking happy hour\n\\- 6 Continuing education Credits\n**\\- An \"All\\-AI Panel\"\\, where the audience will be able to interact and ask questions of AI personalities representing experts in various fields\\.**\n\nThe full agenda is available now, including information about our keynote, speakers and topics:\n\nRegister now: [https://iplanit.swoogo.com/csacofall2023/](https://iplanit.swoogo.com/csacofall2023/)"
+    },
+    {
+        "group": "Dhaka",
+        "repo": "www-chapter-dhaka",
+        "name": "OWASP Dhaka Chapter Cyber Awareness Day 2023",
+        "date": "2023-10-28",
+        "time": "1:00+06:00",
+        "link": "https://www.meetup.com/owasp-dhaka-chapter/events/296932137",
+        "timezone": "Asia/Dhaka",
+        "description": "Welcome to OWASP Dhaka Chapter Cybersecurity Awareness Day 2023.\nWe'll discuss \"**How to Validate the OWASP Top 10 Web Application Security Risks**\" at the event.\nJoin us, and grow the OWASP Dhaka Chapter!"
     },
     {
         "group": "Gothenburg",
@@ -130,6 +130,16 @@
         "description": "This session covers lab setup, is aimed for novices, and will be recorded.\n\nWe will setup the following tools\n\n* Kali Linux\n* Postman\n* Burp Suite Community Edition\n* Zed Attack Proxy (ZAP) with Postman Add-On\n* crAPI\n\nWe will be installing and configuring Kali Linux on VMware Workstation Player since it is free for personal, non-commercial use. For full functionality and free training, you will want to create accounts for Postman and PortSwigger. Please review all license agreements and terms of usage for all of the products listed below.\n\n[VMware Workstation Player](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player.html.html)\n\n[Get Kali](https://www.kali.org/get-kali/)\n[Kali Virtual Machines](https://www.kali.org/get-kali/#kali-virtual-machines)\n\n[Postman](https://www.postman.com/)\n[Create Postman Account](https://identity.getpostman.com/signup)\n\n[Burp Suite Community Edition](https://portswigger.net/burp/communitydownload)\n[PortSwigger Web Security Academy](https://portswigger.net/web-security)\n\n[Zed Attack Proxy (ZAP)](https://www.zaproxy.org/)\n[ZAP Getting Started](https://www.zaproxy.org/getting-started/)\n\n[completely ridiculous API (crAPI)](https://owasp.org/crAPI/)"
     },
     {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2023-11-13",
+        "time": "8:45-05:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/296938204",
+        "timezone": "America/New_York",
+        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+    },
+    {
         "group": "Lisboa",
         "repo": "www-chapter-lisboa",
         "name": "#05 The Cake",
@@ -148,16 +158,6 @@
         "link": "https://www.meetup.com/owasp-ljubljana-chapter/events/296853307",
         "timezone": "Europe/Belgrade",
         "description": "Kriptografija je u\u010dinkovit na\u010din za za\u0161\u010dito zaupnosti in celovitosti informacij ter za\u0161\u010dito informacijskih sistemov pred kibernetskimi gro\u017enjami. Kvantno ra\u010dunalni\u0161tvo grozi, da bo razbilo ve\u010dino dana\u0161nje kriptografske za\u0161\u010dite. \u010ceprav \u017ee prihajajo poro\u010dila o prvih poskusih zloma uveljavljenih kriptografskih algoritmov, kvantni ra\u010dunalniki, ki so na voljo ta trenutek, v splo\u0161nem \u0161e niso dovolj zmogljivi, da bi jih razbili. Vendar bo v prihodnosti mo\u017eno izkoristiti dovolj zmogljiv kvantni ra\u010dunalnik za de\u0161ifriranje, branje ali dostop do ob\u010dutljivih informacij.\nSpreminjanje miselnosti in na\u010dina dela, ki ga zahtevajo kvantni ra\u010dunalniki in algoritmi, je dolgotrajno in zahtevno, saj gre za popolnoma druga\u010den pristop od klasi\u010dnih ra\u010dunalnikov in algoritmov. Prehodi na nove kriptografske algoritme so dragi, motijo poslovanje in obi\u010dajno trajajo veliko dlje od predvidenega. Prav zdaj je pred nami eden najpomembnej\u0161ih kriptografskih prehodov: od klasi\u010dne kriptografije z javnim klju\u010dem do kvantno varne, post-kvantne kriptografije (PQC \u2013 post quantum cryptography). Pri PQC gre za oblikovanje kriptografskih re\u0161itev, ki jih lahko uporabljajo dana\u0161nji nekvantni ra\u010dunalniki in za katere smo prepri\u010dani, da so odporne tako na klasi\u010dno kot na prihodnjo kvantno kriptoanalizo."
-    },
-    {
-        "group": "London",
-        "repo": "www-chapter-london",
-        "name": "OWASP London Secure Coding Tournament CTF [IN-PERSON]",
-        "date": "2023-10-24",
-        "time": "8:00+01:00",
-        "link": "https://www.meetup.com/owasp-london/events/296523070",
-        "timezone": "Europe/London",
-        "description": "**OWASP London Chapter** is pleased to announce the OWASP London CTF Tournament for Software Developers kindly sponsored by **Monzo** and **SecureFlag**. Discover vulnerabilities, capture flags, win real prizes!\n\nThis event is kindly hosted and sponsored by: **Monzo**\nThe CTF Tournament platform is kindly provided by: **SecureFlag**\n\n**Venue Location**: Monzo, 5 Appold St, London, EC2A 2AG\n**Nearest Tube:** Liverpool Street - 4 min walk\n**Doors open and registration**: 6:00pm (grab some food & drink and connect your laptop)\n**CTF starts**: 6:30pm (we start on time)\n**Expected CTF finish and Prize Giving Ceremony**: 8:45pm-9:00pm\n\nCTF (Capture The Flag) is a type of computer security competition. Contestants are presented with a set of challenges and puzzles which test their creativity, technical skills, vulnerability-finding skills and problem-solving ability. The challenges usually cover a number of categories of vulnerabilities in source code and when solved, each yields a \u201cflag\u201d which is submitted to a real-time scoring service. The difficulty levels are from beginner to advanced.\n\n**IMPORTANT**: Please **bring your own** **LAPTOP** and a **CHARGER** for it.\n\n**The Top 3 scorers** will win exciting prizes generously provided by the OWASP London Chapter sponsors.\n\nParticipation is FREE, but the **number of seats is strictly limited** and **registration is required** to attend.\n\n**Please remember to bring your own laptop!**\n\nHOW TO FIND THE VENUE:\nThe event will take place in the Monzo event space which is at the back of the Boardwalk House, 5 Appold Street, London EC2A 2DA. Once you get to the Boardwalk House, please do not try to use the main circular-shaped entrance - instead please keep walking along Appold Street towards the back of the building and you will see the glowing neon \"monzo\" logo through the glass double-doors - this is the venue!\n\nPhoto of the correct entrance attached.\n\n**IMPORTANT**: By participating in this activity you agree to abide by the **OWASP Code of Conduct**\n\n**CODE OF CONDUCT**\nWe hope you enjoy our events, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback or would like to speak to us, we take these matters very seriously. You can find the full text of the OWASP Code of Conduct Policy here: [https://owasp.org/www-policy/operational/code-of-conduct](https://owasp.org/www-policy/operational/code-of-conduct)"
     },
     {
         "group": "Los Angeles",
@@ -180,16 +180,6 @@
         "description": "**TOPIC**: How Can DevSecOps Improve Security?\n\nJoin us for dinner, drinks, networking and a great talk by **Mary Wang**, Software Engineering Manager at Northrop Grumman Space Systems\n\n**NOTE**: New Location!! \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n**ABSTRACT**: DevSecOps is the new buzzword that has been around for a while now. DevOps, DevSecOps, Agile, CI/CD pipeline, etc., and chances are you have heard these terms when discussing the software development life cycle. What do those terms mean? With the recent increasing cyber-attacks on software such as in-house developed code or software supply chain (open source software), the traditional ways of decreasing the attack surface on software applications no longer work effectively. Moreover, organizations are pressured to develop code faster and cheaper to meet customer demands. Mary will explain what DevSecOps is and how this practice is better than DevOps in security. In addition, how CI/CD fits in DevSecOps. Lastly, the popular tools are used in DevSecOps practices. She will provide the real-world experience challenges that she encountered.\n\n**Thanks to our Sponsor**: *[SAFEBASE](https://safebase.io/)*\n*SafeBase is the customer-facing Trust Center that automates B2B security reviews. Companies like LinkedIn, Asana, OpenAI, and Snyk use SafeBase to reduce security questionnaires, create a better buying experience, accelerate sales velocity, and position security as a revenue driver.*\n\n**SPONSORSHIP Opportunities Available** *Vendors interested in sponsoring please send an email to* *sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
-        "group": "Madison",
-        "repo": "www-chapter-madison",
-        "name": "October Meeting",
-        "date": "2023-10-24",
-        "time": "5:30-05:00",
-        "link": "https://www.meetup.com/owasp-madison/events/296510809",
-        "timezone": "America/Chicago",
-        "description": "https://guidedconversations.org/\n\nDiscussion Topics\n\n1. [LLM Top 10](https://www.llmtop10.com/)\n2. \u201cThe Bogus CVE Problem\u201d: [https://lwn.net/Articles/944209/](https://lwn.net/Articles/944209/)\n3. (your topic here)\n\nTool Spotlights\n\n1. [Checkmarx KICS](https://docs.kics.io/)\n2. https://github.com/guacsec/guac"
-    },
-    {
         "group": "Maine",
         "repo": "www-chapter-maine",
         "name": "OWASP Maine: Cybersecurity of Critical SAP Apps at Rising Tide Brewery",
@@ -200,14 +190,14 @@
         "description": "**OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications**\n\nApplication and software security are so vitally important in all aspects of the business especially with every company becoming a software company as they navigate through digital transformations.\n\nWith that being said ERP systems are some of **THE MOST** critical applications within enterprises today and come with their own unique set of security challenges.\n\nThe fine folks at Onapsis who 100% specialize in SAP and ERP application security will be on site to dive deep into these specific challenges. They will also review real world attacks on SAP ERP environments and discuss the best in class strategies and measures you can do to mitigate the risk of exploitation of your ERP environments.\n\nAnyone who is involved in SAP ERP environments from both a software development and security perspective would gain a tremendous amount of knowledge attending this meetup.\n\n\\*Food and drinks will be provided by Onapsis\n\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
     },
     {
-        "group": "Minneapolis St Paul",
-        "repo": "www-chapter-minneapolis-st-paul",
-        "name": "(Hybrid) Gamifying Tabletop Exercises",
-        "date": "2023-10-24",
-        "time": "7:30-05:00",
-        "link": "https://www.meetup.com/owasp-msp-meetup/events/296499717",
-        "timezone": "America/Chicago",
-        "description": "**Doors open at 5:30! Join us before the talk for pizza!**\n\n**Andrew Carlson -- Gamifying Tabletop Exercises**\n\nHave you wondered whether there is a fun way to examine how prepared teams are for an incident?\n\nAndrew will give an overview of a game he developed and uses to do tabletop exercises for incident response at his company. He will walk through the set up of the game and walk attendees through a round of the game.\n\nThe game doesn't require deep security knowledge from the teams going through the exercise.\n\nFood and drink provided by Concord.\n\n**Agenda**\n5:30 - Doors open for pizza, socializing, and connecting!\n6:10 - Online call opens; OWASP announcements\n6:15 - Presentation\nThere will be time for socializing after the presentation/game as well.\n\nIf needed, the code for the on-line portion will be 972403.\n\nConcord is a proud supporter of cyber security efforts, including providing food, drink, and locale for OWASP-MSP -- thank you!"
+        "group": "Netherlands",
+        "repo": "www-chapter-netherlands",
+        "name": "OWASP BeNeLux Days 2023",
+        "date": "2023-11-23",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/295925893",
+        "timezone": "Europe/Amsterdam",
+        "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
         "group": "New Zealand",
@@ -270,6 +260,16 @@
         "description": "**OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications**\n\nApplication and software security are so vitally important in all aspects of the business especially with every company becoming a software company as they navigate through digital transformations.\n\nWith that being said ERP systems are some of **THE MOST** critical applications within enterprises today and come with their own unique set of security challenges.\n\nThe fine folks at Onapsis who 100% specialize in SAP and ERP application security will be on site to dive deep into these specific challenges. They will also review real world attacks on SAP ERP environments and discuss the best in class strategies and measures you can do to mitigate the risk of exploitation of your ERP environments.\n\nAnyone who is involved in SAP ERP environments from both a software development and security perspective would gain a tremendous amount of knowledge attending this meetup.\n\n\\*Food and drinks will be provided by Onapsis\n\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
     },
     {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "OWASP-SLC/Wasatch AppSec - October Meetup-In person @Silver Dish Thai (Provo)",
+        "date": "2023-10-26",
+        "time": "2:00-06:00",
+        "link": "https://www.meetup.com/owasp-slc/events/296924690",
+        "timezone": "America/Denver",
+        "description": "Meetup and enjoy lunch with the AppSec community during SaintCon in Provo, UT.\n\nWe'll meetup at Silver Dish Thai Cuisine in Provo on Center St.\n\nCome enjoy good food and discuss how we can support the AppSec community here in Utah.\n\nSee you there!"
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -308,16 +308,6 @@
         "link": "https://www.meetup.com/owasptriangle/events/296265774",
         "timezone": "America/New_York",
         "description": "We threat model our technology to ensure strong, resilient designs. As a critical control, our practice of threat modeling demands the same rigor. Learn to drink your own champagne by threat modeling your program's weaknesses to design better strategies and unlock more business value from your threat models."
-    },
-    {
-        "group": "Uruguay",
-        "repo": "www-chapter-uruguay",
-        "name": "OWASP Meetup: Developer mode",
-        "date": "2023-10-24",
-        "time": "8:30-03:00",
-        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/296685550",
-        "timezone": "America/Montevideo",
-        "description": "\u00bfTe interesa una pr\u00e1ctica de ciberseguridad pensada **exclusivamente para desarrolladores**?\n\nEn esta Meetup, utilizando el proyecto [OWASP Secure Coding Dojo](https://owasp.org/www-project-secure-coding-dojo/) tendremos una sesi\u00f3n de ejercicios que incluyen **revisi\u00f3n de c\u00f3digo** y **detecci\u00f3n de vulnerabilidades**. Los desaf\u00edos son guiados y se cuenta con el apoyo de expertos en seguridad de aplicaciones.\n\nSolo precisas **llevar una notebook** para participar, sin descarga de materiales o herramientas. Solo se utilizar\u00e1 un navegador.\n\nEn esta instancia la Meetup ser\u00e1 en las oficinas de Geocom (Dionisio Oribe 3071).\n\n**IMPORTANTE**: *Las medidas de seguridad del host requieren que los asistentes provean de antemano **nombre** y **documento de identidad**. Al ingresar a las oficinas adem\u00e1s se pedir\u00e1 el **n\u00famero de tel\u00e9fono**. Estos datos se pedir\u00e1n a los asistentes confirmados **el d\u00eda previo al evento**. Dejamos a criterio de los asistentes si quieren ofrecer tal informaci\u00f3n o desistir de atender. **Habr\u00e1 lista de espera** para incluir a quienes en esta instancia no entren en el cupo.*"
     },
     {
         "group": "Vancouver",
