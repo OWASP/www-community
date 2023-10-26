@@ -8,6 +8,7 @@ contributors:
   - Dirk Wetter
   - kingthorin
   - Niclas Gustafsson
+  - Jason Hills
 tags: application security tools, tools
 permalink: /Free_for_Open_Source_Application_Security_Tools
 
@@ -339,6 +340,11 @@ Secrets detection is often confused with SAST because both scan through static s
 
   - [SAP/Credential Digger](https://github.com/SAP/credential-digger) - Open Source
     - A GitHub scanning tool that identifies hardcoded credentials (Passwords, API Keys, Secret Keys, Tokens, personal information, etc.), filtering the false positive data through machine learning models.
+   
+  - [TruffleHog](https://github.com/trufflesecurity/trufflehog) - Open Source (supported by an enterprise product: [Truffle Security](https://trufflesecurity.com))
+    - Find credentials in repositories (git, GitHub, GitLab), filesystem, S3 buckets, GCS buckets, syslog, CircleCI, Docket Images
+    - Eliminates false positives using 700+ credential detectors that support active verification against their respective APIs
+    - Available as a [Github Action](https://github.com/marketplace/actions/trufflehog-oss)
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
