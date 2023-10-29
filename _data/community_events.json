@@ -60,16 +60,6 @@
         "description": "3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nWe will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nMantium AI will be providing snax."
     },
     {
-        "group": "Dhaka",
-        "repo": "www-chapter-dhaka",
-        "name": "OWASP Dhaka Chapter Cyber Awareness Day 2023",
-        "date": "2023-10-28",
-        "time": "1:00+06:00",
-        "link": "https://www.meetup.com/owasp-dhaka-chapter/events/296932137",
-        "timezone": "Asia/Dhaka",
-        "description": "Welcome to OWASP Dhaka Chapter Cybersecurity Awareness Day 2023.\nWe'll discuss \"**How to Validate the OWASP Top 10 Web Application Security Risks**\" at the event.\nJoin us, and grow the OWASP Dhaka Chapter!"
-    },
-    {
         "group": "Fortaleza",
         "repo": "www-chapter-fortaleza",
         "name": "OWASP Fortaleza - Meetup da Comunidade",
@@ -230,16 +220,6 @@
         "description": "Charla sobre: Introducci\u00f3n a OWAPS ZAP (Zed Attack Proxy) El esc\u00e1ner de aplicaciones web m\u00e1s utilizado del mundo. Libre y de c\u00f3digo abierto. Mantuvo activamente a un equipo internacional dedicado de voluntarios. Un proyecto de GitHub Top 1000."
     },
     {
-        "group": "Tiruvallur",
-        "repo": "www-chapter-tiruvallur",
-        "name": "Null and OWASP combined meetup",
-        "date": "2023-10-28",
-        "time": "4:30+05:30",
-        "link": "https://www.meetup.com/tiruvallur-owasp-meetup-group/events/296618490",
-        "timezone": "Asia/Kolkata",
-        "description": "* Hacking Companies on Mails - Deep Dive into Email Security by **Sriram**\n* AI and ML in CyberSecurity by **PradeepKumar P**\n* You can be a Human Decompiler by **Ravi Rajput**\n* Cloud Security 101 by **Chandresh Gupta**"
-    },
-    {
         "group": "Triangle Nc",
         "repo": "www-chapter-triangle-nc",
         "name": "Drink Your Own Champagne: How to Threat Model Your Threat Modeling Program",
@@ -267,7 +247,7 @@
         "time": "8:30-08:00",
         "link": "https://www.meetup.com/owasp-victoria-chapter/events/296919377",
         "timezone": "America/Vancouver",
-        "description": "The OWASP Victoria chapter is pleased to present a workshop hosted by Wyatt Harvey and Sebastian Bethell titled \"From Basics to Burp: Navigating PortSwigger Academy\".\n\nThe event will be held on November 16, 2023 from 6:30 PM to 8:30 PM at Fort Tectoria (doors open at 6 PM).\n\nThe event will feature the workshop including an introduction to PortSwigger Academy as well as working through five of the labs. Snacks, networking, and fun will also be included.\n\nDon't miss out on this valuable opportunity to enhance your knowledge and skills in web application hacking. If you would like to attend, please click the RSVP button to reserve your spot as we have limited seats available.\n\nBring your laptop with BurpSuite installed and join us for a hands-on evening of application security fun!\n\nWe would also like to give a special thanks to First West Credit Union for sponsoring this event."
+        "description": "The OWASP Victoria chapter is pleased to present a workshop hosted by Wyatt Harvey and Sebastian Bethell titled \"From Basics to Burp: Navigating PortSwigger Academy\".\n\nThe event will be held on November 16, 2023 from 6:30 PM to 8:30 PM at Fort Tectoria (doors open at 6 PM).\n\nThe event will feature the workshop, including an introduction to PortSwigger Academy and working through some of the introductory labs using BurpSuite, a comprehensive tool for performing security testing on web applications. Snacks, networking, and fun will also be included.\n\nPortSwigger Academy is an online platform offering interactive learning materials and labs focused on web application security and instructions on how to identify and exploit a wide range of web application vulnerabilities.\n\nDon't miss out on this valuable opportunity to enhance your knowledge and skills in web application hacking. If you would like to attend, please click the RSVP button to reserve your spot as we have limited seats available.\n\nBring your laptop with BurpSuite installed and join us for a hands-on evening of application security fun!\n\nBurpSuite Community can be installed from the following link:\n\n* [https://portswigger.net/burp/communitydownload](https://portswigger.net/burp/communitydownload)\n\n\u200e\nWe would also like to give a special thanks to First West Credit Union for sponsoring this event."
     },
     {
         "group": "Samm",
