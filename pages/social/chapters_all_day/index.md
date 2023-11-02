@@ -2,7 +2,7 @@
 
 title: OWASP Chapters All Day 
 layout: col-sidebar
-dates: June 6-7
+dates: "June 6-7, 2020"
 permalink: /social/chapters_all_day/
 tags: chaptersAllDay2020
 
