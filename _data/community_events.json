@@ -47,7 +47,7 @@
         "time": "8:00Z",
         "link": "https://www.meetup.com/meetup-group-owasp-birmingham/events/296510816",
         "timezone": "Europe/London",
-        "description": "Greetings OWASP Birmingham members!\n\nWe are excited to announce our second Meetup of 2023 on Thursday, November 16th once again at Hays in One Colmore Square.\n\nThis in-person Meetup will feature two fantastic infosec talks from our knowledgeable speakers.\n\n5.45pm - Doors open\n6.15pm - Welcome and Food\n6.30pm - TALK #1 \"Social engineering adventures of a pentester\"\n\nSynopsis : This is about my experience of performing social engineering (SE) assessments as a pentester who is no expert on the subject of performing physical work.\nI volunteered to be pushed in at the deep end on an SE job and had to learn quickly which was a little scary. I hope there will be something useful you take away from the talk, whatever your interest in security relates to.\n\n7.00pm - Break\n7.15pm - TALK #2 TBC\n7.45pm - Questions/Any Other Business\n8.00pm - Close\n\nRSVP when you get a chance so we can plan accordingly. We look forward to catching up with you all next month!"
+        "description": "Greetings OWASP Birmingham members!\n\nWe are excited to announce our second Meetup of 2023 on Thursday, November 16th once again at Hays in One Colmore Square.\n\nThis in-person Meetup will feature two fantastic infosec talks from our knowledgeable speakers.\n\n5.45pm - Doors open\n6.15pm - Welcome and Food\n6.30pm - TALK #1 \"Social engineering adventures of a pentester\"\n\nSpeaker: Tirath Rai\nSynopsis : This is about my experience of performing social engineering (SE) assessments as a pentester who is no expert on the subject of performing physical work.\nI volunteered to be pushed in at the deep end on an SE job and had to learn quickly which was a little scary. I hope there will be something useful you take away from the talk, whatever your interest in security relates to.\n\n7.00pm - Break\n7.15pm - TALK #2 \"The art of secure software: Zero-trust delivery pipelines\"\nSpeaker: Jim Gumbley\nSynopsis: Jim will delve into the world of zero-trust delivery pipelines and present a secure architecture for deployment pipelines in the cloud, combining not only effective vulnerability management but also robust protection from penetration by attackers.\n\n7.45pm - Questions/Any Other Business\n8.00pm - Close\n\nRSVP when you get a chance so we can plan accordingly. We look forward to catching up with you all next month!"
     },
     {
         "group": "Boston",
@@ -220,6 +220,16 @@
         "description": "We're pleased to announce that we'll be holding an OWASP Training Day event in Dunedin, on Saturday, 11th November.\n\nClasses will run 8:45 a.m. - 5:30 p.m. Tea breaks and lunch will be provided.\n\nRegistration Fee: $99 per attendee (plus GST and booking fees)\n\nWe're in the process of confirming our classes and trainers, so we'll update this description with registration information as soon as those are confirmed."
     },
     {
+        "group": "Northern Virginia",
+        "repo": "www-chapter-northern-virginia",
+        "name": "Hacking the Cloud",
+        "date": "2023-11-09",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/297090103",
+        "timezone": "America/New_York",
+        "description": "Cloud Penetration Testing helps answer the following question: \"What's the worst that can happen if my cloud-hosted application is compromised?\" In short, you don\u2019t have to wait until someone discovers an RCE or SSRF in your application to learn about the potential impact. You can conduct objective-based, assumed breach cloud penetration tests in your cloud environment beforehand. This allows you to identify and rectify the most exploitable attack paths long before your application is ever compromised. In fact, it\u2019s an ideal complement to Application Penetration Testing for cloud-hosted applications.\n\nIn this talk, Seth will walk through the art of cloud penetration using two open-source tools developed by Bishop Fox: CloudFox and CloudFoxable. CloudFox assists penetration testers and security professionals in identifying exploitable attack paths in cloud infrastructure, while CloudFoxable provides terraform code that lets you deploy intentionally vulnerable resources into your own AWS playground account."
+    },
+    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Orange County Cybersecurity Mixer",
@@ -238,16 +248,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/296056636",
         "timezone": "Europe/London",
         "description": "Christmas Social Special!\n\n**What?**\n\n* Glo Golf, bring your best putting game!\n\n**Where?**\n\n* Glo Golf Peterborough (Town Center)\n\n**When?**\n\n* Thursdsay 30th November\n\nSign up by responding to this event! (Note, this is a self-funded social, entry is \u00a38.50)"
-    },
-    {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Chapter 3: Cyber Peterborough MeetUp",
-        "date": "2023-11-01",
-        "time": "9:30Z",
-        "link": "https://www.meetup.com/owasp-peterborough/events/295240302",
-        "timezone": "Europe/London",
-        "description": "**We're evolving!**\n\nListening to our member feedback, we've moved towards '**Cyber Peterborough**', have a new lick of paint and are still focussing on all things cyber security.\n\n**'Powered by OWASP'** means we still practice, share and discuss content amongst peers in our global network, now with a local feel closer to our community.\n\n**Making Cyber Security Accessible.**\n\nCyber Peterborough is for everyone. Come along, bring a friend, share with your colleagues. You don't need to be a security professional, each session will break down topics to ensure everybody can take something away.\n\n**Agenda**\n\n1. **Ben Mackereth** \\| A working title of a mysterious nature\n2. **Speaker TBC**\n3. **Sign up to Cyber Peterborough's first ever Capture the Flag!** Suitable for all experiences and abilities, join us over food and drink and learn whilst doing in our CTF event.\n\n**When is it?**\n\n* Wednesday 1st November\n* **Start** from 7:30PM\n* **Finish** around 11:00PM\n\n**Where is it?**\n\n* The Brewery Tap, Peterborough\n\n**How can you get involved?**\n\n* Respond \"I'm Coming!\" to this group\n\nWe look forward to seeing you!"
     },
     {
         "group": "Seattle",
