@@ -10,6 +10,16 @@
         "description": "Notice that this is a virtual event running on Zoom. Please reach out if the event gets packed, and I will add room for more people.\n\nOWASP Aarhus will be joined by Simon Bennetts, project-lead for ZAP, and Liz Keogh, who will talk about human nature and behaviour and how that impacts software development.\n\nWe will update this event with more details when we get closer to the event."
     },
     {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Software Supply Chain 101: Understanding Dependencies",
+        "date": "2023-11-09",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/297118104",
+        "timezone": "America/New_York",
+        "description": "Explore the essential functions of software dependencies, manifest, and lock files, emphasizing their contribution to security. This presentation underscores the significance of managing vulnerabilities using software composition analysis tools, offering insights and practical strategies to enhance the security of your software supply chain.\n\nSpeaker Bio:\nKyle Kelly is a Security Researcher on the Supply Chain Team at Semgrep, a fast, open source static analysis tool for finding bugs, detecting vulnerabilities in third-party dependencies, and enforcing code standards. In addition to this research, Kyle is the Founder of CramHacks, a Supply Chain Security Newsletter, where he tries to convince people coffee is a supply chain risk."
+    },
+    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "November Meet",
@@ -58,6 +68,16 @@
         "link": "https://www.meetup.com/owaspboston/events/295661584",
         "timezone": "America/New_York",
         "description": "Join us at the OWASP Boston Meetup this month to get a hands-on lesson about IAST from Pranoy De and Tony Quadros. During the session Pranoy and Tony, will answer the questions, what is IAST, and how can it make your developer\u2019s lives easier.\n\n**\\*\\*Attendees must bring their own laptop and be in-person to participate in the hands-on workshop portion of this event**\n\n**\\*\\*Attendees must provide their name and email addresses (*please place in \"Current Role\" box*) information at time of registration to participate in the hands-on workshop portion of this event.**\n\nThis session will give you a foundational understanding of IAST (Interactive Application Security Testing), what it is, how it works, and provide you, as a security engineer or software developer, with the knowledge of how it can make your lives easier when it comes to doing security analysis of your applications and code. You will then be able to get **hands on** experience with IAST, using it to find vulnerabilities in a sample application then be able to go in and actually remediate the findings.\n\nAfter attending this session, you will understand the fundamentals of IAST (Interactive Application Security Testing) and have actual hands-on experience with the testing methodology.\n\nTony Quadros based in southern New Hampshire is a 10+ year veteran of the cyber security vendor landscape and specifically focused on the application security side of Cyber Security and software development. Having experience helping numerous enterprises from the largest social media companies in the world to the largest insurance companies with ever improving their application security programs to ensure the software we use every day is as secure as possible. More recently Tony has helped lead and revive OWASP Maine, a OWASP chapter focused on rallying the software development and security community in northern New England with providing great educational talks, networking events, and a safe outlet for sharing new job opportunities for northern New Englanders interested in advancing their software development and security careers.\n\nPranoy De is a 10+ year veteran of software engineering and application security based in Toronto Canada, getting his start as a DB2 Software Developer for IBM, full stack python developer, and more recently working with enterprises worldwide with ever improving their application security programs with a focus on threat modeling and now runtime application security testing. Pranoy has a deep passion for helping with establishing critical integrations for his customers to ensure all solutions work seamlessly within their application security stack and ensuring seamless workflows for software developers looking to ever improve their DevSecOps and appsec processes."
+    },
+    {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "Exploring CTF creation",
+        "date": "2023-11-16",
+        "time": "8:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/297107209",
+        "timezone": "Australia/Brisbane",
+        "description": "Hi all,\nWe have an exciting presentation up-coming.\nThe presentation title, description, etc will be confirmed soon.\nStay tuned for the deets, and hope to see you there.\n\nThis talk will be held in Brisbane City, likely at Exclaim IT (although I need to book this officially :D)"
     },
     {
         "group": "Bristol Uk",
@@ -170,6 +190,16 @@
         "description": "**TOPIC**: TBA\n***\\*\\*\\*\\*\\*\\* NOTE***: New Date due to Thanksgiving Holiday! **\\*\\*\\*\\*\\*\\*\\***\n\n**ABSTRACT**: TBA\n\n**Thanks to our Sponsor**: *!***Thanks to our Sponsor**: *[VIRTIS](https://virtis-us.com/)*\n*Providing today's leading organizations peace of mind that their entire digital network perimeter is safe from hackers and data breach. Our singular focus on information security delivers unparalleled solutions and services. We are revolutionizing web application & API protection and modernizing vulnerability management. VIRTIS solves the toughest web application challenges faced by organizations in all industries across all verticals in an ever-evolving digital threat landscape.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
+        "group": "Maine",
+        "repo": "www-chapter-maine",
+        "name": "OWASP Maine: Cybersecurity of Critical SAP Apps at Rising Tide Brewery",
+        "date": "2023-11-21",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/owasp-maine/events/297121352",
+        "timezone": "America/New_York",
+        "description": "**RESCHEDULED - OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications**\n\nApplication and software security are so vitally important in all aspects of the business especially with every company becoming a software company as they navigate through digital transformations.\n\nWith that being said ERP systems are some of **THE MOST** critical applications within enterprises today and come with their own unique set of security challenges.\n\nThe fine folks at Onapsis who 100% specialize in SAP and ERP application security will be on site to dive deep into these specific challenges. They will also review real world attacks on SAP ERP environments and discuss the best in class strategies and measures you can do to mitigate the risk of exploitation of your ERP environments.\n\nAnyone who is involved in SAP ERP environments from both a software development and security perspective would gain a tremendous amount of knowledge attending this meetup.\n\n\\*Food and drinks will be provided by Onapsis\n\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
+    },
+    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "DevSecOps Toolchain Transformation on Microsoft Azure and Amazon AWS",
@@ -248,6 +278,16 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/296056636",
         "timezone": "Europe/London",
         "description": "Christmas Social Special!\n\n**What?**\n\n* Glo Golf, bring your best putting game!\n\n**Where?**\n\n* Glo Golf Peterborough (Town Center)\n\n**When?**\n\n* Thursdsay 30th November\n\nSign up by responding to this event! (Note, this is a self-funded social, entry is \u00a38.50)"
+    },
+    {
+        "group": "Portland Me",
+        "repo": "www-chapter-portland-me",
+        "name": "OWASP Maine: Cybersecurity of Critical SAP Apps at Rising Tide Brewery",
+        "date": "2023-11-21",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/owasp-maine/events/297121352",
+        "timezone": "America/New_York",
+        "description": "**RESCHEDULED - OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications**\n\nApplication and software security are so vitally important in all aspects of the business especially with every company becoming a software company as they navigate through digital transformations.\n\nWith that being said ERP systems are some of **THE MOST** critical applications within enterprises today and come with their own unique set of security challenges.\n\nThe fine folks at Onapsis who 100% specialize in SAP and ERP application security will be on site to dive deep into these specific challenges. They will also review real world attacks on SAP ERP environments and discuss the best in class strategies and measures you can do to mitigate the risk of exploitation of your ERP environments.\n\nAnyone who is involved in SAP ERP environments from both a software development and security perspective would gain a tremendous amount of knowledge attending this meetup.\n\n\\*Food and drinks will be provided by Onapsis\n\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
     },
     {
         "group": "Seattle",
