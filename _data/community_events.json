@@ -20,6 +20,16 @@
         "description": "Explore the essential functions of software dependencies, manifest, and lock files, emphasizing their contribution to security. This presentation underscores the significance of managing vulnerabilities using software composition analysis tools, offering insights and practical strategies to enhance the security of your software supply chain.\n\nSpeaker Bio:\nKyle Kelly is a Security Researcher on the Supply Chain Team at Semgrep, a fast, open source static analysis tool for finding bugs, detecting vulnerabilities in third-party dependencies, and enforcing code standards. In addition to this research, Kyle is the Founder of CramHacks, a Supply Chain Security Newsletter, where he tries to convince people coffee is a supply chain risk."
     },
     {
+        "group": "Bangalore",
+        "repo": "www-chapter-bangalore",
+        "name": "OWASP Bangalore Meet 25 November 2023 ",
+        "date": "2023-11-25",
+        "time": "9:30+05:30",
+        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/297194585",
+        "timezone": "Asia/Kolkata",
+        "description": "Bangalore Meet 25 November 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Reconnaissance techniques by **Nimish Dudhe**\n* Dissecting stealer malware by **Pavan Karthick M**\n* Snapshot fuzzing with WTF(what the fuzz) by **Micky Thongam**\n* USing DArk Web to strengthen your Security skills by **Mudit Bansal**\n* Automation testing for complex API scenarios using ATOR by **Suchith Narayan**\n*\n\nNote: The session details, including schedule are available below."
+    },
+    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "November Meet",
@@ -137,17 +147,7 @@
         "time": "7:30+01:00",
         "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/296558368",
         "timezone": "Europe/Stockholm",
-        "description": "**OWASP Gothenborg Chapter invites you to an evening of security and entertainment!**\n\nCome hang out, grab a beer, and play arcade games with other security minded people!\n\nWhen: Tuesday 7/11 17:30 - 21:30\nWhere: Zamenhof, Esperantoplatsen 5, 411 19 G\u00f6teborg"
-    },
-    {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "OWASP Houston Chapter API Security Study Group - Lab Setup",
-        "date": "2023-11-06",
-        "time": "8:30-06:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/296859686",
-        "timezone": "America/Chicago",
-        "description": "This session covers lab setup, is aimed for novices, and will be recorded.\n\nWe will setup the following tools\n\n* Kali Linux\n* Postman\n* Burp Suite Community Edition\n* Zed Attack Proxy (ZAP) with Postman Add-On\n* crAPI\n\nWe will be installing and configuring Kali Linux on VMware Workstation Player since it is free for personal, non-commercial use. For full functionality and free training, you will want to create accounts for Postman and PortSwigger. Please review all license agreements and terms of usage for all of the products listed below.\n\n[VMware Workstation Player](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player.html.html)\n\n[Get Kali](https://www.kali.org/get-kali/)\n[Kali Virtual Machines](https://www.kali.org/get-kali/#kali-virtual-machines)\n\n[Postman](https://www.postman.com/)\n[Create Postman Account](https://identity.getpostman.com/signup)\n\n[Burp Suite Community Edition](https://portswigger.net/burp/communitydownload)\n[PortSwigger Web Security Academy](https://portswigger.net/web-security)\n\n[Zed Attack Proxy (ZAP)](https://www.zaproxy.org/)\n[ZAP Getting Started](https://www.zaproxy.org/getting-started/)\n\n[completely ridiculous API (crAPI)](https://owasp.org/crAPI/)"
+        "description": "**OWASP Gothenborg Chapter invites you to an evening of security and entertainment!**\n\nCome hang out, grab a beer, and play arcade games with other security minded people!\n\nWhen: Tuesday 7/11 17:30 - 21:30\nWhere: Zamenhof, Esperantoplatsen 5, 411 19 G\u00f6teborg\n\n**NOTE:** The event is open to everyone, but sponsored arcade tokens will only be passed out to the people on the guest list (that show up before 18:30)."
     },
     {
         "group": "Jacksonville",
@@ -158,6 +158,16 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/296938204",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+    },
+    {
+        "group": "Kansas City",
+        "repo": "www-chapter-kansas-city",
+        "name": "OWASP-KC Fall 2023",
+        "date": "2023-11-07",
+        "time": "8:30:59-06:00",
+        "link": "https://www.meetup.com/owasp-kansas-city/events/297197255",
+        "timezone": "America/Chicago",
+        "description": "quarterly OWASP regional chapter meeting. open invite to the public for those interested in software security topics.\n\nhttps://owasp.org/www-chapter-kansas-city/"
     },
     {
         "group": "Lisboa",
