@@ -140,16 +140,6 @@
         "description": "Hi all, we are delighted to host the next in-person event in Frankfurt! This time we have a special focus on GenAI security, where will we have a range of talks delivered by leaders within the AI security space. There will also be plenty of time to socialize before and after the event.\n\n_What's going to happen?\nWe look forward to welcoming you to our OWASP Frankfurt Meetup with a strong focus in Security in Generative AI hosted by **CHECK24**.\n\n_What are we going to talk about?\n**Talk 1 - The Dark Side Of Large Language Models: Uncovering And Overcoming Of Code Vulnerabilities**\n\n*Javan Rasokat* *\\- Senior Security Specialist at Sage\\, Researcher and Lecturer at DHBW\\, Germany*\n\nIn his talk, Javan will discuss the role of large language models in cybersecurity, highlighting both their potential and pitfalls. Using GitHub Copilot as a case study, he'll emphasize the importance of secure coding practices and manual code reviews in AI-driven development.\n\n**Talk 2 - Seeing is Not Always Believing: The Rise, Detection, and Evasion of Deepfakes**\n\n*Niklas Bunzel, PhD student at TU-Darmstadt and research scientist at Fraunhofer Institute for Secure Information Technology (SIT) and the National Research Centre for Applied Cybersecurity - ATHENE*\n\n*Raphael Antonius Frick, research fellow at Fraunhofer Institute for Secure Information Technology (SIT) and the National Research Centre for Applied Cybersecurity - ATHENE*\n\nIn an era where digital information dominates, the saying \u201cseeing is believing\u201d has been cast into doubt with the emergence of deepfakes \u2014 AI-generated media that manipulates reality. This talk delves into the sophisticated technologies behind the creation of these deceptive videos and images. We\u2019ll explore cutting-edge methods for detecting such manipulations, ensuring the authenticity of digital content. However, as detection techniques advance, so too do evasion strategies, including adversarial attacks and prompt injection methods. This poses the question: Can we still believe everything that we see?\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks** kindly provided by **CHECK24**.\n\n_When?\nOur Meetup takes place on 29.11.2023 from 18.00 to 21.30 o'clock CEST.\n\n_Where?\nCHECK24 Frankfurt is located at Speicherstra\u00dfe 55 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on **[Twitter #owasp_frankfurt](https://twitter.com/owasp_frankfurt)**[ ](https://twitter.com/owasp_frankfurt)and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you for this in-person event!"
     },
     {
-        "group": "Gothenburg",
-        "repo": "www-chapter-gothenburg",
-        "name": "Security Pub (S\u00e4kPub)",
-        "date": "2023-11-07",
-        "time": "7:30+01:00",
-        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/296558368",
-        "timezone": "Europe/Stockholm",
-        "description": "**OWASP Gothenborg Chapter invites you to an evening of security and entertainment!**\n\nCome hang out, grab a beer, and play arcade games with other security minded people!\n\nWhen: Tuesday 7/11 17:30 - 21:30\nWhere: Zamenhof, Esperantoplatsen 5, 411 19 G\u00f6teborg\n\n**NOTE:** The event is open to everyone, but sponsored arcade tokens will only be passed out to the people on the guest list (that show up before 18:30)."
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -158,16 +148,6 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/296938204",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
-    },
-    {
-        "group": "Kansas City",
-        "repo": "www-chapter-kansas-city",
-        "name": "OWASP-KC Fall 2023",
-        "date": "2023-11-07",
-        "time": "8:30:59-06:00",
-        "link": "https://www.meetup.com/owasp-kansas-city/events/297197255",
-        "timezone": "America/Chicago",
-        "description": "quarterly OWASP regional chapter meeting. open invite to the public for those interested in software security topics.\n\nhttps://owasp.org/www-chapter-kansas-city/"
     },
     {
         "group": "Lisboa",
@@ -220,6 +200,16 @@
         "description": "## DevSecOps Toolchain Transformation Hands-on\n\nThe DevSecOps Mindset and Salient Features\n\n* Shared Objectives\n* Prioritizing Security\n* Auomation\n* Operational Insights and Threat Intelligence\n* Holistic Security\n* Proactive Threat Monitoring\n* Security-as-a-Code\n* Infrastructure-as-a-Code\n* Improved Collaboration\n* Developers as Security Proponents\n* Continuous Monitoring and Auditing\n* Defined Incident Response\n\nHere are some actions you can take to upgrade your DevOps toolchain into a DevSecOps toolchain:\n\n1. Learn From Others in the DevOps and DevSecOps Communities\nLook to the DevOps community to help close your critical knowledge gaps.\n2. 2\\. Start With Your Container Security\nThe first step to building out the security of your DevOps toolchain starts with your container security.\n3. Institute Continuous Compliance\nDevSecOps is a platform for continuous compliance to protect your software supply chains against vulnerable packages and vulnerable configurations.\n4. Double Down on Automation\nWhile you may have already been experimenting with automation during your DevOps phase, it only becomes more integral once you throw the switch in by going DevSecOps. Go into your DevOps to DevSecOps transformation with an automation strategy that focuses on automating common developer and sysadmin tasks.\n5. Improve Your Monitoring and Analytics\nBuilding out a DevSecOps toolchain takes your monitoring and analytics options to a new level. Consider the fact that you should already collect and publish data from your toolchain and deliver reports to your project managers, developers, QA testers, and stakeholders outside your team. Commonly, DevOps reporting is still a work in progress for organizations. Use the introduction of new security tools into your toolchain as a chance to offer more granular and real-time security reporting into all parts of your DevSecOps toolchain.\n6. Implement Accessibility Assurance\nDepending on your organization\u2019s definition of compliance, the option is there to add accessibility compliance or Section 508 to your DevSecOps toolchain.\n\nThis hands-on training is reserver for 70% professional and 30% students.\n\nMandatory:\n\nGeneral Conditions in order to validate your participation to this event:\n\n1\\. Student must send University/Student ID\\, otherwise registration will be rejected\\.\n\n2.Professional must register company emails, otherwise registration will be rejected.\n\nRegistration only via EventBrite. We don't accept answer via meetup.\n\nPlease indicate your firstname, lastname, company name, a valid business email or school email (email like gmai, free, hotmail, outlook, etc are not accepted and registration will be cancelled).\n\nPlease register here:\nhttps://www.eventbrite.com/e/billets-devsecops-toolchain-transformation-374188276207"
     },
     {
+        "group": "Mumbai",
+        "repo": "www-chapter-mumbai",
+        "name": "OWASP Mumbai November Meet 2023",
+        "date": "2023-11-25",
+        "time": "2:00+05:30",
+        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/297212098",
+        "timezone": "Asia/Kolkata",
+        "description": "Introduction to OWASP Mumbai\n\n**Session:** Lessons Learned from past Cyber Ransomware Incident Pharma Sector\n**Speaker**: Ravindra\n\nQnA and FeedBack"
+    },
+    {
         "group": "Netherlands",
         "repo": "www-chapter-netherlands",
         "name": "OWASP BeNeLux Days 2023",
@@ -268,6 +258,16 @@
         "link": "https://www.meetup.com/owasp-oc/events/296965469",
         "timezone": "America/Los_Angeles",
         "description": "Please join us for our first **in-person Cyber Mixer** with Orange County's cybersecurity organizations and groups!\nThe Orange County (OC) cybersecurity organizations and groups that will participate in this event are:\n\n* **OWASP Orange County**\n* **Women's Society of Cyberjutsu SoCal Chapter**\n* **ISACA Orange County**\n* **Cloud Security Alliance Orange County**\n* **ISSA of Orange County**\n* **Irvine Underground**\n\n**Additional details**\nThis is a combined event with other Orange County cybersecurity organizations. It is not a sponsored event and will not be expected to have food and drinks provided. Since this is the first time we're doing this, we will hear from our members what things could be improved or requested for future mixers."
+    },
+    {
+        "group": "Ottawa",
+        "repo": "www-chapter-ottawa",
+        "name": "OWASP Ottawa November 15th 2023: DevSecOps: Containers, Vulnerabilities, & SCA ",
+        "date": "2023-11-15",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/owasp-ottawa/events/297215389",
+        "timezone": "America/Toronto",
+        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 564 **(Note Room Change again)**\n\n**Health Notice:**\n\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EDT** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EDT** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **DevSecOps: Containers, vulnerabilities and SCA**\n\n**Abstract:**\nA whirlwind tour of a tech stack evolutionary journey at a scale-up and tidbits of lessons learned from along the way. Some thoughts on the experience of taking an app from Elastic Beanstalk onto ECS, and the shift in how to approach patch/vulnerability management. Along with the different strategies to software composition analysis (SCA) in a containerized environment. Hopefully with a glimpse into an approach for embedding security into every stage of the software development lifecycle; a la the DevSecOps way.\n\n**Speaker Bio:**\nGreg Sienkiewicz is a DevSecOps engineer at Rewind, a Ottawa based startup on a mission to help businesses protect their SaaS and cloud data. He is curious about cyber security, especially in public cloud environments and holds multiple industry certifications; including AWS Certified DevOps Engineer Professional and AWS Certified Security Specialty as well as ISC2 Certified Cloud Security Professional (CCSP)."
     },
     {
         "group": "Peterborough",
@@ -357,7 +357,7 @@
         "time": "5:30-05:00",
         "link": "https://www.meetup.com/owasp-samm/events/291889868",
         "timezone": "America/New_York",
-        "description": "Welcome to our monthly SAMM community call Wednesday 8th November, (each 2nd Wednesday of the month).\n\nAt 21:30 CET, which is 3:30 pm EST.\n\nJoin Zoom Meeting: [Zoom link](https://zoom.us/j/96866048960?pwd=TmZkTSs3ZmlWU09DbHJoSnVZWmdiUT09)."
+        "description": "Welcome to our monthly SAMM community call Wednesday 8th November, (each 2nd Wednesday of the month).\n\nAt 21:30 CET, which is 3:30 pm EST.\n\nJoin Zoom Meeting: [Zoom link.](https://us06web.zoom.us/j/81946393844?pwd=hgT8mGy6qv27v1rTyJbB0vfckNeTaS.1)"
     },
     {
         "group": "Wrongsecrets",
