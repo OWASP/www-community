@@ -318,6 +318,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Prisma Cloud] | Palo Alto Networks | Commercial | Cross Platform / SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
+| [SBOM Observer] | Bytesafe  | Commercial | SaaS |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
 | [Software Health Indicator] | YourSky.blue | Commercial / Freemium | SaaS |
 | [SOOS] | SOOS | Commercial / Freemium | SaaS |
@@ -359,6 +360,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [PHP Security Checker]: https://github.com/sensiolabs/security-checker
 [Prisma Cloud]: https://www.paloaltonetworks.com/prisma/cloud
 [Renovate]: https://renovatebot.com/
+[SBOM Observer]: https://sbom.observer/
 [Snyk]: https://snyk.io/
 [Software Health Indicator]: https://software-health-indicator.com/
 [SOOS]: https://soos.io/
