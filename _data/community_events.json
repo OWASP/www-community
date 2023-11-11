@@ -150,16 +150,6 @@
         "description": "OWASP Italy online Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.\n\nNext 24th November we will 2 exceptional speakers:\n\n* **Luca Compagna** \\- Senior Scientist / Research Architect at SAP Security Research\n* **Claudio Merloni** \\- Security Research Manager at Semgrep\n\nLuca will talk about: \"Testability Patterns for Web Applications \u2013 an OWASP project\"\n\nClaudio will focus on: \"Scaling your AppSec program with secure defaults\"\n\nThis Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.\n\nSecure now your spot for the upcoming online event!\n\nMore information and the Agenda at the following URL:\nhttps://owasp.org/www-chapter-italy/events/owaspit-24112023"
     },
     {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2023-11-13",
-        "time": "8:45-05:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/296938204",
-        "timezone": "America/New_York",
-        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
-    },
-    {
         "group": "Lisboa",
         "repo": "www-chapter-lisboa",
         "name": "#05 The Cake",
@@ -258,6 +248,16 @@
         "link": "https://www.meetup.com/owasp-oc/events/296965469",
         "timezone": "America/Los_Angeles",
         "description": "**UPDATE: We are still accepting RSVPs but please use this URL so we can properly account for cross-group RSVPs**\n[https://www.eventbrite.com/e/orange-county-cybersecurity-mixer-tickets-754427411697](https://www.eventbrite.com/e/orange-county-cybersecurity-mixer-tickets-754427411697)\n\nPlease join us for our first **in-person Cyber Mixer** with Orange County's cybersecurity organizations and groups!\nThe Orange County (OC) cybersecurity organizations and groups that will participate in this event are:\n\n* **OWASP Orange County**\n* **Women's Society of Cyberjutsu SoCal Chapter**\n* **ISACA Orange County**\n* **Cloud Security Alliance Orange County**\n* **ISSA of Orange County**\n* **Irvine Underground**\n\n**Additional details**\nThis is a combined event with other Orange County cybersecurity organizations. It is not a sponsored event and will not be expected to have food and drinks provided. Since this is the first time we're doing this, we will hear from our members what things could be improved or requested for future mixers."
+    },
+    {
+        "group": "Oslo",
+        "repo": "www-chapter-oslo",
+        "name": "The ML(Ops) Security Landscape",
+        "date": "2023-11-28",
+        "time": "7:00+01:00",
+        "link": "https://www.meetup.com/owasp-oslo/events/297278006",
+        "timezone": "Europe/Oslo",
+        "description": "Welcome to OWASP Oslo's November meetup, hosted by Ardoq!\n\nYou are welcome to arrive anytime between 17:00 and 17:30. We plan to kick off the talk around 17:30.\n\n**More Tools Mean More Misconfigurations - The ML(Ops) Security Landscape**\nIn this talk, we will cover some of the issues related to the emerging field of Machine Learning and AI security. We will cover some low hanging fruits related to ML security - we will show how attackers can get access to victims' secrets, source codes and API keys. We will also talk about OWASP's initiatives for AI security, such as the OWASP Top10 for ML, the OWASP Top10 for LLM, and the OWASP AI Security Guide."
     },
     {
         "group": "Ottawa",
@@ -368,6 +368,16 @@
         "link": "https://www.meetup.com/owasp-victoria-chapter/events/296919377",
         "timezone": "America/Vancouver",
         "description": "The OWASP Victoria chapter is pleased to present a workshop hosted by Wyatt Harvey and Sebastian Bethell titled \"From Basics to Burp: Navigating PortSwigger Academy\".\n\nThe event will be held on November 16, 2023 from 6:30 PM to 8:30 PM at Fort Tectoria (doors open at 6 PM).\n\nThe event will feature the workshop, including an introduction to PortSwigger Academy and working through some of the introductory labs using BurpSuite, a comprehensive tool for performing security testing on web applications. Snacks, networking, and fun will also be included.\n\nPortSwigger Academy is an online platform offering interactive learning materials and labs focused on web application security and instructions on how to identify and exploit a wide range of web application vulnerabilities.\n\nDon't miss out on this valuable opportunity to enhance your knowledge and skills in web application hacking. If you would like to attend, please click the RSVP button to reserve your spot as we have limited seats available.\n\nBring your laptop with BurpSuite installed and join us for a hands-on evening of application security fun!\n\nBurpSuite Community can be installed from the following link:\n\n* [https://portswigger.net/burp/communitydownload](https://portswigger.net/burp/communitydownload)\n\n\u200e\nWe would also like to give a special thanks to First West Credit Union for sponsoring this event."
+    },
+    {
+        "group": "Vilnius",
+        "repo": "www-chapter-vilnius",
+        "name": "OWASP Vilnius #5",
+        "date": "2023-11-16",
+        "time": "8:00+02:00",
+        "link": "https://www.meetup.com/owasp-vilnius/events/297277762",
+        "timezone": "Europe/Vilnius",
+        "description": "I'm super happy to announce, that there will be a physical event again organised with VU Cyber Security Lab in the Vilnius University premises (Baltupiai, Vilnius).\n\nThe agenda:\n\n1) TBA\n\n2\\) Kajus Sestokas \\(AppSec Engineer \\| Flo\\) \\- \"Mobile Top 10: What's new for 2023 and experiences from the field\\.\"\nDuring the talk, a hands-on run-through of the latest OWASP Mobile Top\n10 will be presented, clarifying each concept with simple explanations\nand live demonstrations. Additionally, the session will include\npractical advice and techniques derived from experience in the field,\nfocusing on the discovery, resolution, and prevention of security\nvulnerabilities in mobile applications.\n\n3\\) Kestutis Parchutikas \\(Senior Penetration Tester \\| Visma\\) \\- \"Baseline\nsecurity tests for Web applications.\"\nSecurity risks are changing, but the baseline tests are not. In this\ntalk I will share the personal approach to web applications\npenetration testing.\nThe talk should benefit by providing answers to the following:\n\\- How to not lose your head over massive amounts of technical resources\\.\n\\- How to answer the eternal question \\- \"What has been tested?\"\\.\n\\- How to develop/improve your own methodology/approach\\.\n\nLocation: VU MIF, Didlaukio g. 47, 103 auditorium. You can leave your car on the Didlaukio street.\n\nSee you soon!"
     },
     {
         "group": "Wrongsecrets",
