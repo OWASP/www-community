@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: Man-in-the-browser attack
 author: 
-contributors: 
+contributors: kingthorin, meeque
 permalink: /attacks/Man-in-the-browser_attack
 tags: attack, Man-in-the-browser attack
 auto-migrated: 1
@@ -14,8 +14,8 @@ auto-migrated: 1
 
 ## Description
 
-The Man-in-the-Browser attack is the same approach as [Man-in-the-middle
-attack](Man-in-the-middle_attack "wikilink"), but in this case a [Trojan
+The Man-in-the-Browser attack is the same approach as [Manipulator-in-the-middle
+attack](Manipulator-in-the-middle_attack), but in this case a [Trojan
 Horse](Trojan_Horse "wikilink") is used to intercept and manipulate
 calls between the main application’s executable (ex: the browser) and
 its security mechanisms or libraries on-the-fly.
@@ -94,45 +94,11 @@ following steps:
 18. The user thinks that the original transaction was received by the
     server intact and authorized correctly.
 
-## Related [Threat Agents](Threat_Agents "wikilink")
-
-  - TBD
-
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-  - [Man-in-the-middle attack](Man-in-the-middle_attack "wikilink")
-  - [:Category: Client-side
-    attacks](:Category:_Client-side_attacks "wikilink")
-
-## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
-
-  - [:Category: Session Management
-    Vulnerability](:Category:_Session_Management_Vulnerability "wikilink")
-
-## Related [Controls](https://owasp.org/www-community/controls/)
-
-  - [:Category: Authentication](:Category:_Authentication "wikilink")
-  - [:Category:Input Validation](:Category:Input_Validation "wikilink")
-  - [HTML Entity Encoding](HTML_Entity_Encoding "wikilink")
-  - [:Category:Session
-    Management](:Category:Session_Management "wikilink")
+  - [Manipulator-in-the-middle attack](Manipulator-in-the-middle_attack)
 
 ## References
 
   - <http://events.ccc.de/congress/2006/Fahrplan/attachments/1158-Subverting_Ajax.pdf>
     - Stefano di Paola and Giorgio Fedon, Subverting Ajax, Dec, 2006.
-
-\[\[Category:FIXME|link not working
-
-  - <http://www.it-observer.com/pdf/dl/concepts_against_mitb_attacks.pdf->
-    Philipp Gühring - Concepts against Man-in-the-Browser Attacks, May,
-    2006.
-
-\]\]
-
-[Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[need content here](Category:FIXME "wikilink") [need
-links](Category:FIXME "wikilink") [should we add this
-category?](Category:FIXME "wikilink")
-[Category:Attack](Category:Attack "wikilink") [need Attack
-subcategory](Category:FIXME "wikilink")
