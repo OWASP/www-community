@@ -7,7 +7,7 @@
         "time": "9:00+01:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/296374615",
         "timezone": "Europe/Copenhagen",
-        "description": "Notice that this is a virtual event running on Zoom. Please reach out if the event gets packed, and I will add room for more people.\n\nOWASP Aarhus will be joined by Simon Bennetts, project-lead for ZAP, and Liz Keogh, who will talk about human nature and behaviour and how that impacts software development.\n\nWe will update this event with more details when we get closer to the event."
+        "description": "Notice that this is a virtual event running on Zoom. Please reach out if the event gets packed, and I will add room for more people.\n\n**Agenda:**\n19:00 - 19:10 \u2013 \"Welcome\" by OWASP Chapter Aarhus\n19:10 - 19:55 \u2013 Liz Keogh \u2013 Value Streams are Made of People\n19:55 \u2013 20:05 \u2013 Short break\n20:05 \u2013 20:55 \u2013 Simon Bennetts \u2013 Introduction to ZAP\n**About Liz Keogh:**\nLiz Keogh is an influential developer and Agile Coach based in London. She is a well-known blogger and international speaker, a core member of the BDD community and a passionate advocate of the Cynefin framework and of Wardley Mapping.\nLiz has over 20 years\u2019 experience in delivering and coaching others to deliver software, from small start-ups to global enterprises. She enjoys coding, has written several automation libraries, and extensively contributed to the BDD framework, JBehave. She particularly loves helping people fulfill their potential, using transparency, positive language, well-formed outcomes and safe-to-fail experiments in making change innovative, easy and fun. She specializes in pragmatic Agile methods that build on existing personal and organizational strengths.\nThe rest of her time is spent gardening, gaming, making sourdough bread, and rebelling against the Climate Crisis.\n**About her presentation: Value Streams are Made of People**\nFor millenia, human beings have survived by learning, then applying our learning to different contexts. We\u2019re so good at it that we\u2019re driven to find those patterns, even when they don\u2019t exist. Our desire for the predictable suffuses everything we do!\n\nIn Lean Production, mapping value streams can help us find, and eliminate, sources of unpredictability. Software Development though is not like a factory, building the same thing over and over again. In this talk we look at how to embrace the unpredictability inherent to innovation, making value streams out of the people involved in them: not from the sum of their parts, but from the product of their relationships.\n**About Simon Bennetts:**\nSimon Bennetts is the Zed Attack Proxy (ZAP) Founder and Project Leader, and works full time on ZAP thanks to the Software Security Project.\n\nHe has talked about and demonstrated ZAP at conferences all over the world, including Blackhat, JavaOne, FOSDEM and OWASP AppSec EU, USA & AsiaPac.\n\nPrior to making the move into security he was a developer for 25 years and strongly believes that\nyou cannot build secure web applications without knowing how to attack them."
     },
     {
         "group": "Bangalore",
@@ -78,6 +78,16 @@
         "link": "https://www.meetup.com/owasp-bristol/events/296990209",
         "timezone": "Europe/London",
         "description": "Robin Fewster is going to start with a talk on **Threat modelling**,\n\nAfter the break, we will have a semi-structured **discussion** on **Threat Modeling in Practice**. the intention is to draw on the experiences of everyone in the room to learn more about the subject.\n\n\\-\\-\\-\n\nDrawing on some client experiences, Robin will discuss different threat modelling approaches and tools available, and how they went down with development teams.\n\nRobin Fewster has spent the last 21 years working in cyber security. His current role is Senior Security Testing Manager at Hargreaves Lansdown. Robin has spoken at various OWASP chapter events over the years, and used to be a chapter leader for OWASP Newcastle. Current interests are application security, specifically AI and threat modeling."
+    },
+    {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "OWASP Cairo Chapter Plnaning Meeting",
+        "date": "2023-11-14",
+        "time": "9:00+02:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/297339527",
+        "timezone": "Africa/Cairo",
+        "description": "oin us for an exciting event hosted by the OWASP Cairo chapter! During this chapter meeting, we will delve into a comprehensive discussion about our plans and activities leading up to the end of the year 2024.\nThe event will serve as a platform for members to share their insights, ideas, and suggestions for the chapter's growth and development. We encourage active participation from all attendees as we collectively shape the future of OWASP Cairo.\nIn addition to the planning discussions, we will take the opportunity to extend a warm welcome and congratulations to the new board members who have recently joined our chapter. Their expertise and dedication will undoubtedly contribute to the success of our initiatives.\nThis event promises to be a vibrant gathering of like-minded professionals, fostering knowledge sharing, networking, and collaboration. Don't miss out on this chance to engage with industry experts, expand your professional network, and contribute to the advancement of application security practices in Cairo.\nMark your calendars and join us for an evening of insightful discussions, celebration, and community-building. We look forward to seeing you at the OWASP Cairo chapter meeting!"
     },
     {
         "group": "Columbus",
@@ -300,6 +310,16 @@
         "description": "Casual event, we'll meet at Slapfish for lunch.\n\nWe'll discuss:\n\n1. Wins & Lessons learned from SaintCon-AppSec Community last month.\n2. (time permitting) LLMs and using them in the AppSec space\n\nSee you there!"
     },
     {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2023-12-13",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/296623321",
+        "timezone": "America/Los_Angeles",
+        "description": ""
+    },
+    {
         "group": "Tampa",
         "repo": "www-chapter-tampa",
         "name": "ISSA / OWASP Tampa Chapters Q4 Year-end Minicon",
@@ -307,7 +327,7 @@
         "time": "8:30-05:00",
         "link": "https://www.meetup.com/owasp-tampa/events/296916076",
         "timezone": "America/New_York",
-        "description": "**Welcome to our joint ISSA & OWASP End of Year Minicon!**\n\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This half day minicon will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda:**\n\n* 8:30am - Registration\n* 9:00am - First Talk\n* 10:00am - Second Talk: Tony Cook, Sr. Dir, DFIR & Threat Intel\n* 11:00am - Third Talk: Jadee Hanson, CISO Code42\n* 12:00pm - Lunch\n\n**Speakers:**\n\n* Tony Cook is the Sr. Directory of DFIR & Threat Intelligence on GuidePoint Security\u2019s consulting team, where he manages digital forensics and incident response engagements on behalf of the firm\u2019s clients. His career background includes high-level national security activities in cybersecurity operations for several clients over various verticals.\n* Jadee Hanson is the Chief Information Security Officer at Code42, where she is responsible for business technology strategy and purchasing, as well as leading global risk and compliance, security operations, incident response, and insider threat monitoring and investigations.\n\n**Location:**\n3030 N Rocky Point Drive W\nSte 600\nTampa, FL\n\n**Sponsors:**\n[Code42](https://www.code42.com/)\n[GuidePoint Security](https://www.guidepointsecurity.com/)"
+        "description": "**Welcome to our joint ISSA & OWASP End of Year Minicon!**\n\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This half day minicon will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda:**\n\n* 8:30am - Registration\n* 9:00am - First Talk\n* 10:00am - Second Talk: Tony Cook, Sr. Dir, DFIR & Threat Intel\n* 11:00am - Third Talk: Jadee Hanson, CISO Code42\n* 12:00pm - Lunch\n\n**Speakers:**\n\n* Tony Cook is the Sr. Director of DFIR & Threat Intelligence on GuidePoint Security\u2019s consulting team, where he manages digital forensics and incident response engagements on behalf of the firm\u2019s clients. His career background includes high-level national security activities in cybersecurity operations for several clients over various verticals.\n* Jadee Hanson is the Chief Information Security Officer at Code42, where she is responsible for business technology strategy and purchasing, as well as leading global risk and compliance, security operations, incident response, and insider threat monitoring and investigations.\n\n**Location:**\n3030 N Rocky Point Drive W\nSte 600\nTampa, FL\n\n**Sponsors:**\n[Code42](https://www.code42.com/)\n[GuidePoint Security](https://www.guidepointsecurity.com/)"
     },
     {
         "group": "Tegucigalpa",
@@ -367,7 +387,17 @@
         "time": "8:00+02:00",
         "link": "https://www.meetup.com/owasp-vilnius/events/297277762",
         "timezone": "Europe/Vilnius",
-        "description": "I'm super happy to announce, that there will be a physical event again organised with VU Cyber Security Lab in the Vilnius University premises (Baltupiai, Vilnius).\n\nThe agenda:\n\n1) TBA\n\n2\\) Kajus Sestokas \\(AppSec Engineer \\| Flo\\) \\- \"Mobile Top 10: What's new for 2023 and experiences from the field\\.\"\nDuring the talk, a hands-on run-through of the latest OWASP Mobile Top\n10 will be presented, clarifying each concept with simple explanations\nand live demonstrations. Additionally, the session will include\npractical advice and techniques derived from experience in the field,\nfocusing on the discovery, resolution, and prevention of security\nvulnerabilities in mobile applications.\n\n3\\) Kestutis Parchutikas \\(Senior Penetration Tester \\| Visma\\) \\- \"Baseline\nsecurity tests for Web applications.\"\nSecurity risks are changing, but the baseline tests are not. In this\ntalk I will share the personal approach to web applications\npenetration testing.\nThe talk should benefit by providing answers to the following:\n\\- How to not lose your head over massive amounts of technical resources\\.\n\\- How to answer the eternal question \\- \"What has been tested?\"\\.\n\\- How to develop/improve your own methodology/approach\\.\n\nLocation: VU MIF, Didlaukio g. 47, 103 auditorium. You can leave your car on the Didlaukio street.\n\nSee you soon!"
+        "description": "I'm super happy to announce, that there will be a physical event again organised with VU Cyber Security Lab in the Vilnius University premises (Baltupiai, Vilnius).\n\nThe agenda:\n\n1) \"AI reguliavimo perspektyvos kibernetinio saugumo srityje''. - Dr. Neringa Gaubien\u0117, Vilniaus universiteto Teis\u0117s fakulteto lektor\u0117, Vilniaus Universiteto Teis\u0117s Fakulteto mokslin\u0117s tyrim\u0173 grup\u0117s nar\u0117.\n\n2\\) Kajus Sestokas \\(AppSec Engineer \\| Flo\\) \\- \"Mobile Top 10: What's new for 2023 and experiences from the field\\.\"\nDuring the talk, a hands-on run-through of the latest OWASP Mobile Top\n10 will be presented, clarifying each concept with simple explanations\nand live demonstrations. Additionally, the session will include\npractical advice and techniques derived from experience in the field,\nfocusing on the discovery, resolution, and prevention of security\nvulnerabilities in mobile applications.\n\n3\\) Kestutis Parchutikas \\(Senior Penetration Tester \\| Visma\\) \\- \"Baseline\nsecurity tests for Web applications.\"\nSecurity risks are changing, but the baseline tests are not. In this\ntalk I will share the personal approach to web applications\npenetration testing.\nThe talk should benefit by providing answers to the following:\n\\- How to not lose your head over massive amounts of technical resources\\.\n\\- How to answer the eternal question \\- \"What has been tested?\"\\.\n\\- How to develop/improve your own methodology/approach\\.\n\nLocation: VU MIF, Didlaukio g. 47, 103 auditorium. You can leave your car on the Didlaukio street.\n\nNOTE: This event won't be broadcasted or recorded.\n\nSee you soon!"
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "Monthly SAMM community call",
+        "date": "2023-12-13",
+        "time": "5:30-05:00",
+        "link": "https://www.meetup.com/owasp-samm/events/291889913",
+        "timezone": "America/New_York",
+        "description": "Welcome to our final 2023 monthly SAMM community call Wednesday 13th December, (each 2nd Wednesday of the month).\n\nAt 21:30 CET, which is 3:30 pm EST.\n\nJoin Zoom Meeting: [Zoom link.](https://zoom.us/j/96866048960?pwd=TmZkTSs3ZmlWU09DbHJoSnVZWmdiUT09)"
     },
     {
         "group": "Wrongsecrets",
