@@ -20,16 +20,6 @@
         "description": "Bangalore Meet 25 November 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Reconnaissance techniques by **Nimish Dudhe**\n* Dissecting stealer malware by **Pavan Karthick M**\n* Snapshot fuzzing with WTF(what the fuzz) by **Micky Thongam**\n* USing DArk Web to strengthen your Security skills by **Mudit Bansal**\n* Automation testing for complex API scenarios using ATOR by **Suchith Narayan**\n*\n\nNote: The session details, including schedule are available below."
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "November Meet",
-        "date": "2023-11-14",
-        "time": "7:00-08:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/297055462",
-        "timezone": "America/Los_Angeles",
-        "description": "VWe're thrilled to announce November month's meetup on 14th, courtesy Endor Labs(www.endor.ai).\nGet ready for a great evening of networking, knowledge sharing and awesome food and drinks.\nAgenda\n5:00 - Check in, grab some food/drinks and network\n5:45 - Introductions\n6:00 - 6:45 -What's in your AI code? Learn why every SCA tool is wrong, and how to deal with it\n6:45 - 7:30 - IAM for the DevSecOps Engineer\n7:30- 8:00 - Networking\n**Talk #1:**\n**What's in your AI code? Learn why every SCA tool is wrong, and how to deal with it**\n\nAbstract:\nWith the rise of AI-fueled by Python-based libraries, it has become of paramount importance to scan Python-based projects and their dependencies for OSS vulnerabilities. Python relies on package managers like pip or conda to manage declared dependencies. Dependencies are declared in manifest files which the package manager uses to install the correct version of the required dependency. However, Python\u2019s dependency management system coupled with its dynamic type nature makes it an especially challenging language to deal with.\n\nOf particular focus is the phenomenon of phantom dependencies which are unreported dependencies in a project's manifest profile. These hidden dependencies, which are often provided dependencies (which is especially true for libraries such as tensorflow and pytorch which are essential for AI), challenge software composition analysis (SCA) of Python code, impacting the reliability of vulnerability results.\n\nProgram analysis aims to extract information from software programs to enhance reliability, security, and performance. This session explores program analysis, specifically reachability analysis in Python, and delves into phantom dependencies - often overlooked in Python applications.\n\nPython's dynamic typing and interpreted nature make it a challenging subject for reachability analysis. The lack of type information makes it hard to precisely determine what dependency/features are used in the code.\n\nIn summary, program analysis, including Python's unique challenges, is essential in software development. Phantom dependencies in Python underscore the significance of meticulous dependency management for code reliability and security. Understanding these concepts is vital for Python developers aiming to build robust software. This abstract sheds light on program analysis complexities and the pitfalls of phantom dependencies, offering valuable insights into Python development and software reliability.\n\n**Speaker**: Varun Badhwar - Co-Founder & CEO\nVarun Badhwar is a three-time founder, and luminary in the cyber security industry. He currently serves as the Founder & CEO of Endor Labs, a startup focused on software supply chain security. Prior to starting Endor Labs, Varun was the founding GM and SVP of Prisma Cloud at Palo Alto Networks, where he built the cloud-native security business from scratch to over $300M ARR in 3 years. Varun joined Palo Alto Networks through the acquisition of RedLock, a CSPM startup he founded three years prior and sold for over $200M.\nVarun earned a Bachelor of Science degree in Computer Science from the University of Southern California.\n\nDimitri Stiliadis - Co-Founder & CTO\nDimitri Stiliadis is the CTO and co-founder of Endor Labs, where he is leading the technology vision. Dimitri brings a long experience in building disruptive technologies and systems: he was Cloud CTO of Palo Alto Networks, and co-founder and CTO of Aporeto Inc (acquired by Palo Alto Networks) and Nuage Networks (a subsidiary of Nokia/Alcatel-Lucent). Dimitri received a PhD and an MsC in Computer engineering from the University of California, Santa Cruz.\n\n**Talk 2# IAM for the DevSecOps Engineer**\nIs moving security controls to earlier in the development cycle a good idea? The benefits are already well understood in the context of scanning and testing, but can IAM benefit from this as well? As it turns out \u2013 yes! \u2013 but not without its trade-offs. To paraphrase from Carl Sagan: If you wish to shift left with IAM from scratch, you must first invent the universe. When it comes to IAM, the DevSecOps engineer needs to make sure what they build is **functional**, **frictionless**, and **repeatable**. In this talk, we'll cover the challenges and technical details around what it means in practice to \"shift left\" for IAM. We'll look at Infrastructure as Code, GitOps, and how their rough edges can make you want to go back to clicking around in a web console. We'll dive into Terraform and how its concurrency, latency, and consistency nuances can make you yell at your CI/CD pipelines.\n**Bio:** Jeff Chao is the Co-Founder & CTO at abbey.io, which is taking a unique approach to automating IAM via Terraform. Prior to starting Abbey, he led Change Data Capture at Stripe to make sure $640 Billion went to the right bank accounts. Before that, he was at Netflix trying to make the play button work with 100% uptime."
-    },
-    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BeNeLux Days 2023",
@@ -80,16 +70,6 @@
         "description": "Robin Fewster is going to start with a talk on **Threat modelling**,\n\nAfter the break, we will have a semi-structured **discussion** on **Threat Modeling in Practice**. the intention is to draw on the experiences of everyone in the room to learn more about the subject.\n\n\\-\\-\\-\n\nDrawing on some client experiences, Robin will discuss different threat modelling approaches and tools available, and how they went down with development teams.\n\nRobin Fewster has spent the last 21 years working in cyber security. His current role is Senior Security Testing Manager at Hargreaves Lansdown. Robin has spoken at various OWASP chapter events over the years, and used to be a chapter leader for OWASP Newcastle. Current interests are application security, specifically AI and threat modeling."
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Cairo Chapter Plnaning Meeting",
-        "date": "2023-11-14",
-        "time": "9:00+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/297339527",
-        "timezone": "Africa/Cairo",
-        "description": "oin us for an exciting event hosted by the OWASP Cairo chapter! During this chapter meeting, we will delve into a comprehensive discussion about our plans and activities leading up to the end of the year 2024.\nThe event will serve as a platform for members to share their insights, ideas, and suggestions for the chapter's growth and development. We encourage active participation from all attendees as we collectively shape the future of OWASP Cairo.\nIn addition to the planning discussions, we will take the opportunity to extend a warm welcome and congratulations to the new board members who have recently joined our chapter. Their expertise and dedication will undoubtedly contribute to the success of our initiatives.\nThis event promises to be a vibrant gathering of like-minded professionals, fostering knowledge sharing, networking, and collaboration. Don't miss out on this chance to engage with industry experts, expand your professional network, and contribute to the advancement of application security practices in Cairo.\nMark your calendars and join us for an evening of insightful discussions, celebration, and community-building. We look forward to seeing you at the OWASP Cairo chapter meeting!"
-    },
-    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Every risk is not a CVE - Bolster up against software supply chain attacks",
@@ -98,6 +78,26 @@
         "link": "https://www.meetup.com/columbus-owasp/events/295118628",
         "timezone": "America/New_York",
         "description": "3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nWe will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nMantium AI will be providing snax."
+    },
+    {
+        "group": "Copenhagen",
+        "repo": "www-chapter-copenhagen",
+        "name": "A night of Backdoors & Breaches with a virtual touch of John Strand",
+        "date": "2023-12-05",
+        "time": "7:00+01:00",
+        "link": "https://www.meetup.com/owasp-copenhagen-chapter/events/297344292",
+        "timezone": "Europe/Copenhagen",
+        "description": "*Following our return from hibernation in September, OWASP Copenhagen invites you, to join us for a night of Backdoors & Breaches!*\n\nJohn Strand from Black Hills Information Security (BHIS) will join us online and tell us about their incident response game; Backdoors & Breaches, why you should use it and how it can help you raise awareness among your peers\n\nAfterwards Jon Bevers (also from BHIS) will show us how to play Backdoors & Breaches. Jon will also join us online.\n\nJon is one of BHIS' European community ambassadors and travels Europe from his home in Krakow, Poland. Jon was in Copenhagen recently as part of BSides K\u00f8benhavn where he also had the opportunity to talk to you about Backboors & Breaches and he might even have given you a deck already. If not, fear not as we will have plenty of decks to share with you (and keep).\n\nAfter the talk and demo from John and Jon it's time for pizza, drinks and the opportunity to get some hands on experience and try to game for yourself.\n\nWe hope to see you there!"
+    },
+    {
+        "group": "Dorset",
+        "repo": "www-chapter-dorset",
+        "name": "OWASP Dorset November In Person Meetup",
+        "date": "2023-11-29",
+        "time": "8:00Z",
+        "link": "https://www.meetup.com/owasp-dorset-chapter/events/297354538",
+        "timezone": "Europe/London",
+        "description": "OWASP Dorset are proud to bring out latest in-person event, hosted with Hays Recruitment Bournemouth.\n\nThis time, we bring you talks from 4 different speakers!\n\n**Talks**\n\n**Shruti Kulkarni**\nWe live in a \"speed-to-market\" era. Including security controls in applications sometimes may be considered an overhead. However, if security controls are not added to applications during development, it may be challenging to add them later on. In this presentation, we will see how code can be written insecurely and really how simple it is to include the required security controls in the application.\n\nShruti is a cyber security / enterprise security architect with experience in ISO27001, PCI-DSS, policies, standards, security tools, threat modelling, risk assessments. Shruti works on security strategies and collaborates with cross-functional groups to implement information security controls in software development life-cycle, service operations, service delivery such that security controls support business requirements.\n\n**Ross Brown of the SWCRC (South West Cyber Resilience Centre)**\nI am a retired Detective officer who during my service carried out numerous roles, although primarily operating within mainstream Criminal investigations. As a trainer with Dorset Police I led a team who implemented training for a new force wide Records Management System as well as devising and writing the supervisors course. During a number of career breaks I have experience of running large scale engineering projects in the middle east.\n\nI joined the South West Cyber Resilience Centre as a Detective Inspector and head of cyber and innovation and served in that post until my retirement. I have subsequently taken on the same role as a member of Police staff.\n\nThe Cyber Resilience Centre for the South West supports and helps protect SMEs and supply chain businesses and third sector organisations in the region against cyber crime.\nWorking with local Universities and Police forces in the South West provides access to the latest local as well as national information on emerging cyber threats, criminal trends, best practice for cyber resilience and new technology to provide timely advice to prepare and protect business.\n\n**James Walsh**\nJames Walsh of Hays recruitment will be giving us an insight into the latest salary guide for the cyber security industry.\n\n**Dylan Collins**\n\"A system's biggest vulnerability is the user. With frequent software patches becoming more and more necessary to maintain security standards, does the urge to protect a system actually make people more exposed? Na\u00efve users jumping at sudden update prompts may be jumping through hoops for an attacker.\" - A research question from local software developer, Dylan Collins.\n\n**Event and Venue**\nWe will be joining Hays Recruitment in Bournemouth for this event, there is a limit on numbers, so signup is essential. Names will be required upon arrival to enter the building.\n\nThere will be food and drink provided for this event, so please let us know of any dietary requirements or allergies."
     },
     {
         "group": "Fortaleza",
@@ -230,6 +230,16 @@
         "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "After Hours Drinks",
+        "date": "2023-11-15",
+        "time": "7:00-05:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/296596047",
+        "timezone": "America/New_York",
+        "description": "Join OWASP NYC for After Conference Happy Hour Drinks. We're thrilled to be back in person!\n\nEmail [Guy.Osa@owasp.org](mailto:Guy.Osa@owasp.org) for OWASP Bar @ the Marquis."
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP New Zealand - Auckland-area Meetup",
@@ -238,16 +248,6 @@
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291721034",
         "timezone": "Pacific/Auckland",
         "description": "For November, we're shifting our Meetup by one week, to work around several other events going on in the region - the NZITF Conference is taking place in Wellington Monday and Tuesday, 13-14 November; the ISANZ Awards Dinner is on the evening of 14 November; and John will be in Melbourne for the OT Cyber Resilience Summit on the 14th.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for November will be **A10:2021 - Server-Side Request Forgery (SSRF)**, wrapping up the cycle [we'll begin again, with A01:2021, next March...unless a new edition is published].\n\n**Technical Topic Speaker:** John DiLeo\n**Talk Title:** Creating Test Cases for Security Features\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the second Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Orange County Cybersecurity Mixer",
-        "date": "2023-11-14",
-        "time": "8:00-08:00",
-        "link": "https://www.meetup.com/owasp-oc/events/296965469",
-        "timezone": "America/Los_Angeles",
-        "description": "**UPDATE: We are still accepting RSVPs but please use this URL so we can properly account for cross-group RSVPs**\n[https://www.eventbrite.com/e/orange-county-cybersecurity-mixer-tickets-754427411697](https://www.eventbrite.com/e/orange-county-cybersecurity-mixer-tickets-754427411697)\n\nPlease join us for our first **in-person Cyber Mixer** with Orange County's cybersecurity organizations and groups!\nThe Orange County (OC) cybersecurity organizations and groups that will participate in this event are:\n\n* **OWASP Orange County**\n* **Women's Society of Cyberjutsu SoCal Chapter**\n* **ISACA Orange County**\n* **Cloud Security Alliance Orange County**\n* **ISSA of Orange County**\n* **Irvine Underground**\n\n**Additional details**\nThis is a combined event with other Orange County cybersecurity organizations. It is not a sponsored event and will not be expected to have food and drinks provided. Since this is the first time we're doing this, we will hear from our members what things could be improved or requested for future mixers."
     },
     {
         "group": "Oslo",
@@ -318,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/296623321",
         "timezone": "America/Los_Angeles",
         "description": ""
+    },
+    {
+        "group": "Syracuse",
+        "repo": "www-chapter-syracuse",
+        "name": "Cybersecurity Careers: Insights from a Panel of Security Leaders",
+        "date": "2023-12-14",
+        "time": "2:00-05:00",
+        "link": "https://www.meetup.com/syracuse-owasp-chapter/events/296891549",
+        "timezone": "America/New_York",
+        "description": "Come join a panel of leaders in the Cybersecurity field talk about their career journey, and offer advice."
     },
     {
         "group": "Tampa",
