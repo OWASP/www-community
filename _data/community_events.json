@@ -70,6 +70,16 @@
         "description": "Robin Fewster is going to start with a talk on **Threat modelling**,\n\nAfter the break, we will have a semi-structured **discussion** on **Threat Modeling in Practice**. the intention is to draw on the experiences of everyone in the room to learn more about the subject.\n\n\\-\\-\\-\n\nDrawing on some client experiences, Robin will discuss different threat modelling approaches and tools available, and how they went down with development teams.\n\nRobin Fewster has spent the last 21 years working in cyber security. His current role is Senior Security Testing Manager at Hargreaves Lansdown. Robin has spoken at various OWASP chapter events over the years, and used to be a chapter leader for OWASP Newcastle. Current interests are application security, specifically AI and threat modeling."
     },
     {
+        "group": "Chennai",
+        "repo": "www-chapter-chennai",
+        "name": "OWASP Meetup",
+        "date": "2023-11-18",
+        "time": "4:30+05:30",
+        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/297372052",
+        "timezone": "Asia/Kolkata",
+        "description": "1. **WiFi Pentesting using IoT Device:** Uncover the art of ethical hacking as our speaker demonstrates the intricacies of WiFi penetration testing utilizing cutting-edge IoT devices, providing valuable insights into securing wireless networks.\n2. **Threat Analysis:** Join our speaker in a deep dive into cybersecurity as they dissect the world of threat analysis. Gain a comprehensive understanding of identifying and countering potential risks in the ever-evolving digital landscape.\n3. **Analyzing SOC Tools:** Embark on a journey through the realm of Security Operations Centers (SOC) tools with our speaker. Learn to evaluate, optimize, and effectively employ these tools, enhancing your cybersecurity arsenal and defense strategies.\n\nRegistration Link : [https://forms.gle/oJAKm6LcMRqo3XPH8](https://forms.gle/oJAKm6LcMRqo3XPH8)"
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Every risk is not a CVE - Bolster up against software supply chain attacks",
@@ -160,16 +170,6 @@
         "description": "OWASP Italy online Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.\n\nNext 24th November we will 2 exceptional speakers:\n\n* **Luca Compagna** \\- Senior Scientist / Research Architect at SAP Security Research\n* **Claudio Merloni** \\- Security Research Manager at Semgrep\n\nLuca will talk about: \"Testability Patterns for Web Applications \u2013 an OWASP project\"\n\nClaudio will focus on: \"Scaling your AppSec program with secure defaults\"\n\nThis Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.\n\nSecure now your spot for the upcoming online event!\n\nMore information and the Agenda at the following URL:\nhttps://owasp.org/www-chapter-italy/events/owaspit-24112023"
     },
     {
-        "group": "Lisboa",
-        "repo": "www-chapter-lisboa",
-        "name": "#05 The Cake",
-        "date": "2023-11-15",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/owasp-lisboa-chapter/events/296853686",
-        "timezone": "Europe/Lisbon",
-        "description": "Join us for an evening of celebration and preparation as OWASP Lisbon marks its one-year anniversary! As we reflect on the past year's achievements, we're excited to kick off a series of meetups that will lead us into the highly anticipated OWASP Global AppSec Lisbon Event. This first meetup of the series will set the stage for an incredible journey towards building more secure applications and connecting with fellow appsec enthusiasts.\n\nThe meetup takes place on November 15th, 2023, at 18:00, at the OLX office, and is **sponsored by OLX and AP2SI**.\n\nThe schedule is the following:\n18:00 - **The Cake** by the OWASP Lisboa chapter leadership team\n18:15 - **Seeing What\u2019s Wrong Just Right** by Jasvir Nagra\n19:10 - **Why everyone in your cyber security team needs to be an AI expert** by Dinis Cruz\n20:00 - **Drinks & Dinner** by OLX\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Talks**:\n\nTitle: **Seeing What\u2019s Wrong Just Right**\n\nSpeaker: **Jasvir Nagra**\n\nAbstract:\nWriting web applications is hard. Debugging them is harder. Security bugs are even harder because not only does an application have to work, it has to stop working when the input is malicious. One approach web developers have taken to managing the complexity of writing large web programs is to make it harder to write incorrect programs. Static type checkers, linters, tests and testing frameworks have all made it easier to write correct code. Nevertheless, incorrect and vulnerable programs still exist. In fact, the very success of these tools in avoiding common errors has meant developers spend increasing amounts of time debugging only subtle bugs. In distributed systems, the challenge is even harder because debugging tools give you glimpses into the program state\u2014some on the server, some on the client\u2014without giving you a coherent view of the entire system. Not only are web programs inherently distributed between the server and the client, any one web page in the browser is itself made up of different iframes, events and event handlers, and sometimes service workers all communicating asynchronously. In this talk, I will share a few painful distributed web app debugging anecdotes and an alternate approach to get a holistic view of a program to track down elusive bugs. This approach uses virtualization to create complete traces of just those aspects of the program we suspect are buggy without having to model all program state. Virtualization allows us to momentarily ignore incidental bugs discovered while hunting the core one without it getting in the way, and visualization of the collected traces to build up causal diagrams to inform our intuition when our mental models deviate from reality. I will demonstrate how to recognize and tackle debugging problems with this approach and cover pitfalls you may run into with virtualization.\n\nBio:\nJasvir Nagra is widely recognized as a thought leader in software protection. He is co-author of Surreptitious Software, the definitive textbook on software protection, and an early researcher in obfuscation, software watermarking, and fingerprinting. With more than 12 years of experience, his professional path includes companies such as Instart, Dropbox and Google - where he led the Caja project. As an advisor to Jscrambler, he is helping cybersecurity startups address key technological challenges.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nTitle: **Why everyone in your cyber security team needs to be an AI expert**\n\nSpeaker: **Dinis Cruz**\n\nAbstract:\nSimilar to how electricity revolutionised our lives and is now ubiquitous, Gen AI is poised to become an integral part of everything Cyber Security teams do everyday. Therefore, there is an increasing need to deepen our understanding and expertise in this transformative technology. It's time to embrace the opportunities AI presents and equip ourselves with the knowledge to thrive in this rapidly evolving landscape.\n\nBio:\nDinis Cruz is the Chief Scientist of Glasswall and the CISO of Holland & Barrett, who brings a unique blend of Security and Engineering expertise with 20+ years experience in Cyber Security and Software Development. Dinis is focused on creating Gen AI powered teams and environments where engineering and security are enablers and accelerators for the business, with a big focus on the productisation and commercialisation of advanced technologies."
-    },
-    {
         "group": "London",
         "repo": "www-chapter-london",
         "name": "OWASP London Chapter Meetup [IN-PERSON] at TikTok London HQ",
@@ -187,7 +187,7 @@
         "time": "7:30-08:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/294514939",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: TBA\n***\\*\\*\\*\\*\\*\\* NOTE***: New Date due to Thanksgiving Holiday! **\\*\\*\\*\\*\\*\\*\\***\n\n**ABSTRACT**: TBA\n\n**Thanks to our Sponsor**: *!***Thanks to our Sponsor**: *[VIRTIS](https://virtis-us.com/)*\n*Providing today's leading organizations peace of mind that their entire digital network perimeter is safe from hackers and data breach. Our singular focus on information security delivers unparalleled solutions and services. We are revolutionizing web application & API protection and modernizing vulnerability management. VIRTIS solves the toughest web application challenges faced by organizations in all industries across all verticals in an ever-evolving digital threat landscape.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+        "description": "**TOPIC**: Github Copilot 101\nJoin us for dinner, drinks, networking and a great talk by **Sophia Orlando**, Solutions Engineer at GitHub\n***\\*\\*\\*\\*\\*\\* NOTE***: New Date due to Thanksgiving Holiday! **\\*\\*\\*\\*\\*\\*\\***\n\n**ABSTRACT**: Github Copilot 101\n\n**Thanks to our Sponsor**: *[VIRTIS](https://virtis-us.com/)*\n*Providing today's leading organizations peace of mind that their entire digital network perimeter is safe from hackers and data breach. Our singular focus on information security delivers unparalleled solutions and services. We are revolutionizing web application & API protection and modernizing vulnerability management. VIRTIS solves the toughest web application challenges faced by organizations in all industries across all verticals in an ever-evolving digital threat landscape.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Maine",
@@ -230,16 +230,6 @@
         "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
-        "group": "New York City",
-        "repo": "www-chapter-new-york-city",
-        "name": "After Hours Drinks",
-        "date": "2023-11-15",
-        "time": "7:00-05:00",
-        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/296596047",
-        "timezone": "America/New_York",
-        "description": "Join OWASP NYC for After Conference Happy Hour Drinks. We're thrilled to be back in person!\n\nEmail [Guy.Osa@owasp.org](mailto:Guy.Osa@owasp.org) for OWASP Bar @ the Marquis."
-    },
-    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP New Zealand - Auckland-area Meetup",
@@ -258,16 +248,6 @@
         "link": "https://www.meetup.com/owasp-oslo/events/297278006",
         "timezone": "Europe/Oslo",
         "description": "Welcome to OWASP Oslo's November meetup, hosted by Ardoq!\n\nYou are welcome to arrive anytime between 17:00 and 17:30. We plan to kick off the talk around 17:30.\n\n**More Tools Mean More Misconfigurations - The ML(Ops) Security Landscape**\nIn this talk, we will cover some of the issues related to the emerging field of Machine Learning and AI security. We will cover some low hanging fruits related to ML security - we will show how attackers can get access to victims' secrets, source codes and API keys. We will also talk about OWASP's initiatives for AI security, such as the OWASP Top10 for ML, the OWASP Top10 for LLM, and the OWASP AI Security Guide."
-    },
-    {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASP Ottawa November 15th 2023: DevSecOps: Containers, Vulnerabilities, & SCA ",
-        "date": "2023-11-15",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/297215389",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 564 **(Note Room Change again)**\n\n**Health Notice:**\n\nBased on the [Ottawa Public Health Guidelines](https://www.ottawapublichealth.ca/en/public-health-topics/masks.aspx) we strongly recommend that attendees wear a mask while not presenting. This will reduce the risk of transmission and protect members who may have compromised immune systems.\n\n**Live Stream**:\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **DevSecOps: Containers, vulnerabilities and SCA**\n\n**Abstract:**\nA whirlwind tour of a tech stack evolutionary journey at a scale-up and tidbits of lessons learned from along the way. Some thoughts on the experience of taking an app from Elastic Beanstalk onto ECS, and the shift in how to approach patch/vulnerability management. Along with the different strategies to software composition analysis (SCA) in a containerized environment. Hopefully with a glimpse into an approach for embedding security into every stage of the software development lifecycle; a la the DevSecOps way.\n\n**Speaker Bio:**\nGreg Sienkiewicz is a DevSecOps engineer at Rewind, a Ottawa based startup on a mission to help businesses protect their SaaS and cloud data. He is curious about cyber security, especially in public cloud environments and holds multiple industry certifications; including AWS Certified DevOps Engineer Professional and AWS Certified Security Specialty as well as ISC2 Certified Cloud Security Professional (CCSP)."
     },
     {
         "group": "Peterborough",
@@ -358,16 +338,6 @@
         "link": "https://www.meetup.com/owasp-toronto/events/297246491",
         "timezone": "America/Toronto",
         "description": "TALK\n\nPrivacy by Design (PbD)\n\nSummary:\n\nThis presentation will discuss Privacy by Design (PbD) and what it can look like when put into practice. PbD will be looked at as a best practice and as a requirement set out by privacy laws and regulations. In this talk, you will learn about the foundational principles of PbD, and concepts to consider that can help you in your role and collaboration with stakeholders.\n\nPresenter:\n\nHoria Tabatabaei Soltani\n\nHoria is currently the Director (Fellow) of Privacy at Canon Canada. She oversees the development and maturity of Canon Americas (Canada, US, Latin America) privacy program. She is also completing her Masters of Law (LLM) at Osgoode Law School, York University in Privacy and Cybersecurity."
-    },
-    {
-        "group": "Triangle Nc",
-        "repo": "www-chapter-triangle-nc",
-        "name": "Drink Your Own Champagne: How to Threat Model Your Threat Modeling Program",
-        "date": "2023-11-15",
-        "time": "2:00-05:00",
-        "link": "https://www.meetup.com/owasptriangle/events/296265774",
-        "timezone": "America/New_York",
-        "description": "We threat model our technology to ensure strong, resilient designs. As a critical control, our practice of threat modeling demands the same rigor. Learn to drink your own champagne by threat modeling your program's weaknesses to design better strategies and unlock more business value from your threat models."
     },
     {
         "group": "Vancouver",
