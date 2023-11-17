@@ -24,7 +24,7 @@ it, so please consider your userbase when/if deciding to
 drop `rel="noopener"`.
 
 Using `rel="noreferrer"` implies also `rel="noopener"`, so if you have 
-chosen to use `rel="noreferrer`, the use of `rel="noopener` isn't required.
+chosen to use `rel="noreferrer"`, the use of `rel="noopener"` isn't required.
 
 ## Description
 
