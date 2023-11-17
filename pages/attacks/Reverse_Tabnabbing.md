@@ -23,7 +23,7 @@ from about 2018, but there are still some browsers out there that doesn't suppor
 it, so please consider your userbase when/if deciding to
 drop `rel="noopener"`.
 
-Using `rel="noreferrer"` implies also `rel="noopener`, so if you have 
+Using `rel="noreferrer"` implies also `rel="noopener"`, so if you have 
 chosen to use `rel="noreferrer`, the use of `rel="noopener` isn't required.
 
 ## Description
