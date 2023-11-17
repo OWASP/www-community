@@ -12,6 +12,20 @@ auto-migrated: 1
 
 {% include writers.html %}
 
+## Update 2023 - this is fixed in modern, evergreen, browsers 
+
+Links that use `target="_blank"`now have implicite `rel="noopener"` in 
+modern browsers, so this vulnerability isn't as widespread and critical 
+as before.This implicite rule is also a part of the 
+[HTML standard](https://github.com/whatwg/html/issues/4078).
+According to Caniuse.com evergreen browsers support implicit `rel="noopener` 
+from about 2018, but there are still some browsers out there that doesn't support
+it, so please consider your userbase when/if deciding to
+drop `rel="noopener"`.
+
+Using `rel="noreferrer"` implies also `rel="noopener`, so if you have 
+chosen to use `rel="noreferrer`, the use of `rel="noopener` isn't required.
+
 ## Description
 
 Reverse tabnabbing is an attack where a page linked from the target page
@@ -106,10 +120,17 @@ object reference.
 
 ## Prevention
 
-Prevention information are documented into the [HTML5 Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#tabnabbing).
+Please check the first heading on this page, Update 2023, as this is now automatically prevented in all modern, evergreen, browsers. 
+Check prevention information documented in the [HTML5 Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#tabnabbing).
 
 ## References
 
+- [WHATWG HTML - Windows opened via <a target=_blank> should not have an opener by default](https://github.com/whatwg/html/issues/4078)
+- [Caniuse implicit rel="noopener" when using target="_blank"](https://caniuse.com/mdn-html_elements_a_implicit_noopener)
+- [Chrome Platform Status - Feature: Anchor target=_blank implies rel=noopener by default](https://chromestatus.com/feature/6140064063029248)
+- [Chromium - Issue 898942: Anchor target=_blank should imply rel=noopener](https://bugs.chromium.org/p/chromium/issues/detail?id=898942)
+- [Mozilla - Make target=_blank on a/area elements imply rel=noopener by default](https://bugzilla.mozilla.org/show_bug.cgi?id=1522083)
+- [WebKit Bugzilla - Bug 190481: Experiment: target=_blank on anchors should imply rel=noopener](https://bugs.webkit.org/show_bug.cgi?id=190481)
 - [The `target="_blank"` vulnerability by example](https://dev.to/ben/the-targetblank-vulnerability-by-example)
 - [About `rel=noopener` attribute values](https://mathiasbynens.github.io/rel-noopener/)
 - [Target="_blank" —  the most underestimated vulnerability ever](https://medium.com/@jitbit/target-blank-the-most-underestimated-vulnerability-ever-96e328301f4c)
