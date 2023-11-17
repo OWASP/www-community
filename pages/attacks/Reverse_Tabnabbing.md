@@ -16,7 +16,7 @@ auto-migrated: 1
 
 Links that use `target="_blank"`  now have implicit `rel="noopener"` in 
 modern browsers, so this vulnerability isn't as widespread and critical 
-as before.This implicite rule is also a part of the 
+as before. This implicit rule is also a part of the 
 [HTML standard](https://github.com/whatwg/html/issues/4078).
 According to Caniuse.com evergreen browsers support implicit `rel="noopener"` 
 from about 2018, but there are still some browsers out there that doesn't support
