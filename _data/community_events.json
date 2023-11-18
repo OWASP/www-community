@@ -140,6 +140,16 @@
         "description": "OWASP Italy online Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.\n\nNext 24th November we will 2 exceptional speakers:\n\n* **Luca Compagna** \\- Senior Scientist / Research Architect at SAP Security Research\n* **Claudio Merloni** \\- Security Research Manager at Semgrep\n\nLuca will talk about: \"Testability Patterns for Web Applications \u2013 an OWASP project\"\n\nClaudio will focus on: \"Scaling your AppSec program with secure defaults\"\n\nThis Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.\n\nSecure now your spot for the upcoming online event!\n\nMore information and the Agenda at the following URL:\nhttps://owasp.org/www-chapter-italy/events/owaspit-24112023"
     },
     {
+        "group": "Kannur",
+        "repo": "www-chapter-kannur",
+        "name": "OWASP Kannur Chapter Board Planning Meeting",
+        "date": "2023-11-18",
+        "time": "9:00+05:30",
+        "link": "https://www.meetup.com/owasp-kannur/events/297421242",
+        "timezone": "Asia/Kolkata",
+        "description": "### Kannur Chapter Board Planning Meeting Nov 2023"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - NOV 29, 2023",
@@ -188,6 +198,16 @@
         "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/295925893",
         "timezone": "Europe/Amsterdam",
         "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
+    },
+    {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "The Dark Side of Open Source Productivity",
+        "date": "2023-11-30",
+        "time": "7:30-05:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/297414000",
+        "timezone": "America/New_York",
+        "description": "**There is a dark side to productivity with open source. In modern applications, the majority of code on which an application is built isn\u2019t code written by your team. Modern applications are built on the backs of volunteer communities and open-source software. These volunteers and their software delivery practices all become potential attack vectors.**\n\n**The truth is that most organizations do not factor open-source supply chain attacks into their organization\u2019s threat models today. Security incidents such as the CodeCov bash uploader script, the npm colors, and faker intentionally introduced malicious commits, and the recent PyPi backdoors targeting AWS credentials highlight the impact of supply chain attacks as a scalable attack pattern. To spread awareness on supply chain attacks so that organizations can scalably handle them we propose baking supply chain attacks into existing threat modeling procedures and software development culture so that organizations can champion supply chain management of open source in the places where they are most impactful, at development time.**\n\n**We will present a comprehensive, comprehensible, and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents and validated by experts in the domain. Following, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks and how you can work these defenses in based on your program\u2019s maturity.**"
     },
     {
         "group": "New Zealand",
