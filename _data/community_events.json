@@ -30,16 +30,6 @@
         "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
-        "group": "Birmingham Uk",
-        "repo": "www-chapter-birmingham-uk",
-        "name": "OWASP Bham November Meetup!",
-        "date": "2023-11-16",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/meetup-group-owasp-birmingham/events/296510816",
-        "timezone": "Europe/London",
-        "description": "Greetings OWASP Birmingham members!\n\nWe are excited to announce our second Meetup of 2023 on Thursday, November 16th once again at Hays in One Colmore Square.\n\nThis in-person Meetup will feature two fantastic infosec talks from our knowledgeable speakers.\n\n5.45pm - Doors open\n6.15pm - Welcome and Food\n6.30pm - TALK #1 \"Social engineering adventures of a pentester\"\n\nSpeaker: Tirath Rai\nSynopsis : This is about my experience of performing social engineering (SE) assessments as a pentester who is no expert on the subject of performing physical work.\nI volunteered to be pushed in at the deep end on an SE job and had to learn quickly which was a little scary. I hope there will be something useful you take away from the talk, whatever your interest in security relates to.\n\n7.00pm - Break\n7.15pm - TALK #2 \"The art of secure software: Zero-trust delivery pipelines\"\nSpeaker: Jim Gumbley\nSynopsis: Jim will delve into the world of zero-trust delivery pipelines and present a secure architecture for deployment pipelines in the cloud, combining not only effective vulnerability management but also robust protection from penetration by attackers.\n\n7.45pm - Questions/Any Other Business\n8.00pm - Close\n\nRSVP when you get a chance so we can plan accordingly. We look forward to catching up with you all next month!"
-    },
-    {
         "group": "Bolivia",
         "repo": "www-chapter-bolivia",
         "name": "OWASP DAY-BO 1",
@@ -48,16 +38,6 @@
         "link": "https://www.meetup.com/owasp-bolivia-meetup-group/events/297185993",
         "timezone": "America/La_Paz",
         "description": "El cap\u00edtulo OWASP Bolivia te invita a participar de la primera reunion del a\u00f1o. HORAS: 15:00 No te lo pierdas, si deseas ser parte del foro de expositores escr\u00edbenos al correo elvin.mollinedo@owasp.org o al correo roxana.calderon@owasp.org\n\n## \u00bfComo puedo participar?\n\nCualquier persona con criterio de seguridad y tecnolog\u00eda puede participar, estudiantes, docentes, profesionales todos somos iguales dentro de nuestra comunidad, nadie es m\u00e1s ni menos jer\u00e1rquico en nuestra comunidad."
-    },
-    {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "Exploring CTF creation",
-        "date": "2023-11-16",
-        "time": "8:00+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/297107209",
-        "timezone": "Australia/Brisbane",
-        "description": "Capture the Flag (CTF) competitions are held globally, and are in constant need for new participants to help build them. In this discussion: Explore CTF creation, Aaron Burrows and Jake Dunn will discuss CTF challenge types: services, web apps, binary, video games, and infrastructure, and ideas to get your next challenge written."
     },
     {
         "group": "Bristol Uk",
@@ -78,16 +58,6 @@
         "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/297372052",
         "timezone": "Asia/Kolkata",
         "description": "1. **WiFi Pentesting using IoT Device:** Uncover the art of ethical hacking as our speaker demonstrates the intricacies of WiFi penetration testing utilizing cutting-edge IoT devices, providing valuable insights into securing wireless networks.\n2. **Threat Analysis:** Join our speaker in a deep dive into cybersecurity as they dissect the world of threat analysis. Gain a comprehensive understanding of identifying and countering potential risks in the ever-evolving digital landscape.\n3. **Analyzing SOC Tools:** Embark on a journey through the realm of Security Operations Centers (SOC) tools with our speaker. Learn to evaluate, optimize, and effectively employ these tools, enhancing your cybersecurity arsenal and defense strategies.\n\nRegistration Link : [https://forms.gle/oJAKm6LcMRqo3XPH8](https://forms.gle/oJAKm6LcMRqo3XPH8)"
-    },
-    {
-        "group": "Columbus",
-        "repo": "www-chapter-columbus",
-        "name": "Every risk is not a CVE - Bolster up against software supply chain attacks",
-        "date": "2023-11-16",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/columbus-owasp/events/295118628",
-        "timezone": "America/New_York",
-        "description": "3rd party and open source software components are both desired and indispensable ingredients used throughout the development lifecycle, but their consumption comes with considerable security risks, both for the developer herself and her downstream users. The rise of corresponding security incidents demonstrates that adversaries discovered those attack vectors as a viable and scalable attack pattern.\n\nWe will present a comprehensive, comprehensible and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents, and validated by experts in the domain. An interactive visualization of this taxonomy, available as open source itself, will be demoed throughout the talk to explain different techniques at the disposal of attackers, supported by real-world examples.\n\nMantium AI will be providing snax."
     },
     {
         "group": "Copenhagen",
@@ -170,14 +140,14 @@
         "description": "OWASP Italy online Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.\n\nNext 24th November we will 2 exceptional speakers:\n\n* **Luca Compagna** \\- Senior Scientist / Research Architect at SAP Security Research\n* **Claudio Merloni** \\- Security Research Manager at Semgrep\n\nLuca will talk about: \"Testability Patterns for Web Applications \u2013 an OWASP project\"\n\nClaudio will focus on: \"Scaling your AppSec program with secure defaults\"\n\nThis Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.\n\nSecure now your spot for the upcoming online event!\n\nMore information and the Agenda at the following URL:\nhttps://owasp.org/www-chapter-italy/events/owaspit-24112023"
     },
     {
-        "group": "London",
-        "repo": "www-chapter-london",
-        "name": "OWASP London Chapter Meetup [IN-PERSON] at TikTok London HQ",
-        "date": "2023-11-16",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/owasp-london/events/297245227",
-        "timezone": "Europe/London",
-        "description": "**This event is kindly sponsored and hosted by TikTok London HQ. There is limited seating available for in-person attendees. Registration required.**\n\n**Venue Location:** TikTok London HQ, Kaleidoscope, 4 Lindsey Street, Barbican, London , EC1A 9PL\n**Nearest Tubes:** Farringdon Elizabeth Line (1 min walk); Barbican (4 min walk)\n**Doors Open** at 6pm for registration, food, drinks and networking. The talks start at 6:30pm (we start on time).\n\n**TALKS:**\n\n**OWASP Introduction, Welcome and News - Sam Stepanyan**\nWelcome and a brief update on OWASP Projects & Conferences\n\n**\"Introduction to OWASP depscan - the SCA tool that is built to forget\" - Prabhu Subramanian**\n\nSoftware composition analysis tools, both commercial and open source, have some problems. They are too noisy, constantly distracting developers and AppSec with needless pull requests and non-actionable alerts. In this talk, we introduce OWASP depscan, the SCA tool that is purpose-built to cut the noise, make security actionable, and help dev teams forget the tool even exists in their CI pipeline.\n\n**\"ChatGPT Tutorial for Developers - 10X your AWS Security Skills\" - Ashish Rajan**\n\nThis talk will go through the foundational cloud security components of deploying AWS with security at scale traditionally. Then we will attempt the same with ChatGPT for those who are perhaps new to AWS but would like the new way of learning cloud security\n\n**SPEAKERS:**\n\n**Prabhu Subramanian (@_prbh)**\n\nPrabhu Subramanian is the author and OWASP leader behind projects such as CycloneDX Generator (cdxgen) and depscan. He specializes in Supply Chain Security and offers consultancy to global clients via his company, AppThreat Ltd.\n\n**Ashish Rajan (@hashishrajan)**\n\nAshish Rajan is the host of the wildly popular Cloud Security Podcast, a CISO, CyberSecurity Influencer, a SANS Trainer for Cloud Security and an outspoken opinion leader on all things Cloud Security & DevSecOps.\nHe is a frequent contributor on topics related to public cloud transformation, DevSecOps, Future Tech and the associated security challenges for practitioners and CISOs.\n\n**TICKETS:**\n\nThis event is free to attend for both members and non-members of OWASP and is open to anyone interested in web application and cyber security. Please note that you must RSVP - your name will be checked by the TikTok building security against the guest list.\n\n**CODE OF CONDUCT:**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously.\nOWASP aims to provide a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, age, or religion. We do not tolerate harassment of event participants in any form.\nAdditionally, participating in OWASP events means you shall also adhere to the OWASP Code of Conduct which you can find here: [https://owasp.org/www-policy/operational/code-of-conduct](https://owasp.org/www-policy/operational/code-of-conduct)"
+        "group": "Kannur",
+        "repo": "www-chapter-kannur",
+        "name": "OWASP Kannur Chapter Board Planning Meeting",
+        "date": "2023-11-18",
+        "time": "9:00+05:30",
+        "link": "https://www.meetup.com/owasp-kannur/events/297421242",
+        "timezone": "Asia/Kolkata",
+        "description": "### Kannur Chapter Board Planning Meeting Nov 2023"
     },
     {
         "group": "Los Angeles",
@@ -230,6 +200,16 @@
         "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "The Dark Side of Open Source Productivity",
+        "date": "2023-11-30",
+        "time": "7:30-05:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/297414000",
+        "timezone": "America/New_York",
+        "description": "**There is a dark side to productivity with open source. In modern applications, the majority of code on which an application is built isn\u2019t code written by your team. Modern applications are built on the backs of volunteer communities and open-source software. These volunteers and their software delivery practices all become potential attack vectors.**\n\n**The truth is that most organizations do not factor open-source supply chain attacks into their organization\u2019s threat models today. Security incidents such as the CodeCov bash uploader script, the npm colors, and faker intentionally introduced malicious commits, and the recent PyPi backdoors targeting AWS credentials highlight the impact of supply chain attacks as a scalable attack pattern. To spread awareness on supply chain attacks so that organizations can scalably handle them we propose baking supply chain attacks into existing threat modeling procedures and software development culture so that organizations can champion supply chain management of open source in the places where they are most impactful, at development time.**\n\n**We will present a comprehensive, comprehensible, and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents and validated by experts in the domain. Following, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks and how you can work these defenses in based on your program\u2019s maturity.**"
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP New Zealand - Auckland-area Meetup",
@@ -258,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/296056636",
         "timezone": "Europe/London",
         "description": "Christmas Social Special!\n\n**What?**\n\n* Glo Golf, bring your best putting game!\n\n**Where?**\n\n* Glo Golf Peterborough (Town Center)\n\n**When?**\n\n* Thursdsay 30th November\n\nSign up by responding to this event! (Note, this is a self-funded social, entry is \u00a38.50)"
-    },
-    {
-        "group": "Portland",
-        "repo": "www-chapter-portland",
-        "name": "Architect Organizational Resiliency around your Generative AI Applications",
-        "date": "2023-11-16",
-        "time": "7:30-08:00",
-        "link": "https://www.meetup.com/owasp-portland-chapter/events/297145977",
-        "timezone": "America/Los_Angeles",
-        "description": "Organizations wish to move quickly and maintain a high standard of security and privacy for innovation, but often find themselves stymied when extending existing governance and controls design to AI, ML and Generative AI workload research and development. This talk provides guided steps referencing OWASP Top 10 for LLM Applications for aligning incentives and priorities between AI R&D and Security teams to facilitate identifying threats and opportunities, identifying and evaluating tradeoffs, implementing baseline controls, defining organizational governance for intelligent systems, and more. Attendees will take away steps for driving incremental improvement and readiness in their teams and organizations. This talk will be accessible to those with a security-minded curiosity, and does not assume expertise or experience in AI/ML security.\n\nThanks to Cambia Health Solutions for hosting our event this month.\n\nDoors open at 5:30 pm and the presentation will begin at 6pm."
     },
     {
         "group": "Portland Me",
@@ -310,6 +280,16 @@
         "description": "Come join a panel of leaders in the Cybersecurity field talk about their career journey, and offer advice."
     },
     {
+        "group": "Taiwan",
+        "repo": "www-chapter-taiwan",
+        "name": "OWASP Taiwan Meetup (NOV, 2023)",
+        "date": "2023-11-24",
+        "time": "3:20+08:00",
+        "link": "https://www.meetup.com/taipei-owasp-meetup-group/events/297397035",
+        "timezone": "Asia/Taipei",
+        "description": "The Open Worldwide Application Security Project\u00ae (OWASP) is a nonprofit foundation that works to improve the security of software. Through community-led open-source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.\n\nOWASP Taiwan Chapter Meetup  OWASP \n\n\n\n\n\u2192 [https://csa.kktix.cc/events/owasp202311](https://csa.kktix.cc/events/owasp202311?fbclid=IwAR07kA-Wh9FhBWicCLOGrRsVF9HEqrED_ID9ynrm6dLvaeyLRJnBuUTKz_g)\n\u2192 [https://csa.kktix.cc/events/owasp202311online](https://csa.kktix.cc/events/owasp202311online?fbclid=IwAR1mNx8O8HlUzsYSZglinHye63OML1IzTvWtTqlzuLwotZ60AO9MTI3X6LI)"
+    },
+    {
         "group": "Tampa",
         "repo": "www-chapter-tampa",
         "name": "ISSA / OWASP Tampa Chapters Q4 Year-end Minicon",
@@ -338,36 +318,6 @@
         "link": "https://www.meetup.com/owasp-toronto/events/297246491",
         "timezone": "America/Toronto",
         "description": "TALK\n\nPrivacy by Design (PbD)\n\nSummary:\n\nThis presentation will discuss Privacy by Design (PbD) and what it can look like when put into practice. PbD will be looked at as a best practice and as a requirement set out by privacy laws and regulations. In this talk, you will learn about the foundational principles of PbD, and concepts to consider that can help you in your role and collaboration with stakeholders.\n\nPresenter:\n\nHoria Tabatabaei Soltani\n\nHoria is currently the Director (Fellow) of Privacy at Canon Canada. She oversees the development and maturity of Canon Americas (Canada, US, Latin America) privacy program. She is also completing her Masters of Law (LLM) at Osgoode Law School, York University in Privacy and Cybersecurity."
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "LLM and NLP APIs: A Journey to Avoiding Data Breaches",
-        "date": "2023-11-16",
-        "time": "8:00-08:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248521",
-        "timezone": "America/Vancouver",
-        "description": "**Ads Dawson**, v1.1 Technical Release Lead & Entry Lead for the OWASP Top 10 for Large Language Model Applications and a seasoned security engineer at Cohere, will take us on an insightful journey through the challenges and solutions involved in securing large language models and natural language programming APIs. With his extensive experience, Ads will shed light on how to avoid data breaches, fortify against attacks, and enhance the security of these crucial technologies through the use of tools like OWASP Top 10 for LLMs. Don't miss this opportunity to learn from a true expert in the field!"
-    },
-    {
-        "group": "Victoria",
-        "repo": "www-chapter-victoria",
-        "name": "OWASP Victoria | From Basics to Burp: Navigating PortSwigger Academy",
-        "date": "2023-11-16",
-        "time": "8:30-08:00",
-        "link": "https://www.meetup.com/owasp-victoria-chapter/events/296919377",
-        "timezone": "America/Vancouver",
-        "description": "The OWASP Victoria chapter is pleased to present a workshop hosted by Wyatt Harvey and Sebastian Bethell titled \"From Basics to Burp: Navigating PortSwigger Academy\".\n\nThe event will be held on November 16, 2023 from 6:30 PM to 8:30 PM at Fort Tectoria (doors open at 6 PM).\n\nThe event will feature the workshop, including an introduction to PortSwigger Academy and working through some of the introductory labs using BurpSuite, a comprehensive tool for performing security testing on web applications. Snacks, networking, and fun will also be included.\n\nPortSwigger Academy is an online platform offering interactive learning materials and labs focused on web application security and instructions on how to identify and exploit a wide range of web application vulnerabilities.\n\nDon't miss out on this valuable opportunity to enhance your knowledge and skills in web application hacking. If you would like to attend, please click the RSVP button to reserve your spot as we have limited seats available.\n\nBring your laptop with BurpSuite installed and join us for a hands-on evening of application security fun!\n\nBurpSuite Community can be installed from the following link:\n\n* [https://portswigger.net/burp/communitydownload](https://portswigger.net/burp/communitydownload)\n\n\u200e\nWe would also like to give a special thanks to First West Credit Union for sponsoring this event."
-    },
-    {
-        "group": "Vilnius",
-        "repo": "www-chapter-vilnius",
-        "name": "OWASP Vilnius #5",
-        "date": "2023-11-16",
-        "time": "8:00+02:00",
-        "link": "https://www.meetup.com/owasp-vilnius/events/297277762",
-        "timezone": "Europe/Vilnius",
-        "description": "I'm super happy to announce, that there will be a physical event again organised with VU Cyber Security Lab in the Vilnius University premises (Baltupiai, Vilnius).\n\nThe agenda:\n\n1) \"AI reguliavimo perspektyvos kibernetinio saugumo srityje''. - Dr. Neringa Gaubien\u0117, Vilniaus universiteto Teis\u0117s fakulteto lektor\u0117, Vilniaus Universiteto Teis\u0117s Fakulteto mokslin\u0117s tyrim\u0173 grup\u0117s nar\u0117.\n\n2\\) Kajus Sestokas \\(AppSec Engineer \\| Flo\\) \\- \"Mobile Top 10: What's new for 2023 and experiences from the field\\.\"\nDuring the talk, a hands-on run-through of the latest OWASP Mobile Top\n10 will be presented, clarifying each concept with simple explanations\nand live demonstrations. Additionally, the session will include\npractical advice and techniques derived from experience in the field,\nfocusing on the discovery, resolution, and prevention of security\nvulnerabilities in mobile applications.\n\n3\\) Kestutis Parchutikas \\(Senior Penetration Tester \\| Visma\\) \\- \"Baseline\nsecurity tests for Web applications.\"\nSecurity risks are changing, but the baseline tests are not. In this\ntalk I will share the personal approach to web applications\npenetration testing.\nThe talk should benefit by providing answers to the following:\n\\- How to not lose your head over massive amounts of technical resources\\.\n\\- How to answer the eternal question \\- \"What has been tested?\"\\.\n\\- How to develop/improve your own methodology/approach\\.\n\nLocation: VU MIF, Didlaukio g. 47, 103 auditorium. You can leave your car on the Didlaukio street.\n\nNOTE: This event won't be broadcasted or recorded.\n\nSee you soon!"
     },
     {
         "group": "Samm",
