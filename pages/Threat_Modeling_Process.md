@@ -6,7 +6,9 @@ author: Larry Conklin
 contributors: ["Victoria Drake", "Sven strittmatter"]
 tags: ["threat modeling"]
 permalink: /Threat_Modeling_Process
----{% include writers.html %}
+---
+
+{% include writers.html %}
 
 - [Introduction](#introduction)
   - [Step 1: Decompose the Application](#step-1-decompose-the-application)
