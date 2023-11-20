@@ -3,7 +3,7 @@
 title: Threat Modeling Process
 layout: col-sidebar
 author: Larry Conklin
-contributors: ["Victoria Drake", "Sven strittmatter"]
+contributors: ["Victoria Drake", "Sven strittmatter", "Zoe Braiterman"]
 tags: ["threat modeling"]
 permalink: /Threat_Modeling_Process
 ---
