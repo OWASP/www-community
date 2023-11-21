@@ -60,6 +60,16 @@
         "description": "OWASP Dorset are proud to bring out latest in-person event, hosted with Hays Recruitment Bournemouth.\n\nThis time, we bring you talks from 4 different speakers!\n\n**Talks**\n\n**Shruti Kulkarni**\nWe live in a \"speed-to-market\" era. Including security controls in applications sometimes may be considered an overhead. However, if security controls are not added to applications during development, it may be challenging to add them later on. In this presentation, we will see how code can be written insecurely and really how simple it is to include the required security controls in the application.\n\nShruti is a cyber security / enterprise security architect with experience in ISO27001, PCI-DSS, policies, standards, security tools, threat modelling, risk assessments. Shruti works on security strategies and collaborates with cross-functional groups to implement information security controls in software development life-cycle, service operations, service delivery such that security controls support business requirements.\n\n**Ross Brown of the SWCRC (South West Cyber Resilience Centre)**\nI am a retired Detective officer who during my service carried out numerous roles, although primarily operating within mainstream Criminal investigations. As a trainer with Dorset Police I led a team who implemented training for a new force wide Records Management System as well as devising and writing the supervisors course. During a number of career breaks I have experience of running large scale engineering projects in the middle east.\n\nI joined the South West Cyber Resilience Centre as a Detective Inspector and head of cyber and innovation and served in that post until my retirement. I have subsequently taken on the same role as a member of Police staff.\n\nThe Cyber Resilience Centre for the South West supports and helps protect SMEs and supply chain businesses and third sector organisations in the region against cyber crime.\nWorking with local Universities and Police forces in the South West provides access to the latest local as well as national information on emerging cyber threats, criminal trends, best practice for cyber resilience and new technology to provide timely advice to prepare and protect business.\n\n**James Walsh**\nJames Walsh of Hays recruitment will be giving us an insight into the latest salary guide for the cyber security industry.\n\n**Dylan Collins**\n\"A system's biggest vulnerability is the user. With frequent software patches becoming more and more necessary to maintain security standards, does the urge to protect a system actually make people more exposed? Na\u00efve users jumping at sudden update prompts may be jumping through hoops for an attacker.\" - A research question from local software developer, Dylan Collins.\n\n**Event and Venue**\nWe will be joining Hays Recruitment in Bournemouth for this event, there is a limit on numbers, so signup is essential. Names will be required upon arrival to enter the building.\n\nThere will be food and drink provided for this event, so please let us know of any dietary requirements or allergies."
     },
     {
+        "group": "France",
+        "repo": "www-chapter-france",
+        "name": "Meetup OWASP - Paris - Decembre 2023",
+        "date": "2023-12-04",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-france/events/297473423",
+        "timezone": "Europe/Paris",
+        "description": "Le prochain meetup aura lieu en physique. Nous serons accueilli par notre sponsor **Alan** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+    },
+    {
         "group": "Frankfurt",
         "repo": "www-chapter-frankfurt",
         "name": "OWASP Frankfurt #63 - GenAI Security",
@@ -88,16 +98,6 @@
         "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/297237891",
         "timezone": "America/Chicago",
         "description": "Please join us for the Houston AppSec Happy Hour from 4-6 PM on Thursday November 30th at Kirby Ice House located at 1015 Gessner Rd, Houston, TX 77055.\n\nThis happy hour event is sponsored by Checkmarx and Orasi Saltworks who will be providing the drinks.\n\nWe hope to see you there."
-    },
-    {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": " OWASP Houston Chapter API Security Study Group Session 3 - Exploring crAPI ",
-        "date": "2023-11-20",
-        "time": "8:30-06:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/297260466",
-        "timezone": "America/Chicago",
-        "description": "Starting with this session, we will begin working with crAPI using the tools we installed in lesson 2.\n\n[completely ridiculous API (crAPI)](https://owasp.org/crAPI/)"
     },
     {
         "group": "Italy",
@@ -250,6 +250,16 @@
         "description": ""
     },
     {
+        "group": "Singapore",
+        "repo": "www-chapter-singapore",
+        "name": "Dec 2023 Meetup: 2 speakers on mobile app security and API security",
+        "date": "2023-11-28",
+        "time": "9:00+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/297472949",
+        "timezone": "Asia/Singapore",
+        "description": "We have 2 awesome speakers for our last meetup of 2023!\n\n**First topic**: \"Fortifying the Front Lines: Safeguarding Mobile Applications Against Layer 7 Threats and Exploits.\"\n\n**Synopsis**:\nIn an era dominated by mobile technology, the security of mobile applications is paramount. With the banking industry implementing new measures, such that restricting users from having certain applications on their devices which they use for sensitive transactions, we explore if these are viable solutions or just a stop-gap measure until the next round of attacks show up on victim's devices.\n\nThis presentation delves into the intricate landscape of advanced mobile security attacks that pose significant risks to mobile platforms. We explore the evolving nature of mobile malware, emphasizing the need for proactive measures to fortify applications against advanced attacks.\n\n**1st Presenter**: Pishu Mahtani, Ex-DART\n\n**Second topic**: \"Understanding API Security problems\"\n\n**Synopsis**: It\u2019s no surprise that API adoption is growing rapidly. The reality is that new business innovation and services are powered by APIs. But the rush to innovate is leaving security teams struggling to understand the very real security risks that APIs pose. Today, APIs carry vast amounts of data and are increasingly targets in data breaches.\n\nThis talk delves into common API security concerns and the importance of API Discovery. It highlights the key needs for an API security tool to detect API abuses and the importance of having a data lake for threat hunting.\n\n**2nd Presenter**: Chao Yin Loong, Senior Solutions Engineer at Akamai Technologies\n\nMany thanks to Akamai for sponsoring the venue and pizzas! Come early, enjoy free pizzas and inter-mingle with AppSec enthusiasts."
+    },
+    {
         "group": "Syracuse",
         "repo": "www-chapter-syracuse",
         "name": "Cybersecurity Careers: Insights from a Panel of Security Leaders",
@@ -288,16 +298,6 @@
         "link": "https://www.meetup.com/owasp-tegucigalpa-chapter/events/296929802",
         "timezone": "America/Tegucigalpa",
         "description": "Charla sobre: Introducci\u00f3n a OWAPS ZAP (Zed Attack Proxy) El esc\u00e1ner de aplicaciones web m\u00e1s utilizado del mundo. Libre y de c\u00f3digo abierto. Mantuvo activamente a un equipo internacional dedicado de voluntarios. Un proyecto de GitHub Top 1000."
-    },
-    {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "OWASP Toronto | Privacy by Design (PbD)",
-        "date": "2023-11-21",
-        "time": "8:30-05:00",
-        "link": "https://www.meetup.com/owasp-toronto/events/297246491",
-        "timezone": "America/Toronto",
-        "description": "TALK\n\nPrivacy by Design (PbD)\n\nSummary:\n\nThis presentation will discuss Privacy by Design (PbD) and what it can look like when put into practice. PbD will be looked at as a best practice and as a requirement set out by privacy laws and regulations. In this talk, you will learn about the foundational principles of PbD, and concepts to consider that can help you in your role and collaboration with stakeholders.\n\nPresenter:\n\nHoria Tabatabaei Soltani\n\nHoria is currently the Director (Fellow) of Privacy at Canon Canada. She oversees the development and maturity of Canon Americas (Canada, US, Latin America) privacy program. She is also completing her Masters of Law (LLM) at Osgoode Law School, York University in Privacy and Cybersecurity."
     },
     {
         "group": "Samm",
