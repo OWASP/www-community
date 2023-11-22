@@ -1,15 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - Virtual - November",
-        "date": "2023-11-21",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/296374615",
-        "timezone": "Europe/Copenhagen",
-        "description": "Notice that this is a virtual event running on Zoom. Please reach out if the event gets packed, and I will add room for more people.\n\n**Agenda:**\n19:00 - 19:10 \u2013 \"Welcome\" by OWASP Chapter Aarhus\n19:10 - 19:55 \u2013 Liz Keogh \u2013 Value Streams are Made of People\n19:55 \u2013 20:05 \u2013 Short break\n20:05 \u2013 20:55 \u2013 Simon Bennetts \u2013 Introduction to ZAP\n**About Liz Keogh:**\nLiz Keogh is an influential developer and Agile Coach based in London. She is a well-known blogger and international speaker, a core member of the BDD community and a passionate advocate of the Cynefin framework and of Wardley Mapping.\nLiz has over 20 years\u2019 experience in delivering and coaching others to deliver software, from small start-ups to global enterprises. She enjoys coding, has written several automation libraries, and extensively contributed to the BDD framework, JBehave. She particularly loves helping people fulfill their potential, using transparency, positive language, well-formed outcomes and safe-to-fail experiments in making change innovative, easy and fun. She specializes in pragmatic Agile methods that build on existing personal and organizational strengths.\nThe rest of her time is spent gardening, gaming, making sourdough bread, and rebelling against the Climate Crisis.\n**About her presentation: Value Streams are Made of People**\nFor millenia, human beings have survived by learning, then applying our learning to different contexts. We\u2019re so good at it that we\u2019re driven to find those patterns, even when they don\u2019t exist. Our desire for the predictable suffuses everything we do!\n\nIn Lean Production, mapping value streams can help us find, and eliminate, sources of unpredictability. Software Development though is not like a factory, building the same thing over and over again. In this talk we look at how to embrace the unpredictability inherent to innovation, making value streams out of the people involved in them: not from the sum of their parts, but from the product of their relationships.\n**About Simon Bennetts:**\nSimon Bennetts is the Zed Attack Proxy (ZAP) Founder and Project Leader, and works full time on ZAP thanks to the Software Security Project.\n\nHe has talked about and demonstrated ZAP at conferences all over the world, including Blackhat, JavaOne, FOSDEM and OWASP AppSec EU, USA & AsiaPac.\n\nPrior to making the move into security he was a developer for 25 years and strongly believes that\nyou cannot build secure web applications without knowing how to attack them."
-    },
-    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "OWASP Bangalore Meet 25 November 2023 ",
@@ -50,6 +40,16 @@
         "description": "*Following our return from hibernation in September, OWASP Copenhagen invites you, to join us for a night of Backdoors & Breaches!*\n\nJohn Strand from Black Hills Information Security (BHIS) will join us online and tell us about their incident response game; Backdoors & Breaches, why you should use it and how it can help you raise awareness among your peers\n\nAfterwards Jon Bevers (also from BHIS) will show us how to play Backdoors & Breaches. Jon will also join us online.\n\nJon is one of BHIS' European community ambassadors and travels Europe from his home in Krakow, Poland. Jon was in Copenhagen recently as part of BSides K\u00f8benhavn where he also had the opportunity to talk to you about Backboors & Breaches and he might even have given you a deck already. If not, fear not as we will have plenty of decks to share with you (and keep).\n\nAfter the talk and demo from John and Jon it's time for pizza, drinks and the opportunity to get some hands on experience and try to game for yourself.\n\nWe hope to see you there!"
     },
     {
+        "group": "Croatia",
+        "repo": "www-chapter-croatia",
+        "name": "Chapter Croatia Physical Meetup (SRCE, Zagreb)",
+        "date": "2023-11-30",
+        "time": "8:00+01:00",
+        "link": "https://www.meetup.com/owasp-croatia-meetup-group/events/297498017",
+        "timezone": "Europe/Belgrade",
+        "description": "Hello everyone, it\u2019s time for our OWASP Croatia meetup. This time, we will meet in person.\n\n**Location:** Public Lecture Room inside the SRCE/CARNet building on floor -1 (Ul. Josipa Marohni\u0107a 5, 10000, Zagreb). Thursday, 30.11.2023 @ 18:00.\n\n***Huge thanks to the National CERT (cert.hr) and SRCE (srce.hr) for providing the venue!***\n\nWe have two topics for this meetup:\n\n* Luka Mateti\u0107: Modern web attack scenarios\n* Hrvoje Prge\u0161a: Breaking the Chain of Insecurity: Why Your Vendor Needs (S)SDLC\n\n**Talk abstracts and biographies follow:**\n\n**Luka Mateti\u0107: Modern web attack scenarios**\n\nAbstract:\nThere is a growing misconception about old vulnerabilities such as XSS and assumed decline of the real threat it represents while at the same time there is a growing fascination with modern technologies such as GraphQL. By using modern web attack scenarios on technologies such as JWT or GraphQL it is possible to compare popular attacks and defenses while giving XSS a well deserved place as an end goal within everchanging offensive security landscape.\n\nBio:\nLuka Mateti\u0107 is a Senior Information Security Consultant with experience in the field of software development, base systems, and integration of Oracle components and several years of experience in Information security. He holds information security related certificates such as Offensive Security Certified Professional (OSCP) and has a master's degree in software engineering and information systems at the Faculty of Electrical Engineering and Computing in Zagreb.\n\n**Hrvoje Prge\u0161a: Breaking the Chain of Insecurity: Why Your Vendor Needs (S)SDLC**\n\nSa\u017eetak:\nGovoriti \u0107emo o supply chain securityu, uklju\u010denim rizicima, i kako ih mitigirati putem koraka uklju\u010denih u secure development life-cycle proces, zajedno s preporu\u010denim i naj\u010de\u0161\u0107e kori\u0161tenim praksama i alatima. Osvrnut \u0107emo se i na iskustva u implementaciji jednog takvog procesa.\n\nBiografija:\nHrvoje je development manager u tvrtci ASEE unutar Security & Compliance odjela gdje se bavi isporukom sigurnosno orjentiranog softwera, primarno za fintech industriju, kao i implementacijom (S)SDLCa unutar odjela. S vi\u0161e od 15 godina u struci, Hrvoje je u karijeri bio zadu\u017een za Salesforce Security Review 50+ SalesForce aplikacija i implementaciju SDLCa u vi\u0161e navrata."
+    },
+    {
         "group": "Dorset",
         "repo": "www-chapter-dorset",
         "name": "OWASP Dorset November In Person Meetup",
@@ -58,6 +58,16 @@
         "link": "https://www.meetup.com/owasp-dorset-chapter/events/297354538",
         "timezone": "Europe/London",
         "description": "OWASP Dorset are proud to bring out latest in-person event, hosted with Hays Recruitment Bournemouth.\n\nThis time, we bring you talks from 4 different speakers!\n\n**Talks**\n\n**Shruti Kulkarni**\nWe live in a \"speed-to-market\" era. Including security controls in applications sometimes may be considered an overhead. However, if security controls are not added to applications during development, it may be challenging to add them later on. In this presentation, we will see how code can be written insecurely and really how simple it is to include the required security controls in the application.\n\nShruti is a cyber security / enterprise security architect with experience in ISO27001, PCI-DSS, policies, standards, security tools, threat modelling, risk assessments. Shruti works on security strategies and collaborates with cross-functional groups to implement information security controls in software development life-cycle, service operations, service delivery such that security controls support business requirements.\n\n**Ross Brown of the SWCRC (South West Cyber Resilience Centre)**\nI am a retired Detective officer who during my service carried out numerous roles, although primarily operating within mainstream Criminal investigations. As a trainer with Dorset Police I led a team who implemented training for a new force wide Records Management System as well as devising and writing the supervisors course. During a number of career breaks I have experience of running large scale engineering projects in the middle east.\n\nI joined the South West Cyber Resilience Centre as a Detective Inspector and head of cyber and innovation and served in that post until my retirement. I have subsequently taken on the same role as a member of Police staff.\n\nThe Cyber Resilience Centre for the South West supports and helps protect SMEs and supply chain businesses and third sector organisations in the region against cyber crime.\nWorking with local Universities and Police forces in the South West provides access to the latest local as well as national information on emerging cyber threats, criminal trends, best practice for cyber resilience and new technology to provide timely advice to prepare and protect business.\n\n**James Walsh**\nJames Walsh of Hays recruitment will be giving us an insight into the latest salary guide for the cyber security industry.\n\n**Dylan Collins**\n\"A system's biggest vulnerability is the user. With frequent software patches becoming more and more necessary to maintain security standards, does the urge to protect a system actually make people more exposed? Na\u00efve users jumping at sudden update prompts may be jumping through hoops for an attacker.\" - A research question from local software developer, Dylan Collins.\n\n**Event and Venue**\nWe will be joining Hays Recruitment in Bournemouth for this event, there is a limit on numbers, so signup is essential. Names will be required upon arrival to enter the building.\n\nThere will be food and drink provided for this event, so please let us know of any dietary requirements or allergies."
+    },
+    {
+        "group": "Dubai",
+        "repo": "www-chapter-dubai",
+        "name": "[InterSec] Secure Digital Transformation in the Al Era",
+        "date": "2023-11-22",
+        "time": "5:35+04:00",
+        "link": "https://www.meetup.com/meetup-group-svgchist/events/297500917",
+        "timezone": "Asia/Dubai",
+        "description": "Embark on a transformative exploration at our session titled \"Secure Digital Transformation in the AI Era,\" where cutting-edge insights and strategies converge to illuminate the path towards a secure and resilient digital future.\nThis session will bring together industry leaders, cybersecurity experts, and pioneers in artificial intelligence to delve into the intricacies of navigating the evolving landscape of digital transformation while prioritizing security imperatives.\nParticipants can expect in-depth discussions on leveraging the potential of AI in transformative initiatives, while concurrently addressing the escalating challenges related to cyber threats, data privacy, and ethical considerations.\nEngage in a dynamic exchange of ideas, best practices, and case studies, as we collectively forge a roadmap to harness the benefits of digital transformation without compromising on the paramount importance of security in this AI-driven era."
     },
     {
         "group": "France",
@@ -120,6 +130,16 @@
         "description": "Dive into the world of Bug Bounty programs with \"On the Hunt: Bug Bounty Reconnaissance Demystified.\" This talk will break down effective strategies for finding vulnerabilities, arming you with the tools to navigate the cybersecurity landscape. Whether you're new to ethical hacking or a seasoned pro, join us to uncover the secrets of successful bug hunting. Explore the ins and outs of reconnaissance and boost your chances of success in the realm of cybersecurity.\n\nMeeting Invitation Details:\n\nJoin Zoom Meeting\n[https://us06web.zoom.us/j/89088394399?pwd=CwcZgQpXRVLMRapYGriWraLgOSh6ot.1](https://us06web.zoom.us/j/89088394399?pwd=CwcZgQpXRVLMRapYGriWraLgOSh6ot.1)\nMeeting ID: 890 8839 4399\nPasscode: 446195"
     },
     {
+        "group": "Limassol",
+        "repo": "www-chapter-limassol",
+        "name": "New Year's OWASP Chapter Limassol meetup.",
+        "date": "2023-12-15",
+        "time": "8:30+02:00",
+        "link": "https://www.meetup.com/owasp-limassol-meetup-group/events/297479557",
+        "timezone": "Asia/Nicosia",
+        "description": "[Location](https://www.google.com/maps/place/BrainRocket/@34.6979542,33.0460735,20z/data=!4m6!3m5!1s0x14e733f291b01fad:0x5ff57bb6ed3f9838!8m2!3d34.6979152!4d33.0461381!16s%2Fg%2F11q_08mvzb?entry=ttu) is the restaurant at the Brain Rocket office.\n\n**Calling all tech and security enthusiasts!**\n\nWe are thrilled to announce the second meetup of the [OWASP Chapter in Limassol](https://owasp.org/www-chapter-limassol/)! We cordially invite you to join us for an evening of engaging discussions, networking, and knowledge sharing among cybersecurity enthusiasts, professionals, and enthusiasts from various backgrounds.\n\n**Schedule:**\n18:30 \u2014 19:00 \u2014 Gathering & Intro\n19:00 \u2014 TBA\n19:55 \u2014 20:05 A short break\n20:05 \u2014 20:30 TBA\n22:00 \u2014 23:00 \u2014 Eat, drink, networking!\n\nWe'll have catering, a cocktail bar, a DJ, and a shisha zone all set up to make the evening unforgettable. \n\n[Don't forget to join us on Telegram (we will send updates there quickly).](https://t.me/+W1hEPzn4BOcwMTNi)"
+    },
+    {
         "group": "London",
         "repo": "www-chapter-london",
         "name": "OWASP London Chapter Meetup [IN-PERSON]",
@@ -147,17 +167,7 @@
         "time": "7:30-08:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/294514939",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Github Copilot 101\nJoin us for dinner, drinks, networking and a great talk by **Sophia Orlando**, Solutions Engineer at GitHub\n***\\*\\*\\*\\*\\*\\* NOTE***: New Date due to Thanksgiving Holiday! **\\*\\*\\*\\*\\*\\*\\***\n\n**ABSTRACT**: Github Copilot 101\n\n**Thanks to our Sponsor**: *[VIRTIS](https://virtis-us.com/)*\n*Providing today's leading organizations peace of mind that their entire digital network perimeter is safe from hackers and data breach. Our singular focus on information security delivers unparalleled solutions and services. We are revolutionizing web application & API protection and modernizing vulnerability management. VIRTIS solves the toughest web application challenges faced by organizations in all industries across all verticals in an ever-evolving digital threat landscape.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Maine",
-        "repo": "www-chapter-maine",
-        "name": "OWASP Maine: Cybersecurity of Critical SAP Apps at Rising Tide Brewery",
-        "date": "2023-11-21",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owasp-maine/events/297121352",
-        "timezone": "America/New_York",
-        "description": "**RESCHEDULED - OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications**\n\nApplication and software security are so vitally important in all aspects of the business especially with every company becoming a software company as they navigate through digital transformations.\n\nWith that being said ERP systems are some of **THE MOST** critical applications within enterprises today and come with their own unique set of security challenges.\n\nThe fine folks at Onapsis who 100% specialize in SAP and ERP application security will be on site to dive deep into these specific challenges. They will also review real world attacks on SAP ERP environments and discuss the best in class strategies and measures you can do to mitigate the risk of exploitation of your ERP environments.\n\nAnyone who is involved in SAP ERP environments from both a software development and security perspective would gain a tremendous amount of knowledge attending this meetup.\n\n\\*Food and drinks will be provided by Onapsis\n\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
+        "description": "**TOPIC**: Github Copilot 101\nJoin us for dinner, drinks, networking and a great talk by **Sophia Orlando**, Cybersecurity Solutions Engineer at GitHub\n***\\*\\*\\*\\*\\* NOTE***: New Date due to Thanksgiving Holiday! **\\*\\*\\*\\*\\*\\***\n\n**ABSTRACT**: Learn how GitHub Copliot is built and foundations of GitHub Copilot in your IDE with live examples, plus get an inside look into the future of GitHub Copilot.\n\n**Thanks to our Sponsor**: *[VIRTIS](https://virtis-us.com/)*\n*Providing today's leading organizations peace of mind that their entire digital network perimeter is safe from hackers and data breach. Our singular focus on information security delivers unparalleled solutions and services. We are revolutionizing web application & API protection and modernizing vulnerability management. VIRTIS solves the toughest web application challenges faced by organizations in all industries across all verticals in an ever-evolving digital threat landscape.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Mumbai",
@@ -190,16 +200,6 @@
         "description": "**There is a dark side to productivity with open source. In modern applications, the majority of code on which an application is built isn\u2019t code written by your team. Modern applications are built on the backs of volunteer communities and open-source software. These volunteers and their software delivery practices all become potential attack vectors.**\n\n**The truth is that most organizations do not factor open-source supply chain attacks into their organization\u2019s threat models today. Security incidents such as the CodeCov bash uploader script, the npm colors, and faker intentionally introduced malicious commits, and the recent PyPi backdoors targeting AWS credentials highlight the impact of supply chain attacks as a scalable attack pattern. To spread awareness on supply chain attacks so that organizations can scalably handle them we propose baking supply chain attacks into existing threat modeling procedures and software development culture so that organizations can champion supply chain management of open source in the places where they are most impactful, at development time.**\n\n**We will present a comprehensive, comprehensible, and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents and validated by experts in the domain. Following, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks and how you can work these defenses in based on your program\u2019s maturity.**"
     },
     {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP New Zealand - Auckland-area Meetup",
-        "date": "2023-11-21",
-        "time": "8:30+13:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/291721034",
-        "timezone": "Pacific/Auckland",
-        "description": "For November, we're shifting our Meetup by one week, to work around several other events going on in the region - the NZITF Conference is taking place in Wellington Monday and Tuesday, 13-14 November; the ISANZ Awards Dinner is on the evening of 14 November; and John will be in Melbourne for the OT Cyber Resilience Summit on the 14th.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10, with the 2021 edition. Our Top 10 topic for November will be **A10:2021 - Server-Side Request Forgery (SSRF)**, wrapping up the cycle [we'll begin again, with A01:2021, next March...unless a new edition is published].\n\n**Technical Topic Speaker:** John DiLeo\n**Talk Title:** Creating Test Cases for Security Features\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the second Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
-    },
-    {
         "group": "Oslo",
         "repo": "www-chapter-oslo",
         "name": "The ML(Ops) Security Landscape",
@@ -210,6 +210,16 @@
         "description": "Welcome to OWASP Oslo's November meetup, hosted by Ardoq!\n\nYou are welcome to arrive anytime between 17:00 and 17:30. We plan to kick off the talk around 17:30.\n\n**More Tools Mean More Misconfigurations - The ML(Ops) Security Landscape**\nIn this talk, we will cover some of the issues related to the emerging field of Machine Learning and AI security. We will cover some low hanging fruits related to ML security - we will show how attackers can get access to victims' secrets, source codes and API keys. We will also talk about OWASP's initiatives for AI security, such as the OWASP Top10 for ML, the OWASP Top10 for LLM, and the OWASP AI Security Guide."
     },
     {
+        "group": "Patna",
+        "repo": "www-chapter-patna",
+        "name": "Session 06 - Behind the Scenes of SSRF: A Comprehensive Exploration",
+        "date": "2023-11-25",
+        "time": "4:30+05:30",
+        "link": "https://www.meetup.com/owasp-patna-chapter/events/297498712",
+        "timezone": "Asia/Kolkata",
+        "description": "Introducing **OWASP Patna's** new online session by **Rajveer**! Join us as we dive deep into the world of **Server-Side Request Forgery (SSRF)** and explore its insights, misconceptions, real-world impact, types, practical examples, live exploitation, and bypasses. This session will be led by Rajveer, who will share his expertise and guide you through the entire process."
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter Social [Glo Golf]",
@@ -218,16 +228,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/296056636",
         "timezone": "Europe/London",
         "description": "Christmas Social Special!\n\n**What?**\n\n* Glo Golf, bring your best putting game!\n\n**Where?**\n\n* Glo Golf Peterborough (Town Center)\n\n**When?**\n\n* Thursdsay 30th November\n\nSign up by responding to this event! (Note, this is a self-funded social, entry is \u00a38.50)"
-    },
-    {
-        "group": "Portland Me",
-        "repo": "www-chapter-portland-me",
-        "name": "OWASP Maine: Cybersecurity of Critical SAP Apps at Rising Tide Brewery",
-        "date": "2023-11-21",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owasp-maine/events/297121352",
-        "timezone": "America/New_York",
-        "description": "**RESCHEDULED - OWASP Maine: Addressing Cybersecurity on Business Critical SAP Applications**\n\nApplication and software security are so vitally important in all aspects of the business especially with every company becoming a software company as they navigate through digital transformations.\n\nWith that being said ERP systems are some of **THE MOST** critical applications within enterprises today and come with their own unique set of security challenges.\n\nThe fine folks at Onapsis who 100% specialize in SAP and ERP application security will be on site to dive deep into these specific challenges. They will also review real world attacks on SAP ERP environments and discuss the best in class strategies and measures you can do to mitigate the risk of exploitation of your ERP environments.\n\nAnyone who is involved in SAP ERP environments from both a software development and security perspective would gain a tremendous amount of knowledge attending this meetup.\n\n\\*Food and drinks will be provided by Onapsis\n\n\\*This will be an in person meet up event but we will be offering a remote attendee option for folks who are not local to Maine or Northern New England but still want to attend. A zoom link will be posted/provided as the event nears."
     },
     {
         "group": "Salt Lake City",
@@ -298,6 +298,16 @@
         "link": "https://www.meetup.com/owasp-tegucigalpa-chapter/events/296929802",
         "timezone": "America/Tegucigalpa",
         "description": "Charla sobre: Introducci\u00f3n a OWAPS ZAP (Zed Attack Proxy) El esc\u00e1ner de aplicaciones web m\u00e1s utilizado del mundo. Libre y de c\u00f3digo abierto. Mantuvo activamente a un equipo internacional dedicado de voluntarios. Un proyecto de GitHub Top 1000."
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "OWASP Vancouver - December 2023",
+        "date": "2023-12-21",
+        "time": "8:00-08:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248523",
+        "timezone": "America/Vancouver",
+        "description": "OWASP Vancouver monthly meetup"
     },
     {
         "group": "Samm",
