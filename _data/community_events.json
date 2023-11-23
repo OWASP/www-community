@@ -20,6 +20,16 @@
         "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
+        "group": "Boston",
+        "repo": "www-chapter-boston",
+        "name": "OWASP Boston Chapter December 2023 Meetup",
+        "date": "2023-12-13",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/owaspboston/events/297520132",
+        "timezone": "America/New_York",
+        "description": "Please join us for OWASP Boston's December meetup! For those attending in-person, the doors open at 6pm, and those joining us virtually the presentation will start at 6:30pm.\n\nWe are finalizing a great talk from some of the Boston community members, stay tuned for an update!"
+    },
+    {
         "group": "Bristol Uk",
         "repo": "www-chapter-bristol-uk",
         "name": "November Meetup - Threat modelling",
@@ -28,6 +38,16 @@
         "link": "https://www.meetup.com/owasp-bristol/events/296990209",
         "timezone": "Europe/London",
         "description": "Robin Fewster is going to start with a talk on **Threat modelling**,\n\nAfter the break, we will have a semi-structured **discussion** on **Threat Modeling in Practice**. the intention is to draw on the experiences of everyone in the room to learn more about the subject.\n\n\\-\\-\\-\n\nDrawing on some client experiences, Robin will discuss different threat modelling approaches and tools available, and how they went down with development teams.\n\nRobin Fewster has spent the last 21 years working in cyber security. His current role is Senior Security Testing Manager at Hargreaves Lansdown. Robin has spoken at various OWASP chapter events over the years, and used to be a chapter leader for OWASP Newcastle. Current interests are application security, specifically AI and threat modeling."
+    },
+    {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "Securing National Cyberspace:De-globalization, Trust&Social Media Responsibility",
+        "date": "2023-11-25",
+        "time": "1:00+02:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/297521138",
+        "timezone": "Africa/Cairo",
+        "description": "The event will bring together experts, professionals, and community members to address crucial aspects of cybersecurity and trusted technologies.\nParticipants will gain valuable knowledge on effectively dealing with cyber attack news in a professional manner on social media and communication platforms. Additionally, they will delve into the impact of adopting Global technologies entrusted technologies within local organizations and critical infrastructure, with a specific focus on security implications. The event aims to foster awareness, collaboration, and risk-informed decision-making to safeguard the nation's digital landscape.\n\nPanel Discussion 1:\nTitle: Empowering Communities: Navigating Cybersecurity News and Social Media Responsibly\n\nSpeakers:\nMaha Abdelnasser - MP & ICT Expert\nAhmed Shosha - Senior Security Researcher @ Microsoft and Adjunct professor at Nile University\n\nDescription: This panel discussion will focus on educating the community about effectively and responsibly dealing with news related to cyber attacks on national organizations. Panelists will discuss strategies to promote professional and responsible behavior on social media and other communication platforms when handling such cases and discuss risks and implications of irrisposible dissemination of news. The session aims to empower individuals with the knowledge and skills necessary to contribute to a more informed and secure digital society.\n\nPanel Discussion 2:\nTitle: Technologies Trustworthiness: The Impact on De-globalization on Organizations' Security\n\nSpeakers:\nAhmed Saafan - Chief Security Officer, Thndr\nAdel Abdelmonim - IFSEC Cyber Security & thought leadership Global Influencer\nSherif Eldeeb - Information Security Expert\n\nDescription: In this panel discussion, the focus will be on exploring the implications of adopting Global technologies and entrusting entrusted technologies within local country organizations and national critical infrastructure, particularly in the field of security. The panelists will engage in a comprehensive conversation about the benefits, challenges, and potential risks associated with the use of such technologies. The session aims to provide valuable insights into the opportunities and considerations involved in leveraging trusted technologies for enhanced security measures within local organizations."
     },
     {
         "group": "Copenhagen",
@@ -58,16 +78,6 @@
         "link": "https://www.meetup.com/owasp-dorset-chapter/events/297354538",
         "timezone": "Europe/London",
         "description": "OWASP Dorset are proud to bring out latest in-person event, hosted with Hays Recruitment Bournemouth.\n\nThis time, we bring you talks from 4 different speakers!\n\n**Talks**\n\n**Shruti Kulkarni**\nWe live in a \"speed-to-market\" era. Including security controls in applications sometimes may be considered an overhead. However, if security controls are not added to applications during development, it may be challenging to add them later on. In this presentation, we will see how code can be written insecurely and really how simple it is to include the required security controls in the application.\n\nShruti is a cyber security / enterprise security architect with experience in ISO27001, PCI-DSS, policies, standards, security tools, threat modelling, risk assessments. Shruti works on security strategies and collaborates with cross-functional groups to implement information security controls in software development life-cycle, service operations, service delivery such that security controls support business requirements.\n\n**Ross Brown of the SWCRC (South West Cyber Resilience Centre)**\nI am a retired Detective officer who during my service carried out numerous roles, although primarily operating within mainstream Criminal investigations. As a trainer with Dorset Police I led a team who implemented training for a new force wide Records Management System as well as devising and writing the supervisors course. During a number of career breaks I have experience of running large scale engineering projects in the middle east.\n\nI joined the South West Cyber Resilience Centre as a Detective Inspector and head of cyber and innovation and served in that post until my retirement. I have subsequently taken on the same role as a member of Police staff.\n\nThe Cyber Resilience Centre for the South West supports and helps protect SMEs and supply chain businesses and third sector organisations in the region against cyber crime.\nWorking with local Universities and Police forces in the South West provides access to the latest local as well as national information on emerging cyber threats, criminal trends, best practice for cyber resilience and new technology to provide timely advice to prepare and protect business.\n\n**James Walsh**\nJames Walsh of Hays recruitment will be giving us an insight into the latest salary guide for the cyber security industry.\n\n**Dylan Collins**\n\"A system's biggest vulnerability is the user. With frequent software patches becoming more and more necessary to maintain security standards, does the urge to protect a system actually make people more exposed? Na\u00efve users jumping at sudden update prompts may be jumping through hoops for an attacker.\" - A research question from local software developer, Dylan Collins.\n\n**Event and Venue**\nWe will be joining Hays Recruitment in Bournemouth for this event, there is a limit on numbers, so signup is essential. Names will be required upon arrival to enter the building.\n\nThere will be food and drink provided for this event, so please let us know of any dietary requirements or allergies."
-    },
-    {
-        "group": "Dubai",
-        "repo": "www-chapter-dubai",
-        "name": "[InterSec] Secure Digital Transformation in the Al Era",
-        "date": "2023-11-22",
-        "time": "5:35+04:00",
-        "link": "https://www.meetup.com/meetup-group-svgchist/events/297500917",
-        "timezone": "Asia/Dubai",
-        "description": "Embark on a transformative exploration at our session titled \"Secure Digital Transformation in the AI Era,\" where cutting-edge insights and strategies converge to illuminate the path towards a secure and resilient digital future.\nThis session will bring together industry leaders, cybersecurity experts, and pioneers in artificial intelligence to delve into the intricacies of navigating the evolving landscape of digital transformation while prioritizing security imperatives.\nParticipants can expect in-depth discussions on leveraging the potential of AI in transformative initiatives, while concurrently addressing the escalating challenges related to cyber threats, data privacy, and ethical considerations.\nEngage in a dynamic exchange of ideas, best practices, and case studies, as we collectively forge a roadmap to harness the benefits of digital transformation without compromising on the paramount importance of security in this AI-driven era."
     },
     {
         "group": "France",
@@ -227,7 +237,7 @@
         "time": "9:00Z",
         "link": "https://www.meetup.com/owasp-peterborough/events/296056636",
         "timezone": "Europe/London",
-        "description": "Christmas Social Special!\n\n**What?**\n\n* Glo Golf, bring your best putting game!\n\n**Where?**\n\n* Glo Golf Peterborough (Town Center)\n\n**When?**\n\n* Thursdsay 30th November\n\nSign up by responding to this event! (Note, this is a self-funded social, entry is \u00a38.50)"
+        "description": "Christmas Social Special!\n\n**What?**\n\n* Mini Golf, bring your best putting game!\n\n**Where?**\n\n* Putt Stars Golf Peterborough (Town Center)\n\n**When?**\n\n* Thursdsay 30th November\n\nSign up by responding to this event! (Note, this is a self-funded social, entry is \u00a38.50)"
     },
     {
         "group": "Salt Lake City",
