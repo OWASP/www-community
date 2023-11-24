@@ -10,16 +10,6 @@
         "description": "Bangalore Meet 25 November 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Reconnaissance techniques by **Nimish Dudhe**\n* Dissecting stealer malware by **Pavan Karthick M**\n* Snapshot fuzzing with WTF(what the fuzz) by **Micky Thongam**\n* USing DArk Web to strengthen your Security skills by **Mudit Bansal**\n* Automation testing for complex API scenarios using ATOR by **Suchith Narayan**\n*\n\nNote: The session details, including schedule are available below."
     },
     {
-        "group": "Belgium",
-        "repo": "www-chapter-belgium",
-        "name": "OWASP BeNeLux Days 2023",
-        "date": "2023-11-23",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/296033531",
-        "timezone": "Europe/Brussels",
-        "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
-    },
-    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter December 2023 Meetup",
@@ -28,6 +18,16 @@
         "link": "https://www.meetup.com/owaspboston/events/297520132",
         "timezone": "America/New_York",
         "description": "Please join us for OWASP Boston's December meetup! For those attending in-person, the doors open at 6pm, and those joining us virtually the presentation will start at 6:30pm.\n\nWe are finalizing a great talk from some of the Boston community members, stay tuned for an update!"
+    },
+    {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "End of year celebration!",
+        "date": "2023-12-04",
+        "time": "6:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/297536830",
+        "timezone": "Australia/Brisbane",
+        "description": "Join us in celebrating yet another end to an amazing year.\nThis meetup will be different from the rest, no presentations this time around, rather a catch up with all you hackers, security experts and enthusiasts alike.\nNothing but drinks, food, chats (about sweet hacks you\u2019ve done or things you\u2019ve heard about if you\u2019re down) and hangz.\nHope to see you there!"
     },
     {
         "group": "Bristol Uk",
@@ -180,6 +180,16 @@
         "description": "**TOPIC**: Github Copilot 101\nJoin us for dinner, drinks, networking and a great talk by **Sophia Orlando**, Cybersecurity Solutions Engineer at GitHub\n***\\*\\*\\*\\*\\* NOTE***: New Date due to Thanksgiving Holiday! **\\*\\*\\*\\*\\*\\***\n\n**ABSTRACT**: Learn how GitHub Copliot is built and foundations of GitHub Copilot in your IDE with live examples, plus get an inside look into the future of GitHub Copilot.\n\n**Thanks to our Sponsor**: *[VIRTIS](https://virtis-us.com/)*\n*Providing today's leading organizations peace of mind that their entire digital network perimeter is safe from hackers and data breach. Our singular focus on information security delivers unparalleled solutions and services. We are revolutionizing web application & API protection and modernizing vulnerability management. VIRTIS solves the toughest web application challenges faced by organizations in all industries across all verticals in an ever-evolving digital threat landscape.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
+        "group": "Morocco",
+        "repo": "www-chapter-morocco",
+        "name": "DevSecOps Toolchain Transformation to create secure by design software.",
+        "date": "2023-12-23",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/morocco-owasp-meetup-group/events/290723926",
+        "timezone": "Africa/Casablanca",
+        "description": "## DevSecOps Toolchain Transformation Hands-on\n\nThe DevSecOps Mindset and Salient Features\n\n* Shared Objectives\n* Prioritizing Security\n* Auomation\n* Operational Insights and Threat Intelligence\n* Holistic Security\n* Proactive Threat Monitoring\n* Security-as-a-Code\n* Infrastructure-as-a-Code\n* Improved Collaboration\n* Developers as Security Proponents\n* Continuous Monitoring and Auditing\n* Defined Incident Response\n\nHere are some actions you can take to upgrade your DevOps toolchain into a DevSecOps toolchain:\n\n1. Learn From Others in the DevOps and DevSecOps Communities\nLook to the DevOps community to help close your critical knowledge gaps.\n2. 2\\. Start With Your Container Security\nThe first step to building out the security of your DevOps toolchain starts with your container security.\n3. Institute Continuous Compliance\nDevSecOps is a platform for continuous compliance to protect your software supply chains against vulnerable packages and vulnerable configurations.\n4. Double Down on Automation\nWhile you may have already been experimenting with automation during your DevOps phase, it only becomes more integral once you throw the switch in by going DevSecOps. Go into your DevOps to DevSecOps transformation with an automation strategy that focuses on automating common developer and sysadmin tasks.\n5. Improve Your Monitoring and Analytics\nBuilding out a DevSecOps toolchain takes your monitoring and analytics options to a new level. Consider the fact that you should already collect and publish data from your toolchain and deliver reports to your project managers, developers, QA testers, and stakeholders outside your team. Commonly, DevOps reporting is still a work in progress for organizations. Use the introduction of new security tools into your toolchain as a chance to offer more granular and real-time security reporting into all parts of your DevSecOps toolchain.\n6. Implement Accessibility Assurance\nDepending on your organization\u2019s definition of compliance, the option is there to add accessibility compliance or Section 508 to your DevSecOps toolchain.\n\nThis hands-on training is reserver for 70% professional and 30% students.\n\nMandatory:\n\nGeneral Conditions in order to validate your participation to this event:\n\n1\\. Student must send University/Student ID\\, otherwise registration will be rejected\\.\n\n2.Professional must register company emails, otherwise registration will be rejected.\n\nRegistration only via EventBrite. We don't accept answer via meetup.\n\nPlease indicate your firstname, lastname, company name, a valid business email or school email (email like gmai, free, hotmail, outlook, etc are not accepted and registration will be cancelled).\n\nPlease register here:\nhttps://www.eventbrite.com/e/billets-devsecops-toolchain-transformation-374188276207"
+    },
+    {
         "group": "Mumbai",
         "repo": "www-chapter-mumbai",
         "name": "OWASP Mumbai November Meet 2023",
@@ -187,17 +197,7 @@
         "time": "2:00+05:30",
         "link": "https://www.meetup.com/owasp-mumbai-chapter/events/297212098",
         "timezone": "Asia/Kolkata",
-        "description": "Introduction to OWASP Mumbai\n\n**Session:** Lessons Learned from past Cyber Ransomware Incident Pharma Sector\n**Speaker**: Ravindra\n\nQnA and FeedBack"
-    },
-    {
-        "group": "Netherlands",
-        "repo": "www-chapter-netherlands",
-        "name": "OWASP BeNeLux Days 2023",
-        "date": "2023-11-23",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/295925893",
-        "timezone": "Europe/Amsterdam",
-        "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2023\" edition on November 23rd-24th in Hasselt, Belgium. \n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
+        "description": "Introduction to OWASP Mumbai\n\n**Speaker Name : SATHIYANARAYANA S**\n**Topic Name:- Cloud Security session**\nGive-away:- Cloud Security Overview\nPublic Cloud vs Private Cloud\nConfidentiality Integrity Availability (CIA)\nContainer & Serverless Security\nDeep Dive into Cloud Security Architecture\nCloud Identity and Access Management (IAM)\nIncident Response and Threat Detection in Cloud\nCloud-native Security Tools\nCloud Security Compliance and Regulatory Requirements\n\n**Speaker Name: Anand Varma**\n**Topic Name: Application Layer Protection Bypass**\n\nQnA and FeedBack"
     },
     {
         "group": "New York City",
@@ -270,6 +270,16 @@
         "description": "We have 2 awesome speakers for our last meetup of 2023!\n\n**First topic**: \"Fortifying the Front Lines: Safeguarding Mobile Applications Against Layer 7 Threats and Exploits.\"\n\n**Synopsis**:\nIn an era dominated by mobile technology, the security of mobile applications is paramount. With the banking industry implementing new measures, such that restricting users from having certain applications on their devices which they use for sensitive transactions, we explore if these are viable solutions or just a stop-gap measure until the next round of attacks show up on victim's devices.\n\nThis presentation delves into the intricate landscape of advanced mobile security attacks that pose significant risks to mobile platforms. We explore the evolving nature of mobile malware, emphasizing the need for proactive measures to fortify applications against advanced attacks.\n\n**1st Presenter**: Pishu Mahtani, Ex-DART\n\n**Second topic**: \"Understanding API Security problems\"\n\n**Synopsis**: It\u2019s no surprise that API adoption is growing rapidly. The reality is that new business innovation and services are powered by APIs. But the rush to innovate is leaving security teams struggling to understand the very real security risks that APIs pose. Today, APIs carry vast amounts of data and are increasingly targets in data breaches.\n\nThis talk delves into common API security concerns and the importance of API Discovery. It highlights the key needs for an API security tool to detect API abuses and the importance of having a data lake for threat hunting.\n\n**2nd Presenter**: Chao Yin Loong, Senior Solutions Engineer at Akamai Technologies\n\nMany thanks to Akamai for sponsoring the venue and pizzas! Come early, enjoy free pizzas and inter-mingle with AppSec enthusiasts."
     },
     {
+        "group": "Stockholm",
+        "repo": "www-chapter-stockholm",
+        "name": "Pub evening - Lucia OWASP meet up and after-work near Odenplan",
+        "date": "2023-12-13",
+        "time": "7:00+01:00",
+        "link": "https://www.meetup.com/owasp-stockholm/events/297092224",
+        "timezone": "Europe/Stockholm",
+        "description": "Time for a Lucia/near xmas get together. This is the perfect opportunity for all of us app-sec interested folks to get together and meet up in real life for a relaxed chat and maybe a beer or some other refreshments.\n\n When: 11th December, 2023\n Where: The Old Brewer - Public House & Dining Room at Luntmakargatan 98, 113 51 Stockholm\n\nExpect:\n Quick AppSec Tips\n Networking\n Drinks & Laughter\n\nThe meeting will start at 17:00, but it's a casual event so turn up when it suits."
+    },
+    {
         "group": "Syracuse",
         "repo": "www-chapter-syracuse",
         "name": "Cybersecurity Careers: Insights from a Panel of Security Leaders",
@@ -277,7 +287,7 @@
         "time": "2:00-05:00",
         "link": "https://www.meetup.com/syracuse-owasp-chapter/events/296891549",
         "timezone": "America/New_York",
-        "description": "Come join a panel of leaders in the Cybersecurity field talk about their career journey, and offer advice."
+        "description": "Join a panel of leaders in the Cybersecurity field, talk about their career journey, and offer advice."
     },
     {
         "group": "Taiwan",
