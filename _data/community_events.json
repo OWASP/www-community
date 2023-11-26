@@ -1,15 +1,5 @@
 [
     {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "OWASP Bangalore Meet 25 November 2023 ",
-        "date": "2023-11-25",
-        "time": "9:30+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/297194585",
-        "timezone": "Asia/Kolkata",
-        "description": "Bangalore Meet 25 November 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Reconnaissance techniques by **Nimish Dudhe**\n* Dissecting stealer malware by **Pavan Karthick M**\n* Snapshot fuzzing with WTF(what the fuzz) by **Micky Thongam**\n* USing DArk Web to strengthen your Security skills by **Mudit Bansal**\n* Automation testing for complex API scenarios using ATOR by **Suchith Narayan**\n*\n\nNote: The session details, including schedule are available below."
-    },
-    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter December 2023 Meetup",
@@ -38,16 +28,6 @@
         "link": "https://www.meetup.com/owasp-bristol/events/296990209",
         "timezone": "Europe/London",
         "description": "Robin Fewster is going to start with a talk on **Threat modelling**,\n\nAfter the break, we will have a semi-structured **discussion** on **Threat Modeling in Practice**. the intention is to draw on the experiences of everyone in the room to learn more about the subject.\n\n\\-\\-\\-\n\nDrawing on some client experiences, Robin will discuss different threat modelling approaches and tools available, and how they went down with development teams.\n\nRobin Fewster has spent the last 21 years working in cyber security. His current role is Senior Security Testing Manager at Hargreaves Lansdown. Robin has spoken at various OWASP chapter events over the years, and used to be a chapter leader for OWASP Newcastle. Current interests are application security, specifically AI and threat modeling."
-    },
-    {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "Securing National Cyberspace:De-globalization, Trust&Social Media Responsibility",
-        "date": "2023-11-25",
-        "time": "1:00+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/297521138",
-        "timezone": "Africa/Cairo",
-        "description": "The event will bring together experts, professionals, and community members to address crucial aspects of cybersecurity and trusted technologies.\nParticipants will gain valuable knowledge on effectively dealing with cyber attack news in a professional manner on social media and communication platforms. Additionally, they will delve into the impact of adopting Global technologies entrusted technologies within local organizations and critical infrastructure, with a specific focus on security implications. The event aims to foster awareness, collaboration, and risk-informed decision-making to safeguard the nation's digital landscape.\n\nPanel Discussion 1:\nTitle: Empowering Communities: Navigating Cybersecurity News and Social Media Responsibly\n\nSpeakers:\nMaha Abdelnasser - MP & ICT Expert\nAhmed Shosha - Senior Security Researcher @ Microsoft and Adjunct professor at Nile University\n\nDescription: This panel discussion will focus on educating the community about effectively and responsibly dealing with news related to cyber attacks on national organizations. Panelists will discuss strategies to promote professional and responsible behavior on social media and other communication platforms when handling such cases and discuss risks and implications of irrisposible dissemination of news. The session aims to empower individuals with the knowledge and skills necessary to contribute to a more informed and secure digital society.\n\nPanel Discussion 2:\nTitle: Technologies Trustworthiness: The Impact on De-globalization on Organizations' Security\n\nSpeakers:\nAhmed Saafan - Chief Security Officer, Thndr\nAdel Abdelmonim - IFSEC Cyber Security & thought leadership Global Influencer\nSherif Eldeeb - Information Security Expert\n\nDescription: In this panel discussion, the focus will be on exploring the implications of adopting Global technologies and entrusting entrusted technologies within local country organizations and national critical infrastructure, particularly in the field of security. The panelists will engage in a comprehensive conversation about the benefits, challenges, and potential risks associated with the use of such technologies. The session aims to provide valuable insights into the opportunities and considerations involved in leveraging trusted technologies for enhanced security measures within local organizations."
     },
     {
         "group": "Copenhagen",
@@ -190,16 +170,6 @@
         "description": "## DevSecOps Toolchain Transformation Hands-on\n\nThe DevSecOps Mindset and Salient Features\n\n* Shared Objectives\n* Prioritizing Security\n* Auomation\n* Operational Insights and Threat Intelligence\n* Holistic Security\n* Proactive Threat Monitoring\n* Security-as-a-Code\n* Infrastructure-as-a-Code\n* Improved Collaboration\n* Developers as Security Proponents\n* Continuous Monitoring and Auditing\n* Defined Incident Response\n\nHere are some actions you can take to upgrade your DevOps toolchain into a DevSecOps toolchain:\n\n1. Learn From Others in the DevOps and DevSecOps Communities\nLook to the DevOps community to help close your critical knowledge gaps.\n2. 2\\. Start With Your Container Security\nThe first step to building out the security of your DevOps toolchain starts with your container security.\n3. Institute Continuous Compliance\nDevSecOps is a platform for continuous compliance to protect your software supply chains against vulnerable packages and vulnerable configurations.\n4. Double Down on Automation\nWhile you may have already been experimenting with automation during your DevOps phase, it only becomes more integral once you throw the switch in by going DevSecOps. Go into your DevOps to DevSecOps transformation with an automation strategy that focuses on automating common developer and sysadmin tasks.\n5. Improve Your Monitoring and Analytics\nBuilding out a DevSecOps toolchain takes your monitoring and analytics options to a new level. Consider the fact that you should already collect and publish data from your toolchain and deliver reports to your project managers, developers, QA testers, and stakeholders outside your team. Commonly, DevOps reporting is still a work in progress for organizations. Use the introduction of new security tools into your toolchain as a chance to offer more granular and real-time security reporting into all parts of your DevSecOps toolchain.\n6. Implement Accessibility Assurance\nDepending on your organization\u2019s definition of compliance, the option is there to add accessibility compliance or Section 508 to your DevSecOps toolchain.\n\nThis hands-on training is reserver for 70% professional and 30% students.\n\nMandatory:\n\nGeneral Conditions in order to validate your participation to this event:\n\n1\\. Student must send University/Student ID\\, otherwise registration will be rejected\\.\n\n2.Professional must register company emails, otherwise registration will be rejected.\n\nRegistration only via EventBrite. We don't accept answer via meetup.\n\nPlease indicate your firstname, lastname, company name, a valid business email or school email (email like gmai, free, hotmail, outlook, etc are not accepted and registration will be cancelled).\n\nPlease register here:\nhttps://www.eventbrite.com/e/billets-devsecops-toolchain-transformation-374188276207"
     },
     {
-        "group": "Mumbai",
-        "repo": "www-chapter-mumbai",
-        "name": "OWASP Mumbai November Meet 2023",
-        "date": "2023-11-25",
-        "time": "2:00+05:30",
-        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/297212098",
-        "timezone": "Asia/Kolkata",
-        "description": "Introduction to OWASP Mumbai\n\n**Speaker Name : SATHIYANARAYANA S**\n**Topic Name:- Cloud Security session**\nGive-away:- Cloud Security Overview\nPublic Cloud vs Private Cloud\nConfidentiality Integrity Availability (CIA)\nContainer & Serverless Security\nDeep Dive into Cloud Security Architecture\nCloud Identity and Access Management (IAM)\nIncident Response and Threat Detection in Cloud\nCloud-native Security Tools\nCloud Security Compliance and Regulatory Requirements\n\n**Speaker Name: Anand Varma**\n**Topic Name: Application Layer Protection Bypass**\n\nQnA and FeedBack"
-    },
-    {
         "group": "New York City",
         "repo": "www-chapter-new-york-city",
         "name": "The Dark Side of Open Source Productivity",
@@ -218,16 +188,6 @@
         "link": "https://www.meetup.com/owasp-oslo/events/297278006",
         "timezone": "Europe/Oslo",
         "description": "Welcome to OWASP Oslo's November meetup, hosted by Ardoq!\n\nYou are welcome to arrive anytime between 17:00 and 17:30. We plan to kick off the talk around 17:30.\n\n**More Tools Mean More Misconfigurations - The ML(Ops) Security Landscape**\nIn this talk, we will cover some of the issues related to the emerging field of Machine Learning and AI security. We will cover some low hanging fruits related to ML security - we will show how attackers can get access to victims' secrets, source codes and API keys. We will also talk about OWASP's initiatives for AI security, such as the OWASP Top10 for ML, the OWASP Top10 for LLM, and the OWASP AI Security Guide."
-    },
-    {
-        "group": "Patna",
-        "repo": "www-chapter-patna",
-        "name": "Session 06 - Behind the Scenes of SSRF: A Comprehensive Exploration",
-        "date": "2023-11-25",
-        "time": "4:30+05:30",
-        "link": "https://www.meetup.com/owasp-patna-chapter/events/297498712",
-        "timezone": "Asia/Kolkata",
-        "description": "Introducing **OWASP Patna's** new online session by **Rajveer**! Join us as we dive deep into the world of **Server-Side Request Forgery (SSRF)** and explore its insights, misconceptions, real-world impact, types, practical examples, live exploitation, and bypasses. This session will be led by Rajveer, who will share his expertise and guide you through the entire process."
     },
     {
         "group": "Peterborough",
@@ -298,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-tampa/events/296916076",
         "timezone": "America/New_York",
         "description": "**Welcome to our joint ISSA & OWASP End of Year Minicon!**\n\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This half day minicon will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda:**\n\n* 8:30am - Registration\n* 9:00am - First Talk\n* 10:00am - Second Talk: Tony Cook, Sr. Dir, DFIR & Threat Intel\n* 11:00am - Third Talk: Jadee Hanson, CISO Code42\n* 12:00pm - Lunch\n\n**Speakers:**\n\n* Tony Cook is the Sr. Director of DFIR & Threat Intelligence on GuidePoint Security\u2019s consulting team, where he manages digital forensics and incident response engagements on behalf of the firm\u2019s clients. His career background includes high-level national security activities in cybersecurity operations for several clients over various verticals.\n* Jadee Hanson is the Chief Information Security Officer at Code42, where she is responsible for business technology strategy and purchasing, as well as leading global risk and compliance, security operations, incident response, and insider threat monitoring and investigations.\n\n**Location:**\n3030 N Rocky Point Drive W\nSte 600\nTampa, FL\n\n**Sponsors:**\n[Code42](https://www.code42.com/)\n[GuidePoint Security](https://www.guidepointsecurity.com/)"
-    },
-    {
-        "group": "Tegucigalpa",
-        "repo": "www-chapter-tegucigalpa",
-        "name": "Charla sobre: Introducci\u00f3n a OWAPS ZAP (Zed Attack Proxy)",
-        "date": "2023-11-25",
-        "time": "8:00-06:00",
-        "link": "https://www.meetup.com/owasp-tegucigalpa-chapter/events/296929802",
-        "timezone": "America/Tegucigalpa",
-        "description": "Charla sobre: Introducci\u00f3n a OWAPS ZAP (Zed Attack Proxy) El esc\u00e1ner de aplicaciones web m\u00e1s utilizado del mundo. Libre y de c\u00f3digo abierto. Mantuvo activamente a un equipo internacional dedicado de voluntarios. Un proyecto de GitHub Top 1000."
     },
     {
         "group": "Vancouver",
