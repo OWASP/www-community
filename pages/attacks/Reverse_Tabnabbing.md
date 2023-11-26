@@ -125,14 +125,14 @@ Check prevention information documented in the [HTML5 Cheat Sheet](https://cheat
 
 ## References
 
-- [WHATWG HTML - Windows opened via <a target=_blank> should not have an opener by default](https://github.com/whatwg/html/issues/4078)
-- [Caniuse implicit rel="noopener" when using target="_blank"](https://caniuse.com/mdn-html_elements_a_implicit_noopener)
-- [Chrome Platform Status - Feature: Anchor target=_blank implies rel=noopener by default](https://chromestatus.com/feature/6140064063029248)
-- [Chromium - Issue 898942: Anchor target=_blank should imply rel=noopener](https://bugs.chromium.org/p/chromium/issues/detail?id=898942)
-- [Mozilla - Make target=_blank on a/area elements imply rel=noopener by default](https://bugzilla.mozilla.org/show_bug.cgi?id=1522083)
-- [WebKit Bugzilla - Bug 190481: Experiment: target=_blank on anchors should imply rel=noopener](https://bugs.webkit.org/show_bug.cgi?id=190481)
+- [WHATWG HTML - Windows opened via `<a target="_blank">` should not have an opener by default](https://github.com/whatwg/html/issues/4078)
+- [Caniuse implicit rel="noopener" when using `target="_blank"`](https://caniuse.com/mdn-html_elements_a_implicit_noopener)
+- [Chrome Platform Status - Feature: Anchor `target="_blank"` implies `rel="noopener"` by default](https://chromestatus.com/feature/6140064063029248)
+- [Chromium - Issue 898942: Anchor `target="_blank"` should imply `rel="noopener"`](https://bugs.chromium.org/p/chromium/issues/detail?id=898942)
+- [Mozilla - Make `target="_blank"` on `a`/`area` elements imply `rel="noopener"` by default](https://bugzilla.mozilla.org/show_bug.cgi?id=1522083)
+- [WebKit Bugzilla - Bug 190481: Experiment: `target="_blank"` on anchors should imply `rel="noopener"`](https://bugs.webkit.org/show_bug.cgi?id=190481)
 - [The `target="_blank"` vulnerability by example](https://dev.to/ben/the-targetblank-vulnerability-by-example)
-- [About `rel=noopener` attribute values](https://mathiasbynens.github.io/rel-noopener/)
-- [Target="_blank" —  the most underestimated vulnerability ever](https://medium.com/@jitbit/target-blank-the-most-underestimated-vulnerability-ever-96e328301f4c)
+- [About `rel="noopener"` attribute values](https://mathiasbynens.github.io/rel-noopener/)
+- [`target="_blank"` —  the most underestimated vulnerability ever](https://medium.com/@jitbit/target-blank-the-most-underestimated-vulnerability-ever-96e328301f4c)
 - Cure53's [Browser Security WhitePaper](https://github.com/cure53/browser-sec-whitepaper/raw/master/browser-security-whitepaper.pdf)
 - [Reverse tabnabbing and blackshield demo](https://danielstjules.github.io/blankshield/)
