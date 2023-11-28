@@ -30,6 +30,16 @@
         "description": "Robin Fewster is going to start with a talk on **Threat modelling**,\n\nAfter the break, we will have a semi-structured **discussion** on **Threat Modeling in Practice**. the intention is to draw on the experiences of everyone in the room to learn more about the subject.\n\n\\-\\-\\-\n\nDrawing on some client experiences, Robin will discuss different threat modelling approaches and tools available, and how they went down with development teams.\n\nRobin Fewster has spent the last 21 years working in cyber security. His current role is Senior Security Testing Manager at Hargreaves Lansdown. Robin has spoken at various OWASP chapter events over the years, and used to be a chapter leader for OWASP Newcastle. Current interests are application security, specifically AI and threat modeling."
     },
     {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "Introduction to Application Security\n",
+        "date": "2023-12-11",
+        "time": "3:00+02:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/297626784",
+        "timezone": "Africa/Cairo",
+        "description": "Join us for an on-site event with the Future University in Cairo to learn about the fundamentals of application security. This event will cover the OWASP Top 10 project, which outlines the top 10 most critical security risks for web applications. You will have the opportunity to engage in a Q&A session with industry experts and gain valuable insights into securing your applications.\n\nEvent Agenda:\n- Introduction to OWASP and the importance of application security\n- Overview of the OWASP Top 10 project and its relevance to the industry\n- Deep dive into the top 3 security risks and their impact on applications\n- Case studies and real-world examples of security vulnerabilities\n- Q&A session with industry experts\n- Networking and opportunities to connect with peers and professionals in the field\n\nWe look forward to seeing you at this informative and interactive event!"
+    },
+    {
         "group": "Copenhagen",
         "repo": "www-chapter-copenhagen",
         "name": "A night of Backdoors & Breaches with a virtual touch of John Strand",
@@ -48,6 +58,16 @@
         "link": "https://www.meetup.com/owasp-croatia-meetup-group/events/297498017",
         "timezone": "Europe/Belgrade",
         "description": "Hello everyone, it\u2019s time for our OWASP Croatia meetup. This time, we will meet in person.\n\n**Location:** Public Lecture Room inside the SRCE/CARNet building on floor -1 (Ul. Josipa Marohni\u0107a 5, 10000, Zagreb). Thursday, 30.11.2023 @ 18:00.\n\n***Huge thanks to the National CERT (cert.hr) and SRCE (srce.hr) for providing the venue!***\n\nWe have two topics for this meetup:\n\n* Luka Mateti\u0107: Modern web attack scenarios\n* Hrvoje Prge\u0161a: Breaking the Chain of Insecurity: Why Your Vendor Needs (S)SDLC\n\n**Talk abstracts and biographies follow:**\n\n**Luka Mateti\u0107: Modern web attack scenarios**\n\nAbstract:\nThere is a growing misconception about old vulnerabilities such as XSS and assumed decline of the real threat it represents while at the same time there is a growing fascination with modern technologies such as GraphQL. By using modern web attack scenarios on technologies such as JWT or GraphQL it is possible to compare popular attacks and defenses while giving XSS a well deserved place as an end goal within everchanging offensive security landscape.\n\nBio:\nLuka Mateti\u0107 is a Senior Information Security Consultant with experience in the field of software development, base systems, and integration of Oracle components and several years of experience in Information security. He holds information security related certificates such as Offensive Security Certified Professional (OSCP) and has a master's degree in software engineering and information systems at the Faculty of Electrical Engineering and Computing in Zagreb.\n\n**Hrvoje Prge\u0161a: Breaking the Chain of Insecurity: Why Your Vendor Needs (S)SDLC**\n\nSa\u017eetak:\nGovoriti \u0107emo o supply chain securityu, uklju\u010denim rizicima, i kako ih mitigirati putem koraka uklju\u010denih u secure development life-cycle proces, zajedno s preporu\u010denim i naj\u010de\u0161\u0107e kori\u0161tenim praksama i alatima. Osvrnut \u0107emo se i na iskustva u implementaciji jednog takvog procesa.\n\nBiografija:\nHrvoje je development manager u tvrtci ASEE unutar Security & Compliance odjela gdje se bavi isporukom sigurnosno orjentiranog softwera, primarno za fintech industriju, kao i implementacijom (S)SDLCa unutar odjela. S vi\u0161e od 15 godina u struci, Hrvoje je u karijeri bio zadu\u017een za Salesforce Security Review 50+ SalesForce aplikacija i implementaciju SDLCa u vi\u0161e navrata."
+    },
+    {
+        "group": "Curitiba",
+        "repo": "www-chapter-curitiba",
+        "name": "Owasp Curitiba - Seguran\u00e7a desde a concep\u00e7\u00e3o do Projeto",
+        "date": "2023-12-13",
+        "time": "9:00-03:00",
+        "link": "https://www.meetup.com/owasp-curitiba-chapter/events/297614280",
+        "timezone": "America/Sao_Paulo",
+        "description": "Owasp Curitiba - Seguran\u00e7a desde a concep\u00e7\u00e3o do Projeto"
     },
     {
         "group": "Dorset",
@@ -210,6 +230,16 @@
         "description": "Casual event, we'll meet at Slapfish for lunch.\n\nWe'll discuss:\n\n1. Wins & Lessons learned from SaintCon-AppSec Community last month.\n2. (time permitting) LLMs and using them in the AppSec space\n\nSee you there!"
     },
     {
+        "group": "Sao Paulo",
+        "repo": "www-chapter-sao-paulo",
+        "name": "OWASP Sao Paulo - Nov/2023",
+        "date": "2023-11-29",
+        "time": "8:30-03:00",
+        "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/297617108",
+        "timezone": "America/Sao_Paulo",
+        "description": "**O Fator Humano na Seguran\u00e7a da Informa\u00e7\u00e3o: Um Di\u00e1logo Inovador com Especialistas de Destaque**\n\nA OWASP S\u00e3o Paulo Chapter tem o prazer de anunciar seu pr\u00f3ximo encontro virtual, um bate-papo imperd\u00edvel sobre o papel crucial do **fator humano na Seguran\u00e7a da Informa\u00e7\u00e3o**. Este evento promete uma discuss\u00e3o profunda e esclarecedora, trazendo \u00e0 mesa tr\u00eas renomados especialistas no campo da ciberseguran\u00e7a: **C\u00e9u Balzano, Rafael Silva e Rodrigo Jorge.**\n\nAcesse nossa pagina no LinkdIn para ver mais sobre os nossos convidados.\n\nEste encontro virtual promete explorar n\u00e3o apenas os aspectos t\u00e9cnicos, mas tamb\u00e9m os desafios e oportunidades que o fator humano apresenta no universo da Seguran\u00e7a da Informa\u00e7\u00e3o. **Junte-se a n\u00f3s para uma conversa enriquecedora com especialistas de ponta**, onde insights valiosos e perspectivas inovadoras ser\u00e3o compartilhados.\n\n**Marque em sua agenda e n\u00e3o perca esta oportunida**de \u00fanica de mergulhar no mundo da ciberseguran\u00e7a e do papel crucial que cada indiv\u00edduo desempenha na prote\u00e7\u00e3o dos dados e informa\u00e7\u00f5es.\n\nA transmiss\u00e3o ser\u00e1 realizada ao vivo no canal do YouTube da OWASP S\u00e3o Paulo Chapter. **Inscreva-se agora para receber atualiza\u00e7\u00f5es e lembretes sobre este evento imperd\u00edvel!**\n\nFique ligado para mais detalhes e n\u00e3o deixe de participar deste di\u00e1logo fascinante sobre o fator humano na seguran\u00e7a digital. Nos vemos l\u00e1!\n\n**SOBRE A OWASP S\u00c3O PAULO**\n\nA OWASP S\u00e3o Paulo \u00e9 um dos 9 cap\u00edtulos brasileiros entre os mais de 270 ativos em todo o mundo. O objetivo \u00e9 disseminar a miss\u00e3o da funda\u00e7\u00e3o, tornando a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel para que as pessoas e as organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos que correm.\n\nS\u00e3o realizados encontros peri\u00f3dicos para compartilhamento de conhecimentos, discuss\u00e3o de temas e aprendizado sobre seguran\u00e7a de software.\n\n**Participe!**"
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -222,12 +252,22 @@
     {
         "group": "Singapore",
         "repo": "www-chapter-singapore",
-        "name": "Dec 2023 Meetup: 2 speakers on mobile app security and API security",
+        "name": "Nov 2023 Meetup: 2 speakers on mobile app security and API security",
         "date": "2023-11-28",
         "time": "9:00+08:00",
         "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/297472949",
         "timezone": "Asia/Singapore",
         "description": "We have 2 awesome speakers for our last meetup of 2023!\n\n**First topic**: \"Fortifying the Front Lines: Safeguarding Mobile Applications Against Layer 7 Threats and Exploits.\"\n\n**Synopsis**:\nIn an era dominated by mobile technology, the security of mobile applications is paramount. With the banking industry implementing new measures, such that restricting users from having certain applications on their devices which they use for sensitive transactions, we explore if these are viable solutions or just a stop-gap measure until the next round of attacks show up on victim's devices.\n\nThis presentation delves into the intricate landscape of advanced mobile security attacks that pose significant risks to mobile platforms. We explore the evolving nature of mobile malware, emphasizing the need for proactive measures to fortify applications against advanced attacks.\n\n**1st Presenter**: Pishu Mahtani, Ex-DART\n\n**Second topic**: \"Understanding API Security problems\"\n\n**Synopsis**: It\u2019s no surprise that API adoption is growing rapidly. The reality is that new business innovation and services are powered by APIs. But the rush to innovate is leaving security teams struggling to understand the very real security risks that APIs pose. Today, APIs carry vast amounts of data and are increasingly targets in data breaches.\n\nThis talk delves into common API security concerns and the importance of API Discovery. It highlights the key needs for an API security tool to detect API abuses and the importance of having a data lake for threat hunting.\n\n**2nd Presenter**: Chao Yin Loong, Senior Solutions Engineer at Akamai Technologies\n\nMany thanks to Akamai for sponsoring the venue and pizzas! Come early, enjoy free pizzas and inter-mingle with AppSec enthusiasts."
+    },
+    {
+        "group": "South Florida",
+        "repo": "www-chapter-south-florida",
+        "name": "OWASP South Florida Chapter Meeting December 2023 ",
+        "date": "2023-12-13",
+        "time": "8:00-05:00",
+        "link": "https://www.meetup.com/south-florida-owasp-chapter/events/297622240",
+        "timezone": "America/New_York",
+        "description": "We will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our December 2023 Meeting. **Make sure** you **don\u2019t miss this final session of 2023!**\n\nBYOB - Bring Your Own Beverage\n\n**Agenda**\n===\n\n* Chapter update/news\n* Talk by Rohini Sulatycki\n* Virtual Networking\n\n**Talk Title:** Zero Trust Demystified - NIST 800-207 and the CISA ZT Maturity Model\n**Talk Summary:** This is a fast paced session that will cover the following.\n\n* What is Zero Trust?\n* What are the challenges in ZT adoption?\n* How does NIST 800-207 define a Zero Trust Architecture?\n* Review the CISA ZT Maturity Model v2"
     },
     {
         "group": "Stockholm",
@@ -237,7 +277,7 @@
         "time": "7:00+01:00",
         "link": "https://www.meetup.com/owasp-stockholm/events/297092224",
         "timezone": "Europe/Stockholm",
-        "description": "Time for a Lucia/near xmas get together. This is the perfect opportunity for all of us app-sec interested folks to get together and meet up in real life for a relaxed chat and maybe a beer or some other refreshments.\n\n When: 11th December, 2023\n Where: The Old Brewer - Public House & Dining Room at Luntmakargatan 98, 113 51 Stockholm\n\nExpect:\n Quick AppSec Tips\n Networking\n Drinks & Laughter\n\nThe meeting will start at 17:00, but it's a casual event so turn up when it suits."
+        "description": "Time for a Lucia/near xmas get together. This is the perfect opportunity for all of us app-sec interested folks to get together and meet up in real life for a relaxed chat and maybe a beer or some other refreshments.\n\n When: 13th December, 2023\n Where: The Old Brewer - Public House & Dining Room at Luntmakargatan 98, 113 51 Stockholm\n\nExpect:\n Quick AppSec Tips\n Networking\n Drinks & Laughter\n\nThe meeting will start at 17:00, but it's a casual event so turn up when it suits."
     },
     {
         "group": "Syracuse",
@@ -262,22 +302,12 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver - December 2023",
-        "date": "2023-12-21",
+        "name": "December Cybersecurity Social",
+        "date": "2023-12-14",
         "time": "8:00-08:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248523",
         "timezone": "America/Vancouver",
-        "description": "OWASP Vancouver monthly meetup"
-    },
-    {
-        "group": "Yola",
-        "repo": "www-chapter-yola",
-        "name": "Break In To Cyber Security",
-        "date": "2023-11-27",
-        "time": "6:00+01:00",
-        "link": "https://www.meetup.com/oww-yola-chapter/events/297556950",
-        "timezone": "Africa/Lagos",
-        "description": "Breaking In To Cyber Security is a meetup to discuss about How to Start a Career in cyber security and the opportunities in the cyber field.\nThe event will be hold virtually.\nlooking forward to E-meeting you.\nThank You"
+        "description": "**Biggest Cybersecurity Social of the year!** This Vancouver area Cybersecurity Social is jointly organized by VanCitySec, OWASP Vancouver, and DC604 DEFCON Group. It's a perfect chance to mingle, make new connections, talk shop, geek out, and otherwise have a blast with like-minded folks.\n\nPlease register so we have an idea of how many people are coming (tickets not required for entry). See you there!\n\nDecember 14, 6-9PM at **Relish the Pub**\n\n**Follow us at:**\nOWASP Vancouver: [https://www.meetup.com/OWASP-Vancouver-Chapter/](https://www.meetup.com/OWASP-Vancouver-Chapter/)\nVanCitySec: [https://twitter.com/VanCitySec](https://twitter.com/VanCitySec)\nDC604 (DEFCON group): [https://www.meetup.com/defcon604/](https://www.meetup.com/defcon604/)\nChannels on MARS Slack: **#owasp-vancouver** and **#dc604**\nJoin MARS Slack: [https://fourthplanet.ca/slack/](https://fourthplanet.ca/slack/)"
     },
     {
         "group": "Samm",
