@@ -1,17 +1,13 @@
 ---
 
 layout: col-sidebar
-title: "My Page"
-author: "My Name"
-contributors: ["Additional Contributor Names", "If Any"]
-permalink: /MyPageTitle
-tags: ["attack", "XSS"]
+title: "Changing A User's Registered Email Address"
+author: "Philip H. Schlesinger"
+tags: ["control", "email", "address", "registered", "change", "account", "takeover"]
 
 ---
 
 {% include writers.html %}
-
-## Changing A User's Registered Email Address
 
 People's email addresses regularly change.  The process below is the recommended method to implement in a system to handle that situation.  The process is less-stringent when using [Multifactor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) because the identity-proof is stronger than just using a password.
 
