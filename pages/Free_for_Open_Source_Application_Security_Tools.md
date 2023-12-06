@@ -330,9 +330,6 @@ Secrets detection is often confused with SAST because both scan through static s
     - All code is open-source (gitleaks) or source-available (Gitleaks-Action).
     - Over 140 secret types with new types being added all the time: <https://github.com/zricethezav/gitleaks/tree/master/cmd/generate/config/rules>
 
-  - [Gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations
-    - Gitrob is a tool to help find potentially sensitive files pushed to public repositories on Github. Gitrob will clone repositories belonging to a user or organization down to a configurable depth and iterate through the commit history and flag files that match signatures for potentially sensitive files. The findings will be presented through a web interface for easy browsing and analysis.
-
   - [GitGuardian](https://gitguardian.com/) 
     - A commercial tool that scans your Git repositories’ history and monitors new contributions in real-time for secrets. It examines secret exposure trends over time and monitors team performance.
       It is free for open source repositories hosted under your GitHub Organization: <https://www.gitguardian.com/pricing>
