@@ -84,7 +84,7 @@ a page of known [DAST Tools](Vulnerability_Scanning_Tools), and the
 **License** column on this page indicates which of those tools have free
 capabilities. Our primary recommendation is to use one of these:
 
-  - [ZAP]([/www-project-zap](https://www.zaproxy.org/)) - A full
+  - [ZAP](https://www.zaproxy.org/) - A full
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web app pen testing.
   - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
