@@ -1,0 +1,19 @@
+@startuml
+start
+:User Requests:
+"Change Registered Email Address";
+
+if (Auth Cookie / Token Valid?) then (yes)
+  :User Provides "Proposed-New" Email Address;
+else (no)
+  :Display Login Page;
+  end
+endif
+
+if (User has MFA?) then (yes)
+    :User Provides Valid MFA Response;
+else (no)
+    :User Provides Currently-Registered Password;
+endif
+
+@enduml
