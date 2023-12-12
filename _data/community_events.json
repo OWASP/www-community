@@ -30,16 +30,6 @@
         "description": "Please join us for OWASP Boston's December meetup! For those attending in-person, the doors open at 6pm, and those joining us virtually the presentation will start at 6:30pm.\n\nThis month we will be welcoming Tommaso Innocenti to talk about his research on OAuth2.0 redirection URIs.\n\nABOUT THE SPEAKER\nTommaso is a fourth-year Ph.D. student advised by Engin Kirda, working as a Secure Systems Lab (SecLab) member at Northeastern University. His interests revolve around Privacy and Security, with particular attention to increasing final users' security. His works reflect his passion and tenacity in exploring complex security topics. His most recent work focuses on the security of the OAuth protocol.\n\nABSTRACT\nOAuth 2.0 requires a complex redirection trail between websites and Identity Providers (IdPs). In particular, the \"redirect URI\" parameter included in the popular Authorization Grant Code flow governs the callback endpoint to which users are routed, together with their security tokens.\n\nIn this talk, I will present recent attack trends in conjunction with the research trends to identify the source of the problem that allowed us to generate our hypothesis.\n\nBased on this observation, I will present novel attack techniques and the experiment that allowed us to verify that the OAuth 2.0 security guidance is under-specified empirically. Finally, I will explain end-to-end attack scenarios that combine our attack techniques with common web application vulnerabilities, ultimately resulting in a complete compromise of the secure delegated access that OAuth 2.0 promises."
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "Introduction to Application Security\n",
-        "date": "2023-12-11",
-        "time": "3:00+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/297626784",
-        "timezone": "Africa/Cairo",
-        "description": "Join us for an on-site event with the Future University in Cairo to learn about the fundamentals of application security. This event will cover the OWASP Top 10 project, which outlines the top 10 most critical security risks for web applications. You will have the opportunity to engage in a Q&A session with industry experts and gain valuable insights into securing your applications.\n\nEvent Agenda:\n- Introduction to OWASP and the importance of application security\n- Overview of the OWASP Top 10 project and its relevance to the industry\n- Deep dive into the top 3 security risks and their impact on applications\n- Case studies and real-world examples of security vulnerabilities\n- Q&A session with industry experts\n- Networking and opportunities to connect with peers and professionals in the field\n\nWe look forward to seeing you at this informative and interactive event!"
-    },
-    {
         "group": "Chennai",
         "repo": "www-chapter-chennai",
         "name": "Securing kubernetes and misconfigurations - OWASP MEETUP DEC 2023",
@@ -223,6 +213,16 @@
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
+        "date": "2024-01-10",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/297834961",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
         "date": "2023-12-13",
         "time": "2:00-08:00",
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/296623321",
@@ -248,6 +248,16 @@
         "link": "https://www.meetup.com/owasp-stockholm/events/297092224",
         "timezone": "Europe/Stockholm",
         "description": "Time for a Lucia/near xmas get together. This is the perfect opportunity for all of us app-sec interested folks to get together and meet up in real life for a relaxed chat and maybe a beer or some other refreshments.\n\n When: 13th December, 2023\n Where: The Old Brewer - Public House & Dining Room at Luntmakargatan 98, 113 51 Stockholm\n\nExpect:\n Quick AppSec Tips\n Networking\n Drinks & Laughter\n\nThe meeting will start at 17:00, but it's a casual event so turn up when it suits."
+    },
+    {
+        "group": "Swabi",
+        "repo": "www-chapter-swabi",
+        "name": "OWASP Swabi x DataCamp Info Session ",
+        "date": "2023-12-12",
+        "time": "2:00+05:00",
+        "link": "https://www.meetup.com/owasp-swabi-chapter/events/297885352",
+        "timezone": "Asia/Karachi",
+        "description": "Info Session - OWASP Swabi Chapter x DataCamp"
     },
     {
         "group": "Sydney",
@@ -298,16 +308,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248523",
         "timezone": "America/Vancouver",
         "description": "**Biggest Cybersecurity Social of the year!** This Vancouver area Cybersecurity Social is jointly organized by VanCitySec, OWASP Vancouver, and DC604 DEFCON Group. It's a perfect chance to mingle, make new connections, talk shop, geek out, and otherwise have a blast with like-minded folks.\n\nPlease register so we have an idea of how many people are coming (tickets not required for entry). See you there!\n\nDecember 14, 6-9PM at **Relish the Pub**\n\n**Follow us at:**\nOWASP Vancouver: [https://www.meetup.com/OWASP-Vancouver-Chapter/](https://www.meetup.com/OWASP-Vancouver-Chapter/)\nVanCitySec: [https://twitter.com/VanCitySec](https://twitter.com/VanCitySec)\nDC604 (DEFCON group): [https://www.meetup.com/defcon604/](https://www.meetup.com/defcon604/)\nChannels on MARS Slack: **#owasp-vancouver** and **#dc604**\nJoin MARS Slack: [https://fourthplanet.ca/slack/](https://fourthplanet.ca/slack/)"
-    },
-    {
-        "group": "Vitoria",
-        "repo": "www-chapter-vitoria",
-        "name": "Fundamentos e Melhores Pr\u00e1ticas da Intelig\u00eancia de Amea\u00e7as Cibern\u00e9ticas",
-        "date": "2023-12-11",
-        "time": "9:30-03:00",
-        "link": "https://www.meetup.com/owasp-capixaba/events/297701972",
-        "timezone": "America/Sao_Paulo",
-        "description": "Palestrante: Paulo Trindade\nTema: Os Fundamentos e as Melhores Pr\u00e1ticas da Intelig\u00eancia de Amea\u00e7as Cibern\u00e9ticas na Preven\u00e7\u00e3o de Ataques\nData: 11/12/2023 \u00e0s 19:30"
     },
     {
         "group": "Samm",
