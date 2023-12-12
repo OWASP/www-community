@@ -15,7 +15,7 @@ NOTE: The process is less stringent when using [Multifactor Authentication](http
 
 ## Process (Depending on a System's Level of Authentication)
 
-### Recommended Process If The User HAS [Multifactor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) Enabled
+### Recommended Process If The User HAS Multifactor Authentication Enabled
 
 1. The System shall confirm the User's authentication cookie/token is still valid; if not, the System should display a login screen.
 1. To reduce User friction, the System shall describe to the User the process that the User will be expected to follow to change their registered email address within the System.
