@@ -1,30 +1,69 @@
 @startuml
-start
-:User Requests:
-"Change Registered Email Address";
+group Starting the Request
+    start
+    :User Requests to\nChange Registered\nEmail Address;
 
-if (Auth Cookie / Token Valid?) then (yes)
-  :User Provides "Proposed New" Email Address;
-else (no)
-  :Display Login Page;
-  end
-endif
-
-if (User has MFA?) then (yes)
-    :User Provides Valid MFA Response;
-else (no)
-    :User Provides Currently-Registered Password;
-endif
-
-partition Nonce_Generation {
-    :Generate and store **Nonce-1** with expiration time limit:\n\nFor User to report unexpected request;
-    :Generate and store **Nonce-2** with expiration time limit:\n\nFor User to confirm change from "Proposed New" email address;
-    if (User has MFA) then (yes)
+    if (Auth Cookie / Token Valid?) then (yes)
+    :User Provides\n"Proposed New"\nEmail Address;
     else (no)
-    :Generate and store **Nonce-3** with expiration time limit:\n\nFor User to confirm change from currently-registered email address;
-    note right
-        Only for non-MFA Users
-    end note
+    :Display\nLogin\nPage;
+    end
     endif
-}
+
+    if (User\nhas\nMFA?) then (yes)
+        :User Provides\nValid MFA\nResponse;
+    else (no)
+        :User Provides\nCurrently-Registered\nPassword;
+    endif
+
+    partition "Nonce Generation" {
+        :Create time-limited nonce to\n\n"Report the Change Request was Unexpected";
+        :Create time-limited nonce to\n\n"Confirm the Change from 'Proposed New' Email Account";
+        
+        if (User\nhas\nMFA) then (yes)
+        else (no)
+            :Create time-limited nonce to\n\n"Confirm the Change from Currently-Registered Email Account";
+            note right
+                Extra security for 
+                password-only Users 
+                in case of:
+                
+                (a) easily-guessed password
+                or
+                (b) stolen repeated password
+            end note
+        endif
+    }
+    partition "Send Emails" {
+        :Email **Proposed New** email address 
+        **Confirmation-Required** message
+
+        Include two links:
+        * Confirm the Change From This Account
+        * Report the Change Request was Unexpected;
+
+        if (User\nhas\nMFA) then (yes)
+            :Email **Currently-Registered** email address
+            **Notification-Only** message
+            
+            Include one link:
+            * Report the Change Request was Unexpected;
+        else (no)
+            :Email **Proposed New** email address 
+            **Confirmation-Required** message
+
+            Include two links:
+            * Confirm the Change From This Account as Well
+            * Report the Change Request was Unexpected;
+
+            note right
+                See above note
+            end note
+        endif
+    }
+    stop
+end group
+
+group Processing Clicked Links
+end group
 @enduml
