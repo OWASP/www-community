@@ -41,10 +41,14 @@ defined structure.
 
 ## List of Vulnerabilities
 
-
 <ul>
+{% if site.host == "127.0.0.1" %}
+{% assign root_path = "" %}
+{%- else -%}
+{% assign root_path = "/www-community" %}
+{%- endif -%}
 {% assign vpages = site.pages | where_exp: "item", "item.tags contains 'vulnerability'" %}
 {% for page in vpages %}
-    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+    <li><a href='{{root_path}}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>

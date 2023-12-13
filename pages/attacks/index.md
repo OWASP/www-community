@@ -18,8 +18,13 @@ Attacks are the techniques that attackers use to exploit the vulnerabilities in 
 ## List of Attacks
 
 <ul>
+{% if site.host == "127.0.0.1" %}
+{% assign root_path = "" %}
+{%- else -%}
+{% assign root_path = "/www-community" %}
+{%- endif -%}
 {% assign attackpages = site.pages | where_exp: "item", "item.tags contains 'attack'" %}
 {% for page in attackpages %}
-    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+    <li><a href='{{root_path}}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
