@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: "Changing A User's Registered Email Address"
 author: "Philip H. Schlesinger"
-tags: ["control", "email", "address", "registered", "change", "account", "takeover"]
+tags: ["controls", "email", "address", "registered", "change", "account", "takeover"]
 
 ---
 
