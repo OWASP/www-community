@@ -50,7 +50,7 @@ group Starting the Request
             Include one link:
             * Report the Change Request was Unexpected;
         else (no)
-            :Email **Proposed New** email address 
+            :Email **Currently-Registered** email address 
             **Confirmation-Required** message
 
             Include two links:
@@ -59,6 +59,8 @@ group Starting the Request
 
             note right
                 See above note
+                Why non-MFA account
+                Needs extra confirmation
             end note
         endif
     }
