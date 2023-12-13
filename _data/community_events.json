@@ -10,16 +10,6 @@
         "description": "Bangalore Meet 16 Dcember 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Hacker's Perspective by **Abhishek Kumar**\n* Defense in Docker by **Aditya Gupta**\n* Ways to get into Kubernetes Cluster by **Manoj Deshmukh**\n* RE for windows P files by **Ananthakrishna**"
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "December meetup",
-        "date": "2023-12-12",
-        "time": "7:00-08:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/297768419",
-        "timezone": "America/Los_Angeles",
-        "description": "Exciting News!  Join us for an engaging and insightful last meetup of the year...courtesy our hosts Gitguardian(Keep secrets out of your source code)\n\n**Talk#1** Do you know where your secrets are?\nAbstract:\nDo you know what Uber, CircleCI, and Toyota all have in common? They had hardcoded credentials in plaintext somewhere in their environments, leading to either a public leak or enabling an attacker to expand their footprint during a breach.\nUnderstanding the problem with hardcoding secrets is simple, but how widespread is this problem? How fast is it growing? How does it keep happening? Moreover, what can you do to address it?\n\n**Speaker:** Aslan pishdad,\nAslan has spent the last 10+ years working for high-growth companies spanning various sectors. Always championing new frontiers and ensuring that new ideas materialize into revenue. Have been successful in selling hardware, software, security solutions, networking, and services to a diverse customer base. Skilled in greenfield territory development and expanding customer bases to drive top-line revenue growth.\n\n**Talk #2:-** Securing Your AI Applications: Navigating Contemporary Threats and Solutions\nAbstract:-This talk provides an overview of AI/LLM models and the intuition behind them, typical design patterns for AI applications, top threats facing AI applications, and practical mitigations.\n\n**Speaker:-** Prasad Kethana, Founder, Stealth Startup in AI Security, EIR at Norwest Venture Partners\n\nPrasad Kethana has 25+ years of experience securing trailblazing companies like Reddit, Airbnb, and Databricks and building security products at CipherCloud (CASB), Symantec, PGP, and Oracle. Prasad has expertise in AI security, IAM, and cloud and application security."
-    },
-    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter December 2023 Meetup",
@@ -80,16 +70,6 @@
         "description": "Owasp Curitiba - Seguran\u00e7a desde a concep\u00e7\u00e3o do Projeto"
     },
     {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP December Meet - In person",
-        "date": "2023-12-12",
-        "time": "7:30-06:00",
-        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/297764535",
-        "timezone": "America/Chicago",
-        "description": "OWASP Dallas is ready to host in-person meets.\n\n\"** The Dark Side of Open Source Productivity**\nThere is a dark side to productivity with open source. In modern applications, the majority of code on which an application is built isn\u2019t code written by your team. Modern applications are built on the backs of volunteer communities and open-source software. These volunteers and their software delivery practices all become potential attack vectors. The truth is that most organizations do not factor open-source supply chain attacks into their organization\u2019s threat models today. Security incidents such as the CodeCov bash uploader script, the npm colors, and faker intentionally introduced malicious commits, and the recent PyPi backdoors targeting AWS credentials highlight the impact of supply chain attacks as a scalable attack pattern. To spread awareness on supply chain attacks so that organizations can scalably handle them we propose baking supply chain attacks into existing threat modeling procedures and software development culture so that organizations can champion supply chain management of open source in the places where they are most impactful, at development time. We will present a comprehensive, comprehensible, and technology-agnostic taxonomy of attack vectors, created on the basis of hundreds of real-world incidents and validated by experts in the domain. Following, we will discuss the types of defenses you can put in place to detect and respond to such modern day attacks and how you can work these defenses in based on your program\u2019s maturity"
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -118,6 +98,16 @@
         "link": "https://www.meetup.com/owasp-limassol-meetup-group/events/297479557",
         "timezone": "Asia/Nicosia",
         "description": "[Location](https://www.google.com/maps/place/BrainRocket/@34.6979542,33.0460735,20z/data=!4m6!3m5!1s0x14e733f291b01fad:0x5ff57bb6ed3f9838!8m2!3d34.6979152!4d33.0461381!16s%2Fg%2F11q_08mvzb?entry=ttu) is the restaurant at the Brain Rocket office.\n\n**Calling all tech and security enthusiasts!**\n\nWe are thrilled to announce the second meetup of the [OWASP Chapter in Limassol](https://owasp.org/www-chapter-limassol/)! We cordially invite you to join us for an evening of engaging discussions, networking, and knowledge sharing among cybersecurity enthusiasts, professionals, and enthusiasts from various backgrounds.\n\n**Schedule:**\n18:30 \u2014 19:00 \u2014 Gathering & Intro\n19-00 \u2014 19:35 \"Happy DDOS to you! Or how we saved the Christmas\" **[Ivan Agarkov](https://www.linkedin.com/in/annmuor)**\n19-35 \u2014 20:05 \"How to find the balance between compliance and real security?\" **[Mariia Erokhina](https://www.linkedin.com/in/mariia-s-erokhina)**\n20:05 \u2014 20:30 A short break\n20-30 \u2014 21:00 \"Observability for security. Deep dive into Osquery\" **[Artem Mishchenko](https://www.linkedin.com/in/artem-mishchenko-155082159/)**\n21:05 \u2014 21:40 \"Beyond IT/Fintech: Between Good and Evil. EA/SA and CSO/ISO: To Hire or To Fire?\" **[Albert Fedoseev](https://www.linkedin.com/in/albert18041986/)**\n21:40 \u2014 22:05 Outro\n22:05 \u2014 23:00 Eat, drink, networking!\n\nWe'll have catering, a cocktail bar, a DJ, and a shisha zone all set up to make the evening unforgettable. \n\n[Don't forget to join us on Telegram (we will send updates there quickly).](https://t.me/+W1hEPzn4BOcwMTNi)"
+    },
+    {
+        "group": "Ljubljana",
+        "repo": "www-chapter-ljubljana",
+        "name": "Vulnerability Hunting With Static Analysis",
+        "date": "2024-01-11",
+        "time": "6:30+01:00",
+        "link": "https://www.meetup.com/owasp-ljubljana-chapter/events/297258995",
+        "timezone": "Europe/Belgrade",
+        "description": "Static application security testing (SAST) tooling is commonly used in CI pipelines to catch security issues early. However, I see it used much less often to manually hunt for vulnerabilities. Let's say you found a vulnerable pattern in a million line code base and need to verify that there are no other cases, what do you do? In this talk I will try to convince you that if your answer is grep, then you are missing out. We will talk about SAST tooling, custom rules, custom tools and more."
     },
     {
         "group": "Los Angeles",
@@ -248,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-stockholm/events/297092224",
         "timezone": "Europe/Stockholm",
         "description": "Time for a Lucia/near xmas get together. This is the perfect opportunity for all of us app-sec interested folks to get together and meet up in real life for a relaxed chat and maybe a beer or some other refreshments.\n\n When: 13th December, 2023\n Where: The Old Brewer - Public House & Dining Room at Luntmakargatan 98, 113 51 Stockholm\n\nExpect:\n Quick AppSec Tips\n Networking\n Drinks & Laughter\n\nThe meeting will start at 17:00, but it's a casual event so turn up when it suits."
-    },
-    {
-        "group": "Swabi",
-        "repo": "www-chapter-swabi",
-        "name": "OWASP Swabi x DataCamp Info Session ",
-        "date": "2023-12-12",
-        "time": "2:00+05:00",
-        "link": "https://www.meetup.com/owasp-swabi-chapter/events/297885352",
-        "timezone": "Asia/Karachi",
-        "description": "Info Session - OWASP Swabi Chapter x DataCamp"
     },
     {
         "group": "Sydney",
