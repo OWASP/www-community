@@ -15,7 +15,7 @@ NOTE: The process is less stringent when using [Multifactor Authentication](http
 
 ## Flowchart
 
-![Image:Changing_Registered_Email_Address_In_A_System_Flowchart.png](../../assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.jpg)
+![Image:Changing_Registered_Email_Address_In_A_System_Flowchart.png](../../assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.png)
 
 ## Recommended Process If The User HAS Multifactor Authentication Enabled
 
