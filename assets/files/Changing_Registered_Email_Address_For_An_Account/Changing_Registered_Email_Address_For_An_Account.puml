@@ -4,7 +4,7 @@ start
 "Change Registered Email Address";
 
 if (Auth Cookie / Token Valid?) then (yes)
-  :User Provides "Proposed-New" Email Address;
+  :User Provides "Proposed New" Email Address;
 else (no)
   :Display Login Page;
   end
@@ -16,4 +16,15 @@ else (no)
     :User Provides Currently-Registered Password;
 endif
 
+partition Nonce_Generation {
+    :Generate and store **Nonce-1** with expiration time limit:\n\nFor User to report unexpected request;
+    :Generate and store **Nonce-2** with expiration time limit:\n\nFor User to confirm change from "Proposed New" email address;
+    if (User has MFA) then (yes)
+    else (no)
+    :Generate and store **Nonce-3** with expiration time limit:\n\nFor User to confirm change from currently-registered email address;
+    note right
+        Only for non-MFA Users
+    end note
+    endif
+}
 @enduml
