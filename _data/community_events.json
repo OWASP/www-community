@@ -10,16 +10,6 @@
         "description": "Bangalore Meet 16 Dcember 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Hacker's Perspective by **Abhishek Kumar**\n* Defense in Docker by **Aditya Gupta**\n* Ways to get into Kubernetes Cluster by **Manoj Deshmukh**\n* RE for windows P files by **Ananthakrishna**"
     },
     {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston Chapter December 2023 Meetup",
-        "date": "2023-12-13",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/owaspboston/events/297520132",
-        "timezone": "America/New_York",
-        "description": "Please join us for OWASP Boston's December meetup! For those attending in-person, the doors open at 6pm, and those joining us virtually the presentation will start at 6:30pm.\n\nThis month we will be welcoming Tommaso Innocenti to talk about his research on OAuth2.0 redirection URIs.\n\nABOUT THE SPEAKER\nTommaso is a fourth-year Ph.D. student advised by Engin Kirda, working as a Secure Systems Lab (SecLab) member at Northeastern University. His interests revolve around Privacy and Security, with particular attention to increasing final users' security. His works reflect his passion and tenacity in exploring complex security topics. His most recent work focuses on the security of the OAuth protocol.\n\nABSTRACT\nOAuth 2.0 requires a complex redirection trail between websites and Identity Providers (IdPs). In particular, the \"redirect URI\" parameter included in the popular Authorization Grant Code flow governs the callback endpoint to which users are routed, together with their security tokens.\n\nIn this talk, I will present recent attack trends in conjunction with the research trends to identify the source of the problem that allowed us to generate our hypothesis.\n\nBased on this observation, I will present novel attack techniques and the experiment that allowed us to verify that the OAuth 2.0 security guidance is under-specified empirically. Finally, I will explain end-to-end attack scenarios that combine our attack techniques with common web application vulnerabilities, ultimately resulting in a complete compromise of the secure delegated access that OAuth 2.0 promises."
-    },
-    {
         "group": "Chennai",
         "repo": "www-chapter-chennai",
         "name": "Securing kubernetes and misconfigurations - OWASP MEETUP DEC 2023",
@@ -60,14 +50,14 @@
         "description": "Join us for an exhilarating exploration into the realm of container security as deepali, a renowned expert in cybersecurity, takes the stage to demystify the intricate world of container hacking. This event is tailored for technology enthusiasts, developers, and security professionals eager to enhance their understanding of container security.\n\n **What to Expect:**\n\n* **Live Demonstrations:** Deepali will conduct live hacking demonstrations to showcase real-world vulnerabilities within containerized environments. Gain insights into the latest techniques used by cyber adversaries and learn how to protect your systems effectively.\n* **Tools of the Trade:** Delve into the arsenal of tools utilized by security experts to identify and mitigate container vulnerabilities. Discover open-source and commercial solutions that can bolster your security posture.\n* **Best Practices:** Deepali will share proven best practices for securing containers, offering actionable insights that you can implement immediately within your own projects. From image scanning to runtime protection, learn the critical steps to fortify your containerized applications.\n* **Q&A Session:** Engage directly with deepali during the dedicated Q&A session. Get answers to your burning questions and gain personalized advice on securing your containerized infrastructure.\n\n **Who Should Attend:**\n\n* Developers and DevOps professionals\n* IT and Security Managers\n* System Administrators\n* Cybersecurity Enthusiasts\n\nFor registration : [https://forms.gle/unMXEbM1ForE4KeN8](https://forms.gle/unMXEbM1ForE4KeN8)"
     },
     {
-        "group": "Curitiba",
-        "repo": "www-chapter-curitiba",
-        "name": "Owasp Curitiba - Seguran\u00e7a desde a concep\u00e7\u00e3o do Projeto",
-        "date": "2023-12-13",
-        "time": "9:00-03:00",
-        "link": "https://www.meetup.com/owasp-curitiba-chapter/events/297614280",
-        "timezone": "America/Sao_Paulo",
-        "description": "Owasp Curitiba - Seguran\u00e7a desde a concep\u00e7\u00e3o do Projeto"
+        "group": "Indraprastha Institute Of Information Technology",
+        "repo": "www-chapter-indraprastha-institute-of-information-technology",
+        "name": "OWASP IIITD: DEFCON 0x06 Special Event (Only for IIITD Students)",
+        "date": "2023-12-16",
+        "time": "9:30+05:30",
+        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/297926369",
+        "timezone": "Asia/Kolkata",
+        "description": "**ONLY FOR IIITD STUDENTS**\nOWASP IIITD is collaborating with DEFCON Delhi to the IIITD Campus. Register on this link to get passes for DEFCON Delhi 0x05. Limited seats available!\n\n* Offline CTF\n* Large lineup of talks\n\nand much more!"
     },
     {
         "group": "Jacksonville",
@@ -110,16 +100,6 @@
         "description": "Static application security testing (SAST) tooling is commonly used in CI pipelines to catch security issues early. However, I see it used much less often to manually hunt for vulnerabilities. Let's say you found a vulnerable pattern in a million line code base and need to verify that there are no other cases, what do you do? In this talk I will try to convince you that if your answer is grep, then you are missing out. We will talk about SAST tooling, custom rules, custom tools and more."
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA & OWASP SB Monthly VIRTUAL Meeting - DEC 13, 2023",
-        "date": "2023-12-13",
-        "time": "1:30-08:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/297807990",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Making the OWASP Top 10 2024\nPack your brown bag **LUNCH** and join us at **noon** to hear about the new Top-10 list first hand from Andrew van der Stock, Executive Director of OWASP Foundation.\nBROUGHT TO YOU in collaboration with OWASP Santa Barbara!\n\n*\\*\\* You **must** RSVP to see the Zoom link \\*\\**\n\n**ABSTRACT**: The OWASP Top 10 2024 is underway. Let's learn about how the OWASP Top 10 2024 is made, and how you can contribute.\n\n**SPONSORSHIP** Opportunities Available\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
         "group": "Melbourne",
         "repo": "www-chapter-melbourne",
         "name": "EOY Hangout - Final Meetup of 2023!",
@@ -130,16 +110,6 @@
         "description": "It's almost the End of 2023! Can you believe it!\nLet's end the year with one last meetup - a social hangout at a bar.\n\nIt's been a while since we caught up, with the whirlwind of cyber events the past few month. Let's grab a pint, and a meal together. Join us.\n\nThere's no agenda.\nUs organisers, will be sitting outside and getting on the beers. We'll be there at The Bottom End from 5:30pm. If you're there early, just grab a table outside the bar.\n\nHope to see you there :)\n\nPlease RSVP if you're attending so that we know if we need to sort out a booking. Thanks heaps."
     },
     {
-        "group": "Minneapolis St Paul",
-        "repo": "www-chapter-minneapolis-st-paul",
-        "name": "December virtual meet: OWASP tool lunch & learn - Dependency Check",
-        "date": "2023-12-13",
-        "time": "2:00-06:00",
-        "link": "https://www.meetup.com/owasp-msp-meetup/events/297608399",
-        "timezone": "America/Chicago",
-        "description": "Join OWASP-MSP chapter leads Zoa Buske and Nathan Larson for a demo of longstanding OWASP flagship project Dependency Check and a discussion of Software Composition Analysis (SCA).\n\nPasscode will be sent out shortly before the event opens.\n\n[https://owasp.org/www-project-dependency-check/](https://owasp.org/www-project-dependency-check/)\n[http://jeremylong.github.io/DependencyCheck/](http://jeremylong.github.io/DependencyCheck/)"
-    },
-    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "DevSecOps Toolchain Transformation to create secure by design software.",
@@ -148,6 +118,16 @@
         "link": "https://www.meetup.com/morocco-owasp-meetup-group/events/290723926",
         "timezone": "Africa/Casablanca",
         "description": "## DevSecOps Toolchain Transformation Hands-on\n\nThe DevSecOps Mindset and Salient Features\n\n* Shared Objectives\n* Prioritizing Security\n* Auomation\n* Operational Insights and Threat Intelligence\n* Holistic Security\n* Proactive Threat Monitoring\n* Security-as-a-Code\n* Infrastructure-as-a-Code\n* Improved Collaboration\n* Developers as Security Proponents\n* Continuous Monitoring and Auditing\n* Defined Incident Response\n\nHere are some actions you can take to upgrade your DevOps toolchain into a DevSecOps toolchain:\n\n1. Learn From Others in the DevOps and DevSecOps Communities\nLook to the DevOps community to help close your critical knowledge gaps.\n2. 2\\. Start With Your Container Security\nThe first step to building out the security of your DevOps toolchain starts with your container security.\n3. Institute Continuous Compliance\nDevSecOps is a platform for continuous compliance to protect your software supply chains against vulnerable packages and vulnerable configurations.\n4. Double Down on Automation\nWhile you may have already been experimenting with automation during your DevOps phase, it only becomes more integral once you throw the switch in by going DevSecOps. Go into your DevOps to DevSecOps transformation with an automation strategy that focuses on automating common developer and sysadmin tasks.\n5. Improve Your Monitoring and Analytics\nBuilding out a DevSecOps toolchain takes your monitoring and analytics options to a new level. Consider the fact that you should already collect and publish data from your toolchain and deliver reports to your project managers, developers, QA testers, and stakeholders outside your team. Commonly, DevOps reporting is still a work in progress for organizations. Use the introduction of new security tools into your toolchain as a chance to offer more granular and real-time security reporting into all parts of your DevSecOps toolchain.\n6. Implement Accessibility Assurance\nDepending on your organization\u2019s definition of compliance, the option is there to add accessibility compliance or Section 508 to your DevSecOps toolchain.\n\nThis hands-on training is reserver for 70% professional and 30% students.\n\nMandatory:\n\nGeneral Conditions in order to validate your participation to this event:\n\n1\\. Student must send University/Student ID\\, otherwise registration will be rejected\\.\n\n2.Professional must register company emails, otherwise registration will be rejected.\n\nRegistration only via EventBrite. We don't accept answer via meetup.\n\nPlease indicate your firstname, lastname, company name, a valid business email or school email (email like gmai, free, hotmail, outlook, etc are not accepted and registration will be cancelled).\n\nPlease register here:\nhttps://www.eventbrite.com/e/billets-devsecops-toolchain-transformation-374188276207"
+    },
+    {
+        "group": "Newcastle Uk",
+        "repo": "www-chapter-newcastle-uk",
+        "name": "OWASP Newcastle December 2023",
+        "date": "2023-12-21",
+        "time": "8:30Z",
+        "link": "https://www.meetup.com/owasp-newcastle-chapter/events/297903170",
+        "timezone": "Europe/London",
+        "description": "We're back with a virtual event to round out the year with a bang!\n\nRough schedule:\n\n1830 - 1835 OWASP Newcastle Welcome\n1835 - 1920 Talk one\n1930 - 2030 Talk two\n\nTalk overviews:\n\nTalk 1\n**Title:** TBC\n**Speaker:** John Dellinger\n**Speaker Bio:** John is a Chief Security Advisor working within the Microsoft Cyber Defence Operations Center. John has extensive multi-national experience in both the public and private sectors. Expertise across a variety of functions and disciplines including policy formulation and implementation, training, operations, strategic planning, risk management and cyber security.\nHe is a dual U.S. and Australian citizen with twenty years of military experience as an officer, first in the United States Marine Corps and later in the Royal Australian Navy.\n**Talk Synopsis:** TBC\n\nTalk 2\n**Title:** TBC\n**Speaker:** TBC\n**Speaker Bio:** TBC\n**Talk Synopsis:** TBC\n\n**Live Stream Info:** We're hoping to be able to live stream the event on our [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there.\n\nYou can also join our Google Group which is how we'll be sending out emails to events and is also going to be used as a forum for discussion.\n\nhttps://groups.google.com/a/owasp.org/forum/#!forum/newcastle-chapter"
     },
     {
         "group": "Northern Virginia",
@@ -170,36 +150,6 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Santa Barbara",
-        "repo": "www-chapter-santa-barbara",
-        "name": "Greater Los Angeles Cybersecurity Community Holiday Celebration",
-        "date": "2023-12-13",
-        "time": "7:30-08:00",
-        "link": "https://www.meetup.com/santa-barbara-owasp-chapter/events/297847633",
-        "timezone": "America/Los_Angeles",
-        "description": "Note: OWASP SB is not an organizer of this event, but many of us will still be attending to celebrate with our friends & colleagues from the LA area. We encourage everyone to join us!\n\n**Greater Los Angeles Cybersecurity Community Holiday Celebration**\n\nNetwork with your friends, make new friends, hear a great speaker, and celebrate the end of an exciting year. Drinks and a buffet dinner will be served, and we'll have some raffle prizes as well!\n\n**Paid registration is required to attend:** [ISSA-LA 2023 Greater Los Angeles Cybersecurity Community Holiday Celebration](https://www.eventbrite.com/e/issa-la-greater-los-angeles-cybersecurity-community-holiday-celebration-tickets-715667048407).\n\n**Topic:** Balancing Innovation and Risk in Today\u2019s Ever-Expanding Technical Ecosystem\n\n**Abstract:**\nIn today\u2019s rapidly evolving business landscape, the expansion of our technical ecosystems pose both unprecedented opportunities and considerable challenges. The proliferation of interconnected systems, emerging technologies, and the increasing interdependence among them have given rise to multifaceted system risks that organizations must navigate. These risks encompass cybersecurity threats, regulatory compliance (old and new), data privacy concerns, interoperability issues, and the potential for disruptive system failures.\n\nThrough collaborative insights and shared experiences, this discussion aims to equip the attendees with proven actionable strategies to include:\n\n* Understanding the dynamic nature of these risks.\n* Aligning technological initiatives with overarching business objectives.\n* Blending innovation with a comprehensive understanding of organizational goals and market demand.\n* Real world case studies highlighting successful alignment between business objectives and our InfoSec programs.\n\n**Location:** Accenture, 1003 E 4th Pl 8th floor Los Angeles, CA 90013\n**Parking:** Enter the parking ramp at the corner of Molino St and East 4th Place. Take the elevator to the 8th fl. Parking will be validated."
-    },
-    {
-        "group": "Santa Barbara",
-        "repo": "www-chapter-santa-barbara",
-        "name": "OWASP LA & SB Virtual Meeting - Making the OWASP Top 10 2024",
-        "date": "2023-12-13",
-        "time": "1:30-08:00",
-        "link": "https://www.meetup.com/santa-barbara-owasp-chapter/events/297847024",
-        "timezone": "America/Los_Angeles",
-        "description": " This event is brought to you in collaboration with **OWASP Los Angeles** \n\nPack your brown bag **lunch** and join us online at **noon** to hear about the new Top-10 list, first hand from Andrew van der Stock, Executive Director of OWASP Foundation and Top-10 project co-leader.\n\n**Title**: Making the OWASP Top 10 2024\n\n**Abstract**: The OWASP Top 10 2024 is underway. Let's learn about how the OWASP Top 10 2024 is made, and how you can contribute.\n\n*This will be a virtual event.* *You **must** RSVP to see the Zoom link.*\n\n**Code of Conduct**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us. We take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Sao Paulo",
-        "repo": "www-chapter-sao-paulo",
-        "name": "OWASP Sao Paulo - Mulheres na Linha de Frente da Ciberseguran\u00e7a",
-        "date": "2023-12-13",
-        "time": "8:00-03:00",
-        "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/297739744",
-        "timezone": "America/Sao_Paulo",
-        "description": "**Desafios e Empoderamento: Mulheres na Linha de Frente da Ciberseguran\u00e7a**\n\nO OWASP S\u00e3o Paulo Chapter est\u00e1 entusiasmado em anunciar mais um encontro virtual, focado em um tema crucial e inspirador: \"**Desafios e Empoderamento: Mulheres na Linha de Frente da Ciberseguran\u00e7a**\". Este evento especial ser\u00e1 marcado pela presen\u00e7a de tr\u00eas mulheres excepcionais que se destacam no cen\u00e1rio da ciberseguran\u00e7a: **Eva Pereira, Paula Papis e Carolina Bozza.**\n\nO bate-papo ser\u00e1 moderado pela **Professora Ines Brosso e Patricia Sanches**, e trar\u00e1 \u00e0 tona temas relevantes de ciberseguran\u00e7a, ser\u00e1 debatido tamb\u00e9m sobre os desafios extras que mulheres precisam enfrentar para entrar e crescer dentro da \u00e1rea de Seguran\u00e7a da Informa\u00e7\u00e3o.\n\nAcesse nossa pagina no LinkdIn para ver mais sobre os nossos convidados.\n\nEste evento ser\u00e1 um espa\u00e7o inclusivo e esclarecedor, destacando n\u00e3o apenas a import\u00e2ncia das mulheres na ciberseguran\u00e7a, mas tamb\u00e9m abordando desafios enfrentados por elas no campo profissional.\n\nEste evento oferecer\u00e1 uma oportunidade \u00fanica para discutir, aprender e se inspirar com a experi\u00eancia e a sabedoria dessas mulheres excepcionais na ciberseguran\u00e7a.\n\n**Marque em sua agenda e n\u00e3o perca esta oportunida**de \u00fanica de mergulhar no mundo da ciberseguran\u00e7a e do papel crucial que cada indiv\u00edduo desempenha na prote\u00e7\u00e3o dos dados e informa\u00e7\u00f5es.\n\nA transmiss\u00e3o ser\u00e1 realizada ao vivo no canal do YouTube da OWASP S\u00e3o Paulo Chapter e pela nossa pagina do LinkedIn. **Inscreva-se agora para receber atualiza\u00e7\u00f5es e lembretes sobre este evento imperd\u00edvel!**\n\nFique ligado para mais detalhes e n\u00e3o deixe de participar deste di\u00e1logo fascinante sobre o fator humano na seguran\u00e7a digital. Nos vemos l\u00e1!\n\n**SOBRE A OWASP S\u00c3O PAULO**\n\nA OWASP S\u00e3o Paulo \u00e9 um dos 9 cap\u00edtulos brasileiros entre os mais de 270 ativos em todo o mundo. O objetivo \u00e9 disseminar a miss\u00e3o da funda\u00e7\u00e3o, tornando a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel para que as pessoas e as organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos que correm.\n\nS\u00e3o realizados encontros peri\u00f3dicos para compartilhamento de conhecimentos, discuss\u00e3o de temas e aprendizado sobre seguran\u00e7a de software.\n\n**Participe!**"
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -208,36 +158,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/297834961",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2023-12-13",
-        "time": "2:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/296623321",
-        "timezone": "America/Los_Angeles",
-        "description": ""
-    },
-    {
-        "group": "South Florida",
-        "repo": "www-chapter-south-florida",
-        "name": "OWASP South Florida Chapter Meeting December 2023 ",
-        "date": "2023-12-13",
-        "time": "8:00-05:00",
-        "link": "https://www.meetup.com/south-florida-owasp-chapter/events/297622240",
-        "timezone": "America/New_York",
-        "description": "We will be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our December 2023 Meeting. **Make sure** you **don\u2019t miss this final session of 2023!**\n\nBYOB - Bring Your Own Beverage\n\n**Agenda**\n===\n\n* Chapter update/news\n* Talk by Rohini Sulatycki\n* Virtual Networking\n\n**Talk Title:** Zero Trust Demystified - NIST 800-207 and the CISA ZT Maturity Model\n**Talk Summary:** This is a fast paced session that will cover the following.\n\n* What is Zero Trust?\n* What are the challenges in ZT adoption?\n* How does NIST 800-207 define a Zero Trust Architecture?\n* Review the CISA ZT Maturity Model v2"
-    },
-    {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "Pub evening - Lucia OWASP meet up and after-work near Odenplan",
-        "date": "2023-12-13",
-        "time": "7:00+01:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/297092224",
-        "timezone": "Europe/Stockholm",
-        "description": "Time for a Lucia/near xmas get together. This is the perfect opportunity for all of us app-sec interested folks to get together and meet up in real life for a relaxed chat and maybe a beer or some other refreshments.\n\n When: 13th December, 2023\n Where: The Old Brewer - Public House & Dining Room at Luntmakargatan 98, 113 51 Stockholm\n\nExpect:\n Quick AppSec Tips\n Networking\n Drinks & Laughter\n\nThe meeting will start at 17:00, but it's a casual event so turn up when it suits."
     },
     {
         "group": "Sydney",
@@ -288,15 +208,5 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248523",
         "timezone": "America/Vancouver",
         "description": "**Biggest Cybersecurity Social of the year!** This Vancouver area Cybersecurity Social is jointly organized by VanCitySec, OWASP Vancouver, and DC604 DEFCON Group. It's a perfect chance to mingle, make new connections, talk shop, geek out, and otherwise have a blast with like-minded folks.\n\nPlease register so we have an idea of how many people are coming (tickets not required for entry). See you there!\n\nDecember 14, 6-9PM at **Relish the Pub**\n\n**Follow us at:**\nOWASP Vancouver: [https://www.meetup.com/OWASP-Vancouver-Chapter/](https://www.meetup.com/OWASP-Vancouver-Chapter/)\nVanCitySec: [https://twitter.com/VanCitySec](https://twitter.com/VanCitySec)\nDC604 (DEFCON group): [https://www.meetup.com/defcon604/](https://www.meetup.com/defcon604/)\nChannels on MARS Slack: **#owasp-vancouver** and **#dc604**\nJoin MARS Slack: [https://fourthplanet.ca/slack/](https://fourthplanet.ca/slack/)"
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "Monthly SAMM community call",
-        "date": "2023-12-13",
-        "time": "5:30-05:00",
-        "link": "https://www.meetup.com/owasp-samm/events/291889913",
-        "timezone": "America/New_York",
-        "description": "Welcome to our final 2023 monthly SAMM community call Wednesday 13th December, (each 2nd Wednesday of the month).\n\nAt 21:30 CET, which is 3:30 pm EST.\n\nJoin Zoom Meeting: [Zoom link.](https://zoom.us/j/96866048960?pwd=TmZkTSs3ZmlWU09DbHJoSnVZWmdiUT09)"
     }
 ]
