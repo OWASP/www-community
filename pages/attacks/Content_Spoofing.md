@@ -157,6 +157,5 @@ Other example:
 - [CERT Advisory on Malicious HTML Tags](http://www.cert.org/advisories/CA-2000-02.html)
 - OWASP's [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 - [HTML Code Injection and Cross-site Scripting](http://www.technicalinfo.net/papers/CSS.html)
-- [Case studies (Spotify, LinkedIn, ..etc)](https://twitter.com/ncweaver/status/974802236567007232?s=12)
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
