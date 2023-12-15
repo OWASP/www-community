@@ -57,7 +57,7 @@
         "time": "9:30+05:30",
         "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/297926369",
         "timezone": "Asia/Kolkata",
-        "description": "**ONLY FOR IIITD STUDENTS**\nOWASP IIITD is collaborating with DEFCON Delhi to the IIITD Campus. Register on this link to get passes for DEFCON Delhi 0x05. Limited seats available!\n\n* Offline CTF\n* Large lineup of talks\n\nand much more!"
+        "description": "**ONLY FOR IIITD STUDENTS**\nOWASP IIITD is collaborating with DEFCON Delhi to bring the conference to the IIITD Campus. Register on this link to get passes for DEFCON Delhi 0x05. Limited seats available! Along with the usual lineup of talks and workshops, OWASP IIITD is proud to announce we will be hosting our first Live offline CTF at the conference!\n\nRegister now before spots run out."
     },
     {
         "group": "Jacksonville",
@@ -100,16 +100,6 @@
         "description": "Static application security testing (SAST) tooling is commonly used in CI pipelines to catch security issues early. However, I see it used much less often to manually hunt for vulnerabilities. Let's say you found a vulnerable pattern in a million line code base and need to verify that there are no other cases, what do you do? In this talk I will try to convince you that if your answer is grep, then you are missing out. We will talk about SAST tooling, custom rules, custom tools and more."
     },
     {
-        "group": "Melbourne",
-        "repo": "www-chapter-melbourne",
-        "name": "EOY Hangout - Final Meetup of 2023!",
-        "date": "2023-12-14",
-        "time": "7:30+11:00",
-        "link": "https://www.meetup.com/application-security-owasp-melbourne/events/297790571",
-        "timezone": "Australia/Melbourne",
-        "description": "It's almost the End of 2023! Can you believe it!\nLet's end the year with one last meetup - a social hangout at a bar.\n\nIt's been a while since we caught up, with the whirlwind of cyber events the past few month. Let's grab a pint, and a meal together. Join us.\n\nThere's no agenda.\nUs organisers, will be sitting outside and getting on the beers. We'll be there at The Bottom End from 5:30pm. If you're there early, just grab a table outside the bar.\n\nHope to see you there :)\n\nPlease RSVP if you're attending so that we know if we need to sort out a booking. Thanks heaps."
-    },
-    {
         "group": "Morocco",
         "repo": "www-chapter-morocco",
         "name": "DevSecOps Toolchain Transformation to create secure by design software.",
@@ -127,17 +117,7 @@
         "time": "8:30Z",
         "link": "https://www.meetup.com/owasp-newcastle-chapter/events/297903170",
         "timezone": "Europe/London",
-        "description": "We're back with a virtual event to round out the year with a bang!\n\nRough schedule:\n\n1830 - 1835 OWASP Newcastle Welcome\n1835 - 1920 Talk one\n1930 - 2030 Talk two\n\nTalk overviews:\n\nTalk 1\n**Title:** TBC\n**Speaker:** John Dellinger\n**Speaker Bio:** John is a Chief Security Advisor working within the Microsoft Cyber Defence Operations Center. John has extensive multi-national experience in both the public and private sectors. Expertise across a variety of functions and disciplines including policy formulation and implementation, training, operations, strategic planning, risk management and cyber security.\nHe is a dual U.S. and Australian citizen with twenty years of military experience as an officer, first in the United States Marine Corps and later in the Royal Australian Navy.\n**Talk Synopsis:** TBC\n\nTalk 2\n**Title:** TBC\n**Speaker:** TBC\n**Speaker Bio:** TBC\n**Talk Synopsis:** TBC\n\n**Live Stream Info:** We're hoping to be able to live stream the event on our [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there.\n\nYou can also join our Google Group which is how we'll be sending out emails to events and is also going to be used as a forum for discussion.\n\nhttps://groups.google.com/a/owasp.org/forum/#!forum/newcastle-chapter"
-    },
-    {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "Holiday Happy Hour and Year End Celebration!",
-        "date": "2023-12-14",
-        "time": "7:30-05:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/297779979",
-        "timezone": "America/New_York",
-        "description": "The next OWASP NoVA event - Holiday Happy Hour will be Thursday, December 14th, 5:30PM til 7:30 at Old Ox Brewery (44652 Guilford Dr, #114, Ashburn, VA).\n\nWe will be looking to end the year with a casual holiday social to share InfoSec war stories, recap 2023, and discuss ideas for 2024. It'll be a great time to meet and reconnect with some like-minded Security Professionals. We will be joining up with our friends at NOVABeerSec for this event. See you all there!\n\nVenue for December:\nOld Ox Brewery (https://www.oldoxbrewery.com/) is a family owned and operated commercial brewery. Our family works together. Plays together. Celebrates together. Faces life's obstacles together. We've founded our brewery on hard work and a commitment to the community. We are looking for ways to partner with the artists, farmers, restaurants, retailers, and other businesses that make Loudoun County a special place to live.\n\nWe chose Old Ox Road as the inspiration for our brewery. Old Ox is one of the oldest roads in Loudoun County and was originally built to connect the agricultural producers of Loudoun County to the markets in Fairfax County and beyond. It is this same sense of connection that we want to provide for our customers\u2026whether they are here in our tasting room or enjoying a pint in their favorite restaurant or tavern."
+        "description": "We're back with a virtual event to round out the year with a bang!\n\nRough schedule:\n\n1830 - 1835 OWASP Newcastle Welcome\n1835 - 1920 Talk one\n1930 - 2030 Talk two\n\nTalk overviews:\n\nTalk 1\n**Title:** TBC\n**Speaker:** John Dellinger\n**Speaker Bio:** John is a Chief Security Advisor working within the Microsoft Cyber Defence Operations Center. John has extensive multi-national experience in both the public and private sectors. Expertise across a variety of functions and disciplines including policy formulation and implementation, training, operations, strategic planning, risk management and cyber security.\nHe is a dual U.S. and Australian citizen with twenty years of military experience as an officer, first in the United States Marine Corps and later in the Royal Australian Navy.\n**Talk Synopsis:** TBC\n\nTalk 2\n**Title:** TBC\n**Speaker:** Ros Grindrod\n**Speaker Bio:** Ros is currently Head of Security Services at Opencast Software and has over 6 years of experience working within information security including experience delivering cyber transformation work across a variety of industries. Ros's previous experience includes ethical hacking, social engineering, incident response preparedness, OSINT/threat modelling and all things GRC.\n**Talk Synopsis:** TBC\n\n**Live Stream Info:** We're hoping to be able to live stream the event on our [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there.\n\nYou can also join our Google Group which is how we'll be sending out emails to events and is also going to be used as a forum for discussion.\n\nhttps://groups.google.com/a/owasp.org/forum/#!forum/newcastle-chapter"
     },
     {
         "group": "Peterborough",
@@ -170,16 +150,6 @@
         "description": "The Sydney OWASP Chapter is dedicated to fostering a thriving community focused on application security and collaboration among industry professionals. With our goals of promoting equality, education, and community, we're excited to announce that we're actively looking for speakers and venue hosts for our upcoming events throughout the year.\n\n**Call for Speakers**\nDo you have a passion for cybersecurity and would like to share your expertise with our growing community? We invite you to submit a talk proposal for our upcoming meetups! This year's theme revolves around diverse applied topics in cybersecurity. We welcome presentations from experienced speakers, as well as those giving their first talk.\n\nTo submit your proposal, please email the following details to [sydney-chapter@owasp.org](mailto:sydney-chapter@owasp.org):\n\n* Proposed topic\n* Abstract (100-200 words)\n* Brief speaker bio (100-200 words)\n\n**Call for Venues**\nWe're also searching for venue hosts who can accommodate 30-50 attendees and provide a screen for presentations. Hosting an OWASP meetup is a fantastic opportunity to demonstrate your commitment to security excellence while supporting the cybersecurity community. Please note that hosts are expected to cater pizza and beverages for attendees.\nIf you're interested in becoming a venue host, please reach out to us at [sydney-chapter@owasp.org](mailto:sydney-chapter@owasp.org).\n\nBy contributing as a speaker or venue host, you're helping to advance our mission of fostering collaboration, education, and diversity within the cybersecurity field. We look forward to hearing from you and hope to see you at our next event.\n\nDeb, Blair, and Nick\nOWASP Sydney Chapter Committee"
     },
     {
-        "group": "Syracuse",
-        "repo": "www-chapter-syracuse",
-        "name": "Cybersecurity Careers: Insights from a Panel of Security Leaders",
-        "date": "2023-12-14",
-        "time": "2:00-05:00",
-        "link": "https://www.meetup.com/syracuse-owasp-chapter/events/296891549",
-        "timezone": "America/New_York",
-        "description": "Join a panel of leaders in the Cybersecurity field, talk about their career journey, and offer advice."
-    },
-    {
         "group": "Tallinn",
         "repo": "www-chapter-tallinn",
         "name": "OWASP Tallinn - Cybersecurity & AI - Vol. 1",
@@ -188,25 +158,5 @@
         "link": "https://www.meetup.com/owasp-tallinn-chapter/events/297697716",
         "timezone": "Europe/Tallinn",
         "description": "** Welcome to the Inaugural Event of OWASP Estonia: Cybersecurity & AI - Vol. 1 **\n\n Get ready to dive into the world of AI technology and cybersecurity at our first-ever event! We are thrilled to present a lineup of distinguished speakers and groundbreaking topics.\n\n **Featuring a Core Member from OWASP Top 10 LLM:** Delve into the depths of cybersecurity with insights from a key figure behind the renowned OWASP Top 10 for large language models. Learn about the latest trends, challenges, and strategies in securing large language models and AI systems.\n\n **TalTech\u2019s Cybersecurity RA for AI-Driven Autonomous Ships:** Join our guest from TalTech, a leading assistant researcher in cybersecurity, specializing in AI-driven autonomous ships. Discover how AI is revolutionizing maritime technology and the critical role of cybersecurity in this innovative domain.\n\n **And That's Not All - More Surprises Await!** Whether you're a cybersecurity professional, a tech enthusiast, or just curious about the future of AI, there's something for everyone.\n\n **Connect, Collaborate, and Create:** This event is more than just talks - it's a platform to connect with like-minded individuals, collaborate on ideas, and contribute to the ever-evolving field of cybersecurity and AI.\n\n **Mark Your Calendars:**\nFriday 15th December at 18:30 - 20:30\nWIP Maakri 19, Tallinn\n\n **Join us at OWASP Estonia's inaugural event, Cybersecurity & AI - Vol. 1!**"
-    },
-    {
-        "group": "Timisoara",
-        "repo": "www-chapter-timisoara",
-        "name": "OWASP Timisoara #24: Bug Bounty and Cloud Security [ONLINE]",
-        "date": "2023-12-14",
-        "time": "8:00+02:00",
-        "link": "https://www.meetup.com/owasp-timisoara-chapter/events/297677302",
-        "timezone": "Europe/Bucharest",
-        "description": "The next OWASP Timisoara Chapter Meetup will be Online\nSee https://owasp.org/www-chapter-timisoara/ for more information about the OWASP Timisoara chapter. Theme sessions - Theme: Bug Bounty and Cloud Security\n**`18:00`**` Welcome participants`\n**`18:15`**` Introduction, OWASP News & Updates - Catalin Curelaru`\n**`18:30`**` Bug Bounty(Again) - Tomi Koski (Visma)`\n**`19:00`**` The bigger picture - Ovidiu Cical (Cyscale)`\n**`19:30`**` Networking`\n**Tomi Koski** \\- Red Team Engineer @ VISMA \\| Tomi Koski has been working with IT\\-systems for many moons\\, actually since \\(the wonderful\\) 1990\u2019s\\. He is passionate about anything related to security\\, combining both physical and virtual worlds\\. He is a constant learner and very curious person about life and bug bounties\\. Currently\\, he is working for Visma as a Red \\(read: Purple\\) Teamer\n*Bug Bounty(Again)* Abstract: My journey in the world of Bug Bounties, the good and bad. Story about how bug bounties have changed my life and why I think these are super fun and educational.\n**Ovidiu Cical** \\- Cloud Security Architect @ Cyscale \\| Ovidiu is a cybersecurity enthusiast with 20 years of experience in IT\\. Ovidiu speaks at international conferences covering different topics of Cybersecurity and is not a stranger to the pro\\-bono work of running the OWASP chapter in Cluj\\-Napoca for many years in the past\\. Currently\\, he leads Cyscale\\, a cloud security startup developing a product from the heart of Cluj\\-Napoca\\.\n*The bigger picture* Abstract: The bigger picture: a context is critical in understanding your security posture. Why a certain problem in one part of your cloud infrastructure may affect other areas of your cloud apps, how cloud data is secured, and how safe is the rest of your cloud estate."
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "December Cybersecurity Social",
-        "date": "2023-12-14",
-        "time": "8:00-08:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/290248523",
-        "timezone": "America/Vancouver",
-        "description": "**Biggest Cybersecurity Social of the year!** This Vancouver area Cybersecurity Social is jointly organized by VanCitySec, OWASP Vancouver, and DC604 DEFCON Group. It's a perfect chance to mingle, make new connections, talk shop, geek out, and otherwise have a blast with like-minded folks.\n\nPlease register so we have an idea of how many people are coming (tickets not required for entry). See you there!\n\nDecember 14, 6-9PM at **Relish the Pub**\n\n**Follow us at:**\nOWASP Vancouver: [https://www.meetup.com/OWASP-Vancouver-Chapter/](https://www.meetup.com/OWASP-Vancouver-Chapter/)\nVanCitySec: [https://twitter.com/VanCitySec](https://twitter.com/VanCitySec)\nDC604 (DEFCON group): [https://www.meetup.com/defcon604/](https://www.meetup.com/defcon604/)\nChannels on MARS Slack: **#owasp-vancouver** and **#dc604**\nJoin MARS Slack: [https://fourthplanet.ca/slack/](https://fourthplanet.ca/slack/)"
     }
 ]
