@@ -1,73 +1,13 @@
 [
     {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "OWASP Bangalore Meet 16 December 2023 ",
-        "date": "2023-12-16",
-        "time": "0:00+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/297751648",
-        "timezone": "Asia/Kolkata",
-        "description": "Bangalore Meet 16 Dcember 2023 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Hacker's Perspective by **Abhishek Kumar**\n* Defense in Docker by **Aditya Gupta**\n* Ways to get into Kubernetes Cluster by **Manoj Deshmukh**\n* RE for windows P files by **Ananthakrishna**"
-    },
-    {
-        "group": "Bolivia",
-        "repo": "www-chapter-bolivia",
-        "name": "OWASP DAY BO - 03",
-        "date": "2023-12-16",
-        "time": "5:00-04:00",
-        "link": "https://www.meetup.com/owasp-bolivia-meetup-group/events/297957805",
-        "timezone": "America/La_Paz",
-        "description": "El Capitulo OWASP Bolivia invita a participar a todos los entusiastas de Ciberseguridad de las conferencias online, el d\u00eda s\u00e1bado 16 de Diciembre a horas 15:00. Los esperamos!!!"
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "Securing kubernetes and misconfigurations - OWASP MEETUP DEC 2023",
-        "date": "2023-12-16",
-        "time": "0:00+05:30",
-        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/297865090",
-        "timezone": "Asia/Kolkata",
-        "description": "Embark on a journey into the realm of Kubernetes security with our engaging talk on \"Securing Kubernetes and Misconfigurations.\" As the adoption of Kubernetes accelerates, ensuring the robust security of your containerized applications becomes paramount. Join us for an in-depth exploration of best practices, tools, and strategies to fortify your Kubernetes clusters against potential threats, with a specific focus on mitigating misconfigurations.\n\nFor registration : [https://forms.gle/unMXEbM1ForE4KeN8](https://forms.gle/unMXEbM1ForE4KeN8)"
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "AWS Serverless Pentesing & EBS -Defense Strategies - OWASP MEETUP DEC 2023",
-        "date": "2023-12-16",
-        "time": "0:00+05:30",
-        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/297848202",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us for an insightful session that delves into the critical realms of AWS security as we explore the dynamic landscapes of serverless architectures and Elastic Block Store (EBS) within the Amazon Web Services ecosystem.\n\nFor registration : [https://forms.gle/unMXEbM1ForE4KeN8](https://forms.gle/unMXEbM1ForE4KeN8)"
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "Access control vulnerabilities - OWASP MEETUP DEC 2023",
-        "date": "2023-12-16",
-        "time": "0:00+05:30",
-        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/297733035",
-        "timezone": "Asia/Kolkata",
-        "description": "Embark on a transformative learning experience as Saravana Priya, a distinguished expert in cybersecurity, unveils the intricate web of Access Control Vulnerabilities. This event is tailor-made for security professionals, IT administrators, and anyone keen on understanding and fortifying against the vulnerabilities that lurk in access control systems.\n\n **What We Cover:**\n\n* **Deep Dive into Access Control Systems:** Saravana Priya will provide a comprehensive exploration of access control systems, dissecting their mechanisms, and shedding light on common vulnerabilities that can compromise security.\n* **Real-world Case Studies:** Through real-world case studies, Saravana Priya will illustrate actual access control vulnerabilities encountered in diverse environments. Attendees will gain invaluable insights into the anatomy of security breaches.\n* **Live Demonstrations:** Experience live demonstrations where Saravana Priya will simulate access control attacks, showcasing potential exploits and vulnerabilities. Witness firsthand how attackers exploit weaknesses and, more importantly, learn how to prevent them.\n* **Best Practices for Mitigation:** Saravana Priya will share a wealth of best practices and strategies to fortify access control systems. From robust authentication methods to authorization pitfalls, attendees will leave armed with actionable steps to enhance security.\n* **Interactive Q&A Session:** Engage directly with Saravana Priya during the Q&A session. Pose your questions, share your experiences, and benefit from personalized insights into access control security.\n\n **Who Should Attend:**\n\n* Cybersecurity Professionals\n* IT Administrators\n* System Architects\n* Security Analysts\n* Anyone Interested in Access Control Security\n\nFor registrations: [https://forms.gle/2NSidpiFGUNUbDdG7](https://forms.gle/2NSidpiFGUNUbDdG7)"
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "Hacking containers - OWASP MEETUP DEC 2023",
-        "date": "2023-12-16",
-        "time": "0:00+05:30",
-        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/297732838",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us for an exhilarating exploration into the realm of container security as deepali, a renowned expert in cybersecurity, takes the stage to demystify the intricate world of container hacking. This event is tailored for technology enthusiasts, developers, and security professionals eager to enhance their understanding of container security.\n\n **What to Expect:**\n\n* **Live Demonstrations:** Deepali will conduct live hacking demonstrations to showcase real-world vulnerabilities within containerized environments. Gain insights into the latest techniques used by cyber adversaries and learn how to protect your systems effectively.\n* **Tools of the Trade:** Delve into the arsenal of tools utilized by security experts to identify and mitigate container vulnerabilities. Discover open-source and commercial solutions that can bolster your security posture.\n* **Best Practices:** Deepali will share proven best practices for securing containers, offering actionable insights that you can implement immediately within your own projects. From image scanning to runtime protection, learn the critical steps to fortify your containerized applications.\n* **Q&A Session:** Engage directly with deepali during the dedicated Q&A session. Get answers to your burning questions and gain personalized advice on securing your containerized infrastructure.\n\n **Who Should Attend:**\n\n* Developers and DevOps professionals\n* IT and Security Managers\n* System Administrators\n* Cybersecurity Enthusiasts\n\nFor registration : [https://forms.gle/unMXEbM1ForE4KeN8](https://forms.gle/unMXEbM1ForE4KeN8)"
-    },
-    {
-        "group": "Indraprastha Institute Of Information Technology",
-        "repo": "www-chapter-indraprastha-institute-of-information-technology",
-        "name": "OWASP IIITD: DEFCON 0x06 Special Event (Only for IIITD Students)",
-        "date": "2023-12-16",
-        "time": "9:30+05:30",
-        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/297926369",
-        "timezone": "Asia/Kolkata",
-        "description": "**ONLY FOR IIITD STUDENTS**\nOWASP IIITD is collaborating with DEFCON Delhi to bring the conference to the IIITD Campus. Register on this link to get passes for DEFCON Delhi 0x05. Limited seats available! Along with the usual lineup of talks and workshops, OWASP IIITD is proud to announce we will be hosting our first Live offline CTF at the conference!\n\nRegister now before spots run out."
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP CoS January 2024 - SPECIAL EVENT HANDS-ON LAB",
+        "date": "2024-01-13",
+        "time": "0:00-07:00",
+        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/297982531",
+        "timezone": "America/Denver",
+        "description": "**HANDS-ON LAB**: James Smith will lead us in creating a hands-on web application security testing lab\n\n**Bring your own laptop**; hardware requirements:\n\\- Intel chipset \\(no ARM\\, no Mac silicon\\)\n\\- 60GB free diskspace\n\\- Administrator account access \\(to install virtualization software\\)\n\nCoffee / donuts / pizza provided\n\nLocation: National Cyber Center (NCC):\n\nhttps://cyber-center.org/"
     },
     {
         "group": "Jacksonville",
@@ -98,6 +38,16 @@
         "link": "https://www.meetup.com/owasp-ljubljana-chapter/events/297258995",
         "timezone": "Europe/Belgrade",
         "description": "Static application security testing (SAST) tooling is commonly used in CI pipelines to catch security issues early. However, I see it used much less often to manually hunt for vulnerabilities. Let's say you found a vulnerable pattern in a million line code base and need to verify that there are no other cases, what do you do? In this talk I will try to convince you that if your answer is grep, then you are missing out. We will talk about SAST tooling, custom rules, custom tools and more."
+    },
+    {
+        "group": "Manchester",
+        "repo": "www-chapter-manchester",
+        "name": "Assembly and Disassembly, an OWASP guide to application security. ",
+        "date": "2024-01-15",
+        "time": "8:00Z",
+        "link": "https://www.meetup.com/owasp-manchester-uk-chapter/events/297939867",
+        "timezone": "Europe/London",
+        "description": "Hello & Welcome\n\nIn this session we'll be discussing application security.\n\nDue to a corporate policy from the venue sponsor, to get into the venue & up to the event, you will need to register with your full name when signing up to the event.\n\nPlease note this event will be recorded so we can put these talks on our YouTube channel afterwards. We will also be trying out our live streaming capabilities.\n\n**6:00 - Open doors & networking & drinks**\n\n**6:30 - Stuart Crawford - Appsec in the Enterprise - in-flight testing and Shifting Left**\nIn a world where web-based applications are ubiquitous, penetration testing is well-established as a way of verifying those applications are secure, but how do we stop finding ourselves falling into an endless cycle of 'deploy, test, fix'?\nThe answer is by paying closer attention to security in the development lifecycle, and I'll provide an example of how we're doing this at one of, if not the largest Independent Software Vendors in the UK\n\n**7:15 - Refreshments (Food & Drinks & Networking)**\n\n**8:00 - Tom Blue - Basic Assembly and Memory**\nThis talk would be an overview of how basic assembly and memory works, the structure of programs compiled in C and how to follow the logic of disassembled programs. I\u2019ll show how to use tools such as ghidra to decompile code and to make the reverse engineering process more efficient and cover things such as buffer overflows, patching code and return oriented programming.\n\n**9:00 - Vacate venue -> to the pub for more socialising**\n\n**LOCATION**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAmazon - MAN11\nHanover Building, Hanover Street, Manchester, M4 4GW\n\n**SPEAKERS**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Stuart Crawford**\nStuart is Appsec program manager at one of the largest SaaS companies in the UK\n\n**Tom Blue**\nTom is a second year student at Lancaster University studying computer science. He\u2019s passionate about cybersecurity, having worked in the industry for two years, as well as helping run LUHack and LUCompSoc, Lancaster University's hacking and computing societies. He works the university as a casual researcher and is currently looking at embedded systems security and I'm helping write the Cyber Physical Systems module for the cybersecurity masters degree. He also worked as an intern for Digital Interruption, a Manchester based cyber security consultancy.\n\n**SPONSORS** (Thank you for supporting our community!!)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAmazon - Venue Sponsor\nPentest - Food & Drink Sponsor\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAre you passionate about a security topic?\nDo you want to speak at a future event?\nSubmit your interest here - https://forms.gle/zcm9bVNhgDixe8Gq5\n\nDoes your company want to sponsor a venue and/or refreshments?\nEmail Paul - paul.johnston@owasp.org"
     },
     {
         "group": "Morocco",
