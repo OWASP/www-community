@@ -1,5 +1,15 @@
 [
     {
+        "group": "Bonita Springs",
+        "repo": "www-chapter-bonita-springs",
+        "name": "Finding Your Niche",
+        "date": "2024-01-16",
+        "time": "8:30-05:00",
+        "link": "https://www.meetup.com/owasp-bonita-springs-chapter/events/297926252",
+        "timezone": "America/New_York",
+        "description": "We're cohosting an event with SWFLSec and SpaceCoastSec!\n\nOne of the most difficult questions about getting started in a cybersecurity career is \"Where do I start?\". Our presenter recently made the transition from an HR / Talent Acquisition role to a cybersecurity role and will present their unique perspective on finding your niche in the cybersecurity realm."
+    },
+    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS January 2024 - SPECIAL EVENT HANDS-ON LAB",
@@ -8,6 +18,16 @@
         "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/297982531",
         "timezone": "America/Denver",
         "description": "**HANDS-ON LAB**: James Smith will lead us in creating a hands-on web application security testing lab\n\n**Bring your own laptop**; hardware requirements:\n\\- Intel chipset \\(no ARM\\, no Mac silicon\\)\n\\- 60GB free diskspace\n\\- Administrator account access \\(to install virtualization software\\)\n\nCoffee / donuts / pizza provided\n\nLocation: National Cyber Center (NCC):\n\nhttps://cyber-center.org/"
+    },
+    {
+        "group": "Hungary",
+        "repo": "www-chapter-hungary",
+        "name": "Personal SecOps: bevezet\u0151 a szem\u00e9lyes/eszk\u00f6z kiberbiztons\u00e1gba [HU, opinionated]",
+        "date": "2023-12-19",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/owasp-hu/events/298000314",
+        "timezone": "Europe/Budapest",
+        "description": "A secure and safe setup of our private devices, including laptops is not obvious, and even hackers implement such security measures which come from biased wisdom. The short instruction would be: iPhone and Lockdown mode. We discuss more of it though. :)\n\n45p el\u0151ad\u00e1s, majd tapasztalatok \u00e9s v\u00e9lem\u00e9nyek megoszt\u00e1sa"
     },
     {
         "group": "Jacksonville",
