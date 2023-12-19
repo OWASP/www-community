@@ -28,22 +28,23 @@ of this scenario and how the XSS attack unfolds within this process.
 
 ![Attack Scenario](../assets/images/attacks/XSS_in_Converting_File_Content_to_Text_Attack_Scenario.png)
     
-Image Upload:<br>
+Image Upload:
 - An attacker uploads an image containing an XSS payload to the website.
 
-OCR Execution:<br>
-- The OCR system identifies and analyzes the XSS payload.
+OCR Execution:
+- The OCR system identifies and analyzes the content of the image.
 
-Text Extraction:<br>
+Text Extraction:
 - The system extracts the text containing the XSS payload from the image.
 
-Display Output:<br>
+Display Output:
 - The XSS payload is executed on the website.
 
 ## Examples
 
 An attacker can use a program like Paint to write the payload on a blank image
-and send it to the website.<br>
+and send it to the website.
+
 ![payload example](../assets/images/attacks/XSS_in_Converting_File_Content_to_Text_2.png)
 
 ## Related Controls
