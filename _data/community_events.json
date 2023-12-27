@@ -40,6 +40,16 @@
         "description": "We're so incredibly lucky that Jim Manico, a global forerunner and huge capacity in appsec efforts within the OWASP organization and globally for decades and more recently in AI security, is moving to Copenhagen and is dedicated to giving back to our community.\n\nJim has offered to do not just one talk but bot a talk and a short course on his favorite topics: AI Security and appsec. And you're hereby cordially invited to join. As usually there'll be pizzas and drinks and as usually everything will be for the amazingly attractive price of nothing!\n\nSchedule:\n17.00: Introduction to OWASP Copenhagen\n17.05: Navigating the AI Labyrinth: Ethics, Security, and Best Practices\n18.00 Pizzas and drinks\n18.30: Appsec training\n\nHere's a description of both events:\n\n**Navigating the AI Labyrinth: Ethics, Security, and Best Practices**\nThis talk offers a comprehensive exploration of Artificial Intelligence (AI) from its historical evolution to the latest developments in AI security and ethics. Key topics include:\n\n* A Brief History of AI: A snapshot of the pivotal milestones in AI development.\n* AI and Ethics: Understanding AI's business impact, ethical guidelines, best practices, and risk mitigation strategies.\n* Robustness & Reliability of AI Code Generation: Addressing common misuse patterns and reliability metrics in AI systems.\n* Artificial Intelligence Security Introduction: Analyzing historical AI failures to draw lessons and improve future applications.\n* OWASP Top Ten for Large Language Models (LLMs): A deep dive into security considerations specific to LLMs, ranging from prompt injection to model theft.\n* Threat Modeling AI Systems: Outlining methodologies to assess and mitigate AI-related threats.\n* Hugging Face Open Source AI Tools: Exploring the utility and application of these tools in AI research.\n* Differential Privacy and AI: Discussing the principles of differential privacy in the context of AI.\n* NIST AI Risk Framework: An overview of NIST's guidelines for AI risk management.\n* EU AI Act: Analysis and impact on AI development and use.\n\nThe talk aims to provide attendees with a nuanced understanding of AI's ethical implications, security challenges, and practical approaches for secure and responsible AI deployment.\n\n**AppSec Training**\nIn the rapidly evolving realm of web development and application security, the OWASP Top 10 remains a cornerstone document, acting as a beacon for developers and security professionals alike. Reflecting a broad-based consensus, it spotlights the most critical security risks threatening web applications, thereby shaping the frontier of secure coding techniques.\nWith an ever-increasing emphasis on web-based interactions, the significance of a deep understanding of these risks is paramount. As developers etch lines of code giving life to web applications, a firm grasp of secure coding practices becomes not merely beneficial, but essential.\nThis immersive and engaging presentation seeks to equip attendees with a comprehensive understanding of the OWASP Top Ten 2022 release, intending to empower developers with the knowledge necessary to author secure, resilient software. As we navigate through this labyrinth, we shall focus on in-depth discussions around:\n\n* A01:2021-Broken Access Control\n* A02:2021-Cryptographic Failure\n* A03:2021-Injection\n* A04:2021-Insecure Design\n* A05:2021-Security Misconfiguration\n* A06:2021-Vulnerable and Outdated Components\n* A07:2021-Identification and Authentication Failures\n* A08:2021-Software and Data Integrity Failures\n* A09:2021-Security Logging and Monitoring Failure\n* A10:2021-Server-Side Request Forgery\n\nJoin us as we embark on this enlightening journey, delving into the unique intricacies of each risk, exploring defense strategies, and fostering a culture of security-minded web application development. This presentation aims to instill a robust defensive mindset, helping attendees to weave a narrative of secure coding that transcends the bounds of standard practices."
     },
     {
+        "group": "Dhaka",
+        "repo": "www-chapter-dhaka",
+        "name": "Strengthening Software Quality Assurance for Robust Software Security",
+        "date": "2023-12-29",
+        "time": "0:00+06:00",
+        "link": "https://www.meetup.com/owasp-dhaka-chapter/events/298146881",
+        "timezone": "Asia/Dhaka",
+        "description": "Welcome to OWASP Dhaka Chapter Monthly Web Application Security Event.\nEvent Details:\nTitle of the Discussion \"Strengthening Software Quality Assurance for Robust Software Security\" at the event.\nDate and Time: December 29, 2023; 08:00 PM - 09:30 PM (GMT+6, Bangladesh Standard Time).\n\nJoin us, and grow the OWASP Dhaka Chapter!"
+    },
+    {
         "group": "Dubai",
         "repo": "www-chapter-dubai",
         "name": "[InterSec] OWASP IoT Top 10 Rists",
@@ -133,6 +143,16 @@
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter Social",
+        "date": "2024-01-25",
+        "time": "9:00Z",
+        "link": "https://www.meetup.com/owasp-peterborough/events/296056640",
+        "timezone": "Europe/London",
+        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Chapter Social",
         "date": "2023-12-28",
         "time": "9:00Z",
         "link": "https://www.meetup.com/owasp-peterborough/events/297836577",
@@ -148,6 +168,16 @@
         "link": "https://www.meetup.com/owasp-portland-chapter/events/297889289",
         "timezone": "America/Los_Angeles",
         "description": "*Hacking a SaaS: A Practical Guide to Understanding Attackers and Defending Against Them*\n\nIn this talk, we will delve into the mindset of an attacker and explore the vulnerabilities they exploit in SaaS systems. We will cover the following topics:\n\n* What motivates hackers to target SaaS systems (5%)\n* How hackers conduct reconnaissance on SaaS systems (50%)\n* The anatomy of exploit chains (40%)\n* Strategies for defending against attacks (5%)\n\nOur goal is to provide a practical guide to understanding attackers and defending against them. We will share lots of hacker tips and tricks, and provide plenty of quiz moments to train your intuition. Our focus will be on vulnerabilities that hackers actually care about, rather than theoretical ones. All of our examples will be based on real-world exploit chains, and we will explore multiple vulnerabilities chained together to create media-news-headline-worthy outcomes. By the end of this talk, you will have a better understanding of how attackers think and operate, and you will be better equipped to defend against their attacks.\n\nOur January host and sponsor is Solutional Inc, and the talk will take place in their Portland office at 301 SE 2nd Ave.\n\nPlease RSVP here if you are planning to attend.\n\nThis is a monthly event of OWASP's Portland chapter."
+    },
+    {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "OWASP-SLC / Wasatch AppSec -January Meetup-In person @ (Cottonwood Heights, UT)",
+        "date": "2024-01-25",
+        "time": "2:00-07:00",
+        "link": "https://www.meetup.com/owasp-slc/events/297931007",
+        "timezone": "America/Denver",
+        "description": "**Agenda**:\n\n1. Introductions / Lunch\n2. Presentation by TBA:\n3. Q&A\n\nCome join us for a lunch meetup at the Aumni building in Cottonwood Heights.\nCasual group and anyone interested in Application Security is welcome to attend. We'll discuss software security tips and practices others are implementing to support their organization's AppSec efforts.\n\nSee you there!"
     },
     {
         "group": "Seattle",
