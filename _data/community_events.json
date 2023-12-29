@@ -70,16 +70,6 @@
         "description": "The event on LLM (Large Language Models) and AI security challenges convened experts and professionals from diverse fields to address the pressing issues surrounding the deployment and use of advanced language models. Participants engaged in insightful discussions on the ethical implications, privacy concerns, and potential risks associated with the increasing capabilities of LLMs.\n\nThe event delved into the intricate balance between harnessing the power of language models for innovation and confronting the security challenges they pose.\n\nKey topics included mitigating biases, ensuring robust encryption, and implementing responsible AI practices to safeguard against misuse. The collaborative atmosphere fostered an exchange of ideas, laying the groundwork for future collaborations and strategies to navigate the evolving landscape of AI security."
     },
     {
-        "group": "Hungary",
-        "repo": "www-chapter-hungary",
-        "name": "Supplychain attack (rogue deps) targeting devs, a walkthru [hu, w some js code]",
-        "date": "2023-12-28",
-        "time": "6:30+01:00",
-        "link": "https://www.meetup.com/owasp-hu/events/298092058",
-        "timezone": "Europe/Budapest",
-        "description": "\"For security reasons Bun does not execute lifecycle scripts of installed dependencies.\" \"Never lose another night's sleep over a security breach or incident. Equip your team with Socket to gain the confidence to ship, and maintain apps.\" ... We are protected now against rogue deps even using freeware and free plans, right?! Let's walk thru a simple case.\n\n1h talk, anyone can interrupt with comments, questions and share their own professional experiences.\n\nLive on telegram:\n[https://t.me/owasphu?livestream](https://t.me/owasphu?livestream)\nPost on yt:\n[https://www.youtube.com/@owasphu](https://www.youtube.com/@owasphu)\nOutline:\n[https://owasphu.notion.site/OWASP-HU-231228-Rogue-deps-4789fbd40e4a4f21be8afa6ca9aada15?pvs=4](https://owasphu.notion.site/OWASP-HU-231228-Rogue-deps-4789fbd40e4a4f21be8afa6ca9aada15?pvs=4)\n\nPhoto by [Christina @ wocintechchat.com](https://unsplash.com/@wocintechchat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"
-    },
-    {
         "group": "Hyderabad",
         "repo": "www-chapter-hyderabad",
         "name": "OWASP Hyderabad Year End Virtual Meetup '2023",
@@ -140,6 +130,16 @@
         "description": "Hello & Welcome\n\nIn this session we'll be discussing application security.\n\nDue to a corporate policy from the venue sponsor, to get into the venue & up to the event, you will need to register with your full name when signing up to the event.\n\nPlease note this event will be recorded so we can put these talks on our YouTube channel afterwards. We will also be trying out our live streaming capabilities.\n\n**6:00 - Open doors & networking & drinks**\n\n**6:30 - Stuart Crawford - Appsec in the Enterprise - in-flight testing and Shifting Left**\nIn a world where web-based applications are ubiquitous, penetration testing is well-established as a way of verifying those applications are secure, but how do we stop finding ourselves falling into an endless cycle of 'deploy, test, fix'?\nThe answer is by paying closer attention to security in the development lifecycle, and I'll provide an example of how we're doing this at one of, if not the largest Independent Software Vendors in the UK\n\n**7:15 - Refreshments (Food & Drinks & Networking)**\n\n**8:00 - Tom Blue - Basic Assembly and Memory**\nThis talk would be an overview of how basic assembly and memory works, the structure of programs compiled in C and how to follow the logic of disassembled programs. I\u2019ll show how to use tools such as ghidra to decompile code and to make the reverse engineering process more efficient and cover things such as buffer overflows, patching code and return oriented programming.\n\n**9:00 - Vacate venue -> to the pub for more socialising**\n\n**LOCATION**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAmazon - MAN11\nHanover Building, Hanover Street, Manchester, M4 4GW\n\n**SPEAKERS**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Stuart Crawford**\nStuart is Appsec program manager at one of the largest SaaS companies in the UK\n\n**Tom Blue**\nTom is a second year student at Lancaster University studying computer science. He\u2019s passionate about cybersecurity, having worked in the industry for two years, as well as helping run LUHack and LUCompSoc, Lancaster University's hacking and computing societies. He works the university as a casual researcher and is currently looking at embedded systems security and I'm helping write the Cyber Physical Systems module for the cybersecurity masters degree. He also worked as an intern for Digital Interruption, a Manchester based cyber security consultancy.\n\n**SPONSORS** (Thank you for supporting our community!!)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAmazon - Venue Sponsor\nPentest - Food & Drink Sponsor\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAre you passionate about a security topic?\nDo you want to speak at a future event?\nSubmit your interest here - https://forms.gle/zcm9bVNhgDixe8Gq5\n\nDoes your company want to sponsor a venue and/or refreshments?\nEmail Paul - paul.johnston@owasp.org"
     },
     {
+        "group": "Morocco",
+        "repo": "www-chapter-morocco",
+        "name": "DevSecOps Toolchain Transformation to create secure by design software.",
+        "date": "2024-01-27",
+        "time": "9:00+01:00",
+        "link": "https://www.meetup.com/morocco-owasp-meetup-group/events/290723926",
+        "timezone": "Africa/Casablanca",
+        "description": "## DevSecOps Toolchain Transformation Hands-on\n\nThe DevSecOps Mindset and Salient Features\n\n* Shared Objectives\n* Prioritizing Security\n* Auomation\n* Operational Insights and Threat Intelligence\n* Holistic Security\n* Proactive Threat Monitoring\n* Security-as-a-Code\n* Infrastructure-as-a-Code\n* Improved Collaboration\n* Developers as Security Proponents\n* Continuous Monitoring and Auditing\n* Defined Incident Response\n\nHere are some actions you can take to upgrade your DevOps toolchain into a DevSecOps toolchain:\n\n1. Learn From Others in the DevOps and DevSecOps Communities\nLook to the DevOps community to help close your critical knowledge gaps.\n2. 2\\. Start With Your Container Security\nThe first step to building out the security of your DevOps toolchain starts with your container security.\n3. Institute Continuous Compliance\nDevSecOps is a platform for continuous compliance to protect your software supply chains against vulnerable packages and vulnerable configurations.\n4. Double Down on Automation\nWhile you may have already been experimenting with automation during your DevOps phase, it only becomes more integral once you throw the switch in by going DevSecOps. Go into your DevOps to DevSecOps transformation with an automation strategy that focuses on automating common developer and sysadmin tasks.\n5. Improve Your Monitoring and Analytics\nBuilding out a DevSecOps toolchain takes your monitoring and analytics options to a new level. Consider the fact that you should already collect and publish data from your toolchain and deliver reports to your project managers, developers, QA testers, and stakeholders outside your team. Commonly, DevOps reporting is still a work in progress for organizations. Use the introduction of new security tools into your toolchain as a chance to offer more granular and real-time security reporting into all parts of your DevSecOps toolchain.\n6. Implement Accessibility Assurance\nDepending on your organization\u2019s definition of compliance, the option is there to add accessibility compliance or Section 508 to your DevSecOps toolchain.\n\nThis hands-on training is reserver for 70% professional and 30% students.\n\nMandatory:\n\nGeneral Conditions in order to validate your participation to this event:\n\n1\\. Student must send University/Student ID\\, otherwise registration will be rejected\\.\n\n2.Professional must register company emails, otherwise registration will be rejected.\n\nRegistration only via EventBrite. We don't accept answer via meetup.\n\nPlease indicate your firstname, lastname, company name, a valid business email or school email (email like gmai, free, hotmail, outlook, etc are not accepted and registration will be cancelled).\n\nPlease register here:\nhttps://www.eventbrite.com/e/billets-devsecops-toolchain-transformation-374188276207"
+    },
+    {
         "group": "Netherlands",
         "repo": "www-chapter-netherlands",
         "name": "January 2024 OWASP Chapter Netherlands Meetup",
@@ -150,22 +150,22 @@
         "description": "**Location:** Trend Micro Nederland\n\n**Address:** Herikerbergweg 92, 1101 CM Amsterdam\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **Challenges in modern Red Teaming, external vs internal point of view** by **Marcin Wolak**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **Red Teaming on MacOS** by **Ahmed Sherif & Ivan Kozlov**\n\n**Challenges in modern Red Teaming, external vs internal point of view**\n***Abstract***:\nThe presentation will try to demonstrate limitations of external red teaming and show how internal red teaming could possibly fill in identified gaps.\n\n***Bio***:\nMarcin is a well renowned ethical hacker / red teamer, blogger & researcher with over twenty years experience in IT and cybersecurity\n\n**Red Teaming on MacOS**\n***Abstract:***\nThe focus of the Red Teaming has predominantly been on Windows environments, reflecting its widespread use in corporate settings. However, the recent shift in corporate preferences towards MacOS necessitates a reevaluation and development of Red Teaming strategies specific to this. Our presentation delves into the challenges in MacOS during the red teaming excercises (i.e. initial foothold, persistence, lateral movement, etc.).\n\n***Bio:***\n*Ahmed Sherif*: A professional offensive security expert with 7 years of experience in pentesting / red teaming. Ahmed is working at ING global CISO.\n*Ivan Kozlov*: Red teamer at Global CISO of ING who hated macOS so hard that decided to dedicate his spare time in finding vulnerabilities and new red teaming tricks on Apple workstations. Reverse engineered and decrypted state actor malware using MS Paint."
     },
     {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP Training Day - Hamilton (Jan 2024)",
+        "date": "2024-01-27",
+        "time": "8:00+13:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297780340",
+        "timezone": "Pacific/Auckland",
+        "description": "We're pleased to announce that we'll be holding an OWASP Training Day event in Hamilton, on Saturday, 27th January.\n\nClasses will run 8:45 a.m. - 5:30 p.m. Tea breaks and lunch will be provided. Registration check-in opens at 8:00 a.m.\n\n**Registration Fee:** $99 per attendee (plus GST and booking fees)\n\n**Classes on offer:**\n\n* Threat Modelling: From None to Done (John DiLeo)\n* Like ISO/IEC27001, but Backwards (Stephen Coates)\n\n**To Register:** https://events.humanitix.com/owasp-training-day-hamilton-jan-2024"
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Chapter Social",
         "date": "2024-01-25",
         "time": "9:00Z",
         "link": "https://www.meetup.com/owasp-peterborough/events/296056640",
-        "timezone": "Europe/London",
-        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Chapter Social",
-        "date": "2023-12-28",
-        "time": "9:00Z",
-        "link": "https://www.meetup.com/owasp-peterborough/events/297836577",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
