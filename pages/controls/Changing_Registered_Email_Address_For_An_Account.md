@@ -15,12 +15,13 @@ NOTE: The process is less stringent when using [Multifactor Authentication](http
 
 ## Flowchart
 
-[comment]: <> The source for this flowchart is in `/assets/plantuml/controls/Changing_Registered_Email_Address_For_An_Account.puml`.  
-[comment]: <> Please refer to `https://plantuml.com/activity-diagram-beta` for the latest Activity Diagram syntax.
-[comment]: <> There's a Hitchhiker's Guide to PlantUML located at `https://crashedmind.github.io/PlantUMLHitchhikersGuide/` .
-[comment]: <> Good luck! /Philip H. Schlesinger, original author of this Control
+[comment]: <> The source code used for rendering this flowchart is in [/assets/controls/src/plantuml/Changing_Registered_Email_Address_For_An_Account.puml](/assets/controls/src/plantuml/Changing_Registered_Email_Address_For_An_Account.puml).
+[comment]: <> See [/assets/controls/src/plantuml/README.md](/assets/controls/src/plantuml/README.md) for information about PlantUML
+[comment]: <> Good luck!
+[comment]: <> /Philip H. Schlesinger
+[comment]: <> Original Author of this Control
 
-![Image:Changing_Registered_Email_Address_In_A_System_Flowchart.png](../../assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.png)
+![Image:Changing_Registered_Email_Address_In_A_System_Flowchart.png](/assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.png)
 
 ## Recommended Process If The User HAS Multifactor Authentication Enabled
 
