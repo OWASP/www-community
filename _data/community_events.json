@@ -62,7 +62,7 @@
     {
         "group": "Denver",
         "repo": "www-chapter-denver",
-        "name": "Denver OWASP October Meetup - Join Us!",
+        "name": "Denver OWASP January Meetup - Join Us!",
         "date": "2024-01-17",
         "time": "7:30-07:00",
         "link": "https://www.meetup.com/denver-owasp/events/298208909",
@@ -88,6 +88,16 @@
         "link": "https://www.meetup.com/meetup-group-svgchist/events/297500567",
         "timezone": "Asia/Dubai",
         "description": "The event on LLM (Large Language Models) and AI security challenges convened experts and professionals from diverse fields to address the pressing issues surrounding the deployment and use of advanced language models. Participants engaged in insightful discussions on the ethical implications, privacy concerns, and potential risks associated with the increasing capabilities of LLMs.\n\nThe event delved into the intricate balance between harnessing the power of language models for innovation and confronting the security challenges they pose.\n\nKey topics included mitigating biases, ensuring robust encryption, and implementing responsible AI practices to safeguard against misuse. The collaborative atmosphere fostered an exchange of ideas, laying the groundwork for future collaborations and strategies to navigate the evolving landscape of AI security."
+    },
+    {
+        "group": "Houston",
+        "repo": "www-chapter-houston",
+        "name": "OWASP Houston Chapter API Security Study Group Session 4 - crAPI Challenges",
+        "date": "2024-01-08",
+        "time": "8:30-06:00",
+        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/298262458",
+        "timezone": "America/Chicago",
+        "description": "Starting with this session, we will start working with the actual challenges listed on the crAPI page. We will also discuss the Postman collection and how that can be used to better understand how the challenges can be completed. In later sessions, we will look at how to create your own collection by proxying the traffic.\n\n[completely ridiculous API (crAPI)](https://owasp.org/crAPI/)\n\n[crAPI Architecture](https://github.com/OWASP/crAPI/blob/develop/docs/crAPI_architecture.md)\n\n[Challenges](https://github.com/OWASP/crAPI/blob/develop/docs/challenges.md)\n\n[Postman Collection](https://github.com/OWASP/crAPI/tree/develop/postman_collections)"
     },
     {
         "group": "Jacksonville",
