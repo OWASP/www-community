@@ -140,7 +140,7 @@ NOTE: The process is less stringent when using [Multifactor Authentication](http
 
 ## Notes on the Above Processes
 
-- Google thinks differently
+### Google thinks differently
 
 IF a User of Google only has their account protected with a password, when someone submits a change of registered email address, if the submitter knows the User's password, [Google just sends a **notification-only** email message to the currently-registered email address](https://support.google.com/accounts/answer/55393?hl=en) for that Google User with a link for "I didn't request this email address change".
 
@@ -150,7 +150,7 @@ The User's password might be easily-guessable -- or might be a repeated password
 
 Nevertheless, Google apparently is still ok with the risk that the request might be unauthorized.  Hopefully the real User will see the email message to the soon-to-be originally-registered email address and click the "this is unexpected" link before the "this is unexpected" nonce expires.
 
-- Regular Social Engineering Training Is Essential
+### Regular Social Engineering Training Is Essential
 
 In the event someone contacts a System's System Administrator or Help Desk to request the change of a registered email address stating they are unable to go through the above process, the System Administrator / Help Desk has to either:
 
