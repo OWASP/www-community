@@ -14,9 +14,10 @@ People's email addresses regularly change.  The process below is the recommended
 NOTE: The process is less stringent when using [Multifactor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) because the proof-of-identity is stronger than just using a password.
 
 ## Flowchart
+
 [comment]: <> The source for this flowchart is in `/assets/plantuml/controls/Changing_Registered_Email_Address_For_An_Account.puml`.  
-[comment]: <> Please refer to https://plantuml.com/activity-diagram-beta for the latest Activity Diagram syntax.
-[comment]: <> There's a Hitchhiker's Guide to PlantUML located at https://crashedmind.github.io/PlantUMLHitchhikersGuide/ .
+[comment]: <> Please refer to `https://plantuml.com/activity-diagram-beta` for the latest Activity Diagram syntax.
+[comment]: <> There's a Hitchhiker's Guide to PlantUML located at `https://crashedmind.github.io/PlantUMLHitchhikersGuide/` .
 [comment]: <> Good luck! /Philip H. Schlesinger, original author of this Control
 
 ![Image:Changing_Registered_Email_Address_In_A_System_Flowchart.png](../../assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.png)
