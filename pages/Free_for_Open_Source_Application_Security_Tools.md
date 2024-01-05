@@ -252,9 +252,9 @@ Commercial tools of this type that are free for open source:
         known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
-  - [Vulert](https://vulert.com) - Vulert's Software Composition Analysis (SCA) keeps an eye on your open source dependencies for new risks (vulnerabilities), recommends fixes, and ensures license compliance – all without requiring installation or access to your codebase. Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP, C/C++ and many more.
-      - Vulert Vulnerability Database: As one of the most advanced open-source vulnerability databases available, it includes detailed information on vulnerabilities, fixes, workarounds, background information, FAQs, and more! Visit [Vulert Vulnerability Database](https://vulert.com/vuln-db).
-      - Vulert Playground: Test your app's security without any sign-ups. Simply use your manifest file at [Vulert Playground](https://vulert.com/abom)
+  - [Vulert](https://vulert.com) - Vulert's Software Composition Analysis (SCA) keeps an eye on the open source dependencies for new risks (vulnerabilities), recommends fixes, and ensures license compliance – all without requiring installation or access to the codebase. Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP, C/C++ and many more.
+      - The Vulert Vulnerability Database provides comprehensive details on vulnerabilities affecting open-source software, including fixes, workarounds, background information, FAQs, and more. Visit the [Vulert Vulnerability Database](https://vulert.com/vuln-db).
+      - At Vulert Playground, one can test an app's security without any sign-ups. Visit [Vulert Playground](https://vulert.com/abom)
       - It is free for open source and small companies.
   - [WhiteSource](https://www.whitesourcesoftware.com/) - Supports 200+ programming languages.
       - Azure version:
