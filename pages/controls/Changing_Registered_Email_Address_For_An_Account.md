@@ -141,7 +141,7 @@ NOTE: The process is less stringent when using [Multifactor Authentication](http
 
 ## Notes on the Above Processes
 
-### Google thinks differently
+### Google Thinks Differently
 
 IF a User of Google only has their account protected with a password, when someone submits a change of registered email address, if the submitter knows the User's password, [Google just sends a **notification-only** email message to the currently-registered email address](https://support.google.com/accounts/answer/55393?hl=en) for that Google User with a link for "I didn't request this email address change".
 
@@ -150,6 +150,18 @@ This is risky:
 The User's password might be easily-guessable -- or might be a repeated password stolen from another website where the User is registered.
 
 Nevertheless, Google apparently is still ok with the risk that the request might be unauthorized.  Hopefully the real User will see the email message to the soon-to-be originally-registered email address and click the "this is unexpected" link before the "this is unexpected" nonce expires.
+
+### What If The Above Identity-Proofs Are Compromised?
+
+For completeness, the following statements have been added:
+
+If the User has [Multifactor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) enabled for their System account -- and that Multifactor Authentication is compromised, then the User will be vulnerable to having their registered email address changed for the System. The only hope of stopping the change is for the User to monitor the inbox of the currently-registered email address.  
+
+If the inbox for the currently-registered email address is compromised, then the User will be vulnerable to all types of attacks that rely on the trustworthiness of that email address.  See [Intrusion Detection](/controls/Intrusion_Detection).
+
+### What If The Currently-Registered Email Address Is Inaccessible / Gone?
+
+The only option then is for the User to contact the System Administrators out-of-band.  Which leads to the next item:
 
 ### Regular Social Engineering Training Is Essential
 
