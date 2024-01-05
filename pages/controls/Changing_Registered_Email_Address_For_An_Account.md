@@ -176,3 +176,7 @@ In the event someone contacts a System's System Administrator or Help Desk to re
 OWASP recommends regularly training staff on how to identify and respond to social engineering attacks.  However, as of this writing (2023-12-01), OWASP does not offer social engineering training.
 
 For a brief guide, see the United States Cybersecurity & Infrastructure Agency's (CISA) ["Avoiding Social Engineering and Phishing Attacks"](https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks).
+
+### What About Systems Where User Accounts Can Register Multiple Email Addresses?
+
+That will be described in a forthcoming revision of this document.  Content proposals are encouraged.
