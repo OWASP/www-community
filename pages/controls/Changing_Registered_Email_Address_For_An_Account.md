@@ -23,7 +23,7 @@ NOTE: The process is less stringent when using [Multifactor Authentication](http
 
 ![Image:Changing_Registered_Email_Address_In_A_System_Flowchart.png](/assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.png)
 
-## Recommended Process If The User HAS Multifactor Authentication Enabled
+## Recommended Process If The User Has Only One Email Address Associated With Their User Account -- AND Multifactor Authentication Enabled
 
 1. The System shall confirm the User's authentication cookie/token is still valid; if not, the System should display a login screen.
 1. To reduce User friction, the System shall describe to the User the process that the User will be expected to follow to change their registered email address within the System.
@@ -69,7 +69,7 @@ NOTE: The process is less stringent when using [Multifactor Authentication](http
    - In the case that the nonce in the link cannot be found:
       - The System shall state to the User that the request is invalid.
 
-## Recommended Process If The User DOES NOT HAVE Multifactor Authentication Enabled
+## Recommended Process If The User Has Only One Email Address Associated With Their User Account -- AND DOES NOT HAVE Multifactor Authentication Enabled
 
 1. The System shall confirm the User's authentication cookie/token is still valid; if not, the System should display a login screen.
 1. To reduce User friction, the System shall describe to the User the process that the User will be expected to follow to change their registered email address within the System.
