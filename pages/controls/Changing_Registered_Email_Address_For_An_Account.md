@@ -9,7 +9,7 @@ tags: ["controls", "email", "address", "registered", "change", "account", "takeo
 
 {% include writers.html %}
 
-People's email addresses regularly change.  The process below is the recommended method to implement in a system to handle that situation.  
+In many systems, a User's email address is used for identity.  The process below is the recommended method to implement in a system to handle the situation when a User would like to change that registered email address.  
 
 NOTE: The process is less stringent when using [Multifactor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) because the proof-of-identity is stronger than just using a password.
 
