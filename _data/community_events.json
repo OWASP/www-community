@@ -160,6 +160,16 @@
         "description": "Starting with this session, we will start working with the actual challenges listed on the crAPI page. We will also discuss the Postman collection and how that can be used to better understand how the challenges can be completed. In later sessions, we will look at how to create your own collection by proxying the traffic.\n\n[completely ridiculous API (crAPI)](https://owasp.org/crAPI/)\n\n[crAPI Architecture](https://github.com/OWASP/crAPI/blob/develop/docs/crAPI_architecture.md)\n\n[Challenges](https://github.com/OWASP/crAPI/blob/develop/docs/challenges.md)\n\n[Postman Collection](https://github.com/OWASP/crAPI/tree/develop/postman_collections)"
     },
     {
+        "group": "Israel",
+        "repo": "www-chapter-israel",
+        "name": "OWASP IL Meetup - February 2023",
+        "date": "2024-02-06",
+        "time": "8:30+02:00",
+        "link": "https://www.meetup.com/owasp-israel/events/296831820",
+        "timezone": "Asia/Jerusalem",
+        "description": " OWASP IL  happy to invite you to our upcoming Meetup!\nJoin us for another AppSec community event and enjoy food, drinks, mingling, and great talks about security.\n\nThe event will be hosted by Bright Security!\n\n=====================================================================\n\nThe agenda will be published soon.\n\n=====================================================================\n\nThis event is sponsored by Bright Security in collaboration with OWASP Israel.\n\nJoin us at the event physically as we will not include Zoom or remote participation this time."
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -280,6 +290,16 @@
         "description": "*Hacking a SaaS: A Practical Guide to Understanding Attackers and Defending Against Them*\n\nIn this talk, we will delve into the mindset of an attacker and explore the vulnerabilities they exploit in SaaS systems. We will cover the following topics:\n\n* What motivates hackers to target SaaS systems (5%)\n* How hackers conduct reconnaissance on SaaS systems (50%)\n* The anatomy of exploit chains (40%)\n* Strategies for defending against attacks (5%)\n\nOur goal is to provide a practical guide to understanding attackers and defending against them. We will share lots of hacker tips and tricks, and provide plenty of quiz moments to train your intuition. Our focus will be on vulnerabilities that hackers actually care about, rather than theoretical ones. All of our examples will be based on real-world exploit chains, and we will explore multiple vulnerabilities chained together to create media-news-headline-worthy outcomes. By the end of this talk, you will have a better understanding of how attackers think and operate, and you will be better equipped to defend against their attacks.\n\nOur January host and sponsor is Solutional Inc, and the talk will take place in their Portland office at 301 SE 2nd Ave.\n\nPlease RSVP here if you are planning to attend.\n\nThis is a monthly event of OWASP's Portland chapter."
     },
     {
+        "group": "Riyadh",
+        "repo": "www-chapter-riyadh",
+        "name": "Exploiting Windows Architecture",
+        "date": "2024-01-09",
+        "time": "9:30+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/298401481",
+        "timezone": "Asia/Riyadh",
+        "description": "**Topics covered:**\n\nWindows privilege escalation refers to the process of gaining higher levels of access or control on a Windows system than what is initially granted to a user or application. This is often exploited by attackers or security researchers to elevate their privileges and access sensitive resources or execute privileged operations. Privilege escalation can occur through various vulnerabilities or misconfigurations in the Windows operating system."
+    },
+    {
         "group": "Salt Lake City",
         "repo": "www-chapter-salt-lake-city",
         "name": "OWASP-SLC / Wasatch AppSec -January Meetup-In person @ (Cottonwood Heights, UT)",
@@ -308,5 +328,15 @@
         "link": "https://www.meetup.com/owasp-stockholm/events/297944649",
         "timezone": "Europe/Stockholm",
         "description": "Artificial Intelligence is reshaping nearly every sector and will influence our society in ways that we are only now starting to comprehend. Rapid evolvement of tools, methods, and novel approaches is prompting businesses to swiftly adopt fresh solutions to harness the potential of this emerging paradigm. However, as new technologies, methodologies, and work practices are introduced, hackers also adapt and innovate, always staying one step ahead.\nThis session led by cybersecurity specialist Krister Hedfors will explore the techniques that hackers use to leverage, manipulate, and exploit GenAI systems, such as ChatGPT and Code Llama. He will also give an introduction to OWASP top 10 list for Large Language Models (LLM).\n\nThe meeting will start with a mingle at 18:00, the main presentation beginning (with online attendees) at 18:30"
+    },
+    {
+        "group": "Security Integration System",
+        "repo": "www-project-security-integration-system",
+        "name": "Exploiting Windows Architecture",
+        "date": "2024-01-09",
+        "time": "9:30+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/298401481",
+        "timezone": "Asia/Riyadh",
+        "description": "**Topics covered:**\n\nWindows privilege escalation refers to the process of gaining higher levels of access or control on a Windows system than what is initially granted to a user or application. This is often exploited by attackers or security researchers to elevate their privileges and access sensitive resources or execute privileged operations. Privilege escalation can occur through various vulnerabilities or misconfigurations in the Windows operating system."
     }
 ]
