@@ -40,6 +40,16 @@
         "description": "**When:** Thursday, January 11th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar @ Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Salvador Technologies](http://www.salvador-tech.com/)\n\n*Salvador Technologies provides security failover technology for cyber-attack recovery and downtime prevention in Industrial Control Systems (ICS) and Operational Technology (OT) organizations. Its innovative solution bypasses standard cyber-attack recovery protocols and forensics measures, minimizing downtime, and regains operations within an astonishing 30-second timeframe. The company\u2019s platform is used by some of the world\u2019s most secure critical infrastructure organizations, including manufacturing, aerospace, maritime, energy and water companies.*\n\n*For more information, please visit [www.salvador-tech.com.](https://www.salvador-tech.com/)*"
     },
     {
+        "group": "Bangalore",
+        "repo": "www-chapter-bangalore",
+        "name": "OWASP Bangalore Meet 20 January 2024",
+        "date": "2024-01-20",
+        "time": "9:30+05:30",
+        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/298410409",
+        "timezone": "Asia/Kolkata",
+        "description": "Bangalore Meet 20 January 2024 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Cryptography, Threat Modelling and IAM by **Aditi Rai**\n* Dark Web Crawler by **Abhishek Kumar**\n* Exploiting the Firebase Login Mechanism and APIKEY's by **Devendra**\n* Fortifying Security Pipeline by **Rakesh Paruchuri**\n* Security Aspects of Gen AI by **Prashant Kumar Jha**\n*\n\nNote: The session details, including schedule are available below."
+    },
+    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "January meetup",
@@ -68,6 +78,16 @@
         "link": "https://www.meetup.com/owasp-bonita-springs-chapter/events/297926252",
         "timezone": "America/New_York",
         "description": "We're cohosting an event with SWFLSec and SpaceCoastSec!\n\nOne of the most difficult questions about getting started in a cybersecurity career is \"Where do I start?\". Our presenter recently made the transition from an HR / Talent Acquisition role to a cybersecurity role and will present their unique perspective on finding your niche in the cybersecurity realm."
+    },
+    {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "TBA",
+        "date": "2024-02-07",
+        "time": "8:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/297749441",
+        "timezone": "Australia/Brisbane",
+        "description": "Presentation details coming soon, stay tuned!"
     },
     {
         "group": "Chennai",
@@ -150,16 +170,6 @@
         "description": "Ce meetup se deroulera chez **PayFit** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
     },
     {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "OWASP Houston Chapter API Security Study Group Session 4 - crAPI Challenges",
-        "date": "2024-01-08",
-        "time": "8:30-06:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/298262458",
-        "timezone": "America/Chicago",
-        "description": "Starting with this session, we will start working with the actual challenges listed on the crAPI page. We will also discuss the Postman collection and how that can be used to better understand how the challenges can be completed. In later sessions, we will look at how to create your own collection by proxying the traffic.\n\n[completely ridiculous API (crAPI)](https://owasp.org/crAPI/)\n\n[crAPI Architecture](https://github.com/OWASP/crAPI/blob/develop/docs/crAPI_architecture.md)\n\n[Challenges](https://github.com/OWASP/crAPI/blob/develop/docs/challenges.md)\n\n[Postman Collection](https://github.com/OWASP/crAPI/tree/develop/postman_collections)"
-    },
-    {
         "group": "Israel",
         "repo": "www-chapter-israel",
         "name": "OWASP IL Meetup - February 2023",
@@ -168,16 +178,6 @@
         "link": "https://www.meetup.com/owasp-israel/events/296831820",
         "timezone": "Asia/Jerusalem",
         "description": " OWASP IL  happy to invite you to our upcoming Meetup!\nJoin us for another AppSec community event and enjoy food, drinks, mingling, and great talks about security.\n\nThe event will be hosted by Bright Security!\n\n=====================================================================\n\nThe agenda will be published soon.\n\n=====================================================================\n\nThis event is sponsored by Bright Security in collaboration with OWASP Israel.\n\nJoin us at the event physically as we will not include Zoom or remote participation this time."
-    },
-    {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2024-01-08",
-        "time": "8:45-05:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/297721755",
-        "timezone": "America/New_York",
-        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
         "group": "Ljubljana",
