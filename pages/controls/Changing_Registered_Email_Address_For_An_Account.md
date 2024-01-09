@@ -15,13 +15,13 @@ NOTE: The process is less stringent when using [Multifactor Authentication](http
 
 ## Flowchart
 
-[comment]: <> The source code used for rendering this flowchart is in [/assets/controls/src/plantuml/Changing_Registered_Email_Address_For_An_Account.puml](/assets/controls/src/plantuml/Changing_Registered_Email_Address_For_An_Account.puml).
-[comment]: <> See [/assets/controls/src/plantuml/README.md](/assets/controls/src/plantuml/README.md) for information about PlantUML
+[comment]: <> The source code used for rendering this flowchart is in [/assets/controls/src/plantuml/Changing_Registered_Email_Address_For_An_Account.puml]({{ site.baseurl }}/assets/controls/src/plantuml/Changing_Registered_Email_Address_For_An_Account.puml).
+[comment]: <> See [/assets/controls/src/plantuml/README.md]({{ site.baseurl }}/assets/controls/src/plantuml/README.md) for information about PlantUML
 [comment]: <> Good luck!
 [comment]: <> /Philip H. Schlesinger
 [comment]: <> Original Author of this Control
 
-![Image:Changing_Registered_Email_Address_In_A_System_Flowchart.png](/assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.png)
+![Image:Changing_Registered_Email_Address_In_A_System_Flowchart.png]({{ site.baseurl }}/assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.png)
 
 ## Recommended Process If The User Has Only One Email Address Associated With Their User Account -- AND Multifactor Authentication Enabled
 
@@ -157,7 +157,7 @@ For completeness, the following statements have been added:
 
 If the User has [Multifactor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) enabled for their System account -- and that Multifactor Authentication is compromised, then the User will be vulnerable to having their registered email address changed for the System. The only hope of stopping the change is for the User to monitor the inbox of the currently-registered email address.  
 
-If the inbox for the currently-registered email address is compromised, then the User will be vulnerable to all types of attacks that rely on the trustworthiness of that email address.  See [Intrusion Detection](/controls/Intrusion_Detection).
+If the inbox for the currently-registered email address is compromised, then the User will be vulnerable to all types of attacks that rely on the trustworthiness of that email address.  See [Intrusion Detection]({{ site.baseurl }}/controls/Intrusion_Detection).
 
 ### What If The Currently-Registered Email Address Is Inaccessible / Gone?
 
