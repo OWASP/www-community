@@ -1,0 +1,143 @@
+'Written using PlantUML.com Activity Diagram syntax
+@startuml
+group Starting the Request
+    start
+    :User Requests to\nChange Registered\nEmail Address;
+
+    if (Auth Cookie / Token Valid?) then (yes)
+    :User Provides\n"Proposed New"\nEmail Address;
+    else (no)
+    :Display\nLogin\nPage;
+    end
+    endif
+
+    if (User\nhas\nMFA?) then (yes)
+        :User Provides\nValid MFA\nResponse;
+    else (no)
+        :User Provides\nCurrently-Registered\nPassword;
+    endif
+
+    partition "Nonce Generation" {
+        :Create unique time-limited nonce to\n\n"Report the Change Request was Unexpected";
+        :Create unique time-limited nonce to\n\n"Confirm the Change from 'Proposed New' Email Account";
+        
+        if (User\nhas\nMFA?) then (yes)
+        else (no)
+            :Create unique time-limited nonce to\n\n"Confirm the Change from Currently-Registered Email Account";
+            note right
+                Extra security for 
+                password-only Users 
+                in case of:
+                
+                (a) easily-guessed password
+                or
+                (b) stolen repeated password
+            end note
+        endif
+    }
+    partition "Send Emails" {
+        :Email **Proposed New** email address 
+        **Confirmation-Required** message
+
+        Include two links:
+        * Confirm the Change From This Account
+        * Report the Change Request was Unexpected;
+
+        if (User\nhas\nMFA?) then (yes)
+            :Email **Currently-Registered** email address
+            **Notification-Only** message
+            
+            Include one link:
+            * Report the Change Request was Unexpected;
+        else (no)
+            :Email **Currently-Registered** email address 
+            **Confirmation-Required** message
+
+            Include two links:
+            * Confirm the Change From This Account as Well
+            * Report the Change Request was Unexpected;
+
+            note right
+                See above note
+                Why non-MFA account
+                Needs extra confirmation
+            end note
+        endif
+    }
+    stop
+end group
+
+group "Processing Clicked Links"
+    start
+    :System receives
+    Clicked link
+    With nonce;
+    if (Nonce is known\nAND\nStill within\ntime-limit?) then (yes)
+        switch (Type\nof\nNonce?)
+        case ( Report Unexpected\nChange Request )
+            :Notify
+            SysOp / SysAdmin;
+            end
+        case ( Confirm\n**Proposed New**\nEmail Address )
+            if (User\nhas\nMFA?) then (yes)
+                label sp_lab5
+                label sp_lab4
+                label sp_lab3
+                label sp_lab2
+                label sp_lab1
+                label sp_lab0
+                'real label
+                label complete_change
+                :Change registered
+                Email address to
+                **Proposed New** address;
+                :Delete nonces
+                For this
+                Change request;
+                :Tell User
+                Change is complete;
+                :Force User
+                To login with
+                New Email Address;
+                end
+            else (no)
+                if (User has clicked\nConfirmation Link\nfrom **Currently-Registered** Email?) then (yes)
+                    label sp_lab10
+                    label sp_lab11
+                    label sp_lab12
+                    label sp_lab13
+                    goto sp_lab0
+                else (no)
+                    :Tell User
+                    Need to click
+                    Confirm link in
+                    **Currently-Registered** email;
+                    end
+                endif
+            endif
+        case ( Confirm Change from Currently-Registered Email Address )
+            if (User has clicked\nConfirmation Link\nfrom **Proposed New** Email?) then (yes)
+                label sp_lab20
+                label sp_lab21
+                label sp_lab22
+                label sp_lab23
+                label sp_lab24
+                label sp_lab25
+                label sp_lab26
+                goto sp_lab0
+            else (no)
+                :Tell User
+                Need to click
+                Confirm link in
+                **Proposed New** email;
+                end
+            endif
+        endswitch
+    else (no)
+        :If nonce is known,
+        Delete nonces for
+        this change request;
+        end
+    endif
+end group
+@enduml
