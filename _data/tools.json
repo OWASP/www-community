@@ -9,6 +9,15 @@
       "type": "DAST"
    },
    {
+      "title": "CodeThreat",
+      "url": "https://www.codethreat.com/",
+      "owner": "CodeThreat",
+      "license": "Commercial or Free",
+      "platforms": "SaaS or On-Premises",
+      "note": "Developer-friendly SAST and SCA solutions, Integration with CI/CD pipelines complements a robust DevSecOps strategy, and AI-powered features provide actionable insights with code fix suggestions and potential attack scenarios, helping developers remediate identified issues promptly.",
+      "type": "SAST"
+   },
+   {
       "title": "Escape",
       "url": "https://www.escape.tech/",
       "owner": "Escape",
