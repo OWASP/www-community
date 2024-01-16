@@ -72,12 +72,12 @@
     {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
-        "name": "TBA",
+        "name": "AppSec: Where to Start, and Some Free, Easy Wins",
         "date": "2024-02-07",
         "time": "8:00+10:00",
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/297749441",
         "timezone": "Australia/Brisbane",
-        "description": "Presentation details coming soon, stay tuned!"
+        "description": "With a limited supply of potential hires and an already maxed security budget, how do we begin to tackle Application Security (AppSec)?\nThis talk will attempt to help provide some direction when it comes to solving this problem. It is aimed at security folks and developers of all skill levels who are interested in getting their feet wet with AppSec.\nDuring the talk we will first explore an industry framework that can help guide the first few steps in our journey. Then, we will dive into a demo and highlight some of the fantastic free and open-source tools that we can use to demonstrate value and rack up a few easy and impactful wins."
     },
     {
         "group": "Chennai",
@@ -150,16 +150,6 @@
         "description": "The event on LLM (Large Language Models) and AI security challenges convened experts and professionals from diverse fields to address the pressing issues surrounding the deployment and use of advanced language models. Participants engaged in insightful discussions on the ethical implications, privacy concerns, and potential risks associated with the increasing capabilities of LLMs.\n\nThe event delved into the intricate balance between harnessing the power of language models for innovation and confronting the security challenges they pose.\n\nKey topics included mitigating biases, ensuring robust encryption, and implementing responsible AI practices to safeguard against misuse. The collaborative atmosphere fostered an exchange of ideas, laying the groundwork for future collaborations and strategies to navigate the evolving landscape of AI security."
     },
     {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Paris - Janvier 2024",
-        "date": "2024-01-15",
-        "time": "9:00+01:00",
-        "link": "https://www.meetup.com/owasp-france/events/298276192",
-        "timezone": "Europe/Paris",
-        "description": "Ce meetup se deroulera chez **PayFit** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
-    },
-    {
         "group": "Germany",
         "repo": "www-chapter-germany",
         "name": "[on-prem] A beginner's guide to SSO (mis)configuration + Face recognition",
@@ -208,16 +198,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/297383153",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Privacy by Design for Web Developers\nIn partnership with **CSA So Cal Chapter**, join us for great networking, dinner and drinks, and see a presentation by **Miguel (Mike) O. Villegas**, President and Founder of iSecurePrivacy, LLC.\n\n**ABSTRACT**: In today's digital landscape, the protection of user privacy has become a paramount concern. As web developers, it is our responsibility to ensure that the websites and applications we create not only deliver exceptional user experiences but also prioritize the privacy and security of user data. This lecture, \"Privacy by Design for Web Developers,\" explores the foundational principles and practical strategies that empower web developers to integrate privacy into every facet of their work.\nIn this lecture, we will delve into the concept of Privacy by Design (PbD) and its significance in the context of web development. We will examine how PbD serves as a proactive approach to safeguarding user data, fostering trust, and complying with evolving privacy regulations such as the GDPR and CCPA/CPRA.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Manchester",
-        "repo": "www-chapter-manchester",
-        "name": "Assembly and Disassembly, an OWASP guide to application security. ",
-        "date": "2024-01-15",
-        "time": "8:00Z",
-        "link": "https://www.meetup.com/owasp-manchester-uk-chapter/events/297939867",
-        "timezone": "Europe/London",
-        "description": "Hello & Welcome\n\nIn this session we'll be discussing application security.\n\nDue to a corporate policy from the venue sponsor, to get into the venue & up to the event, you will need to register with your full name when signing up to the event.\n\nPlease note this event will be recorded so we can put these talks on our YouTube channel afterwards. We will also be trying out our live streaming capabilities.\n\n**6:00 - Open doors & networking & drinks**\n\n**6:30 - Stuart Crawford - Appsec in the Enterprise - in-flight testing and Shifting Left**\nIn a world where web-based applications are ubiquitous, penetration testing is well-established as a way of verifying those applications are secure, but how do we stop finding ourselves falling into an endless cycle of 'deploy, test, fix'?\nThe answer is by paying closer attention to security in the development lifecycle, and I'll provide an example of how we're doing this at one of, if not the largest Independent Software Vendors in the UK\n\n**7:15 - Refreshments (Food & Drinks & Networking)**\n\n**8:00 - Tom Blue - Basic Assembly and Memory**\nThis talk would be an overview of how basic assembly and memory works, the structure of programs compiled in C and how to follow the logic of disassembled programs. I\u2019ll show how to use tools such as ghidra to decompile code and to make the reverse engineering process more efficient and cover things such as buffer overflows, patching code and return oriented programming.\n\n**9:00 - Vacate venue -> to the pub for more socialising**\n\n**LOCATION**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAmazon - MAN11\nHanover Building, Hanover Street, Manchester, M4 4GW\n\n**SPEAKERS**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Stuart Crawford**\nStuart is Appsec program manager at one of the largest SaaS companies in the UK\n\n**Tom Blue**\nTom is a second year student at Lancaster University studying computer science. He\u2019s passionate about cybersecurity, having worked in the industry for two years, as well as helping run LUHack and LUCompSoc, Lancaster University's hacking and computing societies. He works the university as a casual researcher and is currently looking at embedded systems security and I'm helping write the Cyber Physical Systems module for the cybersecurity masters degree. He also worked as an intern for Digital Interruption, a Manchester based cyber security consultancy.\n\n**SPONSORS** (Thank you for supporting our community!!)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAmazon - Venue Sponsor\nPentest - Food & Drink Sponsor\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nAre you passionate about a security topic?\nDo you want to speak at a future event?\nSubmit your interest here - https://forms.gle/zcm9bVNhgDixe8Gq5\n\nDoes your company want to sponsor a venue and/or refreshments?\nEmail Paul - paul.johnston@owasp.org"
     },
     {
         "group": "Morocco",
@@ -318,6 +298,16 @@
         "link": "https://www.meetup.com/owasp-slc/events/297931007",
         "timezone": "America/Denver",
         "description": "**Agenda**:\n\n1. Introductions / Lunch\n2. Presentation by TBA:\n3. Q&A\n\nCome join us for a lunch meetup at the Aumni building in Cottonwood Heights.\nCasual group and anyone interested in Application Security is welcome to attend. We'll discuss software security tips and practices others are implementing to support their organization's AppSec efforts.\n\nSee you there!"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2024-02-14",
+        "time": "2:00-08:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/297834962",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Stockholm",
