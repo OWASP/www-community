@@ -1,5 +1,23 @@
 [
    {
+      "title": "OSTE Meta Scanner",
+      "url": "https://github.com/OSTEsayed/OSTE-Meta-Scan",
+      "owner": "OSTEsayed",
+      "license": "Open Source",
+      "platforms": "Linux",
+      "note": "OSTE meta scanner is a comprehensive web vulnerability scanner that combines multiple DAST scanners, including Nikto Scanner, ZAP, Nuclei, SkipFish, and Wapiti.",
+      "type": "DAST"
+   },
+   {
+      "title": "CodeThreat",
+      "url": "https://www.codethreat.com/",
+      "owner": "CodeThreat",
+      "license": "Commercial or Free",
+      "platforms": "SaaS or On-Premises",
+      "note": "Developer-friendly SAST and SCA solutions, Integration with CI/CD pipelines complements a robust DevSecOps strategy, and AI-powered features provide actionable insights with code fix suggestions and potential attack scenarios, helping developers remediate identified issues promptly.",
+      "type": "SAST"
+   },
+   {
       "title": "Escape",
       "url": "https://www.escape.tech/",
       "owner": "Escape",
@@ -8,17 +26,17 @@
       "note": "Run thousands of GraphQL security scans",
       "type": "DAST"
    },
-   {
-      "title": " Threatspy",
+ {
+      "title": "Threatspy",
       "url": "https://www.secureblink.com/threatspy",
       "owner": "Secure Blink",
-      "license": "Commercial",
+      "license": "Commercial or Free",
       "platforms": "SaaS",
-      "note": "Web application, API Scan while providing Auto Remediations",
+      "note": "Threatspy is the heuristic Application Security Management Platform. Discovering Both Known and Unknown Vulnerabilities, Strategically Prioritized via the Reachability Framework, with Built-in Automated Remediation. ",
       "type": "DAST"
    },
      {
-      "title": " Akto",
+      "title": "Akto",
       "url": "https://www.akto.io/",
       "owner": "Akto",
       "license": "Commercial",
@@ -367,7 +385,16 @@
       "platforms": "Windows, Linux and Macintosh",
       "note": "GPLv2.0",
       "type": "DAST"
-   },
+   },  
+   {
+      "title": "Heyhack",
+      "url": "https://heyhack.com/",
+      "owner": "Heyhack",
+      "license": "Commercial",
+      "platforms": "SaaS or On-Premise",
+      "note": "Free trial available",
+      "type": "DAST"
+   },   
    {
       "title": "Holm Security",
       "url": "https://www.holmsecurity.com/product/web-application-scanning",
@@ -376,7 +403,7 @@
       "platforms": "Saas or On-Premise",
       "note": null,
       "type": "DAST"
-   },   
+   }, 
    {
       "title": "HostedScan.com",
       "url": "https://hostedscan.com",
@@ -821,7 +848,7 @@
    {
       "title": "Zed Attack Proxy",
       "url": "https://zaproxy.org",
-      "owner": "OWASP",
+      "owner": "The ZAP Development Team",
       "license": "Open Source",
       "platforms": "Windows, Unix/Linux, and Macintosh",
       "note": "Apache-2.0",
@@ -1840,8 +1867,44 @@
       "url": "https://secopsolution.com",
       "owner": "SecOps Solution",
       "license": "Commercial or Free",
-      "platforms": "Windows, Linux, SaaS",
-      "note": "A full-stack vulnerability and patch management platform for identifying and remediating vulnerabilities in servers, network devices, end-points, web application and mobile application",
+      "platforms": "Windows/Linux/SaaS/On-Premises",
+      "note": "An agent-less full-stack vulnerability and patch management platform for identifying and remediating vulnerabilities in servers, network devices, end-points, web application and mobile application",
       "type": "DAST"
+   },
+   {
+      "title": "ABOM Scanner",
+      "url": "https://vulert.com/abom",
+      "owner": "Vulert",
+      "license": "Free",
+      "platforms": "SaaS",
+      "note": "ABOM is an online SCA ( software composition analysis ) tool that scans your application for open-source vulnerabilities using only a manifest file. Covering PHP, JavaScript, Rust, Python, and other top languages.",
+      "type": "SAST"
+   },
+   {
+      "title": "Vulert",
+      "url": "https://vulert.com",
+      "owner": "Vulert",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "An SCA solution that seamlessly monitors applications for open-source vulnerabilities without code access or installations, delivering real-time alerts.",
+      "type": "SAST"
+   },
+   {
+      "title": "Aikido Security",
+      "url": "https://aikido.dev",
+      "owner": "Aikido Security",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Aikido Security is a developer-friendly software security platform. It scans your code, containers & cloud in 9 different ways, showing you which security issues and vulnerabilities are actually important to solve. We speed up triaging massively by cutting out the false-positives, and making things human-readable.",
+      "type": "SAST"
+   },
+   {
+      "title": "NaiveSystems Analyze",
+      "url": "https://naivesystems.com",
+      "owner": "Naive Systems Ltd.",
+      "license": "Commercial or Free",
+      "platforms": "Windows, macOS and Linux; on-Premises and in Cloud; CLI and CI/CD & IDE plugin",
+      "note": "NaiveSystems Analyze ensures compliance with functional safety and coding standards including MISRA, AUTOSAR, and CWE. Supports C, C++, Java, and other languages. Get started for free, and scale up if needed.",
+      "type": "SAST"
    }
 ]

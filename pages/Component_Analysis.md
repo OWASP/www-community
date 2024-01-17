@@ -282,6 +282,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 
 | Name | Owner | Licence | Platforms |
 | ---- | ----- | ------- |---------- |
+| [Vulert] | Vulert | Commercial / Freemium | Cross Platform / SaaS |
 | [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [GitHub SCA] | GitHub | Freemium | SaaS |
 | [Black Duck Hub] | Synopsys | Commercial | Cross Platform |
@@ -318,6 +319,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Prisma Cloud] | Palo Alto Networks | Commercial | Cross Platform / SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
+| [SBOM Observer] | Bytesafe  | Commercial | SaaS |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
 | [Software Health Indicator] | YourSky.blue | Commercial / Freemium | SaaS |
 | [SOOS] | SOOS | Commercial / Freemium | SaaS |
@@ -327,6 +329,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
 | [Xray] | JFrog | Commercial | Cross Platform |
 
+[Vulert]: https://vulert.com/
 [Scantist SCA]: https://scantist.com/
 [Bytesafe]: https://bytesafe.dev/
 [Bytesafe Dependency Checker]: https://bytesafe.dev/dependency-checker/javascript/
@@ -359,6 +362,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [PHP Security Checker]: https://github.com/sensiolabs/security-checker
 [Prisma Cloud]: https://www.paloaltonetworks.com/prisma/cloud
 [Renovate]: https://renovatebot.com/
+[SBOM Observer]: https://sbom.observer/
 [Snyk]: https://snyk.io/
 [Software Health Indicator]: https://software-health-indicator.com/
 [SOOS]: https://soos.io/

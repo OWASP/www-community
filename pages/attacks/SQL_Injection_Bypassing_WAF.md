@@ -378,7 +378,7 @@ characters with their HEX (URL-Encoded) Values.
         http://www.site.com/index.php?page_id=-15 /*!u%6eion*/ /*!se%6cect*/ 1,2,3,4….
         (which means “union select”)
 
-4\) Misc Exploitable Functions: Many firewalls try to offer more
+3\) Misc Exploitable Functions: Many firewalls try to offer more
 Protection by adding Prototype or Strange Functions\! (Which, of course,
 we can exploit\!):
 

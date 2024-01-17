@@ -23,7 +23,8 @@
 			"title": {
 				"$id": "#root/items/title",
 				"title": "Title",
-				"type": "string"
+				"type": "string",
+				"pattern": "^\\S.*"
 			},
 			"url": {
 				"$id": "#root/items/url",

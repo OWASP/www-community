@@ -47,15 +47,7 @@ at all.
 
 ### [DOM Based XSS](attacks/DOM_Based_XSS) (AKA Type-0)
 
-As defined by Amit Klein, who published the first article about this
-issue \[1\], DOM Based XSS is a form of XSS where the entire tainted data
-flow from source to sink takes place in the browser, i.e., the source of
-the data is in the DOM, the sink is also in the DOM, and the data flow
-never leaves the browser. For example, the source (where malicious data
-is read) could be the URL of the page (e.g., document.location.href), or
-it could be an element of the HTML, and the sink is a sensitive method
-call that causes the execution of the malicious data (e.g.,
-document.write)."
+DOM Based XSS (or as it is called in some texts, “type-0 XSS”) is an XSS attack wherein the attack payload is executed as a result of modifying the DOM “environment” in the victim’s browser used by the original client side script, so that the client side code runs in an “unexpected” manner. That is, the page itself (the HTTP response that is) does not change, but the client side code contained in the page executes differently due to the malicious modifications that have occurred in the DOM environment.
 
 # Types of Cross-Site Scripting
 

@@ -41,10 +41,9 @@ defined structure.
 
 ## List of Vulnerabilities
 
-
 <ul>
 {% assign vpages = site.pages | where_exp: "item", "item.tags contains 'vulnerability'" %}
 {% for page in vpages %}
-    <li><a href='/www-community{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+    <li><a href='{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>

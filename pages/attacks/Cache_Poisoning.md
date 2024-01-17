@@ -137,4 +137,4 @@ The request examples used are from the Amit Klein paper referenced below, which 
 needs of the article.
 
 More information can be found in this document, which focuses on these
-kinds of attacks [by Amit Klein, Director of Security and Research](http://packetstormsecurity.org/papers/general/whitepaper_httpresponse.pdf)
+kinds of attacks [by Amit Klein, Director of Security and Research](https://packetstormsecurity.com/files/32815/Divide-and-Conquer-HTTP-Response-Splitting-Whitepaper.html)

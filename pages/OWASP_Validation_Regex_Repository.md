@@ -111,6 +111,12 @@ Please carefully test the regex in your regex engine.
   </regex>
 
   <regex>
+    <name>UK_NINO</name>
+    <pattern><![CDATA[^[A-Z]{2}\d{6}[A-Z]></pattern>
+    <description>United Kingdom National Insurance Number (which is not a number!)</description>
+  </regex>
+
+  <regex>
     <name>US_zip</name>
     <pattern><![CDATA[^\d{5}(-\d{4})?$]]></pattern>
     <description>US zip code with optional dash-four</description>

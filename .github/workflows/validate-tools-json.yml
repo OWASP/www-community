@@ -4,6 +4,7 @@ on:
   pull_request_target:
     paths:
     - '_data/tools.json'
+    - 'tools_schema.json'
 
 permissions:
   contents: read
@@ -14,12 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         ref: ${{github.event.pull_request.head.ref}}
         repository: ${{github.event.pull_request.head.repo.full_name}}
     - name: Setup Node
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
         node-version: 13.x
     - name: Install dependencies

@@ -1,6 +1,5 @@
 ### Important Community Links
-
-* [Community](/www-community)
+* [Community]({{ site.baseurl }}/)
 * Attacks (You are here)
-* [Vulnerabilities](/www-community/vulnerabilities)
-* [Controls](/www-community/controls)
+* [Vulnerabilities]({{ site.baseurl }}/vulnerabilities)
+* [Controls]({{ site.baseurl }}/controls)

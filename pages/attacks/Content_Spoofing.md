@@ -2,7 +2,7 @@
 layout: col-sidebar
 title: Content Spoofing
 author: Andrew Smith
-contributors: Jmanico, Wichers, D0ubl3 h3lix, Rishu Ranjan, ADubhlaoich
+contributors: Jmanico, Wichers, D0ubl3 h3lix, Rishu Ranjan, ADubhlaoich, Arnout Engelen
 permalink: /attacks/Content_Spoofing
 tags: attack, Content Spoofing
 
@@ -21,43 +21,32 @@ value, that is reflected back to the user. This presents the user with a
 modified page under the context of the trusted domain.
 This attack is typically used as, or in conjunction with, social
 engineering because the attack is exploiting a code-based vulnerability
-and a user's trust. As a side note, this attack is widely misunderstood
-as a kind of bug that brings no impact.
+and a user's trust.
+
+The impact of a content spoofing attack strongly depends on the context:
+user-supplied information that is reflected in a way that is correctly
+escaped and clearly visually marked, such as in error messages, may be
+harmless. On the other hand, input that is not clearly visually
+distinguised from the 'valid' content may be used in social engineering
+attacks, and when the input is not correctly escaped it may even
+contain 'active' components, allowing attacks similar to
+[Cross-site Scripting (XSS)](/xss).
 
 > Attack Type: Client-Side
 
 ## Risk Factors
 
-Risk factors depend on the business type of the application. If the
-application business brand is well known and has major competitors, this
-issue can be abused by malicious competitors/disgruntled
-employees/unsatisfied customers to trigger mass distributions of false
-messages to unsuspecting customers. Another factor that heightens the
-risk is by doing SEO injection in a way that search engines crawl and
-index crafted URLs with falsified messages.
-
-By doing so, customers could be forced to switch to competitor's
-products. This could lead to loss of monetary value until rectification
-is properly done by the victim business. For public traded companies,
-its shares will be falling down, leading to uncontrolled loss of
-millions.
-
-![Fake text](../assets/images/Fake-text.png)
-
-## Attack Scenario
-
-An attacker compromised social accounts which have thousands of
-followers and distribute misleading Content Spoofing payload via
-Twitter/Facebook/Instagram/ similar popular channel. This will lead
-media to assume news is correct and create headline stories.
+Content spoofing attacks can be relatively easy to detect in vulnerable
+applications. To successfully execute an attack based on content
+spoofing, the attacker also needs to trick the victim into clicking
+a malicious link, for example via targeted communication or by doing SEO
+injection in a way that search engines crawl and index crafted URLs
+with falsified messages.
 
 ## Audit Guideline
 
-Text injection can be easily found if:
-
-1. User input via parameter or directly in the URL is reflected in the page response
-2. Content-Type: text/plain
-3. Application is giving default error pages
+Text injection can be easily found if user input (either via parameters
+or directly in the URL) is reflected in the page response.
 
 ## Applicable Industries
 
@@ -90,7 +79,7 @@ to text based content spoofing attacks.
 ### Hypertext Markup Language (HTML) Injection
 
 A possible attack scenario is demonstrated below. For this scenario,
-lets assumes no output encoding is being implemented:
+let's assume no output encoding is being implemented:
 
 1. Attacker discovers injection vulnerability and decides to spoof a login form
 2. Attacker crafts malicious link, including their injected HTML content, and sends it to a user via email
@@ -108,7 +97,7 @@ lets assumes no output encoding is being implemented:
     <h1>Welcome to the Internet!</h1>
     <br>
     <body>
-            Hello, <?php echo $name; ?>!
+        Hello, <?php echo $name; ?>!
         <p>We are so glad you are here!</p>
     </body>
 </html>
@@ -168,6 +157,5 @@ Other example:
 - [CERT Advisory on Malicious HTML Tags](http://www.cert.org/advisories/CA-2000-02.html)
 - OWASP's [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 - [HTML Code Injection and Cross-site Scripting](http://www.technicalinfo.net/papers/CSS.html)
-- [Case studies (Spotify, LinkedIn, ..etc)](https://twitter.com/ncweaver/status/974802236567007232?s=12)
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
