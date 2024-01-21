@@ -7,7 +7,7 @@
         "time": "19:00+01:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/297958036",
         "timezone": "Europe/Copenhagen",
-        "description": "OWASP Aarhus and ITM8/Improsec are happy to invite you to the next OWASP Aarhus meetup.\n\nITM8/Improsec will be the host and we will provide more information as we get closer to the event."
+        "description": "OWASP Aarhus and ITM8/Improsec are happy to invite you to the next OWASP Aarhus meetup.\n\n19:00 \u2013 19:15 Welcome by Mathias Holdt, Improsec and Thomas Ljungberg Kristensen, OWASP Aarhus\n19:45 \u2013 20:00 Mathias Holdt, Regional Director, Improsec and Adam Lane Brass, Security Advisor, Improsec will present an oversight of attackers and the general landscape as well as concrete examples of exploits found in customer environments.\n20:00 \u2013 20:30 Networking break\n20:30 \u2013 21:15 Lars Karlslund, Freelance Security Consultant, will present his open source attack graph mapping tool Adalanche. The tool shows an attackers view on Active Directory, in order to let defenders find and fix their misconfigurations.\nWhen Lars is not shitposting a lot on Twitter he works as freelance security consultant working for large enterprise customers, primarily assisting to uncover technical security problems on infrastructure components.\n21:15 \u2013 21:30 Closing notes and goodbyes"
     },
     {
         "group": "Atlanta",
@@ -40,16 +40,6 @@
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
     },
     {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "OWASP Bangalore Meet 20 January 2024",
-        "date": "2024-01-20",
-        "time": "09:30+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/298410409",
-        "timezone": "Asia/Kolkata",
-        "description": "Bangalore Meet 20 January 2024 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Cryptography, Threat Modelling and IAM by **Aditi Rai**\n* Dark Web Crawler by **Abhishek Kumar**\n* Exploiting the Firebase Login Mechanism and APIKEY's by **Devendra**\n* Fortifying Security Pipeline by **Rakesh Paruchuri**\n* Security Aspects of Gen AI by **Prashant Kumar Jha**\n*\n\nNote: The session details, including schedule are available below."
-    },
-    {
         "group": "Belem",
         "repo": "www-chapter-belem",
         "name": "Owasp Bel\u00e9m Cesupa",
@@ -78,16 +68,6 @@
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/297749441",
         "timezone": "Australia/Brisbane",
         "description": "With a limited supply of potential hires and an already maxed security budget, how do we begin to tackle Application Security (AppSec)?\nThis talk will attempt to help provide some direction when it comes to solving this problem. It is aimed at security folks and developers of all skill levels who are interested in getting their feet wet with AppSec.\nDuring the talk we will first explore an industry framework that can help guide the first few steps in our journey. Then, we will dive into a demo and highlight some of the fantastic free and open-source tools that we can use to demonstrate value and rack up a few easy and impactful wins."
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "OWASP Chennai Offline Meetup - Jan 20,2024",
-        "date": "2024-01-20",
-        "time": "10:00+05:30",
-        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/298322892",
-        "timezone": "Asia/Kolkata",
-        "description": "**Title**: Unveiling Vulnerabilities: Hacking Adult entertainment and dating sites\n\n**Abstract:** Explore the hidden world of cybersecurity exploits in adult entertainment and dating sites. Our presentation reveals bug bounty findings, exposing vulnerabilities like SSRF, Authentication Bypass, BAC and much more. Real-world case studies shed light on security gaps, providing insights into bug bounty challenges. Beyond exploits, gain practical strategies for stability and persistence in theme-based bug bounty hunting.\n\n**Title:** Attack Surface Management Role in Ransomware Defence\n\n**Abstract:** Amidst rising ransomware threats, this study explores Attack Surface Management (ASM) as a pivotal defense. Delving into ASM's strategies, tools, and real-world successes, it equips organizations to fortify against evolving cyber risks. Covering vulnerabilities, risk mitigation, and future trends, this research empowers proactive defense in today's dynamic threat landscape.\n\n**Registration Form**: https://forms.gle/ER4LesKYrf5ouj7J9"
     },
     {
         "group": "Copenhagen",
@@ -130,6 +110,16 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #10",
+        "date": "2024-01-27",
+        "time": "10:30+05:30",
+        "link": "https://www.meetup.com/owasp-kolkata/events/298669765",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Proposed sessions for this event:\n\n* Art of Threat Modelling by **Samkalpa Mukherjee**\n* Recon Resurgence: Level up your Recon skills for Maximum impact in Bug-Bounty by **Agnibha Dutta**\n* Immutable Desktop using Container Orchestration by **Mohammed Danish Amber**\n* Demystifying DNS Attacks by **Rakesh Seal**\n* Beginners guide to Hardware Hacking by **Asutosh Kumar**"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "Los Angeles Joint Cyber Mixer",
@@ -147,7 +137,7 @@
         "time": "17:30-08:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/297383153",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Privacy by Design for Web Developers\nIn partnership with **CSA So Cal Chapter**, join us for great networking, dinner and drinks, and see a presentation by **Miguel (Mike) O. Villegas**, President and Founder of iSecurePrivacy, LLC.\n\n**ABSTRACT**: In today's digital landscape, the protection of user privacy has become a paramount concern. As web developers, it is our responsibility to ensure that the websites and applications we create not only deliver exceptional user experiences but also prioritize the privacy and security of user data. This lecture, \"Privacy by Design for Web Developers,\" explores the foundational principles and practical strategies that empower web developers to integrate privacy into every facet of their work.\nIn this lecture, we will delve into the concept of Privacy by Design (PbD) and its significance in the context of web development. We will examine how PbD serves as a proactive approach to safeguarding user data, fostering trust, and complying with evolving privacy regulations such as the GDPR and CCPA/CPRA.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+        "description": "**TOPIC**: Privacy by Design for Web Developers\nIn partnership with **CSA So Cal Chapter**, join us for great networking, dinner, drinks, and see a presentation by **Miguel (Mike) O. Villegas**, President and Founder of iSecurePrivacy, LLC.\n\n**ABSTRACT**: In today's digital landscape, the protection of user privacy has become a paramount concern. As web developers, it is our responsibility to ensure that the websites and applications we create not only deliver exceptional user experiences but also prioritize the privacy and security of user data. This lecture, \"Privacy by Design for Web Developers,\" explores the foundational principles and practical strategies that empower web developers to integrate privacy into every facet of their work.\nIn this lecture, we will delve into the concept of Privacy by Design (PbD) and its significance in the context of web development. We will examine how PbD serves as a proactive approach to safeguarding user data, fostering trust, and complying with evolving privacy regulations such as the GDPR and CCPA/CPRA.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Morocco",
@@ -218,16 +208,6 @@
         "link": "https://www.meetup.com/owasp-portland-chapter/events/298661513",
         "timezone": "America/Los_Angeles",
         "description": "*Hacking a SaaS: A Practical Guide to Understanding Attackers and Defending Against Them*\n\nIn this talk, we will delve into the mindset of an attacker and explore the vulnerabilities they exploit in SaaS systems. We will cover the following topics:\n\n* What motivates hackers to target SaaS systems (5%)\n* How hackers conduct reconnaissance on SaaS systems (50%)\n* The anatomy of exploit chains (40%)\n* Strategies for defending against attacks (5%)\n\nOur goal is to provide a practical guide to understanding attackers and defending against them. We will share lots of hacker tips and tricks, and provide plenty of quiz moments to train your intuition. Our focus will be on vulnerabilities that hackers actually care about, rather than theoretical ones. All of our examples will be based on real-world exploit chains, and we will explore multiple vulnerabilities chained together to create media-news-headline-worthy outcomes. By the end of this talk, you will have a better understanding of how attackers think and operate, and you will be better equipped to defend against their attacks.\n\nOur February host and sponsor is Solutional Inc, and the talk will take place in their Portland office at 301 SE 2nd Ave.\n\nPlease RSVP here if you are planning to attend.\n\nThis is a monthly event of OWASP's Portland chapter.\n\n*[This was our January event, which was canceled for weather. We have rescheduled it for February.]*"
-    },
-    {
-        "group": "Pune",
-        "repo": "www-chapter-pune",
-        "name": "OWASP Pune Meetup 20-Jan-2024",
-        "date": "2024-01-20",
-        "time": "11:00+05:30",
-        "link": "https://www.meetup.com/owasp-pune-chapter/events/298503627",
-        "timezone": "Asia/Kolkata",
-        "description": "It's 2024!!! Let's meet again with our information security community and learn from each other and also have some fun moments.\n\n**Agenda:**\n11AM - 11:15AM - Introduction to OWASP by Jyoti Raval, Prasad Salvi & Pramod Rana\n\n11:15AM - 12:00PM - Session 1 - **Securing the Modern App: Unleashing the Power of Interactive Application Security Testing (IAST)** by **Amol Gangurde**\n\n* Introduction to IAST\n* Traditional DAST vs. IAST\n* Overview of IAST\n* Advantage of IAST\n* Key Features of IAST\n* Benefits of IAST for Developers\n* Challenges and Considerations\n* IAST tools available in market\n* Demo\n* IAST demo using Contrast Community Edition tool\n* Q/A\n\n12PM - 12:15 PM - Networking Break\n\n12:15PM - 01:00 PM - Session 2 - **DevSecOps- Why Should We Embrace It?** by **Kamal Boolchandani**\n\n* Cloud Security\n* Challenges for Cloud Security\n* Case Study: Famous Cloud Attacks\n* Misconfiguration in Cloud\n* Why DevSecOps?\n* DevSecOps vs DevOps\n* DevSecOps RoadBlocks\n* DevSecOps Model (AWS)"
     },
     {
         "group": "Salt Lake City",
