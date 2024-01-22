@@ -1900,11 +1900,11 @@
    },
    {
       "title": "NaiveSystems Analyze",
-      "url": "https://naivesystems.com",
+      "url": "https://github.com/naivesystems/analyze",
       "owner": "Naive Systems Ltd.",
-      "license": "Commercial or Free",
-      "platforms": "Windows, macOS and Linux; on-Premises and in Cloud; CLI and CI/CD & IDE plugin",
-      "note": "NaiveSystems Analyze ensures compliance with functional safety and coding standards including MISRA, AUTOSAR, and CWE. Supports C, C++, Java, and other languages. Get started for free, and scale up if needed.",
+      "license": "Open Source or Free",
+      "platforms": "Windows, MacOS and Linux",
+      "note": "NaiveSystems Analyze ensures compliance with functional safety and coding standards including MISRA, AUTOSAR, and Google C++ Style Guide. Supports C, C++, Java, and more languages.",
       "type": "SAST"
    }
 ]
