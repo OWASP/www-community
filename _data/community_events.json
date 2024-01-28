@@ -80,6 +80,16 @@
         "description": "Presentation: The Rise of API-Led Cyberattacks\n\nAPI-led cyberattacks lead to data breaches, customer data leaks, and privacy-driven lawsuits around the world, which means protecting all APIs is mission-critical. Traditional tactics like web application firewalls won\u2019t work for APIs because they have limits to the level of protection they can provide. The challenge of securing APIs is due to two things. First, APIs are built differently making them harder to protect for traditional security solutions looking just at the network layer vs the source code and two teams don\u2019t have the right tools required for full API discovery to truly know what APIs are in use.\n\nJoin Dr. Anirban Banerjee as he discusses:\n\n* Why API security efforts need to incorporate both 3rd party and internal API traffic\n* What\u2019s causing the surge of API-led attacks\n* Why have traditional tools not maintained the sophistication needed to protect APIs in flight\n* Why teams need to locate and catalog every single API for true auditability\n* Q&A"
     },
     {
+        "group": "Hyderabad",
+        "repo": "www-chapter-hyderabad",
+        "name": "OWASP Hyderabad Chapter Meetup '2024",
+        "date": "2024-02-10",
+        "time": "10:30+05:30",
+        "link": "https://www.meetup.com/hyderabad-owasp-meetup-group/events/298818247",
+        "timezone": "Asia/Kolkata",
+        "description": "Dear Owaspians,\n\nWe are into the 2024 , we are excited to invite you to the first OWASP (Open Web Application Security Project) Hyderabad Chapter Meet. This event promises to be an engaging and insightful gathering of cybersecurity professionals, enthusiasts, and experts from our local community.\n\n**Date:** 10/02/2024 **Time:** 10:30 AM **Location:** Virtual\n**Agenda:**\n\n1. **Welcome and Intro**\n\n* OWASP Team\n**Topic by Expert :** **Mobile Security Framework - MobSF**\n* MobSF is an automated mobile application security testing environment designed to help security engineers, researchers, developers, and penetration testers to identify security vulnerabilities, malicious behaviors and privacy concerns in mobile applications using static and dynamic analysis. It supports all the popular mobile application binaries and source code formats built for Android and iOS devices. In addition to automated security assessment, it also offers an interactive testing environment to build and execute scenario based test/fuzz cases against the application. Ajin will cover the following in this session\n* **Walk through of the latest Static Analysis features**\n* **Brand new MobSF iOS Dynamic Analyzer**\n* **Analyzing and Defeating an Android ransomware at Runtime**\n* **Solving Mobile app CTF challenges**\n* **Adding MobSF to your CI/CD pipeline**\n\n**Speaker Profile:**\n\n* A expert on Computer Security, Applied Security Research and Author of some of the well known open source security tools like\n* **Mobile Security Framework - MobSF, an automated pentesting platform for mobile applications**\n* **OWASP Xenotix XSS Exploit Framework, an advanced cross site scripting detection and exploitation framework**\n* **Droid Application Fuzz Framework, an android browser**\n**pdf fuzzing framework**\n* **nodejsscan, a semantic aware SAST for Node.js web applications**\n*\n* *A special mention for OWASP Xenotix and MobSF by Ajin has been among the Top 10 Security tools by ToolsWatch for the years 2013, 2014, 2016 and 2017.*\n\nHe has been a regular in publishing of security research at notable security conferences around the globe including BlackHat Europe, BlackHat Asia, Hack In the Box, OWASP AppSec AsiaPac, OWASP AppSec EU, Nullcon, ClubHack, Sacon, c0c0n, Ground Zero Summit, Hack In Paris, and PHDays.\n\nVery recently he has released the brand new version of MobiSF iOS Dynamic Analyser.We are glad to bring him here via a virtual session with him.\n\n**RSVP:** Please confirm your attendance by Meetup link"
+    },
+    {
         "group": "Israel",
         "repo": "www-chapter-israel",
         "name": "OWASP IL Meetup - February 2023",
@@ -100,16 +110,6 @@
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
-        "group": "Kolkata",
-        "repo": "www-chapter-kolkata",
-        "name": "OWASP KOLKATA MEETUP #10",
-        "date": "2024-01-27",
-        "time": "10:30+05:30",
-        "link": "https://www.meetup.com/owasp-kolkata/events/298669765",
-        "timezone": "Asia/Kolkata",
-        "description": "#### Proposed sessions for this event:\n\n* Art of Threat Modelling by **Samkalpa Mukherjee**\n* Recon Resurgence: Level up your Recon skills for Maximum impact in Bug-Bounty by **Agnibha Dutta**\n* Immutable Desktop using Container Orchestration by **Mohammed Danish Amber**\n* Demystifying DNS Attacks by **Rakesh Seal**\n* Beginners guide to Hardware Hacking by **Asutosh Kumar**"
-    },
-    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "Los Angeles Joint Cyber Mixer",
@@ -128,16 +128,6 @@
         "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/298627782",
         "timezone": "Europe/Amsterdam",
         "description": "This is an online meeting and will be streamed on YouTube. The meeting will start at 19:00.\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n**OWASP Dependency-Track**\n*Abstract:*\nSince its inception over a decade ago, OWASP Dependency-Track has pioneered many concepts in the realm of software supply chain security, and software bill of materials (SBOM).\n\nWith increasingly more governments, regulators and organizations asking for SBOMs, the project is more relevant than ever. On the other hand, a non-negligible portion of folks is still puzzled as to what to even do with SBOMs once they have them.\n\nIn this talk, we\u2019ll explore what Dependency-Track is, how it can help organizations in identifying and reducing risk in their software supply chain, and give an outlook into what\u2019s next!\n\n*Bio:*\nAfter years as Security Engineer for a large European payment service provider, Niklas currently works as Cloud Native Engineer for ControlPlane. He is passionate about AppSec, DevSecOps and Open Source. He co-leads the OWASP Dependency-Track project and is a contributor to the OWASP CycloneDX Bill of Materials standard, for which he maintains the official Go tooling.\n\nNote: Stay tuned for the big reveal of another groundbreaking OWASP flagship project"
-    },
-    {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP Training Day - Hamilton (Jan 2024)",
-        "date": "2024-01-27",
-        "time": "08:00+13:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297780340",
-        "timezone": "Pacific/Auckland",
-        "description": "We're pleased to announce that we'll be holding an OWASP Training Day event in Hamilton, on Saturday, 27th January.\n\nClasses will run 8:45 a.m. - 5:30 p.m. Tea breaks and lunch will be provided. Registration check-in opens at 8:00 a.m.\n\n**Registration Fee:** $99 per attendee (plus GST and booking fees)\n\n**Classes on offer:**\n\n* Threat Modelling: From None to Done (John DiLeo)\n* Like ISO/IEC27001, but Backwards (Stephen Coates)\n\n**To Register:** https://events.humanitix.com/owasp-training-day-hamilton-jan-2024"
     },
     {
         "group": "Poland",
