@@ -45,58 +45,42 @@ Tips to get you started in no particular order:
 
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
-OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors get atleast one PR merged for the project. 
+OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors get at least 5 PRs merged for the project. Preference will be given to students
+who get the most work done, and this is usually by submitting the most PRs.
 
-![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+##### 2024 GSOC Ideas / Projects
 
-##### Explanation of Ideas
-You can chose to work on one or a combination of ideas depending on the difficulty!
-* Smart Contract - create an Ethereum smart contract to issue a token when a bug is found
-* Flutter - 
-	- Add designs for a dark theme in the Figma file, then implement a generic theme manager for future themes.
-	- Start with app internationalization and localization (l10n).
-	- ***Design and build the company side part of the app.***
-	- ***Allow anonymous reporting*** for both logged-in and logged-out users, logged-in users should get an option to select whether to report a bug anonymously.
-	- ***Close most of the current issues on the app repo.***
-	- ***Bring the app to MVP level for both Android & iOS.*** 
-* Django - Website integration of new design
-* Private issue reporting - allow companies to switch on private issue reporting.
-* Payments for issues reported - allow companies or individuals to pay big hunters
-* Allow for the detection of banned apps in different countries. How would the internet look like if I was in country x.
-* Allow for customers to track their online presence and help take down links where they did not approve their personal info on.
-* Browser plug-in to check bug reports - scan each site visited against a database to see if any bugs were found - we have a plug-in for chrome, let’s update it.
+We have over 40 projects available in 5 repositories to work on!
 
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+[View them all here](https://github.com/orgs/OWASP/projects/3) or individually:
 
-##### Getting Started
+| Repository | Description | Projects Link
+|---------|------------|------------|
+| [OWASP/BLT](https://github.com/OWASP/BLT/) | The Django backend core project | [View Projects](https://github.com/OWASP/BLT/labels/project) 
+| [OWASP/BLT-Flutter](https://github.com/OWASP/BLT-Flutter/) |  The BLT Flutter APP (app store) | [View Projects](https://github.com/OWASP/BLT-Flutter/labels/project) 
+| [OWASP/BLT-Bacon](https://github.com/OWASP/BLT-Bacon/) |  Coin that rewards bug hunters | [View Projects](https://github.com/OWASP/BLT-Bacon/labels/project)
+| [OWASP/BLT-Extension](https://github.com/OWASP/BLT-Extension/) |  BLT Chrome Extension | [View Projects](https://github.com/OWASP/BLT-Extension/labels/project) 
+| [OWASP/BLT-Action](https://github.com/OWASP/BLT-Action/) |  BLT Github Action | [View Projects](https://github.com/OWASP/BLT-Action/labels/project) 
 
-* [BLT Core](https://github.com/owasp/blt/)
-* [BLT Flutter](https://github.com/OWASP/BLT-Flutter)
 
 #### Expected Results
 
-* Integrated Ethereum smart contract that issues a token when a bug is found and verifed.
-* Release Flutter app on App Store and Play Store.
-* Implementation of private issues reporting.
-* Update of browser plugins to support showing bugs on relative sites in a secure way
-* Ability to choose a country from a selected list and see what apps are banned there
-* Ability for users to report links online with personal information where they can have it removed
+* We would expect that any projects you choose to include in your proposal are fully completed.
 
 Reach out to us on Slack to discuss further on the scope, changes required, _or if you have any other proposal._
-* Please submit your proposal on the BLT GitHub discussion board.  Because it will be easier for the team to review and give feedback there.
-* Team meetings are every Saturday at 12pm EST.  Check Slack for the meet link.
+* Please submit your proposal on the [BLT GitHub discussion board](https://github.com/OWASP/BLT/discussions) in markdown language before you convert it to a PDF.  Because it will be easier for the team to review and give feedback there.
+* Team meetings are every Saturday at 12pm EST on [Slack - Join here](https://owasp.slack.com/archives/C2FF0UVHU)
 
 #### Knowledge Prerequisites
 
 * Python / Django for Backend
 * Flutter for Mobile app
-* Smart contract development
+* Blockchain development
 * Some knowledge of UI designing for design related ideas.
 
 ##### Mentors
 * Donnie on slack (lead mentor)
-* [Aryan Ranjan](mailto:aryan_r@ch.iitr.ac.in) - Flutter and Django Mentor
+* We are looking for mentors, reach out to us on slack
 
 ### [OWASP Maryam](https://owasp.org/www-project-maryam/)
 
