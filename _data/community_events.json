@@ -2,12 +2,42 @@
     {
         "group": "Aarhus",
         "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - February",
+        "date": "2024-02-27",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/298670348",
+        "timezone": "Europe/Copenhagen",
+        "description": "OWASP Aarhus and Danske Commodities are happy to invite you to this OWASP Aarhus meetup.\n\n19:00 \u2013 19:05 Welcome by Tobias Evar Lauridsen, Danske Commodities, and Thomas Ljungberg Kristensen, OWASP Aarhus\n\n19:05 \u2013 20:00 Frans aims to facilitate a case study centered around a simulated security breach, where participants will navigate a company through a security incident, emphasizing the management of employees, customers, authorities, and other stakeholders. This exercise will simulate a scenario where the participants must effectively handle the aftermath of a security breach, addressing concerns related to internal personnel, external clients, regulatory bodies, and other relevant stakeholders.\n\nThrough this simulation, Frans aims to facilitate a comprehensive understanding of the complexities involved and enable participants to apply effective strategies in real-world scenarios\n\nAbout Frans: Frans Skovholm is an attorney and partner at DAHL Law Partnership, responsible for DAHL's compliance team, which includes specialists in NIS2, ISMS, and Commercial compliance. Frans specializes in systematic risk management and advisory services related to ISMS management systems, including ISO 27001. He holds certification as an ISO 27001 Lead Implementer from PECB, which he applies in his consultation on information security law. Furthermore, he engages in work related to data protection law, assisting numerous companies in implementing internal regulations to ensure compliance with the requirements of the General Data Protection Regulation (GDPR).\n\n20:00 \u2013 20:30 Networking break\n\n20:30 \u2013 21:25 Overcoming the DevSecOps Imposter Syndrome by Michael Man, DevSecOps Evangelist and Community Leader, Veracode\n\nThe technology landscape is forever changing, and this is also reflective within the security field. As such, it is very overwhelming for people trying to break into the security domain and it is no difference for people who works in it. In this talk, I will share my perspective with how I had tackled this problem, how I drowned in the tsunami of information which impacted me mentally and tips for you to consider taking your first steps with your Continuous Learning journey.\n\nKey takeaways:\n\\- Admit to yourself that nobody knows it all\n\\- Be brave and ask those questions \\(others will be thankful\\)\n\\- Do not let the opinionated people overwhelm you\n\\- Techniques I use as part of my Continuous Learning\n\nAbout Michael: Michael brings more than 20 years of IT security experience. He has advised large enterprises on secure software development, working across all stages of delivery, while engaging with the different stakeholders to deliver successful business outcomes. His favourite certification is his OSCP due to his keen understanding of ethical hacking practices. Michael is also the founder of one of the largest DevSecOps community meetups \u201cDevSecOps - London Gathering\u201d and has co-organised the conference \u201cDevSecOps Days London\u201d.\n\n21:15 \u2013 21:30 Closing notes and goodbyes"
+    },
+    {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
         "name": "OWASP Aarhus Chapter Meeting - January",
         "date": "2024-01-30",
         "time": "19:00+01:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/297958036",
         "timezone": "Europe/Copenhagen",
         "description": "OWASP Aarhus and ITM8/Improsec are happy to invite you to the next OWASP Aarhus meetup.\n\n19:00 \u2013 19:15 Welcome by Mathias Holdt, Improsec and Thomas Ljungberg Kristensen, OWASP Aarhus\n19:15 \u2013 20:00 Mathias Holdt, Regional Director, Improsec and Adam Lane Brass, Security Advisor, Improsec will present an oversight of attackers and the general landscape as well as concrete examples of exploits found in customer environments.\n20:00 \u2013 20:30 Networking break\n20:30 \u2013 21:15 Lars Karlslund, Freelance Security Consultant, will present his open source attack graph mapping tool Adalanche. The tool shows an attackers view on Active Directory, in order to let defenders find and fix their misconfigurations.\nWhen Lars is not shitposting a lot on Twitter he works as freelance security consultant working for large enterprise customers, primarily assisting to uncover technical security problems on infrastructure components.\n21:15 \u2013 21:30 Closing notes and goodbyes"
+    },
+    {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Scanning at scale using Semgrep and CycloneDX at FanDuel",
+        "date": "2024-02-27",
+        "time": "18:30-05:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/298785828",
+        "timezone": "America/New_York",
+        "description": "When looking at the diverse landscape of source code repositories at a large organization like FanDuel, a series of questions arise:\n\n* What patterns **currently** exist across these repositories?\n* What patterns **should** exist? (ideal state)\n* How ***aligned*** are the current patterns with our ideal state?\n\nCombining theory, practicality, and memes, we demonstrate how FanDuel set out to answer these questions by creating a platform empowering relentless iteration. Learn from our real-world case study how the convergence of application security, data schemas, and vulnerability management\u2014powered by OWASP CycloneDX and Semgrep\u2014revolutionizes the prevention and mitigation of risks. Step into the forefront of innovation and discover a new paradigm that transforms challenges into opportunities in the dynamic information security landscape."
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - February 2024 (Online)",
+        "date": "2024-02-27",
+        "time": "11:30-06:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/298206982",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
     },
     {
         "group": "Austin",
@@ -103,7 +133,7 @@
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
-        "date": "2024-02-12",
+        "date": "2024-02-19",
         "time": "18:45-05:00",
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/298399889",
         "timezone": "America/New_York",
