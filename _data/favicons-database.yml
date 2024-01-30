@@ -2296,3 +2296,7 @@
   hash: 23e8c7bd78e8cd826c5a6073b15068b1
   name: Jenkins
   source: vulners
+- algorithm: MD5
+  hash: 57f501d6fee2fdb024795abbdb750ad5
+  name: Hak5 Cloud C2
+  source: REDC2PORTAL
