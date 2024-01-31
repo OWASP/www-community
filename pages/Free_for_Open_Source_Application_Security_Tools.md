@@ -252,9 +252,9 @@ Commercial tools of this type that are free for open source:
         known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
-  - [Vulert](https://vulert.com) - Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP
-      - A Commercial tool that identifies vulnerable components. It is free for open
-        source.
+  - [Vulert](https://vulert.com) - Vulert's Software Composition Analysis (SCA) keeps an eye on the open source dependencies for new risks (vulnerabilities), recommends fixes, and ensures license compliance – all without requiring installation or access to the codebase. Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP, C/C++ and many more.
+      - At Vulert Playground, one can test an app's security without any sign-ups. Visit [Vulert Playground](https://vulert.com/abom)
+      - It is free for open source and small companies.
   - [WhiteSource](https://www.whitesourcesoftware.com/) - Supports 200+ programming languages.
       - Azure version:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
