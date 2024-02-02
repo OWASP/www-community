@@ -228,69 +228,6 @@ To receive early feedback please:
 
 ##### Explanation of Ideas
 
-###### Score Board UI/UX
-
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-
-![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
-
-Juice Shop's existing Score Board has been rewritten from scratch once
-when the project moved from AngularJS/Bootstrap to Angular/Material.
-Since then, new features, filters and information has been added to it
-over the years. It has grown to a point where it can be confusing for
-beginners. It also became pretty slow to render over time.
-
-After a big facelift project for all the other UI screens, the Score
-Board now is the one screen left to require some special attention. As
-it is the heart and soul of the Juice Shop, any redesign or usability
-improvements must be thoroughly tested and strive for the best possible
-user experience.
-
-###### Companion Guide Tech Stack
-
-![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Not recommended for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-
-The official companion guide eBook ["Pwning OWASP Juice Shop"](https://pwning.owasp-juice.shop) is today written in Markdown
-and compiled with the GitBook legacy CLI into HTML (for [online reading](https://pwning.owasp-juice.shop)) as well as EPUB/PDF (for the [free eBook on LeanPub](https://leanpub.com/juice-shop/)). As GitBook CLI is no longer maintained, it is only a question of time when the current build and publishing pipeline will
-start failing from outdated tooling in general and specifically unsupported old versions of Node.js etc. The CI/CD pipeline for publishing
-is currently running [on AppVeyor](https://ci.appveyor.com/project/bkimminich/pwning-juice-shop) whereas all other Juice Shop components are built with GitHub Actions.
-
-With well over 12,000 readers on LeanPub alone, the eBook is definitely a cornerstone of Juice Shop's success, so it should receive a long-overdue
-renewal of its technology stack. This includes a modern and future-proof authoring format (that still supports both online-reading and eBook export) as well
-as moving the CI/CD pipeline over to GitHub.
-
-###### Add Web3 specific hacking and coding challenges
-
-![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Possible for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-
-The Juice Shop currently focuses primarily on Web2 challenges and it would be good to expose some web3 challenges natively as well as third-party integrations.
-The only concern we have is that playing around with the challenges should not impact the availability of the entire application. We are also open to having our own
-in-memory blockchain if that is needed. This is currently an open-ended and a flexible project idea that can be discussed and planned!
-Oh! Did I not mention we also have [our own NFTs](https://opensea.io/collection/juice-shop)?!
-
-Find and discuss more about the project idea here at [juice-shop#1946](https://github.com/juice-shop/juice-shop/issues/1946)
-
-###### Advanced Cheat Detection
-
-![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Not recommended for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-
-The [current Cheat Detection](https://pwning.owasp-juice.shop/appendix/cheat-detection.html) in Juice Shop is mostly based on expected timespans between solving two challenges.
-It takes challenge difficulty and availability of in-app hints into consideration, as well as possible correlations or dependencies between challenges. It leaves a lot of possible
-data sources out of its calculation, though. For example: Does the user always hit the solution on their first try, or do they explore the vulnerable functionality beforehand? Are the
-HTTP requests showing signs of hacking tool usage? Are the solution steps _exactly_ reproduced from available official or even third party guides or videos?
-
-Could maybe even techniques from banking fraud detection or actual game development be applied in the Juice Shop context? 
-
 ###### Your own idea
 
 ![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
