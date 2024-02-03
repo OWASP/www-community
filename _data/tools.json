@@ -1,5 +1,13 @@
 [
    {
+      "url": "https://www.cycode.com",
+      "owner": null,
+      "license": "Commercial",
+      "platforms": "SaaS, On-Premises, IDE Plugin",
+      "note": "Cycode is a complete ASPM that also has its own native scanners tools from code to cloud, including native SAST and native SCA scanners.",
+      "type": "SAST"
+   },
+   {
       "title": "OSTE Meta Scanner",
       "url": "https://github.com/OSTEsayed/OSTE-Meta-Scan",
       "owner": "OSTEsayed",
