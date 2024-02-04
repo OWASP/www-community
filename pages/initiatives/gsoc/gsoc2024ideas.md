@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2024ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) &bull; [OWASP Nettacker](#owasp-nettacker)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
 
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
@@ -631,7 +631,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 OWASP Nettacker is a Modular Automated Penetration Testing/ Information gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, default credentials.
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-![Preferred for "Medium" GSoC 2032 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
 ##### Explanation of Ideas
 
@@ -660,3 +660,41 @@ Repositories:
 
 * [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+
+### [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
+
+OWASP Threat Dragon is a modeling tool used to create threat model diagrams as part of a secure development lifecycle.
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+
+##### Explanation of Ideas
+
+The threat engine has some features that have not yet been carried over from version 1.x to the current version 2.x.
+These need to be implemented and expanded from what is available in version 1.x;
+each idea is probably a GSoC project in its own right:
+
+- add threats by element for STRIDE/LINDDUN/PLOT4ai [issue #792](https://github.com/OWASP/threat-dragon/issues/792)
+- add threats using OWASP Automated Threats (OATs) patterns [issue #501](https://github.com/OWASP/threat-dragon/issues/501)
+- add descriptions and suggested mitigations for both LINDDUN and PLOT4ai threats
+  [issue #797](https://github.com/OWASP/threat-dragon/issues/797)
+  and [issue #796](https://github.com/OWASP/threat-dragon/issues/796)
+
+##### Getting Started
+
+- Browse the [documentation](https://owasp.org/www-project-threat-dragon/docs-2/) to see if Threat Dragon is for you
+- Join OWASP Slack and contact the Threat Dragon community on channel [#project-threat-dragon](https://app.slack.com/client/T04T40NHX/CURE8PQ68)
+- Refer to the Threat Dragon [contributing guidelines](https://github.com/OWASP/threat-dragon/blob/main/contributing.md)
+
+Repositories:
+
+- [OWASP Threat Dragon on OWASP GitHub](https://github.com/OWASP/threat-dragon)
+
+##### Knowldege  Requirements
+
+- JS & git
+
+##### Mentors
+
+* [Jon Gadsden](mailto:jon.gadsden@owasp.org)
+
