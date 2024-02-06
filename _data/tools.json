@@ -1915,5 +1915,14 @@
       "platforms": "Windows, MacOS and Linux",
       "note": "NaiveSystems Analyze ensures compliance with functional safety and coding standards including MISRA, AUTOSAR, and Google C++ Style Guide. Supports C, C++, Java, and more languages.",
       "type": "SAST"
+   },
+   {
+      "title": "Pixeebot",
+      "url": "https://www.pixee.ai/",
+      "owner": "Pixee",
+      "license": "Commercial or Free",
+      "platforms": "GitHub",
+      "note": "Pixeebot finds security and code quality issues in your code and creates merge-ready pull requests with recommended fixes.",
+      "type": "SAST"
    }
 ]
