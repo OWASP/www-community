@@ -90,6 +90,16 @@
         "description": "Speaker: Ishan Brown: \"Is The OSCP Right For Me?\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "OWASP SnowFROC Conference: GREAT talks, workshops, networking, food and drinks!",
+        "date": "2024-03-07",
+        "time": "08:00-07:00",
+        "link": "https://www.meetup.com/denver-owasp/events/299034782",
+        "timezone": "America/Denver",
+        "description": "SnowFROC (Front Range OWASP Conference) is Denver's premier application security conference. It is an annual, one-day conference which draws about 400 people. For SnowFROC 2024 the event will be held Thursday March 7th. While billed as, \"Denver's premier application security conference\", SnowFROC's presentations and workshops focus on many facets of cybersecurity and over the years, SnowFROC has come to be known for its exceptional value: Hands-on training, excellent food, spectacular networking, great location/venue and professional orchestration.\n\n**REGISTER HERE**: [https://www.eventbrite.com/e/owasp-snowfroc-2024-tickets-788326514827](https://www.eventbrite.com/e/owasp-snowfroc-2024-tickets-788326514827)\n\n2024 TICKET PRICES:\n\n* General Admission Tickets: $95 (required to attend)\n* Premium Workshops: $30 (optional)\n* Basic Workshops: $20 (optional)\n\nSnowFROC includes breakfast, lunch, presentations, vendor giveaways, a panel discussion and optional hands on training and workshops."
+    },
+    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Paris - F\u00e9vrier 2024",
@@ -138,16 +148,6 @@
         "link": "https://www.meetup.com/indyowasp/events/298934678",
         "timezone": "America/New_York",
         "description": "Hi everyone! This time we're going to try an online meetup around lunchtime. We plan on returning to in-person and are working on venues and sponsors.\n\nWe will update the event with Zoom details closer to Thursday.\n\nThanks!"
-    },
-    {
-        "group": "Israel",
-        "repo": "www-chapter-israel",
-        "name": "OWASP IL Meetup - February 2023",
-        "date": "2024-02-06",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-israel/events/296831820",
-        "timezone": "Asia/Jerusalem",
-        "description": " OWASP IL  happy to invite you to our upcoming Meetup!\nJoin us for another AppSec community event and enjoy food, drinks, mingling, and great talks about security.\n\nThe event will be hosted by Bright Security!\n\n=====================================================================\nAgenda:\n 18:00 - 18:30 - gathering and food - We will gather at Bright Security Offices for drinks, great treats, mingling. Safe room free zone!\n 18:30 - 18:45 - Keynote + Microphone tuning\n\n 18:45 to 19:15 - Exploring the Risks of ChatGPT and Other Generative AI Applications\n\nBar Hofesh - Co-Founder & CTO @ Bright Security\n\nThe presentation emphasizes the critical need for security in the realm of AI-generated code, spotlighting common vulnerabilities. It presents the three main avenues of attack against Large Language Models (LLMs): direct attacks on the LLMs themselves, compromises in the infrastructure and integrations, and weaknesses in applications. The presentation offers in-depth examples, particularly focusing on \"social engineering\" methods, to illustrate the techniques and consequences of these security breaches.\n\n 19:15 to 19:45 - Top 5 Open Source Tools All Developers Should Know About!\n\nRaz Probstein - Solution Engineer @ Jit\n\nThe Minimum Viable Security (MVS) approach simplifies the integration of security measures into config files, apps, and CI/CD processes using open source tools. This talk focuses on incorporating five key security controls into the CI/CD pipeline, utilizing tools like Bandit, Gitleaks, OSV-Scanner, KICS, and OWASP\u2019s ZAP. These controls, along with custom measures for enforcing Multi-Factor Authentication via Github Security, establish a foundational security framework from the initial code, allowing continuous improvement as applications evolve over time. Code examples and demos will be presented in the session.\n\n 19:45 - 20:15 - Recent Supply Chain Code Attacks\n\nYoad Fekete - Co-Founder & CEO @ Myrror Security\n\nJoin us for a deep-dive into the world of recent software supply chain attacks and how to defend against them.\nIn this lecture, we will discuss the difference between a supply chain attack and a vulnerability, and explore why there has been a significant increase in these types of attacks in the past couple of years.\nWe will showcase various vectors for these attacks with recent attacks examples.\nThe highlight? A technical demo of an attack, similar to the UA-Parser/Ledger Connect kit malicious package attacks.\n\n=====================================================================\n\nThis event is sponsored by Bright Security in collaboration with OWASP Israel.\n\nJoin us at the event physically as we will not include Zoom or remote participation this time."
     },
     {
         "group": "Jacksonville",
