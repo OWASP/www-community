@@ -16,7 +16,7 @@ In the realm of web security, understanding the nuances of IP spoofing becomes p
 
 Client IP addresses often serve as crucial identifiers in web applications, influencing access controls and rate limits. Understanding their significance is paramount for evaluating potential vulnerabilities and implementing robust security measures.
 
-### Examples of Access Controls and Rate Limits:
+### Examples of Access Controls and Rate Limits
 
 1. **Access Controls Based on IP Addresses:**
    - *Scenario:* An application restricts access to sensitive administrative functionality only to clients connecting from the local IP address of the server.
