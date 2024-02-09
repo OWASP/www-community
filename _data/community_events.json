@@ -30,16 +30,6 @@
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: API Security flaws that are commonly exploited.**\nAs more and more development focusses on APIs to make things faster and easier, security needs to be pushed more toward the front. Mistakes that have been corrected in web application security have now returned as APIs aren\u2019t offered the same protections as they are usually out of the normal flow via security tooling such as WAFs. This means identifying and fixing flaws prior to production is important. This discussion will be around lessons learned from testing and breach data with an eye for prevention. This attendees will learn:\nApplication and API stacks are full of dangerous over-powered methods. These lurking menaces are built into libraries, frameworks, appservers, and runtime platforms. They do crazy things (from a security perspective) like start native processes, parse XML documents, evaluate expressions, and deserialize objects. And they are totally unprotected. Developers can use them without restriction, and attackers can target these binary Bambis without being detected or stopped. Unfortunately, the security of the entire digital ecosystem is entirely reliant on getting developers to take the right steps to use these methods safely\u2026 but it\u2019s way too hard.\n\n**Speaker:**\nJason Kent -- jason.kent@cequence.ai\n\nRSVP:\nhttps://owasp-austin-2024-february.eventbrite.com -- Eventbrite(in-person)"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "February 2024 OWASP Austin Security Professionals Happy Hour",
-        "date": "2024-02-08",
-        "time": "17:30-06:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/298519268",
-        "timezone": "America/Chicago",
-        "description": "**When:** Thursday, February 8th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar @ Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Riscosity](https://www.riscosity.com/)\n*Riscosity is the data flow security platform that empowers teams to have full visibility of all data in transit and automates the redaction or redirection of sensitive events, simplifying how companies meet security and privacy requirements. With Riscosity teams can:*\n\n* *Track and pinpoint any data being sent to any 3rd-party APIs*\n* *Easily map data sub-processors and the information shared with them*\n* *Automatically replace detected sensitive data with redacted inputs*\n* *Continuously monitor and block APIs from data transfers that violate organizational policies*\n\n*For more information, please visit [www.riscosity.com](https://www.riscosity.com/).*"
-    },
-    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "February Meetup",
@@ -58,6 +48,16 @@
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/298658258",
         "timezone": "Asia/Kolkata",
         "description": "Join us for the OWASP Bhopal Chapter meetup where we will discuss the latest trends and best practices in web application security. Our guest speakers will share their expertise on topics such as computer security, application security, open source technologies, and network security.\n\nAt this event, you will have the opportunity to learn about new technologies and tools aimed at improving software security and protecting sensitive information. Whether you are a beginner or an experienced professional in the field of cybersecurity, this meetup will provide valuable insights and a chance to network with like-minded individuals.\n\nDon't miss out on this opportunity to enhance your knowledge and skills in the ever-evolving field of web security. Join us for an engaging evening filled with informative talks, discussions, and networking opportunities. RSVP now for our OWASP Bhopal Chapter meetup and stay ahead in the world of web application security!"
+    },
+    {
+        "group": "Bogota",
+        "repo": "www-chapter-bogota",
+        "name": "Fiesta de Willkommen del 2024",
+        "date": "2024-02-10",
+        "time": "15:00-05:00",
+        "link": "https://www.meetup.com/owasp-bogota-meetup-group/events/299086856",
+        "timezone": "America/Bogota",
+        "description": "Encuentro de 2024 para charlar, beber, comer y hablar de Hacking\n\nIncluye Hamburguesa + Papas + Cerveza\n\nCharla de Eduardo Chavarro\n\nPara confirmar su asistencia es necesario consignar el valor de 30.000:\n\nNequi \u00f3 Daviplata\n3183737510\nCuenta de ahorros Bancolombia\n#89392134248\n\nConserve el pantallazo de su transferencia"
     },
     {
         "group": "Cairo",
@@ -120,16 +120,6 @@
         "description": "Dear Owaspians,\n\nWe are into the 2024 , we are excited to invite you to the first OWASP (Open Web Application Security Project) Hyderabad Chapter Meet. This event promises to be an engaging and insightful gathering of cybersecurity professionals, enthusiasts, and experts from our local community.\n\n**Date:** 10/02/2024 **Time:** 10:30 AM **Location:** Virtual\n**Agenda:**\n\n1. **Welcome and Intro**\n\n* OWASP Team\n**Topic by Expert :** **Mobile Security Framework - MobSF**\n* MobSF is an automated mobile application security testing environment designed to help security engineers, researchers, developers, and penetration testers to identify security vulnerabilities, malicious behaviors and privacy concerns in mobile applications using static and dynamic analysis. It supports all the popular mobile application binaries and source code formats built for Android and iOS devices. In addition to automated security assessment, it also offers an interactive testing environment to build and execute scenario based test/fuzz cases against the application. Ajin will cover the following in this session\n* **Walk through of the latest Static Analysis features**\n* **Brand new MobSF iOS Dynamic Analyzer**\n* **Analyzing and Defeating an Android ransomware at Runtime**\n* **Solving Mobile app CTF challenges**\n* **Adding MobSF to your CI/CD pipeline**\n\n**Speaker Profile:**\n\n* A expert on Computer Security, Applied Security Research and Author of some of the well known open source security tools like\n* **Mobile Security Framework - MobSF, an automated pentesting platform for mobile applications**\n* **OWASP Xenotix XSS Exploit Framework, an advanced cross site scripting detection and exploitation framework**\n* **Droid Application Fuzz Framework, an android browser**\n**pdf fuzzing framework**\n* **nodejsscan, a semantic aware SAST for Node.js web applications**\n*\n* *A special mention for OWASP Xenotix and MobSF by Ajin has been among the Top 10 Security tools by ToolsWatch for the years 2013, 2014, 2016 and 2017.*\n\nHe has been a regular in publishing of security research at notable security conferences around the globe including BlackHat Europe, BlackHat Asia, Hack In the Box, OWASP AppSec AsiaPac, OWASP AppSec EU, Nullcon, ClubHack, Sacon, c0c0n, Ground Zero Summit, Hack In Paris, and PHDays.\n\nVery recently he has released the brand new version of MobiSF iOS Dynamic Analyser.We are glad to bring him here via a virtual session with him.\n\n**RSVP:** Please confirm your attendance by Meetup link"
     },
     {
-        "group": "Indianapolis",
-        "repo": "www-chapter-indianapolis",
-        "name": "Indy OWASP Q1 2024 Meetup",
-        "date": "2024-02-08",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/indyowasp/events/298934678",
-        "timezone": "America/New_York",
-        "description": "Hi everyone! This time we're going to try an online meetup around lunchtime. We plan on returning to in-person and are working on venues and sponsors.\n\nWe will update the event with Zoom details closer to Thursday.\n\nThanks!"
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -157,7 +147,7 @@
         "time": "17:00Z",
         "link": "https://www.meetup.com/owasp-london/events/299058348",
         "timezone": "Europe/London",
-        "description": "DO NOT RSVP on Meetup, use Google RSVP system here:\nhttps://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google\n\n**[20 years of OWASP London](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)**\n\nJoin us as we celebrate a remarkable milestone - the 20th anniversary of OWASP in London! This special event will reflect on the evolution of application security, celebrate our community's achievements, and look ahead to the challenges and opportunities of the future.\n\n**Date:** Thu Feb 22 2024\n**Time:** 5pm-9pm\n**Location:** Google London - 6 Pancras Square\n\nAt this milestone event, we'll delve into the latest trends, challenges, and innovations in the ever-evolving world of cybersecurity. Renowned experts will share their insights through engaging talks and interactive sessions.\n\nWhether you're a seasoned professional or just starting your cybersecurity journey, this event offers a unique opportunity to expand your knowledge and connect with industry leaders.\n\nTo secure your spot, please follow the **[external page](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)** for registration details. Hurry, as spaces are limited!\n\nWe look forward to seeing you there!"
+        "description": "**DO NOT RSVP on Meetup**, use Google RSVP system here:\nhttps://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google\n\n**[20 years of OWASP London](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)**\n\nJoin us as we celebrate a remarkable milestone - the 20th anniversary of OWASP in London! This special event will reflect on the evolution of application security, celebrate our community's achievements, and look ahead to the challenges and opportunities of the future.\n\n**Date:** Thu Feb 22 2024\n**Time:** 5pm-9pm\n**Location:** Google London - 6 Pancras Square\n\nAt this milestone event, we'll delve into the latest trends, challenges, and innovations in the ever-evolving world of cybersecurity. Renowned experts will share their insights through engaging talks and interactive sessions.\n\nWhether you're a seasoned professional or just starting your cybersecurity journey, this event offers a unique opportunity to expand your knowledge and connect with industry leaders.\n\nTo secure your spot, please follow the **[external page](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)** for registration details. Hurry, as spaces are limited!\n\nWe look forward to seeing you there!"
     },
     {
         "group": "Los Angeles",
