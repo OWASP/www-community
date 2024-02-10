@@ -43,7 +43,7 @@
         "group": "Bhopal",
         "repo": "www-chapter-bhopal",
         "name": "Introduction and overview to OWASP",
-        "date": "2024-02-10",
+        "date": "2024-02-16",
         "time": "11:00+05:30",
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/298658258",
         "timezone": "Asia/Kolkata",
@@ -142,12 +142,12 @@
     {
         "group": "London",
         "repo": "www-chapter-london",
-        "name": "20th Anniversary OWASP London (Follow external page to sign up)",
+        "name": "20th Anniversary OWASP London (RSVP on Google's own system)",
         "date": "2024-02-22",
         "time": "17:00Z",
         "link": "https://www.meetup.com/owasp-london/events/299058348",
         "timezone": "Europe/London",
-        "description": "**DO NOT RSVP on Meetup**, use Google RSVP system here:\nhttps://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google\n\n**[20 years of OWASP London](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)**\n\nJoin us as we celebrate a remarkable milestone - the 20th anniversary of OWASP in London! This special event will reflect on the evolution of application security, celebrate our community's achievements, and look ahead to the challenges and opportunities of the future.\n\n**Date:** Thu Feb 22 2024\n**Time:** 5pm-9pm\n**Location:** Google London - 6 Pancras Square\n\nAt this milestone event, we'll delve into the latest trends, challenges, and innovations in the ever-evolving world of cybersecurity. Renowned experts will share their insights through engaging talks and interactive sessions.\n\nWhether you're a seasoned professional or just starting your cybersecurity journey, this event offers a unique opportunity to expand your knowledge and connect with industry leaders.\n\nTo secure your spot, please follow the **[external page](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)** for registration details. Hurry, as spaces are limited!\n\nWe look forward to seeing you there!"
+        "description": "**DO NOT RSVP on Meetup**, use Google RSVP system here:\n[https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)\n\n**[20 years of OWASP London](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)**\n\nJoin us as we celebrate a remarkable milestone - the 20th anniversary of OWASP in London! This special event will reflect on the evolution of application security, celebrate our community's achievements, and look ahead to the challenges and opportunities of the future.\n\n**Date:** Thu Feb 22 2024\n**Time:** 5pm-9pm\n**Location:** Google London - 6 Pancras Square\n\nAt this milestone event, we'll delve into the latest trends, challenges, and innovations in the ever-evolving world of cybersecurity. Renowned experts will share their insights through engaging talks and interactive sessions.\n\nWhether you're a seasoned professional or just starting your cybersecurity journey, this event offers a unique opportunity to expand your knowledge and connect with industry leaders.\n\nTo secure your spot, please follow the **[external page](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)** for registration details. Hurry, as spaces are limited!\n\nWe look forward to seeing you there!"
     },
     {
         "group": "Los Angeles",
@@ -198,6 +198,16 @@
         "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/298951512",
         "timezone": "America/New_York",
         "description": "Large language models (LLMs) have opened up new possibilities for a range of downstream applications leveraging natural language generation, understanding, and reasoning. This talk provides an introduction to LLMs, then explores their potential downstream enterprise use cases with enterprise private data . We will overview popular architecture patterns that make LLMs amenable for downstream tasks, as well as tech stacks that enable easier integration. Additionally, we compare open source versus closed source LLMs in the context of customizability, transparency and security - important considerations for downstream applications. The talk also dives into LLMOps - best practices around monitoring, maintenance and updates to preserve integrity and performance in downstream production applications. Overall, the goal is to equip the audience with an understanding of how LLMs can drive value through customized downstream enterprise applications while also considering practical implications of security, operations and responsible AI."
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Security properties of LLM-assisted code",
+        "date": "2024-02-29",
+        "time": "18:00-08:00",
+        "link": "https://www.meetup.com/owasp-oc/events/299073790",
+        "timezone": "America/Los_Angeles",
+        "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n1. **RSVPs will close at 11:59 PM PT on February 25th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n2. **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n\n* If your first and last name do not appear in our admin view, we will contact you. Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Abstract**\nHelping programmers write code faster is now one of the top use-cases of large language models. But is that code secure? In this talk we will cover both the promise and security risks of using LLMs for coding. Attendees will come away with an understanding of how to get the productivity benefits of LLM copilots for coding, while mitigating the risk of writing insecure code.\n\n**Agenda**\n6:00 PM - 6:30PM Food, drinks, and networking\n6:30 PM - 7:30 PM Presentation\n7:30 PM - 8:00 PM Raffle, networking, and cleanup"
     },
     {
         "group": "Ottawa",
