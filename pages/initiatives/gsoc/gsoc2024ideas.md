@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2024ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
 
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
@@ -324,8 +324,7 @@ Reach out to us on Slack to discuss these and other ideas!
 
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
-The OWASP DevSecOps Maturity Model provides opportunities to harden DevOps strategies and shows how these can be prioritized.
-It contains of an application and the model data.
+Join us in enhancing the DSOMM, a pivotal tool designed to improve the security and operational efficiency of software development processes. We are looking for passionate students to contribute to two major areas: our main application development in JavaScript and our metric analyzer and collector in Java. Whether you are looking to tackle medium-sized challenges or are ready to embark on a larger project, we have exciting opportunities for you.
 
 To receive early feedback please:
 - put your proposal on Google Docs and submit it to the OWASP
@@ -333,32 +332,37 @@ To receive early feedback please:
 - Please pick "dsomm" as Proposal Tag to make them easier to find
   for us. Thank you!
 
-##### Medium Feature Pack for the Application
+##### Medium Feature Pack for the DSOMM Main Application (JS)
 ![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+This pack includes tasks that are crucial for enhancing the user experience and functionality of the DSOMM main application. Contributors will address existing issues and add new features:
+- Implement a **State or Tag for "Not yet assessed"**, addressing [Issue #241]([https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/241](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/241)) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+- Enhance the **Excel download feature in "Mapping"** by adding assessment information, as discussed in [Issue #244](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/244#issuecomment-1811127472) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+- Refine the handling of **subcategories** to streamline the organization and presentation of maturity model elements, making the tool more intuitive. See [Issue #194](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/194) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Introduce the **Adding of Diagrams** feature to enhance the visualization of DevSecOps processes and maturity levels, as outlined in [Issue #183]([https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/194](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/183)) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
 
-- [Comprehensive activity view](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/192) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- [Team-based asessment](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/211) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- [Enhancement of diagram](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/183) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- Your idea
+##### Large Feature Pack for the metric Analyzer and Collector (Java)
+![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+This pack challenges students to develop the entire workflow from data collection to visualization for DSOMM metrics, including the implementation of a Kafka queue. Projects include:
+- Design and implement a **collector for OWASP DefectDojo**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) via the [defectdjo-client](https://github.com/SDA-SE/defectdojo-client) which fetches MTTR/MTTP) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Develop a **collector for Backstage and Confluence**, to retrieve essential documents such as threat modeling and pentest reports, with a focus on document management and identification. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Create a **collector for Jenkins**, aimed at measuring deployment frequency by team, a key metric in DevOps performance. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+-Engineer a **collector for GitHub**, to calculate Mean Time to Patch by tracking pull request opening and merge dates. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
 
-##### Large Feature Pack for the Application
-![Possible for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+Please take a look at the [architecture digram of DSOMM metricCA](https://github.com/devsecopsmaturitymodel/metricCA). The whole way from the collector to grafana needs to be implemented. Please note that a queue Kafka is currently not implemented and needs to be implemented in the collector and in the metricAnalyzer.
 
-- [Comprehensive activity view](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/192) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- [Team-based asessment](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/211) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- [Enhancement of diagram](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/183) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- [Adding of graph support](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/210) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
-- [Adding of tags](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/212) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
-- Your idea
+For Backstage and Confluence a defined format and tags might be used to identify the corresponding team and type of document (e.g. threat modeling/pentest).
 
 #### Prerequisites
-- Angular for application
-- Open Source contributions to Open Source projects
+- Proficiency in the corresponding programming language (JavaScript for the main application, Java for the metric analyzer and collector)
+- Previous contributions to open-source projects are highly desirable, demonstrating your commitment and collaborative skills
 
 ##### Mentors
 Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
+- TbD
 
 ### [OWASP OWTF](https://owasp.org/www-project-owtf/)
 
