@@ -335,25 +335,24 @@ To receive early feedback please:
 ##### Medium Feature Pack for the DSOMM Main Application (JS)
 ![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 This pack includes tasks that are crucial for enhancing the user experience and functionality of the DSOMM main application. Contributors will address existing issues and add new features:
-- Implement a **State or Tag for "Not yet assessed"**, addressing [Issue #241]([https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/241](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/241)) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
+- Implement a **State or Tag for "Not yet assessed"**, addressing [Issue #241]([https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/241](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/241)) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 - Enhance the **Excel download feature in "Mapping"** by adding assessment information, as discussed in [Issue #244](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/244#issuecomment-1811127472) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
-- Refine the handling of **subcategories** to streamline the organization and presentation of maturity model elements, making the tool more intuitive. See [Issue #194](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/194) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- Introduce the **Adding of Diagrams** feature to enhance the visualization of DevSecOps processes and maturity levels, as outlined in [Issue #183]([https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/194](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/183)) ![Difficulty: MedEasyium](https://img.shields.io/badge/difficulty-easy-green)
+- Refine the handling of **subcategories** to streamline the organization and presentation of maturity model elements, making the tool more intuitive. See [Issue #194](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/194) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Introduce the **Adding of Diagrams** feature to enhance the visualization of DevSecOps processes and maturity levels, as outlined in [Issue #183]([https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/194](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/183)) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 - **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
 
-##### Large Feature Pack for the metric Analzyer and Collector (Java)
-![Possible for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
-
+##### Large Feature Pack for the metric Analyzer and Collector (Java)
+![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 This pack challenges students to develop the entire workflow from data collection to visualization for DSOMM metrics, including the implementation of a Kafka queue. Projects include:
-- Design and implement a **collector for OWASP DefectDojo**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) via the [defectdjo-client](https://github.com/SDA-SE/defectdojo-client) which fetches MTTR/MTTP) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- Develop a **collector for Backstage and Confluence**, to retrieve essential documents such as threat modeling and pentest reports, with a focus on document management and identification. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- Create a **collector for Jenkins**, aimed at measuring deployment frequency by team, a key metric in DevOps performance. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
--Engineer a **collector for GitHub**, to calculate Mean Time to Patch by tracking pull request opening and merge dates. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
+- Design and implement a **collector for OWASP DefectDojo**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) via the [defectdjo-client](https://github.com/SDA-SE/defectdojo-client) which fetches MTTR/MTTP) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Develop a **collector for Backstage and Confluence**, to retrieve essential documents such as threat modeling and pentest reports, with a focus on document management and identification. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Create a **collector for Jenkins**, aimed at measuring deployment frequency by team, a key metric in DevOps performance. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+-Engineer a **collector for GitHub**, to calculate Mean Time to Patch by tracking pull request opening and merge dates. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 - **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
 
-Please take a look at the [architecture digram of DSOMM metricCA](https://github.com/devsecopsmaturitymodel/metricCA). The hole way from the collector to grafana needs to be implemented. Please note that a queue Kafka is currently not implemented and needs to be implemented in the collector and in the metricAnalyzer.
+Please take a look at the [architecture digram of DSOMM metricCA](https://github.com/devsecopsmaturitymodel/metricCA). The whole way from the collector to grafana needs to be implemented. Please note that a queue Kafka is currently not implemented and needs to be implemented in the collector and in the metricAnalyzer.
 
-For Backstage and Confluence a defined format and tags might be used to identify the correspondig team and type of document (e.g. threat modeling/pentest).
+For Backstage and Confluence a defined format and tags might be used to identify the corresponding team and type of document (e.g. threat modeling/pentest).
 
 #### Prerequisites
 - Proficiency in the corresponding programming language (JavaScript for the main application, Java for the metric analyzer and collector)
