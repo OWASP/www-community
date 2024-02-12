@@ -80,6 +80,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 
 ##### Mentors
 * Donnie on slack (lead mentor)
+* Swapnil Shinde (@AtmegaBuzz) on slack (django and blockchain mentor)
 * We are looking for mentors, reach out to us on slack
 
 ### [OWASP Maryam](https://owasp.org/www-project-maryam/)
