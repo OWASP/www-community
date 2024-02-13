@@ -52,7 +52,7 @@ who get the most work done, and this is usually by submitting the most PRs.
 
 We have over 40 projects available in 5 repositories to work on! Check the difficulty and project size in Github.
 
-[View all BLT project ideas in Github](https://github.com/orgs/OWASP/projects/3) 
+[View all BLT project ideas on Github](https://github.com/orgs/OWASP/projects/3) 
 
 
 #### Expected Results
