@@ -30,6 +30,16 @@
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: API Security flaws that are commonly exploited.**\nAs more and more development focusses on APIs to make things faster and easier, security needs to be pushed more toward the front. Mistakes that have been corrected in web application security have now returned as APIs aren\u2019t offered the same protections as they are usually out of the normal flow via security tooling such as WAFs. This means identifying and fixing flaws prior to production is important. This discussion will be around lessons learned from testing and breach data with an eye for prevention. This attendees will learn:\nApplication and API stacks are full of dangerous over-powered methods. These lurking menaces are built into libraries, frameworks, appservers, and runtime platforms. They do crazy things (from a security perspective) like start native processes, parse XML documents, evaluate expressions, and deserialize objects. And they are totally unprotected. Developers can use them without restriction, and attackers can target these binary Bambis without being detected or stopped. Unfortunately, the security of the entire digital ecosystem is entirely reliant on getting developers to take the right steps to use these methods safely\u2026 but it\u2019s way too hard.\n\n**Speaker:**\nJason Kent -- jason.kent@cequence.ai\n\nRSVP:\nhttps://owasp-austin-2024-february.eventbrite.com -- Eventbrite(in-person)"
     },
     {
+        "group": "Bangalore",
+        "repo": "www-chapter-bangalore",
+        "name": "OWASP Bangalore Meet 17 February 2024 ",
+        "date": "2024-02-17",
+        "time": "09:30+05:30",
+        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/299149652",
+        "timezone": "Asia/Kolkata",
+        "description": "Bangalore Meet 17 February 2024 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Anatomy of Cyber Attack by **Raghav Gupta**\n* Preparation for OSCP and other RedTeaming Certifications by **SATHIYANARAYANA S**\n* Secure Coding by **Aditya Gupta**\n* Mindset of a Purple Team by **Edwin Christy**\n* CIS hardening for Ubuntu by **Ashok Rachapudi**\n\nNote: The session details, including schedule are available below.\n\n### Cloudsek New Office\n\n16/1, Cambridge Rd, Halasuru,\nCambridge Layout, Jogupalya,\nBengaluru, Karnataka 560008"
+    },
+    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "February Meetup",
@@ -60,6 +70,16 @@
         "description": "Speaker: Ishan Brown: \"Is The OSCP Right For Me?\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
+        "group": "Delaware",
+        "repo": "www-chapter-delaware",
+        "name": "OWASP Delaware 2024 kick off",
+        "date": "2024-02-27",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-delaware-chapter/events/299155975",
+        "timezone": "America/New_York",
+        "description": "A quick intro to OWASP and our humble chapter, some brainstorming about what we might consider doing as a chapter in 2024 (monthly meetings perhaps ), some social networking (not engineering, m'kay thanks ), and a quick intro to testing web app security with Burp Suite Community (https://portswigger.net/burp/communitydownload).\n\nThe meeting will be held in the library's computer lab to encourage people to get some hands-on web security testing experience."
+    },
+    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "OWASP SnowFROC Conference: GREAT talks, workshops, networking, food and drinks!",
@@ -68,6 +88,16 @@
         "link": "https://www.meetup.com/denver-owasp/events/299034782",
         "timezone": "America/Denver",
         "description": "SnowFROC (Front Range OWASP Conference) is Denver's premier application security conference. It is an annual, one-day conference which draws about 400 people. For SnowFROC 2024 the event will be held Thursday March 7th. While billed as, \"Denver's premier application security conference\", SnowFROC's presentations and workshops focus on many facets of cybersecurity and over the years, SnowFROC has come to be known for its exceptional value: Hands-on training, excellent food, spectacular networking, great location/venue and professional orchestration.\n\n**REGISTER HERE**: [https://www.eventbrite.com/e/owasp-snowfroc-2024-tickets-788326514827](https://www.eventbrite.com/e/owasp-snowfroc-2024-tickets-788326514827)\n\n2024 TICKET PRICES:\n\n* General Admission Tickets: $95 (required to attend)\n* Premium Workshops: $30 (optional)\n* Basic Workshops: $20 (optional)\n\nSnowFROC includes breakfast, lunch, presentations, vendor giveaways, a panel discussion and optional hands on training and workshops."
+    },
+    {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Denver OWASP February Meetup - Join Us!",
+        "date": "2024-02-21",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/denver-owasp/events/299166209",
+        "timezone": "America/Denver",
+        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on in the new year on February 21st for food, drinks, networking and an exciting presentation. More details shorly. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6."
     },
     {
         "group": "France",
@@ -88,6 +118,16 @@
         "link": "https://www.meetup.com/owasp-frankfurt/events/298501459",
         "timezone": "Europe/Berlin",
         "description": "Hello everyone, we're excited to invite you to kick off our first OWASP Chapter meeting in 2024! Our Chapter serves central Germany particular within the Rhine-Main (Hesse) region as a platform to discuss and share topics all around information and application security. Anyone with an interested and enthusiastic about application security is welcome. All meetings are free and open. You do not have to be an OWASP member.\n\nThere will also be plenty of time to socialize before and after the event.\n\n_What's going to happen?\nWe look forward to welcoming you to our OWASP Frankfurt Meetup - talks and location are to be announced!\n\n_What are we going to talk about?\n\n**1\\. Talk:** **The Role of Data-Centricity in Application and Cloud Security**\n\n*Prof. Dr. Igor Podebrad - Director, Office of the CISO, Google Cloud and former Group CISO at Commzerbank*\n\nIn this talk, Igor explores the journey towards a data-centric security culture. He will delve into the challenges and strategies of embedding data-centricity in cloud and application security initiatives. Drawing from his experience, Igor also shares his experience how this approach transforms organizational security culture.\n\n2\\. Talk **SecOps Evolution: Navigating Security Risks and Operational Changes in the Era of Cloud**\n\n*Esra Yildiz - Security Cloud Solution Architect, Microsoft*\n\nEsra from Microsoft addresses the complex SecOps challenges in the cloud transformation era. Drawing from her experience, Esra will provide her insights on how to identify risks and managing operational changes into creating effective security strategies for evolving cloud environments.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**.\n\n_When?\nOur Meetup takes place on 28.02.2024 from 18.00 to 21.30 o'clock CEST.\n\n_Where?\nDZ Bank, Platz d. Republik, 60325 Frankfurt am Main (Meet at the main Entrance and follow the OWASP signs to guide you)\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you at our event!"
+    },
+    {
+        "group": "Gla University Mathura",
+        "repo": "www-chapter-gla-university-mathura",
+        "name": "Open Source Technologies: Collaborative Development\u00a0in\u00a0Action",
+        "date": "2024-02-17",
+        "time": "10:00+05:30",
+        "link": "https://www.meetup.com/owasp-gla-university-mathura-student-chapter/events/299149460",
+        "timezone": "Asia/Kolkata",
+        "description": "Led by Mr. Rahul Shandilya the session on open source technologies will explore their principles, benefits, and real-world applications. Attendees will gain valuable insights into the latest trends and best practices in open source development, empowering them to leverage these technologies effectively in their own projects .\n\nDate: 17 February 2024\nTime: 10:00 AM (IST)\nVenue: GLA University, Mathura"
     },
     {
         "group": "Jacksonville",
@@ -218,6 +258,16 @@
         "link": "https://www.meetup.com/owasp-portland-chapter/events/298661513",
         "timezone": "America/Los_Angeles",
         "description": "*Hacking a SaaS: A Practical Guide to Understanding Attackers and Defending Against Them*\n\nIn this talk, we will delve into the mindset of an attacker and explore the vulnerabilities they exploit in SaaS systems. We will cover the following topics:\n\n* What motivates hackers to target SaaS systems (5%)\n* How hackers conduct reconnaissance on SaaS systems (50%)\n* The anatomy of exploit chains (40%)\n* Strategies for defending against attacks (5%)\n\nOur goal is to provide a practical guide to understanding attackers and defending against them. We will share lots of hacker tips and tricks, and provide plenty of quiz moments to train your intuition. Our focus will be on vulnerabilities that hackers actually care about, rather than theoretical ones. All of our examples will be based on real-world exploit chains, and we will explore multiple vulnerabilities chained together to create media-news-headline-worthy outcomes. By the end of this talk, you will have a better understanding of how attackers think and operate, and you will be better equipped to defend against their attacks.\n\nOur February host and sponsor is Solutional Inc, and the talk will take place in their Portland office at 301 SE 2nd Ave.\n\nPlease RSVP here if you are planning to attend.\n\nThis is a monthly event of OWASP's Portland chapter.\n\n*[This was our January event, which was canceled for weather. We have rescheduled it for February.]*"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2024-03-13",
+        "time": "12:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/298337300",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Seattle",
