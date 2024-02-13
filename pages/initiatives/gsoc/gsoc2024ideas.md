@@ -363,7 +363,7 @@ For Backstage and Confluence a defined format and tags might be used to identify
 Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
-- TbD
+- [Aryan Prasad](mailto:aryan.prasad@owasp.org)
 
 ### [OWASP OWTF](https://owasp.org/www-project-owtf/)
 
