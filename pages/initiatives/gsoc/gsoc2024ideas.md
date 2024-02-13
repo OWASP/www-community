@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2024ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
 
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
@@ -50,17 +50,9 @@ who get the most work done, and this is usually by submitting the most PRs.
 
 ##### 2024 GSOC Ideas / Projects
 
-We have over 40 projects available in 5 repositories to work on!
+We have over 40 projects available in 5 repositories to work on! Check the difficulty and project size in Github.
 
-[View them all here](https://github.com/orgs/OWASP/projects/3) or individually:
-
-| Repository | Description | Projects Link
-|---------|------------|------------|
-| [OWASP/BLT](https://github.com/OWASP/BLT/) | The Django backend core project | [View Projects](https://github.com/OWASP/BLT/labels/project) 
-| [OWASP/BLT-Flutter](https://github.com/OWASP/BLT-Flutter/) |  The BLT Flutter APP (app store) | [View Projects](https://github.com/OWASP/BLT-Flutter/labels/project) 
-| [OWASP/BLT-Bacon](https://github.com/OWASP/BLT-Bacon/) |  Coin that rewards bug hunters | [View Projects](https://github.com/OWASP/BLT-Bacon/labels/project)
-| [OWASP/BLT-Extension](https://github.com/OWASP/BLT-Extension/) |  BLT Chrome Extension | [View Projects](https://github.com/OWASP/BLT-Extension/labels/project) 
-| [OWASP/BLT-Action](https://github.com/OWASP/BLT-Action/) |  BLT Github Action | [View Projects](https://github.com/OWASP/BLT-Action/labels/project) 
+[View all BLT project ideas on Github](https://github.com/orgs/OWASP/projects/3) 
 
 
 #### Expected Results
@@ -271,57 +263,6 @@ list? Great, please submit it!
   Shop Project Leader
 * [Shubham Palriwala](mailto:spalriwalau@gmail.com) - OWASP Juice Shop Core Team
 * [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Core Team
-
-### [OWASP WrongSecrets](https://owasp.org/www-project-wrongsecrets/)
-
-![Preferred for "Medium" GSoC 2024 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
-![Possible for "Large" GSoC 2024 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
-
-##### Explanation of Ideas
-
-- Revise WrongSecrets frontend ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
-- Port WrongSecrets CTF to Azure ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Port WrongSecrets CTF to GCP ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Create Nomad support ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
-- Improve WrongSecrets CTF helm chart and release process ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-
-##### Getting Started
-
-Repositories:
-
-- [WrongSecrets](https://github.com/owasp/wrongsecrets)
-- [WrongSecrets CTF](https://github.com/owasp/wrongsecrets-ctf-party)
-
-Please use the repositories' issue tracker, GitHub discussions, and don't forget to read the [contributing guide](https://github.com/OWASP/wrongsecrets/blob/master/CONTRIBUTING.md).
-
-#### Expected Results
-
-Depending on the project:
-
-- A revised WrongSecrets frontend
-- Azure CTF support
-- GCP CTF support
-- WrongSecrets Nomad support
-- A helm chart that's up to industry standards with an appropriate release pipeline
-
-Reach out to us on Slack to discuss these and other ideas!
-
-- Please submit your proposal on the WrongSecrets GitHub discussion board or issue tracker to make it easier for the team to review and give feedback.
-- Team meetings are every friday 8.30 CET. Invite will be shared once GSoC application is approved.
-
-#### Knowledge Prerequisites
-
-- Terraform for infra as code
-- Java for application
-- Java/HTML/JavaScript/CSS for application frontend
-- Kubernetes/helm for backend
-- Azure (if extending Azure support)
-- GCP (if extending GCP support)
-- Nomad for backend (if building Nomad support)
-
-##### Mentors
-
-- [Ben de Haan](mailto:ben.dehaan@owasp.org)
 
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
