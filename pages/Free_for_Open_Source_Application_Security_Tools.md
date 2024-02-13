@@ -88,28 +88,25 @@ capabilities. Our primary recommendation is to use one of these:
   - [ZAP](https://www.zaproxy.org/) - A full
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web app pen testing.
-  - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST 
-    tool built on ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during 
-    development and in CI/CD. The StackHawk platform allows you to manage findings over time in 
-    different environments. StackHawk is free for Open Source projects and free to use on a single application.
-  - [Arachni](http://www.arachni-scanner.com/) - Arachni is a commercially supported scanner, but its free for most use cases, including scanning open source projects.
-  - [VWT Digital's sec-helpers](https://github.com/vwt-digital/sec-helpers/tree/master) -
-    Collection of dynamic security related helpers.
-    Sec-helpers is a bundle of useful tests and validators to ensure the security of
-    a given domain.
-  - [OWASP purpleteam](/www-project-purpleteam) - A security regression testing SaaS and CLI,
+  - [OWASP PurpleTeam](/www-project-purpleteam) - A security regression testing SaaS and CLI,
     perfect for inserting into your build pipelines. You don't need to write any tests yourself.
-    purpleteam is smart enough to know how to test, you just need to provide a Job file which tells purpleteam what you want tested.
+    PurpleTeam is smart enough to know how to test, you just need to provide a Job file which tells PurpleTeam what you want tested.
     It has two main environments `local` and `cloud`.
       - `local` is OWASP - set everything up yourself in your own environment.
       - `cloud` is a proprietary offering with everything hosted for you in the cloud.
         You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam).  
-        
-    Purpleteam is pluggable, if it doesn't have a tester that you need you can add your own.
+    PurpleTeam is pluggable, if it doesn't have a tester that you need you can add your own.
     One of the testers (the web application tester) uses ZAP under the hood.
+  - [Arachni](http://www.arachni-scanner.com/) - Arachni is a commercially supported scanner, but its free for most use cases, including scanning open source projects.
   - [CI Fuzz CLI](https://www.code-intelligence.com/cli-tool) - An open source command line tool for creating fuzz tests. The tool is tightly integrated with various build systems, enabling developers to create fuzz tests as easily as unit tests.
   - [Code Intelligence App](https://www.code-intelligence.com/guided-product-tour) - This application security testing platform enables CI/CD-integrated fuzz testing at each pull request. It helps developers to measure and maximize code coverage and to prioritize all findings based on severity. All of this information is then aggregated in a usable dashboard. The testing platform integrates directly into popular ticketing systems and issue trackers.
-
+  - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST
+    tool built on ZAP and optimized to run in CI/CD (almost every CI supported) to test web applications during
+    development and in CI/CD. The StackHawk platform allows you to manage findings over time in
+    different environments. StackHawk is free for Open Source projects and free to use on a single application.
+  - [VWT Digital's sec-helpers](https://github.com/vwt-digital/sec-helpers/tree/master) -
+    Collection of dynamic security related helpers.
+    Sec-helpers is a bundle of useful tests and validators to ensure the security of a given domain.
 
 We are not aware of any other commercial grade tools that offer their
 full featured DAST product free for open source projects.
@@ -221,7 +218,7 @@ Commercial tools of this type that are free for open source:
         - Undertake security gap analysis and identify any blind spots.
      - Free tier for Open-Source projects
   - [SOOS](https://soos.io) - [Free Community Edition](https://app.soos.io/register?registrationType=community) - Our no-hassle enrollment process for open source projects brings practical supply chain security to the masses.
-     - Use our SCA tool with any public GitHub repository
+     - Use with any public GitHub repository
      - C++, Node, Ruby, Python, Java, .Net, and more
      - Integrates with GitHub
      - Connect to Jira, Azure DevOps, or GitHub Issues
@@ -232,7 +229,7 @@ Commercial tools of this type that are free for open source:
     Scala, Golang, .NET, PHP - Latest list here: 
     <https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support>
       - A Commercial tool that identifies vulnerable components and
-        integrates with numerous CI/CD pipelines. It is free for open
+        integrates with numerous CI/CD pipelines. Free for open
         source: <https://snyk.io/plans>
       - If you don't want to grant Snyk write access to your repo (see
         it can auto-create pull requests) you can use the Command Line
@@ -250,26 +247,23 @@ Commercial tools of this type that are free for open source:
       Free for FOSS projects: <https://software-health-indicator.com/order/>
   - [SourceClear](https://www.veracode.com/products/software-composition-analysis)
     Now owned by Veracode. Supports: Java, Ruby, JavaScript, Python, Objective C, GO, PHP
-      - They make their component vulnerability data (for publicly
-        known vulns) free to search:
+      - They make their component vulnerability data (for publicly known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
   - [Vulert](https://vulert.com) - Vulert's Software Composition Analysis (SCA) keeps an eye on the open source dependencies for new risks (vulnerabilities), recommends fixes, and ensures license compliance – all without requiring installation or access to the codebase. Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP, C/C++ and many more.
       - At Vulert Playground, one can test an app's security without any sign-ups. Visit [Vulert Playground](https://vulert.com/abom)
-      - It is free for open source and small companies.
+      - Free for open source and small companies.
   - [WhiteSource](https://www.whitesourcesoftware.com/) - Supports 200+ programming languages.
       - Azure version:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
-      - GitHub version:
-        <https://github.com/marketplace/whitesource-bolt>
+      - GitHub version: <https://github.com/marketplace/whitesource-bolt>
 
 ### Code Quality tools
 
 Quality has a significant correlation to security. As such, we recommend
 open source projects also consider using good code quality tools. A few that we are aware of are:
 
-  - [SpotBugs](https://spotbugs.github.io/) - Open source code
-    quality tool for Java
+  - [SpotBugs](https://spotbugs.github.io/) - Open source code quality tool for Java
       - This is the active fork for FindBugs, so if you use Findbugs, you should switch to this.
       - SpotBugs users should add the FindSecBugs plugin
         (http://find-sec-bugs.github.io/) to their SpotBugs setup, as it
@@ -301,12 +295,10 @@ open source projects also consider using good code quality tools. A few that we 
       - 100% Open-Source and free for all uses, powered and backed by by [OX Security](https://www.ox.security/)
 
 ### Security Tools Built into DevOps/CI Environments
-  - GitLab - is building security into their platform and it is quickly evolving as described here:
-    <https://about.gitlab.com/direction/secure/#security-paradigm>
+  - GitLab - is building security into their platform and it is quickly evolving [as described here](https://about.gitlab.com/direction/secure/#security-paradigm).
       - They are leveraging the best free open source tools they can find
         and building them into the GitLab CI pipeline to make it easy to
-        enable them. [This includes many categories of security 
-        tools](https://about.gitlab.com/stages-devops-lifecycle/secure/):
+        enable them. [This includes many categories of security tools](https://about.gitlab.com/stages-devops-lifecycle/secure/):
         - [SAST](https://docs.gitlab.com/ee/user/application_security/sast/)
         - [DAST](https://docs.gitlab.com/ee/user/application_security/dast/)
         - Code Quality
@@ -322,13 +314,13 @@ open source projects also consider using good code quality tools. A few that we 
 
 Secrets detection is often confused with SAST because both scan through static source code. Secrets detection scan the default branch before deployment but can also scan through every single commit of the git history, covering every branch, even development or test ones.
 
-  - [Gitleaks](https://github.com/zricethezav/gitleaks) - Gitleaks is a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories
-    - All code is open-source (gitleaks) or source-available (Gitleaks-Action).
-    - Over 140 secret types with new types being added all the time: <https://github.com/zricethezav/gitleaks/tree/master/cmd/generate/config/rules>
   - [GitGuardian](https://gitguardian.com/) 
     - A commercial tool that scans your Git repositories’ history and monitors new contributions in real-time for secrets. It examines secret exposure trends over time and monitors team performance.
-      It is free for open source repositories hosted under your GitHub Organization: <https://www.gitguardian.com/pricing>
+      [Free for open source repositories hosted under your GitHub Organization](https://www.gitguardian.com/pricing)
     - [Container Scanning](https://www.gitguardian.com/ggshield) ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hard coded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
+  - [Gitleaks](https://github.com/zricethezav/gitleaks) - Gitleaks is a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories
+    - All code is open-source (gitleaks) or source-available (Gitleaks-Action).
+    - [Over 140 secret types with new types being added all the time](https://github.com/zricethezav/gitleaks/tree/master/cmd/generate/config/rules)
   - [SAP/Credential Digger](https://github.com/SAP/credential-digger) - Open Source
     - A GitHub scanning tool that identifies hardcoded credentials (Passwords, API Keys, Secret Keys, Tokens, personal information, etc.), filtering the false positive data through machine learning models.
   - [TruffleHog](https://github.com/trufflesecurity/trufflehog) - Open Source (supported by an enterprise product: [Truffle Security](https://trufflesecurity.com))
