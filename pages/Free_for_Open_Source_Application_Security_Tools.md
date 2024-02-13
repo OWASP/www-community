@@ -71,9 +71,10 @@ In addition, we are aware of the following commercial SAST tools that are free f
   - [Contrast CodeSec - Scan & Serverless](https://www.contrastsecurity.com/developer/codesec/) - Web App and API code scanners via command line or through GitHub actions. CodeSec - Scan supports Java, JavaScript and .NET, while CodeSec - Serverless supports AWS Lambda Functions (Java + Python). These tools are actually free for all projects, not just open source.
   - [Coverity Scan Static Analysis](https://scan.coverity.com/) - Can be lashed into Travis-CI so it's done automatically with online resources. Supports over a dozen programming languages.
   - [HCL AppScan CodeSweep](https://hclsw.co/codesweep) - This is a SAST community edition version of HCL AppScan. Free for everyone to use. The tool currently supports Python, Ruby, JS (Vue, Node, Angular, JQuery, React, etc), PHP, Perl, Go, TypeScript & more, with new languages being added frequently.
-    - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription. 
-    - [CodeSweep - JetBrains Plugin](https://hclsw.co/codesweep-jetbrains) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.  
-    - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account. 
+    - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.
+    - [CodeSweep - JetBrains Plugin](https://hclsw.co/codesweep-jetbrains) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.
+    - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account.
+  - [Aikido](https://www.aikido.dev/product) - Combines open source software with custom rules & features into a single dashboard with all your security findings. Includes both SAST and Library Analysis tools. [Free for small teams](https://www.aikido.dev/pricing).
   - [AppSweep](https://www.guardsquare.com/appsweep-mobile-application-security-testing) - a free for everyone mobile application security testing tool for Android. It analyzes the compiled application and does not require access to the source code. The tool performs security assessment not only of the executable code but also of application resources and configuration file. Integration into CI/CD is supported.
 
 ### DAST Tools
@@ -186,10 +187,11 @@ Free tools of this type:
      - Identifies, fixes and prevents known vulnerabilities. Read more at [https://debricked.com](https://debricked.com)
      - [Create a free account](https://app.debricked.com/en/register)
    - [retire.js](https://github.com/RetireJS/retire.js): free open source tool for finding javascript libraries with known vulnerabilities. Originally a command line tool, and there are plugins for browsers and scanners.
-       
+
 
 Commercial tools of this type that are free for open source:
 
+  - [Aikido](https://www.aikido.dev/product) - Combines open source software with custom rules & features into a single dashboard with all your security findings. Includes both Library Analysis and SAST tools. [Free for small teams](https://www.aikido.dev/pricing).
   - [Bytesafe](https://bytesafe.dev/) - Bytesafe Dependency Firewall manages source code dependencies securely
     - Detects Known Vulnerabilities in dependencies
     - [Identifies OSS licenses](https://bytesafe.dev/compliance/) used in dependencies and prevents use of problematic licenses.
@@ -272,7 +274,6 @@ open source projects also consider using good code quality tools. A few that we 
       - SpotBugs users should add the FindSecBugs plugin
         (http://find-sec-bugs.github.io/) to their SpotBugs setup, as it
         significantly improves on the very basic security checking native to SpotBugs.
-
   - [SonarQube](https://www.sonarqube.org/)
       - This is a commercially supported, very popular, free (and
         commercial) code quality tool. It includes most if not all the
@@ -280,23 +281,21 @@ open source projects also consider using good code quality tools. A few that we 
         a free, internet online CI setup to run it against your open
         source projects. SonarQube supports numerous languages:
         <https://www.sonarqube.org/features/multi-languages/>
-
   - [DeepScan](https://deepscan.io/) - Supports JavaScript, TypeScript
       - DeepScan is a static code analysis tool and hosted service for 
         inspecting JavaScript code. It checks possible run-time errors 
         and poor code quality using data-flow analysis and provides 
         results for the project's code quality.
       - DeepScan is free for open source projects on GitHub.
-
    - [MegaLinter](https://www.megalinter.io) - Multi-language Code Quality and Security checker
-      - MegaLinter is an Open-Source tool that analyzes the 
-        consistency of your code, IAC, configuration, and scripts in your repository 
-        sources, to ensure all your projects repositories are clean and formatted whatever 
+      - MegaLinter is an Open-Source tool that analyzes the
+        consistency of your code, IAC, configuration, and scripts in your repository
+        sources, to ensure all your projects repositories are clean and formatted whatever
         IDE/toolbox is used by their developers
-      - [More than 100 linters](https://megalinter.io/latest/supported-linters/) supporting 52 
+      - [More than 100 linters](https://megalinter.io/latest/supported-linters/) supporting 52
         languages, 24 formats, 21 tooling formats, spelling and security
-      - Ready to use out of the box, compliant with GitHub Actions, Gitlab CI, Azure Pipelines, 
-        Jenkins, Concourse, Drone CI, or even locally with 
+      - Ready to use out of the box, compliant with GitHub Actions, GitLab CI, Azure Pipelines,
+        Jenkins, Concourse, Drone CI, or even locally with
         [mega-linter-runner](https://megalinter.io/latest/mega-linter-runner/)
       - Highly configurable, without registration
       - 100% Open-Source and free for all uses, powered and backed by by [OX Security](https://www.ox.security/)
@@ -316,32 +315,28 @@ open source projects also consider using good code quality tools. A few that we 
       - The specific tools enabled are language specific.
       - These security features are free for public open source projects on [GitLab.com](https://gitlab.com/)
   - [Faraday](https://www.faradaysec.com/) - Open Source Vulnerability Manager
-      - Security has two difficult tasks: designing smart ways of getting new information, and keeping track of findings to improve remediation efforts.           With Faraday, you may focus on discovering vulnerabilities while we help you with the rest. Just use it in your terminal and get your work                 organized on the run. Faraday was made to let you take advantage of the available tools in the community in a truly multiuser way.
-      - Community Version: public open source projects on [Github](https://github.com/infobyte/faraday)
+      - Security has two difficult tasks: designing smart ways of getting new information, and keeping track of findings to improve remediation efforts. With Faraday, you may focus on discovering vulnerabilities while we help you with the rest. Just use it in your terminal and get your work organized on the run. Faraday was made to let you take advantage of the available tools in the community in a truly multiuser way.
+      - Community Version: public open source projects on [GitHub](https://github.com/infobyte/faraday)
 
 ### Secrets Detection Tools
 
 Secrets detection is often confused with SAST because both scan through static source code. Secrets detection scan the default branch before deployment but can also scan through every single commit of the git history, covering every branch, even development or test ones.
 
-  - [Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) - Open Source
-    - detect-secrets is an aptly named module for detecting secrets within a code base. Unlike other similar packages that solely focus on finding secrets, this package is designed with the enterprise client in mind: providing a backwards compatible means to prevent new secrets from entering the code base.
-  
   - [Gitleaks](https://github.com/zricethezav/gitleaks) - Gitleaks is a fast, light-weight, portable, and open-source secret scanner for git repositories, files, and directories
     - All code is open-source (gitleaks) or source-available (Gitleaks-Action).
     - Over 140 secret types with new types being added all the time: <https://github.com/zricethezav/gitleaks/tree/master/cmd/generate/config/rules>
-
   - [GitGuardian](https://gitguardian.com/) 
     - A commercial tool that scans your Git repositories’ history and monitors new contributions in real-time for secrets. It examines secret exposure trends over time and monitors team performance.
       It is free for open source repositories hosted under your GitHub Organization: <https://www.gitguardian.com/pricing>
     - [Container Scanning](https://www.gitguardian.com/ggshield) ggshield is a command-line interface application to help developers detect and prevent vulnerabilities like hard coded secrets (like API keys, certificates, database connection URLs) before pushing their code to shared repositories. ggshield is integrated with GitGuardian Internal Monitoring, the automated secrets detection and remediation platform. Recently, ggshield has also integrated the capability of scanning Terraform files for infrastructure-as-code for security misconfigurations (public beta).
-
   - [SAP/Credential Digger](https://github.com/SAP/credential-digger) - Open Source
     - A GitHub scanning tool that identifies hardcoded credentials (Passwords, API Keys, Secret Keys, Tokens, personal information, etc.), filtering the false positive data through machine learning models.
-   
   - [TruffleHog](https://github.com/trufflesecurity/trufflehog) - Open Source (supported by an enterprise product: [Truffle Security](https://trufflesecurity.com))
     - Find credentials in repositories (git, GitHub, GitLab), filesystem, S3 buckets, GCS buckets, syslog, CircleCI, Docket Images
     - Eliminates false positives using 700+ credential detectors that support active verification against their respective APIs
-    - Available as a [Github Action](https://github.com/marketplace/actions/trufflehog-oss)
+    - Available as a [GitHub Action](https://github.com/marketplace/actions/trufflehog-oss)
+  - [Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) - Open Source
+    - detect-secrets is an aptly named module for detecting secrets within a code base. Unlike other similar packages that solely focus on finding secrets, this package is designed with the enterprise client in mind: providing a backwards compatible means to prevent new secrets from entering the code base.
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
