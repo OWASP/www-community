@@ -221,6 +221,15 @@ To receive early feedback please:
 
 ##### Explanation of Ideas
 
+###### Tech-Stack Update (Frontend)
+
+![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Not recommended for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~175h)-not%20recommended-red)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+
+Juice Shop is currently using Angular 15 as its frontend foundation. Angular 16 is already available, version 17 is waiting just around the corner. There have been some incompatible compiler changes between 15 and 16 that break some third party components used in Juice Shop. In this project, Angular, along with other frontend libraries, should be updated to their latest versions. See https://github.com/juice-shop/juice-shop/issues/2173 for details on the Angular 16 migration. 
+
 ###### Your own idea
 
 ![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
