@@ -457,15 +457,11 @@ OWASP Threat Dragon is a modeling tool used to create threat model diagrams as p
 
 ##### Explanation of Ideas
 
-The threat engine has some features that have not yet been carried over from version 1.x to the current version 2.x.
-These need to be implemented and expanded from what is available in version 1.x;
-each idea is probably a GSoC project in its own right:
+The threat engine has two features that have not yet been carried over from version 1.x to the current version 2.x.
+These need to be implemented and expanded from what is available in version 1.x; both ideas are independent GSoC projects:
 
 - add threats by element for STRIDE/LINDDUN/PLOT4ai [issue #792](https://github.com/OWASP/threat-dragon/issues/792)
 - add threats using OWASP Automated Threats (OATs) patterns [issue #501](https://github.com/OWASP/threat-dragon/issues/501)
-- add descriptions and suggested mitigations for both LINDDUN and PLOT4ai threats
-  [issue #797](https://github.com/OWASP/threat-dragon/issues/797)
-  and [issue #796](https://github.com/OWASP/threat-dragon/issues/796)
 
 ##### Getting Started
 
@@ -479,7 +475,9 @@ Repositories:
 
 ##### Knowldege  Requirements
 
-- JS & git
+- Javascript
+- Node.js
+- git
 
 ##### Mentors
 
