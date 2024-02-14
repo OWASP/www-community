@@ -22,6 +22,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "March 2024 OWASP Austin Security Professionals Happy Hour",
+        "date": "2024-03-14",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/299104332",
+        "timezone": "America/Chicago",
+        "description": "**When:** Thursday, March 14th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [IriusRisk](https://www.iriusrisk.com)\n*We make secure design the standard, scalable practice for all digital teams. IriusRisk makes secure design fast, reliable and accessible, even to non-security users, thanks to our automated and intelligent Threat Modeling Solution.*"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - February 2024 (Online)",
         "date": "2024-02-27",
         "time": "11:30-06:00",
@@ -58,6 +68,16 @@
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/298658258",
         "timezone": "Asia/Kolkata",
         "description": "Join us for the OWASP Bhopal Chapter meetup where we will discuss the latest trends and best practices in web application security. Our guest speakers will share their expertise on topics such as computer security, application security, open source technologies, and network security.\n\nAt this event, you will have the opportunity to learn about new technologies and tools aimed at improving software security and protecting sensitive information. Whether you are a beginner or an experienced professional in the field of cybersecurity, this meetup will provide valuable insights and a chance to network with like-minded individuals.\n\nDon't miss out on this opportunity to enhance your knowledge and skills in the ever-evolving field of web security. Join us for an engaging evening filled with informative talks, discussions, and networking opportunities. RSVP now for our OWASP Bhopal Chapter meetup and stay ahead in the world of web application security!"
+    },
+    {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "AppSec: Where to Start, and Some Free, Easy Wins",
+        "date": "2024-03-14",
+        "time": "18:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/298999635",
+        "timezone": "Australia/Brisbane",
+        "description": "With a limited supply of potential hires and an already maxed security budget, how do we begin to tackle Application Security (AppSec)?\n\nThis talk will attempt to help provide some direction when it comes to solving this problem. It is aimed at security folks and developers of all skill levels who are interested in getting their feet wet with AppSec.\n\nDuring the talk we will first explore an industry framework that can help guide the first few steps in our journey. Then, we will dive into a demo and highlight some of the fantastic free and open-source tools that we can use to demonstrate value and rack up a few easy and impactful wins."
     },
     {
         "group": "Colorado Springs",
@@ -127,7 +147,7 @@
         "time": "10:00+05:30",
         "link": "https://www.meetup.com/owasp-gla-university-mathura-student-chapter/events/299149460",
         "timezone": "Asia/Kolkata",
-        "description": "Led by Mr. Rahul Shandilya the session on open source technologies will explore their principles, benefits, and real-world applications. Attendees will gain valuable insights into the latest trends and best practices in open source development, empowering them to leverage these technologies effectively in their own projects .\n\nDate: 17 February 2024\nTime: 10:00 AM (IST)\nVenue: GLA University, Mathura"
+        "description": "Led by Mr. Rahul Shandilya the session on open source technologies will explore their principles, benefits, and real-world applications. Attendees will gain valuable insights into the latest trends and best practices in open source development, empowering them to leverage these technologies effectively in their own projects .\n\n**Date:** 17 February 2024\n**Time:** 10:00 AM (IST)\n**Venue:** Room No 402 , AB-1 , GLA University, Mathura"
     },
     {
         "group": "Jacksonville",
@@ -298,16 +318,6 @@
         "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/298921821",
         "timezone": "Asia/Singapore",
         "description": "We have 2 speakers for our very 1st meetup of 2024 and many thanks to Z\u00fchlke Singapore for sponsoring the venue and food!\n\n**Topic 1: Understanding Server-Side Request Forgery \u2013 The new kid on the OWASP Top 10**\n\n**Synopsis:**\nJoin our OWASP meetup for a critical exploration of Server-Side Request Forgery (SSRF), the latest addition to the OWASP Top 10. This talk will introduce SSRF, explaining its 2 flavours and impact on web applications. Gian-Luca will cover its emergence in the security landscape, analyze real-world case studies, and discuss mitigation strategies. For newcomers we\u2019ll do a short practical demo and for app sec experts we are looking forward to a fruitful discussion about potential mitigation strategies.\n\n**Speaker Bio:**\nGian-Luca Frei is an experienced Application Security Consultant based in Singapore, currently working at Z\u00fchlke. With a passion for security, Gian-Luca has a proven track record of securing systems with the highest security standards, including e-banking portals and health applications. He brings a wealth of knowledge and expertise in the field of application security, having worked in the industry for several years. Gian-Luca is also the founder and co-leader of the OWASP Application Gateway Project, which focuses on developing open-source tools to help secure web applications. In addition to his professional engagements, Gian-Luca is a researcher at heart. He has a keen interest in modern cryptographic protocols and has conducted extensive research in this field. His contributions have been recognized with the ISSS Excellence Award in 2019.\n\n**Topic 2: Cracks in the pipeline - Breaking down Software Integrity failures in the wild**\n\n**Synopsis:**\nOpen-source libraries and packages have long been invaluable resources for developers of all skill levels. However, is this dynamic about to shift? Shockingly, between 2022 and 2023, there was a staggering 11,973% surge in reported malicious packages in the wild. Despite this alarming trend, there's a tendency to overlook A08:2021 \u2013 Software and Data Integrity Failures in the OWASP Top 10.\nJoin us as we delve into the unprecedented rise of malicious packages, explore their inner workings, ingenious tactics, and discuss proactive measures we can adopt to counter these threats.\n\n**Speaker Bio:**\nVinoth leads the Cyber Offensive consulting team in Singapore at softScheck APAC. His insatiable curiosity led him into the world of hacking, where he dedicates his time to uncovering vulnerabilities and safeguarding clients across various industries. Vinoth maintains an avid interest in security research, and a particular passion for low-level systems engineering and exploit development."
-    },
-    {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "OWASP Stockholm - Resilience, APIs and Web Security @ Akamai",
-        "date": "2024-02-13",
-        "time": "17:30+01:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/298857354",
-        "timezone": "Europe/Stockholm",
-        "description": "Welcome to an evening with focus on resilience, APIs, and web security!\nThe meetup will start with a mingle (wraps/drinks) at 17:30, the main presentations begins at 18:00. The talks will also be streamed online from 18:00.\n\n**Architecting web applications to achieve DDoS resiliency - [Johan Aldor](https://www.linkedin.com/in/johanaldor/)**\nIn this session, [Johan Aldor](https://www.linkedin.com/in/johanaldor/), Senior Solutions Engineer from Akamai will cover how to architect web applications to achieve DDoS resiliency. DDoS attacks are getting more common and also bigger, if you don\u2019t architecture your web application correctly, coping with attacks can be a hassle. Akamai has over 25 years of experience in running distributed systems and overlay networks. Join us in this session where we share the benefits of using a distributed architecture for DNS, Web Application Firewalls and datacenter protection that will make you ready for any attack.\n\n**API Security is NOT Appsec - [Alexander Cedergren](https://www.linkedin.com/in/acedergr/)**\nAPI Security has become a hot topic and this is what you need to know about it. OWASP recently released the updated OWASP Top 10 API Security Risks, and to be secure you need to rethink your normal security strategy. Join [Alexander Cedergren](https://www.linkedin.com/in/acedergr/), Senior Solutions Engineer at Akamai to learn more about why API Security is NOT AppSec, and what needs to be done different now when APIs is dominating the modern world."
     },
     {
         "group": "Switzerland",
