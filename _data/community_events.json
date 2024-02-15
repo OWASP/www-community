@@ -117,7 +117,7 @@
         "time": "17:30-07:00",
         "link": "https://www.meetup.com/denver-owasp/events/299166209",
         "timezone": "America/Denver",
-        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on in the new year on February 21st for food, drinks, networking and an exciting presentation. More details shorly. Networking with your peers starts at 5 - food is served at 5:30 and the presentation starts at 6."
+        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on in the new year on February 21st for food, drinks, networking and an exciting presentation. More details shorly. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\n**Presentation:** The Rise of AI-Powered Social Engineering - How AI has significantly impacted the efficacy of malicious social engineering campaigns, especially in email. Further, that it is vital to have an AI enhanced based defensive strategy to properly defend against this evolution."
     },
     {
         "group": "France",
@@ -298,16 +298,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/298955593",
         "timezone": "America/Los_Angeles",
         "description": "*Do you know where your secrets are?*\n\n*Do you know what Uber, CircleCI, and Toyota all have in common? They had hardcoded credentials in plaintext somewhere in their environments, leading to either a public leak or enabling an attacker to expand their footprint during a breach.*\n\n*Understanding the problem with hardcoding secrets is simple, but how widespread is this problem? How fast is it growing? How does it keep happening? Moreover, what can you do to address it?*"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2024-02-14",
-        "time": "12:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/297834962",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Singapore",
