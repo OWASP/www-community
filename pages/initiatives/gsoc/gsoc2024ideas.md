@@ -71,9 +71,10 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 * Some knowledge of UI designing for design related ideas.
 
 ##### Mentors
-* Donnie on slack (lead mentor)
-* Swapnil Shinde (@AtmegaBuzz) on slack (django and blockchain mentor)
-* We are looking for mentors, reach out to us on slack
+* Donnie (@DonnieBLT on Slack) -- lead mentor
+* Swapnil Shinde (@AtmegaBuzz on Slack) -- Django and blockchain mentor
+* Arkadii Yakovets (@arkid15r on Slack) -- Python/Django mentor
+* We are looking for mentors, reach out to us on Slack
 
 ### [OWASP Maryam](https://owasp.org/www-project-maryam/)
 
