@@ -40,16 +40,6 @@
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: API Security flaws that are commonly exploited.**\nAs more and more development focusses on APIs to make things faster and easier, security needs to be pushed more toward the front. Mistakes that have been corrected in web application security have now returned as APIs aren\u2019t offered the same protections as they are usually out of the normal flow via security tooling such as WAFs. This means identifying and fixing flaws prior to production is important. This discussion will be around lessons learned from testing and breach data with an eye for prevention. This attendees will learn:\nApplication and API stacks are full of dangerous over-powered methods. These lurking menaces are built into libraries, frameworks, appservers, and runtime platforms. They do crazy things (from a security perspective) like start native processes, parse XML documents, evaluate expressions, and deserialize objects. And they are totally unprotected. Developers can use them without restriction, and attackers can target these binary Bambis without being detected or stopped. Unfortunately, the security of the entire digital ecosystem is entirely reliant on getting developers to take the right steps to use these methods safely\u2026 but it\u2019s way too hard.\n\n**Speaker:**\nJason Kent -- jason.kent@cequence.ai\n\nRSVP:\nhttps://owasp-austin-2024-february.eventbrite.com -- Eventbrite(in-person)"
     },
     {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "OWASP Bangalore Meet 17 February 2024 ",
-        "date": "2024-02-17",
-        "time": "09:30+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/299149652",
-        "timezone": "Asia/Kolkata",
-        "description": "Bangalore Meet 17 February 2024 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* Anatomy of Cyber Attack by **Raghav Gupta**\n* Preparation for OSCP and other RedTeaming Certifications by **SATHIYANARAYANA S**\n* Secure Coding by **Aditya Gupta**\n* Mindset of a Purple Team by **Edwin Christy**\n* CIS hardening for Ubuntu by **Ashok Rachapudi**\n\nNote: The session details, including schedule are available below.\n\n### Cloudsek New Office\n\n16/1, Cambridge Rd, Halasuru,\nCambridge Layout, Jogupalya,\nBengaluru, Karnataka 560008"
-    },
-    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "Hacker Days workshop:-Vulnerability reachability analysis using OSS tools",
@@ -78,6 +68,16 @@
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/298999635",
         "timezone": "Australia/Brisbane",
         "description": "With a limited supply of potential hires and an already maxed security budget, how do we begin to tackle Application Security (AppSec)?\n\nThis talk will attempt to help provide some direction when it comes to solving this problem. It is aimed at security folks and developers of all skill levels who are interested in getting their feet wet with AppSec.\n\nDuring the talk we will first explore an industry framework that can help guide the first few steps in our journey. Then, we will dive into a demo and highlight some of the fantastic free and open-source tools that we can use to demonstrate value and rack up a few easy and impactful wins."
+    },
+    {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "March Meetup - Threat Dragon",
+        "date": "2024-03-05",
+        "time": "18:00Z",
+        "link": "https://www.meetup.com/owasp-bristol/events/299254390",
+        "timezone": "Europe/London",
+        "description": "Jon Gadsden is going to start with a talk on **Threat Dragon**, as Project leader and contributor for the OWASP Threat Dragon tool, he knows a thing or two about what it does, and how it can be used.\n\nAfter the break, we will have a semi-structured **discussion** on **The Effects of our Decisions**; the intention is to draw on the experiences of everyone in the room to learn more about the subject. While the example will be about bcrypt cost, it's more about how security professionals must properly consider the decisions they make, and the effects those decisions have (see also changing passwords every 90 days).\n\n\\-\\-\\-\n\n**OWASP Threat Dragon**\n\nThreat Modeling is becoming more and more prominent in the security community; it is recognised as an important part of compliance, pipelines and software development.\n\nThis talk provides the reasons for doing threat modeling, what to look for in threat modeling, and how to threat model using the OWASP Threat Dragon tool.\n\nIt will introduce the various features of Threat Dragon and show how to use them to create a complete threat model.\n\nThe talk will include illustrations of Threat Dragon as it goes along, and if time permits then a demonstration can be given of creating a complete threat model using Threat Dragon.\n\n**Jon** is a software security engineer with Ping Identity, a company that provides Identity and Access Management services.\n\nHe is also a Co-Leader for the OWASP chapter in Bristol.\n\nJon splits his time between security engineering and software development; he says that he likes it this way because it reminds him that developers are always under time pressure and that product security engineers require a whole load of tact.\n\nJon has been involved with the open source software community since Linux 2.0.28, and he is a leader of the OWASP Threat Dragon project and also the OWASP Developer Guide."
     },
     {
         "group": "Colorado Springs",
@@ -150,14 +150,14 @@
         "description": "Hello everyone, we're excited to invite you to kick off our first OWASP Chapter meeting in 2024! Our Chapter serves central Germany particular within the Rhine-Main (Hesse) region as a platform to discuss and share topics all around information and application security. Anyone with an interested and enthusiastic about application security is welcome. All meetings are free and open. You do not have to be an OWASP member.\n\nThere will also be plenty of time to socialize before and after the event.\n\n_What's going to happen?\nWe look forward to welcoming you to our OWASP Frankfurt Meetup - talks and location are to be announced!\n\n_What are we going to talk about?\n\n**1\\. Talk:** **The Role of Data-Centricity in Application and Cloud Security**\n\n*Prof. Dr. Igor Podebrad - Director, Office of the CISO, Google Cloud and former Group CISO at Commzerbank*\n\nIn this talk, Igor explores the journey towards a data-centric security culture. He will delve into the challenges and strategies of embedding data-centricity in cloud and application security initiatives. Drawing from his experience, Igor also shares his experience how this approach transforms organizational security culture.\n\n2\\. Talk **SecOps Evolution: Navigating Security Risks and Operational Changes in the Era of Cloud**\n\n*Esra Yildiz - Security Cloud Solution Architect, Microsoft*\n\nEsra from Microsoft addresses the complex SecOps challenges in the cloud transformation era. Drawing from her experience, Esra will provide her insights on how to identify risks and managing operational changes into creating effective security strategies for evolving cloud environments.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**.\n\n_When?\nOur Meetup takes place on 28.02.2024 from 18.00 to 21.30 o'clock CEST.\n\n_Where?\nDZ Bank, Platz d. Republik, 60325 Frankfurt am Main (Meet at the main Entrance and follow the OWASP signs to guide you)\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information including slides and recordings of previous presentations\n\nWe're looking forward to seeing you at our event!"
     },
     {
-        "group": "Gla University Mathura",
-        "repo": "www-chapter-gla-university-mathura",
-        "name": "Open Source Technologies: Collaborative Development\u00a0in\u00a0Action",
-        "date": "2024-02-17",
-        "time": "10:00+05:30",
-        "link": "https://www.meetup.com/owasp-gla-university-mathura-student-chapter/events/299149460",
-        "timezone": "Asia/Kolkata",
-        "description": "Led by Mr. Rahul Shandilya the session on open source technologies will explore their principles, benefits, and real-world applications. Attendees will gain valuable insights into the latest trends and best practices in open source development, empowering them to leverage these technologies effectively in their own projects .\n\n**Date:** 17 February 2024\n**Time:** 10:00 AM (IST)\n**Venue:** Room No 402 , AB-1 , GLA University, Mathura"
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2024-03-18",
+        "time": "18:45-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/298995347",
+        "timezone": "America/New_York",
+        "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
     },
     {
         "group": "Jacksonville",
@@ -268,6 +268,26 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/298902117",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "March Meeting",
+        "date": "2024-03-05",
+        "time": "20:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/299251813",
+        "timezone": "America/Phoenix",
+        "description": "OWASP is a non-profit dedicated to application security. Our meetings are free to attend and you do not need to be a member, nor have any experience with application security. All are welcome!\n\nFor our March meeting, we will be discussing OWASP SAMM (Software Assurance Security Model), which you can use to assess your application security program for gaps, identify opportunities for your future roadmap, and understand how mature your appsec program really is. You can read more about OWASP SAMM here: https://owasp.org/www-project-samm/\n\nFree Parking:\n1 N Macdonald St, Mesa, AZ 85201\nhttps://downtownmesa.com/parking/green-lot\nNote that the parking lot is across the street from HeatSync Labs"
+    },
+    {
+        "group": "Recife",
+        "repo": "www-chapter-recife",
+        "name": "Detec\u00e7\u00e3o de Vulnerabilidades em C\u00f3digo-Fonte com I.A",
+        "date": "2024-02-28",
+        "time": "20:00-03:00",
+        "link": "https://www.meetup.com/owasp-recife-meetup-group/events/298972631",
+        "timezone": "America/Recife",
+        "description": "**[O que vai rolar?]**\nO pr\u00f3ximo meeting do OWASP Recife ocorrer\u00e1 no dia 28/02/2024 \u00e0s 20:00 com o t\u00edtulo: \"Detec\u00e7\u00e3o de Vulnerabilidades em C\u00f3digo-Fonte com I.A\" conduzida por Maria Fernanda Rodrigues, da Tempest Security Intelligence.\n\nA palestrante demonstrar\u00e1 uma forma de detec\u00e7\u00e3o de vulnerabilidades em c\u00f3digo-fonte, utilizando o modelo n\u00e3o supervisionado de aprendizado de m\u00e1quina FICS (Functionally-similar yet Inconsistent Code). O primeiro detector de bugs 'machine learning-based' que identifica e aponta inconsist\u00eancias no c\u00f3digo como indicadores de poss\u00edveis vulnerabilidades de seguran\u00e7a.\n\n**[Formato do encontro]**\nPalestra online\n\n**[Shortbio de Maria]**\nMaria Fernanda Rodrigues\nEstagi\u00e1ria em Pesquisa e Desenvolvimento\nTempest Security Intelligence"
     },
     {
         "group": "Seattle",
