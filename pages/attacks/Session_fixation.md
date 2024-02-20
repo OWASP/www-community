@@ -98,7 +98,7 @@ account.
 
 <center>
 
-<https://www.owasp.org/images/9/9c/Fixation.jpg>
+<https://wiki.owasp.org/images/9/9c/Fixation.jpg>
 
 Figure 1. Simple example of Session Fixation attack.
 
@@ -139,7 +139,7 @@ parameter.
 
 <center>
 
-<https://www.owasp.org/images/e/ed/Fixation2.jpg>
+<https://wiki.owasp.org/images/e/ed/Fixation2.jpg>
 
 Figure 2. Set-Cookie in the HTTP header response
 
