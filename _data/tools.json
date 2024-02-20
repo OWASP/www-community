@@ -1934,5 +1934,14 @@
       "platforms": "GitHub",
       "note": "L3X detects vulnerabilities in Rust and Solidity code based on patterns and AI code analysis. Various LLMs act as validators for vulnerabilities detected by patterns and validate each others' results in AI code analysis. Vulnerabilities are confirmed when they receive confirmation from a majority of validators.",
       "type": "SAST"
-   }
+   },
+   {
+      "title": "Arnica",
+      "url": "https://arnica.io",
+      "owner": "Arnica.io",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Arnica is an end to end security solution that includes SAST, SCA, IaC, Licensing, Reputation, Hardcoded Secrets Mitigation, Permissions and more. Arnica's pipelineless approach empowers developers through automated mitigations and real time feedback.",
+      "type": "SAST"
+   },
 ]
