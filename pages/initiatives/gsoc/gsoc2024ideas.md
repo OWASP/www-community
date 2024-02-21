@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2024ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull;  [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
 
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
@@ -99,7 +99,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Angular
 
 ##### Mentor
-* [Ardi](mailto:pakdesawangan@gmail.com)
+* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
 ### [OWASP PyGoat](https://owasp.org/www-project-pygoat/)
@@ -130,35 +130,7 @@ Intentionally vuln web Application Security in django.
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
-* Nizam
-
-### [OWASP Risk Assessment Framework](https://owasp.org/www-project-risk-assessment-framework/)
-The OWASP Risk Assessment Framework consist of Dynamic application security testing (DAST) and Risk Assessment tools. By using OWASP Risk Assessment Framework's  Testers will be able to analyse and review their application and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure application.
-
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-
-##### Expected results
-
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Building API Scanner and Integrated other scanners
-- Add Vulnerabilities based on OWASP Top 10 - 2021, CVE Mitre, SANS 25 Top error also ISO 27k
-- Integrated to other pentest tool
-- Scheduled scan
-
-##### Getting started
-- Check[GitHub project](https://github.com/Risk-Assessment-Framework) and [Website](https://owasp.org/www-project-risk-assessment-framework/).
-- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #risk-assessment
-
-##### Student Requirements
-- Python
-- Flask
-- React
-
-##### Mentor
-* [Ade Yoseman](mailto:edikdoank@gmail.com)
-* [Ardi](mailto:pakdesawangan@gmail.com)
+* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
