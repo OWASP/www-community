@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2024ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull;  [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP OWTF](#owasp-owtf) &bull; [OWASP secureCodeBox](#owaspsecurecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull;  [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP OWTF](#owasp-owtf) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
 
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
