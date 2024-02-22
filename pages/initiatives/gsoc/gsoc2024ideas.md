@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2024ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull;  [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull;  [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP OWTF](#owasp-owtf) &bull; [OWASP secureCodeBox](#owaspsecurecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
 
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
@@ -91,7 +91,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
 
 ##### Getting started
-- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Check [GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-securetea
 
 ##### Student Requirements
@@ -120,7 +120,7 @@ Intentionally vuln web Application Security in django.
 
 
 ##### Getting started
-- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Check [GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
 
 ##### Student Requirements
@@ -185,17 +185,17 @@ list? Great, please submit it!
 * Your code follows our existing styleguides and passes all existing
   quality gates regarding code smells, test coverage etc.
 * Code that you write comes with automated tests that fit into
-  [our available test suites](https://pwning.owasp-juice.shop/part3/contribution.html#testing).
+  [our available test suites](https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html#_testing).
 
 ##### Getting started
 
 * Make sure your JavaScript/TypeScript is sufficient to work on the
   Juice Shop codebase. Check our
-  [Codebase 101](https://pwning.owasp-juice.shop/part3/codebase.html)
+  [Codebase 101](https://pwning.owasp-juice.shop/companion-guide/latest/part3/codebase.html)
   here. Students with some experience with (or willingness to learn)
   Angular and NodeJS/Express are usually prefered.
 * Read our
-  [Contribution Guidelines](https://pwning.owasp-juice.shop/part3/contribution.html)
+  [Contribution Guidelines](https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html)
   very carefully. Best make some small contributions before GSoC, so we
   can see how you work and help you dive into the code even better.
 * Get in touch with
@@ -287,7 +287,7 @@ Please use the repositories' issue tracker, GitHub discussions, and don't forget
 - [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
 - [Abraham Aranguran](mailto:Abraham.Aranguren@owasp.org)
 
-### [OWASP secureCodeBox](https://www.securecodebox.io)
+### [OWASP secureCodeBox](https://www.securecodebox.io)
 
 secureCodeBox is a kubernetes based, modularized toolchain for continuous security scans of your software project.
 The secureCodeBox comes with many different scanners officially integrated (from Amass to Zap) and integration 
