@@ -107,13 +107,13 @@ components over time can be expected. This is especially true for teams with tim
 Components in many software ecosystems are published and distributed to central repositories. Repositories have known 
 threats. Some of the threats against public repositories include:
 
-  - Typosquatting - naming a component in such as way as to take advantage of common misspelling
+  - Typosquatting - naming a component in such as way as to take advantage of common misspelling.
   - Organization/Group abuse - pretending to be a public person or entity and abusing the perceived trust. This includes
     dependency confusion and namespace confusion.
   - Malware through transfer - leveraging weak or absent code-signing requirements to spread malware through the 
-    transfer of an open source project from one maintainer to another
+    transfer of an open source project from one maintainer to another.
   - Cross Build Injection (XBI) - Abusing dependency resolution schemes and weak infrastructure controls to inject 
-    malicious components in place of safe ones
+    malicious components in place of safe ones.
 
 Public repositories that have code-signing and verification requirements have some level of trust, whereas public 
 repositories without basic countermeasures do not. For no-trust or low-trust repositories, utilizing private 
@@ -162,6 +162,11 @@ Like any component, transitive dependencies have their own risk which is inherit
 that relies on them. Components may additionally have specific runtime or environmental dependencies with implementation 
 details not known or prescribed by the component. Component Analysis can aggregate the risk of all direct, transitive, 
 runtime, and environmental dependencies providing a holistic view of inherited risk.
+
+From a risk mitigation standpoint, only direct dependencies can be changed in some cases. For example, a `pom.xml` file
+declares only on direct dependencies, while lock files, such as `package-lock.json` may be more flexable. 
+Any changes to transitive dependencies can potentially break the code that depends on it, and therefore, it would be 
+most impactful to focus on identifying the direct dependency fix. 
 
 #### Project Health
 
@@ -261,7 +266,8 @@ and legal teams an opportunity to create solutions for healthy open source usage
   - Prohibit the use of end-of-life (EOL) components
   - Prohibit the use of components with known vulnerabilities. Update components that are exploitable with high to 
     moderate risk first.
-  - Reduce the attack surface by excluding unnecessary direct and transitive dependencies
+  - Reduce the attack surface by excluding unnecessary direct and transitive dependencies. Focus on providing resolution
+    recommendations on direct dependencies to make it actionalbe for developers.
   - Reduce the number of suppliers and use the highest quality components from those suppliers
   - Standardize on a single component for each component function
   - Establish a maximum level of acceptable risk for public repositories. Utilize private repositories in lieu of 
@@ -282,6 +288,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 
 | Name | Owner | Licence | Platforms |
 | ---- | ----- | ------- |---------- |
+| [Arnica] | Arnica | Commercial / Freemium | Cross Platform / SaaS |
 | [Vulert] | Vulert | Commercial / Freemium | Cross Platform / SaaS |
 | [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [GitHub SCA] | GitHub | Freemium | SaaS |
@@ -329,6 +336,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
 | [Xray] | JFrog | Commercial | Cross Platform |
 
+[Arnica]: https://arnica.io/
 [Vulert]: https://vulert.com/
 [Scantist SCA]: https://scantist.com/
 [Bytesafe]: https://bytesafe.dev/
