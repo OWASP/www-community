@@ -180,6 +180,16 @@
         "description": "Moin in die Runde,\n\nes geht weiter mit einem Vortrag in Deutsch. Hier erstmal ein Blocker dazu.\n\nIm M\u00e4rz haben wir Stephan Kaps zu Gast. Er ist engagiert in der Java User Group Bonn und arbeitet f\u00fcr eine Bundesbeh\u00f6rde. Er hatte einen \u00e4hnlichen Vortrag beim letzten German OWASP Day gehalten.\n\nDer eingetragene Titel ist eine \"Arbeitsversion\" und wird wie weitere Informationen bearbeitet / erg\u00e4nzt.\n\nZu Gast sind wir wieder zentral bei Check24 .\n\nCheers, Dirk"
     },
     {
+        "group": "Gothenburg",
+        "repo": "www-chapter-gothenburg",
+        "name": "OWASP Gothenburg PyPI security and TruffleHog Disclosure",
+        "date": "2024-03-21",
+        "time": "17:00+01:00",
+        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/299361118",
+        "timezone": "Europe/Stockholm",
+        "description": "**Join us at our partner Omegapoint's office for an intriguing evening with food and drinks, and talks about PyPI security and a disclosure of security issues in TruffleHog!**\n\n**Where:** Omegapoint, Rosenlundsgatan 3, 411 20 G\u00f6teborg\n\n**Agenda:**\n**17:00 - 17:30:** Welcome to Omegapoint\n**17:30 - 17:45:** Introduction from the event hosts and presentation of tonight's speakers.\n**17:45 - 18:30:** *PyPI Security: Past, Present & Future*\nThe talk will be about PyPI's security stance, from the point of view of a\nfree software maintainer: 2FA, tokens and authentication.\nThe changes they did, the mistakes along the way, changes that are a work in progress and speculation on changes they will introduce in the future.\n**Salvo Tomaselli** is the sole maintainer of a critical python library.\nAlso small time free software contributor, Debian developer, IRC dweller, GPG holdout. Has worked in Gothenburg for a network security company for the past years.\nEnjoys jamming music, participating in flame wars and talking too loud.\n\n**18:30 - 19:15:** Food & Drinks\n\n**19:15 - 20:00:** *TruffleHog Security Issue Disclosure*\nThis presentation covers a set of security issues in TruffleHog, an open source, automated security tool that scans code repositories and configuration files for active secrets. The session provides a detailed walkthrough with several live demos, showing how the tool can be exploited to remotely harvest credentials from anyone running a default installation of TruffleHog v3. This presentation is part of a coordinated disclosure together with Truffle Security, the team behind TruffleHog.\n**Helena Rosenzweig** is a security researcher and software engineer at Omegapoint, focusing on application security for client projects. She has a keen interest in building secure and scalable software but is equally intrigued by all the things that can go wrong.\n\n**20:00 - 21:30:** Over-time (optional)\nHang out, grab something to drink, and discuss security, the weather or anything in between!"
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -208,16 +218,6 @@
         "link": "https://www.meetup.com/owasp-ljubljana-chapter/events/299194709",
         "timezone": "Europe/Belgrade",
         "description": "You might have heard about 'WAFs' (web application firewalls) from someone cold emailing you a commercial offer, or you might have heard about mod_security. Not sure what they are about and how they \u201csecure\u201d you? Say no more. In this presentation, we will delve into the realm of Web Application Firewalls, sparked by encounters with commercial vendors and open-source solutions like mod_security. Join us as we unravel the intricacies of WAFs, understanding what and how they 'firewall', and some techniques on how to bypass them, all in an effort to demystify their role in today\u2019s security landscape."
-    },
-    {
-        "group": "London",
-        "repo": "www-chapter-london",
-        "name": "20th Anniversary OWASP London (Registration is closed)",
-        "date": "2024-02-22",
-        "time": "17:00Z",
-        "link": "https://www.meetup.com/owasp-london/events/299058348",
-        "timezone": "Europe/London",
-        "description": "**DO NOT RSVP on Meetup**, use Google RSVP system here:\n[https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)\n\n**[20 years of OWASP London](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)**\n\nJoin us as we celebrate a remarkable milestone - the 20th anniversary of OWASP in London! This special event will reflect on the evolution of application security, celebrate our community's achievements, and look ahead to the challenges and opportunities of the future.\n\n**Date:** Thu Feb 22 2024\n**Time:** 5pm-9pm\n**Location:** Google London - 6 Pancras Square\n\nAt this milestone event, we'll delve into the latest trends, challenges, and innovations in the ever-evolving world of cybersecurity. Renowned experts will share their insights through engaging talks and interactive sessions.\n\nWhether you're a seasoned professional or just starting your cybersecurity journey, this event offers a unique opportunity to expand your knowledge and connect with industry leaders.\n\nTo secure your spot, please follow the **[external page](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)** for registration details. Hurry, as spaces are limited!\n\nWe look forward to seeing you there!"
     },
     {
         "group": "Los Angeles",
@@ -267,7 +267,7 @@
         "time": "19:00+01:00",
         "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/299257952",
         "timezone": "Europe/Amsterdam",
-        "description": "See [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **TBA**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **TBA**"
+        "description": "See [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **How to get Dev(Ops) teams to start adopting DevSecOps** by **Sebastiaan Rijnbout**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **TBA**\n\n**How to get Dev(Ops) teams to start adopting DevSecOps**\n*Abstract:*\nIn many development environments, security has long been seen as an afterthought or even a right-out hindrance. And forcing security onto developers often has an adverse effect. In this talk we will share the journey we have been making at the Dutch Chamber of Commerce (KVK) to get Development teams to adopt DevSecOps in a way that works best for them. Topics that will be discussed include Secure Development training, Security Champions, Threat Modeling and using the right tooling.\n\n*Bio:*\nSebastiaan Rijnbout has a background as .NET developer and has worked in that field for over 12 years, but since 2017 he has started focusing on AppSec and Dev(Sec)Ops.\n\nWhen getting teams and organisations to adopt DevSecOps, Sebastiaan will look at all aspects of DevSecOps (People, Process and Technology) like setting up developer training programs and security champion programs, rolling out company-wide Security tooling and improving working processes. But always keeping a focus on making things easy and efficient for developers.\n\nIn his current role at the Dutch Chamber of Commerce (KVK) Sebastiaan acts as Product Owner for 4 Dev(Sec)Ops support teams. These teams are responsible for enabling all development teams at KVK to deliver secure and high-quality software as efficiently as possible."
     },
     {
         "group": "New Zealand",
@@ -278,6 +278,16 @@
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297780380",
         "timezone": "Pacific/Auckland",
         "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe'll be restarting our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for March will be **A01:2021 - Broken Access Control**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the second Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Orange County Cybersecurity Mixer",
+        "date": "2024-03-04",
+        "time": "18:00-08:00",
+        "link": "https://www.meetup.com/owasp-oc/events/299351836",
+        "timezone": "America/Los_Angeles",
+        "description": "We had so much fun last time, we decided to do it again!\n\nJoin us for our JOINT Cyber Mixer at Left Coast Brewing all Cyber groups welcome.\n\nAre you a vendor? We welcome you as well, please plan to open a small tab for appetizers and drinks. Thanks in advance!\nThanks so much to Ray Burgess at Mimecast, as well as Crowdstrike and AppOmni- we appreciate your support of our community!\nLooking forward to seeing everyone there plus new faces as well! See you in March!\n\nThe Orange County (OC) cybersecurity organizations and groups that will participate in this event are:\n\n* **OWASP Orange County**\n* **Irvine Underground**\n* **Women's Society of Cyberjutsu SoCal Chapter**\n* **Cloud Security Alliance Orange County**\n* **ISSA of Orange County**\n* **ISACA Orange County**"
     },
     {
         "group": "Orange County",
@@ -320,14 +330,14 @@
         "description": "**[O que vai rolar?]**\nO pr\u00f3ximo meeting do OWASP Recife ocorrer\u00e1 no dia 28/02/2024 \u00e0s 20:00 com o t\u00edtulo: \"Detec\u00e7\u00e3o de Vulnerabilidades em C\u00f3digo-Fonte com I.A\" conduzida por Maria Fernanda Rodrigues, da Tempest Security Intelligence.\n\nA palestrante demonstrar\u00e1 uma forma de detec\u00e7\u00e3o de vulnerabilidades em c\u00f3digo-fonte, utilizando o modelo n\u00e3o supervisionado de aprendizado de m\u00e1quina FICS (Functionally-similar yet Inconsistent Code). O primeiro detector de bugs 'machine learning-based' que identifica e aponta inconsist\u00eancias no c\u00f3digo como indicadores de poss\u00edveis vulnerabilidades de seguran\u00e7a.\n\n**[Formato do encontro]**\nPalestra online\n\n**[Shortbio de Maria]**\nMaria Fernanda Rodrigues\nEstagi\u00e1ria em Pesquisa e Desenvolvimento\nTempest Security Intelligence"
     },
     {
-        "group": "Sao Paulo",
-        "repo": "www-chapter-sao-paulo",
-        "name": "Como conscientizar as pessoas que acham que sabem de tudo: Os times t\u00e9cnicos!",
-        "date": "2024-02-22",
-        "time": "18:00-03:00",
-        "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/299333705",
-        "timezone": "America/Sao_Paulo",
-        "description": "# **Como conscientizar as pessoas que acham que sabem de tudo: Os times t\u00e9cnicos!**\n\nO Chapter S\u00e3o Paulo da OWASP est\u00e1 prestes a sediar mais um evento virtual impactante, desta vez explorando um tema desafiador e intrigante: \"Como conscientizar as pessoas que acham que sabem de tudo: os times t\u00e9cnicos!\" Este bate-papo exclusivo contar\u00e1 com a participa\u00e7\u00e3o de **Marina Ciavatta, C\u00e9u Balzano e Anchises Moraes.**\n\n# **Detalhes do Evento:**\n\n* **Data:** Quinta-feira, 22 de Fevereiro de 2024\n* **Hor\u00e1rio:** 18h\n* **Local:** Transmiss\u00e3o ao vivo no YouTube e LinkedIn\n* **Garanta sua vaga: [meetup.com/owasp-sao-paulo-chapter](http://meetup.com/owasp-sao-paulo-chapter)**\n* **Convidados:** Marina Ciavatta, C\u00e9u Balzano, Anchises Moraes\n* **Hosts:** Gustavo Lichti Mendon\u00e7a e Alessandro Faria (A.K.A Cabelo)\n\n# **Sobre os Participantes:**\n\n## **Marina Ciavatta**\n\nMarina \u00e9 CEO na Hekate e Engenheira Social, especializada em Pentest F\u00edsico. \u00c9 conhecida por ter invadido algumas das maiores empresas do pa\u00eds, usando um vasto arsenal de truques de Engenharia Social, mirando nas pessoas e no erro humano, ao inv\u00e9s dos sistemas. Por isso, ela \u00e9 tamb\u00e9m instrutora de Conscientiza\u00e7\u00e3o em Ciberseguran\u00e7a e palestrante internacional, ensinando as pessoas a se defenderem de ataques como os dela.\n\n## **Anchises Moraes**\n\nAnchises Moraes, paulistano da casa Hacker, primeiro de seu nome, nascido na ci\u00eancia da computa\u00e7\u00e3o, work-aholic da seguran\u00e7a, cyber evangelista do C6 Bank, founder da Security BSides S\u00e3o Paulo, Chanceler Supremo do Garoa Hacker Clube, He for She da WOMCY (LATAM Women in Cybersecurity), diretor do cap\u00edtulo Brasil da Cloud Security Alliance (CSA), especialista em seguran\u00e7a e protetor do ciber espa\u00e7o.\n\n## **C\u00e9u Balzano**\n\nC\u00e9u Balzano \u00e9 co-founder do primeiro evento de conscientiza\u00e7\u00e3o de seguran\u00e7a da Am\u00e9rica Latina.\n\u00c9 formado em Ethical Hacking & Information Security pela VINCIT e certificado em Privacy & Data Protection pelo EXIN. Balzano tem mais de 12 anos de experi\u00eancia em TI, com especializa\u00e7\u00e3o em conscientiza\u00e7\u00e3o e fatores humanos. Ele \u00e9 Evangelista de Seguran\u00e7a e influenciador digital para divulgar seu conhecimento sobre o tema.\nC\u00e9u Balzano conta com mais de 14 mil seguidores em suas redes sociais\n\n# **Junte-se a n\u00f3s...**\n\nNeste evento, vamos mergulhar em um tema pol\u00eamico e relevante: como conscientizar os times t\u00e9cnicos, que muitas vezes se percebem como detentores de um conhecimento abrangente. Com a contribui\u00e7\u00e3o valiosa desses especialistas, exploraremos abordagens diferenciadas necess\u00e1rias para educar e engajar esses profissionais. Continuando o di\u00e1logo iniciado no \u00faltimo evento sobre o fator humano na seguran\u00e7a da informa\u00e7\u00e3o, esta conversa se prop\u00f5e a desvendar estrat\u00e9gias eficazes para lidar com uma audi\u00eancia desafiadora, que demanda uma abordagem singular.\n\nJunte-se a n\u00f3s nesta jornada de aprendizado e discuss\u00e3o sobre a conscientiza\u00e7\u00e3o em ciberseguran\u00e7a para os times t\u00e9cnicos. Reserve seu lugar agora mesmo em[ meetup.com/owasp-sao-paulo-chapter](https://chat.openai.com/c/meetup.com/owasp-sao-paulo-chapter) e participe deste debate"
+        "group": "Sastra University",
+        "repo": "www-chapter-sastra-university",
+        "name": "Quiz time ",
+        "date": "2024-02-25",
+        "time": "09:00+05:30",
+        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/299335823",
+        "timezone": "Asia/Kolkata",
+        "description": "**Get ready for an exhilarating test of knowledge and wit! Join us for the quiz where participants will engage in a battle of brains, tackling questions ranging from cybersecurity to general trivia.**"
     },
     {
         "group": "Seattle",
@@ -338,16 +348,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/298337300",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Do you know where your secrets are?",
-        "date": "2024-02-22",
-        "time": "17:30-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/298955593",
-        "timezone": "America/Los_Angeles",
-        "description": "*Do you know where your secrets are?*\n\n*Do you know what Uber, CircleCI, and Toyota all have in common? They had hardcoded credentials in plaintext somewhere in their environments, leading to either a public leak or enabling an attacker to expand their footprint during a breach.*\n\n*Understanding the problem with hardcoding secrets is simple, but how widespread is this problem? How fast is it growing? How does it keep happening? Moreover, what can you do to address it?*"
     },
     {
         "group": "Singapore",
@@ -368,16 +368,6 @@
         "link": "https://www.meetup.com/owaspswitzerland/events/298549900",
         "timezone": "Europe/Zurich",
         "description": "In this talk, we will delve into the complex world of quantum computing and explore the basics of **how these machines operate**.\nWe will discuss the **fundamental concepts of quantum states**, including their properties and measurement, as well as the phenomenon of entanglement.\n\nAdditionally, we will cover **how to implement functions on a quantum computer** and provide an overview of popular **quantum algorithms** such as the Deutsch-Jozsa algorithm, Grover's algorithm, and Shor's algorithm.\nWe will also explore the **practical implications of quantum computing**, including an overview of the current state of quantum computers and their potential **impact on cryptography**.\n\nThe talk will conclude with an examination of the popular cryptosystems that are under threat and the efforts by organizations, such as NIST, to address these challenges.\n\nJoin Petar in this OWASP Switzerland event for a comprehensive overview of quantum computing and its real-world implications."
-    },
-    {
-        "group": "Tampa",
-        "repo": "www-chapter-tampa",
-        "name": "OWASP Tampa Chapter 2024Q1 Lunch and Learn",
-        "date": "2024-02-22",
-        "time": "11:30-05:00",
-        "link": "https://www.meetup.com/owasp-tampa/events/298757282",
-        "timezone": "America/New_York",
-        "description": "**Welcome to our OWASP Tampa 2024Q1 Lunch and Learn!**\n\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda:**\n\n* 11:30am - Registration and Lunch\n* 12:00pm - Speaker - Chris Hatter - Appsec in an AI-powered world\n* 1:00pm - Depart\n\n**Speaker:**\nChris Hatter is an Operating Partner at NumberOneAI where he provides technical leadership to portfolio companies within the incubator. Additionally, Chris serves as the COO/CISO of Qwiet.AI, an AI-powered AppSec platform.\n\nHe has over a decade of experience in cybersecurity strategies, managing threats and vulnerabilities, risk assessment, cyber resilience, legal and compliance issues, and crisis management. Prior to his current roles at N1AI and Qwiet, Chris served as the Global CISO for Nielsen, at the time, a global technology and data company that operated in over 150 countries with 80,000+ employees.\n\nChris holds a Bachelor of Business Administration in Management Information Systems from the University of South Florida and sits on the university\u2019s advisory board of cybersecurity for executives.\n\n**Abstract**:\nIn this bold new age of artificial intelligence, software is evolving at a blistering pace. From AI-generated code to automated devops to ingenious new AI applications, innovation is accelerating. Businesses across every industry stand to gain enormously in productivity and efficiency. However, with such great power comes great risk. As AI accelerates the pace of software innovation, it also increases the prevalence of vulnerabilities and exploits.\n\nGiven that application security teams are often under-resourced and equipped with weak technologies... What can they do to manage the inevitable complexity introduced by AI? This interactive talk will lay out the escalating challenges for application security and engineering teams while offering some practical solutions.\n\n**Location:**\nGuidePoint Security\n3030 N Rocky Point Drive W\nSte 600\nTampa, FL\n\n**Sponsors:**\n[Qwiet.AI](https://qwiet.ai/)"
     },
     {
         "group": "Toronto",
