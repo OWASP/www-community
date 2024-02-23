@@ -50,16 +50,6 @@
         "description": "Are you ready to dive into the world of vulnerability analysis? Join us for an exciting Hacker Days, where we'll explore \"Vulnerability Reachability Analysis using OSS Tools\"!. **Workshop is sponsored by [Deepfactor.io](https://www.deepfactor.io/)**.\nDon't miss this opportunity to expand your cybersecurity knowledge, enjoy fantastic food and drinks, and network with industry professionals!\n\nThis event is co-hosted with our partnering community [pacifichackers.org](https://www.meetup.com/pacifichackers/).\n\nDoors open at 5PM and workshop will be from 6 to 7.30PM\n\n## Abstract:\n\nNew vulnerabilities are disclosed every day in dependencies that you or your team may be using. But how do you know if you are actually using the vulnerable code? This talk will show you how to use two different types of tools to analyze reachability - deciding if the vulnerability needs to be prioritized based on your own code usage.\n\n## Speaker Bio:\n\nMike Larkin is CTO and co-founder of Deepfactor, Inc. Mike is also a contributor to OpenBSD, working on hypervisors, low-level platform code, and security. Mike is also an adjunct faculty member at San Jose State University, where he teaches application security technologies and virtualization.\n\n## Workshop Overview:\n\nThe workshop will be broken into several modules; introductory modules will cover the workshop organization and administrative matters (installing and configuring the tools used in the workshop). Subsequent modules will give an outline of what vulnerability reachability is and why it is important and compare/contrast the two main ways of understanding reachability (static call graphs and runtime analysis).\n\nNext, the workshop will present two short exercises, intended for the attendees to gain hands-on experience using both types of tools against real applications with real vulnerabilities. Interpreted languages (Java) and compiled languages (C/C++/Go) will be covered. Subsequently, the following module will walk through how to interpret the results obtained from the exercises and draw conclusions. The languages chosen are merely representative; the skills learned in the workshop are equally applicable to other languages.\n\nThe workshop will conclude with two modules which will present a short overview of commercial tools and a conclusion/wrap-up/Q&A session.\n\n## Workshop Outline:\n\nI. Overview (10 minutes)\nA. Workshop organization\nB. About the tools and sample applications\n1. What are the tools and applications we are going to use?\nC. Obtaining/installing the tools and sample applications\n1. Cloning from the github repo\nD. Goals of the workshop (what you will learn)\n1. Be able to understand the importance of vulnerability\nreachability and how it helps prioritize remediation strategy\n2. Become familiar with some of the tools available to help with\nvulnerability reachability\n3. Learn where you can reach out to for more help in these areas\nafter the completion of the workshop\nII. Types of reachability analysis (10 minutes)\nA. Static analysis / call graphs\n1. What is a call graph?\n2. What information does a call graph provide to you\nB. Runtime analysis\nC. Language and environment considerations\n1. Things to consider when choosing a reachability analysis\nsolution\na. Types of applications being analyzed (COTS vs self-written)\nb. Availability of source code\nc. Robustness of test environment\nIII. Static call graph analysis exercise (20 minutes)\nA. Using static call graph analysis in IntelliJ/Eclipse to analyze a\nJava application\nB. Using Go callgraph to analyze a Go application\nC. How to correlate a call graph with an SBOM\nIV. Dynamic/runtime analysis exercise (20 minutes)\nA. Using a Java agent to analyze runtime reachability in a running\nJava application\nB. Using valgrind/KCacheGrind to analyze a running C/C++ application\nC. How to correlate runtime analysis with an SBOM\n\nV. Results comparison (10 minutes)\nA. Using the results of each exercise to determine if vulnerable\ncode was used\n1. How to use the output of each tool to understand what\nvulnerabilities need to be prioritized\nB. Benefits and limitations of each approach\n\nVI. Conclusion & Q&A (20 minutes)"
     },
     {
-        "group": "Bhopal",
-        "repo": "www-chapter-bhopal",
-        "name": "Introduction and overview to OWASP",
-        "date": "2024-02-21",
-        "time": "11:00+05:30",
-        "link": "https://www.meetup.com/owasp-bhopal-chapter/events/298658258",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us for the OWASP Bhopal Chapter meetup where we will discuss the latest trends and best practices in web application security. Our guest speakers will share their expertise on topics such as computer security, application security, open source technologies, and network security.\n\nAt this event, you will have the opportunity to learn about new technologies and tools aimed at improving software security and protecting sensitive information. Whether you are a beginner or an experienced professional in the field of cybersecurity, this meetup will provide valuable insights and a chance to network with like-minded individuals.\n\nDon't miss out on this opportunity to enhance your knowledge and skills in the ever-evolving field of web security. Join us for an engaging evening filled with informative talks, discussions, and networking opportunities. RSVP now for our OWASP Bhopal Chapter meetup and stay ahead in the world of web application security!"
-    },
-    {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
         "name": "AppSec: Where to Start, and Some Free, Easy Wins",
@@ -80,6 +70,16 @@
         "description": "Jon Gadsden is going to start with a talk on **Threat Dragon**, as Project leader and contributor for the OWASP Threat Dragon tool, he knows a thing or two about what it does, and how it can be used.\n\nAfter the break, we will have a semi-structured **discussion** on **The Effects of our Decisions**; the intention is to draw on the experiences of everyone in the room to learn more about the subject. While the example will be about bcrypt cost, it's more about how security professionals must properly consider the decisions they make, and the effects those decisions have (see also changing passwords every 90 days).\n\n\\-\\-\\-\n\n**OWASP Threat Dragon**\n\nThreat Modeling is becoming more and more prominent in the security community; it is recognised as an important part of compliance, pipelines and software development.\n\nThis talk provides the reasons for doing threat modeling, what to look for in threat modeling, and how to threat model using the OWASP Threat Dragon tool.\n\nIt will introduce the various features of Threat Dragon and show how to use them to create a complete threat model.\n\nThe talk will include illustrations of Threat Dragon as it goes along, and if time permits then a demonstration can be given of creating a complete threat model using Threat Dragon.\n\n**Jon** is a software security engineer with Ping Identity, a company that provides Identity and Access Management services.\n\nHe is also a Co-Leader for the OWASP chapter in Bristol.\n\nJon splits his time between security engineering and software development; he says that he likes it this way because it reminds him that developers are always under time pressure and that product security engineers require a whole load of tact.\n\nJon has been involved with the open source software community since Linux 2.0.28, and he is a leader of the OWASP Threat Dragon project and also the OWASP Developer Guide."
     },
     {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "OWASP Top 10 Web Application Security\u00a0Risks",
+        "date": "2024-02-24",
+        "time": "12:00+02:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/299320971",
+        "timezone": "Africa/Cairo",
+        "description": "The OWASP Top 10 is a widely recognized and influential list of the most critical security risks that web applications face today. The list is updated every few years to reflect the evolving threat landscape and to provide the latest insights and recommendations to help developers, security professionals, and organizations better protect their web applications against these prevalent risks."
+    },
+    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS February 2024",
@@ -88,6 +88,16 @@
         "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/298912741",
         "timezone": "America/Denver",
         "description": "Speaker: Ishan Brown: \"Is The OSCP Right For Me?\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
+    },
+    {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "From SBOMs to F-Bombs: Vulnerability Analysis, and False Positives & Negatives",
+        "date": "2024-03-21",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/295370660",
+        "timezone": "America/New_York",
+        "description": "Managing vulnerabilities in third party software has become an important application security activity. Vulnerabilities like Log4Shell and various supply chain attacks such as SolarWinds or CodeCov and numerous others have given many of us haunting nightmares resulting us sleeping with one eye open. Fortunately, Software Composition Analysis (SCA) tools coupled with Software Bill of Materials (SBOMs) have done so much to relieve that anxiety. Or not. This talk explores the vulnerability management process through the eyes of a FOSS security library provider and examines what we can do as AppSec engineers and developers to make the whole process a bit less painful."
     },
     {
         "group": "Delaware",
@@ -110,14 +120,24 @@
         "description": "SnowFROC (Front Range OWASP Conference) is Denver's premier application security conference. It is an annual, one-day conference which draws about 400 people. For SnowFROC 2024 the event will be held Thursday March 7th. While billed as, \"Denver's premier application security conference\", SnowFROC's presentations and workshops focus on many facets of cybersecurity and over the years, SnowFROC has come to be known for its exceptional value: Hands-on training, excellent food, spectacular networking, great location/venue and professional orchestration.\n\n**REGISTER HERE**: [https://www.eventbrite.com/e/owasp-snowfroc-2024-tickets-788326514827](https://www.eventbrite.com/e/owasp-snowfroc-2024-tickets-788326514827)\n\n2024 TICKET PRICES:\n\n* General Admission Tickets: $95 (required to attend)\n* Premium Workshops: $30 (optional)\n* Basic Workshops: $20 (optional)\n\nSnowFROC includes breakfast, lunch, presentations, vendor giveaways, a panel discussion and optional hands on training and workshops."
     },
     {
-        "group": "Denver",
-        "repo": "www-chapter-denver",
-        "name": "Denver OWASP February Meetup - Join Us!",
-        "date": "2024-02-21",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/denver-owasp/events/299166209",
-        "timezone": "America/Denver",
-        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on in the new year on February 21st for food, drinks, networking and an exciting presentation. More details shorly. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\n**Presentation:** The Rise of AI-Powered Social Engineering - How AI has significantly impacted the efficacy of malicious social engineering campaigns, especially in email. Further, that it is vital to have an AI enhanced based defensive strategy to properly defend against this evolution."
+        "group": "Dubai",
+        "repo": "www-chapter-dubai",
+        "name": "OWASP Dubai Chapter: API Security - OWASP API Top 10",
+        "date": "2024-02-29",
+        "time": "10:00+04:00",
+        "link": "https://www.meetup.com/meetup-group-svgchist/events/299332846",
+        "timezone": "Asia/Dubai",
+        "description": "Join us for an illuminating session as we explore the OWASP API Top 10, a crucial guide to understanding and mitigating the most critical security risks in API-based applications. From inadequate authentication measures to excessive data exposure, we'll dissect each vulnerability, providing insights and strategies to fortify your API security posture. Whether you're a developer, security professional, or business leader, this session promises valuable knowledge to safeguard your digital assets and uphold the integrity of your API infrastructure."
+    },
+    {
+        "group": "Dubai",
+        "repo": "www-chapter-dubai",
+        "name": "OWASP Dubai Chapter: Adopting DevSecOps into Modern SDLC",
+        "date": "2024-02-24",
+        "time": "10:00+04:00",
+        "link": "https://www.meetup.com/meetup-group-svgchist/events/299332375",
+        "timezone": "Asia/Dubai",
+        "description": "Accelerate your software delivery with DevSecOps culture!\nJoin our free webinar led by Ahmed Abdallah, a Senior Solutions Architect and Cyber Security Consultant, and learn about all things DevSecOps.\nIn this session, participants will gain further knowledge on the importance of the concept and discover how integrating security throughout the software development process can enhance speed, quality, and overall success.\n\nEvent is hosted by Canadian University in Dubai and in cooperation with Red Team Hacker Academy"
     },
     {
         "group": "Dublin",
@@ -160,6 +180,16 @@
         "description": "Moin in die Runde,\n\nes geht weiter mit einem Vortrag in Deutsch. Hier erstmal ein Blocker dazu.\n\nIm M\u00e4rz haben wir Stephan Kaps zu Gast. Er ist engagiert in der Java User Group Bonn und arbeitet f\u00fcr eine Bundesbeh\u00f6rde. Er hatte einen \u00e4hnlichen Vortrag beim letzten German OWASP Day gehalten.\n\nDer eingetragene Titel ist eine \"Arbeitsversion\" und wird wie weitere Informationen bearbeitet / erg\u00e4nzt.\n\nZu Gast sind wir wieder zentral bei Check24 .\n\nCheers, Dirk"
     },
     {
+        "group": "Gothenburg",
+        "repo": "www-chapter-gothenburg",
+        "name": "OWASP Gothenburg PyPI security and TruffleHog Disclosure",
+        "date": "2024-03-21",
+        "time": "17:00+01:00",
+        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/299361118",
+        "timezone": "Europe/Stockholm",
+        "description": "**Join us at our partner Omegapoint's office for an intriguing evening with food and drinks, and talks about PyPI security and a disclosure of security issues in TruffleHog!**\n\n**Where:** Omegapoint, Rosenlundsgatan 3, 411 20 G\u00f6teborg\n\n**Agenda:**\n**17:00 - 17:30:** Welcome to Omegapoint\n**17:30 - 17:45:** Introduction from the event hosts and presentation of tonight's speakers.\n**17:45 - 18:30:** *PyPI Security: Past, Present & Future*\nThe talk will be about PyPI's security stance, from the point of view of a\nfree software maintainer: 2FA, tokens and authentication.\nThe changes they did, the mistakes along the way, changes that are a work in progress and speculation on changes they will introduce in the future.\n**Salvo Tomaselli** is the sole maintainer of a critical python library.\nAlso small time free software contributor, Debian developer, IRC dweller, GPG holdout. Has worked in Gothenburg for a network security company for the past years.\nEnjoys jamming music, participating in flame wars and talking too loud.\n\n**18:30 - 19:15:** Food & Drinks\n\n**19:15 - 20:00:** *TruffleHog Security Issue Disclosure*\nThis presentation covers a set of security issues in TruffleHog, an open source, automated security tool that scans code repositories and configuration files for active secrets. The session provides a detailed walkthrough with several live demos, showing how the tool can be exploited to remotely harvest credentials from anyone running a default installation of TruffleHog v3. This presentation is part of a coordinated disclosure together with Truffle Security, the team behind TruffleHog.\n**Helena Rosenzweig** is a security researcher and software engineer at Omegapoint, focusing on application security for client projects. She has a keen interest in building secure and scalable software but is equally intrigued by all the things that can go wrong.\n\n**20:00 - 21:30:** Over-time (optional)\nHang out, grab something to drink, and discuss security, the weather or anything in between!"
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -180,14 +210,14 @@
         "description": "Join us for the first event of the year, with two great speakers!\n\nThe OWASP Lisboa chapter meetup will be held on Mar 5th, 2024, at 18:00, **and is** **supported by [Celfocus](https://www.celfocus.com/) and [AP2SI](https://ap2si.org/).**\n\nThe schedule is the following:\n**18:00** - **Welcome notes** by the OWASP Lisboa chapter leadership team\n**18:15** - **LLM Security: The OWASP Top 10 Journey** by Jorge Pinto\n**19:10** - **SBOM, SBOM, you're an SBOM** by Diogo Sousa\n**20:00** - **Drinks & Dinner** by Celfocus\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Talks**:\n\nTitle: **LLM Security: The OWASP Top 10 Journey**\n\nSpeaker: **Jorge Pinto**\n\nAbstract:\nJoin me for a journey into the development of the OWASP Top 10 for Large Language Model Applications. In this presentation, we will uncover the background, challenges, and collaborative efforts that led to the creation of this resource for the cybersecurity community.\n\nThe presentation will be around 20\\~30 minutes incl. Q&A and will have the following structure:\n\n(1) Introduction\n\nIntroduce the audience to Large Language Models (LLMs) and their significance.\nExplain why creating an OWASP Top 10 for LLMs was necessary to address LLM security concerns.\n\n(2) Project Development\n\nDescribe the inception of the OWASP Top 10 for LLMs project and key contributors.\nHighlight any challenges faced during its development and how they were overcome.\n\n(3) Top 10 LLM Security Risks and Mitigation\n\nPresent the identified top security risks associated with Large Language Models.\nOffer practical recommendations and mitigation strategies to address these risks.\n\n(4) Conclusion and Future Outlook (2-3 minutes)\n\nSummarize the main takeaways from the presentation.\nDiscuss the ongoing relevance and future of LLM security and the OWASP Top 10 for LLMs.\n\nBio:\nWith more than 25 years of experience, Jorge Pinto is a professional in the area of information security in Portugal. With a degree in Computer Engineering from the University of Lisbon, he is a Senior Engineer and has several certifications such as CISSP, CISA, CISM and CRISC. Throughout his career he has played several roles, contributing to the effective response of various entities to security, privacy and business continuity challenges. Founder and president of AP2SI, co-organizer of BSidesLisbon and active member of several associations, including OWASP, he is a committed professional dedicated to promoting good practices and knowledge of information security in Portuguese society.\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nTitle: **SBOM, SBOM, you're an SBOM**\n\nSpeaker: **Diogo Sousa**\n\nAbstract:\nSoftware Bill of Materials (SBOM) is a concept that recently has been making waves in SDLC spaces but it isn't entirely new. Most mature languages have a (sometimes) mature package management system, either built-in (e.g., Rust's cargo) or de facto (e.g., Maven) that allows developers to define dependencies, resolve conflicts and do composition analysis.\n\nSBOMs, however, allow you to take this one step further, making it language-agnostic and allowing components from different ecosystems to use a common language for comparisons and analysis. However, we don't get those features out of the box. For example, consider common libraries in different package repositories - are all OpenSSL packages created equally and equivalent?\n\nOWASP is playing a part in this via its support for projects like CycloneDX which aims to provide a full-stack BOM standard to cover specific scopes such as the CBOM (Cryptography) and HBOM (Hardware) among others.\n\nThis shift towards software being more transparent and traceable is not without its detractors, as entire business models are predicated on customers using purely opaque boxes.\n\nIn the spirit of the topic, here is a Talk Bill of Topics:\n\n\\- Are BOM requirements burdensome?\n\\- Are we revealing too much of the \"secret sauce\"?\n\\- Does having an SBOM instantly make a piece of software more secure?\n\\- If we take a piece of software and replace every entry in its BOM with fully equivalent packages\\, one by one\\, is it still the same software in the end?\n\nThis talk targets a beginner to intermediate audience and will provide an overview of (S)BOMs, their ongoing challenges, and what they can bring to the table in terms of security.\n\nBio:\nAn opinionated individual with an interest in cryptography and its intersection with secure software development.\n\nLinkedIn: [https://www.linkedin.com/in/0xdsousa/](https://www.linkedin.com/in/0xdsousa/)"
     },
     {
-        "group": "London",
-        "repo": "www-chapter-london",
-        "name": "20th Anniversary OWASP London (Registration is closed)",
-        "date": "2024-02-22",
-        "time": "17:00Z",
-        "link": "https://www.meetup.com/owasp-london/events/299058348",
-        "timezone": "Europe/London",
-        "description": "**DO NOT RSVP on Meetup**, use Google RSVP system here:\n[https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)\n\n**[20 years of OWASP London](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)**\n\nJoin us as we celebrate a remarkable milestone - the 20th anniversary of OWASP in London! This special event will reflect on the evolution of application security, celebrate our community's achievements, and look ahead to the challenges and opportunities of the future.\n\n**Date:** Thu Feb 22 2024\n**Time:** 5pm-9pm\n**Location:** Google London - 6 Pancras Square\n\nAt this milestone event, we'll delve into the latest trends, challenges, and innovations in the ever-evolving world of cybersecurity. Renowned experts will share their insights through engaging talks and interactive sessions.\n\nWhether you're a seasoned professional or just starting your cybersecurity journey, this event offers a unique opportunity to expand your knowledge and connect with industry leaders.\n\nTo secure your spot, please follow the **[external page](https://rsvp.withgoogle.com/events/20th-anniversary-owasp-london-google)** for registration details. Hurry, as spaces are limited!\n\nWe look forward to seeing you there!"
+        "group": "Ljubljana",
+        "repo": "www-chapter-ljubljana",
+        "name": "Do WAFs make sense?",
+        "date": "2024-03-21",
+        "time": "16:30+01:00",
+        "link": "https://www.meetup.com/owasp-ljubljana-chapter/events/299194709",
+        "timezone": "Europe/Belgrade",
+        "description": "You might have heard about 'WAFs' (web application firewalls) from someone cold emailing you a commercial offer, or you might have heard about mod_security. Not sure what they are about and how they \u201csecure\u201d you? Say no more. In this presentation, we will delve into the realm of Web Application Firewalls, sparked by encounters with commercial vendors and open-source solutions like mod_security. Join us as we unravel the intricacies of WAFs, understanding what and how they 'firewall', and some techniques on how to bypass them, all in an effort to demystify their role in today\u2019s security landscape."
     },
     {
         "group": "Los Angeles",
@@ -230,6 +260,16 @@
         "description": "Let's leap forward in container security on leap day! Join us for [a bite to eat from Joyland](https://www.eatjoyland.com/) and to talk with OWASP Kubernetes Top 10 lead Jimmy Mesta, CTO of KSOC.\n\nThe meeting will be catered by Joyland, celebrity chef Sean Brock's nod to nostalgic fast food joints serving up kitchy comfort food with southern flair, like biscuits, smash burgers, and fried chicken on a stick. Brock has been featured on Netflix's Chef's Table and PBS's The Mind of a Chef, owns several award winning restaurants throughout the Southeast, and has been named the best chef in the Southeast by the James Beard Foundation. Join us for some tasty food and rich networking after Jimmy's presentation on the Kubernetes OWASP Top 10.\n\nGiven the growth and adoption of Kubernetes, a number of projects have been published in the OWASP community to help practitioners assess and secure the security of their containerized infrastructure including the recently released [Top Ten for Kubernetes](https://owasp.org/www-project-kubernetes-top-ten/). This OSS project is a community-curated list of the most common Kubernetes risks backed by data collected from organizations varying in maturity and complexity. This session will discuss the project in detail, examples for each of the risks in the list, and how you can get involved."
     },
     {
+        "group": "Netherlands",
+        "repo": "www-chapter-netherlands",
+        "name": "March 2024 OWASP Chapter Netherlands Meetup",
+        "date": "2024-03-21",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/299257952",
+        "timezone": "Europe/Amsterdam",
+        "description": "See [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **How to get Dev(Ops) teams to start adopting DevSecOps** by **Sebastiaan Rijnbout**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **TBA**\n\n**How to get Dev(Ops) teams to start adopting DevSecOps**\n*Abstract:*\nIn many development environments, security has long been seen as an afterthought or even a right-out hindrance. And forcing security onto developers often has an adverse effect. In this talk we will share the journey we have been making at the Dutch Chamber of Commerce (KVK) to get Development teams to adopt DevSecOps in a way that works best for them. Topics that will be discussed include Secure Development training, Security Champions, Threat Modeling and using the right tooling.\n\n*Bio:*\nSebastiaan Rijnbout has a background as .NET developer and has worked in that field for over 12 years, but since 2017 he has started focusing on AppSec and Dev(Sec)Ops.\n\nWhen getting teams and organisations to adopt DevSecOps, Sebastiaan will look at all aspects of DevSecOps (People, Process and Technology) like setting up developer training programs and security champion programs, rolling out company-wide Security tooling and improving working processes. But always keeping a focus on making things easy and efficient for developers.\n\nIn his current role at the Dutch Chamber of Commerce (KVK) Sebastiaan acts as Product Owner for 4 Dev(Sec)Ops support teams. These teams are responsible for enabling all development teams at KVK to deliver secure and high-quality software as efficiently as possible."
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP New Zealand - Auckland-area Meetup",
@@ -242,22 +282,22 @@
     {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
+        "name": "Orange County Cybersecurity Mixer",
+        "date": "2024-03-04",
+        "time": "18:00-08:00",
+        "link": "https://www.meetup.com/owasp-oc/events/299351836",
+        "timezone": "America/Los_Angeles",
+        "description": "We had so much fun last time, we decided to do it again!\n\nJoin us for our JOINT Cyber Mixer at Left Coast Brewing all Cyber groups welcome.\n\nAre you a vendor? We welcome you as well, please plan to open a small tab for appetizers and drinks. Thanks in advance!\nThanks so much to Ray Burgess at Mimecast, as well as Crowdstrike and AppOmni- we appreciate your support of our community!\nLooking forward to seeing everyone there plus new faces as well! See you in March!\n\nThe Orange County (OC) cybersecurity organizations and groups that will participate in this event are:\n\n* **OWASP Orange County**\n* **Irvine Underground**\n* **Women's Society of Cyberjutsu SoCal Chapter**\n* **Cloud Security Alliance Orange County**\n* **ISSA of Orange County**\n* **ISACA Orange County**"
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
         "name": "Security properties of LLM-assisted code",
         "date": "2024-02-29",
         "time": "18:00-08:00",
         "link": "https://www.meetup.com/owasp-oc/events/299073790",
         "timezone": "America/Los_Angeles",
-        "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n1. **RSVPs will close at 11:59 PM PT on February 25th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n2. **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n\n* If your first and last name do not appear in our admin view, we will contact you. Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Abstract**\nHelping programmers write code faster is now one of the top use-cases of large language models. But is that code secure? In this talk we will cover both the promise and security risks of using LLMs for coding. Attendees will come away with an understanding of how to get the productivity benefits of LLM copilots for coding, while mitigating the risk of writing insecure code.\n\n**Agenda**\n6:00 PM - 6:30PM Food, drinks, and networking\n6:30 PM - 7:30 PM Presentation\n7:30 PM - 8:00 PM Raffle, networking, and cleanup"
-    },
-    {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASPOttawa February 21st 2024: K8s:Insecure by Default, and what to do about it",
-        "date": "2024-02-21",
-        "time": "18:00-05:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/298931231",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 564\n\n**Live Stream**:\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **Kubernetes Is Insecure by Default and What You Can Do About It**\n\n**Abstract:**\nWe tend to build things that are insecure by default. Kubernetes is no different. To be clear, this isn\u2019t a value judgment. Kubernetes is an amazing open-source project made up of the contributions of thousands of people. Why Kubernetes is the way it is by default makes sense\u2014we want it to be as easy to use as possible to start. As well, there were particular design decisions made that impact how we think about security in Kubernetes. Unfortunately, security is a trade-off, and ultimately, we need to undo the insecure by default stance and implement some level of security. But at what level? What changes? And where? In this talk, we\u2019ll discuss three major areas where we can make some positive security trade-offs to vastly improve the baseline level of security in Kubernetes without overly affecting ease of use or user expectations; a way that we can create a new baseline to build on. This talk would demo setting up open source automation to configure Kubernetes to have a default level of security, as well as using Falco for threat detection as a last line of defence.\n\n**Speaker:**\nCurtis Collicutt works to make complicated software and systems safer and easier to use. He has spent his career managing complex infrastructure and applications, working to make them reliable and secure through the principles of automation and organisational models such as DevOps. Curtis approaches his work from a socio-technical perspective, believing that it's not just about what technology can do, but how we use it, and that we'll be both safer and more productive if we approach difficult problems like cybersecurity through a human-centric lens. Currently he works at Sysdig helping customers achieve cybersecurity outcomes."
+        "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n1. **RSVPs will close at 11:59 PM PT on February 25th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n2. **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n\n* If your first and last name do not appear in our admin view, we will contact you. Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Abstract**\nHelping programmers write code faster is now one of the top use-cases of large language models. But is that code secure? In this talk we will cover both the promise and security risks of using LLMs for coding. Attendees will come away with an understanding of how to get the productivity benefits of LLM copilots for coding, while mitigating the risk of writing insecure code.\n\n**Agenda**\n6:00 PM - 6:30PM Food, drinks, and networking\n6:30 PM - 7:30 PM Presentation\n7:30 PM - 8:00 PM Raffle, networking, and cleanup"
     },
     {
         "group": "Peterborough",
@@ -290,6 +330,16 @@
         "description": "**[O que vai rolar?]**\nO pr\u00f3ximo meeting do OWASP Recife ocorrer\u00e1 no dia 28/02/2024 \u00e0s 20:00 com o t\u00edtulo: \"Detec\u00e7\u00e3o de Vulnerabilidades em C\u00f3digo-Fonte com I.A\" conduzida por Maria Fernanda Rodrigues, da Tempest Security Intelligence.\n\nA palestrante demonstrar\u00e1 uma forma de detec\u00e7\u00e3o de vulnerabilidades em c\u00f3digo-fonte, utilizando o modelo n\u00e3o supervisionado de aprendizado de m\u00e1quina FICS (Functionally-similar yet Inconsistent Code). O primeiro detector de bugs 'machine learning-based' que identifica e aponta inconsist\u00eancias no c\u00f3digo como indicadores de poss\u00edveis vulnerabilidades de seguran\u00e7a.\n\n**[Formato do encontro]**\nPalestra online\n\n**[Shortbio de Maria]**\nMaria Fernanda Rodrigues\nEstagi\u00e1ria em Pesquisa e Desenvolvimento\nTempest Security Intelligence"
     },
     {
+        "group": "Sastra University",
+        "repo": "www-chapter-sastra-university",
+        "name": "Quiz time ",
+        "date": "2024-02-25",
+        "time": "09:00+05:30",
+        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/299335823",
+        "timezone": "Asia/Kolkata",
+        "description": "**Get ready for an exhilarating test of knowledge and wit! Join us for the quiz where participants will engage in a battle of brains, tackling questions ranging from cybersecurity to general trivia.**"
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -298,16 +348,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/298337300",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Do you know where your secrets are?",
-        "date": "2024-02-22",
-        "time": "17:30-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/298955593",
-        "timezone": "America/Los_Angeles",
-        "description": "*Do you know where your secrets are?*\n\n*Do you know what Uber, CircleCI, and Toyota all have in common? They had hardcoded credentials in plaintext somewhere in their environments, leading to either a public leak or enabling an attacker to expand their footprint during a breach.*\n\n*Understanding the problem with hardcoding secrets is simple, but how widespread is this problem? How fast is it growing? How does it keep happening? Moreover, what can you do to address it?*"
     },
     {
         "group": "Singapore",
@@ -330,16 +370,6 @@
         "description": "In this talk, we will delve into the complex world of quantum computing and explore the basics of **how these machines operate**.\nWe will discuss the **fundamental concepts of quantum states**, including their properties and measurement, as well as the phenomenon of entanglement.\n\nAdditionally, we will cover **how to implement functions on a quantum computer** and provide an overview of popular **quantum algorithms** such as the Deutsch-Jozsa algorithm, Grover's algorithm, and Shor's algorithm.\nWe will also explore the **practical implications of quantum computing**, including an overview of the current state of quantum computers and their potential **impact on cryptography**.\n\nThe talk will conclude with an examination of the popular cryptosystems that are under threat and the efforts by organizations, such as NIST, to address these challenges.\n\nJoin Petar in this OWASP Switzerland event for a comprehensive overview of quantum computing and its real-world implications."
     },
     {
-        "group": "Tampa",
-        "repo": "www-chapter-tampa",
-        "name": "OWASP Tampa Chapter 2024Q1 Lunch and Learn",
-        "date": "2024-02-22",
-        "time": "11:30-05:00",
-        "link": "https://www.meetup.com/owasp-tampa/events/298757282",
-        "timezone": "America/New_York",
-        "description": "**Welcome to our OWASP Tampa 2024Q1 Lunch and Learn!**\n\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda:**\n\n* 11:30am - Registration and Lunch\n* 12:00pm - Speaker - Chris Hatter - Appsec in an AI-powered world\n* 1:00pm - Depart\n\n**Speaker:**\nChris Hatter is an Operating Partner at NumberOneAI where he provides technical leadership to portfolio companies within the incubator. Additionally, Chris serves as the COO/CISO of Qwiet.AI, an AI-powered AppSec platform.\n\nHe has over a decade of experience in cybersecurity strategies, managing threats and vulnerabilities, risk assessment, cyber resilience, legal and compliance issues, and crisis management. Prior to his current roles at N1AI and Qwiet, Chris served as the Global CISO for Nielsen, at the time, a global technology and data company that operated in over 150 countries with 80,000+ employees.\n\nChris holds a Bachelor of Business Administration in Management Information Systems from the University of South Florida and sits on the university\u2019s advisory board of cybersecurity for executives.\n\n**Abstract**:\nIn this bold new age of artificial intelligence, software is evolving at a blistering pace. From AI-generated code to automated devops to ingenious new AI applications, innovation is accelerating. Businesses across every industry stand to gain enormously in productivity and efficiency. However, with such great power comes great risk. As AI accelerates the pace of software innovation, it also increases the prevalence of vulnerabilities and exploits.\n\nGiven that application security teams are often under-resourced and equipped with weak technologies... What can they do to manage the inevitable complexity introduced by AI? This interactive talk will lay out the escalating challenges for application security and engineering teams while offering some practical solutions.\n\n**Location:**\nGuidePoint Security\n3030 N Rocky Point Drive W\nSte 600\nTampa, FL\n\n**Sponsors:**\n[Qwiet.AI](https://qwiet.ai/)"
-    },
-    {
         "group": "Toronto",
         "repo": "www-chapter-toronto",
         "name": "Celebrating security community in Toronto: Reflections and future plans",
@@ -348,6 +378,16 @@
         "link": "https://www.meetup.com/owasp-toronto/events/299304276",
         "timezone": "America/Toronto",
         "description": "To celebrate 20 years of the Toronto security community TASK and to bring together other leading security communities in the city, we're hosting a joint special event. The evening at the Waterfront campus of George Brown kicks off with an engaging talk on using LLMs to detect malware. Next we bring together members of TASK, Leading Cyber Ladies (LCL), OWASP, DC416 and ISC2 for a panel discussion with lots of audience participation!\n\nOur sincere thanks to Nick Aleks at ASEC.io for sponsoring this event to George Brown for hosting us!\n\n**SIGN UP ON THE EVENTBRITE HERE: [Celebrating security community in Toronto: Reflections and future plans Tickets\\, Wed\\, 28 Feb 2024 at 6:00 PM \\| Eventbrite](https://www.eventbrite.com/e/celebrating-security-community-in-toronto-reflections-and-future-plans-tickets-841537289687)**\n\n### **Title: Leveraging the power of LLMs for Malware Detection**\n\nLarge Language Models and Generative AI have completely reshaped the landscape of Artificial Intelligence the last two years. We propose a modern and effective method of detecting Powershell maliciousness, by using an LLM initially trained on code completion and characterization. We will explain the benefits of using a pre-trained model, different ways of adapting it to our task, and present the results. In particular, we will explain how we were able to use the trained model and ask it \"where it was wrong\", shedding lights on errors in the training datasets. Further, we'll explain where these errors came from, and how to improve the model iteratively by correcting them, allowing more people to reproduce our findings and fix pitfalls coming with noisy datasets. We will also discuss how you can define maliciousness depending on your objectives.\n\n**Speaker: Fr\u00e9d\u00e9ric Grelot**\n[bio forthcoming...]\n\n### **Title: Reflections on the past, present, future of the Toronto Security Community**\n\nMembers of TASK, Leading Cyber Ladies (LCL), OWASP, DC416 and ISC2 reflect on their experiences volunteering for the security community in Toronto, followed by an open discussion with the audience on what value we're looking for our communities to bring, and ways we can better, more flexibly serve the community we love.\n\n**Panelists:**\n\n* Nick Aleks: [https://www.linkedin.com/in/nick-aleks-2b35389/](https://www.linkedin.com/in/nick-aleks-2b35389/), DC416: [https://defcontoronto.com/](https://defcontoronto.com/)\n* Raphael Adeyemo: [https://www.linkedin.com/in/raphael-adeyemo/](https://www.linkedin.com/in/raphael-adeyemo/), ICS1: [https://isc2chapter-toronto.ca/](https://isc2chapter-toronto.ca/)\n* Opheliar Chan: [https://www.linkedin.com/in/opheliar-chan/](https://www.linkedin.com/in/opheliar-chan/), OWASP: [https://www.meetup.com/owasp-toronto/](https://www.meetup.com/owasp-toronto/)\n* Helen Oakley: [https://www.linkedin.com/in/helen-oakley/](https://www.linkedin.com/in/helen-oakley/), LCL: [https://www.meetup.com/Cyber-Ladies-Toronto/](https://www.meetup.com/Cyber-Ladies-Toronto/)\n* David Senf: [https://www.linkedin.com/in/dsenf/](https://www.linkedin.com/in/dsenf/),TASK: [https://task.to](https://task.to/)\n\nWith thanks for our sponsor [ASEC ](https://www.asec.io/)and host George Brown!"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "In a perfect DevSecOps world...",
+        "date": "2024-03-21",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516364",
+        "timezone": "America/Vancouver",
+        "description": "**In a perfect DevSecOps world...** with Aleksandr Krasnov\n\nEmbark on a journey into the heart of DevSecOps with a focus on maturity and practical implementation. This talk unveils the symbiotic relationship between development, security, and operations, illustrating how their harmonious integration fortifies the software development lifecycle. Through real-world examples, attendees will gain a deep understanding of DevSecOps maturity, discovering its transformative impact on organizational resilience.\nThe session provides actionable strategies for attendees to enhance their DevSecOps proficiency, encompassing automated security testing, continuous monitoring, and rapid incident response. This concise exploration equips participants with a roadmap to ascend the DevSecOps maturity ladder, fortifying their software development practices against evolving threats. Join us for an engaging discussion on demystifying DevSecOps, empowering you with the tools to cultivate a secure and high-performing software ecosystem.\n\n**Aleksandr Krasnov** has been a leading industry expert in DevSecOps. He's been working on implementing various DevSecOps initiatives in companies like Palo Alto Networks, Dropbox, and Meta. You can find Aleksandr doing independent security research, advising, writing articles, and giving talks like this one."
     },
     {
         "group": "Wrongsecrets",

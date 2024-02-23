@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2024ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull;  [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP OWTF](#owasp-owtf) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon)
 
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
@@ -91,7 +91,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
 
 ##### Getting started
-- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Check [GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-securetea
 
 ##### Student Requirements
@@ -99,7 +99,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Angular
 
 ##### Mentor
-* [Ardi](mailto:pakdesawangan@gmail.com)
+* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
 ### [OWASP PyGoat](https://owasp.org/www-project-pygoat/)
@@ -120,7 +120,7 @@ Intentionally vuln web Application Security in django.
 
 
 ##### Getting started
-- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Check [GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
 
 ##### Student Requirements
@@ -130,35 +130,7 @@ Intentionally vuln web Application Security in django.
 
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
-* Nizam
-
-### [OWASP Risk Assessment Framework](https://owasp.org/www-project-risk-assessment-framework/)
-The OWASP Risk Assessment Framework consist of Dynamic application security testing (DAST) and Risk Assessment tools. By using OWASP Risk Assessment Framework's  Testers will be able to analyse and review their application and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure application.
-
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-
-##### Expected results
-
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Building API Scanner and Integrated other scanners
-- Add Vulnerabilities based on OWASP Top 10 - 2021, CVE Mitre, SANS 25 Top error also ISO 27k
-- Integrated to other pentest tool
-- Scheduled scan
-
-##### Getting started
-- Check[GitHub project](https://github.com/Risk-Assessment-Framework) and [Website](https://owasp.org/www-project-risk-assessment-framework/).
-- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #risk-assessment
-
-##### Student Requirements
-- Python
-- Flask
-- React
-
-##### Mentor
-* [Ade Yoseman](mailto:edikdoank@gmail.com)
-* [Ardi](mailto:pakdesawangan@gmail.com)
+* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
@@ -174,16 +146,7 @@ To receive early feedback please:
 - Please pick "juice shop" as Proposal Tag to make them easier to find
   for us. Thank you!
 
-##### Explanation of Ideas
-
-###### Frontend Tech-Stack Update
-
-![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Not recommended for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~175h)-not%20recommended-red)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-
-Juice Shop is currently using Angular 15 as its frontend foundation. Angular 16 is already available, version 17 is waiting just around the corner. There have been some incompatible compiler changes between 15 and 16 that break some third party components used in Juice Shop. In this project, Angular, along with other frontend libraries, should be updated to their latest versions. See https://github.com/juice-shop/juice-shop/issues/2173 for details on the Angular 16 migration. 
+##### Explanation of Ideas 
 
 ###### Juice Shop CTF Tool Rennovation
 
@@ -213,17 +176,17 @@ list? Great, please submit it!
 * Your code follows our existing styleguides and passes all existing
   quality gates regarding code smells, test coverage etc.
 * Code that you write comes with automated tests that fit into
-  [our available test suites](https://pwning.owasp-juice.shop/part3/contribution.html#testing).
+  [our available test suites](https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html#_testing).
 
 ##### Getting started
 
 * Make sure your JavaScript/TypeScript is sufficient to work on the
   Juice Shop codebase. Check our
-  [Codebase 101](https://pwning.owasp-juice.shop/part3/codebase.html)
+  [Codebase 101](https://pwning.owasp-juice.shop/companion-guide/latest/part3/codebase.html)
   here. Students with some experience with (or willingness to learn)
   Angular and NodeJS/Express are usually prefered.
 * Read our
-  [Contribution Guidelines](https://pwning.owasp-juice.shop/part3/contribution.html)
+  [Contribution Guidelines](https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html)
   very carefully. Best make some small contributions before GSoC, so we
   can see how you work and help you dive into the code even better.
 * Get in touch with
@@ -315,7 +278,7 @@ Please use the repositories' issue tracker, GitHub discussions, and don't forget
 - [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
 - [Abraham Aranguran](mailto:Abraham.Aranguren@owasp.org)
 
-### [OWASP secureCodeBox](https://www.securecodebox.io)
+### [OWASP secureCodeBox](https://www.securecodebox.io)
 
 secureCodeBox is a kubernetes based, modularized toolchain for continuous security scans of your software project.
 The secureCodeBox comes with many different scanners officially integrated (from Amass to Zap) and integration 

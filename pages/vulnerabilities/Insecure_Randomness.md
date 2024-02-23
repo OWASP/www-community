@@ -29,7 +29,7 @@ The following code uses a statistical PRNG to create a URL for a receipt that re
 String GenerateReceiptURL(String baseUrl) {
     Random ranGen = new Random();
     ranGen.setSeed((new Date()).getTime());
-    return(baseUrl + Gen.nextInt(400000000) + ".html");
+    return(baseUrl + ranGen.nextInt(400000000) + ".html");
 }
 ```
 
