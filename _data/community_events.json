@@ -100,16 +100,6 @@
         "description": "Jon Gadsden is going to start with a talk on **Threat Dragon**, as Project leader and contributor for the OWASP Threat Dragon tool, he knows a thing or two about what it does, and how it can be used.\n\nAfter the break, we will have a semi-structured **discussion** on **The Effects of our Decisions**; the intention is to draw on the experiences of everyone in the room to learn more about the subject. While the example will be about bcrypt cost, it's more about how security professionals must properly consider the decisions they make, and the effects those decisions have (see also changing passwords every 90 days).\n\n\\-\\-\\-\n\n**OWASP Threat Dragon**\n\nThreat Modeling is becoming more and more prominent in the security community; it is recognised as an important part of compliance, pipelines and software development.\n\nThis talk provides the reasons for doing threat modeling, what to look for in threat modeling, and how to threat model using the OWASP Threat Dragon tool.\n\nIt will introduce the various features of Threat Dragon and show how to use them to create a complete threat model.\n\nThe talk will include illustrations of Threat Dragon as it goes along, and if time permits then a demonstration can be given of creating a complete threat model using Threat Dragon.\n\n**Jon** is a software security engineer with Ping Identity, a company that provides Identity and Access Management services.\n\nHe is also a Co-Leader for the OWASP chapter in Bristol.\n\nJon splits his time between security engineering and software development; he says that he likes it this way because it reminds him that developers are always under time pressure and that product security engineers require a whole load of tact.\n\nJon has been involved with the open source software community since Linux 2.0.28, and he is a leader of the OWASP Threat Dragon project and also the OWASP Developer Guide."
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Top 10 Web Application Security\u00a0Risks",
-        "date": "2024-02-24",
-        "time": "12:00+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/299320971",
-        "timezone": "Africa/Cairo",
-        "description": "The OWASP Top 10 is a widely recognized and influential list of the most critical security risks that web applications face today. The list is updated every few years to reflect the evolving threat landscape and to provide the latest insights and recommendations to help developers, security professionals, and organizations better protect their web applications against these prevalent risks."
-    },
-    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS February 2024",
@@ -158,16 +148,6 @@
         "link": "https://www.meetup.com/meetup-group-svgchist/events/299332846",
         "timezone": "Asia/Dubai",
         "description": "Join us for an illuminating session as we explore the OWASP API Top 10, a crucial guide to understanding and mitigating the most critical security risks in API-based applications. From inadequate authentication measures to excessive data exposure, we'll dissect each vulnerability, providing insights and strategies to fortify your API security posture. Whether you're a developer, security professional, or business leader, this session promises valuable knowledge to safeguard your digital assets and uphold the integrity of your API infrastructure."
-    },
-    {
-        "group": "Dubai",
-        "repo": "www-chapter-dubai",
-        "name": "OWASP Dubai Chapter: Adopting DevSecOps into Modern SDLC",
-        "date": "2024-02-24",
-        "time": "10:00+04:00",
-        "link": "https://www.meetup.com/meetup-group-svgchist/events/299332375",
-        "timezone": "Asia/Dubai",
-        "description": "Accelerate your software delivery with DevSecOps culture!\nJoin our free webinar led by Ahmed Abdallah, a Senior Solutions Architect and Cyber Security Consultant, and learn about all things DevSecOps.\nIn this session, participants will gain further knowledge on the importance of the concept and discover how integrating security throughout the software development process can enhance speed, quality, and overall success.\n\nEvent is hosted by Canadian University in Dubai and in cooperation with Red Team Hacker Academy"
     },
     {
         "group": "Dublin",
@@ -220,6 +200,16 @@
         "description": "**Join us at our partner Omegapoint's office for an intriguing evening with food and drinks, and talks about PyPI security and a disclosure of security issues in TruffleHog!**\n\n**Where:** Omegapoint, Rosenlundsgatan 3, 411 20 G\u00f6teborg\n\n**Agenda:**\n**17:00 - 17:30:** Welcome to Omegapoint\n**17:30 - 17:45:** Introduction from the event hosts and presentation of tonight's speakers.\n**17:45 - 18:30:** *PyPI Security: Past, Present & Future*\nThe talk will be about PyPI's security stance, from the point of view of a\nfree software maintainer: 2FA, tokens and authentication.\nThe changes they did, the mistakes along the way, changes that are a work in progress and speculation on changes they will introduce in the future.\n**Salvo Tomaselli** is the sole maintainer of a critical python library.\nAlso small time free software contributor, Debian developer, IRC dweller, GPG holdout. Has worked in Gothenburg for a network security company for the past years.\nEnjoys jamming music, participating in flame wars and talking too loud.\n\n**18:30 - 19:15:** Food & Drinks\n\n**19:15 - 20:00:** *TruffleHog Security Issue Disclosure*\nThis presentation covers a set of security issues in TruffleHog, an open source, automated security tool that scans code repositories and configuration files for active secrets. The session provides a detailed walkthrough with several live demos, showing how the tool can be exploited to remotely harvest credentials from anyone running a default installation of TruffleHog v3. This presentation is part of a coordinated disclosure together with Truffle Security, the team behind TruffleHog.\n**Helena Rosenzweig** is a security researcher and software engineer at Omegapoint, focusing on application security for client projects. She has a keen interest in building secure and scalable software but is equally intrigued by all the things that can go wrong.\n\n**20:00 - 21:30:** Over-time (optional)\nHang out, grab something to drink, and discuss security, the weather or anything in between!"
     },
     {
+        "group": "Italy",
+        "repo": "www-chapter-italy",
+        "name": "OWASP Italy March 2024 Online Meetup ",
+        "date": "2024-03-08",
+        "time": "16:00+01:00",
+        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/299400128",
+        "timezone": "Europe/Rome",
+        "description": "OWASP Italy online Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.\n\nNext 8th March 2024 we will 3 great speakers:\n\n* **Tommaso Innocenti** \\- Ph\\.D\\. student working as a Secure Systems Lab \\(SecLab\\) member at Northeastern University\\.\n* **Luca Demetrio -** Ph.D Assistant Professor at the University of Genoa.\n* **Andrea Valenza -** Ph.D, Application Security Engineer at Prima Assicurazioni.\n\nThis Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.\n\nSecure now your spot for the upcoming online event!\n\nMore information and the Agenda at the following URL:\nhttps://owasp.org/www-chapter-italy/events/owaspitaly2024-03-08"
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -268,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-msp-meetup/events/298803400",
         "timezone": "America/Chicago",
         "description": "**The Monsters in your Software Supply Chain that traditional App Sec tools can't find**\n**Matt Rose, Field CISO at ReversingLabs, Security Practitioner**\n\nThe Solar Winds, 3CX and CircleCI software supply chain attacks exposed gaps in the current application and software supply chain security paradigm, highlighting the need for orgs to zero in on issues unique to software supply chain attacks. Join Field CISO Matt Rose as he unpacks recent attacks, the need to better prioritize secrets, malware, tampering, SBOMs, and application/software behaviors. You will learn some simple steps that application security and third party risk management teams can take to level up their Software Supply Chain Security Initiatives.\n\nApproximate agenda (U.S. Central Time):\n5:30 - Doors open; socializing/connecting, food, OWASP announcements\n6:00 - Presentation\n6:30 - Q&A\n\nPlease remember to register and keep your registration up to date so we know how many to expect."
-    },
-    {
-        "group": "Mumbai",
-        "repo": "www-chapter-mumbai",
-        "name": "OWASP Mumbai Online Meetup - 24th February 2024 [Virtual]",
-        "date": "2024-02-24",
-        "time": "12:00+05:30",
-        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/299130426",
-        "timezone": "Asia/Kolkata",
-        "description": "Session Details:\nIntroduction to OWASP Mumbai\n\nTalk:- Lessons Learned from past Cyber Ransomware Incident Pharma Sector\n\nSpeaker:- Ravindra\n\nQnA and FeedBack"
     },
     {
         "group": "Nashville",
@@ -332,7 +312,7 @@
     {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
-        "name": "Chapter Social",
+        "name": "Monthly Networking Social",
         "date": "2024-02-29",
         "time": "19:00Z",
         "link": "https://www.meetup.com/owasp-peterborough/events/298902117",
