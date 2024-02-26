@@ -22,6 +22,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - March 2024 (Online)",
+        "date": "2024-03-26",
+        "time": "11:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/298206989",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "March 2024 OWASP Austin Security Professionals Happy Hour",
         "date": "2024-03-14",
         "time": "17:30-05:00",
@@ -398,6 +408,16 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516364",
         "timezone": "America/Vancouver",
         "description": "**In a perfect DevSecOps world...** with Aleksandr Krasnov\n\nEmbark on a journey into the heart of DevSecOps with a focus on maturity and practical implementation. This talk unveils the symbiotic relationship between development, security, and operations, illustrating how their harmonious integration fortifies the software development lifecycle. Through real-world examples, attendees will gain a deep understanding of DevSecOps maturity, discovering its transformative impact on organizational resilience.\nThe session provides actionable strategies for attendees to enhance their DevSecOps proficiency, encompassing automated security testing, continuous monitoring, and rapid incident response. This concise exploration equips participants with a roadmap to ascend the DevSecOps maturity ladder, fortifying their software development practices against evolving threats. Join us for an engaging discussion on demystifying DevSecOps, empowering you with the tools to cultivate a secure and high-performing software ecosystem.\n\n**Aleksandr Krasnov** has been a leading industry expert in DevSecOps. He's been working on implementing various DevSecOps initiatives in companies like Palo Alto Networks, Dropbox, and Meta. You can find Aleksandr doing independent security research, advising, writing articles, and giving talks like this one."
+    },
+    {
+        "group": "Yerevan",
+        "repo": "www-chapter-yerevan",
+        "name": "OWASP Yerevan February meetup - Samvel Martirosyan; Sona Khachatryan",
+        "date": "2024-02-28",
+        "time": "19:00+04:00",
+        "link": "https://www.meetup.com/owasp-yerevan/events/299417764",
+        "timezone": "Asia/Yerevan",
+        "description": "OWASP Yerevan February meetup agenda:\n\n1. Decade of hacking attacks against Armenia by Russian APT 28: 2013-2023 - Samvel Martirosyan\n2. UAV Information security issues - Sona Khachatryan\n\nRoom number 314W in Paramaz Avedisian building (PAB, second/new building)."
     },
     {
         "group": "Wrongsecrets",
