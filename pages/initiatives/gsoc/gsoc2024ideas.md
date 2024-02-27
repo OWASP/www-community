@@ -220,17 +220,26 @@ This pack includes tasks that are crucial for enhancing the user experience and 
 - **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
 
 ##### Large Feature Pack for the metric Analyzer and Collector (Java)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 This pack challenges students to develop the entire workflow from data collection to visualization for DSOMM metrics, including the implementation of a Kafka queue. Projects include:
-- Design and implement a **collector for OWASP DefectDojo**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) via the [defectdjo-client](https://github.com/SDA-SE/defectdojo-client) which fetches MTTR/MTTP) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Develop a **collector for Backstage and Confluence**, to retrieve essential documents such as threat modeling and pentest reports, with a focus on document management and identification. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Create a **collector for Jenkins**, aimed at measuring deployment frequency by team, a key metric in DevOps performance. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Design and implement a **collector for OWASP DefectDojo**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) via the [defectdjo-client](https://github.com/SDA-SE/defectdojo-client) which fetches MTTR/MTTP) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+- Develop a **collector for Confluence**, to retrieve essential documents such as threat modeling and pentest reports, with a focus on document management and identification. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 - Engineer a **collector for GitHub**, to calculate MTTP by tracking pull request opening and merge dates. In addition, check that _branch protection_ is enabled and a .gitignore exists in the root file system. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 - **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
 
-Please take a look at the [architecture digram of DSOMM metricCA](https://github.com/devsecopsmaturitymodel/metricCA). The whole way from the collector to grafana needs to be implemented. Please note that a queue Kafka is currently not implemented and needs to be implemented in the collector and in the metricAnalyzer.
+##### Large Feature Pack for the metric Analyzer and Collector (Java)
+![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+This pack challenges students to develop the entire workflow from data collection to visualization for DSOMM metrics, including the implementation of a Kafka queue. Projects include:
+- Design and implement a **collector for OWASP DefectDojo**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) via the [defectdjo-client](https://github.com/SDA-SE/defectdojo-client) which fetches MTTR/MTTP) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+- Develop a **collector for Backstage, Jira and Confluence**, to retrieve essential documents such as threat modeling and pentest reports, with a focus on document management and identification. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Create a **collector for Jenkins**, aimed at measuring deployment frequency by team, a key metric in DevOps performance. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Engineer a **collector for GitHub**, to calculate MTTP by tracking pull request opening and merge dates. In addition, check that _branch protection_ is enabled and a .gitignore exists in the root file system. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Engineer a **collector for Dependency Track**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
 
-For Backstage and Confluence a defined format and tags might be used to identify the corresponding team and type of document (e.g. threat modeling/pentest).
+Please take a look at the [architecture digram of DSOMM metricCA](https://github.com/devsecopsmaturitymodel/metricCA). The whole way from the collector to grafana needs to be implemented. Please note that a queue Kafka and Prometheus is currently not implemented and needs to be implemented in the collector and in the metricAnalyzer.
+
+For Backstage, Jira and Confluence a defined format and tags might be used to identify the corresponding team and type of document (e.g. threat modeling/pentest).
 
 #### Prerequisites
 - Proficiency in the corresponding programming language (JavaScript for the main application, Java for the metric analyzer and collector)
