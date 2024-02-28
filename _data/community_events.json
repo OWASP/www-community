@@ -1,25 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - February",
-        "date": "2024-02-27",
-        "time": "19:00+01:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/298670348",
-        "timezone": "Europe/Copenhagen",
-        "description": "OWASP Aarhus and Danske Commodities are happy to invite you to this OWASP Aarhus meetup.\n\n19:00 \u2013 19:05 Welcome by Tobias Evar Lauridsen, Danske Commodities, and Thomas Ljungberg Kristensen, OWASP Aarhus\n\n19:05 \u2013 20:00 Frans aims to facilitate a case study centered around a simulated security breach, where participants will navigate a company through a security incident, emphasizing the management of employees, customers, authorities, and other stakeholders. This exercise will simulate a scenario where the participants must effectively handle the aftermath of a security breach, addressing concerns related to internal personnel, external clients, regulatory bodies, and other relevant stakeholders.\n\nThrough this simulation, Frans aims to facilitate a comprehensive understanding of the complexities involved and enable participants to apply effective strategies in real-world scenarios\n\nAbout Frans: Frans Skovholm is an attorney and partner at DAHL Law Partnership, responsible for DAHL's compliance team, which includes specialists in NIS2, ISMS, and Commercial compliance. Frans specializes in systematic risk management and advisory services related to ISMS management systems, including ISO 27001. He holds certification as an ISO 27001 Lead Implementer from PECB, which he applies in his consultation on information security law. Furthermore, he engages in work related to data protection law, assisting numerous companies in implementing internal regulations to ensure compliance with the requirements of the General Data Protection Regulation (GDPR).\n\n20:00 \u2013 20:30 Networking break\n\n20:30 \u2013 21:25 Overcoming the DevSecOps Imposter Syndrome by Michael Man, DevSecOps Evangelist and Community Leader, Veracode\n\nThe technology landscape is forever changing, and this is also reflective within the security field. As such, it is very overwhelming for people trying to break into the security domain and it is no difference for people who works in it. In this talk, I will share my perspective with how I had tackled this problem, how I drowned in the tsunami of information which impacted me mentally and tips for you to consider taking your first steps with your Continuous Learning journey.\n\nKey takeaways:\n\\- Admit to yourself that nobody knows it all\n\\- Be brave and ask those questions \\(others will be thankful\\)\n\\- Do not let the opinionated people overwhelm you\n\\- Techniques I use as part of my Continuous Learning\n\nAbout Michael: Michael brings more than 20 years of IT security experience. He has advised large enterprises on secure software development, working across all stages of delivery, while engaging with the different stakeholders to deliver successful business outcomes. His favourite certification is his OSCP due to his keen understanding of ethical hacking practices. Michael is also the founder of one of the largest DevSecOps community meetups \u201cDevSecOps - London Gathering\u201d and has co-organised the conference \u201cDevSecOps Days London\u201d.\n\n21:15 \u2013 21:30 Closing notes and goodbyes"
-    },
-    {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "Scanning at scale using Semgrep and CycloneDX at FanDuel",
-        "date": "2024-02-27",
-        "time": "18:30-05:00",
-        "link": "https://www.meetup.com/owasp-atlanta/events/298785828",
-        "timezone": "America/New_York",
-        "description": "When looking at the diverse landscape of source code repositories at a large organization like FanDuel, a series of questions arise:\n\n* What patterns **currently** exist across these repositories?\n* What patterns **should** exist? (ideal state)\n* How ***aligned*** are the current patterns with our ideal state?\n\nCombining theory, practicality, and memes, we demonstrate how FanDuel set out to answer these questions by creating a platform empowering relentless iteration. Learn from our real-world case study how the convergence of application security, data schemas, and vulnerability management\u2014powered by OWASP CycloneDX and Semgrep\u2014revolutionizes the prevention and mitigation of risks. Step into the forefront of innovation and discover a new paradigm that transforms challenges into opportunities in the dynamic information security landscape."
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - March 2024 (Online)",
@@ -68,16 +48,6 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/299385051",
         "timezone": "America/Chicago",
         "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - February 2024 (Online)",
-        "date": "2024-02-27",
-        "time": "11:30-06:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/298206982",
-        "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n**Presentation: API Security flaws that are commonly exploited.**\nAs more and more development focusses on APIs to make things faster and easier, security needs to be pushed more toward the front. Mistakes that have been corrected in web application security have now returned as APIs aren\u2019t offered the same protections as they are usually out of the normal flow via security tooling such as WAFs. This means identifying and fixing flaws prior to production is important. This discussion will be around lessons learned from testing and breach data with an eye for prevention. This attendees will learn:\nApplication and API stacks are full of dangerous over-powered methods. These lurking menaces are built into libraries, frameworks, appservers, and runtime platforms. They do crazy things (from a security perspective) like start native processes, parse XML documents, evaluate expressions, and deserialize objects. And they are totally unprotected. Developers can use them without restriction, and attackers can target these binary Bambis without being detected or stopped. Unfortunately, the security of the entire digital ecosystem is entirely reliant on getting developers to take the right steps to use these methods safely\u2026 but it\u2019s way too hard.\n\n**Speaker:**\nJason Kent -- jason.kent@cequence.ai\n\nRSVP:\nhttps://owasp-austin-2024-february-g2.eventbrite.com - Eventbrite (in-person, Group 2)"
     },
     {
         "group": "Bay Area",
@@ -130,14 +100,14 @@
         "description": "Managing vulnerabilities in third party software has become an important application security activity. Vulnerabilities like Log4Shell and various supply chain attacks such as SolarWinds or CodeCov and numerous others have given many of us haunting nightmares resulting us sleeping with one eye open. Fortunately, Software Composition Analysis (SCA) tools coupled with Software Bill of Materials (SBOMs) have done so much to relieve that anxiety. Or not. This talk explores the vulnerability management process through the eyes of a FOSS security library provider and examines what we can do as AppSec engineers and developers to make the whole process a bit less painful."
     },
     {
-        "group": "Delaware",
-        "repo": "www-chapter-delaware",
-        "name": "OWASP Delaware 2024 kick off",
-        "date": "2024-02-27",
-        "time": "18:00-05:00",
-        "link": "https://www.meetup.com/owasp-delaware-chapter/events/299155975",
-        "timezone": "America/New_York",
-        "description": "A quick intro to OWASP and our humble chapter, some brainstorming about what we might consider doing as a chapter in 2024 (monthly meetings perhaps ), some social networking (not engineering, m'kay thanks ), and a quick intro to testing web app security with Burp Suite Community (https://portswigger.net/burp/communitydownload).\n\nThe meeting will be held in the library's computer lab to encourage people to get some hands-on web security testing experience."
+        "group": "Dallas",
+        "repo": "www-chapter-dallas",
+        "name": "OWASP March Meet - In person",
+        "date": "2024-03-19",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/299474646",
+        "timezone": "America/Chicago",
+        "description": "\\*\\*\\*\\*Appsec in an AI-powered world\\*\\*\\*\\*\\*\n\nIn this bold new age of artificial intelligence, software is evolving at a blistering pace. From AI-generated code to automated devops to ingenious new AI applications, innovation is accelerating. Businesses across every industry stand to gain enormously in productivity and efficiency. However, with such great power comes great risk. As AI accelerates the pace of software innovation, it also increases the prevalence of vulnerabilities and exploits.\nGiven that application security teams are often under-resourced and equipped with weak technologies... What can they do to manage the inevitable complexity introduced by AI? This interactive talk will lay out the escalating challenges for application security and engineering teams while offering some practical solutions."
     },
     {
         "group": "Denver",
@@ -290,6 +260,16 @@
         "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe'll be restarting our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for March will be **A01:2021 - Broken Access Control**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the second Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
+        "group": "Newcastle Uk",
+        "repo": "www-chapter-newcastle-uk",
+        "name": "OWASP Newcastle March 2024",
+        "date": "2024-03-13",
+        "time": "18:00Z",
+        "link": "https://www.meetup.com/owasp-newcastle-chapter/events/299466332",
+        "timezone": "Europe/London",
+        "description": "We're back with our first event of 2024! We\u2019ll be doing our usual two talks and pizza format.\n\nRough schedule:\n\n1800 - 1815 Arrival and networking\n1815 - 1820 OWASP Newcastle Welcome\n1820 - 1920 Talk one\n1920 - 2000 Pizza and networking\n2000 - 2045 Talk two\n2045 - onwards Pub?\n\nTalk overviews:\n\nTalk 1\n**Title:** TBC\n**Speaker:** TBC\n**Speaker Bio:** TBC\n\nTalk 2\n**Title:** TBC\n**Speaker:** TBC\n**Speaker Bio:** TBC\n\nAs always, tickets aren\u2019t required but help us gauge how much food to order.\n\n**Live Stream Info:** We're hoping to be able to live stream the event on our [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there."
+    },
+    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Orange County Cybersecurity Mixer",
@@ -308,6 +288,16 @@
         "link": "https://www.meetup.com/owasp-oc/events/299073790",
         "timezone": "America/Los_Angeles",
         "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n1. **RSVPs will close at 11:59 PM PT on February 25th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n2. **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n\n* If your first and last name do not appear in our admin view, we will contact you. Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Abstract**\nHelping programmers write code faster is now one of the top use-cases of large language models. But is that code secure? In this talk we will cover both the promise and security risks of using LLMs for coding. Attendees will come away with an understanding of how to get the productivity benefits of LLM copilots for coding, while mitigating the risk of writing insecure code.\n\n**Agenda**\n6:00 PM - 6:30PM Food, drinks, and networking\n6:30 PM - 7:30 PM Presentation\n7:30 PM - 8:00 PM Raffle, networking, and cleanup"
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Monthly Networking Social",
+        "date": "2024-03-28",
+        "time": "19:00Z",
+        "link": "https://www.meetup.com/owasp-peterborough/events/298926492",
+        "timezone": "Europe/London",
+        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
         "group": "Peterborough",
@@ -358,16 +348,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/298337300",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Singapore",
-        "repo": "www-chapter-singapore",
-        "name": "Feb 2024: SSRF & Breaking down Software Integrity failures in the wild",
-        "date": "2024-02-27",
-        "time": "19:00+08:00",
-        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/298921821",
-        "timezone": "Asia/Singapore",
-        "description": "We have 2 speakers for our very 1st meetup of 2024 and many thanks to Z\u00fchlke Singapore for sponsoring the venue and food!\n\n**Topic 1: Understanding Server-Side Request Forgery \u2013 The new kid on the OWASP Top 10**\n\n**Synopsis:**\nJoin our OWASP meetup for a critical exploration of Server-Side Request Forgery (SSRF), the latest addition to the OWASP Top 10. This talk will introduce SSRF, explaining its 2 flavours and impact on web applications. Gian-Luca will cover its emergence in the security landscape, analyze real-world case studies, and discuss mitigation strategies. For newcomers we\u2019ll do a short practical demo and for app sec experts we are looking forward to a fruitful discussion about potential mitigation strategies.\n\n**Speaker Bio:**\nGian-Luca Frei is an experienced Application Security Consultant based in Singapore, currently working at Z\u00fchlke. With a passion for security, Gian-Luca has a proven track record of securing systems with the highest security standards, including e-banking portals and health applications. He brings a wealth of knowledge and expertise in the field of application security, having worked in the industry for several years. Gian-Luca is also the founder and co-leader of the OWASP Application Gateway Project, which focuses on developing open-source tools to help secure web applications. In addition to his professional engagements, Gian-Luca is a researcher at heart. He has a keen interest in modern cryptographic protocols and has conducted extensive research in this field. His contributions have been recognized with the ISSS Excellence Award in 2019.\n\n**Topic 2: Cracks in the pipeline - Breaking down Software Integrity failures in the wild**\n\n**Synopsis:**\nOpen-source libraries and packages have long been invaluable resources for developers of all skill levels. However, is this dynamic about to shift? Shockingly, between 2022 and 2023, there was a staggering 11,973% surge in reported malicious packages in the wild. Despite this alarming trend, there's a tendency to overlook A08:2021 \u2013 Software and Data Integrity Failures in the OWASP Top 10.\nJoin us as we delve into the unprecedented rise of malicious packages, explore their inner workings, ingenious tactics, and discuss proactive measures we can adopt to counter these threats.\n\n**Speaker Bio:**\nVinoth leads the Cyber Offensive consulting team in Singapore at softScheck APAC. His insatiable curiosity led him into the world of hacking, where he dedicates his time to uncovering vulnerabilities and safeguarding clients across various industries. Vinoth maintains an avid interest in security research, and a particular passion for low-level systems engineering and exploit development."
     },
     {
         "group": "Switzerland",
