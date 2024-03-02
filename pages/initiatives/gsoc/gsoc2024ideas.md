@@ -76,62 +76,6 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 * Arkadii Yakovets (@arkid15r on Slack) -- Python/Django mentor
 * We are looking for mentors, reach out to us on Slack
 
-### [OWASP SecureTea](https://securetea.org/)
-
-The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices).
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-##### Expected results
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Improve Web Application Firewall GUI based on AI 
-- Improve all SecureTea features (IDS,Firewall)
-- Complete the web GUI and remote monitoring
-- Zero bugs - Fix the current identifed bugs
-- Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
-
-##### Getting started
-- Check [GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
-- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-securetea
-
-##### Student Requirements
-- Python
-- Angular
-
-##### Mentor
-* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
-* [Ade Yoseman](mailto:edikdoank@gmail.com)
-
-### [OWASP PyGoat](https://owasp.org/www-project-pygoat/)
-Intentionally vuln web Application Security in django.
-
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-
-##### Expected results
-
-![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-
-- Improve Vulnerability Challenges
-- Improve Secure Coding Lab
-- Build AI Chatbox
-- Fixing all issues and work with Docker
-
-
-##### Getting started
-- Check [GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
-- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
-
-##### Student Requirements
-- Python
-- Django
-- NLP 
-
-##### Mentor
-* [Ade Yoseman](mailto:edikdoank@gmail.com)
-* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
-
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
