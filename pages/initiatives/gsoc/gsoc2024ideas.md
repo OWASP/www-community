@@ -92,6 +92,15 @@ To receive early feedback please:
 
 ##### Explanation of Ideas 
 
+###### Test Suite Harmonization
+
+![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Not recommended for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~175h)-not%20recommended-red)
+
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+
+Juice Shop had a full replacement of its end-to-end test suite - from Protractor to Cypress - in its GSoC 2022 project. Now it is time to take on the remainin test suites, especially the Integration/API tests currently running on Frisby.js. That library as not seen updates in 2+ years and it became more and more flaky over the years, causing occasional CI/CD failures and time-consuming retry-mechanisms to keep those in check. A new foundation for these tests is needed. In scope is also to look at the frontend and backend unit test suites, and find a way to reduce the number of test frameworks being used in order to achieve higher consistency and less complexity for maintenance of the project.
+
 ###### Juice Shop CTF Tool Rennovation
 
 ![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
