@@ -24,10 +24,10 @@
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - March 2024 (Online)",
         "date": "2024-03-26",
-        "time": "11:30-05:00",
+        "time": "11:45-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/298206989",
         "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+        "description": "Room opens at 11:30 AM CDT, there will be 30 minutes of meet-and-greet and Chapter information, then the Presentation!\nIf you would like to attend in person, please register here -- [Eventbrite (in-person)](https://www.eventbrite.com/e/owasp-austin-chapter-monthly-meeting-march-2024-tickets-860134073167?aff=oddtdtcreator)\n\nPresentation: **Protecting Sources and Methods \u2013 The Magic of Runtime Security**\n\nDescription\nIn this talk, we\u2019re going to dive into \u201cruntime security\u201d \u2013 a powerful technology that automatically adds powerful trust boundaries to these dangerous methods without requiring any code or process changes. Runtime security enables all four of these key capabilities:\n\nFinding zero-day vulnerabilities in custom code and libraries in real time\nFinding known vulnerabilities in libraries and understanding their exploitability\nPreventing vulnerabilities from being exploited in production\nCreating a digital blueprint of security to drive threat modeling, penetration testing, and risk management\n\nIn essence, Runtime Security is a comprehensive approach to app/API security that can replace your suite of legacy tools. Runtime security is already in use in hundreds of thousands of critical apps/APIs in some of the biggest companies in the world. During our session, you\u2019ll learn how to use Runtime Security to streamline application security, accelerate innovation, and improve security at the same time.\n\nSpeaker:\nJeff Williams"
     },
     {
         "group": "Austin",
@@ -60,16 +60,6 @@
         "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
-        "date": "2024-03-07",
-        "time": "12:00-06:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/299385377",
-        "timezone": "America/Chicago",
-        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
-    },
-    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "March Meetup",
@@ -90,16 +80,6 @@
         "description": "With a limited supply of potential hires and an already maxed security budget, how do we begin to tackle Application Security (AppSec)?\n\nThis talk will attempt to help provide some direction when it comes to solving this problem. It is aimed at security folks and developers of all skill levels who are interested in getting their feet wet with AppSec.\n\nDuring the talk we will first explore an industry framework that can help guide the first few steps in our journey. Then, we will dive into a demo and highlight some of the fantastic free and open-source tools that we can use to demonstrate value and rack up a few easy and impactful wins."
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Top 10 #2",
-        "date": "2024-03-09",
-        "time": "10:00+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/299600389",
-        "timezone": "Africa/Cairo",
-        "description": "In this session, we will cover the following risks:\n\n* **[A04:2021-Insecure Design](https://owasp.org/Top10/A04_2021-Insecure_Design/)** is a new category for 2021, with a focus on risks related to design flaws. If we genuinely want to \u201cmove left\u201d as an industry, it calls for more use of threat modeling, secure design patterns and principles, and reference architectures.\n* **[A05:2021-Security Misconfiguration](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)** moves up from #6 in the previous edition; 90% of applications were tested for some form of misconfiguration. With more shifts into highly configurable software, it\u2019s not surprising to see this category move up. The former category for XML External Entities (XXE) is now part of this category.\n* **[A06:2021-Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)** was previously titled Using Components with Known Vulnerabilities and is #2 in the Top 10 community survey, but also had enough data to make the Top 10 via data analysis. This category moves up from #9 in 2017 and is a known issue that we struggle to test and assess risk. It is the only category not to have any Common Vulnerability and Exposures (CVEs) mapped to the included CWEs, so a default exploit and impact weights of 5.0 are factored into their scores."
-    },
-    {
         "group": "Chennai",
         "repo": "www-chapter-chennai",
         "name": "OWASP Chapter Meetup - March",
@@ -108,6 +88,16 @@
         "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/299617107",
         "timezone": "Asia/Kolkata",
         "description": " Delve into the world of cybersecurity with OWASP Chennai Chapter! Our lineup features a diverse range of sessions designed to deepen your understanding and foster collaboration within the community. From enlightening keynote insights to hands-on hacking experiences, this event promises something for everyone. Network with industry professionals, participate in insightful discussions, and expand your knowledge in a supportive environment. Don't miss out on this opportunity to connect, learn, and grow together. Plus, don't forget to grab your chance to win exciting giveaways from HackTheBox! In celebration of Women's Day, we have a special panel discussion highlighting the invaluable contributions of women in information security.\n\nBe sure to register through the provided Google Forms link below\n\n**Registration Form - https://forms.gle/r7cVer2YCPsrgz969**"
+    },
+    {
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP CoS March 2024",
+        "date": "2024-03-28",
+        "time": "18:00-06:00",
+        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/299683641",
+        "timezone": "America/Denver",
+        "description": "Speaker: Jason Haddix: TBD\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
         "group": "Columbus",
@@ -130,16 +120,6 @@
         "description": "\\*\\*\\*\\*Appsec in an AI-powered world\\*\\*\\*\\*\\*\n\nIn this bold new age of artificial intelligence, software is evolving at a blistering pace. From AI-generated code to automated devops to ingenious new AI applications, innovation is accelerating. Businesses across every industry stand to gain enormously in productivity and efficiency. However, with such great power comes great risk. As AI accelerates the pace of software innovation, it also increases the prevalence of vulnerabilities and exploits.\nGiven that application security teams are often under-resourced and equipped with weak technologies... What can they do to manage the inevitable complexity introduced by AI? This interactive talk will lay out the escalating challenges for application security and engineering teams while offering some practical solutions."
     },
     {
-        "group": "Denver",
-        "repo": "www-chapter-denver",
-        "name": "OWASP SnowFROC Conference: GREAT talks, workshops, networking, food and drinks!",
-        "date": "2024-03-07",
-        "time": "08:00-07:00",
-        "link": "https://www.meetup.com/denver-owasp/events/299034782",
-        "timezone": "America/Denver",
-        "description": "SnowFROC (Front Range OWASP Conference) is Denver's premier application security conference. It is an annual, one-day conference which draws about 400 people. For SnowFROC 2024 the event will be held Thursday March 7th. While billed as, \"Denver's premier application security conference\", SnowFROC's presentations and workshops focus on many facets of cybersecurity and over the years, SnowFROC has come to be known for its exceptional value: Hands-on training, excellent food, spectacular networking, great location/venue and professional orchestration.\n\n**REGISTER HERE**: [https://www.eventbrite.com/e/owasp-snowfroc-2024-tickets-788326514827](https://www.eventbrite.com/e/owasp-snowfroc-2024-tickets-788326514827)\n\n2024 TICKET PRICES:\n\n* General Admission Tickets: $95 (required to attend)\n* Premium Workshops: $30 (optional)\n* Basic Workshops: $20 (optional)\n\nSnowFROC includes breakfast, lunch, presentations, vendor giveaways, a panel discussion and optional hands on training and workshops."
-    },
-    {
         "group": "Edmonton",
         "repo": "www-chapter-edmonton",
         "name": "Protecting Our Tech: Fortinet's OT Security Talk at OWASP Edm 5PM mst! ",
@@ -148,6 +128,26 @@
         "link": "https://www.meetup.com/owasp-edmonton/events/299499883",
         "timezone": "America/Edmonton",
         "description": "**Time:** 5:00PM - 7:00PM MST\n**Date:** March 26th 2024\n**Location:** Concordia University Robert Tegler Hall\n\n**ISC2 will be offering 1 CPE** credit to all attendees at this event and you must RSVP.\n\n**Event Description:**\n Join us for an exhilarating evening at OWASP Edmonton hosted amidst the picturesque setting of Concordia Universities Robert Tegler Hall!  **Fortinet** is thrilled to bring you an unforgettable experience, complete with insightful discussions, delightful refreshments, and exciting door prizes! \n\n Get ready to delve into the fascinating world of Operational Technology (OT) Security with our distinguished speaker, Jeff Brown! With over two decades of invaluable experience in the field, Jeff serves as the Regional Manager of Operational Technology at Fortinet.  His expertise promises to enlighten and empower attendees with profound insights into the intricacies of OT Security.\n\n**Culinary Note:**\n Prepare your taste buds for a culinary journey as **Fortinet** brings in a top-notch catering company to ensure that every attendee is well-fed and energized throughout the event! \n\n**Final Notes:**\nDon't miss out on this incredible opportunity to expand your knowledge, connect with industry peers, and indulge in delectable treats!  Remember to **RSVP to secure your spot** for catering and to stand a chance to win exciting door prizes! \n\nMark your calendars and join us for an evening of education, networking, and fun at OWASP Edmonton! See you there! "
+    },
+    {
+        "group": "Fortaleza",
+        "repo": "www-chapter-fortaleza",
+        "name": "OWASP Fortaleza - Chapter Meetup 2024.1",
+        "date": "2024-04-06",
+        "time": "09:00-03:00",
+        "link": "https://www.meetup.com/owasp-fortaleza/events/299259416",
+        "timezone": "America/Fortaleza",
+        "description": "Anunciamos oficialmente nosso primeiro encontro em 2024 da comunidade OWASP Fortaleza.\n\nGaranta sua vaga.\n\n**Teremos:**\nPalestras,\nCTF,\nSorteios de cursos\n\nEm breve mais informa\u00e7\u00f5es."
+    },
+    {
+        "group": "France",
+        "repo": "www-chapter-france",
+        "name": "Meetup OWASP - Paris - Mars 2024",
+        "date": "2024-03-21",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-france/events/299650924",
+        "timezone": "Europe/Paris",
+        "description": "Ce meetup se deroulera chez **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
     },
     {
         "group": "Germany",
@@ -170,26 +170,6 @@
         "description": "**Join us at our partner Omegapoint's office for an intriguing evening with food and drinks, and talks about PyPI security and a disclosure of security issues in TruffleHog!**\n\n**Where:** Omegapoint, Rosenlundsgatan 3, 411 20 G\u00f6teborg\n\n**Agenda:**\n**17:00 - 17:30:** Welcome to Omegapoint\n**17:30 - 17:45:** Introduction from the event hosts and presentation of tonight's speakers.\n**17:45 - 18:30:** *PyPI Security: Past, Present & Future*\nThe talk will be about PyPI's security stance, from the point of view of a\nfree software maintainer: 2FA, tokens and authentication.\nThe changes they did, the mistakes along the way, changes that are a work in progress and speculation on changes they will introduce in the future.\n**Salvo Tomaselli** is the sole maintainer of a critical python library.\nAlso small time free software contributor, Debian developer, IRC dweller, GPG holdout. Has worked in Gothenburg for a network security company for the past years.\nEnjoys jamming music, participating in flame wars and talking too loud.\n\n**18:30 - 19:15:** Food & Drinks\n\n**19:15 - 20:00:** *TruffleHog Security Issue Disclosure*\nThis presentation covers a set of security issues in TruffleHog, an open source, automated security tool that scans code repositories and configuration files for active secrets. The session provides a detailed walkthrough with several live demos, showing how the tool can be exploited to remotely harvest credentials from anyone running a default installation of TruffleHog v3. This presentation is part of a coordinated disclosure together with Truffle Security, the team behind TruffleHog.\n**Helena Rosenzweig** is a security researcher and software engineer at Omegapoint, focusing on application security for client projects. She has a keen interest in building secure and scalable software but is equally intrigued by all the things that can go wrong.\n\n**20:00 - 21:30:** Over-time (optional)\nHang out, grab something to drink, and discuss security, the weather or anything in between!"
     },
     {
-        "group": "Guayaquil",
-        "repo": "www-chapter-guayaquil",
-        "name": "Seguridad en Azure | Conoce sobre las herramientas de Seguridad ",
-        "date": "2024-03-09",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-guayaquil-chapter/events/299616683",
-        "timezone": "America/Guayaquil",
-        "description": "Seguridad en Azure \\| Conoce sobre las herramientas de Seguridad by [Naanbits](https://www.linkedin.com/company/naanbits/)\n\n[#azure](https://www.linkedin.com/feed/hashtag/?keywords=azure&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7170841223870537731) [#ciberseguridad](https://www.linkedin.com/feed/hashtag/?keywords=ciberseguridad&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7170841223870537731)\n\n[https://www.youtube.com/live/Ag-nyVVHyTg?si=XOJ2sNV42D0IBrhn](https://www.youtube.com/live/Ag-nyVVHyTg?si=XOJ2sNV42D0IBrhn)"
-    },
-    {
-        "group": "Italy",
-        "repo": "www-chapter-italy",
-        "name": "OWASP Italy March 2024 Online Meetup ",
-        "date": "2024-03-08",
-        "time": "16:00+01:00",
-        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/299400128",
-        "timezone": "Europe/Rome",
-        "description": "OWASP Italy online Meetup is a 2 hours conference focused on web application and software security, application security testing tools and technologies.\n\nNext 8th March 2024 we will 3 great speakers:\n\n* **Tommaso Innocenti** \\- Ph\\.D\\. student working as a Secure Systems Lab \\(SecLab\\) member at Northeastern University\\.\n* **Luca Demetrio -** Ph.D Assistant Professor at the University of Genoa.\n* **Andrea Valenza -** Ph.D, Application Security Engineer at Prima Assicurazioni.\n\nThis Meetup provided a unique opportunity to learn about application security topics and to network with application security professionals/managers, software engineers, software quality engineers/testers and computer science students.\n\nSecure now your spot for the upcoming online event!\n\nMore information and the Agenda at the following URL:\nhttps://owasp.org/www-chapter-italy/events/owaspitaly2024-03-08"
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -198,6 +178,16 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/298995347",
         "timezone": "America/New_York",
         "description": "The OWASP Foundation came online on December 1st, 2001 it was established as a not-for-profit charitable organization in the United States on April 21, 2004, to ensure the ongoing availability and support for our work at OWASP. OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at www.owasp.org."
+    },
+    {
+        "group": "Kannur",
+        "repo": "www-chapter-kannur",
+        "name": "Secure Your Web Applications: OWASP Kannur Meetup",
+        "date": "2024-03-23",
+        "time": "19:00+05:30",
+        "link": "https://www.meetup.com/owasp-kannur/events/299695604",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us for an insightful session on securing web applications at the upcoming OWASP Kannur meetup. In this event, we will delve into the critical aspects of web security, application security, and software security. Our experienced speakers will share valuable insights on penetration testing and cybersecurity practices, helping you fortify your defenses against cyber threats.\n\nDon't miss this opportunity to learn from industry experts and network with like-minded professionals. Whether you are a seasoned cybersecurity practitioner or someone looking to enhance your knowledge on OWASP best practices, this event is tailored for you. Let's come together to strengthen our understanding of web application security and stay ahead of potential risks. Mark your calendars and join us for an evening dedicated to enhancing your expertise in software security."
     },
     {
         "group": "Klagenfurt",
@@ -267,7 +257,17 @@
         "time": "18:00Z",
         "link": "https://www.meetup.com/owasp-newcastle-chapter/events/299466332",
         "timezone": "Europe/London",
-        "description": "We're back with our first event of 2024! We\u2019ll be doing our usual two talks and pizza format.\n\nRough schedule:\n\n1800 - 1815 Arrival and networking\n1815 - 1820 OWASP Newcastle Welcome\n1820 - 1830 CyberNorth Innovation Centre - Andrew Pounder\n1830 - 1915 Talk one\n1915 - 2000 Pizza and networking\n2000 - 2045 Talk two\n2045 - onwards Pub?\n\nTalk overviews:\n\nTalk 1\n**Title:** TBC\n**Speaker:** TBC\n**Speaker Bio:** TBC\n\nTalk 2\n**Title:** TBC\n**Speaker:** TBC\n**Speaker Bio:** TBC\n\nAs always, tickets aren\u2019t required but help us gauge how much food to order.\n\n**Live Stream Info:** We're hoping to be able to live stream the event on our [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there."
+        "description": "We're back with our first event of 2024! We\u2019ll be doing our usual two talks and pizza format.\n\nRough schedule:\n\n1800 - 1815 Arrival and networking\n1815 - 1820 OWASP Newcastle Welcome\n1820 - 1830 CyberNorth Innovation Centre - Andrew Pounder\n1830 - 1915 Talk one\n1915 - 2000 Pizza and networking\n2000 - 2045 Talk two\n2045 - onwards Pub?\n\nTalk overviews:\n\nCyberNorth Innovation Centre - The Cyber Security Innovation Centre is an accelerator programme brought to the North East by CyberNorth through funding from the Department for Science, Innovation and Technology (DSIT).\nhttps://cybernorth.biz/2024/03/06/cyber-security-innovation-centre/\n\nTalk one\n**Title:** Subdomain Hijacking & The CISO Simulator\n**Speaker:** Simon Gurney\n**Speaker Bio:** Simon is one of the Punk Security Co-Founders and has over 15 years experience working within IT, primarily focused on automation and InfoSec.\nSimon has a wealth of experience and approaches DevOps from an infrastructure background, but is a keen Python and .NET CORE developer. He has authored two open source projects, pwnSpoof and SMBeagle.\n**Talk Synopsis:** 1\\. Subdomain hijacking \\(great for infosec\\, devs and devops pros\\)\n\\> what is it?\n\\> why was it in the news recently?\n\\> how do you prevent it?\n\\> a sneak peak at some new additions to dnsReaper\\, the tool we built at [Punk Security Limited](https://www.linkedin.com/company/punk-security-limited/) to squash this issue for free!\n\n2\\. The CISO simulator \\(great for everybody\\)\n\\> off the back of an ace call with [Klaus Agnoletti](https://www.linkedin.com/in/ACoAAAADubsBmVslHpggdfSEihyE8ZIdXIu1aPk), I'm hoping to play the CISO simulator game with everyone at the meet. Come join the chaos and learn how to thwart cyber attacks against web applications (hopefully)\n\nTalk two\n**Title:** First 90 days of a CISO, tens of vCISO engagements later.\n**Speaker:** Dr Zibby Kwecka\n**Speaker Bio:** Author and presenter on cyber security topics, holding a PhD in Applied Cryptography and Privacy with seventeen years of experience protecting organisations of all sizes and shapes from digital threats.\n\nAs always, tickets aren\u2019t required but help us gauge how much food to order.\n\n**Live Stream Info:** We're hoping to be able to live stream the event on our [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there."
+    },
+    {
+        "group": "Ottawa",
+        "repo": "www-chapter-ottawa",
+        "name": "OWASPOttawa 2024 Capture the Flag (CTF)",
+        "date": "2024-03-30",
+        "time": "10:30-04:00",
+        "link": "https://www.meetup.com/owasp-ottawa/events/299697655",
+        "timezone": "America/Toronto",
+        "description": "**Welcome to our in Person CTF at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 564\n\nOn March 30th #OWASP #Ottawa will hold our all levels Capture The Flag (CTF) at UofO STEM Rm 564.\n\nThis is a free ticketed event due to space restrictions. You must have a ticket to enter. One ticket per person.\n\nJoin us for some learning and some fun.\n\nTickets available at:\nhttps://www.tickettailor.com/events/owaspottawachapter/1134213\n\nPLEASE NOTE: If you cannot attend for whatever reason please release your ticket so someone else can attend. To release your ticket please contact our volunteer organizers using the link on the registration page."
     },
     {
         "group": "Peterborough",
