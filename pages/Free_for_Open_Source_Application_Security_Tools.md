@@ -300,6 +300,9 @@ open source projects also consider using good code quality tools. A few that we 
       - Highly configurable, without registration
       - 100% Open-Source and free for all uses, powered and backed by by [OX Security](https://www.ox.security/)
 
+### Defense Tools
+  - [AWS Firewall Factory](https://github.com/globaldatanet/aws-firewall-factory) - An open source solution that makes it easy to deploy, update, and provision OWASP TOP 10 compliant web application firewalls (WAFs) at scale while centrally managing them with AWS Firewall Manager. This solution streamlines security management by enabling customisation of WAF configurations and adherence to AWS best practices.
+
 ### Security Tools Built into DevOps/CI Environments
   - GitLab - is building security into their platform and it is quickly evolving [as described here](https://about.gitlab.com/direction/secure/#security-paradigm).
       - They are leveraging the best free open source tools they can find
