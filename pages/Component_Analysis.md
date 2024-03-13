@@ -335,6 +335,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Vigiles] | Timesys | Commercial / Freemium | SaaS |
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
 | [Xray] | JFrog | Commercial | Cross Platform |
+| [CloudDefense.AI] | CloudDefense.AI | Commercial / Freemium | Cross Platform / SaaS |
 
 [Arnica]: https://arnica.io/
 [Vulert]: https://vulert.com/
@@ -383,7 +384,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Vigiles]: https://www.timesys.com/security/vigiles-vulnerability-management-patch-monitoring/
 [Vigilant Ops InSight]: https://vigilant-ops.com/
 [Xray]: https://jfrog.com/xray/
-
+[CloudDefense.AI]: https://www.clouddefense.ai/
 
 ## References
 
