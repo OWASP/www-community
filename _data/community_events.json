@@ -3,6 +3,16 @@
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
+        "date": "2024-04-11",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/299536939",
+        "timezone": "America/Chicago",
+        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
         "date": "2024-04-04",
         "time": "12:00-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/299536935",
@@ -68,6 +78,16 @@
         "link": "https://www.meetup.com/bay-area-owasp/events/299576398",
         "timezone": "America/Los_Angeles",
         "description": "We're thrilled to announce our March meetup, graciously hosted by the fantastic teams at P0 Security and Endor Labs. Look forward to some outstanding talks, fantastic food/ beverages and meet best brains in the industry.\n\nAgenda:\n5:00 - Check in, grab some food/drinks and network\n5:45 - 6:30 - 10 insecure-by-default IAM configurations in AWS and GCP\n6:30-7:15 - Guardians and Glitches: Navigating the Duality of Gen AI in AppSec\n7:15 - 8:00 - Top 10 Open Source Software (OSS) Risks\n8:00 - Doors close\n\n**Talk #1**: 10 insecure-by-default IAM configurations in AWS and GCP\n**Abstract**: This presentation delves into the ten most prevalent insecure-by-default IAM configurations encountered on AWS and GCP. Notable examples include the default compute service account assuming an Editor role in GCP. We'll identify these vulnerabilities and offer practical strategies for easy mitigation. By addressing these common pitfalls, security teams can enhance security posture by removing the risk inherent in the default configuration.\n\n**Speaker**: Gergely Danyi is co-founder and CTO at P0 Security where he is on a mission to make cloud entitlements more secure. Previously, he worked at Splunk and wore a data scientist hat at multiple start-ups.\n\n\\*\\*Talk2#\\*\\*Guardians and Glitches: Navigating the Duality of Gen AI in AppSec\n**Abstract:** The speaker will present a Tale of Two AIs. First, we'll delve into the intricacies of Gen AI and then discuss the unique security risks posed by Gen AI, including adversarial attacks, unintended biases, and emergent behaviors. We'll then explore how Gen AI can be utilized to strengthen security defenses by automating vulnerability detection, assisting in threat analysis, and even generating secure code. This talk will equip you with the knowledge to navigate the complex landscape of Gen AI security by building an adoption friendly responsible AI program at your organization. Join us as we explore the glitches and the guardians, and discover how to leverage the power of Gen AI to secure your applications in the future.\n\n**Talk #3:** Top 10 Open Source Software (OSS) Risks\n**Abstract:** This talk will feature the Top 10 OSS Risks ([https://www.endorlabs.com/top-10-open-source-risks](https://www.endorlabs.com/top-10-open-source-risks)) and include examples and case studies of notable OSS incidents tied to the risks discussed. It will also provide actionable takeaways for security and technology leaders to equip them to securely consume and utilize OSS in their enterprise environments and software/products while mitigating some of the most relevant risks associated with OSS.\n\\*\\*Speaker:\\*\\*TBD"
+    },
+    {
+        "group": "Belem",
+        "repo": "www-chapter-belem",
+        "name": "Owasp Bel\u00e9m Estacio Fap",
+        "date": "2024-03-23",
+        "time": "09:00-04:00",
+        "link": "https://www.meetup.com/owasp-belem/events/299751576",
+        "timezone": "America/Boa_Vista",
+        "description": "No dia 23 de mar\u00e7o, a OWASP Bel\u00e9m proporcionar\u00e1 mais um Meetup presencial ( \\m/ ), com apresenta\u00e7\u00f5es de extrema relev\u00e2ncia no contexto de seguran\u00e7a da informa\u00e7\u00e3o. Todo dia nos deparamos com not\u00edcias sobre vazamentos de dados. Sendo assim, a propaga\u00e7\u00e3o de conhecimento, proporcionar\u00e1 softwares, sistemas e procedimentos mais seguros, assim minimizando esta crise.\n\nData: 23/03/2024 (S\u00e1bado)\nLocal: R. Municipalidade, 839 - Est\u00e1cio FAP\n\nEm breve mais informa\u00e7\u00f5es."
     },
     {
         "group": "Brisbane",
@@ -250,16 +270,6 @@
         "description": "See [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **How to get Dev(Ops) teams to start adopting DevSecOps** by **Sebastiaan Rijnbout**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **Cracking the API: Challenges in IoT and Modern Applications** by **Yianna Paris**\n\n**How to get Dev(Ops) teams to start adopting DevSecOps**\n*Abstract:*\nIn many development environments, security has long been seen as an afterthought or even a right-out hindrance. And forcing security onto developers often has an adverse effect. In this talk we will share the journey we have been making at the Dutch Chamber of Commerce (KVK) to get Development teams to adopt DevSecOps in a way that works best for them. Topics that will be discussed include Secure Development training, Security Champions, Threat Modeling and using the right tooling.\n\n*Bio:*\nSebastiaan Rijnbout has a background as .NET developer and has worked in that field for over 12 years, but since 2017 he has started focusing on AppSec and Dev(Sec)Ops.\n\nWhen getting teams and organisations to adopt DevSecOps, Sebastiaan will look at all aspects of DevSecOps (People, Process and Technology) like setting up developer training programs and security champion programs, rolling out company-wide Security tooling and improving working processes. But always keeping a focus on making things easy and efficient for developers.\n\nIn his current role at the Dutch Chamber of Commerce (KVK) Sebastiaan acts as Product Owner for 4 Dev(Sec)Ops support teams. These teams are responsible for enabling all development teams at KVK to deliver secure and high-quality software as efficiently as possible.\n\n**Cracking the API: Challenges in IoT and Modern Applications**\n*Abstract:*\nSecuring API\u2019s is about more than just an endpoint, it\u2019s about the data shared, customer privacy, and the access we give to unauthorised parties. Now as we are connecting more devices than ever, to more third parties than ever, securing APIs needs an offensive mindset from the design phase.\n\nIn this talk I\u2019ll go over some of the techniques I use when testing, common issues I\u2019ve found and their impact, and the state of IoT and modern web applications.\n\nSecurity issues can arise from misconceptions early in the software process, so I\u2019ll also discuss how we might mitigate some of these with thoughtful design, architecture and development.\n\n*Bio:*\nFrom user experience to software engineering, Yianna has a diverse background with one thing in common - exploring the intersection between human interaction and technology. Currently she is an Offensive and Application Security Engineer at Xebia. Working in tech teams and researching new offensive techniques remains a daily drive for her. She\u2019s passionate about giving back to the community, having presented at DEFCON, hosted security meetups, delivered workshops, contributed to OWASP Low Code / No Code, as well as building and contributing to open source tooling."
     },
     {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP New Zealand - Auckland-area Meetup",
-        "date": "2024-03-12",
-        "time": "18:30+13:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297780380",
-        "timezone": "Pacific/Auckland",
-        "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe'll be restarting our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for March will be **A01:2021 - Broken Access Control**.\n\n**Technical Topic Speaker:** John DiLeo\n**Talk Title:** OWASP SAMM - Overview and Update\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently."
-    },
-    {
         "group": "Newcastle Uk",
         "repo": "www-chapter-newcastle-uk",
         "name": "OWASP Newcastle March 2024",
@@ -308,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-recife-meetup-group/events/298972631",
         "timezone": "America/Recife",
         "description": "**[O que vai rolar?]**\nO pr\u00f3ximo meeting do OWASP Recife ocorrer\u00e1 no dia 13/03/2024 \u00e0s 20:00 com o t\u00edtulo: \"Detec\u00e7\u00e3o de Vulnerabilidades em C\u00f3digo-Fonte com I.A\" conduzida por Maria Fernanda Rodrigues, da Tempest Security Intelligence.\n\nA palestrante demonstrar\u00e1 uma forma de detec\u00e7\u00e3o de vulnerabilidades em c\u00f3digo-fonte, utilizando o modelo n\u00e3o supervisionado de aprendizado de m\u00e1quina FICS (Functionally-similar yet Inconsistent Code). O primeiro detector de bugs 'machine learning-based' que identifica e aponta inconsist\u00eancias no c\u00f3digo como indicadores de poss\u00edveis vulnerabilidades de seguran\u00e7a.\n\n**[Formato do encontro]**\nPalestra online\n\n**[Shortbio de Maria]**\nMaria Fernanda Rodrigues\nEstagi\u00e1ria em Pesquisa e Desenvolvimento\nTempest Security Intelligence\n\n**[Inscri\u00e7\u00f5es]**\nTOTALMENTE GRATUITO!\nEm breve iremos disponibilizar um link para o even3 para um credenciamento que ser\u00e1 disponibilizado o link para a palestra."
+    },
+    {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "Wasatch AppSec / OWASP-SLC - March (virtual meetup)",
+        "date": "2024-03-20",
+        "time": "12:00-06:00",
+        "link": "https://www.meetup.com/owasp-slc/events/299751240",
+        "timezone": "America/Denver",
+        "description": "**Topic**: Encryption Requirements for Development\n\nWe will have a couple of Lightning talks presented during our virtual AppSec meetup this month.\n**Agenda:**\n\n1. Introductions / Chapter Announcements\n2. Mini Presentations (Depending on time) each followed by Q&A:\n\\- HMAC for API authentication\\,\n\\- Envelop Encryption\n\\- Key Management\n\\- Communicating Encryption Standards\\, and other Day\\-to\\-Day activities"
     },
     {
         "group": "Seattle",
