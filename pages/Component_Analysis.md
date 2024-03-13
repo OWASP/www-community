@@ -298,6 +298,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [CAST Highlight] | CAST Software | Commercial | SaaS |
 | [Clarity] | Insignary | Commercial | Cross Platform / SaaS |
 | [ClearlyDefined] | Open Source Initiative | Open Source | SaaS |
+| [CloudDefense.AI] | CloudDefense.AI | Commercial | SaaS |
 | [CodeSentry] | GrammaTech | Commercial | Cross Platform / SaaS |
 | [CxSCA] | Checkmarx | Commercial | SaaS |
 | [Debricked] | Debricked | Commercial/Freemium | SaaS |
@@ -346,6 +347,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [CAST Highlight]: https://www.castsoftware.com/SCA/
 [Clarity]: https://www.insignary.com/
 [ClearlyDefined]: https://clearlydefined.io/
+[CloudDefense.AI]: https://www.clouddefense.ai/
 [CodeSentry]: https://www.grammatech.com/codesentry-sca
 [CxSCA]: https://www.checkmarx.com/products/software-composition-analysis/
 [Debricked]: https://debricked.com/
