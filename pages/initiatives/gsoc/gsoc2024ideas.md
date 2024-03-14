@@ -254,22 +254,6 @@ To receive early feedback please:
 
 ##### Explanation of Ideas
 
-###### Rewrite DefectDojo Hook in Go(lang)
-
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-yellow)
-
-The current implementation of our [DefectDojo hook](https://github.com/secureCodeBox/secureCodeBox/tree/main/hooks/persistence-defectdojo) is written in Java.
-As the remainder of the project is written in Go & JavaScript the code does not fit into the remainder of the project and suffers from typical Java problems 
-like a comparatively large memory footprint and slow boot times.
-
-The goals of the project are:
-
-- moving the implementation to a modern Go implementation
-- extracting the DefectDojo api calls to reusable golang library
-- expanding end-to-end testability of the hook with a real DefectDojo instance in the CI pipeline
-
 ###### Add a secureCodeBox CLI (scbctl)
 
 ![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
@@ -301,7 +285,7 @@ We'd love to hear it, please reach out via email / owasp slack / github to ensur
 ##### Getting started
 
 * Make yourself familiar with the project by going through our HowTo guides which will guide you through different parts of the secureCodeBox.
-* Make sure that you have a solid golang knowledge to be able to complete the two proposed project.
+* Make sure that you have a solid golang knowledge to be able to complete the proposed project.
 * Get in touch with
   [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) to discuss any
   of the listed or your own idea for GSoC!
