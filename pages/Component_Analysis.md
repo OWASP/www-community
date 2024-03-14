@@ -298,7 +298,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [CAST Highlight] | CAST Software | Commercial | SaaS |
 | [Clarity] | Insignary | Commercial | Cross Platform / SaaS |
 | [ClearlyDefined] | Open Source Initiative | Open Source | SaaS |
-| [CloudDefense.AI] | CloudDefense.AI | Commercial | SaaS |
+| [CloudDefense.AI] | CloudDefense.AI | Commercial / Freemium | Cross Platform / SaaS |
 | [CodeSentry] | GrammaTech | Commercial | Cross Platform / SaaS |
 | [CxSCA] | Checkmarx | Commercial | SaaS |
 | [Debricked] | Debricked | Commercial/Freemium | SaaS |
