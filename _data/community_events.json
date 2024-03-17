@@ -2,6 +2,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "April 2024 OWASP Austin Security Professionals Happy Hour",
+        "date": "2024-04-11",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/299656027",
+        "timezone": "America/Chicago",
+        "description": "**When:** Thursday, April 11th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar @ Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Riscosity](https://www.riscosity.com/)\n*Riscosity is the data flow security platform that empowers teams to have full visibility of all data in transit and automates the redaction or redirection of sensitive events, simplifying how companies meet security and privacy requirements. With Riscosity teams can:*\n\n* *Track and pinpoint any data being sent to any 3rd-party APIs*\n* *Easily map data sub-processors and the information shared with them*\n* *Automatically replace detected sensitive data with redacted inputs*\n* *Continuously monitor and block APIs from data transfers that violate organizational policies*\n\n*For more information, please visit [www.riscosity.com](https://www.riscosity.com/).*"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
         "date": "2024-04-11",
         "time": "12:00-05:00",
@@ -190,16 +200,6 @@
         "description": "Join us for an insightful session on securing web applications at the upcoming OWASP Kannur meetup. In this event, we will delve into the critical aspects of web security, application security, and software security. Our experienced speakers will share valuable insights on penetration testing and cybersecurity practices, helping you fortify your defenses against cyber threats.\n\nDon't miss this opportunity to learn from industry experts and network with like-minded professionals. Whether you are a seasoned cybersecurity practitioner or someone looking to enhance your knowledge on OWASP best practices, this event is tailored for you. Let's come together to strengthen our understanding of web application security and stay ahead of potential risks. Mark your calendars and join us for an evening dedicated to enhancing your expertise in software security."
     },
     {
-        "group": "Kerala",
-        "repo": "www-chapter-kerala",
-        "name": "OWASP Kerala Chapter Meet  Mar 2024",
-        "date": "2024-03-16",
-        "time": "14:30+05:30",
-        "link": "https://www.meetup.com/owasp-kerala-chapter/events/299725501",
-        "timezone": "Asia/Kolkata",
-        "description": "**OWASP Kerala Chapter Meet Mar 2024**\n\n**Topic : Threat Hunting in OKTA**\nAnalyzing Okta logs provides vital insights into their structure and event attributes. These insights, coupled with discussions on strategies, can empower Security Operations Centers (SOCs) to effectively address threats within their Identity and Access Management (IAM) environment. Key threats such as account and session hijacking, tenant takeovers, and MFA fatigue can be identified and mitigated through Okta log analysis. It plays a crucial role in detecting and preventing cyber identity threats.\n\n**Speaker : Devpriya T S**\nDevpriya T S , Is a Senior Security Consultant at EY with a background as an engineering lead in SOAR. Her expertise encompasses Splunk SOAR, SIEM, and Cortex XSOAR, offering proactive solutions to counter emerging cybersecurity threats. With a knack for Python programming, she is recognized for significant contributions in automation and application development within the cybersecurity domain. She is dedicated to ensuring the robustness of digital security and staying abreast of emerging threats.\n\n**Topic : Securing AI/ML applications**\n\nAI is being integrated more and more into our technologically driven environment in everything from predictive analytics to advacned use cases such as self-driving cars. But as AI systems become more complicated and powerful, they also become more prospective targets for hackers.The security of AI systems must be ensured because any breach could have serious repercussions. Aim of this session is to highlight the importance of securing AI models, exploring the techniques and best practices involved, and advocating for a holistic approach to AI security\n\n**About: Vivek**\n\nVivek is an experienced professional in the field of cyber security. With a degree in M-Tech in Cyber Forensics and Information Security from CUSAT, as well as professional certifications including CEH, ECSA, and CIPM, Vivekchandran has over 9+ years of expertise in the field. He has worked with numerous MNC clients from a variety of industries, including telecom, media, broadcasting, healthcare, finance, and automotive, providing them with valuable insights and solutions for their cyber security requirements. Currently as a freelance security consultant Vive is focused on the cybersecurity requirements for emerging technologies like artificial intelligence and internet of things."
-    },
-    {
         "group": "Klagenfurt",
         "repo": "www-chapter-klagenfurt",
         "name": "OWASP Klagenfurt Meet&Greet",
@@ -298,6 +298,16 @@
         "link": "https://www.meetup.com/owasp-poland/events/299504715",
         "timezone": "Europe/Warsaw",
         "description": "Hi,\nWe are Polish chapter of [OWASP](https://owasp.org/) \\- worldwide\\, non\\-profit organisation focused on application security issues\\.\n\nSubject of our upcoming March meeting will be \"Security in development lifecycle\". How to achieve high quality, secure product without scarifying the \"time to market\"? What is more important - visible features or \"transparent\" security? How to convince all the team that they should commit to overall security of the code? What are the best security related initiatives that works in the real life?\nIf you are finding these questions relevant to your work or if you want to share your ideas for achieving secure applications - don't hesitate and join our meeting.\n\nWe have invited Monika Krysiak - QA specialist and product owner, to share her experience and ideas with introducing security into development process. Then we want you to share your ideas - what works and what not. How can we do something more than security testing at later stages of application development?\n\nAgenda:\n\n1. **Smuggling Security Into a Software Project. A Guide for Cunning QAs (Monika Krysiak)**\nAs Quality Assurance specialists, we are often overlooked in security processes. Developers might think of us as whiny negative Nancys but in reality, we have a lot of impact. After all, we won't allow releasing a defective product into production. I believe that QAs should start security testing and simple vulnerability assessment as the first line of defense. During my presentation, I'll show you how I've successfully done that in my past projects.\n2. After the break, we will be hosting a **discussion on strategies and best practices for embedding security into the entire development lifecycle**. In today's fast-paced development environments, ensuring security isn't just about running tests or applying patches at the end of the cycle. It's about integrating security practices seamlessly into every phase of the software development lifecycle. This discussion will explore practical strategies, challenges, and success stories related to incorporating security from the early design stages to deployment and beyond. Let's brainstorm together on how we can foster a culture where security is everyone's responsibility, not just an afterthought.\n3. There will be also a room for **short lightning talks** with discussion (typical format is 5-10 minute talk followed by 5-10 minute discussion). [Please submit your ideas](https://forms.gle/7JFiD3z2tKifogvs5) or just show up.\n4. Job announcements. If you are an employer, there will be a chance to present who you are looking for.\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this invitation** with friends and in your social media."
+    },
+    {
+        "group": "Portland",
+        "repo": "www-chapter-portland",
+        "name": "What does Application Security mean in the age of Gen AI?",
+        "date": "2024-03-21",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-portland-chapter/events/299828181",
+        "timezone": "America/Los_Angeles",
+        "description": "It has become very clear that Gen AI--especially LLMs--will change the world of software engineering. An equal impact of Gen AI is its upcoming impact on Application Security. Let's walk through and look at this changing landscape. We will review the OWASP top 10 for LLMs and more importantly LLM security itself with some examples and new OSS tools.\n\nDoors open at 5:30 and the presentation will begin about 6pm.\n\nPlease RSVP here on Meetup if you intend to come."
     },
     {
         "group": "Recife",
