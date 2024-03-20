@@ -310,6 +310,7 @@ OWASP Nettacker is a Modular Automated Penetration Testing/ Information gatherin
 - implement SSL/TLS modules to restore the functionality we had in Nettacker v0.0.2
 - add DefectDojo integration / output report format
 - add SARIF output report format
+- implement testing framework, get 70% code coverage level
 
 ##### Getting Started
 
@@ -329,6 +330,7 @@ Repositories:
 
 * [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [Arkadii Yakovets](mailto:arkadii.yakovets@owasp.org)
 
 ### [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
 
