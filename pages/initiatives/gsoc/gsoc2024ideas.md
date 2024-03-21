@@ -52,7 +52,7 @@ who get the most work done, and this is usually by submitting the most PRs.
 
 We have over 40 projects available in 5 repositories to work on! Check the difficulty and project size in Github.
 
-[View all BLT project ideas on Github](https://github.com/orgs/OWASP/projects/3) 
+[View all BLT project ideas on Github](https://github.com/orgs/OWASP-BLT/projects) 
 
 
 #### Expected Results
@@ -60,7 +60,7 @@ We have over 40 projects available in 5 repositories to work on! Check the diffi
 * We would expect that any projects you choose to include in your proposal are fully completed.
 
 Reach out to us on Slack to discuss further on the scope, changes required, _or if you have any other proposal._
-* Please submit your proposal on the [BLT GitHub discussion board](https://github.com/OWASP/BLT/discussions) in markdown language before you convert it to a PDF.  Because it will be easier for the team to review and give feedback there.
+* Please submit your proposal on the [BLT GitHub discussion board](https://github.com/orgs/OWASP-BLT/discussions) in markdown language before you convert it to a PDF.  Because it will be easier for the team to review and give feedback there.
 * Team meetings are every Saturday at 12pm EST on [Slack - Join here](https://owasp.slack.com/archives/C2FF0UVHU)
 
 #### Knowledge Prerequisites
@@ -254,22 +254,6 @@ To receive early feedback please:
 
 ##### Explanation of Ideas
 
-###### Rewrite DefectDojo Hook in Go(lang)
-
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-yellow)
-
-The current implementation of our [DefectDojo hook](https://github.com/secureCodeBox/secureCodeBox/tree/main/hooks/persistence-defectdojo) is written in Java.
-As the remainder of the project is written in Go & JavaScript the code does not fit into the remainder of the project and suffers from typical Java problems 
-like a comparatively large memory footprint and slow boot times.
-
-The goals of the project are:
-
-- moving the implementation to a modern Go implementation
-- extracting the DefectDojo api calls to reusable golang library
-- expanding end-to-end testability of the hook with a real DefectDojo instance in the CI pipeline
-
 ###### Add a secureCodeBox CLI (scbctl)
 
 ![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
@@ -301,7 +285,7 @@ We'd love to hear it, please reach out via email / owasp slack / github to ensur
 ##### Getting started
 
 * Make yourself familiar with the project by going through our HowTo guides which will guide you through different parts of the secureCodeBox.
-* Make sure that you have a solid golang knowledge to be able to complete the two proposed project.
+* Make sure that you have a solid golang knowledge to be able to complete the proposed project.
 * Get in touch with
   [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) to discuss any
   of the listed or your own idea for GSoC!
@@ -326,6 +310,7 @@ OWASP Nettacker is a Modular Automated Penetration Testing/ Information gatherin
 - implement SSL/TLS modules to restore the functionality we had in Nettacker v0.0.2
 - add DefectDojo integration / output report format
 - add SARIF output report format
+- implement testing framework, get 70% code coverage level
 
 ##### Getting Started
 
@@ -345,6 +330,7 @@ Repositories:
 
 * [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [Arkadii Yakovets](mailto:arkadii.yakovets@owasp.org)
 
 ### [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
 
