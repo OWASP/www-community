@@ -22,6 +22,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
+        "date": "2024-04-18",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/300097227",
+        "timezone": "America/Chicago",
+        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "April 2024 OWASP Austin Security Professionals Happy Hour",
         "date": "2024-04-11",
         "time": "17:30-05:00",
@@ -108,16 +118,6 @@
         "link": "https://www.meetup.com/owasp-frankfurt/events/299501950",
         "timezone": "Europe/Berlin",
         "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #65! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\n\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\n\n**1\\. Talk:** **Data Centricity for Cloud and Application Security**\n\n*Prof Dr-Ing. Igor Podebrad, Google CISO Office*\n\nDetails are coming soon.\n\n**2\\. Talk: Securing GenAI Applications on Cloud: Three pronged approach**\n\n*Hari Hayagreevan - Senior Cloud Security Architect, IBM*\n\nDetails are coming soon.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**. For everyone who's interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n_When?\nOur Meetup takes place on 24.04.2024 from 18.00 to 21.30 o'clock CEST.\n\n_Where?\ncodecentric AG, Lise-Meitner-Stra\u00dfe 4, 60486 Frankfurt am Main\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us here and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\n\nWe're looking forward to seeing you at our event!"
-    },
-    {
-        "group": "Indraprastha Institute Of Information Technology",
-        "repo": "www-chapter-indraprastha-institute-of-information-technology",
-        "name": "OWASP IIITD March Meetup",
-        "date": "2024-03-29",
-        "time": "14:00+05:30",
-        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/299972978",
-        "timezone": "Asia/Kolkata",
-        "description": "The OWASP IIITD Student Chapter is delighted to announce its next meetup on 29th March 2024. Here is what we have planned up for you!\n\n1. Join us for a humorous panel discussion about an event horrendously gone wrong at \"Access Controls IRL: A lesson through a failed event\", by d4rkc0de, the official cybersecurity club and CTF team of IIIT Delhi.\n2. Participate in No (P)Cap Quiz, a fun-and-pun-filled cybersecurity quiz and get a chance to win prizes!\n3. \u2060Attend an insightful keynote, \"Even my Dad is Threat Modeler!\u201d by Sarthak Taneja, Senior Security Engineer @ Bitpanda, Germany and Advocate @ Hacking is NOT a Crime.\n\nChocolates and refreshments for all and prizes for quiz winners on an otherwise boring Friday afternoon. Register on the meetup link given above!"
     },
     {
         "group": "Jacksonville",
