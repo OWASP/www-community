@@ -13,6 +13,8 @@ redirect_from:
 
 {% include writers.html %}
 
+This is an OWASP community page. You should also visit the official [Threat Model Project](https://owasp.org/www-project-threat-model/) site.
+
 ## Overview
 
 Threat modeling works to identify, communicate, and understand threats and mitigations within the context of protecting something of value.
