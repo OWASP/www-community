@@ -48,7 +48,7 @@ The threat modeling process can be decomposed into four high level steps. Freque
 
 ### Step 1: Scope your work
 
-The first step in the threat modeling process is concerned with gaining an understanding of what you're working on. This can  involve:
+The first step in the threat modeling process is concerned with gaining an understanding of what you're working on. This can involve:
 
 - Drawing diagrams, often data flow diagrams.
 - Identifying entry points to see where a potential attacker could interact with the application.
