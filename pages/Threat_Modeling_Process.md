@@ -3,7 +3,7 @@
 title: Threat Modeling Process
 layout: col-sidebar
 author: Larry Conklin
-contributors: ["Victoria Drake", "Sven strittmatter", "Zoe Braiterman"]
+contributors: ["Victoria Drake", "Sven strittmatter", "Zoe Braiterman", "Adam Shostack"]
 tags: ["threat modeling"]
 permalink: /Threat_Modeling_Process
 ---
@@ -11,10 +11,11 @@ permalink: /Threat_Modeling_Process
 {% include writers.html %}
 
 - [Introduction](#introduction)
-  - [Step 1: Decompose the Application](#step-1-decompose-the-application)
-  - [Step 2: Determine and Rank Threats](#step-2-determine-and-rank-threats)
+  - [Step 1: Scope your work](#step-1-decompose-the-application)
+  - [Step 2: Identify Threats](#step-2-determine-and-rank-threats)
   - [Step 3: Determine Countermeasures and Mitigation](#step-3-determine-countermeasures-and-mitigation)
-- [Decompose the Application](#decompose-the-application)
+  - [Step 4: Assess your work]
+- [Scope your work](#decompose-the-application)
   - [Threat Model Information](#threat-model-information)
   - [External Dependencies](#external-dependencies)
   - [Entry Points](#entry-points)
@@ -23,7 +24,7 @@ permalink: /Threat_Modeling_Process
   - [Trust Levels](#trust-levels)
   - [Data Flow Diagrams](#data-flow-diagrams)
   - [Example Diagrams](#example-diagrams)
-- [Determine and Rank Threats](#determine-and-rank-threats)
+- [Determine  Threats](#determine-and-rank-threats)
   - [Threat Categorization](#threat-categorization)
   - [STRIDE](#stride)
 - [STRIDE Threat List](#stride-threat-list)
@@ -34,6 +35,7 @@ permalink: /Threat_Modeling_Process
 - [Determine Countermeasures and Mitigation](#determine-countermeasures-and-mitigation)
   - [ASF Threat & Countermeasures Examples](#asf-threat--countermeasures-examples)
   - [STRIDE Threat & Mitigation Techniques](#stride-threat--mitigation-techniques)
+- [Assess your work]
 - [Complementing Code Review](#complementing-code-review)
 
 ## Introduction
@@ -42,46 +44,59 @@ This document describes a structured approach to application threat modeling tha
 
 Threat modeling looks at a system from a potential attacker's perspective, as opposed to a defender's viewpoint. Making threat modeling a core component of your [SDLC](https://en.wikipedia.org/wiki/Systems_development_life_cycle) can help increase product security.
 
-The threat modeling process can be decomposed into three high level steps. Each step is documented as it is carried out. The resulting document is the threat model for the application.
+The threat modeling process can be decomposed into four high level steps. Frequently, each step is documented as it is carried out. The resulting document is the threat model for the application. Experts distinguish between the work of doing threat modeling and the work to create threat model documents.
 
-### Step 1: Decompose the Application
+### Step 1: Scope your work
 
-The first step in the threat modeling process is concerned with gaining an understanding of the application and how it interacts with external entities. This involves:
+The first step in the threat modeling process is concerned with gaining an understanding of what you're working on. This can  involve:
 
-- Creating use cases to understand how the application is used.
+- Drawing diagrams, often data flow diagrams.
 - Identifying entry points to see where a potential attacker could interact with the application.
-- Identifying assets, i.e. items or areas that the attacker would be interested in.
+- Trying to identifying "assets"
 - Identifying trust levels that represent the access rights that the application will grant to external entities.
+- Reading a user story or creating one. (This step is sometimes extended to abuser stories, misuse cases, etc.)
+  
 
-This information is documented in a resulting Threat Model document. It is also used to produce data flow diagrams ([DFDs](https://en.wikipedia.org/wiki/Data-flow_diagram)) for the application. The [DFDs](https://en.wikipedia.org/wiki/Data-flow_diagram) show the different paths through the system, highlighting the privilege boundaries.
+Data flow diagrams ([DFDs](https://en.wikipedia.org/wiki/Data-flow_diagram)) are frequently used to show what we're working on.  The [DFDs](https://en.wikipedia.org/wiki/Data-flow_diagram) show the different paths through the system, highlighting the privilege or trust boundaries.
 
-### Step 2: Determine and Rank Threats
+This is sometimes called "decompose the application," which is an approach that consultants use when they're brought in to do a threat model or architectural review. Consultants will often provide output in the form of a Threat Model document. 
 
-Critical to the identification of threats is using a threat categorization methodology. A threat categorization such as [STRIDE](https://en.wikipedia.org/wiki/STRIDE_%28security%29) can be used, or the Application Security Frame ([ASF](https://pathlock.com/learn/what-are-application-security-frameworks/)) that defines threat categories such as Auditing & Logging, Authentication, Authorization, Configuration Management, Data Protection in Storage and Transit, Data Validation, and Exception Management.
+Tarandach has advocated for "Threat modeling every story," which is work that developers, operations or SRE would do. When threat modeling every story, "decompose the application" is meaningless.
 
-The goal of the threat categorization is to help identify threats both from the attacker ([STRIDE](https://en.wikipedia.org/wiki/STRIDE_%28security%29)) and the defensive perspective ([ASF](https://pathlock.com/learn/what-are-application-security-frameworks/)). [DFDs](https://en.wikipedia.org/wiki/Data-flow_diagram) produced in step 1 help to identify the potential threat targets from the attacker's perspective, such as data sources, processes, data flows, and interactions with users.
+This step often calls out "assets", which can be any of things you want to protect, stepping stones, or things attackers want. Often times those assets are out of scope for a project, and are a distraction. Other times, they're hard to identify in advance of an attacker drawing attention to them.
 
-These threats can be classified further as the roots for threat trees; there is one tree for each threat goal. From the defensive perspective, [ASF](https://pathlock.com/learn/what-are-application-security-frameworks/) categorization helps to identify the threats as weaknesses of security controls for such threats. Common threat lists with examples can help in the identification of such threats. Use and abuse cases can illustrate how existing protective measures could be bypassed, or where a lack of such protection exists. The determination of the security risk for each threat can be made using a value-based risk model such as [DREAD](https://en.wikipedia.org/wiki/DREAD_(risk_assessment_model)), or a less subjective qualitative risk model based upon general risk factors (e.g. likelihood and impact).
+### Step 2: Determine Threats
+
+Critical to the identification of threats is using a threat categorization methodology. [STRIDE](https://en.wikipedia.org/wiki/STRIDE_%28security%29) is frequently used in threat modeling, and kill chains including MITRE ATT&CK are frequently used for operational threat modeling.
+
+The goal of the threat categorization is to help identify threats both from the attacker ([STRIDE](https://en.wikipedia.org/wiki/STRIDE_%28security%29)). [DFDs](https://en.wikipedia.org/wiki/Data-flow_diagram) produced in step 1 help to identify the potential threat targets from the attacker's perspective, such as data sources, processes, data flows, and interactions with users.
+
+These threats can be organized further using threat trees; there is one tree for each threat goal.  Common threat lists with examples can help in the identification of such threats. Use and abuse cases can illustrate how existing protective measures could be bypassed, or where a lack of such protection exists. 
 
 ### Step 3: Determine Countermeasures and Mitigation
 
-A vulnerability may be mitigated with the implementation of a countermeasure. Such countermeasures can be identified using threat-countermeasure mapping lists. Once a risk ranking is assigned to the threats in step 2, it is possible to sort threats from the highest to the lowest risk and prioritize mitigation efforts.
+A vulnerability may be mitigated with the implementation of a countermeasure. Such countermeasures can be identified using threat-countermeasure mapping lists. Prioritization of countermeasures is a complex and contentious topic. Many approaches exist, and organizations need to select ones that will work for them. Frequently included factors are likelihood of attack, damage from an attack, and complexity or cost of fix. 
 
 The risk mitigation strategy might involve evaluating these threats from the business impact they pose. Once the possible impact is identified, options for addressing the risk include:
 
-- Accept: decide that the business impact is acceptable
+- Accept: decide that the business impact is acceptable, and document who has chosen to accept the risk
 - Eliminate: remove components that make the vulnerability possible
 - Mitigate: add checks or controls that reduce the risk impact, or the chances of its occurrence
+- Transfer: Transfer risk to an insurer or customer.
 
 The following sections examine these steps in depth and provide examples of the resulting threat model in a structured format.
 
-## Decompose the Application
+### Step 4: Assess your work
+
+First, determine if you've done the work. Are there records showing a diagram, a threats list and a control list.
+
+## Scope the work
 
 The goal of this step is to gain an understanding of the application and how it interacts with external entities. This goal is achieved by information gathering and documentation. The information gathering process is carried out using a clearly defined structure, which ensures the correct information is collected.
 
 ### Threat Model Information
 
-Information identifying the threat model typically includes the the following:
+Waterfall-style or consultant-delivered threat model documents typically includes the the following:
 
 1. **Application Name**: The name of the application examined.
 2. **Application Version**: The version of the application examined.
