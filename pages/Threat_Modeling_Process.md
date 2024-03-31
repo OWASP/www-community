@@ -10,13 +10,14 @@ permalink: /Threat_Modeling_Process
 
 {% include writers.html %}
 
+This is an OWASP community page. You should also visit the official [Threat Model Project](https://owasp.org/www-project-threat-model/) site.
+
 - [Introduction](#introduction)
   - [Step 1: Scope your work](#step-1-decompose-the-application)
   - [Step 2: Identify Threats](#step-2-determine-and-rank-threats)
   - [Step 3: Determine Countermeasures and Mitigation](#step-3-determine-countermeasures-and-mitigation)
-  - [Step 4: Assess your work](#Step 4: Assess your work)
--
-- A Sample threat model(#(Sample) Scope the work)
+  - [Step 4: Assess your work](#Step-4-Assess-your-work)
+- A Sample threat model(#Sample-Scope-the-work)
 -   [Scope your work (Samples)](#decompose-the-application)
     - [Threat Model Information](#threat-model-information)
     - [External Dependencies](#external-dependencies)
