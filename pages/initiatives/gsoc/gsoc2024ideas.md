@@ -256,7 +256,7 @@ To receive early feedback please:
 
 ###### Add a secureCodeBox CLI (scbctl)
 
-![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-yellow)
 
