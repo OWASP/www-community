@@ -10,6 +10,26 @@
         "description": "IMPORTANT:\n\n* You need to accept your attendance 14 days before start, April 9th!\n\n* You need to reverse into the parking spot!\n\nOWASP Aarhus and Siemens Gamesa are happy to invite you to this OWASP Aarhus meetup - in Brande.\n19:00 \u2013 19:05 Welcome by Siemens Gamesa and OWASP Aarhus\n19:05 \u2013 20:00 TBA\n20:00 \u2013 20:30 Networking break\n20:30 \u2013 21:25 TBA\n21:15 \u2013 21:30 Closing notes and goodbyes"
     },
     {
+        "group": "Augsburg",
+        "repo": "www-chapter-augsburg",
+        "name": "1. OWASP Augsburg Stammtisch",
+        "date": "2024-04-17",
+        "time": "19:00+02:00",
+        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/300135115",
+        "timezone": "Europe/Berlin",
+        "description": "Die Agenda folgt in den n\u00e4chsten Tagen und steht noch nicht fest. Inputs sind immer gerne willkommen!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - April 2024 (Online)",
+        "date": "2024-04-30",
+        "time": "11:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/298207001",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
@@ -152,6 +172,16 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "Los Angeles Joint Cyber Mixer",
+        "date": "2024-04-30",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/299453895",
+        "timezone": "America/Los_Angeles",
+        "description": "Join us for our 2nd mixer with participating cybersecurity communities in Southern California, enjoy the beautiful weather, amazing sunset, great conversations, network with your peers, make new friends!\nYou **don'**t have to be a member of any group to participate. Mark your calendars; see you there!!\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring OWASP LA events please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - APR 24, 2024",
         "date": "2024-04-24",
         "time": "17:30-07:00",
@@ -198,6 +228,16 @@
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/299764825",
         "timezone": "America/Phoenix",
         "description": "We'll be discussing breaking into application security.\n\nOur speaker to kick off the discussion is Maria Brown:\n\n**Maria Brown - My Cybersecurity Career Path and Guidance For Yours**\n*\"I transitioned to an application security career after years of web application development. Learn what helped me make the move along with guidance for anyone pursuing a cybersecurity career.\"*\n\n**Cost**\n\nFree!\n\n**OWASP Info**\n\nOWASP is a non-profit dedicated to **application security**. Our meetings are free to attend and you do not need to be a member, nor have any experience with application security. All are welcome!\n\n**Meetings Every Month!**\n\nMeetings occur the first Tuesday of every month. Be sure to join our Meetup page to be notified of future meetings and topics.\n\n**Free Parking**\n\nFree Parking Lot:\n1 N Macdonald St, Mesa, AZ 85201\n[https://downtownmesa.com/parking/green-lot](https://downtownmesa.com/parking/green-lot)\n\nNote that this parking lot is across the street from HeatSync Labs. There are other nearby lots and street parking as well."
+    },
+    {
+        "group": "Portland",
+        "repo": "www-chapter-portland",
+        "name": "Evil Twin and TLS Certificates",
+        "date": "2024-04-18",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-portland-chapter/events/300129882",
+        "timezone": "America/Los_Angeles",
+        "description": "An overview of the Evil Twin attack scenario, how TLS cert chain checks and cert pinning help guard against Machine-In-The-Middle, and some of the ways you can still be vulnerable.\n\nDoors open at 5:30. The presentation will begin about 6:00.\n\nNetSPI is the host and sponsor for our April event. We are grateful for their continuing support."
     },
     {
         "group": "San Antonio",
