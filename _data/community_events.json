@@ -270,6 +270,16 @@
         "description": "Welcome to the first ever meetup of the OWASP Stavanger Chapter! \n\nJoin us for an evening discovering the wonders of Threat Modeling! \n\nAgenda:\n\\- We will start off with a presentation of what threat modeling is and how can it be applied\\.\n\\- We will finish the evening by applying what we learnt to defend or attack a system\\! This will be a red  vs blue  team competition\\, the winner takes home a surprise prize \n\nWe will offer snacks and refreshments \n\nLooking forward to seeing you at Bouvet in Stavanger!"
     },
     {
+        "group": "Triangle Nc",
+        "repo": "www-chapter-triangle-nc",
+        "name": "The real truth behind secure and privacy by design",
+        "date": "2024-04-17",
+        "time": "12:00-04:00",
+        "link": "https://www.meetup.com/owasptriangle/events/300137941",
+        "timezone": "America/New_York",
+        "description": "A simple goal has existed since the dawn of software: make software resilient against threats and protect the personal information the software stores. Does your software need a dose of security and privacy? Enter secure and privacy by design.\n\nExamine tactics for designing software incorporating a secure, privacy-by-design mindset and how to implement these tactics at scale. Then, discover how secure and privacy by design converge with threat modeling as the vehicle for discovering and mitigating threats.\n\nWalk away with an understanding of tactics for applying these concepts, best practice tips to implement actionable threat modeling, and a roadmap for building a solid and successful threat modeling and secure and privacy by design program. Gain a practitioner's perspective on secure and privacy by design."
+    },
+    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "RuleCrafters: Forging Better Static Analysis Weapons",
