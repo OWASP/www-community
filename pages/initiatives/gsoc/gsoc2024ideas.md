@@ -74,7 +74,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 * Donnie (@DonnieBLT on Slack) -- lead mentor
 * Swapnil Shinde (@AtmegaBuzz on Slack) -- Django and blockchain mentor
 * Arkadii Yakovets (@arkid15r on Slack) -- Python/Django mentor
-* We are looking for mentors, reach out to us on Slack
+* Harshit Seksaria (@letsintegreat on Slack) -- Flutter mentor
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
