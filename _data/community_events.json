@@ -150,16 +150,6 @@
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on in the new year on April 17th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\n**Presentation:** AppSec 2.0: Reimagine AppSec With Runtime Analysis\n\n**Abstract:** SCA tools (container and dependency scans) generate too much noise. Runtime security tools don\u2019t understand SCA findings, and don\u2019t come in until production. What if you could marry SCA with runtime analysis during dev, test, and prod?\n\nIn this session, Kiran Kamity, CEO and Founder of Deepfactor, will discuss how the next generation of AppSec needs to go beyond just integrating static SCA into your CI pipeline, to analyzing insecure behaviors inside running apps and correlating that back to SCA to understand which vulnerable components are actually loaded into memory and used by your application. This new approach to AppSec will detect both known vulnerabilities/CVEs with SCA scans and unknown vulnerabilities with runtime reachability analysis. It will then prioritize known vulnerabilities with runtime correlation of SCA findings. End result: you catch most of the key risks in your app, prioritize the key items your devs need to work on without flooding them with alerts, and remove unused components from your containers to burn down your CVE debt rapidly\u2026.and achieve the true mission of AppSec\u2026to empower engineering and security teams to create secure applications"
     },
     {
-        "group": "Fortaleza",
-        "repo": "www-chapter-fortaleza",
-        "name": "OWASP Fortaleza - Chapter Meetup 2024.1",
-        "date": "2024-04-06",
-        "time": "09:00-03:00",
-        "link": "https://www.meetup.com/owasp-fortaleza/events/299259416",
-        "timezone": "America/Fortaleza",
-        "description": "Anunciamos oficialmente nosso primeiro encontro em 2024 da comunidade OWASP Fortaleza.\n\nGaranta sua vaga.\n\n**Teremos:**\nPalestras,\nCTF,\nSorteios de cursos\n\nEm breve mais informa\u00e7\u00f5es."
-    },
-    {
         "group": "Frankfurt",
         "repo": "www-chapter-frankfurt",
         "name": "OWASP Frankfurt Chapter #65 - Data Centricity and Securing AI",
@@ -298,6 +288,16 @@
         "link": "https://www.meetup.com/owasp-scotland-chapter/events/300167834",
         "timezone": "Europe/London",
         "description": "Join us at the OWASP Scotland Chapter Meeting where we have two exciting talks lined up focusing on Large Language Models (LLMs) security and risk aspects; as well as a deep dive into the recent \"iSOON Leak\".\n\nThis event is perfect for software developers, ethical hackers, and cybersecurity enthusiasts interested in learning about the latest trends in cyber security.\n\n#### Talk 1 - Large Language Models (LLMs) and Risk Management\n\nSpeakers: Jason Fish and Jamie Cranmer\n\nThis talk will cover the below talking points:\n\n1. Introduction to LLMs - Overview of Generative AI and potential Use Cases\n2. LLM Risk - Risks associated with LLM and how they differ from other types of AI\n3. AI Risk management and ML Ops - Core capabilities that support the management of AI and Generative AI risks\n\n#### Talk 2 \u2013 The iSOON Leak: What Is It and How to Analyse It\n\nSpeaker: Jim Slaughter\n\nIn late February, an unusual event occurred. While it was widely known the PRC was actively engaged in espionage around the world, glimpses into how this was done were few and far between. Then a repo appeared on GitHub.\nThe iSOON leak has revealed a significant amount of information about the internal operations and capabilities of a state-affiliated hacking contractor in China. Given the challenges of analysing a large trove of files (often without the aid of a native language speaker), new ways of utilizing technology (including AI) were needed to fully understand this dataset.\n\nBio:\nWho Am I? I'm Canadian, eh! Currently a Senior Threat Intel Engineer at Fortinet\n\n* Day-to-day responsible for looking for \"interesting samples\", and reversing them. Blogs - [https://www.fortinet.com/blog/search?author=James+Slaughter](https://www.fortinet.com/blog/search?author=James+Slaughter)\n\nPrior to Fortinet:\n\n* 8 years at NatWest as the Cyber Threat Hunting and Analytics Tech Lead\n* 10 years at BlackBerry as a Dev\n\nMy hobbies match my vocation. You can usually find me tinkering with malware or code that I stick up on GitHub - [https://github.com/slaughterjames](https://github.com/slaughterjames)"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Seattle Cyber Mixers | Inaugural Mixer",
+        "date": "2024-04-25",
+        "time": "17:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/299560512",
+        "timezone": "America/Los_Angeles",
+        "description": "**J**oin us for the inaugural Seattle Cyber Mixers brought to you by the leading local security non-profit organizations and sponsored by [Archer](https://www.archerirm.com/). These new series are designed to offer more informal connection opportunities for the cybersecurity community of the Greater Seattle area.\n\nWe're kicking off a casual, low-key gathering where local security professionals can connect and unwind in an informal low-pressure setting. As the first of many, we plan to host these mixers at various locations, rotating based on your feedback. Our aim is to cultivate a regular cadence, potentially monthly or bimonthly, evolving with the community's interest.\n\nAny questions or suggestions, message the [OWASP Seattle Chapter](https://www.linkedin.com/company/owasp-seattle-chapter/) or contact [Eva Benn](https://www.linkedin.com/in/evabenn/)."
     },
     {
         "group": "Seattle",
