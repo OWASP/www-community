@@ -17,7 +17,7 @@
         "time": "19:00+02:00",
         "link": "https://www.meetup.com/owasp-augsburg-chapter/events/300135115",
         "timezone": "Europe/Berlin",
-        "description": "Die Agenda folgt in den n\u00e4chsten Tagen und steht noch nicht fest. Inputs sind immer gerne willkommen!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+        "description": "**Agenda**\n\n* *Vortrag:* Vorstellung von OWASP inkl. Live-Demo einiger (Flagship) Projects, wie z.B. Juice Shop, (OWASP) ZAP, OWASP DSOMM / SAMM, ...\n* Austausch von Erwartungen an den Stammtisch\n* Networking\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
     },
     {
         "group": "Austin",
@@ -37,7 +37,7 @@
         "time": "11:30-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/298207001",
         "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nAgenda:\n11:30-12 -- Room Opens, food is available and in-room discussions\n12-12:05 -- Chapter/OWASP info presentation\n12:05-1 -- Speaker Presentation\n\n**Presentation: The Truman Show: Real-world application attacks instead of canned demos**\nIn this presentation, Kevin Johnson of Secure Ideas will walk attendees through various scenarios used in penetration testing of applications. These demonstrations will use real attacks and discuss how a penetration tester views applications. This talk will explain the mindset of an attacker, using actual applications as well as demonstration apps to allow for exploitation.\n\n**Speaker: Kevin Johnson**"
     },
     {
         "group": "Austin",
@@ -350,6 +350,16 @@
         "description": "A simple goal has existed since the dawn of software: make software resilient against threats and protect the personal information the software stores. Does your software need a dose of security and privacy? Enter secure and privacy by design.\n\nExamine tactics for designing software incorporating a secure, privacy-by-design mindset and how to implement these tactics at scale. Then, discover how secure and privacy by design converge with threat modeling as the vehicle for discovering and mitigating threats.\n\nWalk away with an understanding of tactics for applying these concepts, best practice tips to implement actionable threat modeling, and a roadmap for building a solid and successful threat modeling and secure and privacy by design program. Gain a practitioner's perspective on secure and privacy by design."
     },
     {
+        "group": "Tunisia",
+        "repo": "www-chapter-tunisia",
+        "name": "AI: The New Attack Surface and Strategies for Securing It",
+        "date": "2024-04-26",
+        "time": "20:00+01:00",
+        "link": "https://www.meetup.com/owasp-tunis-meetup-group/events/300270789",
+        "timezone": "Africa/Tunis",
+        "description": "Welcome to OWASP Tunisia\n\nFollow us and Subscribe to our channel https://www.youtube.com/@owasptunisiachapter4108/streams\n\nJoin our OWASP Tunisia Community via Meetup : https://www.meetup.com/owasp-tunis-meetup-group/\n\nAn Exceptional episode with our Honorable guest Speaker ***Jeff Crume*** !\nSave the date 26 April 2024 at 8 pm(UTC+1) !\n\n***Jeff Crume*** *is an IBM Distinguished Engineer and Master Inventor with more than 40 years\u2019 experience in the IT industry. He has a PhD in Cybersecurity and also serves as an Adjunct Professor at NC State University. Jeff\u2019s YouTube videos have been viewed more than 3 million times and he is the author of a book entitled \"Inside Internet Security: What Hackers Don't Want You To Know\u201d as well as a contributing author to the \"Information Security Management Handbook.\u201d He is a member of the inaugural class of the NC State University Computer Science Alumni Hall of Fame and serves on the editorial board for the \u201cInformation and Computer Security\u201d research journal. Jeff lived in Beijing on assignment in 2006 and has worked with clients in 50 countries.*\n\n**Topic: *AI: The New Attack Surface and Strategies for Securing It***\n\n**Description:**\nArtificial Intelligence (AI) introduces novel security challenges, including adversarial attacks and model vulnerabilities. This session discusses proactive measures for bolstering AI by securing the data, the model, the usage and the infrastructure. In addition, six different types of AI attacks will be covered in order to provide a better understanding of the threatscape."
+    },
+    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "RuleCrafters: Forging Better Static Analysis Weapons",
@@ -358,6 +368,16 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516368",
         "timezone": "America/Vancouver",
         "description": "**RuleCrafters: Forging Better Static Analysis Weapons** with David Streat\n\nStatic analysis plays a crucial role in mitigating security risks by identifying potential software security flaws early in the development process. However, evaluating the effectiveness of individual detections is often overlooked. In this presentation, we will delve into objective methods for assessing the quality of static analysis detections without incurring additional resources. We\u2019ll learn about how Microsoft\u2019s M365 Application Security team develops new detections and how they evaluate the effectiveness of those detections to ensure maximum impact at reducing security risk.\n\n**David Streat** is an experienced application security professional with almost 20 years in software development and application security. Having led Appsec teams at both EA and Microsoft, David has always strived to create solutions that improve code security where developers work. Plus, telling corny dad jokes doesn\u2019t hurt either."
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "Monthly OWASP SAMM community call - April 2024",
+        "date": "2024-04-10",
+        "time": "15:30-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/300270890",
+        "timezone": "America/New_York",
+        "description": "Our monthly OWASP SAMM community call.\n\nWe are going to cover the:\nupcoming SAMM User Day - https://owaspsamm.org/user-day/\ndebrief on the SAMM User Survey\n\nYou will get the private link to our Zoom call upon registration before we start the call.\n\nSee you next Wednesday,\nthe SAMM team"
     },
     {
         "group": "Wrongsecrets",
