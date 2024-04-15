@@ -18,6 +18,24 @@
       "type": "DAST"
    },
    {
+      "title": "Online Port scanner",
+      "url": "https://portscanner.online/",
+      "owner": "PENTESTON",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Port Scanner Online is a user-friendly website that allows you to quickly and easily scan the ports of a target system over the internet. ",
+      "type": "DAST"
+   },
+   {
+      "title": "Online Nikto scanner",
+      "url": "http://nikto.online/",
+      "owner": "PENTESTON",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Online Nikto web server scanner designed to assess the security of web servers by identifying potential vulnerabilities and misconfigurations.",
+      "type": "DAST"
+   },
+   {
       "title": "CodeThreat",
       "url": "https://www.codethreat.com/",
       "owner": "CodeThreat",
@@ -1951,6 +1969,15 @@
       "license": "Commercial or Free",
       "platforms": "SaaS",
       "note": "Arnica is an end to end security solution that includes SAST, SCA, IaC, Licensing, Reputation, Hardcoded Secrets Mitigation, Permissions and more. Arnica's pipelineless approach empowers developers through automated mitigations and real time feedback.",
+      "type": "SAST"
+   },
+   {
+      "title": "Static application security testing Online",
+      "url": "https://sast.online/",
+      "owner": "PENTESTON",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Examine the Android Source code to identify any security issues or vulnerabilities.",
       "type": "SAST"
    }
 ]
