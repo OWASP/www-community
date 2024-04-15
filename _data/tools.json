@@ -1952,5 +1952,14 @@
       "platforms": "SaaS",
       "note": "Arnica is an end to end security solution that includes SAST, SCA, IaC, Licensing, Reputation, Hardcoded Secrets Mitigation, Permissions and more. Arnica's pipelineless approach empowers developers through automated mitigations and real time feedback.",
       "type": "SAST"
+   },
+   {
+      "title": "Static application security testing Online",
+      "url": "https://sast.online",
+      "owner": "sast.online",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Examine the Android Source code to identify any security issues or vulnerabilities.",
+      "type": "SAST"
    }
 ]
