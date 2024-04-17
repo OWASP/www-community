@@ -160,6 +160,16 @@
         "description": "Speaker: Stu Gentry; Intro to Software Reverse Engineering\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "OWASP Top 10 for Large Language Model Applications",
+        "date": "2024-05-16",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/295530895",
+        "timezone": "America/New_York",
+        "description": "The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs). The project provides a list of the top 10 most critical vulnerabilities often seen in LLM applications, highlighting their potential impact, ease of exploitation, and prevalence in real-world applications. Examples of vulnerabilities include prompt injections, data leakage, inadequate sandboxing, and unauthorized code execution, among others. The goal is to raise awareness of these vulnerabilities, suggest remediation strategies, and ultimately improve the security posture of LLM applications."
+    },
+    {
         "group": "Delaware",
         "repo": "www-chapter-delaware",
         "name": "Security and Compression",
@@ -400,16 +410,6 @@
         "description": "**J**oin us for the inaugural Seattle Cyber Mixers brought to you by the leading local security non-profit organizations and sponsored by [Archer](https://www.archerirm.com/). These new series are designed to offer more informal connection opportunities for the cybersecurity community of the Greater Seattle area.\n\nWe're kicking off a casual, low-key gathering where local security professionals can connect and unwind in an informal low-pressure setting. As the first of many, we plan to host these mixers at various locations, rotating based on your feedback. Our aim is to cultivate a regular cadence, potentially monthly or bimonthly, evolving with the community's interest.\n\nAny questions or suggestions, message the [OWASP Seattle Chapter](https://www.linkedin.com/company/owasp-seattle-chapter/) or contact [Eva Benn](https://www.linkedin.com/in/evabenn/)."
     },
     {
-        "group": "Stavanger",
-        "repo": "www-chapter-stavanger",
-        "name": "The Wonders of Threat Modeling",
-        "date": "2024-04-16",
-        "time": "17:00+02:00",
-        "link": "https://www.meetup.com/owasp-stavanger-chapter/events/300025653",
-        "timezone": "Europe/Oslo",
-        "description": "Welcome to the first ever meetup of the OWASP Stavanger Chapter! \n\nJoin us for an evening discovering the wonders of Threat Modeling! \n\nAgenda:\n\\- We will start off with a presentation of what threat modeling is and how can it be applied\\.\n\\- We will finish the evening by applying what we learnt to defend or attack a system\\! This will be a red  vs blue  team competition\\, the winner takes home a surprise prize \n\nWe will offer snacks and refreshments \n\nLooking forward to seeing you at Bouvet in Stavanger!"
-    },
-    {
         "group": "Stockholm",
         "repo": "www-chapter-stockholm",
         "name": "OWASP Stockholm - TruffleHog Disclosure @ Omegapoint",
@@ -450,14 +450,14 @@
         "description": "Welcome to OWASP Tunisia\n\nFollow us and Subscribe to our channel https://www.youtube.com/@owasptunisiachapter4108/streams\n\nJoin our OWASP Tunisia Community via Meetup : https://www.meetup.com/owasp-tunis-meetup-group/\n\nAn Exceptional episode with our Honorable guest Speaker ***Jeff Crume*** !\nSave the date 26 April 2024 at 8 pm(UTC+1) !\n\n***Jeff Crume*** *is an IBM Distinguished Engineer and Master Inventor with more than 40 years\u2019 experience in the IT industry. He has a PhD in Cybersecurity and also serves as an Adjunct Professor at NC State University. Jeff\u2019s YouTube videos have been viewed more than 3 million times and he is the author of a book entitled \"Inside Internet Security: What Hackers Don't Want You To Know\u201d as well as a contributing author to the \"Information Security Management Handbook.\u201d He is a member of the inaugural class of the NC State University Computer Science Alumni Hall of Fame and serves on the editorial board for the \u201cInformation and Computer Security\u201d research journal. Jeff lived in Beijing on assignment in 2006 and has worked with clients in 50 countries.*\n\n**Topic: *AI: The New Attack Surface and Strategies for Securing It***\n\n**Description:**\nArtificial Intelligence (AI) introduces novel security challenges, including adversarial attacks and model vulnerabilities. This session discusses proactive measures for bolstering AI by securing the data, the model, the usage and the infrastructure. In addition, six different types of AI attacks will be covered in order to provide a better understanding of the threatscape."
     },
     {
-        "group": "Uruguay",
-        "repo": "www-chapter-uruguay",
-        "name": "OWASP Meetup - Abril",
-        "date": "2024-04-16",
-        "time": "19:00-03:00",
-        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/300242757",
-        "timezone": "America/Montevideo",
-        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\nEn esta ocasi\u00f3n, tendremos dos charlas con temas que contemplan aspectos de seguridad ofensiva y defensiva entre ambas:\n\n**Matias Ferrerira: El desaf\u00edo de API Security**\n*En esta charla exploraremos los aspectos cr\u00edticos de la seguridad de las API, entendiendo los desaf\u00edos prevalentes y revelando estrategias efectivas para fortalecer las API contra las amenazas emergentes. Analizaremos las vulnerabilidades comunes y mostraremos soluciones del mundo real, los asistentes obtendr\u00e1n ideas sobre las mejores pr\u00e1cticas para asegurar sus ecosistemas. Esta sesi\u00f3n est\u00e1 dise\u00f1ada para una amplia audiencia, con el objetivo de equipar a desarrolladores, profesionales de seguridad y personas interesadas, con el conocimiento para implementar medidas de seguridad s\u00f3lidas.*\n\n**Sebasti\u00e1n Harreguy: \u00bfQu\u00e9 tan bien conoces a tus vecinos?**\n*Se tratar\u00e1n los posibles contextos de las cookies en los distintos navegadores, y se presentar\u00e1n los posibles escenarios de ataque a nivel cross-site y same-site, buscando ampliar la superficie de ataque mediante vectores creativos.*\n\nAdem\u00e1s de las charlas, habr\u00e1 espacios de networking para que puedas conocer a otros interesados en la seguridad de aplicaciones, profesionales de ciberseguridad y compartir experiencias.\n\n**\u00bfCu\u00e1ndo?** Martes 16/4, 19:00.\n**\u00bfD\u00f3nde?** Oficinas de Nexa (Dr Luis Piera 1921).\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "Ensuring Application Security Excellence in the Age of AI",
+        "date": "2024-05-16",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516396",
+        "timezone": "America/Vancouver",
+        "description": "**Ensuring Application Security Excellence in the Age of AI** with Michael Argast\n\nIn a time where artificial intelligence (AI) permeates every facet of digital existence, the imperative to ensure application security has reached unprecedented heights. In this talk, Michael Argast, Co-founder and CEO of Kobalt.io will delve into the essential strategies for ensuring application security excellence amidst the pervasive influence of AI. By exploring the intricate interplay between AI and cybersecurity, you will gain insights into how AI augments defensive strategies, mitigates vulnerabilities, and addresses emerging threats within application environments. Through real-world case studies and practical recommendations, this session equips you with the knowledge and tools needed to leverage AI effectively in the face of evolving challenges.\n\n**Michael** is an experienced cybersecurity professional with over 20 years of industry experience. He is the co-founder and CEO of Kobalt.io, a rapidly growing cloud-focused security services provider. Kobalt.io works with over 200 cloud-focused technology companies to help develop their cyber security programs and ensure the security of their organization.\n\nWe would like to thank **Microsoft** for sponsoring this event."
     },
     {
         "group": "Vancouver",
