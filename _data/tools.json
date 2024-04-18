@@ -1198,11 +1198,11 @@
    },
    {
       "title": "CodeSonar",
-      "url": "https://www.grammatech.com/products/source-code-analysis",
-      "owner": "GrammaTech",
+      "url": "https://codesecure.com/our-products/codesonar/",
+      "owner": "CodeSecure",
       "license": "Commercial",
       "platforms": null,
-      "note": "tool that supports C, C++, Java and C# and maps against the OWASP top 10 vulnerabilities.",
+      "note": "CodeSonar is a static code analysis solution that helps you find and understand quality and security defects in your source code or binaries. It supports C/C++, Java, C#, Kotlin, Python, Go, Rust, JavaScript, and TypScript.",
       "type": "SAST"
    },
    {
