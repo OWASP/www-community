@@ -61,11 +61,11 @@ Encoding and double encoding:
 
 - `%2e%2e%2f` represents `../`
 - `%2e%2e/` represents `../`
-- `..%2f` represents `../ `
+- `..%2f` represents `../`
 - `%2e%2e%5c` represents `..\`
-- `%2e%2e\` represents `..\ `
-- `..%5c` represents `..\ `
-- `%252e%252e%255c` represents `..\ `
+- `%2e%2e\` represents `..\`
+- `..%5c` represents `..\`
+- `%252e%252e%255c` represents `..\`
 - `..%255c` represents `..\` 
 
 and so on.
@@ -75,8 +75,8 @@ and so on.
 Note that web containers perform one level of decoding on percent
 encoded values from forms and URLs.
 
-- `..%c0%af` represents `../ `
-- `..%c1%9c` represents `..\ `
+- `..%c0%af` represents `../`
+- `..%c1%9c` represents `..\`
 
 #### OS specific
 
