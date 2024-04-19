@@ -76,7 +76,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 * Arkadii Yakovets (@arkid15r on Slack) -- Python/Django mentor
 * Harshit Seksaria (@letsintegreat on Slack) -- Flutter mentor
 
-### [OWASP Juice Shop](https://owasp-juice.shop)
+### [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
 web application! It can be used in security trainings, awareness demos,
@@ -153,7 +153,7 @@ list? Great, please submit it!
 * [Shubham Palriwala](mailto:spalriwalau@gmail.com) - OWASP Juice Shop Core Team
 * [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Core Team
 
-### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
+### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
 Join us in enhancing the DSOMM, a pivotal tool designed to improve the security and operational efficiency of software development processes. We are looking for passionate students to contribute to two major areas: our main application development in JavaScript and our metric analyzer and collector in Java. Whether you are looking to tackle medium-sized challenges or are ready to embark on a larger project, we have exciting opportunities for you.
 

@@ -147,17 +147,17 @@ The following example checks if the username is part of the password
 entered by the user.
 
 ```
-String userName = textBox1.Text;
-String password = textBox2.Text;
-Regex testPassword = new Regex(userName);
-Match match = testPassword.Match(password);
-if (match.Success)
+String userName = textBox1.Text;
+String password = textBox2.Text;
+Regex testPassword = new Regex(userName);
+Match match = testPassword.Match(password);
+if (match.Success)
 {
-    MessageBox.Show("Do not include name in password.");
+    MessageBox.Show("Do not include name in password.");
 }
 else
 {
-    MessageBox.Show("Good password.");
+    MessageBox.Show("Good password.");
 }
 ```
 

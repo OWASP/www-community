@@ -36,25 +36,25 @@ TBD
 In this example, a public class “BankAccount” implements the clonable()
 method which declares “Object clone(string accountnumber)”:
 
-`public class BankAccount implements Cloneable{`
-`public Object clone(String accountnumber) throws                                                                                                  `
+`public class BankAccount implements Cloneable{`
+`public Object clone(String accountnumber) throws                                                                                                  `
 `CloneNotSupportedException`
-`     {`
-`      Object returnMe = new BankAccount(account number);`
-`      …`
-`     }`
+`     {`
+`      Object returnMe = new BankAccount(account number);`
+`      …`
+`     }`
 `}`
 
 An attacker can implement a malicious public class that extends the
 parent BankAccount class, as follows:
 
-`public class MaliciousBankAccount extends BankAccount implements   `
-`                                                      Cloneable{`
-`public Object clone(String accountnumber) throws CloneNotSupportedException `
-`              {`
-`               Object returnMe = super.clone();`
-`               …`
-`              }`
+`public class MaliciousBankAccount extends BankAccount implements   `
+`                                                      Cloneable{`
+`public Object clone(String accountnumber) throws CloneNotSupportedException `
+`              {`
+`               Object returnMe = super.clone();`
+`               …`
+`              }`
 `}`
 
 A Java applet from a certain application is acquired and subverted by an

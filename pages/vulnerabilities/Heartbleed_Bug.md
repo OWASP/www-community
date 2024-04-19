@@ -64,11 +64,11 @@ The patch in OpenSSL 1.0.1g is essentially a bounds check, using the correct rec
 Below is the revised code from [Github](http://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=731f431497f463f3a2a97236fe0187b11c44aead)
 
 ```
-hbtype = *p++;
-n2s(p, payload);
-if (1 + 2 + payload + 16 > s->s3->rrec.length)
-  return 0; /* silently discard per RFC 6520 sec. 4 */
-pl = p;
+hbtype = *p++;
+n2s(p, payload);
+if (1 + 2 + payload + 16 > s->s3->rrec.length)
+  return 0; /* silently discard per RFC 6520 sec. 4 */
+pl = p;
 ```
 
 # Impact of the Vulnerability

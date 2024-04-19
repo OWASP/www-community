@@ -52,7 +52,7 @@ website. For example, if the **printf** function is used to print the
 username inserted in some fields of the page, the website could be
 vulnerable to this kind of attack, as showed below:
 
-`printf (userName);`
+`printf (userName);`
 
 Following are some examples of Format Functions, which if not treated,
 can expose the application to the Format String Attack.

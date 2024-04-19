@@ -54,18 +54,18 @@ is a tool that does exactly this.
 
 Other tools for this type of attack are as follows:
 
-- [dirb](http://sourceforge.net/projects/dirb/)
-- [WebRoot](http://www.cirt.dk/tools/webroot/WebRoot.txt)
+- [dirb](http://sourceforge.net/projects/dirb/)
+- [WebRoot](http://www.cirt.dk/tools/webroot/WebRoot.txt)
 
 dirb is capable of:
 
-- setting cookies
-- adding any HTTP header
-- using PROXY
-- mutating objects which were found
-- testing http(s) connections
-- seeking catalogues or files using defined dictionaries and templates
-- and much much more
+- setting cookies
+- adding any HTTP header
+- using PROXY
+- mutating objects which were found
+- testing http(s) connections
+- seeking catalogues or files using defined dictionaries and templates
+- and much much more
 
 The simplest test to perform is:
 
@@ -112,23 +112,23 @@ Np.
 ./WebRoot.pl -noupdate -host testsite.test -port 80 -verbose -match "test" -url "/private/<BRUTE>" -incremental lowercase -minimum 1 -maximum 1
 
 `oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00`
-`o          Webserver Bruteforcing 1.8          o`
-`0  ************* !!! WARNING !!! ************  0`
-`0  ******* FOR PENETRATION USE ONLY *********  0`
-`0  ******************************************  0`
-`o       (c)2007 by Dennis Rand - CIRT.DK       o`
+`o          Webserver Bruteforcing 1.8          o`
+`0  ************* !!! WARNING !!! ************  0`
+`0  ******* FOR PENETRATION USE ONLY *********  0`
+`0  ******************************************  0`
+`o       (c)2007 by Dennis Rand - CIRT.DK       o`
 `oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00`
 
-`[X] Checking for updates                - NO CHECK`
-`[X] Checking for False Positive Scan    - OK`
-`[X] Using Incremental                   - OK`
-`[X] Starting Scan                       - OK`
-`   GET /private/b HTTP/1.1`
-`   GET /private/z HTTP/1.1`
+`[X] Checking for updates                - NO CHECK`
+`[X] Checking for False Positive Scan    - OK`
+`[X] Using Incremental                   - OK`
+`[X] Starting Scan                       - OK`
+`   GET /private/b HTTP/1.1`
+`   GET /private/z HTTP/1.1`
 
-`[X] Scan complete                       - OK`
-`[X] Total attempts                      - 26`
-`[X] Sucessfull attempts                 - 1`
+`[X] Scan complete                       - OK`
+`[X] Total attempts                      - 26`
+`[X] Sucessfull attempts                 - 1`
 `oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00oo00`
 
 WebRoot.pl found one file "/private/b" on testsite.test, which contains

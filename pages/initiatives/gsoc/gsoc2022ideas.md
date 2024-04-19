@@ -42,7 +42,7 @@ Tips to get you started in no particular order:
 
 ## List of Project Ideas
 
-### [OWASP Juice Shop](https://owasp-juice.shop)
+### [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
 web application! It can be used in security trainings, awareness demos,
@@ -130,7 +130,7 @@ list? Great, please submit it!
 * Jannik Hollenbach - OWASP Juice Shop Core Team
 * [Timo Pagel](mailto:timo.pagel@owasp.org) - OWASP Juice Shop Core Team
 
-### [OWASP ZAP](https://zaproxy.org/)
+### [OWASP ZAP](https://zaproxy.org/)
 
 ZAP is the world’s most widely used web scanner. Previous GSoC contributors have added key features and are all listed in the [ZAP Student Hall of Fame](https://www.zaproxy.org/student-hall-of-fame/).
 
@@ -295,7 +295,7 @@ Intentionally vuln web Application Security in django.
 ##### Mentor
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
  
-### [OWASP PurpleTeam](https://purpleteam-labs.com/)
+### [OWASP PurpleTeam](https://purpleteam-labs.com/)
 
 PurpleTeam is a Developer focussed security regression testing CLI and SaaS targeting Web applications and APIs.
 The [CLI](https://github.com/purpleteam-labs/purpleteam) is specifically targeted at sitting within your build pipelines but can also be run manually.

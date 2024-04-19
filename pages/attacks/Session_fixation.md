@@ -108,7 +108,7 @@ the cookie. To fix the value of the Session ID in the victim's cookie,
 the attacker could insert a JavaScript code in the URL that will be
 executed in the victim's browser.
 
-` http://website.kom/<script>document.cookie=”sessionid=abcd”;</script>`
+` http://website.kom/<script>document.cookie=”sessionid=abcd”;</script>`
 
 ### Example 3
 
@@ -117,7 +117,7 @@ META Tag
 As well as client-side scripting, the code injection must be made in the
 URL that will be sent to the victim.
 
-`http://website.kon/<meta http-equiv=Set-Cookie content=”sessionid=abcd”>`
+`http://website.kon/<meta http-equiv=Set-Cookie content=”sessionid=abcd”>`
 
 ### Example 4
 

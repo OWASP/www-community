@@ -61,8 +61,8 @@ a property named "cmd" defined. If an attacker can control the program's
 environment so that "cmd" is not defined, the program throws a null
 pointer exception when it attempts to call the trim() method.
 
-`   String cmd = System.getProperty("cmd");`
-`   cmd = cmd.trim();`
+`   String cmd = System.getProperty("cmd");`
+`   cmd = cmd.trim();`
 
 ## Example 2
 

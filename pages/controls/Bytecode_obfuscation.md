@@ -92,19 +92,19 @@ package](http://www.rzo.free.fr/applis/fr.inria.ares.sfelixutils-0.1.jar).
 Go to the main directory of Proguard. To launch it, use following script
 and parameters:
 
-`java -jar lib/proguard.jar @config-genericFrame.pro`
+`java -jar lib/proguard.jar @config-genericFrame.pro`
 
 config-genericFrame.pro is the option file (do not forget to adapt the
 libraryjars parameter to your own system) :
 
-`-obfuscationdictionary ./examples/dictionaries/compact.txt`
-`-libraryjars /usr/java/j2sdk1.4.2_10/jre/lib/rt.jar`
-`-injars fr.inria.ares.sfelixutils-0.1.jar`
-`-outjar fr.inria.ares.sfelixutils-0.1-obs.jar`
+`-obfuscationdictionary ./examples/dictionaries/compact.txt`
+`-libraryjars /usr/java/j2sdk1.4.2_10/jre/lib/rt.jar`
+`-injars fr.inria.ares.sfelixutils-0.1.jar`
+`-outjar fr.inria.ares.sfelixutils-0.1-obs.jar`
 `-dontshrink`
 `-dontoptimize`
-`-keep public class proguard.ProGuard {`
-`public static void main(java.lang.String[]);`
+`-keep public class proguard.ProGuard {`
+`public static void main(java.lang.String[]);`
 `}`
 
 Remark that the 'keep' option is mandatory, we use this default class
@@ -117,10 +117,10 @@ The output is stored in the package 'genericFrameOut.jar'.
 You can observe the modifications implied by obfuscation with following
 commands:
 
-- `jar xvf genericFrameOut.jar`
-- `cd genericFrame/pub/gui/`
-- `jad c.class`
-- `more c.jad more c.jad`
+- `jar xvf genericFrameOut.jar`
+- `cd genericFrame/pub/gui/`
+- `jad c.class`
+- `more c.jad more c.jad`
 
 ## Links
 

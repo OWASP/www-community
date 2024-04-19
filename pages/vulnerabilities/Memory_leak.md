@@ -44,24 +44,24 @@ Most memory leaks result in general software reliability problems, but if an att
 The following example is a basic memory leak in C:
 
 ```
-#include <stdlib.h>
-#include <stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
 
-#define  LOOPS    10
-#define  MAXSIZE  256
+#define  LOOPS    10
+#define  MAXSIZE  256
 
-int main(int argc, char **argv)
+int main(int argc, char **argv)
 {
-     int count = 0;
-     char *pointer = NULL;
+     int count = 0;
+     char *pointer = NULL;
 
-     for(count=0; count<LOOPS; count++) {
-          pointer = (char *)malloc(sizeof(char) * MAXSIZE);
-     }
+     for(count=0; count<LOOPS; count++) {
+          pointer = (char *)malloc(sizeof(char) * MAXSIZE);
+     }
 
-     free(pointer);
+     free(pointer);
 
-     return count;
+     return count;
 }
 ```
 
@@ -99,28 +99,28 @@ The following C function leaks a block of allocated memory if the call to `read(
 Avoiding memory leaks in applications is difficult for even the most skilled developers. Luckily, there are tools with aide in tracking down such memory leaks. One such example on the Unix/Linux environment is [Valgrind](http://valgrind.org/). Valgrind runs the desired program in an environment such that all memory allocation and de-allocation routines are checked. At the end of program execution, Valgrind will display the results in an easy to read manner. The following is the output of Valgrind using the flawed code above:
 
 ```
-[root@localhost Programming]# gcc -o leak leak.c
-[root@localhost Programming]# valgrind ./leak
-==6518== Memcheck, a memory error detector for x86-linux.
-==6518== Copyright (C) 2002-2005, and GNU GPL'd, by Julian Seward et al.
-==6518== Using valgrind-2.4.0, a program supervision framework for x86-linux.
-==6518== Copyright (C) 2000-2005, and GNU GPL'd, by Julian Seward et al.
-==6518== For more details, rerun with: -v
+[root@localhost Programming]# gcc -o leak leak.c
+[root@localhost Programming]# valgrind ./leak
+==6518== Memcheck, a memory error detector for x86-linux.
+==6518== Copyright (C) 2002-2005, and GNU GPL'd, by Julian Seward et al.
+==6518== Using valgrind-2.4.0, a program supervision framework for x86-linux.
+==6518== Copyright (C) 2000-2005, and GNU GPL'd, by Julian Seward et al.
+==6518== For more details, rerun with: -v
 ==6518==
 ==6518==
-==6518== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 13 from 1)
-==6518== malloc/free: in use at exit: 2304 bytes in 9 blocks.
-==6518== malloc/free: 10 allocs, 1 frees, 2560 bytes allocated.
-==6518== For counts of detected errors, rerun with: -v
-==6518== searching for pointers to 9 not-freed blocks.
-==6518== checked 49152 bytes.
+==6518== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 13 from 1)
+==6518== malloc/free: in use at exit: 2304 bytes in 9 blocks.
+==6518== malloc/free: 10 allocs, 1 frees, 2560 bytes allocated.
+==6518== For counts of detected errors, rerun with: -v
+==6518== searching for pointers to 9 not-freed blocks.
+==6518== checked 49152 bytes.
 ==6518==
-==6518== LEAK SUMMARY:
-==6518==    definitely lost: 2304 bytes in 9 blocks.
-==6518==      possibly lost: 0 bytes in 0 blocks.
-==6518==    still reachable: 0 bytes in 0 blocks.
-==6518==         suppressed: 0 bytes in 0 blocks.
-==6518== Use --leak-check=full to see details of leaked memory.
+==6518== LEAK SUMMARY:
+==6518==    definitely lost: 2304 bytes in 9 blocks.
+==6518==      possibly lost: 0 bytes in 0 blocks.
+==6518==    still reachable: 0 bytes in 0 blocks.
+==6518==         suppressed: 0 bytes in 0 blocks.
+==6518== Use --leak-check=full to see details of leaked memory.
 ```
 
 :\* As we can see in this example, we leak 9 block with a total of 2304

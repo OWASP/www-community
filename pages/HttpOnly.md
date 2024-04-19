@@ -33,9 +33,9 @@ browser supports it).
 header**:
 
 ```
-Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
-`[; expires=<date>][; domain=<domain_name>]
-[; path=<some_path>][; secure][; HttpOnly]
+Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
+`[; expires=<date>][; domain=<domain_name>]
+[; path=<some_path>][; secure][; HttpOnly]
 ```
 
 If the HttpOnly flag (optional) is included in the HTTP response header,
@@ -99,9 +99,9 @@ For Java Enterprise Edition versions *prior* to JEE 6 a common
 with a session cookie value that explicitly appends the `HttpOnly` flag:
 
 ```java
-String sessionid = request.getSession().getId();
-// be careful overwriting: JSESSIONID may have been set with other flags
-response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; HttpOnly");
+String sessionid = request.getSession().getId();
+// be careful overwriting: JSESSIONID may have been set with other flags
+response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; HttpOnly");
 ```
 
 In this context, overwriting, despite appropriate for the `HttpOnly`
@@ -114,24 +114,24 @@ takes care of previously set flags for us. So we could write a servlet
 filter as the following one:
 
 ```java
-public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws IOException, ServletException {
-    HttpServletRequest httpServletRequest = (HttpServletRequest) request;
-    HttpServletResponse httpServletResponse = (HttpServletResponse) response;
-    // if errors exist then create a sanitized cookie header and continue
-    SecurityWrapperResponse securityWrapperResponse = new SecurityWrapperResponse(httpServletResponse, "sanitize");
-    Cookie[] cookies = httpServletRequest.getCookies();
-    if (cookies != null) {
-        for (int i = 0; i < cookies.length; i++) {
-            Cookie cookie = cookies[i];
-            if (cookie != null) {
-                // ESAPI.securityConfiguration().getHttpSessionIdName() returns JSESSIONID by default configuration
-                if (ESAPI.securityConfiguration().getHttpSessionIdName().equals(cookie.getName())) {
-                    securityWrapperResponse.addCookie(cookie);
-                }
-            }
-        }
-    }
-    filterChain.doFilter(request, response);
+public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws IOException, ServletException {
+    HttpServletRequest httpServletRequest = (HttpServletRequest) request;
+    HttpServletResponse httpServletResponse = (HttpServletResponse) response;
+    // if errors exist then create a sanitized cookie header and continue
+    SecurityWrapperResponse securityWrapperResponse = new SecurityWrapperResponse(httpServletResponse, "sanitize");
+    Cookie[] cookies = httpServletRequest.getCookies();
+    if (cookies != null) {
+        for (int i = 0; i < cookies.length; i++) {
+            Cookie cookie = cookies[i];
+            if (cookie != null) {
+                // ESAPI.securityConfiguration().getHttpSessionIdName() returns JSESSIONID by default configuration
+                if (ESAPI.securityConfiguration().getHttpSessionIdName().equals(cookie.getName())) {
+                    securityWrapperResponse.addCookie(cookie);
+                }
+            }
+        }
+    }
+    filterChain.doFilter(request, response);
 }
 ```
 
@@ -170,30 +170,30 @@ In .NET 2.0, HttpOnly can also be set via the HttpCookie object for all custom a
 
 - Via **web.config** in the system.web/httpCookies element
 
-`<httpCookies httpOnlyCookies="true" …> `
+`<httpCookies httpOnlyCookies="true" …> `
 
 - Or **programmatically**
 
 C# Code:
 
 ```C#
-HttpCookie myCookie = new HttpCookie("myCookie");
-myCookie.HttpOnly = true;
+HttpCookie myCookie = new HttpCookie("myCookie");
+myCookie.HttpOnly = true;
 Response.AppendCookie(myCookie);
 ```
 
 VB.NET Code:
 
 ```vb
-Dim myCookie As HttpCookie = new HttpCookie("myCookie")
-myCookie.HttpOnly = True
+Dim myCookie As HttpCookie = new HttpCookie("myCookie")
+myCookie.HttpOnly = True
 Response.AppendCookie(myCookie)
 ```
 
 - However, in **.NET 1.1**, you would have to do this *manually*,
 e.g.,
 
-`Response.Cookies[cookie].Path += ";HttpOnly";`
+`Response.Cookies[cookie].Path += ";HttpOnly";`
 
 ##### Using Python (cherryPy) to Set HttpOnly
 
@@ -215,22 +215,22 @@ in php.ini [PHP manual on
 *HttpOnly*](http://www.php.net/manual/en/session.configuration.php#ini.session.cookie-httponly)
 through the parameter:
 
-`session.cookie_httponly = True`
+`session.cookie_httponly = True`
 
 or in and during a script via the
 function[6](http://pl.php.net/manual/en/function.session-set-cookie-params.php):
 
 ```
-void session_set_cookie_params  ( int $lifetime  [, string $path  [, string $domain
-                                  [, bool $secure= false  [, bool $httponly= false  ]]]] )
+void session_set_cookie_params  ( int $lifetime  [, string $path  [, string $domain
+                                  [, bool $secure= false  [, bool $httponly= false  ]]]] )
 ```
 
 For application cookies last parameter in setcookie() sets HttpOnly
 flag[7](http://pl.php.net/setcookie):
 
 ```
-bool setcookie  ( string $name  [, string $value  [, int $expire= 0  [, string $path
-                 [, string $domain  [, bool $secure= false  [, bool $httponly= false  ]]]]]] )
+bool setcookie  ( string $name  [, string $value  [, int $expire= 0  [, string $path
+                 [, string $domain  [, bool $secure= false  [, bool $httponly= false  ]]]]]] )
 ```
 
 ### Web Application Firewalls
@@ -336,11 +336,11 @@ flag.
 
 ##### Disabling HttpOnly
 
-1) Select the option to **turn HttpOnly off** as shown below in **Figure 2**.
+1) Select the option to **turn HttpOnly off** as shown below in **Figure 2**.
 
 ![Fig2-Disabling_HTTPOnly.PNG](../assets/images/Fig2-Disabling_HTTPOnly.PNG)
 
-2) After turning HttpOnly off, select the **“Read Cookie”** button.
+2) After turning HttpOnly off, select the **“Read Cookie”** button.
 
 - An alert dialog box will display on the screen notifying you that
 *since HttpOnly was not enabled*, the **‘unique2u’ cookie** was
@@ -348,7 +348,7 @@ successfully read as shown below in **figure 3**.
 
 ![Fig3-Read_HTTPOnly_Off.PNG](../assets/images/Fig3-Read_HTTPOnly_Off.PNG)
 
-3) With HttpOnly remaining disabled, select the **“Write Cookie”** button.
+3) With HttpOnly remaining disabled, select the **“Write Cookie”** button.
 
 - An alert dialog box will display on the screen notifying you that
 *since HttpOnly was not enabled*, the **‘unique2u’ cookie** was
@@ -363,11 +363,11 @@ demonstrate how this flag protects the cookie.
 
 ##### Enabling HttpOnly
 
-4) Select the *radio button* to enable HttpOnly as shown below in **figure 5**.
+4) Select the *radio button* to enable HttpOnly as shown below in **figure 5**.
 
 ![Fig5-Turning_HTTPOnly_On.PNG](../assets/images/Fig5-Turning_HTTPOnly_On.PNG)
 
-5) After enabling HttpOnly, select the **"Read Cookie"** button.
+5) After enabling HttpOnly, select the **"Read Cookie"** button.
 
 - If the browser enforces the HttpOnly flag properly, an alert dialog
 box will display only the session ID rather than the contents of the
@@ -384,7 +384,7 @@ session ID as shown below in **figure 7**.
 - Finally, we will test if the browser allows **write access** to the
 cookie with HttpOnly enabled.
 
-6) Select the **"Write Cookie"** button.
+6) Select the **"Write Cookie"** button.
 
 - If the browser enforces the HttpOnly flag properly, client side
 modification will be unsuccessful in writing to the **‘unique2u’
