@@ -197,15 +197,19 @@ The getimagesize() function will check if it is an image and will check
 
 Insecure Configuration :
 
-` <FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)">`
-` SetHandler application/x-httpd-php`
-` `</FileMatch>
+```
+<FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)">
+    SetHandler application/x-httpd-php
+</FileMatch>
+```
 
 Secure Configuration :
 
-` <FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)$">`
-` SetHandler application/x-httpd-php`
-` `</FileMatch>
+```
+<FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)$">
+    SetHandler application/x-httpd-php
+</FileMatch>
+```
 
 If the service is up an running with the Insecure Configuration, any one
 can beat the getimagesize function by writing comments in GIF file.
@@ -219,11 +223,13 @@ For that an end user needs to install an utility in Kali/Ubuntu OS named
 Once installed, the below commands will help writing the commands in a gif
 file.
 
-` gifsicle < mygif.gif -- comment "`
+```console
+gifsicle < mygif.gif -- comment "
 
 <?php echo 'Current PHP version: ' . phpversion(); ?>
 
 " \> output.php.gif
+```
 
 The above command will create a file with the name “output.php.gif” which simply needs to be uploaded during the check of file upload
 vulnerability.
