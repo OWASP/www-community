@@ -13,7 +13,7 @@ permalink: /controls/SecureCookieAttribute
 # Overview
 
 The secure attribute is an option that can be set by the application server
-when sending a new cookie to the user within an HTTP Response. The
+when sending a new cookie to the user within an HTTP Response. The
 purpose of the secure attribute is to prevent cookies from being observed by
 unauthorized parties due to the transmission of the cookie in clear
 text.
@@ -66,8 +66,8 @@ For **older versions** the workaround is to rewrite `JSESSIONID` value
 using and setting it as a custom header. The drawback is that servers
 can be configured to use a different session identifier than `JSESSIONID`.
 
-`String sessionid = request.getSession().getId();`
-`response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; secure");`
+`String sessionid = request.getSession().getId();`
+`response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; secure");`
 
 ### Environment consideration
 
@@ -117,22 +117,22 @@ in php.ini [PHP manual on
 *SecureFlag*](http://php.net/manual/en/session.configuration.php#ini.session.cookie-secure)
 through the parameter:
 
-`session.cookie_secure = True`
+`session.cookie_secure = True`
 
 or in and during a script via the function
 [5](http://pl.php.net/manual/en/function.session-set-cookie-params.php):
 
 ```
-void session_set_cookie_params ( int $lifetime  [, string $path  [, string $domain  
-                                  [, bool $secure= false  [, bool $httponly= false  ]]]] )
+void session_set_cookie_params ( int $lifetime  [, string $path  [, string $domain  
+                                  [, bool $secure= false  [, bool $httponly= false  ]]]] )
 ```
 
 For application cookies a parameter in setcookie() sets the secure attribute
 [6](http://pl.php.net/setcookie):
 
 ```
-bool setcookie ( string $name  [, string $value  [, int $expire= 0  [, string $path  
-                 [, string $domain  [, bool $secure= false  [, bool $httponly= false  ]]]]]] )
+bool setcookie ( string $name  [, string $value  [, int $expire= 0  [, string $path  
+                 [, string $domain  [, bool $secure= false  [, bool $httponly= false  ]]]]]] )
 ```
 
 ## Go

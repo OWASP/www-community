@@ -43,7 +43,7 @@ Tips to get you started in no particular order:
 
 ## List of Project Ideas
 
-### [OWASP ZAP](https://zaproxy.org/)
+### [OWASP ZAP](https://zaproxy.org/)
 
 ZAP is the world’s most widely used web scanner. Previous GSoC contributors have added key features and are all listed in the [ZAP Student Hall of Fame](https://www.zaproxy.org/student-hall-of-fame/).
 
@@ -148,7 +148,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 * Donnie on slack (lead mentor)
 * [Aryan Ranjan](mailto:aryan_r@ch.iitr.ac.in) - Flutter and Django Mentor
 
-### [OWASP Maryam](https://owasp.org/www-project-maryam/)
+### [OWASP Maryam](https://owasp.org/www-project-maryam/)
 
 OWASP Maryam is a modular/optional open source framework based on OSINT and data gathering. Maryam is written in Python programming language and it’s designed to provide a powerful environment to harvest data from open sources and search engines and collect data quickly and thoroughly.
 
@@ -278,7 +278,7 @@ The OWASP Risk Assessment Framework consist of Dynamic application security test
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 * [Ardi](mailto:pakdesawangan@gmail.com)
 
-### [OWASP Juice Shop](https://owasp-juice.shop)
+### [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
 web application! It can be used in security trainings, awareness demos,
@@ -451,7 +451,7 @@ Reach out to us on Slack to discuss these and other ideas!
 
 - [Ben de Haan](mailto:ben.dehaan@owasp.org)
 
-### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
+### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
 The OWASP DevSecOps Maturity Model provides opportunities to harden DevOps strategies and shows how these can be prioritized.
 It contains of an application and the model data.
@@ -525,7 +525,7 @@ Please use the repositories' issue tracker, GitHub discussions, and don't forget
 - [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
 - [Abraham Aranguran](mailto:Abraham.Aranguren@owasp.org)
 
-### [OWASP secureCodeBox](https://www.securecodebox.io)
+### [OWASP secureCodeBox](https://www.securecodebox.io)
 
 secureCodeBox is a kubernetes based, modularized toolchain for continuous security scans of your software project.
 The secureCodeBox comes with many different scanners officially integrated (from Amass to Zap) and integration 

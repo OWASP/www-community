@@ -197,15 +197,15 @@ The getimagesize() function will check if it is an image and will check
 
 Insecure Configuration :
 
-` <FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)">`
-` SetHandler application/x-httpd-php`
-` `</FileMatch>
+` <FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)">`
+` SetHandler application/x-httpd-php`
+` `</FileMatch>
 
 Secure Configuration :
 
-` <FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)$">`
-` SetHandler application/x-httpd-php`
-` `</FileMatch>
+` <FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)$">`
+` SetHandler application/x-httpd-php`
+` `</FileMatch>
 
 If the service is up an running with the Insecure Configuration, any one
 can beat the getimagesize function by writing comments in GIF file.
@@ -213,13 +213,13 @@ can beat the getimagesize function by writing comments in GIF file.
 For that an end user needs to install an utility in Kali/Ubuntu OS named
 'gifsicle'
 
-` For Kali Linux : apt-get install gifsicle`
-` For Ubuntu : sudo apt-get install gifsicle`
+` For Kali Linux : apt-get install gifsicle`
+` For Ubuntu : sudo apt-get install gifsicle`
 
 Once installed, the below commands will help writing the commands in a gif
 file.
 
-` gifsicle < mygif.gif -- comment "`
+` gifsicle < mygif.gif -- comment "`
 
 <?php echo 'Current PHP version: ' . phpversion(); ?>
 

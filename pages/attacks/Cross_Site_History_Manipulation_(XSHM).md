@@ -55,8 +55,8 @@ a conditional statement in an attacked application. For example, if a
 site contains the following logic:
 
 ```
-Page A: If (CONDITION)
-    Redirect(Page B)
+Page A: If (CONDITION)
+    Redirect(Page B)
 ```
 
 an attacker can execute the [CSRF]({{ site.baseurl }}/attacks/csrf) and get an
