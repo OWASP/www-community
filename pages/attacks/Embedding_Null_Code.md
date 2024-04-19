@@ -37,8 +37,10 @@ terminator:
 The following example shows the use of this technique to modify a URL and 
 access arbitrary files on a filesystem due a PHP script vulnerability.
 
-`$whatever = addslashes($_REQUEST['whatever']);`  
-`include("/path/to/program/" . $whatever . "/header.htm");`
+```php
+$whatever = addslashes($_REQUEST['whatever']);
+include("/path/to/program/" . $whatever . "/header.htm");
+```
 
 By manipulating the URL using postfix NULL bytes, one can access the
 UNIX password file:
