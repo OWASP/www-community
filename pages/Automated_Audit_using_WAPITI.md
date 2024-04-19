@@ -35,7 +35,7 @@ It is also recommended that you perform a build of the app:
 
 - `-n`: Define a limit of urls to read with the same pattern (prevent endless loops), here limit to 10.
 - `-b`: Set the scope of the scan, here we analyze all the links to the pages which are in the same domain as the URL passed.
-- `-u`: Use color to highlight vulnerables parameters in output.
+- `-u`: Use color to highlight vulnerable parameters in output.
 - `-v`: Define verbosity level, here we print each url.
 - `-f`: Define report type, here we choose HTML format.
 - `-o`: Define report destination, in our case it must be a directory because we choose HTML format.
