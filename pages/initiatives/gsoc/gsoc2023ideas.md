@@ -126,7 +126,7 @@ You can chose to work on one or a combination of ideas depending on the difficul
 
 #### Expected Results
 
-* Integrated Ethereum smart contract that issues a token when a bug is found and verifed.
+* Integrated Ethereum smart contract that issues a token when a bug is found and verified.
 * Release Flutter app on App Store and Play Store.
 * Implementation of private issues reporting.
 * Update of browser plugins to support showing bugs on relative sites in a secure way
