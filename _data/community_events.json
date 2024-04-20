@@ -190,6 +190,16 @@
         "description": " OWASP IL  is excited to welcome you to our latest Meetup event! \nPrepare to dive into the world of AppSec with an evening filled with engaging security topics, networking, and of course, plenty of food and drinks.\n\nThis time, we're delighted to have Playtika host our gathering!\n\n====================================================================\n\nAgenda:\nTBD\n\n=====================================================================\n\nThis event is hosted by Playtika in collaboration with OWASP Israel.\n\nJoin us at the event physically as we will not include Zoom or remote participation this time."
     },
     {
+        "group": "Kannur",
+        "repo": "www-chapter-kannur",
+        "name": "OWASP Kannur : Cyber Security Best Practices ",
+        "date": "2024-04-21",
+        "time": "09:00+05:30",
+        "link": "https://www.meetup.com/owasp-kannur/events/300518608",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us at the OWASP Kannur meetup to dive into the world of cybersecurity best practices. In this event, we will cover a range of topics including computer security, information security, application security, and web security. Our experts will discuss the importance of web application security and how to protect your applications from various vulnerabilities. We will also touch upon penetration testing techniques to ensure your systems are secure from cyber threats.\n\nDon't miss out on this opportunity to learn from industry professionals and stay updated on the latest trends in cybersecurity. Whether you are a developer, security enthusiast, or simply curious about OWASP and software security, this meetup is perfect for you. Let's come together to strengthen our cybersecurity practices and build a safer online environment."
+    },
+    {
         "group": "Kansas City",
         "repo": "www-chapter-kansas-city",
         "name": "OWASP KC May Meetup",
@@ -252,12 +262,12 @@
     {
         "group": "Oslo",
         "repo": "www-chapter-oslo",
-        "name": "Chapter meetup",
+        "name": "OWASP Oslo Chapter meetup",
         "date": "2024-04-29",
         "time": "17:00+02:00",
         "link": "https://www.meetup.com/owasp-oslo/events/300368216",
         "timezone": "Europe/Oslo",
-        "description": "Big thanks to NAV for sponsoring this event!\n\n**Finding a three 0-day exploit chain in Ivanti EPMM and Ivanti Sentry**\nDuring the summer of 2023, a team at mnemonic discovered three 0-day vulnerabilities in Ivanti Endpoint Protection Manager Mobile (EPMM, formerly known as Mobileiron Core) and Ivanti Sentry.\n\n* CVE-2023-35078: authentication bypass in Ivanti EPMM, CVSS 9.8\n* CVE-2023-35081: path traversal / arbitrary file write in Ivanti EPMM, CVSS 7.2\n* CVE-2023-38035: authentication bypass in Ivanti Sentry, CVSS 9.8, allowing command execution as root.\n\nAll three vulnerabilities are listed in CISA's Known Exploited Vulnerabilities catalog, as they are known to have been exploited by threat actors in the wild. Ivanti has also confirmed that the vulnerabilities can be combined in an exploit chain.\nIn this talk we'll take a closer look at what actually happened.\n\n**Speakers**\n\n* **Tor E. Bj\u00f8rstad** has spent his entire career in security and privacy. For the last decade he has worked as a principal security consultant at mnemonic, based in Oslo. He has mainly focused on software security and security architecture, with a particular interest in society-critical infrastructure. Tor holds a Ph.d. in cryptography from the University of Bergen.\n* **Erlend Leiknes**, a security consultant at mnemonic as, Oslo, spends his days as a penetration tester. His professional motto is that most vulnerabilities are obvious, the endeavor is to look at the right places. Erlend holds a master's degree in technical societal safety from University of Stavanger."
+        "description": "Big thanks to NAV for sponsoring this event!\n\n* **17:00-17:15 Food**\n* **17:15-18:00 Finding a three 0-day exploit chain in Ivanti EPMM and Ivanti Sentry,** Tor E. Bj\u00f8rstad and Erlend Leiknes, mnemonic\n* **18:15-19:00 Testing race conditions has never been faster,** Sofia Lindqvist, Binary Security\n\n**Finding a three 0-day exploit chain in Ivanti EPMM and Ivanti Sentry**\nDuring the summer of 2023, a team at mnemonic discovered three 0-day vulnerabilities in Ivanti Endpoint Protection Manager Mobile (EPMM, formerly known as Mobileiron Core) and Ivanti Sentry.\n\n* CVE-2023-35078: authentication bypass in Ivanti EPMM, CVSS 9.8\n* CVE-2023-35081: path traversal / arbitrary file write in Ivanti EPMM, CVSS 7.2\n* CVE-2023-38035: authentication bypass in Ivanti Sentry, CVSS 9.8, allowing command execution as root.\n\nAll three vulnerabilities are listed in CISA's Known Exploited Vulnerabilities catalog, as they are known to have been exploited by threat actors in the wild. Ivanti has also confirmed that the vulnerabilities can be combined in an exploit chain.\nIn this talk we'll take a closer look at what actually happened.\n\n**Speakers**\n\n* **Tor E. Bj\u00f8rstad** has spent his entire career in security and privacy. For the last decade he has worked as a principal security consultant at mnemonic, based in Oslo. He has mainly focused on software security and security architecture, with a particular interest in society-critical infrastructure. Tor holds a Ph.d. in cryptography from the University of Bergen.\n* **Erlend Leiknes**, a security consultant at mnemonic as, Oslo, spends his days as a penetration tester. His professional motto is that most vulnerabilities are obvious, the endeavor is to look at the right places. Erlend holds a master's degree in technical societal safety from University of Stavanger.\n\n**TESTING RACE CONDITIONS HAS NEVER BEEN FASTER**\n\nHistorically, testing for race condition vulnerabilities in web apps has been a painful ordeal, likely making race conditions an under-explored attack vector. In the summer of 2023, groundbreaking research by James Kettle completely changed the game, suddenly making it much easier for pentesters (and attackers) to test for this type of vulnerability. In this talk I will show how race conditions work, how to test for them and how to protect against them, based off an example vulnerability I found during a recent pentest.\n\n**Speaker**\n\n**Sofia Lindqvist**, security specialist, Binary Security\n\nSofia works as a security specialist at Binary Security. She started her career with a PhD in pure maths, followed by three years at Cisco developing one of their networking OSs. She eventually made her way into security testing, which she has been doing for a year and a half."
     },
     {
         "group": "Peterborough",
@@ -298,16 +308,6 @@
         "link": "https://www.meetup.com/owasp-slc/events/300281702",
         "timezone": "America/Denver",
         "description": "**Agenda**:\n\n1. Introductions / Lunch\n2. Topic of Discussion: Book Club: \"[9 Lies about Work](https://www.amazon.com/Nine-Lies-about-Work-Freethinking-ebook/dp/B07C3ZT28C)\" through the lens of working in AppSec.\n3. Q&A\n\nCome join us for a lunch meetup at the Health Equity building in Draper, UT.\nCasual meetup, anyone interested in Application Security is welcome to attend. Please RSVP. We'll discuss the [book](https://www.amazon.com/Nine-Lies-about-Work-Freethinking-ebook/dp/B07C3ZT28C) in the context of how to support an organization's software security program.\n\nSee you there!"
-    },
-    {
-        "group": "San Antonio",
-        "repo": "www-chapter-san-antonio",
-        "name": "OWASP San Antonio Chapter Quarterly Meeting-Threat Modeling for LLM",
-        "date": "2024-04-19",
-        "time": "11:00-05:00",
-        "link": "https://www.meetup.com/owasp-sanantonio/events/299305618",
-        "timezone": "America/Chicago",
-        "description": "Threat Modeling for Large Language Models\n\nLarge language models represent a historic opportunity to further accelerate the pace of software development. A GitLab survey reported that 67% of organizations planned to use AI in software development in the immediate future. Unfortunately, many organizations are moving quickly to adopt AI in development with little thought of security consequences. Threat modeling enable security analysts to understand the additional risks that development with LLMs represents. This session will provide an overview of AI and LLM security challenges and demonstrate how threat modeling can identify potential security weaknesses. Inspired by the OWASP Top 10 list for LLMs, the session will provide a threat modeling approach for LLMs that is straightforward to adopt in production.\n\n**NOTE: there will be door prize drawings for those that attend in person**\n\nAGENDA\n\n* Lunch: 11 to 11:30\n* Meeting Kick-off (JoeG: 15 min)\n* Presentation: (30 min)\n* John Dickson: CEO Bytewhisper Security\n* Threat Modeling for Large Language Models\n* AI Survey Results and Panel Discussion (15 min)\n* John Dickson: CEO Bytewhisper Security\n* Edward Contreras: CISO Frost Bank\n* Topics for Future Meetings (Priya Parthasarathy) (10 min)\n* Membership and Door Prizes (Brent Daugherty) (10 min)\n* Close Meeting (JoeG) (5 min)"
     },
     {
         "group": "Seattle",
