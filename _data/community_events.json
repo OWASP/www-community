@@ -120,16 +120,6 @@
         "description": "Welcome to \"Web Security 101: Safeguarding Your Digital Footprint,\" a comprehensive beginner-level event designed to equip you with the essential knowledge and skills to protect yourself online.\n\nIn today's digital age, our online presence is more significant than ever. From personal information to financial data, we entrust a plethora of sensitive details to the web. However, with the increasing prevalence of cyber threats and malicious actors, it's crucial to fortify our defenses and ensure the safety of our digital footprint.\n\nJoin us for an enlightening journey into the realm of web security, where you'll learn:\n\\- Foundations of Web Security: Understand the basic concepts and principles of web security\\, including common vulnerabilities and attack vectors\\.\n\n* Protecting Your Digital Assets: Discover practical tips and best practices for safeguarding your personal and professional information online.\n* Securing Your Devices and Networks: Learn how to secure your devices, networks, and online accounts against cyber threats, malware, and phishing attacks.\n* Navigating the Cyber Landscape: Gain insights into the evolving cybersecurity landscape and emerging trends, empowering you to stay ahead of potential threats.\n* Interactive Workshops and Demos: Engage in hands-on workshops and live demonstrations that reinforce your learning and provide practical guidance for implementing security measures effectively.\n* Community Engagement: Connect with like-minded individuals, share experiences, and collaborate on strategies for enhancing web security awareness and resilience.\n\nWhether you're a student, professional, or simply a concerned internet user, \"Web Security 101: Safeguarding Your Digital Footprint\" offers a welcoming environment where everyone can learn and thrive.\n\nDon't miss this opportunity to take control of your online security and protect what matters most. Reserve your spot today and embark on a journey towards a safer digital future!"
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "OWASP Top 10 #3",
-        "date": "2024-04-20",
-        "time": "10:00+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/300488539",
-        "timezone": "Africa/Cairo",
-        "description": "The session is covering the following risks:\n\n* **[A07:2021-Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)** was previously Broken Authentication and is sliding down from the second position, and now includes CWEs that are more related to identification failures. This category is still an integral part of the Top 10, but the increased availability of standardized frameworks seems to be helping.\n* **[A08:2021-Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/)** is a new category for 2021, focusing on making assumptions related to software updates, critical data, and CI/CD pipelines without verifying integrity. One of the highest weighted impacts from Common Vulnerability and Exposures/Common Vulnerability Scoring System (CVE/CVSS) data mapped to the 10 CWEs in this category. Insecure Deserialization from 2017 is now a part of this larger category.\n* **[A09:2021-Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)** was previously Insufficient Logging & Monitoring and is added from the industry survey (#3), moving up from #10 previously. This category is expanded to include more types of failures, is challenging to test for, and isn\u2019t well represented in the CVE/CVSS data. However, failures in this category can directly impact visibility, incident alerting, and forensics."
-    },
-    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS April 2024",
@@ -190,6 +180,16 @@
         "description": " OWASP IL  is excited to welcome you to our latest Meetup event! \nPrepare to dive into the world of AppSec with an evening filled with engaging security topics, networking, and of course, plenty of food and drinks.\n\nThis time, we're delighted to have Playtika host our gathering!\n\n====================================================================\n\nAgenda:\nTBD\n\n=====================================================================\n\nThis event is hosted by Playtika in collaboration with OWASP Israel.\n\nJoin us at the event physically as we will not include Zoom or remote participation this time."
     },
     {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2024-05-20",
+        "time": "18:45-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/299878996",
+        "timezone": "America/New_York",
+        "description": "OWASP topic TBA"
+    },
+    {
         "group": "Kannur",
         "repo": "www-chapter-kannur",
         "name": "OWASP Kannur : Cyber Security Best Practices ",
@@ -208,16 +208,6 @@
         "link": "https://www.meetup.com/owasp-kansas-city/events/300496496",
         "timezone": "America/Chicago",
         "description": "TBD"
-    },
-    {
-        "group": "Kolkata",
-        "repo": "www-chapter-kolkata",
-        "name": "OWASP KOLKATA MEETUP #11",
-        "date": "2024-04-20",
-        "time": "10:30+05:30",
-        "link": "https://www.meetup.com/owasp-kolkata/events/300494188",
-        "timezone": "Asia/Kolkata",
-        "description": "#### Proposed sessions for this event:\n\n* Exploring Network Security with JA3 Fingerprints by **Rakesh Seal**\n* Vulnerability Management - GR&C by **Sohang Sengupta**\n* Making way through DLL hollowing in spite of CFG by **Debjeet Banerjee**\n* E-Vehicle Hacking by **Parul Sharma**"
     },
     {
         "group": "Los Angeles",
@@ -328,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/299560512",
         "timezone": "America/Los_Angeles",
         "description": "**J**oin us for the inaugural Seattle Cyber Mixers brought to you by the leading local security non-profit organizations and sponsored by [Archer](https://www.archerirm.com/). These new series are designed to offer more informal connection opportunities for the cybersecurity community of the Greater Seattle area.\n\nWe're kicking off a casual, low-key gathering where local security professionals can connect and unwind in an informal low-pressure setting. As the first of many, we plan to host these mixers at various locations, rotating based on your feedback. Our aim is to cultivate a regular cadence, potentially monthly or bimonthly, evolving with the community's interest.\n\nAny questions or suggestions, message the [OWASP Seattle Chapter](https://www.linkedin.com/company/owasp-seattle-chapter/) or contact [Eva Benn](https://www.linkedin.com/in/evabenn/)."
+    },
+    {
+        "group": "Singapore",
+        "repo": "www-chapter-singapore",
+        "name": "Zero Trust in API Security",
+        "date": "2024-05-08",
+        "time": "19:00+08:00",
+        "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/300531477",
+        "timezone": "Asia/Singapore",
+        "description": "The ultimate goal of Zero-Trust Architecture is to protect an organization\u2019s critical data against advanced threats. However, the current market focus is overly focused on network architecture, overlooking the elephant in the room.\n\nIn a modern application architecture, APIs are the backbone of interconnecting microservices. This means APIs are the most closely related \u2018services\u2019 to an organization\u2019s data, which explains why advanced attackers target APIs. In this session, we will explain how the zero-trust concept protects APIs."
     },
     {
         "group": "Stockholm",
