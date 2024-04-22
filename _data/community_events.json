@@ -190,16 +190,6 @@
         "description": "OWASP topic TBA"
     },
     {
-        "group": "Kannur",
-        "repo": "www-chapter-kannur",
-        "name": "OWASP Kannur : Cyber Security Best Practices ",
-        "date": "2024-04-21",
-        "time": "09:00+05:30",
-        "link": "https://www.meetup.com/owasp-kannur/events/300518608",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us at the OWASP Kannur meetup to dive into the world of cybersecurity best practices. In this event, we will cover a range of topics including computer security, information security, application security, and web security. Our experts will discuss the importance of web application security and how to protect your applications from various vulnerabilities. We will also touch upon penetration testing techniques to ensure your systems are secure from cyber threats.\n\nDon't miss out on this opportunity to learn from industry professionals and stay updated on the latest trends in cybersecurity. Whether you are a developer, security enthusiast, or simply curious about OWASP and software security, this meetup is perfect for you. Let's come together to strengthen our cybersecurity practices and build a safer online environment."
-    },
-    {
         "group": "Kansas City",
         "repo": "www-chapter-kansas-city",
         "name": "OWASP KC May Meetup",
@@ -238,6 +228,16 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/300316300",
         "timezone": "America/Chicago",
         "description": "This session will delve into the Cyber Kill Chain, a foundational framework for comprehending cyberattacks. We'll explore how attackers operate and empower ourselves to build targeted defenses. While a valuable tool, we'll also discuss the Kill Chain's limitations and the evolving nature of attacker tactics."
+    },
+    {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP New Zealand - Auckland Meetup",
+        "date": "2024-05-21",
+        "time": "18:30+12:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297780385",
+        "timezone": "Pacific/Auckland",
+        "description": "We've resumed our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for May will be **A02:2021 - Cryptographic Failures**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
         "group": "Orange County",
