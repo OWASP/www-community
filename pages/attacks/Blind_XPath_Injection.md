@@ -95,7 +95,7 @@ To get to know the XML document structure the attacker may use:
 - count(expression)
 
 ``` 
-count(//user/child::node()
+count(//user/child::node())
 ```
 
 This will return the number of nodes (in this case 2).
