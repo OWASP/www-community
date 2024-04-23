@@ -52,7 +52,9 @@ malicious user can tamper with the values stored on their browser and
 change the referred information. For example, an e-commerce shopping
 site uses hidden fields to refer to its items, as follows:
 
-<input type=”hidden” id=”1008” name=”cost” value=”70.00”>
+```html
+<input type="hidden" id="1008" name="cost" value="70.00">
+```
 
 In this example, an attacker can modify the “value” information of a
 specific item, thus lowering its cost.
