@@ -36,7 +36,6 @@ The following code is a wrapper around the UNIX command *cat* which
 prints the contents of a file to standard output. It is also injectable:
 
 ```
-
 #include <stdio.h>
 #include <unistd.h>
 
@@ -58,7 +57,6 @@ int main(int argc, char **argv) {
 Used normally, the output is simply the contents of the file requested:
 
 ```
-
 $ ./catWrapper Story.txt
 When last we left our heroes...
 ```
