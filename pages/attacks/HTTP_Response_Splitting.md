@@ -49,7 +49,7 @@ The following code segment reads the name of the author of a weblog
 entry, author, from an HTTP request and sets it in a cookie header of an
 HTTP response.
 
-```
+```java
 String author = request.getParameter(AUTHOR_PARAM);
 ...
 Cookie cookie = new Cookie("author", author);
