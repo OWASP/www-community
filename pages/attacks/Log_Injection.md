@@ -53,23 +53,23 @@ The following web application code attempts to read an integer value
 from a request object. If the value fails to parse as an integer, then
 the input is logged with an error message indicating what happened.
 
-```
-    ...
-    String val = request.getParameter("val");
-    try {
-        int value = Integer.parseInt(val);
-    }
-    catch (NumberFormatException) {
-        log.info("Failed to parse val = " + val);
-    }
-    ...
+```java
+...
+String val = request.getParameter("val");
+try {
+    int value = Integer.parseInt(val);
+}
+catch (NumberFormatException) {
+    log.info("Failed to parse val = " + val);
+}
+...
 ```
 
 If a user submits the string "twenty-one" for val, the following entry
 is logged:
 
 ```
-    INFO: Failed to parse val=twenty-one
+INFO: Failed to parse val=twenty-one
 ```
 
 However, if an attacker submits the string
@@ -77,9 +77,9 @@ However, if an attacker submits the string
 logged:
 
 ```
-    INFO: Failed to parse val=twenty-one
+INFO: Failed to parse val=twenty-one
 
-    INFO: User logged out=badguy
+INFO: User logged out=badguy
 ```
 
 Clearly, attackers can use this same mechanism to insert arbitrary log
@@ -90,8 +90,8 @@ entries.
 PHP code can easily be added to a log file, for example:
 
 ```
-    https://www.somedomain.tld/index.php?file=`
-    <?php echo phpinfo(); ?>`
+https://www.somedomain.tld/index.php?file=`
+<?php echo phpinfo(); ?>`
 ```
 
 This stage it is called **log file poisoning**. If the log file is
