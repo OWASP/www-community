@@ -65,7 +65,6 @@ request using theses steps:
 
 **Sample implementation: Filter class**
 
-```
 ```java
 import java.io.IOException;
 import java.util.Collections;
