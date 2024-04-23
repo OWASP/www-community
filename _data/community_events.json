@@ -107,7 +107,27 @@
         "time": "17:00-07:00",
         "link": "https://www.meetup.com/bay-area-owasp/events/300013837",
         "timezone": "America/Los_Angeles",
-        "description": "We're excited to announce our upcoming April meetup, which will be hosted by the wonderful team at **Truffle Security**. Get ready for insightful discussions, delicious refreshments, and the chance to network with some of the brightest minds in the industry.\nAgenda:\n5-5.45Pm :- Doors open, networking and food\n5.45-6.30PM :- Leaked Secrets and Unlimited Miles\n6.30-7.15PM :- Secrets from a bygone era\n7.15-8 PM :- The Internet is broken, Putting IPv6 into perspective\n8PM Doors closed.\n\n**Talk#1: Leaked Secrets and Unlimited Miles by Sam Curry**\nNearly every major rewards program (United MileagePlus, American Express, Southwest Rapid Rewards, etc.) is powered by a single provider: [points.com](http://points.com/). Join us as we discuss vulnerabilities identified in [points.com](http://points.com/) and other pieces of airline infrastructure which lead to mass PII disclosure, an infinite money glitch, and free upgrades.\n\n**Talk #2 -** Secrets from a bygone era by **Dylan Ayrey**\nGitHub is a platform that was designed for sharing, it wasn't designed for unsharing. So how difficult does it become to unshare? This talk will dig into all the different ways your secrets might get replicated, propagated, persisted, and shared, for decades following your mistake.\n\n**Talk#3** The Internet is broken, Putting IPv6 into perspective\n**Description**:\nMost of the Internet is currently running on a legacy version of the Internet Protocol: IPv4. Despite of this, the number of engineers, especially in security, who know how to use IPv6 is relatively low. In this talk, previously presented internally at NCC Group, I will show you why today's Internet does not live up to its original vision, take you back to the past to show you what the IPv4 Internet used to look like and through this reveal the secrets that will make you understand IPv6.\n\n**Speaker**:**Denis Smajlovi\u0107,** Founding Security Consultant at Nova Information Security. With a background in security consulting having worked for some of the largest financial institutions in Scandinavia and biggest tech companies in the Bay Area, I started Nova to provide web application and network pentesting services with the idea that we are able to work closer with clients and provide greater value."
+        "description": "We're excited to announce our upcoming April meetup, which will be hosted by the wonderful team at **Truffle Security**. Get ready for insightful discussions, delicious refreshments, and the chance to network with some of the brightest minds in the industry.\nAgenda:\n5-5.45Pm :- Doors open, networking and food\n5.45-6.30PM :- Do SBOMs Solve the Problem of Software Supply Chain Attacks?\n6.30-7.15PM :- Pentests did not stop data breach(s). What's wrong and what needs to be changed?\n7.15-8 PM :- Secrets from a bygone era\n8PM Doors closed.\n\n**Talk#1** Do SBOMs Solve the Problem of Software Supply Chain Attacks?\n\n**Description**:\nAs many may know, a Software Bill of Materials was mandated by Executive Order 14028: Improving the Nation\u2019s Cybersecurity. The Executive Order was a direct consequence of the infamous Solar Winds Hack, the most famous example of a software supply chain attack. The perpetrators of this particular offense were not after money. They were after government and corporate secrets. They were after control on a world-wide scale. What is the best way to infiltrate multiple companies, governments and their branches? In this case, targeting a network management system called Orion. The CEO of SolarWinds estimated that 18,000 customers could have been affected by the hack. He knew that because about 18,000 customers had downloaded the malware disguised as a patch. What was supposed to be a routine update turned out to anything but routine. The attackers were believed to be Russian state affiliated. They had managed to gain control by infiltrating the build process. To this day, we do not know the extent of their infiltration.\nTo counter supply chain attacks, SBOMs were included in the executive order. Overnight, new and existing companies were touting their \u201csolutions\u201d. Do they work? Do SBOMs solve software supply chain problems? If not, what will?\n\nSpeaker: Robert Marion, Product Security Architect at Baxter Health Care. Formerly Lead Product Security Engineer at Citrix.\n\n**Talk#2: Pentests did not stop data breach(s). What's wrong and what needs to be changed? by Gopi Ramamoorthy**\nSession Overview: Cyber threats continue to evolve in different forms and grow at exponential speed. Majority of the businesses do conduct pentests periodically but still face multiple security incidents and data breaches. Adoption of new technologies including AI has added another dimension of threats to data security. In this presentation, the speaker will discuss short falls of pentests and how they can be aligned towards testing potential data security vulnerabilities and improving the overall data security posture of the organization you manage.\n**Speaker:**\n[Gopi Ramamoorthy](https://www.linkedin.com/in/gopi-r/), with over 15 years in information security and compliance, has risen from engineering roles to leadership positions in sectors like Finance and Healthcare. At Fiserv, he managed security compliance for multiple units worth $350 billion in annual transactions, consistently maintaining an impeccable record of zero findings. Gopi\u2019s contributions extend beyond his core work; he\u2019s an active leader in infosec forums, served as ISC2 Silicon Valley President in 2013, and was on the ISACA Silicon Valley Board from 2014-2021. Certified with CISSP, CISA, CIPP/US, and CISM, Gopi is currently the Head of Security and GRC Engineering at Symmetry Systems. A dedicated professional and leader, Gopi\u2019s expertise is widely recognized and respected in the industry. In 2023 alone, Gopi has spoken at multiple conferences on Cybersecurity and Privacy and continues to share his knowledge and experience through multiple forums!\n\n**Talk #3 -** Secrets from a bygone era by **Dylan Ayrey**\nGitHub is a platform that was designed for sharing, it wasn't designed for unsharing. So how difficult does it become to unshare? This talk will dig into all the different ways your secrets might get replicated, propagated, persisted, and shared, for decades following your mistake."
+    },
+    {
+        "group": "Belgium",
+        "repo": "www-chapter-belgium",
+        "name": "OWASP BE Chapter Meeting (21/05/2024, Brussels)",
+        "date": "2024-05-21",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/300566355",
+        "timezone": "Europe/Brussels",
+        "description": "On May 21st, we organize our next OWASP Belgium chapter meeting at BeCentral (Brussels), by the courtesy of Proximus-ADA.\n\n**Agenda**:\n\n* 17h30-18h20: Welcome and refreshments\n* 18h20-18h30: **OWASP Update**\n18h30-19h30: **User Privacy in Online Location-Based Services** (by Victor LePochat and Karel Dhondt, KU Leuven-Distrinet)\n19h30-19h45: Break\n19:45-20h45: **SS7 Security** (by Jeremy Schmidt, Proximus ADA)\n21:00: Close\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
+    },
+    {
+        "group": "Belgium",
+        "repo": "www-chapter-belgium",
+        "name": "OWASP BE Chapter Meeting (02/05/2024, Antwerp)",
+        "date": "2024-05-02",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/300566321",
+        "timezone": "Europe/Brussels",
+        "description": "On May 2nd, we organize our next OWASP Belgium chapter meeting at [Karel de Grote](https://www.kdg.be/) University of Applied Sciences and Arts (Antwerp).\n\n**Agenda**:\n\n* 17h30-18h20: Welcome and refreshments\n18h20-18h30: **OWASP Update**\n18h30-19h30: **Navigating the Evolving Landscape of Cyber Security Legislation as an IoT Device Manufacturer** (by Joris Gorinsek, NIKO)\n19h30-19h45: Break\n19:45-20h45: **OWASP Cornucopia and Scrum: A strategic approach to introduce threat modeling in an Agile development process** (by Ive Verstappen & Jev Meijvis, DotNET lab)\n21:00: Close\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
     },
     {
         "group": "Bhopal",
@@ -202,6 +222,16 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - MAY 22, 2024",
+        "date": "2024-05-22",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/300022938",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: Securing Generative AI Applications using the OWASP Top 10 for Large Language Models\nJoin us for dinner+drinks, networking, and see a presentation by **Steve Wilson**, OWASP project leader and Chief Product Officer at **Exabeam**\n\n**ABSTRACT**: What are the new risks that generative AI brings to your environment? In this cutting-edge session, we uncover the potential hazards that Large Language Models (LLMs) introduce to modern application ecosystems. Drawing on the expertise distilled in the OWASP Top 10 for LLMs, we offer a comprehensive roadmap for mitigating these risks. Attendees will gain insights into securing generative AI applications, recognizing the nuances of LLM vulnerabilities, and deploying defenses. This talk is a call to action for developers and security professionals to foster a culture of secure, responsible AI development. Equip yourself with the knowledge to anticipate threats, apply best practices, and build AI systems that are not only intelligent but also resilient in the face of cybersecurity challenges.\n\n**THANKS to OUR SPONSOR**: *[Kodem](https://www.kodemsecurity.com/)*\n*Kodem means \u201cfirst\u201d or \u201cearly\u201d in Hebrew. A priority. We believe in helping appsec teams make security a priority by spotlighting risks that truly matter. We believe in helping developers improve code quality by shifting left and catching issues early. And we believe in making people a priority: our customers, our team, and our partners.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "Los Angeles Joint Cyber Mixer",
         "date": "2024-04-30",
         "time": "18:00-07:00",
@@ -218,6 +248,26 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/298386031",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Building A Product Security Team \u2013 The Good, The Bad And The Ugly - Lessons From The Field\nJoin us for great networking, dinner and drinks, and see a presentation by **Peter Morin**, Principal, National Cyber Security Leader, **Grant Thornton LLP**\n\n**ABSTRACT**: Ensuring that the products and services we build, and deliver are as threat resistant as possible is extremely important today. Meeting this challenge is not just about building secure applications since we all know that rapid development of software as well as the evolution of threats and vulnerabilities can see our applications as secure today but vulnerable tomorrow. That is why having an established product security team and response capability is extremely important.\nDuring this discussion, I will discuss, using real-world examples, including that of my own, how organizations can meet the demands of product security including:\n\n* Building a culture of security within your organization beyond firewalls and anti-virus\n* How to \u201csell\u201d security to executive management and explaining what product security does and doesn\u2019t do (e.g., staffing, budgets, etc.)\n* Building and deploying software using the \"DevOps\" approach, while maintaining a high level of security\n* Difficulties of wearing multiple hats, with security being one of them\n* Embedding \u201csecurity\u201d in the software development life cycle (SDLC)\n* Establishing a proper security \u201cresponse\u201d program\n* Product vulnerability transparency and developing a disclosure policy\n* How to measure the success of your program\n* Establishing a bug bounty program\n\n**THANKS to OUR SPONSOR**: *[DevOcean](https://www.devocean.security)*\n*DevOcean Unified Remediation Platform\u2122, a Gartner Cool Vendor, helps organizations cut the time, backlog, and manual effort needed to fix issues and manage threat exposure. Going beyond traditional methods, DevOcean enables security, dev and devops teams to collaborate efficiently without the usual pain and friction of day-to-day operations. Our powerful workflow automation engine leverages the unique context of cloud-to-code root cause analysis and ownership association to deliver a highly accurate remediation solution that drives resolution at scale.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
+    },
+    {
+        "group": "Maine",
+        "repo": "www-chapter-maine",
+        "name": "OWASP Maine: May Meetup (Speaker TBA)",
+        "date": "2024-05-22",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owasp-maine/events/300520813",
+        "timezone": "America/New_York",
+        "description": "Mark your calendars, for our next meetup! We will be editing this shortly with the speaker info and topic!"
+    },
+    {
+        "group": "Nashville",
+        "repo": "www-chapter-nashville",
+        "name": "Supply Chain Security with Dan Lorenc, CEO Chainguard",
+        "date": "2024-05-22",
+        "time": "17:00-05:00",
+        "link": "https://www.meetup.com/owasp-nashville-chapter/events/298689779",
+        "timezone": "America/Chicago",
+        "description": "Join us for an informative and hands-on workshop on securing your software supply-chain. In this event, we will be joined by Dan Lorenc, CEO and founder of Chainguard Inc. We will have food, learning, swag and, of course, networking with other like-minded folks in the area.\n\nNote: This event is organized by the OWASP Nashville Chapter and is open to both OWASP members and non-members. Whether you are already a member or interested in becoming one, we encourage you to attend this event and learn more about the benefits of being part of the OWASP community."
     },
     {
         "group": "Nashville",
@@ -280,6 +330,16 @@
         "description": "**Topic #1 - GitHub Supply Chain Attack Overview** \\- 5 Minutes\n*In March, Dark Reading reported a [GitHub Supply Chain Attack](https://www.darkreading.com/application-security/github-developers-hit-in-complex-supply-chain-cyberattack). Learn about the GitHub platform, software package dependencies, and the attack techniques in this high level overview.*\n\n**Topic #2 - OWASP Top 10 Web Application Risks Quiz -** 20 Minutes\n*Test your knowledge of the [OWASP Top 10 web application security risks](https://owasp.org/www-project-top-ten)! Compete for a chance to win fabulous prizes (aka candy bars).*\n\n**Cost**\n\nFree!\n\n**OWASP Info**\n\nOWASP is a non-profit dedicated to **application security**. Our meetings are free to attend and you do not need to be a member, nor have any experience with application security. All are welcome!\n\n**Meetings Every Month!**\n\nMeetings occur the first Tuesday of every month. Be sure to join our Meetup page to be notified of future meetings and topics.\n\n**Free Parking**\n\nFree Parking Lot:\n1 N Macdonald St, Mesa, AZ 85201\n[https://downtownmesa.com/parking/green-lot](https://downtownmesa.com/parking/green-lot)\n\nNote that this parking lot is across the street from HeatSync Labs. There are other nearby lots and street parking as well."
     },
     {
+        "group": "Portland Me",
+        "repo": "www-chapter-portland-me",
+        "name": "OWASP Maine: May Meetup (Speaker TBA)",
+        "date": "2024-05-22",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owasp-maine/events/300520813",
+        "timezone": "America/New_York",
+        "description": "Mark your calendars, for our next meetup! We will be editing this shortly with the speaker info and topic!"
+    },
+    {
         "group": "Porto Alegre",
         "repo": "www-chapter-porto-alegre",
         "name": "OWASP Chapter POA - Encontro 014 [ONLINE]",
@@ -332,6 +392,16 @@
     {
         "group": "Stockholm",
         "repo": "www-chapter-stockholm",
+        "name": "OWASP Stockholm -Security Game Night @ Detectify",
+        "date": "2024-05-02",
+        "time": "17:30+02:00",
+        "link": "https://www.meetup.com/owasp-stockholm/events/300467215",
+        "timezone": "Europe/Stockholm",
+        "description": "It's board game night, for anyone interested in both board games & security!\n\nThe meetup will start with a mingle with snacks and refreshments at 17:30. The actual gaming will begin at 19:00 and the main presentation will begin at 18:00.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcoming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter ](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\n\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
+    },
+    {
+        "group": "Stockholm",
+        "repo": "www-chapter-stockholm",
         "name": "OWASP Stockholm - TruffleHog Disclosure @ Omegapoint",
         "date": "2024-04-24",
         "time": "17:30+02:00",
@@ -378,6 +448,16 @@
         "link": "https://www.meetup.com/owasp-capixaba/events/300441132",
         "timezone": "America/Sao_Paulo",
         "description": "Palestrante: Andr\u00e9 Vidal\nTema: Seguran\u00e7a Digital: Navegando com Confian\u00e7a em um Mundo de Cyber Fraudes\nData: 24/04/2024 \u00e0s 19:30"
+    },
+    {
+        "group": "Yerevan",
+        "repo": "www-chapter-yerevan",
+        "name": "OWASP Yerevan April meetup -  Antranig Vartanian; Inna Kholodova",
+        "date": "2024-04-24",
+        "time": "19:00+04:00",
+        "link": "https://www.meetup.com/owasp-yerevan/events/300570103",
+        "timezone": "Asia/Yerevan",
+        "description": "OWASP Yerevan April meetup agenda:\n\n1. CERT-AM: reborn out of the ashes - Antranig Vartanian, Illuria Security\n2. Windows authentication - Inna Kholodova\n\nLocation will be announced later."
     },
     {
         "group": "Wrongsecrets",
