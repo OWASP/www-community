@@ -1,25 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - April",
-        "date": "2024-04-23",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299460499",
-        "timezone": "Europe/Copenhagen",
-        "description": "**IMPORTANT:**\n\n* **You need to reverse into the parking spot!**\n\nOWASP Aarhus and Siemens Gamesa are happy to invite you to this OWASP Aarhus meetup - in Brande.\n\n**19:00 \u2013 19:10** Morten Thrane\nWelcome by Siemens Gamesa and OWASP Aarhus\n\n**19:10 \u2013 20:00** Matija Stevanovic\n**Title:** *Safeguarding Wind Power \u2013 Cybersecurity in the context of Wind Power Plants*\n**Abstract:**\nIn recent years, the global energy landscape has undergone a remarkable transformation, with renewable energy sources emerging as pivotal players in the pursuit of a sustainable future. Among these, wind power has surged to the forefront, harnessing the natural force of wind to generate clean and efficient electricity. As we embrace the transition towards greener energy solutions, it is imperative that we also confront the challenges that accompany it. One such challenge, though perhaps less visible, is cybersecurity.\nThroughout this presentation, we will delve into the intricacies of cybersecurity as it pertains to wind power plants. We will explore the broader business context, provide overview of customer expectations and the increasingly stringent requirements imposed by national legislators. Additionally, we will sketch the threats and vulnerabilities facing these critical assets. Finally, we will provide an overview of the strategies and technologies deployed to mitigate these risks, ensuring the resilience and safety of our wind power infrastructure amidst the ever-evolving landscape of cyber threats.\n\n**20:00 \u2013 20:30** Networking break\n\n**20:30 \u2013 21:25** Aleksander Kj\u00e6r vil give en grundl\u00e6ggende introduktion til forhandling baseret p\u00e5 Harvard Negotiations Project og Uri & Fishers bog \"Getting to Yes\".\n\nHan vil introducere n\u00f8glekoncepterne og teknikkerne inden for forhandling og vise, hvordan deltagerne selv kan anvende disse til at forbedre deres forhandlingsevner - b\u00e5de professionelt og personligt. Det er hans holdning, at alle kan blive en dygtig forhandler!\nDerudover vil han illustrere disse teknikker med konkrete eksempler fra virkelige forhandlingssituationer.\n\nHan vil ogs\u00e5 pr\u00e6sentere, hvordan man kan overbevise en tv\u00e6r og n\u00e6rrig ledelse om at investere mere i IT-sikkerhed ved hj\u00e6lp af de forhandlingsteknikker, der har gennemg\u00e5et.\n\nKort om Aleksander - Jeg har en kandidatgrad i \u00f8konomi og antropologi og har altid haft stor interesse for forhandling gennem mine studier, is\u00e6r i en international kontekst. Bl.a. var jeg i praktik p\u00e5 den danske ambassade i Tallinn Estland i 2018, hvor der skete en masse inden for det milit\u00e6re og cyber- og informationssikkerhed omr\u00e5det i Danmark og Estland. Efterf\u00f8lgende tilbragte jeg fire m\u00e5neder i New York City, hvor jeg skrev mit speciale om danske virksomheders udfordringer med at etablere sig p\u00e5 det amerikanske marked. P\u00e5 nuv\u00e6rende tidspunkt studerer jeg softwareteknologi p\u00e5 6. semester og er s\u00e6rligt interesseret i governance-omr\u00e5det inden cyber- og informationssikkerhed, som jeg h\u00e5ber at g\u00f8re en karriere indenfor i fremtiden.\n\n**21:15 \u2013 21:30** Closing notes, networking and goodbyes"
-    },
-    {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "Bus tur fra Aarhus til OWASP i Brande",
-        "date": "2024-04-23",
-        "time": "17:30+02:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/300424641",
-        "timezone": "Europe/Copenhagen",
-        "description": "Bus tur/retur fra Erhvervsakademi Aarhus til OWASP event ved Siemens Gamesa i Brande.\nKun 10 pladser tilbage.\n\nKontakt Hans Henrik p\u00e5 mobil: 72286308\neller\nLinkedIn: [https://www.linkedin.com/in/hansjeppesen/](https://www.linkedin.com/in/hansjeppesen/)"
-    },
-    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "Adversarial Machine Learning Tactics",
@@ -100,14 +80,14 @@
         "description": "Hello...Are you ready to dive into world of enterprise security ?. Join us for an exciting Hacker Days, where we'll explore some of the Information Security essential requirements and it's a shared responsibility to protect systems and data. In this workshop, we will play roles of Developer/End-user/Security Engineer and explore various common mistakes which lead to critical security issues. We will also discuss the best practices for preventing such attacks.\n\nThank you very much to Endor Labs for gracious providing us the venue and Levo.ai - the guardians of the API galaxy! for sponsoring the food and drinks.\nThis event is in partnership pacific hackers community https://www.pacifichackers.org/\n\nWorkshop outline:\n\n\\* Overview\n\\- Introduction: Responsibilities of different roles\\.\n\\- Demo application walkthrough: A custom \\.net web application and a mobile app\\.\n\\- Tools: BurpSuite\\, Wireshark\\, ApkTool\n\\* Developer mistakes: Various mistakes done by developers will be explained along with the impact and how to identify and prevent them.\n\\- Hardcoded Secrets\n\\- Login Credentials\n\\- Lack of Awareness\n\\- Security Misconfiguration\n\\* End-user mistakes: As end-users, one can be a victim of cyber attack due to simple mistakes. Let's explore scenarios with live demo.\n\\- Wi\\-Fi Attack\n\\- Offer and Freebies\n\\* Security Engineer mistakes: Security engineers are responsible for detecting vulnerabilities and recommending fixes. But we are also human being and can commit mistakes which can lead to attacks.\n\\- Misusing available tools\n\\- Lack of scoping\n\\- Few OWASP top 10 vulnerability demo\n\\* Closing Note\n\\* Q&A\n\nSpeaker Details:\nName: Sarwar Jahan M\nLinkedin: [https://www.linkedin.com/in/sarwarjahanm/](https://www.linkedin.com/in/sarwarjahanm/)\nBio: Sarwar Jahan is currently working as a Senior Enterprise Security Engineer, who worked at tech giants like Synopsys, Microsoft and Salesforce. He has 10+ years of experience and was ranked among top ethical hackers globally. He is passionate about sharing knowledge with the community and running a non-profit initiative called InfoSecCamp to spread security awareness among people by conducting Boot Camps.("
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "April meetup",
-        "date": "2024-04-23",
-        "time": "17:00-07:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/300013837",
-        "timezone": "America/Los_Angeles",
-        "description": "We're excited to announce our upcoming April meetup, which will be hosted by the wonderful team at **Truffle Security**. Get ready for insightful discussions, delicious refreshments, and the chance to network with some of the brightest minds in the industry.\nAgenda:\n5-5.45Pm :- Doors open, networking and food\n5.45-6.30PM :- Do SBOMs Solve the Problem of Software Supply Chain Attacks?\n6.30-7.15PM :- Pentests did not stop data breach(s). What's wrong and what needs to be changed?\n7.15-8 PM :- Secrets from a bygone era\n8PM Doors closed.\n\n**Talk#1** Do SBOMs Solve the Problem of Software Supply Chain Attacks?\n\n**Description**:\nAs many may know, a Software Bill of Materials was mandated by Executive Order 14028: Improving the Nation\u2019s Cybersecurity. The Executive Order was a direct consequence of the infamous Solar Winds Hack, the most famous example of a software supply chain attack. The perpetrators of this particular offense were not after money. They were after government and corporate secrets. They were after control on a world-wide scale. What is the best way to infiltrate multiple companies, governments and their branches? In this case, targeting a network management system called Orion. The CEO of SolarWinds estimated that 18,000 customers could have been affected by the hack. He knew that because about 18,000 customers had downloaded the malware disguised as a patch. What was supposed to be a routine update turned out to anything but routine. The attackers were believed to be Russian state affiliated. They had managed to gain control by infiltrating the build process. To this day, we do not know the extent of their infiltration.\nTo counter supply chain attacks, SBOMs were included in the executive order. Overnight, new and existing companies were touting their \u201csolutions\u201d. Do they work? Do SBOMs solve software supply chain problems? If not, what will?\n\nSpeaker: Robert Marion, Product Security Architect at Baxter Health Care. Formerly Lead Product Security Engineer at Citrix.\n\n**Talk#2: Pentests did not stop data breach(s). What's wrong and what needs to be changed? by Gopi Ramamoorthy**\nSession Overview: Cyber threats continue to evolve in different forms and grow at exponential speed. Majority of the businesses do conduct pentests periodically but still face multiple security incidents and data breaches. Adoption of new technologies including AI has added another dimension of threats to data security. In this presentation, the speaker will discuss short falls of pentests and how they can be aligned towards testing potential data security vulnerabilities and improving the overall data security posture of the organization you manage.\n**Speaker:**\n[Gopi Ramamoorthy](https://www.linkedin.com/in/gopi-r/), with over 15 years in information security and compliance, has risen from engineering roles to leadership positions in sectors like Finance and Healthcare. At Fiserv, he managed security compliance for multiple units worth $350 billion in annual transactions, consistently maintaining an impeccable record of zero findings. Gopi\u2019s contributions extend beyond his core work; he\u2019s an active leader in infosec forums, served as ISC2 Silicon Valley President in 2013, and was on the ISACA Silicon Valley Board from 2014-2021. Certified with CISSP, CISA, CIPP/US, and CISM, Gopi is currently the Head of Security and GRC Engineering at Symmetry Systems. A dedicated professional and leader, Gopi\u2019s expertise is widely recognized and respected in the industry. In 2023 alone, Gopi has spoken at multiple conferences on Cybersecurity and Privacy and continues to share his knowledge and experience through multiple forums!\n\n**Talk #3 -** Secrets from a bygone era by **Dylan Ayrey**\nGitHub is a platform that was designed for sharing, it wasn't designed for unsharing. So how difficult does it become to unshare? This talk will dig into all the different ways your secrets might get replicated, propagated, persisted, and shared, for decades following your mistake."
+        "group": "Beja",
+        "repo": "www-chapter-beja",
+        "name": "0x01 Securing the Web",
+        "date": "2024-05-23",
+        "time": "14:30+01:00",
+        "link": "https://www.meetup.com/owasp-beja-chapter/events/300539527",
+        "timezone": "Europe/Lisbon",
+        "description": "Securing the Web is the second meetup of OWASP Beja chapter which will be held on May 23rd, 2024, at 14:30 sponsored by **[Checkmarx](https://checkmarx.com/?utm_source=meetup&utm_medium=sponsorship&utm_campaign=owasp-beja)**.\n\n**Schedule**\n\n14:30 - **Welcome Notes** by OWASP Beja chapter leadership team\n14:35 - **Purple Team Approach Towards Confluence RCE** by Paulo Viegas\n15:00 - **Newton's Third Law: Static vs. Dynamic Abusers** by Diogo Sousa\n16:00 - **Snacks & Drinks** sponsored by **[Checkmarx](https://checkmarx.com/?utm_source=meetup&utm_medium=sponsorship&utm_campaign=owasp-beja)**\n\n**Talks**\n\n**Purple Team approach towards Confluence RCE**\nby Paulo Viegas, Threat Detection Analyst @ Siemens\n\nTalk about the value of collaboration between the red and blue team with a practical example.\n\n**About the Speaker**\nCurious Blue Teamer with special taste for malware and forensics.\n\n\\-\\-\\-\n\n**Newton's Third Law: Static vs. Dynamic Abusers**\nby Diogo Sousa, Engineering Manager @ Canonical\n\nIf you offer a service on the web, odds are that someone will abuse it. Be it an API, a SaaS, a PaaS, or even a static website, someone somewhere will try to figure out a way to use it to their own needs. In this talk we'll compare measures that are effective against static attackers and how to battle a dynamic attacker who adapts to your counter-measures.\n\n**About the Speaker**\nAn opinionated individual with an interest in cryptography and its intersection with secure software development."
     },
     {
         "group": "Belgium",
@@ -138,6 +118,16 @@
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/300502194",
         "timezone": "Asia/Kolkata",
         "description": "Welcome to \"Web Security 101: Safeguarding Your Digital Footprint,\" a comprehensive beginner-level event designed to equip you with the essential knowledge and skills to protect yourself online.\n\nIn today's digital age, our online presence is more significant than ever. From personal information to financial data, we entrust a plethora of sensitive details to the web. However, with the increasing prevalence of cyber threats and malicious actors, it's crucial to fortify our defenses and ensure the safety of our digital footprint.\n\nJoin us for an enlightening journey into the realm of web security, where you'll learn:\n\\- Foundations of Web Security: Understand the basic concepts and principles of web security\\, including common vulnerabilities and attack vectors\\.\n\n* Protecting Your Digital Assets: Discover practical tips and best practices for safeguarding your personal and professional information online.\n* Securing Your Devices and Networks: Learn how to secure your devices, networks, and online accounts against cyber threats, malware, and phishing attacks.\n* Navigating the Cyber Landscape: Gain insights into the evolving cybersecurity landscape and emerging trends, empowering you to stay ahead of potential threats.\n* Interactive Workshops and Demos: Engage in hands-on workshops and live demonstrations that reinforce your learning and provide practical guidance for implementing security measures effectively.\n* Community Engagement: Connect with like-minded individuals, share experiences, and collaborate on strategies for enhancing web security awareness and resilience.\n\nWhether you're a student, professional, or simply a concerned internet user, \"Web Security 101: Safeguarding Your Digital Footprint\" offers a welcoming environment where everyone can learn and thrive.\n\nDon't miss this opportunity to take control of your online security and protect what matters most. Reserve your spot today and embark on a journey towards a safer digital future!"
+    },
+    {
+        "group": "Birmingham Uk",
+        "repo": "www-chapter-birmingham-uk",
+        "name": "OWASP Bham Chapter Meetup May 2024!",
+        "date": "2024-05-23",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/meetup-group-owasp-birmingham/events/300370233",
+        "timezone": "Europe/London",
+        "description": "Welcome from OWASP Birmingham our first Meetup of 2024\n\nOnce again we'll be @Hays at One Colmore Square Thursday 23rd May for two great Infosec talks\n\nWatch this space, more details to come! Looking forward to another oppotunity to connect around Cybersecurity with lots of interesting folks from all over the Midlands"
     },
     {
         "group": "Colorado Springs",
@@ -207,7 +197,7 @@
         "time": "18:45-04:00",
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/299878996",
         "timezone": "America/New_York",
-        "description": "OWASP topic TBA"
+        "description": "An introduction to OWASP's Juice Shop. A vulnerable website built for CTF practice."
     },
     {
         "group": "Kansas City",
@@ -448,16 +438,6 @@
         "link": "https://www.meetup.com/owasp-capixaba/events/300441132",
         "timezone": "America/Sao_Paulo",
         "description": "Palestrante: Andr\u00e9 Vidal\nTema: Seguran\u00e7a Digital: Navegando com Confian\u00e7a em um Mundo de Cyber Fraudes\nData: 24/04/2024 \u00e0s 19:30"
-    },
-    {
-        "group": "Yerevan",
-        "repo": "www-chapter-yerevan",
-        "name": "OWASP Yerevan April meetup -  Antranig Vartanian; Inna Kholodova",
-        "date": "2024-04-24",
-        "time": "19:00+04:00",
-        "link": "https://www.meetup.com/owasp-yerevan/events/300570103",
-        "timezone": "Asia/Yerevan",
-        "description": "OWASP Yerevan April meetup agenda:\n\n1. CERT-AM: reborn out of the ashes - Antranig Vartanian, Illuria Security\n2. Windows authentication - Inna Kholodova\n\nLocation will be announced later."
     },
     {
         "group": "Wrongsecrets",
