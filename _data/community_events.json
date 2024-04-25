@@ -1,15 +1,5 @@
 [
     {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "Adversarial Machine Learning Tactics",
-        "date": "2024-04-24",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-atlanta/events/300300371",
-        "timezone": "America/New_York",
-        "description": "In this talk, we will conduct an examination of the methodologies employed by adversaries to exploit machine learning systems and leverage these systems for their benefit. We will delve into various attack vectors, such as evasion and poisoning, and discuss the current use cases of machine learning and AI being employed by threat actors. Participants will gain insight into the latest defensive applications of machine learning, along with strategies for mitigating risks posed by new and evolving threats. This session aims to equip attendees with an understanding of both offensive and defensive aspects of machine learning in cybersecurity, fostering a proactive approach to safeguarding these advanced systems."
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "May 2024 OWASP Austin Security Professionals Happy Hour",
@@ -150,16 +140,6 @@
         "description": "The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs). The project provides a list of the top 10 most critical vulnerabilities often seen in LLM applications, highlighting their potential impact, ease of exploitation, and prevalence in real-world applications. Examples of vulnerabilities include prompt injections, data leakage, inadequate sandboxing, and unauthorized code execution, among others. The goal is to raise awareness of these vulnerabilities, suggest remediation strategies, and ultimately improve the security posture of LLM applications."
     },
     {
-        "group": "Delaware",
-        "repo": "www-chapter-delaware",
-        "name": "Security and Compression",
-        "date": "2024-04-24",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-delaware-chapter/events/300190943",
-        "timezone": "America/New_York",
-        "description": "**Agenda**\n\n* **Chapter Intro**\n\n* **Main presentation: Title: Security and Compression**\n\nAuthor: Lucas Driscoll [https://github.com/Lukerd-29-00/](https://github.com/Lukerd-29-00/)\nAbstract: This is a talk on the cybersecurity risks caused by using compression, especially in a web context. It goes over the basic mechanics of attacking a scheme where text is compressed and then encrypted, the attacks that have been discovered in practice, and mitigations against them.\nThis relates to attacks against TLS, such as Compression Ratio Info-leak Made Easy (CRIME) and BREACH (Browser Reconnaissance and Exfiltration via Adaptive Compression of Hypertext) .\n\n* **Web Academy hands-on labs** \\- We continue our journey through the Web Academy at [https://portswigger.net/web-security/](https://portswigger.net/web-security/)\n\nThe meeting will be held in the library's computer lab to encourage people to get some hands-on web security testing experience."
-    },
-    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Paris - Avril 2024",
@@ -168,16 +148,6 @@
         "link": "https://www.meetup.com/owasp-france/events/300284708",
         "timezone": "Europe/Paris",
         "description": "Ce meetup se deroulera chez **PADOK** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
-    },
-    {
-        "group": "Frankfurt",
-        "repo": "www-chapter-frankfurt",
-        "name": "OWASP Frankfurt Chapter #65 - Data Centricity and Securing AI",
-        "date": "2024-04-24",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-frankfurt/events/299501950",
-        "timezone": "Europe/Berlin",
-        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #65! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\n\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\n\n**1\\. Talk:** **Data Centricity for Cloud and Application Security**\n\n*Prof. Dr. Igor Podebrad, Director CISO Office, Google Cloud*\n\nIgor's talk will demystify data-centricity as a key driver for robust application and cloud security. He'll contrast the shift to data-centricity focus how it underpins cloud, AI and supports sound risk decisions. He will also discuss how this shift is reshaping security and resilience in for digital transformation. Igor is currently a Director at Google Cloud's Office of the CISO and a former Group CISO at Commerzbank AG. He holds a PhD in Medical Care Logistics from the University of Berlin.\n\n**2\\. Talk: Securing GenAI Applications on Cloud: Three pronged approach**\n\n*Hari Hayagreevan, Technical Leader \u2013 AI Security, IBM Consulting DACH*\n\nThe convergence of Generative Artificial Intelligence (Gen AI) with cybersecurity introduces a spectrum of challenges and prospects. To embrace Gen AI extensively within enterprise contexts, it's imperative for these AI systems to be devoid of vulnerabilities in their application and infrastructure. This necessitates a holistic approach to securing Gen AI platforms. In this session, Hari will take you through the different viewpoints, offering insights from an Enterprise Security Architect\u2019s perspective, with practical enterprise scenarios. Hari is Enterprise Security Architect and currently is the Technical Leader for IBM Consulting\u2019s GenAI Security practice in DACH. He started his career as Cybersecurity incident responder (SOC Analyst) 18 years ago and now advises Enterprise CISOs and Security Architecture teams on adopting security principles for preventing cyber attacks.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**. For everyone who's interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n_When?\nOur Meetup takes place on 24.04.2024 from 18.00 to 21.30 o'clock CEST.\n\n_Where?\ncodecentric AG, Lise-Meitner-Stra\u00dfe 4, 60486 Frankfurt am Main\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us here and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\n\nWe're looking forward to seeing you at our event!"
     },
     {
         "group": "Israel",
@@ -230,16 +200,6 @@
         "description": "Join us for our 2nd mixer with participating cybersecurity communities in Southern California, enjoy the beautiful weather, amazing sunset, great conversations, network with your peers, make new friends!\nYou **don'**t have to be a member of any group to participate. Mark your calendars; see you there!!\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring OWASP LA events please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - APR 24, 2024",
-        "date": "2024-04-24",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/298386031",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Building A Product Security Team \u2013 The Good, The Bad And The Ugly - Lessons From The Field\nJoin us for great networking, dinner and drinks, and see a presentation by **Peter Morin**, Principal, National Cyber Security Leader, **Grant Thornton LLP**\n\n**ABSTRACT**: Ensuring that the products and services we build, and deliver are as threat resistant as possible is extremely important today. Meeting this challenge is not just about building secure applications since we all know that rapid development of software as well as the evolution of threats and vulnerabilities can see our applications as secure today but vulnerable tomorrow. That is why having an established product security team and response capability is extremely important.\nDuring this discussion, I will discuss, using real-world examples, including that of my own, how organizations can meet the demands of product security including:\n\n* Building a culture of security within your organization beyond firewalls and anti-virus\n* How to \u201csell\u201d security to executive management and explaining what product security does and doesn\u2019t do (e.g., staffing, budgets, etc.)\n* Building and deploying software using the \"DevOps\" approach, while maintaining a high level of security\n* Difficulties of wearing multiple hats, with security being one of them\n* Embedding \u201csecurity\u201d in the software development life cycle (SDLC)\n* Establishing a proper security \u201cresponse\u201d program\n* Product vulnerability transparency and developing a disclosure policy\n* How to measure the success of your program\n* Establishing a bug bounty program\n\n**THANKS to OUR SPONSOR**: *[DevOcean](https://www.devocean.security)*\n*DevOcean Unified Remediation Platform\u2122, a Gartner Cool Vendor, helps organizations cut the time, backlog, and manual effort needed to fix issues and manage threat exposure. Going beyond traditional methods, DevOcean enables security, dev and devops teams to collaborate efficiently without the usual pain and friction of day-to-day operations. Our powerful workflow automation engine leverages the unique context of cloud-to-code root cause analysis and ownership association to deliver a highly accurate remediation solution that drives resolution at scale.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
-    },
-    {
         "group": "Maine",
         "repo": "www-chapter-maine",
         "name": "OWASP Maine: May Meetup (Speaker TBA)",
@@ -248,6 +208,16 @@
         "link": "https://www.meetup.com/owasp-maine/events/300520813",
         "timezone": "America/New_York",
         "description": "Mark your calendars, for our next meetup! We will be editing this shortly with the speaker info and topic!"
+    },
+    {
+        "group": "Mugla University",
+        "repo": "www-chapter-mugla-university",
+        "name": "Coffee Talk",
+        "date": "2024-04-25",
+        "time": "19:00+03:00",
+        "link": "https://www.meetup.com/owasp-mugla-university-student-chapter/events/300611684",
+        "timezone": "Europe/Istanbul",
+        "description": " OWASP Mugla University & MSKU Siber G\u00fcvenlik toplulu\u011fu olarak bir coffee talk ile daha sizlerleyiz.\n\n Siber Vatan Program\u0131 E\u011fitmenlerinden H\u00fcseyin Selim S\u00fcrmelihindi bizlerle...\n\u2049 Merak ettiklerinizi sormak, yeni \u015feyler \u00f6\u011frenmek ve network edinmek isteyen herkesi kahve e\u015fli\u011finde sohbete davet ediyoruz."
     },
     {
         "group": "Nashville",
@@ -382,22 +352,22 @@
     {
         "group": "Stockholm",
         "repo": "www-chapter-stockholm",
-        "name": "OWASP Stockholm -Security Game Night @ Detectify",
+        "name": "OWASP Stockholm - The EU Cyber Resilience Act and why the SBOM is so important",
+        "date": "2024-05-21",
+        "time": "17:30+02:00",
+        "link": "https://www.meetup.com/owasp-stockholm/events/300469641",
+        "timezone": "Europe/Stockholm",
+        "description": "EU is about to become a market leader in software cybersecurity regulation. With a large set of proposed and active laws, software development will be regulated like never before.\n\nWith the coming EU Cyber Resilience Act (CRA) all software and embedded systems will have to get a CE mark, which is now expanded to include cybersecurity aspects. It\u2019s going to be a huge change and will mean that the manufacturers (and in some cases importers) will get responsibility for the user\u2019s security and will have to provide free security patches for the lifetime of the product. Software developers will have to learn secure coding and the need for cyber security professionals will be very high.\n\nOne of the focus areas is vulnerability management. To keep a product secure during its lifetime, all 3rd party components will have to be monitored and up to date. At the heart of this process is the Software Bill of Materials, SBOM, which is used to monitor for known vulnerabilities in both Open Source and commercial components. The OWASP CycloneDX project fits right in and have been working with various kinds of bill-of-materials for a long time. CycloneDX is in the process of becoming an ECMA standard and thus fits better in to the EU regulation.\n\nIn this talk Olle E. Johansson will introduce the proposed EU CRA legislation and talk about the SBOM with a focus on the toolchain needed to manage vulnerabilities.\n\nWe will start the evening with a mingle at 17:30 followed by a presentation that will start at 18:00. The talk will be around 1 hour long followed by a further mingle/time for questions and answers.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcoming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
+    },
+    {
+        "group": "Stockholm",
+        "repo": "www-chapter-stockholm",
+        "name": "OWASP Stockholm - Security Game Night @ Detectify",
         "date": "2024-05-02",
         "time": "17:30+02:00",
         "link": "https://www.meetup.com/owasp-stockholm/events/300467215",
         "timezone": "Europe/Stockholm",
         "description": "It's board game night, for anyone interested in both board games & security!\n\nThe meetup will start with a mingle with snacks and refreshments at 17:30. The actual gaming will begin at 19:00 and the main presentation will begin at 18:00.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcoming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter ](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\n\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
-    },
-    {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "OWASP Stockholm - TruffleHog Disclosure @ Omegapoint",
-        "date": "2024-04-24",
-        "time": "17:30+02:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/299767743",
-        "timezone": "Europe/Stockholm",
-        "description": "Welcome to another OWASP Stockholm event! This time we will be visiting Omegapoint!\n\nThe meetup will start with a mingle with food and drinks at 17:30 and the main presentation will begin at 18:00.\n\n***18:00 TruffleHog Security Issue Disclosure - Helena Rosenzweig***\nThis presentation covers a set of security issues in TruffleHog, an open source, automated security tool that scans code repositories and configuration files for active secrets. The session provides a detailed walkthrough with several live demos, showing how the tool can be exploited to remotely harvest credentials from anyone running a default installation of TruffleHog v3. This presentation is part of a coordinated disclosure together with Truffle Security, the team behind TruffleHog.\n\n**Location**: Vasagatan 16, 111 20 Stockholm\nTime: April 24th, 17.30 \u2013 21.00\nLighter food & drinks will be served.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcomming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
     },
     {
         "group": "Switzerland",
@@ -428,25 +398,5 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516396",
         "timezone": "America/Vancouver",
         "description": "**Ensuring Application Security Excellence in the Age of AI** with Michael Argast\n\nIn a time where artificial intelligence (AI) permeates every facet of digital existence, the imperative to ensure application security has reached unprecedented heights. In this talk, Michael Argast, Co-founder and CEO of Kobalt.io will delve into the essential strategies for ensuring application security excellence amidst the pervasive influence of AI. By exploring the intricate interplay between AI and cybersecurity, you will gain insights into how AI augments defensive strategies, mitigates vulnerabilities, and addresses emerging threats within application environments. Through real-world case studies and practical recommendations, this session equips you with the knowledge and tools needed to leverage AI effectively in the face of evolving challenges.\n\n**Michael** is an experienced cybersecurity professional with over 20 years of industry experience. He is the co-founder and CEO of Kobalt.io, a rapidly growing cloud-focused security services provider. Kobalt.io works with over 200 cloud-focused technology companies to help develop their cyber security programs and ensure the security of their organization.\n\nWe would like to thank **Microsoft** for sponsoring this event."
-    },
-    {
-        "group": "Vitoria",
-        "repo": "www-chapter-vitoria",
-        "name": "Seguran\u00e7a Digital: Navegando com Confian\u00e7a em um Mundo de Cyber Fraudes",
-        "date": "2024-04-24",
-        "time": "19:30-03:00",
-        "link": "https://www.meetup.com/owasp-capixaba/events/300441132",
-        "timezone": "America/Sao_Paulo",
-        "description": "Palestrante: Andr\u00e9 Vidal\nTema: Seguran\u00e7a Digital: Navegando com Confian\u00e7a em um Mundo de Cyber Fraudes\nData: 24/04/2024 \u00e0s 19:30"
-    },
-    {
-        "group": "Wrongsecrets",
-        "repo": "www-project-wrongsecrets",
-        "name": "OWASP Frankfurt Chapter #65 - Data Centricity and Securing AI",
-        "date": "2024-04-24",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-frankfurt/events/299501950",
-        "timezone": "Europe/Berlin",
-        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #65! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\n\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\n\n**1\\. Talk:** **Data Centricity for Cloud and Application Security**\n\n*Prof. Dr. Igor Podebrad, Director CISO Office, Google Cloud*\n\nIgor's talk will demystify data-centricity as a key driver for robust application and cloud security. He'll contrast the shift to data-centricity focus how it underpins cloud, AI and supports sound risk decisions. He will also discuss how this shift is reshaping security and resilience in for digital transformation. Igor is currently a Director at Google Cloud's Office of the CISO and a former Group CISO at Commerzbank AG. He holds a PhD in Medical Care Logistics from the University of Berlin.\n\n**2\\. Talk: Securing GenAI Applications on Cloud: Three pronged approach**\n\n*Hari Hayagreevan, Technical Leader \u2013 AI Security, IBM Consulting DACH*\n\nThe convergence of Generative Artificial Intelligence (Gen AI) with cybersecurity introduces a spectrum of challenges and prospects. To embrace Gen AI extensively within enterprise contexts, it's imperative for these AI systems to be devoid of vulnerabilities in their application and infrastructure. This necessitates a holistic approach to securing Gen AI platforms. In this session, Hari will take you through the different viewpoints, offering insights from an Enterprise Security Architect\u2019s perspective, with practical enterprise scenarios. Hari is Enterprise Security Architect and currently is the Technical Leader for IBM Consulting\u2019s GenAI Security practice in DACH. He started his career as Cybersecurity incident responder (SOC Analyst) 18 years ago and now advises Enterprise CISOs and Security Architecture teams on adopting security principles for preventing cyber attacks.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**. For everyone who's interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n_When?\nOur Meetup takes place on 24.04.2024 from 18.00 to 21.30 o'clock CEST.\n\n_Where?\ncodecentric AG, Lise-Meitner-Stra\u00dfe 4, 60486 Frankfurt am Main\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us here and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\n\nWe're looking forward to seeing you at our event!"
     }
 ]
