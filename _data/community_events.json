@@ -40,16 +40,6 @@
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nIf you would like to attend in person, please pull a ticket from [Eventbrite ](https://www.eventbrite.com/e/owasp-austin-chapter-monthly-meeting-april-2024-group-2-tickets-882900538277). Please only pull a ticket from Eventbrite if you are planning on attending, as we purchase food for in-person meeting and don't want to waste both donations and food (and canceling a ticket the day of still has food already purchased.)\n\nAgenda:\n11:30-12 -- Room Opens, food is available and in-room discussions\n12-12:05 -- Chapter/OWASP info presentation\n12:05-1 -- Speaker Presentation\n\n**Presentation: The Truman Show: Real-world application attacks instead of canned demos**\nIn this presentation, Kevin Johnson of Secure Ideas will walk attendees through various scenarios used in penetration testing of applications. These demonstrations will use real attacks and discuss how a penetration tester views applications. This talk will explain the mindset of an attacker, using actual applications as well as demonstration apps to allow for exploitation.\n\n**Speaker: Kevin Johnson**"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
-        "date": "2024-04-25",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/299536957",
-        "timezone": "America/Chicago",
-        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
-    },
-    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "OWASP Bangalore Meet 27 April 2024",
@@ -120,16 +110,6 @@
         "description": "Welcome from OWASP Birmingham our first Meetup of 2024\n\nOnce again we'll be @Hays at One Colmore Square Thursday 23rd May for two great Infosec talks\n\nWatch this space, more details to come! Looking forward to another oppotunity to connect around Cybersecurity with lots of interesting folks from all over the Midlands"
     },
     {
-        "group": "Colorado Springs",
-        "repo": "www-chapter-colorado-springs",
-        "name": "OWASP CoS April 2024",
-        "date": "2024-04-25",
-        "time": "18:00-06:00",
-        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/300235874",
-        "timezone": "America/Denver",
-        "description": "Speaker: Stu Gentry; Intro to Software Reverse Engineering\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
-    },
-    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "OWASP Top 10 for Large Language Model Applications",
@@ -140,16 +120,6 @@
         "description": "The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs). The project provides a list of the top 10 most critical vulnerabilities often seen in LLM applications, highlighting their potential impact, ease of exploitation, and prevalence in real-world applications. Examples of vulnerabilities include prompt injections, data leakage, inadequate sandboxing, and unauthorized code execution, among others. The goal is to raise awareness of these vulnerabilities, suggest remediation strategies, and ultimately improve the security posture of LLM applications."
     },
     {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Paris - Avril 2024",
-        "date": "2024-04-25",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-france/events/300284708",
-        "timezone": "Europe/Paris",
-        "description": "Ce meetup se deroulera chez **PADOK** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
-    },
-    {
         "group": "Israel",
         "repo": "www-chapter-israel",
         "name": "OWASP IL Meetup - May 2024",
@@ -157,7 +127,7 @@
         "time": "18:00+03:00",
         "link": "https://www.meetup.com/owasp-israel/events/300284832",
         "timezone": "Asia/Jerusalem",
-        "description": " OWASP IL  is excited to welcome you to our latest Meetup event! \nPrepare to dive into the world of AppSec with an evening filled with engaging security topics, networking, and of course, plenty of food and drinks.\n\nThis time, we're delighted to have Playtika host our gathering!\n\n====================================================================\n\nAgenda:\nTBD\n\n=====================================================================\n\nThis event is hosted by Playtika in collaboration with OWASP Israel.\n\nJoin us at the event physically as we will not include Zoom or remote participation this time."
+        "description": " OWASP IL  is excited to welcome you to our latest Meetup event! \nPrepare to dive into the world of AppSec with an evening filled with engaging security topics, networking, and of course, plenty of food and drinks.\n\nThis time, we're delighted to have Playtika host our gathering!\n\n====================================================================\n\n**Agenda**:\n 18:00 - 18:30 - gathering and food - We will gather at Playtika's Cafe for drinks, great treats, and mingling.\n\n 18:30 - 18:45 - Keynote + Microphone tuning\n\n 18:45 to 19:30 - Surviving The Jungle of SCA\nRaz Rosh - Product Security Engineer and DevSecOps Expert @ Playtika\nThis presentation is tailored for developers, security professionals, and anyone interested in advancing the security and efficiency of integrating open-source and third-party components into software projects. It will delve into the vital practices of identifying, analyzing, and managing third-party dependencies to mitigate risks and ensure compliance. Attendees will discover how to integrate Software Composition Analysis (SCA) tools into the CI/CD pipeline, address common challenges such as false positives and performance overhead, and deploy strategies to minimize alert noise and prioritize vulnerabilities efficiently. The aim is to streamline the SCA process, making it a seamless component of the development lifecycle and empowering participants to significantly bolster their software security posture. Join us to transform SCA from a daunting task into a manageable and integral part of your DevSecOps practices.\n\n 19:30 to 20:15 \\- Malvertising \\| tactics\\, techniques\\, and procedures \\(TTP\\) implemented in auto redirect attack\nLiran Lavi - Security Research Team Leader @ GeoEdge\nMalvertising, a fresh cyberattack tactic, entails embedding malicious code into digital advertisements. This insidious technique poses challenges for both internet users and publishers, as the infected ads are often spread through reputable advertising networks. Given that ads are visible to all website visitors and often contain many security misconfigurations, virtually every page viewer faces the threat of infection.\n\n 20:15 - 20:45 - Understanding Prompt Injection Attacks in Generative AI\nAviv Avraham Levy - Senior Security Researcher @ F5 Networks\nThis presentation provides an in-depth look at Generative AI and Large Language Models (LLMs), focusing on the mechanics of prompt injection attacks. It highlights various types of prompt injections and showcases real-world scenarios to illustrate how these vulnerabilities can be exploited. The session includes demonstrations of prompt injection attacks in action and concludes with an overview of potential mitigation strategies.\n\n=====================================================================\n\nThis event is hosted by Playtika in collaboration with OWASP Israel.\n\nJoin us at the event physically as we will not include Zoom or remote participation this time."
     },
     {
         "group": "Jacksonville",
@@ -210,16 +180,6 @@
         "description": "Mark your calendars, for our next meetup! We will be editing this shortly with the speaker info and topic!"
     },
     {
-        "group": "Mugla University",
-        "repo": "www-chapter-mugla-university",
-        "name": "Coffee Talk",
-        "date": "2024-04-25",
-        "time": "19:00+03:00",
-        "link": "https://www.meetup.com/owasp-mugla-university-student-chapter/events/300611684",
-        "timezone": "Europe/Istanbul",
-        "description": " OWASP Mugla University & MSKU Siber G\u00fcvenlik toplulu\u011fu olarak bir coffee talk ile daha sizlerleyiz.\n\n Siber Vatan Program\u0131 E\u011fitmenlerinden H\u00fcseyin Selim S\u00fcrmelihindi bizlerle...\n\u2049 Merak ettiklerinizi sormak, yeni \u015feyler \u00f6\u011frenmek ve network edinmek isteyen herkesi kahve e\u015fli\u011finde sohbete davet ediyoruz."
-    },
-    {
         "group": "Nashville",
         "repo": "www-chapter-nashville",
         "name": "Supply Chain Security with Dan Lorenc, CEO Chainguard",
@@ -240,6 +200,16 @@
         "description": "This session will delve into the Cyber Kill Chain, a foundational framework for comprehending cyberattacks. We'll explore how attackers operate and empower ourselves to build targeted defenses. While a valuable tool, we'll also discuss the Kill Chain's limitations and the evolving nature of attacker tactics."
     },
     {
+        "group": "Natal",
+        "repo": "www-chapter-natal",
+        "name": "Meetup OWASP Natal - An\u00e1lise de um incidente envolvendo o LockBit builder",
+        "date": "2024-04-29",
+        "time": "21:00-03:00",
+        "link": "https://www.meetup.com/owasp-natal-chapter/events/300638055",
+        "timezone": "America/Fortaleza",
+        "description": "Voc\u00ea est\u00e1 preparado para mergulhar no mundo da ciberseguran\u00e7a e desvendar os segredos por tr\u00e1s de um incidente envolvendo o LockBit Builder? N\u00e3o perca o evento imperd\u00edvel do chapter da OWASP Natal!\n\nData: 29 de maio\nHor\u00e1rio: 21h\n\nAprenda com um dos melhores! Junte-se a n\u00f3s para uma sess\u00e3o online envolvente e informativa, onde o especialista Cristian Souza ir\u00e1 compartilhar insights valiosos sobre a an\u00e1lise de um incidente envolvendo o LockBit Builder. Esta \u00e9 uma oportunidade \u00fanica para expandir seu conhecimento e aprimorar suas habilidades no campo da ciberseguran\u00e7a.\n\nMarque esta data em sua agenda e convide seus colegas e amigos para se juntarem a n\u00f3s nesta jornada fascinante!\n\nN\u00e3o perca esta chance de aprimorar suas habilidades e ficar um passo \u00e0 frente no mundo da seguran\u00e7a cibern\u00e9tica. Esperamos v\u00ea-lo l\u00e1!"
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP New Zealand - Auckland Meetup",
@@ -250,16 +220,6 @@
         "description": "We've resumed our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for May will be **A02:2021 - Cryptographic Failures**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Workshop: Vulnerability Reachability Analysis Using OSS Tools",
-        "date": "2024-04-25",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/300191397",
-        "timezone": "America/Los_Angeles",
-        "description": "# Vulnerability Reachability Analysis Using OSS Tools\n\n**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on April 22nd, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Live Stream**\nStream us live on Twitch: http://twitch.tv/owaspoc\n*Please change your RSVP to \"No\" if you can't make it and will join via livestream instead.*\n\n**Abstract**\nNew vulnerabilities are disclosed every day in dependencies that you or your team may be using. But how do you know if you are actually using the vulnerable code? This talk will show you how to use two different types of tools to analyze reachability \u2013 deciding if the vulnerability needs to be prioritized based on your own code usage.\n\n**Workshop Overview:**\nThe workshop will be broken into several modules; introductory modules will cover the workshop organization and administrative matters (installing and configuring the tools used in the workshop). Subsequent modules will give an outline of what vulnerability reachability is and why it is important and compare/contrast the two main ways of understanding reachability (static call graphs and runtime analysis).\n\nNext, the workshop will present two short exercises, intended for the attendees to gain hands-on experience using both types of tools against real applications with real vulnerabilities. Interpreted languages (Java) and compiled languages (C/C++/Go) will be covered. Subsequently, the following module will walk through how to interpret the results obtained from the exercises and draw conclusions. The languages chosen are merely representative; the skills learned in the workshop are equally applicable to other languages.\n\nThe workshop will conclude with two modules which will present a short overview of commercial tools and a conclusion/wrap-up/Q&A session.\n\n**Workshop Outline:**\nI. Overview (10 minutes)\nA. Workshop organization\nB. About the tools and sample applications\n\n1. What are the tools and applications we are going to use?\n\nC. Obtaining/installing the tools and sample applications\n2\\. Cloning from the github repo\n\nD. Goals of the workshop (what you will learn)\n3\\. Be able to understand the importance of vulnerability\nreachability and how it helps prioritize remediation strategy\n\n4\\. Become familiar with some of the tools available to help with\nvulnerability reachability\n\n5\\. Learn where you can reach out to for more help in these areas\nafter the completion of the workshop\n\nII. Types of reachability analysis (10 minutes)\nA. Static analysis / call graphs\n6\\. What is a call graph?\n7\\. What information does a call graph provide to you\n\nB. Runtime analysis\nC. Language and environment considerations\n8\\. Things to consider when choosing a reachability analysis\nsolution\na. Types of applications being analyzed (COTS vs self-written)\nb. Availability of source code\nc. Robustness of test environment\nIII. Static call graph analysis exercise (20 minutes)\nA. Using static call graph analysis in IntelliJ/Eclipse to analyze a\nJava application\nB. Using Go callgraph to analyze a Go application\nC. How to correlate a call graph with an SBOM\nIV. Dynamic/runtime analysis exercise (20 minutes)\nA. Using a Java agent to analyze runtime reachability in a running\nJava application\nB. Using valgrind/KCacheGrind to analyze a running C/C++ application\nC. How to correlate runtime analysis with an SBOM\n\nV. Results comparison (10 minutes)\nA. Using the results of each exercise to determine if vulnerable\ncode was used\n\n1. How to use the output of each tool to understand what\n\nvulnerabilities need to be prioritized\nB. Benefits and limitations of each approach\n\nVI. Conclusion & Q&A (20 minutes)\n\n**Schedule:**\n6:00pm - 6:30pm Networking, Food & Drinks\n6:30pm - 8:00pm Presentation"
-    },
-    {
         "group": "Oslo",
         "repo": "www-chapter-oslo",
         "name": "OWASP Oslo Chapter meetup",
@@ -268,16 +228,6 @@
         "link": "https://www.meetup.com/owasp-oslo/events/300368216",
         "timezone": "Europe/Oslo",
         "description": "Big thanks to NAV for sponsoring this event!\n\n* **17:00-17:15 Food**\n* **17:15-18:00 Finding a three 0-day exploit chain in Ivanti EPMM and Ivanti Sentry,** Tor E. Bj\u00f8rstad and Erlend Leiknes, mnemonic\n* **18:15-19:00 Testing race conditions has never been faster,** Sofia Lindqvist, Binary Security\n\n**Finding a three 0-day exploit chain in Ivanti EPMM and Ivanti Sentry**\nDuring the summer of 2023, a team at mnemonic discovered three 0-day vulnerabilities in Ivanti Endpoint Protection Manager Mobile (EPMM, formerly known as Mobileiron Core) and Ivanti Sentry.\n\n* CVE-2023-35078: authentication bypass in Ivanti EPMM, CVSS 9.8\n* CVE-2023-35081: path traversal / arbitrary file write in Ivanti EPMM, CVSS 7.2\n* CVE-2023-38035: authentication bypass in Ivanti Sentry, CVSS 9.8, allowing command execution as root.\n\nAll three vulnerabilities are listed in CISA's Known Exploited Vulnerabilities catalog, as they are known to have been exploited by threat actors in the wild. Ivanti has also confirmed that the vulnerabilities can be combined in an exploit chain.\nIn this talk we'll take a closer look at what actually happened.\n\n**Speakers**\n\n* **Tor E. Bj\u00f8rstad** has spent his entire career in security and privacy. For the last decade he has worked as a principal security consultant at mnemonic, based in Oslo. He has mainly focused on software security and security architecture, with a particular interest in society-critical infrastructure. Tor holds a Ph.d. in cryptography from the University of Bergen.\n* **Erlend Leiknes**, a security consultant at mnemonic as, Oslo, spends his days as a penetration tester. His professional motto is that most vulnerabilities are obvious, the endeavor is to look at the right places. Erlend holds a master's degree in technical societal safety from University of Stavanger.\n\n**TESTING RACE CONDITIONS HAS NEVER BEEN FASTER**\n\nHistorically, testing for race condition vulnerabilities in web apps has been a painful ordeal, likely making race conditions an under-explored attack vector. In the summer of 2023, groundbreaking research by James Kettle completely changed the game, suddenly making it much easier for pentesters (and attackers) to test for this type of vulnerability. In this talk I will show how race conditions work, how to test for them and how to protect against them, based off an example vulnerability I found during a recent pentest.\n\n**Speaker**\n\n**Sofia Lindqvist**, security specialist, Binary Security\n\nSofia works as a security specialist at Binary Security. She started her career with a PhD in pure maths, followed by three years at Cisco developing one of their networking OSs. She eventually made her way into security testing, which she has been doing for a year and a half."
-    },
-    {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Monthly Networking Social",
-        "date": "2024-04-25",
-        "time": "19:00+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/300080531",
-        "timezone": "Europe/London",
-        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
         "group": "Phoenix",
@@ -300,26 +250,6 @@
         "description": "Mark your calendars, for our next meetup! We will be editing this shortly with the speaker info and topic!"
     },
     {
-        "group": "Porto Alegre",
-        "repo": "www-chapter-porto-alegre",
-        "name": "OWASP Chapter POA - Encontro 014 [ONLINE]",
-        "date": "2024-04-25",
-        "time": "19:30-03:00",
-        "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/300369000",
-        "timezone": "America/Sao_Paulo",
-        "description": "Em setembro teremos o nosso pr\u00f3ximo encontro, ser\u00e1 no dia 25/04 (quinta-feira), a partir das 19h30, online em nosso canal do YouTube.\n\n**Link para a transmiss\u00e3o:** https://www.youtube.com/watch?v=4ZxnGWUiunQ\n\n**Confira nossa agenda:**\n\n**19h30-20h30**\n**\"A necessidade de seguran\u00e7a nos seus produtos\"**\n\nNesta palestra, abordaremos a import\u00e2ncia cr\u00edtica da seguran\u00e7a de produtos. Com a crescente complexidade dos produtos e a evolu\u00e7\u00e3o das regulamenta\u00e7\u00f5es globais, garantir a seguran\u00e7a tornou-se um desafio multifacetado para empresas de todos os tamanhos e setores, vamos ver como podemos garantir a seguran\u00e7a dos seus produtos utilizando boas pr\u00e1ticas de desenvolvimento seguro e testes de seguran\u00e7a.\n\n**Palestrante:** Joas A Santos (Offensive Security Engineer na Unico IdTech)\n\nJoas A Santos \u00e9 engenheiro de seguran\u00e7a ofensiva na Unico IdTech, Autor de livros sobre Seguran\u00e7a Ofensiva e Pesquisador de Seguran\u00e7a nas horas vagas."
-    },
-    {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "OWASP-SLC / Wasatch AppSec -April Meetup (In person) @HealthEquity",
-        "date": "2024-04-25",
-        "time": "12:00-06:00",
-        "link": "https://www.meetup.com/owasp-slc/events/300281702",
-        "timezone": "America/Denver",
-        "description": "**Agenda**:\n\n1. Introductions / Lunch\n2. Topic of Discussion: Book Club: \"[9 Lies about Work](https://www.amazon.com/Nine-Lies-about-Work-Freethinking-ebook/dp/B07C3ZT28C)\" through the lens of working in AppSec.\n3. Q&A\n\nCome join us for a lunch meetup at the Health Equity building in Draper, UT.\nCasual meetup, anyone interested in Application Security is welcome to attend. Please RSVP. We'll discuss the [book](https://www.amazon.com/Nine-Lies-about-Work-Freethinking-ebook/dp/B07C3ZT28C) in the context of how to support an organization's software security program.\n\nSee you there!"
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -328,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/300238774",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Seattle Cyber Mixers | Inaugural Mixer",
-        "date": "2024-04-25",
-        "time": "17:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/299560512",
-        "timezone": "America/Los_Angeles",
-        "description": "**J**oin us for the inaugural Seattle Cyber Mixers brought to you by the leading local security non-profit organizations and sponsored by [Archer](https://www.archerirm.com/). These new series are designed to offer more informal connection opportunities for the cybersecurity community of the Greater Seattle area.\n\nWe're kicking off a casual, low-key gathering where local security professionals can connect and unwind in an informal low-pressure setting. As the first of many, we plan to host these mixers at various locations, rotating based on your feedback. Our aim is to cultivate a regular cadence, potentially monthly or bimonthly, evolving with the community's interest.\n\nAny questions or suggestions, message the [OWASP Seattle Chapter](https://www.linkedin.com/company/owasp-seattle-chapter/) or contact [Eva Benn](https://www.linkedin.com/in/evabenn/)."
     },
     {
         "group": "Singapore",
