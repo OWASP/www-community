@@ -12,22 +12,12 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
-        "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
-        "date": "2024-05-09",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/299536968",
-        "timezone": "America/Chicago",
-        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
+        "name": "Study Group: \u201cAI study group\"",
         "date": "2024-05-02",
         "time": "12:00-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/299536962",
         "timezone": "America/Chicago",
-        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
+        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\n**When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/).\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
     },
     {
         "group": "Austin",
@@ -48,16 +38,6 @@
         "link": "https://www.meetup.com/owasp-bangalore-chapter/events/300066541",
         "timezone": "Asia/Kolkata",
         "description": "Bangalore Meet 27 April 2024 Null/OWASP Combined Meet\n\nOWASP meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n#### Proposed sessions for this event:\n\n* CTF Solvings for OSCP Aspirants by **SATHIYANARAYANA S**\n* Firmware diffing to Nday exploits by **IamAlch3mist**\n* Wannacry : Behind The Scenes by **Abhay Naik (Abhay Vox)**\n* Threat Intel by **Ashwin Maganahalli**\n* Shielding Cloud Buckets by **Pradeep Bhat**\n*\n\nNote: The session details, including schedule are available below."
-    },
-    {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "Hacker Days:- The Anatomy of a Breach : Lessons from common mistakes",
-        "date": "2024-04-26",
-        "time": "17:00-07:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/300344553",
-        "timezone": "America/Los_Angeles",
-        "description": "Hello...Are you ready to dive into world of enterprise security ?. Join us for an exciting Hacker Days, where we'll explore some of the Information Security essential requirements and it's a shared responsibility to protect systems and data. In this workshop, we will play roles of Developer/End-user/Security Engineer and explore various common mistakes which lead to critical security issues. We will also discuss the best practices for preventing such attacks.\n\nThank you very much to Endor Labs for gracious providing us the venue and Levo.ai - the guardians of the API galaxy! for sponsoring the food and drinks.\nThis event is in partnership pacific hackers community https://www.pacifichackers.org/\n\nWorkshop outline:\n\n\\* Overview\n\\- Introduction: Responsibilities of different roles\\.\n\\- Demo application walkthrough: A custom \\.net web application and a mobile app\\.\n\\- Tools: BurpSuite\\, Wireshark\\, ApkTool\n\\* Developer mistakes: Various mistakes done by developers will be explained along with the impact and how to identify and prevent them.\n\\- Hardcoded Secrets\n\\- Login Credentials\n\\- Lack of Awareness\n\\- Security Misconfiguration\n\\* End-user mistakes: As end-users, one can be a victim of cyber attack due to simple mistakes. Let's explore scenarios with live demo.\n\\- Wi\\-Fi Attack\n\\- Offer and Freebies\n\\* Security Engineer mistakes: Security engineers are responsible for detecting vulnerabilities and recommending fixes. But we are also human being and can commit mistakes which can lead to attacks.\n\\- Misusing available tools\n\\- Lack of scoping\n\\- Few OWASP top 10 vulnerability demo\n\\* Closing Note\n\\* Q&A\n\nSpeaker Details:\nName: Sarwar Jahan M\nLinkedin: [https://www.linkedin.com/in/sarwarjahanm/](https://www.linkedin.com/in/sarwarjahanm/)\nBio: Sarwar Jahan is currently working as a Senior Enterprise Security Engineer, who worked at tech giants like Synopsys, Microsoft and Salesforce. He has 10+ years of experience and was ranked among top ethical hackers globally. He is passionate about sharing knowledge with the community and running a non-profit initiative called InfoSecCamp to spread security awareness among people by conducting Boot Camps.("
     },
     {
         "group": "Beja",
@@ -92,7 +72,7 @@
     {
         "group": "Bhopal",
         "repo": "www-chapter-bhopal",
-        "name": "Web Security 101: Safeguarding Your Digital Footprint",
+        "name": "Revisiting Cyber Security & 101 with ML ",
         "date": "2024-04-28",
         "time": "10:30+05:30",
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/300502194",
@@ -210,6 +190,16 @@
         "description": "Voc\u00ea est\u00e1 preparado para mergulhar no mundo da ciberseguran\u00e7a e desvendar os segredos por tr\u00e1s de um incidente envolvendo o LockBit Builder? N\u00e3o perca o evento imperd\u00edvel do chapter da OWASP Natal!\n\nData: 29 de maio\nHor\u00e1rio: 21h\n\nAprenda com um dos melhores! Junte-se a n\u00f3s para uma sess\u00e3o online envolvente e informativa, onde o especialista Cristian Souza ir\u00e1 compartilhar insights valiosos sobre a an\u00e1lise de um incidente envolvendo o LockBit Builder. Esta \u00e9 uma oportunidade \u00fanica para expandir seu conhecimento e aprimorar suas habilidades no campo da ciberseguran\u00e7a.\n\nMarque esta data em sua agenda e convide seus colegas e amigos para se juntarem a n\u00f3s nesta jornada fascinante!\n\nN\u00e3o perca esta chance de aprimorar suas habilidades e ficar um passo \u00e0 frente no mundo da seguran\u00e7a cibern\u00e9tica. Esperamos v\u00ea-lo l\u00e1!"
     },
     {
+        "group": "Netherlands",
+        "repo": "www-chapter-netherlands",
+        "name": "CyberBooked 2024",
+        "date": "2024-05-23",
+        "time": "17:00+02:00",
+        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/300656600",
+        "timezone": "Europe/Amsterdam",
+        "description": "### **Book your ticket now as seats are limited!**\n\nCyber Booked is a one of a kind physical CyberSecurity event, featuring both recently published and more well-known CyberSecurity books. The authors will share the latest insights from their books and you will have the opportunity to ask them questions about their books. During the break and drinks you can meet & greet with the authors and maybe even get your book signed!\n\nThis event is a joint event organised by the Dutch chapters of OWASP along with ISACA, ISC2 and the Secure Software Alliance (SSA).\nThe event is free of charge and CPE certificates will be issued from ISACA and ISC2. The event will be presented in English.\n\nPlease use the link below to register for the event with you full and correct information as this information will be used to process your CPE points.\n\nhttps://isaca.nl/events/cyber-booked-2024/"
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP New Zealand - Auckland Meetup",
@@ -252,12 +242,12 @@
     {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
+        "name": "Seattle OWASP Chapter Talk: So you want a career in Security?",
         "date": "2024-05-08",
         "time": "12:00-07:00",
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/300238774",
         "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+        "description": "This is really 2 talks, the first:\n\n**So you want a career in Security?**\n\nLet\u2019s talk about the different career options in the vast security field, how to prepare and gain\nthe necessary skills in order to break in and succeed. Hopefully this will help you focus on a\nparticular area of the security field that best matches your interests and skills.\n\nFollowed up with my personal journey:\n\n**My job hunt journey (Nov 2023-Feb 2024)**\nThis is mostly related around what I had to do in order to land the job, self promotion,\nnetworking, applying, preparing, etc.\nThis is going to be a short presentation with hopefully lots of interactions and Q&A.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Singapore",
@@ -298,16 +288,6 @@
         "link": "https://www.meetup.com/owaspswitzerland/events/299507519",
         "timezone": "Europe/Zurich",
         "description": "Reliable data is inherently critical for application threat models. As threat modelling continues to proliferate across security programs, bad habits in feeding threat models with relevant data is becoming prevalent. This session will explore top 3 mistakes of \"data starvation/ gluttony\" with respect to application threat models and how to achieve a contextualized, balanced data diet.\n\nJoin this OWASP Switzerland event to learn more from Tony about threat modelling and how to make sure you use quality data in doing so."
-    },
-    {
-        "group": "Tunisia",
-        "repo": "www-chapter-tunisia",
-        "name": "AI: The New Attack Surface and Strategies for Securing It",
-        "date": "2024-04-26",
-        "time": "20:00+01:00",
-        "link": "https://www.meetup.com/owasp-tunis-meetup-group/events/300270789",
-        "timezone": "Africa/Tunis",
-        "description": "Welcome to OWASP Tunisia\n\nFollow us and Subscribe to our channel https://www.youtube.com/@owasptunisiachapter4108/streams\n\nJoin our OWASP Tunisia Community via Meetup : https://www.meetup.com/owasp-tunis-meetup-group/\n\nAn Exceptional episode with our Honorable guest Speaker ***Jeff Crume*** !\nSave the date 26 April 2024 at 8 pm(UTC+1) !\n\n***Jeff Crume*** *is an IBM Distinguished Engineer and Master Inventor with more than 40 years\u2019 experience in the IT industry. He has a PhD in Cybersecurity and also serves as an Adjunct Professor at NC State University. Jeff\u2019s YouTube videos have been viewed more than 3 million times and he is the author of a book entitled \"Inside Internet Security: What Hackers Don't Want You To Know\u201d as well as a contributing author to the \"Information Security Management Handbook.\u201d He is a member of the inaugural class of the NC State University Computer Science Alumni Hall of Fame and serves on the editorial board for the \u201cInformation and Computer Security\u201d research journal. Jeff lived in Beijing on assignment in 2006 and has worked with clients in 50 countries.*\n\n**Topic: *AI: The New Attack Surface and Strategies for Securing It***\n\n**Description:**\nArtificial Intelligence (AI) introduces novel security challenges, including adversarial attacks and model vulnerabilities. This session discusses proactive measures for bolstering AI by securing the data, the model, the usage and the infrastructure. In addition, six different types of AI attacks will be covered in order to provide a better understanding of the threatscape."
     },
     {
         "group": "Vancouver",
