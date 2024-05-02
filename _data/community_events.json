@@ -67,7 +67,7 @@
         "time": "18:00+01:00",
         "link": "https://www.meetup.com/meetup-group-owasp-birmingham/events/300370233",
         "timezone": "Europe/London",
-        "description": "Welcome from OWASP Birmingham our first Meetup of 2024\n\nOnce again we'll be @Hays at One Colmore Square Thursday 23rd May for two great Infosec talks\n\nWatch this space, more details to come! Looking forward to another oppotunity to connect around Cybersecurity with lots of interesting folks from all over the Midlands"
+        "description": "Welcome from OWASP Birmingham our first Meetup of 2024\n\nOnce again we'll be @Hays at One Colmore Square Thursday 23rd May for two great Infosec talks\n\n5.45pm - Doors open\n6.15pm - Welcome and Food\n6.30pm - \"**Post-Quantum Cryptography**\"\n\nSpeaker: Charlie Anglin\n\nSynopsis : Quantum computers are here and research is advancing every day. Boffins tell us that the rise of quantum computing will soon make our current encryption algorithms irrelevant. This talk aims to cover questions such as:\n\n\u00b7 What are the facts?\n\u00b7 What's being done to produce quantum-safe cryptography?\n\u00b7 What can we expect to happen in the next few years?\n\u00b7 What actions, if any, should we be taking?\n\nSpeaker Bio:\nCharlie is an engineer at Capgemini. He's spent the last 8 years in a number of roles, in particular as a security engineer and as a developer across multiple languages.\n\n7.15pm - Break\n7.30pm - \"**Practical Security Testing for E-Commerce and Payment Applications**\"\n\nSpeaker: Soroush Dalili\n\nSynopsis: This talk aims to deepen the audience's understanding of security challenges in e-commerce and payment applications and to introduce a practical testing methodology. We will detail specific vulnerabilities and demonstrate how to test for race conditions using tools like Burp Suite and Turbo Intruder. Additionally, if time permits, we will explore intriguing cases where simple arithmetic operations lead to unexpected security outcomes.\n\nSpeaker Bio:\nSoroush, the founder and director of SecProject, is a distinguished expert in web application security with over 15 years of experience specialising in vulnerability discovery, security source code review, and penetration testing. Before establishing his own company, he served as a principal security consultant at MDSec and NCC Group. He has contributed numerous security advisories to industry giants such as Microsoft, Mozilla, Adobe, Yahoo, and Facebook. Soroush's expertise has been showcased through speaking engagements at security conferences and events, including AppSec EU, SteelCon, BSides Manchester, and HackPra.\n\n8.15pm - Questions/Any Other Business\n8.30pm - Close\n\nRSVP when you get a chance so we can plan accordingly. We look forward to catching up with you all next month!"
     },
     {
         "group": "Brisbane",
@@ -160,16 +160,6 @@
         "description": "Join us for an informative and hands-on workshop on securing your software supply-chain. In this event, we will be joined by Dan Lorenc, CEO and founder of Chainguard Inc. We will have food, learning, swag and, of course, networking with other like-minded folks in the area.\n\nNote: This event is organized by the OWASP Nashville Chapter and is open to both OWASP members and non-members. Whether you are already a member or interested in becoming one, we encourage you to attend this event and learn more about the benefits of being part of the OWASP community."
     },
     {
-        "group": "Nashville",
-        "repo": "www-chapter-nashville",
-        "name": "Understanding the Cyber Kill Chain with Elizabeth Stephens",
-        "date": "2024-05-01",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-nashville-chapter/events/300316300",
-        "timezone": "America/Chicago",
-        "description": "This session will delve into the Cyber Kill Chain, a foundational framework for comprehending cyberattacks. We'll explore how attackers operate and empower ourselves to build targeted defenses. While a valuable tool, we'll also discuss the Kill Chain's limitations and the evolving nature of attacker tactics."
-    },
-    {
         "group": "Netherlands",
         "repo": "www-chapter-netherlands",
         "name": "CyberBooked 2024",
@@ -178,6 +168,16 @@
         "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/300656600",
         "timezone": "Europe/Amsterdam",
         "description": "### **Book your ticket now as seats are limited!**\n\nCyber Booked is a one of a kind physical CyberSecurity event, featuring both recently published and more well-known CyberSecurity books. The authors will share the latest insights from their books and you will have the opportunity to ask them questions about their books. During the break and drinks you can meet & greet with the authors and maybe even get your book signed!\n\nThis event is a joint event organised by the Dutch chapters of OWASP along with ISACA, ISC2 and the Secure Software Alliance (SSA).\nThe event is free of charge and CPE certificates will be issued from ISACA and ISC2. The event will be presented in English.\n\nPlease use the link below to register for the event with you full and correct information as this information will be used to process your CPE points.\n\nhttps://isaca.nl/events/cyber-booked-2024/"
+    },
+    {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "Come meet & learn AppSec 2.0 w/ Host Dell, Deepfactor & DTR.",
+        "date": "2024-05-15",
+        "time": "17:00-04:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/300763664",
+        "timezone": "America/New_York",
+        "description": "An OWASP NYC Chapter Meetup\nAppSec 2.0: Security without the NOISE\n\nAppSec: Best Practices Tools... PaaS, SBOM\u2019s, SCA and Runtime Security, let\u2019s have some fun!!!\n\nIntroductions By Dell Technologies Security Team\n\nSession 1: An intro to DTR. Founder & CEO, Adam de Delva will introduce his services and how they develop Platform-as-a-Service (PaaS) for cloud - native applications and security.\n\nSession 2: { deepfactor } (Hands-On Workshop)\nWorkshop Topic: Vulnerability Reachability Analysis Using OSS Tools.\nWorkshop Abstract: New vulnerabilities are disclosed every day in dependencies that you or your team may be using. But how do you know if you are actually using the vulnerable code? This talk will show you how to use two different types of tools to analyze reachability \u2013 deciding if the vulnerability needs to be prioritized based on your own code usage.\n\nDon't miss this opportunity to network with like-minded individuals in the field of cybersecurity, software security, and application security. Come share your experiences, ask questions, and connect with industry experts. This event is hosted by the OWASP New York City Chapter, known for organizing informative and interactive meetups that empower professionals to stay ahead of the ever-evolving cyber threats landscape. Grab a drink, network with peers, and enhance your knowledge of web application security."
     },
     {
         "group": "New Zealand",
@@ -302,11 +302,11 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "Ensuring Application Security Excellence in the Age of AI",
+        "name": "Ensuring Application Security Excellence in the Age of AI & CASA Framework",
         "date": "2024-05-16",
         "time": "18:00-07:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516396",
         "timezone": "America/Vancouver",
-        "description": "**Ensuring Application Security Excellence in the Age of AI** with Michael Argast\n\nIn a time where artificial intelligence (AI) permeates every facet of digital existence, the imperative to ensure application security has reached unprecedented heights. In this talk, Michael Argast, Co-founder and CEO of Kobalt.io will delve into the essential strategies for ensuring application security excellence amidst the pervasive influence of AI. By exploring the intricate interplay between AI and cybersecurity, you will gain insights into how AI augments defensive strategies, mitigates vulnerabilities, and addresses emerging threats within application environments. Through real-world case studies and practical recommendations, this session equips you with the knowledge and tools needed to leverage AI effectively in the face of evolving challenges.\n\n**Michael** is an experienced cybersecurity professional with over 20 years of industry experience. He is the co-founder and CEO of Kobalt.io, a rapidly growing cloud-focused security services provider. Kobalt.io works with over 200 cloud-focused technology companies to help develop their cyber security programs and ensure the security of their organization.\n\nWe would like to thank **Microsoft** for sponsoring this event."
+        "description": "**Ensuring Application Security Excellence in the Age of AI** with Michael Argast\n\nIn a time where artificial intelligence (AI) permeates every facet of digital existence, the imperative to ensure application security has reached unprecedented heights. In this talk, Michael Argast, Co-founder and CEO of Kobalt.io will delve into the essential strategies for ensuring application security excellence amidst the pervasive influence of AI. By exploring the intricate interplay between AI and cybersecurity, you will gain insights into how AI augments defensive strategies, mitigates vulnerabilities, and addresses emerging threats within application environments. Through real-world case studies and practical recommendations, this session equips you with the knowledge and tools needed to leverage AI effectively in the face of evolving challenges.\n\n**Michael** is an experienced cybersecurity professional with over 20 years of industry experience. He is the co-founder and CEO of Kobalt.io, a rapidly growing cloud-focused security services provider. Kobalt.io works with over 200 cloud-focused technology companies to help develop their cyber security programs and ensure the security of their organization.\n\n**Enhancing Cloud Application Security with the CASA Framework** with Farshad Abasi\n\nThis presentation will introduce the Cloud Application Security Assessment (CASA) framework, designed according to OWASP\u2019s ASVS standards to secure cloud-based applications. We will explore CASA's tiered risk-based assessment model that categorizes applications into different risk tiers and applies appropriate security verifications. This systematic approach helps in effectively managing security risks associated with cloud applications, aiming to protect consumer data and conform to best practices in cybersecurity.\n\nWe would like to thank **Microsoft** for sponsoring this event."
     }
 ]
