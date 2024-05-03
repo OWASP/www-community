@@ -1,5 +1,15 @@
 [
     {
+        "group": "Augsburg",
+        "repo": "www-chapter-augsburg",
+        "name": "2. OWASP Augsburg Stammtisch",
+        "date": "2024-05-29",
+        "time": "19:00+02:00",
+        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/300790684",
+        "timezone": "Europe/Berlin",
+        "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Agenda**\n\n* *Vortrag:* **<- WIR SUCHEN NOCH VORTRAGENDE!**\n* Austausch & Networking\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - May 2024 (Online)",
@@ -20,16 +30,6 @@
         "description": "**When:** Thursday, May 9th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Cequence](https://www.cequence.ai)\n*Cequence, a pioneer in API Security, is the only vendor with a comprehensive Unified API Protection solution offering discovery, compliance, and protection across all internal and external APIs to defend against attacks, targeted abuse, and fraud. Onboard APIs in less than 15 minutes, without needing any instrumentation, SDK, or JavaScript deployments. Cequence solutions scale to handle the most demanding government, Fortune and Global 2000 organizations, securing more than 8 billion daily API calls and protecting more than 3 billion user accounts across these customers. Its flexible deployment model supports passive/inline, on-premises, SaaS, and hybrid deployments.*"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "Study Group: \u201cAI study group\"",
-        "date": "2024-05-02",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/299536962",
-        "timezone": "America/Chicago",
-        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\n**When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/).\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
-    },
-    {
         "group": "Beja",
         "repo": "www-chapter-beja",
         "name": "0x01 Securing the Web",
@@ -48,16 +48,6 @@
         "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/300566355",
         "timezone": "Europe/Brussels",
         "description": "On May 21st, we organize our next OWASP Belgium chapter meeting at BeCentral (Brussels), by the courtesy of Proximus-ADA.\n\n**Agenda**:\n\n* 18h00-18h30: Welcome and refreshments\n* 18h30-18h40: **OWASP Update**\n18h40-19h30: **[User Privacy in Online Location-Based Services](https://owasp.org/www-chapter-belgium/#user-privacy-in-online-location-based-services---victor-lepochat-and-karel-dhondt-distrinet---ku-leuven)** (by Victor LePochat and Karel Dhondt, KU Leuven-Distrinet)\n19h30-19h45: Break\n19:45-20h35: **[Signaling New Frontiers: SS7 Insights by Jeremy Schmidt (Proximus ADA)](https://owasp.org/www-chapter-belgium/#signaling-new-frontiers-ss7-insights---jeremy-schmidt-proximus-ada)** (by Jeremy Schmidt, Proximus ADA)\n21:00: Close\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
-    },
-    {
-        "group": "Belgium",
-        "repo": "www-chapter-belgium",
-        "name": "OWASP BE Chapter Meeting (02/05/2024, Antwerp)",
-        "date": "2024-05-02",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/300566321",
-        "timezone": "Europe/Brussels",
-        "description": "On May 2nd, we organize our next OWASP Belgium chapter meeting at [Karel de Grote](https://www.kdg.be/) University of Applied Sciences and Arts (Antwerp).\n\n**Agenda**:\n\n* 17h30-18h20: Welcome and refreshments\n18h20-18h30: **OWASP Update**\n18h30-19h30: **Navigating the Evolving Landscape of Cyber Security Legislation as an IoT Device Manufacturer** (by Joris Gorinsek, NIKO)\n19h30-19h45: Break\n19:45-20h45: **OWASP Cornucopia and Scrum: A strategic approach to introduce threat modeling in an Agile development process** (by Ive Verstappen & Jev Meijvis, DotNET lab)\n21:00: Close\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
     },
     {
         "group": "Birmingham Uk",
@@ -190,6 +180,16 @@
         "description": "We've resumed our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for May will be **A02:2021 - Cryptographic Failures**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
+        "group": "Northern Virginia",
+        "repo": "www-chapter-northern-virginia",
+        "name": "What's in your AI code? Learn why SCA tools are wrong, and how to deal with it",
+        "date": "2024-05-16",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/300788299",
+        "timezone": "America/New_York",
+        "description": "With the rise of AI-fueled by Python-based libraries, it has become of paramount importance to scan Python-based projects and their dependencies for OSS vulnerabilities. Python relies on package managers like pip or conda to manage declared dependencies. Dependencies are declared in manifest files which the package manager uses to install the correct version of the required dependency. However, Python\u2019s dependency management system coupled with its dynamic type nature makes it an especially challenging language to deal with.\n\nOf particular focus is the phenomenon of phantom dependencies which are unreported dependencies in a project's manifest profile. These hidden dependencies, which are often provided dependencies (which is especially true for libraries such as tensorflow and pytorch which are essential for AI), challenge software composition analysis (SCA) of Python code, impacting the reliability of vulnerability results.\n\nFor example, in the case of OpenAI's baseline codebase, there is a dependency on tensorflow that is not explicitly declared and is hence a phantom dependency This can cause unexpected behavior and security vulnerabilities. We show how using type-aware program analysis to create call graphs and perform reachability helps us determine the correct dependency set for a codebase irrespective of what is in the manifest.\n\nProgram analysis aims to extract information from software programs to enhance reliability, security, and performance. This session explores program analysis, specifically reachability analysis in Python, and delves into phantom dependencies - often overlooked in Python applications.\n\nPython's dynamic typing and interpreted nature make it a challenging subject for reachability analysis. The lack of type information makes it hard to precisely determine what dependency/features are used in the code.\n\nIn summary, program analysis, including Python's unique challenges, is essential in software development. Phantom dependencies in Python underscore the significance of meticulous dependency management for code reliability and security. Understanding these concepts is vital for Python developers aiming to build robust software. This abstract sheds light on program analysis complexities and the pitfalls of phantom dependencies, offering valuable insights into Python development and software reliability."
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
@@ -240,6 +240,16 @@
         "description": "The ultimate goal of Zero-Trust Architecture is to protect an organization\u2019s critical data against advanced threats. However, the current market focus is overly focused on network architecture, overlooking the elephant in the room.\n\nIn a modern application architecture, APIs are the backbone of interconnecting microservices. This means APIs are the most closely related \u2018services\u2019 to an organization\u2019s data, which explains why advanced attackers target APIs. In this session, we will explain how the zero-trust concept protects APIs."
     },
     {
+        "group": "South Florida",
+        "repo": "www-chapter-south-florida",
+        "name": "OWASP South Florida Chapter Meeting May 2024 ",
+        "date": "2024-05-29",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/south-florida-owasp-chapter/events/300771107",
+        "timezone": "America/New_York",
+        "description": "We still haven't found a suitable in-person meeting venue. We'll be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our May 2024 Meeting.\n\nBYOB - Bring Your Own Beverage\n\n**Agenda**\n===\n\n* Chapter update/news\n* Talk by Rohini Sulatycki\n* Virtual Networking\n\n**Talk Title:** Securing the Digital Pipeline: Unveiling the Power of Software Bill of Materials (SBOM)\n**Talk Summary:** A significant increase in cyber attacks due to vulnerabilities within the supply chain has led to a heightened awareness of the security of supply chains and creating a software bill of materials (SBOM) is gaining traction as a good initial step. A SBOM is essentially the \u201cingredient list\u201d that goes into the making of the software. In this talk, we will discuss:\n\n* What is an SBOM\n* The elements that make up an SBOM\n* The problems that can be solved by an SBOM\n* SBOM tooling\n* Future thoughts"
+    },
+    {
         "group": "Stockholm",
         "repo": "www-chapter-stockholm",
         "name": "OWASP Stockholm - The EU Cyber Resilience Act and why the SBOM is so important",
@@ -248,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-stockholm/events/300469641",
         "timezone": "Europe/Stockholm",
         "description": "EU is about to become a market leader in software cybersecurity regulation. With a large set of proposed and active laws, software development will be regulated like never before.\n\nWith the coming EU Cyber Resilience Act (CRA) all software and embedded systems will have to get a CE mark, which is now expanded to include cybersecurity aspects. It\u2019s going to be a huge change and will mean that the manufacturers (and in some cases importers) will get responsibility for the user\u2019s security and will have to provide free security patches for the lifetime of the product. Software developers will have to learn secure coding and the need for cyber security professionals will be very high.\n\nOne of the focus areas is vulnerability management. To keep a product secure during its lifetime, all 3rd party components will have to be monitored and up to date. At the heart of this process is the Software Bill of Materials, SBOM, which is used to monitor for known vulnerabilities in both Open Source and commercial components. The OWASP CycloneDX project fits right in and have been working with various kinds of bill-of-materials for a long time. CycloneDX is in the process of becoming an ECMA standard and thus fits better in to the EU regulation.\n\nIn this talk Olle E. Johansson will introduce the proposed EU CRA legislation and talk about the SBOM with a focus on the toolchain needed to manage vulnerabilities.\n\nWe will start the evening with a mingle at 17:30 followed by a presentation that will start at 18:00. The talk will be around 1 hour long followed by a further mingle/time for questions and answers.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcoming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
-    },
-    {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "OWASP Stockholm - Security Game Night @ Detectify",
-        "date": "2024-05-02",
-        "time": "17:30+02:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/300467215",
-        "timezone": "Europe/Stockholm",
-        "description": "It's board game night, for anyone interested in both board games & security!\n\nThe meetup will start with a mingle with snacks and refreshments at 17:30. The actual gaming will begin at 19:00 and the main presentation will begin at 18:00.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcoming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter ](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\n\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
     },
     {
         "group": "Switzerland",
@@ -297,7 +297,7 @@
         "time": "19:00-03:00",
         "link": "https://www.meetup.com/owasp-uruguay-chapter/events/300745805",
         "timezone": "America/Montevideo",
-        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\n**Charlas**: a\u00fan por confirmar.\n**\u00bfCu\u00e1ndo?** Martes 7/5, 19:00.\n**\u00bfD\u00f3nde?** Urudata, Santiago de Chile 1322, Barbacoa, piso 17.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
+        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\nLas exposiciones ser\u00e1n las siguientes:\n\n**Maximiliano Perdomo: Monitoreo de Seguridad con Zabbix**\nSe cubrir\u00e1:\n\n* Introducci\u00f3n a Zabbix y sus capacidades en el monitoreo de seguridad.\n* Configuraci\u00f3n de Zabbix para el monitoreo de seguridad de aplicaciones, incluyendo consejos de configuraci\u00f3n y despliegue.\n* Ejemplos en tiempo real o una demostraci\u00f3n de c\u00f3mo Zabbix puede usarse para detectar posibles amenazas de seguridad.\n\n**Sebasti\u00e1n Passaro, Gerardo Canedo: Dise\u00f1o y modelado de amenazas**\nSe comentar\u00e1n principios de dise\u00f1o seguro y una introducci\u00f3n a modelado de amenazas con ejemplos de pasos a seguir en este procedimiento, nombrando algunas herramientas de apoyo, metodolog\u00eda y caso pr\u00e1ctico.\n\n**\u00bfCu\u00e1ndo?** Martes 7/5, 19:00.\n**\u00bfD\u00f3nde?** Urudata, Santiago de Chile 1322, Barbacoa, piso 17.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
     },
     {
         "group": "Vancouver",
