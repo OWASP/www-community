@@ -112,7 +112,7 @@
     {
         "group": "Copenhagen",
         "repo": "www-chapter-copenhagen",
-        "name": "A night of honeypots and information flow security",
+        "name": "A Night of Honeypots and Information flow security",
         "date": "2024-05-23",
         "time": "17:00+02:00",
         "link": "https://www.meetup.com/owasp-copenhagen-chapter/events/300776505",
@@ -160,16 +160,6 @@
         "description": "An introduction to OWASP's Juice Shop. A vulnerable website built for CTF practice."
     },
     {
-        "group": "Joao Pessoa",
-        "repo": "www-chapter-joao-pessoa",
-        "name": "Aprendendo sobre seguran\u00e7a em APIs com o projeto crAPI da OWASP",
-        "date": "2024-05-06",
-        "time": "19:00-03:00",
-        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/300849458",
-        "timezone": "America/Fortaleza",
-        "description": "O \"crAPI\" (Completely Ridiculous Application Programmer Interface) \u00e9 um projeto da \"OWASP\" (Open Web Application Security Project) que simula uma aplica\u00e7\u00e3o web baseada em microservi\u00e7os, impulsionada por APIs. Ele foi criado com a inten\u00e7\u00e3o de ser \"vulner\u00e1vel de prop\u00f3sito\", permitindo que os desenvolvedores e profissionais de seguran\u00e7a explorem e compreendam os dez riscos de seguran\u00e7a mais cr\u00edticos relacionados a APIs."
-    },
-    {
         "group": "Kansas City",
         "repo": "www-chapter-kansas-city",
         "name": "OWASP KC May Meetup",
@@ -178,6 +168,16 @@
         "link": "https://www.meetup.com/owasp-kansas-city/events/300496496",
         "timezone": "America/Chicago",
         "description": "TBD"
+    },
+    {
+        "group": "Limassol",
+        "repo": "www-chapter-limassol",
+        "name": "OWASP Chapter Limassol meetup 2024-v1",
+        "date": "2024-05-31",
+        "time": "18:30+03:00",
+        "link": "https://www.meetup.com/owasp-limassol-meetup-group/events/300819935",
+        "timezone": "Asia/Nicosia",
+        "description": "The location is **The Ballroom Suite B** at the [Crowne Plaza Hotel](https://maps.app.goo.gl/38rAWxBS9gMoSiH69).\n\n**Calling all tech and security enthusiasts!**\n\nWe are thrilled to announce the fourth meetup of the [OWASP Chapter in Limassol](https://owasp.org/www-chapter-limassol/), supported by [Semrush Inc.](https://semrush.com)!\n\nWe cordially invite you to join us for an evening of engaging discussions, networking, and knowledge sharing among cybersecurity enthusiasts, professionals, and enthusiasts from various backgrounds.\n\nWe look forward to seeing you there and would be delighted to offer a **complimentary gift to each attendee**!\n\n**Schedule:**\n18:30 \u2014 19:00 \u2014 Gathering & Intro\n19-00 \u2014 19:35 \"**ASPM** \\- a story about unicorns\\, sneaky business\\, and unexpected decisions\\.\" [Ivan Elkin](https://www.linkedin.com/in/ivan-elkin/)\n19-35 \u2014 20:05 TBA\n20:05 \u2014 20:30 A short break\n20-30 \u2014 21:00 TBA\n21:05 \u2014 21:40 TBA\n21:40 \u2014 22:05 Outro\n22:05 \u2014 23:00 Eat, drink, networking!\n\nIn addition, as usual, we are working hard to deliver the best knowledge to the community and are happy to announce that this event is fully packed with amazing gifts:\n\\- quizzes winners \\(**RTL-SDR Blog V3** R860 RTL2832U 1PPM TCXO HF Bias Tee SMA SDR with Dipole Antenna Kit) + branded T-shirt\n\\- activity winners \\(NooElec '**Yard Stick One**' USB Transceiver & 915MHz Antenne) + branded T-shirt\n\\- speakers \\(**Hamgeek HackRF One R9** and Portapack H2 Include 5 Antennas and Data Cable 1MHz-6GHz SDR Radio Unmounted Black) + branded T-shirt\n\nWe'll have catering and a chilly sunset view zone to make the evening unforgettable. \n\n[Don't forget to join us on Telegram (we will send updates there quickly).](https://t.me/+W1hEPzn4BOcwMTNi)"
     },
     {
         "group": "Lisboa",
@@ -202,12 +202,12 @@
     {
         "group": "Maine",
         "repo": "www-chapter-maine",
-        "name": "OWASP Maine: May Meetup (Speaker TBA)",
+        "name": "OWASP Maine: Secure the Supply Chain with Software Bill of Materials (SBOM's)",
         "date": "2024-05-22",
         "time": "18:30-04:00",
         "link": "https://www.meetup.com/owasp-maine/events/300520813",
         "timezone": "America/New_York",
-        "description": "Mark your calendars, for our next meetup! We will be editing this shortly with the speaker info and topic!"
+        "description": "Are you being asked about the security of your software supply chain? This seems to be one of the hottest and most prominent topics, both from auditors and customer compliance requirements right now within application and software security.\n\nJoin us Wednesday, May 22nd from 6:30pm - 8:30pm to hear from the experts at Synopsys software integrity group on the best ways to utilize SBOM's to ensure your software supply chain is secure!"
     },
     {
         "group": "Nashville",
@@ -290,14 +290,24 @@
         "description": "**Topic #1 - GitHub Supply Chain Attack Overview** \\- 5 Minutes\n*In March, Dark Reading reported a [GitHub Supply Chain Attack](https://www.darkreading.com/application-security/github-developers-hit-in-complex-supply-chain-cyberattack). Learn about the GitHub platform, software package dependencies, and the attack techniques in this high level overview.*\n\n**Topic #2 - OWASP Top 10 Web Application Risks Quiz -** 20 Minutes\n*Test your knowledge of the [OWASP Top 10 web application security risks](https://owasp.org/www-project-top-ten)! Compete for a chance to win fabulous prizes (aka candy bars).*\n\n**Cost**\n\nFree!\n\n**OWASP Info**\n\nOWASP is a non-profit dedicated to **application security**. Our meetings are free to attend and you do not need to be a member, nor have any experience with application security. All are welcome!\n\n**Meetings Every Month!**\n\nMeetings occur the first Tuesday of every month. Be sure to join our Meetup page to be notified of future meetings and topics.\n\n**Free Parking**\n\nFree Parking Lot:\n1 N Macdonald St, Mesa, AZ 85201\n[https://downtownmesa.com/parking/green-lot](https://downtownmesa.com/parking/green-lot)\n\nNote that this parking lot is across the street from HeatSync Labs. There are other nearby lots and street parking as well."
     },
     {
+        "group": "Portland",
+        "repo": "www-chapter-portland",
+        "name": "Managing Open Source Vulnerabilities for PCI DSS Compliance",
+        "date": "2024-05-16",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-portland-chapter/events/300869273",
+        "timezone": "America/Los_Angeles",
+        "description": "PCI DSS version 4.0 contains a host of new practices that will become requirements on March 31, 2025. In this talk, we focus on a change that looks \u2014 at first glance \u2014 to be minor, but in reality could have significant implications for Application Security teams: the requirement to manage all internal vulnerabilities, regardless of criticality.\n\nWe\u2019ll focus on how to address open source software (OSS) vulnerabilities, including:\n\n* What it means to \u201cmanage vulnerabilities\u201d\n* Why OSS presents the greatest risk to compliance with this new requirement\n* The security tool problem preventing organizations from addressing OSS risk\n* Getting accurate dependency inventories and prioritizing remediation\n* Setting up guardrails to ensure developers select safe OSS dependencies\n\nENTRY\nEnter from the door on Broadway and take the elevator to the 11th floor.\n\nSCHEDULE\nDoors open at 5:30. The talk will begin about 6pm.\n\nNO ENTRY AFTER 6:15 PM\nThe outer doors auto-lock at 6pm. We will station someone at the door to let people in until 6:15. It will not be possible to enter the building after 6:15.\n\nCONTACT INFORMATION REQUIRED TO ATTEND\nFor liability reasons, the building owner requires us collect names and contact info for each person in the building after normal business hours. You will have a choice of signing in with a phone and a QR code or on paper, but we will have to collect this info from all attendees. (If this requirement will prevent you from attending, please let us know. We can't change the rules for this venue, but we can take your feedback into account when we choose venues.)\n\nACKNOWLEDGEMENTS\n\n* Our host this month is NedSpace, a co-working space in downtown Portland.\n* Our sponsor this month is Endor Labs, who will be providing food (as well as the speaker!)"
+    },
+    {
         "group": "Portland Me",
         "repo": "www-chapter-portland-me",
-        "name": "OWASP Maine: May Meetup (Speaker TBA)",
+        "name": "OWASP Maine: Secure the Supply Chain with Software Bill of Materials (SBOM's)",
         "date": "2024-05-22",
         "time": "18:30-04:00",
         "link": "https://www.meetup.com/owasp-maine/events/300520813",
         "timezone": "America/New_York",
-        "description": "Mark your calendars, for our next meetup! We will be editing this shortly with the speaker info and topic!"
+        "description": "Are you being asked about the security of your software supply chain? This seems to be one of the hottest and most prominent topics, both from auditors and customer compliance requirements right now within application and software security.\n\nJoin us Wednesday, May 22nd from 6:30pm - 8:30pm to hear from the experts at Synopsys software integrity group on the best ways to utilize SBOM's to ensure your software supply chain is secure!"
     },
     {
         "group": "Seattle",
@@ -328,6 +338,16 @@
         "link": "https://www.meetup.com/south-florida-owasp-chapter/events/300771107",
         "timezone": "America/New_York",
         "description": "We still haven't found a suitable in-person meeting venue. We'll be hosting this meeting online. The meeting\u2019s URL will become visible on the meetup page after you RSVP.\n\nPlease join us virtually for our May 2024 Meeting.\n\nBYOB - Bring Your Own Beverage\n\n**Agenda**\n===\n\n* Chapter update/news\n* Talk by Rohini Sulatycki\n* Virtual Networking\n\n**Talk Title:** Securing the Digital Pipeline: Unveiling the Power of Software Bill of Materials (SBOM)\n**Talk Summary:** A significant increase in cyber attacks due to vulnerabilities within the supply chain has led to a heightened awareness of the security of supply chains and creating a software bill of materials (SBOM) is gaining traction as a good initial step. A SBOM is essentially the \u201cingredient list\u201d that goes into the making of the software. In this talk, we will discuss:\n\n* What is an SBOM\n* The elements that make up an SBOM\n* The problems that can be solved by an SBOM\n* SBOM tooling\n* Future thoughts"
+    },
+    {
+        "group": "Stockholm",
+        "repo": "www-chapter-stockholm",
+        "name": "Pub evening - Summer OWASP meet up and after-work near Odenplan",
+        "date": "2024-06-05",
+        "time": "17:00+02:00",
+        "link": "https://www.meetup.com/owasp-stockholm/events/299591604",
+        "timezone": "Europe/Stockholm",
+        "description": "Time for a summer get together before we all disappear for the summer holidays . This is the perfect opportunity for all of us app-sec interested folks to get together and meet up in real life for a relaxed chat and maybe a beer or some other refreshments.\n\n When: 5th June, 2024 17:00\n Where: The Old Brewer - Public House & Dining Room at Luntmakargatan 98, 113 51 Stockholm\n\nExpect:\n Quick AppSec Tips\n Networking\n Drinks & Laughter\n\nThe meeting will start at 17:00, but it's a casual event so turn up when it suits."
     },
     {
         "group": "Stockholm",
