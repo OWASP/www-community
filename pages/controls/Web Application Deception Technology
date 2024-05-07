@@ -18,17 +18,11 @@ Deception technology, similar to honeypot, is an approach to cybersecurity that 
 For web application security, deception can take several forms:
 
 1. Honeytoken Cookies - Fake session cookies containing enticing names (e.g., "admin_session"), but invalid values are seeded into the application. Any attempts to use these cookies indicate an attacker is stealing and replaying cookies.
-
-2. Honeytoken Form Fields—In addition to hidden form fields, honeytokens can be placed in visible fields that normal users should never use. For example, an "admin_override" field that regular users have no reason to interact with. Any submissions with that field populated indicate an attacker probing the application.
-
-3. Honeytoken API Keys Fake API keys or access tokens can be seeded in an application's JavaScript or HTML source. Attackers who scrape the client-side code looking for sensitive tokens to steal will pick up these fake tokens. Any use of these honeytoken API keys indicates malicious recon activity.
-
+2. Honeytoken Form Fields — In addition to hidden form fields, honeytokens can be placed in visible fields that normal users should never use. For example, an "admin_override" field that regular users have no reason to interact with. Any submissions with that field populated indicate an attacker probing the application.
+3. Honeytoken API Keys - Fake API keys or access tokens can be seeded in an application's JavaScript or HTML source. Attackers who scrape the client-side code looking for sensitive tokens to steal will pick up these fake tokens. Any use of these honeytoken API keys indicates malicious recon activity.
 4. Deceptive Links/URLs - Hidden links and API endpoints are placed in the application's client-side code. Regular users never see these links, so any requests to them suggest an attacker is inspecting the source code for vulnerabilities.  
-
-5. Booby-trapped Form Fields—Invisible form fields are added to lure attackers. These fields are not rendered for real users, so any data submitted in them points to malicious form tampering.
-
+5. Booby-trapped Form Fields - Invisible form fields are added to lure attackers. These fields are not rendered for real users, so any data submitted in them points to malicious form tampering.
 6. Canary Files/Records - Fake sensitive files (e.g., "salaries.xlsx") or database records are planted in the application. Access to these dummy assets indicates an attacker has broken in and is snooping around.
-
 7. Tarpit Pages - Requests for certain pages (e.g., WordPress's wp-admin for a non-WordPress site) are redirected to an infinite loop or a resource-intensive puzzle. This slows down attackers, especially scanners and crawlers.
 
 Deception technology provides several advantages for web application defenders:
