@@ -37,6 +37,7 @@ Interference - Deceptions should not interfere with normal application functiona
 Legal issues - Consult with legal counsel on entrapment and privacy laws before implementing deceptions, especially in public-facing systems.
 
 ## Sample Code
+
 Below is a Python snippet using the Flask web framework to create a web application honeypot with a deceptive link:
 
 ```python
