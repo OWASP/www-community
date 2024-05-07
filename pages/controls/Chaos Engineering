@@ -1,0 +1,121 @@
+---
+
+layout: col-sidebar
+title: Chaos Engineering
+author: Vaibhav Malik
+permalink: [direct link to page, removes /pages] (this is optional and requires some care)
+tags: [attack, XSS, etc]
+
+---
+
+ {% include writers.html %}
+
+Chaos Engineering is the discipline of experimenting on a system to build confidence in its capability to withstand turbulent conditions in production. It involves intentionally injecting faults and disruptions into a system to observe how it responds and identify weaknesses before they cause real outages.
+While chaos engineering originated in infrastructure and cloud systems, it can also be applied to web applications to improve their resiliency and fault tolerance. Some examples of chaos experiments for web apps include
+HTTP Error Injection - Randomly returning 5xx server errors or 4xx client errors for a percentage of requests to see how the application handles them gracefully.
+Latency Injection - Artificially introducing delays in certain API calls or database queries to simulate network or backend slowdowns. Tests the application's timeout and retry mechanisms.
+Dependency Failure Injection - Shutting off access to external services (e.g., payment gateways, social logins) the application depends on. Verifies the application can degrade gracefully and not leave users in a broken state.
+Load Spike Injection - Suddenly increasing concurrent user traffic to the application, even beyond expected peak levels. Check if the application can scale and maintain performance under stress.
+Data Corruption Injection - Subtly modifying data in databases or message queues to introduce inconsistencies. Validates the application's data integrity checks and error handling.
+The goal of these experiments is not to cause actual chaos but to proactively uncover vulnerabilities and weaknesses in a controlled manner. By embracing a bit of chaos, web application teams can build more resilient systems that are better prepared for the unexpected.
+Chaos engineering provides several benefits for web application resiliency:
+Uncovers hidden bugs - Chaos experiments often surface edge cases, race conditions, and faulty assumptions that don't appear in normal testing.
+Validates monitoring and alerting - Injecting faults tests if the application's monitoring and alerting systems properly detect and notify on issues.
+Builds team confidence - Regularly "breaking" the system in controlled experiments gives developers confidence it can handle real outages.
+Drives architectural improvements - Chaos experiments highlight architectural weaknesses (e.g., single points of failure) that need improvement.
+However, chaos engineering also comes with some challenges and considerations:
+Risk of actual outages - If not properly controlled, chaos experiments can cause real customer-facing outages. Always have a rollback plan.
+Organizational buy-in - Chaos engineering requires a cultural shift to embrace intentional failure. Teams need management support and shared values around resiliency.
+Measurable outcomes - Chaos experiments should be data-driven with clear metrics (e.g., error rates, latency) to measure impact and success.
+Sample Code Below is a Python script using the Chaos Toolkit to inject HTTP errors into a web application:
+python
+Copy code
+from chaoslib.types import Configuration
+from chaoslib.exceptions import FailedActivity
+from chaoshttp import status_in_range
+
+name = "Inject HTTP 500 errors to the /checkout endpoint"
+provider = {
+    "type": "python",
+    "module": "chaosindy.provider.http",
+    "func": "inject_status_code",
+    "arguments": {
+        "url": "https://myapp.com/checkout",
+        "status_code": 500,
+        "error_rate": 0.2
+    }
+}
+
+# Hypothesis: The application gracefully handles 500 errors in the checkout flow
+steady_state_hypothesis = {
+    "title": "Application handles checkout 500s",
+    "probes": [
+        {
+            "name": "checkout-latency-under-500ms",
+            "provider": {
+                "type": "python",
+                "module": "chaoshttp.probes",
+                "func": "time_limit",
+                "arguments": {
+                    "url": "https://myapp.com/checkout",
+                    "timeout": 0.5
+                }
+            },
+            "tolerance": 200,
+            "stop_on_failure": True
+        },
+        {
+            "name": "checkout-status-not-500",
+            "provider": {
+                "type": "python",
+                "module": "chaoshttp.probes",
+                "func": "status_in_range",
+                "arguments": {
+                    "url": "https://myapp.com/checkout",
+                    "range": [200, 499]
+                }
+            },
+            "tolerance": 1
+        }
+    ]
+}
+
+# Experiment definition
+experiment = {
+    "version": "1.0.0",
+    "title": "Checkout HTTP Error Injection",
+    "description": "Injects 500 errors into the checkout flow to test resiliency",
+    "tags": ["web", "resiliency"],
+    "contributions": {
+        "reliability": "high",
+        "availability": "high"
+    },
+    "steady-state-hypothesis": steady_state_hypothesis,
+    "method": [
+        {
+            "type": "action",
+            "name": "inject-http-500",
+            "provider": provider
+        }
+    ],
+    "rollbacks": [
+        {
+            "type": "action",
+            "name": "remove-http-error-injection",
+            "provider": {
+                "type": "python",
+                "module": "chaosindy.provider.http",
+                "func": "remove_fault"
+            }
+        }
+    ]
+}
+
+# Run the experiment
+from chaoslib import run_experiment
+run_experiment(experiment).
+This Chaos Toolkit experiment injects HTTP 500 errors into 20% of requests to the /checkout endpoint. It defines a steady state hypothesis that the application should still maintain low latency and not return 500s. After injecting the fault, it verifies if the steady state is maintained. If not, it indicates the application is not resilient to this disruption.
+The experiment also includes a rollback step to remove the fault injection after the experiment. This is important to avoid leaving the application in a degraded state.
+In summary, chaos engineering is a powerful technique for improving web application resiliency by proactively testing failure scenarios. While it requires careful planning and execution, it can uncover vulnerabilities, validate fault tolerance mechanisms, and drive architectural improvements. As web applications become more complex and distributed, chaos engineering will be an increasingly important practice for delivering reliable digital services.
+
+
