@@ -38,13 +38,10 @@ CORP provides several security benefits:
 
 - **Prevents cross-origin information leaks** - Sensitive resources 
 accidentally exposed without CORS cannot be loaded by unauthorized external websites.
-
 - **Mitigates speculative execution side-channel attacks** - Untrusted origins 
 cannot load resources that might be impacted by CPU speculative execution vulnerabilities like Spectre.
-
 - **Protects against timing attacks** - Measuring the time taken to load a 
 cross-origin resource cannot be used to infer sensitive information.
-
 - **Reduces attack surface** - Unauthorized origins cannot include a 
 website's resources in their pages, minimizing avenues for clickjacking, UI redressing, etc.
 
