@@ -90,6 +90,16 @@
         "description": "In the physical world, if our neighbours left their front door open and were being robbed in broad daylight, the community would do something about it, like calling the police or yelling at the criminals from a safe distance. On the internet, we don\u2019t really do anything. Even the government just sits around waiting for people to (virtually) get shot and then report an incident. We need to rethink our approach.\nIn this talk, Haoxi will talk about trench stories over the last 6 months of running DirectCyber, a volunteer based CSIRT that tracks exposures to critical vulnerabilities and notifies potential victims with pinpoint accuracy. He will cover why this was feasible to run with 2.5-person team, how to prioritise which vulnerabilities to track, challenges for disclosure, and legal concerns. He will share success cases from other public and private sector companies such as DIVD and TruffleSec, along with the bigger picture of how we can influence government security strategy for the better if we work together."
     },
     {
+        "group": "Bristol Uk",
+        "repo": "www-chapter-bristol-uk",
+        "name": "Interactive cyber crisis simulation, at Immersive Labs",
+        "date": "2024-05-21",
+        "time": "18:30+01:00",
+        "link": "https://www.meetup.com/owasp-bristol/events/300831085",
+        "timezone": "Europe/London",
+        "description": "Immersive Labs invites you to participate in an interactive cyber crisis simulation.\n\nYou will make key decisions that could lead to mitigation and containment of the crisis or management of the fallout and potential reputational damage. You will play the role of a boardroom as you seek to make quick decisions during a cyber crisis. Attendees are encouraged to participate using their mobile phones during the session and our Head of AppSec will discuss your decisions at each stage and feedback on how you performed as a group. This is a fun session to creates discussion but also equips you with some decision making skills you can take back into the workplace.\n\n\\-\\-\\-\n\n**Directions:**\nIn-person event, kindly **hosted by Immersive Labs**, 6th Floor, The Programme, All Saints' St, Bristol BS1 2LZ.\n\nTo find the entrance, it might be easier to search for \"Programme, Bristol, BS1 2NB\", or use this link to [Google Maps](https://www.google.com/maps/?q=51.455666,-2.592341).\n\n**Venue:**\nPhoto shows the main entrance, which is visible when walking down the right hand side of the Tesco Express on Wine Street (Google Street View sometimes shows the back entrance, which is only accessible via keycard)."
+    },
+    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS May 2024",
@@ -280,16 +290,6 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Phoenix",
-        "repo": "www-chapter-phoenix",
-        "name": "May 2024 Meeting",
-        "date": "2024-05-07",
-        "time": "20:30-07:00",
-        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/300506523",
-        "timezone": "America/Phoenix",
-        "description": "**Topic #1 - GitHub Supply Chain Attack Overview** \\- 5 Minutes\n*In March, Dark Reading reported a [GitHub Supply Chain Attack](https://www.darkreading.com/application-security/github-developers-hit-in-complex-supply-chain-cyberattack). Learn about the GitHub platform, software package dependencies, and the attack techniques in this high level overview.*\n\n**Topic #2 - OWASP Top 10 Web Application Risks Quiz -** 20 Minutes\n*Test your knowledge of the [OWASP Top 10 web application security risks](https://owasp.org/www-project-top-ten)! Compete for a chance to win fabulous prizes (aka candy bars).*\n\n**Cost**\n\nFree!\n\n**OWASP Info**\n\nOWASP is a non-profit dedicated to **application security**. Our meetings are free to attend and you do not need to be a member, nor have any experience with application security. All are welcome!\n\n**Meetings Every Month!**\n\nMeetings occur the first Tuesday of every month. Be sure to join our Meetup page to be notified of future meetings and topics.\n\n**Free Parking**\n\nFree Parking Lot:\n1 N Macdonald St, Mesa, AZ 85201\n[https://downtownmesa.com/parking/green-lot](https://downtownmesa.com/parking/green-lot)\n\nNote that this parking lot is across the street from HeatSync Labs. There are other nearby lots and street parking as well."
-    },
-    {
         "group": "Portland",
         "repo": "www-chapter-portland",
         "name": "Managing Open Source Vulnerabilities for PCI DSS Compliance",
@@ -360,6 +360,16 @@
         "description": "EU is about to become a market leader in software cybersecurity regulation. With a large set of proposed and active laws, software development will be regulated like never before.\n\nWith the coming EU Cyber Resilience Act (CRA) all software and embedded systems will have to get a CE mark, which is now expanded to include cybersecurity aspects. It\u2019s going to be a huge change and will mean that the manufacturers (and in some cases importers) will get responsibility for the user\u2019s security and will have to provide free security patches for the lifetime of the product. Software developers will have to learn secure coding and the need for cyber security professionals will be very high.\n\nOne of the focus areas is vulnerability management. To keep a product secure during its lifetime, all 3rd party components will have to be monitored and up to date. At the heart of this process is the Software Bill of Materials, SBOM, which is used to monitor for known vulnerabilities in both Open Source and commercial components. The OWASP CycloneDX project fits right in and have been working with various kinds of bill-of-materials for a long time. CycloneDX is in the process of becoming an ECMA standard and thus fits better in to the EU regulation.\n\nIn this talk Olle E. Johansson will introduce the proposed EU CRA legislation and talk about the SBOM with a focus on the toolchain needed to manage vulnerabilities.\n\nWe will start the evening with a mingle at 17:30 followed by a presentation that will start at 18:00. The talk will be around 1 hour long followed by a further mingle/time for questions and answers.\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcoming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
     },
     {
+        "group": "Stuttgart",
+        "repo": "www-chapter-stuttgart",
+        "name": "1st OWASP Stuttgart Chapter Stammtisch",
+        "date": "2024-06-06",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/300610888",
+        "timezone": "Europe/Berlin",
+        "description": "Join us at the inaugural OWASP Stuttgart Chapter Stammtisch and celebrate our revival. :-)\nWe are currently seeking contributors as the event does not yet have a designated topic or speaker. If you wish to contribute, please contact Sven Strittmatter (Weltraumschaf) or Johannes Merkert.\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation (TBD)\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
+    },
+    {
         "group": "Switzerland",
         "repo": "www-chapter-switzerland",
         "name": "Threat Modelling with Reliable Data",
@@ -390,16 +400,6 @@
         "description": "Calling all OWASP and NULL enthusiasts in Tirunelveli!\nJoin us for an introductory session on APIs, led by Surya from the YouTube channel Cyterix. In this webinar, you'll gain a solid understanding of:\n=> What APIs are and how they work\n=> The role of APIs in app development\n=> Everyday applications of APIs\n=> How to make your first API request (with hands-on practice)\n\nThis session is perfect for anyone curious about how applications communicate and the power behind APIs. Whether you're a developer, security professional, or simply interested in tech, this workshop will equip you with the foundational knowledge to dive deeper into the world of APIs.\n\nDon't miss out on this chance to level up your tech skills!"
     },
     {
-        "group": "Uruguay",
-        "repo": "www-chapter-uruguay",
-        "name": "OWASP Meetup - Mayo",
-        "date": "2024-05-07",
-        "time": "19:00-03:00",
-        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/300745805",
-        "timezone": "America/Montevideo",
-        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\nLas exposiciones ser\u00e1n las siguientes:\n\n**Maximiliano Perdomo: Monitoreo de Seguridad con Zabbix**\nSe cubrir\u00e1:\n\n* Introducci\u00f3n a Zabbix y sus capacidades en el monitoreo de seguridad.\n* Configuraci\u00f3n de Zabbix para el monitoreo de seguridad de aplicaciones, incluyendo consejos de configuraci\u00f3n y despliegue.\n* Ejemplos en tiempo real o una demostraci\u00f3n de c\u00f3mo Zabbix puede usarse para detectar posibles amenazas de seguridad.\n\n**Sebasti\u00e1n Passaro, Gerardo Canedo: Dise\u00f1o y modelado de amenazas**\nSe comentar\u00e1n principios de dise\u00f1o seguro y una introducci\u00f3n a modelado de amenazas con ejemplos de pasos a seguir en este procedimiento, nombrando algunas herramientas de apoyo, metodolog\u00eda y caso pr\u00e1ctico.\n\n**\u00bfCu\u00e1ndo?** Martes 7/5, 19:00.\n**\u00bfD\u00f3nde?** Urudata, Santiago de Chile 1322, Barbacoa, piso 17.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
-    },
-    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Ensuring Application Security Excellence in the Age of AI & CASA Framework",
@@ -408,5 +408,15 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516396",
         "timezone": "America/Vancouver",
         "description": "**Ensuring Application Security Excellence in the Age of AI** with Michael Argast\n\nIn a time where artificial intelligence (AI) permeates every facet of digital existence, the imperative to ensure application security has reached unprecedented heights. In this talk, Michael Argast, Co-founder and CEO of Kobalt.io will delve into the essential strategies for ensuring application security excellence amidst the pervasive influence of AI. By exploring the intricate interplay between AI and cybersecurity, you will gain insights into how AI augments defensive strategies, mitigates vulnerabilities, and addresses emerging threats within application environments. Through real-world case studies and practical recommendations, this session equips you with the knowledge and tools needed to leverage AI effectively in the face of evolving challenges.\n\n**Michael** is an experienced cybersecurity professional with over 20 years of industry experience. He is the co-founder and CEO of Kobalt.io, a rapidly growing cloud-focused security services provider. Kobalt.io works with over 200 cloud-focused technology companies to help develop their cyber security programs and ensure the security of their organization.\n\n**Enhancing Cloud Application Security with the CASA Framework** with Farshad Abasi\n\nThis presentation will introduce the Cloud Application Security Assessment (CASA) framework, designed according to OWASP\u2019s ASVS standards to secure cloud-based applications. We will explore CASA's tiered risk-based assessment model that categorizes applications into different risk tiers and applies appropriate security verifications. This systematic approach helps in effectively managing security risks associated with cloud applications, aiming to protect consumer data and conform to best practices in cybersecurity.\n\nWe would like to thank **Microsoft** for sponsoring this event."
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "Monthly OWASP SAMM community call - May 2024",
+        "date": "2024-05-08",
+        "time": "15:30-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/300879442",
+        "timezone": "America/New_York",
+        "description": "Our monthly OWASP SAMM community call.\n\nWe are going to cover the:\nupcoming SAMM User Day - https://owaspsamm.org/user-day/\nthe new SAMM Assessment Guide\nthe SAMM Assessment Podcast\n\nYou will get the private link to our Zoom call upon registration before we start the call.\n\nSee you next Wednesday,\nthe SAMM team"
     }
 ]
