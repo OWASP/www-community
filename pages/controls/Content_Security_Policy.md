@@ -282,8 +282,6 @@ There's a number of free tools that can assist with the generating, evaluation a
 
 It's very useful to include these types of tools into a web application development process in order to perform a regular automatic first level check (do not replace an manual audit and manual audit must be also conducted regularly).
 
-* [w3af](http://w3af.org) audit tools contains a [plugin](https://github.com/andresriancho/w3af/blob/master/plugins/grep/csp.py)
-to automatically audit web application to check if they correctly implement CSP policies.
 * [CSP Tester (browser extension)](https://oxdef.info/csp-tester) to build and test the policy for your web application.
 * [CSP Generator](https://csper.io/generator) for automatically generating policies ([chrome](https://chrome.google.com/webstore/detail/content-security-policy-c/ahlnecfloencbkpfnpljbojmjkfgnmdc)/[firefox](https://addons.mozilla.org/en-US/firefox/addon/csp-generator/) extension).
 * [CSP Evaluator](https://csper.io/evaluator) for evaluating existing content security policies for security misconfigurations.
