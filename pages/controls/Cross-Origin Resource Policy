@@ -23,11 +23,9 @@ resource-sharing policies:
 1. **Cross-Origin-Resource-Policy : same-site** - The resource can only be 
 loaded from the same site, i.e., the same origin or a subdomain of the 
 serving origin. This is the default behavior if no CORP header is present.
-
 2. **Cross-Origin-Resource-Policy : same-origin** - This is the most 
 restrictive policy. The resource can only be loaded from the exact 
 same origin, excluding subdomains.
-
 3. **Cross-Origin-Resource-Policy : cross-origin** - The resource can 
 be loaded from any origin. This opt-out of protections should be used 
 sparingly and only for public resources.
