@@ -125,6 +125,7 @@ When loaded from a different origin, only the `/public/image.jpg` resource will 
 In conclusion, the Cross-Origin Resource Policy is a robust security control for protecting sensitive web resources from unauthorized cross-origin access. When properly configured, it provides defense-in-depth alongside CORS and SOP. Web developers should leverage CORP headers to enhance the isolation and integrity of their applications.
 
 ## References
+
 - [MDN Web Docs: Cross-Origin Resource Policy (CORP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy_(CORP))
 - [web.dev: Protect your resources from web attacks with Fetch Metadata](https://web.dev/fetch-metadata/)
 - [Fetch Metadata Request Headers playground](https://secmetadata.appspot.com/)
