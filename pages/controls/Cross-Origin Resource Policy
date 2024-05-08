@@ -57,7 +57,7 @@ CORP headers to avoid unintended exposure.
 
 ## Sample Code
 
-*Below is an example of setting CORP headers in a Node.js/Express application*:
+Below is an example of setting CORP headers in a Node.js/Express application:
 
 ```javascript
 const express = require('express');
