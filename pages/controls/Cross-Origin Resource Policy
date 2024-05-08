@@ -49,10 +49,8 @@ However, CORP also introduces some considerations:
 
 - **Browser support** : CORP is a relatively new standard that may not 
 be supported by older browsers. Fallback protection may be needed.
-
 - **Resource isolation** - Resources served with a restrictive CORP 
 policy must not depend on external origins for proper rendering or functioning.
-
 - **Subdomain configuration** - The `same-site` policy allows resource 
 loading from subdomains. Each subdomain should carefully set its own 
 CORP headers to avoid unintended exposure.
