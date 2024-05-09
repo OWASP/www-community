@@ -13,9 +13,12 @@ permalink: /controls/SubresourceIntegrity
 
 ## Description
 
-Subresource Integrity (SRI) is a security feature that enables browsers to verify that 
-the resources they fetch (for example, from a CDN) are delivered without unexpected 
-manipulation. It allows you to provide a cryptographic hash that a fetched resource must match.
+Subresource Integrity (SRI) is a security mechanism that allows web browsers to check the integrity of resources they 
+fetch from external sources, such as Content Delivery Networks (CDNs). SRI ensures that the resources are delivered without
+any unexpected modifications or tampering. With SRI, you can specify a cryptographic hash value that the fetched resource 
+must match before the browser accepts and uses it. This helps protect against scenarios where an attacker might attempt to 
+inject malicious code into a resource, or where a CDN might accidentally serve corrupted files. By using SRI, you can 
+enhance the security of your web application and provide an extra layer of protection for your users.
 
 Web sites often rely on resources hosted on third-party servers, such as 
 JavaScript libraries or CSS stylesheets. However, using these resources introduces risks:
@@ -25,7 +28,7 @@ JavaScript libraries or CSS stylesheets. However, using these resources introduc
 
 SRI helps mitigate these risks by ensuring that the browser only executes resources 
 that match the expected hash. If the resource doesn't match the hash, the browser won't 
-load it, protecting the page from potential attacks.
+load it, protecting the page and users from potential attacks.
 
 To use SRI, you specify the hash of the resource you're expecting 
 in the `integrity` attribute of the `<script>` or `<link>` tag:
@@ -46,7 +49,6 @@ However, SRI also introduces some considerations:
 - Requires knowledge of expected resource hashes
 - Can break sites if resource updates change hashes
 - Doesn't protect against compromise of the main site itself
-- Not all browsers support SRI yet
 
 ## Sample Code
 
@@ -92,12 +94,13 @@ It's important to note that if the resource is updated (for
 example, if you upgrade to a new version of Bootstrap), you'll 
 need to update the `integrity` hash to match the new version. If you don't, the resource will fail to load.
 
-SRI is a powerful tool for ensuring the integrity of third-party resources,
+SRI is a powerful control for ensuring the integrity of third-party resources,
  but it's not a complete security solution on its own. It should be used 
  in combination with other security best practices, like serving your site over 
  HTTPS and using Content Security Policy (CSP).
 
 ## References
+
 - [MDN Web Docs: Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity)
 - [Can I use... Subresource Integrity?](https://caniuse.com/#feat=subresource-integrity)
 - [SRI Hash Generator](https://www.srihash.org/)
