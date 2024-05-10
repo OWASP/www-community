@@ -99,7 +99,7 @@ store the response in the cache.
 
 We may get this effect by setting the following headers:
 
-- Last-Modified (checked byt the If-Modified-Since header)
+- Last-Modified (checked by the If-Modified-Since header)
 - ETag (checked by the If-None-Match header)
 
 3. Sending request for the page, which we want to replace in the cache of the server
