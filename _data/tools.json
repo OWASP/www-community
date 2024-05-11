@@ -1035,6 +1035,15 @@
       "type": "SAST"
    },
    {
+      "title": "PHPStan",
+      "url": "https://phpstan.org/",
+      "owner": null,
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "PHP Static Analysis Tool",
+      "type": "SAST"
+   },
+   {
       "title": "PMD",
       "url": "https://pmd.github.io/",
       "owner": null,
