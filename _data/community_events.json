@@ -12,12 +12,22 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "OWASP Austin Study Group",
+        "date": "2024-05-30",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/300947621",
+        "timezone": "America/Chicago",
+        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - May 2024 (Online)",
         "date": "2024-05-28",
         "time": "11:30-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/298207005",
         "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nPresentation: **Digital Deceit and AI Hallucinations: Safeguarding the Software Supply Chain**\n\nThe presentation unites Tyler Agypt's expertise in a riveting exploration of software supply chain threats, spanning traditional dangers to the novel challenge of AI Package Hallucination. Agypt, VP of Global Enablement at Checkmarx, exposes the hidden risks in software dependencies and the emerging threat of artificially generated, nonexistent code packages. Through real-world examples and insights from over 1 million malicious packages, he reveals the deceptive practices endangering our digital ecosystem, from Dependency Confusion to Star-Jacking to Repo-Jacking.\nAgypt advocates for robust defensive strategies, tools and improved dependency management, to counteract these threats. This presentation is a call to action for the developer and cybersecurity community to elevate their vigilance and adopt a proactive stance against the evolving challenges in software supply chain security. Join this enlightening session for a comprehensive understanding of both traditional and AI-induced vulnerabilities, and equip yourself to better face tomorrow's cybersecurity challenges.\n\n**Speaker: Tyler Agypt**\n\nTo RSVP for the in-person meeting at NI/Emerson, please see [https://owasp-austin-2024-may-g1.eventbrite.com](https://owasp-austin-2024-may-g1.eventbrite.com)"
     },
     {
         "group": "Austin",
@@ -36,26 +46,6 @@
         "date": "2024-05-16",
         "time": "12:00-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/300909022",
-        "timezone": "America/Chicago",
-        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "May 2024 OWASP Austin Security Professionals Happy Hour",
-        "date": "2024-05-09",
-        "time": "17:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/299656219",
-        "timezone": "America/Chicago",
-        "description": "**When:** Thursday, May 9th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Cequence](https://www.cequence.ai)\n*Cequence, a pioneer in API Security, is the only vendor with a comprehensive Unified API Protection solution offering discovery, compliance, and protection across all internal and external APIs to defend against attacks, targeted abuse, and fraud. Onboard APIs in less than 15 minutes, without needing any instrumentation, SDK, or JavaScript deployments. Cequence solutions scale to handle the most demanding government, Fortune and Global 2000 organizations, securing more than 8 billion daily API calls and protecting more than 3 billion user accounts across these customers. Its flexible deployment model supports passive/inline, on-premises, SaaS, and hybrid deployments.*"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2024-05-09",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/300806712",
         "timezone": "America/Chicago",
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
@@ -110,6 +100,36 @@
         "description": "Immersive Labs invites you to participate in an interactive cyber crisis simulation.\n\nYou will make key decisions that could lead to mitigation and containment of the crisis or management of the fallout and potential reputational damage. You will play the role of a boardroom as you seek to make quick decisions during a cyber crisis. Attendees are encouraged to participate using their mobile phones during the session and our Head of AppSec will discuss your decisions at each stage and feedback on how you performed as a group. This is a fun session to creates discussion but also equips you with some decision making skills you can take back into the workplace.\n\n\\-\\-\\-\n\n**Directions:**\nIn-person event, kindly **hosted by Immersive Labs**, 6th Floor, The Programme, All Saints' St, Bristol BS1 2LZ.\n\nTo find the entrance, it might be easier to search for \"Programme, Bristol, BS1 2NB\", or use this link to [Google Maps](https://www.google.com/maps/?q=51.455666,-2.592341).\n\n**Venue:**\nPhoto shows the main entrance, which is visible when walking down the right hand side of the Tesco Express on Wine Street (Google Street View sometimes shows the back entrance, which is only accessible via keycard)."
     },
     {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "OWASP API Top 10",
+        "date": "2024-05-11",
+        "time": "10:00+03:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/300946143",
+        "timezone": "Africa/Cairo",
+        "description": "## What is API Security?\n\nA foundational element of innovation in today\u2019s app-driven world is the API. From banks, retail and transportation to IoT, autonomous vehicles and smart cities, APIs are a critical part of modern mobile, SaaS and web applications and can be found in customer-facing, partner-facing and internal applications. By nature, APIs expose application logic and sensitive data such as Personally Identifiable Information (PII) and because of this have increasingly become a target for attackers. Without secure APIs, rapid innovation would be impossible.\nAPI Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces (APIs)."
+    },
+    {
+        "group": "Chennai",
+        "repo": "www-chapter-chennai",
+        "name": "OWASP Meetup May 2024",
+        "date": "2024-05-11",
+        "time": "09:30+05:30",
+        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/300941914",
+        "timezone": "Asia/Kolkata",
+        "description": "* LLM Security 101 by **Anirudh srinivas**\n* Android 101 for PenTesting by **Arunraj Radhakrishnan**\n* Security on FINTECH and Banking insights -**kannan raju**\n* Demystifying Compliance by **vignesh**"
+    },
+    {
+        "group": "Cleveland",
+        "repo": "www-chapter-cleveland",
+        "name": "OWASP Cleveland - Meet and Greet",
+        "date": "2024-06-05",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owasp-cleveland-group/events/300914168",
+        "timezone": "America/New_York",
+        "description": "OWASP Cleveland is back! We're starting off with a meet & greet where we can get to know one another, gauge our community's areas of interest, and start planning our roadmap for the rest of the year.\n\n**Agenda:**\n\n* Introductions\n* Community roundtable: which AppSec topics and OWASP projects most interest you?\n* Planning for upcoming events\n\nJoin us at Market Avenue Wine Bar in Ohio City! Check them out here: [https://marketavenuewinebar.com/](https://marketavenuewinebar.com/)\n\n**About OWASP**\nThe Open Worldwide Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. Our programming includes:\n\n* Community-led open source projects including code, documentation, and standards\n* Over 250+ local chapters worldwide\n* Tens of thousands of members\n* Industry-leading educational and training conferences\n\nEveryone is free to participate in OWASP and all of our materials are available under a free and open software license. Learn more about the OWASP Foundation and our work: [https://owasp.org/about/](https://owasp.org/about/)"
+    },
+    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP CoS May 2024",
@@ -137,7 +157,7 @@
         "time": "17:00+02:00",
         "link": "https://www.meetup.com/owasp-copenhagen-chapter/events/300776505",
         "timezone": "Europe/Copenhagen",
-        "description": "**Can we outsmart the adversaries? (Effective) Cyber Deception with Honeypots**\nIn today's ever-evolving cyber threat landscape, traditional defence mechanisms often struggle to keep pace with attacker ingenuity. Cyber deception offers a proactive approach, utilizing traps and deceiving tactics to lure attackers into controlled environments. Honeypots are one of the prominent techniques of cyber deception that act as decoy systems for capturing attacks and analyzing the adversary strategy. They provide an early detection mechanism as well as a method for learning how adversaries work and think. However, over the past years, several researchers have shown methods for fingerprinting honeypots. This significantly decreases the value of a honeypot; if an attacker can recognize the existence of such a system, they can evade it. This talk delves into the world of cyber deception, focusing on honeypots, their efficacy, and some fingerprinting techniques from my research. We'll explore how honeypots function and the contributions from The Honeynet Project, a non-profit, open-source community.\n**Speaker:** [Shreyas Srinivas](https://www.linkedin.com/in/shreyas-srinivasa-ph-d-47038b13/overlay/contact-info/) is Cyber Security Specialist at TERMA Group, Co-founder of Selene CTI and previously Security Researcher at Aalborg University. He is contributor to the [Honeynet project](https://www.honeynet.org/), a non-profit dedicated to investigating the latest attacks and developing open source security tools to improve Internet security.\n\n**Information-Flow Security for the Working Software Engineer**\nHow does information flow through your software? Awareness of this gives you a new perspective when writing software with security requirements; it helps you avoid introducing information leaks into software, and gives you a conceptual framework for reasoning about software security in general.\nIn this talk, you will meet concepts like information leak, sources & sinks, dependencies, side\u2013channels, and flow policies. You will learn to identify information flows in software, to express application\u2013specific security requirements as flow policies, and to implement software that adheres to said flow policies.\nWant to try this out? Then bring a laptop; right after the talks, I will organize a little activity where you can tinker with \\`ifc-ts\\` - my TypeScript library for expressing flow policies. In \\`ifc-ts\\`, flow policy checks are reduced to checks performed by TypeScript's type checker. Thus, if your code type-checks, then your code is guaranteed to adhere to the flow policies expressed therein.\n\n**Speaker:** [Willard Rafnsson](https://www.willardthor.com/) is Associate Professor at the IT University of Copenhagen (ITU). I am a member of the Center for Information Security and Trust (CISAT), as well as the Programming, Logic and Semantics (PLS) and Software Quality Research (SQUARE) groups.\n\n**Location:** to be announced"
+        "description": "**Can we outsmart the adversaries? (Effective) Cyber Deception with Honeypots**\nIn today's ever-evolving cyber threat landscape, traditional defence mechanisms often struggle to keep pace with attacker ingenuity. Cyber deception offers a proactive approach, utilizing traps and deceiving tactics to lure attackers into controlled environments. Honeypots are one of the prominent techniques of cyber deception that act as decoy systems for capturing attacks and analyzing the adversary strategy. They provide an early detection mechanism as well as a method for learning how adversaries work and think. However, over the past years, several researchers have shown methods for fingerprinting honeypots. This significantly decreases the value of a honeypot; if an attacker can recognize the existence of such a system, they can evade it. This talk delves into the world of cyber deception, focusing on honeypots, their efficacy, and some fingerprinting techniques from my research. We'll explore how honeypots function and the contributions from The Honeynet Project, a non-profit, open-source community.\n**Speaker:** [Shreyas Srinivas](https://www.linkedin.com/in/shreyas-srinivasa-ph-d-47038b13/overlay/contact-info/) is Cyber Security Specialist at TERMA Group, Co-founder of Selene CTI and previously Security Researcher at Aalborg University. He is contributor to the [Honeynet project](https://www.honeynet.org/), a non-profit dedicated to investigating the latest attacks and developing open source security tools to improve Internet security.\n\n**Information-Flow Security for the Working Software Engineer**\nHow does information flow through your software? Awareness of this gives you a new perspective when writing software with security requirements; it helps you avoid introducing information leaks into software, and gives you a conceptual framework for reasoning about software security in general.\nIn this talk, you will meet concepts like information leak, sources & sinks, dependencies, side\u2013channels, and flow policies. You will learn to identify information flows in software, to express application\u2013specific security requirements as flow policies, and to implement software that adheres to said flow policies.\nWant to try this out? Then bring a laptop; right after the talks, I will organize a little activity where you can tinker with \\`ifc-ts\\` - my TypeScript library for expressing flow policies. In \\`ifc-ts\\`, flow policy checks are reduced to checks performed by TypeScript's type checker. Thus, if your code type-checks, then your code is guaranteed to adhere to the flow policies expressed therein.\n\n**Speaker:** [Willard Rafnsson](https://www.willardthor.com/) is Associate Professor at the IT University of Copenhagen (ITU). I am a member of the Center for Information Security and Trust (CISAT), as well as the Programming, Logic and Semantics (PLS) and Software Quality Research (SQUARE) groups.\n\n**Location:** IT University, Copenhagen"
     },
     {
         "group": "Cuddalore",
@@ -318,6 +338,16 @@
         "link": "https://www.meetup.com/owasp-maine/events/300520813",
         "timezone": "America/New_York",
         "description": "Are you being asked about the security of your software supply chain? This seems to be one of the hottest and most prominent topics, both from auditors and customer compliance requirements right now within application and software security.\n\nJoin us Wednesday, May 22nd from 6:30pm - 8:30pm to hear from the experts at Synopsys software integrity group on the best ways to utilize SBOM's to ensure your software supply chain is secure!"
+    },
+    {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "Wasatch AppSec/OWASP-SLC - May Meetup (in person) @ Murray Park - Pavilion #4",
+        "date": "2024-05-29",
+        "time": "12:00-06:00",
+        "link": "https://www.meetup.com/owasp-slc/events/300938258",
+        "timezone": "America/Denver",
+        "description": "**Agenda:**\n\n1. Lunch\n2. Discussion: **AppSec AI, how to test with it, test it, and LLMs.**\n1. Mini-presentations by Justin Ellis and Seth Law\n\nTo help us plan for food, please RSVP if you're plan to be there.\n\nSee you all then!\n[ADDRESS]\nMurray Park Pavilion #4, Murray, UT 84107\nhttps://maps.app.goo.gl/QdGX5UM2eAsM23Ur7"
     },
     {
         "group": "South Florida",
