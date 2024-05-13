@@ -85,21 +85,14 @@ Insecure deserialization vulnerabilities can lead to the following:
 
 ## Mitigation
 
-1. The safest approach is never to accept serialized objects from untrusted sources. If that's not possible, consider the following mitigations:
-
-2. Integrity Checks: If you must deserialize objects from untrusted sources, ensure the integrity of the serialized data using digital signatures or similar mechanisms.
-
-3. Strict Type Constraints: Enforce strict type constraints during deserialization and allow the deserialization of only a few expected classes.
-
-4. Isolate Code: Run the deserialization code in an isolated environment, such as a separate process or a sandbox, to limit the impact of any malicious code execution.
-
-5. Log Deserialization Exceptions: Log any exceptions that occur during deserialization. Many deserialization exploits throw exceptions as part of the attack.
-
-6. Monitor Deserialization: Monitor the deserialization process for abnormal memory, CPU, file system, or network usage.
-
-7. Use Alternative Data Formats: Use less complex data formats such as JSON for serialization if possible.
-
-8. Keep Up-to-Date: Update your software with the latest security patches, which may address known deserialization vulnerabilities.
+The safest approach is never to accept serialized objects from untrusted sources. If that's not possible, consider the following mitigations:
+1. Integrity Checks: If you must deserialize objects from untrusted sources, ensure the integrity of the serialized data using digital signatures or similar mechanisms.
+2. Strict Type Constraints: Enforce strict type constraints during deserialization and allow the deserialization of only a few expected classes.
+3. Isolate Code: Run the deserialization code in an isolated environment, such as a separate process or a sandbox, to limit the impact of any malicious code execution.
+4. Log Deserialization Exceptions: Log any exceptions that occur during deserialization. Many deserialization exploits throw exceptions as part of the attack.
+5. Monitor Deserialization: Monitor the deserialization process for abnormal memory, CPU, file system, or network usage.
+6. Use Alternative Data Formats: Use less complex data formats such as JSON for serialization if possible.
+7. Keep Up-to-Date: Update your software with the latest security patches, which may address known deserialization vulnerabilities.
 
 ## References
 - [OWASP Top 10-2017 A8-Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)  
