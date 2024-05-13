@@ -3,8 +3,9 @@
 layout: col-sidebar
 title: Insecure Deserialization
 author: Vaibhav Malik
-tags: [attacks, application, web]
-permalink: /attacks/Insecure_Deserialization
+contributors: kingthorin
+tags: [vulnerability, application, web]
+permalink: /vulnerabilities/Insecure_Deserialization
 
 ---
 
