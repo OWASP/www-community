@@ -71,7 +71,7 @@ public class DeserializeCookie {
 }
 ```
 
-If an attacker is able to replace the `cookies.ser` file with a 
+If an attacker is able to replace the `cookies.ser` file or its content with a 
 malicious serialized object, they could potentially execute arbitrary 
 code when the object is deserialized. For example, the attacker could create a serialized object that executes OS commands when deserialized.
 
