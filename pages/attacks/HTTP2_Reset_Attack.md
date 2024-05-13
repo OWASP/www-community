@@ -15,7 +15,7 @@ permalink: /attacks/HTTP2_Reset_Attack
 
 HTTP/2 is an iteration of the HTTP protocol, designed to improve 
 performance and security compared to HTTP/1.1. However, a vulnerability 
-in the HTTP/2 protocol, known as the "Reset Attack", was discovered that 
+in the HTTP/2 protocol, known as the "Rapid Reset Vulnerability", was discovered that 
 could allow an attacker to terminate connections and prevent assets from loading.
 
 In an HTTP/2 Reset Attack, the attacker sends a crafted RST_STREAM frame 
@@ -76,6 +76,7 @@ Ultimately, the HTTP/2 specification needs to be updated to address this vulnera
 ## References
 - [HTTP/2 Reset Attack paper](https://www.usenix.org/system/files/sec22summer_hossain-sazzad.pdf)
 - [RFC 9113 - HTTP/2](https://www.rfc-editor.org/rfc/rfc9113.html)
-- [Cloudflare Blog - HTTP/2 Reset Attack](https://blog.cloudflare.com/http-2-specification-vulnerability/)
+- [Cloudflare Blog - HTTP/2 Reset Attack](https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack)
+- [CVE-2023-44487](https://nvd.nist.gov/vuln/detail/CVE-2023-44487)
 
 [[:Category:Attack]](https://owasp.org/www-community/attacks/)
