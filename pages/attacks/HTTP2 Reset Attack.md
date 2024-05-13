@@ -13,7 +13,7 @@ permalink: /attacks/HTTP2_Reset_Attack
 
 ## Description
 
-HTTP/2 is the latest version of the HTTP protocol, designed to improve 
+HTTP/2 is an iteration of the HTTP protocol, designed to improve 
 performance and security compared to HTTP/1.1. However, a vulnerability 
 in the HTTP/2 protocol, known as the "Reset Attack", was discovered that 
 could allow an attacker to terminate connections and prevent assets from loading.
