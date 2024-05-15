@@ -12,6 +12,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "June 2024 OWASP Austin Security Professionals Happy Hour",
+        "date": "2024-06-13",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/299655980",
+        "timezone": "America/Chicago",
+        "description": "**When:** Thursday, June 13th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Checkmarx](https://checkmarx.com)\n*Checkmarx is constantly pushing the boundaries of Application Security Testing to make security seamless and simple for the world\u2019s developers and security teams. As the AppSec testing leader, we deliver the unparalleled accuracy, coverage, visibility, and guidance our customers need to build tomorrow\u2019s software securely and at speed.*"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Study Group",
         "date": "2024-05-30",
         "time": "12:00-05:00",
@@ -78,16 +88,6 @@
         "link": "https://www.meetup.com/meetup-group-owasp-birmingham/events/300370233",
         "timezone": "Europe/London",
         "description": "Welcome from OWASP Birmingham our first Meetup of 2024\n\nOnce again we'll be @Hays at One Colmore Square Thursday 23rd May for two great Infosec talks\n\n5.45pm - Doors open\n6.15pm - Welcome and Food\n6.30pm - \"**Post-Quantum Cryptography**\"\n\nSpeaker: Charlie Anglin\n\nSynopsis : Quantum computers are here and research is advancing every day. Boffins tell us that the rise of quantum computing will soon make our current encryption algorithms irrelevant. This talk aims to cover questions such as:\n\n\u00b7 What are the facts?\n\u00b7 What's being done to produce quantum-safe cryptography?\n\u00b7 What can we expect to happen in the next few years?\n\u00b7 What actions, if any, should we be taking?\n\nSpeaker Bio:\nCharlie is an engineer at Capgemini. He's spent the last 8 years in a number of roles, in particular as a security engineer and as a developer across multiple languages.\n\n7.15pm - Break\n7.30pm - \"**Practical Security Testing for E-Commerce and Payment Applications**\"\n\nSpeaker: Soroush Dalili\n\nSynopsis: This talk aims to deepen the audience's understanding of security challenges in e-commerce and payment applications and to introduce a practical testing methodology. We will detail specific vulnerabilities and demonstrate how to test for race conditions using tools like Burp Suite and Turbo Intruder. Additionally, if time permits, we will explore intriguing cases where simple arithmetic operations lead to unexpected security outcomes.\n\nSpeaker Bio:\nSoroush, the founder and director of SecProject, is a distinguished expert in web application security with over 15 years of experience specialising in vulnerability discovery, security source code review, and penetration testing. Before establishing his own company, he served as a principal security consultant at MDSec and NCC Group. He has contributed numerous security advisories to industry giants such as Microsoft, Mozilla, Adobe, Yahoo, and Facebook. Soroush's expertise has been showcased through speaking engagements at security conferences and events, including AppSec EU, SteelCon, BSides Manchester, and HackPra.\n\n8.15pm - Questions/Any Other Business\n8.30pm - Close\n\nRSVP when you get a chance so we can plan accordingly. We look forward to catching up with you all next month!"
-    },
-    {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "Rethinking attack surface management for an entire country",
-        "date": "2024-05-14",
-        "time": "18:00+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/300746223",
-        "timezone": "Australia/Brisbane",
-        "description": "In the physical world, if our neighbours left their front door open and were being robbed in broad daylight, the community would do something about it, like calling the police or yelling at the criminals from a safe distance. On the internet, we don\u2019t really do anything. Even the government just sits around waiting for people to (virtually) get shot and then report an incident. We need to rethink our approach.\nIn this talk, Haoxi will talk about trench stories over the last 6 months of running DirectCyber, a volunteer based CSIRT that tracks exposures to critical vulnerabilities and notifies potential victims with pinpoint accuracy. He will cover why this was feasible to run with 2.5-person team, how to prioritise which vulnerabilities to track, challenges for disclosure, and legal concerns. He will share success cases from other public and private sector companies such as DIVD and TruffleSec, along with the bigger picture of how we can influence government security strategy for the better if we work together."
     },
     {
         "group": "Bristol Uk",
