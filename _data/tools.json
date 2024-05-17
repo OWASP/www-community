@@ -1979,5 +1979,32 @@
       "platforms": "SaaS",
       "note": "Online Nikto web server scanner designed to assess the security of web servers by identifying potential vulnerabilities and misconfigurations.",
       "type": "DAST"
+   },
+   {
+      "title": "Anchore Enterprise",
+      "url": "https://anchore.com/platform/",
+      "owner": "Anchore Inc.",
+      "license": "Commercial",
+      "platforms": "Docker, AWS, Kubernetes, Azure, GCP",
+      "note": "An SBOM-powered platform that protects and secures your software supply chain end-to-end. Free trial available.",
+      "type": "SAST"
+   },
+   {
+      "title": "Syft",
+      "url": "https://github.com/anchore/syft",
+      "owner": "Anchore Inc.",
+      "license": "Open Source",
+      "platforms": "Linux, MacOS, Windows",
+      "note": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems.",
+      "type": "SAST"
+   },
+   {
+      "title": "Grype",
+      "url": "https://github.com/anchore/grype",
+      "owner": "Anchore Inc.",
+      "license": "Open Source",
+      "platforms": "Linux, MacOS, Windows",
+      "note": "A vulnerability scanner for container images and filesystems.",
+      "type": "SAST"
    }
 ]
