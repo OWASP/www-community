@@ -50,16 +50,6 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2024-05-16",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/300909022",
-        "timezone": "America/Chicago",
-        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
-    },
-    {
         "group": "Beja",
         "repo": "www-chapter-beja",
         "name": "0x01 Securing the Web",
@@ -130,16 +120,6 @@
         "description": "Speaker: Ben Struebing; \"The Summit Awaits: Are you ready the Purple Ascent?\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
-        "group": "Columbus",
-        "repo": "www-chapter-columbus",
-        "name": "OWASP Top 10 for Large Language Model Applications",
-        "date": "2024-05-16",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/columbus-owasp/events/295530895",
-        "timezone": "America/New_York",
-        "description": "The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs). The project provides a list of the top 10 most critical vulnerabilities often seen in LLM applications, highlighting their potential impact, ease of exploitation, and prevalence in real-world applications. Examples of vulnerabilities include prompt injections, data leakage, inadequate sandboxing, and unauthorized code execution, among others. The goal is to raise awareness of these vulnerabilities, suggest remediation strategies, and ultimately improve the security posture of LLM applications."
-    },
-    {
         "group": "Copenhagen",
         "repo": "www-chapter-copenhagen",
         "name": "A Night of Honeypots and Information flow security",
@@ -190,16 +170,6 @@
         "description": "An introduction to OWASP's Juice Shop. A vulnerable website built for CTF practice."
     },
     {
-        "group": "Kansas City",
-        "repo": "www-chapter-kansas-city",
-        "name": "OWASP KC May Meetup",
-        "date": "2024-05-16",
-        "time": "18:00-05:00",
-        "link": "https://www.meetup.com/owasp-kansas-city/events/300496496",
-        "timezone": "America/Chicago",
-        "description": "TBD"
-    },
-    {
         "group": "Limassol",
         "repo": "www-chapter-limassol",
         "name": "OWASP Chapter Limassol meetup 2024-v1",
@@ -218,6 +188,16 @@
         "link": "https://www.meetup.com/owasp-lisboa-chapter/events/300726135",
         "timezone": "Europe/Lisbon",
         "description": "Join us for the 7th OWASP Lisboa meetup!\n\nThe OWASP Lisboa chapter meetup will be held on May 28th, 2024, at 18:00, **and is** **supported by [Springer Nature Group](https://www.springernature.com/) and [AP2SI](https://ap2si.org/).**\n\nThe schedule is the following:\n**18:00** - **Welcome notes** by the OWASP Lisboa chapter leadership team\n**18:15** - **Technical Challenges of Security Scanning in CI/CD** by Tiago Mendo\n**19:10** - **Harnessing Reachability Analysis to Discern Real Threats in** by Joseph Hejderup\n**20:00** - **Drinks & Dinner** by Springer Nature Group\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Talks**:\n\nTitle: **Technical Challenges of Security Scanning in CI/CD**\n\nSpeaker: **Tiago Mendo**\n\nAbstract:\nHave you ever tried to add a web application security scanner to a CI/CD pipeline?\nI intend to draw attention to some of the challenges that development/security teams experience when trying to automate security tests.\nThe objective is to make the audience aware of these problems so that they can solve them as soon as possible, increasing the success of the tests and the adoption by the teams, which, in the end, will lead to greater security for the organization.\nThe focus will be on problems such as the scale of tests, speed of obtaining results, false positives and how these can destroy the process - or make it more expensive, and the use of the tools itself. All problems will be based on real situations, with examples whenever possible. I will propose solutions for different teams' maturity levels, giving practical tips to start implementing security in the developers' pipeline.\n\nBio:\nTiago Mendo is a co-founder and CTO of Probely, a cybersecurity company that does web and API security scanning. With over 19 years of experience in the security field, he has extensive experience in pentesting applications, training, and providing all-around security consultancy.\nHolds a Master's in Information Security from Carnegie Mellon University and a CISSP certification. He is also a qualified member of AP2SI, a non-profit organization that promotes Information Security, and Co-Leader of the OWASP Lisboa Chapter, in Portugal.\nHe is also an international speaker at security conferences, such as SnowFROC, LASCON, BSides Krak\u00f3w, and BSides Lisbon.\n\nLinkedIn: [https://www.linkedin.com/in/tiagomendo/](https://www.linkedin.com/in/tiagomendo/)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nTitle: **Harnessing Reachability Analysis to Discern Real Threats in Software Dependencies**\n\nSpeaker: **Joseph Hejderup**\n\nAbstract:\nIn this talk, we will dive into the shortcomings of traditional dependency analysis methods, which usually focus on looking at build manifests and metadata, to spot security or performance vulnerabilities in Java projects. While tools like Maven Dependency Checker and Gradle's dependency-analysis plugin are invaluable for their ability to manage dependencies, they often fall short when we need quick and precise answers, forcing developers to lean on time-consuming tests and manual code reviews. We believe that a thorough look at how dependencies are actually used in the code\u2014with the help of static and reachability analyses\u2014can be a more effective way to pinpoint real threats in Java dependencies.\n\nWe'll use real-world examples to show how static analysis, and in particular reachability analysis, offers deeper insights into potential vulnerabilities by moving beyond simple metadata. By sharing examples where static analysis has been a game-changer, and pointing out where it might not be enough, we aim to shed light on the challenges and opportunities this method brings to improving security and performance in software projects.\n\nOur goal is to provide attendees with practical strategies for using static and reachability analyses, promoting a more detailed method for managing dependencies and finding vulnerabilities in software applications.\n\nBio:\nPart-time developer, part-time PhD student, full-time enthusiast in developing and researching techniques that makes package management system more intelligent and resilient against supply chain problems! Joseph Hejderup (Researcher/Software Engineer at Endor Labs & PhD student at Delft University of Technology) is applying program analysis techniques to better understand how we use third-party components and what risks third-party components entails from a security and maintenance perspective. Currently, he is applying years of research in Endor Labs with the mission to make dependency management a robust process that will empower developers, increase productivity, and solve security problems.\n\nLinkedIn: [https://www.linkedin.com/in/josephhejderup/](https://www.linkedin.com/in/josephhejderup/)"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "LayerOne Security Conference - Pasadena, CA",
+        "date": "2024-05-25",
+        "time": "09:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/301054531",
+        "timezone": "America/Los_Angeles",
+        "description": "**OWASP LA** will be hosting a booth at the **LayerOne 2024** security conference coming up in two short weeks! Be sure to stop by and say hi!\n\nDon\u2019t forget \u2013 you have until May 25th to save big on registration. Head over to the [registration page](http://www.layerone.org/registration/) and secure your tickets now! Use promo code **L12024OWASPLA10** for 10% off registration courtesy of OWASP Los Angeles.\n\nPre-registration gets you full access to the event, all presentations, contests, villages, and the Saturday Night party.\n\nSee you there!!"
     },
     {
         "group": "Los Angeles",
@@ -270,16 +250,6 @@
         "description": "We've resumed our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for May will be **A02:2021 - Cryptographic Failures**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "What's in your AI code? Learn why SCA tools are wrong, and how to deal with it",
-        "date": "2024-05-16",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/300788299",
-        "timezone": "America/New_York",
-        "description": "With the rise of AI-fueled by Python-based libraries, it has become of paramount importance to scan Python-based projects and their dependencies for OSS vulnerabilities. Python relies on package managers like pip or conda to manage declared dependencies. Dependencies are declared in manifest files which the package manager uses to install the correct version of the required dependency. However, Python\u2019s dependency management system coupled with its dynamic type nature makes it an especially challenging language to deal with.\n\nOf particular focus is the phenomenon of phantom dependencies which are unreported dependencies in a project's manifest profile. These hidden dependencies, which are often provided dependencies (which is especially true for libraries such as tensorflow and pytorch which are essential for AI), challenge software composition analysis (SCA) of Python code, impacting the reliability of vulnerability results.\n\nFor example, in the case of OpenAI's baseline codebase, there is a dependency on tensorflow that is not explicitly declared and is hence a phantom dependency This can cause unexpected behavior and security vulnerabilities. We show how using type-aware program analysis to create call graphs and perform reachability helps us determine the correct dependency set for a codebase irrespective of what is in the manifest.\n\nProgram analysis aims to extract information from software programs to enhance reliability, security, and performance. This session explores program analysis, specifically reachability analysis in Python, and delves into phantom dependencies - often overlooked in Python applications.\n\nPython's dynamic typing and interpreted nature make it a challenging subject for reachability analysis. The lack of type information makes it hard to precisely determine what dependency/features are used in the code.\n\nIn summary, program analysis, including Python's unique challenges, is essential in software development. Phantom dependencies in Python underscore the significance of meticulous dependency management for code reliability and security. Understanding these concepts is vital for Python developers aiming to build robust software. This abstract sheds light on program analysis complexities and the pitfalls of phantom dependencies, offering valuable insights into Python development and software reliability."
-    },
-    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Steps to Reduce Friction between Development and Security Teams",
@@ -298,16 +268,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/300641588",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Portland",
-        "repo": "www-chapter-portland",
-        "name": "Managing Open Source Vulnerabilities for PCI DSS Compliance",
-        "date": "2024-05-16",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-portland-chapter/events/300869273",
-        "timezone": "America/Los_Angeles",
-        "description": "PCI DSS version 4.0 contains a host of new practices that will become requirements on March 31, 2025. In this talk, we focus on a change that looks \u2014 at first glance \u2014 to be minor, but in reality could have significant implications for Application Security teams: the requirement to manage all internal vulnerabilities, regardless of criticality.\n\nWe\u2019ll focus on how to address open source software (OSS) vulnerabilities, including:\n\n* What it means to \u201cmanage vulnerabilities\u201d\n* Why OSS presents the greatest risk to compliance with this new requirement\n* The security tool problem preventing organizations from addressing OSS risk\n* Getting accurate dependency inventories and prioritizing remediation\n* Setting up guardrails to ensure developers select safe OSS dependencies\n\nENTRY\nEnter from the door on Broadway and take the elevator to the 11th floor.\n\nSCHEDULE\nDoors open at 5:30. The talk will begin about 6pm.\n\nNO ENTRY AFTER 6:15 PM\nThe outer doors auto-lock at 6pm. We will station someone at the door to let people in until 6:15. It will not be possible to enter the building after 6:15.\n\nCONTACT INFORMATION REQUIRED TO ATTEND\nFor liability reasons, the building owner requires us collect names and contact info for each person in the building after normal business hours. You will have a choice of signing in with a phone and a QR code or on paper, but we will have to collect this info from all attendees. (If this requirement will prevent you from attending, please let us know. We can't change the rules for this venue, but we can take your feedback into account when we choose venues.)\n\nACKNOWLEDGEMENTS\n\n* Our host this month is NedSpace, a co-working space in downtown Portland.\n* Our sponsor this month is Endor Labs, who will be providing food (as well as the speaker!)"
     },
     {
         "group": "Portland Me",
@@ -428,16 +388,6 @@
         "link": "https://www.meetup.com/owasp-timisoara-chapter/events/300712957",
         "timezone": "Europe/Bucharest",
         "description": "The next OWASP Timisoara Chapter Meetup will be ***in person***.\n\nSee https://owasp.org/www-chapter-timisoara/ for more information about the OWASP Timisoara chapter.\n\nTheme sessions - Theme: Firewalls, Product Security & Contingency plans.\n\n\\`Schedule\\` **\\`Time:\\`**\\` 18:00 to 20:30\\`\nIntroduction, OWASP News & Updates - Catalin Curelaru\nSecuring the Gates: The Hidden Flaws Behind the Firewall - Adrian Daniel BACANU (RAZDON)\nRunning a Product Security Assessment Program at scale - Alina NICULA (VISMA)\nContingency plan from security point of view - Adrian BARAN (VITESCO)\n\nLocation of the event: UBC3, et 10, Sediu VISMA, Pia\u021ba Consiliul Europei 2 \u00b7 Timi\u0219oara\n\nEvent powered by VISMA\n\nMore about the speakers and topics:\n**Adrian Daniel BACANU - CEO @ RAZDON,** is the CEO and co-founder of Razdon, a pioneering CyberSecurity startup. With 14 years of enterprise experience and a lifelong passion for hacking\u2014now spanning two decades\u2014Daniel brings a wealth of expertise to the cybersecurity field. He still offers some Security Architectural consultancy for different companies across Europe, and from time to time, he engages in bounty hunting. When not decoding the matrix of cyber threats, Daniel enjoys life with his wife and two boys, plays football twice a week, and maintains a spirited sense of humor\u2014because in cybersecurity, sometimes, you really can't afford to joke.\n***\\~Securing the Gates: The Hidden Flaws Behind the Firewall\\~***\nEffective cybersecurity is not just about having defenses in place but ensuring they are properly designed. 'Securing the Gates: The Hidden Flaws Behind the Firewall' illuminates the common pitfalls in firewall implementations that often go unnoticed. This presentation will demonstrate typical design errors that compromise security and provide actionable insights on how to rectify these flaws to create robust defenses. Attendees will learn how to not only deploy but also optimize firewalls to safeguard their digital assets effectively.\n\n**Alina NICULA** - **VASP Lead and Product security assessment service owner and reviewer @Visma**. Alina has been working within product development teams as a software developer, security engineer, software and cloud service architect. In the last years she focused on software security by guiding Visma teams into securing their applications, data, cloud workloads, and delivery pipelines to avoid potential cybersecurity risks.\n***\\~Running a Product Security Assessment Program at scale\\~***\nHaving a product security assessment program is essential for any company. It is equally critical to ensure that this program remains relevant over the time and is scalable as the company grows.In this presentation, I will discuss how we ensure that our designed processes empower development teams to make informed security decisions while also giving them ownership over the remediation of the security aspects that impact their products.\nHowever, achieving this goal requires a strong and knowledgeable security review team that supports the delivery teams with informed security by design best practices.\nSo, how have we been able to grow our program? I hope you will leave this presentation with a clear understanding of our approach.\n\n**Adrian BARAN -** **Security Manager @ VITESCO**,\n\n***\\~ Contingency plan from security point of view \\~***\nAbstract:"
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "Ensuring Application Security Excellence in the Age of AI & CASA Framework",
-        "date": "2024-05-16",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516396",
-        "timezone": "America/Vancouver",
-        "description": "**Ensuring Application Security Excellence in the Age of AI** with Michael Argast\n\nIn a time where artificial intelligence (AI) permeates every facet of digital existence, the imperative to ensure application security has reached unprecedented heights. In this talk, Michael Argast, Co-founder and CEO of Kobalt.io will delve into the essential strategies for ensuring application security excellence amidst the pervasive influence of AI. By exploring the intricate interplay between AI and cybersecurity, you will gain insights into how AI augments defensive strategies, mitigates vulnerabilities, and addresses emerging threats within application environments. Through real-world case studies and practical recommendations, this session equips you with the knowledge and tools needed to leverage AI effectively in the face of evolving challenges.\n\n**Michael** is an experienced cybersecurity professional with over 20 years of industry experience. He is the co-founder and CEO of Kobalt.io, a rapidly growing cloud-focused security services provider. Kobalt.io works with over 200 cloud-focused technology companies to help develop their cyber security programs and ensure the security of their organization.\n\n**Enhancing Cloud Application Security with the CASA Framework** with Farshad Abasi\n\nThis presentation will introduce the Cloud Application Security Assessment (CASA) framework, designed according to OWASP\u2019s ASVS standards to secure cloud-based applications. We will explore CASA's tiered risk-based assessment model that categorizes applications into different risk tiers and applies appropriate security verifications. This systematic approach helps in effectively managing security risks associated with cloud applications, aiming to protect consumer data and conform to best practices in cybersecurity.\n\nWe would like to thank **Microsoft** for sponsoring this event."
     },
     {
         "group": "Samm",
