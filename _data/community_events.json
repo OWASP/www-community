@@ -1,5 +1,15 @@
 [
     {
+        "group": "Algiers",
+        "repo": "www-chapter-algiers",
+        "name": "OWASP Algiers Free Training Initiative | ISC2 CC: Certified in CyberSecurity",
+        "date": "2024-05-25",
+        "time": "20:00+01:00",
+        "link": "https://www.meetup.com/owasp-algiers-chapter/events/301146140",
+        "timezone": "Africa/Algiers",
+        "description": "**Event Highlights:**\n\n**\\- Expert Instruction:** Learn from industry leader Taher Amine ELHOUARI.\n**\\- CC Certification:** Access a FREE exam voucher for the Certified in Cybersecurity (CC) certification.\n**\\- Networking Opportunities:** Connect with fellow enthusiasts and professionals.\n**\\- Comprehensive Curriculum:** Deep dive into essential cybersecurity domains.\n\n** Updated Registration Details:**\nLink for Students: [https://lnkd.in/dz4uS8uU](https://lnkd.in/dz4uS8uU)\nLink for Employees: [https://lnkd.in/dJCKFeVA](https://lnkd.in/dJCKFeVA)\n\nWe encourage you to register early to secure your spot. Thank you for your continued support and enthusiasm. Together, let's strengthen our cybersecurity skills and make a positive impact in the field.\n\n** Mark Your Calendars:**\nJoin us on 25 May 2024.\n\nWe can't wait to see you there!\nStay safe and stay secure!"
+    },
+    {
         "group": "Augsburg",
         "repo": "www-chapter-augsburg",
         "name": "2. OWASP Augsburg Stammtisch",
@@ -200,16 +210,6 @@
         "description": "OWASP topic TBA"
     },
     {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2024-05-20",
-        "time": "18:45-04:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/299878996",
-        "timezone": "America/New_York",
-        "description": "An introduction to OWASP's Juice Shop. A vulnerable website built for CTF practice."
-    },
-    {
         "group": "Limassol",
         "repo": "www-chapter-limassol",
         "name": "OWASP Chapter Limassol meetup 2024-v1",
@@ -262,6 +262,16 @@
     {
         "group": "Nashville",
         "repo": "www-chapter-nashville",
+        "name": "Digital Safeguards: Your Essential Blueprint for Navigating Cyber Threats\"",
+        "date": "2024-06-19",
+        "time": "19:00-05:00",
+        "link": "https://www.meetup.com/owasp-nashville-chapter/events/300436528",
+        "timezone": "America/Chicago",
+        "description": "Outdated cybersecurity tactics leave us vulnerable. This thought-provoking talk introduces the \u201cCyber Risk Manifesto\u201d, drawing upon the wisdom of military intelligence and corporate defense methodologies. Explore innovative strategies for predicting threats, reinforcing defenses, and empowering everyone to become cybersecurity guardians. Discover how outmaneuvering attackers is the key to digital resilience."
+    },
+    {
+        "group": "Nashville",
+        "repo": "www-chapter-nashville",
         "name": "Supply Chain Security with Dan Lorenc, CEO Chainguard",
         "date": "2024-05-22",
         "time": "17:00-05:00",
@@ -288,6 +298,16 @@
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297780385",
         "timezone": "Pacific/Auckland",
         "description": "We've resumed our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for May will be **A02:2021 - Cryptographic Failures**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
+    },
+    {
+        "group": "Newcastle Uk",
+        "repo": "www-chapter-newcastle-uk",
+        "name": "OWASP Newcastle June 2024",
+        "date": "2024-06-19",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-newcastle-chapter/events/300468663",
+        "timezone": "Europe/London",
+        "description": "We're back with our second event of 2024! We\u2019ll be doing our usual two talks and pizza format.\n\nLocation: Precursor Security (at the old Newcastle Building Society office)\n\nRough schedule:\n\n1800 - 1815 Arrival and networking\n1815 - 1830 OWASP Newcastle Welcome\n1830 - 1915 Talk one\n1915 - 2000 Pizza and networking\n2000 - 2045 Talk two\n2045 - onwards Pub?\n\nTalk overviews:\n\nTalk one\n**Title:** Supercharging Enterprise DFIR - 'Forensics as Code', AI, Automation and Cloud.\n**Speaker:** Michael L\n**Speaker Bio:** Currently the Director of SOC/DFIR for Precursor Security, experienced working in different SOC teams across public sector, financial services and managed services. I've lead DFIR engagements for a varied client base across EMEA.\n**Talk Synopsis:** This talk will introduce the latest techniques to supercharge your response to threat actors at enterprise scale. We will cover techniques I've employed to combat Lockbit, Akira and other TA's in challenging and diverse environments, focusing on new trends shaking up the DFIR corner such as performing forensics investigations 'as code', harnessing AI for DFIR and utilising Azure for automation and almost limitless scale.\n\nTalk two\n**Title:** Utilizing PowerBI for DFIR and incident investigation.\n**Speaker:** Venkatraman Krishnamoorthy\n**Speaker Bio:** Working as SOC manager for Sage . I have lead critical investigations, detection engineering efforts, Security automation.\nProviding free cyber security Mentoring for economically modest students.\n**Talk Synopsis:** Leveraging Power BI for Digital Forensics and Incident Response (DFIR): Enhancing Data Analysis and Visualization\n\nAs always, tickets aren\u2019t required but help us gauge how much food to order.\n\n**Live Stream Info:** We're hoping to be able to live stream the event on our [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there."
     },
     {
         "group": "Orange County",
@@ -338,6 +358,16 @@
         "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/301006922",
         "timezone": "America/Sao_Paulo",
         "description": "**Retomada dos Encontros Presenciais do OWASP Chapter SP**\n\nTemos o prazer de anunciar o retorno dos nossos encontros presenciais! Este ser\u00e1 o primeiro evento presencial desde a pausa causada pela pandemia e estamos empenhados em torn\u00e1-lo inesquec\u00edvel com uma s\u00e9rie de discuss\u00f5es enriquecedoras para profissionais da seguran\u00e7a da informa\u00e7\u00e3o e desenvolvimento de software.\n\n**Detalhes do Evento:**\n\n* **Data:** 21 de Maio de 2024\n* **Hor\u00e1rio:** 18h30\n* **Local:** Universidade S\u00e3o Judas Tadeu - Campus Paulista, Av. Ang\u00e9lica, 2565 - Bela Vista, S\u00e3o Paulo\n\n**Painel: A Import\u00e2ncia da Seguran\u00e7a de Aplica\u00e7\u00f5es para o Compliance com LGPD/Privacidade**\nExploraremos o papel crucial da seguran\u00e7a de aplica\u00e7\u00f5es na conformidade com regulamenta\u00e7\u00f5es de privacidade e prote\u00e7\u00e3o de dados pessoais.\n\n* **Participantes**: Paulo Baldin (CISO e DPO, Stark Bank), Ronaldo (CISO, Horiens), Calza Neto (DPO, Sport Clube Corinthians Paulista)\n* **Mediador:** Wagner Elias (CEO, Conviso Application Security)\n\n**Painel: Medidas de Seguran\u00e7a e AppSec**\nEstrat\u00e9gias de seguran\u00e7a em implementa\u00e7\u00f5es t\u00e9cnicas, incluindo SSDL, shift-left, e desenvolvimento seguro.\n\n* **Participantes:** Juliana Gaioso (AppSec, PicPay), Daiane Santos (Tech Lead Mobile Security), Jessica Felix (Tech Lead, Ita\u00fa)\n* **Mediadora:** Ana Tessaro\n\n**Palestra: Strategic Code Security: GitHub Actions and SAST/SCA Integration**\nDemonstra\u00e7\u00e3o pr\u00e1tica de como integrar GitHub Actions com ferramentas SAST e SCA para identifica\u00e7\u00e3o de vulnerabilidades em diversas linguagens de programa\u00e7\u00e3o.\n\n* **Palestrante:** Filipi Pires (Threat Researcher & Cybersecurity Advocate, Senhasegura)\n\n**Conhe\u00e7a os Participantes:**\n\n**Paulo Baldin:** Com uma extensa trajet\u00f3ria como CIO, CISO e DPO na STARK BANK, Paulo possui mais de 16 anos de experi\u00eancia, coordenando mais de 100 projetos em diversas \u00e1reas, incluindo prote\u00e7\u00e3o de dados e privacidade.\n\n**Ronaldo Andrade:** Atuando como CISO na Horiens Risk Advisors, Ronaldo possui 18 anos de experi\u00eancia, especializado em infraestrutura, DevOps e Cyber Seguran\u00e7a.\n\n**Calza Neto:** DPO do Sport Clube Corinthians Paulista, Walter Calza Neto \u00e9 um advogado especialista em Prote\u00e7\u00e3o de Dados e Ciberseguran\u00e7a.\n\n**Wagner Elias:** CEO da Conviso Application Security, com mais de 20 anos de experi\u00eancia em seguran\u00e7a de aplica\u00e7\u00f5es e um membro ativo da comunidade de AppSec.\n\n**Juliana Gaioso:** Especialista em AppSec no PicPay, com uma vasta experi\u00eancia em desenvolvimento web e seguran\u00e7a da informa\u00e7\u00e3o.\n\n**Daiane Santos:** Tech Lead de Mobile Security, com uma carreira focada em seguran\u00e7a da informa\u00e7\u00e3o no setor financeiro.\n\n**Jessica Felix:** Tech Lead no Ita\u00fa Unibanco, com uma carreira rica em engenharia de software e lideran\u00e7a t\u00e9cnica.\n\n**Ana Tessaro:** Engenheira de Ciberseguran\u00e7a e mediadora do painel sobre medidas de seguran\u00e7a e AppSec.\n\n**Filipi Pires:** Threat Researcher & Cybersecurity Advocate na Senhasegura, destacado por sua atua\u00e7\u00e3o internacional como palestrante e especialista em seguran\u00e7a de aplica\u00e7\u00f5es.\n\n**Convidamos todos os interessados em aprofundar seus conhecimentos e pr\u00e1ticas em seguran\u00e7a de aplica\u00e7\u00f5es a participar deste encontro enriquecedor. Garanta sua participa\u00e7\u00e3o e junte-se a n\u00f3s em uma jornada de aprendizado e troca de experi\u00eancias.**"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "AppSec Days Pacific Northwest Conference 2024",
+        "date": "2024-06-15",
+        "time": "08:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/301143536",
+        "timezone": "America/Los_Angeles",
+        "description": "Join your security community for two days of  builder and breaker content, including session talks, workshops, and a CTF.\nLearn, play, network, meet new friends, or connect with existing ones.\n\nColeeen Coolidge will open our breaker track & Jason Haddix will kick off our breaker track.\n\nFull schedule @ [https://www.appsecpnw.org/schedule](https://www.appsecpnw.org/schedule)\nTickets @ [https://bit.ly/appsecpnw2024-tickets](https://bit.ly/appsecpnw2024-tickets)\n\nSee you there!"
     },
     {
         "group": "Seattle",
@@ -408,6 +438,16 @@
         "link": "https://www.meetup.com/owasp-timisoara-chapter/events/300712957",
         "timezone": "Europe/Bucharest",
         "description": "The next OWASP Timisoara Chapter Meetup will be ***in person***.\n\nSee https://owasp.org/www-chapter-timisoara/ for more information about the OWASP Timisoara chapter.\n\nTheme sessions - Theme: Firewalls, Product Security & Contingency plans.\n\n\\`Schedule\\` **\\`Time:\\`**\\` 18:00 to 20:30\\`\nIntroduction, OWASP News & Updates - Catalin Curelaru\nSecuring the Gates: The Hidden Flaws Behind the Firewall - Adrian Daniel BACANU (RAZDON)\nRunning a Product Security Assessment Program at scale - Alina NICULA (VISMA)\nContingency plan from security point of view - Adrian BARAN (VITESCO)\n\nLocation of the event: UBC3, et 10, Sediu VISMA, Pia\u021ba Consiliul Europei 2 \u00b7 Timi\u0219oara\n\nEvent powered by VISMA\n\nMore about the speakers and topics:\n**Adrian Daniel BACANU - CEO @ RAZDON,** is the CEO and co-founder of Razdon, a pioneering CyberSecurity startup. With 14 years of enterprise experience and a lifelong passion for hacking\u2014now spanning two decades\u2014Daniel brings a wealth of expertise to the cybersecurity field. He still offers some Security Architectural consultancy for different companies across Europe, and from time to time, he engages in bounty hunting. When not decoding the matrix of cyber threats, Daniel enjoys life with his wife and two boys, plays football twice a week, and maintains a spirited sense of humor\u2014because in cybersecurity, sometimes, you really can't afford to joke.\n***\\~Securing the Gates: The Hidden Flaws Behind the Firewall\\~***\nEffective cybersecurity is not just about having defenses in place but ensuring they are properly designed. 'Securing the Gates: The Hidden Flaws Behind the Firewall' illuminates the common pitfalls in firewall implementations that often go unnoticed. This presentation will demonstrate typical design errors that compromise security and provide actionable insights on how to rectify these flaws to create robust defenses. Attendees will learn how to not only deploy but also optimize firewalls to safeguard their digital assets effectively.\n\n**Alina NICULA** - **VASP Lead and Product security assessment service owner and reviewer @Visma**. Alina has been working within product development teams as a software developer, security engineer, software and cloud service architect. In the last years she focused on software security by guiding Visma teams into securing their applications, data, cloud workloads, and delivery pipelines to avoid potential cybersecurity risks.\n***\\~Running a Product Security Assessment Program at scale\\~***\nHaving a product security assessment program is essential for any company. It is equally critical to ensure that this program remains relevant over the time and is scalable as the company grows.In this presentation, I will discuss how we ensure that our designed processes empower development teams to make informed security decisions while also giving them ownership over the remediation of the security aspects that impact their products.\nHowever, achieving this goal requires a strong and knowledgeable security review team that supports the delivery teams with informed security by design best practices.\nSo, how have we been able to grow our program? I hope you will leave this presentation with a clear understanding of our approach.\n\n**Adrian BARAN -** **Security Manager @ VITESCO**,\n\n***\\~ Contingency plan from security point of view \\~***\nAbstract:"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "Application Security Pacific Northwest Conference",
+        "date": "2024-06-15",
+        "time": "08:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/301142469",
+        "timezone": "America/Vancouver",
+        "description": "You have to buy tickets for this OWASP conference, please go to the following site to register for the event:\nhttps://www.eventbrite.com/e/4th-annual-owasp-appsec-days-pacific-northwest-conference-in-person-tickets-858457528577"
     },
     {
         "group": "Samm",
