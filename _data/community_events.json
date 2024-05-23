@@ -127,7 +127,7 @@
         "time": "12:00+03:00",
         "link": "https://www.meetup.com/owasp-cairo-chapter/events/301160811",
         "timezone": "Africa/Cairo",
-        "description": "**Important Note:** The OWASP room is open and free for anyone to attend, the room space is limited to 40 attendee and the event pre-registration is required. While registration for the CAISEC event is not mandatory, it is important to confirm your attendance. **Any confirmations made without attendance at the event will result in exclusion from future events hosted by the OWASP Cairo Chapter.**\n\n**Event Details:**\n\nThis OWASP Cairo chapter event will focus on application threat modeling and mobile security in the multiverse of madness. The event will consist of two workshops:\n\n**\u2022\u2060 \u2060Time:** 12:00 PM - 4:00 PM\n**\u2022\u2060 \u2060Venue:** Dedicated room provided by CaiSec organizers\n\n**Event Agenda**\n**1.\u2060 \u2060Introduction to Application Thread Modeling (60 minutes) (By: Khaled Battah)**\n\n* Understanding the importance of threat modeling\n* Exploring the STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) model\n* Applying the threat modeling process to web applications\n\n**2.\u2060 Practical Application Threat Modeling with Attendees (90 minutes) (By: Mohamed alfateh and Khaled Battah)**\n\n* Attendees will work in small groups to perform a threat modeling exercise on a sample web application\n* Groups will present their findings and discuss mitigation strategies\n\n**3.\u2060 Mobile Security in the Multiverse of Madness (60 minutes) (By: Kareem Selim and Hassan Mostafa)**\n\n* Analyzing the security challenges of mobile applications in the multiverse\n* Exploring common vulnerabilities and attack vectors in mobile apps\n* Discussing best practices for securing mobile applications\n* Hands-on exercises to demonstrate mobile security techniques"
+        "description": "**Important Note:** The OWASP room is open and free for anyone to attend, the room space is limited to 40 attendee and the event pre-registration is required. While registration for the CAISEC event is not mandatory, it is important to confirm your attendance. **Any confirmations made without attendance at the event will result in exclusion from future events hosted by the OWASP Cairo Chapter.**\n\n**Event Details:**\n\nThis OWASP Cairo chapter event will focus on application threat modeling and mobile security in the multiverse of madness. The event will consist of two workshops:\n\n**\u2022\u2060 \u2060Time:** 12:00 PM - 4:00 PM\n**\u2022\u2060 \u2060Venue:** Dedicated room provided by CaiSec organizers\n\n**Event Agenda**\n**1.\u2060 \u2060Introduction to Application Threat Modeling (60 minutes) (By: Khaled Battah)**\n\n* Understanding the importance of threat modeling\n* Exploring the STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) model\n* Applying the threat modeling process to web applications\n\n**2.\u2060 Practical Application Threat Modeling with Attendees (90 minutes) (By: Mohamed alfateh and Khaled Battah)**\n\n* Attendees will work in small groups to perform a threat modeling exercise on a sample web application\n* Groups will present their findings and discuss mitigation strategies\n\n**3.\u2060 Mobile Security in the Multiverse of Madness (60 minutes) (By: Kareem Selim and Hassan Mostafa)**\n\n* Analyzing the security challenges of mobile applications in the multiverse\n* Exploring common vulnerabilities and attack vectors in mobile apps\n* Discussing best practices for securing mobile applications\n* Hands-on exercises to demonstrate mobile security techniques"
     },
     {
         "group": "Cincinnati",
@@ -250,26 +250,6 @@
         "description": "**OWASP LA** will be hosting a booth at the **LayerOne 2024** security conference coming up in two short weeks! Be sure to stop by and say hi!\n\nDon\u2019t forget \u2013 you have until May 25th to save big on registration. Head over to the [registration page](http://www.layerone.org/registration/) and secure your tickets now! Use promo code **L12024OWASPLA10** for 10% off registration courtesy of OWASP Los Angeles.\n\nPre-registration gets you full access to the event, all presentations, contests, villages, and the Saturday Night party.\n\nSee you there!!"
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - MAY 22, 2024",
-        "date": "2024-05-22",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/300022938",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Securing Generative AI Applications using the OWASP Top 10 for Large Language Models\nJoin us for dinner+drinks, networking, and see a presentation by **Steve Wilson**, OWASP project leader and Chief Product Officer at **Exabeam**\n\n**ABSTRACT**: What are the new risks that generative AI brings to your environment? In this cutting-edge session, we uncover the potential hazards that Large Language Models (LLMs) introduce to modern application ecosystems. Drawing on the expertise distilled in the OWASP Top 10 for LLMs, we offer a comprehensive roadmap for mitigating these risks. Attendees will gain insights into securing generative AI applications, recognizing the nuances of LLM vulnerabilities, and deploying defenses. This talk is a call to action for developers and security professionals to foster a culture of secure, responsible AI development. Equip yourself with the knowledge to anticipate threats, apply best practices, and build AI systems that are not only intelligent but also resilient in the face of cybersecurity challenges.\n\n**THANKS to OUR SPONSOR**: *[Kodem](https://www.kodemsecurity.com/)*\n*Kodem means \u201cfirst\u201d or \u201cearly\u201d in Hebrew. A priority. We believe in helping appsec teams make security a priority by spotlighting risks that truly matter. We believe in helping developers improve code quality by shifting left and catching issues early. And we believe in making people a priority: our customers, our team, and our partners.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
-    },
-    {
-        "group": "Maine",
-        "repo": "www-chapter-maine",
-        "name": "OWASP Maine: Secure the Supply Chain with Software Bill of Materials (SBOM's)",
-        "date": "2024-05-22",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-maine/events/300520813",
-        "timezone": "America/New_York",
-        "description": "Are you being asked about the security of your software supply chain? This seems to be one of the hottest and most prominent topics, both from auditors and customer compliance requirements right now within application and software security.\n\nJoin us Wednesday, May 22nd from 6:30pm - 8:30pm to hear from the experts at Synopsys software integrity group on the best ways to utilize SBOM's to ensure your software supply chain is secure!"
-    },
-    {
         "group": "Minneapolis St Paul",
         "repo": "www-chapter-minneapolis-st-paul",
         "name": "June meetup: Hidden Risks in Open-Source Code and AI Models",
@@ -288,16 +268,6 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/300436528",
         "timezone": "America/Chicago",
         "description": "Outdated cybersecurity tactics leave us vulnerable. This thought-provoking talk introduces the \u201cCyber Risk Manifesto\u201d, drawing upon the wisdom of military intelligence and corporate defense methodologies. Explore innovative strategies for predicting threats, reinforcing defenses, and empowering everyone to become cybersecurity guardians. Discover how outmaneuvering attackers is the key to digital resilience."
-    },
-    {
-        "group": "Nashville",
-        "repo": "www-chapter-nashville",
-        "name": "Supply Chain Security with Dan Lorenc, CEO Chainguard",
-        "date": "2024-05-22",
-        "time": "17:00-05:00",
-        "link": "https://www.meetup.com/owasp-nashville-chapter/events/298689779",
-        "timezone": "America/Chicago",
-        "description": "Join us for an informative and hands-on workshop on securing your software supply-chain. In this event, we will be joined by Dan Lorenc, CEO and founder of Chainguard Inc. We will have food, learning, swag and, of course, networking with other like-minded folks in the area.\n\nChainguard and Pins Mechanical will host us after the event for those that can come have some fun! To be sure that I can help ensure head count, parking and more, please be sure to RSVP if attending in-person.\n\nNote: This event is organized by the OWASP Nashville Chapter and is open to both OWASP members and non-members. Whether you are already a member or interested in becoming one, we encourage you to attend this event and learn more about the benefits of being part of the OWASP community."
     },
     {
         "group": "Netherlands",
@@ -350,14 +320,14 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Portland Me",
-        "repo": "www-chapter-portland-me",
-        "name": "OWASP Maine: Secure the Supply Chain with Software Bill of Materials (SBOM's)",
-        "date": "2024-05-22",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-maine/events/300520813",
-        "timezone": "America/New_York",
-        "description": "Are you being asked about the security of your software supply chain? This seems to be one of the hottest and most prominent topics, both from auditors and customer compliance requirements right now within application and software security.\n\nJoin us Wednesday, May 22nd from 6:30pm - 8:30pm to hear from the experts at Synopsys software integrity group on the best ways to utilize SBOM's to ensure your software supply chain is secure!"
+        "group": "Portland",
+        "repo": "www-chapter-portland",
+        "name": "AppSec Days Pacific Northwest 2024",
+        "date": "2024-06-15",
+        "time": "21:00-07:00",
+        "link": "https://www.meetup.com/owasp-portland-chapter/events/301184004",
+        "timezone": "America/Los_Angeles",
+        "description": "AppSec PNW is an annual regional conference produced by the Portland, Seattle, Vancouver, and Victoria OWASP chapters. This year it will be in Vancouver BC. (Last year it was in Portland.)\n\nOur featured speakers are [E Coleen C.](https://www.linkedin.com/in/ecoleenc/), CISO Advisor, and [Jason Haddix](https://www.linkedin.com/in/jhaddix/), CEO of Arcanum Information Security! Coleen will kick off the builder track, and Jason will launch the breaker track.\n\nAll the talks are on Saturday this year, and all the workshops on Sunday. You can find full details, including the complete schedule, at [appsecpnw.org](https://www.appsecpnw.org/schedule). Registration is on [EventBrite](https://www.eventbrite.com/e/4th-annual-owasp-appsec-days-pacific-northwest-conference-june-15-16-tickets-858457528577?aff=oddtdtcreator)."
     },
     {
         "group": "Salt Lake City",
@@ -368,6 +338,16 @@
         "link": "https://www.meetup.com/owasp-slc/events/300938258",
         "timezone": "America/Denver",
         "description": "**Agenda:**\n\n1. Lunch\n2. Discussion: **AppSec AI, how to test with it, test it, and LLMs.**\n1. Mini-presentations by Justin Ellis and Seth Law\n\nTo help us plan for food, please RSVP if you're plan to be there.\n\nSee you all then!\n[ADDRESS]\nMurray Park Pavilion #4, Murray, UT 84107\nhttps://maps.app.goo.gl/QdGX5UM2eAsM23Ur7"
+    },
+    {
+        "group": "Sao Paulo",
+        "repo": "www-chapter-sao-paulo",
+        "name": "23/05 - Meetup OWASP Chapter SP - Universidade S\u00e3o Judas Santo Amaro",
+        "date": "2024-05-23",
+        "time": "19:30-03:00",
+        "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/301178828",
+        "timezone": "America/Sao_Paulo",
+        "description": "Ap\u00f3s uma pausa devido \u00e0 pandemia, o OWASP S\u00e3o Paulo retorna aos encontros presenciais! O evento apresentar\u00e1 duas palestras, uma sobre seguran\u00e7a em cloud e outra sobre dicas sobre o in\u00edcio de carreira em Seguran\u00e7a da Informa\u00e7\u00e3o e Privacidade de Dados. Este \u00e9 um momento ideal para profissionais e estudantes interessados em seguran\u00e7a da informa\u00e7\u00e3o e desenvolvimento de software ampliarem seus conhecimentos e pr\u00e1ticas na \u00e1rea.\n\n**Detalhes do Evento:**\n**Data**: 23 de Maio de 2024\n**Hor\u00e1rio**: 19h30\n**Local**: Universidade S\u00e3o Judas Tadeu - Campus Santo Amaro\n**Sala 104/105**\n\n**Palestra: Por Tr\u00e1s de Toda Nuvem Segura H\u00e1 um Cliente Respons\u00e1vel**\n**Palestrante**: Gustavo Lichti (CISO e Pesquisador)\n**Detalhes**: A seguran\u00e7a tem se tornado uma preocupa\u00e7\u00e3o central para empresas de todos os tamanhos. Mas ser\u00e1 que a nuvem \u00e9 realmente segura? A resposta \u00e9 sim, com uma ressalva importante: a seguran\u00e7a depende n\u00e3o apenas dos provedores de servi\u00e7os na nuvem, como a AWS, mas tamb\u00e9m de como n\u00f3s, enquanto clientes, implementamos e gerenciamos nossas solu\u00e7\u00f5es e dados na nuvem de forma correta, seguindo as recomenda\u00e7\u00f5es e melhores pr\u00e1ticas do mercado. Nesta palestra, exploraremos como a AWS fornece uma infraestrutura segura e como voc\u00ea pode aproveitar suas ferramentas e pr\u00e1ticas recomendadas para garantir a seguran\u00e7a dos seus pr\u00f3prios dados e aplica\u00e7\u00f5es, cumprindo a sua parte no pacto de seguran\u00e7a no uso da nuvem.\n\n**Palestra: Padawans: O que eu queria ter sabido antes de come\u00e7ar!**\n**Palestrante**: Laerte Malafatti (Empreendedor, Consultor e Professor)\n**Detalhes**: Estudantes e profissionais em in\u00edcio de carreira, o que voc\u00eas precisam saber para iniciar uma carreira em Seguran\u00e7a da Informa\u00e7\u00e3o e Privacidade de Dados? Falaremos sobre fundamentos como a ISO 27001 e 27701 e outros segredos para usarem como um guia inicial, oferecendo estrat\u00e9gias para n\u00e3o apenas iniciar, mas tamb\u00e9m para prosperar no campo da InfoSec. Vamos descobrir o que todo \"Padawan\" gostaria de saber antes de come\u00e7ar nesta \u00e1rea t\u00e3o desafiadora quanto empolgante.\nConvidamos todos os interessados em aprofundar seus conhecimentos e pr\u00e1ticas em seguran\u00e7a de aplica\u00e7\u00f5es a participar deste encontro enriquecedor. Garanta sua participa\u00e7\u00e3o e junte-se a n\u00f3s em uma jornada de aprendizado e troca de experi\u00eancias."
     },
     {
         "group": "Seattle",
