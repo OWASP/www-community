@@ -19,6 +19,8 @@ Since many users will re-use the same password and username/email, when those cr
 
 Credential Stuffing is a subset of the brute force attack category. Brute forcing will attempt to try multiple passwords against one or multiple accounts; guessing a password, in other words. Credential Stuffing typically refers to specifically using known (breached) username / password pairs against other websites.
 
+New Addition:
+Attackers can also use information found in data leaks to reset passwords, particularly for business accounts. Since business information is often public, it is easier for attackers to obtain phone numbers, guess email addresses, and gather other relevant information. This method leverages security questions, recovery emails, or other personal information that might be included in the breach, allowing the attacker to take over accounts even if the passwords are not reused.
 
 ### Likelihood & Severity
 
