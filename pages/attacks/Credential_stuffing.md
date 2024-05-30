@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: Credential stuffing
 author: Neal Mueller
-contributors: Jmanico, Dirk Wetter, kingthorin, Nick Malcolm
+contributors: Jmanico, Dirk Wetter, kingthorin, Nick Malcolm , Jahanrajkar Singh
 permalink: /attacks/Credential_stuffing
 tags: attack, Credential stuffing
 
