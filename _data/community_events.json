@@ -22,6 +22,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "OWASP Austin Study Group",
+        "date": "2024-06-20",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/301366702",
+        "timezone": "America/Chicago",
+        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "June 2024 OWASP Austin Security Professionals Happy Hour",
         "date": "2024-06-13",
         "time": "17:30-05:00",
@@ -188,16 +198,6 @@
         "link": "https://www.meetup.com/owasp-kathmandu-chapter/events/301310973",
         "timezone": "Asia/Kathmandu",
         "description": "We are excited to announce that the 0x06 Meetup for OWASP Kathmandu, proudly sponsored by **Vairav Technology**, is set to take place on June 1, 2024, at Islington College, Kamalpokhari, Kathmandu.\n\nWe are honored to have the esteemed Vairav Technology as our sponsor for this event.\n\nThe meetup will feature a diverse range of talks, covering topics such as Application Security, Bug Bounty, Network Security, Threat Hunting, and much more. Please be aware that we have implemented a strict RSVP policy for this event. Therefore, we kindly request you to confirm your attendance only if you are certain you will be able to attend."
-    },
-    {
-        "group": "Limassol",
-        "repo": "www-chapter-limassol",
-        "name": "OWASP Chapter Limassol meetup 2024-v1",
-        "date": "2024-05-31",
-        "time": "18:30+03:00",
-        "link": "https://www.meetup.com/owasp-limassol-meetup-group/events/300819935",
-        "timezone": "Asia/Nicosia",
-        "description": "The location is **The Ballroom Suite B** at the [Crowne Plaza Hotel](https://maps.app.goo.gl/38rAWxBS9gMoSiH69).\n\n**Calling all tech and security enthusiasts!**\n\nWe are thrilled to announce the fourth meetup of the [OWASP Chapter in Limassol](https://owasp.org/www-chapter-limassol/), supported by [Semrush Inc.](https://semrush.com)!\n\nWe cordially invite you to join us for an evening of engaging discussions, networking, and knowledge sharing among cybersecurity enthusiasts, professionals, and enthusiasts from various backgrounds.\n\nWe look forward to seeing you there and would be delighted to offer a **complimentary gift to each attendee**!\n\n**Schedule:**\n18:30 \u2014 19:00 \u2014 Gathering & Intro\n19-00 \u2014 19:35 **Ivan Elkin**, Application Security Team Leader at Exness with the topic **ASPM - story about unicorns, sneaky business and unexpected decisions**\n19-35 \u2014 20:05 **Michael Markevich**, Security Lead at DHIS2, ex-CISO at Opera, with a talk **DHIS2: Building Security For An Open-Source Project**, which is a great opportunity to learn how a security professional can make the world of open-source better.\n20:05 \u2014 20:30 A short break + Quiz\n20-30 \u2014 21:00 **Dmitrii Stepul**, student of Neapolis university Pafos will talk about **Content Blocking system in Cyprus**\n21:05 \u2014 21:40 **Sergey Belov**, Product Security Lead at Acronis. The topic will be **Impossible security - solving tasks with no right solution**\n21:40 \u2014 22:05 Outro + Quiz\n22:05 \u2014 23:00 Eat, drink, networking!\n\nIn addition, as usual, we are working hard to deliver the best knowledge to the community and are happy to announce that this event is fully packed with amazing gifts:\n\\- quizzes winners \\(**RTL-SDR Blog V3** R860 RTL2832U 1PPM TCXO HF Bias Tee SMA SDR with Dipole Antenna Kit) + branded T-shirt\n\\- activity winners \\(NooElec '**Yard Stick One**' USB Transceiver & 915MHz Antenne) + branded T-shirt\n\\- speakers \\(**Hamgeek HackRF One R9** and Portapack H2 Include 5 Antennas and Data Cable 1MHz-6GHz SDR Radio Unmounted Black) + branded T-shirt\n\nWe'll have catering and a chilly sunset view zone to make the evening unforgettable. \n\n[Don't forget to join us on Telegram (we will send updates there quickly).](https://t.me/+W1hEPzn4BOcwMTNi)"
     },
     {
         "group": "Los Angeles",
@@ -390,6 +390,16 @@
         "description": "**TALK**\n**\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-**\n\n**OWASP Top 10 for LLM Applications**\n\n**Summary:**\n\nThe presentation will discuss the OWASP Top 10 for LLM AI Applications, highlighting the work accomplished and the vision for version 2.0 moving forward. It aims to educate developers, designers, architects, managers, and organizations about the potential security risks associated with deploying and managing Large Language Models (LLMs).\n\nAttendees will learn about the synergy and collaborative efforts between this project, international institutions and governments in protecting the rollout of Generative AI. We will present emerging trends and resources available to safeguard and promote the responsible use of AI, thereby empowering security strategies.\n\n**Presenters**\n\n**Emmanuel Guilherme Junior**\n\nDedicated Cyber Security Professional with over a decade of experience, he serves as an AI/LLM Security Researcher at the OWASP Foundation. In this role, he is leading the development of the OWASP TOP 10 for AI/LLM-based Applications v2.0 Data Gathering Methodology and contributed in creating the Security & Governance Checklist for Chief Information Security Officers (CISOs). This work aids CISOs in navigating the intricacies of deploying Generative AI technologies. His contributions also extend to Business Strategy, Information Security Research, and Project Management, where he has offered valuable insights to several Fortune 500 companies.\n\nHe possesses a nuanced understanding of the global security landscape, advanced security strategies, and compliance frameworks. Committed to enhancing security measures with innovative and practical solutions, he consistently aims to share his knowledge and expertise in a manner that benefits the wider community.\n\n**Ads Dawson**\n\nAds, full stack AI red teamer, is the Technical Lead for the OWASP Top 10 for LLM Applications project and is a seasoned security engineer in all realms of the industry, primarily focusing on red teaming, ethical hacking, and offensive security, primarily orientating REST & GraphQL APIs, LLM application security, MLSecOps and also has a strong background in network and infrastructure penetration testing and security, originally stemming as a self-taught network engineer."
     },
     {
+        "group": "Uruguay",
+        "repo": "www-chapter-uruguay",
+        "name": "OWASP Meetup - Junio",
+        "date": "2024-06-11",
+        "time": "19:00-03:00",
+        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/301263486",
+        "timezone": "America/Montevideo",
+        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\nLas exposiciones ser\u00e1n las siguientes:\n\n**Felipe Zipitr\u00eda: Fingerprinting en la Web**\nEl uso de IPs en el mundo web para bloquear comportamiento malicioso en la Web es dif\u00edcil de mantener y puede inclusive resultar perjudicial. Presentaremos formas de realizar fingerprints, casos de uso y los principales problemas que quedan por resolver con estas t\u00e9cnicas.\n\n**Andr\u00e9s G\u00f3mez: Descubriendo tesoros ocultos en el mundo Java**\nTBA\n\n**\u00bfCu\u00e1ndo?** Martes 11/6, 19:00.\n**\u00bfD\u00f3nde?** Isbel, Paysand\u00fa 926.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
+    },
+    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Application Security Pacific Northwest Conference",
@@ -404,7 +414,7 @@
         "repo": "www-project-samm",
         "name": "Extra OWASP SAMM community call - Europe - Asia",
         "date": "2024-06-14",
-        "time": "09:30-04:00",
+        "time": "09:00-04:00",
         "link": "https://www.meetup.com/owasp-samm/events/301334615",
         "timezone": "America/New_York",
         "description": "The SAMM Core team is happy to host a community call on 14th June @ 15.00 CET. This is not a replacement of the regular community call, but an extra one we\u2019ve scheduled during a more friendly time for users in EU and Asia. Bring your SAMM questions and we\u2019ll discuss them!\n\nHere\u2019s the agenda outline for the call.\n\n* Welcome and introductions\n* SAMM Project Updates\n\n* SUD24\n* SAMM Fundamentals Course\n* Benchmark submissions\n* SAMM Guidance\n* Mappings to / from other frameworks\n\n* Q&A round"
