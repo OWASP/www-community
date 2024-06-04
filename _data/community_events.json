@@ -60,6 +60,16 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "Hacker Thursday with Pacific Hackers & OWASP \u2013 CTF Time",
+        "date": "2024-06-27",
+        "time": "17:00-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/301426321",
+        "timezone": "America/Los_Angeles",
+        "description": "**Want to tap into your inner evildoer and test your skills in hunting down web application vulnerabilities?**\nJoin us at this joint event between Pacific Hackers and OWASP Bay Area to immerse yourself in the industry\u2019s most authentic environment, where players exploit their way through hundreds of vulnerabilities that lurk in business applications today. Success means learning quickly that attack and defense are all about thinking on your feet. For each vulnerability you uncover, you are awarded points. Climb the interactive leaderboard as you vie for the top spot!\n\n**About the Range:**\nThe CMD+CTRL Cyber Range is ideal for anyone interested in learning how web applications are attacked, furthering their cybersecurity acumen, or honing the skills needed to protect the enterprise. From curious bystanders to active practitioners to Risk and Security Executives, there\u2019s something for everyone.\n\n**Agenda:**\n5 PM \u2013 Food & Networking\n5:30 PM \u2013 8:30 PM \u2013 CTF Time\n8:30 PM \u2013 Prizes"
+    },
+    {
         "group": "Belfast",
         "repo": "www-chapter-belfast",
         "name": "C3 Dev Festival - the contemporary software engineering and design festival",
@@ -130,6 +140,16 @@
         "description": "OWASP Cleveland is back! We're starting off with a meet & greet where we can get to know one another, gauge our community's areas of interest, and start planning our roadmap for the rest of the year.\n\n**Agenda:**\n\n* Introductions\n* Community roundtable: which AppSec topics and OWASP projects most interest you?\n* Planning for upcoming events\n\nJoin us at Market Avenue Wine Bar in Ohio City! Check them out here: [https://marketavenuewinebar.com/](https://marketavenuewinebar.com/)\n\n**About OWASP**\nThe Open Worldwide Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. Our programming includes:\n\n* Community-led open source projects including code, documentation, and standards\n* Over 250+ local chapters worldwide\n* Tens of thousands of members\n* Industry-leading educational and training conferences\n\nEveryone is free to participate in OWASP and all of our materials are available under a free and open software license. Learn more about the OWASP Foundation and our work: [https://owasp.org/about/](https://owasp.org/about/)"
     },
     {
+        "group": "Cuddalore",
+        "repo": "www-chapter-cuddalore",
+        "name": "Cracking the Code: Deep dive into malware analysis",
+        "date": "2024-06-08",
+        "time": "16:00+05:30",
+        "link": "https://www.meetup.com/owasp-cuddalore-chapter/events/301418808",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us at the OWASP Cuddalore Chapter for an interactive workshop on Malware analysis. Industry expert Mr.Melvin will guide you through the latest trends in Malware analysis. Whether you're a software developer, cybersecurity enthusiast, or application security professional, this event is perfect for anyone interested in enhancing their security knowledge. Don't miss out on this opportunity to network with like-minded individuals and stay ahead of the curve in the ever-evolving field of information security."
+    },
+    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP June Meet - In person",
@@ -158,6 +178,16 @@
         "link": "https://www.meetup.com/owasp-france/events/301293664",
         "timezone": "Europe/Paris",
         "description": "Le prochain meetup OWASP France sur Bordeaux aura lieu le 20 Juin a partir de 17h30.\n\nIl devrait avoir lieu dans le centre de Bordeaux (adresse a venir)\n\nAu programme :\n\n* Welcome to OWASP Bordeaux ; par Sebastien Gioria\n* Threat Modeling for Developers par Jonathan Marcil ; talk en Francais\n\n*Jonathan is from Montreal, Canada and is passionate about Application Security. He enjoys architecture analysis, code review, threat modeling and debunking security tools. Jonathan holds a bachelor's degree in Software Engineering and has 20 years of experience in IT and Security*.\n\n* Kubernetes par Maxime Girardet (Pentester chez Advens)\n*Durant ce talk, Maxime GIRARDET vous pr\u00e9sentera le niveau de s\u00e9curit\u00e9 par d\u00e9faut d'un cluster Kubernetes, diff\u00e9rents sc\u00e9narios r\u00e9alistes d'attaques ainsi que les rem\u00e9diations associ\u00e9es, au niveau syst\u00e8me et applicatif*.\n\nLe nombre de place sera limit\u00e9"
+    },
+    {
+        "group": "France",
+        "repo": "www-chapter-france",
+        "name": "Meetup OWASP - Paris - Juin 2024",
+        "date": "2024-06-17",
+        "time": "19:00+02:00",
+        "link": "https://www.meetup.com/owasp-france/events/301415122",
+        "timezone": "Europe/Paris",
+        "description": "Ce meetup se deroulera chez **OCTO Technology** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
     },
     {
         "group": "Israel",
@@ -277,7 +307,7 @@
         "time": "20:30-07:00",
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/301186933",
         "timezone": "America/Phoenix",
-        "description": "**Intro to Web Application Firewalls (WAF\u2019s)** \\- 15\\-20 Minutes\nHave you ever wanted to know more about Web Application Firewalls? This presentation will cover key concepts and considerations.\n\n1. What is a Web Application Firewall?\n2. Benefits\n3. Case Studies/Testimonials\n4. OWASP Support - ModSecurity\n5. Ruleset Concepts\n6. Quiz - View HTTP requests/responses - block or not?\n\n**Cost**\n\nFree!\n\n**OWASP Info**\n\nOWASP is a non-profit dedicated to **application security**. Our meetings are free to attend and you do not need to be a member, nor have any experience with application security. All are welcome!\n\n**Meetings Every Month!**\n\nMeetings occur the first Tuesday of every month. Be sure to join our Meetup page to be notified of future meetings and topics.\n\n**Free Parking**\n\nFree Parking Lot:\n1 N Macdonald St, Mesa, AZ 85201\n[https://downtownmesa.com/parking/green-lot](https://downtownmesa.com/parking/green-lot)\n\nNote that this parking lot is across the street from HeatSync Labs. There are other nearby lots and street parking as well."
+        "description": "**Threat Modeling** \\- 15\\-20 Minutes\nWhat is threat modeling? What problems does it help solve? We'll do a threat modeling exercise to introduce the concept in a fun, interactive way.\n\n**Cost**\n\nFree!\n\n**OWASP Info**\n\nOWASP is a non-profit dedicated to **application security**. Our meetings are free to attend and you do not need to be a member, nor have any experience with application security. All are welcome!\n\n**Meetings Every Month!**\n\nMeetings occur the first Tuesday of every month. Be sure to join our Meetup page to be notified of future meetings and topics.\n\n**Free Parking**\n\nFree Parking Lot:\n1 N Macdonald St, Mesa, AZ 85201\n[https://downtownmesa.com/parking/green-lot](https://downtownmesa.com/parking/green-lot)\n\nNote that this parking lot is across the street from HeatSync Labs. There are other nearby lots and street parking as well."
     },
     {
         "group": "Poland",
@@ -398,6 +428,16 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/301142469",
         "timezone": "America/Vancouver",
         "description": "You have to buy tickets for this OWASP conference, please go to the following site to register for the event:\nhttps://www.eventbrite.com/e/4th-annual-owasp-appsec-days-pacific-northwest-conference-in-person-tickets-858457528577"
+    },
+    {
+        "group": "Warwick",
+        "repo": "www-chapter-warwick",
+        "name": "OWASP Warwick Chapter - Meet and Greet, 12 Jun 2024, 18:00",
+        "date": "2024-06-12",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-warwick/events/301417204",
+        "timezone": "Europe/London",
+        "description": "OWASP Warwick is back! We're starting off with a meet & greet where we can get to know one another, gauge our community's areas of interest, and start planning our roadmap for the rest of the year.\n\n#### TALKS\n\n#1: **Welcome to OWASP Warwick** \\- Brian McGlone \\(IBM X\\-Force Red\\)\n#2: **Exploiting Weaknesses in AI Systems** \\- Jakub Partyka \\(LRQA Nettitude\\)\n#3: **CHERI - Memory safe architecture - what is it, and do we need one?** \\- Mirek Malinowski \\(Cyber Security Reaserch Group \\- WMG\\)"
     },
     {
         "group": "Samm",
