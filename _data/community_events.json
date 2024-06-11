@@ -140,16 +140,6 @@
         "description": "This month we will be welcoming Lindsay Kaye as our presenter. Lindsay will be giving her presentation an Overview of the PROXYLIB Campaign.\n\nIn May 2023, we identified a cluster of VPN apps available on the Google Play Store that transformed the user\u2019s device into a proxy node without their knowledge. We\u2019ve dubbed this operation PROXYLIB. Other researchers identified this malicious behavior in a single free VPN application\u2014Oko VPN\u2014 which resulted in the app's removal from the Play Store. Based on further analysis of Oko VPN, Satori researchers uncovered 27 additional applications related to PROXYLIB. These apps shared a common native library, written in Golang, that enrolls the device as a proxy node. This talk will provide a high-level overview of the PROXYLIB Android malware and take the listener through the changes we observed in response to defenders\u2019 actions.\n\nLindsay Kaye is the Vice President of Threat Intelligence at HUMAN Security. Her technical specialty spans the fields of malware analysis and reverse engineering, with a keen interest in dissecting custom cryptographic systems. Lindsay is an internationally-recognized cybersecurity speaker and author. Lindsay holds a BS in Engineering with a Concentration in Computing from Olin College of Engineering and an MBA from Babson College."
     },
     {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "How quantum computers can become a threat to cryptography",
-        "date": "2024-06-10",
-        "time": "17:55+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/301188369",
-        "timezone": "Australia/Brisbane",
-        "description": "Looking at recent developments in quantum computers, we try to make a prediction how much of a threat quantum computers will be for \"classical\" cryptography. Look at how technologies were able to penetrate our society seems to give a good indication of how prevalent quantum computers will become. We also look at research results, and how they inform us about the threat of quantum algorithms."
-    },
-    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "The Truman Show: Real-world application attacks instead of canned demos",
@@ -184,10 +174,10 @@
         "repo": "www-chapter-france",
         "name": "Meetup OWASP Bordeaux Juin 2024",
         "date": "2024-06-20",
-        "time": "17:30+02:00",
+        "time": "18:00+02:00",
         "link": "https://www.meetup.com/owasp-france/events/301293664",
         "timezone": "Europe/Paris",
-        "description": "Le prochain meetup OWASP France sur Bordeaux aura lieu le 20 Juin a partir de 17h30.\n\nIl devrait avoir lieu dans le centre de Bordeaux (adresse a venir)\n\nAu programme :\n\n* Welcome to OWASP Bordeaux ; par Sebastien Gioria\n* Threat Modeling for Developers par Jonathan Marcil ; talk en Francais\n\n*Jonathan is from Montreal, Canada and is passionate about Application Security. He enjoys architecture analysis, code review, threat modeling and debunking security tools. Jonathan holds a bachelor's degree in Software Engineering and has 20 years of experience in IT and Security*.\n\n* Kubernetes par Maxime Girardet (Pentester chez Advens)\n*Durant ce talk, Maxime GIRARDET vous pr\u00e9sentera le niveau de s\u00e9curit\u00e9 par d\u00e9faut d'un cluster Kubernetes, diff\u00e9rents sc\u00e9narios r\u00e9alistes d'attaques ainsi que les rem\u00e9diations associ\u00e9es, au niveau syst\u00e8me et applicatif*.\n\nLe nombre de place sera limit\u00e9"
+        "description": "Le prochain meetup OWASP France sur Bordeaux aura lieu le 20 Juin a partir de 18h\n\nIl aura lieu dans les locaux de Peaksys/CDiscount.\n\nAu programme :\n\n* Welcome to OWASP Bordeaux ; par Sebastien Gioria & PeakSys\n* Threat Modeling for Developers par Jonathan Marcil ; talk en Francais\n\n* Kubernetes par Maxime Girardet (Pentester chez Advens)\n*Durant ce talk, Maxime GIRARDET vous pr\u00e9sentera le niveau de s\u00e9curit\u00e9 par d\u00e9faut d'un cluster Kubernetes, diff\u00e9rents sc\u00e9narios r\u00e9alistes d'attaques ainsi que les rem\u00e9diations associ\u00e9es, au niveau syst\u00e8me et applicatif*.\n\nLe nombre de places est limit\u00e9 a 50 personnes sur inscription. Du aux contraintes de s\u00e9curit\u00e9, nous vous remercions d'avoir avec vous un document justifiant de votre identit\u00e9 (Badge pro, CI, Passeport, ....)"
     },
     {
         "group": "France",
@@ -370,6 +360,26 @@
         "description": "AppSec PNW is an annual regional conference produced by the Portland, Seattle, Vancouver, and Victoria OWASP chapters. This year it will be in Vancouver BC. (Last year it was in Portland.)\n\nOur featured speakers are [E Coleen C.](https://www.linkedin.com/in/ecoleenc/), CISO Advisor, and [Jason Haddix](https://www.linkedin.com/in/jhaddix/), CEO of Arcanum Information Security! Coleen will kick off the builder track, and Jason will launch the breaker track.\n\nAll the talks are on Saturday this year, and all the workshops on Sunday. You can find full details, including the complete schedule, at [appsecpnw.org](https://www.appsecpnw.org/schedule). Registration is on [EventBrite](https://www.eventbrite.com/e/4th-annual-owasp-appsec-days-pacific-northwest-conference-june-15-16-tickets-858457528577?aff=oddtdtcreator)."
     },
     {
+        "group": "Scotland",
+        "repo": "www-chapter-scotland",
+        "name": "OWASP Scotland Chapter Meeting - June",
+        "date": "2024-06-20",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-scotland-chapter/events/301560170",
+        "timezone": "Europe/London",
+        "description": "Join us at the OWASP Scotland Chapter Meeting where we have an exciting talk lined up focusing on mainframe hacking alongside a brief update from the OWASP Scotland Chapter leaders on OWASP flagship projects and global events.\n\nThis event is perfect for software developers, ethical hackers, and cybersecurity enthusiasts interested in learning about the latest trends in cyber security.\n\n#### Talk 1 - OWASP Update\n\n**Speakers:** Rob Jansson, Sean Wright and Jim Slaughter\n\n#### Talk 2 \u2013 Hacking the Crown Jewels - The Mainframe!\n\n**Speakers:** Kev Milne & Hubert Januzewski\n'The Mainframe' is often overlooked as a legacy system that holds little importance in today's computing world. It is certainly seen as some mystical black box that should not be touched. The lack of access to Mainframes such as the IBM zSeries often does not make it easy to conduct research on these systems that process billions of transactions per year and hold sensitive data.\nDuring this talk we will give an insight into the history of Mainframes, some of their weaknesses (and strengths) and demonstrate some of the tools and exploitation techniques that can be used to assess, gain a foothold, and escalate privileges to SPECIAL. Finally, we will provide information on where to start learning about Mainframes with special attention paid to tapping into the free resources and emulators that exist out there.\n\n**About us**\nKev Milne is a technical specialist with 30 years of experience, and over 20 years of Cyber Security experience having started Pen Testing first in 1999. He is currently the Training and Infrastructure Manager for Security Testing at NatWest. His job as is to mentor, and motivate the next generation of testers at NatWest whilst maintaining the Security Testing Labs.\nHubert Januszewski is a graduate of Abertay University Ethical Hacking course and is currently part of the Offensive Security Testing Team at NatWest Bank where he conducts tests on everything from Infrastructure, Web Applications, Cloud and Mainframes! Hubert's interests include CTFs, Sci-fi books, games, and technology."
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2024-07-10",
+        "time": "12:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539096",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "AppSec Days Pacific Northwest Conference 2024",
@@ -417,7 +427,7 @@
         "time": "19:00-03:00",
         "link": "https://www.meetup.com/owasp-uruguay-chapter/events/301263486",
         "timezone": "America/Montevideo",
-        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\nLas exposiciones ser\u00e1n las siguientes:\n\n**Felipe Zipitr\u00eda: Fingerprinting en la Web**\nEl uso de IPs en el mundo web para bloquear comportamiento malicioso en la Web es dif\u00edcil de mantener y puede inclusive resultar perjudicial. Presentaremos formas de realizar fingerprints, casos de uso y los principales problemas que quedan por resolver con estas t\u00e9cnicas.\n\n**Andr\u00e9s G\u00f3mez: Descubriendo tesoros ocultos en el mundo Java**\nTBA\n\n**\u00bfCu\u00e1ndo?** Martes 11/6, 19:00.\n**\u00bfD\u00f3nde?** Isbel, Paysand\u00fa 926.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
+        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\nLas exposiciones ser\u00e1n las siguientes:\n\n**Felipe Zipitr\u00eda: Fingerprinting en la Web**\n*El uso de IPs en el mundo web para bloquear comportamiento malicioso en la Web es dif\u00edcil de mantener y puede inclusive resultar perjudicial. Presentaremos formas de realizar fingerprints, casos de uso y los principales problemas que quedan por resolver con estas t\u00e9cnicas.*\n\n**Andr\u00e9s G\u00f3mez: Descubriendo tesoros ocultos en el mundo Java**\n*En esta charla, exploraremos t\u00e9cnicas de explotaci\u00f3n en entornos JAVA que a menudo se pasan por alto. Si se explotan con \u00e9xito, pueden resultar en un 'Critical' y muchas veces en un hermoso RCE.*\n\n**\u00bfCu\u00e1ndo?** Martes 11/6, 19:00.\n**\u00bfD\u00f3nde?** Isbel, Paysand\u00fa 926.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
     },
     {
         "group": "Vancouver",
