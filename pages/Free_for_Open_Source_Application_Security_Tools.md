@@ -271,8 +271,7 @@ open source projects also consider using good code quality tools. A few that we 
 
   - [SpotBugs](https://spotbugs.github.io/) - Open source code quality tool for Java
       - This is the active fork for FindBugs, so if you use Findbugs, you should switch to this.
-      - SpotBugs users should add the FindSecBugs plugin
-        (http://find-sec-bugs.github.io/) to their SpotBugs setup, as it
+      - SpotBugs users should add the [FindSecBugs plugin](https://find-sec-bugs.github.io/) to their SpotBugs setup, as it
         significantly improves on the very basic security checking native to SpotBugs.
   - [SonarQube](https://www.sonarqube.org/)
       - This is a commercially supported, very popular, free (and
