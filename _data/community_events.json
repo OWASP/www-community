@@ -60,26 +60,6 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "June 2024 OWASP Austin Security Professionals Happy Hour",
-        "date": "2024-06-13",
-        "time": "17:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/299655980",
-        "timezone": "America/Chicago",
-        "description": "**When:** Thursday, June 13th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Checkmarx](https://checkmarx.com)\n*Checkmarx is constantly pushing the boundaries of Application Security Testing to make security seamless and simple for the world\u2019s developers and security teams. As the AppSec testing leader, we deliver the unparalleled accuracy, coverage, visibility, and guidance our customers need to build tomorrow\u2019s software securely and at speed.*"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2024-06-13",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/301223275",
-        "timezone": "America/Chicago",
-        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
-    },
-    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "null Bangalore Meet 15 June 2024 Null/OWASP Combined Meet",
@@ -240,6 +220,16 @@
         "description": "**TOPIC**: **What's in your AI code? Learn why every SCA tool is wrong, and how to deal with it.**\nJoin us for great networking, dinner and drinks, and see a presentation by **Darren Meyer**, Lead Solution Architect at Endor Labs.\n\n**ABSTRACT**: With the rise of AI-fueled by Python-based libraries, it has become of paramount importance to scan Python-based projects and their dependencies for OSS vulnerabilities. Python relies on package managers like pip or conda to manage declared dependencies. Dependencies are declared in manifest files which the package manager uses to install the correct version of the required dependency. However, Python\u2019s dependency management system coupled with its dynamic type nature makes it an especially challenging language to deal with.\n\nOf particular focus is the phenomenon of phantom dependencies which are unreported dependencies in a project's manifest profile. These hidden dependencies, which are often provided dependencies (which is especially true for libraries such as tensorflow and pytorch which are essential for AI), challenge software composition analysis (SCA) of Python code, impacting the reliability of vulnerability results.\n\n**Thanks to our Sponsor**: *[Endor Labs](https://www.endorlabs.com/)*\n*Endor Labs\u2019 Dependency Lifecycle Management Platform is designed to address the weakest link in software supply chain security: the ungoverned sprawl of open source software in the enterprise. Endor Labs\u2019 mission is to help developers spend less time dealing with security issues and more time accelerating development through safe code reuse. With this solution, development and security teams are able to maximize software reuse by safely evaluating, maintaining, and updating dependencies at scale.*\n\n**Thanks to our Host**: *[HiveWatch](https://www.hivewatch.com/)*\n*Intelligent, efficient, and scalable security*\n*HiveWatch is a cloud-based SaaS platform built for physical security teams to enhance their current security technologies. It streamlines incident response, allows for the consolidation of disparate programs and systems, and reduces false alarms.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
+        "group": "Manchester",
+        "repo": "www-chapter-manchester",
+        "name": "OWASP Summer Scavenger Hunt",
+        "date": "2024-07-13",
+        "time": "13:00+01:00",
+        "link": "https://www.meetup.com/owasp-manchester-uk-chapter/events/301505213",
+        "timezone": "Europe/London",
+        "description": "**To register for this you MUST go to our Eventbrite:** https://www.eventbrite.co.uk/e/owasp-summer-scavenger-hunt-tickets-921543680957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing\n\nDo you like running round Manchester doing pointless challenges that may or may not be Hacker related for the chance of winning a \u00a3100 Amazon voucher?\n\nYes?!?\n\nThen this is the event for you!\n\nThis July OWASP Manchester will be hosting the first inaugural Charity Summer Scavenger Hunt. What you need to know:\n\nWho\u2019s running it?\nManchester OWASP and Silverphish, you may have entered a similar one at one of the BSides or at Steelcon.\n\nWhere is it?\nOur base is the Piccadilly Central pub opposite Piccadilly Station, but the challenges will be all over the city centre.\n\nTeams\nYou can enter as a team of up to five people or as an individual. It costs \u00a35 per person to enter and the proceeds will go to the Mustard Tree.\n\nRunning Time\nRegistration is between 1pm - 2pm at Piccadilly Central, closing and prizes will be at the pub at 7pm. We\u2019re welcome to stay on at the pub after, and may take a turn round the Gay Village.\n\nPrizes\nThere will be \u00a3100 Amazon voucher PER TEAM for highest score and best submission, theres a \u00a350 Amazon voucher for runner ups (second highest score).\n\nWho will Judge?\nSilverphish, Ben from OWASP and two exciting celebrity judges.\n\nAre there sponsors?\nHell yes there are! We\u2019d like to thank PTP for supplying the prizes and FireDuck for sponsoring the infrastructure.\n\nWill we provide refreshments?\nNo. You\u2019re on your own with that. Please eat before hand, and make sure to grab a Greggs during the hunt. Obvs as the base is a pub you\u2019ll be able to buy a drink there too.\n\nIs the event suitable for Children?\nHell no. It\u2019s in a pub. It\u2019s also not totally safe for work either, so be prepared for some mild adult content.\n\nDo you need technical knowledge to enter?\nYou do not!!! There will be some mildly technical challenges but there will be plenty that are just silly or for fun.\n\nWhat should you bring with you? (These are suggestions, you\u2019re grown-ups so we take zero responsibility for you)\n\n* A water bottle\n* Snacks\n* Comfortable shoes (preferably on your feet)\n* Sun cream\n* A brolly (it\u2019s Manchester after all)\n* A sense of adventure\n* Probably some money\n\n**To register for this you MUST go to our Eventbrite:** https://www.eventbrite.co.uk/e/owasp-summer-scavenger-hunt-tickets-921543680957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing"
+    },
+    {
         "group": "Melbourne",
         "repo": "www-chapter-melbourne",
         "name": "OWASP Melbourne - June 2024 Meetup",
@@ -350,16 +340,6 @@
         "description": "For every application design \"best practice\", there is a matching \"worst practice\", or what some call security patterns and anti-patterns. Join us to review common anti-patterns, identify their accompanying secure design patterns, and commiserate about the worst offenders we've seen in the wild."
     },
     {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "OWASP Meeting in Krakow - Ataki przy u\u017cyciu Flipper Zero - modelowanie zagro\u017ce\u0144",
-        "date": "2024-06-13",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-poland/events/301314367",
-        "timezone": "Europe/Warsaw",
-        "description": "Tym razem nasze spotkanie b\u0119dzie po Polsku. A temat to:\n\nModelowanie zagro\u017ce\u0144 - Flipper Zero w atakach fizycznych.\n\nW trakcie tego spotkania dowiesz si\u0119, jak identyfikowa\u0107 potencjalne zagro\u017cenia oraz jak je \u0142agodzi\u0107. Odkryj, jak to urz\u0105dzenie mo\u017ce by\u0107 u\u017cywane w rzeczywistych scenariuszach atak\u00f3w, w tym:\n\n* Odczytywanie, zapisywanie i klonowanie kluczy RFID 125 kHz,\n* Hakowanie czytnik\u00f3w kart RFID 125 kHz,\n* Wykorzystywanie czytnik\u00f3w NFC-A Mifare Classic 1K,\n* Odczytywanie i nagrywanie sygna\u0142\u00f3w z pilot\u00f3w (bramy, rolety, aut),\n* Odczytywanie karty p\u0142atniczej (multi-protocol card) i inne.\n\nPodczas spotkania zastosujemy metod\u0119 modelowania zagro\u017ce\u0144 w uproszczonym podej\u015bciu. Metoda ta pozwala na identyfikacj\u0119, ocen\u0119 i \u0142agodzenie zagro\u017ce\u0144. Nie przegap tej okazji, aby nauczy\u0107 si\u0119 praktycznych technik i pog\u0142\u0119bi\u0107 swoj\u0105 wiedz\u0119 na temat luk w zabezpieczeniach oraz strategii ich przeciwdzia\u0142ania.\n\nSpotkanie poprowadz\u0105: [Sebastian Obara](https://www.linkedin.com/in/sobara/) i [Micha\u0142 K\u0142aput](https://www.linkedin.com/in/michalklaput/)\n\nTechie\u2019s Space is the vibrant tech community around Techie\u2019s, a resto-bar run by Exadel (formely Codete).\n\nFrom January 2022 onward, it has emerged as the go-to space for meetups and events where tech professionals\nand enthusiasts meet to share insights, expand their knowledge, and cultivate meaningful connections.\nLearn more about the space and our events: [https://www.techiesspace.pl/](https://www.techiesspace.pl/)"
-    },
-    {
         "group": "Portland",
         "repo": "www-chapter-portland",
         "name": "AppSec Days Pacific Northwest 2024",
@@ -408,6 +388,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/301143536",
         "timezone": "America/Los_Angeles",
         "description": "Join your security community for two days of  builder and breaker content, including session talks, workshops, and a CTF.\nLearn, play, network, meet new friends, or connect with existing ones.\n\nColeeen Coolidge will open our breaker track & Jason Haddix will kick off our breaker track.\n\nFull schedule @ [https://www.appsecpnw.org/schedule](https://www.appsecpnw.org/schedule)\nTickets @ [https://bit.ly/appsecpnw2024-tickets](https://bit.ly/appsecpnw2024-tickets)\n\nSee you there!"
+    },
+    {
+        "group": "Tallinn",
+        "repo": "www-chapter-tallinn",
+        "name": "OWASP Tallinn - Modern Cryptography - Vol. 2",
+        "date": "2024-07-04",
+        "time": "18:30+03:00",
+        "link": "https://www.meetup.com/owasp-tallinn/events/301615501",
+        "timezone": "Europe/Tallinn",
+        "description": "** Welcome to the Summer Event of OWASP Estonia: Modern Cryptography - Vol. 2 **\n\n In this event we'll host two very special speakers:\n\n**Stefano Alberico**, tech lead mentor at **NATO DIANA** accelerator and founder at Skudo, is a technology visionary with 25 years of international experience.\n\nHe is very problem solving oriented and prefers to set up a demo with a Raspberry Pi rather than only explaining things on a PPT.\n\nHe is now focused on hardware encryption (HSM and PKI) for space and drone applications, based on Skudo's own FPGA implementation.\n\nSpeech: *more details coming soon*\n\n**Jelizaveta Vakarjuk** is a junior researcher in Cybernetica and industrial PhD student at Tallinn University of Technology. Her research focuses on post-quantum cryptography, privacy-preserving cryptography, and security of voting systems. Mainly she studies post-quantum digital signatures, but also focuses on the aspects of migration to post-quantum cryptography.\n\nSpeech: *more details coming soon*\n\n **And That's Not All - More Surprises Await!** Whether you're a cybersecurity professional, a tech enthusiast, or just curious about cryptography, there's something for everyone!\n\n **Connect, Collaborate, and Create:** This event is more than just talks - it's a platform to connect with like-minded folks!\n\n **Mark Your Calendars:**\nThursday 04th July at 18:30 - 20:30\nWorkland Maakri 19\n\n **Limited seats, registration on Meetup required!** "
     },
     {
         "group": "Tampa",
