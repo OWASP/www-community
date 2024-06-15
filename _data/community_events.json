@@ -10,16 +10,6 @@
         "description": "**IMPORTANT:**\n\n* **You need to reverse into the parking spot!**\n* **Please please provide your email to Thomas to receive a private link to register in the guest system at Vesta before the event**\n* **Please register your car before the event. See the image for parking**\n\nAgenda:\n**19:00 \u2013 19:10** Welcome by Vestas and OWASP Aarhus\n\n**19:10 \u2013 20:00** \u201dAutomated attack path discovery and alerting with Adalanche\u201d by Rasmus Have.\n\nRasmus Have is a Senior Cyber Security Architect at Vestas where he works with security architecture across the IT and OT domains. Rasmus has a background from the startup world and military security over the last 25 years. He aims to close the gap between the theoretical architecture work and the practical engineering work with a hands on approach to security.\n\n**20:00 \u2013 20:30** Networking break\n\n**20:30 \u2013 21:25** How to leverage AI in web protection - OWASP Juiceshop\" by Rasmus Dalsgaard Andersen, CheckPoint\n\nOWASP Juice Shop is probably the most modern and sophisticated insecure web application! I will show you how AI can be leveraged in a WAF to protect against attacks."
     },
     {
-        "group": "Algiers",
-        "repo": "www-chapter-algiers",
-        "name": "DevSecOps : Bridging DevOps and Security",
-        "date": "2024-06-14",
-        "time": "19:00+01:00",
-        "link": "https://www.meetup.com/owasp-algiers-chapter/events/301445745",
-        "timezone": "Africa/Algiers",
-        "description": "Join us for an exclusive webinar on \"**DevSecOps: Bridging DevOps and Security**\" on 14th June 2024 at 19:00 GMT+1.\n\nLearn from industry expert **Djelloul Bouida** about integrating security into your DevOps workflow. Register now!\n\n Date: 14/06/2024\n Time: 19:00 GMT+1"
-    },
-    {
         "group": "Augsburg",
         "repo": "www-chapter-augsburg",
         "name": "3. OWASP Augsburg Stammtisch",
@@ -28,6 +18,16 @@
         "link": "https://www.meetup.com/owasp-augsburg-chapter/events/301438471",
         "timezone": "Europe/Berlin",
         "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Agenda**\n\n#### tbd - Du hast einen Vortrag? Du hast ein Thema, das dich interessiert? Zeig es uns! Vortr\u00e4ge sind immer willkommen!!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Study Group",
+        "date": "2024-07-04",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/301645041",
+        "timezone": "America/Chicago",
+        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
         "group": "Austin",
@@ -88,16 +88,6 @@
         "link": "https://www.meetup.com/bay-area-owasp/events/301448414",
         "timezone": "America/Los_Angeles",
         "description": "We're excited to announce our upcoming June meetup, which will be hosted by the wonderful **Traceable** team at **Harness** HQ in San Francisco. Refreshments will be sponsored by **Defy Security**. Get ready for insightful discussions and the chance to network with some of the brightest minds in the industry.\n\n**Agenda:**\n5:00 - 5:45: Doors open, networking and food\n\n5:45 - 6:30: Talk 1: API Security Blunders: Tales from the Cyber Trenches - Anjum Ahuja\n6:30 - 7:15: Talk 2: Had a Cyber Incident? Better Call Saul! - Daniel Davis\n7:15 - 8:00: Talk 3: Integrating GRC in DevOps for future-ready compliance - Varun Gurnaney\n\n**Talk 1:**\nSpeaker:\nAnjum Ahuja\n\nTitle:\nAPI Security Blunders: Tales from the Cyber Trenches\n\nAbstract:\nIn this session, we dive into API Security by dissecting real-world blunders that have caused security breaches. We'll guide you through the process of identifying these anti-patterns and provide insights to effectively defend against such attacks.\n\nSpeaker Bio:\nAnjum is the Director of Security Research at Traceable.ai. He has worked on different aspects of security engineering specifically Detection engineering & Incident response, AppSec and Threat Intelligence. He has presented at conferences like BSidesSF, BSidesCharm, and has multiple patents issued for IOT Security.\n\n**Talk 2:**\nSpeaker: Daniel Davis\n\nTitle: Had a Cyber Incident? Better Call Saul!\n\nAbstract: If you\u2019re a CISO, you\u2019re already calling your lawyer. The rest of you are going - huh??? From the SEC\u2019s legal action against Solarwinds to the looming specters of CMMC 2.0 and CIRCIA, when will cybersecurity\u2019s transformation into a legal domain be complete?\n\nSpeaker Bio:\nNo, Daniel isn\u2019t a lawyer, but he did stay at a Holiday Inn Express last night (does that one still hold up???). Cybersecurity isn\u2019t the first technical discipline to be \u201clegal-lite\u201d as he learned running safety programs for military aerospace programs. When things go wrong, people will always want to know who \u201csigned off on it\u201d.\nThis experience led Daniel to Lyft\u2019s autonomous vehicle division to create a public-private partnership to develop a framework for safety and cybersecurity for AVs. Today, he\u2019s the founder of Mindpipe, which will be open sourcing a next generation, end-to-end RAG pipeline leveraging open knowledge graph frameworks."
-    },
-    {
-        "group": "Belfast",
-        "repo": "www-chapter-belfast",
-        "name": "C3 Dev Festival - the contemporary software engineering and design festival",
-        "date": "2024-06-14",
-        "time": "08:00+01:00",
-        "link": "https://www.meetup.com/owasp-belfast/events/300841713",
-        "timezone": "Europe/London",
-        "description": "OWASP Belfast is pleased to announce the C3, a contemporary software engineering & design festival!\n\n**With 3 free tickets, we'll run a draw on May 20th among all who comment on this post!**\n\nCode, career, creativity\n12 artists & 30 speakers\nSpeed Networking\n& many more\n\n**#Amsterdam, June 14-15, 2024 \u2192 https://c3fest.com**\n\n\u0421onference announcement:\n\nCheck out the C3, a contemporary software engineering & design festival, organized by GitNation!\n\nIt is set to be one of the most vibrant festivals, blending technology, design, art, and music. It's a global gathering of tech enthusiasts in the beautiful city of Amsterdam!\n\nExcept for the 40 + speaker talks, the festival includes workshops, icebreaker activities, a game tournament, a pre-party, discussion rooms, a digital art exhibition, and a night party featuring 18+ DJs, musicians & creative coders on Techno/House, Algorave/Experimental, Night Cinema/Karaoke Hall stages\n\nAmongawesome first confirmed artists & speakers:\n\n\u2022 Rival Consoles, London-based critically acclaimed electronic music producer presenting a brand new unique performance that will take the form of an immersive audio-visual experience\n\u2022 Sam Aaron, key figure in algorave movement\n\u2022 Saskia Freeke, Creative coder, interaction designer, visual designer and educator\n\u2022 Christian Heilmann, Author of the Developer Advocacy Handbook\n& more\n\nExplore more about C3 and grab your ticket \u2192 https://c3fest.com/"
     },
     {
         "group": "Belo Horizonte",
@@ -166,16 +156,6 @@
         "date": "2024-06-17",
         "time": "19:00-05:00",
         "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/301508128",
-        "timezone": "America/Chicago",
-        "description": "Continuing with crAPI Challenges using ZAP, Browser Dev Tools, Postman, PowerShell, and Python"
-    },
-    {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "OWASP Houston Chapter API Security Study Group - Lunchtime Option",
-        "date": "2024-06-14",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/301508161",
         "timezone": "America/Chicago",
         "description": "Continuing with crAPI Challenges using ZAP, Browser Dev Tools, Postman, PowerShell, and Python"
     },
@@ -400,16 +380,6 @@
         "description": "** Welcome to the Summer Event of OWASP Estonia: Modern Cryptography - Vol. 2 **\n\n In this event we'll host two very special speakers:\n\n**Stefano Alberico**, tech lead mentor at **NATO DIANA** accelerator and founder at Skudo, is a technology visionary with 25 years of international experience.\n\nHe is very problem solving oriented and prefers to set up a demo with a Raspberry Pi rather than only explaining things on a PPT.\n\nHe is now focused on hardware encryption (HSM and PKI) for space and drone applications, based on Skudo's own FPGA implementation.\n\nSpeech: *more details coming soon*\n\n**Jelizaveta Vakarjuk** is a junior researcher in Cybernetica and industrial PhD student at Tallinn University of Technology. Her research focuses on post-quantum cryptography, privacy-preserving cryptography, and security of voting systems. Mainly she studies post-quantum digital signatures, but also focuses on the aspects of migration to post-quantum cryptography.\n\nSpeech: *more details coming soon*\n\n **And That's Not All - More Surprises Await!** Whether you're a cybersecurity professional, a tech enthusiast, or just curious about cryptography, there's something for everyone!\n\n **Connect, Collaborate, and Create:** This event is more than just talks - it's a platform to connect with like-minded folks!\n\n **Mark Your Calendars:**\nThursday 04th July at 18:30 - 20:30\nWorkland Maakri 19\n\n **Limited seats, registration on Meetup required!** "
     },
     {
-        "group": "Tampa",
-        "repo": "www-chapter-tampa",
-        "name": "OWASP Tampa Chapter 2024Q2 Lunch and Learn",
-        "date": "2024-06-14",
-        "time": "11:30-04:00",
-        "link": "https://www.meetup.com/owasp-tampa/events/301294626",
-        "timezone": "America/New_York",
-        "description": "**Welcome to our OWASP Tampa 2024Q2 Lunch and Learn!**\n\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda:**\n\n* 11:30am - Registration and Lunch\n* 12:00pm - Speaker - Chris Lindsey - From Reactive to Effective: Building Application Security that Works\n* 1:00pm - Depart\n\n**Speaker:**\n\nChris Lindsey is a seasoned speaker who has appeared at conferences, webinars, and private events. Currently building an online community and creating a podcast series, Chris draws on expertise from more than 15 years of direct security experience and over 35 years of experience leading teams in programming and software, solutions, and security architecture.\n\nFor three years, Chris built and led an entire application security program that includes the implementation of mature AppSec programs, including oversight of security processes and procedures, SAST, DAST, CSA/OSA, compliance, training, developer communication, code reviews, application inventory gathering, and risk analysis.\n\n**Abstract**:\n\nIn 2023, 71% of enterprises admitted their AppSec programs were reactive, playing catch-up with vulnerability alerts -- while at the same time, applications remain the top target for threat actors. That adds up to increased business risk for a lot of companies and fuels an urgent need to improve application security strategies. But how?\nThe key is to move from a compliance-based approach to managing application risk.\n\nJoin Chris Lindsey, Application Security Evangelist, for an in-depth discussion of what it takes to stop playing defense when it comes to application security. He'll wrangle over topics like:\n\n* The tell-tale signs of reactive mode\n* The value of preventative best practices\n* How to build security actions into the developer experience\n* The need for a holistic view and effective prioritization\n* Arming the security team with instant control at scale\n\n**Location:**\nGuidePoint Security\n3030 N Rocky Point Drive W\nSte 600\nTampa, FL\n\n**Sponsors:**\n[Mend](https://www.mend.io/)"
-    },
-    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "Application Security Pacific Northwest Conference",
@@ -418,15 +388,5 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/301142469",
         "timezone": "America/Vancouver",
         "description": "You have to buy tickets for this OWASP conference, please go to the following site to register for the event:\nhttps://www.eventbrite.com/e/4th-annual-owasp-appsec-days-pacific-northwest-conference-in-person-tickets-858457528577"
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "Extra OWASP SAMM community call - Europe - Asia",
-        "date": "2024-06-14",
-        "time": "09:00-04:00",
-        "link": "https://www.meetup.com/owasp-samm/events/301334615",
-        "timezone": "America/New_York",
-        "description": "The SAMM Core team is happy to host a community call on 14th June @ 15.00 CET. This is not a replacement of the regular community call, but an extra one we\u2019ve scheduled during a more friendly time for users in EU and Asia. Bring your SAMM questions and we\u2019ll discuss them!\n\nHere\u2019s the agenda outline for the call.\n\n* Welcome and introductions\n* SAMM Project Updates\n\n* SUD24\n* SAMM Fundamentals Course\n* Benchmark submissions\n* SAMM Guidance\n* Mappings to / from other frameworks\n\n* Q&A round"
     }
 ]
