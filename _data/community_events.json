@@ -10,6 +10,16 @@
         "description": "**IMPORTANT:**\n\n* **You need to reverse into the parking spot!**\n* **Please please provide your email to Thomas to receive a private link to register in the guest system at Vesta before the event**\n* **Please register your car before the event. See the image for parking**\n\nAgenda:\n**19:00 \u2013 19:10** Welcome by Vestas and OWASP Aarhus\n\n**19:10 \u2013 20:00** \u201dAutomated attack path discovery and alerting with Adalanche\u201d by Rasmus Have.\n\nRasmus Have is a Senior Cyber Security Architect at Vestas where he works with security architecture across the IT and OT domains. Rasmus has a background from the startup world and military security over the last 25 years. He aims to close the gap between the theoretical architecture work and the practical engineering work with a hands on approach to security.\n\n**20:00 \u2013 20:30** Networking break\n\n**20:30 \u2013 21:25** How to leverage AI in web protection - OWASP Juiceshop\" by Rasmus Dalsgaard Andersen, CheckPoint\n\nOWASP Juice Shop is probably the most modern and sophisticated insecure web application! I will show you how AI can be leveraged in a WAF to protect against attacks."
     },
     {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Mastering Attack Surface Mapping with OWASP Amass",
+        "date": "2024-06-27",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/301614198",
+        "timezone": "America/New_York",
+        "description": "Join us for an enlightening session on OWASP Amass, a tool revolutionizing attack surface mapping and threat discovery. Learn how the Amass framework helps security professionals perform network mapping and external asset discovery using open source intelligence gathering and reconnaissance techniques. Gain practical insights through live demonstrations and best practices for enhancing your cybersecurity toolkit. Whether you're a seasoned cybersecurity expert or just beginning your journey, this event will provide valuable insights and practical knowledge.\n\nWhat to Expect:\n- An introduction to OWASP Amass and its core functionalities\n- Live demonstration of attack surface mapping and reconnaissance techniques\n- Best practices for integrating Amass into your cybersecurity toolkit\n- Networking opportunities with like-minded professionals\n\nSpeaker Bio:\nJeff Foley has 20 years of industry experience focused on applied research & development and assessment of security in critical information technology and infrastructure. He is the Project Leader for Amass, an OWASP (Open Web Application Security Project) Foundation flagship project that performs in-depth attack surface mapping and asset discovery. Jeff is also an Adjunct Lecturer teaching Penetration Testing at the SUNY (State University of New York) Polytechnic Institute. Previously, he was the US Manager for Penetration Testing & Red Teaming at National Grid, a multinational electricity and gas utility company. Prior to this, Jeff served as the Director of Penetration Testing & Security Assessment at Northrop Grumman Corporation, an American global aerospace and defense technology company. In his spare time, Jeff enjoys experimenting with new blends of coffee and giving back to the information security community."
+    },
+    {
         "group": "Augsburg",
         "repo": "www-chapter-augsburg",
         "name": "3. OWASP Augsburg Stammtisch",
@@ -60,16 +70,6 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "null Bangalore Meet 15 June 2024 Null/OWASP Combined Meet",
-        "date": "2024-06-15",
-        "time": "09:30+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/301598714",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us at the Null/OWASP Combined Meet in Bangalore on Saturday, June 15, 2024, from 09:30 AM to 01:50 PM\n\nvenue:\nCloudsek New Office\n16/1, Cambridge Rd, Halasuru,\nCambridge Layout, Jogupalya,\nBengaluru, Karnataka 560008.\n\nThis free event offers a platform for cybersecurity enthusiasts to learn and share knowledge through sessions and Network with peers, engage in enriching discussions, and enhance your cybersecurity skills at this dynamic gathering. No registration fees are required; just bring an open mind and a willingness to learn!\n\n### Session Schedule\n\n|\n|\n|\n\n| Name | Speaker | Start Time | End Time | Resources |\n| ---- | ------- | ---------- | -------- | --------- |\n| **Welcome Note / Registrations** | 09:30 AM | 09:40 AM | |\n| [SoC what lies ahead!](https://null.community/event_sessions/4312-soc-what-lies-ahead) | [Aarya Jain](https://null.community/profile/49648-aarya-jain) | 09:40 AM | 10:10 AM | |\n| [Opsec Safe Red Team Infrastructure](https://null.community/event_sessions/4317-opsec-safe-red-team-infrastructure) | [Rishi Kanwar](https://null.community/profile/49754-rishi-kanwar) | 10:10 AM | 10:55 AM | |\n| **Introduction** | 10:55 AM | 11:05 AM | |\n| **Introduction to various Null Activities** | 11:05 AM | 11:10 AM | |\n| [Pentesters Approach to AWS IAM](https://null.community/event_sessions/4315-pentesters-approach-to-aws-iam) | [Divyanshu shukla](https://null.community/profile/4732-divyanshu-shukla) | 11:10 AM | 12:05 PM | |\n| **Networking Session + Break** | 12:05 PM | 12:35 PM | |\n| [Uncovering GraphQL: Identifying vulnerabilities and mastering penetration testing](https://null.community/event_sessions/4318-uncovering-graphql-identifying-vulnerabilities-and-mastering-penetration-testing) | [Maulik Lakhani](https://null.community/profile/16055-maulik-lakhani) | 12:35 PM | 01:30 AM | |\n| **Feedback + Next Month\u2019s Planning** | 01:30 PM | 01:50 PM |"
-    },
-    {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
         "name": "Hacker Thursday with Pacific Hackers & OWASP \u2013 CTF Time",
@@ -98,16 +98,6 @@
         "link": "https://www.meetup.com/owasp-belo-horizonte-chapter/events/301344829",
         "timezone": "America/Sao_Paulo",
         "description": "**OWASP BH est\u00e1 de volta!**\n\nJunte-se a n\u00f3s no nosso primeiro meetup de 2024 e celebre a reabertura do cap\u00edtulo OWASP BH!\n\nAgenda:\n**10h00 - 10h30:** Boas-vindas e reabertura oficial do cap\u00edtulo OWASP BH: Apresenta\u00e7\u00e3o da OWASP e dos planos do cap\u00edtulo para 2024.\n**10h30 - 11h30:** Palestra \"IA Generativa e o Cen\u00e1rio da Seguran\u00e7a Cibern\u00e9tica\": Descubra os desafios e oportunidades da intelig\u00eancia artificial na seguran\u00e7a.\n**11h30 - 12h00:** Palestra a definir\n**12h00 - 13h00:** Networking e encerramento"
-    },
-    {
-        "group": "Bhopal",
-        "repo": "www-chapter-bhopal",
-        "name": "ML Huddle & Cracking the Cybersecurity Puzzle",
-        "date": "2024-06-15",
-        "time": "11:00+05:30",
-        "link": "https://www.meetup.com/owasp-bhopal-chapter/events/301458426",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us for an evening of professional networking and insightful discussions on the latest trends in computer security, application security, and open source technology. Our group, the OWASP Bhopal Chapter, is dedicated to promoting knowledge sharing and collaboration in the fields of cybersecurity, software security, and web application security. Building upon the success of our previous events like \"Revisiting Cyber Security & 101 with ML\" and \"Introduction and overview to OWASP,\" this event will focus on the significance of web security and network security in today's digital landscape.\n\nWhether you are a seasoned cybersecurity professional or a budding enthusiast eager to learn about penetration testing and information security, this event is the perfect platform to connect with like-minded individuals and expand your knowledge. Come join us for an engaging session on new technologies, best practices in software security, and the latest developments in the OWASP community. Let's unite to make the digital world safer and more secure for all!"
     },
     {
         "group": "Cincinnati",
@@ -178,6 +168,16 @@
         "link": "https://www.meetup.com/owasp-italy-meetup-group/events/300592625",
         "timezone": "Europe/Rome",
         "description": "OWASP Italy will host the next OWASP Italy Day 2024 on June 20th. It will be a full-day event dedicated to application security (AppSec)!\n\n#### **OWASP Italy Day 2024 will take place at Cagliari.** This is a free, one-day, informal event aimed at increasing awareness and knowledge of web application security. **Reserve your seat here:** [https://clicqui.net/2Lst5](https://clicqui.net/2Lst5)\n\nThe event is primarily intended to appeal to security professionals, software developers, software quality engineers, and computer science students with a strong interest in computer security.\n\n### **PROGRAM**\n\nThe event will take place next 20th June from 4 PM to 22 PM (Italian time). We are working on the program at the moment.\n\n#### **Dinis Cruz, Founder @ The Cyber Boardroom, Chief Scientist @ Glasswall, vCISO and GenAI expert, will be the esteemed keynote speaker at the upcoming OWASP Italy Day 202**4!\n\n### **Call for papers**\n\nThose who are interested in participating as speakers to the conference can submit an abstract of their proposed talk via Easychair by April, 2024. The Easychair link for submission is reported on this page.\nThe abstract must be in PDF format and should contain the following information:\nName and surname of the speaker Institutions and roles of the speaker therein Short biography of the speaker Title of the contribution Abstract of the presentation The submission must be no longer than 2 pages overall. No additional formatting requirements are in place.\nThe submission will be reviewed by the program committee and the most interesting talk proposals will be selected for the conference.\n[CFP OWASP Italy Day 2024](https://easychair.org/cfp/CJ24)\n\n### **Call for Sponsorship**\n\nWe are excited to offer sponsorship opportunities for the OWASP Italy Day 2024, taking place in Cagliari on June 20th. This event provides a unique platform to connect with professionals from multiple facets of the software industry, including security experts, developers, engineers, and influential academics.\n\n#### Why Sponsor OWASP Italy Day 2024?\n\nBrand Visibility: As a sponsor, your brand will be prominently displayed before, during, and after the event. This includes logo placement in event materials, promotional content, and key areas at the venue. Enhance your brand recognition within the cybersecurity and developer communities.\nCommunity Engagement: Engaging with the OWASP community puts your company in the spotlight as a leader in supporting open software and security advancements. This event will provide you with the opportunity to network with industry leaders and cybersecurity professionals, offering a chance to build relationships and share your company\u2019s expertise and solutions.\nLead Generation: With hundreds of attendees from various sectors, sponsoring OWASP Italy Day 2024 gives you direct access to potential clients and customers. The event will provide a focused audience interested in cybersecurity solutions, products, and training.\nPlease see **[here for details](https://owasp.org/www-chapter-italy/assets/images/2024%20OWASP%20Italy%20Day%20Sponsorship.pptx.pdf)**\nFor detailed information on our sponsorship packages please read the details [here](https://owasp.org/www-chapter-italy/events/OWASPIt24SponsorKit)\n\n**RESERVE YOUR SEAT:**\n[https://clicqui.net/2Lst5](https://clicqui.net/2Lst5)\n\nEvent official site:\nhttps://owasp.org/www-chapter-italy/events/OwaspItalyDay2024-06-20"
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2024-07-15",
+        "time": "18:45-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/300686440",
+        "timezone": "America/New_York",
+        "description": "OWASP topic TBA"
     },
     {
         "group": "Jacksonville",
@@ -320,16 +320,6 @@
         "description": "For every application design \"best practice\", there is a matching \"worst practice\", or what some call security patterns and anti-patterns. Join us to review common anti-patterns, identify their accompanying secure design patterns, and commiserate about the worst offenders we've seen in the wild."
     },
     {
-        "group": "Portland",
-        "repo": "www-chapter-portland",
-        "name": "AppSec Days Pacific Northwest 2024",
-        "date": "2024-06-15",
-        "time": "21:00-07:00",
-        "link": "https://www.meetup.com/owasp-portland-chapter/events/301184004",
-        "timezone": "America/Los_Angeles",
-        "description": "AppSec PNW is an annual regional conference produced by the Portland, Seattle, Vancouver, and Victoria OWASP chapters. This year it will be in Vancouver BC. (Last year it was in Portland.)\n\nOur featured speakers are [E Coleen C.](https://www.linkedin.com/in/ecoleenc/), CISO Advisor, and [Jason Haddix](https://www.linkedin.com/in/jhaddix/), CEO of Arcanum Information Security! Coleen will kick off the builder track, and Jason will launch the breaker track.\n\nAll the talks are on Saturday this year, and all the workshops on Sunday. You can find full details, including the complete schedule, at [appsecpnw.org](https://www.appsecpnw.org/schedule). Registration is on [EventBrite](https://www.eventbrite.com/e/4th-annual-owasp-appsec-days-pacific-northwest-conference-june-15-16-tickets-858457528577?aff=oddtdtcreator)."
-    },
-    {
         "group": "Scotland",
         "repo": "www-chapter-scotland",
         "name": "OWASP Scotland Chapter Meeting - June",
@@ -360,16 +350,6 @@
         "description": "*Join us for a two-hour workshop designed to introduce you to the exciting world of web application penetration testing. This event is proudly delivered by [TCM Security Academy](https://academy.tcm-sec.com/), [OWASP Seattle](https://owasp.org/www-chapter-seattle/), and [WiCyS Western Washington](https://www.linkedin.com/company/women-in-cybersecurity-wicys-western-washington/).*\n*The workshop is perfect for beginners looking to start their journey in application security. You'll learn practical skills for identifying and exploiting common web vulnerabilities, with a focus on real-world scenarios and hands-on exercises.*\n*[Alex Olsen,](https://www.linkedin.com/in/alex-olsen-ase/) from [TMC Security](https://tcm-sec.com/) will be delivering this practical workshop focusing on the basics of web app pentesting, exploring the [OWASP Top 10 vulnerabilities](https://owasp.org/www-project-top-ten/), and diving into specific issues like injection flaws, logic problems, and access control weaknesses. We'll also discuss where to go next in your learning journey, including career paths in AppSec and resources for skill development. The event will conclude with a Q&A session, giving you the opportunity to ask questions and gain insights from experienced professionals.*\n*Whether you're a developer, IT professional, or simply curious about cybersecurity, this workshop will provide valuable knowledge and practical experience to kickstart your path in web application security.*\n*Google Meet link will be shared with all registered participants 24 hours prior to the event.*"
     },
     {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "AppSec Days Pacific Northwest Conference 2024",
-        "date": "2024-06-15",
-        "time": "08:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/301143536",
-        "timezone": "America/Los_Angeles",
-        "description": "Join your security community for two days of  builder and breaker content, including session talks, workshops, and a CTF.\nLearn, play, network, meet new friends, or connect with existing ones.\n\nColeeen Coolidge will open our breaker track & Jason Haddix will kick off our breaker track.\n\nFull schedule @ [https://www.appsecpnw.org/schedule](https://www.appsecpnw.org/schedule)\nTickets @ [https://bit.ly/appsecpnw2024-tickets](https://bit.ly/appsecpnw2024-tickets)\n\nSee you there!"
-    },
-    {
         "group": "Tallinn",
         "repo": "www-chapter-tallinn",
         "name": "OWASP Tallinn - Modern Cryptography - Vol. 2",
@@ -378,15 +358,5 @@
         "link": "https://www.meetup.com/owasp-tallinn/events/301615501",
         "timezone": "Europe/Tallinn",
         "description": "** Welcome to the Summer Event of OWASP Estonia: Modern Cryptography - Vol. 2 **\n\n In this event we'll host two very special speakers:\n\n**Stefano Alberico**, tech lead mentor at **NATO DIANA** accelerator and founder at Skudo, is a technology visionary with 25 years of international experience.\n\nHe is very problem solving oriented and prefers to set up a demo with a Raspberry Pi rather than only explaining things on a PPT.\n\nHe is now focused on hardware encryption (HSM and PKI) for space and drone applications, based on Skudo's own FPGA implementation.\n\nSpeech: *more details coming soon*\n\n**Jelizaveta Vakarjuk** is a junior researcher in Cybernetica and industrial PhD student at Tallinn University of Technology. Her research focuses on post-quantum cryptography, privacy-preserving cryptography, and security of voting systems. Mainly she studies post-quantum digital signatures, but also focuses on the aspects of migration to post-quantum cryptography.\n\nSpeech: *more details coming soon*\n\n **And That's Not All - More Surprises Await!** Whether you're a cybersecurity professional, a tech enthusiast, or just curious about cryptography, there's something for everyone!\n\n **Connect, Collaborate, and Create:** This event is more than just talks - it's a platform to connect with like-minded folks!\n\n **Mark Your Calendars:**\nThursday 04th July at 18:30 - 20:30\nWorkland Maakri 19\n\n **Limited seats, registration on Meetup required!** "
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "Application Security Pacific Northwest Conference",
-        "date": "2024-06-15",
-        "time": "08:00-07:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/301142469",
-        "timezone": "America/Vancouver",
-        "description": "You have to buy tickets for this OWASP conference, please go to the following site to register for the event:\nhttps://www.eventbrite.com/e/4th-annual-owasp-appsec-days-pacific-northwest-conference-in-person-tickets-858457528577"
     }
 ]
