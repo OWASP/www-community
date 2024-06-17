@@ -36,7 +36,6 @@ The following code is a wrapper around the UNIX command *cat* which
 prints the contents of a file to standard output. It is also injectable:
 
 ```
-
 #include <stdio.h>
 #include <unistd.h>
 
@@ -58,7 +57,6 @@ int main(int argc, char **argv) {
 Used normally, the output is simply the contents of the file requested:
 
 ```
-
 $ ./catWrapper Story.txt
 When last we left our heroes...
 ```
@@ -183,26 +181,26 @@ injection on the Unix/Linux platform:
 **C:**
 
 ```C
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
-int main(int argc, char **argv)
+int main(int argc, char **argv)
 {
-     char command[256];
+     char command[256];
 
-     if(argc != 2) {
-          printf("Error: Please enter a program to time!\n");
-          return -1;
-     }
+     if(argc != 2) {
+          printf("Error: Please enter a program to time!\n");
+          return -1;
+     }
 
-     memset(&command, 0, sizeof(command));
+     memset(&command, 0, sizeof(command));
 
-     strcat(command, "time ./");
-     strcat(command, argv[1]);
+     strcat(command, "time ./");
+     strcat(command, argv[1]);
 
-     system(command);
-     return 0;
+     system(command);
+     return 0;
 }
 ```
 

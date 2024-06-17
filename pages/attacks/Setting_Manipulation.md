@@ -44,9 +44,11 @@ Dictionary Definition (Setting Manipulation-15).
 
 Consider the following piece of Java code:
 
-` …`
-` conn.setCatalog(request.getParameter(“catalog”));`
-` ...`
+```java
+...
+conn.setCatalog(request.getParameter("catalog"));
+...
+```
 
 This fragment reads the string “catalog” from “HttpServletRequest” and
 sets it as the active catalog for a database connection. An attacker

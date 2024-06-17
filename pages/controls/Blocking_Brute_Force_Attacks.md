@@ -145,33 +145,33 @@ When you combine the chance of an attacker sending a correct username and passwo
 ### Figure 1: Password Authentication Delay: C\#
 
 ```c#
-private void AuthenticateRequest(object obj, EventArgs ea)
+private void AuthenticateRequest(object obj, EventArgs ea)
 {
-   HttpApplication objApp = (HttpApplication) obj;
-   HttpContext objContext = (HttpContext) objApp.Context;  
-   // If user identity is not blank, pause for a random amount of time
-   if ( objApp.User.Identity.Name != "")
-     {
-       Random rand = new Random();        
-       Thread.Sleep(rand.Next(minSeconds, maxSeconds) * 1000);
-     }      
+   HttpApplication objApp = (HttpApplication) obj;
+   HttpContext objContext = (HttpContext) objApp.Context;  
+   // If user identity is not blank, pause for a random amount of time
+   if ( objApp.User.Identity.Name != "")
+     {
+       Random rand = new Random();        
+       Thread.Sleep(rand.Next(minSeconds, maxSeconds) * 1000);
+     }      
 }
 ```
 
 ### Figure 2: Password Authentication Delay: VB.NET
 
 ```vb
-Public Sub AuthenticateRequest(ByVal obj As Object, ByVal ea As System.EventArgs)
- Dim objApp As HttpApplication
- Dim objContext As HttpContext
- Dim ran As Random
- objApp = obj
- objContext = objApp.Context
+Public Sub AuthenticateRequest(ByVal obj As Object, ByVal ea As System.EventArgs)
+ Dim objApp As HttpApplication
+ Dim objContext As HttpContext
+ Dim ran As Random
+ objApp = obj
+ objContext = objApp.Context
 
- ' If user identity is not blank, pause for a random amount of time
- If objApp.User.Identity.Name <> "" Then
-   ran = New Random
-   Thread.Sleep(ran.Next(ran.Next(minSeconds, maxSeconds) * 1000))
- End If
-End Sub
+ ' If user identity is not blank, pause for a random amount of time
+ If objApp.User.Identity.Name <> "" Then
+   ran = New Random
+   Thread.Sleep(ran.Next(ran.Next(minSeconds, maxSeconds) * 1000))
+ End If
+End Sub
 ```

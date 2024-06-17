@@ -59,40 +59,40 @@ See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing
 
 Encoding and double encoding:
 
-- `%2e%2e%2f` represents `../`
-- `%2e%2e/` represents `../`
-- `..%2f` represents `../ `
-- `%2e%2e%5c` represents `..\`
-- `%2e%2e\` represents `..\ `
-- `..%5c` represents `..\ `
-- `%252e%252e%255c` represents `..\ `
-- `..%255c` represents `..\` 
+- `%2e%2e%2f` represents `../`
+- `%2e%2e/` represents `../`
+- `..%2f` represents `../`
+- `%2e%2e%5c` represents `..\`
+- `%2e%2e\` represents `..\`
+- `..%5c` represents `..\`
+- `%252e%252e%255c` represents `..\`
+- `..%255c` represents `..\` 
 
-and so on.
+and so on.
 
 #### Percent encoding (aka URL encoding)
 
 Note that web containers perform one level of decoding on percent
 encoded values from forms and URLs.
 
-- `..%c0%af` represents `../ `
-- `..%c1%9c` represents `..\ `
+- `..%c0%af` represents `../`
+- `..%c1%9c` represents `..\`
 
 #### OS specific
 
 UNIX
 
 ```
-Root directory:  “ / “ 
-Directory separator: “ / “
+Root directory:  “ / “ 
+Directory separator: “ / “
 ```
 
 WINDOWS
 
 ```
-Root directory: “  <partition letter> : \ “
-Directory separator: “ / “ or “ \ ” 
-Note that windows allows filenames to be followed by extra . \ / characters.
+Root directory: “  <partition letter> : \ “
+Directory separator: “ / “ or “ \ ” 
+Note that windows allows filenames to be followed by extra . \ / characters.
 ```
 
 In many operating systems, null bytes `%00` can be injected to terminate the filename. For example, sending a parameter like:
@@ -109,7 +109,7 @@ The following examples show how the application deals with the resources in use.
 
 ```
 http://some_site.com.br/get-files.jsp?file=report.pdf
-http://some_site.com.br/get-page.php?home=aaa.html 
+http://some_site.com.br/get-page.php?home=aaa.html 
 http://some_site.com.br/some-page.asp?page=index.html
 ```
 
@@ -118,8 +118,8 @@ variable parameter to access files located outside the web publish
 directory.
 
 ```
-http://some_site.com.br/get-files?file=../../../../some dir/some file
-http://some_site.com.br/../../../../some dir/some file
+http://some_site.com.br/get-files?file=../../../../some dir/some file
+http://some_site.com.br/../../../../some dir/some file
 ```
 
 The following URLs show examples of \*NIX password file exploitation.

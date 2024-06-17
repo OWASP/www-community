@@ -41,34 +41,40 @@ direct connection (socket) with the server.
 
 **Java code:**
 
-`String rPort = request.getParameter("remotePort");`
-`...`
-`ServerSocket srvr = new ServerSocket(rPort);`
-`Socket skt = srvr.accept(); `
-`...`
+```java
+String rPort = request.getParameter("remotePort");
+...
+ServerSocket srvr = new ServerSocket(rPort);
+Socket skt = srvr.accept();
+...
+```
 
 
 **.Net code:**
 
-`int rPort = Int32.Parse(Request.get_Item("remotePort "));`
-`...`
-`IPEndPoint endpoint = new IPEndPoint(address,rPort);`
-`socket = new Socket(endpoint.AddressFamily, `
-`SocketType.Stream, ProtocolType.Tcp);`
-`socket.Connect(endpoint);`
-`...`
+```c#
+int rPort = Int32.Parse(Request.get_Item("remotePort "));
+...
+IPEndPoint endpoint = new IPEndPoint(address,rPort);
+socket = new Socket(endpoint.AddressFamily,
+SocketType.Stream, ProtocolType.Tcp);
+socket.Connect(endpoint);
+...
+```
 
 ### Example 2
 
 This example is same as previous, but it gets port number from CGI
 requests using C++:
 
-`char* rPort = getenv("remotePort ");`
-`...`
-`serv_addr.sin_port = htons(atoi(rPort));`
-`if (connect(sockfd,&serv_addr,sizeof(serv_addr)) < 0) `
-`error("ERROR connecting");`
-`...`
+```cpp
+char* rPort = getenv("remotePort ");
+...
+serv_addr.sin_port = htons(atoi(rPort));
+if (connect(sockfd,&serv_addr,sizeof(serv_addr)) < 0)
+error("ERROR connecting");
+...
+```
 
 ### Example 3
 
@@ -76,10 +82,12 @@ This example in PLSQL / TSQL gets a URL path from a CGI and downloads
 the file contained in it. If a user modifies the path or filename, it’s
 possible to download arbitrary files from server:
 
-`...`
-`filename := SUBSTR(OWA_UTIL.get_cgi_env('PATH_INFO'), 2);`
-`WPG_DOCLOAD.download_file(filename); `
-`...`
+```sql
+...
+filename := SUBSTR(OWA_UTIL.get_cgi_env('PATH_INFO'), 2);
+WPG_DOCLOAD.download_file(filename);
+...
+```
 
 ### Example 4
 

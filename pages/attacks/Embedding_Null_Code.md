@@ -27,7 +27,7 @@ terminator:
 
 `PATH%00`  
 `PATH[0x00]`  
-`PATH[alternate representation of NULL character]`  
+`PATH[alternate representation of NULL character]`  
 `<script></script>%00`  
 
 ## Examples
@@ -37,8 +37,10 @@ terminator:
 The following example shows the use of this technique to modify a URL and 
 access arbitrary files on a filesystem due a PHP script vulnerability.
 
-`$whatever = addslashes($_REQUEST['whatever']);`  
-`include("/path/to/program/" . $whatever . "/header.htm");`
+```php
+$whatever = addslashes($_REQUEST['whatever']);
+include("/path/to/program/" . $whatever . "/header.htm");
+```
 
 By manipulating the URL using postfix NULL bytes, one can access the
 UNIX password file:
@@ -52,7 +54,7 @@ Another attacks consists of exploitating buffer overflow in ActiveX components
 
 The attack occurs when a link is requested as follows:
 
-`GET /some_dir/file.pdf.pdf%00[long string] HTTP/1.1`  
+`GET /some_dir/file.pdf.pdf%00[long string] HTTP/1.1`  
 
 This exploit can be used against a web server that truncates the request at 
 the null byte `%00`, such as Microsoft IIS and Netscape Enterprise web servers. 

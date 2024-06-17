@@ -41,19 +41,23 @@ non-final objects and executes under victim’s credentials.
 In the following example, the class “any_class” is declared as final
 and “server_addr” variable is not:
 
-`public final class any_class extends class_Applet {`
-`public URL server_addr;`
-`…`
-`}`
+```java
+public final class any_class extends class_Applet {
+    public URL server_addr;
+    …
+}
+```
 
 In this case, the value of “server_addr” variable could be set by any
 other function that has access to it, thus changing the application
 behavior. A proper way to declare this variable is:
 
-`public class any_class extends class_Applet {`
-`public final URL server_addr;`
-`…`
-`}`
+```java
+public class any_class extends class_Applet {
+    public final URL server_addr;
+    …
+}
+```
 
 When a variable is declared as final its value cannot be modified.
 

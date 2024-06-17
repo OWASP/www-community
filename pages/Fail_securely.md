@@ -34,29 +34,29 @@ An exception might cause a security method not to be invoked when it should, or 
 
 ### isAdmin
 
-    isAdmin = true; 
-    try { 
-      codeWhichMayFail(); 
-      isAdmin = isUserInRole( “Administrator” ); 
+    isAdmin = true; 
+    try { 
+      codeWhichMayFail(); 
+      isAdmin = isUserInRole( “Administrator” ); 
     }
-    catch (Exception ex)
+    catch (Exception ex)
     {
-      log.write(ex.toString()); 
-    } 
+      log.write(ex.toString()); 
+    } 
 
 If codeWhichMayFail() fails, the user is an admin by default. This is
 obviously a security risk. The fix is simple, in this case. It involves
 a simple reversing of the logic. In the example instance, this is very
 easy to do.
 
-    isAdmin = false;
-    try {
-      codeWhichMayFail();
-      isAdmin = isUserInrole( "Administrator" );
+    isAdmin = false;
+    try {
+      codeWhichMayFail();
+      isAdmin = isUserInrole( "Administrator" );
     }
-    catch (Exception ex)
+    catch (Exception ex)
     {
-      log.write(ex.toString());
+      log.write(ex.toString());
     }
 
 This example is also an example of the [Least privilege](vulnerabilities/Least_Privilege_Violation) principle, which states you should never grant more access than required. 

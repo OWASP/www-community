@@ -49,12 +49,12 @@ The following code segment reads the name of the author of a weblog
 entry, author, from an HTTP request and sets it in a cookie header of an
 HTTP response.
 
-```
-    String author = request.getParameter(AUTHOR_PARAM);
-    ...
-    Cookie cookie = new Cookie("author", author);
-        cookie.setMaxAge(cookieExpiration);
-        response.addCookie(cookie);
+```java
+String author = request.getParameter(AUTHOR_PARAM);
+...
+Cookie cookie = new Cookie("author", author);
+    cookie.setMaxAge(cookieExpiration);
+    response.addCookie(cookie);
 ```
 
 Assuming a string consisting of standard alpha-numeric characters, such
@@ -62,10 +62,10 @@ as "Jane Smith", is submitted in the request the HTTP response including
 this cookie might take the following form:
 
 ```
-    HTTP/1.1 200 OK
-    ...
-    Set-Cookie: author=Jane Smith
-    ...
+HTTP/1.1 200 OK
+...
+Set-Cookie: author=Jane Smith
+...
 ```
 
 However, because the value of the cookie is formed of unvalidated user
@@ -77,13 +77,13 @@ would be split into an imposter response followed by the original
 response, which is now ignored:
 
 ```
-    HTTP/1.1 200 OK
-    ...
-    Set-Cookie: author=Wiley Hacker
-    Content-Length: 999
+HTTP/1.1 200 OK
+...
+Set-Cookie: author=Wiley Hacker
+Content-Length: 999
 
-    <html>malicious content...</html> (to 999th character in this example)
-    Original content starting with character 1000, which is now ignored by the web browser...
+<html>malicious content...</html> (to 999th character in this example)
+Original content starting with character 1000, which is now ignored by the web browser...
 ```
 
 The ability of the attacker to construct arbitrary HTTP responses

@@ -35,7 +35,7 @@ more of a chance of finding an injection flaw in a system.
 For example, consider this expression to match a floating point number
 in text:
 
-`   [-+]?([0-9])*\.?([0-9]*)`
+`   [-+]?([0-9])*\.?([0-9]*)`
 
 While it does allow for floating point numbers, the greedy \* token will
 allow for the pattern to start anywhere in the string, leaving an

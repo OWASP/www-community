@@ -25,7 +25,7 @@ view.
 
 The risks regarding FPD may produce various outcomes. For example, if
 the webroot is getting leaked, attackers may abuse the knowledge and use
-it in combination with file inclusion vulnerabilites (see [PHP File
+it in combination with file inclusion vulnerabilities (see [PHP File
 Inclusion](https://owasp.org/www-community/vulnerabilities/PHP_File_Inclusion)) to steal
 configuration files regarding the web application or the rest of the
 operating system.
@@ -33,7 +33,7 @@ operating system.
     Warning: session_start() [function.session-start]: The session id contains illegal characters,
     valid characters are a-z, A-Z, 0-9 and '-,' in /home/example/public_html/includes/functions.php on line 2
 
-In combination with, say, unproteced use of the PHP function
+In combination with, say, unprotected use of the PHP function
 file_get_contents, the attacker gets an opportunity to steal
 configuration files.
 

@@ -81,9 +81,9 @@ in the “index.php” page and enter their login information. However, using
 profile, the user could elevate their privileges to administrator.
 Example:
 
-`Username: Alice`
-`Password: 87654321`
-`Email: alice@attack.com |admin| `
+`Username: Alice`
+`Password: 87654321`
+`Email: alice@attack.com |admin| `
 
 This information will be recorded in “mem.php” file like this:
 

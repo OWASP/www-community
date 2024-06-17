@@ -34,23 +34,24 @@ Consider a web application that makes access control and authorization
 based on *JSESSIONID*, but registers user actions based on a *user*
 parameter defined on the Cookie header, as follows:
 
-` POST http://someserver/Upload_file.jsp HTTP/1.1`
-` Host: tequila:8443`
-` User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4`
-` Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5`
-` Accept-Language: en-us,en;q=0.5`
-` Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7`
-` Keep-Alive: 300`
-` Connection: keep-alive`
-` Referer: http://someserver/uploads.jsp`
-` `**`Cookie:``   ``JSESSIONID=EE3BD1E764CD6EED280426128201131C;``
- ``user=leonardo`**
-` Content-Type: multipart/form-data; boundary=---------------------------263152394310685`
-` Content-Length: 321`
+```
+POST http://someserver/Upload_file.jsp HTTP/1.1
+Host: tequila:8443
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://someserver/uploads.js
+Cookie: JSESSIONID=EE3BD1E764CD6EED280426128201131C; user=leonardo
+Content-Type: multipart/form-data; boundary=---------------------------263152394310685
+Content-Length: 321
+```
 
 And the log file is composed by:
 
-`Date, Time, Source IP, Source port, Request, User`
+`Date, Time, Source IP, Source port, Request, User`
 
 Once user information is acquired from user parameter on HTTP header, a
 malicious user could make use of a local proxy (eg:paros) and change it

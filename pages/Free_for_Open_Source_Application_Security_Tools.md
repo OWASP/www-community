@@ -75,8 +75,8 @@ In addition, we are aware of the following commercial SAST tools that are free f
     - [CodeSweep - JetBrains Plugin](https://hclsw.co/codesweep-jetbrains) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.
     - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account.
   - [Aikido](https://www.aikido.dev/product) - Combines open source software with custom rules & features into a single dashboard with all your security findings. Includes both SAST and Library Analysis tools. [Free for small teams](https://www.aikido.dev/pricing).
-  - [AppSweep](https://www.guardsquare.com/appsweep-mobile-application-security-testing) - a free for everyone mobile application security testing tool for Android. It analyzes the compiled application and does not require access to the source code. The tool performs security assessment not only of the executable code but also of application resources and configuration file. Integration into CI/CD is supported.
-  - [Arnica](https://www.arnica.io/solution/code-security) - Scans all source code repositories for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets. The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimimted time and users count. The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
+  - [AppSweep](https://www.guardsquare.com/appsweep-mobile-application-security-testing) - a free for everyone mobile application security testing tool for Android and iOS. It analyzes the compiled application and does not require access to the source code. The tool performs security assessment not only of the executable code but also of application resources and configuration file. Integration into CI/CD is supported.
+  - [Arnica](https://www.arnica.io/solution/code-security) - Scans all source code repositories for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets. The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count. The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
 
 ### DAST Tools
 
@@ -259,7 +259,7 @@ Commercial tools of this type that are free for open source:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
       - GitHub version: <https://github.com/marketplace/whitesource-bolt>
   - [Arnica](https://www.arnica.io/solution/code-security) - Provides full visibility for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets across all source code repositories.
-      - The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimimted time and users count.The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
+      - The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count.The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
       - [SBOMs]([https://www.arnica.io/solution/sbom](https://docs.arnica.io/arnica-documentation/inventory/software-bill-of-materials-sbom)) are generated and automatically updated across all source code repositories.
       - [Supported languages](https://docs.arnica.io/arnica-documentation/code-risks/software-composition-analysis-sca): .Net, C, C++, L, Go, Java, JavaScript (including various frameworks), PHP, Python, Ruby, Rust, Scala, Swift.
       - Simplifies the risk prioritization by automatically classifying the business important of each product and correlating the potential exploitability with open source threat feeds (e.g. EPSS).
@@ -271,8 +271,7 @@ open source projects also consider using good code quality tools. A few that we 
 
   - [SpotBugs](https://spotbugs.github.io/) - Open source code quality tool for Java
       - This is the active fork for FindBugs, so if you use Findbugs, you should switch to this.
-      - SpotBugs users should add the FindSecBugs plugin
-        (http://find-sec-bugs.github.io/) to their SpotBugs setup, as it
+      - SpotBugs users should add the [FindSecBugs plugin](https://find-sec-bugs.github.io/) to their SpotBugs setup, as it
         significantly improves on the very basic security checking native to SpotBugs.
   - [SonarQube](https://www.sonarqube.org/)
       - This is a commercially supported, very popular, free (and
@@ -339,7 +338,7 @@ Secrets detection is often confused with SAST because both scan through static s
   - [Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) - Open Source
     - detect-secrets is an aptly named module for detecting secrets within a code base. Unlike other similar packages that solely focus on finding secrets, this package is designed with the enterprise client in mind: providing a backwards compatible means to prevent new secrets from entering the code base.
   - [Arnica](https://www.arnica.io/solution/secrets) - provides full visibility for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets across all source code repositories.
-      - The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimimted time and users count.The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
+      - The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count.The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
       - Hardcoded [secrets validation](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/secret-detection) and [custom regex](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/secrets-policy-settings#custom-secrets) configuration are built in.
       - [Secrets mitigation](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/realtime-secret-mitigation) is provided with a developer experience focus.
 

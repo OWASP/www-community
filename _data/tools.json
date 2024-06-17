@@ -208,11 +208,11 @@
    },
    {
       "title": "AppTrana",
-      "url": "https://www.indusface.com/website-security-scan.php",
+      "url": "https://www.indusface.com/register/web-application-scanning-free-trial.php",
       "owner": "Indusface",
       "license": "Free",
       "platforms": "SaaS",
-      "note": null,
+      "note": "Free trial available",
       "type": "DAST"
    },
    {
@@ -837,15 +837,6 @@
       "type": "DAST"
    },
    {
-      "title": "w3af",
-      "url": "http://www.w3af.org/",
-      "owner": "w3af.org",
-      "license": "Open Source",
-      "platforms": "Linux and Mac",
-      "note": "GPLv2.0",
-      "type": "DAST"
-   },
-   {
       "title": "Beagle Security",
       "url": "https://beaglesecurity.com/",
       "owner": "Beagle Security",
@@ -1044,6 +1035,15 @@
       "type": "SAST"
    },
    {
+      "title": "PHPStan",
+      "url": "https://phpstan.org/",
+      "owner": null,
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "PHP Static Analysis Tool",
+      "type": "SAST"
+   },
+   {
       "title": "PMD",
       "url": "https://pmd.github.io/",
       "owner": null,
@@ -1207,11 +1207,11 @@
    },
    {
       "title": "CodeSonar",
-      "url": "https://www.grammatech.com/products/source-code-analysis",
-      "owner": "GrammaTech",
+      "url": "https://codesecure.com/our-products/codesonar/",
+      "owner": "CodeSecure",
       "license": "Commercial",
       "platforms": null,
-      "note": "tool that supports C, C++, Java and C# and maps against the OWASP top 10 vulnerabilities.",
+      "note": "CodeSonar is a static code analysis solution that helps you find and understand quality and security defects in your source code or binaries. It supports C/C++, Java, C#, Kotlin, Python, Go, Rust, JavaScript, and TypScript.",
       "type": "SAST"
    },
    {
@@ -1960,6 +1960,51 @@
       "license": "Commercial or Free",
       "platforms": "SaaS",
       "note": "Arnica is an end to end security solution that includes SAST, SCA, IaC, Licensing, Reputation, Hardcoded Secrets Mitigation, Permissions and more. Arnica's pipelineless approach empowers developers through automated mitigations and real time feedback.",
+      "type": "SAST"
+   },
+   {
+      "title": "Static application security testing Online",
+      "url": "https://sast.online",
+      "owner": "PENTESTON",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Examine the Android Source code to identify any security issues or vulnerabilities.",
+      "type": "SAST"
+   },
+   {
+      "title": "Nikto Online",
+      "url": "https://nikto.online",
+      "owner": "PENTESTON",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Online Nikto web server scanner designed to assess the security of web servers by identifying potential vulnerabilities and misconfigurations.",
+      "type": "DAST"
+   },
+   {
+      "title": "Anchore Enterprise",
+      "url": "https://anchore.com/platform/",
+      "owner": "Anchore Inc.",
+      "license": "Commercial",
+      "platforms": "Docker, AWS, Kubernetes, Azure, GCP",
+      "note": "An SBOM-powered platform that protects and secures your software supply chain end-to-end. Free trial available.",
+      "type": "SAST"
+   },
+   {
+      "title": "Syft",
+      "url": "https://github.com/anchore/syft",
+      "owner": "Anchore Inc.",
+      "license": "Open Source",
+      "platforms": "Linux, MacOS, Windows",
+      "note": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems.",
+      "type": "SAST"
+   },
+   {
+      "title": "Grype",
+      "url": "https://github.com/anchore/grype",
+      "owner": "Anchore Inc.",
+      "license": "Open Source",
+      "platforms": "Linux, MacOS, Windows",
+      "note": "A vulnerability scanner for container images and filesystems.",
       "type": "SAST"
    }
 ]

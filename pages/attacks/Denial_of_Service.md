@@ -69,9 +69,9 @@ performance.
 The following is a simple example of vulnerable code in Java:
 
 ```java
-String TotalObjects = request.getParameter(“numberofobjects”);
-int NumOfObjects = Integer.parseInt(TotalObjects);
-ComplexObject[] anArray = new ComplexObject[NumOfObjects];  // wrong!
+String TotalObjects = request.getParameter(“numberofobjects”);
+int NumOfObjects = Integer.parseInt(TotalObjects);
+ComplexObject[] anArray = new ComplexObject[NumOfObjects];  // wrong!
 ```
 
 ### DoS User Input as a Loop Counter
@@ -84,18 +84,18 @@ server.
 The following is an example of vulnerable code in Java:
 
 ```java
-public class MyServlet extends ActionServlet {
-   public void doPost(HttpServletRequest request, HttpServletResponse response)
-          throws ServletException, IOException {
-          . . .
-          String [] values = request.getParameterValues("CheckboxField");
-      // Process the data without length check for reasonable range – wrong!
-          for ( int i=0; i<values.length; i++) {
-                // lots of logic to process the request
-         }
-         . . .
-   }
-    . . .
+public class MyServlet extends ActionServlet {
+   public void doPost(HttpServletRequest request, HttpServletResponse response)
+          throws ServletException, IOException {
+          . . .
+          String [] values = request.getParameterValues("CheckboxField");
+      // Process the data without length check for reasonable range – wrong!
+          for ( int i=0; i<values.length; i++) {
+                // lots of logic to process the request
+         }
+         . . .
+   }
+    . . .
 }
 ```
 
@@ -120,22 +120,22 @@ both the Connection and the CallableStatement should be closed in a
 finally block.
 
 ```
-public class AccountDAO {
-    … …
-    public void createAccount(AccountInfo acct)
-                 throws AcctCreationException {
-       … …
-           try {
-            Connection conn = DAOFactory.getConnection();
-            CallableStatement  calStmt = conn.prepareCall(…);
-          …  … 
-           calStmt.executeUpdate();
-           calStmt.close();
-          conn.close();
-       }  catch (java.sql.SQLException e) {
-            throw AcctCreationException (...);
-       }
-    }
+public class AccountDAO {
+    … …
+    public void createAccount(AccountInfo acct)
+                 throws AcctCreationException {
+       … …
+           try {
+            Connection conn = DAOFactory.getConnection();
+            CallableStatement  calStmt = conn.prepareCall(…);
+          …  … 
+           calStmt.executeUpdate();
+           calStmt.close();
+          conn.close();
+       }  catch (java.sql.SQLException e) {
+            throw AcctCreationException (...);
+       }
+    }
 }
 ```
 
@@ -151,14 +151,14 @@ happen if the application crashes.
 The following is a simplified example of vulnerable code in C:
 
 ```c
-void overflow (char *str) {
-   char buffer[10];
-   strcpy(buffer, str); // Dangerous!
+void overflow (char *str) {
+   char buffer[10];
+   strcpy(buffer, str); // Dangerous!
 }
 
-int main () {
-  char *str = "This is a string that is larger than the buffer of 10";
-  overflow(str);
+int main () {
+  char *str = "This is a string that is larger than the buffer of 10";
+  overflow(str);
 }
 ```
 

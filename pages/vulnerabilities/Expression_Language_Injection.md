@@ -48,11 +48,11 @@ A common pattern of passing URL parameters to the message tag is:
 Controller.java
 ```
 @RequestMapping(value="/")
-String index() {
-  if ( hasErrors() ) {
-    return "redirect:/error?msg=error.generic";
-  } else {
-    return "index";`
+String index() {
+  if ( hasErrors() ) {
+    return "redirect:/error?msg=error.generic";
+  } else {
+    return "index";`
   }
 }
 ```
@@ -72,7 +72,7 @@ A URL request to the above code of the form:
 Will result in the string literal "INJECTION" being passed to the message tag. The application should respond with an exception like:
 
 ```
-No message found under code 'INJECTION' for locale 'en_US'
+No message found under code 'INJECTION' for locale 'en_US'
 ```
 
 Accordingly, the attacker could submit methods within the EL like:
@@ -114,7 +114,7 @@ In the case of Spring Framework, disable the double resolution functionality in 
 
 ```
 <context-param>
-  <description>Spring Expression Language Support</description>
+  <description>Spring Expression Language Support</description>
   <param-name>springJspExpressionSupport</param-name>
   <param-value>false</param-value>
 </context-param>
