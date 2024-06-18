@@ -95,7 +95,8 @@ An option would be to deliver the set as JWS signed JSON. The JWS would look lik
 `eyJhbGciOiJFUzI1NiIsInR5cCI6IkpTT04ifQ.IltcclxuICB7XHJcbiAgICBcImRvbWFpblwiOiBcImNydC5zaFwiLFxyXG4gICAgXCJsYXN0X3VwZGF0ZWRcIjogXCIxNzE4MTMwNjA5XCIsXHJcbiAgICBcImtleV9waW5zXCI6IFtcclxuICAgICAgXCJwaW4tc2hhMjU2PTlSZUthY2xkVHlvUlNxUXgvOWR3a0Z1SGRWOE1UeU1XZGNLRWYyb2g2OW89XCIsXHJcbiAgICAgIFwicGluLXNoYTI1Nj03a0JoYVpDSmN5eTJ5dEY3cldFeGg0c1dYSGlnZGd3dkdhbVpza1Fhb0RNPVwiXHJcbiAgICBdXHJcbiAgfSxcclxuICB7XHJcbiAgICBcImRvbWFpblwiOiBcInd3dy5jcnQuc2hcIixcclxuICAgIFwibGFzdF91cGRhdGVkXCI6IFwiMTcxODEzMDYwOVwiLFxyXG4gICAgXCJrZXlfcGluc1wiOiBbXHJcbiAgICAgIFwicGluLXNoYTI1Nj03a0JoYVpDSmN5eTJ5dEY3cldFeGg0c1dYSGlnZGd3dkdhbVpza1Fhb0RNPVwiXHJcbiAgICBdXHJcbiAgfVxyXG5dIg.hkBX00q0YOSHzUk6cOI1vLuiIsMUZREP1c7EPf0laCzEKHgLai_HDG9_lLjA2NfsuTSL6Gzvr5Clme-jDHTItA`
 
 Holding a signed payload like this:
-```json[
+```json
+[
   {
 	"domain": "crt.sh",
 	"last_updated": "1718130609",
@@ -111,7 +112,8 @@ Holding a signed payload like this:
   	"pin-sha256=7kBhaZCJcyy2ytF7rWExh4sWXHigdgwvGamZskQaoDM="
 	]
   }
-]```
+]
+```
 
 This could be delivered via an unpinned URL or as part of the application package. Protecting the private signing key is vital as is making sure that an attacker can’t substitute their own signing key pair. As pinning should only be done for mobile applications, the public key could be part of the signed package data.
 
