@@ -12,12 +12,12 @@
     {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
-        "name": "Mastering Attack Surface Mapping with OWASP Amass",
+        "name": "Attack Surface Mapping with OWASP Amass",
         "date": "2024-06-27",
-        "time": "18:00-04:00",
+        "time": "18:30-04:00",
         "link": "https://www.meetup.com/owasp-atlanta/events/301614198",
         "timezone": "America/New_York",
-        "description": "Join us for an enlightening session on OWASP Amass, a tool revolutionizing attack surface mapping and threat discovery. Learn how the Amass framework helps security professionals perform network mapping and external asset discovery using open source intelligence gathering and reconnaissance techniques. Gain practical insights through live demonstrations and best practices for enhancing your cybersecurity toolkit. Whether you're a seasoned cybersecurity expert or just beginning your journey, this event will provide valuable insights and practical knowledge.\n\nWhat to Expect:\n- An introduction to OWASP Amass and its core functionalities\n- Live demonstration of attack surface mapping and reconnaissance techniques\n- Best practices for integrating Amass into your cybersecurity toolkit\n- Networking opportunities with like-minded professionals\n\nSpeaker Bio:\nJeff Foley has 20 years of industry experience focused on applied research & development and assessment of security in critical information technology and infrastructure. He is the Project Leader for Amass, an OWASP (Open Web Application Security Project) Foundation flagship project that performs in-depth attack surface mapping and asset discovery. Jeff is also an Adjunct Lecturer teaching Penetration Testing at the SUNY (State University of New York) Polytechnic Institute. Previously, he was the US Manager for Penetration Testing & Red Teaming at National Grid, a multinational electricity and gas utility company. Prior to this, Jeff served as the Director of Penetration Testing & Security Assessment at Northrop Grumman Corporation, an American global aerospace and defense technology company. In his spare time, Jeff enjoys experimenting with new blends of coffee and giving back to the information security community."
+        "description": "In the ever-evolving landscape of cybersecurity, understanding your attack surface and adopting an adversarial perspective are critical components for building a robust security program. This talk will delve into the strategic importance of these concepts, emphasizing how they can preemptively identify and mitigate potential security threats. We will explore the methodologies behind attack surface mapping, highlighting the necessity of viewing your infrastructure through the lens of an attacker to uncover vulnerabilities that might otherwise go unnoticed. By embracing this mindset, organizations can proactively defend against sophisticated attacks, ensuring their defenses are as robust and comprehensive as possible.\n\nThe talk will shift to a demonstration, centered around the Amass Project, OWASP\u2019s powerful tool designed for in-depth attack surface mapping and asset discovery. Attendees will have the opportunity to gain hands-on experience with Amass, learning how to leverage its capabilities to uncover and visualize the full extent of an organization\u2019s external exposure. The session will cover practical examples, showcasing how Amass can be integrated into security workflows to enhance situational awareness and threat intelligence. By the end of the presentation, participants will have a clear understanding of how to implement these strategies in their security programs, ultimately fortifying their defenses against potential adversaries."
     },
     {
         "group": "Augsburg",
@@ -130,26 +130,6 @@
         "description": "Le prochain meetup OWASP France sur Bordeaux aura lieu le 20 Juin a partir de 18h\n\nIl aura lieu dans les locaux de Peaksys/CDiscount.\n\nAdresse : Hall B, 8 quai Lawton, 33300 Bordeaux (l\u2019entr\u00e9e se fait \u00e0 gauche \u00e0 cot\u00e9 de la boulangerie Honor\u00e9)\n\nAu programme :\n\n* Welcome to OWASP Bordeaux ; par Sebastien Gioria & PeakSys\n* Threat Modeling for Developers par Jonathan Marcil ; talk en Francais\n* Kubernetes par Maxime Girardet (Pentester chez Advens)\n*Durant ce talk, Maxime GIRARDET vous pr\u00e9sentera le niveau de s\u00e9curit\u00e9 par d\u00e9faut d'un cluster Kubernetes, diff\u00e9rents sc\u00e9narios r\u00e9alistes d'attaques ainsi que les rem\u00e9diations associ\u00e9es, au niveau syst\u00e8me et applicatif*.\n\nLe nombre de places est limit\u00e9 a 50 personnes sur inscription. Du aux contraintes de s\u00e9curit\u00e9, nous vous remercions d'avoir avec vous un document justifiant de votre identit\u00e9 (Badge pro, CI, Passeport, ....)"
     },
     {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Paris - Juin 2024",
-        "date": "2024-06-17",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-france/events/301415122",
-        "timezone": "Europe/Paris",
-        "description": "Ce meetup se deroulera chez **OCTO Technology** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
-    },
-    {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "OWASP Houston Chapter API Security Study Group - Evening Option",
-        "date": "2024-06-17",
-        "time": "19:00-05:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/301508128",
-        "timezone": "America/Chicago",
-        "description": "Continuing with crAPI Challenges using ZAP, Browser Dev Tools, Postman, PowerShell, and Python"
-    },
-    {
         "group": "Israel",
         "repo": "www-chapter-israel",
         "name": "OWASP IL Meetup - June 2024",
@@ -178,16 +158,6 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/300686440",
         "timezone": "America/New_York",
         "description": "OWASP topic TBA"
-    },
-    {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2024-06-17",
-        "time": "18:45-04:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/300686433",
-        "timezone": "America/New_York",
-        "description": "An introduction to OWASP's Juice Shop."
     },
     {
         "group": "Los Angeles",
@@ -248,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/300436528",
         "timezone": "America/Chicago",
         "description": "Outdated cybersecurity tactics leave us vulnerable. This thought-provoking talk introduces the \u201cCyber Risk Manifesto\u201d, drawing upon the wisdom of military intelligence and corporate defense methodologies. Explore innovative strategies for predicting threats, reinforcing defenses, and empowering everyone to become cybersecurity guardians. Discover how outmaneuvering attackers is the key to digital resilience."
+    },
+    {
+        "group": "Natal",
+        "repo": "www-chapter-natal",
+        "name": "Desvendando o ransomware ShrinkLocker",
+        "date": "2024-06-24",
+        "time": "21:00-03:00",
+        "link": "https://www.meetup.com/owasp-natal-chapter/events/301699547",
+        "timezone": "America/Fortaleza",
+        "description": "Voc\u00ea est\u00e1 preparado para mergulhar no mundo da ciberseguran\u00e7a e desvendar os segredos por tr\u00e1s de um incidente envolvendo o ransomware ShrinkLocker? N\u00e3o perca o evento imperd\u00edvel do chapter da OWASP Natal!\nData: 24 de junho\nHor\u00e1rio: 21h\nAprenda com um dos melhores! Junte-se a n\u00f3s para uma sess\u00e3o online envolvente e informativa, onde o especialista Cristian Souza ir\u00e1 compartilhar insights valiosos sobre a an\u00e1lise de um incidente envolvendo o ransomware ShrinkLocker. Esta \u00e9 uma oportunidade \u00fanica para expandir seu conhecimento e aprimorar suas habilidades no campo da ciberseguran\u00e7a.\nMarque esta data em sua agenda e convide seus colegas e amigos para se juntarem a n\u00f3s nesta jornada fascinante!\nN\u00e3o perca esta chance de aprimorar suas habilidades e ficar um passo \u00e0 frente no mundo da seguran\u00e7a cibern\u00e9tica. Esperamos v\u00ea-lo l\u00e1!"
     },
     {
         "group": "Netherlands",
@@ -354,7 +334,7 @@
         "repo": "www-chapter-seattle",
         "name": "Practical Web App Pentesting for Beginners",
         "date": "2024-06-28",
-        "time": "23:00-07:00",
+        "time": "11:00-07:00",
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/301592291",
         "timezone": "America/Los_Angeles",
         "description": "*Join us for a two-hour workshop designed to introduce you to the exciting world of web application penetration testing. This event is proudly delivered by [TCM Security Academy](https://academy.tcm-sec.com/), [OWASP Seattle](https://owasp.org/www-chapter-seattle/), and [WiCyS Western Washington](https://www.linkedin.com/company/women-in-cybersecurity-wicys-western-washington/).*\n*The workshop is perfect for beginners looking to start their journey in application security. You'll learn practical skills for identifying and exploiting common web vulnerabilities, with a focus on real-world scenarios and hands-on exercises.*\n*[Alex Olsen,](https://www.linkedin.com/in/alex-olsen-ase/) from [TMC Security](https://tcm-sec.com/) will be delivering this practical workshop focusing on the basics of web app pentesting, exploring the [OWASP Top 10 vulnerabilities](https://owasp.org/www-project-top-ten/), and diving into specific issues like injection flaws, logic problems, and access control weaknesses. We'll also discuss where to go next in your learning journey, including career paths in AppSec and resources for skill development. The event will conclude with a Q&A session, giving you the opportunity to ask questions and gain insights from experienced professionals.*\n*Whether you're a developer, IT professional, or simply curious about cybersecurity, this workshop will provide valuable knowledge and practical experience to kickstart your path in web application security.*\n*Google Meet link will be shared with all registered participants 24 hours prior to the event.*"
