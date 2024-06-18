@@ -396,15 +396,6 @@
       "type": "SAST"
    },
    {
-      "title": "Grendel-Scan",
-      "url": "http://sourceforge.net/p/grendel/code/ci/c59780bfd41bdf34cc13b27bc3ce694fd3cb7456/tree/",
-      "owner": "David Byrne",
-      "license": "Open Source",
-      "platforms": "Windows, Linux and Macintosh",
-      "note": null,
-      "type": "DAST"
-   },
-   {
       "title": "GoLismero",
       "url": "http://www.golismero.com/",
       "owner": "GoLismero Team",
@@ -1080,15 +1071,6 @@
       "type": "SAST"
    },
    {
-      "title": "Security Code Scan",
-      "url": "https://security-code-scan.github.io/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Static code analyzer for .NET. It will find SQL injections, LDAP injections, XXE, cryptography weakness, XSS and more.",
-      "type": "SAST"
-   },
-   {
       "title": "Semgrep",
       "url": "https://github.com/returntocorp/semgrep",
       "owner": null,
@@ -1404,51 +1386,6 @@
       "type": "SAST"
    },
    {
-      "title": "OWASP Code Crawler",
-      "url": "https://wiki.owasp.org/index.php/Category:OWASP_Code_Crawler",
-      "owner": "OWASP",
-      "license": "Open Source",
-      "platforms": null,
-      "note": ".NET, Java",
-      "type": "SAST"
-   },
-   {
-      "title": "OWASP Orizon Project",
-      "url": "https://wiki.owasp.org/index.php/Category:OWASP_Orizon_Project",
-      "owner": "OWASP",
-      "license": "Open Source",
-      "platforms": null,
-      "note": "Java",
-      "type": "SAST"
-   },
-   {
-      "title": "OWASP LAPSE Project",
-      "url": "https://wiki.owasp.org/index.php/OWASP_LAPSE_Project",
-      "owner": "OWASP",
-      "license": "Open Source",
-      "platforms": null,
-      "note": "Java",
-      "type": "SAST"
-   },
-   {
-      "title": "OWASP WAP (Web Application Protection)",
-      "url": "https://wiki.owasp.org/index.php/OWASP_WAP-Web_Application_Protection",
-      "owner": "OWASP",
-      "license": "Open Source",
-      "platforms": null,
-      "note": "PHP",
-      "type": "SAST"
-   },
-   {
-      "title": "Agnitio",
-      "url": "https://sourceforge.net/projects/agnitiotool/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": "Windows",
-      "note": "ASP, ASP.NET, C\\#, Java, Javascript, Perl, PHP, Python, Ruby, VB.NET, XML",
-      "type": "SAST"
-   },
-   {
       "title": "SpotBugs",
       "url": "https://spotbugs.github.io/",
       "owner": null,
@@ -1467,12 +1404,12 @@
       "type": "SAST"
    },
    {
-      "title": "Microsoft FxCop",
-      "url": "https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-3.0/bb429476%28v=vs.80%29",
+      "title": ".NET Code analysis",
+      "url": "https://learn.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview",
       "owner": null,
       "license": "Open Source or Free",
       "platforms": null,
-      "note": ".NET",
+      "note": ".NET, successor of Microsoft FxCop",
       "type": "SAST"
    },
    {
@@ -1482,15 +1419,6 @@
       "license": "Open Source or Free",
       "platforms": "Windows, Unix",
       "note": "Android Java, Objective C, Swift",
-      "type": "SAST"
-   },
-   {
-      "title": ".NET Security Guard",
-      "url": "https://security-code-scan.github.io/",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": ".NET, C\\#, VB.net",
       "type": "SAST"
    },
    {
