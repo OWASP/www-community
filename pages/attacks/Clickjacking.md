@@ -67,7 +67,6 @@ For more information on Clickjacking defense, please see the the [Clickjacking D
 - [Why am I anxious about Clickjacking?](https://www.linkedin.com/pulse/20141202104842-120953718-why-am-i-anxious-about-clickjacking) — A Basic understanding of Clickjacking Attack
 - [Content-Security-Policy: frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors) (Mozilla Developer Network)
 - [X-Frame-Options response header](https://developer.mozilla.org/en-US/docs/The_X-FRAME-OPTIONS_response_header) (Mozilla Developer Network)
-- [Busting Frame Busting: A study of clickjacking vulnerabilities on top sites](http://w2spconf.com/2010/papers/p27.pdf) — A study by the Stanford Web Security Group outlining problems with deployed frame busting code.
 - [Clickjacking, Sec Theory](http://www.sectheory.com/clickjacking.htm) — A paper by Robert Hansen defining the term, its implications against Flash at the time of writing, and a disclosure timeline.
 - [Clickjacking Defense](https://www.codemagi.com/blog/post/194) — Framebreaking defense for legacy browsers that do not support X-Frame-Option headers.
 - [CSP frame-ancestors vs. X-Frame-Options for Clickjacking prevention](https://medium.com/@shaialon/csp-frame-ancestors-vs-x-frame-options-for-clickjacking-prevention-30383a713772)
