@@ -100,6 +100,16 @@
         "description": "**OWASP BH est\u00e1 de volta!**\n\nJunte-se a n\u00f3s no nosso primeiro meetup de 2024 e celebre a reabertura do cap\u00edtulo OWASP BH!\n\nAgenda:\n**10h00 - 10h30:** Boas-vindas e reabertura oficial do cap\u00edtulo OWASP BH: Apresenta\u00e7\u00e3o da OWASP e dos planos do cap\u00edtulo para 2024.\n**10h30 - 11h30:** Palestra \"IA Generativa e o Cen\u00e1rio da Seguran\u00e7a Cibern\u00e9tica\": Descubra os desafios e oportunidades da intelig\u00eancia artificial na seguran\u00e7a.\n**11h30 - 12h00:** Palestra a definir\n**12h00 - 13h00:** Networking e encerramento"
     },
     {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "Threat modelling software supply chains during a red team assessment.",
+        "date": "2024-07-17",
+        "time": "18:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/301741599",
+        "timezone": "Australia/Brisbane",
+        "description": "The software supply chain is under increasing threat. New attacks and threats have popped up that we couldn't have imagined even two years ago. Total attacks on the software supply chain are increasing by more than 730% year on year since 2019. One way for organizations to combat this growing threat is to empower their red teams to test the software supply chains for that organization. But many red teams are ill-prepared to tackle this new attack surface.\n\nThis talk will have three distinct parts:\n\n1\\. I will describe how security teams\\, red teams\\, or security researchers can quickly identify the multiple components in a particular applications software supply chain\\, and then how to find soft targets to focus on\\.\n2\\. I will describe my VBP framework \\(value\\, behaviour and patterns\\) which is an applied threat modelling framework for software supply chains\\.\n3\\. Finally\\, I will visually describe one of my red team operations on an open\\-source project and the tools that I use \\(or have written\\) to make that possible\\."
+    },
+    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "The Truman Show: Real-world application attacks instead of canned demos",
@@ -170,6 +180,16 @@
         "description": "OWASP topic TBA"
     },
     {
+        "group": "Jakarta",
+        "repo": "www-chapter-jakarta",
+        "name": "Phishing Unveiled: Malicious JavaScript and First-Stage Loaders",
+        "date": "2024-06-28",
+        "time": "16:30+07:00",
+        "link": "https://www.meetup.com/owasp-jakarta-chapter/events/301727458",
+        "timezone": "Asia/Jakarta",
+        "description": "Topic Name - Phishing Unveiled: Malicious JavaScript and First-Stage Loaders\n\nAbstract :\nPhishing attacks have become increasingly sophisticated, often using malicious JavaScript to initiate the first stage of infection. This session will explore how attackers deploy JavaScript within phishing campaigns to evade detection and deliver harmful payloads. We will examine real-world examples, identify key indicators of malicious activity, and discuss strategies for effective defense. Participants will leave with a clear understanding of the role of JavaScript in phishing and how to protect against these evolving threats.\n\nBio - Shrutirupa is an experienced Security Researcher with a proven track record in computer\nand network security. She currently works on the Threat and Detection Team at Seqrite.\nShrutirupa is also recognized as a Google Developer Expert in Web Technologies.\nShrutirupa is passionate about tackling challenges related to reverse engineering and\nconducts malware research both in her professional role and as a personal interest. In\naddition to her security work, she is a YouTuber, known for her channel \"CryptoW@re.\" She has shared her knowledge as a speaker and trainer at various conferences,\nincluding OWASP Foundation Virtual Appsec, Day Of Shecurity, BSides Singapore, Rootconf,\nOWASP Seasides, EnCypher20, Tech(k)now Day, COcON, Devfest, Google I/O Extended Kochi and numerous other meetings and webinars"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - JUN 26, 2024",
@@ -210,16 +230,6 @@
         "description": "#### Session Details:\n\nIntroduction to OWASP Mumbai\n\n**Talk:-** How to be a Malware Researcher\n**Speaker:-** Adhokshaj Mishra\n\nQnA and FeedBack"
     },
     {
-        "group": "Nashville",
-        "repo": "www-chapter-nashville",
-        "name": "Digital Safeguards: Your Essential Blueprint for Navigating Cyber Threats\"",
-        "date": "2024-06-19",
-        "time": "17:00-05:00",
-        "link": "https://www.meetup.com/owasp-nashville-chapter/events/300436528",
-        "timezone": "America/Chicago",
-        "description": "Outdated cybersecurity tactics leave us vulnerable. This thought-provoking talk introduces the \u201cCyber Risk Manifesto\u201d, drawing upon the wisdom of military intelligence and corporate defense methodologies. Explore innovative strategies for predicting threats, reinforcing defenses, and empowering everyone to become cybersecurity guardians. Discover how outmaneuvering attackers is the key to digital resilience."
-    },
-    {
         "group": "Natal",
         "repo": "www-chapter-natal",
         "name": "Desvendando o ransomware ShrinkLocker",
@@ -250,16 +260,6 @@
         "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for July will be **A03:2021 - Injection**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
-        "group": "Newcastle Uk",
-        "repo": "www-chapter-newcastle-uk",
-        "name": "OWASP Newcastle June 2024",
-        "date": "2024-06-19",
-        "time": "18:00+01:00",
-        "link": "https://www.meetup.com/owasp-newcastle-chapter/events/300468663",
-        "timezone": "Europe/London",
-        "description": "We're back with our second event of 2024! We\u2019ll be doing our usual two talks and pizza format.\n\nLocation: Precursor Security (at the old Newcastle Building Society office)\n\nRough schedule:\n\n1800 - 1815 Arrival and networking\n1815 - 1830 OWASP Newcastle Welcome\n1830 - 1915 Talk one\n1915 - 2000 Pizza and networking\n2000 - 2045 Talk two\n2045 - onwards Pub?\n\nTalk overviews:\n\nTalk one\n**Title:** Supercharging Enterprise DFIR - 'Forensics as Code', AI, Automation and Cloud.\n**Speaker:** Michael L\n**Speaker Bio:** Currently the Director of SOC/DFIR for Precursor Security, experienced working in different SOC teams across public sector, financial services and managed services. I've lead DFIR engagements for a varied client base across EMEA.\n**Talk Synopsis:** This talk will introduce the latest techniques to supercharge your response to threat actors at enterprise scale. We will cover techniques I've employed to combat Lockbit, Akira and other TA's in challenging and diverse environments, focusing on new trends shaking up the DFIR corner such as performing forensics investigations 'as code', harnessing AI for DFIR and utilising Azure for automation and almost limitless scale.\n\nTalk two\n**Title:** Utilizing PowerBI for DFIR and incident investigation.\n**Speaker:** Venkatraman Krishnamoorthy\n**Speaker Bio:** Working as SOC manager for Sage . I have lead critical investigations, detection engineering efforts, Security automation.\nProviding free cyber security Mentoring for economically modest students.\n**Talk Synopsis:** Leveraging Power BI for Digital Forensics and Incident Response (DFIR): Enhancing Data Analysis and Visualization\n\nAs always, tickets aren\u2019t required but help us gauge how much food to order.\n\n**Live Stream Info:** We're hoping to be able to live stream the event on our [playeur channel](https://playeur.com/c/OWASPNewcastle/) if not, the talks will be recorded and uploaded there."
-    },
-    {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
         "name": "Lies are the new truth: breaching enterprises by exploiting generative models",
@@ -278,16 +278,6 @@
         "link": "https://www.meetup.com/owasp-orlando/events/300859951",
         "timezone": "America/New_York",
         "description": "This is an In-Person Event\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **Marc Frankel**\n\nTopic: AIBOM - summary TBD\n\nSpeaker 2: **TBD**"
-    },
-    {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASPOttawa June 19th 2024: OWASP Top 10 for LLM Applications-A Detailed Review",
-        "date": "2024-06-19",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/301345606",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 564\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: https://www.youtube.com/watch?v=RvGPRaQUkoI\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **OWASP Top 10 for LLM Applications: A Detailed Review**\n\n**Abstract:**\nAs the adoption of Large Language Models (LLMs) in corporate and governmental organizations becomes increasingly common, it introduces unique security challenges that need immediate and effective management. This presentation provides a detailed overview of the OWASP Top 10 for LLM applications, which in less than eight months has already become a trusted resource on how to secure LLMs within and outside of the global cybersecurity community. The goal of the publication is to equip organizations with the knowledge to successfully navigate LLM security challenges. Beginning with a technical primer on AI, Machine Learning, and LLMs, the presentation will ensure a foundational understanding of the technology and its potential security risks. We will then review critical vulnerabilities such as Prompt Injection, Insecure Output Handling, Training Data Poisoning, Model Denial of Service, and Supply Chain Vulnerabilities, among others, and highlight the importance of recognizing and mitigating these risks as well as provide actionable advice for secure LLM implementation. Through this presentation, the audience will learn how to safeguard their LLM deployments against emerging threats, ensuring both the security and efficacy of these powerful AI tools in their organizational context.\n\n**Speakers:**\n**Simon Sulyma** is an expert in the fields of cybersecurity and information risk, with close to 20 years of experience designing, building, securing, and auditing complex IT systems at large financial institutions across Canada. Simon currently leads the Governance, Risk, and Compliance (GRC) function at the Global Wealth and Asset Management segment at Manulife. He frequently speaks at conferences, trainings, and meetups, organizes and participates in community events, and mentors people entering the cybersecurity field. Simon holds a Master's degree in Information Security and a number of certifications including CISA, CISSP, CISM, CRISC, CCSP, and AZ-500.\n\n**Diana Rogachova** is a Data Science and Machine Learning professional. In 2023, she graduated from a bootcamp where she subsequently worked as a Teaching Assistant for Data Science students. Her areas of interest are the intersection of Generative AI, cybersecurity, and privacy as well as the ethical use of AI. Diana holds the Machine Learning certification from Amazon Web Services (AWS) and is currently pursuing the Cybersecurity Certificate from ISC2. She also has a Bachelor\u2019s Degree in Criminology and Criminal Justice from Carleton University and three years of experience in the criminal justice field."
     },
     {
         "group": "Peterborough",
@@ -328,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/301724132",
         "timezone": "America/Sao_Paulo",
         "description": "Em julho teremos o nosso pr\u00f3ximo encontro, online e com participa\u00e7\u00e3o de todos atrav\u00e9s do **ZOOM**.\n\nVenha aprender e conversar **com um dos principais colaboradores** do OWASP Top 10 For LLM.\n\n**Link para a transmiss\u00e3o:**\nhttps://us06web.zoom.us/j/87962925968\n\n**Confira nossa agenda:**\n\n 19h30 \\~ 20h30\n**\"Seguran\u00e7a de IA na Pr\u00e1tica: OWASP Top 10 para LLM Apps\"**\n\nNesta apresenta\u00e7\u00e3o, exploraremos as melhores pr\u00e1ticas de seguran\u00e7a para aplica\u00e7\u00f5es que utilizam Modelos de Linguagem de Grande Escala (LLM). Vamos discutir o OWASP Top 10, um guia essencial para identificar e mitigar os principais riscos de seguran\u00e7a nessas aplica\u00e7\u00f5es. Atrav\u00e9s de exemplos pr\u00e1ticos e insights detalhados, voc\u00ea aprender\u00e1 como proteger suas implementa\u00e7\u00f5es de IA, garantindo conformidade e seguran\u00e7a robusta. Esta sess\u00e3o \u00e9 fundamental para profissionais de seguran\u00e7a, desenvolvedores e l\u00edderes de tecnologia que buscam fortalecer suas defesas contra amea\u00e7as emergentes no campo da intelig\u00eancia artificial.\n\n**Palestrante:** Emmanuel Guilherme Junior \\(Cybersecurity Leadership \\| AI & LLM Security \\| Cloud Security \\| OWASP Top 10 for LLM Core Team Member\\)"
+    },
+    {
+        "group": "San Antonio",
+        "repo": "www-chapter-san-antonio",
+        "name": "OWASP San Antonio Chapter Monthly Meeting-July 19th 2024",
+        "date": "2024-07-19",
+        "time": "11:00-05:00",
+        "link": "https://www.meetup.com/owasp-sanantonio/events/301446259",
+        "timezone": "America/Chicago",
+        "description": "Topics- See abstracts below\n\n* Securing API's in the Cloud\n* The top API threats seen in the first quarter of 2024\n* Salesforce Security Pen Testing\n\n**Lunch Provided**\n\nsmall fee for parking est $5-$7.50 Bauerle Road Garage at UTSA Campus\n\nUniversity Room 2.06.04 - Business Building, John Peace Library, 1 UTSA Circle, San Antonio, TX 78249\n\nZOOM link provided for remote attendees\n\nWe encourage everyone to attend in person. We will have door prizes and excellent food for all to enjoy, as you take advantage of this excellent networking opportunity!\nPlease feel free to pass this information on to your peers and team members.\nPlease reply **\u201cONSITE\u201d** if you plan on attending in person so we can finalize headcount for food and room attendance \n\n**Presentations will include:**\n***I. Presentation on API Lifecycle-Optiv***\nAPI lifecycle graphic review-provided baseline understanding of API journey-Optiv\n***II. Securing APIs in the Cloud: Insights and Best Practices- Palo Alto***\nThis presentation explores the current state of API security in the cloud, covering industry trends and common challenges organizations face. It delves into effective strategies for API discovery, risk profiling, and real-time protection, providing practical insights and best practices to enhance API security. The discussion will highlight key concerns such as inadequate authentication, lack of visibility, and poor endpoint management, aiming to equip attendees with the knowledge to better secure their API ecosystems.\n***III. API ThreatStats\u2122 Report Q1 2024 Spotlight: Why API Security Is The First Thing For Enterprise AI- Wallarm***\nThe Wallarm Research Team has analyzed billions of data points to identify the top API vulnerabilities and exploits for the 1st quarter of 2024, shining a spotlight on the rising threat of API attacks targeting AI applications. The report explores the top significant threats, identifies key trends, and provides actionable insights that can help you strengthen your API Security program, with an emphasis on identifying and protecting your AI applications from API security issues.\n***IV. Salesforce Pen-testing-Rodney***\nTopic 2-PaaS Cloud Goat is a simulated vulnerable Salesforce\nApplication providing hands-on experience with penetration testing of custom Salesforce applications. The tool is similar to other test tools like AWS CloudGoat, CloudFoxable, AzureGoat, GCPGoat, and Pen-Testing Cloud REST APIs in OpenStack. It is not, however, a tool for attacking [Salesforce.com](http://salesforce.com/) itself. It is novel because it focuses on custom applications deployed using the Salesforce platform and is the first tool to provide lab exercises with a collection of security tests. The main takeaways:\n1\\. Hands\\-on learning opportunity of security tests for a custom Salesforce application\n2\\. Detailed training documentation material about the underlying flaws to look for\n3\\. Single consolidated list of common Salesforce application vulnerabilities"
     },
     {
         "group": "Scotland",
