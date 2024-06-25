@@ -172,6 +172,16 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - JUL 24, 2024",
+        "date": "2024-07-24",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/299606717",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: Breaking Through CVE Noise: Analyzing 5 Key Prioritization Inputs\nJoin us for great networking, dinner and drinks, and see a presentation by **Chelsea Boling**, a Customer Success Architect at **FOSSA**\n\n**ABSTRACT**: Thousands of new Common Vulnerabilities and Exposures (CVEs) are reported each year, which puts a massive burden on security teams to prioritize and address the most critical threats effectively. This is especially true since most vulnerabilities aren\u2019t actually exploitable in their real-world context, and wasting time on non-exploitable issues can get in the way of remediating the most impactful vulnerabilities.\nThis talk will explore strategies to mitigate CVE overload and streamline the vulnerability resolution process. In addition to exploring complexities around CVE noise \u2014 such as the difficulty in distinguishing between high-risk, low-risk, and no-risk vulnerabilities and the pressure to maintain business continuity while ensuring robust security \u2014 we\u2019ll analyze five specific vulnerability prioritization inputs:\n\n1. CVSS scores\n2. EPSS scores\n3. VEX\n4. The CISA KEV Catalog\n5. Reachability analysis\n\nAdditionally, the talk will cover the role of automation and tooling to prioritize vulnerabilities at scale as well as recommended workflows between IT, security teams, and business units to ensure comprehensive risk management.\n\n**Thanks to our Sponsor**: *[FOSSA](https://fossa.com/)*\n*FOSSA is a leading application security and compliance platform that specializes in helping engineering teams deliver trusted software. FOSSA enables companies to prioritize real vulnerabilities in their open source dependencies with comprehensive SCA (software composition analysis) capabilities, while also making it possible for organizations to automate compliance reporting and SBOM (software bill of materials) lifecycle management to meet customer and regulatory requirements. Founded in 2015, FOSSA is trusted by thousands of global organizations, has been downloaded nearly two million times, and has conducted nearly 100 million open-source scans.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - JUN 26, 2024",
         "date": "2024-06-26",
         "time": "17:30-07:00",
@@ -210,14 +220,14 @@
         "description": "#### Session Details:\n\nIntroduction to OWASP Mumbai\n\n**Talk:-** How to be a Malware Researcher\n**Speaker:-** Adhokshaj Mishra\n\nQnA and FeedBack"
     },
     {
-        "group": "Natal",
-        "repo": "www-chapter-natal",
-        "name": "Desvendando o ransomware ShrinkLocker",
-        "date": "2024-06-24",
-        "time": "21:00-03:00",
-        "link": "https://www.meetup.com/owasp-natal-chapter/events/301699547",
-        "timezone": "America/Fortaleza",
-        "description": "Voc\u00ea est\u00e1 preparado para mergulhar no mundo da ciberseguran\u00e7a e desvendar os segredos por tr\u00e1s de um incidente envolvendo o ransomware ShrinkLocker? N\u00e3o perca o evento imperd\u00edvel do chapter da OWASP Natal!\nData: 24 de junho\nHor\u00e1rio: 21h\nAprenda com um dos melhores! Junte-se a n\u00f3s para uma sess\u00e3o online envolvente e informativa, onde o especialista Cristian Souza ir\u00e1 compartilhar insights valiosos sobre a an\u00e1lise de um incidente envolvendo o ransomware ShrinkLocker. Esta \u00e9 uma oportunidade \u00fanica para expandir seu conhecimento e aprimorar suas habilidades no campo da ciberseguran\u00e7a.\nMarque esta data em sua agenda e convide seus colegas e amigos para se juntarem a n\u00f3s nesta jornada fascinante!\nN\u00e3o perca esta chance de aprimorar suas habilidades e ficar um passo \u00e0 frente no mundo da seguran\u00e7a cibern\u00e9tica. Esperamos v\u00ea-lo l\u00e1!"
+        "group": "Nashville",
+        "repo": "www-chapter-nashville",
+        "name": "Cyber Risk Management - Sponsored by Brinqa",
+        "date": "2024-07-24",
+        "time": "17:00-05:00",
+        "link": "https://www.meetup.com/owasp-nashville-chapter/events/299885911",
+        "timezone": "America/Chicago",
+        "description": "Brinqa will join us to discuss strategies that their customers have used that have lead to successful or unsuccessful vulnerability management programs and risk mitigation."
     },
     {
         "group": "New Zealand",
@@ -237,7 +247,7 @@
         "time": "18:00-04:00",
         "link": "https://www.meetup.com/owasp-orlando/events/300859951",
         "timezone": "America/New_York",
-        "description": "This is an In-Person Event\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **Marc Frankel**\n\nTopic: AIBOM - summary TBD\n\nSpeaker 2: **TBD**"
+        "description": "This is an In-Person Event\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **Marc Frankel**\n\nTopic: AIBOM - Utilizing Bill of Materials to desvribe and manage AI risks in the supply chain\n\nSpeaker 2: **Tony Turner**\n\nTopic: Practical Supply Chain Security - What works in real-world supply chain security programs and why it's important to level-set on your risk management journey."
     },
     {
         "group": "Penang",
@@ -268,6 +278,16 @@
         "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/301598509",
         "timezone": "America/New_York",
         "description": "For every application design \"best practice\", there is a matching \"worst practice\", or what some call security patterns and anti-patterns. Join us to review common anti-patterns, identify their accompanying secure design patterns, and commiserate about the worst offenders we've seen in the wild."
+    },
+    {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "July 2024 Meeting",
+        "date": "2024-07-02",
+        "time": "20:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/301825575",
+        "timezone": "America/Phoenix",
+        "description": "**Full Coverage Code Scanning Like a Boss** \\- 20 Minutes\n*Do you want confidence your code is fully secure? Learn about the security scanning that teams often miss like scanning for secrets, vulnerable packages, container vulnerabilities, and misconfigured infrastructure as code. Go from beginner to full coverage security scanning like a boss!*"
     },
     {
         "group": "Portland",
