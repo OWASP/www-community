@@ -1,15 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - June",
-        "date": "2024-06-25",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299460542",
-        "timezone": "Europe/Copenhagen",
-        "description": "**IMPORTANT:**\n\n* **You need to reverse into the parking spot!**\n* **Please please provide your email to Thomas to receive a private link to register in the guest system at Vesta before the event**\n* **Please register your car before the event. See the image for parking**\n\nAgenda:\n**19:00 \u2013 19:10** Welcome by Vestas and OWASP Aarhus\n\n**19:10 \u2013 20:00** \u201dAutomated attack path discovery and alerting with Adalanche\u201d by Rasmus Have.\n\nRasmus Have is a Senior Cyber Security Architect at Vestas where he works with security architecture across the IT and OT domains. Rasmus has a background from the startup world and military security over the last 25 years. He aims to close the gap between the theoretical architecture work and the practical engineering work with a hands on approach to security.\n\n**20:00 \u2013 20:30** Networking break\n\n**20:30 \u2013 21:25** How to leverage AI in web protection - OWASP Juiceshop\" by Rasmus Dalsgaard Andersen, CheckPoint\n\nOWASP Juice Shop is probably the most modern and sophisticated insecure web application! I will show you how AI can be leveraged in a WAF to protect against attacks."
-    },
-    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "Attack Surface Mapping with OWASP Amass",
@@ -58,16 +48,6 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/301511246",
         "timezone": "America/Chicago",
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - June 2024 (Online)",
-        "date": "2024-06-25",
-        "time": "11:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/298207011",
-        "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation! Presentation begins at 12CDT!\n\nIf you would like to attend in person and have a free lunch, please register at [https://owasp-austin-2024-june.eventbrite.com](https://owasp-austin-2024-june.eventbrite.com)\n\nPresentation: **Full of SaaS and TOTALLY SECURE**\n\nManaging shadow IT in the age of SaaS application sprawl is an important component of managing risk, especially since so many of us depend on SaaS/PaaS as part of our critical infrastructure. However, traditional approaches (blocklisting, brute force, etc.) have proven ineffective and are, oftentimes, too late to prevent any real security issues.\nIn this session, we\u2019ll discuss some of the psychology behind why we\u2019re referred to as the \u201cdepartment of NO\u201d as well as how to start shifting that perception. You will also learn of some tactics to identify and mitigate shadow IT as well as proactive measures that may help avoid future sprawl."
     },
     {
         "group": "Bangalore",
@@ -268,16 +248,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/301347316",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Philadelphia",
-        "repo": "www-chapter-philadelphia",
-        "name": "Secure Application Design: The Good, The Bad, and The Horrendous ",
-        "date": "2024-06-25",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/301598509",
-        "timezone": "America/New_York",
-        "description": "For every application design \"best practice\", there is a matching \"worst practice\", or what some call security patterns and anti-patterns. Join us to review common anti-patterns, identify their accompanying secure design patterns, and commiserate about the worst offenders we've seen in the wild."
     },
     {
         "group": "Phoenix",
