@@ -1,13 +1,13 @@
 [
     {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "Attack Surface Mapping with OWASP Amass",
-        "date": "2024-06-27",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-atlanta/events/301614198",
-        "timezone": "America/New_York",
-        "description": "In the ever-evolving landscape of cybersecurity, understanding your attack surface and adopting an adversarial perspective are critical components for building a robust security program. This talk will delve into the strategic importance of these concepts, emphasizing how they can preemptively identify and mitigate potential security threats. We will explore the methodologies behind attack surface mapping, highlighting the necessity of viewing your infrastructure through the lens of an attacker to uncover vulnerabilities that might otherwise go unnoticed. By embracing this mindset, organizations can proactively defend against sophisticated attacks, ensuring their defenses are as robust and comprehensive as possible.\n\nThe talk will shift to a demonstration, centered around the Amass Project, OWASP\u2019s powerful tool designed for in-depth attack surface mapping and asset discovery. Attendees will have the opportunity to gain hands-on experience with Amass, learning how to leverage its capabilities to uncover and visualize the full extent of an organization\u2019s external exposure. The session will cover practical examples, showcasing how Amass can be integrated into security workflows to enhance situational awareness and threat intelligence. By the end of the presentation, participants will have a clear understanding of how to implement these strategies in their security programs, ultimately fortifying their defenses against potential adversaries."
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Study Group",
+        "date": "2024-07-18",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/301903126",
+        "timezone": "America/Chicago",
+        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
         "group": "Austin",
@@ -30,16 +30,6 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2024-06-27",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/301511246",
-        "timezone": "America/Chicago",
-        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
-    },
-    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "Null/OWASP Combined Monthly Meet on 20 July 2024",
@@ -50,16 +40,6 @@
         "description": "null/owasp combined meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n* Deepfakes Detection Techniques by **pretti Rajesh**\n* Block chain and Smart contracts by **Meera**\n* There's no honour among phishers: free phishing kits with hidden backdoors by **Anshuman**\n* Building your own threat intel sink by **Pavan Karthick M**\n\n### Session Schedule\n\n| Name | Speaker | Start Time | End Time | Resources |\n| ---- | ------- | ---------- | -------- | --------- |\n| **Welcome Note / Registrations** | 09:30 AM | 09:40 AM | |\n| [Deepfakes Detection Techniques](https://null.community/event_sessions/4336-deepfakes-detection-techniques) | [pretti Rajesh](https://null.community/profile/48106-pretti-rajesh) | 09:40 AM | 10:10 AM | |\n| **Introduction to beginners** | 10:10 AM | 10:25 AM | |\n| [Block chain and Smart contracts](https://null.community/event_sessions/4338-block-chain-and-smart-contracts) | [Place Holder](https://null.community/profile/2-place-holder) | 10:25 AM | 11:20 AM | |\n| **Networking Session + Break** | 11:20 AM | 11:45 AM | |\n| [There's no honour among phishers: free phishing kits with hidden backdoors](https://null.community/event_sessions/4340-there-s-no-honour-among-phishers-free-phishing-kits-with-hidden-backdoors) | [Place Holder](https://null.community/profile/2-place-holder) | 11:45 AM | 12:40 PM | |\n| [Building your own threat intel sink](https://null.community/event_sessions/4341-building-your-own-threat-intel-sink) | [Pavan Karthick M](https://null.community/profile/37062-pavan-karthick-m) | 12:40 PM | 01:35 PM | |\n| **Feedback + Next Month\u2019s Planning** | 01:35 PM | 01:55 PM |"
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "Hacker Thursday with Pacific Hackers & OWASP \u2013 CTF Time",
-        "date": "2024-06-27",
-        "time": "17:00-07:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/301426321",
-        "timezone": "America/Los_Angeles",
-        "description": "**Want to tap into your inner evildoer and test your skills in hunting down web application vulnerabilities?**\nJoin us at this joint event between Pacific Hackers and OWASP Bay Area to immerse yourself in the industry\u2019s most authentic environment, where players exploit their way through hundreds of vulnerabilities that lurk in business applications today. Success means learning quickly that attack and defense are all about thinking on your feet. For each vulnerability you uncover, you are awarded points. Climb the interactive leaderboard as you vie for the top spot!\n\n**About the Range:**\nThe CMD+CTRL Cyber Range is ideal for anyone interested in learning how web applications are attacked, furthering their cybersecurity acumen, or honing the skills needed to protect the enterprise. From curious bystanders to active practitioners to Risk and Security Executives, there\u2019s something for everyone.\n\nRegistration:\nPlease register here to get more event details and help us organize food and drinks [https://web.securityinnovation.com/owasp-bayarea](https://web.securityinnovation.com/owasp-bayarea)\n\n**Agenda:**\n5 PM \u2013 Food & Networking\n5:30 PM \u2013 8:30 PM \u2013 CTF Time\n8:30 PM \u2013 Prizes"
-    },
-    {
         "group": "Belo Horizonte",
         "repo": "www-chapter-belo-horizonte",
         "name": "OWASP BH est\u00e1 de volta!",
@@ -67,7 +47,7 @@
         "time": "10:00-03:00",
         "link": "https://www.meetup.com/owasp-belo-horizonte-chapter/events/301344829",
         "timezone": "America/Sao_Paulo",
-        "description": "**OWASP BH est\u00e1 de volta!**\n\nJunte-se a n\u00f3s no nosso primeiro meetup de 2024 e celebre a reabertura do cap\u00edtulo OWASP BH!\n\nAgenda:\n**10h00 - 10h30:** Boas-vindas e reabertura oficial do cap\u00edtulo OWASP BH: Apresenta\u00e7\u00e3o da OWASP e dos planos do cap\u00edtulo para 2024.\n**10h30 - 11h30:** Palestra \"IA Generativa e o Cen\u00e1rio da Seguran\u00e7a Cibern\u00e9tica\": Descubra os desafios e oportunidades da intelig\u00eancia artificial na seguran\u00e7a.\n**11h30 - 12h00:** Palestra a definir\n**12h00 - 13h00:** Networking e encerramento"
+        "description": "**OWASP BH est\u00e1 de volta!**\n\nJunte-se a n\u00f3s no nosso primeiro meetup de 2024 e celebre a reabertura do cap\u00edtulo OWASP BH!\n\nAgenda:\n**10h00 - 10h30:** Boas-vindas e reabertura oficial do cap\u00edtulo OWASP BH: Apresenta\u00e7\u00e3o da OWASP e dos planos do cap\u00edtulo para 2024.\n**10h30 - 11h30:** Palestra \"IA Generativa e o Cen\u00e1rio da Seguran\u00e7a Cibern\u00e9tica\": Descubra os desafios e oportunidades da intelig\u00eancia artificial na seguran\u00e7a.\n**11h30 - 12h00:** Modelagem de amea\u00e7as - Vin\u00edcius Dias\n**12h00 - 13h00:** Networking e encerramento"
     },
     {
         "group": "Boston",
@@ -98,16 +78,6 @@
         "link": "https://www.meetup.com/owasp-chile-meetup-group/events/301844683",
         "timezone": "America/Santiago",
         "description": "La charla abordar\u00e1 los 10 riesgos de seguridad m\u00e1s importantes identificados por OWASP, en el contexto de los Modelos Ling\u00fc\u00edstico Grandes (LLM).\n\nRevisaremos los desaf\u00edos de seguridad que enfrentan estas tecnolog\u00edas de Inteligencia Artificial y c\u00f3mo puedes mitigarlos.\n\nNo te pierdas esta oportunidad de mantenerte a la vanguardia de la ciberseguridad en el campo de la IA."
-    },
-    {
-        "group": "Colorado Springs",
-        "repo": "www-chapter-colorado-springs",
-        "name": "OWASP CoS June 2024",
-        "date": "2024-06-27",
-        "time": "18:00-06:00",
-        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/301577788",
-        "timezone": "America/Denver",
-        "description": "Speaker: Jeff Tomkiewicz; \"InfluenceOps: Practical Pretexing\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
         "group": "Columbus",
@@ -167,7 +137,7 @@
         "time": "13:00+01:00",
         "link": "https://www.meetup.com/owasp-manchester-uk-chapter/events/301505213",
         "timezone": "Europe/London",
-        "description": "**To register for this you MUST go to our Eventbrite:** https://www.eventbrite.co.uk/e/owasp-summer-scavenger-hunt-tickets-921543680957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing\n\nDo you like running round Manchester doing pointless challenges that may or may not be Hacker related for the chance of winning a \u00a3100 Amazon voucher?\n\nYes?!?\n\nThen this is the event for you!\n\nThis July OWASP Manchester will be hosting the first inaugural Charity Summer Scavenger Hunt. What you need to know:\n\nWho\u2019s running it?\nManchester OWASP and Silverphish, you may have entered a similar one at one of the BSides or at Steelcon.\n\nWhere is it?\nOur base is the Piccadilly Central pub opposite Piccadilly Station, but the challenges will be all over the city centre.\n\nTeams\nYou can enter as a team of up to five people or as an individual. It costs \u00a35 per person to enter and the proceeds will go to the Mustard Tree.\n\nRunning Time\nRegistration is between 1pm - 2pm at Piccadilly Central, closing and prizes will be at the pub at 7pm. We\u2019re welcome to stay on at the pub after, and may take a turn round the Gay Village.\n\nPrizes\nThere will be \u00a3100 Amazon voucher PER TEAM for highest score and best submission, theres a \u00a350 Amazon voucher for runner ups (second highest score).\n\nWho will Judge?\nSilverphish, Ben from OWASP and two exciting celebrity judges.\n\nAre there sponsors?\nHell yes there are! We\u2019d like to thank PTP for supplying the prizes and FireDuck for sponsoring the infrastructure.\n\nWill we provide refreshments?\nNo. You\u2019re on your own with that. Please eat before hand, and make sure to grab a Greggs during the hunt. Obvs as the base is a pub you\u2019ll be able to buy a drink there too.\n\nIs the event suitable for Children?\nHell no. It\u2019s in a pub. It\u2019s also not totally safe for work either, so be prepared for some mild adult content.\n\nDo you need technical knowledge to enter?\nYou do not!!! There will be some mildly technical challenges but there will be plenty that are just silly or for fun.\n\nWhat should you bring with you? (These are suggestions, you\u2019re grown-ups so we take zero responsibility for you)\n\n* A water bottle\n* Snacks\n* Comfortable shoes (preferably on your feet)\n* Sun cream\n* A brolly (it\u2019s Manchester after all)\n* A sense of adventure\n* Probably some money\n\n**To register for this you MUST go to our Eventbrite:** https://www.eventbrite.co.uk/e/owasp-summer-scavenger-hunt-tickets-921543680957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing"
+        "description": "**This is a charity event and is \u00a35 to enter. Either register here and pay on the day or get your ticket in advance at Eventbrite:** https://www.eventbrite.co.uk/e/owasp-summer-scavenger-hunt-tickets-921543680957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing\n\nDo you like running round Manchester doing pointless challenges that may or may not be Hacker related for the chance of winning a \u00a3100 Amazon voucher?\n\nYes?!?\n\nThen this is the event for you!\n\nThis July OWASP Manchester will be hosting the first inaugural Charity Summer Scavenger Hunt. What you need to know:\n\nWho\u2019s running it?\nManchester OWASP and Silverphish, you may have entered a similar one at one of the BSides or at Steelcon.\n\nWhere is it?\nOur base is the Piccadilly Central pub opposite Piccadilly Station, but the challenges will be all over the city centre.\n\nTeams\nYou can enter as a team of up to five people or as an individual. It costs \u00a35 per person to enter and the proceeds will go to the Mustard Tree.\n\nRunning Time\nRegistration is between 1pm - 2pm at Piccadilly Central, closing and prizes will be at the pub at 7pm. We\u2019re welcome to stay on at the pub after, and may take a turn round the Gay Village.\n\nPrizes\nThere will be \u00a3100 Amazon voucher PER TEAM for highest score and best submission, theres a \u00a350 Amazon voucher for runner ups (second highest score).\n\nWho will Judge?\nSilverphish, Ben from OWASP and two exciting celebrity judges.\n\nAre there sponsors?\nHell yes there are! We\u2019d like to thank PTP for supplying the prizes and FireDuck for sponsoring the infrastructure.\n\nWill we provide refreshments?\nNo. You\u2019re on your own with that. Please eat before hand, and make sure to grab a Greggs during the hunt. Obvs as the base is a pub you\u2019ll be able to buy a drink there too.\n\nIs the event suitable for Children?\nHell no. It\u2019s in a pub. It\u2019s also not totally safe for work either, so be prepared for some mild adult content.\n\nDo you need technical knowledge to enter?\nYou do not!!! There will be some mildly technical challenges but there will be plenty that are just silly or for fun.\n\nWhat should you bring with you? (These are suggestions, you\u2019re grown-ups so we take zero responsibility for you)\n\n* A water bottle\n* Snacks\n* Comfortable shoes (preferably on your feet)\n* Sun cream\n* A brolly (it\u2019s Manchester after all)\n* A sense of adventure\n* Probably some money\n\n**This I s a charity event and is \u00a35 to enter. Either register here and pay on the day or get your ticket in advance at Eventbrite:** https://www.eventbrite.co.uk/e/owasp-summer-scavenger-hunt-tickets-921543680957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing"
     },
     {
         "group": "Mumbai",
@@ -200,16 +170,6 @@
         "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for July will be **A03:2021 - Injection**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
-        "group": "Orlando",
-        "repo": "www-chapter-orlando",
-        "name": "OWASP Orlando - Chapter Meeting",
-        "date": "2024-06-27",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-orlando/events/300859951",
-        "timezone": "America/New_York",
-        "description": "This is an In-Person Event\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **Marc Frankel**\n\nTopic: AIBOM - Utilizing Bill of Materials to desvribe and manage AI risks in the supply chain\n\nSpeaker 2: **Tony Turner**\n\nTopic: Practical Supply Chain Security - What works in real-world supply chain security programs and why it's important to level-set on your risk management journey."
-    },
-    {
         "group": "Ottawa",
         "repo": "www-chapter-ottawa",
         "name": "OWASPOttawa July 4th 2024: Car Hacking Workshop with RAMN Platform",
@@ -233,9 +193,9 @@
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
-        "date": "2024-06-27",
+        "date": "2024-07-25",
         "time": "19:00+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/301347316",
+        "link": "https://www.meetup.com/owasp-peterborough/events/301904100",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
