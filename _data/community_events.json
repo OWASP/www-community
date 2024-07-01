@@ -2,6 +2,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - July 2024 (Online)",
+        "date": "2024-07-30",
+        "time": "11:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/298207014",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation! Presentation begins at 12 CDT!\n\nPresentation: **Cyber Resilience - Findings from the 2024 Futures Report**\n\nWe are poised on the precipice of a new era of computing underpinned by new networks, new apps, and a digital-first experience.\nHear the latest findings from AT&T Cybersecurity research and learn about:\n\\- What high\\-priority edge computing use cases are across seven industry markets\n\\- How to secure and work with the edge ecosystem\n\\- How the attack surface is changing\n\\- How endpoints are diversifying\nThe data from this research helps audiences understand challenges and opportunities of the future and examines:\n\\- Balanced investment strategies\n\\- Collaboration and communication needs\n\\- Building with dynamic cyber resilience in mind\nSecurity is now a critical part of business - learn how to move your team to the future!"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Study Group",
         "date": "2024-07-18",
         "time": "12:00-05:00",
@@ -130,6 +140,16 @@
         "description": "OWASP topic TBA"
     },
     {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #12",
+        "date": "2024-07-06",
+        "time": "10:00+05:30",
+        "link": "https://www.meetup.com/owasp-kolkata/events/301959482",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Proposed sessions for this event:\n\n* Breach & Attack Simulation by **Mohammed Danish Amber**\n* Introduction To SIGINT by **Soummya Mukhopadhyay**\n* Break/Group Wise Discussion by **Null Kolkata**\n* Finding UART and Getting a Root Shell on a Linux Router by **Debanjan Saha**\n* LLM Security: Can Large Language Models be Hacked? by **Sneharghya**\n* LLM Security: Can Large Language Models be Hacked? by **Arjun Ghoshal**"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - JUL 24, 2024",
@@ -207,7 +227,7 @@
         "time": "20:30-07:00",
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/301825575",
         "timezone": "America/Phoenix",
-        "description": "**Full Coverage Code Scanning Like a Boss** \\- 20 Minutes\n*Do you want confidence your code is fully secure? Learn about the security scanning that teams often miss like scanning for secrets, vulnerable packages, container vulnerabilities, and misconfigured infrastructure as code. Go from beginner to full coverage security scanning like a boss!*"
+        "description": "**Full Coverage Code Scanning Like a Boss** \\- 30 Minutes\n*Do you want confidence your code is fully secure? Learn about the security scanning that teams often miss like scanning for secrets, vulnerable packages, container vulnerabilities, and misconfigured infrastructure as code. Go from beginner to full coverage security scanning like a boss!*"
     },
     {
         "group": "Portland",
