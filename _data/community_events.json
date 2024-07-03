@@ -22,6 +22,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "July 2024 OWASP Austin Security Professionals Happy Hour - sponsor SecureLayer7",
+        "date": "2024-07-11",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/302000237",
+        "timezone": "America/Chicago",
+        "description": "**When:** Thursday, July 11th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [SecureLayer7](https://securelayer7.net)\n*SecureLayer7 presents BugDazz: Empowering pentesting excellence for large enterprises and SMEs. Step into the future of cybersecurity with BugDazz and transform your strategy today. Trusted by leading organizations worldwide, elevate your pentesting program to new heights and ensure the security of your organization.*"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Study Group",
         "date": "2024-07-11",
         "time": "12:00-05:00",
@@ -120,6 +130,16 @@
         "description": "Le Chapitre Cotonou de la fondation OWASP en partenariat avec l\u2019Agence des Syst\u00e8mes d\u2019information et du Num\u00e9rique (ASIN), organise du 15 au 19 Juillet 2024 une formation de 5 jours sur le th\u00e8me : sensibilisation \u00e0 la s\u00e9curit\u00e9 de l\u2019information. Cette formation est destin\u00e9e \u00e0 toute personne qui d\u00e9sire approfondir ses connaissances en s\u00e9curit\u00e9 informatique pour ne pas demeurer le maillon faible du syst\u00e8me de management de la s\u00e9curit\u00e9 de son organisation. N'h\u00e9sitez pas \u00e0 vous inscrire tr\u00e8s rapidement \u00e0 partir du lien sur l'affiche ([https://owaspformation.emes.bj](https://owaspformation.emes.bj) /) car le nombre de places est tr\u00e8s tr\u00e8s limit\u00e9."
     },
     {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Denver OWASP July Meetup - Join Us!",
+        "date": "2024-07-17",
+        "time": "17:00-06:00",
+        "link": "https://www.meetup.com/owasp-denver-chapter/events/302000550",
+        "timezone": "America/Denver",
+        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on July 17th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\nThis month's meeting is brought to you by [Synopsys!](www.synopsys.com)\n\n**Presentation:** AI in the Age of Application Security\n\n**Abstract:** This talk will address key aspects of AI security, including the OWASP Top 10 for LLMs and concerns with AI-generated source code. We will cover advanced snippet scanning for early supply chain\ndetection and the use of \"guardrails\" to enforce security policies and how they can protect AI models.\n\nAutomation is crucial for improving security outcomes. According to Gartner, automating security activities can boost an organization's ability to meet targets by 15%. We'll discuss methods to simplify and\nautomate remediation processes for security vulnerabilities in application security.\n\nAdditionally, the session will feature an overview of Polaris Assist. Join us to learn how to secure AI systems effectively and leverage automation for robust protection."
+    },
+    {
         "group": "Dhaka",
         "repo": "www-chapter-dhaka",
         "name": "OWASP Meetup at Kushtia, Islamic University",
@@ -162,12 +182,22 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "Los Angeles Joint Cyber Mixer",
+        "date": "2024-07-29",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/301991448",
+        "timezone": "America/Los_Angeles",
+        "description": "Join us for our 3rd mixer with participating cybersecurity communities in Southern California, enjoy beautiful weather, amazing sunset, great conversations, network with your peers, make new friends!\nYou **don't** have to be a member of any group to participate. Mark your calendars; see you there!!\n\n**VENDOR Opportunities Available**\n*Vendors interested in attending please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - JUL 24, 2024",
         "date": "2024-07-24",
         "time": "17:30-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/299606717",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Breaking Through CVE Noise: Analyzing 5 Key Prioritization Inputs\nJoin us for great networking, dinner and drinks, and see a presentation by **Chelsea Boling**, a Customer Success Architect at **FOSSA**\n\n**ABSTRACT**: Thousands of new Common Vulnerabilities and Exposures (CVEs) are reported each year, which puts a massive burden on security teams to prioritize and address the most critical threats effectively. This is especially true since most vulnerabilities aren\u2019t actually exploitable in their real-world context, and wasting time on non-exploitable issues can get in the way of remediating the most impactful vulnerabilities.\nThis talk will explore strategies to mitigate CVE overload and streamline the vulnerability resolution process. In addition to exploring complexities around CVE noise \u2014 such as the difficulty in distinguishing between high-risk, low-risk, and no-risk vulnerabilities and the pressure to maintain business continuity while ensuring robust security \u2014 we\u2019ll analyze five specific vulnerability prioritization inputs:\n\n1. CVSS scores\n2. EPSS scores\n3. VEX\n4. The CISA KEV Catalog\n5. Reachability analysis\n\nAdditionally, the talk will cover the role of automation and tooling to prioritize vulnerabilities at scale as well as recommended workflows between IT, security teams, and business units to ensure comprehensive risk management.\n\n**Thanks to our Sponsor**: *[FOSSA](https://fossa.com/)*\n*FOSSA is a leading application security and compliance platform that specializes in helping engineering teams deliver trusted software. FOSSA enables companies to prioritize real vulnerabilities in their open source dependencies with comprehensive SCA (software composition analysis) capabilities, while also making it possible for organizations to automate compliance reporting and SBOM (software bill of materials) lifecycle management to meet customer and regulatory requirements. Founded in 2015, FOSSA is trusted by thousands of global organizations, has been downloaded nearly two million times, and has conducted nearly 100 million open-source scans.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+        "description": "**TOPIC**: Breaking Through CVE Noise: Analyzing 5 Key Prioritization Inputs\nJoin us for great networking, dinner and drinks, and see a presentation by **Chelsea Boling**, a Customer Success Architect at **FOSSA**\n\n**ABSTRACT**: Thousands of new Common Vulnerabilities and Exposures (CVEs) are reported each year, which puts a massive burden on security teams to prioritize and address the most critical threats effectively. This is especially true since most vulnerabilities aren\u2019t actually exploitable in their real-world context, and wasting time on non-exploitable issues can get in the way of remediating the most impactful vulnerabilities.\nThis talk will explore strategies to mitigate CVE overload and streamline the vulnerability resolution process. In addition to exploring complexities around CVE noise \u2014 such as the difficulty in distinguishing between high-risk, low-risk, and no-risk vulnerabilities and the pressure to maintain business continuity while ensuring robust security \u2014 we\u2019ll analyze five specific vulnerability prioritization inputs:\n\n1. CVSS scores\n2. EPSS scores\n3. VEX\n4. The CISA KEV Catalog\n5. Reachability analysis\n\nAdditionally, the talk will cover the role of automation and tooling to prioritize vulnerabilities at scale as well as recommended workflows between IT, security teams, and business units to ensure comprehensive risk management.\n\n**Thanks to our SPONSOR**: *[FOSSA](https://fossa.com/)*\n*FOSSA is a leading application security and compliance platform that specializes in helping engineering teams deliver trusted software. FOSSA enables companies to prioritize real vulnerabilities in their open source dependencies with comprehensive SCA (software composition analysis) capabilities, while also making it possible for organizations to automate compliance reporting and SBOM (software bill of materials) lifecycle management to meet customer and regulatory requirements. Founded in 2015, FOSSA is trusted by thousands of global organizations, has been downloaded nearly two million times, and has conducted nearly 100 million open-source scans.*\n\n**Thanks to our HOST**: *[HiveWatch](https://www.hivewatch.com/)*\n*Intelligent, efficient, and scalable security*\n*HiveWatch is a cloud-based SaaS platform built for physical security teams to enhance their current security technologies. It streamlines incident response, allows for the consolidation of disparate programs and systems, and reduces false alarms.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Manchester",
@@ -228,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/301904100",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Phoenix",
-        "repo": "www-chapter-phoenix",
-        "name": "July 2024 Meeting",
-        "date": "2024-07-02",
-        "time": "20:30-07:00",
-        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/301825575",
-        "timezone": "America/Phoenix",
-        "description": "**Full Coverage Code Scanning Like a Boss** \\- 30 Minutes\n*Do you want confidence your code is fully secure? Learn about the security scanning that teams often miss like scanning for secrets, vulnerable packages, container vulnerabilities, and misconfigured infrastructure as code. Go from beginner to full coverage security scanning like a boss!*"
     },
     {
         "group": "Portland",
@@ -308,16 +328,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516371",
         "timezone": "America/Vancouver",
         "description": "**Webauthn - WTF or FTW?** with Don Burks\n\nWhile it has been around for a few years, the Web Authentication Standard (or Webauthn) is just starting to become mainstream. This talk will explore some of the real-world applications of this technology, in particular discussing adoption strategies, observability practices, and evaluating Webauthn against other strategies such as OAuth and 2FA.\n\n**Don Burks** is a technical leader who has been working in the industry for over 25 years. Former Head Instructor of Lighthouse Labs and with experience both in startups and FAANG companies, Don's background in software development and technical leadership has provided a wealth of experience which he shares in books, talks, and the great teams with which he gets to work. Currently, Don is the Director of Engineering for Bulletproof Studio Tools, based in Vancouver, BC."
-    },
-    {
-        "group": "Vitoria",
-        "repo": "www-chapter-vitoria",
-        "name": "Threat Modeling/Threat Intelligence: Como Ambas Podem Ser Utilizadas em Conjunto",
-        "date": "2024-07-02",
-        "time": "19:30-03:00",
-        "link": "https://www.meetup.com/owasp-capixaba/events/301758648",
-        "timezone": "America/Sao_Paulo",
-        "description": "Palestrante: Caique Barqueta\nTema: Threat Modeling e Threat Intelligence: Como Ambas Podem Ser Utilizadas em ConjuntoData: 02/07/2024 \u00e0s 19:30"
     },
     {
         "group": "Wrongsecrets",
