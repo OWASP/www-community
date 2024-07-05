@@ -98,9 +98,9 @@ On JEE web applications , there 2 ways to define a session timeout,
 ## Impact of the session timeout on security and best practices
 
 The Session timeout defines an action window time for a user, this window
-represents the time in which an attacker can try to steal and use a existing user session...
+represents the time in which an attacker can try to steal and use a existing user session.
 
-For this, it's best practices to :
+For this, it's best practice to:
 
   - Set session timeout to the minimal value possible depending on the
     context of the application.
