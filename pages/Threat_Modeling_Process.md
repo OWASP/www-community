@@ -13,30 +13,27 @@ permalink: /Threat_Modeling_Process
 This is an OWASP community page. You should also visit the official [Threat Model Project](https://owasp.org/www-project-threat-model/) site.
 
 - [Introduction](#introduction)
-  - [Step 1: Scope your work](#step-1-decompose-the-application)
-  - [Step 2: Identify Threats](#step-2-determine-and-rank-threats)
+  - [Step 1: Scope your work](#step-1-scope-your-work)
+  - [Step 2: Determine Threats](#step-2-determine-threats)
   - [Step 3: Determine Countermeasures and Mitigation](#step-3-determine-countermeasures-and-mitigation)
-  - [Step 4: Assess your work](#Step-4-Assess-your-work)
-- A Sample threat model(#Sample-Scope-the-work)
--   [Scope your work (Samples)](#decompose-the-application)
-    - [Threat Model Information](#threat-model-information)
-    - [External Dependencies](#external-dependencies)
+  - [Step 4: Assess your work](#step-4-assess-your-work)
+- [Scope your work (Samples)](#sample-scope-the-work)
+    - [Threat Model Information](#threat-model-information-sample)
+    - [External Dependencies](#external-dependencies-sample)
     - [Entry Points](#entry-points)
     - [Exit Points](#exit-points)
     - [Assets](#assets)
     - [Trust Levels](#trust-levels)
     - [Data Flow Diagrams](#data-flow-diagrams)
     - [Example Diagrams](#example-diagrams)
-  - [Determine  Threats (samples) ](#determine-and-rank-threats)
+  - [Determine Threats (samples) ](#determine-threats-sample)
     - [STRIDE](#stride)
       - [STRIDE Threat List (sample)](#stride-threat-list)
         - [Threat Analysis](#threat-analysis)
         - [Ranking of Threats](#ranking-of-threats)
-        - [Subjective Model: DREAD](#subjective-model-dread)
         - [Qualitative Risk Model](#qualitative-risk-model)
   - [Determine Countermeasures and Mitigation (Sample)](#determine-countermeasures-and-mitigation)
     - [STRIDE Threat & Mitigation Techniques](#stride-threat--mitigation-techniques)
-  - [Assess your work]
 - [Complementing Code Review](#complementing-code-review)
 
 ## Introduction
@@ -270,7 +267,7 @@ _Figure 1: Data Flow Diagram for the College Library Website._
 
 _Figure 2: User Login Data Flow Diagram for the College Library Website._
 
-## Determine  Threats (Sample)
+## Determine Threats (Sample)
 
 
 ### STRIDE
