@@ -50,26 +50,6 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "July 2024 OWASP Austin Security Professionals Happy Hour - sponsor SecureLayer7",
-        "date": "2024-07-11",
-        "time": "17:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/302000237",
-        "timezone": "America/Chicago",
-        "description": "**When:** Thursday, July 11th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [SecureLayer7](https://securelayer7.net)\n*SecureLayer7 presents BugDazz: Empowering pentesting excellence for large enterprises and SMEs. Step into the future of cybersecurity with BugDazz and transform your strategy today. Trusted by leading organizations worldwide, elevate your pentesting program to new heights and ensure the security of your organization.*"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2024-07-11",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/301781798",
-        "timezone": "America/Chicago",
-        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
-    },
-    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "Null/OWASP Combined Monthly Meet on 20 July 2024",
@@ -120,6 +100,16 @@
         "description": "**Note:** **1\\. Participants can attend the event by invitation only\\, as we have limited seating\\. Venue details will be sent to selected participants\\.**\n**2\\. This workshop is intended for peoples who already have basic knowledge in AWS environment only\\, not for newbies/beginners\\.**\n\n**Hacking AWS**\nAn immersive 8-hour workshop designed for Blackbox Pentesters looking to enhance their skills in attacking and exploiting AWS resources.\nThis beginner-friendly session dives deep into AWS security, focusing on identifying and exploiting vulnerabilities in various AWS services.\n\n**What You Will Learn**\nThroughout the workshop, attendees will gain hands-on experience in:\n\\- Enumerating and Reconnaissance: Identifying and mapping AWS resources\\.\n\\- IAM Misconfigurations: Exploiting flaws in IAM roles and policies\\.\n\\- S3 Bucket Exploitation: Accessing and exfiltrating data from misconfigured S3 buckets\\.\n\\- EC2 Instance Attacks: Gaining unauthorized access to EC2 instances\\.\n\\- Other Common Misconfigurations: Identifying and exploiting other prevalent AWS vulnerabilities\\.\n\n**Capture the Flag (CTF) Event**\nThe workshop will conclude with a Capture the Flag (CTF) event, allowing attendees to apply what they've learned in a simulated AWS environment.\nThe CTF event will end on the same day, but the labs will remain accessible for 48 hours post-session for further practice.\n\n**Ideal Audience**\nThis workshop is best suited for individuals aiming to work on breaking into AWS environments, including:\n\\- Offensive Security Engineers\n\\- Pentesters Specializing in Cloud Security\n\\- Security Engineers\n\\- Technical Cloud Security Consultants\n\n**Not Suitable For**\nRed Teamers: This session does not cover advanced attack tactics, defense evasion, C2 hosting, or advanced data exfiltration.\nBlue Teamers & Defenders: Defensive strategies against these attacks are not covered.\nBeginners to AWS: Basic understanding of AWS and cloud computing concepts is required.\nRequirements for Participation\nAWS Account: Each attendee must have their own AWS account with root/admin access. Free tier accounts are sufficient.\nAWS CLI v2: Must be installed on the attendee's system.\nHardware: Attendees must bring their own laptops with internet connectivity.\nKnowledge Base: Basic familiarity with AWS services and concepts like IAM, Lambda, EC2, etc., is needed.\n\n**Kindly Fill this form for registration :** [https://forms.gle/GSTZZmfpEUHiDYHN6](https://forms.gle/GSTZZmfpEUHiDYHN6)"
     },
     {
+        "group": "Chile",
+        "repo": "www-chapter-chile",
+        "name": "Inteligencia Artificial versus ISO-9000",
+        "date": "2024-07-17",
+        "time": "20:00-04:00",
+        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/302168917",
+        "timezone": "America/Santiago",
+        "description": "\u00danete a nosotros para un conversatorio sobre la implementaci\u00f3n de la norma ISO/IEC 9001 y su impacto en la adopci\u00f3n de herramientas de inteligencia artificial (IA).\n\nNo te pierdas esta oportunidad de mantenerte a la vanguardia de la ciberseguridad en el campo de la IA. Ideal para profesionales interesados en optimizar sus operaciones con IA de manera segura y efectiva."
+    },
+    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "Secrets Revealed for Launching a Successful Enterprise DevSecOps Program",
@@ -147,7 +137,7 @@
         "time": "18:00-04:00",
         "link": "https://www.meetup.com/columbus-owasp/events/301083987",
         "timezone": "America/New_York",
-        "description": "Jay Bobo from CoverMyMeds is speaking! I'll get an abstract up here shortly, but it will be fantastic.\n\nAnd we are at a NEW location! Check it out!"
+        "description": "Jay Bobo from CoverMyMeds is speaking! I'll get an abstract up here shortly, but it will be fantastic."
     },
     {
         "group": "Cotonou",
@@ -290,6 +280,16 @@
         "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, July 21st, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Live Stream**\nStream us live on Twitch: http://twitch.tv/owaspoc\n*Please change your RSVP to \"No\" if you can't make it and/or will join via livestream instead.*\n\n**Abstract**\nDependency scanners often overwhelm developers with non-critical issues, reducing development efficiency. This session will introduce strategies for effective software dependency management, aimed at realistic security goals. We'll cover how to identify and prioritize key vulnerabilities using tools like code-scanning reachability analysis, ensuring a smoother remediation process."
     },
     {
+        "group": "Orlando",
+        "repo": "www-chapter-orlando",
+        "name": "OWASP Orlando - Application Security",
+        "date": "2024-08-08",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-orlando/events/302181908",
+        "timezone": "America/New_York",
+        "description": "This is an In-Person OWASP Orlando Chapter Meeting\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **TBD**\nTopic: TBD\n\nSpeaker 2: **TBD**\nTopic: TBD"
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
@@ -318,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/301724132",
         "timezone": "America/Sao_Paulo",
         "description": "Em julho teremos o nosso pr\u00f3ximo encontro, online e com participa\u00e7\u00e3o de todos atrav\u00e9s do **ZOOM**.\n\nVenha aprender e conversar **com um dos principais colaboradores** do OWASP Top 10 For LLM.\n\n**Link para a transmiss\u00e3o:**\nhttps://us06web.zoom.us/j/87962925968\n\n**Confira nossa agenda:**\n\n 19h30 \\~ 20h30\n**\"Seguran\u00e7a de IA na Pr\u00e1tica: OWASP Top 10 para LLM Apps\"**\n\nNesta apresenta\u00e7\u00e3o, exploraremos as melhores pr\u00e1ticas de seguran\u00e7a para aplica\u00e7\u00f5es que utilizam Modelos de Linguagem de Grande Escala (LLM). Vamos discutir o OWASP Top 10, um guia essencial para identificar e mitigar os principais riscos de seguran\u00e7a nessas aplica\u00e7\u00f5es. Atrav\u00e9s de exemplos pr\u00e1ticos e insights detalhados, voc\u00ea aprender\u00e1 como proteger suas implementa\u00e7\u00f5es de IA, garantindo conformidade e seguran\u00e7a robusta. Esta sess\u00e3o \u00e9 fundamental para profissionais de seguran\u00e7a, desenvolvedores e l\u00edderes de tecnologia que buscam fortalecer suas defesas contra amea\u00e7as emergentes no campo da intelig\u00eancia artificial.\n\n**Palestrante:** Emmanuel Guilherme Junior \\(Cybersecurity Leadership \\| AI & LLM Security \\| Cloud Security \\| OWASP Top 10 for LLM Core Team Member\\)"
+    },
+    {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "OWASP-SLC/Wasatch AppSec - July - Off-grid-Meetup (Campout)",
+        "date": "2024-07-26",
+        "time": "15:00-06:00",
+        "link": "https://www.meetup.com/owasp-slc/events/302171844",
+        "timezone": "America/Denver",
+        "description": "**Hey Everyone,**\nWe're excited to announce our second annual **Off-Grid Campout** this July!\nJoin us for the weekend and enjoy the Aldo site in Provo Canyon. We've reserved a campground for **July 26th-27th**.\n\n**Please RSVP**, as our group site has room for 10 cars.\n**Details:**\n\n* **Location:** [Aldo site, Provo Canyon](https://www.recreation.gov/camping/campsites/15948)\n* **Check-in:** As early as 3 PM, (but come whenever makes sense) on July 26th\n* **Checkout:** By 12 PM on July 27th\n\nBring your own dinner and breakfast, and enjoy some downtime, and connect with fellow AppSec engineers in a beautiful setting.\nLooking forward to seeing you there!"
     },
     {
         "group": "San Antonio",
