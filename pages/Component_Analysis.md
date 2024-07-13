@@ -289,9 +289,6 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | Name | Owner | Licence | Platforms |
 | ---- | ----- | ------- |---------- |
 | [Arnica] | Arnica | Commercial / Freemium | Cross Platform / SaaS |
-| [Vulert] | Vulert | Commercial / Freemium | Cross Platform / SaaS |
-| [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
-| [GitHub SCA] | GitHub | Freemium | SaaS |
 | [Black Duck Hub] | Synopsys | Commercial | Cross Platform |
 | [Bytesafe] | Bytesafe | Freemium | SaaS |
 | [Bytesafe Dependency Checker] | Bytesafe | Free | SaaS |
@@ -303,15 +300,17 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [CxSCA] | Checkmarx | Commercial | SaaS |
 | [Debricked] | Debricked | Commercial/Freemium | SaaS |
 | [DejaCode] | nexB | Commercial | SaaS |
+| [Dependabot] | Dependabot | Commercial / Freemium | SaaS |
 | [Dependency-Check] | OWASP | Open Source | Cross Platform |
 | [Dependency-Track] | OWASP | Open Source | Cross Platform |
-| [Dependabot] | Dependabot | Commercial / Freemium | SaaS |
+| [Dependency Track SaaS] | YourSky.blue | Commercial | SaaS |
 | [DepShield] | Sonatype | Open Source | Cross Platform / SaaS |
 | [DotNET Retire] | Retire.NET Project | Open Source | Cross Platform |
 | [FlexNet Code Insight] | Flexera Commercial	| Cross Platform |
 | [Fluid Attack's Scanner] | Fluid Attacks | MPL 2.0. | SaaS |
 | [FOSSA] | FOSSA | Commercial / Freemium | SaaS |
 | [FOSSology] | Linux Foundation | Open Source | Cross Platform |
+| [GitHub SCA] | GitHub | Freemium | SaaS |
 | [Grafeas] | Grafeas | Open Source | Cross Platform |
 | [Greenkeeper] | Greenkeeper | Open Source | SaaS |
 | [Ion Channel SA] | Ion Channel | Commercial | SaaS |
@@ -328,21 +327,20 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
 | [SBOM Observer] | Bytesafe  | Commercial | SaaS |
+| [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
 | [Software Health Indicator] | YourSky.blue | Commercial / Freemium | SaaS |
 | [SOOS] | SOOS | Commercial / Freemium | SaaS |
 | [Veracode SCA] | Veracode | Commercial | Cross Platform / SaaS |
-| [VulnDB] | Risk Based Security | Commercial	| SaaS |
 | [Vigiles] | Timesys | Commercial / Freemium | SaaS |
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
+| [Vulert] | Vulert | Commercial / Freemium | Cross Platform / SaaS |
+| [VulnDB] | Risk Based Security | Commercial	| SaaS |
 | [Xray] | JFrog | Commercial | Cross Platform |
 
 [Arnica]: https://arnica.io/
-[Vulert]: https://vulert.com/
-[Scantist SCA]: https://scantist.com/
 [Bytesafe]: https://bytesafe.dev/
 [Bytesafe Dependency Checker]: https://bytesafe.dev/dependency-checker/javascript/
-[GitHub SCA]: https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on/
 [Black Duck Hub]: https://www.blackducksoftware.com/
 [CAST Highlight]: https://www.castsoftware.com/SCA/
 [Clarity]: https://www.insignary.com/
@@ -352,38 +350,42 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [CxSCA]: https://www.checkmarx.com/products/software-composition-analysis/
 [Debricked]: https://debricked.com/
 [DejaCode]: https://www.nexb.com/
+[Dependabot]: https://dependabot.com/
 [Dependency-Check]: https://owasp.org/www-project-dependency-check/
 [Dependency-Track]: https://owasp.org/www-project-dependency-track/
-[Dependabot]: https://dependabot.com/
+[Dependency Track SaaS]: https://yoursky.blue/products/dependency-track-saas
 [DepShield]: https://depshield.github.io/
 [DotNET Retire]: https://github.com/RetireNet/dotnet-retire
 [FlexNet Code Insight]: https://www.flexera.com/products/software-composition-analysis/flexnet-code-insight.html
 [Fluid Attack's Scanner]: https://docs.fluidattacks.com/machine/scanner
 [FOSSA]: https://fossa.com/
 [FOSSology]: https://www.fossology.org/
+[GitHub SCA]: https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on/
 [Grafeas]: https://grafeas.io/
 [Greenkeeper]: https://greenkeeper.io/
 [OSS Review Toolkit]: https://github.com/heremaps/oss-review-toolkit
 [Ion Channel SA]: https://ionchannel.io/
 [Libraries.io]: https://libraries.io/
 [MergeBase]: http://mergebase.com/
+[Nexus IQ]: https://www.sonatype.com/
 [NPM Audit]: https://www.npmjs.com/
+[Open Source Lifecycle Management]: https://www.whitesourcesoftware.com/
 [OSS Index]: https://ossindex.sonatype.org/
+[Patton]: https://owasp.org/www-project-patton/
 [PHP Security Checker]: https://github.com/sensiolabs/security-checker
 [Prisma Cloud]: https://www.paloaltonetworks.com/prisma/cloud
 [Renovate]: https://renovatebot.com/
+[Retire.js]: https://retirejs.github.io/retire.js/
 [SBOM Observer]: https://sbom.observer/
+[Scantist SCA]: https://scantist.com/
 [Snyk]: https://snyk.io/
 [Software Health Indicator]: https://software-health-indicator.com/
 [SOOS]: https://soos.io/
 [Veracode SCA]: https://www.veracode.com/products/software-composition-analysis
-[Nexus IQ]: https://www.sonatype.com/
-[Open Source Lifecycle Management]: https://www.whitesourcesoftware.com/
-[Retire.js]: https://retirejs.github.io/retire.js/
-[VulnDB]: https://vulndb.cyberriskanalytics.com/
-[Patton]: https://owasp.org/www-project-patton/
 [Vigiles]: https://www.timesys.com/security/vigiles-vulnerability-management-patch-monitoring/
 [Vigilant Ops InSight]: https://vigilant-ops.com/
+[Vulert]: https://vulert.com/
+[VulnDB]: https://vulndb.cyberriskanalytics.com/
 [Xray]: https://jfrog.com/xray/
 
 
