@@ -1934,5 +1934,14 @@
       "platforms": "Linux, MacOS, Windows",
       "note": "A vulnerability scanner for container images and filesystems.",
       "type": "SAST"
+   },
+    {
+      "title": "OWASP IDE VulScanner",
+      "url": "https://destinjidee.com/owasp-ide-vulscanner",
+      "owner": "DestinJiDee LTD",
+      "license": "Commercial or Free",
+      "platforms": "IntelliJ, VSCode",
+      "note": "The product falls under the SCA tool category and enables developers to scan third-party dependencies within their favourite IDEs i.e. IntelliJ and VSCode.",
+      "type": "SAST"
    }
 ]
