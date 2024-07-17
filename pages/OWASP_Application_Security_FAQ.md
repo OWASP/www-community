@@ -591,7 +591,7 @@ Refer to the [Vulnerable Web Applications Directory](https://owasp.org/www-proje
 
 Two examples are [Juice Shop](https://owasp.org/www-project-juice-shop/) and [Security Shepard](https://owasp.org/www-project-security-shepherd/), while others can be found as part of the [OWASP Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/) project.
 
-External projects of note include [VulnHub](https://www.vulnhub.com/), [Hack This Site](https://www.hackthissite.org/), [Hack the Box](https://www.hackthebox.eu/) and [Damn Vulnerable Web Application](http://www.dvwa.co.uk/).
+External projects of note include [VulnHub](https://www.vulnhub.com/), [Hack This Site](https://www.hackthissite.org/), [Hacking-Lab](https://hacking-lab.com/), [Hack the Box](https://www.hackthebox.eu/) and [Damn Vulnerable Web Application](http://www.dvwa.co.uk/).
 
 ## Are there source code scanning tools for .NET languages, Java, PHP etc that predict vulnerabilities in the source code?
 
