@@ -50,16 +50,6 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Study Group",
-        "date": "2024-07-18",
-        "time": "12:00-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/301903126",
-        "timezone": "America/Chicago",
-        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
-    },
-    {
         "group": "Bangalore",
         "repo": "www-chapter-bangalore",
         "name": "Null/OWASP Combined Monthly Meet on 20 July 2024",
@@ -100,6 +90,26 @@
         "description": "**Note:** **1\\. Participants can attend the event by invitation only\\, as we have limited seating\\. Venue details will be sent to selected participants\\.**\n**2\\. This workshop is intended for peoples who already have basic knowledge in AWS environment only\\, not for newbies/beginners\\.**\n\n**Hacking AWS**\nAn immersive 8-hour workshop designed for Blackbox Pentesters looking to enhance their skills in attacking and exploiting AWS resources.\nThis beginner-friendly session dives deep into AWS security, focusing on identifying and exploiting vulnerabilities in various AWS services.\n\n**What You Will Learn**\nThroughout the workshop, attendees will gain hands-on experience in:\n\\- Enumerating and Reconnaissance: Identifying and mapping AWS resources\\.\n\\- IAM Misconfigurations: Exploiting flaws in IAM roles and policies\\.\n\\- S3 Bucket Exploitation: Accessing and exfiltrating data from misconfigured S3 buckets\\.\n\\- EC2 Instance Attacks: Gaining unauthorized access to EC2 instances\\.\n\\- Other Common Misconfigurations: Identifying and exploiting other prevalent AWS vulnerabilities\\.\n\n**Capture the Flag (CTF) Event**\nThe workshop will conclude with a Capture the Flag (CTF) event, allowing attendees to apply what they've learned in a simulated AWS environment.\nThe CTF event will end on the same day, but the labs will remain accessible for 48 hours post-session for further practice.\n\n**Ideal Audience**\nThis workshop is best suited for individuals aiming to work on breaking into AWS environments, including:\n\\- Offensive Security Engineers\n\\- Pentesters Specializing in Cloud Security\n\\- Security Engineers\n\\- Technical Cloud Security Consultants\n\n**Not Suitable For**\nRed Teamers: This session does not cover advanced attack tactics, defense evasion, C2 hosting, or advanced data exfiltration.\nBlue Teamers & Defenders: Defensive strategies against these attacks are not covered.\nBeginners to AWS: Basic understanding of AWS and cloud computing concepts is required.\nRequirements for Participation\nAWS Account: Each attendee must have their own AWS account with root/admin access. Free tier accounts are sufficient.\nAWS CLI v2: Must be installed on the attendee's system.\nHardware: Attendees must bring their own laptops with internet connectivity.\nKnowledge Base: Basic familiarity with AWS services and concepts like IAM, Lambda, EC2, etc., is needed.\n\n**Kindly Fill this form for registration :** [https://forms.gle/GSTZZmfpEUHiDYHN6](https://forms.gle/GSTZZmfpEUHiDYHN6)"
     },
     {
+        "group": "Chile",
+        "repo": "www-chapter-chile",
+        "name": "Pap\u00e1, tengo un romance con la IA",
+        "date": "2024-07-31",
+        "time": "20:00-04:00",
+        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/302317399",
+        "timezone": "America/Santiago",
+        "description": "En esta era de revoluci\u00f3n tecnol\u00f3gica, las interacciones entre humanos e inteligencias artificiales est\u00e1n alcanzando niveles de complejidad sin precedentes.\n\nEste podcast abordar\u00e1 un fen\u00f3meno emergente:\n\n* Individualismo y soledad en el mundo real.\n* El desarrollo de v\u00ednculos emocionales profundos con entidades de IA.\n* Implicaciones \u00c9ticas y Psicol\u00f3gicas en ni\u00f1os, ni\u00f1as y adolescentes."
+    },
+    {
+        "group": "Chile",
+        "repo": "www-chapter-chile",
+        "name": "NO USES owasp-TOP10",
+        "date": "2024-07-24",
+        "time": "20:00-04:00",
+        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/302302847",
+        "timezone": "America/Santiago",
+        "description": "**Evoluciona y mira, M\u00e1s All\u00e1 de OWASP Top 10.**\n\nEl panorama de la seguridad en desarrollo evoluciona constantemente. OWASP Top 10, considerado esencial, ya no es suficiente.\n\nEn este conversatorio, descubriremos por qu\u00e9 es momento de actualizar nuestras pr\u00e1cticas y exploraremos las mejores alternativas disponibles hoy.\n\u00danase a nosotros para un debate relevante y pr\u00e1ctico sobre el futuro del desarrollo seguro. No se lo pierda."
+    },
+    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "OWASP Cheat Sheet Series Bug Bash!",
@@ -108,16 +118,6 @@
         "link": "https://www.meetup.com/owasp-cincinnati-meetup-group/events/302142287",
         "timezone": "America/New_York",
         "description": "Interested in application security? Or have you been wanting to get into open source but aren't sure where to start? Come to our Bug Bash! We'll provide an overview of the [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) project, a collection of articles on specific application security topics. Then we'll dive into the project's GitHub repository and start hacking away at issues. We'll have mentors on hand to help you get started and answer any questions you have. All skill levels are welcome!\n\nNever submitted a pull request before? No problem! We'll walk you through the process and help you get your first open source contribution under your belt.\nAre you an expert in one specific area of application security? Come contribute to the project by writing a new cheat sheet or improving an existing one.\nJust getting started? Come and learn from experts, and contribute by fixing typos, improving formatting, or adding examples to existing cheat sheets. You don't need to be a technical expert to participate in open source!\nHave tons of experience? Come help mentor others and review their pull requests.\n\nWe'll unleash the group on the project and see how much we can accomplish in a couple hours. There will be food for all attendees, and we'll have special **awards** for the top contributors in various categories.\n\n**Bring your laptop! Make sure you're set up with a GitHub account, and ideally have Git installed on your laptop.**"
-    },
-    {
-        "group": "Cincinnati",
-        "repo": "www-chapter-cincinnati",
-        "name": "Secrets Revealed for Launching a Successful Enterprise DevSecOps Program",
-        "date": "2024-07-18",
-        "time": "16:00-04:00",
-        "link": "https://www.meetup.com/owasp-cincinnati-meetup-group/events/301914266",
-        "timezone": "America/New_York",
-        "description": "**This meeting will be in-person! Thank you to Kroger for hosting at their Kroger Blue Ash Technology Center. For security, RSVP by 2 days prior to the meeting is required.**\n\n**Sponsored by [Traceable](https://www.traceable.ai/)**\n\nThis presentation walks through the patterns of successfully starting of a DevSecOps program from scratch. As such, it focuses on the strategies derived from both the successes and failures and lessons learned along the way on this journey. Lastly, this talk concludes how White House Executive Order (14028) centered around SBOM shapes the next steps of the DevSecOps maturity model and how organizations can leverage this new piece of legislation to bolster their application security defenses.\n\n**Approximate schedule:**\n4:00 - Doors open. Come for networking and refreshments\n4:15 - Presentation begins.\n5:15 - Networking and refreshments resume!\n6:00 EOE (End of Event)"
     },
     {
         "group": "Colorado Springs",
@@ -130,14 +130,14 @@
         "description": "We're taking July off so you can enjoy some summer vacation time. See you again in August! -Terry"
     },
     {
-        "group": "Columbus",
-        "repo": "www-chapter-columbus",
-        "name": "10 Things I Hate About AppSec (It\u2019s not developers)",
-        "date": "2024-07-18",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/columbus-owasp/events/301083987",
-        "timezone": "America/New_York",
-        "description": "We\u2019ll take a quick look into recent data breaches and common application security anti-patterns, exploring how to improve security practices while increasing morale and reducing risk."
+        "group": "Cotonou",
+        "repo": "www-chapter-cotonou",
+        "name": "sensibilisation \u00e0 la s\u00e9curit\u00e9 informatique",
+        "date": "2024-07-25",
+        "time": "16:00+01:00",
+        "link": "https://www.meetup.com/owasp-cotonou-chapter/events/302308669",
+        "timezone": "Africa/Lagos",
+        "description": "Le chapitre OWASP-Cotonou vous invite \u00e0 son prochain meeting sur \u00ab la sensibilisation \u00e0 la s\u00e9curit\u00e9 informatique \u00bb qui aura lieu le 25 juillet 2024 au Campus d'Abomey-Calavi, Dernier b\u00e2timent \u00e0 droite sur le pav\u00e9 de l'ENA en allant vers la sortie Zogbadj\u00e8(\"B\u00e2timent polyvalent\").\n\nLa meeting soulignera l\u2019importance de la sensibilisation \u00e0 la s\u00e9curit\u00e9 informatique au sein des organisations et de la soci\u00e9t\u00e9 en g\u00e9n\u00e9ral, en abordant des sujets tels que l\u2019ing\u00e9nierie sociale, la formation \u00e0 la s\u00e9curit\u00e9, la sensibilisation \u00e0 l\u2019importance de la s\u00e9curit\u00e9, l\u2019hygi\u00e8ne num\u00e9rique."
     },
     {
         "group": "Frankfurt",
@@ -240,6 +240,16 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "August 2024 Meeting",
+        "date": "2024-08-06",
+        "time": "20:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/302320210",
+        "timezone": "America/Phoenix",
+        "description": "**Introduction to DevSecOps with GitHub Actions** (45 min)\nGitHub Actions are a powerful way to automate your development pipelines. This talk will give you a foundational understanding of GitHub Actions with enough knowledge to start integrating security scans. We will start the fundamentals of GitHub Actions and put those into practice with a Hello World test. Then we will look at how to create a dashboard that displays the current state of your repository. Finally, we will resolve one of the failing dashboard metrics by implementing an automated scan. This is intended to be a hands-on talk. Bring your laptop and set up a GitHub account before the meeting begins."
+    },
+    {
         "group": "Poland",
         "repo": "www-chapter-poland",
         "name": "OWASP Meeting in Krakow - Bezpiecze\u0144stwo API + Kariera w bran\u017cy IT security?",
@@ -248,26 +258,6 @@
         "link": "https://www.meetup.com/owasp-poland/events/302269188",
         "timezone": "Europe/Warsaw",
         "description": "Przed nami kolejne spotkanie naszej grupy. Mamy dla Was wyk\u0142ad Ma\u0107ka Kofela o bezpiecze\u0144stwie API a w drugiej cz\u0119\u015bci proponujemy dyskusj\u0119 o karierze w IT security.\n\n* **Bezpiecze\u0144stwo API (Maciej Kofel)**\nPodczas tworzenia i testowania API cz\u0119sto priorytetem s\u0105 wydajno\u015b\u0107 i funkcjonalno\u015b\u0107. Ale co z bezpiecze\u0144stwem? Czy wiesz, \u017ce hakerzy mog\u0105 wykorzysta\u0107 API do wyci\u0105gni\u0119cia cennych informacji z Twojej aplikacji lub uzyskania dost\u0119pu do Twojego serwera, co umo\u017cliwia im dalsze eksplorowanie zasob\u00f3w Twojej firmy? Na nadchodz\u0105cym spotkaniu OWASP zaprezentuj\u0119 takie przyk\u0142ady.\nW mojej prezentacji dowiesz si\u0119 o lukach z listy OWASP API Top10, kt\u00f3re mog\u0105 wyst\u0105pi\u0107 w API, poznasz narz\u0119dzia i techniki testowania bezpiecze\u0144stwa API oraz dowiesz si\u0119, gdzie szuka\u0107 pomocy lub rekomendacji dotycz\u0105cych \u0142atania tych luk.\nTa sesja b\u0119dzie pe\u0142na praktycznych przyk\u0142ad\u00f3w. Po tej prezentacji, ju\u017c nigdy nie spojrzysz na API w ten sam spos\u00f3b.\n*\n* **Kariera w bran\u017cy IT security (dyskusja)**\nW drugiej cz\u0119\u015bci naszego spotkania porozmawiamy o tym jak wej\u015b\u0107 do bran\u017cy IT security i jak planowa\u0107 swoj\u0105 karier\u0119. Zapraszamy zar\u00f3wno tych kt\u00f3rzy dopiero planuj\u0105 rozpocz\u0119cie pracy, tych kt\u00f3rzy maj\u0105 ju\u017c kilka lat do\u015bwiadczenia, jak i manager\u00f3w prowadz\u0105cych rekrutacj\u0119. Porozmawiamy o tym co dzia\u0142a a co nie, jaki jest obecny stan rynku pracy, jakie specjalno\u015bci s\u0105 dzisiaj a jakie b\u0119d\u0105 w przysz\u0142o\u015bci, na co warto zwraca\u0107 uwag\u0119 planuj\u0105c swoj\u0105 karier\u0119 w IT security."
-    },
-    {
-        "group": "Portland",
-        "repo": "www-chapter-portland",
-        "name": "Designing an Efficient Penetration Test Suite",
-        "date": "2024-07-18",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-portland-chapter/events/301487187",
-        "timezone": "America/Los_Angeles",
-        "description": "How do you define the scope of penetration testing for a web application project? Is it the OWASP Top Ten, formal guidelines established by organizations such as NIST, security stories developed by the product owner and the security team, or recommendations made by your development team? The answer is all the above depending on the client, your development environment, and your capacity to take the risk.\n\nThis presentation will share experiences gained from penetration testing of a web application hosted by a Government agency providing professional licenses to its prospective clients. The nature of the project touched numerous areas such as CJIS (Criminal Justice Information Service), Personal Identifiable Information (PII), Access Control (Authorization in particular), and adherence to the security standard\u2019s office guidelines. The challenge was to identify and prioritize the test suite that will cover these specific areas in a constrained time period. To enhance the coverage, the test suite had to include DAST (using ZAP) and some specific general scenarios.\n\nThe audience will take away some approaches that when applied can lead to a well balanced (both effective and efficient) penetration testing.\n\nSCHEDULE\nDoors open at 5:30. The talk will begin about 6pm.\n\nENTRY\nThere are doors on Washington and Broadway. Both of them auto-lock at 6pm. From 6 to 6:15pm, only the door on Broadway will be available. Take the elevator to the 11th floor.\n\nNO ENTRY AFTER 6:15 PM\nIt will not be possible to enter the building after 6:15.\n\nACKNOWLEDGEMENTS\nOur host again this month is NedSpace, a co-working space in downtown Portland--a friendly place to work when you don't want to work from home.\n\nFOOD\nWe don't yet have a sponsor for July, so there may not be food this time. Plan accordingly. (If you know a company that might like to sponsor, please put them in touch with us.)"
-    },
-    {
-        "group": "Porto Alegre",
-        "repo": "www-chapter-porto-alegre",
-        "name": "OWASP Chapter POA - Encontro #15 [ONLINE]",
-        "date": "2024-07-18",
-        "time": "19:30-03:00",
-        "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/301724132",
-        "timezone": "America/Sao_Paulo",
-        "description": "Em julho teremos o nosso pr\u00f3ximo encontro, online e com participa\u00e7\u00e3o de todos atrav\u00e9s do **ZOOM**.\n\nVenha aprender e conversar **com um dos principais colaboradores** do OWASP Top 10 For LLM.\n\n**Link para a transmiss\u00e3o:**\nhttps://us06web.zoom.us/j/87962925968\n\n**Confira nossa agenda:**\n\n 19h30 \\~ 20h30\n**\"Seguran\u00e7a de IA na Pr\u00e1tica: OWASP Top 10 para LLM Apps\"**\n\nNesta apresenta\u00e7\u00e3o, exploraremos as melhores pr\u00e1ticas de seguran\u00e7a para aplica\u00e7\u00f5es que utilizam Modelos de Linguagem de Grande Escala (LLM). Vamos discutir o OWASP Top 10, um guia essencial para identificar e mitigar os principais riscos de seguran\u00e7a nessas aplica\u00e7\u00f5es. Atrav\u00e9s de exemplos pr\u00e1ticos e insights detalhados, voc\u00ea aprender\u00e1 como proteger suas implementa\u00e7\u00f5es de IA, garantindo conformidade e seguran\u00e7a robusta. Esta sess\u00e3o \u00e9 fundamental para profissionais de seguran\u00e7a, desenvolvedores e l\u00edderes de tecnologia que buscam fortalecer suas defesas contra amea\u00e7as emergentes no campo da intelig\u00eancia artificial.\n\n**Palestrante:** Emmanuel Guilherme Junior \\(Cybersecurity Leadership \\| AI & LLM Security \\| Cloud Security \\| OWASP Top 10 for LLM Core Team Member\\)"
     },
     {
         "group": "Salt Lake City",
@@ -308,16 +298,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516374",
         "timezone": "America/Vancouver",
         "description": "TBD"
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "Webauthn - WTF or FTW?",
-        "date": "2024-07-18",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516371",
-        "timezone": "America/Vancouver",
-        "description": "**Webauthn - WTF or FTW?** with Don Burks\n\nWhile it has been around for a few years, the Web Authentication Standard (or Webauthn) is just starting to become mainstream. This talk will explore some of the real-world applications of this technology, in particular discussing adoption strategies, observability practices, and evaluating Webauthn against other strategies such as OAuth and 2FA.\n\n**Don Burks** is a technical leader who has been working in the industry for over 25 years. Former Head Instructor of Lighthouse Labs and with experience both in startups and FAANG companies, Don's background in software development and technical leadership has provided a wealth of experience which he shares in books, talks, and the great teams with which he gets to work. Currently, Don is the Director of Engineering for Bulletproof Studio Tools, based in Vancouver, BC."
     },
     {
         "group": "Wrongsecrets",
