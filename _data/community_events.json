@@ -23,6 +23,16 @@
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Study Group",
+        "date": "2024-08-08",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/302335657",
+        "timezone": "America/Chicago",
+        "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Study Group",
         "date": "2024-08-01",
         "time": "12:00-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/302074820",
@@ -92,12 +102,12 @@
     {
         "group": "Chile",
         "repo": "www-chapter-chile",
-        "name": "Pap\u00e1, tengo un romance con la IA",
+        "name": "Un gran poder conlleva una gran responsabilidad.",
         "date": "2024-07-31",
         "time": "20:00-04:00",
-        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/302317399",
+        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/302332749",
         "timezone": "America/Santiago",
-        "description": "En esta era de revoluci\u00f3n tecnol\u00f3gica, las interacciones entre humanos e inteligencias artificiales est\u00e1n alcanzando niveles de complejidad sin precedentes.\n\nEste podcast abordar\u00e1 un fen\u00f3meno emergente:\n\n* Individualismo y soledad en el mundo real.\n* El desarrollo de v\u00ednculos emocionales profundos con entidades de IA.\n* Implicaciones \u00c9ticas y Psicol\u00f3gicas en ni\u00f1os, ni\u00f1as y adolescentes."
+        "description": "\u00danete a nosotros para una conversaci\u00f3n en modo conspiranoico, acerca de los riesgos y oportunidades que ofrecen nuestro sw y herramientas cotidianas.\n\nA priori, analizaremos los super-poderes del navegador CHROME, BRAVE, y otras funciones de tu notebook y smartphone.\n\nAprende y previene, para evitar posibles vulnerabilidades y malas pr\u00e1cticas que podr\u00edan comprometer tus proyectos."
     },
     {
         "group": "Chile",
@@ -268,16 +278,6 @@
         "link": "https://www.meetup.com/owasp-slc/events/302171844",
         "timezone": "America/Denver",
         "description": "**Hey Everyone,**\nWe're excited to announce our second annual **Off-Grid Campout** this July!\nJoin us for the weekend and enjoy the Aldo site in Provo Canyon. We've reserved a campground for **July 26th-27th**.\n\n**Please RSVP**, as our group site has room for 10 cars.\n**Details:**\n\n* **Location:** [Aldo site, Provo Canyon](https://www.recreation.gov/camping/campsites/15948)\n* **Check-in:** As early as 3 PM, (but come whenever makes sense) on July 26th\n* **Checkout:** By 12 PM on July 27th\n\nBring your own dinner and breakfast, and enjoy some downtime, and connect with fellow AppSec engineers at the base of the beautiful Cascade mountain.\nLooking forward to seeing you there!"
-    },
-    {
-        "group": "San Antonio",
-        "repo": "www-chapter-san-antonio",
-        "name": "OWASP San Antonio Chapter Monthly Meeting-July 19th 2024",
-        "date": "2024-07-19",
-        "time": "11:00-05:00",
-        "link": "https://www.meetup.com/owasp-sanantonio/events/301446259",
-        "timezone": "America/Chicago",
-        "description": "Topics- See abstracts below\n\n* Securing API's in the Cloud\n* The top API threats seen in the first quarter of 2024\n* Salesforce Security Pen Testing\n\n**Lunch Provided**\n\nsmall fee for parking est $5-$7.50 Bauerle Road Garage at UTSA Campus\n\nUniversity Room 2.06.04 - Business Building, John Peace Library, 1 UTSA Circle, San Antonio, TX 78249\n\nZOOM link provided for remote attendees\n\nWe encourage everyone to attend in person. We will have door prizes and excellent food for all to enjoy, as you take advantage of this excellent networking opportunity!\nPlease feel free to pass this information on to your peers and team members.\nPlease reply **\u201cONSITE\u201d** if you plan on attending in person so we can finalize headcount for food and room attendance \n\n**Presentations will include:**\n***I. Presentation on API Lifecycle-Optiv***\nAPI lifecycle graphic review-provided baseline understanding of API journey-Optiv\n***II. Securing APIs in the Cloud: Insights and Best Practices- Palo Alto***\nThis presentation explores the current state of API security in the cloud, covering industry trends and common challenges organizations face. It delves into effective strategies for API discovery, risk profiling, and real-time protection, providing practical insights and best practices to enhance API security. The discussion will highlight key concerns such as inadequate authentication, lack of visibility, and poor endpoint management, aiming to equip attendees with the knowledge to better secure their API ecosystems.\n***III. API ThreatStats\u2122 Report Q1 2024 Spotlight: Why API Security Is The First Thing For Enterprise AI- Wallarm***\nThe Wallarm Research Team has analyzed billions of data points to identify the top API vulnerabilities and exploits for the 1st quarter of 2024, shining a spotlight on the rising threat of API attacks targeting AI applications. The report explores the top significant threats, identifies key trends, and provides actionable insights that can help you strengthen your API Security program, with an emphasis on identifying and protecting your AI applications from API security issues.\n***IV. Salesforce Pen-testing-Rodney***\nTopic 2-PaaS Cloud Goat is a simulated vulnerable Salesforce\nApplication providing hands-on experience with penetration testing of custom Salesforce applications. The tool is similar to other test tools like AWS CloudGoat, CloudFoxable, AzureGoat, GCPGoat, and Pen-Testing Cloud REST APIs in OpenStack. It is not, however, a tool for attacking [Salesforce.com](http://salesforce.com/) itself. It is novel because it focuses on custom applications deployed using the Salesforce platform and is the first tool to provide lab exercises with a collection of security tests. The main takeaways:\n1\\. Hands\\-on learning opportunity of security tests for a custom Salesforce application\n2\\. Detailed training documentation material about the underlying flaws to look for\n3\\. Single consolidated list of common Salesforce application vulnerabilities"
     },
     {
         "group": "Seattle",
