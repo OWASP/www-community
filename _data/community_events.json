@@ -60,16 +60,6 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
-        "group": "Bangalore",
-        "repo": "www-chapter-bangalore",
-        "name": "Null/OWASP Combined Monthly Meet on 20 July 2024",
-        "date": "2024-07-20",
-        "time": "09:30+05:30",
-        "link": "https://www.meetup.com/owasp-bangalore-chapter/events/301657456",
-        "timezone": "Asia/Kolkata",
-        "description": "null/owasp combined meets are free for anyone to attend. There are absolutely no fees. Just come with an open mind and willingness to share and learn.\n\n* Deepfakes Detection Techniques by **pretti Rajesh**\n* Block chain and Smart contracts by **Meera**\n* There's no honour among phishers: free phishing kits with hidden backdoors by **Anshuman**\n* Building your own threat intel sink by **Pavan Karthick M**\n\n### Session Schedule\n\n| Name | Speaker | Start Time | End Time | Resources |\n| ---- | ------- | ---------- | -------- | --------- |\n| **Welcome Note / Registrations** | 09:30 AM | 09:40 AM | |\n| [Deepfakes Detection Techniques](https://null.community/event_sessions/4336-deepfakes-detection-techniques) | [pretti Rajesh](https://null.community/profile/48106-pretti-rajesh) | 09:40 AM | 10:10 AM | |\n| **Introduction to beginners** | 10:10 AM | 10:25 AM | |\n| [Block chain and Smart contracts](https://null.community/event_sessions/4338-block-chain-and-smart-contracts) | [Place Holder](https://null.community/profile/2-place-holder) | 10:25 AM | 11:20 AM | |\n| **Networking Session + Break** | 11:20 AM | 11:45 AM | |\n| [There's no honour among phishers: free phishing kits with hidden backdoors](https://null.community/event_sessions/4340-there-s-no-honour-among-phishers-free-phishing-kits-with-hidden-backdoors) | [Place Holder](https://null.community/profile/2-place-holder) | 11:45 AM | 12:40 PM | |\n| [Building your own threat intel sink](https://null.community/event_sessions/4341-building-your-own-threat-intel-sink) | [Pavan Karthick M](https://null.community/profile/37062-pavan-karthick-m) | 12:40 PM | 01:35 PM | |\n| **Feedback + Next Month\u2019s Planning** | 01:35 PM | 01:55 PM |"
-    },
-    {
         "group": "Belem",
         "repo": "www-chapter-belem",
         "name": "Owasp Bel\u00e9m UEPA 2024",
@@ -78,6 +68,16 @@
         "link": "https://www.meetup.com/owasp-belem/events/301800873",
         "timezone": "America/Boa_Vista",
         "description": "No dia 03 de agosto, a **OWASP Bel\u00e9m** \u00e9 um dos cap\u00edtulos brasileiros entre os mais de 200 cap\u00edtulos ativos em todo o mundo. Nosso objetivo \u00e9 disseminar a miss\u00e3o da OWASP, tornando a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel, para que as pessoas e organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos de seguran\u00e7a das aplica\u00e7\u00f5es.\nAl\u00e9m disso, estamos empenhados em promover pr\u00e1ticas de computa\u00e7\u00e3o forense, ajudando a identificar, preservar, analisar e apresentar evid\u00eancias digitais de forma adequada. A computa\u00e7\u00e3o forense \u00e9 essencial para a investiga\u00e7\u00e3o de incidentes de seguran\u00e7a, permitindo que as organiza\u00e7\u00f5es compreendam as origens e impactos de ataques, al\u00e9m de refor\u00e7ar suas defesas contra futuras amea\u00e7as.\n\n**Data:** 03/08/2024\n\n* **Hor\u00e1rio:** 8h30m.\n* **Local:** UEPA\n* **Endere\u00e7o**: Tv. Dr. En\u00e9as Pinheiro, 2626 - Marco - UEPA\n* Inscri\u00e7\u00e3o: https://bit.ly/owaspuepa\n\nConfira a programa\u00e7\u00e3o:\n**08h30m:** Abertura\n**09h00:** Apresenta\u00e7\u00e3o OWASP\n**09h15 - 09h45:** Em breve.\n\n**10h - 10h45:** Em breve**.**\n\n**10h45 - 11h00:** Intervalo / Networking\n**11h15 - 11h45:** Em breve."
+    },
+    {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "OWASP Juice Shop \u2013 hands on pen testing!",
+        "date": "2024-08-06",
+        "time": "18:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/302342937",
+        "timezone": "Australia/Brisbane",
+        "description": "Hello hackers, security enthusiasts, and the like.\nFor this upcoming OWASP meetup we are going to do things a little different. Over the past few years, we have presented on numerous web /API vulnerabilities, this time we are going to exploit some of these weaknesses!!\nYes, that\u2019s right, less talking more hacking!\nAs we have a mixed group of attendees, including executives, students, developers, security experts and enthusiasts, and to stay on brand :D, let\u2019s focus on exploiting vulnerabilities present within Try Hack Me\u2019s OWASP Juice Shop.\nListed below are the things you will need to participate:\n\u00b7 Laptop (one that can be used for exploiting weaknesses (Try Hack Me\u2019s OWASP Juice Shop), perhaps not a corporate laptop :D)\n\u00b7 Internet (Mobile hotspot in case the venue\u2019s Wi-Fi cannot be used for any reason)\n\u00b7 Try Hack Me account (Can be a free version)\n\u00b7 Optional \u2013 Linux based VM + Try Hack Me VPN if you prefer to test from a local machine. Otherwise, you can spin up a cloud based Try Hack Me Linux based VM to conduct testing from.\nFor those that have already completed this room well done!! Feel free to attend and perhaps pick another room or HTB to focus on, attend for the vibes/social aspect \nFor those who have never performed pen testing of any kind, no stress, we can provide support/answer any questions that you may have. This is a judgement free zone, there are no dumb questions!!\nHope to see you all there\n\nVenue will be announced soon (Brisbane CBD)"
     },
     {
         "group": "Cairo",
@@ -168,6 +168,16 @@
         "link": "https://www.meetup.com/owasp-hamburg-stammtisch/events/302138351",
         "timezone": "Europe/Berlin",
         "description": "Moin in die Runde,\n\nwe'll have a series of short talks in German.\n\n# **Eckpunkte**\n\nLokation: An der Alster 64 , Hamburg\nDatum: 23.7.2024\nStart: Einlass ist ab 17:30 . Um 18:00 Uhr starten wir mit den Vortr\u00e4gen\nAnmeldung: kurz mit oder ohne Klarnamen \"Bescheid\" sagen\nThemen: s.u.\n\n# **Vortr\u00e4ge**\n\n* Bj\u00f6rn Kimminich + Jannik Hollenbach: **Brick your Juice Shop in 319 easy steps**\n*In this session, you will learn about a literal hands-on endeavor of OWASP Juice Shop for its 10th anniversary: The official branded LEGO case for your MultiJuicer cluster on 4 Raspberry PIs!*\n* Timo Pagel: **Relevante AppSec Metriken erfassen und analysieren**\n*Auf dem Weg zum ausgereiften Application Security Program ist die Erfassung von Aktivit\u00e4t-Metriken ein wichtiger, jedoch oft \u00fcbersehener Schritt. Dieser Kurzvortrag erl\u00e4utert die Kunst und Wissenschaft der Definition, Sammlung und Analyse von Aktivit\u00e4t-Metriken, um bedeutende Verbesserungen im AppSec-Programm voranzutreiben. Timo pr\u00e4sentiert Metriken anhand der Open-Source-Anwendung Metric Collector and Analyser (metricCA). Weiterhin erl\u00e4utert er kurz die Architektur von metricCA .*\n* Matthias Marx: **Hide and Seek - \u00fcber Biometrie-Ger\u00e4te des US-Milit\u00e4rs**\n*Das US-Milit\u00e4r hat massenhaft Ger\u00e4te zur biometrischen Erfassung von Menschen in Afghanistan genutzt, wovon einige beim hastigen Abzug der NATO-Truppen zur\u00fcckgelassen wurden und in die H\u00e4nde der Taliban gelangten. Medien berichteten dar\u00fcber, der Chaos Computer Club fing an zu recherchieren. Dieser konnte gleich mehrere Ger\u00e4te ersteigern. Eine Analyse f\u00f6rderte gro\u00dfe Mengen biometrischer und weiterer personenbezogener Daten zu Tage. In den falschen H\u00e4nden bedeutet dies Lebensgefahr f\u00fcr Menschen in Afghanistan und Irak. Matthias hat die CCC-Forschungsgruppe geleitet. Ein Ger\u00e4t bringt Matthias mit*.\n\nZu Gast sind wir wieder zentral bei Check24, am Anfang der Au\u00dfenalster (N\u00e4he Hotel Atlantic) In Fu\u00dfmarschentfernung vom Hauptbahnhof.\nAus planungstechnischen Gr\u00fcnden unseres Hosts (Verpflegung) sag mir bitte per Mail oder hier bei Meetup Bescheid, wenn du dazusto\u00dfen m\u00f6chtest.\n\n# **Generelles zum OWASP-Stammtisch**\n\nBei unseren offenen Treffen geht es um Software und deren Sicherheit im Internet und/oder IT-Security allgemein. Hier treffen sich Menschen, die sich beruflich oder privat mit IT-Sicherheit besch\u00e4ftigen: Entwickler, Manager, \u201ePentester\u201c und alle an (Web)sicherheit interessierte. Die Atmosph\u00e4re ist offen und locker. Uns geht's um den Erfahrungsaustausch, Technikschnack und um's Netzwerken. Wer Produkte oder Dienstleistungen verkaufen will, ist hier falsch. Ihr seid herzlich willkommen, euren Kollegen oder Bekannten einen Hinweis auf unsere Treffen weiterzuleiten. Alle Treffen sind frei, f\u00fcr jeden offen und kostenlos.\n\nSch\u00f6nen Gru\u00df, Dirk"
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2024-08-19",
+        "time": "18:45-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/300686443",
+        "timezone": "America/New_York",
+        "description": "OWASP topic TBA"
     },
     {
         "group": "Los Angeles",
@@ -298,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516374",
         "timezone": "America/Vancouver",
         "description": "TBD"
+    },
+    {
+        "group": "Yerevan",
+        "repo": "www-chapter-yerevan",
+        "name": "OWASP Yerevan July meetup - Davit Karapetyan; Artur Papyan",
+        "date": "2024-07-31",
+        "time": "19:00+04:00",
+        "link": "https://www.meetup.com/owasp-yerevan/events/302352402",
+        "timezone": "Asia/Yerevan",
+        "description": "OWASP Yerevan July meetup agenda:\n\n1. LETS NOT GET HACKED: some vulnerabilities and how to avoid them - Davit Karapetyan\n2. Details about the cameras draft law - Artur Papyan\n\nLocation: American University of Armenia\nRoom number 314W in Paramaz Avedisian building (PAB, second/new building)."
     },
     {
         "group": "Wrongsecrets",
