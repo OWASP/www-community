@@ -1,5 +1,15 @@
 [
     {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Hack-Proof Your Code:  Exploring Mobile App Weaknesses with OWASP MAS",
+        "date": "2024-08-22",
+        "time": "11:30-04:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/302022462",
+        "timezone": "America/New_York",
+        "description": "In this talk, we will take a hands-on look at some of the latest OWASP MAS developments, in particular the new MASWE (Mobile Application Security Weakness Enumeration). This talk will introduce the concepts of \"weaknesses\", \"atomic tests\" and \"demos\" that are the basis of the upcoming MASTG v2. Attendees will gain practical knowledge through detailed examples that show the journey from definition to implementation using both static and dynamic analysis techniques available in MASTG. In addition, discover the newly developed MAS test apps designed to streamline research and improve the development of robust MAS tests.\n\nDon't miss this opportunity to improve your mobile app security skills and make your apps hack-proof. Whether you're looking to bolster your defenses or learn how to uncover vulnerabilities, this session will provide you with the cutting-edge resources you need to stay ahead in mobile security!"
+    },
+    {
         "group": "Augsburg",
         "repo": "www-chapter-augsburg",
         "name": "4. OWASP Augsburg Stammtisch",
@@ -160,16 +170,6 @@
         "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #66! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\n\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\n\n**1\\. Talk:** **Security at Scale - Mastering Cloud Security in the Cyberwar Era**\n\n*Dominik Sowinski, Cybersecurity Architect & Cybersecurity Community Lead, Siemens*\n\nIn the midst of rapid cloud transformation, industrial organisations face an ever-evolving cyber threat landscape, exacerbated by global events such as the war in Ukraine. This presentation will address the latest APT activities and the significant risks they pose to cloud infrastructures and critical industrial operations. We will explore cutting-edge strategies, technical considerations and essential processes to rapidly adapt and secure cloud environments at scale against these relentless threats. The presentation will help you understand how to fortify cloud applications and infrastructure in this dynamic threat landscape.\n\n**2\\. Talk: Let's talk vulnerabilities**\n\n*Vinit K., Independent security research and threat hunting*\n\nA talk and live demo on cybersecurity threats involving terminal emulators and SSH. We will explore how URL handling in iTerm2 and Hyper can be abused for code execution, as well as delve into the recent CVE-2023-51385 vulnerability, which allows unexpected code execution via SSH ProxyCommand. The session will include interactive segments where the audience can contribute exploit ideas and deepen their understanding of these critical security issues.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**. For everyone who's interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n_When?\nOur Meetup takes place on 31.07.2024 from 18.00 to 21.30 o'clock CEST.\n\n_Where?\nCHECK24 Frankfurt is located at Speicherstra\u00dfe 55 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us here and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\n\nWe're looking forward to seeing you at our event!"
     },
     {
-        "group": "Germany",
-        "repo": "www-chapter-germany",
-        "name": "Drei^W VIER spannende Kurzvortr\u00e4ge ",
-        "date": "2024-07-23",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-hamburg-stammtisch/events/302138351",
-        "timezone": "Europe/Berlin",
-        "description": "Moin in die Runde,\n\nwe'll have a series of short talks in German.\n\n# **Eckpunkte**\n\nLokation: An der Alster 64 , Hamburg\nDatum: 23.7.2024\nStart: Einlass ist ab 17:30 . Um 18:00 Uhr starten wir mit den Vortr\u00e4gen\nAnmeldung: kurz mit oder ohne Klarnamen \"Bescheid\" sagen\nThemen: s.u.\n\n# **Vortr\u00e4ge**\n\n* Bj\u00f6rn Kimminich + Jannik Hollenbach: **Brick your Juice Shop in 319 easy steps**\n*In this session, you will learn about a literal hands-on endeavor of OWASP Juice Shop for its 10th anniversary: The official branded LEGO case for your MultiJuicer cluster on 4 Raspberry PIs!*\n* Timo Pagel: **Relevante AppSec Metriken erfassen und analysieren**\n*Auf dem Weg zum ausgereiften Application Security Program ist die Erfassung von Aktivit\u00e4t-Metriken ein wichtiger, jedoch oft \u00fcbersehener Schritt. Dieser Kurzvortrag erl\u00e4utert die Kunst und Wissenschaft der Definition, Sammlung und Analyse von Aktivit\u00e4t-Metriken, um bedeutende Verbesserungen im AppSec-Programm voranzutreiben. Timo pr\u00e4sentiert Metriken anhand der Open-Source-Anwendung Metric Collector and Analyser (metricCA). Weiterhin erl\u00e4utert er kurz die Architektur von metricCA .*\n* Tim Philipp Sch\u00e4fers: **Privacy & Security der Bezahlkarten f\u00fcr Gefl\u00fcchtete**\n*Bezahlkarte statt Bargeld - was kann da schon schiefgehen? Die Bezahlkarte f\u00fcr Gefl\u00fcchtete ist in bereits zahlreichen Gemeinden im Einsatz und soll zuk\u00fcnftig noch umfassender eingesetzt werden. Doch wie genau funktionieren die dahinterliegenden Systeme und wie steht es eigentlich um die Sicherheit und den Datenschutz bei diesen Bezahlsystemen? Im Rahmen einer Analyse hat Tim sich die drei weitverbreitesten L\u00f6sungen einmal n\u00e4her angeschaut und Funde verantwortungsvoll offengelegt. Er beschreibt konkrete Datenschutz- und IT-Sicherheitsm\u00e4ngel in Bezahlkarten-Apps und Webapplikationen f\u00fcr Gefl\u00fcchtete.*\n* Matthias Marx: **Hide and Seek - \u00fcber Biometrie-Ger\u00e4te des US-Milit\u00e4rs**\n*Das US-Milit\u00e4r hat massenhaft Ger\u00e4te zur biometrischen Erfassung von Menschen in Afghanistan genutzt, wovon einige beim hastigen Abzug der NATO-Truppen zur\u00fcckgelassen wurden und in die H\u00e4nde der Taliban gelangten. Medien berichteten dar\u00fcber, der Chaos Computer Club fing an zu recherchieren. Dieser konnte gleich mehrere Ger\u00e4te ersteigern. Eine Analyse f\u00f6rderte gro\u00dfe Mengen biometrischer und weiterer personenbezogener Daten zu Tage. In den falschen H\u00e4nden bedeutet dies Lebensgefahr f\u00fcr Menschen in Afghanistan und Irak. Matthias hat die CCC-Forschungsgruppe geleitet. Ein Ger\u00e4t bringt Matthias mit*.\n\nZu Gast sind wir wieder zentral bei Check24, am Anfang der Au\u00dfenalster (N\u00e4he Hotel Atlantic) In Fu\u00dfmarschentfernung vom Hauptbahnhof.\nAus planungstechnischen Gr\u00fcnden unseres Hosts (Verpflegung) sag mir bitte per Mail oder hier bei Meetup Bescheid, wenn du dazusto\u00dfen m\u00f6chtest.\n\n# **Generelles zum OWASP-Stammtisch**\n\nBei unseren offenen Treffen geht es um Software und deren Sicherheit im Internet und/oder IT-Security allgemein. Hier treffen sich Menschen, die sich beruflich oder privat mit IT-Sicherheit besch\u00e4ftigen: Entwickler, Manager, \u201ePentester\u201c und alle an (Web)sicherheit interessierte. Die Atmosph\u00e4re ist offen und locker. Uns geht's um den Erfahrungsaustausch, Technikschnack und um's Netzwerken. Wer Produkte oder Dienstleistungen verkaufen will, ist hier falsch. Ihr seid herzlich willkommen, euren Kollegen oder Bekannten einen Hinweis auf unsere Treffen weiterzuleiten. Alle Treffen sind frei, f\u00fcr jeden offen und kostenlos.\n\nSch\u00f6nen Gru\u00df, Dirk"
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -280,6 +280,16 @@
         "description": "Przed nami kolejne spotkanie naszej grupy. Mamy dla Was wyk\u0142ad Ma\u0107ka Kofela o bezpiecze\u0144stwie API a w drugiej cz\u0119\u015bci proponujemy dyskusj\u0119 o karierze w IT security.\n\n* **Bezpiecze\u0144stwo API (Maciej Kofel)**\nPodczas tworzenia i testowania API cz\u0119sto priorytetem s\u0105 wydajno\u015b\u0107 i funkcjonalno\u015b\u0107. Ale co z bezpiecze\u0144stwem? Czy wiesz, \u017ce hakerzy mog\u0105 wykorzysta\u0107 API do wyci\u0105gni\u0119cia cennych informacji z Twojej aplikacji lub uzyskania dost\u0119pu do Twojego serwera, co umo\u017cliwia im dalsze eksplorowanie zasob\u00f3w Twojej firmy? Na nadchodz\u0105cym spotkaniu OWASP zaprezentuj\u0119 takie przyk\u0142ady.\nW mojej prezentacji dowiesz si\u0119 o lukach z listy OWASP API Top10, kt\u00f3re mog\u0105 wyst\u0105pi\u0107 w API, poznasz narz\u0119dzia i techniki testowania bezpiecze\u0144stwa API oraz dowiesz si\u0119, gdzie szuka\u0107 pomocy lub rekomendacji dotycz\u0105cych \u0142atania tych luk.\nTa sesja b\u0119dzie pe\u0142na praktycznych przyk\u0142ad\u00f3w. Po tej prezentacji, ju\u017c nigdy nie spojrzysz na API w ten sam spos\u00f3b.\n*\n* **Kariera w bran\u017cy IT security (dyskusja)**\nW drugiej cz\u0119\u015bci naszego spotkania porozmawiamy o tym jak wej\u015b\u0107 do bran\u017cy IT security i jak planowa\u0107 swoj\u0105 karier\u0119. Zapraszamy zar\u00f3wno tych kt\u00f3rzy dopiero planuj\u0105 rozpocz\u0119cie pracy, tych kt\u00f3rzy maj\u0105 ju\u017c kilka lat do\u015bwiadczenia, jak i manager\u00f3w prowadz\u0105cych rekrutacj\u0119. Porozmawiamy o tym co dzia\u0142a a co nie, jaki jest obecny stan rynku pracy, jakie specjalno\u015bci s\u0105 dzisiaj a jakie b\u0119d\u0105 w przysz\u0142o\u015bci, na co warto zwraca\u0107 uwag\u0119 planuj\u0105c swoj\u0105 karier\u0119 w IT security."
     },
     {
+        "group": "Riyadh",
+        "repo": "www-chapter-riyadh",
+        "name": "Data management and data Governance",
+        "date": "2024-07-29",
+        "time": "21:00+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/302409760",
+        "timezone": "Asia/Riyadh",
+        "description": "**Topic Details**\nData management and data governance are two interrelated concepts that are crucial for organizations in today\u2019s data-driven world. Data management is the execution, putting the practices in place to handle data effectively. Data governance sets the direction, outlining the policies and procedures that guide data management activities. In this talk, we will explore in details how data management and data governance play an important role for any application."
+    },
+    {
         "group": "Salt Lake City",
         "repo": "www-chapter-salt-lake-city",
         "name": "OWASP-SLC/Wasatch AppSec - July - Off-grid-Meetup (Campout)",
@@ -318,6 +328,16 @@
         "link": "https://www.meetup.com/owasp-yerevan/events/302352402",
         "timezone": "Asia/Yerevan",
         "description": "OWASP Yerevan July meetup agenda:\n\n1. LETS NOT GET HACKED: some vulnerabilities and how to avoid them - Davit Karapetyan\n2. Details about the cameras draft law - Artur Papyan\n\nLocation: American University of Armenia\nRoom number 314W in Paramaz Avedisian building (PAB, second/new building)."
+    },
+    {
+        "group": "Security Integration System",
+        "repo": "www-project-security-integration-system",
+        "name": "Data management and data Governance",
+        "date": "2024-07-29",
+        "time": "21:00+03:00",
+        "link": "https://www.meetup.com/owasp-riyadh-meetup-group/events/302409760",
+        "timezone": "Asia/Riyadh",
+        "description": "**Topic Details**\nData management and data governance are two interrelated concepts that are crucial for organizations in today\u2019s data-driven world. Data management is the execution, putting the practices in place to handle data effectively. Data governance sets the direction, outlining the policies and procedures that guide data management activities. In this talk, we will explore in details how data management and data governance play an important role for any application."
     },
     {
         "group": "Wrongsecrets",
