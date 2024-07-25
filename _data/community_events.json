@@ -10,16 +10,6 @@
         "description": "In this talk, we will take a hands-on look at some of the latest OWASP MAS developments, in particular the new MASWE (Mobile Application Security Weakness Enumeration). This talk will introduce the concepts of \"weaknesses\", \"atomic tests\" and \"demos\" that are the basis of the upcoming MASTG v2. Attendees will gain practical knowledge through detailed examples that show the journey from definition to implementation using both static and dynamic analysis techniques available in MASTG. In addition, discover the newly developed MAS test apps designed to streamline research and improve the development of robust MAS tests.\n\nDon't miss this opportunity to improve your mobile app security skills and make your apps hack-proof. Whether you're looking to bolster your defenses or learn how to uncover vulnerabilities, this session will provide you with the cutting-edge resources you need to stay ahead in mobile security!"
     },
     {
-        "group": "Augsburg",
-        "repo": "www-chapter-augsburg",
-        "name": "4. OWASP Augsburg Stammtisch",
-        "date": "2024-07-24",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/302130564",
-        "timezone": "Europe/Berlin",
-        "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Agenda tbd**\nDu hast einen Vortrag? Melde dich! Wir sind immer auf der Suche nach interessanten Inhalten!!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "August 2024 OWASP Austin Security Professionals Happy Hour--sponsor Trellix",
@@ -120,16 +110,6 @@
         "description": "\u00danete a nosotros para una conversaci\u00f3n en modo conspiranoico, acerca de los riesgos y oportunidades que ofrecen nuestro sw y herramientas cotidianas.\n\nA priori, analizaremos los super-poderes del navegador CHROME, BRAVE, y otras funciones de tu notebook y smartphone.\n\nAprende y previene, para evitar posibles vulnerabilidades y malas pr\u00e1cticas que podr\u00edan comprometer tus proyectos."
     },
     {
-        "group": "Chile",
-        "repo": "www-chapter-chile",
-        "name": "NO USES owasp-TOP10",
-        "date": "2024-07-24",
-        "time": "20:00-04:00",
-        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/302302847",
-        "timezone": "America/Santiago",
-        "description": "**Evoluciona y mira, M\u00e1s All\u00e1 de OWASP Top 10.**\n\nEl panorama de la seguridad en desarrollo evoluciona constantemente. OWASP Top 10, considerado esencial, ya no es suficiente.\n\nEn este conversatorio, descubriremos por qu\u00e9 es momento de actualizar nuestras pr\u00e1cticas y exploraremos las mejores alternativas disponibles hoy.\n\u00danase a nosotros para un debate relevante y pr\u00e1ctico sobre el futuro del desarrollo seguro. No se lo pierda."
-    },
-    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "OWASP Cheat Sheet Series Bug Bash!",
@@ -190,16 +170,6 @@
         "description": "Join us for our 3rd mixer with participating cybersecurity communities in Southern California, enjoy beautiful weather, amazing sunset, great conversations, network with your peers, make new friends!\nYou **don't** have to be a member of any group to participate. Mark your calendars; see you there!!\n\n**VENDOR Opportunities Available**\n*Vendors interested in attending please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - JUL 24, 2024",
-        "date": "2024-07-24",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/299606717",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Breaking Through CVE Noise: Analyzing 5 Key Prioritization Inputs\nJoin us for great networking, dinner and drinks, and see a presentation by **Chelsea Boling**, a Customer Success Architect at **FOSSA**\n\n**ABSTRACT**: Thousands of new Common Vulnerabilities and Exposures (CVEs) are reported each year, which puts a massive burden on security teams to prioritize and address the most critical threats effectively. This is especially true since most vulnerabilities aren\u2019t actually exploitable in their real-world context, and wasting time on non-exploitable issues can get in the way of remediating the most impactful vulnerabilities.\nThis talk will explore strategies to mitigate CVE overload and streamline the vulnerability resolution process. In addition to exploring complexities around CVE noise \u2014 such as the difficulty in distinguishing between high-risk, low-risk, and no-risk vulnerabilities and the pressure to maintain business continuity while ensuring robust security \u2014 we\u2019ll analyze five specific vulnerability prioritization inputs:\n\n1. CVSS scores\n2. EPSS scores\n3. VEX\n4. The CISA KEV Catalog\n5. Reachability analysis\n\nAdditionally, the talk will cover the role of automation and tooling to prioritize vulnerabilities at scale as well as recommended workflows between IT, security teams, and business units to ensure comprehensive risk management.\n\n**Thanks to our SPONSOR**: *[FOSSA](https://fossa.com/)*\n*FOSSA is a leading application security and compliance platform that specializes in helping engineering teams deliver trusted software. FOSSA enables companies to prioritize real vulnerabilities in their open source dependencies with comprehensive SCA (software composition analysis) capabilities, while also making it possible for organizations to automate compliance reporting and SBOM (software bill of materials) lifecycle management to meet customer and regulatory requirements. Founded in 2015, FOSSA is trusted by thousands of global organizations, has been downloaded nearly two million times, and has conducted nearly 100 million open-source scans.*\n\n**Thanks to our HOST**: *[HiveWatch](https://www.hivewatch.com/)*\n*Intelligent, efficient, and scalable security*\n*HiveWatch is a cloud-based SaaS platform built for physical security teams to enhance their current security technologies. It streamlines incident response, allows for the consolidation of disparate programs and systems, and reduces false alarms.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
         "group": "Melbourne",
         "repo": "www-chapter-melbourne",
         "name": "OWASP Melbourne - July 2024 Meetup",
@@ -218,16 +188,6 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/300354016",
         "timezone": "America/Chicago",
         "description": "Join us in-person for an exciting day of hacking a cyber range! Thanks to the folks at Security Innovation, we'll host attackers of all skill levels and background to have some fun networking and learning about the mindset, skills and methodologies used in the seemingly growing number of breaches we hear about in the news."
-    },
-    {
-        "group": "Nashville",
-        "repo": "www-chapter-nashville",
-        "name": "Every app risk, everywhere, all at once",
-        "date": "2024-07-24",
-        "time": "17:00-05:00",
-        "link": "https://www.meetup.com/owasp-nashville-chapter/events/299885911",
-        "timezone": "America/Chicago",
-        "description": "Security tooling will identify application security risks and multiple tools will deluge security folks and application developers with signal \u2013 to the degree that no human or group of humans can hope to tackle these with anything approaching sanity. In this talk, we\u2019ll discuss a better way to operationalize reducing risk, some stories from the trenches and what both bad and good look like."
     },
     {
         "group": "Orange County",
