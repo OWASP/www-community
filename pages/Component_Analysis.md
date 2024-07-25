@@ -324,6 +324,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Patton] | OWASP | Open Source | Cross Platform |
 | [PHP Security Checker] | SensioLabs | Open Source | SaaS |
 | [Prisma Cloud] | Palo Alto Networks | Commercial | Cross Platform / SaaS |
+| [Protean Labs] | Protean Labs | Commercial / Freemium | SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
 | [SBOM Observer] | Bytesafe  | Commercial | SaaS |
@@ -374,6 +375,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Patton]: https://owasp.org/www-project-patton/
 [PHP Security Checker]: https://github.com/sensiolabs/security-checker
 [Prisma Cloud]: https://www.paloaltonetworks.com/prisma/cloud
+[Protean Labs]: https://protean-labs.io/
 [Renovate]: https://renovatebot.com/
 [Retire.js]: https://retirejs.github.io/retire.js/
 [SBOM Observer]: https://sbom.observer/
