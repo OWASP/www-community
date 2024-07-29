@@ -1,5 +1,15 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - August",
+        "date": "2024-08-27",
+        "time": "19:00+02:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299460613",
+        "timezone": "Europe/Copenhagen",
+        "description": "Join the August OWASP Aarhus meet with Cryptomathic!\n\nAgenda:\n\n19:00 \u2013 19:10 Welcome by Cryptomathic and OWASP Aarhus\n\n19:10 \u2013 20:00 Using fuzzing to detect program errors by Jan and Anna.Jan and Anna: Software engineers; working with C, C++, and Java on a daily basis while attempting to avoid introducing new critical bugs. We will talk about how fuzzing can be used to detect program errors unrelated to project requirements. The main focus will be fuzzing functions, with known source code, that receive input from untrusted sources.\n\n20:00 \u2013 20:30 Networking break\n\n20:30 \u2013 21:25 \"Secure SDLC with a DevOps Flavor!\" by Jim Manico\n\nJoin Jim Manico for an enlightening session on \"Secure SDLC with a DevOps Flavor!\" where he merges cutting-edge DevOps practices with robust security measures. In this talk, Jim will delve into automating security within the CI/CD pipeline to ensure continuous security integration, advocate for a shift-left approach to catch vulnerabilities early, and discuss implementing Security as Code to maintain consistent security configurations. He will also emphasize the importance of fostering a DevSecOps culture where security is a shared responsibility across all teams. Additionally, Jim will outline essential tools and technologies that enhance security in DevOps environments, and stress the significance of monitoring security metrics for continuous improvement. This session is a must-attend for professionals seeking to integrate effective security practices into their development cycles without sacrificing speed or efficiency."
+    },
+    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "Hack-Proof Your Code:  Exploring Mobile App Weaknesses with OWASP MAS",
@@ -8,6 +18,16 @@
         "link": "https://www.meetup.com/owasp-atlanta/events/302022462",
         "timezone": "America/New_York",
         "description": "In this talk, we will take a hands-on look at some of the latest OWASP MAS developments, in particular the new MASWE (Mobile Application Security Weakness Enumeration). This talk will introduce the concepts of \"weaknesses\", \"atomic tests\" and \"demos\" that are the basis of the upcoming MASTG v2. Attendees will gain practical knowledge through detailed examples that show the journey from definition to implementation using both static and dynamic analysis techniques available in MASTG. In addition, discover the newly developed MAS test apps designed to streamline research and improve the development of robust MAS tests.\n\nDon't miss this opportunity to improve your mobile app security skills and make your apps hack-proof. Whether you're looking to bolster your defenses or learn how to uncover vulnerabilities, this session will provide you with the cutting-edge resources you need to stay ahead in mobile security!"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - August 2024 (Online)",
+        "date": "2024-08-27",
+        "time": "11:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/298207020",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
     },
     {
         "group": "Austin",
@@ -78,6 +98,16 @@
         "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/302342937",
         "timezone": "Australia/Brisbane",
         "description": "Hello hackers, security enthusiasts, and the like.\nFor this upcoming OWASP meetup we are going to do things a little different. Over the past few years, we have presented on numerous web /API vulnerabilities, this time we are going to exploit some of these weaknesses!!\nYes, that\u2019s right, less talking more hacking!\nAs we have a mixed group of attendees, including executives, students, developers, security experts and enthusiasts, and to stay on brand :D, let\u2019s focus on exploiting vulnerabilities present within Try Hack Me\u2019s OWASP Juice Shop.\nListed below are the things you will need to participate:\n\u00b7 Laptop (one that can be used for exploiting weaknesses (Try Hack Me\u2019s OWASP Juice Shop), perhaps not a corporate laptop :D)\n\u00b7 Internet (Mobile hotspot in case the venue\u2019s Wi-Fi cannot be used for any reason)\n\u00b7 Try Hack Me account (Can be a free version)\n\u00b7 Optional \u2013 Linux based VM + Try Hack Me VPN if you prefer to test from a local machine. Otherwise, you can spin up a cloud based Try Hack Me Linux based VM to conduct testing from.\nFor those that have already completed this room well done!! Feel free to attend and perhaps pick another room or HTB to focus on, attend for the vibes/social aspect \nFor those who have never performed pen testing of any kind, no stress, we can provide support/answer any questions that you may have. This is a judgement free zone, there are no dumb questions!!\nHope to see you all there\n\nVenue will be announced soon (Brisbane CBD)"
+    },
+    {
+        "group": "Chile",
+        "repo": "www-chapter-chile",
+        "name": "Pap\u00e1, tengo un romance con la IA",
+        "date": "2024-08-27",
+        "time": "20:00-04:00",
+        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/302317399",
+        "timezone": "America/Santiago",
+        "description": "En esta era de revoluci\u00f3n tecnol\u00f3gica, las interacciones entre humanos e inteligencias artificiales est\u00e1n alcanzando niveles de complejidad sin precedentes.\n\nEste podcast abordar\u00e1 un fen\u00f3meno emergente:\n\n* Individualismo y soledad en el mundo real.\n* El desarrollo de v\u00ednculos emocionales profundos con entidades de IA.\n* Implicaciones \u00c9ticas y Psicol\u00f3gicas en ni\u00f1os, ni\u00f1as y adolescentes."
     },
     {
         "group": "Chile",
@@ -198,6 +228,16 @@
         "link": "https://www.meetup.com/owasp-poland/events/302269188",
         "timezone": "Europe/Warsaw",
         "description": "Przed nami kolejne spotkanie naszej grupy. Mamy dla Was wyk\u0142ad Ma\u0107ka Kofela o bezpiecze\u0144stwie API a w drugiej cz\u0119\u015bci proponujemy dyskusj\u0119 o karierze w IT security.\n\n* **Bezpiecze\u0144stwo API (Maciej Kofel)**\nPodczas tworzenia i testowania API cz\u0119sto priorytetem s\u0105 wydajno\u015b\u0107 i funkcjonalno\u015b\u0107. Ale co z bezpiecze\u0144stwem? Czy wiesz, \u017ce hakerzy mog\u0105 wykorzysta\u0107 API do wyci\u0105gni\u0119cia cennych informacji z Twojej aplikacji lub uzyskania dost\u0119pu do Twojego serwera, co umo\u017cliwia im dalsze eksplorowanie zasob\u00f3w Twojej firmy? Na nadchodz\u0105cym spotkaniu OWASP zaprezentuj\u0119 takie przyk\u0142ady.\nW mojej prezentacji dowiesz si\u0119 o lukach z listy OWASP API Top10, kt\u00f3re mog\u0105 wyst\u0105pi\u0107 w API, poznasz narz\u0119dzia i techniki testowania bezpiecze\u0144stwa API oraz dowiesz si\u0119, gdzie szuka\u0107 pomocy lub rekomendacji dotycz\u0105cych \u0142atania tych luk.\nTa sesja b\u0119dzie pe\u0142na praktycznych przyk\u0142ad\u00f3w. Po tej prezentacji, ju\u017c nigdy nie spojrzysz na API w ten sam spos\u00f3b.\n*\n* **Kariera w bran\u017cy IT security (dyskusja)**\nW drugiej cz\u0119\u015bci naszego spotkania porozmawiamy o tym jak wej\u015b\u0107 do bran\u017cy IT security i jak planowa\u0107 swoj\u0105 karier\u0119. Zapraszamy zar\u00f3wno tych kt\u00f3rzy dopiero planuj\u0105 rozpocz\u0119cie pracy, tych kt\u00f3rzy maj\u0105 ju\u017c kilka lat do\u015bwiadczenia, jak i manager\u00f3w prowadz\u0105cych rekrutacj\u0119. Porozmawiamy o tym co dzia\u0142a a co nie, jaki jest obecny stan rynku pracy, jakie specjalno\u015bci s\u0105 dzisiaj a jakie b\u0119d\u0105 w przysz\u0142o\u015bci, na co warto zwraca\u0107 uwag\u0119 planuj\u0105c swoj\u0105 karier\u0119 w IT security."
+    },
+    {
+        "group": "Portland",
+        "repo": "www-chapter-portland",
+        "name": "OWASP Open Forum",
+        "date": "2024-08-15",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-portland-chapter/events/302500810",
+        "timezone": "America/Los_Angeles",
+        "description": "Join us for a new event this month: the OWASP Open Forum. This open discussion format allows you to bring your own questions and experiences in information security to the table. Whether you're solving problems, sharing success stories, or looking for advice, this is the perfect opportunity to engage with a diverse audience, including several long-time OWASP members and other attendees. This forum offers a chance to network, gain insights, and connect with peers who may have similar questions or perspectives. Let's learn from each other and strengthen our community together.\n\nDoors open at 5:30. The forum will run from roughly 6 to 7. We'll need to be out of the space by 7:30.\n\nWe thank NedSpace for hosting us again this month. NedSpace is a co-working space with 15,000 of 11th-floor views, in the heart of downtown Portland, 2 blocks away from Pioneer Square."
     },
     {
         "group": "Porto Alegre",
