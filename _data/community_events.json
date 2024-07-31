@@ -70,16 +70,6 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - July 2024 (Online)",
-        "date": "2024-07-30",
-        "time": "11:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/298207014",
-        "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation! Presentation begins at 12 CDT!\n\nPresentation: **Cyber Resilience - Findings from the 2024 Futures Report**\n\nWe are poised on the precipice of a new era of computing underpinned by new networks, new apps, and a digital-first experience.\nHear the latest findings from AT&T Cybersecurity research and learn about:\n\\- What high\\-priority edge computing use cases are across seven industry markets\n\\- How to secure and work with the edge ecosystem\n\\- How the attack surface is changing\n\\- How endpoints are diversifying\nThe data from this research helps audiences understand challenges and opportunities of the future and examines:\n\\- Balanced investment strategies\n\\- Collaboration and communication needs\n\\- Building with dynamic cyber resilience in mind\nSecurity is now a critical part of business - learn how to move your team to the future!"
-    },
-    {
         "group": "Belem",
         "repo": "www-chapter-belem",
         "name": "Owasp Bel\u00e9m UEPA 2024",
@@ -210,6 +200,16 @@
         "description": "This is an In-Person OWASP Orlando Chapter Meeting\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **TBD**\nTopic: TBD\n\nSpeaker 2: **TBD**\nTopic: TBD"
     },
     {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Monthly Networking Social",
+        "date": "2024-08-29",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-peterborough/events/302438652",
+        "timezone": "Europe/London",
+        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
         "group": "Phoenix",
         "repo": "www-chapter-phoenix",
         "name": "August 2024 Meeting",
@@ -218,16 +218,6 @@
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/302320210",
         "timezone": "America/Phoenix",
         "description": "**Introduction to DevSecOps with GitHub Actions** (45 min)\nGitHub Actions are a powerful way to automate your development pipelines. This talk will give you a foundational understanding of GitHub Actions with enough knowledge to start integrating security scans. We will start with the fundamentals of GitHub Actions and put those into practice with a Hello World test. Then we will look at how to create a dashboard that displays the current state of your repository. Finally, we will resolve one of the failing dashboard metrics by implementing an automated scan. This is intended to be a hands-on talk. Bring your laptop and set up a GitHub account before the meeting begins."
-    },
-    {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "OWASP Meeting in Krakow - Bezpiecze\u0144stwo API + Kariera w bran\u017cy IT security?",
-        "date": "2024-07-30",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-poland/events/302269188",
-        "timezone": "Europe/Warsaw",
-        "description": "Przed nami kolejne spotkanie naszej grupy. Mamy dla Was wyk\u0142ad Ma\u0107ka Kofela o bezpiecze\u0144stwie API a w drugiej cz\u0119\u015bci proponujemy dyskusj\u0119 o karierze w IT security.\n\n* **Bezpiecze\u0144stwo API (Maciej Kofel)**\nPodczas tworzenia i testowania API cz\u0119sto priorytetem s\u0105 wydajno\u015b\u0107 i funkcjonalno\u015b\u0107. Ale co z bezpiecze\u0144stwem? Czy wiesz, \u017ce hakerzy mog\u0105 wykorzysta\u0107 API do wyci\u0105gni\u0119cia cennych informacji z Twojej aplikacji lub uzyskania dost\u0119pu do Twojego serwera, co umo\u017cliwia im dalsze eksplorowanie zasob\u00f3w Twojej firmy? Na nadchodz\u0105cym spotkaniu OWASP zaprezentuj\u0119 takie przyk\u0142ady.\nW mojej prezentacji dowiesz si\u0119 o lukach z listy OWASP API Top10, kt\u00f3re mog\u0105 wyst\u0105pi\u0107 w API, poznasz narz\u0119dzia i techniki testowania bezpiecze\u0144stwa API oraz dowiesz si\u0119, gdzie szuka\u0107 pomocy lub rekomendacji dotycz\u0105cych \u0142atania tych luk.\nTa sesja b\u0119dzie pe\u0142na praktycznych przyk\u0142ad\u00f3w. Po tej prezentacji, ju\u017c nigdy nie spojrzysz na API w ten sam spos\u00f3b.\n*\n* **Kariera w bran\u017cy IT security (dyskusja)**\nW drugiej cz\u0119\u015bci naszego spotkania porozmawiamy o tym jak wej\u015b\u0107 do bran\u017cy IT security i jak planowa\u0107 swoj\u0105 karier\u0119. Zapraszamy zar\u00f3wno tych kt\u00f3rzy dopiero planuj\u0105 rozpocz\u0119cie pracy, tych kt\u00f3rzy maj\u0105 ju\u017c kilka lat do\u015bwiadczenia, jak i manager\u00f3w prowadz\u0105cych rekrutacj\u0119. Porozmawiamy o tym co dzia\u0142a a co nie, jaki jest obecny stan rynku pracy, jakie specjalno\u015bci s\u0105 dzisiaj a jakie b\u0119d\u0105 w przysz\u0142o\u015bci, na co warto zwraca\u0107 uwag\u0119 planuj\u0105c swoj\u0105 karier\u0119 w IT security."
     },
     {
         "group": "Portland",
