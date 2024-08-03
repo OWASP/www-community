@@ -1943,5 +1943,14 @@
       "platforms": "IntelliJ, VSCode",
       "note": "The product falls under the SCA tool category and enables developers to scan third-party dependencies within their favourite IDEs i.e. IntelliJ and VSCode.",
       "type": "SAST"
+   },
+    {
+      "title": "OWASP IDE VulScanner",
+      "url": "https://owasp.org/www-project-ide-vulscanner/",
+      "owner": "DestinJiDee LTD",
+      "license": "Free",
+      "platforms": "IntelliJ, VSCode",
+      "note": "The product falls under the SCA tool category and enables developers to scan third-party dependencies within their favourite IDEs i.e. IntelliJ and VSCode.",
+      "type": "DAST"
    }
 ]
