@@ -70,6 +70,16 @@
         "description": "Since 4/25/24: discussions on AI and LLM's generally and the Coursera Prompt Engineering series from Vanderbilt specifically. We are now studying ChatGPT Advanced Data Analysis....\n\nFor General Study Group info, see #studygroup in OWASPAustin Slack\nFor topic specific info, see #ai in the OWASPAustin Slack"
     },
     {
+        "group": "Bogota",
+        "repo": "www-chapter-bogota",
+        "name": "Introducci\u00f3n al hacking en Azure",
+        "date": "2024-08-16",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-bogota-meetup-group/events/302668013",
+        "timezone": "America/Bogota",
+        "description": "\u00a1\u00danete al cap\u00edtulo de Bogot\u00e1 de OWASP para una emocionante sesi\u00f3n sobre ciberseguridad en aplicaciones web!\n\nEn este evento, Gerardo Eliasib nos explicar\u00e1 lo necesario para empezar en el mundo de hacking en infraestructuras y servicios en la nube, en esta ocaci\u00f3n en Azure.\n\nPor politica del edificio donde se realizar\u00e1 el evento se requiere que se env\u00ede previamente el n\u00famero de la c\u00e9dula del asistente, por favor remitir esta informaci\u00f3n a los correos :\n\nluis.hernandez@owasp.org\ngiovanni_cruz.forero@owasp.org\n\nVen a participar en discusiones enriquecedoras, compartir tus experiencias y ampliar tus conocimientos en un ambiente colaborativo con otros entusiastas de la seguridad de la informaci\u00f3n. No te pierdas esta oportunidad de mejorar tus habilidades en seguridad web y aprender de las mejores pr\u00e1cticas del sector. Asegura tu lugar en este evento y prep\u00e1rate para sumergirte en el apasionante mundo de la ciberseguridad en aplicaciones web. \u00a1Te esperamos!"
+    },
+    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter Meeting - August 2024",
@@ -78,16 +88,6 @@
         "link": "https://www.meetup.com/owaspboston/events/302570037",
         "timezone": "America/New_York",
         "description": "This month we will be welcoming Dick Brooks, co-founder and lead software engineer at Business Cyber Guardian.\n\nDick will describe and demonstrate the CISA RSAA portal that is used by the US Federal Government to collect secure software attestations, SBOM's and other relevant artifacts that government SCRM teams will use during software risk assessments, now required under Executive Order 14028 and OMB M-22-18.\n\nDick Brooks is a contributor to the CISA ICT_SCRM Task Force responsible for developing the CISA Secure Software Acquisition Buyers Guide this is used by both software producers and federal procurement teams working to approve software products as \"Secure by Design\". Dick also serves on the CISA Sector Risk Management Agency (SRMA) Coordinating Councils for the Critical Manufacturing (CMSCC) and Healthcare (HSCC) Sectors as a C-SCRM subject matter expert."
-    },
-    {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "OWASP Juice Shop \u2013 hands on pen testing!",
-        "date": "2024-08-06",
-        "time": "18:00+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/302342937",
-        "timezone": "Australia/Brisbane",
-        "description": "Hello hackers, security enthusiasts, and the like.\nFor this upcoming OWASP meetup we are going to do things a little different. Over the past few years, we have presented on numerous web /API vulnerabilities, this time we are going to exploit some of these weaknesses!!\nYes, that\u2019s right, less talking more hacking!\nAs we have a mixed group of attendees, including executives, students, developers, security experts and enthusiasts, and to stay on brand :D, let\u2019s focus on exploiting vulnerabilities present within Try Hack Me\u2019s OWASP Juice Shop.\nListed below are the things you will need to participate:\n\u00b7 Laptop (one that can be used for exploiting weaknesses (Try Hack Me\u2019s OWASP Juice Shop), perhaps not a corporate laptop :D)\n\u00b7 Internet (Mobile hotspot in case the venue\u2019s Wi-Fi cannot be used for any reason)\n\u00b7 Try Hack Me account (Can be a free version)\n\u00b7 Optional \u2013 Linux based VM + Try Hack Me VPN if you prefer to test from a local machine. Otherwise, you can spin up a cloud based Try Hack Me Linux based VM to conduct testing from.\nFor those that have already completed this room well done!! Feel free to attend and perhaps pick another room or HTB to focus on, attend for the vibes/social aspect \nFor those who have never performed pen testing of any kind, no stress, we can provide support/answer any questions that you may have. This is a judgement free zone, there are no dumb questions!!\nHope to see you all there\n\nVenue will be announced soon (Brisbane CBD)"
     },
     {
         "group": "Chile",
@@ -220,6 +220,16 @@
         "description": "Join us in-person for an exciting day of hacking a cyber range! Thanks to the folks at Security Innovation, we'll host attackers of all skill levels and background to have some fun networking and learning about the mindset, skills and methodologies used in the seemingly growing number of breaches we hear about in the news."
     },
     {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP New Zealand Day - 2024",
+        "date": "2024-09-05",
+        "time": "08:00+12:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/300323362",
+        "timezone": "Pacific/Auckland",
+        "description": "We are proud to present the 14th OWASP New Zealand Day conference, to be held at the Auckland University of Technology (AUT) City Campus on Thursday and Friday, September 5th and 6th, 2024. OWASP New Zealand Day is a two-day conference dedicated to web and application security, with an emphasis on secure architecture and development techniques to help Kiwi developers build more secure applications. The conference is presented by the [OWASP New Zealand Chapter](https://owasp.org/www-chapter-new-zealand/) and organised by [AppSec New Zealand Incorporated](https://appsec.org.nz/).\n\nThere will be two presentation streams throughout the conference. The first stream will include introductory talks on application and information security topics, as well as on policy, compliance, and risk management. The second stream will primarily address deeper technical topics. Talks featuring OWASP projects and tools are particularly encouraged, as are talks by members of under-represented communities.\n\nIn addition to these principal streams, there will be a third, smaller \u201cstream,\u201d supporting sponsor presentations, demos of OWASP tools, and interest/user group meetings. Diamond, Platinum, and Gold Sponsors will be given priority for time slots in this \u201cstream.\u201d Further details will be published closer to the date, regarding opportunities for other groups to present.\n\nWho is the Conference for?\n\n* Web Developers\n* Security Professionals and Enthusiasts\n* Program and Project Managers\n* Business Analysts\n* Requirements Analysts\n* Software Testers\n\n## Conference Live Stream\n\nAll three streams of the conference (Track 1, Track 2, and the Sponsor Demos) will be live streamed on the day. Access information for the conference live-stream will be provided to registered delegates, as details are finalised.\n\n## Conference Structure\n\n**Date:** Thursday and Friday, 5-6 September 2024\n**Time:** 9:15 a.m. - 5:00 p.m., Thursday; 10:00 a.m. - 5:00 p.m., Friday\nThe main conference on Thursday and Friday will have two streams throughout both days:\n**Stream One:**\n\n* Introductory Topics\n* Program Management, Policy, Compliance, Risk Management\n\n**Stream Two:**\n\n* Technical Topics\n\nThroughout the conference, an exhibition area will be open in the main atrium. Representatives from many of our Premier Sponsors will be on hand throughout the event, to answer your questions about their products and services, or to discuss employment opportunities they may have available. There will be door prize drawings at the Closing Session on Friday. To qualify for the drawings, you will need to visit with each exhibiting sponsor during the conference, and have them stamp your entry card.\n\n## Registration\n\nRegistration is now open on Humanitix: [https://events.humanitix.com/owaspnz2024](https://events.humanitix.com/owaspnz2024)\n\nEarly registration (on or before 15 August):\n\n* $30, standard registration\n* **FREE**, for students and unwaged attendees\n* From 16 August, a late registration surcharge applies to all registrations ($20 Regular, $15 Student/Unwaged)"
+    },
+    {
         "group": "Orlando",
         "repo": "www-chapter-orlando",
         "name": "OWASP Orlando - Application Security",
@@ -248,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/302438652",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Phoenix",
-        "repo": "www-chapter-phoenix",
-        "name": "August 2024 Meeting",
-        "date": "2024-08-06",
-        "time": "20:30-07:00",
-        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/302320210",
-        "timezone": "America/Phoenix",
-        "description": "**Introduction to DevSecOps with GitHub Actions** (45 min)\nGitHub Actions are a powerful way to automate your development pipelines. This talk will give you a foundational understanding of GitHub Actions with enough knowledge to start integrating security scans. We will start with the fundamentals of GitHub Actions and put those into practice with a Hello World test. Then we will look at how to create a dashboard that displays the current state of your repository. Finally, we will resolve one of the failing dashboard metrics by implementing an automated scan. This is intended to be a hands-on talk. Bring your laptop and set up a GitHub account before the meeting begins."
     },
     {
         "group": "Portland",
