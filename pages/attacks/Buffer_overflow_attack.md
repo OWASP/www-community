@@ -64,10 +64,10 @@ Usage example:
 
 ```console
 user@spin ~/inzynieria $ ./bo-simple // program start
-1234 // we eneter "1234" string from the keyboard
+1234 // we enter "1234" string from the keyboard
 1234 // program prints out the conent of the buffer
 user@spin ~/inzynieria $ ./bo-simple // start
-123456789012 // we eneter "123456789012"
+123456789012 // we enter "123456789012"
 123456789012 // content of the buffer "buf" ?!?!
 Segmentation fault // information about memory segmenatation fault
 ```
