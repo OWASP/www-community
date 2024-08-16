@@ -22,22 +22,22 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "September 2024 OWASP Austin Security Professionals Happy Hour--sponsor Checkmarx",
+        "date": "2024-09-12",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/302000326",
+        "timezone": "America/Chicago",
+        "description": "**When:** Thursday, September 12th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Checkmarx](https://checkmarx.com)\n*Checkmarx is constantly pushing the boundaries of Application Security Testing to make security seamless and simple for the world\u2019s developers and security teams. As the AppSec testing leader, we deliver the unparalleled accuracy, coverage, visibility, and guidance our customers need to build tomorrow\u2019s software securely and at speed.*"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - August 2024 (Online)",
         "date": "2024-08-27",
         "time": "11:30-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/298207020",
         "timezone": "America/Chicago",
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nIf you would like to attend in-person, please pull a ticket from Eventbrite, but please only pull a ticket from Eventbrite if you are attending as we purchase lunch for all in-person tickets pulled and we don't want to waste money and food.\n\\- Group1 [https://www.eventbrite.com/e/980779516937](https://www.eventbrite.com/e/980779516937)\nor\n\\- Group2 [https://www.eventbrite.com/e/980854350767](https://www.eventbrite.com/e/980854350767)\n\n*Presentation: **How to protect WordPress or other CMS websites***\n\nIn this presentation, we will walk through different types of real anonymized attacked WordPress and other CMS frameworks in how those sites were attacked and how the sites were then protected from future attacks.\nEveryone attending should leave the presentation able to:\n\\- Understand how these sites are attacked\n\\- Protects that may have already been in place that didn't work\n\\- What measures were then put in place that worked"
-    },
-    {
-        "group": "Bhopal",
-        "repo": "www-chapter-bhopal",
-        "name": "RAG - A Walkthrough For Beginners | Ft. Vinayak Gavariya",
-        "date": "2024-08-15",
-        "time": "20:00+05:30",
-        "link": "https://www.meetup.com/owasp-bhopal-chapter/events/302832170",
-        "timezone": "Asia/Kolkata",
-        "description": "\u200bUnlock the Power of Gen AI with RAG \n\u200bJoin ML Bhopal for a virtual workshop on August 15th, 8 PM IST and discover how Retrieval-Augmented Generation (RAG) can supercharge your text using Gen AI. Learn from Vinayak Gavariya, MLE Intern at Venhan, as he dives into:\n\u200b Harnessing Gen AI for richer, more relevant content\n\u200b Applying RAG in NLP tasks with Gen AI\n\u200b Step-by-Step Guidance to get started with RAG, even if you're a beginner\n\u200b Don't miss this chance to elevate your text generation with Gen AI!\n\u200b Exclusive: Stand a chance to win exciting goodies and perks! \n\u200bRegister now! "
     },
     {
         "group": "Bogota",
@@ -47,7 +47,7 @@
         "time": "18:00-05:00",
         "link": "https://www.meetup.com/owasp-bogota-meetup-group/events/302668013",
         "timezone": "America/Bogota",
-        "description": "\u00a1\u00danete al cap\u00edtulo de Bogot\u00e1 de OWASP para una emocionante sesi\u00f3n sobre ciberseguridad en aplicaciones web!\n\nEn este evento, Gerardo Eliasib nos explicar\u00e1 lo necesario para empezar en el mundo de hacking en infraestructuras y servicios en la nube, en esta ocaci\u00f3n en Azure.\n\nPor politica del edificio donde se realizar\u00e1 el evento se requiere que se env\u00ede previamente el n\u00famero de la c\u00e9dula del asistente, por favor remitir esta informaci\u00f3n a los correos :\n\nluis.hernandez@owasp.org\ngiovanni_cruz.forero@owasp.org\n\nVen a participar en discusiones enriquecedoras, compartir tus experiencias y ampliar tus conocimientos en un ambiente colaborativo con otros entusiastas de la seguridad de la informaci\u00f3n. No te pierdas esta oportunidad de mejorar tus habilidades en seguridad web y aprender de las mejores pr\u00e1cticas del sector. Asegura tu lugar en este evento y prep\u00e1rate para sumergirte en el apasionante mundo de la ciberseguridad en aplicaciones web. \u00a1Te esperamos!"
+        "description": "\u00a1\u00danete al cap\u00edtulo de Bogot\u00e1 de OWASP para una emocionante sesi\u00f3n sobre ciberseguridad en aplicaciones web!\n\nEn este evento, Gerardo Eliasib nos explicar\u00e1 lo necesario para empezar en el mundo de hacking en infraestructuras y servicios en la nube, en esta ocaci\u00f3n en Azure.\n\nPor politica del edificio donde se realizar\u00e1 el evento se requiere que se env\u00ede previamente el n\u00famero de la c\u00e9dula del asistente, por favor remitir esta informaci\u00f3n a los correos :\n\nluis.hernandez@owasp.org\ngiovanni_cruz.forero@owasp.org\n\nAdicional, por favor tener un Kali previamente instalado en su virtualizador de preferencia.\n\nVen a participar en discusiones enriquecedoras, compartir tus experiencias y ampliar tus conocimientos en un ambiente colaborativo con otros entusiastas de la seguridad de la informaci\u00f3n. No te pierdas esta oportunidad de mejorar tus habilidades en seguridad web y aprender de las mejores pr\u00e1cticas del sector. Asegura tu lugar en este evento y prep\u00e1rate para sumergirte en el apasionante mundo de la ciberseguridad en aplicaciones web. \u00a1Te esperamos!"
     },
     {
         "group": "Chile",
@@ -168,26 +168,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/302438652",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Portland",
-        "repo": "www-chapter-portland",
-        "name": "OWASP Open Forum",
-        "date": "2024-08-15",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-portland-chapter/events/302500810",
-        "timezone": "America/Los_Angeles",
-        "description": "Join us for a new event this month: the OWASP Open Forum. This open discussion format allows you to bring your own questions and experiences in information security to the table. Whether you're solving problems, sharing success stories, or looking for advice, this is the perfect opportunity to engage with a diverse audience, including several long-time OWASP members and other attendees. This forum offers a chance to network, gain insights, and connect with peers who may have similar questions or perspectives. Let's learn from each other and strengthen our community together.\n\nDoors open at 5:30. The forum will run from roughly 6 to 7. We'll need to be out of the space by 7:30.\n\nWe thank NedSpace for hosting us again this month. NedSpace is a co-working space with 15,000 of 11th-floor views, in the heart of downtown Portland, 2 blocks away from Pioneer Square."
-    },
-    {
-        "group": "Porto Alegre",
-        "repo": "www-chapter-porto-alegre",
-        "name": "OWASP Chapter POA - Encontro #16 [PRESENCIAL]",
-        "date": "2024-08-15",
-        "time": "18:30-03:00",
-        "link": "https://www.meetup.com/owasp-porto-alegre-chapter/events/302429958",
-        "timezone": "America/Sao_Paulo",
-        "description": "Em agosto voltaremos com nossos encontros PRESENCIAIS, com apoio da **AZION** cedendo o espa\u00e7o para nossa a comunidade, teremos um encontro presencial na sede da empresa.\n\n* VAGAS **LIMITADAS**, por favor s\u00f3 confirme se voc\u00ea ter a certeza de sua participa\u00e7\u00e3o\n* Brindes especiais de empresas que apoiam a comunidade da OWASP POA: **AXUR**, **AZION**, **KINGHOST** e **LOCAWEB**\n* Emiss\u00e3o de certificado de participa\u00e7\u00e3o\n\n**Confira nossa agenda:**\n 18:30 - Credenciamento e wellcome coffee\n\n 19:00 - \"Hackers a favor: Como Programas de Bug Bounty Protegem Empresas\u201d - Yuri Ishi Mello\n[https://www.linkedin.com/in/yuriishi/](https://www.linkedin.com/in/yuriishi/)\n\n 19:45 - \"Seguran\u00e7a digital no contexto da Ind\u00fastria 4.0\u201d - Marcos Rodrigues de Carvalho\n[https://www.linkedin.com/in/marcos-rodrigues-de-carvalho-8ab2381b7/](https://www.linkedin.com/in/marcos-rodrigues-de-carvalho-8ab2381b7/)\n\nPara este encontro iremos emitir certificado de participa\u00e7\u00e3o, esperamos voc\u00eas na Pra\u00e7a Dr. Maur\u00edcio Cardoso, 71 - 4\u00ba andar - Porto Alegre - RS."
     },
     {
         "group": "Seattle",
