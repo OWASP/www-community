@@ -100,6 +100,16 @@
         "description": "Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\u2022 Tool dan standar keamanan aplikasi\n\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n\u2022 Kendali keamanan dan pustaka standar\n\u2022 Cabang lokal di seluruh dunia\n\u2022 Riset terkini\n\u2022 Konferensi lengkap di seluruh dunia\n\u2022 Mailing list\n\u2022 Dan banyak lagi \u2026 di www.owasp.org\n\nKali ini di OWASP Jakarta akan membahas :\n1. Emerging Threats for the Mobile Application\n\nAbstract:\nVulnerability and Threats in the Era of Mobile Applications\n\nMobile app security involves safeguarding applications on mobile devices, such as smartphones and tablets, from a variety of security threats. As mobile apps become increasingly vital to both personal and business activities, ensuring their security is essential to protect sensitive data, maintain user privacy, and build trust. With the rapid growth of mobile usage, attackers are constantly finding new ways to exploit vulnerabilities in mobile applications.\nIn this session, we will delve into some of the most common and emerging methods used to attack mobile applications, including:\n\u2022 Repackaging apps: Modifying legitimate apps to include malicious code and redistributing them.\n\u2022 Hooking frameworks: Using tools to intercept and manipulate app behavior for malicious purposes.\n\u2022 Mobile bots: Leveraging automated scripts to perform various malicious activities such as credential stuffing and spamming.\n\u2022 Man-in-the-Middle (MitM) attacks: Intercepting communication between the app and the server to steal data or inject malicious content.\nBy understanding these threats and learning about best practices for mobile app security, you can better protect your applications and users from potential attacks.\nJoin us for this interactive session to gain valuable insights and practical knowledge on securing mobile apps effectively!\n\nSpeaker : Shahnawaz Backer / Senior Solutions Architect, Asia Pacific, China and Japan\n\nShort Bio :\nShahn Backer is an ever inquisitive cyber security professional, who is intrigued by modern applications and its challenges. He has a keen interest in modern application security, digital identity, multi-cloud security and edge compute. He is currently a Senior Solutions Architects and focusses on application agility and security .\n\nHe frequently writes on IT security at f5labs.com and has co-authored a Redbook on access management deployment patterns. His works pivots on boosting security with visibility, intelligence, and automation. Shahn has designed identity systems for major financial institutions and government bodies and has released a gamified learning platform for Application Programming Interfaces security.\n\nLinkedin : https://www.linkedin.com/in/backers\n\nTopic:\nsupported by appsec.co.id also f5 networks indonesia\n\nregister via zoom :\nhttps://f5networks.zoom.us/webinar/register/WN_A46TytnARaSxJTdWRWk6Qg#/registration"
     },
     {
+        "group": "Joao Pessoa",
+        "repo": "www-chapter-joao-pessoa",
+        "name": "A Arquitetura e a Engenharia da Modelagem de Amea\u00e7as segundo a OWASP",
+        "date": "2024-08-28",
+        "time": "19:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/302891134",
+        "timezone": "America/Fortaleza",
+        "description": "A Arquitetura e a Engenharia de Softwares possuem grande participa\u00e7\u00e3o no desenvolvimento dos projetos e \u00e9 de suma import\u00e2ncia que o Arquiteto e o Engenheiro de Sofwares saibam definir e Modelar as Amea\u00e7as para o seu projeto na vis\u00e3o de um AppSec atrav\u00e9s dos Controles Proativos da OWASP. Venha entender melhor como funciona este processo."
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - AUG 28, 2024",
@@ -158,6 +168,16 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/302438652",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "September 2024 Meeting",
+        "date": "2024-09-03",
+        "time": "20:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/302887706",
+        "timezone": "America/Phoenix",
+        "description": "**seL4 - The Ultimate Secure Microkernel** (30 min)\nThis is a presentation on the seL4 microkernel, which is used in projects that absolutely require the most robust security at its core, as a monolithic kernel like Linux is not the right choice in these situations. Join us as we briefly touch on microkernels, the history of the L4 family of microkernels, and why seL4 stands out from the rest."
     },
     {
         "group": "Seattle",
