@@ -110,6 +110,16 @@
         "description": "A Arquitetura e a Engenharia de Softwares possuem grande participa\u00e7\u00e3o no desenvolvimento dos projetos e \u00e9 de suma import\u00e2ncia que o Arquiteto e o Engenheiro de Sofwares saibam definir e Modelar as Amea\u00e7as para o seu projeto na vis\u00e3o de um AppSec atrav\u00e9s dos Controles Proativos da OWASP. Venha entender melhor como funciona este processo."
     },
     {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #13",
+        "date": "2024-08-24",
+        "time": "10:30+05:30",
+        "link": "https://www.meetup.com/owasp-kolkata/events/302900445",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Proposed sessions for this event:\n\n* Social Engineering for Fun and Profit by **Shuvamoy Roy**\n* Docker Decoded : From Basics to Breaches by **Rakesh Seal**\n* Break/Group Wise Discussion by **Chapter Leaders**\n* Redefining Github dorking through Katakuri by **Agnibha Dutta**\n* AWS Pentesting 101 by **Soummya Mukhopadhyay**"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - AUG 28, 2024",
@@ -128,6 +138,26 @@
         "link": "https://www.meetup.com/application-security-owasp-melbourne/events/302627913",
         "timezone": "Australia/Melbourne",
         "description": "G'day all,\n\nIt was great to see new faces last month. Thank you to those that attended.\n\nIn our last meetup, attendees voted for [Spicy Korea](https://g.co/kgs/FnXwKAr) as our location this month. On 28th August 2024 6PM, there we shall meet.\n\n*There's NO BOOKING. If you're the first to arrive, please grab a table for the group and post a picture of the table's location in the comments of this meetup event. We'll use it to locate each other. (If you don't see a post, you're lucky first. Please grab us a table and post a pic. )*\n\n**Please remember to update your RSVP if you can no longer attend.** Even if it's just 30 minutes prior. It'll help whomever that arrives first know how big a table to get.\n\nWe're looking forward to the discussions we had once again.\n\nSee you there.\n\nMore details on the format, and what to expect below:\n\n**The Practitioner's Roundtable**\nIt's a monthly meetup, for AppSec/ProdSec practitioners to participate discussing AppSec/ProdSec topics and share knowledge. There's no speakers, or sponsors; just a facilitator, with the expectation that you'll join the conversations. Broadly, the idea is that you're swinging by after work, for a regular catch-up with our peers over dinner (with F&B at your own cost) with a known format.\n\\-\\-\\-\n**So, what's happening?**\nThe format:\n\n1. At 6pm all attendees arrive, and order (and pay for) their own meals - we'll do the rest while waiting for the meals to arrive and as we eat.\n2. All attendees write down on a card 1-2 AppSec/ProdSec related topics they'd like to discuss.\n3. We'll all each cast 3 votes on the cards we'd like to discuss.\n4. We'll sort the cards, and discuss the topics with the top 3-4 highest votes. Starting with the topic with the highest votes.\n5. After 5(?) minutes, we all decide if we'd like to continue or move on to the next topic.\n6. If we continue, after 15(?) minutes, we all move on to the next topic of discussion.\n7. At 7pm, we wrap up and officially end. Before everyone leaves, we vote on the next restaurant that we'll meet at.\n\nThis is[ inspired by Lean Coffee](https://agilecoffee.com/leancoffee/), and intended for participants to be collaborators in the conversation focused on AppSec & ProdSec topics.\nFor the location selection, here are the considerations we work with:\n\n1. It must be within 1 \"city block\" of the Melbourne Free Tram Zone.\n2. The typical price for a whole meal (without alcohol) should be under $50 per person.\n3. It must allow individual orders - you'd be ordering and paying for your own meal.\n4. It will need to have seating space for the group to say, just walk-in to the restaurant ( this may change if it grows beyond 10 regular attendees ).\n5. It must be quiet enough for us to have meaningful conversations.\n6. It must not be a restaurant we've been to in the past 6 months. (Just to keep things fresh )\n\nAlso, although we use the word \u201crestaurant\u201d this is used broadly to mean food establishment - if we\u2019re all keen on hitting up a decent kebab place, that works. As a courtesy to the venue, there's an expectation that you'd order something there.\n\nSee you there.\nThank you."
+    },
+    {
+        "group": "Minneapolis St Paul",
+        "repo": "www-chapter-minneapolis-st-paul",
+        "name": "Sept. meetup: A Zero Trust Journey for Data Security and Enterprise AI",
+        "date": "2024-09-12",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-msp-meetup/events/302905456",
+        "timezone": "America/Chicago",
+        "description": "**A Zero Trust Journey for Data Security and Enterprise AI**\n**Wes Kennedy, Lightbeam**\n\nAbstract: As organizations deal with the proliferation of sensitive data, they must be cognizant of the type, classification, and location of sensitive data within their environments, and remediate risks of data exposure in near-real time. In this session, we will review a comprehensive approach to strengthening enterprise data protection posture encompassing security, privacy, and governance. Proactive discovery, classification, access controls, and life-cycle management is the critical first step toward your zero-trust journey.\n\nAudience level: Intermediate (no AI knowledge needed)\n\nApproximate agenda (U.S. Central Time):\n5:30 - Doors open; socializing/connecting, food, OWASP announcements\n6:00 - Presentation\n\nPlease remember to register and keep your registration up-to-date so we know how many to expect."
+    },
+    {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP New Zealand - Auckland Meetup",
+        "date": "2024-09-17",
+        "time": "18:30+12:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297786503",
+        "timezone": "Pacific/Auckland",
+        "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for September will be **A04:2021 - Insecure Design**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
         "group": "New Zealand",
@@ -188,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539098",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Stuttgart",
+        "repo": "www-chapter-stuttgart",
+        "name": "2nd OWASP Stuttgart Chapter Stammtisch",
+        "date": "2024-09-17",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/301313714",
+        "timezone": "Europe/Berlin",
+        "description": "**An Introduction to OWASP SAMM (Software Assurance Maturity Model)**\n\nSAMM is an open framework that helps organizations assess, build, and improve their software security practices. It provides a structured model to guide organizations in integrating security into their SDLC, addressing Vulnerabilities, and promoting a culture of software assurance. SAMM offers a maturity model that enables organizations to measure their software security maturity and identify areas for improvement.\n\n**Speaker**:\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
     },
     {
         "group": "Samm",
