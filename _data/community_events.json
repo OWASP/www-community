@@ -7,7 +7,7 @@
         "time": "19:00+02:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299460613",
         "timezone": "Europe/Copenhagen",
-        "description": "Join the August OWASP Aarhus meet with Cryptomathic!\n\nAgenda:\n\n19:00 \u2013 19:10 Welcome by Cryptomathic and OWASP Aarhus\n\n19:10 \u2013 20:00 Using fuzzing to detect program errors by Jan and Anna.Jan and Anna: Software engineers; working with C, C++, and Java on a daily basis while attempting to avoid introducing new critical bugs. We will talk about how fuzzing can be used to detect program errors unrelated to project requirements. The main focus will be fuzzing functions, with known source code, that receive input from untrusted sources.\n\n20:00 \u2013 20:30 Networking break\n\n20:30 \u2013 21:25 \"Secure SDLC with a DevOps Flavor!\" by Jim Manico\n\nJoin Jim Manico for an enlightening session on \"Secure SDLC with a DevOps Flavor!\" where he merges cutting-edge DevOps practices with robust security measures. In this talk, Jim will delve into automating security within the CI/CD pipeline to ensure continuous security integration, advocate for a shift-left approach to catch vulnerabilities early, and discuss implementing Security as Code to maintain consistent security configurations. He will also emphasize the importance of fostering a DevSecOps culture where security is a shared responsibility across all teams. Additionally, Jim will outline essential tools and technologies that enhance security in DevOps environments, and stress the significance of monitoring security metrics for continuous improvement. This session is a must-attend for professionals seeking to integrate effective security practices into their development cycles without sacrificing speed or efficiency."
+        "description": "Join the August OWASP Aarhus meet with Cryptomathic!\n\nAgenda:\n\n19:00 \u2013 19:10 Welcome by Cryptomathic and OWASP Aarhus\n\n19:10 \u2013 20:00 Using fuzzing to detect program errors by Jan and Anna.Jan and Anna: Software engineers; working with C, C++, and Java on a daily basis while attempting to avoid introducing new critical bugs. We will talk about how fuzzing can be used to detect program errors unrelated to project requirements. The main focus will be fuzzing functions, with known source code, that receive input from untrusted sources.\n\n20:00 \u2013 20:30 Networking break\n\n20:30 \u2013 21:25 \"Secure SDLC with a DevOps Flavor!\" by Jim Manico\nPlease note, that Jim will join us over Teams.\nJoin Jim Manico for an enlightening session on \"Secure SDLC with a DevOps Flavor!\" where he merges cutting-edge DevOps practices with robust security measures. In this talk, Jim will delve into automating security within the CI/CD pipeline to ensure continuous security integration, advocate for a shift-left approach to catch vulnerabilities early, and discuss implementing Security as Code to maintain consistent security configurations. He will also emphasize the importance of fostering a DevSecOps culture where security is a shared responsibility across all teams. Additionally, Jim will outline essential tools and technologies that enhance security in DevOps environments, and stress the significance of monitoring security metrics for continuous improvement. This session is a must-attend for professionals seeking to integrate effective security practices into their development cycles without sacrificing speed or efficiency."
     },
     {
         "group": "Atlanta",
@@ -80,16 +80,6 @@
         "description": "Instead of just filling out a spreadsheet and checking off the boxes, audits can actually help in meaningful ways. When done right, you have a better understanding of your environment, security gaps, and just how prepared you are.\n\nPlease come listen to Mark as he shares his insight on making audits meaningful."
     },
     {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2024-08-19",
-        "time": "18:45-04:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/300686443",
-        "timezone": "America/New_York",
-        "description": "OWASP topic TBA"
-    },
-    {
         "group": "Jakarta",
         "repo": "www-chapter-jakarta",
         "name": "Emerging Threats for the Mobile Application",
@@ -107,7 +97,7 @@
         "time": "19:00-03:00",
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/302891134",
         "timezone": "America/Fortaleza",
-        "description": "A Arquitetura e a Engenharia de Softwares possuem grande participa\u00e7\u00e3o no desenvolvimento dos projetos e \u00e9 de suma import\u00e2ncia que o Arquiteto e o Engenheiro de Sofwares saibam definir e Modelar as Amea\u00e7as para o seu projeto na vis\u00e3o de um AppSec atrav\u00e9s dos Controles Proativos da OWASP. Venha entender melhor como funciona este processo."
+        "description": "A Arquitetura e a Engenharia de Softwares possuem grande participa\u00e7\u00e3o no desenvolvimento dos projetos e \u00e9 de suma import\u00e2ncia que o Arquiteto e o Engenheiro de Softwares saibam definir e Modelar as Amea\u00e7as para o seu projeto na vis\u00e3o de um AppSec, atrav\u00e9s dos Controles Proativos da OWASP. Venha entender melhor como funciona este processo."
     },
     {
         "group": "Kolkata",
