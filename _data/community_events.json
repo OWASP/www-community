@@ -12,6 +12,16 @@
     {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
+        "name": "From Noise to Insight: Transforming Vulnerability Data",
+        "date": "2024-09-18",
+        "time": "17:30-04:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/302943013",
+        "timezone": "America/New_York",
+        "description": "Security and engineering teams everywhere are often overwhelmed by the tens of thousands of new vulnerabilities that are reported each year. But while there are several commonly used prioritization inputs that can help manage CVE noise \u2014 like CVSS, EPSS, and KEV \u2014 there are additional factors organizations would be wise to consider beyond these frameworks.\nThis talk will provide guidance for using inputs like asset business context, remediation efficiency, and exploitability analysis alongside traditional vulnerability metrics. Additionally, it will cover important outputs (like VEX and VDR statements) that efficient vulnerability management programs can use to communicate outcomes and posture to internal and external audiences.\n\nEvent sponsored by FOSSA: https://fossa.com/\nDinner provided\nPlease arrive on-time as we begin promptly at 5:30."
+    },
+    {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
         "name": "Hack-Proof Your Code:  Exploring Mobile App Weaknesses with OWASP MAS",
         "date": "2024-08-22",
         "time": "11:30-04:00",
@@ -70,6 +80,26 @@
         "description": "Speaker: John Mocuta; \"Finding and Submitting a Zero day\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
     },
     {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "All Day All Night API Security Endpoint Analytics",
+        "date": "2024-09-19",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/301083996",
+        "timezone": "America/New_York",
+        "description": "APIs are the pipelines to the data within our environments. Attackers want this data. So how can you use the APIs to understand when you are being attacked? How can endpoint analytics help? In this discussion I will break down several attacks that have occurred over the trillions of transactions that have been monitored over time."
+    },
+    {
+        "group": "Gothenburg",
+        "repo": "www-chapter-gothenburg",
+        "name": "OWASP Gothenburg Maritime and OT Cybersecurity",
+        "date": "2024-09-19",
+        "time": "17:15+02:00",
+        "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/302944829",
+        "timezone": "Europe/Stockholm",
+        "description": "**Join us at our partner Stena's Danmarksterminalen for an interesting evening with food and drinks, and talks about maritime and OT cybersecurity!**\n\n**Where:** Stena Line Danmarksterminalen, 413 28 Gothenburg\n\n**Agenda:**\n\n**17:15 - 17:30** Doors open\n\n**17:30 - 17:45:** Introduction from the event hosts and presentation of tonight's speakers.\n\n**17:45 - 18:30:** Maritime cybersecurity governance, *Fredrik Pihl*\n\n**Talk outline:** Maritime industry is being regulated since a few years back and is on journey towards a risk-based management approach. Learn about threat landscape, incidents, governance and similarities between industries.\n\n**Speaker\u2019s bio:** Manager Cybersecurity, Risk and Compliance at Stena Group IT and OT Security Officer at Stena Group IT working with vessels, ports and terminals, wind turbines, property and waste management. Fredrik has 15+ years of experience from industrial IT projects and physical security industry working as IT / OT security architect including manufacturing, rail, defense industry, telecom and logistics.\n\n**18:30 - 19:00:** Food & Drinks\n\n**19:00 - 19:45:** Bridging the gap between IT and OT, *Jonathan Bj\u00f6rnsson*\n\n**Talk outline:** In his presentation, Jonathan will, in a light-hearted and engaging manner, demonstrate how to bridge the gap between IT and OT. The goal is to build connections between these two areas and show how collaboration can lead to both innovation and stronger security.\n\n**Speaker\u2019s bio:** Jonathan Bj\u00f6rnsson is a cybersecurity expert with over 25 years of experience in both IT and OT. With his deep understanding of how these two worlds intersect and are secured, he has helped organizations protect their critical infrastructures. Jonathan is certified in Generative AI and works on AI-based cybersecurity solutions within the EU. He is also known for making complex security issues easy to understand for everyone.\n\n**19:45 - 20:30:** Over-time (optional)\nHang out, grab something to drink, and discuss security, the weather or anything in between!"
+    },
+    {
         "group": "Houston",
         "repo": "www-chapter-houston",
         "name": "Meaningful Audits - More than Just a Checklist",
@@ -78,6 +108,16 @@
         "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/302673435",
         "timezone": "America/Chicago",
         "description": "Instead of just filling out a spreadsheet and checking off the boxes, audits can actually help in meaningful ways. When done right, you have a better understanding of your environment, security gaps, and just how prepared you are.\n\nPlease come listen to Mark as he shares his insight on making audits meaningful."
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2024-09-16",
+        "time": "18:45-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/302940703",
+        "timezone": "America/New_York",
+        "description": "OWASP topic TBA"
     },
     {
         "group": "Jakarta",
@@ -210,6 +250,16 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
+        "group": "South Florida",
+        "repo": "www-chapter-south-florida",
+        "name": "September 2024 SFOWASP Monthly Meeting - Joint Meeting with SFISSA",
+        "date": "2024-09-19",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/south-florida-owasp-chapter/events/302943630",
+        "timezone": "America/New_York",
+        "description": "Each September, the OWASP South Florida Chapter (SFOWASP) and South Florida ISSA (SFISSA) come together for a joint meeting. This year, please join us on **September 19, 2024**, at **Palm Beach State College**, **4200 S Congress Ave, Lake Worth, FL**. The meeting will take place in **Room CE119** in the CE building.\n\n**Location: Palm Beach State College - CE building, room 119**\n\n**Agenda**:\n\n* Chapter updates/announcements, upcoming events - SFISSA\n* Chapter updates/announcement, upcoming events - SFOWASP\n* Talk1 - TBA\n* Talk2 - TBA\n* Networking\n\nWe will update this notice for speaker(s) and topic(s)."
+    },
+    {
         "group": "Stuttgart",
         "repo": "www-chapter-stuttgart",
         "name": "2nd OWASP Stuttgart Chapter Stammtisch",
@@ -218,6 +268,16 @@
         "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/301313714",
         "timezone": "Europe/Berlin",
         "description": "**An Introduction to OWASP SAMM (Software Assurance Maturity Model)**\n\nSAMM is an open framework that helps organizations assess, build, and improve their software security practices. It provides a structured model to guide organizations in integrating security into their SDLC, addressing Vulnerabilities, and promoting a culture of software assurance. SAMM offers a maturity model that enables organizations to measure their software security maturity and identify areas for improvement.\n\n**Speaker**:\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "OWASP Vancouver Monthly Meetup",
+        "date": "2024-09-19",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516377",
+        "timezone": "America/Vancouver",
+        "description": "TBD"
     },
     {
         "group": "Samm",
