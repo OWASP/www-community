@@ -14,7 +14,7 @@
         "repo": "www-chapter-atlanta",
         "name": "From Noise to Insight: Transforming Vulnerability Data",
         "date": "2024-09-18",
-        "time": "17:30-04:00",
+        "time": "18:00-04:00",
         "link": "https://www.meetup.com/owasp-atlanta/events/302943013",
         "timezone": "America/New_York",
         "description": "Security and engineering teams everywhere are often overwhelmed by the tens of thousands of new vulnerabilities that are reported each year. But while there are several commonly used prioritization inputs that can help manage CVE noise \u2014 like CVSS, EPSS, and KEV \u2014 there are additional factors organizations would be wise to consider beyond these frameworks.\nThis talk will provide guidance for using inputs like asset business context, remediation efficiency, and exploitability analysis alongside traditional vulnerability metrics. Additionally, it will cover important outputs (like VEX and VDR statements) that efficient vulnerability management programs can use to communicate outcomes and posture to internal and external audiences.\n\nEvent sponsored by FOSSA: https://fossa.com/\nDinner provided\nPlease arrive on-time as we begin promptly at 5:30."
@@ -48,6 +48,36 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/298207020",
         "timezone": "America/Chicago",
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nIf you would like to attend in-person, please pull a ticket from Eventbrite, but please only pull a ticket from Eventbrite if you are attending as we purchase lunch for all in-person tickets pulled and we don't want to waste money and food.\n\\- Group1 [https://www.eventbrite.com/e/980779516937](https://www.eventbrite.com/e/980779516937)\nor\n\\- Group2 [https://www.eventbrite.com/e/980854350767](https://www.eventbrite.com/e/980854350767)\n\n*Presentation: **How to protect WordPress or other CMS websites***\n\nIn this presentation, we will walk through different types of real anonymized attacked WordPress and other CMS frameworks in how those sites were attacked and how the sites were then protected from future attacks.\nEveryone attending should leave the presentation able to:\n\\- Understand how these sites are attacked\n\\- Protects that may have already been in place that didn't work\n\\- What measures were then put in place that worked"
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "OWASP Bay Area August Meetup with Pacific Hackers",
+        "date": "2024-08-27",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/302963842",
+        "timezone": "America/Los_Angeles",
+        "description": "## Details\n\nWe're excited to announce our upcoming August meetup in conjunction with **Pacific Hackers**, which will be hosted by the awesome **Snyk** team at **Hacker Dojo in Sunnyvale**. Get ready for insightful discussions and the chance to network with some of the brightest minds in the industry.\n\n**Agenda:**\n5:30 - 6:00: Doors open, networking and food\n6:00 - 6:45: Talk 1: Stranger Danger - Javier Garza\n6:45 - 7:30: Talk 2: Details to follow\n\n**Talk 1:**\nSpeaker: Javier Garza\n\nTitle: Stranger Danger - finding security vulnerabilities before they find you\n\nSpeaker Bio:\nJavier Garza is a Technology evangelist that has written many articles on HTTP/2 and web performance, and is the co-author of the O\u2019Reilly Book \u201cLearning HTTP/2\u201d. In 2018, Javier spoke at more than 25 developer-related events around the world, including well-known conferences like Velocity, AWS Re:Invent, and PerfMatters. His life\u2019s motto is: share what you learn, and learn what you don\u2019t. In his free time he enjoys challenging workouts and volunteering for non-profits in areas like children and education.\n\n**Talk 2:**\nSpeaker: Ofer Elzam\nDetails TBA"
+    },
+    {
+        "group": "Belem",
+        "repo": "www-chapter-belem",
+        "name": "Owasp Bel\u00e9m CTF",
+        "date": "2024-08-24",
+        "time": "16:00-04:00",
+        "link": "https://www.meetup.com/owasp-belem/events/302959492",
+        "timezone": "America/Boa_Vista",
+        "description": "Neste s\u00e1bado, 24 de agosto, a OWASP Bel\u00e9m, um dos cap\u00edtulos brasileiros entre mais de 200 cap\u00edtulos ativos em todo o mundo, tem como objetivo disseminar a miss\u00e3o da OWASP: tornar a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel, para que pessoas e organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos de seguran\u00e7a das aplica\u00e7\u00f5es.\n\nO tema desta edi\u00e7\u00e3o \u00e9 Capture the Flag (CTF), um evento geralmente projetado como um exerc\u00edcio educacional para dar aos participantes experi\u00eancia na explora\u00e7\u00e3o de vulnerabilidades em m\u00e1quinas, al\u00e9m de conduzir e reagir aos tipos de ataques encontrados no mundo real.\n\nData: 24/08/2024\nHor\u00e1rio: 16h\nOnline: https://www.youtube.com/@owaspbelem"
+    },
+    {
+        "group": "Chennai",
+        "repo": "www-chapter-chennai",
+        "name": "OWASP Meetup AUG 2024",
+        "date": "2024-08-31",
+        "time": "10:00+05:30",
+        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/302956438",
+        "timezone": "Asia/Kolkata",
+        "description": "* LLM Security 101 - Series (OWASP Top 5 to 7) by **Sethu Mathavan**\n* Securing Software Supply Chain by **Anirudh srinivas**\n* Wordpress BugBounty by **nagedoer**\n* Malware Forensics by **Pradhan Vijayakumar**\n\nNote: The session details including schedule are available below.\nKindly use this link to register : [Registration form](https://docs.google.com/forms/d/1PsJ0wllUh0HgRtAW9J8oV-CiAwoyIcwPGd-7apEuM1M/edit)"
     },
     {
         "group": "Chile",
@@ -90,6 +120,16 @@
         "description": "APIs are the pipelines to the data within our environments. Attackers want this data. So how can you use the APIs to understand when you are being attacked? How can endpoint analytics help? In this discussion I will break down several attacks that have occurred over the trillions of transactions that have been monitored over time."
     },
     {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Denver OWASP September Meetup - Join Us!",
+        "date": "2024-09-18",
+        "time": "17:30-06:00",
+        "link": "https://www.meetup.com/owasp-denver-chapter/events/302950884",
+        "timezone": "America/Denver",
+        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on September 18th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\nThis month's meeting is brought to you by SnowFROC! This month's speaker will be Jason Haddix! Jason taught two workshops for us at SnowFROC this year and this was one of them. If you missed them, now's your chance!\n\n**Presentation:**\nRecon Like an Adversary: Uncovering Modern Techniques in Attack Surface Management\n\n**Abstract**:\nJoin our expert, Jason, in a talk designed to demystify the advanced techniques adversaries employ to infiltrate organizations. This session is a deep dive into the world of attack surface management using open-source tools, tailored to emulate both adversaries and professional bug hunters.\n\n* Introduction to Reconnaissance Techniques: Gain insights into the methodologies used by adversaries in their initial approach to an organization.\n* Tool Mastery: Explore a range of common tools and techniques for targeting organizations. This includes:\n* Email Acquisition: Methods and tools for gathering email data.\n* Technology Profiling: Techniques for identifying the technology stack of an organization.\n* External Attack Surface Analysis: A focus on cloud and mobile environments, among others.\n* Historical Data Mining: Strategies for uncovering valuable historical endpoint data.\n* Live Demonstrations: Experience real-time use of each tool in the toolchain. Jason will share personal tips and tricks, enhancing your learning experience.\n* Practical Application: The workshop features live targets, offering a real-world scenario for participants to engage with and learn from.\n* Interactive Learning Experience: Participants are encouraged to actively engage, ask questions, and share experiences throughout the session."
+    },
+    {
         "group": "Gothenburg",
         "repo": "www-chapter-gothenburg",
         "name": "OWASP Gothenburg Maritime and OT Cybersecurity",
@@ -98,16 +138,6 @@
         "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/302944829",
         "timezone": "Europe/Stockholm",
         "description": "**Join us at our partner Stena's Danmarksterminalen for an interesting evening with food and drinks, and talks about maritime and OT cybersecurity!**\n\n**Where:** Stena Line Danmarksterminalen, 413 28 Gothenburg\n\n**Agenda:**\n\n**17:15 - 17:30** Doors open\n\n**17:30 - 17:45:** Introduction from the event hosts and presentation of tonight's speakers.\n\n**17:45 - 18:30:** Maritime cybersecurity governance, *Fredrik Pihl*\n\n**Talk outline:** Maritime industry is being regulated since a few years back and is on journey towards a risk-based management approach. Learn about threat landscape, incidents, governance and similarities between industries.\n\n**Speaker\u2019s bio:** Manager Cybersecurity, Risk and Compliance at Stena Group IT and OT Security Officer at Stena Group IT working with vessels, ports and terminals, wind turbines, property and waste management. Fredrik has 15+ years of experience from industrial IT projects and physical security industry working as IT / OT security architect including manufacturing, rail, defense industry, telecom and logistics.\n\n**18:30 - 19:00:** Food & Drinks\n\n**19:00 - 19:45:** Bridging the gap between IT and OT, *Jonathan Bj\u00f6rnsson*\n\n**Talk outline:** In his presentation, Jonathan will, in a light-hearted and engaging manner, demonstrate how to bridge the gap between IT and OT. The goal is to build connections between these two areas and show how collaboration can lead to both innovation and stronger security.\n\n**Speaker\u2019s bio:** Jonathan Bj\u00f6rnsson is a cybersecurity expert with over 25 years of experience in both IT and OT. With his deep understanding of how these two worlds intersect and are secured, he has helped organizations protect their critical infrastructures. Jonathan is certified in Generative AI and works on AI-based cybersecurity solutions within the EU. He is also known for making complex security issues easy to understand for everyone.\n\n**19:45 - 20:30:** Over-time (optional)\nHang out, grab something to drink, and discuss security, the weather or anything in between!"
-    },
-    {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "Meaningful Audits - More than Just a Checklist",
-        "date": "2024-08-21",
-        "time": "12:30-05:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/302673435",
-        "timezone": "America/Chicago",
-        "description": "Instead of just filling out a spreadsheet and checking off the boxes, audits can actually help in meaningful ways. When done right, you have a better understanding of your environment, security gaps, and just how prepared you are.\n\nPlease come listen to Mark as he shares his insight on making audits meaningful."
     },
     {
         "group": "Jacksonville",
@@ -208,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-oc/events/302821427",
         "timezone": "America/Los_Angeles",
         "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Tuesday, August 20th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Live Stream**\nStream us live on Twitch: http://twitch.tv/owaspoc\n*Please change your RSVP to \"No\" if you can't make it and/or will join via livestream instead.*\n\n**Abstract**\nTalk 1: Hacker group \"Bananarchy\" recounts our exhilarating journey through DEF CON's notorious scavenger hunt, culminating in the coveted Black Badge award, granting all members free DEF CON badges for life. We'll share key strategies, technical challenges overcome, and lessons learned during our intense 72-hour quest across the conference's digital and physical landscape. Our experience not only tested our hacking skills but also highlighted the importance of teamwork, creative problem-solving, and perseverance in the face of seemingly impossible puzzles.\n\nTalk 2: Third party risks in open source software and snippets produced by generative AI tools using Black Duck"
-    },
-    {
-        "group": "Ottawa",
-        "repo": "www-chapter-ottawa",
-        "name": "OWASPOttawa August 21st 2024: API: Always Prone to Injections",
-        "date": "2024-08-21",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-ottawa/events/302579838",
-        "timezone": "America/Toronto",
-        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 564\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBD\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **API: Always Prone to Injections**\n\n**Abstract:**\nWhen pushing left goes past the developer: To the documentation! Simple documentation errors are a big contributor to injection vulnerabilities of all kinds, especially the way many cloud APIs are documented. In this presentation I\u2019ll walk through several examples, and then get hands on with a demo vulnerability (and hopefully some laughs). We\u2019ll highlight how to spot these kinds of problems in documentation as a developer, and avoid making them yourselves when providing an API.\n\n**Speakers:**\n**Chris Shepherd** is a pentesting lead, privacy advocate, and avid homelabber. With over 20 years of experience in roles from systems & network administration to software development to pentesting, he's worked on all facets of application development, deployment, and use. With a lifelong passion for security, Chris turned that jack of all trades experience towards pentesting, with a focus on education. For the past four years he has volunteered as a key challenge developer and overall challenge development co-ordinator for the CyberSCI CTF."
     },
     {
         "group": "Peterborough",
