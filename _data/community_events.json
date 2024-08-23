@@ -20,16 +20,6 @@
         "description": "Security and engineering teams everywhere are often overwhelmed by the tens of thousands of new vulnerabilities that are reported each year. But while there are several commonly used prioritization inputs that can help manage CVE noise \u2014 like CVSS, EPSS, and KEV \u2014 there are additional factors organizations would be wise to consider beyond these frameworks.\nThis talk will provide guidance for using inputs like asset business context, remediation efficiency, and exploitability analysis alongside traditional vulnerability metrics. Additionally, it will cover important outputs (like VEX and VDR statements) that efficient vulnerability management programs can use to communicate outcomes and posture to internal and external audiences.\n\nEvent sponsored by FOSSA: https://fossa.com/\nDinner provided\nPlease arrive on-time as we begin promptly at 5:30."
     },
     {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "Hack-Proof Your Code:  Exploring Mobile App Weaknesses with OWASP MAS",
-        "date": "2024-08-22",
-        "time": "11:30-04:00",
-        "link": "https://www.meetup.com/owasp-atlanta/events/302022462",
-        "timezone": "America/New_York",
-        "description": "In this talk, we will take a hands-on look at some of the latest OWASP MAS developments, in particular the new MASWE (Mobile Application Security Weakness Enumeration). This talk will introduce the concepts of \"weaknesses\", \"atomic tests\" and \"demos\" that are the basis of the upcoming MASTG v2. Attendees will gain practical knowledge through detailed examples that show the journey from definition to implementation using both static and dynamic analysis techniques available in MASTG. In addition, discover the newly developed MAS test apps designed to streamline research and improve the development of robust MAS tests.\n\nDon't miss this opportunity to improve your mobile app security skills and make your apps hack-proof. Whether you're looking to bolster your defenses or learn how to uncover vulnerabilities, this session will provide you with the cutting-edge resources you need to stay ahead in mobile security!"
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "September 2024 OWASP Austin Security Professionals Happy Hour--sponsor Checkmarx",
@@ -57,13 +47,13 @@
         "time": "17:30-07:00",
         "link": "https://www.meetup.com/bay-area-owasp/events/302963842",
         "timezone": "America/Los_Angeles",
-        "description": "## Details\n\nWe're excited to announce our upcoming August meetup in conjunction with **Pacific Hackers**, which will be hosted by the awesome **Snyk** team at **Hacker Dojo in Sunnyvale**. Get ready for insightful discussions and the chance to network with some of the brightest minds in the industry.\n\n**Agenda:**\n5:30 - 6:00: Doors open, networking and food\n6:00 - 6:45: Talk 1: Stranger Danger - Javier Garza\n6:45 - 7:30: Talk 2: Details to follow\n\n**Talk 1:**\nSpeaker: Javier Garza\n\nTitle: Stranger Danger - finding security vulnerabilities before they find you\n\nSpeaker Bio:\nJavier Garza is a Technology evangelist that has written many articles on HTTP/2 and web performance, and is the co-author of the O\u2019Reilly Book \u201cLearning HTTP/2\u201d. In 2018, Javier spoke at more than 25 developer-related events around the world, including well-known conferences like Velocity, AWS Re:Invent, and PerfMatters. His life\u2019s motto is: share what you learn, and learn what you don\u2019t. In his free time he enjoys challenging workouts and volunteering for non-profits in areas like children and education.\n\n**Talk 2:**\nSpeaker: Ofer Elzam\nDetails TBA"
+        "description": "## Details\n\nWe're excited to announce our upcoming August meetup in conjunction with **Pacific Hackers**, which will be hosted by the awesome **Snyk** team at **Hacker Dojo in Sunnyvale**. Get ready for insightful discussions and the chance to network with some of the brightest minds in the industry.\n\n**Agenda:**\n5:30 - 6:00: Doors open, networking and food\n6:00 - 6:45: Talk 1: Stranger Danger - Javier Garza\n6:45 - 7:30: Talk 2: Business Applications Governance - Ofer Elzam\n\n**Talk 1:**\nSpeaker: Javier Garza\n\nTitle: Stranger Danger - finding security vulnerabilities before they find you\n\nSpeaker Bio:\nJavier Garza is a Technology evangelist that has written many articles on HTTP/2 and web performance, and is the co-author of the O\u2019Reilly Book \u201cLearning HTTP/2\u201d. In 2018, Javier spoke at more than 25 developer-related events around the world, including well-known conferences like Velocity, AWS Re:Invent, and PerfMatters. His life\u2019s motto is: share what you learn, and learn what you don\u2019t. In his free time he enjoys challenging workouts and volunteering for non-profits in areas like children and education.\n\n**Talk 2:**\nSpeaker: Ofer Elzam\n\nDescription:\nSecOps/GRC spend 25-30% of their time chasing operational teams trying to figure out tech-stacks and business architectures. It is a global pain across market segments and verticals. We will analyze the root-causes for these challenges, dig into use-cases, and explore new approaches for frictionless collaboration between SecOps, GRC, MIS, and functional Ops teams.\n\nSpeaker Bio:\nOfer Elzam is the CEO and co-founder of trustedstack.ai. He has been a product leader and innovator at Check Point, Dome9, Cisco, Firemon, Sophos, SecurityScorecard. Always enthusiastic discussing cybersecurity - from NGFW to CSPM to TPRM and almost anything in between."
     },
     {
         "group": "Belem",
         "repo": "www-chapter-belem",
         "name": "Owasp Bel\u00e9m CTF",
-        "date": "2024-08-24",
+        "date": "2024-08-31",
         "time": "16:00-04:00",
         "link": "https://www.meetup.com/owasp-belem/events/302959492",
         "timezone": "America/Boa_Vista",
@@ -167,7 +157,17 @@
         "time": "19:00-03:00",
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/302891134",
         "timezone": "America/Fortaleza",
-        "description": "A Arquitetura e a Engenharia de Softwares possuem grande participa\u00e7\u00e3o no desenvolvimento dos projetos e \u00e9 de suma import\u00e2ncia que o Arquiteto e o Engenheiro de Softwares saibam definir e Modelar as Amea\u00e7as para o seu projeto na vis\u00e3o de um AppSec, atrav\u00e9s dos Controles Proativos da OWASP. Venha entender melhor como funciona este processo."
+        "description": "**MEETUP PRESENCIAL**\nA Arquitetura e a Engenharia de Softwares possuem grande participa\u00e7\u00e3o no desenvolvimento dos projetos e \u00e9 de suma import\u00e2ncia que o Arquiteto e o Engenheiro de Softwares saibam definir e Modelar as Amea\u00e7as para o seu projeto na vis\u00e3o de um AppSec, atrav\u00e9s dos Controles Proativos da OWASP. Venha entender melhor como funciona este processo."
+    },
+    {
+        "group": "Joao Pessoa",
+        "repo": "www-chapter-joao-pessoa",
+        "name": "OWASP A05:2021-Security Misconfiguration em upload de arquivos",
+        "date": "2024-08-24",
+        "time": "09:30-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/302970973",
+        "timezone": "America/Fortaleza",
+        "description": "Em nosso Meetup, voc\u00ea ter\u00e1 acesso a um laborat\u00f3rio para explorar juntamente conosco as vulnerabilidades de Unrestricted File Upload que figura entre os TOP 10 OWASP, especificamente no t\u00f3pico A5:2021 - Security Misconfiguration.\n\nJuntos conceituaremos, demonstraremos, exploraremos e discutiremos as melhores pr\u00e1ticas para mitigar esta vulnerabilidade. Te encontro online: s\u00e1bado, 24 de agosto de 2024 \u00e0s 09h30. At\u00e9 l\u00e1!"
     },
     {
         "group": "Kolkata",
@@ -228,16 +228,6 @@
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/300323362",
         "timezone": "Pacific/Auckland",
         "description": "We are proud to present the 14th OWASP New Zealand Day conference, to be held at the Auckland University of Technology (AUT) City Campus on Thursday and Friday, September 5th and 6th, 2024. OWASP New Zealand Day is a two-day conference dedicated to web and application security, with an emphasis on secure architecture and development techniques to help Kiwi developers build more secure applications. The conference is presented by the [OWASP New Zealand Chapter](https://owasp.org/www-chapter-new-zealand/) and organised by [AppSec New Zealand Incorporated](https://appsec.org.nz/).\n\nThere will be two presentation streams throughout the conference. The first stream will include introductory talks on application and information security topics, as well as on policy, compliance, and risk management. The second stream will primarily address deeper technical topics. Talks featuring OWASP projects and tools are particularly encouraged, as are talks by members of under-represented communities.\n\nIn addition to these principal streams, there will be a third, smaller \u201cstream,\u201d supporting sponsor presentations, demos of OWASP tools, and interest/user group meetings. Diamond, Platinum, and Gold Sponsors will be given priority for time slots in this \u201cstream.\u201d Further details will be published closer to the date, regarding opportunities for other groups to present.\n\nWho is the Conference for?\n\n* Web Developers\n* Security Professionals and Enthusiasts\n* Program and Project Managers\n* Business Analysts\n* Requirements Analysts\n* Software Testers\n\n## Conference Live Stream\n\nAll three streams of the conference (Track 1, Track 2, and the Sponsor Demos) will be live streamed on the day. Access information for the conference live-stream will be provided to registered delegates, as details are finalised.\n\n## Conference Structure\n\n**Date:** Thursday and Friday, 5-6 September 2024\n**Time:** 9:15 a.m. - 5:00 p.m., Thursday; 10:00 a.m. - 5:00 p.m., Friday\nThe main conference on Thursday and Friday will have two streams throughout both days:\n**Stream One:**\n\n* Introductory Topics\n* Program Management, Policy, Compliance, Risk Management\n\n**Stream Two:**\n\n* Technical Topics\n\nThroughout the conference, an exhibition area will be open in the main atrium. Representatives from many of our Premier Sponsors will be on hand throughout the event, to answer your questions about their products and services, or to discuss employment opportunities they may have available. There will be door prize drawings at the Closing Session on Friday. To qualify for the drawings, you will need to visit with each exhibiting sponsor during the conference, and have them stamp your entry card.\n\n## Registration\n\nRegistration is now open on Humanitix: [https://events.humanitix.com/owaspnz2024](https://events.humanitix.com/owaspnz2024)\n\nEarly registration (on or before 15 August):\n\n* $30, standard registration\n* **FREE**, for students and unwaged attendees\n* From 16 August, a late registration surcharge applies to all registrations ($20 Regular, $15 Student/Unwaged)"
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "How to Win DEF CON Scav Hunt / Black Duck Detecting Generative AI Software Risks",
-        "date": "2024-08-22",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/302821427",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Tuesday, August 20th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Live Stream**\nStream us live on Twitch: http://twitch.tv/owaspoc\n*Please change your RSVP to \"No\" if you can't make it and/or will join via livestream instead.*\n\n**Abstract**\nTalk 1: Hacker group \"Bananarchy\" recounts our exhilarating journey through DEF CON's notorious scavenger hunt, culminating in the coveted Black Badge award, granting all members free DEF CON badges for life. We'll share key strategies, technical challenges overcome, and lessons learned during our intense 72-hour quest across the conference's digital and physical landscape. Our experience not only tested our hacking skills but also highlighted the importance of teamwork, creative problem-solving, and perseverance in the face of seemingly impossible puzzles.\n\nTalk 2: Third party risks in open source software and snippets produced by generative AI tools using Black Duck"
     },
     {
         "group": "Peterborough",
