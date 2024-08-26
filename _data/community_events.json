@@ -22,6 +22,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - September 2024 (Online)",
+        "date": "2024-09-24",
+        "time": "11:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/298207023",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nPresentation: **The Secure Development Lifecycle in Action: The Point, Purpose, and Rationale**\n\nThe Secure Development Lifecycle (SDL) is a powerful construct that can advance security for both organizations with established security practices by shifting left, and immature organizations seeking a framework to implement security best practices in agile development. NI has been on a journey over the last several years to improve the security of its products driven by customer requirements, their expectations, and increasingly, regulations that require software to be developed with secure methodologies. Security is as much about a mindset and development culture as it is about tools, vulnerabilities, and security technologies. Learn how NI\u2019s adoption of the Secure Development Lifecycle has created a framework for addressing various security challenges in web applications, microservices, and infrastructure."
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "September 2024 OWASP Austin Security Professionals Happy Hour--sponsor Checkmarx",
         "date": "2024-09-12",
         "time": "17:30-05:00",
