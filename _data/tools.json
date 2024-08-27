@@ -1952,5 +1952,14 @@
       "platforms": "IntelliJ, VSCode",
       "note": "The product falls under the SCA tool category and enables developers to scan third-party dependencies within their favourite IDEs i.e. IntelliJ and VSCode.",
       "type": "DAST"
+   },
+    {
+      "title": "fitoxs",
+      "url": "https://fitoxs.com",
+      "owner": "fitoxs",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "fitoxs is a complete security tool for web applications and API",
+      "type": "DAST"
    }
 ]
