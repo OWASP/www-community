@@ -20,6 +20,16 @@
         "description": "Security and engineering teams everywhere are often overwhelmed by the tens of thousands of new vulnerabilities that are reported each year. But while there are several commonly used prioritization inputs that can help manage CVE noise \u2014 like CVSS, EPSS, and KEV \u2014 there are additional factors organizations would be wise to consider beyond these frameworks.\nThis talk will provide guidance for using inputs like asset business context, remediation efficiency, and exploitability analysis alongside traditional vulnerability metrics. Additionally, it will cover important outputs (like VEX and VDR statements) that efficient vulnerability management programs can use to communicate outcomes and posture to internal and external audiences.\n\nEvent sponsored by FOSSA: https://fossa.com/\nDinner provided\nPlease arrive on-time as we begin promptly at 5:30."
     },
     {
+        "group": "Augsburg",
+        "repo": "www-chapter-augsburg",
+        "name": "5. OWASP Augsburg Stammtisch",
+        "date": "2024-09-25",
+        "time": "19:00+02:00",
+        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/302854068",
+        "timezone": "Europe/Berlin",
+        "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Agenda tbd**\nDu hast einen Vortrag? Melde dich! Wir sind immer auf der Suche nach interessanten Inhalten!!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - September 2024 (Online)",
@@ -78,6 +88,16 @@
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/302996702",
         "timezone": "Asia/Kolkata",
         "description": "Join us for an evening dedicated to mastering the art of secure coding and conducting effective code reviews. This event, hosted by the OWASP Bhopal Chapter, is designed to promote collaboration and knowledge sharing in the critical areas of cybersecurity, software security, and secure development practices.\nBuilding on the success of our previous events like \"Revisiting Cyber Security & 101 with ML\" and \"ML Huddle & Cracking the Cybersecurity Puzzle\" this session will delve into the best practices and strategies for writing secure code and performing thorough code reviews to enhance software security.\n\nWe'll explore key principles of secure coding, including how to identify and mitigate common vulnerabilities such as SQL injection, cross-site scripting (XSS), and buffer overflows. The event will also cover effective code review techniques, emphasizing the importance of peer reviews and automated tools in detecting and resolving security issues early in the development process. By integrating these practices into your workflow, you can significantly reduce the risk of security breaches and ensure your applications are resilient against attacks.\n\nWhether you're an experienced cybersecurity professional or a developer eager to improve your secure coding skills, this event offers the perfect platform to connect with peers and deepen your understanding. Join us for an insightful session on the latest techniques in secure development, the importance of rigorous code review processes, and the newest developments within the OWASP community. Let's work together to strengthen the foundations of secure coding and make the digital world a safer place for everyone!"
+    },
+    {
+        "group": "Boston",
+        "repo": "www-chapter-boston",
+        "name": "OWASP Boston Chapter Meeting - September 2024",
+        "date": "2024-09-11",
+        "time": "19:00-04:00",
+        "link": "https://www.meetup.com/owaspboston/events/303050135",
+        "timezone": "America/New_York",
+        "description": "This month we will be welcoming Daniel Shugrue, security product marketing from Digital.ai, to our meetup.\n\nDaniel will be speaking to us about the 2024 Application Threat Report, and will illuminate and quantify threats to apps in 2024 by categorizing threats according to the OWASP MASVS, and will end with some advice on specific actions security teams can take to stay a step ahead of threat actors. The advice Daniel will share is based on aggregated and anonymized threat data from some of the largest game makers and financial services, and media companies.\n\nDaniel Shugrue has over 20 years of experience working in security and communications. Prior to working at Digital.ai, Daniel worked in Confidential Computing at Microsoft, IoT Security at CyberX, Web App Firewall security at Akamai, and authentication at RSA. Daniel is a father of 2 boys, enjoys bicycling and playing guitar, and holds a degree in Mandarin Chinese from Washington University in St. Louis and an MBA from Babson College."
     },
     {
         "group": "Chennai",
@@ -140,6 +160,16 @@
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on September 18th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\nThis month's meeting is brought to you by SnowFROC! This month's speaker will be Jason Haddix! Jason taught two workshops for us at SnowFROC this year and this was one of them. If you missed them, now's your chance!\n\n**Presentation:**\nRecon Like an Adversary: Uncovering Modern Techniques in Attack Surface Management\n\n**Abstract**:\nJoin our expert, Jason, in a talk designed to demystify the advanced techniques adversaries employ to infiltrate organizations. This session is a deep dive into the world of attack surface management using open-source tools, tailored to emulate both adversaries and professional bug hunters.\n\n* Introduction to Reconnaissance Techniques: Gain insights into the methodologies used by adversaries in their initial approach to an organization.\n* Tool Mastery: Explore a range of common tools and techniques for targeting organizations. This includes:\n* Email Acquisition: Methods and tools for gathering email data.\n* Technology Profiling: Techniques for identifying the technology stack of an organization.\n* External Attack Surface Analysis: A focus on cloud and mobile environments, among others.\n* Historical Data Mining: Strategies for uncovering valuable historical endpoint data.\n* Live Demonstrations: Experience real-time use of each tool in the toolchain. Jason will share personal tips and tricks, enhancing your learning experience.\n* Practical Application: The workshop features live targets, offering a real-world scenario for participants to engage with and learn from.\n* Interactive Learning Experience: Participants are encouraged to actively engage, ask questions, and share experiences throughout the session."
     },
     {
+        "group": "France",
+        "repo": "www-chapter-france",
+        "name": "Meetup OWASP - Paris - Septembre 2024",
+        "date": "2024-09-09",
+        "time": "19:00+02:00",
+        "link": "https://www.meetup.com/owasp-france/events/303049860",
+        "timezone": "Europe/Paris",
+        "description": "\\-\\-\\-\nPour des raisons de s\u00e9curit\u00e9 d'acc\u00e8s aux locaux de notre sponsor, il est n\u00e9cessaire de fournir votre nom et pr\u00e9nom pour ce meetup. **Une pi\u00e8ce d'identit\u00e9 sera demand\u00e9e** pour l'obtention d'un badge d'acc\u00e8s. Nous vous remercions de votre compr\u00e9hension.\n\\-\\-\\-\nCe meetup se deroulera chez **TotalEnergies** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+    },
+    {
         "group": "Gothenburg",
         "repo": "www-chapter-gothenburg",
         "name": "OWASP Gothenburg Maritime and OT Cybersecurity",
@@ -148,6 +178,16 @@
         "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/302944829",
         "timezone": "Europe/Stockholm",
         "description": "**Join us at our partner Stena's Danmarksterminalen for an interesting evening with food and drinks, and talks about maritime and OT cybersecurity!**\n\n**Where:** Stena Line Danmarksterminalen, 413 28 Gothenburg\n\n**Agenda:**\n\n**17:15 - 17:30** Doors open\n\n**17:30 - 17:45:** Introduction from the event hosts and presentation of tonight's speakers.\n\n**17:45 - 18:30:** Maritime cybersecurity governance, *Fredrik Pihl*\n\n**Talk outline:** Maritime industry is being regulated since a few years back and is on journey towards a risk-based management approach. Learn about threat landscape, incidents, governance and similarities between industries.\n\n**Speaker\u2019s bio:** Manager Cybersecurity, Risk and Compliance at Stena Group IT and OT Security Officer at Stena Group IT working with vessels, ports and terminals, wind turbines, property and waste management. Fredrik has 15+ years of experience from industrial IT projects and physical security industry working as IT / OT security architect including manufacturing, rail, defense industry, telecom and logistics.\n\n**18:30 - 19:00:** Food & Drinks\n\n**19:00 - 19:45:** Bridging the gap between IT and OT, *Jonathan Bj\u00f6rnsson*\n\n**Talk outline:** In his presentation, Jonathan will, in a light-hearted and engaging manner, demonstrate how to bridge the gap between IT and OT. The goal is to build connections between these two areas and show how collaboration can lead to both innovation and stronger security.\n\n**Speaker\u2019s bio:** Jonathan Bj\u00f6rnsson is a cybersecurity expert with over 25 years of experience in both IT and OT. With his deep understanding of how these two worlds intersect and are secured, he has helped organizations protect their critical infrastructures. Jonathan is certified in Generative AI and works on AI-based cybersecurity solutions within the EU. He is also known for making complex security issues easy to understand for everyone.\n\n**19:45 - 20:30:** Over-time (optional)\nHang out, grab something to drink, and discuss security, the weather or anything in between!"
+    },
+    {
+        "group": "Houston",
+        "repo": "www-chapter-houston",
+        "name": "Houston Security Professionals Happy Hour - Sponsored by Salvador Technologies",
+        "date": "2024-09-25",
+        "time": "18:30-05:00",
+        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/303064569",
+        "timezone": "America/Chicago",
+        "description": "Please join us at Monkey's Tail for a Happy Hour sponsored by Salvador Technologies.\n\nInformation from our sponsor:\nhttps://www.salvador-tech.com/\nSalvador addresses a crucial problem concerning operational continuity and cyber attack recovery for mission critical systems, eliminating costly, inconvenient, or even dangerous downtime. Our Security Failover technology is redefining the essence of ICS & OT Resilience, with our 30-second Recovery."
     },
     {
         "group": "Jacksonville",
@@ -178,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/302891134",
         "timezone": "America/Fortaleza",
         "description": "**MEETUP PRESENCIAL**\nA Arquitetura e a Engenharia de Softwares possuem grande participa\u00e7\u00e3o no desenvolvimento dos projetos e \u00e9 de suma import\u00e2ncia que o Arquiteto e o Engenheiro de Softwares saibam definir e Modelar as Amea\u00e7as para o seu projeto na vis\u00e3o de um AppSec, atrav\u00e9s dos Controles Proativos da OWASP. Venha entender melhor como funciona este processo."
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - SEP 25, 2024",
+        "date": "2024-09-25",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/300687523",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: AI Services Security Test Guideline at Zoom\nJoin us for great networking, dinner and drinks, and see a presentation by **Raina Chen**, Senior Security Engineer at Zoom.\n\n**ABSTRACT**: As the adoption of AI technology proliferates across industries, an increasing number of companies are leveraging AI to power myriad products. This widespread integration necessitates a robust approach to ensuring the security of AI-driven solutions. This discussion explores an overview of Zoom\u2019s security testing guidelines tailored for AI services, encompassing essential facets such as data privacy, model security, system security, open-source software (OSS) security, security of AI downstream services, and Automation Tools.\nThis presentation will provide a framework for navigating these challenges, offering practical insights and strategies for enhancing the security posture of AI services within Zoom and beyond.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Los Angeles",
@@ -288,6 +338,16 @@
         "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/301313714",
         "timezone": "Europe/Berlin",
         "description": "**An Introduction to OWASP SAMM (Software Assurance Maturity Model)**\n\nSAMM is an open framework that helps organizations assess, build, and improve their software security practices. It provides a structured model to guide organizations in integrating security into their SDLC, addressing Vulnerabilities, and promoting a culture of software assurance. SAMM offers a maturity model that enables organizations to measure their software security maturity and identify areas for improvement.\n\n**Speaker**:\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
+    },
+    {
+        "group": "Switzerland",
+        "repo": "www-chapter-switzerland",
+        "name": "Container and Kubernetes Security (Free Half-Day Training)",
+        "date": "2024-09-25",
+        "time": "13:00+02:00",
+        "link": "https://www.meetup.com/owaspswitzerland/events/302684671",
+        "timezone": "Europe/Zurich",
+        "description": "In this **free, half-day training session**, we will provide you with a condensed overview of essential container and Kubernetes security concepts. You will learn the basics on how to harden your Kubernetes cluster and secure your containerized applications.\n\n* **Cloud-native security fundamentals:** Understanding the layered approach to securing cloud, cluster, container, and code.\n* **Hardening containers:** Best practices for reducing the attack surface.\n* **Kubernetes security architecture:** Grasp the key components and potential attack vectors within a Kubernetes cluster.\n* **Segregation in Kubernetes:** Strategies for isolating resources and maintaining security boundaries.\n* **Kubernetes security features:** Learn about RBAC, Network Policies and Admission Controllers (e.g. PSA/PSS) to enforce security requirements.\n\nThis training is designed to provide a solid foundation on the best practices and tips for securing your Kubernetes cluster and containerized applications. Unfortunately, due to time constraints, we won\u2019t be able to have hands-on labs, but you can expect live demos of the concepts covered.\n\nWhether you\u2019re a DevOps engineer, security professional, or just starting out with containers and Kubernetes, this half-day session will give you the knowledge and skills to harden your cloud-native environment.\n\n**Event Timeline:**\n\n* 13:00: Door opening\n* 13:15: Start of training\n* 17:30 (approximately): End of training\n* 17:30-19:00: Possibility to network with some snacks and drinks"
     },
     {
         "group": "Vancouver",
