@@ -1,15 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - August",
-        "date": "2024-08-27",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299460613",
-        "timezone": "Europe/Copenhagen",
-        "description": "Join the August OWASP Aarhus meet with Cryptomathic!\n\nAgenda:\n\n19:00 \u2013 19:10 Welcome by Cryptomathic and OWASP Aarhus\n\n19:10 \u2013 20:00 Using fuzzing to detect program errors by Jan and Anna.Jan and Anna: Software engineers; working with C, C++, and Java on a daily basis while attempting to avoid introducing new critical bugs. We will talk about how fuzzing can be used to detect program errors unrelated to project requirements. The main focus will be fuzzing functions, with known source code, that receive input from untrusted sources.\n\n20:00 \u2013 20:30 Networking break\n\n20:30 \u2013 21:25 \"Secure SDLC with a DevOps Flavor!\" by Jim Manico\nPlease note, that Jim will join us over Teams.\nJoin Jim Manico for an enlightening session on \"Secure SDLC with a DevOps Flavor!\" where he merges cutting-edge DevOps practices with robust security measures. In this talk, Jim will delve into automating security within the CI/CD pipeline to ensure continuous security integration, advocate for a shift-left approach to catch vulnerabilities early, and discuss implementing Security as Code to maintain consistent security configurations. He will also emphasize the importance of fostering a DevSecOps culture where security is a shared responsibility across all teams. Additionally, Jim will outline essential tools and technologies that enhance security in DevOps environments, and stress the significance of monitoring security metrics for continuous improvement. This session is a must-attend for professionals seeking to integrate effective security practices into their development cycles without sacrificing speed or efficiency."
-    },
-    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "From Noise to Insight: Transforming Vulnerability Data",
@@ -50,26 +40,6 @@
         "description": "**When:** Thursday, September 12th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Checkmarx](https://checkmarx.com)\n*Checkmarx is constantly pushing the boundaries of Application Security Testing to make security seamless and simple for the world\u2019s developers and security teams. As the AppSec testing leader, we deliver the unparalleled accuracy, coverage, visibility, and guidance our customers need to build tomorrow\u2019s software securely and at speed.*"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - August 2024 (Online)",
-        "date": "2024-08-27",
-        "time": "11:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/298207020",
-        "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nIf you would like to attend in-person, please pull a ticket from Eventbrite, but please only pull a ticket from Eventbrite if you are attending as we purchase lunch for all in-person tickets pulled and we don't want to waste money and food.\n\\- Group1 [https://www.eventbrite.com/e/980779516937](https://www.eventbrite.com/e/980779516937)\nor\n\\- Group2 [https://www.eventbrite.com/e/980854350767](https://www.eventbrite.com/e/980854350767)\n\n*Presentation: **How to protect WordPress or other CMS websites***\n\nIn this presentation, we will walk through different types of real anonymized attacked WordPress and other CMS frameworks in how those sites were attacked and how the sites were then protected from future attacks.\nEveryone attending should leave the presentation able to:\n\\- Understand how these sites are attacked\n\\- Protects that may have already been in place that didn't work\n\\- What measures were then put in place that worked"
-    },
-    {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "OWASP Bay Area August Meetup with Pacific Hackers",
-        "date": "2024-08-27",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/302963842",
-        "timezone": "America/Los_Angeles",
-        "description": "## Details\n\nWe're excited to announce our upcoming August meetup in conjunction with **Pacific Hackers**, which will be hosted by the awesome **Snyk** team at **Hacker Dojo in Sunnyvale**. Get ready for insightful discussions and the chance to network with some of the brightest minds in the industry.\n\n**Agenda:**\n5:30 - 6:00: Doors open, networking and food\n6:00 - 6:45: Talk 1: Stranger Danger - Javier Garza\n6:45 - 7:30: Talk 2: Business Applications Governance - Ofer Elzam\n\n**Talk 1:**\nSpeaker: Javier Garza\n\nTitle: Stranger Danger - finding security vulnerabilities before they find you\n\nSpeaker Bio:\nJavier Garza is a Technology evangelist that has written many articles on HTTP/2 and web performance, and is the co-author of the O\u2019Reilly Book \u201cLearning HTTP/2\u201d. In 2018, Javier spoke at more than 25 developer-related events around the world, including well-known conferences like Velocity, AWS Re:Invent, and PerfMatters. His life\u2019s motto is: share what you learn, and learn what you don\u2019t. In his free time he enjoys challenging workouts and volunteering for non-profits in areas like children and education.\n\n**Talk 2:**\nSpeaker: Ofer Elzam\n\nDescription:\nSecOps/GRC spend 25-30% of their time chasing operational teams trying to figure out tech-stacks and business architectures. It is a global pain across market segments and verticals. We will analyze the root-causes for these challenges, dig into use-cases, and explore new approaches for frictionless collaboration between SecOps, GRC, MIS, and functional Ops teams.\n\nSpeaker Bio:\nOfer Elzam is the CEO and co-founder of trustedstack.ai. He has been a product leader and innovator at Check Point, Dome9, Cisco, Firemon, Sophos, SecurityScorecard. Always enthusiastic discussing cybersecurity - from NGFW to CSPM to TPRM and almost anything in between."
-    },
-    {
         "group": "Belem",
         "repo": "www-chapter-belem",
         "name": "Owasp Bel\u00e9m CTF",
@@ -77,7 +47,7 @@
         "time": "16:00-04:00",
         "link": "https://www.meetup.com/owasp-belem/events/302959492",
         "timezone": "America/Boa_Vista",
-        "description": "Neste s\u00e1bado, 24 de agosto, a OWASP Bel\u00e9m, um dos cap\u00edtulos brasileiros entre mais de 200 cap\u00edtulos ativos em todo o mundo, tem como objetivo disseminar a miss\u00e3o da OWASP: tornar a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel, para que pessoas e organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos de seguran\u00e7a das aplica\u00e7\u00f5es.\n\nO tema desta edi\u00e7\u00e3o \u00e9 Capture the Flag (CTF), um evento geralmente projetado como um exerc\u00edcio educacional para dar aos participantes experi\u00eancia na explora\u00e7\u00e3o de vulnerabilidades em m\u00e1quinas, al\u00e9m de conduzir e reagir aos tipos de ataques encontrados no mundo real.\n\nData: 24/08/2024\nHor\u00e1rio: 16h\nOnline: https://www.youtube.com/@owaspbelem"
+        "description": "Neste s\u00e1bado, 24 de agosto, a OWASP Bel\u00e9m, um dos cap\u00edtulos brasileiros entre mais de 200 cap\u00edtulos ativos em todo o mundo, tem como objetivo disseminar a miss\u00e3o da OWASP: tornar a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel, para que pessoas e organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos de seguran\u00e7a das aplica\u00e7\u00f5es.\n\nO tema desta edi\u00e7\u00e3o \u00e9 Capture the Flag (CTF), um evento geralmente projetado como um exerc\u00edcio educacional para dar aos participantes experi\u00eancia na explora\u00e7\u00e3o de vulnerabilidades em m\u00e1quinas, al\u00e9m de conduzir e reagir aos tipos de ataques encontrados no mundo real.\n\nData: 31/08/2024\nHor\u00e1rio: 16h\nOnline: https://www.youtube.com/@owaspbelem"
     },
     {
         "group": "Bhopal",
@@ -108,16 +78,6 @@
         "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/302956438",
         "timezone": "Asia/Kolkata",
         "description": "* LLM Security 101 - Series (OWASP Top 5 to 7) by **Sethu Mathavan**\n* Securing Software Supply Chain by **Anirudh srinivas**\n* Wordpress BugBounty by **nagedoer**\n* Malware Forensics by **Pradhan Vijayakumar**\n\nNote: The session details including schedule are available below.\nKindly use this link to register : [Registration form](https://docs.google.com/forms/d/1PsJ0wllUh0HgRtAW9J8oV-CiAwoyIcwPGd-7apEuM1M/edit)"
-    },
-    {
-        "group": "Chile",
-        "repo": "www-chapter-chile",
-        "name": "Pap\u00e1, tengo un romance con la IA",
-        "date": "2024-08-27",
-        "time": "20:00-04:00",
-        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/302317399",
-        "timezone": "America/Santiago",
-        "description": "En esta era de revoluci\u00f3n tecnol\u00f3gica, las interacciones entre humanos e inteligencias artificiales est\u00e1n alcanzando niveles de complejidad sin precedentes.\n\nEste podcast abordar\u00e1 un fen\u00f3meno emergente:\n\n* Individualismo y soledad en el mundo real.\n* El desarrollo de v\u00ednculos emocionales profundos con entidades de IA.\n* Implicaciones \u00c9ticas y Psicol\u00f3gicas en ni\u00f1os, ni\u00f1as y adolescentes."
     },
     {
         "group": "Cincinnati",
@@ -160,6 +120,16 @@
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on September 18th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\nThis month's meeting is brought to you by SnowFROC! This month's speaker will be Jason Haddix! Jason taught two workshops for us at SnowFROC this year and this was one of them. If you missed them, now's your chance!\n\n**Presentation:**\nRecon Like an Adversary: Uncovering Modern Techniques in Attack Surface Management\n\n**Abstract**:\nJoin our expert, Jason, in a talk designed to demystify the advanced techniques adversaries employ to infiltrate organizations. This session is a deep dive into the world of attack surface management using open-source tools, tailored to emulate both adversaries and professional bug hunters.\n\n* Introduction to Reconnaissance Techniques: Gain insights into the methodologies used by adversaries in their initial approach to an organization.\n* Tool Mastery: Explore a range of common tools and techniques for targeting organizations. This includes:\n* Email Acquisition: Methods and tools for gathering email data.\n* Technology Profiling: Techniques for identifying the technology stack of an organization.\n* External Attack Surface Analysis: A focus on cloud and mobile environments, among others.\n* Historical Data Mining: Strategies for uncovering valuable historical endpoint data.\n* Live Demonstrations: Experience real-time use of each tool in the toolchain. Jason will share personal tips and tricks, enhancing your learning experience.\n* Practical Application: The workshop features live targets, offering a real-world scenario for participants to engage with and learn from.\n* Interactive Learning Experience: Participants are encouraged to actively engage, ask questions, and share experiences throughout the session."
     },
     {
+        "group": "Fortaleza",
+        "repo": "www-chapter-fortaleza",
+        "name": "Do Cear\u00e1 ao Palco Internacional: OWASP FORTALEZA na DefCon 2024",
+        "date": "2024-08-31",
+        "time": "10:00-03:00",
+        "link": "https://www.meetup.com/owasp-fortaleza/events/303075596",
+        "timezone": "America/Fortaleza",
+        "description": "Descubra como foi, saiba sobre os desafios enfretados, as novidades em cybersecurity, e se realmente vale a pena participar da DEFCON. N\u00e3o perca essa oportunidade de se conectar, aprender e se destacar na \u00e1rea!"
+    },
+    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Paris - Septembre 2024",
@@ -168,6 +138,16 @@
         "link": "https://www.meetup.com/owasp-france/events/303049860",
         "timezone": "Europe/Paris",
         "description": "\\-\\-\\-\nPour des raisons de s\u00e9curit\u00e9 d'acc\u00e8s aux locaux de notre sponsor, il est n\u00e9cessaire de fournir votre nom et pr\u00e9nom pour ce meetup. **Une pi\u00e8ce d'identit\u00e9 sera demand\u00e9e** pour l'obtention d'un badge d'acc\u00e8s. Nous vous remercions de votre compr\u00e9hension.\n\\-\\-\\-\nCe meetup se deroulera chez **TotalEnergies** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+    },
+    {
+        "group": "Frankfurt",
+        "repo": "www-chapter-frankfurt",
+        "name": "OWASP Frankfurt Chapter #67 - CISO Roundtable ",
+        "date": "2024-09-26",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/302364452",
+        "timezone": "Europe/Berlin",
+        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #67!\nOur Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\nFor this meetup, we\u2019re introducing a new format: a **CISO roundtable**. We are excited to welcome panelists from diverse industries to discuss software and cloud security.\n\n* **Sheetal Joseph** \\- Director\\, Cybersecurity at Isar Aerospace\n* **Dr. Tim Sattler** \\- CISO at Jungheinrich AG\n* **Prof. Dr. Igor Podebrad** \\- Director\\, Office of the CISO\\, Google Cloud\n* **Scott T. Nichols** \\- Global Product Security Leader Danaher Corporation\n* TBC\n\nWe aim to provide fresh perspectives and gain CISO-level insights, starting with a set of questions and then opening the floor for a lively audience discussion. Participants can submit questions in advance or ask them during the event.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**. For everyone who's interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n_When?\nOur Meetup takes place on 26.09.2024 from 18.00 to 22.00 o'clock CEST.\n\n_Where?\nIBM Tower One is located at Br\u00fcsseler Stra\u00dfe 1-3 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on [LinkedIn](https://www.linkedin.com/company/owasp-frankfurt/) and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\nWe're looking forward to seeing you at our event!"
     },
     {
         "group": "Gothenburg",
@@ -280,6 +260,26 @@
         "description": "We are proud to present the 14th OWASP New Zealand Day conference, to be held at the Auckland University of Technology (AUT) City Campus on Thursday and Friday, September 5th and 6th, 2024. OWASP New Zealand Day is a two-day conference dedicated to web and application security, with an emphasis on secure architecture and development techniques to help Kiwi developers build more secure applications. The conference is presented by the [OWASP New Zealand Chapter](https://owasp.org/www-chapter-new-zealand/) and organised by [AppSec New Zealand Incorporated](https://appsec.org.nz/).\n\nThere will be two presentation streams throughout the conference. The first stream will include introductory talks on application and information security topics, as well as on policy, compliance, and risk management. The second stream will primarily address deeper technical topics. Talks featuring OWASP projects and tools are particularly encouraged, as are talks by members of under-represented communities.\n\nIn addition to these principal streams, there will be a third, smaller \u201cstream,\u201d supporting sponsor presentations, demos of OWASP tools, and interest/user group meetings. Diamond, Platinum, and Gold Sponsors will be given priority for time slots in this \u201cstream.\u201d Further details will be published closer to the date, regarding opportunities for other groups to present.\n\nWho is the Conference for?\n\n* Web Developers\n* Security Professionals and Enthusiasts\n* Program and Project Managers\n* Business Analysts\n* Requirements Analysts\n* Software Testers\n\n## Conference Live Stream\n\nAll three streams of the conference (Track 1, Track 2, and the Sponsor Demos) will be live streamed on the day. Access information for the conference live-stream will be provided to registered delegates, as details are finalised.\n\n## Conference Structure\n\n**Date:** Thursday and Friday, 5-6 September 2024\n**Time:** 9:15 a.m. - 5:00 p.m., Thursday; 10:00 a.m. - 5:00 p.m., Friday\nThe main conference on Thursday and Friday will have two streams throughout both days:\n**Stream One:**\n\n* Introductory Topics\n* Program Management, Policy, Compliance, Risk Management\n\n**Stream Two:**\n\n* Technical Topics\n\nThroughout the conference, an exhibition area will be open in the main atrium. Representatives from many of our Premier Sponsors will be on hand throughout the event, to answer your questions about their products and services, or to discuss employment opportunities they may have available. There will be door prize drawings at the Closing Session on Friday. To qualify for the drawings, you will need to visit with each exhibiting sponsor during the conference, and have them stamp your entry card.\n\n## Registration\n\nRegistration is now open on Humanitix: [https://events.humanitix.com/owaspnz2024](https://events.humanitix.com/owaspnz2024)\n\nEarly registration (on or before 15 August):\n\n* $30, standard registration\n* **FREE**, for students and unwaged attendees\n* From 16 August, a late registration surcharge applies to all registrations ($20 Regular, $15 Student/Unwaged)"
     },
     {
+        "group": "Patna",
+        "repo": "www-chapter-patna",
+        "name": "Session 09 - Offensive System and Network Security By Manan Jain",
+        "date": "2024-08-31",
+        "time": "14:00+05:30",
+        "link": "https://www.meetup.com/owasp-patna-chapter/events/303070929",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us for an engaging session led by Manan Jain, where we will delve into the critical aspects of Offensive System and Network Security. This session aims to equip participants with a comprehensive understanding of offensive security techniques, methodologies, and tools used to identify and exploit vulnerabilities within systems and networks. We will explore real-world scenarios, hands-on demonstrations, and best practices for enhancing security posture through proactive measures. Whether you are a seasoned professional or a newcomer to the field, this session will provide valuable insights and practical knowledge to bolster your offensive security skills."
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Monthly Networking Social",
+        "date": "2024-09-26",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-peterborough/events/302453493",
+        "timezone": "Europe/London",
+        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
@@ -360,6 +360,16 @@
         "description": "TBD"
     },
     {
+        "group": "Yerevan",
+        "repo": "www-chapter-yerevan",
+        "name": "OWASP Yerevan August meetup - A. Abrahamyan, S. Harutyunyan; A. Vartanian",
+        "date": "2024-08-28",
+        "time": "19:00+04:00",
+        "link": "https://www.meetup.com/owasp-yerevan/events/303070942",
+        "timezone": "Asia/Yerevan",
+        "description": "OWASP Yerevan August meetup agenda:\n\n1. OpenSSL Bootstrap - Andranik Abrahamyan, Samvel Harutyunyan\n2. CERT-AM presents: NetAdoption! how digital and secure are we? - Antranig Vartanian\n\nLocation: American University of Armenia\nRoom number 314W in Paramaz Avedisian building (PAB, second/new building)."
+    },
+    {
         "group": "Samm",
         "repo": "www-project-samm",
         "name": "September community call - OWASP SAMM",
@@ -368,5 +378,15 @@
         "link": "https://www.meetup.com/owasp-samm/events/302806897",
         "timezone": "America/New_York",
         "description": "During our next community call we will cover:\n\n1. Welcome new community members\n2. SAMM project updates\n3. Q&A"
+    },
+    {
+        "group": "Wrongsecrets",
+        "repo": "www-project-wrongsecrets",
+        "name": "OWASP Frankfurt Chapter #67 - CISO Roundtable ",
+        "date": "2024-09-26",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/302364452",
+        "timezone": "Europe/Berlin",
+        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #67!\nOur Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\nFor this meetup, we\u2019re introducing a new format: a **CISO roundtable**. We are excited to welcome panelists from diverse industries to discuss software and cloud security.\n\n* **Sheetal Joseph** \\- Director\\, Cybersecurity at Isar Aerospace\n* **Dr. Tim Sattler** \\- CISO at Jungheinrich AG\n* **Prof. Dr. Igor Podebrad** \\- Director\\, Office of the CISO\\, Google Cloud\n* **Scott T. Nichols** \\- Global Product Security Leader Danaher Corporation\n* TBC\n\nWe aim to provide fresh perspectives and gain CISO-level insights, starting with a set of questions and then opening the floor for a lively audience discussion. Participants can submit questions in advance or ask them during the event.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**. For everyone who's interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n_When?\nOur Meetup takes place on 26.09.2024 from 18.00 to 22.00 o'clock CEST.\n\n_Where?\nIBM Tower One is located at Br\u00fcsseler Stra\u00dfe 1-3 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on [LinkedIn](https://www.linkedin.com/company/owasp-frankfurt/) and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\nWe're looking forward to seeing you at our event!"
     }
 ]
