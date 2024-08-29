@@ -180,26 +180,6 @@
         "description": "OWASP topic TBA"
     },
     {
-        "group": "Jakarta",
-        "repo": "www-chapter-jakarta",
-        "name": "Emerging Threats for the Mobile Application",
-        "date": "2024-08-28",
-        "time": "16:30+07:00",
-        "link": "https://www.meetup.com/owasp-jakarta-chapter/events/302680928",
-        "timezone": "Asia/Jakarta",
-        "description": "Software yang tidak aman telah mengancam infrastruktur keuangan, kesehatan, pertahanan, energi, dan infrastruktur penting lainnya. Dengan semakin kompleks dan terhubungnya infrastruktur digital kita, kesulitan mencapai keamanan aplikasi meningkat secara eksponensial. Open Web Application Security Project (OWASP) yang merupakan komunitas terbuka yang didedikasikan untuk memungkinkan organisasi mengembangkan, membeli, dan memelihara aplikasi yang dapat dipercaya. Di OWASP sendiri, anda akan menemukan free and open\u2026\n\u2022 Tool dan standar keamanan aplikasi\n\u2022 Buku tentang uji keamanan aplikasi, pengembangan kode aman, dan review kode keamanan\n\u2022 Kendali keamanan dan pustaka standar\n\u2022 Cabang lokal di seluruh dunia\n\u2022 Riset terkini\n\u2022 Konferensi lengkap di seluruh dunia\n\u2022 Mailing list\n\u2022 Dan banyak lagi \u2026 di www.owasp.org\n\nKali ini di OWASP Jakarta akan membahas :\n1. Emerging Threats for the Mobile Application\n\nAbstract:\nVulnerability and Threats in the Era of Mobile Applications\n\nMobile app security involves safeguarding applications on mobile devices, such as smartphones and tablets, from a variety of security threats. As mobile apps become increasingly vital to both personal and business activities, ensuring their security is essential to protect sensitive data, maintain user privacy, and build trust. With the rapid growth of mobile usage, attackers are constantly finding new ways to exploit vulnerabilities in mobile applications.\nIn this session, we will delve into some of the most common and emerging methods used to attack mobile applications, including:\n\u2022 Repackaging apps: Modifying legitimate apps to include malicious code and redistributing them.\n\u2022 Hooking frameworks: Using tools to intercept and manipulate app behavior for malicious purposes.\n\u2022 Mobile bots: Leveraging automated scripts to perform various malicious activities such as credential stuffing and spamming.\n\u2022 Man-in-the-Middle (MitM) attacks: Intercepting communication between the app and the server to steal data or inject malicious content.\nBy understanding these threats and learning about best practices for mobile app security, you can better protect your applications and users from potential attacks.\nJoin us for this interactive session to gain valuable insights and practical knowledge on securing mobile apps effectively!\n\nSpeaker : Shahnawaz Backer / Senior Solutions Architect, Asia Pacific, China and Japan\n\nShort Bio :\nShahn Backer is an ever inquisitive cyber security professional, who is intrigued by modern applications and its challenges. He has a keen interest in modern application security, digital identity, multi-cloud security and edge compute. He is currently a Senior Solutions Architects and focusses on application agility and security .\n\nHe frequently writes on IT security at f5labs.com and has co-authored a Redbook on access management deployment patterns. His works pivots on boosting security with visibility, intelligence, and automation. Shahn has designed identity systems for major financial institutions and government bodies and has released a gamified learning platform for Application Programming Interfaces security.\n\nLinkedin : https://www.linkedin.com/in/backers\n\nTopic:\nsupported by appsec.co.id also f5 networks indonesia\n\nregister via zoom :\nhttps://f5networks.zoom.us/webinar/register/WN_A46TytnARaSxJTdWRWk6Qg#/registration"
-    },
-    {
-        "group": "Joao Pessoa",
-        "repo": "www-chapter-joao-pessoa",
-        "name": "A Arquitetura e a Engenharia da Modelagem de Amea\u00e7as segundo a OWASP",
-        "date": "2024-08-28",
-        "time": "19:00-03:00",
-        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/302891134",
-        "timezone": "America/Fortaleza",
-        "description": "**MEETUP PRESENCIAL**\nA Arquitetura e a Engenharia de Softwares possuem grande participa\u00e7\u00e3o no desenvolvimento dos projetos e \u00e9 de suma import\u00e2ncia que o Arquiteto e o Engenheiro de Softwares saibam definir e Modelar as Amea\u00e7as para o seu projeto na vis\u00e3o de um AppSec, atrav\u00e9s dos Controles Proativos da OWASP. Venha entender melhor como funciona este processo."
-    },
-    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - SEP 25, 2024",
@@ -208,26 +188,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/300687523",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: AI Services Security Test Guideline at Zoom\nJoin us for great networking, dinner and drinks, and see a presentation by **Raina Chen**, Senior Security Engineer at Zoom.\n\n**ABSTRACT**: As the adoption of AI technology proliferates across industries, an increasing number of companies are leveraging AI to power myriad products. This widespread integration necessitates a robust approach to ensuring the security of AI-driven solutions. This discussion explores an overview of Zoom\u2019s security testing guidelines tailored for AI services, encompassing essential facets such as data privacy, model security, system security, open-source software (OSS) security, security of AI downstream services, and Automation Tools.\nThis presentation will provide a framework for navigating these challenges, offering practical insights and strategies for enhancing the security posture of AI services within Zoom and beyond.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - AUG 28, 2024",
-        "date": "2024-08-28",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/300687355",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Integrating Security Best Practices with Shift-Left and Shift-Right in Agile SDLC\nJoin us for great networking, dinner and drinks, and see a presentation by **Liliya Frye**, Director of QA Engineering\n\n**ABSTRACT**: Comprehensive overview of continuous integration and continuous web application security testing with utilization of Shift-Left and Shift-Right methodologies within Agile SDLC. What are the best DAST/IAST/SAST tools? Explore practical strategies, automated testing and penetration testing within CI/CD pipelines to maintain robust security and quality from inception to deployment. Discover how to address common challenges, mitigate security risks, enhancing both product quality and operational efficiency. Elevate your security measures and ensure continuous quality in software development life cycle.\n\n**Thanks to our Sponsor**: *[Checkmarx](https://checkmarx.com/)*\n*Checkmarx's* mission is to provide the technology, expertise, and intelligence that enable developers and enterprises to secure the world\u2019s applications. We help companies deliver secure software faster, making the world safer for all of us. *Checkmarx is the enterprise application security leader, helping security and development teams build DevSecTrust by securing every phase of development with our cloud-native platform. We proudly serve 1,800 customers, including 60% of Fortune 100.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
-    },
-    {
-        "group": "Melbourne",
-        "repo": "www-chapter-melbourne",
-        "name": "OWASP Melbourne - August 2024 Meetup",
-        "date": "2024-08-28",
-        "time": "18:00+10:00",
-        "link": "https://www.meetup.com/application-security-owasp-melbourne/events/302627913",
-        "timezone": "Australia/Melbourne",
-        "description": "G'day all,\n\nIt was great to see new faces last month. Thank you to those that attended.\n\nIn our last meetup, attendees voted for [Spicy Korea](https://g.co/kgs/FnXwKAr) as our location this month. On 28th August 2024 6PM, there we shall meet.\n\n*There's NO BOOKING. If you're the first to arrive, please grab a table for the group and post a picture of the table's location in the comments of this meetup event. We'll use it to locate each other. (If you don't see a post, you're lucky first. Please grab us a table and post a pic. )*\n\n**Please remember to update your RSVP if you can no longer attend.** Even if it's just 30 minutes prior. It'll help whomever that arrives first know how big a table to get.\n\nWe're looking forward to the discussions we had once again.\n\nSee you there.\n\nMore details on the format, and what to expect below:\n\n**The Practitioner's Roundtable**\nIt's a monthly meetup, for AppSec/ProdSec practitioners to participate discussing AppSec/ProdSec topics and share knowledge. There's no speakers, or sponsors; just a facilitator, with the expectation that you'll join the conversations. Broadly, the idea is that you're swinging by after work, for a regular catch-up with our peers over dinner (with F&B at your own cost) with a known format.\n\\-\\-\\-\n**So, what's happening?**\nThe format:\n\n1. At 6pm all attendees arrive, and order (and pay for) their own meals - we'll do the rest while waiting for the meals to arrive and as we eat.\n2. All attendees write down on a card 1-2 AppSec/ProdSec related topics they'd like to discuss.\n3. We'll all each cast 3 votes on the cards we'd like to discuss.\n4. We'll sort the cards, and discuss the topics with the top 3-4 highest votes. Starting with the topic with the highest votes.\n5. After 5(?) minutes, we all decide if we'd like to continue or move on to the next topic.\n6. If we continue, after 15(?) minutes, we all move on to the next topic of discussion.\n7. At 7pm, we wrap up and officially end. Before everyone leaves, we vote on the next restaurant that we'll meet at.\n\nThis is[ inspired by Lean Coffee](https://agilecoffee.com/leancoffee/), and intended for participants to be collaborators in the conversation focused on AppSec & ProdSec topics.\nFor the location selection, here are the considerations we work with:\n\n1. It must be within 1 \"city block\" of the Melbourne Free Tram Zone.\n2. The typical price for a whole meal (without alcohol) should be under $50 per person.\n3. It must allow individual orders - you'd be ordering and paying for your own meal.\n4. It will need to have seating space for the group to say, just walk-in to the restaurant ( this may change if it grows beyond 10 regular attendees ).\n5. It must be quiet enough for us to have meaningful conversations.\n6. It must not be a restaurant we've been to in the past 6 months. (Just to keep things fresh )\n\nAlso, although we use the word \u201crestaurant\u201d this is used broadly to mean food establishment - if we\u2019re all keen on hitting up a decent kebab place, that works. As a courtesy to the venue, there's an expectation that you'd order something there.\n\nSee you there.\nThank you."
     },
     {
         "group": "Minneapolis St Paul",
@@ -350,6 +310,16 @@
         "description": "In this **free, half-day training session**, we will provide you with a condensed overview of essential container and Kubernetes security concepts. You will learn the basics on how to harden your Kubernetes cluster and secure your containerized applications.\n\n* **Cloud-native security fundamentals:** Understanding the layered approach to securing cloud, cluster, container, and code.\n* **Hardening containers:** Best practices for reducing the attack surface.\n* **Kubernetes security architecture:** Grasp the key components and potential attack vectors within a Kubernetes cluster.\n* **Segregation in Kubernetes:** Strategies for isolating resources and maintaining security boundaries.\n* **Kubernetes security features:** Learn about RBAC, Network Policies and Admission Controllers (e.g. PSA/PSS) to enforce security requirements.\n\nThis training is designed to provide a solid foundation on the best practices and tips for securing your Kubernetes cluster and containerized applications. Unfortunately, due to time constraints, we won\u2019t be able to have hands-on labs, but you can expect live demos of the concepts covered.\n\nWhether you\u2019re a DevOps engineer, security professional, or just starting out with containers and Kubernetes, this half-day session will give you the knowledge and skills to harden your cloud-native environment.\n\n**Event Timeline:**\n\n* 13:00: Door opening\n* 13:15: Start of training\n* 17:30 (approximately): End of training\n* 17:30-19:00: Possibility to network with some snacks and drinks"
     },
     {
+        "group": "Tampa",
+        "repo": "www-chapter-tampa",
+        "name": "OWASP Tampa Chapter 2024Q3 Lunch and Learn",
+        "date": "2024-09-11",
+        "time": "11:00-04:00",
+        "link": "https://www.meetup.com/owasp-tampa/events/303088588",
+        "timezone": "America/New_York",
+        "description": "**Welcome to our OWASP Tampa 2024Q3 Lunch and Learn!**\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda**:\n\\- 11:00am \\- Registration and Lunch\n\\- 12:00pm \\- Speaker \\- Nate Michalov \\- SCA in the world of AI\n\\- 1:00pm \\- Depart\n\n**Speaker**:\nNate Michalov is a seasoned application security professional with over 12 years of diverse experience. Throughout his career, Nate has contributed to organizations such as Endor Labs, Apiiro, Snyk, Veracode, and Annkissam, where he has focused on securing digital ecosystems while aligning technological strategies with business objectives. In various roles including customer success architect, senior sales engineer, and senior SAST specialist, Nate has consistently tackled complex challenges at the intersection of business and technology. Known for his collaborative approach and dedication to staying informed about emerging trends, Nate is recognized as a trusted advisor in promoting innovation and resilience in application security.\n\n**Abstract**:\n{coming soon}\n\n**Location**:\nThe Neon Temple\n5406 Hoover Blvd,\nTampa, FL\n33634\n\n**Sponsors**:\n[Endor Labs | Software Supply Chain Security Solutions](https://www.endorlabs.com/)"
+    },
+    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "OWASP Vancouver Monthly Meetup",
@@ -358,16 +328,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516377",
         "timezone": "America/Vancouver",
         "description": "TBD"
-    },
-    {
-        "group": "Yerevan",
-        "repo": "www-chapter-yerevan",
-        "name": "OWASP Yerevan August meetup - A. Abrahamyan, S. Harutyunyan; A. Vartanian",
-        "date": "2024-08-28",
-        "time": "19:00+04:00",
-        "link": "https://www.meetup.com/owasp-yerevan/events/303070942",
-        "timezone": "Asia/Yerevan",
-        "description": "OWASP Yerevan August meetup agenda:\n\n1. OpenSSL Bootstrap - Andranik Abrahamyan, Samvel Harutyunyan\n2. CERT-AM presents: NetAdoption! how digital and secure are we? - Antranig Vartanian\n\nLocation: American University of Armenia\nRoom number 314W in Paramaz Avedisian building (PAB, second/new building)."
     },
     {
         "group": "Samm",
