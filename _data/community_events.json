@@ -90,16 +90,6 @@
         "description": "**This meeting will be in-person! Thank you to Kroger for hosting at their Kroger Blue Ash Technology Center. For security, RSVP by 2 days prior to the meeting is required.**\n\n**Sponsored by [Traceable](https://www.traceable.ai/)**\n\nIn this session, we dive into API Security by dissecting real-world API vulnerabilities that have caused security breaches. We'll guide you through the process of hunting for such vulnerabilities, and provide insights to effectively defend against such attacks.\n\n**Approximate schedule:**\n4:00 - Doors open. Come for networking and refreshments\n4:15 - Presentation begins.\n5:15 - Networking and refreshments resume!\n6:00 EOE (End of Event)"
     },
     {
-        "group": "Colorado Springs",
-        "repo": "www-chapter-colorado-springs",
-        "name": "OWASP CoS August 2024",
-        "date": "2024-08-29",
-        "time": "18:00-06:00",
-        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/302639003",
-        "timezone": "America/Denver",
-        "description": "Speaker: John Mocuta; \"Finding and Submitting a Zero day\"\n\nAfter / during: Pizza, Beer, Assortment of soft drinks\n\nLocation: National Cyber Center (NCC):\nhttps://cyber-center.org/"
-    },
-    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "All Day All Night API Security Endpoint Analytics",
@@ -240,16 +230,6 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Monthly Networking Social",
-        "date": "2024-08-29",
-        "time": "19:00+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/302438652",
-        "timezone": "Europe/London",
-        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
         "group": "Phoenix",
         "repo": "www-chapter-phoenix",
         "name": "September 2024 Meeting",
@@ -318,6 +298,16 @@
         "link": "https://www.meetup.com/owasp-tampa/events/303088588",
         "timezone": "America/New_York",
         "description": "**Welcome to our OWASP Tampa 2024Q3 Lunch and Learn!**\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda**:\n\\- 11:00am \\- Registration and Lunch\n\\- 12:00pm \\- Speaker \\- Nate Michalov \\- SCA in the world of AI\n\\- 1:00pm \\- Depart\n\n**Speaker**:\nNate Michalov is a seasoned application security professional with over 12 years of diverse experience. Throughout his career, Nate has contributed to organizations such as Endor Labs, Apiiro, Snyk, Veracode, and Annkissam, where he has focused on securing digital ecosystems while aligning technological strategies with business objectives. In various roles including customer success architect, senior sales engineer, and senior SAST specialist, Nate has consistently tackled complex challenges at the intersection of business and technology. Known for his collaborative approach and dedication to staying informed about emerging trends, Nate is recognized as a trusted advisor in promoting innovation and resilience in application security.\n\n**Abstract**:\n{coming soon}\n\n**Location**:\nThe Neon Temple\n5406 Hoover Blvd,\nTampa, FL\n33634\n\n**Sponsors**:\n[Endor Labs | Software Supply Chain Security Solutions](https://www.endorlabs.com/)"
+    },
+    {
+        "group": "Tunisia",
+        "repo": "www-chapter-tunisia",
+        "name": "GraphQL Vulnerabilities in the Wild: A Hands-On Workshop with OWASP TOP 10 Insig",
+        "date": "2024-09-05",
+        "time": "15:00+01:00",
+        "link": "https://www.meetup.com/owasp-tunis-meetup-group/events/303124793",
+        "timezone": "Africa/Tunis",
+        "description": "Welcome to OWASP Tunisia Chapter !\n\nA new Youtube live ! We invite you to subscribe to our YouTube channel and follow us https://www.youtube.com/@owasptunisiachapter4108/streams\n\nOur dear guest speaker: Antoine Carossio\n\nAbout our speaker\nAntoine is the co-founder of Escape, backed by Y Combinator, the prestigious startup accelerator, and celebrated on the Forbes 30 Under 30 list for revolutionizing Application Security. From hacking computers for fun in his early days to co-founding Escape as CTO, Antoine graduated from top-notch schools: Ecole Polytechnique (Paris) and UC Berkeley (California), before working at Apple as a Machine Learning Engineer. Antoine is also a recognized figure in the tech industry, sharing his knowledge by speaking at major international conferences such as the InCyber Forum, bSides, APIdays, and the GraphQL Conference.\n\nTopic: \u201cGraphQL Vulnerabilities in the Wild: A Hands-On Workshop with OWASP TOP 10 Insights\u201d\n\nABSTRACT:\n\nJoin Antoine Carossio, Co-founder & CTO of Escape, the leading Application Security Testing startup, for an immersive, hands-on workshop focused on the OWASP TOP 10 and GraphQL vulnerabilities. This session provides a rare opportunity to engage directly with the cutting-edge challenges and solutions in the ever-evolving world of GraphQL security.\n\nDrawing on extensive research into real-world production GraphQL endpoints, Antoine will guide you through the complex security landscape of GraphQL. With his deep expertise in offensive security, Antoine will share valuable insights and proactive strategies to tackle today\u2019s most critical vulnerabilities.\n\nAntoine and his team have invested over 500 hours in chaos engineering across more than 1500 GraphQL endpoints, uncovering over 46,000 security flaws, including critical vulnerabilities that expose sensitive data without authentication. In this hands-on workshop, you\u2019ll dive deep into these findings and learn the tools and methodologies needed to secure your own GraphQL implementations.\n\nThe session will explore the OWASP TOP 10 vulnerabilities and how they intersect with GraphQL\u2019s unique security challenges. From complexity issues and schema leaks to traditional API security flaws like injections and internal server errors, you\u2019ll gain a comprehensive understanding of potential threats. Real-world case studies will illustrate the severe impact of data leaks, including personal information, secrets, and tokens.\n\nYou\u2019ll leave the workshop equipped with practical skills and tools, including GraphQL Armor and a detailed security checklist, to help you proactively safeguard your GraphQL applications. This session is crucial for developers, security professionals, and SREs who want to confidently navigate the intricate waters of GraphQL security."
     },
     {
         "group": "Vancouver",
