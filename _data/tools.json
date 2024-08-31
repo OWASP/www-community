@@ -1961,5 +1961,14 @@
       "platforms": "SaaS",
       "note": "fitoxs is a complete security tool for web applications and API",
       "type": "DAST"
+   },
+   {
+      "title": "LeapFix",
+      "url": "https://marketplace.visualstudio.com/items?itemName=FernandoMengali.leapfix-sast-scan&ssr=false#review-details",
+      "owner": "Fernando Mengali, Leap",
+      "license": "Free",
+      "platforms": "VSCode",
+      "note": "It is a Visual Studio IDE plugin for static code vulnerability analysis (SAST) finding flaws with high precision and depth in 9 languages",
+      "type": "SAST"
    }
 ]
