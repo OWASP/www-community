@@ -120,16 +120,6 @@
         "description": "Please join us at Monkey's Tail for a Happy Hour sponsored by Salvador Technologies.\n\nInformation from our sponsor:\nhttps://www.salvador-tech.com/\nSalvador addresses a crucial problem concerning operational continuity and cyber attack recovery for mission critical systems, eliminating costly, inconvenient, or even dangerous downtime. Our Security Failover technology is redefining the essence of ICS & OT Resilience, with our 30-second Recovery."
     },
     {
-        "group": "Indraprastha Institute Of Information Technology",
-        "repo": "www-chapter-indraprastha-institute-of-information-technology",
-        "name": "Decentralised Discussions",
-        "date": "2024-09-02",
-        "time": "16:30+05:30",
-        "link": "https://www.meetup.com/owasp-indraprastha-institute-of-information-technology/events/303133200",
-        "timezone": "Asia/Kolkata",
-        "description": "OWASP IIITD invites you to another meetup!\nThis time, we're exploring new territories: the world of cryptography and blockchain! Join us for an exciting Web3 Workshop with amazing food and speakers with more than three years of experience in the field!\n\n**Workshop Overview:**\n\n* **Introduction to Cryptography:** Fundamental concepts.\n* **What is Blockchain and Why Build on It:** Exploring the significance and potential of blockchain.\n* **Hands-On Coding Session:** Setting up necessary technologies (TypeScript, Node.js) and guiding students to deploy their first blockchain web application.\n* **Post-Workshop Exercise:** Engaging students with a mini-challenge, offering cash prizes for the best submissions.\n\n**Additional Highlights:**\n\n* Free refreshments for all attendees.\n* Cool stickers and custom merchandise for top participants.\n* Guidance on career paths, hackathons, and earning opportunities in blockchain."
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -148,6 +138,16 @@
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/303150504",
         "timezone": "America/Fortaleza",
         "description": "**MEETUP ONLINE**\nO Pipeline \u00e9 o cora\u00e7\u00e3o pulsante de muitas organiza\u00e7\u00f5es modernas. Hoje estas novas tecnologias, permitem uma entrega de software mais r\u00e1pida, flex\u00edvel e diversa. No entanto, elas tamb\u00e9m remodelaram a superf\u00edcie de ataque com uma infinidade de novas avenidas e oportunidades para os invasores e o professor Cleyber Silva, abordar\u00e1 os 10 riscos de seguran\u00e7a a se observar, quando implementamos estes processos."
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "Hands-on Workshop Utilize DSOMM App to Define and Deliver Your Own Program",
+        "date": "2024-10-02",
+        "time": "19:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/302731833",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC**: Utilize DSOMM App to Define and Deliver Your Own Program\nStep into the world of DSOMM in an immersive hands-on training event offered by **Timo Pagel**, [OWASP DSOMM](https://owasp.org/www-project-devsecops-maturity-model/) Project lead.\n\n**Abstract:** Discover how to elevate your DevOps security strategy with the OWASP DevSecOps Maturity Model (DSOMM). This comprehensive framework offers a structured approach to prioritizing and implementing security measures within DevOps practices.\n\nIn this workshop, Timo will introduce DSOMM and its practical application, demonstrating how to leverage DevOps strategies to enhance security. He'll showcase the DSOMM application and its features, guiding you through the process of customizing and scaling your AppSec program. Specifically, how you can customize the activities your team(s) should implement with level, title, descriptions/requirements, and evidence to deliver it to your teams including the current implementation status.\nYou'll learn about the \"inheritance\" concept in DSOMM activities and its time-saving benefits, including automatic mapping to frameworks like SAMM and ISO 27001. Through an interactive exercise, you'll create a small application security testing program based on DSOMM, gaining hands-on experience in prioritizing AppSec activities.\n\nThis talk offers tools and techniques for all skill levels, whether you're new to AppSec/DevSecOps or looking to refine your existing strategies.\nJoin us to learn how DSOMM can transform your approach to security and sharpen your skills in prioritizing AppSec/DevSecOps activities for enhancing impact.\n\n*Requirements*:\n\\- Docker\n\\- Linux is recommended\\.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
     },
     {
         "group": "Los Angeles",
@@ -230,6 +230,16 @@
         "description": "In today's digital age, where our lives are increasingly online, understanding the basics of cyber and web security is more important than ever. This session will provide you with an essential overview of the core principles and practices that safeguard our digital world. From common vulnerabilities to best practices in protecting web applications, we will explore the fundamental concepts that every developer, security enthusiast, and tech professional should know.\n\nJoin us as we delve into the world of cyber and web security, equipping you with the knowledge to navigate and protect the digital landscape confidently."
     },
     {
+        "group": "Sastra University",
+        "repo": "www-chapter-sastra-university",
+        "name": "Docker Security 101: Anchoring Security with a Deep Dive into Containers",
+        "date": "2024-09-11",
+        "time": "19:00+05:30",
+        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/303169491",
+        "timezone": "Asia/Kolkata",
+        "description": "Curious about Docker? Join our webinar to learn the basics of **Docker security** and how containers are changing the way we build and deploy applications. Perfect for beginners looking to get started with container security. Don't miss out!"
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -298,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-tunis-meetup-group/events/303124793",
         "timezone": "Africa/Tunis",
         "description": "Welcome to OWASP Tunisia Chapter !\n\nA new Youtube live ! We invite you to subscribe to our YouTube channel and follow us https://www.youtube.com/@owasptunisiachapter4108/streams\n\nOur dear guest speaker: Antoine Carossio\n\nAbout our speaker\nAntoine is the co-founder of Escape, backed by Y Combinator, the prestigious startup accelerator, and celebrated on the Forbes 30 Under 30 list for revolutionizing Application Security. From hacking computers for fun in his early days to co-founding Escape as CTO, Antoine graduated from top-notch schools: Ecole Polytechnique (Paris) and UC Berkeley (California), before working at Apple as a Machine Learning Engineer. Antoine is also a recognized figure in the tech industry, sharing his knowledge by speaking at major international conferences such as the InCyber Forum, bSides, APIdays, and the GraphQL Conference.\n\nTopic: \u201cGraphQL Vulnerabilities in the Wild: A Hands-On Workshop with OWASP TOP 10 Insights\u201d\n\nABSTRACT:\n\nJoin Antoine Carossio, Co-founder & CTO of Escape, the leading Application Security Testing startup, for an immersive, hands-on workshop focused on the OWASP TOP 10 and GraphQL vulnerabilities. This session provides a rare opportunity to engage directly with the cutting-edge challenges and solutions in the ever-evolving world of GraphQL security.\n\nDrawing on extensive research into real-world production GraphQL endpoints, Antoine will guide you through the complex security landscape of GraphQL. With his deep expertise in offensive security, Antoine will share valuable insights and proactive strategies to tackle today\u2019s most critical vulnerabilities.\n\nAntoine and his team have invested over 500 hours in chaos engineering across more than 1500 GraphQL endpoints, uncovering over 46,000 security flaws, including critical vulnerabilities that expose sensitive data without authentication. In this hands-on workshop, you\u2019ll dive deep into these findings and learn the tools and methodologies needed to secure your own GraphQL implementations.\n\nThe session will explore the OWASP TOP 10 vulnerabilities and how they intersect with GraphQL\u2019s unique security challenges. From complexity issues and schema leaks to traditional API security flaws like injections and internal server errors, you\u2019ll gain a comprehensive understanding of potential threats. Real-world case studies will illustrate the severe impact of data leaks, including personal information, secrets, and tokens.\n\nYou\u2019ll leave the workshop equipped with practical skills and tools, including GraphQL Armor and a detailed security checklist, to help you proactively safeguard your GraphQL applications. This session is crucial for developers, security professionals, and SREs who want to confidently navigate the intricate waters of GraphQL security."
+    },
+    {
+        "group": "Uruguay",
+        "repo": "www-chapter-uruguay",
+        "name": "OWASP Meetup - Septiembre",
+        "date": "2024-09-10",
+        "time": "18:30-03:00",
+        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/303204126",
+        "timezone": "America/Montevideo",
+        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\n**Pablo Alzuri**: *Modelado de Amenazas: Aplicando STRIDE con Threat Dragon de OWASP*\nExploraremos c\u00f3mo aplicar el modelo STRIDE en el desarrollo de software usando Threat Dragon de OWASP. A trav\u00e9s de un juego pr\u00e1ctico, los participantes aprender\u00e1n a modelar amenazas y un enfoque pr\u00e1ctico para llevarlo a sus proyectos.\n\n**Sebasti\u00e1n Passaro:** *Historias de malware: Lo que le pas\u00f3 a una amiga y a mi hermano*\nEl malware es eso que te cuentan y ves por la tele hasta que le pasa a uno de los tuyos, a vos. Te cuento c\u00f3mo tuve un encuentro cercano con malware de muchas piezas y qu\u00e9 cosas pasaron cuando lo mir\u00e9 con lupa y lo toqu\u00e9 con un palo.\n\n**\u00bfCu\u00e1ndo?** Martes 10/9, 18:30.\n**\u00bfD\u00f3nde?** ISACA, Cerrito 420 oficina 505.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
     },
     {
         "group": "Vancouver",
