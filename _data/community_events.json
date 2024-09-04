@@ -210,14 +210,14 @@
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Phoenix",
-        "repo": "www-chapter-phoenix",
-        "name": "September 2024 Meeting",
-        "date": "2024-09-03",
-        "time": "20:30-07:00",
-        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/302887706",
-        "timezone": "America/Phoenix",
-        "description": "**seL4 - The Ultimate Secure Microkernel** (30 min)\nThis is a presentation on the seL4 microkernel, which is used in projects that absolutely require the most robust security at its core, as a monolithic kernel like Linux is not the right choice in these situations. Join us as we briefly touch on microkernels, the history of the L4 family of microkernels, and why seL4 stands out from the rest."
+        "group": "Poland",
+        "repo": "www-chapter-poland",
+        "name": "OWASP Meeting in Krakow - OAuth secrets + Bug bounty",
+        "date": "2024-10-01",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-poland/events/303209619",
+        "timezone": "Europe/Warsaw",
+        "description": "Hi,\nWe are Polish chapter of [OWASP](https://owasp.org/) \\- worldwide\\, non\\-profit organisation focused on application security issues\\.\nThis time we have invited Grzegorz Niedziela, \"Bug Bounty Reports Explained\" Youtube channel host. He will have a talk about OAuth security and then we will discuss bright and dark sides of bug bounty.\n\nAgenda:\n\n1. **OAuth Secrets (Grzegorz Niedziela)**\nThese days, Oauth is a key protocol, allowing us to log in with one click to many websites. As anything, this convenience doesn\u2019t come without a cost. The cost here is the risk of an account takeover bug. And that\u2019s not only changing the redirect_uri to an attacker-controlled host which, for many hackers, is the only attack they know. That attack won't work too well in 2024. This talk will be about exploiting smaller misconfigurations. For example, what do to if you only control the path of the redirect_uri or how to exfiltrate the code when your open doesn't preserve parameters. It will also focus on particular auth providers and how they don't make it hard for us by being way more relaxed than the standard defines.\n2. After the break, we will be hosting a **discussion about bug boutnty**. We want to discuss both sides - bug bounters and companies which have bug bounty programs.\nHow to report vulnerabilities? Where to seek? What should be your goal - easy bugs occuring en masse or sophisticated kill-chains? What to expect? Bug bounty myths and reality.\nHow bug bounty might help your organisation? What are the real costs of having bb program? What can go wrong? How to manage good bb program? Bug bounty or penetration testing?\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this invitation** with friends and in your social media."
     },
     {
         "group": "Rewa",
