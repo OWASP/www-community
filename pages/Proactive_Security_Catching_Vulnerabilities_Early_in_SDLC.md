@@ -17,7 +17,7 @@ In today's fast-paced development environments, where continuous integration and
 
 Catching security vulnerabilities early in the development lifecycle—during coding, code review, or testing phases—can drastically reduce the risk of these flaws reaching production. This proactive approach to security is akin to a first line of defense, preventing potential attackers from exploiting known vulnerabilities. By identifying and addressing security issues before the code is deployed, developers can mitigate risks more efficiently, reducing the cost and complexity of fixes later in the development cycle.
 
-Integrating security into the code review process also aligns with the principles of _*Shift Left*_ security, where security practices are moved earlier in the development process. By doing so, security becomes a shared responsibility among all team members, not just a task for dedicated security teams. This collaborative approach ensures that security is not an afterthought but a core aspect of the software development process.
+Integrating security into the code review process also aligns with the principles of *Shift Left* security, where security practices are moved earlier in the development process. By doing so, security becomes a shared responsibility among all team members, not just a task for dedicated security teams. This collaborative approach ensures that security is not an afterthought but a core aspect of the software development process.
 
 #### Passive Education Through Active Security
 
@@ -49,10 +49,10 @@ Incorporating security checks into the development and code review process is a 
 
 By adopting these practices, developers and organizations can move towards a more secure future, where security is not just a final checkpoint but a continuous, integrated process from the first line of code.
 
-#### More info
+#### More Info
 
-* [Free Open Source SAST Tools](__https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools__)
+* [Free Open Source SAST Tools](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools)
 
-* [DAST Tools](__https://owasp.org/www-community/Vulnerability_Scanning_Tools__)
+* [DAST Tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
 
-* [Overview on Shift-Left Security Strategy](__https://www.fortinet.com/resources/cyberglossary/shift-left-security__)
+* [Overview on Shift-Left Security Strategy](https://www.fortinet.com/resources/cyberglossary/shift-left-security)
