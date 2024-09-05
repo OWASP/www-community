@@ -1970,5 +1970,14 @@
       "platforms": "VSCode",
       "note": "It is a Visual Studio IDE plugin for static code vulnerability analysis (SAST) finding flaws with high precision and depth in 9 languages",
       "type": "SAST"
+   },
+   {
+      "title": "CyLock EVA",
+      "url": "https://www.cylock.tech/",
+      "owner": "CyLock",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "EVA, the extended vulnerability assessment designed and developed at CyLock.",
+      "type": "DAST"
    }
 ]
