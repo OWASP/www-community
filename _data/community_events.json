@@ -40,6 +40,16 @@
         "description": "**When:** Thursday, September 12th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Checkmarx](https://checkmarx.com)\n*Checkmarx is constantly pushing the boundaries of Application Security Testing to make security seamless and simple for the world\u2019s developers and security teams. As the AppSec testing leader, we deliver the unparalleled accuracy, coverage, visibility, and guidance our customers need to build tomorrow\u2019s software securely and at speed.*"
     },
     {
+        "group": "Belem",
+        "repo": "www-chapter-belem",
+        "name": "Meetup Owasp Bel\u00e9m Estacio FAP 2024",
+        "date": "2024-09-14",
+        "time": "08:00-04:00",
+        "link": "https://www.meetup.com/owasp-belem/events/303322781",
+        "timezone": "America/Boa_Vista",
+        "description": "No dia 14 de setembro, a **OWASP Bel\u00e9m** \u00e9 um dos cap\u00edtulos brasileiros entre os mais de 200 cap\u00edtulos ativos em todo o mundo. Nosso objetivo \u00e9 disseminar a miss\u00e3o da OWASP, tornando a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel, para que as pessoas e organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos de seguran\u00e7a das aplica\u00e7\u00f5es.\nAl\u00e9m disso, estamos empenhados em promover pr\u00e1ticas de computa\u00e7\u00e3o forense, ajudando a identificar, preservar, analisar e apresentar evid\u00eancias digitais de forma adequada.\nA computa\u00e7\u00e3o forense \u00e9 essencial para a investiga\u00e7\u00e3o de incidentes de seguran\u00e7a, permitindo que as organiza\u00e7\u00f5es compreendam as origens e impactos de ataques, al\u00e9m de refor\u00e7ar suas defesas contra futuras amea\u00e7as.\n**Data:** 14/09/2024\n\n* **Hor\u00e1rio:** 8h30m.\n* **Local:** Est\u00e1cio FAP\n* **Endere\u00e7o**: R. Municipalidade, 839, Bel\u00e9m, PA.\n\nConfira a programa\u00e7\u00e3o:\n**08h30m:** Abertura\n**09h00:** Apresenta\u00e7\u00e3o OWASP\n**09h15 - 09h45:** Em breve.\n**10h - 10h45:** Em breve\\*\\*.\\*\\*\n**10h45 - 11h00:** Intervalo / Networking\n**11h15 - 11h45:** Em breve."
+    },
+    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BE Chapter Meeting (03/10/2024, Diegem)",
@@ -230,16 +240,6 @@
         "description": "Hi,\nWe are Polish chapter of [OWASP](https://owasp.org/) \\- worldwide\\, non\\-profit organisation focused on application security issues\\.\nThis time we have invited Grzegorz Niedziela, \"Bug Bounty Reports Explained\" Youtube channel host. He will have a talk about OAuth security and then we will discuss bright and dark sides of bug bounty.\n\nAgenda:\n\n1. **OAuth Secrets (Grzegorz Niedziela)**\nThese days, Oauth is a key protocol, allowing us to log in with one click to many websites. As anything, this convenience doesn\u2019t come without a cost. The cost here is the risk of an account takeover bug. And that\u2019s not only changing the redirect_uri to an attacker-controlled host which, for many hackers, is the only attack they know. That attack won't work too well in 2024. This talk will be about exploiting smaller misconfigurations. For example, what do to if you only control the path of the redirect_uri or how to exfiltrate the code when your open doesn't preserve parameters. It will also focus on particular auth providers and how they don't make it hard for us by being way more relaxed than the standard defines.\n2. After the break, we will be hosting a **discussion about bug boutnty**. We want to discuss both sides - bug bounters and companies which have bug bounty programs.\nHow to report vulnerabilities? Where to seek? What should be your goal - easy bugs occuring en masse or sophisticated kill-chains? What to expect? Bug bounty myths and reality.\nHow bug bounty might help your organisation? What are the real costs of having bb program? What can go wrong? How to manage good bb program? Bug bounty or penetration testing?\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this invitation** with friends and in your social media."
     },
     {
-        "group": "Rewa",
-        "repo": "www-chapter-rewa",
-        "name": "Introduction to Cyber and Web Security",
-        "date": "2024-09-08",
-        "time": "18:00+05:30",
-        "link": "https://www.meetup.com/owasp-rewa-chapter/events/303020985",
-        "timezone": "Asia/Kolkata",
-        "description": "In today's digital age, where our lives are increasingly online, understanding the basics of cyber and web security is more important than ever. This session will provide you with an essential overview of the core principles and practices that safeguard our digital world. From common vulnerabilities to best practices in protecting web applications, we will explore the fundamental concepts that every developer, security enthusiast, and tech professional should know.\n\nJoin us as we delve into the world of cyber and web security, equipping you with the knowledge to navigate and protect the digital landscape confidently."
-    },
-    {
         "group": "Salt Lake City",
         "repo": "www-chapter-salt-lake-city",
         "name": "OWASP-SLC/Wasatch AppSec - In-person Meetup (Aumni @ Cottonwood Heights, UT)",
@@ -288,6 +288,16 @@
         "link": "https://www.meetup.com/south-florida-owasp-chapter/events/302943630",
         "timezone": "America/New_York",
         "description": "Each September, the OWASP South Florida Chapter (SFOWASP) and South Florida ISSA (SFISSA) come together for a joint meeting. This year, please join us on **September 19, 2024**, at **Palm Beach State College**, **4200 S Congress Ave, Lake Worth, FL**. The meeting will take place in **Room CE119** in the CE building.\n\n**Location: Palm Beach State College - CE building, room 119**\n\n**Agenda**:\n\n* Chapter updates/announcements, upcoming events - SFISSA\n* Chapter updates/announcement, upcoming events - SFOWASP\n* Talk1 - TBA\n* Talk2 - TBA\n* Networking\n\nWe will update this notice for speaker(s) and topic(s)."
+    },
+    {
+        "group": "Stuttgart",
+        "repo": "www-chapter-stuttgart",
+        "name": "Special OWASP Stuttgart Chapter Stammtisch",
+        "date": "2024-10-08",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/302783300",
+        "timezone": "Europe/Berlin",
+        "description": "Jeff Williams is visiting Germany and has offered to visit the OWASP Stammtische. A great reason to hold a special Stammtisch outside of the regular schedule!\n\n**Novatec Consulting** will host this Stammtisch at their venue \u2013 thank you very much, we truly appreciate your support in making this event possible!\n\nThe exact details of this Stammtisch are still being finalized and will be shared here soon."
     },
     {
         "group": "Stuttgart",
