@@ -1,8 +1,8 @@
 ---
 
 layout: col-sidebar
-title: Insufficient Session-ID Length
-author: Jake karnes
+title: Insufficient Session ID Length
+author: Jake Karnes
 contributors: Greg Heartsfield
 permalink: /vulnerabilities/Insufficient_Session-ID_Length
 tags: vulnerability, Insufficient Session-ID Length
@@ -13,7 +13,7 @@ tags: vulnerability, Insufficient Session-ID Length
 
 ## Description
 
-Session identifiers must have **at least 64 bits of entropy** to prevent brute-force session guessing attacks. It's important to understand that session ID length alone is not a sufficient indicator of security. Instead, the critical factor is the **entropy** (or randomness) contained within the session identifier. While the length of the session ID can affect how much entropy is encoded, the actual entropy depends on how the session ID is generated. Encoding methods (e.g., hexadecimal, Base64, etc) influence how the session id is represented, but the security ultimately comes from the randomness of the identifier, not the encoding itself.
+Session identifiers must have **at least 64 bits of entropy** to prevent brute-force session guessing attacks. It's important to understand that session ID length alone is not a sufficient indicator of security. Instead, the critical factor is the entropy (or randomness) contained within the session identifier. While the length of the session ID can affect how much entropy is encoded, the actual entropy depends on how the session ID is generated. Encoding methods (e.g., hexadecimal, Base64, etc) influence how the session id is represented, but the security ultimately comes from the randomness of the identifier, not the encoding itself.
 
 ### Key Takeaways:
 
@@ -34,34 +34,34 @@ Hexadecimal encoding is commonly used in session identifiers. Each hexadecimal c
 
 1. **Good Example - 64 bits of entropy (16 characters)**:
    - Example Session ID: `A1B2C3D4E5F67890`
-   - This is a 16-character hexadecimal value. Assuming 16 random hexadecimal characters are chosen, there are `2^64` possible combinations. This represents exactly 64 bits of entropy. These are `2^64` possible combinations is sufficient to prevent brute-force guessing attacks as demonstrated below.
+   - This is a 16-character hexadecimal value. Assuming 16 random hexadecimal characters are chosen, there are 2<sup>64</sup> possible combinations. This represents exactly 64 bits of entropy. These are 2<sup>64</sup> possible combinations is sufficient to prevent brute-force guessing attacks as demonstrated below.
 
 2. **Bad Example - 32 bits of entropy (8 characters)**:
    - Example Session ID: `A1B2C3D4`
-   - This is an 8-character hexadecimal value. While it’s half the length of the good example, it provides significantly less security because there are only `2^32` possible values. This is 32 bits of entropy. This is vulnerable to brute-force attacks as discussed later.
+   - This is an 8-character hexadecimal value. While it’s half the length of the good example, it provides significantly less security because there are only 2<sup>32</sup> possible values. This is 32 bits of entropy. This is vulnerable to brute-force attacks as discussed later.
 
 **Note:** When session IDs are stored or transmitted as text (e.g., in a cookie), they may be represented using ASCII or UTF-8 encoding. This does not affect the entropy but does influence the size of the session identifier. For example, a 16-character hexadecimal session ID occupies 16 bytes (128 bits) when encoded as ASCII, but it still only represents 64 bits of entropy.
 
 #### Examples Where Length Alone Isn’t Sufficient
 
-While hexadecimal encoding provides a clear relationship between length and entropy, **length alone can be misleading** depending on the encoding or generation method used. Let’s explore some illustrative but hypothetical examples:
+While hexadecimal encoding provides a clear relationship between length and entropy, length alone can be misleading depending on the encoding or generation method used. Let’s explore some illustrative but hypothetical examples:
 
 1. **Session ID using Binary encoding**:
     - Example Session ID: `1010101010101010`
-    - This session ID is 16 characters long, but because each character can only represent 0 or 1, there are only `2^16` possible values. The total entropy is just 16 bits. This shows that despite its length of 16 characters, the security of this session ID is very low.
+    - This session ID is 16 characters long, but because each character can only represent 0 or 1, there are only 2<sup>16</sup> possible values. The total entropy is just 16 bits. This shows that despite its length of 16 characters, the security of this session ID is very low.
     - This is not used in practice but illustrative of the concept.
   
 2. **Session ID using Base64 encoding**:
     - Example Session ID #1: `abcdefghijkl`
     - Example Session ID #2: `mnopqrstuvwx`
-    - This 12-character Base64 value can represent **72 bits of entropy**. Base64 is more efficient than hexadecimal because each character represents more than 4 bits of entropy. The result is that even though this session ID is shorter than the previous hexadecimal example, it offers significantly more security.
+    - This 12-character Base64 value can represent 72 bits of entropy. Base64 is more efficient than hexadecimal because each character represents more than 4 bits of entropy. The result is that even though this session ID is shorter than the previous hexadecimal example, it offers significantly more security.
     - We can use the popular encoding/decoding tool CyberChef to confirm this value can represent a 72-bit number. We can see [example #1](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)To_Binary('None',8)&input=YWJjZGVmZ2hpamts) and [example #2](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)To_Binary('None',8)&input=bW5vcHFyc3R1dnd4) decode to a 72-bit binary value. 
 
 3. **16-byte hexadecimal session ID with fixed characters**:
     - Example Session ID #1: `DECAFBAD12345678`
     - Example Session ID #2: `DECAFBAD87654321`
     - Example Session ID #3: `DECAFBAD12341234`
-    - In this case, the first half of the session ID (`DECAFBAD`) is fixed and predictable, while only the second half is random. Because there are only 8 random hexadecimal characters, this means that there are only `2^32` possible values. This means that the session ID provides only 32 bits of entropy, despite being 16 characters long. Predictable patterns in the session ID can severely undermine security.
+    - In this case, the first half of the session ID (`DECAFBAD`) is fixed and predictable, while only the second half is random. Because there are only 8 random hexadecimal characters, this means that there are only 2<sup>32</sup> possible values. This means that the session ID provides only 32 bits of entropy, despite being 16 characters long. Predictable patterns in the session ID can severely undermine security.
 
 These examples show that **session ID length alone is not a reliable indicator of security** — what matters is the amount of randomness (entropy) the ID can represent. 
 
@@ -100,11 +100,11 @@ We have the following as our key variables:
 - \( S = 10,000 \) valid session IDs
 - \( A = 1,000 \) guesses per second
 
-Using **Formula 1** (dynamic session IDs):
+Using Formula 1 (dynamic session IDs):
 
 ![](../assets/images/Session_id_guessing_3.png)
 
-Using **Formula 2** (static session IDs):
+Using Formula 2 (static session IDs):
 
 ![](../assets/images/Session_id_guessing_4.png)
 
@@ -117,11 +117,11 @@ Let's consider now that the target website is using stronger session identifiers
 - \( S = 100,000 \) valid session IDs
 - \( A = 10,000 \) guesses per second
 
-Using **Formula 1** (dynamic session IDs):
+Using Formula 1 (dynamic session IDs):
 
 ![](../assets/images/Session_id_guessing_5.png)
 
-Using **Formula 2** (static session IDs):
+Using Formula 2 (static session IDs):
 
 ![](../assets/images/Session_id_guessing_6.png)
 
