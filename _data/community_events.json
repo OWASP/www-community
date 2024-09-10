@@ -27,7 +27,7 @@
         "time": "11:30-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/298207023",
         "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nPresentation: **The Secure Development Lifecycle in Action: The Point, Purpose, and Rationale**\n\nThe Secure Development Lifecycle (SDL) is a powerful construct that can advance security for both organizations with established security practices by shifting left, and immature organizations seeking a framework to implement security best practices in agile development. NI has been on a journey over the last several years to improve the security of its products driven by customer requirements, their expectations, and increasingly, regulations that require software to be developed with secure methodologies. Security is as much about a mindset and development culture as it is about tools, vulnerabilities, and security technologies. Learn how NI\u2019s adoption of the Secure Development Lifecycle has created a framework for addressing various security challenges in web applications, microservices, and infrastructure."
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nIf you would like to attend in-person, please sign-up on [https://owasp-austin-2024-september.eventbrite.com](https://owasp-austin-2024-september.eventbrite.com) (please don't sign-up for in-person and not attend as the Chapter arranges for lunch **a week before the event** for all in-person attendees -- and we don't want to waste both food and Chapter money.)\n\nPresentation: **The Secure Development Lifecycle in Action: The Point, Purpose, and Rationale** presented by Mark Black\n\nThe Secure Development Lifecycle (SDL) is a powerful construct that can advance security for both organizations with established security practices by shifting left, and immature organizations seeking a framework to implement security best practices in agile development. NI has been on a journey over the last several years to improve the security of its products driven by customer requirements, their expectations, and increasingly, regulations that require software to be developed with secure methodologies. Security is as much about a mindset and development culture as it is about tools, vulnerabilities, and security technologies. Learn how NI\u2019s adoption of the Secure Development Lifecycle has created a framework for addressing various security challenges in web applications, microservices, and infrastructure."
     },
     {
         "group": "Austin",
@@ -60,6 +60,16 @@
         "description": "On October 3rd, we organize our next OWASP Belgium chapter meeting at EY in Diegem.\n\n**Agenda**:\n\n* 18h00-18h30: Welcome and refreshments\n* 18h30-18h40: OWASP Update\n* 18h40-19h30: **JWT security and exploitation** (by Louis Nyffenegger, founder of PentesterLab)\n* 19:45-20h45: **Breaking and securing OAuth 2.0 in frontends** (by Dr. Philippe De Ryck, Founder of Pragmatic Web Security)\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
     },
     {
+        "group": "Bogota",
+        "repo": "www-chapter-bogota",
+        "name": "Defcon y Cybercamp 2024",
+        "date": "2024-09-18",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-bogota-meetup-group/events/303332662",
+        "timezone": "America/Bogota",
+        "description": "Nos complace anunciar que el pr\u00f3ximo encuentro HackLab Bogota, se llevar\u00e1 a cabo el d\u00eda mi\u00e9rcoles 18 de septiembre de 2024, de 6:00 a 8:00 P.M. en la universidad del rosario sede claustro\n\u00danete a nosotros para una charla exclusiva donde estaremos compartiendo con ustedes las experiencias de DEFCON y el INCIBE CyberCamp. Descubre las tendencias emergentes, innovaciones y aprendizajes clave de estos eventos l\u00edderes en seguridad inform\u00e1tica. Perfecto para profesionales, estudiantes y entusiastas de la ciberseguridad.\n\nUniversidad del rosario \\| Sede Claustro"
+    },
+    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter Meeting - September 2024",
@@ -80,6 +90,16 @@
         "description": "Thank you to everyone who joined us last month. We\u2019ll be meeting again on Wednesday, 9/18 at Market Avenue Wine Bar. Join us for a presentation on Threat Modeling by Eden Yardeni."
     },
     {
+        "group": "Colorado Springs",
+        "repo": "www-chapter-colorado-springs",
+        "name": "OWASP Colorado Springs September 2024",
+        "date": "2024-09-26",
+        "time": "18:00-06:00",
+        "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/303319145",
+        "timezone": "America/Denver",
+        "description": "Speaker: Jeff Tomkiewicz; \"Finding and Submitting a Zero day\"\n\nPizza & GF Pizza, Drinks; Alcoholic and Non-Alchoholic will be provided.\nNetworking session after!\n\nLocation: National Cyber Center (NCC):\n3650 N Nevada Ave\nColorado Springs, CO 80907\nhttps://cyber-center.org/"
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "All Day All Night API Security Endpoint Analytics",
@@ -88,6 +108,16 @@
         "link": "https://www.meetup.com/columbus-owasp/events/301083996",
         "timezone": "America/New_York",
         "description": "APIs are the pipelines to the data within our environments. Attackers want this data. So how can you use the APIs to understand when you are being attacked? How can endpoint analytics help? In this discussion I will break down several attacks that have occurred over the trillions of transactions that have been monitored over time."
+    },
+    {
+        "group": "Copenhagen",
+        "repo": "www-chapter-copenhagen",
+        "name": "A Night of OpenAPI Security and you?",
+        "date": "2024-09-26",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-copenhagen-chapter/events/303328101",
+        "timezone": "Europe/Copenhagen",
+        "description": "*Welcome to the first OWASP Copenhagen meetup after the (long) summer break!*\n\n*We will be talking on API security and hopefully more. We're missing a speaker and it might be you! If you have something to talk about that might or might not be related, please let us know!*\n\nThe talk on API Security we have in place is by Andrei Agape and here's a short synopsis:\n\nThis presentation will share key findings from analyzing the OpenAPI standard and 100,000 publicly available API documentations. The aim of this research is to uncovered vulnerabilities that can be detected by analyzing the documentation and how testing techniques can be improved based on these results. Attendees will gain insights into how these discoveries can enhance API pentesting methodologies, streamline vulnerability detection, and improve overall security practices.\n\nAndrei is an Pentester and Offensive Security Specialist with a passion for web and API research as he likes finding ingenious ways to chain and exploit vulnerabilities that otherwise seem benign.\n\n**Agenda**\n18.00: Welcome\n18.05: Andrei Agape: A Deep dive into OpenAPI Security\n18.50: Pizza time\n19.30: Your talk?"
     },
     {
         "group": "Denver",
@@ -100,16 +130,6 @@
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on September 18th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\nThis month's meeting is brought to you by SnowFROC! This month's speaker will be Jason Haddix! Jason taught two workshops for us at SnowFROC this year and this was one of them. If you missed them, now's your chance!\n\n**Presentation:**\nRecon Like an Adversary: Uncovering Modern Techniques in Attack Surface Management\n\n**Abstract**:\nJoin our expert, Jason, in a talk designed to demystify the advanced techniques adversaries employ to infiltrate organizations. This session is a deep dive into the world of attack surface management using open-source tools, tailored to emulate both adversaries and professional bug hunters.\n\n* Introduction to Reconnaissance Techniques: Gain insights into the methodologies used by adversaries in their initial approach to an organization.\n* Tool Mastery: Explore a range of common tools and techniques for targeting organizations. This includes:\n* Email Acquisition: Methods and tools for gathering email data.\n* Technology Profiling: Techniques for identifying the technology stack of an organization.\n* External Attack Surface Analysis: A focus on cloud and mobile environments, among others.\n* Historical Data Mining: Strategies for uncovering valuable historical endpoint data.\n* Live Demonstrations: Experience real-time use of each tool in the toolchain. Jason will share personal tips and tricks, enhancing your learning experience.\n* Practical Application: The workshop features live targets, offering a real-world scenario for participants to engage with and learn from.\n* Interactive Learning Experience: Participants are encouraged to actively engage, ask questions, and share experiences throughout the session."
     },
     {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Paris - Septembre 2024",
-        "date": "2024-09-09",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-france/events/303049860",
-        "timezone": "Europe/Paris",
-        "description": "\\-\\-\\-\nPour des raisons de s\u00e9curit\u00e9 d'acc\u00e8s aux locaux de notre sponsor, il est n\u00e9cessaire de fournir votre nom et pr\u00e9nom pour ce meetup. **Une pi\u00e8ce d'identit\u00e9 sera demand\u00e9e** pour l'obtention d'un badge d'acc\u00e8s. Nous vous remercions de votre compr\u00e9hension.\n\\-\\-\\-\nCe meetup se deroulera chez **TotalEnergies** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
-    },
-    {
         "group": "Frankfurt",
         "repo": "www-chapter-frankfurt",
         "name": "OWASP Frankfurt Chapter #67 - CISO Roundtable ",
@@ -117,7 +137,7 @@
         "time": "18:00+02:00",
         "link": "https://www.meetup.com/owasp-frankfurt/events/302364452",
         "timezone": "Europe/Berlin",
-        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #67!\nOur Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\nFor this meetup, we\u2019re introducing a new format: a **CISO roundtable**. We are excited to welcome panelists from diverse industries to discuss software and cloud security.\n\n* **Sheetal Joseph** \\- Director\\, Cybersecurity at Isar Aerospace\n* **Dr. Tim Sattler** \\- CISO at Jungheinrich AG\n* **Scott T. Nichols** \\- Global Product Security Leader Danaher Corporation\n* **Irfaan Santoe** \\- Global Head of Application Security Wolters Kluwer\n* tbd\n\nWe aim to provide fresh perspectives and gain CISO-level insights, starting with a set of questions and then opening the floor for a lively audience discussion. Participants can submit questions in advance or ask them during the event.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**. For everyone who's interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n_When?\nOur Meetup takes place on 26.09.2024 from 18.00 to 22.00 o'clock CEST.\n\n_Where?\nIBM Tower One is located at Br\u00fcsseler Stra\u00dfe 1-3 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on [LinkedIn](https://www.linkedin.com/company/owasp-frankfurt/) and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\nWe're looking forward to seeing you at our event!"
+        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #67!\nOur Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\nFor this meetup, we\u2019re introducing a new format: a **CISO roundtable**. We are excited to welcome panelists from diverse industries to discuss software and cloud security.\n\n* **Sheetal Joseph** \\- Director\\, Cybersecurity at Isar Aerospace\n* **Dr. Tim Sattler** \\- CISO at Jungheinrich AG\n* **Scott T. Nichols** \\- Global Product Security Leader Danaher Corporation\n* **Irfaan Santoe** \\- Global Head of Application Security Wolters Kluwer\n* tbd\n\nWe aim to provide fresh perspectives and gain CISO-level insights, starting with a set of questions and then opening the floor for a lively audience discussion. Participants can submit questions in advance or ask them during the event.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**.\n\n_When?\nOur Meetup takes place on 26.09.2024 from 18.00 to 22.00 o'clock CEST.\n\n_Where?\nIBM Tower One is located at Br\u00fcsseler Stra\u00dfe 1-3 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on [LinkedIn](https://www.linkedin.com/company/owasp-frankfurt/) and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\nWe're looking forward to seeing you at our event!"
     },
     {
         "group": "Gothenburg",
@@ -190,6 +210,16 @@
         "description": "**A Zero Trust Journey for Data Security and Enterprise AI**\n**Wes Kennedy, LightBeam**\n\nAbstract: As organizations deal with the proliferation of sensitive data, they must be cognizant of the type, classification, and location of sensitive data within their environments, and remediate risks of data exposure in near-real time. In this session, we will review a comprehensive approach to strengthening enterprise data protection posture encompassing security, privacy, and governance. Proactive discovery, classification, access controls, and life-cycle management is the critical first step toward your zero-trust journey.\n\nAudience level: Intermediate (no AI knowledge needed)\n\nApproximate agenda (U.S. Central Time):\n5:30 - Doors open; socializing/connecting, food, OWASP announcements\n6:00 - Presentation\n\nPlease remember to register and keep your registration up-to-date so we know how many to expect."
     },
     {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "Threat Modeling Challenges",
+        "date": "2024-09-18",
+        "time": "17:30-04:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/303327509",
+        "timezone": "America/New_York",
+        "description": "***Sign-up is required for Venue VIP Entrance - More to come***\n\n2 weeks away downtown FiDi\n\nWednesday, September 18, 2024\nThe event starts at 5:30 pm\n\n**The Malt House FiDi**\n9 Maiden In\nNew York. NY 10038\n\n5:30 pm - Networking, drinks and appetizers\n6:00 pm - Stephen Talk - LLMs in your Software Security House\n6:30 pm - Jason Talk - Global-Grade Threat Modeling: Scaling Security to Meet Financial Regulatory Demands\n7 pm - Open Q&A/General Discussion on Threat Modeling Challenges\n8:30 pm - Event ends"
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP New Zealand - Auckland Meetup",
@@ -198,6 +228,16 @@
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297786503",
         "timezone": "Pacific/Auckland",
         "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for September will be **A04:2021 - Insecure Design**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "OWASP OC and CSA OC Joint Meeting- Save the Date!!!!!!",
+        "date": "2024-09-25",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-oc/events/303339243",
+        "timezone": "America/Los_Angeles",
+        "description": "NOTE: This is a joint meeting with CSA OC. We will not be meeting at our usual location or day, so **read the detail event date and location carefully**.\n\n**Save the Date!!**\nPlease join **CSA OC** and **OWASP OC** as we look forward to a blowout meeting, sponsored by **Query**. Please be sure to **RSVP** as there are limited seats. More speaker and topic details to follow.\n\nDinner and beverages will be provided, so if you cannot make it, please be sure to cancel your reservation to make room for other members. Thanks again to **Query** for sponsoring and **Chipotle** for hosting us at their venue!\n\nWe look forward to seeing everyone there, and don't forget to RSVP to our [OC Joint Cyber Mixer on the 17th of September](https://www.meetup.com/owasp-oc/events/303251499/?eventOrigin=home_next_event_you_are_hosting)!"
     },
     {
         "group": "Orange County",
@@ -258,6 +298,16 @@
         "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/303169491",
         "timezone": "Asia/Kolkata",
         "description": "Curious about Docker? Join our webinar to learn the basics of **Docker security** and how containers are changing the way we build and deploy applications. Perfect for beginners looking to get started with container security. Don't miss out!"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2024-10-09",
+        "time": "12:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539100",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Seattle",
@@ -352,12 +402,22 @@
     {
         "group": "Samm",
         "repo": "www-project-samm",
+        "name": "Extra OWASP SAMM community call - Europe - Asia",
+        "date": "2024-09-13",
+        "time": "08:00-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/303326098",
+        "timezone": "America/New_York",
+        "description": "The SAMM Core team is happy to host a community call on 13th September @ 14.00 CET. This is not a replacement of the regular community call, but an extra one we\u2019ve scheduled during a more friendly time for users in EU and Asia. Bring your SAMM questions and we\u2019ll discuss them!"
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
         "name": "September community call - OWASP SAMM",
         "date": "2024-09-11",
         "time": "15:30-04:00",
         "link": "https://www.meetup.com/owasp-samm/events/302806897",
         "timezone": "America/New_York",
-        "description": "During our next community call we will cover:\n\n1. Welcome new community members\n2. SAMM project updates\n3. Q&A"
+        "description": "During our next community call we will cover:\n\n1. Welcome new community members\n2. SAMM project updates\n3. Proactive Software Supply Chain Risk Management (P-SSCRM) Framework, by Laurie Williams, North Carolina State University\n4. Q&A"
     },
     {
         "group": "Wrongsecrets",
@@ -367,6 +427,6 @@
         "time": "18:00+02:00",
         "link": "https://www.meetup.com/owasp-frankfurt/events/302364452",
         "timezone": "Europe/Berlin",
-        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #67!\nOur Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\nFor this meetup, we\u2019re introducing a new format: a **CISO roundtable**. We are excited to welcome panelists from diverse industries to discuss software and cloud security.\n\n* **Sheetal Joseph** \\- Director\\, Cybersecurity at Isar Aerospace\n* **Dr. Tim Sattler** \\- CISO at Jungheinrich AG\n* **Scott T. Nichols** \\- Global Product Security Leader Danaher Corporation\n* **Irfaan Santoe** \\- Global Head of Application Security Wolters Kluwer\n* tbd\n\nWe aim to provide fresh perspectives and gain CISO-level insights, starting with a set of questions and then opening the floor for a lively audience discussion. Participants can submit questions in advance or ask them during the event.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**. For everyone who's interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n_When?\nOur Meetup takes place on 26.09.2024 from 18.00 to 22.00 o'clock CEST.\n\n_Where?\nIBM Tower One is located at Br\u00fcsseler Stra\u00dfe 1-3 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on [LinkedIn](https://www.linkedin.com/company/owasp-frankfurt/) and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\nWe're looking forward to seeing you at our event!"
+        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #67!\nOur Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information and application security topics. Anyone who is interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member.\nThere will also be plenty of time to socialize before and after the event.\n\n_What are we going to talk about?\nFor this meetup, we\u2019re introducing a new format: a **CISO roundtable**. We are excited to welcome panelists from diverse industries to discuss software and cloud security.\n\n* **Sheetal Joseph** \\- Director\\, Cybersecurity at Isar Aerospace\n* **Dr. Tim Sattler** \\- CISO at Jungheinrich AG\n* **Scott T. Nichols** \\- Global Product Security Leader Danaher Corporation\n* **Irfaan Santoe** \\- Global Head of Application Security Wolters Kluwer\n* tbd\n\nWe aim to provide fresh perspectives and gain CISO-level insights, starting with a set of questions and then opening the floor for a lively audience discussion. Participants can submit questions in advance or ask them during the event.\n\n_Afterwards?\nWe will pre- and conclude the evening with the possibility of **socializing** at the venue with **free food and cold & hot drinks**.\n\n_When?\nOur Meetup takes place on 26.09.2024 from 18.00 to 22.00 o'clock CEST.\n\n_Where?\nIBM Tower One is located at Br\u00fcsseler Stra\u00dfe 1-3 in Frankfurt am Main, ca. 15min within walking distance of Frankfurt Hauptbahnhof.\n\n_Interested in **giving a talk** yourself?\nSubmit your talk here: https://www.papercall.io/owasp-chapter-frankfurt\n\n_And now?\nSave the date, **spread the word,** and bring your friends and colleagues along to our event.\n\n_Follow Us!\nAlso, follow us on [LinkedIn](https://www.linkedin.com/company/owasp-frankfurt/) and refer to our [OWASP Frankfurt site](https://owasp.org/www-chapter-germany/stammtische/frankfurt/) for information, including slides and recordings of previous presentations\nWe're looking forward to seeing you at our event!"
     }
 ]
