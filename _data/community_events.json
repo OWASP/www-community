@@ -60,6 +60,16 @@
         "description": "On October 3rd, we organize our next OWASP Belgium chapter meeting at EY in Diegem.\n\n**Agenda**:\n\n* 18h00-18h30: Welcome and refreshments\n* 18h30-18h40: OWASP Update\n* 18h40-19h30: **JWT security and exploitation** (by Louis Nyffenegger, founder of PentesterLab)\n* 19:45-20h45: **Breaking and securing OAuth 2.0 in frontends** (by Dr. Philippe De Ryck, Founder of Pragmatic Web Security)\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
     },
     {
+        "group": "Belo Horizonte",
+        "repo": "www-chapter-belo-horizonte",
+        "name": " OWASP BH apresenta: Transformando Sua Pipeline CI com Seguran\u00e7a Proativa",
+        "date": "2024-10-01",
+        "time": "19:30-03:00",
+        "link": "https://www.meetup.com/owasp-belo-horizonte-chapter/events/303372739",
+        "timezone": "America/Sao_Paulo",
+        "description": "#  OWASP Belo Horizonte apresenta: Transformando Sua Pipeline CI com Seguran\u00e7a Proativa\n\nVoc\u00ea est\u00e1 pronto para levar a seguran\u00e7a da sua pipeline de desenvolvimento para o pr\u00f3ximo n\u00edvel? N\u00e3o perca o nosso pr\u00f3ximo meetup!\n\n##  Quando?\n\n**Data:** 1 de outubro de 2024 **Hor\u00e1rio:** 19:30 (Hor\u00e1rio de Bras\u00edlia)\n\n##  O que voc\u00ea vai aprender?\n\nNeste encontro imperd\u00edvel, vamos mergulhar fundo no mundo do DevSecOps e descobrir como implementar um pipeline verdadeiramente seguro. Nosso palestrante expert, Eric Ferreira, vai guiar voc\u00ea atrav\u00e9s das melhores pr\u00e1ticas, ferramentas essenciais e estrat\u00e9gias inovadoras para incorporar seguran\u00e7a desde o in\u00edcio do seu ciclo de desenvolvimento.\n\n### Destaques da palestra:\n\n* Implementa\u00e7\u00e3o pr\u00e1tica do OWASP DevSecOps Guideline\n* Estrat\u00e9gias eficazes para promover a cultura de \"shift-left\"\n* Ferramentas e t\u00e9cnicas para integrar seguran\u00e7a em cada etapa do seu pipeline CI\n\n##  Sobre o palestrante\n\n**Erick Ferreira** \u00e9 um expert da Ciberseguran\u00e7a, com mais de 12 anos de experi\u00eancia nas trincheiras das \u00e1reas ofensivas e defensivas. Sua expertise abrange empresas nacionais e internacionais, trazendo uma perspectiva global para nossa comunidade.\n\n*  Graduado em Sistemas de Informa\u00e7\u00e3o pela FIAP\n*  Certifica\u00e7\u00f5es de n\u00edvel internacional: CISSP, CSSP\n*  Palestrante renomado em eventos como TDC, RoadSec, Mind the Sec e CISO Forum\n\n##  Como participar?\n\nO evento ser\u00e1 realizado online via Zoom. Clique no link abaixo para se juntar a n\u00f3s: [Link do Zoom](https://us06web.zoom.us/j/83332089144?pwd=KGQlH352PwfDVcw1ZaY09zWxUe88uc.1)\n\n##  Por que voc\u00ea n\u00e3o pode perder?\n\n* Networking com profissionais de seguran\u00e7a e desenvolvimento\n* Insights pr\u00e1ticos que voc\u00ea pode aplicar imediatamente\n* Oportunidade de fazer perguntas a um expert da ind\u00fastria\n\nVenha fazer parte desta jornada rumo a um desenvolvimento mais seguro e eficiente. Sua pipeline CI agradecer\u00e1!\n\n**#OWASPBh #DevSecOps #CyberSecurity #ShiftLeft**\n\n***\n\nOrganizado com  pelo cap\u00edtulo OWASP de Belo Horizonte"
+    },
+    {
         "group": "Bogota",
         "repo": "www-chapter-bogota",
         "name": "Defcon y Cybercamp 2024",
@@ -67,17 +77,7 @@
         "time": "18:00-05:00",
         "link": "https://www.meetup.com/owasp-bogota-meetup-group/events/303332662",
         "timezone": "America/Bogota",
-        "description": "Nos complace anunciar que el pr\u00f3ximo encuentro HackLab Bogota, se llevar\u00e1 a cabo el d\u00eda mi\u00e9rcoles 18 de septiembre de 2024, de 6:00 a 8:00 P.M. en la universidad del rosario sede claustro\n\u00danete a nosotros para una charla exclusiva donde estaremos compartiendo con ustedes las experiencias de DEFCON y el INCIBE CyberCamp. Descubre las tendencias emergentes, innovaciones y aprendizajes clave de estos eventos l\u00edderes en seguridad inform\u00e1tica. Perfecto para profesionales, estudiantes y entusiastas de la ciberseguridad.\n\nUniversidad del rosario \\| Sede Claustro"
-    },
-    {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston Chapter Meeting - September 2024",
-        "date": "2024-09-11",
-        "time": "19:00-04:00",
-        "link": "https://www.meetup.com/owaspboston/events/303050135",
-        "timezone": "America/New_York",
-        "description": "This month we will be welcoming Daniel Shugrue, security product marketing from Digital.ai, to our meetup.\n\nDaniel will be speaking to us about the 2024 Application Threat Report, and will illuminate and quantify threats to apps in 2024 by categorizing threats according to the OWASP MASVS, and will end with some advice on specific actions security teams can take to stay a step ahead of threat actors. The advice Daniel will share is based on aggregated and anonymized threat data from some of the largest game makers and financial services, and media companies.\n\nDaniel Shugrue has over 20 years of experience working in security and communications. Prior to working at Digital.ai, Daniel worked in Confidential Computing at Microsoft, IoT Security at CyberX, Web App Firewall security at Akamai, and authentication at RSA. Daniel is a father of 2 boys, enjoys bicycling and playing guitar, and holds a degree in Mandarin Chinese from Washington University in St. Louis and an MBA from Babson College."
+        "description": "Nos complace anunciar que el pr\u00f3ximo encuentro HackLab Bogota, se llevar\u00e1 a cabo el d\u00eda mi\u00e9rcoles 18 de septiembre de 2024, de 6:00 a 8:00 P.M. en la universidad del rosario sede claustro\n\u00danete a nosotros para una charla exclusiva donde estaremos compartiendo con ustedes las experiencias de DEFCON y el INCIBE CyberCamp. Descubre las tendencias emergentes, innovaciones y aprendizajes clave de estos eventos l\u00edderes en seguridad inform\u00e1tica. Perfecto para profesionales, estudiantes y entusiastas de la ciberseguridad.\n\nUniversidad del rosario \\| Sede Claustro \\| tercer piso auditorio 1"
     },
     {
         "group": "Boulder",
@@ -272,12 +272,12 @@
     {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
-        "name": "Monthly Networking Social",
+        "name": "Music night ,Monthly Networking Social",
         "date": "2024-09-26",
         "time": "19:00+01:00",
         "link": "https://www.meetup.com/owasp-peterborough/events/302453493",
         "timezone": "Europe/London",
-        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+        "description": "Music night join us in The Ostrich for a might of music and networking.\n\nhttps://www.ostrichinnpeterborough.com/\n\nThirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
         "group": "Poland",
@@ -300,32 +300,12 @@
         "description": "**Agenda**:\n\n1. Introductions / Lunch\n2. Topic of Discussion: **Implementation of an SDLC end to end**.\n1. i.e. talk about each tool that should go into a CI/CD pipeline, each gate that should ideally be present, monitoring, etc.\n3. Q&A\n\nCome join us for a lunch meetup at the Aumni building in Cottonwood Heights and discuss what others are doing in the industry, and how the size of the company can affect SDLC controls as well.\n\nCasual group and anyone interested in Software Security is welcome to attend.\n\nSee you there!"
     },
     {
-        "group": "Sastra University",
-        "repo": "www-chapter-sastra-university",
-        "name": "Docker Security 101: Anchoring Security with a Deep Dive into Containers",
-        "date": "2024-09-11",
-        "time": "19:00+05:30",
-        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/303169491",
-        "timezone": "Asia/Kolkata",
-        "description": "Curious about Docker? Join our webinar to learn the basics of **Docker security** and how containers are changing the way we build and deploy applications. Perfect for beginners looking to get started with container security. Don't miss out!"
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
         "date": "2024-10-09",
         "time": "12:00-07:00",
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539100",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2024-09-11",
-        "time": "12:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539098",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
@@ -380,16 +360,6 @@
         "description": "In this **free, half-day training session**, we will provide you with a condensed overview of essential container and Kubernetes security concepts. You will learn the basics on how to harden your Kubernetes cluster and secure your containerized applications.\n\n* **Cloud-native security fundamentals:** Understanding the layered approach to securing cloud, cluster, container, and code.\n* **Hardening containers:** Best practices for reducing the attack surface.\n* **Kubernetes security architecture:** Grasp the key components and potential attack vectors within a Kubernetes cluster.\n* **Segregation in Kubernetes:** Strategies for isolating resources and maintaining security boundaries.\n* **Kubernetes security features:** Learn about RBAC, Network Policies and Admission Controllers (e.g. PSA/PSS) to enforce security requirements.\n\nThis training is designed to provide a solid foundation on the best practices and tips for securing your Kubernetes cluster and containerized applications. Unfortunately, due to time constraints, we won\u2019t be able to have hands-on labs, but you can expect live demos of the concepts covered.\n\nWhether you\u2019re a DevOps engineer, security professional, or just starting out with containers and Kubernetes, this half-day session will give you the knowledge and skills to harden your cloud-native environment.\n\n**Event Timeline:**\n\n* 13:00: Door opening\n* 13:15: Start of training\n* 17:30 (approximately): End of training\n* 17:30-19:00: Possibility to network with some snacks and drinks"
     },
     {
-        "group": "Tampa",
-        "repo": "www-chapter-tampa",
-        "name": "OWASP Tampa Chapter 2024Q3 Lunch and Learn",
-        "date": "2024-09-11",
-        "time": "11:00-04:00",
-        "link": "https://www.meetup.com/owasp-tampa/events/303088588",
-        "timezone": "America/New_York",
-        "description": "**Welcome to our OWASP Tampa 2024Q3 Lunch and Learn!**\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda**:\n\\- 11:00am \\- Registration and Lunch\n\\- 12:00pm \\- Speaker \\- Nate Michalov \\- SCA in the world of AI\n\\- 1:00pm \\- Depart\n\n**Speaker**:\nNate Michalov is a seasoned application security professional with over 12 years of diverse experience. Throughout his career, Nate has contributed to organizations such as Endor Labs, Apiiro, Snyk, Veracode, and Annkissam, where he has focused on securing digital ecosystems while aligning technological strategies with business objectives. In various roles including customer success architect, senior sales engineer, and senior SAST specialist, Nate has consistently tackled complex challenges at the intersection of business and technology. Known for his collaborative approach and dedication to staying informed about emerging trends, Nate is recognized as a trusted advisor in promoting innovation and resilience in application security.\n\n**Abstract**:\n\n#### **What\u2019s in your AI code?**\n\nWith the rise in AI, there is more focus on Python dependency management and SCA scanning. Python's dependency management system makes it easy for developers to leave dependencies out of the manifest. This means that almost every SCA tool that relies on a manifest will be wrong. We show how leveraging program analysis techniques one can avoid the pitfalls of these so-called phantom dependencies.\n\n**Location**:\nThe Neon Temple\n5406 Hoover Blvd,\nTampa, FL\n33634\n\n**Sponsors**:\n[Endor Labs | Software Supply Chain Security Solutions](https://www.endorlabs.com/)"
-    },
-    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "OWASP Vancouver Monthly Meetup",
@@ -408,16 +378,6 @@
         "link": "https://www.meetup.com/owasp-samm/events/303326098",
         "timezone": "America/New_York",
         "description": "The SAMM Core team is happy to host a community call on 13th September @ 14.00 CET. This is not a replacement of the regular community call, but an extra one we\u2019ve scheduled during a more friendly time for users in EU and Asia. Bring your SAMM questions and we\u2019ll discuss them!"
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "September community call - OWASP SAMM",
-        "date": "2024-09-11",
-        "time": "15:30-04:00",
-        "link": "https://www.meetup.com/owasp-samm/events/302806897",
-        "timezone": "America/New_York",
-        "description": "During our next community call we will cover:\n\n1. Welcome new community members\n2. SAMM project updates\n3. Proactive Software Supply Chain Risk Management (P-SSCRM) Framework, by Laurie Williams, North Carolina State University\n4. Q&A"
     },
     {
         "group": "Wrongsecrets",
