@@ -1,5 +1,15 @@
 [
     {
+        "group": "Algiers",
+        "repo": "www-chapter-algiers",
+        "name": "Live Q&A Session: ISC2 Certified in Cybersecurity (CC) Certification",
+        "date": "2024-09-21",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-algiers-chapter/events/303368452",
+        "timezone": "Africa/Algiers",
+        "description": "**Live Q&A Session: ISC2 Certified in Cybersecurity (CC) Certification**\nJoin us this **Saturday 21st September from 7:00 PM to 9:00 PM** (CET) for an interactive Live Q&A session hosted by the **OWASP Algiers Chapter**! Whether you're preparing for the ISC2 Certified in Cybersecurity (CC) certification or simply interested in learning more, this is the perfect opportunity to get your questions answered by professionals who have successfully achieved this certification.\n**Speakers:**\n\n* **Instructor:** Taher Amine Elhouari\n* **CC Certification Holders:**\n* Mehdi KERKAR\n* Wissam Bouattou\n* Abdelbasset Zerrouki\n* Hichem Belguendouz\n\nOur panelists will cover a wide range of topics related to the ISC2 CC exam, including preparation tips, key exam concepts, and real-life experiences. Bring your questions and join the conversation!\n\n**Register now and don't miss this chance to engage with cybersecurity professionals and boost your exam readiness.**\n\nLooking forward to seeing you there!"
+    },
+    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "From Noise to Insight: Transforming Vulnerability Data",
@@ -147,7 +157,7 @@
         "time": "18:00+01:00",
         "link": "https://www.meetup.com/owasp-dorset-chapter/events/303388623",
         "timezone": "Europe/London",
-        "description": "OWASP Dorset are proud to bring out latest in-person event, hosted with Hays Recruitment Bournemouth in their NEW ADDRESS.\n\n**PLEASE NOTE THAT HAYS HAVE A NEW ADDRESS AROUND THE CORNER:**\n1st floor South\nTelephone House\n18 Christchurch Road\nBournemouth\nDorset\nBH1 3NE\n\n**Talks**\n\n**Dr Shamal Faily**\n***Secure by Design: why it's hard, and what we're doing about it.***\nSecure by Design is becoming the dominant approach in government for increasing cyber resilience by considering Cyber Security early and through life. However, within MOD we (like many organisations) face challenges that make Secure by Design hard for those responsible for implementing. In this talk, I will outline these challenges and talk about the role Dstl is playing to address them within MOD, and collectively with our partners across government.\n\nDr Shamal Faily is a Principal Scientist in the Software and Systems Dependability Team at Dstl. He is a Visiting Fellow at Bournemouth University, and previously held a range of academic posts at Robert Gordon University, Bournemouth University, UCL, and University of Oxford, including course leadership positions. Prior to his work in Higher Education, Shamal was a software engineer at Logica UK\u2019s Space & Defence division for nearly a decade. Shamal has long established interests in the design and secure and usable systems, and published over 100 peer-reviewed publications in Software Engineering, Cyber Security, HCI, and Computer Science Education. Shamal is also the lead developer of the open-source CAIRIS (Computer Aided Integration of Requirements and Information Security) platform, which is widely used for threat modelling.\n\n**Hays**\nCyber recruitment update from the Hays team.\n\n**Pending Additional Speaker**\nMore updates to follow!\n\n**Event and Venue**\nWe will be joining Hays Recruitment in their new offices in Bournemouth for this event, there is a limit on numbers, so signup is essential. Names will be required upon arrival to enter the building.\n\nThere will be food and drink provided for this event, so please let us know of any dietary requirements or allergies."
+        "description": "OWASP Dorset are proud to bring out latest in-person event, hosted with Hays Recruitment Bournemouth in their NEW ADDRESS.\n\n**PLEASE NOTE THAT HAYS HAVE A NEW ADDRESS AROUND THE CORNER:**\n1st floor South\nTelephone House\n18 Christchurch Road\nBournemouth\nDorset\nBH1 3NE\n\n**Talks**\n\n**Dr Shamal Faily**\n***Secure by Design: why it's hard, and what we're doing about it.***\nSecure by Design is becoming the dominant approach in government for increasing cyber resilience by considering Cyber Security early and through life. However, within MOD we (like many organisations) face challenges that make Secure by Design hard for those responsible for implementing. In this talk, I will outline these challenges and talk about the role Dstl is playing to address them within MOD, and collectively with our partners across government.\n\nDr Shamal Faily is a Principal Scientist in the Software and Systems Dependability Team at Dstl. He is a Visiting Fellow at Bournemouth University, and previously held a range of academic posts at Robert Gordon University, Bournemouth University, UCL, and University of Oxford, including course leadership positions. Prior to his work in Higher Education, Shamal was a software engineer at Logica UK\u2019s Space & Defence division for nearly a decade. Shamal has long established interests in the design and secure and usable systems, and published over 100 peer-reviewed publications in Software Engineering, Cyber Security, HCI, and Computer Science Education. Shamal is also the lead developer of the open-source CAIRIS (Computer Aided Integration of Requirements and Information Security) platform, which is widely used for threat modelling.\n\n**Hays**\nCyber recruitment update from the Hays team.\n\n**Ashley Allen**\nNowadays, domestic smart security devices, such as smart locks, smart doorbells, and security cameras, are becoming increasingly popular with users due to their ease of use, convenience, and declining prices. Unfortunately, users have very few sources of unbiased information regarding product performance in real-world conditions and, as a result, tend to take manufacturer claims at face value. This means that users may be exposed to threats such as theft, impersonation, and even physical injury if the device fails and is used to prevent access to hazardous environments. This talk discusses recently published research, and in particular several attacks using popular wireless attack vectors (i.e., 433 MHz radio, Bluetooth, and RFID) against domestic smart security devices. Results suggest that users are open to considerable threats, irrespective of whether they use lesser known (i.e., no name) or branded smart security devices, due to the poor security offered by these devices.\n\nAshley Allen is a PhD student in Computer Science at the University of Hertfordshire and a member of the Cybersecurity and Computing Systems research group. He holds an MSc in Computer Science (Cybersecurity) from Staffordshire University, UK. He has over 20 years of experience working in security roles in both the public and private sectors. He is currently Senior Security Engineer for Posit, PBC, an American data science company. His research interests include IoT security and federated learning.\n\n**Event and Venue**\nWe will be joining Hays Recruitment in their new offices in Bournemouth for this event, there is a limit on numbers, so signup is essential. Names will be required upon arrival to enter the building.\n\nThere will be food and drink provided for this event, so please let us know of any dietary requirements or allergies."
     },
     {
         "group": "Frankfurt",
@@ -252,12 +262,12 @@
     {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
-        "name": "OWASP OC and CSA OC Joint Meeting- Save the Date!!!!!!",
+        "name": "The Cloud Explosion and the new age of SOC (OWASP OC & CSA OC Joint Meeting)",
         "date": "2024-09-25",
         "time": "17:30-07:00",
         "link": "https://www.meetup.com/owasp-oc/events/303339243",
         "timezone": "America/Los_Angeles",
-        "description": "NOTE: This is a joint meeting with CSA OC. We will not be meeting at our usual location or day, so **read the detail event date and location carefully**.\n\n**Save the Date!!**\nPlease join **CSA OC** and **OWASP OC** as we look forward to a blowout meeting, sponsored by **Query**. Please be sure to **RSVP** as there are limited seats. More speaker and topic details to follow.\n\nDinner and beverages will be provided, so if you cannot make it, please be sure to cancel your reservation to make room for other members. Thanks again to **Query** for sponsoring and **Chipotle** for hosting us at their venue!\n\nWe look forward to seeing everyone there, and don't forget to RSVP to our [OC Joint Cyber Mixer on the 17th of September](https://www.meetup.com/owasp-oc/events/303251499/?eventOrigin=home_next_event_you_are_hosting)!"
+        "description": "NOTE: This is a joint meeting with CSA OC. We will not be meeting at our usual location or day, so **read the detail event date and location carefully**.\n\n**Topic**\nThe innovations of cloud technologies have evolved and multiplied over the years - along with the amount of data produced and stored. From not enough to way too much, how do security teams harness the power of data overload?\nDinner and beverages will be provided, so if you cannot make it, **PLEASE** be sure to cancel your reservation to make room for other members. Thanks again to **Query** for sponsoring and **Chipotle** for hosting us at their venue!\n\nWe look forward to seeing everyone there, and don't forget to RSVP to our [OC Joint Cyber Mixer on the 17th of September](https://www.meetup.com/owasp-oc/events/303251499/?eventOrigin=home_next_event_you_are_hosting)!"
     },
     {
         "group": "Orange County",
@@ -378,16 +388,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516377",
         "timezone": "America/Vancouver",
         "description": "TBD"
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "Extra OWASP SAMM community call - Europe - Asia",
-        "date": "2024-09-13",
-        "time": "08:00-04:00",
-        "link": "https://www.meetup.com/owasp-samm/events/303326098",
-        "timezone": "America/New_York",
-        "description": "The SAMM Core team is happy to host a community call on 13th September @ 14.00 CET. This is not a replacement of the regular community call, but an extra one we\u2019ve scheduled during a more friendly time for users in EU and Asia. Bring your SAMM questions and we\u2019ll discuss them!"
     },
     {
         "group": "Wrongsecrets",
