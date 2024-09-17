@@ -140,6 +140,16 @@
         "description": "*Welcome to the first OWASP Copenhagen meetup after the (long) summer break!*\n\n*We will be talking on API security and hopefully more. We're missing a speaker and it might be you! If you have something to talk about that might or might not be related, please let us know!*\n\nThe talk on API Security we have in place is by Andrei Agape and here's a short synopsis:\n\nThis presentation will share key findings from analyzing the OpenAPI standard and 100,000 publicly available API documentations. The aim of this research is to uncovered vulnerabilities that can be detected by analyzing the documentation and how testing techniques can be improved based on these results. Attendees will gain insights into how these discoveries can enhance API pentesting methodologies, streamline vulnerability detection, and improve overall security practices.\n\nAndrei is an Pentester and Offensive Security Specialist with a passion for web and API research as he likes finding ingenious ways to chain and exploit vulnerabilities that otherwise seem benign.\n\n**Agenda**\n18.00: Welcome\n18.05: Andrei Agape: A Deep dive into OpenAPI Security\n18.50: Pizza time\n19.30: Your talk?"
     },
     {
+        "group": "Dallas",
+        "repo": "www-chapter-dallas",
+        "name": "OWASP Oct Meet - In person",
+        "date": "2024-10-08",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/303473011",
+        "timezone": "America/Chicago",
+        "description": "\\*\\*\\*\\*How to accelerate development while providing security guardrails for developers\" \\*\\*\\*\\*\\*\n\nCloud-native application development demands agility, speed, and robust security. As organizations multiply and scale their business initiatives, maintaining security across the entire software development lifecycle becomes critical. This session looks at the challenges in achieving comprehensive cloud-to-code visibility and identifying risks at the source - the code."
+    },
+    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Denver OWASP September Meetup - Join Us!",
@@ -200,16 +210,6 @@
         "description": "Please join us at Monkey's Tail for a Happy Hour sponsored by Salvador Technologies.\n\nInformation from our sponsor:\nhttps://www.salvador-tech.com/\nSalvador addresses a crucial problem concerning operational continuity and cyber attack recovery for mission critical systems, eliminating costly, inconvenient, or even dangerous downtime. Our Security Failover technology is redefining the essence of ICS & OT Resilience, with our 30-second Recovery."
     },
     {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2024-09-16",
-        "time": "18:45-04:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/302940703",
-        "timezone": "America/New_York",
-        "description": "OWASP topic TBA"
-    },
-    {
         "group": "Jakarta",
         "repo": "www-chapter-jakarta",
         "name": "Introduction to Attacking AWS Cloud",
@@ -257,7 +257,7 @@
         "time": "18:30+12:00",
         "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297786503",
         "timezone": "Pacific/Auckland",
-        "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for September will be **A04:2021 - Insecure Design**.\n\n**Technical Topic Speaker:** TBC\n**Talk Title:** TBC\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
+        "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for September will be **A04:2021 - Insecure Design**.\n\n**Technical Topic Speaker:** Austin Chamberlain\n**Talk Title:** How Many Mistakes Can You Make With One Web App?\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
     },
     {
         "group": "Orange County",
@@ -280,6 +280,16 @@
         "description": "***Ready for another round!!!??? Please join us for our Joint OC Cyber Mixer!!***\n\n**When:** **Tuesday September 17th, 2024**\n**Time:** **6 PM- 9PM**\n**Location:** **Green Cheek Beer Company**\n2957 Randolph Ave., Costa Mesa, CA\n\n**Murphie.ai** and **Fortinet** will be furnishing us with some great appetizers, etc. We have room for 2 more vendors and that is it!! :D please note, Vendors welcome **by INVITATION ONLY**, please contact Jackie K. from the Cloud Security Alliance OC meetup if interested. This is a cyber networking event, no selling please.\n\n**Please RSVP via meetup.**"
     },
     {
+        "group": "Oslo",
+        "repo": "www-chapter-oslo",
+        "name": "Gamification of Threat modeling",
+        "date": "2024-10-15",
+        "time": "17:00+02:00",
+        "link": "https://www.meetup.com/owasp-oslo/events/303410666",
+        "timezone": "Europe/Oslo",
+        "description": "* **17:00-1730 - Food serving**\n* **17:30-18:15 - Gamification of Threat Modeling for Machine Learning, Elias Brattli S\u00f8rensen**\n* **18:15-19:00 - Let\u2019s play OWASP Cornucopia! Johan Sydseter**\n\n**Gamification of Threat Modeling for Machine Learning**\nArtificial Intelligence (AI) has established itself as an important part of our lives, with machine learning spearheading the most notable innovations in the last two decades. Publications about prompt injection and similar attacks get a lot of attention. However, these are far from the only security issues with machine learning systems. We also have to think about challenges like poisoned data, recursive data pollution and all the personally identifiable information the models have memorized, as well as other inherent weaknesses with stochastic systems. Too much focus is directed towards operational security in the OPS part of of MLOps, while the shift-left idea of building systems \"secure by design\" during planning and development does not get enough emphasis. Threat modeling and risk analysis will likely play an important role in the future of machine learning security. I introduce Elevation of MLsec, which is an extension of Shostack's threat modeling card game Elevation of Privilege, and based on the risk framework published by the Berryville Institute of Machine Learning (BIML). In this talk, we will demystify how machine learning systems actually work and explore how the threat modeling game can help us engineer more secure machine learning systems.\n\n**Let\u2019s play OWASP Cornucopia!**\nOWASP Cornucopia is a card game to assist software development teams identify security requirements in agile software development processes. It is language, platform, and technology agnostic.\n\nIn this session we will learn to play the game in a different way from what we usually do. Johan Sydseter, OWASP Cornucopia co-lead and game master will take you through a provocative scenario. Confronted with the grumpy old senior developer that refuses to shift-left due to too many hours working overtime on his incredible sophisticated pet projects, what will you do? Will you be able to teach him a lesson about why security is important, or will he be laughing all the way to his developer cave? Only true passionate application security engineers will succeed. Expect confetti, swags, (yes, you read right, swag, valued just below the corruption limit) and illegal bribes as you venture into the unknown of OWASP Cornucopia.\n\n**Speakers**\n\n**Elias Brattli S\u00f8rensen** is a software engineer & security champion at Kantega SSO, engineering digital identity standards for secure authentication to the Atlassian ecosystem while facilitating and promoting secure software development practices. M. Sc. in Computer Science at NTNU, researching usage of static analysis tools like Spotbugs to find vulnerabilities in OpenID Connect client implementations.\n\n**Johan Sydseter** is co-leader for OWASP\u00ae Cornucopia and Co-creator of the OWASP\u00ae Cornucopia Mobile App Edition. The man with the long hair, not the long beard. Fresh meat in App Sec and OWASP but has 15 years' experience building and designing backend and frontend solutions as a designer, developer and architect. He has held several presentations on appsec at various international conferences, loves confetti and funny glasses.\n\n**About OWASP and OWASP Chapter meetings**\nOWASP is an online community that produces freely available articles, methods, documentation, tools, and technologies in IoT, system software, and web application security.\nOWASP Chapters exist to build a community of application security professionals worldwide. Our Oslo OWASP Chapter's meetings are free and open to everyone to attend, so both members and non-members are always welcome. Local meetings include:\n\n* Training to improve your skills\n* Lectures that are relevant to your work\n* Networking capabilities"
+    },
+    {
         "group": "Ottawa",
         "repo": "www-chapter-ottawa",
         "name": "OWASPOttawa September 18th 2024: How Vulnerability Assessment is Done ",
@@ -300,14 +310,24 @@
         "description": "Music night join us in The Ostrich for a might of music and networking.\n\nhttps://www.ostrichinnpeterborough.com/\n\nThirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "October 2024 Meeting",
+        "date": "2024-10-01",
+        "time": "20:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/303457123",
+        "timezone": "America/Phoenix",
+        "description": "**Free (HTTP) Cookies!** (15 min)\nThe talk will cover how cookies are used for session management in web applications and the security settings that can be applied to them."
+    },
+    {
         "group": "Poland",
         "repo": "www-chapter-poland",
-        "name": "OWASP Meeting in Krakow - OAuth secrets + Bug bounty",
+        "name": "OWASP Meeting in Krakow - JWT, OAuth secrets & Bug bounty",
         "date": "2024-10-01",
         "time": "18:00+02:00",
         "link": "https://www.meetup.com/owasp-poland/events/303209619",
         "timezone": "Europe/Warsaw",
-        "description": "Hi,\nWe are Polish chapter of [OWASP](https://owasp.org/) \\- worldwide\\, non\\-profit organisation focused on application security issues\\.\nThis time we have invited Grzegorz Niedziela, \"Bug Bounty Reports Explained\" Youtube channel host. He will have a talk about OAuth security and then we will discuss bright and dark sides of bug bounty.\n\nAgenda:\n\n1. **OAuth Secrets (Grzegorz Niedziela)**\nThese days, Oauth is a key protocol, allowing us to log in with one click to many websites. As anything, this convenience doesn\u2019t come without a cost. The cost here is the risk of an account takeover bug. And that\u2019s not only changing the redirect_uri to an attacker-controlled host which, for many hackers, is the only attack they know. That attack won't work too well in 2024. This talk will be about exploiting smaller misconfigurations. For example, what do to if you only control the path of the redirect_uri or how to exfiltrate the code when your open doesn't preserve parameters. It will also focus on particular auth providers and how they don't make it hard for us by being way more relaxed than the standard defines.\n2. After the break, we will be hosting a **discussion about bug boutnty**. We want to discuss both sides - bug bounters and companies which have bug bounty programs.\nHow to report vulnerabilities? Where to seek? What should be your goal - easy bugs occuring en masse or sophisticated kill-chains? What to expect? Bug bounty myths and reality.\nHow bug bounty might help your organisation? What are the real costs of having bb program? What can go wrong? How to manage good bb program? Bug bounty or penetration testing?\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this invitation** with friends and in your social media."
+        "description": "Hi,\nWe are Polish chapter of [OWASP](https://owasp.org/) \\- worldwide\\, non\\-profit organisation focused on application security issues\\.\nThis time we have invited **Grzegorz Niedziela** and **Louis Nyffenegger**.\n\n**[Louis Nyffenegger](https://www.linkedin.com/in/snyff/)** the founder of [PentesterLab](https://pentesterlab.com/), will talk about JSON Web Tokens (JWTs).\n**[Grzegorz Niedziela](https://www.linkedin.com/in/gniedziela/)**, \"[Bug Bounty Reports Explained](https://www.youtube.com/c/BugBountyReportsExplained)\" Youtube channel host will have a talk about OAuth security.\nAfter talks, we will discuss bright and dark sides of bug bounty.\n\nAgenda:\n\n1. **JSON Web Tokens (JWTs) (Louis Nyffenegger)**\nNowadays, JSON Web Tokens (JWTs) are ubiquitous, serving as session tokens, OAuth tokens, or simply as a means to pass information between applications or microservices. However, by design, JWTs contain numerous security and cryptography pitfalls that can lead to serious vulnerabilities. In this talk, we will explore how to exploit some of these issues.\n2. **OAuth Secrets (Grzegorz Niedziela)**\nThese days, Oauth is a key protocol, allowing us to log in with one click to many websites. As anything, this convenience doesn\u2019t come without a cost. The cost here is the risk of an account takeover bug. And that\u2019s not only changing the redirect_uri to an attacker-controlled host which, for many hackers, is the only attack they know. That attack won't work too well in 2024. This talk will be about exploiting smaller misconfigurations. For example, what do to if you only control the path of the redirect_uri or how to exfiltrate the code when your open doesn't preserve parameters. It will also focus on particular auth providers and how they don't make it hard for us by being way more relaxed than the standard defines.\n3. After the break, we will be hosting a **discussion about bug boutnty**. We want to discuss both sides - bug bounters and companies which have bug bounty programs.\nHow to report vulnerabilities? Where to seek? What should be your goal - easy bugs occuring en masse or sophisticated kill-chains? What to expect? Bug bounty myths and reality.\nHow bug bounty might help your organisation? What are the real costs of having bb program? What can go wrong? How to manage good bb program? Bug bounty or penetration testing?\n\nAbout our guests:\n**[Louis Nyffenegger](https://www.linkedin.com/in/snyff/)** is a seasoned security engineer and the founder of [PentesterLab](https://pentesterlab.com/), a platform dedicated to teaching web penetration testing and security code review.\n**[Grzegorz Niedziela](https://www.linkedin.com/in/gniedziela/)** \\- I'm a hacker who documents his journey by creating and curating the best content for you in the form of [videos](https://www.youtube.com/c/BugBountyReportsExplained) and [newsletter](https://www.bugbountyexplained.com/).\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this invitation** with friends and in your social media."
     },
     {
         "group": "Salt Lake City",
