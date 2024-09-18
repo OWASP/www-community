@@ -240,6 +240,26 @@
         "description": "**TOPIC**: AI Services Security Test Guideline at Zoom\nJoin us for great networking, dinner and drinks, and see a presentation by **Raina Chen**, Senior Security Engineer at Zoom.\n\n**ABSTRACT**: As the adoption of AI technology proliferates across industries, an increasing number of companies are leveraging AI to power myriad products. This widespread integration necessitates a robust approach to ensuring the security of AI-driven solutions. This discussion explores an overview of Zoom\u2019s security testing guidelines tailored for AI services, encompassing essential facets such as data privacy, model security, system security, open-source software (OSS) security, security of AI downstream services, and Automation Tools.\nThis presentation will provide a framework for navigating these challenges, offering practical insights and strategies for enhancing the security posture of AI services within Zoom and beyond.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
+        "group": "Netherlands",
+        "repo": "www-chapter-netherlands",
+        "name": "October 2024 OWASP Chapter Netherlands Meetup",
+        "date": "2024-10-17",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/302961495",
+        "timezone": "Europe/Amsterdam",
+        "description": "See [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **AI Security: Safeguarding Software from Code to Architecture** by **Feiyang Tang**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **TBA**\n\n**AI Security: Safeguarding Software from Code to Architecture**\n*Abstract:*\nAI is rapidly transforming software development, offering unprecedented capabilities but also introducing new security challenges. As organizations rush to adopt AI technologies, they often overlook critical security implications, potentially exposing themselves to novel threats and vulnerabilities.\nIn this talk, we\u2019ll explore how to build secure AI-powered software, covering both coding practices and system design. We\u2019ll dive into specific scenarios where AI can introduce security risks and discuss practical strategies to mitigate these issues in software development. We\u2019ll also touch on privacy concerns when implementing AI solutions. Through real-world examples, you\u2019ll gain actionable insights to enhance the security of your AI projects, from individual algorithms to complete systems.\n*Bio:*\nFeiyang Tang is a Technical Software Consultant at Software Improvement Group, specializing in code quality and security. He holds a Ph.D. in Software Privacy from Norway and a Master\u2019s degree in Artificial Intelligence. With a background spanning academia and industry, Feiyang focuses on enhancing software development practices through the responsible integration of AI technologies. His work aims to bridge the gap between advanced AI capabilities and robust, secure software engineering principles."
+    },
+    {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "OWASP NYC: \"Day 1 DevSecOps\"  |  Building a Program and Your Credibility",
+        "date": "2024-10-17",
+        "time": "17:30-04:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/303412715",
+        "timezone": "America/New_York",
+        "description": "An OWASP NYC Chapter Meetup - On-Site\n\nThursday, October 17th, 2024.\n\nWestCap\nLocation: 40 10th Avenue, New York,\nNY 10014 (Entrance on 13\u00b0\" Street)\n\nSpeaker Alex Olea, DevSecOps Engineer at Starburst\n\nDay 1 DevSecOps \\| Building a Program and Your Credibility\nStarting a DevSecOps function is an exciting opportunity to not just run a program, but build one. But whether you\u2019re at a large enterprise or a startup, Day 1 is never total greenfield. Even if the organization doesn\u2019t have serious technical and security debt, you\u2019re still going to run into stuff that was spun up and abandoned or tools that aren\u2019t what you might have chosen. So how do you get started?\n\nIn this session, Alex will share his experiences with building DevSecOps programs at startups, including:\n\n* What is DevSecOps?\n* Building trust with developers\n* Improving developer productivity and measuring success\n* Redefining an AppSec program case study: replacing an SCA tool"
+    },
+    {
         "group": "New York City",
         "repo": "www-chapter-new-york-city",
         "name": "Threat Modeling Challenges",
@@ -247,17 +267,7 @@
         "time": "17:30-04:00",
         "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/303327509",
         "timezone": "America/New_York",
-        "description": "***Sign-up is required for Venue VIP Entrance - More to come***\n\n2 weeks away downtown FiDi\n\nWednesday, September 18, 2024\nThe event starts at 5:30 pm\n\n**The Malt House FiDi**\n9 Maiden In\nNew York. NY 10038\n\n5:30 pm - Networking, drinks and appetizers\n6:00 pm - Stephen Talk - LLMs in your Software Security House\n6:30 pm - Jason Talk - Global-Grade Threat Modeling: Scaling Security to Meet Financial Regulatory Demands\n7 pm - Open Q&A/General Discussion on Threat Modeling Challenges\n8:30 pm - Event ends"
-    },
-    {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP New Zealand - Auckland Meetup",
-        "date": "2024-09-17",
-        "time": "18:30+12:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297786503",
-        "timezone": "Pacific/Auckland",
-        "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for September will be **A04:2021 - Insecure Design**.\n\n**Technical Topic Speaker:** Austin Chamberlain\n**Talk Title:** How Many Mistakes Can You Make With One Web App?\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
+        "description": "***Sign-up is required for Venue VIP Entrance - More to come***\n\nLooking forward to seeing everyone tomorrow downtown FiDi\n\nWednesday, September 18, 2024\nThe event starts at 5:30 pm\n\n**The Malt House FiDi**\n9 Maiden In\nNew York. NY 10038\n\n5:30 pm - Networking, drinks and appetizers\n6:00 pm - Stephen Talk - LLMs in your Software Security House\n6:30 pm - Jason Talk - Global-Grade Threat Modeling: Scaling Security to Meet Financial Regulatory Demands\n7 pm - Open Q&A/General Discussion on Threat Modeling Challenges\n8:30 pm - Event ends"
     },
     {
         "group": "Orange County",
@@ -268,16 +278,6 @@
         "link": "https://www.meetup.com/owasp-oc/events/303339243",
         "timezone": "America/Los_Angeles",
         "description": "NOTE: This is a joint meeting with CSA OC. We will not be meeting at our usual location or day, so **read the detail event date and location carefully**.\n\n**Topic**\nThe innovations of cloud technologies have evolved and multiplied over the years - along with the amount of data produced and stored. From not enough to way too much, how do security teams harness the power of data overload?\nDinner and beverages will be provided, so if you cannot make it, **PLEASE** be sure to cancel your reservation to make room for other members. Thanks again to **Query** for sponsoring and **Chipotle** for hosting us at their venue!\n\nWe look forward to seeing everyone there, and don't forget to RSVP to our [OC Joint Cyber Mixer on the 17th of September](https://www.meetup.com/owasp-oc/events/303251499/?eventOrigin=home_next_event_you_are_hosting)!"
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Orange County (OC) Joint Cyber Mixer September 2024",
-        "date": "2024-09-17",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/303251499",
-        "timezone": "America/Los_Angeles",
-        "description": "***Ready for another round!!!??? Please join us for our Joint OC Cyber Mixer!!***\n\n**When:** **Tuesday September 17th, 2024**\n**Time:** **6 PM- 9PM**\n**Location:** **Green Cheek Beer Company**\n2957 Randolph Ave., Costa Mesa, CA\n\n**Murphie.ai** and **Fortinet** will be furnishing us with some great appetizers, etc. We have room for 2 more vendors and that is it!! :D please note, Vendors welcome **by INVITATION ONLY**, please contact Jackie K. from the Cloud Security Alliance OC meetup if interested. This is a cyber networking event, no selling please.\n\n**Please RSVP via meetup.**"
     },
     {
         "group": "Oslo",
@@ -297,7 +297,7 @@
         "time": "18:00-04:00",
         "link": "https://www.meetup.com/owasp-ottawa/events/303182934",
         "timezone": "America/Toronto",
-        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 564\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **How Vulnerability Assessment is Done in Common Criteria Evaluations**\n\n**Abstract:**\nThis presentation will discuss the methods currently used for vulnerability analysis in the internationally-recognized IT security evaluation standard, Common Criteria. Besides describing what is currently done in Canada and the United States, this presentation will briefly describe other vulnerability methodologies that have been outlined in the standard. The presentation will start with a brief discussion of what Common Criteria is, and why it is such a consequential standard for IT security.\n\n**Speakers:**\n**Carol Cantlon**, CISSP, has been involved with Common Criteria since its beginnings. She has done Common Criteria evaluations as a Canadian scheme Approved Evaluator in EWA-Canada's Common Criteria Laboratory and as part of the DOMUS IT Security Laboratory. She is currently the Quality Manager of Lightship Security's Canadian and US Common Criteria Laboratories with her responsibilities including the review of vulnerability assessment reports."
+        "description": "**Welcome to our in Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 564\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: https://www.youtube.com/watch?v=DmTI1urW3Ts\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **How Vulnerability Assessment is Done in Common Criteria Evaluations**\n\n**Abstract:**\nThis presentation will discuss the methods currently used for vulnerability analysis in the internationally-recognized IT security evaluation standard, Common Criteria. Besides describing what is currently done in Canada and the United States, this presentation will briefly describe other vulnerability methodologies that have been outlined in the standard. The presentation will start with a brief discussion of what Common Criteria is, and why it is such a consequential standard for IT security.\n\n**Speakers:**\n**Carol Cantlon**, CISSP, has been involved with Common Criteria since its beginnings. She has done Common Criteria evaluations as a Canadian scheme Approved Evaluator in EWA-Canada's Common Criteria Laboratory and as part of the DOMUS IT Security Laboratory. She is currently the Quality Manager of Lightship Security's Canadian and US Common Criteria Laboratories with her responsibilities including the review of vulnerability assessment reports."
     },
     {
         "group": "Peterborough",
@@ -308,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/302453493",
         "timezone": "Europe/London",
         "description": "Music night join us in The Ostrich for a might of music and networking.\n\nhttps://www.ostrichinnpeterborough.com/\n\nThirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Philadelphia",
+        "repo": "www-chapter-philadelphia",
+        "name": "Pain in the SAST: Secure Code Reviews and Static Analysis",
+        "date": "2024-09-24",
+        "time": "19:00-04:00",
+        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/303492663",
+        "timezone": "America/New_York",
+        "description": "Yoo OWASP Philly!! We back!!\n\nPlease reconvene with us as we dive into our Fall Line-Up at the Black Sheep Pub in Center City Philadelphia. The agenda will include networking, lite refreshments, and a technical talk on Secure Code!\n\nHave you ever wondered what vulnerabilities look like in code? Has anyone ever asked you do a secure code review on a PR, or implement some tooling to run automated code scans? Did you answer no to all of this but still think it might be interesting? Then please join me as we do an introductory session on performing Secure Code reviews and take a look at some code scanning options with their fairly simple code base integrations!\n\nP.S. Your OWASP Philly team is looking to bring you a Secure Code CTF in October for Security Awareness Month, so this may or may not be useful!\n\nExcited to see everyone!\n-Higgs"
     },
     {
         "group": "Phoenix",
@@ -380,16 +390,6 @@
         "description": "Jeff Williams is visiting Germany and has offered to visit the OWASP Stammtische. A great reason to hold a special Stammtisch outside of the regular schedule!\n\n**Novatec Consulting** will host this Stammtisch at their venue \u2013 thank you very much, we truly appreciate your support in making this event possible!\n\nThe exact details of this Stammtisch are still being finalized and will be shared here soon."
     },
     {
-        "group": "Stuttgart",
-        "repo": "www-chapter-stuttgart",
-        "name": "2nd OWASP Stuttgart Chapter Stammtisch",
-        "date": "2024-09-17",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/301313714",
-        "timezone": "Europe/Berlin",
-        "description": "**An Introduction to OWASP SAMM (Software Assurance Maturity Model)**\n\nSAMM is an open framework that helps organizations assess, build, and improve their software security practices. It provides a structured model to guide organizations in integrating security into their SDLC, addressing Vulnerabilities, and promoting a culture of software assurance. SAMM offers a maturity model that enables organizations to measure their software security maturity and identify areas for improvement.\n\n**Agenda:**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
-    },
-    {
         "group": "Switzerland",
         "repo": "www-chapter-switzerland",
         "name": "Container and Kubernetes Security (Free Half-Day Training)",
@@ -403,11 +403,31 @@
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
         "name": "OWASP Vancouver Monthly Meetup",
+        "date": "2024-10-17",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516380",
+        "timezone": "America/Vancouver",
+        "description": "TBD"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "Docker security mistakes I made so you don\u2019t have to",
         "date": "2024-09-19",
         "time": "18:00-07:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516377",
         "timezone": "America/Vancouver",
-        "description": "TBD"
+        "description": "**We would like to thank Lululemon for sponsoring this event!**\n\n**Docker security mistakes I made so you don\u2019t have to** with **Amiran Alavidze**\n\nContainers are often used as an isolation mechanism to either run unsecured workloads (i.e. isolate them from hostile external environments) or increase security of questionable workloads (i.e. \u201cI don\u2019t fully trust this, so I\u2019ll keep it separate\u201d). When doing so, we need to keep in mind that strong security isolation was not a design objective for containers. There are limits to the provided isolation and also unexpected ways to break the isolation completely through misconfiguration.\n\nIn this blue team focused talk we will review Docker security (mis-)configurations I\u2019ve seen in the wild. We will consider WHY they are dangerous (there will be demos!) and HOW to fix them.\n\nThe talk is focused on intended (albeit dangerous) functionality, there will be no 0-days. Also, container orchestration technologies will not be covered - a lot of presented scenarios would be applicable, but there is additional attack surface not considered in this talk.\n\n**Amiran** is an OWASP Vancouver board member and is a passionate product security professional with over 20 years of technology experience in a variety of roles. As a security engineering leader, Amiran is advocating a pragmatic approach to security where partnership between security, builder, and platform teams result in security becoming a business enabler."
+    },
+    {
+        "group": "Vitoria",
+        "repo": "www-chapter-vitoria",
+        "name": "Dancing with OAuth 2.0",
+        "date": "2024-09-24",
+        "time": "19:30-03:00",
+        "link": "https://www.meetup.com/owasp-capixaba/events/303480446",
+        "timezone": "America/Sao_Paulo",
+        "description": "Palestrante: Matheus Vrech\nTema: Dancing with OAuth 2.0\nData: 24/09/2024(Ter\u00e7a-feira) \u00e0s 19:30"
     },
     {
         "group": "Wrongsecrets",
