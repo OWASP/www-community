@@ -98,6 +98,8 @@ capabilities. Our primary recommendation is to use one of these:
         You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam).  
     PurpleTeam is pluggable, if it doesn't have a tester that you need you can add your own.
     One of the testers (the web application tester) uses ZAP under the hood.
+  - [Akto](https://www.akto.io/) - Akto is an open-source and commercial DAST and API Security tool that includes both automated API Discovery and
+    scanning of vulnerabilities in CI/CD with the highest test coverage.
   - [Arachni](http://www.arachni-scanner.com/) - Arachni is a commercially supported scanner, but its free for most use cases, including scanning open source projects.
   - [CI Fuzz CLI](https://www.code-intelligence.com/cli-tool) - An open source command line tool for creating fuzz tests. The tool is tightly integrated with various build systems, enabling developers to create fuzz tests as easily as unit tests.
   - [Code Intelligence App](https://www.code-intelligence.com/guided-product-tour) - This application security testing platform enables CI/CD-integrated fuzz testing at each pull request. It helps developers to measure and maximize code coverage and to prioritize all findings based on severity. All of this information is then aggregated in a usable dashboard. The testing platform integrates directly into popular ticketing systems and issue trackers.
