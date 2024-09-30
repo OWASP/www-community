@@ -1,5 +1,15 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - October",
+        "date": "2024-10-29",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299786128",
+        "timezone": "Europe/Copenhagen",
+        "description": "More info coming but reach out if you would like to be a host or do a presentation"
+    },
+    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "The State of Secure Code + Tournament ",
@@ -88,6 +98,16 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242790",
         "timezone": "America/New_York",
         "description": "OWASP topic TBA"
+    },
+    {
+        "group": "Joao Pessoa",
+        "repo": "www-chapter-joao-pessoa",
+        "name": "Modelagem de Amea\u00e7a  para al\u00e9m de sistemas: o fator humano",
+        "date": "2024-10-10",
+        "time": "20:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/303716058",
+        "timezone": "America/Fortaleza",
+        "description": "**MEETUP ONLINE**\n\nJonadabe Costa ir\u00e1 falar sobre a import\u00e2ncia de considerar o comportamento humano como uma vari\u00e1vel cr\u00edtica na seguran\u00e7a da informa\u00e7\u00e3o.\n\nAl\u00e9m de focar nas vulnerabilidades t\u00e9cnicas dos sistemas, a apresenta\u00e7\u00e3o destacar\u00e1 como as a\u00e7\u00f5es, decis\u00f5es e intera\u00e7\u00f5es humanas podem amplificar ou mitigar riscos.\n\nDiscutiremos os aspectos como engenharia social, falhas de comunica\u00e7\u00e3o, erros humanos e como a modelagem de amea\u00e7a deve englobar esses fatores para garantir uma abordagem de seguran\u00e7a mais abrangente e eficaz.\n\nEste tema se conecta diretamente alguns dos TOP 10 da OWASP, especificamente o **A04:2021 - Insecure Design**, que aborda o Design Inseguro, que leva em considera\u00e7\u00e3o tanto a interface de uso quanto as intera\u00e7\u00f5es humanas, **A07:2021 - Identification and Authentication Failures,** j\u00e1 que muitos dos problemas de autentica\u00e7\u00e3o derivam de senhas fracas, reutiliza\u00e7\u00e3o de credenciais ou pr\u00e1ticas inadequadas de seguran\u00e7a por parte dos usu\u00e1rios, tudo relacionado a comportamentos humanos falhos e o **A09:2021 - Security Logging and Monitoring Failures,** uma vez que a falta de monitoramento adequado ou a m\u00e1 interpreta\u00e7\u00e3o de logs frequentemente decorre de erros humanos."
     },
     {
         "group": "Los Angeles",
@@ -232,7 +252,7 @@
     {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
-        "name": "OWASP Seattle-Discussion: Alice and Bob Learn Application Security w/Tanya Janka",
+        "name": "OWASP Seattle-Discussion: Alice and Bob Learn Application Security w/Tanya Janca",
         "date": "2024-10-09",
         "time": "17:00-07:00",
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/303692582",
