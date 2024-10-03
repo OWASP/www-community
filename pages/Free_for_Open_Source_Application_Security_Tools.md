@@ -343,6 +343,10 @@ Secrets detection is often confused with SAST because both scan through static s
       - The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count.The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
       - Hardcoded [secrets validation](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/secret-detection) and [custom regex](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/secrets-policy-settings#custom-secrets) configuration are built in.
       - [Secrets mitigation](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/realtime-secret-mitigation) is provided with a developer experience focus.
+   
+### Privacy Engineering Tools
+
+- [xCOMPASS](https://github.com/Comcast/xCompass/tree/main/xCOMPASS) - a simple tool that allows developers to determine their privacy engineering requirements early in the product development lifecycle. xCOMPASS has also been listed by [NIST in their Privacy Engineering Program Collaboration Space as one of four Risk Assessment Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/privacy-risk-assessment/tools) and [CISA as one of the open-source tools that promote cybersecurity best practices](https://www.cisa.gov/resources-tools/services/xcompass).
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
