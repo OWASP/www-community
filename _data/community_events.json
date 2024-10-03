@@ -30,6 +30,16 @@
         "description": "On October 3rd, we organize our next OWASP Belgium chapter meeting at EY in Diegem.\n\n**Agenda**:\n\n* 18h00-18h30: Welcome and refreshments\n* 18h30-18h40: OWASP Update\n* 18h40-19h30: **JWT security and exploitation** (by Louis Nyffenegger, founder of PentesterLab)\n* 19:45-20h45: **Breaking and securing OAuth 2.0 in frontends** (by Dr. Philippe De Ryck, Founder of Pragmatic Web Security)\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
     },
     {
+        "group": "Belo Horizonte",
+        "repo": "www-chapter-belo-horizonte",
+        "name": "AppSec Summit BH 2024: Encontro Exclusivo de Application Security",
+        "date": "2024-10-10",
+        "time": "16:00-03:00",
+        "link": "https://www.meetup.com/owasp-belo-horizonte-chapter/events/303783800",
+        "timezone": "America/Sao_Paulo",
+        "description": "Caros membros da OWASP Belo Horizonte,\n\n\u00c9 com grande entusiasmo que convidamos voc\u00ea para participar do **1\u00ba AppSec Summit BH**, um evento pioneiro totalmente dedicado \u00e0 comunidade de **Application Security** em nossa cidade!\n\n **O que:** AppSec Summit BH\n **Quando:** 10 de outubro de 2024\n **Hor\u00e1rio:** 16h \u00e0s 21h30\n **Onde:** LocalizaLabs\n\nEste evento, realizado pela **Shield Security** com o apoio da **LocalizaLabs**, promete ser um marco para todos os profissionais e interessados em seguran\u00e7a de aplica\u00e7\u00f5es.\n\nComo l\u00edder da OWASP BH, tenho o prazer de anunciar um benef\u00edcio exclusivo para nossa comunidade: **inscri\u00e7\u00e3o GRATUITA para membros da OWASP!**\n\n Para garantir sua vaga gratuita, utilize o link especial de inscri\u00e7\u00e3o: **[https://www.sympla.com.br/appsec-summit-bh__2663637?d=OWASP](https://www.sympla.com.br/appsec-summit-bh__2663637?d=OWASP)**\n\nN\u00e3o perca esta oportunidade \u00fanica de:\n\n* Networking com profissionais da \u00e1rea\n* Aprendizado com palestras de especialistas\n* Discuss\u00f5es sobre as \u00faltimas tend\u00eancias em AppSec\n* Troca de experi\u00eancias com a comunidade local\n\nParceiros do evento incluem Security Compass, Veracode e Akamai, garantindo conte\u00fado de alta qualidade e relev\u00e2ncia para o mercado.\n\n**Vagas limitadas!** Fa\u00e7a sua inscri\u00e7\u00e3o o quanto antes e junte-se a n\u00f3s neste evento imperd\u00edvel.\n\nContamos com a sua presen\u00e7a para fortalecer ainda mais nossa comunidade de seguran\u00e7a de aplica\u00e7\u00f5es em Belo Horizonte!\n\n#AppSecSummitBH #OWASPBH #ApplicationSecurity"
+    },
+    {
         "group": "Bhopal",
         "repo": "www-chapter-bhopal",
         "name": "ML Nexus with Capture the Flag (CTF)",
@@ -38,6 +48,16 @@
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/303600320",
         "timezone": "Asia/Kolkata",
         "description": "Join us at the OWASP Bhopal Chapter for an interactive workshop focused on Web Application Security Best Practices. Dive deep into topics like Code Review, Penetration Testing, and OWASP's top 10 vulnerabilities. Our guest speakers will share insights on the latest trends in Software Security, providing practical tips to enhance your Cybersecurity measures.\nWe'll have Capture The Flag (CTF) Competition at the end.\nThis event is ideal for professionals interested in Application Security, Network Security, and Software Development. Whether you are a beginner or an expert, this workshop will equip you with the tools and knowledge to safeguard your applications effectively. Don't miss this opportunity to stay ahead in the ever-evolving landscape of Information Security."
+    },
+    {
+        "group": "Bolivia",
+        "repo": "www-chapter-bolivia",
+        "name": "OWASP DAY 01 2024",
+        "date": "2024-10-12",
+        "time": "15:00-04:00",
+        "link": "https://www.meetup.com/owasp-bolivia-meetup-group/events/303689673",
+        "timezone": "America/La_Paz",
+        "description": "\u00a1S\u00e9 parte t\u00fa tambi\u00e9n de la experiencia OWASP en Bolivia!\n\nParticipa como expositor: [Formulario de Registro](http://bit.ly/4eqiO5p)\n\nTodos cordialmente invitados a participar del OWASP DAY 01 2024, evento virtual que se realizara el 12 de Octubre a las 15:00.\n\nLas conferencias OWASP son una herramienta de comunicaci\u00f3n e intercambio entre profesionales y entusiastas del \u00e1rea de ciberseguridad.\n\nLa plataforma comparte constantemente informaci\u00f3n actualizada sobre temas de seguridad, codificaci;on segura, herramientas, diferentes enfoques en la industria, y muchos otros temas interesantes.\n\nCon el objetivo de permitir que todos accedan al conocimiento de la seguridad, OWASP es una vibrante comunidad a nivel global."
     },
     {
         "group": "Boston",
@@ -50,6 +70,16 @@
         "description": "This month we will be welcoming Audrey Long, Senior Security Software Engineer at Microsoft, to our meetup. Doors open at 6:30pm and the presentation starts at 7pm. Pizza and soda will be provided.\n\nThis talk will walk through threat modeling fundamentals with a fun Star Wars twist! Even what may seem the most impenetrable will always have a secret way in that can be exploited. Be it an error in code, an unaccounted-for perspective, or a convenient airshaft leading to the center of a giant, black, round spacecraft, a developer must be aware of potential weaknesses. Using threat models is like getting the blueprint to the Death Star. They allow you to plan for potential scenarios or ambush attacks from stormtroopers with impossibly bad aim. Understanding the possible risks ensures your entire team will make it back to the Millennium Falcon. In this talk, Audrey Long will walk you through understanding threats in a cloud system and how to protect yourself from the dark side.\n\nAudrey Long is a highly qualified Senior Security Software Engineer at Microsoft, holding a Master of Science degree in Cybersecurity from Johns Hopkins University. Audrey is passionate about building secure solutions with customers and ensuring that security practices and considerations are built into products from the very beginning. Her expertise includes creating secure coding solutions, performing security risk assessments with threat modeling activities, evaluating security in architecture, and implementing security practices at the development level."
     },
     {
+        "group": "Cincinnati",
+        "repo": "www-chapter-cincinnati",
+        "name": "Cultivating Cybersecurity: Building and Sustaining a Security Champions Program",
+        "date": "2024-10-30",
+        "time": "16:00-04:00",
+        "link": "https://www.meetup.com/owasp-cincinnati-meetup-group/events/303723924",
+        "timezone": "America/New_York",
+        "description": "**This meeting will be in-person! Thank you to Kroger for hosting at their Kroger Blue Ash Technology Center. For security, RSVP by 2 days prior to the meeting is required.**\n\n**Sponsored by [Traceable](https://www.traceable.ai/)**\n\nIn an era where cyber threats are rapidly evolving and increasingly targeting application vulnerabilities, organizations face significant challenges in maintaining robust security practices. Traditional security models often lead to bottlenecks, stifling the agility needed in today's fast-paced development environments. This talk introduces the **Security Champions program**\u2014a strategic initiative that empowers development teams to take ownership of security responsibilities, fostering a culture of proactive security throughout the software development lifecycle.\n\nWe will explore the essential components of a successful Security Champions program, including its definition, the critical role of Security Champions within development teams, and the importance of cultivating a supportive culture grounded in principles of a \"just culture.\" Attendees will learn practical strategies for building, maintaining, and scaling their own Security Champions programs, ensuring that security becomes an integral part of their organizational fabric.\nJoin us to discover how implementing a Security Champions program not only enhances security posture but also drives collaboration and innovation, ultimately safeguarding your organization against emerging threats.\n\n**Approximate schedule:**\n4:00 - Doors open. Come for networking and refreshments!\n4:15 - Presentation begins.\n5:15 - Networking and refreshments resume!\n6:00 EOE (End of Event)"
+    },
+    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP Oct Meet - In person",
@@ -58,6 +88,16 @@
         "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/303473011",
         "timezone": "America/Chicago",
         "description": "\\*\\*\\*\\*How to accelerate development while providing security guardrails for developers\" \\*\\*\\*\\*\\*\n\nCloud-native application development demands agility, speed, and robust security. As organizations multiply and scale their business initiatives, maintaining security across the entire software development lifecycle becomes critical. This session looks at the challenges in achieving comprehensive cloud-to-code visibility and identifying risks at the source - the code."
+    },
+    {
+        "group": "Dorset",
+        "repo": "www-chapter-dorset",
+        "name": "OWASP Dorset Cyber Security Meetup, JP Morgan Collider event!",
+        "date": "2024-10-17",
+        "time": "17:00+01:00",
+        "link": "https://www.meetup.com/owasp-dorset-chapter/events/303767824",
+        "timezone": "Europe/London",
+        "description": "Join us for our next event!\nWe will be having more cyber security talks at the local collider event hosted by JP Morgan in Bournemouth!\n\nIf you would like to attend and plan to drive, please email co-leader Mike warner with your name and car reg to allow access to the cark park:\nmichael.warner@owasp.org\n\nTalks for the night to be confirmed!\n\nAttendees will meet in the reception and be signed in for admission."
     },
     {
         "group": "France",
@@ -122,22 +162,22 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "Los Angeles Joint Cyber Mixer",
+        "date": "2024-10-22",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/303775946",
+        "timezone": "America/Los_Angeles",
+        "description": "Join us for our 4th mixer with participating cybersecurity communities in Southern California, enjoy beautiful weather, amazing sunset, great conversations, network with your peers, make new friends!\nYou **don't** have to be a member of any group to participate. Mark your calendars; see you there!!\n\n**VENDOR Opportunities Available**\n*Vendors interested in attending please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n#CSA #ISSALA #OWASPLA #CyberJutsu #ISC2LA #Cybersecurity #SafeNetworking #BuildingCommunity #Murphie #BallastPoint"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "The 2024 California Technology Summit",
         "date": "2024-10-09",
         "time": "09:00-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/303611800",
         "timezone": "America/Los_Angeles",
         "description": "**OWASP LA** has organized an exceptional opportunity for our meetup membership to participate in ***2024 California Technology Summit*** on October 9th in Anaheim, CA. Join us for deep insight in new tools and technology, training, and take advantage of this great opportunity to network with industry professionals.\n\n[Register](https://technologysummit.net/register.html) now using code **CTS24OWASP** for your **complimentary** pass! Check the full schedule at [2024 California Technology Summit Agenda](https://technologysummit.net/california.html#agenda)\n\n**Conference Highlights:**\n\n* **Opening Keynote: Robin Gordon**, Global Chief Data & Analytics Officer - MetLife\n* Investing in AI & Cybersecurity - Moderated By: **David Hsiao**, Senior VP & CIO \u2013 BioMed Realty\n* AI Driven Deepfake Hacks - **Lyndon Brown**, VP of Global Technology - Zo Skin Health, Inc.\n* CIO Forum: Leveraging Today's Tools to Do More with Less - **David Williamson**, CIO - Abzena\n* Panel Discussion: Accomplishing Strategic Objectives with Limited Resources \u2013 Panelists: **Mike Baron**, CIO \u2013 Electro Rent, & **Fred Donatucci**, Executive Leadership & Technology Consultant\n* Specialty Theaters for IT Professionals including specific Security, Technology, & Executive Sessions\n* CPE Credits\n* Delicious Lunch Included\n* Cocktail Reception\n* Sponsor Giveaways\n* Win a Trip for 2 to a Destination of Your Choice (value up to $1,500)\n* Exhibit Hall with 30+ Sponsors\n\nAnd finally **don't forget** to visit us at the OWASP Los Angeles booth!"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "Hands-on Workshop Utilize DSOMM App to Define and Deliver Your Own Program",
-        "date": "2024-10-02",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/302731833",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Utilize DSOMM App to Define and Deliver Your Own Program\nStep into the world of DSOMM in an immersive hands-on training event offered by **Timo Pagel**, [OWASP DSOMM](https://owasp.org/www-project-devsecops-maturity-model/) Project lead.\n\n**Abstract:** Discover how to elevate your DevOps security strategy with the OWASP DevSecOps Maturity Model (DSOMM). This comprehensive framework offers a structured approach to prioritizing and implementing security measures within DevOps practices.\n\nIn this workshop, Timo will introduce DSOMM and its practical application, demonstrating how to leverage DevOps strategies to enhance security. He'll showcase the DSOMM application and its features, guiding you through the process of customizing and scaling your AppSec program. Specifically, how you can customize the activities your team(s) should implement with level, title, descriptions/requirements, and evidence to deliver it to your teams including the current implementation status.\nYou'll learn about the \"inheritance\" concept in DSOMM activities and its time-saving benefits, including automatic mapping to frameworks like SAMM and ISO 27001. Through an interactive exercise, you'll create a small application security testing program based on DSOMM, gaining hands-on experience in prioritizing AppSec activities.\n\nThis talk offers tools and techniques for all skill levels, whether you're new to AppSec/DevSecOps or looking to refine your existing strategies.\nJoin us to learn how DSOMM can transform your approach to security and sharpen your skills in prioritizing AppSec/DevSecOps activities for enhancing impact.\n\n*Requirements*:\n\\- Docker\n\\- Linux is recommended\\.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Manchester",
@@ -288,6 +328,16 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516380",
         "timezone": "America/Vancouver",
         "description": "TBD"
+    },
+    {
+        "group": "Warwick",
+        "repo": "www-chapter-warwick",
+        "name": "OWASP Warwick Chapter ",
+        "date": "2024-10-30",
+        "time": "18:30Z",
+        "link": "https://www.meetup.com/owasp-warwick/events/303783244",
+        "timezone": "Europe/London",
+        "description": "OWASP Warwick is back for the 2nd event this year. Please come and join us for some good talks and free food !!!\n\n#### TALKS\n\n#1: **Breaking and Defending LLMs: security of state-of-the-art AI systems** \\- Lukasz Bartoszcze \\(University of Warwick\\, Cyber Security Research Group\\)\n#2: **Come to me** \\- Neil Lines \\(NCC\\)"
     },
     {
         "group": "Wrongsecrets",
