@@ -346,7 +346,7 @@ Secrets detection is often confused with SAST because both scan through static s
    
 ### Privacy Engineering Tools
 
-- [xCOMPASS](https://github.com/Comcast/xCompass/tree/main/xCOMPASS) - a simple tool that allows developers to determine their privacy engineering requirements early in the product development lifecycle. xCOMPASS has also been listed by [NIST in their Privacy Engineering Program Collaboration Space as one of four Risk Assessment Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/privacy-risk-assessment/tools) and [CISA as one of the open-source tools that promote cybersecurity best practices](https://www.cisa.gov/resources-tools/services/xcompass).
+- [xCOMPASS](https://github.com/Comcast/xCOMPASS/) - a simple tool that allows developers to determine their privacy engineering requirements early in the product development lifecycle. xCOMPASS has also been listed by [NIST in their Privacy Engineering Program Collaboration Space as one of four Risk Assessment Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/privacy-risk-assessment/tools) and [CISA as one of the open-source tools that promote cybersecurity best practices](https://www.cisa.gov/resources-tools/services/xcompass).
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
