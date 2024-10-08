@@ -80,6 +80,16 @@
         "description": "**This meeting will be in-person! Thank you to Kroger for hosting at their Kroger Blue Ash Technology Center. For security, RSVP by 2 days prior to the meeting is required.**\n\n**Sponsored by [Traceable](https://www.traceable.ai/)**\n\nIn an era where cyber threats are rapidly evolving and increasingly targeting application vulnerabilities, organizations face significant challenges in maintaining robust security practices. Traditional security models often lead to bottlenecks, stifling the agility needed in today's fast-paced development environments. This talk introduces the **Security Champions program**\u2014a strategic initiative that empowers development teams to take ownership of security responsibilities, fostering a culture of proactive security throughout the software development lifecycle.\n\nWe will explore the essential components of a successful Security Champions program, including its definition, the critical role of Security Champions within development teams, and the importance of cultivating a supportive culture grounded in principles of a \"just culture.\" Attendees will learn practical strategies for building, maintaining, and scaling their own Security Champions programs, ensuring that security becomes an integral part of their organizational fabric.\nJoin us to discover how implementing a Security Champions program not only enhances security posture but also drives collaboration and innovation, ultimately safeguarding your organization against emerging threats.\n\n**Approximate schedule:**\n4:00 - Doors open. Come for networking and refreshments!\n4:15 - Presentation begins.\n5:15 - Networking and refreshments resume!\n6:00 EOE (End of Event)"
     },
     {
+        "group": "Cleveland",
+        "repo": "www-chapter-cleveland",
+        "name": "Cybersecurity Card Games at Tabletop",
+        "date": "2024-10-10",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-cleveland-group/events/303878068",
+        "timezone": "America/New_York",
+        "description": "We'll be playing [Cornucopia](https://owasp.org/www-project-cornucopia/), a game about threat modeling. If you work on software and wondered how exactly cybersecurity people go around poking holes in it, this game is for you :)\n\nWe'll set up two teams of six: **Team 1** will be threat modeling a mobile banking app, and **Team 2** a hot new social media app\\*. We'll compare results between the two teams at the end!\n\n\\*Both of these systems are (of course) purely hypothetical"
+    },
+    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP Oct Meet - In person",
@@ -98,16 +108,6 @@
         "link": "https://www.meetup.com/owasp-dorset-chapter/events/303767824",
         "timezone": "Europe/London",
         "description": "Join us for our next event!\nWe will be having more cyber security talks at the local collider event hosted by JP Morgan in Bournemouth!\n\nIf you would like to attend and plan to drive, please email co-leader Mike warner with your name and car reg to allow access to the cark park:\nmichael.warner@owasp.org\n\nTalks for the night to be confirmed!\n\nAttendees will meet in the reception and be signed in for admission."
-    },
-    {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Paris - Octobre 2024",
-        "date": "2024-10-07",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-france/events/303599531",
-        "timezone": "Europe/Paris",
-        "description": "Ce meetup se deroulera chez **GitGuardian** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
     },
     {
         "group": "Frankfurt",
@@ -368,6 +368,16 @@
         "link": "https://www.meetup.com/owasp-toronto/events/303820301",
         "timezone": "America/Toronto",
         "description": "OWASP Toronto Chapter and [Leading Cyber Ladies Toronto ](https://www.meetup.com/cyber-ladies-toronto)are meeting on Oct 9 at the SAP Toronto Headquarters to hear[ Helen Oakley](https://www.linkedin.com/in/helen-oakley/) and [Dmitry Raidman](https://www.linkedin.com/in/draidman/) talk about the importance of strengthening supply chains and how AIBOMs are transforming AI security.\n\nMuch thanks to our event sponsors [SAP ](https://www.sap.com/)and [Tiebreaker AI](https://www.tiebreaker-ai.com/) for hosting us and providing pizza and soft drinks!\n\n**AGENDA**\n\n* 5:30 pm: Doors open\n* 6:00 pm: Welcome from LCL & OWASP\n* 6:15 pm: [Dmitry Raidman](https://www.linkedin.com/in/draidman/) presents \"The Software Supply Chain: An Essential Pillar of Today's Digital Infrastructure\"\n* 7:00 pm: [Helen Oakley](https://www.linkedin.com/in/helen-oakley/) presents \"Securing AI: How AIBOM Enables a Software Supply Chain Security\"\n* 8:30pm: End."
+    },
+    {
+        "group": "Uruguay",
+        "repo": "www-chapter-uruguay",
+        "name": "La Meetup 2024",
+        "date": "2024-10-19",
+        "time": "09:00-03:00",
+        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/303885354",
+        "timezone": "America/Montevideo",
+        "description": "Este es un evento organizado por la comunidad de Meetups de desarrollo del Uruguay. M\u00e1s info, registro y reserva de la entrada en la p\u00e1gina del evento: https://www.owu.uy/la-meetup\n\n**La Meetup** ofrece un espacio para reunirnos en persona y conectar con comunidades de tecnolog\u00eda locales.\nEste evento ser\u00e1 un punto de encuentro para profesionales, estudiantes y entusiastas de la tecnolog\u00eda de todo el pa\u00eds. Es una gr\u00e1n oportunidad para intercambiar ideas, compartir experiencias y construir relaciones que fomenten el crecimiento y la unidad dentro de la comunidad tecnol\u00f3gica uruguaya.\n\n**\u00bfEn qu\u00e9 consiste?**\nEs una conferencia o reuni\u00f3n abierta, donde la principal caracter\u00edstica es que la agenda se genera de manera din\u00e1mica entre todos los participantes de la reuni\u00f3n.\n\n**Etapas:**\n\n* **\u21aa Apertura**: El facilitador explica la estructura y mec\u00e1nica del espacio.\n* **\u21aa Mercado de Ideas**: Los participantes pueden proponer t\u00f3picos de inter\u00e9s y se organizan en un tablero de anuncios.\n* **\u21aa Sesiones de Discusi\u00f3n**: Se llevan a cabo conversaciones del t\u00f3pico seleccionado, los participantes se auto-organizan en los lugares predefinidos.\n* **\u21aa Clausura**: Al finalizar todas las sesiones y con ayuda del facilitador, los participantes se re\u00fanen nuevamente para realizar el cierre del espacio."
     },
     {
         "group": "Vancouver",
