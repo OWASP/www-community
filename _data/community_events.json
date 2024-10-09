@@ -70,6 +70,16 @@
         "description": "This month we will be welcoming Audrey Long, Senior Security Software Engineer at Microsoft, to our meetup. Doors open at 6:30pm and the presentation starts at 7pm. Pizza and soda will be provided.\n\nThis talk will walk through threat modeling fundamentals with a fun Star Wars twist! Even what may seem the most impenetrable will always have a secret way in that can be exploited. Be it an error in code, an unaccounted-for perspective, or a convenient airshaft leading to the center of a giant, black, round spacecraft, a developer must be aware of potential weaknesses. Using threat models is like getting the blueprint to the Death Star. They allow you to plan for potential scenarios or ambush attacks from stormtroopers with impossibly bad aim. Understanding the possible risks ensures your entire team will make it back to the Millennium Falcon. In this talk, Audrey Long will walk you through understanding threats in a cloud system and how to protect yourself from the dark side.\n\nAudrey Long is a highly qualified Senior Security Software Engineer at Microsoft, holding a Master of Science degree in Cybersecurity from Johns Hopkins University. Audrey is passionate about building secure solutions with customers and ensuring that security practices and considerations are built into products from the very beginning. Her expertise includes creating secure coding solutions, performing security risk assessments with threat modeling activities, evaluating security in architecture, and implementing security practices at the development level."
     },
     {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "Chapter Planning Meeting",
+        "date": "2024-10-09",
+        "time": "20:00:11+03:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/303905509",
+        "timezone": "Africa/Cairo",
+        "description": "Join us for an engaging online meeting of the OWASP Cairo Chapter, where chapter leaders will gather to strategize and plan activities for the last quarter of 2024. This is an open meeting, and we encourage all community members to participate!\n\n**What to Expect:**\n\n- **Chapter Activity Planning:** Help us brainstorm and refine ideas for events, workshops, and initiatives that will benefit our community.\n- **Open Forum:** Share your thoughts, suggestions, and insights on how we can enhance our chapter's impact.\n\nYour input is invaluable as we aim to create a vibrant and engaging environment for learning and collaboration. Whether you're a long-time member or new to the community, your voice matters!\n\nWe look forward to seeing you there and working together to make the OWASP Cairo Chapter even better!"
+    },
+    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "Cultivating Cybersecurity: Building and Sustaining a Security Champions Program",
@@ -88,16 +98,6 @@
         "link": "https://www.meetup.com/owasp-cleveland-group/events/303878068",
         "timezone": "America/New_York",
         "description": "We'll be playing [Cornucopia](https://owasp.org/www-project-cornucopia/), a game about threat modeling. If you work on software and wondered how exactly cybersecurity people go around poking holes in it, this game is for you :)\n\nWe'll set up two teams of six: **Team 1** will be threat modeling a mobile banking app, and **Team 2** a hot new social media app\\*. We'll compare results between the two teams at the end!\n\n\\*Both of these systems are (of course) purely hypothetical"
-    },
-    {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP Oct Meet - In person",
-        "date": "2024-10-08",
-        "time": "17:30-05:00",
-        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/303473011",
-        "timezone": "America/Chicago",
-        "description": "\\*\\*\\*\\*How to accelerate development while providing security guardrails for developers\" \\*\\*\\*\\*\\*\n\nCloud-native application development demands agility, speed, and robust security. As organizations multiply and scale their business initiatives, maintaining security across the entire software development lifecycle becomes critical. This session looks at the challenges in achieving comprehensive cloud-to-code visibility and identifying risks at the source - the code."
     },
     {
         "group": "Dorset",
@@ -157,7 +157,7 @@
         "time": "17:30-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/300687509",
         "timezone": "America/Los_Angeles",
-        "description": "We're looking for a location to host our meeting - if your company is willing to host, or you know someone who does, please let us know!!\n\n**TOPIC**: TBA\nJoin us for great networking, dinner and drinks, and see a presentation by TBA\n\n**ABSTRACT**: TBA\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
+        "description": "**TOPIC**: Program Analysis: From Difficult to Impossible\nJoin us for great networking, dinner and drinks, and see a presentation by **Brandon Wu**, Program Analysis Engineer at **Semgrep**\n\n**ABSTRACT**: This talk is a cursory introduction into the field of static application security testing (SAST), which concerns the verification of source code for security purposes. In particular, this talk concerns the field of static analysis (a sub-field of program analysis), the art of analyzing, diagnosing, and remediating source code with computers. We will discuss the techniques and mathematical limitations of the field, which seek to answer the question: \"How can we solve a problem which is fundamentally impossible?\". An understanding of compilers will be helpful, but not necessary.\n\n**\\>\\>\\>\\>\\>\\> SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**Thanks to our HOST**: *[HiveWatch](https://www.hivewatch.com/)*\n*Intelligent, efficient, and scalable security*\n*HiveWatch is a cloud-based SaaS platform built for physical security teams to enhance their current security technologies. It streamlines incident response, allows for the consolidation of disparate programs and systems, and reduces false alarms.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
     },
     {
         "group": "Los Angeles",
@@ -250,6 +250,16 @@
         "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, October 14th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at orange-county-leaders@owasp.org to provide that information.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Live Stream**\nStream us live on Twitch: http://twitch.tv/owaspoc\n*Please change your RSVP to \"No\" if you can't make it and/or will join via livestream instead.*\n\n**Abstract**\nIn the 1980s, a famous study by IBM formed the basis for modern ideas around shifting security further to the left. Join Oligo for this talk where we'll dig into why it made sense then and explore whether this still rings true today in the modern world of DevOps, Agile methodologies, and cloud-native applications."
     },
     {
+        "group": "Orlando",
+        "repo": "www-chapter-orlando",
+        "name": "OWASP Orlando - Application Security",
+        "date": "2024-11-07",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-orlando/events/302181930",
+        "timezone": "America/New_York",
+        "description": "This is an In-Person OWASP Orlando Chapter Meeting\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **TBD**\nTopic: TBD\n\nSpeaker 2: **TBD**\nTopic: TBD"
+    },
+    {
         "group": "Oslo",
         "repo": "www-chapter-oslo",
         "name": "Gamification of Threat modeling",
@@ -330,16 +340,6 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
-        "group": "Stuttgart",
-        "repo": "www-chapter-stuttgart",
-        "name": "Special OWASP Stuttgart Chapter Stammtisch",
-        "date": "2024-10-08",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/302783300",
-        "timezone": "Europe/Berlin",
-        "description": "**OWASP and the Evolution of AppSec**\n\nJeff Williams is visiting Germany and has offered to visit the OWASP Stammtische. A great reason to hold a special Stammtisch outside of the regular schedule!\n\nThis is the most exciting time in the history of appsec. Not only are apps/APIs more complex, connected, and critical than ever before, we haven't made much progress against vulnerabilities, the attackers have ramped up their activity dramatically, and the governments of the world are scrambling to figure out what to do. It's a mess. In this talk, Jeff will share some stories and insights from over 25 years in appsec. We'll look at some of the bigger movements in appsec like \"build security in\", \"devsecops\", \"shift left\", \"SBOMs\", and \"secure by design\" and talk about why they have largely failed to change the trajectory of appsec. We'll also spend some time on the different technologies organizations use to automate appsec in development and operations. Jeff will share his thoughts about the market failures that make improvements in appsec so difficult and what we can do to fix them. This will be a highly interactive session, so bring your questions and ideas.\n\n**Novatec Consulting** will host this Stammtisch at their venue \u2013 thank you very much, we truly appreciate your support in making this event possible!\nMeetup participants can park in the underground garage. You will be able to validate your parking tickets to cover the parking fees.\n\n**Agenda:**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Talk\n* **7:30 PM - approximately 9:00 PM**: Pizza, drinks, discussion, and networking"
-    },
-    {
         "group": "Suffolk",
         "repo": "www-chapter-suffolk",
         "name": "Authentication is easy",
@@ -387,7 +387,7 @@
         "time": "18:00-07:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516380",
         "timezone": "America/Vancouver",
-        "description": "**Most Security Tools are expensive paperweights: How to get your money\u2019s worth?** with Jeevan Singh\n\nMany organizations invest heavily in security tools that end up being costly and not useful. In this talk, we\u2019ll explore why most security tools fail to deliver on their promises, focusing on issues like misalignment with real needs, poor integration, and ineffective utilization.We\u2019ll dissect common pitfalls that lead to wasted resources and reduced security effectiveness, using real-world examples to illustrate these failures. You\u2019ll learn why your current tools might not be working as expected and how to address these challenges.Finally, we\u2019ll provide practical strategies to optimize your security tools, ensuring they integrate well into your existing systems and deliver tangible value. Discover how to turn these investments into powerful components of your security strategy."
+        "description": "**Most Security Tools are expensive paperweights: How to get your money\u2019s worth?** with Jeevan Singh\n\nMany organizations invest heavily in security tools that end up being costly and not useful. In this talk, we\u2019ll explore why most security tools fail to deliver on their promises, focusing on issues like misalignment with real needs, poor integration, and ineffective utilization.\n\nWe\u2019ll dissect common pitfalls that lead to wasted resources and reduced security effectiveness, using real-world examples to illustrate these failures. You\u2019ll learn why your current tools might not be working as expected and how to address these challenges.\n\nFinally, we\u2019ll provide practical strategies to optimize your security tools, ensuring they integrate well into your existing systems and deliver tangible value. Discover how to turn these investments into powerful components of your security strategy."
     },
     {
         "group": "Warwick",
