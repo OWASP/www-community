@@ -60,26 +60,6 @@
         "description": "\u00a1S\u00e9 parte t\u00fa tambi\u00e9n de la experiencia OWASP en Bolivia!\n\nParticipa como expositor: [Formulario de Registro](http://bit.ly/4eqiO5p)\n\nTodos cordialmente invitados a participar del OWASP DAY 01 2024, evento virtual que se realizara el 12 de Octubre a las 15:00.\n\nLas conferencias OWASP son una herramienta de comunicaci\u00f3n e intercambio entre profesionales y entusiastas del \u00e1rea de ciberseguridad.\n\nLa plataforma comparte constantemente informaci\u00f3n actualizada sobre temas de seguridad, codificaci;on segura, herramientas, diferentes enfoques en la industria, y muchos otros temas interesantes.\n\nCon el objetivo de permitir que todos accedan al conocimiento de la seguridad, OWASP es una vibrante comunidad a nivel global."
     },
     {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston Chapter Meeting - October 2024",
-        "date": "2024-10-09",
-        "time": "19:00-04:00",
-        "link": "https://www.meetup.com/owaspboston/events/303691545",
-        "timezone": "America/New_York",
-        "description": "This month we will be welcoming Audrey Long, Senior Security Software Engineer at Microsoft, to our meetup. Doors open at 6:30pm and the presentation starts at 7pm. Pizza and soda will be provided.\n\nThis talk will walk through threat modeling fundamentals with a fun Star Wars twist! Even what may seem the most impenetrable will always have a secret way in that can be exploited. Be it an error in code, an unaccounted-for perspective, or a convenient airshaft leading to the center of a giant, black, round spacecraft, a developer must be aware of potential weaknesses. Using threat models is like getting the blueprint to the Death Star. They allow you to plan for potential scenarios or ambush attacks from stormtroopers with impossibly bad aim. Understanding the possible risks ensures your entire team will make it back to the Millennium Falcon. In this talk, Audrey Long will walk you through understanding threats in a cloud system and how to protect yourself from the dark side.\n\nAudrey Long is a highly qualified Senior Security Software Engineer at Microsoft, holding a Master of Science degree in Cybersecurity from Johns Hopkins University. Audrey is passionate about building secure solutions with customers and ensuring that security practices and considerations are built into products from the very beginning. Her expertise includes creating secure coding solutions, performing security risk assessments with threat modeling activities, evaluating security in architecture, and implementing security practices at the development level."
-    },
-    {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "Chapter Planning Meeting",
-        "date": "2024-10-09",
-        "time": "20:00:11+03:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/303905509",
-        "timezone": "Africa/Cairo",
-        "description": "Join us for an engaging online meeting of the OWASP Cairo Chapter, where chapter leaders will gather to strategize and plan activities for the last quarter of 2024. This is an open meeting, and we encourage all community members to participate!\n\n**What to Expect:**\n\n- **Chapter Activity Planning:** Help us brainstorm and refine ideas for events, workshops, and initiatives that will benefit our community.\n- **Open Forum:** Share your thoughts, suggestions, and insights on how we can enhance our chapter's impact.\n\nYour input is invaluable as we aim to create a vibrant and engaging environment for learning and collaboration. Whether you're a long-time member or new to the community, your voice matters!\n\nWe look forward to seeing you there and working together to make the OWASP Cairo Chapter even better!"
-    },
-    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "Cultivating Cybersecurity: Building and Sustaining a Security Champions Program",
@@ -140,16 +120,6 @@
         "description": "**MEETUP ONLINE**\n\nJonadabe Costa ir\u00e1 falar sobre a import\u00e2ncia de considerar o comportamento humano como uma vari\u00e1vel cr\u00edtica na seguran\u00e7a da informa\u00e7\u00e3o.\n\nAl\u00e9m de focar nas vulnerabilidades t\u00e9cnicas dos sistemas, a apresenta\u00e7\u00e3o destacar\u00e1 como as a\u00e7\u00f5es, decis\u00f5es e intera\u00e7\u00f5es humanas podem amplificar ou mitigar riscos.\n\nDiscutiremos os aspectos como engenharia social, falhas de comunica\u00e7\u00e3o, erros humanos e como a modelagem de amea\u00e7a deve englobar esses fatores para garantir uma abordagem de seguran\u00e7a mais abrangente e eficaz.\n\nEste tema se conecta diretamente alguns dos TOP 10 da OWASP, especificamente o **A04:2021 - Insecure Design**, que aborda o Design Inseguro, que leva em considera\u00e7\u00e3o tanto a interface de uso quanto as intera\u00e7\u00f5es humanas, **A07:2021 - Identification and Authentication Failures,** j\u00e1 que muitos dos problemas de autentica\u00e7\u00e3o derivam de senhas fracas, reutiliza\u00e7\u00e3o de credenciais ou pr\u00e1ticas inadequadas de seguran\u00e7a por parte dos usu\u00e1rios, tudo relacionado a comportamentos humanos falhos e o **A09:2021 - Security Logging and Monitoring Failures,** uma vez que a falta de monitoramento adequado ou a m\u00e1 interpreta\u00e7\u00e3o de logs frequentemente decorre de erros humanos."
     },
     {
-        "group": "Joao Pessoa",
-        "repo": "www-chapter-joao-pessoa",
-        "name": "A seguran\u00e7a da Pipeline segundo a OWASP",
-        "date": "2024-10-09",
-        "time": "19:00-03:00",
-        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/303833760",
-        "timezone": "America/Fortaleza",
-        "description": "**MEETUP PRESENCIAL**\n\nO Pipeline \u00e9 o cora\u00e7\u00e3o pulsante de muitas organiza\u00e7\u00f5es modernas. Hoje estas novas tecnologias, permitem uma entrega de software mais r\u00e1pida, flex\u00edvel e diversa. No entanto, elas tamb\u00e9m remodelaram a superf\u00edcie de ataque com uma infinidade de novas avenidas e oportunidades para os invasores e o professor Cleyber Silva, abordar\u00e1 os 10 riscos de seguran\u00e7a a se observar, quando implementamos estes processos."
-    },
-    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - OCT 23, 2024",
@@ -180,16 +150,6 @@
         "description": "**OWASP LA** has organized an exceptional offer for our meetup membership to participate in ***FIDO Alliance Authenticate 2024 Conference***, October 14 - 16, 2024 in Carlsbad, CA and Virtual. Join us for deep insight in new tools and technology, training, and take advantage of this great opportunity to network with industry professionals.\n\n\\*\\*[Register Now ](https://events.authenticatecon.com/event/Authenticate2024/regProcessStep1)\\*\\*using code **OWASP15** to receive a **15% discount off registration!** Prices vary based on membership in FIDO Alliance and in-person vs remote.\n\nHosted by FIDO Alliance, **Authenticate** is the **only** conference dedicated to all aspects of user authentication \u2013 with a focus on the FIDO standards-based approach.\n\n**Now in its fifth year**, *Authenticate* has become a \u2018must attend\u2019 cybersecurity event. This year's edition features **over 100 sessions** and **125 speakers** from around the world providing the latest innovations, expertise, and critical conversations for the digital identity industry \u2013 with a focus on passwordless authentication with passkeys.\n\n2024 keynotes will be delivered by speakers with extensive experience bringing passwordless experiences to workforces and consumers alike from organizations including Amazon, FIDO Alliance, Google, Microsoft, Sony and Yubico. The conference features content on four stages broken into 11 content tracks to suit attendees\u2019 knowledge base, interests and phase of implementation, along with an interactive expo hall to discover solutions providers, and networking events to connect with peers and subject matter experts.\n\nThe agenda features content tracks that collectively build upon one another \u2013 covering topics such as FIDO fundamentals, business cases, and in-depth case studies. Attendees can expect to gain the latest insights and how-to information on FIDO authentication and passwordless deployments.\n\nWhether you are new to FIDO, in the midst of deployment or somewhere in between, Authenticate 2024 will have the right content \u2013 and community \u2013 for you, so **don't wait** \\*\\*[Register Now ](https://events.authenticatecon.com/event/Authenticate2024/regProcessStep1)\\*\\*\n\n/\\*\\* THIS IS A PAID CONFERENCE \\*\\*/\n\nAnd finally **don't forget** to visit us at the OWASP Los Angeles booth!"
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "The 2024 California Technology Summit",
-        "date": "2024-10-09",
-        "time": "09:00-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/303611800",
-        "timezone": "America/Los_Angeles",
-        "description": "**OWASP LA** has organized an exceptional offer for our meetup membership to participate in ***2024 California Technology Summit*** on October 9th in Anaheim, CA. Join us for deep insight in new tools and technology, training, and take advantage of this great opportunity to network with industry professionals.\n\n[Register](https://technologysummit.net/register.html) now using code **CTS24OWASP** for your **complimentary** pass! Check the full schedule at [2024 California Technology Summit Agenda](https://technologysummit.net/california.html#agenda)\n\n**Conference Highlights:**\n\n* **Opening Keynote: Robin Gordon**, Global Chief Data & Analytics Officer - MetLife\n* Investing in AI & Cybersecurity - Moderated By: **David Hsiao**, Senior VP & CIO \u2013 BioMed Realty\n* AI Driven Deepfake Hacks - **Lyndon Brown**, VP of Global Technology - Zo Skin Health, Inc.\n* CIO Forum: Leveraging Today's Tools to Do More with Less - **David Williamson**, CIO - Abzena\n* Panel Discussion: Accomplishing Strategic Objectives with Limited Resources \u2013 Panelists: **Mike Baron**, CIO \u2013 Electro Rent, & **Fred Donatucci**, Executive Leadership & Technology Consultant\n* Specialty Theaters for IT Professionals including specific Security, Technology, & Executive Sessions\n* CPE Credits\n* Delicious Lunch Included\n* Cocktail Reception\n* Sponsor Giveaways\n* Win a Trip for 2 to a Destination of Your Choice (value up to $1,500)\n* Exhibit Hall with 30+ Sponsors\n\nAnd finally **don't forget** to visit us at the OWASP Los Angeles booth!"
-    },
-    {
         "group": "Manchester",
         "repo": "www-chapter-manchester",
         "name": " OOOOOOWASP - Ghosts in the Machine: A Halloween Cybersecurity Spooktacular ",
@@ -198,6 +158,16 @@
         "link": "https://www.meetup.com/owasp-manchester-uk-chapter/events/303387636",
         "timezone": "Europe/London",
         "description": "Hello & Welcome \n\nIn this spooky session we'll be discussing AI & it's impact on the different aspects of cyber security.\n\nAs it's so close to Halloween, costumes are encouraged, but not required \u200d\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nDue to a corporate policy from the venue sponsor, to get into the venue & up to the event, you will need to register with your full name when signing up to the event AND show photo ID when checking in to the event on the night.\n\nPlease note this event will be recorded so we can put these talks on our YouTube channel afterwards. We will also be trying out our live streaming capabilities.\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**6:00 - Open doors & networking & drinks**\n**6:30 - Alsa Tibbit - Digital Fossils: Bones of APTs**\nThis talk takes the audience on a captivating journey through the speaker\u2019s explorations in cybersecurity research. It highlights how a blend of critical thinking and Explainable Artificial Intelligence (XAI) has paved the way for an innovative approach to addressing complex cyber threats. Focusing on Advanced Persistent Threats (APTs) as a prime example, the speaker illustrates how a solution-driven mindset, enhanced by XAI, has led to groundbreaking cybersecurity advancements. This novel methodology garnered substantial support from Sheffield Hallam University and La Trobe University in Australia, creating new avenues to detect and counter cyber threats.\n\n**7:15 - Refreshments (Food & Drinks & Networking)**\n**8:00 - Leum Dunn -** **AI AIEEEE (the revenge - re-deux)**\nA fusion of mischievous ideas, distilled from presentations at B-Sides Leeds and Lancs, exploring the playful and slightly chaotic potential of AI tools. Buckle up, it\u2019s going to be a wild ride!\n\n**9:00 - Vacate venue -> to the pub for more socialising**\n\n**LOCATION**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBooking.com\n6 Goods Yard Street Manchester\nM3 3BG\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\n**SPEAKERS**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Alsa Tibbit**\nAs a seasoned cybersecurity professional with extensive experience in academia and industry, Alsa has excelled in teaching, research, and leadership. Her notable accomplishments include authoring a \u00a3100k technical proposal and leading an Innovate project focused on machine learning, malware analysis, and data mining. In 2023, she was involved in a research project for DSIT addressing the cybersecurity skills gap in the UK, further underscoring her dedication to advancing the field.\n\nAlsa is currently involved in two key projects: one focusing on Advanced Persistent Threats (APTs) and Explainable Artificial Intelligence (XAI), and another tackling ARM architecture and Java vulnerability research. These endeavours highlight her commitment to personal and professional development as she continues contributing to the ever-evolving cybersecurity world.\n\n**Leum Dunn** *has been lurking in the shadows of the tech world for over 20 years, with the last decade spent fortifying defenses in the cybersecurity realm. His expertise shines brightest in the betting and gaming industry, though he\u2019s also dabbled in critical national infrastructure and print manufacturing, just for fun. When he\u2019s not safeguarding digital kingdoms, Leum can be found playing bass guitar (badly, by his own admission) or immersing himself in gothic rock and jazz noir. His talk today is a fusion of mischievous ideas, distilled from presentations at B-Sides Leeds and Lancs, exploring the playful and slightly chaotic potential of AI tools. Buckle up, it\u2019s going to be a wild ride!*\n\n*Yes, I asked ChatGPT to write that. No, I'm not ashamed. I'm not even going to correct the spelling!*\n\n**SPONSORS** (Thank you for supporting our community!!)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Booking.com** \\- Venue Sponsor AND Food & Drink Sponsor\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nAre you passionate about a security topic?\nDo you want to speak at a future event?\nSubmit your interest here - https://forms.gle/zcm9bVNhgDixe8Gq5\nDoes your company want to sponsor a venue and/or refreshments?\nEmail Paul - paul.johnston@owasp.org"
+    },
+    {
+        "group": "Maribor",
+        "repo": "www-chapter-maribor",
+        "name": "Lov na zlobce",
+        "date": "2024-10-22",
+        "time": "21:00+02:00",
+        "link": "https://www.meetup.com/maribor-owasp-meetup-group/events/303916690",
+        "timezone": "Europe/Belgrade",
+        "description": "Akterji, ki bi se radi dokopali do na\u0161ih podatkov ali jih za\u0161ifirirali ne spijo. I\u0161\u010dejo (in najdejo) nove in nove na\u010dine, kako se infiltirati v na\u0161a okolja in zaobiti implementirane varnostne kontrole. Pri tem pu\u0161\u010dajo sledi, katere lahko z \"threat huntingom\" odkrijemo. V predavanju bomo spoznali threat hunting ogrodje PEAK in ga aplicirali na realne primere."
     },
     {
         "group": "Melbourne",
@@ -320,26 +290,6 @@
         "description": "**The Seattle Cyber Mixers fall event is here!** Bigger, better and even more fun, brought to you by the leading local security non-profit organizations and sponsored by Seattle HDI, TEKSystems, Nortal, Amatas and Cyberjutsu. The Seattle Cyber Mixers are designed to offer more informal connection opportunities for the cybersecurity community of the Greater Seattle area.\n\nThis is a casual, low-key gathering where local security professionals can connect and unwind in an informal low-pressure setting. As the first of many, we plan to host these mixers at various locations, rotating based on your feedback. Our aim is to cultivate a regular cadence, potentially monthly or bimonthly, evolving with the community's interest.\n\nAny questions or suggestions, message the [OWASP Seattle Chapter](https://www.linkedin.com/company/owasp-seattle-chapter/) or contact [Eva Benn](https://www.linkedin.com/in/evabenn/)."
     },
     {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "OWASP Seattle-Discussion: Alice and Bob Learn Application Security w/Tanya Janca",
-        "date": "2024-10-09",
-        "time": "17:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/303692582",
-        "timezone": "America/Los_Angeles",
-        "description": " Join [Cherry Quick](https://www.linkedin.com/in/cherry-quick-884a8079/) and [Jessica Wilson](https://www.linkedin.com/in/jw27/) in conversation with acclaimed author [Tanya Janca](https://www.linkedin.com/in/tanya-janca/), on 9-Oct at 5pm PDT, to debrief about Tanya's well-loved book \u201cAlice & Bob Learn Application Security\u201d as a wrap-up to our summer book club"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2024-10-09",
-        "time": "12:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539100",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
         "group": "Suffolk",
         "repo": "www-chapter-suffolk",
         "name": "Authentication is easy",
@@ -358,16 +308,6 @@
         "link": "https://www.meetup.com/owasp-toronto/events/303805690",
         "timezone": "America/Toronto",
         "description": "\\*\\* The event is hosted at 111 Peter St Suite 804, Toronto, ON M5V 2H1 \\*\\*\n\n**TALK**\n**\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-**\n\n**Inference Servers: new technology, same old security flaws.**\n\n**Summary:**\n\nAI and LLM based applications are taking the industry by storm. While a lot time is spent on evaluating prompt injection, there is an entire ecosystem of applications that allow models to be run and used. These applications have their own important security considerations that you may not be aware of.\nInference Servers are used to host machine learning models and expose APIs that allow other components to perform inference on those models. These servers often expose additional APIs that allow users to load new models. Often, this can be abused to perform remote code execution. While this technology is new, the baseline security configurations for many of these products are a relic from the past.\nIn this talk we\u2019ll learn about what an inference server is, how they work, and how you can achieve remote code execution in them. This talk is mainly focused on the practical security risks involved in this ecosystem. Finally, I will share details about a couple of CVEs related to TorchServe\n\n**Presenters:**\n\nPratik Amin has been an Application Security practitioner for over 15 years. He currently works as a Principal Security Consultant at Kroll (previously Security Compass Advisory). In this role, he spends most of his time performing AppSec pentests and digging into interesting technology."
-    },
-    {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "Securing Software Supply Chains and the role of AIBOMs",
-        "date": "2024-10-09",
-        "time": "17:30-04:00",
-        "link": "https://www.meetup.com/owasp-toronto/events/303820301",
-        "timezone": "America/Toronto",
-        "description": "OWASP Toronto Chapter and [Leading Cyber Ladies Toronto ](https://www.meetup.com/cyber-ladies-toronto)are meeting on Oct 9 at the SAP Toronto Headquarters to hear[ Helen Oakley](https://www.linkedin.com/in/helen-oakley/) and [Dmitry Raidman](https://www.linkedin.com/in/draidman/) talk about the importance of strengthening supply chains and how AIBOMs are transforming AI security.\n\nMuch thanks to our event sponsors [SAP ](https://www.sap.com/)and [Tiebreaker AI](https://www.tiebreaker-ai.com/) for hosting us and providing pizza and soft drinks!\n\n**AGENDA**\n\n* 5:30 pm: Doors open\n* 6:00 pm: Welcome from LCL & OWASP\n* 6:15 pm: [Dmitry Raidman](https://www.linkedin.com/in/draidman/) presents \"The Software Supply Chain: An Essential Pillar of Today's Digital Infrastructure\"\n* 7:00 pm: [Helen Oakley](https://www.linkedin.com/in/helen-oakley/) presents \"Securing AI: How AIBOM Enables a Software Supply Chain Security\"\n* 8:30pm: End."
     },
     {
         "group": "Uruguay",
@@ -408,16 +348,6 @@
         "link": "https://www.meetup.com/owasp-samm/events/303826861",
         "timezone": "America/New_York",
         "description": "The SAMM Core team is happy to host a community call on 11th October @ 14.00 CET. This is not a replacement of the regular community call, but an extra one we\u2019ve scheduled during a more friendly time for users in EU and Asia. Bring your SAMM questions and we\u2019ll discuss them! We'll also share highlights from our latest SAMM User Day and findings from our benchmark initiative."
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "October community call - OWASP SAMM",
-        "date": "2024-10-09",
-        "time": "15:30-04:00",
-        "link": "https://www.meetup.com/owasp-samm/events/303826813",
-        "timezone": "America/New_York",
-        "description": "During our next community call we share highlights from our last user day, including our latest benchmark findings. As always, we'll have time for Q&A"
     },
     {
         "group": "Wrongsecrets",
