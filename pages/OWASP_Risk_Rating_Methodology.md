@@ -111,7 +111,7 @@ associated with it. These numbers will be used later to estimate the overall lik
 The first set of factors are related to the threat agent involved. The goal here is to estimate 
 the likelihood of a successful attack by this group of threat agents. Use the worst-case threat agent.
 
-  - **Skill Level** - How technically skilled is this group of threat agents? No technical skills (1), some technical skills (3), advanced computer user (5), network and programming skills (6), security penetration skills (9) 
+  - **Skill Level** - How technically skilled is this group of threat agents? security penetration skills (1), network and programming skills (3), advanced computer user (5), some technical skills (6), No technical skills (9) 
 
   - **Motive** - How motivated is this group of threat agents to find and exploit this vulnerability? Low or no reward (1), possible reward (4), high reward (9)
 
