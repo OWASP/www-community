@@ -80,6 +80,16 @@
         "description": "Join us for our next event!\nWe will be having more cyber security talks at the local collider event hosted by JP Morgan in Bournemouth!\n\nIf you would like to attend and plan to drive, please email co-leader Mike warner with your name and car reg to allow access to the cark park:\nmichael.warner@owasp.org\n\nTalks for the night to be confirmed!\n\nAttendees will meet in the reception and be signed in for admission."
     },
     {
+        "group": "Indianapolis",
+        "repo": "www-chapter-indianapolis",
+        "name": "Indy OWASP November 2024 Meetup",
+        "date": "2024-11-06",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/indyowasp/events/303946344",
+        "timezone": "America/New_York",
+        "description": "**Talk 1**\n\n**Title:** Prompt Injection with Damn Vulnerable LLM\n\n**Synopsis:** Join us for an insightful OWASP event dedicated to exploring the OWASP Top 10 for Large Language Model Applications! Dive into the latest vulnerabilities impacting GenAI-driven systems, focusing on prompt injection attacks. We'll also showcase the Damn Vulnerable LLM, a hands-on tool designed to illustrate prompt injection in real-time specifically. This meetup is perfect for developers, security professionals, and anyone interested in safeguarding GenAI applications. Don't miss this opportunity to enhance your understanding of LLM security and network with fellow enthusiasts!\n\n**Speaker:** Justin Baxtron\n\n**Bio:** Bio: Justin Baxtron has worked in the information security field for over 10 years as a consultant and engineer. He holds a GIAC Web Application Penetration Tester (GWAPT) certification and focuses on application security assessments, as well as software engineering.\n\n**Talk 2**\n\n**Title:** I Hope No One Finds Out I'm a Fraud: Dealing with Imposter Syndrome\n\n**Synopsis:**\nImposter syndrome is a real issue in professional life. It can seriously impact mental health and professional growth\u2014especially in the security industry, surrounded by ever-changing technologies and other super-smart people. I will discuss the aspects of this issue, its impacts, and some strategies to overcome it, both for yourself and others.\n\n**Speaker:** Damian (@integrisec) Profancik\n\n**Bio:** Damian Profancik has worked as a server/network infrastructure and security consultant for more than 24 years with over the last 14+ years solely focused on information security as an Application Security Manager at Match Group, Technical Director at Optiv Security, Inc. focused on Application Security, Global Security Associate Partner and North American Regional Lead at IBM X- Force Red, Director of Application Security at Lares Consulting, Director of Security Services at iLAB, and a Principal Security Consultant at both NCC Group (formerly iSEC Partners) and Trustwave SpiderLabs.\n\nHis main focus has been on application security and vulnerability research. He has worked in this capacity both independently and for numerous companies ranging from small businesses to Fortune 100 enterprises. His work has included application penetration testing, network penetration testing, design review, and code review in 28 different computer languages.\n\nHe is actively involved in the Information Security community through speaking engagements at events such as DerbyCon, ShmooCon, CircleCityCon, OWASP, and ISSA, and he is a co-leader for the local OWASP chapter, one of the organizers for CircleCityCon, and co-founder for BSides Bloomington.\n\nVenue, food, and refreshments provided by Guidepoint."
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -88,6 +98,16 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242790",
         "timezone": "America/New_York",
         "description": "OWASP topic TBA"
+    },
+    {
+        "group": "Kerala",
+        "repo": "www-chapter-kerala",
+        "name": "OWASP Kerala Chapter Meet Oct 2024",
+        "date": "2024-10-19",
+        "time": "14:00+05:30",
+        "link": "https://www.meetup.com/owasp-kerala-chapter/events/303954172",
+        "timezone": "Asia/Kolkata",
+        "description": "**Speakers : Mohammed Aslam**\n\nMohammed Aslam is a Cyber Threat Intelligence Consultant at overseeing a team responsible for delivering tailored threat intelligence solutions. With expertise in OSINT, dark web monitoring, and automation, he focuses on enhancing cybersecurity operations and mitigating risks for global clients. Aslam is committed to developing practical, effective solutions that strengthen organizational defenses and improve response to emerging threats.\n\n**Topic : Threat Intelligence in action: OSINT and Cyber Hygiene**\n\n**Speakers : Anish Kumar**\n\nAnish is a dedicated and passionate cybersecurity expert, leading the global delivery of Cyber Threat Intelligence services, providing tailored intelligence solutions to multiple sectors including finance, healthcare, and critical infrastructure. His expertise extends to managing supplier risk, where he help organizations identify, assess, and mitigate risks in their supply chains, ensuring robust defense mechanisms against potential vulnerabilities.\nIn addition to his professional achievements, he is committed to educating the broader cybersecurity community. He actively seek opportunities to share the knowledge, helping organizations and individuals stay informed on evolving threats and best practices.\n\n**Topic : Unlocking the Power of Threat Intelligence**"
     },
     {
         "group": "Los Angeles",
@@ -318,15 +338,5 @@
         "link": "https://www.meetup.com/owasp-warwick/events/303783244",
         "timezone": "Europe/London",
         "description": "OWASP Warwick is back for the 2nd event this year. Please come and join us for some good talks and free food !!!\n\n#### TALKS\n\n#1: **Breaking and Defending LLMs: security of state-of-the-art AI systems** \\- Lukasz Bartoszcze \\(University of Warwick\\, Cyber Security Research Group\\)\n#2: **Come to me** \\- Neil Lines \\(NCC\\)"
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "Extra OWASP SAMM community call Europe - Asia",
-        "date": "2024-10-11",
-        "time": "08:00-04:00",
-        "link": "https://www.meetup.com/owasp-samm/events/303826861",
-        "timezone": "America/New_York",
-        "description": "The SAMM Core team is happy to host a community call on 11th October @ 14.00 CET. This is not a replacement of the regular community call, but an extra one we\u2019ve scheduled during a more friendly time for users in EU and Asia. Bring your SAMM questions and we\u2019ll discuss them! We'll also share highlights from our latest SAMM User Day and findings from our benchmark initiative."
     }
 ]
