@@ -43,5 +43,9 @@ não seja mandatório, é altamente recomendável que você possua a seguinte co
 > é altamente recomendável que você dedique, sem pressa, um tempo considerável entendendo-o, antes de prosseguir. Caso 
 > você esteja aqui apenas pela curiosidade, siga em frente sem receio.
 
+# Jornada
+
+- [Prólogo - Preparação](acts/prologue.pt-BR.md);
+
 >_**Nota da tradução¹**: o nome Handlers (Manipuladores, em tradução livre) é usado nesse contexto, pois no protocolo web, 
 "Handlers" são pontos de passagem onde eventos ocorrem, podendo ser observados, capturados ou anulados._ 

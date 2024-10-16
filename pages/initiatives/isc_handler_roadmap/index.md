@@ -44,5 +44,8 @@ not mandatory, it is highly recommended that you possess the following combinati
 > without rushing, to fully grasp it before moving on. If you're here just out of curiosity, feel free to proceed without 
 > hesitation.
 
+# Journey
+
+- [Prologue - Preparation](acts/prologue.md);
 >_**Note¹**: The term "Handlers" is used in this context because, in the web protocol, "Handlers" are interception points 
 > where events occur, which can be observed, captured, or nullified._
