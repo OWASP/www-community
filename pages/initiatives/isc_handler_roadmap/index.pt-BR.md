@@ -46,6 +46,7 @@ não seja mandatório, é altamente recomendável que você possua a seguinte co
 # Jornada
 
 - [Prólogo - Preparação](acts/prologue.pt-BR.md);
+- [Ato I - Observando por trás da cortina](acts/act_1.pt-BR.md);
 
 >_**Nota da tradução¹**: o nome Handlers (Manipuladores, em tradução livre) é usado nesse contexto, pois no protocolo web, 
 "Handlers" são pontos de passagem onde eventos ocorrem, podendo ser observados, capturados ou anulados._ 

@@ -47,5 +47,7 @@ not mandatory, it is highly recommended that you possess the following combinati
 # Journey
 
 - [Prologue - Preparation](acts/prologue.md);
+- [Act I - Observing Behind the Curtain](acts/act_1.md);
+
 >_**Note¹**: The term "Handlers" is used in this context because, in the web protocol, "Handlers" are interception points 
 > where events occur, which can be observed, captured, or nullified._

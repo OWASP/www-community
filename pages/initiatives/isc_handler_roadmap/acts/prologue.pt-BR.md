@@ -44,6 +44,6 @@ privacidade do seu trabalho.
 
 ---
 
-| [⬆️Retornar ao índice](../index.pt-BR.md) | Ir para o Ato 1 (breve)➡️ |
-|-------------------------------------------|---------------------------|
+| [⬆️Retornar ao índice](../index.pt-BR.md) | [Ir para o Ato 1](act_1.pt-BR.md)➡️ |
+|-------------------------------------------|-------------------------------------|
 

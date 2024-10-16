@@ -42,6 +42,6 @@ learning, try to internalize the culture of protecting the environment you work 
 
 ---
 
-| [⬆️Return to index](../index.md) | Go to Act 1 (soon)➡️ |
-|----------------------------------|----------------------|
+| [⬆️Return to index](../index.md) | [Go to Act 1](act_1.md)➡️ |
+|----------------------------------|---------------------------|
 
