@@ -104,10 +104,10 @@
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
         "date": "2024-10-21",
-        "time": "18:45-04:00",
+        "time": "17:30-04:00",
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242790",
         "timezone": "America/New_York",
-        "description": "OWASP topic TBA"
+        "description": "OWASP topic:\n\nWe will be discussing Capture The Flags, Juice Shop, and general cybersecurity topics."
     },
     {
         "group": "Joao Pessoa",
@@ -260,16 +260,6 @@
         "description": "**Decoding OWASP Top 10: A Blueprint for Secure Application Development** is a comprehensive guide aimed at developers, security professionals, and IT teams focused on building secure applications. The OWASP (Open Web Application Security Project) Top 10 is a widely recognized list of the most critical security risks in web applications. This topic unpacks each risk, explaining its relevance, potential impact, and how attackers exploit vulnerabilities.\nThe \"Decoding\" aspect emphasizes breaking down these risks in a clear, digestible manner, helping teams understand how to mitigate threats like SQL injection, cross-site scripting (XSS), and insecure deserialization. By exploring real-world examples and best practices, this blueprint equips developers with actionable strategies to enhance security throughout the software development lifecycle. It also underscores the importance of integrating security from the ground up\u2014preventing common flaws that could lead to data breaches, system compromises, or financial loss."
     },
     {
-        "group": "San Antonio",
-        "repo": "www-chapter-san-antonio",
-        "name": "OWASP San Antonio Chapter Qtrly Meeting-Oct 18th 2024 (Friday)",
-        "date": "2024-10-18",
-        "time": "11:00-05:00",
-        "link": "https://www.meetup.com/owasp-sanantonio/events/303511552",
-        "timezone": "America/Chicago",
-        "description": "**Container Security-A discussion**\n**Details**\nTopics- See abstracts below\n\n* Containers 101- Optiv\n* Security challenges and opportunities in containerization- Palo Alto\n* From Reactive to Effective: Building Application Security that Works-Mend IO\n* ***Protecting AI: The ultimate Game of Cat and Mouse:***\n***Panel***-Moderator-Brandon Pinzon\nPanelists: **Eddie Contreras- Frost**, Chris Lindsey-Mend, Joseph Gregorio-Frost.\n\n**Lunch Provided**\nScuzzi\u2019s Italian Restaurant - 4035 N Loop 1604 W #102, San Antonio, TX 78257\nZOOM link provided for remote attendees\n\n**https://optiv.zoom.us/j/93311548515?pwd=8LlhRjVy4bmPCXRheXtLMe4EQ9KAJ2.1&from=addon**\n\nWe encourage everyone to attend in person. We will have door prizes and excellent food for all to enjoy, as you take advantage of this excellent networking opportunity!\nPlease feel free to pass this information on to your peers and team members.+\n\nPlease reply **\u201cONSITE\u201d** if you plan on attending in person so we can finalize headcount for food and room attendance \n\nSocial Hour after\n\n**Presentations will include:**\n***I. Containers 101-Optiv***\nContainer Security Best Practices and Tooling-Optiv\n\n***II. Securing APIs in the Cloud: Insights and Best Practices- Palo Alto***\nThis presentation explores the security challenges and opportunities in containerization, emphasizing a defense-in-depth approach. We begin by discussing the widespread adoption of containers and the emerging trends driving innovation, such as serverless computing and hybrid/multi-cloud environments. We then examine key security concerns, including container sprawl, misconfigurations, and supply chain vulnerabilities. A defense-in-depth strategy, starting with shifting security left during development, followed by securing images at rest and implementing runtime protection, ensures comprehensive container security. By integrating cloud workload protection platforms (CWPP) with broader CNAPP strategies, organizations can safeguard containers throughout their entire lifecycle, from code to production\n\n***III. From Reactive to Effective: Building Application Security that Works-Mend IO***\n\nIn 2023, 71% of enterprises admitted their AppSec programs were reactive, playing catch-up with vulnerability alerts -\u2013 while at the same time, applications remain the top target for threat actors. That adds up to increased business risk for a lot of companies and fuels an urgent need to improve application security strategies. But how?\nThe key is to move from a compliance-based approach to managing application risk.\n\n**IV. Protecting AI: The ultimate Game of Cat and Mouse:**\n\nPanel-Moderator-Brandon Pinzon\nPanelists: Eddie Contreras- Frost, Chris Lindsey-Mend, Joseph Gregorio-Frost."
-    },
-    {
         "group": "Scotland",
         "repo": "www-chapter-scotland",
         "name": "OWASP Scotland Chapter Meeting - October",
@@ -288,16 +278,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539101",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Seattle Cyber Mixers | Fall Edition | Bellevue Marriot",
-        "date": "2024-10-18",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/303161433",
-        "timezone": "America/Los_Angeles",
-        "description": "**The Seattle Cyber Mixers fall event is here!** Bigger, better and even more fun, brought to you by the leading local security non-profit organizations and sponsored by Seattle HDI, TEKSystems, Nortal, Amatas and Cyberjutsu. The Seattle Cyber Mixers are designed to offer more informal connection opportunities for the cybersecurity community of the Greater Seattle area.\n\nThis is a casual, low-key gathering where local security professionals can connect and unwind in an informal low-pressure setting. As the first of many, we plan to host these mixers at various locations, rotating based on your feedback. Our aim is to cultivate a regular cadence, potentially monthly or bimonthly, evolving with the community's interest.\n\nAny questions or suggestions, message the [OWASP Seattle Chapter](https://www.linkedin.com/company/owasp-seattle-chapter/) or contact [Eva Benn](https://www.linkedin.com/in/evabenn/)."
     },
     {
         "group": "Stockholm",
@@ -328,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-toronto/events/303805690",
         "timezone": "America/Toronto",
         "description": "\\*\\* The event is hosted at 111 Peter St Suite 804, Toronto, ON M5V 2H1 \\*\\*\n\n**TALK**\n**\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-**\n\n**Inference Servers: new technology, same old security flaws.**\n\n**Summary:**\n\nAI and LLM based applications are taking the industry by storm. While a lot time is spent on evaluating prompt injection, there is an entire ecosystem of applications that allow models to be run and used. These applications have their own important security considerations that you may not be aware of.\nInference Servers are used to host machine learning models and expose APIs that allow other components to perform inference on those models. These servers often expose additional APIs that allow users to load new models. Often, this can be abused to perform remote code execution. While this technology is new, the baseline security configurations for many of these products are a relic from the past.\nIn this talk we\u2019ll learn about what an inference server is, how they work, and how you can achieve remote code execution in them. This talk is mainly focused on the practical security risks involved in this ecosystem. Finally, I will share details about a couple of CVEs related to TorchServe\n\n**Presenters:**\n\nPratik Amin has been an Application Security practitioner for over 15 years. He currently works as a Principal Security Consultant at Kroll (previously Security Compass Advisory). In this role, he spends most of his time performing AppSec pentests and digging into interesting technology."
+    },
+    {
+        "group": "Uruguay",
+        "repo": "www-chapter-uruguay",
+        "name": "OWASP Meetup - Octubre",
+        "date": "2024-10-29",
+        "time": "17:00-03:00",
+        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/304077194",
+        "timezone": "America/Montevideo",
+        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\n**Diego Rosa y Guillermo Jacobi**\n\u00bfQu\u00e9 conocen de nuestra organizaci\u00f3n que nosotros no sabemos? \u2013 Huella Digital\n\n**Gerardo Canedo**\nSecure Coding Dojo: El primer paso en el desarrollo seguro\n\n**\u00bfCu\u00e1ndo?** Martes 29/10, 17:00.\n**\u00bfD\u00f3nde?** Willinn, Zonamerica, Ruta 8 km 17.500 Edificio Explora.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
     },
     {
         "group": "Uruguay",
