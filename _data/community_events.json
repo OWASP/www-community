@@ -60,16 +60,6 @@
         "description": "The OWASP Boulder Chapter is excited to announce our October Chapter Meeting! Scheduled for Wednesday, October 23rd at the Rule4 office at 6 PM, with complimentary food, beer, and soft drinks. Join us for networking with your peers and a featured talk from Dan Moore presenting:\n\n**Protecting your API with OAuth**\n\nOAuth is a well known standard and is useful for delegating authentication and authorization decisions to a central identity provider. As a developer, you\u2019ve given a token when a grant completes.\n\nBut what happens then? This talk will discuss client and server side code and logic needed when calling an API after you have a token. This will include how to store a token in the API client and what your API code should examine when presented with a token. discuss the building blocks for deploying a secure development process for detecting, remediating, and ultimately preventing security vulnerabilities in your software.\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:15ish Main Topic Presentation\n7:15ish - 7:30 Q&A and Discussion\n7:30 - 8:00 More Networking"
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "Securing the Cloud: An OWASP-CSA Collaboration",
-        "date": "2024-10-19",
-        "time": "10:00+03:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/303973153",
-        "timezone": "Africa/Cairo",
-        "description": "Join us for \"Securing the Cloud: An OWASP-CSA Collaboration,\" a unique opportunity to enhance your cloud security knowledge and practices. This event, organized by the OWASP Cairo chapter and the CSA Egypt chapter, features two hands-on workshops designed for professionals across various roles in the tech industry.\n\n**1.\u2060 Event Introduction: 10:00 AM to 10:15**\n**2.\u2060 \u2060Workshop 1: Securing Cloud Infrastructure and Workloads: 10:15 to 11:00**\n**\\- Speaker: [Fady Amir](https://www.linkedin.com/in/fady-amir-a1554b18?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)**\n\\- Duration: 1 hour\n\\- Target Audience: Cloud Architects\\, DevOps Engineers\\, Security Professionals\n\\- Overview:\n\\- Cloud security shared responsibility model\n\\- Securing cloud infrastructure components \\(IaC\\, IAM\\, networking\\, etc\\.\\)\n\\- Containerization and Kubernetes security best practices\n\n**3.\u2060 \u2060Workshop 2: Application Security in the Cloud**\n**\\- Speaker: [Ahmed Saafan](https://www.linkedin.com/in/saafan-ahmed/)**\n\\- Duration: 1 hours\n\\- Target Audience: Developers\\, Security Professionals\\, Cloud Architects\n\\- Overview:\n\\- OWASP Top 10 vulnerabilities in cloud\\-native applications\n\\- Secure coding practices for cloud\\-hosted web apps and APIs\n\\- Integrating security testing into the cloud CI/CD pipeline\n\nWhether you're a cloud architect, DevOps engineer, developer, or security professional, this event offers valuable insights and practical skills to strengthen your cloud security posture. Don't miss this chance to collaborate with peers and experts in the field!"
-    },
-    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "Cultivating Cybersecurity: Building and Sustaining a Security Champions Program",
@@ -103,6 +93,16 @@
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
+        "date": "2024-11-18",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242791",
+        "timezone": "America/New_York",
+        "description": "OWASP topic TBA"
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
         "date": "2024-10-21",
         "time": "17:30-04:00",
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242790",
@@ -118,16 +118,6 @@
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/303988778",
         "timezone": "America/Fortaleza",
         "description": "**MEETUP PRESENCIAL**\n\nA OWASP se concentra muito em pr\u00e1ticas que ajudam a mitigar os riscos de engenharia social, como a conscientiza\u00e7\u00e3o sobre ataques, treinamento de usu\u00e1rios e desenvolvimento de aplica\u00e7\u00f5es seguras. Embora a engenharia social n\u00e3o seja diretamente uma vulnerabilidade de software, ela pode ser uma porta de entrada para explorar outras vulnerabilidades de uma aplica\u00e7\u00e3o e sua correla\u00e7\u00e3o pode ser encontrada em A01:2021 - Broken Access Control, 04:2021 - Insecure Design e A07:2021 - Identification and Authentication Failures."
-    },
-    {
-        "group": "Kerala",
-        "repo": "www-chapter-kerala",
-        "name": "OWASP Kerala Chapter Meet Oct 2024",
-        "date": "2024-10-19",
-        "time": "14:00+05:30",
-        "link": "https://www.meetup.com/owasp-kerala-chapter/events/303954172",
-        "timezone": "Asia/Kolkata",
-        "description": "**Speakers : Mohammed Aslam**\n\nMohammed Aslam is a Cyber Threat Intelligence Consultant at overseeing a team responsible for delivering tailored threat intelligence solutions. With expertise in OSINT, dark web monitoring, and automation, he focuses on enhancing cybersecurity operations and mitigating risks for global clients. Aslam is committed to developing practical, effective solutions that strengthen organizational defenses and improve response to emerging threats.\n\n**Topic : Threat Intelligence in action: OSINT and Cyber Hygiene**\n\n**Speakers : Anish Kumar**\n\nAnish is a dedicated and passionate cybersecurity expert, leading the global delivery of Cyber Threat Intelligence services, providing tailored intelligence solutions to multiple sectors including finance, healthcare, and critical infrastructure. His expertise extends to managing supplier risk, where he help organizations identify, assess, and mitigate risks in their supply chains, ensuring robust defense mechanisms against potential vulnerabilities.\nIn addition to his professional achievements, he is committed to educating the broader cybersecurity community. He actively seek opportunities to share the knowledge, helping organizations and individuals stay informed on evolving threats and best practices.\n\n**Topic : Unlocking the Power of Threat Intelligence**"
     },
     {
         "group": "London",
@@ -230,16 +220,6 @@
         "description": "This is an In-Person OWASP Orlando Chapter Meeting\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **TBD**\nTopic: TBD\n\nSpeaker 2: **TBD**\nTopic: TBD"
     },
     {
-        "group": "Patna",
-        "repo": "www-chapter-patna",
-        "name": "Session 10 - Advanced Burp Techniques by Pranshu Tiwari",
-        "date": "2024-10-19",
-        "time": "12:00+05:30",
-        "link": "https://www.meetup.com/owasp-patna-chapter/events/304036869",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us for an in-depth exploration of **Advanced Burp Suite Techniques**. This interactive session will delve into the intricacies of the Repeater tab, Collaborator module, Proxy settings, and automation techniques. Whether you're a seasoned cybersecurity professional or just starting your journey, this event will equip you with the knowledge and skills to leverage Burp Suite to its full potential."
-    },
-    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
@@ -300,6 +280,16 @@
         "description": "**The talk:** Authentication might seem simple, but implementing it securely comes with several challenges that developers need to address. In this talk I'll highlight the key pitfalls to watch out for and discuss good practices for building a secure authentication system. We'll focus on best practices, you\u2019ll gain insights into how to avoid common mistakes and build a more robust and secure authentication process.\n\n**Speaker:** Wojciech is a software engineer with over 10 years of experience, specialising in defending applications against security threats. His focus on application security (AppSec) has led him to develop and implement secure coding practices that safeguard systems from vulnerabilities. He is passionate about building resilient software, ensuring that security is integrated into every stage of development.\n\nAgenda:\n\n* OWASP Suffolk updates\n* Authentication is easy talk\n* Q&A"
     },
     {
+        "group": "Tirunelveli",
+        "repo": "www-chapter-tirunelveli",
+        "name": "Online Self Hosting Webinar Tamil - OWASP & Null - Tirunelveli",
+        "date": "2024-10-20",
+        "time": "18:00+05:30",
+        "link": "https://www.meetup.com/owasp-tirunelveli-chapter/events/304093887",
+        "timezone": "Asia/Kolkata",
+        "description": "\u201cUnlock the Power of Self-Hosting\u201d\n\nJoin us for an exclusive webinar where you'll learn how to take control of your online presence by self-hosting your own applications and services! Whether you're a developer, startup founder, or tech enthusiast, discover the benefits of hosting on your own servers\u2014offering more privacy, flexibility, and cost-efficiency.\n\nThis Event Is hosted by the Combined Community of OWASP and Null chapters of Tirunelveli"
+    },
+    {
         "group": "Toronto",
         "repo": "www-chapter-toronto",
         "name": "OWASP Toronto | Inference Servers: new technology, same old security flaws.",
@@ -318,16 +308,6 @@
         "link": "https://www.meetup.com/owasp-uruguay-chapter/events/304077194",
         "timezone": "America/Montevideo",
         "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\n**Diego Rosa y Guillermo Jacobi**\n\u00bfQu\u00e9 conocen de nuestra organizaci\u00f3n que nosotros no sabemos? \u2013 Huella Digital\n\n**Gerardo Canedo**\nSecure Coding Dojo: El primer paso en el desarrollo seguro\n\n**\u00bfCu\u00e1ndo?** Martes 29/10, 17:00.\n**\u00bfD\u00f3nde?** Willinn, Zonamerica, Ruta 8 km 17.500 Edificio Explora.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
-    },
-    {
-        "group": "Uruguay",
-        "repo": "www-chapter-uruguay",
-        "name": "La Meetup 2024",
-        "date": "2024-10-19",
-        "time": "09:00-03:00",
-        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/303885354",
-        "timezone": "America/Montevideo",
-        "description": "Este es un evento organizado por la comunidad de Meetups de desarrollo del Uruguay. M\u00e1s info, registro y reserva de la entrada en la p\u00e1gina del evento: https://www.owu.uy/la-meetup\n\n**La Meetup** ofrece un espacio para reunirnos en persona y conectar con comunidades de tecnolog\u00eda locales.\nEste evento ser\u00e1 un punto de encuentro para profesionales, estudiantes y entusiastas de la tecnolog\u00eda de todo el pa\u00eds. Es una gr\u00e1n oportunidad para intercambiar ideas, compartir experiencias y construir relaciones que fomenten el crecimiento y la unidad dentro de la comunidad tecnol\u00f3gica uruguaya.\n\n**\u00bfEn qu\u00e9 consiste?**\nEs una conferencia o reuni\u00f3n abierta, donde la principal caracter\u00edstica es que la agenda se genera de manera din\u00e1mica entre todos los participantes de la reuni\u00f3n.\n\n**Etapas:**\n\n* **\u21aa Apertura**: El facilitador explica la estructura y mec\u00e1nica del espacio.\n* **\u21aa Mercado de Ideas**: Los participantes pueden proponer t\u00f3picos de inter\u00e9s y se organizan en un tablero de anuncios.\n* **\u21aa Sesiones de Discusi\u00f3n**: Se llevan a cabo conversaciones del t\u00f3pico seleccionado, los participantes se auto-organizan en los lugares predefinidos.\n* **\u21aa Clausura**: Al finalizar todas las sesiones y con ayuda del facilitador, los participantes se re\u00fanen nuevamente para realizar el cierre del espacio."
     },
     {
         "group": "Warwick",
