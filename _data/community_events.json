@@ -200,6 +200,16 @@
         "description": "Join us to meet [Jamie Scott from Endor Labs ](https://www.linkedin.com/in/james-m-scott-iii/)as we talk about The Dark Side of Open Source Productivity. We'll learn how to think through all the potential risk you inherit when using open source software and how to handle upgrade anxiety, whether that comes from breaking changes or from the unknown of the software supply chain."
     },
     {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP New Zealand - Auckland Meetup",
+        "date": "2024-11-19",
+        "time": "18:30+13:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297786624",
+        "timezone": "Pacific/Auckland",
+        "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for November will be **A05:2021 - Security Misconfiguration**.\n\n**Technical Topic Speaker:** Jagan Boda (Jay)\n**Talk Title:** How scary is a Post-Quantum Computing Crypto World?\n\nIn my presentation, I will explore the transformative potential and security challenges of quantum computing. I will try to explain key quantum concepts like superposition and entanglement, contrasting them with classical computing principles.\n\nI will address security concerns by discussing the vulnerability of current cryptographic algorithms and infrastructure to quantum attacks. A brief history of cryptography and solutions to the challenges from quantum computing. Then we will outline ongoing efforts to develop quantum-resistant cryptography and the standardization processes from organizations such as NIST.\n\nOpportunities for adoption of post-quantum computing safe algorithms exist today and can be planned for and budgeted. Education and awareness will be crucial, ensuring stakeholders understand the implications of quantum computing on cybersecurity.\n\nBy the end of the presentation, attendees will gain a foundational understanding of quantum computing's impact on security and practical steps to protect sensitive data in a quantum-enabled future.\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
+    },
+    {
         "group": "Noida",
         "repo": "www-chapter-noida",
         "name": "OWASP Noida October Meetup",
@@ -228,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/303804732",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Rewa",
-        "repo": "www-chapter-rewa",
-        "name": "Decoding OWASP Top 10: A Blueprint for Secure Application Development",
-        "date": "2024-10-20",
-        "time": "16:00+05:30",
-        "link": "https://www.meetup.com/owasp-rewa-chapter/events/304037499",
-        "timezone": "Asia/Kolkata",
-        "description": "**Decoding OWASP Top 10: A Blueprint for Secure Application Development** is a comprehensive guide aimed at developers, security professionals, and IT teams focused on building secure applications. The OWASP (Open Web Application Security Project) Top 10 is a widely recognized list of the most critical security risks in web applications. This topic unpacks each risk, explaining its relevance, potential impact, and how attackers exploit vulnerabilities.\nThe \"Decoding\" aspect emphasizes breaking down these risks in a clear, digestible manner, helping teams understand how to mitigate threats like SQL injection, cross-site scripting (XSS), and insecure deserialization. By exploring real-world examples and best practices, this blueprint equips developers with actionable strategies to enhance security throughout the software development lifecycle. It also underscores the importance of integrating security from the ground up\u2014preventing common flaws that could lead to data breaches, system compromises, or financial loss."
     },
     {
         "group": "Scotland",
@@ -278,16 +278,6 @@
         "link": "https://www.meetup.com/owasp-suffolk-chapter/events/303642531",
         "timezone": "Europe/London",
         "description": "**The talk:** Authentication might seem simple, but implementing it securely comes with several challenges that developers need to address. In this talk I'll highlight the key pitfalls to watch out for and discuss good practices for building a secure authentication system. We'll focus on best practices, you\u2019ll gain insights into how to avoid common mistakes and build a more robust and secure authentication process.\n\n**Speaker:** Wojciech is a software engineer with over 10 years of experience, specialising in defending applications against security threats. His focus on application security (AppSec) has led him to develop and implement secure coding practices that safeguard systems from vulnerabilities. He is passionate about building resilient software, ensuring that security is integrated into every stage of development.\n\nAgenda:\n\n* OWASP Suffolk updates\n* Authentication is easy talk\n* Q&A"
-    },
-    {
-        "group": "Tirunelveli",
-        "repo": "www-chapter-tirunelveli",
-        "name": "Online Self Hosting Webinar Tamil - OWASP & Null - Tirunelveli",
-        "date": "2024-10-20",
-        "time": "18:00+05:30",
-        "link": "https://www.meetup.com/owasp-tirunelveli-chapter/events/304093887",
-        "timezone": "Asia/Kolkata",
-        "description": "\u201cUnlock the Power of Self-Hosting\u201d\n\nJoin us for an exclusive webinar where you'll learn how to take control of your online presence by self-hosting your own applications and services! Whether you're a developer, startup founder, or tech enthusiast, discover the benefits of hosting on your own servers\u2014offering more privacy, flexibility, and cost-efficiency.\n\nThis Event Is hosted by the Combined Community of OWASP and Null chapters of Tirunelveli"
     },
     {
         "group": "Toronto",
