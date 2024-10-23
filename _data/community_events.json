@@ -80,6 +80,16 @@
         "description": "**Last meeting of the year!**\n\nTalk by [Yettsy Jo Knapp](https://www.linkedin.com/in/yettsy-jo-knapp?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)\n\n* She\u2019ll walk us through a high-level overview of the OWASP Application Security Verification Standard (ASVS).\n* Cover the basics of ASVS, including its different levels of security verification and how to apply it in your projects."
     },
     {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "Security Journey CTF",
+        "date": "2024-11-21",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/301084006",
+        "timezone": "America/New_York",
+        "description": "*This will be at the new location, as shown below! Don't go to the wrong place!*\n\nHands-on hacking time! Security Journey has graciously allowed us to borrow their CTF for the evening to see and fix coding flaws that lead to security vulnerabilities. It's all web based, so bring your laptop! There really isn't anything to install, so bring your work laptop! But be there!\n\nWe'll start off with a few highlights related to what is new in the world of appsec, and have a good-of-the-order style chat about the near, they we will dig into finding and fixing some stuff."
+    },
+    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Paris - Novembre 2024",
@@ -142,6 +152,16 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "The 2024 Los Angeles Cybersecurity Summit",
+        "date": "2024-11-21",
+        "time": "07:30-08:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/304037309",
+        "timezone": "America/Los_Angeles",
+        "description": "**OWASP LA** has organized \\***ANOTHER**\\* exceptional offer for our meetup membership to participate in ***Ninth Annual Los Angeles Cybersecurity Summit*** on November 21st, in Los Angeles, CA. Join us for deep insight in new tools and technology, training, and take advantage of this great opportunity to network with industry professionals.\n\n[Register ](https://cybersecuritysummit.com/register/losangeles24/)now using code **CSS24-OWASPLA** for your **complimentary** pass! Space is limited so act now to secure your place.\nCheck the full schedule at [2024 California Technology Summit Agenda](https://cybersecuritysummit.com/summit/losangeles24/)\n\nThe **Ninth Annual Los Angeles Cybersecurity Summit** connects C-Suite & Senior Executives responsible for protecting their companies\u2019 critical infrastructures with innovative solution providers and renowned information security experts. Admission gives you access to all Interactive Panels, Discussions, Catered Breakfast, Lunch & Cocktail Reception.\n\n**Conference Highlights:**\n\n### Interactive Panel Discussions\n\n**Defining Cybersecurity-Readiness: How do you evaluate yours?**\nWhen looking at how to best protect your business, cybersecurity readiness should be top priority, but what is it? Let\u2019s discuss GRC & the best steps to take when quantifying cyber risk, developing your incident response plan, creating a data security policy & more.\n**2024 & The Biggest Threats to Your Business**\nOn this panel our lineup of industry experts will discuss the most dangerous and emerging threats to your organization as well as the solutions that go beyond anti-malware/anti-virus to include endpoint security, vulnerability management, Active Directory monitoring, credential protection, DNS security tools, SIEM, DLP and encryption.\n**Conceptualizing Cloud Security & Why it Matters Today**\nCloud computing solves many problems like flexibility, cost-efficiency & scalability, so it\u2019s no surprise that use of the cloud is consistently growing. Our experts will look at hybrid and multi-cloud environments, adopting the concept of cybersecurity mesh & Zero Trust, the Secure Access Service Edge (SASE) framework, cloud-native tools & platforms, as well as why the future of network security is in the Cloud.\n\n### Top 8 Reasons to Attend the Cybersecurity Summit\n\n1\\. Learn\n2\\. Evaluate Demonstrations\n3\\. Time\\, Travel and Money Savings\n4\\. Engage\\, Network\\, Socialize & Share\n5\\. CEUs / CPE Credits\n6\\. Investment\n7\\. Atmosphere\n8\\. Reality Check\n\n### [Questions](mailto:Samantha@CyberSummitUSA.com)\n\nFor any questions, please contact **[Samantha@CyberSummitUSA.com](mailto:Samantha@CyberSummitUSA.com)** or call **212.655.4505 ext. 225**\n\nAnd finally **don't forget** to visit us at the OWASP Los Angeles booth!"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - NOV 20, 2024",
         "date": "2024-11-20",
         "time": "17:30-08:00",
@@ -160,16 +180,6 @@
         "description": "**TOPIC**: Program Analysis: From Difficult to Impossible\nJoin us for great networking, dinner and drinks, and see a presentation by **Brandon Wu**, Program Analysis Engineer at **Semgrep**\n\n**ABSTRACT**: This talk is a cursory introduction into the field of static application security testing (SAST), which concerns the verification of source code for security purposes. In particular, this talk concerns the field of static analysis (a sub-field of program analysis), the art of analyzing, diagnosing, and remediating source code with computers. We will discuss the techniques and mathematical limitations of the field, which seek to answer the question: \"How can we solve a problem which is fundamentally impossible?\". An understanding of compilers will be helpful, but not necessary.\n\n**Thanks to our Sponsor**: *[CATO Networks](https://www.catonetworks.com/)*\n*One platform to connect all edges, everywhere*\n*CONNECT, PROTECT, DETECT, RUN*\n*Cato is architected to deliver on the promise of SASE: secure and optimized access for everyone, everywhere, at any scale, and to any application. Cato is focused on offloading day-to-day work from the customers' IT and minimizing the dependency on scarce skills and resources.*\n\n**Thanks to our HOST**: *[HiveWatch](https://www.hivewatch.com/)*\n*Intelligent, efficient, and scalable security*\n*HiveWatch is a cloud-based SaaS platform built for physical security teams to enhance their current security technologies. It streamlines incident response, allows for the consolidation of disparate programs and systems, and reduces false alarms.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "Los Angeles Joint Cyber Mixer",
-        "date": "2024-10-22",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/303775946",
-        "timezone": "America/Los_Angeles",
-        "description": "Join us for our 4th mixer with participating cybersecurity communities in Southern California, enjoy beautiful weather, amazing sunset, great conversations, network with your peers, make new friends!\nYou **don't** have to be a member of any group to participate. Mark your calendars; see you there!!\n\n**VENDOR Opportunities Available**\n*Vendors interested in attending please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n#CSA #ISSALA #OWASPLA #CyberJutsu #ISC2LA #Cybersecurity #SafeNetworking #BuildingCommunity #Murphie #BallastPoint"
-    },
-    {
         "group": "Manchester",
         "repo": "www-chapter-manchester",
         "name": " OOOOOOWASP - Ghosts in the Machine: A Halloween Cybersecurity Spooktacular ",
@@ -178,16 +188,6 @@
         "link": "https://www.meetup.com/owasp-manchester-uk-chapter/events/303387636",
         "timezone": "Europe/London",
         "description": "Hello & Welcome \n\nIn this spooky session we'll be discussing AI & it's impact on the different aspects of cyber security.\n\nAs it's so close to Halloween, costumes are encouraged, but not required \u200d\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nDue to a corporate policy from the venue sponsor, to get into the venue & up to the event, you will need to register with your full name when signing up to the event AND show photo ID when checking in to the event on the night.\n\nPlease note this event will be recorded so we can put these talks on our YouTube channel afterwards. We will also be trying out our live streaming capabilities.\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**6:00 - Open doors & networking & drinks**\n**6:30 - Alsa Tibbit - Digital Fossils: Bones of APTs**\nThis talk takes the audience on a captivating journey through the speaker\u2019s explorations in cybersecurity research. It highlights how a blend of critical thinking and Explainable Artificial Intelligence (XAI) has paved the way for an innovative approach to addressing complex cyber threats. Focusing on Advanced Persistent Threats (APTs) as a prime example, the speaker illustrates how a solution-driven mindset, enhanced by XAI, has led to groundbreaking cybersecurity advancements. This novel methodology garnered substantial support from Sheffield Hallam University and La Trobe University in Australia, creating new avenues to detect and counter cyber threats.\n\n**7:15 - Refreshments (Food & Drinks & Networking)**\n**8:00 - Leum Dunn -** **AI AIEEEE (the revenge - re-deux)**\nA fusion of mischievous ideas, distilled from presentations at B-Sides Leeds and Lancs, exploring the playful and slightly chaotic potential of AI tools. Buckle up, it\u2019s going to be a wild ride!\n\n**9:00 - Vacate venue -> to the pub for more socialising**\n\n**LOCATION**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBooking.com\n6 Goods Yard Street Manchester\nM3 3BG\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\n**SPEAKERS**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Alsa Tibbit**\nAs a seasoned cybersecurity professional with extensive experience in academia and industry, Alsa has excelled in teaching, research, and leadership. Her notable accomplishments include authoring a \u00a3100k technical proposal and leading an Innovate project focused on machine learning, malware analysis, and data mining. In 2023, she was involved in a research project for DSIT addressing the cybersecurity skills gap in the UK, further underscoring her dedication to advancing the field.\n\nAlsa is currently involved in two key projects: one focusing on Advanced Persistent Threats (APTs) and Explainable Artificial Intelligence (XAI), and another tackling ARM architecture and Java vulnerability research. These endeavours highlight her commitment to personal and professional development as she continues contributing to the ever-evolving cybersecurity world.\n\n**Leum Dunn** *has been lurking in the shadows of the tech world for over 20 years, with the last decade spent fortifying defenses in the cybersecurity realm. His expertise shines brightest in the betting and gaming industry, though he\u2019s also dabbled in critical national infrastructure and print manufacturing, just for fun. When he\u2019s not safeguarding digital kingdoms, Leum can be found playing bass guitar (badly, by his own admission) or immersing himself in gothic rock and jazz noir. His talk today is a fusion of mischievous ideas, distilled from presentations at B-Sides Leeds and Lancs, exploring the playful and slightly chaotic potential of AI tools. Buckle up, it\u2019s going to be a wild ride!*\n\n*Yes, I asked ChatGPT to write that. No, I'm not ashamed. I'm not even going to correct the spelling!*\n\n**SPONSORS** (Thank you for supporting our community!!)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Booking.com** \\- Venue Sponsor AND Food & Drink Sponsor\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nAre you passionate about a security topic?\nDo you want to speak at a future event?\nSubmit your interest here - https://forms.gle/zcm9bVNhgDixe8Gq5\nDoes your company want to sponsor a venue and/or refreshments?\nEmail Paul - paul.johnston@owasp.org"
-    },
-    {
-        "group": "Maribor",
-        "repo": "www-chapter-maribor",
-        "name": "Lov na zlobce",
-        "date": "2024-10-22",
-        "time": "21:00+02:00",
-        "link": "https://www.meetup.com/maribor-owasp-meetup-group/events/303916690",
-        "timezone": "Europe/Belgrade",
-        "description": "Akterji, ki bi se radi dokopali do na\u0161ih podatkov ali jih za\u0161ifirirali ne spijo. I\u0161\u010dejo (in najdejo) nove in nove na\u010dine, kako se infiltirati v na\u0161a okolja in zaobiti implementirane varnostne kontrole. Pri tem pu\u0161\u010dajo sledi, katere lahko z \"threat huntingom\" odkrijemo. V predavanju bomo spoznali threat hunting ogrodje PEAK in ga aplicirali na realne primere."
     },
     {
         "group": "Melbourne",
@@ -200,6 +200,16 @@
         "description": "G'day all,\n\nIt was great to see new faces last month. Thank you to those that attended.\n\nIn our last meetup, attendees voted for [YOI Indonesian Fusion](https://yoirestaurant.com.au/) as our location for next month. On 30th October 2024 6PM, there we shall meet.\n\n*There's NO BOOKING. If you're the first to arrive, please grab a table for the group and post a picture of the table's location in the comments of this meetup event. We'll use it to locate each other. (If you don't see a post, you're lucky first. Please grab us a table and post a pic. )*\n\n**Please remember to update your RSVP if you can no longer attend.** Even if it's just 30 minutes prior. It'll help whomever that arrives first know how big a table to get.\n\nWe're looking forward to the discussions we had once again.\n\nSee you there.\n\nMore details on the format, and what to expect below:\n\n**The Practitioner's Roundtable**\nIt's a monthly meetup, for AppSec/ProdSec practitioners to participate discussing AppSec/ProdSec topics and share knowledge. There's no speakers, or sponsors; just a facilitator, with the expectation that you'll join the conversations. Broadly, the idea is that you're swinging by after work, for a regular catch-up with our peers over dinner (with F&B at your own cost) with a known format.\n\\-\\-\\-\n**So, what's happening?**\nThe format:\n\n1. At 6pm all attendees arrive, and order (and pay for) their own meals - we'll do the rest while waiting for the meals to arrive and as we eat.\n2. All attendees write down on a card 1-2 AppSec/ProdSec related topics they'd like to discuss.\n3. We'll all each cast 3 votes on the cards we'd like to discuss.\n4. We'll sort the cards, and discuss the topics with the top 3-4 highest votes. Starting with the topic with the highest votes.\n5. After 5(?) minutes, we all decide if we'd like to continue or move on to the next topic.\n6. If we continue, after 15(?) minutes, we all move on to the next topic of discussion.\n7. At 7pm, we wrap up and officially end. Before everyone leaves, we vote on the next restaurant that we'll meet at.\n\nThis is[ inspired by Lean Coffee](https://agilecoffee.com/leancoffee/), and intended for participants to be collaborators in the conversation focused on AppSec & ProdSec topics. You are expected to participate in the AppSec/ProdSec conversations constructively if you attend. This isn't the right place for BizDev focused conversations.\n\nFor the location selection, here are the considerations we work with:\n\n1. It must be within 1 \"city block\" of the Melbourne Free Tram Zone.\n2. The typical price for a whole meal (without alcohol) should be under $50 per person.\n3. It must allow individual orders - you'd be ordering and paying for your own meal.\n4. It will need to have seating space for the group to say, just walk-in to the restaurant ( this may change if it grows beyond 10 regular attendees ).\n5. It must be quiet enough for us to have meaningful conversations.\n6. It must not be a restaurant we've been to in the past 6 months. (Just to keep things fresh )\n\nAlso, although we use the word \u201crestaurant\u201d this is used broadly to mean food establishment - if we\u2019re all keen on hitting up a decent kebab place, that works. As a courtesy to the venue, there's an expectation that you'd order something there."
     },
     {
+        "group": "Mumbai",
+        "repo": "www-chapter-mumbai",
+        "name": "OWASP Mumbai | October Meet, 2024 | Virtual",
+        "date": "2024-10-26",
+        "time": "11:30+05:30",
+        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/304147147",
+        "timezone": "Asia/Kolkata",
+        "description": "Introduction to Malware Analysis\nWindows architecture and internals, along with an introduction to basic assembly and PE (Portable Executable) format, including how payloads are placed in various sections.\nPayload encryption/obfuscation techniques , with binaries from previous ctfs.\nTake home CTFs.\n\nSpeakers\nRachit Arora\nAakash Raman\nDhanush Nair\nAryan Kulshrestha\n\nDuration 1 hour - 1 hour 15 minutes"
+    },
+    {
         "group": "Nashville",
         "repo": "www-chapter-nashville",
         "name": "Patients at Risk: Investigating The Healthcare Cybersecurity Crisis",
@@ -208,16 +218,6 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/299885957",
         "timezone": "America/Chicago",
         "description": "Want to learn more about the most successfully attacked industry in the world? Here\u2019s your chance!\n\nHealthcare organizations are facing a digital storm. Cyberattacks are increasingly successful, targeting sensitive patient data, disrupting critical services, and putting lives at risk. Facing a growing threat landscape due to increasing reliance on interconnected technologies (including IoT, IoMT, OT and IT systems), many hospitals are struggling to recover from decades of accumulated cybersecurity debt.\n\nThis presentation will explore the root causes of healthcare cyberattacks, providing real-world examples and discussing the technical vulnerabilities that make organizations prime targets. Attendees will gain insights into the emerging guidance and strategies for improving healthcare cybersecurity, as well as the debate surrounding the need for regulation in this critical sector. We will also examine the significant financial and reputational costs associated with cyberattacks and delve into the motivations and tactics of the attackers themselves.\n\nJoin OWASP Nashville and Chad Holmes as we dive deep into the world of healthcare cybersecurity. We'll explore the root causes of cyberattacks, examine real-world examples, and discuss the technical vulnerabilities that make hospitals prime targets."
-    },
-    {
-        "group": "Nashville",
-        "repo": "www-chapter-nashville",
-        "name": "The Dark Side of Open Source Productivity with Endor Labs",
-        "date": "2024-10-22",
-        "time": "17:00-05:00",
-        "link": "https://www.meetup.com/owasp-nashville-chapter/events/302832496",
-        "timezone": "America/Chicago",
-        "description": "Join us to meet [Jamie Scott from Endor Labs ](https://www.linkedin.com/in/james-m-scott-iii/)as we talk about The Dark Side of Open Source Productivity. We'll learn how to think through all the potential risk you inherit when using open source software and how to handle upgrade anxiety, whether that comes from breaking changes or from the unknown of the software supply chain."
     },
     {
         "group": "New Zealand",
@@ -240,6 +240,16 @@
         "description": "Join us for the **OWASP Noida October Meetup**, a community-driven gathering focused on the latest trends in cybersecurity and application security. This event is an excellent opportunity for security enthusiasts, developers, and professionals to come together and share knowledge, best practices, and insights on web and mobile application security.\n**What to Expect:**\n\n* **Expert Talks:** Hear from seasoned security professionals who will share their experiences and discuss the latest techniques in cybersecurity.\n* **Networking:** Meet like-minded individuals from the security community to exchange ideas and expand your professional network.\n* **Q&A Sessions:** Engage with the speakers in interactive Q&A sessions to deepen your understanding of the topics covered.\n\nWhether you are a beginner eager to learn about cybersecurity or an experienced professional looking to stay updated on the latest developments, this meetup is for you.\n**Event Details:**\n\n* **Date:** Saturday, October 26, 2024\n* **Time:** 10 AM to 3 PM\n* **Location:** TBA\n* **Registration:** This event is free, but registration is required.\n* Also Register on: https://lu.ma/zjgb9wwg\n\nDon\u2019t miss out on this opportunity to enhance your cybersecurity knowledge and skills! Register now and be a part of the OWASP community."
     },
     {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "The Defender's Advantage: A guide to activating cyber defense",
+        "date": "2024-11-21",
+        "time": "18:00-08:00",
+        "link": "https://www.meetup.com/owasp-oc/events/303770736",
+        "timezone": "America/Los_Angeles",
+        "description": "More info to come."
+    },
+    {
         "group": "Orlando",
         "repo": "www-chapter-orlando",
         "name": "OWASP Orlando - Application Security",
@@ -258,6 +268,16 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/303804732",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Philadelphia",
+        "repo": "www-chapter-philadelphia",
+        "name": "Secure Code CTF w/ Security Journey",
+        "date": "2024-10-29",
+        "time": "19:30-04:00",
+        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/304142409",
+        "timezone": "America/New_York",
+        "description": "Friends! Were you afraid we would not have a Security Awareness Month Meeting? Ha! You knew better!\n\nWhat's more is that we are pleased to present a Secure Code Capture-The-Flag challenge with [Security Journey!](https://www.securityjourney.com/application-security-training-platform)\n\nJoin us at any skill level to find, exploit, and fix vulnerabilities at the code level across a number of languages! Capture-The-Flag (CTF's) are intentionally vulnerable platforms designed to educate and challenge it's participants. Members will be available to provide support if you're feeling stuck - it's part of the fun.\n\nPlease join us whether you plan to participate or not! Lite refreshments will be served, and all of our members love to talk shop on any given day.\n\n[Sign Up Here!!!](https://docs.google.com/forms/d/e/1FAIpQLSfCB5E3EGgF1t275oOzNz4zx-XjT5FkkwVJZqzGmOp1FhSWeQ/viewform)\n\nCan't wait to see you there! Prizes will be awarded in certain categories, and remote participation will be available. Only in-person attendees can win prizes, but the remote CTF will be available to learn on for 3 days from launch.\n\n-Higgs\n\n**Please note**: To populate and login to the platform, you will need to RSVP for this event with the above form with an email address you control. This email address will be pre-shared with Security Journey. [Their Privacy Policy can be found here. ](https://www.securityjourney.com/privacy)"
     },
     {
         "group": "Scotland",
@@ -318,6 +338,16 @@
         "link": "https://www.meetup.com/owasp-uruguay-chapter/events/304077194",
         "timezone": "America/Montevideo",
         "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\n**Diego Rosa y Guillermo Jacobi**\n\u00bfQu\u00e9 conocen de nuestra organizaci\u00f3n que nosotros no sabemos? \u2013 Huella Digital\n\n**Gerardo Canedo**\nSecure Coding Dojo: El primer paso en el desarrollo seguro\n\n**\u00bfCu\u00e1ndo?** Martes 29/10, 17:00.\n**\u00bfD\u00f3nde?** Willinn, Zonamerica, Ruta 8 km 17.500 Edificio Explora.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "OWASP Vancouver Monthly Meetup",
+        "date": "2024-11-21",
+        "time": "18:00-08:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516385",
+        "timezone": "America/Vancouver",
+        "description": "TBD"
     },
     {
         "group": "Warwick",
