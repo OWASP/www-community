@@ -10,36 +10,6 @@
         "description": "**19:00 \u2013 19:10** \\- Welcome and Introduction by Cloud\\-Native and OWASP Aarhus\n\n**19:10 \u2013 19:55** \\- \"Securing the DevOps Pipeline: CI/CD Flaws and Supply Chain Threats\" by Mike Larsen\n\n\u201cThe software supply chain is under siege by sophisticated adversaries. High-profile breaches, such as 3CX's compromised CI/CD pipeline\u2014where the North Korean Lazarus Group injected malicious code into widely used apps\u2014the JetBrains TeamCity exploit, where Russian state-sponsored actors gained unauthorized admin control without user interaction, and Sisense's exposure of critical credentials through unsecured GitLab repositories, highlight alarming vulnerabilities in development workflows.\nWe'll explore how these threat actors exploit flaws in CI/CD processes. Drawing on CloudNative's experience, we'll provide strategies to strengthen your DevOps pipeline without sacrificing agility.\u201d\n\n**19:55 \u2013 20:10** \\- Network break with coffee\\, tea\\, water and snacks\\.\n\n**20:10 \u2013 20:55** \\- \"Bring diversity and inclusion to tech\" by Lise Lystlund\n\n\"The tech community excels at knowledge sharing and supporting one another. Without hesitation, people from across the globe dedicate time to help others solve coding problems. To me, this reflects a welcoming and collaborative community that anyone would want to be a part of. Tech is also an appealing field, offering numerous workplace benefits and opportunities for growth. Yet, despite these advantages, the industry continues to struggle with attracting women. How is it that a group representing 50% of the population remains so underrepresented in tech\u2014and, more importantly, what can we do to change this?\"\n\n**20:55 \u2013 21:00** \\- Closing Remarks by OWASP Aarhus and Cloud Native"
     },
     {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "The State of Secure Code + Tournament ",
-        "date": "2024-10-23",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-atlanta/events/303144193",
-        "timezone": "America/New_York",
-        "description": "This presentation delves into the current state of secure coding practices, focusing on technical aspects and the challenges faced by developers and security professionals. We will highlight prevalent issues such as the increasing complexity of software systems, the evolving nature of cyber threats, and the persistent gap between development and security teams. Emphasizing the importance of integrating security into the software development lifecycle, the discussion covers best practices, common vulnerabilities, and the need for continuous education and collaboration to build a robust approach to secure coding across the industry.\n\nThe presentation will be followed by a Secure Coding Tournament for any interested members."
-    },
-    {
-        "group": "Augsburg",
-        "repo": "www-chapter-augsburg",
-        "name": "5. OWASP Augsburg Stammtisch",
-        "date": "2024-10-23",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/304002943",
-        "timezone": "Europe/Berlin",
-        "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Speaker Christoph Niehoff** wird uns etwas erz\u00e4hlen!\n\n\u00dcber Christoph \\(Senior Consultant \\| TNG Technology Consulting\\):\n\nIn seiner Rolle als Senior Consultant bei TNG Technology Consulting entwickelt Christoph Niehoff tagt\u00e4glich Softwareprodukte f\u00fcr seine Kunden. Als Fullstack-Entwickler l(i)ebt er DevOps und betreut alle Schritte des Entwicklungszyklus: angefangen bei Konzeptionierung und Architektur, \u00fcber die konkrete Implementierung bis zum automatisierten Cloud-Deployment mittels CI/CD. Dabei ist ihm insbesondere die Sicherheit der Produkte eine Herzensangelegenheit. Er ist Project Lead des Threat Modeling Kartenspiels OWASP Cumulus.\n\n**Vortrag: Threat Modeling the Clouds**\n\nIn diesem Vortrag geben wir eine Einf\u00fchrung ins Threat Modeling als proaktive Security-Ma\u00dfnahme:\n\n* Was ist es?\n* Wie macht man es?\n* Warum m\u00f6chte man es machen?\n* Was sind Patterns und Antipatterns?\n\nAm Ende betrachten wir, wie man Threat Modeling speziell in agile DevOps Prozesse einbinden kann. Dabei zeigen wir einen Gamification-Ansatz, den wir am Beispiel von OWASP Cumulus erl\u00e4utern.\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
-    },
-    {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "OWASP Bay Area October Meetup with Pacific Hackers",
-        "date": "2024-10-23",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/303802220",
-        "timezone": "America/Los_Angeles",
-        "description": "We're excited to announce our upcoming October meetup in conjunction with **Pacific Hackers**, which will be hosted by the awesome **Backslash** team at **Hacker Dojo in Sunnyvale**. Get ready for insightful discussions and the chance to network with some of the brightest minds in the industry.\n**Agenda:**\n5:30 - 6:00: Doors open, networking and food\n6:00 - 6:45: Panel discussion: **AppSec vs AppSec: Compliance-Driven Security vs. Real World Risk-Focused Innovation**\n6:45 - 7:30: **From Flat 2D to Full-Dimensional 3D: The Journey of AppSec**\n7:30-8:00: **Payment Page Security & Compliance 101**\n\n**Panel Discussion:** In today\u2019s rapidly evolving digital landscape, application security (AppSec) professionals are often torn between meeting compliance requirements and implementing security practices that genuinely reduce risk and foster innovation. This panel will explore the tension between two competing approaches: compliance-oriented AppSec, which focuses on ticking regulatory boxes, and real-world AppSec, which prioritizes proactive risk management and innovation to address dynamic threats.\nThrough lively discussion and real-world case studies, experts from diverse backgrounds will examine the impact of compliance-heavy frameworks on security outcomes. Does compliance help or hinder organizations in effectively mitigating risk? How can security teams balance the need to meet regulatory demands while adopting cutting-edge practices that drive meaningful security improvements? Join us to gain insight into how organizations can navigate these two competing forces, ensuring that both security and innovation thrive in the evolving threat landscape.\nModerator: Trupti Shiralkar\nPanelists: Kunal Bhattacharya , Sara A, Prashant KV\n\n**Talk1: From Flat 2D to Full-Dimensional 3D: The Journey of AppSec**\nRemember when AppSec was all about flagging everything? Back in the 90s, it was like looking at security in 2D\u2014find a vulnerability, flag it, and move on. But as applications grew more complex and moved to the cloud, this \u201cflag everything\u201d mindset became more of a hassle than a help. Modern apps are built differently, and with AI now writing code, there\u2019s more of it than ever before\u2014bringing new vulnerabilities along for the ride.\nToday, we need a 3D approach to AppSec. It\u2019s no longer just about spotting issues but understanding their context, reachability, and real impact. Modern architecture, cloud environments, open-source software (OSS), and the rise of AI-generated code have changed the game. We need smarter tools to handle this complexity. In this talk, we\u2019ll explore how AppSec has evolved from its humble beginnings to a dynamic, AI-aware discipline and the implications for security teams.\n**About the speaker:**\nWith a deep background in cybersecurity and cloud security, Eric Gold serves as Head AppSec Evangelist at Backslash Security. He played a pivotal role in building the evangelism efforts at Orca Security and Aqua Security. Eric has also advised startups like Panoply.io and ScyllaDB, and held executive sales roles at Couchbase, Aerospike, and DeviceScape.He began his career at Oracle and Sun Microsystems and holds a B.S. in Information and Decision Systems from Carnegie Mellon University.\n\nTalk2: **Payment Page Security & Compliance 101**\n**Abstract:** PCI DSS 4.0.1 has introduced new requirements\u20146.4.3 and 11.6.1\u2014to address concerns about card skimming activities on payment pages. This has become a hot topic, with experts debating the best approach to tackle these issues. In this talk, I'll guide you through all the technical approaches you can use to address these requirements. We'll explore the pros and cons of each method.\n\n**Speaker:** Sukesh is the Co-founder of Domdog.io. He specializes in data security and privacy for web pages. Prior to Domdog, most of his work focused on web application security research and building tools in this space."
-    },
-    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BE chapter meeting (14/11/2024, Mechelen)",
@@ -48,16 +18,6 @@
         "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/303275189",
         "timezone": "Europe/Brussels",
         "description": "On November 14th, we organize our next OWASP Belgium chapter meeting in Lamot (Mechelen).\n\nThis event is co-located with the [CyberSecurity event \"Strategic Research and Industry Impact\"](https://cybersecurity-bites.be/cybersecurity-strategic-research-industry-impact-2nd-edition/).\n\n**Agenda**:\n\n* 17h30-19h: networking drink\n* 19h-19h10: **OWASP update**\n* 19u10-19h50: **TBD**\n* 19h50-20h30: **TBD**\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
-    },
-    {
-        "group": "Boulder",
-        "repo": "www-chapter-boulder",
-        "name": "Boulder OWASP October Meetup",
-        "date": "2024-10-23",
-        "time": "18:00-06:00",
-        "link": "https://www.meetup.com/owasp-boulder/events/303995144",
-        "timezone": "America/Denver",
-        "description": "The OWASP Boulder Chapter is excited to announce our October Chapter Meeting! Scheduled for Wednesday, October 23rd at the Rule4 office at 6 PM, with complimentary food, beer, and soft drinks. Join us for networking with your peers and a featured talk from Dan Moore presenting:\n\n**Protecting your API with OAuth**\n\nOAuth is a well known standard and is useful for delegating authentication and authorization decisions to a central identity provider. As a developer, you\u2019ve given a token when a grant completes.\n\nBut what happens then? This talk will discuss client and server side code and logic needed when calling an API after you have a token. This will include how to store a token in the API client and what your API code should examine when presented with a token. discuss the building blocks for deploying a secure development process for detecting, remediating, and ultimately preventing security vulnerabilities in your software.\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:15ish Main Topic Presentation\n7:15ish - 7:30 Q&A and Discussion\n7:30 - 8:00 More Networking"
     },
     {
         "group": "Cincinnati",
@@ -130,16 +90,6 @@
         "description": "OWASP topic TBA"
     },
     {
-        "group": "Joao Pessoa",
-        "repo": "www-chapter-joao-pessoa",
-        "name": "A engenharia de softwares \"X\" privacidade de dados",
-        "date": "2024-10-23",
-        "time": "19:00-03:00",
-        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/303988778",
-        "timezone": "America/Fortaleza",
-        "description": "**MEETUP PRESENCIAL**\n\nA OWASP se concentra muito em pr\u00e1ticas que ajudam a mitigar os riscos de engenharia social, como a conscientiza\u00e7\u00e3o sobre ataques, treinamento de usu\u00e1rios e desenvolvimento de aplica\u00e7\u00f5es seguras. Embora a engenharia social n\u00e3o seja diretamente uma vulnerabilidade de software, ela pode ser uma porta de entrada para explorar outras vulnerabilidades de uma aplica\u00e7\u00e3o e sua correla\u00e7\u00e3o pode ser encontrada em A01:2021 - Broken Access Control, 04:2021 - Insecure Design e A07:2021 - Identification and Authentication Failures."
-    },
-    {
         "group": "London",
         "repo": "www-chapter-london",
         "name": "OWASP London Chapter Halloween Meetup [IN-PERSON]",
@@ -168,16 +118,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/300687868",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: State of Pentesting 2024\nJoin us for great networking, dinner and drinks, and see a presentation by **Carolyn Wang**, Chief Strategy Officer at Cobalt.\n\n**ABSTRACT**:\nIn the sixth annual installment of State of Pentesting 2024, Cobalt shares data and insights from more than 4000 manual pentest engagements performed in 2023, resulting in more than 39,000 security vulnerability findings. Caroline will present the data as well as commentary on artificial intelligence and offensive security.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - OCT 23, 2024",
-        "date": "2024-10-23",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/300687509",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Program Analysis: From Difficult to Impossible\nJoin us for great networking, dinner and drinks, and see a presentation by **Brandon Wu**, Program Analysis Engineer at **Semgrep**\n\n**ABSTRACT**: This talk is a cursory introduction into the field of static application security testing (SAST), which concerns the verification of source code for security purposes. In particular, this talk concerns the field of static analysis (a sub-field of program analysis), the art of analyzing, diagnosing, and remediating source code with computers. We will discuss the techniques and mathematical limitations of the field, which seek to answer the question: \"How can we solve a problem which is fundamentally impossible?\". An understanding of compilers will be helpful, but not necessary.\n\n**Thanks to our Sponsor**: *[CATO Networks](https://www.catonetworks.com/)*\n*One platform to connect all edges, everywhere*\n*CONNECT, PROTECT, DETECT, RUN*\n*Cato is architected to deliver on the promise of SASE: secure and optimized access for everyone, everywhere, at any scale, and to any application. Cato is focused on offloading day-to-day work from the customers' IT and minimizing the dependency on scarce skills and resources.*\n\n**Thanks to our HOST**: *[HiveWatch](https://www.hivewatch.com/)*\n*Intelligent, efficient, and scalable security*\n*HiveWatch is a cloud-based SaaS platform built for physical security teams to enhance their current security technologies. It streamlines incident response, allows for the consolidation of disparate programs and systems, and reduces false alarms.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
     },
     {
         "group": "Manchester",
@@ -278,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/304142409",
         "timezone": "America/New_York",
         "description": "Friends! Were you afraid we would not have a Security Awareness Month Meeting? Ha! You knew better!\n\nWhat's more is that we are pleased to present a Secure Code Capture-The-Flag challenge with [Security Journey!](https://www.securityjourney.com/application-security-training-platform)\n\nJoin us at any skill level to find, exploit, and fix vulnerabilities at the code level across a number of languages! Capture-The-Flag (CTF's) are intentionally vulnerable platforms designed to educate and challenge it's participants. Members will be available to provide support if you're feeling stuck - it's part of the fun.\n\nPlease join us whether you plan to participate or not! Lite refreshments will be served, and all of our members love to talk shop on any given day.\n\n[Sign Up Here!!!](https://docs.google.com/forms/d/e/1FAIpQLSfCB5E3EGgF1t275oOzNz4zx-XjT5FkkwVJZqzGmOp1FhSWeQ/viewform)\n\nCan't wait to see you there! Prizes will be awarded in certain categories, and remote participation will be available. Only in-person attendees can win prizes, but the remote CTF will be available to learn on for 3 days from launch.\n\n-Higgs\n\n**Please note**: To populate and login to the platform, you will need to RSVP for this event with the above form with an email address you control. This email address will be pre-shared with Security Journey. [Their Privacy Policy can be found here. ](https://www.securityjourney.com/privacy)"
+    },
+    {
+        "group": "Rewa",
+        "repo": "www-chapter-rewa",
+        "name": "Biometric Authentication in Fintech: Enhancing Security in Digital Banking",
+        "date": "2024-11-05",
+        "time": "16:00+05:30",
+        "link": "https://www.meetup.com/owasp-rewa-chapter/events/304159235",
+        "timezone": "Asia/Kolkata",
+        "description": "Biometric authentication uses unique biological traits like fingerprints, facial recognition, or iris scans to verify a user\u2019s identity, offering a highly secure alternative to traditional passwords. In fintech, this technology is increasingly adopted by digital banking platforms to enhance security, reduce fraud, and streamline user experience. By leveraging biometrics, fintech companies can offer faster, more reliable authentication methods, reducing the risk of hacking or identity theft. However, concerns around data privacy, storage, and potential misuse of biometric data also need to be addressed to ensure trust and compliance."
     },
     {
         "group": "Scotland",
