@@ -66,7 +66,7 @@ extensively tested to be sure that there is no way to bypass it. This testing re
 Some specific access control issues include:
 
 - **Insecure Id’s** – Most web sites use some form of id, key, or index as a way to reference users, roles, content, objects, or
-functions. If an attacker can guess these id’s, and the supplied values are not validated to ensure the are authorized for the
+functions. If an attacker can guess these id’s, and the supplied values are not validated to ensure they are authorized for the
 current user, the attacker can exercise the access control scheme freely to see what they can access. Web applications should not rely
 on the secrecy of any id’s for protection.
 - **Forced Browsing Past Access Control Checks** – many sites require users to pass certain checks before being granted access to certain
