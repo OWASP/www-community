@@ -10,6 +10,16 @@
         "description": "**19:00 \u2013 19:10** \\- Welcome and Introduction by Cloud\\-Native and OWASP Aarhus\n\n**19:10 \u2013 19:55** \\- \"Securing the DevOps Pipeline: CI/CD Flaws and Supply Chain Threats\" by Mike Larsen\n\n\u201cThe software supply chain is under siege by sophisticated adversaries. High-profile breaches, such as 3CX's compromised CI/CD pipeline\u2014where the North Korean Lazarus Group injected malicious code into widely used apps\u2014the JetBrains TeamCity exploit, where Russian state-sponsored actors gained unauthorized admin control without user interaction, and Sisense's exposure of critical credentials through unsecured GitLab repositories, highlight alarming vulnerabilities in development workflows.\nWe'll explore how these threat actors exploit flaws in CI/CD processes. Drawing on CloudNative's experience, we'll provide strategies to strengthen your DevOps pipeline without sacrificing agility.\u201d\n\n**19:55 \u2013 20:10** \\- Network break with coffee\\, tea\\, water and snacks\\.\n\n**20:10 \u2013 20:55** \\- \"Bring diversity and inclusion to tech\" by Lise Lystlund\n\n\"The tech community excels at knowledge sharing and supporting one another. Without hesitation, people from across the globe dedicate time to help others solve coding problems. To me, this reflects a welcoming and collaborative community that anyone would want to be a part of. Tech is also an appealing field, offering numerous workplace benefits and opportunities for growth. Yet, despite these advantages, the industry continues to struggle with attracting women. How is it that a group representing 50% of the population remains so underrepresented in tech\u2014and, more importantly, what can we do to change this?\"\n\n**20:55 \u2013 21:00** \\- Closing Remarks by OWASP Aarhus and Cloud Native"
     },
     {
+        "group": "Augsburg",
+        "repo": "www-chapter-augsburg",
+        "name": "6. OWASP Augsburg Stammtisch",
+        "date": "2024-11-27",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/304187062",
+        "timezone": "Europe/Berlin",
+        "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Agenda tbd**\nDu hast einen Vortrag? Melde dich! Wir sind immer auf der Suche nach interessanten Inhalten!!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+    },
+    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BE chapter meeting (14/11/2024, Mechelen)",
@@ -78,6 +88,16 @@
         "link": "https://www.meetup.com/owasp-france/events/304124138",
         "timezone": "Europe/Paris",
         "description": "Ce meetup se deroulera chez **Escape** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+    },
+    {
+        "group": "Frankfurt",
+        "repo": "www-chapter-frankfurt",
+        "name": "OWASP Frankfurt Chapter #69 - Software Maturity Model and Security Champions",
+        "date": "2024-11-27",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/303263383",
+        "timezone": "Europe/Berlin",
+        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #69! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics. Anyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\n\n*What are we going to talk about?*\n\n**DSOMM and AppSec Program:** We are excited to welcome Timo Pagel, Cloud and Web Security Architect at PagelShield, a core member of the OWASP Germany Chapter, and contributor to various OWASP projects. Timo will discuss the DevSecOps Maturity Model (DSOMM) and how it can help kick-start your application security program. We will also have another speaker joining us for this event\u2014details to be announced soon!\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks. For those interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n*When?* Our Meetup takes place on **27.11.2024** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at CHECK24 AG, located at Speicherstra\u00dfe 55, 60327 Frankfurt am Main.\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
     },
     {
         "group": "Frankfurt",
@@ -278,6 +298,26 @@
         "link": "https://www.meetup.com/owasp-warwick/events/303783244",
         "timezone": "Europe/London",
         "description": "OWASP Warwick is back for the 2nd event this year. Please come and join us for some good talks and free food !!!\n\n#### TALKS\n\n#1: **Breaking and Defending LLMs: security of state-of-the-art AI systems** \\- Lukasz Bartoszcze \\(University of Warwick\\, Cyber Security Research Group\\)\n#2: **Come to me** \\- Neil Lines \\(NCC\\)"
+    },
+    {
+        "group": "Yerevan",
+        "repo": "www-chapter-yerevan",
+        "name": "OWASP Yerevan October meetup - Jey Hett, Tigran Abgaryan, Samvel Martirosyan",
+        "date": "2024-10-30",
+        "time": "19:00+04:00",
+        "link": "https://www.meetup.com/owasp-yerevan/events/304248731",
+        "timezone": "Asia/Yerevan",
+        "description": "OWASP Yerevan October meetup agenda:\n\n1. Linux boot process from start button to Graphics - Jey Hett, Cifora\n2. Digital Ruble - Tigran Abgaryan, T-Bank (ex-Tinkoff)\n3. Why even dumb phishing still perfectly works - Samvel Martirosyan\n\nLocation: American University of Armenia\nRoom number 314W in Paramaz Avedisian building (PAB, second/new building)."
+    },
+    {
+        "group": "Wrongsecrets",
+        "repo": "www-project-wrongsecrets",
+        "name": "OWASP Frankfurt Chapter #69 - Software Maturity Model and Security Champions",
+        "date": "2024-11-27",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/303263383",
+        "timezone": "Europe/Berlin",
+        "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #69! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics. Anyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\n\n*What are we going to talk about?*\n\n**DSOMM and AppSec Program:** We are excited to welcome Timo Pagel, Cloud and Web Security Architect at PagelShield, a core member of the OWASP Germany Chapter, and contributor to various OWASP projects. Timo will discuss the DevSecOps Maturity Model (DSOMM) and how it can help kick-start your application security program. We will also have another speaker joining us for this event\u2014details to be announced soon!\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks. For those interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n*When?* Our Meetup takes place on **27.11.2024** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at CHECK24 AG, located at Speicherstra\u00dfe 55, 60327 Frankfurt am Main.\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
     },
     {
         "group": "Wrongsecrets",
