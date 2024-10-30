@@ -1,15 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - October",
-        "date": "2024-10-29",
-        "time": "19:00+01:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299786128",
-        "timezone": "Europe/Copenhagen",
-        "description": "**19:00 \u2013 19:10** \\- Welcome and Introduction by Cloud\\-Native and OWASP Aarhus\n\n**19:10 \u2013 19:55** \\- \"Securing the DevOps Pipeline: CI/CD Flaws and Supply Chain Threats\" by Mike Larsen\n\n\u201cThe software supply chain is under siege by sophisticated adversaries. High-profile breaches, such as 3CX's compromised CI/CD pipeline\u2014where the North Korean Lazarus Group injected malicious code into widely used apps\u2014the JetBrains TeamCity exploit, where Russian state-sponsored actors gained unauthorized admin control without user interaction, and Sisense's exposure of critical credentials through unsecured GitLab repositories, highlight alarming vulnerabilities in development workflows.\nWe'll explore how these threat actors exploit flaws in CI/CD processes. Drawing on CloudNative's experience, we'll provide strategies to strengthen your DevOps pipeline without sacrificing agility.\u201d\n\n**19:55 \u2013 20:10** \\- Network break with coffee\\, tea\\, water and snacks\\.\n\n**20:10 \u2013 20:55** \\- \"Bring diversity and inclusion to tech\" by Lise Lystlund\n\n\"The tech community excels at knowledge sharing and supporting one another. Without hesitation, people from across the globe dedicate time to help others solve coding problems. To me, this reflects a welcoming and collaborative community that anyone would want to be a part of. Tech is also an appealing field, offering numerous workplace benefits and opportunities for growth. Yet, despite these advantages, the industry continues to struggle with attracting women. How is it that a group representing 50% of the population remains so underrepresented in tech\u2014and, more importantly, what can we do to change this?\"\n\n**20:55 \u2013 21:00** \\- Closing Remarks by OWASP Aarhus and Cloud Native"
-    },
-    {
         "group": "Augsburg",
         "repo": "www-chapter-augsburg",
         "name": "6. OWASP Augsburg Stammtisch",
@@ -18,6 +8,16 @@
         "link": "https://www.meetup.com/owasp-augsburg-chapter/events/304187062",
         "timezone": "Europe/Berlin",
         "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Agenda tbd**\nDu hast einen Vortrag? Melde dich! Wir sind immer auf der Suche nach interessanten Inhalten!!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+    },
+    {
+        "group": "Belgium",
+        "repo": "www-chapter-belgium",
+        "name": "OWASP BeNeLux Days 2024",
+        "date": "2024-11-28",
+        "time": "09:00+01:00",
+        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/304003498",
+        "timezone": "Europe/Brussels",
+        "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2024\" edition on November 28th and 29th in Utrecht, the Netherlands.\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
         "group": "Belgium",
@@ -180,6 +180,16 @@
         "description": "Want to learn more about the most successfully attacked industry in the world? Here\u2019s your chance!\n\nHealthcare organizations are facing a digital storm. Cyberattacks are increasingly successful, targeting sensitive patient data, disrupting critical services, and putting lives at risk. Facing a growing threat landscape due to increasing reliance on interconnected technologies (including IoT, IoMT, OT and IT systems), many hospitals are struggling to recover from decades of accumulated cybersecurity debt.\n\nThis presentation will explore the root causes of healthcare cyberattacks, providing real-world examples and discussing the technical vulnerabilities that make organizations prime targets. Attendees will gain insights into the emerging guidance and strategies for improving healthcare cybersecurity, as well as the debate surrounding the need for regulation in this critical sector. We will also examine the significant financial and reputational costs associated with cyberattacks and delve into the motivations and tactics of the attackers themselves.\n\nJoin OWASP Nashville and Chad Holmes as we dive deep into the world of healthcare cybersecurity. We'll explore the root causes of cyberattacks, examine real-world examples, and discuss the technical vulnerabilities that make hospitals prime targets."
     },
     {
+        "group": "Netherlands",
+        "repo": "www-chapter-netherlands",
+        "name": "OWASP BeNeLux Days 2024",
+        "date": "2024-11-28",
+        "time": "09:00+01:00",
+        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/303987709",
+        "timezone": "Europe/Amsterdam",
+        "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2024\" edition on November 28th and 29th in Utrecht, the Netherlands.\n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
+    },
+    {
         "group": "New Zealand",
         "repo": "www-chapter-new-zealand",
         "name": "OWASP New Zealand - Auckland Meetup",
@@ -213,21 +223,21 @@
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
+        "date": "2024-11-28",
+        "time": "19:00Z",
+        "link": "https://www.meetup.com/owasp-peterborough/events/303254411",
+        "timezone": "Europe/London",
+        "description": "It's music night! Come join us for live music and great chat. \n\nThirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
+        "name": "Monthly Networking Social",
         "date": "2024-10-31",
         "time": "19:00Z",
         "link": "https://www.meetup.com/owasp-peterborough/events/303804732",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
-    },
-    {
-        "group": "Philadelphia",
-        "repo": "www-chapter-philadelphia",
-        "name": "Secure Code CTF w/ Security Journey",
-        "date": "2024-10-29",
-        "time": "19:30-04:00",
-        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/304142409",
-        "timezone": "America/New_York",
-        "description": "Friends! Were you afraid we would not have a Security Awareness Month Meeting? Ha! You knew better!\n\nWhat's more is that we are pleased to present a Secure Code Capture-The-Flag challenge with [Security Journey!](https://www.securityjourney.com/application-security-training-platform)\n\nJoin us at any skill level to find, exploit, and fix vulnerabilities at the code level across a number of languages! Capture-The-Flag (CTF's) are intentionally vulnerable platforms designed to educate and challenge it's participants. Members will be available to provide support if you're feeling stuck - it's part of the fun.\n\nPlease join us whether you plan to participate or not! Lite refreshments will be served, and all of our members love to talk shop on any given day.\n\n[Sign Up Here!!!](https://docs.google.com/forms/d/e/1FAIpQLSfCB5E3EGgF1t275oOzNz4zx-XjT5FkkwVJZqzGmOp1FhSWeQ/viewform)\n\nCan't wait to see you there! Prizes will be awarded in certain categories, and remote participation will be available. Only in-person attendees can win prizes, but the remote CTF will be available to learn on for 3 days from launch.\n\n-Higgs\n\n**Please note**: To populate and login to the platform, you will need to RSVP for this event with the above form with an email address you control. This email address will be pre-shared with Security Journey. [Their Privacy Policy can be found here. ](https://www.securityjourney.com/privacy)"
     },
     {
         "group": "Rewa",
@@ -250,16 +260,6 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "OWASP Stockholm - Secure Software Development Evening",
-        "date": "2024-10-29",
-        "time": "17:00+01:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/304021162",
-        "timezone": "Europe/Stockholm",
-        "description": "It's time for our next OWASP monthly event and on this occasion in keeping with security awareness month we will be looking at a core concern of OWASP; secure development.\n\nWe will have 2 speakers. First up is Johan Persson from Consid, talking about:\n\n**Principles for Secure Development**\nIn this session Johan will provide a 45min overview of how a development team should think and work around security throughout the entire life cycle of system development. The presentation will go through things like security connected to development environments, code repos, pipelines, etc.\n\nJohan will be followed by Fredrik Klas\u00e9n from Snyk discussing:\n\n**Commonly Observed AI Security Issues While Using GenAI Tools in Software Development**\nFredrik will spend around 30 minutes discussing how AI-assisted coding increases your delivery speed and efficiency, but also bring risks. Fredrik will present an overview of AI in software development and commonly observed AI security issues while using GenAI tools to produce code and then exploit it. You\u2019ll also get an insight into strategies for mitigation of AI introduced threats.\n\nWe will start the evening with a mingle at 17:30 followed by the first presentation that will start at 18:00. After the first talk there will be a 5 min break followed by the second presentation. The second talk will be followed by a further mingle/time. Light refreshments and snacks will be provided\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcoming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
-    },
-    {
         "group": "Toronto",
         "repo": "www-chapter-toronto",
         "name": "OWASP Toronto | Inference Servers: new technology, same old security flaws.",
@@ -268,16 +268,6 @@
         "link": "https://www.meetup.com/owasp-toronto/events/303805690",
         "timezone": "America/Toronto",
         "description": "\\*\\* The event is hosted at 111 Peter St Suite 804, Toronto, ON M5V 2H1 \\*\\*\n\n**TALK**\n**\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-**\n\n**Inference Servers: new technology, same old security flaws.**\n\n**Summary:**\n\nAI and LLM based applications are taking the industry by storm. While a lot time is spent on evaluating prompt injection, there is an entire ecosystem of applications that allow models to be run and used. These applications have their own important security considerations that you may not be aware of.\nInference Servers are used to host machine learning models and expose APIs that allow other components to perform inference on those models. These servers often expose additional APIs that allow users to load new models. Often, this can be abused to perform remote code execution. While this technology is new, the baseline security configurations for many of these products are a relic from the past.\nIn this talk we\u2019ll learn about what an inference server is, how they work, and how you can achieve remote code execution in them. This talk is mainly focused on the practical security risks involved in this ecosystem. Finally, I will share details about a couple of CVEs related to TorchServe\n\n**Presenters:**\n\nPratik Amin has been an Application Security practitioner for over 15 years. He currently works as a Principal Security Consultant at Kroll (previously Security Compass Advisory). In this role, he spends most of his time performing AppSec pentests and digging into interesting technology."
-    },
-    {
-        "group": "Uruguay",
-        "repo": "www-chapter-uruguay",
-        "name": "OWASP Meetup - Octubre",
-        "date": "2024-10-29",
-        "time": "17:00-03:00",
-        "link": "https://www.meetup.com/owasp-uruguay-chapter/events/304077194",
-        "timezone": "America/Montevideo",
-        "description": "**\u00a1OWASP UY te invita a su pr\u00f3ximo Meetup!**\n\n**Diego Rosa y Guillermo Jacobi**\n\u00bfQu\u00e9 conocen de nuestra organizaci\u00f3n que nosotros no sabemos? \u2013 Huella Digital\n\n**Gerardo Canedo**\nSecure Coding Dojo: El primer paso en el desarrollo seguro\n\n**\u00bfCu\u00e1ndo?** Martes 29/10, 17:00.\n**\u00bfD\u00f3nde?** Willinn, Zonamerica, Ruta 8 km 17.500 Edificio Explora.\n**\u00bfC\u00f3mo participar?** Simplemente te registras al evento. Los cupos son limitados por capacidad del lugar. Si est\u00e1s en lista de espera ser\u00e1s notificado cuando se liberen lugares.\n\n**\u00a1Te esperamos!**"
     },
     {
         "group": "Vancouver",
