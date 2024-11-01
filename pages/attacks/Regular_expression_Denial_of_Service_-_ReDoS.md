@@ -167,8 +167,8 @@ will hang.
 
 ## References
 
-- [Regular Expression Denial Of Service / Crosby&Wallach, Usenix Security 2003](http://www.cs.rice.edu/~scrosby/hash/slides/USENIX-RegexpWIP.2.ppt)
-- [Regular expression Denial of Service Revisited, Sep-2009](http://www.checkmarx.com/NewsDetails.aspx?id=23&cat=3)
+- [Regular Expression Denial Of Service / Crosby&Wallach, Usenix Security 2003](https://web.archive.org/web/20031120114522/https://www.cs.rice.edu/~scrosby/hash/slides/USENIX-RegexpWIP.2.ppt)
+- [Regular expression Denial of Service Revisited, Sep-2009](https://web.archive.org/web/20091007100653/http://www.checkmarx.com/Upload/Documents/PDF/Checkmarx_OWASP_IL_2009_ReDoS.pdf)
 - [RegExLib](http://regexlib.com/)
 - [ReDOS Attacks: From the Exploitation to the Prevention (in .NET)](https://dzone.com/articles/regular-expressions-denial)
 - [Tool for detecting ReDoS vulnerabilities.](https://web.archive.org/web/20211027135828/https://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
