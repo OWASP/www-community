@@ -50,6 +50,16 @@
         "description": "This month we will be welcoming Jim Manico, a form OWASP Global Board Member and long time project contributor, to our meetup. Doors open at 6:30pm and the presentation starts at 7pm. Pizza and soda will be provided.\n\nJim will be presenting as part of our \"Learn about OWASP Projects\" series on his project team's project, the OWASP ASVS & Cheat Sheet Series . In this session you will learn:\n\n1) How was the project started?\n2) About the project and goals\n3) How can one help, volunteer /sponsor?\n4) Existing Team\n\nJim Manico is the founder of Manicode Security, where he trains software developers on secure coding and security engineering. He is also an investor/advisor for 10Security, Aiya, MergeBase, Nucleus Security, KSOC, and Inspectiv. Jim is a frequent speaker on secure software practices, is a member of the Java Champion community, and is the author of \u201cIron-Clad Java: Building Secure Web Applications\u201d from Oracle Press. Jim also volunteers for the OWASP foundation as the project lead for the OWASP Application Security Verification Standard and the OWASP Cheatsheet Series. For more information, see [https://www.linkedin.com/in/jmanico](https://www.linkedin.com/in/jmanico)."
     },
     {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "API Security Workshop with OWASP crAPI (hands-on)",
+        "date": "2024-11-12",
+        "time": "17:30+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/304354630",
+        "timezone": "Australia/Brisbane",
+        "description": "In today's rapidly digitalizing world, Application Programming Interfaces (APIs) are the backbone of communication in the vast landscape of web services, cloud applications, and microservices.\nWith this increased usage comes the inevitable rise of security threats targeting APIs. This workshop aims to arm participants with practical knowledge and hands-on experience to secure APIs effectively.\nIn this workshop, we will be using OWASP crAPI (completely ridiculous API), a purposely insecure API, to demonstrate common API vulnerabilities and their mitigations. We will discuss the 'Shift Left' approach in API security, emphasizing the importance of integrating security measures early in the development lifecycle. Participants will learn to identify, exploit, and secure API vulnerabilities, equipping them with the necessary skills to build more secure\napplications.\n\n**Requirements**:\n1\\. Active Participation: The workshop will be highly interactive\\. Questions\\, comments\\, and sharing of experiences are strongly encouraged\\.\n2\\. Laptop: As this is an in\\-person workshop\\, please bring along your laptop with any API testing tool installed\\.\n3\\. Pre\\-workshop Material: On confirmation of your attendance\\, you will receive some pre\\-workshop reading materials\\. We recommend reviewing these before the event to maximize your learning experience\\."
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Security Journey CTF",
@@ -238,16 +248,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539101",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Tirunelveli",
-        "repo": "www-chapter-tirunelveli",
-        "name": "Docker Webinar - OWASP & Null Community of Tirunelveli",
-        "date": "2024-11-03",
-        "time": "19:00+05:30",
-        "link": "https://www.meetup.com/owasp-tirunelveli-chapter/events/304273506",
-        "timezone": "Asia/Kolkata",
-        "description": "An beginner friendly webinar on **Docker** hosted by combined chapters of **OWASP and NULL community of Tirunelveli**"
     },
     {
         "group": "Vancouver",
