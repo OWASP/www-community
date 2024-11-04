@@ -1845,12 +1845,21 @@
       "type": "SAST"
    },
    {
-      "title": "Aikido Security",
+      "title": "Aikido SAST",
       "url": "https://aikido.dev",
       "owner": "Aikido Security",
       "license": "Commercial or Free",
-      "platforms": "SaaS",
-      "note": "Aikido Security is a developer-friendly software security platform. It scans your code, containers & cloud in 9 different ways, showing you which security issues and vulnerabilities are actually important to solve. We speed up triaging massively by cutting out the false-positives, and making things human-readable.",
+      "platforms": "SaaS, On-Premises",
+      "note": "Aikido Security is a developer-friendly software security platform that combines multiple different scanners to deliver real-time alerts in a central system",
+      "type": "SAST"
+   },
+   {
+      "title": "Aikido DAST",
+      "url": "https://www.aikido.dev/scanners/surface-monitoring-dast",
+      "owner": "Aikido Security",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, On-Premises, IDE Plugin",
+      "note": "Aikido Security is a developer-friendly software security platform that combines multiple different scanners to deliver real-time alerts in a central system",
       "type": "SAST"
    },
    {
