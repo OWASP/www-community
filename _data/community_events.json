@@ -27,7 +27,7 @@
         "time": "19:00+01:00",
         "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/303275189",
         "timezone": "Europe/Brussels",
-        "description": "On November 14th, we organize our next OWASP Belgium chapter meeting in Lamot (Mechelen).\n\nThis event is co-located with the [CyberSecurity event \"Strategic Research and Industry Impact\"](https://cybersecurity-research.be/event/cybersecurity-strategic-research-and-industry-impact).\n\n**Agenda**:\n\n* 17h30-19h: networking drink\n* 19h-19h10: **OWASP update**\n* 19u10-20h00: **A Mobile Security Crash Course: Application Security, Resilience, and Malware** (by Jeroen Beckers, NVISO)\n* 20h00-20h30: **TBD**\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
+        "description": "On November 14th, we organize our next OWASP Belgium chapter meeting in Lamot (Mechelen).\n\nThis event is co-located with the [CyberSecurity event \"Strategic Research and Industry Impact\"](https://cybersecurity-research.be/event/cybersecurity-strategic-research-and-industry-impact).\n\n**Agenda**:\n\n* 17h30-19h: networking drink\n* 19h-19h10: **OWASP update**\n* 19u10-20h00: **A Mobile Security Crash Course: Application Security, Resilience, and Malware** (by Jeroen Beckers, NVISO)\n* 20h00-20h30: **LanShield: Control your apps, defend your network** (by Jeroen Robben and Angelos Beitis, DistriNet, KU Leuven)\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
     },
     {
         "group": "Bhopal",
@@ -90,6 +90,16 @@
         "description": "In today's rapidly digitalizing world, Application Programming Interfaces (APIs) are the backbone of communication in the vast landscape of web services, cloud applications, and microservices.\nWith this increased usage comes the inevitable rise of security threats targeting APIs. This workshop aims to arm participants with practical knowledge and hands-on experience to secure APIs effectively.\nIn this workshop, we will be using OWASP crAPI (completely ridiculous API), a purposely insecure API, to demonstrate common API vulnerabilities and their mitigations. We will discuss the 'Shift Left' approach in API security, emphasizing the importance of integrating security measures early in the development lifecycle. Participants will learn to identify, exploit, and secure API vulnerabilities, equipping them with the necessary skills to build more secure\napplications.\n\n**Requirements**:\n1\\. Active Participation: The workshop will be highly interactive\\. Questions\\, comments\\, and sharing of experiences are strongly encouraged\\.\n2\\. Laptop: As this is an in\\-person workshop\\, please bring along your laptop with any API testing tool installed\\.\n3\\. Pre\\-workshop Material: On confirmation of your attendance\\, you will receive some pre\\-workshop reading materials\\. We recommend reviewing these before the event to maximize your learning experience\\."
     },
     {
+        "group": "Cleveland",
+        "repo": "www-chapter-cleveland",
+        "name": "OWASP Cleveland: Security Roundtable",
+        "date": "2024-11-12",
+        "time": "18:30-05:00",
+        "link": "https://www.meetup.com/owasp-cleveland-group/events/304415299",
+        "timezone": "America/New_York",
+        "description": "We\u2019ll be gathering on Tuesday, 11/12, at Market Avenue Wine Bar for a discussion on all things information and application security. Charles Bickel will be speaking on how he found multiple CVEs and how you can too. This will be a roundtable-style meetup, offering a chance to connect with others and talk security."
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Security Journey CTF",
@@ -140,16 +150,6 @@
         "description": "**OWASP Gothenborg Chapter invites you to an evening of security and entertainment!**\n\nCome hang out, grab a beer, and play arcade games with other security minded people! The event is open to anyone, but people on the guest list will receive arcade tokens from our sponsor KITS (if they show up before 18:30, or the tokens will be given to others).\n\nWhen: Wednesday 20/11 17:30 - 21:30\nWhere: Zamenhof, Esperantoplatsen 5, 411 19 G\u00f6teborg"
     },
     {
-        "group": "Indianapolis",
-        "repo": "www-chapter-indianapolis",
-        "name": "Indy OWASP November 2024 Meetup",
-        "date": "2024-11-06",
-        "time": "18:00-05:00",
-        "link": "https://www.meetup.com/indyowasp/events/303946344",
-        "timezone": "America/New_York",
-        "description": "**Talk 1**\n\n**Title:** Prompt Injection with Damn Vulnerable LLM\n\n**Synopsis:** Join us for an insightful OWASP event dedicated to exploring the OWASP Top 10 for Large Language Model Applications! Dive into the latest vulnerabilities impacting GenAI-driven systems, focusing on prompt injection attacks. We'll also showcase the Damn Vulnerable LLM, a hands-on tool designed to illustrate prompt injection in real-time specifically. This meetup is perfect for developers, security professionals, and anyone interested in safeguarding GenAI applications. Don't miss this opportunity to enhance your understanding of LLM security and network with fellow enthusiasts!\n\n**Speaker:** Justin Baxtron\n\n**Bio:** Bio: Justin Baxtron has worked in the information security field for over 10 years as a consultant and engineer. He holds a GIAC Web Application Penetration Tester (GWAPT) certification and focuses on application security assessments, as well as software engineering.\n\n**Talk 2**\n\n**Title:** I Hope No One Finds Out I'm a Fraud: Dealing with Imposter Syndrome\n\n**Synopsis:**\nImposter syndrome is a real issue in professional life. It can seriously impact mental health and professional growth\u2014especially in the security industry, surrounded by ever-changing technologies and other super-smart people. I will discuss the aspects of this issue, its impacts, and some strategies to overcome it, both for yourself and others.\n\n**Speaker:** Damian (@integrisec) Profancik\n\n**Bio:** Damian Profancik has worked as a server/network infrastructure and security consultant for more than 24 years with over the last 14+ years solely focused on information security as an Application Security Manager at Match Group, Technical Director at Optiv Security, Inc. focused on Application Security, Global Security Associate Partner and North American Regional Lead at IBM X- Force Red, Director of Application Security at Lares Consulting, Director of Security Services at iLAB, and a Principal Security Consultant at both NCC Group (formerly iSEC Partners) and Trustwave SpiderLabs.\n\nHis main focus has been on application security and vulnerability research. He has worked in this capacity both independently and for numerous companies ranging from small businesses to Fortune 100 enterprises. His work has included application penetration testing, network penetration testing, design review, and code review in 28 different computer languages.\n\nHe is actively involved in the Information Security community through speaking engagements at events such as DerbyCon, ShmooCon, CircleCityCon, OWASP, and ISSA, and he is a co-leader for the local OWASP chapter, one of the organizers for CircleCityCon, and co-founder for BSides Bloomington.\n\nVenue, food, and refreshments provided by Guidepoint."
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -187,7 +187,7 @@
         "time": "17:30-08:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/300687868",
         "timezone": "America/Los_Angeles",
-        "description": "/\\*\\* NEW DATE NEW DATE NEW DATE \\*\\*/\n**TOPIC**: State of Pentesting 2024\nJoin us for great networking, dinner and drinks, and see a presentation by **Carolyn Wang**, Chief Strategy Officer at Cobalt.\n\n**ABSTRACT**:\nIn the sixth annual installment of State of Pentesting 2024, Cobalt shares data and insights from more than 4000 manual pentest engagements performed in 2023, resulting in more than 39,000 security vulnerability findings. Caroline will present the data as well as commentary on artificial intelligence and offensive security.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
+        "description": "/\\*\\* NEW DATE NEW DATE NEW DATE \\*\\*/\n**TOPIC**: State of Pentesting 2024\nJoin us for great networking, dinner and drinks, and see a presentation by **Caroline Wong**, Chief Strategy Officer at Cobalt.\n\n**ABSTRACT**:\nIn the sixth annual installment of State of Pentesting 2024, Cobalt shares data and insights from more than 4000 manual pentest engagements performed in 2023, resulting in more than 39,000 security vulnerability findings. Caroline will present the data as well as commentary on artificial intelligence and offensive security.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
     },
     {
         "group": "Nashville",
@@ -272,12 +272,12 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver Monthly Meetup",
+        "name": "Building tools using eBPF to trace applications / containers",
         "date": "2024-11-21",
         "time": "18:00-08:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/298516385",
         "timezone": "America/Vancouver",
-        "description": "TBD"
+        "description": "**Building tools using eBPF to trace applications / containers** with **Adam Harrison**\n\neBPF is a revolutionary technology that can help solve a variety of use-cases. This talk will provide an introduction to building tools with eBPF, and show how it can be leveraged in the application and network security space."
     },
     {
         "group": "Vilnius",
@@ -288,6 +288,16 @@
         "link": "https://www.meetup.com/owasp-vilnius/events/304394672",
         "timezone": "Europe/Vilnius",
         "description": "Hello OWASP Vilnius community!\n\nIt's been a while and I'm super happy to announce, that there will be a physical event again organised at the new Visma Tech office in Artery Vilnius ! Beer and snacks guaranteed :)\n\nSave the date in your calendars: Thursday, November 21st.\n\nMore information soon.\n\nSee you soon!\n-Dominykas"
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "November community call - OWASP SAMM",
+        "date": "2024-11-13",
+        "time": "14:30-05:00",
+        "link": "https://www.meetup.com/owasp-samm/events/304423838",
+        "timezone": "America/New_York",
+        "description": "During our next community call we share highlights from our last project summit. As always, we'll have time for Q&A"
     },
     {
         "group": "Wrongsecrets",
