@@ -10,6 +10,16 @@
         "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Agenda tbd**\nDu hast einen Vortrag? Melde dich! Wir sind immer auf der Suche nach interessanten Inhalten!!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
     },
     {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "November Meet",
+        "date": "2024-11-13",
+        "time": "17:30-08:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/304430938",
+        "timezone": "America/Los_Angeles",
+        "description": "Join us for Bay Area OWASP's upcoming event, Great talks, delicious food Courtesy our sponsors Endor Labs. Get ready for insightful discussions and the chance to network with some of the brightest minds in the industry.\n\n**Agenda:**\n5:30 - 6:00: Doors open, networking and food\n6:00 - 6:45: **Start Clean with AI: Select Safer LLMs**\n6:45 - 7:30: **AI && Patterns for SAST Automation.**\n\n**Talk#1 Start Clean with AI: Select Safer LLMs**\nThis talk will cover practical information that every developer that works with AI and AI models needs to be aware of. AI models have both similarities as well as important differences than OSS package dependencies. We will discuss ways that AI models can introduce both operational and security risk, and practical ways of managing this risk. As well as cover why it is really difficult to gain visibility into an AI model and some nascent industry efforts to address the problem.\n\n**Speaker:- George Apostolopoulos - Endor Labs Engineering**\n20+ years of experience in building and delivering networking and security products with emphasis on innovation. 6+ years of hands-on experience in large scale security analytics and machine learning for cybersecurity including a key role in one of the first machine learning based security products in the market.\n\nTalk#2 **AI && Patterns for SAST Automation.**\nDescription:- TBD\n\nSpeaker: Bogdan Barchuk, SSCP. CISP. CISM. OSCP. OSCE.. OSCW. WAPT. CREST and OSWE. Bogdan is a seasoned pentester with keen interest in Offesive security"
+    },
+    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BeNeLux Days 2024",
@@ -120,9 +130,29 @@
         "description": "Mobile App Pentesting for Fun and Profit\n\nWelcome to the thrilling world of mobile app pentesting! This session will equip you with the skills to uncover vulnerabilities in mobile applications. Whether you\u2019re a seasoned pro or a curious newcomer, prepare for an adventure in cybersecurity."
     },
     {
+        "group": "Delaware",
+        "repo": "www-chapter-delaware",
+        "name": "Local cybersecurity conference Nov 8-9, 2024 - BSides Delaware",
+        "date": "2024-11-08",
+        "time": "09:00-05:00",
+        "link": "https://www.meetup.com/owasp-delaware-chapter/events/304437381",
+        "timezone": "America/New_York",
+        "description": "We are promoting another group's event with this post.\n**This event is both Friday and Saturday, Nov 8-9, 2024.**\n\n**More details and registration at:** [https://bsidesdelaware.com/](https://bsidesdelaware.com/)\n*It is not a free event, but it is very low cost ($20).*\n\n**BSides Delaware tl;dr:** Cool, chill, local, inexpensive, family-friendly cybersecurity annual event. This year on campus at UD.\n\nWe promote collaboration through engaging talks, demonstrations, and interactive sessions, creating a vibrant setting where innovative ideas and conversations flourish.\n\nEach BSides is a community-driven framework for building events for and by information security community members. The goal is to expand the spectrum of conversation beyond the traditional confines of space and time. It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening."
+    },
+    {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Denver OWASP November Meetup - Join Us!",
+        "date": "2024-11-20",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-denver-chapter/events/304436398",
+        "timezone": "America/Denver",
+        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on November 20th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\nThis month's presentation is brought to you by Mend.io!\n\n**Presentation:**\nFrom Reactive to Effective: Building Application Security that Works\n\n**Abstract**:\nIn 2023, 71% of enterprises admitted their AppSec programs were reactive, playing catch-up with vulnerability alerts -\u2013 while at the same time, applications remain the top target for threat actors. That adds up to increased business risk for a lot of companies and fuels an urgent need to improve application security strategies. But how?\nThe key is to move from a compliance-based approach to managing application risk.\nJoin us for an in-depth discussion of what it takes to stop playing defense when it comes to application security. He'll wrangle over topics like:\n\n* The tell-tale signs of reactive mode\n* The value of preventative best practices\n* How to build security actions into the developer experience\n* The need for a holistic view and effective prioritization\n* Arming the security team with instant control at scale"
+    },
+    {
         "group": "Frankfurt",
         "repo": "www-chapter-frankfurt",
-        "name": "OWASP Frankfurt Chapter #69 - Software Maturity Model and Security Champions",
+        "name": "OWASP Frankfurt Chapter #69 - Software Maturity Model and OWASP initiatives",
         "date": "2024-11-27",
         "time": "18:00+01:00",
         "link": "https://www.meetup.com/owasp-frankfurt/events/303263383",
@@ -158,6 +188,16 @@
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242791",
         "timezone": "America/New_York",
         "description": "OWASP topic TBA"
+    },
+    {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #14",
+        "date": "2024-11-09",
+        "time": "10:30+05:30",
+        "link": "https://www.meetup.com/owasp-kolkata/events/304431484",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Proposed sessions for this event:\n\n* How Python Empowers Ethical Hackers by **Supriya Kumar Mitra**\n* Infiltrating the Supply Chain Attack: Advanced Payload Delivery and Evasion Techniques in Red Team Operations by **Arindam Halder**\n* Mission Impossible: Malware Edition - \u201cThe Tools Strike Back\" by **Mohammed Danish Amber**\n* Active Directory Delegation Attacks by **Syed Modassir Ali**"
     },
     {
         "group": "Los Angeles",
@@ -250,14 +290,14 @@
         "description": "It's music night! Come join us for live music and great chat. \n\nThirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "OWASP-SLC/Wasatch AppSec - In-person Meetup (@Thai Land in Draper)",
-        "date": "2024-11-07",
-        "time": "12:00-07:00",
-        "link": "https://www.meetup.com/owasp-slc/events/304282022",
-        "timezone": "America/Denver",
-        "description": "Hi All, wrapping up the year with a casual event where we'll chat about SaintCon and introduce any new members.\n\nMeeting at ***Thai Land*** in Draper for lunch.\n\n**Agenda**:\n\n1. Introductions\n2. Wins & Lessons learned from SaintCon including:\n1. AppSec Community\n2. AppSec Jeopardy\n\nSee you there!\n\n**Location:**\nThai Land\n126 12300 S, Draper, UT 84020\nhttps://maps.app.goo.gl/pP5AhScSGeXJJcFk9"
+        "group": "Philadelphia",
+        "repo": "www-chapter-philadelphia",
+        "name": "OMFG We've been hacked! Cyber Insurance Policy after the Walls Come Down",
+        "date": "2024-11-19",
+        "time": "19:00-05:00",
+        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/304442953",
+        "timezone": "America/New_York",
+        "description": "Last Call!! Woah has it been (almost) a year?! You'd forgive me if I am confused while we experience May weather in November. Anyhow, this will in fact be our last in person meeting for the good year 2024. Please join us for comradery, security, and our final speaker - Mike Briley! There's been quite a buzz (not an OWASP joke) around this one since we announced it way back in September. Close down the year with us with this engaging speaker. Lite refreshments will be served.\n\nThis talk will explore many elements of the cyber insurance industry. Security controls have failed, leading to a system compromise. So now what?! He will discuss what a cyber policy covers and how the process unfolds while taking a deep dive into a real-life claims example."
     },
     {
         "group": "Seattle",
@@ -302,7 +342,7 @@
     {
         "group": "Wrongsecrets",
         "repo": "www-project-wrongsecrets",
-        "name": "OWASP Frankfurt Chapter #69 - Software Maturity Model and Security Champions",
+        "name": "OWASP Frankfurt Chapter #69 - Software Maturity Model and OWASP initiatives",
         "date": "2024-11-27",
         "time": "18:00+01:00",
         "link": "https://www.meetup.com/owasp-frankfurt/events/303263383",
