@@ -41,7 +41,7 @@ See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guid
 
 ### How to Test for SQL Injection Vulnerabilities
 
-See the [OWASP Testing Guide](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection.md) for information on testing for SQL Injection vulnerabilities.
+See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) for information on testing for SQL Injection vulnerabilities.
 
 ### How to Bypass Web Application Firewalls with SQLi
 
