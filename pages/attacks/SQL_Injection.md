@@ -1,12 +1,10 @@
 ---
-
 layout: col-sidebar
 title: SQL Injection
-author: 
-contributors: kingthorin
+author:
+contributors: kingthorin, zbraiterman
 permalink: /attacks/SQL_Injection
 tags: attack, SQL Injection
-
 ---
 
 {% include writers.html %}
@@ -26,9 +24,9 @@ predefined SQL commands.
 
 ## Threat Modeling
 
-- SQL injection attacks allow attackers to spoof identity, tamper with  existing data, cause repudiation issues such as voiding transactions  or changing balances, allow the complete disclosure of all data on  the system, destroy the data or make it otherwise unavailable, and  become administrators of the database server.
-- SQL Injection is very common with PHP and ASP applications due to  the prevalence of older functional interfaces. Due to the nature of  programmatic interfaces available, J2EE and ASP.NET applications are  less likely to have easily exploited SQL injections.
-- The severity of SQL Injection attacks is limited by the attacker’s  skill and imagination, and to a lesser extent, defense in depth  countermeasures, such as low privilege connections to the database  server and so on. In general, consider SQL Injection a high impact  severity.
+- SQL injection attacks allow attackers to spoof identity, tamper with existing data, cause repudiation issues such as voiding transactions or changing balances, allow the complete disclosure of all data on the system, destroy the data or make it otherwise unavailable, or become administrators of the database server.
+- SQL Injection is very common with PHP and ASP applications due to the prevalence of older functional interfaces. Due to the nature of programmatic interfaces available, J2EE and ASP.NET applications are less likely to have easily exploited SQL injections.
+- The severity of SQL Injection attacks is limited by the attacker’s skill and imagination, and to a lesser extent, defense in depth countermeasures, such as low privilege connections to the database server and so on. In general, consider SQL Injection a high impact severity.
 
 ## Related Security Activities
 
@@ -58,10 +56,10 @@ SQL injection attack occurs when:
 
 The main consequences are:
 
-- **Confidentiality**: Since SQL databases generally hold sensitive  data, loss of confidentiality is a frequent problem with SQL Injection vulnerabilities.
-- **Authentication**: If poor SQL commands are used to check user  names and passwords, it may be possible to connect to a system as another user with no previous knowledge of the password.
-- **Authorization**: If authorization information is held in a SQL  database, it may be possible to change this information through the successful exploitation of a SQL  Injection vulnerability.
-- **Integrity**: Just as it may be possible to read sensitive  information, it is also possible to make changes or even delete this  information with a SQL Injection attack.
+- **Confidentiality**: Since SQL databases generally hold sensitive data, loss of confidentiality is a frequent problem with SQL Injection vulnerabilities.
+- **Authentication**: If poor SQL commands are used to check user names and passwords, it may be possible to connect to a system as another user with no previous knowledge of the password.
+- **Authorization**: If authorization information is held in a SQL database, it may be possible to change this information through the successful exploitation of a SQL Injection vulnerability.
+- **Integrity**: Just as it may be possible to read sensitive information, it is also possible to make changes or even delete this information with a SQL Injection attack.
 
 ## Risk Factors
 
