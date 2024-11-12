@@ -2,7 +2,7 @@
 layout: col-sidebar
 title: SQL Injection
 author:
-contributors: kingthorin
+contributors: kingthorin, zbraiterman
 permalink: /attacks/SQL_Injection
 tags: attack, SQL Injection
 ---
