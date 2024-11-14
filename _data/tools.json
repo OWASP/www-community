@@ -1,5 +1,14 @@
 [
       {
+      "title": "ZeroThreat",
+      "url": "https://zerothreat.ai",
+      "owner": "ZeroThreat",
+      "license": "Free",
+      "platforms": "SaaS",
+      "note": "ZeroThreat is a fast web app and API security scanner providing DAST capabilities with modern solutions for modern web applications, and it is free to use.",
+      "type": "DAST"
+   },
+      {
       "title": "Haxore Web Security Scanner",
       "url": "https://haxore.com",
       "owner": "Haxore",
@@ -217,7 +226,7 @@
    },
    {
       "title": "Application Scanning",
-      "url": "https://www.indusface.com/register/web-application-scanning-free-trial.php",
+      "url": "https://www.indusface.com/products/was-platform.php",
       "owner": "Indusface",
       "license": "Free",
       "platforms": "SaaS",
@@ -1773,9 +1782,9 @@
       "type": "DAST"
    },
    {
-      "title": "Kayran",
-      "url": "https://kayran.io/",
-      "owner": "Kayran",
+      "title": "Cytrix",
+      "url": "https://cytrix.io/",
+      "owner": "Cytrix",
       "license": "Commercial",
       "platforms": "All Web Applications Supported",
       "note": "Automatic Penetration Testing for Web Applications & API Schema Penetration Testing",

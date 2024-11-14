@@ -10,16 +10,6 @@
         "description": "**!WANTED! --> Women in IT Security <-- !WANTED!**\n\n**Agenda tbd**\nDu hast einen Vortrag? Melde dich! Wir sind immer auf der Suche nach interessanten Inhalten!!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst einen Talk halten? Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
     },
     {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "November Meet",
-        "date": "2024-11-13",
-        "time": "17:30-08:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/304430938",
-        "timezone": "America/Los_Angeles",
-        "description": "Join us for Bay Area OWASP's upcoming event, Great talks, delicious food Courtesy our sponsors Endor Labs. Get ready for insightful discussions and the chance to network with some of the brightest minds in the industry.\n\n**Agenda:**\n5:30 - 6:00: Doors open, networking and food\n6:00 - 6:45: **Start Clean with AI: Select Safer LLMs**\n6:45 - 7:30: **AI && Patterns for SAST Automation.**\n\n**Talk#1 Start Clean with AI: Select Safer LLMs**\nThis talk will cover practical information that every developer that works with AI and AI models needs to be aware of. AI models have both similarities as well as important differences than OSS package dependencies. We will discuss ways that AI models can introduce both operational and security risk, and practical ways of managing this risk. As well as cover why it is really difficult to gain visibility into an AI model and some nascent industry efforts to address the problem.\n\n**Speaker:- George Apostolopoulos - Endor Labs Engineering**\n20+ years of experience in building and delivering networking and security products with emphasis on innovation. 6+ years of hands-on experience in large scale security analytics and machine learning for cybersecurity including a key role in one of the first machine learning based security products in the market.\n\nTalk#2 **AI && Patterns for SAST Automation.**\nDescription: Whether you're building a security toolkit or looking to enhance an existing SAST implementation, this session will provide actionable strategies for integrating AI to bolster your static code analysis, streamline your workflows, and catch vulnerabilities before they become exploits.\n\nSpeaker: Bogdan Barchuk, SSCP. CISP. CISM. OSCP. OSCE.. OSCW. WAPT. CREST and OSWE. Bogdan is a seasoned pentester with keen interest in Offesive security"
-    },
-    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BeNeLux Days 2024",
@@ -50,16 +40,6 @@
         "description": "Hey all,\n\nJust a heads up to get this in your calendar - we've got our next meetup coming up!\n\n Date: Thursday 5th December 2024\n\u23f0 Time: 6:00 PM onwards\n Location: Hays Office, Central Birmingham\n\nAs usual, we'll have:\n\n* Two exciting cybersecurity talks\n* Food and refreshments provided\n* A chance to talk and connect with folks from across the cyber sector in the Midlands\n\nAll are welcome - from students to veterans and everyone in between!\n\nFull agenda and speaker details will follow closer to the date.\n\n*\\*\\*\\*First Talk Announcement\\*\\*\\**\n**Speaker:** David Archer (Solution Architect at Endor Labs)\n**Title:** Ship Happens: The Stormy Seas of Supply Chain Security\n**Synopsis:** Modern software development is a sprawling network of open-source dependencies, sophisticated build tools, plugins, pipelines, repositories and runtimes.\nThis \u201csupply chain\u201d is under relentless attack and many of the potential threats are poorly understood by our development and security teams.\nWe\u2019ll take a warts-and-all look at how software is produced, re-used and \u201csecured\u201d.\nWe'll explore strategies to mitigate some of the threats that exist and share practical takeaways that you can immediately implement in their software development practices.\nExpect to leave with a feeling of dread(!), but also hopefully a deeper understanding of supply chain security and where you should pay closer attention to your software factory.\n\nLooking forward to seeing you there!\n\nBest regards,\n\nJim + Nathe\nOWASP Birmingham Chapter Leaders"
     },
     {
-        "group": "Boston",
-        "repo": "www-chapter-boston",
-        "name": "OWASP Boston Chapter Meeting - November 2024",
-        "date": "2024-11-13",
-        "time": "19:00-05:00",
-        "link": "https://www.meetup.com/owaspboston/events/304305085",
-        "timezone": "America/New_York",
-        "description": "This month we will be welcoming Jim Manico, a form OWASP Global Board Member and long time project contributor, to our meetup. Doors open at 6:30pm and the presentation starts at 7pm. Pizza and soda will be provided.\n\nJim will be presenting as part of our \"Learn about OWASP Projects\" series on his project team's project, the OWASP ASVS & Cheat Sheet Series . In this session you will learn:\n\n1) How was the project started?\n2) About the project and goals\n3) How can one help, volunteer /sponsor?\n4) Existing Team\n\nJim Manico is the founder of Manicode Security, where he trains software developers on secure coding and security engineering. He is also an investor/advisor for 10Security, Aiya, MergeBase, Nucleus Security, KSOC, and Inspectiv. Jim is a frequent speaker on secure software practices, is a member of the Java Champion community, and is the author of \u201cIron-Clad Java: Building Secure Web Applications\u201d from Oracle Press. Jim also volunteers for the OWASP foundation as the project lead for the OWASP Application Security Verification Standard and the OWASP Cheatsheet Series. For more information, see [https://www.linkedin.com/in/jmanico](https://www.linkedin.com/in/jmanico)."
-    },
-    {
         "group": "Brisbane",
         "repo": "www-chapter-brisbane",
         "name": "End of year celebration!",
@@ -80,26 +60,6 @@
         "description": "Join me on a journey through my recent source code reviews, where I uncovered vulnerabilities in Navidrome, an open-source music server written in Go, and explored how JWT libraries prevent algorithm confusion attacks in JSON Web Tokens (JWT).\nIn the first part of this talk, I will share my findings from examining Navidrome\u2019s codebase, discussing specific security issues that emerged from my review, including insights gained from a CVE analysis.\nThe second part will focus on JWT algorithm confusion\u2014a prevalent security issue that arises when implementations fail to enforce proper algorithm selection. I will examine real-world examples of this vulnerability and outline common strategies that developers use to prevent such issues."
     },
     {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "API Security Workshop with OWASP crAPI (hands-on)",
-        "date": "2024-11-12",
-        "time": "17:30+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/304354630",
-        "timezone": "Australia/Brisbane",
-        "description": "In today's rapidly digitalizing world, Application Programming Interfaces (APIs) are the backbone of communication in the vast landscape of web services, cloud applications, and microservices.\nWith this increased usage comes the inevitable rise of security threats targeting APIs. This workshop aims to arm participants with practical knowledge and hands-on experience to secure APIs effectively.\nIn this workshop, we will be using OWASP crAPI (completely ridiculous API), a purposely insecure API, to demonstrate common API vulnerabilities and their mitigations. We will discuss the 'Shift Left' approach in API security, emphasizing the importance of integrating security measures early in the development lifecycle. Participants will learn to identify, exploit, and secure API vulnerabilities, equipping them with the necessary skills to build more secure\napplications.\n\n**Requirements**:\n1\\. Active Participation: The workshop will be highly interactive\\. Questions\\, comments\\, and sharing of experiences are strongly encouraged\\.\n2\\. Laptop: As this is an in\\-person workshop\\, please bring along your laptop with any API testing tool installed\\.\n3\\. Pre\\-workshop Material: On confirmation of your attendance\\, you will receive some pre\\-workshop reading materials\\. We recommend reviewing these before the event to maximize your learning experience\\."
-    },
-    {
-        "group": "Cleveland",
-        "repo": "www-chapter-cleveland",
-        "name": "OWASP Cleveland: Security Roundtable",
-        "date": "2024-11-12",
-        "time": "18:30-05:00",
-        "link": "https://www.meetup.com/owasp-cleveland-group/events/304415299",
-        "timezone": "America/New_York",
-        "description": "We\u2019ll be gathering on Tuesday, 11/12, at Market Avenue Wine Bar for a discussion on all things information and application security. Charles Bickel will be speaking on how he found multiple CVEs and how you can too. This will be a roundtable-style meetup, offering a chance to connect with others and talk security."
-    },
-    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Security Journey CTF",
@@ -108,16 +68,6 @@
         "link": "https://www.meetup.com/columbus-owasp/events/301084006",
         "timezone": "America/New_York",
         "description": "*This will be at the new location, as shown below! Don't go to the wrong place!*\n\nHands-on hacking time! Security Journey has graciously allowed us to borrow their CTF for the evening to see and fix coding flaws that lead to security vulnerabilities. It's all web based, so bring your laptop! (There really isn't anything to install, so bring your work laptop.) But be there!\n\nWe'll start off with a few highlights related to what is new in the world of appsec, and have a good-of-the-order style chat about the near, they we will dig into finding and fixing some stuff."
-    },
-    {
-        "group": "Dallas",
-        "repo": "www-chapter-dallas",
-        "name": "OWASP November Meet - In person",
-        "date": "2024-11-12",
-        "time": "17:30-06:00",
-        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/304180205",
-        "timezone": "America/Chicago",
-        "description": "Mobile App Pentesting for Fun and Profit\n\nWelcome to the thrilling world of mobile app pentesting! This session will equip you with the skills to uncover vulnerabilities in mobile applications. Whether you\u2019re a seasoned pro or a curious newcomer, prepare for an adventure in cybersecurity."
     },
     {
         "group": "Denver",
@@ -140,16 +90,6 @@
         "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #69! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics. Anyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\n\n*What are we going to talk about?*\n\n**DSOMM and AppSec Program:** We are excited to welcome Timo Pagel, Cloud and Web Security Architect at PagelShield, a core member of the OWASP Germany Chapter, and contributor to various OWASP projects. Timo will discuss the DevSecOps Maturity Model (DSOMM) and how it can help kick-start your application security program. We will also have another speaker joining us for this event\u2014details to be announced soon!\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks. For those interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n*When?* Our Meetup takes place on **27.11.2024** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at CHECK24 AG, located at Speicherstra\u00dfe 55, 60327 Frankfurt am Main.\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
     },
     {
-        "group": "Frankfurt",
-        "repo": "www-chapter-frankfurt",
-        "name": "German OWASP Day 2024",
-        "date": "2024-11-12",
-        "time": "09:00+01:00",
-        "link": "https://www.meetup.com/owasp-frankfurt/events/304040492",
-        "timezone": "Europe/Berlin",
-        "description": "**\\*\\*This is a paid event\\*\\***\n\nDear all,\n\nWe're proud to present a cool lineup of talks for the German OWASP Day in Leipzig on November 13th! The program committee got a solid amount of high quality submissions and thus the agony of choice.\n\n\\* Frederik Braun will present \"Modern solutions against Cross-Site Leaks (xs-leaks) and CSRF\u201c\n\\* Thomas Barber will give us insights into the project Foxhound, a taint tracking project using a patched Firefox\n\\* Malte Wessels will display results of his research on SSRF\n\\* Shubham Agarwal will raise his voice against \"Double-Edged Crime: How Browser Extension Fingerprinting Might Endanger Users and Extensions Alike\"\n\\* Bj\u00f6rn Kimminich is celebrating the \"OWASP Juice Shop 10th anniversary\"\n\\* While Dr. Daniel Fett will be talking about \"How (Not) to Use OAuth in 2024\u201c,\n\\* Kristina Yasuda will tell you \"The Crucial Role of Web Protocols and Standards in Digital Wallet Ecosystems\" (EUDI Wallet)\n\\* Tim Philipp Sch\u00e4fers will demystify NIS2 and hopefully NIS2UmsuCG\n\\* Diana Calder\u00f3n will explore strategies for creating and implementing Security Champion programs in organisations\n\\* Hanno B\u00f6ck will tell not-so-good stories about private keys\n\\* Stephan Pinto Spindler will share his experiences wrt \"Network Fingerprinting for Securing User Accounts\"\n\\* Behnaz Karimi will give us an overview of the OWASP AI Exchange project\n\\* Niklas Bunzel and Raphael Antonius Frick will explore the security challenges and opportunities posed by GenAI\n\\* Clemens H\u00fcbner will amend that showing how GenAI can help identifying threats\n\\* Florian Hantke and Sebastian Roth will show how to scan for Vulnerabilities Without Getting Into Trouble\n\\* Nicolas Schickert, Ole Wagner and Matthias G\u00f6hring will tackle most companies problem child \"SAP from an Attacker\u2019s Perspective \u2013 Common Vulnerabilities and Pitfalls\"\n\nThe full program is on the web site [https://god.owasp.de/](https://god.owasp.de/) .\n\n**Registration is open. [Reserve your spot](https://god.owasp.de/2024/#tickets)! \\*\\*This is a paid event\\*\\***\n\nOn the 12th of November we also offer three trainings \u2014 those have to be booked separately:\n\\* OWASP Juice Shop: Advanced Demos & For-fun CTF by Bj\u00f6rn Kimminich + Jannik Hollenbach\n\\* Getting started for establishing your Security Champions Program by Juliane Reimann + Michael Bernhardt\n\\* Building Secure Software: A Hands-On OWASP SAMM Training by Daniel Kefer.\n\nAs usual on the evening before the conference day (November 12th) there\u2019s a get-together with food and drinks.\n\n**\\*\\*THIS IS A PAID EVENT\\*\\***"
-    },
-    {
         "group": "Gothenburg",
         "repo": "www-chapter-gothenburg",
         "name": "OWASP Gothenburg Security Pub (S\u00e4kPub)",
@@ -170,6 +110,16 @@
         "description": "OWASP topic TBA"
     },
     {
+        "group": "London",
+        "repo": "www-chapter-london",
+        "name": "OWASP London Chapter Meetup [IN-PERSON]",
+        "date": "2024-11-25",
+        "time": "18:00Z",
+        "link": "https://www.meetup.com/owasp-london/events/304531909",
+        "timezone": "Europe/London",
+        "description": "**This event is kindly hosted by Civo Tech Junction and sponsored by Security Compass. There is limited seating available for in-person attendees. Registration required.**\n\n**This event will be live-streamed on YouTube.**\n\n**Recordings will be available on the OWASP London YouTube channel.**\n\n**Venue Location**: Civo Tech Junction, First Floor, 32-37 Cowper Street, London, EC2A 4AW\n**Nearest Tube:** Old Street (Northern Line), Cowper Street exit - 1 min walk\n**Doors Open at 6pm** for registration, pizza, drinks and networking. The talks start at 6:30pm (we start on time!).\n\n**TALKS:**\n\n**OWASP Introduction, Welcome and News** \\- Sam Stepanyan\\, Andra Lezza\\, Sherif Mansour \\- OWASP London Chapter Leaders\n\n**\"Security by Design, Not Injection\"** \u2013 Trevor Young\n\nSecurity by Design encompasses a variety of processes and technologies aimed at embedding security and compliance early in the development lifecycle. We know adopting Security by Design culture and processes can lower risk by preventing vulnerabilities in software, however effectively educating and shifting teams to implement these changes is notoriously difficult. It is a paradigm shift for most organizations, and many of them fail on their first attempt before finding\nsomething that works for them. This discussion will highlight how to explain what Security by Design is and will present strategies for communicating the importance and value it delivers.\n\n**\"OWASP Depscan v6 - The SCA Tool For Agile Builders, Creators, And Doers\"** \\- Prabhu Subramanian\n\nMost SCA tools can be best described as simple SBOM scanners with a backing vulnerability database. This naive design can lead to numerous false positive alerts due to a lack of comprehensive context. To accurately assess an application's security posture, it's crucial to consider its entire lifecycle, from pre-build to post-build, and capture the full-stack information in the form of SBOM, SaaSBOM, CBOM, OBOM etc.\nOWASP depscan v6 is a groundbreaking SCA tool that addresses these limitations by leveraging full-stack information. This innovative approach enables more precise vulnerability triage and prioritization, empowering developers to take informed action.\nJoin us to meet the project leader behind depscan v6, explore live demos, and delve into the technical intricacies of an xBOM-based SCA tool.\n\n**Guest Talk: TBC**\n\n**RAFFLE - win a prize kindly donated by our sponsors!**\n\n**SPEAKERS:**\n\n**Trevor Young**\n\nTrevor Young is an entrepreneurial product and technology leader who stays on top of the latest in design, architecture, and creative technologies. Having founded and led companies providing digital offerings, he uncovered his passion for collaborative problem solving, and innovation.He excels at finding inefficiencies in digital markets and disrupting them.\nTrevor combines strategic leadership with technical ability, formed from experience in a broad background of practical applications. Trevor currently serves as Chief Product Officer at Security Compass, where heleads product strategy for the company's Secure by Design platform, and Application Security Training library.\n\n**Prabhu Subramanian (@_prbh)**\n\nPrabhu Subramanian is a distinguished security expert and active contributor to the open-source security community. Prabhu is the author and OWASP Leader behind projects such as OWASP CycloneDX Generator (cdxgen) and OWASP depscan. He specializes in Supply Chain Security and offers consultancy to global clients via his company, AppThreat Ltd.\n\n**TICKETS:**\n\nOWASP meetups are free and open to anyone interested in application security. Please note that you MUST book your place to be admitted to the event by the building security.\n\n**CODE OF CONDUCT:**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. OWASP Code Of Conduct: [https://owasp.org/www-policy/operational/code-of-conduct](https://owasp.org/www-policy/operational/code-of-conduct)"
+    },
+    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "The 2024 Los Angeles Cybersecurity Summit",
@@ -188,26 +138,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/304290127",
         "timezone": "America/Los_Angeles",
         "description": "**OWASP LA** has organized an exceptional offer for our meetup membership to participate in ***[12th Annual Data Con LA ](https://www.dataconla.com/events/dcla-2024/)***on November 16th, in the campus of CSU Long Beach, CA. Join us for deep insight in new tools and technology, training. Whether you\u2019re an industry veteran, a data science newbie, or somewhere in between, Data Con LA offers a unique opportunity to dive deep into the world of data.\n\n[Register](https://www.tickettailor.com/events/dataconla/1356949) now using discount code **OWASPLAxDCLA2024** for **33%** off the ticket price. Check the full schedule at [Data Con LA 2024 Sessions](https://www.dataconla.com/events/dcla-2024/sessions/).\n\nThis year, we\u2019re bringing you three dynamic tracks designed to cover the full spectrum of the data universe:\n\n* **AI, ML and Data Science**: Explore the cutting-edge advancements in artificial intelligence, machine learning, and data science. From groundbreaking research to practical applications, this track is your gateway to understanding how these technologies are shaping the future.\n* **Data Engineering and Ops**: Discover the backbone of the data ecosystem. This track will delve into the best practices, tools, and platforms that power data-driven organizations. Learn how to build, scale, and maintain robust data infrastructures that can handle today\u2019s complex challenges.\n* **Data Analytics and BI**: Uncover the insights that drive decision-making. This track focuses on the latest trends in data analytics and business intelligence, helping you transform raw data into actionable insights that can propel your organization forward.\n\nIn addition to these tracks, we\u2019re excited to feature a series of **expert panels** that will bring together thought leaders from across the industry to discuss the most pressing issues and future trends in data.\nFor more details on the sessions planned visit the [Sessions page](https://www.dataconla.com/events/dcla-2024/sessions/) on our website and for speaker the speaker lineup, check out the [Speakers page](https://www.dataconla.com/events/dcla-2024/speakers/).\n\nWhile the final schedule is still being perfected, rest assured that each session will be packed with valuable content, hands-on learning, and opportunities to network with peers and leaders in the field.\nOne last thing we are making happen this year is Match & Mingle, a chance to connect with another attendee. Those participating will be matched and introduced in to one other attendee based on background and interests, giving you a chance to meet someone new and make a deeper connection within the community. Look out for the opt-in question during the checkout!\nDon\u2019t miss your chance to be part of this incredible event. Stay tuned for updates on the agenda, and secure your ticket today to ensure your spot at Data Con LA 2024!\n\nAnd finally **don't forget** to visit us at the OWASP Los Angeles booth!"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - NOV 12, 2024",
-        "date": "2024-11-12",
-        "time": "17:30-08:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/300687868",
-        "timezone": "America/Los_Angeles",
-        "description": "/\\*\\* NEW DATE NEW DATE NEW DATE \\*\\*/\n**TOPIC**: State of Pentesting 2024\nJoin us for great networking, dinner and drinks, and see a presentation by **Caroline Wong**, Chief Strategy Officer at Cobalt.\n\n**ABSTRACT**:\nIn the sixth annual installment of State of Pentesting 2024, Cobalt shares data and insights from more than 4000 manual pentest engagements performed in 2023, resulting in more than 39,000 security vulnerability findings. Caroline will present the data as well as commentary on artificial intelligence and offensive security.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
-    },
-    {
-        "group": "Nashville",
-        "repo": "www-chapter-nashville",
-        "name": "Patients at Risk: Investigating The Healthcare Cybersecurity Crisis",
-        "date": "2024-11-13",
-        "time": "17:00-06:00",
-        "link": "https://www.meetup.com/owasp-nashville-chapter/events/299885957",
-        "timezone": "America/Chicago",
-        "description": "Want to learn more about the most successfully attacked industry in the world? Here\u2019s your chance!\n\nHealthcare organizations are facing a digital storm. Cyberattacks are increasingly successful, targeting sensitive patient data, disrupting critical services, and putting lives at risk. Facing a growing threat landscape due to increasing reliance on interconnected technologies (including IoT, IoMT, OT and IT systems), many hospitals are struggling to recover from decades of accumulated cybersecurity debt.\n\nThis presentation will explore the root causes of healthcare cyberattacks, providing real-world examples and discussing the technical vulnerabilities that make organizations prime targets. Attendees will gain insights into the emerging guidance and strategies for improving healthcare cybersecurity, as well as the debate surrounding the need for regulation in this critical sector. We will also examine the significant financial and reputational costs associated with cyberattacks and delve into the motivations and tactics of the attackers themselves.\n\nJoin OWASP Nashville and Chad Holmes as we dive deep into the world of healthcare cybersecurity. We'll explore the root causes of cyberattacks, examine real-world examples, and discuss the technical vulnerabilities that make hospitals prime targets."
     },
     {
         "group": "Netherlands",
@@ -282,6 +212,16 @@
     {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
+        "name": "End of year meal",
+        "date": "2024-12-12",
+        "time": "19:00Z",
+        "link": "https://www.meetup.com/owasp-peterborough/events/303804635",
+        "timezone": "Europe/London",
+        "description": "Invite only meal, please submit attendance though group comms channel"
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
         "date": "2024-11-28",
         "time": "19:00Z",
@@ -310,14 +250,14 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2024-11-13",
-        "time": "12:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539101",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+        "group": "Stockholm",
+        "repo": "www-chapter-stockholm",
+        "name": "Hack The Box Workshop Crate CTF with OWASP and W4C",
+        "date": "2024-11-16",
+        "time": "14:00+01:00",
+        "link": "https://www.meetup.com/owasp-stockholm/events/304521794",
+        "timezone": "Europe/Stockholm",
+        "description": "## Details - Note the adress says FOI but the places is the FRO ([Frivilliga Radioorganisationen](https://www.fro.se/))\n\nOne of the goals of the Hack The Box workshops we in OWASP help run alongside W4C is to practice, learn from each other, hack together and take part in CTFs as the team. One such upcoming CTF that we have anticipated is Crate CTF 2024. Crate CTF is an annual Capture The Flag (CTF) competition organised by FOI that will take place between 14:00-22:00 on November 16. This time, HTB Stockholm organisers managed to get a venue at FOI itself.\n\n**CTF team name**: FRO\n**Venue**: FRO, Norrvikenleden 10, F\u00f6rsvarsg\u00e5rden\n**Time**: between 14:00-22:00 on November 16\n**Communication during CTF**: we will not use our HTB Stockholm's Discord server, but a server provided by FRO. You will get access during the event.\n**Language**: The CTF will be in Swedish, but you can ask other attendees to help you translate.\n\n**Important**! You will need to sign up using this [form](https://forms.gle/xn93mG3CoTCxVsgP9), otherwise you will not be able to enter the venue. This is needed as per for venue's requirements. Hurry up, **limited seats** available!"
     },
     {
         "group": "Stuttgart",
@@ -350,16 +290,6 @@
         "description": "Hello OWASP Vilnius community!\n\nIt's been a while and I'm super happy to announce, that there will be a physical event again organised at the new Visma Tech office in Artery Vilnius ! Beer and snacks guaranteed :)\n\nSave the date in your calendars: Thursday, November 21st.\n\nMore information soon.\n\nSee you soon!\n-Dominykas"
     },
     {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "November community call - OWASP SAMM",
-        "date": "2024-11-13",
-        "time": "14:30-05:00",
-        "link": "https://www.meetup.com/owasp-samm/events/304423838",
-        "timezone": "America/New_York",
-        "description": "During our next community call we share highlights from our last project summit. As always, we'll have time for Q&A"
-    },
-    {
         "group": "Wrongsecrets",
         "repo": "www-project-wrongsecrets",
         "name": "OWASP Frankfurt Chapter #69 - Software Maturity Model and OWASP initiatives",
@@ -368,15 +298,5 @@
         "link": "https://www.meetup.com/owasp-frankfurt/events/303263383",
         "timezone": "Europe/Berlin",
         "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #69! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics. Anyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\n\n*What are we going to talk about?*\n\n**DSOMM and AppSec Program:** We are excited to welcome Timo Pagel, Cloud and Web Security Architect at PagelShield, a core member of the OWASP Germany Chapter, and contributor to various OWASP projects. Timo will discuss the DevSecOps Maturity Model (DSOMM) and how it can help kick-start your application security program. We will also have another speaker joining us for this event\u2014details to be announced soon!\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks. For those interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n*When?* Our Meetup takes place on **27.11.2024** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at CHECK24 AG, located at Speicherstra\u00dfe 55, 60327 Frankfurt am Main.\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
-    },
-    {
-        "group": "Wrongsecrets",
-        "repo": "www-project-wrongsecrets",
-        "name": "German OWASP Day 2024",
-        "date": "2024-11-12",
-        "time": "09:00+01:00",
-        "link": "https://www.meetup.com/owasp-frankfurt/events/304040492",
-        "timezone": "Europe/Berlin",
-        "description": "**\\*\\*This is a paid event\\*\\***\n\nDear all,\n\nWe're proud to present a cool lineup of talks for the German OWASP Day in Leipzig on November 13th! The program committee got a solid amount of high quality submissions and thus the agony of choice.\n\n\\* Frederik Braun will present \"Modern solutions against Cross-Site Leaks (xs-leaks) and CSRF\u201c\n\\* Thomas Barber will give us insights into the project Foxhound, a taint tracking project using a patched Firefox\n\\* Malte Wessels will display results of his research on SSRF\n\\* Shubham Agarwal will raise his voice against \"Double-Edged Crime: How Browser Extension Fingerprinting Might Endanger Users and Extensions Alike\"\n\\* Bj\u00f6rn Kimminich is celebrating the \"OWASP Juice Shop 10th anniversary\"\n\\* While Dr. Daniel Fett will be talking about \"How (Not) to Use OAuth in 2024\u201c,\n\\* Kristina Yasuda will tell you \"The Crucial Role of Web Protocols and Standards in Digital Wallet Ecosystems\" (EUDI Wallet)\n\\* Tim Philipp Sch\u00e4fers will demystify NIS2 and hopefully NIS2UmsuCG\n\\* Diana Calder\u00f3n will explore strategies for creating and implementing Security Champion programs in organisations\n\\* Hanno B\u00f6ck will tell not-so-good stories about private keys\n\\* Stephan Pinto Spindler will share his experiences wrt \"Network Fingerprinting for Securing User Accounts\"\n\\* Behnaz Karimi will give us an overview of the OWASP AI Exchange project\n\\* Niklas Bunzel and Raphael Antonius Frick will explore the security challenges and opportunities posed by GenAI\n\\* Clemens H\u00fcbner will amend that showing how GenAI can help identifying threats\n\\* Florian Hantke and Sebastian Roth will show how to scan for Vulnerabilities Without Getting Into Trouble\n\\* Nicolas Schickert, Ole Wagner and Matthias G\u00f6hring will tackle most companies problem child \"SAP from an Attacker\u2019s Perspective \u2013 Common Vulnerabilities and Pitfalls\"\n\nThe full program is on the web site [https://god.owasp.de/](https://god.owasp.de/) .\n\n**Registration is open. [Reserve your spot](https://god.owasp.de/2024/#tickets)! \\*\\*This is a paid event\\*\\***\n\nOn the 12th of November we also offer three trainings \u2014 those have to be booked separately:\n\\* OWASP Juice Shop: Advanced Demos & For-fun CTF by Bj\u00f6rn Kimminich + Jannik Hollenbach\n\\* Getting started for establishing your Security Champions Program by Juliane Reimann + Michael Bernhardt\n\\* Building Secure Software: A Hands-On OWASP SAMM Training by Daniel Kefer.\n\nAs usual on the evening before the conference day (November 12th) there\u2019s a get-together with food and drinks.\n\n**\\*\\*THIS IS A PAID EVENT\\*\\***"
     }
 ]
