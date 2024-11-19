@@ -70,16 +70,6 @@
         "description": "Join us in celebrating yet another end to an amazing year. No presentations, just a catch up with all you hackers, security experts and enthusiasts alike.\nTell us about sweet hacks you\u2019ve done or things you\u2019ve heard about.\nHope to see you there!"
     },
     {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "Recent Discoveries in My Source Code Review Journey: Navidrome Vulnerabilities",
-        "date": "2024-11-18",
-        "time": "18:00+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/304394056",
-        "timezone": "Australia/Brisbane",
-        "description": "Join me on a journey through my recent source code reviews, where I uncovered vulnerabilities in Navidrome, an open-source music server written in Go, and explored how JWT libraries prevent algorithm confusion attacks in JSON Web Tokens (JWT).\nIn the first part of this talk, I will share my findings from examining Navidrome\u2019s codebase, discussing specific security issues that emerged from my review, including insights gained from a CVE analysis.\nThe second part will focus on JWT algorithm confusion\u2014a prevalent security issue that arises when implementations fail to enforce proper algorithm selection. I will examine real-world examples of this vulnerability and outline common strategies that developers use to prevent such issues."
-    },
-    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Security Journey CTF",
@@ -87,7 +77,7 @@
         "time": "18:00-05:00",
         "link": "https://www.meetup.com/columbus-owasp/events/301084006",
         "timezone": "America/New_York",
-        "description": "*This will be at the new location, as shown below! Don't go to the wrong place!*\n\nHands-on hacking time! Security Journey has graciously allowed us to borrow their CTF for the evening to see and fix coding flaws that lead to security vulnerabilities. It's all web based, so bring your laptop! (There really isn't anything to install, so bring your work laptop.) But be there!\n\nWe'll start off with a few highlights related to what is new in the world of appsec, and have a good-of-the-order style chat about the near, they we will dig into finding and fixing some stuff."
+        "description": "*This will be at the new location, as shown below! Don't go to the wrong place!*\n\nHands-on hacking time! Security Journey has graciously allowed us to borrow their CTF for the evening to see and fix coding flaws that lead to security vulnerabilities. It's all web based, so bring your laptop! (There really isn't anything to install, so bring your work laptop.) But be there!\n\nWe'll start off with a few highlights related to what is new in the world of appsec, and have a good-of-the-order style chat about the near, they we will dig into finding and fixing some stuff.\n\nHere is the link to our presenter, for the evening of the meeting.\n\n[https://us02web.zoom.us/j/89474737260?pwd=Zsvne4g3Qu3PoFAdVhjTBT9aFaNMiE.1&from=addon](https://us02web.zoom.us/j/89474737260?pwd=Zsvne4g3Qu3PoFAdVhjTBT9aFaNMiE.1&from=addon)"
     },
     {
         "group": "Denver",
@@ -98,6 +88,16 @@
         "link": "https://www.meetup.com/owasp-denver-chapter/events/304436398",
         "timezone": "America/Denver",
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on November 20th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:00 - food is served at 5:30 and the presentation starts at 6:00.\n\nThis month's presentation is brought to you by Mend.io!\n\n**Presentation:**\nFrom Reactive to Effective: Building Application Security that Works\n\n**Abstract**:\nIn 2023, 71% of enterprises admitted their AppSec programs were reactive, playing catch-up with vulnerability alerts -\u2013 while at the same time, applications remain the top target for threat actors. That adds up to increased business risk for a lot of companies and fuels an urgent need to improve application security strategies. But how?\nThe key is to move from a compliance-based approach to managing application risk.\nJoin us for an in-depth discussion of what it takes to stop playing defense when it comes to application security. He'll wrangle over topics like:\n\n* The tell-tale signs of reactive mode\n* The value of preventative best practices\n* How to build security actions into the developer experience\n* The need for a holistic view and effective prioritization\n* Arming the security team with instant control at scale"
+    },
+    {
+        "group": "Edmonton",
+        "repo": "www-chapter-edmonton",
+        "name": "OWASP Edmonton Xmas Party",
+        "date": "2024-12-13",
+        "time": "14:00-07:00",
+        "link": "https://www.meetup.com/owasp-edmonton/events/304640552",
+        "timezone": "America/Edmonton",
+        "description": "**Join us for the Edmonton OWASP Christmas Party at Beer Revolution!**\nCelebrate the holiday season with fellow cybersecurity enthusiasts as we socialize, enjoy great beer, and dive into fun and interactive cybersecurity board games. It's the perfect mix of networking, games, and festive cheer\u2014don\u2019t miss out! \nThis casual event kicks off at 2 PM, but there\u2019s no strict schedule. Drop by anytime in the afternoon or evening to join the fun. Whether you\u2019re popping in for a quick drink, some socializing, or diving into a full game session, you\u2019re welcome to come and go as you please. Relax, connect, and enjoy the festive vibes at your own pace!\n**Cybersecurity Games to Play:**\n\n1. **Backdoors and Breaches**\nA strategic incident response game where players simulate cyberattacks and defenses using real-world TTPs. Can you outsmart the attackers or defenders?\n2. **Hoxhunt Social Engineering Game**\nA *Cards Against Humanity*-style game with a cybersecurity twist! Craft hilarious and devious social engineering attacks for laughs and learning.\n3. **SANS Pen Test Poster: Pivots & Payloads Boardgame**\nA hands-on pen-testing board game where players exploit networks, deploy payloads, and test their skills in lateral movement and defense.\n\nCome for the beer, stay for the fun, and celebrate the season with cybersecurity flair! \n\n**RSVP now to let us know you're coming and help us plan for an amazing time!**  Whether you're a cybersecurity pro or just curious, we\u2019d love to see you there!"
     },
     {
         "group": "Frankfurt",
@@ -146,16 +146,6 @@
         "date": "2024-12-16",
         "time": "17:30-05:00",
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242792",
-        "timezone": "America/New_York",
-        "description": "OWASP topic TBA"
-    },
-    {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2024-11-18",
-        "time": "17:30-05:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242791",
         "timezone": "America/New_York",
         "description": "OWASP topic TBA"
     },
@@ -277,7 +267,7 @@
         "time": "19:30-07:00",
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/304602289",
         "timezone": "America/Phoenix",
-        "description": "**Reverse Engineering Basics** (75 min)\nWe'll go over the basics of reverse engineering starting with what it is and why the activity is so important.\n\nWe'll cover the reverse engineering mindset, executable formats, tools (we'll mostly use Ghirda [https://ghidra-sre.org/](https://ghidra-sre.org/), but touch on IDAPro, and ImHex) of the trade, we'll touch on reverse engineering techniques for embedded devices as well.\n\nLastly we'll have an executable for everyone to reverse engineer.\n\nSo bring your laptop with Ghirda installed (feel free to install the other two as well).\n\n**NOTE: We are starting at 7:30 pm beginning this month.**"
+        "description": "**Reverse Engineering Basics** (75 min)\nWe'll go over the basics of reverse engineering starting with what it is and why the activity is so important.\n\nWe'll cover the reverse engineering mindset, executable formats, tools (we'll mostly use Ghirda [https://ghidra-sre.org/](https://ghidra-sre.org/), but touch on IDAPro, and ImHex) of the trade, we'll touch on reverse engineering techniques for embedded devices as well.\n\nLastly we'll have an executable for everyone to reverse engineer.\n\nSo bring your laptop with Ghirda installed (feel free to install the other two as well).\n\n**NOTE: We are starting at 7:30 pm beginning this month. Also, the date is Tues, December 3rd. The original email had the wrong date. Apologies!**"
     },
     {
         "group": "Poland",
@@ -327,7 +317,17 @@
         "time": "18:00+02:00",
         "link": "https://www.meetup.com/owasp-vilnius/events/304394672",
         "timezone": "Europe/Vilnius",
-        "description": "Hello OWASP Vilnius community!\n\nIt's been a while and I'm super happy to announce, that there will be a physical event again organised at the new Visma Tech office in Artery Vilnius ! Beer and snacks guaranteed :)\n\nSave the date in your calendars: Thursday, November 21st.\n\nMore information soon.\n\nSee you soon!\n-Dominykas"
+        "description": "Hello OWASP Vilnius community!\n\nIt's been a while and I'm super happy to announce, that there will be a physical event again organised at the new Visma Tech office in Artery Vilnius ! Beer and snacks guaranteed :)\n\nSave the date in your calendars: Thursday, November 21st.\n\n**Agenda:**\n**17:30 Welcome coffee, snack & refreshments**\n**18:00** Opening words from OWASP Vilnius Chapter leader\n**18:05** **Building a successful Bug Bounty program for Open-Source software-** Darius \u0160veikauskas, Bounty & Data Overlord at Patchstack O\u00dc.\nDarius will discuss the creation and development of the Bug Bounty program for Open-Source software, share his journey from zero to over 6,000 CVEs in just three years, and explain how the program supports other projects.\n**19:00 Cookies and CHIPS** \\- Paulius Le\u0161\u010dinskas\\, Engineering Manager @ Omnisend\\. During the presentation Paulius will elaborate on the 1st and 3rd party cookies\\, their differences and the cookie partitioning feature\\.\n**19:45-22:00** Discussions continue with snacks and refreshments sponsored by Visma Tech.\n\nThe event is free of charge, welcome!\n\n-Dominykas"
+    },
+    {
+        "group": "Warwick",
+        "repo": "www-chapter-warwick",
+        "name": "OWASP Warwick CTF - Hosted by CMD+CTRL",
+        "date": "2024-12-04",
+        "time": "18:30Z",
+        "link": "https://www.meetup.com/owasp-warwick/events/304629401",
+        "timezone": "Europe/London",
+        "description": "Come and join us at our first OWASP Warwick CTF.\n\nThis is a ticketed event. Only those with a ticket will be able to participate.\n\nWe are looking for both students and industry to take part."
     },
     {
         "group": "Wrongsecrets",
