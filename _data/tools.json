@@ -873,6 +873,15 @@
       "type": "DAST"
    },
    {
+      "title": "Online Wordpress Security Scanner",
+      "url": "https://wpscan.online",
+      "owner": "MUNSIRADO",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Security scanner, expertly crafted to detect and evaluate vulnerabilities in WordPress websites, ensuring meticulous and reliable protection for your online presence.",
+      "type": "DAST"
+   },
+   {
       "title": "Zed Attack Proxy",
       "url": "https://zaproxy.org",
       "owner": "The ZAP Development Team",
@@ -1818,6 +1827,15 @@
       "type": "DAST"
    },
    {
+      "title": "Online Port scanner",
+      "url": "https://portscanner.online",
+      "owner": "MUNSIRADO",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Port Scanner Online simplifies port scanning with tools like Nmap, Unicornscan and RustScan, offering quick, clear results for IPs or hostnames in a user-friendly format.",
+      "type": "DAST"
+   },
+   {
       "title": "Pentest-Tools.com Website Scanner",
       "url": "https://pentest-tools.com/website-vulnerability-scanning/website-scanner",
       "owner": "Pentest-Tools.com",
@@ -1911,7 +1929,7 @@
    {
       "title": "Static application security testing Online",
       "url": "https://sast.online",
-      "owner": "PENTESTON",
+      "owner": "MUNSIRADO",
       "license": "Commercial or Free",
       "platforms": "SaaS",
       "note": "Examine the Android Source code to identify any security issues or vulnerabilities.",
@@ -1920,10 +1938,19 @@
    {
       "title": "Nikto Online",
       "url": "https://nikto.online",
-      "owner": "PENTESTON",
+      "owner": "MUNSIRADO",
       "license": "Commercial or Free",
       "platforms": "SaaS",
       "note": "Online Nikto web server scanner designed to assess the security of web servers by identifying potential vulnerabilities and misconfigurations.",
+      "type": "DAST"
+   },
+   {
+      "title": "Online DDoS Attack Simulation",
+      "url": "https://ddosattack.online",
+      "owner": "MUNSIRADO",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Online DDoS Attack Simulation Portal safely simulates DDoS attacks, helping organizations identify vulnerabilities, test defenses, and enhance resilience against real-world threats.",
       "type": "DAST"
    },
    {
