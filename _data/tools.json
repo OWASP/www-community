@@ -873,6 +873,15 @@
       "type": "DAST"
    },
    {
+      "title": "Online Wordpress Security Scanner",
+      "url": "https://wpscan.online/",
+      "owner": "MUNSIRADO",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Online security scanner dedicated to evaluating the security of WordPress websites",
+      "type": "DAST"
+   },
+   {
       "title": "Zed Attack Proxy",
       "url": "https://zaproxy.org",
       "owner": "The ZAP Development Team",
@@ -1911,7 +1920,7 @@
    {
       "title": "Static application security testing Online",
       "url": "https://sast.online",
-      "owner": "PENTESTON",
+      "owner": "MUNSIRADO",
       "license": "Commercial or Free",
       "platforms": "SaaS",
       "note": "Examine the Android Source code to identify any security issues or vulnerabilities.",
@@ -1920,7 +1929,7 @@
    {
       "title": "Nikto Online",
       "url": "https://nikto.online",
-      "owner": "PENTESTON",
+      "owner": "MUNSIRADO",
       "license": "Commercial or Free",
       "platforms": "SaaS",
       "note": "Online Nikto web server scanner designed to assess the security of web servers by identifying potential vulnerabilities and misconfigurations.",
