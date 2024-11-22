@@ -80,6 +80,16 @@
         "description": "*This will be at the new location, as shown below! Don't go to the wrong place!*\n\nHands-on hacking time! Security Journey has graciously allowed us to borrow their CTF for the evening to see and fix coding flaws that lead to security vulnerabilities. It's all web based, so bring your laptop! (There really isn't anything to install, so bring your work laptop.) But be there!\n\nWe'll start off with a few highlights related to what is new in the world of appsec, and have a good-of-the-order style chat about the near, they we will dig into finding and fixing some stuff.\n\nHere is the link to our presenter, for the evening of the meeting.\n\n[https://us02web.zoom.us/j/89474737260?pwd=Zsvne4g3Qu3PoFAdVhjTBT9aFaNMiE.1&from=addon](https://us02web.zoom.us/j/89474737260?pwd=Zsvne4g3Qu3PoFAdVhjTBT9aFaNMiE.1&from=addon)"
     },
     {
+        "group": "Copenhagen",
+        "repo": "www-chapter-copenhagen",
+        "name": "A Night of CTF with Secure Code Warriors",
+        "date": "2024-12-10",
+        "time": "17:00+01:00",
+        "link": "https://www.meetup.com/owasp-copenhagen-chapter/events/304647432",
+        "timezone": "Europe/Copenhagen",
+        "description": "Join us for an exciting evening of cybersecurity challenges at the IT-University of Copenhagen on December 10th, starting at 5 PM!\n\nGet ready to embark on a thrilling adventure as we host a Viking-themed Capture The Flag (CTF) tournament, sponsored by Secure Code Warrior. Gather your crew, test your skills, and compete for prizes while enjoying pizza and drinks provided by our generous sponsor.\nWhether you're a seasoned pro or new to the world of CTFs, this event promises to be a fun and engaging experience for all. Put your best Viking attire, form your teams, and prepare for battle!\n\nDon\u2019t miss out on this opportunity to sharpen your skills, connect with fellow enthusiasts, and have a great time!"
+    },
+    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Denver OWASP November Meetup - Join Us!",
@@ -98,6 +108,26 @@
         "link": "https://www.meetup.com/owasp-edmonton/events/304640552",
         "timezone": "America/Edmonton",
         "description": "**Join us for the Edmonton OWASP Christmas Party at Beer Revolution!**\nCelebrate the holiday season with fellow cybersecurity enthusiasts as we socialize, enjoy great beer, and dive into fun and interactive cybersecurity board games. It's the perfect mix of networking, games, and festive cheer\u2014don\u2019t miss out! \nThis casual event kicks off at 2 PM, but there\u2019s no strict schedule. Drop by anytime in the afternoon or evening to join the fun. Whether you\u2019re popping in for a quick drink, some socializing, or diving into a full game session, you\u2019re welcome to come and go as you please. Relax, connect, and enjoy the festive vibes at your own pace!\n**Cybersecurity Games to Play:**\n\n1. **Backdoors and Breaches**\nA strategic incident response game where players simulate cyberattacks and defenses using real-world TTPs. Can you outsmart the attackers or defenders?\n2. **Hoxhunt Social Engineering Game**\nA *Cards Against Humanity*-style game with a cybersecurity twist! Craft hilarious and devious social engineering attacks for laughs and learning.\n3. **SANS Pen Test Poster: Pivots & Payloads Boardgame**\nA hands-on pen-testing board game where players exploit networks, deploy payloads, and test their skills in lateral movement and defense.\n\nCome for the beer, stay for the fun, and celebrate the season with cybersecurity flair! \n\n**RSVP now to let us know you're coming and help us plan for an amazing time!**  Whether you're a cybersecurity pro or just curious, we\u2019d love to see you there!"
+    },
+    {
+        "group": "Fortaleza",
+        "repo": "www-chapter-fortaleza",
+        "name": "Broken Access Control - Riscos para o setor financeiro e como evit\u00e1-los com mode",
+        "date": "2024-11-30",
+        "time": "10:00-03:00",
+        "link": "https://www.meetup.com/owasp-fortaleza/events/304651097",
+        "timezone": "America/Fortaleza",
+        "description": " Participe do Evento OWASP Fortaleza! \n Data: 30 de novembro de 2024\n\u23f0 Hor\u00e1rio: 10h\n Formato: Online\n Tema: Broken Access Control - Riscos para o setor financeiro e como evit\u00e1-los com modelagem de amea\u00e7as e outras medidas\n\u200d Palestrantes:\n**Pedro Vargas** \\- https://www\\.linkedin\\.com/in/pedro\\-vargas\\-260b9714b\n**Danilo Costa** \\- https://www\\.linkedin\\.com/in/danilomcosta/\nEm 2020, Danilo descobriu a vulnerabilidade Fortinet CVE-2020-15939 (https://www.fortiguard.com/psirt/FG-IR-20-071). Essa CVE permite o download limitado pelo usu\u00e1rio e acesso restrito a informa\u00e7\u00f5es espec\u00edficas. Esse tipo de vulnerabilidade n\u00e3o \u00e9 incomum; existem outros casos de CVEs com padr\u00f5es semelhantes. Agora, vamos refletir sobre o risco para o setor financeiro: o que poderia acontecer se um usu\u00e1rio n\u00e3o autorizado acessasse informa\u00e7\u00f5es confidenciais? Nesta apresenta\u00e7\u00e3o, Pedro Vargas e Danilo demonstrar\u00e3o como, por meio da modelagem de amea\u00e7as, \u00e9 poss\u00edvel planejar um ataque e, ao mesmo tempo, mitigar os riscos utilizando requisitos de seguran\u00e7a.\n Inscreva-se agora e garanta sua participa\u00e7\u00e3o!\nN\u00e3o perca esta oportunidade de se atualizar com os melhores insights sobre seguran\u00e7a digital!"
+    },
+    {
+        "group": "France",
+        "repo": "www-chapter-france",
+        "name": "Meetup OWASP - Paris - Decembre 2024",
+        "date": "2024-12-02",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-france/events/304648259",
+        "timezone": "Europe/Paris",
+        "description": "Ce meetup se deroulera chez **OCTO Technology** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
     },
     {
         "group": "Frankfurt",
@@ -140,6 +170,16 @@
         "description": "**Title**\nOnline Secure Coding Tournament with Security Journey\n\n**Location**\nVirtual - Register at [https://info.securityjourney.com/owasp-indianapolis-ctf](https://info.securityjourney.com/owasp-indianapolis-ctf). You will be emailed login information before the tournament starts.\n\nThere will be a Zoom call during the event - [https://us02web.zoom.us/j/87163909513?pwd=L3pCVSWXDuEreLZwS8o8wHr0c5INPh.1&from=addon](https://us02web.zoom.us/j/87163909513?pwd=L3pCVSWXDuEreLZwS8o8wHr0c5INPh.1&from=addon)\n\n**Details**\n\n* **Prizes** \\- Security Journey will provide $100\\, $50\\, & $25 for first\\, second\\, and third place\\. The tournament will be running for 48 hours\\, but the prizes will be awarded to the leaders at 8PM on the day of the meetup\\.\n* **Languages -** The supported languages in the tournament are C#, Java, JavaScript, Ruby, and Python"
     },
     {
+        "group": "Israel",
+        "repo": "www-chapter-israel",
+        "name": "OWASP IL Meetup - December 2024",
+        "date": "2024-12-04",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-israel/events/304629282",
+        "timezone": "Asia/Jerusalem",
+        "description": " OWASP IL  is excited to announce our next Meetup! \nJoin us for an evening filled with engaging discussions on application security, networking with the AppSec community, and of course, delicious food and drinks.\nWe\u2019re thrilled to have this event graciously hosted by JFrog at their amazing offices. Don\u2019t miss this opportunity to connect, learn, and grow with fellow security enthusiasts!\n\n====================================================================\n\nAgenda:\nTBD\n\n====================================================================\nThis event is hosted by JFrog in collaboration with OWASP Israel.\nJoin us at the event physically as we will not include Zoom or remote participation this time."
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly meeting ",
@@ -180,14 +220,14 @@
         "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2024\" edition on November 28th and 29th in Utrecht, the Netherlands.\n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
-        "group": "New Zealand",
-        "repo": "www-chapter-new-zealand",
-        "name": "OWASP New Zealand - Auckland Meetup",
-        "date": "2024-11-19",
-        "time": "18:30+13:00",
-        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/297786624",
-        "timezone": "Pacific/Auckland",
-        "description": "We're picking up our regular Meetup schedule in 2024, starting in March.\n\nOur approximate agenda for the evening:\n\n* 6:00 p.m. - Gather and networking\n* 6:30 p.m. - Introductions, Top 10 Topic\n* 7:15 p.m. - Pizza and more networking\n* 7:45 p.m. - Technical Topic\n\nWe restarted our introductory coverage of the OWASP Top 10 (2021 edition) with A01:2021 in March, covering a new item each meeting.\n\nOur Top 10 topic for November will be **A05:2021 - Security Misconfiguration**.\n\n**Technical Topic Speaker:** Jagan Boda (Jay)\n**Talk Title:** How scary is a Post-Quantum Computing Crypto World?\n\nIn my presentation, I will explore the transformative potential and security challenges of quantum computing. I will try to explain key quantum concepts like superposition and entanglement, contrasting them with classical computing principles.\n\nI will address security concerns by discussing the vulnerability of current cryptographic algorithms and infrastructure to quantum attacks. A brief history of cryptography and solutions to the challenges from quantum computing. Then we will outline ongoing efforts to develop quantum-resistant cryptography and the standardization processes from organizations such as NIST.\n\nOpportunities for adoption of post-quantum computing safe algorithms exist today and can be planned for and budgeted. Education and awareness will be crucial, ensuring stakeholders understand the implications of quantum computing on cybersecurity.\n\nBy the end of the presentation, attendees will gain a foundational understanding of quantum computing's impact on security and practical steps to protect sensitive data in a quantum-enabled future.\n\nWe're always looking for presenters and topics for future meetings - contact John (john.dileo@owasp.org) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be John talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays."
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "OWASP NYC: 2024 ~ The Northeast Cyber Security Summit ",
+        "date": "2024-11-21",
+        "time": "09:00-05:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/304656490",
+        "timezone": "America/New_York",
+        "description": "OWASP has been asked to participate in a Wonderful Event at Quinnipiac University \\~ North Haven Campus with CyberSecurity & Fraud Leaders. In a joint effort, OWASP New York City, along with the OWASP CT Chapter, is a proud partner of this 2024 \\~ Northeast Cyber Security Summit Event.\n\nPlease signup @ Register here: https://tinyurl.com/NorthEastCyberSummit-OWASP\n\nRegister, please choose OWASP and then apply code: \"OWASP\"\nOr use the QR Code on the Flyer:\n\nCome learn for industry Experts: CyberSecurity & Fraud Leaders\nSharing Cyber industry trends with respect to vendors, investment, and product sprawl for 2025 planning\n\n* AI: Securing products, ensuring safety and trustworthiness\n* Case studies from law enforcement agencies, focusing on recent trends\n* Current prevalence of AI-based cyber attacks, intrusions, responses, etc.\n* The convergence of fraud prevention/risk management and cybersecurity\n* Zero Trust, what it means in the context of risk strategy vs products & services\n\nWhen: Thursday November 21, 2024 @ 9:00 - 4:00\nWhere: Quinnipiac University \\~ North Haven Campus\n370 Bassett Road North Haven, Connecticut 06473\nRegister here: https://tinyurl.com/NorthEastCyberSummit-OWASP\n\nThe agenda will offer informative sessions and the opportunity to earn In addition. By attending a full day at the Cybersecurity Summit, you will receive a certificate granting you Continuing Education Units or Continuing Professional Education Credits. To earn these credits, you must participate in the entire summit & confirm your attendance at the end of the day.\n\nBreakfast and Lunch provided\n\nDon't forget to stop by our OWASP NYC & CT Chapter Booth"
     },
     {
         "group": "Orange County",
@@ -250,16 +290,6 @@
         "description": "It's music night! Come join us for live music and great chat. \n\nThirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
-        "group": "Philadelphia",
-        "repo": "www-chapter-philadelphia",
-        "name": "OMFG We've been hacked! Cyber Insurance Policy after the Walls Come Down",
-        "date": "2024-11-19",
-        "time": "19:00-05:00",
-        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/304442953",
-        "timezone": "America/New_York",
-        "description": "Last Call!! Woah has it been (almost) a year?! You'd forgive me if I am confused while we experience May weather in November. Anyhow, this will in fact be our last in person meeting for the good year 2024. Please join us for comradery, security, and our final speaker - Mike Briley! There's been quite a buzz (not an OWASP joke) around this one since we announced it way back in September. Close down the year with us with this engaging speaker. Lite refreshments will be served.\n\nThis talk will explore many elements of the cyber insurance industry. Security controls have failed, leading to a system compromise. So now what?! He will discuss what a cyber policy covers and how the process unfolds while taking a deep dive into a real-life claims example."
-    },
-    {
         "group": "Phoenix",
         "repo": "www-chapter-phoenix",
         "name": "December 2024 Meeting",
@@ -288,6 +318,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/300539102",
         "timezone": "America/Los_Angeles",
         "description": "**Haley Kelly** is a dedicated cybersecurity professional who is passionate about sharing knowledge and inspiring others. After overcoming some challenges in the job market, she successfully landed an internship at GuidePoint Security. Through mentorship, networking, and continuous learning, Haley has gained valuable insights into the cybersecurity industry. In this talk, she will share practical tips and strategies that helped her break into the field, including the importance of building relationships, attending industry events, and staying current on the latest trends.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Stockholm",
+        "repo": "www-chapter-stockholm",
+        "name": "OWASP Stockholm - Security Game Night",
+        "date": "2024-11-27",
+        "time": "17:30+01:00",
+        "link": "https://www.meetup.com/owasp-stockholm/events/304646738",
+        "timezone": "Europe/Stockholm",
+        "description": "It's time for our next OWASP monthly event and on this occasion, we will be having a CTF- style security game night in Detectify Stockholm office.\n\nWe will start the evening with a mingle at 17:30 followed by the welcome talk that will start at 18:00. After the welcome talks, we will start playing the challenges. Light refreshments and pizzas will be provided.\n\nAnd do not forget to bring your laptops with you!\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nJoin OWASP Stockholm mailing list to get notified of upcoming events [https://groups.google.com/a/owasp.org/g/stockholm-chapter](https://groups.google.com/a/owasp.org/g/stockholm-chapter)\nJoin our Slack channel on OWASP Slack *[#chapter-stockholm](https://owasp.slack.com/)*"
     },
     {
         "group": "Stuttgart",
