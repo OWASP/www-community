@@ -14,7 +14,9 @@ auto-migrated: 1
 
 # Description
 
-Referencing memory after it has been freed can cause a program to crash.
+Referencing memory after it has been freed can cause a program to crash. 
+Examples of this would include RomCom's use of  CVE-2024-9680 [1] and 
+CVE-2024-49039 [2] to drop RomCom's Rat tool on an exploited system.
 
 The use of heap allocated memory after it has been freed or deleted
 leads to undefined system behavior and, in many cases, to a
@@ -135,3 +137,9 @@ shellcode, execution of arbitrary code can be achieved.
     memory they point to has been freed can be effective strategy. The
     utilization of multiple or complex data structures may lower the
     usefulness of this strategy.
+
+# References
+
+[1] CVE-2024-9680; https://nvd.nist.gov/vuln/detail/CVE-2024-9680
+
+[2] CVE-2024-49039; https://nvd.nist.gov/vuln/detail/CVE-2024-49039
