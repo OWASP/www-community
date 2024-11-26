@@ -30,10 +30,8 @@ and sometimes overlapping causes:
     the memory
 
 Use after free errors sometimes have no effect and other times cause a
-program to crash. While it is technically feasible for the freed memory
-to be re-allocated and for an attacker to use this reallocation to
-launch a buffer overflow attack, we are unaware of any exploits based on
-this type of attack.
+program to crash or to exploit another memory-based vector to compromise
+the system.
 
 The use of previously freed memory can have any number of adverse
 consequences - ranging from the corruption of valid data to the
