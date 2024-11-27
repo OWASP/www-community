@@ -210,6 +210,16 @@
         "description": "Exciting News!  Join us at the \"OWASP BeNeLux Days 2024\" edition on November 28th and 29th in Utrecht, the Netherlands.\n\n Explore the latest in security, devops, and cloud with technical talks by industry experts.\n Get hands-on with top security training sessions.\n Gain insights from keynotes by industry leaders.\n Discover cutting-edge security tech at vendor booths.\n\nCheck the link below for more information and registering for the event:\n[https://www.owaspbenelux.eu/](https://www.owaspbenelux.eu/)"
     },
     {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
+        "name": "Orange County Cyber Mixer",
+        "date": "2024-12-03",
+        "time": "18:00-08:00",
+        "link": "https://www.meetup.com/owasp-oc/events/304778812",
+        "timezone": "America/Los_Angeles",
+        "description": "Hello OC Cyber Folks!\n***Ready for another round!!!??? Please join us for our Joint OC Cyber Mixer!!***\n**When:** **Tuesday December 3rd, 2024**\n**Time:** **6 PM- 9PM**\n**Location:** **Hangar 24**\n17877 Von Karman Ave Unit 110, Irvine, CA 92614\n\nCome mix and mingle with your peers in a **SAFE** networking environment. You also do not need to drink to enjoy! So come join us and meet new folks!!!\n\n**Vendors** are welcome **BY INVITATION ONLY.** Please contact Jackie from Cloud Security Alliance (CSA) if you are an interested vendor, as *we only allow a few per event.* No selling allowed.\n\nParking will be validated with proof of purchase.\nYou may RSVP to any of the meetup groups -- we're all friends here! Here's the CSA link: https://www.meetup.com/cloud-security-alliance-csa-orange-county/events/304591473/?eventOrigin=group_similar_events"
+    },
+    {
         "group": "Orlando",
         "repo": "www-chapter-orlando",
         "name": "OWASP Orlando - Application Security",
@@ -310,6 +320,16 @@
         "description": "**Exploiting deserialization vulnerabilities in recent Java versions**\n\nDue to attack techniques such as Insecure Deserialization and JNDI Injection, Java applications were prime targets for attackers. However, recent changes in Java have rendered many known exploits and attack patterns ineffective in newer versions. This talk will provide an overview of these changes and discuss which techniques are still viable. Additionally, we will discuss how to harden existing Java applications that run on current Java versions.\n\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
     },
     {
+        "group": "Suffolk",
+        "repo": "www-chapter-suffolk",
+        "name": "OWASP Suffolk Chapter Meeting - Social Event",
+        "date": "2024-12-10",
+        "time": "19:00Z",
+        "link": "https://www.meetup.com/owasp-suffolk-chapter/events/304781594",
+        "timezone": "Europe/London",
+        "description": "**Let me invite you to our first in-person event of the year!**\nThis is a great opportunity for knowledge sharing and networking. There is no strict agenda\u2014this will be a more casual meeting where we can discuss interesting security-related topics and make plans for the chapter in 2025. Please bring your ideas, questions, and any topics you\u2019d like to share.\n**Agenda:**\n\n* Open discussions on security (and other related) topics\n* Exchange of experiences, thoughts and ideas"
+    },
+    {
         "group": "Uruguay",
         "repo": "www-chapter-uruguay",
         "name": "OWASP R\u00edo de la Plata 2024",
@@ -327,7 +347,17 @@
         "time": "18:30Z",
         "link": "https://www.meetup.com/owasp-warwick/events/304629401",
         "timezone": "Europe/London",
-        "description": "Come and join us at our first OWASP Warwick CTF.\n\nThis is a ticketed event. Only those with a ticket will be able to participate.\n\nWe are looking for both students and industry to take part."
+        "description": "Come and join us at our first OWASP Warwick CTF.\n\nThis is a ticketed event. Only those with a ticket will be able to participate.\n\nWe are looking for both students and industry to take part.\n\nPre registration\n\nhttps://web.cmdnctrlsecurity.com/registration-owasp"
+    },
+    {
+        "group": "Yerevan",
+        "repo": "www-chapter-yerevan",
+        "name": "OWASP Yerevan November meetup - Tigran Hovhannisyan, Samvel Harutyunyan (FIXED)",
+        "date": "2024-11-27",
+        "time": "19:00+04:00",
+        "link": "https://www.meetup.com/owasp-yerevan/events/304774408",
+        "timezone": "Asia/Yerevan",
+        "description": "OWASP Yerevan November meetup agenda:\n\n1. The status of Digitization of different sectors in Armenia: risk assessment - Tigran Hovhannisyan, Samvel Harutyunyan\n\nLocation: American University of Armenia\nRoom number 314W in Paramaz Avedisian building (PAB, second/new building)."
     },
     {
         "group": "Wrongsecrets",
