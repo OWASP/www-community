@@ -289,7 +289,7 @@ It's very useful to include these types of tools into a web application developm
 
 ## Information Links
 
-- [W3C Specifications: CSP 1.0](http://www.w3.org/TR/CSP), [CSP 1.1](http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html)
+- W3C Specifications: [Latest](http://www.w3.org/TR/CSP), [CSP 1 (NOTE)](http://www.w3.org/TR/CSP1), [CSP 2 (REC)](http://www.w3.org/TR/CSP2), [CSP 3 (WD 20241122)](https://www.w3.org/TR/2024/WD-CSP3-20241122/)
 - [Introduction to CSP](http://www.html5rocks.com/en/tutorials/security/content-security-policy)
 - [CSP browser support](http://caniuse.com/#feat=contentsecuritypolicy)
 - [CSP readiness browser testing](http://erlend.oftedal.no/blog/csp/readiness/)
