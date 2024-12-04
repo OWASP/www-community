@@ -130,26 +130,6 @@
         "description": "/\\*\\* VIRTUAL \\*\\*/\n**TOPIC**: AI and OWASP \u2013 a guide to Artificial Intelligence for security professionals\nJoin us for our last meeting of 2024 for an amazing talk by **Rob van der Veer**\\, founder of OWASP AI Exchange\\, a pioneer and veteran in AI\\, security\\, and software engineering \\| Senior principal expert at SIG\\.\n\n**ABSTRACT**:\nOWASP is on the forefront of AI security, with the AI Exchange directly contributing to international standards and the LLM top 10 gaining broad adoption. Let\u2019s go over these OWASP projects to see what they offer, and what is important for you as security professional when it comes to protecting and red teaming AI systems.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
     },
     {
-        "group": "Minneapolis St Paul",
-        "repo": "www-chapter-minneapolis-st-paul",
-        "name": "December meetup: The new age of Product Security",
-        "date": "2024-12-03",
-        "time": "17:30-06:00",
-        "link": "https://www.meetup.com/owasp-msp-meetup/events/304671791",
-        "timezone": "America/Chicago",
-        "description": "**The new age of Product Security**\n**Dimitry Shvartsman, Chief Product Officer, PrimeSec**\n\nIn today\u2019s fast-paced development landscape, the speed of code delivery has reached unprecedented levels, challenging traditional approaches to product security. Security professionals can no longer rely solely on vertical interventions or manual processes to safeguard products; the sheer volume and velocity of development demands our approach to change and adapt. This presentation explores the transformation that is required in product security, emphasizing the critical role of emerging tools like Large Language Models (LLMs) in enhancing our understanding of business context. By leveraging these advanced technologies, we can integrate security as early as the design stage of SDLC, enabling smarter, more preventative interventions. Join me to discover how security can become much more proactive by incorporating itself into the design stage and transforming how we approach product security.\n\nApproximate agenda (U.S. Central Time):\n5:30 - Doors open; socializing/connecting, food, OWASP announcements\n6:00 - Presentation\n\nPrimeSec is graciously providing food and drink for the event.\n\nPlease remember to register and keep your registration up to date so we know how many to expect."
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Orange County Cyber Mixer",
-        "date": "2024-12-03",
-        "time": "18:00-08:00",
-        "link": "https://www.meetup.com/owasp-oc/events/304778812",
-        "timezone": "America/Los_Angeles",
-        "description": "Hello OC Cyber Folks!\n***Ready for another round!!!??? Please join us for our Joint OC Cyber Mixer!!***\n**When:** **Tuesday December 3rd, 2024**\n**Time:** **6 PM- 9PM**\n**Location:** **Hangar 24**\n17877 Von Karman Ave Unit 110, Irvine, CA 92614\n\nCome mix and mingle with your peers in a **SAFE** networking environment. You also do not need to drink to enjoy! So come join us and meet new folks!!!\n\n**Vendors** are welcome **BY INVITATION ONLY.** Please contact Jackie from Cloud Security Alliance (CSA) if you are an interested vendor, as *we only allow a few per event.* No selling allowed.\n\nParking will be validated with proof of purchase.\nYou may RSVP to any of the meetup groups -- we're all friends here! Here's the CSA link: https://www.meetup.com/cloud-security-alliance-csa-orange-county/events/304591473/?eventOrigin=group_similar_events"
-    },
-    {
         "group": "Orlando",
         "repo": "www-chapter-orlando",
         "name": "OWASP Orlando - Application Security",
@@ -178,26 +158,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/303804635",
         "timezone": "Europe/London",
         "description": "Invite only meal, please submit attendance though group comms channel"
-    },
-    {
-        "group": "Phoenix",
-        "repo": "www-chapter-phoenix",
-        "name": "December 2024 Meeting",
-        "date": "2024-12-03",
-        "time": "19:30-07:00",
-        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/304602289",
-        "timezone": "America/Phoenix",
-        "description": "**Reverse Engineering Basics** (75 min)\nWe'll go over the basics of reverse engineering starting with what it is and why the activity is so important.\n\nWe'll cover the reverse engineering mindset, executable formats, tools (we'll mostly use Ghirda [https://ghidra-sre.org/](https://ghidra-sre.org/), but touch on IDAPro, and ImHex) of the trade, we'll touch on reverse engineering techniques for embedded devices as well.\n\nLastly we'll have an executable for everyone to reverse engineer.\n\nSo bring your laptop with Ghirda installed (feel free to install the other two as well).\n\n**NOTE: We are starting at 7:30 pm beginning this month. Also, the date is Tues, December 3rd. The original email had the wrong date. Apologies!**"
-    },
-    {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "OWASP Meeting in Krakow - Threat Modeling",
-        "date": "2024-12-03",
-        "time": "18:00+01:00",
-        "link": "https://www.meetup.com/owasp-poland/events/304454776",
-        "timezone": "Europe/Warsaw",
-        "description": "Hi,\nThis time we will focus on threat modeling - a proactive technique of risk analysis which could help to determine and fix potential vulnerabilities before they will even appear in the code, configuration or architecture.\nNowadays \"threat modeling\" has become a trendy buzz word. During our meetup we will try to uncover it's real meaning and discuss how to practically implement threat modeling in software development lifecycle.\n\nAgenda:\n\n1. **Threat modeling for application security \u2013 a case study**\n*Marta Rusek (Senior Cloud Security Engineer) & Wiktor Cudek (Principal Cloud Security Engineer) - Pegasystems.*\nThreat modeling is one of the parts of the SDLC process, that embed security throughout early stages of development. Thanks to that, we are able to detect potential problems at the beginning and avoid a lot of changes on the advanced maturity of the product.\nThe goal of this presentation is to compare the most well-known Threat\nModeling methodologies, their strong and weak sides. Based on our knowledge, we will compare these methods with the process and tools that are used in our company, and share our experience based on the work with development teams.\n2. After the break, we will host a **discussion about threat modeling**. Share our experiences with TM. When it's applicable. How to start doing TM in your project? Which techniques and methodologies works and when? What should be our goals? Is it possible to simplify the threat modeling process? That's just example of questions that we want to ask.\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this invitation** with friends and in your social media."
     },
     {
         "group": "San Antonio",
