@@ -22,11 +22,11 @@ A bank website however most likely doesn't want to allow any transactional pages
 The `lax` value provides a reasonable balance between security and usability for websites that want to maintain user's logged-in session 
 after the user arrives from an external link. In the above GitHub scenario, the session cookie would be allowed when following a regular link 
 from an external website while blocking it in CSRF-prone request methods (e.g. POST).  `lax` is as of December 2024 the default for Chrome, Edge and Opera but not for any Firefox or Safari. 
-That means if a cookie is set it will default using those browsers to `lax` unlkess otherwise stated.
+That means if a cookie is set it will default using those browsers to `lax` unless otherwise stated.
 
 The `none` value won't give any kind of protection. The browser attaches the cookies in all cross-site browsing contexts.
 
-The default value of the SameSite attribute differs with each browser, therefore it is advised to explicitly set the value of the attribute. 
+The default value of the SameSite attribute differs with each browser, therefore it is advised to explicitly set the value of the attribute.
 
 As of November 2017 the SameSite attribute is implemented in almost every browser. Chrome, Firefox, and Opera. Since version 12.1 Safari also supports this. 
 
