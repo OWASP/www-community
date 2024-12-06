@@ -20,26 +20,6 @@
         "description": "In der Fuggerstadt wird IT-SECURITY gro\u00df geschrieben. Egal ob IT-Security-Interessent\\*in, CISO, Hacker/Haeckse, Pentester\\*in, Entwickler\\*in, Netzi, Endanwender\\*in oder whatever - alle sind willkommen. Eine OWASP-Mitgliedschaft ist (nat\u00fcrlich w\u00fcnschenswert, aber) nicht notwendig!\n\n**Wir freuen uns auf neue Gesichter, Stammg\u00e4ste und sporadische Teilnehmer\\*innen :-)**\n\n**Agenda**\n**\\- Moderierte offene Diskussion:**\nHaben Cookies eine Daseinsberechtigung in sicherheitsrelevanten Anwendungen? Sind Cookies noch sicher? Waren sie es jemals? Achim wird uns hierzu noch ein paar Argumente mitbringen. Klingt spannend? Ist es! :-)\n\nZu Achim:\n**Achim Hoffmann** ist als 'OWASP-Urgestein' ein langj\u00e4hriger (>25 Jahre), auf Web Application Security spezialisierter Berater, (Pen-)Tester, Trainer und Sprecher; Er ist Board Member von OWASP-Germany und OWASP-Project-Leader u.a. f\u00fcr O-Saft\n\n**\\- Navigating the Security Maze: Ein interaktives Abenteuer**\nObwohl seit Jahren in aller Munde, ist DevSecOps noch lange kein gel\u00f6stes Problem.\nDiese interaktive Session macht die Herausforderungen von Sicherheit im Entwicklungsprozess erlebbar: Die Teilnehmenden werden mit mehreren Szenarien aus dem Projektalltag konfrontiert und gestalten mit ihren Entscheidungen den weiteren Verlauf des Vortrags mit. Sie m\u00fcssen dabei Sicherheitsanforderungen mit Budget, Entwicklungsgeschwindigkeit und Benutzerfreundlichkeit in Einklang bringen und das Projekt sicher von der Idee zum Livegang bringen.\n\nZu Clemens:\n**Clemens H\u00fcbner** studierte Mathematik und Informatik und schloss mit einer Masterarbeit zur Sicherheit in agilen Entwicklungsmodellen ab. Nach T\u00e4tigkeiten als Software Developer sowie im Penetration Testing ist er seit 2018 als Security Engineer bei inovex. Dort begleitet er heute Projekte auf Konzeptions- und Implementierungsebene, schult Kolleg:innen und ber\u00e4t zu DevSecOps.\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst auch einen Talk halten? Super, wir sind immer auf der Suche nach interessanten Inhalten. Egal ob Vortrag, Diskussion, Idee, Lightning-Talk, etc. Wir dienen auch gerne als Probepublikum :-) Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
     },
     {
-        "group": "Birmingham Uk",
-        "repo": "www-chapter-birmingham-uk",
-        "name": "OWASP Birmingham December Meeting ",
-        "date": "2024-12-05",
-        "time": "18:00Z",
-        "link": "https://www.meetup.com/meetup-group-owasp-birmingham/events/304245900",
-        "timezone": "Europe/London",
-        "description": "Hey all,\n\n Date: Thursday 5th December 2024\n\u23f0 Time: 6:00 PM onwards\n Location: Hays Office, Central Birmingham\n\nAs usual, we'll have:\n\n* Two exciting cybersecurity talks\n* Food and refreshments provided\n* A chance to talk and connect with folks from across the cyber sector in the Midlands\n\nAll are welcome - from students to veterans and everyone in between!\n\nAgenda (ish) below:\n\n5.45pm - Doors open\n6.15pm - Welcome and Food\n6.30pm - TALK #1 \"How to secure the Black Hat infrastructure\"\n\n**Speaker:** James Holland (Technology Innovation at Palo Alto Networks)\n**Synopsis:** There's a good reason that the organisers of the Black Hat conferences don't use the hots venue's own infrastructure. In fact there are many: ethical hackers learning and testing their skills, not-so-ethical hackers looking for targets, researchers demonstrating new offensive techniques, plus a lot of legal implications too.\nWe'll go behind the scenes at the network and security operations centres for the Black Hat conferences worldwide, to share more details, stories and plain-text credentials.\n\n7.00pm - Break\n7.15pm - TALK #2 \"Ship Happens: The Stormy Seas of Supply Chain Security\"\n\n**Speaker:** David Archer (Solution Architect at Endor Labs)\n**Synopsis:** Modern software development is a sprawling network of open-source dependencies, sophisticated build tools, plugins, pipelines, repositories and runtimes.\nThis \u201csupply chain\u201d is under relentless attack and many of the potential threats are poorly understood by our development and security teams.\nWe\u2019ll take a warts-and-all look at how software is produced, re-used and \u201csecured\u201d.\nWe'll explore strategies to mitigate some of the threats that exist and share practical takeaways that you can immediately implement in their software development practices.\nExpect to leave with a feeling of dread(!), but also hopefully a deeper understanding of supply chain security and where you should pay closer attention to your software factory.\n\n7.45pm - Questions/Any Other Business\n8.00pm - Close\n\nLooking forward to seeing you there!\n\nBest regards,\n\nJim + Nathe\nOWASP Birmingham Chapter Leaders"
-    },
-    {
-        "group": "Brisbane",
-        "repo": "www-chapter-brisbane",
-        "name": "End of year celebration!",
-        "date": "2024-12-05",
-        "time": "15:00+10:00",
-        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/304212914",
-        "timezone": "Australia/Brisbane",
-        "description": "Join us in celebrating yet another end to an amazing year. No presentations, just a catch up with all you hackers, security experts and enthusiasts alike.\nTell us about sweet hacks you\u2019ve done or things you\u2019ve heard about.\nHope to see you there!"
-    },
-    {
         "group": "Copenhagen",
         "repo": "www-chapter-copenhagen",
         "name": "A Night of CTF with Secure Code Warriors",
@@ -68,16 +48,6 @@
         "link": "https://www.meetup.com/indyowasp/events/303813178",
         "timezone": "America/New_York",
         "description": "Hi everyone -\n\nLet's plan to meet up at the Indy Hackers Holiday Social as our final meeting of the year!\n\n**\\*\\* Important \\*\\***\nRSVP'ing to this meetup event doesn't register you for the Indy Hackers Holiday Social.\n\nPlease register for the event at -\n\nhttps://www.eventbrite.com/e/2024-indy-hackers-holiday-social-tickets-1063326240409?aff=ebdssbdestsearch"
-    },
-    {
-        "group": "Indianapolis",
-        "repo": "www-chapter-indianapolis",
-        "name": "Secure Coding Tournament with Security Journey",
-        "date": "2024-12-05",
-        "time": "18:00-05:00",
-        "link": "https://www.meetup.com/indyowasp/events/304526987",
-        "timezone": "America/New_York",
-        "description": "**Title**\nOnline Secure Coding Tournament with Security Journey\n\n**Location**\nVirtual - Register at [https://info.securityjourney.com/owasp-indianapolis-ctf](https://info.securityjourney.com/owasp-indianapolis-ctf). You will be emailed login information before the tournament starts.\n\nThere will be a Zoom call during the event - [https://us02web.zoom.us/j/87163909513?pwd=L3pCVSWXDuEreLZwS8o8wHr0c5INPh.1&from=addon](https://us02web.zoom.us/j/87163909513?pwd=L3pCVSWXDuEreLZwS8o8wHr0c5INPh.1&from=addon)\n\n**Details**\n\n* **Prizes** \\- Security Journey will provide $100\\, $50\\, & $25 for first\\, second\\, and third place\\. The tournament will be running for 48 hours\\, but the prizes will be awarded to the leaders at 8PM on the day of the meetup\\.\n* **Languages -** The supported languages in the tournament are C#, Java, JavaScript, Ruby, and Python"
     },
     {
         "group": "Jacksonville",
@@ -110,16 +80,6 @@
         "description": "/\\*\\* VIRTUAL \\*\\*/\n**TOPIC**: AI and OWASP \u2013 a guide to Artificial Intelligence for security professionals\nJoin us for our last meeting of 2024 for an amazing talk by **Rob van der Veer**\\, founder of OWASP AI Exchange\\, a pioneer and veteran in AI\\, security\\, and software engineering \\| Senior principal expert at SIG\\.\n\n**ABSTRACT**:\nOWASP is on the forefront of AI security, with the AI Exchange directly contributing to international standards and the LLM top 10 gaining broad adoption. Let\u2019s go over these OWASP projects to see what they offer, and what is important for you as security professional when it comes to protecting and red teaming AI systems.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
     },
     {
-        "group": "Orlando",
-        "repo": "www-chapter-orlando",
-        "name": "OWASP Orlando - Application Security",
-        "date": "2024-12-05",
-        "time": "18:00-05:00",
-        "link": "https://www.meetup.com/owasp-orlando/events/302181930",
-        "timezone": "America/New_York",
-        "description": "This is an In-Person OWASP Orlando Chapter Meeting\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **Tony Turner**\nTopic: Five Elements of Trust - Tony will present on 5 elements of trustworthy software, useful in establishing software and technology assurance in your supply chains.\n\nSpeaker 2: **TBD**\nTopic: TBD"
-    },
-    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Capture the Flag [Placeholder]",
@@ -138,16 +98,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/303804635",
         "timezone": "Europe/London",
         "description": "Invite only meal, please submit attendance though group comms channel"
-    },
-    {
-        "group": "San Antonio",
-        "repo": "www-chapter-san-antonio",
-        "name": "Event Announcement: Jingle and Mingle - Alamo ISSA, Alamo ISC2, San Antonio ISAC",
-        "date": "2024-12-05",
-        "time": "16:30-06:00",
-        "link": "https://www.meetup.com/owasp-sanantonio/events/304766274",
-        "timezone": "America/Chicago",
-        "description": "|\n\nYou are invited to the following [event](https://urldefense.com/v3/__https:/alamoisc2.org/EmailTracker/LinkTracker.ashx?linkAndRecipientCode=KhkvpPlIN8oSQkXcsJiS4eCQW6U2iYiXSaQ8m6aQg0M9dNQjpyHuPOlsKhYhO3Q72jNYoxXc6otLmSrxwh0IdLk68a0995kfT5GR5MGmwso*3d__;JQ!!CiF3mHgEawk!D94IdLBNnUQ_CPByyZ6kbQiffqdXRrSUOT9mmGVd3rZprd3N1j_jmuozjcZSM3Ww7yQuCwAb9XjpQYlIcYz_ew$):\n\nJoint Jingle Mingle Event\n\nWhen: December 05, 2024 4:30 PM, CST\n\nWhere: Scuzzi's Italian Restaurant - 4035 N. Loop 1604 W., San Antonio, TX 78257\n\n**Will you be attending?**\n\n**EVENT DETAILS:**\n\n![](https://alamoisc2.org/resources/Pictures/JIngle%20Mingle%20Event.jpg)\n\nPlease register so we can get a head count. |\n| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n|"
     },
     {
         "group": "Seattle",
@@ -204,7 +154,7 @@
         "repo": "www-chapter-syracuse",
         "name": "Mock Interviews: Entry-Level Security Analyst and Project Manager",
         "date": "2024-12-06",
-        "time": "16:00-05:00",
+        "time": "16:15-05:00",
         "link": "https://www.meetup.com/syracuse-owasp-chapter/events/304878632",
         "timezone": "America/New_York",
         "description": "Are you transitioning into the cybersecurity field or exploring a career as a Security Analyst or Project Manager? Join us for a practical and interactive **Mock Interview Session** designed to provide real-world insights into the interview process for entry-level positions in these critical roles.\nThis session offers participants an invaluable opportunity to experience realistic interview scenarios, receive feedback from experienced professionals, and gain confidence for their career journey. Our panel of industry experts will provide personalized advice and share key strategies for excelling in interviews.\nWhether you're preparing for your first cybersecurity role or looking to polish your interview skills, this event is a must-attend!\n**Agenda:**\n\n1. **Welcome and Introduction** (10 minutes)\n\n* Overview of the session format and objectives.\n\n2. **Mock Interviews** (1 hour)\n\n* **4:15 PM \u2013 5:15 PM EST:**\n* **Security Analyst Interview**\n* Led by Brian (TSME - Eastern Standard Time).\n* Scenario-based and technical questions to simulate a real-world interview.\n* **5:15 PM \u2013 6:15 PM EST:**\n* **Project Manager Interview**\n* Led by Ryan (Pacific Time) and Joe (Mountain Time).\n* Focus on leadership, communication, and project coordination in cybersecurity.\n\n3. **Feedback and Insights** (10 minutes after each interview)\n\n* Panelists will provide constructive feedback and advice.\n\n4. **Networking and Q&A** (15 minutes)\n\n* Open forum for participants to ask questions and connect with industry professionals.\n* The event will be in a \"Livestream\" format.\n\n**RSVP Today!**\nTake advantage of this unique opportunity to build your confidence and prepare for success in your cybersecurity career. Spaces are limited, so register now!\nLet us help you ace your next interview!"
