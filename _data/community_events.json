@@ -30,16 +30,6 @@
         "description": " B\u00fct\u00fcn kibert\u0259hl\u00fck\u0259sizlik h\u0259v\u0259skarlar\u0131n\u0131 s\u0259sl\u0259yirik! \n\n2024-c\u00fc ilin yekun OWASP Bak\u0131 Chapter-inin g\u00f6r\u00fc\u015f\u00fc \u00fc\u00e7\u00fcn biz\u0259 qo\u015fulun! \n\n Tarix: 26 dekabr 2024-c\u00fc il\n Saat: 19:00 (Bak\u0131 vaxt\u0131 il\u0259 GMT+4)\n M\u0259kan: Onlayn\n\n\u0130li a\u015fa\u011f\u0131dak\u0131larla dolu maraql\u0131 sessiya il\u0259 yekunla\u015fd\u0131r\u0131r\u0131q:\n Maraql\u0131 texniki m\u00f6vzular\n S\u0259naye ekspertl\u0259ri il\u0259 A.M.A v\u0259 sual-cavab sessiyalar\u0131\n \u00d6yr\u0259nm\u0259k, payla\u015fmaq v\u0259 pe\u015f\u0259kar yolda\u015flarla \u0259laq\u0259 qurmaq imkanlar\u0131\n\nG\u0259lin bunu yadda qalan g\u00f6r\u00fc\u015f ed\u0259k! \n\nSuallar\u0131n\u0131z var? M\u00fct\u0259x\u0259ssisl\u0259rimiz sessiya zaman\u0131 onlara m\u00fcraci\u0259t ed\u0259 bilm\u0259si \u00fc\u00e7\u00fcn \u0259vv\u0259lc\u0259d\u0259n onlardan soru\u015fmaqdan \u00e7\u0259kinm\u0259yin.\n\nG\u0259lin 2024-c\u00fc ili birlikd\u0259 g\u00fccl\u00fc \u015f\u0259kild\u0259 ba\u015fa vuraq! \n\n#OWASP #CyberSecurity #BakuChapter #ApplicationSecurity #TechMeetup #CyberSecCommunity #InfoSec #AMA"
     },
     {
-        "group": "Jacksonville",
-        "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
-        "date": "2024-12-16",
-        "time": "17:30-05:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242792",
-        "timezone": "America/New_York",
-        "description": "OWASP topic TBA"
-    },
-    {
         "group": "Klagenfurt",
         "repo": "www-chapter-klagenfurt",
         "name": "QWASP Klagenfurt Meetup #x-mas-edition",
@@ -50,6 +40,16 @@
         "description": "** Willkommen zu unserem zweiten OWASP-Meetup in Klagenfurt!**\n\n Thema: 10 Proactive Controls\nIn unserem Hauptvortrag gibt Andreas Happe spannende Einblicke, wie Entwickler und Teams proaktiv Sicherheitsrisiken minimieren k\u00f6nnen \u2013 ein Muss f\u00fcr alle, die sichere Anwendungen und Websites bauen wollen.\n\nWir sind jedoch nicht nur auf diese Themen beschr\u00e4nkt und freuen uns, auch \u00fcber andere Bereiche der Sicherheit zu diskutieren, die Euch interessieren.\n\n Agenda:\nBegr\u00fc\u00dfung und Vorstellung (15 Minuten)\nVortrag: \"10 Proactive Controls\" (30 Minuten) by Andreas Happe\nOffener Austausch (30min)\n\n\u200d **F\u00fcr wen ist das Meetup?**\n\u2028Dieses Treffen ist f\u00fcr alle gedacht, die sich f\u00fcr die Sicherheit von Anwendungen und Web interessieren \u2013 vom Anf\u00e4nger bis zum Experten. Egal, ob Ihr Entwickler, IT-Sicherheitsexperten oder einfach nur an Sicherheitsthemen interessiert seid, Ihr seid herzlich willkommen.\n\nWir freuen uns darauf, eine offene und engagierte Gemeinschaft zu bilden, in der Wissen und Erfahrungen zum Thema Sicherheit geteilt werden.\n\nBringt Eure Fragen, Euer Wissen und Eure Neugier mit \u2013 gemeinsam machen wir das Internet ein St\u00fcck sicherer.\u2029Wir freuen uns auf Euch!\n\n **Let us know if you are an English speaker, as we are open to hosting this event in English too.**\n\nJoin us for our second OWASP Meetup in Klagenfurt, focused on **\"10 Proactive Controls\"** by Andreas Happe. Learn how to proactively secure your apps and websites!\n\nOpen to everyone: developers, security pros, or anyone interested in security \u2013 from beginners to experts."
     },
     {
+        "group": "Kolkata",
+        "repo": "www-chapter-kolkata",
+        "name": "OWASP KOLKATA MEETUP #15",
+        "date": "2024-12-21",
+        "time": "10:30+05:30",
+        "link": "https://www.meetup.com/owasp-kolkata/events/305111752",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Proposed sessions for this event:\n\n* Hacking GCP For Fun by **Agnibha Dutta**\n* A Real-Life Journey into Exploiting Ticketing Systems by **Rakesh Seal**\n* Rods and Hooks - The Phishing Trip by **Soummya Mukhopadhyay**\n* Zero Trust in the age of AI by **Deblohit Bose**"
+    },
+    {
         "group": "Lima",
         "repo": "www-chapter-lima",
         "name": "OWASP Meeting ",
@@ -58,16 +58,6 @@
         "link": "https://www.meetup.com/owasp-lima-meetup-group/events/305027183",
         "timezone": "America/Lima",
         "description": "**OWASP Meeting 2024**\n\nOWASP Lima Chapter Meeting (VIA ZOOM)\n\n**PRESENTACI\u00d3N:**\n**OWASP Projects: A Path to a Secure SDLC**\n\nExplora los principales proyectos de OWASP y c\u00f3mo integrarlos en cada etapa del Ciclo de Vida de Desarrollo de Software (SDLC) para garantizar la seguridad desde el dise\u00f1o hasta la implementaci\u00f3n. Conoce herramientas y est\u00e1ndares como OWASP Top 10, ASVS y ZAP, y su impacto en la construcci\u00f3n de software seguro y eficiente. Una oportunidad para profundizar en las mejores pr\u00e1cticas respaldadas por la comunidad global de OWASP."
-    },
-    {
-        "group": "Maribor",
-        "repo": "www-chapter-maribor",
-        "name": "Threat modeling",
-        "date": "2024-12-16",
-        "time": "20:00+01:00",
-        "link": "https://www.meetup.com/maribor-owasp-meetup-group/events/305019860",
-        "timezone": "Europe/Belgrade",
-        "description": "Pridru\u017eite se nam na zadnjem leto\u0161njem pred prazni\u010dnem dogodku, ki ga organizira OWASP Maribor. Gosta dogodka bosta:\n\n* g. **Marjan Kav\u010di\u010d** iz Urada Republike Slovenije za informacijsko varnost, ki bo predstavil leto\u0161nji na\u010drt priprave na mednarodno vajo;\n* g. **Ale\u0161 Brelih** iz podjetja 3fs, ki bo predstavil **threat modeling** kot sistemati\u010den pristop k prepoznavanju in obvladovanju varnostnih tveganj v aplikacijah in povezanih sistemih. Na predavanju bomo raziskali, zakaj je ta praksa pomembna, kako jo izvajamo, in si ogledali konkreten primer iz prakse."
     },
     {
         "group": "Peterborough",
