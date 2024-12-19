@@ -20,6 +20,26 @@
         "description": " B\u00fct\u00fcn kibert\u0259hl\u00fck\u0259sizlik h\u0259v\u0259skarlar\u0131n\u0131 s\u0259sl\u0259yirik! \n\n2024-c\u00fc ilin yekun OWASP Bak\u0131 Chapter-inin g\u00f6r\u00fc\u015f\u00fc \u00fc\u00e7\u00fcn biz\u0259 qo\u015fulun! \n\n Tarix: 26 dekabr 2024-c\u00fc il\n Saat: 19:00 (Bak\u0131 vaxt\u0131 il\u0259 GMT+4)\n M\u0259kan: Onlayn\n\n\u0130li a\u015fa\u011f\u0131dak\u0131larla dolu maraql\u0131 sessiya il\u0259 yekunla\u015fd\u0131r\u0131r\u0131q:\n Maraql\u0131 texniki m\u00f6vzular\n S\u0259naye ekspertl\u0259ri il\u0259 A.M.A v\u0259 sual-cavab sessiyalar\u0131\n \u00d6yr\u0259nm\u0259k, payla\u015fmaq v\u0259 pe\u015f\u0259kar yolda\u015flarla \u0259laq\u0259 qurmaq imkanlar\u0131\n\nG\u0259lin bunu yadda qalan g\u00f6r\u00fc\u015f ed\u0259k! \n\nSuallar\u0131n\u0131z var? M\u00fct\u0259x\u0259ssisl\u0259rimiz sessiya zaman\u0131 onlara m\u00fcraci\u0259t ed\u0259 bilm\u0259si \u00fc\u00e7\u00fcn \u0259vv\u0259lc\u0259d\u0259n onlardan soru\u015fmaqdan \u00e7\u0259kinm\u0259yin.\n\nG\u0259lin 2024-c\u00fc ili birlikd\u0259 g\u00fccl\u00fc \u015f\u0259kild\u0259 ba\u015fa vuraq! \n\n#OWASP #CyberSecurity #BakuChapter #ApplicationSecurity #TechMeetup #CyberSecCommunity #InfoSec #AMA"
     },
     {
+        "group": "Bhopal",
+        "repo": "www-chapter-bhopal",
+        "name": "OWASP Bhopal: Dec Chapter Meetup",
+        "date": "2024-12-22",
+        "time": "13:00+05:30",
+        "link": "https://www.meetup.com/owasp-bhopal-chapter/events/305149138",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us for the OWASP Bhopal Chapter Meetup to explore the latest trends in Cybersecurity. Our event will focus on topics such as Computer Security, Application Security, Penetration Testing, and Web Application Security. Dive deep into discussions on Software Security and Web Technology, while staying updated on Information Security best practices.\n\nThis meetup will also include interactive sessions on Capture the Flag challenges and Machine Learning applications in cybersecurity. Whether you are a seasoned professional or a newbie in the field, this event is a great opportunity to network with fellow enthusiasts and learn from industry experts. Don't miss out on this chance to enhance your knowledge and skills in the ever-evolving realm of cybersecurity."
+    },
+    {
+        "group": "Croatia",
+        "repo": "www-chapter-croatia",
+        "name": "Chapter Croatia Physical Meetup (Vara\u017edin)",
+        "date": "2024-12-23",
+        "time": "18:30+01:00",
+        "link": "https://www.meetup.com/owasp-croatia-meetup-group/events/305152045",
+        "timezone": "Europe/Belgrade",
+        "description": "Hello everyone, it\u2019s time for our OWASP Croatia meetup. This time, we will meet in person in Vara\u017edin Croatia for some coffee and short informal talks.\n\nOn the last meetup we talked about making a larger meetup with a few conference-length talks, but this is planned for some future time in Zagreb.\n\n**Location:** Inside of Park Boutique Hotel in Vara\u017edin. Monday, 23.12.2024 @ 18:30. (Our table is all the way in the back, near the bar)\n\n**We have a few topics for this meetup:**\n1\\. Nikola will talk about adventures in self hosting\\.\n2\\. Tony will talk about extracting 2FA seeds from walled gardens\\.\n3\\. We will discuss future activities for Chapter Croatia \\(Talks\\, Workshops\\, Projects\\)\n\n**Please RSVP to the event because we will have space reserved in the inside terrace and we need to let the venue know the number of chairs needed in the morning. If you are not coming, please remove the RSVP so we can plan accordingly. We need to tell the venue how many chairs / tables to prepare in the morning, so please make sure to keep your RSVP status correct.**"
+    },
+    {
         "group": "Dhaka",
         "repo": "www-chapter-dhaka",
         "name": "Securing Web Applications with OWASP Dhaka Chapter",
@@ -28,16 +48,6 @@
         "link": "https://www.meetup.com/owasp-dhaka-chapter/events/305130285",
         "timezone": "Asia/Dhaka",
         "description": "Join us for an informative event hosted by OWASP Dhaka Chapter, focusing on the latest trends in web application security, penetration testing, and software security. In this session, we will delve into topics such as information security, white hat hacking, and open source tools to defend against cyber threats. Building on the success of our previous events like \"OWASP Mobile Application Security Risk\" and \"Strengthening Software Quality Assurance for Robust Software Security,\" we aim to equip participants with practical skills and knowledge to secure their applications.\n\nWhether you are a cybersecurity enthusiast, software developer, or IT professional, this event offers a valuable opportunity to learn from experts in the field, collaborate with like-minded individuals, and stay updated on the ever-evolving landscape of cybersecurity. Don't miss out on this chance to expand your knowledge, network with industry peers, and enhance your expertise in software security with OWASP Dhaka Chapter."
-    },
-    {
-        "group": "Klagenfurt",
-        "repo": "www-chapter-klagenfurt",
-        "name": "QWASP Klagenfurt Meetup #x-mas-edition",
-        "date": "2024-12-18",
-        "time": "18:00+01:00",
-        "link": "https://www.meetup.com/owasp-klagenfurt-chapter/events/302811934",
-        "timezone": "Europe/Vienna",
-        "description": "** Willkommen zu unserem zweiten OWASP-Meetup in Klagenfurt!**\n\n Thema: 10 Proactive Controls\nIn unserem Hauptvortrag gibt Andreas Happe spannende Einblicke, wie Entwickler und Teams proaktiv Sicherheitsrisiken minimieren k\u00f6nnen \u2013 ein Muss f\u00fcr alle, die sichere Anwendungen und Websites bauen wollen.\n\nWir sind jedoch nicht nur auf diese Themen beschr\u00e4nkt und freuen uns, auch \u00fcber andere Bereiche der Sicherheit zu diskutieren, die Euch interessieren.\n\n Agenda:\nBegr\u00fc\u00dfung und Vorstellung (15 Minuten)\nVortrag: \"10 Proactive Controls\" (30 Minuten) by Andreas Happe\nOffener Austausch (30min)\n\n\u200d **F\u00fcr wen ist das Meetup?**\n\u2028Dieses Treffen ist f\u00fcr alle gedacht, die sich f\u00fcr die Sicherheit von Anwendungen und Web interessieren \u2013 vom Anf\u00e4nger bis zum Experten. Egal, ob Ihr Entwickler, IT-Sicherheitsexperten oder einfach nur an Sicherheitsthemen interessiert seid, Ihr seid herzlich willkommen.\n\nWir freuen uns darauf, eine offene und engagierte Gemeinschaft zu bilden, in der Wissen und Erfahrungen zum Thema Sicherheit geteilt werden.\n\nBringt Eure Fragen, Euer Wissen und Eure Neugier mit \u2013 gemeinsam machen wir das Internet ein St\u00fcck sicherer.\u2029Wir freuen uns auf Euch!\n\n **Let us know if you are an English speaker, as we are open to hosting this event in English too.**\n\nJoin us for our second OWASP Meetup in Klagenfurt, focused on **\"10 Proactive Controls\"** by Andreas Happe. Learn how to proactively secure your apps and websites!\n\nOpen to everyone: developers, security pros, or anyone interested in security \u2013 from beginners to experts."
     },
     {
         "group": "Kolkata",
@@ -88,6 +98,26 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/296181595",
         "timezone": "Europe/London",
         "description": "**Cyber Peterborough are hosting a CTF!**\n\nWe're working out the details, in the meantime - please sign up to watch out for updates!\n\n**What?**\n\n* A hosted capture the flag event\n\n**Where?**\n\n* TBD\n\n**When?**\n\n* TBD\n\n**Who for?**\n\n* All ages and abilities will be catered for!"
+    },
+    {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "January 2025 Meeting",
+        "date": "2025-01-07",
+        "time": "19:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/305156490",
+        "timezone": "America/Phoenix",
+        "description": "**Overview and Usage Feedback for New Patent:**\n**\"Method to encode and decode otherwise unrecorded private credentials, terms, phrases, or sentences.\" (45 - 60 min)**\n\n* The two inventors of patent #US20200387595A1 will share the basic concepts using \"Glyphs\" to encode recallable, robust passphrases.\n* The goal is to get constructive, candid feedback on the practicality of personal and enterprise usage\n* To test the concepts behind GlyphPass, please bring several photos on your phone that have good, non-obvious stories associated with the pictures.\n* Patent can be read here: [https://patents.google.com/patent/US20200387595A1/en?oq=%23US20200387595A1](https://patents.google.com/patent/US20200387595A1/en?oq=%23US20200387595A1) .\n\n**NOTE: We are starting at 7:30 pm since December.**"
+    },
+    {
+        "group": "San Antonio",
+        "repo": "www-chapter-san-antonio",
+        "name": "Shift Left  - A discussion of AppSec Best Practices",
+        "date": "2025-01-17",
+        "time": "11:00-06:00",
+        "link": "https://www.meetup.com/owasp-sanantonio/events/305152881",
+        "timezone": "America/Chicago",
+        "description": "**Shift Left - A discussion of AppSec Best Practices**\n11am-2pm for session\n2pm-3pm for happy hour\n\n**Details**\nTopics- See abstracts below\n\n* **Strategies for Aligning Programs with Modern Expectations-Frost Bank**\n* **Cultivating Developer Adoption in the era of Artificial Intelligence-Synk**\n* **The radical future of app and API security is in production-Contrast Security**\n* **CheckMarx**\n\n**Lunch Provided**\nScuzzi\u2019s Italian Restaurant - 4035 N Loop 1604 W #102, San Antonio, TX 78257\n\n**HAPPY HOUR** networking after session!!\n\n**ZOOM** link provided below for remote attendees\nhttps://optiv.zoom.us/j/91529424588?pwd=bgMmGiqvaLkEn9GeX8tISW9lcmPoFc.1&from=addon\n\nWe encourage everyone to attend in person. We will have door prizes and excellent food for all to enjoy, as you take advantage of this excellent networking opportunity!\nPlease feel free to pass this information on to your peers and team members.\n\nPlease reply **\u201cONSITE\u201d** if you plan on attending in person so we can finalize headcount for food and room attendance \n**Presentations will include:**\n\n***I. Strategies for Aligning Programs with Modern Expectations***\n***Vipul Gupta-SVP Frost Bank***\nIn this talk, Vipul plans to share his experience with building and scaling an Application Security program. He will share why engaging with development and business teams is essential for the Shift Left journey.\n\n***II. Cultivating Developer Adoption in the era of Artificial Intelligence-Snyk***\nIn today\u2019s fast-paced, AI-driven development landscape, securing developer adoption is key to integrating security seamlessly into workflows. This presentation explores practical strategies to overcome challenges like trust, tooling complexity, and unclear ownership. By focusing on people, processes, and tools, we demonstrate how to empower developers, reduce friction, and scale security effectively. Attendees will gain actionable insights to foster a collaborative culture where security becomes a natural part of development.\nOne of the biggest challenges that organizations face when shifting left is getting developers to actually adopt the \u201cshift left\" tools. This presentation speaks to how to overcome that.\n\n***III.*** **Development Team Transformation -Contrast Security**\nThe lines between proactive and reactive cyber defenses are somewhat arbitrary. If you blur those lines, you can some serious advantages. A SAST or SCA tool finding is a theoretical vulnerability that may or may not be exploitable, but if you can see that a vulnerability is within the blast radius of active probes or attacks, it suddenly becomes real. What might have been labeled as \"critical\" in pre-prod suddenly becomes \"super-critical\". On the other hand, things that are not exploitable in a production context due to compensating control, can be deprioritized preserving the limited attention of development for things that really matter. Join DevSecOps pioneer, Larry Maccherone, for this thought-provoking discussion on going right to shift left"
     },
     {
         "group": "Santa Barbara",
