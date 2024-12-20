@@ -2006,5 +2006,14 @@
       "platforms": "SaaS",
       "note": "EVA, the extended vulnerability assessment designed and developed at CyLock.",
       "type": "DAST"
+   },
+   {
+      "title": "ResilientX UEM",
+      "url": "https://www.resilientx.com",
+      "owner": "ResilientX Security",
+      "license": "Commercial",
+      "platforms": "SaaS",
+      "note": "ResilientX UEM provides an All-in-One Continuous Testing and Monitoring solution, by integrating ASM, DAST, CSPM",
+      "type": "DAST"
    }
 ]
