@@ -1,5 +1,25 @@
 [
     {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Reducing AppSec Risk with ASPM (Application Security Posture Managament) ",
+        "date": "2025-01-23",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/304566000",
+        "timezone": "America/New_York",
+        "description": "In an era of increasingly sophisticated threat actors, application security has become a critical concern for most organizations. This talk, \"Reducing Application Security Risk with ASPM (Application Security Posture Management),\" will explore the emerging role of ASPM in fortifying application security and accelerating DevSecOps and cloud native adoption.\n\nAttendees will gain insights into the current state of application security and DevSecOps adoption trends: challenges and opportunities across people, process, and technology. This also includes the impact of AI.\n\nThe talk will have a focus on ASPM and how it will help overcome some of the challenges and capitalize on the opportunities. We will delve into key ASPM features and how each of these use cases could be leveraged to solve common application security & DevSecOps adoption challenges and further mature your program. Through practical examples and case studies, the session will highlight best practices for implementing ASPM in large scale application development ecosystems to reduce application security risks. Whether you're a developer, security professional, manager or executive, this talk will equip you with actionable strategies to improve your application security posture and accelerate DevSecOps adoption."
+    },
+    {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "The Menace of Mobile Malware",
+        "date": "2025-01-16",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/305244493",
+        "timezone": "America/New_York",
+        "description": "As mobile devices become indispensable, they have also become prime targets for malicious actors. \"The Menace of Mobile Malware\" is a live-action presentation designed to expose attendees to the real-world dangers of mobile malware. From trojan horses to full-scale ransomware attacks targeting mobile platforms, this session will explore how these threats operate, their tactics, and how to detect and mitigate them."
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "January 2025 OWASP Happy Hour sponsored by Cequence",
