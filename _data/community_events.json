@@ -30,16 +30,6 @@
         "description": "**When:** Thursday, January 9th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Cequence](https://www.cequence.ai)\n*Cequence, a pioneer in API Security, is the only vendor with a comprehensive Unified API Protection solution offering discovery, compliance, and protection across all internal and external APIs to defend against attacks, targeted abuse, and fraud. Onboard APIs in less than 15 minutes, without needing any instrumentation, SDK, or JavaScript deployments. Cequence solutions scale to handle the most demanding government, Fortune and Global 2000 organizations, securing more than 8 billion daily API calls and protecting more than 3 billion user accounts across these customers. Its flexible deployment model supports passive/inline, on-premises, SaaS, and hybrid deployments.*"
     },
     {
-        "group": "Baku",
-        "repo": "www-chapter-baku",
-        "name": "OWASP Baku Chapter: Securing the final bytes of 2024!",
-        "date": "2024-12-26",
-        "time": "19:00+04:00",
-        "link": "https://www.meetup.com/owasp-baku-chapter/events/305050046",
-        "timezone": "Asia/Baku",
-        "description": " B\u00fct\u00fcn kibert\u0259hl\u00fck\u0259sizlik h\u0259v\u0259skarlar\u0131n\u0131 s\u0259sl\u0259yirik! \n\n2024-c\u00fc ilin yekun OWASP Bak\u0131 Chapter-inin g\u00f6r\u00fc\u015f\u00fc \u00fc\u00e7\u00fcn biz\u0259 qo\u015fulun! \n\n Tarix: 26 dekabr 2024-c\u00fc il\n Saat: 19:00 (Bak\u0131 vaxt\u0131 il\u0259 GMT+4)\n M\u0259kan: Onlayn\n\n\u0130li a\u015fa\u011f\u0131dak\u0131larla dolu maraql\u0131 sessiya il\u0259 yekunla\u015fd\u0131r\u0131r\u0131q:\n Maraql\u0131 texniki m\u00f6vzular\n S\u0259naye ekspertl\u0259ri il\u0259 A.M.A v\u0259 sual-cavab sessiyalar\u0131\n \u00d6yr\u0259nm\u0259k, payla\u015fmaq v\u0259 pe\u015f\u0259kar yolda\u015flarla \u0259laq\u0259 qurmaq imkanlar\u0131\n\nG\u0259lin bunu yadda qalan g\u00f6r\u00fc\u015f ed\u0259k! \n\nSuallar\u0131n\u0131z var? M\u00fct\u0259x\u0259ssisl\u0259rimiz sessiya zaman\u0131 onlara m\u00fcraci\u0259t ed\u0259 bilm\u0259si \u00fc\u00e7\u00fcn \u0259vv\u0259lc\u0259d\u0259n onlardan soru\u015fmaqdan \u00e7\u0259kinm\u0259yin.\n\nG\u0259lin 2024-c\u00fc ili birlikd\u0259 g\u00fccl\u00fc \u015f\u0259kild\u0259 ba\u015fa vuraq! \n\n#OWASP #CyberSecurity #BakuChapter #ApplicationSecurity #TechMeetup #CyberSecCommunity #InfoSec #AMA"
-    },
-    {
         "group": "Dhaka",
         "repo": "www-chapter-dhaka",
         "name": "Securing Web Applications with OWASP Dhaka Chapter",
@@ -60,16 +50,6 @@
         "description": "OWASP topic TBA"
     },
     {
-        "group": "Lima",
-        "repo": "www-chapter-lima",
-        "name": "OWASP Meeting ",
-        "date": "2024-12-26",
-        "time": "19:30-05:00",
-        "link": "https://www.meetup.com/owasp-lima-meetup-group/events/305191623",
-        "timezone": "America/Lima",
-        "description": "**OWASP Meeting 2024**\n\nOWASP Lima Chapter Meeting (VIA ZOOM)\n\n**PRESENTACI\u00d3N:**\n**OWASP Projects: A Path to a Secure SDLC**\n\nExplora los principales proyectos de OWASP y c\u00f3mo integrarlos en cada etapa del Ciclo de Vida de Desarrollo de Software (SDLC) para garantizar la seguridad desde el dise\u00f1o hasta la implementaci\u00f3n. Conoce herramientas y est\u00e1ndares como OWASP Top 10, ASVS y ZAP, y su impacto en la construcci\u00f3n de software seguro y eficiente. Una oportunidad para profundizar en las mejores pr\u00e1cticas respaldadas por la comunidad global de OWASP."
-    },
-    {
         "group": "London",
         "repo": "www-chapter-london",
         "name": "OWASP London Chapter Meetup [IN-PERSON]",
@@ -88,6 +68,16 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/299885971",
         "timezone": "America/Chicago",
         "description": "TBD"
+    },
+    {
+        "group": "Natal",
+        "repo": "www-chapter-natal",
+        "name": "Gerenciamento de bibliotecas vulner\u00e1veis com o uso do EPSS",
+        "date": "2024-12-27",
+        "time": "20:00-03:00",
+        "link": "https://www.meetup.com/owasp-natal-chapter/events/305269079",
+        "timezone": "America/Fortaleza",
+        "description": "J\u00e1 se perguntou qual vulnerabilidade de sua aplica\u00e7\u00e3o representa a maior amea\u00e7a real? O **EPSS** (Exploit Prediction Scoring System) pode te ajudar a responder essa pergunta!\nNeste meetup, o **Matheus C\u00e9zar** ir\u00e1 nos apresentar essa poderosa m\u00e9trica que estima a probabilidade de uma vulnerabilidade ser explorada em ataques reais.\n**Voc\u00ea vai aprender:**\n\n* O que \u00e9 o EPSS e como ele funciona?\n* Qual a import\u00e2ncia do EPSS na gest\u00e3o de vulnerabilidades?\n* Como utilizar o EPSS em conjunto com ferramentas de SCA (Software Composition Analysis)?\n* Casos pr\u00e1ticos e exemplos de como o EPSS pode te auxiliar na tomada de decis\u00f5es."
     },
     {
         "group": "Peterborough",
