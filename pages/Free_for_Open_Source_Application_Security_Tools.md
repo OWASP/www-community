@@ -348,6 +348,10 @@ Secrets detection is often confused with SAST because both scan through static s
 
 - [xCOMPASS](https://github.com/Comcast/xCOMPASS/) - a simple tool that allows developers to determine their privacy engineering requirements early in the product development lifecycle. xCOMPASS has also been listed by [NIST in their Privacy Engineering Program Collaboration Space as one of four Risk Assessment Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/privacy-risk-assessment/tools) and [CISA as one of the open-source tools that promote cybersecurity best practices](https://www.cisa.gov/resources-tools/services/xcompass).
 
+### Intel and Repository Analysis Tools
+
+- [Gitxray](https://github.com/kulkansecurity/gitxray/) - Gitxray (short for Git X-Ray) is an opensource tool designed for use on GitHub repositories. It leverages public GitHub REST APIs to gather information on Contributors and Repositories that would otherwise be very time-consuming to obtain manually. It can identify fake or shared contributor accounts, collect sensitive information in contributor profiles by looking in unconventional places (e.g. by parsing GPG key blobs), flag dangerous repository activity, and a lot more available in [its documentation](https://www.gitxray.com).
+
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
 them to this page). We are particularly interested in identifying and
