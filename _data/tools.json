@@ -7,7 +7,7 @@
       "platforms": null,
       "note": "Scans C/C++/Java/Binary/Javascript/Python/Kotlin.",
       "type": "SAST"
-   },
+       },
        {
       "title": "parse",
       "url": "https://github.com/psecio/parse",
@@ -16,7 +16,7 @@
       "platforms": null,
       "note": "Scans PHP",
       "type": "SAST"
-   },
+       },
        {
       "title": "talisman",
       "url": "https://thoughtworks.github.io/talisman/",
@@ -25,7 +25,7 @@
       "platforms": "MAC OSX, Linux and Windows",
       "note": "Scans git changesets",
       "type": "SAST"
-   },
+       },
        {
       "title": "prowler",
       "url": "https://prowler.com/",
@@ -34,7 +34,7 @@
       "platforms": null,
       "note": "Scans for AWS, Azure, GCP and Kubernetes.",
       "type": "SAST or DAST"
-   },
+       },
        {
       "title": "nancy",
       "url": "https://github.com/sonatype-nexus-community/nancy",
@@ -43,7 +43,7 @@
       "platforms": null,
       "note": "Scans for Golang dependencies",
       "type": "SAST"
-   },
+       },
        {
       "title": "sobelow",
       "url": "https://github.com/nccgroup/sobelow",
@@ -52,7 +52,7 @@
       "platforms": null,
       "note": "Scans for Phoenix Framework",
       "type": "SAST"
-   },
+       },
        {
       "title": "spiderfoot",
       "url": "https://github.com/smicallef/spiderfoot",
@@ -61,7 +61,7 @@
       "platforms": null,
       "note": "Scans for threat intelligence and mapping your attack surface.",
       "type": "SAST or DAST"
-   },
+       },
        {
       "title": "qark",
       "url": "https://github.com/linkedin/qark",
@@ -70,7 +70,7 @@
       "platforms": null,
       "note": "Scans for several security related Android application vulnerabilities",
       "type": "SAST or DAST"
-   },
+       },
        {
       "title": "iblessing",
       "url": "https://github.com/Soulghost/iblessing",
@@ -79,7 +79,7 @@
       "platforms": null,
       "note": "Scans for several security related IOS application vulnerabilities",
       "type": "SAST or DAST"
-   },
+       },
        {
       "title": "binskim",
       "url": "https://github.com/Microsoft/binskim",
@@ -88,7 +88,7 @@
       "platforms": null,
       "note": "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats",
       "type": "SAST or DAST"
-   },
+      },
       {
       "title": "ZeroThreat",
       "url": "https://zerothreat.ai",
