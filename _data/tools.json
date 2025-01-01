@@ -21,7 +21,7 @@
       "title": "talisman",
       "url": "https://thoughtworks.github.io/talisman/",
       "owner": "Thoughtworks",
-      "license": "MIT",
+      "license": "Free",
       "platforms": "MAC OSX, Linux and Windows",
       "note": "Scans git changesets",
       "type": "SAST"
@@ -30,7 +30,7 @@
       "title": "prowler",
       "url": "https://prowler.com/",
       "owner": "prowler-cloud",
-      "license": "Open Source or Commercial",
+      "license": "Open Source",
       "platforms": null,
       "note": "Scans for AWS, Azure, GCP and Kubernetes.",
       "type": "DAST"
