@@ -33,7 +33,7 @@
       "license": "Open Source or Commercial",
       "platforms": null,
       "note": "Scans for AWS, Azure, GCP and Kubernetes.",
-      "type": "SAST or DAST"
+      "type": "DAST"
        },
        {
       "title": "nancy",
@@ -60,7 +60,7 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "Scans for threat intelligence and mapping your attack surface.",
-      "type": "SAST or DAST"
+      "type": "DAST"
        },
        {
       "title": "qark",
@@ -69,7 +69,7 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "Scans for several security related Android application vulnerabilities",
-      "type": "SAST or DAST"
+      "type": "DAST"
        },
        {
       "title": "iblessing",
@@ -78,7 +78,7 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "Scans for several security related IOS application vulnerabilities",
-      "type": "SAST or DAST"
+      "type": "DAST"
        },
        {
       "title": "binskim",
@@ -87,7 +87,7 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats",
-      "type": "SAST or DAST"
+      "type": "DAST"
       },
       {
       "title": "ZeroThreat",
