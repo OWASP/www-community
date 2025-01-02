@@ -1,4 +1,94 @@
 [
+       {
+      "title": "joern",
+      "url": "https://joern.io/",
+      "owner": "joernio",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Scans C/C++/Java/Binary/Javascript/Python/Kotlin.",
+      "type": "SAST"
+       },
+       {
+      "title": "parse",
+      "url": "https://github.com/psecio/parse",
+      "owner": "psecio",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Scans PHP",
+      "type": "SAST"
+       },
+       {
+      "title": "talisman",
+      "url": "https://thoughtworks.github.io/talisman/",
+      "owner": "Thoughtworks",
+      "license": "Free",
+      "platforms": "MAC OSX, Linux and Windows",
+      "note": "Scans git changesets",
+      "type": "SAST"
+       },
+       {
+      "title": "prowler",
+      "url": "https://prowler.com/",
+      "owner": "prowler-cloud",
+      "license": "Open Source",
+      "platforms": null,
+      "note": "Scans for AWS, Azure, GCP and Kubernetes.",
+      "type": "DAST"
+       },
+       {
+      "title": "nancy",
+      "url": "https://github.com/sonatype-nexus-community/nancy",
+      "owner": "Sonatype Open Source Community",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Scans for Golang dependencies",
+      "type": "SAST"
+       },
+       {
+      "title": "sobelow",
+      "url": "https://github.com/nccgroup/sobelow",
+      "owner": "nccgroup",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Scans for Phoenix Framework",
+      "type": "SAST"
+       },
+       {
+      "title": "spiderfoot",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "owner": "Steve Micallef",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Scans for threat intelligence and mapping your attack surface.",
+      "type": "DAST"
+       },
+       {
+      "title": "qark",
+      "url": "https://github.com/linkedin/qark",
+      "owner": "Linkedin",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Scans for several security related Android application vulnerabilities",
+      "type": "DAST"
+       },
+       {
+      "title": "iblessing",
+      "url": "https://github.com/Soulghost/iblessing",
+      "owner": "Soulghost",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "Scans for several security related IOS application vulnerabilities",
+      "type": "DAST"
+       },
+       {
+      "title": "binskim",
+      "url": "https://github.com/Microsoft/binskim",
+      "owner": "Microsoft",
+      "license": "Open Source or Free",
+      "platforms": null,
+      "note": "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats",
+      "type": "DAST"
+      },
       {
       "title": "ZeroThreat",
       "url": "https://zerothreat.ai",
