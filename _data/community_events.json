@@ -40,6 +40,16 @@
         "description": "**When:** Thursday, January 9th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Cequence](https://www.cequence.ai)\n*Cequence, a pioneer in API Security, is the only vendor with a comprehensive Unified API Protection solution offering discovery, compliance, and protection across all internal and external APIs to defend against attacks, targeted abuse, and fraud. Onboard APIs in less than 15 minutes, without needing any instrumentation, SDK, or JavaScript deployments. Cequence solutions scale to handle the most demanding government, Fortune and Global 2000 organizations, securing more than 8 billion daily API calls and protecting more than 3 billion user accounts across these customers. Its flexible deployment model supports passive/inline, on-premises, SaaS, and hybrid deployments.*"
     },
     {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "Hacker Days:- Exploiting OWASP API Top-10 Vulnerabilities in Action",
+        "date": "2025-01-16",
+        "time": "17:30-08:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/305415077",
+        "timezone": "America/Los_Angeles",
+        "description": "Happy New Year! We're thrilled to announce our upcoming workshop: **\"Exploiting OWASP API Top-10 Vulnerabilities in Action: A Juice Shop Adventure.\"**\n\nThis meetup is in partnership with Pacific Hackers Group(www.phack.org)\n\nA big thank you to **Appsentinels**, A Full Life-cycleAPI Security Platform for sponsoring this meetup.\n\n5.30-6 PM :- Food drinks and Networking.\n6-8PM :- workshop\n\n**Agenda:**\n1\\. Introduction \\(10 minutes\\)\n2\\. Juice Shop Setup & Overview \\(10 minutes\\)\n3\\. Hands\\-on guided exercise: Exploiting OWASP API Top\\-10 \\(90 min\\)\n1\\. Broken Object Level Authorization \\(BOLA\\)\n2\\. Broken Authentication\n3\\. Broken Object Property Level Authorization \\(BOPLA\\)\n4\\. Unrestricted Resource Consumption\n5\\. Broken Function Level Authorization \\(BFLA\\)\n6\\. Unrestricted Access to Sensitive Business Flows\n7\\. Server\\-Side Request Forgery \\(SSRF\\)\n8\\. Security Misconfiguration\n9\\. Improper Inventory Management\n10\\. Unsafe Consumption of APIs\n4\\. Mitigations & Best Practices \\(30 minutes\\)\n\n* Discussing mitigation strategies\n\n5\\. Wrap\\-up \\(15 minutes\\)\n\nNote:\n\n* Hands-on activities will be the core focus of this workshop\n* Participants are required to bring their own laptops\n\nBy the end of this workshop, participants will have a better understanding of OWASP API Top-10 vulnerabilities and the ability to identify and mitigate these risks in real-world applications."
+    },
+    {
         "group": "Chennai",
         "repo": "www-chapter-chennai",
         "name": "OWASP Meetup JAN 2025",
@@ -168,5 +178,15 @@
         "link": "https://www.meetup.com/owasp-tampa/events/305346191",
         "timezone": "America/New_York",
         "description": "**Welcome to our OWASP Tampa 2025-Jan Lunch and Learn!**\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda**:\n\\- 11:00am \\- Registration and Lunch\n\\- 12:00pm \\- Speaker \\- Eaton Zveare \\- API Security Blunders: Tales from the Cyber Trenches\n\\- 1:00pm \\- Depart\n\n**Speaker**:\nEaton is a security researcher at Traceable. As a member of Traceable's ASPEN Labs team, he has contributed to the security of some of the world's largest organizations by finding and responsibly disclosing many critical vulnerabilities. He is best known for his high-profile security disclosures in the automotive space.\n\n**Abstract**:\n**API Security Blunders: Tales from the Cyber Trenches**\nDive into API Security by dissecting real-world API vulnerabilities that have caused security breaches. We'll guide you through the process of hunting for such vulnerabilities, and provide insights to effectively defend against such attacks.\n\n**Location**:\nGuidePoint Security\n3030 N Rocky Point Dr W,\nSTE 600\nTampa, FL\n33607\n\n**Sponsors**:\nTraceable - [https://www.traceable.ai/](https://www.traceable.ai/)"
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "January community call - OWASP SAMM",
+        "date": "2025-01-08",
+        "time": "15:30-05:00",
+        "link": "https://www.meetup.com/owasp-samm/events/305417814",
+        "timezone": "America/New_York",
+        "description": "During our next community call we'll share project updates including the new SAMM Skills Framework and, as always, we'll have time for Q&A."
     }
 ]
