@@ -16,7 +16,7 @@ The goal of this section is to introduce, discuss, and provide language specific
 ### Who developed HttpOnly? When?
 
 According to a daily blog article by [Jordan Wiens, “No cookie for
-you!”](http://www.networkcomputing.com/careers/no-cookie-you/1270585242),
+you!”](https://www.networkcomputing.com/cybersecurity/no-cookie-for-you-),
 HttpOnly cookies were first implemented in 2002 by Microsoft Internet
 Explorer developers for Internet Explorer 6 SP1.
 
