@@ -67,42 +67,47 @@ the browser *returns an empty string* as the result. This causes the
 attack to fail by preventing the malicious (usually XSS) code from
 sending the data to an attacker's website.
 
-##### Using Java to Set HttpOnly
+### Using Jakarta EE or Java EE to Set HttpOnly
 
-Since Java Enterprise Edition 6 (JEE 6), which adopted Java Servlet 3.0
-technology, it's programmatically easy to set the HttpOnly flag on a
-cookie.
+for more information , plwase check  [Java EE to Jakarta EE Transition](https://jakarta.ee/about/faq/#what-is-the-java-ee-to-jakarta-ee-transition).
 
-In fact `setHttpOnly` and `isHttpOnly` methods are available in the
-`Cookie` interface
-[JEE 6](http://java.sun.com/javaee/6/docs/api/javax/servlet/http/Cookie.html#setHttpOnly%28boolean%29),
-[JEE 7](https://docs.oracle.com/javaee/7/api/javax/servlet/http/Cookie.html#setHttpOnly-boolean-)
-and also for session cookies (JSESSIONID)
-[JEE 6](http://java.sun.com/javaee/6/docs/api/javax/servlet/SessionCookieConfig.html#setHttpOnly%28boolean%29),
-[JEE 7](https://docs.oracle.com/javaee/7/api/javax/servlet/SessionCookieConfig.html#setHttpOnly-boolean-)
-`cookie.setHttpOnly(true);`
+Since **Jakarta EE 9**, which adopted **Jakarta Servlet 5.0** technology, it's programmatically easy to set the `HttpOnly` flag on a cookie.
 
-Moreover, since JEE 6 it's also declaratively easy setting `HttpOnly`
-flag in a session cookie by applying the following configuration in the
-deployment descriptor `WEB-INF/web.xml`:
-
-```xml
-<session-config>
-   <cookie-config>
-    <http-only>true</http-only>
-   </cookie-config>
-</session-config>
-```
-
-For Java Enterprise Edition versions *prior* to JEE 6 a common
-**workaround** is to overwrite the `SET-COOKIE` HTTP response header
-with a session cookie value that explicitly appends the `HttpOnly` flag:
+In fact, the `setHttpOnly` and `isHttpOnly` methods are available in the [`jakarta.servlet.http.Cookie`](https://jakarta.ee/specifications/servlet/5.0/apidocs/jakarta/servlet/http/Cookie.html) interface, as well as for session cookies (`JSESSIONID`) using [`jakarta.servlet.SessionCookieConfig`](https://jakarta.ee/specifications/servlet/5.0/apidocs/jakarta/servlet/SessionCookieConfig.html):
 
 ```java
-String sessionid = request.getSession().getId();
-// be careful overwriting: JSESSIONID may have been set with other flags
-response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; HttpOnly");
+Cookie cookie = new Cookie("sessionId", "abc123");
+cookie.setHttpOnly(true);    // Mark the cookie as HttpOnly
+response.addCookie(cookie);
 ```
+Moreover, since Jakarta EE 9, it's also declaratively easy to set the `HttpOnly` flag for session cookies by applying the following configuration in the deployment descriptor `WEB-INF/web.xml`:
+
+```xml
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+         https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <session-config>
+        <cookie-config>
+            <http-only>true</http-only>
+        </cookie-config>
+    </session-config>
+</web-app>
+```
+For environments using  **Java EE 8**, which support **Servlet 4.0**, you can easily set the `HttpOnly` attribute :
+
+The`HttpOnly` flag can be set using the `jakarta.servlet.http.Cookie` (or `javax.servlet.http.Cookie` in Java EE 8) API:
+
+```java
+
+import jakarta.servlet.http.Cookie;
+Cookie cookie = new Cookie("sessionId", "abc123");
+cookie.setHttpOnly(true); // Set the HttpOnly flag
+response.addCookie(cookie);
+
+```
+
 
 In this context, overwriting, despite appropriate for the `HttpOnly`
 flag, is discouraged because the JSESSIONID may have been set with other
