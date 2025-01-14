@@ -45,6 +45,15 @@
       "type": "SAST"
        },
        {
+      "title": "Port Scanner Online ",
+      "url": "https://portscanner.online/",
+      "owner": "MUNSIRADO",
+      "license": "Commercial or Free",
+      "platforms": "SaaS / Plugins",
+      "note": "Online DAST tool for scanning open ports using NMAP, Unicornscan, and RustScan. It provides fast, accurate, and comprehensive port scanning directly from your browser",
+      "type": "DAST"
+       },
+       {
       "title": "sobelow",
       "url": "https://github.com/nccgroup/sobelow",
       "owner": "nccgroup",
