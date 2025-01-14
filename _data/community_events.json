@@ -52,12 +52,42 @@
     {
         "group": "Bay Area",
         "repo": "www-chapter-bay-area",
+        "name": "January Meet",
+        "date": "2025-01-22",
+        "time": "17:30-08:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/305583898",
+        "timezone": "America/Los_Angeles",
+        "description": "Join us on **Wed, Jan 22, 2025** at **5:30 PM** at **Blackhawk Network** for an evening of networking and learning. This in-person event is a great opportunity to connect with fellow professionals in the cybersecurity field. Don't miss out on the chance to engage with industry experts and expand your knowledge. See you there! This meetup is in collaboration with CSA-SF\n\n5.30 PM :- Gates open\n6 PM- 6.45 PM :- In a GenAI World, Only Identity Matters.\n6.45PM-7.15 PM :- Significance of IAM in Application Security\n\n**Talk#1** In a GenAI World, Only Identity Matters.\nSpeaker :- Caleb Sima\n\n**Talk#2 :** Significance of IAM in Application Security\n**Description:** The Significance of IAM in Application Security\nExplore how attack paths have evolved, highlighting common factors that contribute to identity-related risks.Understand the unique security challenges posed by evolving attacks, and discover new strategies to safeguard your workforce, IT administrators, developers, and machines.best practices to safeguard sensitive information.\n\nSpeaker :- Rohan Singla CISO Chargepoint\nMahantesh W , Staff Security Engineer, Chargepoint"
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
         "name": "Hacker Days:- Exploiting OWASP API Top-10 Vulnerabilities in Action",
         "date": "2025-01-16",
         "time": "17:30-08:00",
         "link": "https://www.meetup.com/bay-area-owasp/events/305415077",
         "timezone": "America/Los_Angeles",
         "description": "Happy New Year! We're thrilled to announce our upcoming workshop: **\"Exploiting OWASP API Top-10 Vulnerabilities in Action: A Juice Shop Adventure.\"**\n\nThis meetup is in partnership with Pacific Hackers Group(www.phack.org)\n\nA big thank you to **Appsentinels**, A Full Life-cycleAPI Security Platform for sponsoring this meetup.\n\n5.30-6 PM :- Food drinks and Networking.\n6-8PM :- workshop\n\n**Agenda:**\n1\\. Introduction \\(10 minutes\\)\n2\\. Juice Shop Setup & Overview \\(10 minutes\\)\n3\\. Hands\\-on guided exercise: Exploiting OWASP API Top\\-10 \\(90 min\\)\n1\\. Broken Object Level Authorization \\(BOLA\\)\n2\\. Broken Authentication\n3\\. Broken Object Property Level Authorization \\(BOPLA\\)\n4\\. Unrestricted Resource Consumption\n5\\. Broken Function Level Authorization \\(BFLA\\)\n6\\. Unrestricted Access to Sensitive Business Flows\n7\\. Server\\-Side Request Forgery \\(SSRF\\)\n8\\. Security Misconfiguration\n9\\. Improper Inventory Management\n10\\. Unsafe Consumption of APIs\n4\\. Mitigations & Best Practices \\(30 minutes\\)\n\n* Discussing mitigation strategies\n\n5\\. Wrap\\-up \\(15 minutes\\)\n\nNote:\n\n* Hands-on activities will be the core focus of this workshop\n* Participants are required to bring their own laptops\n\nBy the end of this workshop, participants will have a better understanding of OWASP API Top-10 vulnerabilities and the ability to identify and mitigate these risks in real-world applications."
+    },
+    {
+        "group": "Belem",
+        "repo": "www-chapter-belem",
+        "name": "Owasp Bel\u00e9m A\u00e7ai com Dados.",
+        "date": "2025-01-25",
+        "time": "09:00-04:00",
+        "link": "https://www.meetup.com/owasp-belem/events/305591726",
+        "timezone": "America/Boa_Vista",
+        "description": "No dia 25 de janeiro, a **OWASP Bel\u00e9m** que \u00e9 um dos cap\u00edtulos brasileiros entre os mais de 200 cap\u00edtulos ativos em todo o mundo.\n\nRealizara o primeiro meetup em conjunto com A\u00e7ai com Dados , onde o tema ser\u00e1 Dados e Intelig\u00eancia Artificial, onde exploraremos insights, desafios e inova\u00e7\u00f5es no mundo da tecnologia. Ser\u00e1 uma oportunidade incr\u00edvel para conhecer os desafios e oportunidades no uso de dados no universo da IA, com muita troca de conhecimento, conex\u00f5es e networking.\n\nNosso objetivo \u00e9 disseminar a miss\u00e3o da OWASP, tornando a seguran\u00e7a das aplica\u00e7\u00f5es vis\u00edvel, para que as pessoas e organiza\u00e7\u00f5es possam tomar decis\u00f5es conscientes sobre os verdadeiros riscos de seguran\u00e7a das aplica\u00e7\u00f5es.\n\n**Data:** 25/01/2025\n\n* **Hor\u00e1rio:** 8h30m.\n* **Local:** Est\u00e1cio FAP\n* **Endere\u00e7o**: R. Municipalidade, 839, Bel\u00e9m, PA.\n\nConfira a programa\u00e7\u00e3o:\n**08h30m:** Abertura\n**09h00:** Apresenta\u00e7\u00e3o OWASP\n**09h15 - 09h45:** Em breve.\n**10h - 10h45:** Em breve\\*\\*.\\*\\*\n**10h45 - 11h00:** Intervalo / Networking\n**11h15 - 11h45:** Em breve."
+    },
+    {
+        "group": "Boulder",
+        "repo": "www-chapter-boulder",
+        "name": "Boulder OWASP January 2025 Meetup: A Web CTF for Everyone",
+        "date": "2025-01-22",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-boulder/events/305589815",
+        "timezone": "America/Denver",
+        "description": "Boulder OWASP is back for 2025 and looking forward to welcoming everyone! We\u2019ll be changing our format this month to a more hands-on approach to Application Security with a Capture the Flag event. Whether you\u2019re an experienced Application Penetration Tester or brand new for the AppSec world, there will be something for everyone.\n\nOWASP Boulder\u2019s own Mark Hoopes has found a truly insecure CRM application ready to be exploited. Entry level participants can explore a poorly designed authorization system and mid-level hackers will have plenty of opportunities to run SQL and JavaScript Injection attacks. For the experts, there is even a pathway to shell, but it will take some real dedication to get there.\n\nTo ensure everyone has a good time, we'll be encouraging experienced participants to team up with those who are new to web exploitation. On top of that, a walkthrough document will be available and exploit demos will be given gradually throughout the evening.\n\nBring your own laptop with an intercepting proxy (Burp, ZAP, etc.) installed to participate as an attacker, but if you\u2019re not comfortable at that level, feel free to just bring yourself and plan to shadow, watch, and learn.\n\nInstallation instructions can be found here:\n[https://www.meristeminfosec.com/resources/boulder-ctf](https://www.meristeminfosec.com/resources/boulder-ctf)\n\nTo make sure everyone comes prepared, a Q&A session will be held on the Monday before the event at 7pm: [https://meet.google.com/ddn-zozh-ysv](https://meet.google.com/ddn-zozh-ysv)\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:30ish CTF Time\n7:30 - 8:00 More Networking"
     },
     {
         "group": "Cairo",
@@ -200,6 +230,16 @@
         "description": "**Welcome to our in-Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: https://www.youtube.com/watch?v=HG8YL1ad_bY\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **The fragile security of deep learning models with Guy-Vincent Jourdan Ph.D. and William Aiken**\n\n**Abstract:**\n*The fragile security of deep learning models* with Guy-Vincent Jourdan Ph.D. and William Aiken.\nUse of deep learning models and generative AI has exploded. ChatGPT and similar technologies have taken the world by storm, showing an astonishing ability to create text, images and even videos that are barely distinguishable from human produced content. Many businesses have jumped in the bandwagon and countless companies are integrating these models into their product lines as fast as they possibly can. They certainly do produce excellent results in many situations and save time and money. But how secure are they really? In this talk, we will discuss two examples of models that are heavily adopted and, while very effective, are also easily compromised, and are much more insecure than previously understood. With no fix on the horizon, wild adoption of these models is shown to be problematic.\n\n**Speakers:**\n**Guy-Vincent Jourdan Ph.D.**\nDr. Guy-Vincent Jourdan is a professor at the University of Ottawa's School of Electrical Engineering and Computer Science, where he has been a key contributor since 2004. He holds a Ph.D. from l'Universit\u00e9 de Rennes/INRIA in France, earned in 1995, with a specialization in distributed systems analysis. Prior to his academic career, Dr. Jourdan gained extensive industry experience as C.T.O. and later C.E.O. of Decision Academic Graphics, an Ottawa-based company.\nHis research at the University of Ottawa spans critical areas such as software verification, validation, testing, software security, and cybercrime protection. An accomplished scholar, Dr. Jourdan has co-authored more than a hundred scientific publications and holds 15 patents. He also serves as co-director of the uOttawa-IBM Cyber Range, a cutting-edge facility dedicated to cybersecurity research and training.\nDr. Jourdan\u2019s work focuses on developing proactive strategies to detect, prevent, and recover from cyber threats, with particular expertise in early detection of phishing sites and cybercrime mitigation.\n\n**William Aiken**\nWilliam Aiken is a PhD student at the University of Ottawa. He majored in Security and Risk Analysis at Penn State University under the cybersecurity track, and received his Master\u2019s in Electronic and Computer Engineering from Sungkyunkwan University, South Korea. His current research work lies at the intersection of many fields including synthetic data generation (such as diffusion models!), federated learning, and augmented reality. His research also emphasizes security and vulnerability assessments on deep learning models and bringing tangible DL applications to a variety of domains."
     },
     {
+        "group": "Patna",
+        "repo": "www-chapter-patna",
+        "name": "Session 11 - Bugs, Bounties, and Beginners: Insights for Aspiring Hunters",
+        "date": "2025-01-18",
+        "time": "12:00+05:30",
+        "link": "https://www.meetup.com/owasp-patna-chapter/events/305583910",
+        "timezone": "Asia/Kolkata",
+        "description": "This session on **\"Bugs, Bounties, and Beginners: Insights for Aspiring Hunters\"** by **Jayesh**, will cover the fundamentals of bug bounty programs, selecting the right platforms, and effectively identifying and reporting vulnerabilities. Through real-world examples, practical tips, and actionable insights, participants will learn how to navigate challenges, and adopt the right mindset for success. Whether you're just starting or looking to refine your approach, this session offers a clear roadmap to kickstart your bug bounty journey."
+    },
+    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
@@ -230,6 +270,16 @@
         "description": "**Shift Left - A discussion of AppSec Best Practices**\n11am-2pm for session\n2pm-3pm for happy hour\n\n**Details**\nTopics- See abstracts below\n\n* **Strategies for Aligning Programs with Modern Expectations-Frost Bank**\n* **Cultivating Developer Adoption in the era of Artificial Intelligence-Snyk**\n* **The radical future of app and API security is in production-Contrast Security**\n* **Shift Left: Design for Security and Quality**-**CheckMarx**\n\n**Lunch Provided**\nScuzzi\u2019s Italian Restaurant - 4035 N Loop 1604 W #102, San Antonio, TX 78257\n\n**HAPPY HOUR** networking after session!!\n\n**ZOOM** link provided below for remote attendees\n**https://optiv.zoom.us/j/91529424588?pwd=bgMmGiqvaLkEn9GeX8tISW9lcmPoFc.1&from=addon**\n\nWe encourage everyone to attend in person. We will have door prizes and excellent food for all to enjoy, as you take advantage of this excellent networking opportunity!\nPlease feel free to pass this information on to your peers and team members.\n\nPlease reply **\u201cONSITE\u201d** if you plan on attending in person so we can finalize headcount for food and room attendance \n**Presentations will include:**\n\n***I. Strategies for Aligning Programs with Modern Expectations***\n***Vipul Gupta-SVP Frost Bank***\nIn this talk, Vipul plans to share his experience with building and scaling an Application Security program. He will share why engaging with development and business teams is essential for the Shift Left journey.\n\n***II. Cultivating Developer Adoption in the era of Artificial Intelligence-Snyk***\nIn today\u2019s fast-paced, AI-driven development landscape, securing developer adoption is key to integrating security seamlessly into workflows. This presentation explores practical strategies to overcome challenges like trust, tooling complexity, and unclear ownership. By focusing on people, processes, and tools, we demonstrate how to empower developers, reduce friction, and scale security effectively. Attendees will gain actionable insights to foster a collaborative culture where security becomes a natural part of development.\nOne of the biggest challenges that organizations face when shifting left is getting developers to actually adopt the \u201cshift left\" tools. This presentation speaks to how to overcome that.\n\n***III.*** **Development Team Transformation -Contrast Security**\nThe lines between proactive and reactive cyber defenses are somewhat arbitrary. If you blur those lines, you can some serious advantages. A SAST or SCA tool finding is a theoretical vulnerability that may or may not be exploitable, but if you can see that a vulnerability is within the blast radius of active probes or attacks, it suddenly becomes real. What might have been labeled as \"critical\" in pre-prod suddenly becomes \"super-critical\". On the other hand, things that are not exploitable in a production context due to compensating control, can be deprioritized preserving the limited attention of development for things that really matter. Join DevSecOps pioneer, Larry Maccherone, for this thought-provoking discussion on going right to shift left\n\n***IV.*** **Shift Left: Design for Security and Quality**-**CheckMarx**\nThis presentation will discuss the elements of design phase security, highlighting the critical role of design decisions in achieving a secure and high-quality software product."
     },
     {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2025-02-12",
+        "time": "12:00-08:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/303349991",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
         "group": "Singapore",
         "repo": "www-chapter-singapore",
         "name": "Jan 2025 Meetup: Safeguarding the Future of Artificial Intelligence",
@@ -238,6 +288,16 @@
         "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/305359308",
         "timezone": "Asia/Singapore",
         "description": "The evening will kick off with a thought-provoking presentations by our line up of speakers, setting the stage for an intellectual journey into the heart of AI vulnerabilities and defenses. Attendees will gain insights into the latest adversarial attacks on AI models, delve into the nuances of privacy preservation in AI systems, and explore ethical considerations in AI development and deployment.\n\nThe event will culminate in an interactive Q&A session, encouraging attendees to engage directly with our speakers and fostering the collaborative spirit that both AiSP and OWASP hold dear. This open dialogue will not only address current challenges but also spark discussions on future trends and potential solutions in AI security. Join us for an evening of enlightenment, engagement, and empowerment as we collectively work towards a more secure AI-driven world. Together, we\u2019ll explore how to build unassailable fortresses in the cognitive realm, ensuring that as AI advances, our defenses evolve in tandem.\n\n**Synopsis**:\nIn the rapidly evolving landscape of artificial intelligence, where Large Language Models (LLMs) and advanced AI systems are reshaping our digital world, the need for robust security measures has never been more critical. The Association of Information Security Professionals (AiSP) and the Open Web Application Security Project (OWASP) proudly present \u201cSafeguarding the Future of Artificial Intelligence\u201d an enlightening evening session that bridges the gap between AI innovation and cybersecurity. This event embodies the shared values of AiSP and OWASP \u2013 fostering knowledge sharing, promoting best practices, and nurturing a vibrant community of security-conscious professionals.\n\n**Securing AI systems: An overview and the lifecycle approach**\nSpeaker: Mr Loh Chee Keong, Lead Consultant for AI Security, Cybersecurity Engineering Centre, Cyber Security Agency of Singapore\n\n**OWASP Top 10 for LLMs**\nSpeaker: Mr Wong Onn Chee, OWASP SG Chapter Co-Leads & AiSP Data & Privacy SIG EXCO Lead\n\nPlease RSVP your attendance at [Eventbrite page](https://www.eventbrite.sg/e/aisp-ai-sig-meetup-tickets-1076265552239?aff=oddtdtcreator) by 14 January 2024 7pm SGT."
+    },
+    {
+        "group": "Stuttgart",
+        "repo": "www-chapter-stuttgart",
+        "name": "4th OWASP Stuttgart Chapter Stammtisch",
+        "date": "2025-02-11",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/305584148",
+        "timezone": "Europe/Berlin",
+        "description": "**TBD**\n\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
     },
     {
         "group": "Tampa",
@@ -250,13 +310,23 @@
         "description": "**Welcome to our OWASP Tampa 2025-Jan Lunch and Learn!**\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda**:\n\\- 11:00am \\- Registration and Lunch\n\\- 12:00pm \\- Speaker \\- Eaton Zveare \\- API Security Blunders: Tales from the Cyber Trenches\n\\- 1:00pm \\- Depart\n\n**Speaker**:\nEaton is a security researcher at Traceable. As a member of Traceable's ASPEN Labs team, he has contributed to the security of some of the world's largest organizations by finding and responsibly disclosing many critical vulnerabilities. He is best known for his high-profile security disclosures in the automotive space.\n\n**Abstract**:\n**API Security Blunders: Tales from the Cyber Trenches**\nDive into API Security by dissecting real-world API vulnerabilities that have caused security breaches. We'll guide you through the process of hunting for such vulnerabilities, and provide insights to effectively defend against such attacks.\n\n**Location**:\nGuidePoint Security\n3030 N Rocky Point Dr W,\nSTE 600\nTampa, FL\n33607\n\n**Sponsors**:\nTraceable - [https://www.traceable.ai/](https://www.traceable.ai/)"
     },
     {
+        "group": "Toronto",
+        "repo": "www-chapter-toronto",
+        "name": "Modern AppSec Requires a Modern Approach",
+        "date": "2025-01-22",
+        "time": "18:30-05:00",
+        "link": "https://www.meetup.com/owasp-toronto/events/305601912",
+        "timezone": "America/Toronto",
+        "description": "**Format**:\nHybrid (in-person and online)\n\n**In-person location**:\n123 Edward St, Suite 205 (2nd Floor), Toronto, ON, Toronto, ON M5G 1E2\n\n**Talk**:\n**Modern AppSec Requires a Modern Approach**\n\nAs organizations increasingly adopt microservices and serverless architectures, understanding and securing their environments becomes more complex. AppSec teams navigating distributed environments often are dealing with disjointed efforts\u2014developers rushing to patch but not knowing where to start, detection teams crafting exploit rules that could be passed, and threat hunters investigating past compromises\u2014potentially leaving current critical vulnerabilities unaddressed. Teams need a way to connect the dots from when an application is launched to when it\u2019s being attacked. Enter tracing. Tracing requests, enables organizations to quickly identify the source of an attack, mitigate its impact, and enforce necessary measures to prevent additional impact, and provide the needed context to patch. Incorporating tracing can remove the challenges found in distributed applications. In this session, you'll learn:\n\n* What application traces are and how to use them\n* How tracing can be used to investigate and detect attacks\n* Why tracing enhances application security efforts"
+    },
+    {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver monthly meetup",
+        "name": "OWASP Vancouver: Strengthening Defenses Against CI/CD Security Threats",
         "date": "2025-01-16",
         "time": "18:00-08:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/305510156",
         "timezone": "America/Vancouver",
-        "description": "TBD"
+        "description": "**Untapped Territory: Strengthening Defenses Against CI/CD Security Threats** with **Farshad Abasi**\n\nAs modern software development practices evolve, CI/CD pipelines have emerged as a potent, yet under-secured frontier. This has resulted in a shift in focus from attackers, who are exploiting the traditionally overlooked vulnerabilities in the development pipelines. In this presentation, we'll dive into the top CI/CD security risks as identified by OWASP. We'll look at how each attack can be performed, explore potential impacts, and the motives of bad actors. This talk will provide you with pragmatic strategies to strengthen your CI/CD security posture. Join us to transform your CI/CD pipeline from a potential vulnerability into a cornerstone of your security infrastructure.\n\n**This event is sponsored by [Forward Security](https://forwardsecurity.com/).**"
     }
 ]
