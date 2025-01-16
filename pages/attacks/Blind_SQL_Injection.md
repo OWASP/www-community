@@ -28,7 +28,7 @@ being the way the data is retrieved from the database. When the database
 does not output data to the web page, an attacker is forced to steal
 data by asking the database a series of true or false questions. This
 makes exploiting the SQL Injection vulnerability more difficult, but not
-impossible. .
+impossible.
 
 ## Threat Modeling
 
