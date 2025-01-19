@@ -72,7 +72,7 @@
     {
         "group": "Bhopal",
         "repo": "www-chapter-bhopal",
-        "name": "OWASP Bhopal: Jan 2k25 Chapter Meetup",
+        "name": "Jan 2k25 Chapter Meet-up with Mini CTF",
         "date": "2025-01-31",
         "time": "11:00+05:30",
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/305453272",
@@ -88,26 +88,6 @@
         "link": "https://www.meetup.com/owasp-boulder/events/305589815",
         "timezone": "America/Denver",
         "description": "Boulder OWASP is back for 2025 and looking forward to welcoming everyone! We\u2019ll be changing our format this month to a more hands-on approach to Application Security with a Capture the Flag event. Whether you\u2019re an experienced Application Penetration Tester or brand new for the AppSec world, there will be something for everyone.\n\nOWASP Boulder\u2019s own Mark Hoopes has found a truly insecure CRM application ready to be exploited. Entry level participants can explore a poorly designed authorization system and mid-level hackers will have plenty of opportunities to run SQL and JavaScript Injection attacks. For the experts, there is even a pathway to shell, but it will take some real dedication to get there.\n\nTo ensure everyone has a good time, we'll be encouraging experienced participants to team up with those who are new to web exploitation. On top of that, a walkthrough document will be available and exploit demos will be given gradually throughout the evening.\n\nBring your own laptop with an intercepting proxy (Burp, ZAP, etc.) installed to participate as an attacker, but if you\u2019re not comfortable at that level, feel free to just bring yourself and plan to shadow, watch, and learn.\n\nInstallation instructions can be found here:\n[https://www.meristeminfosec.com/resources/boulder-ctf](https://www.meristeminfosec.com/resources/boulder-ctf)\n\nTo make sure everyone comes prepared, a Q&A session will be held on the Monday before the event at 7pm: [https://meet.google.com/ddn-zozh-ysv](https://meet.google.com/ddn-zozh-ysv)\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:30ish CTF Time\n7:30 - 8:00 More Networking"
-    },
-    {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "AI/LLM Applications and Security Event - Arabic",
-        "date": "2025-01-18",
-        "time": "10:00+02:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/305542919",
-        "timezone": "Africa/Cairo",
-        "description": "Considering the enormous acceleration in the AI field, OWASP Chapters in Cairo, Dubai and Kuwait are holding the first of kind joint event about AI and LLM Applications and Security.\nJoin us in the first event of 2025 to learn more about the new Era of AI and LLM based Applications and how you can utilize these capabilities.\n\nAgenda\n\\- Online via Zoom\n\\- Saturday 18th January\\, 2025 \\- 10:00am to 1:00pm\nSession #1:\nTitle: Introduction to AI and LLM based Applications\nDescription: In this session, you will learn the main concepts, terms and terminologies about the AI and LLM applications and you will learn the about the main technologies and frameworks to get started with this kind of applications.\nTime: Saturday, 18th January - 10:00 am\nSpeaker: [Ahmed Abdallah](https://linkedin.com/in/ayossef) \\- OWASP Dubai Chapter Leader\n\nSession #2:\nTitle: OWASP Top 10 LLM\nDescription: In this session, you will learn the top 10 security risks according to OWASP in the LLM based Applications and the relevant mitigation techniques.\nTime: Saturday, 18th January - 11:30 am\nSpeaker: [George Fahmy](https://www.linkedin.com/in/george-fahmy-b0978212a) \\- Founder & CEO of Stakpak"
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "OWASP Meetup JAN 2025",
-        "date": "2025-01-18",
-        "time": "10:00+05:30",
-        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/305358664",
-        "timezone": "Asia/Kolkata",
-        "description": "* Demystifying Zero Trust Network Architecture by **Ezekiel Jebaraj Solomon**\n* Impact of AI in Cybersecurity by **Kavitha Karunakaran**\n* Drone Forensics: Hack Those Flying Things !! by **Sriram Kesavan**\n\nFor registration:\n[Enroll here](https://docs.google.com/forms/d/1jFcASMbo5wWD1lL4RT_KYsEhr74OZBvUNF-Y2IUroRo/edit)"
     },
     {
         "group": "Cincinnati",
@@ -130,16 +110,6 @@
         "description": "Main event at 6pm will be a 1/2 an hour to an hour talk by Ishan Brown. He is a rising star at in the cyber security world and will be talking about his experiencee getting his 1st CVE late last year.\n\nAfter the talk we will have general networking and discussions until 9pm."
     },
     {
-        "group": "Dubai",
-        "repo": "www-chapter-dubai",
-        "name": "AI/LLM Applications and Security Event - Arabic",
-        "date": "2025-01-18",
-        "time": "12:00+04:00",
-        "link": "https://www.meetup.com/meetup-group-svgchist/events/305542875",
-        "timezone": "Asia/Dubai",
-        "description": "Considering the enormous acceleration in the AI field, OWASP Chapters in Cairo, Dubai and Kuwait are holding the first of kind joint event about AI and LLM Applications and Security.\nJoin us in the first event of 2025 to learn more about the new Era of AI and LLM based Applications and how you can utilize these capabilities.\n\nAgenda\n\\- Online via Zoom\n\\- Saturday 18th January\\, 2025 \\- 10:00am to 1:00pm\nSession #1:\nTitle: Introduction to AI and LLM based Applications\nDescription: In this session, you will learn the main concepts, terms and terminologies about the AI and LLM applications and you will learn the about the main technologies and frameworks to get started with this kind of applications.\nTime: Saturday, 18th January - 10:00 am\nSpeaker: [Ahmed Abdallah](https://linkedin.com/in/ayossef) \\- OWASP Dubai Chapter Leader\n\nSession #2:\nTitle: OWASP Top 10 LLM\nDescription: In this session, you will learn the top 10 security risks according to OWASP in the LLM based Applications and the relevant mitigation techniques.\nTime: Saturday, 18th January - 11:30 am\nSpeaker: [George Fahmy](https://www.linkedin.com/in/george-fahmy-b0978212a) \\- Founder & CEO of Stakpak"
-    },
-    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Paris - Janvier 2025",
@@ -148,6 +118,26 @@
         "link": "https://www.meetup.com/owasp-france/events/305516216",
         "timezone": "Europe/Paris",
         "description": "Ce meetup se deroulera chez **Renault Digital** que nous remercions chaleureusement de leur soutien.\n\nPour des raisons de s\u00e9curit\u00e9, une ***pi\u00e8ce d'identit\u00e9*** vous sera demand\u00e9e pour acc\u00e9der \u00e0 l'\u00e9v\u00e8nement.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2025-02-17",
+        "time": "18:30-05:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242794",
+        "timezone": "America/New_York",
+        "description": "Introduction to OWASP projects. New Members drive."
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly meeting ",
+        "date": "2025-02-17",
+        "time": "18:30-05:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242793",
+        "timezone": "America/New_York",
+        "description": "Introduction to OWASP projects. New Members drive."
     },
     {
         "group": "Jakarta",
@@ -220,16 +210,6 @@
         "description": "This is an In-Person OWASP Orlando Chapter Meeting\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **TBD**\nTopic: TBD\n\nSpeaker 2: **TBD**\nTopic: TBD"
     },
     {
-        "group": "Patna",
-        "repo": "www-chapter-patna",
-        "name": "Session 11 - Bugs, Bounties, and Beginners: Insights for Aspiring Hunters",
-        "date": "2025-01-18",
-        "time": "12:00+05:30",
-        "link": "https://www.meetup.com/owasp-patna-chapter/events/305583910",
-        "timezone": "Asia/Kolkata",
-        "description": "This session on **\"Bugs, Bounties, and Beginners: Insights for Aspiring Hunters\"** by **Jayesh**, will cover the fundamentals of bug bounty programs, selecting the right platforms, and effectively identifying and reporting vulnerabilities. Through real-world examples, practical tips, and actionable insights, participants will learn how to navigate challenges, and adopt the right mindset for success. Whether you're just starting or looking to refine your approach, this session offers a clear roadmap to kickstart your bug bounty journey."
-    },
-    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social",
@@ -238,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/304844725",
         "timezone": "Europe/London",
         "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+    },
+    {
+        "group": "Philadelphia",
+        "repo": "www-chapter-philadelphia",
+        "name": "OWASP Philly 2025 Bootstrap",
+        "date": "2025-01-28",
+        "time": "19:30-05:00",
+        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/305684772",
+        "timezone": "America/New_York",
+        "description": "Dear Friends -\n\nNew year, new OWASP Philly? Well yes, but don\u2019t worry - a lot of things will stay the same (and be better!). 2024 was foundational for us, and affirmed how great of a community we have, which we love to be a part of.\n\nSo please join us in this first meeting of 2025, as we chart our course for new horizons and evaluate our place and role in the community. This meeting will be our first social, along with a \\~30min discussion of OWASP projects and structure, with lots of opportunity for input and feedback. We\u2019ll also have an intro for some of our new leadership members, discuss the great benefits of OWASP and membership, and look at the volunteer roles and opportunities we have coming up.\n\nAnd if nothing else, come warm your bones and talk security-shop with some old friends and new! Lite refreshments with heavy good times will be provided at the place we meet - upstairs at the Black Sheep - 730PM.\n\nSee you there!\nHiggs"
     },
     {
         "group": "Salt Lake City",
@@ -267,7 +257,7 @@
         "time": "18:00+01:00",
         "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/305584148",
         "timezone": "Europe/Berlin",
-        "description": "**TBD**\n\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
+        "description": "**AI Security & Insights into OWASP Top 10 LLM**\n\nAs artificial intelligence systems become increasingly integrated into our daily lives, the importance of securing these systems grows exponentially. This keynote introduces the core principles of AI security, highlighting the unique challenges and risks posed by large language models (LLMs). Explore the recently introduced OWASP Top 10 for LLMs\u2014a comprehensive framework that identifies the most critical vulnerabilities and provides actionable guidance for securing AI applications. We'll finish with an oversight of all the initiatives at the OWASP Top 10 LLM community.\n\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
     },
     {
         "group": "Tampa",
