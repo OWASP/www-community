@@ -7,6 +7,8 @@ permalink: /initiatives/bugbounty/
 
 ---
 
+OWASP Bug Bounty programs are run different from most traditional Bug Bounties. First of all, the applications to be tested are not available as deployed web applications online. For this part you will need to download the applications and deploy or install them on your computer. The following is a guideline for each bug bounty program we are running:
+
 # OWASP CRSFGuard Bug Bounty
 OWASP CRSFGuard Bug Bounty program can be found [here](https://bugcrowd.com/owaspcrsfguard).
 
