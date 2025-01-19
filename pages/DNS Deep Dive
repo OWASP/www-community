@@ -1,0 +1,246 @@
+
+layout: col-sidebar
+title: "DNS Deep Dive"
+author: "pavin shaji"
+contributors: ["Additional Contributor Names", "If Any"]
+permalink: /MyPageTitle
+tags: ["attack", "XSS"]
+
+---
+
+{% include writers.html %}
+
+DNS Deep Dive and Cybersecurity: Exploring Root Servers, Records, and Domain Protection Strategies
+Pavin Shaji November 30, 2024
+
+1	Introduction
+This paper is mainly about DNS infrastructure and Brand protection against digital threats like typosquatting, IP-infringement and Phishing. It starts with DNS infrastructure showing its process and Components. Then it’s about DNS records and different types of records. Next is DNS root servers it shows the root hierarchy and the different root servers and who uses them. Next is Dynamic DNS (DDNS) it shows the importance of DDNS and it’s working it also shows the benefits of DDNS. Next part is the challenges which brands are facing these challenges include phishing, Ip-infringement and typosquatting. these problems are just tip of the iceberg. These problems can easily downgrade an organizations image resulting huge loss in trust and money. Even though these problems look different the results are mostly same and it is the downfall of an organization. There are some methods to overcome these problems and it’s listed on these paper as well as some tools which can be used to protect against these threats
+
+2	DNS Infrastructure
+2.1	What Is DNS
+The acronym DNS stands for “Domain Name System”.
+To better relate to this you can think of it as an “address book” where you look up a name that is tied to a unique address that you use for communicating with an individual, however this “address book” is for the internet and when you enter a domain name into a browser, it will be translated to the tied unique IP address which it will use to communicate to a machine and serve up content that is hosted on it The process of translating a domain to an IP address is known as a DNS lookup. DNS lookups are performed by dedicated servers called DNS resolvers. Your Wi-Fi router is typically preconfigured to send DNS queries to the resolver owned by your ISP. However, you can choose to configure your router, operating system, or browser to use a different resolver.
+
+2.2	How Does DNS Work
+In a usual DNS query, the URL typed in by the user has to go through four servers for the IP address to be provided. The four servers work with each other to get the correct IP address to the client.
+ 
+ 
+
+Figure 1: DNS working
+
+1.	DNS recursor: The query first reaches a DNS resolver (often provided by the user’s internet service provider). The resolver acts as the intermediary, taking on the task of finding the IP address corresponding to the requested domain name.
+2.	Root nameservers: If the resolver does not have the IP address cached, it queries one of the root DNS servers. The internet has 13 root server clusters, labelled A through M, which are strategically distributed worldwide. These servers respond with the address of a Top-Level Domain (TLD) server (e.g., .com, .org) that holds the information for the domain’s next level.
+3.	TLD nameservers: The resolver then queries the TLD server, which provides the address of the domain’s authoritative name server. This server is the most knowledgeable source for information about the domain since it contains the actual DNS record.
+4.	Authoritative nameservers: Finally, the resolver queries the authoritative name server, obtaining the IP address associated with the domain name. With this information, the resolver responds to the initial query, allowing the browser to connect to the website’s server using the IP address.
+
+2.3	Components of DNS Infrastructure
+1.	DNS Servers: These are the backbone of DNS. DNS servers come in various types, such as recursive resolvers and authoritative servers. Recursive resolvers act like your personal investigators, fetching IP addresses on your behalf. Authoritative servers, on the other hand, have the answers. They hold the official records for a specific domain, and they’re the ones you turn to when you need the precise IP address for a particular website.
+2.	DNS Resolvers: Think of DNS resolvers as your web browsers’ trusty assistants. When you type in a website address, the resolver is the first to spring into action. It contacts DNS servers to find the IP address for the site you want to visit. This crucial step ensures you reach your desired destination on the web.
+The role of DNS records and Zone files:
+1.	DNS Records: If DNS is the backbone, DNS records are the words in the backbone’s language. These records store essential information, like IP addresses, mail server data, and aliases. Common record types include A (Address), CNAME (Canonical Name), and MX (Mail Exchange). These records tell DNS servers where to send your requests and emails and how to find websites.
+2.	Zone Files: Imagine zone files as the organizers of the DNS library. Each domain has its zone file, which contains records that point to where the data for that domain is stored. These files are managed by domain administrators and provide authoritative DNS servers with the information they need to resolve queries for that domain. Zone files are essential for the smooth operation of DNS.
+ 
+
+3	Detailed examination of DNS records
+3.1	What is a DNS record
+DNS records (aka zone files) are instructions that live in authoritative DNS servers and provide information about a domain including what IP address is associated with that domain and how to handle requests for that domain. These records consist of a series of text files written in what is known as DNS syntax. DNS syntax is just a string of characters used as commands that tell the DNS server what to do. All DNS records also have a ‘TTL’, which stands for time-to-live, and indicates how often a DNS server will refresh that record.
+
+
+Figure 2: DNS Records
+
+1.	AAA Record (IPv6 Address Record): This record is the same as an A record, but it points a Domain Name to an IPv6 address instead of an IPv4 one.
+2.	CNAME (Canonical Name Record): A CNAME, or Canonical Name, redirects one Domain Name to another Domain Name, allowing only update to one A record is required each time you make a change.
+3.	CAA (Certification Authority Authorization): A Certification Authority Authorization record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a Do- main Name. The purpose of the CAA record is to allow Domain Name owners to declare which certificate authorities are allowed to issue a certificate for a Domain Name.
+4.	MX Entry (Mail Exchange Record): A mail exchanger entry directs emails to a different server despite being a subdomain of the Domain Name requested.
+5.	NAPTR (Name Authority Pointer Record): A Name Authority Pointer is a type of resource record; they are most commonly used for applications in Internet telephony.
+6.	NS (Name Server Record): A NS stands for Name Server and this record indicates which DNS server is Authoritative for that Domain Name. A Domain Name will often have multiple NS records which can indicate primary and backup name servers for that Domain Name.
+7.	PTR (Pointer Record): A Pointer is a type of record that resolves an IP address to a Domain Name, unlike an A record which points a Domain Name to an IP address. PTR records are used for the reverse DNS lookup.
+8.	SOA (Start of Authority Record): A Start of Authority record is a type of resource record containing administrative information about the zone, especially regarding zone transfers.
+9.	SPF (Sender Policy Framework): A Sender Policy Framework record is used to indicate to mail exchanges which hosts are authorized to send mail for a Domain Name.
+ 
+10.	SRV (Service Locator): A Service record is a specification of data defining the location, i.e., the hostname and port number, of servers for specified services.
+11.	TXT Record (Text Record): This is a bit of a catch-all record, not intended to direct any traffic, but instead to provide information to external sources. It serves several different purposes depending on your needs.
+
+4	Detailed examination of DNS Root servers
+4.1	What is a DNS root server
+
+Figure 3: Root hierarchy
+
+The administration of the Domain Name System (DNS) is structured in a hierarchy using different managed areas or “zones”, with the root zone at the very top of that hierarchy. Root servers are DNS nameservers that operate in the root zone. These servers can directly answer queries for records stored or cached within the root zone, and they can also refer other requests to the appropriate Top-Level Domain (TLD) server. The TLD servers are the DNS server group one step below root servers in the DNS hierarchy, and they are an integral part of resolving DNS queries. Root servers are an essential part of the infrastructure of the Internet; web browsers and many other internet tools would not work without them. There are 13 different IP addresses that serve the DNS root zone, and hundreds of redundant root servers exist around the globe to handle requests to the root zone.
+
+4.2	Why are there only 13 DNS root server addresses
+A common misconception is that there are only 13 root servers in the world. In reality there are many more, but still only 13 IP addresses used to query the different root server networks. Limitations in the original architecture of DNS require there to be a maximum of 13 server addresses in the root zone. In the early days of the Internet, there was only one server for each of the 13 IP addresses, most of which were located in the United States. Today each of the 13 IP addresses has several servers, which use Anycast routing to distribute requests based on load and proximity. Right now, there are over 600 different DNS root servers distributed across every populated continent on earth.
+
+4.3	Who operates DNS root servers
+The Internet Corporation for Assigned Names and Numbers (ICANN) operates servers for one of the 13 IP addresses in the root zone and delegated operation of the other 12 IP addresses to various organizations including NASA, the University of Maryland, and Verisign, which is the only organization that operates two of the root IP addresses. Cloudflare actually helps provide DNS Anycast services to one of the root servers known as the F-Root; Cloudflare supplies additional F-Root instances under contract with ISC (the F-Root operator).
+1.	Verisign, Inc. (operates two root servers, labelled A and J)
+2.	University of Southern California, Information Sciences Institute (operates root server D)
+3.	Cogent Communications (operates root server M)
+ 
+4.	University of Maryland (operates root server G)
+5.	Internet Systems Consortium, Inc. (operates root server F)
+6.	NASA Ames Research Center (operates root server E)
+7.	U.S. Department of Defense Network Information Center (operates root server B)
+8.	Naval Research Laboratory (operates root server C)
+9.	Internet Assigned Numbers Authority (IANA) (operates root server H)
+10.	Netnod Internet Exchange AB (operates root server I)
+11.	RIPE NCC (R´eseaux IP Europ´eens Network Coordination Centre) (operates root server K)
+12.	Information Technology and Network Services (ITNS) of the University of Tokyo (operates root server L)
+13.	National Internet Exchange of India (NIXI) (operates root server N)
+
+4.4	What happens if a DNS root server becomes unavailable
+Thanks to the use of Anycast routing and heavy redundancy, the root servers are very reliable. But on rare occasions a root server will have to update its IP address. In this case, recursive resolvers can continue using the other 12 IP addresses in the root zone to perform DNS lookups until their software is updated with the correct addresses of all 13 servers. Since resolvers will retry until they reach a working root server, there is no disruption to the normal operations of the Internet when one root server is down.
+
+5	What is DDNS
+Dynamic DNS (DDNS) is a service that can automatically update DNS records when an IP address changes. Domain names convert network IP addresses to human-readable names for recognition and ease of use. The information mapping the name to the IP address is recorded tabularly on the DNS server. However, network administrators allocate IP addresses dynamically and change them frequently. A DDNS service updates the DNS server records every time IP addresses change. With DDNS, domain name management becomes easier and more efficient.
+
+
+Figure 4: DDNS
+
+
+5.1	Why is Dynamic DNS important
+In the past, IP addresses were static and rarely changed. However, there was a shortage of IP addresses due to the expansion of the internet and the massive increase in the number of servers, smart sensors, and end-user devices. A new system called IPv6 was introduced to increase the number of IP addresses. However, allocating static IP addresses was no longer cost-effective. Instead, network administrators use Dynamic Host Configuration Protocol (DHCP) to assign IP addresses dynamically.
+ 
+5.1.1	Why IP addresses change
+Network administrators typically maintain a shared pool of IP addresses. They lease or assign IP addresses to users for a predetermined maximum amount of time or until they terminate their connection. Whenever a machine joins a network, it gets a new dynamic IP address. When a machine logs off the network, DHCP reassigns IP addresses to all remaining devices. Hence, dynamic IP addresses can change frequently and at irregular intervals
+
+5.1.2	How dynamic DNS helps
+Developers use domain names to identify application endpoints like APIs or specific server instances in their code. If DNS records are not up-to-date, bugs occur when end users try to access endpoints. Dynamic DNS ensures that users can continue to access the device or service using the domain name. They don’t need to track and update the IP address manually.
+
+6	Common use cases for DDNS
+Dynamic DNS offers several use cases for organizations. It provides flexibility, convenience, and im- proved accessibility.
+1.	Remote access: With Dynamic DNS, you can remotely access internal network resources, such as file servers, web servers, or remote desktop services. Employees can access these resources outside their organization’s network using a domain name associated with the changing IP address. This is particularly useful for organizations with remote workers, branch offices, or employees on the go.
+2.	Hosting services: Obtaining a static IP address for hosting is expensive, with pricing geared towards large enterprises. Early-stage startups and small businesses use dynamic DNS to host services or applications on internal infrastructure. They can host websites, FTP servers, game servers, or any other service that requires a consistent and accessible domain name.
+3.	Remote monitoring: Organizations that deploy surveillance cameras or remote monitoring systems utilize dynamic DNS to access and manage these systems remotely. First, you would associate a domain name with the changing IP address of the monitoring devices. Then, security personnel or administrators could view live feeds, monitor security events, and manage the system from anywhere with an internet connection.
+4.	Managing cloud instances: Organizations can have several cloud instances running different services that communicate with each other. Dynamic DNS is useful when you have instances that are not behind a load balancer. With it, you can address an instance by a hostname and domain suffix of your choosing.
+
+7	Benefits of Dynamic DNS
+1.	Accessibility: You will be able to access your website or server, easily, without being worried. The IP will change, but this won’t stop any of your activities.
+2.	Practicality: You don’t need a network administrator to check and reconfigure your settings.
+3.	Economic: DDNS makes it cheaper; you won’t have IP address conflict in case you have many addresses, and they are used at the same time.
+
+8	Challenges
+8.1	Domain Phishing
+Domain phishing is a scam which tricks unsuspecting email recipients into handing out their account details. An email is sent to a domain owner imitating their registrar, asking them to click. There
+ 
+have been instances where the link asks them to log into their account to check for suspicious activity. The link forwards them to a replica site where they freely give up their username and password. It’s important to keep on top of phishing scams because they are also the delivery mechanism for malware. One common example of a phishing domain might resemble your bank’s login page. It looks nearly
+
+
+Figure 5: phishing process
+
+identical to the original, from the logo to the form fields requesting your username and password. However, once you enter your information, it doesn’t go to your bank. Instead, it lands in the hands of a malicious actor who now has access to your financial account. To efficiently identify and neutralize these threats, it’s vital to recognize the signs of a phishing domain and use advanced tools like cyber threat intelligence platforms.
+
+8.1.1	Anti-Phishing methodologies
+1.	Suspicious URLs: Phishing domains often utilize URLs that closely resemble the authentic site, but upon closer examination, you’ll find slight misspellings or additional characters. For instance, ‘www.bankofarnerica.com’ instead of ‘www.bankofamerica.com’.
+2.	Insecure HTTP Protocols: Legitimate websites usually use the secure ‘https://’ protocol. If a site uses ‘http://’ without the ‘s’ (which stands for ‘secure’), it might be a phishing domain. However, don’t rely solely on this, as some phishing domains might use ‘https://’ to appear authentic.
+3.	Poor Grammar and Spelling Reputable organizations take great pains to ensure that their online communications are error-free. Phishing domains often include many:
+(a)	Typos
+(b)	Grammatical mistakes
+(c)	Awkward phrasing
+4.	Mismatched URLs: Hovering your mouse over a link will display the destination URL. If the text of the link and the displayed URL don’t match, or if the URL seems suspiciously long and complex, it’s a potential phishing attempt.
+5.	Absence of an SSL Certificate: Legitimate websites typically have an SSL (Secure Socket Layer) certificate, visible as a padlock symbol in the browser address bar. An unlocked padlock or a warning that the site is not secure is a red flag.
+
+8.1.2	Anti-Phishing tools
+1.	PhishingCheck: A tool that analyses URLs and reveals the target domain, helping to detect phishing attempts.
+ 
+2.	openSquat: An open-source intelligence (OSINT) tool for identifying newly registered domains, including phishing and domain squatting attempts.
+3.	dnstwister: A free, fast, and free typosquatting domain name search engine based on dnstwist.
+4.	PhishTank: A collaborative project that provides a comprehensive list of known phishing sites and domains.
+5.	OpenPhish: A free, open-source phishing database that provides a list of known phishing URLs and domains.
+6.	Trend Micro Email Security: A solution that uses enhanced machine learning and dynamic sandbox analysis to detect and block phishing emails and domains.
+7.	Phish Insight: A phishing simulation and cybersecurity awareness training platform that provides customizable training programs and real-world phishing samples.
+
+8.2	Typosquatting
+Typosquatting is when someone registers a domain name that is an intentionally misspelled version of another popular website. While many misspelled URLs won’t work or will redirect you, some of these fake websites that look real might be a source of malware, and visiting them could even lead to identity theft. Threat actors create and register domains similar to popular websites but with common typographical errors to exploit unsuspecting users who mistype URLs. The technique is similar to lookalike domains. But unlike lookalike domains in which attackers register domains that look confusingly similar to those of trusted brands typosquatting tries to cash in on users’ clumsiness with their keyboard.
+
+
+
+Figure 6: typosquatting process
+
+
+8.2.1	Ways to protect against Typosquatting
+For users:
+1.	Double-Check URLs: Always double-check the URL you’ve typed before hitting enter, especially when visiting sites where you’ll be entering personal or financial information.
+2.	Use Bookmarks: For frequently visited websites, especially those related to banking, email, or shopping, use bookmarks to avoid typing the URL.
+3.	Install Security Software: Use comprehensive security software that warns about unsafe websites and blocks malicious downloads.
+4.	Update Browser Security Settings: Most modern web browsers’ security settings can warn you about suspicious websites. Ensure these settings are activated and kept up-to-date.
+ 
+5.	Be Sceptical of Unsolicited Communication: Be wary of unsolicited emails or messages with web links, even if they seem to be from reputable companies. If unsure, contact the company directly through their official contact channels to verify.
+For organizations:
+1.	Register Common Misspellings of Your Domain: Proactively register domain names that are common misspellings or typos of your domain. These can then redirect users to your correct site, protecting them from potential harm and ensuring you don’t lose traffic.
+2.	Monitor for Typosquatted Domains: Use domain monitoring services to alert you when domains are registered that closely resemble your own. This allows for quicker response times in addressing potential threats.
+3.	Employ Legal Measures: If a typosquatted domain is discovered, consider legal action to regain control of the domain. This can be complex and time consuming but is often necessary to protect your brand.
+4.	Implement Domain-based Message Authentication (DMARC): DMARC can help prevent email spoofing, protecting your customers and brand from phishing attempts.
+5.	Educate Your Customers: Make your customers aware of the dangers of typosquatting and provide them with tools and knowledge to ensure they access your genuine site.
+
+8.2.2	Anti-Typosquatting Tools
+1.	DNSTwist: An open-source tool that generates potential typosquatting domains using various fuzzing algorithms. It can detect homograph phishing attacks, typo squatting, and brand impersonation.
+2.	DNSRazzle: Another open-source tool that performs DNS lookups to identify potential typosquatting domains. It uses a combination of algorithms to generate permutations and verify their registration status.
+3.	Bolster Platform: A proprietary solution that offers continuous monitoring and automated take- downs for typosquatting and brand impersonation domains. It uses a combination of machine learning and human review to identify and mitigate threats.
+4.	Domain Research Suite (DRS): An enterprise-grade platform that provides domain search and monitoring tools, including anti-typosquatting capabilities. It offers real-time monitoring, alerts, and API access.
+5.	Typosquatting Detection API: A cloud-based API that provides real-time typosquatting detection and monitoring. It uses machine learning algorithms to identify potential typosquatting domains and provides alerts and reporting.
+
+8.3	IP Infringement
+Intellectual property (IP) infringement is the unauthorized use of a protected intellectual property right, such as a trademark, patent, copyright, industrial design, plant breeder’s right, or trade secret. Although intellectual-property infringement can be unintentional, it still unacceptable under the eyes of the law. The most common examples of intellectual property disputes include using another person’s words, images, or logo without the property owner’s permission.
+
+8.3.1	Types of Ip-infringement
+1.	Copyright Infringement: Unauthorized copying, reproduction, or use of copyrighted materials, such as literary works, images, photographs, movies, and software, without the owners’ permission
+ 
+2.	Trademark Infringement: Using a trademarked word, phrase, mark, symbol, or logo without the owner’s permission, potentially confusing consumers and damaging the trademark owner’s reputation.
+3.	Patent Infringement: Making, using, selling, or importing a patented invention without the patent owner’s permission, or without a valid license to do so.
+4.	Trade Secret Infringement: Disclosing confidential business information, such as recipes, formulas, or manufacturing processes, without the owner’s consent.
+
+8.3.2	How to Avoid IP Infringement
+Avoiding IP infringement should always be top of mind for organizations so as to avoid the legal exposure of IP violations. These are three methods which can be used
+1.	Avoiding patent infringement: This is done by simply obtaining the proper and appropriate licenses, ensuring you have the rights to the products you use. Therefore, you should never use registered or protected material unless you get express written consent.
+2.	Avoiding copyright infringement: The best way to avoid this type of infraction is by creating original images or using royalty-free images.
+3.	Watch out for subsisting IP rights: An IP owner may have multiple claims and causes of IP infringement. This is common in artistic works where both copyright and trademark laws protect a design like a logo.
+
+8.4	Anti IP-infringement tools
+1.	Copyscape: A plagiarism detection tool that helps identify copied content online.
+2.	MarkMonitor: A brand protection and online brand management platform that offers services for trademark monitoring, enforcement, and protection. They use AI-powered technology to scan marketplaces and websites for infringing activities.
+3.	Red Points: An IP protection software that automates the process of monitoring IP and stream- lines the reporting and enforcement process. They use AI to scan marketplaces and websites 24/7 and can automatically enforce shutdowns of infringing listings.
+4.	WhiteSource Software: A tool that identifies and manages open-source and third-party libraries in code. It offers continuous monitoring and looks at libraries rather than code itself.
+5.	DMCA.com: A company that offers protection services for monitoring and sending takedown notices on behalf of content owners if they detect unauthorized use of their intellectual property.
+6.	Google Alerts: A free tool that allows users to monitor the web for new mentions of specific keywords, phrases, or sentences. It’s a useful tool for tracking brand mentions and detecting potential IP infringement.
+7.	Copysentry: A web monitoring service offered by Copyscape that scans the web daily or weekly and sends email alerts if it finds any copies of published content.
+
+9	Brand Protection
+Brand protection is a set of measures and safeguards put in place to minimize damage from brand abuse. Even if it is a copyright protection battle, you need technologically advanced brand protection strategies to successfully protect your brand’s identity. And today, brand protection demands a lot more nuance and effort than in years past when lawsuits and publicity were sufficient to suppress malicious agents.
+ 
+9.1	Types Of Brand Abuse
+1.	Counterfeiting: Counterfeiting relies on imitating the product packaging and brand name and passing it off as the real thing. It not only causes a revenue hit for the business but also damages the brand’s reputation.
+2.	Gray market: The Gray market deals in original products but sold without the brand’s permission through unauthorized distribution channels. Often, these involve selling goods in other countries by exporting them illegally.
+3.	Intellectual Property theft: Malicious agents can also trade in services by using a brand’s copy- right without permission. Digital goods like music, movies, video games, and more are often pirated and count as copyright piracy. IP theft can also occur if a brand’s name, registered trademarks, or original assets are used and distributed without permission.
+4.	Fake websites – There are many instances of fake websites, slightly modified domain names, and claiming domain names of a brand’s trademarks. These fake websites attempt to steal internet traffic from genuine websites to sell fake goods or profit off of the users’ trust.
+5.	Social Media Impersonation – Brand abuse can also take the form of third parties hijacking genuine social media accounts or creating imitations to sell counterfeit products. Bad actors can also push malware or run phishing scams using the redirected traffic.
+
+9.2	Brand Protection Services
+1.	Register Multiple Domain Extensions: Registering multiple domain extensions (e.g., .com, .net,
+.io) can help prevent cybersquatting and brand infringement.
+2.	Domain Monitoring: Use AI-driven processes to monitor the public attack surface, detect do- mains associated with your company, brand, and executives that you don’t own, and provide recommendations to safeguard the customer experience and avoid damaging security incidents.
+3.	Defensive Registration Strategy: Register different key brand under official ownership to prevent competitors from registering similar domains and potentially damaging your brand.
+4.	Domain Name Expiration Protection: Enable automatic renewal and register domains for ex- tended periods to prevent domain loss and potential exploitation by competitors.
+5.	WHOIS Privacy: Utilize privacy services like WHOIS to conceal contact information from public searches, safeguarding your personal details from being accessed by spammers, hackers, and other malicious actors.
+
+9.3	Brand protection tools
+1.	Talkwalker: Talkwalker helps organizations “stroll” through social channels, online media, and over 30,000 brand databases. This software provides a comprehensive real-time picture of what customers think about everything from your events, products, and campaigns.
+2.	CSC Online Brand Protection Services: Offers flexible brand monitoring solutions, including domain name management, online reputation management, and enforcement services.
+3.	Chatmeter: A brand monitoring and online reputation management tool that helps businesses track and respond to online reviews, mentions, and conversations
+4.	MX ToolBox: A brand protection tool that includes email protection, domain health monitoring, and diagnostics to prevent phishing and fraudulent activities.
+5.	DomainTools: A threat intelligence platform that provides domain reputation checks, malware intel, and cybercrime investigation tools to proactively hunt for threats.
+ 
+10	conclusion
+In this paper we have talked about DNS and its infrastructure like root servers, records and DDNS as well as challenges against Brand protection and the methods to solve the problems. Nowadays most of the brands faces these types of problems mainly because they don’t know how to deal with these problems as a result, they end up losing many important things. So, in order to solve those problems those organizations could use these methods and tools and protect their brands against these threats
+
+References
+[1]	https://www.cloudflare.com/learning/dns/what-is-dns/
+[2]	https://medium.com/@TheAnshuman/dns−deep−dive−with−all−type−of −record−types− 320cb5414a38
+[3]	https://urlbox.com/monitor-copyright-infringement
+[4]	https://riskxchange.co/3326/secure-network-against-typosquatting-attacks/
+[5]	https://www.cloudns.net/blog/what-is-dynamic-dns/
+[6]	https://www.iana.org/domains/root/servers
+[7]	https://gcore.com/learning/dns-records-explained/
+[8]	https://liferaftlabs.com/blog/the-7-best-brand-protection-tools-for-your-business
+[9]	https://0xpatrik.com/phishing-domains/
+
