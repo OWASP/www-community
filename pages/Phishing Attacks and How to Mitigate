@@ -1,0 +1,89 @@
+---
+
+layout: col-sidebar
+title: "Phishing Attacks and How to Mitigate"
+author: "Pavin Shaji"
+
+
+
+---
+
+
+
+
+1	Introduction
+Phishing attacks represent a significant and pervasive threat in today’s digital landscape. These cyber-attacks involve tricking individuals into providing sensitive information, such as usernames, passwords, or financial details, by masquerading as a trustworthy entity. Typically conducted via email, phishing attacks can also occur through text messages, phone calls, or malicious websites. The impact of phishing attacks can be devastating, resulting in financial loss, identity theft, and significant damage to an organization’s reputation. As such, understanding and combating phishing is crucial. This involves educating users to recognize phishing attempts, implementing strong security practices, and employing advanced technologies to detect and block these malicious activities. By fostering a culture of vigilance and resilience, we can mitigate the risks posed by phishing and protect our digital environments.
+
+2	Phishing
+2.1	What is a phishing attack
+Phishing is a common type of cyber-attack that targets individuals through email, text messages, phone calls, and other forms of communication. A phishing attack aims to trick the recipient into falling for the attacker’s desired action, such as revealing financial information, system login credentials, or other sensitive information. As a popular form of social engineering, phishing involves psychological manipulation and deception whereby threat actors masquerade as reputable entities to mislead users into performing specific actions. These actions often involve clicking links to fake websites, downloading and installing malicious files, and divulging private information, like bank account numbers or credit card information.
+
+2.2	How does phishing work
+Phishing works by sending messages that look like they are from a legitimate company or website. Phishing messages will usually contain a link that takes the user to a fake website that looks like the real thing. The user is then asked to enter personal information, such as their credit card number. This information is then used to steal the person’s identity or to make fraudulent charges on their credit card.
+ 
+ 
+
+2.3	Common Phishing Techniques
+Phishers use a variety of techniques to make their attacks look more believable to their targets and to achieve their goals. Some common phishing techniques include:
+1.	Pharming/DNS cache poisoning: A pharming attack is a type of cyber-attack that redirects a website’s traffic to a malicious imposter site. Pharming can be used to steal sensitive information, such as login credentials or financial information.
+2.	Typosquatting: Phishers may use domains and URLs that look very similar to that of a legitimate, trusted domain. If the target isn’t paying sufficient attention, then may believe that the link is legitimate.
+3.	Clickjacking: Attackers use multiple transparent layers to place malicious clickable content over legitimate buttons. For example, an online shopper might think they are clicking a button to make a purchase but will instead download malware.
+4.	Tabnabbing Tabnabbing is a phishing technique that tricks users into entering their credentials on a fake website by having it resemble the original website. This technique takes advantage of the fact that most users do not pay attention to the URL of the website they are visiting.
+
+2.4	Types of Phishing Attacks
+Phishing attempts can be diverse, as cyberattacks have become more sophisticated and creative with their techniques. What unites these attacks is their common purpose: identity theft or transferring malware. Below is a review of the different types of information attacks.
+1.	Spear phishing: Spear phishing involves targeting a specific individual in an organization to try to steal their login credentials. The attacker often first gathers information about the person before starting the attack, such as their name, position, and contact details.
+2.	Whaling: A whaling attack is a phishing attack that targets a senior executive. These individuals often have deep access to sensitive areas of the network, so a successful attack can result in access to valuable info.
+3.	Vishing: Vishing, which is short for” voice phishing,” is when someone uses the phone to try to steal information. The attacker may pretend to be a trusted friend or relative or to represent them.
+ 
+ 
+
+
+4.	Email phishing: In an email phishing scam, the attacker sends an email that looks legitimate, designed to trick the recipient into entering information in reply or on a site that the hacker can use to steal or sell their data.
+5.	HTTPS phishing: An HTTPS phishing attack is carried out by sending the victim an email with a link to a fake website. The site may then be used to fool the victim into entering their private information.
+6.	Pharming: In a pharming attack, the victim gets malicious code installed on their computer. This code then sends the victim to a fake website designed to gather their login credentials.
+
+
+7.	Pop-up phishing: Pop-up phishing often uses a pop-up about a problem with your computer’s security or some other issue to trick you into clicking. You are then directed to download a file, which ends up being malware, or to call what is supposed to be a support center.
+8.	Evil twin phishing: In an evil twin attack, the hacker sets up a false Wi-Fi network that looks real. If someone logs in to it and enters sensitive details, the hacker captures their info.
+
+2.5	Impacts of Phishing
+1.	Loss of Data: Clicking on a malicious link in an email can hand over the data and system of an organization to a hacker. They are then free to do what they want including theft for further criminal purposes, corruption, and deletion. Data loss is considered the most severe effect of phishing attacks
+2.	Damaged Reputation: Companies suffer reputation loss following a data breach executed through phishing attacks. Announcement of a breach leads to loss of trust for the company among the general public. Regardless of an organization’s previous standing, data breaches exert a strong
+ 
+negative effect on its brand and it may be seen as untrustworthy for a long time following a successful hack.
+3.	Direct Monetary Loss: Extra funds will be needed to manage identity protection, compensation of customers or employees whose data was stolen following a phishing attack. Funds could also be transferred out from a company’s account through impersonation via phishing.
+4.	Loss of Productivity: Data breaches or system compromise arising from phishing attacks cause business disruption. Following a successful phishing attack, a large part of a business’ time will be spent on trying to recover lost data and investigating the breach with little left for actual business. Employees’ productivity will also take a hit as many systems are put offline for reconfiguration and cleaning.
+5.	Loss of Customers: Successful phishing attack scares customers away from a business. A UK survey revealed that more than half of consumers stop patronizing a hacked organization for several months after a data breach
+6.	Financial Penalties: When sensitive customers’ data end up in the public domain, the affected business is held responsible. In addition to the direct monetary loss from failure to defend against phishing, heavy regulatory fines can be placed on an organization for mishandling customer’s data.
+7.	Intellectual Property Theft: A business asset isn’t just money or equipment; intellectual property could even be more important. Intellectual property may be stolen through phishing attacks and could even be the motivation for the attack in the first place.
+8.	Loss of Company Value: Phishers can also cost a company a significant part of its market value as a result of the loss of investors’ confidence. Some investors would no longer trust the affected organization and may move their funds elsewhere to protect their portfolio.
+
+Figure 1: example of phishing
+ 
+2.6	how to Defend
+1.	Implement DMARC, DKIM, and SPF protocols Deploy these email security protocols to authenticate emails and reduce the chances of spoofed emails reaching your users’ inboxes.
+2.	Utilize AI-based email filters Employ artificial intelligence and machine learning-based email filtering solutions that can detect and block phishing emails by analysing patterns and behaviours, rather than just relying on static rules.
+3.	Adopt a Zero Trust approach Implement a Zero Trust architecture where each access request is verified, regardless of its origin. This reduces the likelihood of phishing attacks successfully gaining system access.
+4.	Regularly update and patch systems Ensure that all email clients and associated systems are up-to-date with the latest security patches. Phishers often exploit vulnerabilities in outdated software.
+5.	Implement adaptive multi-factor authentication (MFA) Use adaptive MFA, which adjusts the required authentication factors based on the risk level of the login attempt. High-risk logins may require more robust verification, mitigating phishing risks.
+6.	Conduct forensic analysis of phishing incidents After any phishing attempt, perform a detailed forensic analysis to understand the attack vectors, tools used, and any potential breaches. This helps in refining your defence mechanisms.
+
+2.7	Tips to Remember
+1.	Never provide your personal information in response to an unsolicited request
+2.	If you believe the contact may be legitimate, contact the financial institution yourself
+3.	Never provide your password over the phone or in response to an unsolicited Internet request
+4.	Review account statements regularly to ensure all charges are correct
+
+3	Conclusion
+phishing attacks remain a prevalent and dangerous threat in the digital age, exploiting human vulnerabilities and technological weaknesses to gain access to sensitive information. Their impact can be severe, leading to financial losses, identity theft, and compromised data security. However, with proper education, robust security practices, and advanced detection technologies, individuals and organizations can significantly reduce their susceptibility to these malicious schemes. By fostering a culture of vigilance and resilience, we can better protect our digital environments and mitigate the risks associated with phishing attacks.
+
+References
+[1]	https://www.phriendlyphishing.com/blog/the-impacts-of-a-phishing-attack
+[2]	https://perception-point.io/guides/phishing/phishing-types-attacks-6-defensive-measures/
+[3]	https://www.cybsafe.com/blog/how-can-phishing-affect-a-business/
+[4]	https://www.proofpoint.com/us/threat-reference/phishing
+[5]	https://www.trendmicro.com/en-us/what-is/phishing/types-of-phishing.html
+[6]	https://www.pioneertribune.com/articles/watch-for-phishing-attacks/
+9
+
