@@ -5,7 +5,7 @@ title: DNS Attacks_Phishing_TypoSquatting
 author: ChennaRao Vemula
 contributors: 
 External link: https://dev.certping.com/why-ssl
-permalink:
+permalink: /attacks/DNS Attacks_Phishing_TypoSquatting.md
 tags: DNS, Typosquatting, Phishing
 
 ---
