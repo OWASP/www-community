@@ -10,6 +10,16 @@
         "description": "This OWASP Aarhus meetup is co-hosted with Norlys.\n\nAgenda:\n**19:00 \u2013 19:10** Welcome by Norlys and OWASP Aarhus\n**19:10 \u2013 20:00** \u201dHybridwar, critical infrastructure and resilience\u2026\u201d by Ken Bonefeld Nielsen\n\nGet an insight into how vulnerable modern societies are when it comes to hybrid warfare. What can we do to make critical infrastructure more resilient\u2026\n\nKen Bonefeld Nielsen \u2013 Senior Cyber Security and Resilience Advisor at Norlys shares his many years of experience from the military and international work for organizations like Sony, Tele2, Lundbeck and Norlys\n\n**20:00 \u2013 20:30** Networking break\n\n**20:30 \u2013 21:25** \"The Journey of Cyber Entrepreneurship, Community Building, and Open Source Opportunities\" by Bjarke Petersen\n\nDiscover how true innovation emerges in entrepreneurial environments, the challenges it faces, and what it takes to succeed. Explore the vision behind Cybersikker.dk, a community designed to become Denmark's leading self-help hub for IT security. The session concludes with a collaborative exploration of impactful and affordable technological solutions, emphasizing the transformative potential of open-source tools.\n\nBjarke Petersen \u2013 Serial Cyber Entrepreneur and Community Enthusiast with experience in creating businesses. Now dedicated to building a free, self-help Cyber Community to support Danish SMEs in navigating and resolving their IT security challenges."
     },
     {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "AI Empowerment vs. Security Risk: Navigating the AppSec Challenges of AI Agents ",
+        "date": "2025-02-20",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/304581179",
+        "timezone": "America/New_York",
+        "description": "In just a short span, AI Agents and low-code development have transformed how businesses operate, allowing users without coding backgrounds to create applications, automate processes, and streamline workflows. Business users are empowered as never before, using tools that merge AI with productivity\u2014from email and business intelligence to application development. But while these tools amplify efficiency, they also introduce new security risks that challenge the traditional boundaries of IT and AppSec.\n\nAs security teams grapple with vulnerabilities like authorization misuse, data leakage, and the risk of exfiltration, they must decide how to approach the widespread adoption of AI-driven tools and low-code platforms without stifling innovation. In this session, we\u2019ll explore recent research into the security challenges posed by AI agents and low-code development, emphasizing the pitfalls that emerge when business users become app creators. We\u2019ll also outline how AppSec teams can adapt their approaches to balance security with productivity, ensuring they enable the business rather than block it."
+    },
+    {
         "group": "Augsburg",
         "repo": "www-chapter-augsburg",
         "name": "8. OWASP Augsburg Stammtisch",
@@ -97,17 +107,7 @@
         "time": "18:00-07:00",
         "link": "https://www.meetup.com/owasp-boulder/events/305589815",
         "timezone": "America/Denver",
-        "description": "Reminder! Tonight, Monday, 1/20, at 7PM, we'll be hosting a virtual prep session for Wednesday's CTF. Talk to you all tonight here: [https://meet.google.com/ddn-zozh-ysv](https://meet.google.com/ddn-zozh-ysv)\n\nBoulder OWASP is back for 2025 and looking forward to welcoming everyone! We\u2019ll be changing our format this month to a more hands-on approach to Application Security with a Capture the Flag event. Whether you\u2019re an experienced Application Penetration Tester or brand new for the AppSec world, there will be something for everyone.\n\nOWASP Boulder\u2019s own Mark Hoopes has found a truly insecure CRM application ready to be exploited. Entry level participants can explore a poorly designed authorization system and mid-level hackers will have plenty of opportunities to run SQL and JavaScript Injection attacks. For the experts, there is even a pathway to shell, but it will take some real dedication to get there.\n\nTo ensure everyone has a good time, we'll be encouraging experienced participants to team up with those who are new to web exploitation. On top of that, a walkthrough document will be available and exploit demos will be given gradually throughout the evening.\n\nBring your own laptop with an intercepting proxy (Burp, ZAP, etc.) installed to participate as an attacker, but if you\u2019re not comfortable at that level, feel free to just bring yourself and plan to shadow, watch, and learn.\n\nInstallation instructions can be found here:\n[https://www.meristeminfosec.com/resources/boulder-ctf](https://www.meristeminfosec.com/resources/boulder-ctf)\n\nTo make sure everyone comes prepared, a Q&A session will be held on the Monday before the event at 7pm: [https://meet.google.com/ddn-zozh-ysv](https://meet.google.com/ddn-zozh-ysv)\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:30ish CTF Time\n7:30 - 8:00 More Networking"
-    },
-    {
-        "group": "Cincinnati",
-        "repo": "www-chapter-cincinnati",
-        "name": "Former Hacker and Zero Day Developer's Perspective on Why AppSec Matters",
-        "date": "2025-01-21",
-        "time": "16:00-05:00",
-        "link": "https://www.meetup.com/owasp-cincinnati-meetup-group/events/305476221",
-        "timezone": "America/New_York",
-        "description": "**This meeting will be in-person! Thank you to Kroger for hosting at their Kroger Blue Ash Technology Center. For security, RSVP by 2 days prior to the meeting is required.**\n\n**Sponsored by [Traceable](https://www.traceable.ai/)**\n\nFormer \"World\u2019s Most Wanted\" hacker and exploit developer known as Hackah Jak from the Hackweiser group, brings his unique expertise to the forefront of application security. With a career spanning software reverse engineering, zero-day development, hacking, cyberwarfare, and web application engineering. Jesse offers a rare and unique perspective.\n\nJesse will challenge you to see the true value of application security beyond mere financial metrics. Drawing from his firsthand experiences combating scams and human trafficking, he will offer insights that inspire a deeper understanding of the real-world impact of vulnerabilities.\n\nJoining Jesse for this talk is his daughter, Rees\u00eb, a talented teenage girl. Accepted to collage at 13 years old, Rees\u00eb earned her Bachelor in Computer Science, with honors, at the age of 17, and then became the first student in Ohio to pursue a Master\u2019s degree while in high school. Before graduating high school she completed 4 more Associate Degrees in various areas of technology. Her academic accomplishments are complemented by a remarkable professional journey, including internships at GE Core Tech and Kroger IT. Reese is the founder of a startup building a cutting-edge Cyber Threat Research and Training Platform, backed by an investment and bolstered by her innovative research, which has already led to her first patent filing. In addition she now services as the secretary for the IEEE SA P1947 Standards for Quantum Cybersecurity Framework group.\n\nLearn more about Jesse\u2019s journey by listening to Modem Mischief Podcast, Hackweiser:\n[https://www.youtube.com/watch?v=iyKSkubzxKo](https://www.youtube.com/watch?v=iyKSkubzxKo)\n[https://podcasts.apple.com/us/podcast/hackweiser/id1585249019?i=1000651055244](https://podcasts.apple.com/us/podcast/hackweiser/id1585249019?i=1000651055244)\n[https://open.spotify.com/episode/04kQiWFkxhyWqOZwYYwsA0?si=1d52bb8b48e248ac](https://open.spotify.com/episode/04kQiWFkxhyWqOZwYYwsA0?si=1d52bb8b48e248ac)\n[https://music.amazon.com/podcasts/b458729d-02d0-42d3-b043-5fc1ba8a10db/episodes/84648a83-5e3b-47f5-a4f8-91a7cb596d30/modem-mischief-hackweiser](https://music.amazon.com/podcasts/b458729d-02d0-42d3-b043-5fc1ba8a10db/episodes/84648a83-5e3b-47f5-a4f8-91a7cb596d30/modem-mischief-hackweiser)\n\n**Approximate schedule:**\n4:00 - Doors open. Come for networking and refreshments!\n4:15 - Presentation begins.\n5:15 - Networking and refreshments resume!\n6:00 EOE (End of Event)"
+        "description": "Boulder OWASP is back for 2025 and looking forward to welcoming everyone! We\u2019ll be changing our format this month to a more hands-on approach to Application Security with a Capture the Flag event. Whether you\u2019re an experienced Application Penetration Tester or brand new for the AppSec world, there will be something for everyone.\n\nOWASP Boulder\u2019s own Mark Hoopes has found a truly insecure CRM application ready to be exploited. Entry level participants can explore a poorly designed authorization system and mid-level hackers will have plenty of opportunities to run SQL and JavaScript Injection attacks. For the experts, there is even a pathway to shell, but it will take some real dedication to get there.\n\nTo ensure everyone has a good time, we'll be encouraging experienced participants to team up with those who are new to web exploitation. On top of that, a walkthrough document will be available and exploit demos will be given gradually throughout the evening.\n\nBring your own laptop with an intercepting proxy (Burp, ZAP, etc.) installed to participate as an attacker, but if you\u2019re not comfortable at that level, feel free to just bring yourself and plan to shadow, watch, and learn.\n\nInstallation instructions can be found here:\n[https://www.meristeminfosec.com/resources/boulder-ctf](https://www.meristeminfosec.com/resources/boulder-ctf)\n\nTo make sure everyone comes prepared, a Q&A session will be held on the Monday before the event at 7pm: [https://meet.google.com/ddn-zozh-ysv](https://meet.google.com/ddn-zozh-ysv)\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:30ish CTF Time\n7:30 - 8:00 More Networking"
     },
     {
         "group": "Cleveland",
@@ -130,6 +130,16 @@
         "description": "Main event at 6pm will be a 1/2 an hour to an hour talk by Ishan Brown. He is a rising star at in the cyber security world and will be talking about his experiencee getting his 1st CVE late last year.\n\nAfter the talk we will have general networking and discussions until 9pm."
     },
     {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "Authentication Demystified: Basic Auth to Web Tokens in 60 minutes",
+        "date": "2025-02-20",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/305318149",
+        "timezone": "America/New_York",
+        "description": "Welcome to 2025! Both the speaker and I are off at CodeMash in January, so we are going to start our EVERY MONTH transition in February!\n\nWe'll start off with a few highlights related to what is new in the world of appsec, and have a good-of-the-order style chat about the year, and then ... Have you ever searched for \"how to authenticate an API call\" and been confused by the dizzying array of techniques, terminology, jargon, and acronyms that come back?\n\nThis session is designed for anyone that's struggling to make sense of modern authentication options. You'll learn the differences between OAuth, API Keys, HMAC, JSON Web Tokens (JWT), SAML, OpenID Connect, and passkeys using Webauthn. Each technique will be explained in a clear, practical, easy-to-understand way.\n\nThis session focuses on core concepts, not code, and is accessible to anyone that works with technology."
+    },
+    {
         "group": "France",
         "repo": "www-chapter-france",
         "name": "Meetup OWASP - Paris - Janvier 2025",
@@ -142,7 +152,7 @@
     {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
+        "name": "OWASP Monthly Meeting ",
         "date": "2025-02-17",
         "time": "18:30-05:00",
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242794",
@@ -152,12 +162,12 @@
     {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly meeting ",
+        "name": "OWASP Monthly Meeting ",
         "date": "2025-02-17",
         "time": "18:30-05:00",
         "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/303242793",
         "timezone": "America/New_York",
-        "description": "Introduction to OWASP projects. New Members drive."
+        "description": "Monthly local meetup to discuss security related topics."
     },
     {
         "group": "Jakarta",
@@ -280,6 +290,16 @@
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
+        "group": "Sofia",
+        "repo": "www-chapter-sofia",
+        "name": "OWASP Sofia - January 2025 Meetup",
+        "date": "2025-01-31",
+        "time": "19:00+02:00",
+        "link": "https://www.meetup.com/owasp-sofia-chapter/events/305741781",
+        "timezone": "Europe/Sofia",
+        "description": "\u0414\u043e\u0431\u0440\u0435 \u0434\u043e\u0448\u043b\u0438 \u0432 \u043c\u0435\u0441\u0435\u0447\u043d\u0430\u0442\u0430 \u043d\u0438 \u0441\u0431\u0438\u0440\u043a\u0430 \u043d\u0430 OWASP Sofia!\n\nWelcome back to the OWASP Sofia Meetup! This event will also be in Bulgarian. We will do English-speaking events as soon as we have some international speakers.\n\n\u0417\u0430\u043f\u043e\u0447\u0432\u0430\u043c\u0435 \u043d\u043e\u0432\u0430\u0442\u0430 \u0433\u043e\u0434\u0438\u043d\u0430 \u0441 \u043f\u044a\u0440\u0432\u043e\u0442\u043e \u0441\u044a\u0431\u0438\u0442\u0438\u0435 \u043d\u0430 \u0436\u0438\u0432\u043e, \u043d\u0430 \u043a\u043e\u0435\u0442\u043e \u043a\u043e\u043b\u0435\u0433\u0438\u0442\u0435 \u0438 \u043f\u0440\u0438\u044f\u0442\u0435\u043b\u0438\u0442\u0435 \u043e\u0442 [Amatas](https://amatas.com/) \u0449\u0435 \u043d\u0438 \u0437\u0430\u043f\u043e\u0437\u043d\u0430\u044f\u0442 \u0441 \u0438\u043d\u043e\u0432\u0430\u0442\u0438\u0432\u043d\u0438 \u0438 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u0438 \u043c\u0435\u0442\u043e\u0434\u0438 \u0438 \u043f\u043e\u0434\u0445\u043e\u0434\u0438 \u0437\u0430 \u0442\u0435\u0441\u0442\u0432\u0430\u043d\u0435 \u0438 \u0435\u043a\u0441\u043f\u043b\u043e\u0430\u0442\u0438\u0440\u0430\u043d\u0435 \u043d\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u0430 \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440\u0438\u044f \u0438 \u043c\u0440\u0435\u0436\u043e\u0432\u0438 \u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b\u0438. \u0414\u043e\u043c\u0430\u043a\u0438\u043d\u0438 \u043d\u0430 \u0441\u044a\u0431\u0438\u0442\u0438\u0435\u0442\u043e \u0449\u0435 \u0431\u044a\u0434\u0430\u0442 [\u0415\u0426\u0418\u0425 \u0422\u0440\u0430\u043a\u0438\u044f](https://dihtrakia.org/) \u0438 \u0422\u0435\u0445 \u041f\u0430\u0440\u043a \u0421\u043e\u0444\u0438\u044f.\n\n**\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0430 \u0437\u0430 31 \u042f\u043d\u0443\u0430\u0440\u0438 2025**\n\n* 19:00 - \u041d\u0430\u0447\u0430\u043b\u043e \u0438 \u0432\u044a\u0432\u0435\u0434\u0435\u043d\u0438\u0435 - \u041c\u0438\u0433\u043b\u0435\u043d \u0415\u0432\u043b\u043e\u0433\u0438\u0435\u0432 @ [Payhawk](https://payhawk.com/trust)\n* 19:10 - \u041a\u0440\u0430\u0442\u043a\u043e \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u044f\u043d\u0435 \u043d\u0430 [\u0415\u0426\u0418\u0425 \u0422\u0440\u0430\u043a\u0438\u044f](https://dihtrakia.org/) - [\u0425\u0440\u0438\u0441\u0442\u0438\u0430\u043d \u0414\u0430\u0441\u043a\u0430\u043b\u043e\u0432](https://www.linkedin.com/in/hristian/)\n* 19:15 - [\u041f\u0435\u0442\u044a\u0440 \u0414\u0436\u0430\u043b\u0435\u0432](https://www.linkedin.com/in/pdjalaliev/) @ [Amatas](https://amatas.com/) \\- Exploiting and Pentesting SNMP\n* 20:00 - [\u041b\u044e\u0431\u0435\u043d \u041f\u0435\u0442\u0440\u043e\u0432](https://www.linkedin.com/in/lyuben-petrov-b287bb236/) @ [Amatas](https://amatas.com/) \\- Active Directory Exploitation\n* 20:45 - Q&A / Networking\n* 22:00 - \u0417\u0430\u043a\u0440\u0438\u0432\u0430\u043d\u0435\n\n\u0421\u044a\u0431\u0438\u0442\u0438\u0435\u0442\u043e \u0449\u0435 \u0441\u0435 \u043f\u0440\u043e\u0432\u0435\u0434\u0435 \u043d\u0430 \u0436\u0438\u0432\u043e \u0432 \u0437\u0430\u043b\u0430 [The Venue \u0432 \u0422\u0435\u0445 \u041f\u0430\u0440\u043a \u0421\u043e\u0444\u0438\u044f](https://sofiatech.bg/en/venue/the-venue-incubator/). \u0410\u043a\u043e \u0436\u0435\u043b\u0430\u0435\u0442\u0435 \u0434\u0430 \u0441\u043f\u043e\u0434\u0435\u043b\u0438\u0442\u0435 \u043d\u0435\u0449\u043e \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e \u0441\u0432\u044a\u0440\u0437\u0430\u043d\u0438 \u0441 \u0423\u0435\u0431 \u0421\u0438\u0433\u0443\u0440\u043d\u043e\u0441\u0442, \u043c\u043e\u043b\u044f \u0438\u0437\u043f\u0440\u0430\u0442\u0435\u0442\u0435 \u043d\u0438 \u0432\u0430\u0448\u0430\u0442\u0430 \u0441\u0435\u0441\u0438\u044f \u043d\u0430 [https://sessionize.com/owasp-sofia/](https://sessionize.com/owasp-sofia/)\n\n\u0417\u0430 \u0441\u043b\u0435\u0434\u0432\u0430\u0449\u0438\u0442\u0435 \u043d\u0438 \u0441\u044a\u0431\u0438\u0442\u0438\u044f \u043f\u043b\u0430\u043d\u0438\u0440\u0430\u043c\u0435 \u0434\u0430 \u0433\u0438 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0438\u0440\u0430\u043c\u0435 \u043d\u0430 \u043c\u044f\u0441\u0442\u043e, \u0437\u0430 \u0446\u0435\u043b\u0442\u0430 \u0441\u0438 \u0442\u044a\u0440\u0441\u0438\u043c \u0436\u0435\u043b\u0430\u0435\u0449\u0438 \u0445\u043e\u0441\u0442 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438, \u043f\u0438\u0448\u0435\u0442\u0435 \u043d\u0438 \u0430\u043a\u043e \u0438\u043c\u0430\u0442\u0435 \u0438\u043d\u0442\u0435\u0440\u0435\u0441!"
+    },
+    {
         "group": "Stuttgart",
         "repo": "www-chapter-stuttgart",
         "name": "4th OWASP Stuttgart Chapter Stammtisch",
@@ -318,6 +338,16 @@
         "link": "https://www.meetup.com/owasp-toronto/events/305601912",
         "timezone": "America/Toronto",
         "description": "**Format**:\nHybrid (in-person and online)\n\n**In-person location**:\n123 Edward St, Suite 205 (2nd Floor), Toronto, ON, Toronto, ON M5G 1E2\n\n**Talk**:\n**Modern AppSec Requires a Modern Approach**\n\nAs organizations increasingly adopt microservices and serverless architectures, understanding and securing their environments becomes more complex. AppSec teams navigating distributed environments often are dealing with disjointed efforts\u2014developers rushing to patch but not knowing where to start, detection teams crafting exploit rules that could be passed, and threat hunters investigating past compromises\u2014potentially leaving current critical vulnerabilities unaddressed. Teams need a way to connect the dots from when an application is launched to when it\u2019s being attacked. Enter tracing. Tracing requests, enables organizations to quickly identify the source of an attack, mitigate its impact, and enforce necessary measures to prevent additional impact, and provide the needed context to patch. Incorporating tracing can remove the challenges found in distributed applications. In this session, you'll learn:\n\n* What application traces are and how to use them\n* How tracing can be used to investigate and detect attacks\n* Why tracing enhances application security efforts"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "OWASP Vancouver monthly meetup",
+        "date": "2025-02-20",
+        "time": "18:00-08:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/305510162",
+        "timezone": "America/Vancouver",
+        "description": "TBD"
     },
     {
         "group": "Samm",
