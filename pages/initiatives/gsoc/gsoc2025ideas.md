@@ -50,7 +50,7 @@ who get the most work done, and this is usually by submitting the most PRs.
 
 ##### 2025 GSOC Ideas / Projects
 
-Check our Github for now, we will be adding projects here soon.
+Check our Github for now here: https://github.com/OWASP-BLT/BLT/milestones we will be adding some new projects specifically for GSOC on this page soon.
 
 
 #### Expected Results
@@ -68,7 +68,7 @@ Check our Github for now, we will be adding projects here soon.
 ##### Mentors
 * Donnie (@DonnieBLT on Slack) -- lead mentor
 * Yash Pandey
-* looking for 10 mentors this year
+* looking for 10 mentors this year (if you are knowledgeable in any of the prerequisites and can review PRs, you can watch any of our videos https://blt.owasp.org/bltv/ and be up to speed and ready to mentor)
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
