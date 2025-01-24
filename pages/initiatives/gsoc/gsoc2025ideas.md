@@ -50,31 +50,25 @@ who get the most work done, and this is usually by submitting the most PRs.
 
 ##### 2025 GSOC Ideas / Projects
 
-We have over 40 projects available in 5 repositories to work on! Check the difficulty and project size in Github.
-
-[View all BLT project ideas on Github](https://github.com/orgs/OWASP-BLT/projects) 
+Check our Github gor now, we will be adding projects here soon.
 
 
 #### Expected Results
 
 * We would expect that any projects you choose to include in your proposal are fully completed.
 
-Reach out to us on Slack to discuss further on the scope, changes required, _or if you have any other proposal._
-* Please submit your proposal on the [BLT GitHub discussion board](https://github.com/orgs/OWASP-BLT/discussions) in markdown language before you convert it to a PDF.  Because it will be easier for the team to review and give feedback there.
-* Team meetings are every Saturday at 12pm EST on [Slack - Join here](https://owasp.slack.com/archives/C2FF0UVHU)
 
 #### Knowledge Prerequisites
 
 * Python / Django for Backend
 * Flutter for Mobile app
 * Blockchain development
-* Some knowledge of UI designing for design related ideas.
+* UI / UX design
 
 ##### Mentors
 * Donnie (@DonnieBLT on Slack) -- lead mentor
-* Swapnil Shinde (@AtmegaBuzz on Slack) -- Django and blockchain mentor
-* Arkadii Yakovets (@arkid15r on Slack) -- Python/Django mentor
-* Harshit Seksaria (@letsintegreat on Slack) -- Flutter mentor
+* Yash Pandey
+* looking for 10 mentors this year
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
