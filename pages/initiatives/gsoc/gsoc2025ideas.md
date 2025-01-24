@@ -50,7 +50,7 @@ who get the most work done, and this is usually by submitting the most PRs.
 
 ##### 2025 GSOC Ideas / Projects
 
-Check our Github gor now, we will be adding projects here soon.
+Check our Github for now, we will be adding projects here soon.
 
 
 #### Expected Results
