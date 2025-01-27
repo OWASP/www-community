@@ -22,6 +22,16 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - February 2025 (Online)",
+        "date": "2025-02-25",
+        "time": "11:30-06:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489290",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n(To Be updated)"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "February 2025 OWASP Happy Hour sponsored by Cyera",
         "date": "2025-02-13",
         "time": "17:30-06:00",
@@ -118,6 +128,16 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/305489048",
         "timezone": "America/Los_Angeles",
         "description": "**/\\*\\* Updated Meeting Date \\*\\*/**\n**TOPIC**: Adding API Security to your DevSecOps Toolbelt\nJoin us for great networking, dinner and drinks, and see a presentation by **Scott Bly**, Director, Security Technologies, Systems Integration Solutions\n\n**ABSTRACT**:\nHow do you integrate API Security into your DevSecOps processes? You have DevOps tooling and CI/CD pipelines for your product release cycle. Your Dev & Ops teams work well together. You started a DevSecOps transformation to Shift Left and test code security in pipelines.\nBut how do you integrate the Security teams into DevOps to achieve true DevSecOps? Then, how do you integrate APIs, as they are behavior-based? Traditional AppSec can\u2019t identify vulnerabilities in API consumption.\nLearn how to integrate API testing into Shift Left DevSecOps pipelines to eliminate vulnerabilities. Learn how to bring Dev, Sec, Ops teams together to improve Mean Time To Remediation, and keep your teams happy!\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+    },
+    {
+        "group": "Minneapolis St Paul",
+        "repo": "www-chapter-minneapolis-st-paul",
+        "name": "February meetup",
+        "date": "2025-02-25",
+        "time": "17:30-06:00",
+        "link": "https://www.meetup.com/owasp-msp-meetup/events/305641736",
+        "timezone": "America/Chicago",
+        "description": "**DefectDojo**\n**(Topic TBA)**\n\nFor February's talk, we welcome DefectDojo, the open-source OWASP flagship project for vulnerability management.\n\nApproximate agenda (U.S. Central Time):\n5:30 - Doors open; socializing/connecting, food, OWASP announcements\n6:00 - Presentation\n\nDefectDojo is graciously providing food and drink for the event.\n\nPlease remember to register and keep your registration up to date so we know how many to expect."
     },
     {
         "group": "Netherlands",
