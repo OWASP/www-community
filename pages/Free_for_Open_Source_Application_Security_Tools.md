@@ -37,6 +37,7 @@ tools to improve the security and quality of their code:
     with Known Vulnerabilities (OWASP Top 10-2017
     A9)](/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities))
   - Static Code Quality Tools
+  - Automatic Remediation Tools
 
 **Disclaimer:** <b>OWASP does not endorse any of the Vendors or Scanning
 Tools by listing them below. They are simply listed if we believe they
@@ -351,6 +352,11 @@ Secrets detection is often confused with SAST because both scan through static s
 ### Intel and Repository Analysis Tools
 
 - [Gitxray](https://github.com/kulkansecurity/gitxray/) - Gitxray (short for Git X-Ray) is an opensource tool designed for use on GitHub repositories. It leverages public GitHub REST APIs to gather information on Contributors and Repositories that would otherwise be very time-consuming to obtain manually. It can identify fake or shared contributor accounts, collect sensitive information in contributor profiles by looking in unconventional places (e.g. by parsing GPG key blobs), flag dangerous repository activity, and a lot more available in [its documentation](https://www.gitxray.com).
+
+### Automatic Remediation Tools
+
+- [Mobb](https://mobb.ai/) - Mobb is an automatic code fixer for security issues. It runs manually or as part of a pipeline, digests your SAST reports, and generates ready-to-be-merged pull requests that fix your issues.
+
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
