@@ -40,6 +40,16 @@
         "description": "Well, the Master himself is in town, so what do we do? Organize a hacker day! :)\nWe are delighted to announce a workshop on Web Security Code Review, led by none other than **Louis Nyffenegger, Founder and CEO of Pentester Lab\u2014yes, our favorite hacker playground!.**\nTraveling all the way from Australia, this is a fantastic opportunity to learn from the master himself.\nThank you very much Semgrep for hosting the event. This meetup is in collaboration with [pacific hackers group](https://www.pacifichackers.org/)\n\n5 PM : Doors open\n5 PM -6 PM Networking\n6-8 PM : Workshop\n\nDetails Below:\n\n**\\# Title:** Web Security Code Review Workshop\n**\\# Abstract:** Learn how to identify vulnerabilities through effective manual security code reviews. In this workshop, we\u2019ll analyze real-world code examples, uncover common flaws like injections and authentication issues, and explore how to leverage built-in security features. You\u2019ll gain practical skills to complement automated tools and confidently tackle security challenges in real codebases. Ideal for developers, AppSec engineers, and code reviewers, this session focuses on practical techniques and real-world impact.\n\n\\# Speaker short bio\nLouis Nyffenegger is a seasoned security engineer and the founder of PentesterLab, a platform dedicated to teaching web penetration testing and security code review. With over a decade of experience in cybersecurity, Louis has focused on penetration testing, architecture analysis, and code reviews."
     },
     {
+        "group": "Brisbane",
+        "repo": "www-chapter-brisbane",
+        "name": "Foundational lessons in application security",
+        "date": "2025-02-10",
+        "time": "18:00+10:00",
+        "link": "https://www.meetup.com/brisbane-owasp-meetup-group/events/305961700",
+        "timezone": "Australia/Brisbane",
+        "description": "Join us for an insightful session examining how foundational lessons in application security remain just as relevant today as when Mark Curphey and John Viega introduced them in 2006. This talk will cover:\n\n* Corporate Environment Focus\n\n* Approaches to app development in large organisations\n* Common pitfalls in development, lifecycle management, and security monitoring\n* Key Risks and Recurring Problems\n* Historical and modern examples of vulnerabilities\n* Why \u2018all that is old is new again\u2019 in AppSec\n* Strategies for Improvement\n* Practical solutions derived from longstanding security principles\n* Lessons learnt on our own AppSec journey\n* Blending management perspectives with hands-on technical insights\nExpect a pseudo-technical deep dive into building, testing, and maintaining secure applications in complex corporate setups. You\u2019ll walk away with renewed appreciation for established best practices, along with actionable tips to modernise and strengthen your own security lifecycle."
+    },
+    {
         "group": "Cleveland",
         "repo": "www-chapter-cleveland",
         "name": "OWASP Cleveland: Contrast Security Demonstration",
