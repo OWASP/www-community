@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2025ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull;  [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP OWTF](#owasp-owtf) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon) &bull; [OWASP Website](#owasp-website)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull;  [Juice Shop](#owaspjuiceshop) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP OWTF](#owasp-owtf) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Threat Dragon](#owasp-threat-dragon) &bull; [OWASP Website](#owasp-website) &bull; [OWASP Nest](#owasp-nest)
 
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
@@ -366,12 +366,68 @@ Repositories:
 
 This project for Google Summer of Code (GSoC) aims to enhance the OWASP website by improving its mobile responsiveness, updating its styling, and refining navigation for a more modern and user-friendly experience. Key objectives include revamping the project’s and chapter’s discovery features to make them more intuitive and accessible, creating comprehensive “Getting Started” pages to guide new users, and streamlining the site’s overall structure to ensure it is well-organized and easy to maintain. The project will focus on delivering a clean, cohesive design that aligns with current web standards, improving accessibility and usability across all devices.
 
-## knowledge required
+#### knowledge required
 
 Jekyl
 
-## Mentors
+#### Mentors
 
 DonnieBLT on Slack
 (looking for more mentors, signup here)
 
+### [OWASP Nest](https://nest.owasp.org)
+
+OWASP Nest is a comprehensive platform designed to enhance collaboration and contribution within the OWASP community. The application serves as a central hub for exploring OWASP projects and ways to contribute to them, empowering contributors to find opportunities that align with their interests and expertise. Our mission is to drive real-world collaboration and elevate the OWASP organization by addressing key challenges and streamlining processes.
+
+#### Repository
+
+- [backend](https://github.com/OWASP/Nest/tree/main/backend)
+- [frontend](https://github.com/OWASP/Nest/tree/main/frontend)
+- [schema](https://github.com/OWASP/Nest/tree/main/schema)
+
+#### Technical Stack
+
+- Python, Django, Pytest
+- TypeScript, React, Jest
+- Chakra UI, Tailwind CSS
+- PostgreSQL, Algolia
+- Docker, k8s, AWS
+
+#### Projects / Ideas
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+- [OWASP Contribution Hub](https://github.com/OWASP/Nest/issues/710): Aiming to streamline the onboarding process and connect contributors with mentors and impactful projects. This milestone focuses on improving collaboration within the OWASP community.
+- [OWASP Nest API](https://github.com/OWASP/Nest/issues/707): The development of REST and GraphQL API endpoints for OWASP Projects, Chapters, Events, and Committees. This milestone will standardize data access across OWASP’s resources.
+- [OWASP Nest Kubernetes Adoption](https://github.com/OWASP/Nest/issues/706): This milestone focuses on migrating the OWASP Nest application to Kubernetes, ensuring scalability, reliability, and ease of deployment.
+- [OWASP Project Health Dashboard](https://github.com/OWASP/Nest/issues/711): A dashboard for monitoring the health of OWASP projects. This includes tracking vital metrics such as release frequency, issue resolution, and contributor growth.
+- [OWASP Schema](https://github.com/OWASP/Nest/issues/709): Developing and extending a standardized schema for OWASP Projects and Chapters. This milestone aims to ensure consistency and ease of integration across OWASP resources.
+- [OWASP Snapshots](https://github.com/OWASP/Nest/issues/708): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments.
+
+Please visit our planned [milestones page](https://github.com/OWASP/Nest/milestones) or `gsoc2025` labeled [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3Agsoc2025).
+
+#### Your own ideas
+
+![Possible for "Small" GSoC 2025 project](https://img.shields.io/badge/small%20size%20(90h)-possible-yellow) ![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Preferred for "Large" GSoC 2025 project](https://img.shields.io/badge/large%20size%20(350h)-preferred-green)
+
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+Do you have an idea to improve OWASP Nest?
+We'd love to hear it, please reach out in Slack to ensure that the idea fits OWASP Nest goals.
+
+#### Expected Results
+
+- Your proposal projects/ideas are fully completed.
+- Your code follows our existing style guides and passes quality checks, test coverage, etc.
+
+#### Getting Started
+
+- Check out our [contributing guidelines](https://github.com/OWASP/Nest/blob/main/CONTRIBUTING.md)
+- Join OWASP Nest channel [#project-nest](https://owasp.slack.com/archives/C07JLLG2GFQ)
+- Consider `good first issue` (if there are any) from OWASP Nest [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
+
+#### Mentors
+
+- [Arkadii Yakovets](https://github.com/arkid15r/) ([arkid15r](https://owasp.slack.com/team/U060W3NKLTF) on Slack)
+- [Kateryna Golovanova](https://github.com/kasya/) ([Kate](https://owasp.slack.com/team/U07PWB1JZ6Z) on Slack)
+- [Tamara Lazerka](https://github.com/aramattamara/) ([Tamara](https://owasp.slack.com/team/U0881RRPBDY) on Slack)
