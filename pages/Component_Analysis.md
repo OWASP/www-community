@@ -339,7 +339,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Vulert] | Vulert | Commercial / Freemium | Cross Platform / SaaS |
 | [VulnDB] | Risk Based Security | Commercial	| SaaS |
 | [Xray] | JFrog | Commercial | Cross Platform |
-| [ZeroPath] | ZeroPath | Commercial | Cross Platform / SaaS |
+| [ZeroPath] | ZeroPath | Commercial / Freemium | Cross Platform / SaaS |
 
 [Aikido Security]: https://aikido.dev
 [Arnica]: https://arnica.io/
