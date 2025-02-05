@@ -5,7 +5,7 @@
       "owner": "ZeroPath",
       "license": "Commercial or Free",
       "platforms": "SaaS, On-Premises",
-      "note": "Scans 10+ languages to find and fix conventional technical vulnerabilities (i.e., XSS, SQLI, SSRF, etc) long side business logic and broken auth bugs.",
+      "note": "Scans over 10 languages to identify and fix conventional technical vulnerabilities (e.g., XSS, SQL injection, SSRF) as well as business logic flaws and auth bugs.",
       "type": "SAST"
        },
        {
