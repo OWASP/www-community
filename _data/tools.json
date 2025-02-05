@@ -1,5 +1,14 @@
 [
        {
+      "title": "ZeroPath",
+      "url": "https://zeropath.com/",
+      "owner": "ZeroPath",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, On-Premises",
+      "note": "Scans 10+ languages to find and fix conventional technical vulnerabilities (i.e., XSS, SQLI, SSRF, etc) long side business logic and broken auth bugs.",
+      "type": "SAST"
+       },
+       {
       "title": "joern",
       "url": "https://joern.io/",
       "owner": "joernio",
