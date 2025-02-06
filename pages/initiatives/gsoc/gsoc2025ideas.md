@@ -298,10 +298,8 @@ OWASP Nettacker is a Modular Automated Penetration Testing/ Information gatherin
 
 ##### Explanation of Ideas
 
-- create comparison functionality for comparing the current scan with another scan using scanID
 - fix scan engine multi-threading/queuing issues
 - improve WebUI / add dashboard
-- implement SSL/TLS modules to restore the functionality we had in Nettacker v0.0.2
 - add DefectDojo integration / output report format
 - add SARIF output report format
 - implement testing framework, get 70% code coverage level
