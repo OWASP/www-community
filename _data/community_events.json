@@ -27,7 +27,7 @@
         "time": "11:30-06:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/305489290",
         "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n(To Be updated)"
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n***When the Tool is the Weapon -- Abusing (and defending) native M365 applications***\nWhen you think about Business Email Compromise, you think about the mailbox, right? Malicious inbox rules, spoofed domains hijacking email threads, and phishing campaigns blasted to a user\u2019s contact list are hallmarks of this type of attack. However, other applications within the M365 ecosystem are often leveraged by Threat Actors while they are in a compromised tenant.\n\nTeams, SharePoint, E-Discovery, and OneNote can and have been abused by threat actors during a business email compromise. Initial access, exfil, and leapfrogging to new victims can happen in a way that will not throw any alerts. What are the threat actors doing with these apps, how can we detect it, and how can we stop it?\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nIf you want to attend in-person, please see [Eventbrite](https://owasp-austin-2025-february.eventbrite.com). Please do not pull an in-person ticket unless you are going to attend as we purchase lunch for all in-person attendees."
     },
     {
         "group": "Austin",
@@ -48,6 +48,16 @@
         "link": "https://www.meetup.com/bay-area-owasp/events/305674357",
         "timezone": "America/Los_Angeles",
         "description": "Well, the Master himself is in town, so what do we do? Organize a hacker day! :)\nWe are delighted to announce a workshop on Web Security Code Review, led by none other than **Louis Nyffenegger, Founder and CEO of Pentester Lab\u2014yes, our favorite hacker playground!.**\nTraveling all the way from Australia, this is a fantastic opportunity to learn from the master himself.\nThank you very much Semgrep for hosting the event. This meetup is in collaboration with [pacific hackers group](https://www.pacifichackers.org/)\n\n5 PM : Doors open\n5 PM -6 PM Networking\n6-8 PM : Workshop\n\nDetails Below:\n\n**\\# Title:** Web Security Code Review Workshop\n**\\# Abstract:** Learn how to identify vulnerabilities through effective manual security code reviews. In this workshop, we\u2019ll analyze real-world code examples, uncover common flaws like injections and authentication issues, and explore how to leverage built-in security features. You\u2019ll gain practical skills to complement automated tools and confidently tackle security challenges in real codebases. Ideal for developers, AppSec engineers, and code reviewers, this session focuses on practical techniques and real-world impact.\n\n\\# Speaker short bio\nLouis Nyffenegger is a seasoned security engineer and the founder of PentesterLab, a platform dedicated to teaching web penetration testing and security code review. With over a decade of experience in cybersecurity, Louis has focused on penetration testing, architecture analysis, and code reviews."
+    },
+    {
+        "group": "Belo Horizonte",
+        "repo": "www-chapter-belo-horizonte",
+        "name": " OWASP BH: Hacking a Bank Without Leaving Your Bedroom",
+        "date": "2025-02-21",
+        "time": "20:00-03:00",
+        "link": "https://www.meetup.com/owasp-belo-horizonte-chapter/events/306048579",
+        "timezone": "America/Sao_Paulo",
+        "description": "Temos o prazer de convid\u00e1-los para o nosso pr\u00f3ximo evento que acontecer\u00e1 no dia **21/02**, \u00e0s **20 horas**. Ser\u00e1 uma oportunidade incr\u00edvel para nos aprofundarmos no mundo da seguran\u00e7a cibern\u00e9tica e hacking \u00e9tico.\n\n** Detalhes do Evento**\nData: **21 de Fevereiro de 2025**\nHor\u00e1rio: **20:00**\nPlataforma: **[Zoom](https://us06web.zoom.us/j/82672501627?pwd=MmDbiRIXJR5bb87FbyUja1J91WIm96.1)**\n\n **Sobre a Palestra**\nNesta palestra, Arthur compartilhar\u00e1 suas experi\u00eancias e insights sobre como \u00e9 poss\u00edvel explorar vulnerabilidades e os caminhos para fortalecer a seguran\u00e7a de sistemas financeiros sem sair do conforto de casa.\n\n**\u200d Sobre o Palestrante**\n[Arthur Aires](https://www.linkedin.com/in/arthur-aires-93388211b/)\n\nArthur Aires \u00e9 Bug Hunter e pentester com mais de 3 anos de experi\u00eancia, tendo destaque internacional na categoria. Ele atua em pentestes e testes de vulnerabilidades, gerenciamento de equipes, avalia\u00e7\u00f5es de Red Team, divulga\u00e7\u00e3o de vulnerabilidades, entre outros. Foi convidado cinco vezes pela HackerOne (H1-512, H1-702-2022, H1-3493, H1-702-2023 e H1-702-2024) para o Live Hacking Event, onde p\u00f4de colaborar pessoalmente com a seguran\u00e7a de empresas como PayPal, AWS, Amazon e Zoom.\n\nContamos com a presen\u00e7a de todos para um momento enriquecedor de aprendizado e troca de experi\u00eancias!"
     },
     {
         "group": "Brisbane",
@@ -220,16 +230,6 @@
         "description": "Are you an appsec guru and pride yourself in secure coding? Are you a developer and know you write **THE MOST** secure code out of your peers? Well here is your chance to come out and prove it and win **$CASH!$**\n\nOWASP Maine partnered with Secure Code Warrior will be hosting the 2nd annual OWASP Maine Secure Coding Tournament! This will be an in-person meetup where we welcome all software developers and appsec professionals from entry-level to principal. Bring your laptop and your secure coding wits and compete against your peers to be crowned the most secure coder in the state of Maine for 2025!\n\n**Prizes will be as follows:**\n\n**1st Place**\n\n* Crowned most secure coder in the state of Maine\n* Pretty cool trophy (pics to come)\n* TBD VISA giftcard!\n\n**2nd Place**\n\n* Second place trophy\n* Some cool Secure Code Warrior Swag\n* TBD VISA giftcard!\n\n**3rd Place**\n\n* Third place trophy\n* Some slightly less cool swag\n* TBD VISA giftcard!\n\nFor everyone else? You will gain new skills in secure coding, network with your peers, and also get free pizza and drinks!\n\nParticipating in the tournament is not required, feel free to join us either way for networking and learning something new!\n\n**When:** Thursday March 6th 2025 6:00pm - 8:00pm est\n**Where:** IDEXX Laboratories 1 Idexx Dr. Westbrook, ME 04092\n**Who:** Security and Development leadership and practitioners from Maine and all of northern New England\n\n**REQUIREMENTS:**\n\n**\\*You must also register for the Secure Code Warrior tournament here:**\nTBD\n**\\*You must bring your own laptop/machine to participate**\n**\\*You must be onsite and in person to participate**\n\n**OWASP Maine Linkedin Page:** [https://www.linkedin.com/company/owasp-maine/](https://www.linkedin.com/company/owasp-maine/)"
     },
     {
-        "group": "Reading",
-        "repo": "www-chapter-reading",
-        "name": "Extreme Shift Left with AI-Powered IDE Plugins",
-        "date": "2025-02-07",
-        "time": "18:00Z",
-        "link": "https://www.meetup.com/owasp-reading-chapter/events/305789651",
-        "timezone": "Europe/London",
-        "description": "**Event Description:**\nJoin us for an exciting OWASP meetup where we explore how AI-powered IDE plugins are transforming application security. This session will showcase how developers can embrace an **\"Extreme Shift Left\"** approach by integrating security directly into their coding workflows. Featuring innovative capabilities like **AI-powered secure coding assistants** and **real-time scanning**, these tools empower developers to identify and remediate vulnerabilities as they code.\nThis meetup is ideal for developers, security professionals, and DevSecOps teams who want to enhance their security practices and build secure applications faster.\n\n**Key Takeaways:**\n\n* How AI-powered IDE plugins integrate seamlessly into workflows for real-time security.\n* Detecting vulnerabilities and receiving actionable remediation suggestions as you code.\n* Real-world examples of Extreme Shift Left in AppSec.\n* Live Q&A and demo showcasing these capabilities in action.\n\n**Agenda:**\n\n1. Welcome and Introduction (5 min)\n2. The Importance of Shift Left in Application Security (10 min)\n3. AI-Powered IDE Plugins: Features & Capabilities (10 min)\n4. Live Demo: Real-Time Scanning and Secure Coding Assistance (20 min)\n5. Q&A and Networking (15 min)"
-    },
-    {
         "group": "Riga",
         "repo": "www-chapter-riga",
         "name": "The 2nd OWASP Riga Chapter Meetup [IN-PERSON]",
@@ -238,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-riga-chapter/events/305918541",
         "timezone": "Europe/Riga",
         "description": "**This event is kindly hosted by [Ekonomikas un kult\u016bras augstskola](https://www.augstskola.lv/). There is limited seating available for in-person attendees. Registration required.**\n\n**Venue Location**: [P\u0113rnavas iela 62, Latgales priek\u0161pils\u0113ta, R\u012bga, LV-1009, Latvia](https://www.google.com/maps/place//data=!4m2!3m1!1s0x46eece2216ab4c0b:0x242a2d93eecba91a?sa=X&ved=1t:8290&ictx=111)\n\n**Doors Open at 17.30** for registration, cookies and networking. The talks start at 18.00 (we start on time!).\n\n**TALKS**\n\n**OWASP Introduction, Welcome and News** - [Vladislavs Kolosovs](https://www.linkedin.com/in/vladislavs-kolosovs/), [Andrey Gubarev](https://www.linkedin.com/in/andreygubarev/) \\- OWASP Riga Chapter Leaders\n\n**Threat Modelling Workshop** - [Andrey Adamovich](https://www.linkedin.com/in/andreyadamovich/)\nIn this workshop, we\u2019ll collaborate live on a Miro board to analyze a simple system architecture, uncover potential threats, and propose mitigations. We\u2019ll demystify threat modeling using the STRIDE framework to identify risks and the DREAD methodology to prioritize them.\n\n**Applying OWASP to GraphQL -** [Gvido B\u0113rzi\u0146\u0161](https://www.linkedin.com/in/gvidob/)\nA lot of people still don't know what is GraphQL and refuse or don't know how to hack it, so let's try to change that, by demistifying it and applying OWASP Top 10 techniques and tools to test it just like a regular old REST API.\n\nGraphQL is still a relatively new technology that is still worth hacking with many implementations and not enough security controls built in, that's what we're going to talk about.\n\n**SPEAKERS**\n\n**Andrey Adamovich**\nAndrey is a software craftsman and CTO with a focus on IT strategy, platform engineering, and security. He helps organizations build scalable and secure technology platforms that improve software delivery. With expertise in DevOps, automation, and cloud technologies, Andrey creates systems that support agile teams and drive efficiency.\n\nAs an educator, Andrey has delivered over 300 courses across Europe, helping teams master software development, automation, and security practices. He is also a regular speaker at international conferences, sharing his insights on modern software development.\n\n**Gvido B\u0113rzi\u0146\u0161**\nCyber Security Consultant on the Red Team with experience in software development and other IT fields. Currently works at Possible Security.\n\n**TICKETS**\nOWASP meetups are **free** and open to **anyone** interested in application security. *Please note that you MUST book your place to be admitted to the event by the building security.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously.\n\nOWASP Code Of Conduct: [https://owasp.org/www-policy/operational/code-of-conduct](https://owasp.org/www-policy/operational/code-of-conduct)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2025-02-12",
-        "time": "12:00-08:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/303349991",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Stuttgart",
@@ -288,6 +278,16 @@
         "link": "https://www.meetup.com/owasp-samm/events/305496638",
         "timezone": "America/New_York",
         "description": "The SAMM Core team is happy to host a community call during a more friendly time for users in EU and Asia. This is not a replacement of the regular community call.\nWe will share any project news and updates.\nWe also encourage bringing your SAMM questions and we are happy to discuss them."
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "February community call - OWASP SAMM",
+        "date": "2025-02-12",
+        "time": "15:30-05:00",
+        "link": "https://www.meetup.com/owasp-samm/events/306052321",
+        "timezone": "America/New_York",
+        "description": "During our next community call we'll share project updates and, as always, we'll have time for Q&A. See you there!"
     },
     {
         "group": "Wrongsecrets",
