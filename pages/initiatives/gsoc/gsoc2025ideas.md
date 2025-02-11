@@ -44,54 +44,72 @@ Tips to get you started in no particular order:
 
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
-OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors get at least 5 PRs merged for the project. Preference will be given to students
-who get the most work done, and this is usually by submitting the most PRs.
+OWASP BLT is a **bug-hunting & logging platform** that enables users to hunt for vulnerabilities, participate in bug bounties, and contribute to open-source security. Organizations can leverage BLT to manage vulnerability reports, track security issues, and engage with ethical hackers.  
 
-##### 2025 GSOC Ideas / Projects
+BLT is a large-scale project with a growing ecosystem, offering **full-stack development, security automation, AI-powered analysis, and blockchain-based incentives**. This year’s GSoC projects focus on **UI/UX improvements, API development, automation, and gamification** to enhance the platform's usability and impact.  
 
-1. **Redesign with Dark Mode** – A UI/UX overhaul using Tailwind, potentially Figma files, and HTML implementation to create a modern, accessible design with dark mode as the default.  
+> Preference will be given to students who have at least **5 merged PRs** before GSoC selection.  
 
-2. **BLT Light Front-End in React** – A lightweight React-based front-end designed to stay under 100MB, ensuring high performance and accessibility with an optimized component structure.  
+---
 
-3. **Organization Dashboard – Better Integration Between Website & Orgs** – Enhancing the organization dashboard to allow management of vulnerability reports, bug reports, contributor metrics, and various content types for better oversight.  
+### 🔹 **2025 GSoC Ideas / Large Projects**  
 
-4. **Full API with Security Tests and Definitions to Support New Light Front-End (Migrate to Django Ninja?)** – Developing a secure, well-documented API with automated security tests to support the new front-end, potentially migrating to Django Ninja for improved performance and maintainability.  
+#### 🔸 **Modern UI/UX Overhaul & Lightweight Front-End in React** (~350h)  
+A complete redesign of BLT’s interface, improving accessibility, usability, and aesthetics. The new front-end will be built with React and Tailwind CSS, ensuring high performance while maintaining a lightweight architecture under **100MB**. Dark mode will be the default, with full responsiveness and an enhanced user experience.  
 
-5. **Gamification and Integration with Ordinals & Solana (Combined with GitHub-Integrated Contribution Tracking)** – A GitHub-integrated platform that tracks open-source contributions and rewards users with Bitcoin Ordinals and Solana-based incentives, introducing gamification elements like badges and leaderboards.  
+#### 🔸 **Organization Dashboard – Enhanced Vulnerability & Bug Management** (~350h)  
+Redesign and expand the **organization dashboard** to provide seamless management of **bug bounties, security reports, and contributor metrics**. Features will include **advanced filtering, real-time analytics, and improved collaboration tools** for security teams.  
 
-6. **Bid on Issues (Using Bitcoin Cash, No BLT Financial Transactions)** – A decentralized bidding system where developers can bid on GitHub issues using Bitcoin Cash, with a verification system ensuring direct fund transfers between project owners and contributors without BLT handling transactions.  
+#### 🔸 **Secure API Development & Migration to Django Ninja** (~350h)  
+Migrate our existing and develop a **secure, well-documented API** with automated security tests to support the new front-end. This may involve migrating from Django Rest Framework to **Django Ninja** for improved performance, maintainability, and API efficiency.  
 
-7. **Build the Flagship** – A comprehensive effort to gather information, refine platform features, ensure compliance, and collaborate with the board, executive director, and project committee to establish BLT's flagship product.  
+#### 🔸 **Gamification & Blockchain Rewards System (Ordinals & Solana)** (~350h)  
+Introduce **GitHub-integrated contribution tracking** that rewards security researchers with **Bitcoin Ordinals and Solana-based incentives**. This will integrate with other parts of the website as well such as daily check-ins and code quality. Gamification elements such as **badges, leaderboards, and contribution tiers** will encourage engagement and collaboration in open-source security.  
 
-8. **Slack Bot Enhancements – Integrate More Features** – Expanding the Slack bot's functionality to integrate more features from the website, enabling better automation, notifications, and user interactions.  
+#### 🔸 **Decentralized Bidding System for Issues (Bitcoin Cash Integration)** (~350h)  
+Create a decentralized system where developers can bid on **GitHub issues** using **Bitcoin Cash**, ensuring **direct transactions** between contributors and project owners without BLT handling funds.  
 
-9. **AI-Driven Open-Source Grant & Funding Tracker** – A platform that helps OWASP projects and other open-source initiatives discover, apply for, and manage grant and funding opportunities using AI-powered recommendations.  
+#### 🔸 **AI-Powered Code Review & Smart Prioritization System for Maintainers** (~350h)  
+Develop an **AI-driven GitHub assistant** that analyzes pull requests, detects security vulnerabilities, and provides **real-time suggestions** for improving code quality. A **smart prioritization system** will help maintainers rank issues based on **urgency, community impact, and dependencies**.  
 
-10. **AI-Powered Open-Source Code Review & Quality Assurance Bot** – A GitHub-integrated AI assistant that analyzes pull requests, detects security vulnerabilities and inefficiencies, and provides actionable code improvement suggestions.  
+#### 🔸 **Enhanced Slack Bot for Real-Time Security Alerts & Automation** (~175h)  
+Expand the BLT **Slack bot** to automate vulnerability tracking, send real-time alerts for new issues, and integrate **GitHub notifications and contributor activity updates** for teams.  
 
-11. **A Smart Prioritization System for Open-Source Maintainers** – A system that prioritizes GitHub issues based on best open-source value, community needs, urgency, and dependencies, assisting maintainers in resolving critical tasks efficiently.
+🔗 **More projects & discussions:** [BLT Milestones](https://github.com/OWASP-BLT/BLT/milestones)  
 
-More projects here: https://github.com/OWASP-BLT/BLT/milestones
+---
 
-#### Expected Results
+### ✅ **Expected Results**  
+- Successfully implementing a **fully functional, production-ready** feature.  
+- Contributions must align with **BLT’s core security and performance goals**.  
+- Code should adhere to best practices, including **security testing, CI/CD integration, and documentation**.  
 
-* We would expect that any projects you choose to include in your proposal are fully completed.
+---
 
-#### Knowledge Prerequisites
+### 📌 **Knowledge Prerequisites**  
+To contribute effectively, familiarity with at least one or more of the following is recommended:  
 
-* Python / Django 
-* Flutter
-* Blockchain / Bitcoin / Ordinals / Solana / NFT
-* UI / UX design
-* React
+- **Back-End:** Python, Django, Django Ninja, SQL  
+- **Front-End:** React, Next.js, Tailwind CSS, HTML/CSS  
+- **Blockchain:** Bitcoin Ordinals, Solana, Smart Contracts  
+- **AI/ML:** NLP, Machine Learning for security analytics  
+- **DevOps & Security:** GitHub API, REST API, OAuth, Authentication  
 
-##### Mentors
-* Donnie (@DonnieBLT on Slack)
-* Yash Pandey
-* Bishal Das
-* Ahmed ElSheikh
-* Patricia Waiyego
-* looking for 5 more mentors this year (if you are knowledgeable in any of the prerequisites and can review PRs, you can watch any of our videos https://blt.owasp.org/bltv/ and be up to speed and ready to mentor)
+---
+
+### 👥 **Mentors**  
+We are actively looking for more mentors! If you have experience in **Django, React, Blockchain, or AI**, we’d love to have you onboard.  
+
+📌 _Confirmed Mentors:_  
+- **Donnie** (_@DonnieBLT on Slack_)  
+- **Yash Pandey**  
+- **Bishal Das**  
+- **Ahmed ElSheikh**  
+- **Patricia Waiyego**  
+- _Looking for 5 more mentors!_  
+
+🎥 _To get up to speed, check out our [BLT videos](https://blt.owasp.org/bltv/)._  
+
 
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
