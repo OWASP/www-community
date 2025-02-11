@@ -50,7 +50,29 @@ who get the most work done, and this is usually by submitting the most PRs.
 
 ##### 2025 GSOC Ideas / Projects
 
-Check our Github for now here: https://github.com/OWASP-BLT/BLT/milestones we will be adding some new projects specifically for GSOC on this page soon.
+1. **Redesign with Dark Mode** – A UI/UX overhaul using Tailwind, potentially Figma files, and HTML implementation to create a modern, accessible design with dark mode as the default.  
+
+2. **BLT Light Front-End in React** – A lightweight React-based front-end designed to stay under 100MB, ensuring high performance and accessibility with an optimized component structure.  
+
+3. **Organization Dashboard – Better Integration Between Website & Orgs** – Enhancing the organization dashboard to allow management of vulnerability reports, bug reports, contributor metrics, and various content types for better oversight.  
+
+4. **Full API with Security Tests and Definitions to Support New Light Front-End (Migrate to Django Ninja?)** – Developing a secure, well-documented API with automated security tests to support the new front-end, potentially migrating to Django Ninja for improved performance and maintainability.  
+
+5. **Gamification and Integration with Ordinals & Solana (Combined with GitHub-Integrated Contribution Tracking)** – A GitHub-integrated platform that tracks open-source contributions and rewards users with Bitcoin Ordinals and Solana-based incentives, introducing gamification elements like badges and leaderboards.  
+
+6. **Bid on Issues (Using Bitcoin Cash, No BLT Financial Transactions)** – A decentralized bidding system where developers can bid on GitHub issues using Bitcoin Cash, with a verification system ensuring direct fund transfers between project owners and contributors without BLT handling transactions.  
+
+7. **Build the Flagship** – A comprehensive effort to gather information, refine platform features, ensure compliance, and collaborate with the board, executive director, and project committee to establish BLT's flagship product.  
+
+8. **Slack Bot Enhancements – Integrate More Features** – Expanding the Slack bot's functionality to integrate more features from the website, enabling better automation, notifications, and user interactions.  
+
+9. **AI-Driven Open-Source Grant & Funding Tracker** – A platform that helps OWASP projects and other open-source initiatives discover, apply for, and manage grant and funding opportunities using AI-powered recommendations.  
+
+10. **AI-Powered Open-Source Code Review & Quality Assurance Bot** – A GitHub-integrated AI assistant that analyzes pull requests, detects security vulnerabilities and inefficiencies, and provides actionable code improvement suggestions.  
+
+11. **A Smart Prioritization System for Open-Source Maintainers** – A system that prioritizes GitHub issues based on best open-source value, community needs, urgency, and dependencies, assisting maintainers in resolving critical tasks efficiently.
+
+More projects here: https://github.com/OWASP-BLT/BLT/milestones
 
 
 #### Expected Results
@@ -60,15 +82,19 @@ Check our Github for now here: https://github.com/OWASP-BLT/BLT/milestones we wi
 
 #### Knowledge Prerequisites
 
-* Python / Django for Backend
-* Flutter for Mobile app
-* Blockchain development
+* Python / Django 
+* Flutter
+* Blockchain / Bitcoin / Ordinals / Solana / NFT
 * UI / UX design
+* React
 
 ##### Mentors
-* Donnie (@DonnieBLT on Slack) -- lead mentor
+* Donnie (@DonnieBLT on Slack)
 * Yash Pandey
-* looking for 10 mentors this year (if you are knowledgeable in any of the prerequisites and can review PRs, you can watch any of our videos https://blt.owasp.org/bltv/ and be up to speed and ready to mentor)
+* Bishal Das
+* Ahmed ElSheikh
+* Patricia Waiyego
+* looking for 5 more mentors this year (if you are knowledgeable in any of the prerequisites and can review PRs, you can watch any of our videos https://blt.owasp.org/bltv/ and be up to speed and ready to mentor)
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
