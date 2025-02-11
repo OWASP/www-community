@@ -136,16 +136,13 @@ list? Great, please submit it!
   [Contribution Guidelines](https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html)
   very carefully. Best make some small contributions before GSoC, so we
   can see how you work and help you dive into the code even better.
-* Get in touch with
-  [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) to discuss any
-  of the listed or your own idea for GSoC!
+* Get in touch via Slack or email to discuss any of the listed or your own idea for GSoC!
 
 ##### Mentors
 
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader
-* [Shubham Palriwala](mailto:spalriwalau@gmail.com) - OWASP Juice Shop Core Team
-* [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Core Team
+* [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Project Leader
 
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
