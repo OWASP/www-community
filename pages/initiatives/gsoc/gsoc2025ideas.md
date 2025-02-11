@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2025ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Website](#owasp-website) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [OWASP Website](#owasp-website)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -171,19 +171,6 @@ Repositories:
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
 * [Arkadii Yakovets](mailto:arkadii.yakovets@owasp.org)
 
-### [OWASP Website](https://owasp.org)
-
-This project for Google Summer of Code (GSoC) aims to enhance the OWASP website by improving its mobile responsiveness, updating its styling, and refining navigation for a more modern and user-friendly experience. Key objectives include revamping the project’s and chapter’s discovery features to make them more intuitive and accessible, creating comprehensive “Getting Started” pages to guide new users, and streamlining the site’s overall structure to ensure it is well-organized and easy to maintain. The project will focus on delivering a clean, cohesive design that aligns with current web standards, improving accessibility and usability across all devices.
-
-#### knowledge required
-
-Jekyl
-
-#### Mentors
-
-DonnieBLT on Slack
-(looking for more mentors, signup here)
-
 ### [OWASP Nest](https://nest.owasp.org)
 
 OWASP Nest is a comprehensive platform designed to enhance collaboration and contribution within the OWASP community. The application serves as a central hub for exploring OWASP projects and ways to contribute to them, empowering contributors to find opportunities that align with their interests and expertise. Our mission is to drive real-world collaboration and elevate the OWASP organization by addressing key challenges and streamlining processes.
@@ -326,3 +313,16 @@ list? Great, please submit it!
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader ([bkimminich](https://owasp.slack.com/team/U1S23SNE7) on Slack)
 * [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Project Leader ([Jannik](https://owasp.slack.com/team/UAM6MBY30) on Slack) 
+
+### [OWASP Website](https://owasp.org)
+
+This project for Google Summer of Code (GSoC) aims to enhance the OWASP website by improving its mobile responsiveness, updating its styling, and refining navigation for a more modern and user-friendly experience. Key objectives include revamping the project’s and chapter’s discovery features to make them more intuitive and accessible, creating comprehensive “Getting Started” pages to guide new users, and streamlining the site’s overall structure to ensure it is well-organized and easy to maintain. The project will focus on delivering a clean, cohesive design that aligns with current web standards, improving accessibility and usability across all devices.
+
+#### knowledge required
+
+Jekyl
+
+#### Mentors
+
+DonnieBLT on Slack
+(looking for more mentors, signup here)
