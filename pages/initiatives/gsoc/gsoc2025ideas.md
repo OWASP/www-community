@@ -9,7 +9,6 @@ permalink: /initiatives/gsoc/gsoc2025ideas
 
 [Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Website](#owasp-website) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop)
 
-
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
 
@@ -74,11 +73,9 @@ who get the most work done, and this is usually by submitting the most PRs.
 
 More projects here: https://github.com/OWASP-BLT/BLT/milestones
 
-
 #### Expected Results
 
 * We would expect that any projects you choose to include in your proposal are fully completed.
-
 
 #### Knowledge Prerequisites
 
@@ -138,6 +135,41 @@ Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
 - [Aryan Prasad](mailto:aryan.prasad@owasp.org)
+
+### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
+
+OWASP Nettacker is a Modular Automated Penetration Testing/ Information gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, default credentials.
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+
+##### Explanation of Ideas
+
+- fix scan engine multi-threading/queuing issues
+- improve WebUI / add dashboard
+- add DefectDojo integration / output report format
+- add SARIF output report format
+- implement testing framework, get 70% code coverage level
+
+##### Getting Started
+
+Repositories:
+
+- [OWASP Nettacker on OWASP GitHub](https://github.com/OWASP/Nettacker)
+- Join OWASP Slack and contact us on channel [#project-nettacker](https://app.slack.com/client/T04T40NHX/CQZGG24FQ)
+
+##### Knowldege  Requirements
+
+- Python
+- Flask
+- HTML/CSS/JavaScript
+- previous vulnerability scanning/bug bounty hunting experience
+
+##### Mentors
+
+* [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
+* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+* [Arkadii Yakovets](mailto:arkadii.yakovets@owasp.org)
 
 ### [OWASP Website](https://owasp.org)
 
