@@ -170,6 +170,16 @@
         "description": "**Tracy Walker, principal solutions architect, DefectDojo**\n**Enhancing Open Source Tools Using AI: A \"No Code\" Journey to Build an Automated DefectDojo Parser Generator**\n\nFor February's talk, we welcome DefectDojo, the open-source OWASP flagship project for vulnerability management. See a live demonstration of using AI to accelerate the ability to adopt new, custom or unsupported security tools into DefectDojo, an open-source vulnerability management platform. Tracy Walker will demonstrate how he leverages AI LLM assistance to build security tool parsers from scratch, making tool integration accessible to security practitioners of all technical levels. Through live examples, attendees will learn how AI can help map and normalize security data, generate code and unit tests while maintaining code quality and existing parser best practices -- without actually \"writing\" code.\n\nPerfect for security engineers, DevSecOps practitioners, and anyone interested in enhancing their security toolchain through open source solutions and collaboration.\n\nApproximate agenda (U.S. Central Time):\n5:30 - Doors open; socializing/connecting, food, OWASP announcements\n6:00 - Presentation\n\nDefectDojo is graciously providing food and drink for the event.\n\nPlease remember to register and keep your registration up to date so we know how many to expect."
     },
     {
+        "group": "Mumbai",
+        "repo": "www-chapter-mumbai",
+        "name": "OWASP In-Person Meetup | 22nd February 2025",
+        "date": "2025-02-22",
+        "time": "12:30+05:30",
+        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/306137096",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Session Details:\n\n* Introduction to Owasp and Owasp Mumbai\n* Speaker Introduction\n\n#### Topic:\n\n* The art of incident response, a 360 degree View By **Manan Mitesh Shah**\n* Breaking the Container Boundary Using Side Channel Attack By **Adhokshaj Mishra**"
+    },
+    {
         "group": "Nashville",
         "repo": "www-chapter-nashville",
         "name": " AI is here for business users. What does that mean for AppSec?",
@@ -342,6 +352,16 @@
     {
         "group": "Samm",
         "repo": "www-project-samm",
+        "name": "OWASP SAMM Monthly Community Call (Europe-Asia)",
+        "date": "2025-03-14",
+        "time": "09:00-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/305752916",
+        "timezone": "America/New_York",
+        "description": "The SAMM Core team is happy to host a community call during a more friendly time for users in EU and Asia. This is not a replacement of the regular community call.\n\nWe will share any project news and updates during the call.\n\nWe also encourage bringing your SAMM questions and we are happy to discuss them."
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
         "name": "March community call - OWASP SAMM",
         "date": "2025-03-12",
         "time": "15:30-04:00",
@@ -358,16 +378,6 @@
         "link": "https://www.meetup.com/owasp-samm/events/305496638",
         "timezone": "America/New_York",
         "description": "The SAMM Core team is happy to host a community call during a more friendly time for users in EU and Asia. This is not a replacement of the regular community call.\nWe will share any project news and updates.\nWe also encourage bringing your SAMM questions and we are happy to discuss them."
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "February community call - OWASP SAMM",
-        "date": "2025-02-12",
-        "time": "15:30-05:00",
-        "link": "https://www.meetup.com/owasp-samm/events/306052321",
-        "timezone": "America/New_York",
-        "description": "During our next community call we'll share project updates and, as always, we'll have time for Q&A. See you there!"
     },
     {
         "group": "Wrongsecrets",
