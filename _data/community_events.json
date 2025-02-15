@@ -80,6 +80,16 @@
         "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #70! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics. Anyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\n\n*What are we going to talk about?*\n\n* **Rechtssicher durch den Cybervorfall:** We are excited to welcome **Olga Stepanova** and **Dirk Koch** \\- both partners at ByteLaw \\- who will guide you through the rough waters on how you can protect your company from the legal consequences of a cyber incident\\. Experts explain current threats such as ransomware and business email compromise and provide practical tips on how to deal with perpetrators\\, authorities and insurance companies in a legally secure manner\\.\n* **Regulatory Affairs for Hackers:** It's not just since the GDPR that we've known what a resounding impact legal changes can have, but what else can we possibly expect when regulation gets really strict?\n**Leon Holub**, product owner of the Regulatory Radar platform at Johner Institute GmbH tries to give an insight into the world of legal requirements for medical devices, from a perspective of a software developer who has immersed himself in the details of the world's regulatory systems not too long ago.\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks. For those interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n*When?* Our Meetup takes place on **26.02.2025** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at CHECK24 , located at Speicherstra\u00dfe 55, 60327 Frankfurt am Main.\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
     },
     {
+        "group": "Houston",
+        "repo": "www-chapter-houston",
+        "name": "OWASP Houston Chapter In-person Meetup at Main Event Katy, TX",
+        "date": "2025-03-03",
+        "time": "18:30-06:00",
+        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/306160835",
+        "timezone": "America/Chicago",
+        "description": "This will be an informal meeting where people on the west side can get together for a little bit. No formal agenda but hopefully we can find volunteers who are willing to start leading events.\n\nIf you would like to host something similar in your part of town, please add your recommendations in the comments.\n\nMain Event is family friendly, so you can combine the meeting with some family game time.\n\n24401 Katy Freeway, Katy, TX 77494\nhttps://www.mainevent.com/locations/texas/katy/"
+    },
+    {
         "group": "Italy",
         "repo": "www-chapter-italy",
         "name": "OWASP Italy @ Security Summit 2025",
@@ -302,12 +312,12 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "Cybersecurity In Low Earth Orbit",
+        "name": "Emerging Cybersecurity Threats in Space",
         "date": "2025-02-20",
         "time": "18:00-08:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/305510162",
         "timezone": "America/Vancouver",
-        "description": "More details TBD\n\nThis event is sponsored by **[Forward Security](https://forwardsecurity.com/)**."
+        "description": "**Emerging Cybersecurity Threats in Space** with **Bill Souder**\nAs space technology advances, cybersecurity threats to spacecraft have become a growing concern. Spacecraft such as satellites are vulnerable to cyberattacks that could disrupt operations, compromise data, or even cause physical damage. Malware and ransomware introduced into the software supply chain used in ground control systems can seriously impact mission-critical systems. The reliance on outdated or unpatched software in long-duration missions also increases vulnerabilities. Vulnerable systems could permit unauthorized access to satellite systems, resulting in adversaries taking control of spacecraft functions. To address these challenges robust and resilient cybersecurity frameworks that address software, hardware, and human threats are now more important than ever.\n\n**Bill** is a Staff Enterprise Architect MDA Space, and is responsible for\narchitecture and strategy in the areas of DevOps, Cloud, and Security in MDA Space\u2019s Geointelligence unit. Bill has over 25 years experience in the information technology field working in telecommunications, digital aviation, electrical power grids, and space. Bill has a BA (Hons.) and MA in Political Science with a focus on Canadian security and international trade.\n\n**This event is sponsored by [Forward Security](https://forwardsecurity.com/).**"
     },
     {
         "group": "Victoria",
@@ -338,16 +348,6 @@
         "link": "https://www.meetup.com/owasp-samm/events/306053378",
         "timezone": "America/New_York",
         "description": "During our next community call we'll share project updates and, as always, we'll have time for Q&A. See you there!"
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "Extra OWASP SAMM community call Europe - Asia",
-        "date": "2025-02-14",
-        "time": "08:00-05:00",
-        "link": "https://www.meetup.com/owasp-samm/events/305496638",
-        "timezone": "America/New_York",
-        "description": "The SAMM Core team is happy to host a community call during a more friendly time for users in EU and Asia. This is not a replacement of the regular community call.\nWe will share any project news and updates.\nWe also encourage bringing your SAMM questions and we are happy to discuss them."
     },
     {
         "group": "Wrongsecrets",
