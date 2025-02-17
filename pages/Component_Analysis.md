@@ -164,7 +164,7 @@ details not known or prescribed by the component. Component Analysis can aggrega
 runtime, and environmental dependencies providing a holistic view of inherited risk.
 
 From a risk mitigation standpoint, only direct dependencies can be changed in some cases. For example, a `pom.xml` file
-declares only on direct dependencies, while lock files, such as `package-lock.json` may be more flexable. 
+declares only on direct dependencies, while lock files, such as `package-lock.json` may be more flexible. 
 Any changes to transitive dependencies can potentially break the code that depends on it, and therefore, it would be 
 most impactful to focus on identifying the direct dependency fix. 
 
@@ -307,6 +307,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Dependency Track SaaS] | YourSky.blue | Commercial | SaaS |
 | [DepShield] | Sonatype | Open Source | Cross Platform / SaaS |
 | [DotNET Retire] | Retire.NET Project | Open Source | Cross Platform |
+| [Endor Labs] | Endor Labs | Commercial | SaaS |
 | [FlexNet Code Insight] | Flexera Commercial	| Cross Platform |
 | [Fluid Attack's Scanner] | Fluid Attacks | MPL 2.0. | SaaS |
 | [FOSSA] | FOSSA | Commercial / Freemium | SaaS |
@@ -360,6 +361,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Dependency Track SaaS]: https://yoursky.blue/products/dependency-track-saas
 [DepShield]: https://depshield.github.io/
 [DotNET Retire]: https://github.com/RetireNet/dotnet-retire
+[Endor Labs]: https://endorlabs.com
 [FlexNet Code Insight]: https://www.flexera.com/products/software-composition-analysis/flexnet-code-insight.html
 [Fluid Attack's Scanner]: https://docs.fluidattacks.com/machine/scanner
 [FOSSA]: https://fossa.com/

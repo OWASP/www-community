@@ -30,26 +30,6 @@
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n***When the Tool is the Weapon -- Abusing (and defending) native M365 applications***\nWhen you think about Business Email Compromise, you think about the mailbox, right? Malicious inbox rules, spoofed domains hijacking email threads, and phishing campaigns blasted to a user\u2019s contact list are hallmarks of this type of attack. However, other applications within the M365 ecosystem are often leveraged by Threat Actors while they are in a compromised tenant.\n\nTeams, SharePoint, E-Discovery, and OneNote can and have been abused by threat actors during a business email compromise. Initial access, exfil, and leapfrogging to new victims can happen in a way that will not throw any alerts. What are the threat actors doing with these apps, how can we detect it, and how can we stop it?\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nIf you want to attend in-person, please see [Eventbrite](https://owasp-austin-2025-february.eventbrite.com). Please do not pull an in-person ticket unless you are going to attend as we purchase lunch for all in-person attendees."
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "February 2025 OWASP Happy Hour sponsored by Cyera",
-        "date": "2025-02-13",
-        "time": "17:30-06:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/305616287",
-        "timezone": "America/Chicago",
-        "description": "**When:** Thursday, February 13th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [Cyera](https://cyera.io/)\n*Cyera is an AI-powered data security platform that helps organizations manage and protect their data in today\u2019s complex digital landscape. The company\u2019s platform combines advanced Data Security Posture Management (DSPM) with real-time enforcement controls, providing customers with a comprehensive solution for securing their data assets against evolving threats. Learn more at cyera.io.*"
-    },
-    {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "Hacker Days:- Web Security Code Review Workshop",
-        "date": "2025-02-11",
-        "time": "17:00-08:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/305674357",
-        "timezone": "America/Los_Angeles",
-        "description": "Well, the Master himself is in town, so what do we do? Organize a hacker day! :)\nWe are delighted to announce a workshop on Web Security Code Review, led by none other than **Louis Nyffenegger, Founder and CEO of Pentester Lab\u2014yes, our favorite hacker playground!.**\nTraveling all the way from Australia, this is a fantastic opportunity to learn from the master himself.\nThank you very much Semgrep for hosting the event. This meetup is in collaboration with [pacific hackers group](https://www.pacifichackers.org/)\n\n5 PM : Doors open\n5 PM -6 PM Networking\n6-8 PM : Workshop\n\nDetails Below:\n\n**\\# Title:** Web Security Code Review Workshop\n**\\# Abstract:** Learn how to identify vulnerabilities through effective manual security code reviews. In this workshop, we\u2019ll analyze real-world code examples, uncover common flaws like injections and authentication issues, and explore how to leverage built-in security features. You\u2019ll gain practical skills to complement automated tools and confidently tackle security challenges in real codebases. Ideal for developers, AppSec engineers, and code reviewers, this session focuses on practical techniques and real-world impact.\n\n\\# Speaker short bio\nLouis Nyffenegger is a seasoned security engineer and the founder of PentesterLab, a platform dedicated to teaching web penetration testing and security code review. With over a decade of experience in cybersecurity, Louis has focused on penetration testing, architecture analysis, and code reviews."
-    },
-    {
         "group": "Belo Horizonte",
         "repo": "www-chapter-belo-horizonte",
         "name": " OWASP BH: Hacking a Bank Without Leaving Your Bedroom",
@@ -90,6 +70,36 @@
         "description": "Hello everyone, we're excited to invite you to our OWASP Chapter meeting #70! Our Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics. Anyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\n\n*What are we going to talk about?*\n\n* **Rechtssicher durch den Cybervorfall:** We are excited to welcome **Olga Stepanova** and **Dirk Koch** \\- both partners at ByteLaw \\- who will guide you through the rough waters on how you can protect your company from the legal consequences of a cyber incident\\. Experts explain current threats such as ransomware and business email compromise and provide practical tips on how to deal with perpetrators\\, authorities and insurance companies in a legally secure manner\\.\n* **Regulatory Affairs for Hackers:** It's not just since the GDPR that we've known what a resounding impact legal changes can have, but what else can we possibly expect when regulation gets really strict?\n**Leon Holub**, product owner of the Regulatory Radar platform at Johner Institute GmbH tries to give an insight into the world of legal requirements for medical devices, from a perspective of a software developer who has immersed himself in the details of the world's regulatory systems not too long ago.\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks. For those interested, we will continue socializing at the Bockenheimer Weinkontor afterward.\n\n*When?* Our Meetup takes place on **26.02.2025** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at CHECK24 , located at Speicherstra\u00dfe 55, 60327 Frankfurt am Main.\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
     },
     {
+        "group": "Houston",
+        "repo": "www-chapter-houston",
+        "name": "OWASP Houston Chapter In-person Meetup at Main Event Katy, TX",
+        "date": "2025-03-03",
+        "time": "18:30-06:00",
+        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/306160835",
+        "timezone": "America/Chicago",
+        "description": "This will be an informal meeting where people on the west side can get together for a little bit. No formal agenda but hopefully we can find volunteers who are willing to start leading events.\n\nIf you would like to host something similar in your part of town, please add your recommendations in the comments.\n\nMain Event is family friendly, so you can combine the meeting with some family game time.\n\n24401 Katy Freeway, Katy, TX 77494\nhttps://www.mainevent.com/locations/texas/katy/"
+    },
+    {
+        "group": "Italy",
+        "repo": "www-chapter-italy",
+        "name": "OWASP Italy @ Security Summit 2025",
+        "date": "2025-03-13",
+        "time": "09:00+01:00",
+        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/305915839",
+        "timezone": "Europe/Rome",
+        "description": "   -    -  - ://.\n\nAnche quest'anno OWASP Italy \u00e8 ospite del Security Summit Milano, con una sessione interamente dedicata all'Application Security.\n\nLa sessione \u00e8 rivolta a professionisti della sicurezza delle applicazioni, sviluppatori di software professionali, ingegneri della qualit\u00e0 del software, ricercatori e studenti di informatica. L'obiettivo della sessione \u00e8 stimolare l'interesse per le pratiche di ingegneria del software applicativo e sicuro e per le nuove iniziative all'interno delle organizzazioni.\n\nAll'interno della sessione, saranno ospitate 2 talk da 20 minuti ciascuna, per i quali \u00e8 aperta la Call for Talks qui di seguito descritta.\n\nGli argomenti speciali di interesse sono i seguenti:\n\\- AppSec\n\\- Intelligenza artificiale \\(AI\\)\n\\- Sicurezza per applicazioni mobile\\, cloud e serverless\n\\- Blockchain e Internet of Things per usi legati alla sicurezza\n\\- Penetration testing e attacchi a livello applicativo\n\\- Threat modeling\\, architettura delle applicazioni e dei sistemi\n\\- DevSecOps\n\\- Pianificazione e implementazione di un programma di sicurezza applicativa\n\\- Creazione di un team e di una cultura dedicata alla sicurezza applicativa \\(AppSec\\)\n\nIncoraggiamo i professionisti della sicurezza delle applicazioni, gli sviluppatori di software professionali, gli ingegneri della qualit\u00e0 del software, i ricercatori e gli studenti di informatica a presentare proposte come opportunit\u00e0 per condividere le conoscenze e le lezioni apprese su argomenti rilevanti per la sicurezza delle applicazioni e del software con una precedente esperienza di presentazione alle conferenze sulla sicurezza.\n\n \nI candidati speaker possono inviare un abstract del loro intervento proposto tramite Easychair entro il 14 Febbraio 2025. Il link Easychair per l'invio \u00e8 riportato di seguito.\n\nL'abstract deve essere in formato PDF e deve contenere le seguenti informazioni:\n\\- Nome e cognome del relatore\n\\- Istituzioni e ruoli ricoperti dal relatore\n\\- Breve biografia del relatore\n\\- Titolo del contributo\n\\- Abstract della presentazione\nLa presentazione non deve superare le 2 pagine complessive. Non sono previsti ulteriori requisiti di formattazione.\nLa durata prevista degli interventi proposti \u00e8 di 20 minuti.\nLe presentazioni saranno esaminate dal comitato di programma e le proposte di intervento pi\u00f9 interessanti saranno selezionate per la conferenza.\n\n  : 14 Febbraio 2025\n  : 21 Febbraio 2025\n: 13 Marzo.\n\n : [https://lnkd.in/dzGHvz7Q](https://lnkd.in/dzGHvz7Q)"
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
+        "name": "OWASP Monthly Meeting ",
+        "date": "2025-03-17",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/305846032",
+        "timezone": "America/New_York",
+        "description": "Monthly local meetup to discuss security related topics."
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Monthly Meeting ",
@@ -122,12 +132,12 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
-        "name": "To be Announced",
+        "name": "OWASP LA Monthly In-Person Meeting - FEB 26, 2025",
         "date": "2025-02-26",
         "time": "17:30-08:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/305822172",
         "timezone": "America/Los_Angeles",
-        "description": "**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+        "description": "**TOPIC**: CCPA/CPRA and Its Impact on Developers\nJoin us for great networking, dinner and drinks, and see a presentation by **Mike Villegas**, CISO for TRISTAR Insurance Group, and President and Founder of iSecurePrivacy, LLC\n\n**ABSTRACT**:\nTBA\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Los Angeles",
@@ -160,6 +170,16 @@
         "description": "**Tracy Walker, principal solutions architect, DefectDojo**\n**Enhancing Open Source Tools Using AI: A \"No Code\" Journey to Build an Automated DefectDojo Parser Generator**\n\nFor February's talk, we welcome DefectDojo, the open-source OWASP flagship project for vulnerability management. See a live demonstration of using AI to accelerate the ability to adopt new, custom or unsupported security tools into DefectDojo, an open-source vulnerability management platform. Tracy Walker will demonstrate how he leverages AI LLM assistance to build security tool parsers from scratch, making tool integration accessible to security practitioners of all technical levels. Through live examples, attendees will learn how AI can help map and normalize security data, generate code and unit tests while maintaining code quality and existing parser best practices -- without actually \"writing\" code.\n\nPerfect for security engineers, DevSecOps practitioners, and anyone interested in enhancing their security toolchain through open source solutions and collaboration.\n\nApproximate agenda (U.S. Central Time):\n5:30 - Doors open; socializing/connecting, food, OWASP announcements\n6:00 - Presentation\n\nDefectDojo is graciously providing food and drink for the event.\n\nPlease remember to register and keep your registration up to date so we know how many to expect."
     },
     {
+        "group": "Mumbai",
+        "repo": "www-chapter-mumbai",
+        "name": "OWASP In-Person Meetup | 22nd February 2025",
+        "date": "2025-02-22",
+        "time": "12:30+05:30",
+        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/306137096",
+        "timezone": "Asia/Kolkata",
+        "description": "#### Session Details:\n\n* Introduction to Owasp and Owasp Mumbai\n* Speaker Introduction\n\n#### Topic:\n\n* The art of incident response, a 360 degree View By **Manan Mitesh Shah**\n* Breaking the Container Boundary Using Side Channel Attack By **Adhokshaj Mishra**"
+    },
+    {
         "group": "Nashville",
         "repo": "www-chapter-nashville",
         "name": " AI is here for business users. What does that mean for AppSec?",
@@ -168,16 +188,6 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/304456309",
         "timezone": "America/Chicago",
         "description": "Gone are the days where you needed to have a coding background in order to create apps, automate processes, or reduce the need for manual tasks. Now, emails and communications are sent quicker, code is written faster, and applications are built en masse. Business users are enabled and empowered in ways we never dreamed of even 12 months ago. Thanks to the injection of AI into essentially every business productivity tool, from email to business intelligence to application development, business users are able to get more done without needing IT or dev teams to get involved. However, as is often the case, productivity and ease can come at the expense of security if not controlled properly. As people are brought closer to technology through the use of Gen AI tools and Copilots, security teams are facing difficult decisions on whether to clamp down on the use of these tools, or staring down increased likelihoods of data leakage and exfiltration. For a long time, security has been seen as a business blocker, but the introduction of Gen AI is forcing a reset on organizations that presents an opportunity for security to act as a business enabler."
-    },
-    {
-        "group": "Netherlands",
-        "repo": "www-chapter-netherlands",
-        "name": "February 2025 OWASP Chapter Netherlands Meetup",
-        "date": "2025-02-13",
-        "time": "18:00+01:00",
-        "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/305251997",
-        "timezone": "Europe/Amsterdam",
-        "description": "See [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Pizza**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **The AI Who Shagged Me!** by **Ali Abdollahi**\n20.00 - 20:15 - **Break with drinks**\n20:15 - 21:00 - **Behind the Breach: Understanding and Preventing Web Vulnerabilities** by **Mitchel Koster**\n\n**The AI Who Shagged Me!**\n*Abstract:*\nIn today\u2019s ever-changing world of cybersecurity, bringing AI into red teaming exercises is an exciting way to boost how we assess our organizational defenses. This approach fits well with frameworks like TIBER, which focus on creating realistic simulations of cyber threats. It\u2019s all about making our defenses stronger and more effective! AI algorithms effectively analyze large datasets to identify emerging threats and tactics, aiding in realistic attack simulations. AI-driven tools help replicate complex attacks, providing red teams with thorough assessments of security measures. Using AI-generated anomalies enhances detection capabilities and strengthens incident response plans. However, the integration of AI into red teaming is not without challenges. This discussion aims to provide a nuanced overview of the application of AI in red teaming exercises, examining its potential benefits and limitations within established frameworks like TIBER. By critically evaluating this integration, we can better understand how to harness AI\u2019s capabilities to strengthen cybersecurity offense and defense.\n*Bio:*\nAli is a cybersecurity researcher with over 12 years of experience. Currently, he is the application and offensive security manager at Canon EMEA. He studied computer engineering, published articles, and holds several professional certificates. Ali is a Microsoft MVP and regular speaker or trainer at industry conferences and events.\n\n**Behind the Breach: Understanding and Preventing Web Vulnerabilities**\n*Abstract:*\n\u201cBehind the Breach: Understanding and Preventing Web Vulnerabilities delves into the transformation of modern web applications and architecture, showcasing how advancements in frameworks and browser technologies have revolutionized security. Yet, even with these innovations, attackers persist in uncovering and exploiting vulnerabilities. Drawing from real-world case studies across industries\u2014from agile startups to global enterprises\u2014this presentation not only demonstrates how a deeper understanding of security can thwart these threats, but also highlights how effectively conveying the potential impact of vulnerabilities is key to prioritizing security efforts.\u201d\n*Bio:*\nMitchel Koster is the Chief Security Researcher at Breachlock, where he leads the development of new security products and conducts research and engagements for high-profile clients. His work includes Red and Purple Team exercises and addressing custom security requirements across diverse sectors, including Aviation and Healthcare. With a background in computer science, embedded systems, and programming, Mitchel bridges the gap between modern software development practices and robust security measures.\n\nFor parking, there\u2019s a (paid) parking space less than 5 minutes away at the Q-Park Hermitage. ([ https://maps.app.goo.gl/XpJzhnj4BP6Kw9T88](https://maps.app.goo.gl/XpJzhnj4BP6Kw9T88) )\n\nAlso a 5 minute walk is the Zaandam station. ([ https://maps.app.goo.gl/3emKrp4ygx41SoN67](https://maps.app.goo.gl/3emKrp4ygx41SoN67) )"
     },
     {
         "group": "New Zealand",
@@ -220,14 +230,24 @@
         "description": "**Reserve your spot! Only 60 RSVPs for this specific event.**\n\n**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, February 17th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Live Stream**\nStream us live on Twitch: [http://twitch.tv/owaspoc](http://twitch.tv/owaspoc)\n*Please change your RSVP to \"No\" if you can't make it and/or will join via livestream instead.*\n\n**Abstract**\nEver wanted to get serious about security code review? In this talk, Louis will share tips and tricks on how to get started, covering the basics of what to look for when reviewing code for vulnerabilities. We\u2019ll explore some common mistakes developers make\u2014highlighted by real-world CVEs\u2014to see how small missteps can lead to big security headaches.\nWe\u2019ll also dig into the specifics of JSON Web Tokens (JWTs), focusing on algorithm confusion. By studying what\u2019s supposed to keep JWTs secure from these attacks, you\u2019ll see how knowing the standard protection patterns makes it a lot easier to spot potentially vulnerable code.\n\nExpect real examples, practical insights, and a chance to learn what seasoned reviewers look for when they\u2019re on the hunt for security pitfalls."
     },
     {
+        "group": "Orlando",
+        "repo": "www-chapter-orlando",
+        "name": "OWASP Orlando - Application Security",
+        "date": "2025-03-13",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-orlando/events/302181943",
+        "timezone": "America/New_York",
+        "description": "This is an In-Person OWASP Orlando Chapter Meeting\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **TBD**\nTopic: TBD\n\nSpeaker 2: **TBD**\nTopic: TBD"
+    },
+    {
         "group": "Ottawa",
         "repo": "www-chapter-ottawa",
-        "name": "OWASPOttawa Feb 19th 2025:  Securing the Industrial Frontier/Are We Leak-Free?",
+        "name": "OWASPOttawa Feb 19th 2025: Are We Leak-Free Yet? Securing Production App Secrets",
         "date": "2025-02-19",
         "time": "18:00-05:00",
         "link": "https://www.meetup.com/owasp-ottawa/events/305942268",
         "timezone": "America/Toronto",
-        "description": "**Welcome to our in-Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **\"Securing the Industrial Frontier: AI-Powered Defenses for OT/ICS Cybersecurity\" with Kay Oblassi**\n3. **\"Are We Leak-Free Yet? Securing Production App Secrets\" with Robert Babaev**\n\n**Abstract:**\n*Securing the Industrial Frontier: AI-Powered Defenses for OT/ICS Cybersecurity with Kay Oblassi*\nAs OT/ICS systems become increasingly vulnerable to cyber threats, AI-powered defenses offer a promising solution. This presentation explores the intersection of AI and OT/ICS, discussing the benefits and challenges of implementing AI-powered defenses in industrial control systems.\n\n*Are We Leak-Free Yet? Securing Production App Secrets with Robert Babaev*\nA month or so ago, I was fiddling with ways of getting secret values (API keys, database URLs, etc.) into an application without leaking them. This talk will go over that journey, and how complicated it actually can be to get zero-leak secret injection in web apps, namely those using Docker Compose and Docker Swarm. Considerations for client-side secrets, server-side secrets, and more! Demos include showcasing source code, and possibly spooling up Docker containers and/or building web applications on a local environment. Likely pre-recorded.\n\n**Speakers:**\n**Kay Oblassi**\nKayode is a seasoned professional with over a decade of experience in financial services, consulting, and Cyber GRC. He is the Founder of Aidrome Inc., an IT firm that aims to leverage AI for digital transformation across various sectors, including ICS/OT Cybersecurity.\n\n**Robert Babaev**\nRobert Babaev is a recent graduate of Carleton University with an Honours Bachelor of Computer Science, specializing in Computer and Internet Security. He has done multiple internships at major Canadian cyber companies like Barracuda Networks and Software Secured, research into authentication and access control frameworks, and competed internationally in Athens and Prague in competitions through CyberSci. Robert also regularly engages in side projects including CourseFull, an app built to help students track their academic goals without the guesswork."
+        "description": "**Welcome to our in-Person Meetup at the University of Ottawa**\n\nIn-Person Location:\n150 Louis-Pasteur Private, Ottawa,\nUniversity of Ottawa\nRoom 117\n\nWe will continue to Live Stream on our YouTube channel. (https://www.youtube.com/@OWASP_Ottawa). Subscribe to our YouTube channel, set a reminder and you\u2019ll get a notification as soon as we go live!\n\n**YouTube Live Stream Link**: TBA\n\n**6:00 PM EST** Arrival, setup, mingle, PIZZA!!!\n\n**6:30 PM EST** Technical Talks\n\n1. Introduction to OWASP Ottawa, Public Announcements.\n2. **\"Are We Leak-Free Yet? Securing Production App Secrets\" with Robert Babaev**\n\n**Abstract:**\nA month or so ago, I was fiddling with ways of getting secret values (API keys, database URLs, etc.) into an application without leaking them. This talk will go over that journey, and how complicated it actually can be to get zero-leak secret injection in web apps, namely those using Docker Compose and Docker Swarm. Considerations for client-side secrets, server-side secrets, and more! Demos include showcasing source code, and possibly spooling up Docker containers and/or building web applications on a local environment. Likely pre-recorded.\n\n**Speakers:**\n**Robert Babaev** is a recent graduate of Carleton University with an Honours Bachelor of Computer Science, specializing in Computer and Internet Security. He has done multiple internships at major Canadian cyber companies like Barracuda Networks and Software Secured, research into authentication and access control frameworks, and competed internationally in Athens and Prague in competitions through CyberSci. Robert also regularly engages in side projects including CourseFull, an app built to help students track their academic goals without the guesswork."
     },
     {
         "group": "Peterborough",
@@ -250,6 +270,16 @@
         "description": "HellOWASP! Yikes. But we all give and receive grace when we need to, that\u2019s why I love our community. And hot off the heels of our now-annual January kick-off, one of our newest members will be delivering fresh perspectives on threat modeling for everyone. How\u2019s that for community?\n\nSo please join us, for me, for you, and for the world we all seek to secure and share in this community, talk some shop, and warmly welcome our speaker Michael Novack.\n\nMike will first lay a foundation of threat modeling, then will present a method he calls a \"Cyber Book Club\" that allows technical and non-technical folks to engage with the threat modeling discussion.\n\nOur meetings always have and always will be free for all to attend, partake, and learn. The agenda will also have some front matter of other chapter happenings, and lite refreshments will be provided. So I'll see you at the place we meet - upstairs at the Black Sheep!"
     },
     {
+        "group": "Poland",
+        "repo": "www-chapter-poland",
+        "name": "OWASP Meeting in Krakow - Supply chain in application security",
+        "date": "2025-02-24",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-poland/events/306081108",
+        "timezone": "Europe/Warsaw",
+        "description": "**Important note first:** Unfortunately our previous venue - Techies' is temporarily closed, so this time we are meeting at Relativity office.\n\nOur main topic for this meeting will be supply chain attack and defence. First our guest - Pedro Fortuna will introduce one of supply chain attacks - so called - resurected domains. Then we will host a discussion about how we can defend dependencies in our software to not be a victim of constantly growing supply chain attacks.\n\nAgenda:\n\n1. **Dawn of the Dead - The Tale of the Resurrected Domains**\n*Pedro Fortuna (CTO at Jscrambler)*\nWeb applications\u2019 strengths\u2014composability, dynamic distribution, and error-tolerant runtimes\u2014also make them highly vulnerable to supply chain attacks. The heavy reliance on third-party dependencies, especially dynamically loaded scripts, introduces risks as these scripts can be updated without site owners\u2019 knowledge, bypassing integrity checks like SRI.\nA major concern arises when third-party script hosts go offline, leaving their domains up for grabs. Attackers have exploited this by acquiring such domains to inject malicious code into linked websites. In one case, over 1,000 websites were compromised before researchers detected and neutralized the threat.\nFollowing the incident, further research revealed the widespread nature of this attack vector, leading to the development of a tool capable of scanning millions of websites for similar vulnerabilities. The researchers also created a free tool to alert website owners if they are unknowingly using scripts from defunct, potentially hijacked domains. These findings and tools will be presented in the talk.\n\n2. After the break, we will host a discussion about supply chain defence.\n**Unpacking the Web Supply Chain: Trust, Risk, and the Future of Secure Development**\nIn today's fast-paced world of software development, how dependent have we become on third-party components? Has this reliance become more of a liability than an asset?\nIs a completely self-reliant software ecosystem even possible, or will external risks always be a fundamental part of modern development? With the rise of AI and LLMs, how are software creation processes changing? What new supply chain threats are emerging because of these advancements?\nAre traditional security measures like SBOMs, vulnerability management, and runtime security controls sufficient to address these evolving threats?\nWith dynamically updating scripts, lack of version control, gaps in CSP, SRI, and integrity monitoring, are enterprises sufficiently protected?\nCan we truly trust the browser environment, or are we vulnerable to manipulated content?\nWhat innovative strategies, like a zero-trust model, can better secure third-party JavaScript dependencies?\nLooking ahead, what concrete actions are needed to enhance software supply chain security? Is regulation the answer, or could it create more challenges? Should the industry implement a standardized \"seal of approval\" for third-party components? Are security vendors, enterprises, and regulators doing enough to tackle this growing threat landscape?\nJoin us as we challenge assumptions, explore emerging solutions, and outline a path forward in securing the software and web supply chain.\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this invitation** with friends and in your social media."
+    },
+    {
         "group": "Portland Me",
         "repo": "www-chapter-portland-me",
         "name": "2nd Annual 2025 OWASP Maine Secure Coding Tournament",
@@ -260,16 +290,6 @@
         "description": "Are you an appsec guru and pride yourself in secure coding? Are you a developer and know you write **THE MOST** secure code out of your peers? Well here is your chance to come out and prove it and win **$CASH!$**\n\nOWASP Maine partnered with Secure Code Warrior will be hosting the 2nd annual OWASP Maine Secure Coding Tournament! This will be an in-person meetup where we welcome all software developers and appsec professionals from entry-level to principal. Bring your laptop and your secure coding wits and compete against your peers to be crowned the most secure coder in the state of Maine for 2025!\n\n**Prizes will be as follows:**\n\n**1st Place**\n\n* Crowned most secure coder in the state of Maine\n* Pretty cool trophy (pics to come)\n* TBD VISA giftcard!\n\n**2nd Place**\n\n* Second place trophy\n* Some cool Secure Code Warrior Swag\n* TBD VISA giftcard!\n\n**3rd Place**\n\n* Third place trophy\n* Some slightly less cool swag\n* TBD VISA giftcard!\n\nFor everyone else? You will gain new skills in secure coding, network with your peers, and also get free pizza and drinks!\n\nParticipating in the tournament is not required, feel free to join us either way for networking and learning something new!\n\n**When:** Thursday March 6th 2025 6:00pm - 8:00pm est\n**Where:** IDEXX Laboratories 1 Idexx Dr. Westbrook, ME 04092\n**Who:** Security and Development leadership and practitioners from Maine and all of northern New England\n\n**REQUIREMENTS:**\n\n**\\*You must also register for the Secure Code Warrior tournament here:**\nTBD\n**\\*You must bring your own laptop/machine to participate**\n**\\*You must be onsite and in person to participate**\n\n**OWASP Maine Linkedin Page:** [https://www.linkedin.com/company/owasp-maine/](https://www.linkedin.com/company/owasp-maine/)"
     },
     {
-        "group": "Riga",
-        "repo": "www-chapter-riga",
-        "name": "The 2nd OWASP Riga Chapter Meetup [IN-PERSON]",
-        "date": "2025-02-13",
-        "time": "17:30+02:00",
-        "link": "https://www.meetup.com/owasp-riga-chapter/events/305918541",
-        "timezone": "Europe/Riga",
-        "description": "**This event is kindly hosted by [Ekonomikas un kult\u016bras augstskola](https://www.augstskola.lv/). There is limited seating available for in-person attendees. Registration required.**\n\n**Venue Location**: [P\u0113rnavas iela 62, Latgales priek\u0161pils\u0113ta, R\u012bga, LV-1009, Latvia](https://www.google.com/maps/place//data=!4m2!3m1!1s0x46eece2216ab4c0b:0x242a2d93eecba91a?sa=X&ved=1t:8290&ictx=111)\n\n**Doors Open at 17.30** for registration, cookies and networking. The talks start at 18.00 (we start on time!).\n\n**TALKS**\n\n**OWASP Introduction, Welcome and News** - [Vladislavs Kolosovs](https://www.linkedin.com/in/vladislavs-kolosovs/), [Andrey Gubarev](https://www.linkedin.com/in/andreygubarev/) \\- OWASP Riga Chapter Leaders\n\n**Threat Modelling Workshop** - [Andrey Adamovich](https://www.linkedin.com/in/andreyadamovich/)\nIn this workshop, we\u2019ll collaborate live on a Miro board to analyze a simple system architecture, uncover potential threats, and propose mitigations. We\u2019ll demystify threat modeling using the STRIDE framework to identify risks and the DREAD methodology to prioritize them.\n\n**Applying OWASP to GraphQL -** [Gvido B\u0113rzi\u0146\u0161](https://www.linkedin.com/in/gvidob/)\nA lot of people still don't know what is GraphQL and refuse or don't know how to hack it, so let's try to change that, by demistifying it and applying OWASP Top 10 techniques and tools to test it just like a regular old REST API.\n\nGraphQL is still a relatively new technology that is still worth hacking with many implementations and not enough security controls built in, that's what we're going to talk about.\n\n**SPEAKERS**\n\n**Andrey Adamovich**\nAndrey is a software craftsman and CTO with a focus on IT strategy, platform engineering, and security. He helps organizations build scalable and secure technology platforms that improve software delivery. With expertise in DevOps, automation, and cloud technologies, Andrey creates systems that support agile teams and drive efficiency.\n\nAs an educator, Andrey has delivered over 300 courses across Europe, helping teams master software development, automation, and security practices. He is also a regular speaker at international conferences, sharing his insights on modern software development.\n\n**Gvido B\u0113rzi\u0146\u0161**\nCyber Security Consultant on the Red Team with experience in software development and other IT fields. Currently works at Possible Security.\n\n**TICKETS**\nOWASP meetups are **free** and open to **anyone** interested in application security. *Please note that you MUST book your place to be admitted to the event by the building security.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously.\n\nOWASP Code Of Conduct: [https://owasp.org/www-policy/operational/code-of-conduct](https://owasp.org/www-policy/operational/code-of-conduct)"
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -278,16 +298,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/306111347",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Stuttgart",
-        "repo": "www-chapter-stuttgart",
-        "name": "4th OWASP Stuttgart Chapter Stammtisch",
-        "date": "2025-02-11",
-        "time": "18:00+01:00",
-        "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/305584148",
-        "timezone": "Europe/Berlin",
-        "description": "**AI Security & Insights into OWASP Top 10 LLM**\n\nAs artificial intelligence systems become increasingly integrated into our daily lives, the importance of securing these systems grows exponentially. This keynote introduces the core principles of AI security, highlighting the unique challenges and risks posed by large language models (LLMs). Explore the recently introduced OWASP Top 10 for LLMs\u2014a comprehensive framework that identifies the most critical vulnerabilities and provides actionable guidance for securing AI applications. We'll finish with an oversight of all the initiatives at the OWASP Top 10 LLM community.\n\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
     },
     {
         "group": "Switzerland",
@@ -302,12 +312,32 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
-        "name": "OWASP Vancouver monthly meetup",
+        "name": "Emerging Cybersecurity Threats in Space",
         "date": "2025-02-20",
         "time": "18:00-08:00",
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/305510162",
         "timezone": "America/Vancouver",
-        "description": "TBD"
+        "description": "**Emerging Cybersecurity Threats in Space** with **Bill Souder**\nAs space technology advances, cybersecurity threats to spacecraft have become a growing concern. Spacecraft such as satellites are vulnerable to cyberattacks that could disrupt operations, compromise data, or even cause physical damage. Malware and ransomware introduced into the software supply chain used in ground control systems can seriously impact mission-critical systems. The reliance on outdated or unpatched software in long-duration missions also increases vulnerabilities. Vulnerable systems could permit unauthorized access to satellite systems, resulting in adversaries taking control of spacecraft functions. To address these challenges robust and resilient cybersecurity frameworks that address software, hardware, and human threats are now more important than ever.\n\n**Bill** is a Staff Enterprise Architect MDA Space, and is responsible for\narchitecture and strategy in the areas of DevOps, Cloud, and Security in MDA Space\u2019s Geointelligence unit. Bill has over 25 years experience in the information technology field working in telecommunications, digital aviation, electrical power grids, and space. Bill has a BA (Hons.) and MA in Political Science with a focus on Canadian security and international trade.\n\n**This event is sponsored by [Forward Security](https://forwardsecurity.com/).**"
+    },
+    {
+        "group": "Victoria",
+        "repo": "www-chapter-victoria",
+        "name": "OWASP Victoria | From Basics to Burp - Part 3: Navigating PortSwigger Academy ",
+        "date": "2025-03-13",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-victoria-chapter/events/306014796",
+        "timezone": "America/Vancouver",
+        "description": "The OWASP Victoria Chapter is pleased to partner with UVIC VikeSec to host the third iteration of a hands-on introduction to Burp Suite and the PortSwigger Web Security Academy. Wyatt Harvey and Sebastian Bethell will be presenting a workshop titled \"From Basics to Burp - Part 3: Navigating PortSwigger Academy\".\n\nThe event will be held on March 13, 2025 from 5:30 PM to 8:20 PM at The University of Victoria in Room 116 of the Engineering and Computer Science building.\n\nThe event will feature the workshop, an introduction to PortSwigger's Web Security Academy, and working through some of the introductory labs using Burp Suite, a comprehensive tool for performing security testing on web applications.\n\nPortSwigger's Web Security Academy is an online platform offering interactive learning materials and labs focused on web application security and instructions on how to identify and exploit a wide range of web application vulnerabilities.\n\nDon't miss out on this valuable opportunity to enhance your knowledge and develop hands-on skills in web application hacking. If you would like to attend, please click the RSVP button to reserve your spot as we have limited seats available.\n\nBring your laptop with Burp Suite installed, your PortSwigger account ready, and join us for a hands-on evening of web application hacking and networking fun!\n\nBurp Suite Community can be installed from the following link:\n\n* https://portswigger.net/burp/communitydownload\n\n\u200e\nYou can register your PortSwigger account at the following link:\n\n* https://portswigger.net/users/register\n\n\u200e\nOnce you have Burp Suite installed and a PortSwigger account created, browse through Web Security Academy to get an idea of the content offered on the platform in preparation for the event:\n\n* https://portswigger.net/web-security\n\nWe would also like to give a special thanks to UVIC VikeSec for helping facilitate this event."
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "OWASP SAMM Monthly Community Call (Europe-Asia)",
+        "date": "2025-03-14",
+        "time": "09:00-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/305752916",
+        "timezone": "America/New_York",
+        "description": "The SAMM Core team is happy to host a community call during a more friendly time for users in EU and Asia. This is not a replacement of the regular community call.\n\nWe will share any project news and updates during the call.\n\nWe also encourage bringing your SAMM questions and we are happy to discuss them."
     },
     {
         "group": "Samm",
@@ -316,26 +346,6 @@
         "date": "2025-03-12",
         "time": "15:30-04:00",
         "link": "https://www.meetup.com/owasp-samm/events/306053378",
-        "timezone": "America/New_York",
-        "description": "During our next community call we'll share project updates and, as always, we'll have time for Q&A. See you there!"
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "Extra OWASP SAMM community call Europe - Asia",
-        "date": "2025-02-14",
-        "time": "08:00-05:00",
-        "link": "https://www.meetup.com/owasp-samm/events/305496638",
-        "timezone": "America/New_York",
-        "description": "The SAMM Core team is happy to host a community call during a more friendly time for users in EU and Asia. This is not a replacement of the regular community call.\nWe will share any project news and updates.\nWe also encourage bringing your SAMM questions and we are happy to discuss them."
-    },
-    {
-        "group": "Samm",
-        "repo": "www-project-samm",
-        "name": "February community call - OWASP SAMM",
-        "date": "2025-02-12",
-        "time": "15:30-05:00",
-        "link": "https://www.meetup.com/owasp-samm/events/306052321",
         "timezone": "America/New_York",
         "description": "During our next community call we'll share project updates and, as always, we'll have time for Q&A. See you there!"
     },
