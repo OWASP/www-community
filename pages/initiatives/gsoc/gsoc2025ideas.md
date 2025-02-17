@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2025ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [OWASP Website](#owasp-website)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [OWASP Website](#owasp-website) &bull; [Pygoat](#pygoat)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -259,6 +259,7 @@ We'd love to hear it, please reach out in Slack to ensure that the idea fits OWA
 - [Kateryna Golovanova](https://github.com/kasya/) ([Kate](https://owasp.slack.com/team/U07PWB1JZ6Z) on Slack)
 - [Tamara Lazerka](https://github.com/aramattamara/) ([Tamara](https://owasp.slack.com/team/U0881RRPBDY) on Slack)
 
+
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
@@ -357,3 +358,36 @@ Jekyl
 
 DonnieBLT on Slack
 (looking for more mentors, signup here)
+
+
+### [PyGoat](https://owasp.org/www-project-pygoat/)
+PyGoat is an open-source, intentionally vulnerable Python web application designed to help developers and security enthusiasts learn about web application security. It provides hands-on experience in identifying and mitigating common security vulnerabilities, making it a valuable resource for practicing secure coding and penetration testing techniques.
+
+#### Repository
+- [PyGoat](https://github.com/adeyosemanputra/pygoat)
+
+#### Skills Required
+- HTML/CSS/JavaScript
+- Python 
+- Django
+- Docker
+- Basic knowledge of application security
+
+##### Getting started
+- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
+
+#### Projects / Ideas
+![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Large" GSoC 2025 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Refactor the webapp, move away vulnarable labs from the main website.
+- Deploy a microservice architecture based approch for the labs.
+- Add new labs to the project.
+- Improvment of interactive playgrounds.
+- Extend labs to other languages as well.
+- Prepare for `OWASP Top 10:2025` section
+
+#### Mentors
+- [ardiansyah](pakdesawangan@gmail.com)
+- [Rupak Biswas](https://github.com/RupakBiswas-2304)([Rupak](https://owasp.slack.com/team/U036WSR1684) on slack)
