@@ -298,6 +298,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [ClearlyDefined] | Open Source Initiative | Open Source | SaaS |
 | [CloudDefense.AI] | CloudDefense.AI | Commercial / Freemium | Cross Platform / SaaS |
 | [CodeSentry] | GrammaTech | Commercial | Cross Platform / SaaS |
+| [Corgea] | Corgea |  / Freemium | Cross Platform / SaaS |
 | [CxSCA] | Checkmarx | Commercial | SaaS |
 | [Debricked] | Debricked | Commercial/Freemium | SaaS |
 | [DejaCode] | nexB | Commercial | SaaS |
@@ -352,6 +353,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [ClearlyDefined]: https://clearlydefined.io/
 [CloudDefense.AI]: https://www.clouddefense.ai/
 [CodeSentry]: https://www.grammatech.com/codesentry-sca
+[Corgea]: https://corgea.com/
 [CxSCA]: https://www.checkmarx.com/products/software-composition-analysis/
 [Debricked]: https://debricked.com/
 [DejaCode]: https://www.nexb.com/
