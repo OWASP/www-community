@@ -78,6 +78,8 @@ In addition, we are aware of the following commercial SAST tools that are free f
   - [Aikido](https://www.aikido.dev/product) - Combines open source software with custom rules & features into a single dashboard with all your security findings. Includes both SAST and Library Analysis tools. [Free for small teams](https://www.aikido.dev/pricing).
   - [AppSweep](https://www.guardsquare.com/appsweep-mobile-application-security-testing) - a free for everyone mobile application security testing tool for Android and iOS. It analyzes the compiled application and does not require access to the source code. The tool performs security assessment not only of the executable code but also of application resources and configuration file. Integration into CI/CD is supported.
   - [Arnica](https://www.arnica.io/solution/code-security) - Scans all source code repositories for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets. The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count. The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
+  - [Corgea](https://corgea.com/) - An AI-powered SAST scanner that helps developers find and fix insecure code. It detects business logic flaws, broken authentication, API vulnerabilities and more with minimal false positives. Corgea automatically generates security fixes for developers to review and approve. Integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. [Free to use](https://corgea.com/pricing).
+
 
 ### DAST Tools
 
@@ -208,6 +210,11 @@ Commercial tools of this type that are free for open source:
      - Features automated fix pull request to automatically fix vulnerabilities (currently only for javascript)
      - Features one of the most complete [vulnerability databases](https://app.debricked.com/en/vulnerability-database) 
      - GitHub version: [https://github.com/apps/debricked/](https://github.com/apps/debricked/) 
+  - [Corgea](https://corgea.com) - AI-powered SAST scanner that finds and fixes security issues
+     - Finds business logic flaws, broken auth, API security issues and more
+     - Supports Python, Go, Javascript, Typescript, Ruby, C#, C, C++, Java, PHP, Kotlin and more.
+     - Integrates with IDE, CLI, CI/CD
+     - [Free tier](https://corgea.com/pricing) available for open source projects
   - [OX Security](https://www.ox.security) - Stop Attacks Across Your Software Supply Chain
      - Complete Software Supply Chain Security Solution, based on [Pipeline Bill Of Materials](https://www.pbom.dev/)
      - Manage your findings from a single location
@@ -356,6 +363,8 @@ Secrets detection is often confused with SAST because both scan through static s
 ### Automatic Remediation Tools
 
 - [Mobb](https://mobb.ai/) - Mobb is an automatic code fixer for security issues. It runs manually or as part of a pipeline, digests your SAST reports, and generates ready-to-be-merged pull requests that fix your issues.
+- [Corgea](https://corgea.com/) - Corgea connects to Semgrep, Snyk, CodeQL, Checkmarx and Fortify to remove false positives and issue fixes for security vulnerabilities. It supports Python, Go, Javascript, Typescript, Ruby, C#, C, C++, Java, PHP, and Kotlin. It can be run manually or as part of CI/CD pipelines. [Free to use](https://corgea.com/pricing).
+
 
 
 Please let us know if you are aware of any other high quality
