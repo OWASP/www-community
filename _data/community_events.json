@@ -2,6 +2,16 @@
     {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
+        "name": "Reducing AppSec Risk with ASPM (Application Security Posture Managament) ",
+        "date": "2025-03-20",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/304566000",
+        "timezone": "America/New_York",
+        "description": "In an era of increasingly sophisticated threat actors, application security has become a critical concern for most organizations. This talk, \"Reducing Application Security Risk with ASPM (Application Security Posture Management),\" will explore the emerging role of ASPM in fortifying application security and accelerating DevSecOps and cloud native adoption.\n\nAttendees will gain insights into the current state of application security and DevSecOps adoption trends: challenges and opportunities across people, process, and technology. This also includes the impact of AI.\n\nThe talk will have a focus on ASPM and how it will help overcome some of the challenges and capitalize on the opportunities. We will delve into key ASPM features and how each of these use cases could be leveraged to solve common application security & DevSecOps adoption challenges and further mature your program. Through practical examples and case studies, the session will highlight best practices for implementing ASPM in large scale application development ecosystems to reduce application security risks. Whether you're a developer, security professional, manager or executive, this talk will equip you with actionable strategies to improve your application security posture and accelerate DevSecOps adoption."
+    },
+    {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
         "name": "AI Empowerment vs. Security Risk: Navigating the AppSec Challenges of AI Agents ",
         "date": "2025-02-20",
         "time": "18:00-05:00",
@@ -40,14 +50,24 @@
         "description": "Temos o prazer de convid\u00e1-los para o nosso pr\u00f3ximo evento que acontecer\u00e1 no dia **21/02**, \u00e0s **20 horas**. Ser\u00e1 uma oportunidade incr\u00edvel para nos aprofundarmos no mundo da seguran\u00e7a cibern\u00e9tica e hacking \u00e9tico.\n\n** Detalhes do Evento**\nData: **21 de Fevereiro de 2025**\nHor\u00e1rio: **20:00**\nPlataforma: **[Zoom](https://us06web.zoom.us/j/82672501627?pwd=MmDbiRIXJR5bb87FbyUja1J91WIm96.1)**\n\n **Sobre a Palestra**\nNesta palestra, Arthur compartilhar\u00e1 suas experi\u00eancias e insights sobre como \u00e9 poss\u00edvel explorar vulnerabilidades e os caminhos para fortalecer a seguran\u00e7a de sistemas financeiros sem sair do conforto de casa.\n\n**\u200d Sobre o Palestrante**\n[Arthur Aires](https://www.linkedin.com/in/arthur-aires-93388211b/)\n\nArthur Aires \u00e9 Bug Hunter e pentester com mais de 3 anos de experi\u00eancia, tendo destaque internacional na categoria. Ele atua em pentestes e testes de vulnerabilidades, gerenciamento de equipes, avalia\u00e7\u00f5es de Red Team, divulga\u00e7\u00e3o de vulnerabilidades, entre outros. Foi convidado cinco vezes pela HackerOne (H1-512, H1-702-2022, H1-3493, H1-702-2023 e H1-702-2024) para o Live Hacking Event, onde p\u00f4de colaborar pessoalmente com a seguran\u00e7a de empresas como PayPal, AWS, Amazon e Zoom.\n\nContamos com a presen\u00e7a de todos para um momento enriquecedor de aprendizado e troca de experi\u00eancias!"
     },
     {
-        "group": "Cleveland",
-        "repo": "www-chapter-cleveland",
-        "name": "OWASP Cleveland: Contrast Security Demonstration",
-        "date": "2025-02-18",
-        "time": "18:30-05:00",
-        "link": "https://www.meetup.com/owasp-cleveland-group/events/305067809",
+        "group": "Boulder",
+        "repo": "www-chapter-boulder",
+        "name": "Boulder OWASP February Meetup: AI Assisted Security Testing",
+        "date": "2025-02-26",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-boulder/events/306250177",
+        "timezone": "America/Denver",
+        "description": "The OWASP Boulder Chapter is excited to announce our February 2025 Chapter Meeting! Scheduled for Wednesday, February 26th at the Rule4 office at 6 PM, with complimentary food, beer, and soft drinks. Join us for networking with your peers and a featured talk from Andrius Useckas presenting:\n\n**AI Assisted Security Testing & A Glimpse into Security Challenges with Agentic LLM Deployments**\n\nPenetration testing is an ever-evolving field. In addition to legacy vulnerabilities affecting web applications and APIs, we are witnessing next generation of vulnerabilities emerging with Web 3.0 and agentic Large Language Model (LLM) systems. AI Assisted Security Testing represents a crucial evolution in cybersecurity defense, combining traditional security testing methods with artificial intelligence to enhance both coverage and efficiency. New approaches can process and analyze vast amounts of security data in real-time, prioritize threats based on risk levels, reduce false positives, and adapt to emerging attack vectors \u2013 all while helping security teams manage the growing shortage of skilled cybersecurity professionals and keep pace with DevSecOps requirements.\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec Organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:15ish Main Topic Presentation\n7:15ish - 7:30 Q&A and Discussion\n7:30 - 8:00 More Networking"
+    },
+    {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "Peace, Love and Hacking: How to Bring Security & Development Teams Together to A",
+        "date": "2025-03-20",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/305977341",
         "timezone": "America/New_York",
-        "description": "Join us on Tuesday, February 18th at Market Avenue Wine Bar for a hands-on lab demonstration with Contrast Security. The presentation will go over features and limitations of Contrasts RAST tool. This session is designed for everyone, whether you decide to participate or not.\n\nContrast is an Application Security solution used by companies like AARP, InfoSys, Citizens Bank, Snap Finance, and more."
+        "description": "FEEL A LITTLE! It is an unlikely duo to pair with cold-hard-tech, but empathy and creativity are cornerstones to a successful vulnerability remediation effort. Although I have sat in on countless talks about empathy in the tech sector, the one thing ALL these talks miss is the language barrier when it comes to dealing with tech-savvy teams. If you are in a foreign country and cannot speak the language, it's going to be difficult to communicate regardless of the compassion in your heart. My unique art-&-technology background allows me to not only empathize with the strife of development teams, but helps facilitate a thriving pipeline of communication between security, developers and other hackers.\nIn this talk I will illuminate the perspective of a researcher participating in a bug bounty program, what to expect from researchers, and how to effectively escalate risks to development teams for remediation."
     },
     {
         "group": "Columbus",
@@ -58,6 +78,16 @@
         "link": "https://www.meetup.com/columbus-owasp/events/305318149",
         "timezone": "America/New_York",
         "description": "Welcome to 2025! Both the speaker and I are off at CodeMash in January, so we are going to start our EVERY MONTH transition in February!\n\nWe'll start off with a few highlights related to what is new in the world of appsec, and have a good-of-the-order style chat about the year, and then ... Have you ever searched for \"how to authenticate an API call\" and been confused by the dizzying array of techniques, terminology, jargon, and acronyms that come back?\n\nThis session is designed for anyone that's struggling to make sense of modern authentication options. You'll learn the differences between OAuth, API Keys, HMAC, JSON Web Tokens (JWT), SAML, OpenID Connect, and passkeys using Webauthn. Each technique will be explained in a clear, practical, easy-to-understand way.\n\nThis session focuses on core concepts, not code, and is accessible to anyone that works with technology."
+    },
+    {
+        "group": "Frankfurt",
+        "repo": "www-chapter-frankfurt",
+        "name": "OWASP Frankfurt Chapter & Women in CyberSecurity Meetup #71",
+        "date": "2025-03-20",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/306217609",
+        "timezone": "Europe/Berlin",
+        "description": "Hello everyone, we're excited to invite you to joint **OWASP Frankfurt Chapter & Women in CyberSecurity** Meetup #71!\nOur OWASP Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics. Anyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\nWiCyS aims to break down barriers and promote diversity in cybersecurity by empowering women and other underrepresented groups with resources for professional growth. Additionally, the organization is committed to creating a safer digital environment by supporting vulnerable individuals and advocating for inclusivity in the cybersecurity community.\n\n*What are we going to talk about?*\n\n* **AI and Machine Learning im Cybersecurity: Weapon, shield, or both?:** We are excited to welcome **Sara Rahimi**, Concierge Security Engineer at Arctic Wolf - who will explore the dual role that Artificial Intelligence and Machine Learning play in the Cybersecurity area as a powerful tool for attackers and offensive purposes, also for enhancing the defense mechanisms and detection aspects.\n* **Second Speaker to be announced**\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks.\n\n*When?* Our Meetup takes place on **20.03.2025** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at Arctic Wolf, located at 19th floor of Messeturm, Friedrich-Ebert-Anlage 49, 60308 Frankfurt am Main\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
     },
     {
         "group": "Frankfurt",
@@ -118,16 +148,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/305822172",
         "timezone": "America/Los_Angeles",
         "description": "**TOPIC**: Navigating CCPA/CPRA: Implications for AI, Data Privacy, and Federated Learning. Join us for great networking, dinner and drinks, and see a presentation by **Mike Villegas**, CISO for TRISTAR Insurance Group, and President and Founder of iSecurePrivacy, LLC\n\n**ABSTRACT**:\nAs artificial intelligence (AI) keeps advancing its impact across industries it becomes essential for IT professionals as well as web developers and cybersecurity experts to grasp how data privacy regulations relate to innovative AI methods. This lecture will analyze both the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA) with particular attention to how these laws affect AI technologies and data management methods and the developing concept of federated learning. Participants will understand the fundamental concepts of the CCPA/CPRA including the rights of consumers and responsibilities of organizations handling data collection and processing activities. These regulations create substantial challenges for AI deployment because they require transparency in automated decision-making processes and proper use of consumer data.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "Hands-on Web Security Code Review Workshop",
-        "date": "2025-02-18",
-        "time": "17:30-08:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/305822087",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Hands-on Web Security Code Review Workshop\nHello AppSec teams and tech enthusiasts! We're thrilled to roll out an exceptional Web Security Code Review Workshop in collaboration with **OWASP LA** and offered by OWASP.\n\n**Abstract:** Learn how to identify vulnerabilities through effective manual security code reviews. In this workshop, we\u2019ll analyze real-world code examples, uncover common flaws like injections and authentication issues, and explore how to leverage built-in security features. You\u2019ll gain practical skills to complement automated tools and confidently tackle security challenges in real codebases. Ideal for developers, AppSec engineers, and code reviewers, this session focuses on practical techniques and real-world impact.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\nhttps://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy"
     },
     {
         "group": "Maine",
@@ -242,22 +262,22 @@
     {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
+        "name": "Cyber Peterborough Presents: Get into Cyber Security! ",
+        "date": "2025-03-20",
+        "time": "17:30Z",
+        "link": "https://www.meetup.com/owasp-peterborough/events/305916084",
+        "timezone": "Europe/London",
+        "description": "Cyber Peterborough presents *Get Into Cyber Security*! An evening of focused discussion, interactive sessions and presentations on how to get into the field of cyber security. Technical or non-technical, this event will help you break down how to get into the cyber security field. Join us and meet other people interested in Cyber.\n**Where?**\n\n* TBC - specific details will be published closer to the date.\n\n**When?**\n\n* Thursday 20th March\n\nPlease respond to this event to confirm numbers for the event ensuring each attendee is catered for.\nThank you,\nRyan"
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social: Glo Golf Mini Golf",
         "date": "2025-02-27",
         "time": "19:00Z",
         "link": "https://www.meetup.com/owasp-peterborough/events/305905090",
         "timezone": "Europe/London",
         "description": "**What & Where?**\n\n* Mini Golf @ Glo Golf Peterborough\n\n**When?**\n\n* \\- Thursday 27th February\n\nEverybody welcome! For this event, please ensure you contact a host as pre-payment is required.\n\nThank you,\nRyan"
-    },
-    {
-        "group": "Philadelphia",
-        "repo": "www-chapter-philadelphia",
-        "name": "Approachable Threat Modeling for Technical and Non-Technical Folks",
-        "date": "2025-02-18",
-        "time": "19:00-05:00",
-        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/306015927",
-        "timezone": "America/New_York",
-        "description": "HellOWASP! Yikes. But we all give and receive grace when we need to, that\u2019s why I love our community. And hot off the heels of our now-annual January kick-off, one of our newest members will be delivering fresh perspectives on threat modeling for everyone. How\u2019s that for community?\n\nSo please join us, for me, for you, and for the world we all seek to secure and share in this community, talk some shop, and warmly welcome our speaker Michael Novack.\n\nMike will first lay a foundation of threat modeling, then will present a method he calls a \"Cyber Book Club\" that allows technical and non-technical folks to engage with the threat modeling discussion.\n\nOur meetings always have and always will be free for all to attend, partake, and learn. The agenda will also have some front matter of other chapter happenings, and lite refreshments will be provided. So I'll see you at the place we meet - upstairs at the Black Sheep!"
     },
     {
         "group": "Poland",
@@ -312,6 +332,16 @@
     {
         "group": "Vancouver",
         "repo": "www-chapter-vancouver",
+        "name": "Blocking with Confidence and TRACE: a tool for supply chain security",
+        "date": "2025-03-20",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/305510170",
+        "timezone": "America/Vancouver",
+        "description": "*We are doing a double header this month!*\n\n**Blocking with Confidence** with **Raphael Theberge**\nWe know that security can be cumbersome for parts of an organization. How can we lower the existing friction white maintaining our high standards?\nLearn how Relativity approached this question and reduced developer burden without sacrificing our security posture.\n\n**Raphael** is Director of Security Enablement at Relativity, where he owns all of Application Security, Vulnerability Management, AI Security and secure M&As. Previously spent time at Salesforce, Demonware, Booking.com and otherwise travelling the world.\n\n**TRACE: Securing Supply Chain One Repository at a time** with **Vrushal Nedungadi**\nThe talk will cover the motivation behind and the working of TRACE, a tool that helps detect anomalies in open source repositories that could result in vulnerabilities. This is an attempt to identify and minimize supply chain attacks and threats.\n\n**Vrushal** is a passionate software developer with a keen interest in security.\n\n**This event is sponsored by [Endor Labs](https://www.endorlabs.com/) and [Forward Security](https://forwardsecurity.com/).**"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
         "name": "Emerging Cybersecurity Threats in Space",
         "date": "2025-02-20",
         "time": "18:00-08:00",
@@ -348,6 +378,16 @@
         "link": "https://www.meetup.com/owasp-samm/events/306053378",
         "timezone": "America/New_York",
         "description": "During our next community call we'll share project updates and, as always, we'll have time for Q&A. See you there!"
+    },
+    {
+        "group": "Wrongsecrets",
+        "repo": "www-project-wrongsecrets",
+        "name": "OWASP Frankfurt Chapter & Women in CyberSecurity Meetup #71",
+        "date": "2025-03-20",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/306217609",
+        "timezone": "Europe/Berlin",
+        "description": "Hello everyone, we're excited to invite you to joint **OWASP Frankfurt Chapter & Women in CyberSecurity** Meetup #71!\nOur OWASP Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics. Anyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\nWiCyS aims to break down barriers and promote diversity in cybersecurity by empowering women and other underrepresented groups with resources for professional growth. Additionally, the organization is committed to creating a safer digital environment by supporting vulnerable individuals and advocating for inclusivity in the cybersecurity community.\n\n*What are we going to talk about?*\n\n* **AI and Machine Learning im Cybersecurity: Weapon, shield, or both?:** We are excited to welcome **Sara Rahimi**, Concierge Security Engineer at Arctic Wolf - who will explore the dual role that Artificial Intelligence and Machine Learning play in the Cybersecurity area as a powerful tool for attackers and offensive purposes, also for enhancing the defense mechanisms and detection aspects.\n* **Second Speaker to be announced**\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks.\n\n*When?* Our Meetup takes place on **20.03.2025** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at Arctic Wolf, located at 19th floor of Messeturm, Friedrich-Ebert-Anlage 49, 60308 Frankfurt am Main\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
     },
     {
         "group": "Wrongsecrets",
