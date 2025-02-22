@@ -392,3 +392,38 @@ PyGoat is an open-source, intentionally vulnerable Python web application design
 #### Mentors
 - [ardiansyah](pakdesawangan@gmail.com)
 - [Rupak Biswas](https://github.com/RupakBiswas-2304)([Rupak](https://owasp.slack.com/team/U036WSR1684) on slack)
+
+  
+### [OpenCRE](https://opencre.org/)
+OpenCRE is the world's largest Cybersecurity knowledge graph.
+It semantically links information between standards, knowledge bases and security tools.
+Also, it allows users to extend the graph themselves and contains a RAG chatbot implementation.
+OpenCRE is a great GSOC project if you're looking to add "Data science/engineering", "Knowledge Graph and AI" with a focus on Legal Tech and cybersecurity in your CV.
+
+#### Repository
+- [OpenCRE](https://github.com/OWASP/OpenCRE)
+
+#### Skills Required
+- HTML/CSS/React-Typescript
+- Python 
+- Flask
+- Docker
+
+##### Getting started
+- Check the [GitHub project](https://github.com/OWASP/OpenCRE) and the issues marked as either `good first issue` , `help wanted` or `GSOC`
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-opencre
+
+#### Projects / Ideas
+![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Large" GSoC 2025 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- There are many small, medium and large project in the [Issues Page tagged with GSOC](https://github.com/OWASP/OpenCRE/issues?q=state%3Aopen%20label%3A%22GSOC%22) that we are interested in, depending on your background and interests they are split in the following categories: AI, Frontend, Backend, FullStack. They all contain a bit of frontend and data analysis and graph operations.
+Priorities for us are:
+- [Make the gap analysis functionality faster]()
+- [MyOpenCRE](https://github.com/OWASP/OpenCRE/milestone/5)
+- [Releasing the Explorer page](https://github.com/OWASP/OpenCRE/milestone/6)
+  
+#### Mentors
+- [Spyros Gasteratos](spyros.gasteratos@owasp.org)
+- [Rob Van Der Veer](rob.van.der.veer@owasp.org)
+- [Paola Gardenas](paola.gardenas@owasp.org)
