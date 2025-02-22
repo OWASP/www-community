@@ -22,22 +22,22 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "March 2025 OWASP Happy Hour sponsored by DefectDojo",
+        "date": "2025-03-13",
+        "time": "17:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/305995366",
+        "timezone": "America/Chicago",
+        "description": "**When:** Thursday, March 13th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** [DefectDojo](https://defectdojo.com/)\n*DefectDojo is the engine that drives DevSecOps, providing an open, scalable platform that connects security strategy to execution. By aggregating data from over 180 security tools, automating manual processes, and delivering AI-powered insights, DefectDojo empowers organizations to have a unified view of security posture and compliance, automate operations to increase productivity and improve decision-making. For more information, visit defectdojo.com.*"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - February 2025 (Online)",
         "date": "2025-02-25",
         "time": "11:30-06:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/305489290",
         "timezone": "America/Chicago",
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n***When the Tool is the Weapon -- Abusing (and defending) native M365 applications***\nWhen you think about Business Email Compromise, you think about the mailbox, right? Malicious inbox rules, spoofed domains hijacking email threads, and phishing campaigns blasted to a user\u2019s contact list are hallmarks of this type of attack. However, other applications within the M365 ecosystem are often leveraged by Threat Actors while they are in a compromised tenant.\n\nTeams, SharePoint, E-Discovery, and OneNote can and have been abused by threat actors during a business email compromise. Initial access, exfil, and leapfrogging to new victims can happen in a way that will not throw any alerts. What are the threat actors doing with these apps, how can we detect it, and how can we stop it?\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nIf you want to attend in-person, please see [Eventbrite](https://owasp-austin-2025-february.eventbrite.com). Please do not pull an in-person ticket unless you are going to attend as we purchase lunch for all in-person attendees."
-    },
-    {
-        "group": "Belo Horizonte",
-        "repo": "www-chapter-belo-horizonte",
-        "name": " OWASP BH: Hacking a Bank Without Leaving Your Bedroom",
-        "date": "2025-02-21",
-        "time": "20:00-03:00",
-        "link": "https://www.meetup.com/owasp-belo-horizonte-chapter/events/306048579",
-        "timezone": "America/Sao_Paulo",
-        "description": "Temos o prazer de convid\u00e1-los para o nosso pr\u00f3ximo evento que acontecer\u00e1 no dia **21/02**, \u00e0s **20 horas**. Ser\u00e1 uma oportunidade incr\u00edvel para nos aprofundarmos no mundo da seguran\u00e7a cibern\u00e9tica e hacking \u00e9tico.\n\n** Detalhes do Evento**\nData: **21 de Fevereiro de 2025**\nHor\u00e1rio: **20:00**\nPlataforma: **[Zoom](https://us06web.zoom.us/j/82672501627?pwd=MmDbiRIXJR5bb87FbyUja1J91WIm96.1)**\n\n **Sobre a Palestra**\nNesta palestra, Arthur compartilhar\u00e1 suas experi\u00eancias e insights sobre como \u00e9 poss\u00edvel explorar vulnerabilidades e os caminhos para fortalecer a seguran\u00e7a de sistemas financeiros sem sair do conforto de casa.\n\n**\u200d Sobre o Palestrante**\n[Arthur Aires](https://www.linkedin.com/in/arthur-aires-93388211b/)\n\nArthur Aires \u00e9 Bug Hunter e pentester com mais de 3 anos de experi\u00eancia, tendo destaque internacional na categoria. Ele atua em pentestes e testes de vulnerabilidades, gerenciamento de equipes, avalia\u00e7\u00f5es de Red Team, divulga\u00e7\u00e3o de vulnerabilidades, entre outros. Foi convidado cinco vezes pela HackerOne (H1-512, H1-702-2022, H1-3493, H1-702-2023 e H1-702-2024) para o Live Hacking Event, onde p\u00f4de colaborar pessoalmente com a seguran\u00e7a de empresas como PayPal, AWS, Amazon e Zoom.\n\nContamos com a presen\u00e7a de todos para um momento enriquecedor de aprendizado e troca de experi\u00eancias!"
     },
     {
         "group": "Boulder",
