@@ -132,6 +132,16 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "CIOArena   Conference - Los Angeles, CA",
+        "date": "2025-03-12",
+        "time": "09:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/306092048",
+        "timezone": "America/Los_Angeles",
+        "description": "The **CIOarena** Annual Events for IT & CyberSec Leaders will take place on March 12th 2025 at Sheraton Grand LA, 711 S Hope St. CA.\n**Benefits**\n\n* Compact agenda with CIO panel discussion and industry experts covering the latest industry trends around AI, Cybersecurity, Cloud, Digital Transformation, Data & Analytics, and IoT\n* Excellent networking opportunities with local peers in a comfortable environment\n* 100% complimentary access with parking included\n* A certificate of completion good for 5 CPE credits\n* Invitation-only ensures there is zero solicitation from non-sponsor participants (no sales, marketing, consulting or similar is permitted)\n* Meet and learn about our select group of cutting edge solution providers & sponsors\n* Compare and contrast recent successes and pitfalls with peers at round tables\n* Enjoy a luxury venue accompanied by a five-star breakfast and lunch feast at no cost\n* A prize raffle with high-ticket items (past has included: Apple products, tablets, gift cards, drones, TVs, vacations, exotic car rentals, and more)\n* Walk away with fresh insights and new connections to propel you in your current role and benefit your organization\n\nThe event is free and by **invitation or referral only**. When registering be sure to enter \"OWASP\" in the referral section. **If qualified**, you'll receive further communication and details from **CIOarena**, please complete the [registration form](https://www.cioarena.com/in-person/) to be considered for attendance. Completing this form does not guarantee you a seat at CIOarena until a member of our team has contacted you with a confirmation email within 24 hours.\n\nDon't miss this amazing opportunity to attend this conference and expand your knowledge or brush up on what you already know. \\*\\*[Register Now](https://www.cioarena.com/in-person/)\\*\\*\n\n/\\*\\* APPROVAL REQUIRED after registration \\*\\*/\nAnd finally **don't forget** to visit us at the OWASP Los Angeles booth!"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "SCaLE 22x \u2013 the 22nd Annual Southern California Linux Expo",
         "date": "2025-03-06",
         "time": "09:00-08:00",
@@ -147,7 +157,7 @@
         "time": "17:30-08:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/305822172",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Navigating CCPA/CPRA: Implications for AI, Data Privacy, and Federated Learning. Join us for great networking, dinner and drinks, and see a presentation by **Mike Villegas**, CISO for TRISTAR Insurance Group, and President and Founder of iSecurePrivacy, LLC\n\n**ABSTRACT**:\nAs artificial intelligence (AI) keeps advancing its impact across industries it becomes essential for IT professionals as well as web developers and cybersecurity experts to grasp how data privacy regulations relate to innovative AI methods. This lecture will analyze both the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA) with particular attention to how these laws affect AI technologies and data management methods and the developing concept of federated learning. Participants will understand the fundamental concepts of the CCPA/CPRA including the rights of consumers and responsibilities of organizations handling data collection and processing activities. These regulations create substantial challenges for AI deployment because they require transparency in automated decision-making processes and proper use of consumer data.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+        "description": "**TOPIC**: Navigating CCPA/CPRA: Implications for AI, Data Privacy, and Federated Learning.\nJoin us for great networking, dinner and drinks, and see a presentation by **Mike Villegas**, CISO for TRISTAR Insurance Group, and President and Founder of iSecurePrivacy, LLC\n\n**ABSTRACT**:\nAs artificial intelligence (AI) keeps advancing its impact across industries it becomes essential for IT professionals as well as web developers and cybersecurity experts to grasp how data privacy regulations relate to innovative AI methods. This lecture will analyze both the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA) with particular attention to how these laws affect AI technologies and data management methods and the developing concept of federated learning. Participants will understand the fundamental concepts of the CCPA/CPRA including the rights of consumers and responsibilities of organizations handling data collection and processing activities. These regulations create substantial challenges for AI deployment because they require transparency in automated decision-making processes and proper use of consumer data.\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Maine",
@@ -178,16 +188,6 @@
         "link": "https://www.meetup.com/owasp-msp-meetup/events/305641736",
         "timezone": "America/Chicago",
         "description": "**Tracy Walker, principal solutions architect, DefectDojo**\n**Enhancing Open Source Tools Using AI: A \"No Code\" Journey to Build an Automated DefectDojo Parser Generator**\n\nFor February's talk, we welcome DefectDojo, the open-source OWASP flagship project for vulnerability management. See a live demonstration of using AI to accelerate the ability to adopt new, custom or unsupported security tools into DefectDojo, an open-source vulnerability management platform. Tracy Walker will demonstrate how he leverages AI LLM assistance to build security tool parsers from scratch, making tool integration accessible to security practitioners of all technical levels. Through live examples, attendees will learn how AI can help map and normalize security data, generate code and unit tests while maintaining code quality and existing parser best practices -- without actually \"writing\" code.\n\nPerfect for security engineers, DevSecOps practitioners, and anyone interested in enhancing their security toolchain through open source solutions and collaboration.\n\nApproximate agenda (U.S. Central Time):\n5:30 - Doors open; socializing/connecting, food, OWASP announcements\n6:00 - Presentation\n\nDefectDojo is graciously providing food and drink for the event.\n\nPlease remember to register and keep your registration up to date so we know how many to expect."
-    },
-    {
-        "group": "Mumbai",
-        "repo": "www-chapter-mumbai",
-        "name": "OWASP In-Person Meetup | 22nd February 2025",
-        "date": "2025-02-22",
-        "time": "12:30+05:30",
-        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/306137096",
-        "timezone": "Asia/Kolkata",
-        "description": "#### Session Details:\n\n* Introduction to Owasp and Owasp Mumbai\n* Speaker Introduction\n\n#### Topic:\n\n* The art of incident response, a 360 degree View By **Manan Mitesh Shah**\n* Breaking the Container Boundary Using Side Channel Attack By **Adhokshaj Mishra**"
     },
     {
         "group": "Nashville",
@@ -258,6 +258,16 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/305905090",
         "timezone": "Europe/London",
         "description": "**What & Where?**\n\n* Mini Golf @ Glo Golf Peterborough\n\n**When?**\n\n* \\- Thursday 27th February\n\nEverybody welcome! For this event, please ensure you contact a host as pre-payment is required.\n\nThank you,\nRyan"
+    },
+    {
+        "group": "Pittsburgh",
+        "repo": "www-chapter-pittsburgh",
+        "name": "Security Journey Secure Coding Tournament",
+        "date": "2025-03-20",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-pittsburgh-chapter/events/306352530",
+        "timezone": "America/New_York",
+        "description": "Join us for a competitive experience for learners, where they will use the security journey platform to complete hands-on lessons or coding exercises in exchange for tournament points. This tournament welcomes developers and non-developers alike."
     },
     {
         "group": "Poland",
