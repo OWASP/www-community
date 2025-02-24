@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2025ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [OWASP Website](#owasp-website) &bull; [Pygoat](#pygoat)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [OWASP Website](#owasp-website) &bull; [Pygoat](#pygoat) [OpenCRE](https://opencre.org/)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -419,7 +419,7 @@ OpenCRE is a great GSOC project if you're looking to add "Data science/engineeri
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 - There are many small, medium and large project in the [Issues Page tagged with GSOC](https://github.com/OWASP/OpenCRE/issues?q=state%3Aopen%20label%3A%22GSOC%22) that we are interested in, depending on your background and interests they are split in the following categories: AI, Frontend, Backend, FullStack. They all contain a bit of frontend and data analysis and graph operations.
 Priorities for us are:
-- [Make the gap analysis functionality faster]()
+- [Make the gap analysis functionality faster](https://github.com/OWASP/OpenCRE/issues/587)
 - [MyOpenCRE](https://github.com/OWASP/OpenCRE/milestone/5)
 - [Releasing the Explorer page](https://github.com/OWASP/OpenCRE/milestone/6)
   
