@@ -1,5 +1,15 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - March",
+        "date": "2025-03-25",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299786153",
+        "timezone": "Europe/Copenhagen",
+        "description": "This OWASP Aarhus meetup is co-hosted with LEGO Group.\n\nAgenda:\n**19:00 \u2013 19:10** Welcome by LEGO Group and OWASP Aarhus\n\n**19:10 \u2013 20:00** To be announced later (Presented by LEGO Group)\n\n**20:00 \u2013 20:30** Networking break\n\n**20:30 \u2013 21:25** \"Phishing: How Attackers Exploit the Human Mind and Behavior\" by Ahmed Morrad\n\nPhishing attacks are the most common method used by threat actors to gain initial unauthorized access. They are forms of cyber deception that prey on the human psychology. By exploiting emotions like curiosity or fear, attackers can manipulate individuals to submit sensitive information. During this presentation, it will be disclosed what phishing is, how threat actors turn human behavior into a weapon, what tools they use and how to mitigate these attacks."
+    },
+    {
         "group": "Atlanta",
         "repo": "www-chapter-atlanta",
         "name": "Reducing AppSec Risk with ASPM (Application Security Posture Managament) ",
@@ -12,12 +22,32 @@
     {
         "group": "Augsburg",
         "repo": "www-chapter-augsburg",
+        "name": "10. OWASP Augsburg Stammtisch",
+        "date": "2025-03-26",
+        "time": "19:00+01:00",
+        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/306015386",
+        "timezone": "Europe/Berlin",
+        "description": "In der Fuggerstadt wird IT-SECURITY gro\u00df geschrieben. Egal ob IT-Security-Interessent\\*in, CISO, Hacker/Haeckse, Pentester\\*in, Entwickler\\*in, Netzi, Endanwender\\*in oder whatever - alle sind willkommen. Eine OWASP-Mitgliedschaft ist (nat\u00fcrlich w\u00fcnschenswert, aber) nicht notwendig!\n\n**Wir freuen uns auf neue Gesichter, Stammg\u00e4ste und sporadische Teilnehmer\\*innen :-)**\n\n**Agenda - tbd**\n\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\n Es werden noch Speaker\\*innen gesucht!! \n\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\n\nErz\u00e4hl uns was du Cooles gesehen hast, womit du dich gerade besch\u00e4ftigst, welches Problem du aktuell siehst, auf welche L\u00f6sung du gerade setzt, usw. Halte auch gerne einen Vortrag bei uns Probe und hol dir Feedback ab - es bei\u00dft dich keiner! Der Stammtisch ist ein Forum des Austauschs. Nutze es!\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst auch einen Talk halten? Super, wir sind immer auf der Suche nach interessanten Inhalten. Egal ob Vortrag, Diskussion, Idee, Lightning-Talk, etc. Wir dienen auch gerne als Probepublikum :-) Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+    },
+    {
+        "group": "Augsburg",
+        "repo": "www-chapter-augsburg",
         "name": "9. OWASP Augsburg Stammtisch",
         "date": "2025-02-26",
         "time": "19:00+01:00",
         "link": "https://www.meetup.com/owasp-augsburg-chapter/events/306014620",
         "timezone": "Europe/Berlin",
         "description": "In der Fuggerstadt wird IT-SECURITY gro\u00df geschrieben. Egal ob IT-Security-Interessent\\*in, CISO, Hacker/Haeckse, Pentester\\*in, Entwickler\\*in, Netzi, Endanwender\\*in oder whatever - alle sind willkommen. Eine OWASP-Mitgliedschaft ist (nat\u00fcrlich w\u00fcnschenswert, aber) nicht notwendig!\n\n**Wir freuen uns auf neue Gesichter, Stammg\u00e4ste und sporadische Teilnehmer\\*innen :-)**\n\n**Agenda**\n**Vortrag von Nina: Webapps aus der Perspektive einer Pentesterin**\n\nPentesting wird oft als \u201elegales\u201c oder \u201ebeauftragtes\u201c Hacken bezeichnet. Doch oft gibt es R\u00e4tselraten, was dabei eigentlich passiert. Spoiler: keine Magie.\n\nIn diesem Vortrag gibt\u2019s deshalb Einblicke hinter die Kulissen, um folgende Fragen zu beantworten:\n\n* Was ist eigentlich ein Pentest?\n* Wie ist das Vorgehen beim Pentesten (d)einer Webanwendung?\n* Welche typischen Schwachstellen gibt es in Webanwendungen?\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst auch einen Talk halten? Super, wir sind immer auf der Suche nach interessanten Inhalten. Egal ob Vortrag, Diskussion, Idee, Lightning-Talk, etc. Wir dienen auch gerne als Probepublikum :-) Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - March 2025 (Online)",
+        "date": "2025-03-25",
+        "time": "11:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489292",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n(To Be updated)"
     },
     {
         "group": "Austin",
@@ -162,12 +192,12 @@
     {
         "group": "Maine",
         "repo": "www-chapter-maine",
-        "name": "2nd Annual 2025 OWASP Maine Secure Coding Tournament",
+        "name": "2nd Annual 2025 OWASP Maine Secure Coding Tournament Sponsored by Endor Labs",
         "date": "2025-03-06",
         "time": "18:00-05:00",
         "link": "https://www.meetup.com/owasp-maine/events/305886218",
         "timezone": "America/New_York",
-        "description": "Are you an appsec guru and pride yourself in secure coding? Are you a developer and know you write **THE MOST** secure code out of your peers? Well here is your chance to come out and prove it and win **$CASH!$**\n\nOWASP Maine partnered with Secure Code Warrior will be hosting the 2nd annual OWASP Maine Secure Coding Tournament! This will be an in-person meetup where we welcome all software developers and appsec professionals from entry-level to principal. Bring your laptop and your secure coding wits and compete against your peers to be crowned the most secure coder in the state of Maine for 2025!\n\n**Prizes will be as follows:**\n\n**1st Place**\n\n* Crowned most secure coder in the state of Maine\n* Pretty cool trophy (pics to come)\n* TBD VISA giftcard!\n\n**2nd Place**\n\n* Second place trophy\n* Some cool Secure Code Warrior Swag\n* TBD VISA giftcard!\n\n**3rd Place**\n\n* Third place trophy\n* Some slightly less cool swag\n* TBD VISA giftcard!\n\nFor everyone else? You will gain new skills in secure coding, network with your peers, and also get free pizza and drinks!\n\nParticipating in the tournament is not required, feel free to join us either way for networking and learning something new!\n\n**When:** Thursday March 6th 2025 6:00pm - 8:00pm est\n**Where:** IDEXX Laboratories 1 Idexx Dr. Westbrook, ME 04092\n**Who:** Security and Development leadership and practitioners from Maine and all of northern New England\n\n**REQUIREMENTS:**\n\n**\\*You must also register for the Secure Code Warrior tournament here: https://discover.securecodewarrior.com/2nd-Annual-OWASP-Maine-Secure-Coding-Tournament-Registration.html**\n**\\*You must bring your own laptop/machine to participate**\n**\\*You must be onsite and in person to participate**\n\n**OWASP Maine Linkedin Page:** [https://www.linkedin.com/company/owasp-maine/](https://www.linkedin.com/company/owasp-maine/)"
+        "description": "Are you an appsec guru and pride yourself in secure coding? Are you a developer and know you write **THE MOST** secure code out of your peers? Well here is your chance to come out and prove it and win **$CASH!$** sponsored by Endor Labs!\n\nOWASP Maine partnered with Secure Code Warrior and Endor Labs will be hosting the 2nd annual OWASP Maine Secure Coding Tournament! This will be an in-person meetup where we welcome all software developers and appsec professionals from entry-level to principal. Bring your laptop and your secure coding wits and compete against your peers to be crowned the most secure coder in the state of Maine for 2025!\n\n**Prizes will be as follows:**\n\n**1st Place**\n\n* Crowned most secure coder in the state of Maine\n* Pretty cool trophy (pics to come)\n* $1,000 VISA giftcard sponsored by Endor Labs\n\n**2nd Place**\n\n* Second place trophy\n* Some cool Secure Code Warrior Swag\n* $250 VISA giftcard sponsored by Endor Labs\n\n**3rd Place**\n\n* Third place trophy\n* Some slightly less cool swag\n* $100 VISA giftcard sponsored by Endor Labs\n\nFor everyone else? You will gain new skills in secure coding, network with your peers, and also get free pizza and drinks!\n\nParticipating in the tournament is not required, feel free to join us either way for networking and learning something new!\n\n**When:** Thursday March 6th 2025 6:00pm - 8:00pm est\n**Where:** IDEXX Laboratories 1 Idexx Dr. Westbrook, ME 04092\n**Who:** Security and Development leadership and practitioners from Maine and all of northern New England\n\n**REQUIREMENTS:**\n\n**\\*You must also register for the Secure Code Warrior tournament here: https://discover.securecodewarrior.com/2nd-Annual-OWASP-Maine-Secure-Coding-Tournament-Registration.html**\n**\\*You must bring your own laptop/machine to participate**\n**\\*You must be onsite and in person to participate**\n\n**OWASP Maine Linkedin Page:** [https://www.linkedin.com/company/owasp-maine/](https://www.linkedin.com/company/owasp-maine/)\n\n**Sponsor: Endor Labs**\nhttps://www.endorlabs.com/"
     },
     {
         "group": "Manchester",
@@ -208,6 +238,26 @@
         "link": "https://www.meetup.com/owasp-chapter-netherlands-meetup/events/306114546",
         "timezone": "Europe/Amsterdam",
         "description": "  n o! \n\n Cyber Books + Boekenweek = a match made in literary cyber heaven \n\nWe are thrilled to announce the     in collaboration with the esteemed Dutch Chapters of [ISACA NL Chapter](https://www.linkedin.com/company/89220972/admin/page-posts/published/?share=true#) [ISC2](https://www.linkedin.com/company/89220972/admin/page-posts/published/?share=true#) and the [Secure Software Alliance](https://www.linkedin.com/company/89220972/admin/page-posts/published/?share=true#) (SSA).\n\nThis event is unique in itself wherein it brings together the brightest minds in    to explore cutting-edge books and ideas. After a huge success from last year , this year, we are more excited to bring to you several renowned authors who will share their , ,   in the cybersecurity field.\n\n    :\n\u2022 [Ali Abdollahi](https://www.linkedin.com/company/89220972/admin/page-posts/published/?share=true#) \u2013 A Beginner\u2019s Guide to Web Application Penetration Testing\n\u2022 [Brenno de Winter](https://www.linkedin.com/company/89220972/admin/page-posts/published/?share=true#) \u2013 De Validatiecrisis\n\u2022 [Geert Baudewijns](https://www.linkedin.com/company/89220972/admin/page-posts/published/?share=true#) \u2013 Onderhandelen in het duister\n\u2022 [Mark Butterhoff](https://www.linkedin.com/company/89220972/admin/page-posts/published/?share=true#) \u2013 Digital Security Leadership\n\u2022 [Ramses Sloeserwij MBA](https://www.linkedin.com/company/89220972/admin/page-posts/published/?share=true#) \u2013 Code Rood\n\nDont miss out this unique opportunity to learn from industry experts and connect with like-minded peers in IT, GRC and CyberSecurity. Plus, you'll have the chance to engage directly with the authors after the presentations!\n\n : 19 March 2025\n : 17:00 - 20:45 (3 CPE points)\n : Van der Valk Hotel Utrecht\n **Registration Link**: https://lnkd.in/eXGaQ6pv\n\nLooking forward to seeing you all there!\n\nPlease note : It is important that you register for the event via the registration link above with your full name to attend and to get the relevant CPE points.\n\nRegistering just via the Meetup page will not guarantee your admission."
+    },
+    {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "OWASP NYC Chapter Team Host March Madness w/Traceable  \"API Security Mixer\" ",
+        "date": "2025-03-06",
+        "time": "17:00-05:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/306354539",
+        "timezone": "America/New_York",
+        "description": "# Join the OWASP team for Traceable \"API Security Mixer\" following the [New York Cybersecurity Summit](https://cybersecuritysummit.com/summit/newyork25-march/), with the NYC OWASP Community. Network with peers, unwind from the summit, and learn more about securing API-driven architectures.\n\n\u200bAPI Security Solutions Engineer, Shawn Mix is planning to share insights around Critical Dimensions of API Security, how others are maturing their application security programs \u2013 and what organizations should think about when it comes to the fastest-growing attack surface on the planet.\n\u200bThe event is free, but space is limited, so register today. [https://lu.ma/Traceable-NY-CS-HH-Mar6](https://lu.ma/Traceable-NY-CS-HH-Mar6)\nLocation\nTanner Smith's\n204 W 55th St, New York, NY 10019, USA"
+    },
+    {
+        "group": "New York City",
+        "repo": "www-chapter-new-york-city",
+        "name": "Join the OWASP NYC Chapter Team on Mar. 6 New York Cybersecurity Summit",
+        "date": "2025-03-06",
+        "time": "07:30-05:00",
+        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/306354762",
+        "timezone": "America/New_York",
+        "description": "**Time is Running Out \u2013 Register Now for the Official New York Cybersecurity Summit! (use code CSS25-OWASPNYC)**\n**Don\u2019t miss your chance to register for the 15th Annual Official New York Cybersecurity Summit, ranked among the Top 5 InfoSec Conferences worldwide.**\n** Date: Thursday, March 6**\n** Location: Sheraton New York Times Square Hotel**\n** Exclusive Offer: Complimentary admission for C-Suite Executives, Directors, Managers & Industry Professionals (use code CSS25-OWASPNYC to register [here](https://cyberriskalliance.swoogo.com/newyork2025/begin)). https://cyberriskalliance.swoogo.com/newyork2025/begin**\n**Highlights:**\n\n* **Speakers:**\n* **Bindu Sundaresan (LevelBlue): Opening Security Keynote Presentation**\n* **Tim Miller (Kusari): Panel 1 \u2013 Incident Response and Threat Mitigation**\n* **Balazs Scheidler (Axoflow): How High Quality Data Saves you Money Presentation**\n* **Amit Kachhia-Patel (FBI): Closing Government Security Briefing**\n* **Expert insights from leaders at Exabeam, Paperclip, Anomali and more**\n* **Earn up to 8 Continuing Education Credits**\n* **Enjoy a catered breakfast, lunch, and cocktail reception**\n\n**Note: Admission to the Cybersecurity Summit is reserved exclusively for active cybersecurity, IT, and Information security practitioners tasked with safeguarding their enterprises against cyber threats and managing cybersecurity solutions. All registrations are subject to review.**\n**Students, interns, educators, consultants, individuals not currently employed in IT, and those in sales or marketing roles are not eligible to attend.**\n**Additionally, if we are unable to verify your identity with the information you provided during registration, your attendance may be canceled.**\n**Please note these qualifications pertain to all attendees, including members of our partner organizations.**"
     },
     {
         "group": "New Zealand",
@@ -260,6 +310,16 @@
         "description": "**What & Where?**\n\n* Mini Golf @ Glo Golf Peterborough\n\n**When?**\n\n* \\- Thursday 27th February\n\nEverybody welcome! For this event, please ensure you contact a host as pre-payment is required.\n\nThank you,\nRyan"
     },
     {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "March 2025 Meeting",
+        "date": "2025-03-04",
+        "time": "19:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/306326865",
+        "timezone": "America/Phoenix",
+        "description": "**Amateur Radio for Cybersecurity Professionals** (20-30 minutes)"
+    },
+    {
         "group": "Pittsburgh",
         "repo": "www-chapter-pittsburgh",
         "name": "Security Journey Secure Coding Tournament",
@@ -270,24 +330,14 @@
         "description": "Join us for a competitive experience for learners, where they will use the security journey platform to complete hands-on lessons or coding exercises in exchange for tournament points. This tournament welcomes developers and non-developers alike."
     },
     {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "OWASP Meeting in Krakow - Supply chain in application security",
-        "date": "2025-02-24",
-        "time": "18:00+01:00",
-        "link": "https://www.meetup.com/owasp-poland/events/306081108",
-        "timezone": "Europe/Warsaw",
-        "description": "**Important note first:** Unfortunately our previous venue - Techies' is temporarily closed, so this time we are meeting at Relativity office.\n\nOur main topic for this meeting will be supply chain attack and defence. First our guest - Pedro Fortuna will introduce one of supply chain attacks - so called - resurected domains. Then we will host a discussion about how we can defend dependencies in our software to not be a victim of constantly growing supply chain attacks.\n\nAgenda:\n\n1. **Dawn of the Dead - The Tale of the Resurrected Domains**\n*Pedro Fortuna (CTO at Jscrambler)*\nWeb applications\u2019 strengths\u2014composability, dynamic distribution, and error-tolerant runtimes\u2014also make them highly vulnerable to supply chain attacks. The heavy reliance on third-party dependencies, especially dynamically loaded scripts, introduces risks as these scripts can be updated without site owners\u2019 knowledge, bypassing integrity checks like SRI.\nA major concern arises when third-party script hosts go offline, leaving their domains up for grabs. Attackers have exploited this by acquiring such domains to inject malicious code into linked websites. In one case, over 1,000 websites were compromised before researchers detected and neutralized the threat.\nFollowing the incident, further research revealed the widespread nature of this attack vector, leading to the development of a tool capable of scanning millions of websites for similar vulnerabilities. The researchers also created a free tool to alert website owners if they are unknowingly using scripts from defunct, potentially hijacked domains. These findings and tools will be presented in the talk.\n\n2. After the break, we will host a discussion about supply chain defence.\n**Unpacking the Web Supply Chain: Trust, Risk, and the Future of Secure Development**\nIn today's fast-paced world of software development, how dependent have we become on third-party components? Has this reliance become more of a liability than an asset?\nIs a completely self-reliant software ecosystem even possible, or will external risks always be a fundamental part of modern development? With the rise of AI and LLMs, how are software creation processes changing? What new supply chain threats are emerging because of these advancements?\nAre traditional security measures like SBOMs, vulnerability management, and runtime security controls sufficient to address these evolving threats?\nWith dynamically updating scripts, lack of version control, gaps in CSP, SRI, and integrity monitoring, are enterprises sufficiently protected?\nCan we truly trust the browser environment, or are we vulnerable to manipulated content?\nWhat innovative strategies, like a zero-trust model, can better secure third-party JavaScript dependencies?\nLooking ahead, what concrete actions are needed to enhance software supply chain security? Is regulation the answer, or could it create more challenges? Should the industry implement a standardized \"seal of approval\" for third-party components? Are security vendors, enterprises, and regulators doing enough to tackle this growing threat landscape?\nJoin us as we challenge assumptions, explore emerging solutions, and outline a path forward in securing the software and web supply chain.\n\nPlease RSVP and save the date!\nIf you have a minute, **please share this invitation** with friends and in your social media."
-    },
-    {
         "group": "Portland Me",
         "repo": "www-chapter-portland-me",
-        "name": "2nd Annual 2025 OWASP Maine Secure Coding Tournament",
+        "name": "2nd Annual 2025 OWASP Maine Secure Coding Tournament Sponsored by Endor Labs",
         "date": "2025-03-06",
         "time": "18:00-05:00",
         "link": "https://www.meetup.com/owasp-maine/events/305886218",
         "timezone": "America/New_York",
-        "description": "Are you an appsec guru and pride yourself in secure coding? Are you a developer and know you write **THE MOST** secure code out of your peers? Well here is your chance to come out and prove it and win **$CASH!$**\n\nOWASP Maine partnered with Secure Code Warrior will be hosting the 2nd annual OWASP Maine Secure Coding Tournament! This will be an in-person meetup where we welcome all software developers and appsec professionals from entry-level to principal. Bring your laptop and your secure coding wits and compete against your peers to be crowned the most secure coder in the state of Maine for 2025!\n\n**Prizes will be as follows:**\n\n**1st Place**\n\n* Crowned most secure coder in the state of Maine\n* Pretty cool trophy (pics to come)\n* TBD VISA giftcard!\n\n**2nd Place**\n\n* Second place trophy\n* Some cool Secure Code Warrior Swag\n* TBD VISA giftcard!\n\n**3rd Place**\n\n* Third place trophy\n* Some slightly less cool swag\n* TBD VISA giftcard!\n\nFor everyone else? You will gain new skills in secure coding, network with your peers, and also get free pizza and drinks!\n\nParticipating in the tournament is not required, feel free to join us either way for networking and learning something new!\n\n**When:** Thursday March 6th 2025 6:00pm - 8:00pm est\n**Where:** IDEXX Laboratories 1 Idexx Dr. Westbrook, ME 04092\n**Who:** Security and Development leadership and practitioners from Maine and all of northern New England\n\n**REQUIREMENTS:**\n\n**\\*You must also register for the Secure Code Warrior tournament here: https://discover.securecodewarrior.com/2nd-Annual-OWASP-Maine-Secure-Coding-Tournament-Registration.html**\n**\\*You must bring your own laptop/machine to participate**\n**\\*You must be onsite and in person to participate**\n\n**OWASP Maine Linkedin Page:** [https://www.linkedin.com/company/owasp-maine/](https://www.linkedin.com/company/owasp-maine/)"
+        "description": "Are you an appsec guru and pride yourself in secure coding? Are you a developer and know you write **THE MOST** secure code out of your peers? Well here is your chance to come out and prove it and win **$CASH!$** sponsored by Endor Labs!\n\nOWASP Maine partnered with Secure Code Warrior and Endor Labs will be hosting the 2nd annual OWASP Maine Secure Coding Tournament! This will be an in-person meetup where we welcome all software developers and appsec professionals from entry-level to principal. Bring your laptop and your secure coding wits and compete against your peers to be crowned the most secure coder in the state of Maine for 2025!\n\n**Prizes will be as follows:**\n\n**1st Place**\n\n* Crowned most secure coder in the state of Maine\n* Pretty cool trophy (pics to come)\n* $1,000 VISA giftcard sponsored by Endor Labs\n\n**2nd Place**\n\n* Second place trophy\n* Some cool Secure Code Warrior Swag\n* $250 VISA giftcard sponsored by Endor Labs\n\n**3rd Place**\n\n* Third place trophy\n* Some slightly less cool swag\n* $100 VISA giftcard sponsored by Endor Labs\n\nFor everyone else? You will gain new skills in secure coding, network with your peers, and also get free pizza and drinks!\n\nParticipating in the tournament is not required, feel free to join us either way for networking and learning something new!\n\n**When:** Thursday March 6th 2025 6:00pm - 8:00pm est\n**Where:** IDEXX Laboratories 1 Idexx Dr. Westbrook, ME 04092\n**Who:** Security and Development leadership and practitioners from Maine and all of northern New England\n\n**REQUIREMENTS:**\n\n**\\*You must also register for the Secure Code Warrior tournament here: https://discover.securecodewarrior.com/2nd-Annual-OWASP-Maine-Secure-Coding-Tournament-Registration.html**\n**\\*You must bring your own laptop/machine to participate**\n**\\*You must be onsite and in person to participate**\n\n**OWASP Maine Linkedin Page:** [https://www.linkedin.com/company/owasp-maine/](https://www.linkedin.com/company/owasp-maine/)\n\n**Sponsor: Endor Labs**\nhttps://www.endorlabs.com/"
     },
     {
         "group": "Seattle",
@@ -298,6 +348,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/306111347",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Timisoara",
+        "repo": "www-chapter-timisoara",
+        "name": "Cybersecurity in Automotive and NIS2",
+        "date": "2025-03-06",
+        "time": "18:30+02:00",
+        "link": "https://www.meetup.com/owasp-timisoara-chapter/events/306377418",
+        "timezone": "Europe/Bucharest",
+        "description": "\\#\\# Details\nThe next OWASP Timisoara Chapter Meetup will be ***in person***.\nSee [https://owasp.org/www-chapter-timisoara/](https://owasp.org/www-chapter-timisoara/) for more information about the OWASP Timisoara chapter.\nTheme sessions - Automotive CyberSec and NIS2\n\n**`18:30`**` Welcome participants`\n**`18:40`**` Introduction, OWASP News & Updates - Catalin Curelaru`\n**`19:10`**` Cybersecurity in the context of an evolving Automotive industry. - Romano Perini (Continental)`\n**`19:40`**` NIS2 and the impact on your company - Monica Iovan (Visma)`\n**`19:45`**` Networking`\n\n**Romano Perini** \\- Product Cybersecurity and Privacy Officer @ Continental With over 18 years of experience in Product Development\u201415 of those in the Automotive industry\u2014Romano Perini is an aims to be a forward\\-thinking leader in technology\\. As the Product Security Officer for ACM Commercial and Special Vehicles at Continental Automotive\\, Romano brings a unique combination of technical expertise\\, customer\\-focused innovation\\, and an insatiable curiosity to every challenge he faces\\.\n\n**Monica Iovan** \\- CISO for the Medium Segment @ VISMA Monica Iovan is a cybersecurity leader and CISO for the Medium Segment in Visma\\, with extensive experience in securing digital environments and managing cyber risks\\. She specializes in building resilient security programs using research methodologies\\, strengthening security posture of the companies\\, and navigating evolving threats\\. Known for her pragmatic approach\\, she provides actionable insights to help organizations enhance their security posture in an increasingly complex landscape\\."
     },
     {
         "group": "Toronto",
@@ -338,6 +398,16 @@
         "link": "https://www.meetup.com/owasp-victoria-chapter/events/306014796",
         "timezone": "America/Vancouver",
         "description": "The OWASP Victoria Chapter is pleased to partner with UVIC VikeSec to host the third iteration of a hands-on introduction to Burp Suite and the PortSwigger Web Security Academy. Wyatt Harvey and Sebastian Bethell will be presenting a workshop titled \"From Basics to Burp - Part 3: Navigating PortSwigger Academy\".\n\nThe event will be held on March 13, 2025 from 5:30 PM to 8:20 PM at The University of Victoria in Room 116 of the Engineering and Computer Science building.\n\nThe event will feature the workshop, an introduction to PortSwigger's Web Security Academy, and working through some of the introductory labs using Burp Suite, a comprehensive tool for performing security testing on web applications.\n\nPortSwigger's Web Security Academy is an online platform offering interactive learning materials and labs focused on web application security and instructions on how to identify and exploit a wide range of web application vulnerabilities.\n\nDon't miss out on this valuable opportunity to enhance your knowledge and develop hands-on skills in web application hacking. If you would like to attend, please click the RSVP button to reserve your spot as we have limited seats available.\n\nBring your laptop with Burp Suite installed, your PortSwigger account ready, and join us for a hands-on evening of web application hacking and networking fun!\n\nBurp Suite Community can be installed from the following link:\n\n* https://portswigger.net/burp/communitydownload\n\n\u200e\nYou can register your PortSwigger account at the following link:\n\n* https://portswigger.net/users/register\n\n\u200e\nOnce you have Burp Suite installed and a PortSwigger account created, browse through Web Security Academy to get an idea of the content offered on the platform in preparation for the event:\n\n* https://portswigger.net/web-security\n\nWe would also like to give a special thanks to UVIC VikeSec for helping facilitate this event."
+    },
+    {
+        "group": "Yerevan",
+        "repo": "www-chapter-yerevan",
+        "name": "OWASP Yerevan February meetup - Antranig Vartanian",
+        "date": "2025-02-26",
+        "time": "19:00+04:00",
+        "link": "https://www.meetup.com/owasp-yerevan/events/306366209",
+        "timezone": "Asia/Yerevan",
+        "description": "OWASP Yerevan February meetup agenda:\n\n1. System Administration for InfoSec people - Antranig Vartanian\n\nLocation: American University of Armenia\nRoom number 314W in Paramaz Avedisian building (PAB, second/new building)."
     },
     {
         "group": "Samm",
