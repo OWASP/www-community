@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2025ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [OWASP Website](#owasp-website) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -105,8 +105,9 @@ We are actively looking for more mentors! If you have experience in **Django, Re
 - **Yash Pandey**  
 - **Bishal Das**  
 - **Ahmed ElSheikh**  
-- **Patricia Waiyego**  
-- _Looking for 5 more mentors!_  
+- **Patricia Waiyego**
+- **Sudhir**
+- _Looking for 4 more mentors!_  
 
 🎥 _To get up to speed, check out our [BLT videos](https://blt.owasp.org/bltv/)._  
 
@@ -346,19 +347,6 @@ list? Great, please submit it!
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader ([bkimminich](https://owasp.slack.com/team/U1S23SNE7) on Slack)
 * [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Project Leader ([Jannik](https://owasp.slack.com/team/UAM6MBY30) on Slack) 
-
-### [OWASP Website](https://owasp.org)
-
-This project for Google Summer of Code (GSoC) aims to enhance the OWASP website by improving its mobile responsiveness, updating its styling, and refining navigation for a more modern and user-friendly experience. Key objectives include revamping the project’s and chapter’s discovery features to make them more intuitive and accessible, creating comprehensive “Getting Started” pages to guide new users, and streamlining the site’s overall structure to ensure it is well-organized and easy to maintain. The project will focus on delivering a clean, cohesive design that aligns with current web standards, improving accessibility and usability across all devices.
-
-#### knowledge required
-
-Jekyl
-
-#### Mentors
-
-DonnieBLT on Slack
-(looking for more mentors, signup here)
 
 
 ### [PyGoat](https://owasp.org/www-project-pygoat/)
