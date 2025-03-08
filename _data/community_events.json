@@ -90,6 +90,16 @@
         "description": "We have a joint event with WiTCH (Women in Tech & Cyber Hub), starting with a talk from David Archer on Supply Chain Security.\n\n\\-\\-\\-\n\n* **6:00** doors open, meet and greet\n* **6:30** Introduction to OWASP and news, followed by a warm welcome to WiTCH\n* **6:40** \"Ship Happens: The Stormy Seas of Supply Chain Security\" David Archer from Endor Labs\n* **7:30** Discussion led by WiTCH on the human element of open source and how to get involved in security\n* **8:30** wrap up\n\n\\-\\-\\-\n\n**Directions:**\nIn-person event, kindly **hosted by Ping Identity**, Prologue Works, 7th Floor, 25 Marsh Street, Bristol BS1 4AX"
     },
     {
+        "group": "Cincinnati",
+        "repo": "www-chapter-cincinnati",
+        "name": "AppSec CTF with Black Duck",
+        "date": "2025-03-19",
+        "time": "16:00-04:00",
+        "link": "https://www.meetup.com/owasp-cincinnati-meetup-group/events/306590622",
+        "timezone": "America/New_York",
+        "description": "**This meeting will be in-person! Thank you to Kroger for hosting at their Kroger Blue Ash Technology Center. For security, RSVP by 2 days prior to the meeting is required.**\n\n**Sponsored by [Black Duck](https://www.blackduck.com/)**\n\nCome and join us for an evening of fun with a Capture the Flag (CTF) event that walks you through the day and life of a security-focused developer. You will embark upon three hands-on labs that showcase everything from development in your IDE (\u201cshift-left\u201d) to automating your security scanning with GitHub actions.\n*No development experience is necessary to join in on this fun!*\n\n**There are a few pre-requisites:**\n\n* Windows/Mac/Linux Computer\n* Polaris Access (given at CTF)\n* GitHub Account (free account)\n* Visual Studio Code\n\n**Optional: CTF Lab 3 (Part 2) Requirements**\n\n* Java\n* Maven\n* If running on a Mac, Xcode must be installed\n\n**Approximate schedule:**\n4:00 - Doors open. Come for networking and refreshments!\n4:15 - Activities begin!\n6:00 EOE (End of Event)"
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Peace, Love and Hacking: How to Bring Security & Development Teams Together",
@@ -178,6 +188,16 @@
         "link": "https://www.meetup.com/owasp-klagenfurt-chapter/events/306530301",
         "timezone": "Europe/Vienna",
         "description": " **Welcome to the third OWASP Meetup in Klagenfurt!**\n\n **Topic: ISO 27001 & Operational Technology (OT)**\nOur main talk will provide exciting insights into **ISO 27001**, presented by **Philipp Wernig**. Following that, **Andreas Happe** will introduce us to the world of **Operational Technology (OT)**.\nOf course, we\u2019re not limited to these topics\u2014we\u2019re happy to discuss any security-related subjects that interest you!\n\n **Agenda:**\n **Welcome & Introduction** (10 min)\n **Talk: \"ISO 27001\"** \u2013 Philipp Wernig (20 min)\n **Talk: \"OWASP OT\"** \u2013 Andreas Happe (20 min)\n **Open Discussion & Networking** (30 min)\n\n\u200d **Who is this Meetup for?**\nWhether you're a developer, a security professional, or just curious about cybersecurity, this event is for you! Beginners and experts alike are welcome. Our goal is to build an open and engaged community where knowledge and experiences in security can be shared.\nBring your questions, insights, and curiosity\u2014together, we can make the internet a safer place!\n\nJoin us, learn, discuss, and connect\u2014we\u2019re looking forward to seeing you! "
+    },
+    {
+        "group": "Lisboa",
+        "repo": "www-chapter-lisboa",
+        "name": "#09 The Truth",
+        "date": "2025-04-02",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-lisboa-chapter/events/306589128",
+        "timezone": "Europe/Lisbon",
+        "description": "We continue on track to meet our goal of doing at least one event per quarter so without further ado, it's time for our second OWASP Lisboa event of 2025 \n\nThe meetup takes place on April 2nd, 2025, at 18:00, and is sponsored by INSCALE and AP2SI.\n\nThe venue is the INSCALE Office at [Av. da Liberdade 36](https://maps.app.goo.gl/DkSqfPSvRb7XKjrN9), 8th floor.\n\n Enter the building and take the elevators on the left to the 7th floor. Go through the black door on the left and go up one flight of stairs to the 8th floor. You will have arrived at your destination.\n\nThe schedule is the following:\n18:00 - **Quick intro** by the OWASP Lisboa chapter leadership team\n18:15 - **APIs: The Silent Weapon of Social Engineering** by Teresa Pereira\n19:00 - **\\~Jedi\\~GenAI Mind Tricks - Are these the secure chatbots you\u2019re looking for?** by Bruno Morisson\n20:00 - **Drinks & Dinner** by INSCALE\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Talks:**\n\nTitle: **APIs: The Silent Weapon of Social Engineering**\nSpeaker: **Teresa Pereira**\nAbstract:\nThis talk delves into the pervasive yet often overlooked role of APIs in the realm of social engineering. Through a comprehensive exploration of case studies, security vulnerabilities and ethical considerations, this talk uncovers the hidden risks associated with APIs and gives you proactive measures to mitigate the potential for social engineering attacks facilitated by these silent weapons.\n\nBio:\nTeresa Pereira, also known as starmtp, is a Cyber Threat Hunter at Siemens Energy with expertise in penetration testing, red teaming, API security, and threat hunting. Previously at KPMG Portugal, she specialized in vulnerability exploitation, OSINT, social engineering, and API pentesting.\n\nA dynamic and engaging speaker, Teresa has shared her expertise at prominent events, including apidays Paris 2023, apidays London 2024, the Geek Girls Portugal Conference 2024, apidays Paris 2024 and OWASP Porto Meetup. Her professional credentials include API Security Certified Professional (ASCP) and Certified in Cybersecurity (CC).\nRanked among the top 4% on TryHackMe, Teresa is a Women in Security and Privacy (WISP) Volunteer, an APIsec University Ambassador, and also co-leads the OWASP Leiria Chapter, where she actively supports the cybersecurity community. She developed the course \"Getting Started in API Pen-Testing\" for APIsec University and authored the insightful article \"How Can HTTP Status Codes Tip Off a Hacker?\".\n\nIn 2024, Teresa was named API Security Person of the Year (ASPY) by the APIsec University board. In 2025, she created a room on TryHackMe entitled \"Vulnerability Chaining\".\n\nWith a degree in Computer Engineering and a strong passion for mentoring, Teresa is dedicated to advancing cybersecurity awareness and resilience across diverse industries.\n\n[https://pt.linkedin.com/in/maria-teresa-pereira](https://pt.linkedin.com/in/maria-teresa-pereira)\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nTitle: **\\~Jedi\\~GenAI Mind Tricks - Are these the secure chatbots you\u2019re looking for?**\nSpeaker: **Bruno Morisson**\nAbstract:\nAfter experimenting with various public challenges on LLM chatbots\u2014like Gandalf, PromptAirlines, and more\u2014I decided to build my own. Not just to understand how LLMs work, but to see how easily I could break them.\n\nIn this talk, I\u2019ll dive into the security risks of Generative AI, particularly LLM chatbots, and explore vulnerabilities that are often overlooked. From sensitive information disclosure to prompt injections and jailbreaking, I\u2019ll walk through real-world examples showing just how these systems can be manipulated.\n\nNo tinfoil hat required.\n\nBio:\nBruno Morisson is a seasoned cybersecurity expert with over two decades of experience in offensive security, penetration testing, and red teaming. As the Partner and Offensive Security Services Director at Devoteam Cyber Trust, he leads world-class security testing across web and mobile applications, IoT, OT/SCADA, and threat-led penetration testing frameworks like TIBER-EU and DORA.\n\nBeyond his professional work, Bruno is a driving force in the cybersecurity community. He is the founder and organizer of BSidesLisbon, Portugal\u2019s top security conference, and serves as a CREST Europe Council member, helping shape industry standards. His research contributions include multiple CVE disclosures, Metasploit modules, and publications on SAP security, honeypots, and Linux audit systems.\n\nBruno holds an MSc in Information Security from Royal Holloway, University of London, alongside an impressive list of certifications, including OSCP, CISSP, CISA, and GIAC GPEN.\n\nAnd in case you were wondering\u2014yes, this entire bio was generated by GenAI.\n\n[https://www.linkedin.com/in/morisson/](https://www.linkedin.com/in/morisson/)"
     },
     {
         "group": "Los Angeles",
@@ -302,12 +322,12 @@
     {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
-        "name": "Cyber Peterborough Presents: Get into Cyber Security! ",
-        "date": "2025-03-20",
-        "time": "17:30Z",
-        "link": "https://www.meetup.com/owasp-peterborough/events/305916084",
+        "name": "Monthly Networking Social: Argo Lounge",
+        "date": "2025-03-27",
+        "time": "19:00Z",
+        "link": "https://www.meetup.com/owasp-peterborough/events/305916102",
         "timezone": "Europe/London",
-        "description": "Cyber Peterborough presents *Get Into Cyber Security*! An evening of focused discussion, interactive sessions and presentations on how to get into the field of cyber security. Technical or non-technical, this event will help you break down how to get into the cyber security field. Join us and meet other people interested in Cyber.\n**Where?**\n\n* TBC - specific details will be published closer to the date.\n\n**When?**\n\n* Thursday 20th March\n\nPlease respond to this event to confirm numbers for the event ensuring each attendee is catered for.\nThank you,\nRyan"
+        "description": "**What & Where?**\n\n* Social Drinks & Argo Lounge\n\n**When?**\n\n* \\- Thursday 27th March\n\nEverybody welcome!\nThank you,\nRyan & Mark"
     },
     {
         "group": "Phoenix",
@@ -352,12 +372,12 @@
     {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
+        "name": "Vana Khurana: Data Protection in the Cloud",
         "date": "2025-03-12",
         "time": "12:00-07:00",
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/306111347",
         "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+        "description": "Data protection issues specific to the cloud include challenges like shared responsibility, multi-tenancy risks, data sovereignty, and insufficient encryption practices, which can lead to data breaches, loss, or unauthorized access. Additionally, risks such as vendor lock-in, lack of visibility, misconfigurations, and insider threats require careful management of access controls, compliance, and security practices to safeguard sensitive data in cloud environments. This session will focus on data protection specific to cloud.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Singapore",
