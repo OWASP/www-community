@@ -111,19 +111,6 @@ We are actively looking for more mentors! If you have experience in **Django, Re
 
 🎥 _To get up to speed, check out our [BLT videos](https://blt.owasp.org/bltv/)._  
 
-### 👥 **Pre-Selected Students**  
-For transparency, we are implementing a pre-selection process for students this year. This demonstrates our commitment to working students who are contunually contributing while also signaling our intent to other projects and organizations. However, pre-selection does not guarantee a final placement or acceptance.
-
-- **Krrish Sehgal** 32 PRs 
-- **Sahil Omkumar Dhillon** 28 PRs
-- **Krishna Kaushal** 29 PRs 
-- **Apoorva Pendse** 10 PRs
-- **Dhruv Trivedi** 11 PRs
-- **Nitin Awari**  6 PRs
-- Student 7
-- Student 8
-- Student 9
-- Student 10
 
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
