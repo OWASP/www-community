@@ -424,13 +424,20 @@ OWTF attempts to solve the “penetration testers are never given enough time to
 - Docker
 - React/React ecosystem for application frontend
 - Basic knowledge of application security, tools used in bug bounty style hunting
+- Some knowledge of how TLS works, man in the middle proxies, HTTP internals, etc.
 
 ##### Getting started
 Please use the repositories’ issue tracker, GitHub discussions, and don’t forget to read the contributing guide. Join the community at #owtf on OWASP Slack and share your questions, project ideas.
 
+To receive early feedback please:
+- put your proposal on Google Docs and submit it to the OWASP
+  Organization on Google's GSoC page in "Draft Shared" mode.
+- Please pick "owtf" as Proposal Tag to make them easier to find for us. Thank you!
+
 #### Projects / Ideas
 ![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Difficulty: Hard](https://img.shields.io/badge/difficulty-medium-orange)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-medium-orange) OWTF Modernization
+
 OWTF has evolved over time, but parts of the codebase are outdated, have technical debt, and may not be optimized for newer Python versions or best practices. This project aims to modernize the OWTF codebase, ensuring long-term maintainability, security, and efficiency.
 Key Objectives
 1. Fix Long-Standing Bugs & Improve Stability
@@ -441,16 +448,23 @@ Key Objectives
     * Upgrade outdated third-party security tools used in plugins.
     * Reduce dependency bloat by removing redundant libraries.
     * Use async execution where applicable for better performance.
-3. Security & Deployment Enhancements
-    * Harden containerized deployments (OWTF Docker & Kubernetes support).
-    * Implement security best practices (e.g., avoid subprocess command injections).
-    * Improve API security by enforcing stricter authentication/authorization.
 
-Expected Outcomes
-✔️ OWTF will be cleaner, faster, and easier to maintain.
-✔️ The project will be future-proofed with up-to-date dependencies.
-✔️ Stability and performance will be significantly improved.
+###### Expected Outcomes
+✔️ OWTF will be cleaner, faster, and easier to maintain.<br/>
+✔️ The project will be future-proofed with up-to-date dependencies.<br/>
+✔️ Stability and performance will be significantly improved.<br/>
 
+
+![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-medium-orange) MiTM proxy upgrade
+
+OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework. It is in rough shape and needs a lot of improvement on the transaction recording, storing, and modification side. We want to make it as good as [MiTM proxy](https://mitmproxy.org/).
+
+
+###### Expected Outcomes
+✔️ Modern mitm proxy that allows modificaiton of requests and responses on the fly<br/>
+✔️ Better integration with the framework to record a variety of requests and responses.<br/>
+✔️ Stability and performance.<br/>
 
 ##### Mentors
 - [Viyat Bhalodia](viyat.bhalodia@owasp.org)
