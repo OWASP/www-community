@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2025ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre) &bull; [OWASP OWTF](#owtf)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -402,3 +402,56 @@ Priorities for us are:
 - [Spyros Gasteratos](spyros.gasteratos@owasp.org)
 - [Rob Van Der Veer](rob.van.der.veer@owasp.org)
 - [Paola Gardenas](paola.gardenas@owasp.org)
+
+
+### [OWTF](https://owasp.org/www-project-owtf/)
+OWTF attempts to solve the “penetration testers are never given enough time to test properly” problem, or in other words, OWTF = Test/Exploit ASAP, with this in mind, as of right now, the priorities are:
+
+* To improve security testing efficiency (i.e. test more in less time)
+* To improve security testing coverage (i.e. test more)
+* Gradually integrate the best tools
+* Unite the best tools and make them work together with the security tester
+* Remove or Reduce the need to babysit security tools during security assessments
+* Be a respository of PoC resource links to assist exploitation of vulnerabilities in order to illustrate risk to businesses.
+* Help penetration testers save time on report writing
+
+#### Repository
+- [OWTF](https://github.com/owtf/owtf)
+
+#### Skills Required
+- Python 
+- Tornado
+- Docker
+- React/React ecosystem for application frontend
+- Basic knowledge of application security, tools used in bug bounty style hunting
+
+##### Getting started
+Please use the repositories’ issue tracker, GitHub discussions, and don’t forget to read the contributing guide. Join the community at #owtf on OWASP Slack and share your questions, project ideas.
+
+#### Projects / Ideas
+![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-medium-orange)
+OWTF has evolved over time, but parts of the codebase are outdated, have technical debt, and may not be optimized for newer Python versions or best practices. This project aims to modernize the OWTF codebase, ensuring long-term maintainability, security, and efficiency.
+Key Objectives
+1. Fix Long-Standing Bugs & Improve Stability
+    * Audit and resolve GitHub issues related to stability, crashes, and performance bottlenecks.
+    * Enhance logging and error handling for better debugging.
+    * Improve unit tests and CI/CD pipelines to catch regressions early.
+2. Optimize Plugin Execution & Dependency Management
+    * Upgrade outdated third-party security tools used in plugins.
+    * Reduce dependency bloat by removing redundant libraries.
+    * Use async execution where applicable for better performance.
+3. Security & Deployment Enhancements
+    * Harden containerized deployments (OWTF Docker & Kubernetes support).
+    * Implement security best practices (e.g., avoid subprocess command injections).
+    * Improve API security by enforcing stricter authentication/authorization.
+
+Expected Outcomes
+✔️ OWTF will be cleaner, faster, and easier to maintain.
+✔️ The project will be future-proofed with up-to-date dependencies.
+✔️ Stability and performance will be significantly improved.
+
+
+##### Mentors
+- [Viyat Bhalodia](viyat.bhalodia@owasp.org)
+- [Abraham Aranguren](abraham.aranguren@owasp.org)
