@@ -111,6 +111,7 @@ capabilities. Our primary recommendation is to use one of these:
   - [VWT Digital's sec-helpers](https://github.com/vwt-digital/sec-helpers/tree/master) -
     Collection of dynamic security related helpers.
     Sec-helpers is a bundle of useful tests and validators to ensure the security of a given domain.
+  - [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) is a coverage-guided REST API fuzzer developed on top of LibAFL, targeting a wide audience of end-users, with a strong focus on ease-of-use, explainability of the discovered flaws and modularity. WuppieFuzz supports all three settings of testing (black box, grey box and white box).
 
 We are not aware of any other commercial grade tools that offer their
 full featured DAST product free for open source projects.
