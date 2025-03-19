@@ -945,6 +945,15 @@
       "type": "DAST"
    },
    {
+      "title": "WuppieFuzz",
+      "url": "https://github.com/TNO-S3/WuppieFuzz",
+      "owner": "TNO",
+      "license": "Open Source",
+      "platforms": "Windows, Linux, Macintosh",
+      "note": "WuppieFuzz is a coverage-guided REST API fuzzer developed on top of LibAFL, targeting a wide audience of end-users, with a strong focus on ease-of-use, explainability of the discovered flaws and modularity. WuppieFuzz supports all three settings of testing (black box, grey box and white box).",
+      "type": "DAST"
+   },
+   {
       "title": "Barrion",
       "url": "https://barrion.io/",
       "owner": "Barrion",
