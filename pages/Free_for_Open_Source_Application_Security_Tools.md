@@ -9,6 +9,7 @@ contributors:
   - kingthorin
   - Niclas Gustafsson
   - Jason Hills
+  - Thomas Rooijakkers
 tags: application security tools, tools
 permalink: /Free_for_Open_Source_Application_Security_Tools
 
