@@ -153,6 +153,7 @@ Some fuzzing initiatives:
 - [APIFuzzer - fuzz test without coding](https://pypi.org/project/APIFuzzer/)
 - [Jazzer - fuzzing for the JVM](https://github.com/CodeIntelligenceTesting/jazzer)
 - [ForAllSecure Mayhem for API](https://forallsecure.com/mayhem-for-api)
+- [WuppieFuzz - coverage-guided for REST API](https://github.com/TNO-S3/WuppieFuzz)
 
 #### Fuzzing Frameworks
 
