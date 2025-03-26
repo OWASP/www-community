@@ -1,13 +1,13 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - March",
-        "date": "2025-03-25",
-        "time": "19:00+01:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/299786153",
-        "timezone": "Europe/Copenhagen",
-        "description": "This OWASP Aarhus meetup is co-hosted with the LEGO Group. By signing up, you consent to us sharing your name and email with the LEGO Group solely for the purpose of visitor pass registration.\n\nAgenda:\n**19:00 \u2013 19:10** Welcome by LEGO Group and OWASP Aarhus\n\n**19:10 \u2013 20:00** \"Detecting malicious beaconing in enterprise environments\" by Dr. Daniel Varga, LEGO Group\n\nAbout the presentation:\nCurrent beaconing detection methods rely on statistical metrics like skewness and median absolute deviation, often leading to high false positives. While newer approaches improve on this by considering e.g. jittering effects, these approaches lack a robust method for setting thresholds and the true positives usually get lost in the large number of false positive results. I propose using machine learning to distinguish C2 beaconing from legitimate traffic, leveraging enterprise logs and simulations to improve accuracy and compare detection methods.\n\n**20:00 \u2013 20:30** Networking break\n\n**20:30 \u2013 21:25** \"Phishing: How Attackers Exploit the Human Mind and Behavior\" by Ahmed Morrad\n\nAbout the presentation:\nPhishing attacks are the most common method used by threat actors to gain initial unauthorized access. They are forms of cyber deception that prey on the human psychology. By exploiting emotions like curiosity or fear, attackers can manipulate individuals to submit sensitive information. During this presentation, it will be disclosed what phishing is, how threat actors turn human behavior into a weapon, what tools they use and how to mitigate these attacks."
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Attacking IACS: Strategic Industrial Exploitation",
+        "date": "2025-04-24",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/306049408",
+        "timezone": "America/New_York",
+        "description": "**Overview:**\nOperational technology (OT) perimeters are rapidly emerging as a new frontier for attackers, mirroring the adversarial challenges seen in traditional IT boundaries. This talk explores crucial vulnerability classes and real-world exploitation tacticsaffecting common OT perimeter technologies. We will highlight significant risks and potential impacts of perimeter compromise on industrial environments. Attendees will gain a deeper understanding of the emerging threats at the OT boundary and the exploitation techniques adversaries may leverage.\n\n**Abstract:**\nAttacking IACS: Strategic Industrial Exploitation Industrial Automation and Control Systems (IACS) underpin critical infrastructure worldwide but often rely on outdated security paradigms, which may leave them vulnerable to modern attacks. This presentation explores technical attack methodologies targeting IACS, contrasting them with traditional enterprise network exploitation techniques. Drawing on extensive experience in vulnerability research, exploit development, and red teaming, I will highlight the unique challenges and attacker opportunities presented by IACS environments\u2014such as reliance on legacy technologies, proprietary protocols, and stringent operational constraints.\n\nStructured around the IEC/TR 62443-3-1 standard, this presentation addresses critical gaps in modern security guidance for IACS environments. I will use examples to demonstrate strategic attack opportunities and illustrate how vulnerabilities are exploited differently within industrial settings compared to enterprise environments. Attendees will gain technical insights into the challenges of securing IACS against sophisticated attacks and leave with actionable defense strategies that address current IACS security gaps."
     },
     {
         "group": "Augsburg",
@@ -20,26 +20,6 @@
         "description": "In der Fuggerstadt wird IT-SECURITY gro\u00df geschrieben. Egal ob IT-Security-Interessent\\*in, CISO, Hacker/Haeckse, Pentester\\*in, Entwickler\\*in, Netzi, Endanwender\\*in oder whatever - alle sind willkommen. Eine OWASP-Mitgliedschaft ist (nat\u00fcrlich w\u00fcnschenswert, aber) nicht notwendig!\n\n**Wir freuen uns auf neue Gesichter, Stammg\u00e4ste und sporadische Teilnehmer\\*innen :-)**\n\n**Agenda**\n**Vortrag von Rico: ISO/IEC 18974 der Standard f\u00fcr den Betrieb hochwertiger Open-Source-Sicherheitsprogramme**\n\nOpen Source Software ist allgegenw\u00e4rtig. Besonders moderne \u2013 oftmals auch komplexere \u2013 Projekte profitieren vom Einsatz entsprechender quelloffener Bibliotheken. Dabei wurden bestimmte Funktionen von einem 3rd Party Entwickler entwickelt und vorab (unentgeltlich) der Allgemeinheit zur Verf\u00fcgung gestellt. Dies bringt jedoch ein gro\u00dfes Risiko mit sich: Was passiert, wenn eine Sicherheitsl\u00fccke in genau einer solchen Bibliothek entdeckt wird? Je nach Einsatz und Tiefe der Integration kann dies schwerwiegende Auswirkungen haben und je nach Verbreitungsgrad der Open Source Komponente kann es eine Vielzahl von Anwendungen betreffen.\nDas OpenChain Projekt hat genau dieses Problem erkannt und ein ISO-Standard entwickelt, der sich dem Thema Informationssicherheit bei Open Source Projekten widmet. Dabei bekommen sowohl Entwickler von Open Source Komponenten, als auch Entwickler die diese einsetzen und sogar Firmen, die Open Source Software vertreiben die M\u00f6glichkeit den Umgang mit Informationssicherheitsvorf\u00e4llen zu zertifizieren.\nDieser Vortrag gibt ein \u00dcberblick \u00fcber die Norm ISO/IEC 18974 und die damit verbunden M\u00f6glichkeiten seinen Kunden oder Anwendern ein sicheres Vorgehen nachzuweisen.\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst auch einen Talk halten? Super, wir sind immer auf der Suche nach interessanten Inhalten. Egal ob Vortrag, Diskussion, Idee, Lightning-Talk, etc. Wir dienen auch gerne als Probepublikum :-) Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
     },
     {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - March 2025 (Online)",
-        "date": "2025-03-25",
-        "time": "11:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489292",
-        "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nWe are meeting at NI! The chapter would like for folks to attend personally if possible! **Please do not pull an in-person ticket if you are only attending online, we order food for every in-person ticket the Friday before the meeting and we do not want to waste food by over ordering and wasting donated money.** (Link for 'tickets' can be found at the bottom of this description.)\n\n**Presentation:**\n**Lead with AI: Transforming Cybersecurity with Artificial Intelligence**\nThe cybersecurity landscape is evolving at an unprecedented pace, with attackers leveraging automation, AI, and machine learning to outmaneuver traditional defenses. To stay ahead, we must rethink how we defend our systems, manage risk, and make critical decisions.\n\nIn Lead with AI, Marcus J. Carey explores how artificial intelligence can be a force multiplier for cybersecurity professionals. Drawing from real-world experience, he demonstrates how AI-driven tools can enhance threat detection, automate incident response, and augment human expertise\u2014without replacing the need for skilled defenders.\n\nThis talk will break down practical ways to integrate AI into security operations, from streamlining workflows to improving threat intelligence analysis. Attendees will gain a deeper understanding of AI\u2019s strengths and limitations, ethical considerations, and how to build AI-driven strategies that empower security teams rather than overwhelm them.\n\nAI is already shaping the future of cybersecurity. The question isn\u2019t if we should use it, but how we can lead with it.\n\n***Speaker:***\n**Marcus Carey**\n\nIn-Person Tickets can be pulled from [Eventbrite ](https://owasp-austin-2025-march.eventbrite.com/)"
-    },
-    {
-        "group": "Bay Area",
-        "repo": "www-chapter-bay-area",
-        "name": "March OWASP Meetup",
-        "date": "2025-03-25",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/bay-area-owasp/events/306636515",
-        "timezone": "America/Los_Angeles",
-        "description": "Join us on **, March 25, 2025** at **5:30 PM** at the KPMG, Santa Clara office for an evening of networking and learning. This in-person event is a great opportunity to connect with fellow professionals in the cybersecurity field. Don't miss out on the chance to engage with industry experts and expand your knowledge. See you there!\n\n5:30 PM : Doors open, networking and food\n6PM - 6:45 PM: Evolving Automated Approaches to Application Threat Modeling\n6:45 PM - 7:30 PM: Innovations in enterprise application threat modeling and automation.\n7:30 PM - 8:15 PM: The Attacker\u2019s Distributed Supercomputer: Your Browser\n\n**Talk 1**\nTitle: Evolving Automated Approaches to Application Threat Modeling\nSpeaker Bios:\n**Speaker 1 Steve Barlock:**\nSteve is an Advisory principal in KPMG\u2019s San Francisco office with over 30 years of client service and business experience. As a senior leader in KPMG's Cyber Security Services practice, he has focused extensively for over 20 years in multiple disciplines in the cyber security field. He is currently responsible for leading KPMG\u2019s Google Cloud services for Cyber Security on a global basis and previously led the firm\u2019s US Cyber Cloud business. Steve\u2019s early career experience designing and implementing a wide variety of technology-based business solutions has resulted in a broad background in planning, transformation, and delivery related to technology, infrastructure, and security across most industry sectors. He has held leadership roles on projects demonstrating the full IT delivery lifecycle including business-IT strategy, architecture planning, systems integration, and large-scale program delivery.\n**Speaker 2 Joan Qafoku:**\nJoan is a Director in Cybersecurity and Technology Risk at KPMG with over ten years of experience in technology and security. Joan supports cybersecurity strategy and transformation efforts for clients in a variety of industries, including technology, media, telecommunication, and industrial manufacturing. He has deep functional experience across cybersecurity including cybersecurity and technology governance, risk management, policy and compliance management, business and technology resilience, third-party risk, security incident response, vulnerability management, and cloud security automation.\n\n**Talk 2**\nTitle: Innovations in enterprise application threat modeling and automation.\nSpeaker Bio:\n**Keshav Kamble**, CEO/CTO of Avocado Systems, with over 25 years of expertise in networking, network security, application security, and AI models. As a visionary innovator and a R&D leader, Keshav has a portfolio of over 200 inventions and patents in network security, application security and AI. One of the top 5 most referenced cyber security professionals globally, he has consistently designed and delivered groundbreaking products and solutions. Keshav's work has had a profound impact on major sectors, including financial services, banking, telecommunications, and defense industries. His ability to foresee industry trends and drive technological advancements has earned him accolades and respect from peers and industry leaders alike.\nWith a relentless passion for innovation and a commitment to excellence, Keshav Kamble continues to shape the future of cyber security and technology.\n\n**Talk 3**\nTitle: The Attacker\u2019s Distributed Supercomputer: Your Browser\nAbstract:\nAs the browser transforms into the primary computing platform, new vulnerabilities are surfacing that existing security architectures are not prepared to tackle. This gap leaves enterprises exposed to risks like client-side exploits, unmonitored communication channels, and last-mile reassembly tactics, which exploit the browser's complexity beyond the reach of traditional tools.\n\nThis talk explores how the shift to browser-centric workflows has uncovered a critical weak spot at the very heart of organizations around the world, currently unprotected by conventional security measures, allowing both internal and external threat actors to bypass controls\n\nSpeaker Bio:\n**Jerry Hoff** has decades of experience in technology and security, specializing in application security at an enterprise scale. He holds a Master\u2019s in Computer Science from Washington University in St. Louis and has evaluated the security of applications for some of the largest financial, defense, and commercial organizations in the world. His work has provided deep insight into the evolving threat landscape and the challenges organizations face in securing complex software systems."
-    },
-    {
         "group": "Bhopal",
         "repo": "www-chapter-bhopal",
         "name": "AI Day Bhopal",
@@ -50,16 +30,6 @@
         "description": "AI Day Bhopal is a full-day event designed to empower developers with Generative AI skills while emphasizing the critical role of **security in AI-driven applications**. Whether you\u2019re a backend developer, an Android or Flutter enthusiast, a security researcher, or simply passionate about AI, this event provides a unique platform to **learn, share, and network with industry experts.**\n **Why Should You Attend?**\n **Expert-Led Talks & Keynotes** \u2013 Gain insights from AI pioneers, security professionals, and industry leaders on **AI/ML security, web security, and software security challenges in AI applications.**\n **Hands-on Workshops** \u2013 Explore cutting-edge AI & ML techniques along with **best practices for securing AI models, APIs, and software infrastructure.**\n\u200d **AI-Thon (Hackathon)** \u2013 Tackle real-world challenges while integrating **AI-powered security mechanisms** into your solutions.\n **Startup & Product Showcase** \u2013 Discover innovative AI products and learn about **security considerations in AI-based platforms.**\n **Web & Software Security in AI** \u2013 Understand **threats like adversarial attacks, model poisoning, and API vulnerabilities** in AI applications, with insights from **OWASP Bhopal & ML Bhopal.**\n **Networking & Community Building** \u2013 Meet AI & security enthusiasts, **engage with the OWASP and ML community**, and build valuable connections.\n **Swags, Giveaways & Career Opportunities** \u2013 Exclusive goodies, internship/job opportunities & more!\n **Join us for an AI-powered, security-focused experience!**"
     },
     {
-        "group": "Bristol Uk",
-        "repo": "www-chapter-bristol-uk",
-        "name": "Stormy Seas of Supply Chain Security",
-        "date": "2025-03-25",
-        "time": "18:00Z",
-        "link": "https://www.meetup.com/owasp-bristol/events/306455341",
-        "timezone": "Europe/London",
-        "description": "We have a joint event with WiTCH (Women in Tech & Cyber Hub), starting with a talk from David Archer on Supply Chain Security.\n\n\\-\\-\\-\n\n* **6:00** doors open, meet and greet\n* **6:30** Introduction to OWASP and news, followed by a warm welcome to WiTCH\n* **6:40** \"Ship Happens: The Stormy Seas of Supply Chain Security\" David Archer from Endor Labs\n* **7:30** Discussion led by WiTCH on the human element of the supply chain\n* **8:30** wrap up\n\n\\-\\-\\-\n\n**Directions:**\nIn-person event, kindly **hosted by Ping Identity**, Prologue Works, 7th Floor, 25 Marsh Street, Bristol BS1 4AX"
-    },
-    {
         "group": "Chennai",
         "repo": "www-chapter-chennai",
         "name": "OWASP Chennai and Sathyabama combined meetup",
@@ -68,6 +38,16 @@
         "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/306891887",
         "timezone": "Asia/Kolkata",
         "description": "Kindly fill this form: https://forms.gle/APzEsp5dcpt7C79e7"
+    },
+    {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "Why you need to care about the EU's Cyber Resilience Act",
+        "date": "2025-04-17",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/306918529",
+        "timezone": "America/New_York",
+        "description": "The EU's Cyber Resilience Act is a groundbreaking regulation designed to enhance cybersecurity standards for products with digital components. It aims to address widespread vulnerabilities and ensure manufacturers take responsibility for the security of their products throughout their lifecycle.\n\nThis act introduces mandatory cybersecurity requirements for manufacturers and retailers, covering the planning, design, development, and maintenance of digital products. It also emphasizes transparency, enabling consumers and businesses to make informed decisions about the cybersecurity of the products they purchase. CRob will explain why all of that still really, really matters to us here in the US."
     },
     {
         "group": "Copenhagen",
@@ -102,7 +82,7 @@
     {
         "group": "Gothenburg",
         "repo": "www-chapter-gothenburg",
-        "name": "OWASP: Tema Open-Source X Foss-North & WirelessCar",
+        "name": "OWASP Gotheburg: Open-Source X Foss-North & WirelessCar",
         "date": "2025-04-13",
         "time": "13:00+02:00",
         "link": "https://www.meetup.com/owasp-gothenburg-meetup-group/events/306904159",
@@ -252,6 +232,16 @@
     {
         "group": "Orange County",
         "repo": "www-chapter-orange-county",
+        "name": "The Attacker\u2019s Distributed Supercomputer: Your Browser",
+        "date": "2025-04-24",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-oc/events/306872817",
+        "timezone": "America/Los_Angeles",
+        "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, April 21st, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Abstract**\nAs the browser transforms into the primary computing platform, new vulnerabilities are surfacing that existing security architectures are not prepared to tackle. This gap leaves enterprises exposed to risks like client-side exploits, unmonitored communication channels, and last-mile reassembly tactics, which exploit the browser's complexity beyond the reach of traditional tools.\n\nThis talk explores how the shift to browser-centric workflows has uncovered a critical weak spot at the very heart of organizations around the world, currently unprotected by conventional security measures, allowing both internal and external threat actors to bypass controls"
+    },
+    {
+        "group": "Orange County",
+        "repo": "www-chapter-orange-county",
         "name": "Adversarial Intelligence: Redefining AppSec through the eyes of an attacker",
         "date": "2025-03-27",
         "time": "18:00-07:00",
@@ -270,16 +260,6 @@
         "description": "**What & Where?**\n\n* Social Drinks & Argo Lounge\n\n**When?**\n\n* \\- Thursday 27th March\n\nEverybody welcome!\nThank you,\nRyan & Mark"
     },
     {
-        "group": "Philadelphia",
-        "repo": "www-chapter-philadelphia",
-        "name": "Learning Nmap with Dank Memes",
-        "date": "2025-03-25",
-        "time": "19:00-04:00",
-        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/306692305",
-        "timezone": "America/New_York",
-        "description": "Hey Good People! We are coming to you live with our March 2025 monthly chapter meet up! I'm super excited for this months speaker, Jimmy Beers. I don't think Jimmy has missed a meeting, and has probably spoken to more of our members than I have. A true expert, dedicated hacker, and rad human, try not to miss this one :)\n\nJimmy loves Nmap \u2026 like \u2026 a lot! 25 years of firewall management and network penetration testing has taught him Nmap tricks you might not have known were possible!\n\nEarly in pen-testing you will need to find open ports, and Nmap (the Network Mapper) is a great tool for this, though it\u2019s often lamented as \u201cslow\u201d or \u201ccomplex\u201d. It\u2019s not, you\u2019re just holding it wrong!\n\nJimmy uses dank memes to teach various Nmap flags to do high speed target enumeration."
-    },
-    {
         "group": "Phoenix",
         "repo": "www-chapter-phoenix",
         "name": "April 2025 Meeting",
@@ -288,6 +268,16 @@
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/306585306",
         "timezone": "America/Phoenix",
         "description": "**The Attacker\u2019s Distributed Supercomputer: Your Browser**\n\nAs the browser transforms into the primary computing platform, new vulnerabilities are surfacing that existing security architectures are not prepared to tackle. This gap leaves enterprises exposed to risks like client-side exploits, unmonitored communication channels, and last-mile reassembly tactics, which exploit the browser's complexity beyond the reach of traditional tools.\n\nThis talk explores how the shift to browser-centric workflows has uncovered a critical weak spot at the very heart of organizations around the world, currently unprotected by conventional security measures, allowing both internal and external threat actors to bypass controls"
+    },
+    {
+        "group": "Pune",
+        "repo": "www-chapter-pune",
+        "name": "OWASP Pune Meetup 29-March-2025",
+        "date": "2025-03-29",
+        "time": "10:00+05:30",
+        "link": "https://www.meetup.com/owasp-pune-chapter/events/306910434",
+        "timezone": "Asia/Kolkata",
+        "description": "We are excited to bring you first OWASP Pune Meetup of 2025!!!\n\n**Agenda:**\nIntroduction of OWASP by Jyoti Raval, Prasad Salvi & Pramod Rana\n\n**Speaker 1: Shraddha Bhapkar**\n**LinkedIn**: https://www.linkedin.com/in/shraddha-bhapkar-4024a778\n**Topic:** Dos and Don'ts of Web Application Firewall - Cloud And On Premise\n\n**\\-\\-\\-Networking Break\\-\\-\\-\\-**\n\n**Speaker 2: Pramod Rana**\n**LinkedIn**: https://www.linkedin.com/in/pramod-rana-696ba062/\n**Topic:** How to have visibility and security OF CICD ecosystem"
     },
     {
         "group": "Rewa",
@@ -322,12 +312,12 @@
     {
         "group": "Sao Paulo",
         "repo": "www-chapter-sao-paulo",
-        "name": "08/04 - Meetup Owasp Chapter SP - Oracle",
+        "name": "[Meetup Presencial] OWASP Chapter SP - Apoio:Oracle",
         "date": "2025-04-08",
         "time": "19:00-03:00",
         "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/306897539",
         "timezone": "America/Sao_Paulo",
-        "description": "Esta na hora de iniciarmos os meetups presenciais de 2025."
+        "description": "Neste Meetup presencial do OWASP S\u00e3o Paulo, vamos mergulhar nos desafios reais da seguran\u00e7a da informa\u00e7\u00e3o com dois especialistas que vivem o dia a dia da ciberseguran\u00e7a em alto n\u00edvel.\n\nMichel Roitman conduzir\u00e1 a palestra **\u201cBanco de Dados Sob Ataque\u201d**, apresentando os principais vetores de ataque que comprometem a seguran\u00e7a dos dados nas organiza\u00e7\u00f5es. De inje\u00e7\u00f5es SQL a falhas de configura\u00e7\u00e3o e criptografia, ele mostrar\u00e1 como identificar vulnerabilidades, entender o n\u00edvel de exposi\u00e7\u00e3o e aplicar controles eficazes.\n\nNa sequ\u00eancia, Marcelo Marcon traz a palestra **\u201cSeguran\u00e7a da Informa\u00e7\u00e3o e Amea\u00e7as no Cen\u00e1rio Global\u201d**, oferecendo uma vis\u00e3o ampla sobre o ambiente internacional de amea\u00e7as cibern\u00e9ticas. A partir de sua experi\u00eancia no setor p\u00fablico e privado, ele compartilha insights sobre ataques cada vez mais sofisticados e coordenados, destacando a import\u00e2ncia da antecipa\u00e7\u00e3o e resposta \u00e1gil. Uma conversa essencial para entender a seguran\u00e7a da informa\u00e7\u00e3o como um pilar cr\u00edtico para a continuidade dos neg\u00f3cios.\n\n **Quer aprender com especialistas, trocar experi\u00eancias e fortalecer sua rede na \u00e1rea de cybersecurity?**\n\nGaranta sua presen\u00e7a e venha se conectar com a comunidade!\n\nLink: [https://4soci.al/owaspsp](https://4soci.al/owaspsp)"
     },
     {
         "group": "Scotland",
