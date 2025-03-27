@@ -23,10 +23,7 @@ RSQL allows you to build advanced queries in RESTful APIs, for example: `/produc
 
 This translates to a structured query that filters products with price greater than 100 and category “electronics”.
 
-If the application does not correctly validate user input, an attacker could manipulate the filter to execute unexpected queries, such as:
-```bash
-/products?filter=id=in=(1,2,3);delete_all==true
-```
+If the application does not correctly validate user input, an attacker could manipulate the filter to execute unexpected queries, such as: `/products?filter=id=in=(1,2,3);delete_all==true`
 Or even take advantage to extract sensitive information with Boolean queries or nested subqueries.
 
 ## Risks
