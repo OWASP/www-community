@@ -282,10 +282,17 @@ Access-Control-Allow-Origin: *
             }]
         }
     }
-}
+}```
+
+## Authorization Evasion
+
+In this scenario, we start from a user with a basic role and in which we do not have privileged permissions (e.g. administrator) to access the list of all users registered in the database:
+
+```http
 GET /api/users HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+
 Accept: application/vnd.api+json
 Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
 Accept-Encoding: gzip, deflate, br, zstd
