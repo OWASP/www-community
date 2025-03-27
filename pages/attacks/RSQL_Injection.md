@@ -34,8 +34,10 @@ Or even take advantage to extract sensitive information with Boolean queries or 
 - **Impersonation or IDOR:** Modification of identifiers between users through filters that allow access to information and resources of other users without being properly authenticated as such.
 
 ## Entry point detection
-RSQL allows building queries through the `q` or `query` parameters. If this parameters is directly concatenated in queries without validation, it is vulnerable.
-#### GET parameters
+RSQL allows building queries through the `q` or `query` parameters. If this parameters is directly concatenated into queries without validation, it is likely vulnerable.
+
+#### GET Parameters
+
 ```console
 GET /api/v2/users?q=username==admin # User enumeration or data extraction
 GET /api/v2/users?q=username==admin;password==* # Authentication Bypass
