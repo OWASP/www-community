@@ -37,7 +37,8 @@ Or even take advantage to extract sensitive information with Boolean queries or 
 - **Evasion of access controls:** Manipulation of filters to access restricted data.
 - **Impersonation or IDOR:** Modification of identifiers between users through filters that allow access to information and resources of other users without being properly authenticated as such.
 
-## Entry point detection
+## Entry Point Detection
+
 RSQL allows building queries through the `q` or `query` parameters. If this parameters is directly concatenated into queries without validation, it is likely vulnerable.
 
 #### GET Parameters
@@ -53,7 +54,8 @@ GET /api/v2/users?sort=id;drop table users # Execution of malicious code
 ```
 
 #### POST, TRACE or PUT parameters
-```console
+
+```json
 {
   "query": "username==admin;password==*" # Authentication Bypass
 }
@@ -113,7 +115,8 @@ These filters help refine queries in APIs:
 | `filter[id]` | Filters by a unique identifier | `/api/v2/posts?filter[id]=42` |
 
 
-## Common parameters
+## Common Parameters
+
 These parameters help optimize API responses:
 
 | Parameter | Description | Example |
