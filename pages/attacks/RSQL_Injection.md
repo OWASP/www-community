@@ -27,6 +27,7 @@ If the application does not correctly validate user input, an attacker could man
 Or even take advantage to extract sensitive information with Boolean queries or nested subqueries.
 
 ## Risks
+
 - **Exposure of sensitive data:** An attacker can retrieve information that should not be accessible.
 - **Data modification or deletion:** Injection of filters that alter database records.
 - **Privilege escalation:** Manipulation of identifiers that grant roles through filters to trick the application by accessing with privileges of other users.
@@ -56,12 +57,14 @@ GET /api/v2/users?sort=id;drop table users # Execution of malicious code
 ```
 
 #### HTTP Headers
+
 Some APIs allow queries to be sent in HTTP headers.
 ```console
 <HEADER>: username==admin;password==* # Authentication Bypass
 ```
 
-## Supported RSQL operators
+## Supported RSQL Operators
+
 | Operator  | Description | Example  |
 |:----: |:----: |:------------------:|
 | `;` / `and` | Logical **AND** operator. Filters rows where *both* conditions are *true* | `/api/v2/myTable?q=columnA==valueA;columnB==valueB` |
@@ -69,10 +72,10 @@ Some APIs allow queries to be sent in HTTP headers.
 | `==` | Performs an **equals** query. Returns all rows from *myTable* where values in *columnA* exactly equal *queryValue* | `/api/v2/myTable?q=columnA==queryValue` |
 | `=q=` | Performs a **search** query. Returns all rows from *myTable* where values in *columnA* contain *queryValue* | `/api/v2/myTable?q=columnA=q=queryValue` |
 | `=like=` | Performs a **like** query. Returns all rows from *myTable* where values in *columnA* are like *queryValue* | `/api/v2/myTable?q=columnA=like=queryValue` |
+| `=notlike=` | Performs a **not like** query. Returns all rows from *myTable* where values in *columnA* are not like *queryValue* | `/api/v2/myTable?q=columnA=notlike=queryValue` |
 | `=in=` | Performs an **in** query. Returns all rows from *myTable* where *columnA* contains *valueA* OR *valueB* | `/api/v2/myTable?q=columnA=in=(valueA, valueB)` |
 | `=out=` | Performs an **exclude** query. Returns all rows of *myTable* where the values in *columnA* are neither *valueA* nor *valueB* | `/api/v2/myTable?q=columnA=out=(valueA,valueB)` |
 | `!=` | Performs a *not equals* query. Returns all rows from *myTable* where values in *columnA* do not equal *queryValue* | `/api/v2/myTable?q=columnA!=queryValue` |
-| `=notlike=` | Performs a **not like** query. Returns all rows from *myTable* where values in *columnA* are not like *queryValue* | `/api/v2/myTable?q=columnA=notlike=queryValue` |
 | `<` & `=lt=` | Performs a **lesser than** query. Returns all rows from *myTable* where values in *columnA* are lesser than *queryValue* | `/api/v2/myTable?q=columnA<queryValue` <br> `/api/v2/myTable?q=columnA=lt=queryValue` |
 | `=le=` & `<=` | Performs a **lesser than** or **equal to** query. Returns all rows from *myTable* where values in *columnA* are lesser than or equal to *queryValue* | `/api/v2/myTable?q=columnA<=queryValue` <br> `/api/v2/myTable?q=columnA=le=queryValue` |
 | `>` & `=gt=` | Performs a **greater than** query. Returns all rows from *myTable* where values in *columnA* are greater than *queryValue* | `/api/v2/myTable?q=columnA>queryValue` <br> `/api/v2/myTable?q=columnA=gt=queryValue` |
@@ -82,18 +85,20 @@ Some APIs allow queries to be sent in HTTP headers.
 **Note**: Table based on information from [**MOLGENIS**](https://molgenis.gitbooks.io/molgenis/content/) and [**rsql-parser**](https://github.com/jirutka/rsql-parser) applications.
 
 #### Examples
-- name=="Kill Bill";year=gt=2003
-- name=="Kill Bill" and year>2003
-- genres=in=(sci-fi,action);(director=='Christopher Nolan',actor==*Bale);year=ge=2000
-- genres=in=(sci-fi,action) and (director=='Christopher Nolan' or actor==*Bale) and year>=2000
-- director.lastName==Nolan;year=ge=2000;year=lt=2010
-- director.lastName==Nolan and year>=2000 and year<2010
-- genres=in=(sci-fi,action);genres=out=(romance,animated,horror),director==Que*Tarantino
-- genres=in=(sci-fi,action) and genres=out=(romance,animated,horror) or director==Que*Tarantino
+
+- `name=="Kill Bill";year=gt=2003`
+- `name=="Kill Bill" and year>2003`
+- `genres=in=(sci-fi,action);(director=='Christopher Nolan',actor==*Bale);year=ge=2000`
+- `genres=in=(sci-fi,action) and (director=='Christopher Nolan' or actor==*Bale) and year>=2000`
+- `director.lastName==Nolan;year=ge=2000;year=lt=2010`
+- `director.lastName==Nolan and year>=2000 and year<2010`
+- `genres=in=(sci-fi,action);genres=out=(romance,animated,horror),director==Que*Tarantino`
+- `genres=in=(sci-fi,action) and genres=out=(romance,animated,horror) or director==Que*Tarantino`
 
 **Note**: Table based on information from [**rsql-parser**](https://github.com/jirutka/rsql-parser) application.
 
-## Common filters
+## Common Filters
+
 These filters help refine queries in APIs:
 
 | Filter | Description | Example |
