@@ -284,8 +284,6 @@ Access-Control-Allow-Origin: *
     }
 }
 
-### Request
-
 ```http
 GET /api/users HTTP/1.1
 Host: localhost:3000
