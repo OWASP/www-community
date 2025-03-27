@@ -616,8 +616,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 200 
 Date: Sat, 22 Mar 2025 19:50:07 GMT
 Content-Type: application/vnd.api+json;charset=UTF-8
