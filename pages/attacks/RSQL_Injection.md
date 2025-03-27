@@ -129,6 +129,7 @@ These parameters help optimize API responses:
 | `search` | Performs a more flexible search | `/api/v2/posts?search=technology` |
 
 ## Authentication Bypass
+
 If there is no correct validation, it would be possible to evade it by using the wildcard `*` value as a password or try to guess it through a sequential and asterisk:
 
 #### GET Parameters
