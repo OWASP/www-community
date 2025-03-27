@@ -132,13 +132,9 @@ These parameters help optimize API responses:
 If there is no correct validation, it would be possible to evade it by using the wildcard `*` value as a password or try to guess it through a sequential and asterisk:
 
 #### GET Parameters
+
 ```console
 GET /api/v2/users?q=username==admin;password==* 
-```
-
-#### POST, TRACE or PUT parameters
-```console
-{
   "query": "username==admin;password==*"
 }
 ```
