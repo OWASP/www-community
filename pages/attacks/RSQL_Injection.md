@@ -11,7 +11,6 @@ tags: attack, RSQL Injection
 
 {% include writers.html %}
 
-
 ## What is RSQL?
 
 RSQL is a query language designed for parameterized filtering of inputs in RESTful APIs. Based on FIQL (Feed Item Query Language), originally specified by Mark Nottingham for querying Atom feeds, RSQL stands out for its simplicity and ability to express complex queries in a compact and URI-compliant way over HTTP. This makes it an excellent choice as a general query language for REST endpoint searching.
@@ -53,7 +52,7 @@ GET /api/v2/users?include=roles,(select * from users) # Execution of malicious c
 GET /api/v2/users?sort=id;drop table users # Execution of malicious code
 ```
 
-#### POST, TRACE or PUT parameters
+#### POST, TRACE or PUT Parameters
 
 ```json
 {
@@ -63,10 +62,7 @@ GET /api/v2/users?sort=id;drop table users # Execution of malicious code
 
 #### HTTP Headers
 
-Some APIs allow queries to be sent in HTTP headers.
-```console
-<HEADER>: username==admin;password==* # Authentication Bypass
-```
+Some APIs allow queries to be sent in HTTP headers, such as: `<HEADER>: username==admin;password==* # Authentication Bypass`
 
 ## Supported RSQL Operators
 
@@ -142,11 +138,7 @@ GET /api/v2/users?q=username==admin;password==*
 
 #### HTTP Headers
 
-Some APIs allow queries to be sent in HTTP headers.
-
-```console
-<HEADER>: username==admin;password==*
-```
+Some APIs allow queries to be sent in HTTP headers, such as: `<HEADER>: username==admin;password==*`
 
 ## Information Leakage and Enumeration of Users
 
@@ -283,6 +275,7 @@ Access-Control-Allow-Origin: *
         }
     }
 }
+```
 
 ## Authorization Evasion
 
@@ -399,6 +392,7 @@ Access-Control-Allow-Origin: *
 ```
 
 ## Privilege Escalation
+
 It is very likely to find certain endpoints that check user privileges through their role. For example, we are dealing with a user who has no privileges:
 
 ### Request
