@@ -140,7 +140,9 @@ GET /api/v2/users?q=username==admin;password==*
 ```
 
 #### HTTP Headers
+
 Some APIs allow queries to be sent in HTTP headers.
+
 ```console
 <HEADER>: username==admin;password==*
 ```
