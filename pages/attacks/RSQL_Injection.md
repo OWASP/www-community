@@ -282,7 +282,7 @@ Access-Control-Allow-Origin: *
             }]
         }
     }
-}```
+}
 
 ## Authorization Evasion
 
