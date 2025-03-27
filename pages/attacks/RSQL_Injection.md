@@ -284,6 +284,8 @@ Access-Control-Allow-Origin: *
     }
 }
 
+In this scenario, we start from a user with a basic role and in which we do not have privileged permissions (e.g. administrator) to access the list of all users registered in the database:
+
 ```http
 GET /api/users HTTP/1.1
 Host: localhost:3000
