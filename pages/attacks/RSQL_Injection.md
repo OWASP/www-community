@@ -13,12 +13,15 @@ tags: attack, RSQL Injection
 
 
 ## What is RSQL?
+
 RSQL is a query language designed for parameterized filtering of inputs in RESTful APIs. Based on FIQL (Feed Item Query Language), originally specified by Mark Nottingham for querying Atom feeds, RSQL stands out for its simplicity and ability to express complex queries in a compact and URI-compliant way over HTTP. This makes it an excellent choice as a general query language for REST endpoint searching.
 
 ## Overview
+
 RSQL Injection is a vulnerability in web applications that use RSQL as a query language in RESTful APIs. Similar to [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection) and [LDAP Injection](https://owasp.org/www-community/attacks/LDAP_Injection), this vulnerability occurs when RSQL filters are not properly sanitized, allowing an attacker to inject malicious queries to access, modify or delete data without authorization.
 
 ## How does it work?
+
 RSQL allows you to build advanced queries in RESTful APIs, for example: `/products?filter=price>100;category==electronics`
 
 This translates to a structured query that filters products with price greater than 100 and category “electronics”.
