@@ -40,16 +40,6 @@
         "description": "The EU's Cyber Resilience Act is a groundbreaking regulation designed to enhance cybersecurity standards for products with digital components. It aims to address widespread vulnerabilities and ensure manufacturers take responsibility for the security of their products throughout their lifecycle.\n\nThis act introduces mandatory cybersecurity requirements for manufacturers and retailers, covering the planning, design, development, and maintenance of digital products. It also emphasizes transparency, enabling consumers and businesses to make informed decisions about the cybersecurity of the products they purchase. CRob will explain why all of that still really, really matters to us here in the US."
     },
     {
-        "group": "Copenhagen",
-        "repo": "www-chapter-copenhagen",
-        "name": "A Night of Board Games",
-        "date": "2025-03-27",
-        "time": "17:00+01:00",
-        "link": "https://www.meetup.com/owasp-copenhagen-chapter/events/306662210",
-        "timezone": "Europe/Copenhagen",
-        "description": "This time around we'll be occupying Scroll Bar at ITU with a wide range of cyber security themed games:\n\n* Hackador\n* CyberQuest\n* Backdoors & Breaches\n* OWASP Cornucopia\n\nWe'll have games available for you to use as well as people to help you get started. For Hackador and CyberQuest we'll have the actual creators to help you out.\n\nHere's a short description of each:\n\n* Hackador is a board game for newcomers in security that provides insights and reflections from a simulated hacker attack in your fictious company.\n* CyberQuest is a board game where players are tasked to run security operations all the way from assessing risks, mitigating and withstanding hacker attacks. You'll get resources assigned based on how well you assess the risks you face but will still be forced to make difficult prioritization - just like in real life. Unfortunately this game is only in Danish.\n* Backdoors & Breaches from our friends at Black Hills Infosec. It's a technical incident response training card game - fun for everybody.\n* OWASP Cornucopia is a threat modelling tool in the shape of a card game. Read more about it [here](https://medium.com/sydseter/owasp-cornucopia-2-0-8460ebbd9a45).\n\nWe start at 17.00, there's pizza at 18.00. We expect to call it a day around 20.00 (but is largely depending on how long time people wants to play or hang out)."
-    },
-    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Denver OWASP April Meetup - Join Us!   (Later start time this month)",
@@ -220,26 +210,6 @@
         "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, April 21st, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Abstract**\nAs the browser transforms into the primary computing platform, new vulnerabilities are surfacing that existing security architectures are not prepared to tackle. This gap leaves enterprises exposed to risks like client-side exploits, unmonitored communication channels, and last-mile reassembly tactics, which exploit the browser's complexity beyond the reach of traditional tools.\n\nThis talk explores how the shift to browser-centric workflows has uncovered a critical weak spot at the very heart of organizations around the world, currently unprotected by conventional security measures, allowing both internal and external threat actors to bypass controls"
     },
     {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Adversarial Intelligence: Redefining AppSec through the eyes of an attacker",
-        "date": "2025-03-27",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/306412934",
-        "timezone": "America/Los_Angeles",
-        "description": "We have our normal room back! No more attendance cap, so RSVP and come.\n\n**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, March 24th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Live Stream**\nStream us live on Twitch: [http://twitch.tv/owaspoc](http://twitch.tv/owaspoc)\n*Please change your RSVP to \"No\" if you can't make it and/or will join via livestream instead.*\n\n**Abstract**\nThis presentation explores Adversarial Intelligence - an approach that views application security from an attacker\u2019s perspective. Drawing from vulnerability research experience at the NSO Group and building Pegasus, the speaker will highlight how overlooked low and medium vulnerabilities can be combined to execute successful attacks. By examining attack chains and application runtime behavior, attendees will see how gaps often missed by traditional methods are exposed. Attendees will learn about effective tools and techniques for detecting and mitigating these threats, especially in cloud-native and distributed systems. Designed for security practitioners and academics, this session provides a deeper understanding of defending against sophisticated attackers by adopting their mindset."
-    },
-    {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Monthly Networking Social: Argo Lounge",
-        "date": "2025-03-27",
-        "time": "19:00Z",
-        "link": "https://www.meetup.com/owasp-peterborough/events/305916102",
-        "timezone": "Europe/London",
-        "description": "**What & Where?**\n\n* Social Drinks & Argo Lounge\n\n**When?**\n\n* \\- Thursday 27th March\n\nEverybody welcome!\nThank you,\nRyan & Mark"
-    },
-    {
         "group": "Phoenix",
         "repo": "www-chapter-phoenix",
         "name": "April 2025 Meeting",
@@ -270,16 +240,6 @@
         "description": "Join OWASP Rewa Chapter for an in-depth discussion on Cloud Security Best Practices, focusing specifically on securing online payments. Our expert speakers will delve into the importance of implementing strong security measures in cloud computing to safeguard online transactions and protect sensitive financial information. Learn about the latest trends, technologies, and strategies in cloud security to mitigate risks and strengthen your payment systems.\n\nThis event is perfect for professionals in the fields of Data Science, Information Security, and Cybersecurity, as well as anyone interested in learning how to enhance the security of online payments. Don't miss this opportunity to network with like-minded individuals, expand your knowledge on cloud security, and stay ahead in the ever-evolving landscape of digital banking and online transactions."
     },
     {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "OWASP-SLC/Wasatch AppSec - In-person Meetup (@Riverton Library)",
-        "date": "2025-03-27",
-        "time": "12:00-06:00",
-        "link": "https://www.meetup.com/owasp-slc/events/306847727",
-        "timezone": "America/Denver",
-        "description": "Hi All, time for the next Wasatch AppSec/ OWASP-SLC meeting!\n\nWe are meeting in person at the **Riverton Library** in Riverton to talk about OWASP's Top 10 for LLMs.\n\nHelp us plan for food via RSVP.\nSee you there!\n\n**Agenda**:\n\n1. Introductions/Admin\n2. Discussion Topic: OWASP Top 10 For LLMs -- Discussion Lead: Doug Hubbard\n\n**Location:**\nRiverton Library\n12877 S 1830 W, Riverton, UT 84065\nHow to find us\nHead into the large meeting room at the library"
-    },
-    {
         "group": "San Antonio",
         "repo": "www-chapter-san-antonio",
         "name": "AI for AppSec  - A discussion of AppSec Best Practices",
@@ -298,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/306897539",
         "timezone": "America/Sao_Paulo",
         "description": "Neste Meetup presencial do OWASP S\u00e3o Paulo, vamos mergulhar nos desafios reais da seguran\u00e7a da informa\u00e7\u00e3o com dois especialistas que vivem o dia a dia da ciberseguran\u00e7a em alto n\u00edvel.\n\nMichel Roitman conduzir\u00e1 a palestra **\u201cBanco de Dados Sob Ataque\u201d**, apresentando os principais vetores de ataque que comprometem a seguran\u00e7a dos dados nas organiza\u00e7\u00f5es. De inje\u00e7\u00f5es SQL a falhas de configura\u00e7\u00e3o e criptografia, ele mostrar\u00e1 como identificar vulnerabilidades, entender o n\u00edvel de exposi\u00e7\u00e3o e aplicar controles eficazes.\n\nNa sequ\u00eancia, Marcelo Marcon traz a palestra **\u201cSeguran\u00e7a da Informa\u00e7\u00e3o e Amea\u00e7as no Cen\u00e1rio Global\u201d**, oferecendo uma vis\u00e3o ampla sobre o ambiente internacional de amea\u00e7as cibern\u00e9ticas. A partir de sua experi\u00eancia no setor p\u00fablico e privado, ele compartilha insights sobre ataques cada vez mais sofisticados e coordenados, destacando a import\u00e2ncia da antecipa\u00e7\u00e3o e resposta \u00e1gil. Uma conversa essencial para entender a seguran\u00e7a da informa\u00e7\u00e3o como um pilar cr\u00edtico para a continuidade dos neg\u00f3cios.\n\n **Quer aprender com especialistas, trocar experi\u00eancias e fortalecer sua rede na \u00e1rea de cybersecurity?**\n\nGaranta sua presen\u00e7a e venha se conectar com a comunidade!\n\nLink: [https://4soci.al/owaspsp](https://4soci.al/owaspsp)"
-    },
-    {
-        "group": "Scotland",
-        "repo": "www-chapter-scotland",
-        "name": "OWASP Scotland Chapter Meeting - March",
-        "date": "2025-03-27",
-        "time": "18:00Z",
-        "link": "https://www.meetup.com/owasp-scotland-chapter/events/306718027",
-        "timezone": "Europe/London",
-        "description": "Join us at the OWASP Scotland Chapter Meeting where we have three talks lined up for our March session - see details below.\n\nPizza and drinks will be provided to the attendees.\n\nThis event is perfect for software developers, ethical hackers, and cybersecurity enthusiasts interested in learning about the latest trends in cyber security.\n\n#### Talk 1 - Trojan Horsepower: Leveraging Power line Communication to Attack Electric Charging Stations\n\n**Speaker:** Peter Lewis - Ethical Hacking Center of Excellence, PwC\n\n**Blurb:** As electric vehicles become integrated into government fleets, and Electric Vehicle Supply Equipment (EVSE) subsequently becomes critical national infrastructure,\nEVSE security is more relevant than ever. This talk introduces the basic technologies behind EV charging infrastructure, and two novel attack methods: one for scanning electric chargers using an unmodified consumer Ethernet power line adapter and another for launching a Denial of Service (DoS) attack with the same tool.\n\n#### Talk 2- Poor state of InfoSec tooling\n\n**Speaker:** Sean Wright\n\n**Blurb:** In this talk I'll cover the poor state of many of the security toolsets. Why we need to start holding vendors to account and why we need to look beyond the hype of tooling when choosing tools. This will be an interactive talk as well.\n\n#### Talk 3 \u2013 All these secrets...\n\n**Speaker:** Rob Jansson\n\n**Blurb:** In this talk, we'll explore the risks associated with the leakage of 'secrets', such as passwords, API keys, and more, within an organisation's integrations including version control systems, artifact repositories, CI / CD pipelines, chat apps and ticketing systems to name a few... We'll also dive into possible strategies and tools for detecting and preventing these vulnerabilities, to help safeguard your systems and organisation from external threat actors and malicious insiders."
     },
     {
         "group": "Seattle",
@@ -358,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-toronto/events/306889573",
         "timezone": "America/Toronto",
         "description": "**Note about In-Person Attendance**\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\nWe will be capping the in-person attendance to **40 people**, on a **first-come, first-serve** basis. This will allow us to effectively facilitate the Secure Coding Tournament at the venue.\n\nDoors will open at **6:00 PM**, with the event will start at **6:30 PM** (EDT).\n\nFor those who cannot attend in person, no worries! Please join us virtually via the Zoom call!\n\n**Event Description**\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\nThe presentation delves into the current state of secure coding practices, focusing on technical aspects and the challenges faced by developers and security professionals. We will highlight prevalent issues such as the increasing complexity of software systems, the evolving nature of cyber threats, and the persistent gap between development and security teams. Emphasizing the importance of integrating security into the software development lifecycle, the discussion covers best practices, common vulnerabilities, and the need for continuous education and collaboration to build a robust approach to secure coding across the industry.\n\nThe presentation will be followed by a Secure Coding Tournament for any interested members. **Bring your laptop to participate!**"
+    },
+    {
+        "group": "Yaounde",
+        "repo": "www-chapter-yaounde",
+        "name": "OWASP Yaounde First Chapter Meeting",
+        "date": "2025-04-19",
+        "time": "14:00+01:00",
+        "link": "https://www.meetup.com/owasp-yaounde-chapter/events/306891855",
+        "timezone": "Africa/Douala",
+        "description": "[English]\nFirst OWASP Yaounde chapter meeting.\n\nSchedule:\n\n* Introduction and Welcome by Ernest Mougoue and Valery Melou\n* Talk: \"What to expect From the OWASP Yaounde Chapter\" by Ernest Mougoue\n* Networking\n\nSpeakers:\nErnest Mougoue\nErnest is a Chapter Lead for OWASP Yaounde. He has 12+ years of experience in the software security field, having worked as a consultant or cybersecurity team leader for some of the largest companies in the United States. More recently, he is the co-CEO of MBOA DIGITAL, building the Cybersecurity practice.\n\nVal\u00e9ry Melou\nVal\u00e9ry is a Chapter Lead for OWASP Yaounde. Coming from a self-taught background, he is an exceptional and atypical full-stack web developer. He honed his skills developing for various clients as a freelancer on online platforms before joining MBOA DIGITAL over 5 years ago. Today he is the CTO of MBOA DIGITAL focusing on AI research with some interest in Cybersecurity.\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\n[French]\nPremi\u00e8re r\u00e9union du chapitre OWASP Yaound\u00e9.\n\nProgramme :\n\n* Introduction et bienvenue par Ernest Mougoue et Val\u00e9ry Melou\n* Conf\u00e9rence : \"Ce qu'il faut attendre du chapitre OWASP Yaound\u00e9\" par Ernest Mougoue\n* R\u00e9seautage\n\nIntervenants:\nErnest Mougoue\nErnest est un chapter lead pour OWASP Yaound\u00e9. Il a plus de 12 ans d'exp\u00e9rience dans le domaine de la s\u00e9curit\u00e9 informatique, ayant travaill\u00e9 comme consultant ou chef d'\u00e9quipe de cybers\u00e9curit\u00e9 pour certaines des plus grandes entreprises aux \u00c9tats-Unis. Plus r\u00e9cemment, il est le co-CEO de MBOA DIGITAL, o\u00f9 il d\u00e9veloppe le p\u00f4le cybers\u00e9curit\u00e9.\n\nVal\u00e9ry Melou\nVal\u00e9ry est un chapter lead pour OWASP Yaound\u00e9. Issu d'un parcours autodidacte, il est un d\u00e9veloppeur web full-stack exceptionnel et atypique. Il a perfectionn\u00e9 ses comp\u00e9tences en d\u00e9veloppant pour divers clients en tant que freelance sur des plateformes en ligne avant de rejoindre MBOA DIGITAL il y a plus de 5 ans. Aujourd'hui, il est le directeur technique de MBOA DIGITAL, se concentrant sur la recherche en intelligence artificielle avec un int\u00e9r\u00eat pour la cybers\u00e9curit\u00e9."
     },
     {
         "group": "Samm",
