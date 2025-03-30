@@ -10,24 +10,24 @@
         "description": "**Overview:**\nOperational technology (OT) perimeters are rapidly emerging as a new frontier for attackers, mirroring the adversarial challenges seen in traditional IT boundaries. This talk explores crucial vulnerability classes and real-world exploitation tacticsaffecting common OT perimeter technologies. We will highlight significant risks and potential impacts of perimeter compromise on industrial environments. Attendees will gain a deeper understanding of the emerging threats at the OT boundary and the exploitation techniques adversaries may leverage.\n\n**Abstract:**\nAttacking IACS: Strategic Industrial Exploitation Industrial Automation and Control Systems (IACS) underpin critical infrastructure worldwide but often rely on outdated security paradigms, which may leave them vulnerable to modern attacks. This presentation explores technical attack methodologies targeting IACS, contrasting them with traditional enterprise network exploitation techniques. Drawing on extensive experience in vulnerability research, exploit development, and red teaming, I will highlight the unique challenges and attacker opportunities presented by IACS environments\u2014such as reliance on legacy technologies, proprietary protocols, and stringent operational constraints.\n\nStructured around the IEC/TR 62443-3-1 standard, this presentation addresses critical gaps in modern security guidance for IACS environments. I will use examples to demonstrate strategic attack opportunities and illustrate how vulnerabilities are exploited differently within industrial settings compared to enterprise environments. Attendees will gain technical insights into the challenges of securing IACS against sophisticated attacks and leave with actionable defense strategies that address current IACS security gaps."
     },
     {
+        "group": "Belgium",
+        "repo": "www-chapter-belgium",
+        "name": "OWASP BE chapter meeting (24/04/2025, Antwerp)",
+        "date": "2025-04-24",
+        "time": "17:30+02:00",
+        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/306971354",
+        "timezone": "Europe/Brussels",
+        "description": "On April 24th, we organize our next OWASP Belgium chapter meeting at Karel de Grote Hogeschool (Antwerp).\n\nWe'll have two talks centered around ethical hacking and bug bounty hunting, stay tuned for more details on the speakers and their topics.\n\n**Agenda**:\n\n* 17:30-18:00: Welcome with snacks & drinks\n* 18:00-18:10: **OWASP update**\n* 18:10-19:00: TALK 1\n* 19:10-20:00: TALK 2\n* 20:30: End of the meetup\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium/#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
+    },
+    {
         "group": "Bhopal",
         "repo": "www-chapter-bhopal",
         "name": "AI Day Bhopal",
         "date": "2025-04-06",
-        "time": "11:00+05:30",
+        "time": "13:00+05:30",
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/306875181",
         "timezone": "Asia/Kolkata",
         "description": "AI Day Bhopal is a full-day event designed to empower developers with Generative AI skills while emphasizing the critical role of **security in AI-driven applications**. Whether you\u2019re a backend developer, an Android or Flutter enthusiast, a security researcher, or simply passionate about AI, this event provides a unique platform to **learn, share, and network with industry experts.**\n **Why Should You Attend?**\n **Expert-Led Talks & Keynotes** \u2013 Gain insights from AI pioneers, security professionals, and industry leaders on **AI/ML security, web security, and software security challenges in AI applications.**\n **Hands-on Workshops** \u2013 Explore cutting-edge AI & ML techniques along with **best practices for securing AI models, APIs, and software infrastructure.**\n\u200d **AI-Thon (Hackathon)** \u2013 Tackle real-world challenges while integrating **AI-powered security mechanisms** into your solutions.\n **Startup & Product Showcase** \u2013 Discover innovative AI products and learn about **security considerations in AI-based platforms.**\n **Web & Software Security in AI** \u2013 Understand **threats like adversarial attacks, model poisoning, and API vulnerabilities** in AI applications, with insights from **OWASP Bhopal & ML Bhopal.**\n **Networking & Community Building** \u2013 Meet AI & security enthusiasts, **engage with the OWASP and ML community**, and build valuable connections.\n **Swags, Giveaways & Career Opportunities** \u2013 Exclusive goodies, internship/job opportunities & more!\n **Join us for an AI-powered, security-focused experience!**"
-    },
-    {
-        "group": "Chennai",
-        "repo": "www-chapter-chennai",
-        "name": "OWASP Chennai and Sathyabama combined meetup",
-        "date": "2025-03-29",
-        "time": "09:30+05:30",
-        "link": "https://www.meetup.com/chennai-owasp-meetup-group/events/306891887",
-        "timezone": "Asia/Kolkata",
-        "description": "Kindly fill this form: https://forms.gle/APzEsp5dcpt7C79e7"
     },
     {
         "group": "Columbus",
@@ -80,16 +80,6 @@
         "description": "Welcome to a unique event where Agnes Hammarstrand (Partner and Lawyer at Delphi Law Firm), Rikard Bodforss (CEO of Bodforss Consulting), and Tobias Ahnoff (Head of Cybersecurity at Omegapoint) clarify how new and upcoming regulations such as NIS2, CRA or DORA affect those of us who build, develop, and maintain applications:\n\n* **What do these new regulations mean in practical terms for DevOps teams and organizations at large?**\n* **How do we create secure, \u201ccompliant by design\u201d applications and systems?**\n* **What changes, risks, and opportunities lie ahead as regulations continue to multiply?**\n\nDuring this session, you will gain insights into how these directives are designed to strengthen security and what concrete measures are required of organizations. We will discuss everything from the distribution of responsibilities and practical implications to how you can prepare to effectively meet today\u2019s and tomorrow\u2019s regulatory demands.\nThrough presentations and a panel discussion, you will get an:\n\n* **Expert analyses of the legal landscape for IT and cybersecurity.**\n* **Hands-on advice on how to design robust processes and technical solutions that meet requirements.**\n* **Tips on how DevOps organizations can integrate compliance into their daily work without compromising on innovation and efficiency.**\n\nBy understanding the fundamentals of these new regulations and learning from the experts\u2019 experiences, you will gain a better understanding of security and compliance by design. Don\u2019t miss the chance to get your questions answered and network with others in the industry!\n\n**Agenda:**\n**17:30 - 18:00:** Doors open to Omegapoint, grab a sandwich and beverage\n\n**18:00 - 18:30** Agnes Hammarstrand will introduce NIS2 from a legal perspective.\n\n**18:30 - 19:00** Tobias Ahnoff will speak about Security and Compliance: How do we create applications that are both secure and compliant by design?\n\n**19:00 - 19:10** Short break\n\n**19:10 - 19:40** Panel Discussion with Agnes, Tobias and Rikard\n\n**19:40 - 22:00** Mingle and snacks\n\n**Agnes Hammarstrand** is one of Sweden\u2019s leading experts in IT/tech and cyber law. Her specialist expertise includes data protection/GDPR, commercial tech and IT agreement, cloud services, Cyber and information security law. Agnes has extensive experience assisting companies with drafting and negotiating contracts and giving advice within the tech sector. Together with her leading team here in G\u00f6teborg, she helps businesses navigate legal matters. Two years in a row Agnes was voted \"Lawyer of the Lawyers,\" meaning the attorney that the most lawyers and associate lawyers in Sweden would choose to hire for a business law matter (in all categories).\n\n**Tobias Ahnoff** is an experienced developer and architect with focus on application security. He specializes in implementing authentication flows and authorization for web applications and APIs that manage sensitive data in the bank, finance, and health sectors. Tobias performs security reviews and penetration tests as part of Omegapoint Cybersecurity Gothenburg, a group of experts in application security. He is also member of the OWASP ASVS working group and co-author of[ securityblog.omegapoint.se](http://securityblog.omegapoint.se/)\n\n**Rikard Bodfoss** is a founding partner and CEO of Bodforss Consulting, a company focusing on cyber and information security for national critical infrastructure. He is highly experienced in security governance, with a strong background in technical security and infrastructure. He has led the IT forensic practice within the Volvo Group and has extensive experience in building and managing international teams. Additionally, he has overseen IT and security operations in public critical infrastructure environments and has been the CIO for the city of Gothenburg Sustainable waste and water. He possesses deep expertise in crisis management and security incident response, ranging from cyber intrusions to dawn raid scenarios. Furthermore, he has a strong understanding of international laws related to cyber security, digital forensics, eDiscovery, and data protection."
     },
     {
-        "group": "Hong Kong",
-        "repo": "www-chapter-hong-kong",
-        "name": "Reverse Engineering and Binary Patching Lab",
-        "date": "2025-03-28",
-        "time": "14:00+08:00",
-        "link": "https://www.meetup.com/owasp-hong-kong-chapter/events/306530683",
-        "timezone": "Asia/Shanghai",
-        "description": "A crash course in reverse engineering and binary patching for x86/x64 Windows PE/Linux ELF\n\nPre-requisite: 64-bit Windows AND Linux OS/VM (Intel/AMD) or compatible cloud compute instances such as x64 EC2/Amazon WorkSpaces if you refer."
-    },
-    {
         "group": "Indianapolis",
         "repo": "www-chapter-indianapolis",
         "name": "From Adversaries to Allies: Developers and AppSec, a Love-Hate-Love Relationship",
@@ -102,22 +92,22 @@
     {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
-        "name": "OWASP Monthly Meeting ",
+        "name": "AppSec in Action: Navigating SAST, SCA & DAST with Threat-Driven Remediation",
         "date": "2025-04-21",
         "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-jacksonville-chapter/events/306773578",
+        "link": "https://www.meetup.com/owasp-jacksonville/events/306773578",
         "timezone": "America/New_York",
-        "description": "Monthly local meetup to discuss security related topics."
+        "description": "In this session, we will walk through the fundamentals of modern application security, focusing on three key types of scanning: Static Application Security Testing (SAST), Software Composition Analysis (SCA), and Dynamic Application Security Testing (DAST). We\u2019ll look at common tools for each type of scan, what kinds of issues they\u2019re designed to catch, and how to prioritize and address those issues based on real-world risk. This is a high-level overview designed for anyone looking to get a clearer picture of how these tools work together to improve code and application security.\n\nPresented by J.P. Pesare."
     },
     {
-        "group": "Kolkata",
-        "repo": "www-chapter-kolkata",
-        "name": "OWASP KOLKATA MEETUP #16",
-        "date": "2025-03-29",
-        "time": "11:00+05:30",
-        "link": "https://www.meetup.com/owasp-kolkata/events/306804827",
-        "timezone": "Asia/Kolkata",
-        "description": "#### Proposed sessions for this event:\n\n* Blockchain security in an Open, Decentralized World by **Kasturi behera**\n* Reverse Engineering 101 - Session 1 by **Samkalpa Mukherjee**\n* Reverse Engineering 101 - Session 2 by **Parul Sharma**"
+        "group": "Leiria",
+        "repo": "www-chapter-leiria",
+        "name": "OWASP Leiria Meetup #2 - \"Leiria Pine Forest\"",
+        "date": "2025-04-10",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-leiria-chapter/events/306935853",
+        "timezone": "Europe/Lisbon",
+        "description": "**OWASP Leiria** is excited to invite you to an engaging evening filled with technology insights, networking opportunities, and inspiring discussions. We are **collaborating with Leiria Tech Talks, OutSystems, StartUp Leiria,** and **the Ministry of Testing Leiria** to bring together the tech community for another enlightening event.\n\nA **special thanks** to our fantastic **sponsors**, **Synvert xgeeks, StartUp Leiria,** and **Fnac Leiria**, for making this event possible!\n\n **Date:** April 10th, 2025\n **Time:** 18:00 - 22:00\n **Location:** Audit\u00f3rio FNAC, LeiriaShopping\n\n**Agenda:**\n\n**18:00 \u2013 Check-in & Networking**\nKick off the evening in a relaxed setting, perfect for connecting with fellow professionals before the talks commence.\n\n**18:30 \u2013 Event Opening**\n Hosted by Francisco (StartUp Leiria) & F\u00e1bio (Leiria Tech Talks)\n\n**18:45 \u2013 Talk 1: Vibe Coding: Fad or Future?**\n\u200d David Alecrim & Lu\u00eds Oliveira (Staff Engineers @ xgeeks)\n*Abstract:* Discover how AI is reshaping software development through vibe coding\u2014where intuition meets engineering. From indie projects to enterprise systems, learn when to adopt this paradigm shift and its implications for the future of development.\n\n**19:15 \u2013 Talk 2: HTML Smuggling to EDR Bypass**\n\u200d Milton Ara\u00fajo (Security Researcher)\n*Abstract:* Delve into how cybercriminals utilize HTML Smuggling to circumvent traditional security measures like Antivirus (AV) and Endpoint Detection and Response (EDR) solutions. This session will explore the nuances of this stealthy attack method, showcasing how malicious payloads can be discreetly delivered to target devices via browsers while evading standard security protocols.\n\n**19:45 - 20:00 \u2013 Break / Networking**\nTake a moment to grab a snack, stretch, and connect with other attendees.\n\n**20:00 \u2013 Talk 3: Modernizing the DBA: Embracing DBaaS for Efficiency and Automation**\n\u200d Diogo Passadouro (Senior Engineering Manager @ La Redoute)\n*Abstract:* Investigate the transition to Database-as-a-Service (DBaaS) and its impact on modern database management. Learn how adopting DBaaS solutions can enhance efficiency, automation, and seamless integration across various tech platforms.\n\n**20:30 \u2013 Talk 4: Faster Laps in the Software Development Life Cycle**\n\u200d Nuno Reis (MVP @ OutSystems)\n*Abstract:* Explore how OutSystems is speeding up the Software Development Lifecycle (SDLC) by optimizing application delivery through a low-code approach. Discover how AI and visual development work together to enhance efficiency while ensuring security and high-quality standards.\n\n**21:00 - 22:00 \u2013 Pizzas, Networking & Event Closing** \n\n **Reserve Your Spot:** Don\u2019t miss this incredible opportunity!\n\n All our partners will be promoting the event, and you can RSVP through any of them\u2014your entry will be validated! Remember, spots are limited, so be sure to secure yours today!\n\nWe can\u2019t wait to see you there! "
     },
     {
         "group": "Lisboa",
@@ -220,14 +210,14 @@
         "description": "**The Attacker\u2019s Distributed Supercomputer: Your Browser**\n\nAs the browser transforms into the primary computing platform, new vulnerabilities are surfacing that existing security architectures are not prepared to tackle. This gap leaves enterprises exposed to risks like client-side exploits, unmonitored communication channels, and last-mile reassembly tactics, which exploit the browser's complexity beyond the reach of traditional tools.\n\nThis talk explores how the shift to browser-centric workflows has uncovered a critical weak spot at the very heart of organizations around the world, currently unprotected by conventional security measures, allowing both internal and external threat actors to bypass controls"
     },
     {
-        "group": "Pune",
-        "repo": "www-chapter-pune",
-        "name": "OWASP Pune Meetup 29-March-2025",
-        "date": "2025-03-29",
-        "time": "10:00+05:30",
-        "link": "https://www.meetup.com/owasp-pune-chapter/events/306910434",
-        "timezone": "Asia/Kolkata",
-        "description": "We are excited to bring you first OWASP Pune Meetup of 2025!!!\n\n**Agenda:**\nIntroduction of OWASP by Jyoti Raval, Prasad Salvi & Pramod Rana\n\n**Speaker 1: Shraddha Bhapkar**\n**LinkedIn**: https://www.linkedin.com/in/shraddha-bhapkar-4024a778\n**Topic:** Dos and Don'ts of Web Application Firewall - Cloud And On Premise\n\n**\\-\\-\\-Networking Break\\-\\-\\-\\-**\n\n**Speaker 2: Pramod Rana**\n**LinkedIn**: https://www.linkedin.com/in/pramod-rana-696ba062/\n**Topic:** How to have visibility and security OF CICD ecosystem"
+        "group": "Poland",
+        "repo": "www-chapter-poland",
+        "name": "OWASP Meeting in Krakow - Cryptography ",
+        "date": "2025-04-15",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-poland/events/306971109",
+        "timezone": "Europe/Warsaw",
+        "description": "**Important note first:** Unfortunately our previous venue - Techies' is temporarily closed, so this time we are creating this meeting with [Zendesk KRK](https://www.meetup.com/zendesk-krk/) at **[Zendesk Connect](https://www.linkedin.com/company/zendesk/) office**.\n***Use this  [sign-up link](https://docs.google.com/forms/d/e/1FAIpQLSdvj6iOdA_dD5tO9sYfRgD2Ko1jKaUiPSUndh4Fxr-YgFXOpg/viewform)  to streamline your walk-in to the Zendesk office and secure your spot at this inspiring event.***\n\nJoin us for a deep dive into cryptographic failures with[ ](https://www.linkedin.com/in/iwona-polak/)**[Iwona Polak (IGNIS)](https://www.linkedin.com/in/iwona-polak/)**! Expect a mix of math, live demos, and real-world security mishaps, followed by an open discussion on challenges, common mistakes, and best practices. Don't miss out\u2014RSVP now and spread the word!\n\nAgenda:\n\n1. **When cryptography let us down - or maybe we let the cryptography down?**\n*[Iwona Polak (IGNIS)](https://www.linkedin.com/in/iwona-polak/)*\nCryptography is meant to serve and protect us, but sometimes it brings us to tears. During the presentation, I will show how we can hurt ourselves with cryptography. There'll be a little bit of math, and a lot of demos.\n2. After the break, we will be hosting a **discussion about cryptography in use**. Any examples of real-world cryptography failures? What are the challenges in reliably implementing cryptographic security? What are the most common cryptography programming errors that lead to security breaches? Is there a risk that legal regulations may hinder the implementation of modern cryptographic solutions? How to train development teams on the proper use of cryptography? Why people still roll their own cryptography in production environments, after decades of saying not to do that?\n\n**Please RSVP and save the date!**\n***Use this  [sign-up link](https://docs.google.com/forms/d/e/1FAIpQLSdvj6iOdA_dD5tO9sYfRgD2Ko1jKaUiPSUndh4Fxr-YgFXOpg/viewform)  to streamline your walk-in to the Zendesk office and secure your spot at this inspiring event.***\n\nIf you have a minute, **please share this invitation** with friends and in your social media.\n\n**Who is our host?**\n**[Zendesk](https://www.linkedin.com/company/zendesk/)** is a global tech company that creates customer service software and products help more than 145,000 global brands (AirBnb, Uber, JetBrains, Slack, among others) making their customers happy, every day.\n\nThe Polish hub with main office in Krakow is one of Zendesk's key European centers with software developers and security specialists, with 300+ members and continuing to grow.\n\n* Headquarters: SF\n* Global offices: 15\n* Employees: 5,700+\n* Customers: 145K+d"
     },
     {
         "group": "Rewa",
@@ -288,16 +278,6 @@
         "link": "https://www.meetup.com/owasp-stuttgart-chapter/events/305623607",
         "timezone": "Europe/Berlin",
         "description": "**Runtime Application Security meets LLMs**\n\nLarge Language Models (LLMs) and AI Agents are rapidly transforming how applications operate - generating code, queries, and dynamic outputs on the fly. However, this innovation introduces unique security challenges, exposing applications to both classic and novel attack vectors.\n\nThis talk explores the intersection of runtime application security and LLM-driven applications, highlighting how these dynamically generated interactions differ from traditional, human-coded applications. Through real-world examples, we will illustrate specific vulnerabilities and exploit techniques targeting LLM-generated outputs and discuss practical strategies for detecting and mitigating these threats in real-time.\n\n**Agenda (Subject to Change):**\n\n* **6:00 PM**: Arrival\n* **6:30 PM - 7:30 PM**: Presentation\n* **7:30 PM - approximately 9:00 PM**: Barbecue, drinks, discussion, and networking"
-    },
-    {
-        "group": "Tampa",
-        "repo": "www-chapter-tampa",
-        "name": "OWASP Tampa Chapter 2025-March Lunch and Learn",
-        "date": "2025-03-28",
-        "time": "11:15-04:00",
-        "link": "https://www.meetup.com/owasp-tampa/events/306053484",
-        "timezone": "America/New_York",
-        "description": "**Welcome to our OWASP Tampa 2025-March Lunch and Learn!**\nWe invite you to join us and members of our local Tampa Bay community to hear from industry experts in cybersecurity. This lunch and learn will bring topics that influence discussion among your peers and provide a venue to meet others that share your passions.\n\n**Agenda**:\n\n* 11:15am - Registration and Lunch\n* 12:00pm - Speaker - Chris Fago - AI is here for business users. What does that mean for AppSec?\n* 1:00pm - Depart\n\n**Speaker**:\nChris Fago is a cybersecurity sales guy at Zenity with a knack for pretending to be more technical than he probably should.\n\nAt Zenity he's focused on helping solve the emerging security challenges tied to AI agents and low-code development\u2014showing enterprises \u201cHow to fail at AppSec\u201d or what didn\u2019t work for others so they can close gaps often overlooked by traditional security tools in this new threat vector.\n\nPreviously, as a founding team member of Prisma Cloud (now part of Palo Alto Networks), he helped grow it into a market-leading CNAPP. During that time, Chris worked with major U.S. brands on complex digital transformations, helping them secure their cloud migrations and maybe even picking up a thing or two about Kubernetes.\n\nOutside of work, Chris loves spending time with his family, hanging out at Atlanta\u2019s botanical gardens and aquarium, obsessing over UFOs, and staying hopelessly devoted to Atlanta\u2019s sports teams (despite the emotional toll they consistently deliver).\n\n**Abstract**:\n**AI is here for business users. What does that mean for AppSec?**\nGone are the days when coding skills were needed to create apps, automate processes, or reduce manual tasks. With AI now embedded in tools like email, business intelligence, and app development, business users can accomplish more without relying on IT or dev teams. However, this boost in productivity can come at the expense of security if not properly managed. As Gen AI, Copilots, and Agentic AI bring users closer to technology, security teams face tough choices: limit tool usage or risk data leakage. Traditionally seen as blockers, security teams now have the chance to transform into business enablers thanks to AI.\n\n**Location**:\nGuidePoint Security\n3030 N Rocky Point Dr W,\nSTE 600\nTampa, FL\n33607\n\n**Sponsors**:\nZenity - [https://www.zenity.io/](https://www.zenity.io/)"
     },
     {
         "group": "Toronto",
