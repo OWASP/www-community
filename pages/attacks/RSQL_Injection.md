@@ -132,6 +132,12 @@ If there is no correct validation, it would be possible to evade it by using the
 
 ```console
 GET /api/v2/users?q=username==admin;password==* 
+```
+
+#### POST, TRACE or PUT parameters
+
+```console
+{
   "query": "username==admin;password==*"
 }
 ```
