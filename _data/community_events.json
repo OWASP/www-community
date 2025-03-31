@@ -10,6 +10,16 @@
         "description": "**Overview:**\nOperational technology (OT) perimeters are rapidly emerging as a new frontier for attackers, mirroring the adversarial challenges seen in traditional IT boundaries. This talk explores crucial vulnerability classes and real-world exploitation tacticsaffecting common OT perimeter technologies. We will highlight significant risks and potential impacts of perimeter compromise on industrial environments. Attendees will gain a deeper understanding of the emerging threats at the OT boundary and the exploitation techniques adversaries may leverage.\n\n**Abstract:**\nAttacking IACS: Strategic Industrial Exploitation Industrial Automation and Control Systems (IACS) underpin critical infrastructure worldwide but often rely on outdated security paradigms, which may leave them vulnerable to modern attacks. This presentation explores technical attack methodologies targeting IACS, contrasting them with traditional enterprise network exploitation techniques. Drawing on extensive experience in vulnerability research, exploit development, and red teaming, I will highlight the unique challenges and attacker opportunities presented by IACS environments\u2014such as reliance on legacy technologies, proprietary protocols, and stringent operational constraints.\n\nStructured around the IEC/TR 62443-3-1 standard, this presentation addresses critical gaps in modern security guidance for IACS environments. I will use examples to demonstrate strategic attack opportunities and illustrate how vulnerabilities are exploited differently within industrial settings compared to enterprise environments. Attendees will gain technical insights into the challenges of securing IACS against sophisticated attacks and leave with actionable defense strategies that address current IACS security gaps."
     },
     {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - April 2025 (Online)",
+        "date": "2025-04-29",
+        "time": "11:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489295",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n(To Be updated)"
+    },
+    {
         "group": "Belgium",
         "repo": "www-chapter-belgium",
         "name": "OWASP BE chapter meeting (24/04/2025, Antwerp)",
@@ -28,6 +38,16 @@
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/306875181",
         "timezone": "Asia/Kolkata",
         "description": "AI Day Bhopal is a full-day event designed to empower developers with Generative AI skills while emphasizing the critical role of **security in AI-driven applications**. Whether you\u2019re a backend developer, an Android or Flutter enthusiast, a security researcher, or simply passionate about AI, this event provides a unique platform to **learn, share, and network with industry experts.**\n **Why Should You Attend?**\n **Expert-Led Talks & Keynotes** \u2013 Gain insights from AI pioneers, security professionals, and industry leaders on **AI/ML security, web security, and software security challenges in AI applications.**\n **Hands-on Workshops** \u2013 Explore cutting-edge AI & ML techniques along with **best practices for securing AI models, APIs, and software infrastructure.**\n\u200d **AI-Thon (Hackathon)** \u2013 Tackle real-world challenges while integrating **AI-powered security mechanisms** into your solutions.\n **Startup & Product Showcase** \u2013 Discover innovative AI products and learn about **security considerations in AI-based platforms.**\n **Web & Software Security in AI** \u2013 Understand **threats like adversarial attacks, model poisoning, and API vulnerabilities** in AI applications, with insights from **OWASP Bhopal & ML Bhopal.**\n **Networking & Community Building** \u2013 Meet AI & security enthusiasts, **engage with the OWASP and ML community**, and build valuable connections.\n **Swags, Giveaways & Career Opportunities** \u2013 Exclusive goodies, internship/job opportunities & more!\n **Join us for an AI-powered, security-focused experience!**"
+    },
+    {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "AI and Cybersecurity: Navigating the Future",
+        "date": "2025-04-12",
+        "time": "10:00+02:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/307006092",
+        "timezone": "Africa/Cairo",
+        "description": "Join us for an insightful event where we delve into the intersection of artificial intelligence and cybersecurity. This event will feature two expert-led sessions that explore the impact of agentic AI on cybersecurity and provide a beginner's guide to vulnerability research. Whether you're a seasoned professional or just starting out, this event offers valuable knowledge and networking opportunities.\n\n### Session 1: Agentic AI and the Impact on Cybersecurity\n\n**Speaker: Ahmed Shosha**\n**Brief:** In this session, Ahmed Shosha will explore the concept of agentic AI and its implications for cybersecurity. Attendees will learn about the potential risks and benefits of AI-driven systems, how they can be leveraged for both offensive and defensive cybersecurity strategies, and the ethical considerations that come with deploying such technologies.\n\n### Session 2: Intro to Vulnerability Research: How to Start\n\n**Speaker: Fady Othman**\n**Brief:** Fady Othman will provide a comprehensive introduction to vulnerability research. This session is designed for those new to the field and will cover the basics of identifying, analyzing, and mitigating vulnerabilities in software and systems. Attendees will gain practical insights and tips on how to embark on a career in vulnerability research.\n\n### Additional Information:\n\n* **Date and Time:** Saturday, April 12th, 2025, from 10:00 AM to 12:00 PM"
     },
     {
         "group": "Columbus",
