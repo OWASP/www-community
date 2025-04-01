@@ -365,7 +365,7 @@ PyGoat is an open-source, intentionally vulnerable Python web application design
 - Prepare for `OWASP Top 10:2025` section
 
 #### Mentors
-- [ardiansyah](pakdesawangan@gmail.com)
+- [ardiansyah](mailto:pakdesawangan@gmail.com)
 - [Rupak Biswas](https://github.com/RupakBiswas-2304)([Rupak](https://owasp.slack.com/team/U036WSR1684) on slack)
 
   
@@ -399,9 +399,9 @@ Priorities for us are:
 - [Releasing the Explorer page](https://github.com/OWASP/OpenCRE/milestone/6)
   
 #### Mentors
-- [Spyros Gasteratos](spyros.gasteratos@owasp.org)
-- [Rob Van Der Veer](rob.van.der.veer@owasp.org)
-- [Paola Gardenas](paola.gardenas@owasp.org)
+- [Spyros Gasteratos](mailto:spyros.gasteratos@owasp.org)
+- [Rob Van Der Veer](mailto:rob.van.der.veer@owasp.org)
+- [Paola Gardenas](mailto:paola.gardenas@owasp.org)
 
 
 ### [OWTF](https://owasp.org/www-project-owtf/)
@@ -467,5 +467,5 @@ OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework.
 ✔️ Stability and performance.<br/>
 
 ##### Mentors
-- [Viyat Bhalodia](viyat.bhalodia@owasp.org)
-- [Abraham Aranguren](abraham.aranguren@owasp.org)
+- [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
+- [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
