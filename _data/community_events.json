@@ -70,16 +70,6 @@
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on April 16th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 6:00 pm - the presentation starts at 6:30pm .\n\n***Note***: This time is a little later than usual as someone else has our usual room until 5:00 pm and D&B will need time to turn over the room.\n\nThis month's presentation is brought to you by SquareX!\n\n**Presentation:**\nThe Attacker\u2019s Distributed Supercomputer: Your Browser\n\n**Abstract**:\nAs the browser transforms into the primary computing platform, new vulnerabilities are surfacing that existing security architectures are not prepared to tackle. This gap leaves enterprises exposed to risks like client-side exploits, unmonitored communication channels, and last-mile reassembly tactics, which exploit the browser's complexity beyond the reach of traditional tools.\n\nThis talk explores how the shift to browser-centric workflows has uncovered a critical weak spot at the very heart of organizations around the world, currently unprotected by conventional security measures, allowing both internal and external threat actors to bypass controls"
     },
     {
-        "group": "France",
-        "repo": "www-chapter-france",
-        "name": "Meetup OWASP - Paris - Avril 2025",
-        "date": "2025-04-03",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-france/events/306825976",
-        "timezone": "Europe/Paris",
-        "description": "Ce meetup se deroulera chez **[Theodo](https://www.theodo.fr/)** que nous remercions chaleureusement de leur soutien.\n\nOWASP Paris est le meetup d\u00e9di\u00e9 \u00e0 la s\u00e9curit\u00e9 applicative. Pour rappel, le meetup se veut non commercial. Il r\u00e9unit toutes personnes d\u00e9sireuses de concevoir et maintenir des logiciels plus s\u00fbrs. Si vous \u00eates int\u00e9ress\u00e9 par le sujet, que vous soyez d\u00e9butant ou expert, n'h\u00e9sitez pas \u00e0 nous rejoindre pour partager vos exp\u00e9riences ou vos probl\u00e9matiques.\nCe meetup propose des sessions organis\u00e9es en mode \"forum ouvert\". Les sujets sont propos\u00e9s par les participants lors de la s\u00e9ance. Partages de connaissances, retour d'exp\u00e9riences, exercices de type CTF, bonnes pratiques, gouvernance et organisation, ... sont au programme!\n\n**Lightning Talks:**\nLa soir\u00e9e commence par de courtes pr\u00e9sentations. Chacun peut s'il le veut proposer une pr\u00e9sentation, ce n'est pas obligatoire. Si vous avez envie de partager une technique, une opinion, une d\u00e9mo ou un retour d'exp\u00e9rience, alors vous pouvez pr\u00e9parer un lightning talk, entre une simple phrase et 10 minutes maxi et venez le pr\u00e9senter au d\u00e9but de la soir\u00e9e. Si vous n'avez jamais fait de pr\u00e9sentation avant, c'est l'occasion de commencer dans une ambiance sympa.\n\n**Workshop:**\nLa soir\u00e9e se poursuit avec des activit\u00e9s men\u00e9es en groupes. Chacun peut s'il le veut proposer un sujet, ce n'est pas obligatoire. Vous avez 30 secondes au d\u00e9but de la session pour en donner envie aux autres participants, puis tout le monde vote pour son sujet favori. Les sujets pr\u00e9f\u00e9r\u00e9s donnent lieu \u00e0 des activit\u00e9s en groupes pendant un peu plus d'une heure. Des \u00e9crans seront disponibles\n\nLe format se veut bienveillant. Pas besoin d'\u00eatre expert pour parler d'un sujet. Vous trouverez certainement d'autres personnes pour vous aider! L'accent est mis sur l'\u00e9change et le partage.\n\nL'agenda et le compte-rendu des pr\u00e9c\u00e9dents meetups est accessible ici: https://owasp.org/www-chapter-france/"
-    },
-    {
         "group": "Gothenburg",
         "repo": "www-chapter-gothenburg",
         "name": "OWASP Gotheburg: Open-Source X Foss-North & WirelessCar",
@@ -160,16 +150,6 @@
         "description": "This is an online meeting and will be streamed on [YouTube](https://www.youtube.com/watch?v=JyHZtpOlmJs). The meeting will start at 19:00.\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n19:00 - 19:10 - **Welcome and OWASP updates**\n19:10 - 19:55 - **OWASP Top 10 for LLM Apps and Gen.AI Security** by **John Sotiropoulos**\n19:55 - 20:05 - **Questions and Break**\n20:05 - 20:50 - **Building a Robust AppSec Program: SAMM\u2019s Roadmap to SSDLC Maturity** by **Nariman Aga-Tagiyev**\n\n**OWASP Top 10 for LLM Apps and Gen.AI Security**\n*Abstract:*\nThe OWASP 10 for LLM Apps has been a highly successfully project creating the foundation for many other project initiatives including Agentic AI, Red Teaming, and LLM Exploit Generation. This session will provide a project update with an overview of the latest 2025 Top 10 for LLM apps and the new project initiatives\n*Bio:*\nJohn Sotiropoulos is the head of AI Security at Kainos where he is responsible for AI security and securing national-scale systems in government, regulators, and healthcare. A co-lead of the OWASP Top 10 for Large Language Model (LLM) Applications John leads Agentic Security Initiative and alignment with other standards organizations and national cybersecurity agencies including NIST, MITRE, CSA, the NCSC, and the US AISIC, where he is the OWASP lead. He is the author of the bestselling book on Adversarial AI, Attacks, Mitigations, and Defense Strategies and more recently he authored the UK Government\u2019s Implementation Guide for the UK Code of Practice for the Cybersecurity of AI, both submitted to ETSI for international standardization.\n\n**Building a Robust AppSec Program: SAMM\u2019s Roadmap to SSDLC Maturity**\n*Abstract:*\nIn this talk, we will explore how the OWASP Software Assurance Maturity Model (SAMM) provides a structured approach to building and improving an organization\u2019s Secure Software Development Lifecycle (SSDLC). From assessing current AppSec practices to defining a practical roadmap for maturity, this talk will guide you through SAMM\u2019s core pillars and actionable best practices. Whether you\u2019re just starting or looking to refine your AppSec program, this session offers insights into fostering sustainable change and aligning security with business objectives.\n*Bio:*\nNariman Aga-Tagiyev is an Application Security Architect with over two decades of experience in software development. Over the course of his career, Nariman has worn multiple hats, serving as a full stack web application developer, backend developer, DevOps engineer, and cloud developer. However, since 2016, his focus has been exclusively dedicated to the realm of Application Security and advancing Software Security Development Life Cycle (SSDLC) maturity."
     },
     {
-        "group": "New York City",
-        "repo": "www-chapter-new-york-city",
-        "name": "OWASP NYC Chapter: Application Security Cocktail Party \"Its for Fun\"",
-        "date": "2025-04-03",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/306821525",
-        "timezone": "America/New_York",
-        "description": "Dive into the world of Application Security with the OWASP NYC Chapter!\n\n# AppSec Cocktail Party sponsored by Saran Toure of Invicti\n\nThis isn\u2019t just a happy hour\u2014it\u2019s an AppSec celebration!\nJoin us at The Liberty NYC for an exclusive, invite-only gathering of top application security minds. Connect with fellow experts, enjoy great food and drinks, and dive into conversations that spark innovation. Yes, it's a bring in the \"Spring-Time\" Jubilee!!! Yes, you can bring along a Security Minded Friend.\n\n**Where:**\nThe Liberty NYC\n29 W 35th St, New York, NY 10001\n(Between 5th & 6th Avenue)\n**Date**:\nApril 3, 2025 from 6-9 PM\n\nDon't miss this opportunity to network with like-minded individuals, share experiences, and stay updated on the latest trends in Information Security. Whether you are new to OWASP or a long-time member, this workshop is designed to provide valuable insights into how to effectively secure your applications in today's threat landscape. Mark your calendars and join us for an engaging Happy Hour on Application Security!"
-    },
-    {
         "group": "Northern Virginia",
         "repo": "www-chapter-northern-virginia",
         "name": "The Dark side of AI: Developing insecure applications in minutes!",
@@ -240,6 +220,16 @@
         "description": "Join OWASP Rewa Chapter for an in-depth discussion on Cloud Security Best Practices, focusing specifically on securing online payments. Our expert speakers will delve into the importance of implementing strong security measures in cloud computing to safeguard online transactions and protect sensitive financial information. Learn about the latest trends, technologies, and strategies in cloud security to mitigate risks and strengthen your payment systems.\n\nThis event is perfect for professionals in the fields of Data Science, Information Security, and Cybersecurity, as well as anyone interested in learning how to enhance the security of online payments. Don't miss this opportunity to network with like-minded individuals, expand your knowledge on cloud security, and stay ahead in the ever-evolving landscape of digital banking and online transactions."
     },
     {
+        "group": "Salt Lake City",
+        "repo": "www-chapter-salt-lake-city",
+        "name": "Virtual Meetup for April: Moving from a Technical Role to a Management Role",
+        "date": "2025-04-23",
+        "time": "12:00-06:00",
+        "link": "https://www.meetup.com/owasp-slc/events/307093194",
+        "timezone": "America/Denver",
+        "description": "Our April meetup will be virtual! Details below:\n\n* Topic: Moving from a Technical Role to a Management Role\n* Date: Wednesday, April 23\n* Discussion Leader: Dan Hamilton\n* Zoom Link: Coming Soon!"
+    },
+    {
         "group": "San Antonio",
         "repo": "www-chapter-san-antonio",
         "name": "AI for AppSec  - A discussion of AppSec Best Practices",
@@ -278,16 +268,6 @@
         "link": "https://www.meetup.com/owasp-seoul/events/307060143",
         "timezone": "Asia/Seoul",
         "description": " OWASP Seoul Chapter 2025  1   !\n\n      **Non-Human Identity **,     **   ** , OWASP      . ,   **OWASP Top 10 for LLM Applications 2025  **  .\n\n   ( 1 40)\n**19:30 \\~ 19:45 (15)**\n *   *\n\n* OWASP Seoul Chapter \n* OWASP Seoul Chapter  (  ) \n* OWASP Top 10 for LLM Applications 2025   \n\u200d  Leader (OWASP Seoul Chapter)\n\n**19:45 \\~ 20:25 (40)**\n #1: **Non Human Identity Top 10 **\n\n* OWASP NHI Top 10     \n* API Key,     \n\u200d   (Cremit)\n\n**20:25 \\~ 21:05 (40)**\n #2: **    101**\n\n*    \n*     \n\u200d  Staff Security Engineer ()\n\n**21:05 \\~ 21:10 (5)**\n Q&A  \n\n  \n\n*  : 2025 4 29() 19:30 \\~ 21:10 (KST)\n*  :  (Zoom    )\n*  :  , , DevOps ,    \n*  : \n\n , AI     !\n [OWASP  ](https://owasp.org/www-chapter-seoul/)  .\n#OWASP #OWASP_Seoul #Top10 #NonHumanIdentity #BugBounty #LLM #DevSecOps #Cremit #Sendbird"
-    },
-    {
-        "group": "Stockholm",
-        "repo": "www-chapter-stockholm",
-        "name": "OWASP Stockholm - GitHub Runners Takeover @ Kivra",
-        "date": "2025-04-08",
-        "time": "17:30+02:00",
-        "link": "https://www.meetup.com/owasp-stockholm/events/306683614",
-        "timezone": "Europe/Stockholm",
-        "description": "**Join us** for the second OWASP Stockholm event of the year. This time Kivra is hosting and Dr. Pedro Merino will present about GitHub runners and vulnerabilities that you should be aware of.\n\n **When:** 8th of April, 17:30 - 21:00\n **Where:** Klara Norra kyrkogata 33, Kivra AB\n\n **Agenda:**\n17:30 - 18:00 Gathering and mingling\n18:00 - 18:05 Doors close and intro\n18:05 - 18:50 First speaker\n18:50 - 20:30 Mingle, food will be provided\n\n**More about the talk:**\n\nGitHub Actions self-hosted runners offer faster deployment and greater control for CI/CD, but they also bring security risks when misconfigured.\n\nThis presentation shows how an attacker with limited access to a GitHub organization may craft a malicious workflow to execute arbitrary commands and take over a GCP instance.\n\n**\u200dAbout the speaker:**\n\n**Dr. Pedro Merino**\nPedro Merino is a Security Engineer at Kivra, specializing in CI/CD security and threat modeling.\n\nWith a Ph.D. in International Private Law, Pedro transitioned from finding loopholes in legal texts to uncovering security vulnerabilities in software. If there's a way in, he'll find it. Outside of cybersecurity, he\u2019s either training for a triathlon or diving into ancient history books."
     },
     {
         "group": "Toronto",
