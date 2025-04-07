@@ -220,6 +220,16 @@
         "description": "Hey Friends! How great is it that we have such a space to gather, relax, and talk shop? Well - it's about to get better!\n\nChris Lindsey, the Field CTO of OX Security, will be joining us on April 15th to bring some extremely relevant and exciting knowledge concerning AI-induced application weaknesses, and the means to prevent and mitigate them. I really hope to see you all because you know - this is a can't miss. Once you read the abstract, I imagine you'll join us :)\n\n**The Dark side of AI: Developing unsecure applications in minutes!**\n\nAI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security."
     },
     {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "May 2025 Meeting",
+        "date": "2025-05-06",
+        "time": "19:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/306633472",
+        "timezone": "America/Phoenix",
+        "description": "**Beyond LLMs: Securing the AI/ML Pipeline and Analyzing CVEs in Modern AI Tools**\n\n* Security challenges across the ML lifecycle (data collection, model training, deployment, inference).\n* Evolving threats beyond LLMs, including traditional ML models and autonomous agents.\n* Insights from CVE analysis of real-world AI/ML tools."
+    },
+    {
         "group": "Poland",
         "repo": "www-chapter-poland",
         "name": "OWASP Meeting in Krakow - Cryptography ",
