@@ -90,16 +90,6 @@
         "description": "Nach einer l\u00e4ngeren Pause melden wir uns mit neuem Schwung zur\u00fcck und laden herzlich zum **Reboot des OWASP Stammtischs Heilbronn** ein!\n\n Termin: 8. Mai 2025\n Einlass: ab 18:00 Uhr\n Programmstart: 18:30 Uhr\n Ort: Restaurant C\u00e4cilie, Heilbronn\n [https://restaurants.schwarz/restaurant-caecilie](https://restaurants.schwarz/restaurant-caecilie)\n\n Unsere Vortrags-Highlights zum Reboot:\n\n* **Tobias Glemser**: \"OWASP ist so viel mehr als die Top 10\"\n* **Benjamin H\u00e4ublein**: \"OAuth sicher mit Single-Page-Applications nutzen: Architektur-Pattern und Best Practices\"\n\nIm Anschluss laden wir zum gem\u00fctlichen Austausch bei Snacks ein \u2013 ideal zum Netzwerken, Fachsimpeln und Wiedersehen \n\n Voranmeldung erbeten \u2013 entweder \u00fcber:\n Meetup: [https://www.meetup.com/owasp-heilbronn-chapter/events/307177537/](https://www.meetup.com/owasp-heilbronn-chapter/events/307177537/)\n DFN Terminplaner: [https://terminplaner6.dfn.de/de/b/0c4d54ba94959fae375841a1abef14d3-1179298](https://terminplaner6.dfn.de/de/b/0c4d54ba94959fae375841a1abef14d3-1179298)"
     },
     {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "April InfoSec Professionals Happy Hour sponsored by Allure Security",
-        "date": "2025-04-15",
-        "time": "18:45-05:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/307183757",
-        "timezone": "America/Chicago",
-        "description": "Please join us as we get together for our April in person meetup. We will talk about potential topics for the upcoming meetings and determine the best place to meet for May. The goal is to have a combination of social and technical meetings once we have established some chapter momentum.\n\nThis event is sponsored by Allure Security.\nhttps://alluresecurity.com/\n\nAllure Security specializes in online brand protection, offering services to detect and dismantle fraudulent websites, social media accounts, and mobile applications that impersonate legitimate brands. Originating from a DARPA-funded research lab at Columbia University, the company leverages advanced artificial intelligence to identify and neutralize online scams before they can harm consumers. Allure Security works with 250+ customers with a primary focus on financial services and retail."
-    },
-    {
         "group": "Indianapolis",
         "repo": "www-chapter-indianapolis",
         "name": "From Adversaries to Allies: Developers and AppSec, a Love-Hate-Love Relationship",
@@ -240,16 +230,6 @@
         "description": "\\*ATTENTION - DATE CHANGE & VENUE UPDATE \\*\n\nCyber Peterborough presents *Get Into Cyber Security*! An evening of focused discussion, interactive sessions and presentations on how to get into the field of cyber security. Technical or non-technical, this event will help you break down how to get into the cyber security field. Join us and meet other people interested in Cyber.\n**Where?**\n\n* University Centre Peterborough PE1 4DZ\n\n**When?**\n\n* Wednesday 30th April\n\n**Agenda**\n\n* **5:30pm:** Welcome\n* **5:40pm:** Cyber Myth Busting\n* **6:10pm:** Steven Trippier, Anglian Water CISO\n* **6:40pm:** Cyber Career Paths\n* **7:15pm:** Ask **your** questions - Panel\n* **7:45pm:** UCP Educational Opportunities\n* **8:00pm:** Networking Drinks @ the Pub!\n\nPlease respond to this event to confirm numbers for the event ensuring each attendee is catered for.\nThank you,\nRyan"
     },
     {
-        "group": "Philadelphia",
-        "repo": "www-chapter-philadelphia",
-        "name": "The Dark side of AI: Developing unsecure applications in minutes!",
-        "date": "2025-04-15",
-        "time": "19:00-04:00",
-        "link": "https://www.meetup.com/owasp-philadelphia-chapter/events/307055825",
-        "timezone": "America/New_York",
-        "description": "Hey Friends! How great is it that we have such a space to gather, relax, and talk shop? Well - it's about to get better!\n\nChris Lindsey, the Field CTO of OX Security, will be joining us on April 15th to bring some extremely relevant and exciting knowledge concerning AI-induced application weaknesses, and the means to prevent and mitigate them. I really hope to see you all because you know - this is a can't miss. Once you read the abstract, I imagine you'll join us :)\n\n**The Dark side of AI: Developing unsecure applications in minutes!**\n\nAI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security."
-    },
-    {
         "group": "Phoenix",
         "repo": "www-chapter-phoenix",
         "name": "May 2025 Meeting",
@@ -258,16 +238,6 @@
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/306633472",
         "timezone": "America/Phoenix",
         "description": "**Beyond LLMs: Securing the AI/ML Pipeline and Analyzing CVEs in Modern AI Tools**\n\n* Security challenges across the ML lifecycle (data collection, model training, deployment, inference).\n* Evolving threats beyond LLMs, including traditional ML models and autonomous agents.\n* Insights from CVE analysis of real-world AI/ML tools."
-    },
-    {
-        "group": "Poland",
-        "repo": "www-chapter-poland",
-        "name": "OWASP Meeting in Krakow - Cryptography ",
-        "date": "2025-04-15",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-poland/events/306971109",
-        "timezone": "Europe/Warsaw",
-        "description": "**Important note first:** Unfortunately our previous venue - Techies' is temporarily closed, so this time we are creating this meeting with [Zendesk KRK](https://www.meetup.com/zendesk-krk/) at **[Zendesk Connect](https://www.linkedin.com/company/zendesk/) office**.\n***Use this  [sign-up link](https://docs.google.com/forms/d/e/1FAIpQLSdvj6iOdA_dD5tO9sYfRgD2Ko1jKaUiPSUndh4Fxr-YgFXOpg/viewform)  to streamline your walk-in to the Zendesk office and secure your spot at this inspiring event.***\n\nJoin us for a deep dive into cryptographic failures with[ ](https://www.linkedin.com/in/iwona-polak/)**[Iwona Polak (IGNIS)](https://www.linkedin.com/in/iwona-polak/)**! Expect a mix of math, live demos, and real-world security mishaps, followed by an open discussion on challenges, common mistakes, and best practices. Don't miss out\u2014RSVP now and spread the word!\n\nAgenda:\n\n1. **When cryptography let us down - or maybe we let the cryptography down?**\n*[Iwona Polak (IGNIS)](https://www.linkedin.com/in/iwona-polak/)*\nCryptography is meant to serve and protect us, but sometimes it brings us to tears. During the presentation, I will show how we can hurt ourselves with cryptography. There'll be a little bit of math, and a lot of demos.\n2. After the break, we will be hosting a **discussion about cryptography in use**. Any examples of real-world cryptography failures? What are the challenges in reliably implementing cryptographic security? What are the most common cryptography programming errors that lead to security breaches? Is there a risk that legal regulations may hinder the implementation of modern cryptographic solutions? How to train development teams on the proper use of cryptography? Why people still roll their own cryptography in production environments, after decades of saying not to do that?\n\n**Please RSVP and save the date!**\n***Use this  [sign-up link](https://docs.google.com/forms/d/e/1FAIpQLSdvj6iOdA_dD5tO9sYfRgD2Ko1jKaUiPSUndh4Fxr-YgFXOpg/viewform)  to streamline your walk-in to the Zendesk office and secure your spot at this inspiring event.***\n\nIf you have a minute, **please share this invitation** with friends and in your social media.\n\n**Who is our host?**\n**[Zendesk](https://www.linkedin.com/company/zendesk/)** is a global tech company that creates customer service software and products help more than 145,000 global brands (AirBnb, Uber, JetBrains, Slack, among others) making their customers happy, every day.\n\nThe Polish hub with main office in Krakow is one of Zendesk's key European centers with software developers and security specialists, with 300+ members and continuing to grow.\n\n* Headquarters: SF\n* Global offices: 15\n* Employees: 5,700+\n* Customers: 145K+d"
     },
     {
         "group": "Riyadh",
@@ -317,7 +287,7 @@
         "time": "19:30+09:00",
         "link": "https://www.meetup.com/owasp-seoul/events/307060143",
         "timezone": "Asia/Seoul",
-        "description": " OWASP Seoul Chapter 2025  1   !\n\n      **Non-Human Identity **,     **   ** , OWASP      . ,   **OWASP Top 10 for LLM Applications 2025  **  .\n\n   ( 1 40)\n**19:30 \\~ 19:45 (15)**\n *   *\n\n* OWASP Seoul Chapter \n* OWASP Seoul Chapter  (  ) \n* OWASP Top 10 for LLM Applications 2025   \n\u200d  Leader (OWASP Seoul Chapter)\n\n**19:45 \\~ 20:25 (40)**\n #1: **Non Human Identity Top 10 **\n\n* OWASP NHI Top 10     \n* API Key,     \n\u200d   (Cremit)\n\n**20:25 \\~ 21:05 (40)**\n #2: **    101**\n\n*    \n*     \n\u200d  Staff Security Engineer ()\n\n**21:05 \\~ 21:10 (5)**\n Q&A  \n\n  \n\n*  : 2025 4 29() 19:30 \\~ 21:10 (KST)\n*  :  (Zoom    )\n*  :  , , DevOps ,    \n*  : \n\n , AI     !\n [OWASP  ](https://owasp.org/www-chapter-seoul/)  .\n#OWASP #OWASP_Seoul #Top10 #NonHumanIdentity #BugBounty #LLM #DevSecOps #Cremit #Sendbird"
+        "description": " OWASP Seoul Chapter 2025  1   !\n\n      **Non-Human Identity **,     **   ** , OWASP      . ,   **OWASP Top 10 for LLM Applications 2025  **  .\n\n   ( 1 40)\n**19:30 \\~ 19:45 (15)**\n *   *\n\n* OWASP Seoul Chapter \n* OWASP Seoul Chapter   \n* OWASP Top 10 for LLM Applications 2025   \n\u200d  Leader (OWASP Seoul Chapter)\n\n**19:45 \\~ 20:25 (40)**\n #1: **Non Human Identity Top 10 **\n\n* OWASP NHI Top 10     \n* API Key,     \n\u200d   (Cremit)\n\n**20:25 \\~ 21:05 (40)**\n #2: **    101**\n\n*    \n*     \n\u200d  Staff Security Engineer ()\n\n**21:05 \\~ 21:10 (5)**\n Q&A  \n\n  \n\n*  : 2025 4 29() 19:30 \\~ 21:10 (KST)\n*  :  (Zoom    )\n*  :  , , DevOps ,    \n*  : \n\n , AI     !\n [OWASP  ](https://owasp.org/www-chapter-seoul/)  .\n#OWASP #OWASP_Seoul #Top10 #NonHumanIdentity #BugBounty #LLM #DevSecOps #Cremit #Sendbird"
     },
     {
         "group": "Stockholm",
@@ -338,6 +308,16 @@
         "link": "https://www.meetup.com/owasp-toronto/events/306889573",
         "timezone": "America/Toronto",
         "description": "**Note about In-Person Attendance**\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\nWe will be capping the in-person attendance to **40 people**, on a **first-come, first-serve** basis. This will allow us to effectively facilitate the Secure Coding Tournament at the venue.\n\nDoors will open at **6:00 PM**, with the event will start at **6:30 PM** (EDT).\n\nFor those who cannot attend in person, no worries! Please join us virtually via the Zoom call!\n\n**Event Description**\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\nThe presentation delves into the current state of secure coding practices, focusing on technical aspects and the challenges faced by developers and security professionals. We will highlight prevalent issues such as the increasing complexity of software systems, the evolving nature of cyber threats, and the persistent gap between development and security teams. Emphasizing the importance of integrating security into the software development lifecycle, the discussion covers best practices, common vulnerabilities, and the need for continuous education and collaboration to build a robust approach to secure coding across the industry.\n\nThe presentation will be followed by a Secure Coding Tournament for any interested members. **Bring your laptop to participate!**"
+    },
+    {
+        "group": "Vancouver",
+        "repo": "www-chapter-vancouver",
+        "name": "OWASP Vancouver monthly meetup",
+        "date": "2025-05-15",
+        "time": "18:00-07:00",
+        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/305510286",
+        "timezone": "America/Vancouver",
+        "description": "TBD"
     },
     {
         "group": "Yaounde",
