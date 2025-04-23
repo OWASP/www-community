@@ -530,7 +530,7 @@
   testing: "https://img.shields.io/badge/API_Testing-Yes-brightgreen.svg"
   notes: "<br/><em>Note: Use Curl-like command or OpenAPI contract to perform API scan. An existing Github Action can perform a scan automatically before deployment.</em>"
 - name: "ZeroThreat"
-  link: "https://zerothreat.ai/solutions/api-security-testing"
+  link: "https://zerothreat.ai/api-security-testing"
   from: "ZeroThreat"
   license: "https://img.shields.io/badge/license-Commercial-9cf.svg"
   platforms: "https://img.shields.io/badge/Platform-SaaS%2C On--Prem-inactive.svg"
