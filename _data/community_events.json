@@ -142,7 +142,7 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
-        "name": "Hands-on Workshop OWASP LA - May 28, 2025",
+        "name": "Hands-on Workshop OWASP LA - May 13, 2025",
         "date": "2025-05-13",
         "time": "17:30-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/306091949",
@@ -198,6 +198,16 @@
         "link": "https://www.meetup.com/owasp-orlando/events/302181950",
         "timezone": "America/New_York",
         "description": "This is an In-Person OWASP Orlando Chapter Meeting\n\nFood to be provided (Typically pizza or sandwiches)\n\nIntroductions\n\nMore details to be provided soon!\n\nSpeaker 1: **TBD**\nTopic: TBD\n\nSpeaker 2: **TBD**\nTopic: TBD"
+    },
+    {
+        "group": "Patna",
+        "repo": "www-chapter-patna",
+        "name": "Session 12 - Understanding and exploiting JWT attacks by Vishal Sharma",
+        "date": "2025-04-26",
+        "time": "12:00+05:30",
+        "link": "https://www.meetup.com/owasp-patna-chapter/events/307404855",
+        "timezone": "Asia/Kolkata",
+        "description": "**OWASP Patna** is pleased to present a session on **Understanding and Exploiting JWT Attacks**, led by security expert **Vishal Sharma**. This session will begin with a foundational overview of JWT Basics & Architecture, setting the stage for a deeper exploration of Common JWT Vulnerabilities & Exploitation techniques. Attendees will have the opportunity to actively participate in an Interactive JWT Challenge, reinforcing their understanding through practical application. Furthermore, the session will include engaging Live Demonstrations of JWT attacks, providing real-world context to the discussed vulnerabilities. Finally, Vishal will showcase Demonstrations of tools commonly used to effectively test for JWT vulnerabilities. This session on **Understanding and Exploiting JWT Attacks** promises to be an insightful and hands-on experience for security professionals and developers looking to strengthen their understanding of JWT security."
     },
     {
         "group": "Peterborough",
