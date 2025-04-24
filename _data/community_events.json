@@ -10,16 +10,6 @@
         "description": "**Overview:**\nOperational technology (OT) perimeters are rapidly emerging as a new frontier for attackers, mirroring the adversarial challenges seen in traditional IT boundaries. This talk explores crucial vulnerability classes and real-world exploitation tacticsaffecting common OT perimeter technologies. We will highlight significant risks and potential impacts of perimeter compromise on industrial environments. Attendees will gain a deeper understanding of the emerging threats at the OT boundary and the exploitation techniques adversaries may leverage.\n\n**Abstract:**\nAttacking IACS: Strategic Industrial Exploitation Industrial Automation and Control Systems (IACS) underpin critical infrastructure worldwide but often rely on outdated security paradigms, which may leave them vulnerable to modern attacks. This presentation explores technical attack methodologies targeting IACS, contrasting them with traditional enterprise network exploitation techniques. Drawing on extensive experience in vulnerability research, exploit development, and red teaming, I will highlight the unique challenges and attacker opportunities presented by IACS environments\u2014such as reliance on legacy technologies, proprietary protocols, and stringent operational constraints.\n\nStructured around the IEC/TR 62443-3-1 standard, this presentation addresses critical gaps in modern security guidance for IACS environments. I will use examples to demonstrate strategic attack opportunities and illustrate how vulnerabilities are exploited differently within industrial settings compared to enterprise environments. Attendees will gain technical insights into the challenges of securing IACS against sophisticated attacks and leave with actionable defense strategies that address current IACS security gaps."
     },
     {
-        "group": "Augsburg",
-        "repo": "www-chapter-augsburg",
-        "name": "11. OWASP Augsburg Stammtisch",
-        "date": "2025-04-23",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/307200649",
-        "timezone": "Europe/Berlin",
-        "description": "In der Fuggerstadt wird IT-SECURITY gro\u00df geschrieben. Egal ob IT-Security-Interessent\\*in, CISO, Hacker/Haeckse, Pentester\\*in, Entwickler\\*in, Netzi, Endanwender\\*in oder whatever - alle sind willkommen. Eine OWASP-Mitgliedschaft ist (nat\u00fcrlich w\u00fcnschenswert, aber) nicht notwendig!\n\n**Wir freuen uns auf neue Gesichter, Stammg\u00e4ste und sporadische Teilnehmer\\*innen :-)**\n\n**Agenda**\n**Vortrag:** \"IAM Benn\u00a1\" ;-)\n\nIn meinem Vortrag m\u00f6chte ich erkl\u00e4ren, was ein IAM ist und warum es sinnvoll ist, sich damit zu besch\u00e4ftigen. Au\u00dferdem m\u00f6chte ich meine Erfahrungen zu diesem Thema mit euch teilen und freue mich auf euer Wissen, eure Fragen und spannende Diskussionen.\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst auch einen Talk halten? Super, wir sind immer auf der Suche nach interessanten Inhalten. Egal ob Vortrag, Diskussion, Idee, Lightning-Talk, etc. Wir dienen auch gerne als Probepublikum :-) Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "May 2025 OWASP Happy Hour sponsored by Levo.ai",
@@ -70,14 +60,14 @@
         "description": "Get ready for an exhilarating **Capture The Flag (CTF)** competition hosted by **OWASP Bhopal**! Whether you're a **cybersecurity enthusiast, ethical hacker, or a beginner**, this event is designed to **test your skills, enhance your knowledge, and challenge your problem-solving abilities**.\nExpect **real-world security challenges** covering **web exploitation, cryptography, forensics, reverse engineering, and more**. Compete with some of the best minds in security, **solve exciting puzzles, and climb the leaderboard** to prove your expertise.\n\n **Who Can Participate?** \u2013 Open to all security enthusiasts, students, professionals, and CTF lovers!\n **What\u2019s in it for You?** \u2013 Hands-on experience, recognition, and bragging rights as a top ethical hacker!\nStay tuned for more details on **registration, format, and prizes!** Are you ready to **Hack, Learn, and Secure**? "
     },
     {
-        "group": "Boulder",
-        "repo": "www-chapter-boulder",
-        "name": "Boulder OWASP April Meetup: Building a Modern AppSec Pipeline",
-        "date": "2025-04-23",
-        "time": "18:00-06:00",
-        "link": "https://www.meetup.com/owasp-boulder/events/307328608",
-        "timezone": "America/Denver",
-        "description": "The OWASP Boulder Chapter is excited to announce our April 2025 Chapter Meeting! Scheduled for Wednesday, April 23rd at the Rule4 office at 6 PM, with complimentary food, beer, and soft drinks. Join us for networking with your peers and a featured talk from [Parker Brissette](https://www.linkedin.com/in/parkerbrissette) presenting:\n\nBuilding a Modern AppSec Pipeline: Continuous Security in the DevSecOps World\n\nIn today's evolving security landscape, traditional approaches fall short. Discover how to build a modern AppSec pipeline for continuous security in the DevSecOps world. We'll tackle the speed vs. security dilemma, explore common bottlenecks, and highlight the cost of late-stage discoveries. Learn the fundamentals of an AppSec pipeline, its integration into CI/CD, and key components like automated scanning, security as code, and vulnerability management.\n\nGain practical insights into implementation strategies, tool selection, and securing buy-in. A real-world case study will showcase tangible benefits and lessons learned. We'll also address common pitfalls like tool overload and cultural resistance. Join us for actionable takeaways and a Q&A to build a resilient and modern AppSec pipeline.\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec Organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:15ish Main Topic Presentation\n7:15ish - 7:30 Q&A and Discussion\n7:30 - 8:00 More Networking"
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "OWASP Cairo Chapter event @ FDC Summit",
+        "date": "2025-04-30",
+        "time": "14:00+03:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/307443563",
+        "timezone": "Africa/Cairo",
+        "description": "Join us for a special OWASP Cairo Chapter meetup in collaboration with ISACA Cairo Chapter, hosted during the region\u2019s premier tech event, the **Future of Digital Countries (FDC) Summit**. This in-person session brings together experts to explore today\u2019s evolving cyber threat landscape and practical strategies to address it.\n\n **Session Lineup:**\n **Session 1:**\n**Speaker:** *Mohamed AbuMuslim*\n**Title:** *New Technologies, New Threats*\nAn exploration into how cutting-edge innovations are opening new threat landscapes and how we can stay ahead.\n\n **Session 2:**\n**Speaker:** *Khalid Battah*\n**Title:** *Application Threat Modeling*\nA hands-on session focused on how to anticipate vulnerabilities early in the development lifecycle using threat modeling techniques.\n\n **Date:** Tuesday, April 30th, 2025\n **Time:** 2:00 PM \u2013 5:00 PM\n **Venue:** Egypt International Exhibition Center (EIEC), Cairo\n **In Collaboration With:** ISACA Cairo Chapter\n **On the Sidelines Of:** FDC Summit 2025\n\nAttendees have to register for FDC summit at https://fdcsummit.org/register?sid=23 (registration is free)"
     },
     {
         "group": "Fortaleza",
@@ -130,16 +120,6 @@
         "description": "** OWASP Klagenfurt Chapter Meetup \u2013 Breaking Free from Big Tech?**\n\nJoin us for our next OWASP Meetup in Klagenfurt, where we dive into a hot and highly relevant topic for developers, security professionals, and tech enthusiasts alike:\n\n**\"How to move away from the dependency on US tech companies \u2013 is it even possible?\"**\n\nIn today\u2019s world, where privacy, sovereignty, and digital independence are more important than ever, we\u2019ll explore how feasible it is to reduce reliance on large US-based tech providers\u2014without compromising on security.\n\n **Interactive Workshop**\nThis time, we\u2019re running a more open and participatory format:\nWe want *you* to share your experience!\nHave you tried moving from Outlook 365 to Proton? Hosting your own services at home? Replacing Google Workspace with open-source alternatives?\nThen we want to hear from you.\n\n You're welcome to send 1\u20132 slides in advance if you'd like to briefly show something. Just reach out!\n **Date:** 5th of May 2025 / 18pm\n **Location:** Klagenfurt \u2013 Makerspace\n **Moderated by:** OWASP Klagenfurt Chapter\n\n **Tentative Agenda:**\n\n* Welcome & intro\n* Brief inputs and shared experiences from participants\n* Open discussion: pros, cons, security implications\n* Wrap-up & networking\n\nThis topic is closely tied to OWASP principles: secure software, transparency, and open collaboration. Let\u2019s explore the risks, opportunities, and real-life stories behind digital independence.\n\n Open to everyone \u2013 whether you're just curious, a seasoned pro, or somewhere in between.\n\nWe\u2019re looking forward to seeing you there! "
     },
     {
-        "group": "London",
-        "repo": "www-chapter-london",
-        "name": "OWASP London Chapter Meetup at Olympia London",
-        "date": "2025-04-23",
-        "time": "17:30+01:00",
-        "link": "https://www.meetup.com/owasp-london/events/307180182",
-        "timezone": "Europe/London",
-        "description": "Register on eventBrite: [https://www.eventbrite.co.uk/e/owasp-london-chapter-meetup-at-olympia-london-tickets-1314471281989?aff=mt](https://www.eventbrite.co.uk/e/owasp-london-chapter-meetup-at-olympia-london-tickets-1314471281989?aff=mt)"
-    },
-    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "Hands-on Workshop OWASP LA - May 13, 2025",
@@ -158,16 +138,6 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/307229106",
         "timezone": "America/Los_Angeles",
         "description": "Proliferation of SaaS, remote work, and global reliance on digital systems for critical operations have forced organizations to abandon traditional security models in favor of Zero Trust. At this summit, participants will explore official CSA CCZT training modules and gain practical insights from industry experts\u2014gaining the knowledge needed to fortify their infrastructures and stay ahead in an ever-evolving threat landscape.\n\nThe summit is designed for IT and security professionals, managers, and decision-makers who want practical insights and frameworks related to Zero Trust cybersecurity"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - Apr 23, 2025",
-        "date": "2025-04-23",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/306091943",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC**: Enhancing Open Source Tools Using AI: A \"No Code\" Journey to Build an Automated DefectDojo Parser Generator\nJoin us for great networking, dinner and drinks, and see a presentation by **Tracy Walker,** Principal Solution Architect, **DefectDojo**\n\n**ABSTRACT**: See a live demonstration of using an AI LLM to accelerate the ability to adopt new, custom or unsupported security tools into DefectDojo, an open-source vulnerability management platform.\n\nThrough live examples, attendees will see a data transformation problem deconstructed into a series of repeatable prompts using an AI LLM to automatically generate 100% of parsing code, detailed documentation, and unit tests while maintaining code quality and existing best practices.\nThe demonstration:\n1) Highlights OWASP feature project DefectDojo,\n2) Is *applicable* to any open source tool or community, and\n3) Is *accessible* to security practitioners or engineers of all technical levels.\n\n**Thanks to our SPONSOR**: *[DefectDojo](https://defectdojo.com/)*\n*DevSecOps, ASPM, Vuln Management - All on one platform!*\n*DefectDojo is the platform and product that enables scalable security through DevSecOps, integrates with 180+ security tools and counting, with a vibrant and active open source community. We also have a Pro Edition for those who are looking to achieve security automation and actionable insights with the smallest lift possible.*\n\n**Thanks to our HOST**: *[HiveWatch](https://www.hivewatch.com/)*\n*Intelligent, efficient, and scalable security*\n*HiveWatch is a cloud-based SaaS platform built for physical security teams to enhance their current security technologies. It streamlines incident response, allows for the consolidation of disparate programs and systems, and reduces false alarms.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*"
     },
     {
         "group": "Melbourne",
@@ -240,16 +210,6 @@
         "description": "**Three Major Threats to Mobile SIM Cards: Swapping, Cloning and Jacking**\n\n**Topic Details:**\n\nThis session explores the world of SIM security, the cornerstone of mobile communication, exploring three critical threats that can compromise Subscriber Identity Module (SIM): SIM Swap, SIM Cloning, and Simjacker. These attacks have significant implications for individuals, organizations, and governments, as they can lead to unauthorized access, financial losses, and reputational damage."
     },
     {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "Virtual Meetup for April: Moving from a Technical Role to a Management Role",
-        "date": "2025-04-23",
-        "time": "12:00-06:00",
-        "link": "https://www.meetup.com/owasp-slc/events/307093194",
-        "timezone": "America/Denver",
-        "description": "Our April meetup will be virtual! Details below:\n\n* Topic: Moving from a Technical Role to a Management Role\n* Date: Wednesday, April 23\n* Discussion Leader: Dan Hamilton\n* Zoom Link: Coming Soon!"
-    },
-    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -298,16 +258,6 @@
         "link": "https://www.meetup.com/owasp-toronto/events/307305805",
         "timezone": "America/Toronto",
         "description": "**\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\***\n**Note for IN-PERSON attendance:**\n\nYou **MUST** register using the [Microsoft Reactor event page](https://aka.ms/May8OWASPxMicrosoftReactor). At doors open time, registered attendees will receive a personalized QR code allowing them to enter. Sorry, **NO walk-ins** for this event.\n\nThe registration will close Tuesday **May 6 at 4:00 PM**.\n\n**Note for ONLINE livestream:**\n\nIf you cannot attend in-person, please join us virtually via the livestream! Details to be announced shortly.\n**\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\***\n\n**Schedule:**\n\n* 5:30 PM: Doors Open\n* 6:00 PM Talk Begins\n* 7:00 PM Q/A & Networking\n\n**Talk Description:**\n\nAI is the ultimate accelerant for application development\u2014its power unmatched\u2014but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session by playing with fire \u2013 Using GPT-driven prompts, we\u2019ll build a fully functional application, and in real time, we\u2019ll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\nThrough hands-on exploration, we\u2019ll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code reviews.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security."
-    },
-    {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "The State of Secure Coding & Secure Coding Tournament",
-        "date": "2025-04-23",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-toronto/events/306889573",
-        "timezone": "America/Toronto",
-        "description": "**Note about In-Person Attendance**\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\nWe will be capping the in-person attendance to **40 people**, on a **first-come, first-serve** basis. This will allow us to effectively facilitate the Secure Coding Tournament at the venue.\n\nDoors will open at **6:00 PM**, with the event will start at **6:30 PM** (EDT).\n\nFor those who cannot attend in person, no worries! Please join us virtually via the Zoom call!\n\n**Event Description**\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\nThe presentation delves into the current state of secure coding practices, focusing on technical aspects and the challenges faced by developers and security professionals. We will highlight prevalent issues such as the increasing complexity of software systems, the evolving nature of cyber threats, and the persistent gap between development and security teams. Emphasizing the importance of integrating security into the software development lifecycle, the discussion covers best practices, common vulnerabilities, and the need for continuous education and collaboration to build a robust approach to secure coding across the industry.\n\nThe presentation will be followed by a Secure Coding Tournament for any interested members. **Bring your laptop to participate!**"
     },
     {
         "group": "Vancouver",
