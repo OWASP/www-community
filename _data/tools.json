@@ -9,6 +9,24 @@
       "type": "SAST"
        },
        {
+      "title": "Mobb",
+      "url": "https://mobb.ai",
+      "owner": "Mobb",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Mobb automatically triage and remediates code vulnerability reported by the leading SAST scanner",
+      "type": "SAST"
+       ,
+       {
+      "title": "Opengrep",
+      "url": "https://github.com/opengrep/opengrep",
+      "owner": "Mobb",
+      "license": "Open Source",
+      "platforms": "Docker, Windows, Linux",
+      "note": "Opengrep is an ultra-fast static analysis tool for searching code patterns with the power of semantic grep. Analyze large code bases at the speed of thought with intuitive pattern matching and customizable rules. Opengrep is a fork of Semgrep, created by Semgrep Inc. Opengrep is not affiliated with or endorsed by Semgrep Inc.",
+      "type": "SAST"
+       },
+       {
       "title": "joern",
       "url": "https://joern.io/",
       "owner": "joernio",
