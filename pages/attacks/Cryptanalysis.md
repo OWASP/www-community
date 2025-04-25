@@ -21,7 +21,7 @@ applied that makes cryptanalysis successful. An attacker may have other
 goals as well, such as:
 
 - Total Break - Finding the secret key.
-- Gobal Deduction - Finding a functionally equivalent algorithm for encryption and decryption that does not require knowledge of the secret key.
+- Global Deduction - Finding a functionally equivalent algorithm for encryption and decryption that does not require knowledge of the secret key.
 - Information Deduction - Gaining some information about plaintexts or ciphertexts that was not previously known.
 - Distinguishing Algorithm - The attacker has the ability to distinguish the output of the encryption (ciphertext) from a random permutation of bits.
 
