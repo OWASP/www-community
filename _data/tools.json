@@ -2132,5 +2132,14 @@
       "platforms": "SaaS",
       "note": "ResilientX UEM provides an All-in-One Continuous Testing and Monitoring solution, by integrating ASM, DAST, CSPM",
       "type": "DAST"
+   },
+   {
+      "title": "Agentic Radar",
+      "url": "https://github.com/splx-ai/agentic-radar",
+      "owner": "SplxAI",
+      "license": "Free",
+      "platforms": "Windows, Linux, MacOS",
+      "note": "Open-source CLI security scanner for agentic AI workflows. Scans your workflow’s source code, detects vulnerabilities, and generates an interactive visualization along with a detailed security report. Supports popular agentic frameworks like LangGraph, CrewAI, n8n, OpenAI Agents, and more.",
+      "type": "SAST"
    }
 ]
