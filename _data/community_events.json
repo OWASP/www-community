@@ -60,6 +60,16 @@
         "description": "Join us for a special OWASP Cairo Chapter meetup in collaboration with ISACA Cairo Chapter, hosted during the region\u2019s premier tech event, the **Future of Digital Countries (FDC) Summit**. This in-person session brings together experts to explore today\u2019s evolving cyber threat landscape and practical strategies to address it.\n\n **Session Lineup:**\n **Session 1:**\n**Speaker:** *Mohamed AbuMuslim*\n**Title:** *New Technologies, New Threats*\nAn exploration into how cutting-edge innovations are opening new threat landscapes and how we can stay ahead.\n\n **Session 2:**\n**Speaker:** *Khalid Battah*\n**Title:** *Application Threat Modeling*\nA hands-on session focused on how to anticipate vulnerabilities early in the development lifecycle using threat modeling techniques.\n\n **Date:** Tuesday, April 30th, 2025\n **Time:** 2:00 PM \u2013 5:00 PM\n **Venue:** Egypt International Exhibition Center (EIEC), Cairo\n **In Collaboration With:** ISACA Cairo Chapter\n **On the Sidelines Of:** FDC Summit 2025\n\nAttendees have to register for FDC summit at https://fdcsummit.org/register?sid=23 (registration is free)"
     },
     {
+        "group": "Cotonou",
+        "repo": "www-chapter-cotonou",
+        "name": "L'IA et la vie priv\u00e9e : Comment \u00e9viter les fuites de donn\u00e9es",
+        "date": "2025-05-02",
+        "time": "16:00+01:00",
+        "link": "https://www.meetup.com/owasp-cotonou-chapter/events/307528114",
+        "timezone": "Africa/Porto-Novo",
+        "description": "**Ce pr\u00e9sent meeting a pour th\u00e8me \u201c l\u2019'IA et la vie priv\u00e9e : Comment \u00e9viter les fuites de donn\u00e9es ?\u201d permettra de sensibiliser les participants sur les dangers \u00e0 exposer des donn\u00e9es \u00e0 caract\u00e8re personnel aux IA g\u00e9n\u00e9ratives.**\n**Ce serait l\u2019occasion pour des professionnels de la s\u00e9curit\u00e9 et des entrepreneurs de d\u00e9battre sur ce th\u00e8me tr\u00e8s important dans la lutte que nous menons pour la s\u00e9curisation du cyberespace b\u00e9ninois.**"
+    },
+    {
         "group": "Fortaleza",
         "repo": "www-chapter-fortaleza",
         "name": "OWASP Fortaleza - Chapter Meetup 2025.1",
@@ -68,6 +78,16 @@
         "link": "https://www.meetup.com/owasp-fortaleza/events/307083615",
         "timezone": "America/Fortaleza",
         "description": "Anunciamos oficialmente nosso primeiro encontro em 2025 da comunidade OWASP Fortaleza.\n\nGaranta sua vaga.\n\n**Teremos:**\nPalestras,\nSorteios\n\nEm breve mais informa\u00e7\u00f5es."
+    },
+    {
+        "group": "Harrisburg",
+        "repo": "www-chapter-harrisburg",
+        "name": "OWASP Harrisburg - Hello, World!",
+        "date": "2025-05-28",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-harrisburg/events/306908330",
+        "timezone": "America/New_York",
+        "description": "*print(\"Hello, World!\")*\n\nJoin us for our inaugural OWASP Harrisburg chapter meetup as we connect, outline our goals, and brainstorm upcoming topics and activities. Help shape the direction of this new community from day one and be part of building a stronger, more secure future!\n\n*Our events are free and open to everyone. You don't have to be an OWASP member or hold a cybersecurity or software development role to* *attend!*"
     },
     {
         "group": "Heilbronn",
@@ -98,6 +118,16 @@
         "link": "https://www.meetup.com/owasp-klagenfurt-chapter/events/306917180",
         "timezone": "Europe/Vienna",
         "description": "** OWASP Klagenfurt Chapter Meetup \u2013 Breaking Free from Big Tech?**\n\nJoin us for our next OWASP Meetup in Klagenfurt, where we dive into a hot and highly relevant topic for developers, security professionals, and tech enthusiasts alike:\n\n**\"How to move away from the dependency on US tech companies \u2013 is it even possible?\"**\n\nIn today\u2019s world, where privacy, sovereignty, and digital independence are more important than ever, we\u2019ll explore how feasible it is to reduce reliance on large US-based tech providers\u2014without compromising on security.\n\n **Interactive Workshop**\nThis time, we\u2019re running a more open and participatory format:\nWe want *you* to share your experience!\nHave you tried moving from Outlook 365 to Proton? Hosting your own services at home? Replacing Google Workspace with open-source alternatives?\nThen we want to hear from you.\n\n You're welcome to send 1\u20132 slides in advance if you'd like to briefly show something. Just reach out!\n **Date:** 5th of May 2025 / 18pm\n **Location:** Klagenfurt \u2013 Makerspace\n **Moderated by:** OWASP Klagenfurt Chapter\n\n **Tentative Agenda:**\n\n* Welcome & intro\n* Brief inputs and shared experiences from participants\n* Open discussion: pros, cons, security implications\n* Wrap-up & networking\n\nThis topic is closely tied to OWASP principles: secure software, transparency, and open collaboration. Let\u2019s explore the risks, opportunities, and real-life stories behind digital independence.\n\n Open to everyone \u2013 whether you're just curious, a seasoned pro, or somewhere in between.\n\nWe\u2019re looking forward to seeing you there! "
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "OWASP LA Monthly In-Person Meeting - May 28, 2025",
+        "date": "2025-05-28",
+        "time": "17:30-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/306589704",
+        "timezone": "America/Los_Angeles",
+        "description": "**TOPIC:** Adversarial Intelligence: Redefining Application\nJoin us for great networking, dinner and drinks, and see a presentation by **Roy Talyosef,** Founding Engineer, **Kodem Security**\n\n**ABSTRACT:**\nThis presentation explores Adversarial Intelligence - an approach that views application security from an attacker\u2019s perspective. Drawing from vulnerability research experience at the NSO Group and building Pegasus, the speaker will highlight how overlooked low and medium vulnerabilities can be combined to execute successful attacks. By examining attack chains and application runtime behavior, attendees will see how gaps often missed by traditional methods are exposed. Attendees will learn about effective tools and techniques for detecting and mitigating these threats, especially in cloud-native and distributed systems. Designed for security practitioners and academics, this session provides a deeper understanding of defending against sophisticated attackers by adopting their mindset.\n\n**Thanks to our SPONSOR**: *[Kodem Security](https://www.kodemsecurity.com/)*\n*The AppSec chase is over.*\n*Swap endless alerts with focused action. Simplify the remediation of your most exploitable issues through runtime security.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Los Angeles",
@@ -188,6 +218,16 @@
         "link": "https://www.meetup.com/owasp-seoul/events/307060143",
         "timezone": "Asia/Seoul",
         "description": " OWASP Seoul Chapter 2025  1   !\n\n      **Non-Human Identity **,     **   ** , OWASP      . ,   **OWASP Top 10 for LLM Applications 2025  **  .\n\n   ( 1 40)\n**19:30 \\~ 19:45 (15)**\n *   *\n\n* OWASP Seoul Chapter \n* OWASP Seoul Chapter   \n* OWASP Top 10 for LLM Applications 2025   \n\u200d  Leader (OWASP Seoul Chapter)\n\n**19:45 \\~ 20:25 (40)**\n #1: **Non Human Identity Top 10 **\n\n* OWASP NHI Top 10     \n* API Key,     \n\u200d   (Cremit)\n\n**20:25 \\~ 21:05 (40)**\n #2: **    101**\n\n*    \n*     \n\u200d  Staff Security Engineer ()\n\n**21:05 \\~ 21:10 (5)**\n Q&A  \n\n  \n\n*  : 2025 4 29() 19:30 \\~ 21:10 (KST)\n*  :  (Zoom    )\n*  :  , , DevOps ,    \n*  : \n\n , AI     !\n [OWASP  ](https://owasp.org/www-chapter-seoul/)  .\n#OWASP #OWASP_Seoul #Top10 #NonHumanIdentity #BugBounty #LLM #DevSecOps #Cremit #Sendbird"
+    },
+    {
+        "group": "Sofia",
+        "repo": "www-chapter-sofia",
+        "name": "OWASP Sofia - May 2025 Meetup",
+        "date": "2025-05-28",
+        "time": "19:00+03:00",
+        "link": "https://www.meetup.com/owasp-sofia-chapter/events/307509140",
+        "timezone": "Europe/Sofia",
+        "description": "\u0414\u043e\u0431\u0440\u0435 \u0434\u043e\u0448\u043b\u0438 \u0432 \u043c\u0435\u0441\u0435\u0447\u043d\u0430\u0442\u0430 \u043d\u0438 \u0441\u0431\u0438\u0440\u043a\u0430 \u043d\u0430 OWASP Sofia!\n\n\u0421 \u043f\u0440\u043e\u043b\u0435\u0442\u043d\u043e \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0435 \u0432\u043b\u0438\u0437\u0430\u043c\u0435 \u0432 \u043c\u0430\u0439\u0441\u043a\u043e\u0442\u043e \u0441\u044a\u0431\u0438\u0442\u0438\u0435 \u043d\u0430 OWASP Sofia Chapter. \u041e\u0442\u043d\u043e\u0432\u043e \u0441\u043c\u0435 \u043f\u043e\u0434\u0433\u043e\u0442\u0432\u0438\u043b\u0438 \u0441\u0442\u0440\u0430\u0445\u043e\u0442\u043d\u0438 \u0442\u0435\u043c\u0438 \u0441\u0432\u044a\u0440\u0437\u0430\u043d\u0438 \u0441 threat modeling, CVSS \u0438 .NET Reflection.\n\n\u041b\u044e\u0431\u0435\u0437\u0435\u043d \u0434\u043e\u043c\u0430\u043a\u0438\u043d\u0438 \u043d\u0430 \u0441\u044a\u0431\u0438\u0442\u0438\u0435\u0442\u043e \u0449\u0435 \u0431\u044a\u0434\u0435 [Progress](https://www.progress.com/) \u200d\n\n**\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0430 \u0437\u0430 28 \u041c\u0430\u0439 2025**\n\n* 19:00 - \u041d\u0430\u0447\u0430\u043b\u043e \u0438 \u0432\u044a\u0432\u0435\u0434\u0435\u043d\u0438\u0435 - [\u0422\u043e\u0434\u043e\u0440 \u0422\u043e\u0434\u043e\u0440\u043e\u0432](https://todorov.bg) & @ [Payhawk](payhawk.com)\n* 19:15 - \u0418\u0432\u0430\u043d \u0418\u0432\u0430\u043d\u043e\u0432 @ [Progress](https://www.progress.com/) - **\"How to fail with .NET reflection 101\"**\n* 20:00 - [\u0419\u043e\u0440\u0434\u0430\u043d \u041f\u043e\u043f\u043e\u0432 (Dan Ny)](https://www.linkedin.com/in/dan-ny/) @ [Scalefocus](https://www.scalefocus.com/) - **\"Effective Threat Modelling\"**\n* 20:45 - [\u041c\u0430\u0440\u0442\u0438\u043d \u0413\u0435\u043e\u0440\u0433\u0438\u0435\u0432](https://www.linkedin.com/in/martin-georgiev/) @ [VMWare Carbon Black](https://www.broadcom.com/products/carbon-black) - **\"Scoring Vulnerabilities using CVSS\"**\n* 21:30 - Q&A / Networking\n* 22:00 - \u0417\u0430\u043a\u0440\u0438\u0432\u0430\u043d\u0435\n\n\u0421\u044a\u0431\u0438\u0442\u0438\u0435\u0442\u043e \u0449\u0435 \u0441\u0435 \u043f\u0440\u043e\u0432\u0435\u0434\u0435 \u043d\u0430 \u0436\u0438\u0432\u043e \u0432 \u043e\u0444\u0438\u0441\u0430 \u043d\u0430 [Progress](https://maps.app.goo.gl/unHVZspnrL83gLq79). \u0410\u043a\u043e \u0436\u0435\u043b\u0430\u0435\u0442\u0435 \u0434\u0430 \u0441\u043f\u043e\u0434\u0435\u043b\u0438\u0442\u0435 \u043d\u0435\u0449\u043e \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e \u0441\u0432\u044a\u0440\u0437\u0430\u043d\u0438 \u0441 \u0423\u0435\u0431 \u0421\u0438\u0433\u0443\u0440\u043d\u043e\u0441\u0442, \u043c\u043e\u043b\u044f \u0438\u0437\u043f\u0440\u0430\u0442\u0435\u0442\u0435 \u043d\u0438 \u0432\u0430\u0448\u0430\u0442\u0430 \u0441\u0435\u0441\u0438\u044f \u043d\u0430 [https://sessionize.com/owasp-sofia/](https://sessionize.com/owasp-sofia/)\n\n\u041e\u0447\u0430\u043a\u0432\u0430\u043c\u0435 \u0432\u0438!"
     },
     {
         "group": "Tampa",
