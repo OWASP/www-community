@@ -10,6 +10,16 @@
         "description": "This event will be hosted by and at Systematic.\n\nMore info coming but reach out if you would like to be a host or do a presentation"
     },
     {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Hacking AWS IAM: Live Walkthrough",
+        "date": "2025-05-29",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/307356952",
+        "timezone": "America/New_York",
+        "description": "Identity and access management in the cloud remains the most fertile ground for high-value exploitations. So why is it still the least understood part of AWS? For starters, the way RBAC was implemented in the public cloud created a series of unintended consequences (role proliferation, etc) that confound security. Add to that how confusing the interconnecting IAM policy logic tree is. Then consider most are trying to understand \u2018identity\u2019 in the cloud as something akin to human credentials\u2026 when it\u2019s far from that. Add it all together, and you have the beautiful mess we\u2019re trying to manage today.\n\nJeff Moncrief\u2019s been puzzling through the how and why of cloud IAM for the past few years. He found the best way to learn IAM is to just break it. Join Jeff as he deploys his \u2018IAM walker\u2019 script and shows the holes in a typical AWS environment, moves laterally from a typically ec2 exploit, abuses privilege escalation, steals data, and exfiltrates successfully without detection. Along the way, he\u2019ll discuss:\n\n* Why we misunderstand the purpose of IAM in AWS\n* Rethinking IAM responsibilities of devs vs. security without breaking workloads\n* Different control points in AWS, like implementing service-level security and designating \u2018sensitive permissions\u2019"
+    },
+    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - May 2025 (Online)",
@@ -28,16 +38,6 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/307410856",
         "timezone": "America/Chicago",
         "description": "**When:** Thursday, May 8th, 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** Levo.ai\n*Levo.ai is an API Security Platform that automatically and continuously discovers, documents, tests, and monitors APIs\u2014essential practices endorsed by OWASP and compliance frameworks like PCI.*\n\n*Founded by an Engineering Leader Buchi Reddy Busi Reddy, tackles the root cause of security incidents\u2014insecure code\u2014 by integrating visibility and security testing early in the development cycle.*"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - April 2025 (Online)",
-        "date": "2025-04-29",
-        "time": "11:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489295",
-        "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nWe are meeting at NI! The chapter would like for folks to attend personally if possible! **Please do not pull an in-person ticket if you are only attending online, we order food for every in-person ticket the Friday before the meeting and we do not want to waste food by over ordering and wasting donated money.**\n\nIf you would like to register for in-person attendence, please see the [Eventbrite](https://owasp-austin-2025-april.eventbrite.com)\n\nPlease be aware that we open the meeting 30 minutes prior to the beginning of presentations. So 30 minutes of meet-and-greet and free discussion, then onto OWASP and Chapter information, then ..\n\n### **Presentation:**\n\n### ***Building the Next Generation in AppSec***\n\nToday's challenges cannot be solved with yesterday's methods. There is a great need for a new generation of skilled appsec professionals, but there are few entry-level jobs and places to learn. That needs to change. This session will talk about work Robert has done with several different universities (University of Southern California, University of Arizona, Arizona State University, and Grand Canyon University) to help bring application security awareness to students in a variety of fashions and some of the ways this helps them find work after graduation. Particular attention will be given to work as part of the CHOPS (CyberSecurity Hands On Problem Solving) certification program at Arizona State, and to work done with USC related to their MBV program.\n\n### **Speaker:**\n\n**Robert Cuddy**"
     },
     {
         "group": "Bhopal",
@@ -182,6 +182,16 @@
     {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
+        "name": "Monthly Networking Social: Bowling! ",
+        "date": "2025-05-29",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-peterborough/events/305916111",
+        "timezone": "Europe/London",
+        "description": "**What & Where?**\n\n* Bowling @ Peterborough Bowl!\n\n**When?**\n\n* \\- Thursday 29th May\n\nEverybody welcome! For this event, please respond on Whatsapp and update your MeetUp attendance as pre-payment may be required.\n\nThank you,\nRyan & Mark"
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
         "name": "Get into Cyber Security",
         "date": "2025-04-30",
         "time": "17:30+01:00",
@@ -208,16 +218,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/306142417",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seoul",
-        "repo": "www-chapter-seoul",
-        "name": " OWASP Seoul Chapter : Non-Human Identity &   ",
-        "date": "2025-04-29",
-        "time": "19:30+09:00",
-        "link": "https://www.meetup.com/owasp-seoul/events/307060143",
-        "timezone": "Asia/Seoul",
-        "description": " OWASP Seoul Chapter 2025  1   !\n\n      **Non-Human Identity **,     **   ** , OWASP      . ,   **OWASP Top 10 for LLM Applications 2025  **  .\n\n   ( 1 40)\n**19:30 \\~ 19:45 (15)**\n *   *\n\n* OWASP Seoul Chapter \n* OWASP Seoul Chapter   \n* OWASP Top 10 for LLM Applications 2025   \n\u200d  Leader (OWASP Seoul Chapter)\n\n**19:45 \\~ 20:25 (40)**\n #1: **Non Human Identity Top 10 **\n\n* OWASP NHI Top 10     \n* API Key,     \n\u200d   (Cremit)\n\n**20:25 \\~ 21:05 (40)**\n #2: **    101**\n\n*    \n*     \n\u200d  Staff Security Engineer ()\n\n**21:05 \\~ 21:10 (5)**\n Q&A  \n\n  \n\n*  : 2025 4 29() 19:30 \\~ 21:10 (KST)\n*  :  (Zoom    )\n*  :  , , DevOps ,    \n*  : \n\n , AI     !\n [OWASP  ](https://owasp.org/www-chapter-seoul/)  .\n#OWASP #OWASP_Seoul #Top10 #NonHumanIdentity #BugBounty #LLM #DevSecOps #Cremit #Sendbird"
     },
     {
         "group": "Sofia",
