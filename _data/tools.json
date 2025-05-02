@@ -1,5 +1,14 @@
 [
        {
+       "title": "Astrée",
+       "url": "https://www.absint.com/astree/index.htm",
+       "owner": "AbsInt Angewandte Informatik GmbH",
+       "license": "Commercial",
+       "platforms": "Windows and Linux",
+       "note": "Astrée is a sound static analyzer designed to prove the absence of runtime errors and further critical program defects, including code-level cybersecurity vulnerabilities like buffer overflows, data races, etc. It is based on abstract interpretation, a provably correct formal method. Astrée supports C and C++.",
+       "type": "SAST"
+       },
+       {
       "title": "ZeroPath",
       "url": "https://zeropath.com/",
       "owner": "ZeroPath",
