@@ -70,16 +70,6 @@
         "description": "Vectors are the lego brick of the current ML/AI hype cycle. The problem is, MANY people misunderstand what vectors are, and without this foundational footing everything crumbles. AI projects have an astonishing 80% failure rate and many vendor products might not function properly. If they wish, attendees of this talk can play along with Mick with interactive demos\\*. You can take these demos after the talk with you too.\n\n\\* if you want to do the demos live you will need a tablet or laptop computer and a Google account."
     },
     {
-        "group": "Cotonou",
-        "repo": "www-chapter-cotonou",
-        "name": "L'IA et la vie priv\u00e9e : Comment \u00e9viter les fuites de donn\u00e9es",
-        "date": "2025-05-02",
-        "time": "16:00+01:00",
-        "link": "https://www.meetup.com/owasp-cotonou-chapter/events/307528114",
-        "timezone": "Africa/Porto-Novo",
-        "description": "**Ce pr\u00e9sent meeting a pour th\u00e8me \u201c l\u2019'IA et la vie priv\u00e9e : Comment \u00e9viter les fuites de donn\u00e9es ?\u201d permettra de sensibiliser les participants sur les dangers \u00e0 exposer des donn\u00e9es \u00e0 caract\u00e8re personnel aux IA g\u00e9n\u00e9ratives.**\n**Ce serait l\u2019occasion pour des professionnels de la s\u00e9curit\u00e9 et des entrepreneurs de d\u00e9battre sur ce th\u00e8me tr\u00e8s important dans la lutte que nous menons pour la s\u00e9curisation du cyberespace b\u00e9ninois.**"
-    },
-    {
         "group": "Delaware",
         "repo": "www-chapter-delaware",
         "name": "MetaCTF May 2025 Flash CTF",
@@ -138,6 +128,16 @@
         "link": "https://www.meetup.com/owasp-klagenfurt-chapter/events/306917180",
         "timezone": "Europe/Vienna",
         "description": "** OWASP Klagenfurt Chapter Meetup \u2013 Breaking Free from Big Tech?**\n\nJoin us for our next OWASP Meetup in Klagenfurt, where we dive into a hot and highly relevant topic for developers, security professionals, and tech enthusiasts alike:\n\n**\"How to move away from the dependency on US tech companies \u2013 is it even possible?\"**\n\nIn today\u2019s world, where privacy, sovereignty, and digital independence are more important than ever, we\u2019ll explore how feasible it is to reduce reliance on large US-based tech providers\u2014without compromising on security.\n\n **Interactive Workshop**\nThis time, we\u2019re running a more open and participatory format:\nWe want *you* to share your experience!\nHave you tried moving from Outlook 365 to Proton? Hosting your own services at home? Replacing Google Workspace with open-source alternatives?\nThen we want to hear from you.\n\n You're welcome to send 1\u20132 slides in advance if you'd like to briefly show something. Just reach out!\n **Date:** 5th of May 2025 / 18pm\n **Location:** Klagenfurt \u2013 Makerspace\n **Moderated by:** OWASP Klagenfurt Chapter\n\n **Tentative Agenda:**\n\n* Welcome & intro\n* Brief inputs and shared experiences from participants\n* Open discussion: pros, cons, security implications\n* Wrap-up & networking\n\nThis topic is closely tied to OWASP principles: secure software, transparency, and open collaboration. Let\u2019s explore the risks, opportunities, and real-life stories behind digital independence.\n\n Open to everyone \u2013 whether you're just curious, a seasoned pro, or somewhere in between.\n\nWe\u2019re looking forward to seeing you there! "
+    },
+    {
+        "group": "London",
+        "repo": "www-chapter-london",
+        "name": "OWASP London Chapter Meetup",
+        "date": "2025-05-19",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-london/events/307603231",
+        "timezone": "Europe/London",
+        "description": "**This event is kindly hosted by Civo Tech Junction and sponsored by Endor Labs . There is limited seating available for in-person attendees. Registration required.**\n**This event will be live-streamed on YouTube.**\n**Recordings will be available on the OWASP London YouTube channel.**\n\n**Venue Location**: Civo Tech Junction, First Floor, 32-37 Cowper Street, London, EC2A 4AW\n**Nearest Tube:** Old Street (Northern Line), Cowper Street exit - 1 min walk\n**Doors Open at 6pm** for registration, pizza, drinks and networking. The talks start at 6:30pm (we start on time!).\n\n**TALKS:**\n\n**OWASP Introduction, Welcome and News** \\- Sam Stepanyan\\, Andra Lezza\\, Sherif Mansour \\- OWASP London Chapter Leaders\n\n\"**Attacks on Open Source Supply Chains: How Hackers Poison the Well**\" - **Henrik Plate**\n\nThe ubiquitous use of open source during software development makes it an interesting and valuable target for software supply chain attacks, where\nattackers inject malicious code in upstream open source projects such that it is executed by software developers or end users down the line. This talk provides an overview about common attack vectors, illustrated by real-world examples, and sheds some light on countermeasures.\n\n**\"Introducing the OWASP SocialOSINTLM Project\" - Brenden Miller**\n\n**SocialOSINTLM** is a powerful Python-based tool designed for Open Source Intelligence (OSINT) gathering and analysis. It aggregates and analyzes user activity across multiple social media platforms, including Twitter / X, Reddit, Hacker News (via Algolia), Mastadon and Bluesky. Leveraging AI through the OpenRouter API, it provides comprehensive insights into user engagement, content themes, behavioral patterns, and media content analysis.\n\n**Talk - TBA**\n\n**RAFFLE - win a prize kindly donated by our sponsors!**\n\n**SPEAKERS**\n\n**Henrik Plate**\n\nHenrik Plate is the principal security researcher at Endor Labs. He formerly worked for SAP Security Research, where he established and led the focus topic \u201cOpen Source Security\u201d starting 2014. He co-authored academic papers on this topic, presented at academic and industry conferences like the RSA, and started several open source projects in this space. He earned his PhD in 2024 from the University of Rennes, France, with a thesis titled \u201cOn the Security Risks of Open Source Consumption\u201d, and holds a CISSP certification\n\n**Brenden Miller**\n\nBrenden Miller is a Cyber Security Consultant at Accenture UK & Ireland, bringing a wealth of experience in cloud engineering, site reliability, and systems administration to his role\n\n**Speaker 3 - To Be Announced**\n\n**TICKETS:**\nOWASP meetups are free and open to anyone interested in application security. Please note that you MUST book your place to be admitted to the event by the building security.\n\n**CODE OF CONDUCT:**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. OWASP Code Of Conduct: [https://owasp.org/www-policy/operational/code-of-conduct](https://owasp.org/www-policy/operational/code-of-conduct)"
     },
     {
         "group": "Los Angeles",
@@ -228,16 +228,6 @@
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/306633472",
         "timezone": "America/Phoenix",
         "description": "**Beyond LLMs: Securing the AI/ML Pipeline and Analyzing CVEs in Modern AI Tools**\n\n* Security challenges across the ML lifecycle (data collection, model training, deployment, inference).\n* Evolving threats beyond LLMs, including traditional ML models and autonomous agents.\n* Insights from CVE analysis of real-world AI/ML tools."
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Security Social Lunch Hours",
-        "date": "2025-05-14",
-        "time": "12:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/306142417",
-        "timezone": "America/Los_Angeles",
-        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Sofia",
