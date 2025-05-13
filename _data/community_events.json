@@ -157,7 +157,7 @@
         "time": "17:30-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/306589704",
         "timezone": "America/Los_Angeles",
-        "description": "**TOPIC:** Adversarial Intelligence: Redefining Application\nJoin us for great networking, dinner and drinks, and see a presentation by **Roy Talyosef,** Founding Engineer, **Kodem Security**\n\n**ABSTRACT:**\nThis presentation explores Adversarial Intelligence - an approach that views application security from an attacker\u2019s perspective. Drawing from vulnerability research experience at the NSO Group and building Pegasus, the speaker will highlight how overlooked low and medium vulnerabilities can be combined to execute successful attacks. By examining attack chains and application runtime behavior, attendees will see how gaps often missed by traditional methods are exposed. Attendees will learn about effective tools and techniques for detecting and mitigating these threats, especially in cloud-native and distributed systems. Designed for security practitioners and academics, this session provides a deeper understanding of defending against sophisticated attackers by adopting their mindset.\n\n**Thanks to our SPONSOR**: *[Kodem Security](https://www.kodemsecurity.com/)*\n*The AppSec chase is over.*\n*Swap endless alerts with focused action. Simplify the remediation of your most exploitable issues through runtime security.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
+        "description": "**/\\*\\* NOTE NEW LOCATION \\*\\*/**\n**TOPIC:** Adversarial Intelligence: Redefining Application\nJoin us for great networking, dinner and drinks, and see a presentation by **Chris Arciaga,** Account Executive, **Kodem Security**\n\n**ABSTRACT:**\nThis presentation explores Adversarial Intelligence - an approach that views application security from an attacker\u2019s perspective. Drawing from vulnerability research experience at the NSO Group and building Pegasus, the speaker will highlight how overlooked low and medium vulnerabilities can be combined to execute successful attacks. By examining attack chains and application runtime behavior, attendees will see how gaps often missed by traditional methods are exposed. Attendees will learn about effective tools and techniques for detecting and mitigating these threats, especially in cloud-native and distributed systems. Designed for security practitioners and academics, this session provides a deeper understanding of defending against sophisticated attackers by adopting their mindset.\n\n**Thanks to our SPONSOR**: *[Kodem Security](https://www.kodemsecurity.com/)*\n*The AppSec chase is over.*\n*Swap endless alerts with focused action. Simplify the remediation of your most exploitable issues through runtime security.*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Los Angeles",
@@ -228,6 +228,16 @@
         "link": "https://www.meetup.com/owasp-pittsburgh-chapter/events/307703419",
         "timezone": "America/New_York",
         "description": "**The Dark side of AI: Developing unsecure applications in minutes!**\n\nAI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deepunderstanding of how to:\nRecognize and assess the risks AI introduces in your code.\nImplement secure coding practices and enforce security policies.\nIntegrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security.\n\nChris Lindsey: https://www.linkedin.com/in/chris-lindsey-39b3915/"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2025-06-11",
+        "time": "12:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/306142420",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
     },
     {
         "group": "Sofia",
@@ -302,6 +312,16 @@
     {
         "group": "Samm",
         "repo": "www-project-samm",
+        "name": "June community call - OWASP SAMM",
+        "date": "2025-06-11",
+        "time": "15:30-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/306053408",
+        "timezone": "America/New_York",
+        "description": "During our next community call we'll share project updates and, as always, we'll have time for Q&A. See you there!"
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
         "name": "OWASP SAMM Community Call (Europe-Asia)",
         "date": "2025-05-16",
         "time": "08:00-04:00",
@@ -317,6 +337,6 @@
         "time": "15:30-04:00",
         "link": "https://www.meetup.com/owasp-samm/events/306053400",
         "timezone": "America/New_York",
-        "description": "During our next community call we'll share project updates and, as always, we'll have time for Q&A. See you there!"
+        "description": "During our next community call we'll have a podcast-like talk on Architecture Assessment including, of course, time for Q&A. See you there!"
     }
 ]
