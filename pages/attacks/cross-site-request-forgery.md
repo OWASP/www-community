@@ -55,9 +55,7 @@ Rails](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-cs
 and others.
 
 Use [OWASP CSRF Guard](/www-project-csrfguard/) to
-add CSRF protection to your Java applications. You can use
-[CSRFProtector Project](/www-project-csrfprotector/) to protect
-your PHP applications or any project deployed using Apache Server.
+add CSRF protection to your Java applications.
 
 John Melton also has an [excellent blog
 post](http://www.jtmelton.com/2010/05/16/the-owasp-top-ten-and-esapi-part-6-cross-site-request-forgery-csrf/)
