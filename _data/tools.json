@@ -1399,8 +1399,8 @@
       "url": "https://derscanner.com/",
       "owner": "DerScanner Ltd.",
       "license": "Commercial",
-      "platforms": null,
-      "note": "Capable of identifying vulnerabilities and backdoors (undocumented features) in over 30 programming languages by analyzing source code or executables, without requiring debug info.",
+      "platforms": "SaaS or On-Premises",
+      "note": "DerScanner is an AI-powered application security testing platform suitable for air-gapped environments. It combines SAST, DAST, IAST, MAST, SCA, and binary analysis into a unified solution, securing modern and legacy applications with support for 43 programming languages.",
       "type": "SAST"
    },
    {
