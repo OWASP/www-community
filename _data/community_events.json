@@ -120,16 +120,6 @@
         "description": "In the true spirit of \"We changed the W from Web to Worldwide\" we have a talk that seems way out of the usual Application Security talk to discuss threats to bioinformatics and the manufacturing process. If you are thinking \"Wait, what does that have to do with application security, Bill?\" the answer is ... everything.\n\nThis talk outlines several challenges inherent to the biomanufacturing industry, such as the poorly understood and highly dynamic nature of biomanufacturing processes. Instruments critical to assessing quality and safety are described as among the least defensible apparatus humanity has ever built, leaving the sector exposed to adversarial threats. Despite recent progress in bioengineering, the explainability of these manufacturing processes is still built on fragile foundations.\n\nTo address these issues, Peter suggests moving away from flawed traditional methods of assessment and adopting physics-based probabilistic models, which offer better assurance and explainability. he emphasizes the importance of formal methods to ensure reliability and manage risks without completely rebuilding the system. Additionally, he advocates for accepting manageable risks and enhancing manufacturing trust through practical, science-based solutions."
     },
     {
-        "group": "Delaware",
-        "repo": "www-chapter-delaware",
-        "name": "MetaCTF May 2025 Flash CTF",
-        "date": "2025-05-22",
-        "time": "17:00-04:00",
-        "link": "https://www.meetup.com/owasp-delaware-chapter/events/307573765",
-        "timezone": "America/New_York",
-        "description": "This free capture the flag (CTF) event is hosted by MetaCTF.com, and will cover challenges in Web Exploitation, Forensics, and more.\n\nThere will be 5 challenges, and you will have 2 hours to solve as many as you can.\n\nParticipation is individual and free to enter. Although participation is individual, OWASP Delaware will have a **private scoreboard.** #fancy\n\nStep 0) To join the private scoreboard **RSVP at Meetup** (a.k.a. \"Attend\") this event. You will see the scoreboard key upon RSVP.\nStep 1) Then **register for the CTF** at [https://mctf.io/may2025](https://mctf.io/may2025)\nStep 2) From the MetaCTF Dashboard, click \"**Compete**\" next to the May 2025 event to access the CTF site.\nStep 3) Go to the \"Scoreboard\" page and click \"**+ Join a Scoreboard**\". You will be able to enter the private scoreboard key (from Step 0).\nStep 4) During the event join the **OWASP Delaware Discord** (below) to boast of p0wnage, or to ask for help.\n\nFor practice, check out the challenges **and solutions** from a previous Flash CTF at [https://mctf.io/practice](https://mctf.io/practice). #TheMoreYouKnow\n\nBTW - I was told the private scoreboard key will also work for the (past) April Flash CTF.\n\nDuring the event we can chat on the **OWASP Delaware Discord**. Don't know where that is? DM me or another OWASP Delaware chapter co-lead for details.\n\nDisclaimer I saw on the MetaCTF practice CTF: \"*By signing up for this CTF, you consent to be contacted by MetaCTF or sponsors about their services.*\" \u00af\\\\_()_/\u00af\n\nPS: This event **might** get an **optional physical location** for those that want to collab IRL. Standby for emails via Meetup for more details (sent to those that RSVP here at Meetup for this event)."
-    },
-    {
         "group": "Edmonton",
         "repo": "www-chapter-edmonton",
         "name": "OWASP Edmonton Spring Social",
@@ -200,16 +190,6 @@
         "description": "**Presentation Summary**\nAI is already transforming how software is built\u2014but for security teams, it\u2019s mostly just making life harder. Developers are shipping AI-generated code at breakneck speed, while security teams struggle to keep up. The challenge isn\u2019t just securing AI-generated code and systems\u2014it\u2019s evolving your AppSec program to keep pace with software development.\n\nWe'll explore how security teams can evolve their programs across two key dimensions: securing AI-driven software development and using AI to enhance security workflows. You\u2019ll learn:\n\n* Strategies for managing risks from AI-generated code and autonomous agents\n* How security teams can use AI to reduce work and improve security outcomes\n* Where AI can enhance security\u2014and where human expertise remains irreplaceable.\n\nAI isn\u2019t just a security challenge; it\u2019s a chance to build a smarter, more efficient security program. Join us to learn how to make AI work for security, not against it."
     },
     {
-        "group": "Las Vegas",
-        "repo": "www-chapter-las-vegas",
-        "name": "Learn About Cyber Security with OWASP",
-        "date": "2025-05-22",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-las-vegas-chapter/events/307822551",
-        "timezone": "America/Los_Angeles",
-        "description": "Join OWASP Las Vegas as we provide an introduction to Cyber Security. This free and open to the public event is great for anyone that wants to know more about Cyber Security. Whether you want to get into the industry and aren't sure where to start, or just have an interest and want to learn some basics then this is meant for you.\n\nWe will go over some basis about Cyber Security in a way that is friendly to everyone, even if you aren't in IT. We will highlight some of the different terminologies, job paths, free tools and resources, and much more."
-    },
-    {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
         "name": "OWASP LA Monthly In-Person Meeting - May 28, 2025",
@@ -250,16 +230,6 @@
         "description": "In 2024, we witnessed a surge in attacks targeting the very foundations of our digital infrastructure \u2013 the components and methods we use to build the software we rely on. From compromised open-source dependencies to malicious code injected into critical tools, the modern cloud-based software supply chain presents a vast and vulnerable attack surface.\n\nThis session will explore the intricate landscape of today's cloud-native development pipeline, exposing the evolving threat model that security professionals must understand. More importantly, you'll gain actionable insights into a standards-based approach to proactively identify, mitigate, and manage the growing risks within your software supply chain. Leave with practical strategies to improve the security posture of your supply chain and secure your organization's future in the cloud."
     },
     {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Scaling AppSec Through Runtime Threat Modeling",
-        "date": "2025-05-22",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/307730889",
-        "timezone": "America/Los_Angeles",
-        "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 12:00 PM PT on Monday, May 19th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Microsoft Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Abstract**\nApplication security teams are drowning in findings from a sprawl of disconnected tools. As development accelerates\u2014with AI-driven tooling, microservices, and cloud-native architectures\u2014the ratio of code to developer is exploding. But the ratio of AppSec engineers to developers isn\u2019t keeping pace, leaving security teams overwhelmed and reactive.\n\nIt\u2019s time to flip the model: instead of starting with findings, we must start with the application. Vulnerabilities are just one signal\u2014without deep application context, they're noise. Real-time application modeling enables teams to understand how applications actually behave in production: what code is reachable, which services talk to each other, what data is exposed, and where trust boundaries are violated.\n\nIn this talk, we\u2019ll demonstrate how runtime-aware application modeling can surface critical risks that traditional approaches miss, eliminate false positives, and bridge the gap between AppSec and engineering. We'll walk through real-world examples of how modeling helps prioritize what truly matters\u2014and why this shift is essential for scaling security in modern software development."
-    },
-    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social: Bowling! ",
@@ -280,6 +250,26 @@
         "description": "**The Dark side of AI: Developing unsecure applications in minutes!**\n\nAI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deepunderstanding of how to:\nRecognize and assess the risks AI introduces in your code.\nImplement secure coding practices and enforce security policies.\nIntegrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security.\n\nChris Lindsey: https://www.linkedin.com/in/chris-lindsey-39b3915/"
     },
     {
+        "group": "Poland",
+        "repo": "www-chapter-poland",
+        "name": "OWASP Meeting in Krakow - Secure by design ",
+        "date": "2025-06-17",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-poland/events/307980299",
+        "timezone": "Europe/Warsaw",
+        "description": "**New venue for our meetups!**\nBrowar Nowa Wytw\u00f3rnia, Fabryczna 13 (-1 floor)\n\nJoin us for a deep dive into real security failures with Mateusz Lach. Expect a real vulnerabilities found and reported in real network devices, followed by an open discussion on white hat challenges\nwith reporting vulnerabilities and best practices of security by design approach.\n\n**Agenda:**\n**1\\. Hack your router \u2013 a deep dive into real vulnerabilites \\- Mateusz Lach\\.**\nWe live in a world where network devices are everywhere \u2014 routers, smart cameras, IoT sensors \u2014 often bought off-the-shelf and plugged into our homes and businesses without a second thought. We trust that these devices are secure by design, that the manufacturers have our safety in mind, and that someone, somewhere, made sure they won\u2019t become a weak link. But should we really trust them so blindly? In this presentation, I\u2019ll challenge that assumption and show you why relying solely on default security is a risky bet. Through real examples and insights, I\u2019ll demonstrate how this trust can be misplaced\u2014and what that means for our digital safety.\n\n2\\. After the break\\, we will be hosting **a discussion about security by design approach**. What does it mean that something is \"secure by design\". How actually we can design security? And who should do this? How can I build a software in a a more secure way \u201eby design\u201d so it is harder to exploit vulnerabilities? Are there any use cases when security by design is not effective?\n\n**Please RSVP and save the date!**\n\nIf you have a minute, **please share this invitation** with friends and in your social media."
+    },
+    {
+        "group": "Ruhrpott",
+        "repo": "www-chapter-ruhrpott",
+        "name": "Kick-Off des OWASP Ruhrpott Chapter",
+        "date": "2025-05-28",
+        "time": "18:30+02:00",
+        "link": "https://www.meetup.com/owasp-ruhrpott-chapter/events/307976873",
+        "timezone": "Europe/Berlin",
+        "description": "Wir laden ein zum ersten Treffen des re-aktivierten OWASP Ruhrpott Chapters.\n\nDas Treffen findet am 28.05.2025, ab 18:30 Uhr an der Ruhr-Universit\u00e4t Bochum Universit\u00e4tsstr. 150, Geb\u00e4ude ID, Raum 03/471 statt.\n\n**Was euch erwartet**\n\n* Vorstellung des Ruhrpott Chapters\n* Was ist OWASP?\n* Was wir vorhaben\n\n**F\u00fcr wen ist das Treffen geeignet?**\nDas OWASP Chapter-Treffen richtet sich an alle, die sich mit dem Thema IT-Sicherheit besch\u00e4ftigen \u2013 unabh\u00e4ngig von Branche oder Erfahrungsstand. Ob im Bereich Offensive Security, Defensive Security, Incident Response, Softwareentwicklung oder Security-Architektur: Wer sich f\u00fcr sichere Systeme, aktuelle Bedrohungen und Schwachstellen interessiert, ist hier genau richtig. Das Treffen bietet eine gute Gelegenheit zum Wissensaustausch, Networking und zur Diskussion aktueller Sicherheitsthemen.\n\n**Weitere Informationen**\nIhr findet weitere Informationen \u00fcber uns unter https://owasp.org/www-chapter-ruhrpott/"
+    },
+    {
         "group": "Salt Lake City",
         "repo": "www-chapter-salt-lake-city",
         "name": "Wasatch AppSec/OWASP-SLC - May Meetup (in person @ Murray Park - Pavilion #1)",
@@ -288,6 +278,16 @@
         "link": "https://www.meetup.com/owasp-slc/events/307857169",
         "timezone": "America/Denver",
         "description": "**Agenda:**\n\n1. Lunch\n2. Discussion: Using LLMs in AppSec\n\nPlease RSVP if you're coming! We'd like to make sure you get some lunch and meet in person :)\n\nSee you all then!\nMurray Park Pavilion #1\n420 E Parkside Drive, Murray, UT 84107\n[https://maps.app.goo.gl/jekhbiovsxghZeio9](https://maps.app.goo.gl/jekhbiovsxghZeio9)"
+    },
+    {
+        "group": "Sao Paulo",
+        "repo": "www-chapter-sao-paulo",
+        "name": "Meetup Presencial OWASP S\u00e3o Paulo \u2013 XP Inc Edition",
+        "date": "2025-06-10",
+        "time": "19:00-03:00",
+        "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/307981071",
+        "timezone": "America/Sao_Paulo",
+        "description": "Temas:\n\nFalhas L\u00e1zaro: Por que Certas Vulnerabilidades Sempre Voltam e A OWASP na Pr\u00e1tica: Desvendando o Poder da Comunidade para a Seguran\u00e7a de Aplica\u00e7\u00f5es\nA OWASP na Pr\u00e1tica: Desvendando o Poder da Comunidade para a Seguran\u00e7a de Aplica\u00e7\u00f5es\n\nPalestrante:\nCaroline Assun\u00e7\u00e3o - Falhas L\u00e1zaro: Por que Certas Vulnerabilidades Sempre Voltam\nDiego Martins \u2013 OWASP Global Board Member\n\nDescri\u00e7\u00e3o do Evento:\n\nPrepare-se para um meetup imperd\u00edvel da OWASP na XP! No dia 10 de junho, teremos a honra de receber Caroline Assun\u00e7\u00e3o e Diego Martins, que compartilhar\u00e3o seus conhecimentos sobre as vulnerabilidades de seguran\u00e7a mais recentes e a import\u00e2ncia da funda\u00e7\u00e3o OWASP para a comunidade de ciberseguran\u00e7a. Venha aprender, trocar ideias e fortalecer a seguran\u00e7a do seu ambiente digital!\n\nVamos explorar:\nFalhas L\u00e1zaro: Por que Certas Vulnerabilidades Sempre Voltam?\nAprofunde-se com Caroline Assun\u00e7\u00e3o no intrigante fen\u00f4meno das \"Falhas L\u00e1zaro\". Voc\u00ea j\u00e1 se perguntou por que algumas vulnerabilidades, mesmo ap\u00f3s serem corrigidas, parecem \"ressuscitar\" e reaparecer nos sistemas? Caroline trar\u00e1 luz a essa quest\u00e3o, explorando as causas por tr\u00e1s da persist\u00eancia de certas falhas e discutindo estrat\u00e9gias eficazes para quebrar esse ciclo vicioso. Prepare-se para insights valiosos sobre como lidar com essas \"vulnerabilidades teimosas\" e garantir uma seguran\u00e7a mais robusta e duradoura.\n\nA OWASP na Pr\u00e1tica: Desvendando o Poder da Comunidade para a Seguran\u00e7a de Aplica\u00e7\u00f5es\nJunte-se a Diego Martins para explorar o universo da Open Worldwide Application Security Project (OWASP). Diego ir\u00e1 desmistificar a funda\u00e7\u00e3o, apresentando seus principais projetos, ferramentas e recursos que s\u00e3o cruciais para desenvolvedores, arquitetos e profissionais de seguran\u00e7a. Descubra como a OWASP empodera a comunidade global a construir e manter aplica\u00e7\u00f5es mais seguras, e como voc\u00ea pode se engajar para fortalecer a seguran\u00e7a do seu dia a dia. Uma vis\u00e3o pr\u00e1tica e inspiradora sobre como a colabora\u00e7\u00e3o pode transformar a seguran\u00e7a de software.\nInscreva-se agora e garanta sua vaga."
     },
     {
         "group": "Seattle",
