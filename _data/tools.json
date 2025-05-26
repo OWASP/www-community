@@ -1,5 +1,14 @@
 [
        {
+       "title": "CVE Scanner",
+       "url": "https://www.cvescanner.co.uk",
+       "owner": "CVE Scanner",
+       "license": "Commercial",
+       "platforms": "SaaS",
+       "note": "Real-time scanning of your domain for known CVEs is free. If any are found, a detailed breakdown of the identified CVEs is available for just £10, which includes two free rescans. We use a live black-box HTTP probing approach.",
+       "type": "DAST"
+       },
+       {
        "title": "Astrée",
        "url": "https://www.absint.com/astree/index.htm",
        "owner": "AbsInt Angewandte Informatik GmbH",
