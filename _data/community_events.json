@@ -1,15 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - May",
-        "date": "2025-05-27",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/303407314",
-        "timezone": "Europe/Copenhagen",
-        "description": "This OWASP Aarhus meetup is co-hosted with the Systematic Software Engineering. By signing up, you consent to us sharing your name and email with Systematic Software Engineering solely for the purpose of visitor pass registration.\n\n**Agenda:**\n**19:00 \u2013 19:10** Welcome by Systematic Software Engineering and OWASP Aarhus\n\n**19:15 \u2013 19:45** \"A04:2021 \u2013 Insecure Design ved Systematic\" af Michael Ustrup, Software Security Architect, Systematic Software Engineering\n\nOm pr\u00e6sentationen:\nMichael l\u00f8fter sl\u00f8ret for sit hjertebarn og giver et indblik i, hvordan Systematic h\u00e5ndterer A04:2021 \"Insecure Design\".\n\n**19:45 \u2013 20:30** Networking break including tapas and drinks\n\n**20:30 \u2013 21:25** \"How (not) to Engage Developers in AppSec\" by Mads Schaarup Andersen, Lead IT Security Consultant, Cyber Strategy & Security Test, BankData\n\nabout the presentation:\nMany appsec programs struggle to make developers engage with security. This ranges from mitigating pentest and security scanning results to simply following the security policy. This often leads to the conclusion that developers don't care about security. However, developers exist in a context where managers, company policies, customer demands all influence how they prioritize tasks and given the right circumstances, most developers do indeed want to do secure software. In this talk, based on experience, research, and methods from human computer interaction, Mads will present the dos and don'ts of how to engage developers and successfully implement appsec.\n\nabout Mads:\nMads is currently working as a lead application security architect and has worked in security and privacy for more than 15 years. He has previously worked as a security and privacy consultant, worked in academic research, and has experience as a software engineer. His approach to application security and privacy is based on developer enablement and involvement through security champions programs - a mainly bottom-up approach where developers\u2019 main tasks and concerns are taken seriously. Furthermore, Mads\u2019s approach has a strong methodological foundation in human computer interaction with methods such as participatory design, design thinking, interviews, focus groups, workshops, etc."
-    },
-    {
         "group": "Aguascalientes",
         "repo": "www-chapter-aguascalientes",
         "name": "1er Seminario de Ciberseguridad (Redes Seguras y Confianza Digital).",
@@ -58,16 +48,6 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/305489304",
         "timezone": "America/Chicago",
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n(To Be updated)"
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - May 2025 (Online)",
-        "date": "2025-05-27",
-        "time": "11:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489299",
-        "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\nWe are meeting at Emerson/NI! The chapter would like for folks to attend personally if possible! **Please do not pull an in-person ticket if you are only attending online, we order food for every in-person ticket the Friday before the meeting and we do not want to waste food by over ordering and wasting donated money.**\nIf you would like to register for in-person attendance, please see [Eventbrite](https://owasp-austin-2025-may.eventbrite.com)\n\nPlease be aware that we open the meeting 30 minutes prior to the beginning of presentations. So 30 minutes of meet-and-greet and free discussion, then onto OWASP and Chapter information, then ..\n\nPresentation: **Why Your Security Metrics Suck, And How to Fix This**\n\nBack in 2014, Rafal gave a talk about metrics, specifically on enterprise software security ( [https://www.youtube.com/watch?v=Kl7ZAR9U0xs](https://www.youtube.com/watch?v=Kl7ZAR9U0xs \"https://www.youtube.com/watch?v=Kl7ZAR9U0xs\") ) and it's been haunting him ever since. He regularly gets emails and DMs from people asking him to help them with their security program metrics and given that it's been 10 years since he last presented this, it's time to revisit.\n\nThis talk focuses on metrics for security organizations in general, and AppSec related metrics in specific. In other words, how do security organizations measure their impact, and whether they're doing a \"good job\" or not? What do you measure, how do you measure it, and why does anyone care? Let's dive deep into a boring topic that nobody wants to talk about, but you all know you need to master.\n\n**Speaker:**\nRafal Los"
     },
     {
         "group": "Bay Area",
@@ -158,6 +138,16 @@
         "link": "https://www.meetup.com/owasp-harrisburg/events/306908330",
         "timezone": "America/New_York",
         "description": "*print(\"Hello, World!\")*\n\nJoin us for our inaugural OWASP Harrisburg chapter meetup as we connect, outline our goals, and brainstorm upcoming topics and activities. Help shape the direction of this new community from day one and be part of building a stronger, more secure future!\n\n*Our events are free and open to everyone. You don't have to be an OWASP member or hold a cybersecurity or software development role to* *attend!*"
+    },
+    {
+        "group": "Hermosillo",
+        "repo": "www-chapter-hermosillo",
+        "name": "Mayo 2025",
+        "date": "2025-05-30",
+        "time": "17:00-07:00",
+        "link": "https://www.meetup.com/owasp-hermosillo-chapter/events/308057357",
+        "timezone": "America/Hermosillo",
+        "description": " \u00a1Lanzamiento oficial del Cap\u00edtulo OWASP Hermosillo!\n\n\u00danete a la primera reuni\u00f3n del cap\u00edtulo local de OWASP.\n\nEn esta sesi\u00f3n:\n\n* Presentaci\u00f3n del cap\u00edtulo y sus objetivos\n* Introducci\u00f3n a OWASP y sus proyectos principales\n* Networking con la comunidad tech local\n* Pr\u00f3ximos eventos y oportunidades de participaci\u00f3n\n\nVen y s\u00e9 parte del inicio de esta importante comunidad en Hermosillo."
     },
     {
         "group": "Israel",
@@ -262,6 +252,16 @@
     {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
+        "name": "Monthly Networking Social: Charters Summer Bash! ",
+        "date": "2025-06-26",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-peterborough/events/305916129",
+        "timezone": "Europe/London",
+        "description": "**What & Where?**\n\n* Social Drinks @ Charter Bar!\n\n**When?**\n\n* \\- Thursday 26th June\n\nEverybody welcome! The sun should be out and shining.\nThank you,\nRyan & Mark"
+    },
+    {
+        "group": "Peterborough",
+        "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social: Darts! ",
         "date": "2025-05-29",
         "time": "18:00+01:00",
@@ -327,7 +327,7 @@
         "time": "19:00-03:00",
         "link": "https://www.meetup.com/owasp-sao-paulo-chapter/events/307981071",
         "timezone": "America/Sao_Paulo",
-        "description": "Temas:\n\nFalhas L\u00e1zaro: Por que Certas Vulnerabilidades Sempre Voltam e A OWASP na Pr\u00e1tica: Desvendando o Poder da Comunidade para a Seguran\u00e7a de Aplica\u00e7\u00f5es\nA OWASP na Pr\u00e1tica: Desvendando o Poder da Comunidade para a Seguran\u00e7a de Aplica\u00e7\u00f5es\n\nPalestrante:\nCaroline Assun\u00e7\u00e3o - Falhas L\u00e1zaro: Por que Certas Vulnerabilidades Sempre Voltam\nDiego Martins \u2013 OWASP Global Board Member\n\nDescri\u00e7\u00e3o do Evento:\n\nPrepare-se para um meetup imperd\u00edvel da OWASP na XP! No dia 10 de junho, teremos a honra de receber Caroline Assun\u00e7\u00e3o e Diego Martins, que compartilhar\u00e3o seus conhecimentos sobre as vulnerabilidades de seguran\u00e7a mais recentes e a import\u00e2ncia da funda\u00e7\u00e3o OWASP para a comunidade de ciberseguran\u00e7a. Venha aprender, trocar ideias e fortalecer a seguran\u00e7a do seu ambiente digital!\n\nVamos explorar:\nFalhas L\u00e1zaro: Por que Certas Vulnerabilidades Sempre Voltam?\nAprofunde-se com Caroline Assun\u00e7\u00e3o no intrigante fen\u00f4meno das \"Falhas L\u00e1zaro\". Voc\u00ea j\u00e1 se perguntou por que algumas vulnerabilidades, mesmo ap\u00f3s serem corrigidas, parecem \"ressuscitar\" e reaparecer nos sistemas? Caroline trar\u00e1 luz a essa quest\u00e3o, explorando as causas por tr\u00e1s da persist\u00eancia de certas falhas e discutindo estrat\u00e9gias eficazes para quebrar esse ciclo vicioso. Prepare-se para insights valiosos sobre como lidar com essas \"vulnerabilidades teimosas\" e garantir uma seguran\u00e7a mais robusta e duradoura.\n\nA OWASP na Pr\u00e1tica: Desvendando o Poder da Comunidade para a Seguran\u00e7a de Aplica\u00e7\u00f5es\nJunte-se a Diego Martins para explorar o universo da Open Worldwide Application Security Project (OWASP). Diego ir\u00e1 desmistificar a funda\u00e7\u00e3o, apresentando seus principais projetos, ferramentas e recursos que s\u00e3o cruciais para desenvolvedores, arquitetos e profissionais de seguran\u00e7a. Descubra como a OWASP empodera a comunidade global a construir e manter aplica\u00e7\u00f5es mais seguras, e como voc\u00ea pode se engajar para fortalecer a seguran\u00e7a do seu dia a dia. Uma vis\u00e3o pr\u00e1tica e inspiradora sobre como a colabora\u00e7\u00e3o pode transformar a seguran\u00e7a de software.\nInscreva-se agora e garanta sua vaga."
+        "description": "Descri\u00e7\u00e3o do Evento:\n\nPrepare-se para um meetup imperd\u00edvel da OWASP na XP! No dia 10 de junho, teremos a honra de receber Caroline Assun\u00e7\u00e3o e Diego Martins, que compartilhar\u00e3o seus conhecimentos sobre as vulnerabilidades de seguran\u00e7a mais recentes e a import\u00e2ncia da funda\u00e7\u00e3o OWASP para a comunidade de ciberseguran\u00e7a. Venha aprender, trocar ideias e fortalecer a seguran\u00e7a do seu ambiente digital!\n\nVamos explorar:\n**Falhas L\u00e1zaro: Por que Certas Vulnerabilidades Sempre Voltam?**\nAprofunde-se com Caroline Assun\u00e7\u00e3o - Application Security Coordinator na XP INC. no intrigante fen\u00f4meno das \"Falhas L\u00e1zaro\". Voc\u00ea j\u00e1 se perguntou por que algumas vulnerabilidades, mesmo ap\u00f3s serem corrigidas, parecem \"ressuscitar\" e reaparecer nos sistemas? Caroline trar\u00e1 luz a essa quest\u00e3o, explorando as causas por tr\u00e1s da persist\u00eancia de certas falhas e discutindo estrat\u00e9gias eficazes para quebrar esse ciclo vicioso. Prepare-se para insights valiosos sobre como lidar com essas \"vulnerabilidades teimosas\" e garantir uma seguran\u00e7a mais robusta e duradoura.\n\n**OWASP Needs You Now!!**\nJunte-se a Diego Martins - Membro do Board global da OWASP para explorar o universo da Open Worldwide Application Security Project (OWASP). Diego ir\u00e1 desmistificar a funda\u00e7\u00e3o, apresentando seus principais projetos, ferramentas e recursos que s\u00e3o cruciais para desenvolvedores, arquitetos e profissionais de seguran\u00e7a. Descubra como a OWASP empodera a comunidade global a construir e manter aplica\u00e7\u00f5es mais seguras, e como voc\u00ea pode se engajar para fortalecer a seguran\u00e7a do seu dia a dia. Uma vis\u00e3o pr\u00e1tica e inspiradora sobre como a colabora\u00e7\u00e3o pode transformar a seguran\u00e7a de software.\nInscreva-se agora e garanta sua vaga."
     },
     {
         "group": "Seattle",
