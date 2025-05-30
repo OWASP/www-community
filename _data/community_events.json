@@ -20,16 +20,6 @@
         "description": "Want to harness AI for offensive security and get real-world, scalable results? Join [Dreadnode](https://dreadnode.io/) Staff Security Researcher and OWASP Top 10 for LLM Applications founding member and tech leader, Ads Dawson, as he dives into adversarial AI and ML, Red Teaming LLMs and chatbots, and next-gen offensive security workflows.\n\nWhether you're an AI red team veteran or just starting out, this session will equip you with the tools, tactics, and knowledge to navigate an AI-native threat landscape."
     },
     {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "Hacking AWS IAM: Live Walkthrough",
-        "date": "2025-05-29",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-atlanta/events/307356952",
-        "timezone": "America/New_York",
-        "description": "Identity and access management in the cloud remains the most fertile ground for high-value exploitations. So why is it still the least understood part of AWS? For starters, the way RBAC was implemented in the public cloud created a series of unintended consequences (role proliferation, etc) that confound security. Add to that how confusing the interconnecting IAM policy logic tree is. Then consider most are trying to understand \u2018identity\u2019 in the cloud as something akin to human credentials\u2026 when it\u2019s far from that. Add it all together, and you have the beautiful mess we\u2019re trying to manage today.\n\nJeff Moncrief\u2019s been puzzling through the how and why of cloud IAM for the past few years. He found the best way to learn IAM is to just break it. Join Jeff as he deploys his \u2018IAM walker\u2019 script and shows the holes in a typical AWS environment, moves laterally from a typically ec2 exploit, abuses privilege escalation, steals data, and exfiltrates successfully without detection. Along the way, he\u2019ll discuss:\n\n* Why we misunderstand the purpose of IAM in AWS\n* Rethinking IAM responsibilities of devs vs. security without breaking workloads\n* Different control points in AWS, like implementing service-level security and designating \u2018sensitive permissions\u2019"
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - June 2025 (Online)",
@@ -38,6 +28,16 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/305489304",
         "timezone": "America/Chicago",
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n(To Be updated)"
+    },
+    {
+        "group": "Boston",
+        "repo": "www-chapter-boston",
+        "name": "OWASP Boston Chapter Meeting - June 2025",
+        "date": "2025-06-11",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owaspboston/events/308127174",
+        "timezone": "America/New_York",
+        "description": "We kick off this year's OWASP Chapter meetings! This month we will be welcoming Nate Michalov, a seasoned application security professional, to our meetup. Doors open at 6:30pm and the presentation starts at 7pm. Pizza and soda will be provided.\n\nIn this session Nate will be talking about **Evolving Your AppSec Program in the Era of AI** .\n\nAI is already transforming how software is built\u2014but for security teams, it\u2019s mostly just making life harder. Developers are shipping AI-generated code at breakneck speed, while security teams struggle to keep up. The challenge isn\u2019t just securing AI-generated code and systems\u2014it\u2019s evolving your AppSec program to keep pace with software development.We'll explore how security teams can evolve their programs across two key dimensions: securing AI-driven software development and using AI to enhance security workflows. You\u2019ll learn:\n\n* Strategies for managing risks from AI-generated code and autonomous agents\n* How security teams can use AI to reduce work and improve security outcomes\n* Where AI can enhance security\u2014and where human expertise remains irreplaceable.\n\nAI isn\u2019t just a security challenge; it\u2019s a chance to build a smarter, more efficient security program. Join us to learn how to make AI work for security, not against it.\n\nNate Michalov is a seasoned application security professional with over 12 years of diverse experience. Throughout his career, Nate has contributed to organizations such as Endor Labs, Apiiro, Snyk, Veracode, and Annkissam, where he has focused on securing digital ecosystems while aligning technological strategies with business objectives. In various roles including customer success architect, senior sales engineer, and senior SAST specialist, Nate has consistently tackled complex challenges at the intersection of business and technology. Known for his collaborative approach and dedication to staying informed about emerging trends, Nate is recognized as a trusted advisor in promoting innovation and resilience in application security."
     },
     {
         "group": "Cairo",
@@ -88,16 +88,6 @@
         "link": "https://www.meetup.com/owasp-denver-chapter/events/308048048",
         "timezone": "America/Denver",
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on June 18th for food, drinks, networking and an exciting CTF. Networking with your peers starts at 5:30pm.\n\n***Note***: New location for this month!! Richey May has graciously offered to let us use their offices in Englewood for this month's meeting!\n\nThis month's presentation is brought to you by Richey May and Meristem Infosec!\n\n**Topic:**\nA Web CTF for Everyone\n\n**Abstract**:\nThis month's event will be a little different. Instead of a speaker, we're offering a hands-on Capture-the-Flag event. Not the \"stay up all night finding this one weird trick\" kind of CTF, but a CTF designed to teach you to exploit real world vulnerabilities in a real-world application. Entry level participants can explore a poorly designed authorization system and mid-level hackers will have plenty of opportunities to run SQL and JavaScript Injection attacks. For the experts, there is even a pathway to shell, but it will take some real dedication to get there.\n\nThe focus will be solidly on learning. A walkthrough guide will be available to get you to the next step no matter where you get stuck, and live demos of each exploit will be given before the evening is through. Even if you're not quite sure what Cross-site Scripting really is, by the end of the night you can have your first exploit under your belt. We'll also be encouraging experienced participants to team up with those who are new to web exploitation.\n\nBRING YOUR OWN LAPTOP with an intercepting proxy (Burp, ZAP, etc.) installed to participate as an attacker. Of course, if you\u2019re not comfortable at that level, feel free to just bring yourself and plan to shadow, watch, and learn.\n\nInstallation instructions for ZAP can be found here:\n\n[https://www.meristeminfosec.com/resources/guided-ctf](https://www.meristeminfosec.com/resources/guided-ctf)\n\nIf you have questions on how to prepare for the event, a Q&A session will be held on the Monday before the event at 7pm: [https://meet.google.com/dfz-kksa-qzx](https://meet.google.com/dfz-kksa-qzx)\n\nAGENDA\n6:00 - 6:30 Setup, Food, Drinks, Networking\n6:30 - 7:30ish CTF Time\n7:30 - 8:00 More Networking"
-    },
-    {
-        "group": "Edmonton",
-        "repo": "www-chapter-edmonton",
-        "name": "OWASP Edmonton Spring Social",
-        "date": "2025-05-29",
-        "time": "16:00-06:00",
-        "link": "https://www.meetup.com/owasp-edmonton/events/307868021",
-        "timezone": "America/Edmonton",
-        "description": "**Join Us for the OWASP Edmonton Spring Social 2025**\nThe OWASP Edmonton Chapter is excited to invite you to our Spring Social 2025, an evening dedicated to cybersecurity enthusiasts, professionals, and anyone interested in the field. This informal gathering offers a fantastic opportunity to network, share ideas, and discuss the latest trends in application security.\n\n**Event Details:**\n\n* **Date:** May 29\n* **Time:** 4:00pm\n* **Location:** Craft Beer Market, Edmonton, Alberta\n* **Admission:** Free (Please RSVP)\n\n**What to Expect:**\n\n* A relaxed atmosphere to connect with fellow cybersecurity professionals and enthusiasts\n* Engaging conversations about current challenges and innovations in application security\n* Delicious food and a wide selection of craft beers available for purchase\n* Information about upcoming OWASP Edmonton events and initiatives\n\n**Who Should Attend:**\nWhether you're a seasoned cybersecurity expert, a developer interested in secure coding practices, or someone new to the field, this event is open to all. OWASP events are inclusive and aim to foster a collaborative community focused on improving software security.\n**RSVP:**\nTo help us manage the venue arrangements, please RSVP.\nCome and be part of a community that is passionate about making technology more secure. We look forward to seeing you there!"
     },
     {
         "group": "Gothenburg",
@@ -200,16 +190,6 @@
         "description": "Attendees will learn how to ingest telemetry from a variety of sources and protocols then leverage that telemetry against a custom ML and GAI framework to find anomalies that will help resolve attacks and reduce MTTR."
     },
     {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "The supply chain is dark and full of terrors.",
-        "date": "2025-05-29",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/307863427",
-        "timezone": "America/New_York",
-        "description": "NOTE: The room will not be available before 6pm, so please do not show up early as you will not be allowed in.\n\nIn 2024, we witnessed a surge in attacks targeting the very foundations of our digital infrastructure \u2013 the components and methods we use to build the software we rely on. From compromised open-source dependencies to malicious code injected into critical tools, the modern cloud-based software supply chain presents a vast and vulnerable attack surface.\n\nThis session will explore the intricate landscape of today's cloud-native development pipeline, exposing the evolving threat model that security professionals must understand. More importantly, you'll gain actionable insights into a standards-based approach to proactively identify, mitigate, and manage the growing risks within your software supply chain. Leave with practical strategies to improve the security posture of your supply chain and secure your organization's future in the cloud."
-    },
-    {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
         "name": "Monthly Networking Social: Charters Summer Bash! ",
@@ -220,16 +200,6 @@
         "description": "**What & Where?**\n\n* Social Drinks @ Charter Bar!\n\n**When?**\n\n* \\- Thursday 26th June\n\nEverybody welcome! The sun should be out and shining.\nThank you,\nRyan & Mark"
     },
     {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Monthly Networking Social: Darts! ",
-        "date": "2025-05-29",
-        "time": "18:00+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/305916111",
-        "timezone": "Europe/London",
-        "description": "\\*Activity change due to availability\\*\n\n**What & Where?**\n\n* Darts @ O\"Neils!\n\n**When?**\n\n* Thursday 29th May\n* Darts start at 7, arrive from 6\n\nEverybody welcome! For this event, please respond on Whatsapp and update your MeetUp attendance as pre-payment may be required.\nAddress: O\"Neils, Broadway, Peterborough PE1 1SQ\n\nThank you,\nRyan & Mark"
-    },
-    {
         "group": "Phoenix",
         "repo": "www-chapter-phoenix",
         "name": "June 2025 Meeting",
@@ -237,17 +207,7 @@
         "time": "19:30-07:00",
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/308065570",
         "timezone": "America/Phoenix",
-        "description": "**The NVD is a BFD (20 minutes)**\nThe National Vulnerability Database (NVD) is the foundation for modern vulnerability management and compliance.\nWe will discuss:\n\n* The difference between the CVE and NVD.\n* How the NVD got started and its growth over the years.\n* What happened with the Feb 2024 NVD halt.\n* Current and future threats to the NVD."
-    },
-    {
-        "group": "Pittsburgh",
-        "repo": "www-chapter-pittsburgh",
-        "name": "OWASP Pittsburgh Q2 Meetup:\n\nThe Dark side of AI - Speaker Chris Lindsey",
-        "date": "2025-05-29",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-pittsburgh-chapter/events/307703419",
-        "timezone": "America/New_York",
-        "description": "**The Dark side of AI: Developing unsecure applications in minutes!**\n\nAI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deepunderstanding of how to:\nRecognize and assess the risks AI introduces in your code.\nImplement secure coding practices and enforce security policies.\nIntegrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security.\n\nChris Lindsey: https://www.linkedin.com/in/chris-lindsey-39b3915/"
+        "description": "**The NVD is a Big Deal (20 minutes)**\nThe National Vulnerability Database (NVD) is the foundation for modern vulnerability management and compliance.\nWe will discuss:\n\n* The difference between the CVE and NVD.\n* How the NVD got started and its growth over the years.\n* What happened with the Feb 2024 NVD halt.\n* Current and future threats to the NVD."
     },
     {
         "group": "Poland",
@@ -258,16 +218,6 @@
         "link": "https://www.meetup.com/owasp-poland/events/307980299",
         "timezone": "Europe/Warsaw",
         "description": "**New venue for our meetups!**\nBrowar Nowa Wytw\u00f3rnia, Fabryczna 13 (-1 floor)\n\nJoin us for a deep dive into real security failures with Mateusz Lach. Expect a real vulnerabilities found and reported in real network devices, followed by an open discussion on white hat challenges\nwith reporting vulnerabilities and best practices of security by design approach.\n\n**Agenda:**\n**1\\. Hack your router \u2013 a deep dive into real vulnerabilites \\- Mateusz Lach\\.**\nWe live in a world where network devices are everywhere \u2014 routers, smart cameras, IoT sensors \u2014 often bought off-the-shelf and plugged into our homes and businesses without a second thought. We trust that these devices are secure by design, that the manufacturers have our safety in mind, and that someone, somewhere, made sure they won\u2019t become a weak link. But should we really trust them so blindly? In this presentation, I\u2019ll challenge that assumption and show you why relying solely on default security is a risky bet. Through real examples and insights, I\u2019ll demonstrate how this trust can be misplaced\u2014and what that means for our digital safety.\n\n2\\. After the break\\, we will be hosting **a discussion about security by design approach**. What does it mean that something is \"secure by design\". How actually we can design security? And who should do this? How can I build a software in a a more secure way \u201eby design\u201d so it is harder to exploit vulnerabilities? Are there any use cases when security by design is not effective?\n\n**Please RSVP and save the date!**\n\nIf you have a minute, **please share this invitation** with friends and in your social media."
-    },
-    {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "Wasatch AppSec/OWASP-SLC - May Meetup (in person @ Murray Park - Pavilion #1)",
-        "date": "2025-05-29",
-        "time": "12:00-06:00",
-        "link": "https://www.meetup.com/owasp-slc/events/307857169",
-        "timezone": "America/Denver",
-        "description": "**Agenda:**\n\n1. Lunch\n2. Discussion: Using LLMs in AppSec\n\nPlease RSVP if you're coming! We'd like to make sure you get some lunch and meet in person :)\n\nSee you all then!\nMurray Park Pavilion #1\n420 E Parkside Drive, Murray, UT 84107\n[https://maps.app.goo.gl/jekhbiovsxghZeio9](https://maps.app.goo.gl/jekhbiovsxghZeio9)"
     },
     {
         "group": "Sao Paulo",
