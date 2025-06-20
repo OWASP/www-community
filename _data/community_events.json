@@ -1,15 +1,5 @@
 [
     {
-        "group": "Atlanta",
-        "repo": "www-chapter-atlanta",
-        "name": "Harnessing AI for Offensive Security",
-        "date": "2025-06-19",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/owasp-atlanta/events/306903233",
-        "timezone": "America/New_York",
-        "description": "Want to harness AI for offensive security and get real-world, scalable results? Join [Dreadnode](https://dreadnode.io/) Staff Security Researcher and OWASP Top 10 for LLM Applications founding member and tech leader, Ads Dawson, as he dives into adversarial AI and ML, Red Teaming LLMs and chatbots, and next-gen offensive security workflows.\n\nWhether you're an AI red team veteran or just starting out, this session will equip you with the tools, tactics, and knowledge to navigate an AI-native threat landscape."
-    },
-    {
         "group": "Augsburg",
         "repo": "www-chapter-augsburg",
         "name": "13. OWASP Augsburg Stammtisch",
@@ -70,16 +60,6 @@
         "description": "The OWASP Boulder Chapter is excited to announce our June 2025 Chapter Meeting! Scheduled for Wednesday, June 25th at the Rule4 office at 6 PM, with complimentary food, beer, and soft drinks. Join us for networking with your peers and a featured talk from Ryan Boyle presenting:\n\nThe OWASP Access Log Parser Project\n\nGenerating log files is a critical first step in defending a web application, but they don't do you much good unless someone actually looks at them. The OWASP Access Log Parser Project is an effort to simplify that process by converting terse and sometimes encoded log files into a format that can more easily be read by people, and more importantly, fed to automated monitoring tools. It also includes the ability to do analysis directly by comparing requests to a library of known attacks.\n\nJoin us as the project's Lead Developer, Ryan Boyle, guides us through the goals, features, and future direction of the project. For more details on the project, check out the OWASP Page: https://owasp.org/www-project-access-log-parser/\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec Organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:15ish Main Topic Presentation\n7:15ish - 7:30 Q&A and Discussion\n7:30 - 8:00 More Networking"
     },
     {
-        "group": "Chile",
-        "repo": "www-chapter-chile",
-        "name": "Seguridad centrada en las personas - Como Concientizar INFOSEC",
-        "date": "2025-06-19",
-        "time": "20:00-04:00",
-        "link": "https://www.meetup.com/owasp-chile-meetup-group/events/308473582",
-        "timezone": "America/Santiago",
-        "description": "Seguridad centrada en las personas - Como Concientizar INFOSEC\n\nLa concientizaci\u00f3n en seguridad de la informaci\u00f3n, no es solo digital... a veces los errores m\u00e1s peligrosos pueden provenir del factor humano, una imagen o un papel.\nAnalizaremos estrategias preventivas, y casos reales como en la imagen, un error humano que filtra saldos y datos personales de otros clientes impresos en el reverso de un documento bancario.\nEste \"simple\" error siembra una duda legitima... si fallan en algo tan b\u00e1sico como imprimir un documento, \u00bfqu\u00e9 pasa con nuestros datos digitales?\n\n Por qu\u00e9 los errores humanos son el eslab\u00f3n m\u00e1s d\u00e9bil\n C\u00f3mo reaccionar ante una filtraci\u00f3n accidental\n Qu\u00e9 hacer para proteger tu informaci\u00f3n personal\n Lecciones de ciberseguridad desde el mundo f\u00edsico\n\n#CiberSeguridad #PrivacidadDatos #InfoSec #SeguridadBancaria"
-    },
-    {
         "group": "Cincinnati",
         "repo": "www-chapter-cincinnati",
         "name": "The Dark Side of AI: Writing Insecure Apps in Minutes",
@@ -98,16 +78,6 @@
         "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/308311700",
         "timezone": "America/Denver",
         "description": "Join us for community events, we\u2019ll cover: what\u2019s new with our OWASP chapter, trending OWASP projects you can jump into, and speaker topics you want to hear next.\n\nLooking forward to seeing everyone again!"
-    },
-    {
-        "group": "Columbus",
-        "repo": "www-chapter-columbus",
-        "name": "The need for new methods to assure biomanufacturing processes",
-        "date": "2025-06-19",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/columbus-owasp/events/306917658",
-        "timezone": "America/New_York",
-        "description": "In the true spirit of \"We changed the W from Web to Worldwide\" we have a talk that seems way out of the usual Application Security talk to discuss threats to bioinformatics and the manufacturing process. If you are thinking \"Wait, what does that have to do with application security, Bill?\" the answer is ... everything.\n\nThis talk outlines several challenges inherent to the biomanufacturing industry, such as the poorly understood and highly dynamic nature of biomanufacturing processes. Instruments critical to assessing quality and safety are described as among the least defensible apparatus humanity has ever built, leaving the sector exposed to adversarial threats. Despite recent progress in bioengineering, the explainability of these manufacturing processes is still built on fragile foundations.\n\nTo address these issues, Peter suggests moving away from flawed traditional methods of assessment and adopting physics-based probabilistic models, which offer better assurance and explainability. he emphasizes the importance of formal methods to ensure reliability and manage risks without completely rebuilding the system. Additionally, he advocates for accepting manageable risks and enhancing manufacturing trust through practical, science-based solutions."
     },
     {
         "group": "Cuddalore",
@@ -140,6 +110,16 @@
         "description": "An action packed meeting, with a real live (virtual) speaker!\n\n**AGENDA:**\n\n1. Delaware chapter business - the chapter needs you! Would you like to know more?\n2. The main event - \"**The AI AppSec Nightmare**\" Approx 1 hour including Q&A. How AI-powered attackers are finding and exploiting application security vulnerabilities faster than ever.\n3. Turbo CTF? Maybe hack\\* an AI thing.\n\n(\"Hack\" in this context means testing with permission in a safe environment. No bots will be harmed in this CTF. I, for one, welcome our new AI overlords.)\n\nThe meeting will be held in the library's computer lab to encourage people to get some hands-on web security testing experience. There will be a remote attendance option for those that cannot attend, or those that that prefer AI over IRL ."
     },
     {
+        "group": "Denver",
+        "repo": "www-chapter-denver",
+        "name": "Denver OWASP July Meetup - Join Us!",
+        "date": "2025-07-16",
+        "time": "17:30-06:00",
+        "link": "https://www.meetup.com/owasp-denver-chapter/events/308564016",
+        "timezone": "America/Denver",
+        "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on July 16th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:30 pm - announcements and presentation starts at 6:00pm .\n\nThis month's presentation is brought to you by Endor Labs!\n\n**Presentation:**\nEvolving Your AppSec Program in the Era of AI\n\n**Abstract**:\nAI is already transforming how software is built\u2014but for security teams, it\u2019s mostly just making life harder. Developers are shipping AI-generated code at breakneck speed, while security teams struggle to keep up. The challenge isn\u2019t just securing AI-generated code and systems\u2014it\u2019s evolving your AppSec program to keep pace with software development.\n\nWe'll explore how security teams can evolve their programs across two key dimensions: securing AI-driven software development and using AI to enhance security workflows. You\u2019ll learn:\n\n* Strategies for managing risks from AI-generated code and autonomous agents\n* How security teams can use AI to reduce work and improve security outcomes\n* Where AI can enhance security\u2014and where human expertise remains irreplaceable.\n\nAI isn\u2019t just a security challenge; it\u2019s a chance to build a smarter, more efficient security program. Join us to learn how to make AI work for security, not against it."
+    },
+    {
         "group": "Gurugram",
         "repo": "www-chapter-gurugram",
         "name": "Protecting Your Web Applications: Best Practices in Web Security",
@@ -148,16 +128,6 @@
         "link": "https://www.meetup.com/owasp-gurugram-chapter/events/308503571",
         "timezone": "Asia/Kolkata",
         "description": "Join us at the OWASP Gurugram Chapter event where we will dive deep into the best practices for incorporating cybersecurity into software development processes. Our expert speakers will cover topics such as cloud security, computer security, information security, application security, and software security. Learn how to effectively secure your applications, protect your networks, and defend against cyber threats. Whether you're a developer, security professional, or IT enthusiast, this event will provide valuable insights and practical tips to enhance your software security skills. Don't miss this opportunity to network with peers, ask questions, and stay updated on the latest trends in cybersecurity."
-    },
-    {
-        "group": "Italy",
-        "repo": "www-chapter-italy",
-        "name": "OWASP Italy Day 2025",
-        "date": "2025-06-19",
-        "time": "14:00+02:00",
-        "link": "https://www.meetup.com/owasp-italy-meetup-group/events/307102067",
-        "timezone": "Europe/Rome",
-        "description": "OWASP Italy will host the next OWASP Italy Day 2025 on June 19th. It will be a full-day event dedicated to application security (AppSec)!\n\n#### **OWASP Italy Day 2025 will take place at Cagliari.** This is a free, one-day, informal event aimed at increasing awareness and knowledge of web application security. **Reserve your seat here:**\n\nhttps://cyberjourney.it/\n\nThe event is primarily intended to appeal to security professionals, software developers, software quality engineers, and computer science students with a strong interest in computer security.\n\n### **PROGRAM**\n\nThe event will take place next 19th June from 4 PM to 22 PM (Italian time). We are working on the program at the moment.\n\n#### **Seba and Martin will be our Keynotes speakers!**\n\n#### \\- Sebastien Deleersnyder\n\nCo\\-founder & CTO at Toreon \\| COO & trainer at DPI \\| whiteboard hacking trainer at Black Hat\n\n#### \\- Martin Knobloch\\, VP Security Engineering at Valtech\\.com\n\nMartin has locally and globally been contributing to various projects and co-organized OWASP AppSec conferences. He served more than 5 years as a member of the Board of Directors, two of them as Chairmen of the board.\n\n### Call For Papers:\n\nPlease submit your idea here:\n[https://sessionize.com/owasp-italy-day-2025-cfs](https://sessionize.com/owasp-italy-day-2025-cfs)\n\n### Call For Sponsorships:\n\n[https://github.com/OWASP/www-chapter-italy/blob/59f792a77ba0a8e8131aa5e4e6a98cb75d595d38/assets/images/2025%20OWASP%20Italy%20Day%20Sponsorship.pdf](https://github.com/OWASP/www-chapter-italy/blob/59f792a77ba0a8e8131aa5e4e6a98cb75d595d38/assets/images/2025%20OWASP%20Italy%20Day%20Sponsorship.pdf)\n\nReserve your seat:\n**[https://cyberjourney.it](https://cyberjourney.it/#)**\n\n#### Why Sponsor OWASP Italy Day 2025?\n\nBrand Visibility: As a sponsor, your brand will be prominently displayed before, during, and after the event. This includes logo placement in event materials, promotional content, and key areas at the venue. Enhance your brand recognition within the cybersecurity and developer communities.\nCommunity Engagement: Engaging with the OWASP community puts your company in the spotlight as a leader in supporting open software and security advancements. This event will provide you with the opportunity to network with industry leaders and cybersecurity professionals, offering a chance to build relationships and share your company\u2019s expertise and solutions.\nLead Generation: With hundreds of attendees from various sectors, sponsoring OWASP Italy Day 2025 gives you direct access to potential clients and customers. The event will provide a focused audience interested in cybersecurity solutions, products, and training.\n\nEvent official site:\nhttps://owasp.org/www-chapter-italy/events/OWASPItalyDay2025-06-19"
     },
     {
         "group": "Joao Pessoa",
@@ -308,26 +278,6 @@
         "link": "https://www.meetup.com/owasp-vancouver-chapter/events/305510713",
         "timezone": "America/Vancouver",
         "description": "Join us for a hands-on **Secure Code Training Tournament** hosted by OWASP Vancouver and powered by **Security Journey**. Whether you\u2019re a seasoned AppSec pro or just getting started, this interactive tournament will challenge your secure coding skills across multiple languages in a gamified environment. Participants will tackle real-world vulnerabilities, compete on a live leaderboard, and gain valuable insight into modern software security best practices.\n\nExpect prizes, bragging rights, and some light-hearted competition\u2014all while leveling up your AppSec game.\n\n**Note:** In-person participants must bring their own laptop to access the tournament."
-    },
-    {
-        "group": "Vancouver",
-        "repo": "www-chapter-vancouver",
-        "name": "The Secret Life of Malicious Packages & Malicious Package Detection Engineering",
-        "date": "2025-06-19",
-        "time": "18:00-07:00",
-        "link": "https://www.meetup.com/owasp-vancouver-chapter/events/305510655",
-        "timezone": "America/Vancouver",
-        "description": "**The Secret Life of Malicious Packages** with **Megg Sage**\n\nSupply chain security has been all the rage recently\u2014we keep hearing story after story about malicious packages popping up across various package repositories. This talk dives into the secret life of malicious packages: what they are, where they lurk, how they operate, and the many creative ways they can wreak havoc. From innocent-seeming typosquats to the compromise of trusted, widely-used packages, we\u2019ll explore the full spectrum of threats and real-world examples that show just how sneaky (and dangerous) these packages can be.\n\nSo how can we protect ourselves from these threats? There are various options such as checking package health, source code reviews/scans, or use of tooling such as SCA tools. SCA scans, while very useful for vulnerability scanning, cannot be relied upon to protect against malicious packages. This talk will discuss their blind spots and other options for adding further protection. It will further reinforce that security should always take a multi-layered approach.\n\n**About our speaker**\nI'm an application security engineer who started out as a web developer. Security drew me in with the endless puzzles and challenges put forth by the field. I love sharing knowledge, particularly when I can both educate and horrify my audience at the same time. After all, what can happen when security goes wrong is pretty scary. I also enjoy working closely with software engineering teams to try to make security work within existing development practices, or at least try to minimize how painful \"doing security\" can be. When not behind a computer, I can usually be found making some sort of costume piece or shiny object.\n\n============\n\n**Introducing malicious package detection engineering** with **Paul McCarty**\n\nAs software supply chain attacks continue to rise in frequency and sophistication, it is crucial for security professionals to adapt their processes to address these threats effectively. One way to do this is to build a detection engineering practice to identify malicious packages as well as identify the threat indicators in those packages. In this talk, we'll examine real detection strategies, covering traditional IOCs like IP addresses and domains found in package-based malware, while also exploring package-specific indicators. Attendees will learn practical approaches to distinguish between accidentally vulnerable code and purposefully malicious packages.\n\n**Paul** is the Head of Research at Safety (safetycli.com) and a DevSecOps OG. He loves software supply chain research and delivering supply chain offensive security training and engagements. He's spent the last two years deep-diving into npm and has made several discoveries about the ecosystem. Paul founded multiple startups starting in the '90s, with UtahConnect, SecureStack in 2017, and SourceCodeRED in 2023. Paul has worked for NASA, Boeing, Blue Cross/Blue Shield, John Deere, the US military, the Australian government and several startups over the last 30 years. Paul is a frequent open-source contributor and author of several DevSecOps, software supply chain and threat modelling projects. He\u2019s currently writing a book entitled \u201cHacking NPM\u201d, and when he\u2019s not doing that, he\u2019s snowboarding with his wife and 3 amazing kids.\n\n**We would like to thank [Forward Security](https://forwardsecurity.com/) for sponsoring this event.**"
-    },
-    {
-        "group": "Victoria",
-        "repo": "www-chapter-victoria",
-        "name": "OWASP Victoria | AI-Driven Testing & Quantum Security",
-        "date": "2025-06-19",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-victoria-chapter/events/307842872",
-        "timezone": "America/Vancouver",
-        "description": "The OWASP Victoria Chapter invites you to an in-person application-security meetup on June 19, 2025, from 5:30 PM to 8:00 PM at the University of Victoria. Spend the evening exploring the newest trends and proven practices shaping today\u2019s cybersecurity landscape.\n\nWe\u2019re thrilled to feature two live talks: Roberto Salgado will share \u201cPentesting with AI,\u201d revealing how generative tools are reshaping offensive security, and Kyle Loree will present \u201cQuantum and What You Need to Know,\u201d examining quantum computing and its real-world implications for cybersecurity. Whether you\u2019re a veteran security professional or just beginning your journey, you will leave equipped with tangible insights to elevate your security efforts.\n\nBeyond the presentations, the agenda leaves plenty of room for conversation and collaboration. Meet peers, trade ideas with industry leaders, and compare notes on the tools and techniques that keep organizations safe in an ever-evolving threat environment.\n\nDon't miss out on this valuable opportunity to enhance your knowledge and skills in cybersecurity. If you would like to attend, please click the RSVP button to reserve your spot, as we have limited seats available."
     },
     {
         "group": "Virtual",
