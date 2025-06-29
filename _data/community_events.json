@@ -10,6 +10,16 @@
         "description": "AI is the ultimate accelerant for application development - its power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security."
     },
     {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "June OWASP Bay Area Meetup",
+        "date": "2025-07-15",
+        "time": "17:00-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/308712465",
+        "timezone": "America/Los_Angeles",
+        "description": "We\u2019re excited to announce that our **July OWASP Meetup** will be Sponsored by **Endor Labs**\n\nJoin us for an evening of great conversations, community networking, and insightful security discussions \u2014 all in an awesome venue provided by **Endor Labs**. And yes, there will be **delicious food and drinks** generously provided by our sponsors!\n\n5:00 PM : Doors open, Networking, food and drinks\n5.30 PM :- Chapter introductions\n5.45-6.15 PM :- **Evolving Your AppSec Program in the Era of AI**\n6.15-7.00 PM :- TBA\n7.0-7.45 PM :- TBA\n\nTalk#1 :- Evolving Your AppSec Program in the Era of AI\n\n**Description:** AI is already transforming how software is built\u2014but for security teams, it\u2019s mostly just making life harder. Developers are shipping AI-generated code at breakneck speed, while security teams struggle to keep up. The challenge isn\u2019t just securing AI-generated code and systems\u2014it\u2019s evolving your AppSec program to keep pace with software development.We'll explore how security teams can evolve their programs across two key dimensions: securing AI-driven software development and using AI to enhance security workflows. You\u2019ll learn:\n\n* Strategies for managing risks from AI-generated code and autonomous agents\n* How security teams can use AI to reduce work and improve security outcomes\n* Where AI can enhance security\u2014and where human expertise remains irreplaceable.\n\nAI isn\u2019t just a security challenge; it\u2019s a chance to build a smarter, more efficient security program. Join us to learn how to make AI work for security, not against it.\n\n**Speaker:-** **Andrew Stiefel** is a product marketing manager at Endor Labs, where he focuses on open source security. He previously led product marketing for developer security products at 1Password and API security at NGINX. His writing on software supply chain security, DevSecOps, and API security has appeared in the CNCF blog, The New Stack, and Help Net Security.\n\nTalk#2: TBA\nTalk#3: TBA"
+    },
+    {
         "group": "Bhopal",
         "repo": "www-chapter-bhopal",
         "name": " CyberShield: Injection Attacks & Capture The Flag (CTF)",
@@ -48,16 +58,6 @@
         "link": "https://www.meetup.com/owasp-cotonou-chapter/events/308570040",
         "timezone": "Africa/Porto-Novo",
         "description": "Face \u00e0 l'escalade des cybermenaces qui p\u00e8sent sur les entreprises b\u00e9ninoises et mondiales, ce meeting exceptionnel rassemblera l'\u00e9lite de la cybers\u00e9curit\u00e9 et de l'Intelligence Artificielle. Nous explorerons comment les derni\u00e8res avanc\u00e9es de l'IA peuvent devenir votre arme la plus redoutable pour contrer ces attaques. Que vous soyez entrepreneur, \u00e9tudiant, dipl\u00f4m\u00e9, simple curieux ou formateur, votre pr\u00e9sence est cruciale pour fa\u00e7onner l'avenir de la s\u00e9curit\u00e9 num\u00e9rique."
-    },
-    {
-        "group": "Cuddalore",
-        "repo": "www-chapter-cuddalore",
-        "name": "OWASP Smart contract vulnerabilities - OWASP Cuddalore",
-        "date": "2025-06-28",
-        "time": "18:00+05:30",
-        "link": "https://www.meetup.com/owasp-cuddalore-chapter/events/308207222",
-        "timezone": "Asia/Kolkata",
-        "description": "Join the **OWASP Cuddalore Chapter** for an insightful session on **OWASP Smart Contract Vulnerabilities**. This session will dive into key security challenges in smart contract development and showcase how OWASP standards can help mitigate risks in decentralized applications. Whether you're a developer, security enthusiast, or blockchain professional, this session will enhance your understanding of secure smart contract practices and real-world vulnerabilities.\nDon't miss the opportunity to engage with fellow professionals and strengthen your blockchain security knowledge!"
     },
     {
         "group": "Denver",
@@ -187,7 +187,7 @@
         "time": "19:30-07:00",
         "link": "https://www.meetup.com/owasp-phoenix-chapter/events/308679722",
         "timezone": "America/Phoenix",
-        "description": "**Top 5 Docker Do's and Docker Don'ts for Security (20 minutes)**\nThis presentation introduces Docker and covers essential Docker security best practices along with common pitfalls to avoid. By adopting these strategies, you can enhance your Docker security and protect your applications."
+        "description": "**Top 5 Docker Do's and Docker Don'ts for Security (30 minutes)**\nThis presentation introduces Docker and covers essential Docker security best practices along with common pitfalls to avoid. By adopting these strategies, you can enhance your Docker security and protect your applications."
     },
     {
         "group": "Ruhrpott",
