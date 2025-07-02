@@ -60,6 +60,16 @@
         "description": "**This meeting will be in-person! Thank you to Kroger for hosting at their Kroger Blue Ash Technology Center. For security, RSVP by 2 days prior to the meeting is required.**\n\n**Sponsored by [Ox Security](https://www.ox.security/)**\n\nAI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security.\n\n**Approximate schedule:**\n4:00 - Doors open. Come for networking and refreshments!\n4:15 - Presentation begins.\n5:15 - Networking and refreshments resume!\n6:00 EOE (End of Event)"
     },
     {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "Synthetic Souls: How Criminals are Hijacking Identity in Modern Crime",
+        "date": "2025-07-17",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/308650589",
+        "timezone": "America/New_York",
+        "description": "Identity: once the bedrock of trust\u2014now just another data point to be manipulated. In today's digital underground, identities are stitched together from stolen scraps, deepfakes, and AI-generated personas. Welcome to the world of synthetic identities\u2014where fraud has evolved into a scalable business model.\nIn this talk, you'll dive into the anatomy of identity crime: how synthetic IDs are built, sold, and used by organized criminal networks to fuel fraud at industrial scale. We'll unpack real-world tactics, explore how deepfake tech and AI are reshaping identity-based attacks, and expose the twisted innovation cycles driving this threat landscape.\nForget the usual buzzwords\u2014this isn't a session on passwords or MFA. This is about stepping into the mind of a modern fraudster and asking: what *they're* afraid of. More importantly, we'll cover how OWASP members and developers can shift from passive defenders to active disruptors in the identity war."
+    },
+    {
         "group": "Cotonou",
         "repo": "www-chapter-cotonou",
         "name": "L'IA au service de la d\u00e9tection des menaces: mythe ou r\u00e9alit\u00e9?",
@@ -132,6 +142,16 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "AISVS: A Developer-Centric Standard for Securing AI Applications",
+        "date": "2025-07-16",
+        "time": "09:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/308767382",
+        "timezone": "America/Los_Angeles",
+        "description": "We are thrilled to share this timely talk by **Jim Manico** and presented by **The [OWASP Virtual Chapter](https://owasp.org/www-chapter-virtual/)**\n\n**RSVP** at https://www.meetup.com/owasp-virtual-chapter/events/307914301/\n\n**Abstract:**\nAs artificial intelligence systems become integrated into mainstream applications, their attack surface expands dramatically\u2014introducing new threats and compounding existing vulnerabilities. The **OWASP Artificial Intelligence Security Verification Standard (AISVS)** is a new community-driven project designed to define **clear, actionable security requirements** for developers, architects, and testers building AI-enabled software.\nIn this session, OWASP leader and security educator **Jim Manico** will introduce AISVS 1.0, walk through its structure and key categories, and explain how it complements traditional application security standards like ASVS. You\u2019ll learn:\n\n* Why we need AISVS: the unique threats AI systems face\n* The structure and scope of AISVS and how it supports different security assurance levels\n* Key controls across AI data governance, model development, and deployment\n* How AISVS integrates with NIST AI RMF, ISO/IEC 42001, and the OWASP LLM Top 10\n* How to start using AISVS in your organization today\n\nWhether you're building AI-driven apps, managing security risk for machine learning models, or curious about adversarial ML and secure prompt engineering\u2014this talk will equip you with the foundation to develop and verify **secure and trustworthy AI systems.**\n\n**Target Audience:**\nDevelopers, AppSec professionals, DevOps teams, AI/ML engineers, and anyone interested in the future of secure software development."
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "Hands-on Workshop OWASP LA - July 9, 2025",
         "date": "2025-07-09",
         "time": "17:30-07:00",
@@ -162,22 +182,12 @@
     {
         "group": "Peterborough",
         "repo": "www-chapter-peterborough",
-        "name": "Cyber Peterborough Presents: Cyber Industry Night! ",
+        "name": "Monthly Networking Social: Charters Bar! ",
         "date": "2025-07-23",
-        "time": "18:00+01:00",
+        "time": "18:30+01:00",
         "link": "https://www.meetup.com/owasp-peterborough/events/305916303",
         "timezone": "Europe/London",
-        "description": "Cyber Peterborough presents *Cyber Industry Night*! An evening of focused discussion, interactive sessions and presentations from leaders in the field. Technical or non-technical, this event will help you understand what is currently happening in the cyber security field, what is cutting edge and the real problems businesses are facing. Join us and meet other people interested in Cyber.\n**Where?**\n\n* TBC - specific details will be published closer to the date.\n\n**When?**\n\n* Wednesday 23rd July\n\nPlease respond to this event to confirm numbers for the event ensuring each attendee is catered for.\nThank you,\nRyan"
-    },
-    {
-        "group": "Phoenix",
-        "repo": "www-chapter-phoenix",
-        "name": "July 2025 Meeting",
-        "date": "2025-07-01",
-        "time": "19:30-07:00",
-        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/308679722",
-        "timezone": "America/Phoenix",
-        "description": "**Top 5 Docker Do's and Docker Don'ts for Security (30 minutes)**\nThis presentation introduces Docker and covers essential Docker security best practices along with common pitfalls to avoid. By adopting these strategies, you can enhance your Docker security and protect your applications."
+        "description": "**What & Where?**\n\n* Social Drinks @ Charters bar\n\n**When?**\n\n* \\- Weds 23rd August from 6:30pm\n\nThank you,\n\nRyan & Mark\n\n\\*This date was a formal event - this has been changed and moved to October - see https://www.meetup.com/owasp-peterborough/events/305916317/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2 to sign up."
     },
     {
         "group": "Ruhrpott",
