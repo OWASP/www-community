@@ -44,7 +44,7 @@
         "repo": "www-chapter-bhopal",
         "name": " CyberShield: Injection Attacks & Capture The Flag (CTF)",
         "date": "2025-07-05",
-        "time": "11:00+05:30",
+        "time": "09:15+05:30",
         "link": "https://www.meetup.com/owasp-bhopal-chapter/events/308687092",
         "timezone": "Asia/Kolkata",
         "description": "**Organized by OWASP Bhopal and SisTec**\n\nGet ready for a thrilling cybersecurity experience featuring:\n **1-Hour Technical Session** \u2013 Dive deep into **Injection Attacks** (SQL, Command, etc.) with experts. Learn how these critical vulnerabilities work and how to prevent them through secure coding.\n **4-Hour Capture The Flag (CTF)** \u2013 Put your skills to the test with challenges in web exploitation, cryptography, forensics, and more. Compete, learn, and rise through the leaderboard.\n\n **Exciting prizes** and **certificates** for all participants!\n\nOpen to all students and cybersecurity enthusiasts."
@@ -80,16 +80,6 @@
         "description": "Identity: once the bedrock of trust\u2014now just another data point to be manipulated. In today's digital underground, identities are stitched together from stolen scraps, deepfakes, and AI-generated personas. Welcome to the world of synthetic identities\u2014where fraud has evolved into a scalable business model.\nIn this talk, you'll dive into the anatomy of identity crime: how synthetic IDs are built, sold, and used by organized criminal networks to fuel fraud at industrial scale. We'll unpack real-world tactics, explore how deepfake tech and AI are reshaping identity-based attacks, and expose the twisted innovation cycles driving this threat landscape.\nForget the usual buzzwords\u2014this isn't a session on passwords or MFA. This is about stepping into the mind of a modern fraudster and asking: what *they're* afraid of. More importantly, we'll cover how OWASP members and developers can shift from passive defenders to active disruptors in the identity war."
     },
     {
-        "group": "Cotonou",
-        "repo": "www-chapter-cotonou",
-        "name": "L'IA au service de la d\u00e9tection des menaces: mythe ou r\u00e9alit\u00e9?",
-        "date": "2025-07-03",
-        "time": "16:00+01:00",
-        "link": "https://www.meetup.com/owasp-cotonou-chapter/events/308570040",
-        "timezone": "Africa/Porto-Novo",
-        "description": "Face \u00e0 l'escalade des cybermenaces qui p\u00e8sent sur les entreprises b\u00e9ninoises et mondiales, ce meeting exceptionnel rassemblera l'\u00e9lite de la cybers\u00e9curit\u00e9 et de l'Intelligence Artificielle. Nous explorerons comment les derni\u00e8res avanc\u00e9es de l'IA peuvent devenir votre arme la plus redoutable pour contrer ces attaques. Que vous soyez entrepreneur, \u00e9tudiant, dipl\u00f4m\u00e9, simple curieux ou formateur, votre pr\u00e9sence est cruciale pour fa\u00e7onner l'avenir de la s\u00e9curit\u00e9 num\u00e9rique."
-    },
-    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Denver OWASP July Meetup - Join Us!",
@@ -98,6 +88,26 @@
         "link": "https://www.meetup.com/owasp-denver-chapter/events/308564016",
         "timezone": "America/Denver",
         "description": "**Everyone is welcome! Bring a friend...**\n\nJoin us on July 16th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:30 pm - announcements and presentation starts at 6:00pm .\n\nThis month's presentation is brought to you by Endor Labs!\n\n**Presentation:**\nEvolving Your AppSec Program in the Era of AI\n\n**Abstract**:\nAI is already transforming how software is built\u2014but for security teams, it\u2019s mostly just making life harder. Developers are shipping AI-generated code at breakneck speed, while security teams struggle to keep up. The challenge isn\u2019t just securing AI-generated code and systems\u2014it\u2019s evolving your AppSec program to keep pace with software development.\n\nWe'll explore how security teams can evolve their programs across two key dimensions: securing AI-driven software development and using AI to enhance security workflows. You\u2019ll learn:\n\n* Strategies for managing risks from AI-generated code and autonomous agents\n* How security teams can use AI to reduce work and improve security outcomes\n* Where AI can enhance security\u2014and where human expertise remains irreplaceable.\n\nAI isn\u2019t just a security challenge; it\u2019s a chance to build a smarter, more efficient security program. Join us to learn how to make AI work for security, not against it."
+    },
+    {
+        "group": "Frankfurt",
+        "repo": "www-chapter-frankfurt",
+        "name": "OWASP Frankfurt Chapter Meetup #72",
+        "date": "2025-07-31",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/308736460",
+        "timezone": "Europe/Berlin",
+        "description": "Hello everyone, we're excited to invite you to the **OWASP Frankfurt Chapter** Meetup #72!\nOur OWASP Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics.\nAnyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\n\n*What are we going to talk about?*\n\n* **Title to be announced:** We are excited to welcome **Alexander Steinbrecher,** Cyber Security Specialist at DZ BANK AG and **Patrick Eisenschmidt**, Red Team Manager / TIBER-TLPT Lead at NVISO Security.\n* **TBA**\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks.\n\n*When?* Our Meetup takes place on **31.07.2025** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at codecentric AG, located at Lise-Meitner-Stra\u00dfe 4, 60486 Frankfurt am Main, Germany.\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
+    },
+    {
+        "group": "Gurugram",
+        "repo": "www-chapter-gurugram",
+        "name": "Protecting Your Web Applications: Best Practices in Web Security",
+        "date": "2025-08-02",
+        "time": "10:30+05:30",
+        "link": "https://www.meetup.com/owasp-gurugram-chapter/events/308503571",
+        "timezone": "Asia/Kolkata",
+        "description": "Join us at the OWASP Gurugram Chapter event where we will dive deep into the best practices for incorporating cybersecurity into software development processes. Our expert speakers will cover topics such as cloud security, computer security, information security, application security, and software security. Learn how to effectively secure your applications, protect your networks, and defend against cyber threats. Whether you're a developer, security professional, or IT enthusiast, this event will provide valuable insights and practical tips to enhance your software security skills. Don't miss this opportunity to network with peers, ask questions, and stay updated on the latest trends in cybersecurity."
     },
     {
         "group": "Harrisburg",
@@ -120,14 +130,14 @@
         "description": "This weekly one hour study group series is designed to help you learn how to use Windows PowerShell 5.1 and cross-platform PowerShell 7.x.\n\nThe focus will be on real world scenarios and learning by doing. The first sessions will focus on Windows but later sessions will cover 7.x on Linux.\n\nSince 5.1 is the default on Windows servers, we will start there. The primary IDE will be VS Code as it is the officially supported current PowerShell editor. Since you can't normally install it on production servers, though, running and debugging scripts in it will also be covered as it overcomes the \"it works on my system\" issue."
     },
     {
-        "group": "Joao Pessoa",
-        "repo": "www-chapter-joao-pessoa",
-        "name": "Ready, Set, Go: Explorando Condi\u00e7\u00f5es de Corrida em Golang",
-        "date": "2025-07-03",
-        "time": "19:30-03:00",
-        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/308137107",
-        "timezone": "America/Fortaleza",
-        "description": "Em um mundo onde concorr\u00eancia e paralelismo s\u00e3o essenciais para desempenho e efici\u00eancia, nem sempre chegar em primeiro \u00e9 garantia de vit\u00f3ria. Race conditions, ou condi\u00e7\u00f5es de corrida, podem transformar um c\u00f3digo aparentemente saud\u00e1vel em uma verdadeira corrida maluca, cheia de resultados imprevis\u00edveis, bugs intermitentes e noites mal dormidas.\nNesta palestra din\u00e2mica e pr\u00e1tica, vamos acelerar pelo universo das aplica\u00e7\u00f5es concorrentes em Go, identificando os perigos escondidos em acessos simult\u00e2neos a recursos compartilhados. Voc\u00ea aprender\u00e1 como detectar essas situa\u00e7\u00f5es problem\u00e1ticas, compreender suas causas e formas de evit\u00e1-las."
+        "group": "London",
+        "repo": "www-chapter-london",
+        "name": "OWASP London Chapter Meetup",
+        "date": "2025-07-17",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-london/events/308850519",
+        "timezone": "Europe/London",
+        "description": "**This event is kindly hosted by Civo Tech Junction and sponsored by Black Duck . There is limited seating available for in-person attendees. Registration required.**\n**This event will be live-streamed on YouTube.**\n**Recordings will be available on the OWASP London YouTube channel.**\n\n**Venue Location**: Civo Tech Junction, First Floor, 32-37 Cowper Street, London, EC2A 4AW\n**Nearest Tube:** Old Street (Northern Line), Cowper Street exit - 1 min walk\n**Doors Open at 6pm** for registration, pizza, drinks and networking. The talks start at 6:30pm (we start on time!).\n\n**TALKS:**\n\n**OWASP Introduction, Welcome and News** \\- Sam Stepanyan\\, Andra Lezza\\, Sherif Mansour \\- OWASP London Chapter Leaders\n\n**\"Server-Side Cross-Site Scripting\" - Balazs Bucsay**\n\nCross-Site Scripting is no longer a new or hot topic, but as new technologies are introduced rapidly, and with the expansion of cloud solutions and containerisation, classic vulnerabilities may take on new forms. Server-Side XSS is an unusual method to execute malicious payloads on the server rather than the client.\nThe talk includes multiple demos that walk the audience through an attack chain utilising multiple vulnerabilities and misconfigurations to escalate privileges, and to transform a seemingly benign vulnerability into a powerful tool for cloud account takeover. In addition to explaining the issue with Server-Side XSS, its limitations and capabilities will also be discussed. Recommendations will be provided to prevent others from making the same mistakes that are already widespread.\n\n**\"Securing the Software Supply Chain in the Age of AI, Malware, and Compliance\" - Matthew Brady**\n\nModern development teams rely heavily on third-party code, AI-generated content, and rapid release cycles\u2014making the software supply chain a growing target for attackers. At the same time, security teams are expected to manage increasing compliance demands and prevent threats like dependency confusion and malicious packages, all without slowing down developers. This talk focuses on how AppSec teams can build practical, scalable approaches to securing the software supply chain, drawing from real-world challenges and lessons learned across the industry.\n\n**RAFFLE - win a prize kindly donated by our sponsors!**\n\n**SPEAKERS**\n\n**Balazs Bucsay**\n\nBalazs Bucsay is the founder & CEO of Mantra Information Security that offers a variety of consultancy services in the field of IT Security. With decades of offensive security experience he is focusing his time mainly on research in various fields including red teaming, reverse engineering, embedded devices, firmware emulation and cloud. He gave multiple talks around the globe (Singapore, London, Melbourne, Honolulu) on different advanced topics and released several tools and papers about the latest techniques. He has multiple certifications (OSCE, OSCP, OSWP) related to penetration testing, exploit writing and other low-level topics and degrees in Mathematics and Computer Science. Balazs thinks that sharing knowledge is one of the most important things, so he always shares it with his peers. Because of his passion for technology he starts the second shift right after work to do some research to find new vulnerabilities.\n\n**Matthew Brady**\n\nMatthew has a unique combination of technical knowledge with commercial awareness in many areas including Software Application Security, DevOps and software development lifecycle solutions and services across multiple vertical markets. Matthew currently leads a team of Solution Engineers in EMEA and is subject matter expert in Black Duck supply chain solutions. Prior to that he has worked for CISCO/AppDynamics and Hewlett Packard Enterprise.\n\n**TICKETS:**\n\nOWASP meetups are free and open to anyone interested in application security. Please note that you MUST book your place to be admitted to the event by the building security.\n\n**CODE OF CONDUCT:**\n\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. OWASP Code Of Conduct: [https://owasp.org/www-policy/operational/code-of-conduct](https://owasp.org/www-policy/operational/code-of-conduct)"
     },
     {
         "group": "Los Angeles",
@@ -170,16 +180,6 @@
         "description": "**TOPIC:** Hands-on Application Security Workshop with Runtime Security IAST Technology and Secure Code Training\nJoin us for an action-packed hands-on workshop event led by **Will Derksen**, Sr. Solutions Engineer, **Contrast Security**.\nEarn 2 hours of CPE credit!\\*\n\n**ABSTRACT:**\nTogether, we will...\n\n* Unify around a precise definition of a vulnerability, as well as understand the challenges current application testing methodologies have in detecting vulnerabilities, and how to change the way we interact with them\n* Get hands-on-keyboard experience leveraging Contrast training to find a vulnerability in code, learn how to fix said vulnerability, and proactively go and remediate the vulnerability\n\nWho should attend?\n\n* AppSec professionals\n* Security engineers\n* Software engineers\n* DevOps/DevSecOps professionals\n* Anyone wanting to learn more about identifying and fixing code vulnerabilities, discover the most efficient ways to execute on a DevSecOps program, and become proactively more knowledgeable around secure coding techniques.\n\n**\\*\\* PLEASE NOTE \\*\\*** \\- for the lab portion of this event\\, you must bring a laptop \\(phones or other personal devices will NOT work for the lab\\)\\.\n\\*This workshop qualifies for 2 hours of hands-on training for Continuing Professional Credits (CPE). For CISSP holders this would be in the Application Security Discipline and you will receive a certificate of completion after the workshop.\n\n**Thanks to our SPONSOR**: *[Contrast Security](https://www.contrastsecurity.com/)*\n*You can't stop what you can't see*\n*Novel attacks can appear harmless without visibility into the grey areas of your application layer.Stop attacks in your applications and APIs from development to production.*\n\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
-        "group": "Natal",
-        "repo": "www-chapter-natal",
-        "name": "Outlaw: Abusing SSH for fun and profit",
-        "date": "2025-07-03",
-        "time": "20:00-03:00",
-        "link": "https://www.meetup.com/owasp-natal-chapter/events/308806375",
-        "timezone": "America/Fortaleza",
-        "description": "Voc\u00ea est\u00e1 preparado para mergulhar no mundo da ciberseguran\u00e7a e desvendar os segredos por tr\u00e1s de um incidente envolvendo o SSH em ambiente Linux? N\u00e3o perca o evento imperd\u00edvel do chapter da OWASP Natal!\n\nData: 29 de maio\nHor\u00e1rio: 21h\n\nAprenda com um dos melhores! Junte-se a n\u00f3s para uma sess\u00e3o online envolvente e informativa, onde o especialista Cristian Souza ir\u00e1 compartilhar insights valiosos sobre a an\u00e1lise de um incidente envolvendo uma vulnerabilidade real encontrada. Esta \u00e9 uma oportunidade \u00fanica para expandir seu conhecimento e aprimorar suas habilidades no campo da ciberseguran\u00e7a.\n\nMarque esta data em sua agenda e convide seus colegas e amigos para se juntarem a n\u00f3s nesta jornada fascinante!\n\nN\u00e3o perca esta chance de aprimorar suas habilidades e ficar um passo \u00e0 frente no mundo da seguran\u00e7a cibern\u00e9tica. Esperamos v\u00ea-lo l\u00e1!"
-    },
-    {
         "group": "Northern Virginia",
         "repo": "www-chapter-northern-virginia",
         "name": "Demystifying SOC 2 for Your AppSec Program",
@@ -198,16 +198,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/305916303",
         "timezone": "Europe/London",
         "description": "**What & Where?**\n\n* Social Drinks @ Charters bar\n\n**When?**\n\n* \\- Weds 23rd August from 6:30pm\n\nThank you,\n\nRyan & Mark\n\n\\*This date was a formal event - this has been changed and moved to October - see https://www.meetup.com/owasp-peterborough/events/305916317/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2 to sign up."
-    },
-    {
-        "group": "Ruhrpott",
-        "repo": "www-chapter-ruhrpott",
-        "name": "OWASP Top 10 Infrastructure Security Risks & Infrastructure Testing",
-        "date": "2025-07-03",
-        "time": "18:30+02:00",
-        "link": "https://www.meetup.com/owasp-ruhrpott-chapter/events/308480421",
-        "timezone": "Europe/Berlin",
-        "description": "Wir laden ein zum n\u00e4chsten Treffen des OWASP Ruhrpott Chapters.\nDas Treffen findet am 03.07.2025, ab 18:30 Uhr an der Ruhr-Universit\u00e4t Bochum Universit\u00e4tsstr. 150, Geb\u00e4ude ID, Raum 03/471 statt.\n\n**Was euch erwartet**\n\n* Vorstellung der OWASP Top 10 Infrastructure Security Risks\n* Gespr\u00e4chsrunde zu OWASP und Infrastructure Tests\n\nIm Anschluss besteht erneut die M\u00f6glichkeit in umliegende Lokalit\u00e4ten zu wechseln f\u00fcr gesellige Gespr\u00e4che.\n\n**F\u00fcr wen ist das Treffen geeignet?**\nDas OWASP Chapter-Treffen richtet sich an alle, die sich mit dem Thema IT-Sicherheit besch\u00e4ftigen \u2013 unabh\u00e4ngig von Branche oder Erfahrungsstand. Ob im Bereich Offensive Security, Defensive Security, Incident Response, Softwareentwicklung oder Security-Architektur: Wer sich f\u00fcr sichere Systeme, aktuelle Bedrohungen und Schwachstellen interessiert, ist hier genau richtig. Das Treffen bietet eine gute Gelegenheit zum Wissensaustausch, Networking und zur Diskussion aktueller Sicherheitsthemen.\n\n**Weitere Informationen**\nIhr findet weitere Informationen \u00fcber uns unter [https://owasp.org/www-chapter-ruhrpott/](https://owasp.org/www-chapter-ruhrpott/)"
     },
     {
         "group": "Salt Lake City",
@@ -278,5 +268,25 @@
         "link": "https://www.meetup.com/owasp-virtual-chapter/events/307914301",
         "timezone": "America/New_York",
         "description": "**Abstract:**\nAs artificial intelligence systems become integrated into mainstream applications, their attack surface expands dramatically\u2014introducing new threats and compounding existing vulnerabilities. The **OWASP Artificial Intelligence Security Verification Standard (AISVS)** is a new community-driven project designed to define **clear, actionable security requirements** for developers, architects, and testers building AI-enabled software.\n\nIn this session, OWASP leader and security educator **Jim Manico** will introduce AISVS 1.0, walk through its structure and key categories, and explain how it complements traditional application security standards like ASVS. You\u2019ll learn:\n\n* Why we need AISVS: the unique threats AI systems face\n* The structure and scope of AISVS and how it supports different security assurance levels\n* Key controls across AI data governance, model development, and deployment\n* How AISVS integrates with NIST AI RMF, ISO/IEC 42001, and the OWASP LLM Top 10\n* How to start using AISVS in your organization today\n\nWhether you're building AI-driven apps, managing security risk for machine learning models, or curious about adversarial ML and secure prompt engineering\u2014this talk will equip you with the foundation to develop and verify **secure and trustworthy AI systems.**\n\n**Target Audience:**\nDevelopers, AppSec professionals, DevOps teams, AI/ML engineers, and anyone interested in the future of secure software development."
+    },
+    {
+        "group": "Yaounde",
+        "repo": "www-chapter-yaounde",
+        "name": "OWASP Yaounde July 2025 Chapter Meeting",
+        "date": "2025-07-26",
+        "time": "14:00+01:00",
+        "link": "https://www.meetup.com/owasp-yaounde-chapter/events/308752774",
+        "timezone": "Africa/Douala",
+        "description": "[English]\nJuly 2025 OWASP Yaounde chapter meeting.\n\nSchedule:\n\n* Introduction and Chapter Updates\n* Special Guest\n* Workshop: \"Understanding the OWASP Top 10 (2021) - Part 2 of 5\" by Ernest Mougoue\n* Networking\n\nSpeakers:\nErnest Mougoue\nErnest is a Chapter Lead for OWASP Yaounde. He has 12+ years of experience in the software security field, having worked as a consultant or cybersecurity team leader for some of the largest companies in the United States. More recently, he is the co-CEO of MBOA DIGITAL, building the Cybersecurity practice.\n\nSpecial Guest\nFor the first time, we will have a special guest to our meetup that will share their experience with Application Security. You do not want to miss it! Information on the guest will be shared a few days before the event.\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\n[French]\nReunion de Juillet 2025 chapitre OWASP Yaound\u00e9.\n\nProgramme :\n\n* Introduction et mises \u00e0 jour du chapitre\n* Invit\u00e9 Sp\u00e9cial\n* Atelier : \"Comprendre l'OWASP Top 10 (2021) - Partie 2 sur 5\" par Ernest Mougoue\n* R\u00e9seautage\n\nIntervenants:\nErnest Mougoue\nErnest est un chapter lead pour OWASP Yaound\u00e9. Il a plus de 12 ans d'exp\u00e9rience dans le domaine de la s\u00e9curit\u00e9 informatique, ayant travaill\u00e9 comme consultant ou chef d'\u00e9quipe de cybers\u00e9curit\u00e9 pour certaines des plus grandes entreprises aux \u00c9tats-Unis. Plus r\u00e9cemment, il est le co-CEO de MBOA DIGITAL, o\u00f9 il d\u00e9veloppe le p\u00f4le cybers\u00e9curit\u00e9.\n\nInvit\u00e9 Sp\u00e9cial\nPour la premi\u00e8re fois, nous aurons un invit\u00e9 sp\u00e9cial \u00e0 notre rencontre qui partagera son exp\u00e9rience en s\u00e9curit\u00e9 applicative. A ne pas manquer! Les informations concernant cet invit\u00e9 seront communiqu\u00e9es quelques jours avant l'\u00e9v\u00e9nement."
+    },
+    {
+        "group": "Wrongsecrets",
+        "repo": "www-project-wrongsecrets",
+        "name": "OWASP Frankfurt Chapter Meetup #72",
+        "date": "2025-07-31",
+        "time": "18:00+02:00",
+        "link": "https://www.meetup.com/owasp-frankfurt/events/308736460",
+        "timezone": "Europe/Berlin",
+        "description": "Hello everyone, we're excited to invite you to the **OWASP Frankfurt Chapter** Meetup #72!\nOur OWASP Chapter serves central Germany, particularly within the Rhine-Main (Hesse) region, as a platform to discuss and share information on application security topics.\nAnyone interested and enthusiastic about application security or security in general is welcome. All meetings are free and open. You do not have to be an OWASP member to attend our event.\n\n*What are we going to talk about?*\n\n* **Title to be announced:** We are excited to welcome **Alexander Steinbrecher,** Cyber Security Specialist at DZ BANK AG and **Patrick Eisenschmidt**, Red Team Manager / TIBER-TLPT Lead at NVISO Security.\n* **TBA**\n\n**Socializing Opportunities:** There will be plenty of time to socialize before and after the event.\n\n*Afterwards?* We will begin and conclude the evening with the opportunity to socialize at the venue with free food and both cold & hot drinks.\n\n*When?* Our Meetup takes place on **31.07.2025** from **18.00 to 22.00** o'clock CEST.\n\n*Where?* The event will be held at codecentric AG, located at Lise-Meitner-Stra\u00dfe 4, 60486 Frankfurt am Main, Germany.\n\n*Interested in giving a talk yourself?* Submit your talk here: [https://www.papercall.io/owasp-chapter-frankfurt](https://www.papercall.io/owasp-chapter-frankfurt)\n\n*And now?* Save the date, spread the word, and bring your friends and colleagues along to our event.\n\n*Follow Us!* Also, follow us on LinkedIn and refer to our OWASP Frankfurt site for information, including slides and recordings of previous presentations. We're looking forward to seeing you at our event!"
     }
 ]
