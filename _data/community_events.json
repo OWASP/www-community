@@ -50,16 +50,6 @@
         "description": "We\u2019re excited to announce that our **July OWASP Meetup** will be Sponsored by **Endor Labs**\n\nJoin us for an evening of great conversations, community networking, and insightful security discussions \u2014 all in an awesome venue provided by **Endor Labs**. And yes, there will be **delicious food and drinks** generously provided by our sponsors!\n\n5:00 PM : Doors open, Networking, food and drinks\n5.30 PM :- Chapter introductions\n5.45-6.15 PM :- **Evolving Your AppSec Program in the Era of AI**\n6.15-7.00 PM :- **Role mining for AppSec with AI and Open policy agent**\n7.0-7.45 PM :- **MCP Security: Securing the newest API Standard Behind ChatGPT, Claude & Copilot**\n\nTalk#1 :- Evolving Your AppSec Program in the Era of AI\n\n**Description:** AI is already transforming how software is built\u2014but for security teams, it\u2019s mostly just making life harder. Developers are shipping AI-generated code at breakneck speed, while security teams struggle to keep up. The challenge isn\u2019t just securing AI-generated code and systems\u2014it\u2019s evolving your AppSec program to keep pace with software development.We'll explore how security teams can evolve their programs across two key dimensions: securing AI-driven software development and using AI to enhance security workflows. You\u2019ll learn:\n\n* Strategies for managing risks from AI-generated code and autonomous agents\n* How security teams can use AI to reduce work and improve security outcomes\n* Where AI can enhance security\u2014and where human expertise remains irreplaceable.\n\nAI isn\u2019t just a security challenge; it\u2019s a chance to build a smarter, more efficient security program. Join us to learn how to make AI work for security, not against it.\n\n**Speaker:-** **Andrew Stiefel** is a product marketing manager at Endor Labs, where he focuses on open source security. He previously led product marketing for developer security products at 1Password and API security at NGINX. His writing on software supply chain security, DevSecOps, and API security has appeared in the CNCF blog, The New Stack, and Help Net Security.\n\n**Talk#2:** Role mining for AppSec with AI and Open policy agent\n**Description**: Sultan will share his experience how to use AI to create RBAC roles and ways to enforce them with OPA on large microservices deployments\n**Speaker:** Sultan is a Product Security engineer at Zoox, where he is working to secure the infrastructure for the future of autonomous mobility. Previously, Sultan has worked at Roblox and Palo Alto Networks, building software in the IAM and IoT security space.\n\n**Talk#3:** MCP Security: Securing the newest API Standard Behind ChatGPT, Claude & Copilot\n**Description:** MCP is the new API standard behind tools like ChatGPT, Claude, GitHub Copilot, and Cursor powering over 5,000 servers. But this new protocol brings new risks: tool poisoning, shadow tools, rug pulls, and credential leaks that traditional AppSec tools weren\u2019t built to detect.\n\nJoin us to learn:\n\n1. What Are MCPs and Why They Matter?\n2. Why \u201cprompt \u2192 reasoning \u2192 tool\u201d changes everything\n3. Real-world attacks like tool poisoning, shadow tools, and token misuse\n4. How leading AppSec teams are starting to secure this emerging layer?\n5. A solution to MCP Security in action\n\n**Speaker:** Ankita is the Co-founder and CEO of Akto - the fastest growing API Security Solution for Modern Appsec Teams. She has 15 years of experience working at JP Morgan, VMware, Linkedin across engineering, security, GTM teams. She completed her engineering undergraduate from IIT Roorkee and Masters from Dartmouth College. She founded Akto in 2022 with a mission to secure APIs, apps and everything in between for appsec teams. She is leading her company to empower appsec teams with AI-first security practices and technology."
     },
     {
-        "group": "Bhopal",
-        "repo": "www-chapter-bhopal",
-        "name": " CyberShield: Injection Attacks & Capture The Flag (CTF)",
-        "date": "2025-07-05",
-        "time": "09:15+05:30",
-        "link": "https://www.meetup.com/owasp-bhopal-chapter/events/308687092",
-        "timezone": "Asia/Kolkata",
-        "description": "**Organized by OWASP Bhopal and SisTec**\n\nGet ready for a thrilling cybersecurity experience featuring:\n **1-Hour Technical Session** \u2013 Dive deep into **Injection Attacks** (SQL, Command, etc.) with experts. Learn how these critical vulnerabilities work and how to prevent them through secure coding.\n **4-Hour Capture The Flag (CTF)** \u2013 Put your skills to the test with challenges in web exploitation, cryptography, forensics, and more. Compete, learn, and rise through the leaderboard.\n\n **Exciting prizes** and **certificates** for all participants!\n\nOpen to all students and cybersecurity enthusiasts."
-    },
-    {
         "group": "Boston",
         "repo": "www-chapter-boston",
         "name": "OWASP Boston Chapter Meeting - July 2025",
@@ -128,6 +118,16 @@
         "link": "https://www.meetup.com/owasp-harrisburg/events/308527420",
         "timezone": "America/New_York",
         "description": "To help support our other local cybersecurity groups and help bring awareness to our initiatives, we are sponsoring with ISC2's Central PA Chapter! Check Point has graciously agreed to sponsor the event. This will be a great opportunity to mingle with even more like-minded cybersecurity individuals in the Harrisburg area! More details on the topic and event information to follow!"
+    },
+    {
+        "group": "Hermosillo",
+        "repo": "www-chapter-hermosillo",
+        "name": "OWASP API Security Top 10",
+        "date": "2025-07-15",
+        "time": "16:00-07:00",
+        "link": "https://www.meetup.com/owasp-hermosillo-chapter/events/308883408",
+        "timezone": "America/Hermosillo",
+        "description": "**Panorama actual:** Estad\u00edsticas de ataques y tendencias 2025\n**Tipos de arquitecturas de APIs:** REST, GraphQL, gRPC, etc\n**C\u00f3digos HTTP:** m\u00e1s comunes y su significado\n**API Security Top 10**\n**C\u00f3digo seguro:** Ejemplos pr\u00e1cticos de vulnerable vs. implementaci\u00f3n segura"
     },
     {
         "group": "Houston",
