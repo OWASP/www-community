@@ -22,3 +22,46 @@ Through neglect an administrator may allow a domain name or e-mail account to ex
 - There is very little recourse if a malicious entity has purchased your domain. They can sell it back to you for however much money they want to charge. Even if you have grounds for a lawsuit, it can take months at least.
 - If you have applications(especially no-longer supported) sending data to a domain, if an attacker buys the domain they can gather personal information from your users.
 - Domains most likely to expire are those belonging to projects or companies that no longer exist.
+
+
+## Threat Model
+
+| **Asset**              | **Threat**                                     | **Impact**                        |
+|------------------------|------------------------------------------------|-----------------------------------|
+| Expired Domain         | Purchased by attacker                          | Intercept user emails             |
+| Old Email Address      | Reclaimed by attacker                          | Reset linked accounts             |
+| Legacy App Endpoints   | Still communicating with expired domain        | Leak sensitive user or app data   |
+| Backup/Recovery Emails | Controlled by third parties post-expiry        | Account takeover, identity theft  |
+
+Attackers often exploit these expired assets to:
+- Monitor and harvest incoming mail (especially spam and password reset emails).
+- Conduct phishing or social engineering using a trusted domain.
+- Reverse-engineer platform usage and service connections of former users.
+
+---
+
+## Ways to Prevent Domain and Email Expiry Risks
+
+1. **Track Domain and Email Expiration Dates**
+   Implement a centralized tracking system with automated alerts to monitor upcoming renewals and prevent accidental lapses.
+
+2. **Enable Auto-Renewal for Critical Services**
+   Configure auto-renewal for all essential domains and email services, ensuring a valid and up-to-date payment method is in place.
+
+3. **Avoid Free or Unreliable Email Providers**
+   For business-critical communications, use email accounts hosted on domains you control. Avoid free services (e.g., Yahoo, Hotmail) for any official or recovery-related use.
+
+4. **Use Stable, Owned Domains for Account Recovery**
+   Ensure account recovery emails (e.g., for social media, cloud platforms) are tied to institutional or long-term domains—not temporary or project-based ones.
+
+5. **Properly Decommission Legacy Applications**
+   Before retiring an application or domain, audit all dependencies and update configurations to prevent sensitive data from being sent to an attacker-controlled domain.
+
+
+## Related OWASP Topics
+- [OWASP Top 10: A05 – Security Misconfiguration](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
+- [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
+- Threat modeling methodologies such as STRIDE
+
+---
+
