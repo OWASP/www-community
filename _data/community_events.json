@@ -60,16 +60,6 @@
         "description": "The OWASP Boulder Chapter is excited to announce our July 2025 Chapter Meeting! Scheduled for Wednesday, July 23rd at the Rule4 office at 6 PM, with complimentary food, beer, and soft drinks. Join us for networking with your peers and a featured talk from Akira Brand presenting:\n\n**Earning your Stripes: Lessons in AppSec Leadership from the first year on the job**\n\nIn this talk, we will explore different principles of AppSec leadership that Akira learned from their first year as an AppSec VP. This is especially relevant for those who are standing up an Application Security Program from greenfield. You will walk away from this talk with a deeper understanding of leadership principles that can only be learned in the battle arena of AppSec leadership. No theory, no untested ideas, just hard lessons learned from a beginner leader that are relevant no matter how much experience you have.\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec Organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:15ish Main Topic Presentation\n7:15ish - 7:30 Q&A and Discussion\n7:30 - 8:00 More Networking"
     },
     {
-        "group": "Cairo",
-        "repo": "www-chapter-cairo",
-        "name": "AI, Security, and Hacking Tools",
-        "date": "2025-07-19",
-        "time": "12:00+03:00",
-        "link": "https://www.meetup.com/owasp-cairo-chapter/events/309128826",
-        "timezone": "Africa/Cairo",
-        "description": "We\u2019re excited to invite you to our next meetup, where we\u2019ll explore how AI and security intersect in practical, hands-on ways. Two speakers, two talks, and plenty to learn and discuss.\n\n\u200d Speakers & Sessions:\n\n Ads \u2013 Staff AI Security Researcher @ Dreadnode\n\nTalk: Dreadnode, dyana: A Hacker\u2019s Sandbox for Profiling ML Models, Binaries & Beyond\n\nWhat it\u2019s about:\nAds will introduce dyana, a tool that lets you safely run and inspect machine learning models, executables, and other artifacts. He\u2019ll explain how dyana works, why it\u2019s useful, and show a live demo of a backdoored ML model in action. You\u2019ll also see how you can use dyana in your own testing or response workflows.\n\n Fady Othman\n\nTalk: Building Your AI Hacking Assistant\n\nWhat it\u2019s about:\nFady will share how he built a personal assistant powered by AI to help with security tasks. He\u2019ll cover what worked, what didn\u2019t, and how you can start building your own. Expect practical examples and simple ways to get started using AI to support your work.\n\n Event Details\n\n Date: Saturday, July 19, 2025\n Time: 12:00 PM (GMT+3) / 5:00 AM ET\n Location: https://us04web.zoom.us/j/76125921980?pwd=AOPifgtwaBqURansQ0WQNNu9FfLCn7.1\n\nWhether you\u2019re working with AI, testing systems, or just curious, this meetup is for you.\nBring your questions, grab a seat, and let\u2019s learn together.\n\n#OWASPCairo #AIHacking #OWASP #CyberSecurity #MLSecurity #AItools #dyana #LLMSecurity #AIandSecurity"
-    },
-    {
         "group": "Colorado Springs",
         "repo": "www-chapter-colorado-springs",
         "name": "OWASP JULY 31ST MEETUP",
@@ -172,6 +162,16 @@
     {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
+        "name": "OWASP Jax Monthly Meetup",
+        "date": "2025-08-18",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owasp-jacksonville/events/309788238",
+        "timezone": "America/New_York",
+        "description": "Monthly OWASP Jax meeting."
+    },
+    {
+        "group": "Jacksonville",
+        "repo": "www-chapter-jacksonville",
         "name": "Web-Based Cybersecurity Tools: Practical Power with Just a Browser",
         "date": "2025-07-21",
         "time": "18:30-04:00",
@@ -210,14 +210,14 @@
         "description": "**TOPIC:** The Carrot vs. The Stick: Making a Positive Impact on the Security + Developer Relationship\nJoin us for great networking, dinner and drinks, and see a presentation by **Eitam Arad,** Sr. Solutions Engineer, **Arnica**\n\n**ABSTRACT:**\nSecurity and development teams often work toward the same goal but rarely in sync. Misaligned incentives, late-stage scans, and noisy alerts lead to friction and slow remediation. This talk explores how shifting security earlier in the SDLC and aligning with developer workflows can improve outcomes across the board.\nYou'll learn how developer empowerment, real-time feedback, and actionable guidance reduce alert fatigue, shorten MTTR, and drive better collaboration between teams.\n\n**Thanks to our SPONSOR**: *[Arnica](https://www.arnica.io/)*\n*Pipelineless AppSec. Developer-Native Workflows.*\n*Surface the right risk to the right owner at the right time with pipelineless, developer-native workflows that foster collaboration, increase development velocity, and reduce overall risk.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "SoCal Cyber Luau Social - Saturday July 19, 2025",
-        "date": "2025-07-19",
-        "time": "10:00-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/308598390",
-        "timezone": "America/Los_Angeles",
-        "description": "Join us for the first ever **SoCal Cyber Summer Luau Social**, hosted by participating cybersecurity communities in Southern California:\n**ISSA SoCal**, **CSA LA/SoCal**, **OWASP LA, ISC2LA, ISACA OC, OWASP OC,** and **Women's Society of CyberJutsu** Chapters.\n\nPLEASE (1) RSVP here on our meetup and (2) remember you **must** get a ticket here **\\*\\*REGISTER\\*\\*** at https://lu.ma/1szig7el\n\nOWASP LA Members: use code **OWASPLA-HOAHUI** during check-out in Luma to receive your complimentary passes.\n\n**Members of Sponsoring Chapters**\nYour membership provides you with up to **4 complementary tickets**. Please contact your chapter leadership for your code.\n\n\u200b**Not a Member of a Sponsoring Chapter?**\nYou can still attend by purchasing a General Admission ticket. We encourage you to join one of the sponsoring organizations for complementary access.\n\nNo slides, no panels - just a classic picnic to facilitate connection and community, and to get to know each other.\nWhether you're a seasoned pro or just dipping your toes into cybersecurity, join us and build lasting connections.\nThis is a family friendly event - so bring your loved ones! Pets are also welcome.\n\n**Come for:**\n\n* \u200bAloha inspired food\n* \u200bHawaiian T-Shirt Competition\n* \u200bGames - including some friendly chapter competition\n* \u200bGreat company!\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)\n\n#CSA #ISSASoCal #OWASPLA #CyberJutsu #ISC2LA #Cybersecurity #SafeNetworking #BuildingCommunity"
+        "group": "Mumbai",
+        "repo": "www-chapter-mumbai",
+        "name": "OWASP Mumbai Online Meetup | 26th July 2025",
+        "date": "2025-07-26",
+        "time": "12:00+05:30",
+        "link": "https://www.meetup.com/owasp-mumbai-chapter/events/310037931",
+        "timezone": "Asia/Kolkata",
+        "description": "Session Details:\n\n* Introduction to Owasp and Owasp Mumbai\n* Speaker Introduction\n\nTopic:\n\n* Behind the Hooks: Evasion and Defense By **Monika Sahu**\n* Debug Me If You Can By **Adhokshaj Mishra**"
     },
     {
         "group": "Northern Virginia",
@@ -248,16 +248,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/305916303",
         "timezone": "Europe/London",
         "description": "**What & Where?**\n\n* Social Drinks @ Charters bar\n\n**When?**\n\n* \\- Weds 23rd August from 6:30pm\n\nThank you,\n\nRyan & Mark\n\n\\*This date was a formal event - this has been changed and moved to October - see https://www.meetup.com/owasp-peterborough/events/305916317/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2 to sign up."
-    },
-    {
-        "group": "Pune",
-        "repo": "www-chapter-pune",
-        "name": "OWASP Pune Meetup 19-July-2025",
-        "date": "2025-07-19",
-        "time": "10:00+05:30",
-        "link": "https://www.meetup.com/owasp-pune-chapter/events/309587771",
-        "timezone": "Asia/Kolkata",
-        "description": "We are excited to bring you second OWASP Pune Meetup of 2025!!!\n\n**Agenda:**\nIntroduction of OWASP by Jyoti Raval, Prasad Salvi & Pramod Rana\n\n**Session 1:**\n**Kapil Sadhale**\n**LinkedIn**: https://in.linkedin.com/in/kapil-sadhale-b360a38a\nA cybersecurity professional with 10 years of experience, specializing in proactive threat hunting, Incident response and intelligence analysis.\n\n**Topic:** Detection Engineering and Threat Hunting\n\n* Detection Engineering\n* Key functions in detection engineering\n* Difference between threat hunting and detection engineering\n* Threat Hunting\n* Threat hunting methodologies\n* Mitre Attack\n* Adversary Emulation\n* Atomic red team for adversary emulation\n\n**Session 2:**\n**Pallavi**\nPallavi is a Cloud Security Manager with 15 years of experience in cybersecurity. Passionate about application security, she excels in navigating complex security challenges, consistently working to strengthen defenses against emerging threats\n\n**Topic:** The LLM Attack Surface: Top Threats and Evasion Tactics\nThis session breaks down the top attack vectors against large language models - from prompt injection to model poisoning. It explores the safety mechanisms designed to stop them and how attackers continue to bypass these defenses in practice\n\n**\\-\\-\\-Networking Break\\-\\-\\-\\-**\n\n**Session 3:**\n**Rahul Bhor**\nSr. Security Engineer @ Coupa Software . Passionate Learner for OffSec and Security Engineering. Working collaboratively with Security Operations , Security Engineering & Threat Management @ Coupa Software\n**Omkar**\nOmkar has more than 12 years of experience in Security domain especially Pentest, Application Security, Forensics Investigation. Leading OffSec team, Passionate Red teamer, Security researcher\n\n**Topic:** Cloud Chaos : Unveiling the anatomy of a Multi Vector Extortion Attack and Data Exfiltration"
     },
     {
         "group": "Salt Lake City",
