@@ -20,16 +20,6 @@
         "description": "AI is the ultimate accelerant for application development - its power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security."
     },
     {
-        "group": "Augsburg",
-        "repo": "www-chapter-augsburg",
-        "name": "14. OWASP Augsburg Stammtisch",
-        "date": "2025-07-23",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-augsburg-chapter/events/309627740",
-        "timezone": "Europe/Berlin",
-        "description": "In der Fuggerstadt wird IT-SECURITY gro\u00df geschrieben. Egal ob IT-Security-Interessent\\*in, CISO, Hacker/Haeckse, Pentester\\*in, Entwickler\\*in, Netzi, Endanwender\\*in oder whatever - alle sind willkommen. Eine OWASP-Mitgliedschaft ist (nat\u00fcrlich w\u00fcnschenswert, aber) nicht notwendig!\n\n**Wir freuen uns auf neue Gesichter, Stammg\u00e4ste und sporadische Teilnehmer\\*innen :-)**\n\n**Agenda:**\nVortrag \"Im Dschungel der SOC-Anbieter: Worauf es wirklich ankommt\" von Tobias Hellmann.\n\n**Bitte gebt Bescheid**, wenn ihr kommt und ggf. wie viele Leute ihr mitbringt, damit wir auch genug Platz haben.\n\nDu hast eine Idee oder willst auch einen Talk halten? Super, wir sind immer auf der Suche nach interessanten Inhalten. Egal ob Vortrag, Diskussion, Idee, Lightning-Talk, etc. Wir dienen auch gerne als Probepublikum :-) Melde dich einfach!\nWichtiges f\u00fcr Talks in aller K\u00fcrze:\n\n* Verwende einen neutralen Foliensatz - ohne Logo, ohne Werbung\n* Auf einer Folie kannst du dich und deinen Arbeitgeber vorstellen - hier auch mit Logo\n* Gib kurz Bescheid, ob du den Vortrag auch auf Englisch halten k\u00f6nntest\n* Vertriebler, die eine Verkaufsveranstaltung durchf\u00fchren wollen, werden ausgebuht und m\u00fcssen diverse Runden Bier ausgeben"
-    },
-    {
         "group": "Austin",
         "repo": "www-chapter-austin",
         "name": "August 2025 OWASP Happy Hour sponsored by IriusRisk",
@@ -60,16 +50,6 @@
         "description": "Join the OWASP\u00ae Foundation Bangalore & Null Bangalore Combined Meetup \u2013 July 26th, 2025\n\n Date: July 26th, 2025\n Location: Bangalore\n Venue: Linkedin\n4th floor, Mantri Commercio Tower-A, Global Technology Park, Devarabisanahalli Rd, next to Intel, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka 560103\n\n\u23f0 Time: 09:30 AM \u2013 02:00 PM\n Open to Everyone \\| Free Entry \\| No Registration Limits\nJoin us for an exciting meetup featuring top-notch security talks, hands-on discussions, and networking opportunities!\n\u200b Proposed Sessions\n\n* \u200bTop 10 LLM attacks - OWASP top 10 by @Meenakshi Ganesh\n* \u200bSCCM Exploitation by @**Nandhakumar**\n* \u200bNeMo Guardrails - and Demo by @Dilip Sai R & @Manav talreja\n* \u200bMobile device forensics by @**Zero2Infinite** (Pradhan V)"
     },
     {
-        "group": "Boulder",
-        "repo": "www-chapter-boulder",
-        "name": "Boulder OWASP July Meetup: Lessons in AppSec Leadership",
-        "date": "2025-07-23",
-        "time": "18:00-06:00",
-        "link": "https://www.meetup.com/owasp-boulder/events/309690795",
-        "timezone": "America/Denver",
-        "description": "The OWASP Boulder Chapter is excited to announce our July 2025 Chapter Meeting! Scheduled for Wednesday, July 23rd at the Rule4 office at 6 PM, with complimentary food, beer, and soft drinks. Join us for networking with your peers and a featured talk from Akira Brand presenting:\n\n**Earning your Stripes: Lessons in AppSec Leadership from the first year on the job**\n\nIn this talk, we will explore different principles of AppSec leadership that Akira learned from their first year as an AppSec VP. This is especially relevant for those who are standing up an Application Security Program from greenfield. You will walk away from this talk with a deeper understanding of leadership principles that can only be learned in the battle arena of AppSec leadership. No theory, no untested ideas, just hard lessons learned from a beginner leader that are relevant no matter how much experience you have.\n\nSpecial thanks to the Rule4 Team for hosting and sponsoring, we couldn't do these events without our sponsors. If you're interested in sponsoring the #1 AppSec Organization and our Boulder Chapter meetings, please reach out to alex.brown@owasp.org.\n\nPlease follow us on LinkedIn: https://www.linkedin.com/company/owasp-boulder\n\nAnd join our Slack: https://join.slack.com/t/boulder-owasp/shared_invite/zt-2qnxnmmts-IQDaobNC1rcUbpaH1ip8Lg\n\n**AGENDA**\n6:00 - 6:30 Food, Drinks, Networking\n6:30 - 7:15ish Main Topic Presentation\n7:15ish - 7:30 Q&A and Discussion\n7:30 - 8:00 More Networking"
-    },
-    {
         "group": "Cairo",
         "repo": "www-chapter-cairo",
         "name": "OWASP for Students: Exploring Flagship & Incubated Projects",
@@ -88,6 +68,16 @@
         "link": "https://www.meetup.com/owasp-colorado-springs-meetup/events/309095814",
         "timezone": "America/Denver",
         "description": "Meetup Details: Beat the heat and boost your pen testing knowledge! Join us and get ready to dive into autonomous pen testing vs human-led efforts with Terry Bradley.\n\nWhen: July 31, 2025 6pm to 8pm MT.\n\nWhere: [TRiNiTY Brewing Company - Forge Road Brewery](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FTRiNiTY%2BBrewing%2BCompany%2B-%2BForge%2BRoad%2BBrewery%2F%4038.898059%2C-104.8417313%2C16z%2Fdata%3D!3m1!4b1!4m6!3m5!1s0x87134f5342168d7b%3A0x871a592d6a1d0142!8m2!3d38.898059!4d-104.8417313!16s%252Fg%252F11q3yflpnv%3Fentry%3Dttu%26g_ep%3DEgoyMDI1MDYzMC4wIKXMDSoASAFQAw%253D%253D&data=05%7C02%7Cterry.bradley%40milehighcyber.com%7Cc574ffe431b7464ea37708ddbe4faed1%7C97fe4b743f7346419cc9d3f956a1f6de%7C1%7C0%7C638875971691628274%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C4000%7C%7C%7C&sdata=Dbk1x8Kf8xRBPIzdjrSY%2FOXejGUj%2FYmlwhQGReykEsE%3D&reserved=0 \"Original URL:\nhttps://www.google.com/maps/place/TRiNiTY+Brewing+Company+-+Forge+Road+Brewery/@38.898059,-104.8417313,16z/data=!3m1!4b1!4m6!3m5!1s0x87134f5342168d7b:0x871a592d6a1d0142!8m2!3d38.898059!4d-104.8417313!16s%2Fg%2F11q3yflpnv?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D\n\nClick to follow link.\")\n4630 Forge Rd # B \u00b7 Colorado Springs, CO"
+    },
+    {
+        "group": "Columbus",
+        "repo": "www-chapter-columbus",
+        "name": "Patch Management 101: The Basics",
+        "date": "2025-08-21",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/columbus-owasp/events/308650622",
+        "timezone": "America/New_York",
+        "description": "End of summer is the best time to get your systems updated before the busy season! Even better if use this time to organize the process of Patch Management for continuous improvement. This August, we discuss:\n\n\\- How to organize Patch Management\n\\- The Risk/Reward ratio of Patch Management\n\\- How hackers exploit issues related to Patch Management\n\\- How to effectively gather data for Patch Management using AI\n\nJoin us at OWASP Columbus to realistically discuss the methods to decrease the technical debt of Patch Management that most of us are responsible for."
     },
     {
         "group": "Dallas",
@@ -118,16 +108,6 @@
         "link": "https://www.meetup.com/owasp-gurugram-chapter/events/308503571",
         "timezone": "Asia/Kolkata",
         "description": "Join us at the OWASP Gurugram Chapter event where we will dive deep into the best practices for incorporating cybersecurity into software development processes. Our expert speakers will cover topics such as cloud security, computer security, information security, application security, and software security. Learn how to effectively secure your applications, protect your networks, and defend against cyber threats. Whether you're a developer, security professional, or IT enthusiast, this event will provide valuable insights and practical tips to enhance your software security skills. Don't miss this opportunity to network with peers, ask questions, and stay updated on the latest trends in cybersecurity."
-    },
-    {
-        "group": "Harrisburg",
-        "repo": "www-chapter-harrisburg",
-        "name": "Joint Meetup with ISC2 Central PA Chapter - Sponsored by Check Point!",
-        "date": "2025-07-23",
-        "time": "17:30-04:00",
-        "link": "https://www.meetup.com/owasp-harrisburg/events/308527420",
-        "timezone": "America/New_York",
-        "description": "To help support our other local cybersecurity groups and help bring awareness to our initiatives, we are sponsoring with ISC2's Central PA Chapter! Check Point has graciously agreed to sponsor the event. This will be a great opportunity to mingle with even more like-minded cybersecurity individuals in the Harrisburg area! More details on the topic and event information to follow!"
     },
     {
         "group": "Heilbronn",
@@ -180,16 +160,6 @@
         "description": "This weekly one hour study group series is designed to help you learn how to use Windows PowerShell 5.1 and cross-platform PowerShell 7.x.\n\nThe focus will be on real world scenarios and learning by doing. The first sessions will focus on Windows but later sessions will cover 7.x on Linux.\n\nSince 5.1 is the default on Windows servers, we will start there. The primary IDE will be VS Code as it is the officially supported current PowerShell editor. Since you can't normally install it on production servers, though, running and debugging scripts in it will also be covered as it overcomes the \"it works on my system\" issue."
     },
     {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "Houston TX Chapter Study Group - Power up with PowerShell",
-        "date": "2025-07-23",
-        "time": "19:15-05:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/309131417",
-        "timezone": "America/Chicago",
-        "description": "This weekly one hour study group series is designed to help you learn how to use Windows PowerShell 5.1 and cross-platform PowerShell 7.x.\n\nThe focus will be on real world scenarios and learning by doing. The first sessions will focus on Windows but later sessions will cover 7.x on Linux.\n\nSince 5.1 is the default on Windows servers, we will start there. The primary IDE will be VS Code as it is the officially supported current PowerShell editor. Since you can't normally install it on production servers, though, running and debugging scripts in it will also be covered as it overcomes the \"it works on my system\" issue."
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "OWASP Jax Monthly Meetup",
@@ -212,22 +182,22 @@
     {
         "group": "Los Angeles",
         "repo": "www-chapter-los-angeles",
+        "name": "OWASP Community Room Demos & Roundtables at DEFCON 33",
+        "date": "2025-08-08",
+        "time": "10:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/310120193",
+        "timezone": "America/Los_Angeles",
+        "description": "The OWASP Community Room Demos & Roundtables at **#DEFCON33** are where the magic happens\u2014live demos, real talk, and next-level insights\n\nCome embrace the social awkwardness in a safe space where everyone's just as nervous as you are - but also just as excited to connect in the OWASP Community room at [#defcon33](https://infosec.exchange/tags/defcon33)\nCurious? Pull up, learn, share, and connect.\nSee you in Vegas!\n\nHere are some of the highlights:\n\n**Friday Aug 8, 2025**\n10:00AM-10:30AM Access Everywhere with InfosecMap\n\n**Saturday Aug 9, 2025**\n12:00PM-1:00PM Let's Play! OWASP Cornucopia Engineers & Exploits the quest for security\n4:30PM-5:00PM Access Everywhere with InfosecMap\n5:00PM-6:00PM Secure SDLC Roundtable: Scratch the Duct Tape\n\n**Sunday Aug 10,2025**\n11:00AM-12:00PM Vibe Coding: Security Crisis or Opportunity\n\n**Pro tip**: If you\u2019re not yet part of the [OWASP\u00ae Foundation](https://www.owasp.org) this is the perfect time to plug into one of the most active open source application security communities in the world. Local chapters like [OWASP Los Angeles](https://www.meetup.com/owasp-los-angeles/) are on the front lines of securing modern software through meetups, projects, and events like this conference. Learn more or become a member: [OWASP Membership](https://owasp.glueup.com/organization/6727/memberships/)"
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
         "name": "Wallarm Los Angeles Security Summit 2025 & OWASP LA",
         "date": "2025-07-30",
         "time": "12:00-07:00",
         "link": "https://www.meetup.com/owasp-los-angeles/events/309743032",
         "timezone": "America/Los_Angeles",
         "description": "We are excited to be part of this unique intersection of API security, innovation, and community Los Angeles Security Summit 2025 host by Wallarm. Whether you're deep into API threat detection, exploring the [OWASP Top 10 for APIs](https://owasp.org/API-Security/editions/2023/en/0x11-t10/), or just getting started with cloud-native security, this event is built for hands-on minds.\n\nThe summit will showcase emerging threats in API and application security, deliver hands on demonstrations and expert led sessions, and feature insights from leading voices in security architecture. Attendees will have the opportunity to engage with a dynamic, security-focused community and conclude the day with networking, refreshments, and interactive play at Topgolf.\n\nAgenda Highlights:\n\n\\* Wallarm Security Overview\n\\* API Security: Challenges & Solutions\n\\* External Attack Surface Management\n\\* Live Demo by Tim Ebbers (VP of Customer Engineering at Wallarm)\n\\* Leadership Panel + Dev View on OWASP API Security Top 10\n\nFree for the local community (business email required for registration)\n**Request your seat** at https://www.wallarm.com/los-angeles-api-security-summit-2025\n\nThis free summit will bring together CISOs, AppSec, DevSecOps, and API practitioners to explore the future of securing modern applications and APIs.\u2028\u2028If you're in SoCal and serious about securing what matters most your APIs don't miss this one.\n\nPro tip: If you\u2019re not yet part of the [OWASP\u00ae Foundation](https://www.owasp.org) this is the perfect time to plug into one of the most active open source application security communities in the world. Local chapters like OWASP Los Angeles are on the front lines of securing modern software through meetups, projects, and events like this summit. Learn more or become a member: [OWASP Membership](https://owasp.glueup.com/organization/6727/memberships/)"
-    },
-    {
-        "group": "Los Angeles",
-        "repo": "www-chapter-los-angeles",
-        "name": "OWASP LA Monthly In-Person Meeting - Jul 23, 2025",
-        "date": "2025-07-23",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-los-angeles/events/306091956",
-        "timezone": "America/Los_Angeles",
-        "description": "**TOPIC:** The Carrot vs. The Stick: Making a Positive Impact on the Security + Developer Relationship\nJoin us for great networking, dinner and drinks, and see a presentation by **Nir Valtman,** Co-Founder and CEO, **Arnica**\n\n**ABSTRACT:**\nSecurity and development teams often work toward the same goal but rarely in sync. Misaligned incentives, late-stage scans, and noisy alerts lead to friction and slow remediation. This talk explores how shifting security earlier in the SDLC and aligning with developer workflows can improve outcomes across the board.\nYou'll learn how developer empowerment, real-time feedback, and actionable guidance reduce alert fatigue, shorten MTTR, and drive better collaboration between teams.\n\n**Thanks to our SPONSOR**: *[Arnica](https://www.arnica.io/)*\n*Pipelineless AppSec. Developer-Native Workflows.*\n*Surface the right risk to the right owner at the right time with pipelineless, developer-native workflows that foster collaboration, increase development velocity, and reduce overall risk.*\n\n**SPONSORSHIP Opportunities Available**\n*Vendors interested in sponsoring please send an email to sponsorship.la@owasp.org*\n\n**CODE OF CONDUCT**\nWe hope you enjoy the event, we care deeply about inclusivity and diversity so that OWASP is a comfortable and welcoming community for everyone. Please reach out to one of our chapter leaders if you have any feedback/concerns or would like to speak to us, we take these matters very seriously. You can find out more about our policies here:\n[https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy](https://owasp.org/www-policy/operational/conferences-events.html#conference-and-event-anti-harassment-policy)"
     },
     {
         "group": "Mumbai",
@@ -248,36 +218,6 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/306404720",
         "timezone": "America/Chicago",
         "description": "AI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security."
-    },
-    {
-        "group": "Northern Virginia",
-        "repo": "www-chapter-northern-virginia",
-        "name": "Demystifying SOC 2 for Your AppSec Program",
-        "date": "2025-07-24",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/308612693",
-        "timezone": "America/New_York",
-        "description": "In this talk, we\u2019ll walk through how SOC 2 maps to modern application security programs. Attendees will learn how to implement key controls in ways that support both audit readiness and meaningful security outcomes. Whether you\u2019re building a program from scratch or improving an existing one, this session offers practical guidance."
-    },
-    {
-        "group": "Orange County",
-        "repo": "www-chapter-orange-county",
-        "name": "Joint CSA OC & OWASP OC meeting",
-        "date": "2025-07-23",
-        "time": "17:30-07:00",
-        "link": "https://www.meetup.com/owasp-oc/events/309114850",
-        "timezone": "America/Los_Angeles",
-        "description": "Join us for our special July Joint **CSA OC** and **OWASP OC** meeting! We are looking forward to having **Palo Alto** for a great interactive event!\n\nPlease RSVP using CSA OC's meetup page for an accurate count: https://www.meetup.com/cloud-security-alliance-csa-orange-county/events/308713577/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2\n\nSpeaker:\nMichael Sanders - Sr Cloud Security Architect"
-    },
-    {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Monthly Networking Social: Charters Bar! ",
-        "date": "2025-07-23",
-        "time": "18:30+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/305916303",
-        "timezone": "Europe/London",
-        "description": "**What & Where?**\n\n* Social Drinks @ Charters bar\n\n**When?**\n\n* \\- Weds 23rd August from 6:30pm\n\nThank you,\n\nRyan & Mark\n\n\\*This date was a formal event - this has been changed and moved to October - see https://www.meetup.com/owasp-peterborough/events/305916317/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2 to sign up."
     },
     {
         "group": "Salt Lake City",
