@@ -200,6 +200,16 @@
         "description": "AI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security."
     },
     {
+        "group": "Phoenix",
+        "repo": "www-chapter-phoenix",
+        "name": "August 2025 Meeting",
+        "date": "2025-08-05",
+        "time": "19:30-07:00",
+        "link": "https://www.meetup.com/owasp-phoenix-chapter/events/310160652",
+        "timezone": "America/Phoenix",
+        "description": "**AI in Cybersecurity: The Good, The Bad, and Preventing Ugly AI Situations (25 minutes)**\nAI is changing the game in cybersecurity, for better and worse. Attackers are using it to craft smarter phishing scams, launch prompt injection attacks, and even write malware. All the while defenders are utilizing AI to spot threats faster and automate processes. We will discuss why AI matters in cybersecurity, look at real world examples, and provide some best practices for using AI safely in your environment."
+    },
+    {
         "group": "Salt Lake City",
         "repo": "www-chapter-salt-lake-city",
         "name": "OWASP Summer Campout",
