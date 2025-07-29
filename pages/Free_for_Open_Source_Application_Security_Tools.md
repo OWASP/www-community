@@ -78,6 +78,7 @@ In addition, we are aware of the following commercial SAST tools that are free f
     - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account.
   - [Aikido](https://www.aikido.dev/product) - Combines open source software with custom rules & features into a single dashboard with all your security findings. Includes both SAST and Library Analysis tools. [Free for small teams](https://www.aikido.dev/pricing).
   - [Arnica](https://www.arnica.io/solution/code-security) - Scans all source code repositories for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets. The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count. The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
+  - [Kusari](https://kusari.dev/inspector) - Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests. This checks for bad dependencies, licenses, quality data. [Free for individual use](https://www.kusari.dev/pricing).
 
 ### DAST Tools
 
