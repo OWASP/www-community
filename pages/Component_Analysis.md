@@ -316,6 +316,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Grafeas] | Grafeas | Open Source | Cross Platform |
 | [Greenkeeper] | Greenkeeper | Open Source | SaaS |
 | [Ion Channel SA] | Ion Channel | Commercial | SaaS |
+| [Kusari] | Kusari | Freemium | SaaS |
 | [Libraries.io] | Tidelift | Open Source | SaaS |
 | [MergeBase] | MergeBase | Commercial | SaaS |
 | [Nexus IQ] | Sonatype | Commercial | Cross Platform |
@@ -371,6 +372,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Greenkeeper]: https://greenkeeper.io/
 [OSS Review Toolkit]: https://github.com/heremaps/oss-review-toolkit
 [Ion Channel SA]: https://ionchannel.io/
+[Kusari]: https://kusari.dev
 [Libraries.io]: https://libraries.io/
 [MergeBase]: http://mergebase.com/
 [Nexus IQ]: https://www.sonatype.com/
