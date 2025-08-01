@@ -60,7 +60,7 @@ to this attack's success.
 This example presents an attack of static directory and file enumeration
 using an automated tool.
 
-A scanning tool, like [Nikto](http://www.cirt.net/code/nikto.shtml), has
+A scanning tool, like [Nikto](https://cirt.net/Nikto2), has
 the ability to search for existing files and directories based on a
 database of well-know resources, such as:
 

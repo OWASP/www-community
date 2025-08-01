@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2025ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [OWASP Website](#owasp-website) &bull; [Pygoat](#pygoat)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre) &bull; [OWASP OWTF](#owtf)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -105,24 +105,12 @@ We are actively looking for more mentors! If you have experience in **Django, Re
 - **Yash Pandey**  
 - **Bishal Das**  
 - **Ahmed ElSheikh**  
-- **Patricia Waiyego**  
-- _Looking for 5 more mentors!_  
+- **Patricia Waiyego**
+- **Sudhir**
+- _Looking for 4 more mentors!_  
 
 🎥 _To get up to speed, check out our [BLT videos](https://blt.owasp.org/bltv/)._  
 
-### 👥 **Pre-Selected Students**  
-For transparency, we are implementing a pre-selection process for students this year. This demonstrates our commitment to working students who are contunually contributing while also signaling our intent to other projects and organizations. However, pre-selection does not guarantee a final placement or acceptance.
-
-- **Krrish Sehgal** 32 PRs 
-- **Sahil Omkumar Dhillon** 28 PRs
-- **Krishna Kaushal** 29 PRs 
-- **Apoorva Pendse** 10 PRs
-- **Dhruv Trivedi** 11 PRs
-- **Nitin Awari**  6 PRs
-- Student 7
-- Student 8
-- Student 9
-- Student 10
 
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
@@ -227,6 +215,7 @@ OWASP Nest is a comprehensive platform designed to enhance collaboration and con
 - [OWASP Contribution Hub](https://github.com/OWASP/Nest/issues/710): Aiming to streamline the onboarding process and connect contributors with mentors and impactful projects. This milestone focuses on improving collaboration within the OWASP community.
 - [OWASP Nest API](https://github.com/OWASP/Nest/issues/707): The development of REST and GraphQL API endpoints for OWASP Projects, Chapters, Events, and Committees. This milestone will standardize data access across OWASP’s resources.
 - [OWASP Nest Kubernetes Adoption](https://github.com/OWASP/Nest/issues/706): This milestone focuses on migrating the OWASP Nest application to Kubernetes, ensuring scalability, reliability, and ease of deployment.
+- [OWASP NestBot AI agent/assistant](https://github.com/OWASP/Nest/issues/908): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries.
 - [OWASP Project Health Dashboard](https://github.com/OWASP/Nest/issues/711): A dashboard for monitoring the health of OWASP projects. This includes tracking vital metrics such as release frequency, issue resolution, and contributor growth.
 - [OWASP Schema](https://github.com/OWASP/Nest/issues/709): Developing and extending a standardized schema for OWASP Projects and Chapters. This milestone aims to ensure consistency and ease of integration across OWASP resources.
 - [OWASP Snapshots](https://github.com/OWASP/Nest/issues/708): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments.
@@ -346,19 +335,6 @@ list? Great, please submit it!
   Shop Project Leader ([bkimminich](https://owasp.slack.com/team/U1S23SNE7) on Slack)
 * [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Project Leader ([Jannik](https://owasp.slack.com/team/UAM6MBY30) on Slack) 
 
-### [OWASP Website](https://owasp.org)
-
-This project for Google Summer of Code (GSoC) aims to enhance the OWASP website by improving its mobile responsiveness, updating its styling, and refining navigation for a more modern and user-friendly experience. Key objectives include revamping the project’s and chapter’s discovery features to make them more intuitive and accessible, creating comprehensive “Getting Started” pages to guide new users, and streamlining the site’s overall structure to ensure it is well-organized and easy to maintain. The project will focus on delivering a clean, cohesive design that aligns with current web standards, improving accessibility and usability across all devices.
-
-#### knowledge required
-
-Jekyl
-
-#### Mentors
-
-DonnieBLT on Slack
-(looking for more mentors, signup here)
-
 
 ### [PyGoat](https://owasp.org/www-project-pygoat/)
 PyGoat is an open-source, intentionally vulnerable Python web application designed to help developers and security enthusiasts learn about web application security. It provides hands-on experience in identifying and mitigating common security vulnerabilities, making it a valuable resource for practicing secure coding and penetration testing techniques.
@@ -389,5 +365,107 @@ PyGoat is an open-source, intentionally vulnerable Python web application design
 - Prepare for `OWASP Top 10:2025` section
 
 #### Mentors
-- [ardiansyah](pakdesawangan@gmail.com)
+- [ardiansyah](mailto:pakdesawangan@gmail.com)
 - [Rupak Biswas](https://github.com/RupakBiswas-2304)([Rupak](https://owasp.slack.com/team/U036WSR1684) on slack)
+
+  
+### [OpenCRE](https://opencre.org/)
+OpenCRE is the world's largest Cybersecurity knowledge graph.
+It semantically links information between standards, knowledge bases and security tools.
+Also, it allows users to extend the graph themselves and contains a RAG chatbot implementation.
+OpenCRE is a great GSOC project if you're looking to add "Data science/engineering", "Knowledge Graph and AI" with a focus on Legal Tech and cybersecurity in your CV.
+
+#### Repository
+- [OpenCRE](https://github.com/OWASP/OpenCRE)
+
+#### Skills Required
+- HTML/CSS/React-Typescript
+- Python 
+- Flask
+- Docker
+
+##### Getting started
+- Check the [GitHub project](https://github.com/OWASP/OpenCRE) and the issues marked as either `good first issue` , `help wanted` or `GSOC`
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-opencre
+
+#### Projects / Ideas
+![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Large" GSoC 2025 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- There are many small, medium and large project in the [Issues Page tagged with GSOC](https://github.com/OWASP/OpenCRE/issues?q=state%3Aopen%20label%3A%22GSOC%22) that we are interested in, depending on your background and interests they are split in the following categories: AI, Frontend, Backend, FullStack. They all contain a bit of frontend and data analysis and graph operations.
+Priorities for us are:
+- [Make the gap analysis functionality faster](https://github.com/OWASP/OpenCRE/issues/587)
+- [MyOpenCRE](https://github.com/OWASP/OpenCRE/milestone/5)
+- [Releasing the Explorer page](https://github.com/OWASP/OpenCRE/milestone/6)
+  
+#### Mentors
+- [Spyros Gasteratos](mailto:spyros.gasteratos@owasp.org)
+- [Rob Van Der Veer](mailto:rob.van.der.veer@owasp.org)
+- [Paola Gardenas](mailto:paola.gardenas@owasp.org)
+
+
+### [OWTF](https://owasp.org/www-project-owtf/)
+OWTF attempts to solve the “penetration testers are never given enough time to test properly” problem, or in other words, OWTF = Test/Exploit ASAP, with this in mind, as of right now, the priorities are:
+
+* To improve security testing efficiency (i.e. test more in less time)
+* To improve security testing coverage (i.e. test more)
+* Gradually integrate the best tools
+* Unite the best tools and make them work together with the security tester
+* Remove or Reduce the need to babysit security tools during security assessments
+* Be a respository of PoC resource links to assist exploitation of vulnerabilities in order to illustrate risk to businesses.
+* Help penetration testers save time on report writing
+
+#### Repository
+- [OWTF](https://github.com/owtf/owtf)
+
+#### Skills Required
+- Python 
+- Tornado
+- Docker
+- React/React ecosystem for application frontend
+- Basic knowledge of application security, tools used in bug bounty style hunting
+- Some knowledge of how TLS works, man in the middle proxies, HTTP internals, etc.
+
+##### Getting started
+Please use the repositories’ issue tracker, GitHub discussions, and don’t forget to read the contributing guide. Join the community at #owtf on OWASP Slack and share your questions, project ideas.
+
+To receive early feedback please:
+- put your proposal on Google Docs and submit it to the OWASP
+  Organization on Google's GSoC page in "Draft Shared" mode.
+- Please pick "owtf" as Proposal Tag to make them easier to find for us. Thank you!
+
+#### Projects / Ideas
+![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-medium-orange) OWTF Modernization
+
+OWTF has evolved over time, but parts of the codebase are outdated, have technical debt, and may not be optimized for newer Python versions or best practices. This project aims to modernize the OWTF codebase, ensuring long-term maintainability, security, and efficiency.
+Key Objectives
+1. Fix Long-Standing Bugs & Improve Stability
+    * Audit and resolve GitHub issues related to stability, crashes, and performance bottlenecks.
+    * Enhance logging and error handling for better debugging.
+    * Improve unit tests and CI/CD pipelines to catch regressions early.
+2. Optimize Plugin Execution & Dependency Management
+    * Upgrade outdated third-party security tools used in plugins.
+    * Reduce dependency bloat by removing redundant libraries.
+    * Use async execution where applicable for better performance.
+
+###### Expected Outcomes
+✔️ OWTF will be cleaner, faster, and easier to maintain.<br/>
+✔️ The project will be future-proofed with up-to-date dependencies.<br/>
+✔️ Stability and performance will be significantly improved.<br/>
+
+
+![Preferred for "Medium" GSoC 2025 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-medium-orange) MiTM proxy upgrade
+
+OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework. It is in rough shape and needs a lot of improvement on the transaction recording, storing, and modification side. We want to make it as good as [MiTM proxy](https://mitmproxy.org/).
+
+
+###### Expected Outcomes
+✔️ Modern mitm proxy that allows modificaiton of requests and responses on the fly<br/>
+✔️ Better integration with the framework to record a variety of requests and responses.<br/>
+✔️ Stability and performance.<br/>
+
+##### Mentors
+- [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
+- [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)

@@ -65,7 +65,7 @@ Usage example:
 ```console
 user@spin ~/inzynieria $ ./bo-simple // program start
 1234 // we enter "1234" string from the keyboard
-1234 // program prints out the conent of the buffer
+1234 // program prints out the content of the buffer
 user@spin ~/inzynieria $ ./bo-simple // start
 123456789012 // we enter "123456789012"
 123456789012 // content of the buffer "buf" ?!?!

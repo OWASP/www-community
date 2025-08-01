@@ -67,7 +67,7 @@ int main(int argc, char **argv)
 
 - In this example, we have 10 allocations of size MAXSIZE. Every allocation, with the exception of the last, is lost. If no pointer is pointed to the allocated block, it is unrecoverable during program execution. A simple fix to this trivial example is to place the `free()` call inside of the 'for' loop.
 
-- [Here](http://www.securiteam.com/securitynews/5ZP0M1PIUI.html) is a real world example of a memory leak causing denial of service
+- [Here](https://web.archive.org/web/20161012223329/http://www.securiteam.com/securitynews/5ZP0M1PIUI.html) is a real world example of a memory leak causing denial of service
 
 ### Example 2
 

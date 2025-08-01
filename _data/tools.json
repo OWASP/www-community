@@ -9,12 +9,39 @@
       "type": "SAST"
        },
        {
+       "title": "CVE Scanner",
+       "url": "https://www.cvescanner.co.uk",
+       "owner": "CVE Scanner",
+       "license": "Commercial",
+       "platforms": "SaaS",
+       "note": "Real-time scanning of your domain for known CVEs is free. If any are found, a detailed breakdown of the identified CVEs is available for just £10, which includes two free rescans. We use a live black-box HTTP probing approach.",
+       "type": "DAST"
+       },
+       {
+       "title": "Astrée",
+       "url": "https://www.absint.com/astree/index.htm",
+       "owner": "AbsInt Angewandte Informatik GmbH",
+       "license": "Commercial",
+       "platforms": "Windows and Linux",
+       "note": "Astrée is a static analyzer designed to prove the absence of runtime errors and further critical program defects, including code-level cybersecurity vulnerabilities like buffer overflows, data races, etc. It is based on abstract interpretation, a provably correct formal method. Astrée supports C and C++.",
+       "type": "SAST"
+       },
+       {
+       "title": "Panoptic Scans",
+       "url": "https://panopticscans.com",
+       "owner": "Panoptic Scans",
+       "license": "Commercial",
+       "platforms": "SaaS",
+       "note": "Panoptic Scans enables automated network and application scans using tools like OpenVAS, ZAP, and Nmap. Users can schedule scans to meet compliance requirements for SOC 2, HIPAA, ISO 27001, NIST 800-53, and CMMC while detecting issues such as unpatched software, vulnerabilities, misconfigurations, and open ports.",
+       "type": "DAST"
+       },
+       {
       "title": "ZeroPath",
       "url": "https://zeropath.com/",
       "owner": "ZeroPath",
       "license": "Commercial or Free",
       "platforms": "SaaS, On-Premises",
-      "note": "Scans over 10 languages to identify and fix conventional technical vulnerabilities (e.g., XSS, SQL injection, SSRF) as well as business logic flaws and auth bugs.",
+      "note": "ZeroPath is an AI Native SAST that scans over 15 languages to identify and fix conventional technical vulnerabilities (e.g., XSS, SQL injection, SSRF) as well as business logic flaws and auth bugs.",
       "type": "SAST"
        },
        {
@@ -23,7 +50,7 @@
       "owner": "joernio",
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "Scans C/C++/Java/Binary/Javascript/Python/Kotlin.",
+      "note": "Scans C/C++/Java/Binary/Javascript/Python/Kotlin/JVM Bytecode/PHP/Go/Ruby/Swift/C#.",
       "type": "SAST"
        },
        {
@@ -110,10 +137,10 @@
       {
       "title": "ZeroThreat",
       "url": "https://zerothreat.ai",
-      "owner": "ZeroThreat",
-      "license": "Free",
-      "platforms": "SaaS",
-      "note": "ZeroThreat is a fast web app and API security scanner providing DAST capabilities with modern solutions for modern web applications, and it is free to use.",
+      "owner": "ZeroThreat INC",
+      "license": "Commercial or Free",
+      "platforms": "SaaS or On-Premise",
+      "note": "ZeroThreat is an AI-powered modern DAST tool built for today’s web applications and APIs.",
       "type": "DAST"
    },
       {
@@ -167,7 +194,7 @@
       "owner": "Escape",
       "license": "Commercial",
       "platforms": "SaaS",
-      "note": "Run thousands of GraphQL security scans",
+      "note": "Escape is a modern DAST with a native business logic security testing algorithm. It supports modern web frameworks, integrates easily into CI/CD pipelines, and provides framework-specific, developer-friendly code snippets.",
       "type": "DAST"
    },
  {
@@ -954,6 +981,15 @@
       "type": "DAST"
    },
    {
+      "title": "WuppieFuzz",
+      "url": "https://github.com/TNO-S3/WuppieFuzz",
+      "owner": "TNO",
+      "license": "Open Source",
+      "platforms": "Windows, Linux, Macintosh",
+      "note": "WuppieFuzz is a coverage-guided REST API fuzzer developed on top of LibAFL, targeting a wide audience of end-users, with a strong focus on ease-of-use, explainability of the discovered flaws and modularity. WuppieFuzz supports all three settings of testing (black box, grey box and white box).",
+      "type": "DAST"
+   },
+   {
       "title": "Barrion",
       "url": "https://barrion.io/",
       "owner": "Barrion",
@@ -1388,10 +1424,10 @@
    {
       "title": "DerScanner",
       "url": "https://derscanner.com/",
-      "owner": "DerScanner Ltd.",
+      "owner": "DerSecur Ltd.",
       "license": "Commercial",
-      "platforms": null,
-      "note": "Capable of identifying vulnerabilities and backdoors (undocumented features) in over 30 programming languages by analyzing source code or executables, without requiring debug info.",
+      "platforms": "SaaS or On-Premises",
+      "note": "DerScanner is an AI-powered application security testing platform suitable for air-gapped environments. It combines SAST, DAST, IAST, MAST, SCA, and binary analysis into a unified solution, securing modern and legacy applications with support for 43 programming languages.",
       "type": "SAST"
    },
    {
@@ -1857,9 +1893,9 @@
       "title": "AppSweep",
       "url": "https://www.guardsquare.com/appsweep-mobile-application-security-testing",
       "owner": "Guardsquare",
-      "license": "Open Source or Free",
+      "license": "Commercial",
       "platforms": "SaaS",
-      "note": "Mobile application security testing tool for compiled Android apps with support of CI/CD integration",
+      "note": "Mobile application security testing tool for compiled Android and iOS apps with support of CI/CD integration",
       "type": "SAST"
    },
    {
@@ -2132,5 +2168,23 @@
       "platforms": "SaaS",
       "note": "ResilientX UEM provides an All-in-One Continuous Testing and Monitoring solution, by integrating ASM, DAST, CSPM",
       "type": "DAST"
+   },
+   {
+      "title": "Agentic Radar",
+      "url": "https://github.com/splx-ai/agentic-radar",
+      "owner": "SplxAI",
+      "license": "Free",
+      "platforms": "Windows, Linux, MacOS",
+      "note": "Open-source CLI security scanner for agentic AI workflows. Scans your workflow’s source code, detects vulnerabilities, and generates an interactive visualization along with a detailed security report. Supports popular agentic frameworks like LangGraph, CrewAI, n8n, OpenAI Agents, and more.",
+      "type": "SAST"
+   },
+   {
+      "title": "Kusari Inspector",
+      "url": "https://kusari.dev",
+      "owner": "Kusari",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests.",
+      "type": "SAST"
    }
 ]

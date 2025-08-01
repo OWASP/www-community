@@ -9,6 +9,7 @@ contributors:
   - kingthorin
   - Niclas Gustafsson
   - Jason Hills
+  - Thomas Rooijakkers
 tags: application security tools, tools
 permalink: /Free_for_Open_Source_Application_Security_Tools
 
@@ -76,10 +77,9 @@ In addition, we are aware of the following commercial SAST tools that are free f
     - [CodeSweep - JetBrains Plugin](https://hclsw.co/codesweep-jetbrains) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.
     - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account.
   - [Aikido](https://www.aikido.dev/product) - Combines open source software with custom rules & features into a single dashboard with all your security findings. Includes both SAST and Library Analysis tools. [Free for small teams](https://www.aikido.dev/pricing).
-  - [AppSweep](https://www.guardsquare.com/appsweep-mobile-application-security-testing) - a free for everyone mobile application security testing tool for Android and iOS. It analyzes the compiled application and does not require access to the source code. The tool performs security assessment not only of the executable code but also of application resources and configuration file. Integration into CI/CD is supported.
   - [Arnica](https://www.arnica.io/solution/code-security) - Scans all source code repositories for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets. The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count. The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
-  - [Corgea](https://corgea.com/) - An AI-powered SAST scanner that helps developers find and fix insecure code. It detects business logic flaws, broken authentication, API vulnerabilities and more with minimal false positives. Corgea automatically generates security fixes for developers to review and approve. Integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. [Free to use](https://corgea.com/pricing).
-
+  - [Corgea](https://corgea.com/) - An AI-native SAST scanner that helps developers find and fix insecure code. It detects business logic flaws, broken authentication, API vulnerabilities and more with minimal false positives. Corgea automatically generates security fixes for developers to review and approve. Integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. [Free to use](https://corgea.com/pricing).
+  - [Kusari](https://kusari.dev/inspector) - Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests. This checks for bad dependencies, licenses, quality data. [Free for individual use](https://www.kusari.dev/pricing).
 
 ### DAST Tools
 
@@ -113,6 +113,7 @@ capabilities. Our primary recommendation is to use one of these:
   - [VWT Digital's sec-helpers](https://github.com/vwt-digital/sec-helpers/tree/master) -
     Collection of dynamic security related helpers.
     Sec-helpers is a bundle of useful tests and validators to ensure the security of a given domain.
+  - [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) is a coverage-guided REST API fuzzer developed on top of LibAFL, targeting a wide audience of end-users, with a strong focus on ease-of-use, explainability of the discovered flaws and modularity. WuppieFuzz supports all three settings of testing (black box, grey box and white box).
 
 We are not aware of any other commercial grade tools that offer their
 full featured DAST product free for open source projects.
