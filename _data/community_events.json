@@ -40,16 +40,6 @@
         "description": "End of summer is the best time to get your systems updated before the busy season! Even better if use this time to organize the process of Patch Management for continuous improvement. This August, we discuss:\n\n\\- How to organize Patch Management\n\\- The Risk/Reward ratio of Patch Management\n\\- How hackers exploit issues related to Patch Management\n\\- How to effectively gather data for Patch Management using AI\n\nJoin us at OWASP Columbus to realistically discuss the methods to decrease the technical debt of Patch Management that most of us are responsible for."
     },
     {
-        "group": "Gurugram",
-        "repo": "www-chapter-gurugram",
-        "name": "Protecting Your Web Applications: Best Practices in Web Security",
-        "date": "2025-08-02",
-        "time": "10:30+05:30",
-        "link": "https://www.meetup.com/owasp-gurugram-chapter/events/308503571",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us at the OWASP Gurugram Chapter event where we will dive deep into the best practices for incorporating cybersecurity into software development processes. Our expert speakers will cover topics such as cloud security, computer security, information security, application security, and software security. Learn how to effectively secure your applications, protect your networks, and defend against cyber threats. Whether you're a developer, security professional, or IT enthusiast, this event will provide valuable insights and practical tips to enhance your software security skills. Don't miss this opportunity to network with peers, ask questions, and stay updated on the latest trends in cybersecurity."
-    },
-    {
         "group": "Houston",
         "repo": "www-chapter-houston",
         "name": "Houston TX Chapter Study Group - Power up with PowerShell",
@@ -98,16 +88,6 @@
         "link": "https://www.meetup.com/owasp-jacksonville/events/309788238",
         "timezone": "America/New_York",
         "description": "This is a placeholder event while we confirm this month's speaker. Stay tuned for updates, we'll share details as soon as they're locked in!\n\nInterested in presenting or know someone who might be? Reach out, we're always looking for speakers!"
-    },
-    {
-        "group": "Kerala",
-        "repo": "www-chapter-kerala",
-        "name": "The Ultimate Cyber Security Bootcamp",
-        "date": "2025-08-01",
-        "time": "21:00+05:30",
-        "link": "https://www.meetup.com/owasp-kerala-chapter/events/310288294",
-        "timezone": "Asia/Kolkata",
-        "description": "**Event Sponser**\n[Mulearn](https://mulearn.org/)\n**Event Details**\nThe **OWASP Kerala Chapter**, in collaboration with **Mulearn**, is hosting an intensive **Online Cybersecurity BootCamp** aimed at empowering the next generation of security professionals. This highly engaging program has attracted over **350** enthusiastic students from across the state, all eager to build strong foundational and practical skills in the field of cybersecurity.\nThe BootCamp is structured with one live session every week, allowing participants to steadily absorb and apply new concepts without feeling overwhelmed. Each session is conducted by **industry-leading professionals** and seasoned experts from the OWASP community, who bring in-depth knowledge, real-world experience, and valuable insights into the latest security practices and challenges.\nTo ensure hands-on learning, practical tasks and assignments are given after every class, encouraging students to apply what they\u2019ve learned in real scenarios. This task-based learning approach not only reinforces theoretical understanding but also prepares participants to tackle real-world problems with confidence.\n**Trainer**\n\n* Anantha Krishna - Security Engineer - Cyberproof\n* Rithin Dinesh - Security Engineer - Beagle Security\n* Jiyadh M - Security Engineer - Beagle Security"
     },
     {
         "group": "Klagenfurt",
@@ -228,6 +208,16 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/310283671",
         "timezone": "America/Los_Angeles",
         "description": "Please register on the event website:\nSpace is limited!\n\nhttps://seattlesecuritymeetup.com/"
+    },
+    {
+        "group": "Toronto",
+        "repo": "www-chapter-toronto",
+        "name": "Reducing Application Security Risk with ASPM: Future-Proofing for 2025 & Beyond",
+        "date": "2025-08-21",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owasp-toronto/events/310318996",
+        "timezone": "America/Toronto",
+        "description": "**Format**:\nHybrid (in-person and online) event\n\n**In-person location**:\n**BDO Canada LLP**\n20 Wellington Street East, 5th Floor\nToronto, ON\nM5E 1C5\n\n**Note:** In-person attendance is limited to **70 people**, in a **first-come, first-serve basis**.\nDoors will open at **6:00 PM**, with the event will start at **6:30 PM** (EDT).\nFor those who cannot attend in person, please join us virtually via the livestream!\n\n**Presentation Title: Reducing Application Security Risk with ASPM: Future-Proofing for 2025 & Beyond**\nIn an era of increasingly sophisticated threat actors, application security has become a critical concern for most organizations. This talk, \"Reducing Application Security Risk with ASPM (Application Security Posture Management),\" will explore the emerging role of ASPM in fortifying application security and accelerating DevSecOps and cloud native adoption by focusing on how to future-proof your approach for 2025 and beyond.\nSoftware development has undergone seismic shifts over the last 20 years: the Agile movement, the rise of DevOps and cloud native practices, and now the AI and generative development era. With AI code assistants and \u201cvibe coding\u201d on the rise, we\u2019re seeing faster delivery, along with new and complex risks. Over the last 10 years of the DevSecOps journey, shift-left has also achieved little success. Application Security needs a fundamental reset for the future. In this talk, we will discuss how modern approaches and technology innovations that are built to solve three of the biggest challenges in application security that must evolve for the AI Era \u2013 Speed, Coverage & Scale, and Context. We will explore three common scenarios:\n\n1\\. Inventory and Secure net new applications\n2\\. Reduce risk and volume of existing security backlog by prioritizing and fixing what matters\n3\\. Expand coverage to address emerging blind spots in AI\\-assisted application development\\."
     },
     {
         "group": "Vancouver",
