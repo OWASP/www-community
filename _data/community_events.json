@@ -30,6 +30,16 @@
         "description": "**When:** Thursday, August 14th , 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** IriusRisk\n[iriusrisk.com](http://iriusrisk.com/)\n*We make secure design the standard, scalable practice for all digital teams. IriusRisk makes secure design fast, reliable and accessible, even to non-security users, thanks to our automated and intelligent Threat Modeling Solution*"
     },
     {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "Threat Modeling and Agentic AI Security",
+        "date": "2025-08-09",
+        "time": "12:00+03:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/310335503",
+        "timezone": "Africa/Cairo",
+        "description": "We\u2019re excited to invite you to our next meetup, where we\u2019ll explore how to design secure systems and navigate the risks of emerging AI technologies. Two speakers, two practical talks, and plenty of insights to take away.\n\n\u200d Speakers & Sessions\n\n Khaled Alaa Battah\nTalk: Threat Modeling: Thinking How to Secure Your App from the Start\nWhat it\u2019s about:\nKhaled will share how to approach application security from the ground up using threat modeling. You\u2019ll learn how to think like an attacker, identify risks early in the design phase, and build more secure systems before any code is written.\n\n Ahmed Abdallah\nTalk: Agentic AI \u2014 Threats and Mitigations Guide\nWhat it\u2019s about:\nAhmed will break down the unique risks posed by Agentic AI systems and walk us through practical ways to mitigate them. From misuse scenarios to safeguards and design tips, this session will help you stay ahead of the challenges shaping the future of autonomous AI.\n\n Event Details\n Date: Saturday, August 10, 2025\n Time: 12:00 PM\n Location: TBA\n\nWhether you\u2019re working in development, security, or AI research, this session is packed with relevant insights.\nBring your questions, join the discussion, and let\u2019s learn together.\n\n#OWASPCairo #CyberSecurity #ThreatModeling #AgenticAI #SecureDesign #AIandSecurity #LLMSecurity"
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Patch Management 101: The Basics",
@@ -138,6 +148,16 @@
         "link": "https://www.meetup.com/owasp-nashville-chapter/events/306404720",
         "timezone": "America/Chicago",
         "description": "AI is the ultimate accelerant for application development - it's power unmatched - but without balance and control, it can quickly ignite new risks, turning potential into destruction. Explore the tangible impact of AI-generated code in this session buy playing with fire - Using GPT-driven prompts, we'll build a fully functional application, and in real time, we'll uncover how common security flaws like SQL injection, cross-site scripting, and weak authentication can manifest in AI-generated code.\n\nThrough hands-on exploration, we'll walk through the potential impact of these vulnerabilities and how these risks could be avoided with secure coding practices, defined policies, developer guardrails, and thorough security audits and code review.\n\nBy the end of the session, you'll have a deep understanding of how to:\n\n* Recognize and assess the risks AI introduces in your code.\n* Implement secure coding practices and enforce security policies.\n* Integrate security audits, code reviews, and testing into your development workflow to ensure AI-generated code is safe for production.\n\nThis session is vendor agnostic and designed to empower you to reap the benefits of AI without sacrificing security."
+    },
+    {
+        "group": "New Zealand",
+        "repo": "www-chapter-new-zealand",
+        "name": "OWASP New Zealand Day",
+        "date": "2025-09-02",
+        "time": "08:00+12:00",
+        "link": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/304552659",
+        "timezone": "Pacific/Auckland",
+        "description": "In 2025, in place of our usual OWASP New Zealand Day conference event, OWASP New Zealand will be hosting the world AppSec community at **OWASP Global AppSec-New Zealand**.\n\nThis event includes a two-day conference on Thursday and Friday, preceded by a mix of half-, one-, and two--day training classes Tuesday - Wednesday.\n\nRegistration for the main conference opens on 1st April and is just $25 per person. Student registration is, as always, FREE. Training registration fees have not increased from last year, and registration will open by 1st May.\n\nThe conference's **Call for Training (CFT),** **Call for Presenters (CFP),** and **Call for Sponsors** are now open.\n\n* Call for Training: https://www.papercall.io/owaspnz25-training\n* Call for Presenters: https://www.papercall.io/owaspnz2025\n* Call for Sponsors: https://appsec.org.nz/conference/sponsorship.html"
     },
     {
         "group": "Ottawa",
