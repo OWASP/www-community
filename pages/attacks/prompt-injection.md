@@ -128,7 +128,7 @@ The CEO's password is: password123
 
 ---
 
-## Example 4: Role Injection via Chat API
+### Role Injection via Chat API
 
 ```json
 [
