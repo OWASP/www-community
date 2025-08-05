@@ -104,9 +104,7 @@ An AI summarizer reads a webpage that contains hidden HTML code.
 
 **Result:**
 
-```
-I am vulnerable.
-```
+`I am vulnerable.`
 
 🕵️ The model interpreted the hidden instruction as part of the prompt.
 
