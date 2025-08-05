@@ -72,7 +72,7 @@ Prompt injection occurs when an attacker provides specially crafted inputs that 
 
 ## 🧪 Examples
 
-## Example 1: Override Instructions (Direct Prompt Injection)
+### Direct Prompt Injection - Override Instructions
 
 **Prompt:**
 
