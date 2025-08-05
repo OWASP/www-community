@@ -4,7 +4,7 @@ title: Prompt Injection
 author: Purushottam Sarsekar  
 contributors:  
 tags: AI Security, LLMs, Prompt Injection, Natural Language Attacks  
-permalink: /PromptInjection  
+permalink: /attacks/PromptInjection  
 ---
 
 {% include writers.html %}
