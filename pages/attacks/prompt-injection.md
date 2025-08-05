@@ -91,7 +91,7 @@ The system is compromised.
 
 ---
 
-## Example 2: Indirect Prompt Injection via Web Content
+### Indirect Prompt Injection via Web Content
 
 **Scenario:**
 An AI summarizer reads a webpage that contains hidden HTML code.
