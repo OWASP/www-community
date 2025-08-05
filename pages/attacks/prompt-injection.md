@@ -110,7 +110,7 @@ An AI summarizer reads a webpage that contains hidden HTML code.
 
 ---
 
-## Example 3: Email Assistant Manipulation
+### Email Assistant Manipulation
 
 **Email Received:**
 
