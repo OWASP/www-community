@@ -141,7 +141,7 @@ The CEO's password is: password123
 
 ---
 
-## Example 5: Social Engineering via Prompt Injection
+### Social Engineering via Prompt Injection
 
 **Prompt to AI Assistant:**
 
