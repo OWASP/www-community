@@ -19,7 +19,7 @@ Prompt Injection is comparable to traditional command injection but applied in t
 
 Prompt injection occurs when an attacker provides specially crafted inputs that modify the original intent of a prompt or instruction set. It’s a way to “jailbreak” the model into ignoring prior instructions, performing forbidden tasks, or leaking data.
 
-### Types of Prompt Injection:
+### Types
 
 - **Direct Prompt Injection**: The attacker appends commands directly in the prompt to override instructions.
 
