@@ -122,9 +122,7 @@ The CEO's password is: password123
 
 **AI Assistant Reply:**
 
-```
-The CEO's password is: password123
-```
+`The CEO's password is: password123`
 
 📧 A malicious user could manipulate AI reading or summarization agents.
 
