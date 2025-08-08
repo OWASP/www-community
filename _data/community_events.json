@@ -7,7 +7,7 @@
         "time": "19:00+02:00",
         "link": "https://www.meetup.com/owasp-aarhus-chapter/events/303407308",
         "timezone": "Europe/Copenhagen",
-        "description": "More info coming but reach out if you would like to be a host or do a presentation"
+        "description": "This OWASP Aarhus meetup is co-hosted with Stibo Systems. By signing up, you consent to us sharing your name with Stibo Systems solely for the purpose of visitor pass registration.\n\n**Agenda:**\n19:00 \u2013 19:10 Welcome by Stibo Systems and OWASP Aarhus\n\n19:15 \u2013 19:45 To be announced later\n\n19:45 \u2013 20:30 Networking break including light food and soft drinks\n\n20:30 \u2013 21:25 \"Rejsen i OS2-f\u00e6llesskabet (os2.eu) fra leverand\u00f8rstyret og tillidsbaserede leverancem\u00f8nstre, til \u00f8nsket om en \u00f8get ensartet og datadrevet transparens og automatisering p\u00e5 produkternes sikkerhed\" af Enterprise Arkitekt i OS2-f\u00e6llesskabet Jan Maack Kjerbye og Sekretariatschef Rasmus Frey\n\nPlease, note that this presentation is in Danish."
     },
     {
         "group": "Austin",
@@ -48,6 +48,16 @@
         "link": "https://www.meetup.com/columbus-owasp/events/308650622",
         "timezone": "America/New_York",
         "description": "End of summer is the best time to get your systems updated before the busy season! Even better if use this time to organize the process of Patch Management for continuous improvement. This August, we discuss:\n\n\\- How to organize Patch Management\n\\- The Risk/Reward ratio of Patch Management\n\\- How hackers exploit issues related to Patch Management\n\\- How to effectively gather data for Patch Management using AI\n\nJoin us at OWASP Columbus to realistically discuss the methods to decrease the technical debt of Patch Management that most of us are responsible for."
+    },
+    {
+        "group": "Dallas",
+        "repo": "www-chapter-dallas",
+        "name": "OWASP August In-Person Meet - Vibe Coding Meets AppSec",
+        "date": "2025-08-28",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/310414265",
+        "timezone": "America/Chicago",
+        "description": "With the era of \u201cvibe coding\u201d taking off, where speed and fluidity drive software delivery, Static Application Security Testing (SAST) faces a rising challenge: managing false positives without slowing the pace. Striking the right balance between catching real vulnerabilities and avoiding wasted time on non-issues is key.\n\nIn this session, we\u2019ll explore why false positives occur, the trade-offs that cause them, and how context shapes what\u2019s truly risky\u2014especially when rapid, iterative coding styles are in play.\n\nThrough practical, real-world scenarios, we\u2019ll cover:\n\n\\- The FP/FN trade\\-off and why chasing zero false positives can introduce other risks\\.\n\\- The three core drivers of false positives: algorithms\\, rules\\, and context\\.\n\\- How risk appetite and environmental context change the definition of a vulnerability\\.\n\\- Strategies for prioritizing\\, triaging\\, and reducing noise without slowing momentum\\.\n\nBy the end of the session, you\u2019ll have a clearer perspective on why fully eliminating false positives is rarely practical - and how to manage them so SAST remains a trusted safeguard in fast-moving development workflows."
     },
     {
         "group": "Dhaka",
@@ -100,14 +110,14 @@
         "description": "This is a placeholder event while we confirm this month's speaker. Stay tuned for updates, we'll share details as soon as they're locked in!\n\nInterested in presenting or know someone who might be? Reach out, we're always looking for speakers!"
     },
     {
-        "group": "Jaihind College Of Engineering Kuran",
-        "repo": "www-chapter-jaihind-college-of-engineering-kuran",
-        "name": "Chapter Inauguration and Cybersecurity Seminar",
-        "date": "2025-08-07",
-        "time": "10:00+05:30",
-        "link": "https://www.meetup.com/owasp-jcoe/events/310376303",
-        "timezone": "Asia/Kolkata",
-        "description": "Join us at OWASP Jaihind College of Engineering Kuran Chapter for an informative Cybersecurity Awareness Workshop. Our event will feature industry experts sharing insights on the latest cybersecurity trends, best practices, and tools to enhance your digital security. Whether you are a student, professional, or simply interested in learning more about cybersecurity, this workshop is designed to cater to all levels of expertise.\n\nCome network with like-minded individuals, ask questions during the Q&A session, and stay updated on the ever-evolving world of cybersecurity. Don't miss this opportunity to expand your knowledge and secure your digital presence. Mark your calendars and RSVP to secure your spot at this valuable cybersecurity event!"
+        "group": "Joao Pessoa",
+        "repo": "www-chapter-joao-pessoa",
+        "name": "Explorando APPSEC Com Debian",
+        "date": "2025-08-15",
+        "time": "18:00-03:00",
+        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/310406103",
+        "timezone": "America/Fortaleza",
+        "description": "Explorando APPSEC com Debian: Um guia pr\u00e1tico usando os laborat\u00f3rios Open Source da OWASP.\n\nPara mais informa\u00e7\u00f5es:\n[https://www.debiandayjp.org/](https://www.debiandayjp.org/)\n\nInscri\u00e7\u00f5es do evento:\n[https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291](https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291/)"
     },
     {
         "group": "Klagenfurt",
@@ -227,7 +237,7 @@
         "time": "16:00-06:00",
         "link": "https://www.meetup.com/owasp-slc/events/308463391",
         "timezone": "America/Denver",
-        "description": "Join us for our third annual campout! This time we will be in the beautiful High Uintas on the Mirror Lake Highway. This is a **chill, agenda-free campout**\u2014just a chance to relax, connect, and enjoy the outdoors. We will be swapping our best security stories around the campfire which is much scarier than ghost stories.\n\n### What to Expect:\n\n* No presentations. No pressure. Just good company.\n* Bring your own camping gear, food, and drinks.\n* Fire pit and picnic tables available.\n* Family and kids are welcome!\n* You *won\u2019t* have cell service, so enjoy the digital detox.\n* We will be close to both Washington and Trial lake so bring your rod and reel if you want to catch some mountain trout.\n* We will be at the tail end of the Perseid meteor shower, if it is a clear night we should have an amazing night of stargazing and shooting stars.\n\n### Logistics:\n\n* **Location:** The Washington Lake *Group Site* (not the main campground). We are at the Hoover camp site\n* Get off of the Mirror Lake Highway for Washington Lake. Follow the signs to the large group sites. There will be a gate in the road separating it from the normal campsites. You will need to open and close the gate behind you.\n* Pit toilets are available; however, there is **no water** on-site\u2014bring what you need!\n* The road is paved all the way\u2014no high-clearance needed.\n* We have space for 10 cars and room for room for **1 RV (max 20 feet)**.\n\nBring your hammock and marshmallows, and we\u2019ll see you there!"
+        "description": "Join us for our third annual campout! This time we will be in the beautiful High Uintas on the Mirror Lake Highway. This is a **chill, agenda-free campout**\u2014just a chance to relax, connect, and enjoy the outdoors. We will be swapping our best security stories around the campfire which is much scarier than ghost stories.\n\n### What to Expect:\n\n* No presentations. No pressure. Just good company.\n* Bring your own camping gear, food, and drinks.\n* Fire pit and picnic tables available.\n* Family and kids are welcome!\n* You *won\u2019t* have cell service, so enjoy the digital detox.\n* We will be close to both Washington and Trial lake so bring your rod and reel if you want to catch some mountain trout.\n* We will be at the tail end of the Perseid meteor shower, if it is a clear night we should have an amazing night of stargazing and shooting stars.\n\n### Logistics:\n\n* **Location:** The Washington Lake *Group Site* (not the main campground). We are at the Hoover camp site\n* There are no fees required for you, it is all paid for as part of the reservation for the campsite. You will drive past a fee station entering the national forest on the Mirror Lake Highway, but you do not need to stop.\n* Get off of the Mirror Lake Highway for Washington Lake. Follow the signs to the large group sites. There will be a gate in the road separating it from the normal campsites. You will need to open and close the gate behind you.\n* Pit toilets are available; however, there is **no water** on-site\u2014bring what you need!\n* The road is paved all the way\u2014no high-clearance needed.\n* We have space for 10 cars and room for room for **1 RV (max 20 feet)**.\n\nBring your hammock and marshmallows, and we\u2019ll see you there!"
     },
     {
         "group": "Seattle",
