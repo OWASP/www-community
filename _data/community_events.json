@@ -14,10 +14,10 @@
         "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - August 2025 (Online)",
         "date": "2025-08-26",
-        "time": "11:30-05:00",
+        "time": "11:50-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/305489310",
         "timezone": "America/Chicago",
-        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n(To Be updated)"
+        "description": "A few minutes of meet-and-greet and Chapter information, then the Presentation!\n\n### **Presentation:** \"Advanced Account Security with Identity Threat Detection & Response\"\n\nIdentity-related security challenges are more relevant than ever. As enterprises and consumers increasingly interact with a vast array of digital services, safeguarding accounts from compromise becomes a daunting task. Weak security measures not only expose businesses to financial loss and brand damage but also lead to unhappy customers. Identity Threat Detection and Response (ITDR) solutions offer a powerful way to reduce the risk of account fraud. In this insightful talk, we will explore typical account-related attacks illustrated with real-world examples. We will also discuss the critical non-functional requirements that make ITDR solutions truly effective.\n**Speaker:** **Bertold Kolics**\nBertold Kolics is a Software Testing Lead at Verosint (verosint.com), where he focuses on enhancing identity security through innovative solutions. His previous experience includes engineering identity provisioning and directory products at Sun Microsystems and UnboundID.\n\n\\-\\-\\-\\-\nIf you would prefer to attend in person, please see [Eventbrite](https://owasp-austin-2025-august.eventbrite.com)."
     },
     {
         "group": "Austin",
@@ -92,12 +92,12 @@
     {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
-        "name": "OWASP Jax Monthly Meetup",
+        "name": "Incident Response in Action: A Hands-On Security Simulation",
         "date": "2025-08-18",
         "time": "18:30-04:00",
         "link": "https://www.meetup.com/owasp-jacksonville/events/309788238",
         "timezone": "America/New_York",
-        "description": "This is a placeholder event while we confirm this month's speaker. Stay tuned for updates, we'll share details as soon as they're locked in!\n\nInterested in presenting or know someone who might be? Reach out, we're always looking for speakers!"
+        "description": "Experience the dynamics of a live incident in this interactive tabletop exercise powered by *Backdoors & Breaches*. You\u2019ll collaborate with peers to investigate a simulated security breach, make critical decisions, and apply practical strategies for containment and recovery. This session emphasizes active participation over passive learning, no slides, no lectures, just a realistic, guided scenario that brings incident response principles into focus while introducing you to one of the most engaging security games in the industry."
     },
     {
         "group": "Joao Pessoa",
@@ -222,6 +222,16 @@
     {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
+        "name": "Security Social Lunch Hours",
+        "date": "2025-09-10",
+        "time": "12:00-07:00",
+        "link": "https://www.meetup.com/owasp-seattle-chapter/events/307093545",
+        "timezone": "America/Los_Angeles",
+        "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
+    },
+    {
+        "group": "Seattle",
+        "repo": "www-chapter-seattle",
         "name": "Vibe Coding for Security",
         "date": "2025-08-21",
         "time": "15:00-07:00",
@@ -258,5 +268,15 @@
         "link": "https://www.meetup.com/owasp-virtual-chapter/events/309892428",
         "timezone": "America/New_York",
         "description": "**From Reinforcement Learning to LLMs to Reinforcement Fine Tuning: A Pragmatist\u2019s Guide to AI in Application Security**\n\nAI is everywhere in marketing decks and company OKRs, but which flavors of AI actually move the needle in application security? This talk dissects how modern AI paradigms\u2014transformers (LLMs), agents, reinforcement learning (RL), RLHF (Reinforcement Learning with Human Feedback), and the emerging RFT (Reinforcement Fine-Tuning)\u2014map to real AppSec problems. We\u2019ll explore which areas benefit from transformer-based reasoning, why RL has failed to disrupt AppSec, and how newer approaches may be able to improve human workflows without sacrificing explainability or trust. Leaders will walk away with a sharper mental model of which AI tools are production-ready for AppSec use cases."
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "September community call - OWASP SAMM",
+        "date": "2025-09-10",
+        "time": "15:30-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/309874101",
+        "timezone": "America/New_York",
+        "description": "**Join us for the SAMM Monthly Community Call,** a regular space to hear what\u2019s new with the project, share experiences, and talk about all things SAMM.\n\nWhat to expect:\n\n* Project updates and what\u2019s coming next\n* Occasional podcast-style chats with community guests\n* Open discussion + Q&A: bring your thoughts, questions, or challenges\n\nWhether you\u2019re just starting with SAMM or are already involved, your voice matters. Everyone\u2019s welcome!"
     }
 ]
