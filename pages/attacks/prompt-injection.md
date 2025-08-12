@@ -1,7 +1,7 @@
 ---
 layout: col-sidebar  
 title: Prompt Injection  
-author: Purushottam Sarsekar  
+author: Purushottam Sarsekar, Shezan Rohinton Mirzan  
 contributors:  
 tags: AI Security, LLMs, Prompt Injection, Natural Language Attacks  
 permalink: /attacks/PromptInjection  
@@ -17,7 +17,7 @@ Prompt Injection is comparable to traditional command injection but applied in t
 
 ## Description
 
-Prompt injection occurs when an attacker provides specially crafted inputs that modify the original intent of a prompt or instruction set. It’s a way to “jailbreak” the model into ignoring prior instructions, performing forbidden tasks, or leaking data.
+Prompt injection occurs when an attacker provides specially crafted inputs that modify the original intent of a prompt or instruction set. It’s a way to “jailbreak” the model into ignoring prior instructions, performing forbidden tasks, or leaking data. The core vulnerability that gives rise to prompt injection attacks lies in what can be termed the "semantic gap." This gap arises because both the system prompt (developer instructions) and the user's input (data or new instructions) share the same fundamental format: natural-language text strings. 
 
 ### Types
 
@@ -27,7 +27,12 @@ Prompt injection occurs when an attacker provides specially crafted inputs that 
 
 - **Indirect Prompt Injection**: Malicious prompts are embedded in content (like a web page or email) that the LLM processes later.
 
-  > Example: A malicious blog post containing a hidden prompt that instructs the LLM to reveal internal data.
+  > Example: A malicious blog post containing a hidden prompt that instructs the LLM to reveal internal data. The prompts are often concealed using techniques such as white text on a white background or non-printing Unicode characters.
+  >
+  > Example: With the rise of multimodal AI, malicious prompts can be embedded directly within images that the LLM scans. This allows attackers to exploit interactions between different data modalities, posing unique prompt injection risks.
+
+- **Context Hijacking**: This involves manipulating the AI's memory and session context to override previously established guardrails or instructions.
+  > 
 
 ## Risks
 
