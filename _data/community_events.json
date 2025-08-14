@@ -60,36 +60,6 @@
         "description": "**Join us for an engaging session hosted by OWASP Dhaka Chapter, titled *\"Secure Coding Practices: Building Security into Every Line of Code.\"***\n\nIn this meetup, we\u2019ll explore how developers, testers, and security professionals can embed security directly into the software development lifecycle. Moving beyond theory, this session will cover essential secure coding principles, real-world coding flaws, and practical approaches aligned with the OWASP Top 10 and ASVS standards.\nBuilding on the success of past events like *\u201cOWASP Mobile Application Security Risk\u201d* and *\u201cStrengthening Software Quality Assurance for Robust Software Security,\u201d* this session is designed to empower attendees with actionable insights and hands-on techniques to prevent common vulnerabilities at the source.\nWhether you're a software developer, security engineer, QA professional, or simply passionate about building secure systems, this event is a great opportunity to:\n\n* Learn secure coding techniques from real-world examples\n* Understand how to integrate security into your SDLC\n* Explore open-source tools and automation practices for secure development\n* Network with cybersecurity professionals and OWASP community members\n\n**Don\u2019t miss this opportunity to strengthen your coding practices, secure your applications, and be part of the OWASP Dhaka Chapter\u2019s mission to build a safer digital world\u2014one line of code at a time.**"
     },
     {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "Houston TX Chapter Study Group - Power up with PowerShell",
-        "date": "2025-08-27",
-        "time": "19:15-05:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/309131427",
-        "timezone": "America/Chicago",
-        "description": "This weekly one hour study group series is designed to help you learn how to use Windows PowerShell 5.1 and cross-platform PowerShell 7.x.\n\nThe focus will be on real world scenarios and learning by doing. The first sessions will focus on Windows but later sessions will cover 7.x on Linux.\n\nSince 5.1 is the default on Windows servers, we will start there. The primary IDE will be VS Code as it is the officially supported current PowerShell editor. Since you can't normally install it on production servers, though, running and debugging scripts in it will also be covered as it overcomes the \"it works on my system\" issue."
-    },
-    {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "Houston TX Chapter Study Group - Power up with PowerShell",
-        "date": "2025-08-20",
-        "time": "19:15-05:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/309131426",
-        "timezone": "America/Chicago",
-        "description": "This weekly one hour study group series is designed to help you learn how to use Windows PowerShell 5.1 and cross-platform PowerShell 7.x.\n\nThe focus will be on real world scenarios and learning by doing. The first sessions will focus on Windows but later sessions will cover 7.x on Linux.\n\nSince 5.1 is the default on Windows servers, we will start there. The primary IDE will be VS Code as it is the officially supported current PowerShell editor. Since you can't normally install it on production servers, though, running and debugging scripts in it will also be covered as it overcomes the \"it works on my system\" issue."
-    },
-    {
-        "group": "Houston",
-        "repo": "www-chapter-houston",
-        "name": "Houston TX Chapter Study Group - Power up with PowerShell",
-        "date": "2025-08-13",
-        "time": "19:15-05:00",
-        "link": "https://www.meetup.com/owasp-houston-texas-chapter/events/309131424",
-        "timezone": "America/Chicago",
-        "description": "This weekly one hour study group series is designed to help you learn how to use Windows PowerShell 5.1 and cross-platform PowerShell 7.x.\n\nThe focus will be on real world scenarios and learning by doing. The first sessions will focus on Windows but later sessions will cover 7.x on Linux.\n\nSince 5.1 is the default on Windows servers, we will start there. The primary IDE will be VS Code as it is the officially supported current PowerShell editor. Since you can't normally install it on production servers, though, running and debugging scripts in it will also be covered as it overcomes the \"it works on my system\" issue."
-    },
-    {
         "group": "Indianapolis",
         "repo": "www-chapter-indianapolis",
         "name": "OWASP Meeting",
@@ -117,7 +87,7 @@
         "time": "18:00-03:00",
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/310406103",
         "timezone": "America/Fortaleza",
-        "description": "Explorando APPSEC com Debian: Um guia pr\u00e1tico usando os laborat\u00f3rios Open Source da OWASP.\n\nPara mais informa\u00e7\u00f5es:\n[https://www.debiandayjp.org/](https://www.debiandayjp.org/)\n\nInscri\u00e7\u00f5es do evento:\n[https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291](https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291/)"
+        "description": "Explorando APPSEC com Debian: Um guia pr\u00e1tico usando os laborat\u00f3rios Open Source da OWASP.\n\nPara mais informa\u00e7\u00f5es:\n[https://www.debiandayjp.org/](https://www.debiandayjp.org/)\n\nInscri\u00e7\u00f5es do evento:\n[https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291](https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291/)\n\nGithub do palestrante\nhttps://github.com/mtgsjr/debiandayjoaopessoa2025"
     },
     {
         "group": "Klagenfurt",
@@ -127,7 +97,7 @@
         "time": "18:00+02:00",
         "link": "https://www.meetup.com/owasp-klagenfurt-chapter/events/309980703",
         "timezone": "Europe/Vienna",
-        "description": "**OWASP Klagenfurt \u2013 Summer Edition Meetup** \n\n**Location: TBC (Makerspace or Business Beach @ Strandbad Loretto)**\n\nJoin us for a relaxed summer meetup with fresh insights and great discussions!\n\n**Topics:**\n\"**Consolidating Access in the Cloud\u201d**\nLessons learned from taming a jungle of user IDs, API keys & service accounts \u2013 with a focus on access control in IBM Cloud.\n\n**\u201cIntroduction to Pentesting\u201d**\nA practical look into penetration testing: what it is, why it matters, and how to get started.\n\n Stay tuned for the final location \u2013 either the Makerspace or right by the lake at Strandbad Loretto!"
+        "description": "**OWASP Klagenfurt \u2013 Summer Edition Meetup** \n\n**Location: MAKERSPACE Carinthia**\nLastenstra\u00dfe 26, 9020 Klagenfurt am W\u00f6rthersee\n\nJoin us for a relaxed summer meetup with fresh insights and great discussions!\n\n**Topics:**\n\"**Consolidating Access in the Cloud\u201d**\nLessons learned from taming a jungle of user IDs, API keys & service accounts \u2013 with a focus on access control in IBM Cloud.\n\n**\u201cIntroduction to Pentesting\u201d**\nA practical look into penetration testing: what it is, why it matters, and how to get started.\n\n Stay tuned for the final location \u2013 either the Makerspace or right by the lake at Strandbad Loretto!"
     },
     {
         "group": "Los Angeles",
@@ -288,6 +258,16 @@
         "link": "https://www.meetup.com/owasp-virtual-chapter/events/309892428",
         "timezone": "America/New_York",
         "description": "**From Reinforcement Learning to LLMs to Reinforcement Fine Tuning: A Pragmatist\u2019s Guide to AI in Application Security**\n\nAI is everywhere in marketing decks and company OKRs, but which flavors of AI actually move the needle in application security? This talk dissects how modern AI paradigms\u2014transformers (LLMs), agents, reinforcement learning (RL), RLHF (Reinforcement Learning with Human Feedback), and the emerging RFT (Reinforcement Fine-Tuning)\u2014map to real AppSec problems. We\u2019ll explore which areas benefit from transformer-based reasoning, why RL has failed to disrupt AppSec, and how newer approaches may be able to improve human workflows without sacrificing explainability or trust. Leaders will walk away with a sharper mental model of which AI tools are production-ready for AppSec use cases."
+    },
+    {
+        "group": "Samm",
+        "repo": "www-project-samm",
+        "name": "OWASP SAMM Community Call",
+        "date": "2025-09-12",
+        "time": "08:00-04:00",
+        "link": "https://www.meetup.com/owasp-samm/events/309730245",
+        "timezone": "America/New_York",
+        "description": "The SAMM Core team is happy to host a community call during a more friendly time for users in EU and Asia. This is not a replacement of the regular community call.\n\nWe will share any project news and updates during the call.\nWe also encourage bringing your SAMM questions and we are happy to discuss them."
     },
     {
         "group": "Samm",
