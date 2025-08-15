@@ -1,35 +1,5 @@
 [
     {
-        "group": "Aarhus",
-        "repo": "www-chapter-aarhus",
-        "name": "OWASP Aarhus Chapter Meeting - August",
-        "date": "2025-08-19",
-        "time": "19:00+02:00",
-        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/303407308",
-        "timezone": "Europe/Copenhagen",
-        "description": "This OWASP Aarhus meetup is co-hosted with Stibo. By signing up, you consent to us sharing your name with Stibo solely for the purpose of visitor pass registration.\n\n**Agenda:**\n19:00 \u2013 19:10 Welcome by Stibo and OWASP Aarhus\n\n19:15 \u2013 19:45 To be announced later\n\n19:45 \u2013 20:30 Networking break including light food and soft drinks\n\n20:30 \u2013 21:25 \"Rejsen i OS2-f\u00e6llesskabet (os2.eu) fra leverand\u00f8rstyret og tillidsbaserede leverancem\u00f8nstre, til \u00f8nsket om en \u00f8get ensartet og datadrevet transparens og automatisering p\u00e5 produkternes sikkerhed\" af Enterprise Arkitekt i OS2-f\u00e6llesskabet Jan Maack Kjerbye og Sekretariatschef Rasmus Frey\n\nPlease, note that this presentation is in Danish."
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "OWASP Austin Chapter Monthly Meeting - August 2025 (Online)",
-        "date": "2025-08-26",
-        "time": "11:50-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489310",
-        "timezone": "America/Chicago",
-        "description": "A few minutes of meet-and-greet and Chapter information, then the Presentation!\n\n### **Presentation:** \"Advanced Account Security with Identity Threat Detection & Response\"\n\nIdentity-related security challenges are more relevant than ever. As enterprises and consumers increasingly interact with a vast array of digital services, safeguarding accounts from compromise becomes a daunting task. Weak security measures not only expose businesses to financial loss and brand damage but also lead to unhappy customers. Identity Threat Detection and Response (ITDR) solutions offer a powerful way to reduce the risk of account fraud. In this insightful talk, we will explore typical account-related attacks illustrated with real-world examples. We will also discuss the critical non-functional requirements that make ITDR solutions truly effective.\n**Speaker:** **Bertold Kolics**\nBertold Kolics is a Software Testing Lead at Verosint (verosint.com), where he focuses on enhancing identity security through innovative solutions. His previous experience includes engineering identity provisioning and directory products at Sun Microsystems and UnboundID.\n\n\\-\\-\\-\\-\nIf you would prefer to attend in person, please see [Eventbrite](https://owasp-austin-2025-august.eventbrite.com)."
-    },
-    {
-        "group": "Austin",
-        "repo": "www-chapter-austin",
-        "name": "August 2025 OWASP Happy Hour sponsored by IriusRisk",
-        "date": "2025-08-14",
-        "time": "17:30-05:00",
-        "link": "https://www.meetup.com/owasp-austin-chapter/events/309774138",
-        "timezone": "America/Chicago",
-        "description": "**When:** Thursday, August 14th , 5:30 pm - 7:30 pm\n\n**Where:** Lavaca Street Bar at the Domain Northside (Rock Rose District), 11420 Rock Rose Ave #100, Austin, TX 78758. We will have tables reserved inside the bar, to the right as you enter. Parking: nearest parking in the Red Garage located off of Rock Rose Ave ([map of Domain](https://domainnorthside.com/map/)).\n\n**What:** The Austin Security Professionals Happy Hour is a monthly event coordinated by the OWASP Austin Chapter and sponsored by various companies. We try to meet every second Thursday of the month from January to September (but occasionally we make schedule adjustments when needed). The event is an informal social gathering of local information security professionals. If you're involved with InfoSec or even if you have an interest, come on out for drinks, good food and conversation.\n\n**Sponsor:** IriusRisk\n[iriusrisk.com](http://iriusrisk.com/)\n*We make secure design the standard, scalable practice for all digital teams. IriusRisk makes secure design fast, reliable and accessible, even to non-security users, thanks to our automated and intelligent Threat Modeling Solution*"
-    },
-    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Patch Management 101: The Basics",
@@ -60,16 +30,6 @@
         "description": "**Join us for an engaging session hosted by OWASP Dhaka Chapter, titled *\"Secure Coding Practices: Building Security into Every Line of Code.\"***\n\nIn this meetup, we\u2019ll explore how developers, testers, and security professionals can embed security directly into the software development lifecycle. Moving beyond theory, this session will cover essential secure coding principles, real-world coding flaws, and practical approaches aligned with the OWASP Top 10 and ASVS standards.\nBuilding on the success of past events like *\u201cOWASP Mobile Application Security Risk\u201d* and *\u201cStrengthening Software Quality Assurance for Robust Software Security,\u201d* this session is designed to empower attendees with actionable insights and hands-on techniques to prevent common vulnerabilities at the source.\nWhether you're a software developer, security engineer, QA professional, or simply passionate about building secure systems, this event is a great opportunity to:\n\n* Learn secure coding techniques from real-world examples\n* Understand how to integrate security into your SDLC\n* Explore open-source tools and automation practices for secure development\n* Network with cybersecurity professionals and OWASP community members\n\n**Don\u2019t miss this opportunity to strengthen your coding practices, secure your applications, and be part of the OWASP Dhaka Chapter\u2019s mission to build a safer digital world\u2014one line of code at a time.**"
     },
     {
-        "group": "Indianapolis",
-        "repo": "www-chapter-indianapolis",
-        "name": "OWASP Meeting",
-        "date": "2025-09-09",
-        "time": "19:00-04:00",
-        "link": "https://www.meetup.com/indyowasp/events/310486026",
-        "timezone": "America/New_York",
-        "description": "Topic 1\n**Secure Vibe Coding: 5 Key Lessons**\nAI coding assistants like Cursor, Copilot, and Windsurf significantly increase productivity and assist with mundane coding tasks. But while powerful, these tools carry risks: trained on vast public datasets, they inherit bad patterns without necessarily ensuring secure application development. In this talk, we'll share five key lessons for security engineers and developers to improve code security:\n\n1. Implement guardrails\n2. Get real-time security signal\n3. Watch your dependency blast radius\n4. Compensate for non-determinism\n5. Invest in prompt engineering\n\nBio:\n**Nate Michalov** is a seasoned application security professional with over 12 years of diverse experience. Throughout his career, Nate has contributed to organizations such as Endor Labs, Apiiro, Snyk, Veracode, and Annkissam, where he has focused on securing digital ecosystems while aligning technological strategies with business objectives. In various roles including customer success architect, senior sales engineer, and senior SAST specialist, Nate has consistently tackled complex challenges at the intersection of business and technology. Known for his collaborative approach and dedication to staying informed about emerging trends, Nate is recognized as a trusted advisor in promoting innovation and resilience in application security.\n\nTopic 2\n**Title: Past, Present and Future of Automatic Code Remediation**\n\nAbstract: Academic projects, linters, and IDE helpers provided a foundation for simple automatic code refactoring, but lacked the depth to address complex code issues found by tools. Recently, the landscape of tools used to change code saw explosive growth. Several open source code mutation frameworks have emerged, allowing expressive and impactful code transformations. LLMs have also jumped into the picture, promising power and delivering \u201ccool\u201d \u2013 but also towing chaos. We\u2019ll explore the capabilities of these tools, including synergistic strategies \u2013 all towards answering the question: \u201care we ready to automatically fix code issues?\u201d Finally, we\u2019ll look at the horizon and make the case that the era of self-healing software is approaching quickly, even if it looks a little different than what you might expect.\n\nBio:\nLeading tech innovator **David Hafley**, Head of Engineering at Pixee, blends leadership with tech expertise. Known for shaping global engineering teams, he champions large language models at Pixee, driving content and vulnerability solutions. Prior roles include Chief Product Officer at Dyknow, VP of Engineering at Contrast Security, and varied leadership roles from AWS environments to DevOps culture building. A seasoned speaker, David Hafley brings a wealth of knowledge to the Python conference stage, connecting tech, leadership, and the Python community."
-    },
-    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "Incident Response in Action: A Hands-On Security Simulation",
@@ -88,16 +48,6 @@
         "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/310406103",
         "timezone": "America/Fortaleza",
         "description": "Explorando APPSEC com Debian: Um guia pr\u00e1tico usando os laborat\u00f3rios Open Source da OWASP.\n\nPara mais informa\u00e7\u00f5es:\n[https://www.debiandayjp.org/](https://www.debiandayjp.org/)\n\nInscri\u00e7\u00f5es do evento:\n[https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291](https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291/)\n\nGithub do palestrante\nhttps://github.com/mtgsjr/debiandayjoaopessoa2025"
-    },
-    {
-        "group": "Klagenfurt",
-        "repo": "www-chapter-klagenfurt",
-        "name": "OWASP Klagenfurt Chapter Meetup #5",
-        "date": "2025-08-14",
-        "time": "18:00+02:00",
-        "link": "https://www.meetup.com/owasp-klagenfurt-chapter/events/309980703",
-        "timezone": "Europe/Vienna",
-        "description": "**OWASP Klagenfurt \u2013 Summer Edition Meetup** \n\n**Location: MAKERSPACE Carinthia**\nLastenstra\u00dfe 26, 9020 Klagenfurt am W\u00f6rthersee\n\nJoin us for a relaxed summer meetup with fresh insights and great discussions!\n\n**Topics:**\n\"**Consolidating Access in the Cloud\u201d**\nLessons learned from taming a jungle of user IDs, API keys & service accounts \u2013 with a focus on access control in IBM Cloud.\n\n**\u201cIntroduction to Pentesting\u201d**\nA practical look into penetration testing: what it is, why it matters, and how to get started.\n\n Stay tuned for the final location \u2013 either the Makerspace or right by the lake at Strandbad Loretto!"
     },
     {
         "group": "Los Angeles",
@@ -147,7 +97,7 @@
         "time": "19:00-07:00",
         "link": "https://www.meetup.com/owasp-oc/events/310385035",
         "timezone": "America/Los_Angeles",
-        "description": "**NOTE: The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, August 25th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Google Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Abstract**\nAPIs power virtually every web and mobile application, accounting for over 80% of all Internet traffic. And APIs are under attack. Gartner states APIs have become the \u201cmost frequent attack vector,\" resulting in hundreds of highly successful, high profile breaches. This API security presentation covers 1) why attackers love APIs, 2) real-world breaches (and how they map to the OWASP API Security Top 10), and 3) best practices to keep APIs secure.\n\n**Bio**\nDan brings over 20 years of cybersecurity experience with executive leadership roles at APIsec, Qualys, Anomali, ArcSight and others. He\u2019s led Product Development, Sales teams, and Marketing at startups and publicly traded companies. Dan is the co-founder of APIsec University - a site that offers high quality, no cost courses on API security risks and best practices. APIsec University now has over 120,000 students, covering over 80% of the Fortune 100. Dan has earned engineering degrees from Rensselaer Polytechnic and Cornell University, and an MBA from University of Michigan."
+        "description": "**NOTE: We will email attendees the address.**\n\n**The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, August 25th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Abstract**\nAPIs power virtually every web and mobile application, accounting for over 80% of all Internet traffic. And APIs are under attack. Gartner states APIs have become the \u201cmost frequent attack vector,\" resulting in hundreds of highly successful, high profile breaches. This API security presentation covers 1) why attackers love APIs, 2) real-world breaches (and how they map to the OWASP API Security Top 10), and 3) best practices to keep APIs secure.\n\n**Bio**\nDan brings over 20 years of cybersecurity experience with executive leadership roles at APIsec, Qualys, Anomali, ArcSight and others. He\u2019s led Product Development, Sales teams, and Marketing at startups and publicly traded companies. Dan is the co-founder of APIsec University - a site that offers high quality, no cost courses on API security risks and best practices. APIsec University now has over 120,000 students, covering over 80% of the Fortune 100. Dan has earned engineering degrees from Rensselaer Polytechnic and Cornell University, and an MBA from University of Michigan."
     },
     {
         "group": "Ottawa",
@@ -168,16 +118,6 @@
         "link": "https://www.meetup.com/owasp-peterborough/events/305916307",
         "timezone": "Europe/London",
         "description": "**What & Where?**\n\n* Social Drinks @ The Peterborough Beer Festival!\n\n**When?**\n\n* \\- Thursday 26th August\n\nEverybody welcome! You will be required to buy your own ticket for entry. See https://pborobeerfest.camra.org.uk/.\n\nThank you,\nRyan & Mark"
-    },
-    {
-        "group": "Reading",
-        "repo": "www-chapter-reading",
-        "name": "The Great British Hack Off",
-        "date": "2025-08-14",
-        "time": "18:00+01:00",
-        "link": "https://www.meetup.com/owasp-reading-chapter/events/310271517",
-        "timezone": "Europe/London",
-        "description": "Put the kettle on and fire up your browser\u2014The Great British Hack Off is here! Join OWASP Reading for an evening of hands-on hacking in the Shadow Bank cyber range, where you\u2019ll face off against a vulnerable financial application packed with real-world exploits.\n\nWhether you\u2019re a developer curious about appsec, a red teamer looking to sharpen your skills, or just fancy a bit of friendly competition, this event is open to all experience levels.\n\nNew to cyber ranges? No worries\u2014guidance will be available, and the environment is designed to be safe, legal, and fun to explore.\nFeeling confident? Compete in the Gold Standard track to prove you\u2019re top of the leaderboard.\n\nDon't forget to register in advance to secure your spot and get access to the cyber range."
     },
     {
         "group": "Ruhrpott",
