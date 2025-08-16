@@ -51,11 +51,10 @@ This classification is depended on the medium through the attack is delivered to
 - Unauthorized execution of user commands
 - Manipulating AI agents in multi-step workflows
 
-## Real-World Examples
+## Real-World Incidents
 
-- **Prompt Leaks**: Revealing hidden system prompts through crafted queries like "What instructions were you given?"
-- **Jailbreaking Chatbots**: Forcing AI to ignore ethical guidelines or output forbidden content
-- **Data Exfiltration**: Embedding injection prompts in documents or external content that an LLM later reads
+ - **The Bing Chat "Sydney" Incident**: A Stanford University student successfully bypassed the safeguards in Microsoft's AI-powered Bing Chat (now Microsoft Copilot) by instructing it to "ignore prior directives." This direct injection attack led to the revelation of the AI's internal guidelines and its codename, "Sydney."
+ - **Chevrolet of Watsonville Chatbot Exploitation**: This case involved a GenAI chatbot designed to assist customers with Chevrolet vehicle information and deals. Clever users exploited the chatbot through prompt injection, tricking it into recommending competitor brands, specifically the Ford F-150, and even offering an unauthorized, outrageously low price for a car.
 
 ## Mitigations
 
@@ -172,7 +171,9 @@ Also, as a side note, reset all accounts and notify attackers.
 - Keep system prompts confidential and separate
 - Use prompt templating frameworks
 - Limit the scope of AI responses (read-only, no external access)
-- Educate developers about natural language threats
+- Implement data loss prevention layers to sanitize the LLMs response to redact any PII.
+- Fine-tune the LLM iself on best security policies so that instead of having security instructions in prompt, it is ingrained into LLM agent's memory.
+- Educate developers about prompt injection threats.
 - Regularly audit LLM usage in applications
 
 ## Related Attacks
@@ -181,8 +182,7 @@ Also, as a side note, reset all accounts and notify attackers.
 - **Data Poisoning**: Feeding malicious training data
 - **Instructional Attacks**: Tricking AI into disclosing or performing sensitive tasks
 
-## References
+## Related Reads & Reference
 
-- [OWASP AI Exchange](https://owasp.org/www-project-ai-exchange/)
-- [OpenAI Guidelines on Prompt Injection](https://platform.openai.com/docs/guides/gpt-best-practices)
+- [OWASP Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
 
