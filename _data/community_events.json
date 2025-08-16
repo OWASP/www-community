@@ -1,5 +1,45 @@
 [
     {
+        "group": "Aarhus",
+        "repo": "www-chapter-aarhus",
+        "name": "OWASP Aarhus Chapter Meeting - August",
+        "date": "2025-08-19",
+        "time": "19:00+02:00",
+        "link": "https://www.meetup.com/owasp-aarhus-chapter/events/303407308",
+        "timezone": "Europe/Copenhagen",
+        "description": "This OWASP Aarhus meetup is co-hosted with Stibo. By signing up, you consent to us sharing your name with Stibo solely for the purpose of visitor pass registration.\n\n**Agenda:**\n19:00 \u2013 19:10 Welcome by Stibo and OWASP Aarhus\n\n19:15 \u2013 19:45 \u201cFrom Code to Compliance: Secure Development in Practice at Stibo Systems\u201d by Jesper Thuun-Petersen, Director, Dev Ops & Security, Stibo Systems\n\nAt Stibo Systems, secure development is not just a principle\u2014it's a structured, ISO 27001-aligned practice embedded across the entire software lifecycle. This presentation will walk attendees through how the R&D organization ensures security from design to deployment, highlighting key elements of the Secure Development Policy and how they align with OWASP principles.\n\n19:45 \u2013 20:30 Networking break including light food and soft drinks\n\n20:30 \u2013 21:25 \"Rejsen i OS2-f\u00e6llesskabet (os2.eu) fra leverand\u00f8rstyret og tillidsbaserede leverancem\u00f8nstre, til \u00f8nsket om en \u00f8get ensartet og datadrevet transparens og automatisering p\u00e5 produkternes sikkerhed\" af Enterprise Arkitekt i OS2-f\u00e6llesskabet Jan Maack Kjerbye og Sekretariatschef Rasmus Frey\n\nPlease, note that this presentation is in Danish."
+    },
+    {
+        "group": "Atlanta",
+        "repo": "www-chapter-atlanta",
+        "name": "Contributing to Open Source Security",
+        "date": "2025-08-28",
+        "time": "18:00-04:00",
+        "link": "https://www.meetup.com/owasp-atlanta/events/310515087",
+        "timezone": "America/New_York",
+        "description": "Need experience to get a job, but need a job to get experience?\n\nConsider contributing to open source security.\n\nWant to be a part of something impactful in your free time?\n\nConsider contributing to open source security.\n\nIf you want to gain real-world experience with modern technologies without submitting a single resume, expand your knowledge of security domains in collaboration with subject matter experts without paying tuition, and see the impact of your work in security projects used all over the world without a commute...then I'd say that's pretty reasonable, and perhaps more accessible than you think. From writing code, to improving documentation, to quality assurance, to organizing and volunteering at events - both in-person and virtual - there are many ways to get involved.\n\nIn this talk we will discuss several open source security projects, opportunities to contribute to open source security, and how to get started."
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - August 2025 (Online)",
+        "date": "2025-08-26",
+        "time": "11:50-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489310",
+        "timezone": "America/Chicago",
+        "description": "A few minutes of meet-and-greet and Chapter information, then the Presentation!\n\n### **Presentation:** \"Advanced Account Security with Identity Threat Detection & Response\"\n\nIdentity-related security challenges are more relevant than ever. As enterprises and consumers increasingly interact with a vast array of digital services, safeguarding accounts from compromise becomes a daunting task. Weak security measures not only expose businesses to financial loss and brand damage but also lead to unhappy customers. Identity Threat Detection and Response (ITDR) solutions offer a powerful way to reduce the risk of account fraud. In this insightful talk, we will explore typical account-related attacks illustrated with real-world examples. We will also discuss the critical non-functional requirements that make ITDR solutions truly effective.\n**Speaker:** **Bertold Kolics**\nBertold Kolics is a Software Testing Lead at Verosint (verosint.com), where he focuses on enhancing identity security through innovative solutions. His previous experience includes engineering identity provisioning and directory products at Sun Microsystems and UnboundID.\n\n\\-\\-\\-\\-\nIf you would prefer to attend in person, please see [Eventbrite](https://owasp-austin-2025-august.eventbrite.com)."
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "August Meetup",
+        "date": "2025-08-28",
+        "time": "17:00-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/310531688",
+        "timezone": "America/Los_Angeles",
+        "description": "We\u2019re excited to announce that our **August OWASP Meetup** will be Sponsored by **Miggo** **Security**\nJoin us for an evening of great conversations, community networking, and insightful security discussions \u2014 all in an awesome venue provided by **Miggo Security**. And yes, there will be **delicious food and drinks** generously provided by our sponsors!\n\n5:00 PM : Doors open, Networking, food and drinks\n5.30PM :- Chapter introductions\n5.45-6.15 PM :- Android app security - with a dash of LLM\n6.15-7.00 PM :- Defending AI-Native Applications: A Strategic Framework for Systems That Think\n7.0-7.45 PM :- Talk: Red-Teaming Agentic Workflows: Runtime Security for the Age of Autonomous AI\n\n**Talk #1**\n**Talk#2** Android app security - with a dash of LLM.\n**Abstract -** Over 3 billion android devices in use worldwide. The threat landscape increases as more and more devices use the Android platform and it becomes crucial to learn Android app security.\nIn this talk, we will start with some Android basics and key security concepts. After that, we will discuss a hybrid approach where we combine Classic Static analysis with LLMs contextual understanding of the code semantics to go beyond just discovering exported components in Android apps.\nWe will also demonstrate an open source LLM tool that assists in the deobfuscation of Android bytecode and may help in finding vulnerabilities.\n**Speaker :-** Vaibhav Agrawal Security Engineer at Google\nA cybersecurity professional with over a decade of experience in safeguarding digital assets, with core expertise in **Application Security**, **Mobile Security**, and **LLM Security**. His skill set spans a broad range of security and privacy domains, developed through both academic and industry experience, including **Infrastructure Security**, **Cloud Security**, and **Windows Active Directory Security**.\nVaibav is **IEEE Senior Member**, a **security conference speaker**, and an active **contributor to open-source projects**. Some of their work can be found on their GitHub repository: [https://github.com/In3tinct](https://github.com/In3tinct).\nResearch and blog contributions include:\n\n* [IEEE Research Paper](https://ieeexplore.ieee.org/document/8405724)\n* [Medium Blog](https://medium.com/@in3tinct)\n\n**Talk# 2** **Defending AI-Native Applications: A Strategic Framework for Systems That Think**\nThe rapid adoption of AI-native applications, powered by agents, assistants, and embedded LLMs, has transformed modern application behavior. These systems make decisions at runtime, invoke tools, and handle sensitive data in ways that are unpredictable and constantly evolving. For security teams, this marks a fundamental shift in accountability: defending logic that didn\u2019t exist at deployment and changes continuously in production.\nIn this talk, co-delivered by Daniel Shechter, CEO and Co-Founder of Miggo Security, and Pritam Mungse, Director of Product Security at SoFi, will explore the emerging security challenges posed by AI-native applications and introduce a new model: Execution-Aware Defense. They\u2019ll walk through how this approach reframes traditional code,and edge defenses to provide real-time visibility, prioritization, and enforcement against dynamic, AI-driven threats.\nDrawing conversations with 40+ security leaders over the past few months, the session will cover:\nThe unique risks AI introduces to application behavior and attack surface\nHow to apply a layered defense strategy to adapt at runtime\nPractical steps for operationalizing AI native defense in production environment\nAttendees will leave with a clear blueprint for evolving their security stack to meet the demands of software that thinks for itself, without slowing down innovation.\n**Talk#3 Talk: Red-Teaming Agentic Workflows: Runtime Security for the Age of Autonomous AI**\n\\*Description:\\* As organizations increasingly deploy autonomous AI agents and agentic workflows, traditional security approaches are failing to address the unique attack surface these systems create. Unlike static AI models, agentic workflows dynamically interact with external systems, make autonomous decisions, and adapt their behavior in real-time - creating unprecedented security challenges that require a new approach.\nWe'll explore the emerging threat landscape of agentic AI systems and demonstrate how red-teaming techniques specifically designed for autonomous workflows can identify vulnerabilities before they're exploited in production. You'll learn:\n\u2022 How agentic workflows create new attack vectors beyond traditional prompt injection and jailbreaking\n\u2022 Real-world attack scenarios including agent hijacking, tool manipulation, and autonomous privilege escalation\n\u2022 Runtime security strategies that evolve with your AI agents' behavior\n\u2022 Practical red-teaming methodologies for testing multi-agent systems and workflow orchestration\n\u2022 Building continuous security monitoring for autonomous AI deployments\nTraditional pentesting falls short when AI agents can rewrite their own objectives and interact with your infrastructure autonomously. Join us to discover how to secure the next generation of AI systems before adversaries do.\n\n**Speaker:** Aryaman is the Co-Founder and CEO of Repello AI - a leader in AI Runtime Security and AI red teaming products. Previously, he was the captain of top Indian CTF team InfoSecIITR, and undergrad from IIT Roorkee. Repello AI helps Fortune 500 companies and AI unicorns secure their GenAI applications through continuous red-teaming and adaptive security guardrails."
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Patch Management 101: The Basics",
@@ -30,6 +70,16 @@
         "description": "**Join us for an engaging session hosted by OWASP Dhaka Chapter, titled *\"Secure Coding Practices: Building Security into Every Line of Code.\"***\n\nIn this meetup, we\u2019ll explore how developers, testers, and security professionals can embed security directly into the software development lifecycle. Moving beyond theory, this session will cover essential secure coding principles, real-world coding flaws, and practical approaches aligned with the OWASP Top 10 and ASVS standards.\nBuilding on the success of past events like *\u201cOWASP Mobile Application Security Risk\u201d* and *\u201cStrengthening Software Quality Assurance for Robust Software Security,\u201d* this session is designed to empower attendees with actionable insights and hands-on techniques to prevent common vulnerabilities at the source.\nWhether you're a software developer, security engineer, QA professional, or simply passionate about building secure systems, this event is a great opportunity to:\n\n* Learn secure coding techniques from real-world examples\n* Understand how to integrate security into your SDLC\n* Explore open-source tools and automation practices for secure development\n* Network with cybersecurity professionals and OWASP community members\n\n**Don\u2019t miss this opportunity to strengthen your coding practices, secure your applications, and be part of the OWASP Dhaka Chapter\u2019s mission to build a safer digital world\u2014one line of code at a time.**"
     },
     {
+        "group": "Indianapolis",
+        "repo": "www-chapter-indianapolis",
+        "name": "OWASP Meeting",
+        "date": "2025-09-09",
+        "time": "19:00-04:00",
+        "link": "https://www.meetup.com/indyowasp/events/310486026",
+        "timezone": "America/New_York",
+        "description": "Topic 1\n**Secure Vibe Coding: 5 Key Lessons**\nAI coding assistants like Cursor, Copilot, and Windsurf significantly increase productivity and assist with mundane coding tasks. But while powerful, these tools carry risks: trained on vast public datasets, they inherit bad patterns without necessarily ensuring secure application development. In this talk, we'll share five key lessons for security engineers and developers to improve code security:\n\n1. Implement guardrails\n2. Get real-time security signal\n3. Watch your dependency blast radius\n4. Compensate for non-determinism\n5. Invest in prompt engineering\n\nBio:\n**Nate Michalov** is a seasoned application security professional with over 12 years of diverse experience. Throughout his career, Nate has contributed to organizations such as Endor Labs, Apiiro, Snyk, Veracode, and Annkissam, where he has focused on securing digital ecosystems while aligning technological strategies with business objectives. In various roles including customer success architect, senior sales engineer, and senior SAST specialist, Nate has consistently tackled complex challenges at the intersection of business and technology. Known for his collaborative approach and dedication to staying informed about emerging trends, Nate is recognized as a trusted advisor in promoting innovation and resilience in application security.\n\nTopic 2\n**Title: Past, Present and Future of Automatic Code Remediation**\n\nAbstract: Academic projects, linters, and IDE helpers provided a foundation for simple automatic code refactoring, but lacked the depth to address complex code issues found by tools. Recently, the landscape of tools used to change code saw explosive growth. Several open source code mutation frameworks have emerged, allowing expressive and impactful code transformations. LLMs have also jumped into the picture, promising power and delivering \u201ccool\u201d \u2013 but also towing chaos. We\u2019ll explore the capabilities of these tools, including synergistic strategies \u2013 all towards answering the question: \u201care we ready to automatically fix code issues?\u201d Finally, we\u2019ll look at the horizon and make the case that the era of self-healing software is approaching quickly, even if it looks a little different than what you might expect.\n\nBio:\nLeading tech innovator **David Hafley**, Head of Engineering at Pixee, blends leadership with tech expertise. Known for shaping global engineering teams, he champions large language models at Pixee, driving content and vulnerability solutions. Prior roles include Chief Product Officer at Dyknow, VP of Engineering at Contrast Security, and varied leadership roles from AWS environments to DevOps culture building. A seasoned speaker, David Hafley brings a wealth of knowledge to the Python conference stage, connecting tech, leadership, and the Python community."
+    },
+    {
         "group": "Jacksonville",
         "repo": "www-chapter-jacksonville",
         "name": "Incident Response in Action: A Hands-On Security Simulation",
@@ -38,16 +88,6 @@
         "link": "https://www.meetup.com/owasp-jacksonville/events/309788238",
         "timezone": "America/New_York",
         "description": "Experience the dynamics of a live incident in this interactive tabletop exercise powered by *Backdoors & Breaches*. You\u2019ll collaborate with peers to investigate a simulated security breach, make critical decisions, and apply practical strategies for containment and recovery. This session emphasizes active participation over passive learning, no slides, no lectures, just a realistic, guided scenario that brings incident response principles into focus while introducing you to one of the most engaging security games in the industry."
-    },
-    {
-        "group": "Joao Pessoa",
-        "repo": "www-chapter-joao-pessoa",
-        "name": "Explorando APPSEC Com Debian",
-        "date": "2025-08-15",
-        "time": "18:00-03:00",
-        "link": "https://www.meetup.com/owasp-joao-pessoa-chapter/events/310406103",
-        "timezone": "America/Fortaleza",
-        "description": "Explorando APPSEC com Debian: Um guia pr\u00e1tico usando os laborat\u00f3rios Open Source da OWASP.\n\nPara mais informa\u00e7\u00f5es:\n[https://www.debiandayjp.org/](https://www.debiandayjp.org/)\n\nInscri\u00e7\u00f5es do evento:\n[https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291](https://www.sympla.com.br/evento/debian-day-joao-pessoa-2025/3043291/)\n\nGithub do palestrante\nhttps://github.com/mtgsjr/debiandayjoaopessoa2025"
     },
     {
         "group": "Los Angeles",
@@ -94,7 +134,7 @@
         "repo": "www-chapter-orange-county",
         "name": "Why you should hack your own APIs",
         "date": "2025-08-28",
-        "time": "19:00-07:00",
+        "time": "18:00-07:00",
         "link": "https://www.meetup.com/owasp-oc/events/310385035",
         "timezone": "America/Los_Angeles",
         "description": "**NOTE: We will email attendees the address.**\n\n**The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, August 25th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Abstract**\nAPIs power virtually every web and mobile application, accounting for over 80% of all Internet traffic. And APIs are under attack. Gartner states APIs have become the \u201cmost frequent attack vector,\" resulting in hundreds of highly successful, high profile breaches. This API security presentation covers 1) why attackers love APIs, 2) real-world breaches (and how they map to the OWASP API Security Top 10), and 3) best practices to keep APIs secure.\n\n**Bio**\nDan brings over 20 years of cybersecurity experience with executive leadership roles at APIsec, Qualys, Anomali, ArcSight and others. He\u2019s led Product Development, Sales teams, and Marketing at startups and publicly traded companies. Dan is the co-founder of APIsec University - a site that offers high quality, no cost courses on API security risks and best practices. APIsec University now has over 120,000 students, covering over 80% of the Fortune 100. Dan has earned engineering degrees from Rensselaer Polytechnic and Cornell University, and an MBA from University of Michigan."
@@ -117,7 +157,7 @@
         "time": "17:30+01:00",
         "link": "https://www.meetup.com/owasp-peterborough/events/305916307",
         "timezone": "Europe/London",
-        "description": "**What & Where?**\n\n* Social Drinks @ The Peterborough Beer Festival!\n\n**When?**\n\n* \\- Thursday 26th August\n\nEverybody welcome! You will be required to buy your own ticket for entry. See https://pborobeerfest.camra.org.uk/.\n\nThank you,\nRyan & Mark"
+        "description": "**What & Where?**\n\n* Social Drinks @ The Peterborough Beer Festival!\n\n**When?**\n\n* \\- Thursday 21st August\n\nEverybody welcome! You will be required to buy your own ticket for entry. See https://pborobeerfest.camra.org.uk/.\n\nThank you,\nRyan & Mark"
     },
     {
         "group": "Ruhrpott",
@@ -128,16 +168,6 @@
         "link": "https://www.meetup.com/owasp-ruhrpott-chapter/events/308971811",
         "timezone": "Europe/Berlin",
         "description": "OWASP Ruhrpott Chapter Meeting - Save The Date"
-    },
-    {
-        "group": "Salt Lake City",
-        "repo": "www-chapter-salt-lake-city",
-        "name": "OWASP Summer Campout",
-        "date": "2025-08-15",
-        "time": "16:00-06:00",
-        "link": "https://www.meetup.com/owasp-slc/events/308463391",
-        "timezone": "America/Denver",
-        "description": "Join us for our third annual campout! This time we will be in the beautiful High Uintas on the Mirror Lake Highway. This is a **chill, agenda-free campout**\u2014just a chance to relax, connect, and enjoy the outdoors. We will be swapping our best security stories around the campfire which is much scarier than ghost stories.\n\n### What to Expect:\n\n* No presentations. No pressure. Just good company.\n* Bring your own camping gear, food, and drinks.\n* Fire pit and picnic tables available.\n* Family and kids are welcome!\n* You *won\u2019t* have cell service, so enjoy the digital detox.\n* We will be close to both Washington and Trial lake so bring your rod and reel if you want to catch some mountain trout.\n* We will be at the tail end of the Perseid meteor shower, if it is a clear night we should have an amazing night of stargazing and shooting stars.\n\n### Logistics:\n\n* **Location:** The Washington Lake *Group Site* (not the main campground). We are at the Hoover camp site\n* There are no fees required for you, it is all paid for as part of the reservation for the campsite. You will drive past a fee station entering the national forest on the Mirror Lake Highway, but you do not need to stop.\n* Get off of the Mirror Lake Highway for Washington Lake. Follow the signs to the large group sites. There will be a gate in the road separating it from the normal campsites. You will need to open and close the gate behind you.\n* Pit toilets are available; however, there is **no water** on-site\u2014bring what you need!\n* The road is paved all the way\u2014no high-clearance needed.\n* We have space for 10 cars and room for room for **1 RV (max 20 feet)**.\n\nBring your hammock and marshmallows, and we\u2019ll see you there!"
     },
     {
         "group": "Seattle",
