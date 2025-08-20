@@ -104,6 +104,7 @@ capabilities. Our primary recommendation is to use one of these:
   - [Akto](https://www.akto.io/) - Akto is an open-source and commercial DAST and API Security tool that includes both automated API Discovery and
     scanning of vulnerabilities in CI/CD with the highest test coverage.
   - [Arachni](http://www.arachni-scanner.com/) - Arachni is a commercially supported scanner, but its free for most use cases, including scanning open source projects.
+  - [Barrion](https://barrion.io/) - Barrion is a developer-focused platform that supports a wide range of free security checks for websites and web apps. Each failed check includes a detailed explanation and remediation guidance.
   - [CI Fuzz CLI](https://www.code-intelligence.com/cli-tool) - An open source command line tool for creating fuzz tests. The tool is tightly integrated with various build systems, enabling developers to create fuzz tests as easily as unit tests.
   - [Code Intelligence App](https://www.code-intelligence.com/guided-product-tour) - This application security testing platform enables CI/CD-integrated fuzz testing at each pull request. It helps developers to measure and maximize code coverage and to prioritize all findings based on severity. All of this information is then aggregated in a usable dashboard. The testing platform integrates directly into popular ticketing systems and issue trackers.
   - [StackHawk](https://stackhawk.com/) - StackHawk is a commercially supported DAST
