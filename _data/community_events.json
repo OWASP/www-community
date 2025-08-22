@@ -30,14 +30,14 @@
         "description": "We\u2019re excited to announce that our **August OWASP Meetup** will be Sponsored by **Miggo** **Security**\nJoin us for an evening of great conversations, community networking, and insightful security discussions \u2014 all in an awesome venue provided by **Miggo Security**. And yes, there will be **delicious food and drinks** generously provided by our sponsors!\n\n5:00 PM : Doors open, Networking, food and drinks\n5.30PM :- Chapter introductions\n5.45-6.15 PM :- Defending AI-Native Applications: A Strategic Framework for Systems That Think\n6.15-7.00 PM :- Talk: Red-Teaming Agentic Workflows: Runtime Security for the Age of Autonomous AI\n7.0-7.45 PM :- RBAC Atlas: Mapping Real-World Kubernetes Permissions and Exposing Risky Projects\n\n**Talk# 1** **Defending AI-Native Applications: A Strategic Framework for Systems That Think**\nThe rapid adoption of AI-native applications, powered by agents, assistants, and embedded LLMs, has transformed modern application behavior. These systems make decisions at runtime, invoke tools, and handle sensitive data in ways that are unpredictable and constantly evolving. For security teams, this marks a fundamental shift in accountability: defending logic that didn\u2019t exist at deployment and changes continuously in production.\nIn this talk, co-delivered by Daniel Shechter, CEO and Co-Founder of Miggo Security, and Pritam Mungse, Director of Product Security at SoFi, will explore the emerging security challenges posed by AI-native applications and introduce a new model: Execution-Aware Defense. They\u2019ll walk through how this approach reframes traditional code,and edge defenses to provide real-time visibility, prioritization, and enforcement against dynamic, AI-driven threats.\nDrawing conversations with 40+ security leaders over the past few months, the session will cover:\nThe unique risks AI introduces to application behavior and attack surface\nHow to apply a layered defense strategy to adapt at runtime\nPractical steps for operationalizing AI native defense in production environment\nAttendees will leave with a clear blueprint for evolving their security stack to meet the demands of software that thinks for itself, without slowing down innovation.\n\n**Talk#2 Talk: Red-Teaming Agentic Workflows: Runtime Security for the Age of Autonomous AI**\n\\*Description:\\* As organizations increasingly deploy autonomous AI agents and agentic workflows, traditional security approaches are failing to address the unique attack surface these systems create. Unlike static AI models, agentic workflows dynamically interact with external systems, make autonomous decisions, and adapt their behavior in real-time - creating unprecedented security challenges that require a new approach.\nWe'll explore the emerging threat landscape of agentic AI systems and demonstrate how red-teaming techniques specifically designed for autonomous workflows can identify vulnerabilities before they're exploited in production. You'll learn:\n\u2022 How agentic workflows create new attack vectors beyond traditional prompt injection and jailbreaking\n\u2022 Real-world attack scenarios including agent hijacking, tool manipulation, and autonomous privilege escalation\n\u2022 Runtime security strategies that evolve with your AI agents' behavior\n\u2022 Practical red-teaming methodologies for testing multi-agent systems and workflow orchestration\n\u2022 Building continuous security monitoring for autonomous AI deployments\nTraditional pentesting falls short when AI agents can rewrite their own objectives and interact with your infrastructure autonomously. Join us to discover how to secure the next generation of AI systems before adversaries do.\n\n**Speaker:** Aryaman is the Co-Founder and CEO of Repello AI - a leader in AI Runtime Security and AI red teaming products. Previously, he was the captain of top Indian CTF team InfoSecIITR, and undergrad from IIT Roorkee. Repello AI helps Fortune 500 companies and AI unicorns secure their GenAI applications through continuous red-teaming and adaptive security guardrails.\n\n**Talk #3: RBAC Atlas: Mapping Real-World Kubernetes Permissions and Exposing Risky Projects**\nRole-Based Access Control (RBAC) is the final layer of defense between a compromised Kubernetes workload and a full-scale cluster breach. Yet real-world RBAC configurations, especially those shipped by popular open-source operators and Helm charts, are rarely reviewed with an adversarial mindset.\nIn this talk I introduce RBAC ATLAS, a curated index of identities and RBAC policies found in popular Kubernetes projects. We will discuss key findings, calling out the riskiest projects I analyzed, the permission patterns distilled from analyzing over 100 policy objects, and concrete ways attackers and defenders can feed these insights into their daily security operations.\n**Speaker:** Lenin Alevski is a Full Stack Engineer and generalist with a lot of passion for Information Security. Lenin specializes in building and maintaining Distributed Systems, Application Security and Cloud Security in general. Lenin loves to play CTFs, contributing to open-source and writing about security and privacy on his personal blog [https://www.alevsk.com](https://www.alevsk.com/)."
     },
     {
-        "group": "Columbus",
-        "repo": "www-chapter-columbus",
-        "name": "Patch Management 101: The Basics",
-        "date": "2025-08-21",
-        "time": "18:00-04:00",
-        "link": "https://www.meetup.com/columbus-owasp/events/308650622",
-        "timezone": "America/New_York",
-        "description": "End of summer is the best time to get your systems updated before the busy season! Even better if use this time to organize the process of Patch Management for continuous improvement. This August, we discuss:\n\n\\- How to organize Patch Management\n\\- The Risk/Reward ratio of Patch Management\n\\- How hackers exploit issues related to Patch Management\n\\- How to effectively gather data for Patch Management using AI\n\nJoin us at OWASP Columbus to realistically discuss the methods to decrease the technical debt of Patch Management that most of us are responsible for."
+        "group": "Bhopal",
+        "repo": "www-chapter-bhopal",
+        "name": "Cyber & Web Security Essentials",
+        "date": "2025-08-22",
+        "time": "16:00+05:30",
+        "link": "https://www.meetup.com/owasp-bhopal-chapter/events/310632939",
+        "timezone": "Asia/Kolkata",
+        "description": "**In collaboration with SisTec Cyber Security Department and OWASP Bhopal, we bring you a knowledge-packed session on *Antivirus and Digital Security Essentials*.**\nDive into the fundamentals of protecting your devices, understanding threats, and building safer digital practices to stay ahead in the evolving cyber landscape."
     },
     {
         "group": "Dallas",
@@ -88,6 +88,16 @@
         "link": "https://www.meetup.com/owasp-jacksonville/events/310150420",
         "timezone": "America/New_York",
         "description": "This is a placeholder event while we confirm this month's speaker. Stay tuned for updates, we'll share details as soon as they're locked in!\n\nInterested in presenting or know someone who might be? Reach out, we're always looking for speakers!"
+    },
+    {
+        "group": "Juiz De Fora",
+        "repo": "www-chapter-juiz-de-fora",
+        "name": "Taint Analysis no Code Review - OWASP Juiz De Fora Chapter + Pirate Ship",
+        "date": "2025-08-27",
+        "time": "20:00-03:00",
+        "link": "https://www.meetup.com/owasp-juiz-de-fora-chapter/events/310634170",
+        "timezone": "America/Sao_Paulo",
+        "description": "Use Taint Analysis como t\u00e9cnica estruturada de revis\u00e3o para mapear fontes n\u00e3o confi\u00e1veis at\u00e9 pontos cr\u00edticos, garantindo que vulnerabilidades sejam detectadas e mitigadas no c\u00f3digo-fonte com efici\u00eancia."
     },
     {
         "group": "Las Vegas",
@@ -150,16 +160,6 @@
         "description": "**NOTE: We will email attendees the address.**\n\n**The following will be in effect and mandatory for this meeting venue.**\n\n* **RSVPs will close at 11:59 PM PT on Monday, August 25th, so kindly submit your RSVP by then. Walk-ins will not be permitted.**\n* **Security mandates that RSVPs include your full name (in Meetup settings) and that you bring your ID, which will be checked at the entrance to match your RSVP.**\n* If your first and last name do not appear in our admin view, we will contact you.\n* Alternatively, feel free to reach out directly or email us at [orange-county-leaders@owasp.org](http://orange-county-leaders@owasp.org) to provide that information or any questions you may have regarding the event.\n\n**Parking**\nPark in the public garage structure next to the building. We will be providing paid tickets for exiting the garage.\n\n**Abstract**\nAPIs power virtually every web and mobile application, accounting for over 80% of all Internet traffic. And APIs are under attack. Gartner states APIs have become the \u201cmost frequent attack vector,\" resulting in hundreds of highly successful, high profile breaches. This API security presentation covers 1) why attackers love APIs, 2) real-world breaches (and how they map to the OWASP API Security Top 10), and 3) best practices to keep APIs secure.\n\n**Bio**\nDan brings over 20 years of cybersecurity experience with executive leadership roles at APIsec, Qualys, Anomali, ArcSight and others. He\u2019s led Product Development, Sales teams, and Marketing at startups and publicly traded companies. Dan is the co-founder of APIsec University - a site that offers high quality, no cost courses on API security risks and best practices. APIsec University now has over 120,000 students, covering over 80% of the Fortune 100. Dan has earned engineering degrees from Rensselaer Polytechnic and Cornell University, and an MBA from University of Michigan."
     },
     {
-        "group": "Peterborough",
-        "repo": "www-chapter-peterborough",
-        "name": "Monthly Networking Social: Peterborough Beer Festival! ",
-        "date": "2025-08-21",
-        "time": "17:30+01:00",
-        "link": "https://www.meetup.com/owasp-peterborough/events/305916307",
-        "timezone": "Europe/London",
-        "description": "**What & Where?**\n\n* Social Drinks @ The Peterborough Beer Festival!\n\n**When?**\n\n* \\- Thursday 21st August\n\nEverybody welcome! You will be required to buy your own ticket for entry. See https://pborobeerfest.camra.org.uk/.\n\nThank you,\nRyan & Mark"
-    },
-    {
         "group": "Ruhrpott",
         "repo": "www-chapter-ruhrpott",
         "name": "OWASP Ruhrpott Chapter Meeting - Save The Date",
@@ -180,6 +180,16 @@
         "description": "**AppSec War Stories: A Fun Discussion of In-the-Trenches Warfare**\n**Presentation Session:** 11am-2:30pm\n**Happy Hour:** 2:30pm-3:30pm\n\nThe theme of this meeting is to focus on AppSec War Stories: Lesson\u2019s Learned and Opportunities. Industry experts will talk about key AppSec challenges and how these were overcome by leveraging technology, best practices, innovation and teamwork. There will be multiple presentations highlighting different challenges and lessons learned.\n\n**Featured Presentations**\n\n**Securing Today, Safeguarding Tomorrow: A Guide to App and AI Security - Snyk**\nThis talk challenges the traditional, reactive approach to application security, where developers get stuck fixing issues weeks after they're created. We\u2019ll show how new tools and processes can empower developers to integrate security directly into their workflow, making it an efficient part of the development process.\n\nFinally, we'll look at the emerging security challenges presented by AI. We'll discuss the new \"war stories\" we anticipate seeing, and what developers need to know to secure both today's applications and the AI-powered systems of tomorrow.\n\n**Lessons Learned in Application Security from Log4j: A Wake-Up Call for the Industry - OpenText**\nTo explore key takeaways from the Log4j vulnerability (Log4Shell) and how it reshaped the approach to application security, particularly in open-source and enterprise software environments.\n\n**Security Panel: AppSec Futures \u2013 Opportunities and Challenges**\nTopics of discussion will cover Agentic AI, defending against AI-powered attacks (deepfakes, phishing, social engineering, etc.), securing the expanded attack surface for APIs and Microservices, emerging threats from Quantum Computing, and preventing Supply Chain attacks.\n\nFeatured panelists:\n\n* Eddie Contreras - CISO - Frost Bank\n* John Dickson - CEO - ByteWhisper\n* Chris Young - OpenText\n* Andrew Gordon - Snyk\n\n**Additional Meeting Details**\n\n* Lunch Provided\n* Location: Scuzzi\u2019s Italian Restaurant - 4035 N Loop 1604 W #102, San Antonio, TX 78257\n* HAPPY HOUR & DEMO LAB networking after session!!!\n* Opentext\n* Synk\n* ByteWhisper\n* Wallarm\n* BlackDuck\n\n**Happy Hour - Sponsors**\n\n* Opentext\n* Synk\n* Bytewhisper\n* Wallarm\n\n**Join Zoom Meeting**\nhttps://ftsc.zoom.us/j/86538235312?pwd=bU4nwzuPmmaqrA3o3qREn56bXpL8TZ.1&from=addon\n**Meeting ID**: 865 3823 5312\n**Passcode**: 429796\nWe encourage everyone to attend in person. We will have door prizes and excellent food for all to enjoy, as you take advantage of this excellent networking opportunity!\nPlease feel free to pass this information on to your peers and team members.\nPlease reply \u201cONSITE\u201d if you plan on attending in person so we can finalize headcount for food and room attendance \n\n**Future Presentation Topics To Vote On**\n\n* ASPM\n* Bug Bounty Programs: Successes and Failures\n* Pentest\n* Ransomware\n* DevSecOps - Security as Code\n* Security Controls for AI"
     },
     {
+        "group": "Scotland",
+        "repo": "www-chapter-scotland",
+        "name": "OWASP Scotland Chapter Meeting - September",
+        "date": "2025-09-11",
+        "time": "18:00+01:00",
+        "link": "https://www.meetup.com/owasp-scotland-chapter/events/310636098",
+        "timezone": "Europe/London",
+        "description": "Join us at the OWASP Scotland Chapter Meeting where we have two talks lined up for our September session - see details below.\n\nPizza and drinks will be provided to the attendees.\n\nThis event is perfect for software developers, ethical hackers, and cybersecurity enthusiasts interested in learning about the latest trends in cyber security.\n\n#### Talk 1 - Everything Wrong with Dependency Track\n\n**Speaker:** Dr. Lionel Saliou\n**Blurb:** A humorous look back on a project I conducted at my current employer that led to the use (or misuse some might say) of the OWASP flagship project: Dependency Track. This talk provides the context to these decisions and extracts nuggets of wisdom that I believe will be valuable to many security professionals.\n**Who am I?** My name is Dr. Lionel Saliou, Ph.D and I have nearly 2 decades of application security experience. In the past I may have written bugs to remain gainfully employed, nowadays, I am a recovering developer supporting development teams write better software.\n\n#### Talk 2- TBA\n\n**Speaker:** TBA"
+    },
+    {
         "group": "Seattle",
         "repo": "www-chapter-seattle",
         "name": "Security Social Lunch Hours",
@@ -188,16 +198,6 @@
         "link": "https://www.meetup.com/owasp-seattle-chapter/events/307093545",
         "timezone": "America/Los_Angeles",
         "description": "At noon on the 2nd Wednesday of every month we host a social meeting on Zoom with mini talks and breakout rooms. The main room will always be open for social time but we plan to have 1-2 topic breakouts you can join. If the breakout session topic interests you, join that discussion. Feeling more like a casual chat and exploring other topics? Visit the main room to strike up a conversation.\n\nSuggest topics you\u2019d like to see breakout rooms for and let us know if you\u2019d like to sign up to lead one.\n\nSlack @ #chapter-seattle (https://bit.ly/owasp-seattle-slack)\n\nseattle-chapter@owasp.org (https://groups.google.com/a/owasp.org/g/seattle-chapter)"
-    },
-    {
-        "group": "Seattle",
-        "repo": "www-chapter-seattle",
-        "name": "Vibe Coding for Security",
-        "date": "2025-08-21",
-        "time": "15:00-07:00",
-        "link": "https://www.meetup.com/owasp-seattle-chapter/events/310283671",
-        "timezone": "America/Los_Angeles",
-        "description": "Please register on the event website:\nSpace is limited!\n\nhttps://seattlesecuritymeetup.com/"
     },
     {
         "group": "Seoul",
@@ -218,16 +218,6 @@
         "link": "https://www.meetup.com/singapore-owasp-meetup-group/events/310566435",
         "timezone": "Asia/Singapore",
         "description": " **Note: This is a paid event. RSVP on Meetup.com does not confirm your spot. You must complete registration at singapore.appsecdays.org to attend.**\n\n## OWASP AppSec Days Singapore 2025 \u2013 Conference Day\n\n **Date:** Saturday, 13 September 2025\n **Venue:** M Hotel Singapore City Centre\n\n###  About the Conference\n\nOWASP AppSec Days Singapore returns in 2025 with a full day of inspiring keynotes, deep-dive technical talks, and networking opportunities. Join security professionals, developers, and researchers from across the region to explore the latest in application security.\n\nThis year\u2019s lineup brings together **global leaders in AppSec**, sharing real-world case studies, research, and practical insights to help you build and secure modern applications.\n\n***\n\n###  Conference Talks \u2013 Sept 13\n\nExplore technical insights from global leaders:\n\n* **40,000 CVEs and Counting** \u2013 Pedram Hayati\n* **XSS is Dead: Browser Security that Eliminates Bug Classes** \u2013 Javan Rasokat\n* **Cybersecurity Through a Creator's Lens** \u2013 Rishika Desai\n* **Hacking Planes, Trains, and Ships** \u2013 Muhammad Shahmeer\n* **Secret Scanning in Open Source at Scale** \u2013 Hassan Khan Yusufzai & Danish Tariq\n* **iOS Reversing on a Budget** \u2013 Melvin Lee & Nicholas Lim\n* **Hacking Analytics SDKs** \u2013 August Joseph\n* **Pwn, Poison & Prompt-Hack Your AI** \u2013 Omkar Joshi & Rahul Bhor\n* **Live MFA Hacking** \u2013 Niclas Kjellin\n* **Securing Enterprise AI Agents Against Insider Threats** \u2013 Keren Katz\n* **Security for Startups** \u2013 Rushikesh Ambuskar\n* **Securing Your AWS Lambda 101** \u2013 Ilia Mogilin\n\n***\n\n###  Why Attend?\n\n Learn from international AppSec experts\n Gain actionable insights to strengthen modern applications\n Connect with peers, researchers, and security leaders\n\n***\n\n###  Registration\n\n* Conference Ticket: **S$250**\n* Student Ticket: **S$50** (with valid ID)"
-    },
-    {
-        "group": "Toronto",
-        "repo": "www-chapter-toronto",
-        "name": "Reducing Application Security Risk with ASPM: Future-Proofing for 2025 & Beyond",
-        "date": "2025-08-21",
-        "time": "18:30-04:00",
-        "link": "https://www.meetup.com/owasp-toronto/events/310318996",
-        "timezone": "America/Toronto",
-        "description": "**Format**:\nHybrid (in-person and online) event\n\n**In-person location**:\n**BDO Canada LLP**\n20 Wellington Street East, 5th Floor\nToronto, ON\nM5E 1C5\n\n**Note:** In-person attendance is limited to **70 people**, in a **first-come, first-serve basis**.\nDoors will open at **6:00 PM**, with the event will start at **6:30 PM** (EDT).\nFor those who cannot attend in person, please join us virtually via the livestream!\n\n**Presentation Title: Reducing Application Security Risk with ASPM: Future-Proofing for 2025 & Beyond**\nIn an era of increasingly sophisticated threat actors, application security has become a critical concern for most organizations. This talk, \"Reducing Application Security Risk with ASPM (Application Security Posture Management),\" will explore the emerging role of ASPM in fortifying application security and accelerating DevSecOps and cloud native adoption by focusing on how to future-proof your approach for 2025 and beyond.\nSoftware development has undergone seismic shifts over the last 20 years: the Agile movement, the rise of DevOps and cloud native practices, and now the AI and generative development era. With AI code assistants and \u201cvibe coding\u201d on the rise, we\u2019re seeing faster delivery, along with new and complex risks. Over the last 10 years of the DevSecOps journey, shift-left has also achieved little success. Application Security needs a fundamental reset for the future. In this talk, we will discuss how modern approaches and technology innovations that are built to solve three of the biggest challenges in application security that must evolve for the AI Era \u2013 Speed, Coverage & Scale, and Context. We will explore three common scenarios:\n\n1\\. Inventory and Secure net new applications\n2\\. Reduce risk and volume of existing security backlog by prioritizing and fixing what matters\n3\\. Expand coverage to address emerging blind spots in AI\\-assisted application development\\."
     },
     {
         "group": "Vancouver",
