@@ -1,10 +1,10 @@
 ---
 
-title: Least Access Principle
+title: Least Privilege Principle
 layout: col-sidebar
 author: Shezan Rohinton Mirzan
 tags: controls, access control
-permalink: /controls/Least_Access_Principle
+permalink: /controls/Least_Privilege_Principle
 
 ---
 
