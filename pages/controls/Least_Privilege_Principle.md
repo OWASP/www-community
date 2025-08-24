@@ -31,7 +31,7 @@ The primary goal of PoLP is to reduce the "attack surface" and limit the "blast 
     > Example: A product catalog application for an e-commerce site only needs to read product descriptions and prices. It should be given read-only access to the product table. It should not have permission to delete customer records or modify sensitive financial data
 - **Cloud Computing**: Strict Identity and Access Management (IAM) roles should be applied to all systems and users. They should only be granted privileges that are required for them to get the work done.
   
-    > Example: You can create a service account for a function that resizes images uploaded to a cloud storage bucket. This service account should have a policy that grants it only permission to read from the 'uploads' bucket and write to the 'resized_images' bucket. It should not have permissions to delete the entire bucket or access other critical cloud resources.
+> Example: You can create a service account for a function that resizes images uploaded to a cloud storage bucket. This service account should have a policy that grants it only permission to read from the 'uploads' bucket and write to the 'resized_images' bucket. It should not have permissions to delete the entire bucket or access other critical cloud resources.
 
 - **Software Engineering**: : When designing applications, developers should build with this principle in mind. Services should be broken down into smaller, microservices, each with its own set of minimal permissions.
 
