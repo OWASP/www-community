@@ -40,7 +40,7 @@ The primary goal of PoLP is to reduce the "attack surface" and limit the "blast 
 
 ## Relationship with Other Security Models
 
-Least Privilege Principle is often considered a building block for more comprehensive security frameworks, particularly **Zero Trust**. In a Zero Trust model, you "_never trust, always verify_." Every user, device, and service is treated as potentially malicious, regardless of its location (inside or outside the corporate network). Least privilege is the mechanism through which you enforce this verification. After a user is authenticated and authorized, their access is still limited to the minimum required, adhering to the principle of least privilege.
+Least Privilege Principle is often considered a building block for more comprehensive security frameworks, particularly **Zero Trust**. In a Zero Trust model, you "_never trust, always verify_". Every user, device, and service is treated as potentially malicious, regardless of its location (inside or outside the corporate network). Least privilege is the mechanism through which you enforce this verification. After a user is authenticated and authorized, their access is still limited to the minimum required, adhering to the principle of least privilege.
 
 ## Additional Reads
 - [OWASP Attack Surface Analysis](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
