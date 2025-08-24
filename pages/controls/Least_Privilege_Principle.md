@@ -18,7 +18,7 @@ The primary goal of PoLP is to reduce the "attack surface" and limit the "blast 
 
 - **Minimizing the Attack Surface**: The attack surface is the sum of all possible entry points an unauthorized user could use to gain access to a system. By granting minimal permissions, you reduce the number of avenues an attacker can exploit.
   
-    > Example: A web server running with root (administrator) privileges can modify, delete, or access any file on the entire system if compromised. However, if the server is configured to run with a low-privilege user account that can only read from the web directory, a successful attack would be contained, preventing the attacker from causing widespread damage to the operating system or other applications.
+> Example: A web server running with root (administrator) privileges can modify, delete, or access any file on the entire system if compromised. However, if the server is configured to run with a low-privilege user account that can only read from the web directory, a successful attack would be contained, preventing the attacker from causing widespread damage to the operating system or other applications.
 
 - **Limiting the Blast Radius**: The blast radius is the extent of damage an attacker can inflict if they successfully compromise a part of the system. PoLP ensures that even if a part of your system is breached, the attacker can't move laterally or escalate privileges to access critical data or systems.
   
