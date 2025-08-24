@@ -28,7 +28,8 @@ The primary goal of PoLP is to reduce the "attack surface" and limit the "blast 
 - **Operating Systems**: Operating systems use a user-based permission model. In other words, when the user installs any application, it should not require administrator access unless it genuinely needs to modify system files. Granting an application like a web browser or a text editor unnecessary admin rights is a security risk.
 - **Databases**: Database administrators often have full control over the data. However, an application connecting to the database should have a separate user account with limited privileges.
   
-    > Example: A product catalog application for an e-commerce site only needs to read product descriptions and prices. It should be given read-only access to the product table. It should not have permission to delete customer records or modify sensitive financial data
+> Example: A product catalog application for an e-commerce site only needs to read product descriptions and prices. It should be given read-only access to the product table. It should not have permission to delete customer records or modify sensitive financial data.
+
 - **Cloud Computing**: Strict Identity and Access Management (IAM) roles should be applied to all systems and users. They should only be granted privileges that are required for them to get the work done.
   
 > Example: You can create a service account for a function that resizes images uploaded to a cloud storage bucket. This service account should have a policy that grants it only permission to read from the 'uploads' bucket and write to the 'resized_images' bucket. It should not have permissions to delete the entire bucket or access other critical cloud resources.
