@@ -13,7 +13,7 @@ permalink: /controls/Least_Access_Principle
 ## Description
 The principle of **Least Privilege** is a fundamental concept in information security. It dictates that a user, process, or program should be given only the minimum level of access or permissions necessary to perform its intended function, and nothing more. This principle helps to reduce the potential for damage from system compromises, whether due to human error, malicious activity, or software vulnerabilities.
 
-## Why is Least Privilege necessary
+## Why is Least Privilege Necessary
 The primary goal of PoLP is to reduce the "attack surface" and limit the "blast radius" of a security breach.
 
 - **Minimizing the Attack Surface**: The attack surface is the sum of all possible entry points an unauthorized user could use to gain access to a system. By granting minimal permissions, you reduce the number of avenues an attacker can exploit.
