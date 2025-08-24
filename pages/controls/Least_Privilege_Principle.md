@@ -20,7 +20,7 @@ The primary goal of PoLP is to reduce the "attack surface" and limit the "blast 
   
 > Example: A web server running with root (administrator) privileges can modify, delete, or access any file on the entire system if compromised. However, if the server is configured to run with a low-privilege user account that can only read from the web directory, a successful attack would be contained, preventing the attacker from causing widespread damage to the operating system or other applications.
 
-- **Limiting the Blast Radius**: The blast radius is the extent of damage an attacker can inflict if they successfully compromise a part of the system. PoLP ensures that even if a part of your system is breached, the attacker can't move laterally or escalate privileges to access critical data or systems.
+- **Limiting the Blast Radius**: The blast radius is the extent of damage an attacker can inflict if they successfully compromise a part of the system. PoLP ensures that even if a part of your system is breached, the attacker can't move laterally or gain higher privileges for themselves to access critical data or systems.
   
 > Example: Imagine an employee whose laptop is compromised by a phishing attack. If they have standard user access to the company network, the attacker can only access the files and systems that employee is authorized to use. However, if the employee has administrative privileges across the network, the attacker could potentially access sensitive information, deploy malware to other computers, and shut down critical services, causing catastrophic damage.
     
