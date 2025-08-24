@@ -36,7 +36,7 @@ The primary goal of PoLP is to reduce the "attack surface" and limit the "blast 
 
 - **Software Engineering**: : When designing applications, developers should build with this principle in mind. Services should be broken down into smaller, microservices, each with its own set of minimal permissions.
 
-    > Example: An online payment system can be separated into three microservices: one for handling credit card transactions, one for sending confirmation emails, and one for updating the order status in a database. Each of these services should run with unique credentials and only the permissions needed for its specific task. The email service, for instance, doesn't need to access the database or credit card information.
+> Example: An online payment system can be separated into three microservices: one for handling credit card transactions, one for sending confirmation emails, and one for updating the order status in a database. Each of these services should run with unique credentials and only the permissions needed for its specific task. The email service, for instance, doesn't need to access the database or credit card information.
 
 ## Relationship with Other Security Models
 
