@@ -51,7 +51,7 @@ It is better in regarding to DoS issues but have security downsides:
 Moreover, it is not so trivial to implement account/IP lockout. 
 Consider multiple proxies with chaining addresses in “X-Forwarded-For” header or IPv6.
 
-The method described in this writing may be viewed as variant of
+The method described in this writing may be viewed as variant of 
 account/IP blocking. But it proposes to use a browser cookie instead of
 an IP address. Thus it may be more predictable from security perspective
 and easier to implement.
@@ -118,6 +118,40 @@ So, if the size of a cookie is not an issue, it is recommended to use [JWT](http
 The following standard [claims](https://tools.ietf.org/html/rfc7519#page-9) can be used:
 * sub – LOGIN
 * jti – NONCE
+
+## Storage of Lockout List
+
+The lockout list (used to temporarily block devices or users after too many failed login attempts) can be stored in different ways depending on the scale of the system:
+
+* **In-Memory Key-Value Store** – Example: HashMap/ConcurrentMap in Java or Dict in Python. Simple and fast, but entries are lost if the server restarts. Suitable for small applications or single-node systems.
+* **Database with TTL** – Store lockout entries in SQL/NoSQL with an expiry timestamp (`locked_until`). Rows automatically expire or can be removed with a scheduled cleanup job.
+* **Redis / Memcached** – Recommended for distributed systems. Provides built-in TTL support, clustering, and high performance for lookups and updates.
+* **Hybrid Approach** – Use Redis for fast lookups and a database for persistence and audit logging.
+
+### Example Table Layout
+
+| device_cookie | username | failed_attempts | locked_until         |
+|---------------|----------|-----------------|----------------------|
+| abc123        | alice    | 5               | 2025-08-27 10:00:00 |
+
+### Pseudocode Example
+
+```python
+# Example: Register failed login attempt with Redis
+
+def register_failed_attempt(user, device_cookie):
+    key = device_cookie or f"user:{user}"
+    attempts = redis.get(key) or 0
+    attempts += 1
+
+    if attempts > N:
+        # Lockout for duration T
+        redis.setex(f"lockout:{key}", T, "locked")
+    else:
+        # Store updated attempts count with TTL
+        redis.setex(key, T, attempts)
+```       
+
 
 
 **Important**: If you already use JWT for storing session tokens or other security stuff,
