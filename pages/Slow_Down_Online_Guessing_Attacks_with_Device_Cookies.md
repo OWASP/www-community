@@ -149,6 +149,7 @@ def register_failed_attempt(user, device_cookie):
     else:
         # Store updated attempts count with TTL
         redis.setex(key, T, attempts)
+```       
 
 
 
