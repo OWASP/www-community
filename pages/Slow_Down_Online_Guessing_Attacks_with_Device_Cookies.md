@@ -118,6 +118,7 @@ So, if the size of a cookie is not an issue, it is recommended to use [JWT](http
 The following standard [claims](https://tools.ietf.org/html/rfc7519#page-9) can be used:
 * sub – LOGIN
 * jti – NONCE
+
 ## Storage of Lockout List
 
 The lockout list (used to temporarily block devices or users after too many failed login attempts) can be stored in different ways depending on the scale of the system:
