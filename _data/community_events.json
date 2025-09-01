@@ -1,5 +1,25 @@
 [
     {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "OWASP Austin Chapter Monthly Meeting - September 2025 (Online)",
+        "date": "2025-09-30",
+        "time": "11:30-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/305489315",
+        "timezone": "America/Chicago",
+        "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!\n\n(To Be updated)"
+    },
+    {
+        "group": "Belgium",
+        "repo": "www-chapter-belgium",
+        "name": "OWASP BE chapter meeting (30/09/2025, Louvain-La-Neuve)",
+        "date": "2025-09-30",
+        "time": "17:30+02:00",
+        "link": "https://www.meetup.com/belgium-owasp-meetup-group/events/310746669",
+        "timezone": "Europe/Brussels",
+        "description": "On September 30th, we organize our next OWASP Belgium chapter meeting at The Gate (Mont-Saint-Guibert).\n\n**Agenda**:\n\n* 17:30 - 18:20 : Welcome (drinks + sandwiches)\n* 18:20 - 18:30: **OWASP update**\n* 18:30 - 19:30: **Learning to Detect Malware: Features, Pitfalls, and Adversarial Threats** (by Charles-Henry Bertrand Van Ouytsel, UCLouvain)\n* 19:30 - 19:45 : break\n* 19:45 - 20:45 : **Integrating Security Without Slowing Development: A Pragmatic DevSecOps Approach** (by Steve Mihy, Approach Cyber)\n* 20:45 - 21:30 : Refreshments\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
+    },
+    {
         "group": "Dublin",
         "repo": "www-chapter-dublin",
         "name": "OWASP Dublin - September Meetup",
@@ -180,16 +200,6 @@
         "description": "**Back from holidays? Join us at the OWASP Poland meeting in Warsaw!**\nThanks to Goldman Sachs (supporter of the upcoming meeting) we can meet on the 46th floor of the Warsaw Spire building to network, share knowledge about application security and admire beautiful panorama of Warsaw...\n\n**Important note:** All guests have to bring their official documents (where applicable could be one of these): Passport, ID, driver\u2019s license (polish), karta pobytu (residence card), mObywatel app. These documents will be checked upon arrival to the Warsaw Spire reception desk. Without them it will not be possible to join the meeting.\n\n**Agenda:**\n\n18:00 \u2013 18:15 \u2013 Registration (please arrive as early as possible to avoid the queue at the reception)\n\n18:15 \u2013 18:45 \u2013 Opening of the meeting and presentation of **current OWASP projects regarding AI security**, Micha\u0142 Kurek, OWASP Poland\n\nOWASP has recently launched many interesting projects that help shed more light on the dark sides of AI. During the presentation, the main threats to AI and specific challenges in ensuring the security of artificial intelligence will be discussed together with an overview of OWASP projects in this area.\n\n18:45 - 19:15 \u2013 **CORS and PNA**, Bart Stakun, Vice-President at Goldman Sachs\n\nAn exploration of Cross-Origin Resource Sharing (CORS) and Private Network Access (PNA), focusing on their security implications for web applications and how to properly configure them.\n\n19:15 - 19:45 \u2013 **Pentesting AWS based infrustructure**, Maciej Pietraszko, Vice-President at Goldman Sachs\n\nInsights into penetration testing methodologies and tools for assessing the security of AWS cloud environments, with practical examples and lessons learned.\n\n19:45 - 20:15 \u2013 **Post-Quantum Cryptography**, Patryk Gralewicz, Associate at Goldman Sachs\n\nRundown of Post-Quantum Cryptography.\n\n20:15 \u2013 21:00 \u2013 **Open discussion & Networking**"
     },
     {
-        "group": "Rewa",
-        "repo": "www-chapter-rewa",
-        "name": "Protecting Yourself from Online Scams : Basics of Cybersecurity",
-        "date": "2025-08-31",
-        "time": "16:30+05:30",
-        "link": "https://www.meetup.com/owasp-rewa-chapter/events/310697772",
-        "timezone": "Asia/Kolkata",
-        "description": "**\u201cProtecting Yourself from Online Scams: Basics of Cybersecurity\u201d** is an awareness session focused on helping people stay safe in the digital world. It covers simple yet powerful practices like using strong passwords, enabling 2FA, recognizing phishing attempts, and avoiding common online scams such as fake investments, job frauds, and shopping traps. The goal is to build a security-first mindset so that everyone can protect their personal data and digital identity8"
-    },
-    {
         "group": "Ruhrpott",
         "repo": "www-chapter-ruhrpott",
         "name": "OWASP Ruhrpott Chapter Meeting - Application Security",
@@ -198,6 +208,16 @@
         "link": "https://www.meetup.com/owasp-ruhrpott-chapter/events/308971811",
         "timezone": "Europe/Berlin",
         "description": "Wir laden ein zum Treffen des OWASP Ruhrpott Chapters.\nDas Treffen findet am 04.09.2025, ab 18:30 Uhr an der Ruhr-Universit\u00e4t Bochum Universit\u00e4tsstr. 150, Geb\u00e4ude ID, Raum 03/471 statt.\n\n**Was euch erwartet**\n\n* Vortrag & Diskussion zu Application Security\n* Netzwerken mit den Teilnehmern\n\nIm Anschluss besteht erneut die M\u00f6glichkeit in umliegende Lokalit\u00e4ten zu wechseln f\u00fcr gesellige Gespr\u00e4che.\n\n**F\u00fcr wen ist das Treffen geeignet?**\nDas OWASP Chapter-Treffen richtet sich an alle, die sich mit dem Thema IT-Sicherheit besch\u00e4ftigen \u2013 unabh\u00e4ngig von Branche oder Erfahrungsstand. Ob im Bereich Offensive Security, Defensive Security, Incident Response, Softwareentwicklung oder Security-Architektur: Wer sich f\u00fcr sichere Systeme, aktuelle Bedrohungen und Schwachstellen interessiert, ist hier genau richtig. Das Treffen bietet eine gute Gelegenheit zum Wissensaustausch, Networking und zur Diskussion aktueller Sicherheitsthemen.\n\n**Weitere Informationen**\nIhr findet weitere Informationen \u00fcber uns unter [https://owasp.org/www-chapter-ruhrpott/](https://owasp.org/www-chapter-ruhrpott/) oder unseren Discord Server https://discord.gg/dCWJtwJjHb"
+    },
+    {
+        "group": "Saint Louis",
+        "repo": "www-chapter-saint-louis",
+        "name": "OWASP Saint Louis In-Person Meetup",
+        "date": "2025-09-30",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/owasp-saint-louis-chapter/events/310505152",
+        "timezone": "America/Chicago",
+        "description": "**OWASP Saint Louis Chapter Relaunch \u2013 First Meeting**\n\nThe OWASP Saint Louis Chapter is back! Join us for our first meeting as we officially restart the local chapter. Whether you\u2019re a security professional, software developer, technology leader, or simply curious about application security, this is your chance to connect with like-minded peers in the Saint Louis area.\n\n**What to Expect**\n\n* Meet the new chapter co-leaders, **Andre Van Klaveren** and **Nathan Byrd**.\n* Learn about OWASP\u2019s mission and the vision for our local chapter.\n* Help shape the future of OWASP Saint Louis by sharing what topics, speakers, and activities you\u2019d like to see in upcoming meetings.\n* Network with fellow professionals who care about building and securing great software.\n\n**Speakers**\nOur first session will focus on introductions and planning, with featured speakers for future meetings to be announced soon.\n\n**Event Details**\n **Location:** RubinBrown, 7676 Forsyth Blvd., Suite 2100, Saint Louis, MO 63105\n **Date/Time:** September 30, 2025\n\u2139 Additional information, including parking and directions, will be provided before the event.\n\n**Who Should Attend**\n\n* Application & security professionals\n* Software engineers and developers\n* IT leaders and managers\n* Anyone with an interest in application security\n\n**About OWASP**\nThe Open Worldwide Application Security Project (OWASP) is a nonprofit foundation dedicated to improving the security of software. Local chapters provide opportunities to learn, network, and collaborate with others in the field.\n\nCome be part of the restart - your voice will help shape what OWASP Saint Louis becomes next."
     },
     {
         "group": "San Antonio",
