@@ -2186,5 +2186,14 @@
       "platforms": "SaaS",
       "note": "Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests.",
       "type": "SAST"
+   },
+   {
+     "title": "OWASP Noir",
+     "url": "https://github.com/owasp-noir/noir",
+     "owner": "hahwul, ksg97031",
+     "license": "Free",
+     "platforms": "Linux, MacOS, Windows",
+     "note": "Attack surface detector that identifies endpoints by static analysis.",
+     "type": "SAST"
    }
 ]
