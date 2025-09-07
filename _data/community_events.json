@@ -30,6 +30,16 @@
         "description": "On September 30th, we organize our next OWASP Belgium chapter meeting at The Gate (Mont-Saint-Guibert).\n\n**Agenda**:\n\n* 17:30 - 18:20 : Welcome (drinks + sandwiches)\n* 18:20 - 18:30: **OWASP update**\n* 18:30 - 19:30: **Learning to Detect Malware: Features, Pitfalls, and Adversarial Threats** (by Charles-Henry Bertrand Van Ouytsel, UCLouvain)\n* 19:30 - 19:45 : break\n* 19:45 - 20:45 : **Integrating Security Without Slowing Development: A Pragmatic DevSecOps Approach** (by Steve Mihy, Approach Cyber)\n* 20:45 - 21:30 : Refreshments\n\nMore info can be found on the Belgium OWASP chapter page at [https://owasp.org/www-chapter-belgium#div-meetings](https://owasp.org/www-chapter-belgium/#div-meetings) .\n\nOur chapter meetings are open for everyone, and attendance is free of charge. We ask you to register on Meetup in order to provide you with last-minute updates, if needed."
     },
     {
+        "group": "Cairo",
+        "repo": "www-chapter-cairo",
+        "name": "Cloud Security & Red Team Automation",
+        "date": "2025-09-13",
+        "time": "11:00+03:00",
+        "link": "https://www.meetup.com/owasp-cairo-chapter/events/310892819",
+        "timezone": "Africa/Cairo",
+        "description": " Upcoming Event \u2013 Cloud Security & Red Team Automation!\nGet ready! Our exciting event is happening Saturday, 13th September. \nJoin us online for two knowledge-packed sessions led by cybersecurity experts.\n\n Agenda:\n OWASP Top 10 Cloud-Native: Walkthrough & Explanation\n 11:00 AM \u2013 12:00 PM\n Speaker: Ahmed Saafan\n\n Hack While Sleeping: Automating Red Team Activities\n 12:00 PM \u2013 1:00 PM\n Speaker: Ayman Hussein\n\n How to Join:\n Zoom Link: https://us06web.zoom.us/j/82297990388?pwd=X4WbQmCQfEkGBbU9foRsbILZ4YriQv.1\n\nDon\u2019t miss this opportunity to strengthen your skills and connect with fellow AppSec and InfoSec professionals.\nLooking forward to seeing you there!"
+    },
+    {
         "group": "Columbus",
         "repo": "www-chapter-columbus",
         "name": "Mick Douglas talking about stuff",
@@ -210,16 +220,6 @@
         "description": "**Location:** Trend Micro\n**Address:** Herikerbergweg 92, 1101 CM Amsterdam\n\nSee [https://owasp.org/www-chapter-netherlands/upcomingevents](https://owasp.org/www-chapter-netherlands/upcomingevents) for more information about the OWASP Netherlands chapter.\n\n18:00 - 18:15 - **Reception of attendees**\n18:15 - 19:00 - **Simple meal**\n19:00 - 19:15 - **Welcome and OWASP updates**\n19:15 - 20:00 - **Beyond the Smoke Screen: Separating Reality from the Rhetoric!!!** by **Deepankar Bhagat**\n20:00 - 20:15 - **Break**\n20:15 - 21:00 - **T.B.D.**\n\n**Beyond the Smoke Screen: Separating Reality from the Rhetoric!!!**\n**Abstract:**\nThis presentation examines AI through a sociotechnical lens, focusing on security implications beyond traditional cybersecurity paradigms. AI systems are embedded within social structures involving hidden \u201cghost work\u201c from Global South communities, creating digital colonialism while consuming massive environmental resources. Sociotechnical risk analysis reveals vulnerabilities extending from technical attacks (adversarial examples, data poisoning) to social manipulation through deepfakes and weaponized misinformation. These risks are amplified by model opacity, concentrated capabilities, and the dangerous misalignment between AI\u2019s actual pattern-recognition abilities and social perceptions of intelligence. Security professionals must understand that AI deployment creates new attack surfaces in critical infrastructure while being simultaneously promoted as security solutions. The presentation advocates for security frameworks that account for both technical vulnerabilities and social dimensions of AI risk, challenging hype-driven adoption that ignores fundamental limitations and sociotechnical dependencies\n**Bio:**\nDeepankar Bhagat, Process Expert, Global Identity Access Management. Over 2 decades of experience in financial domain with diverse background in business analysis, IT security, Risk management and process frameworks. Besides Masters in Business Administration (Investment Banking) and Masters in Cybersecurity, I have numerous industry certifications including diploma in emerging technologies like GenAI and Quantum Mechanics and Post quantum Cryptography. I am part time security trainer and also runs a you tube channel spreading knowledge free of cost. I don\u2019t have much free time but whatever i manage to get, i spent on fitness."
     },
     {
-        "group": "New York City",
-        "repo": "www-chapter-new-york-city",
-        "name": "OWASP NYC: From Zero Trust to Two Scoops Wallarm & OWASP Ice Cream Family Social",
-        "date": "2025-09-06",
-        "time": "12:00-04:00",
-        "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/310717536",
-        "timezone": "America/New_York",
-        "description": "Join the OWASP New York City Chapter for an exciting Family Event. Bring the whole family, connect with the security community, and enjoy a summer afternoon of conversation, networking, and (lots of) ice cream.\n\nDate: Saturday - September 6th 2025\nWhere: Next to Jane\u2019s Carousel in Brooklyn Bridge Park\nTime: 12:00 pm to 3:00 pm\nRegister: https://tinyurl.com/OWASP-Ice-Cream-Family-Social\n\nWallarm is teaming up with OWASP for a sweet twist on networking \u2014 an Ice Cream Social in New York City \u2013 for you and your loved ones! Whether you\u2019re a security pro, developer, or tech leader, this is your chance to meet peers, swap insights, and cool down with your favorite frozen treats.\n\nJoin industry experts and fellow cybersecurity enthusiasts to share knowledge and experiences in this ever-evolving field. Don't miss this opportunity to network, learn, and stay updated on the latest in application security."
-    },
-    {
         "group": "Northern Virginia",
         "repo": "www-chapter-northern-virginia",
         "name": "Managing Third-Party and Supply-Chain Risk in Mobile Ecosystems",
@@ -228,16 +228,6 @@
         "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/310720210",
         "timezone": "America/New_York",
         "description": "Every mobile app relies on SDKs, APIs, and third-party components, but those dependencies can introduce critical security and privacy risks. This presentation unpacks common supply-chain threats, from malicious SDKs to insecure open-source libraries. In addition we will address the impact of AI on these ecosystems and the enterprise. Finally, we\u2019ll review best practices for assessing, monitoring, and governing third-party risks, aligned to enterprise mobile app policies and OWASP standards."
-    },
-    {
-        "group": "Patna",
-        "repo": "www-chapter-patna",
-        "name": "Active Directory Attacks",
-        "date": "2025-09-06",
-        "time": "14:00+05:30",
-        "link": "https://www.meetup.com/owasp-patna-chapter/events/310677571",
-        "timezone": "Asia/Kolkata",
-        "description": "This session explores Microsoft\u2019s **Active Directory (AD)**, a fundamental service for identity, authentication, and access control across enterprise networks. Participants will learn why AD is a key target for attackers, focusing on its centralized authentication processes, management of privileged accounts, and inter-domain trust relationships, all of which make it critical\u2014and vulnerable\u2014to compromise."
     },
     {
         "group": "Peterborough",
