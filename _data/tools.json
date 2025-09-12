@@ -1192,7 +1192,7 @@
       "url": "https://mobsf.github.io/Mobile-Security-Framework-MobSF/",
       "owner": null,
       "license": "Open Source or Free",
-      "platforms": null,
+      "platforms": "Windows, Unix",
       "note": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
       "type": "SAST"
    },
@@ -1593,12 +1593,12 @@
       "type": "SAST"
    },
    {
-      "title": "MobSF",
-      "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+      "title": "mobsfscan",
+      "url": "https://github.com/MobSF/mobsfscan",
       "owner": null,
       "license": "Open Source or Free",
-      "platforms": "Windows, Unix",
-      "note": "Android Java, Objective C, Swift",
+      "platforms": "Unix",
+      "note": "mobsfscan is a static analysis tool that can find insecure code patterns in your Android and iOS source code. Supports Java, Kotlin, Android XML, Swift and Objective C Code.",
       "type": "SAST"
    },
    {
