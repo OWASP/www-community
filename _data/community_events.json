@@ -80,6 +80,16 @@
         "description": "Mick is finally headed back, and he promises that he doesn't have any trips planned to Farawayistan this month! He'll be running us through his talk for the US Federal Cyberspace Conference. Should be some good information passed on. We might have to zap everyone Men In Black style after the meeting though.\n\nEDIT:\n\nWe jointly decided we liked the secret meeting idea, but I thoughts I'd throw a LITTLE taste of the title and some idea what we will be chatting about. There are prereqs if you wanna play along:\n\n======================\\\n\nAI Workshop: from building blocks of AI to the implications\n\nThis is a wide ranging workshop that helps attendees quickly learn how embeddings/vectorization works, and what that actually means in terms of the current ML & AI solution capabilities. Attendees only need a laptop or tablet with a keyboard and a google account to participate."
     },
     {
+        "group": "Dallas",
+        "repo": "www-chapter-dallas",
+        "name": "OWASP October In-Person Meet - The AI Appsec Nightmare",
+        "date": "2025-10-14",
+        "time": "18:00-05:00",
+        "link": "https://www.meetup.com/dallas-the-open-web-application-security-project-meetup/events/310496751",
+        "timezone": "America/Chicago",
+        "description": "The era of AI-powered attackers is no longer theoretical. Autonomous and semi-autonomous tools are now capable of identifying, exploiting, and adapting to vulnerabilities at a scale and speed that surpass human capacity. This talk explores the implications of a world where AI-driven threats are a permanent part of the landscape.\n\nWe begin with a candid look at the current state of application security, where manual processes and outdated risk models struggle to keep pace with modern development. At the same time, AI-generated code is entering environments at an unprecedented rate, often with little to no review, expanding the attack surface in ways few organizations are prepared for.\n\nCompounding the problem is a growing wave of global regulations pushing organizations to demonstrate security readiness, often without providing practical paths to achieve it. Within this context, the traditional approach of prioritizing and fixing only critical and high-severity issues is breaking down. Attackers, especially those leveraging AI, no longer view low or medium vulnerabilities as difficult hurdles. Most vulnerabilities should now be treated as easily exploitable.\nThis session offers a sharp, forward-looking assessment of the challenges ahead and outlines key shifts that application security teams must make to stay relevant and effective in the age of AI.\n\nJerry Hoff has decades of experience in technology and security, specializing in application security at an enterprise scale. He holds a Master\u2019s in Computer Science from Washington University in St. Louis and has evaluated the security of applications for some of the largest financial, defense, and commercial organizations in the world."
+    },
+    {
         "group": "Denver",
         "repo": "www-chapter-denver",
         "name": "Denver OWASP September Meetup - Join Us!",
@@ -88,16 +98,6 @@
         "link": "https://www.meetup.com/owasp-denver-chapter/events/310836744",
         "timezone": "America/Denver",
         "description": "***Everyone is welcome! Bring a friend...***\n\n***Seriously...everyone....***\n\nJoin us on September 17th for food, drinks, networking and an exciting presentation. Networking with your peers starts at 5:30 pm - announcements and presentation starts at 6:00pm .\n\nThis month's presentation is brought to you by API Sec University and SnowFROC!\n\n**Presentation:**\nWhy you should hack your own APIs\n\n**Abstract**:\nAPIs power virtually every web and mobile application, accounting for over 80% of all Internet traffic. And APIs are under attack. Gartner states APIs have become the \u201cmost frequent attack vector,\" resulting in hundreds of highly successful, high profile breaches. This API security presentation covers 1) why attackers love APIs, 2) real-world breaches (and how they map to the OWASP API Security Top 10), and 3) best practices to keep APIs secure."
-    },
-    {
-        "group": "Dubai",
-        "repo": "www-chapter-dubai",
-        "name": "From Risk to Resilience: Aligning OWASP OT Top 10 with IEC 62443 for Industrial ",
-        "date": "2025-09-14",
-        "time": "11:00+04:00",
-        "link": "https://www.meetup.com/meetup-group-svgchist/events/310838730",
-        "timezone": "Asia/Dubai",
-        "description": "Industrial environments are increasingly targeted by cyber threats, and protecting operational technology (OT) requires both risk awareness and structured defences. The OWASP OT Top 10 highlights the most critical security risks in OT systems, while the ISA/IEC 62443 standard provides a globally recognized framework for mitigating them.\nIn this session, we will explore how to bridge these two perspectives \u2014 mapping the OWASP OT Top 10 risks to relevant IEC 62443 requirements. Attendees will gain practical insights on how to translate real-world vulnerabilities into actionable security controls, accelerating both resilience and compliance.\nKey Takeaways:\nUnderstand the OWASP OT Top 10 and IEC 62443 at a high level\nLearn how common OT risks map to 62443 security requirements.\nDiscover a practical path from identifying risks to implementing controls.\nStrengthen both operational resilience and regulatory alignment"
     },
     {
         "group": "Dublin",
@@ -228,6 +228,16 @@
         "link": "https://www.meetup.com/owasp-los-angeles/events/308527392",
         "timezone": "America/Los_Angeles",
         "description": "OWASP LA has organized an exceptional offer for our Meetup membership to participate in the **2025 California Technology Summit** on **October 8th in Anaheim, CA**. Join us for a full day of professional development, technical insight, and networking with top minds in IT and cybersecurity.\n\n[Register](https://technologysummit.net/register.html) now using code **CTS25OWASP** for your **complimentary** pass! Check the full schedule at [2025 California Technology Summit Agenda](https://technologysummit.net/register.html)\n\n### Conference Highlights:\n\n* **Opening Keynote**: Fred Donatucci, CTO \u2013 San Bernardino County\n* **AI vs AI**: Exploring how artificial intelligence is being used to fight AI-driven cyber threats\n* **CISO & CIO Forums**: Executive roundtable sessions for strategic leadership and resilience planning\n* **Tech & Security Theaters**: Covering deepfake detection, wireless architecture, cyber insurance, observability, compliance, and more\n* **Lunch Sessions**: Including presentations on cybersecurity tactics inspired by Sun Tzu, Layer 2 vulnerabilities, and the evolving threat landscape\n* **Networking & Happy Hour** with live sponsor demos and discussions\n* **Earn CPE Credits** while attending technical and executive sessions\n* **Exhibit Hall** featuring over 30 leading technology sponsors\n* **Sponsor Giveaways** including gift cards, tech swag, and security services\n* **Grand Prize Drawing**: Attend the conference for your chance to **win the dream vacation you always wanted**, plus other exclusive giveaways!\n\nAnd finally don't forget to stop by the **OWASP Los Angeles booth** and connect with our local chapter members."
+    },
+    {
+        "group": "Los Angeles",
+        "repo": "www-chapter-los-angeles",
+        "name": "First Annual Security Champions Summit",
+        "date": "2025-10-01",
+        "time": "08:00-07:00",
+        "link": "https://www.meetup.com/owasp-los-angeles/events/311041156",
+        "timezone": "America/Los_Angeles",
+        "description": "**Build Your Program. Grow Your Champions.**\nKick off Cybersecurity Awareness Month with a virtual conference built exclusively for the people\u2014and programs\u2014leading security from within.\n\nWhether you're stepping into your role as a Security Champion or you're looking to upscale your champion program, this virtual summit equips you with the strategies, insights, and practical tools to confidently lead security within your team.\n\n**Why Attend?**\nSecurity Champions Summit is designed for developers, engineers, AppSec leads, and program owners who embed security into the way software gets built\u2014team by team, sprint by sprint.\n\nThis is your opportunity to:\n\n* **Level up your role as a Security Champion** or launch a new program from scratch\n\n* **Learn directly from Champions and program leaders** who\u2019ve built successful initiatives across industries\n\n* **Get tactical insight** into what works, and what doesn\u2019t, when driving secure development from within teams\n\n* **Network with peers and leaders** who are shaping security culture in their organizations\n\n* **Leave with a practical playbook** for championing security at every stage of your development lifecycle"
     },
     {
         "group": "Los Angeles",
