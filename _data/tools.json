@@ -9,6 +9,15 @@
       "type": "SAST"
        },
        {
+      "title": "Enforster AI",
+      "url": "https://enforster.ai/",
+      "owner": "Enforster",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, On-Premises",
+      "note": "Enforster AI performs Contextual Code Security SAST, leveraging LLMs and artificial intelligence to detect and remediate Logic Flaws, Secrets, Data leaks, Supply chain and technical vulnerabilities.",
+      "type": "SAST"
+       },
+       {
        "title": "CVE Scanner",
        "url": "https://www.cvescanner.co.uk",
        "owner": "CVE Scanner",
