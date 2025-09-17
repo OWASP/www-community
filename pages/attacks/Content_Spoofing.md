@@ -155,9 +155,9 @@ The impact is significant: users may receive what appear to be official invitati
 
 **Valid Email Content**
 
-`You've been invited to PROJECT`
+`You've been invited to PROJECT` (displayed as plain text - e.g. "You've been invited to Contoso Project")
 
-`FULLNAME has invited you to (...)`
+`FULLNAME has invited you to (...)` (displayed as plain text - e.g. "Contoso has invited you to ...")
 
 **Modified Email Content**
 
