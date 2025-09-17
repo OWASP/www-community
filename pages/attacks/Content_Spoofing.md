@@ -153,11 +153,6 @@ This can result in content spoofing or email spoofing, even if the application p
 
 The impact is significant: users may receive what appear to be official invitations or notifications, but links lead to phishing or malware delivery sites. Because the email originates from a trusted domain, the likelihood of user interaction is higher than with typical phishing attempts.
 
-**Mitigations / Recommendations:**
-- Sanitize or normalize user input included in email bodies, stripping or encoding URL-like patterns to prevent auto-linking.
-- Contextualize user-supplied values in templates to reduce the risk that auto-linked text appears as an actionable call-to-action.
-- Validate or whitelist input for sensitive fields that are rendered in email content.
-
 **Valid Email Content**
 
 `You've been invited to PROJECT`
