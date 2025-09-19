@@ -2,7 +2,7 @@
 layout: col-sidebar
 title: Content Spoofing
 author: Andrew Smith
-contributors: Jmanico, Wichers, D0ubl3 h3lix, Rishu Ranjan, ADubhlaoich, Arnout Engelen
+contributors: Jmanico, Wichers, D0ubl3 h3lix, Rishu Ranjan, ADubhlaoich, Arnout Engelen, Michal Biesiada
 permalink: /attacks/Content_Spoofing
 tags: attack, Content Spoofing
 
