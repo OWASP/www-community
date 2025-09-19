@@ -20,7 +20,7 @@ Click the triangle (or other control/character) to the left of the following hea
 {% assign control_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/controls/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
 <ul>
 {% for page in control_pages %}
-       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title | default: page.name }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
 
@@ -32,7 +32,7 @@ Click the triangle (or other control/character) to the left of the following hea
 {% assign attack_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/attacks/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
 <ul>
 {% for page in attack_pages %}
-       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title | default: page.name }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
 
@@ -44,7 +44,7 @@ Click the triangle (or other control/character) to the left of the following hea
 {% assign vuln_pages = site.pages | sort: 'title' | where_exp: "page", "page.path contains '/vulnerabilities/'" | where_exp: "page", "page.name != 'index.md'" | where_exp: "page", "page.name != 'info.md'"%}
 <ul>
 {% for page in vuln_pages %}
-       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title | default: page.name }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
 
@@ -66,7 +66,7 @@ Click the triangle (or other control/character) to the left of the following hea
   {% endfor %}
 
   {% if display %}
-       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+       <li><a href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{{ page.title | default: page.name }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
   {% endif %}
 {% endfor %}
 </ul>

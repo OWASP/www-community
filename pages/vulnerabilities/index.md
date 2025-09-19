@@ -44,6 +44,6 @@ defined structure.
 <ul>
 {% assign vpages = site.pages | where_exp: "item", "item.tags contains 'vulnerability'" %}
 {% for page in vpages %}
-    <li><a href='{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+    <li><a href='{{ site.baseurl }}{{ page.url }}'>{{ page.title | default: page.name }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
