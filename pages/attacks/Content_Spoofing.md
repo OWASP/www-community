@@ -145,6 +145,26 @@ Other example:
 
 `http://vulnerablesite/suggestions.php?stockid=123&stockrecommendation=Our+site+has+experienced+major+hacking+incident.Please+use+our+competitor+site+http://www.competitor.com+until+we+further+announced+for+update.`
 
+### Email Spoofing via User Input Injection / Content Spoofing via Auto-Linking
+
+In addition to traditional text injection within user interfaces, attackers can exploit user-controlled input fields that are incorporated verbatim into automated emails. Certain email clients (e.g.: Gmail) automatically detect domain-like text or URLs and convert them into clickable links - a process known as auto-linking.
+
+This can result in content spoofing or email spoofing, even if the application properly escapes HTML. For example, an attacker may supply a value such as `www.evilsiteexample.com/gift.exe` in a field like "Full name" or "Project name". The application sends a legitimate email from its own domain (e.g.: `hello@realnameorg.org`), and the recipient sees a clickable link pointing to an attacker-controlled host.
+
+The impact is significant: users may receive what appear to be official invitations or notifications, but links lead to phishing or malware delivery sites. Because the email originates from a trusted domain, the likelihood of user interaction is higher than with typical phishing attempts.
+
+**Valid Email Content**
+
+`You've been invited to PROJECT` (displayed as plain text - e.g. "You've been invited to Contoso Project")
+
+`FULLNAME has invited you to (...)` (displayed as plain text - e.g. "Contoso has invited you to ...")
+
+**Modified Email Content**
+
+`You've been invited to www.evilsiteexample.com` (rendered as clickable link - blue color typically)
+
+`Download www.evilsiteexample.com/gift.exe - Congratulations!! has invited you to (...)` (rendered as clickable link - blue color typically)
+
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
 - [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
