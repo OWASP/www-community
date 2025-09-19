@@ -74,7 +74,7 @@ component of risk assessment that examines the threats, vulnerabilities and expo
 <ul>
 {% assign ctrlpages = site.pages | where_exp: "item", "item.tags contains 'controls'" %}
 {% for page in ctrlpages %}
-    <li><a href='{{ site.baseurl }}{{ page.url }}'>{{ page.title }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
+    <li><a href='{{ site.baseurl }}{{ page.url }}'>{{ page.title | default: page.name }}</a>{% if page.author %} by {{ page.author }}{% endif %}</li>
 {% endfor %}
 </ul>
 
