@@ -1,11 +1,11 @@
-
 ---
 
 layout: col-sidebar
 title: HTTP/2 Reset Attack
 author: Vaibhav Malik
-tags: [attacks, application, web]
+contributors: Michal Biesiada
 permalink: /attacks/HTTP2_Reset_Attack
+tags: attacks, application, web
 
 ---
 
