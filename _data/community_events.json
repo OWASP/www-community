@@ -80,6 +80,16 @@
         "description": "The most successful enterprises implement the most cutting-edge technology - especially if it is already embedded in every major web browser AND is free of charge! But with great power of WebRTC comes great responsibility! And great opportunities as well, both for business and for hackers. This October, we discuss:\n\\- Technical advantages of WebRTC\n\\- Security Highlights in 3D: client\\-side\\, server\\-side\\, and MITM perspectives\n\\- Security vs Performance: avoid the compromise and choose both\\.\nMany people think that security only blocks people from doing new cool things. Sam Lyhin believes this is not always the case, because security made right enables technology to be implemented faster. Join us at OWASP Columbus to get a safe intro into the world of modern telecommunication."
     },
     {
+        "group": "Copenhagen",
+        "repo": "www-chapter-copenhagen",
+        "name": "A Night of AI Hacking",
+        "date": "2025-10-09",
+        "time": "17:00+02:00",
+        "link": "https://www.meetup.com/owasp-copenhagen-chapter/events/311153967",
+        "timezone": "Europe/Copenhagen",
+        "description": "**Want to learn about hacking LLMs?**\n**Then you're in luck!**\n\nWe're so lucky to have **Kevin Joensen** from *Baldur Security* coming to tell us about the recent challenge he made where he invited our community to hack the LLM he created for the chance to win tickets for BSides Copenhagen.\nHe'll talk about the basics of hacking LLMs, how he made the BSides CTF, how to defeat it - and how you can (try) to hack the new LLM CTF he created just for us!\n\nHere's the schedule and description he sent us:\n\n**17:00**: Welcome\n**17:10**: Talk about common vulnerabilities and misconfigurations seen in LLM/AI enabled systems.\n**18:00**: Pizza!\n**18:30**: LLM CTF\n\nWe\u2019ll start with an in-depth talk on vulnerabilities in Large Language Models (LLMs) and AI-powered systems, exploring topics like prompt injection, data leakage, model manipulation, and real-world attack scenarios inspired by cases from Microsoft and others. Following the talk, you\u2019ll get to apply what you\u2019ve learned in a hands-on CTF with AI-focused challenges. These range from bypassing chatbot safeguards to exploiting misconfigured AI systems. This event is perfect for anyone looking to better understand, identify, and mitigate emerging AI security risks."
+    },
+    {
         "group": "Dallas",
         "repo": "www-chapter-dallas",
         "name": "OWASP October In-Person Meet - The AI Appsec Nightmare",
@@ -137,7 +147,7 @@
         "time": "19:00+05:30",
         "link": "https://www.meetup.com/owasp-jcoe/events/310793893",
         "timezone": "Asia/Kolkata",
-        "description": "Join us at OWASP Jaihind College of Engineering Kuran Chapter for an exciting workshop on Penetration Testing and Capture the Flag challenge. Following the success of our Chapter Inauguration and Cybersecurity Seminar, this event will dive deeper into practical aspects of cybersecurity with hands-on exercises. Our expert speakers will discuss the latest trends in cybersecurity, focusing on tools and techniques for securing Linux systems. Participants will have the opportunity to test their skills in a Capture the Flag competition, learning how to think like an attacker while improving their defensive strategies. Whether you're a beginner or an experienced professional, this workshop promises to enhance your knowledge and real-world cybersecurity abilities. Don't miss out on this opportunity to network with like-minded individuals and advance your career in the field of cybersecurity.\n\nRegister Here: [Hacker's Gambit :- An OWASP National Level CTF - 2025 | 1554173 // Unstop](https://unstop.com/hackathons/hackers-gambit-an-owasp-national-level-ctf-jaihind-college-of-engineering-kuran-narayangaon-maharashtra-1554173)"
+        "description": "https://unstop.com/o/j7E3ecI?lb=EReYUW1&utm_medium=Share&utm_source=parthpat6682&utm_campaign=Online_coding_challenge\n\nJoin us at OWASP Jaihind College of Engineering Kuran Chapter for an exciting workshop on Penetration Testing and Capture the Flag challenge. Following the success of our Chapter Inauguration and Cybersecurity Seminar, this event will dive deeper into practical aspects of cybersecurity with hands-on exercises. Our expert speakers will discuss the latest trends in cybersecurity, focusing on tools and techniques for securing Linux systems. Participants will have the opportunity to test their skills in a Capture the Flag competition, learning how to think like an attacker while improving their defensive strategies. Whether you're a beginner or an experienced professional, this workshop promises to enhance your knowledge and real-world cybersecurity abilities. Don't miss out on this opportunity to network with like-minded individuals and advance your career in the field of cybersecurity.\n\nRegister Here: [Hacker's Gambit :- An OWASP National Level CTF - 2025 | 1554173 // Unstop](https://unstop.com/hackathons/hackers-gambit-an-owasp-national-level-ctf-jaihind-college-of-engineering-kuran-narayangaon-maharashtra-1554173)"
     },
     {
         "group": "London",
@@ -228,6 +238,16 @@
         "link": "https://www.meetup.com/owasp-new-york-city-chapter/events/311099155",
         "timezone": "America/New_York",
         "description": "**Join the OWASP NYC Chapter for a NYC Hackfest with a Secure Code Showdown Tournament**\n\nDate: Thursday - October 9th 2025\nWhere: AWS NYC Office - 7 W 34th St., New York, NY 10001 (near 5th Ave)\nTime: 11:00 am to 4:00 pm\nLunch: Provided\nRegister Required:\n\nhttps://tinyurl.com/OWASP-Hackfest-Tournament\n\nCome and test your wonderful skill against others in a series of vulnerable code challenges that ask you to identify a problem, locate insecure code, and fix a vulnerability. You don\u2019t need extensive programming knowledge, as this will be a great way to learn the foundations and intermediates of leveraging code that is not only functional but also secure. Players can choose to compete in their preferred software language, including Java Spring, C# MVC, C# WebForms, Go, Ruby on Rails, Python Django & Flask, Scala Play, Node.js, React, and both iOS and Android development languages.\n\nJoin industry experts and fellow cybersecurity enthusiasts to share knowledge and experiences in this ever-evolving field. Don't miss this opportunity to network, learn, and stay updated on the latest in application security."
+    },
+    {
+        "group": "Northern Virginia",
+        "repo": "www-chapter-northern-virginia",
+        "name": "Demystifying SOC 2 for Your AppSec Program",
+        "date": "2025-10-21",
+        "time": "18:30-04:00",
+        "link": "https://www.meetup.com/owasp-northern-virginia-chapter/events/311088576",
+        "timezone": "America/New_York",
+        "description": "In this talk, we\u2019ll walk through how SOC 2 maps to modern application security programs. Attendees will learn how to implement key controls in ways that support both audit readiness and meaningful security outcomes. Whether you\u2019re building a program from scratch or improving an existing one, this session offers practical guidance."
     },
     {
         "group": "Orange County",
