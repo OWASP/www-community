@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: Information exposure through query strings in url
+title: Information exposure through query strings in URL
 author: Robert Gilbert (amroot)
 contributors: 
 permalink: /vulnerabilities/Information_exposure_through_query_strings_in_url
