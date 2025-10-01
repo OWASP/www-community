@@ -49,7 +49,7 @@ The following figure displays how an internal attacker can potentially exploit t
 
 A web application sent a one-time password (OTP) and the user's email address in the query string of a login URL delivered by email:
 
-`https://vulnerablesite/sign_in?email_otp=true&otp_code=123456&user%5Bemail%5D=john.doe@example.com`
+`https://vulnerablesite/sign_in?email_otp=true&otp_code=123456&user%5Bemail%5D=john.doe%40example.com`
 
 This approach exposes sensitive information (OTP token and personally identifiable information) in browser history, server logs, and third-party monitoring tools. Even if the OTP is short-lived, the exposure window creates a security risk and violates secure session management practices. 
 An OTP must be treated as a secret credential equivalent to a password, since exposure during its validity window can enable unauthorized account access.
