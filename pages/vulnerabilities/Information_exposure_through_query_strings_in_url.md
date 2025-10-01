@@ -1,9 +1,9 @@
 ---
 
 layout: col-sidebar
-title: Information exposure through query strings in url
+title: Information exposure through query strings in URL
 author: Robert Gilbert (amroot)
-contributors: 
+contributors: Michal Biesiada
 permalink: /vulnerabilities/Information_exposure_through_query_strings_in_url
 tags: vulnerability, Information exposure through query strings in url
 
@@ -44,6 +44,15 @@ When not using an encrypted channel, all of the above and the following:
 ### Exposure Proof-of-Concept
 
 The following figure displays how an internal attacker can potentially exploit this vulnerability as the request above is captured in the server logs even when requested via an encrypted channel: <https://vulnerablehost.com/information-exposure-log.png>
+
+### Other Real-World Example
+
+A web application sent a one-time password (OTP) and the user's email address in the query string of a login URL delivered by email:
+
+`https://vulnerablesite/sign_in?email_otp=true&otp_code=123456&user%5Bemail%5D=john.doe%40example.com`
+
+This approach exposes sensitive information (OTP token and personally identifiable information) in browser history, server logs, and third-party monitoring tools. Even if the OTP is short-lived, the exposure window creates a security risk and violates secure session management practices. 
+An OTP must be treated as a secret credential equivalent to a password, since exposure during its validity window can enable unauthorized account access.
 
 ## Related [Attacks](../attacks/)
 
