@@ -53,6 +53,7 @@ A web application sent a one-time password (OTP) and the user's email address in
 
 This approach exposes sensitive information (OTP token and personally identifiable information) in browser history, server logs, and third-party monitoring tools. Even if the OTP is short-lived, the exposure window creates a security risk and violates secure session management practices. 
 An OTP must be treated as a secret credential equivalent to a password, since exposure during its validity window can enable unauthorized account access.
+Email addresses are confidential PII, and in many applications they also serve as a login identifier (part of the user's credentials). Exposing them in query strings therefore poses both privacy and authentication risks.
 
 ## Related [Attacks](../attacks/)
 
