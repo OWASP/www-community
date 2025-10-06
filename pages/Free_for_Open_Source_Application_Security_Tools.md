@@ -353,7 +353,12 @@ Secrets detection is often confused with SAST because both scan through static s
       - The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count.The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
       - Hardcoded [secrets validation](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/secret-detection) and [custom regex](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/secrets-policy-settings#custom-secrets) configuration are built in.
       - [Secrets mitigation](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/realtime-secret-mitigation) is provided with a developer experience focus.
-   
+  - [Kingfisher](https://github.com/mongodb/kingfisher) - Open Source (Apache 2.0)
+    - Finds secrets across filesystems, full Git histories, GitHub, GitLab, Bitbucket, Gitea, Azure DevOps, S3 buckets, Docker images, Jira, Confluence, Slack, and more
+    - Built in Rust, it combines live credential validation, source code parsing, and the SIMD-accelerated Vectorscan regex engine for unmatched performance and accuracy
+    - Ships with hundreds of built-in rules that detect and validate secrets in real time, and can be extended with custom rules
+    - Supports building a baseline file, to detect and prevent new secrets from being added to a codebase
+
 ### Privacy Engineering Tools
 
 - [xCOMPASS](https://github.com/Comcast/xCOMPASS/) - a simple tool that allows developers to determine their privacy engineering requirements early in the product development lifecycle. xCOMPASS has also been listed by [NIST in their Privacy Engineering Program Collaboration Space as one of four Risk Assessment Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/privacy-risk-assessment/tools) and [CISA as one of the open-source tools that promote cybersecurity best practices](https://www.cisa.gov/resources-tools/services/xcompass).
