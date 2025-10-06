@@ -354,9 +354,10 @@ Secrets detection is often confused with SAST because both scan through static s
       - Hardcoded [secrets validation](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/secret-detection) and [custom regex](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/secrets-policy-settings#custom-secrets) configuration are built in.
       - [Secrets mitigation](https://docs.arnica.io/arnica-documentation/hardcoded-secrets/realtime-secret-mitigation) is provided with a developer experience focus.
   - [Kingfisher](https://github.com/mongodb/kingfisher) - Open Source (Apache 2.0)
-    - Finds secrets across full Git histories, GitHub, GitLab, Bitbucket, Gitea, Azure DevOps, S3 buckets, Docker images, Jira, Confluence, Slack, and more.
-    - Built in Rust, it combines live credential validation, source code parsing, and the SIMD-accelerated Vectorscan regex engine for unmatched performance and accuracy.
-    - Ships with hundreds of built-in rules that detect and validate secrets in real time, and can be extended with custom rules.
+    - Finds secrets across filesystems, full Git histories, GitHub, GitLab, Bitbucket, Gitea, Azure DevOps, S3 buckets, Docker images, Jira, Confluence, Slack, and more
+    - Built in Rust, it combines live credential validation, source code parsing, and the SIMD-accelerated Vectorscan regex engine for unmatched performance and accuracy
+    - Ships with hundreds of built-in rules that detect and validate secrets in real time, and can be extended with custom rules
+    - Supports building a baseline file, to detect and prevent new secrets from being added to a codebase
 
 ### Privacy Engineering Tools
 
