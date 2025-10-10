@@ -1,5 +1,23 @@
 [
       {
+      "title": "Socket Firewall Free",
+      "url": "https://github.com/SocketDev/sfw-free/",
+      "owner": "Socket Inc.",
+      "license": "PolyForm Shield License",
+      "platforms": "On-Premises",
+      "note": "Socket Firewall Free is a lightweight tool that protects developer machines in real time, blocking malicious dependencies before they ever reach your laptop or build system. It works out of the box — no API key and no configuration required.",
+      "type": "SAST"
+      },
+      {
+      "title": "Socket SCA",
+      "url": "https://socket.dev",
+      "owner": "Socket Inc.",
+      "license": "Commercial or Free",
+      "platforms": "SaaS, CI/CD, IDE, CLI",
+      "note": "Socket is a developer-first security platform that protects your code from both vulnerable and malicious dependencies.",
+      "type": "SAST"
+      },
+      {
       "title": "Corgea",
       "url": "https://corgea.com/",
       "owner": "Corgea",
