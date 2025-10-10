@@ -327,6 +327,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [OSS Review Toolkit] | HERE | Open Source | Cross Platform |
 | [Patton] | OWASP | Open Source | Cross Platform |
 | [PHP Security Checker] | SensioLabs | Open Source | SaaS |
+| [Plexicus] | Plexicus | Commercial / Freemium | SaaS |
 | [Prisma Cloud] | Palo Alto Networks | Commercial | Cross Platform / SaaS |
 | [Protean Labs] | Protean Labs | Commercial / Freemium | SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
@@ -383,6 +384,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [OSS Index]: https://ossindex.sonatype.org/
 [Patton]: https://owasp.org/www-project-patton/
 [PHP Security Checker]: https://github.com/sensiolabs/security-checker
+[Plexicus]:https://www.plexicus.ai/aspm-application-security-posture-management/
 [Prisma Cloud]: https://www.paloaltonetworks.com/prisma/cloud
 [Protean Labs]: https://protean-labs.io/
 [Renovate]: https://renovatebot.com/

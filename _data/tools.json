@@ -2204,5 +2204,25 @@
      "platforms": "Linux, MacOS, Windows",
      "note": "Attack surface detector that identifies endpoints by static analysis.",
      "type": "SAST"
+   },
+
+   {
+     "title": "Plexicus ASPM",
+     "url": "https://www.plexicus.ai/aspm-application-security-posture-management/",
+     "owner": "Plexicus",
+     "license": "Commercial",
+     "platforms": "SaaS",
+     "note": "Application Security Posture Management (ASPM), unifying SAST, DAST, and SCA into a single platform to provide comprehensive application security management.",
+     "type": "SAST"
+   },
+
+   {
+     "title": "Plexicus CNAPP",
+     "url": "https://www.plexicus.ai/",
+     "owner": "Plexicus",
+     "license": "Commercial",
+     "platforms": "SaaS",
+     "note": "Cloud Native Protection Platform, unifying ASPM (SAST, DAST, SCA), CSPM (Cloud Security Posture Management), Container security into single platform ",
+     "type": "DAST"
    }
 ]
