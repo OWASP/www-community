@@ -372,7 +372,13 @@ Secrets detection is often confused with SAST because both scan through static s
 - [Mobb](https://mobb.ai/) - Mobb is an automatic code fixer for security issues. It runs manually or as part of a pipeline, digests your SAST reports, and generates ready-to-be-merged pull requests that fix your issues.
 - [Corgea](https://corgea.com/) - Corgea connects to Semgrep, Snyk, CodeQL, Checkmarx and Fortify to remove false positives and issue fixes for security vulnerabilities. It supports Python, Go, Javascript, Typescript, Ruby, C#, C, C++, Java, PHP, and Kotlin. It can be run manually or as part of CI/CD pipelines. [Free to use](https://corgea.com/pricing).
 
+### Post-Quantum Cryptography Tools
 
+With the rise of quantum computing, [classical cryptographic algorithms like RSA are no longer adequate to protect our data](https://www.nist.gov/news-events/news/2023/08/nist-standardize-encryption-algorithms-can-resist-attack-quantum-computers). Hence, organizations must update their computing assets that use any classical cryptographic algorithms to then use the [new post-quantum cryptography (PQC) algorithms](https://csrc.nist.gov/projects/post-quantum-cryptography), namely perform a migration on the assets' cryptographic algorithms from classical into PQC (i.e., PQC migration). For that, Comcast Cyber Security & Privacy Research has released two tools:
+
+- [CARAF](https://github.com/Comcast/CARAF) - Crypto Agility Risk Assessment Framework (CARAF) helps organizations evaluate the risks of their assets in the context of post-quantum cryptography (PQC) migration.
+
+- [PQBench](https://github.com/Comcast/CARAF/tree/main/Tools/PQBench) - PQBench offers a curated collection of cryptographic use cases, each mapped to relevant evaluation metrics tailored for Post-Quantum Cryptography (PQC).
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
