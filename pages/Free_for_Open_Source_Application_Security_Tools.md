@@ -374,11 +374,10 @@ Secrets detection is often confused with SAST because both scan through static s
 
 ### Post-Quantum Cryptography Tools
 
-With the rise of quantum computing, [classical cryptographic algorithms like RSA are no longer adequate to protect our data](https://www.nist.gov/news-events/news/2023/08/nist-standardize-encryption-algorithms-can-resist-attack-quantum-computers). Hence, organizations must update their computing assets that use any classical cryptographic algorithms to then use the [new post-quantum cryptography (PQC) algorithms](https://csrc.nist.gov/projects/post-quantum-cryptography), namely perform a migration on the assets' cryptographic algorithms from classical into PQC (i.e., PQC migration). For that, Comcast Cyber Security & Privacy Research has released two tools:
+With the rise of quantum computing, [classical cryptographic algorithms like RSA are no longer adequate to protect our data](https://www.nist.gov/news-events/news/2023/08/nist-standardize-encryption-algorithms-can-resist-attack-quantum-computers). Hence, organizations must update their computing assets that use any classical cryptographic algorithms to then use the [new post-quantum cryptography (PQC) algorithms](https://csrc.nist.gov/projects/post-quantum-cryptography) (i.e., PQC migration). 
 
-- [CARAF](https://github.com/Comcast/CARAF) - Crypto Agility Risk Assessment Framework (CARAF) helps organizations evaluate the risks of their assets in the context of post-quantum cryptography (PQC) migration.
-
-- [PQBench](https://github.com/Comcast/CARAF/tree/main/Tools/PQBench) - PQBench offers a curated collection of cryptographic use cases, each mapped to relevant evaluation metrics tailored for Post-Quantum Cryptography (PQC).
+- [CARAF](https://github.com/Comcast/CARAF) - Crypto Agility Risk Assessment Framework (CARAF) helps organizations evaluate the risks of their assets in the context of post-quantum cryptography (PQC) migration. - Comcast Cyber Security & Privacy Research
+- [PQBench](https://github.com/Comcast/CARAF/tree/main/Tools/PQBench) - PQBench offers a curated collection of cryptographic use cases, each mapped to relevant evaluation metrics tailored for Post-Quantum Cryptography (PQC). - Comcast Cyber Security & Privacy Research
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
