@@ -1521,15 +1521,6 @@
       "type": "SAST"
    },
    {
-      "title": "Betterscan CE (Community Edition)",
-      "url": "https://github.com/marcinguy/betterscan-ce",
-      "owner": "Marcin Kozlowski",
-      "license": "Open Source",
-      "platforms": null,
-      "note": "Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report. Currently supports:  PHP, Java, Scala, Python, Ruby, Javascript, GO, Secret Scanning, Dependency Confusion, Trojan Source, Open Source and Proprietary Checks (total ca. 1000 checks). Supports also Differential analysis. Goal is to have one report using many tools/scanners",
-      "type": "SAST"
-   },
-   {
       "title": "Sentinel Source",
       "url": "https://www.whitehatsec.com/products/static-application-security-testing/",
       "owner": "Whitehat",
