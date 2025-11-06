@@ -1764,15 +1764,6 @@
       "type": "SAST"
    },
    {
-      "title": "Horusec",
-      "url": "https://github.com/ZupIT/horusec",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "C#, Java, Kotlin, Python, Ruby, Golang, Terraform, Javascript, Typescript, Kubernetes, PHP, C, HTML, JSON, Dart, Elixir, Shell, Nginx, Swift",
-      "type": "SAST"
-   },
-   {
       "title": "OWASP ASST (Automated Software Security Toolkit)",
       "url": "https://github.com/OWASP/ASST",
       "owner": "Tarik Seyceri & OWASP",
