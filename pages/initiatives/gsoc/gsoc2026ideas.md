@@ -2,7 +2,7 @@
 layout: full-width
 title: GSoC 2026 Ideas
 tags: gsoc
-permalink: /initiatives/gsoc/gsocideas
+permalink: /initiatives/gsoc/gsoc2026ideas
 ---
 
 # {{page.title}}
