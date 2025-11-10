@@ -122,31 +122,17 @@ To receive early feedback please:
 - Please pick "dsomm" as Proposal Tag to make them easier to find
   for us. Thank you!
 
-##### Medium Feature Pack for the DSOMM Main Application (JS)
-![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-This pack includes tasks that are crucial for enhancing the user experience and functionality of the DSOMM main application. Contributors will address existing issues and add new features:
-- Implement a **State or Tag for "Not yet assessed"**, addressing [Issue #241](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/241) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
-- Enhance the **Excel download feature in "Mapping"** by adding assessment information, as discussed in [Issue #244](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/244#issuecomment-1811127472) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
-- Refine the handling of **subcategories** to streamline the organization and presentation of maturity model elements, making the tool more intuitive. See [Issue #194](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/194) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Introduce the **Adding of Diagrams** feature to enhance the visualization of DevSecOps processes and maturity levels, as outlined in [Issue #183](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel/issues/183) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
-
-##### Large Feature Pack for the metric Analyzer and Collector (Java)
+##### Update of the DSOMM Application (Angular)
 ![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-This pack challenges students to develop the entire workflow from data collection to visualization for DSOMM metrics, including the implementation of a Kafka queue. Projects include:
-- Design and implement a **collector for OWASP DefectDojo**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) via the [defectdjo-client](https://github.com/SDA-SE/defectdojo-client) which fetches MTTR/MTTP) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
-- Develop a **collector for Jira**, to retrieve information about security tasks. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Create a **collector for Jenkins and Kubernetes**, aimed at measuring deployment frequency by team, a key metric in DevOps performance. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Engineer a **collector for GitHub and Bitbucket**, to calculate MTTP by tracking pull request opening and merge dates. In addition, check that _branch protection_ is enabled and a .gitignore exists in the root file system. ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Engineer a **collector for gitleaks**, fetching Mean Time to Resolve (MTTR) and Mean Time to Patch (MTTP) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- **Your Idea:** Proposals that innovate or enhance the metric collection and analysis process are highly encouraged.
-
-Please take a look at the [architecture digram of DSOMM metricCA](https://github.com/devsecopsmaturitymodel/metricCA). The whole way from the collector to grafana needs to be implemented. Please note that a queue Kafka and Prometheus is currently not implemented and needs to be implemented in the collector and in the metricAnalyzer.
-
-For Backstage, Jira and Confluence a defined format and tags might be used to identify the corresponding team and type of document (e.g. threat modeling/pentest).
+Primary Objectives:
+- Upgrade Angular Framework: Migrate the DSOMM application from its current Angular version to Angular 21
+- Updates: Update all related dependencies including TypeScript, RxJS, Angular CLI, and third-party libraries
+- Code Modernization: Refactor deprecated APIs and adopt modern Angular patterns (standalone components, signals, etc.)
+- Testing & Quality Assurance: Ensure all existing functionality works correctly after migration with comprehensive testing, this can lead to unit test optimization
+- Documentation: Update developer documentation with new setup instructions and migration notes
 
 #### Prerequisites
-- Proficiency in the corresponding programming language (JavaScript for the main application, Java for the metric analyzer and collector)
+- Proficiency in the corresponding programming language (JavaScript and Angular for the main application)
 - Previous contributions to open-source projects are highly desirable, demonstrating your commitment and collaborative skills
 
 ##### Mentors
