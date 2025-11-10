@@ -132,7 +132,7 @@ Primary Objectives:
 - Documentation: Update developer documentation with new setup instructions and migration notes
 
 #### Prerequisites
-- Proficiency in the corresponding programming language (JavaScript for the main application)
+- Proficiency in the corresponding programming language (JavaScript and Angular for the main application)
 - Previous contributions to open-source projects are highly desirable, demonstrating your commitment and collaborative skills
 
 ##### Mentors
