@@ -335,6 +335,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [SBOM Observer] | Bytesafe  | Commercial | SaaS |
 | [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
+| [Socket] | Socket | Commercial / Freemium | Cross Platform / SaaS |
 | [Software Health Indicator] | YourSky.blue | Commercial / Freemium | SaaS |
 | [SOOS] | SOOS | Commercial / Freemium | SaaS |
 | [Veracode SCA] | Veracode | Commercial | Cross Platform / SaaS |
@@ -392,6 +393,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [SBOM Observer]: https://sbom.observer/
 [Scantist SCA]: https://scantist.com/
 [Snyk]: https://snyk.io/
+[Socket]: https://socket.dev/
 [Software Health Indicator]: https://software-health-indicator.com/
 [SOOS]: https://soos.io/
 [Veracode SCA]: https://www.veracode.com/products/software-composition-analysis
