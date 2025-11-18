@@ -3,7 +3,7 @@
 title: Fuzzing
 layout: col-sidebar
 author:
-contributors:
+contributors: Marco Barbaccia
 tags:
 permalink: /Fuzzing
 
@@ -11,8 +11,7 @@ permalink: /Fuzzing
 
 {% include writers.html %}
 
-*Fuzz testing* or *Fuzzing* is a Black Box software testing technique, which basically consists in finding implementation bugs using
-malformed/semi-malformed data injection in an automated fashion.
+*Fuzz testing*, or *fuzzing*, is a software testing technique aimed at identifying bugs, vulnerabilities, or unexpected behavior by automatically providing a program with unexpected, malformed, or semi-malformed inputs.
 
 ## A trivial example
 
