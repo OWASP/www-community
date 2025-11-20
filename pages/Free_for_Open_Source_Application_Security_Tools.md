@@ -255,6 +255,12 @@ Commercial tools of this type that are free for open source:
             more public than you might prefer)
       - They also provide detailed information and remediation guidance
         for known vulnerabilities here: <https://snyk.io/vuln>
+  - [Socket](https://socket.dev/features) - Socket is a developer-first security platform that protects your code from both vulnerable and malicious dependencies. 
+    - [Free for individual developers and small teams, and open-source projects](https://socket.dev/pricing)
+    - JavaScript, TypeScript, Python, Go, Java, Ruby, .NET, Scala, Kotlin, Rust, C/C++, PHP, and more
+    - Integrates with any CI/CD platform
+    - License enforcement and policies
+    - SBOM generation
   - [Software Health Indicator](https://software-health-indicator.com) by YourSky.blue
     - The real time indicator that promotes supply chain transparency
       Free for FOSS projects: <https://software-health-indicator.com/order/>
