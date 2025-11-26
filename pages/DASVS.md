@@ -4,7 +4,7 @@ layout: col-sidebar
 title: "DASVS is not associated with OWASP"
 contributors: ["OWASP Project Committee", "OWASP ASVS Project"]
 permalink: /DASVS
-tags: ["other"]
+tags: ["other", "DASVS", "Desktop Application Security Verification Standard"]
 
 ---
 
