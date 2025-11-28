@@ -13,7 +13,7 @@ permalink: /attacks/
 
 # What is an attack?
 
-Attacks are the techniques that attackers use to exploit the vulnerabilities in applications. Attacks are often confused with vulnerabilities, so please try to be sure that the attack you are describing is something that an attacker would do, rather than a weakness in an application.
+Attacks are the techniques that attackers use to exploit the vulnerabilities in applications. Attacks are often confused with vulnerabilities - the attacks listed here describe something that an attacker would do (their actions), rather than a weakness in an application (something like a fault that could be exploited).
 
 ## List of Attacks
 
