@@ -19,7 +19,7 @@ may exploit business logic vulnerabilities, or insufficient anti-automation vuln
 The misuse may adversely affect the application itself, applications' users, application data,
 and application owners.
 
-Abuse of Functionality can be mistakenly reported as Denial of Service (DoS), but DoS is often only side-effect
+Abuse of Functionality can be mistakenly reported as Denial of Service (DoS), but DoS is often only a side-effect
 of the intended Abuse of functionality attack, not the primary aim.
 
 ## References
