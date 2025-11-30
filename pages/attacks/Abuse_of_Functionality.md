@@ -14,7 +14,7 @@ tags: attack, Abuse of Functionality
 ## Description
 
 An Abuse of Functionality attack is the misuse of inherent application
-features. Although Abuse of Functionality attacks soly through using valid features in an unexpected or undesirable way, others
+features. Although many Abuse of Functionality attacks occur solely through using valid features in an unexpected or undesirable way, others
 may exploit business logic vulnerabilities, or insufficient anti-automation vulnerabilities. 
 The misuse may adversely affect the application itself, applications' users, application data,
 and application owners.
