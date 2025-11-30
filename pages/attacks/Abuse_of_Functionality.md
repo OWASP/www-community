@@ -14,12 +14,13 @@ tags: attack, Abuse of Functionality
 ## Description
 
 An Abuse of Functionality attack is the misuse of inherent application
-features, sometimes referred to as business logic vulnerabilities, or insufficient anti-automation. 
-The misuse may adversely affect the application itself, the applications' users,
-and the application's owners.
+features. Although Abuse of Functionality attacks soly through using valid features in an unexpected or undesirable way, others
+may exploit business logic vulnerabilities, or insufficient anti-automation vulnerabilities. 
+The misuse may adversely affect the application itself, applications' users, application data,
+and application owners.
 
-Abuse of Functionality can include Denial of Service (DoS), but DoS is often only side-effect
-of the intended attack, not the primary aim.
+Abuse of Functionality can be mistakenly reported as Denial of Service (DoS), but DoS is often only side-effect
+of the intended Abuse of functionality attack, not the primary aim.
 
 ## References
 
