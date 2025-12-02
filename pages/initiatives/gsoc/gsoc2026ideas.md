@@ -54,7 +54,7 @@ BLT is a large-scale project with a growing ecosystem, offering **full-stack dev
 
 ### 🔹 **2026 GSoC Ideas / Large Projects**  
 
-#### 🔸 **New GSOC Projects coming soon for BLT**
+#### 🔸 **New GSoC Projects coming soon for BLT**
 Check out our ongoing projects [BLT projects](https://github.com/orgs/OWASP-BLT/projects?query=is%3Aopen)
 
 
