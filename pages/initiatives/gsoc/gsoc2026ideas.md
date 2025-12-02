@@ -86,7 +86,7 @@ We are actively looking for more mentors! If you have experience in **Django, Re
 - **Ahmed ElSheikh**  
 - _More coming soon, Contact Donnie on Slack if you'd like to Mentor_  
 
-🎥 _To get up to speed, check out our [BLT videos](https://owaspblt.org/education/).  
+🎥 _To get up to speed, check out our [BLT videos](https://owaspblt.org/education/)._
 
 
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
