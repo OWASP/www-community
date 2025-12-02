@@ -54,28 +54,9 @@ BLT is a large-scale project with a growing ecosystem, offering **full-stack dev
 
 ### 🔹 **2026 GSoC Ideas / Large Projects**  
 
-#### 🔸 **Modern UI/UX Overhaul & Lightweight Front-End in React** (~350h)  
-A complete redesign of BLT’s interface, improving accessibility, usability, and aesthetics. The new front-end will be built with React and Tailwind CSS, ensuring high performance while maintaining a lightweight architecture under **100MB**. Dark mode will be the default, with full responsiveness and an enhanced user experience.  
+#### 🔸 **New GSoC Projects coming soon for BLT**
+Check out our ongoing projects [BLT projects](https://github.com/orgs/OWASP-BLT/projects?query=is%3Aopen)
 
-#### 🔸 **Organization Dashboard – Enhanced Vulnerability & Bug Management** (~350h)  
-Redesign and expand the **organization dashboard** to provide seamless management of **bug bounties, security reports, and contributor metrics**. Features will include **advanced filtering, real-time analytics, and improved collaboration tools** for security teams.  
-
-#### 🔸 **Secure API Development & Migration to Django Ninja** (~350h)  
-Migrate our existing and develop a **secure, well-documented API** with automated security tests to support the new front-end. This may involve migrating from Django Rest Framework to **Django Ninja** for improved performance, maintainability, and API efficiency.  
-
-#### 🔸 **Gamification & Blockchain Rewards System (Ordinals & Solana)** (~350h)  
-Introduce **GitHub-integrated contribution tracking** that rewards security researchers with **Bitcoin Ordinals and Solana-based incentives**. This will integrate with other parts of the website as well such as daily check-ins and code quality. Gamification elements such as **badges, leaderboards, and contribution tiers** will encourage engagement and collaboration in open-source security.  
-
-#### 🔸 **Decentralized Bidding System for Issues (Bitcoin Cash Integration)** (~350h)  
-Create a decentralized system where developers can bid on **GitHub issues** using **Bitcoin Cash**, ensuring **direct transactions** between contributors and project owners without BLT handling funds.  
-
-#### 🔸 **AI-Powered Code Review & Smart Prioritization System for Maintainers** (~350h)  
-Develop an **AI-driven GitHub assistant** that analyzes pull requests, detects security vulnerabilities, and provides **real-time suggestions** for improving code quality. A **smart prioritization system** will help maintainers rank issues based on **urgency, community impact, and dependencies**.  
-
-#### 🔸 **Enhanced Slack Bot for Real-Time Security Alerts & Automation** (~175h)  
-Expand the BLT **Slack bot** to automate vulnerability tracking, send real-time alerts for new issues, and integrate **GitHub notifications and contributor activity updates** for teams.  
-
-🔗 **More projects & discussions:** [BLT Milestones](https://github.com/OWASP-BLT/BLT/milestones)  
 
 ---
 
@@ -102,14 +83,10 @@ We are actively looking for more mentors! If you have experience in **Django, Re
 
 📌 _Confirmed Mentors:_  
 - **Donnie** (_@DonnieBLT on Slack_)  
-- **Yash Pandey**  
-- **Bishal Das**  
 - **Ahmed ElSheikh**  
-- **Patricia Waiyego**
-- **Sudhir**
-- _Looking for 4 more mentors!_  
+- _More coming soon, Contact Donnie on Slack if you'd like to Mentor_  
 
-🎥 _To get up to speed, check out our [BLT videos](https://blt.owasp.org/bltv/)._  
+🎥 _To get up to speed, check out our [BLT videos](https://owaspblt.org/education/)._
 
 
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
