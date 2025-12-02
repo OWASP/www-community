@@ -10,7 +10,7 @@ permalink: /Threat_Modeling_Process
 
 {% include writers.html %}
 
-This is an OWASP community page. You should also visit the official [Threat Model Project](https://owasp.org/www-project-threat-model/) site.
+This is an OWASP community page. You should also visit the official [Threat Model Project](https://owasp.org/www-project-threat-modeling/) site.
 
 - [Introduction](#introduction)
   - [Step 1: Scope your work](#step-1-scope-your-work)
