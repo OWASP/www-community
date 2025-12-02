@@ -22,7 +22,7 @@ There are other more mature, popular, or well established Risk Rating Methodolog
 
 Alternatively you may with the review information about Threat Modeling, as that may be a better fit for your app or organization:
 
-- [OWASP Threat Modeling Project](https://owasp.org/www-project-threat-model/)
+- [OWASP Threat Modeling Project](https://owasp.org/www-project-threat-modeling/)
 - [OWASP pytm](https://owasp.org/www-project-pytm/) Pythonic framework for threat modeling
 - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) threat modeling tool
 
