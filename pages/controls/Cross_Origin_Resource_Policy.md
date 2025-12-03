@@ -129,5 +129,6 @@ In conclusion, the Cross-Origin Resource Policy is a robust security control for
 - [MDN Web Docs: Cross-Origin Resource Policy (CORP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy_(CORP))
 - [web.dev: Protect your resources from web attacks with Fetch Metadata](https://web.dev/fetch-metadata/)
 - [Fetch Metadata Request Headers playground](https://secmetadata.appspot.com/)
-- [OWASP Cheat Sheet Series: Cross-Origin Resource Sharing](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Origin_Resource_Sharing_Cheat_Sheet.html)
+- [OWASP Cheat Sheet Series: HTML5 Cross-origin Resource Sharing (CORS)](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#cross-origin-resource-sharing)
+- [OWASP Cheat Sheet Series: HTTP Headers - Cross-Origin Resource Policy (CORP)](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#cross-origin-resource-policy-corp)
 
