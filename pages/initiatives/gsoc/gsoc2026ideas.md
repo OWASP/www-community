@@ -432,3 +432,22 @@ OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework.
 ##### Mentors
 - [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
 - [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+
+### fencerAI
+fencerAI is a middleman framework between end-user and AI frameworks.
+fencerAI will authorize the user before sending the prompt to AI engine, it will also validate the prompt for
+- Prompt injections
+- Data poisoning 
+fencerAI is a great opportunity to work with AI and implementing cybersecurity GSOC project, if you're looking to contribute reachout to Manikandan Chandran, me@manikandanc.com
+
+
+#### Skills Required
+- HTML/CSS/React-Typescript
+- Java 
+- SpringAI
+- Springboot
+- JWT/OAUTH2
+- MySQL
+
+##### Mentors
+- [Manikandan Chandran](mailto:me@manikandanc.com)
