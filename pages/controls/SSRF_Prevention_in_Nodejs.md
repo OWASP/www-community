@@ -14,7 +14,6 @@ Node.js applications are especially exposed because many libraries accept user-p
 
 This page provides practical guidance for preventing SSRF in Node.js applications using safe-by-construction techniques aligned with OWASP recommendations.
 
-
 ## Why SSRF Is Hard to Prevent in Node.js
 
 Many SSRF defenses fail because they rely on **blacklists**, **regex checks**, or **string matching**. These approaches are ineffective against:
