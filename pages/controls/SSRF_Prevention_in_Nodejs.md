@@ -29,8 +29,6 @@ Many SSRF defenses fail because they rely on **blacklists**, **regex checks**, o
 
 Node’s built-in `URL` parser and many third-party libraries do not automatically protect against these issues.
 
-
-
 ## Common Pitfalls
 
 ### 1. Using regex to validate URLs
