@@ -2,7 +2,7 @@
 title: SSRF Prevention in Node.js
 layout: col-sidebar
 tags: SSRF, Node.js, URL validation, DNS, redirects, security
-author: RelunSec
+author: "RelunSec"
 ---
 
 {% include writers.html %}
