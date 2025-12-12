@@ -64,7 +64,6 @@ Attackers can use:
 
 to bypass naive filters.
 
-
 ## Recommended Defense Strategy
 
 A robust SSRF defense in Node.js should include **all** of the following steps:
