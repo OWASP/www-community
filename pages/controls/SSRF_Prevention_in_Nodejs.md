@@ -31,10 +31,10 @@ Node’s built-in `URL` parser and many third-party libraries do not automatical
 
 ## Common Pitfalls
 
-### 1. **Using regex to validate URLs**
+### 1. Using regex to validate URLs
 Regex cannot safely parse URLs and fails against encoded payloads, nested schemes, and normalization tricks.
 
-### 2. **Checking only the hostname string**
+### 2. Checking only the hostname string
 Attackers can bypass hostname checks using:
 - DNS rebinding  
 - Redirects  
@@ -42,17 +42,17 @@ Attackers can bypass hostname checks using:
 - IPv6-mapped IPv4  
 - Octal/hexadecimal IPs  
 
-### 3. **Trusting the initial DNS resolution**
+### 3. Trusting the initial DNS resolution
 A hostname may resolve to a safe IP or domain at first, then later resolve to an internal IP as known DNS rebinding attack.
 
-### 4. **Ignoring redirects**
+### 4. Ignoring redirects
 A safe-looking URL may redirect to:
 - `127.0.0.1`
 - `::1`
 - cloud metadata endpoints
 - internal services
 
-### 5. **Not normalizing URLs**
+### 5. Not normalizing URLs
 Attackers can use:
 - backslashes  
 - mixed slashes  
@@ -67,14 +67,14 @@ to bypass naive filters.
 
 A robust SSRF defense in Node.js should include **all** of the following steps:
 
-### 1. **Normalize the URL**
+### 1. Normalize the URL
 - Convert Unicode to canonical form  
 - Replace backslashes with forward slashes  
 - Remove embedded credentials (`user@host`)  
 - Normalize repeated slashes  
 - Validate the scheme before parsing  
 
-### 2. **Restrict allowed protocols**
+### 2. Restrict allowed protocols
 Allow only:
 - `http`
 - `https`
@@ -90,14 +90,14 @@ Block:
 - `smb`
 - and all non-HTTP schemes
 
-### 3. **Parse using the WHATWG URL API**
+### 3. Parse using the WHATWG URL API
 This ensures consistent handling of:
 - IPv6 literals  
 - ports  
 - credentials  
 - normalization  
 
-### 4. **Resolve the hostname**
+### 4. Resolve the hostname
 Perform DNS resolution and classify the resulting IPs.
 
 Block:
@@ -108,7 +108,7 @@ Block:
 - cloud metadata IPs  
 - multicast/broadcast ranges  
 
-### 5. **Validate redirect chains**
+### 5. Validate redirect chains
 For each redirect:
 - normalize the URL  
 - validate the scheme  
@@ -117,7 +117,7 @@ For each redirect:
 
 Reject the entire request if any redirect leads to an internal or unsafe IP.
 
-### 6. **Enforce timeouts and safe HTTP clients**
+### 6. Enforce timeouts and safe HTTP clients
 Use:
 - short timeouts  
 - no automatic redirects  
