@@ -1,9 +1,7 @@
----
 title: SSRF Prevention in Node.js
 layout: col-sidebar
 tags: SSRF, Node.js, URL validation, DNS, redirects, security
 author: "RelunSec"
----
 
 {% include writers.html %}
 
@@ -14,7 +12,6 @@ Node.js applications are especially exposed because many libraries accept user-p
 
 This page provides practical guidance for preventing SSRF in Node.js applications using safe-by-construction techniques aligned with OWASP recommendations.
 
----
 
 ## Why SSRF Is Hard to Prevent in Node.js
 
@@ -30,7 +27,7 @@ Many SSRF defenses fail because they rely on **blacklists**, **regex checks**, o
 
 Node’s built-in `URL` parser and many third-party libraries do not automatically protect against these issues.
 
----
+
 
 ## Common Pitfalls
 
@@ -65,7 +62,6 @@ Attackers can use:
 
 to bypass naive filters.
 
----
 
 ## Recommended Defense Strategy
 
