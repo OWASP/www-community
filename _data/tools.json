@@ -2176,7 +2176,7 @@
       "license": "Free",
       "platforms": "NodeJS",
       "note": "dssrf Defend Against SSRF attacks by providing huge of utils for validation, you integrate it with your web client before making request you validate the url for eliminating SSRF attacks.",
-      "type": "DAST"
+      "type": "SCA"
    },
    {
      "title": "OWASP Noir",
