@@ -117,6 +117,7 @@ Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
 - [Aryan Prasad](mailto:aryan.prasad@owasp.org)
+- [Vegard Bakke](mailto:vegard.bakke@owasp.org)
 
 ### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
 
