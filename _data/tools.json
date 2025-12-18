@@ -18,6 +18,15 @@
       "type": "SAST"
        },
        {
+      "title": "Almanax",
+      "url": "https://www.almanax.ai/",
+      "owner": "Almanax",
+      "license": "Commercial",
+      "platforms": "SaaS, CLI, On-Premises, MCP",
+      "note": "Almanax is an AI-powered SAST scanner that empowers developers to detect, investigate, and patch insecure source code. It can find business logic, broken auth, API and smart contract security issues, and more with a fraction of the false positives.",
+      "type": "SAST"
+       },
+       {
        "title": "CVE Scanner",
        "url": "https://www.cvescanner.co.uk",
        "owner": "CVE Scanner",
