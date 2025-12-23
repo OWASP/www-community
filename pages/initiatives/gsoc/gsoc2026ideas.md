@@ -156,33 +156,35 @@ Repositories:
 
 ### [OWASP Nest](https://nest.owasp.org)
 
-OWASP Nest is a comprehensive platform designed to enhance collaboration and contribution within the OWASP community. The application serves as a central hub for exploring OWASP projects and ways to contribute to them, empowering contributors to find opportunities that align with their interests and expertise. Our mission is to drive real-world collaboration and elevate the OWASP organization by addressing key challenges and streamlining processes.
+OWASP Nest is a comprehensive platform built to enhance collaboration and streamline contributions across the OWASP community. Acting as a central hub, it helps users discover chapters and projects, find contribution opportunities, and connect with like-minded individuals based on their interests and expertise.
 
-#### Repository
+#### Repositories
 
-- [backend](https://github.com/OWASP/Nest/tree/main/backend)
-- [frontend](https://github.com/OWASP/Nest/tree/main/frontend)
-- [schema](https://github.com/OWASP/Nest/tree/main/schema)
+- [OWASP Nest Backend](https://github.com/OWASP/Nest/tree/main/backend)
+- [OWASP Nest Frontend](https://github.com/OWASP/Nest/tree/main/frontend)
+- [OWASP Nest Schema](https://github.com/OWASP/nest-schema/)
+- [API SDK Go](https://github.com/OWASP/nest-sdk)
+- [API SDK Python](https://github.com/OWASP/nest-sdk-python)
+- [API SDK TypeScript](https://github.com/OWASP/nest-sdk-typescript)
 
 #### Technical Stack
 
-- Python, Django, Pytest
-- TypeScript, React, Jest
-- Chakra UI, Tailwind CSS
-- PostgreSQL, Algolia
-- Docker, k8s, AWS
+- Python, Django, Pytest, Strawberry, Ninja
+- TypeScript, React, Apollo, Next.js. Jest, PlayWright
+- Hero UI, Tailwind CSS
+- PostgreSQL, Algolia, Redis
+- Docker, Ansible, Terraform, AWS
 
 #### Projects / Ideas
 
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
-- [OWASP Contribution Hub](https://github.com/OWASP/Nest/issues/710): Aiming to streamline the onboarding process and connect contributors with mentors and impactful projects. This milestone focuses on improving collaboration within the OWASP community.
-- [OWASP Nest API](https://github.com/OWASP/Nest/issues/707): The development of REST and GraphQL API endpoints for OWASP Projects, Chapters, Events, and Committees. This milestone will standardize data access across OWASP’s resources.
-- [OWASP Nest Kubernetes Adoption](https://github.com/OWASP/Nest/issues/706): This milestone focuses on migrating the OWASP Nest application to Kubernetes, ensuring scalability, reliability, and ease of deployment.
-- [OWASP NestBot AI agent/assistant](https://github.com/OWASP/Nest/issues/908): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries.
-- [OWASP Project Health Dashboard](https://github.com/OWASP/Nest/issues/711): A dashboard for monitoring the health of OWASP projects. This includes tracking vital metrics such as release frequency, issue resolution, and contributor growth.
-- [OWASP Schema](https://github.com/OWASP/Nest/issues/709): Developing and extending a standardized schema for OWASP Projects and Chapters. This milestone aims to ensure consistency and ease of integration across OWASP resources.
-- [OWASP Snapshots](https://github.com/OWASP/Nest/issues/708): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments.
+- [OWASP Board Activity Standardization and Data Programmatic Access](https://github.com/OWASP/Nest/milestone/20): This milestone focuses on standardizing how OWASP Board activities are recorded, structured, and published.
+- [OWASP Board Candidate Information Transparency and Fact-Checking](https://github.com/OWASP/Nest/milestone/19): This milestone focuses on improving the transparency, accuracy, and trustworthiness of information related to OWASP board candidates.
+- [OWASP Chapter/Project Health Dashboard](https://github.com/OWASP/Nest/milestone/17): A dashboard for monitoring the health of OWASP chapters and projects. This includes tracking vital metrics such as meeting/release frequency, issue resolution, and contributor/member growth.
+- [OWASP Community Snapshots](https://github.com/OWASP/Nest/milestone/16): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments.
+- [OWASP Nest Monitoring and Observability](https://github.com/OWASP/Nest/milestone/21): Implement modern monitoring and observability practices across OWASP Nest infrastructure on AWS to ensure reliability, performance visibility, and proactive issue detection.
+- [OWASP NestBot AI Assistant](https://github.com/OWASP/Nest/milestone/8): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries.
 
 Please visit our planned [milestones page](https://github.com/OWASP/Nest/milestones) or `gsoc2026` labeled [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3Agsoc2026).
 
@@ -203,15 +205,17 @@ We'd love to hear it, please reach out in Slack to ensure that the idea fits OWA
 #### Getting Started
 
 - Check out our [contributing guidelines](https://github.com/OWASP/Nest/blob/main/CONTRIBUTING.md)
-- Join OWASP Nest channel [#project-nest](https://owasp.slack.com/archives/C07JLLG2GFQ)
-- Consider `good first issue` (if there are any) from OWASP Nest [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
+- Join OWASP Nest channel [#project-nest](https://owasp.slack.com/archives/project-nest)
+- Consider `good first issue` from OWASP Nest [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
 
 #### Mentors
 
-- [Arkadii Yakovets](https://github.com/arkid15r/) ([arkid15r](https://owasp.slack.com/team/U060W3NKLTF) on Slack)
+- [Arkadii Yakovets](https://github.com/arkid15r/) ([Arkadii Yakovets](https://owasp.slack.com/team/U060W3NKLTF) on Slack)
 - [Kateryna Golovanova](https://github.com/kasya/) ([Kate](https://owasp.slack.com/team/U07PWB1JZ6Z) on Slack)
+- [Noland Crane](https://github.com/noland-crane) ([Noland Crane](https://owasp.slack.com/team/U0A4M7U056U) on Slack)
 - [Tamara Lazerka](https://github.com/aramattamara/) ([Tamara](https://owasp.slack.com/team/U0881RRPBDY) on Slack)
 
+Please contact Arkadii Yakovets or Kate Golovanova if you're interested in participating as a mentor.
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
