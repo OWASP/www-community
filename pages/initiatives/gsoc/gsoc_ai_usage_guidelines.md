@@ -10,7 +10,7 @@ tags: gsoc
 
 ## Purpose
 
-This policy establishes guidelines for the responsible and transparent use of **AI and Large Language Models (LLMs)** (e.g., ChatGPT, Gemini, Claude, Copilot) by **Google Summer of Code (GSoC)** contributors working on open-source projects.
+This document establishes guidelines for the responsible and transparent use of **AI and Large Language  Models (LLMs)** (e.g., ChatGPT, Gemini, Claude, Copilot, etc) by **Google Summer of Code (GSoC)** contributors working on OWASP projects.
 
 The intent of this guideline is to support learning and productivity while preserving originality, accountability, and open-source integrity.
 
