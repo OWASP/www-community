@@ -6,7 +6,7 @@ permalink: /initiatives/gsoc/gsoc_ai_usage_guidelines
 tags: gsoc
 ---
 
-# LLM Usage Policy
+# LLM Usage
 
 ## Purpose
 
