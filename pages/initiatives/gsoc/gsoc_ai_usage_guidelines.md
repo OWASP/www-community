@@ -23,7 +23,7 @@ Contributors **may use LLMs** for supportive tasks, including:
 
 LLMs **must not** be used to automatically generate substantial portions of code, documentation, designs, or research outputs **without full review and acknowledgment** by the contributor.
 
-All final submissions must reflect the contributor’s own understanding, decision-making, and work.
+All final submissions must reflect the contributor's own understanding, decision-making, and work.
 
 ---
 
