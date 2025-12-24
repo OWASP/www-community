@@ -3,7 +3,7 @@ layout: full-width
 title: "AI and LLM Usage Guidelines"
 description: "Guidelines for responsible and transparent use of AI and Large Language Models (LLMs) by Google Summer of Code contributors."
 permalink: /initiatives/gsoc/gsoc_ai_usage_guidelines
-tags: gsoc
+tags: gsoc, llm, ai, guideline
 ---
 
 # LLM Usage
