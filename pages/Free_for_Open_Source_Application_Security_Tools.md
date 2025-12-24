@@ -313,6 +313,7 @@ open source projects also consider using good code quality tools. A few that we 
 
 ### Defense Tools
   - [AWS Firewall Factory](https://github.com/globaldatanet/aws-firewall-factory) - An open source solution that makes it easy to deploy, update, and provision OWASP TOP 10 compliant web application firewalls (WAFs) at scale while centrally managing them with AWS Firewall Manager. This solution streamlines security management by enabling customisation of WAF configurations and adherence to AWS best practices.
+  - [DSSRF](https://github.com/HackingRepo/dssrf-js) - dssrf Defend Against SSRF attacks by providing huge of utils for validation, you integrate it with your web client before making request you validate the url for eliminating SSRF attacks.
 
 ### Security Tools Built into DevOps/CI Environments
   - GitLab - is building security into their platform and it is quickly evolving [as described here](https://about.gitlab.com/direction/secure/#security-paradigm).
