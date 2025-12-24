@@ -86,6 +86,6 @@ Contributors and mentors must use LLMs ethically and responsibly:
 
 Generative-AI technologies evolve rapidly. Contributors and mentors should raise questions about unclear or borderline cases with program administrators or organization leads **before submission**.
 
-This policy may be updated to reflect changes in tooling, expectations, or program requirements.
+The guidelines may be updated to reflect changes in tooling, expectations, or program requirements.
 
 ---
