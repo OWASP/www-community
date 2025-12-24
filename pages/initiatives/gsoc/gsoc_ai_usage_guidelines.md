@@ -40,7 +40,7 @@ This section should:
 
 > LLMs were used for supportive or editorial purposes in this work. All outputs were reviewed and validated by the contributor to ensure accuracy and originality.
 
-Failure to include this disclosure when applicable is considered a policy violation.
+Failure to include this disclosure when applicable is considered a guidelines violation.
 
 ---
 
