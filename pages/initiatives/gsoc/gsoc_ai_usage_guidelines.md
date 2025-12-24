@@ -29,7 +29,7 @@ All final submissions must reflect the contributor's own understanding, decision
 
 ## 2. Disclosure Requirement
 
-If an LLM was used in any part of a proposal, report, or project artifact, contributors **must include** a section titled **“LLM Usage Considerations”**.
+If an LLM was used in any part of a proposal, report, or project artifact, contributors **must include** a section titled **"LLM Usage Considerations"**.
 
 This section should:
 
