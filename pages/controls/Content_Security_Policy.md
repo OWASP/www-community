@@ -286,6 +286,7 @@ It's very useful to include these types of tools into a web application developm
 * [CSP Generator](https://csper.io/generator) for automatically generating policies ([chrome](https://chrome.google.com/webstore/detail/content-security-policy-c/ahlnecfloencbkpfnpljbojmjkfgnmdc)/[firefox](https://addons.mozilla.org/en-US/firefox/addon/csp-generator/) extension).
 * [CSP Evaluator](https://csper.io/evaluator) for evaluating existing content security policies for security misconfigurations.
 * [Csper report collector](https://csper.io/report-uri) for monitoring a content security policy using report-uri.
+* [CSP Validator](https://dipakpanchal05.github.io/cspvalidator-web/)
 
 ## Information Links
 
