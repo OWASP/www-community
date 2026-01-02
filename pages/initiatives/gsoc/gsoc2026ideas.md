@@ -231,36 +231,21 @@ To receive early feedback please:
 - Please pick "juice shop" as Proposal Tag to make them easier to find
   for us. Thank you!
 
+> 🛑 Please be aware that the OWASP Juice Shop project will **not** consider or even review any proposals
+> which fail to include an AI Tool Disclosure statement. We recommend you use the following templated that
+> we derived from the one enforced on Pull Requests to OWASP Juice Shop:
+>
+> ```
+> ### AI Tool Disclosure
+>
+> - [ ] My GSoC proposal does not include any AI-generated content
+> - [ ] My GSoC proposal includes AI-generated content, as disclosed below:
+>   - AI Tools: `[e.g. GitHub CoPilot, ChatGPT, JetBrains Junie etc.]`
+>   - LLMs and versions: `[e.g. GPT-4.1, Claude Haiku 4.5, Gemini 2.5 Pro etc.]`
+>   - Prompts: `[Summarize the key prompts or instructions given to the AI tools]`
+> ```
+
 ##### Explanation of Ideas
-
-###### MultiJuicer as a CTF Platform
-
-![Not recommended for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-not%20recommended-red)
-![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-hard-red)
-
-MultiJuicer saw some enhancements of its Team Score Board last year. It now is not that far away from being a full-fledged CTF platform of its own. This project should focus on the remaining features needed to make MultiJuicer a fully functional CTF platform. This should include making the Team Score Board visually attractive, flavorfully unique and more competition-oriented. The existing Solution Webhook integration already marks solved challenges automatically, but other information like team cheat score, progress over time etc. are not tracked or displayed today. The MultiJuicer CTF should offer the same features as the Juice Shop CTF tool in order to configure the availability of hints. This should include a way to allow teams to pay for hints with some of their collected points. To avoid issues with bigger teams hacking on the same instance of Juice Shop, a team grouping mechanism could be considered as well. The progress on the CTF Score Board could then be aggregated on group level for different teams/instances.
-
-###### Test suite harmonization
-
-![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Not recommended for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-
-Juice Shop had a full replacement of its end-to-end test suite - from Protractor to Cypress - in its GSoC 2022 project. Now it is time to take on the remainin test suites, especially the Integration/API tests currently running on Frisby.js. That library as not seen updates in 2+ years and it became more and more flaky over the years, causing occasional CI/CD failures and time-consuming retry-mechanisms to keep those in check. A new foundation for these tests is needed. In scope is also to look at the frontend and backend unit test suites, and find a way to reduce the number of test frameworks being used in order to achieve higher consistency and less complexity for maintenance of the project. This project should include the test suites in the Juice Shop CTF tool as well. Proposals that also have the augmentation of MultiJuicer with end-to-end tests in scope, are specially welcome.  
-
-###### Juice Shop side-project rennovation
-
-![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Not recommended for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
-
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
-
-The Juice Shop CTF Tool is currently implemented in vanilla JavaScript. It should be migrated to TypeScript for consistency of maintenance with the main project. Furthermore, the code linting should be adapted to the main Juice Shop ESLint standards. Test coverage and relevance should be reviewed and strengthened where necessary.
-
-Similarly, the following other sub-projects should be rennovated and brought onto an identical tech stack: Juicy Statistics, Juicy Coupon Bot, Juicy Chat Bot, and Juicy Coupon Lambda.  
 
 ###### Your own idea
 
