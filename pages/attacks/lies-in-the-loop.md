@@ -60,7 +60,7 @@ During [research conducted by Checkmarx Zero](https://checkmarx.com/zero-post/by
 ## Testing for LITL
 
 * Identify if and when the agent uses HITL dialogs.  
-* Assess the sensitivity of the operations that trigger the dialog  
+* Assess the sensitivity of the operations that trigger the dialog.
 * Use prompt injections similar to the following example.  
   * Start by trying to manipulate the operation itself.  
   * Prepend/append comments to the operation, carefully check how they are reflected in the dialog.  
