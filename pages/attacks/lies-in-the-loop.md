@@ -51,7 +51,7 @@ During [research conducted by Checkmarx Zero](https://checkmarx.com/zero-post/by
   * Pay attention to details - The structure of the HITL dialog matters; sometimes, subtle defects in the dialog or the chat structure imply something is wrong.  
 * Agentic AI Developers:  
   * HITL dialog clarity - the clearer the dialog is, the easier it is for the user to notice suspicious behavior.  
-  * Input validation - especially from remote resources  
+  * Input validation - especially from remote resources.
   * When dealing with operations like OS command execution, using a safe API that properly separates arguments and commands is crucial.  
   * Markdown/HTML sanitization in the LLM output -  The HITL dialogs should be constructed and rendered by a dedicated function or tool that only processes the formatting provided by the agent’s developers. Any markdown provided by the LLM in the context of the HITL dialog (whether via prompt injections or “intentionally” by the agent) should not be rendered.  
   * Using guardrails that inspect the HITL dialog for malicious activity. Note that this mitigation should not be relied on alone, as it’s subject to FPs or prompt injections (in case the guardrail is LLM-based).  
