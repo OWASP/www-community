@@ -8,6 +8,10 @@ tags: gsoc, llm, ai, guideline
 
 # LLM Usage
 
+## NOTE
+
+⚠️  Failure to disclose LLM usage or submission of unreviewed AI-generated content **may result in proposal dismissal** from GSoC without further review ⚠️ 
+
 ## Purpose
 
 This document establishes guidelines for the responsible and transparent use of **AI and Large Language  Models (LLMs)** (e.g., ChatGPT, Gemini, Claude, Copilot, etc) by **Google Summer of Code (GSoC)** contributors working on OWASP projects.
