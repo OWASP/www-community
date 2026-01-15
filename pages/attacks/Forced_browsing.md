@@ -20,7 +20,7 @@ accessible.
 
 An attacker can use [Brute Force](Brute_force_attack "wikilink")
 techniques to search for unlinked contents in the domain directory, such
-as temporary directories and files, and old backup and configuration
+as temporary directories, files, old backups or configuration
 files. These resources may store sensitive information about web
 applications and operational systems, such as source code, credentials,
 internal network addressing, and so on, thus being considered a valuable
@@ -45,9 +45,9 @@ on-line agenda through the following URL:
 `www.site-example.com/users/calendar.php/user1/20070715`
 
 In the URL, it is possible to identify the username (`user1`) and
-the date (mm/dd/yyyy). If the user attempts to make a forced browsing
-attack, they could guess another user's agenda by predicting user
-identification and date, as follow:
+the date (`yyyymmdd`). If the user attempts to make a forced browsing
+attack, they could access another user's agenda by predicting user
+identification and date, as follows:
 
 `www.site-example.com/users/calendar.php/user6/20070716`
 
