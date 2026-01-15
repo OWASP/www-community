@@ -46,8 +46,8 @@ on-line agenda through the following URL:
 
 In the URL, it is possible to identify the username (`user1`) and
 the date (`yyyy/mm/dd`). If the user attempts to make a forced browsing
-attack, they could guess another user's agenda by predicting user
-identification and date, as follow:
+attack, they could access another user's agenda by predicting user
+identification and date, as follows:
 
 `www.site-example.com/users/calendar.php/user6/20070716`
 
