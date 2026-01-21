@@ -228,7 +228,7 @@ We'd love to hear it, please reach out in Slack to ensure that the idea fits OWA
 - **Raja Nagori** - Product Security Engineer at Splunk
   <i class="fab fa-github"></i> [GitHub](https://github.com/RAJANAGORI) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/raja-nagori/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U03HUR536TG)
 
-- **Tamara Lazerka** - QA Analyst at Cart\.com | OWASP Nest GSoC 2025 mentor
+- **Tamara Lazerka** - QA Analyst at Cart\.com | GSoC'25 mentor at OWASP
   <i class="fab fa-github"></i> [GitHub](https://github.com/aramattamara/) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/aramattamara/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U0881RRPBDY)
 
 Please contact Arkadii Yakovets or Kate Golovanova if you're interested in participating as a mentor.
