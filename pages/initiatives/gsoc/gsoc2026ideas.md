@@ -210,10 +210,26 @@ We'd love to hear it, please reach out in Slack to ensure that the idea fits OWA
 
 #### Mentors
 
-- [Arkadii Yakovets](https://github.com/arkid15r/) ([Arkadii Yakovets](https://owasp.slack.com/team/U060W3NKLTF) on Slack)
-- [Kateryna Golovanova](https://github.com/kasya/) ([Kate](https://owasp.slack.com/team/U07PWB1JZ6Z) on Slack)
-- [Noland Crane](https://github.com/noland-crane) ([Noland Crane](https://owasp.slack.com/team/U0A4M7U056U) on Slack)
-- [Tamara Lazerka](https://github.com/aramattamara/) ([Tamara](https://owasp.slack.com/team/U0881RRPBDY) on Slack)
+- **Arkadii Yakovets** - Cybersecurity Lead, CCSP, CISSP, CSSLP | OWASP Nest project leader
+  <i class="fab fa-github"></i> [GitHub](https://github.com/arkid15r/) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/arkid15r/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U060W3NKLTF)
+
+- **Kateryna Golovanova** - Senior Software Engineer at Skill Struck, CC | OWASP Nest project leader
+  <i class="fab fa-github"></i> [GitHub](https://github.com/kasya/) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/kate-golovanova/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U07PWB1JZ6Z)
+
+- **Kriti Birda** - AI/ML enthusiast | GSoC'25 contributor at Python Software Foundation
+  <i class="fab fa-github"></i> [GitHub](https://github.com/kritibirda) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/kritibirda/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U08KZ9Z7MFX)
+
+- **Muhammad Salman** - Software Developer | GSoC'25 contributor at FOSSology  
+  <i class="fab fa-github"></i> [GitHub](https://github.com/SalmanDeveloperz/) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/msalman199/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U0A7YV0SPNE)
+
+- **Noland Crane** - Application Security Analyst at Bloomreach, CISSP
+  <i class="fab fa-github"></i> [GitHub](https://github.com/noland-crane) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/nolandcrane/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U0A4M7U056U)
+
+- **Raja Nagori** - Product Security Engineer at Splunk
+  <i class="fab fa-github"></i> [GitHub](https://github.com/RAJANAGORI) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/raja-nagori/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U03HUR536TG)
+
+- **Tamara Lazerka** - QA Analyst at Cart\.com | OWASP Nest GSoC 2025 mentor
+  <i class="fab fa-github"></i> [GitHub](https://github.com/aramattamara/) &bull; <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/aramattamara/) &bull; <i class="fab fa-slack"></i> [Slack](https://owasp.slack.com/team/U0881RRPBDY)
 
 Please contact Arkadii Yakovets or Kate Golovanova if you're interested in participating as a mentor.
 
