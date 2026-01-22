@@ -423,7 +423,7 @@ OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework.
 - [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
 - [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
 
-### [OWASP Cornucopia](https://github.com/owasp/cornucopia)
+### [OWASP Cornucopia](https://cornucopia.owasp.org/)
 
 #### Repository
 - [OWASP Cornucopia]([https://github.com/adeyosemanputra/pygoat](https://github.com/owasp/cornucopia))
@@ -431,7 +431,6 @@ OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework.
 #### Skills Required
 - HTML/CSS/JavaScript
 - Python
-- Elixir
 - Docker
 - No security knowledge required
 
