@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2026ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre) &bull; [OWASP OWTF](#owtf)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre) &bull; [OWASP OWTF](#owtf) &bull; [OWASP Cornucopia](#owasp-cornucopia)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -422,3 +422,29 @@ OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework.
 ##### Mentors
 - [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
 - [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
+
+### [OWASP Cornucopia](https://cornucopia.owasp.org/)
+
+#### Repository
+- [OWASP Cornucopia]([https://github.com/adeyosemanputra/pygoat](https://github.com/owasp/cornucopia))
+
+#### Skills Required
+- HTML/CSS/JavaScript
+- Python
+- Docker
+- No security knowledge required
+
+##### Getting started
+- Check[GitHub project]([https://github.com/adeyosemanputra/pygoat](https://github.com/owasp/cornucopia?tab=readme-ov-file#building-and-deploying-the-cornucopia-website))
+- Get in touch with one of the project leaders [Sydseter](https://www.linkedin.com/in/sydseter/)
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #cornucopia-project
+
+#### Projects / Ideas
+![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Ensure the OWASP Cornucopia converter can create print-ready proofs for print-on-demand jobs. See: [Description](https://github.com/OWASP/cornucopia/issues/583).
+- Add the EoP Game to the card browser. See: [Description](https://github.com/OWASP/cornucopia/issues/1322)
+
+#### Mentors
+- [Johan Sydseter](mailto:johan.sydseter@owasp.com)
+- [Colin Watson](colin.watson@owasp.org)
