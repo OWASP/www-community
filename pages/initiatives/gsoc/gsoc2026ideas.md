@@ -156,7 +156,7 @@ Repositories:
 
 ### [OWASP Nest](https://nest.owasp.org)
 
-OWASP Nest is a comprehensive platform built to enhance collaboration and streamline contributions across the OWASP community. Acting as a central hub, it helps users discover chapters and projects, find contribution opportunities, and connect with like-minded individuals based on their interests and expertise.
+OWASP Nest is a comprehensive, community-first platform built to enhance collaboration and contribution across the OWASP community. Acting as a central hub, it helps users discover chapters and projects, find contribution opportunities, and connect with like-minded individuals based on their interests and expertise.
 
 #### Repositories
 
@@ -210,10 +210,77 @@ We'd love to hear it, please reach out in Slack to ensure that the idea fits OWA
 
 #### Mentors
 
-- [Arkadii Yakovets](https://github.com/arkid15r/) ([Arkadii Yakovets](https://owasp.slack.com/team/U060W3NKLTF) on Slack)
-- [Kateryna Golovanova](https://github.com/kasya/) ([Kate](https://owasp.slack.com/team/U07PWB1JZ6Z) on Slack)
-- [Noland Crane](https://github.com/noland-crane) ([Noland Crane](https://owasp.slack.com/team/U0A4M7U056U) on Slack)
-- [Tamara Lazerka](https://github.com/aramattamara/) ([Tamara](https://owasp.slack.com/team/U0881RRPBDY) on Slack)
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/arkid15r.png" alt="Arkadii Yakovets" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Arkadii Yakovets</strong><br>
+Cybersecurity Lead, CCSP, CISSP, CSSLP | OWASP Nest project leader<br>
+<i class="fab fa-github"></i> <a href="https://github.com/arkid15r/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/arkid15r/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U060W3NKLTF">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/kasya.png" alt="Kateryna Golovanova" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Kateryna Golovanova</strong><br>
+Senior Software Engineer at Skill Struck, CC | OWASP Nest project leader<br>
+<i class="fab fa-github"></i> <a href="https://github.com/kasya/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kate-golovanova/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U07PWB1JZ6Z">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/kerlynNkep.png" alt="Kerlyn Manyi" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Kerlyn Manyi</strong><br>
+Cybersecurity Engineer | GSoC'23 contributor at Mifos Initiative<br>
+<i class="fab fa-github"></i> <a href="https://github.com/kerlynNkep">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kerlyn-manyi-a80201123/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U06M01ARG3V">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/kritibirda.png" alt="Kriti Birda" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Kriti Birda</strong><br>
+AI/ML enthusiast | GSoC'25 contributor at Python Software Foundation<br>
+<i class="fab fa-github"></i> <a href="https://github.com/kritibirda">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kritibirda/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U08KZ9Z7MFX">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/SalmanDeveloperz.png" alt="Muhammad Salman" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Muhammad Salman</strong><br>
+Software Developer | GSoC'25 contributor at FOSSology<br>
+<i class="fab fa-github"></i> <a href="https://github.com/SalmanDeveloperz/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/msalman199/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0A7YV0SPNE">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/noland-crane.png" alt="Noland Crane" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Noland Crane</strong><br>
+Application Security Analyst at Bloomreach, CISSP<br>
+<i class="fab fa-github"></i> <a href="https://github.com/noland-crane">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/nolandcrane/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0A4M7U056U">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/RAJANAGORI.png" alt="Raja Nagori" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Raja Nagori</strong><br>
+Product Security Engineer at Splunk<br>
+<i class="fab fa-github"></i> <a href="https://github.com/RAJANAGORI">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/raja-nagori/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U03HUR536TG">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/aramattamara.png" alt="Tamara Lazerka" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Tamara Lazerka</strong><br>
+QA Analyst at Cart.com | GSoC'25 mentor at OWASP<br>
+<i class="fab fa-github"></i> <a href="https://github.com/aramattamara/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aramattamara/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0881RRPBDY">Slack</a>
+</div>
+</div>
 
 Please contact Arkadii Yakovets or Kate Golovanova if you're interested in participating as a mentor.
 
