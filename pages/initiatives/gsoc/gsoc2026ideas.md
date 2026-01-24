@@ -247,6 +247,15 @@ AI/ML enthusiast | GSoC'25 contributor at Python Software Foundation<br>
 </div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/TheCyberLeader.png" alt="Marie Wang" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Marie Wang</strong><br>
+Senior GRC & Technology Risk Leader, CISSP<br>
+<i class="fab fa-github"></i> <a href="https://github.com/TheCyberLeader">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mariezw/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0A23223B8B">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
 <img src="https://github.com/SalmanDeveloperz.png" alt="Muhammad Salman" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Muhammad Salman</strong><br>
