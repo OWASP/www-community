@@ -55,7 +55,7 @@ Matt Sullivan published [an interesting article](https://www.mattslifebytes.com/
 
 This serious flaw (CVE-2014-0160) is a missing bounds check before a `memcpy()` call that uses non-sanitized user input as the length parameter. An attacker can trick OpenSSL into allocating a 64KB buffer, copy more bytes than is necessary into the buffer, send that buffer back, and thus leak the contents of the victim's memory, 64KB at a time.
 
-TheRegister's [explanation](http://www.theregister.co.uk/2014/04/09/heartbleed_explained/) and [OpenSSL Github Fix](http://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=96db902)
+TheRegister's [explanation](http://www.theregister.co.uk/2014/04/09/heartbleed_explained/) and [OpenSSL Github Fix](http://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=96db9023)
 
 # The Fix
 
