@@ -15,22 +15,12 @@ The goal of this section is to introduce, discuss, and provide language specific
 
 ### Who developed HttpOnly? When?
 
-According to a daily blog article by [Jordan Wiens, “No cookie for
-you!”](https://www.networkcomputing.com/cybersecurity/no-cookie-for-you-),
-HttpOnly cookies were first implemented in 2002 by Microsoft Internet
-Explorer developers for Internet Explorer 6 SP1.
+HttpOnly support was first added by Microsoft in Internet Explorer 6 SP1 around 2002. Over time the feature became part of all major browsers and is now treated as a standard cookie attribute.
 
 ### What is HttpOnly?
+HttpOnly is an extra attribute that can be added to the `Set-Cookie` HTTP response header. When this flag is present, browsers that support it keep the cookie out of JavaScript APIs such as `document.cookie`.
 
-According to the [Microsoft Developer
-Network](http://msdn2.microsoft.com/en-us/library/ms533046.aspx),
-HttpOnly is an *additional flag* included in a Set-Cookie HTTP response
-header. Using the HttpOnly flag when generating a cookie helps mitigate
-the risk of client side script accessing the protected cookie (if the
-browser supports it).
-
-- The example below shows the syntax used within the **HTTP response
-header**:
+The example below shows the syntax used within the HTTP response header:
 
 ```
 Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
@@ -38,19 +28,10 @@ Set-Cookie: <name>=<value>[; <Max-Age>=<age>]
 [; path=<some_path>][; secure][; HttpOnly]
 ```
 
-If the HttpOnly flag (optional) is included in the HTTP response header,
-the cookie cannot be accessed through client side script (again if the
-browser supports this flag). As a result, even if a cross-site scripting
-**(XSS)** flaw exists, and a user accidentally accesses a link that
-exploits this flaw, the browser (primarily Internet Explorer) will not
-reveal the cookie to a third party.
+When a cookie is marked as HttpOnly, scripts running in the browser are not able to read its value. This makes it harder for many XSS attacks to steal session cookies or other sensitive data stored in cookies.
 
-If a browser does not support HttpOnly and a website attempts to set an
-HttpOnly cookie, the HttpOnly flag will be ignored by the browser, thus
-creating a traditional, script accessible cookie. As a result, the
-cookie (typically your session cookie) becomes vulnerable to theft or
-modification by malicious script.
-[Mitigating](http://msdn2.microsoft.com/en-us/library/ms533046.aspx).
+It is important to remember that HttpOnly does not block XSS or stop script execution. It only affects access to cookies, so other XSS impacts such as page defacement or CSRF token theft may still be possible.
+
 
 ### Mitigating the Most Common XSS attack using HttpOnly
 
@@ -234,16 +215,16 @@ bool setcookie  ( string $name  [, string $value  [, int $expire= 0  [, string $
 ```
 
 
-## Modern Browser Support
+## Modern browser support
 
-HttpOnly is supported by all modern browsers, including:
+HttpOnly is available in all current mainstream browsers, including:
 
-- Google Chrome (and Chromium-based Edge)
+- Google Chrome and Microsoft Edge (Chromium-based)
 - Mozilla Firefox
 - Apple Safari
 
-All actively maintained browsers correctly prevent client-side JavaScript
-from accessing cookies marked with the HttpOnly attribute.
+These browsers prevent client-side JavaScript from reading cookies that are marked with the HttpOnly attribute. Older products such as legacy Internet Explorer and Opera are no longer widely used and generally do not need to be considered when planning HttpOnly deployment.
+
 
 ### Web Application Firewalls
 
