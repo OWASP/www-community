@@ -215,7 +215,7 @@ bool setcookie  ( string $name  [, string $value  [, int $expire= 0  [, string $
 ```
 
 
-## Modern browser support
+## Modern Browser Support
 
 HttpOnly is available in all current mainstream browsers, including:
 
