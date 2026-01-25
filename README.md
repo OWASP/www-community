@@ -9,7 +9,7 @@ OWASP Community Pages is a repository for community contributions for security-r
 We welcome contributions for new content and updates to current pages. This repository uses a [fork and pull model](https://docs.github.com/en/github/collaborating-with-pull-requests/getting-started/about-collaborative-development-models#fork-and-pull-model). Here are the steps for becoming a contributor:
 
 1. [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) this repository and [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) your fork.
-2. In the `pages/` directory, make your changes or additions. For creating new content, please see below.
+2. In the `pages/` directory, make your changes or additions. For creating new content, please see the "Creating New Content" section below.
 3. Push your changes to your fork, then open a pull request against this repository.
 
 If you are making changes that address an [existing issue](https://github.com/OWASP/www-community/issues), please make a comment in the issue so we can assign it to you. This helps to prevent accidentally doubling up on work.
