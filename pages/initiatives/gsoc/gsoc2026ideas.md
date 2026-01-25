@@ -238,11 +238,29 @@ Cybersecurity Engineer | GSoC'23 contributor at Mifos Initiative<br>
 </div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/theinfosecguy.png" alt="Keshav Malik" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Keshav Malik</strong><br>
+Senior Security Engineer at LinkedIn<br>
+<i class="fab fa-github"></i> <a href="https://github.com/theinfosecguy">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/keshav-malik/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0AB7UGB1NV">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
 <img src="https://github.com/kritibirda.png" alt="Kriti Birda" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Kriti Birda</strong><br>
-AI/ML enthusiast | GSoC'25 contributor at Python Software Foundation<br>
+AI/ML enthusiast | GSoC'25 contributor at PSF<br>
 <i class="fab fa-github"></i> <a href="https://github.com/kritibirda">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kritibirda/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U08KZ9Z7MFX">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/TheCyberLeader.png" alt="Marie Wang" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Marie Wang</strong><br>
+Senior GRC & Technology Risk Leader, CISSP<br>
+<i class="fab fa-github"></i> <a href="https://github.com/TheCyberLeader">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mariezw/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0A23223B8B">Slack</a>
 </div>
 </div>
 
