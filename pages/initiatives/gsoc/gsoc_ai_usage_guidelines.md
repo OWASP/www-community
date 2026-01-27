@@ -3,14 +3,14 @@ layout: full-width
 title: "AI and LLM Usage Guidelines"
 description: "Guidelines for responsible and transparent use of AI and Large Language Models (LLMs) by Google Summer of Code contributors."
 permalink: /initiatives/gsoc/gsoc_ai_usage_guidelines
-tags: gsoc, llm, ai, guideline
+tags: gsoc
 ---
 
 # LLM Usage
 
 ## NOTE
 
-⚠️  Failure to disclose LLM usage or submission of unreviewed AI-generated content **may result in proposal dismissal** from GSoC without further review ⚠️ 
+⚠️  Failure to disclose LLM usage or submission of unreviewed AI-generated content **may result in proposal dismissal** from GSoC without further review ⚠️
 
 ## Purpose
 
@@ -67,7 +67,7 @@ If an LLM materially influenced a design decision, code snippet, experiment, or 
 
 - Clearly explain the role of the model
 - Validate the correctness of the output
-- Mark outputs from closed-source or non-reproducible LLMs as **non-reproducible**
+- Mark outputs from closed-source or non-reproducible models as **non-reproducible**, as different model versions, non-public weights, and inference variability mean others cannot guarantee identical results from the same prompt
 
 ---
 
