@@ -67,7 +67,6 @@ If an LLM materially influenced a design decision, code snippet, experiment, or 
 
 - Clearly explain the role of the model
 - Validate the correctness of the output
-- Mark outputs from closed-source or non-reproducible models as **non-reproducible**, as different model versions, non-public weights, and inference variability mean others cannot guarantee identical results from the same prompt
 
 ---
 
