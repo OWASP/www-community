@@ -27,6 +27,13 @@ This attack is difficult to mitigate, and explicitly disallowed from
 quite a few bug bounty programs. To remediate it, ensure that no cells
 begin with any of the following characters:
 
+⚠️ **Important (Microsoft Excel behavior)**
+
+Microsoft Excel may remove quotes or escape characters from CSV cells
+when a file is saved and re-opened. As a result, commonly suggested CSV
+injection mitigations may fail and previously escaped formulas may become
+active again.
+
 - Equals to (`=`)
 - Plus (`+`)
 - Minus (`-`)
@@ -45,12 +52,32 @@ Alternatively, apply the following sanitization to each field of the CSV, so tha
 * Prepend each cell field with a single quote
 * Escape every double quote using an additional double quote
 
+Note: The above techniques are not reliable in Microsoft Excel after
+saving and re-opening the CSV file.
+
  Two examples:
 
 | Input                    | Escaped Output      |
 |--------------------------|---------------------|
 | `=1+2";=1+2`             | `"'=1+2"";=1+2"`   |
 | `=1+2'" ;,=1+2`          | `"'=1+2'"" ;,=1+2"` |
+
+### Excel-resistant mitigation
+
+To reliably prevent formula execution in Microsoft Excel, prefix any cell
+starting with `=`, `+`, `-`, or `@` with a **tab character (`0x09`) inside
+the quoted field**.
+
+| Input  | Escaped Output |
+|--------|---------------|
+| `=1+2` | `"\t=1+2"`    |
+
+⚠️ **Trade-off**
+
+The tab character remains part of the underlying data and may affect
+downstream processing if the CSV is later imported programmatically.
+This mitigation is best suited for CSV files intended for human viewing
+in spreadsheet applications.
 
 For further information, please refer to the following articles:
 
