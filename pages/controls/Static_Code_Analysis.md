@@ -38,8 +38,7 @@ code during code development itself. This immediate feedback is very
 useful as compared to finding vulnerabilities much later in the
 development cycle.
 
-The UK Defense Standard 00-55 requires that Static Code Analysis be used
-on all 'safety related software in defense equipment'.
+The UK Defence Standard 00-55 requires that static code analysis be used on all “safety-related software in defence equipment”.
 
 ## Techniques
 
