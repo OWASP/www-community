@@ -34,6 +34,14 @@ begin with any of the following characters:
 - Tab (`0x09`)
 - Carriage return (`0x0D`)
 - Line feed (`0x0A`)
+- Full-width (double-byte) variants of the above characters (e.g. `＝`, `＋`, `－`, `＠`) which may be interpreted as formulas in some locales (e.g. Japanese environments).
+
+In some non-English locales, spreadsheet applications may interpret full-width
+(double-byte) characters as their ASCII equivalents. As a result, sanitization
+that only checks for ASCII characters may be bypassed.
+
+For example, a value starting with `＝cmd|' /C calc'!A0` may be evaluated as a
+formula when opened in certain locale configurations.
 
 Keep in mind that it is not sufficient to make sure that the untrusted user input does not start with these characters. You also need to take care of the field separator (e.g., '`,`', or '`;`') and quotes (e.g., `'`, or `"`), as attackers could use this to start a new cell and then have the dangerous character in the middle of the user input, but at the beginning of a cell.
 
