@@ -26,7 +26,6 @@ for three key attacks:
 This attack is difficult to mitigate, and explicitly disallowed from
 quite a few bug bounty programs. To remediate it, ensure that no cells
 begin with any of the following characters:
-quite a few bug bounty programs.
 
 ⚠️ **Important (Microsoft Excel behavior)**
 
