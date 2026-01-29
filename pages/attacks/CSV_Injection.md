@@ -38,6 +38,13 @@ active again.
 To remediate it, ensure that no cells
 begin with any of the following characters:
 
+⚠️ **Important (Microsoft Excel behavior)**
+
+Microsoft Excel may remove quotes or escape characters from CSV cells
+when a file is saved and re-opened. As a result, commonly suggested CSV
+injection mitigations may fail and previously escaped formulas may become
+active again.
+
 - Equals to (`=`)
 - Plus (`+`)
 - Minus (`-`)
@@ -71,6 +78,7 @@ saving and re-opening the CSV file.
 To reliably prevent formula execution in Microsoft Excel, prefix any cell
 starting with `=`, `+`, `-`, or `@` with a **tab character (`0x09`) inside
 the quoted field**.
+
 
 This behavior has been observed in Microsoft Excel and may differ in
 other spreadsheet applications.
