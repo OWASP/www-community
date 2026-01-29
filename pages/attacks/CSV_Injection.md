@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: CSV Injection
 author: Timo Goosen, Albinowax
-contributors: kingthorin
+contributors: kingthorin, Prasun Srivastav
 permalink: /attacks/CSV_Injection
 tags: attack, vulnerability, CSV Injection
 
