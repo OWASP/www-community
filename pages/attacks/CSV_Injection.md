@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: CSV Injection
 author: Timo Goosen, Albinowax
-contributors: kingthorin
+contributors: kingthorin, Prasun Srivastav
 permalink: /attacks/CSV_Injection
 tags: attack, vulnerability, CSV Injection
 
@@ -43,9 +43,13 @@ active again.
 - Line feed (`0x0A`)
 - Full-width (double-byte) variants of formula-initiating characters such as
   `＝`, `＋`, `－`, and `＠`, which may be interpreted as formulas in some locales
-  (e.g. Japanese environments).
-  
-Keep in mind that it is not sufficient to make sure that the untrusted user input does not start with these characters. You also need to take care of the field separator (e.g., '`,`', or '`;`') and quotes (e.g., `'`, or `"`), as attackers could use this to start a new cell and then have the dangerous character in the middle of the user input, but at the beginning of a cell.
+(e.g., Japanese environments).
+
+Keep in mind that it is not sufficient to make sure that the untrusted user input
+does not start with these characters. You also need to take care of the field
+separator (e.g., `,`, `;`) and quotes (e.g., `"`, `'`), as attackers could use
+this to start a new cell and then have the dangerous character in the middle of
+the user input, but at the beginning of a cell.
 
 Alternatively, apply the following sanitization to each field of the CSV, so that their content will be read as text by the spreadsheet editor:
 * Wrap each cell field in double quotes
@@ -68,6 +72,9 @@ To reliably prevent formula execution in Microsoft Excel, prefix any cell
 starting with `=`, `+`, `-`, or `@` with a **tab character (`0x09`) inside
 the quoted field**.
 
+This behavior has been observed in Microsoft Excel and may differ in
+other spreadsheet applications.
+
 | Input  | Escaped Output |
 |--------|---------------|
 | `=1+2` | `"\t=1+2"`    |
@@ -78,6 +85,9 @@ The tab character remains part of the underlying data and may affect
 downstream processing if the CSV is later imported programmatically.
 This mitigation is best suited for CSV files intended for human viewing
 in spreadsheet applications.
+
+There is no universal CSV sanitization strategy that is safe for all
+spreadsheet applications and all downstream consumers.
 
 For further information, please refer to the following articles:
 
