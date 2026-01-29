@@ -45,7 +45,7 @@ attacker can render the file unusable by corrupting the format of the
 file or injecting unexpected characters. A more subtle attack might
 involve skewing the log file statistics. Forged or otherwise, corrupted
 log files can be used to cover an attacker's tracks or even to implicate
-another party in the commission of a [malicious act](http://doc.novsu.ac.ru/oreilly/tcpip/puis/ch10_05.htm).
+another party in the commission of a [malicious act](https://web.archive.org/web/20160305000000/http://doc.novsu.ac.ru/oreilly/tcpip/puis/ch10_05.htm)
 
 ### Log Forging Example
 
