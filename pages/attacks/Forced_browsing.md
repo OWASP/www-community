@@ -62,7 +62,7 @@ using an automated tool.
 
 A scanning tool, like [Nikto](https://cirt.net/Nikto2), has
 the ability to search for existing files and directories based on a
-database of well-know resources, such as:
+database of well-known resources, such as:
 
 * `/system/`
 * `/password/`
