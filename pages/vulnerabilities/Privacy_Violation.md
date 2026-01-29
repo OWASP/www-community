@@ -102,7 +102,8 @@ particularly when privacy is a concern.
     2002.
     <http://info.sen.ca.gov/pub/01-02/bill/sen/sb_1351-1400/sb_1386_bill_20020926_chaptered.html>.
 
-\[\[Category:FIXME|add links
+- [General Data Protection Regulation (GDPR) overview](https://gdpr.eu/)
+- [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
 
 In addition, one should classify vulnerability based on the following
 subcategories:

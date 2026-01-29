@@ -80,15 +80,11 @@ arbitrary code execution, data modification, and denial of service.
   - <http://www.cgisecurity.com/lib/URLEmbeddedAttacks.html> - URL
     encoded attacks, by Gunter Ollmann
 
-\[\[Category:FIXME|link not working
-
   - <http://scissec.scis.ecu.edu.au/conferences2007/documents/cheong_kai_wai_1.pdf>
     - Penetration testing of cross site scripting and SQL injection on
     web application by Cheong Kai Wee
 
-\]\]
-
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[these links don't exist](Category:FIXME "wikilink") [Category:Resource
+[Category:Resource
 Manipulation](Category:Resource_Manipulation "wikilink")
 [Category:Attack](Category:Attack "wikilink")

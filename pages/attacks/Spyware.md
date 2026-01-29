@@ -71,7 +71,7 @@ spyware
   - <http://en.wikipedia.org/wiki/Spyware> - Spyware
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[not a threat agent that is currently there](Category:FIXME "wikilink")
+[Category:Malicious Code Attack](:Category:Malicious_Code_Attack "wikilink")
 [Category:Resource
 Manipulation](Category:Resource_Manipulation "wikilink")
 [Category:Attack](Category:Attack "wikilink")
