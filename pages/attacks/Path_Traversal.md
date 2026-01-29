@@ -46,7 +46,7 @@ All but the most simple web applications have to include local resources, such a
 - Ensure the user cannot supply all parts of the path – surround it with your path code
 - Validate the user’s input by only accepting known good – do not sanitize the data
 - Use chrooted jails and code access policies to restrict where the files can be obtained or saved to
-- If forced to use user input for file operations, normalize the input before using in file io API's, such as [normalize()](http://docs.oracle.com/javase/7/docs/api/java/net/URI.html#normalize()).
+- If forced to use user input for file operations, normalize the input before using in file io API's, such as [normalize()](https://docs.oracle.com/javase/8/docs/api/java/net/URI.html#normalize--).
 
 ### How to Test for Path Traversal Vulnerabilities
 
@@ -216,8 +216,7 @@ displayed).
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-- [Path Manipulation](https://wiki.owasp.org/index.php/Path_Traversal)
-- [Relative Path Traversal](https://wiki.owasp.org/index.php/Path_Traversal)
+- [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
 - [Resource Injection](https://owasp.org/www-community/attacks/Resource_Injection)
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
@@ -230,5 +229,5 @@ displayed).
 
 ## References
 
-- [http://cwe.mitre.org/data/definitions/22.html](http://cwe.mitre.org/data/definitions/22.html)
-- [http://www.webappsec.org/projects/threat/classes/path_traversal.shtml](http://www.webappsec.org/projects/threat/classes/path_traversal.shtml)
+- [https://cwe.mitre.org/data/definitions/22.html](https://cwe.mitre.org/data/definitions/22.html)
+- [Path Traversal Threat Class](https://web.archive.org/web/20160305000000/http://www.webappsec.org/projects/threat/classes/path_traversal.shtml)
