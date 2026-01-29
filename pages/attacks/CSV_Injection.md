@@ -34,9 +34,6 @@ when a file is saved and re-opened. As a result, commonly suggested CSV
 injection mitigations may fail and previously escaped formulas may become
 active again.
 
-To remediate it, ensure that no cells
-begin with any of the following characters:
-
 - Equals to (`=`)
 - Plus (`+`)
 - Minus (`-`)
@@ -53,7 +50,7 @@ Alternatively, apply the following sanitization to each field of the CSV, so tha
 * Prepend each cell field with a single quote
 * Escape every double quote using an additional double quote
 
-Note: The above techniques may not be reliable in Microsoft Excel after
+Note: The above techniques are not reliable in Microsoft Excel after
 saving and re-opening the CSV file.
 
  Two examples:
