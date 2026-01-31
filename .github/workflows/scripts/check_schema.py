@@ -5,7 +5,7 @@ Uses Python's jsonschema library for validation with user-friendly error message
 """
 import json
 import sys
-from jsonschema import Draft7Validator, FormatChecker, ValidationError
+from jsonschema import Draft7Validator, FormatChecker
 
 
 def check_schema(schema_file, json_file):
