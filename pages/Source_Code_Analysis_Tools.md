@@ -17,6 +17,8 @@ permalink: /Source_Code_Analysis_Tools
 SAST tools can be added into your IDE. Such tools can help you detect issues during software development.
 SAST tool feedback can save time and effort, especially when compared to finding vulnerabilities later in the development cycle.
 
+**Note:** Some tools listed below may support multiple testing types (SAST, DAST, and/or SCA). Tools are shown here if they include SAST capabilities.
+
 ## Strengths and Weaknesses
 
 ### Strengths
