@@ -1460,10 +1460,10 @@
 	{
 		"title": "PVS-Studio",
 		"url": "https://www.viva64.com/en/pvs-studio/",
-		"owner": "PVS-Studio",
-		"license": "Commercial",
+		"owner": null,
+		"license": "Open Source or Free",
 		"platforms": null,
-		"note": "Static code security analysis for C, C++, C#, and Java. A commercial B2B solution, but provides several free [licensing options](https://www.viva64.com/en/b/0614/).",
+		"note": "C, C++, C#. Commercial options exist as well.",
 		"type": "SAST"
 	},
 	{
