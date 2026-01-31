@@ -15,16 +15,31 @@ jobs:
       contents: read
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
+    - name: Checkout base repository (for validation scripts)
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.base_ref || github.ref }}
+    - name: Checkout PR files (only data files)
       uses: actions/checkout@v4
       with:
         ref: ${{ github.event.pull_request.head.sha || github.sha }}
         repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+        sparse-checkout: |
+          _data/tools.json
+          tools_schema.json
+        sparse-checkout-cone-mode: false
+        path: pr-files
+    - name: Copy PR files to workspace
+      run: |
+        cp pr-files/_data/tools.json _data/tools.json 2>/dev/null || true
+        cp pr-files/tools_schema.json tools_schema.json 2>/dev/null || true
     - name: Save PR number
       if: github.event_name == 'pull_request_target'
       env:
         PR_NUMBER: ${{ github.event.number }}
       run: echo $PR_NUMBER > pr_number
+    - name: Install Python dependencies
+      run: pip install jsonschema
     - name: Run schema check
       id: schema
       continue-on-error: true
