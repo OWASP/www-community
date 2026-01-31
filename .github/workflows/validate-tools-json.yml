@@ -5,6 +5,7 @@ on:
     paths:
     - '_data/tools.json'
     - 'tools_schema.json'
+  # Allow manual workflow runs for testing validation scripts
   workflow_dispatch:
 
 

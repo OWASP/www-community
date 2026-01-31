@@ -183,8 +183,10 @@ def check_unicode_escapes(text, data):
     """
     errors = []
     
-    # Common Unicode escape patterns for Latin characters with diacritics
+    # Common Unicode escape patterns for Latin characters with diacritics (U+0000 to U+00FF)
     # These should be written directly, not escaped
+    # Note: Using \\u00XX pattern to specifically target Latin-1 characters
+    # which are commonly unnecessarily escaped (e.g., \\u00e7 for ç)
     unicode_escape_pattern = re.compile(r'\\u00[0-9a-fA-F]{2}')
     
     # Find all Unicode escape sequences - only proceed if any are found
@@ -247,7 +249,7 @@ def check_editorconfig(json_file):
         try:
             data = json.loads(text)
             is_array = isinstance(data, list)
-        except:
+        except (json.JSONDecodeError, Exception):
             data = None
             is_array = False
         
