@@ -153,15 +153,6 @@
 		"type": "DAST"
 	},
 	{
-		"title": "AppScan on Cloud",
-		"url": "https://cloud.appscan.com/",
-		"owner": "HCL Software",
-		"license": "Commercial",
-		"platforms": "SaaS",
-		"note": null,
-		"type": "DAST"
-	},
-	{
 		"title": "AppSpider",
 		"url": "https://www.rapid7.com/products/appspider/",
 		"owner": "Rapid7",
@@ -311,17 +302,8 @@
 		"owner": "BlueClosure",
 		"license": "Commercial",
 		"platforms": "Most platforms supported",
-		"note": "2 week trial",
+		"note": "2 week trial. Analyzes client-side JavaScript.",
 		"type": "DAST"
-	},
-	{
-		"title": "BlueClosure BC Detect",
-		"url": "https://www.blueclosure.com",
-		"owner": "BlueClosure",
-		"license": "Commercial",
-		"platforms": null,
-		"note": "Analyzes client-side JavaScript.",
-		"type": "SAST"
 	},
 	{
 		"title": "Brakeman",
@@ -664,15 +646,6 @@
 		"platforms": "SaaS",
 		"note": "Escape is a modern DAST with a native business logic security testing algorithm. It supports modern web frameworks, integrates easily into CI/CD pipelines, and provides framework-specific, developer-friendly code snippets.",
 		"type": "DAST"
-	},
-	{
-		"title": "Find Security Bugs",
-		"url": "https://find-sec-bugs.github.io/",
-		"owner": null,
-		"license": "Open Source or Free",
-		"platforms": null,
-		"note": "Java, Scala, Groovy",
-		"type": "SAST"
 	},
 	{
 		"title": "FindBugs",
@@ -1487,19 +1460,10 @@
 	{
 		"title": "PVS-Studio",
 		"url": "https://www.viva64.com/en/pvs-studio/",
-		"owner": null,
-		"license": "Open Source or Free",
-		"platforms": null,
-		"note": "C, C++, C\\#",
-		"type": "SAST"
-	},
-	{
-		"title": "PVS-Studio Analyzer",
-		"url": "https://www.viva64.com/en/pvs-studio/",
 		"owner": "PVS-Studio",
 		"license": "Commercial",
 		"platforms": null,
-		"note": "Static code security analysis for C, C++, C#, and Java. A commercial B2B solution,  but provides several free [licensing options](https://www.viva64.com/en/b/0614/).",
+		"note": "Static code security analysis for C, C++, C#, and Java. A commercial B2B solution, but provides several free [licensing options](https://www.viva64.com/en/b/0614/).",
 		"type": "SAST"
 	},
 	{
@@ -1888,15 +1852,6 @@
 		"platforms": "MAC OSX, Linux and Windows",
 		"note": "Scans git changesets",
 		"type": "SAST"
-	},
-	{
-		"title": "ThreatMapper",
-		"url": "https://github.com/deepfence/ThreatMapper",
-		"owner": "Deepfence",
-		"license": "Open Source",
-		"platforms": "Linux",
-		"note": "Open source vulnerability discovery and prioritization for Kubernetes, Docker, Serverless and host-based workloads",
-		"type": "DAST"
 	},
 	{
 		"title": "Threatspy",
