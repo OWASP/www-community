@@ -35,6 +35,11 @@ jobs:
       continue-on-error: true
       run: |
         python3 .github/workflows/scripts/check_ordering.py _data/tools.json > ordering_log.txt 2>&1
+    - name: Run duplicate detection check
+      id: duplicates
+      continue-on-error: true
+      run: |
+        python3 .github/workflows/scripts/check_duplicates.py _data/tools.json > duplicates_log.txt 2>&1
     - name: Run .editorconfig compliance check
       id: editorconfig
       continue-on-error: true
@@ -97,6 +102,30 @@ jobs:
           echo "## Alphabetical Ordering Check" >> artifact.txt
           echo "" >> artifact.txt
           cat ordering_log.txt >> artifact.txt
+          echo "" >> artifact.txt
+          overall_status=1
+        fi
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # Duplicate detection results
+        echo "---" >> $GITHUB_STEP_SUMMARY
+        echo "## Duplicate Detection Check" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ steps.duplicates.outcome }}" == "success" ]; then
+          echo "**Status: PASS ✓**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat duplicates_log.txt >> $GITHUB_STEP_SUMMARY
+        else
+          echo "**Status: FAIL ✗**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat duplicates_log.txt >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          # Add to artifact (for PR comment)
+          echo "## Duplicate Detection Check" >> artifact.txt
+          echo "" >> artifact.txt
+          cat duplicates_log.txt >> artifact.txt
           echo "" >> artifact.txt
           overall_status=1
         fi
