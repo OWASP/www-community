@@ -1754,15 +1754,6 @@
       "note": "Secure your software development with automated secrets detection & remediation for private or public source code.",
       "type": "SAST"
    },
-   {
-      "title": "CloudDefense",
-      "url": "https://clouddefense.ai",
-      "owner": "CloudDefense",
-      "license": "Commercial",
-      "platforms": "SaaS or On-Premises",
-      "note": "CloudDefense provides holistic threat intelligence across all attack surfaces - Containers, Kubernetes, Code, Open Source Libraries, APIs and more...",
-      "type": "SAST"
-   },
     {
       "title": "clj-holmes",
       "url": "https://github.com/clj-holmes/clj-holmes",
@@ -2053,15 +2044,6 @@
       "type": "SAST"
    },
     {
-      "title": "OWASP IDE VulScanner",
-      "url": "https://owasp.org/www-project-ide-vulscanner/",
-      "owner": "DestinJiDee LTD",
-      "license": "Free",
-      "platforms": "IntelliJ, VSCode",
-      "note": "The product falls under the SCA tool category and enables developers to scan third-party dependencies within their favourite IDEs i.e. IntelliJ and VSCode.",
-      "type": "DAST"
-   },
-    {
       "title": "fitoxs",
       "url": "https://fitoxs.com",
       "owner": "fitoxs",
@@ -2122,7 +2104,7 @@
       "license": "Free",
       "platforms": "NodeJS",
       "note": "dssrf Defend Against SSRF attacks by providing huge of utils for validation, you integrate it with your web client before making request you validate the url for eliminating SSRF attacks.",
-      "type": "SCA"
+      "type": "SAST"
    },
    {
      "title": "OWASP Noir",
