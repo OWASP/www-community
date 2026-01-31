@@ -361,7 +361,7 @@
    },
    {
       "title": "AppSpider",
-      "url": "http://www.rapid7.com/products/appspider/",
+      "url": "https://www.rapid7.com/products/appspider/",
       "owner": "Rapid7",
       "license": "Commercial",
       "platforms": "Windows",
@@ -388,7 +388,7 @@
    },
    {
       "title": "Arachni",
-      "url": "http://www.arachni-scanner.com/",
+      "url": "https://www.arachni-scanner.com/",
       "owner": "Arachni",
       "license": "Free",
       "platforms": "Most platforms supported",
@@ -433,7 +433,7 @@
    },
    {
       "title": "Burp Suite",
-      "url": "http://www.portswigger.net/",
+      "url": "https://www.portswigger.net/",
       "owner": "PortSwigger",
       "license": "Commercial",
       "platforms": "Most platforms supported",
@@ -522,15 +522,6 @@
       "type": "DAST"
    },
    {
-      "title": "Digifort- Inspect",
-      "url": "http://www.digifort.se/en/scanner",
-      "owner": "Digifort",
-      "license": "Commercial",
-      "platforms": "SaaS",
-      "note": null,
-      "type": "DAST"
-   },
-   {
       "title": "Edgescan",
       "url": "https://www.edgescan.com/",
       "owner": "Edgescan",
@@ -540,17 +531,8 @@
       "type": "DAST"
    },
    {
-      "title": "GamaScan",
-      "url": "http://www.gamasec.com/Gamascan.aspx",
-      "owner": "GamaSec",
-      "license": "Commercial",
-      "platforms": "Windows",
-      "note": null,
-      "type": "DAST"
-   },
-   {
       "title": "Grabber",
-      "url": "http://rgaucher.info/beta/grabber/",
+      "url": "https://rgaucher.info/beta/grabber/",
       "owner": "Romain Gaucher",
       "license": "Open Source",
       "platforms": "Python 2.4, BeautifulSoup and PyXML",
@@ -565,16 +547,7 @@
       "platforms": "SaaS, Linux, Windows",
       "note": null,
       "type": "SAST"
-   },
-   {
-      "title": "GoLismero",
-      "url": "http://www.golismero.com/",
-      "owner": "GoLismero Team",
-      "license": "Open Source",
-      "platforms": "Windows, Linux and Macintosh",
-      "note": "GPLv2.0",
-      "type": "DAST"
-   },  
+   }, 
    {
       "title": "Heyhack",
       "url": "https://heyhack.com/",
@@ -604,7 +577,7 @@
    },
    {
       "title": "IKare",
-      "url": "http://www.ikare-monitoring.com/",
+      "url": "https://www.ikare-monitoring.com/",
       "owner": "ITrust",
       "license": "Commercial",
       "platforms": "N/A",
@@ -703,7 +676,7 @@
    },
    {
       "title": "Nexpose",
-      "url": "http://www.rapid7.com/products/nexpose-community-edition.jsp",
+      "url": "https://www.rapid7.com/products/nexpose/",
       "owner": "Rapid7",
       "license": "Commercial",
       "platforms": "Windows/Linux",
@@ -712,7 +685,7 @@
    },
    {
       "title": "Nikto",
-      "url": "http://www.cirt.net/nikto2",
+      "url": "https://www.cirt.net/nikto2",
       "owner": "CIRT",
       "license": "Open Source",
       "platforms": "Unix/Linux",
@@ -721,7 +694,7 @@
    },
    {
       "title": "Nuclei",
-      "url": "http://nuclei.projectdiscovery.io",
+      "url": "https://nuclei.projectdiscovery.io",
       "owner": "ProjectDiscovery",
       "license": "Open Source",
       "platforms": "Windows, Unix/Linux, and Macintosh",
@@ -747,15 +720,6 @@
       "type": "DAST"
    },
    {
-      "title": "Proxy.app",
-      "url": "http://www.websecurify.com/desktop/proxy.html",
-      "owner": "Websecurify",
-      "license": "Commercial",
-      "platforms": "Macintosh",
-      "note": null,
-      "type": "DAST"
-   },
-   {
       "title": "Psalm",
       "url": "https://psalm.dev/docs/security_analysis/",
       "owner": "Vimeo, Inc.",
@@ -766,7 +730,7 @@
    },
    {
       "title": "QualysGuard",
-      "url": "http://www.qualys.com/products/qg_suite/was/",
+      "url": "https://www.qualys.com/products/qg_suite/was/",
       "owner": "Qualys",
       "license": "Commercial",
       "platforms": "N/A",
@@ -775,7 +739,7 @@
    },
    {
       "title": "Retina",
-      "url": "http://www.beyondtrust.com/Products/RetinaNetworkSecurityScanner/",
+      "url": "https://www.beyondtrust.com/Products/RetinaNetworkSecurityScanner/",
       "owner": "BeyondTrust",
       "license": "Commercial",
       "platforms": "Windows",
@@ -793,17 +757,8 @@
    },
    {
       "title": "Securus",
-      "url": "http://www.orvant.com/",
+      "url": "https://www.orvant.com/",
       "owner": "Orvant, Inc",
-      "license": "Commercial",
-      "platforms": "N/A",
-      "note": null,
-      "type": "DAST"
-   },
-   {
-      "title": "Sentinel",
-      "url": "http://www.whitehatsec.com/home/services/services.html",
-      "owner": "WhiteHat Security",
       "license": "Commercial",
       "platforms": "N/A",
       "note": null,
@@ -856,7 +811,7 @@
    },
    {
       "title": "SOATest",
-      "url": "http://www.parasoft.com/products/article.jsp?articleId=3169&redname=webtesting&referred=webtesting",
+      "url": "https://www.parasoft.com/products/article.jsp?articleId=3169&redname=webtesting&referred=webtesting",
       "owner": "Parasoft",
       "license": "Commercial",
       "platforms": "Windows / Linux / Solaris",
@@ -870,7 +825,7 @@
       "platforms": "SaaS",
       "note": null,
       "type": "DAST",
-      "url": "https://tracking.cirrusinsight.com/eb139e6b-559b-406a-ab36-45350ac53d0d/stackhawk-com"
+      "url": "https://www.stackhawk.com/"
    },
    {
       "title": "Tinfoil Security",
@@ -928,7 +883,7 @@
    },
    {
       "title": "WebApp360",
-      "url": "http://www.tripwire.com/it-security-software/enterprise-vulnerability-management/web-application-vulnerability-scanning/",
+      "url": "https://www.tripwire.com/it-security-software/enterprise-vulnerability-management/web-application-vulnerability-scanning/",
       "owner": "TripWire",
       "license": "Commercial",
       "platforms": "Windows",
@@ -950,24 +905,6 @@
       "owner": "Micro Focus",
       "license": "Commercial",
       "platforms": "Windows",
-      "note": null,
-      "type": "DAST"
-   },
-   {
-      "title": "WebReaver",
-      "url": "http://www.websecurify.com/desktop/webreaver.html",
-      "owner": "Websecurify",
-      "license": "Commercial",
-      "platforms": "Macintosh",
-      "note": null,
-      "type": "DAST"
-   },
-   {
-      "title": "WebScanService",
-      "url": "http://www.german-websecurity.com/en/products/webscanservice/product-details/overview/",
-      "owner": "German Web Security",
-      "license": "Commercial",
-      "platforms": "N/A",
       "note": null,
       "type": "DAST"
    },
@@ -1135,7 +1072,7 @@
    },
    {
       "title": "Flawfinder",
-      "url": "http://www.dwheeler.com/flawfinder/",
+      "url": "https://www.dwheeler.com/flawfinder/",
       "owner": null,
       "license": "Open Source or Free",
       "platforms": null,
