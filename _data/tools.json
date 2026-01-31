@@ -348,7 +348,7 @@
 		"platforms": null,
 		"note": "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats",
 		"type": [
-			"DAST"
+			"SAST"
 		]
 	},
 	{
