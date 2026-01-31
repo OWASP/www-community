@@ -83,11 +83,17 @@
 			"type": {
 				"$id": "#root/items/type",
 				"title": "Type",
-				"type": "string",
-				"enum": [
-					"DAST",
-					"SAST"
-				]
+				"type": "array",
+				"minItems": 1,
+				"uniqueItems": true,
+				"items": {
+					"type": "string",
+					"enum": [
+						"SAST",
+						"DAST",
+						"SCA"
+					]
+				}
 			}
 		}
 	}

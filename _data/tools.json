@@ -6,7 +6,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": ".NET, successor of Microsoft FxCop",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "42Crunch",
@@ -15,7 +17,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "REST API security platform that includes Security Audit (SAST), dynamic conformance scan, runtime protection, and monitoring.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "ABOM Scanner",
@@ -24,7 +28,9 @@
 		"license": "Free",
 		"platforms": "SaaS",
 		"note": "ABOM is an online SCA ( software composition analysis ) tool that scans your application for open-source vulnerabilities using only a manifest file. Covering PHP, JavaScript, Rust, Python, and other top languages.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Acunetix",
@@ -33,7 +39,9 @@
 		"license": "Commercial",
 		"platforms": "Windows, Linux, MacOS",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Agentic Radar",
@@ -42,7 +50,9 @@
 		"license": "Free",
 		"platforms": "Windows, Linux, MacOS",
 		"note": "Open-source CLI security scanner for agentic AI workflows. Scans your workflow’s source code, detects vulnerabilities, and generates an interactive visualization along with a detailed security report. Supports popular agentic frameworks like LangGraph, CrewAI, n8n, OpenAI Agents, and more.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Aikido DAST",
@@ -51,7 +61,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, On-Premises, IDE Plugin",
 		"note": "Aikido Security is a developer-friendly software security platform that combines multiple different scanners to deliver real-time alerts in a central system",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Aikido SAST",
@@ -60,7 +72,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, On-Premises",
 		"note": "Aikido Security is a developer-friendly software security platform that combines multiple different scanners to deliver real-time alerts in a central system",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Akto",
@@ -69,7 +83,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "500+ tests, 2 weeks free trial available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Almanax",
@@ -78,7 +94,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS, CLI, On-Premises, MCP",
 		"note": "Almanax is an AI-powered SAST scanner that empowers developers to detect, investigate, and patch insecure source code. It can find business logic, broken auth, API and smart contract security issues, and more with a fraction of the false positives.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Anchore Enterprise",
@@ -87,7 +105,9 @@
 		"license": "Commercial",
 		"platforms": "Docker, AWS, Kubernetes, Azure, GCP",
 		"note": "An SBOM-powered platform that protects and secures your software supply chain end-to-end. Free trial available.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "API Scanning",
@@ -96,7 +116,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free trial available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "APIsec",
@@ -105,7 +127,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free limited API Pen Test",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "APIsecurity.io Security Audit",
@@ -114,7 +138,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "online tool for OpenAPI / Swagger file static security analysis",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "App Scanner",
@@ -123,7 +149,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "AppCheck Ltd.",
@@ -132,7 +160,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free trial scan available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Application Scanning",
@@ -141,7 +171,9 @@
 		"license": "Free",
 		"platforms": "SaaS",
 		"note": "Free trial available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "AppScan",
@@ -150,7 +182,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "AppSpider",
@@ -159,7 +193,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "AppSweep",
@@ -168,7 +204,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Mobile application security testing tool for compiled Android and iOS apps with support of CI/CD integration",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Aptori",
@@ -177,7 +215,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Arachni",
@@ -186,7 +226,9 @@
 		"license": "Free",
 		"platforms": "Most platforms supported",
 		"note": "Free for most use cases",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Arnica",
@@ -195,7 +237,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Arnica is an end to end security solution that includes SAST, SCA, IaC, Licensing, Reputation, Hardcoded Secrets Mitigation, Permissions and more. Arnica's pipelineless approach empowers developers through automated mitigations and real time feedback.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Astra Security Suite",
@@ -204,7 +248,9 @@
 		"license": "Free",
 		"platforms": "SaaS",
 		"note": "Paid Option Available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Astrée",
@@ -213,7 +259,9 @@
 		"license": "Commercial",
 		"platforms": "Windows and Linux",
 		"note": "Astrée is a static analyzer designed to prove the absence of runtime errors and further critical program defects, including code-level cybersecurity vulnerabilities like buffer overflows, data races, etc. It is based on abstract interpretation, a provably correct formal method. Astrée supports C and C++.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Automated Security Helper",
@@ -222,7 +270,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Bandit",
@@ -231,7 +281,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Bandit is a comprehensive source vulnerability scanner for Python",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Barrion",
@@ -240,7 +292,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Barrion is a developer-focused platform that strengthens web application security with automated tests that detect and notify teams of potential security issues.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Beagle Security",
@@ -249,7 +303,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Bearer CLI",
@@ -258,7 +314,9 @@
 		"license": "Open Source or Free",
 		"platforms": "CLI on Windows, MacOS, Linux, Docker, CI/CD integration",
 		"note": "Static Application Security Testing (SAST) to discover, filter and prioritize security and privacy risks using sensitive data flow analysis. Currently supports Java, Ruby, JavaScript and TypeScript.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "beSECURE (formerly AVDS)",
@@ -267,7 +325,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Beyond Security beSOURCE",
@@ -276,7 +336,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Static application security testing (SAST) used to be divorced from Code quality reviews, resulting in limited impact and value. beSOURCE addresses the code security quality of applications and thus integrates SecOps into DevOps.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "binskim",
@@ -285,7 +347,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Blacklock",
@@ -294,7 +358,9 @@
 		"license": "Commercial",
 		"platforms": "Any",
 		"note": "14-day trial",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "BlueClosure BC Detect",
@@ -303,7 +369,9 @@
 		"license": "Commercial",
 		"platforms": "Most platforms supported",
 		"note": "2 week trial. Analyzes client-side JavaScript.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Brakeman",
@@ -312,7 +380,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Brakeman is an open source vulnerability scanner specifically designed for Ruby on Rails applications",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "BREACHLOCK Dynamic Application Security Testing",
@@ -321,7 +391,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "bugScout",
@@ -330,7 +402,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": null,
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Burp Suite",
@@ -339,7 +413,9 @@
 		"license": "Commercial",
 		"platforms": "Most platforms supported",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "CAST AIP",
@@ -348,7 +424,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Performs static and architectural analysis to identify numerous types of security issues. Supports over 30 languages. [AIP's security specific coverage is here](https://www.castsoftware.com/solutions/application-security/cwe#SupportedSecurityStandards).",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "CI Fuzz CLI",
@@ -357,7 +435,9 @@
 		"license": "Open Source",
 		"platforms": "Most platforms supported",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "clj-holmes",
@@ -366,7 +446,9 @@
 		"license": "Open Source",
 		"platforms": "Linux and MacOs",
 		"note": "A CLI SAST (Static application security testing) tool which was built with the intent of finding vulnerable Clojure code via rules that use a simple pattern language.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "CloudDefense",
@@ -375,7 +457,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "CloudDefense DAST integrates with any CI/CD with just 1 line of code. It supports multiple authentication types. Perform deep DAST scans with ease.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Codacy",
@@ -384,7 +468,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Offers security patterns for languages such as Python, Ruby, Scala, Java, JavaScript and more. Integrates with tools such as Brakeman, Bandit, FindBugs, and others. (free for open source projects)",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Code Intelligence App",
@@ -393,7 +479,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Codename SCNR",
@@ -402,7 +490,9 @@
 		"license": "Commercial",
 		"platforms": "MS Windows, Mac OSX, Linux (Docker)",
 		"note": "Codename SCNR is an intelligent and unrestricted WebAppSec scanner capable of handling modern web applications. (Free Community edition available)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "CodeScan Cloud",
@@ -411,7 +501,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "A Salesforce focused, SaaS code quality tool leveraging SonarQube's OWASP  security hotspots to give security visibility on Apex, Visualforce, and Lightning proprietary languages.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "CodeSonar",
@@ -420,7 +512,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "CodeSonar is a static code analysis solution that helps you find and understand quality and security defects in your source code or binaries. It supports C/C++, Java, C#, Kotlin, Python, Go, Rust, JavaScript, and TypScript.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "CodeThreat",
@@ -429,7 +523,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS or On-Premises",
 		"note": "Developer-friendly SAST and SCA solutions, Integration with CI/CD pipelines complements a robust DevSecOps strategy, and AI-powered features provide actionable insights with code fix suggestions and potential attack scenarios, helping developers remediate identified issues promptly.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Codiga",
@@ -438,7 +534,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "Codiga scans your code and find security, safety, design, performance and maintainability issues in your code at each push or pull request. It integrates with GitHub, GitLab and Bitbucket.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "CoGuard",
@@ -447,7 +545,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "A SAST tool for infrastructure configuration analysis. Support for common web servers, databases, streaming services, authentication services, container orchestration and Infrastructure-as-Code tools.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Contrast",
@@ -456,7 +556,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "Free (Full featured for 1 App)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Contrast Assess",
@@ -465,7 +567,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Contrast performs code security without actually doing static analysis. Contrast does Interactive Application Security Testing (IAST), correlating runtime code & data analysis. It provides code level results without actually relying on static analysis.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Corgea",
@@ -474,7 +578,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, IDE, CLI, On-Premises",
 		"note": "Corgea is an AI-powered SAST scanner that empowers developers to find and fix insecure source code. It can find business logic, broken auth, API security issues, and more with less false positives.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Coverity Static Analysis",
@@ -483,7 +589,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Apex, C/C++, C#, CUDA, Java#, JavaScript, PHP, Python, .NET Core, ASP.NET, Objective-C, Go, JSP, Ruby, Swift, Fortran, Scala, VB.NET, iOS, Android, TypeScript, Kotlin",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Crashtest Security",
@@ -492,7 +600,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "CVE Scanner",
@@ -501,7 +611,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Real-time scanning of your domain for known CVEs is free. If any are found, a detailed breakdown of the identified CVEs is available for just £10, which includes two free rescans. We use a live black-box HTTP probing approach.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "CxSAST",
@@ -510,7 +622,9 @@
 		"license": "Commercial",
 		"platforms": "Saas, or on-premises. Windows and Linux with CI/CD and IDE plugin integration",
 		"note": "Run full or incremental source code security scans. Supported languages include Javascript, Java, Apex, PHP, Python, Swift, Scala, Perl, Groovy, Ruby, C++, C#.NET, PL/SQL, VB.NET, ASP.NET, HTML 5, Windows Mobile, Go, and Kotlin.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Cyber Chief",
@@ -519,7 +633,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Cycode | Complete ASPM",
@@ -528,7 +644,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS, On-Premises, IDE Plugin",
 		"note": "Cycode is a complete ASPM that also has its own native scanners tools from code to cloud, including native SAST and native SCA scanners.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "CyLock EVA",
@@ -537,7 +655,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "EVA, the extended vulnerability assessment designed and developed at CyLock.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Cytrix",
@@ -546,7 +666,9 @@
 		"license": "Commercial",
 		"platforms": "All Web Applications Supported",
 		"note": "Automatic Penetration Testing for Web Applications & API Schema Penetration Testing",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Dawnscanner",
@@ -555,7 +677,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Dawnscanner is an open source security source code analyzer for Ruby, supporting major MVC frameworks like Ruby on Rails, Padrino, and Sinatra. It also works on non-web applications written in Ruby.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Deepfence ThreatMapper",
@@ -564,7 +688,9 @@
 		"license": "Open Source",
 		"platforms": "Linux",
 		"note": "Apache v2",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Deepfence ThreatStryker",
@@ -573,7 +699,9 @@
 		"license": "Commercial",
 		"platforms": "Linux, Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "DeepSource",
@@ -582,7 +710,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "DeepSource helps companies ship clean and secure code with powerful static analysis, OWASP Top 10 compliance, and Autofix. Supports all major programming languages.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "DerScanner",
@@ -591,7 +721,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "DerScanner is an AI-powered application security testing platform suitable for air-gapped environments. It combines SAST, DAST, IAST, MAST, SCA, and binary analysis into a unified solution, securing modern and legacy applications with support for 43 programming languages.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Detectify",
@@ -600,7 +732,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "DSSRF",
@@ -609,7 +743,9 @@
 		"license": "Free",
 		"platforms": "NodeJS",
 		"note": "dssrf Defend Against SSRF attacks by providing huge of utils for validation, you integrate it with your web client before making request you validate the url for eliminating SSRF attacks.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Edgescan",
@@ -618,7 +754,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Enforster AI",
@@ -627,7 +765,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, On-Premises",
 		"note": "Enforster AI performs Contextual Code Security SAST, leveraging LLMs and artificial intelligence to detect and remediate Logic Flaws, Secrets, Data leaks, Supply chain and technical vulnerabilities.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Enlightn",
@@ -636,7 +776,9 @@
 		"license": "Open Source",
 		"platforms": null,
 		"note": "Enlightn is a vulnerability scanner specifically designed for Laravel PHP applications that combines SAST, DAST, IAST and configuration analysis techniques to detect vulnerabilities.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Escape",
@@ -645,7 +787,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Escape is a modern DAST with a native business logic security testing algorithm. It supports modern web frameworks, integrates easily into CI/CD pipelines, and provides framework-specific, developer-friendly code snippets.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "FindBugs",
@@ -654,7 +798,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Find bugs (including a few security flaws) in Java programs [Legacy - NOT  Maintained - Use SpotBugs (see other entry) instead]",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "FindSecBugs",
@@ -663,7 +809,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "A security specific plugin for SpotBugs that significantly improves SpotBugs's ability to find security vulnerabilities in Java programs. Works with the old FindBugs too.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "fitoxs",
@@ -672,7 +820,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "fitoxs is a complete security tool for web applications and API",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Flawfinder",
@@ -681,7 +831,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans C and C++.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Fluid Attack's Scanner",
@@ -690,7 +842,9 @@
 		"license": "Open Source",
 		"platforms": null,
 		"note": "SAST, DAST and SCA vulnerability detection tool with perfect OWASP Benchmark score.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Fortify",
@@ -699,7 +853,9 @@
 		"license": "Commercial",
 		"platforms": "Windows, Linux, and MacOSX",
 		"note": "Free trial scan available. Supported languages include: ABAP/BSP, ActionScript/MXML (Flex), APEX, ASP.NET, VB.NET, C\\# (.NET), C/C++, Classic ASP (w/VBScript), COBOL, ColdFusion CFML, Go, HTML, Java (including Android), JavaScript/AJAX, JSP, Kotlin, Objective-C, PHP, PL/SQL, Python, Typescript, T-SQL, Ruby, Scala, Swift, Visual Basic (VB.NET), Visual Basic 6, VBScript, XML",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "GitGuardian — Automated Secrets Detection",
@@ -708,7 +864,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "Secure your software development with automated secrets detection & remediation for private or public source code.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "GitHub Advanced Security",
@@ -717,7 +875,9 @@
 		"license": "Open Source or Free",
 		"platforms": "SaaS or On-Premises",
 		"note": "GitHub Advanced Security uses CodeQL for Static Code Analysis, and GitHub Secret Scanning for identifying tokens. GitHub code scanning can import SARIF from any other SAST tool ",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "GitLab",
@@ -726,7 +886,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS, Linux, Windows",
 		"note": null,
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "GolangCI-Lint",
@@ -735,7 +897,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "A Go Linters aggregator - One of the Linters is [gosec (Go Security)](https://github.com/securego/gosec), which is off by default but can easily be enabled.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Google CodeSearchDiggity",
@@ -744,7 +908,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Uses Google Code Search to identify vulnerabilities in open source code projects hosted by Google Code, MS CodePlex, SourceForge, Github, and more. The tool comes with over 130 default searches that identify SQL injection, cross-site scripting (XSS), insecure remote and local file includes, hard-coded passwords, and much more.  *Essentially, Google CodeSearchDiggity provides a source code security analysis of nearly every single open source code project in existence – simultaneously.*",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Grabber",
@@ -753,7 +919,9 @@
 		"license": "Open Source",
 		"platforms": "Python 2.4, BeautifulSoup and PyXML",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "GraphQL Security",
@@ -762,7 +930,9 @@
 		"license": "Free",
 		"platforms": "SaaS",
 		"note": "Free. No account required.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Graudit",
@@ -771,7 +941,9 @@
 		"license": "Open Source or Free",
 		"platforms": "Linux",
 		"note": "Scans multiple languages for various security flaws. Basically security enhanced code Grep.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Grype",
@@ -780,7 +952,9 @@
 		"license": "Open Source",
 		"platforms": "Linux, MacOS, Windows",
 		"note": "A vulnerability scanner for container images and filesystems.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Haxore Web Security Scanner",
@@ -789,7 +963,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Haxore is a comprehensive web application security scanner providing DAST capabilities for modern web applications, offering both commercial and free versions.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "HCL AppScan CodeSweep - GitHub Action",
@@ -798,7 +974,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account. The tool currently supports Python, Ruby, JS (Vue, React, Node, Angular, JQuery, etc), PHP, Perl, COBOL, APEX & a few more.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "HCL AppScan CodeSweep - IDE",
@@ -807,7 +985,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "This is the first Community edition version of AppScan. It is delivered as a VS Code [https://hclsw.co/codesweep] and JetBrains [https://hclsw.co/codesweep-jetbrains] (IntelliJ IDEA, CLion, GoLand, PhpStorm, PyCharm , Rider, RubyMine, WebStorm) plugin and scans files upon saving them. The results show the location of a finding, type and remediation advice. The tool currently supports Java, .Net, Go, Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, COBOL, APEX & a few more. Auto-fix for some of the issues is available with a free trial.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "HCL AppScan on Cloud",
@@ -816,7 +996,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Apex, ASP, C, C++, COBOL, ColdFusion, Go, Java, JavaScript(Client-side JavaScript, Kotlin, NodeJS, and AngularJS), .NET (C#, ASP.NET, VB.NET), .NET Core, Perl, PHP, PL/SQL, Python, Ruby, T-SQL, Swift, Visual Basic 6",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "HCL AppScan Source",
@@ -825,7 +1007,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Android, Apex, ASP, C, C++, COBOL, ColdFusion, Go, Java, JavaScript(Client-side JavaScript, NodeJS, and AngularJS), .NET (C#, ASP.NET, VB.NET), .NET Core, Perl, PHP, PL/SQL, Python, Ruby, T-SQL, Visual Basic 6",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Hdiv Detection",
@@ -834,7 +1018,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Hdiv performs code security without actually doing static analysis. Hdiv does Interactive Application Security Testing (IAST), correlating runtime code & data analysis. It provides code-level results without actually relying on static analysis.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Heyhack",
@@ -843,7 +1029,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premise",
 		"note": "Free trial available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Holm Security",
@@ -852,7 +1040,9 @@
 		"license": "Commercial",
 		"platforms": "Saas or On-Premise",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "HostedScan.com",
@@ -861,7 +1051,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free Forever",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "HuskyCI",
@@ -870,7 +1062,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "HuskyCI is an open-source tool that orchestrates security tests inside CI pipelines of multiple projects and centralizes all results into a database for further analysis and metrics. HuskyCI can perform static security analysis in Python (Bandit and Safety), Ruby (Brakeman), JavaScript (Npm Audit and Yarn Audit), Golang (Gosec), and Java(SpotBugs plus Find Sec Bugs)",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "iblessing",
@@ -879,7 +1073,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans for several security related IOS application vulnerabilities",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "IKare",
@@ -888,7 +1084,9 @@
 		"license": "Commercial",
 		"platforms": "N/A",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "ImmuniWeb",
@@ -897,7 +1095,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "InsightVM",
@@ -906,7 +1106,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free trial available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Intruder",
@@ -915,7 +1117,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Invicti, formerly Netsparker",
@@ -924,7 +1128,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS, Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "IOTHREAT",
@@ -933,7 +1139,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free (View Partial Results). Full report (PRO) - 50% discount for the OWASP community with 'OWASP50'.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "joern",
@@ -942,7 +1150,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans C/C++/Java/Binary/Javascript/Python/Kotlin/JVM Bytecode/PHP/Go/Ruby/Swift/C#.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "K2 Security Platform",
@@ -951,7 +1161,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS/On-Premise",
 		"note": "Free trial available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Kiuwan",
@@ -960,7 +1172,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "provides an application security  testing and analytics platform –    including SAST and SCA solutions – that reduces risk and  improves change management and DevOps processes",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Klocwork",
@@ -969,7 +1183,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Static Code Analysis for C, C++, C#, Java, JavaScript, Python, Kotlin",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Kusari Inspector",
@@ -978,7 +1194,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "L3X",
@@ -987,7 +1205,9 @@
 		"license": "Open Source or Free",
 		"platforms": "GitHub",
 		"note": "L3X detects vulnerabilities in Rust and Solidity code based on patterns and AI code analysis. Various LLMs act as validators for vulnerabilities detected by patterns and validate each others' results in AI code analysis. Vulnerabilities are confirmed when they receive confirmation from a majority of validators.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "LeapFix",
@@ -996,7 +1216,9 @@
 		"license": "Free",
 		"platforms": "VSCode",
 		"note": "It is a Visual Studio IDE plugin for static code vulnerability analysis (SAST) finding flaws with high precision and depth in 9 languages",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Lucent Sky AVM",
@@ -1005,7 +1227,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "Automatically finds and fixes application vulnerabilities in source code. Supports .NET, ASP, Android, C and C++, ECMAScript, Go, iOS, Java, PHP, Pytohn, Ruby, and Visual Basic applications.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "LunaTrace by LunaSec",
@@ -1014,7 +1238,9 @@
 		"license": "Open Source or Free",
 		"platforms": "SaaS or On-Premises",
 		"note": "Software Composition Analysis (SCA) tool to generate SBOMs, identify vulnerabilities in dependencies, and generate patches. Leverages Static Analysis to reduce false positives by filtering non-exploitable CVEs.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Mayhem for API",
@@ -1022,7 +1248,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "30-day Free Trial",
-		"type": "DAST",
+		"type": [
+			"DAST"
+		],
 		"url": "https://mayhem4api.forallsecure.com/signup"
 	},
 	{
@@ -1032,7 +1260,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Static security analysis for 27+ languages.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Microsoft PREFast",
@@ -1041,7 +1271,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "C, C++",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "MobSF",
@@ -1050,7 +1282,9 @@
 		"license": "Open Source or Free",
 		"platforms": "Windows, Unix",
 		"note": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "mobsfscan",
@@ -1059,7 +1293,9 @@
 		"license": "Open Source or Free",
 		"platforms": "Unix",
 		"note": "mobsfscan is a static analysis tool that can find insecure code patterns in your Android and iOS source code. Supports Java, Kotlin, Android XML, Swift and Objective C Code.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "N-Stealth",
@@ -1068,7 +1304,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "NaiveSystems Analyze",
@@ -1077,7 +1315,9 @@
 		"license": "Open Source or Free",
 		"platforms": "Windows, MacOS and Linux",
 		"note": "NaiveSystems Analyze ensures compliance with functional safety and coding standards including MISRA, AUTOSAR, and Google C++ Style Guide. Supports C, C++, Java, and more languages.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "nancy",
@@ -1086,7 +1326,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans for Golang dependencies",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Nessus",
@@ -1095,7 +1337,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Nexploit",
@@ -1104,7 +1348,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Nexpose",
@@ -1113,7 +1359,9 @@
 		"license": "Commercial",
 		"platforms": "Windows/Linux",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "NextGen Static Analysis",
@@ -1122,7 +1370,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free version available. Currently supports Java, JavaScript, C\\#, TypeScript, Python, and Terraform. Create your free account at https://shiftleft.io/register.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Nikto",
@@ -1131,7 +1381,9 @@
 		"license": "Open Source",
 		"platforms": "Unix/Linux",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Nikto Online",
@@ -1140,7 +1392,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Online Nikto web server scanner designed to assess the security of web servers by identifying potential vulnerabilities and misconfigurations.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Nmmapper Tool Collections",
@@ -1148,7 +1402,9 @@
 		"license": "Commercial",
 		"platforms": "SasS",
 		"note": "Great Collection of Kali Tool hosted online",
-		"type": "DAST",
+		"type": [
+			"DAST"
+		],
 		"url": "https://www.nmmapper.com/sys/tools/subdomainfinder/"
 	},
 	{
@@ -1158,7 +1414,9 @@
 		"license": "Open Source or Free",
 		"platforms": "Unix",
 		"note": "Node.js",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Nucleaus Core",
@@ -1167,7 +1425,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Scans Git repos daily and provides a web-based dashboard to track code and dependency vulnerabilities. Handles team-based access patterns, vulnerability exception lifecycle, and is built on API first principles.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Nuclei",
@@ -1176,7 +1436,9 @@
 		"license": "Open Source",
 		"platforms": "Windows, Unix/Linux, and Macintosh",
 		"note": "Fast and customisable vulnerability scanner based on simple YAML based DSL.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Offensive360",
@@ -1185,7 +1447,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "SAST technology that attacks the source code from all corners it has all in one. Malware, SCA, License, and deep source code analysis.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Online Wordpress Security Scanner",
@@ -1194,7 +1458,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Online security scanner dedicated to evaluating the security of WordPress websites",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "OnSecurity Protect",
@@ -1203,7 +1469,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free tier and free trial available.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "OpenApi Security",
@@ -1212,7 +1480,9 @@
 		"license": "Free",
 		"platforms": "SaaS",
 		"note": "Free. No account required.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "OpenVAS by Greenbone",
@@ -1221,7 +1491,9 @@
 		"license": "Open Source",
 		"platforms": "Linux",
 		"note": "Open source full-featured vulnerability scanner, developed and maintained by Greenbone Networks GmbH.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "OSTE Meta Scanner",
@@ -1230,7 +1502,9 @@
 		"license": "Open Source",
 		"platforms": "Linux",
 		"note": "OSTE meta scanner is a comprehensive web vulnerability scanner that combines multiple DAST scanners, including Nikto Scanner, ZAP, Nuclei, SkipFish, and Wapiti.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Oversecured",
@@ -1239,7 +1513,9 @@
 		"license": "Commercial",
 		"platforms": "iOS, Android",
 		"note": "Enterprise vulnerability scanner for Android and iOS apps. It offers app owners and developers the ability to secure each new version of a mobile app by integrating Oversecured into the development process.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "OWASP ASST (Automated Software Security Toolkit)",
@@ -1248,7 +1524,9 @@
 		"license": "Open Source or Free",
 		"platforms": "Ubuntu, MacOSX and Windows",
 		"note": "An Open Source, Source Code Scanning Tool, developed with JavaScript (Node.js framework), Scans for PHP & MySQL Security Vulnerabilities According to OWASP Top 10 and Some other OWASP's famous vulnerabilities, and it teaches developers of how to secure their codes after scan.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "OWASP IDE VulScanner",
@@ -1257,7 +1535,9 @@
 		"license": "Free",
 		"platforms": "IntelliJ, VSCode",
 		"note": "The product falls under the SCA tool category and enables developers to scan third-party dependencies within their favourite IDEs i.e. IntelliJ and VSCode.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "OWASP Noir",
@@ -1266,7 +1546,9 @@
 		"license": "Free",
 		"platforms": "Linux, MacOS, Windows",
 		"note": "Attack surface detector that identifies endpoints by static analysis.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Panoptic Scans",
@@ -1275,7 +1557,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Panoptic Scans enables automated network and application scans using tools like OpenVAS, ZAP, and Nmap. Users can schedule scans to meet compliance requirements for SOC 2, HIPAA, ISO 27001, NIST 800-53, and CMMC while detecting issues such as unpatched software, vulnerabilities, misconfigurations, and open ports.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "ParaSoft",
@@ -1284,7 +1568,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "C, C++, Java, .NET",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Parasoft Test",
@@ -1293,7 +1579,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Test tools for C/C++, .NET, Java",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "parse",
@@ -1302,7 +1590,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans PHP",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Pentest-Tools.com Website Scanner",
@@ -1311,7 +1601,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Finds vulnerabilities such as XSS (testing using real browsers), Server-Side Template Injection, Code Injection (with out of band detection) and other OWASP Top 10, and more high-risk vulnerabilities. Even newer vulnerabilties such as Client-Side Prototype Pollution are included.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "phpcs-security-audit",
@@ -1320,7 +1612,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "A set of PHP_CodeSniffer rules to finds flaws or weaknesses related to security in PHP and its popular CMS or frameworks. It currently has core PHP rules as well as Drupal 7 specific rules.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "PHPStan",
@@ -1329,7 +1623,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "PHP Static Analysis Tool",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "PITSS.CON",
@@ -1338,7 +1634,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Scans Oracle Forms and Reports Applications",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Pixeebot",
@@ -1347,7 +1645,9 @@
 		"license": "Commercial or Free",
 		"platforms": "GitHub",
 		"note": "Pixeebot finds security and code quality issues in your code and creates merge-ready pull requests with recommended fixes.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Plexicus ASPM",
@@ -1356,7 +1656,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Application Security Posture Management (ASPM), unifying SAST, DAST, and SCA into a single platform to provide comprehensive application security management.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "PMD",
@@ -1365,7 +1667,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "PMD scans Java source code and looks for potential code problems (this is a code quality tool that does not focus on security issues).",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Polyspace Static Analysis Tools",
@@ -1374,7 +1678,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "C, C++, Ada",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "PreFast",
@@ -1383,7 +1689,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "PREfast is a static analysis tool that identifies defects in C/C++ programs. Last update 2006.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Probely",
@@ -1392,7 +1700,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Progpilot",
@@ -1401,7 +1711,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Progpilot is a static analyzer tool for PHP that detects security vulnerabilities such as XSS and SQL Injection.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "prowler",
@@ -1410,7 +1722,9 @@
 		"license": "Open Source",
 		"platforms": null,
 		"note": "Scans for AWS, Azure, GCP and Kubernetes.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Psalm",
@@ -1419,7 +1733,9 @@
 		"license": "Open Source",
 		"platforms": null,
 		"note": "Static code analysis for PHP projects, written in PHP.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "PT Application Inspector",
@@ -1428,7 +1744,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Combines SAST, DAST, IAST, SCA, configuration analysis and other technologies for high accuracy. Can generate special test queries (exploits) to verify detected vulnerabilities during SAST analysis. Supports Java, C\\#, PHP,  JavaScript, Objective C, VB.Net, PL/SQL, T-SQL, and others.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Puma Scan",
@@ -1437,7 +1755,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "A .NET C\\# static source code analyzer that runs as a Visual Studio IDE extension, Azure DevOps extension, and Command Line (CLI) executable.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Puma Scan Professional",
@@ -1446,7 +1766,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": ".NET, C\\#",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "purpleteam",
@@ -1455,7 +1777,9 @@
 		"license": "Open Source",
 		"platforms": "CLI and SaaS",
 		"note": "GNU-AGPL v3",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "PVS-Studio",
@@ -1464,7 +1788,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "C, C++, C#. Commercial options exist as well.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Pyre",
@@ -1473,7 +1799,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "A performant type-checker for Python 3, that also has [limited security/data flow analysis](https://pyre-check.org/docs/pysa-basics.html) capabilities.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "qark",
@@ -1482,7 +1810,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans for several security related Android application vulnerabilities",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "QualysGuard",
@@ -1491,7 +1821,9 @@
 		"license": "Commercial",
 		"platforms": "N/A",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "ReconwithMe",
@@ -1500,7 +1832,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Paid Option Available",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "reshift",
@@ -1509,7 +1843,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "A CI/CD  static code security analysis tool for Java that uses machine learning to give a prediction on false positives.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "ResilientX UEM",
@@ -1518,7 +1854,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "ResilientX UEM provides an All-in-One Continuous Testing and Monitoring solution, by integrating ASM, DAST, CSPM",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Retina",
@@ -1527,7 +1865,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Ride (REST JSON Payload fuzzer)",
@@ -1536,7 +1876,9 @@
 		"license": "Open Source",
 		"platforms": "Linux / Mac / Windows",
 		"note": "Apache 2",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "ScanRepeat",
@@ -1545,7 +1887,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "ScanTitan Vulnerability Scanner",
@@ -1554,7 +1898,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Sec-helpers",
@@ -1563,7 +1909,9 @@
 		"license": "Open Source or Free",
 		"platforms": "N/A",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "SecOps Solution",
@@ -1572,7 +1920,9 @@
 		"license": "Commercial or Free",
 		"platforms": "Windows/Linux/macOS/SaaS/On-Premises",
 		"note": "An agent-less full-stack patch and vulnerability management platform for identifying and patching vulnerabilities in servers, virtual machines, network devices, end-points. Free trial available for upto 15 assests",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "SecPoint Penetrator",
@@ -1581,7 +1931,9 @@
 		"license": "Commercial",
 		"platforms": "N/A",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "SecretScanner",
@@ -1590,7 +1942,9 @@
 		"license": "Open Source",
 		"platforms": "Linux",
 		"note": "Find secrets (tokens, keys, passwords, etc) in containers and filesystems, supporting approx 140 different secret types",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "SecureAssist",
@@ -1599,7 +1953,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Scans code for insecure coding and configurations automatically as an IDE plugin for Eclipse, IntelliJ, and Visual Studio, etc. Supports Java, .NET, PHP, and JavaScript.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Security For Everyone",
@@ -1608,7 +1964,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Securus",
@@ -1617,7 +1975,9 @@
 		"license": "Commercial",
 		"platforms": "N/A",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Secyour Scanner",
@@ -1626,7 +1986,9 @@
 		"license": "Commercial",
 		"platforms": "Windows, Linux, MacOS",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Seeker",
@@ -1635,7 +1997,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Seeker performs code security without actually doing static analysis. Seeker does Interactive Application Security Testing (IAST), correlating runtime code & data analysis with simulated attacks. It provides code level results without actually relying on static analysis.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Semgrep",
@@ -1644,7 +2008,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Semgrep is a fast, open-source, static analysis engine for finding bugs, detecting vulnerabilities in third-party dependencies, and enforcing code standards. Semgrep analyzes code locally on your computer or in your build environment: code is never uploaded.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Semgrep Supply Chain",
@@ -1653,7 +2019,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Semgrep Supply Chain’s reachability analysis lets you quickly find and remediate the 2% of dependency vulnerabilities that are actually reachable.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Sentinel Source",
@@ -1662,7 +2030,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": "Static security analysis for 10+ languages.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "ShiftLeft Scan",
@@ -1671,7 +2041,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "A free open-source DevSecOps platform for detecting security issues in source ode and dependencies. It supports a broad range of languages and CI/CD pipelines by bundling various open source scanners into the pipeline.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "SmartScanner",
@@ -1680,7 +2052,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Snyk Cloud",
@@ -1689,7 +2063,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, IDE Plugin",
 		"note": "Detects cloud security issues as soon as developers start designing configurations, providing expert guidance to cloud, platform, and security teams in the tools and workflows they use every day.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Snyk Code",
@@ -1698,7 +2074,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, IDE Plugin",
 		"note": "AI-powered code checker that analyzes your code for security issues, providing actionable advice directly from your IDE to help you fix vulnerabilities quickly",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Snyk Container",
@@ -1707,7 +2085,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, IDE Plugin",
 		"note": "Container and Kubernetes security that helps developers and DevOps find and fix vulnerabilities throughout the SDLC.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Snyk IaC",
@@ -1716,7 +2096,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, IDE Plugin",
 		"note": "Reduce risk by automating Infrastructure as Code (IaC) security and compliance in development workflows pre-deployment and detecting drifted and missing resources post-deployment.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Snyk Open Source",
@@ -1725,7 +2107,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, IDE Plugin",
 		"note": "Software composition analysis (SCA) solution helping developers find, prioritize, and fix security vulnerabilities and license issues in open source dependencies.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "SOATest",
@@ -1734,7 +2118,9 @@
 		"license": "Commercial",
 		"platforms": "Windows / Linux / Solaris",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "sobelow",
@@ -1743,7 +2129,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans for Phoenix Framework",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "SonarCloud",
@@ -1752,7 +2140,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "ABAP, C, C++, Objective-C, COBOL, C\\#, CSS, Flex, Go, HTML, Java, Javascript, Kotlin, PHP, PL/I, PL/SQL, Python, RPG, Ruby, Swift, T-SQL, TypeScript, VB6, VB, XML",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "SonarQube",
@@ -1761,7 +2151,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans source code for 15 languages for Bugs, Vulnerabilities, and Code Smells. SonarQube IDE plugins for Eclipse, Visual Studio, and IntelliJ provided by [SonarLint](https://www.sonarlint.org/).",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "SOOS DAST",
@@ -1770,7 +2162,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Free 30-day Trial. Includes DAST & SCA (OSS Vuln detection, Licenses, Policies, SBOM). Affordable flat rate price.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Spectral",
@@ -1779,7 +2173,9 @@
 		"license": "Open Source or Free",
 		"platforms": "Multi-platform & Multi-architecture. Linux/Windows/MacOSx/*nix. Programming-language agnostic",
 		"note": "Discover, classify, and protect your codebases, logs, and other assets. Monitor and detect API keys, tokens, credentials, high-risk security misconfiguration and more.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "spiderfoot",
@@ -1788,7 +2184,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans for threat intelligence and mapping your attack surface.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Splint",
@@ -1797,7 +2195,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "C",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "SpotBugs",
@@ -1806,7 +2206,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Java. This is the active fork replacement for FindBugs, which is not maintained anymore. Very little security. FindSecBugs plugin provides security rules.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "StackHawk",
@@ -1814,7 +2216,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": null,
-		"type": "DAST",
+		"type": [
+			"DAST"
+		],
 		"url": "https://www.stackhawk.com/"
 	},
 	{
@@ -1824,7 +2228,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Examine the Android Source code to identify any security issues or vulnerabilities.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Static Reviewer",
@@ -1833,7 +2239,9 @@
 		"license": "Commercial",
 		"platforms": "Windows and Linux; on-Premises and in Cloud; Desktop, CLI and CI/CD & IDE plugin integration",
 		"note": "Static Reviewer executes code checks according to the most relevant Secure Coding Standards for 40+ programming languages, using 1000+ built-in validation rules.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Syft",
@@ -1842,7 +2250,9 @@
 		"license": "Open Source",
 		"platforms": "Linux, MacOS, Windows",
 		"note": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "talisman",
@@ -1851,7 +2261,9 @@
 		"license": "Free",
 		"platforms": "MAC OSX, Linux and Windows",
 		"note": "Scans git changesets",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Threatspy",
@@ -1860,7 +2272,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "Threatspy is the heuristic Application Security Management Platform. Discovering Both Known and Unknown Vulnerabilities, Strategically Prioritized via the Reachability Framework, with Built-in Automated Remediation. ",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Tinfoil Security",
@@ -1869,7 +2283,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Trustkeeper Scanner",
@@ -1878,7 +2294,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Understand",
@@ -1887,7 +2305,9 @@
 		"license": "Commercial",
 		"platforms": "Windows, MacOSX, Linux",
 		"note": "IDE that provides static code analysis using graphs, documentation, and metrics. Scans code to check for vulnerabilities and ensures compliance with standards like MISRA and AUTOSAR. Works with 20 languages including C, C++, C#, JavaScript, Python, and Java.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Vega",
@@ -1896,7 +2316,9 @@
 		"license": "Open Source",
 		"platforms": "Windows, Linux and Macintosh",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Veracode",
@@ -1905,7 +2327,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Android, ASP.NET, C\\#, C, C++, Classic ASP, COBOL, ColdFusion/Java, Go, Groovy, iOS, Java, JavaScript, Perl, PhoneGap/Cordova, PHP, Python, React Native, RPG, Ruby on Rails, Scala, Titanium, TypeScript, VB.NET, Visual Basic 6, Xamarin",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Veracode Static Analysis",
@@ -1914,7 +2338,9 @@
 		"license": "Commercial",
 		"platforms": null,
 		"note": null,
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Vex",
@@ -1923,7 +2349,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "VisualCodeGrepper (VCG)",
@@ -1932,7 +2360,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Scans C/C++, C\\#, VB, PHP, Java, PL/SQL, and COBOL for security issues and for comments which may indicate defective code. The config files can be used to carry out additional checks for banned functions or functions which commonly cause security issues.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "VS Code OpenAPI (Swagger) Editor extension",
@@ -1941,7 +2371,9 @@
 		"license": "Open Source or Free",
 		"platforms": null,
 		"note": "Plugin to Microsoft Visual Studio Code that enables rich editing capabilities   for REST API contracts and also includes linting and Security Audit (static security analysis).",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Vulert",
@@ -1950,7 +2382,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
 		"note": "An SCA solution that seamlessly monitors applications for open-source vulnerabilities without code access or installations, delivering real-time alerts.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Vulners",
@@ -1959,7 +2393,9 @@
 		"license": "Commercial or Free",
 		"platforms": "Linux / Windows / Plugins / SaaS",
 		"note": "SAST and DAST software vulnerability scanner based on the Vulners database. Including different integrations for administration and security tools, such as NMAP, Burp, Ansible and more.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "VulnSign",
@@ -1968,7 +2404,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS or On-Premises",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Wapiti",
@@ -1977,7 +2415,9 @@
 		"license": "Open Source",
 		"platforms": "Windows, Unix/Linux and Macintosh",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Web Security Scanner",
@@ -1986,7 +2426,9 @@
 		"license": "Commercial",
 		"platforms": "On-Premises",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "WebApp360",
@@ -1995,7 +2437,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "WebCookies",
@@ -2004,7 +2448,9 @@
 		"license": "Free",
 		"platforms": "SaaS",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "WebInspect",
@@ -2013,7 +2459,9 @@
 		"license": "Commercial",
 		"platforms": "Windows",
 		"note": null,
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Websecurify Suite",
@@ -2022,7 +2470,9 @@
 		"license": "Commercial",
 		"platforms": "Windows, Linux, Macintosh",
 		"note": "Free (Limited Capability)",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Website Security Check",
@@ -2031,7 +2481,9 @@
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "20% off with OWASP20",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "WPScan",
@@ -2040,7 +2492,9 @@
 		"license": "Commercial",
 		"platforms": "Linux and Mac",
 		"note": "Free options",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "WuppieFuzz",
@@ -2049,7 +2503,9 @@
 		"license": "Open Source",
 		"platforms": "Windows, Linux, Macintosh",
 		"note": "WuppieFuzz is a coverage-guided REST API fuzzer developed on top of LibAFL, targeting a wide audience of end-users, with a strong focus on ease-of-use, explainability of the discovered flaws and modularity. WuppieFuzz supports all three settings of testing (black box, grey box and white box).",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "Zed Attack Proxy",
@@ -2058,7 +2514,9 @@
 		"license": "Open Source",
 		"platforms": "Windows, Unix/Linux, and Macintosh",
 		"note": "Apache-2.0",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	},
 	{
 		"title": "ZeroPath",
@@ -2067,7 +2525,9 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS, On-Premises",
 		"note": "ZeroPath is an AI Native SAST that scans over 15 languages to identify and fix conventional technical vulnerabilities (e.g., XSS, SQL injection, SSRF) as well as business logic flaws and auth bugs.",
-		"type": "SAST"
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "ZeroThreat",
@@ -2076,6 +2536,8 @@
 		"license": "Commercial or Free",
 		"platforms": "SaaS or On-Premise",
 		"note": "ZeroThreat is an AI-powered modern DAST tool built for today’s web applications and APIs.",
-		"type": "DAST"
+		"type": [
+			"DAST"
+		]
 	}
 ]

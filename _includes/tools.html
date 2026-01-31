@@ -1,4 +1,10 @@
-{% assign tools = site.data.tools | where: "type", include.type | sort_natural: "title" %}
+{% assign all_tools = site.data.tools | sort_natural: "title" %}
+{% assign tools = "" | split: "" %}
+{% for tool in all_tools %}
+  {% if tool.type contains include.type %}
+    {% assign tools = tools | push: tool %}
+  {% endif %}
+{% endfor %}
 
 <table>
   <tr>
