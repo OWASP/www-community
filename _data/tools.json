@@ -370,7 +370,8 @@
 		"platforms": "Most platforms supported",
 		"note": "2 week trial. Analyzes client-side JavaScript.",
 		"type": [
-			"DAST"
+			"DAST",
+			"SAST"
 		]
 	},
 	{
@@ -997,6 +998,7 @@
 		"platforms": null,
 		"note": "Apex, ASP, C, C++, COBOL, ColdFusion, Go, Java, JavaScript(Client-side JavaScript, Kotlin, NodeJS, and AngularJS), .NET (C#, ASP.NET, VB.NET), .NET Core, Perl, PHP, PL/SQL, Python, Ruby, T-SQL, Swift, Visual Basic 6",
 		"type": [
+			"DAST",
 			"SAST"
 		]
 	},
