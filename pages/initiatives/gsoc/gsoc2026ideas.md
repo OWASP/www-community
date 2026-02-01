@@ -128,17 +128,24 @@ OWASP Nettacker is a Modular Automated Penetration Testing/ Information gatherin
 
 ##### Explanation of Ideas
 
-- fix scan engine multi-threading/queuing issues
-- improve WebUI / add dashboard
-- add DefectDojo integration / output report format
-- add SARIF output report format
-- implement testing framework, get 70% code coverage level
+- improve/redesign WebUI / add a dashboard
+- implement more tests, get 85% code coverage level
+- implement more modules, focus on more coverage of CISA KEV CVEs
+- implement external API keys configuration using a config file, API and WebUI
+- implement module workflows e.g. run module B after module A only if module A returns any result/result matching condition
+- improve documentation
+- improve scan engine efficiency
+
+##### Your Own Ideas
+Do you have an idea to improve OWASP Nettacker?
+We'd love to hear it, please reach out in OWASP Slack on channel [#project-nettacker](https://app.slack.com/client/T04T40NHX/CQZGG24FQ) to ensure that the idea fits OWASP Nettacker roadmap and goals. 
 
 ##### Getting Started
 
 Repositories:
 
 - [OWASP Nettacker on OWASP GitHub](https://github.com/OWASP/Nettacker)
+- [Documentation](https://nettacker.readthedocs.io)
 - Join OWASP Slack and contact us on channel [#project-nettacker](https://app.slack.com/client/T04T40NHX/CQZGG24FQ)
 
 ##### Knowldege  Requirements
@@ -146,7 +153,7 @@ Repositories:
 - Python
 - Flask
 - HTML/CSS/JavaScript
-- previous vulnerability scanning/bug bounty hunting experience
+- previous vulnerability scanning/bug bounty hunting experience, vulnerability scanning tools use (nmap, metasploit, other kali linux tools)
 
 ##### Mentors
 
