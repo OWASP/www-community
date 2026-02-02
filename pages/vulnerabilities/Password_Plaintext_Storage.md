@@ -27,6 +27,15 @@ attempt to remedy the password management problem by obscuring the
 password with an encoding function, such as base 64 encoding, but this
 effort does not adequately protect the password.
 
+> ⚠️ **Note**
+
+> Similarly, using fast cryptographic hash functions or lightly modified constructions
+> (for example, chaining SHA-256 and SHA-512) does not adequately protect stored passwords
+> against rainbow table or precomputation attacks.
+> Such approaches remain computationally cheap and can be recomputed by attackers.
+> OWASP recommends using dedicated, memory-hard password hashing functions such as
+> bcrypt, scrypt, or Argon2.
+
 Storing a plaintext password in a configuration file allows anyone who
 can read the file access to the password-protected resource. Developers
 sometimes believe that they cannot defend the application from someone
