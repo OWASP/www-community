@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: RSQL Injection
 author: David Utón (m3n0sd0n4ld)
-contributors: 
+contributors: Kunal Gupta
 permalink: /attacks/RSQL_Injection
 tags: attack, RSQL Injection
 
