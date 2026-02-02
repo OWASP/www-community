@@ -17,7 +17,7 @@ RSQL is a query language designed for parameterized filtering of inputs in RESTf
 
 ## Overview
 
-RSQL Injection is a vulnerability in web applications that use RSQL as a query language in RESTful APIs. Similar to [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection) and [LDAP Injection](https://owasp.org/www-community/attacks/LDAP_Injection), this vulnerability occurs when RSQL filters are not properly sanitized, allowing an attacker to inject malicious queries to access, modify or delete data without authorization.
+RSQL Injection is a vulnerability in web applications that use RSQL as a query language in RESTful APIs. Similar in impact to [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection) and [LDAP Injection](https://owasp.org/www-community/attacks/LDAP_Injection), this vulnerability typically results in query logic manipulation or authorization bypass rather than arbitrary code execution.
 
 ## How does it work?
 
@@ -48,8 +48,8 @@ GET /api/v2/users?q=username==admin;password==* # Authentication Bypass
 GET /api/v2/users?filter[username]=admin User enumeration or data extraction
 GET /api/v2/users?filter[username]==admin;password==* # Authentication Bypass
 GET /api/v2/users?include=roles,permissions # User enumeration or data extraction
-GET /api/v2/users?include=roles,(select * from users) # Execution of malicious code
-GET /api/v2/users?sort=id;drop table users # Execution of malicious code
+GET /api/v2/users?include=roles,(select * from users) # Query manipulation / logic abuse
+GET /api/v2/users?sort=id;drop table users # Query manipulation / logic abuse
 ```
 
 #### POST, TRACE or PUT Parameters
@@ -84,6 +84,8 @@ Some APIs allow queries to be sent in HTTP headers, such as: `<HEADER>: username
 | `=rng=` | Performs a **from to** query. Returns all rows from *myTable* where values in *columnA* are equal or greater than the *fromValue*, and lesser than or equal to the *toValue* | `/api/v2/myTable?q=columnA=rng=(fromValue,toValue)` |
 
 **Note**: Table based on information from [**MOLGENIS**](https://molgenis.gitbooks.io/molgenis/content/) and [**rsql-parser**](https://github.com/jirutka/rsql-parser) applications.
+
+**Note:** Operators such as `=like=`, `=notlike=`, and `=q=` are framework-specific extensions and are not part of the core RSQL specification.
 
 #### Examples
 
@@ -202,9 +204,9 @@ Accept: application/vnd.api+json
 Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
 Accept-Encoding: gzip, deflate, br, zstd
 Content-Type: application/vnd.api+json
-Origin: https://locahost:3000
+Origin: https://localhost:3000
 Connection: keep-alive
-Referer: https://locahost:3000/
+Referer: https://localhost:3000/
 Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
@@ -380,10 +382,10 @@ Access-Control-Allow-Origin: *
             "status": "ACTIVE",
             "countryId": 63,
             "timeZoneId": 3,
-            "translationKey": ""************",
+            "translationKey": "************",
             "email": "juan*******@domain.local",
             "firstName": "juan",
-            "surname": ""************",",
+            "surname": "************",
             "telephoneCountryCode": "**",
             "mobilePhone": "************",
             "taxIdentifier": "************",
@@ -504,9 +506,9 @@ Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
 Accept-Encoding: gzip, deflate, br, zstd
 Content-Type: application/vnd.api+json
 Authorization: Bearer eyJ.....
-Origin: https:/localhost:3000
+Origin: https://localhost:3000
 Connection: keep-alive
-Referer: https:/localhost:3000/
+Referer: https://localhost:3000/
 Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
