@@ -263,6 +263,7 @@ Commercial tools of this type that are free for open source:
       - They make their component vulnerability data (for publicly known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
+  - [Spectra Assure Community](https://secure.software/) - A free platform by ReversingLabs for identifying malware, tampering, supply chain risks in open-source packages, and developer tools. Provides SBOM exports and access to the MCP Server Registry without requiring registration.
   - [Vulert](https://vulert.com) - Vulert's Software Composition Analysis (SCA) keeps an eye on the open source dependencies for new risks (vulnerabilities), recommends fixes, and ensures license compliance – all without requiring installation or access to the codebase. Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP, C/C++ and many more.
       - At Vulert Playground, one can test an app's security without any sign-ups. Visit [Vulert Playground](https://vulert.com/abom)
       - Free for open source and small companies.
