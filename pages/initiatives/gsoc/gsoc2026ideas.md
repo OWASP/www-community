@@ -83,7 +83,8 @@ We are actively looking for more mentors! If you have experience in **Django, Re
 
 📌 _Confirmed Mentors:_  
 - **Donnie** (_@DonnieBLT on Slack_)  
-- **Ahmed ElSheikh**  
+- **Ahmed ElSheikh**
+- **Manikandan Chandran**  
 - _More coming soon, Contact Donnie on Slack if you'd like to Mentor_  
 
 🎥 _To get up to speed, check out our [BLT videos](https://owaspblt.org/education/)._
