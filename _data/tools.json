@@ -2510,6 +2510,17 @@
 		]
 	},
 	{
+		"title": "Xygeni SAST",
+		"url": "https://xygeni.io/xygeni-code-security/",
+		"owner": "Xygeni",
+		"license": "Commercial",
+		"platforms": "SaaS, On-Premises",
+		"note": "Detect vulnerabilities and deliver secure code with Advanced SAST powered by malware detection and AI AutoFix for private remediation.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Zed Attack Proxy",
 		"url": "https://zaproxy.org",
 		"owner": "The ZAP Development Team",
