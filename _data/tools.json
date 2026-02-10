@@ -2510,6 +2510,17 @@
 		]
 	},
 	{
+		"title": "Xygeni DAST",
+		"url": "https://xygeni.io/xygeni-code-security/",
+		"owner": "Xygeni",
+		"license": "Commercial",
+		"platforms": "SaaS, On-Premises",
+		"note": "Xygeni DAST simulates live attacks on running web applications and APIs to detect exploitable vulnerabilities like SQLi, XSS, and auth flaws. It integrates into CI/CD pipelines providing risk-aware prioritization and actionable remediation guidance.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Xygeni SAST",
 		"url": "https://xygeni.io/xygeni-code-security/",
 		"owner": "Xygeni",
