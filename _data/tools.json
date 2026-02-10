@@ -2532,6 +2532,17 @@
 		]
 	},
 	{
+		"title": "Xygeni SCA",
+		"url": "https://xygeni.io/xygeni-code-security/",
+		"owner": "Xygeni",
+		"license": "Commercial",
+		"platforms": "SaaS, On-Premises",
+		"note": "Xygeni SCA provides real-time open-source security with malware detection, reachability analysis, and automated remediation. It enables risk-based prioritization and exports SBOMs in CycloneDX and SPDX formats.",
+		"type": [
+			"SCA"
+		]
+	},
+	{
 		"title": "Zed Attack Proxy",
 		"url": "https://zaproxy.org",
 		"owner": "The ZAP Development Team",
