@@ -80,6 +80,7 @@ In addition, we are aware of the following commercial SAST tools that are free f
   - [Arnica](https://www.arnica.io/solution/code-security) - Scans all source code repositories for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets. The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count. The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
   - [Corgea](https://corgea.com/) - An AI-native SAST scanner that helps developers find and fix insecure code. It detects business logic flaws, broken authentication, API vulnerabilities and more with minimal false positives. Corgea automatically generates security fixes for developers to review and approve. Integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. [Free to use](https://corgea.com/pricing).
   - [Kusari](https://kusari.dev/inspector) - Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests. This checks for bad dependencies, licenses, quality data. [Free for individual use](https://www.kusari.dev/pricing).
+- [Xygeni](https://xygeni.io/xygeni-code-security/) - Provides Advanced SAST with real-time malware detection and AI-powered AutoFix. It helps developers find and fix vulnerabilities with minimal friction. Free for open source projects.
 
 ### DAST Tools
 
@@ -115,6 +116,7 @@ capabilities. Our primary recommendation is to use one of these:
     Collection of dynamic security related helpers.
     Sec-helpers is a bundle of useful tests and validators to ensure the security of a given domain.
   - [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) is a coverage-guided REST API fuzzer developed on top of LibAFL, targeting a wide audience of end-users, with a strong focus on ease-of-use, explainability of the discovered flaws and modularity. WuppieFuzz supports all three settings of testing (black box, grey box and white box).
+- [Xygeni DAST](https://xygeni.io/dast/) - Simulates real-world attacks against web applications and APIs to identify vulnerabilities in running environments. It features risk-aware prioritization and clear remediation paths. Free for open source projects.
 
 We are not aware of any other commercial grade tools that offer their
 full featured DAST product free for open source projects.
@@ -276,6 +278,12 @@ Commercial tools of this type that are free for open source:
       - [SBOMs]([https://www.arnica.io/solution/sbom](https://docs.arnica.io/arnica-documentation/inventory/software-bill-of-materials-sbom)) are generated and automatically updated across all source code repositories.
       - [Supported languages](https://docs.arnica.io/arnica-documentation/code-risks/software-composition-analysis-sca): .Net, C, C++, L, Go, Java, JavaScript (including various frameworks), PHP, Python, Ruby, Rust, Scala, Swift.
       - Simplifies the risk prioritization by automatically classifying the business important of each product and correlating the potential exploitability with open source threat feeds (e.g. EPSS).
+  - [Xygeni](https://xygeni.io/) - A comprehensive AI-powered AppSec and Software Supply Chain Security platform. Xygeni provides an integrated suite of tools to detect, prioritize, and remediate risks end-to-end across the SDLC. [Free for Open Source projects](https://xygeni.io/).
+      - [cite_start]**Advanced SAST**: Combines static analysis with intelligent malware detection and AI AutoFix for secure remediation directly in pull requests[cite: 370, 432].
+      - [cite_start]**SCA & Malware Defense**: Identifies vulnerable dependencies and malicious code in real-time, featuring reachability analysis and automated dependency upgrades[cite: 372, 439, 444].
+      - [cite_start]**Secrets Security**: Scans and blocks the publication of sensitive information like API keys and tokens in real-time across the entire Git history[cite: 374, 480, 482].
+      - [cite_start]**IaC & CI/CD Security**: Protects infrastructure templates and pipelines from misconfigurations and supply chain risks, enforcing security policies and guardrails[cite: 376, 378, 488, 494].
+      - [cite_start]**DAST-Driven ASPM**: Ingests findings from scanners like ZAP or Acunetix to provide runtime-aware prioritization, filtering vulnerabilities by real-world exposure and exploitability[cite: 516, 517, 519].
 
 ### Code Quality tools
 
@@ -331,7 +339,12 @@ open source projects also consider using good code quality tools. A few that we 
   - [Faraday](https://www.faradaysec.com/) - Open Source Vulnerability Manager
       - Security has two difficult tasks: designing smart ways of getting new information, and keeping track of findings to improve remediation efforts. With Faraday, you may focus on discovering vulnerabilities while we help you with the rest. Just use it in your terminal and get your work organized on the run. Faraday was made to let you take advantage of the available tools in the community in a truly multiuser way.
       - Community Version: public open source projects on [GitHub](https://github.com/infobyte/faraday)
-
+  - [Xygeni CI/CD & Build Security](https://xygeni.io/) - A unified platform to secure the entire software supply chain by protecting pipelines and build processes.
+      - **CI/CD Security**: Continuously scans pipeline executions to block supply chain attacks, detects misconfigurations in build scripts and CI/CD tools, and enforces least privilege policies.
+      - **Build Security & Integrity**: Ensures artifact integrity through real-time verification and attestation (SLSA, in-toto), blocking tampered artifacts before deployment without slowing down development.
+      - **Anomaly Detection**: Monitors CI/CD infrastructure in real-time to detect and block suspicious actions or precursors to an attack.
+      - **Free for Open Source**: Comprehensive security features are available at no cost for public open-source projects.
+    
 ### Secrets Detection Tools
 
 Secrets detection is often confused with SAST because both scan through static source code. Secrets detection scan the default branch before deployment but can also scan through every single commit of the git history, covering every branch, even development or test ones.
@@ -360,6 +373,8 @@ Secrets detection is often confused with SAST because both scan through static s
     - Built in Rust, it combines live credential validation, source code parsing, and the SIMD-accelerated Vectorscan regex engine for unmatched performance and accuracy
     - Ships with hundreds of built-in rules that detect and validate secrets in real time, and can be extended with custom rules
     - Supports building a baseline file, to detect and prevent new secrets from being added to a codebase
+  - [Xygeni Secrets](https://xygeni.io/xygeni-code-security/) - Scans repositories for hardcoded secrets, credentials, and configuration flaws. It provides deep visibility into secret exposure across the entire git history. Free for open source projects.
+
 
 ### Privacy Engineering Tools
 
@@ -373,6 +388,11 @@ Secrets detection is often confused with SAST because both scan through static s
 
 - [Mobb](https://mobb.ai/) - Mobb is an automatic code fixer for security issues. It runs manually or as part of a pipeline, digests your SAST reports, and generates ready-to-be-merged pull requests that fix your issues.
 - [Corgea](https://corgea.com/) - Corgea connects to Semgrep, Snyk, CodeQL, Checkmarx and Fortify to remove false positives and issue fixes for security vulnerabilities. It supports Python, Go, Javascript, Typescript, Ruby, C#, C, C++, Java, PHP, and Kotlin. It can be run manually or as part of CI/CD pipelines. [Free to use](https://corgea.com/pricing).
+- [Xygeni](https://xygeni.io/) - An AI-powered platform that automates the detection and remediation of vulnerabilities, malware, and secrets across the SDLC. [Free for open source projects](https://xygeni.io/).
+    - [cite_start]**AI AutoFix**: Provides secure, context-aware fixes for SAST and SCA findings directly in IDEs and pull requests, enabling instant remediation[cite: 6, 11, 73].
+    - [cite_start]**Xygeni Bot**: Automatically runs remediation tasks on-demand or daily, creating smart, ready-to-merge Pull Requests to close the loop between detection and fix.
+    - [cite_start]**Remediation Risk Analysis**: Evaluates the potential impact of updates and fixes to prevent breaking changes before applying changes to dependencies or code.
+    - [cite_start]**Automated Guardrails**: Implements policy-driven actions and playbooks to automatically block misconfigurations and remediate security leaks in real-time[cite: 34, 122, 142].
 
 ### Post-Quantum Cryptography Tools
 
