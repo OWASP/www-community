@@ -106,7 +106,7 @@ If the server does not verify that the requested file belongs to the authenticat
 
 ## Related [Vulnerabilities](https://owasp.org/www-community/vulnerabilities/)
 
-- Broken Access Control (OWASP Top 10 A01:2021)
+- Broken Access Control (OWASP Top 10 A01:2025)
 
 ## References
 
