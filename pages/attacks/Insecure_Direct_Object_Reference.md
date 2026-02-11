@@ -4,7 +4,7 @@ layout: col-sidebar
 title: Insecure Direct Object Reference (IDOR)
 author: Dmytro Knivets
 contributors:
-permalink: /attacks/Insecure_Direct_Object_Reference
+permalink: /attacks/insecure_direct_object_reference
 tags: attack, IDOR
 
 ---
