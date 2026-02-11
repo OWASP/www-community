@@ -19,7 +19,7 @@ IDOR is classified under **Broken Access Control** (A01:2025) in the [OWASP Top 
 
 ## Description
 
-Web applications frequently use user-supplied input to directly reference objects. For example, a URL like `/api/users/123/profile` uses the ID `123` to look up a specific user record. When the application does not verify that the authenticated user is authorized to access that particular record, an attacker can simply change `123` to `124` to view or modify another user's data.
+Web applications frequently use predictable values to reference objects. For example, a URL like `/api/users/123/profile` uses the ID `123` to look up a specific user record. When the application does not verify that the authenticated user is authorized to access that particular record, an attacker can simply change `123` to `124` to view or modify another user's data.
 
 IDOR vulnerabilities can appear in:
 
@@ -36,7 +36,7 @@ The core issue is that the application trusts the client to supply a valid refer
 
 A REST API returns a user's profile based on the ID in the URL path. The server retrieves the record but never checks whether the authenticated user is allowed to access it.
 
-**Request:**
+#### Request
 
 ```http
 GET /api/users/124/profile HTTP/1.1
@@ -44,7 +44,7 @@ Host: example.com
 Authorization: Bearer <token_for_user_123>
 ```
 
-**Vulnerable server code (Python / Flask):**
+#### Vulnerable server code (Python / Flask)
 
 ```python
 @app.route("/api/users/<int:user_id>/profile")
@@ -59,7 +59,7 @@ def get_profile(user_id):
 
 Because the endpoint only checks that the caller is *authenticated* (via `@login_required`), user 123 can retrieve user 124's profile simply by changing the ID in the URL.
 
-**Fixed version:**
+#### Fixed version
 
 ```python
 @app.route("/api/users/<int:user_id>/profile")
@@ -92,7 +92,7 @@ If the server does not verify that the requested file belongs to the authenticat
 ## How to Prevent
 
 - **Enforce server-side authorization checks.** Every request that accesses an object must verify that the authenticated user has permission to access that specific object. Do not rely solely on authentication.
-- **Use non-guessable object references.** Avoid exposing sequential database primary keys. Use UUIDs (v4) or other random identifiers to make enumeration impractical. For higher security, map references to per-session random tokens that the server resolves internally. Note that non-guessable identifiers reduce the attack surface but are not a substitute for authorization checks — a leaked UUID still exposes the resource.
+- **Use non-sequential identifiers as defense in depth.** Sequential IDs (1, 2, 3…) make enumeration trivial and leak information such as total record counts and creation order. Using UUIDs (v4) or other random identifiers mitigates this information disclosure. Note that hashing a sequential value (e.g., `MD5(123)`) does not help — an attacker can precompute hashes for the entire input space. However, non-guessable identifiers alone do not prevent IDOR — proper authorization checks are the primary defense.
 - **Apply the principle of least privilege.** Ensure that database queries and data access layers are scoped to the current user's permissions (e.g., `SELECT * FROM orders WHERE user_id = :current_user AND id = :order_id`).
 - **Validate access at the data layer.** Centralize authorization logic so that every data access path — not just controller endpoints — enforces ownership or role-based checks.
 - **Log and monitor access patterns.** Detect sequential enumeration attempts (e.g., a single user requesting IDs 1 through 1000) as potential IDOR exploitation.
