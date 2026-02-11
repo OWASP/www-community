@@ -15,7 +15,7 @@ tags: attack, IDOR
 
 Insecure Direct Object Reference (IDOR) is an access control vulnerability that occurs when an application exposes internal object references — such as database keys, file names, or record IDs — and fails to verify that the requesting user is authorized to access the referenced object. An attacker can exploit this by modifying the reference value to access resources belonging to other users.
 
-IDOR is classified under **Broken Access Control** (A01:2021) in the [OWASP Top 10](https://owasp.org/Top10/A01_2021-Broken_Access_Control/).
+IDOR is classified under **Broken Access Control** (A01:2025) in the [OWASP Top 10](https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/index.html).
 
 ## Description
 
@@ -111,6 +111,6 @@ If the server does not verify that the requested file belongs to the authenticat
 ## References
 
 - CWE-639: Authorization Bypass Through User-Controlled Key — <https://cwe.mitre.org/data/definitions/639.html>
-- OWASP Top 10 A01:2021 — Broken Access Control — <https://owasp.org/Top10/A01_2021-Broken_Access_Control/>
+- OWASP Top 10 A01:2025 — Broken Access Control — <https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/index.html>
 - OWASP Testing Guide: Testing for IDOR — <https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References>
 - OWASP Cheat Sheet: Authorization — <https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html>
