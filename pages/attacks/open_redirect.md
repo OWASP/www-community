@@ -192,5 +192,5 @@ For comprehensive SSRF prevention including URL validation, see the [Server-Side
 ## References
 
 - CWE-601: URL Redirection to Untrusted Site ('Open Redirect') — <https://cwe.mitre.org/data/definitions/601.html>
-- OWASP Testing Guide: Testing for Client-side URL Redirect — <https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/11-Client-side_Testing/04-Testing_for_Client-side_URL_Redirect>
+- OWASP Testing Guide: Testing for Client-side URL Redirect — <https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/04-Testing_for_Client-side_URL_Redirect>
 - OWASP Cheat Sheet: Unvalidated Redirects and Forwards — <https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html>
