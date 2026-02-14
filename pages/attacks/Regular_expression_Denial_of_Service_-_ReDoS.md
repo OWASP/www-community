@@ -38,7 +38,7 @@ match is found (or all the paths are tried and fail).
 For example, the Regex pattern or quantifier `^(a+)+$` is represented by the following
 NFA:
 
-![Nondeterministic Finite Automaton](../assets/images/attacks/NFA.png)
+![Nondeterministic Finite Automaton](../../assets/images/attacks/NFA.png)
 
 For the input `aaaaX` there are 16 possible paths in the above
 graph. But for `aaaaaaaaaaaaaaaaX` there are 65536 possible paths,
@@ -96,7 +96,7 @@ Regex**, and make the system vulnerable.
 
 The Web is Regex-Based:
 
-![](../assets/images/attacks/RegexBasedWeb.png)
+![](../../assets/images/attacks/RegexBasedWeb.png)
 
 In every layer of the WEB there are Regular Expressions, that might
 contain an **Evil Regex**. An attacker can hang a WEB-browser (on a

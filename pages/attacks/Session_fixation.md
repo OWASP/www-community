@@ -93,7 +93,7 @@ Server
 6. knowing the session ID, the attacker can access the user's
 account.
 
-![Session sniffing](../assets/images/attacks/Session_Attacks_Fixation.jpg)
+![Session sniffing](../../assets/images/attacks/Session_Attacks_Fixation.jpg)
 
 
 Figure 1. Simple example of Session Fixation attack.
@@ -129,7 +129,7 @@ the server response can be made, intercepting the packages exchanged
 between the client and the Web Application inserting the Set-Cookie
 parameter.
 
-![Session sniffing](../assets/images/attacks/Session_Attacks_Fixation2.jpg)
+![Session sniffing](../../assets/images/attacks/Session_Attacks_Fixation2.jpg)
 
 Figure 2. Set-Cookie in the HTTP header response
 
