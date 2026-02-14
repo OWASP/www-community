@@ -406,13 +406,16 @@ PyGoat is an open-source, intentionally vulnerable Python web application design
 - Refactor the webapp, move away vulnarable labs from the main website.
 - Deploy a microservice architecture based approch for the labs.
 - Add new labs to the project.
-- Improvment of interactive playgrounds.
+- Add interactive dashboard for user performance and completion status.
+- UI consistency
+- Expand challenge section and playgrounds.
 - Extend labs to other languages as well.
 - Prepare for `OWASP Top 10:2026` section
 
 #### Mentors
 - [ardiansyah](mailto:pakdesawangan@gmail.com)
 - [Rupak Biswas](https://github.com/RupakBiswas-2304)([Rupak](https://owasp.slack.com/team/U036WSR1684) on slack)
+- [Garvita Kataria](https://github.com/Garvita-k) ([Slack](https://owasp.slack.com/team/U08BJEKS5KQ))
 
   
 ### [OpenCRE](https://opencre.org/)
