@@ -31,7 +31,7 @@ cookie reading the http header, but it’s also possible to change an
 amount of money transaction inside the application context, as shown in
 figure 1.
 
-![HTTP packet intercepted with Paros Proxy](../assets/images/attacks/mitm-paros.jpg)
+![HTTP packet intercepted with Paros Proxy](../../assets/images/attacks/mitm-paros.jpg)
 
 *Figure 1. Illustration of a HTTP Packet intercepted with Paros Proxy.*
 

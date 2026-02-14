@@ -43,7 +43,7 @@ corresponds to the username. By trying new values for it, like “user02”,
 it could be possible to get inside the application without prior
 authentication.
 
-![Predictable cookie](../assets/images/attacks/predictable-cookie.jpg)
+![Predictable cookie](../../assets/images/attacks/predictable-cookie.jpg)
 
 *Figure 1. Predictable cookie*
 
