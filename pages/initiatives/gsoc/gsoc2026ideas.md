@@ -185,22 +185,21 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 
 #### Projects / Ideas
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+![Possible for "Small" GSoC 2026 project](https://img.shields.io/badge/small%20size%20(90h)-possible-green) ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(350h)-possible-green)
 
 - [OWASP Board Activity Standardization and Data Programmatic Access](https://github.com/OWASP/Nest/milestone/20): This milestone focuses on standardizing how OWASP Board activities are recorded, structured, and published.
 - [OWASP Board Candidate Information Transparency and Fact-Checking](https://github.com/OWASP/Nest/milestone/19): This milestone focuses on improving the transparency, accuracy, and trustworthiness of information related to OWASP board candidates.
-- [OWASP Chapter/Project Health Dashboard](https://github.com/OWASP/Nest/milestone/17): A dashboard for monitoring the health of OWASP chapters and projects. This includes tracking vital metrics such as meeting/release frequency, issue resolution, and contributor/member growth.
+- [OWASP Project Health Dashboard Improvement](https://github.com/OWASP/Nest/milestone/17): A dashboard for monitoring the health of OWASP chapters and projects. This includes tracking vital metrics such as meeting/release frequency, issue resolution, and contributor/member growth.
+- [OWASP Pulse](https://github.com/OWASP/Nest/milestone/24): This milestone introduces the OWASP Pulse page in OWASP Nest as a unified, near real-time activity feed that aggregates events across repositories with filters by user, project, repository, and chapter to improve visibility and engagement.
+- [OWASP Contributor Recognition Program](https://github.com/OWASP/Nest/milestone/22): This milestone introduces an OWASP-wide Contributor Recognition system in OWASP Nest to make contributions visible, measurable, and shareable across projects and chapters, inspired by community platforms like ContribCard, with potential integration into existing OWASP Nest badges and certificate delivery via services like Certifier.
+- [OWASP Nest UI/UX Revamp](https://github.com/OWASP/Nest/milestone/23): This milestone delivers a comprehensive UI/UX revamp of OWASP Nest to improve usability, accessibility, visual consistency, and the overall contributor experience across the platform.
 - [OWASP Community Snapshots](https://github.com/OWASP/Nest/milestone/16): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments.
 - [OWASP Nest Monitoring and Observability](https://github.com/OWASP/Nest/milestone/21): Implement modern monitoring and observability practices across OWASP Nest infrastructure on AWS to ensure reliability, performance visibility, and proactive issue detection.
-- [OWASP NestBot AI Assistant](https://github.com/OWASP/Nest/milestone/8): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries.
+- [OWASP NestBot AI Assistant Improvement](https://github.com/OWASP/Nest/milestone/8): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries.
 
 Please visit our planned [milestones page](https://github.com/OWASP/Nest/milestones) or `gsoc2026` labeled [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3Agsoc2026).
 
 #### Your own ideas
-
-![Possible for "Small" GSoC 2026 project](https://img.shields.io/badge/small%20size%20(90h)-possible-yellow) ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(350h)-preferred-green)
-
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 Do you have an idea to improve OWASP Nest?
 We'd love to hear it, please reach out in Slack to ensure that the idea fits OWASP Nest goals.
@@ -222,8 +221,26 @@ We'd love to hear it, please reach out in Slack to ensure that the idea fits OWA
 <img src="https://github.com/arkid15r.png" alt="Arkadii Yakovets" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Arkadii Yakovets</strong><br>
-Cybersecurity Lead, CCSP, CISSP, CSSLP | OWASP Nest project leader<br>
+Cybersecurity Lead, CCSP, CISSP, CSSLP | OWASP Nest Project Leader<br>
 <i class="fab fa-github"></i> <a href="https://github.com/arkid15r/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/arkid15r/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U060W3NKLTF">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/ioleksiuk.png" alt="Illia Oleksiuk" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Illia Oleksiuk</strong><br>
+DevOps Engineer at Pow.bio<br>
+<i class="fab fa-github"></i> <a href="https://github.com/ioleksiuk">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ioleksiuk/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0AAP59RN87">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/emaybu.png" alt="Ime Iyonsi" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Ime Iyonsi</strong><br>
+Software Engineer / Application Security Engineer, CC, GSEC<br>
+<i class="fab fa-github"></i> <a href="https://github.com/emaybu/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/imeiyonsi/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U06H942K9UY">Slack</a>
 </div>
 </div>
 
@@ -231,7 +248,7 @@ Cybersecurity Lead, CCSP, CISSP, CSSLP | OWASP Nest project leader<br>
 <img src="https://github.com/kasya.png" alt="Kateryna Golovanova" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Kateryna Golovanova</strong><br>
-Senior Software Engineer at Skill Struck, CC | OWASP Nest project leader<br>
+Senior Software Engineer at Skill Struck, CC | OWASP Nest Project Leader<br>
 <i class="fab fa-github"></i> <a href="https://github.com/kasya/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kate-golovanova/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U07PWB1JZ6Z">Slack</a>
 </div>
 </div>
@@ -240,7 +257,7 @@ Senior Software Engineer at Skill Struck, CC | OWASP Nest project leader<br>
 <img src="https://github.com/kerlynNkep.png" alt="Kerlyn Manyi" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Kerlyn Manyi</strong><br>
-Cybersecurity Engineer | GSoC'23 contributor at Mifos Initiative<br>
+Cybersecurity Engineer | GSoC'25 mentor at Mifos Initiative<br>
 <i class="fab fa-github"></i> <a href="https://github.com/kerlynNkep">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kerlyn-manyi-a80201123/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U06M01ARG3V">Slack</a>
 </div>
 </div>
@@ -273,20 +290,11 @@ Senior GRC & Technology Risk Leader, CISSP<br>
 </div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center;">
-<img src="https://github.com/SalmanDeveloperz.png" alt="Muhammad Salman" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
-<div>
-<strong>Muhammad Salman</strong><br>
-Software Developer | GSoC'25 contributor at FOSSology<br>
-<i class="fab fa-github"></i> <a href="https://github.com/SalmanDeveloperz/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/msalman199/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0A7YV0SPNE">Slack</a>
-</div>
-</div>
-
-<div style="margin-bottom: 20px; display: flex; align-items: center;">
 <img src="https://github.com/noland-crane.png" alt="Noland Crane" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Noland Crane</strong><br>
 Application Security Analyst at Bloomreach, CISSP<br>
-<i class="fab fa-github"></i> <a href="https://github.com/noland-crane">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/nolandcrane/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0A4M7U056U">Slack</a>
+<i class="fab fa-github"></i> <a href="https://github.com/noland-crane">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/nolandcrane/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0ABF22MQ2Z">Slack</a>
 </div>
 </div>
 
@@ -299,14 +307,6 @@ Product Security Engineer at Splunk<br>
 </div>
 </div>
 
-<div style="margin-bottom: 20px; display: flex; align-items: center;">
-<img src="https://github.com/aramattamara.png" alt="Tamara Lazerka" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
-<div>
-<strong>Tamara Lazerka</strong><br>
-QA Analyst at Cart.com | GSoC'25 mentor at OWASP<br>
-<i class="fab fa-github"></i> <a href="https://github.com/aramattamara/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aramattamara/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0881RRPBDY">Slack</a>
-</div>
-</div>
 
 Please contact Arkadii Yakovets or Kate Golovanova if you're interested in participating as a mentor.
 
