@@ -183,19 +183,31 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 - PostgreSQL, Algolia, Redis
 - Docker, Ansible, Terraform, AWS
 
+#### Getting Started
+
+- Check out our [contributing guidelines](https://github.com/OWASP/Nest/blob/main/CONTRIBUTING.md)
+- Join OWASP Nest channel [#project-nest](https://owasp.slack.com/archives/project-nest)
+- Consider `good first issue` from OWASP Nest [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
+
 #### Projects / Ideas
 
 ![Possible for "Small" GSoC 2026 project](https://img.shields.io/badge/small%20size%20(90h)-possible-green) ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(350h)-possible-green)
 
 - [OWASP Board Activity Standardization and Data Programmatic Access](https://github.com/OWASP/Nest/milestone/20): This milestone focuses on standardizing how OWASP Board activities are recorded, structured, and published.
+
 - [OWASP Board Candidate Information Transparency and Fact-Checking](https://github.com/OWASP/Nest/milestone/19): This milestone focuses on improving the transparency, accuracy, and trustworthiness of information related to OWASP board candidates.
-- [OWASP Project Health Dashboard Improvement](https://github.com/OWASP/Nest/milestone/17): A dashboard for monitoring the health of OWASP chapters and projects. This includes tracking vital metrics such as meeting/release frequency, issue resolution, and contributor/member growth.
-- [OWASP Pulse](https://github.com/OWASP/Nest/milestone/24): This milestone introduces the OWASP Pulse page in OWASP Nest as a unified, near real-time activity feed that aggregates events across repositories with filters by user, project, repository, and chapter to improve visibility and engagement.
-- [OWASP Contributor Recognition Program](https://github.com/OWASP/Nest/milestone/22): This milestone introduces an OWASP-wide Contributor Recognition system in OWASP Nest to make contributions visible, measurable, and shareable across projects and chapters, inspired by community platforms like ContribCard, with potential integration into existing OWASP Nest badges and certificate delivery via services like Certifier.
-- [OWASP Nest UI/UX Revamp](https://github.com/OWASP/Nest/milestone/23): This milestone delivers a comprehensive UI/UX revamp of OWASP Nest to improve usability, accessibility, visual consistency, and the overall contributor experience across the platform.
+
 - [OWASP Community Snapshots](https://github.com/OWASP/Nest/milestone/16): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments.
-- [OWASP Nest Monitoring and Observability](https://github.com/OWASP/Nest/milestone/21): Implement modern monitoring and observability practices across OWASP Nest infrastructure on AWS to ensure reliability, performance visibility, and proactive issue detection.
+
+- [OWASP Contributor Recognition Program](https://github.com/OWASP/Nest/milestone/22): This milestone introduces an OWASP-wide Contributor Recognition system in OWASP Nest to make contributions visible, measurable, and shareable across projects and chapters, inspired by community platforms like ContribCard, with potential integration into existing OWASP Nest badges and certificate delivery via services like Certifier.
+
 - [OWASP NestBot AI Assistant Improvement](https://github.com/OWASP/Nest/milestone/8): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries.
+
+- [OWASP Nest Monitoring and Observability](https://github.com/OWASP/Nest/milestone/21): Implement modern monitoring and observability practices across OWASP Nest infrastructure on AWS to ensure reliability, performance visibility, and proactive issue detection.
+
+- [OWASP Nest UI/UX Revamp](https://github.com/OWASP/Nest/milestone/23): This milestone delivers a comprehensive UI/UX revamp of OWASP Nest to improve usability, accessibility, visual consistency, and the overall contributor experience across the platform.
+
+- [OWASP Pulse](https://github.com/OWASP/Nest/milestone/24): This milestone introduces the OWASP Pulse page in OWASP Nest as a unified, near real-time activity feed that aggregates events across repositories with filters by user, project, repository, and chapter to improve visibility and engagement.
 
 Please visit our planned [milestones page](https://github.com/OWASP/Nest/milestones) or `gsoc2026` labeled [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3Agsoc2026).
 
@@ -209,13 +221,9 @@ We'd love to hear it, please reach out in Slack to ensure that the idea fits OWA
 - Your proposal projects/ideas are fully completed.
 - Your code follows our existing style guides and passes quality checks, test coverage, etc.
 
-#### Getting Started
-
-- Check out our [contributing guidelines](https://github.com/OWASP/Nest/blob/main/CONTRIBUTING.md)
-- Join OWASP Nest channel [#project-nest](https://owasp.slack.com/archives/project-nest)
-- Consider `good first issue` from OWASP Nest [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
-
 #### Mentors
+
+Please contact [Arkadii Yakovets](https://owasp.slack.com/team/U060W3NKLTF) or [Kate Golovanova](https://owasp.slack.com/team/U07PWB1JZ6Z) if you're interested in participating as a mentor.
 
 <div style="margin-bottom: 20px; display: flex; align-items: center;">
 <img src="https://github.com/arkid15r.png" alt="Arkadii Yakovets" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
@@ -247,7 +255,7 @@ Software Engineer / Application Security Engineer, CC, GSEC<br>
 <div style="margin-bottom: 20px; display: flex; align-items: center;">
 <img src="https://github.com/kasya.png" alt="Kateryna Golovanova" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
-<strong>Kateryna Golovanova</strong><br>
+<strong>Kate Golovanova</strong><br>
 Senior Software Engineer at Skill Struck, CC | OWASP Nest Project Leader<br>
 <i class="fab fa-github"></i> <a href="https://github.com/kasya/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kate-golovanova/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U07PWB1JZ6Z">Slack</a>
 </div>
@@ -306,9 +314,6 @@ Product Security Engineer at Splunk<br>
 <i class="fab fa-github"></i> <a href="https://github.com/RAJANAGORI">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/raja-nagori/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U03HUR536TG">Slack</a>
 </div>
 </div>
-
-
-Please contact Arkadii Yakovets or Kate Golovanova if you're interested in participating as a mentor.
 
 ### [OWASP Juice Shop](https://owasp-juice.shop)
 
