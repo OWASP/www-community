@@ -83,7 +83,8 @@ We are actively looking for more mentors! If you have experience in **Django, Re
 
 📌 _Confirmed Mentors:_  
 - **Donnie** (_@DonnieBLT on Slack_)  
-- **Ahmed ElSheikh**  
+- **Ahmed ElSheikh**
+- **Manikandan Chandran**  
 - _More coming soon, Contact Donnie on Slack if you'd like to Mentor_  
 
 🎥 _To get up to speed, check out our [BLT videos](https://owaspblt.org/education/)._
@@ -405,13 +406,16 @@ PyGoat is an open-source, intentionally vulnerable Python web application design
 - Refactor the webapp, move away vulnarable labs from the main website.
 - Deploy a microservice architecture based approch for the labs.
 - Add new labs to the project.
-- Improvment of interactive playgrounds.
+- Add interactive dashboard for user performance and completion status.
+- UI consistency
+- Expand challenge section and playgrounds.
 - Extend labs to other languages as well.
 - Prepare for `OWASP Top 10:2026` section
 
 #### Mentors
 - [ardiansyah](mailto:pakdesawangan@gmail.com)
 - [Rupak Biswas](https://github.com/RupakBiswas-2304)([Rupak](https://owasp.slack.com/team/U036WSR1684) on slack)
+- [Garvita Kataria](https://github.com/Garvita-k) ([Slack](https://owasp.slack.com/team/U08BJEKS5KQ))
 
   
 ### [OpenCRE](https://opencre.org/)
@@ -442,11 +446,190 @@ Priorities for us are:
 - [Make the gap analysis functionality faster](https://github.com/OWASP/OpenCRE/issues/587)
 - [MyOpenCRE](https://github.com/OWASP/OpenCRE/milestone/5)
 - [Releasing the Explorer page](https://github.com/OWASP/OpenCRE/milestone/6)
+
+---
+
+#### 🔹 **OpenCRE Scraper & Indexer (Project OIE) - Module Projects**
+
+The OpenCRE Scraper & Indexer is an autonomous ETL pipeline that ingests OWASP security knowledge from various sources, filters noise, and links content to the OpenCRE knowledge graph. This project consists of four independent modules, each suitable for a GSoC project.
+
+**Important Requirements:**
+- **Contributor Eligibility**: Applicants must have **at least 3 merged pull requests** to the OpenCRE repository before GSoC selection. This demonstrates familiarity with the codebase, contribution workflow, and project standards.
+- **Code of Conduct**: All contributors must read and agree to follow the [OpenCRE Code of Conduct](https://github.com/OWASP/OpenCRE/blob/main/CODE_OF_CONDUCT.md). Violations will result in immediate project termination.
+- **Pre-Code Experiments**: Each module requires completion of specific pre-code experiments before implementation begins. These experiments validate the approach and ensure technical feasibility.
+
+For detailed architecture and requirements, see the [RFC: The OpenCRE Scraper & Indexer](https://raw.githubusercontent.com/OWASP/OpenCRE/1539e0a209b7891c2363b4aa9be407cad87fe319/docs/designs/owasp-pane-of-glass.md).
+
+---
+
+##### 🔸 **Module A: Information Harvesting**
+
+![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+
+**Primary Objectives:**
+- Build a GitHub Actions-based cron job that runs nightly at 02:00 UTC
+- Implement a config reader that parses a `repos.yaml` file containing a list of high-value OWASP repositories (ASVS, WSTG, etc.)
+- Develop a diff fetcher that uses `git log --since="24h"` to identify changes in the last 24 hours
+- Create a temporary storage system (Raw Change Bucket) to store raw diffs before processing
+- Handle GitHub API rate limits gracefully
+- Parse files to extract meaningful text changes (not raw diff syntax)
+
+**Technical Requirements:**
+- **Tech Stack**: Python (requests, PyGithub), GitHub Actions (Cron)
+- **Pre-Code Experiment**: 
+  - Manually inspect 10 random OWASP repositories to identify common junk files (package-lock.json, CNAME, _config.yml, etc.)
+  - Create a regex exclusion list that eliminates 90% of noise without downloading files
+  - Write a 10-line script to fetch only modified paragraphs from a large Markdown file using git diff, returning clean text (not raw diff syntax)
+
+**Expected Results:**
+- A production-ready GitHub Action that runs nightly
+- Configurable repository list via YAML
+- Efficient diff extraction that filters out noise files
+- Comprehensive error handling and logging
+- Unit tests with >70% code coverage
+- Documentation for configuration and maintenance
+
+**Difficulty Characterization:**
+This is a **Medium** difficulty project requiring:
+- Understanding of GitHub API and rate limiting
+- Git operations and diff parsing
+- YAML configuration parsing
+- GitHub Actions workflow development
+- Incremental crawling strategies
+
+---
+
+##### 🔸 **Module B: Noise/Relevance Filter**
+
+![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+
+**Primary Objectives:**
+- Implement a two-stage filtering system: regex-based filtering followed by LLM-based relevance checking
+- Create regex filters to reject common noise files (*.css, lockfiles, tests/, etc.)
+- Integrate with managed LLM APIs (Gemini Flash or GPT-4o-mini) for semantic relevance checking
+- Design and tune prompts to accurately identify security knowledge vs. noise (formatting, linting, bureaucracy)
+- Build a knowledge queue system that routes relevant content to Module C
+
+**Technical Requirements:**
+- **Tech Stack**: Python (langchain or raw API calls), Managed LLM APIs (Gemini Flash/GPT-4o-mini)
+- **Pre-Code Experiment**:
+  - Extract 100 real commit messages/diffs from OWASP repositories
+  - Manually tag them in a spreadsheet: Relevant (Security Info) vs Noise (Typos, Admin, Formatting)
+  - Run these 100 items through the proposed LLM prompt
+  - Success Criteria: LLM must match manual tags >97% of the time
+
+**Expected Results:**
+- A filtering pipeline that processes raw changes and outputs relevant security knowledge
+- Tuned LLM prompts with >97% accuracy on validation dataset
+- Cost-effective implementation using managed LLM APIs
+- Comprehensive logging of filtered vs. accepted content
+- Unit tests with >70% code coverage
+- Documentation of prompt engineering process and results
+
+**Difficulty Characterization:**
+This is an **Easy** difficulty project suitable for:
+- Entry-level developers interested in prompt engineering
+- Developers comfortable with API integration
+- Those who enjoy iterative prompt tuning ("vibe coding")
+- No advanced ML knowledge required
+
+---
+
+##### 🔸 **Module C: The Librarian (Smart Content Mapping)**
+
+![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+**Primary Objectives:**
+- Implement a two-stage retrieval system: vector search (bi-encoder) followed by cross-encoder re-ranking
+- Set up vector search using pgvector to retrieve top 20 candidate CRE nodes
+- Integrate sentence-transformers library with ms-marco-MiniLM-L-6-v2 model for cross-encoder re-ranking
+- Handle the "Negation Problem" (e.g., "Do NOT use MD5" should map correctly)
+- Implement update detection logic to identify when content is an update to existing content
+- Add security gates to detect adversarial updates or contradictions to previous content
+- Set threshold-based routing: score > 0.8 links to CRE, score < 0.8 flags for human review
+
+**Technical Requirements:**
+- **Tech Stack**: sentence-transformers (HuggingFace), pgvector, Python
+- **Prerequisites**: Understanding of Embeddings, Bi-Encoders vs Cross-Encoders, Vector Similarity
+- **Pre-Code Experiment**:
+  - Select 50 random ASVS requirements and strip metadata
+  - Feed them into basic Vector Search (Cosine Similarity)
+  - Check mapping accuracy to correct CRE nodes
+  - Run through Cross-Encoder and compare results
+  - Success Criteria: Cross-Encoder must show 20% accuracy improvement over Cosine Similarity, especially for "Negative" requirements
+
+**Expected Results:**
+- Production-ready content mapping system with >80% accuracy on validation dataset
+- Vector search integration with pgvector
+- Cross-encoder re-ranking pipeline
+- Update detection and security gate implementation
+- Comprehensive evaluation metrics and logging
+- Unit tests with >70% code coverage
+- Documentation of model selection, tuning process, and accuracy metrics
+
+**Difficulty Characterization:**
+This is a **Hard** difficulty project requiring:
+- Deep understanding of embeddings and semantic similarity
+- Experience with vector databases (pgvector)
+- Knowledge of bi-encoders vs cross-encoders
+- Ability to tune thresholds and evaluate model performance
+- Understanding of information retrieval concepts
+- Strong Python skills for ML/AI integration
+
+**Bonus/Pro-Mode**: Implement Hybrid Search (Vector + Keyword/BM25) for exact keyword matching (e.g., CVE IDs).
+
+---
+
+##### 🔸 **Module D: Human-in-the-Loop (HITL) & Logging**
+
+![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+
+**Primary Objectives:**
+- Build a simple admin UI for reviewing flagged content from Module C
+- Implement a fast review interface optimized for "Tinder-swipe" speed (keybind 'y' for yes, 'n' for no)
+- Create a logging system that appends corrections to JSONL files (stored in S3/MinIO)
+- Design the UI to allow review, approve/reject, and save corrections in under 3 seconds per item
+- Implement user authentication and authorization for maintainers
+- Build a dashboard showing review queue status and statistics
+
+**Technical Requirements:**
+- **Tech Stack**: Flask/React, S3/MinIO for storage
+- **Pre-Code Experiment**:
+  - Draw wireframe or build 10-line HTML prototype
+  - Test: Can a user review, approve/reject, and save a correction in under 3 seconds per item?
+  - Success Criteria: UI must require minimal clicks (ideally keyboard shortcuts)
+
+**Expected Results:**
+- A production-ready admin UI for content review
+- Fast, keyboard-optimized review workflow
+- JSONL logging system integrated with S3/MinIO
+- User authentication and role-based access control
+- Review queue dashboard with statistics
+- Unit tests with >70% code coverage
+- Documentation for maintainers
+
+**Difficulty Characterization:**
+This is an **Easy** difficulty project suitable for:
+- Junior developers or frontend contributors
+- Developers comfortable with standard CRUD web applications
+- Those interested in UX optimization
+- Full-stack developers (Flask + React)
+
+**Bonus/Pro-Mode**: Implement "Loss Warehousing" to capture structured loss events (Input + Wrong Prediction + Correct Label) for future model retraining.
+
+---
   
 #### Mentors
+
+**For OpenCRE Scraper & Indexer (Project OIE) Module Projects (A, B, C, D):**
 - [Spyros Gasteratos](mailto:spyros.gasteratos@owasp.org)
 - [Rob Van Der Veer](mailto:rob.van.der.veer@owasp.org)
 - [Paola Gardenas](mailto:paola.gardenas@owasp.org)
+- [Parth Sohaney](mailto:parth.sohaney@owasp.org)
 
 
 ### [OWTF](https://owasp.org/www-project-owtf/)
@@ -535,7 +718,8 @@ OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework.
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 - Ensure the OWASP Cornucopia converter can create print-ready proofs for print-on-demand jobs. See: [Description](https://github.com/OWASP/cornucopia/issues/583).
-- Add the EoP Game to the card browser. See: [Description](https://github.com/OWASP/cornucopia/issues/1322)
+- Add the EoP Game to the card browser. See: [Description](https://github.com/OWASP/cornucopia/issues/1322).
+- Redesign for cornucopia.owasp.org. See: [Description](https://github.com/OWASP/cornucopia/issues/2194).
 
 #### Mentors
 - [Johan Sydseter](mailto:johan.sydseter@owasp.com)
