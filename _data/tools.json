@@ -2510,6 +2510,39 @@
 		]
 	},
 	{
+		"title": "Xygeni DAST",
+		"url": "https://xygeni.io/xygeni-code-security/",
+		"owner": "Xygeni",
+		"license": "Commercial",
+		"platforms": "SaaS, On-Premises",
+		"note": "Xygeni DAST simulates live attacks on running web applications and APIs to detect exploitable vulnerabilities like SQLi, XSS, and auth flaws. It integrates into CI/CD pipelines providing risk-aware prioritization and actionable remediation guidance.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
+		"title": "Xygeni SAST",
+		"url": "https://xygeni.io/xygeni-code-security/",
+		"owner": "Xygeni",
+		"license": "Commercial",
+		"platforms": "SaaS, On-Premises",
+		"note": "Detect vulnerabilities and deliver secure code with Advanced SAST powered by malware detection and AI AutoFix for private remediation.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
+		"title": "Xygeni SCA",
+		"url": "https://xygeni.io/xygeni-code-security/",
+		"owner": "Xygeni",
+		"license": "Commercial",
+		"platforms": "SaaS, On-Premises",
+		"note": "Xygeni SCA provides real-time open-source security with malware detection, reachability analysis, and automated remediation. It enables risk-based prioritization and exports SBOMs in CycloneDX and SPDX formats.",
+		"type": [
+			"SCA"
+		]
+	},
+	{
 		"title": "Zed Attack Proxy",
 		"url": "https://zaproxy.org",
 		"owner": "The ZAP Development Team",
