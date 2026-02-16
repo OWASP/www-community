@@ -375,7 +375,6 @@ Secrets detection is often confused with SAST because both scan through static s
     - Supports building a baseline file, to detect and prevent new secrets from being added to a codebase
   - [Xygeni Secrets](https://xygeni.io/xygeni-code-security/) - Scans repositories for hardcoded secrets, credentials, and configuration flaws. It provides deep visibility into secret exposure across the entire git history. Free for open source projects.
 
-
 ### Privacy Engineering Tools
 
 - [xCOMPASS](https://github.com/Comcast/xCOMPASS/) - a simple tool that allows developers to determine their privacy engineering requirements early in the product development lifecycle. xCOMPASS has also been listed by [NIST in their Privacy Engineering Program Collaboration Space as one of four Risk Assessment Tools](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/privacy-risk-assessment/tools) and [CISA as one of the open-source tools that promote cybersecurity best practices](https://www.cisa.gov/resources-tools/services/xcompass).
