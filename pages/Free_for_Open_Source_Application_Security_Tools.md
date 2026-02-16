@@ -81,6 +81,7 @@ In addition, we are aware of the following commercial SAST tools that are free f
   - [Corgea](https://corgea.com/) - An AI-native SAST scanner that helps developers find and fix insecure code. It detects business logic flaws, broken authentication, API vulnerabilities and more with minimal false positives. Corgea automatically generates security fixes for developers to review and approve. Integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. [Free to use](https://corgea.com/pricing).
   - [Kusari](https://kusari.dev/inspector) - Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests. This checks for bad dependencies, licenses, quality data. [Free for individual use](https://www.kusari.dev/pricing).
   - [Xygeni](https://xygeni.io/xygeni-code-security/) - Provides Advanced SAST with real-time malware detection and AI-powered AutoFix. It helps developers find and fix vulnerabilities with minimal friction. Free for open source projects.
+
 ### DAST Tools
 
 If your project has a web application component, we recommend running
