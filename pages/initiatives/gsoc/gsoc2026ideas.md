@@ -57,7 +57,7 @@ This year’s GSoC projects center on **core platform modernization, AI-native i
 ### 🔹 **2026 GSoC Ideas / All Large Projects**  
 ---
 
-## [BLT-Next](https://github.com/OWASP-BLT/BLT-Next) : Core BLT Migration to Github Pages and Cloudflare Python workers
+## [BLT-Next](https://github.com/OWASP-BLT/BLT-Next) : Core BLT Migration to GitHub Pages and Cloudflare Python workers
 
 **Revamp BLT website with a fresh, modern design by removing non-core components to create a clear, enjoyable user experience focused on core value.** The project involves migrating the complete OWASP BLT platform from its current Django-based monolithic architecture to a lightweight static frontend deployed on GitHub Pages using plain HTML, vanilla JavaScript, and HTMX, with dynamic functionality powered by Cloudflare Python Workers at the edge. This migration will replace Django template rendering with modular static components and progressive enhancement, achieving sub-200ms global response times, simplified architecture, improved maintainability, and production-grade reliability while preserving full feature parity and positioning BLT as a fast, contributor-friendly reference implementation.
 
