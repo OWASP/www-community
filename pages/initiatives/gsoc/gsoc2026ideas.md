@@ -113,7 +113,7 @@ To contribute effectively, familiarity with at least one or more of the followin
 
 ### 👥 **Mentors**  
 
-📌 _Confirmed Mentors:_  (we're all on the OWASP Slack in the #project-blt channel)
+📌 _Confirmed Mentors:_  (we're all on the OWASP Slack in the [#project-blt](https://owasp.slack.com/archives/project-blt)  channel)
 - **Donnie Brown**
 - **Ahmed ElSheikh**
 - **Manikandan Chandran**
