@@ -260,19 +260,16 @@ Commercial tools of this type that are free for open source:
   - [Software Health Indicator](https://software-health-indicator.com) by YourSky.blue
     - The real time indicator that promotes supply chain transparency
       Free for FOSS projects: <https://software-health-indicator.com/order/>
-  - [SourceClear](https://www.veracode.com/products/software-composition-analysis)
-    Now owned by Veracode. Supports: Java, Ruby, JavaScript, Python, Objective C, GO, PHP
-      - They make their component vulnerability data (for publicly known vulns) free to search:
-        <https://www.sourceclear.com/vulnerability-database/search#_>
-        (Very useful when trying to research a particular library)
+  - [Veracode SCA](https://www.veracode.com/products/software-composition-analysis)
+    (formerly SourceClear). Supports: Java, Ruby, JavaScript, Python, Objective C, GO, PHP
+      - Component vulnerability data (for publicly known vulns) free to search:
+        <https://sca.analysiscenter.veracode.com/vulnerability-database/search#_>
   - [Spectra Assure Community](https://secure.software/) - A free platform by ReversingLabs for identifying malware, tampering, supply chain risks in open-source packages, and developer tools. Provides SBOM exports and access to the MCP Server Registry without requiring registration.
   - [Vulert](https://vulert.com) - Vulert's Software Composition Analysis (SCA) keeps an eye on the open source dependencies for new risks (vulnerabilities), recommends fixes, and ensures license compliance – all without requiring installation or access to the codebase. Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP, C/C++ and many more.
       - At Vulert Playground, one can test an app's security without any sign-ups. Visit [Vulert Playground](https://vulert.com/abom)
       - Free for open source and small companies.
-  - [WhiteSource](https://www.whitesourcesoftware.com/) - Supports 200+ programming languages.
-      - Azure version:
-        <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
-      - GitHub version: <https://github.com/marketplace/whitesource-bolt>
+  - [Mend](https://www.mend.io/) (formerly WhiteSource) - Supports 200+ programming languages.
+      - GitHub version: <https://github.com/apps/mend-for-github-com>
   - [Arnica](https://www.arnica.io/solution/code-security) - Provides full visibility for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets across all source code repositories.
       - The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count.The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
       - [SBOMs]([https://www.arnica.io/solution/sbom](https://docs.arnica.io/arnica-documentation/inventory/software-bill-of-materials-sbom)) are generated and automatically updated across all source code repositories.
