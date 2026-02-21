@@ -79,6 +79,7 @@ In addition, we are aware of the following commercial SAST tools that are free f
   - [Aikido](https://www.aikido.dev/product) - Combines open source software with custom rules & features into a single dashboard with all your security findings. Includes both SAST and Library Analysis tools. [Free for small teams](https://www.aikido.dev/pricing).
   - [Arnica](https://www.arnica.io/solution/code-security) - Scans all source code repositories for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets. The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count. The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
   - [Corgea](https://corgea.com/) - An AI-native SAST scanner that helps developers find and fix insecure code. It detects business logic flaws, broken authentication, API vulnerabilities and more with minimal false positives. Corgea automatically generates security fixes for developers to review and approve. Integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. [Free to use](https://corgea.com/pricing).
+  - [KICS](https://www.kics.io/) by Checkmarx - Detects security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code.
   - [Kusari](https://kusari.dev/inspector) - Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests. This checks for bad dependencies, licenses, quality data. [Free for individual use](https://www.kusari.dev/pricing).
   - [Xygeni](https://xygeni.io/xygeni-code-security/) - Provides Advanced SAST with real-time malware detection and AI-powered AutoFix. It helps developers find and fix vulnerabilities with minimal friction. Free for open source projects.
 
@@ -90,7 +91,7 @@ a page of known [DAST Tools](Vulnerability_Scanning_Tools), and the
 **License** column on this page indicates which of those tools have free
 capabilities. Our primary recommendation is to use one of these:
 
-  - [ZAP](https://www.zaproxy.org/) - A full
+  - [ZAP](https://www.zaproxy.org/) by Checkmarx - A full
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web app pen testing.
   - [OWASP PurpleTeam](/www-project-purpleteam) - A security regression testing SaaS and CLI,
@@ -349,6 +350,8 @@ open source projects also consider using good code quality tools. A few that we 
 
 Secrets detection is often confused with SAST because both scan through static source code. Secrets detection scan the default branch before deployment but can also scan through every single commit of the git history, covering every branch, even development or test ones.
 
+  - [2MS](https://checkmarx.com/product/2ms/) by Checkmarx
+    - Too many secrets (2MS) is designed to protect secret information in files, chats, and git repositories.
   - [GitGuardian](https://gitguardian.com/) 
     - A commercial tool that scans your Git repositories’ history and monitors new contributions in real-time for secrets. It examines secret exposure trends over time and monitors team performance.
       [Free for open source repositories hosted under your GitHub Organization](https://www.gitguardian.com/pricing)
