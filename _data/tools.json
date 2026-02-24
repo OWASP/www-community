@@ -2510,13 +2510,26 @@
 		]
 	},
 {
+		"title": "Xygeni DAST",
+		"url": "https://xygeni.io/dast/",
+		"owner": "Xygeni",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "Dynamic Application Security Testing for identifying vulnerabilities in running web applications and APIs.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Xygeni SAST",
 		"url": "https://xygeni.io/xygeni-code-security/",
 		"owner": "Xygeni",
 		"license": "Commercial",
 		"platforms": "SaaS, On-Premises, IDE Plugin, CLI",
 		"note": "Advanced SAST with AI-powered automated remediation (AutoFix) to detect and fix vulnerabilities in real-time.",
-		"type": ["SAST"]
+		"type": [
+			"SAST"
+		]
 	},
 	{
 		"title": "Xygeni SCA",
@@ -2525,35 +2538,8 @@
 		"license": "Commercial",
 		"platforms": "SaaS, On-Premises, CLI",
 		"note": "Software Composition Analysis focused on Malware Defense and supply chain security for open-source dependencies.",
-		"type": ["SCA"]
-	},
-	{
-		"title": "Xygeni DAST",
-		"url": "https://xygeni.io/dast/",
-		"owner": "Xygeni",
-		"license": "Commercial",
-		"platforms": "SaaS",
-		"note": "Dynamic Application Security Testing for identifying vulnerabilities in running web applications and APIs.",
-		"type": ["DAST"]
-	},
-	{
-		"title": "Xygeni IaC Security",
-		"url": "https://xygeni.io/infrastructure-as-code-security/",
-		"owner": "Xygeni",
-		"license": "Commercial",
-		"platforms": "SaaS, CLI",
-		"note": "Infrastructure as Code security to detect misconfigurations in Terraform, CloudFormation, and Kubernetes.",
-		"type": ["IaC"]
-	},
-	{
-		"title": "Zed Attack Proxy",
-		"url": "https://zaproxy.org",
-		"owner": "The ZAP Development Team",
-		"license": "Open Source",
-		"platforms": "Windows, Unix/Linux, and Macintosh",
-		"note": "Apache-2.0",
 		"type": [
-			"DAST"
+			"SCA"
 		]
 	},
 	{
