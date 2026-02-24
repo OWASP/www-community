@@ -2509,7 +2509,7 @@
 			"DAST"
 		]
 	},
-{
+	{
 		"title": "Xygeni DAST",
 		"url": "https://xygeni.io/dast/",
 		"owner": "Xygeni",
@@ -2540,6 +2540,17 @@
 		"note": "Software Composition Analysis focused on Malware Defense and supply chain security for open-source dependencies.",
 		"type": [
 			"SCA"
+		]
+	},
+	{
+		"title": "Zed Attack Proxy",
+		"url": "https://zaproxy.org",
+		"owner": "The ZAP Development Team",
+		"license": "Open Source",
+		"platforms": "Windows, Unix/Linux, and Macintosh",
+		"note": "Apache-2.0",
+		"type": [
+			"DAST"
 		]
 	},
 	{
