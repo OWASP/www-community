@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2026ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre) &bull; [OWASP OWTF](#owtf) &bull; [OWASP Cornucopia](#owasp-cornucopia)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre) &bull; [OWASP OWTF](#owtf) &bull; [OWASP Cornucopia](#owasp-cornucopia) &bull; [OWASP Web Application Honeypot](#owasp-honeypot)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -766,7 +766,7 @@ OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework.
 - [Johan Sydseter](mailto:johan.sydseter@owasp.com)
 - [Colin Watson](colin.watson@owasp.org)
 
-### [OWASP Web Application Honeypot Project] (https://owasp.org/www-project-honeypot/) 
+###[OWASP Web Application Honeypot Project](https://owasp.org/www-project-honeypot/) 
 
 The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks.
 
