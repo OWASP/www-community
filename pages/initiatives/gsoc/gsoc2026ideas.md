@@ -204,9 +204,8 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 
 #### Repositories
 
-- [OWASP Nest Backend](https://github.com/OWASP/Nest/tree/main/backend)
-- [OWASP Nest Frontend](https://github.com/OWASP/Nest/tree/main/frontend)
-- [OWASP Nest Schema](https://github.com/OWASP/nest-schema/)
+- [OWASP Nest](https://github.com/OWASP/Nest/tree/main)
+- [OWASP Nest Schema](https://github.com/OWASP/nest-schema)
 - [API SDK Go](https://github.com/OWASP/nest-sdk)
 - [API SDK Python](https://github.com/OWASP/nest-sdk-python)
 - [API SDK TypeScript](https://github.com/OWASP/nest-sdk-typescript)
@@ -227,7 +226,7 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 
 #### Projects / Ideas
 
-![Possible for "Small" GSoC 2026 project](https://img.shields.io/badge/small%20size%20(90h)-possible-green) ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(350h)-possible-green)
+![Preferred for "Small" GSoC 2026 project](https://img.shields.io/badge/small%20size%20(90h)-preferred-green) ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(350h)-possible-green)
 
 - [OWASP Board Activity Standardization and Data Programmatic Access](https://github.com/OWASP/Nest/milestone/20): This milestone focuses on standardizing how OWASP Board activities are recorded, structured, and published.
 
@@ -301,7 +300,7 @@ Senior Software Engineer at Skill Struck, CC | OWASP Nest Project Leader<br>
 <img src="https://github.com/kerlynNkep.png" alt="Kerlyn Manyi" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Kerlyn Manyi</strong><br>
-Cybersecurity Engineer | GSoC'25 mentor at Mifos Initiative<br>
+Cybersecurity Engineer | GSoC'25 Mentor at Mifos Initiative<br>
 <i class="fab fa-github"></i> <a href="https://github.com/kerlynNkep">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kerlyn-manyi-a80201123/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U06M01ARG3V">Slack</a>
 </div>
 </div>
@@ -319,7 +318,7 @@ Senior Security Engineer at LinkedIn<br>
 <img src="https://github.com/kritibirda.png" alt="Kriti Birda" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Kriti Birda</strong><br>
-AI/ML enthusiast | GSoC'25 contributor at PSF<br>
+AI/ML enthusiast | GSoC'25 Contributor at PSF<br>
 <i class="fab fa-github"></i> <a href="https://github.com/kritibirda">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kritibirda/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U08KZ9Z7MFX">Slack</a>
 </div>
 </div>
