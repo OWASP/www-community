@@ -204,7 +204,7 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 
 #### Repositories
 
-- [OWASP Nest](https://github.com/OWASP/Nest/tree/main)
+- [OWASP Nest](https://github.com/OWASP/Nest)
 - [OWASP Nest Schema](https://github.com/OWASP/nest-schema)
 - [API SDK Go](https://github.com/OWASP/nest-sdk)
 - [API SDK Python](https://github.com/OWASP/nest-sdk-python)
