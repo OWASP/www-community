@@ -224,6 +224,85 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 - Join OWASP Nest channel [#project-nest](https://owasp.slack.com/archives/project-nest)
 - Consider `good first issue` from OWASP Nest [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
 
+### [OWASP GenAI Security Project](https://genai.owasp.org) : [FinBot CTF](https://github.com/OWASP-ASI/finbot-ctf-demo) (Agentic AI Security “Juice Shop”)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+(can be scoped to Medium by reducing number of scenarios/adapters)
+Medium → Hard (systems + security + agent/tool integration)
+
+### Project summary
+
+OWASP FinBot CTF** is an open-source, hands-on **Agentic AI security** learning platform: a realistic multi-agent application (vendor onboarding, invoice handling, etc.) paired with a **CTF arena** that observes agent behavior, runs security checks, and **auto-scores** challenges. It is designed to complement OWASP’s Agentic guidance by letting practitioners **see risks in action** and learn by doing. 
+
+#### Why this is a strong GSoC idea
+
+FinBot lets the community **reproduce** the failures described in OWASP Top 10 for Agentic Apps and measure outcomes. GSoC can accelerate FinBot from “offense-heavy” to a more complete platform that teaches **attack + detection + guardrails**, using realistic enterprise patterns (tools, permissions, memory, retrieval, and MCP-style integrations). 
+
+#### Problem statement
+FinBot today is strongest as an **offensive** learning arena. To match how agentic systems are actually built and defended, the platform needs:
+
+1. **Defense / guardrail capabilities** (policy checks, detection, safe tool-use controls) that can be attached to challenges and scored, and
+2. **More realistic scenarios**, especially tool/plugin ecosystems and MCP-like tool servers, including malicious tools, poisoned tool outputs, over-permissioned tools, and authorization gaps.
+
+#### Proposed GSoC project  “FinBot: Defensive Mode + Realistic Agentic Scenarios (MCP-ready)”**
+
+#### Goal:
+
+Add a first-class “defender path” to FinBot CTF by implementing a Guardrail & Detection Framework and shipping new scenario modules aligned to OWASP Agentic Top 10 patterns (attack + defend + measure).
+
+#### Core deliverables (expected outcomes)
+
+**A. Guardrail & Detection Framework (platform capability)**
+
+* A pluggable policy/guardrail layer that can run before tool execution, after tool output, and before agent final actions.
+* A standardized security event model for: prompt/goal changes, memory read/write, tool selection, tool parameters, tool outputs, privilege/authorization decisions, and guardrail triggers.
+* A “defensive scoring” capability: award points for successful prevention/detection (not just successful exploitation).
+
+**B. New challenge pack: “Defense-enabled Agentic Top 10 scenarios”**
+
+* Convert 3 to 5 existing/offensive challenges into paired tracks:
+    * Red path: exploit
+    * Blue path: implement guardrail/detection to prevent or catch
+* Each challenge includes mapping metadata (OWASP Agentic category tags, expected signals, suggested mitigations, references).
+
+**C. MCP style scenario module (realism upgrade)**
+
+* Add a scenario where FinBot uses external tools via an MCP-like interface:
+    * benign tool server + malicious tool server variants
+    * tool output poisoning, prompt injection via tool payloads, and permission/authorization mistakes
+* Add detectors for suspicious tool behavior (unexpected endpoints, output anomalies, high-risk actions, policy violations).
+
+**D. Documentation + CI**
+
+* “Getting started” guide (Docker compose or equivalent), contributor docs, and a small set of “good first issue” tickets.
+* Unit/integration tests around guardrail hooks and event generation.
+
+#### Skills required/Preferred
+
+* Strong Python (backend/services), APIs, and testing 
+* Docker + basic DevOps for local deployment 
+* Familiarity with LLM/agent patterns (tools, memory, RAG) and security mindset
+* **Bonus: **open source contributions, experience with policy engines, gateways, event pipelines, or agent frameworks
+
+#### Getting started 
+
+* Read OWASP GSoC participation guidance, then introduce yourself on OWASP Slack [#team-genai-asi-finbot](https://owasp.slack.com/archives/C09A2MFUXJ9)
+* Set up FinBot locally, pick 1–2 starter issues (tests, docs, small detector), and submit early PRs.
+
+#### Your own ideas
+
+We welcome new ideas and love to hear about it. Please prepare a 1-page idea proposal and reach out to the mentors in the slack channel [#team-genai-asi-finbot](https://owasp.slack.com/archives/C09A2MFUXJ9) to make sure there is an alignment with FinBot’s roadmap.
+
+#### Mentors
+Venkata Sai Kishore Modalavalasa
+Helen Oakley
+** confirming few more mentors
+
+#### Repository
+https://github.com/OWASP-ASI/finbot-ctf 
+
+
 #### Projects / Ideas
 
 ![Preferred for "Small" GSoC 2026 project](https://img.shields.io/badge/small%20size%20(90h)-preferred-green) ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(350h)-possible-green)
