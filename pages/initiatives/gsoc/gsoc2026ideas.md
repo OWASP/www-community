@@ -12,7 +12,7 @@ permalink: /initiatives/gsoc/gsoc2026ideas
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
 
-##### Explanation of Ideas
+#### Explanation of Ideas
 
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
@@ -26,14 +26,15 @@ permalink: /initiatives/gsoc/gsoc2026ideas
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
-##### Expected Results
+#### Expected Results
 
-##### Getting Started
+#### Getting Started
 
-##### Mentors
+#### Mentors
 -->
 
 Tips to get you started in no particular order:
+
 - Read the
   [Student Guidelines](gsoc2026).
 - Check our
@@ -44,76 +45,72 @@ Tips to get you started in no particular order:
 
 ### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
 
-OWASP BLT (Bug Logging Tool) is a community-driven OWASP Foundation project that develops and maintains open-source tools for structured vulnerability reporting, bug tracking, security automation, contributor engagement, and related infrastructure. The BLT ecosystem includes modular services, APIs, dashboards, browser and mobile applications, automation bots, and research initiatives, all developed transparently under OWASP governance and open-source licensing. 
+OWASP BLT (Bug Logging Tool) is a community-driven OWASP Foundation project that develops and maintains open-source tools for structured vulnerability reporting, bug tracking, security automation, contributor engagement, and related infrastructure. The BLT ecosystem includes modular services, APIs, dashboards, browser and mobile applications, automation bots, and research initiatives, all developed transparently under OWASP governance and open-source licensing.
 
 BLT has evolved into a growing ecosystem that combines **modern full-stack engineering, AI-assisted security workflows, hands-on security education, distributed scanning infrastructure, and blockchain-backed incentive systems**. The platform functions both as a production-grade vulnerability management system and as a practical learning environment where contributors build real-world security expertise.
 
-This year’s GSoC projects center on **core platform modernization, AI-native interfaces, automation-first workflows, distributed security infrastructure, hands-on security education, and meaningful gamification**. Our goal is to make BLT faster, more scalable, AI-agent ready, and deeply educational—turning real security work into structured learning pathways.
+This year's GSoC projects center on **core platform modernization, AI-native interfaces, automation-first workflows, distributed security infrastructure, hands-on security education, and meaningful gamification**. Our goal is to make BLT faster, more scalable, AI-agent ready, and deeply educational—turning real security work into structured learning pathways.
 
-> Preference will be given to students who have at least **5 merged PRs** before GSoC selection.  
+> Preference will be given to students who have at least **5 merged PRs** before GSoC selection.
 
----
+#### Explanation of Ideas
 
-### 🔹 **2026 GSoC Ideas / All Large Projects**  
----
+All 2026 GSoC ideas are Large Projects.
 
-## [BLT-Next](https://github.com/OWASP-BLT/BLT-Next) : Core BLT Migration to GitHub Pages and Cloudflare Python workers
+##### [BLT-Next](https://github.com/OWASP-BLT/BLT-Next) — Core BLT Migration to GitHub Pages and Cloudflare Python Workers
 
 **Revamp BLT website with a fresh, modern design by removing non-core components to create a clear, enjoyable user experience focused on core value.** The project involves migrating the complete OWASP BLT platform from its current Django-based monolithic architecture to a lightweight static frontend deployed on GitHub Pages using plain HTML, vanilla JavaScript, and HTMX, with dynamic functionality powered by Cloudflare Python Workers at the edge. This migration will replace Django template rendering with modular static components and progressive enhancement, achieving sub-200ms global response times, simplified architecture, improved maintainability, and production-grade reliability while preserving full feature parity and positioning BLT as a fast, contributor-friendly reference implementation.
 
 ---
 
-## [BLT-Preflight](https://github.com/OWASP-BLT/BLT-Preflight) : Pre-Contribution Security Intent & Risk Guidance
+##### [BLT-Preflight](https://github.com/OWASP-BLT/BLT-Preflight) — Pre-Contribution Security Intent & Risk Guidance
 
 **Provide security intent and risk guidance before contributors submit code to prevent common mistakes and improve contributor understanding.** This pre-contribution advisory system helps contributors understand security expectations before opening a pull request by evaluating security context through issue labels, repository metadata, and historical patterns, then providing plain-language guidance linked to relevant documentation. The system includes optional contributor intent capture (planned work areas, components to modify, AI assistance usage), a maintainer visibility dashboard for early identification of risky contributions, and a learning feedback loop that refines guidance rules over time. BLT-Preflight operates on a purely advisory basis with no blocking or enforcement mechanisms, focusing on prevention and clarity to reduce maintainer workload and improve the quality of security contributions.
 
 ---
 
-## [BLT-Rewards](https://github.com/OWASP-BLT/BLT-Rewards) : BACON Rewards & Security Contribution Gamification
+##### [BLT-Rewards](https://github.com/OWASP-BLT/BLT-Rewards) — BACON Rewards & Security Contribution Gamification
 
 **Security contribution gamification with BACON tokens, badges, reputation tiers, and leaderboards to increase contributor retention and engagement.** The system listens for verified security contributions and awards rewards idempotently including BACON cryptocurrency tokens (with existing blockchain mint infrastructure), achievement badges for different security domains, progressive reputation tiers (Beginner → Expert), severity-weighted leaderboards, and a swag redemption marketplace where tokens convert to physical merchandise. Built with robust anti-gaming architecture (idempotent rewards, fraud detection, admin oversight), the platform includes comprehensive audit trails, an education bridge API layer for learning platform integration, and tokenomics analysis to ensure long-term sustainability. BLT-Rewards transforms security work into an engaging, progression-based experience that prioritizes impact over volume while enabling education platforms to leverage BLT contribution data for personalized learning paths.
 
 ---
 
-## [BLT-NetGuardian](https://github.com/OWASP-BLT/BLT-NetGuardian) : Distributed Autonomous Security Scanning Platform
+##### [BLT-NetGuardian](https://github.com/OWASP-BLT/BLT-NetGuardian) — Distributed Autonomous Security Scanning Platform
 
 **Community-powered security scanning platform with distributed scanning, real vulnerability detection, and responsible disclosure workflows.** NetGuardian replaces stubbed scanners with real vulnerability detection (XSS, SQLi, CSRF, security headers plus Semgrep SAST), introduces distributed scanning via secure volunteer CLI clients with local resource caps, and implements Zero-Trust encrypted ingestion where sensitive evidence stays encrypted end-to-end until authorized organization users decrypt it client-side. The platform includes result validation and false-positive filtering with confidence scoring, basic deduplication using fingerprints, triage-lite UI with evidence viewer and "Convert to Issue" workflow, security.txt detection for improved responsible disclosure, and professional remediation reports (CSV/PDF) for organizations. NetGuardian emphasizes accuracy through curated evaluation targets and rule tuning, privacy-preserving architecture with signed and timestamped submissions, and lower reviewer workload through normalized findings and streamlined triage.
 
 ---
 
-## [BLT University](https://github.com/OWASP-BLT/BLT-University) : Security-Focused Education Platform
+##### [BLT University](https://github.com/OWASP-BLT/BLT-University) — Security-Focused Education Platform
 
 **Security-focused education tool that teaches users about security through hands-on, code-centric labs and community-driven knowledge sharing.** The platform transforms BLT's existing theory-heavy labs into interactive exercises where learners analyze real vulnerable code, identify security flaws, explain exploitation scenarios, and apply secure fixes using a three-step workflow (Identify → Explain → Fix) with partial credit and progress tracking. BLT University establishes a safe, anonymized security intelligence pipeline that aggregates vulnerability patterns from BLT issues/PRs into public dashboards, monthly/quarterly reports with two-person approval workflows, and remediation playbooks that convert into mini interactive challenges. The unified architecture creates a feedback loop where real vulnerability patterns improve labs and playbooks, helping contributors learn security thinking inspired by OWASP Top 10 and CTF-style reasoning, with optional integration to badges/BACON gamification and future connections to NetGuardian findings for automatically mapped learning recommendations.
 
 ---
 
-## [BLT-MCP](https://github.com/OWASP-BLT/BLT-MCP) : Model Context Protocol Server for Complete BLT Interface
+##### [BLT-MCP](https://github.com/OWASP-BLT/BLT-MCP) — Model Context Protocol Server for Complete BLT Interface
 
 **An interface to the BLT ecosystem enabling AI agents and developers to log bugs, triage issues, query data, and manage workflows from IDEs or chat interfaces.** BLT-MCP implements the Model Context Protocol (MCP) standard to provide comprehensive, AI-agent-friendly access to all aspects of BLT through three layers: Resources (read-only access to issues, repos, contributors, workflows, leaderboards, rewards via `blt://` URIs), Tools (actions like submit_issue, award_bacon, update_issue_status, add_comment), and Prompts (reusable task templates like triage_vulnerability, plan_remediation, review_contribution). The system uses JSON-RPC 2.0 over stdio or HTTP/SSE with OAuth 2.0/API key authentication, enabling natural integration with Claude Desktop, custom AI agents, and third-party tools without requiring custom API documentation since agents discover capabilities automatically. BLT-MCP positions BLT as an AI-agent-first platform with standardized protocol access that unifies fragmented REST/GraphQL endpoints, creates novel use cases (autonomous issue triage, automated reward distribution, workflow tracking), and synergizes with other BLT ideas by exposing RAG bot capabilities, AI-guided recommendations, reputation scores, and gamification data through a single consistent interface.
 
----
+#### Expected Results
 
-### ✅ **Expected Results**  
-- Successfully implementing a **fully functional, production-ready** feature.  
-- Contributions must align with **BLT’s core security and performance goals**.  
-- Code should adhere to best practices, including **security testing, CI/CD integration, and documentation**.  
+- Successfully implementing a **fully functional, production-ready** feature.
+- Contributions must align with **BLT's core security and performance goals**.
+- Code should adhere to best practices, including **security testing, CI/CD integration, and documentation**.
 
----
+#### Knowledge Prerequisites
 
-### 📌 **Knowledge Prerequisites**  
-To contribute effectively, familiarity with at least one or more of the following is recommended:  
+To contribute effectively, familiarity with at least one or more of the following is recommended:
 
-- **Back-End:** Python, Django, Django Ninja, SQL  
-- **Front-End:** HTMX, Tailwind CSS, HTML/CSS  
-- **Blockchain:** Bitcoin Ordinals, Solana, Smart Contracts  
-- **AI/ML:** NLP, Machine Learning for security analytics  
-- **DevOps & Security:** GitHub API, REST API, OAuth, Authentication  
+- **Back-End:** Python, Django, Django Ninja, SQL
+- **Front-End:** HTMX, Tailwind CSS, HTML/CSS
+- **Blockchain:** Bitcoin Ordinals, Solana, Smart Contracts
+- **AI/ML:** NLP, Machine Learning for security analytics
+- **DevOps & Security:** GitHub API, REST API, OAuth, Authentication
 
----
+#### Mentors
 
-### 👥 **Mentors**  
+Confirmed Mentors (we're all on the OWASP Slack in the [#project-blt](https://owasp.slack.com/archives/project-blt) channel):
 
-📌 _Confirmed Mentors:_  (we're all on the OWASP Slack in the [#project-blt](https://owasp.slack.com/archives/project-blt)  channel)
 - **Donnie Brown**
 - **Ahmed ElSheikh**
 - **Manikandan Chandran**
@@ -125,31 +122,39 @@ To contribute effectively, familiarity with at least one or more of the followin
 - **Rishab Kumar Jha**
 - **Akshay Behl**
 
-
 ### [OWASP DevSecOps Maturity Model](https://dsomm.owasp.org)
 
 Join us in enhancing the DSOMM, a pivotal tool designed to improve the security and operational efficiency of software development processes. We are looking for passionate students to contribute to two major areas: our main application development in JavaScript and our metric analyzer and collector in Java. Whether you are looking to tackle medium-sized challenges or are ready to embark on a larger project, we have exciting opportunities for you.
 
 To receive early feedback please:
-- put your proposal on Google Docs and submit it to the OWASP
+
+- Put your proposal on Google Docs and submit it to the OWASP
   Organization on Google's GSoC page in "Draft Shared" mode.
 - Please pick "dsomm" as Proposal Tag to make them easier to find
   for us. Thank you!
 
+#### Explanation of Ideas
+
 ##### Update of the DSOMM Application (Angular)
+
 ![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+
 Primary Objectives:
+
 - Upgrade Angular Framework: Migrate the DSOMM application from its current Angular version to Angular 21
 - Updates: Update all related dependencies including TypeScript, RxJS, Angular CLI, and third-party libraries
 - Code Modernization: Refactor deprecated APIs and adopt modern Angular patterns (standalone components, signals, etc.)
 - Testing & Quality Assurance: Ensure all existing functionality works correctly after migration with comprehensive testing, this can lead to unit test optimization
 - Documentation: Update developer documentation with new setup instructions and migration notes
 
-#### Prerequisites
+#### Knowledge Prerequisites
+
 - Proficiency in the corresponding programming language (JavaScript and Angular for the main application)
 - Previous contributions to open-source projects are highly desirable, demonstrating your commitment and collaborative skills
 
-##### Mentors
+#### Mentors
+
 Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
@@ -158,26 +163,27 @@ Reach out to us on Slack to discuss these and other ideas!
 
 ### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
 
-OWASP Nettacker is a Modular Automated Penetration Testing/ Information gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, default credentials.
+OWASP Nettacker is a Modular Automated Penetration Testing / Information Gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, and default credentials.
+
+#### Explanation of Ideas
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
-##### Explanation of Ideas
+- Improve/redesign WebUI / add a dashboard
+- Implement more tests, get 85% code coverage level
+- Implement more modules, focus on more coverage of CISA KEV CVEs
+- Implement external API keys configuration using a config file, API and WebUI
+- Implement module workflows e.g. run module B after module A only if module A returns any result/result matching condition
+- Improve documentation
+- Improve scan engine efficiency
 
-- improve/redesign WebUI / add a dashboard
-- implement more tests, get 85% code coverage level
-- implement more modules, focus on more coverage of CISA KEV CVEs
-- implement external API keys configuration using a config file, API and WebUI
-- implement module workflows e.g. run module B after module A only if module A returns any result/result matching condition
-- improve documentation
-- improve scan engine efficiency
+#### Your Own Ideas
 
-##### Your Own Ideas
 Do you have an idea to improve OWASP Nettacker?
-We'd love to hear it, please reach out in OWASP Slack on channel [#project-nettacker](https://app.slack.com/client/T04T40NHX/CQZGG24FQ) to ensure that the idea fits OWASP Nettacker roadmap and goals. 
+We'd love to hear it, please reach out in OWASP Slack on channel [#project-nettacker](https://app.slack.com/client/T04T40NHX/CQZGG24FQ) to ensure that the idea fits OWASP Nettacker roadmap and goals.
 
-##### Getting Started
+#### Getting Started
 
 Repositories:
 
@@ -185,18 +191,18 @@ Repositories:
 - [Documentation](https://nettacker.readthedocs.io)
 - Join OWASP Slack and contact us on channel [#project-nettacker](https://app.slack.com/client/T04T40NHX/CQZGG24FQ)
 
-##### Knowldege  Requirements
+#### Knowledge Prerequisites
 
 - Python
 - Flask
 - HTML/CSS/JavaScript
-- previous vulnerability scanning/bug bounty hunting experience, vulnerability scanning tools use (nmap, metasploit, other kali linux tools)
+- Previous vulnerability scanning/bug bounty hunting experience, vulnerability scanning tools use (nmap, metasploit, other Kali Linux tools)
 
-##### Mentors
+#### Mentors
 
-* [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
-* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
-* [Arkadii Yakovets](mailto:arkadii.yakovets@owasp.org)
+- [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
+- [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
+- [Arkadii Yakovets](mailto:arkadii.yakovets@owasp.org)
 
 ### [OWASP Nest](https://nest.owasp.org)
 
@@ -218,114 +224,22 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 - PostgreSQL, Algolia, Redis
 - Docker, Ansible, Terraform, AWS
 
-#### Getting Started
-
-- Check out our [contributing guidelines](https://github.com/OWASP/Nest/blob/main/CONTRIBUTING.md)
-- Join OWASP Nest channel [#project-nest](https://owasp.slack.com/archives/project-nest)
-- Consider `good first issue` from OWASP Nest [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
-
-### [OWASP GenAI Security Project](https://genai.owasp.org) : [FinBot CTF](https://github.com/OWASP-ASI/finbot-ctf-demo) (Agentic AI Security “Juice Shop”)
-
-![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-(can be scoped to Medium by reducing number of scenarios/adapters)
-Medium → Hard (systems + security + agent/tool integration)
-
-### Project summary
-
-OWASP FinBot CTF** is an open-source, hands-on **Agentic AI security** learning platform: a realistic multi-agent application (vendor onboarding, invoice handling, etc.) paired with a **CTF arena** that observes agent behavior, runs security checks, and **auto-scores** challenges. It is designed to complement OWASP’s Agentic guidance by letting practitioners **see risks in action** and learn by doing. 
-
-#### Why this is a strong GSoC idea
-
-FinBot lets the community **reproduce** the failures described in OWASP Top 10 for Agentic Apps and measure outcomes. GSoC can accelerate FinBot from “offense-heavy” to a more complete platform that teaches **attack + detection + guardrails**, using realistic enterprise patterns (tools, permissions, memory, retrieval, and MCP-style integrations). 
-
-#### Problem statement
-FinBot today is strongest as an **offensive** learning arena. To match how agentic systems are actually built and defended, the platform needs:
-
-1. **Defense / guardrail capabilities** (policy checks, detection, safe tool-use controls) that can be attached to challenges and scored, and
-2. **More realistic scenarios**, especially tool/plugin ecosystems and MCP-like tool servers, including malicious tools, poisoned tool outputs, over-permissioned tools, and authorization gaps.
-
-#### Proposed GSoC project  “FinBot: Defensive Mode + Realistic Agentic Scenarios (MCP-ready)”**
-
-#### Goal:
-
-Add a first-class “defender path” to FinBot CTF by implementing a Guardrail & Detection Framework and shipping new scenario modules aligned to OWASP Agentic Top 10 patterns (attack + defend + measure).
-
-#### Core deliverables (expected outcomes)
-
-**A. Guardrail & Detection Framework (platform capability)**
-
-* A pluggable policy/guardrail layer that can run before tool execution, after tool output, and before agent final actions.
-* A standardized security event model for: prompt/goal changes, memory read/write, tool selection, tool parameters, tool outputs, privilege/authorization decisions, and guardrail triggers.
-* A “defensive scoring” capability: award points for successful prevention/detection (not just successful exploitation).
-
-**B. New challenge pack: “Defense-enabled Agentic Top 10 scenarios”**
-
-* Convert 3 to 5 existing/offensive challenges into paired tracks:
-    * Red path: exploit
-    * Blue path: implement guardrail/detection to prevent or catch
-* Each challenge includes mapping metadata (OWASP Agentic category tags, expected signals, suggested mitigations, references).
-
-**C. MCP style scenario module (realism upgrade)**
-
-* Add a scenario where FinBot uses external tools via an MCP-like interface:
-    * benign tool server + malicious tool server variants
-    * tool output poisoning, prompt injection via tool payloads, and permission/authorization mistakes
-* Add detectors for suspicious tool behavior (unexpected endpoints, output anomalies, high-risk actions, policy violations).
-
-**D. Documentation + CI**
-
-* “Getting started” guide (Docker compose or equivalent), contributor docs, and a small set of “good first issue” tickets.
-* Unit/integration tests around guardrail hooks and event generation.
-
-#### Skills required/Preferred
-
-* Strong Python (backend/services), APIs, and testing 
-* Docker + basic DevOps for local deployment 
-* Familiarity with LLM/agent patterns (tools, memory, RAG) and security mindset
-* **Bonus: **open source contributions, experience with policy engines, gateways, event pipelines, or agent frameworks
-
-#### Getting started 
-
-* Read OWASP GSoC participation guidance, then introduce yourself on OWASP Slack [#team-genai-asi-finbot](https://owasp.slack.com/archives/C09A2MFUXJ9)
-* Set up FinBot locally, pick 1–2 starter issues (tests, docs, small detector), and submit early PRs.
-
-#### Your own ideas
-
-We welcome new ideas and love to hear about it. Please prepare a 1-page idea proposal and reach out to the mentors in the slack channel [#team-genai-asi-finbot](https://owasp.slack.com/archives/C09A2MFUXJ9) to make sure there is an alignment with FinBot’s roadmap.
-
-#### Mentors
-Venkata Sai Kishore Modalavalasa
-Helen Oakley
-** confirming few more mentors
-
-#### Repository
-https://github.com/OWASP-ASI/finbot-ctf 
-
-
-#### Projects / Ideas
+#### Explanation of Ideas
 
 ![Preferred for "Small" GSoC 2026 project](https://img.shields.io/badge/small%20size%20(90h)-preferred-green) ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(350h)-possible-green)
 
 - [OWASP Board Activity Standardization and Data Programmatic Access](https://github.com/OWASP/Nest/milestone/20): This milestone focuses on standardizing how OWASP Board activities are recorded, structured, and published.
-
 - [OWASP Board Candidate Information Transparency and Fact-Checking](https://github.com/OWASP/Nest/milestone/19): This milestone focuses on improving the transparency, accuracy, and trustworthiness of information related to OWASP board candidates.
-
 - [OWASP Community Snapshots](https://github.com/OWASP/Nest/milestone/16): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments.
-
 - [OWASP Contributor Recognition Program](https://github.com/OWASP/Nest/milestone/22): This milestone introduces an OWASP-wide Contributor Recognition system in OWASP Nest to make contributions visible, measurable, and shareable across projects and chapters, inspired by community platforms like ContribCard, with potential integration into existing OWASP Nest badges and certificate delivery via services like Certifier.
-
 - [OWASP NestBot AI Assistant Improvement](https://github.com/OWASP/Nest/milestone/8): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries.
-
 - [OWASP Nest Monitoring and Observability](https://github.com/OWASP/Nest/milestone/21): Implement modern monitoring and observability practices across OWASP Nest infrastructure on AWS to ensure reliability, performance visibility, and proactive issue detection.
-
 - [OWASP Nest UI/UX Revamp](https://github.com/OWASP/Nest/milestone/23): This milestone delivers a comprehensive UI/UX revamp of OWASP Nest to improve usability, accessibility, visual consistency, and the overall contributor experience across the platform.
-
 - [OWASP Pulse](https://github.com/OWASP/Nest/milestone/24): This milestone introduces the OWASP Pulse page in OWASP Nest as a unified, near real-time activity feed that aggregates events across repositories with filters by user, project, repository, and chapter to improve visibility and engagement.
 
 Please visit our planned [milestones page](https://github.com/OWASP/Nest/milestones) or `gsoc2026` labeled [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3Agsoc2026).
 
-#### Your own ideas
+#### Your Own Ideas
 
 Do you have an idea to improve OWASP Nest?
 We'd love to hear it, please reach out in Slack to ensure that the idea fits OWASP Nest goals.
@@ -334,6 +248,12 @@ We'd love to hear it, please reach out in Slack to ensure that the idea fits OWA
 
 - Your proposal projects/ideas are fully completed.
 - Your code follows our existing style guides and passes quality checks, test coverage, etc.
+
+#### Getting Started
+
+- Check out our [contributing guidelines](https://github.com/OWASP/Nest/blob/main/CONTRIBUTING.md)
+- Join OWASP Nest channel [#project-nest](https://owasp.slack.com/archives/project-nest)
+- Consider `good first issue` from OWASP Nest [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
 
 #### Mentors
 
@@ -438,16 +358,17 @@ vulnerabilities from the entire OWASP Top Ten along with many other
 security flaws found in real-world applications!
 
 To receive early feedback please:
-- put your proposal on Google Docs and submit it to the OWASP
+
+- Put your proposal on Google Docs and submit it to the OWASP
   Organization on Google's GSoC page in "Draft Shared" mode.
 - Please pick "juice shop" as Proposal Tag to make them easier to find
   for us. Thank you!
 
 > 🛑 Please be aware that the OWASP Juice Shop project will **not** consider or even review any proposals
-> which fail to include an AI Tool Disclosure statement. We recommend you use the following templated that
+> which fail to include an AI Tool Disclosure statement. We recommend you use the following template that
 > we derived from the one enforced on Pull Requests to OWASP Juice Shop:
 >
-> ```
+> ```markdown
 > ### AI Tool Disclosure
 >
 > - [ ] My GSoC proposal does not include any AI-generated content
@@ -457,12 +378,12 @@ To receive early feedback please:
 >   - Prompts: `[Summarize the key prompts or instructions given to the AI tools]`
 > ```
 
-##### Explanation of Ideas
+#### Explanation of Ideas
 
-###### Your own idea
+##### Your Own Idea
 
-![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
@@ -471,108 +392,117 @@ To receive early feedback please:
 You have an awesome idea to improve OWASP Juice Shop that is not on this
 list? Great, please submit it!
 
-##### Expected Results
+#### Expected Results
 
-* A new feature or improvement of an existing one that makes OWASP Juice
+- A new feature or improvement of an existing one that makes OWASP Juice
   Shop even better
-* Your code follows our existing styleguides and passes all existing
+- Your code follows our existing styleguides and passes all existing
   quality gates regarding code smells, test coverage etc.
-* Code that you write comes with automated tests that fit into
+- Code that you write comes with automated tests that fit into
   [our available test suites](https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html#_testing).
 
-##### Getting started
+#### Getting Started
 
-* Make sure your JavaScript/TypeScript is sufficient to work on the
+- Make sure your JavaScript/TypeScript is sufficient to work on the
   Juice Shop codebase. Check our
   [Codebase 101](https://pwning.owasp-juice.shop/companion-guide/latest/part3/codebase.html)
   here. Students with some experience with (or willingness to learn)
-  Angular and Node.js/Express are usually prefered.
-* Read our
+  Angular and Node.js/Express are usually preferred.
+- Read our
   [Contribution Guidelines](https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html)
   very carefully. Best make some small contributions before GSoC, so we
   can see how you work and help you dive into the code even better.
-* Get in touch [via Slack](https://owasp.slack.com/messages/project-juiceshop) or email (see below) to discuss any
+- Get in touch [via Slack](https://owasp.slack.com/messages/project-juiceshop) or email (see below) to discuss any
   of the listed or your own idea for GSoC!
 
-##### Mentors
+#### Mentors
 
-* [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
+- [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - OWASP Juice
   Shop Project Leader ([bkimminich](https://owasp.slack.com/team/U1S23SNE7) on Slack)
-* [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Project Leader ([Jannik](https://owasp.slack.com/team/UAM6MBY30) on Slack) 
-
+- [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Project Leader ([Jannik](https://owasp.slack.com/team/UAM6MBY30) on Slack)
 
 ### [PyGoat](https://owasp.org/www-project-pygoat/)
+
 PyGoat is an open-source, intentionally vulnerable Python web application designed to help developers and security enthusiasts learn about web application security. It provides hands-on experience in identifying and mitigating common security vulnerabilities, making it a valuable resource for practicing secure coding and penetration testing techniques.
 
 #### Repository
+
 - [PyGoat](https://github.com/adeyosemanputra/pygoat)
 
-#### Skills Required
+#### Knowledge Prerequisites
+
 - HTML/CSS/JavaScript
-- Python 
+- Python
 - Django
 - Docker
 - Basic knowledge of application security
 
-##### Getting started
-- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
-- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
+#### Explanation of Ideas
 
-#### Projects / Ideas
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Refactor the webapp, move away vulnarable labs from the main website.
-- Deploy a microservice architecture based approch for the labs.
+
+- Refactor the webapp, move vulnerable labs away from the main website.
+- Deploy a microservice architecture based approach for the labs.
 - Add new labs to the project.
 - Add interactive dashboard for user performance and completion status.
-- UI consistency
+- UI consistency.
 - Expand challenge section and playgrounds.
 - Extend labs to other languages as well.
-- Prepare for `OWASP Top 10:2026` section
+- Prepare for `OWASP Top 10:2026` section.
+
+#### Getting Started
+
+- Check the [GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
 
 #### Mentors
+
 - [ardiansyah](mailto:pakdesawangan@gmail.com)
-- [Rupak Biswas](https://github.com/RupakBiswas-2304)([Rupak](https://owasp.slack.com/team/U036WSR1684) on slack)
+- [Rupak Biswas](https://github.com/RupakBiswas-2304) ([Rupak](https://owasp.slack.com/team/U036WSR1684) on Slack)
 - [Garvita Kataria](https://github.com/Garvita-k) ([Slack](https://owasp.slack.com/team/U08BJEKS5KQ))
 
-  
 ### [OpenCRE](https://opencre.org/)
+
 OpenCRE is the world's largest Cybersecurity knowledge graph.
 It semantically links information between standards, knowledge bases and security tools.
 Also, it allows users to extend the graph themselves and contains a RAG chatbot implementation.
 OpenCRE is a great GSOC project if you're looking to add "Data science/engineering", "Knowledge Graph and AI" with a focus on Legal Tech and cybersecurity in your CV.
 
 #### Repository
+
 - [OpenCRE](https://github.com/OWASP/OpenCRE)
 
-#### Skills Required
+#### Knowledge Prerequisites
+
 - HTML/CSS/React-Typescript
-- Python 
+- Python
 - Flask
 - Docker
 
-##### Getting started
-- Check the [GitHub project](https://github.com/OWASP/OpenCRE) and the issues marked as either `good first issue` , `help wanted` or `GSOC`
-- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-opencre
+#### Explanation of Ideas
 
-#### Projects / Ideas
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- There are many small, medium and large project in the [Issues Page tagged with GSOC](https://github.com/OWASP/OpenCRE/issues?q=state%3Aopen%20label%3A%22GSOC%22) that we are interested in, depending on your background and interests they are split in the following categories: AI, Frontend, Backend, FullStack. They all contain a bit of frontend and data analysis and graph operations.
+
+There are many small, medium and large projects in the [Issues Page tagged with GSOC](https://github.com/OWASP/OpenCRE/issues?q=state%3Aopen%20label%3A%22GSOC%22) that we are interested in, depending on your background and interests they are split in the following categories: AI, Frontend, Backend, FullStack. They all contain a bit of frontend and data analysis and graph operations.
+
 Priorities for us are:
+
 - [Make the gap analysis functionality faster](https://github.com/OWASP/OpenCRE/issues/587)
 - [MyOpenCRE](https://github.com/OWASP/OpenCRE/milestone/5)
 - [Releasing the Explorer page](https://github.com/OWASP/OpenCRE/milestone/6)
 
 ---
 
-#### 🔹 **OpenCRE Scraper & Indexer (Project OIE) - Module Projects**
+#### OpenCRE Scraper & Indexer (Project OIE) — Module Projects
 
 The OpenCRE Scraper & Indexer is an autonomous ETL pipeline that ingests OWASP security knowledge from various sources, filters noise, and links content to the OpenCRE knowledge graph. This project consists of four independent modules, each suitable for a GSoC project.
 
 **Important Requirements:**
+
 - **Contributor Eligibility**: Applicants must have **at least 3 merged pull requests** to the OpenCRE repository before GSoC selection. This demonstrates familiarity with the codebase, contribution workflow, and project standards.
 - **Code of Conduct**: All contributors must read and agree to follow the [OpenCRE Code of Conduct](https://github.com/OWASP/OpenCRE/blob/main/CODE_OF_CONDUCT.md). Violations will result in immediate project termination.
 - **Pre-Code Experiments**: Each module requires completion of specific pre-code experiments before implementation begins. These experiments validate the approach and ensure technical feasibility.
@@ -581,12 +511,13 @@ For detailed architecture and requirements, see the [RFC: The OpenCRE Scraper & 
 
 ---
 
-##### 🔸 **Module A: Information Harvesting**
+##### Module A: Information Harvesting
 
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 
 **Primary Objectives:**
+
 - Build a GitHub Actions-based cron job that runs nightly at 02:00 UTC
 - Implement a config reader that parses a `repos.yaml` file containing a list of high-value OWASP repositories (ASVS, WSTG, etc.)
 - Develop a diff fetcher that uses `git log --since="24h"` to identify changes in the last 24 hours
@@ -595,13 +526,15 @@ For detailed architecture and requirements, see the [RFC: The OpenCRE Scraper & 
 - Parse files to extract meaningful text changes (not raw diff syntax)
 
 **Technical Requirements:**
+
 - **Tech Stack**: Python (requests, PyGithub), GitHub Actions (Cron)
-- **Pre-Code Experiment**: 
+- **Pre-Code Experiment**:
   - Manually inspect 10 random OWASP repositories to identify common junk files (package-lock.json, CNAME, _config.yml, etc.)
   - Create a regex exclusion list that eliminates 90% of noise without downloading files
   - Write a 10-line script to fetch only modified paragraphs from a large Markdown file using git diff, returning clean text (not raw diff syntax)
 
 **Expected Results:**
+
 - A production-ready GitHub Action that runs nightly
 - Configurable repository list via YAML
 - Efficient diff extraction that filters out noise files
@@ -611,6 +544,7 @@ For detailed architecture and requirements, see the [RFC: The OpenCRE Scraper & 
 
 **Difficulty Characterization:**
 This is a **Medium** difficulty project requiring:
+
 - Understanding of GitHub API and rate limiting
 - Git operations and diff parsing
 - YAML configuration parsing
@@ -619,12 +553,13 @@ This is a **Medium** difficulty project requiring:
 
 ---
 
-##### 🔸 **Module B: Noise/Relevance Filter**
+##### Module B: Noise/Relevance Filter
 
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 
 **Primary Objectives:**
+
 - Implement a two-stage filtering system: regex-based filtering followed by LLM-based relevance checking
 - Create regex filters to reject common noise files (*.css, lockfiles, tests/, etc.)
 - Integrate with managed LLM APIs (Gemini Flash or GPT-4o-mini) for semantic relevance checking
@@ -632,6 +567,7 @@ This is a **Medium** difficulty project requiring:
 - Build a knowledge queue system that routes relevant content to Module C
 
 **Technical Requirements:**
+
 - **Tech Stack**: Python (langchain or raw API calls), Managed LLM APIs (Gemini Flash/GPT-4o-mini)
 - **Pre-Code Experiment**:
   - Extract 100 real commit messages/diffs from OWASP repositories
@@ -640,6 +576,7 @@ This is a **Medium** difficulty project requiring:
   - Success Criteria: LLM must match manual tags >97% of the time
 
 **Expected Results:**
+
 - A filtering pipeline that processes raw changes and outputs relevant security knowledge
 - Tuned LLM prompts with >97% accuracy on validation dataset
 - Cost-effective implementation using managed LLM APIs
@@ -649,6 +586,7 @@ This is a **Medium** difficulty project requiring:
 
 **Difficulty Characterization:**
 This is an **Easy** difficulty project suitable for:
+
 - Entry-level developers interested in prompt engineering
 - Developers comfortable with API integration
 - Those who enjoy iterative prompt tuning ("vibe coding")
@@ -656,12 +594,13 @@ This is an **Easy** difficulty project suitable for:
 
 ---
 
-##### 🔸 **Module C: The Librarian (Smart Content Mapping)**
+##### Module C: The Librarian (Smart Content Mapping)
 
 ![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 **Primary Objectives:**
+
 - Implement a two-stage retrieval system: vector search (bi-encoder) followed by cross-encoder re-ranking
 - Set up vector search using pgvector to retrieve top 20 candidate CRE nodes
 - Integrate sentence-transformers library with ms-marco-MiniLM-L-6-v2 model for cross-encoder re-ranking
@@ -671,6 +610,7 @@ This is an **Easy** difficulty project suitable for:
 - Set threshold-based routing: score > 0.8 links to CRE, score < 0.8 flags for human review
 
 **Technical Requirements:**
+
 - **Tech Stack**: sentence-transformers (HuggingFace), pgvector, Python
 - **Prerequisites**: Understanding of Embeddings, Bi-Encoders vs Cross-Encoders, Vector Similarity
 - **Pre-Code Experiment**:
@@ -681,6 +621,7 @@ This is an **Easy** difficulty project suitable for:
   - Success Criteria: Cross-Encoder must show 20% accuracy improvement over Cosine Similarity, especially for "Negative" requirements
 
 **Expected Results:**
+
 - Production-ready content mapping system with >80% accuracy on validation dataset
 - Vector search integration with pgvector
 - Cross-encoder re-ranking pipeline
@@ -691,6 +632,7 @@ This is an **Easy** difficulty project suitable for:
 
 **Difficulty Characterization:**
 This is a **Hard** difficulty project requiring:
+
 - Deep understanding of embeddings and semantic similarity
 - Experience with vector databases (pgvector)
 - Knowledge of bi-encoders vs cross-encoders
@@ -702,12 +644,13 @@ This is a **Hard** difficulty project requiring:
 
 ---
 
-##### 🔸 **Module D: Human-in-the-Loop (HITL) & Logging**
+##### Module D: Human-in-the-Loop (HITL) & Logging
 
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 
 **Primary Objectives:**
+
 - Build a simple admin UI for reviewing flagged content from Module C
 - Implement a fast review interface optimized for "Tinder-swipe" speed (keybind 'y' for yes, 'n' for no)
 - Create a logging system that appends corrections to JSONL files (stored in S3/MinIO)
@@ -716,6 +659,7 @@ This is a **Hard** difficulty project requiring:
 - Build a dashboard showing review queue status and statistics
 
 **Technical Requirements:**
+
 - **Tech Stack**: Flask/React, S3/MinIO for storage
 - **Pre-Code Experiment**:
   - Draw wireframe or build 10-line HTML prototype
@@ -723,6 +667,7 @@ This is a **Hard** difficulty project requiring:
   - Success Criteria: UI must require minimal clicks (ideally keyboard shortcuts)
 
 **Expected Results:**
+
 - A production-ready admin UI for content review
 - Fast, keyboard-optimized review workflow
 - JSONL logging system integrated with S3/MinIO
@@ -733,6 +678,7 @@ This is a **Hard** difficulty project requiring:
 
 **Difficulty Characterization:**
 This is an **Easy** difficulty project suitable for:
+
 - Junior developers or frontend contributors
 - Developers comfortable with standard CRUD web applications
 - Those interested in UX optimization
@@ -740,115 +686,141 @@ This is an **Easy** difficulty project suitable for:
 
 **Bonus/Pro-Mode**: Implement "Loss Warehousing" to capture structured loss events (Input + Wrong Prediction + Correct Label) for future model retraining.
 
----
-  
+#### Getting Started
+
+- Check the [GitHub project](https://github.com/OWASP/OpenCRE) and the issues marked as either `good first issue`, `help wanted` or `GSOC`
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-opencre
+
 #### Mentors
 
 **For OpenCRE Scraper & Indexer (Project OIE) Module Projects (A, B, C, D):**
+
 - [Spyros Gasteratos](mailto:spyros.gasteratos@owasp.org)
 - [Rob Van Der Veer](mailto:rob.van.der.veer@owasp.org)
 - [Paola Gardenas](mailto:paola.gardenas@owasp.org)
 - [Parth Sohaney](mailto:parth.sohaney@owasp.org)
 
-
 ### [OWTF](https://owasp.org/www-project-owtf/)
-OWTF attempts to solve the “penetration testers are never given enough time to test properly” problem, or in other words, OWTF = Test/Exploit ASAP, with this in mind, as of right now, the priorities are:
 
-* To improve security testing efficiency (i.e. test more in less time)
-* To improve security testing coverage (i.e. test more)
-* Gradually integrate the best tools
-* Unite the best tools and make them work together with the security tester
-* Remove or Reduce the need to babysit security tools during security assessments
-* Be a respository of PoC resource links to assist exploitation of vulnerabilities in order to illustrate risk to businesses.
-* Help penetration testers save time on report writing
+OWTF attempts to solve the "penetration testers are never given enough time to test properly" problem, or in other words, OWTF = Test/Exploit ASAP, with this in mind, as of right now, the priorities are:
+
+- To improve security testing efficiency (i.e. test more in less time)
+- To improve security testing coverage (i.e. test more)
+- Gradually integrate the best tools
+- Unite the best tools and make them work together with the security tester
+- Remove or reduce the need to babysit security tools during security assessments
+- Be a repository of PoC resource links to assist exploitation of vulnerabilities in order to illustrate risk to businesses.
+- Help penetration testers save time on report writing
 
 #### Repository
+
 - [OWTF](https://github.com/owtf/owtf)
 
-#### Skills Required
-- Python 
+#### Knowledge Prerequisites
+
+- Python
 - Tornado
 - Docker
 - React/React ecosystem for application frontend
 - Basic knowledge of application security, tools used in bug bounty style hunting
 - Some knowledge of how TLS works, man in the middle proxies, HTTP internals, etc.
 
-##### Getting started
-Please use the repositories’ issue tracker, GitHub discussions, and don’t forget to read the contributing guide. Join the community at #owtf on OWASP Slack and share your questions, project ideas.
+#### Getting Started
+
+Please use the repositories' issue tracker, GitHub discussions, and don't forget to read the contributing guide. Join the community at #owtf on OWASP Slack and share your questions, project ideas.
 
 To receive early feedback please:
-- put your proposal on Google Docs and submit it to the OWASP
+
+- Put your proposal on Google Docs and submit it to the OWASP
   Organization on Google's GSoC page in "Draft Shared" mode.
 - Please pick "owtf" as Proposal Tag to make them easier to find for us. Thank you!
 
-#### Projects / Ideas
+#### Explanation of Ideas
+
+##### OWTF Modernization
+
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Difficulty: Hard](https://img.shields.io/badge/difficulty-medium-orange) OWTF Modernization
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 OWTF has evolved over time, but parts of the codebase are outdated, have technical debt, and may not be optimized for newer Python versions or best practices. This project aims to modernize the OWTF codebase, ensuring long-term maintainability, security, and efficiency.
-Key Objectives
+
+Key Objectives:
+
 1. Fix Long-Standing Bugs & Improve Stability
-    * Audit and resolve GitHub issues related to stability, crashes, and performance bottlenecks.
-    * Enhance logging and error handling for better debugging.
-    * Improve unit tests and CI/CD pipelines to catch regressions early.
+    - Audit and resolve GitHub issues related to stability, crashes, and performance bottlenecks.
+    - Enhance logging and error handling for better debugging.
+    - Improve unit tests and CI/CD pipelines to catch regressions early.
 2. Optimize Plugin Execution & Dependency Management
-    * Upgrade outdated third-party security tools used in plugins.
-    * Reduce dependency bloat by removing redundant libraries.
-    * Use async execution where applicable for better performance.
+    - Upgrade outdated third-party security tools used in plugins.
+    - Reduce dependency bloat by removing redundant libraries.
+    - Use async execution where applicable for better performance.
 
-###### Expected Outcomes
-✔️ OWTF will be cleaner, faster, and easier to maintain.<br/>
-✔️ The project will be future-proofed with up-to-date dependencies.<br/>
-✔️ Stability and performance will be significantly improved.<br/>
+Expected Outcomes:
 
+- OWTF will be cleaner, faster, and easier to maintain.
+- The project will be future-proofed with up-to-date dependencies.
+- Stability and performance will be significantly improved.
+
+---
+
+##### MiTM Proxy Upgrade
 
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Difficulty: Hard](https://img.shields.io/badge/difficulty-medium-orange) MiTM proxy upgrade
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
 OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework. It is in rough shape and needs a lot of improvement on the transaction recording, storing, and modification side. We want to make it as good as [MiTM proxy](https://mitmproxy.org/).
 
+Expected Outcomes:
 
-###### Expected Outcomes
-✔️ Modern mitm proxy that allows modificaiton of requests and responses on the fly<br/>
-✔️ Better integration with the framework to record a variety of requests and responses.<br/>
-✔️ Stability and performance.<br/>
+- Modern MiTM proxy that allows modification of requests and responses on the fly.
+- Better integration with the framework to record a variety of requests and responses.
+- Stability and performance.
 
-##### Mentors
+#### Mentors
+
 - [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
 - [Abraham Aranguren](mailto:abraham.aranguren@owasp.org)
 
 ### [OWASP Cornucopia](https://cornucopia.owasp.org/)
 
 #### Repository
-- [OWASP Cornucopia]([https://github.com/adeyosemanputra/pygoat](https://github.com/owasp/cornucopia))
 
-#### Skills Required
+- [OWASP Cornucopia](https://github.com/owasp/cornucopia)
+
+#### Knowledge Prerequisites
+
 - HTML/CSS/JavaScript
 - Python
 - Docker
 - No security knowledge required
 
-##### Getting started
-- Check[GitHub project]([https://github.com/adeyosemanputra/pygoat](https://github.com/owasp/cornucopia?tab=readme-ov-file#building-and-deploying-the-cornucopia-website))
-- Get in touch with one of the project leaders [Sydseter](https://www.linkedin.com/in/sydseter/)
-- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #cornucopia-project
+#### Explanation of Ideas
 
-#### Projects / Ideas
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+
 - Ensure the OWASP Cornucopia converter can create print-ready proofs for print-on-demand jobs. See: [Description](https://github.com/OWASP/cornucopia/issues/583).
 - Add the EoP Game to the card browser. See: [Description](https://github.com/OWASP/cornucopia/issues/1322).
 - Redesign for cornucopia.owasp.org. See: [Description](https://github.com/OWASP/cornucopia/issues/2194).
 
-#### Mentors
-- [Johan Sydseter](mailto:johan.sydseter@owasp.com)
-- [Colin Watson](colin.watson@owasp.org)
+#### Getting Started
 
-###[OWASP Web Application Honeypot Project](https://owasp.org/www-project-honeypot/) 
+- Check the [GitHub project](https://github.com/owasp/cornucopia?tab=readme-ov-file#building-and-deploying-the-cornucopia-website)
+- Get in touch with one of the project leaders [Sydseter](https://www.linkedin.com/in/sydseter/)
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #cornucopia-project
+
+#### Mentors
+
+- [Johan Sydseter](mailto:johan.sydseter@owasp.com)
+- [Colin Watson](mailto:colin.watson@owasp.org)
+
+<a id="owasp-honeypot"></a>
+
+### [OWASP Web Application Honeypot Project](https://owasp.org/www-project-honeypot/)
 
 The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks.
 
-Based around the earlier OWASP/WASC Distributed Web Honeypots Project (https://github.com/SpiderLabs/owasp-distributed-web-honeypots)
+Based around the earlier OWASP/WASC Distributed Web Honeypots Project (<https://github.com/SpiderLabs/owasp-distributed-web-honeypots>)
 
 The primary aims of the project are:
 
@@ -856,28 +828,115 @@ The primary aims of the project are:
 - Threat Reports to the community
 
 #### Repository
+
 - [OWASP Web Application Honeypot](https://github.com/OWASP/Honeypot-Project/)
 
-#### Skills Required
+#### Knowledge Prerequisites
+
 - HTML/CSS/JavaScript/PHP
 - Python
 - Docker
 - Apache Web Server/NGINX
-- Desirable: ModSecurity/Coraza WAF and.or Core Rule Set Knowledge
-- No in depth security knowledge required
+- Desirable: ModSecurity/Coraza WAF and/or Core Rule Set Knowledge
+- No in-depth security knowledge required
 
-##### Getting started
-- Check[GitHub project](https://github.com/OWASP/Honeypot-Project/)
-- Get in touch with one of the project leaders [Adrian Winckles] (https://www.linkedin.com/in/adrian-winckles-2582ab3/)
-- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #honeypot-project
+#### Explanation of Ideas
 
-#### Projects / Ideas
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
-- Adaptive Security for Dynamic ModSEcurity WAF Rules  - As the honeypot utilises CRS, we would like to be able to utilise CRS 4.1 PlugIns to be able dynamically change CRS WAF Rules to better identify anomalies which don’t trigger existing WAF rule.  Ideally a proof off concept approach so the new honeytraps can be inserted as rules “on the fly”.
-- Develop a mechanism to automatically the docker container to the latest version of CRS 
-- Develop a chameleon variant which as the ability to change its persona and stimuli to external stimuli (swapping docker containers) 
-- Develop different persona’s to mmic fingerprints for well known vulnerable web applications 
+
+- Adaptive Security for Dynamic ModSecurity WAF Rules — As the honeypot utilises CRS, we would like to be able to utilise CRS 4.1 PlugIns to dynamically change CRS WAF Rules to better identify anomalies which don't trigger existing WAF rules. Ideally a proof of concept approach so the new honeytraps can be inserted as rules "on the fly".
+- Develop a mechanism to automatically update the docker container to the latest version of CRS.
+- Develop a chameleon variant which has the ability to change its persona and stimuli to external stimuli (swapping docker containers).
+- Develop different personas to mimic fingerprints for well known vulnerable web applications.
+
+#### Getting Started
+
+- Check the [GitHub project](https://github.com/OWASP/Honeypot-Project/)
+- Get in touch with one of the project leaders [Adrian Winckles](https://www.linkedin.com/in/adrian-winckles-2582ab3/)
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #honeypot-project
 
 #### Mentors
-- [Adrian Winckles ](mailto:adrian.winckles@owasp.org)
+
+- [Adrian Winckles](mailto:adrian.winckles@owasp.org)
+
+<a id="owasp-genai-security-project"></a>
+
+### [OWASP GenAI Security Project](https://genai.owasp.org) : [FinBot CTF](https://github.com/OWASP-ASI/finbot-ctf-demo) (Agentic AI Security "Juice Shop")
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+(Can be scoped to Medium by reducing number of scenarios/adapters. Medium → Hard depending on systems + security + agent/tool integration.)
+
+#### Project Summary
+
+**OWASP FinBot CTF** is an open-source, hands-on **Agentic AI security** learning platform: a realistic multi-agent application (vendor onboarding, invoice handling, etc.) paired with a **CTF arena** that observes agent behavior, runs security checks, and **auto-scores** challenges. It is designed to complement OWASP's Agentic guidance by letting practitioners **see risks in action** and learn by doing.
+
+#### Why This Is a Strong GSoC Idea
+
+FinBot lets the community **reproduce** the failures described in OWASP Top 10 for Agentic Apps and measure outcomes. GSoC can accelerate FinBot from "offense-heavy" to a more complete platform that teaches **attack + detection + guardrails**, using realistic enterprise patterns (tools, permissions, memory, retrieval, and MCP-style integrations).
+
+#### Problem Statement
+
+FinBot today is strongest as an **offensive** learning arena. To match how agentic systems are actually built and defended, the platform needs:
+
+1. **Defense / guardrail capabilities** (policy checks, detection, safe tool-use controls) that can be attached to challenges and scored, and
+2. **More realistic scenarios**, especially tool/plugin ecosystems and MCP-like tool servers, including malicious tools, poisoned tool outputs, over-permissioned tools, and authorization gaps.
+
+#### Proposed GSoC Project — "FinBot: Defensive Mode + Realistic Agentic Scenarios (MCP-ready)"
+
+**Goal:** Add a first-class "defender path" to FinBot CTF by implementing a Guardrail & Detection Framework and shipping new scenario modules aligned to OWASP Agentic Top 10 patterns (attack + defend + measure).
+
+#### Core Deliverables
+
+##### A. Guardrail & Detection Framework (platform capability)
+
+- A pluggable policy/guardrail layer that can run before tool execution, after tool output, and before agent final actions.
+- A standardized security event model for: prompt/goal changes, memory read/write, tool selection, tool parameters, tool outputs, privilege/authorization decisions, and guardrail triggers.
+- A "defensive scoring" capability: award points for successful prevention/detection (not just successful exploitation).
+
+##### B. New challenge pack: "Defense-enabled Agentic Top 10 scenarios"
+
+- Convert 3 to 5 existing/offensive challenges into paired tracks:
+  - Red path: exploit
+  - Blue path: implement guardrail/detection to prevent or catch
+- Each challenge includes mapping metadata (OWASP Agentic category tags, expected signals, suggested mitigations, references).
+
+##### C. MCP-style scenario module (realism upgrade)
+
+- Add a scenario where FinBot uses external tools via an MCP-like interface:
+  - benign tool server + malicious tool server variants
+  - tool output poisoning, prompt injection via tool payloads, and permission/authorization mistakes
+- Add detectors for suspicious tool behavior (unexpected endpoints, output anomalies, high-risk actions, policy violations).
+
+##### D. Documentation + CI
+
+- "Getting started" guide (Docker Compose or equivalent), contributor docs, and a small set of "good first issue" tickets.
+- Unit/integration tests around guardrail hooks and event generation.
+
+#### Knowledge Prerequisites
+
+- Strong Python (backend/services), APIs, and testing
+- Docker + basic DevOps for local deployment
+- Familiarity with LLM/agent patterns (tools, memory, RAG) and security mindset
+- **Bonus:** open source contributions, experience with policy engines, gateways, event pipelines, or agent frameworks
+
+#### Getting Started
+
+- Read OWASP GSoC participation guidance, then introduce yourself on OWASP Slack [#team-genai-asi-finbot](https://owasp.slack.com/archives/C09A2MFUXJ9)
+- Set up FinBot locally, pick 1–2 starter issues (tests, docs, small detector), and submit early PRs.
+
+#### Your Own Ideas
+
+We welcome new ideas and love to hear about it. Please prepare a 1-page idea proposal and reach out to the mentors in the Slack channel [#team-genai-asi-finbot](https://owasp.slack.com/archives/C09A2MFUXJ9) to make sure there is alignment with FinBot's roadmap.
+
+#### Repository
+
+- [FinBot CTF](https://github.com/OWASP-ASI/finbot-ctf)
+
+#### Mentors
+
+- Venkata Sai Kishore Modalavalasa
+- Helen Oakley
+- _More mentors to be confirmed_
