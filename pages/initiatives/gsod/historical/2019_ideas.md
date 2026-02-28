@@ -61,7 +61,7 @@ OWASP Juice Shop Project is probably the most modern and sophisticated insecure 
 #### "Pwning OWASP Juice Shop" Companion Guide
 Pwning OWASP Juice Shop is the official companion guide for this project. It will give you a complete overview of the vulnerabilities found in the application including hints how to spot and exploit them. In the appendix you will even find complete step-by-step solutions to every challenge. The ebook is published under CC BY-NC-ND 4.0 and is available for free as work-in-progress in HTML, PDF, Kindle and ePub format on GitBook. The latest officially released edition is available for free on LeanPub in PDF, Kindle and ePub format.
 
-![OWASP JuiceShop Cover](/www-community/assets/images/initiatives/gsod/owaspjuiceshop_cover.jpg)
+![OWASP JuiceShop Cover](../../../../assets/images/initiatives/gsod/owaspjuiceshop_cover.jpg)
 
 The book is divided into three parts:
 

@@ -41,7 +41,7 @@ and Developer.
 
 ## ABOUT THE PROJECT
 
-This document was created by The Open Web Application Security Project
+This document was created by The Open Worldwide Application Security Project
 (OWASP) Foundation, a not-for-profit charitable organization dedicated
 to creating free and open tools and documentation related to secure
 software. To facilitate easy use in private contracting, this document

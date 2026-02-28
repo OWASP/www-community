@@ -141,7 +141,7 @@ Here’s how the QRLJacking attack works behind the scenes:
 5. The service is exchanging all the victim’s data with the attacker’s
    session.
 
-![QRLJacking Attack Flow](../assets/images/attacks/qrljacking-attack-flow.jpg)
+![QRLJacking Attack Flow](../../assets/images/attacks/qrljacking-attack-flow.jpg)
 
 # QRLJacking Implications
 
@@ -296,7 +296,7 @@ generated in the same physical location as the mobile device that is
 doing the scan and therefore eliminating the possibility of a remote
 attacker deceiving the user into scanning their qr code.
 
-![Nomal Login Scenario](../assets/images/attacks/qrl-normal-login-scenario.jpg)
+![Nomal Login Scenario](../../assets/images/attacks/qrl-normal-login-scenario.jpg)
 
 **The Attack Scenario (with the mitigation):** Attacker visits the
 website and opens a session.
@@ -317,7 +317,7 @@ audio as it requires additional browser permissions.
 6. Even if the attacker tries to generate the authentication sound
 based on the (User ID) they still lack the private key.
 
-![Mitigation Scenario](../assets/images/attacks/qrljacking-mitigation-scenario.jpg)
+![Mitigation Scenario](../../assets/images/attacks/qrljacking-mitigation-scenario.jpg)
 
 # Related Vulnerabilities
 

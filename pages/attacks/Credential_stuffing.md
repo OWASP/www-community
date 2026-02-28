@@ -44,7 +44,7 @@ Now the attacker knows they have access to an account. Potential next steps incl
 
 ### Diagram
 
-![A diagram showing an attacker submitting the same set of credentials to three distinct websites, identifying which credentials are valid on which sites](../assets/images/attacks/credential-stuffing.png)
+![A diagram showing an attacker submitting the same set of credentials to three distinct websites, identifying which credentials are valid on which sites](../../assets/images/attacks/credential-stuffing.png)
 
 In the diagram above, acme.com's database is compromised. An attacker takes the breached database and tries the credentials on three other websites, looking for successful logins. The attacker identifies two websites where the user "spongebob" is reusing their password, and one website where the user "sally" is reusing their password. The attacker can now get access to those three accounts.
 

@@ -99,7 +99,8 @@ TBD
     Definitions for libc.
     <http://www.linuxbase.org/spec/refspecs/LSB_1.2.0/gLSB/libcman.html>.
 
-\[\[Category:FIXME|add links
+- Linux Standard Base (LSB) specification: <https://refspecs.linuxfoundation.org/lsb.shtml>
+- GNU libc manual: <https://www.gnu.org/software/libc/manual/>
 
 In addition, one should classify vulnerability based on the following
 subcategories:

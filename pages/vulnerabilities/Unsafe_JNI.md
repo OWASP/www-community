@@ -134,8 +134,8 @@ in the Java application that exposes its use of JNI \[2\].
 
 __NOTOC__
 
-[The first link works, but the page says the content is going to be
-removed at some point. Need to change link](Category:FIXME "wikilink")
+See Oracle Java Native Interface (JNI) tutorial:
+<https://docs.oracle.com/javase/8/docs/technotes/guides/jni/>
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
 [Category:Input Validation
 Vulnerability](Category:Input_Validation_Vulnerability "wikilink")

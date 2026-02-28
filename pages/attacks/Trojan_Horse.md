@@ -78,12 +78,11 @@ the whole network.
 An iframe pointing to a javascript which downloads malware:
 <http://isc.sans.org/diary.html?storyid=2923&dshield=4c501ba0d99f5168ce114d3a3feab567>
 
-\[\[Category:FIXME|link not working
+See also [Man-in-the-browser attack](Man-in-the-browser_attack "wikilink") and CERT guidance on malicious code mitigation:
+<http://www.cert.org/tech_tips/malicious_code_mitigation.html>
 
 A Javascript Trojan Horse example can be found on:
 <http://www.attacklabs.com/download/sniffer.rar> .
-
-\]\]
 
 ## Related [Threat Agents](Threat_Agents "wikilink")
 
@@ -113,6 +112,6 @@ A Javascript Trojan Horse example can be found on:
     Horse](http://www.webopedia.com/DidYouKnow/Internet/2004/virus.asp)
 
 [Category:OWASP ASDR Project](Category:OWASP_ASDR_Project "wikilink")
-[need links](Category:FIXME "wikilink") [Category:Embedded Malicious
+[Category:Malicious Code Attack](:Category:Malicious_Code_Attack "wikilink") [Category:Embedded Malicious
 Code](Category:Embedded_Malicious_Code "wikilink")
 [Category:Attack](Category:Attack "wikilink")

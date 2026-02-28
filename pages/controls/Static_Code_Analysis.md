@@ -39,7 +39,7 @@ useful as compared to finding vulnerabilities much later in the
 development cycle.
 
 The UK Defense Standard 00-55 requires that Static Code Analysis be used
-on all 'safety related software in defense equipment'.<sup>\[0\]</sup>
+on all 'safety related software in defense equipment'.
 
 ## Techniques
 

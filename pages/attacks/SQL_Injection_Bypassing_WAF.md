@@ -122,7 +122,7 @@ can be used (e.g., \#\#\#\#\#, %00).*
 *Successful conduction of an HPP attack bypassing WAF depends on the
 environment of the application being attacked.* [EU09 Luca Carettoni, Stefano diPaola](http://wiki.owasp.org/images/b/ba/AppsecEU09_CarettoniDiPaola_v0.8.pdf)
 
-![SQL Injection using HTTP Parameter Pollution](../assets/images/attacks/sql-injection-HPP.png)
+![SQL Injection using HTTP Parameter Pollution](../../assets/images/attacks/sql-injection-HPP.png)
 
 **Using HTTP Parameter Pollution (HPP)**
 

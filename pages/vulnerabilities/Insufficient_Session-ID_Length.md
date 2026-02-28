@@ -24,7 +24,7 @@ It's important to understand that session ID length alone is not a sufficient in
 - **Encoding can impact required length**: If using hexadecimal encoding, the randomly chosen session ID must be at least 16 hexadecimal characters long to achieve the required 64 bits of entropy. If using another encoding, a different character length may be required.
 - **Estimating attack difficulty**: The expected number of guesses required by an attacker to guess a valid session ID can be calculated based on the bits of entropy (B), the number of valid sessions (S), and the attacker’s guessing rate (A). For example, the expected time for an attacker to succeed is approximately:
 
-![](../assets/images/Session_id_guessing_1.png)
+![](../../assets/images/Session_id_guessing_1.png)
 
 ### Session ID Length and Entropy Relationship
 
@@ -82,12 +82,12 @@ Here's a simple webpage that implements these 2 formulas where you can test thes
 #### Formula 1: Dynamic Session IDs (e.g., users logging in/out)
 In this scenario, session IDs are constantly changing due to users logging in, logging out, or session expiration. Each guess is independent, meaning previously guessed values might later become valid. Because the guesses are independent, the expected number of guesses to find a valid session ID can be estimated using a geometric distribution. The formula to estimate the expected time for an attacker to guess a valid session ID is:
 
-![](../assets/images/Session_id_guessing_1.png)
+![](../../assets/images/Session_id_guessing_1.png)
 
 #### Formula 2: Static Session IDs (e.g., API keys or tokens)
 In this scenario, we'll assume that the set of valid session identifiers is **not** changing throughout the attack. In the real world, this could occur when the attacker is able to exhaust all possibilities quickly (e.g., low entropy or many requests per second) or when targeting long-lived identifiers (e.g., API keys or tokens). When the set of valid session identifiers remains static, the attack becomes more efficient because the attacker can eliminate previously guessed invalid session IDs. This scenario follows the hypergeometric distribution, where the expected number of guesses is the average position of the first valid session ID among all possible values. In this case, the expected time for an attacker to guess a valid session ID is:
 
-![](../assets/images/Session_id_guessing_2.png)
+![](../../assets/images/Session_id_guessing_2.png)
 
 This formula accounts for the increasing probability of success with each guess as the pool of possible valid session IDs shrinks.
 
@@ -104,11 +104,11 @@ We have the following as our key variables:
 
 Using Formula 1 (dynamic session IDs):
 
-![](../assets/images/Session_id_guessing_3.png)
+![](../../assets/images/Session_id_guessing_3.png)
 
 Using Formula 2 (static session IDs):
 
-![](../assets/images/Session_id_guessing_4.png)
+![](../../assets/images/Session_id_guessing_4.png)
 
 We can see that for large values of \( B \), the difference is negligible. 
 
@@ -121,11 +121,11 @@ Let's consider now that the target website is using stronger session identifiers
 
 Using Formula 1 (dynamic session IDs):
 
-![](../assets/images/Session_id_guessing_5.png)
+![](../../assets/images/Session_id_guessing_5.png)
 
 Using Formula 2 (static session IDs):
 
-![](../assets/images/Session_id_guessing_6.png)
+![](../../assets/images/Session_id_guessing_6.png)
 
 We can see that even though the attacker has more potential session ids to compromise, and is making many more requests per second, the 64 bits of entropy in the session ID make it effectively unguessable.
 

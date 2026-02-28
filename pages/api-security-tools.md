@@ -32,6 +32,10 @@ The goal is to provide as comprehensive a list of API tools as possible using th
 
 {% include api-tools.html %}
 
+## Comparison Resources
+
+- [AppSec Santa — API Security Tools](https://appsecsanta.com/api-security-tools) — Vendor-associated comparison of 9 API security tools with feature breakdowns, licensing info, and alternatives.
+
 #### Adding Tools
 
 To add items, please add a stanza to the yaml file [here](https://github.com/OWASP/www-community/blob/master/_data/api-tools.yml) or email me at matt.tesauro AT owasp.org

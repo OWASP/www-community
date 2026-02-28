@@ -57,7 +57,8 @@ TBD
 
 ## References
 
-TBD \[\[Category:FIXME|add links
+- Linux Standard Base (LSB) specification: <https://refspecs.linuxfoundation.org/lsb.shtml>
+- POSIX online specifications: <https://pubs.opengroup.org/onlinepubs/9699919799/>
 
 In addition, one should classify vulnerability based on the following
 subcategories:

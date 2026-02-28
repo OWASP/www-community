@@ -76,9 +76,8 @@ something like the following for the example above:
 
 ## References
 
-TBD
-
-\[\[Category:FIXME|add links
+- [CWE-259: Use of Hard-coded Password](http://cwe.mitre.org/data/definitions/259.html)
+- [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
 In addition, one should classify vulnerability based on the following
 subcategories:

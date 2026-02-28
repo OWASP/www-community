@@ -247,7 +247,7 @@ application secure against SQL injection attacks.
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-- [SQL Injection Bypassing WAF](https://www.owasp.org/index.php/SQL_Injection_Bypassing_WAF)
+- [SQL Injection Bypassing WAF](https://owasp.org/www-community/attacks/SQL_Injection_Bypassing_WAF)
 - [Blind SQL Injection](Blind_SQL_Injection)
 - [Code Injection](Code_Injection)
 - [Double Encoding](../Double_Encoding)
@@ -256,8 +256,6 @@ application secure against SQL injection attacks.
 ## References
 
 - [SQL Injection Knowledge Base](https://book.hacktricks.xyz/pentesting-web/sql-injection) - A reference guide for MySQL, MSSQL and Oracle SQL Injection attacks.
-- [GreenSQL Open Source SQL Injection Filter](http://www.greensql.net/) - An Open Source database firewall used to protect databases from SQL injection attacks.
-- [An Introduction to SQL Injection Attacks for Oracle Developers](https://web.archive.org/web/20151005235207/http://www.net-security.org/dl/articles/IntegrigyIntrotoSQLInjectionAttacks.pdf)
-  - This also includes recommended defenses.
+- [GreenSQL Open Source SQL Injection Filter](https://web.archive.org/web/20160305000000/http://www.greensql.net/) - An Open Source database firewall used to protect databases from SQL injection attacks.
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)

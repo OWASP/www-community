@@ -59,13 +59,13 @@ javascript function.
 Link between parent and child pages when prevention attribute is not
 used:
 
-![Tabnabbing with back link](../assets/images/TABNABBING_OVERVIEW_WITH_LINK.png)
+![Tabnabbing with back link](../../assets/images/TABNABBING_OVERVIEW_WITH_LINK.png)
 
 ### Without back link
 
 Link between parent and child pages when prevention attribute is used:
 
-![Tabnabbing without back link](../assets/images/TABNABBING_OVERVIEW_WITHOUT_LINK.png)
+![Tabnabbing without back link](../../assets/images/TABNABBING_OVERVIEW_WITHOUT_LINK.png)
 
 ## Examples
 
