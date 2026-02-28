@@ -49,7 +49,7 @@ OWASP BLT (Bug Logging Tool) is a community-driven OWASP Foundation project that
 
 BLT has evolved into a growing ecosystem that combines **modern full-stack engineering, AI-assisted security workflows, hands-on security education, distributed scanning infrastructure, and blockchain-backed incentive systems**. The platform functions both as a production-grade vulnerability management system and as a practical learning environment where contributors build real-world security expertise.
 
-This year's GSoC projects center on **core platform modernization, AI-native interfaces, automation-first workflows, distributed security infrastructure, hands-on security education, and meaningful gamification**. Our goal is to make BLT faster, more scalable, AI-agent ready, and deeply educational—turning real security work into structured learning pathways.
+This year's OWASP BLT GSoC projects center on **core platform modernization, AI-native interfaces, automation-first workflows, distributed security infrastructure, hands-on security education, and meaningful gamification**. Our goal is to make BLT faster, more scalable, AI-agent ready, and deeply educational—turning real security work into structured learning pathways.
 
 > Preference will be given to students who have at least **5 merged PRs** before GSoC selection.
 
