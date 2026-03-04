@@ -862,7 +862,7 @@ The primary aims of the project are:
 
 <a id="owasp-genai-security-project"></a>
 
-### [OWASP GenAI Security Project](https://genai.owasp.org) : [FinBot CTF](https://github.com/OWASP-ASI/finbot-ctf-demo) (Agentic AI Security "Juice Shop")
+### [OWASP GenAI Security Project](https://genai.owasp.org) : [FinBot CTF](https://github.com/OWASP-ASI/finbot-ctf) (Agentic AI Security "Juice Shop")
 
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Preferred for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
@@ -937,6 +937,47 @@ We welcome new ideas and love to hear about it. Please prepare a 1-page idea pro
 
 #### Mentors
 
-- Venkata Sai Kishore Modalavalasa
-- Helen Oakley
-- _More mentors to be confirmed_
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/saikishu.png" alt="Venkata Sai Kishore Modalavalasa" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Venkata Sai Kishore Modalavalasa</strong><br>
+Researcher, speaker, Author | Creator of FinBot Agentic AI CTF | Chief Architect at Straiker<br>
+<i class="fab fa-github"></i> <a href="https://github.com/saikishu">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/saikishu/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/archives/D096H9NADPC">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/e2hln.png" alt="Helen Oakley" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Helen Oakley</strong><br>
+Researcher, keynote speaker, founder | Creator of OWASP AIBOM Generator &amp; FinBot Agentic AI CTF | VP of Software and AI Security at SAP<br>
+<i class="fab fa-github"></i> <a href="https://github.com/e2hln">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/helen-oakley">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/archives/D09J0NC6ETS">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/mekaizen.png" alt="Nirupam Ghosh" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Nirupam Ghosh</strong><br>
+Architect, Agentic AI, Gen AI | Staff SET at Warner Bros<br>
+<i class="fab fa-github"></i> <a href="https://github.com/mekaizen">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="http://www.linkedin.com/in/nirupamghosh">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U09M9EH96JU">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/steadhac.png" alt="Carolina Steadham" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Carolina Steadham</strong><br>
+QA Lead, APIsec University Ambassador | Quality Assurance Engineer at Amazon<br>
+<i class="fab fa-github"></i> <a href="https://github.com/steadhac">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/carolinacsteadham/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U09H7LXUBN2">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/408sanjeev.png" alt="Sanjeev Agarwal" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Sanjeev Agarwal</strong><br>
+AI/Agentic AI Security, Healthcare AI - Advisory Board | Head of Product Security SAP-IAG at SAP<br>
+<i class="fab fa-github"></i> <a href="https://github.com/408sanjeev">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sanjeevlinkedin/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0A8U4RSWUF">Slack</a>
+</div>
+</div>
