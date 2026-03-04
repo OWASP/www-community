@@ -255,7 +255,7 @@ application secure against SQL injection attacks.
 
 ## References
 
-- [SQL Injection Knowledge Base](https://book.hacktricks.xyz/pentesting-web/sql-injection) - A reference guide for MySQL, MSSQL and Oracle SQL Injection attacks.
+- [SQL Injection Knowledge Base](https://book.hacktricks.wiki/pentesting-web/sql-injection/index.html) - A reference guide for MySQL, MSSQL and Oracle SQL Injection attacks.
 - [GreenSQL Open Source SQL Injection Filter](https://web.archive.org/web/20160305000000/http://www.greensql.net/) - An Open Source database firewall used to protect databases from SQL injection attacks.
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
