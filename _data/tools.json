@@ -2422,16 +2422,16 @@
 		]
 	},
 	{
-       "title": "VulnWatch",
-       "url": "https://vulnwatch.tech",
-       "owner": "Cyber Trust Innovations",
-       "license": "Commercial or Free",
-       "platforms": "SaaS",
-       "note": "VulnWatch is an automated web application vulnerability scanning platform that performs dynamic security testing of websites and APIs. It integrates multiple security tools and analysis techniques to detect vulnerabilities such as SQL injection, XSS, misconfigurations, and other OWASP Top 10 issues, providing unified security reports.",
-       "type": [
-            "DAST"
-       ]
-    },
+		"title": "VulnWatch",
+		"url": "https://vulnwatch.tech",
+		"owner": "Cyber Trust Innovations",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "VulnWatch is an automated web application vulnerability scanning platform that performs dynamic security testing of websites and APIs. It integrates multiple security tools and analysis techniques to detect vulnerabilities such as SQL injection, XSS, misconfigurations, and other OWASP Top 10 issues, providing unified security reports.",
+		"type": [
+			"DAST"
+		]
+	},
 	{
 		"title": "Wapiti",
 		"url": "https://wapiti.sourceforge.io/",
