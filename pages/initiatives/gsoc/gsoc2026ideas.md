@@ -260,6 +260,8 @@ A critical requirement is to maintain the project's low deployment complexity. A
 
 The project will involve researching and selecting an appropriate LLM, designing a secure and efficient solution architecture, and implementing the new chatbot. Intentional vulnerabilities must be demonstrable and teachable — for example, the chatbot being manipulated via prompt injection to reveal other users' order data, or leaking system prompt contents. Each vulnerability should map to a specific OWASP Top 10 for LLMs entry so learners can connect the exercise to a recognized risk category.
 
+> **Note:** Students are encouraged to propose additional LLM/AI-related challenge ideas beyond the chatbot upgrade, such as creating adversarial prompt injection demonstrations or developing interactive labs for teaching safe AI practices.
+
 ###### Your own idea
 
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
