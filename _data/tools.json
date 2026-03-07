@@ -2422,6 +2422,17 @@
 		]
 	},
 	{
+		"title": "Vuln0x",
+		"url": "https://www.vuln0x.com",
+		"owner": "Solustiq",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "AI-powered vulnerability scanner with autonomous penetration testing agent (Sentinel). Covers OWASP Top 10 with 40+ parallel scanner engines and 29+ integrated Kali Linux security tools. Free tier available.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Wapiti",
 		"url": "https://wapiti.sourceforge.io/",
 		"owner": "Informática Gesfor",
