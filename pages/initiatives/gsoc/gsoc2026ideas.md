@@ -225,7 +225,7 @@ CTFs and as a guinea pig for security tools! Juice Shop encompasses
 vulnerabilities from the entire OWASP Top Ten along with many other
 security flaws found in real-world applications!
 
-To receive early feedback please:
+To receive early feedback, please:
 - put your proposal on Google Docs and submit it to the OWASP
   Organization on Google's GSoC page in "Draft Shared" mode.
 - Please pick "juice shop" as Proposal Tag to make them easier to find
@@ -247,10 +247,19 @@ To receive early feedback please:
 
 ##### Explanation of Ideas
 
+###### LLM/AI Challenges
+
+![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+The existing Juicy Chat Bot was created during a previous GSoC project and is based on a traditional NLP approach. While functional, it does not leverage the advanced capabilities of modern Large Language Models (LLMs) and Generative AI. This project aims to implement a "v2" or "advanced" version of the chatbot using today's AI tools. The goal is to enhance the chatbot's interaction quality and introduce new challenges related to AI security, such as prompt injection or data leakage. A critical requirement is to maintain the project's low deployment complexity. Any proposed solution must fit within the existing single-container setup of Juice Shop and should avoid introducing heavy external dependencies or requiring specialized hardware. The project will involve researching and selecting appropriate LLMs, designing a secure and efficient solution architecture, and implementing the new chatbot. The project will also include coming up with a way to offer the old and new chatbots side-by-side in a realistic way that could occur in real-world scenarios.
+
 ###### Your own idea
 
-![Preferred for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
-![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
