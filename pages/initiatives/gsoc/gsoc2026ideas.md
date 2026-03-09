@@ -941,7 +941,7 @@ We welcome new ideas and love to hear about it. Please prepare a 1-page idea pro
 <img src="https://github.com/saikishu.png" alt="Venkata Sai Kishore Modalavalasa" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Venkata Sai Kishore Modalavalasa</strong><br>
-Researcher, speaker, Author | Creator of FinBot Agentic AI CTF | Chief Architect at Straiker<br>
+Researcher, Speaker, Author | Creator of FinBot Agentic AI CTF | Chief Architect at Straiker<br>
 <i class="fab fa-github"></i> <a href="https://github.com/saikishu">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/saikishu/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/archives/D096H9NADPC">Slack</a>
 </div>
 </div>
@@ -950,7 +950,7 @@ Researcher, speaker, Author | Creator of FinBot Agentic AI CTF | Chief Architect
 <img src="https://github.com/e2hln.png" alt="Helen Oakley" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Helen Oakley</strong><br>
-Researcher, keynote speaker, founder | Creator of OWASP AIBOM Generator &amp; FinBot Agentic AI CTF | VP of Software and AI Security at SAP<br>
+Researcher, Keynote Speaker, Founder | Creator of OWASP AIBOM Generator &amp; FinBot Agentic AI CTF | VP of Software and AI Security at SAP<br>
 <i class="fab fa-github"></i> <a href="https://github.com/e2hln">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/helen-oakley">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/archives/D09J0NC6ETS">Slack</a>
 </div>
 </div>
@@ -977,7 +977,16 @@ QA Lead, APIsec University Ambassador | Quality Assurance Engineer at Amazon<br>
 <img src="https://github.com/408sanjeev.png" alt="Sanjeev Agarwal" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Sanjeev Agarwal</strong><br>
-AI/Agentic AI Security, Healthcare AI - Advisory Board | Head of Product Security SAP-IAG at SAP<br>
+AI/Agentic AI Security, Healthcare AI - Advisory Board | Former Head of Product Security SAP-IAG at SAP<br>
 <i class="fab fa-github"></i> <a href="https://github.com/408sanjeev">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sanjeevlinkedin/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0A8U4RSWUF">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/MAVRICK-1.png" alt="Rishi Mondal" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Rishi Mondal</strong><br>
+Cloud infrastructure, AI systems, and reliability engineering<br>
+<i class="fab fa-github"></i> <a href="https://github.com/MAVRICK-1">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/rishi-mondal-5238b2282/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/archives/D0AJEHLG21G">Slack</a>
 </div>
 </div>
