@@ -237,7 +237,7 @@ For example:
 
 Multiple standards exist for the verification of software components including: 
 
-* [OWASP Software Component Verification Standard (SCVS)](http://owasp.org/scvs) 
+* [OWASP Software Component Verification Standard (SCVS)](https://owasp.org/scvs) 
 * [Supply-chain Levels for Software Artifacts (SLSA)](https://slsa.dev/)
 
 Both standards aim to measure and improve the assurance of the software supply chain.
