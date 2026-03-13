@@ -90,7 +90,7 @@ flag, is discouraged because the JSESSIONID may have been set with other
 flags. A better workaround is taking care of the previously set flags or
 using the [ESAPI\#Java_EE](https://owasp.org/www-project-enterprise-security-api/) library: in fact
 the `addCookie` method of the `SecurityWrapperResponse`
-[3](http://code.google.com/p/owasp-esapi-java/source/browse/tags/esapi-2.0.1/src/main/java/org/owasp/esapi/filters/SecurityWrapperResponse.java)
+[3](https://code.google.com/p/owasp-esapi-java/source/browse/tags/esapi-2.0.1/src/main/java/org/owasp/esapi/filters/SecurityWrapperResponse.java)
 takes care of previously set flags for us. So we could write a servlet
 filter as the following one:
 
@@ -234,7 +234,7 @@ add HttpOnly to session cookies:
 - Mod_security - using SecRule and Header
 directives[8](http://blog.modsecurity.org/2008/12/fixing-both-missing-httponly-and-secure-cookie-flags.html)
 - ESAPI
-WAF[9](http://code.google.com/p/owasp-esapi-java/downloads/list)
+WAF[9](https://code.google.com/p/owasp-esapi-java/downloads/list)
 using *add-http-only-flag*
 directive[10](http://www.slideshare.net/llamakong/owasp-esapi-waf-appsec-dc-2009)
 
