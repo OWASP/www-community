@@ -482,7 +482,7 @@ In order to accurately test out the newly created virtual patches, it
 may be necessary to use an application other than a web browser. Some
 useful tools are: • Command line web clients such as Curl and Wget. •
 Local Proxy Servers such as WebScarab
-(http://www.owasp.org/index.php/Category:OWASP_WebScarab_Project) and
+(https://www.owasp.org/index.php/Category:OWASP_WebScarab_Project) and
 Burp Proxy (http://www.portswigger.net/suite/). • ModSecurity
 AuditViewer (http://www.jwall.org/web/audit/viewer.jsp) – which allows
 you to load a ModSecurity audit log file, manipulate it and then

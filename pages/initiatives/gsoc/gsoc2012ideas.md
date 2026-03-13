@@ -161,7 +161,7 @@ The ESAPI Swingset Interactive is a web application which demonstrates common se
 
 [Website](https://www.owasp.org/index.php/Projects/OWASP_ESAPI_Swingset_Interactive_Project)
 
-[Mailing List](http://lists.owasp.org/pipermail/owasp-esapi-swingset/)
+[Mailing List](https://lists.owasp.org/pipermail/owasp-esapi-swingset/)
 
 ### Project 001 - Implement a solid Authenticator class
 
@@ -446,7 +446,7 @@ ESAPI 2.0.x is written in Java, so an understanding of the Java programming lang
 
 #### Brief explanation:
 
-There are several outstanding issues in the [ESAPI Bugtracker](http://code.google.com/p/owasp-esapi-java/issues/list) that need to be addressed for the 2.1.0 release.
+There are several outstanding issues in the [ESAPI Bugtracker](https://code.google.com/p/owasp-esapi-java/issues/list) that need to be addressed for the 2.1.0 release.
 
 #### Expected results:
 

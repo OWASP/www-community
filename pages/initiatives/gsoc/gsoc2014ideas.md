@@ -844,7 +844,7 @@ ZAP is written in Java, so a good knowledge of this language is recommended, as 
 
 #### Brief explanation:
 
-There are currently more than a half-dozen of open Google Issues in ESAPI regarding the security configuration component (e.g., see [ESAPI Security Configuration Issues](http://code.google.com/p/owasp-esapi-java/issues/list?q=component%3DSecurityConfiguration)).  
+There are currently more than a half-dozen of open Google Issues in ESAPI regarding the security configuration component (e.g., see [ESAPI Security Configuration Issues](https://code.google.com/p/owasp-esapi-java/issues/list?q=component%3DSecurityConfiguration)).  
 
 The ESAPI interface for its configuration (SecurityConfiguration) is overly complicated; it has a 'getter' method specific to almost every ESAPI configuration property. The rules for how and where the ESAPI.properties file is found are overly complicated making questions about it one of the most frequently asked questions on forums such as Stack Exchange and the ESAPI mailing lists. This complication leads to a unduly intricate, non-modular reference implementation (DefaultSecurityConfiguration) that makes it difficult to extend in terms of new functionality.
 

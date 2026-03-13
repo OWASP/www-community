@@ -862,7 +862,7 @@ ESAPI .NET with ESAPI 2.x functionality.
 
 ESAPI 2.0.x is written in Java, so an understanding of the Java programming language is required as well as proficiency in .NET/C#. Additionally, a basic understanding of application security would be desirable.
 
-[Website](http://code.google.com/p/owasp-esapi-dotnet/)
+[Website](https://code.google.com/p/owasp-esapi-dotnet/)
 
 **Mentor:** Kevin Wall - ESAPI Java Project Leader
 
@@ -870,7 +870,7 @@ ESAPI 2.0.x is written in Java, so an understanding of the Java programming lang
 
 #### Brief explanation:
 
-There are several outstanding issues in the [ESAPI Bugtracker](http://code.google.com/p/owasp-esapi-java/issues/list) that need to be addressed for the 2.1.0 release.
+There are several outstanding issues in the [ESAPI Bugtracker](https://code.google.com/p/owasp-esapi-java/issues/list) that need to be addressed for the 2.1.0 release.
 
 #### Expected results:
 
@@ -880,6 +880,6 @@ Patches and unit tests to resolve the outstanding ESAPI issues.
 
 Comfortable working in Java, writing unit tests using JUnit and creating patch files using svn.
 
-[Website](http://code.google.com/p/owasp-esapi-java/issues/list)
+[Website](https://code.google.com/p/owasp-esapi-java/issues/list)
 
 **Mentor:** Kevin Wall - ESAPI Java Project Leader

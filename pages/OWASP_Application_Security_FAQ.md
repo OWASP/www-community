@@ -912,7 +912,7 @@ Enterprises harden their applications to protect their software assets
 and the data touched by the application.
 
 To learn more, please read the OWASP article on [App Hardening and
-Shielding](http://www.owasp.org/index.php/Application_Hardening_and_Shielding).
+Shielding](https://www.owasp.org/index.php/Application_Hardening_and_Shielding).
 
 ## I want to use the most secure language; which language do you recommend?
 
@@ -925,7 +925,7 @@ features if you decide to program in that language.
 
 ## What are the good books to learn secure programming practices?
 
-The [OWASP Guide to Building Secure Web Application and Web Services](http://wiki.owasp.org/documentation/guide) is a
+The [OWASP Guide to Building Secure Web Application and Web Services](https://wiki.owasp.org/documentation/guide) is a
 good guide for web application developers. You can download it from.
 Writing Secure Code by Michael Howard and David LeBlanc has a chapter on 
 [Securing Web-Based Services](http://www.microsoft.com/mspress/books/toc/5612.asp)
