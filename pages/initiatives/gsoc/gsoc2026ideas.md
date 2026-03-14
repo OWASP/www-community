@@ -269,6 +269,15 @@ Cybersecurity Lead, CCSP, CISSP, CSSLP | OWASP Nest Project Leader<br>
 </div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/wandji69.png" alt="Collins Wandji" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Collins Wandji</strong><br>
+Software Engineer at Tech Chantier | Open Source Contributor<br>
+<i class="fab fa-github"></i> <a href="https://github.com/wandji69">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/wandji-collins">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0ALBPLP7U6">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
 <img src="https://github.com/ioleksiuk.png" alt="Illia Oleksiuk" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
 <div>
 <strong>Illia Oleksiuk</strong><br>
