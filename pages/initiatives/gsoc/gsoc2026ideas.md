@@ -212,9 +212,9 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 
 - [OWASP Nest](https://github.com/OWASP/Nest)
 - [OWASP Nest Schema](https://github.com/OWASP/nest-schema)
-- [API SDK Go](https://github.com/OWASP/nest-sdk)
-- [API SDK Python](https://github.com/OWASP/nest-sdk-python)
-- [API SDK TypeScript](https://github.com/OWASP/nest-sdk-typescript)
+- [OWASP Nest API SDK Go](https://github.com/OWASP/nest-sdk)
+- [OWASP Nest API SDK Python](https://github.com/OWASP/nest-sdk-python)
+- [OWASP Nest API SDK TypeScript](https://github.com/OWASP/nest-sdk-typescript)
 
 #### Technical Stack
 
@@ -228,14 +228,14 @@ OWASP Nest is a comprehensive, community-first platform built to enhance collabo
 
 ![Preferred for "Small" GSoC 2026 project](https://img.shields.io/badge/small%20size%20(90h)-preferred-green) ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(175h)-preferred-green) ![Possible for "Large" GSoC 2026 project](https://img.shields.io/badge/large%20size%20(350h)-possible-green)
 
-- [OWASP Board Activity Standardization and Data Programmatic Access](https://github.com/OWASP/Nest/milestone/20): This milestone focuses on standardizing how OWASP Board activities are recorded, structured, and published.
-- [OWASP Board Candidate Information Transparency and Fact-Checking](https://github.com/OWASP/Nest/milestone/19): This milestone focuses on improving the transparency, accuracy, and trustworthiness of information related to OWASP board candidates.
-- [OWASP Community Snapshots](https://github.com/OWASP/Nest/milestone/16): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments.
-- [OWASP Contributor Recognition Program](https://github.com/OWASP/Nest/milestone/22): This milestone introduces an OWASP-wide Contributor Recognition system in OWASP Nest to make contributions visible, measurable, and shareable across projects and chapters, inspired by community platforms like ContribCard, with potential integration into existing OWASP Nest badges and certificate delivery via services like Certifier.
-- [OWASP NestBot AI Assistant Improvement](https://github.com/OWASP/Nest/milestone/8): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries.
-- [OWASP Nest Monitoring and Observability](https://github.com/OWASP/Nest/milestone/21): Implement modern monitoring and observability practices across OWASP Nest infrastructure on AWS to ensure reliability, performance visibility, and proactive issue detection.
-- [OWASP Nest UI/UX Revamp](https://github.com/OWASP/Nest/milestone/23): This milestone delivers a comprehensive UI/UX revamp of OWASP Nest to improve usability, accessibility, visual consistency, and the overall contributor experience across the platform.
-- [OWASP Pulse](https://github.com/OWASP/Nest/milestone/24): This milestone introduces the OWASP Pulse page in OWASP Nest as a unified, near real-time activity feed that aggregates events across repositories with filters by user, project, repository, and chapter to improve visibility and engagement.
+- [OWASP Board Activity Standardization and Data Programmatic Access](https://github.com/OWASP/Nest/milestone/20): This milestone focuses on standardizing how OWASP Board activities are recorded, structured, and published. `size:medium`
+- [OWASP Board Candidate Information Transparency and Fact-Checking](https://github.com/OWASP/Nest/milestone/19): This milestone focuses on improving the transparency, accuracy, and trustworthiness of information related to OWASP board candidates. `size:medium`
+- [OWASP Community Snapshots](https://github.com/OWASP/Nest/milestone/16): Creating a summary of activities within OWASP projects, chapters, and events, including new blog posts and news, to keep the community informed about recent developments. `size:medium`
+- [OWASP Contributor Recognition Program](https://github.com/OWASP/Nest/milestone/22): This milestone introduces an OWASP-wide Contributor Recognition system in OWASP Nest to make contributions visible, measurable, and shareable across projects and chapters, inspired by community platforms like ContribCard, with potential integration into existing OWASP Nest badges and certificate delivery via services like Certifier. `size:medium`
+- [OWASP NestBot AI Assistant Improvement](https://github.com/OWASP/Nest/milestone/8): Develop an AI-powered OWASP NestBot Slack assistant that acts as an auto-responder for frequently asked questions, guides users to the appropriate OWASP channels, and handles typical OWASP community queries. `size:small`
+- [OWASP Nest Monitoring and Observability](https://github.com/OWASP/Nest/milestone/21): Implement modern monitoring and observability practices across OWASP Nest infrastructure on AWS to ensure reliability, performance visibility, and proactive issue detection. `size:small`
+- [OWASP Nest UI/UX Revamp](https://github.com/OWASP/Nest/milestone/23): This milestone delivers a comprehensive UI/UX revamp of OWASP Nest to improve usability, accessibility, visual consistency, and the overall contributor experience across the platform. `size:small`
+- [OWASP Pulse](https://github.com/OWASP/Nest/milestone/24): This milestone introduces the OWASP Pulse page in OWASP Nest as a unified, near real-time activity feed that aggregates events across repositories with filters by user, project, repository, and chapter to improve visibility and engagement. `size:medium`
 
 Please visit our planned [milestones page](https://github.com/OWASP/Nest/milestones) or `gsoc2026` labeled [issues page](https://github.com/OWASP/Nest/issues?q=is%3Aissue%20state%3Aopen%20label%3Agsoc2026).
 
@@ -265,6 +265,15 @@ Please contact [Arkadii Yakovets](https://owasp.slack.com/team/U060W3NKLTF) or [
 <strong>Arkadii Yakovets</strong><br>
 Cybersecurity Lead, CCSP, CISSP, CSSLP | OWASP Nest Project Leader<br>
 <i class="fab fa-github"></i> <a href="https://github.com/arkid15r/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/arkid15r/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U060W3NKLTF">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/wandji69.png" alt="Collins Wandji" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Collins Wandji</strong><br>
+Software Engineer at Tech Chantier | Open Source Contributor<br>
+<i class="fab fa-github"></i> <a href="https://github.com/wandji69">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/wandji-collins">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0ALBPLP7U6">Slack</a>
 </div>
 </div>
 
@@ -346,6 +355,15 @@ Application Security Analyst at Bloomreach, CISSP<br>
 <strong>Raja Nagori</strong><br>
 Product Security Engineer at Splunk<br>
 <i class="fab fa-github"></i> <a href="https://github.com/RAJANAGORI">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/raja-nagori/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U03HUR536TG">Slack</a>
+</div>
+</div>
+
+<div style="margin-bottom: 20px; display: flex; align-items: center;">
+<img src="https://github.com/MAVRICK-1.png" alt="Rishi Mondal" width="64" height="64" style="border-radius: 50%; margin-right: 12px; flex-shrink: 0;" />
+<div>
+<strong>Rishi Mondal</strong><br>
+SRE at Obmondo | Maintainer of CNCF KubeStellar<br>
+<i class="fab fa-github"></i> <a href="https://github.com/MAVRICK-1/">GitHub</a> &bull; <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/rishi-mondal-5238b2282/">LinkedIn</a> &bull; <i class="fab fa-slack"></i> <a href="https://owasp.slack.com/team/U0AHVMYHMJB">Slack</a>
 </div>
 </div>
 
