@@ -859,6 +859,17 @@
 		]
 	},
 	{
+		"title": "GenPT",
+		"url": "https://www.siemba.io/genpt",
+		"owner": "Siemba",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "AI-Native Dynamic Application Security Testing (DAST) for Modern Apps",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "GitGuardian — Automated Secrets Detection",
 		"url": "https://www.gitguardian.com",
 		"owner": null,
@@ -2056,17 +2067,6 @@
 		"note": "A free open-source DevSecOps platform for detecting security issues in source ode and dependencies. It supports a broad range of languages and CI/CD pipelines by bundling various open source scanners into the pipeline.",
 		"type": [
 			"SAST"
-		]
-	},
-	{
-		"title": "GenPT",
-		"url": "https://www.siemba.io/genpt",
-		"owner": "Siemba",
-		"license": "Commercial or Free",
-		"platforms": "SaaS",
-		"note": "AI-Native Dynamic Application Security Testing (DAST) for Modern Apps",
-		"type": [
-			"DAST"
 		]
 	},
 	{
