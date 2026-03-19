@@ -1,3 +1,9 @@
+---
+title: "SIM Swapping Prevention"
+description: "Guidelines for preventing SIM swapping attacks targeting users, organizations, and developers."
+tags: ["security", "authentication", "sim-swapping", "2fa"]
+---
+
 # SIM Swapping Prevention
 
 ## Overview
