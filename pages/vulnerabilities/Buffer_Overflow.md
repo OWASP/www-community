@@ -225,3 +225,11 @@ void getUserInfo(char *username, struct _USER_INFO_2 info){
 - Design: Use an abstraction library to abstract away risky APIs. Not a complete solution.
 - Pre-design through Build: Compiler-based canary mechanisms such as StackGuard, ProPolice and the Microsoft Visual Studio / GS flag. Unless this provides automatic bounds checking, it is not a complete solution.
 - Operational: Use OS-level preventative functionality. Not a complete solution.
+
+## Example
+
+A buffer overflow is like trying to pour water into a glass that's already full. Imagine you have a small cup that can hold only 8 ounces of water, but you try to pour 12 ounces into it. The extra 4 ounces will spill over onto the table, making a mess and potentially damaging whatever is nearby.
+
+In computer programs, buffers are like these cups - they have a fixed amount of space to store data. When a program receives more data than the buffer can hold, the excess data "spills over" into adjacent memory areas. This overflow can corrupt other data, crash the program, or allow attackers to execute malicious code by overwriting critical parts of the program's memory.
+
+For example, if a web application has a form field that expects a username of maximum 20 characters, but doesn't check the input length, an attacker could submit 100 characters. The extra 80 characters would overflow into other memory areas, potentially allowing the attacker to take control of the application.
