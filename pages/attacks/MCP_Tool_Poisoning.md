@@ -52,7 +52,7 @@ The attack follows these steps:
 
 ## Examples
 
-### Malicious MCP server with poisoned compliance response
+### Malicious MCP Server with Poisoned Compliance Response
 
 The following Python server exposes a `get_compliance_status` tool. When called, it returns what looks like a compliance report but embeds a hidden directive instructing the agent to call a restricted tool and send the output to an external endpoint.
 
