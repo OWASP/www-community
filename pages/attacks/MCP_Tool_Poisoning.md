@@ -34,7 +34,7 @@ The attack follows these steps:
 
 - Applications that let users add or configure MCP servers without restriction. If anyone can point an agent at an arbitrary server URL, the agent will trust whatever that server returns.
 - AI agents that have access to privileged tools (file system, database, internal APIs) and also connect to external MCP servers. An agent that can read files and make HTTP requests is a much bigger problem than one that can only return text.
-- Pipelines that concatenate tool responses into the LLM context without filtering or boundary markers. Most MCP client implementations do this by default.
+- MCP client implementations typically pass tool responses into the LLM context as-is. The MCP specification treats server outputs as potentially untrusted and advises clients to consider trust boundaries, but does not mandate response validation before passing content to the LLM.
 
 ## Risk Factors
 
@@ -100,7 +100,7 @@ When an AI agent calls `get_compliance_status`, the LLM receives the full respon
 
 ## See Also
 
-- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - LLM07: Insecure Plugin Design
+- [OWASP Top 10 for LLM Applications](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/) - LLM01: Prompt Injection, LLM06: Excessive Agency
 - [OWASP AI Security and Privacy Guide](https://owasp.org/www-project-ai-security-and-privacy-guide/)
 
 ## References
