@@ -30,7 +30,7 @@ The attack follows these steps:
 5. The LLM treats the entire response as context and follows the injected instructions.
 6. The agent acts on them: it might call a restricted tool, read sensitive files, or send data to an attacker-controlled endpoint.
 
-## Attack surface
+## Attack Surface
 
 - Applications that let users add or configure MCP servers without restriction. If anyone can point an agent at an arbitrary server URL, the agent will trust whatever that server returns.
 - AI agents that have access to privileged tools (file system, database, internal APIs) and also connect to external MCP servers. An agent that can read files and make HTTP requests is a much bigger problem than one that can only return text.
