@@ -19,7 +19,7 @@ The attacker runs a malicious MCP server. Its tools look normal, but their respo
 
 The root cause is a trust gap between connect-time and runtime. Tool descriptions are reviewed once, when the agent first connects to a server. Tool responses go straight into the LLM context with no equivalent check. That unguarded runtime channel is what the attacker abuses.
 
-## How it works
+## How it Works
 
 The attack follows these steps:
 
