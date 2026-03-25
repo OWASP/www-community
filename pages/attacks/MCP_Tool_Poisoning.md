@@ -36,7 +36,7 @@ The attack follows these steps:
 - AI agents that have access to privileged tools (file system, database, internal APIs) and also connect to external MCP servers. An agent that can read files and make HTTP requests is a much bigger problem than one that can only return text.
 - Pipelines that concatenate tool responses into the LLM context without filtering or boundary markers. Most MCP client implementations do this by default.
 
-## Risk factors
+## Risk Factors
 
 - Tool responses are not validated or sanitized before being added to the LLM context.
 - Internal and external tools share the same privilege level within the agent. A response from an untrusted external server can trigger calls to trusted internal tools.
