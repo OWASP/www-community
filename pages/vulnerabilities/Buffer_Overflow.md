@@ -232,4 +232,4 @@ A buffer overflow is like trying to pour water into a glass that's already full.
 
 In computer programs, buffers are like these cups - they have a fixed amount of space to store data. When a program receives more data than the buffer can hold, the excess data "spills over" into adjacent memory areas. This overflow can corrupt other data, crash the program, or allow attackers to execute malicious code by overwriting critical parts of the program's memory.
 
-For example, if a web application has a form field that expects a username of maximum 20 characters, but doesn't check the input length, an attacker could submit 100 characters. The extra 80 characters would overflow into other memory areas, potentially allowing the attacker to take control of the application.
+For example, in a C program that stores a username in a fixed-size 20-character buffer without checking the length of the input, an attacker could supply a 100-character username. The extra 80 characters would overflow into adjacent memory, potentially corrupting data or allowing the attacker to alter the program's control flow.
