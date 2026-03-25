@@ -226,7 +226,7 @@ void getUserInfo(char *username, struct _USER_INFO_2 info){
 - Pre-design through Build: Compiler-based canary mechanisms such as StackGuard, ProPolice and the Microsoft Visual Studio / GS flag. Unless this provides automatic bounds checking, it is not a complete solution.
 - Operational: Use OS-level preventative functionality. Not a complete solution.
 
-## Example
+### Example 6 – Real-world analogy
 
 A buffer overflow is like trying to pour water into a glass that's already full. Imagine you have a small cup that can hold only 8 ounces of water, but you try to pour 12 ounces into it. The extra 4 ounces will spill over onto the table, making a mess and potentially damaging whatever is nearby.
 
