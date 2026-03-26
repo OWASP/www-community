@@ -1245,6 +1245,17 @@
 		]
 	},
 	{
+		"title": "Luna",
+		"url": "https://www.lunatech.xyz",
+		"owner": "Luna Technology Ltd",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "External vulnerability scanner and attack surface management platform with CVE detection, web application security testing, SSL/TLS analysis, port scanning, and continuous monitoring with vulnerability lifecycle tracking and compliance reporting.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "LunaTrace by LunaSec",
 		"url": "https://www.lunasec.io/",
 		"owner": "LunaSec",
