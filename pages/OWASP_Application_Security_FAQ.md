@@ -12,6 +12,22 @@ permalink: /OWASP_Application_Security_FAQ
 
 {% include writers.html %}
 
+## Table of Contents
+
+- [Login Issues](#login-issues)
+- [SQL Injection](#sql-injection)
+- [Variable Manipulation](#variable-manipulation)
+- [Browser Cache](#browser-cache)
+- [Cross Site Scripting](#cross-site-scripting)
+- [Web Server Fingerprinting](#web-server-fingerprinting)
+- [Testing](#testing)
+- [Cryptography/SSL](#cryptographyssl)
+- [Cookies and Session Management](#cookies-and-session-management)
+- [Logging and Audit Trails](#logging-and-audit-trails)
+- [Miscellaneous](#miscellaneous)
+
+---
+
 # Login Issues
 
 ## What best practices I should remember while designing login pages?
@@ -137,6 +153,8 @@ as libraries, the following may protect its security.
   The clear text password in the memory should be reset after
   computing the hash.
 
+---
+
 # SQL Injection
 
 ## What is SQL Injection?
@@ -255,6 +273,8 @@ entry from the [Penetration Testing Learning
 Center](http://www.plynt.com/resources/learn/tools/do_scanners_catch_sql_injectio_1/)
 explains this in detail.
 
+---
+
 # Variable Manipulation
 
 ## Why can't I trust the information coming from the browser?
@@ -325,6 +345,8 @@ applet will reject the fake certificate. The public key of this
 certificate can then be used to digitally sign each message sent between
 the client and the server. An attacker would then have to replace the
 embedded certificate in the applet with a fake certificate to succeed -
+---
+
 that raises the barrier for the attacker.
 
 # Browser Cache
@@ -384,6 +406,8 @@ attribute is non-standard (although it is supported by the major
 browsers) so it will break XHTML validation.
 
 ## Where can I learn more about caching?
+
+---
 
 Some useful links that talk about caching are - 
 [Caching Tutorial for Web Authors and Webmasters by Mark Nottingham](http://www.mnot.net/cache_docs/)
@@ -492,6 +516,8 @@ through an indirect method. XST can be prevented by disabling the TRACE
 method on the web server. This paper by Jeremiah Grossman discusses XST
 in greater [detail](http://www.cgisecurity.com/whitehat-mirror/WhitePaper_screen.pdf)
 
+---
+
 # Web Server Fingerprinting
 
 ## How do attackers identify which web server I'm using?
@@ -555,6 +581,8 @@ apply to the system or not. This is a typical shotgun approach. A bad
 guy targeting the site might be hampered by not knowing the exact
 version, but if they're determined they would still try out all related
 exploits and try to break in.
+
+---
 
 # Testing
 
@@ -620,6 +648,8 @@ the messages in a hex editor. ITR also logs all the messages passing
 between the client and the server. It can use different types of
 character encoding like ASCII or EBCDIC for 
 [editing and logging](http://www.webcohort.com/web_application_security/research/tools.html).
+
+---
 
 # Cryptography/SSL
 
@@ -710,6 +740,8 @@ A good starting point for working on POC in a Windows development
 environment could be: 
 [HOW TO: Secure XML Web Services with Secure Socket Layer in Windows 2000"](http://support.microsoft.com/default.aspx?scid=kb;en-us;q307267&sd=tech)
 
+---
+
 # Cookies and Session Management
 
 ## Are there any risks in using persistent vs non-persistent cookies?
@@ -790,6 +822,8 @@ user accesses pages only in the sequence determined by the application.
 The user cannot paste a deep URL in the browser and skip pages just
 because they have a session token, as the page token would not be
 authorized to access the deeper URL directly. Good Read: 
+---
+
 [Secure your sessions with Page Tokens](http://palisade.plynt.com/issues/2005Aug/page-tokens/)
 
 # Logging and Audit Trails
@@ -855,6 +889,8 @@ improperly configured web servers on the web that are used as a HTTP
 proxy to connect to other sites.\] In such cases, the IP address you see
 in your log files will be those of these services or the open relay that
 is being used. So, the IP address you see in your log files might not
+---
+
 always be trustworthy.
 
 # Miscellaneous
