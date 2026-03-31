@@ -16,11 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout base repository (for validation scripts)
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         ref: ${{ github.base_ref || github.ref }}
     - name: Checkout PR files (only data files)
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         ref: ${{ github.event.pull_request.head.sha || github.sha }}
         repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
@@ -175,7 +175,7 @@ jobs:
         exit $overall_status
     - name: Upload validation results
       if: always()
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: artifact
         path: |
