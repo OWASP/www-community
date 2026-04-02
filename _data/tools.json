@@ -452,6 +452,17 @@
 		]
 	},
 	{
+		"title": "cloud-audit",
+		"url": "https://github.com/gebalamariusz/cloud-audit",
+		"owner": "HAIT",
+		"license": "Open Source",
+		"platforms": "Windows, Linux, MacOS",
+		"note": "Open-source AWS security scanner that detects attack chains and generates remediation code (Terraform and CLI). 80 checks, CIS AWS v3.0, SOC 2 Type II compliance.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "CloudDefense",
 		"url": "https://clouddefense.ai",
 		"owner": "CloudDefense",
