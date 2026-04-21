@@ -96,7 +96,7 @@ When an AI agent calls `get_compliance_status`, the LLM receives the full respon
 
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
-- [Prompt Injection](/attacks/Prompt_Injection)
+- [Prompt Injection](/attacks/PromptInjection)
 
 ## See Also
 
