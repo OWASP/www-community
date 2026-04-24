@@ -3,22 +3,21 @@
 layout: col-sidebar
 title: "Race Conditions"
 author: "Cindy Ramirez"
-contributors: []
-permalink: /race_conditions
+permalink: pages/vulnerabilities/race_conditions
 tags: ["vulnerability", "race_conditions"]
 
 ---
 
 {% include writers.html %}
 
-### Overview
+## Overview
 A race condition is a server-side vulnerability that occurs when two or more threads or requests access shared state concurrently without proper coordination.
 This can lead to unexpected behavior since the outcome depends on the timing of the processes.
 Race conditions can be difficult to detect. This page will equip application security engineers and developers to identify race conditions
 through tooling and manual code reviews, and remediate them through code changes.
 
 
-### Introduction
+## Introduction
 A race condition, also known as [CWE-362](https://cwe.mitre.org/data/definitions/362.html), happens
 when program behavior depends on the uncontrolled relative timing of concurrent events.
 A common subtype is **Time-of-Check to Time-of-Use (TOCTOU)**: two concurrent actors both pass a check before either completes its action,
@@ -41,10 +40,10 @@ For a detailed walkthrough, see the OWASP Bangkok chapter presentation: [The Rac
 - **Git 2022 (`git apply`)**: a race condition in temporary file handling allowed symlink attacks during patch application on shared systems.
 
 
-### How to Discover Race Conditions in Existing Code
+## How to Discover Race Conditions in Existing Code
 Use a combination of automated scanning and manual code review. The Semgrep rules below automate detection of the patterns described in the checklist; use the checklist for code contexts where scanning isn't available or produces false positives.
 
-#### Scanning Tools
+### Scanning Tools
 
 1. **Semgrep** – use targeted rules for specific race condition patterns. The rule below detects filesystem TOCTOU with high confidence — `exists`/`isfile`/`access` checks followed by a mutating operation on the same path almost never have a safe use; the fix is always to drop the check entirely. Similar `check-then-act` patterns exist in JavaScript, Go, and C# — apply the same logic when reviewing those codebases manually.
 
@@ -129,7 +128,7 @@ go run -race main.go
 ```
 
 
-#### Manual Code Review Checklist
+## Manual Code Review Checklist
 Look for these patterns:
 
 **Check-then-act without atomicity:**
@@ -176,8 +175,7 @@ while true; do
 done
 ```
 
-If the attacker wins, your process — which may be running as root or a privileged service — deletes `/etc/passwd` instead. The same attack works with `open()` for writing: the attacker swaps the path for a symlink to any sensitive file, and your process writes into it with its full privileges. The fix is to drop the check entirely and handle the exception atomically:
-
+If the attacker wins, your process — which may be running as root or a privileged service — removes the attacker-controlled file or symlink now present at that path, not the symlink target itself. The same race becomes more serious with `open()` for writing: the attacker swaps the path for a symlink to any sensitive file, and your process may then open and write to that target with its full privileges. The fix is to drop the check entirely and handle the exception atomically:
 ```python
 # Safe — no race window. No check means no TOCTOU window;
 # the remove() syscall is atomic. The exception handles absence.
@@ -200,10 +198,10 @@ UPDATE inventory SET qty = qty - 1 WHERE id = 1 AND qty > 0;
 ```
 
 
-### Impact
+## Impact
 Race conditions can be the first step in a multi-stage attack chain.
 
-#### Technical Impact
+### Technical Impact
 
 | Scenario | OWASP Category | Illustrative Example |
 |---|---|---|
@@ -214,25 +212,24 @@ Race conditions can be the first step in a multi-stage attack chain.
 | **Token Reuse** | A08 Software and Data Integrity | Two password reset flows complete successfully with a single token |
 | **Filesystem Attack** | A08 Software and Data Integrity | Symlink swapped between permission check and file open; privileged process writes to /etc/passwd |
 
-#### Organizational Impact
+### Organizational Impact
 - Financial loss from double-spend attacks on payment and loyalty systems
 - Regulatory exposure under PCI-DSS, SOX, and HIPAA when transactional integrity is violated
 - Reputational damage if authentication bypass enables mass account takeover
 
 
-### Remediation
+## Remediation
 
 Race conditions require fixes at multiple layers. Choose the approach that matches your architecture.
 
-#### 1. Database-Level (Preferred for persistence layer)
+### 1. Database-Level (Preferred for persistence layer)
 
 **Isolation levels** — the default `READ COMMITTED` isolation level permits non-repeatable reads, which is the root cause of most web application race conditions. For financial or inventory operations, use `REPEATABLE READ` or `SERIALIZABLE`:
 
 ```sql
 -- PostgreSQL: set isolation level for a transaction
 BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ;
-SELECT balance FROM accounts WHERE id = 1;
--- No concurrent transaction can modify this row until COMMIT
+SELECT balance FROM accounts WHERE id = 1 FOR UPDATE;   -- now locks the row until COMMIT
 UPDATE accounts SET balance = balance - 100 WHERE id = 1;
 COMMIT;
 ```
@@ -281,7 +278,7 @@ def redeem_coupon(coupon_id, idempotency_key):
     return result.rowcount == 1  # True only for the first request; False = duplicate
 ```
 
-#### 2. Application-Level Thread Synchronization (Python)
+### 2. Application-Level Thread Synchronization (Python)
 
 Use for shared in-process resources such as counters, caches, or file handles.
 
@@ -303,7 +300,7 @@ for t in threads: t.join()
 print(f"Final counter value: {counter}")  # Always 500000
 ```
 
-#### 3. Application-Level Synchronization (JavaScript/Node.js)
+### 3. Application-Level Synchronization (JavaScript/Node.js)
 
 Node.js is single-threaded but async operations create TOCTOU windows between `await` calls. Serialize access with a mutex or move the check-and-act into an atomic database operation:
 
@@ -325,7 +322,7 @@ async function deductBalance(userId, amount) {
 
 Prefer moving the atomicity to the database (e.g., `UPDATE ... WHERE balance >= amount`) over application-level mutexes for multi-instance deployments.
 
-#### 4. Application-Level Synchronization (Go)
+### 4. Application-Level Synchronization (Go)
 
 Use `sync.Mutex` for shared state, or Go's built-in `sync/atomic` for simple counters. Always run tests with `-race`:
 
@@ -346,7 +343,7 @@ func decrement(item string) bool {
 }
 ```
 
-#### 5. Application-Level Synchronization (C#/.NET)
+### 5. Application-Level Synchronization (C#/.NET)
 
 Use `lock` for shared in-process state, or `Interlocked` for atomic counter operations:
 
@@ -367,7 +364,7 @@ public void DecrementAtomic() {
 }
 ```
 
-#### 6. Process-Level Isolation (Python)
+### 6. Process-Level Isolation (Python)
 
 Use for CPU-bound parallel work such as running ML models across cores.
 
@@ -387,7 +384,7 @@ for p in processes: p.join()
 print(f"Final counter value: {counter.value}")  # Always 500000
 ```
 
-#### 7. Distributed Locking (Java + Redis)
+### 7. Distributed Locking (Java + Redis)
 
 For multi-instance deployments where application-level locks don't span nodes. **Important caveats:** Redis distributed locks are vulnerable to split-brain during failover (see the [Redlock controversy](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)) and network partitions. For most web applications, `SELECT FOR UPDATE` at the database level is safer and simpler. Use Redis locks only when the database cannot be the synchronization point.
 
@@ -404,7 +401,7 @@ try {
 }
 ```
 
-#### 8. Mutex / Synchronized Block (Java)
+### 8. Mutex / Synchronized Block (Java)
 
 For shared in-process state in multithreaded Java services:
 
@@ -419,7 +416,7 @@ public void increment() {
 }
 ```
 
-#### 9. Architectural Pattern — Queue-Based Processing
+### 9. Architectural Pattern — Queue-Based Processing
 
 For high-throughput scenarios (payments, inventory), serialize updates through a message queue so a single consumer processes each logical item. This eliminates the race window **for that specific operation** when idempotency is also enforced. Note: multiple consumers can still race on the same item if partitioning is misconfigured, and at-least-once delivery can replay messages — idempotency keys at the consumer are required.
 
@@ -430,10 +427,10 @@ Client → API → Message Queue (Kafka / SQS) → Single Consumer per partition
 Always pair queue-based processing with idempotency keys to handle message replay safely.
 
 
-### Reporting
+## Reporting
 AppSec engineers should identify race conditions, report them in a way developers can act on, and work through the correction together.
 
-#### Bug Report Template
+### Bug Report Template
 
 **Title:** Race Condition — Non-atomic rate limit check in `auth/session.py:87`
 
@@ -455,7 +452,7 @@ python exploit_poc.py --target http://app:5000/login --threads 20 --expected-lim
 **References:** [CWE-362](https://cwe.mitre.org/data/definitions/362.html)
 
 
-### References
+## References
 
 - [CWE-362: Concurrent Execution Using Shared Resource with Improper Synchronization](https://cwe.mitre.org/data/definitions/362.html)
 - [CWE-367: Time-of-check Time-of-use (TOCTOU) Race Condition](https://cwe.mitre.org/data/definitions/367.html)
