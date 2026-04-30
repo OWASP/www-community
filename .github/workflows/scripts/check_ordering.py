@@ -28,15 +28,22 @@ def check_ordering(json_file):
                 return False
             titles.append(entry['title'])
         
-        # Sort titles case-insensitively for consistent ordering
-        sorted_titles = sorted(titles, key=lambda x: x.lower())
+        # Adjacent-pair check (case-insensitive). Comparing the full list to
+        # sorted(titles) misreports every index after the first mistake because
+        # positions no longer align with a global sort.
+        errors = False
+        for i in range(len(titles) - 1):
+            current, nxt = titles[i], titles[i + 1]
+            if current.lower() > nxt.lower():
+                print(
+                    "ERROR: Out of order at indices "
+                    f"{i}-{i + 1}: '{current}' then '{nxt}' "
+                    "(case-insensitive title order requires "
+                    f"'{nxt}' before '{current}')"
+                )
+                errors = True
         
-        if titles != sorted_titles:
-            print("ERROR: Tool entries are not ordered alphabetically by 'title' field")
-            print("\nExpected order:")
-            for i, (actual, expected) in enumerate(zip(titles, sorted_titles)):
-                if actual != expected:
-                    print(f"  Position {i}: Found '{actual}', expected '{expected}'")
+        if errors:
             return False
         
         print("SUCCESS: All entries are ordered alphabetically by 'title' field")
