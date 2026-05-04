@@ -358,9 +358,13 @@ public void Decrement() {
     }
 }
 
-// Option B: Interlocked for simple atomic decrement (no lock needed)
+// Option B: Interlocked with CompareExchange to preserve the > 0 guard
 public void DecrementAtomic() {
-    Interlocked.Decrement(ref _counter);
+    while (true) {
+        int current = _counter;
+        if (current <= 0) return;
+        if (Interlocked.CompareExchange(ref _counter, current - 1, current) == current) return;
+    }
 }
 ```
 
