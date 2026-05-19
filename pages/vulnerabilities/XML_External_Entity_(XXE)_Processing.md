@@ -74,7 +74,7 @@ through subdomain names to a DNS server that they controls.
 
 ## Examples
 
-The examples below are from [Testing for XML Injection (OWASP-DV-008)](Testing_for_XML_Injection_\(OWASP-DV-008\) "wikilink").
+The examples below are from [Testing for XML Injection](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection).
 
 ### Accessing a local resource that may not return
 
