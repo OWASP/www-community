@@ -87,6 +87,4 @@ The threat modeling process naturally produces an assurance argument that can be
 
 ## Further Reading
 
-- [Threat Modeling Process](Threat_Modeling_Process.md)
-- [Microsoft Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)
-- [Microsoft Threat Modeling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)
+- [OWASP Threat Modeling Project](https://owasp.org/www-project-threat-modeling/)
