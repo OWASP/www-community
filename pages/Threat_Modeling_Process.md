@@ -1,6 +1,6 @@
 ---
 
-title: Threat Modeling Process
+title: Threat Modeling Process (Historical)
 layout: col-sidebar
 author: Larry Conklin
 contributors: ["Victoria Drake", "Sven strittmatter", "Zoe Braiterman", "Adam Shostack"]
@@ -10,7 +10,7 @@ permalink: /Threat_Modeling_Process
 
 {% include writers.html %}
 
-This is an OWASP community page. You should also visit the official [Threat Model Project](https://owasp.org/www-project-threat-modeling/) site.
+This is an OWASP community page on threat modeling. You should visit the official [Threat Model Project](https://owasp.org/www-project-threat-modeling/) site for an overview on threat modeling and it's many facets within the OWASP community.
 
 - [Introduction](#introduction)
   - [Step 1: Scope your work](#step-1-scope-your-work)
