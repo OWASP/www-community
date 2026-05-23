@@ -10,7 +10,7 @@ permalink: /Threat_Modeling_Process
 
 {% include writers.html %}
 
-This is an OWASP community page on threat modeling. You should visit the official [Threat Model Project](https://owasp.org/www-project-threat-modeling/) site for a overview on threat modeling and it's many facets within the OWASP community.
+This is an OWASP community page on threat modeling. You should visit the official [Threat Model Project](https://owasp.org/www-project-threat-modeling/) site for an overview on threat modeling and it's many facets within the OWASP community.
 
 - [Introduction](#introduction)
   - [Step 1: Scope your work](#step-1-scope-your-work)
