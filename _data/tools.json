@@ -110,6 +110,17 @@
 		]
 	},
 	{
+		"title": "ansible-security-scanner",
+		"url": "https://github.com/cpeoples/ansible-security-scanner",
+		"owner": null,
+		"license": "Open Source or Free",
+		"platforms": "CLI, CI/CD integration",
+		"note": "Static analyzer for Ansible playbooks, roles, and collections. Detects hardcoded credentials, command and template injection, RCE, and supply-chain risks. Outputs SARIF, CycloneDX SBOM, GitLab SAST, JUnit, JSON, and Markdown.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "API Scanning",
 		"url": "https://www.indusface.com/api-scanning-listing.php",
 		"owner": "Indusface",
