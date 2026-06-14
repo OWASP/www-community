@@ -40,7 +40,7 @@ try {
 		UserSession user = Server.Session.getUserLoginSession();
 		Server.sendText("Hello "+ user.getName());
 } catch (NullPointerException npe) {
-		Server.sendText("Please login")
+		Server.sendText("Please login");
 }
 ```
 
@@ -50,7 +50,7 @@ UserSession user = Server.Session.getUserLoginSession();
 if(user != null){
 		Server.sendText("Hello "+ user.getName());
 } else {
-		Server.sendText("Please login")
+		Server.sendText("Please login");
 }
 ```
 
