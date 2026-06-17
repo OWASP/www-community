@@ -81,9 +81,6 @@ acc.deposit(new BigDecimal("0.1"));
 acc.showBalance(); // output: Balance: 0.3
 ```
 
-
-
-
 ## Related [Attacks](https://owasp.org/www-community/attacks/)
 
 - [Denial of Service](https://owasp.org/www-community/attacks/Denial_of_Service)
