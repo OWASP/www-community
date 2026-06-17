@@ -6,7 +6,6 @@ author: Abdullah Al-Khalaf
 contributors: 
 permalink: /vulnerabilities/Insufficient_Numeric_Precision
 tags: vulnerability, Insufficient Numeric Precision
-auto-migrated: 1
 
 ---
 
