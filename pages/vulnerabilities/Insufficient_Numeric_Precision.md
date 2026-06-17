@@ -17,7 +17,6 @@ tags: vulnerability, Insufficient Numeric Precision
 ## Description
 The use of real numbers with insufficient precision, such as `double` or `float` in most languages, can lead to unpredictable results and introduce bugs that attackers can exploit. 
 
-
 ## Examples
 
 ###  Example 1.0
