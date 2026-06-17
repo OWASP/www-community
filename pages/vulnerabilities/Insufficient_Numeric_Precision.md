@@ -19,9 +19,6 @@ auto-migrated: 1
 ## Description
 The use of real numbers with insufficient precision, such as `double` or `float` in most languages, can lead to unpredictable results and introduce bugs that attackers can exploit. 
 
-## Risk Factors
-
-TBD
 
 ## Examples
 
