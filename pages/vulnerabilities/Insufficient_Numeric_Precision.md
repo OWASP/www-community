@@ -17,7 +17,7 @@ auto-migrated: 1
 > [CWE-1339: Insufficient Precision or Accuracy of a Real Number](https://cwe.mitre.org/data/definitions/1339.html): The product processes a real number with an implementation in which the number's representation does not preserve required accuracy and precision in its fractional part, causing an incorrect result.
 
 ## Description
-The use of real numbers with insufficient precision, such as `double` or `float` in most languages, can lead to unpredictable results and introduce bugs that an attacker can exploit. 
+The use of real numbers with insufficient precision, such as `double` or `float` in most languages, can lead to unpredictable results and introduce bugs that attackers can exploit. 
 
 ## Risk Factors
 
