@@ -49,8 +49,8 @@ attackerAcc.deposit(0.1);
 attackerAcc.showBalance();
 ```
 
-One might believe the output would be `Balance: 0.3`, as it should. However, it outputs
-```Balance: 0.30000000000000004```
+One might believe the output would be `Balance: 0.3`, as it should. However, it outputs: `Balance: 0.30000000000000004`
+
 At first glance, this is a negligible amount, but an attacker could do it multiple times, gaining significant profits.
 
 ## Solution
