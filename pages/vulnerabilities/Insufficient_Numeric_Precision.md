@@ -56,7 +56,7 @@ At first glance, this is a negligible amount, but an attacker could do it multip
 ## Solution
 In many programming languages, they have a reliable decimal data type, for example, [BigDecimal](https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html) in Java, [decimal.Decimal](https://docs.python.org/3/library/decimal.html) in Python, etc. 
 
-For example, the fixed code in [Example 1.0](#example-1.0) would be
+For example, the fixed code in [Example 1.0](#example-10) would be
 
 ```
 import java.math.BigDecimal;
