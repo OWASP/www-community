@@ -22,6 +22,7 @@ The use of real numbers with insufficient precision, such as `double` or `float`
 ###  Example 1.0
 
 In this scenario, a vulnerable bank uses the insufficient precision number data type, `double`:
+
 ```
 public class VulnBank {  
     private double balance = 0.0;  
@@ -37,7 +38,9 @@ public class VulnBank {
       
 }
 ```
+
 An Attacker could deposit 0.1 dollar multiple times like so:
+
 ```
 VulnBank attackerAcc = new VulnBank();
 attackerAcc.deposit(0.1);
@@ -45,6 +48,7 @@ attackerAcc.deposit(0.1);
 attackerAcc.deposit(0.1);
 attackerAcc.showBalance();
 ```
+
 One might believe the output would be `Balance: 0.3`, as it should. However, it outputs
 ```Balance: 0.30000000000000004```
 At first glance, this is a negligible amount, but an attacker could do it multiple times, gaining significant profits.
@@ -53,6 +57,7 @@ At first glance, this is a negligible amount, but an attacker could do it multip
 In many programming languages, they have a reliable decimal data type, for example, [BigDecimal](https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html) in Java, [decimal.Decimal](https://docs.python.org/3/library/decimal.html) in Python, etc. 
 
 For example, the fixed code in [Example 1.0](#example-1.0) would be
+
 ```
 import java.math.BigDecimal;
 
@@ -71,7 +76,9 @@ public class FixedVulnBank {
     
 }
 ```
+
 And the program would look like
+
 ```
 FixedVulnBank acc = new FixedVulnBank();  
 acc.deposit(new BigDecimal("0.1"));  
