@@ -16,11 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout base repository (for validation scripts)
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         ref: ${{ github.base_ref || github.ref }}
     - name: Checkout PR files (only data files)
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         ref: ${{ github.event.pull_request.head.sha || github.sha }}
         repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
