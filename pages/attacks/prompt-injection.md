@@ -23,7 +23,7 @@ Prompt injection occurs when an attacker provides specially crafted inputs that 
 
 ### Based on Delivery Vector
 
-This classification is depended on the medium through which the attack is delivered to the AI system. 
+This classification depends on the medium through which the attack is delivered to the AI system. 
 
 - **Direct Prompt Injection**: The attacker appends commands directly in the prompt to override instructions.
 
@@ -73,7 +73,7 @@ This classification is depended on the medium through which the attack is delive
 - Use model-level instruction locking if supported
 
 ### 4. Training Data Hygiene
-- Enact strict sanitization for the data used for training as well as fine tuning of LLM models.
+- Enforce strict sanitization for the data used for training as well as fine tuning of LLM models.
 - Always train the LLM on strict security policies to avoid easy jailbreaking.
 
 ## Testing for Prompt Injection
@@ -174,7 +174,7 @@ Also, as a side note, reset all accounts and notify attackers.
 - Use prompt templating frameworks
 - Limit the scope of AI responses (read-only, no external access)
 - Implement data loss prevention layers to sanitize the LLMs response to redact any PII.
-- Fine-tune the LLM iself on best security policies so that instead of having security instructions in prompt, it is ingrained into LLM agent's memory.
+- Fine-tune the LLM itself on best security policies so that instead of having security instructions in prompt, it is ingrained into LLM agent's memory.
 - Educate developers about prompt injection threats.
 - Regularly audit LLM usage in applications
 
