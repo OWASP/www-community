@@ -1,7 +1,7 @@
 name: Validate Tools JSON
 
 on: 
-  pull_request_target:
+  pull_request:
     paths:
     - '_data/tools.json'
     - 'tools_schema.json'
