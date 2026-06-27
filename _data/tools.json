@@ -760,17 +760,6 @@
 		]
 	},
 	{
-		"title": "DSSRF",
-		"url": "https://github.com/HackingRepo/dssrf-js",
-		"owner": "RelunSec",
-		"license": "Free",
-		"platforms": "NodeJS",
-		"note": "dssrf Defend Against SSRF attacks by providing huge of utils for validation, you integrate it with your web client before making request you validate the url for eliminating SSRF attacks.",
-		"type": [
-			"SAST"
-		]
-	},
-	{
 		"title": "Edgescan",
 		"url": "https://www.edgescan.com/",
 		"owner": "Edgescan",
