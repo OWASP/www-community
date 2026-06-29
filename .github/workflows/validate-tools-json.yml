@@ -34,7 +34,7 @@ jobs:
         cp pr-files/_data/tools.json _data/tools.json 2>/dev/null || true
         cp pr-files/tools_schema.json tools_schema.json 2>/dev/null || true
     - name: Save PR number
-      if: github.event_name == 'pull_request_target'
+      if: github.event_name == 'pull_request'
       env:
         PR_NUMBER: ${{ github.event.number }}
       run: echo $PR_NUMBER > pr_number
