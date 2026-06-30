@@ -287,7 +287,7 @@
   posture: "https://img.shields.io/badge/API_Posture-No-red.svg"
   runtime: "https://img.shields.io/badge/API_Runtime-Yes-brightgreen.svg"
   testing: "https://img.shields.io/badge/API_Testing-No-red.svg"
-  notes: "Real-time bot detection and fraud prevention API. Combines IP reputation, VPN/proxy/Tor detection, and email validation in a single call. Returns an Interaction Trust Score (0-100). Sub-20ms response. Free tier: 100 req/day."
+  notes: "Real-time bot detection and fraud prevention API. Combines IP reputation, VPN/proxy/Tor detection, and email validation in a single call. Returns an Interaction Trust Score (0-100). Sub-20ms response. Free tier: 3,000 req/month."
 - name: "Insomnia"
   link: "https://insomnia.rest/"
   from: "Kong"
