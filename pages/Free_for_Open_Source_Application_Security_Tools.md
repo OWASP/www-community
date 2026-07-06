@@ -195,6 +195,10 @@ Free tools of this type:
      - Identifies, fixes and prevents known vulnerabilities. Read more at [https://debricked.com](https://debricked.com)
      - [Create a free account](https://app.debricked.com/en/register)
    - [retire.js](https://github.com/RetireJS/retire.js): free open source tool for finding javascript libraries with known vulnerabilities. Originally a command line tool, and there are plugins for browsers and scanners.
+  - [BomLens](https://github.com/sktelecom/sbom-tools): free open source (Apache-2.0)
+    tool that generates a CycloneDX SBOM from source code, containers, binaries,
+    firmware, or AI models, and reports known vulnerable components and license
+    risks. Runs locally in Docker with a CLI, web UI, and desktop app.
 
 
 Commercial tools of this type that are free for open source:
