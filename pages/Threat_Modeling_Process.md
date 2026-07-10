@@ -3,7 +3,7 @@
 title: Threat Modeling Process (Historical)
 layout: col-sidebar
 author: Larry Conklin
-contributors: ["Victoria Drake", "Sven strittmatter", "Zoe Braiterman", "Adam Shostack"]
+contributors: ["Marco Morana", "Victoria Drake", "Sven strittmatter", "Zoe Braiterman", "Adam Shostack"]
 tags: ["threat modeling"]
 permalink: /Threat_Modeling_Process
 ---
