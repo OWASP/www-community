@@ -507,6 +507,17 @@
 		]
 	},
 	{
+		"title": "CodeCordon",
+		"url": "https://codecordon.up.railway.app/",
+		"owner": "CodeCordon",
+		"license": "Commercial or Free",
+		"platforms": "SaaS, CLI, CI/CD integration",
+		"note": "Deterministic static analysis for AI-generated applications. Scans authorized public GitHub repositories for code and configuration risks and returns file, line, and remediation findings. Provides a free no-account preview, with CLI and GitHub Actions integration on paid plans.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Codename SCNR",
 		"url": "https://ecsypno.com/pages/codename-scnr",
 		"owner": "Ecsypno",
