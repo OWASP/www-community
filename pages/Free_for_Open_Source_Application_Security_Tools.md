@@ -329,6 +329,7 @@ open source projects also consider using good code quality tools. A few that we 
 
 ### Cloud Security Tools
   - [cloud-audit](https://github.com/gebalamariusz/cloud-audit) - An open-source (MIT) AWS security scanner that runs 94 checks across 23 AWS services, detects attack chains across misconfigurations, and generates remediation code (Terraform HCL and AWS CLI) for every finding. Supports CIS AWS Foundations Benchmark v3.0 and SOC 2 Type II compliance frameworks. Available on [PyPI](https://pypi.org/project/cloud-audit/), [Docker](https://github.com/gebalamariusz/cloud-audit/pkgs/container/cloud-audit), and as a [GitHub Action](https://github.com/gebalamariusz/cloud-audit). Free and open source for all use.
+  - [Cynative](https://github.com/cynative/cynative) - An open-source security research CLI that lets you query your infrastructure in plain language, read-only by construction. Connects to AWS, GCP, Azure, Kubernetes, GitHub, and GitLab using the credentials already in your shell, and authorizes every call through an action gate that permits only read and audit actions as defined by each provider. Supports bring-your-own-model so data stays under your control. Distributed as a single Go binary. Free for all use (Apache-2.0).
 
 ### Security Tools Built into DevOps/CI Environments
   - GitLab - is building security into their platform and it is quickly evolving [as described here](https://about.gitlab.com/direction/secure/#security-paradigm).
