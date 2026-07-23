@@ -1905,6 +1905,17 @@
 		]
 	},
 	{
+		"title": "quantakrypto/pqc-tools",
+		"url": "https://github.com/quantakrypto/pqc-tools",
+		"owner": "quantakrypto",
+		"license": "Open Source",
+		"platforms": null,
+		"note": "Open-source scanner that finds quantum-vulnerable cryptography (RSA/ECDH/ECDSA/DH) in source code and gives NIST post-quantum (ML-KEM/ML-DSA/SLH-DSA) migration guidance. SARIF output and a CI gate.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "ReconwithMe",
 		"url": "https://reconwithme.com/",
 		"owner": "Nassec",
