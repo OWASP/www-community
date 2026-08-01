@@ -1500,12 +1500,14 @@
 	{
 		"title": "Offensive360",
 		"url": "https://offensive360.com/",
-		"owner": null,
+		"owner": "O360 B.V.",
 		"license": "Commercial",
-		"platforms": null,
-		"note": "SAST technology that attacks the source code from all corners it has all in one. Malware, SCA, License, and deep source code analysis.",
+		"platforms": "SaaS or self-hosted (on-premise virtual appliance, supports air-gapped networks)",
+		"note": "Combines SAST (60+ languages, taint/data-flow analysis), DAST, SCA, mobile app testing (Android/iOS), malware and binary analysis, and open-source license compliance in one platform. SARIF output, CI/CD and IDE integrations.",
 		"type": [
-			"SAST"
+			"SAST",
+			"DAST",
+			"SCA"
 		]
 	},
 	{
