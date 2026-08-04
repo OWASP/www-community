@@ -16,11 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout base repository (for validation scripts)
-      uses: actions/checkout@v7
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
         ref: ${{ github.base_ref || github.ref }}
+        persist-credentials: false
     - name: Checkout PR files (only data files)
-      uses: actions/checkout@v7
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
         ref: ${{ github.event.pull_request.head.sha || github.sha }}
         repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
@@ -29,15 +30,11 @@ jobs:
           tools_schema.json
         sparse-checkout-cone-mode: false
         path: pr-files
+        persist-credentials: false
     - name: Copy PR files to workspace
       run: |
         cp pr-files/_data/tools.json _data/tools.json 2>/dev/null || true
         cp pr-files/tools_schema.json tools_schema.json 2>/dev/null || true
-    - name: Save PR number
-      if: github.event_name == 'pull_request'
-      env:
-        PR_NUMBER: ${{ github.event.number }}
-      run: echo $PR_NUMBER > pr_number
     - name: Install Python dependencies
       run: pip install jsonschema
     - name: Run schema check
@@ -174,10 +171,8 @@ jobs:
         # Exit with error if any check failed
         exit $overall_status
     - name: Upload validation results
-      if: always()
-      uses: actions/upload-artifact@v7
+      if: failure()
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
       with:
         name: artifact
-        path: |
-          artifact.txt
-          pr_number
+        path: artifact.txt

@@ -13,25 +13,86 @@ permissions:
 jobs:
   comment:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.event == 'pull_request'}}
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'failure'
     steps:
       - name: Download Artifact
-        uses: actions/download-artifact@v8
+        id: download-artifact
+        continue-on-error: true
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: artifact
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
+          path: ${{ runner.temp }}/artifact
+
       - name: Comment on PR
-        uses: actions/github-script@v9
+        if: steps.download-artifact.outcome == 'success'
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          ARTIFACT_DIR: ${{ runner.temp }}/artifact
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            let fs = require('fs');
-            const issue_number = Number(fs.readFileSync('./pr_number'));
-            const artifactString = fs.readFileSync('./artifact.txt').toString().trimEnd();
+            const fs = require('fs');
+            const path = require('path');
+
+            // Resolve PR number: workflow_run.pull_requests is often empty (forks / timing).
+            // Fall back to API lookups using trusted workflow_run head metadata (not artifacts).
+            const workflowRun = context.payload.workflow_run;
+            let issue_number = (workflowRun.pull_requests || [])[0]?.number;
+
+            if (!issue_number) {
+              const { data: associated } = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                commit_sha: workflowRun.head_sha,
+              });
+              const openAssociated = associated.find((p) => p.state === 'open');
+              issue_number = openAssociated?.number;
+            }
+
+            if (!issue_number && workflowRun.head_repository?.owner?.login && workflowRun.head_branch) {
+              const head = `${workflowRun.head_repository.owner.login}:${workflowRun.head_branch}`;
+              const { data: listed } = await github.rest.pulls.list({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'open',
+                head,
+                per_page: 10,
+              });
+              const match = listed.find((p) => p.head.sha === workflowRun.head_sha);
+              issue_number = match?.number;
+            }
+
+            if (!Number.isInteger(issue_number) || issue_number < 1) {
+              console.log(`Could not resolve PR for head ${workflowRun.head_sha}; skipping`);
+              return;
+            }
+
+            const artifactPath = path.join(process.env.ARTIFACT_DIR, 'artifact.txt');
+            if (!fs.existsSync(artifactPath)) {
+              console.log('artifact.txt not found, skipping comment post');
+              return;
+            }
+
+            const MAX_ARTIFACT_CHARS = 60000;
+            let artifactString = fs.readFileSync(artifactPath, 'utf8');
+            // Strip C0 controls except tab/LF/CR
+            artifactString = artifactString.replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '');
+            artifactString = artifactString.trimEnd();
+            if (artifactString.length > MAX_ARTIFACT_CHARS) {
+              artifactString = artifactString.slice(0, MAX_ARTIFACT_CHARS) + '\n\n…(truncated)';
+            }
+            if (!artifactString) {
+              console.log('artifact.txt empty after sanitization, skipping comment post');
+              return;
+            }
+
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue_number,
-              body: `${artifactString}`
+              body: artifactString
             });
