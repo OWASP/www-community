@@ -16,7 +16,7 @@ permalink: /Fuzzing
 ## A trivial example
 
 Let's consider an integer in a program, which stores the result of a user's choice among 3 questions. When the user picks one, the choice
-will be 0, 1 or 2. Which makes three practical cases. But what if we transmit 3, or 255? We can, because integers are stored in a static size
+will be 0, 1, or 2. Which makes three practical cases. But what if we transmit 3, or 255? We can, because integers are stored in a static size
 variable. If the default switch case hasn't been implemented securely, the program may crash and lead to "classical" security issues:
 (un)exploitable buffer overflows, DoS, ...
 
