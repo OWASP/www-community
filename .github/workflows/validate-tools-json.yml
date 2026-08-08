@@ -33,6 +33,8 @@ jobs:
         persist-credentials: false
     - name: Copy PR files to workspace
       run: |
+        # Keep base copy for ordering advice (new titles vs reshuffles)
+        cp _data/tools.json _data/tools.base.json
         cp pr-files/_data/tools.json _data/tools.json 2>/dev/null || true
         cp pr-files/tools_schema.json tools_schema.json 2>/dev/null || true
     - name: Install Python dependencies
@@ -46,7 +48,7 @@ jobs:
       id: ordering
       continue-on-error: true
       run: |
-        python3 .github/workflows/scripts/check_ordering.py _data/tools.json > ordering_log.txt 2>&1
+        python3 .github/workflows/scripts/check_ordering.py _data/tools.json _data/tools.base.json > ordering_log.txt 2>&1
     - name: Run duplicate detection check
       id: duplicates
       continue-on-error: true
