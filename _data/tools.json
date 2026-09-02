@@ -90,7 +90,7 @@
 	{
 		"title": "allocguard",
 		"url": "https://github.com/tzh476/allocguard",
-		"owner": null,
+		"owner": "Stephen Smith",
 		"license": "Open Source or Free",
 		"platforms": "CLI, CI/CD integration",
 		"note": "Checks Go source for make() capacity hints derived from untrusted input before that input is validated, a pattern that lets a parser reserve memory for data it then rejects. Syntactic analysis over the Go AST; no build, type information or dependencies required. Exits non-zero when findings are present for use in CI.",
