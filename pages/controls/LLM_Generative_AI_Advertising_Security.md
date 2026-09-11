@@ -15,7 +15,7 @@ permalink: /controls/LLM_Generative_AI_Advertising_Security
 
 ## Introduction
 
-Modern advertising platforms use LLMs (large language models), VLMs (vision-language models), and generative endpoints on the live serving path for publisher-page contextual review, ad-creative policy review, autonomous campaign management, generative ad copy, and multimodal deep-fake detection. This is Sheet 2 of the OWASP AI-Advertising Security series; read Sheet 1, the *AI-Powered Advertising Systems Security Cheat Sheet*, first for the ad-serving primer (buyer/DSP, seller/SSP, publisher, auction, outcome-event boundary) and the classical-ML controls that gate consent, protect training corpora, defend inference, and secure outcome events. The five numbered sections here follow the same threat, defense, evidence, and runtime structure.
+Modern advertising platforms use LLMs (large language models), VLMs (vision-language models), and generative endpoints on the live serving path for publisher-page contextual review, ad-creative policy review, autonomous campaign management, generative ad copy, and multimodal deep-fake detection. This guide covers the controls specific to that generative surface. Read the companion guide, [AI-Powered Advertising Systems Security](https://owasp.org/www-community/controls/AI_Powered_Advertising_Systems_Security), first for the ad-serving primer (buyer/DSP, seller/SSP, publisher, auction, outcome-event boundary) and the classical-ML controls that gate consent, protect training corpora, defend inference, and secure outcome events. The five numbered sections here follow the same threat, defense, evidence, and runtime structure.
 
 **LLM touchpoints on the ad-serving path:**
 
@@ -30,7 +30,7 @@ Modern advertising platforms use LLMs (large language models), VLMs (vision-lang
 | Generative endpoint (text-to-image / video / voice cloning) | Platform generates the served bytes | 5 |
 | On-device / in-browser LLM (Chrome Prompt API, Gemini Nano) | Personalization in a cross-origin ad iframe | 1 |
 
-**Four properties make LLM security in ad-tech different from Sheet 1's classical-ML surface.** The attacker's payload is text, so every text field on the ad-serving path (publisher HTML, landing page, brief, creative) is a prompt injection vector. The system prompt is both product logic and security boundary, so leaking it exposes both. Retrieval is a training corpus consulted at inference, so poisoning the RAG index poisons every downstream decision. Agents can spend money and change state without a human in the loop, so a prompt injection that used to produce a wrong label now moves budget. Sheet 1's three properties (adversary is a paying customer, training data is adversary-writable, every decision moves money on the live path) still apply.
+**Four properties make LLM security in ad-tech different from the classical-ML surface.** The attacker's payload is text, so every text field on the ad-serving path (publisher HTML, landing page, brief, creative) is a prompt injection vector. The system prompt is both product logic and security boundary, so leaking it exposes both. Retrieval is a training corpus consulted at inference, so poisoning the RAG index poisons every downstream decision. Agents can spend money and change state without a human in the loop, so a prompt injection that used to produce a wrong label now moves budget. The three properties from the companion guide (adversary is a paying customer, training data is adversary-writable, every decision moves money on the live path) still apply.
 
 The Appendix at the end lists terms and acronyms that are not glossed inline.
 
@@ -115,7 +115,7 @@ The [OWASP RAG Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatshe
 - Verify retrieved chunks **k-of-n** against a signed manifest of canonical policy anchors for the **query cluster** (a set of semantically related queries that share the same policy anchors, for example every alcohol-creative query must return at least k of n prohibited-terms anchors). Retrieval that returns on-topic chunks without the anchors fails closed to the rules baseline.
 - Default to MMR (maximal-marginal-relevance) or diversity-sampled retrieval, not similarity top-k alone. An author-access attacker who seeds benign-looking paragraphs that embed close to prohibited-terms queries can drown the guardrail anchor out of top-k. [Hu et al. 2024 (arXiv:2402.07179, GGPP)](https://arxiv.org/abs/2402.07179) show adversarial prefixes steer RAG outputs and can override "ignore irrelevant context" instructions.
 - Alert on any retrieval whose top-k excludes canonical policy anchors for the cluster. Missing anchors on an approving verdict route to HITL.
-- Sign the fine-tuned adapter with OMS; sign the fine-tune dataset with in-toto attestation bound to the adapter's ML-BOM entry. Refuse to load an adapter whose signature does not chain to an advertiser-registered signing identity. When a compromise is discovered, use the **scoped-rollback query** primitive from Sheet 1 Section 2 (the participant-provenance tag lets you exclude a compromised advertiser's rows and adapter versions on the next retrain without re-hashing the corpus) to remove tainted training material.
+- Sign the fine-tuned adapter with OMS; sign the fine-tune dataset with in-toto attestation bound to the adapter's ML-BOM entry. Refuse to load an adapter whose signature does not chain to an advertiser-registered signing identity. When a compromise is discovered, use the **scoped-rollback query** primitive from the *Protect the Training Corpus* section of the [companion guide](https://owasp.org/www-community/controls/AI_Powered_Advertising_Systems_Security) (the participant-provenance tag lets you exclude a compromised advertiser's rows and adapter versions on the next retrain without re-hashing the corpus) to remove tainted training material.
 - Run a promotion-gate behavioral test on a held-out trigger corpus the platform builds from the advertiser's own claims taxonomy and forbidden-completion list. [Hubinger et al. 2024 (arXiv:2401.05566, "Sleeper Agents")](https://arxiv.org/abs/2401.05566) show supervised fine-tuning, reinforcement learning (RL), and adversarial training do not remove trigger-conditioned backdoors, and that adversarial training "can teach models to better recognize their backdoor triggers, effectively hiding the unsafe behavior." Safety-eval score alone is not evidence of trust.
 - Refuse to load any unsigned adapter into the serving path. An unsigned artifact is a failed load, not a warning.
 
@@ -209,7 +209,7 @@ An approval for `daily_cap_usd=500` does not authorize `5000`; a different campa
 - Circuit breakers trip on anomalous tool-call rate per session, per agent identity, and per advertiser tenant. A burst of `campaign.pause` calls against competitor-facing campaigns trips before any single call looks malformed.
 - Fail closed on risk-classification, approval-validation, policy-lookup, and audit-log-write failure. If the audit log cannot record the action, the action does not execute.
 - Kill-switch fallback is a pre-deployed rules-based bidder, compiled and kept warm. A single control-plane flip diverts campaign traffic while the agent is quarantined; the kill-switch also freezes the agent's tool allowlist to reporting-only.
-- Quarantine reward events past the fraud-adjudication lag. Reinforcement-learning and bandit policy updates ingest outcome events only after the invalid traffic (IVT) and fraud-adjudication verdict has landed (Sheet 1 Section 4 is the source of truth). Cap the maximum policy shift per epoch.
+- Quarantine reward events past the fraud-adjudication lag. Reinforcement-learning and bandit policy updates ingest outcome events only after the invalid traffic (IVT) and fraud-adjudication verdict has landed (the *Protect the Training Corpus* section of the [companion guide](https://owasp.org/www-community/controls/AI_Powered_Advertising_Systems_Security) sets the quarantine window against each mode's adjudication lag). Cap the maximum policy shift per epoch.
 - Rate-limit the platform's generative-creative endpoint per client and per campaign, independent of serving-path limits.
 - Freeze the generation model version from the control plane during an incident. Every generated asset re-enters the full ingestion pipeline; no fast path from generation to serving.
 
@@ -219,7 +219,7 @@ An approval for `daily_cap_usd=500` does not authorize `5000`; a different campa
 | Unauthorized `creative.upload` at volume | HIGH HITL + per-agent allowlist + no-fast-path re-ingestion | Regression: no preview then reject | Upload-denied rate by reason |
 | Brand-exclusion removal | CRITICAL HITL + step-up bound to (advertiser, exclusion list) | Red-team the exclusion-remove path | Alarm on `brand_exclusion.remove` without a bound approval |
 | Memory-poisoned overnight drift | Allowlist bound to agent identity; capped policy update per epoch | Regression on policy-affecting-write refusal | Per-agent policy-delta-per-epoch z-score |
-| Forged-outcome reward manipulation | Reward quarantine past fraud lag; per-partner credibility; capped policy shift | Sheet 1 adjudication feed integrity test | Reward quarantine-release lag; credibility drift |
+| Forged-outcome reward manipulation | Reward quarantine past fraud lag; per-partner credibility; capped policy shift | Companion-guide adjudication feed integrity test | Reward quarantine-release lag; credibility drift |
 | Generative-endpoint abuse | Endpoint-independent rate limit; deployment lock; no-fast-path; C2PA-at-generation (Section 5) | Rate-limit and lock regression | Per-client generator RPS; model-version pin |
 
 ## 5. Generative Provenance and Runtime
@@ -234,7 +234,7 @@ An approval for `daily_cap_usd=500` does not authorize `5000`; a different campa
 | Advertiser-as-brief-author (brief recombines a real person's face or voice) | Deployer (Art. 50(4)) | Disclose the deep fake when Art. 3(60) applies | Ad label on served creative |
 | Publisher-as-exposure-surface | Neither | None from Art. 50(2) or 50(4) | Inherits the mark; no re-attach |
 
-The Art. 50(4) editorial-responsibility carveout attaches only to AI-generated *text* published to inform on matters of public interest; it does not lift the deep-fake disclosure duty for image, audio, or video ads. Art. 50(2)'s *assistive function* exception does not cover an endpoint that materially generates the creative. DSA Art. 26 paid-ad transparency is not AI-specific and lives in Sheet 1.
+The Art. 50(4) editorial-responsibility carveout attaches only to AI-generated *text* published to inform on matters of public interest; it does not lift the deep-fake disclosure duty for image, audio, or video ads. Art. 50(2)'s *assistive function* exception does not cover an endpoint that materially generates the creative. DSA Art. 26 paid-ad transparency is not AI-specific and lives in the companion guide.
 
 **Controls:**
 
@@ -297,9 +297,13 @@ The Art. 50(4) editorial-responsibility carveout attaches only to AI-generated *
 - [Chrome Prompt API](https://developer.chrome.com/docs/ai/prompt-api): built-in on-device LLM. Experimental origin-trial territory; the API surface and the `allow="language-model"` Permission Policy semantics may change.
 - [MRC Invalid Traffic Detection and Filtration Guidelines](https://mediaratingcouncil.org/standards-and-guidelines)
 
+**Companion pages:**
+
+- [AI-Powered Advertising Systems Security](https://owasp.org/www-community/controls/AI_Powered_Advertising_Systems_Security), the companion guide on this wiki, covering consent gating, training-corpus protection, inference hardening, outcome-event integrity, and the AI supply chain
+- [AI-Powered Advertising Systems Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AI-Powered_Advertising_Systems_Security_Cheat_Sheet.html), the concise checklist covering both guides, in the OWASP Cheat Sheet Series
+
 **Related OWASP cheat sheets:**
 
-- *AI-Powered Advertising Systems Security Cheat Sheet*: Sheet 1 of this series (addresses OWASP CheatSheetSeries issue #2323)
 - [LLM Prompt Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html)
 - [AI Agent Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html)
 - [Secure AI/ML Model Ops Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_AI_Model_Ops_Cheat_Sheet.html)
@@ -337,6 +341,6 @@ Compact reference for terms not glossed inline. See body for links to primary so
 | SSAI | Server-Side Ad Insertion |
 | VAST | Video Ad Serving Template (IAB Tech Lab XML format) |
 | Query cluster | Set of semantically related queries sharing the same policy anchors |
-| Scoped-rollback query | Sheet 1 primitive that excludes a compromised participant's rows on retrain via the participant-provenance tag |
+| Scoped-rollback query | Companion-guide primitive that excludes a compromised participant's rows on retrain via the participant-provenance tag |
 | SecureAgentBus | OWASP AI Agent Security primitive: signed inter-agent messages with freshness bounds |
 | Sec-GPC | Global Privacy Control HTTP header signaling do-not-sell / do-not-share |

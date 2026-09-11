@@ -15,11 +15,11 @@ permalink: /controls/AI_Powered_Advertising_Systems_Security
 
 ## Introduction
 
-Modern advertising platforms make AI-driven financial decisions on every ad request: what to bid, which product to rank first, whether a page is brand-safe, whether traffic is real, which touchpoint gets credit for a conversion. This cheat sheet gives builders the specific controls that stop the AI itself from becoming the attack surface. It applies across every ad-serving mode: programmatic, search, retail media, CTV/OTT (Connected TV and over-the-top streaming ads), DOOH (Digital Out-of-Home: billboards and digital screens), direct-sold, native, and mobile mediation. It covers classical machine learning (ML) on the live serving path (bid, floor, rank, recommendation, quality-score, attribution, brand-safety, invalid-traffic (IVT) / fraud detection). Controls specific to large language models (LLMs) and generative AI are in the companion sheet, *LLM & Generative AI Security in Advertising Cheat Sheet*.
+Modern advertising platforms make AI-driven financial decisions on every ad request: what to bid, which product to rank first, whether a page is brand-safe, whether traffic is real, which touchpoint gets credit for a conversion. This guide gives builders the specific controls that stop the AI itself from becoming the attack surface. It applies across every ad-serving mode: programmatic, search, retail media, CTV/OTT (Connected TV and over-the-top streaming ads), DOOH (Digital Out-of-Home: billboards and digital screens), direct-sold, native, and mobile mediation. It covers classical machine learning (ML) on the live serving path (bid, floor, rank, recommendation, quality-score, attribution, brand-safety, invalid-traffic (IVT) / fraud detection). Controls specific to large language models (LLMs) and generative AI are in the companion guide, [LLM and Generative AI Security in Advertising](https://owasp.org/www-community/controls/LLM_Generative_AI_Advertising_Security).
 
 ## Terminology
 
-Acronyms and specialized terms used throughout this cheat sheet. Each is also glossed inline the first time it appears in the body.
+Acronyms and specialized terms used throughout this guide. Each is also glossed inline the first time it appears in the body.
 
 | Term | Meaning |
 |---|---|
@@ -50,7 +50,7 @@ Acronyms and specialized terms used throughout this cheat sheet. Each is also gl
 | **COPPA** | US Children's Online Privacy Protection Act. Current rule 90 FR 16918. |
 | **CJEU** | Court of Justice of the European Union. |
 | **HMAC** | Hash-based Message Authentication Code. Keyed hash for signing. |
-| **NFC** | Unicode Normalization Form Canonical. Single canonical form for accented text. |
+| **NFC** | Unicode Normalization Form C (canonical decomposition followed by canonical composition, per [UAX #15](https://unicode.org/reports/tr15/)). Single canonical form for accented text. |
 | **MAD** | Median Absolute Deviation. Outlier statistic that survives heavy-tailed distributions. |
 | **Differential Privacy (DP)** | Adds calibrated random noise so outputs cannot be traced back to any single user. Privacy budget measured in "epsilon"; larger accumulated epsilon means weaker protection. |
 | **ML-BOM** | ML Bill of Materials. Machine-readable inventory of a model's training data and dependencies (CycloneDX 1.7 defines the format). |
@@ -90,7 +90,7 @@ Advertising is not one system. It is a family of markets that share one property
 2. **Training data is adversary-writable participant traffic.** In ad-tech, models learn from whatever the outside world sends you: bid requests, search queries, purchase events, viewer telemetry, publisher-supplied content, DOOH sensor feeds. Every participant in the market has write access to your next model refresh, right now, at line rate.
 3. **Every decision moves money on the live path.** Every mode runs against a hard latency budget: the timeout the SSP declares in programmatic bidding, sub-second ranking in retail and search, playback deadlines for CTV ad-pod selection. Defenses that add compute per decision get expensive fast at scale, and a model that times out becomes a real denial-of-service vector.
 
-**Scope.** Sections apply broadly across the modes above; individual bullets name programmatic, search, retail media, CTV, direct-sold, DOOH, or SDK examples where the manifestation differs. The companion sheet covers the controls specific to large language models and generative AI: prompt injection, retrieval-augmented generation, agentic bidders, and generative creative provenance.
+**Scope.** Sections apply broadly across the modes above; individual bullets name programmatic, search, retail media, CTV, direct-sold, DOOH, or SDK examples where the manifestation differs. The [companion guide](https://owasp.org/www-community/controls/LLM_Generative_AI_Advertising_Security) covers the controls specific to large language models and generative AI: prompt injection, retrieval-augmented generation, cross-tenant isolation, agentic bidders, and generative creative provenance.
 
 ## 1. Gate Every Model Call on Consent
 
@@ -273,7 +273,7 @@ Generic model-artifact hygiene (preferring inert file formats, signing artifacts
 
 ### Ad creative and content validation
 
-Creative reaches three AI consumers regardless of mode: LLM/classifier review (see the companion *LLM & Generative AI Security in Advertising Cheat Sheet*), the renderer (defer to the [CSP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) and [XXE Prevention](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html) cheat sheets), and the provenance chain (also the companion sheet). For the classifier-hygiene rules that belong in this sheet:
+Creative reaches three AI consumers regardless of mode: LLM/classifier review (see the companion guide, [LLM and Generative AI Security in Advertising](https://owasp.org/www-community/controls/LLM_Generative_AI_Advertising_Security)), the renderer (defer to the [CSP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) and [XXE Prevention](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html) cheat sheets), and the provenance chain (also the companion guide). For the classifier-hygiene rules that belong in this guide:
 
 - **Normalize creative text to NFC and strip zero-width and bidi-control characters** before review *and* rendering. Applies to programmatic display creatives, search ad copy, retail product descriptions and titles, CTV **VAST** creative metadata (Video Ad Serving Template, the IAB standard XML format for video ads), native content copy, and DOOH creative captions.
 - **Two-tier review.** Deterministic filters (denylists, landing-page checks, the normalization above) run first, LLM semantic review runs second, with confidence thresholding between them.
@@ -335,9 +335,13 @@ Creative reaches three AI consumers regardless of mode: LLM/classifier review (s
 - [Fredrikson et al. 2015, ACM CCS](https://dl.acm.org/doi/10.1145/2810103.2813677): model inversion
 - [Shumailov et al. 2021, EuroS&P](https://arxiv.org/abs/2006.03463): sponge examples
 
+**Companion pages:**
+
+- [LLM and Generative AI Security in Advertising](https://owasp.org/www-community/controls/LLM_Generative_AI_Advertising_Security), the companion guide covering the LLM input boundary, retrieval trust, cross-tenant isolation, agentic ad management, and generative provenance
+- [AI-Powered Advertising Systems Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AI-Powered_Advertising_Systems_Security_Cheat_Sheet.html), the concise checklist covering both guides, in the OWASP Cheat Sheet Series
+
 **Related OWASP cheat sheets:**
 
-- *LLM & Generative AI Security in Advertising Cheat Sheet*: proposed companion sheet covering prompt injection, RAG, generative endpoints, agentic bidders, and deepfake defenses
 - [Secure AI/ML Model Ops Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_AI_Model_Ops_Cheat_Sheet.html)
 - [AI Agent Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html)
 - [LLM Prompt Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html)
