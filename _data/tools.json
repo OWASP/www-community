@@ -826,6 +826,17 @@
 		]
 	},
 	{
+		"title": "Extuno",
+		"url": "https://extuno.com",
+		"owner": "Extuno",
+		"license": "Commercial or Free",
+		"platforms": "SaaS, CLI (macOS, Linux, Windows), CI/CD",
+		"note": "Supply-chain analysis for packages and browser extensions across 12 ecosystems (npm, PyPI, Maven, Composer, WordPress, Chrome, Firefox, VS Code and others). Diffs every published version to catch a release that turns malicious in an update, combining static rules, source review and execution in an isolated microVM. The MIT-licensed CLI gates pip installs before the artifact reaches the machine and emits SARIF for CI.",
+		"type": [
+			"SCA"
+		]
+	},
+	{
 		"title": "FindBugs",
 		"url": "https://github.com/findbugsproject/findbugs",
 		"owner": null,

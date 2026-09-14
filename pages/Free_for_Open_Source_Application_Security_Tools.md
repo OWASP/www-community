@@ -82,6 +82,7 @@ In addition, we are aware of the following commercial SAST tools that are free f
   - [KICS](https://www.kics.io/) by Checkmarx - Detects security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code.
   - [Kusari](https://kusari.dev/inspector) - Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests. This checks for bad dependencies, licenses, quality data. [Free for individual use](https://www.kusari.dev/pricing).
   - [Xygeni](https://xygeni.io/xygeni-code-security/) - Provides Advanced SAST with real-time malware detection and AI-powered AutoFix. It helps developers find and fix vulnerabilities with minimal friction. Free for open source projects.
+  - [Zennoxa Shield](https://zennoxa.com) - Free, MIT-licensed CLI that runs one offline scan across SAST, secrets, dependencies (OSV plus a CycloneDX SBOM), containers, IaC and CI/CD configuration, with findings ranked by CVSS, EPSS, CISA KEV and code reachability. Comprehensive coverage for 14 languages (C, C++, C#, Dart, Go, Java, JavaScript, Kotlin, PHP, Python, Ruby, Rust, Swift, TypeScript), SARIF output for GitHub code scanning, and a GitHub Action. Publishes reproducible OWASP Benchmark results.
 
 ### DAST Tools
 
