@@ -1212,6 +1212,17 @@
 		]
 	},
 	{
+		"title": "iosy",
+		"url": "https://opensyntaxx.com/",
+		"owner": "OpenSyntaxx",
+		"license": "Commercial",
+		"platforms": "Most platforms supported",
+		"note": "iosy decompiles iOS apps (.ipa files) into readable Swift source code.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "IOTHREAT",
 		"url": "https://iothreat.com/",
 		"owner": "IOTHREAT",
