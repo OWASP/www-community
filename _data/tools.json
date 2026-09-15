@@ -2039,6 +2039,17 @@
 		]
 	},
 	{
+		"title": "RowShield",
+		"url": "https://rowshield.dev/",
+		"owner": "Veristria",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Supabase-focused: probes a deployed app's public Data API from the outside for tables and storage that anonymous callers can read (free, read-only); paid plans add scheduled RLS policy and drift checks",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "ScanRepeat",
 		"url": "https://scanrepeat.com/",
 		"owner": "Ventures CDX",
