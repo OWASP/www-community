@@ -57,37 +57,37 @@ This year's OWASP BLT GSoC projects center on **core platform modernization, AI-
 
 All 2026 GSoC ideas are Large Projects.
 
-##### [BLT-Next](https://github.com/OWASP-BLT/BLT-Next) — Core BLT Migration to GitHub Pages and Cloudflare Python Workers
+##### [BLT-Next](https://gitlab.com/owasp-blt/blt-next) — Core BLT Migration to GitHub Pages and Cloudflare Python Workers
 
 **Revamp BLT website with a fresh, modern design by removing non-core components to create a clear, enjoyable user experience focused on core value.** The project involves migrating the complete OWASP BLT platform from its current Django-based monolithic architecture to a lightweight static frontend deployed on GitHub Pages using plain HTML, vanilla JavaScript, and HTMX, with dynamic functionality powered by Cloudflare Python Workers at the edge. This migration will replace Django template rendering with modular static components and progressive enhancement, achieving sub-200ms global response times, simplified architecture, improved maintainability, and production-grade reliability while preserving full feature parity and positioning BLT as a fast, contributor-friendly reference implementation.
 
 ---
 
-##### [BLT-Preflight](https://github.com/OWASP-BLT/BLT-Preflight) — Pre-Contribution Security Intent & Risk Guidance
+##### [BLT-Preflight](https://gitlab.com/owasp-blt/blt-preflight) — Pre-Contribution Security Intent & Risk Guidance
 
 **Provide security intent and risk guidance before contributors submit code to prevent common mistakes and improve contributor understanding.** This pre-contribution advisory system helps contributors understand security expectations before opening a pull request by evaluating security context through issue labels, repository metadata, and historical patterns, then providing plain-language guidance linked to relevant documentation. The system includes optional contributor intent capture (planned work areas, components to modify, AI assistance usage), a maintainer visibility dashboard for early identification of risky contributions, and a learning feedback loop that refines guidance rules over time. BLT-Preflight operates on a purely advisory basis with no blocking or enforcement mechanisms, focusing on prevention and clarity to reduce maintainer workload and improve the quality of security contributions.
 
 ---
 
-##### [BLT-Rewards](https://github.com/OWASP-BLT/BLT-Rewards) — BACON Rewards & Security Contribution Gamification
+##### [BLT-Rewards](https://gitlab.com/owasp-blt/blt-rewards) — BACON Rewards & Security Contribution Gamification
 
 **Security contribution gamification with BACON tokens, badges, reputation tiers, and leaderboards to increase contributor retention and engagement.** The system listens for verified security contributions and awards rewards idempotently including BACON cryptocurrency tokens (with existing blockchain mint infrastructure), achievement badges for different security domains, progressive reputation tiers (Beginner → Expert), severity-weighted leaderboards, and a swag redemption marketplace where tokens convert to physical merchandise. Built with robust anti-gaming architecture (idempotent rewards, fraud detection, admin oversight), the platform includes comprehensive audit trails, an education bridge API layer for learning platform integration, and tokenomics analysis to ensure long-term sustainability. BLT-Rewards transforms security work into an engaging, progression-based experience that prioritizes impact over volume while enabling education platforms to leverage BLT contribution data for personalized learning paths.
 
 ---
 
-##### [BLT-NetGuardian](https://github.com/OWASP-BLT/BLT-NetGuardian) — Distributed Autonomous Security Scanning Platform
+##### [BLT-NetGuardian](https://gitlab.com/owasp-blt/blt-netguardian) — Distributed Autonomous Security Scanning Platform
 
 **Community-powered security scanning platform with distributed scanning, real vulnerability detection, and responsible disclosure workflows.** NetGuardian replaces stubbed scanners with real vulnerability detection (XSS, SQLi, CSRF, security headers plus Semgrep SAST), introduces distributed scanning via secure volunteer CLI clients with local resource caps, and implements Zero-Trust encrypted ingestion where sensitive evidence stays encrypted end-to-end until authorized organization users decrypt it client-side. The platform includes result validation and false-positive filtering with confidence scoring, basic deduplication using fingerprints, triage-lite UI with evidence viewer and "Convert to Issue" workflow, security.txt detection for improved responsible disclosure, and professional remediation reports (CSV/PDF) for organizations. NetGuardian emphasizes accuracy through curated evaluation targets and rule tuning, privacy-preserving architecture with signed and timestamped submissions, and lower reviewer workload through normalized findings and streamlined triage.
 
 ---
 
-##### [BLT University](https://github.com/OWASP-BLT/BLT-University) — Security-Focused Education Platform
+##### [BLT University](https://gitlab.com/owasp-blt/blt-university) — Security-Focused Education Platform
 
 **Security-focused education tool that teaches users about security through hands-on, code-centric labs and community-driven knowledge sharing.** The platform transforms BLT's existing theory-heavy labs into interactive exercises where learners analyze real vulnerable code, identify security flaws, explain exploitation scenarios, and apply secure fixes using a three-step workflow (Identify → Explain → Fix) with partial credit and progress tracking. BLT University establishes a safe, anonymized security intelligence pipeline that aggregates vulnerability patterns from BLT issues/PRs into public dashboards, monthly/quarterly reports with two-person approval workflows, and remediation playbooks that convert into mini interactive challenges. The unified architecture creates a feedback loop where real vulnerability patterns improve labs and playbooks, helping contributors learn security thinking inspired by OWASP Top 10 and CTF-style reasoning, with optional integration to badges/BACON gamification and future connections to NetGuardian findings for automatically mapped learning recommendations.
 
 ---
 
-##### [BLT-MCP](https://github.com/OWASP-BLT/BLT-MCP) — Model Context Protocol Server for Complete BLT Interface
+##### [BLT-MCP](https://gitlab.com/owasp-blt/blt-mcp) — Model Context Protocol Server for Complete BLT Interface
 
 **An interface to the BLT ecosystem enabling AI agents and developers to log bugs, triage issues, query data, and manage workflows from IDEs or chat interfaces.** BLT-MCP implements the Model Context Protocol (MCP) standard to provide comprehensive, AI-agent-friendly access to all aspects of BLT through three layers: Resources (read-only access to issues, repos, contributors, workflows, leaderboards, rewards via `blt://` URIs), Tools (actions like submit_issue, award_bacon, update_issue_status, add_comment), and Prompts (reusable task templates like triage_vulnerability, plan_remediation, review_contribution). The system uses JSON-RPC 2.0 over stdio or HTTP/SSE with OAuth 2.0/API key authentication, enabling natural integration with Claude Desktop, custom AI agents, and third-party tools without requiring custom API documentation since agents discover capabilities automatically. BLT-MCP positions BLT as an AI-agent-first platform with standardized protocol access that unifies fragmented REST/GraphQL endpoints, creates novel use cases (autonomous issue triage, automated reward distribution, workflow tracking), and synergizes with other BLT ideas by exposing RAG bot capabilities, AI-guided recommendations, reputation scores, and gamification data through a single consistent interface.
 
