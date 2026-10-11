@@ -2204,6 +2204,17 @@
 		]
 	},
 	{
+		"title": "SEOAudit",
+		"url": "https://seoaudit.com.ua/",
+		"owner": "SEOAudit",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Passive, non-intrusive website scanner (no registration for the free scan): checks HTTPS redirects, security headers, cookies, SSL/TLS, SPF/DMARC, robots.txt, sitemap, security.txt and on-page SEO tags; no exploitation, port scanning or password guessing",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "ShiftLeft Scan",
 		"url": "https://github.com/ShiftLeftSecurity/sast-scan",
 		"owner": null,
