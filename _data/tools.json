@@ -1984,6 +1984,17 @@
 		]
 	},
 	{
+		"title": "Reeve",
+		"url": "https://reeve.page/security-scanner",
+		"owner": "Reeve",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Passive outside-in scan of a deployed web app, aimed at apps made with AI app builders: secrets in the loaded JS bundles, Supabase tables and Storage buckets open to the public key (rows counted, never read), exposed files, source maps, CORS, headers, TLS. Free; paid plans re-scan on a schedule",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "reshift",
 		"url": "https://www.reshiftsecurity.com",
 		"owner": null,
