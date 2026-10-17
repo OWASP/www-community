@@ -2061,6 +2061,17 @@
 		]
 	},
 	{
+		"title": "SafetyCard",
+		"url": "https://github.com/safetycard/safetycard",
+		"owner": "SafetyCard",
+		"license": "Open Source",
+		"platforms": "Windows, Linux, MacOS",
+		"note": "Safety-check MCP servers and AI agents against the OWASP Top 10 for Agentic Applications, and get the safest setup to run them. Open-source plugin for Claude Code and Codex that reviews an agent's source code and cites file:line evidence for every rating.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "ScanRepeat",
 		"url": "https://scanrepeat.com/",
 		"owner": "Ventures CDX",
