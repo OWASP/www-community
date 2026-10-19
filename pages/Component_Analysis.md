@@ -310,6 +310,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [DevKit Dossier] | DevKit Srl | Commercial | SaaS |
 | [DotNET Retire] | Retire.NET Project | Open Source | Cross Platform |
 | [Endor Labs] | Endor Labs | Commercial | SaaS |
+| [feldspar-scan] | Project Feldspar (L3Digital LLC) | Open Source | Cross Platform / GitHub Action |
 | [FlexNet Code Insight] | Flexera Commercial	| Cross Platform |
 | [Fluid Attack's Scanner] | Fluid Attacks | MPL 2.0. | SaaS |
 | [FOSSA] | FOSSA | Commercial / Freemium | SaaS |
@@ -368,6 +369,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [DevKit Dossier]: https://devkit.dev/
 [DotNET Retire]: https://github.com/RetireNet/dotnet-retire
 [Endor Labs]: https://endorlabs.com
+[feldspar-scan]: https://github.com/project-feldspar-resources/feldspar-scan
 [FlexNet Code Insight]: https://www.flexera.com/products/software-composition-analysis/flexnet-code-insight.html
 [Fluid Attack's Scanner]: https://docs.fluidattacks.com/machine/scanner
 [FOSSA]: https://fossa.com/

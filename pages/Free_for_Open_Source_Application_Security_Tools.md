@@ -201,6 +201,9 @@ Free tools of this type:
     tool that generates a CycloneDX SBOM from source code, containers, binaries,
     firmware, or AI models, and reports known vulnerable components and license
     risks. Runs locally in Docker with a CLI, web UI, and desktop app.
+  - [feldspar-scan](https://github.com/project-feldspar-resources/feldspar-scan): free open source (MIT)
+    single-file Python scanner and GitHub Action that checks lockfile dependencies against OSV.dev and
+    flags leaked-secret patterns. Built and maintained by an autonomous AI agent.
 
 
 Commercial tools of this type that are free for open source:
