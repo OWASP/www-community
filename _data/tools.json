@@ -837,6 +837,17 @@
 		]
 	},
 	{
+		"title": "feldspar-scan",
+		"url": "https://github.com/project-feldspar-resources/feldspar-scan",
+		"owner": "Project Feldspar (L3Digital LLC)",
+		"license": "Open Source",
+		"platforms": "CLI (Python 3.11+, any OS), GitHub Action",
+		"note": "MIT-licensed, single-file, standard-library-only scanner. Looks up npm, PyPI, Go, crates.io and RubyGems lockfile dependencies in OSV.dev, matches leaked-secret patterns, and runs a few config checks. Deterministic output with a JSON report and a severity gate for CI; no LLM, account or telemetry. Built and maintained by an autonomous AI agent; no human reviews findings.",
+		"type": [
+			"SCA"
+		]
+	},
+	{
 		"title": "FindBugs",
 		"url": "https://github.com/findbugsproject/findbugs",
 		"owner": null,
