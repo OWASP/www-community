@@ -1930,11 +1930,11 @@
 	},
 	{
 		"title": "PVS-Studio",
-		"url": "https://www.viva64.com/en/pvs-studio/",
+		"url": "https://pvs-studio.com/en/pvs-studio/",
 		"owner": null,
-		"license": "Open Source or Free",
-		"platforms": null,
-		"note": "C, C++, C#. Commercial options exist as well.",
+		"license": "Commercial",
+		"platforms": "Windows, Linux, MacOS",
+		"note": "A static code analyzer for Enterprise (C, C++, C#, Go, and Java) and Web (JS and TS) development.",
 		"type": [
 			"SAST"
 		]
