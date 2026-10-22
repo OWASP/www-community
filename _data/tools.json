@@ -496,6 +496,17 @@
 		]
 	},
 	{
+		"title": "cobolwork",
+		"url": "https://github.com/Portll/cobolwork",
+		"owner": "Portll",
+		"license": "Open Source",
+		"platforms": "Linux, macOS, Windows (Node.js 22+)",
+		"note": "Security analysis of COBOL, JCL, CICS, BMS, Db2 SQL, PL/I, HLASM and IMS sources, with cross-program data flow, a build gate and SARIF output. AGPL-3.0-or-later.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Codacy",
 		"url": "https://www.codacy.com/",
 		"owner": null,
