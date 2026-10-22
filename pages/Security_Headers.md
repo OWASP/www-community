@@ -14,3 +14,8 @@ permalink: /Security_Headers
 
 The [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/) provides the technical information, about the HTTP headers, that can be leveraged from a security perspective.
 
+## Related Resources
+- [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/)
+- [HTTP Strict Transport Security (HSTS)](https://owasp.org/www-project-secure-headers/#http-strict-transport-security)
+- [Content Security Policy (CSP)](https://owasp.org/www-project-secure-headers/#content-security-policy)
+
