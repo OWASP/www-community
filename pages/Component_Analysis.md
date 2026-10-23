@@ -315,6 +315,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Fluid Attack's Scanner] | Fluid Attacks | MPL 2.0. | SaaS |
 | [FOSSA] | FOSSA | Commercial / Freemium | SaaS |
 | [FOSSology] | Linux Foundation | Open Source | Cross Platform |
+| [GeekWala] | GeekWala | Commercial / Freemium | SaaS |
 | [GitHub SCA] | GitHub | Freemium | SaaS |
 | [Grafeas] | Grafeas | Open Source | Cross Platform |
 | [Greenkeeper] | Greenkeeper | Open Source | SaaS |
@@ -374,6 +375,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Fluid Attack's Scanner]: https://docs.fluidattacks.com/machine/scanner
 [FOSSA]: https://fossa.com/
 [FOSSology]: https://www.fossology.org/
+[GeekWala]: https://www.geekwala.com/
 [GitHub SCA]: https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on/
 [Grafeas]: https://grafeas.io/
 [Greenkeeper]: https://greenkeeper.io/
