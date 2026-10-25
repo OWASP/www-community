@@ -335,6 +335,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Protean Labs] | Protean Labs | Commercial / Freemium | SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
+| [Safeguard] | Safeguard.sh Inc | Commercial | Cross Platform / SaaS |
 | [SBOM Observer] | Bytesafe  | Commercial | SaaS |
 | [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
@@ -395,6 +396,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Protean Labs]: https://protean-labs.io/
 [Renovate]: https://renovatebot.com/
 [Retire.js]: https://retirejs.github.io/retire.js/
+[Safeguard]: https://safeguard.sh/
 [SBOM Observer]: https://sbom.observer/
 [Scantist SCA]: https://scantist.com/
 [Snyk]: https://snyk.io/
