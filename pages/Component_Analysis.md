@@ -335,7 +335,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Protean Labs] | Protean Labs | Commercial / Freemium | SaaS |
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
-| [Safeguard] | Safeguard.sh Inc | Commercial | Cross Platform / SaaS |
+| [Safeguard] | Safeguard.sh Inc | Commercial / Freemium | Cross Platform / SaaS |
 | [SBOM Observer] | Bytesafe  | Commercial | SaaS |
 | [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
