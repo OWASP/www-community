@@ -2072,6 +2072,19 @@
 		]
 	},
 	{
+		"title": "Safeguard",
+		"url": "https://safeguard.sh",
+		"owner": "Safeguard.sh Inc",
+		"license": "Commercial or Free",
+		"platforms": "SaaS, private VPC, on-premises or air-gapped; CLI (macOS, Linux, Windows); VS Code and JetBrains IDEs",
+		"note": "Software supply chain security platform with SCA, SAST and DAST. Generates SPDX and CycloneDX SBOMs, imports CSAF and VEX, adds EPSS and CISA KEV context, checks whether a vulnerable path is reachable, and opens fix pull requests behind CI policy gates. Can run with no LLM in the loop.",
+		"type": [
+			"SAST",
+			"DAST",
+			"SCA"
+		]
+	},
+	{
 		"title": "SafetyCard",
 		"url": "https://github.com/safetycard/safetycard",
 		"owner": "SafetyCard",
