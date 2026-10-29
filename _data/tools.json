@@ -2237,6 +2237,18 @@
 		]
 	},
 	{
+		"title": "Sentinelleai",
+		"url": "https://sentinelleai.app/scan/code",
+		"owner": "Sentinelleai",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Code scanning: dependency vulnerabilities with stated remedies, secrets detection with lifecycle tracking, malicious package analysis, inter-procedural taint analysis for JavaScript and TypeScript, and CycloneDX SBOM generation.",
+		"type": [
+			"SAST",
+			"SCA"
+		]
+	},
+	{
 		"title": "SEOAudit",
 		"url": "https://seoaudit.com.ua/",
 		"owner": "SEOAudit",
