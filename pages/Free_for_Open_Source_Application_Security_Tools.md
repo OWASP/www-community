@@ -355,6 +355,7 @@ open source projects also consider using good code quality tools. A few that we 
       - Build Security & Integrity: Ensures artifact integrity through real-time verification and attestation (SLSA, in-toto), blocking tampered artifacts before deployment without slowing down development.
       - Anomaly Detection: Monitors CI/CD infrastructure in real-time to detect and block suspicious actions or precursors to an attack.
       - Free for Open Source: Comprehensive security features are available at no cost for public open source projects.
+  - [Draugr](https://github.com/draugr-dev/draugr) - An open-source CLI that runs the scanners a project needs (Trivy, Semgrep, Gitleaks, govulncheck and others) from one YAML descriptor, merges their findings, and ranks each one P1 to P4 from the scanner's severity and the declared exposure and business criticality of the component it is in. Writes SARIF, JSON, HTML and JUnit, and `draugr diff` fails a pull request only on the findings it introduces. Runs as a GitHub Action, as an include in GitLab CI, and as a step template in Azure Pipelines. Free for all use (Apache-2.0).
     
 ### Secrets Detection Tools
 
