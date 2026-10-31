@@ -294,6 +294,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Bytesafe] | Bytesafe | Freemium | SaaS |
 | [Bytesafe Dependency Checker] | Bytesafe | Free | SaaS |
 | [CAST Highlight] | CAST Software | Commercial | SaaS |
+| [ceproof] | ceproof | Commercial / Freemium | Cross Platform |
 | [Clarity] | Insignary | Commercial | Cross Platform / SaaS |
 | [ClearlyDefined] | Open Source Initiative | Open Source | SaaS |
 | [CloudDefense.AI] | CloudDefense.AI | Commercial / Freemium | Cross Platform / SaaS |
@@ -322,6 +323,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Ion Channel SA] | Ion Channel | Commercial | SaaS |
 | [Kusari] | Kusari | Freemium | SaaS |
 | [Libraries.io] | Tidelift | Open Source | SaaS |
+| [licenseproof] | licenseproof | Commercial / Freemium | Cross Platform |
 | [MergeBase] | MergeBase | Commercial | SaaS |
 | [Nexus IQ] | Sonatype | Commercial | Cross Platform |
 | [NPM Audit] | NPM | Open Source | SaaS |
@@ -355,6 +357,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Bytesafe Dependency Checker]: https://bytesafe.dev/dependency-checker/javascript/
 [Black Duck Hub]: https://www.blackducksoftware.com/
 [CAST Highlight]: https://www.castsoftware.com/SCA/
+[ceproof]: https://ceproof.dev/
 [Clarity]: https://www.insignary.com/
 [ClearlyDefined]: https://clearlydefined.io/
 [CloudDefense.AI]: https://www.clouddefense.ai/
@@ -384,6 +387,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Ion Channel SA]: https://ionchannel.io/
 [Kusari]: https://kusari.dev
 [Libraries.io]: https://libraries.io/
+[licenseproof]: https://licenseproof.dev/
 [MergeBase]: http://mergebase.com/
 [Nexus IQ]: https://www.sonatype.com/
 [NPM Audit]: https://www.npmjs.com/
