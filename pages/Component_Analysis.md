@@ -322,6 +322,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Greenkeeper] | Greenkeeper | Open Source | SaaS |
 | [Ion Channel SA] | Ion Channel | Commercial | SaaS |
 | [Kusari] | Kusari | Freemium | SaaS |
+| [LegacyMind] | LegacyMind GmbH | Commercial | SaaS |
 | [Libraries.io] | Tidelift | Open Source | SaaS |
 | [licenseproof] | licenseproof | Commercial / Freemium | Cross Platform |
 | [MergeBase] | MergeBase | Commercial | SaaS |
@@ -386,6 +387,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [OSS Review Toolkit]: https://github.com/heremaps/oss-review-toolkit
 [Ion Channel SA]: https://ionchannel.io/
 [Kusari]: https://kusari.dev
+[LegacyMind]: https://www.legacymind.de/en/formats
 [Libraries.io]: https://libraries.io/
 [licenseproof]: https://licenseproof.dev/
 [MergeBase]: http://mergebase.com/
