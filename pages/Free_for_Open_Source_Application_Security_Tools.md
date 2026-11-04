@@ -388,6 +388,9 @@ Secrets detection is often confused with SAST because both scan through static s
     - Ships with hundreds of built-in rules that detect and validate secrets in real time, and can be extended with custom rules
     - Supports building a baseline file, to detect and prevent new secrets from being added to a codebase
   - [Xygeni Secrets](https://xygeni.io/xygeni-code-security/) - Scans repositories for hardcoded secrets, credentials, and configuration flaws. It provides deep visibility into secret exposure across the entire git history. Free for open source projects.
+  - [Secure & Private by Design](https://github.com/ankush1982/ai-secure-by-design) - Open Source (Apache 2.0)
+    - Finds hardcoded secrets and literal personal data in source and data files, and masks the value in reports
+    - Runs one rule set as a CLI, pre-commit hooks, a GitHub Action with SARIF output, and a read-only MCP server
 
 ### Privacy Engineering Tools
 
