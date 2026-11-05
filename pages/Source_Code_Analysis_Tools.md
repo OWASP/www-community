@@ -51,13 +51,13 @@ SAST tool feedback can save time and effort, especially when compared to finding
 
 - Prerequisite: Support your programming language.
 - Ability to detect vulnerabilities, based on:
-  - The [OWASP Top Ten](/www-project-top-ten/)
+  - The [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
   - Other criteria such as:
       - [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf)
       - [CHECK](https://www.ncsc.gov.uk/information/check-penetration-testing)
 - Accuracy:
   - False Positive/False Negative rates
-  - OWASP [Benchmark](/www-project-benchmark/) score
+  - OWASP [Benchmark](https://owasp.org/www-project-benchmark/) score
 - Ability to understand the libraries/frameworks you need
 - Requirement for buildable source code
 - Ability to run against binaries (instead of source)
@@ -77,5 +77,5 @@ SAST tool feedback can save time and effort, especially when compared to finding
 ## More info
 
 - [NIST's list of Source Code Security Analysis Tools](https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html).
-- [DAST Tools](/www-community/Vulnerability_Scanning_Tools) - Similar info on Dynamic Application Security Testing (DAST) Tools.
-- [Free for Open Source Application Security Tools](/www-community/Free_for_Open_Source_Application_Security_Tools) - This page lists the Commercial Source Code Analysis Tools (SAST) we know of that are free for Open Source.
+- [DAST Tools](/Vulnerability_Scanning_Tools) - Similar info on Dynamic Application Security Testing (DAST) Tools.
+- [Free for Open Source Application Security Tools](/Free_for_Open_Source_Application_Security_Tools) - This page lists the Commercial Source Code Analysis Tools (SAST) we know of that are free for Open Source.
