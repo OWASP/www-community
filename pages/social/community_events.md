@@ -18,15 +18,24 @@ Use this page to quickly see upcoming meetings and jump to full details for each
 -->
 
 <br>
-{% assign events = site.data.community_events | sort: 'date' %}
+{% comment %}
+  Only show events dated today or later (as of the last site build), so past
+  meetings are not listed as upcoming if the nightly data refresh stops.
+{% endcomment %}
+{% assign today = site.time | date: '%Y-%m-%d' %}
+{% assign events = site.data.community_events | where_exp: 'event', 'event.date >= today' | sort: 'date' %}
 {% assign prevdate = nil %}
 
 <!-- Index list -->
 
 ## Quick list of upcoming events
 
+{% if events.size == 0 %}
+There are no upcoming community meetings listed right now. Please check [OWASP Events](https://owasp.org/events/) and the [OWASP Chapters](https://owasp.org/chapters/) pages for upcoming meetings.
+{% else %}
 The list below shows all upcoming OWASP community events ordered by date.  
 Click an event name to jump to its detailed description further down this page.
+{% endif %}
 
 {% assign i = 0 %}
 {% for event in events %}
@@ -47,7 +56,7 @@ Click an event name to jump to its detailed description further down this page.
 {% endif %}
 ### {{ event.name }} <a name="{{ i }}_item"></a>
 
-**Group:** [{{ event.group }}](/{{ event.repo }}/)  
+**Group:** [{{ event.group }}](https://owasp.org/{{ event.repo }}/)  
 **Time:** {{ event.time }} ({{ event.timezone }})  
 **Link:** [{{ event.link }}]({{ event.link }})
 
