@@ -29,7 +29,7 @@ bugtraq or full-disclosure mailing lists.
   - Not closing the database connection properly
 
 For a great overview, check out the [OWASP Top Ten
-Project](/www-project-top-ten). You can read about the top
+Project](https://owasp.org/www-project-top-ten). You can read about the top
 vulnerabilities and download a paper that covers them in detail. Many
 organizations and agencies use the Top Ten as a way of creating
 awareness about application security.

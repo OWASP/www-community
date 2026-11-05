@@ -36,7 +36,7 @@ tools to improve the security and quality of their code:
     for web apps and web APIs)
   - Keeping Open Source libraries up-to-date (to avoid [Using Components
     with Known Vulnerabilities (OWASP Top 10-2017
-    A9)](/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities))
+    A9)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities))
   - Static Code Quality Tools
   - Automatic Remediation Tools
 
@@ -96,7 +96,7 @@ capabilities. Our primary recommendation is to use one of these:
   - [ZAP](https://www.zaproxy.org/) by Checkmarx - A full
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web app pen testing.
-  - [OWASP PurpleTeam](/www-project-purpleteam) - A security regression testing SaaS and CLI,
+  - [OWASP PurpleTeam](https://owasp.org/www-project-purpleteam) - A security regression testing SaaS and CLI,
     perfect for inserting into your build pipelines. You don't need to write any tests yourself.
     PurpleTeam is smart enough to know how to test, you just need to provide a Job file which tells PurpleTeam what you want tested.
     It has two main environments `local` and `cloud`.
@@ -152,7 +152,7 @@ and SCA are the same thing.
 OWASP recommends that all software projects generally try to keep the
 libraries they use as up-to-date as possible to reduce the likelihood of
 [Using Components with Known Vulnerabilities (OWASP Top 10-2017
-A9)](/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities).
+A9)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities).
 There are two recommended approaches for this:
 
 #### Keeping Your Libraries Updated
@@ -182,8 +182,8 @@ components they use have known vulnerable components.
 Free tools of this type:
 
   - OWASP has its own free open source tools:
-    - [OWASP Dependency Check](/www-project-dependency-check/)
-    - [OWASP Dependency Track](/www-project-dependency-track/)
+    - [OWASP Dependency Check](https://owasp.org/www-project-dependency-check/)
+    - [OWASP Dependency Track](https://owasp.org/www-project-dependency-track/)
   - GitHub: [Security alerts for vulnerable 
     dependencies](https://help.github.com/articles/about-security-alerts-for-vulnerable-dependencies/)
       - A native GitHub feature that reports known vulnerable
