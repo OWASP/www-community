@@ -2149,6 +2149,17 @@
 		]
 	},
 	{
+		"title": "Secure & Private by Design (sbd)",
+		"url": "https://github.com/ankush1982/ai-secure-by-design",
+		"owner": "Ankush Jain",
+		"license": "Open Source",
+		"platforms": "Linux, macOS, Windows",
+		"note": "Rule-based checks for secrets, personal data in code and logs, missing audit logging and unsafe AI model use in TypeScript and Python projects. Runs as a CLI, pre-commit hooks and a GitHub Action with SARIF output.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "SecureAssist",
 		"url": "https://community.synopsys.com/s/article/SecureAssist-Overview",
 		"owner": "Synopsys",
