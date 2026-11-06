@@ -2512,6 +2512,29 @@
 			"DAST"
 		]
 	},
+		{
+		"title": "Topscan.me DAST",
+		"url": "https://topscan.me/web-application-security",
+		"owner": "Topscan",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "Tests deployed web applications from the outside, on a schedule or on demand. Deep scans actively check for OWASP Top 10 issues such as SQL injection, XSS, SSRF and CSRF. 14-day free trial; web application scanning is not part of the free plan",
+		"type": [
+			"DAST"
+		]
+	},
+	{
+		"title": "Topscan.me SAST",
+		"url": "https://topscan.me/sast",
+		"owner": "Topscan",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Static analysis and dependency scanning for repositories connected from GitHub or GitLab. Supports Go, Python, JavaScript, TypeScript, Java, C#, PHP, Ruby, C/C++, Kotlin, Scala, Rust and Swift. The free plan covers one repository",
+		"type": [
+			"SAST",
+			"SCA"
+		]
+	},
 	{
 		"title": "Trustkeeper Scanner",
 		"url": "https://www.trustwave.com/external-vulnerability-scanning.php",
