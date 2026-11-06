@@ -343,6 +343,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
 | [Software Health Indicator] | YourSky.blue | Commercial / Freemium | SaaS |
 | [SOOS] | SOOS | Commercial / Freemium | SaaS |
+| [Topscan.me] | Topscan | Commercial / Freemium | SaaS |
 | [Veracode SCA] | Veracode | Commercial | Cross Platform / SaaS |
 | [Vigiles] | Timesys | Commercial / Freemium | SaaS |
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
@@ -406,6 +407,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Snyk]: https://snyk.io/
 [Software Health Indicator]: https://software-health-indicator.com/
 [SOOS]: https://soos.io/
+[Topscan.me]: https://topscan.me/sast
 [Veracode SCA]: https://www.veracode.com/products/software-composition-analysis
 [Vigiles]: https://www.timesys.com/security/vigiles-vulnerability-management-patch-monitoring/
 [Vigilant Ops InSight]: https://vigilant-ops.com/
