@@ -2414,6 +2414,17 @@
 		]
 	},
 	{
+		"title": "Spellwarden",
+		"url": "https://github.com/spellwarden-ai/spellwarden",
+		"owner": "NETBEARS TEAM SRL",
+		"license": "Open Source or Free",
+		"platforms": "Python 3.11 or newer, GitHub Actions, GitLab CI",
+		"note": "Spellwarden is an open-source static scanner for AI agent content: agent skills, Claude Code plugins, settings and hooks, MCP server configurations and A2A agent cards, with 65 rules mapped to the OWASP Agentic Top 10, the OWASP MCP Top 10 and NIST SP 800-53, and SARIF output.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "spiderfoot",
 		"url": "https://github.com/smicallef/spiderfoot",
 		"owner": "Steve Micallef",
