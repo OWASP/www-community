@@ -1322,6 +1322,17 @@
 		]
 	},
 	{
+		"title": "Lintsure",
+		"url": "https://github.com/lintsure/lintsure",
+		"owner": "Lintsure",
+		"license": "Open Source or Free",
+		"platforms": "JavaScript, TypeScript, Python, config files",
+		"note": "Open-source checker for code written with AI assistants. Maps findings to the OWASP Top 10, OWASP Top 10 for LLM Applications, CWE Top 25, GDPR, the EU AI Act and the EU Cyber Resilience Act, with the file, line and a suggested fix for each. Runs locally, in CI or inside coding agents through MCP; code is not uploaded. Apache-2.0.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Lucent Sky AVM",
 		"url": "https://www.lucentsky.com/avm",
 		"owner": "Lucent Sky",
