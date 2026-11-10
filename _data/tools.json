@@ -892,6 +892,17 @@
 		]
 	},
 	{
+		"title": "FiveM Backdoor Scanner",
+		"url": "https://github.com/rpScripts/fivem-backdoor-scanner",
+		"owner": "RPScripts",
+		"license": "Open Source or Free",
+		"platforms": "CLI (Node.js), library, in-browser web version",
+		"note": "Open-source (MIT) rule-based static checks for FiveM/RedM game-server resources (folders or ZIPs): Lua that loads code fetched over HTTP, code hidden after 400+ blanks, runtime-decoded or obfuscated payloads, reads of server secrets, raw-IP callbacks, shell access, leaked tokens, bundled executables and archive path traversal. Most rules are heuristics and can produce false positives; JavaScript only gets the hidden-code and credential checks, and escrow-encrypted or compiled Lua cannot be read.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Flawfinder",
 		"url": "https://www.dwheeler.com/flawfinder/",
 		"owner": null,
