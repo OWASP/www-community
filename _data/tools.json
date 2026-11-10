@@ -286,6 +286,17 @@
 		]
 	},
 	{
+		"title": "AttackerView",
+		"url": "https://attackerview.com",
+		"owner": "AttackerView",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "Scans web apps and APIs from the outside, including behind the login. Links findings into attack chains, monitors continuously and runs AI pentests. 14-day free trial.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Automated Security Helper",
 		"url": "https://github.com/aws-samples/automated-security-helper",
 		"owner": "AWS",
