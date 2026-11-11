@@ -969,6 +969,17 @@
 		]
 	},
 	{
+		"title": "Glarion",
+		"url": "https://glarion.app/",
+		"owner": "Glarion",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Scheduled checks of verified domains for known vulnerabilities (Nuclei templates, non-intrusive), with white-label reports for agencies. Free public configuration check.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "GolangCI-Lint",
 		"url": "https://golangci-lint.run/",
 		"owner": null,
