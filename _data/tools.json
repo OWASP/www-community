@@ -2833,6 +2833,17 @@
 		]
 	},
 	{
+		"title": "Xalgorix",
+		"url": "https://github.com/xalgorix/xalgorix",
+		"owner": "Xalgorix",
+		"license": "Open Source",
+		"platforms": "Unix/Linux, Macintosh, Docker, and SaaS",
+		"note": "Autonomous AI penetration testing for web applications and APIs. Exploits each finding and re-tests it with an independent verifier before reporting. Apache-2.0 engine with an optional hosted version.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Xygeni DAST",
 		"url": "https://xygeni.io/dast/",
 		"owner": "Xygeni",
