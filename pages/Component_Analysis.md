@@ -321,6 +321,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Grafeas] | Grafeas | Open Source | Cross Platform |
 | [Greenkeeper] | Greenkeeper | Open Source | SaaS |
 | [Ion Channel SA] | Ion Channel | Commercial | SaaS |
+| [KestreLynx] | Kitsune Trail | Open Source | Docker / Kubernetes |
 | [Kusari] | Kusari | Freemium | SaaS |
 | [LegacyMind] | LegacyMind GmbH | Commercial | SaaS |
 | [Libraries.io] | Tidelift | Open Source | SaaS |
@@ -388,6 +389,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Greenkeeper]: https://greenkeeper.io/
 [OSS Review Toolkit]: https://github.com/heremaps/oss-review-toolkit
 [Ion Channel SA]: https://ionchannel.io/
+[KestreLynx]: https://github.com/kitsunetrail/kestrelynx
 [Kusari]: https://kusari.dev
 [LegacyMind]: https://www.legacymind.de/en/formats
 [Libraries.io]: https://libraries.io/
