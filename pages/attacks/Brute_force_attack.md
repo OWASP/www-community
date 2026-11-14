@@ -55,7 +55,7 @@ is a tool that does exactly this.
 Other tools for this type of attack are as follows:
 
 - [dirb](http://sourceforge.net/projects/dirb/)
-- [WebRoot](http://www.cirt.dk/tools/webroot/WebRoot.txt)
+- [WebRoot](https://web.archive.org/web/20120719053442/http://www.cirt.dk/tools/webroot/WebRoot.txt)
 
 dirb is capable of:
 
@@ -99,7 +99,7 @@ dictionary containing information about invalid httpd configurations.
 This dictionary will detect weaknesses of this kind.
 
 The application
-[WebRoot.pl](http://www.cirt.dk/tools/webroot/WebRoot.txt), written by
+[WebRoot.pl](https://web.archive.org/web/20120719053442/http://www.cirt.dk/tools/webroot/WebRoot.txt), written by
 CIRT.DK, has embedded mechanisms for parsing server responses, and based
 on the phrase specified by the attacker, measures if the server response
 is expected.
