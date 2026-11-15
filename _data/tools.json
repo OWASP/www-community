@@ -165,17 +165,6 @@
 		]
 	},
 	{
-		"title": "App Scanner",
-		"url": "https://www.trustwave.com/Products/Application-Security/App-Scanner-Family/App-Scanner-Enterprise/",
-		"owner": "Trustwave",
-		"license": "Commercial",
-		"platforms": "Windows",
-		"note": null,
-		"type": [
-			"DAST"
-		]
-	},
-	{
 		"title": "AppCheck Ltd.",
 		"url": "https://appcheck-ng.com/",
 		"owner": "AppCheck Ltd.",
@@ -1952,7 +1941,7 @@
 	},
 	{
 		"title": "purpleteam",
-		"url": "https://owasp.org/www-project-purpleteam/",
+		"url": "https://github.com/purpleteam-labs/purpleteam",
 		"owner": "OWASP",
 		"license": "Open Source",
 		"platforms": "CLI and SaaS",
@@ -2425,17 +2414,6 @@
 		]
 	},
 	{
-		"title": "SOOS DAST",
-		"url": "https://soos.io/",
-		"owner": "SOOS",
-		"license": "Commercial",
-		"platforms": "SaaS",
-		"note": "Free 30-day Trial. Includes DAST & SCA (OSS Vuln detection, Licenses, Policies, SBOM). Affordable flat rate price.",
-		"type": [
-			"DAST"
-		]
-	},
-	{
 		"title": "Spectral",
 		"url": "https://spectralops.io",
 		"owner": "SpectralOps",
@@ -2591,17 +2569,6 @@
 		]
 	},
 	{
-		"title": "Trustkeeper Scanner",
-		"url": "https://www.trustwave.com/external-vulnerability-scanning.php",
-		"owner": "Trustwave SpiderLabs",
-		"license": "Commercial",
-		"platforms": "SaaS",
-		"note": null,
-		"type": [
-			"DAST"
-		]
-	},
-	{
 		"title": "Understand",
 		"url": "https://www.scitools.com",
 		"owner": "SciTools",
@@ -2610,17 +2577,6 @@
 		"note": "IDE that provides static code analysis using graphs, documentation, and metrics. Scans code to check for vulnerabilities and ensures compliance with standards like MISRA and AUTOSAR. Works with 20 languages including C, C++, C#, JavaScript, Python, and Java.",
 		"type": [
 			"SAST"
-		]
-	},
-	{
-		"title": "Vega",
-		"url": "https://subgraph.com/vega/",
-		"owner": "Subgraph",
-		"license": "Open Source",
-		"platforms": "Windows, Linux and Macintosh",
-		"note": null,
-		"type": [
-			"DAST"
 		]
 	},
 	{
