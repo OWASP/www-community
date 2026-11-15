@@ -341,7 +341,7 @@ some of the useful links are:
   - Improving Web Application Security: Threats and
     Countermeasures[1](http://msdn.microsoft.com/en-us/library/ms994921.aspx)
   - Understanding the Built-In User and Group Accounts in IIS
-    7.0[2](http://learn.iis.net/page.aspx/140/understanding-the-built-in-user-and-group-accounts-in-iis-70/)
+    7.0[2](https://web.archive.org/web/20100313084233/http://learn.iis.net/page.aspx/140/understanding-the-built-in-user-and-group-accounts-in-iis-70/)
   - IIS Security
     Checklist[3](http://windows.stanford.edu/docs/IISsecchecklist.htm)
 
@@ -486,9 +486,9 @@ And some special recommendations for the developers and webmasters:
   - 8 basic rules to implement secure file uploads - SANS -
     [4](http://software-security.sans.org/blog/2009/12/28/8-basic-rules-to-implement-secure-file-uploads)
   - IIS6/ASP & file upload for fun and profit
-    [5](http://blog.48bits.com/2010/09/28/iis6-asp-file-upload-for-fun-and-profit/)
+    [5](https://web.archive.org/web/20170801132943/http://blog.48bits.com/2010/09/28/iis6-asp-file-upload-for-fun-and-profit/)
   - Secure file upload in PHP web applications
-    [6](http://www.net-security.org/dl/articles/php-file-upload.pdf)
+    [6](https://web.archive.org/web/20150122035110/http://www.net-security.org/dl/articles/php-file-upload.pdf)
   - Potentially Dangerous File Types
     [7](http://www.windowsitpro.com/Files/18/27072/Webtable_01.pdf)
   - Secure File Upload Check List With PHP
@@ -497,7 +497,7 @@ And some special recommendations for the developers and webmasters:
   - NTFS Streams
     \[<http://msdn.microsoft.com/en-us/library/ff469210(v=PROT.10>).aspx\]
   - NTFS - Glossary
-    [12](http://inform.pucp.edu.pe/~inf232/Ntfs/ntfs_doc_v0.5/help/glossary.html)
+    [12](https://web.archive.org/web/20231003104416/http://inform.pucp.edu.pe/~inf232/Ntfs/ntfs_doc_v0.5/help/glossary.html)
   - IIS 6.0 Security Best Practices
     \[<http://technet.microsoft.com/en-us/library/cc782762(WS.10>).aspx\]
   - Securing Sites with Web Site Permissions
@@ -507,7 +507,7 @@ And some special recommendations for the developers and webmasters:
   - Improving Web Application Security: Threats and Countermeasures
     [13](http://msdn.microsoft.com/en-us/library/ms994921.aspx)
   - Understanding the Built-In User and Group Accounts in IIS 7.0
-    [14](http://learn.iis.net/page.aspx/140/understanding-the-built-in-user-and-group-accounts-in-iis-70/)
+    [14](https://web.archive.org/web/20100313084233/http://learn.iis.net/page.aspx/140/understanding-the-built-in-user-and-group-accounts-in-iis-70/)
   - IIS Security Checklist
     [15](http://windows.stanford.edu/docs/IISsecchecklist.htm)
   - Microsoft IIS ASP Multiple Extensions Security Bypass

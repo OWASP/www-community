@@ -124,6 +124,6 @@ In the case of Spring Framework, disable the double resolution functionality in 
 
 - [CWE 917](http://cwe.mitre.org/data/definitions/917.html).
 - [Spring Framework: CVE-2011-2730](http://support.springsource.com/security/cve-2011-2730)
-- [EL Injection: Information Disclosure](http://www.mindedsecurity.com/fileshare/ExpressionLanguageInjection.pdf)
+- [EL Injection: Information Disclosure](https://web.archive.org/web/20190331011946/http://www.mindedsecurity.com/fileshare/ExpressionLanguageInjection.pdf)
 - [EL Injection: Remote Code Execution](http://danamodio.com/application-security/discoveries/spring-remote-code-with-expression-language-injection/)
 - [JSR245: EL 2.2 Spec](http://jcp.org/aboutJava/communityprocess/mrel/jsr245/index.html)
