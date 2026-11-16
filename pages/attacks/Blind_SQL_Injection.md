@@ -185,7 +185,7 @@ vulnerabilities.
 - http://www.imperva.com/application_defense_center/white_papers/blind_sql_server_injection.html
 - http://www.securitydocs.com/library/2651
 - http://seclists.org/bugtraq/2005/Feb/0288.html
-- http://ferruh.mavituna.com/makale/sql-injection-cheatsheet/
+- https://web.archive.org/web/20080905142719/http://ferruh.mavituna.com/makale/sql-injection-cheatsheet/
 
 ### Online Resources
 

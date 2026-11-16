@@ -157,7 +157,7 @@ fill it with data by itself.
 
 ## References
 
-- http://dl.packetstormsecurity.net/papers/bypass/Blind_XPath_Injection_20040518.pdf
+- https://web.archive.org/web/20260903205735/http://dl.packetstormsecurity.net/papers/bypass/Blind_XPath_Injection_20040518.pdf
   - by Amit Klein (much more detailes, in my opinion the best source about Blind XPath Injection).
 - http://projects.webappsec.org/w/page/13247005/XPath%20Injection
 

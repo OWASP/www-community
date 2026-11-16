@@ -220,7 +220,7 @@ using stored procedures or bind variables in databases that support
 these features. For applications written in Java, CallableStatements and
 PreparedStatements can be used. For ASP applications, ADO Command
 Objects can be used. You can check the following article for more on [SQL
-Injection in Oracle](http://www.integrigy.com/info/IntegrigyIntrotoSQLInjectionAttacks.pdf)
+Injection in Oracle](https://web.archive.org/web/20080516211936/http://www.integrigy.com/info/IntegrigyIntrotoSQLInjectionAttacks.pdf)
 
 ## I'm using stored procedures for authentication, am I vulnerable?
 
