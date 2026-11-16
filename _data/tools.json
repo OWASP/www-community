@@ -2436,6 +2436,17 @@
 		]
 	},
 	{
+		"title": "SPHIOR",
+		"url": "https://sphior.com/en/diagnosis",
+		"owner": "SPHIOR",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "Monthly external scan of verified domains, including signed-in pages and APIs. Each finding and its fix are kept as a tamper-evident record. First scan free.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "spiderfoot",
 		"url": "https://github.com/smicallef/spiderfoot",
 		"owner": "Steve Micallef",
