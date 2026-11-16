@@ -2436,6 +2436,17 @@
 		]
 	},
 	{
+		"title": "SPHIOR CODE",
+		"url": "https://sphior.com/en/code",
+		"owner": "SPHIOR",
+		"license": "Open Source or Commercial",
+		"platforms": "Windows, Unix/Linux, Macintosh, GitHub",
+		"note": "Deterministic code and dependency scanning from one command, in pull requests, and in the editor. MIT-licensed CLI (npm @sphior/scan); free tier available.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "spiderfoot",
 		"url": "https://github.com/smicallef/spiderfoot",
 		"owner": "Steve Micallef",
