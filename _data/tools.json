@@ -1278,6 +1278,17 @@
 		]
 	},
 	{
+		"title": "Keybrum",
+		"url": "https://keybrum.com",
+		"owner": "Keybrum",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "Attacks a deployed web app from the outside, as an anonymous visitor and as an account it signs up itself, after the owner proves ownership. Aimed at apps built with AI tools on Supabase, Firebase or their own API: tables without row level security, open Firebase rules, secret keys in the JavaScript bundle, one account reading another's data, known Next.js CVEs. Each finding carries the request that worked. Free passive check; attack runs are paid.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Kiuwan",
 		"url": "https://www.kiuwan.com/",
 		"owner": "a division of Idera, Inc.",
