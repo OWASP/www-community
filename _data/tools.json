@@ -980,6 +980,19 @@
 		]
 	},
 	{
+		"title": "GoMobSec",
+		"url": "https://gomobsec.ai",
+		"owner": "GoMobSec",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "AI-assisted security testing for Android and iOS apps: static analysis of APK/IPA files, dynamic testing on a live Android device in the browser, dependency and SBOM analysis, and findings mapped to OWASP MASVS v2 and MASTG with code-level remediation.",
+		"type": [
+			"SAST",
+			"DAST",
+			"SCA"
+		]
+	},
+	{
 		"title": "Google CodeSearchDiggity",
 		"url": "https://www.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/",
 		"owner": null,
