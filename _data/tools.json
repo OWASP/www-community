@@ -985,11 +985,9 @@
 		"owner": "GoMobSec",
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
-		"note": "AI-assisted security testing for Android and iOS apps: static analysis of APK/IPA files, dynamic testing on a live Android device in the browser, dependency and SBOM analysis, and findings mapped to OWASP MASVS v2 and MASTG with code-level remediation.",
+		"note": "Security testing for compiled Android and iOS apps (APK/IPA), with findings mapped to OWASP MASVS v2 and MASTG and code-level remediation; also offers dynamic testing on a live Android device.",
 		"type": [
-			"SAST",
-			"DAST",
-			"SCA"
+			"SAST"
 		]
 	},
 	{
