@@ -73,7 +73,7 @@ arbitrary code execution, data modification, and denial of service.
     CVE-2000-0884
   - <http://capec.mitre.org/data/definitions/71.html> - Using Unicode
     Encoding to Bypass Validation Logic
-  - <http://www.microsoft.com/technet/security/bulletin/MS00-078.mspx> -
+  - <https://learn.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-078> -
     Patch Available for 'Web Server Folder Traversal' Vulnerability
   - <http://www.kb.cert.org/vuls/id/739224> - HTTP content scanning
     systems full-width/half-width Unicode encoding bypass
@@ -88,3 +88,4 @@ arbitrary code execution, data modification, and denial of service.
 [Category:Resource
 Manipulation](Category:Resource_Manipulation "wikilink")
 [Category:Attack](Category:Attack "wikilink")
+
