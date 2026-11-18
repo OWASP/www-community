@@ -22,9 +22,9 @@ There are other more mature, popular, or well established Risk Rating Methodolog
 
 Alternatively you may with the review information about Threat Modeling, as that may be a better fit for your app or organization:
 
-- [OWASP Threat Modeling Project](https://owasp.org/www-project-threat-modeling/)
-- [OWASP pytm](https://owasp.org/www-project-pytm/) Pythonic framework for threat modeling
-- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) threat modeling tool
+- [OWASP Threat Modeling Project](https://owasp.org/projects/threat-modeling-project)
+- [OWASP pytm](https://owasp.org/projects/pytm) Pythonic framework for threat modeling
+- [OWASP Threat Dragon](https://owasp.org/projects/threat-dragon) threat modeling tool
 
 Lastly you might want to refer to the [references](#references) below.
 
@@ -40,7 +40,7 @@ Discovering vulnerabilities is important, but being able to estimate the associa
 is just as important. Early in the life cycle, one may identify security concerns in the architecture or 
 design by using [threat modeling](Threat_Modeling).  Later, one may find 
 security issues using [code review](https://wiki.owasp.org/index.php/Category:OWASP_Code_Review_Project) 
-or [penetration testing](https://owasp.org/www-project-web-security-testing-guide/). Or problems may not 
+or [penetration testing](https://wstg.owasp.org/). Or problems may not 
 be discovered until the application is in production and is actually compromised.
 
 By following the approach here, it is possible to estimate the severity of all of these risks to the 

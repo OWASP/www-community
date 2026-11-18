@@ -42,7 +42,7 @@ Tips to get you started in no particular order:
 
 ## List of Project Ideas
 
-### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
+### [Bug Logging Tool (BLT)](https://owasp.org/projects/blt)
 
 OWASP BLT is a **bug-hunting & logging platform** that enables users to hunt for vulnerabilities, participate in bug bounties, and contribute to open-source security. Organizations can leverage BLT to manage vulnerability reports, track security issues, and engage with ethical hackers.  
 
@@ -155,7 +155,7 @@ Reach out to us on Slack to discuss these and other ideas!
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
 - [Aryan Prasad](mailto:aryan.prasad@owasp.org)
 
-### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
+### [OWASP Nettacker](https://owasp.org/projects/nettacker)
 
 OWASP Nettacker is a Modular Automated Penetration Testing/ Information gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, default credentials.
 
@@ -336,7 +336,7 @@ list? Great, please submit it!
 * [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Project Leader ([Jannik](https://owasp.slack.com/team/UAM6MBY30) on Slack) 
 
 
-### [PyGoat](https://owasp.org/www-project-pygoat/)
+### [PyGoat](https://owasp.org/projects/pygoat)
 PyGoat is an open-source, intentionally vulnerable Python web application designed to help developers and security enthusiasts learn about web application security. It provides hands-on experience in identifying and mitigating common security vulnerabilities, making it a valuable resource for practicing secure coding and penetration testing techniques.
 
 #### Repository
@@ -350,7 +350,7 @@ PyGoat is an open-source, intentionally vulnerable Python web application design
 - Basic knowledge of application security
 
 ##### Getting started
-- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/projects/pygoat).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
 
 #### Projects / Ideas
@@ -404,7 +404,7 @@ Priorities for us are:
 - [Paola Gardenas](mailto:paola.gardenas@owasp.org)
 
 
-### [OWTF](https://owasp.org/www-project-owtf/)
+### [OWTF](https://owasp.org/projects/owtf)
 OWTF attempts to solve the “penetration testers are never given enough time to test properly” problem, or in other words, OWTF = Test/Exploit ASAP, with this in mind, as of right now, the priorities are:
 
 * To improve security testing efficiency (i.e. test more in less time)

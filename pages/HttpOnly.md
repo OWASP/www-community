@@ -88,7 +88,7 @@ response.setHeader("SET-COOKIE", "JSESSIONID=" + sessionid + "; HttpOnly");
 In this context, overwriting, despite appropriate for the `HttpOnly`
 flag, is discouraged because the JSESSIONID may have been set with other
 flags. A better workaround is taking care of the previously set flags or
-using the [ESAPI\#Java_EE](https://owasp.org/www-project-enterprise-security-api/) library: in fact
+using the [ESAPI\#Java_EE](https://owasp.org/projects/enterprise-security-api-esapi) library: in fact
 the `addCookie` method of the `SecurityWrapperResponse`
 [3](https://code.google.com/p/owasp-esapi-java/source/browse/tags/esapi-2.0.1/src/main/java/org/owasp/esapi/filters/SecurityWrapperResponse.java)
 takes care of previously set flags for us. So we could write a servlet

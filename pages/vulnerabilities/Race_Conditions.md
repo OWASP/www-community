@@ -32,7 +32,7 @@ Race conditions appear across multiple OWASP Top 10 2025 categories depending on
 **Example:**
 Two users see one item in stock. Both read `stock = 1`, both pass the `if stock > 0` check, both decrement to `0`, and both commit — final stock is `-1`. Neither request saw the other's write. That's a race condition.
 
-For a detailed walkthrough, see the OWASP Bangkok chapter presentation: [The Race is On](https://owasp.org/www-chapter-bangkok/slides/2024/2024-07-05_The-Race-is-On.pdf).
+For a detailed walkthrough, see the OWASP Bangkok chapter presentation: [The Race is On](https://owasp.github.io/www-chapter-bangkok/slides/2024/2024-07-05_The-Race-is-On.pdf).
 
 **Real-world CVE examples:**
 - **CVE-2021-21315** — Node.js `systeminformation` package: TOCTOU in a file path check allowed local privilege escalation by swapping a path between check and use.
@@ -463,7 +463,7 @@ python exploit_poc.py --target http://app:5000/login --threads 20 --expected-lim
 - [OWASP Top 10 2025 — A08 Software and Data Integrity Failures](https://owasp.org/Top10/2025/A08_2025-Software_and_Data_Integrity_Failures/)
 - [OWASP Top 10 2025 — A01 Broken Access Control](https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/)
 - [OWASP Top 10 2025 — A06 Insecure Design](https://owasp.org/Top10/2025/A06_2025-Insecure_Design/)
-- [OWASP Bangkok Chapter — The Race is On (2024)](https://owasp.org/www-chapter-bangkok/slides/2024/2024-07-05_The-Race-is-On.pdf)
+- [OWASP Bangkok Chapter — The Race is On (2024)](https://owasp.github.io/www-chapter-bangkok/slides/2024/2024-07-05_The-Race-is-On.pdf)
 - [PortSwigger Research — Smashing the State Machine: The True Potential of Web Race Conditions (James Kettle, 2023)](https://portswigger.net/research/smashing-the-state-machine)
 - [How to Do Distributed Locking — Martin Kleppmann (Redlock critique)](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
 - [race-the-web — concurrent HTTP request tool](https://github.com/nicowillis/race-the-web)

@@ -60,9 +60,9 @@ Attackers often exploit these expired assets to:
 
 
 ## Related OWASP Topics
-- [OWASP Domain Protect Project](https://owasp.org/www-project-domain-protect/)
+- [OWASP Domain Protect Project](https://owasp.org/projects/domain-protect)
 - [OWASP Top 10: A05 – Security Misconfiguration](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
-- [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
+- [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/)
 - Threat modeling methodologies such as STRIDE
 
 ---

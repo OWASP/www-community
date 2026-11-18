@@ -36,7 +36,7 @@ tools to improve the security and quality of their code:
     for web apps and web APIs)
   - Keeping Open Source libraries up-to-date (to avoid [Using Components
     with Known Vulnerabilities (OWASP Top 10-2017
-    A9)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities))
+    A9)](https://owasp.github.io/www-project-top-ten/2017/A9_2017-Using_Components_with_Known_Vulnerabilities.html))
   - Static Code Quality Tools
   - Automatic Remediation Tools
 
@@ -96,15 +96,6 @@ capabilities. Our primary recommendation is to use one of these:
   - [ZAP](https://www.zaproxy.org/) by Checkmarx - A full
     featured free and open source DAST tool that includes both automated
     scanning for vulnerabilities and tools to assist expert manual web app pen testing.
-  - [OWASP PurpleTeam](https://owasp.org/www-project-purpleteam) - A security regression testing SaaS and CLI,
-    perfect for inserting into your build pipelines. You don't need to write any tests yourself.
-    PurpleTeam is smart enough to know how to test, you just need to provide a Job file which tells PurpleTeam what you want tested.
-    It has two main environments `local` and `cloud`.
-      - `local` is OWASP - set everything up yourself in your own environment.
-      - `cloud` is a proprietary offering with everything hosted for you in the cloud.
-        You just need to [configure and run the CLI](https://github.com/purpleteam-labs/purpleteam).  
-    PurpleTeam is pluggable, if it doesn't have a tester that you need you can add your own.
-    One of the testers (the web application tester) uses ZAP under the hood.
   - [Akto](https://www.akto.io/) - Akto is an open-source and commercial DAST and API Security tool that includes both automated API Discovery and
     scanning of vulnerabilities in CI/CD with the highest test coverage.
   - [Arachni](http://www.arachni-scanner.com/) - Arachni is a commercially supported scanner, but its free for most use cases, including scanning open source projects.
@@ -152,7 +143,7 @@ and SCA are the same thing.
 OWASP recommends that all software projects generally try to keep the
 libraries they use as up-to-date as possible to reduce the likelihood of
 [Using Components with Known Vulnerabilities (OWASP Top 10-2017
-A9)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities).
+A9)](https://owasp.github.io/www-project-top-ten/2017/A9_2017-Using_Components_with_Known_Vulnerabilities.html).
 There are two recommended approaches for this:
 
 #### Keeping Your Libraries Updated
@@ -182,8 +173,8 @@ components they use have known vulnerable components.
 Free tools of this type:
 
   - OWASP has its own free open source tools:
-    - [OWASP Dependency Check](https://owasp.org/www-project-dependency-check/)
-    - [OWASP Dependency Track](https://owasp.org/www-project-dependency-track/)
+    - [OWASP Dependency Check](https://owasp.org/projects/dependency-check)
+    - [OWASP Dependency Track](https://owasp.org/projects/dependency-track)
   - GitHub: [Security alerts for vulnerable 
     dependencies](https://help.github.com/articles/about-security-alerts-for-vulnerable-dependencies/)
       - A native GitHub feature that reports known vulnerable

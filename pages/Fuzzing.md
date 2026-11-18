@@ -68,7 +68,7 @@ A common approach to fuzzing is to define lists of "known-to-be-dangerous values
 - for binary: random ones
 
 Please refer to [OWASP's Fuzz Vector's
-resource](https://owasp.org/www-project-web-security-testing-guide/v41/6-Appendix/C-Fuzz_Vectors) for real-life fuzzing vectors examples and methodology.
+resource](https://wstg.owasp.org/v4.1/6-Appendix/C-Fuzz_Vectors) for real-life fuzzing vectors examples and methodology.
 
 Protocols and file formats imply norms, which are sometimes blurry, very complicated or badly implemented : that's why developers sometimes mess up in the implementation process (because of time/cost constraints). That's why it can be interesting to take the opposite approach: take a norm, look at all mandatory features and constraints, and try all of them; forbidden/reserved values, linked parameters, field sizes. That would be *conformance testing oriented* fuzzing.
 

@@ -112,5 +112,5 @@ If the server does not verify that the requested file belongs to the authenticat
 
 - CWE-639: Authorization Bypass Through User-Controlled Key — <https://cwe.mitre.org/data/definitions/639.html>
 - OWASP Top 10 A01:2025 — Broken Access Control — <https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/index.html>
-- OWASP Testing Guide: Testing for IDOR — <https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References>
+- OWASP Testing Guide: Testing for IDOR — <hhttps://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References/>
 - OWASP Cheat Sheet: Authorization — <https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html>

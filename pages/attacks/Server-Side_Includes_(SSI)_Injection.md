@@ -148,7 +148,7 @@ and executes arbitrary code.
 
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
-- [Input Validation Vulnerability](https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs)
+- [Input Validation Vulnerability](https://top10proactive.owasp.org/archive/2018/c5-validate-inputs/)
 
 ## References
 

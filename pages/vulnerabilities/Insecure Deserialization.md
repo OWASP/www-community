@@ -96,7 +96,7 @@ The safest approach is never to accept serialized objects from untrusted sources
 7. Keep Up-to-Date: Update your software with the latest security patches, which may address known deserialization vulnerabilities.
 
 ## References
-- [OWASP Top 10-2017 A8-Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)  
+- [OWASP Top 10-2017 A8-Insecure Deserialization](https://owasp.github.io/www-project-top-ten/2017/A8_2017-Insecure_Deserialization.html)  
 - [CWE-502: Deserialization of Untrusted Data](https://cwe.mitre.org/data/definitions/502.html)
 - [Java Unmarshaller Security](https://github.com/mbechler/marshalsec)
 - [.NET Deserialization Cheat Sheet](https://www.owasp.org/index.php/.NET_Deserialization_Cheat_Sheet)

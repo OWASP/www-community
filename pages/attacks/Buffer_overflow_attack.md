@@ -256,7 +256,7 @@ and check if the memory is overwritten when and where it shouldn't be.
 
 ### How to Review Code for Buffer Overflow Vulnerabilities
 
-See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/)
+See the [OWASP Code Review Guide](https://owasp.org/projects/code-review-guide)
 
 ## References
 

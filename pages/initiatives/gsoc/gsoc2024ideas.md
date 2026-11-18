@@ -43,7 +43,7 @@ Tips to get you started in no particular order:
 
 ## List of Project Ideas
 
-### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
+### [Bug Logging Tool (BLT)](https://owasp.org/projects/blt)
 
 OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors get at least 5 PRs merged for the project. Preference will be given to students
 who get the most work done, and this is usually by submitting the most PRs.
@@ -204,7 +204,7 @@ Reach out to us on Slack to discuss these and other ideas!
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
 - [Aryan Prasad](mailto:aryan.prasad@owasp.org)
 
-### [OWASP OWTF](https://owasp.org/www-project-owtf/)
+### [OWASP OWTF](https://owasp.org/projects/owtf)
 
 ![Possible for "Medium" GSoC 2024 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2024 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
@@ -295,7 +295,7 @@ We'd love to hear it, please reach out via email / owasp slack / github to ensur
 * [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP secureCodeBox Core Team
 * [Robert Felber](mailto:robert.seedorff@owasp.org) - OWASP secureCodeBox Project Lead
 
-### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
+### [OWASP Nettacker](https://owasp.org/projects/nettacker)
 
 OWASP Nettacker is a Modular Automated Penetration Testing/ Information gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, default credentials.
 
@@ -332,7 +332,7 @@ Repositories:
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
 * [Arkadii Yakovets](mailto:arkadii.yakovets@owasp.org)
 
-### [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
+### [OWASP Threat Dragon](https://owasp.org/projects/threat-dragon)
 
 OWASP Threat Dragon is a modeling tool used to create threat model diagrams as part of a secure development lifecycle.
 
@@ -349,7 +349,7 @@ These need to be implemented and expanded from what is available in version 1.x;
 
 ##### Getting Started
 
-- Browse the [documentation](https://owasp.org/www-project-threat-dragon/docs-2/) to see if Threat Dragon is for you
+- Browse the documentation to see if Threat Dragon is for you
 - Join OWASP Slack and contact the Threat Dragon community on channel [#project-threat-dragon](https://app.slack.com/client/T04T40NHX/CURE8PQ68)
 - Refer to the Threat Dragon [contributing guidelines](https://github.com/OWASP/threat-dragon/blob/main/contributing.md)
 

@@ -161,7 +161,7 @@ Reach out to us on Slack to discuss these and other ideas!
 - [Aryan Prasad](mailto:aryan.prasad@owasp.org)
 - [Vegard Bakke](mailto:vegard.bakke@owasp.org)
 
-### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
+### [OWASP Nettacker](https://owasp.org/projects/nettacker)
 
 OWASP Nettacker is a Modular Automated Penetration Testing / Information Gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, and default credentials.
 
@@ -439,7 +439,7 @@ list? Great, please submit it!
   Shop Project Leader ([bkimminich](https://owasp.slack.com/team/U1S23SNE7) on Slack)
 - [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Project Leader ([Jannik](https://owasp.slack.com/team/UAM6MBY30) on Slack)
 
-### [PyGoat](https://owasp.org/www-project-pygoat/)
+### [PyGoat](https://owasp.org/projects/pygoat)
 
 PyGoat is an open-source, intentionally vulnerable Python web application designed to help developers and security enthusiasts learn about web application security. It provides hands-on experience in identifying and mitigating common security vulnerabilities, making it a valuable resource for practicing secure coding and penetration testing techniques.
 
@@ -472,7 +472,7 @@ PyGoat is an open-source, intentionally vulnerable Python web application design
 
 #### Getting Started
 
-- Check the [GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Check the [GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/projects/pygoat).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
 
 #### Mentors
@@ -718,7 +718,7 @@ This is an **Easy** difficulty project suitable for:
 - [Paola Gardenas](mailto:paola.gardenas@owasp.org)
 - [Parth Sohaney](mailto:parth.sohaney@owasp.org)
 
-### [OWTF](https://owasp.org/www-project-owtf/)
+### [OWTF](https://owasp.org/projects/owtf)
 
 OWTF attempts to solve the "penetration testers are never given enough time to test properly" problem, or in other words, OWTF = Test/Exploit ASAP, with this in mind, as of right now, the priorities are:
 
@@ -834,7 +834,7 @@ Expected Outcomes:
 
 <a id="owasp-honeypot"></a>
 
-### [OWASP Web Application Honeypot Project](https://owasp.org/www-project-honeypot/)
+### [OWASP Web Application Honeypot Project](https://owasp.org/projects/honeypot)
 
 The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks.
 

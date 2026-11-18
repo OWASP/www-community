@@ -40,7 +40,7 @@ Successful injection attacks may completely compromise or destroy a system. It i
 
 The best way to determine if your applications are vulnerable to injection attacks is to search the source code for all calls to external resources (e.g., system, exec, fork, Runtime.exec, SQL queries, XML and JSON parsers, or whatever the syntax is for making requests to interpreters in your environment). Additionally, validate that all user provided input is sanitized and user provided data that is output is properly encoded where applicable.
 
-[OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide) contains details on how to test for common injection attacks. See the References section below for additional information.
+[OWASP Web Security Testing Guide](https://wstg.owasp.org/) contains details on how to test for common injection attacks. See the References section below for additional information.
 
 ## How to Protect Yourself
 
@@ -80,17 +80,17 @@ Another way to protect against injection is to avoid accessing external interpre
 - [PayloadAllTheThings Repository of Attack Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - [PortSwigger - Server-Side Template Injection](https://portswigger.net/research/server-side-template-injection)
 - OWASP [Cross-Site Scripting (XSS) Filter Evasion Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
-- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/v42/)
-   - [Testing for SQL Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection)
-   - [Testing for LDAP Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/06-Testing_for_LDAP_Injection)
-   - [Testing for XML Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection)
-   - [Testing for SSI Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/08-Testing_for_SSI_Injection)
-   - [Testing for XPath Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_XPath_Injection)
-   - [Testing for IMAP SMTP Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/10-Testing_for_IMAP_SMTP_Injection)
-   - [Testing for Code Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11-Testing_for_Code_Injection)
-   - [Testing for Command Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/12-Testing_for_Command_Injection)
-   - [Testing for Format String Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Format_String_Injection)
-   - [Testing for Host Header Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/17-Testing_for_Host_Header_Injection)
-   - [Testing for Server-Side Template Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection)
-   - [Testing for HTML Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/03-Testing_for_HTML_Injection)
-   - [Testing for CSS Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/05-Testing_for_CSS_Injection)
+- [OWASP Web Security Testing Guide](https://wstg.owasp.org/v4.2/)
+   - [Testing for SQL Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection)
+   - [Testing for LDAP Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/06-Testing_for_LDAP_Injection)
+   - [Testing for XML Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection)
+   - [Testing for SSI Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/08-Testing_for_SSI_Injection)
+   - [Testing for XPath Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_XPath_Injection)
+   - [Testing for IMAP SMTP Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/10-Testing_for_IMAP_SMTP_Injection)
+   - [Testing for Code Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11-Testing_for_Code_Injection)
+   - [Testing for Command Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/12-Testing_for_Command_Injection)
+   - [Testing for Format String Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Format_String_Injection)
+   - [Testing for Host Header Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/17-Testing_for_Host_Header_Injection)
+   - [Testing for Server-Side Template Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection)
+   - [Testing for HTML Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/11-Client-side_Testing/03-Testing_for_HTML_Injection)
+   - [Testing for CSS Injection](https://wstg.owasp.org/v4.2/4-Web_Application_Security_Testing/11-Client-side_Testing/05-Testing_for_CSS_Injection)

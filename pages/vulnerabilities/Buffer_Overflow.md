@@ -21,12 +21,12 @@ See the [OWASP Development Guide](https://github.com/OWASP/DevGuide) article on 
 
 ### How to Review Code for Buffer Overflow Vulnerabilities
 
-See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/) article.
+See the [OWASP Code Review Guide](https://owasp.org/projects/code-review-guide) article.
 
 ### How to Test for Buffer Overflow Vulnerabilities
 
-See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
-[Test for Buffer Overflow](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Buffer_Overflow.html)
+See the [OWASP Testing Guide](https://wstg.owasp.org/) article on how to
+[Test for Buffer Overflow](https://wstg.owasp.org/v4.1/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Buffer_Overflow)
 Vulnerabilities.
 
 ## Overview

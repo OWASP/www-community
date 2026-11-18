@@ -51,13 +51,13 @@ SAST tool feedback can save time and effort, especially when compared to finding
 
 - Prerequisite: Support your programming language.
 - Ability to detect vulnerabilities, based on:
-  - The [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+  - The [OWASP Top Ten](https://owasp.org/projects/top-ten)
   - Other criteria such as:
       - [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf)
       - [CHECK](https://www.ncsc.gov.uk/information/check-penetration-testing)
 - Accuracy:
   - False Positive/False Negative rates
-  - OWASP [Benchmark](https://owasp.org/www-project-benchmark/) score
+  - OWASP [Benchmark](https://owasp.org/projects/benchmark) score
 - Ability to understand the libraries/frameworks you need
 - Requirement for buildable source code
 - Ability to run against binaries (instead of source)

@@ -93,7 +93,7 @@ All ZAP projects will be mentored by the ZAP Project Leaders:
 * thc202
 
 
-### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
+### [Bug Logging Tool (BLT)](https://owasp.org/projects/blt)
 
 OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to hunt for bugs, claim bug bounties and also to start bug-hunting sprees/contests respectively. It is preferred if the potential GSoC contributors get atleast one PR merged for the project. 
 
@@ -148,7 +148,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 * Donnie on slack (lead mentor)
 * [Aryan Ranjan](mailto:aryan_r@ch.iitr.ac.in) - Flutter and Django Mentor
 
-### [OWASP Maryam](https://owasp.org/www-project-maryam/)
+### [OWASP Maryam](https://owasp.org/projects/maryam)
 
 OWASP Maryam is a modular/optional open source framework based on OSINT and data gathering. Maryam is written in Python programming language and it’s designed to provide a powerful environment to harvest data from open sources and search engines and collect data quickly and thoroughly.
 
@@ -209,7 +209,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
 
 ##### Getting started
-- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/projects/securetea-project).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-securetea
 
 ##### Student Requirements
@@ -220,7 +220,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 * [Ardi](mailto:pakdesawangan@gmail.com)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
-### [OWASP PyGoat](https://owasp.org/www-project-pygoat/)
+### [OWASP PyGoat](https://owasp.org/projects/pygoat)
 Intentionally vuln web Application Security in django.
 
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
@@ -238,7 +238,7 @@ Intentionally vuln web Application Security in django.
 
 
 ##### Getting started
-- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/projects/pygoat).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
 
 ##### Student Requirements
@@ -250,7 +250,7 @@ Intentionally vuln web Application Security in django.
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 * Nizam
 
-### [OWASP Risk Assessment Framework](https://owasp.org/www-project-risk-assessment-framework/)
+### [OWASP Risk Assessment Framework](https://owasp.org/projects/risk-assessment-framework)
 The OWASP Risk Assessment Framework consist of Dynamic application security testing (DAST) and Risk Assessment tools. By using OWASP Risk Assessment Framework's  Testers will be able to analyse and review their application and vulnerabilities without any additional setup. OWASP Risk Assessment Framework can be integrated in the DevSecOps toolchain to help developers to write and produce secure application.
 
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
@@ -266,7 +266,7 @@ The OWASP Risk Assessment Framework consist of Dynamic application security test
 - Scheduled scan
 
 ##### Getting started
-- Check[GitHub project](https://github.com/Risk-Assessment-Framework) and [Website](https://owasp.org/www-project-risk-assessment-framework/).
+- Check[GitHub project](https://github.com/Risk-Assessment-Framework) and [Website](https://owasp.org/projects/risk-assessment-framework).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #risk-assessment
 
 ##### Student Requirements
@@ -400,7 +400,7 @@ list? Great, please submit it!
 * [Shubham Palriwala](mailto:spalriwalau@gmail.com) - OWASP Juice Shop Core Team
 * [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP Juice Shop Core Team
 
-### [OWASP WrongSecrets](https://owasp.org/www-project-wrongsecrets/)
+### [OWASP WrongSecrets](https://owasp.org/projects/wrongsecrets)
 
 ![Preferred for "Medium" GSoC 2023 project](<https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green>)
 ![Possible for "Large" GSoC 2023 project](<https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow>)
@@ -489,7 +489,7 @@ Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
 
-### [OWASP OWTF](https://owasp.org/www-project-owtf/)
+### [OWASP OWTF](https://owasp.org/projects/owtf)
 
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
@@ -755,7 +755,7 @@ The CRS team will assign a mentor to contributors. In the meantime, the followin
 
 ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 
-### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
+### [OWASP Nettacker](https://owasp.org/projects/nettacker)
 
 OWASP Nettacker is a Modular Automated Penetration Testing/ Information gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, default credentials.
 

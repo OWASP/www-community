@@ -37,11 +37,11 @@ See the OWASP [Query Parameterization Cheat Sheet](https://cheatsheetseries.owas
 
 ### How to Review Code for SQL Injection Vulnerabilities
 
-See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/) article on how to Review Code for SQL Injection vulnerabilities.
+See the [OWASP Code Review Guide](https://owasp.org/projects/code-review-guide) article on how to Review Code for SQL Injection vulnerabilities.
 
 ### How to Test for SQL Injection Vulnerabilities
 
-See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) for information on testing for SQL Injection vulnerabilities.
+See the [OWASP Testing Guide](https://wstg.owasp.org/) for information on testing for SQL Injection vulnerabilities.
 
 ### How to Bypass Web Application Firewalls with SQLi
 
@@ -251,7 +251,7 @@ application secure against SQL injection attacks.
 - [Blind SQL Injection](Blind_SQL_Injection)
 - [Code Injection](Code_Injection)
 - [Double Encoding](../Double_Encoding)
-- [ORM Injection](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05.7-Testing_for_ORM_Injection.html)
+- [ORM Injection](https://wstg.owasp.org/v4.1/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05.7-Testing_for_ORM_Injection)
 
 ## References
 

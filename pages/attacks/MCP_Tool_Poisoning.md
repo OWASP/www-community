@@ -101,7 +101,7 @@ When an AI agent calls `get_compliance_status`, the LLM receives the full respon
 ## See Also
 
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/) - LLM01: Prompt Injection, LLM06: Excessive Agency
-- [OWASP AI Security and Privacy Guide](https://owasp.org/www-project-ai-security-and-privacy-guide/)
+- [OWASP AI Security and Privacy Guide](https://owaspai.org/go/aiprivacy)
 
 ## References
 
