@@ -172,10 +172,10 @@ MSSQL, and Oracle have different functions for that, respectively
 ## Related [Controls](https://owasp.org/www-community/controls/)
 
 See the OWASP [SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html).
-See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/) guide on how to
+See the [OWASP Code Review Guide](https://owasp.org/projects/code-review-guide) guide on how to
 review code for SQL injection vulnerabilities.
 
-See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
+See the [OWASP Testing Guide](https://wstg.owasp.org/) article on how to
 [Test for SQL Injection](document/4_Web_Application_Security_Testing/4.8_Input_Validation_Testing/4.8.5_Testing_for_SQL_Injection_WSTG-INPVAL-005.md)
 vulnerabilities.
 

@@ -615,9 +615,9 @@ automated scanning are:
 
 OWASP maintains a handful of insecure web applications which can be used for testing and improving your auditing skills that can be found [as part of its many projects](https://owasp.org/projects/), as well as tools you can use to do so.
 
-Refer to the [Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/) for a curated list.
+Refer to the [Vulnerable Web Applications Directory](https://vwad.owasp.org/) for a curated list.
 
-Two examples are [Juice Shop](https://owasp.org/www-project-juice-shop/) and [Security Shepard](https://owasp.org/www-project-security-shepherd/), while others can be found as part of the [OWASP Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/) project.
+Two examples are [Juice Shop](https://owasp.org/projects/juice-shop) and [Security Shepard](https://owasp.org/projects/security-shepherd), while others can be found as part of the [OWASP Vulnerable Web Applications Directory](https://vwad.owasp.org/) project.
 
 External projects of note include [VulnHub](https://www.vulnhub.com/), [Hack This Site](https://www.hackthissite.org/), [Hacking-Lab](https://hacking-lab.com/), [Hack the Box](https://www.hackthebox.eu/) and [Damn Vulnerable Web Application](http://www.dvwa.co.uk/).
 

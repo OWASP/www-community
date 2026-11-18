@@ -28,13 +28,13 @@ administrative account, CSRF can compromise the entire web application.
 ### How to Review Code for CSRF Vulnerabilities
 
 See the [OWASP Code Review
-Guide](https://owasp.org/www-project-code-review-guide) article on how to
+Guide](https://owasp.org/projects/code-review-guide) article on how to
 [review code for CSRF
-vulnerabilities](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csrf-issues).
+vulnerabilities](https://owasp.github.io/www-project-code-review-guide/reviewing-code-for-csrf-issues).
 
 ### How to Test for CSRF Vulnerabilities
 
-See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
+See the [OWASP Testing Guide](https://wstg.owasp.org/) article on how to
 test for CSRF vulnerabilities.
 
 ### How to Prevent CSRF Vulnerabilities
@@ -54,7 +54,7 @@ Rails](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-cs
 [.NET](http://www.troyhunt.com/2010/11/owasp-top-10-for-net-developers-part-5.html)
 and others.
 
-Use [OWASP CSRF Guard](https://owasp.org/www-project-csrfguard/) to
+Use [OWASP CSRF Guard](https://owasp.org/projects/csrfguard) to
 add CSRF protection to your Java applications.
 
 John Melton also has an [excellent blog
@@ -318,7 +318,7 @@ with the following header:
 
 > "This paper serves as a living document for Cross-Site Request Forgery issues. This document will serve as a repository of information from existing papers, talks, and mailing list postings and will be updated as new information is discovered."*
 
-- [Testing for CSRF](\www-project-web-security-testing-guide\)
+- [Testing for CSRF](https://wstg.owasp.org/)
   - CSRF (aka Session riding) paper from the OWASP Testing Guide project.
 
 - [CSRF Vulnerability: A 'Sleeping Giant'](https://www.darkreading.com/risk/csrf-vulnerability-a-sleeping-giant/d/d-id/1128371)
@@ -327,11 +327,8 @@ with the following header:
 - [Client Side Protection against Session Riding](https://wiki.owasp.org/index.php/File:RequestRodeo-MartinJohns.pdf)
   - Martin Johns and Justus Winter's interesting paper and presentation for the 4th OWASP AppSec Conference which described potential techniques that browsers could adopt to automatically provide CSRF protection - [PDF paper](https://wiki.owasp.org/index.php/File:RequestRodeo-MartinJohns.pdf)
 
-- [OWASP CSRF Guard](https://owasp.org/www-project-csrfguard/)
+- [OWASP CSRF Guard](https://owasp.org/projects/csrfguard)
   - J2EE, .NET, and PHP Filters which append a unique request token to each form and link in the HTML response in order to provide universal coverage against CSRF throughout your entire application.
-
-- [OWASP CSRF Protector](https://owasp.org/www-project-csrfprotector/)
-  - Anti CSRF method to mitigate CSRF in web applications. Currently implemented as a PHP library & Apache 2.x.x module
 
 - [A Most-Neglected Fact About Cross Site Request Forgery (CSRF)](http://yehg.net/lab/pr0js/view.php/A_Most-Neglected_Fact_About_CSRF.pdf)
   - Aung Khant, <http://yehg.net>, explained the danger and impact of CSRF with imperiling scenarios.

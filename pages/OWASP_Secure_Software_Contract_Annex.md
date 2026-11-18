@@ -275,7 +275,7 @@ At the highest level, the parties agree that:
   __(d) Implementation__ : Developer agrees to provide and follow a set of
     secure coding guidelines and to use a set of common security control
     programming interfaces (such as the [OWASP Enterprise Security API
-    (ESAPI)](https://owasp.org/www-project-enterprise-security-api/)).
+    (ESAPI)](https://owasp.org/projects/enterprise-security-api-esapi)).
     Guidelines will indicate how code should be formatted, structured,
     and commented. Common security control programming interfaces will
     define how security controls must be called and how security
@@ -292,7 +292,7 @@ At the highest level, the parties agree that:
     "verification") according to the verification requirements of an
     agreed-upon standard (such as the [OWASP Application Security
     Verification Standard
-    (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)).
+    (ASVS)](https://asvs.owasp.org/)).
     The Developer shall document verification findings according to the
     reporting requirements of the standard. The Developer shall provide
     the verification findings to Client.

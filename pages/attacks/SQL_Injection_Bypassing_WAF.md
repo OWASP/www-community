@@ -21,7 +21,7 @@ administration operations on the database (such as shutdown the DBMS),
 recover the content of a given file present on the DBMS file system and
 in some cases issue commands to the operating system. SQL injection
 attacks are a type of [injection
-attack](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection), in which SQL commands
+attack](https://owasp.github.io/www-project-top-ten/2017/A1_2017-Injection.html), in which SQL commands
 are injected into data-plane input in order to effect the execution of
 predefined SQL commands.
 

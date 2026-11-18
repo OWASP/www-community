@@ -41,16 +41,16 @@ flaws, see: [Types of Cross-Site Scripting](../../Types_of_Cross-Site_Scripting)
 
 ### How to Review Code for Cross-site scripting Vulnerabilities
 
-See the [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/).
+See the [OWASP Code Review Guide](https://owasp.org/projects/code-review-guide).
 
 ### How to Test for Cross-site scripting Vulnerabilities
 
-See the latest [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
+See the latest [OWASP Testing Guide](https://wstg.owasp.org/) article on how to
 test for the various kinds of XSS vulnerabilities.
 
-- [Testing_for_Reflected_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.html)
-- [Testing_for_Stored_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.html)
-- [Testing_for_DOM-based_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.html)
+- [Testing_for_Reflected_Cross_site_scripting](https://wstg.owasp.org/v4.1/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting)
+- [Testing_for_Stored_Cross_site_scripting](https://wstg.owasp.org/v4.1/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting)
+- [Testing_for_DOM-based_Cross_site_scripting](https://wstg.owasp.org/v4.1/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting)
 
 ## Description
 
@@ -162,10 +162,10 @@ cookie information so the attacker can mount a session hijack attack.
 This is easily mitigated by removing support for HTTP TRACE on all web
 servers.
 
-The [OWASP ESAPI project](https://www.owasp.org/www-project-enterprise-security-api) has produced a set of
+The [OWASP ESAPI project](https://owasp.org/projects/enterprise-security-api-esapi) has produced a set of
 reusable security components in several languages, including validation
 and escaping routines to prevent parameter tampering and the injection
-of XSS attacks. In addition, the [OWASP WebGoat Project](https://www.owasp.org/www-project-webgoat/) training
+of XSS attacks. In addition, the [OWASP WebGoat Project](https://owasp.org/projects/webgoat) training
 application has lessons on Cross-Site Scripting and data encoding.
 
 ### Alternate XSS Syntax
@@ -379,9 +379,9 @@ cookie.
 ## References
 
 - OWASP's [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
-- [Testing_for_Reflected_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.html)
-- [Testing_for_Stored_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.html)
-- [Testing_for_DOM-based_Cross_site_scripting](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.html)
+- [Testing_for_Reflected_Cross_site_scripting](https://wstg.owasp.org/v4.1/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting)
+- [Testing_for_Stored_Cross_site_scripting](https://wstg.owasp.org/v4.1/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting)
+- [Testing_for_DOM-based_Cross_site_scripting](https://wstg.owasp.org/v4.1/4-Web_Application_Security_Testing/11-Client_Side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting)
 - [The Cross Site Scripting FAQ](https://www.cgisecurity.com/xss-faq.html)
 - OWASP [XSS Filter Evasion Cheat Sheet](/xss-filter-evasion-cheatsheet)
 - [CERT Advisory on Malicious HTML Tags](http://www.cert.org/advisories/CA-2000-02.html)
@@ -390,5 +390,5 @@ cookie.
 - [XSSed](http://www.xssed.com) - Cross-Site Scripting (XSS) Information and Mirror Archive of Vulnerable Websites
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)
-[Category:OWASP Top Ten Project](https://owasp.org/www-project-top-ten/)
+[Category:OWASP Top Ten Project](https://owasp.org/projects/top-ten)
 [Category:Attack](https://owasp.org/www-community/attacks/)

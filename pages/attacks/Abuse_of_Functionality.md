@@ -26,4 +26,4 @@ of the intended Abuse of functionality attack, not the primary aim.
 
 [CAPEC: Abuse Existing Functionality](https://capec.mitre.org/data/definitions/210.html)
 [Abuse of Functionality](http://projects.webappsec.org/w/page/13246913/Abuse%20of%20Functionality)
-[OWASP Automated Threat Handbook - Web Applications](https://owasp.org/www-project-automated-threats-to-web-applications/)
+[OWASP Automated Threat Handbook - Web Applications](https://owasp.org/projects/automated-threats-to-web-applications)

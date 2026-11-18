@@ -13,7 +13,7 @@ redirect_from:
 
 {% include writers.html %}
 
-This is an OWASP community page. You should also visit the official [Threat Model Project](https://owasp.org/www-project-threat-modeling/) site.
+This is an OWASP community page. You should also visit the official [Threat Model Project](https://owasp.org/projects/threat-modeling-project) site.
 
 ## Overview
 
@@ -87,4 +87,4 @@ The threat modeling process naturally produces an assurance argument that can be
 
 ## Further Reading
 
-- [OWASP Threat Modeling Project](https://owasp.org/www-project-threat-modeling/)
+- [OWASP Threat Modeling Project](https://owasp.org/projects/threat-modeling-project)

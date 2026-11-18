@@ -257,7 +257,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
 
 ##### Getting started
-- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/projects/securetea-project).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-securetea
 
 ##### Student Requirements
@@ -285,7 +285,7 @@ Intentionally vuln web Application Security in django.
 
 
 ##### Getting started
-- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/www-project-pygoat/).
+- Check[GitHub project](https://github.com/adeyosemanputra/pygoat) and [Website](https://owasp.org/projects/pygoat).
 - Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #project-pygoat
 
 ##### Student Requirements
@@ -947,7 +947,7 @@ Therefore this passive online scanner does not do anything illegal
 [More information about why this is not illegal here](http://www.slideshare.net/abrahamaranguren/legal-and-efficient-web-app-testing-without-permission) 
 (recommended reading!)
 
-For background on OWASP OWTF please see: [OWASP OWTF](https://owasp.org/www-project-owtf/)
+For background on OWASP OWTF please see: [OWASP OWTF](https://owasp.org/projects/owtf)
 
 ##### Expected results:
 * IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/)/ES6 JavaScript code in all modified code and surrounding areas.
@@ -973,7 +973,7 @@ A good knowledge of JavaScript and writing ES6 compliant React/TypeScript is nee
 
 The current owtf web interface is implemented in ReactJs with Redux as the state manager. The project involves - (1) integration of Typescript in the code to ease the refactoring process, (2) upgrading the UI to remove additional dependencies and improve user experience . Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
 
-For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
+For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/projects/owtf)
 
 ##### Expected results:
 - IMPORTANT:Clean, maintainable (ES6 compatible and using recommended design patterns) React (TypeScript) code.
@@ -1002,7 +1002,7 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-proj
 
 Some pages of the new OWTF interface has been under progess for a very long time.  Complete implementation of the Login/Signup Page (APIs + frontend) with proper unit/functional tests will be deliverable for this project. Check out the current implementation of the web interface at [OWTF on GitHub](https://github.com/owtf/owtf/tree/develop).
 
-For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
+For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/projects/owtf)
 
 ##### Expected results:
 - IMPORTANT:Clean, maintainable (ES6 compatible and using recommended design patterns) React (TypeScript) code.
@@ -1032,7 +1032,7 @@ For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-proj
 There are many small but important enhancements in the issue tracker which are too small to make a single project, but they can be grouped together to make a suitable GSoC project.
 The aim of the project is to implement some of the enhancements suggested in the issue tracker to improve user experience (adding new useful features and making the owtf tool easier to use), security and performance.
 
-For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/www-project-owtf/)
+For background on OWASP OWTF please see: [OWASP_OWTF](https://owasp.org/projects/owtf)
 
 ##### Expected results:
 - IMPORTANT: [PEP-8 compliant code](http://legacy.python.org/dev/peps/pep-0008/) in all modified code and surrounding areas.
@@ -1111,7 +1111,7 @@ OWASP Nettacker project is created to automate information gathering, vulnerabil
 * [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
 * [Dhiren Serai](mailto:dhirensr@gmail.com)
 
-### [Security Knowledge Framework (SKF)](https://owasp.org/www-project-security-knowledge-framework/)
+### Security Knowledge Framework (SKF)
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
@@ -1152,7 +1152,7 @@ This will be the initial version of the project. We can advance it more using de
 * [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com)
 * [Glenn ten Cate](mailto:glenn.ten.cate@owasp.org)
 
-### [Bug Logging Tool (BLT)](https://owasp.org/www-project-bug-logging-tool/)
+### [Bug Logging Tool (BLT)](https://owasp.org/projects/blt)
 
 ![Preferred for "Medium" GSoC 2022 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Possible for "Large" GSoC 2022 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)

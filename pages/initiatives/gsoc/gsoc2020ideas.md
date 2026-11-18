@@ -291,7 +291,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Improve Detecting Website Defacements Based on Machine Learning Techniques and Attack Signatures
 
 ##### Getting started
-- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/www-project-securetea/).
+- Check[GitHub project](https://github.com/OWASP/SecureTea-Project) and [Website](https://owasp.org/projects/securetea-project).
 - Join OWASP Slack and contact us on channel #project-securetea
 
 ##### Student Requirements
@@ -386,7 +386,7 @@ OWASP IIDS is an open source software that leverages the benefits of Artificial 
 
 ##### Getting started
 
-* You may read the available documents in the [wiki page](https://owasp.org/www-project-intelligent-intrusion-detection-system/).
+* You may read the available documents in the [wiki page](https://owasp.org/projects/intelligent-intrusion-detection-system).
 
 #### Expected Results
 

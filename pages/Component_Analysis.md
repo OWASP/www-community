@@ -371,8 +371,8 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Debricked]: https://debricked.com/
 [DejaCode]: https://www.nexb.com/
 [Dependabot]: https://dependabot.com/
-[Dependency-Check]: https://owasp.org/www-project-dependency-check/
-[Dependency-Track]: https://owasp.org/www-project-dependency-track/
+[Dependency-Check]: https://owasp.org/projects/dependency-check
+[Dependency-Track]: https://owasp.org/projects/dependency-track
 [Dependency Track SaaS]: https://yoursky.blue/products/dependency-track-saas
 [DepShield]: https://depshield.github.io/
 [DevKit Dossier]: https://devkit.dev/
@@ -399,7 +399,6 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [NPM Audit]: https://www.npmjs.com/
 [Open Source Lifecycle Management]: https://www.whitesourcesoftware.com/
 [OSS Index]: https://ossindex.sonatype.org/
-[Patton]: https://owasp.org/www-project-patton/
 [PHP Security Checker]: https://github.com/sensiolabs/security-checker
 [phpwarden]: https://phpwarden.io/
 [Plexicus]:https://www.plexicus.ai/aspm-application-security-posture-management/

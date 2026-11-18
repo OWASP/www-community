@@ -15,7 +15,7 @@ tags: attack, brute force
 
 ### How to Test for Brute Force Vulnerabilities
 
-See the [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) article on how to
+See the [OWASP Testing Guide](https://wstg.owasp.org/) article on how to
 Test for Brute Force Vulnerabilities.
 
 ## Description
