@@ -1586,6 +1586,17 @@
 		]
 	},
 	{
+		"title": "NorthBound Sentinel",
+		"url": "https://northboundintelligence.com/?utm_source=owasp&utm_medium=directory",
+		"owner": "NorthBound Intelligence",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Human-led, AI-assisted continuous penetration testing with external attack surface and exposure intelligence; tests only domains with verified ownership. Free tier available.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Nuclei",
 		"url": "https://nuclei.projectdiscovery.io",
 		"owner": "ProjectDiscovery",
