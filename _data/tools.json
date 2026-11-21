@@ -198,6 +198,19 @@
 		]
 	},
 	{
+		"title": "AppSecD",
+		"url": "https://appsecd.com/",
+		"owner": "DedSec Technologies",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "SaaS platform combining SAST (20+ languages; Semgrep, Bandit, gosec, Brakeman, SpotBugs/FindSecBugs), DAST (150+ native checks plus Nuclei, Dalfox and SQLMap), SCA, and secret scanning across full git history. 14-day free evaluation: one DAST scan and one SAST scan, company email required",
+		"type": [
+			"SAST",
+			"DAST",
+			"SCA"
+		]
+	},
+	{
 		"title": "AppSpider",
 		"url": "https://www.rapid7.com/products/appspider/",
 		"owner": "Rapid7",
