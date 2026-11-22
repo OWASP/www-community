@@ -1610,6 +1610,17 @@
 		]
 	},
 	{
+		"title": "Nyx",
+		"url": "https://github.com/nyx-sec/nyx",
+		"owner": "Nyx Security",
+		"license": "Open Source",
+		"platforms": "Linux, macOS, GitHub Actions",
+		"note": "Local multi-language static analysis with cross-file taint tracking, sandboxed runtime verification of findings, and SARIF output.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Offensive360",
 		"url": "https://offensive360.com/",
 		"owner": "O360 B.V.",
