@@ -408,6 +408,7 @@ With the rise of quantum computing, [classical cryptographic algorithms like RSA
 
 - [CARAF](https://github.com/Comcast/CARAF) - Crypto Agility Risk Assessment Framework (CARAF) helps organizations evaluate the risks of their assets in the context of post-quantum cryptography (PQC) migration. - Comcast Cyber Security & Privacy Research
 - [PQBench](https://github.com/Comcast/CARAF/tree/main/Tools/PQBench) - PQBench offers a curated collection of cryptographic use cases, each mapped to relevant evaluation metrics tailored for Post-Quantum Cryptography (PQC). - Comcast Cyber Security & Privacy Research
+- [Hard Keel Quantum Scan](https://github.com/Hard-Keel/quantum-scan-cli) - Open-source (Apache-2.0) scanner that finds RSA, elliptic-curve and Diffie-Hellman use and weak algorithms in code and config, and writes a CycloneDX cryptography bill of materials (CBOM), SARIF and a migration plan ordered by NIST's deprecation dates. - Hard Keel
 
 Please let us know if you are aware of any other high quality
 application security tools that are free for open source (or simply add
