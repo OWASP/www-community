@@ -1059,6 +1059,17 @@
 		]
 	},
 	{
+		"title": "Hard Keel Quantum Scan",
+		"url": "https://github.com/Hard-Keel/quantum-scan-cli",
+		"owner": "Hard Keel",
+		"license": "Open Source",
+		"platforms": "Linux, MacOS, Windows",
+		"note": "Open-source (Apache-2.0) scanner that finds quantum-vulnerable cryptography (RSA, elliptic curve, Diffie-Hellman), weak algorithms, weak TLS settings and leaked keys in code and infrastructure config. Writes SARIF, a CycloneDX CBOM and a migration plan ordered by NIST IR 8547 dates. Runs locally or as a GitHub Action.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Haxore Web Security Scanner",
 		"url": "https://haxore.com",
 		"owner": "Haxore",
