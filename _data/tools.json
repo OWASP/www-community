@@ -1247,6 +1247,17 @@
 		]
 	},
 	{
+		"title": "Interlace ESLint Security Plugins",
+		"url": "https://github.com/ofri-peretz/eslint",
+		"owner": "Ofri Peretz",
+		"license": "Open Source",
+		"platforms": "Node.js, ESLint, Oxlint, CI/CD",
+		"note": "Open-source (MIT) ESLint and Oxlint plugins for static security analysis of JavaScript and TypeScript code on Node.js: eslint-plugin-secure-coding, eslint-plugin-node-security, and plugins for Express, NestJS, JWT and MongoDB. Rules report issues such as command injection, path traversal, SSRF and ReDoS, with CWE references on findings. Runs locally and in CI as npm packages. Documentation: https://eslint.interlace.tools",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Intruder",
 		"url": "https://www.intruder.io/",
 		"owner": "Intruder Ltd.",
