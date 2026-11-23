@@ -195,6 +195,11 @@ Free tools of this type:
   - [feldspar-scan](https://github.com/project-feldspar-resources/feldspar-scan): free open source (MIT)
     single-file Python scanner and GitHub Action that checks lockfile dependencies against OSV.dev and
     flags leaked-secret patterns. Built and maintained by an autonomous AI agent.
+  - [Stackurity](https://github.com/stackurity/stackurity): free open source (Apache-2.0),
+    self-hosted. Keeps an inventory of the packages on servers, deployed applications,
+    repositories and container images, matches it against OSV and vendor advisories and the
+    CISA KEV catalogue, and flags end-of-life operating systems and runtimes. Imports and
+    exports CycloneDX SBOMs. A hosted version is paid.
 
 
 Commercial tools of this type that are free for open source:
