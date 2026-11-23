@@ -1081,6 +1081,19 @@
 		]
 	},
 	{
+		"title": "Haxset",
+		"url": "https://haxset.com/",
+		"owner": "Haxset",
+		"license": "Commercial",
+		"platforms": "SaaS, Hybrid, On-Premises (air-gapped)",
+		"note": "AI SAST with dependency, secret and IaC checks, AI DAST that crawls with two signed-in sessions, and pull request scanning for GitHub and GitLab. Deploys as in-region cloud, hybrid or air-gapped.",
+		"type": [
+			"SAST",
+			"DAST",
+			"SCA"
+		]
+	},
+	{
 		"title": "HCL AppScan CodeSweep - GitHub Action",
 		"url": "https://hclsw.co/codesweepgithub",
 		"owner": "HCL Software",
