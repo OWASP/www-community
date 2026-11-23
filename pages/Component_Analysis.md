@@ -308,6 +308,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Dependency-Track] | OWASP | Open Source | Cross Platform |
 | [Dependency Track SaaS] | YourSky.blue | Commercial | SaaS |
 | [DepShield] | Sonatype | Open Source | Cross Platform / SaaS |
+| [Deptools] | Deptools | Commercial / Freemium | SaaS |
 | [DevKit Dossier] | DevKit Srl | Commercial | SaaS |
 | [DotNET Retire] | Retire.NET Project | Open Source | Cross Platform |
 | [Endor Labs] | Endor Labs | Commercial | SaaS |
@@ -375,6 +376,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Dependency-Track]: https://owasp.org/projects/dependency-track
 [Dependency Track SaaS]: https://yoursky.blue/products/dependency-track-saas
 [DepShield]: https://depshield.github.io/
+[Deptools]: https://deptools.io/
 [DevKit Dossier]: https://devkit.dev/
 [DotNET Retire]: https://github.com/RetireNet/dotnet-retire
 [Endor Labs]: https://endorlabs.com

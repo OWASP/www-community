@@ -215,6 +215,10 @@ Commercial tools of this type that are free for open source:
      - Features automated fix pull request to automatically fix vulnerabilities (currently only for javascript)
      - Features one of the most complete [vulnerability databases](https://app.debricked.com/en/vulnerability-database) 
      - GitHub version: [https://github.com/apps/debricked/](https://github.com/apps/debricked/) 
+  - [Deptools](https://deptools.io/) - Deptools turns dependency graphs into a continuous health system. It analyzes security, licenses, maintainability, activity, popularity, community, and other signals to generate a multidimensional Health Score.
+     - Supports Java, Kotlin, Scala, JavaScript/TypeScript and PHP projects (Maven, Gradle, sbt, npm and Composer).
+     - Exports CycloneDX and SPDX SBOMs and a pre-filled CycloneDX VEX.
+     - [Free plan](https://deptools.io/#pricing) for public GitHub repositories: up to 10 projects, one scan every 3 hours per project.
   - [Corgea](https://corgea.com) - AI-powered SAST scanner that finds and fixes security issues
      - Finds business logic flaws, broken auth, API security issues and more
      - Supports Python, Go, Javascript, Typescript, Ruby, C#, C, C++, Java, PHP, Kotlin and more.
