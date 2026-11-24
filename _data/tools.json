@@ -1159,6 +1159,17 @@
 		]
 	},
 	{
+		"title": "Hiperlink Website Check",
+		"url": "https://hiperlink.digital/services/website-security/free-check/",
+		"owner": "Hiperlink Digital",
+		"license": "Free",
+		"platforms": "SaaS",
+		"note": "Free, passive outside-in check of a public website, aimed at WordPress sites and webshops: HTTPS and redirects, HSTS and security headers, files that should not be public, exposed WordPress and plugin versions, public user enumeration and XML-RPC, form spam protection, plus technical SEO (robots.txt, sitemap, canonical). Instant summary in the browser, written report by email. No login, no exploitation, no intrusive scanning.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Holm Security",
 		"url": "https://www.holmsecurity.com/product/web-application-scanning",
 		"owner": "Holm Security",
