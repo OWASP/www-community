@@ -1755,6 +1755,17 @@
 		]
 	},
 	{
+		"title": "owlwarden",
+		"url": "https://github.com/suthat/owlwarden",
+		"owner": "suthat",
+		"license": "Open Source",
+		"platforms": "CLI (macOS, Linux, Windows), CI/CD",
+		"note": "Offline static scanner for Node.js web applications (JavaScript, TypeScript) and for the configuration that coding agents and editors read from a repository, such as .claude/, .cursor/ and .vscode/. Emits SARIF.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Panoptic Scans",
 		"url": "https://panopticscans.com",
 		"owner": "Panoptic Scans",
