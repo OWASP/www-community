@@ -2570,6 +2570,17 @@
 		]
 	},
 	{
+		"title": "Tessera Quick Check",
+		"url": "https://tessera.hyperionsrl.cloud/en/",
+		"owner": "Hyperion S.r.l.",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "Automated external scan (security headers, TLS, Nuclei, OWASP ZAP) with a PDF report and a CVSS v3.1 score per finding; scans only domains the user proves to control",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Threatspy",
 		"url": "https://www.secureblink.com/threatspy",
 		"owner": "Secure Blink",
