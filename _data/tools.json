@@ -685,6 +685,18 @@
 		]
 	},
 	{
+		"title": "CybeDefend",
+		"url": "https://github.com/CybeDefend/cybedefend",
+		"owner": "CybeDefend",
+		"license": "Open Source or Free",
+		"platforms": "Linux, macOS and Windows; runs from Claude Code, Codex or Cursor, self-hosted dashboard with Docker Compose",
+		"note": "Open source (AGPL-3.0) security audit run from a coding agent. It runs Opengrep, Trivy, Gitleaks and zizmor, then has the agent look for business logic and access-rights flaws and prove each one with an exploit written as a test.",
+		"type": [
+			"SAST",
+			"SCA"
+		]
+	},
+	{
 		"title": "Cyber Chief",
 		"url": "https://www.cyberchief.ai",
 		"owner": "Audacix",
