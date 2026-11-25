@@ -48,6 +48,67 @@ vendor of a free for open source tool and think this information is
 incomplete or incorrect, please send an e-mail to dave.wichers (at)
 owasp.org and we will make every effort to correct this information.</b>
 
+## Integrating security tools into CI workflows
+
+Run security checks on pull requests to give contributors feedback before merging,
+and on pushes to the default branch to check the merged code. Start with a small
+set of high-confidence checks, review their findings, and expand coverage as the
+project can maintain it. The tool categories below serve different purposes:
+
+| Category | CI use case |
+| --- | --- |
+| SAST | Analyze source code for insecure patterns and data flows. |
+| Software composition analysis (SCA) | Check dependencies against known vulnerabilities. |
+| Secrets detection | Check changes for exposed credentials. |
+| DAST | Scan a running application in an authorized test environment. |
+| Infrastructure as code and CI/CD checks | Review infrastructure and workflow configuration. |
+
+For example, a public Python repository on GitHub can use the following CodeQL
+workflow in `.github/workflows/codeql.yml`. Enable
+[advanced setup](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/configure-code-scanning/configuring-advanced-setup-for-code-scanning)
+and replace `main` with the repository's default branch. Other languages may need
+[different build steps](https://docs.github.com/en/code-security/reference/code-scanning/workflow-configuration-options).
+
+```yaml
+name: CodeQL
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: github/codeql-action/init@33d7b85da1a04171e211befe2c739303b9a4c066 # v4
+        with:
+          languages: python
+      - uses: github/codeql-action/analyze@33d7b85da1a04171e211befe2c739303b9a4c066 # v4
+```
+
+Keep pinned actions updated, for example with Dependabot. Limit workflow
+permissions and keep secrets out of jobs that process untrusted pull requests;
+see the [GitHub Actions Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GitHub_Actions_Security_Cheat_Sheet.html).
+
+When default checks miss a project-specific risk, consider
+[custom CodeQL queries](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/custom-queries),
+[CodeQL query packs](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/query-packs),
+or [custom Semgrep rules](https://docs.semgrep.dev/writing-rules/overview).
+Document what each check detects, why it matters, and how to fix a finding. Include
+examples that should and should not produce findings, and run the rule's tests
+when it changes; see [testing Semgrep rules](https://docs.semgrep.dev/writing-rules/testing-rules).
+
 ## Free for Open Source Tools
 
 Tools that are free for open source projects in each of the above categories are listed below.
