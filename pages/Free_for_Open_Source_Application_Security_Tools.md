@@ -405,6 +405,7 @@ Secrets detection is often confused with SAST because both scan through static s
     - Xygeni Bot: Automatically runs remediation tasks on-demand or daily, creating smart, ready-to-merge Pull Requests to close the loop between detection and fix.
     - Remediation Risk Analysis: Evaluates the potential impact of updates and fixes to prevent breaking changes before applying changes to dependencies or code.
     - Automated Guardrails: Implements policy-driven actions and playbooks to automatically block misconfigurations and remediate security leaks in real-time.
+- [Compass](https://beamreach.ai/compass/install.html) - An open-source (Apache-2.0) tool for AWS, Terraform and GitHub that follows the CVE feeds, works out which workload and repository each CVE reaches and whether it faces the internet, and opens the fix as a pull request verified by your CI. It also plants honeytokens (decoy AWS keys, database passwords, SSH keys) as pull requests and alerts when one is used. It never merges or applies changes itself. Runs on your own machine with Docker Compose. Free for all use; [source on GitHub](https://github.com/beamreach-ai/compass).
 
 ### Post-Quantum Cryptography Tools
 
