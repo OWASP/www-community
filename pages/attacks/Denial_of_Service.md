@@ -178,6 +178,12 @@ data retrieved from the database, can cause denial of service issues.
 This problem is exacerbated if session data is also tracked prior to a
 login, as a user can launch the attack without the need of an account.
 
+### DoS Storing too much Data in logs
+
+Care must be taken not to store too much information in the logs, denial
+of service can also fill up log files causing application to spend time
+in logging compared to processing requests. 
+
 ### DoS Locking Customer Accounts
 
 The first DoS case to consider involves the authentication system of the
