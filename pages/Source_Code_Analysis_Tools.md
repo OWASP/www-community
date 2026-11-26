@@ -17,8 +17,6 @@ permalink: /Source_Code_Analysis_Tools
 SAST tools can be added into your IDE. Such tools can help you detect issues during software development.
 SAST tool feedback can save time and effort, especially when compared to finding vulnerabilities later in the development cycle.
 
-**Note:** Some tools listed below may support multiple testing types (SAST, DAST, and/or SCA). Tools are shown here if they include SAST capabilities.
-
 ## Strengths and Weaknesses
 
 ### Strengths
@@ -68,14 +66,8 @@ SAST tool feedback can save time and effort, especially when compared to finding
 - Interoperability of output:
   - See OASIS [SARIF (Static Analysis Results Interchange Format)](https://www.oasis-open.org/committees/tc_home.php)
 
-## Disclaimer
-
-**The tools listed in the tables below are presented in alphabetical order. *OWASP does not endorse any of the vendors or tools by listing them in the table below.* We have made every effort to provide this information as accurately as possible. If you are the vendor of a tool below and think that this information is incomplete or incorrect, please send an e-mail to our mailing list and we will make every effort to correct this information.**
-
-{% include tools.html type="SAST" %}
-
 ## More info
 
 - [NIST's list of Source Code Security Analysis Tools](https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html).
 - [DAST Tools](/Vulnerability_Scanning_Tools) - Similar info on Dynamic Application Security Testing (DAST) Tools.
-- [Free for Open Source Application Security Tools](/Free_for_Open_Source_Application_Security_Tools) - This page lists the Commercial Source Code Analysis Tools (SAST) we know of that are free for Open Source.
+- [Free for Open Source Application Security Tools](/Free_for_Open_Source_Application_Security_Tools) - OWASP page on application security tools available to open source projects.
