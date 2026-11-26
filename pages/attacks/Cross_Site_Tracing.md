@@ -16,11 +16,16 @@ tags: attack, Cross Site Tracing
 A **Cross-Site Tracing (XST)** attack involves the use of [Cross-site
 Scripting (XSS)]({{ site.baseurl }}/attacks/xss) and the TRACE
 or TRACK HTTP methods. According to
-[RFC 2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html),
+[RFC 9110, section 9.3.8](https://www.rfc-editor.org/rfc/rfc9110.html#name-trace),
 "TRACE allows the client to see what is being received at the other end
 of the request chain and use that data for testing or diagnostic
-information.", the TRACK method works in the same way but is specific to
-Microsoft's IIS web server. XST could be used as a method to steal
+information." (the same sentence appeared in section 9.8 of RFC 2616,
+which has since been obsoleted). The TRACK method works in the same way but
+is specific to Microsoft's IIS web server. The same section also tells
+clients not to send sensitive data such as stored credentials or
+cookies in a TRACE request (a MUST NOT) and tells the final recipient to
+exclude request fields that are likely to contain sensitive data from the
+response (a SHOULD). XST could be used as a method to steal
 user's cookies via [Cross-site Scripting
 (XSS)]({{ site.baseurl }}/attacks/xss) even if the cookie has
 the "[HttpOnly](../HttpOnly)" flag set or exposes the user's
