@@ -11,7 +11,7 @@ permalink: /api_security_tools
 
 {% include writers.html %}
 
-APIs are becoming an increasingly large portion of the software that powers the Internet including mobile applications, single-page applications (SPAs) and cloud infrastructure. While APIs share much of the same security controls and software security issues with traditional web applications, they are different enough to make a distinction between 'normal' AppSec tools and ones that were built with APIs in mind.  This page was created to list tools known to support APIs natively and by design.
+APIs are becoming an increasingly large portion of the software that powers the Internet including mobile applications, single-page applications (SPAs) and cloud infrastructure. While APIs share much of the same security controls and software security issues with traditional web applications, they are different enough to make a distinction between 'normal' AppSec tools and ones that were built with APIs in mind.  This page describes the categories of tools built to support APIs natively and by design.
 
 ### Types of API Tools
 
@@ -25,17 +25,3 @@ Tools for API Security can be broken down into 3 broad categories.
   * Goal: Evaluate the security of a running API by interacting with the API dynamically (DAST-like behavior)
 
 For more detailed information on the 3 categories, see slides 14 to 17 of [this presentation](https://www.slideshare.net/mtesauro/peeling-the-onion-making-sense-of-the-layers-of-api-security).
-
-The goal is to provide as comprehensive a list of API tools as possible using the input of the diverse perspectives of the OWASP community.
-
-## API Tools List
-
-{% include api-tools.html %}
-
-## Comparison Resources
-
-- [AppSec Santa — API Security Tools](https://appsecsanta.com/api-security-tools) — Vendor-associated comparison of 9 API security tools with feature breakdowns, licensing info, and alternatives.
-
-#### Adding Tools
-
-To add items, please add a stanza to the yaml file [here](https://github.com/OWASP/www-community/blob/master/_data/api-tools.yml) or email me at matt.tesauro AT owasp.org

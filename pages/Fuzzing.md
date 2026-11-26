@@ -143,33 +143,35 @@ Some fuzzing initiatives:
 
 ## Fuzzing tools
 
-### Open Source
+The tools listed below are provided for information only. OWASP does not endorse any of them, and listing a tool does not imply any assessment of its quality, security or suitability for a particular purpose. The list covers free and open source tools that are actively maintained and is not exhaustive.
 
-#### Mutational Fuzzers
+### Coverage-guided fuzzers
 
-- [american fuzzy lop](https://en.wikipedia.org/wiki/American_fuzzy_lop_%28fuzzer%29)
-- [Radamsa - a flock of fuzzers](https://gitlab.com/akihe/radamsa)
-- [APIFuzzer - fuzz test without coding](https://pypi.org/project/APIFuzzer/)
-- [Jazzer - fuzzing for the JVM](https://github.com/CodeIntelligenceTesting/jazzer)
-- [ForAllSecure Mayhem for API](https://forallsecure.com/mayhem-for-api)
-- [WuppieFuzz - coverage-guided for REST API](https://github.com/TNO-S3/WuppieFuzz)
+- [AFL++](https://github.com/AFLplusplus/AFLplusplus) - actively developed successor to american fuzzy lop (AFL)
+- [libFuzzer](https://llvm.org/docs/LibFuzzer.html) - in-process, coverage-guided fuzzing engine from LLVM
+- [Honggfuzz](https://github.com/google/honggfuzz) - security-oriented, feedback-driven fuzzer
+- [OSS-Fuzz](https://github.com/google/oss-fuzz) - continuous fuzzing service for open source projects
 
-#### Fuzzing Frameworks
+### Language-specific fuzzers
 
-- [Sulley Fuzzing Framework](https://github.com/OpenRCE/sulley)
-- [boofuzz](https://github.com/jtpereyda/boofuzz)
-- [BFuzz](https://github.com/RootUp/BFuzz)
+- [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - coverage-guided fuzzing for the JVM
+- [Atheris](https://github.com/google/atheris) - coverage-guided fuzzer for Python
+- [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) - libFuzzer-based fuzzing for Rust
+- [Go native fuzzing](https://go.dev/doc/security/fuzz/) - built into the Go toolchain (`go test -fuzz`)
 
-#### Domain-Specific Fuzzers
+### Mutation and protocol fuzzers
 
-- [ABNF Fuzzer](https://github.com/nradov/abnffuzzer)
+- [Radamsa](https://gitlab.com/akihe/radamsa) - general-purpose test data generator
+- [boofuzz](https://github.com/jtpereyda/boofuzz) - network protocol fuzzer, successor to Sulley
 
-### Commercial products
+### API and web fuzzers
 
-- [Codenomicon's product suite](http://www.codenomicon.com/products/all.shtml)
-- [Peach Fuzzing Platform](http://peachfuzzer.com)
-- [Beyond Security's beSTORM product](http://www.beyondsecurity.com/bestorm_overview.html)
-- [ForAllSecure Mayhem for Code](https://forallsecure.com/mayhem-for-code)
-- [CI Fuzz](https://code-intelligence.com)
-- [Fuzzbuzz](https://fuzzbuzz.io)
+- [RESTler](https://github.com/microsoft/restler-fuzzer) - stateful REST API fuzzing
+- [Schemathesis](https://github.com/schemathesis/schemathesis) - property-based testing and fuzzing for OpenAPI and GraphQL
+- [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) - coverage-guided fuzzing for REST APIs
+- [ffuf](https://github.com/ffuf/ffuf) - fast web fuzzer for content and parameter discovery
+
+### Kernel fuzzers
+
+- [syzkaller](https://github.com/google/syzkaller) - unsupervised, coverage-guided kernel fuzzer
 

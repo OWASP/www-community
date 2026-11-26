@@ -51,7 +51,7 @@ By adopting these practices, developers and organizations can move towards a mor
 
 #### More Info
 
-* [Free Open Source SAST Tools](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools)
+* [Free for Open Source Application Security Tools](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools)
 
 * [DAST Tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
 
