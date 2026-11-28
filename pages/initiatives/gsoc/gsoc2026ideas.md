@@ -51,7 +51,7 @@ BLT has evolved into a growing ecosystem that combines **modern full-stack engin
 
 This year's OWASP BLT GSoC projects center on **core platform modernization, AI-native interfaces, automation-first workflows, distributed security infrastructure, hands-on security education, and meaningful gamification**. Our goal is to make BLT faster, more scalable, AI-agent ready, and deeply educational—turning real security work into structured learning pathways.
 
-> Preference will be given to students who have at least **5 merged PRs** before GSoC selection.
+> Preference will be given to students who have at least **5 merged PRs** in [OWASP BLT](https://git.owaspblt.org) (GitHub mirror: [OWASP/BLT](https://github.com/OWASP/BLT)) before GSoC selection.
 
 #### Explanation of Ideas
 
